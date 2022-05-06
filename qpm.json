@@ -7,7 +7,10 @@
     "version": "0.23.0",
     "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
     "additionalData": {
-      "overrideSoName": "libcodegen.so"
+      "soLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.23.0/libcodegen.so",
+      "overrideSoName": "libcodegen.so",
+      "modLink": "https://github.com/sc2ad/BeatSaber-Quest-Codegen/releases/download/v0.23.0/Codegen.qmod",
+      "branchName": "version-v0.23.0"
     }
   },
   "dependencies": [
