@@ -95,26 +95,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetVolume
     [[deprecated("Use field access instead!")]] float& dyn__targetVolume();
     // public System.Void .ctor()
-    // Offset: 0x14B6360
+    // Offset: 0x14B9724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSoundEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14B5B98
+    // Offset: 0x14B8F5C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14B5DD4
+    // Offset: 0x14B9198
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x14B6038
+    // Offset: 0x14B93FC
     void LateUpdate();
     // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0x14B6214
+    // Offset: 0x14B95D8
     void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
     // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0x14B634C
+    // Offset: 0x14B9710
     void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
   }; // ObstacleSaberSoundEffect
   #pragma pack(pop)

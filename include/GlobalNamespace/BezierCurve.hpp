@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Vector3 p3
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_p3();
     // public System.Void .ctor(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Vector3 p3)
-    // Offset: 0x13302FC
+    // Offset: 0x13322BC
     // ABORTED: conflicts with another method.  BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
   }; // BezierCurve
   #pragma pack(pop)

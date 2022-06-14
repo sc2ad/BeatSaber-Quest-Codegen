@@ -36,20 +36,20 @@ namespace System::Net {
   class FtpDataStream::WriteDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A82960
+    // Offset: 0x1A7B4A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpDataStream::WriteDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpDataStream::WriteDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpDataStream::WriteDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1A832D8
+    // Offset: 0x1A7BE1C
     void Invoke(::ArrayW<uint8_t> buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A82970
+    // Offset: 0x1A7B4B4
     ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A82B44
+    // Offset: 0x1A7B688
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.FtpDataStream/System.Net.WriteDelegate
   #pragma pack(pop)

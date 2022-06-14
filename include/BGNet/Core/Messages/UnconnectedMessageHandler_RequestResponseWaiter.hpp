@@ -72,29 +72,29 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenRegistration& dyn__requestCancellationTokenRegistration();
     // public System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedMessage> get_task()
-    // Offset: 0x153AC3C
+    // Offset: 0x1552278
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::IUnconnectedMessage*>* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x153AB0C
+    // Offset: 0x1552148
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x153A914
+    // Offset: 0x1551F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::RequestResponseWaiter* New_ctor(::System::Threading::CancellationToken disposedCancellationToken, ::System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::RequestResponseWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(BGNet.Core.Messages.IUnconnectedMessage response)
-    // Offset: 0x1537598
+    // Offset: 0x154EBD4
     void Complete(::BGNet::Core::Messages::IUnconnectedMessage* response);
     // public System.Void Fail(System.Exception ex)
-    // Offset: 0x153AB7C
+    // Offset: 0x15521B8
     void Fail(::System::Exception* ex);
     // public System.Void Cancel()
-    // Offset: 0x153ABE4
+    // Offset: 0x1552220
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x153AA30
+    // Offset: 0x155206C
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

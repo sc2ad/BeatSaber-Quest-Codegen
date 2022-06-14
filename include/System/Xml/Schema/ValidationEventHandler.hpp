@@ -43,20 +43,20 @@ namespace System::Xml::Schema {
   class ValidationEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C657BC
+    // Offset: 0x1C58490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ValidationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.Xml.Schema.ValidationEventArgs e)
-    // Offset: 0x1C657CC
+    // Offset: 0x1C584A0
     void Invoke(::Il2CppObject* sender, ::System::Xml::Schema::ValidationEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.Xml.Schema.ValidationEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C65BB4
+    // Offset: 0x1C58888
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, ::System::Xml::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C65BE4
+    // Offset: 0x1C588B8
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.Schema.ValidationEventHandler
   #pragma pack(pop)

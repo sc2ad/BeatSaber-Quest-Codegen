@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IEditTimeValidated*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x14C247C
+    // Offset: 0x14C4EB0
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

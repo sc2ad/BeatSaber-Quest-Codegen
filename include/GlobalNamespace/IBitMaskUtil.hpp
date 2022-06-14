@@ -98,13 +98,13 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, bytes, offset);
     }
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x2A0121C
+    // Offset: 0x29FE3D4
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x2A0126C
+    // Offset: 0x29FE424
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x2A012DC
+    // Offset: 0x29FE494
     static ::Il2CppChar GetBase64Char(uint64_t digit);
   }; // IBitMaskUtil
   #pragma pack(pop)

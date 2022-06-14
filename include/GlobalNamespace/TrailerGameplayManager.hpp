@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disableMainCamera and: gameScenesManager
     char __padding0[0x7] = {};
-    // [InjectAttribute] Offset: 0x10D7528
+    // [InjectAttribute] Offset: 0x10DA2B4
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D7538
+    // [InjectAttribute] Offset: 0x10DA2C4
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D7548
+    // [InjectAttribute] Offset: 0x10DA2D4
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x30
@@ -88,14 +88,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainCamera _mainCamera
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCamera*& dyn__mainCamera();
     // public System.Void .ctor()
-    // Offset: 0x142202C
+    // Offset: 0x1491AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailerGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailerGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailerGameplayManager*, creationType>()));
     }
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1421F90
+    // Offset: 0x1491A44
     ::System::Collections::IEnumerator* Start();
   }; // TrailerGameplayManager
   #pragma pack(pop)

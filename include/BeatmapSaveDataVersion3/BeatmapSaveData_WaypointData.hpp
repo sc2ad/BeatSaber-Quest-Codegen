@@ -56,16 +56,16 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private OffsetDirection d
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OffsetDirection& dyn_d();
     // public System.Int32 get_line()
-    // Offset: 0x286E0F8
+    // Offset: 0x2827588
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x286E100
+    // Offset: 0x2827590
     int get_layer();
     // public OffsetDirection get_offsetDirection()
-    // Offset: 0x286E108
+    // Offset: 0x2827598
     ::GlobalNamespace::OffsetDirection get_offsetDirection();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer, OffsetDirection offsetDirection)
-    // Offset: 0x286D328
+    // Offset: 0x28267B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::WaypointData* New_ctor(float beat, int line, int layer, ::GlobalNamespace::OffsetDirection offsetDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData::.ctor");

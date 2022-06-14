@@ -43,14 +43,14 @@ namespace HMUI {
     // Get instance field reference: public System.Boolean prevAnimateParentCanvas
     [[deprecated("Use field access instead!")]] bool& dyn_prevAnimateParentCanvas();
     // public System.Void .ctor()
-    // Offset: 0x16BB04C
+    // Offset: 0x16B9B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ModalView::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView::$$c__DisplayClass21_0*, creationType>()));
     }
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
-    // Offset: 0x16BB0E8
+    // Offset: 0x16B9C0C
     void $HandleParentViewControllerDidDeactivate$b__0();
   }; // HMUI.ModalView/HMUI.<>c__DisplayClass21_0
   #pragma pack(pop)

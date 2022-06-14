@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class PerformanceCountersElement : public ::System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A6FF28
+    // Offset: 0x1A68A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerformanceCountersElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::PerformanceCountersElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerformanceCountersElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A6FF68
+    // Offset: 0x1A68AAC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

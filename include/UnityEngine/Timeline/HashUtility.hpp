@@ -25,25 +25,25 @@ namespace UnityEngine::Timeline {
   class HashUtility : public ::Il2CppObject {
     public:
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x1DAF4F0
+    // Offset: 0x1DA31C4
     static int CombineHash(int h1, int h2);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x1DB96D8
+    // Offset: 0x1DAD3AC
     static int CombineHash(int h1, int h2, int h3);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x1DB9704
+    // Offset: 0x1DAD3D8
     static int CombineHash(int h1, int h2, int h3, int h4);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5)
-    // Offset: 0x1DB9740
+    // Offset: 0x1DAD414
     static int CombineHash(int h1, int h2, int h3, int h4, int h5);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6)
-    // Offset: 0x1DB978C
+    // Offset: 0x1DAD460
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6);
     // static public System.Int32 CombineHash(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4, System.Int32 h5, System.Int32 h6, System.Int32 h7)
-    // Offset: 0x1DB97E8
+    // Offset: 0x1DAD4BC
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6, int h7);
     // static public System.Int32 CombineHash(System.Int32[] hashes)
-    // Offset: 0x1DB9820
+    // Offset: 0x1DAD4F4
     static int CombineHash(::ArrayW<int> hashes);
   }; // UnityEngine.Timeline.HashUtility
   #pragma pack(pop)

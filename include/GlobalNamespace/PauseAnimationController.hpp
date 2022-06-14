@@ -61,32 +61,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action resumeFromPauseAnimationDidFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_resumeFromPauseAnimationDidFinishEvent();
     // public System.Void add_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x135FA30
+    // Offset: 0x13619C8
     void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
     // public System.Void remove_resumeFromPauseAnimationDidFinishEvent(System.Action value)
-    // Offset: 0x135FAD4
+    // Offset: 0x1361A6C
     void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x135FD48
+    // Offset: 0x1361CE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseAnimationController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x135FB78
+    // Offset: 0x1361B10
     void Awake();
     // public System.Void StartEnterPauseAnimation()
-    // Offset: 0x135FBB4
+    // Offset: 0x1361B4C
     void StartEnterPauseAnimation();
     // public System.Void StartResumeFromPauseAnimation()
-    // Offset: 0x135FC34
+    // Offset: 0x1361BCC
     void StartResumeFromPauseAnimation();
     // public System.Void EnterPauseAnimationDidFinish()
-    // Offset: 0x135FCB4
+    // Offset: 0x1361C4C
     void EnterPauseAnimationDidFinish();
     // public System.Void ResumeFromPauseAnimationDidFinish()
-    // Offset: 0x135FCF0
+    // Offset: 0x1361C88
     void ResumeFromPauseAnimationDidFinish();
   }; // PauseAnimationController
   #pragma pack(pop)

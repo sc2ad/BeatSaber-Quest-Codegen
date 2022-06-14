@@ -48,42 +48,42 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c
     class $$c;
     public:
-    // [InjectAttribute] Offset: 0x10D983C
+    // [InjectAttribute] Offset: 0x10DC5C8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D984C
+    // [InjectAttribute] Offset: 0x10DC5D8
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D985C
+    // [InjectAttribute] Offset: 0x10DC5E8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D986C
+    // [InjectAttribute] Offset: 0x10DC5F8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D987C
+    // [InjectAttribute] Offset: 0x10DC608
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D988C
+    // [InjectAttribute] Offset: 0x10DC618
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -120,29 +120,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeToNextUpdate
     [[deprecated("Use field access instead!")]] float& dyn__timeToNextUpdate();
     // public System.Void .ctor()
-    // Offset: 0x139C64C
+    // Offset: 0x13B2C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOtherPlayersScoreDiffTextManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOtherPlayersScoreDiffTextManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x139B528
+    // Offset: 0x13B1B10
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139B5F0
+    // Offset: 0x13B1BD8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x139B6CC
+    // Offset: 0x13B1CB4
     void Update();
     // private System.Void InitLeftRightPositions()
-    // Offset: 0x139C028
+    // Offset: 0x13B2610
     void InitLeftRightPositions();
     // private System.Void HideAll()
-    // Offset: 0x139BA8C
+    // Offset: 0x13B2074
     void HideAll();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x139C52C
+    // Offset: 0x13B2B14
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State newState);
   }; // MultiplayerOtherPlayersScoreDiffTextManager
   #pragma pack(pop)

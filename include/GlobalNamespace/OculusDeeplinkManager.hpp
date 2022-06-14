@@ -86,38 +86,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _oculusPlatformWasInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__oculusPlatformWasInitialized();
     // public Deeplink get_currentDeeplink()
-    // Offset: 0x1545324
+    // Offset: 0x155B960
     ::GlobalNamespace::Deeplink* get_currentDeeplink();
     // public System.Void add_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x15451DC
+    // Offset: 0x155B818
     void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
     // public System.Void remove_didReceiveDeeplinkEvent(System.Action`1<Deeplink> value)
-    // Offset: 0x1545280
+    // Offset: 0x155B8BC
     void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
     // public System.Void .ctor()
-    // Offset: 0x15457B4
+    // Offset: 0x155BDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusDeeplinkManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusDeeplinkManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeeplinkManager*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x154532C
+    // Offset: 0x155B968
     void Init();
     // public System.Void OculusPlatformWasInitialized()
-    // Offset: 0x15453A8
+    // Offset: 0x155B9E4
     void OculusPlatformWasInitialized();
     // private System.Void SetJoinIntentReceivedNotificationCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.GroupPresenceJoinIntent> message)
-    // Offset: 0x15453C0
+    // Offset: 0x155B9FC
     void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
     // private System.Void UpdateDeeplinkMessage(Oculus.Platform.Models.GroupPresenceJoinIntent joinIntent, Oculus.Platform.Models.LaunchDetails launchDetails)
-    // Offset: 0x15454E0
+    // Offset: 0x155BB1C
     void UpdateDeeplinkMessage(::Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, ::Oculus::Platform::Models::LaunchDetails* launchDetails);
     // private System.Boolean IsAtLeastOneFieldPopulated(Deeplink deeplink)
-    // Offset: 0x1545734
+    // Offset: 0x155BD70
     bool IsAtLeastOneFieldPopulated(::GlobalNamespace::Deeplink* deeplink);
     // static public System.Void Log(System.String message)
-    // Offset: 0x1545478
+    // Offset: 0x155BAB4
     static void Log(::StringW message);
   }; // OculusDeeplinkManager
   #pragma pack(pop)

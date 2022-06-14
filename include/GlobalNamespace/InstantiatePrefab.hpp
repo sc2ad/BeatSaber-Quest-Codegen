@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.GameObject _prefab
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__prefab();
     // public System.Void .ctor()
-    // Offset: 0x15AA2E0
+    // Offset: 0x15AAE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstantiatePrefab* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InstantiatePrefab::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstantiatePrefab*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15AA1E0
+    // Offset: 0x15AAD04
     void Awake();
   }; // InstantiatePrefab
   #pragma pack(pop)

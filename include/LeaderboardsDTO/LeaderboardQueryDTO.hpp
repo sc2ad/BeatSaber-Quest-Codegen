@@ -127,7 +127,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
     [[deprecated("Use field access instead!")]] bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x13B33C4
+    // Offset: 0x137488C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardQueryDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LeaderboardQueryDTO::.ctor");

@@ -30,7 +30,7 @@ namespace BGNet::Core::Messages {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x153A1E0
+    // Offset: 0x155181C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::RequestWaiter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiter::.ctor");

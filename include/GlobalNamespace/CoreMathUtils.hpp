@@ -35,20 +35,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kHalfJumpDistanceEpsilon
     static void _set_kHalfJumpDistanceEpsilon(float value);
     // public System.Void .ctor()
-    // Offset: 0x2AF0F1C
+    // Offset: 0x2AE8CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreMathUtils* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoreMathUtils::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoreMathUtils*, creationType>()));
     }
     // static public System.Single CalculateHalfJumpDurationInBeats(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2AF0E5C
+    // Offset: 0x2AE8C30
     static float CalculateHalfJumpDurationInBeats(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
     // static public System.Single __CalculateHalfJumpDurationInBeatsV2(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x2AF0E9C
+    // Offset: 0x2AE8C70
     static float __CalculateHalfJumpDurationInBeatsV2(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float noteJumpStartBeatOffset);
     // static public System.Int32 __CalculateHalfJumpDurationInBeatsV1(System.Single startHalfJumpDurationInBeats, System.Single maxHalfJumpDistance, System.Single noteJumpMovementSpeed, System.Single oneBeatDuration, System.Single minHalfJumpDistance)
-    // Offset: 0x2AF0ED0
+    // Offset: 0x2AE8CA4
     static int __CalculateHalfJumpDurationInBeatsV1(float startHalfJumpDurationInBeats, float maxHalfJumpDistance, float noteJumpMovementSpeed, float oneBeatDuration, float minHalfJumpDistance);
   }; // CoreMathUtils
   #pragma pack(pop)

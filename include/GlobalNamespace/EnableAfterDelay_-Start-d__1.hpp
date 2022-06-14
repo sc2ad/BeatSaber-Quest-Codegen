@@ -59,26 +59,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public EnableAfterDelay <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnableAfterDelay*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x15A1428
+    // Offset: 0x15A1F4C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15A1490
+    // Offset: 0x15A1FB4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15A1340
+    // Offset: 0x15A1E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableAfterDelay::$Start$d__1* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableAfterDelay::$Start$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableAfterDelay::$Start$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15A1374
+    // Offset: 0x15A1E98
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15A1378
+    // Offset: 0x15A1E9C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15A1430
+    // Offset: 0x15A1F54
     void System_Collections_IEnumerator_Reset();
   }; // EnableAfterDelay/<Start>d__1
   #pragma pack(pop)

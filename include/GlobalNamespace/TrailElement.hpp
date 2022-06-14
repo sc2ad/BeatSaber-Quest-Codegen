@@ -71,23 +71,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single time
     [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor()
-    // Offset: 0x14217A0
+    // Offset: 0x1491254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailElement*, creationType>()));
     }
     // public System.Void SetData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x1421574
+    // Offset: 0x1491028
     void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
     // public System.Void CopyFrom(TrailElement other)
-    // Offset: 0x1421674
+    // Offset: 0x1491128
     void CopyFrom(::GlobalNamespace::TrailElement* other);
     // public System.Void SetDistance(System.Single value)
-    // Offset: 0x14216B4
+    // Offset: 0x1491168
     void SetDistance(float value);
     // public System.Void UpdateLocalDistance(TrailElement prev)
-    // Offset: 0x14216BC
+    // Offset: 0x1491170
     void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
   }; // TrailElement
   #pragma pack(pop)

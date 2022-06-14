@@ -54,17 +54,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Transform self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_self();
     // public System.Void .ctor(UnityEngine.Transform self)
-    // Offset: 0x2A98230
+    // Offset: 0x2A8E004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Transform* New_ctor(::UnityEngine::Transform* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Transform*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A9825C
+    // Offset: 0x2A8E030
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Transform other)
-    // Offset: 0x2A982CC
+    // Offset: 0x2A8E0A0
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
   }; // HoudiniEngineUnity.Test_Transform
   #pragma pack(pop)

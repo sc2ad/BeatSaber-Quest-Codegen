@@ -91,25 +91,25 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData> l
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData*>*& dyn_l();
     // public System.Single get_rotationDistributionParam()
-    // Offset: 0x286DEB0
+    // Offset: 0x2827340
     float get_rotationDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_rotationDistributionParamType()
-    // Offset: 0x286DEB8
+    // Offset: 0x2827348
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_rotationDistributionParamType();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis get_axis()
-    // Offset: 0x286DEC0
+    // Offset: 0x2827350
     ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis get_axis();
     // public System.Boolean get_flipRotation()
-    // Offset: 0x286DEC8
+    // Offset: 0x2827358
     bool get_flipRotation();
     // public System.Boolean get_rotationDistributionShouldAffectFirstBaseEvent()
-    // Offset: 0x286DED8
+    // Offset: 0x2827368
     bool get_rotationDistributionShouldAffectFirstBaseEvent();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData> get_lightRotationBaseDataList()
-    // Offset: 0x286DEE8
+    // Offset: 0x2827378
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData*>* get_lightRotationBaseDataList();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType, System.Single rotationDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType rotationDistributionParamType, System.Boolean rotationDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis axis, System.Boolean flipRotation, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData> lightRotationBaseDataList)
-    // Offset: 0x286DEF0
+    // Offset: 0x2827380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightRotationEventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType, float rotationDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis axis, bool flipRotation, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData*>* lightRotationBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBox::.ctor");

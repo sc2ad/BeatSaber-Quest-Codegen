@@ -48,20 +48,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 position
     [[deprecated("Use field access instead!")]] int& dyn_position();
     // public System.Object get_Current()
-    // Offset: 0x15D80BC
+    // Offset: 0x15D8BE0
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Object value)
-    // Offset: 0x15D8088
+    // Offset: 0x15D8BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator* New_ctor(::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator*, creationType>(value)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x15D8138
+    // Offset: 0x15D8C5C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x15D8154
+    // Offset: 0x15D8C78
     void Reset();
   }; // System.Xml.XmlNamedNodeMap/System.Xml.SmallXmlNodeList/System.Xml.SingleObjectEnumerator
   #pragma pack(pop)

@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
     // public System.Void .ctor()
-    // Offset: 0x13458D4
+    // Offset: 0x1348894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1345854
+    // Offset: 0x1348814
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

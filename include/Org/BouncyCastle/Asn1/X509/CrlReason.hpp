@@ -35,19 +35,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static private readonly System.String[] ReasonString
     static void _set_ReasonString(::ArrayW<::StringW> value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
-    // Offset: 0x1F130A8
+    // Offset: 0x1F08D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlReason* New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::CrlReason::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlReason*, creationType>(reason)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F13200
+    // Offset: 0x1F08ED4
     // Implemented from: Org.BouncyCastle.Asn1.DerEnumerated
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1F13134
+    // Offset: 0x1F08E08
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

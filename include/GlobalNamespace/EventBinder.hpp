@@ -54,17 +54,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Action> _unsubscribes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Action*>*& dyn__unsubscribes();
     // public System.Void .ctor()
-    // Offset: 0x15A1DD8
+    // Offset: 0x15A28FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBinder*, creationType>()));
     }
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x15A1C4C
+    // Offset: 0x15A2770
     void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x15A1CC8
+    // Offset: 0x15A27EC
     void ClearAllBindings();
   }; // EventBinder
   #pragma pack(pop)

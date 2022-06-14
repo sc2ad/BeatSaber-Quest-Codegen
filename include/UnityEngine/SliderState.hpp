@@ -53,7 +53,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean isDragging
     [[deprecated("Use field access instead!")]] bool& dyn_isDragging();
     // public System.Void .ctor()
-    // Offset: 0x2002B30
+    // Offset: 0x1FE1744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SliderState::.ctor");

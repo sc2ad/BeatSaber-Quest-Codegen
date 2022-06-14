@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class RangeIndexFilter : public ::GlobalNamespace::BaseIndexFilter {
     public:
     // public System.Void .ctor(System.Int32 start, System.Int32 end)
-    // Offset: 0x13E3E94
+    // Offset: 0x147A3C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeIndexFilter* New_ctor(int start, int end) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RangeIndexFilter::.ctor");

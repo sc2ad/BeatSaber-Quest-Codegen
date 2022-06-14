@@ -52,17 +52,17 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__9_0
     static void _set_$$9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FE34C4
+    // Offset: 0x1FC20D8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1FE3528
+    // Offset: 0x1FC213C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshHandles::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshHandles::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandles::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<System.Int32> <CreateFaceMesh>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1FE3530
+    // Offset: 0x1FC2144
     ::System::Collections::Generic::IEnumerable_1<int>* $CreateFaceMesh$b__9_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshHandles/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

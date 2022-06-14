@@ -106,10 +106,10 @@ namespace Valve::VR {
     // Get instance field reference: public Valve.VR.VRControllerAxis_t rAxis4
     [[deprecated("Use field access instead!")]] ::Valve::VR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x2AA80E0
+    // Offset: 0x2A9DEB4
     VRControllerState_t_Packed(::Valve::VR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VRControllerState_t unpacked)
-    // Offset: 0x2AA8124
+    // Offset: 0x2A9DEF8
     void Unpack(ByRef<::Valve::VR::VRControllerState_t> unpacked);
   }; // Valve.VR.VRControllerState_t_Packed
   #pragma pack(pop)

@@ -36,22 +36,22 @@ namespace System {
   class SecurityUtils : public ::Il2CppObject {
     public:
     // static private System.Void DemandReflectionAccess(System.Type type)
-    // Offset: 0x1BFCDD8
+    // Offset: 0x1BF0AAC
     static void DemandReflectionAccess(::System::Type* type);
     // static private System.Boolean HasReflectionPermission(System.Type type)
-    // Offset: 0x1BFCDDC
+    // Offset: 0x1BF0AB0
     static bool HasReflectionPermission(::System::Type* type);
     // static System.Object SecureCreateInstance(System.Type type)
-    // Offset: 0x1BFCE1C
+    // Offset: 0x1BF0AF0
     static ::Il2CppObject* SecureCreateInstance(::System::Type* type);
     // static System.Object SecureCreateInstance(System.Type type, System.Object[] args, System.Boolean allowNonPublic)
-    // Offset: 0x1BFCE28
+    // Offset: 0x1BF0AFC
     static ::Il2CppObject* SecureCreateInstance(::System::Type* type, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic);
     // static System.Object SecureConstructorInvoke(System.Type type, System.Type[] argTypes, System.Object[] args, System.Boolean allowNonPublic)
-    // Offset: 0x1BFCF4C
+    // Offset: 0x1BF0C20
     static ::Il2CppObject* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic);
     // static System.Object SecureConstructorInvoke(System.Type type, System.Type[] argTypes, System.Object[] args, System.Boolean allowNonPublic, System.Reflection.BindingFlags extraFlags)
-    // Offset: 0x1BFCF58
+    // Offset: 0x1BF0C2C
     static ::Il2CppObject* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*> argTypes, ::ArrayW<::Il2CppObject*> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags);
   }; // System.SecurityUtils
   #pragma pack(pop)

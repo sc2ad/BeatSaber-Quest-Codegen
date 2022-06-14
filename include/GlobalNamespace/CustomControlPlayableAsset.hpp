@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public AvatarColorBehaviour _template
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1429760
+    // Offset: 0x14036D4
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1429768
+    // Offset: 0x14036DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomControlPlayableAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomControlPlayableAsset::.ctor");

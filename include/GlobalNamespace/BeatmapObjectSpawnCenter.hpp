@@ -91,29 +91,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnCenterDistance
     [[deprecated("Use field access instead!")]] float& dyn__spawnCenterDistance();
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0x150FE00
+    // Offset: 0x1510F48
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0x150FE08
+    // Offset: 0x1510F50
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x150FE10
+    // Offset: 0x1510F58
     void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x150FEB4
+    // Offset: 0x1510FFC
     void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x1510104
+    // Offset: 0x151124C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnCenter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnCenter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnCenter*, creationType>()));
     }
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0x150FF58
+    // Offset: 0x15110A0
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0x1510084
+    // Offset: 0x15111CC
     void ReportAndSaveSpawnCenterDistance(float distance);
   }; // BeatmapObjectSpawnCenter
   #pragma pack(pop)

@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lightId
     [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // public System.Int32 get_lightId()
-    // Offset: 0x14C33D4
+    // Offset: 0x14C5E08
     int get_lightId();
     // public System.Void .ctor()
-    // Offset: 0x14C33DC
+    // Offset: 0x14C5E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupParent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupParent::.ctor");

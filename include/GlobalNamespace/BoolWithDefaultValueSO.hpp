@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _defaultValue
     [[deprecated("Use field access instead!")]] bool& dyn__defaultValue();
     // public System.Void .ctor()
-    // Offset: 0x159BB4C
+    // Offset: 0x159C670
     // Implemented from: BoolSO
     // Base method: System.Void BoolSO::.ctor()
     // Base method: System.Void ObservableVariableSO_1::.ctor()
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BoolWithDefaultValueSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x159BAEC
+    // Offset: 0x159C610
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

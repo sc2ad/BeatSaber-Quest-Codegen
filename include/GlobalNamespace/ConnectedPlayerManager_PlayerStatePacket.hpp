@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerStateHash playerState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerStateHash& dyn_playerState();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x16739D0
+    // Offset: 0x16724F4
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x1674860
+    // Offset: 0x1673384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerStatePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerStatePacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16747CC
+    // Offset: 0x16732F0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16747D8
+    // Offset: 0x16732FC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1674804
+    // Offset: 0x1673328
     void Release();
     // public ConnectedPlayerManager/PlayerStatePacket Init(PlayerStateHash states)
-    // Offset: 0x1673A18
+    // Offset: 0x167253C
     ::GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(::GlobalNamespace::PlayerStateHash states);
   }; // ConnectedPlayerManager/PlayerStatePacket
   #pragma pack(pop)

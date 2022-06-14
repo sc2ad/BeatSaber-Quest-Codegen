@@ -161,56 +161,56 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0x164E744
+    // Offset: 0x164E268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR::COpenVRContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::OpenVR::COpenVRContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
     // public System.Void Clear()
-    // Offset: 0x164F8E4
+    // Offset: 0x164F408
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x164F96C
+    // Offset: 0x164F490
     void CheckClear();
     // public OVR.OpenVR.CVRSystem VRSystem()
-    // Offset: 0x164E7DC
+    // Offset: 0x164E300
     ::OVR::OpenVR::CVRSystem* VRSystem();
     // public OVR.OpenVR.CVRChaperone VRChaperone()
-    // Offset: 0x164E904
+    // Offset: 0x164E428
     ::OVR::OpenVR::CVRChaperone* VRChaperone();
     // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x164EA2C
+    // Offset: 0x164E550
     ::OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
     // public OVR.OpenVR.CVRCompositor VRCompositor()
-    // Offset: 0x164EB54
+    // Offset: 0x164E678
     ::OVR::OpenVR::CVRCompositor* VRCompositor();
     // public OVR.OpenVR.CVROverlay VROverlay()
-    // Offset: 0x164EC7C
+    // Offset: 0x164E7A0
     ::OVR::OpenVR::CVROverlay* VROverlay();
     // public OVR.OpenVR.CVRRenderModels VRRenderModels()
-    // Offset: 0x164EDA4
+    // Offset: 0x164E8C8
     ::OVR::OpenVR::CVRRenderModels* VRRenderModels();
     // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x164EECC
+    // Offset: 0x164E9F0
     ::OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
     // public OVR.OpenVR.CVRSettings VRSettings()
-    // Offset: 0x164EFF4
+    // Offset: 0x164EB18
     ::OVR::OpenVR::CVRSettings* VRSettings();
     // public OVR.OpenVR.CVRApplications VRApplications()
-    // Offset: 0x164F11C
+    // Offset: 0x164EC40
     ::OVR::OpenVR::CVRApplications* VRApplications();
     // public OVR.OpenVR.CVRScreenshots VRScreenshots()
-    // Offset: 0x164F244
+    // Offset: 0x164ED68
     ::OVR::OpenVR::CVRScreenshots* VRScreenshots();
     // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x164F36C
+    // Offset: 0x164EE90
     ::OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
     // public OVR.OpenVR.CVRInput VRInput()
-    // Offset: 0x164F494
+    // Offset: 0x164EFB8
     ::OVR::OpenVR::CVRInput* VRInput();
     // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
-    // Offset: 0x164F5BC
+    // Offset: 0x164F0E0
     ::OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
   }; // OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext
   #pragma pack(pop)

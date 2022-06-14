@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpDuration
     [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 headMoveStartPos, UnityEngine.Vector3 headJumpStartPos, UnityEngine.Vector3 headJumpEndPos, System.Single headJumpGravity, UnityEngine.Vector3 tailMoveStartPos, UnityEngine.Vector3 tailJumpStartPos, UnityEngine.Vector3 tailJumpEndPos, System.Single tailJumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x132E44C
+    // Offset: 0x133040C
     // ABORTED: conflicts with another method.  SliderSpawnData(::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float tailJumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/SliderSpawnData
   #pragma pack(pop)

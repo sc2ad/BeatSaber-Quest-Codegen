@@ -63,14 +63,14 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.DiContainer _subcontainer
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__subcontainer();
     // public System.Void .ctor(Zenject.DiContainer subcontainer)
-    // Offset: 0x1D21168
+    // Offset: 0x1D14E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstance*, creationType>(subcontainer)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x1D2294C
+    // Offset: 0x1D16620
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstance
   #pragma pack(pop)

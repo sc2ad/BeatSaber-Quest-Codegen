@@ -100,14 +100,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TrackLaneRingsRotationEffect* trackLaneRingsRotationEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsRotationEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D6D48
+    // [SpaceAttribute] Offset: 0x10D9AD4
     // private BasicBeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D6D80
+    // [SpaceAttribute] Offset: 0x10D9B0C
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x24
@@ -138,7 +138,7 @@ namespace GlobalNamespace {
     float rotationFlexySpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10D6DF8
+    // [InjectAttribute] Offset: 0x10D9B84
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
@@ -173,20 +173,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x1421550
+    // Offset: 0x1479190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffectSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1421348
+    // Offset: 0x1478F88
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1421460
+    // Offset: 0x14790A0
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x142147C
+    // Offset: 0x14790BC
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // TrackLaneRingsRotationEffectSpawner
   #pragma pack(pop)

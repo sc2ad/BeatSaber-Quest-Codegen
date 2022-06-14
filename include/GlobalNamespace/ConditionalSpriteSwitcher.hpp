@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   class ConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x10DB914
+    // [HeaderAttribute] Offset: 0x10DE6A0
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
     // Offset: 0x18
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10DB970
+    // [HeaderAttribute] Offset: 0x10DE6FC
     // private UnityEngine.Sprite _sprite1
     // Size: 0x8
     // Offset: 0x28
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DB9CC
+    // [SpaceAttribute] Offset: 0x10DE758
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x38
@@ -100,29 +100,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // public UnityEngine.Sprite get_falseSprite()
-    // Offset: 0x1424F98
+    // Offset: 0x13FEF0C
     ::UnityEngine::Sprite* get_falseSprite();
     // public System.Void set_falseSprite(UnityEngine.Sprite value)
-    // Offset: 0x1424FA0
+    // Offset: 0x13FEF14
     void set_falseSprite(::UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_trueSprite()
-    // Offset: 0x1424FA8
+    // Offset: 0x13FEF1C
     ::UnityEngine::Sprite* get_trueSprite();
     // public System.Void set_trueSprite(UnityEngine.Sprite value)
-    // Offset: 0x1424FB0
+    // Offset: 0x13FEF24
     void set_trueSprite(::UnityEngine::Sprite* value);
     // public System.Void .ctor()
-    // Offset: 0x1425064
+    // Offset: 0x13FEFD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalSpriteSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalSpriteSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalSpriteSwitcher*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1424FB8
+    // Offset: 0x13FEF2C
     void Awake();
     // public System.Void Apply()
-    // Offset: 0x1424FBC
+    // Offset: 0x13FEF30
     void Apply();
   }; // ConditionalSpriteSwitcher
   #pragma pack(pop)

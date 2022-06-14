@@ -30,14 +30,14 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1DDB368
+    // Offset: 0x1DD003C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRangeComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass::SingleRangeComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange x, System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange y)
-    // Offset: 0x1DDB32C
+    // Offset: 0x1DD0000
     int Compare(::System::Text::RegularExpressions::RegexCharClass::SingleRange* x, ::System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
   }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRangeComparer
   #pragma pack(pop)

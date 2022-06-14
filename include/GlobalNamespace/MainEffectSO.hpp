@@ -36,23 +36,23 @@ namespace GlobalNamespace {
   class MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x2A3F5C8
+    // Offset: 0x2A3739C
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x2A3EC70
+    // Offset: 0x2A36A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectSO*, creationType>()));
     }
     // public System.Void PreRender()
-    // Offset: 0x2A3F5BC
+    // Offset: 0x2A37390
     void PreRender();
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single fade)
-    // Offset: 0x2A3F5C0
+    // Offset: 0x2A37394
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float fade);
     // public System.Void PostRender(System.Single fade)
-    // Offset: 0x2A3F5C4
+    // Offset: 0x2A37398
     void PostRender(float fade);
   }; // MainEffectSO
   #pragma pack(pop)

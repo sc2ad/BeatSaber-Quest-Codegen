@@ -69,31 +69,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isInLobby>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isInLobby$k__BackingField();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x15568BC
+    // Offset: 0x152A960
     bool get_isPartyOwner();
     // public System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x15568C4
+    // Offset: 0x152A968
     void set_isPartyOwner(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x15568D0
+    // Offset: 0x152A974
     bool get_isActive();
     // public System.Void set_isActive(System.Boolean value)
-    // Offset: 0x15568D8
+    // Offset: 0x152A97C
     void set_isActive(bool value);
     // public System.Boolean get_isReady()
-    // Offset: 0x15568E4
+    // Offset: 0x152A988
     bool get_isReady();
     // public System.Void set_isReady(System.Boolean value)
-    // Offset: 0x15568EC
+    // Offset: 0x152A990
     void set_isReady(bool value);
     // public System.Boolean get_isInLobby()
-    // Offset: 0x15568F8
+    // Offset: 0x152A99C
     bool get_isInLobby();
     // public System.Void set_isInLobby(System.Boolean value)
-    // Offset: 0x1556900
+    // Offset: 0x152A9A4
     void set_isInLobby(bool value);
     // public System.Void .ctor()
-    // Offset: 0x155690C
+    // Offset: 0x152A9B0
     // Implemented from: LevelGameplaySetupData
     // Base method: System.Void LevelGameplaySetupData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

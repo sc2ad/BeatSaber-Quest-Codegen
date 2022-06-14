@@ -64,29 +64,29 @@ namespace TMPro {
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& dyn_kerningPairs();
     // public System.Void .ctor()
-    // Offset: 0x1438524
+    // Offset: 0x142A098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable*, creationType>()));
     }
     // public System.Void AddKerningPair()
-    // Offset: 0x1438598
+    // Offset: 0x142A10C
     void AddKerningPair();
     // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
-    // Offset: 0x14386C0
+    // Offset: 0x142A234
     int AddKerningPair(uint first, uint second, float offset);
     // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
-    // Offset: 0x1438800
+    // Offset: 0x142A374
     int AddGlyphPairAdjustmentRecord(uint first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
     // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
-    // Offset: 0x1438980
+    // Offset: 0x142A4F4
     void RemoveKerningPair(int left, int right);
     // public System.Void RemoveKerningPair(System.Int32 index)
-    // Offset: 0x1438A84
+    // Offset: 0x142A5F8
     void RemoveKerningPair(int index);
     // public System.Void SortKerningPairs()
-    // Offset: 0x1438AEC
+    // Offset: 0x142A660
     void SortKerningPairs();
   }; // TMPro.KerningTable
   #pragma pack(pop)

@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MirroredGameNoteController _mirroredGameNoteController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirroredGameNoteController*& dyn__mirroredGameNoteController();
     // protected MirroredGameNoteController get_gameNoteController()
-    // Offset: 0x12FF4C4
+    // Offset: 0x1301484
     ::GlobalNamespace::MirroredGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x12FF4CC
+    // Offset: 0x130148C
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

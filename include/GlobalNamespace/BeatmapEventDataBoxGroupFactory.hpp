@@ -32,13 +32,13 @@ namespace GlobalNamespace {
   class BeatmapEventDataBoxGroupFactory : public ::Il2CppObject {
     public:
     // static public BeatmapEventDataBoxGroup CreateExtendColorBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x14FF5A4
+    // Offset: 0x15006EC
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendColorBeatmapEventDataBoxGroup(float beat, int numberOfElements);
     // static public BeatmapEventDataBoxGroup CreateExtendRotationBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x14FF74C
+    // Offset: 0x1500894
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendRotationBeatmapEventDataBoxGroup(float beat, int numberOfElements);
     // static public BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements, EnvironmentColorType colorType, System.Single brightness, System.Single rotationX, System.Single rotationY)
-    // Offset: 0x14FFA08
+    // Offset: 0x1500B50
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateSingleLightBeatmapEventDataBoxGroup(float beat, int numberOfElements, ::GlobalNamespace::EnvironmentColorType colorType, float brightness, float rotationX, float rotationY);
   }; // BeatmapEventDataBoxGroupFactory
   #pragma pack(pop)

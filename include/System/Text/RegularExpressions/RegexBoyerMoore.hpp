@@ -112,23 +112,23 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Globalization.CultureInfo _culture
     [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__culture();
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
-    // Offset: 0x1C01660
+    // Offset: 0x1BF5334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexBoyerMoore*, creationType>(pattern, caseInsensitive, rightToLeft, culture)));
     }
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
-    // Offset: 0x1C01B34
+    // Offset: 0x1BF5808
     bool MatchPattern(::StringW text, int index);
     // System.Boolean IsMatch(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1C01C5C
+    // Offset: 0x1BF5930
     bool IsMatch(::StringW text, int index, int beglimit, int endlimit);
     // System.Int32 Scan(System.String text, System.Int32 index, System.Int32 beglimit, System.Int32 endlimit)
-    // Offset: 0x1C01CCC
+    // Offset: 0x1BF59A0
     int Scan(::StringW text, int index, int beglimit, int endlimit);
     // public override System.String ToString()
-    // Offset: 0x1C02010
+    // Offset: 0x1BF5CE4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

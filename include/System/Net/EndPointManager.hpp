@@ -44,31 +44,31 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable ip_to_endpoints
     static void _set_ip_to_endpoints(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A7E14C
+    // Offset: 0x1A76C90
     static void _cctor();
     // static public System.Void AddListener(System.Net.HttpListener listener)
-    // Offset: 0x1A7CFD8
+    // Offset: 0x1A75B1C
     static void AddListener(::System::Net::HttpListener* listener);
     // static public System.Void AddPrefix(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x1A7D87C
+    // Offset: 0x1A763C0
     static void AddPrefix(::StringW prefix, ::System::Net::HttpListener* listener);
     // static private System.Void AddPrefixInternal(System.String p, System.Net.HttpListener listener)
-    // Offset: 0x1A7D628
+    // Offset: 0x1A7616C
     static void AddPrefixInternal(::StringW p, ::System::Net::HttpListener* listener);
     // static private System.Net.EndPointListener GetEPListener(System.String host, System.Int32 port, System.Net.HttpListener listener, System.Boolean secure)
-    // Offset: 0x1A7D980
+    // Offset: 0x1A764C4
     static ::System::Net::EndPointListener* GetEPListener(::StringW host, int port, ::System::Net::HttpListener* listener, bool secure);
     // static public System.Void RemoveEndPoint(System.Net.EndPointListener epl, System.Net.IPEndPoint ep)
-    // Offset: 0x1A7C5AC
+    // Offset: 0x1A750F0
     static void RemoveEndPoint(::System::Net::EndPointListener* epl, ::System::Net::IPEndPoint* ep);
     // static public System.Void RemoveListener(System.Net.HttpListener listener)
-    // Offset: 0x1A7DD60
+    // Offset: 0x1A768A4
     static void RemoveListener(::System::Net::HttpListener* listener);
     // static public System.Void RemovePrefix(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x1A7D778
+    // Offset: 0x1A762BC
     static void RemovePrefix(::StringW prefix, ::System::Net::HttpListener* listener);
     // static private System.Void RemovePrefixInternal(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x1A7E02C
+    // Offset: 0x1A76B70
     static void RemovePrefixInternal(::StringW prefix, ::System::Net::HttpListener* listener);
   }; // System.Net.EndPointManager
   #pragma pack(pop)

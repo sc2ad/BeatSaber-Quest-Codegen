@@ -26,114 +26,114 @@ namespace RootMotion::FinalIK {
   class VRIKCalibrator::Settings : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10FDB30
+    // [TooltipAttribute] Offset: 0x11009F4
     // public System.Single scaleMlp
     // Size: 0x4
     // Offset: 0x10
     float scaleMlp;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10FDB68
+    // [TooltipAttribute] Offset: 0x1100A2C
     // public UnityEngine.Vector3 headTrackerForward
     // Size: 0xC
     // Offset: 0x14
     ::UnityEngine::Vector3 headTrackerForward;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDBA0
+    // [TooltipAttribute] Offset: 0x1100A64
     // public UnityEngine.Vector3 headTrackerUp
     // Size: 0xC
     // Offset: 0x20
     ::UnityEngine::Vector3 headTrackerUp;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDBD8
+    // [TooltipAttribute] Offset: 0x1100A9C
     // public UnityEngine.Vector3 bodyTrackerForward
     // Size: 0xC
     // Offset: 0x2C
     ::UnityEngine::Vector3 bodyTrackerForward;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDC10
+    // [TooltipAttribute] Offset: 0x1100AD4
     // public UnityEngine.Vector3 bodyTrackerUp
     // Size: 0xC
     // Offset: 0x38
     ::UnityEngine::Vector3 bodyTrackerUp;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDC48
+    // [TooltipAttribute] Offset: 0x1100B0C
     // public UnityEngine.Vector3 handTrackerForward
     // Size: 0xC
     // Offset: 0x44
     ::UnityEngine::Vector3 handTrackerForward;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDC80
+    // [TooltipAttribute] Offset: 0x1100B44
     // public UnityEngine.Vector3 handTrackerUp
     // Size: 0xC
     // Offset: 0x50
     ::UnityEngine::Vector3 handTrackerUp;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDCB8
+    // [TooltipAttribute] Offset: 0x1100B7C
     // public UnityEngine.Vector3 footTrackerForward
     // Size: 0xC
     // Offset: 0x5C
     ::UnityEngine::Vector3 footTrackerForward;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDCF0
+    // [TooltipAttribute] Offset: 0x1100BB4
     // public UnityEngine.Vector3 footTrackerUp
     // Size: 0xC
     // Offset: 0x68
     ::UnityEngine::Vector3 footTrackerUp;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x10FDD28
-    // [TooltipAttribute] Offset: 0x10FDD28
+    // [SpaceAttribute] Offset: 0x1100BEC
+    // [TooltipAttribute] Offset: 0x1100BEC
     // public UnityEngine.Vector3 headOffset
     // Size: 0xC
     // Offset: 0x74
     ::UnityEngine::Vector3 headOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDD78
+    // [TooltipAttribute] Offset: 0x1100C3C
     // public UnityEngine.Vector3 handOffset
     // Size: 0xC
     // Offset: 0x80
     ::UnityEngine::Vector3 handOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10FDDB0
+    // [TooltipAttribute] Offset: 0x1100C74
     // public System.Single footForwardOffset
     // Size: 0x4
     // Offset: 0x8C
     float footForwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10FDDE8
+    // [TooltipAttribute] Offset: 0x1100CAC
     // public System.Single footInwardOffset
     // Size: 0x4
     // Offset: 0x90
     float footInwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10FDE20
-    // [RangeAttribute] Offset: 0x10FDE20
+    // [TooltipAttribute] Offset: 0x1100CE4
+    // [RangeAttribute] Offset: 0x1100CE4
     // public System.Single footHeadingOffset
     // Size: 0x4
     // Offset: 0x94
     float footHeadingOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10FDE7C
+    // [RangeAttribute] Offset: 0x1100D40
     // public System.Single pelvisPositionWeight
     // Size: 0x4
     // Offset: 0x98
     float pelvisPositionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10FDE94
+    // [RangeAttribute] Offset: 0x1100D58
     // public System.Single pelvisRotationWeight
     // Size: 0x4
     // Offset: 0x9C
@@ -174,7 +174,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pelvisRotationWeight
     [[deprecated("Use field access instead!")]] float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x1FC9BF0
+    // Offset: 0x1FA7804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::Settings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::Settings::.ctor");

@@ -69,29 +69,29 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
     static void _set_$$9__3_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C1725C
+    // Offset: 0x1C0AF30
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C172C0
+    // Offset: 0x1C0AF94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager::$$c*, creationType>()));
     }
     // System.Int32 <.ctor>b__2_1(Zenject.PoolableManager/Zenject.PoolableInfo x)
-    // Offset: 0x1C172C8
+    // Offset: 0x1C0AF9C
     int $_ctor$b__2_1(::Zenject::PoolableManager::PoolableInfo x);
     // Zenject.IPoolable <.ctor>b__2_2(Zenject.PoolableManager/Zenject.PoolableInfo x)
-    // Offset: 0x1C172D0
+    // Offset: 0x1C0AFA4
     ::Zenject::IPoolable* $_ctor$b__2_2(::Zenject::PoolableManager::PoolableInfo x);
     // System.Nullable`1<System.Int32> <CreatePoolableInfo>b__3_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1C172D8
+    // Offset: 0x1C0AFAC
     ::System::Nullable_1<int> $CreatePoolableInfo$b__3_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C17348
+    // Offset: 0x1C0B01C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C173A4
+    // Offset: 0x1C0B078
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PoolableManager/Zenject.<>c
   #pragma pack(pop)

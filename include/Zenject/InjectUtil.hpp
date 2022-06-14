@@ -51,7 +51,7 @@ namespace Zenject {
     // Nested type: ::Zenject::InjectUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateArgList(System.Collections.Generic.IEnumerable`1<System.Object> args)
-    // Offset: 0x1C0BDBC
+    // Offset: 0x1BFFA90
     static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgList(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* args);
     // static public Zenject.TypeValuePair CreateTypePair(T param)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -117,7 +117,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // static public System.Boolean PopValueWithType(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgMap, System.Type injectedFieldType, out System.Object value)
-    // Offset: 0x1C0BEEC
+    // Offset: 0x1BFFBC0
     static bool PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ByRef<::Il2CppObject*> value);
   }; // Zenject.InjectUtil
   #pragma pack(pop)

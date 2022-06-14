@@ -38,10 +38,10 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: public System.Single m
     [[deprecated("Use field access instead!")]] float& dyn_m();
     // public System.Single get_bpm()
-    // Offset: 0x286D7E0
+    // Offset: 0x2826C70
     float get_bpm();
     // public System.Void .ctor(System.Single beat, System.Single bpm)
-    // Offset: 0x286D378
+    // Offset: 0x2826808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BpmChangeEventData* New_ctor(float beat, float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BpmChangeEventData::.ctor");

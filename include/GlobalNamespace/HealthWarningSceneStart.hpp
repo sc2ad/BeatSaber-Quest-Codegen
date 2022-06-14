@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::HealthWarningFlowCoordinator* healthWarninglowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HealthWarningFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E503C
+    // [InjectAttribute] Offset: 0x10E7EE0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E504C
+    // [InjectAttribute] Offset: 0x10E7EF0
     // private HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.HierarchyManager _hierarchyManager
     [[deprecated("Use field access instead!")]] ::HMUI::HierarchyManager*& dyn__hierarchyManager();
     // public System.Void .ctor()
-    // Offset: 0x13ACABC
+    // Offset: 0x136DF84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningSceneStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneStart*, creationType>()));
     }
     // public System.Collections.IEnumerator Start()
-    // Offset: 0x13ACA20
+    // Offset: 0x136DEE8
     ::System::Collections::IEnumerator* Start();
   }; // HealthWarningSceneStart
   #pragma pack(pop)

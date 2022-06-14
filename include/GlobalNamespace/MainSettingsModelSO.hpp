@@ -58,280 +58,280 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MainSettingsModelSO::Config
     class Config;
     public:
-    // [SOVariableAttribute] Offset: 0x10D1834
+    // [SOVariableAttribute] Offset: 0x10D4374
     // public FloatSO vrResolutionScale
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FloatSO* vrResolutionScale;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1844
+    // [SOVariableAttribute] Offset: 0x10D4384
     // public FloatSO menuVRResolutionScaleMultiplier
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::FloatSO* menuVRResolutionScaleMultiplier;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1854
+    // [SOVariableAttribute] Offset: 0x10D4394
     // public BoolSO useFixedFoveatedRenderingDuringGameplay
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BoolSO* useFixedFoveatedRenderingDuringGameplay;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1864
+    // [SOVariableAttribute] Offset: 0x10D43A4
     // public Vector2IntSO windowResolution
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::Vector2IntSO* windowResolution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector2IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1874
+    // [SOVariableAttribute] Offset: 0x10D43B4
     // public Vector2IntSO editorWindowResolution
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Vector2IntSO* editorWindowResolution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector2IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1884
+    // [SOVariableAttribute] Offset: 0x10D43C4
     // public BoolSO fullscreen
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BoolSO* fullscreen;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1894
+    // [SOVariableAttribute] Offset: 0x10D43D4
     // public IntSO antiAliasingLevel
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IntSO* antiAliasingLevel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18A4
+    // [SOVariableAttribute] Offset: 0x10D43E4
     // public FloatSO volume
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::FloatSO* volume;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18B4
+    // [SOVariableAttribute] Offset: 0x10D43F4
     // public FloatSO ambientVolumeScale
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::FloatSO* ambientVolumeScale;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18C4
+    // [SOVariableAttribute] Offset: 0x10D4404
     // public BoolSO controllersRumbleEnabled
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::BoolSO* controllersRumbleEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18D4
+    // [SOVariableAttribute] Offset: 0x10D4414
     // public Vector3SO roomCenter
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18E4
+    // [SOVariableAttribute] Offset: 0x10D4424
     // public FloatSO roomRotation
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D18F4
+    // [SOVariableAttribute] Offset: 0x10D4434
     // public Vector3SO controllerPosition
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::Vector3SO* controllerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1904
+    // [SOVariableAttribute] Offset: 0x10D4444
     // public Vector3SO controllerRotation
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1914
+    // [SOVariableAttribute] Offset: 0x10D4454
     // public IntSO mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::IntSO* mirrorGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1924
+    // [SOVariableAttribute] Offset: 0x10D4464
     // public IntSO mainEffectGraphicsSettings
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::IntSO* mainEffectGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1934
+    // [SOVariableAttribute] Offset: 0x10D4474
     // public IntSO bloomPrePassGraphicsSettings
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::IntSO* bloomPrePassGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1944
+    // [SOVariableAttribute] Offset: 0x10D4484
     // public BoolSO smokeGraphicsSettings
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::BoolSO* smokeGraphicsSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1954
+    // [SOVariableAttribute] Offset: 0x10D4494
     // public BoolSO enableAlphaFeatures
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::BoolSO* enableAlphaFeatures;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1964
+    // [SOVariableAttribute] Offset: 0x10D44A4
     // public IntSO pauseButtonPressDurationLevel
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::IntSO* pauseButtonPressDurationLevel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1974
+    // [SOVariableAttribute] Offset: 0x10D44B4
     // public BoolSO burnMarkTrailsEnabled
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::BoolSO* burnMarkTrailsEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1984
+    // [SOVariableAttribute] Offset: 0x10D44C4
     // public BoolSO screenDisplacementEffectsEnabled
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::BoolSO* screenDisplacementEffectsEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1994
+    // [SOVariableAttribute] Offset: 0x10D44D4
     // public BoolSO smoothCameraEnabled
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::BoolSO* smoothCameraEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19A4
+    // [SOVariableAttribute] Offset: 0x10D44E4
     // public FloatSO smoothCameraFieldOfView
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::FloatSO* smoothCameraFieldOfView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19B4
+    // [SOVariableAttribute] Offset: 0x10D44F4
     // public Vector3SO smoothCameraThirdPersonPosition
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::Vector3SO* smoothCameraThirdPersonPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19C4
+    // [SOVariableAttribute] Offset: 0x10D4504
     // public Vector3SO smoothCameraThirdPersonEulerAngles
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::Vector3SO* smoothCameraThirdPersonEulerAngles;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19D4
+    // [SOVariableAttribute] Offset: 0x10D4514
     // public BoolSO smoothCameraThirdPersonEnabled
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::BoolSO* smoothCameraThirdPersonEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19E4
+    // [SOVariableAttribute] Offset: 0x10D4524
     // public FloatSO smoothCameraRotationSmooth
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::FloatSO* smoothCameraRotationSmooth;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D19F4
+    // [SOVariableAttribute] Offset: 0x10D4534
     // public FloatSO smoothCameraPositionSmooth
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::FloatSO* smoothCameraPositionSmooth;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A04
+    // [SOVariableAttribute] Offset: 0x10D4544
     // public BoolSO overrideAudioLatency
     // Size: 0x8
     // Offset: 0x100
     ::GlobalNamespace::BoolSO* overrideAudioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A14
+    // [SOVariableAttribute] Offset: 0x10D4554
     // public FloatSO audioLatency
     // Size: 0x8
     // Offset: 0x108
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A24
+    // [SOVariableAttribute] Offset: 0x10D4564
     // public IntSO maxShockwaveParticles
     // Size: 0x8
     // Offset: 0x110
     ::GlobalNamespace::IntSO* maxShockwaveParticles;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A34
+    // [SOVariableAttribute] Offset: 0x10D4574
     // public IntSO maxNumberOfCutSoundEffects
     // Size: 0x8
     // Offset: 0x118
     ::GlobalNamespace::IntSO* maxNumberOfCutSoundEffects;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IntSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A44
+    // [SOVariableAttribute] Offset: 0x10D4584
     // public BoolSO onlineServicesEnabled
     // Size: 0x8
     // Offset: 0x120
     ::GlobalNamespace::BoolSO* onlineServicesEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A54
+    // [SOVariableAttribute] Offset: 0x10D4594
     // public BoolSO openVrThreadedHaptics
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::BoolSO* openVrThreadedHaptics;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A64
+    // [SOVariableAttribute] Offset: 0x10D45A4
     // public LanguageSO language
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::LanguageSO* language;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LanguageSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A74
+    // [SOVariableAttribute] Offset: 0x10D45B4
     // public BoolSO useCustomServerEnvironment
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::BoolSO* useCustomServerEnvironment;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A84
+    // [SOVariableAttribute] Offset: 0x10D45C4
     // public BoolSO forceGameLiftServerEnvironment
     // Size: 0x8
     // Offset: 0x140
     ::GlobalNamespace::BoolSO* forceGameLiftServerEnvironment;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1A94
+    // [SOVariableAttribute] Offset: 0x10D45D4
     // public StringSO customServerHostName
     // Size: 0x8
     // Offset: 0x148
     ::GlobalNamespace::StringSO* customServerHostName;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StringSO*) == 0x8);
-    // [SOVariableAttribute] Offset: 0x10D1AA4
+    // [SOVariableAttribute] Offset: 0x10D45E4
     // public BoolSO depthTextureEnabled
     // Size: 0x8
     // Offset: 0x150
@@ -502,38 +502,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isLoaded
     [[deprecated("Use field access instead!")]] bool& dyn__isLoaded();
     // public System.Boolean get_createScreenshotDuringTheGame()
-    // Offset: 0x156B5F4
+    // Offset: 0x153F658
     bool get_createScreenshotDuringTheGame();
     // private System.Void set_createScreenshotDuringTheGame(System.Boolean value)
-    // Offset: 0x156B5FC
+    // Offset: 0x153F660
     void set_createScreenshotDuringTheGame(bool value);
     // public System.Boolean get_playingForTheFirstTime()
-    // Offset: 0x156B608
+    // Offset: 0x153F66C
     bool get_playingForTheFirstTime();
     // private System.Void set_playingForTheFirstTime(System.Boolean value)
-    // Offset: 0x156B610
+    // Offset: 0x153F674
     void set_playingForTheFirstTime(bool value);
     // public System.Void .ctor()
-    // Offset: 0x156C3CC
+    // Offset: 0x1540430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsModelSO*, creationType>()));
     }
     // public System.Void Save()
-    // Offset: 0x156B61C
+    // Offset: 0x153F680
     void Save();
     // public System.Void Load(System.Boolean forced)
-    // Offset: 0x156BAC8
+    // Offset: 0x153FB2C
     void Load(bool forced);
     // public System.Void __DeleteSettingsFiles()
-    // Offset: 0x156C1F0
+    // Offset: 0x1540254
     void __DeleteSettingsFiles();
     // protected System.Void OnDisable()
-    // Offset: 0x156C3BC
+    // Offset: 0x1540420
     void OnDisable();
     // protected override System.Void OnEnable()
-    // Offset: 0x156C328
+    // Offset: 0x154038C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

@@ -44,23 +44,23 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x2A0D318
+    // Offset: 0x2A094D0
     static ::NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // private System.Void .ctor()
-    // Offset: 0x2A0E364
+    // Offset: 0x2A0A51C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestListener*, creationType>()));
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A0E358
+    // Offset: 0x2A0A510
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x2A0E35C
+    // Offset: 0x2A0A514
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x2A0E360
+    // Offset: 0x2A0A518
     void TestOutput(::NUnit::Framework::Interfaces::TestOutput* output);
   }; // NUnit.Framework.Internal.TestListener
   #pragma pack(pop)

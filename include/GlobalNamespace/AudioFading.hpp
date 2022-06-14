@@ -74,23 +74,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetVolume
     [[deprecated("Use field access instead!")]] float& dyn__targetVolume();
     // public System.Void .ctor()
-    // Offset: 0x14F09D4
+    // Offset: 0x14F2B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioFading* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioFading::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioFading*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14F07CC
+    // Offset: 0x14F2914
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14F0868
+    // Offset: 0x14F29B0
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x14F09A8
+    // Offset: 0x14F2AF0
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x14F0838
+    // Offset: 0x14F2980
     void FadeIn();
   }; // AudioFading
   #pragma pack(pop)

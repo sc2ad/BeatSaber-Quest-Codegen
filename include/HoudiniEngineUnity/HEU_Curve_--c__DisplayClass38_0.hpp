@@ -68,20 +68,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_scales();
     // public System.Void .ctor()
-    // Offset: 0x1781478
+    // Offset: 0x177DFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass38_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass38_0*, creationType>()));
     }
     // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
-    // Offset: 0x1781480
+    // Offset: 0x177DFC4
     void $UpdateCurveInputForCustomAttributes$b__0(::HoudiniEngineUnity::CurveNodeData* data);
     // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
-    // Offset: 0x1781530
+    // Offset: 0x177E074
     void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
     // System.Void <UpdateCurveInputForCustomAttributes>b__2(System.Int32 nIndex, System.Int32 nInsertIndex)
-    // Offset: 0x17818C4
+    // Offset: 0x177E408
     void $UpdateCurveInputForCustomAttributes$b__2(int nIndex, int nInsertIndex);
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass38_0
   #pragma pack(pop)

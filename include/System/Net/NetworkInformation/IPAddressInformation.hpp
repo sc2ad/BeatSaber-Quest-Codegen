@@ -37,7 +37,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::IPAddress* get_Address();
     // protected System.Void .ctor()
-    // Offset: 0x1AB6CD0
+    // Offset: 0x1AAE814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddressInformation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPAddressInformation::.ctor");

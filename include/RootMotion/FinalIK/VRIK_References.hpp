@@ -50,14 +50,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* spine;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FAFEC
+    // [TooltipAttribute] Offset: 0x10FDEB0
     // public UnityEngine.Transform chest
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* chest;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB024
+    // [TooltipAttribute] Offset: 0x10FDEE8
     // public UnityEngine.Transform neck
     // Size: 0x8
     // Offset: 0x30
@@ -70,7 +70,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* head;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB05C
+    // [TooltipAttribute] Offset: 0x10FDF20
     // public UnityEngine.Transform leftShoulder
     // Size: 0x8
     // Offset: 0x40
@@ -95,7 +95,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* leftHand;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB094
+    // [TooltipAttribute] Offset: 0x10FDF58
     // public UnityEngine.Transform rightShoulder
     // Size: 0x8
     // Offset: 0x60
@@ -120,56 +120,56 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* rightHand;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB0CC
+    // [TooltipAttribute] Offset: 0x10FDF90
     // public UnityEngine.Transform leftThigh
     // Size: 0x8
     // Offset: 0x80
     ::UnityEngine::Transform* leftThigh;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB104
+    // [TooltipAttribute] Offset: 0x10FDFC8
     // public UnityEngine.Transform leftCalf
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::Transform* leftCalf;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB13C
+    // [TooltipAttribute] Offset: 0x10FE000
     // public UnityEngine.Transform leftFoot
     // Size: 0x8
     // Offset: 0x90
     ::UnityEngine::Transform* leftFoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB174
+    // [TooltipAttribute] Offset: 0x10FE038
     // public UnityEngine.Transform leftToes
     // Size: 0x8
     // Offset: 0x98
     ::UnityEngine::Transform* leftToes;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB1AC
+    // [TooltipAttribute] Offset: 0x10FE070
     // public UnityEngine.Transform rightThigh
     // Size: 0x8
     // Offset: 0xA0
     ::UnityEngine::Transform* rightThigh;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB1E4
+    // [TooltipAttribute] Offset: 0x10FE0A8
     // public UnityEngine.Transform rightCalf
     // Size: 0x8
     // Offset: 0xA8
     ::UnityEngine::Transform* rightCalf;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB21C
+    // [TooltipAttribute] Offset: 0x10FE0E0
     // public UnityEngine.Transform rightFoot
     // Size: 0x8
     // Offset: 0xB0
     ::UnityEngine::Transform* rightFoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FB254
+    // [TooltipAttribute] Offset: 0x10FE118
     // public UnityEngine.Transform rightToes
     // Size: 0x8
     // Offset: 0xB8
@@ -222,23 +222,23 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Transform rightToes
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_rightToes();
     // public System.Boolean get_isFilled()
-    // Offset: 0x1FC6230
+    // Offset: 0x1FA3E44
     bool get_isFilled();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1FC5DB4
+    // Offset: 0x1FA39C8
     bool get_isEmpty();
     // public System.Void .ctor()
-    // Offset: 0x1FC68AC
+    // Offset: 0x1FA44C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIK::References* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIK::References::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIK::References*, creationType>()));
     }
     // public UnityEngine.Transform[] GetTransforms()
-    // Offset: 0x1FC68B4
+    // Offset: 0x1FA44C8
     ::ArrayW<::UnityEngine::Transform*> GetTransforms();
     // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
-    // Offset: 0x1FC59A0
+    // Offset: 0x1FA35B4
     static bool AutoDetectReferences(::UnityEngine::Transform* root, ByRef<::RootMotion::FinalIK::VRIK::References*> references);
   }; // RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References
   #pragma pack(pop)

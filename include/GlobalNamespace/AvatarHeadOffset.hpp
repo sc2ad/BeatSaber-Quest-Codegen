@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: positionOffset and: avatarPoseController
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x10CF7AC
+    // [InjectAttribute] Offset: 0x10D22EC
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x28
@@ -59,20 +59,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x14F494C
+    // Offset: 0x14F6A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarHeadOffset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarHeadOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarHeadOffset*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14F45CC
+    // Offset: 0x14F6714
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14F4700
+    // Offset: 0x14F6848
     void OnDestroy();
     // private System.Void HandleMultiplayerAvatarPoseControllerDidUpdatePose(UnityEngine.Vector3 headLocalPosition)
-    // Offset: 0x14F487C
+    // Offset: 0x14F69C4
     void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition);
   }; // AvatarHeadOffset
   #pragma pack(pop)

@@ -96,34 +96,34 @@ namespace System::Reflection {
     // Get instance field reference: private System.Reflection.CallingConventions callconv
     [[deprecated("Use field access instead!")]] ::System::Reflection::CallingConventions& dyn_callconv();
     // static private System.Void get_method_info(System.IntPtr handle, out System.Reflection.MonoMethodInfo info)
-    // Offset: 0x1D77198
+    // Offset: 0x1D6BE6C
     static void get_method_info(::System::IntPtr handle, ByRef<::System::Reflection::MonoMethodInfo> info);
     // static private System.Int32 get_method_attributes(System.IntPtr handle)
-    // Offset: 0x1D7719C
+    // Offset: 0x1D6BE70
     static int get_method_attributes(::System::IntPtr handle);
     // static System.Reflection.MonoMethodInfo GetMethodInfo(System.IntPtr handle)
-    // Offset: 0x1D76A98
+    // Offset: 0x1D6B76C
     static ::System::Reflection::MonoMethodInfo GetMethodInfo(::System::IntPtr handle);
     // static System.Type GetDeclaringType(System.IntPtr handle)
-    // Offset: 0x1D752A0
+    // Offset: 0x1D69F74
     static ::System::Type* GetDeclaringType(::System::IntPtr handle);
     // static System.Type GetReturnType(System.IntPtr handle)
-    // Offset: 0x1D7633C
+    // Offset: 0x1D6B010
     static ::System::Type* GetReturnType(::System::IntPtr handle);
     // static System.Reflection.MethodAttributes GetAttributes(System.IntPtr handle)
-    // Offset: 0x1D751D8
+    // Offset: 0x1D69EAC
     static ::System::Reflection::MethodAttributes GetAttributes(::System::IntPtr handle);
     // static System.Reflection.CallingConventions GetCallingConvention(System.IntPtr handle)
-    // Offset: 0x1D7520C
+    // Offset: 0x1D69EE0
     static ::System::Reflection::CallingConventions GetCallingConvention(::System::IntPtr handle);
     // static System.Reflection.MethodImplAttributes GetMethodImplementationFlags(System.IntPtr handle)
-    // Offset: 0x1D74994
+    // Offset: 0x1D69668
     static ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags(::System::IntPtr handle);
     // static private System.Reflection.ParameterInfo[] get_parameter_info(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x1D771A0
+    // Offset: 0x1D6BE74
     static ::ArrayW<::System::Reflection::ParameterInfo*> get_parameter_info(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
     // static System.Reflection.ParameterInfo[] GetParametersInfo(System.IntPtr handle, System.Reflection.MemberInfo member)
-    // Offset: 0x1D749CC
+    // Offset: 0x1D696A0
     static ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersInfo(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
   #pragma pack(pop)

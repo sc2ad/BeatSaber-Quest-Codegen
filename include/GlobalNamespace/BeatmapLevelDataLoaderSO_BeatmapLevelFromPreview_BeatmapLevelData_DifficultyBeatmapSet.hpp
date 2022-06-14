@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapLevelDataSO/DifficultyBeatmapSet _difficultyBeatmapSet
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*& dyn__difficultyBeatmapSet();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1505570
+    // Offset: 0x15066B8
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> get_difficultyBeatmaps()
-    // Offset: 0x1505578
+    // Offset: 0x15066C0
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(BeatmapLevelDataSO/DifficultyBeatmapSet difficultyBeatmapSet, BeatmapCharacteristicSO beatmapCharacteristicSerializedName, IBeatmapLevel parentLevel)
-    // Offset: 0x15054E0
+    // Offset: 0x1506628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet* New_ctor(::GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet* difficultyBeatmapSet, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristicSerializedName, ::GlobalNamespace::IBeatmapLevel* parentLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet::.ctor");

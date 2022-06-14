@@ -76,44 +76,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Byte _id
     [[deprecated("Use field access instead!")]] uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
-    // Offset: 0x263D4D0
+    // Offset: 0x2635094
     // ABORTED: conflicts with another method.  SyncStateId(uint8_t id);
     // public System.Boolean Equals(SyncStateId other)
-    // Offset: 0x263D4D8
+    // Offset: 0x263509C
     bool Equals(::GlobalNamespace::SyncStateId other);
     // public SyncStateId Increment()
-    // Offset: 0x263D5E8
+    // Offset: 0x26351AC
     ::GlobalNamespace::SyncStateId Increment();
     // public System.Boolean Before(SyncStateId other)
-    // Offset: 0x263D5F8
+    // Offset: 0x26351BC
     bool Before(::GlobalNamespace::SyncStateId other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x263D3D4
+    // Offset: 0x2634F98
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void SerializeWithFlag(LiteNetLib.Utils.NetDataWriter writer, System.Boolean flag)
-    // Offset: 0x263D158
+    // Offset: 0x2634D1C
     void SerializeWithFlag(::LiteNetLib::Utils::NetDataWriter* writer, bool flag);
     // static public SyncStateId Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x263D448
+    // Offset: 0x263500C
     static ::GlobalNamespace::SyncStateId Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // static public SyncStateId DeserializeWithFlag(LiteNetLib.Utils.NetDataReader reader, out System.Boolean flag)
-    // Offset: 0x263D1F8
+    // Offset: 0x2634DBC
     static ::GlobalNamespace::SyncStateId DeserializeWithFlag(::LiteNetLib::Utils::NetDataReader* reader, ByRef<bool> flag);
     // public SyncStateId CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x263D628
+    // Offset: 0x26351EC
     ::GlobalNamespace::SyncStateId CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x263D4E8
+    // Offset: 0x26350AC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x263D570
+    // Offset: 0x2635134
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x263D59C
+    // Offset: 0x2635160
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -122,10 +122,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(SyncStateId), 0 + sizeof(uint8_t)> __GlobalNamespace_SyncStateIdSizeCheck;
   static_assert(sizeof(SyncStateId) == 0x1);
   // static public System.Boolean op_Equality(SyncStateId a, SyncStateId b)
-  // Offset: 0x263D5C8
+  // Offset: 0x263518C
   bool operator ==(const ::GlobalNamespace::SyncStateId& a, const ::GlobalNamespace::SyncStateId& b);
   // static public System.Boolean op_Inequality(SyncStateId a, SyncStateId b)
-  // Offset: 0x263D5D8
+  // Offset: 0x263519C
   bool operator !=(const ::GlobalNamespace::SyncStateId& a, const ::GlobalNamespace::SyncStateId& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

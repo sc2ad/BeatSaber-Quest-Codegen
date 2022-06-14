@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithLivestreamingVideoStats : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingVideoStats*> {
     public:
     // protected Oculus.Platform.Models.LivestreamingVideoStats GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19E85E4
+    // Offset: 0x19E2128
     ::Oculus::Platform::Models::LivestreamingVideoStats* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19E8540
+    // Offset: 0x19E2084
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLivestreamingVideoStats*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LivestreamingVideoStats GetLivestreamingVideoStats()
-    // Offset: 0x19E85A0
+    // Offset: 0x19E20E4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LivestreamingVideoStats Message::GetLivestreamingVideoStats()
     ::Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();

@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingSpriteEffectPool
     char __padding7[0x7] = {};
-    // [InjectAttribute] Offset: 0x10D4B54
+    // [InjectAttribute] Offset: 0x10D76C4
     // private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Size: 0x8
     // Offset: 0x50
@@ -133,17 +133,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingSpriteEffect::Pool*& dyn__flyingSpriteEffectPool();
     // public System.Void .ctor()
-    // Offset: 0x1379AF4
+    // Offset: 0x13A41A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingSpriteSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingSpriteSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingSpriteSpawner*, creationType>()));
     }
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0x137976C
+    // Offset: 0x13A3E18
     void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x13799D8
+    // Offset: 0x13A4084
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // FlyingSpriteSpawner
   #pragma pack(pop)

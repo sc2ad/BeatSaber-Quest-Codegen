@@ -36,7 +36,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class RSACertificateExtensions : public ::Il2CppObject {
     public:
     // static public System.Security.Cryptography.RSA GetRSAPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x2A8A85C
+    // Offset: 0x2A81630
     static ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
   }; // System.Security.Cryptography.X509Certificates.RSACertificateExtensions
   #pragma pack(pop)

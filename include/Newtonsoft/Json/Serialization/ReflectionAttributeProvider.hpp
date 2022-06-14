@@ -48,7 +48,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.Object _attributeProvider
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__attributeProvider();
     // public System.Void .ctor(System.Object attributeProvider)
-    // Offset: 0x20852E4
+    // Offset: 0x207EEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionAttributeProvider* New_ctor(::Il2CppObject* attributeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionAttributeProvider::.ctor");

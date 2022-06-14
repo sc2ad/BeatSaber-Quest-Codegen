@@ -39,10 +39,10 @@ namespace Oculus::Platform {
   class Application : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
-    // Offset: 0x209BCA8
+    // Offset: 0x209586C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
     // static public Oculus.Platform.Request`1<System.String> LaunchOtherApp(System.UInt64 appID, Oculus.Platform.ApplicationOptions deeplink_options)
-    // Offset: 0x209BE24
+    // Offset: 0x20959E8
     static ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options);
   }; // Oculus.Platform.Application
   #pragma pack(pop)

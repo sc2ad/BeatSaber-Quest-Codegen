@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class ObstacleController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14B5644
+    // Offset: 0x14B8A08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleController::Pool::.ctor");

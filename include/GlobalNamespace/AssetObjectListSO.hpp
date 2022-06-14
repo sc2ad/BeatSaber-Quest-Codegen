@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class AssetObjectListSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [ReorderableAttribute] Offset: 0x10E3618
+    // [ReorderableAttribute] Offset: 0x10E647C
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Object[] _objects
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Object*>& dyn__objects();
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x14EE428
+    // Offset: 0x14F0570
     ::ArrayW<::UnityEngine::Object*> get_objects();
     // public System.Void .ctor()
-    // Offset: 0x14EE430
+    // Offset: 0x14F0578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetObjectListSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AssetObjectListSO::.ctor");

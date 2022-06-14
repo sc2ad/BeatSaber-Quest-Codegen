@@ -41,35 +41,35 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::GlobalNamespace::IBeatSaberLogger*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x149A12C
+    // Offset: 0x14A05CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityDebugLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UnityDebugLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityDebugLogger*, creationType>()));
     }
     // public System.Void Log(System.String message)
-    // Offset: 0x1499CAC
+    // Offset: 0x14A014C
     void Log(::StringW message);
     // public System.Void Log(System.String message, System.Object context)
-    // Offset: 0x1499D14
+    // Offset: 0x14A01B4
     void Log(::StringW message, ::Il2CppObject* context);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1499DCC
+    // Offset: 0x14A026C
     void LogWarning(::StringW message);
     // public System.Void LogWarning(System.String message, System.Object context)
-    // Offset: 0x1499E34
+    // Offset: 0x14A02D4
     void LogWarning(::StringW message, ::Il2CppObject* context);
     // public System.Void LogError(System.String message)
-    // Offset: 0x1499EEC
+    // Offset: 0x14A038C
     void LogError(::StringW message);
     // public System.Void LogError(System.String message, System.Object context)
-    // Offset: 0x1499F54
+    // Offset: 0x14A03F4
     void LogError(::StringW message, ::Il2CppObject* context);
     // public System.Void LogException(System.Exception exception)
-    // Offset: 0x149A00C
+    // Offset: 0x14A04AC
     void LogException(::System::Exception* exception);
     // public System.Void LogException(System.Exception exception, System.Object context)
-    // Offset: 0x149A074
+    // Offset: 0x14A0514
     void LogException(::System::Exception* exception, ::Il2CppObject* context);
   }; // UnityDebugLogger
   #pragma pack(pop)

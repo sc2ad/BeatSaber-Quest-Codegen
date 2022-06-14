@@ -223,77 +223,77 @@ namespace System {
     // Get instance field reference: private System.String m_Scheme
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Scheme();
     // System.String get_SchemeName()
-    // Offset: 0x2ABE24C
+    // Offset: 0x2AB3020
     ::StringW get_SchemeName();
     // System.Int32 get_DefaultPort()
-    // Offset: 0x2ABE254
+    // Offset: 0x2AB3028
     int get_DefaultPort();
     // static System.Boolean get_ShouldUseLegacyV2Quirks()
-    // Offset: 0x2ABE0C0
+    // Offset: 0x2AB2E94
     static bool get_ShouldUseLegacyV2Quirks();
     // System.UriSyntaxFlags get_Flags()
-    // Offset: 0x2ABEE54
+    // Offset: 0x2AB3C28
     ::System::UriSyntaxFlags get_Flags();
     // System.Boolean get_IsSimple()
-    // Offset: 0x2ABF1C0
+    // Offset: 0x2AB3F94
     bool get_IsSimple();
     // static private System.Void .cctor()
-    // Offset: 0x2ABE6EC
+    // Offset: 0x2AB34C0
     static void _cctor();
     // System.Void .ctor(System.UriSyntaxFlags flags)
-    // Offset: 0x2ABEEC4
+    // Offset: 0x2AB3C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriParser* New_ctor(::System::UriSyntaxFlags flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriParser*, creationType>(flags)));
     }
     // protected System.UriParser OnNewUri()
-    // Offset: 0x2ABE25C
+    // Offset: 0x2AB3030
     ::System::UriParser* OnNewUri();
     // protected System.Void InitializeAndValidate(System.Uri uri, out System.UriFormatException parsingError)
-    // Offset: 0x2ABE260
+    // Offset: 0x2AB3034
     void InitializeAndValidate(::System::Uri* uri, ByRef<::System::UriFormatException*> parsingError);
     // protected System.String Resolve(System.Uri baseUri, System.Uri relativeUri, out System.UriFormatException parsingError)
-    // Offset: 0x2ABE294
+    // Offset: 0x2AB3068
     ::StringW Resolve(::System::Uri* baseUri, ::System::Uri* relativeUri, ByRef<::System::UriFormatException*> parsingError);
     // protected System.String GetComponents(System.Uri uri, System.UriComponents components, System.UriFormat format)
-    // Offset: 0x2ABE494
+    // Offset: 0x2AB3268
     ::StringW GetComponents(::System::Uri* uri, ::System::UriComponents components, ::System::UriFormat format);
     // protected System.Boolean IsWellFormedOriginalString(System.Uri uri)
-    // Offset: 0x2ABE6D0
+    // Offset: 0x2AB34A4
     bool IsWellFormedOriginalString(::System::Uri* uri);
     // System.Boolean NotAny(System.UriSyntaxFlags flags)
-    // Offset: 0x2ABC608
+    // Offset: 0x2AB13DC
     bool NotAny(::System::UriSyntaxFlags flags);
     // System.Boolean InFact(System.UriSyntaxFlags flags)
-    // Offset: 0x2ABC5E8
+    // Offset: 0x2AB13BC
     bool InFact(::System::UriSyntaxFlags flags);
     // System.Boolean IsAllSet(System.UriSyntaxFlags flags)
-    // Offset: 0x2ABEEBC
+    // Offset: 0x2AB3C90
     bool IsAllSet(::System::UriSyntaxFlags flags);
     // private System.Boolean IsFullMatch(System.UriSyntaxFlags flags, System.UriSyntaxFlags expected)
-    // Offset: 0x2ABEE5C
+    // Offset: 0x2AB3C30
     bool IsFullMatch(::System::UriSyntaxFlags flags, ::System::UriSyntaxFlags expected);
     // static System.UriParser FindOrFetchAsUnknownV1Syntax(System.String lwrCaseScheme)
-    // Offset: 0x2ABEF38
+    // Offset: 0x2AB3D0C
     static ::System::UriParser* FindOrFetchAsUnknownV1Syntax(::StringW lwrCaseScheme);
     // static System.UriParser GetSyntax(System.String lwrCaseScheme)
-    // Offset: 0x2ABC50C
+    // Offset: 0x2AB12E0
     static ::System::UriParser* GetSyntax(::StringW lwrCaseScheme);
     // System.UriParser InternalOnNewUri()
-    // Offset: 0x2ABF1CC
+    // Offset: 0x2AB3FA0
     ::System::UriParser* InternalOnNewUri();
     // System.Void InternalValidate(System.Uri thisUri, out System.UriFormatException parsingError)
-    // Offset: 0x2ABF21C
+    // Offset: 0x2AB3FF0
     void InternalValidate(::System::Uri* thisUri, ByRef<::System::UriFormatException*> parsingError);
     // System.String InternalResolve(System.Uri thisBaseUri, System.Uri uriLink, out System.UriFormatException parsingError)
-    // Offset: 0x2ABF228
+    // Offset: 0x2AB3FFC
     ::StringW InternalResolve(::System::Uri* thisBaseUri, ::System::Uri* uriLink, ByRef<::System::UriFormatException*> parsingError);
     // System.String InternalGetComponents(System.Uri thisUri, System.UriComponents uriComponents, System.UriFormat uriFormat)
-    // Offset: 0x2ABF234
+    // Offset: 0x2AB4008
     ::StringW InternalGetComponents(::System::Uri* thisUri, ::System::UriComponents uriComponents, ::System::UriFormat uriFormat);
     // System.Boolean InternalIsWellFormedOriginalString(System.Uri thisUri)
-    // Offset: 0x2ABF240
+    // Offset: 0x2AB4014
     bool InternalIsWellFormedOriginalString(::System::Uri* thisUri);
   }; // System.UriParser
   #pragma pack(pop)

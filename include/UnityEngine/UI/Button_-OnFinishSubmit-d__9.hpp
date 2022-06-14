@@ -75,26 +75,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Single <elapsedTime>5__3
     [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x19379F4
+    // Offset: 0x1932538
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1937A5C
+    // Offset: 0x19325A0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1937904
+    // Offset: 0x1932448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Button::$OnFinishSubmit$d__9* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Button::$OnFinishSubmit$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Button::$OnFinishSubmit$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1937930
+    // Offset: 0x1932474
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1937934
+    // Offset: 0x1932478
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19379FC
+    // Offset: 0x1932540
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.Button/UnityEngine.UI.<OnFinishSubmit>d__9
   #pragma pack(pop)

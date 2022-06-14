@@ -212,7 +212,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean saveToOldFormat
     [[deprecated("Use field access instead!")]] bool& dyn_saveToOldFormat();
     // public System.Void .ctor()
-    // Offset: 0x148DCE0
+    // Offset: 0x1494180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailerToolConfigurationProcessor::TrailerToolConfiguration* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailerToolConfigurationProcessor::TrailerToolConfiguration::.ctor");

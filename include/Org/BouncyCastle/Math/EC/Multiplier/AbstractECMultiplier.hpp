@@ -45,20 +45,20 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x22D90B8
+    // Offset: 0x22D0C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractECMultiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractECMultiplier*, creationType>()));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x22D8FCC
+    // Offset: 0x22D0B90
     ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
     // protected Org.BouncyCastle.Math.EC.ECPoint MultiplyPositive(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
     // protected Org.BouncyCastle.Math.EC.ECPoint CheckResult(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x22D90AC
+    // Offset: 0x22D0C70
     ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
   #pragma pack(pop)

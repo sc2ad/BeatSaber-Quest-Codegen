@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _perceivedLoudness
     [[deprecated("Use field access instead!")]] float& dyn__perceivedLoudness();
     // public System.String get_levelId()
-    // Offset: 0x1362078
+    // Offset: 0x1364010
     ::StringW get_levelId();
     // public System.Single get_perceivedLoudness()
-    // Offset: 0x1362080
+    // Offset: 0x1364018
     float get_perceivedLoudness();
     // public System.Void .ctor(System.String levelId, System.Single perceivedLoudness)
-    // Offset: 0x1362088
+    // Offset: 0x1364020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::StringW levelId, float perceivedLoudness) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");

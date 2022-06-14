@@ -49,14 +49,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AssetInfo self
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AssetInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_AssetInfo self)
-    // Offset: 0x1A1C568
+    // Offset: 0x1A160AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_AssetInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_AssetInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_AssetInfo other)
-    // Offset: 0x1A1C5A0
+    // Offset: 0x1A160E4
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_AssetInfo
   #pragma pack(pop)

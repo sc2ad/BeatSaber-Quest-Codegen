@@ -78,53 +78,53 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2379BB8
+    // Offset: 0x237177C
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x2379C00
+    // Offset: 0x23717C4
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x2379B8C
+    // Offset: 0x2371750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC532Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RC532Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC532Engine*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x237A448
+    // Offset: 0x237200C
     static void _cctor();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x2379C08
+    // Offset: 0x23717CC
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2379C10
+    // Offset: 0x23717D4
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x237A0C0
+    // Offset: 0x2371C84
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x237A328
+    // Offset: 0x2371EEC
     void Reset();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x2379E34
+    // Offset: 0x23719F8
     void SetKey(::ArrayW<uint8_t> key);
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x237A204
+    // Offset: 0x2371DC8
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x237A0E8
+    // Offset: 0x2371CAC
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 RotateLeft(System.Int32 x, System.Int32 y)
-    // Offset: 0x237A32C
+    // Offset: 0x2371EF0
     int RotateLeft(int x, int y);
     // private System.Int32 RotateRight(System.Int32 x, System.Int32 y)
-    // Offset: 0x237A440
+    // Offset: 0x2372004
     int RotateRight(int x, int y);
     // private System.Int32 BytesToWord(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x237A338
+    // Offset: 0x2371EFC
     int BytesToWord(::ArrayW<uint8_t> src, int srcOff);
     // private System.Void WordToBytes(System.Int32 word, System.Byte[] dst, System.Int32 dstOff)
-    // Offset: 0x237A3B4
+    // Offset: 0x2371F78
     void WordToBytes(int word, ::ArrayW<uint8_t> dst, int dstOff);
   }; // Org.BouncyCastle.Crypto.Engines.RC532Engine
   #pragma pack(pop)

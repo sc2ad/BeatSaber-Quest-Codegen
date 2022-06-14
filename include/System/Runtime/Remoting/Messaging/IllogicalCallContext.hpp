@@ -58,31 +58,31 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Object m_HostContext
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_HostContext();
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0x1C861BC
+    // Offset: 0x1C78E90
     ::System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
-    // Offset: 0x1C86228
+    // Offset: 0x1C78EFC
     ::Il2CppObject* get_HostContext();
     // System.Void set_HostContext(System.Object value)
-    // Offset: 0x1C86230
+    // Offset: 0x1C78F04
     void set_HostContext(::Il2CppObject* value);
     // System.Boolean get_HasUserData()
-    // Offset: 0x1C86238
+    // Offset: 0x1C78F0C
     bool get_HasUserData();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1C8311C
+    // Offset: 0x1C75DF0
     void FreeNamedDataSlot(::StringW name);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C86268
+    // Offset: 0x1C78F3C
     ::Il2CppObject* GetData(::StringW name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0x1C830DC
+    // Offset: 0x1C75DB0
     void SetData(::StringW name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
-    // Offset: 0x1C862A0
+    // Offset: 0x1C78F74
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1C864F8
+    // Offset: 0x1C791CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

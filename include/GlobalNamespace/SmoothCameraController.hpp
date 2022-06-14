@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private SmoothCamera _smoothCamera
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SmoothCamera*& dyn__smoothCamera();
     // public System.Void .ctor()
-    // Offset: 0x138A9DC
+    // Offset: 0x138B5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothCameraController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothCameraController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x138A7F4
+    // Offset: 0x138B3BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x138A984
+    // Offset: 0x138B54C
     void OnDestroy();
     // private System.Void HandleDidActivate()
-    // Offset: 0x138A988
+    // Offset: 0x138B550
     void HandleDidActivate();
     // private System.Void HandleDidDeactivate()
-    // Offset: 0x138A9D8
+    // Offset: 0x138B5A0
     void HandleDidDeactivate();
     // private System.Void ActivateSmoothCameraIfNeeded()
-    // Offset: 0x138A7F8
+    // Offset: 0x138B3C0
     void ActivateSmoothCameraIfNeeded();
   }; // SmoothCameraController
   #pragma pack(pop)

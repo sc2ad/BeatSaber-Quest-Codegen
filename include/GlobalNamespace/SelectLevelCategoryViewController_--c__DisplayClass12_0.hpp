@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
     // public System.Void .ctor()
-    // Offset: 0x1468A1C
+    // Offset: 0x148E8C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::$$c__DisplayClass12_0*, creationType>()));
     }
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
-    // Offset: 0x1468E98
+    // Offset: 0x148ED40
     bool $Setup$b__0(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
   }; // SelectLevelCategoryViewController/<>c__DisplayClass12_0
   #pragma pack(pop)

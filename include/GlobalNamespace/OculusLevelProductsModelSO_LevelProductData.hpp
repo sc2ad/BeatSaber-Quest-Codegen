@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _assetFile
     [[deprecated("Use field access instead!")]] ::StringW& dyn__assetFile();
     // public System.String get_sku()
-    // Offset: 0x15474E0
+    // Offset: 0x155DB1C
     ::StringW get_sku();
     // public System.String get_levelId()
-    // Offset: 0x15474E8
+    // Offset: 0x155DB24
     ::StringW get_levelId();
     // public System.String get_assetFile()
-    // Offset: 0x15474F0
+    // Offset: 0x155DB2C
     ::StringW get_assetFile();
     // public System.Void .ctor()
-    // Offset: 0x15474F8
+    // Offset: 0x155DB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::.ctor");

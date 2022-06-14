@@ -53,19 +53,19 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.UInt32 _ifa_flags
     [[deprecated("Use field access instead!")]] uint& dyn__ifa_flags();
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
-    // Offset: 0x1AB7BAC
+    // Offset: 0x1AAF6F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsNetworkInterface* New_ctor(::StringW name, uint ifa_flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::MacOsNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsNetworkInterface*, creationType>(name, ifa_flags)));
     }
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1AB7C54
+    // Offset: 0x1AAF798
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1AB7BD8
+    // Offset: 0x1AAF71C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();

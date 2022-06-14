@@ -49,17 +49,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IK ik
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IK*& dyn_ik();
     // public System.Void .ctor()
-    // Offset: 0x2252FF8
+    // Offset: 0x224ABBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditorIK* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::EditorIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditorIK*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x2252E94
+    // Offset: 0x224AA58
     void Start();
     // private System.Void Update()
-    // Offset: 0x2252F28
+    // Offset: 0x224AAEC
     void Update();
   }; // RootMotion.FinalIK.EditorIK
   #pragma pack(pop)

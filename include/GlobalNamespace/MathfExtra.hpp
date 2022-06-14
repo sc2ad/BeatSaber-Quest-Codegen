@@ -27,14 +27,14 @@ namespace GlobalNamespace {
   class MathfExtra : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AF117C
+    // Offset: 0x2AE8F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MathfExtra* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MathfExtra::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MathfExtra*, creationType>()));
     }
     // static public System.Single Mod(System.Single value, System.Single mod)
-    // Offset: 0x2AF1100
+    // Offset: 0x2AE8ED4
     static float Mod(float value, float mod);
   }; // MathfExtra
   #pragma pack(pop)

@@ -136,17 +136,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ScreenBackButtonAnimationController/AnimationType,System.Int32> _animationHashes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*& dyn__animationHashes();
     // public System.Void .ctor()
-    // Offset: 0x2A3ACF8
+    // Offset: 0x2A32ACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenBackButtonAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenBackButtonAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenBackButtonAnimationController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A3AC58
+    // Offset: 0x2A32A2C
     void Awake();
     // public System.Void StartAnimation(ScreenBackButtonAnimationController/AnimationType animationType)
-    // Offset: 0x2A3AC78
+    // Offset: 0x2A32A4C
     void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController::AnimationType animationType);
   }; // ScreenBackButtonAnimationController
   #pragma pack(pop)

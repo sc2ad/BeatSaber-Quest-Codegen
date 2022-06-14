@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean saveToOldFormat
     [[deprecated("Use field access instead!")]] bool& dyn_saveToOldFormat();
     // public System.Void .ctor(ObjectsMovementRecorder/Mode mode, System.String recordingPath, ObjectsMovementRecorder/CameraView cameraView, System.Boolean addDateTimeSuffixToRecordingName, System.Boolean screenshotRecording, System.Int32 screenshotWidth, System.Int32 screenshotHeight, System.Int32 framerate, PlaybackRenderer/PlaybackScreenshot[] playbackScreenshots, System.Boolean saveToOldFormat)
-    // Offset: 0x14B43B4
+    // Offset: 0x14B7778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectsMovementRecorder::InitData* New_ctor(::GlobalNamespace::ObjectsMovementRecorder::Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot*> playbackScreenshots, bool saveToOldFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectsMovementRecorder::InitData::.ctor");

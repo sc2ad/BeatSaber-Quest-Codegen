@@ -40,7 +40,7 @@ namespace Zenject {
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public ::Zenject::IFactory_2<::StringW, T>*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10A41B8
+    // [InjectAttribute] Offset: 0x10A5CB0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

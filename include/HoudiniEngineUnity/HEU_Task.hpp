@@ -203,10 +203,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskCallback _taskCompletedDelegate
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_Task::TaskCallback*& dyn__taskCompletedDelegate();
     // public System.Guid get_TaskGuid()
-    // Offset: 0x1B0B508
+    // Offset: 0x1B0204C
     ::System::Guid get_TaskGuid();
     // public System.Void .ctor()
-    // Offset: 0x1B0B514
+    // Offset: 0x1B02058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Task* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Task::.ctor");
@@ -216,7 +216,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DoTask();
     // public System.Void UpdateTask()
-    // Offset: 0x1B0B58C
+    // Offset: 0x1B020D0
     void UpdateTask();
     // public System.Void KillTask()
     // Offset: 0xFFFFFFFFFFFFFFFF

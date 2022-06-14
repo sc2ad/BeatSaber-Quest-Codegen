@@ -87,57 +87,57 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.XHashtable`1<System.Xml.Linq.XName> names
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*& dyn_names();
     // public System.String get_NamespaceName()
-    // Offset: 0x2AA521C
+    // Offset: 0x2A9AFF0
     ::StringW get_NamespaceName();
     // static public System.Xml.Linq.XNamespace get_None()
-    // Offset: 0x2AA4EA8
+    // Offset: 0x2A9AC7C
     static ::System::Xml::Linq::XNamespace* get_None();
     // static public System.Xml.Linq.XNamespace get_Xml()
-    // Offset: 0x2AA530C
+    // Offset: 0x2A9B0E0
     static ::System::Xml::Linq::XNamespace* get_Xml();
     // static public System.Xml.Linq.XNamespace get_Xmlns()
-    // Offset: 0x2AA5368
+    // Offset: 0x2A9B13C
     static ::System::Xml::Linq::XNamespace* get_Xmlns();
     // System.Void .ctor(System.String namespaceName)
-    // Offset: 0x2AA5140
+    // Offset: 0x2A9AF14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XNamespace* New_ctor(::StringW namespaceName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XNamespace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XNamespace*, creationType>(namespaceName)));
     }
     // public System.Xml.Linq.XName GetName(System.String localName)
-    // Offset: 0x2AA4F0C
+    // Offset: 0x2A9ACE0
     ::System::Xml::Linq::XName* GetName(::StringW localName);
     // static public System.Xml.Linq.XNamespace Get(System.String namespaceName)
-    // Offset: 0x2A9F398
+    // Offset: 0x2A9516C
     static ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
     // System.Xml.Linq.XName GetName(System.String localName, System.Int32 index, System.Int32 count)
-    // Offset: 0x2AA4DB0
+    // Offset: 0x2A9AB84
     ::System::Xml::Linq::XName* GetName(::StringW localName, int index, int count);
     // static System.Xml.Linq.XNamespace Get(System.String namespaceName, System.Int32 index, System.Int32 count)
-    // Offset: 0x2AA4B34
+    // Offset: 0x2A9A908
     static ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName, int index, int count);
     // static private System.String ExtractLocalName(System.Xml.Linq.XName n)
-    // Offset: 0x2AA53F0
+    // Offset: 0x2A9B1C4
     static ::StringW ExtractLocalName(::System::Xml::Linq::XName* n);
     // static private System.String ExtractNamespace(System.WeakReference r)
-    // Offset: 0x2AA5408
+    // Offset: 0x2A9B1DC
     static ::StringW ExtractNamespace(::System::WeakReference* r);
     // static private System.Xml.Linq.XNamespace EnsureNamespace(ref System.WeakReference refNmsp, System.String namespaceName)
-    // Offset: 0x2AA522C
+    // Offset: 0x2A9B000
     static ::System::Xml::Linq::XNamespace* EnsureNamespace(ByRef<::System::WeakReference*> refNmsp, ::StringW namespaceName);
     // public override System.String ToString()
-    // Offset: 0x2AA5224
+    // Offset: 0x2A9AFF8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2AA53D0
+    // Offset: 0x2A9B1A4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2AA53DC
+    // Offset: 0x2A9B1B0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -146,10 +146,10 @@ namespace System::Xml::Linq {
   static check_size<sizeof(XNamespace), 32 + sizeof(::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*)> __System_Xml_Linq_XNamespaceSizeCheck;
   static_assert(sizeof(XNamespace) == 0x28);
   // static public System.Boolean op_Equality(System.Xml.Linq.XNamespace left, System.Xml.Linq.XNamespace right)
-  // Offset: 0x2A9F99C
+  // Offset: 0x2A95770
   bool operator ==(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace& right);
   // static public System.Boolean op_Inequality(System.Xml.Linq.XNamespace left, System.Xml.Linq.XNamespace right)
-  // Offset: 0x2AA53E4
+  // Offset: 0x2A9B1B8
   bool operator !=(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

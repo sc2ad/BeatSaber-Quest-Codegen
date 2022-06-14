@@ -150,41 +150,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sfxEnabled
     [[deprecated("Use field access instead!")]] bool& dyn__sfxEnabled();
     // public System.Single get_sfxLatency()
-    // Offset: 0x14F0F48
+    // Offset: 0x14F3090
     float get_sfxLatency();
     // public System.Void set_mainVolume(System.Single value)
-    // Offset: 0x14F1054
+    // Offset: 0x14F319C
     void set_mainVolume(float value);
     // public System.Void set_musicVolume(System.Single value)
-    // Offset: 0x14F10C0
+    // Offset: 0x14F3208
     void set_musicVolume(float value);
     // public System.Single get_sfxVolume()
-    // Offset: 0x14F1130
+    // Offset: 0x14F3278
     float get_sfxVolume();
     // public System.Void set_sfxVolume(System.Single value)
-    // Offset: 0x14F1148
+    // Offset: 0x14F3290
     void set_sfxVolume(float value);
     // public System.Boolean get_sfxEnabled()
-    // Offset: 0x14F11D4
+    // Offset: 0x14F331C
     bool get_sfxEnabled();
     // public System.Void set_sfxEnabled(System.Boolean value)
-    // Offset: 0x14F11DC
+    // Offset: 0x14F3324
     void set_sfxEnabled(bool value);
     // public System.Void set_musicPitch(System.Single value)
-    // Offset: 0x14F11FC
+    // Offset: 0x14F3344
     void set_musicPitch(float value);
     // public System.Void set_musicSpeed(System.Single value)
-    // Offset: 0x14F12CC
+    // Offset: 0x14F3414
     void set_musicSpeed(float value);
     // public System.Void .ctor()
-    // Offset: 0x14F1338
+    // Offset: 0x14F3480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioManagerSO*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x14F0FB0
+    // Offset: 0x14F30F8
     void Init();
   }; // AudioManagerSO
   #pragma pack(pop)

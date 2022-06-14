@@ -88,32 +88,32 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIK*& dyn_ik();
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x1FC9F14
+    // Offset: 0x1FA7B28
     ::UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x1FC9F20
+    // Offset: 0x1FA7B34
     void set_pelvisTargetRight(::UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x1FCA5A0
+    // Offset: 0x1FA81B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKRootController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKRootController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKRootController*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1FC9F2C
+    // Offset: 0x1FA7B40
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x1FC8A78
+    // Offset: 0x1FA668C
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data)
-    // Offset: 0x1FC9A80
+    // Offset: 0x1FA7694
     void Calibrate(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x1FCA004
+    // Offset: 0x1FA7C18
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1FCA4A8
+    // Offset: 0x1FA80BC
     void OnDestroy();
   }; // RootMotion.FinalIK.VRIKRootController
   #pragma pack(pop)

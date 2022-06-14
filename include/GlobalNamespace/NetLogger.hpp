@@ -36,14 +36,14 @@ namespace GlobalNamespace {
       return *reinterpret_cast<::LiteNetLib::INetLogger*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x173E2E8
+    // Offset: 0x173AE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetLogger*, creationType>()));
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
-    // Offset: 0x173E140
+    // Offset: 0x173AC84
     void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
   }; // NetLogger
   #pragma pack(pop)

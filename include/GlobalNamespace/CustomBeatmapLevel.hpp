@@ -65,20 +65,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelData _beatmapLevelData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelData*& dyn__beatmapLevelData();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1429458
+    // Offset: 0x14033CC
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.String get_songAudioClipPath()
-    // Offset: 0x1429460
+    // Offset: 0x14033D4
     ::StringW get_songAudioClipPath();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel)
-    // Offset: 0x14294E4
+    // Offset: 0x1403458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(::GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1429684
+    // Offset: 0x14035F8
     void SetBeatmapLevelData(::GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x10D90B8
+    // [InjectAttribute] Offset: 0x10DBE44
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -93,38 +93,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <edgeDistanceFromCenter>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$edgeDistanceFromCenter$k__BackingField();
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x13CBE0C
+    // Offset: 0x13CF6B4
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x13CBE14
+    // Offset: 0x13CF6BC
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x13CBE20
+    // Offset: 0x13CF6C8
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x13CBE28
+    // Offset: 0x13CF6D0
     void set_edgeDistanceFromCenter(float value);
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13CBCC4
+    // Offset: 0x13CF56C
     void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13CBD68
+    // Offset: 0x13CF610
     void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x13CC064
+    // Offset: 0x13CF90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerCenterResizeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerCenterResizeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCenterResizeController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13CBE30
+    // Offset: 0x13CF6D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13CBFC4
+    // Offset: 0x13CF86C
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x13CBEE4
+    // Offset: 0x13CF78C
     void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
   }; // MultiplayerCenterResizeController
   #pragma pack(pop)

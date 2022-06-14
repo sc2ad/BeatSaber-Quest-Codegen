@@ -39,7 +39,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Boolean onlyAutoConnectedTerrains
     [[deprecated("Use field access instead!")]] bool& dyn_onlyAutoConnectedTerrains();
     // public System.Void .ctor()
-    // Offset: 0x2AB6E68
+    // Offset: 0x2AABC3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0::.ctor");

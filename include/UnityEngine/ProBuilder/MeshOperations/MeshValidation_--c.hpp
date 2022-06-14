@@ -62,23 +62,23 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__7_0
     static void _set_$$9__7_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C41A70
+    // Offset: 0x1C34744
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C41AD4
+    // Offset: 0x1C347A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshValidation::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x1C41ADC
+    // Offset: 0x1C347B0
     ::System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_0(::UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <EnsureFacesAreComposedOfContiguousTriangles>b__4_1(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x1C41B08
+    // Offset: 0x1C347DC
     ::System::Collections::Generic::IEnumerable_1<int>* $EnsureFacesAreComposedOfContiguousTriangles$b__4_1(::UnityEngine::ProBuilder::Triangle x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <RemoveUnusedVertices>b__7_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C41B34
+    // Offset: 0x1C34808
     ::System::Collections::Generic::IEnumerable_1<int>* $RemoveUnusedVertices$b__7_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

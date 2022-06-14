@@ -32,7 +32,7 @@ namespace System {
   class IOSelector : public ::Il2CppObject {
     public:
     // static public System.Void Add(System.IntPtr handle, System.IOSelectorJob job)
-    // Offset: 0x1CF47F0
+    // Offset: 0x1CE74C4
     static void Add(::System::IntPtr handle, ::System::IOSelectorJob* job);
   }; // System.IOSelector
   #pragma pack(pop)

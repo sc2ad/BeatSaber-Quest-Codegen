@@ -31,7 +31,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsFull();
     // protected System.Void .ctor()
-    // Offset: 0x1AC935C
+    // Offset: 0x1AC0EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IncrementalReadDecoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::IncrementalReadDecoder::.ctor");

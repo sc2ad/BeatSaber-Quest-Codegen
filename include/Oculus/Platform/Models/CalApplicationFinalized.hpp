@@ -58,7 +58,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String LaunchDetails
     [[deprecated("Use field access instead!")]] ::StringW& dyn_LaunchDetails();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19E47D4
+    // Offset: 0x19DE318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationFinalized* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CalApplicationFinalized::.ctor");

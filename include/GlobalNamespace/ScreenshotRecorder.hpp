@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     ::StringW directory;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x10A9DF0
+    // [NullAllowed] Offset: 0x10AB8E8
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -266,38 +266,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
     // public System.String get_directory()
-    // Offset: 0x2A2806C
+    // Offset: 0x2A24224
     ::StringW get_directory();
     // public System.Void set_directory(System.String value)
-    // Offset: 0x2A28074
+    // Offset: 0x2A2422C
     void set_directory(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2A28684
+    // Offset: 0x2A2483C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenshotRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenshotRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenshotRecorder*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2A2807C
+    // Offset: 0x2A24234
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2A28200
+    // Offset: 0x2A243B8
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x2A282D4
+    // Offset: 0x2A2448C
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x2A28438
+    // Offset: 0x2A245F0
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x2A283A4
+    // Offset: 0x2A2455C
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x2A28574
+    // Offset: 0x2A2472C
     void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2A28450
+    // Offset: 0x2A24608
     ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
   }; // ScreenshotRecorder
   #pragma pack(pop)

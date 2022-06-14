@@ -30,14 +30,14 @@ namespace GlobalNamespace {
   class SteamVR_CameraFlip : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18A1100
+    // Offset: 0x189CC44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_CameraFlip* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_CameraFlip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_CameraFlip*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x18A1064
+    // Offset: 0x189CBA8
     void Awake();
   }; // SteamVR_CameraFlip
   #pragma pack(pop)

@@ -49,17 +49,17 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default
     static void _set_Default(::UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // public System.Void .ctor()
-    // Offset: 0x193F068
+    // Offset: 0x1939BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultControls::DefaultRuntimeFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultControls::DefaultRuntimeFactory*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x193F070
+    // Offset: 0x1939BB4
     static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
-    // Offset: 0x193EFF4
+    // Offset: 0x1939B38
     ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.DefaultRuntimeFactory
   #pragma pack(pop)

@@ -82,17 +82,17 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _writer
     [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__writer();
     // public System.Void .ctor(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey, ICertificateEncryptionProvider certificateEncryptionProvider, LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1533E04
+    // Offset: 0x154B440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler::SigningComputeOperation* New_ctor(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey, ::GlobalNamespace::ICertificateEncryptionProvider* certificateEncryptionProvider, ::LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::SigningComputeOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler::SigningComputeOperation*, creationType>(clientRandom, serverRandom, serverKey, certificateEncryptionProvider, writer)));
     }
     // protected System.Byte[] Compute()
-    // Offset: 0x15353A0
+    // Offset: 0x154C9DC
     ::ArrayW<uint8_t> Compute();
     // protected override System.Void Finally()
-    // Offset: 0x15354B0
+    // Offset: 0x154CAEC
     // Implemented from: AsyncComputeOperation`1
     // Base method: System.Void AsyncComputeOperation_1::Finally()
     void Finally();

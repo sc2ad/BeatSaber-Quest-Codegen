@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MonoBehaviour _component
     [[deprecated("Use field access instead!")]] ::UnityEngine::MonoBehaviour*& dyn__component();
     // public System.Void .ctor()
-    // Offset: 0x15A136C
+    // Offset: 0x15A1E90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableAfterDelay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableAfterDelay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableAfterDelay*, creationType>()));
     }
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x15A12D0
+    // Offset: 0x15A1DF4
     ::System::Collections::IEnumerator* Start();
   }; // EnableAfterDelay
   #pragma pack(pop)

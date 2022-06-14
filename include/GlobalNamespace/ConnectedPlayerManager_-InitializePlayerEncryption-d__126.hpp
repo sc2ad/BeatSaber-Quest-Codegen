@@ -94,10 +94,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x1672B5C
+    // Offset: 0x1671680
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x16730DC
+    // Offset: 0x1671C00
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // ConnectedPlayerManager/<InitializePlayerEncryption>d__126
   // WARNING Not writing size check since size may be invalid!

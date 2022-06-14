@@ -52,7 +52,7 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Vector3 lastBoneLeftAxis
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastBoneLeftAxis();
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
-    // Offset: 0x2247EBC
+    // Offset: 0x223FA80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations::LimbOrientation* New_ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis, ::UnityEngine::Vector3 lastBoneLeftAxis) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");

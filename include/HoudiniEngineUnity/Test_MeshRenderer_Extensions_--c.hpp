@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.MeshRenderer,HoudiniEngineUnity.Test_MeshRenderer> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::MeshRenderer*, ::HoudiniEngineUnity::Test_MeshRenderer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A961BC
+    // Offset: 0x2A8BF90
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2A96220
+    // Offset: 0x2A8BFF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshRenderer_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshRenderer_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshRenderer_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_MeshRenderer <ToTestObject>b__1_0(UnityEngine.MeshRenderer lod)
-    // Offset: 0x2A96228
+    // Offset: 0x2A8BFFC
     ::HoudiniEngineUnity::Test_MeshRenderer* $ToTestObject$b__1_0(::UnityEngine::MeshRenderer* lod);
     // HoudiniEngineUnity.Test_MeshRenderer <ToTestObject>b__2_0(UnityEngine.MeshRenderer lod)
-    // Offset: 0x2A9628C
+    // Offset: 0x2A8C060
     ::HoudiniEngineUnity::Test_MeshRenderer* $ToTestObject$b__2_0(::UnityEngine::MeshRenderer* lod);
   }; // HoudiniEngineUnity.Test_MeshRenderer_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

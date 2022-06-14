@@ -75,14 +75,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void .ctor()
-    // Offset: 0x13B1CA4
+    // Offset: 0x137316C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntry*, creationType>()));
     }
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
-    // Offset: 0x13B1B04
+    // Offset: 0x1372FCC
     void SetScore(int score, ::StringW playerName, int rank, bool highlighted, bool showSeparator);
   }; // LeaderboardEntry
   #pragma pack(pop)

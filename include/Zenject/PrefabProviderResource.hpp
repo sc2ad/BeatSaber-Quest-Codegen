@@ -56,14 +56,14 @@ namespace Zenject {
     // Get instance field reference: private readonly System.String _resourcePath
     [[deprecated("Use field access instead!")]] ::StringW& dyn__resourcePath();
     // public System.Void .ctor(System.String resourcePath)
-    // Offset: 0x1C1A294
+    // Offset: 0x1C0DF68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabProviderResource* New_ctor(::StringW resourcePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabProviderResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabProviderResource*, creationType>(resourcePath)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x1C1A2C0
+    // Offset: 0x1C0DF94
     ::UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProviderResource
   #pragma pack(pop)

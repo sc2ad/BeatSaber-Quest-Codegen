@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Security {
   class PasswordException : public ::System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x17F19A8
+    // Offset: 0x17EE4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PasswordException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::PasswordException::.ctor");

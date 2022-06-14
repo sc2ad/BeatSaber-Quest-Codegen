@@ -52,14 +52,14 @@ namespace System::Net {
     // Get instance field reference: public System.Net.HttpWebRequest <>4__this
     [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1AACA54
+    // Offset: 0x1AA4598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpWebRequest::$$c__DisplayClass238_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpWebRequest::$$c__DisplayClass238_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequest::$$c__DisplayClass238_0*, creationType>()));
     }
     // System.Void <BeginGetResponse>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1AB04F8
+    // Offset: 0x1AA803C
     void $BeginGetResponse$b__0(::System::Net::SimpleAsyncResult* inner);
   }; // System.Net.HttpWebRequest/System.Net.<>c__DisplayClass238_0
   #pragma pack(pop)

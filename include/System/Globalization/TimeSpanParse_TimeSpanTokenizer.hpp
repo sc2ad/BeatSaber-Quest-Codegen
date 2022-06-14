@@ -49,22 +49,22 @@ namespace System::Globalization {
     // Get instance field reference: private System.String m_value
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_value();
     // System.Boolean get_EOL()
-    // Offset: 0x1FA0F14
+    // Offset: 0x1FE5E24
     bool get_EOL();
     // System.Char get_NextChar()
-    // Offset: 0x1FA0F04
+    // Offset: 0x1FE5E14
     ::Il2CppChar get_NextChar();
     // System.Char get_CurrentChar()
-    // Offset: 0x1FA0ECC
+    // Offset: 0x1FE5DDC
     ::Il2CppChar get_CurrentChar();
     // System.Void Init(System.String input)
-    // Offset: 0x1FA0D7C
+    // Offset: 0x1FE5C8C
     void Init(::StringW input);
     // System.Void Init(System.String input, System.Int32 startPosition)
-    // Offset: 0x1FA0D88
+    // Offset: 0x1FE5C98
     void Init(::StringW input, int startPosition);
     // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken GetNextToken()
-    // Offset: 0x1FA0D94
+    // Offset: 0x1FE5CA4
     ::System::Globalization::TimeSpanParse::TimeSpanToken GetNextToken();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanTokenizer
   #pragma pack(pop)

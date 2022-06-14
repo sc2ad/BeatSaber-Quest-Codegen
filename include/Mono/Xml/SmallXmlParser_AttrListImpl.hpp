@@ -58,31 +58,31 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_attrValues();
     // public System.Int32 get_Length()
-    // Offset: 0x1F6C5B0
+    // Offset: 0x1F63284
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0x1F6C7C4
+    // Offset: 0x1F63498
     ::ArrayW<::StringW> get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x1F6C81C
+    // Offset: 0x1F634F0
     ::ArrayW<::StringW> get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x1F6C600
+    // Offset: 0x1F632D4
     ::StringW GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x1F6C678
+    // Offset: 0x1F6334C
     ::StringW GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x1F6C6F0
+    // Offset: 0x1F633C4
     ::StringW GetValue(::StringW name);
     // System.Void Clear()
-    // Offset: 0x1F6BFDC
+    // Offset: 0x1F62CB0
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1F6C530
+    // Offset: 0x1F63204
     void Add(::StringW name, ::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1F6AC1C
+    // Offset: 0x1F618F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

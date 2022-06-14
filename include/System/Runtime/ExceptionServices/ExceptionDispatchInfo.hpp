@@ -52,23 +52,23 @@ namespace System::Runtime::ExceptionServices {
     // Get instance field reference: private System.Object m_stackTrace
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_stackTrace();
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1D85790
+    // Offset: 0x1D7A464
     ::Il2CppObject* get_BinaryStackTraceArray();
     // public System.Exception get_SourceException()
-    // Offset: 0x1D85798
+    // Offset: 0x1D7A46C
     ::System::Exception* get_SourceException();
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1D85664
+    // Offset: 0x1D7A338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1D83828
+    // Offset: 0x1D784FC
     static ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
     // public System.Void Throw()
-    // Offset: 0x1D83A9C
+    // Offset: 0x1D78770
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

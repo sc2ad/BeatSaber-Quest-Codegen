@@ -55,23 +55,23 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32[] offset
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x1A28254
+    // Offset: 0x1A22D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeleteElements::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeleteElements::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x1A28A08
+    // Offset: 0x1A2354C
     bool $DeleteVertices$b__0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x1A28A78
+    // Offset: 0x1A235BC
     ::System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Boolean <DeleteVertices>b__2(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x1A28B18
+    // Offset: 0x1A2365C
     bool $DeleteVertices$b__2(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> <DeleteVertices>b__3(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x1A28B88
+    // Offset: 0x1A236CC
     ::System::Collections::Generic::KeyValuePair_2<int, int> $DeleteVertices$b__3(::System::Collections::Generic::KeyValuePair_2<int, int> y);
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)

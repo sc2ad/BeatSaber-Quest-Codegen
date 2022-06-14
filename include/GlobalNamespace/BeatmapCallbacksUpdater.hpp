@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class BeatmapCallbacksUpdater : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D35B8
+    // [InjectAttribute] Offset: 0x10D6118
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D35C8
+    // [InjectAttribute] Offset: 0x10D6128
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x20
@@ -60,20 +60,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()
-    // Offset: 0x134D050
+    // Offset: 0x1350010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksUpdater* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbacksUpdater*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x134CEF0
+    // Offset: 0x134FEB0
     void LateUpdate();
     // public System.Void Pause()
-    // Offset: 0x134D038
+    // Offset: 0x134FFF8
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x134D044
+    // Offset: 0x1350004
     void Resume();
   }; // BeatmapCallbacksUpdater
   #pragma pack(pop)

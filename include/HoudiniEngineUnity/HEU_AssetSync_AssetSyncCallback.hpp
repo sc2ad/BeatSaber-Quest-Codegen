@@ -35,20 +35,20 @@ namespace HoudiniEngineUnity {
   class HEU_AssetSync::AssetSyncCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x16E5330
+    // Offset: 0x16E2E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetSync::AssetSyncCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetSync::AssetSyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(HoudiniEngineUnity.HEU_AssetSync assetSync)
-    // Offset: 0x16E4E30
+    // Offset: 0x16E2954
     void Invoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync);
     // public System.IAsyncResult BeginInvoke(HoudiniEngineUnity.HEU_AssetSync assetSync, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x16E5340
+    // Offset: 0x16E2E64
     ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16E5364
+    // Offset: 0x16E2E88
     void EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback
   #pragma pack(pop)

@@ -64,22 +64,22 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Single z
     [[deprecated("Use field access instead!")]] float& dyn_z();
     // static public LIV.SDK.Unity.SDKVector3 get_zero()
-    // Offset: 0x2A525CC
+    // Offset: 0x2A4A3A0
     static ::LIV::SDK::Unity::SDKVector3 get_zero();
     // static public LIV.SDK.Unity.SDKVector3 get_one()
-    // Offset: 0x2A58C1C
+    // Offset: 0x2A509F0
     static ::LIV::SDK::Unity::SDKVector3 get_one();
     // static public LIV.SDK.Unity.SDKVector3 get_forward()
-    // Offset: 0x2A5933C
+    // Offset: 0x2A51110
     static ::LIV::SDK::Unity::SDKVector3 get_forward();
     // static public LIV.SDK.Unity.SDKVector3 get_up()
-    // Offset: 0x2A53804
+    // Offset: 0x2A4B5D8
     static ::LIV::SDK::Unity::SDKVector3 get_up();
     // static public LIV.SDK.Unity.SDKVector3 get_right()
-    // Offset: 0x2A5934C
+    // Offset: 0x2A51120
     static ::LIV::SDK::Unity::SDKVector3 get_right();
     // public override System.String ToString()
-    // Offset: 0x2A5939C
+    // Offset: 0x2A51170
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -88,16 +88,16 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(SDKVector3), 8 + sizeof(float)> __LIV_SDK_Unity_SDKVector3SizeCheck;
   static_assert(sizeof(SDKVector3) == 0xC);
   // static public LIV.SDK.Unity.SDKVector3 op_Addition(LIV.SDK.Unity.SDKVector3 lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x2A5935C
+  // Offset: 0x2A51130
   ::LIV::SDK::Unity::SDKVector3 operator+(const ::LIV::SDK::Unity::SDKVector3& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Subtraction(LIV.SDK.Unity.SDKVector3 lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x2A5936C
+  // Offset: 0x2A51140
   ::LIV::SDK::Unity::SDKVector3 operator-(const ::LIV::SDK::Unity::SDKVector3& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Multiply(LIV.SDK.Unity.SDKVector3 lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x2A5937C
+  // Offset: 0x2A51150
   ::LIV::SDK::Unity::SDKVector3 operator*(const ::LIV::SDK::Unity::SDKVector3& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Multiply(LIV.SDK.Unity.SDKVector3 lhs, System.Single rhs)
-  // Offset: 0x2A5938C
+  // Offset: 0x2A51160
   ::LIV::SDK::Unity::SDKVector3 operator*(const ::LIV::SDK::Unity::SDKVector3& lhs, const float& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

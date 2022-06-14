@@ -51,41 +51,41 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::StringW value);
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0x18FE554
+    // Offset: 0x18FA098
     static ::TMPro::TMP_TextParsingUtilities* get_instance();
     // static private System.Void .cctor()
-    // Offset: 0x18FE4E8
+    // Offset: 0x18FA02C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18FE54C
+    // Offset: 0x18FA090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextParsingUtilities* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextParsingUtilities::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextParsingUtilities*, creationType>()));
     }
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0x18FE5BC
+    // Offset: 0x18FA100
     static uint GetHashCode(::StringW s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0x18FE70C
+    // Offset: 0x18FA250
     static int GetHashCodeCaseSensitive(::StringW s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0x18FE784
+    // Offset: 0x18FA2C8
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0x18FE690
+    // Offset: 0x18FA1D4
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0x18FE800
+    // Offset: 0x18FA344
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0x18FE87C
+    // Offset: 0x18FA3C0
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0x18FE8F8
+    // Offset: 0x18FA43C
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0x18FE90C
+    // Offset: 0x18FA450
     static bool IsLowSurrogate(uint c);
   }; // TMPro.TMP_TextParsingUtilities
   #pragma pack(pop)

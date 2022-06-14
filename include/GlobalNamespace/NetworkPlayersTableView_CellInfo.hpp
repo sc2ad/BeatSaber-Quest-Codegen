@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean lastCellInParty
     [[deprecated("Use field access instead!")]] bool& dyn_lastCellInParty();
     // public System.Void .ctor()
-    // Offset: 0x14A77E0
+    // Offset: 0x14AAAA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersTableView::CellInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayersTableView::CellInfo::.ctor");

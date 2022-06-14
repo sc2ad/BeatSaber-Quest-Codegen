@@ -47,23 +47,23 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x19883A4
+    // Offset: 0x1983EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronousFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter*, creationType>()));
     }
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x1988894
+    // Offset: 0x19843D8
     ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x19888FC
+    // Offset: 0x1984440
     ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1988958
+    // Offset: 0x198449C
     bool Pass(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19891B0
+    // Offset: 0x1984CF4
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter
   #pragma pack(pop)

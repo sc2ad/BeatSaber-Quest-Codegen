@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotationAngle
     [[deprecated("Use field access instead!")]] float& dyn_rotationAngle();
     // public System.Void .ctor()
-    // Offset: 0x14C37E0
+    // Offset: 0x14C6268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairRotationEventEffect::RotationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairRotationEventEffect::RotationData::.ctor");

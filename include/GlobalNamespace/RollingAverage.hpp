@@ -80,23 +80,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _length
     [[deprecated("Use field access instead!")]] int& dyn__length();
     // public System.Single get_currentAverage()
-    // Offset: 0x2638100
+    // Offset: 0x262FCC4
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x2638108
+    // Offset: 0x262FCCC
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x2638118
+    // Offset: 0x262FCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x2638188
+    // Offset: 0x262FD4C
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x26382D8
+    // Offset: 0x262FE9C
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)

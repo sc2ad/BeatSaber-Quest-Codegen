@@ -85,23 +85,23 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _hasCachedData
     [[deprecated("Use field access instead!")]] bool& dyn__hasCachedData();
     // public System.Void .ctor()
-    // Offset: 0x171AC18
+    // Offset: 0x16F82DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurvedCanvasSettingsHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CurvedCanvasSettingsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurvedCanvasSettingsHelper*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x171AC20
+    // Offset: 0x16F82E4
     static void _cctor();
     // public System.Void Reset()
-    // Offset: 0x171A8C8
+    // Offset: 0x16F7F8C
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
-    // Offset: 0x171A8DC
+    // Offset: 0x16F7FA0
     ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x171AB04
+    // Offset: 0x16F81C8
     static ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
   }; // HMUI.CurvedCanvasSettingsHelper
   #pragma pack(pop)

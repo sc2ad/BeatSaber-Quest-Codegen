@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* passwordProtected;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC934
+    // [InjectAttribute] Offset: 0x10DF6C0
     // private readonly SongPackMasksModel _songPackMasksModel
     // Size: 0x8
     // Offset: 0x80
@@ -99,14 +99,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SongPackMasksModel _songPackMasksModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMasksModel*& dyn__songPackMasksModel();
     // public System.Void .ctor()
-    // Offset: 0x13E4598
+    // Offset: 0x13E9814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerListTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListTableCell*, creationType>()));
     }
     // public System.Void SetData(INetworkPlayer player)
-    // Offset: 0x13E4218
+    // Offset: 0x13E9494
     void SetData(::GlobalNamespace::INetworkPlayer* player);
   }; // GameServerListTableCell
   #pragma pack(pop)

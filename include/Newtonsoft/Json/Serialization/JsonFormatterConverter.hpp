@@ -77,7 +77,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonProperty _member
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonProperty*& dyn__member();
     // public System.Void .ctor(Newtonsoft.Json.Serialization.JsonSerializerInternalReader reader, Newtonsoft.Json.Serialization.JsonISerializableContract contract, Newtonsoft.Json.Serialization.JsonProperty member)
-    // Offset: 0x1D623F8
+    // Offset: 0x1D560CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonFormatterConverter* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonFormatterConverter::.ctor");
@@ -93,22 +93,22 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, value);
     }
     // public System.Object Convert(System.Object value, System.Type type)
-    // Offset: 0x1D62498
+    // Offset: 0x1D5616C
     ::Il2CppObject* Convert(::Il2CppObject* value, ::System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x1D62694
+    // Offset: 0x1D56368
     bool ToBoolean(::Il2CppObject* value);
     // public System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1D626F4
+    // Offset: 0x1D563C8
     int ToInt32(::Il2CppObject* value);
     // public System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1D62754
+    // Offset: 0x1D56428
     int64_t ToInt64(::Il2CppObject* value);
     // public System.Single ToSingle(System.Object value)
-    // Offset: 0x1D627B4
+    // Offset: 0x1D56488
     float ToSingle(::Il2CppObject* value);
     // public System.String ToString(System.Object value)
-    // Offset: 0x1D62814
+    // Offset: 0x1D564E8
     ::StringW ToString(::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.JsonFormatterConverter
   #pragma pack(pop)

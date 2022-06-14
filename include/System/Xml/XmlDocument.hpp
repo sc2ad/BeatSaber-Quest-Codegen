@@ -460,257 +460,257 @@ namespace System::Xml {
     // Get instance field reference: System.Object objLock
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_objLock();
     // System.Xml.Schema.SchemaInfo get_DtdSchemaInfo()
-    // Offset: 0x1BB6788
+    // Offset: 0x1BC2210
     ::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo();
     // System.Void set_DtdSchemaInfo(System.Xml.Schema.SchemaInfo value)
-    // Offset: 0x1BB6790
+    // Offset: 0x1BC2218
     void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value);
     // public System.Xml.XmlDocumentType get_DocumentType()
-    // Offset: 0x1BB7034
+    // Offset: 0x1BC2ABC
     ::System::Xml::XmlDocumentType* get_DocumentType();
     // System.Xml.XmlDeclaration get_Declaration()
-    // Offset: 0x1BB70C8
+    // Offset: 0x1BC2B50
     ::System::Xml::XmlDeclaration* get_Declaration();
     // public System.Xml.XmlImplementation get_Implementation()
-    // Offset: 0x1BB7174
+    // Offset: 0x1BC2BFC
     ::System::Xml::XmlImplementation* get_Implementation();
     // public System.Xml.XmlElement get_DocumentElement()
-    // Offset: 0x1BB718C
+    // Offset: 0x1BC2C14
     ::System::Xml::XmlElement* get_DocumentElement();
     // public System.Void set_Schemas(System.Xml.Schema.XmlSchemaSet value)
-    // Offset: 0x1BB7240
+    // Offset: 0x1BC2CC8
     void set_Schemas(::System::Xml::Schema::XmlSchemaSet* value);
     // System.Boolean get_CanReportValidity()
-    // Offset: 0x1BB7248
+    // Offset: 0x1BC2CD0
     bool get_CanReportValidity();
     // System.Boolean get_HasSetResolver()
-    // Offset: 0x1BB7250
+    // Offset: 0x1BC2CD8
     bool get_HasSetResolver();
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
-    // Offset: 0x1BB7260
+    // Offset: 0x1BC2CE8
     void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x1BB676C
+    // Offset: 0x1BC21F4
     ::System::Xml::XmlNameTable* get_NameTable();
     // System.Xml.XmlNamedNodeMap get_Entities()
-    // Offset: 0x1BB8DF8
+    // Offset: 0x1BC4880
     ::System::Xml::XmlNamedNodeMap* get_Entities();
     // System.Void set_Entities(System.Xml.XmlNamedNodeMap value)
-    // Offset: 0x1BB8E68
+    // Offset: 0x1BC48F0
     void set_Entities(::System::Xml::XmlNamedNodeMap* value);
     // System.Boolean get_IsLoading()
-    // Offset: 0x1BB8E70
+    // Offset: 0x1BC48F8
     bool get_IsLoading();
     // System.Void set_IsLoading(System.Boolean value)
-    // Offset: 0x1BB8E78
+    // Offset: 0x1BC4900
     void set_IsLoading(bool value);
     // System.Boolean get_ActualLoadingStatus()
-    // Offset: 0x1BB8E84
+    // Offset: 0x1BC490C
     bool get_ActualLoadingStatus();
     // protected internal System.Void .ctor(System.Xml.XmlImplementation imp)
-    // Offset: 0x1BB6484
+    // Offset: 0x1BC1F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDocument* New_ctor(::System::Xml::XmlImplementation* imp) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocument*, creationType>(imp)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BB9654
+    // Offset: 0x1BC50DC
     static void _cctor();
     // static System.Void CheckName(System.String name)
-    // Offset: 0x1BAC41C
+    // Offset: 0x1BB7EA4
     static void CheckName(::StringW name);
     // System.Xml.XmlName AddXmlName(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1BB6798
+    // Offset: 0x1BC2220
     ::System::Xml::XmlName* AddXmlName(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // System.Xml.XmlName GetXmlName(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1BB67B4
+    // Offset: 0x1BC223C
     ::System::Xml::XmlName* GetXmlName(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // System.Xml.XmlName AddAttrXmlName(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1BAC534
+    // Offset: 0x1BB7FBC
     ::System::Xml::XmlName* AddAttrXmlName(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // System.Boolean AddIdInfo(System.Xml.XmlName eleName, System.Xml.XmlName attrName)
-    // Offset: 0x1BB67D0
+    // Offset: 0x1BC2258
     bool AddIdInfo(::System::Xml::XmlName* eleName, ::System::Xml::XmlName* attrName);
     // private System.Xml.XmlName GetIDInfoByElement_(System.Xml.XmlName eleName)
-    // Offset: 0x1BB6898
+    // Offset: 0x1BC2320
     ::System::Xml::XmlName* GetIDInfoByElement_(::System::Xml::XmlName* eleName);
     // System.Xml.XmlName GetIDInfoByElement(System.Xml.XmlName eleName)
-    // Offset: 0x1BAE20C
+    // Offset: 0x1BB9C94
     ::System::Xml::XmlName* GetIDInfoByElement(::System::Xml::XmlName* eleName);
     // private System.WeakReference GetElement(System.Collections.ArrayList elementList, System.Xml.XmlElement elem)
-    // Offset: 0x1BB6974
+    // Offset: 0x1BC23FC
     ::System::WeakReference* GetElement(::System::Collections::ArrayList* elementList, ::System::Xml::XmlElement* elem);
     // System.Void AddElementWithId(System.String id, System.Xml.XmlElement elem)
-    // Offset: 0x1BAE220
+    // Offset: 0x1BB9CA8
     void AddElementWithId(::StringW id, ::System::Xml::XmlElement* elem);
     // System.Void RemoveElementWithId(System.String id, System.Xml.XmlElement elem)
-    // Offset: 0x1BAE408
+    // Offset: 0x1BB9E90
     void RemoveElementWithId(::StringW id, ::System::Xml::XmlElement* elem);
     // System.Xml.XmlResolver GetResolver()
-    // Offset: 0x1BB7258
+    // Offset: 0x1BC2CE0
     ::System::Xml::XmlResolver* GetResolver();
     // private System.Boolean HasNodeTypeInPrevSiblings(System.Xml.XmlNodeType nt, System.Xml.XmlNode refNode)
-    // Offset: 0x1BB74EC
+    // Offset: 0x1BC2F74
     bool HasNodeTypeInPrevSiblings(::System::Xml::XmlNodeType nt, ::System::Xml::XmlNode* refNode);
     // private System.Boolean HasNodeTypeInNextSiblings(System.Xml.XmlNodeType nt, System.Xml.XmlNode refNode)
-    // Offset: 0x1BB75A8
+    // Offset: 0x1BC3030
     bool HasNodeTypeInNextSiblings(::System::Xml::XmlNodeType nt, ::System::Xml::XmlNode* refNode);
     // public System.Xml.XmlAttribute CreateAttribute(System.String name)
-    // Offset: 0x1BB770C
+    // Offset: 0x1BC3194
     ::System::Xml::XmlAttribute* CreateAttribute(::StringW name);
     // System.Void SetDefaultNamespace(System.String prefix, System.String localName, ref System.String namespaceURI)
-    // Offset: 0x1BB77D4
+    // Offset: 0x1BC325C
     void SetDefaultNamespace(::StringW prefix, ::StringW localName, ByRef<::StringW> namespaceURI);
     // public System.Xml.XmlCDataSection CreateCDataSection(System.String data)
-    // Offset: 0x1BB7868
+    // Offset: 0x1BC32F0
     ::System::Xml::XmlCDataSection* CreateCDataSection(::StringW data);
     // public System.Xml.XmlComment CreateComment(System.String data)
-    // Offset: 0x1BB78E4
+    // Offset: 0x1BC336C
     ::System::Xml::XmlComment* CreateComment(::StringW data);
     // public System.Xml.XmlDocumentType CreateDocumentType(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x1BB7958
+    // Offset: 0x1BC33E0
     ::System::Xml::XmlDocumentType* CreateDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
     // public System.Xml.XmlDocumentFragment CreateDocumentFragment()
-    // Offset: 0x1BB7AC0
+    // Offset: 0x1BC3548
     ::System::Xml::XmlDocumentFragment* CreateDocumentFragment();
     // public System.Xml.XmlElement CreateElement(System.String name)
-    // Offset: 0x1BB7BD0
+    // Offset: 0x1BC3658
     ::System::Xml::XmlElement* CreateElement(::StringW name);
     // System.Void AddDefaultAttributes(System.Xml.XmlElement elem)
-    // Offset: 0x1BB7C88
+    // Offset: 0x1BC3710
     void AddDefaultAttributes(::System::Xml::XmlElement* elem);
     // private System.Xml.Schema.SchemaElementDecl GetSchemaElementDecl(System.Xml.XmlElement elem)
-    // Offset: 0x1BB7EEC
+    // Offset: 0x1BC3974
     ::System::Xml::Schema::SchemaElementDecl* GetSchemaElementDecl(::System::Xml::XmlElement* elem);
     // private System.Xml.XmlAttribute PrepareDefaultAttribute(System.Xml.Schema.SchemaAttDef attdef, System.String attrPrefix, System.String attrLocalname, System.String attrNamespaceURI)
-    // Offset: 0x1BB7FF4
+    // Offset: 0x1BC3A7C
     ::System::Xml::XmlAttribute* PrepareDefaultAttribute(::System::Xml::Schema::SchemaAttDef* attdef, ::StringW attrPrefix, ::StringW attrLocalname, ::StringW attrNamespaceURI);
     // public System.Xml.XmlEntityReference CreateEntityReference(System.String name)
-    // Offset: 0x1BB80F8
+    // Offset: 0x1BC3B80
     ::System::Xml::XmlEntityReference* CreateEntityReference(::StringW name);
     // public System.Xml.XmlProcessingInstruction CreateProcessingInstruction(System.String target, System.String data)
-    // Offset: 0x1BB816C
+    // Offset: 0x1BC3BF4
     ::System::Xml::XmlProcessingInstruction* CreateProcessingInstruction(::StringW target, ::StringW data);
     // public System.Xml.XmlDeclaration CreateXmlDeclaration(System.String version, System.String encoding, System.String standalone)
-    // Offset: 0x1BB81E8
+    // Offset: 0x1BC3C70
     ::System::Xml::XmlDeclaration* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
     // public System.Xml.XmlText CreateTextNode(System.String text)
-    // Offset: 0x1BB8270
+    // Offset: 0x1BC3CF8
     ::System::Xml::XmlText* CreateTextNode(::StringW text);
     // public System.Xml.XmlSignificantWhitespace CreateSignificantWhitespace(System.String text)
-    // Offset: 0x1BB82E4
+    // Offset: 0x1BC3D6C
     ::System::Xml::XmlSignificantWhitespace* CreateSignificantWhitespace(::StringW text);
     // public System.Xml.XmlWhitespace CreateWhitespace(System.String text)
-    // Offset: 0x1BB8358
+    // Offset: 0x1BC3DE0
     ::System::Xml::XmlWhitespace* CreateWhitespace(::StringW text);
     // public System.Xml.XmlAttribute CreateAttribute(System.String qualifiedName, System.String namespaceURI)
-    // Offset: 0x1BB83CC
+    // Offset: 0x1BC3E54
     ::System::Xml::XmlAttribute* CreateAttribute(::StringW qualifiedName, ::StringW namespaceURI);
     // public System.Xml.XmlElement CreateElement(System.String qualifiedName, System.String namespaceURI)
-    // Offset: 0x1BB8478
+    // Offset: 0x1BC3F00
     ::System::Xml::XmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceURI);
     // private System.Xml.XmlNode ImportNodeInternal(System.Xml.XmlNode node, System.Boolean deep)
-    // Offset: 0x1BB8524
+    // Offset: 0x1BC3FAC
     ::System::Xml::XmlNode* ImportNodeInternal(::System::Xml::XmlNode* node, bool deep);
     // private System.Void ImportAttributes(System.Xml.XmlNode fromElem, System.Xml.XmlNode toElem)
-    // Offset: 0x1BB89BC
+    // Offset: 0x1BC4444
     void ImportAttributes(::System::Xml::XmlNode* fromElem, ::System::Xml::XmlNode* toElem);
     // private System.Void ImportChildren(System.Xml.XmlNode fromNode, System.Xml.XmlNode toNode, System.Boolean deep)
-    // Offset: 0x1BB6F84
+    // Offset: 0x1BC2A0C
     void ImportChildren(::System::Xml::XmlNode* fromNode, ::System::Xml::XmlNode* toNode, bool deep);
     // public System.Xml.XmlAttribute CreateAttribute(System.String prefix, System.String localName, System.String namespaceURI)
-    // Offset: 0x1BB8AD4
+    // Offset: 0x1BC455C
     ::System::Xml::XmlAttribute* CreateAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI);
     // protected internal System.Xml.XmlAttribute CreateDefaultAttribute(System.String prefix, System.String localName, System.String namespaceURI)
-    // Offset: 0x1BB8B74
+    // Offset: 0x1BC45FC
     ::System::Xml::XmlAttribute* CreateDefaultAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceURI);
     // public System.Xml.XmlElement CreateElement(System.String prefix, System.String localName, System.String namespaceURI)
-    // Offset: 0x1BB8C00
+    // Offset: 0x1BC4688
     ::System::Xml::XmlElement* CreateElement(::StringW prefix, ::StringW localName, ::StringW namespaceURI);
     // private System.Xml.XmlTextReader SetupReader(System.Xml.XmlTextReader tr)
-    // Offset: 0x1BB8E8C
+    // Offset: 0x1BC4914
     ::System::Xml::XmlTextReader* SetupReader(::System::Xml::XmlTextReader* tr);
     // public System.Void Load(System.Xml.XmlReader reader)
-    // Offset: 0x1BB8EF0
+    // Offset: 0x1BC4978
     void Load(::System::Xml::XmlReader* reader);
     // public System.Void LoadXml(System.String xml)
-    // Offset: 0x1BB8FE8
+    // Offset: 0x1BC4A70
     void LoadXml(::StringW xml);
     // System.Xml.XmlNodeChangedEventArgs GetInsertEventArgsForLoad(System.Xml.XmlNode node, System.Xml.XmlNode newParent)
-    // Offset: 0x1BACD3C
+    // Offset: 0x1BB87C4
     ::System::Xml::XmlNodeChangedEventArgs* GetInsertEventArgsForLoad(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* newParent);
     // System.Xml.XmlAttribute GetDefaultAttribute(System.Xml.XmlElement elem, System.String attrPrefix, System.String attrLocalname, System.String attrNamespaceURI)
-    // Offset: 0x1BADF90
+    // Offset: 0x1BB9A18
     ::System::Xml::XmlAttribute* GetDefaultAttribute(::System::Xml::XmlElement* elem, ::StringW attrPrefix, ::StringW attrLocalname, ::StringW attrNamespaceURI);
     // System.Xml.XmlEntity GetEntityNode(System.String name)
-    // Offset: 0x1BB9320
+    // Offset: 0x1BC4DA8
     ::System::Xml::XmlEntity* GetEntityNode(::StringW name);
     // System.Void SetBaseURI(System.String inBaseURI)
-    // Offset: 0x1BB946C
+    // Offset: 0x1BC4EF4
     void SetBaseURI(::StringW inBaseURI);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1BB7024
+    // Offset: 0x1BC2AAC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x1BB702C
+    // Offset: 0x1BC2AB4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.String get_Name()
-    // Offset: 0x1BB717C
+    // Offset: 0x1BC2C04
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1BB7184
+    // Offset: 0x1BC2C0C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // override System.Boolean get_IsContainer()
-    // Offset: 0x1BB7220
+    // Offset: 0x1BC2CA8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x1BB7228
+    // Offset: 0x1BC2CB0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x1BB7230
+    // Offset: 0x1BC2CB8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // public override System.Xml.XmlDocument get_OwnerDocument()
-    // Offset: 0x1BB7238
+    // Offset: 0x1BC2CC0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlDocument XmlNode::get_OwnerDocument()
     ::System::Xml::XmlDocument* get_OwnerDocument();
     // public override System.Boolean get_IsReadOnly()
-    // Offset: 0x1BB8DF0
+    // Offset: 0x1BC4878
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsReadOnly()
     bool get_IsReadOnly();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x1BB90F8
+    // Offset: 0x1BC4B80
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // public override System.Void set_InnerXml(System.String value)
-    // Offset: 0x1BB9178
+    // Offset: 0x1BC4C00
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerXml(System.String value)
     void set_InnerXml(::StringW value);
     // public override System.String get_BaseURI()
-    // Offset: 0x1BB9464
+    // Offset: 0x1BC4EEC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_BaseURI()
     ::StringW get_BaseURI();
     // public System.Void .ctor()
-    // Offset: 0x1BB6420
+    // Offset: 0x1BC1EA8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -719,37 +719,37 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocument*, creationType>()));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1BB6F18
+    // Offset: 0x1BC29A0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x1BB73D4
+    // Offset: 0x1BC2E5C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);
     // override System.Boolean CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1BB7610
+    // Offset: 0x1BC3098
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     bool CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // override System.Xml.XmlNodeChangedEventArgs GetEventArgs(System.Xml.XmlNode node, System.Xml.XmlNode oldParent, System.Xml.XmlNode newParent, System.String oldValue, System.String newValue, System.Xml.XmlNodeChangedAction action)
-    // Offset: 0x1BB9188
+    // Offset: 0x1BC4C10
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeChangedEventArgs XmlNode::GetEventArgs(System.Xml.XmlNode node, System.Xml.XmlNode oldParent, System.Xml.XmlNode newParent, System.String oldValue, System.String newValue, System.Xml.XmlNodeChangedAction action)
     ::System::Xml::XmlNodeChangedEventArgs* GetEventArgs(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
     // override System.Void BeforeEvent(System.Xml.XmlNodeChangedEventArgs args)
-    // Offset: 0x1BB9288
+    // Offset: 0x1BC4D10
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::BeforeEvent(System.Xml.XmlNodeChangedEventArgs args)
     void BeforeEvent(::System::Xml::XmlNodeChangedEventArgs* args);
     // override System.Void AfterEvent(System.Xml.XmlNodeChangedEventArgs args)
-    // Offset: 0x1BB92D4
+    // Offset: 0x1BC4D5C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::AfterEvent(System.Xml.XmlNodeChangedEventArgs args)
     void AfterEvent(::System::Xml::XmlNodeChangedEventArgs* args);
     // override System.Xml.XmlNode AppendChildForLoad(System.Xml.XmlNode newChild, System.Xml.XmlDocument doc)
-    // Offset: 0x1BB9474
+    // Offset: 0x1BC4EFC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::AppendChildForLoad(System.Xml.XmlNode newChild, System.Xml.XmlDocument doc)
     ::System::Xml::XmlNode* AppendChildForLoad(::System::Xml::XmlNode* newChild, ::System::Xml::XmlDocument* doc);

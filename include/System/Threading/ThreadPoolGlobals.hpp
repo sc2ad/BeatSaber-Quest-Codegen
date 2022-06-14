@@ -54,7 +54,7 @@ namespace System::Threading {
     // Set static field: static public System.Threading.ThreadPoolWorkQueue workQueue
     static void _set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D33B54
+    // Offset: 0x1D27828
     static void _cctor();
   }; // System.Threading.ThreadPoolGlobals
   #pragma pack(pop)

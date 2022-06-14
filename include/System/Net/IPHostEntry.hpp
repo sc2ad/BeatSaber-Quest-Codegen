@@ -70,22 +70,22 @@ namespace System::Net {
     // Get instance field reference: System.Boolean isTrustedHost
     [[deprecated("Use field access instead!")]] bool& dyn_isTrustedHost();
     // public System.String get_HostName()
-    // Offset: 0x1AB2D50
+    // Offset: 0x1AAA894
     ::StringW get_HostName();
     // public System.Void set_HostName(System.String value)
-    // Offset: 0x1AB2D58
+    // Offset: 0x1AAA89C
     void set_HostName(::StringW value);
     // public System.Void set_Aliases(System.String[] value)
-    // Offset: 0x1AB2D60
+    // Offset: 0x1AAA8A4
     void set_Aliases(::ArrayW<::StringW> value);
     // public System.Net.IPAddress[] get_AddressList()
-    // Offset: 0x1AB2D68
+    // Offset: 0x1AAA8AC
     ::ArrayW<::System::Net::IPAddress*> get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
-    // Offset: 0x1AB2D70
+    // Offset: 0x1AAA8B4
     void set_AddressList(::ArrayW<::System::Net::IPAddress*> value);
     // public System.Void .ctor()
-    // Offset: 0x1AB2D78
+    // Offset: 0x1AAA8BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPHostEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::IPHostEntry::.ctor");

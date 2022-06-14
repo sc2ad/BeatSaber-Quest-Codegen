@@ -66,13 +66,13 @@ namespace System::Net {
     // Get instance field reference: System.Type creatorType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_creatorType();
     // public System.Net.IWebRequestCreate get_Creator()
-    // Offset: 0x1B5F6BC
+    // Offset: 0x1B56200
     ::System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
-    // Offset: 0x1B61268
+    // Offset: 0x1B57DAC
     void set_Creator(::System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
-    // Offset: 0x1B5FAF0
+    // Offset: 0x1B56634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequestPrefixElement::.ctor");

@@ -47,20 +47,20 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
     static void _set_$$9__32_2(::System::Func_2<::UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x29ADAB0
+    // Offset: 0x29AAC68
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x29ADB14
+    // Offset: 0x29AACCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdge::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::WingedEdge::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdge::$$c*, creationType>()));
     }
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
-    // Offset: 0x29ADB1C
+    // Offset: 0x29AACD4
     ::UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(::UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x29ADB34
+    // Offset: 0x29AACEC
     int $SortCommonIndexesByAdjacency$b__32_2(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

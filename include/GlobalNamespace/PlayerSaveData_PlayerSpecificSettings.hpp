@@ -276,7 +276,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData environmentEffectsFilterExpertPlusPreset
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterExpertPlusPreset();
     // public System.Void .ctor()
-    // Offset: 0x13D46A0
+    // Offset: 0x13D7F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerSpecificSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::.ctor");

@@ -59,14 +59,14 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass34_0 CS$<>8__locals2
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_0*& dyn_CS$$$8__locals2();
     // public System.Void .ctor()
-    // Offset: 0x1D5D950
+    // Offset: 0x1D51624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass34_2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c__DisplayClass34_2*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>> <SetExtensionDataDelegates>b__1(System.Object o)
-    // Offset: 0x1D5D958
+    // Offset: 0x1D5162C
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* $SetExtensionDataDelegates$b__1(::Il2CppObject* o);
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass34_2
   #pragma pack(pop)

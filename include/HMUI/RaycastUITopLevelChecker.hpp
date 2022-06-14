@@ -64,17 +64,17 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Canvas _canvas
     [[deprecated("Use field access instead!")]] ::UnityEngine::Canvas*& dyn__canvas();
     // public System.Boolean get_isOnTop()
-    // Offset: 0x16BDCFC
+    // Offset: 0x16BC820
     bool get_isOnTop();
     // public System.Void .ctor()
-    // Offset: 0x16BDF1C
+    // Offset: 0x16BCA40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastUITopLevelChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::RaycastUITopLevelChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RaycastUITopLevelChecker*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x16BDC78
+    // Offset: 0x16BC79C
     void Awake();
   }; // HMUI.RaycastUITopLevelChecker
   #pragma pack(pop)

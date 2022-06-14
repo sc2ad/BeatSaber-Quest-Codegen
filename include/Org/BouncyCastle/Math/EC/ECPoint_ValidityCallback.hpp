@@ -63,14 +63,14 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: private readonly System.Boolean m_checkOrder
     [[deprecated("Use field access instead!")]] bool& dyn_m_checkOrder();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint outer, System.Boolean decompressed, System.Boolean checkOrder)
-    // Offset: 0x2757F54
+    // Offset: 0x2749B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPoint::ValidityCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint::ValidityCallback*, creationType>(outer, decompressed, checkOrder)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x2758820
+    // Offset: 0x274A3E4
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.ECPoint/Org.BouncyCastle.Math.EC.ValidityCallback
   #pragma pack(pop)

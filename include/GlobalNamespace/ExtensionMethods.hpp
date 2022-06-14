@@ -68,10 +68,10 @@ namespace GlobalNamespace {
   class ExtensionMethods : public ::Il2CppObject {
     public:
     // static public System.Boolean ContainsLayer(UnityEngine.LayerMask layerMask, System.Int32 layer)
-    // Offset: 0x15A1E48
+    // Offset: 0x15A296C
     static bool ContainsLayer(::UnityEngine::LayerMask layerMask, int layer);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x15A1E84
+    // Offset: 0x15A29A8
     static ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
     // static public UnityEngine.Coroutine StartUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func, T value)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Coroutine*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, m, func, value);
     }
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`1<System.Collections.IEnumerator> func)
-    // Offset: 0x15A1F04
+    // Offset: 0x15A2A28
     static void StopUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
     // static public System.Void StopUniqueCoroutine(UnityEngine.MonoBehaviour m, System.Func`2<T,System.Collections.IEnumerator> func)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -95,22 +95,22 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, m, func);
     }
     // static public System.Boolean IsDescendantOf(UnityEngine.Transform transform, UnityEngine.Transform parent)
-    // Offset: 0x15A1F54
+    // Offset: 0x15A2A78
     static bool IsDescendantOf(::UnityEngine::Transform* transform, ::UnityEngine::Transform* parent);
     // static public System.Void SetLocalPositionAndRotation(UnityEngine.Transform tr, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x15A2040
+    // Offset: 0x15A2B64
     static void SetLocalPositionAndRotation(::UnityEngine::Transform* tr, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // static public System.String GetPath(UnityEngine.Transform current)
-    // Offset: 0x15A20A4
+    // Offset: 0x15A2BC8
     static ::StringW GetPath(::UnityEngine::Transform* current);
     // static public UnityEngine.Quaternion Reflect(UnityEngine.Quaternion source, UnityEngine.Vector3 normal)
-    // Offset: 0x15A219C
+    // Offset: 0x15A2CC0
     static ::UnityEngine::Quaternion Reflect(::UnityEngine::Quaternion source, ::UnityEngine::Vector3 normal);
     // static public UnityEngine.Texture2D CreateTexture2D(UnityEngine.RenderTexture renderTexture, UnityEngine.TextureFormat textureFormat)
-    // Offset: 0x15A2318
+    // Offset: 0x15A2E3C
     static ::UnityEngine::Texture2D* CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat);
     // static public UnityEngine.Vector2 Rotate(UnityEngine.Vector2 vector, System.Single rads)
-    // Offset: 0x15A2470
+    // Offset: 0x15A2F94
     static ::UnityEngine::Vector2 Rotate(::UnityEngine::Vector2 vector, float rads);
   }; // ExtensionMethods
   #pragma pack(pop)

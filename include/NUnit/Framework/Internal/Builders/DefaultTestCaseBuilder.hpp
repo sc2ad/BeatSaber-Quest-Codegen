@@ -72,26 +72,26 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__nunitTestCaseBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1CA2A18
+    // Offset: 0x1C956EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestCaseBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestCaseBuilder*, creationType>()));
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x1CA1DAC
+    // Offset: 0x1C94A80
     bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1CA1F0C
+    // Offset: 0x1C94BE0
     bool CanBuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
     // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x1CA1F10
+    // Offset: 0x1C94BE4
     ::NUnit::Framework::Internal::Test* BuildFrom(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite);
     // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
-    // Offset: 0x1CA2714
+    // Offset: 0x1C953E8
     ::NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(::NUnit::Framework::Interfaces::IMethodInfo* method, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestMethod*>* tests);
     // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x1CA2588
+    // Offset: 0x1C9525C
     ::NUnit::Framework::Internal::Test* BuildSingleTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* suite);
   }; // NUnit.Framework.Internal.Builders.DefaultTestCaseBuilder
   #pragma pack(pop)

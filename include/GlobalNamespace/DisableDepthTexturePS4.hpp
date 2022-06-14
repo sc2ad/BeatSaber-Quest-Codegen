@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BoolSO _depthTextureEnabled
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__depthTextureEnabled();
     // public System.Void .ctor()
-    // Offset: 0x2A3DE7C
+    // Offset: 0x2A35C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableDepthTexturePS4* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableDepthTexturePS4::.ctor");

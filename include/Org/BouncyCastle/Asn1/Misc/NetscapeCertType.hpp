@@ -30,14 +30,14 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class NetscapeCertType : public ::Org::BouncyCastle::Asn1::DerBitString {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x1CC907C
+    // Offset: 0x1CBBD50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetscapeCertType* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetscapeCertType*, creationType>(usage)));
     }
     // public override System.String ToString()
-    // Offset: 0x1CC9128
+    // Offset: 0x1CBBDFC
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::StringW ToString();

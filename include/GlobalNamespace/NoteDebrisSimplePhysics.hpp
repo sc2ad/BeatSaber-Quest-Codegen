@@ -80,18 +80,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _firstUpdate
     [[deprecated("Use field access instead!")]] bool& dyn__firstUpdate();
     // protected System.Void Start()
-    // Offset: 0x14AFD5C
+    // Offset: 0x14B3024
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x14AFD94
+    // Offset: 0x14B305C
     void LateUpdate();
     // public override UnityEngine.Vector3 get_position()
-    // Offset: 0x14AFD40
+    // Offset: 0x14B3008
     // Implemented from: NoteDebrisPhysics
     // Base method: UnityEngine.Vector3 NoteDebrisPhysics::get_position()
     ::UnityEngine::Vector3 get_position();
     // public System.Void .ctor()
-    // Offset: 0x14B0108
+    // Offset: 0x14B33D0
     // Implemented from: NoteDebrisPhysics
     // Base method: System.Void NoteDebrisPhysics::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,12 +100,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisSimplePhysics*, creationType>()));
     }
     // public override System.Void Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
-    // Offset: 0x14AFF90
+    // Offset: 0x14B3258
     // Implemented from: NoteDebrisPhysics
     // Base method: System.Void NoteDebrisPhysics::Init(UnityEngine.Vector3 force, UnityEngine.Vector3 torque)
     void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
     // public override System.Void AddVelocity(UnityEngine.Vector3 force)
-    // Offset: 0x14B0054
+    // Offset: 0x14B331C
     // Implemented from: NoteDebrisPhysics
     // Base method: System.Void NoteDebrisPhysics::AddVelocity(UnityEngine.Vector3 force)
     void AddVelocity(::UnityEngine::Vector3 force);

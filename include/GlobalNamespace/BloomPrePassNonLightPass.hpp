@@ -129,38 +129,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__registeredExecutionTimeType();
     // public BloomPrePassNonLightPass/ExecutionTimeType get_executionTimeType()
-    // Offset: 0x1E77114
+    // Offset: 0x1E6DDE8
     ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType get_executionTimeType();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassAfterBlurList()
-    // Offset: 0x1E7711C
+    // Offset: 0x1E6DDF0
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassBeforeBlurList()
-    // Offset: 0x1E77184
+    // Offset: 0x1E6DE58
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
     // protected System.Void .ctor()
-    // Offset: 0x1E74698
+    // Offset: 0x1E6B36C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassNonLightPass* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassNonLightPass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassNonLightPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E771F0
+    // Offset: 0x1E6DEC4
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1E75D98
+    // Offset: 0x1E6CA6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E771EC
+    // Offset: 0x1E6DEC0
     void OnDisable();
     // protected System.Void Register()
-    // Offset: 0x1E75C58
+    // Offset: 0x1E6C92C
     void Register();
     // protected System.Void Unregister()
-    // Offset: 0x1E75B88
+    // Offset: 0x1E6C85C
     void Unregister();
     // protected System.Void OnValidate()
-    // Offset: 0x1E76610
+    // Offset: 0x1E6D2E4
     void OnValidate();
     // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     // Offset: 0xFFFFFFFFFFFFFFFF

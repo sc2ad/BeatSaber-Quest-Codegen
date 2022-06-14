@@ -55,21 +55,21 @@ namespace Zenject::Internal {
     // Get instance field reference: public Zenject.BindingId BindingId
     [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn_BindingId();
     // public System.Void .ctor()
-    // Offset: 0x1C0CA5C
+    // Offset: 0x1C00730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>()));
     }
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x1C0CA64
+    // Offset: 0x1C00738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C0CB08
+    // Offset: 0x1C007DC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

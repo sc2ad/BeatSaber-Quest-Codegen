@@ -118,17 +118,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x1390F94
+    // Offset: 0x1392190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnLaserAnimation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnLaserAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnLaserAnimation*, creationType>()));
     }
     // private System.Void InitIfNeeded()
-    // Offset: 0x1390D54
+    // Offset: 0x1391F50
     void InitIfNeeded();
     // protected System.Void LateUpdate()
-    // Offset: 0x1390E24
+    // Offset: 0x1392020
     void LateUpdate();
   }; // SpawnLaserAnimation
   #pragma pack(pop)

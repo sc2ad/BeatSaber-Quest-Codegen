@@ -61,25 +61,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean initialized
     [[deprecated("Use field access instead!")]] bool& dyn_initialized();
     // static private System.Boolean OVR_GamepadController_Initialize()
-    // Offset: 0x19FD1A8
+    // Offset: 0x19F6CEC
     static bool OVR_GamepadController_Initialize();
     // static private System.Boolean OVR_GamepadController_Destroy()
-    // Offset: 0x19FD294
+    // Offset: 0x19F6DD8
     static bool OVR_GamepadController_Destroy();
     // static private System.Boolean OVR_GamepadController_Update()
-    // Offset: 0x19FD8BC
+    // Offset: 0x19F7400
     static bool OVR_GamepadController_Update();
     // static private System.Single OVR_GamepadController_GetAxis(System.Int32 axis)
-    // Offset: 0x19FD9C0
+    // Offset: 0x19F7504
     static float OVR_GamepadController_GetAxis(int axis);
     // static private System.Boolean OVR_GamepadController_GetButton(System.Int32 button)
-    // Offset: 0x19FD938
+    // Offset: 0x19F747C
     static bool OVR_GamepadController_GetButton(int button);
     // static private System.Boolean OVR_GamepadController_SetVibration(System.Int32 node, System.Single strength, System.Single frequency)
-    // Offset: 0x19FDE1C
+    // Offset: 0x19F7960
     static bool OVR_GamepadController_SetVibration(int node, float strength, float frequency);
     // public System.Void .ctor()
-    // Offset: 0x19FD174
+    // Offset: 0x19F6CB8
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,42 +88,42 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerGamepadMac*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x19FD224
+    // Offset: 0x19F6D68
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override OVRInput/Controller Update()
-    // Offset: 0x19FD310
+    // Offset: 0x19F6E54
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: OVRInput/Controller OVRControllerBase::Update()
     ::GlobalNamespace::OVRInput::Controller Update();
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x19FDA40
+    // Offset: 0x19F7584
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x19FDC50
+    // Offset: 0x19F7794
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x19FDD00
+    // Offset: 0x19F7844
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x19FDD50
+    // Offset: 0x19F7894
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x19FDDA8
+    // Offset: 0x19F78EC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x19FDE00
+    // Offset: 0x19F7944
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::SetControllerVibration(System.Single frequency, System.Single amplitude)
     void SetControllerVibration(float frequency, float amplitude);

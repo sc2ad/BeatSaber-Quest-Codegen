@@ -36,17 +36,17 @@ namespace GlobalNamespace {
     // Set static field: static public readonly BeatmapDataNoArrowsTransform/<>c <>9
     static void _set_$$9(::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x135492C
+    // Offset: 0x13578DC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1354990
+    // Offset: 0x1357940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataNoArrowsTransform::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataNoArrowsTransform::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataNoArrowsTransform::$$c*, creationType>()));
     }
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0_0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x1354998
+    // Offset: 0x1357948
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataNoArrowsTransform/<>c
   #pragma pack(pop)

@@ -48,17 +48,17 @@ namespace HMUI {
     // Get instance field reference: private System.Single _depth
     [[deprecated("Use field access instead!")]] float& dyn__depth();
     // public System.Void .ctor()
-    // Offset: 0x171C0C8
+    // Offset: 0x16F97AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyBoxGraphic* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::EmptyBoxGraphic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBoxGraphic*, creationType>()));
     }
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x171BE5C
+    // Offset: 0x16F9540
     void OnDrawGizmosSelected();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x171BA9C
+    // Offset: 0x16F9180
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);

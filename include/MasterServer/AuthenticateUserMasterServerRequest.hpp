@@ -72,13 +72,13 @@ namespace MasterServer {
     // Get instance field reference: public AuthenticationToken authenticationToken
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken& dyn_authenticationToken();
     // static public PacketPool`1<MasterServer.AuthenticateUserMasterServerRequest> get_pool()
-    // Offset: 0x1682D8C
+    // Offset: 0x16818B0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::AuthenticateUserMasterServerRequest*>* get_pool();
     // public MasterServer.AuthenticateUserMasterServerRequest Init(AuthenticationToken authenticationToken)
-    // Offset: 0x1682DD4
+    // Offset: 0x16818F8
     ::MasterServer::AuthenticateUserMasterServerRequest* Init(::GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Void .ctor()
-    // Offset: 0x1682EC0
+    // Offset: 0x16819E4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,17 +87,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateUserMasterServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1682DE4
+    // Offset: 0x1681908
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1682E18
+    // Offset: 0x168193C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1682E64
+    // Offset: 0x1681988
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

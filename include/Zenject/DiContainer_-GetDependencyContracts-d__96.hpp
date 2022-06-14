@@ -115,35 +115,35 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Zenject.InjectableInfo> <>7__wrap1
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*& dyn_$$7__wrap1();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
-    // Offset: 0x1E14B10
+    // Offset: 0x1E097E4
     ::System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E14B78
+    // Offset: 0x1E0984C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E14730
+    // Offset: 0x1E09404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::$GetDependencyContracts$d__96* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$GetDependencyContracts$d__96::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$GetDependencyContracts$d__96*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E14768
+    // Offset: 0x1E0943C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E14844
+    // Offset: 0x1E09518
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1E14784
+    // Offset: 0x1E09458
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E14B18
+    // Offset: 0x1E097EC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
-    // Offset: 0x1E14B80
+    // Offset: 0x1E09854
     ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1E14C34
+    // Offset: 0x1E09908
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // Zenject.DiContainer/Zenject.<GetDependencyContracts>d__96
   #pragma pack(pop)

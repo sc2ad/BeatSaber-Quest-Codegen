@@ -47,16 +47,16 @@ namespace ModestTree {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
     static void _set__prettyNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1766324
+    // Offset: 0x1762E68
     static void _cctor();
     // static public System.String PrettyName(System.Type type)
-    // Offset: 0x1763C08
+    // Offset: 0x176074C
     static ::StringW PrettyName(::System::Type* type);
     // static private System.String PrettyNameInternal(System.Type type)
-    // Offset: 0x1765C84
+    // Offset: 0x17627C8
     static ::StringW PrettyNameInternal(::System::Type* type);
     // static private System.String GetCSharpTypeName(System.String typeName)
-    // Offset: 0x17660B8
+    // Offset: 0x1762BFC
     static ::StringW GetCSharpTypeName(::StringW typeName);
   }; // ModestTree.TypeStringFormatter
   #pragma pack(pop)

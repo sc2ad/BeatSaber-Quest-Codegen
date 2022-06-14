@@ -41,28 +41,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C4308
+    // [DescriptionAttribute] Offset: 0x10C5E20
     // static field const value: static public Oculus.Platform.LeaderboardStartAt Top
     static constexpr const int Top = 0;
     // Get static field: static public Oculus.Platform.LeaderboardStartAt Top
     static ::Oculus::Platform::LeaderboardStartAt _get_Top();
     // Set static field: static public Oculus.Platform.LeaderboardStartAt Top
     static void _set_Top(::Oculus::Platform::LeaderboardStartAt value);
-    // [DescriptionAttribute] Offset: 0x10C4340
+    // [DescriptionAttribute] Offset: 0x10C5E58
     // static field const value: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewer
     static constexpr const int CenteredOnViewer = 1;
     // Get static field: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewer
     static ::Oculus::Platform::LeaderboardStartAt _get_CenteredOnViewer();
     // Set static field: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewer
     static void _set_CenteredOnViewer(::Oculus::Platform::LeaderboardStartAt value);
-    // [DescriptionAttribute] Offset: 0x10C4378
+    // [DescriptionAttribute] Offset: 0x10C5E90
     // static field const value: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewerOrTop
     static constexpr const int CenteredOnViewerOrTop = 2;
     // Get static field: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewerOrTop
     static ::Oculus::Platform::LeaderboardStartAt _get_CenteredOnViewerOrTop();
     // Set static field: static public Oculus.Platform.LeaderboardStartAt CenteredOnViewerOrTop
     static void _set_CenteredOnViewerOrTop(::Oculus::Platform::LeaderboardStartAt value);
-    // [DescriptionAttribute] Offset: 0x10C43B0
+    // [DescriptionAttribute] Offset: 0x10C5EC8
     // static field const value: static public Oculus.Platform.LeaderboardStartAt Unknown
     static constexpr const int Unknown = 3;
     // Get static field: static public Oculus.Platform.LeaderboardStartAt Unknown

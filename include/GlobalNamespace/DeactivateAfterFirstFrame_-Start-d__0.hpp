@@ -59,26 +59,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public DeactivateAfterFirstFrame <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DeactivateAfterFirstFrame*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x142D894
+    // Offset: 0x1407808
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x142D8FC
+    // Offset: 0x1407870
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x142D7F4
+    // Offset: 0x1407768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeactivateAfterFirstFrame::$Start$d__0* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeactivateAfterFirstFrame::$Start$d__0*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x142D828
+    // Offset: 0x140779C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x142D82C
+    // Offset: 0x14077A0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x142D89C
+    // Offset: 0x1407810
     void System_Collections_IEnumerator_Reset();
   }; // DeactivateAfterFirstFrame/<Start>d__0
   #pragma pack(pop)

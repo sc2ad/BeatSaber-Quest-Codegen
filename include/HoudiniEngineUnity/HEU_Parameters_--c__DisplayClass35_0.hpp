@@ -55,14 +55,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0
     [[deprecated("Use field access instead!")]] ::System::Predicate_1<::HoudiniEngineUnity::HAPI_ParmInfo>*& dyn_$$9__0();
     // public System.Void .ctor()
-    // Offset: 0x1AF0BD0
+    // Offset: 0x1AE8714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Parameters::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Parameters::$$c__DisplayClass35_0*, creationType>()));
     }
     // System.Boolean <Initialize>b__0(HoudiniEngineUnity.HAPI_ParmInfo p)
-    // Offset: 0x1AF350C
+    // Offset: 0x1AEB050
     bool $Initialize$b__0(::HoudiniEngineUnity::HAPI_ParmInfo p);
   }; // HoudiniEngineUnity.HEU_Parameters/HoudiniEngineUnity.<>c__DisplayClass35_0
   #pragma pack(pop)

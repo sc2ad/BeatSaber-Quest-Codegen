@@ -73,39 +73,39 @@ namespace System::Threading {
     // Get instance field reference: private System.Object m_OSSynchronizationContext
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_OSSynchronizationContext();
     // private System.Void .ctor(System.Object osContext)
-    // Offset: 0x1DCDD84
+    // Offset: 0x1DC2A58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OSSpecificSynchronizationContext* New_ctor(::Il2CppObject* osContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::OSSpecificSynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext*, creationType>(osContext)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DCE174
+    // Offset: 0x1DC2E48
     static void _cctor();
     // static public System.Threading.OSSpecificSynchronizationContext Get()
-    // Offset: 0x1DCDDB8
+    // Offset: 0x1DC2A8C
     static ::System::Threading::OSSpecificSynchronizationContext* Get();
     // static private System.Void InvocationEntry(System.IntPtr arg)
-    // Offset: 0x1DCDC28
+    // Offset: 0x1DC28FC
     static void InvocationEntry(::System::IntPtr arg);
     // static private System.Object GetOSContext()
-    // Offset: 0x1DCDF0C
+    // Offset: 0x1DC2BE0
     static ::Il2CppObject* GetOSContext();
     // static private System.Void PostInternal(System.Object osSynchronizationContext, System.IntPtr callback, System.IntPtr arg)
-    // Offset: 0x1DCE150
+    // Offset: 0x1DC2E24
     static void PostInternal(::Il2CppObject* osSynchronizationContext, ::System::IntPtr callback, ::System::IntPtr arg);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x1DCDF10
+    // Offset: 0x1DC2BE4
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     ::System::Threading::SynchronizationContext* CreateCopy();
     // public override System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DCDF78
+    // Offset: 0x1DC2C4C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback d, System.Object state)
     void Send(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public override System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
-    // Offset: 0x1DCDFD8
+    // Offset: 0x1DC2CAC
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback d, System.Object state)
     void Post(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);

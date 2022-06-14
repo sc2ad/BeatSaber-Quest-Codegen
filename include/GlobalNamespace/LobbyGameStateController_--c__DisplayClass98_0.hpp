@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
     // public System.Void .ctor()
-    // Offset: 0x14CC364
+    // Offset: 0x152A0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c__DisplayClass98_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c__DisplayClass98_0*, creationType>()));
     }
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x14CDDF8
+    // Offset: 0x152A0DC
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x14CE050
+    // Offset: 0x152A33C
     void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x14CE204
+    // Offset: 0x152A530
     bool $GetGameStateAndConfigurationAsync$b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
   }; // LobbyGameStateController/<>c__DisplayClass98_0
   #pragma pack(pop)

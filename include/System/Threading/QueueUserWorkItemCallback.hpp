@@ -78,23 +78,23 @@ namespace System::Threading {
     // Get instance field reference: private System.Object state
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // static private System.Void .cctor()
-    // Offset: 0x1DCED1C
+    // Offset: 0x1DC39F0
     static void _cctor();
     // System.Void .ctor(System.Threading.WaitCallback waitCallback, System.Object stateObj, System.Boolean compressStack, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1DCED94
+    // Offset: 0x1DC3A68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::Il2CppObject* stateObj, bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::QueueUserWorkItemCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QueueUserWorkItemCallback*, creationType>(waitCallback, stateObj, compressStack, byref(stackMark))));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1DCEE54
+    // Offset: 0x1DC3B28
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DCEF2C
+    // Offset: 0x1DC3C00
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // static private System.Void WaitCallback_Context(System.Object state)
-    // Offset: 0x1DCEF30
+    // Offset: 0x1DC3C04
     static void WaitCallback_Context(::Il2CppObject* state);
   }; // System.Threading.QueueUserWorkItemCallback
   #pragma pack(pop)

@@ -74,7 +74,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.String Message
       [[deprecated("Use field access instead!")]] ::StringW& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
-      // Offset: 0x18B61F0
+      // Offset: 0x18B1D34
       // ABORTED: conflicts with another method.  RuntimeBuildLog(::UnityEngine::LogType type, ::StringW message);
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
@@ -95,13 +95,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*& dyn_m_RuntimeBuildLogs();
     // public System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> get_RuntimeBuildLogs()
-    // Offset: 0x18B6170
+    // Offset: 0x18B1CB4
     ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* get_RuntimeBuildLogs();
     // public System.Void set_RuntimeBuildLogs(System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> value)
-    // Offset: 0x18B6178
+    // Offset: 0x18B1CBC
     void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* value);
     // public System.Void .ctor()
-    // Offset: 0x18B6180
+    // Offset: 0x18B1CC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PackedPlayModeBuildLogs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PackedPlayModeBuildLogs::.ctor");

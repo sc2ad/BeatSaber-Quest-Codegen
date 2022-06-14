@@ -59,21 +59,21 @@ namespace GlobalNamespace {
   class LightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D5C9C
+    // [InjectAttribute] Offset: 0x10D880C
     // private readonly LightGroup[] _lightGroups
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::LightGroup*> lightGroups;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightGroup*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10D5CAC
+    // [InjectAttribute] Offset: 0x10D881C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D5CBC
+    // [InjectAttribute] Offset: 0x10D882C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
@@ -106,23 +106,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LightColorGroupEffect> _lightColorGroupEffects
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>*& dyn__lightColorGroupEffects();
     // public System.Collections.Generic.IReadOnlyCollection`1<LightGroup> get_lightGroups()
-    // Offset: 0x14C2F4C
+    // Offset: 0x14C5980
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::LightGroup*>* get_lightGroups();
     // public System.Void .ctor()
-    // Offset: 0x14C3364
+    // Offset: 0x14C5D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorGroupEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14C2F54
+    // Offset: 0x14C5988
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14C314C
+    // Offset: 0x14C5B80
     void OnDestroy();
     // private System.Void HandleColorBoostBeatmapEvent(ColorBoostBeatmapEventData eventData)
-    // Offset: 0x14C3254
+    // Offset: 0x14C5C88
     void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
   }; // LightColorGroupEffectManager
   #pragma pack(pop)

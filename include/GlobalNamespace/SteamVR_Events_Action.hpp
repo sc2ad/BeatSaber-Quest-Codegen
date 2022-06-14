@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class SteamVR_Events::Action : public ::Il2CppObject {
     public:
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x18A2D70
+    // Offset: 0x189E8B4
     void set_enabled(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x18A4600
+    // Offset: 0x18A0144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Action* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Action::.ctor");

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class PS4ActivePublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [NullAllowed] Offset: 0x10D296C
+    // [NullAllowed] Offset: 0x10D54AC
     // public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PS4PublisherSKUSettingsSO*& dyn_activePublisherSKUSettings();
     // public System.Void .ctor()
-    // Offset: 0x135AD2C
+    // Offset: 0x135CCD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4ActivePublisherSKUSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4ActivePublisherSKUSettingsSO::.ctor");

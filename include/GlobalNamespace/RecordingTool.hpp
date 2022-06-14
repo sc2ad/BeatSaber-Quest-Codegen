@@ -22,6 +22,11 @@ namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
 }
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: RecordingToolResourceContainerSO
+  class RecordingToolResourceContainerSO;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -46,15 +51,15 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kRecordingToolId
     static void _set_kRecordingToolId(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1454974
+    // Offset: 0x147A5E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingTool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingTool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingTool*, creationType>()));
     }
-    // static public System.Void InstallDependencies(Zenject.DiContainer container)
-    // Offset: 0x1454868
-    static void InstallDependencies(::Zenject::DiContainer* container);
+    // static public System.Void InstallDependencies(Zenject.DiContainer container, RecordingToolResourceContainerSO recordingToolResourceContainer)
+    // Offset: 0x147A4E0
+    static void InstallDependencies(::Zenject::DiContainer* container, ::GlobalNamespace::RecordingToolResourceContainerSO* recordingToolResourceContainer);
   }; // RecordingTool
   #pragma pack(pop)
 }
@@ -66,9 +71,10 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RecordingTool::InstallDependencies
 // Il2CppName: InstallDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DiContainer*)>(&GlobalNamespace::RecordingTool::InstallDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DiContainer*, ::GlobalNamespace::RecordingToolResourceContainerSO*)>(&GlobalNamespace::RecordingTool::InstallDependencies)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RecordingTool*), "InstallDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
+    static auto* recordingToolResourceContainer = &::il2cpp_utils::GetClassFromName("", "RecordingToolResourceContainerSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RecordingTool*), "InstallDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, recordingToolResourceContainer});
   }
 };

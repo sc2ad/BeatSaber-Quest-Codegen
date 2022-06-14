@@ -38,15 +38,15 @@ namespace RootMotion::FinalIK {
   class HitReaction::HitPointBone::BoneLink : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10FDFFC
+    // [TooltipAttribute] Offset: 0x1100EC0
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10FE034
-    // [RangeAttribute] Offset: 0x10FE034
+    // [TooltipAttribute] Offset: 0x1100EF8
+    // [RangeAttribute] Offset: 0x1100EF8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -75,17 +75,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion current
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_current();
     // public System.Void .ctor()
-    // Offset: 0x2221C70
+    // Offset: 0x2219834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointBone::BoneLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointBone::BoneLink*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x2221B00
+    // Offset: 0x22196C4
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x2221898
+    // Offset: 0x221945C
     void CrossFadeStart();
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink
   #pragma pack(pop)

@@ -38,10 +38,10 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: public System.Boolean o
     [[deprecated("Use field access instead!")]] bool& dyn_o();
     // public System.Boolean get_boost()
-    // Offset: 0x286D888
+    // Offset: 0x2826D18
     bool get_boost();
     // public System.Void .ctor(System.Single beat, System.Boolean boost)
-    // Offset: 0x286D4CC
+    // Offset: 0x282695C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ColorBoostEventData* New_ctor(float beat, bool boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData::.ctor");

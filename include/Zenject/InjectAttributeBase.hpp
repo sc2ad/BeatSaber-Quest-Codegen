@@ -59,25 +59,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.InjectSources <Source>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::InjectSources& dyn_$Source$k__BackingField();
     // public System.Boolean get_Optional()
-    // Offset: 0x2AD8C7C
+    // Offset: 0x2ACEA50
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x2AD8C84
+    // Offset: 0x2ACEA58
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x2AD8C90
+    // Offset: 0x2ACEA64
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x2AD8C98
+    // Offset: 0x2ACEA6C
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x2AD8CA0
+    // Offset: 0x2ACEA74
     ::Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x2AD8CA8
+    // Offset: 0x2ACEA7C
     void set_Source(::Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x2AD8C74
+    // Offset: 0x2ACEA48
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

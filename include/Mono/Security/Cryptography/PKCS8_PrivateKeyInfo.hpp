@@ -80,45 +80,45 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Collections.ArrayList _list
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__list();
     // public System.Byte[] get_PrivateKey()
-    // Offset: 0x23438B8
+    // Offset: 0x233B47C
     ::ArrayW<uint8_t> get_PrivateKey();
     // public System.Void .ctor()
-    // Offset: 0x23435E8
+    // Offset: 0x233B1AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::PrivateKeyInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::PrivateKeyInfo*, creationType>()));
     }
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x2343658
+    // Offset: 0x233B21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::PrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::PrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x2343684
+    // Offset: 0x233B248
     void Decode(::ArrayW<uint8_t> data);
     // static private System.Byte[] RemoveLeadingZero(System.Byte[] bigInt)
-    // Offset: 0x2343934
+    // Offset: 0x233B4F8
     static ::ArrayW<uint8_t> RemoveLeadingZero(::ArrayW<uint8_t> bigInt);
     // static private System.Byte[] Normalize(System.Byte[] bigInt, System.Int32 length)
-    // Offset: 0x23439E0
+    // Offset: 0x233B5A4
     static ::ArrayW<uint8_t> Normalize(::ArrayW<uint8_t> bigInt, int length);
     // static public System.Security.Cryptography.RSA DecodeRSA(System.Byte[] keypair)
-    // Offset: 0x2343A94
+    // Offset: 0x233B658
     static ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> keypair);
     // static public System.Byte[] Encode(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x2343E10
+    // Offset: 0x233B9D4
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::RSA* rsa);
     // static public System.Security.Cryptography.DSA DecodeDSA(System.Byte[] privateKey, System.Security.Cryptography.DSAParameters dsaParameters)
-    // Offset: 0x2343FD4
+    // Offset: 0x233BB98
     static ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
     // static public System.Byte[] Encode(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x23440F0
+    // Offset: 0x233BCB4
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::DSA* dsa);
     // static public System.Byte[] Encode(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x234413C
+    // Offset: 0x233BD00
     static ::ArrayW<uint8_t> Encode(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.PrivateKeyInfo
   #pragma pack(pop)

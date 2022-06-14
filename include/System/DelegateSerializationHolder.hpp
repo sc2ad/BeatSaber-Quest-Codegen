@@ -69,20 +69,20 @@ namespace System {
     // Get instance field reference: private System.Delegate _delegate
     [[deprecated("Use field access instead!")]] ::System::Delegate*& dyn__delegate();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1955698
+    // Offset: 0x19511DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::DelegateSerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder*, creationType>(info, ctx)));
     }
     // static public System.Void GetDelegateData(System.Delegate instance, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x1954E9C
+    // Offset: 0x19509E0
     static void GetDelegateData(::System::Delegate* instance, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1955C40
+    // Offset: 0x1951784
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1955CA0
+    // Offset: 0x19517E4
     ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
   }; // System.DelegateSerializationHolder
   #pragma pack(pop)

@@ -74,20 +74,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _index
     [[deprecated("Use field access instead!")]] int& dyn__index();
     // public System.Void .ctor()
-    // Offset: 0x263A59C
+    // Offset: 0x2632160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureRandomProvider::SecureRandomState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SecureRandomProvider::SecureRandomState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandomProvider::SecureRandomState*, creationType>()));
     }
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x263A238
+    // Offset: 0x2631DFC
     void GetBytes(::ArrayW<uint8_t> buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x263A36C
+    // Offset: 0x2631F30
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x263A63C
+    // Offset: 0x2632200
     void FillBuffer();
   }; // SecureRandomProvider/SecureRandomState
   #pragma pack(pop)

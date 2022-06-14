@@ -139,34 +139,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isMe
     [[deprecated("Use field access instead!")]] bool& dyn__isMe();
     // public System.Boolean get_showSeparator()
-    // Offset: 0x14A6888
+    // Offset: 0x14A9B50
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x14A68A4
+    // Offset: 0x14A9B6C
     void set_showSeparator(bool value);
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0x14A6BA4
+    // Offset: 0x14A9E6C
     ::UnityEngine::Color get_activeColor();
     // public System.Void .ctor()
-    // Offset: 0x14A6C00
+    // Offset: 0x14A9EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerTableCell*, creationType>()));
     }
     // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0x14A6AFC
+    // Offset: 0x14A9DC4
     void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
     // private System.Void RefreshVisuals()
-    // Offset: 0x14A68DC
+    // Offset: 0x14A9BA4
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14A6B9C
+    // Offset: 0x14A9E64
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x14A6BA0
+    // Offset: 0x14A9E68
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

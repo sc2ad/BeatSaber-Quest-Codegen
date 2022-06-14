@@ -57,23 +57,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayCoreSceneSetupData <gameplayCoreSceneSetupData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn_$gameplayCoreSceneSetupData$k__BackingField();
     // public IReadonlyBeatmapData get_transformedBeatmapData()
-    // Offset: 0x14BDC74
+    // Offset: 0x14C06B4
     ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
     // protected GameplayCoreSceneSetupData get_gameplayCoreSceneSetupData()
-    // Offset: 0x14BDC90
+    // Offset: 0x14C06D0
     ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
     // protected System.Void set_gameplayCoreSceneSetupData(GameplayCoreSceneSetupData value)
-    // Offset: 0x14BDC98
+    // Offset: 0x14C06D8
     void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
     // protected System.Void .ctor()
-    // Offset: 0x14BDD90
+    // Offset: 0x14C07D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScenesTransitionSetupDataSO*, creationType>()));
     }
     // protected override System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x14BDCA0
+    // Offset: 0x14C06E0
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Threading.Tasks.Task ScenesTransitionSetupDataSO::BeforeScenesWillBeActivatedAsync()
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();

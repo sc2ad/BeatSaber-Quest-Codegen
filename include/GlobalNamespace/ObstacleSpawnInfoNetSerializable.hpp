@@ -162,24 +162,24 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotation
     [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, System.Single duration, System.Int32 width, System.Int32 height, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance, System.Single rotation)
-    // Offset: 0x2A03ABC
+    // Offset: 0x2A00C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSpawnInfoNetSerializable* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float duration, int width, int height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>(time, lineIndex, lineLayer, duration, width, height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration, noteLinesDistance, rotation)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2A03C2C
+    // Offset: 0x2A00DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSpawnInfoNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A03C34
+    // Offset: 0x2A00DEC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A03D78
+    // Offset: 0x2A00F30
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // ObstacleSpawnInfoNetSerializable
   #pragma pack(pop)

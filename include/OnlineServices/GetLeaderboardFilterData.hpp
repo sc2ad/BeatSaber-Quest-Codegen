@@ -87,7 +87,7 @@ namespace OnlineServices {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, OnlineServices.ScoresScope scope, GameplayModifiers gameplayModifiers)
-    // Offset: 0x1357168
+    // Offset: 0x1359118
     // ABORTED: conflicts with another method.  GetLeaderboardFilterData(::GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, ::OnlineServices::ScoresScope scope, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // OnlineServices.GetLeaderboardFilterData
   #pragma pack(pop)

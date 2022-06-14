@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2A3CE00
+    // Offset: 0x2A34BD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedLightWithIdBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedLightWithIdBase::.ctor");

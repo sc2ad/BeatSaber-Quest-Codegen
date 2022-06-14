@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
-    // [InjectAttribute] Offset: 0x10D9170
+    // [InjectAttribute] Offset: 0x10DBEFC
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
@@ -111,17 +111,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLayoutProvider*& dyn__layoutProvider();
     // public System.Void .ctor()
-    // Offset: 0x13CCAB4
+    // Offset: 0x13D035C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConditionalActiveByLayout* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConditionalActiveByLayout::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConditionalActiveByLayout*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x13CC9A0
+    // Offset: 0x13D0248
     void Start();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 playersCount)
-    // Offset: 0x13CCA50
+    // Offset: 0x13D02F8
     void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int playersCount);
   }; // MultiplayerConditionalActiveByLayout
   #pragma pack(pop)

@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action TriggerCheckerOnStayEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_TriggerCheckerOnStayEvent();
     // public System.Void .ctor()
-    // Offset: 0x2A2B5F0
+    // Offset: 0x2A277A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TriggerChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerChecker*, creationType>()));
     }
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x2A2B5B4
+    // Offset: 0x2A2776C
     void OnTriggerEnter(::UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x2A2B5C8
+    // Offset: 0x2A27780
     void OnTriggerExit(::UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x2A2B5DC
+    // Offset: 0x2A27794
     void OnTriggerStay(::UnityEngine::Collider* other);
   }; // TriggerChecker
   #pragma pack(pop)

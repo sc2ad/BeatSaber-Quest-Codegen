@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*& dyn__multiplayerConnectedPlayerObstacleClippingController();
     // public System.Void .ctor()
-    // Offset: 0x13D1ECC
+    // Offset: 0x13D5774
     // Implemented from: ObstacleController
     // Base method: System.Void ObstacleController::.ctor()
     // Base method: System.Void ObstacleControllerBase::.ctor()
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleController*, creationType>()));
     }
     // public override System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x13D1CA0
+    // Offset: 0x13D5548
     // Implemented from: ObstacleController
     // Base method: System.Void ObstacleController::Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
     void Init(::GlobalNamespace::ObstacleData* obstacleData, float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);

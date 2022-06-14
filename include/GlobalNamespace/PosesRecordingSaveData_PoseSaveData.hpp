@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single rotW
     [[deprecated("Use field access instead!")]] float& dyn_rotW();
     // public System.Void .ctor(System.Single posX, System.Single posY, System.Single posZ, System.Single rotX, System.Single rotY, System.Single rotZ, System.Single rotW)
-    // Offset: 0x13DC8F0
+    // Offset: 0x13E0198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::PoseSaveData* New_ctor(float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float rotW) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::PoseSaveData::.ctor");

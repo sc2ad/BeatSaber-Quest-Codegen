@@ -195,16 +195,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentSizeData/TrackLaneType _trackLaneType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData::TrackLaneType& dyn__trackLaneType();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x136CD44
+    // Offset: 0x1397294
     ::GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x136CD4C
+    // Offset: 0x139729C
     ::GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public EnvironmentSizeData/TrackLaneType get_trackLaneType()
-    // Offset: 0x136CD54
+    // Offset: 0x13972A4
     ::GlobalNamespace::EnvironmentSizeData::TrackLaneType get_trackLaneType();
     // public System.Void .ctor()
-    // Offset: 0x136CD5C
+    // Offset: 0x13972AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSizeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSizeData::.ctor");

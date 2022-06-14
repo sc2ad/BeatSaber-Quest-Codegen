@@ -70,22 +70,22 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Int32 f
     [[deprecated("Use field access instead!")]] int& dyn_f();
     // public System.Single get_beat()
-    // Offset: 0x286DBC0
+    // Offset: 0x2827050
     float get_beat();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType get_transitionType()
-    // Offset: 0x286DBC8
+    // Offset: 0x2827058
     ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType get_transitionType();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType get_colorType()
-    // Offset: 0x286DBD0
+    // Offset: 0x2827060
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType get_colorType();
     // public System.Single get_brightness()
-    // Offset: 0x286DBD8
+    // Offset: 0x2827068
     float get_brightness();
     // public System.Int32 get_strobeBeatFrequency()
-    // Offset: 0x286DBE0
+    // Offset: 0x2827070
     int get_strobeBeatFrequency();
     // public System.Void .ctor(System.Single beat, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType transitionType, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType colorType, System.Single brightness, System.Int32 strobeFrequency)
-    // Offset: 0x286DBE8
+    // Offset: 0x2827078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightColorBaseData* New_ctor(float beat, ::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType transitionType, ::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType colorType, float brightness, int strobeFrequency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData::.ctor");

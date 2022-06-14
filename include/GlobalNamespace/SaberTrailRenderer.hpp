@@ -127,12 +127,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5B0C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D867C
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static ::UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
     static void _set__bounds(::UnityEngine::Bounds value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5B1C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D868C
     // Get static field: static private readonly System.Int32 _saberTravelledDistanceId
     static int _get__saberTravelledDistanceId();
     // Set static field: static private readonly System.Int32 _saberTravelledDistanceId
@@ -174,41 +174,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteSectionMaxDuration
     [[deprecated("Use field access instead!")]] float& dyn__whiteSectionMaxDuration();
     // public System.Void .ctor()
-    // Offset: 0x1461EF0
+    // Offset: 0x1487D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberTrailRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberTrailRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1461EF8
+    // Offset: 0x1487DA0
     static void _cctor();
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0x146146C
+    // Offset: 0x1487314
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0x1461794
+    // Offset: 0x148763C
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x14617A0
+    // Offset: 0x1487648
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x1461880
+    // Offset: 0x1487728
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1461914
+    // Offset: 0x14877BC
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0x14619A8
+    // Offset: 0x1487850
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x1460EC4
+    // Offset: 0x1486D6C
     void UpdateMesh(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x14619B0
+    // Offset: 0x1487858
     void UpdateVertices(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0x14615AC
+    // Offset: 0x1487454
     void UpdateIndices();
   }; // SaberTrailRenderer
   #pragma pack(pop)

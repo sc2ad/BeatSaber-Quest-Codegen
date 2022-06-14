@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D88D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DB65C
     // Get static field: static private readonly System.Int32 _clippingPlanePositionID
     static int _get__clippingPlanePositionID();
     // Set static field: static private readonly System.Int32 _clippingPlanePositionID
     static void _set__clippingPlanePositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D88E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DB66C
     // Get static field: static private readonly System.Int32 _clippingPlaneNormalID
     static int _get__clippingPlaneNormalID();
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
@@ -63,17 +63,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // public System.Void .ctor()
-    // Offset: 0x13D1C14
+    // Offset: 0x13D54BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObstacleClippingController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerObstacleClippingController*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13D1C1C
+    // Offset: 0x13D54C4
     static void _cctor();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
-    // Offset: 0x13D1A68
+    // Offset: 0x13D5310
     void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
   }; // MultiplayerConnectedPlayerObstacleClippingController
   #pragma pack(pop)

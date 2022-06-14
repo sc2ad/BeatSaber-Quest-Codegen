@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean DidCancel
     [[deprecated("Use field access instead!")]] bool& dyn_DidCancel();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19E6EDC
+    // Offset: 0x19E0A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchBlockFlowResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchBlockFlowResult::.ctor");

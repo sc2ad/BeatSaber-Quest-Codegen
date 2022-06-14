@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodesManager _missionNodesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // public System.Void .ctor()
-    // Offset: 0x1305B18
+    // Offset: 0x1307AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeNameGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeNameGenerator::.ctor");

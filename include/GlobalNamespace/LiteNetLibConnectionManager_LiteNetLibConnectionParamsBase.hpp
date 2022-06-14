@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 disconnectTimeoutMs
     [[deprecated("Use field access instead!")]] int& dyn_disconnectTimeoutMs();
     // protected System.Void .ctor()
-    // Offset: 0x1682684
+    // Offset: 0x16811A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase::.ctor");

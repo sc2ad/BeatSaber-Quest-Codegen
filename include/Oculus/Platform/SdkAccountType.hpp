@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C5820
+    // [DescriptionAttribute] Offset: 0x10C7338
     // static field const value: static public Oculus.Platform.SdkAccountType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SdkAccountType Unknown
     static ::Oculus::Platform::SdkAccountType _get_Unknown();
     // Set static field: static public Oculus.Platform.SdkAccountType Unknown
     static void _set_Unknown(::Oculus::Platform::SdkAccountType value);
-    // [DescriptionAttribute] Offset: 0x10C5858
+    // [DescriptionAttribute] Offset: 0x10C7370
     // static field const value: static public Oculus.Platform.SdkAccountType Oculus
     static constexpr const int Oculus = 1;
     // Get static field: static public Oculus.Platform.SdkAccountType Oculus
     static ::Oculus::Platform::SdkAccountType _get_Oculus();
     // Set static field: static public Oculus.Platform.SdkAccountType Oculus
     static void _set_Oculus(::Oculus::Platform::SdkAccountType value);
-    // [DescriptionAttribute] Offset: 0x10C5890
+    // [DescriptionAttribute] Offset: 0x10C73A8
     // static field const value: static public Oculus.Platform.SdkAccountType FacebookGameroom
     static constexpr const int FacebookGameroom = 2;
     // Get static field: static public Oculus.Platform.SdkAccountType FacebookGameroom

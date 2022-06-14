@@ -57,23 +57,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <playerSessionId>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$playerSessionId$k__BackingField();
     // public System.String get_playerSessionId()
-    // Offset: 0x1678EE8
+    // Offset: 0x1677A0C
     ::StringW get_playerSessionId();
     // public System.Void set_playerSessionId(System.String value)
-    // Offset: 0x1678EF0
+    // Offset: 0x1677A14
     void set_playerSessionId(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1678F80
+    // Offset: 0x1677AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftClientConnectionRequestHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameLiftClientConnectionRequestHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftClientConnectionRequestHandler*, creationType>()));
     }
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1678EF8
+    // Offset: 0x1677A1C
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x1678F6C
+    // Offset: 0x1677A90
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // GameLiftClientConnectionRequestHandler
   #pragma pack(pop)

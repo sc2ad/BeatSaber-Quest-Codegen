@@ -41,28 +41,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C3EA8
+    // [DescriptionAttribute] Offset: 0x10C59C0
     // static field const value: static public Oculus.Platform.KeyValuePairType String
     static constexpr const int String = 0;
     // Get static field: static public Oculus.Platform.KeyValuePairType String
     static ::Oculus::Platform::KeyValuePairType _get_String();
     // Set static field: static public Oculus.Platform.KeyValuePairType String
     static void _set_String(::Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0x10C3EE0
+    // [DescriptionAttribute] Offset: 0x10C59F8
     // static field const value: static public Oculus.Platform.KeyValuePairType Int
     static constexpr const int Int = 1;
     // Get static field: static public Oculus.Platform.KeyValuePairType Int
     static ::Oculus::Platform::KeyValuePairType _get_Int();
     // Set static field: static public Oculus.Platform.KeyValuePairType Int
     static void _set_Int(::Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0x10C3F18
+    // [DescriptionAttribute] Offset: 0x10C5A30
     // static field const value: static public Oculus.Platform.KeyValuePairType Double
     static constexpr const int Double = 2;
     // Get static field: static public Oculus.Platform.KeyValuePairType Double
     static ::Oculus::Platform::KeyValuePairType _get_Double();
     // Set static field: static public Oculus.Platform.KeyValuePairType Double
     static void _set_Double(::Oculus::Platform::KeyValuePairType value);
-    // [DescriptionAttribute] Offset: 0x10C3F50
+    // [DescriptionAttribute] Offset: 0x10C5A68
     // static field const value: static public Oculus.Platform.KeyValuePairType Unknown
     static constexpr const int Unknown = 3;
     // Get static field: static public Oculus.Platform.KeyValuePairType Unknown

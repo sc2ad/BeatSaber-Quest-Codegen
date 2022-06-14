@@ -35,35 +35,35 @@ namespace GlobalNamespace {
   class TestFlowCoordinator : public ::HMUI::FlowCoordinator {
     public:
     public:
-    // [NullAllowed] Offset: 0x10DE440
+    // [NullAllowed] Offset: 0x10E11CC
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0xA8
     ::HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0x10DE478
+    // [NullAllowed] Offset: 0x10E1204
     // private HMUI.ViewController _leftViewController
     // Size: 0x8
     // Offset: 0xB0
     ::HMUI::ViewController* leftViewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0x10DE4B0
+    // [NullAllowed] Offset: 0x10E123C
     // private HMUI.ViewController _rightViewController
     // Size: 0x8
     // Offset: 0xB8
     ::HMUI::ViewController* rightViewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0x10DE4E8
+    // [NullAllowed] Offset: 0x10E1274
     // private HMUI.ViewController _bottomScreenViewController
     // Size: 0x8
     // Offset: 0xC0
     ::HMUI::ViewController* bottomScreenViewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [NullAllowed] Offset: 0x10DE520
+    // [NullAllowed] Offset: 0x10E12AC
     // private HMUI.ViewController _topScreenViewController
     // Size: 0x8
     // Offset: 0xC8
@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ViewController _topScreenViewController
     [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn__topScreenViewController();
     // public System.Void .ctor()
-    // Offset: 0x141CE1C
+    // Offset: 0x1474A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x141CE00
+    // Offset: 0x1474A40
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

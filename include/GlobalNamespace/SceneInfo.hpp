@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disabledRootObjects
     [[deprecated("Use field access instead!")]] bool& dyn__disabledRootObjects();
     // public System.String get_sceneName()
-    // Offset: 0x2A27594
+    // Offset: 0x2A2374C
     ::StringW get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x2A2759C
+    // Offset: 0x2A23754
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x2A275A4
+    // Offset: 0x2A2375C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

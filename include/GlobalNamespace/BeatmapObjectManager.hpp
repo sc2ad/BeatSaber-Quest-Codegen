@@ -260,103 +260,103 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public System.Boolean get_spawnHidden()
-    // Offset: 0x150E1D0
+    // Offset: 0x150F318
     bool get_spawnHidden();
     // public System.Void set_spawnHidden(System.Boolean value)
-    // Offset: 0x150E1D8
+    // Offset: 0x150F320
     void set_spawnHidden(bool value);
     // public System.Void add_noteWasAddedEvent(System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> value)
-    // Offset: 0x150CFE0
+    // Offset: 0x150E128
     void add_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>* value);
     // public System.Void remove_noteWasAddedEvent(System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> value)
-    // Offset: 0x150D084
+    // Offset: 0x150E1CC
     void remove_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>* value);
     // public System.Void add_noteWasSpawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D128
+    // Offset: 0x150E270
     void add_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasSpawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D1CC
+    // Offset: 0x150E314
     void remove_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasDespawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D270
+    // Offset: 0x150E3B8
     void add_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasDespawnedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D314
+    // Offset: 0x150E45C
     void remove_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D3B8
+    // Offset: 0x150E500
     void add_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D45C
+    // Offset: 0x150E5A4
     void remove_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_noteWasCutEvent(BeatmapObjectManager/NoteWasCutDelegate value)
-    // Offset: 0x150D500
+    // Offset: 0x150E648
     void add_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* value);
     // public System.Void remove_noteWasCutEvent(BeatmapObjectManager/NoteWasCutDelegate value)
-    // Offset: 0x150D5A4
+    // Offset: 0x150E6EC
     void remove_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D648
+    // Offset: 0x150E790
     void add_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action`1<NoteController> value)
-    // Offset: 0x150D6EC
+    // Offset: 0x150E834
     void remove_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
     // public System.Void add_obstacleWasAddedEvent(System.Action`3<ObstacleData,BeatmapObjectSpawnMovementData/ObstacleSpawnData,System.Single> value)
-    // Offset: 0x150D790
+    // Offset: 0x150E8D8
     void add_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>* value);
     // public System.Void remove_obstacleWasAddedEvent(System.Action`3<ObstacleData,BeatmapObjectSpawnMovementData/ObstacleSpawnData,System.Single> value)
-    // Offset: 0x150D834
+    // Offset: 0x150E97C
     void remove_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float>* value);
     // public System.Void add_obstacleWasSpawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150D8D8
+    // Offset: 0x150EA20
     void add_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleWasSpawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150D97C
+    // Offset: 0x150EAC4
     void remove_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleWasDespawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150DA20
+    // Offset: 0x150EB68
     void add_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleWasDespawnedEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150DAC4
+    // Offset: 0x150EC0C
     void remove_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleDidPassThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x150DB68
+    // Offset: 0x150ECB0
     void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleDidPassThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x150DC0C
+    // Offset: 0x150ED54
     void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_obstacleDidPassAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150C694
+    // Offset: 0x150D7DC
     void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_obstacleDidPassAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x150C908
+    // Offset: 0x150DA50
     void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_sliderWasAddedEvent(System.Action`3<SliderData,BeatmapObjectSpawnMovementData/SliderSpawnData,System.Single> value)
-    // Offset: 0x150DCB0
+    // Offset: 0x150EDF8
     void add_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>* value);
     // public System.Void remove_sliderWasAddedEvent(System.Action`3<SliderData,BeatmapObjectSpawnMovementData/SliderSpawnData,System.Single> value)
-    // Offset: 0x150DD54
+    // Offset: 0x150EE9C
     void remove_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData, float>* value);
     // public System.Void add_sliderWasSpawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x150DDF8
+    // Offset: 0x150EF40
     void add_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void remove_sliderWasSpawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x150DE9C
+    // Offset: 0x150EFE4
     void remove_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void add_sliderWasDespawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x150DF40
+    // Offset: 0x150F088
     void add_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void remove_sliderWasDespawnedEvent(System.Action`1<SliderController> value)
-    // Offset: 0x150DFE4
+    // Offset: 0x150F12C
     void remove_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
     // public System.Void add_didHideAllBeatmapObjectsEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x150E088
+    // Offset: 0x150F1D0
     void add_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didHideAllBeatmapObjectsEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x150E12C
+    // Offset: 0x150F274
     void remove_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
     // protected System.Void .ctor()
-    // Offset: 0x150FCD4
+    // Offset: 0x1510E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectManager::.ctor");
@@ -381,85 +381,85 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
     // protected System.Void AddSpawnedObstacleController(ObstacleController obstacleController, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x150E1E4
+    // Offset: 0x150F32C
     void AddSpawnedObstacleController(::GlobalNamespace::ObstacleController* obstacleController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected System.Void AddSpawnedNoteController(NoteController noteController, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x150E47C
+    // Offset: 0x150F5C4
     void AddSpawnedNoteController(::GlobalNamespace::NoteController* noteController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected System.Void AddSpawnedSliderController(SliderController sliderController, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x150E878
+    // Offset: 0x150F9C0
     void AddSpawnedSliderController(::GlobalNamespace::SliderController* sliderController, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
     // private System.Void SetNoteControllerEventCallbacks(NoteController noteController)
-    // Offset: 0x150E5E4
+    // Offset: 0x150F72C
     void SetNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
     // private System.Void RemoveNoteControllerEventCallbacks(NoteController noteController)
-    // Offset: 0x150EB10
+    // Offset: 0x150FC58
     void RemoveNoteControllerEventCallbacks(::GlobalNamespace::NoteController* noteController);
     // private System.Void SetSliderNoteControllerEventCallbacks(SliderController sliderNoteController)
-    // Offset: 0x150E9D8
+    // Offset: 0x150FB20
     void SetSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
     // private System.Void RemoveSliderNoteControllerEventCallbacks(SliderController sliderNoteController)
-    // Offset: 0x150EDB8
+    // Offset: 0x150FF00
     void RemoveSliderNoteControllerEventCallbacks(::GlobalNamespace::SliderController* sliderNoteController);
     // private System.Void SetObstacleEventCallbacks(ObstacleController obstacleController)
-    // Offset: 0x150E344
+    // Offset: 0x150F48C
     void SetObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void RemoveObstacleEventCallbacks(ObstacleController obstacleController)
-    // Offset: 0x150EEF8
+    // Offset: 0x1510040
     void RemoveObstacleEventCallbacks(::GlobalNamespace::ObstacleController* obstacleController);
     // protected System.Void Despawn(NoteController noteController)
-    // Offset: 0x150F030
+    // Offset: 0x1510178
     void Despawn(::GlobalNamespace::NoteController* noteController);
     // private System.Void Despawn(ObstacleController obstacleController)
-    // Offset: 0x150F0E8
+    // Offset: 0x1510230
     void Despawn(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void Despawn(SliderController sliderNoteController)
-    // Offset: 0x150F1A0
+    // Offset: 0x15102E8
     void Despawn(::GlobalNamespace::SliderController* sliderNoteController);
     // public System.Void HandleNoteControllerNoteDidStartJump(NoteController noteController)
-    // Offset: 0x150F258
+    // Offset: 0x15103A0
     void HandleNoteControllerNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteWasMissed(NoteController noteController)
-    // Offset: 0x150F2CC
+    // Offset: 0x1510414
     void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteDidFinishJump(NoteController noteController)
-    // Offset: 0x150F340
+    // Offset: 0x1510488
     void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteDidDissolve(NoteController noteController)
-    // Offset: 0x150F344
+    // Offset: 0x151048C
     void HandleNoteControllerNoteDidDissolve(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x150F348
+    // Offset: 0x1510490
     void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleObstaclePassedThreeQuartersOfMove2(ObstacleController obstacleController)
-    // Offset: 0x150F768
+    // Offset: 0x15108B0
     void HandleObstaclePassedThreeQuartersOfMove2(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstaclePassedAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x150F7DC
+    // Offset: 0x1510924
     void HandleObstaclePassedAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleFinishedMovement(ObstacleController obstacleController)
-    // Offset: 0x150F850
+    // Offset: 0x1510998
     void HandleObstacleFinishedMovement(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleDidDissolve(ObstacleController obstacleController)
-    // Offset: 0x150F854
+    // Offset: 0x151099C
     void HandleObstacleDidDissolve(::GlobalNamespace::ObstacleController* obstacleController);
     // public System.Void HandleSliderDidFinishJump(SliderController sliderController)
-    // Offset: 0x150F858
+    // Offset: 0x15109A0
     void HandleSliderDidFinishJump(::GlobalNamespace::SliderController* sliderController);
     // public System.Void HandleSliderDidDissolve(SliderController sliderController)
-    // Offset: 0x150F85C
+    // Offset: 0x15109A4
     void HandleSliderDidDissolve(::GlobalNamespace::SliderController* sliderController);
     // public System.Void DissolveAllObjects()
-    // Offset: 0x150F860
+    // Offset: 0x15109A8
     void DissolveAllObjects();
     // public System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x150F9D4
+    // Offset: 0x1510B1C
     void HideAllBeatmapObjects(bool hide);
     // public System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x150FB64
+    // Offset: 0x1510CAC
     void PauseAllBeatmapObjects(bool pause);
     // private System.Void INoteControllerNoteWasCutEvent.HandleNoteControllerNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x150FD44
+    // Offset: 0x1510E8C
     void INoteControllerNoteWasCutEvent_HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // BeatmapObjectManager
   #pragma pack(pop)

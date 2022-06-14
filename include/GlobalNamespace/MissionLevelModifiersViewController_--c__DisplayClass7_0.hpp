@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
     // public System.Void .ctor()
-    // Offset: 0x1303F88
+    // Offset: 0x1305F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelModifiersViewController::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelModifiersViewController::$$c__DisplayClass7_0*, creationType>()));
     }
     // System.Void <RefreshContent>b__0(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
-    // Offset: 0x1303F98
+    // Offset: 0x1305F58
     void $RefreshContent$b__0(int idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
   }; // MissionLevelModifiersViewController/<>c__DisplayClass7_0
   #pragma pack(pop)

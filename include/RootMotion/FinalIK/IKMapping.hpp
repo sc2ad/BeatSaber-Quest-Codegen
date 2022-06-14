@@ -48,23 +48,23 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
     // public System.Void .ctor()
-    // Offset: 0x2226B58
+    // Offset: 0x221E71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMapping* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping*, creationType>()));
     }
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x2226920
+    // Offset: 0x221E4E4
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2226928
+    // Offset: 0x221E4EC
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/RootMotion.Logger logger)
-    // Offset: 0x222692C
+    // Offset: 0x221E4F0
     bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::Warning::Logger* logger);
     // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x2226A50
+    // Offset: 0x221E614
     ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
   }; // RootMotion.FinalIK.IKMapping
   #pragma pack(pop)

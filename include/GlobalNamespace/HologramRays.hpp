@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     float bottomYPosition;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10D82D8
+    // [TooltipAttribute] Offset: 0x10DB064
     // private System.Single cachedExtent
     // Size: 0x4
     // Offset: 0x50
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cachedExtent and: tweeningManager
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0x10D8324
+    // [InjectAttribute] Offset: 0x10DB0B0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
@@ -174,17 +174,17 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8334
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DB0C0
     // Get static field: static private readonly System.Int32 _materialBottomPositionID
     static int _get__materialBottomPositionID();
     // Set static field: static private readonly System.Int32 _materialBottomPositionID
     static void _set__materialBottomPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8344
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DB0D0
     // Get static field: static private readonly System.Int32 _materialTopPositionID
     static int _get__materialTopPositionID();
     // Set static field: static private readonly System.Int32 _materialTopPositionID
     static void _set__materialTopPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D8354
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DB0E0
     // Get static field: static private readonly System.Int32 _materialAlphaID
     static int _get__materialAlphaID();
     // Set static field: static private readonly System.Int32 _materialAlphaID
@@ -228,44 +228,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean boundsInitialized
     [[deprecated("Use field access instead!")]] bool& dyn_boundsInitialized();
     // public System.Void .ctor()
-    // Offset: 0x13AE494
+    // Offset: 0x136F95C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HologramRays* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HologramRays::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HologramRays*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13AE4B4
+    // Offset: 0x136F97C
     static void _cctor();
     // static private System.Void RuntimeInit()
-    // Offset: 0x13ADCBC
+    // Offset: 0x136F184
     static void RuntimeInit();
     // protected System.Void Awake()
-    // Offset: 0x13ADD24
+    // Offset: 0x136F1EC
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x13ADE58
+    // Offset: 0x136F320
     void OnDisable();
     // protected System.Void OnValidate()
-    // Offset: 0x13ADE78
+    // Offset: 0x136F340
     void OnValidate();
     // private System.Void Update()
-    // Offset: 0x13AE1F8
+    // Offset: 0x136F6C0
     void Update();
     // private System.Void Refresh()
-    // Offset: 0x13ADF88
+    // Offset: 0x136F450
     void Refresh();
     // public System.Void Animate(System.Boolean turningOn, System.Single duration, EaseType easeType)
-    // Offset: 0x13AE1FC
+    // Offset: 0x136F6C4
     void Animate(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
     // private System.Collections.IEnumerator FadingCoroutine(System.Boolean turningOn, System.Single duration, EaseType easeType)
-    // Offset: 0x13AE2CC
+    // Offset: 0x136F794
     ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float duration, ::GlobalNamespace::EaseType easeType);
     // private System.Void UpdateBounds()
-    // Offset: 0x13AE368
+    // Offset: 0x136F830
     void UpdateBounds();
     // private System.Void <Awake>b__22_0(System.Single f)
-    // Offset: 0x13AE560
+    // Offset: 0x136FA28
     void $Awake$b__22_0(float f);
   }; // HologramRays
   #pragma pack(pop)

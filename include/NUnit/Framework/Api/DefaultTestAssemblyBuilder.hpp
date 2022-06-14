@@ -88,29 +88,29 @@ namespace NUnit::Framework::Api {
     // Get instance field reference: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1C9066C
+    // Offset: 0x1C83340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestAssemblyBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Api::DefaultTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestAssemblyBuilder*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C92230
+    // Offset: 0x1C84F04
     static void _cctor();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly assembly, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1C90738
+    // Offset: 0x1C8340C
     ::NUnit::Framework::Interfaces::ITest* Build(::System::Reflection::Assembly* assembly, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // private NUnit.Framework.Internal.TestSuite Build(System.Reflection.Assembly assembly, System.String assemblyPath, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1C90900
+    // Offset: 0x1C835D4
     ::NUnit::Framework::Internal::TestSuite* Build(::System::Reflection::Assembly* assembly, ::StringW assemblyPath, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // private System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> GetFixtures(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x1C90FD8
+    // Offset: 0x1C83CAC
     ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* GetFixtures(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
     // private System.Collections.Generic.IList`1<System.Type> GetCandidateFixtureTypes(System.Reflection.Assembly assembly, System.Collections.IList names)
-    // Offset: 0x1C91A90
+    // Offset: 0x1C84764
     ::System::Collections::Generic::IList_1<::System::Type*>* GetCandidateFixtureTypes(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
     // private NUnit.Framework.Internal.TestSuite BuildTestAssembly(System.Reflection.Assembly assembly, System.String assemblyName, System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x1C91754
+    // Offset: 0x1C84428
     ::NUnit::Framework::Internal::TestSuite* BuildTestAssembly(::System::Reflection::Assembly* assembly, ::StringW assemblyName, ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* fixtures);
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder
   #pragma pack(pop)

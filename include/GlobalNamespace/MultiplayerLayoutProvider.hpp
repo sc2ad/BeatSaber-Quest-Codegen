@@ -63,32 +63,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*& dyn_playersLayoutWasCalculatedEvent();
     // public MultiplayerPlayerLayout get_layout()
-    // Offset: 0x1401E08
+    // Offset: 0x141A66C
     ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
     // private System.Void set_layout(MultiplayerPlayerLayout value)
-    // Offset: 0x1401E10
+    // Offset: 0x141A674
     void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
     // public System.Int32 get_activePlayerSpotsCount()
-    // Offset: 0x1401E18
+    // Offset: 0x141A67C
     int get_activePlayerSpotsCount();
     // private System.Void set_activePlayerSpotsCount(System.Int32 value)
-    // Offset: 0x1401E20
+    // Offset: 0x141A684
     void set_activePlayerSpotsCount(int value);
     // public System.Void add_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x1401E28
+    // Offset: 0x141A68C
     void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void remove_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
-    // Offset: 0x1401ECC
+    // Offset: 0x141A730
     void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void .ctor()
-    // Offset: 0x140200C
+    // Offset: 0x141A870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLayoutProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLayoutProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLayoutProvider*, creationType>()));
     }
     // public MultiplayerPlayerLayout CalculateLayout(System.Int32 activePlayersCount)
-    // Offset: 0x1401F70
+    // Offset: 0x141A7D4
     ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
   }; // MultiplayerLayoutProvider
   #pragma pack(pop)

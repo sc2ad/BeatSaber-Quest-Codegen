@@ -50,7 +50,7 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: public System.Type type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x1EF2368
+    // Offset: 0x1EE703C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializedTypeRestrictionAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::.ctor");

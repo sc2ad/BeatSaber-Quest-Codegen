@@ -56,7 +56,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean IsCompleted
     [[deprecated("Use field access instead!")]] bool& dyn_IsCompleted();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19E67D8
+    // Offset: 0x19E031C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpTransferUpdate* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::HttpTransferUpdate::.ctor");

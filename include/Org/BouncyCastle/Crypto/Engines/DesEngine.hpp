@@ -108,38 +108,38 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32[] workingKey
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2372A04
+    // Offset: 0x236A5C8
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x2372A4C
+    // Offset: 0x236A610
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x2372B84
+    // Offset: 0x236A748
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x23728AC
+    // Offset: 0x236A470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DesEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::DesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23728B4
+    // Offset: 0x236A478
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x2372A54
+    // Offset: 0x236A618
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2372A5C
+    // Offset: 0x236A620
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2372B80
+    // Offset: 0x236A744
     void Reset();
     // static protected System.Int32[] GenerateWorkingKey(System.Boolean encrypting, System.Byte[] key)
-    // Offset: 0x2371C48
+    // Offset: 0x236980C
     static ::ArrayW<int> GenerateWorkingKey(bool encrypting, ::ArrayW<uint8_t> key);
     // static System.Void DesFunc(System.Int32[] wKey, System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x23723EC
+    // Offset: 0x2369FB0
     static void DesFunc(::ArrayW<int> wKey, ::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.DesEngine
   #pragma pack(pop)

@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly SelectSubMenuDestination/Destination menuDestination
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectSubMenuDestination::Destination& dyn_menuDestination();
     // public System.Void .ctor(SelectSubMenuDestination/Destination menuDestination)
-    // Offset: 0x146919C
+    // Offset: 0x148F044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectSubMenuDestination* New_ctor(::GlobalNamespace::SelectSubMenuDestination::Destination menuDestination) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectSubMenuDestination::.ctor");

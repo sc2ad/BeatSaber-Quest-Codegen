@@ -106,28 +106,28 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly LiteNetLib.Utils.INetSerializable beatmapObjectEventData
       [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::INetSerializable*& dyn_beatmapObjectEventData();
       // public System.Void .ctor(System.Single time, LiteNetLib.Utils.INetSerializable beatmapObjectEventData)
-      // Offset: 0x13CDB2C
+      // Offset: 0x13D13D4
       // ABORTED: conflicts with another method.  TimestampedBeatmapObjectEventData(float time, ::LiteNetLib::Utils::INetSerializable* beatmapObjectEventData);
     }; // MultiplayerConnectedPlayerBeatmapObjectEventManager/TimestampedBeatmapObjectEventData
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData), 8 + sizeof(::LiteNetLib::Utils::INetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventDataSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData) == 0x10);
     public:
-    // [InjectAttribute] Offset: 0x10D8364
+    // [InjectAttribute] Offset: 0x10DB0F0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8374
+    // [InjectAttribute] Offset: 0x10DB100
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8384
+    // [InjectAttribute] Offset: 0x10DB110
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
     // Size: 0x8
     // Offset: 0x28
@@ -204,56 +204,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _paused
     [[deprecated("Use field access instead!")]] bool& dyn__paused();
     // public System.Void add_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCABC
+    // Offset: 0x13D0364
     void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCB60
+    // Offset: 0x13D0408
     void remove_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCC04
+    // Offset: 0x13D04AC
     void add_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCCA8
+    // Offset: 0x13D0550
     void remove_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCD4C
+    // Offset: 0x13D05F4
     void add_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x13CCDF0
+    // Offset: 0x13D0698
     void remove_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x13CCE94
+    // Offset: 0x13D073C
     void add_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x13CCF38
+    // Offset: 0x13D07E0
     void remove_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x13CCFDC
+    // Offset: 0x13D0884
     void add_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x13CD080
+    // Offset: 0x13D0928
     void remove_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13CDABC
+    // Offset: 0x13D1364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectEventManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectEventManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13CD124
+    // Offset: 0x13D09CC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13CD4A8
+    // Offset: 0x13D0D50
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13CD83C
+    // Offset: 0x13D10E4
     void Update();
     // public System.Void Pause()
-    // Offset: 0x13CDAA8
+    // Offset: 0x13D1350
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x13CDAB4
+    // Offset: 0x13D135C
     void Resume();
     // private System.Void HandleBeatmapObjectEventData(System.String userId, System.Single syncTime, System.Single songTime, T beatmapObjectEventData)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -266,7 +266,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, userId, syncTime, songTime, beatmapObjectEventData);
     }
     // private System.Void InvokeCallback(LiteNetLib.Utils.INetSerializable noteEventData)
-    // Offset: 0x13CD8F4
+    // Offset: 0x13D119C
     void InvokeCallback(::LiteNetLib::Utils::INetSerializable* noteEventData);
   }; // MultiplayerConnectedPlayerBeatmapObjectEventManager
   #pragma pack(pop)

@@ -59,26 +59,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public HealthWarningViewController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningViewController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13ACFB8
+    // Offset: 0x136E480
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13AD020
+    // Offset: 0x136E4E8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13ACEA8
+    // Offset: 0x136E370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningViewController::$DismissHealthAndSafety$d__14* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningViewController::$DismissHealthAndSafety$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningViewController::$DismissHealthAndSafety$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13ACEF0
+    // Offset: 0x136E3B8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13ACEF4
+    // Offset: 0x136E3BC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13ACFC0
+    // Offset: 0x136E488
     void System_Collections_IEnumerator_Reset();
   }; // HealthWarningViewController/<DismissHealthAndSafety>d__14
   #pragma pack(pop)

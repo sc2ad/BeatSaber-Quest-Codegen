@@ -38,14 +38,14 @@ namespace GlobalNamespace {
     ::StringW id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10D2FDC
+    // [LocalizationKeyAttribute] Offset: 0x10D5B1C
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::StringW localizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x10D3014
+    // [NullAllowed] Offset: 0x10D5B54
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0

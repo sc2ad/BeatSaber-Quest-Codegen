@@ -60,10 +60,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType[] types
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>& dyn_types();
     // System.Boolean HasAtomicMembers()
-    // Offset: 0x1C5AD24
+    // Offset: 0x1C4D9F8
     bool HasAtomicMembers();
     // static private System.Void .cctor()
-    // Offset: 0x1C5ADB0
+    // Offset: 0x1C4DA84
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()

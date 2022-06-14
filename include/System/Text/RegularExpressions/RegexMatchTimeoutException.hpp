@@ -65,34 +65,34 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.TimeSpan matchTimeout
     [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn_matchTimeout();
     // public System.Void .ctor(System.String regexInput, System.String regexPattern, System.TimeSpan matchTimeout)
-    // Offset: 0x1DDEEBC
+    // Offset: 0x1DD3B90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexMatchTimeoutException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexMatchTimeoutException*, creationType>(regexInput, regexPattern, matchTimeout)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1DDEF80
+    // Offset: 0x1DD3C54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexMatchTimeoutException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexMatchTimeoutException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexMatchTimeoutException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DDF080
+    // Offset: 0x1DD3D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexMatchTimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexMatchTimeoutException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexMatchTimeoutException*, creationType>(info, context)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DDF18C
+    // Offset: 0x1DD3E60
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void Init()
-    // Offset: 0x1DDF000
+    // Offset: 0x1DD3CD4
     void Init();
     // private System.Void Init(System.String input, System.String pattern, System.TimeSpan timeout)
-    // Offset: 0x1DDEF74
+    // Offset: 0x1DD3C48
     void Init(::StringW input, ::StringW pattern, ::System::TimeSpan timeout);
   }; // System.Text.RegularExpressions.RegexMatchTimeoutException
   #pragma pack(pop)

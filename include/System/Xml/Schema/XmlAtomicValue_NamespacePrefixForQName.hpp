@@ -49,17 +49,17 @@ namespace System::Xml::Schema {
     // Get instance field reference: public System.String ns
     [[deprecated("Use field access instead!")]] ::StringW& dyn_ns();
     // public System.Void .ctor(System.String prefix, System.String ns)
-    // Offset: 0x1C6A1E8
+    // Offset: 0x1C5CEBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue::NamespacePrefixForQName* New_ctor(::StringW prefix, ::StringW ns) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::NamespacePrefixForQName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue::NamespacePrefixForQName*, creationType>(prefix, ns)));
     }
     // public System.String LookupNamespace(System.String prefix)
-    // Offset: 0x1C6AC4C
+    // Offset: 0x1C5D920
     ::StringW LookupNamespace(::StringW prefix);
     // public System.String LookupPrefix(System.String namespaceName)
-    // Offset: 0x1C6AC8C
+    // Offset: 0x1C5D960
     ::StringW LookupPrefix(::StringW namespaceName);
   }; // System.Xml.Schema.XmlAtomicValue/System.Xml.Schema.NamespacePrefixForQName
   #pragma pack(pop)

@@ -55,17 +55,17 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
     // public System.Void .ctor()
-    // Offset: 0x1E2EE34
+    // Offset: 0x1E23B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHBasicKeyPairGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicKeyPairGenerator*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1E2EA58
+    // Offset: 0x1E2372C
     void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1E2EAE8
+    // Offset: 0x1E237BC
     ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
   }; // Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
   #pragma pack(pop)

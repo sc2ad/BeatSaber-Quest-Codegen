@@ -36,10 +36,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9IntegerConverter : public ::Il2CppObject {
     public:
     // static public System.Int32 GetByteLength(Org.BouncyCastle.Math.EC.ECFieldElement fe)
-    // Offset: 0x1F23AE0
+    // Offset: 0x1F197B4
     static int GetByteLength(::Org::BouncyCastle::Math::EC::ECFieldElement* fe);
     // static public System.Byte[] IntegerToBytes(Org.BouncyCastle.Math.BigInteger s, System.Int32 qLength)
-    // Offset: 0x1F23B18
+    // Offset: 0x1F197EC
     static ::ArrayW<uint8_t> IntegerToBytes(::Org::BouncyCastle::Math::BigInteger* s, int qLength);
   }; // Org.BouncyCastle.Asn1.X9.X9IntegerConverter
   #pragma pack(pop)

@@ -361,239 +361,239 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.String _volumeLayerName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__volumeLayerName();
     // public System.Int32 get_PartID()
-    // Offset: 0x1AF3520
+    // Offset: 0x1AEB064
     int get_PartID();
     // public System.String get_PartName()
-    // Offset: 0x1AF3528
+    // Offset: 0x1AEB06C
     ::StringW get_PartName();
     // public HoudiniEngineUnity.HEU_GeoNode get_ParentGeoNode()
-    // Offset: 0x1AF3530
+    // Offset: 0x1AEB074
     ::HoudiniEngineUnity::HEU_GeoNode* get_ParentGeoNode();
     // public HoudiniEngineUnity.HEU_HoudiniAsset get_ParentAsset()
-    // Offset: 0x1AF3538
+    // Offset: 0x1AEB07C
     ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
     // public System.Boolean get_ObjectInstancesBeenGenerated()
-    // Offset: 0x1AF362C
+    // Offset: 0x1AEB170
     bool get_ObjectInstancesBeenGenerated();
     // public System.Void set_ObjectInstancesBeenGenerated(System.Boolean value)
-    // Offset: 0x1AF3634
+    // Offset: 0x1AEB178
     void set_ObjectInstancesBeenGenerated(bool value);
     // public System.Int32 get_MeshVertexCount()
-    // Offset: 0x1AF3680
+    // Offset: 0x1AEB1C4
     int get_MeshVertexCount();
     // public HoudiniEngineUnity.HEU_GeneratedOutput get_GeneratedOutput()
-    // Offset: 0x1AF3688
+    // Offset: 0x1AEB1CC
     ::HoudiniEngineUnity::HEU_GeneratedOutput* get_GeneratedOutput();
     // public UnityEngine.GameObject get_OutputGameObject()
-    // Offset: 0x1AF3690
+    // Offset: 0x1AEB1D4
     ::UnityEngine::GameObject* get_OutputGameObject();
     // public System.Void .ctor()
-    // Offset: 0x1AF36B8
+    // Offset: 0x1AEB1FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PartData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PartData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PartData*, creationType>()));
     }
     // public System.Boolean IsPartInstancer()
-    // Offset: 0x1AF35D0
+    // Offset: 0x1AEB114
     bool IsPartInstancer();
     // public System.Boolean IsAttribInstancer()
-    // Offset: 0x1AF35E0
+    // Offset: 0x1AEB124
     bool IsAttribInstancer();
     // public System.Boolean IsInstancerAnyType()
-    // Offset: 0x1AF35E8
+    // Offset: 0x1AEB12C
     bool IsInstancerAnyType();
     // public System.Boolean IsPartInstanced()
-    // Offset: 0x1AF3614
+    // Offset: 0x1AEB158
     bool IsPartInstanced();
     // public System.Int32 GetPartPointCount()
-    // Offset: 0x1AF361C
+    // Offset: 0x1AEB160
     int GetPartPointCount();
     // public System.Boolean IsObjectInstancer()
-    // Offset: 0x1AF3624
+    // Offset: 0x1AEB168
     bool IsObjectInstancer();
     // public System.Boolean IsPartVolume()
-    // Offset: 0x1AF3640
+    // Offset: 0x1AEB184
     bool IsPartVolume();
     // public System.Boolean IsPartCurve()
-    // Offset: 0x1AF3650
+    // Offset: 0x1AEB194
     bool IsPartCurve();
     // public System.Boolean IsPartMesh()
-    // Offset: 0x1AF3660
+    // Offset: 0x1AEB1A4
     bool IsPartMesh();
     // public System.Boolean IsPartEditable()
-    // Offset: 0x1AF3670
+    // Offset: 0x1AEB1B4
     bool IsPartEditable();
     // public System.Boolean HaveInstancesBeenGenerated()
-    // Offset: 0x1AF3678
+    // Offset: 0x1AEB1BC
     bool HaveInstancesBeenGenerated();
     // public System.Void Initialize(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 partID, System.Int32 geoID, System.Int32 objectNodeID, HoudiniEngineUnity.HEU_GeoNode geoNode, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.PartOutputType partOutputType, System.Boolean isEditable, System.Boolean isObjectInstancer, System.Boolean isAttribInstancer)
-    // Offset: 0x1AF3738
+    // Offset: 0x1AEB27C
     void Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int partID, int geoID, int objectNodeID, ::HoudiniEngineUnity::HEU_GeoNode* geoNode, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, ::HoudiniEngineUnity::HEU_PartData::PartOutputType partOutputType, bool isEditable, bool isObjectInstancer, bool isAttribInstancer);
     // public System.Void SetGameObjectName(System.String partName)
-    // Offset: 0x1AF391C
+    // Offset: 0x1AEB460
     void SetGameObjectName(::StringW partName);
     // public System.Void SetGameObject(UnityEngine.GameObject gameObject)
-    // Offset: 0x1AF3A74
+    // Offset: 0x1AEB5B8
     void SetGameObject(::UnityEngine::GameObject* gameObject);
     // public System.Void SetVolumeLayerName(System.String name)
-    // Offset: 0x1AF3A9C
+    // Offset: 0x1AEB5E0
     void SetVolumeLayerName(::StringW name);
     // public System.String GetVolumeLayerName()
-    // Offset: 0x1AF3AA4
+    // Offset: 0x1AEB5E8
     ::StringW GetVolumeLayerName();
     // public System.Void DestroyAllData()
-    // Offset: 0x1AF3AAC
+    // Offset: 0x1AEB5F0
     void DestroyAllData();
     // public System.Void ApplyHAPITransform(ref HoudiniEngineUnity.HAPI_Transform hapiTransform)
-    // Offset: 0x1AF3DC4
+    // Offset: 0x1AEB908
     void ApplyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
     // public System.Void GetDebugInfo(System.Text.StringBuilder sb)
-    // Offset: 0x1AF3F7C
+    // Offset: 0x1AEBAC0
     void GetDebugInfo(::System::Text::StringBuilder* sb);
     // public System.Boolean IsUsingMaterial(HoudiniEngineUnity.HEU_MaterialData materialData)
-    // Offset: 0x1AF419C
+    // Offset: 0x1AEBCE0
     bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
     // public System.Void GetClonableObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> clonableObjects)
-    // Offset: 0x1AF41C0
+    // Offset: 0x1AEBD04
     void GetClonableObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* clonableObjects);
     // public System.Void GetClonableParts(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> clonableParts)
-    // Offset: 0x1AF428C
+    // Offset: 0x1AEBDD0
     void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
     // public System.Void GetOutputGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x1AF4350
+    // Offset: 0x1AEBE94
     void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
     // public System.Void GetOutput(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeneratedOutput> outputs)
-    // Offset: 0x1AF441C
+    // Offset: 0x1AEBF60
     void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
     // public HoudiniEngineUnity.HEU_PartData GetHDAPartWithGameObject(UnityEngine.GameObject inGameObject)
-    // Offset: 0x1AF44A0
+    // Offset: 0x1AEBFE4
     ::HoudiniEngineUnity::HEU_PartData* GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject);
     // private System.Void SetObjectInstancer(System.Boolean bObjectInstancer)
-    // Offset: 0x1AF4534
+    // Offset: 0x1AEC078
     void SetObjectInstancer(bool bObjectInstancer);
     // public System.Void ClearInstances()
-    // Offset: 0x1AF4540
+    // Offset: 0x1AEC084
     void ClearInstances();
     // private System.Void ClearObjectInstanceInfos()
-    // Offset: 0x1AF3C0C
+    // Offset: 0x1AEB750
     void ClearObjectInstanceInfos();
     // public System.Void ClearInvalidObjectInstanceInfos()
-    // Offset: 0x1AF465C
+    // Offset: 0x1AEC1A0
     void ClearInvalidObjectInstanceInfos();
     // public System.Void ClearGeneratedData()
-    // Offset: 0x1AF4858
+    // Offset: 0x1AEC39C
     void ClearGeneratedData();
     // public System.Void ClearGeneratedMeshOutput()
-    // Offset: 0x1AF487C
+    // Offset: 0x1AEC3C0
     void ClearGeneratedMeshOutput();
     // public System.Void ClearGeneratedVolumeOutput()
-    // Offset: 0x1AF4914
+    // Offset: 0x1AEC458
     void ClearGeneratedVolumeOutput();
     // public System.Void GeneratePartInstances(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AF4954
+    // Offset: 0x1AEC498
     void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GenerateInstancesFromObjectID(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 objectNodeID, System.String[] instancePrefixes)
-    // Offset: 0x1AF5030
+    // Offset: 0x1AECB74
     void GenerateInstancesFromObjectID(::HoudiniEngineUnity::HEU_SessionBase* session, int objectNodeID, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromObject(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_ObjectNode sourceObject, System.String[] instancePrefixes)
-    // Offset: 0x1AF5890
+    // Offset: 0x1AED3D4
     void GenerateInstancesFromObject(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ObjectNode* sourceObject, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromObjectIds(HoudiniEngineUnity.HEU_SessionBase session, System.String[] instancePrefixes)
-    // Offset: 0x1AF5B5C
+    // Offset: 0x1AED6A0
     void GenerateInstancesFromObjectIds(::HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.String unityInstanceAttr)
-    // Offset: 0x1AF60DC
+    // Offset: 0x1AEDC20
     void GenerateInstancesFromUnityAssetPathAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW unityInstanceAttr);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject sourceObject, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.Int32 instancedObjectNodeID, System.String instancedObjectPath, UnityEngine.Vector3 rotationOffset, UnityEngine.Vector3 scaleOffset, System.String[] instancePrefixes, UnityEngine.GameObject collisionSrcGO, System.Boolean copyParentFlags)
-    // Offset: 0x1AF54E0
+    // Offset: 0x1AED024
     void CreateNewInstanceFromObject(::UnityEngine::GameObject* sourceObject, int instanceIndex, ::UnityEngine::Transform* parentTransform, ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, int instancedObjectNodeID, ::StringW instancedObjectPath, ::UnityEngine::Vector3 rotationOffset, ::UnityEngine::Vector3 scaleOffset, ::ArrayW<::StringW> instancePrefixes, ::UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
     // public System.Void GenerateAttributesStore(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AF6EC8
+    // Offset: 0x1AEEA0C
     void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public HoudiniEngineUnity.HEU_Curve GetCurve(System.Boolean bEditableOnly)
-    // Offset: 0x1AF6F8C
+    // Offset: 0x1AEEAD0
     ::HoudiniEngineUnity::HEU_Curve* GetCurve(bool bEditableOnly);
     // public System.Void SetVisiblity(System.Boolean bVisibility)
-    // Offset: 0x1AF7034
+    // Offset: 0x1AEEB78
     void SetVisiblity(bool bVisibility);
     // public System.Void CalculateVisibility(System.Boolean bParentVisibility, System.Boolean bParentDisplayGeo)
-    // Offset: 0x1AF71B4
+    // Offset: 0x1AEECF8
     void CalculateVisibility(bool bParentVisibility, bool bParentDisplayGeo);
     // public System.Void SetColliderState(System.Boolean bEnabled)
-    // Offset: 0x1AF71DC
+    // Offset: 0x1AEED20
     void SetColliderState(bool bEnabled);
     // public System.Void CalculateColliderState()
-    // Offset: 0x1AF7204
+    // Offset: 0x1AEED48
     void CalculateColliderState();
     // static private System.Void CopyGameObjectComponents(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> lodTransformValues)
-    // Offset: 0x1AF74A0
+    // Offset: 0x1AEEFE4
     static void CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* lodTransformValues);
     // static private System.Void CopyChildGameObjects(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bKeepPreviousTransformValues)
-    // Offset: 0x1AF9318
+    // Offset: 0x1AF0E5C
     static void CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
     // public UnityEngine.GameObject BakePartToNewGameObject(UnityEngine.Transform parentTransform, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances)
-    // Offset: 0x1AF9724
+    // Offset: 0x1AF1268
     ::UnityEngine::GameObject* BakePartToNewGameObject(::UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances);
     // static public System.Void BakePartToGameObject(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject srcGO, UnityEngine.GameObject targetGO, System.String assetName, System.Boolean bIsInstancer, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances, System.Boolean bKeepPreviousTransformValues)
-    // Offset: 0x1AF99B0
+    // Offset: 0x1AF14F4
     static void BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, bool bIsInstancer, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
     // public System.Void BakePartToGameObject(UnityEngine.GameObject targetGO, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances, System.Boolean bKeepPreviousTransformValues)
-    // Offset: 0x1AF98C8
+    // Offset: 0x1AF140C
     void BakePartToGameObject(::UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
     // public System.Boolean GenerateMesh(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups)
-    // Offset: 0x1AFA148
+    // Offset: 0x1AF1C8C
     bool GenerateMesh(::HoudiniEngineUnity::HEU_SessionBase* session, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups);
     // public System.Void ProcessCurvePart(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFA510
+    // Offset: 0x1AF2054
     void ProcessCurvePart(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void SyncAttributesStore(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1AFA694
+    // Offset: 0x1AF21D8
     void SyncAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // public System.Void SetupAttributeGeometry(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFA7D0
+    // Offset: 0x1AF2314
     void SetupAttributeGeometry(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void DestroyAttributesStore()
-    // Offset: 0x1AF3CC4
+    // Offset: 0x1AEB808
     void DestroyAttributesStore();
     // public System.Void PopulateObjectInstanceInfos(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ObjectInstanceInfo> objInstanceInfos)
-    // Offset: 0x1AFA8C8
+    // Offset: 0x1AF240C
     void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
     // public System.Void SetObjectInstanceInfos(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ObjectInstanceInfo> sourceObjectInstanceInfos)
-    // Offset: 0x1AFA930
+    // Offset: 0x1AF2474
     void SetObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* sourceObjectInstanceInfos);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ObjectInstanceInfo> GetObjectInstanceInfos()
-    // Offset: 0x1AFAA54
+    // Offset: 0x1AF2598
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* GetObjectInstanceInfos();
     // private HoudiniEngineUnity.HEU_ObjectInstanceInfo CreateObjectInstanceInfo(UnityEngine.GameObject instancedObject, System.Int32 instancedObjectNodeID, System.String instancedObjectPath)
-    // Offset: 0x1AF6DE4
+    // Offset: 0x1AEE928
     ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* CreateObjectInstanceInfo(::UnityEngine::GameObject* instancedObject, int instancedObjectNodeID, ::StringW instancedObjectPath);
     // public HoudiniEngineUnity.HEU_ObjectInstanceInfo GetObjectInstanceInfoWithObjectPath(System.String path)
-    // Offset: 0x1AF6CEC
+    // Offset: 0x1AEE830
     ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* GetObjectInstanceInfoWithObjectPath(::StringW path);
     // public HoudiniEngineUnity.HEU_ObjectInstanceInfo GetObjectInstanceInfoWithObjectID(System.Int32 objNodeID)
-    // Offset: 0x1AF53F4
+    // Offset: 0x1AECF38
     ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* GetObjectInstanceInfoWithObjectID(int objNodeID);
     // public System.Void SetTerrainOffsetPosition(UnityEngine.Vector3 offsetPosition)
-    // Offset: 0x1AFAA5C
+    // Offset: 0x1AF25A0
     void SetTerrainOffsetPosition(::UnityEngine::Vector3 offsetPosition);
     // public System.Void SetTerrainData(UnityEngine.TerrainData terrainData, System.String exportPathRelative, System.String exportPathUser)
-    // Offset: 0x1AFAA68
+    // Offset: 0x1AF25AC
     void SetTerrainData(::UnityEngine::TerrainData* terrainData, ::StringW exportPathRelative, ::StringW exportPathUser);
     // static public System.String AppendBakedCloneName(System.String name)
-    // Offset: 0x1AF9874
+    // Offset: 0x1AF13B8
     static ::StringW AppendBakedCloneName(::StringW name);
     // static public System.Void DestroyParts(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> parts)
-    // Offset: 0x1AFADB0
+    // Offset: 0x1AF28F4
     static void DestroyParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* parts);
     // static public System.Void DestroyPart(HoudiniEngineUnity.HEU_PartData part)
-    // Offset: 0x1AFAE58
+    // Offset: 0x1AF299C
     static void DestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_PartData other)
-    // Offset: 0x1AFAE90
+    // Offset: 0x1AF29D4
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_PartData* other);
     // public override System.String ToString()
-    // Offset: 0x1AFAD38
+    // Offset: 0x1AF287C
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

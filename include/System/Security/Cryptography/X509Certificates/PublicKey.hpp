@@ -86,35 +86,35 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.Oid _oid
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::Oid*& dyn__oid();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedKeyValue()
-    // Offset: 0x1BECEDC
+    // Offset: 0x1BE0BB0
     ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
     // public System.Security.Cryptography.AsnEncodedData get_EncodedParameters()
-    // Offset: 0x1BECEE4
+    // Offset: 0x1BE0BB8
     ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
     // public System.Security.Cryptography.AsymmetricAlgorithm get_Key()
-    // Offset: 0x1BECEEC
+    // Offset: 0x1BE0BC0
     ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x1BED8B4
+    // Offset: 0x1BE1588
     ::System::Security::Cryptography::Oid* get_Oid();
     // System.Void .ctor(Mono.Security.X509.X509Certificate certificate)
-    // Offset: 0x1BECAF0
+    // Offset: 0x1BE07C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PublicKey* New_ctor(::Mono::Security::X509::X509Certificate* certificate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::PublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PublicKey*, creationType>(certificate)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BED968
+    // Offset: 0x1BE163C
     static void _cctor();
     // static private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x1BED8BC
+    // Offset: 0x1BE1590
     static ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // static System.Security.Cryptography.DSA DecodeDSA(System.Byte[] rawPublicKey, System.Byte[] rawParameters)
-    // Offset: 0x1BED43C
+    // Offset: 0x1BE1110
     static ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> rawPublicKey, ::ArrayW<uint8_t> rawParameters);
     // static System.Security.Cryptography.RSA DecodeRSA(System.Byte[] rawPublicKey)
-    // Offset: 0x1BED0A4
+    // Offset: 0x1BE0D78
     static ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> rawPublicKey);
   }; // System.Security.Cryptography.X509Certificates.PublicKey
   #pragma pack(pop)

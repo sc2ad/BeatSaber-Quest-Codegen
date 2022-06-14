@@ -68,12 +68,12 @@ namespace System {
     // Get instance field reference: private System.Int32 num_args
     [[deprecated("Use field access instead!")]] int& dyn_num_args();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1EB26F0
+    // Offset: 0x1EA83C4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1EB2770
+    // Offset: 0x1EA8444
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

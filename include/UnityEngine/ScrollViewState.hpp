@@ -73,7 +73,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean apply
     [[deprecated("Use field access instead!")]] bool& dyn_apply();
     // public System.Void .ctor()
-    // Offset: 0x2000FDC
+    // Offset: 0x1FDFBF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ScrollViewState::.ctor");

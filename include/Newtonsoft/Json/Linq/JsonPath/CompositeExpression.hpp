@@ -52,10 +52,10 @@ namespace Newtonsoft::Json::Linq::JsonPath {
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> <Expressions>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& dyn_$Expressions$k__BackingField();
     // public System.Void set_Expressions(System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JsonPath.QueryExpression> value)
-    // Offset: 0x175B408
+    // Offset: 0x1757F4C
     void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
     // public System.Void .ctor()
-    // Offset: 0x175B410
+    // Offset: 0x1757F54
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.QueryExpression
     // Base method: System.Void QueryExpression::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

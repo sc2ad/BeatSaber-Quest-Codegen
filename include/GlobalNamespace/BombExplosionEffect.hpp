@@ -92,17 +92,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _explosionPSEmitParams
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__explosionPSEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x1335BF0
+    // Offset: 0x1337BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExplosionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombExplosionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombExplosionEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1335AF0
+    // Offset: 0x1337AB0
     void Awake();
     // public System.Void SpawnExplosion(UnityEngine.Vector3 pos)
-    // Offset: 0x1335B28
+    // Offset: 0x1337AE8
     void SpawnExplosion(::UnityEngine::Vector3 pos);
   }; // BombExplosionEffect
   #pragma pack(pop)

@@ -42,12 +42,12 @@ namespace NUnit::Framework {
   class AssertionException : public ::NUnit::Framework::ResultStateException {
     public:
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x1C92510
+    // Offset: 0x1C851E4
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1C92500
+    // Offset: 0x1C851D4
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +56,7 @@ namespace NUnit::Framework {
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1C92508
+    // Offset: 0x1C851DC
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

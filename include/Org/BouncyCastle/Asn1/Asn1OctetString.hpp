@@ -63,36 +63,36 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: System.Byte[] str
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_str();
     // System.Void .ctor(System.Byte[] str)
-    // Offset: 0x1C289F4
+    // Offset: 0x1C1B6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1OctetString* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1OctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1OctetString*, creationType>(str)));
     }
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x1C2818C
+    // Offset: 0x1C1AE60
     static ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(System.Object obj)
-    // Offset: 0x1C28288
+    // Offset: 0x1C1AF5C
     static ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Il2CppObject* obj);
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x1C28A90
+    // Offset: 0x1C1B764
     ::System::IO::Stream* GetOctetStream();
     // public System.Byte[] GetOctets()
-    // Offset: 0x1C28AFC
+    // Offset: 0x1C1B7D0
     ::ArrayW<uint8_t> GetOctets();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1C28B04
+    // Offset: 0x1C1B7D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1C28B84
+    // Offset: 0x1C1B858
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x1C28C80
+    // Offset: 0x1C1B954
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

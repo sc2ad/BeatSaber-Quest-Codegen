@@ -74,177 +74,177 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: private System.Int64[] m_ints
     [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn_m_ints();
     // public System.Void .ctor(System.Int32 intLen)
-    // Offset: 0x22D5538
+    // Offset: 0x22CD0FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(int intLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(intLen)));
     }
     // public System.Void .ctor(System.Int64[] ints)
-    // Offset: 0x22D55A8
+    // Offset: 0x22CD16C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(::ArrayW<int64_t> ints) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(ints)));
     }
     // public System.Void .ctor(System.Int64[] ints, System.Int32 off, System.Int32 len)
-    // Offset: 0x22D55D4
+    // Offset: 0x22CD198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(::ArrayW<int64_t> ints, int off, int len) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(ints, off, len)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger bigInt)
-    // Offset: 0x22D569C
+    // Offset: 0x22CD260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(bigInt)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x22D8E40
+    // Offset: 0x22D0A04
     static void _cctor();
     // System.Void CopyTo(System.Int64[] z, System.Int32 zOff)
-    // Offset: 0x22D58C8
+    // Offset: 0x22CD48C
     void CopyTo(::ArrayW<int64_t> z, int zOff);
     // public System.Boolean IsOne()
-    // Offset: 0x22D58F4
+    // Offset: 0x22CD4B8
     bool IsOne();
     // public System.Boolean IsZero()
-    // Offset: 0x22D5960
+    // Offset: 0x22CD524
     bool IsZero();
     // public System.Int32 GetUsedLength()
-    // Offset: 0x22D59C4
+    // Offset: 0x22CD588
     int GetUsedLength();
     // public System.Int32 GetUsedLengthFrom(System.Int32 from)
-    // Offset: 0x22D59E0
+    // Offset: 0x22CD5A4
     int GetUsedLengthFrom(int from);
     // public System.Int32 Degree()
-    // Offset: 0x22D5AD8
+    // Offset: 0x22CD69C
     int Degree();
     // private System.Int32 DegreeFrom(System.Int32 limit)
-    // Offset: 0x22D5D1C
+    // Offset: 0x22CD8E0
     int DegreeFrom(int limit);
     // static private System.Int32 BitLength(System.Int64 w)
-    // Offset: 0x22D5B94
+    // Offset: 0x22CD758
     static int BitLength(int64_t w);
     // private System.Int64[] ResizedInts(System.Int32 newLen)
-    // Offset: 0x22D5DE8
+    // Offset: 0x22CD9AC
     ::ArrayW<int64_t> ResizedInts(int newLen);
     // public Org.BouncyCastle.Math.BigInteger ToBigInteger()
-    // Offset: 0x22D5EA8
+    // Offset: 0x22CDA6C
     ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
     // static private System.Int64 ShiftUp(System.Int64[] x, System.Int32 xOff, System.Int64[] z, System.Int32 zOff, System.Int32 count, System.Int32 shift)
-    // Offset: 0x22D60D8
+    // Offset: 0x22CDC9C
     static int64_t ShiftUp(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> z, int zOff, int count, int shift);
     // public Org.BouncyCastle.Math.EC.LongArray AddOne()
-    // Offset: 0x22D6188
+    // Offset: 0x22CDD4C
     ::Org::BouncyCastle::Math::EC::LongArray* AddOne();
     // private System.Void AddShiftedByBitsSafe(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 otherDegree, System.Int32 bits)
-    // Offset: 0x22D62A0
+    // Offset: 0x22CDE64
     void AddShiftedByBitsSafe(::Org::BouncyCastle::Math::EC::LongArray* other, int otherDegree, int bits);
     // static private System.Int64 AddShiftedUp(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 count, System.Int32 shift)
-    // Offset: 0x22D645C
+    // Offset: 0x22CE020
     static int64_t AddShiftedUp(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count, int shift);
     // static private System.Int64 AddShiftedDown(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 count, System.Int32 shift)
-    // Offset: 0x22D6518
+    // Offset: 0x22CE0DC
     static int64_t AddShiftedDown(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count, int shift);
     // public System.Void AddShiftedByWords(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 words)
-    // Offset: 0x22D65B4
+    // Offset: 0x22CE178
     void AddShiftedByWords(::Org::BouncyCastle::Math::EC::LongArray* other, int words);
     // static private System.Void Add(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 count)
-    // Offset: 0x22D63CC
+    // Offset: 0x22CDF90
     static void Add(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count);
     // static private System.Void Add(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int64[] z, System.Int32 zOff, System.Int32 count)
-    // Offset: 0x22D6698
+    // Offset: 0x22CE25C
     static void Add(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, ::ArrayW<int64_t> z, int zOff, int count);
     // static private System.Void AddBoth(System.Int64[] x, System.Int32 xOff, System.Int64[] y1, System.Int32 y1Off, System.Int64[] y2, System.Int32 y2Off, System.Int32 count)
-    // Offset: 0x22D6744
+    // Offset: 0x22CE308
     static void AddBoth(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y1, int y1Off, ::ArrayW<int64_t> y2, int y2Off, int count);
     // static private System.Void FlipWord(System.Int64[] buf, System.Int32 off, System.Int32 bit, System.Int64 word)
-    // Offset: 0x22D67F8
+    // Offset: 0x22CE3BC
     static void FlipWord(::ArrayW<int64_t> buf, int off, int bit, int64_t word);
     // public System.Boolean TestBitZero()
-    // Offset: 0x22D6880
+    // Offset: 0x22CE444
     bool TestBitZero();
     // static private System.Boolean TestBit(System.Int64[] buf, System.Int32 off, System.Int32 n)
-    // Offset: 0x22D68B4
+    // Offset: 0x22CE478
     static bool TestBit(::ArrayW<int64_t> buf, int off, int n);
     // static private System.Void FlipBit(System.Int64[] buf, System.Int32 off, System.Int32 n)
-    // Offset: 0x22D6900
+    // Offset: 0x22CE4C4
     static void FlipBit(::ArrayW<int64_t> buf, int off, int n);
     // static private System.Void MultiplyWord(System.Int64 a, System.Int64[] b, System.Int32 bLen, System.Int64[] c, System.Int32 cOff)
-    // Offset: 0x22D6950
+    // Offset: 0x22CE514
     static void MultiplyWord(int64_t a, ::ArrayW<int64_t> b, int bLen, ::ArrayW<int64_t> c, int cOff);
     // public Org.BouncyCastle.Math.EC.LongArray ModMultiply(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D6A98
+    // Offset: 0x22CE65C
     ::Org::BouncyCastle::Math::EC::LongArray* ModMultiply(::Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray Multiply(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7020
+    // Offset: 0x22CEBE4
     ::Org::BouncyCastle::Math::EC::LongArray* Multiply(::Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
     // public System.Void Reduce(System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7498
+    // Offset: 0x22CF05C
     void Reduce(int m, ::ArrayW<int> ks);
     // static private Org.BouncyCastle.Math.EC.LongArray ReduceResult(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D6F60
+    // Offset: 0x22CEB24
     static ::Org::BouncyCastle::Math::EC::LongArray* ReduceResult(::ArrayW<int64_t> buf, int off, int len, int m, ::ArrayW<int> ks);
     // static private System.Int32 ReduceInPlace(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D757C
+    // Offset: 0x22CF140
     static int ReduceInPlace(::ArrayW<int64_t> buf, int off, int len, int m, ::ArrayW<int> ks);
     // static private System.Void ReduceBitWise(System.Int64[] buf, System.Int32 off, System.Int32 BitLength, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7B10
+    // Offset: 0x22CF6D4
     static void ReduceBitWise(::ArrayW<int64_t> buf, int off, int BitLength, int m, ::ArrayW<int> ks);
     // static private System.Void ReduceBit(System.Int64[] buf, System.Int32 off, System.Int32 bit, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7BEC
+    // Offset: 0x22CF7B0
     static void ReduceBit(::ArrayW<int64_t> buf, int off, int bit, int m, ::ArrayW<int> ks);
     // static private System.Void ReduceWordWise(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 toBit, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7978
+    // Offset: 0x22CF53C
     static void ReduceWordWise(::ArrayW<int64_t> buf, int off, int len, int toBit, int m, ::ArrayW<int> ks);
     // static private System.Void ReduceWord(System.Int64[] buf, System.Int32 off, System.Int32 bit, System.Int64 word, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7D28
+    // Offset: 0x22CF8EC
     static void ReduceWord(::ArrayW<int64_t> buf, int off, int bit, int64_t word, int m, ::ArrayW<int> ks);
     // static private System.Void ReduceVectorWise(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 words, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7818
+    // Offset: 0x22CF3DC
     static void ReduceVectorWise(::ArrayW<int64_t> buf, int off, int len, int words, int m, ::ArrayW<int> ks);
     // static private System.Void FlipVector(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 yLen, System.Int32 bits)
-    // Offset: 0x22D7E58
+    // Offset: 0x22CFA1C
     static void FlipVector(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int yLen, int bits);
     // public Org.BouncyCastle.Math.EC.LongArray ModSquare(System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D7F80
+    // Offset: 0x22CFB44
     ::Org::BouncyCastle::Math::EC::LongArray* ModSquare(int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray ModSquareN(System.Int32 n, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D8200
+    // Offset: 0x22CFDC4
     ::Org::BouncyCastle::Math::EC::LongArray* ModSquareN(int n, int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray Square(System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D842C
+    // Offset: 0x22CFFF0
     ::Org::BouncyCastle::Math::EC::LongArray* Square(int m, ::ArrayW<int> ks);
     // static private System.Void SquareInPlace(System.Int64[] x, System.Int32 xLen, System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D8334
+    // Offset: 0x22CFEF8
     static void SquareInPlace(::ArrayW<int64_t> x, int xLen, int m, ::ArrayW<int> ks);
     // static private System.Int64 Interleave2_32to64(System.Int32 x)
-    // Offset: 0x22D8128
+    // Offset: 0x22CFCEC
     static int64_t Interleave2_32to64(int x);
     // public Org.BouncyCastle.Math.EC.LongArray ModInverse(System.Int32 m, System.Int32[] ks)
-    // Offset: 0x22D858C
+    // Offset: 0x22D0150
     ::Org::BouncyCastle::Math::EC::LongArray* ModInverse(int m, ::ArrayW<int> ks);
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.LongArray other)
-    // Offset: 0x22D8B28
+    // Offset: 0x22D06EC
     bool Equals(::Org::BouncyCastle::Math::EC::LongArray* other);
     // public Org.BouncyCastle.Math.EC.LongArray Copy()
-    // Offset: 0x22D89F4
+    // Offset: 0x22D05B8
     ::Org::BouncyCastle::Math::EC::LongArray* Copy();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22D8A90
+    // Offset: 0x22D0654
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22D8BE8
+    // Offset: 0x22D07AC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x22D8C78
+    // Offset: 0x22D083C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

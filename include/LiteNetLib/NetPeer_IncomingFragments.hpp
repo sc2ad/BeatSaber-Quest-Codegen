@@ -66,7 +66,7 @@ namespace LiteNetLib {
     // Get instance field reference: public System.Byte ChannelId
     [[deprecated("Use field access instead!")]] uint8_t& dyn_ChannelId();
     // public System.Void .ctor()
-    // Offset: 0x21B8628
+    // Offset: 0x21B01EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer::IncomingFragments* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::IncomingFragments::.ctor");

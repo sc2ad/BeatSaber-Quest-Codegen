@@ -58,85 +58,85 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlLinkedNode lastChild
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlLinkedNode*& dyn_lastChild();
     // System.String get_ChildBaseURI()
-    // Offset: 0x15CF918
+    // Offset: 0x15D043C
     ::StringW get_ChildBaseURI();
     // protected internal System.Void .ctor(System.String name, System.Xml.XmlDocument doc)
-    // Offset: 0x15CEF38
+    // Offset: 0x15CFA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEntityReference* New_ctor(::StringW name, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlEntityReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEntityReference*, creationType>(name, doc)));
     }
     // private System.String ConstructBaseURI(System.String baseURI, System.String systemId)
-    // Offset: 0x15CF830
+    // Offset: 0x15D0354
     ::StringW ConstructBaseURI(::StringW baseURI, ::StringW systemId);
     // public override System.String get_Name()
-    // Offset: 0x15CF074
+    // Offset: 0x15CFB98
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x15CF07C
+    // Offset: 0x15CFBA0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_Value()
-    // Offset: 0x15CF084
+    // Offset: 0x15CFBA8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x15CF08C
+    // Offset: 0x15CFBB0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x15CF10C
+    // Offset: 0x15CFC30
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Boolean get_IsReadOnly()
-    // Offset: 0x15CF158
+    // Offset: 0x15CFC7C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsReadOnly()
     bool get_IsReadOnly();
     // override System.Boolean get_IsContainer()
-    // Offset: 0x15CF160
+    // Offset: 0x15CFC84
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x15CF7C8
+    // Offset: 0x15D02EC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x15CF7D0
+    // Offset: 0x15D02F4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // public override System.String get_BaseURI()
-    // Offset: 0x15CF7FC
+    // Offset: 0x15D0320
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_BaseURI()
     ::StringW get_BaseURI();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x15CF114
+    // Offset: 0x15CFC38
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Void SetParent(System.Xml.XmlNode node)
-    // Offset: 0x15CF168
+    // Offset: 0x15CFC8C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::SetParent(System.Xml.XmlNode node)
     void SetParent(::System::Xml::XmlNode* node);
     // override System.Void SetParentForLoad(System.Xml.XmlNode node)
-    // Offset: 0x15CF7B8
+    // Offset: 0x15D02DC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::SetParentForLoad(System.Xml.XmlNode node)
     void SetParentForLoad(::System::Xml::XmlNode* node);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x15CF7D8
+    // Offset: 0x15D02FC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);

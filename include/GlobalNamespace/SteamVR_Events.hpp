@@ -143,55 +143,55 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<Valve.VR.EVREventType,SteamVR_Events/Event`1<Valve.VR.VREvent_t>> systemEvents
     static void _set_systemEvents(::System::Collections::Generic::Dictionary_2<::Valve::VR::EVREventType, ::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18A4344
+    // Offset: 0x189FE88
     static void _cctor();
     // static public SteamVR_Events/Action CalibratingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A3A6C
+    // Offset: 0x189F5B0
     static ::GlobalNamespace::SteamVR_Events::Action* CalibratingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action DeviceConnectedAction(UnityEngine.Events.UnityAction`2<System.Int32,System.Boolean> action)
-    // Offset: 0x18A2690
+    // Offset: 0x189E1D4
     static ::GlobalNamespace::SteamVR_Events::Action* DeviceConnectedAction(::UnityEngine::Events::UnityAction_2<int, bool>* action);
     // static public SteamVR_Events/Action FadeAction(UnityEngine.Events.UnityAction`3<UnityEngine.Color,System.Single,System.Boolean> action)
-    // Offset: 0x18A3B10
+    // Offset: 0x189F654
     static ::GlobalNamespace::SteamVR_Events::Action* FadeAction(::UnityEngine::Events::UnityAction_3<::UnityEngine::Color, float, bool>* action);
     // static public SteamVR_Events/Action FadeReadyAction(UnityEngine.Events.UnityAction action)
-    // Offset: 0x18A3BB4
+    // Offset: 0x189F6F8
     static ::GlobalNamespace::SteamVR_Events::Action* FadeReadyAction(::UnityEngine::Events::UnityAction* action);
     // static public SteamVR_Events/Action HideRenderModelsAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A3C84
+    // Offset: 0x189F7C8
     static ::GlobalNamespace::SteamVR_Events::Action* HideRenderModelsAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action InitializingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A3D28
+    // Offset: 0x189F86C
     static ::GlobalNamespace::SteamVR_Events::Action* InitializingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action InputFocusAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A25EC
+    // Offset: 0x189E130
     static ::GlobalNamespace::SteamVR_Events::Action* InputFocusAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action LoadingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A3DCC
+    // Offset: 0x189F910
     static ::GlobalNamespace::SteamVR_Events::Action* LoadingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action LoadingFadeInAction(UnityEngine.Events.UnityAction`1<System.Single> action)
-    // Offset: 0x18A3E70
+    // Offset: 0x189F9B4
     static ::GlobalNamespace::SteamVR_Events::Action* LoadingFadeInAction(::UnityEngine::Events::UnityAction_1<float>* action);
     // static public SteamVR_Events/Action LoadingFadeOutAction(UnityEngine.Events.UnityAction`1<System.Single> action)
-    // Offset: 0x18A3F14
+    // Offset: 0x189FA58
     static ::GlobalNamespace::SteamVR_Events::Action* LoadingFadeOutAction(::UnityEngine::Events::UnityAction_1<float>* action);
     // static public SteamVR_Events/Action NewPosesAction(UnityEngine.Events.UnityAction`1<Valve.VR.TrackedDevicePose_t[]> action)
-    // Offset: 0x18A3FB8
+    // Offset: 0x189FAFC
     static ::GlobalNamespace::SteamVR_Events::Action* NewPosesAction(::UnityEngine::Events::UnityAction_1<::ArrayW<::Valve::VR::TrackedDevicePose_t>>* action);
     // static public SteamVR_Events/Action NewPosesAppliedAction(UnityEngine.Events.UnityAction action)
-    // Offset: 0x18A405C
+    // Offset: 0x189FBA0
     static ::GlobalNamespace::SteamVR_Events::Action* NewPosesAppliedAction(::UnityEngine::Events::UnityAction* action);
     // static public SteamVR_Events/Action OutOfRangeAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
-    // Offset: 0x18A40F4
+    // Offset: 0x189FC38
     static ::GlobalNamespace::SteamVR_Events::Action* OutOfRangeAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action RenderModelLoadedAction(UnityEngine.Events.UnityAction`2<SteamVR_RenderModel,System.Boolean> action)
-    // Offset: 0x18A4198
+    // Offset: 0x189FCDC
     static ::GlobalNamespace::SteamVR_Events::Action* RenderModelLoadedAction(::UnityEngine::Events::UnityAction_2<::GlobalNamespace::SteamVR_RenderModel*, bool>* action);
     // static public SteamVR_Events/Event`1<Valve.VR.VREvent_t> System(Valve.VR.EVREventType eventType)
-    // Offset: 0x18A423C
+    // Offset: 0x189FD80
     static ::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>* System(::Valve::VR::EVREventType eventType);
     // static public SteamVR_Events/Action SystemAction(Valve.VR.EVREventType eventType, UnityEngine.Events.UnityAction`1<Valve.VR.VREvent_t> action)
-    // Offset: 0x18A2734
+    // Offset: 0x189E278
     static ::GlobalNamespace::SteamVR_Events::Action* SystemAction(::Valve::VR::EVREventType eventType, ::UnityEngine::Events::UnityAction_1<::Valve::VR::VREvent_t>* action);
   }; // SteamVR_Events
   #pragma pack(pop)

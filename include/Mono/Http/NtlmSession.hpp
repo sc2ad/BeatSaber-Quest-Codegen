@@ -58,14 +58,14 @@ namespace Mono::Http {
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
     [[deprecated("Use field access instead!")]] ::Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Void .ctor()
-    // Offset: 0x1AD1F08
+    // Offset: 0x1AC9A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmSession* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Http::NtlmSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmSession*, creationType>()));
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1AD193C
+    // Offset: 0x1AC9480
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // Mono.Http.NtlmSession
   #pragma pack(pop)

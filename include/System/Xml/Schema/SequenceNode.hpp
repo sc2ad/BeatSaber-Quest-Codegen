@@ -43,12 +43,12 @@ namespace System::Xml::Schema {
     // Nested type: ::System::Xml::Schema::SequenceNode::SequenceConstructPosContext
     struct SequenceConstructPosContext;
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1C64CC0
+    // Offset: 0x1C57994
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public System.Void .ctor()
-    // Offset: 0x1C61498
+    // Offset: 0x1C5416C
     // Implemented from: System.Xml.Schema.InteriorNode
     // Base method: System.Void InteriorNode::.ctor()
     // Base method: System.Void SyntaxTreeNode::.ctor()
@@ -58,12 +58,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<SequenceNode*, creationType>()));
     }
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C64964
+    // Offset: 0x1C57638
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1C64E18
+    // Offset: 0x1C57AEC
     // Implemented from: System.Xml.Schema.InteriorNode
     // Base method: System.Void InteriorNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);

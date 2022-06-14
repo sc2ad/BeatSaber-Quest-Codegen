@@ -54,26 +54,26 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C1DFCC
+    // Offset: 0x1C11CA0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C1E030
+    // Offset: 0x1C11D04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderBindingFinalizer::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProviderBindingFinalizer::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProviderBindingFinalizer::$$c*, creationType>()));
     }
     // System.String <GetScope>b__7_0(System.Type x)
-    // Offset: 0x1C1E038
+    // Offset: 0x1C11D0C
     ::StringW $GetScope$b__7_0(::System::Type* x);
     // System.String <FinalizeBinding>b__8_0(System.Type x)
-    // Offset: 0x1C1E0A0
+    // Offset: 0x1C11D74
     ::StringW $FinalizeBinding$b__8_0(::System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C1E108
+    // Offset: 0x1C11DDC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C1E164
+    // Offset: 0x1C11E38
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ProviderBindingFinalizer/Zenject.<>c
   #pragma pack(pop)

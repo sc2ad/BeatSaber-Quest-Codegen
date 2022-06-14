@@ -72,21 +72,21 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonProperty> _children
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonProperty*>*& dyn__children();
     // public System.Void Add(System.String name, Newtonsoft.Json.Bson.BsonToken token)
-    // Offset: 0x17B1594
+    // Offset: 0x17AE0D8
     void Add(::StringW name, ::Newtonsoft::Json::Bson::BsonToken* token);
     // public System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Bson.BsonProperty> GetEnumerator()
-    // Offset: 0x17B16BC
+    // Offset: 0x17AE200
     ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonProperty*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x17B1748
+    // Offset: 0x17AE28C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public override Newtonsoft.Json.Bson.BsonType get_Type()
-    // Offset: 0x17B16B4
+    // Offset: 0x17AE1F8
     // Implemented from: Newtonsoft.Json.Bson.BsonToken
     // Base method: Newtonsoft.Json.Bson.BsonType BsonToken::get_Type()
     ::Newtonsoft::Json::Bson::BsonType get_Type();
     // public System.Void .ctor()
-    // Offset: 0x17B174C
+    // Offset: 0x17AE290
     // Implemented from: Newtonsoft.Json.Bson.BsonToken
     // Base method: System.Void BsonToken::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

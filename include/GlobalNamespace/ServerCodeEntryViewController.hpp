@@ -102,39 +102,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
     [[deprecated("Use field access instead!")]] ::HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x1469744
+    // Offset: 0x148F5EC
     void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
-    // Offset: 0x14697E8
+    // Offset: 0x148F690
     void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x1469B94
+    // Offset: 0x148FA3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCodeEntryViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerCodeEntryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeEntryViewController*, creationType>()));
     }
     // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
-    // Offset: 0x1469A48
+    // Offset: 0x148F8F0
     void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
     // private System.Void HandleJoinButtonPressed()
-    // Offset: 0x1469AB8
+    // Offset: 0x148F960
     void HandleJoinButtonPressed();
     // private System.Void HandleCancelButtonPressed()
-    // Offset: 0x1469B2C
+    // Offset: 0x148F9D4
     void HandleCancelButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x146988C
+    // Offset: 0x148F734
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1469A1C
+    // Offset: 0x148F8C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1469A84
+    // Offset: 0x148F92C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

@@ -54,17 +54,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Texture2D self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn_self();
     // public System.Void .ctor(UnityEngine.Texture2D self)
-    // Offset: 0x2A97D8C
+    // Offset: 0x2A8DB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Texture2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Texture2D*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A97DB8
+    // Offset: 0x2A8DB8C
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Texture2D other)
-    // Offset: 0x2A97E28
+    // Offset: 0x2A8DBFC
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
   }; // HoudiniEngineUnity.Test_Texture2D
   #pragma pack(pop)

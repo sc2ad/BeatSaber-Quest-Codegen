@@ -170,79 +170,79 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.UInt32 extra
     [[deprecated("Use field access instead!")]] uint& dyn_extra();
     // private System.Xml.Schema.XsdDateTime/System.Xml.Schema.DateTimeTypeCode get_InternalTypeCode()
-    // Offset: 0x206383C
+    // Offset: 0x205D400
     ::System::Xml::Schema::XsdDateTime::DateTimeTypeCode get_InternalTypeCode();
     // private System.Xml.Schema.XsdDateTime/System.Xml.Schema.XsdDateTimeKind get_InternalKind()
-    // Offset: 0x2063844
+    // Offset: 0x205D408
     ::System::Xml::Schema::XsdDateTime::XsdDateTimeKind get_InternalKind();
     // public System.Int32 get_Year()
-    // Offset: 0x206384C
+    // Offset: 0x205D410
     int get_Year();
     // public System.Int32 get_Month()
-    // Offset: 0x2063854
+    // Offset: 0x205D418
     int get_Month();
     // public System.Int32 get_Day()
-    // Offset: 0x206385C
+    // Offset: 0x205D420
     int get_Day();
     // public System.Int32 get_Hour()
-    // Offset: 0x2063864
+    // Offset: 0x205D428
     int get_Hour();
     // public System.Int32 get_Minute()
-    // Offset: 0x206386C
+    // Offset: 0x205D430
     int get_Minute();
     // public System.Int32 get_Second()
-    // Offset: 0x2063874
+    // Offset: 0x205D438
     int get_Second();
     // public System.Int32 get_Fraction()
-    // Offset: 0x206387C
+    // Offset: 0x205D440
     int get_Fraction();
     // public System.Int32 get_ZoneHour()
-    // Offset: 0x2063960
+    // Offset: 0x205D524
     int get_ZoneHour();
     // public System.Int32 get_ZoneMinute()
-    // Offset: 0x2063968
+    // Offset: 0x205D52C
     int get_ZoneMinute();
     // public System.Void .ctor(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x2062930
+    // Offset: 0x205C4F4
     XsdDateTime(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // private System.Void .ctor(System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser parser)
-    // Offset: 0x2063518
+    // Offset: 0x205D0DC
     XsdDateTime(::System::Xml::Schema::XsdDateTime::Parser parser);
     // public System.Void .ctor(System.DateTime dateTime, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x20635C8
+    // Offset: 0x205D18C
     XsdDateTime(::System::DateTime dateTime, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // public System.Void .ctor(System.DateTimeOffset dateTimeOffset)
-    // Offset: 0x2063710
+    // Offset: 0x205D2D4
     XsdDateTime(::System::DateTimeOffset dateTimeOffset);
     // public System.Void .ctor(System.DateTimeOffset dateTimeOffset, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x2063718
+    // Offset: 0x205D2DC
     XsdDateTime(::System::DateTimeOffset dateTimeOffset, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // static private System.Void .cctor()
-    // Offset: 0x2064B58
+    // Offset: 0x205E71C
     static void _cctor();
     // private System.Void InitiateXsdDateTime(System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser parser)
-    // Offset: 0x2063490
+    // Offset: 0x205D054
     void InitiateXsdDateTime(::System::Xml::Schema::XsdDateTime::Parser parser);
     // static System.Boolean TryParse(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds, out System.Xml.Schema.XsdDateTime result)
-    // Offset: 0x206354C
+    // Offset: 0x205D110
     static bool TryParse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds, ByRef<::System::Xml::Schema::XsdDateTime> result);
     // private System.Void PrintDate(System.Text.StringBuilder sb)
-    // Offset: 0x2064518
+    // Offset: 0x205E0DC
     void PrintDate(::System::Text::StringBuilder* sb);
     // private System.Void PrintTime(System.Text.StringBuilder sb)
-    // Offset: 0x2064684
+    // Offset: 0x205E248
     void PrintTime(::System::Text::StringBuilder* sb);
     // private System.Void PrintZone(System.Text.StringBuilder sb)
-    // Offset: 0x20649A4
+    // Offset: 0x205E568
     void PrintZone(::System::Text::StringBuilder* sb);
     // private System.Void IntToCharArray(System.Char[] text, System.Int32 start, System.Int32 value, System.Int32 digits)
-    // Offset: 0x20648B8
+    // Offset: 0x205E47C
     void IntToCharArray(::ArrayW<::Il2CppChar> text, int start, int value, int digits);
     // private System.Void ShortToCharArray(System.Char[] text, System.Int32 start, System.Int32 value)
-    // Offset: 0x206492C
+    // Offset: 0x205E4F0
     void ShortToCharArray(::ArrayW<::Il2CppChar> text, int start, int value);
     // public override System.String ToString()
-    // Offset: 0x2064070
+    // Offset: 0x205DC34
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

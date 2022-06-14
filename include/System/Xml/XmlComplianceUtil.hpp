@@ -24,10 +24,10 @@ namespace System::Xml {
   class XmlComplianceUtil : public ::Il2CppObject {
     public:
     // static public System.String NonCDataNormalize(System.String value)
-    // Offset: 0x1BB0280
+    // Offset: 0x1BBBD08
     static ::StringW NonCDataNormalize(::StringW value);
     // static public System.String CDataNormalize(System.String value)
-    // Offset: 0x1BB04DC
+    // Offset: 0x1BBBF64
     static ::StringW CDataNormalize(::StringW value);
   }; // System.Xml.XmlComplianceUtil
   #pragma pack(pop)
