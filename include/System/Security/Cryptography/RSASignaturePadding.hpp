@@ -43,6 +43,10 @@ namespace System::Security::Cryptography {
     operator ::System::IEquatable_1<::System::Security::Cryptography::RSASignaturePadding*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::Security::Cryptography::RSASignaturePadding*>*>(this);
     }
+    // Creating interface conversion operator: i_RSASignaturePadding
+    inline ::System::IEquatable_1<::System::Security::Cryptography::RSASignaturePadding*>* i_RSASignaturePadding() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::Security::Cryptography::RSASignaturePadding*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Security::Cryptography::RSASignaturePaddingMode
     constexpr operator ::System::Security::Cryptography::RSASignaturePaddingMode() const noexcept {
       return mode;

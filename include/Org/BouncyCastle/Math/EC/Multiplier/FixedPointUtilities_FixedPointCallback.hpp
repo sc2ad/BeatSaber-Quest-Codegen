@@ -53,6 +53,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
+    // Creating interface conversion operator: i_IPreCompCallback
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i_IPreCompCallback() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Math::EC::ECPoint*
     constexpr operator ::Org::BouncyCastle::Math::EC::ECPoint*() const noexcept {
       return m_p;

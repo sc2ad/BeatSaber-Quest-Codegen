@@ -153,6 +153,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapDataAssetFileModel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapDataAssetFileModel
+    inline ::GlobalNamespace::IBeatmapDataAssetFileModel* i_IBeatmapDataAssetFileModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapDataAssetFileModel*>(this);
+    }
     // static field const value: static private System.Single kMaxTimeOutBeforeFail
     static constexpr const float kMaxTimeOutBeforeFail = 120;
     // Get static field: static private System.Single kMaxTimeOutBeforeFail

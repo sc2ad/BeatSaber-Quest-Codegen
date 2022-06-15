@@ -213,6 +213,10 @@ namespace Mono::Net::Security {
     operator ::Mono::Security::Interface::IMonoSslStream() noexcept {
       return *reinterpret_cast<::Mono::Security::Interface::IMonoSslStream*>(this);
     }
+    // Creating interface conversion operator: i_IMonoSslStream
+    inline ::Mono::Security::Interface::IMonoSslStream* i_IMonoSslStream() noexcept {
+      return reinterpret_cast<::Mono::Security::Interface::IMonoSslStream*>(this);
+    }
     // Get static field: static private System.Int32 uniqueNameInteger
     static int _get_uniqueNameInteger();
     // Set static field: static private System.Int32 uniqueNameInteger

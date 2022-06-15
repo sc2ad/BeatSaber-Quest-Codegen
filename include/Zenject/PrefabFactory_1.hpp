@@ -56,6 +56,10 @@ namespace Zenject {
     operator ::Zenject::IFactory_2<::UnityEngine::Object*, T>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(this);
     }
+    // Creating interface conversion operator: i_Object_T
+    inline ::Zenject::IFactory_2<::UnityEngine::Object*, T>* i_Object_T() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(this);
+    }
     // Creating conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept {
       return container;

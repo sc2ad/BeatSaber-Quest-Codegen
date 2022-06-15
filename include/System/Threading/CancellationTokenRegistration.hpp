@@ -56,13 +56,25 @@ namespace System::Threading {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>
     operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(this);
+    }
+    // Creating interface conversion operator: i_CancellationTokenRegistration
+    inline ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>* i_CancellationTokenRegistration() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(this);
     }
     // Get instance field reference: private readonly System.Threading.CancellationCallbackInfo m_callbackInfo
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationCallbackInfo*& dyn_m_callbackInfo();

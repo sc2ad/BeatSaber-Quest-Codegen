@@ -54,6 +54,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlDocument() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocument*>(this);
     }
+    // Creating interface conversion operator: i_IXmlDocument
+    inline ::Newtonsoft::Json::Converters::IXmlDocument* i_IXmlDocument() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocument*>(this);
+    }
     // private System.Xml.Linq.XDocument get_Document()
     // Offset: 0x17B5A18
     ::System::Xml::Linq::XDocument* get_Document();

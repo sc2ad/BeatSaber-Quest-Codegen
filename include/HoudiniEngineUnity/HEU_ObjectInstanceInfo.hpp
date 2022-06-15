@@ -89,6 +89,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_ObjectInstanceInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* i_HEU_ObjectInstanceInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InstancedInput> _instancedInputs

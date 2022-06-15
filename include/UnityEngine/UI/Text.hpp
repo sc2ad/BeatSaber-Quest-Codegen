@@ -109,6 +109,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
     // Get static field: static protected UnityEngine.Material s_DefaultText
     static ::UnityEngine::Material* _get_s_DefaultText();
     // Set static field: static protected UnityEngine.Material s_DefaultText

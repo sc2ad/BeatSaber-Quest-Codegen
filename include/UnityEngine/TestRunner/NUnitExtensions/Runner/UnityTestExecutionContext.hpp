@@ -263,6 +263,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator ::NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Internal::ITestExecutionContext*>(this);
     }
+    // Creating interface conversion operator: i_ITestExecutionContext
+    inline ::NUnit::Framework::Internal::ITestExecutionContext* i_ITestExecutionContext() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Internal::ITestExecutionContext*>(this);
+    }
     // Get static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField
     static ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* _get_$CurrentContext$k__BackingField();
     // Set static field: static private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <CurrentContext>k__BackingField

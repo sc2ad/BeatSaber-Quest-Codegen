@@ -65,6 +65,10 @@ namespace System::Runtime::InteropServices {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static field const value: static private System.Int32 RefCount_Mask
     static constexpr const int RefCount_Mask = 2147483644;
     // Get static field: static private System.Int32 RefCount_Mask

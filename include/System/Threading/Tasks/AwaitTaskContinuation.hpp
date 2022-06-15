@@ -80,6 +80,10 @@ namespace System::Threading::Tasks {
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
     // Get static field: static private System.Threading.ContextCallback s_invokeActionCallback
     static ::System::Threading::ContextCallback* _get_s_invokeActionCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeActionCallback

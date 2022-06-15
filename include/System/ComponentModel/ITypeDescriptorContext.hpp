@@ -28,6 +28,10 @@ namespace System::ComponentModel {
     operator ::System::IServiceProvider() noexcept {
       return *reinterpret_cast<::System::IServiceProvider*>(this);
     }
+    // Creating interface conversion operator: i_IServiceProvider
+    inline ::System::IServiceProvider* i_IServiceProvider() noexcept {
+      return reinterpret_cast<::System::IServiceProvider*>(this);
+    }
   }; // System.ComponentModel.ITypeDescriptorContext
   #pragma pack(pop)
 }

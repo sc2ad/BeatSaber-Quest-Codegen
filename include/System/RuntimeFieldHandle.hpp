@@ -68,9 +68,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Creating conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept {

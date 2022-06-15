@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ITimeProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ITimeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ITimeProvider
+    inline ::GlobalNamespace::ITimeProvider* i_ITimeProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ITimeProvider*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::IMultiplayerSessionManager*
     constexpr operator ::GlobalNamespace::IMultiplayerSessionManager*() const noexcept {
       return multiplayerSessionManager;

@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_Gradient
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>* i_Test_Gradient() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Gradient*
     constexpr operator ::UnityEngine::Gradient*() const noexcept {
       return self;

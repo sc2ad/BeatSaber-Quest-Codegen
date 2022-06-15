@@ -135,9 +135,17 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_GeoNode
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>* i_HEU_GeoNode() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ISerializationCallbackReceiver
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

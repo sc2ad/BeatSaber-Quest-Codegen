@@ -36,6 +36,10 @@ namespace System::Collections {
     operator ::System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IDictionaryEnumerator
+    inline ::System::Collections::IDictionaryEnumerator* i_IDictionaryEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
+    }
     // public System.Object get_Current()
     // Offset: 0x1CED180
     ::Il2CppObject* get_Current();

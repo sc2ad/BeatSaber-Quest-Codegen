@@ -52,6 +52,10 @@ namespace Polyglot {
     operator ::Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<::Polyglot::ILocalize*>(this);
     }
+    // Creating interface conversion operator: i_ILocalize
+    inline ::Polyglot::ILocalize* i_ILocalize() noexcept {
+      return reinterpret_cast<::Polyglot::ILocalize*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Dropdown dropdown

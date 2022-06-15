@@ -107,6 +107,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAeadBlockCipher
+    inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* i_IAeadBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
+    }
     // Get static field: static private readonly System.Int32 BlockSize
     static int _get_BlockSize();
     // Set static field: static private readonly System.Int32 BlockSize

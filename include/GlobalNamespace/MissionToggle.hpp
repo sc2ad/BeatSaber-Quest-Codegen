@@ -180,17 +180,33 @@ namespace GlobalNamespace {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerEnterHandler
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

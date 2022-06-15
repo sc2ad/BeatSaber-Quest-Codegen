@@ -64,6 +64,10 @@ namespace UnityEngine::TestTools::TestRunner {
     operator ::NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
     }
+    // Creating interface conversion operator: i_ITestListener
+    inline ::NUnit::Framework::Interfaces::ITestListener* i_ITestListener() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
+    }
     // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::TestFinishedEvent*& dyn_m_TestFinishedEvent();
     // Get instance field reference: private readonly UnityEngine.TestTools.TestRunner.TestStartedEvent m_TestStartedEvent

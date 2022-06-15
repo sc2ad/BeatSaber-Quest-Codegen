@@ -76,6 +76,10 @@ namespace Zenject {
     operator ::Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<::Zenject::IPrefabInstantiator*>(this);
     }
+    // Creating interface conversion operator: i_IPrefabInstantiator
+    inline ::Zenject::IPrefabInstantiator* i_IPrefabInstantiator() noexcept {
+      return reinterpret_cast<::Zenject::IPrefabInstantiator*>(this);
+    }
     // Get instance field reference: private readonly Zenject.IPrefabInstantiator _subInstantiator
     [[deprecated("Use field access instead!")]] ::Zenject::IPrefabInstantiator*& dyn__subInstantiator();
     // Get instance field reference: private UnityEngine.GameObject _gameObject

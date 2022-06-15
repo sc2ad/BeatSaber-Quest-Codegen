@@ -122,6 +122,10 @@ namespace System::Xml::Schema {
     operator ::System::Xml::IDtdEntityInfo() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdEntityInfo*>(this);
     }
+    // Creating interface conversion operator: i_IDtdEntityInfo
+    inline ::System::Xml::IDtdEntityInfo* i_IDtdEntityInfo() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdEntityInfo*>(this);
+    }
     // Get instance field reference: private System.Xml.XmlQualifiedName qname
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlQualifiedName*& dyn_qname();
     // Get instance field reference: private System.String url

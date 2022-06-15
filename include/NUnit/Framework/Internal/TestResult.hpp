@@ -137,6 +137,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITestResult() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestResult*>(this);
     }
+    // Creating interface conversion operator: i_ITestResult
+    inline ::NUnit::Framework::Interfaces::ITestResult* i_ITestResult() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestResult*>(this);
+    }
     // Get static field: static readonly System.String CHILD_ERRORS_MESSAGE
     static ::StringW _get_CHILD_ERRORS_MESSAGE();
     // Set static field: static readonly System.String CHILD_ERRORS_MESSAGE

@@ -94,6 +94,10 @@ namespace UnityEngine::Timeline {
     operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
+    // Creating interface conversion operator: i_MonoBehaviour
+    inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i_MonoBehaviour() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(this);

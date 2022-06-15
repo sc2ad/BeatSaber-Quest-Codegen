@@ -243,6 +243,10 @@ namespace LIV::SDK::Unity {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _clipPlaneCommandBuffer
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn__clipPlaneCommandBuffer();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _combineAlphaCommandBuffer

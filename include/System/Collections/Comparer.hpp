@@ -59,9 +59,17 @@ namespace System::Collections {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IComparer
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // Creating conversion operator: operator ::System::Globalization::CompareInfo*
     constexpr operator ::System::Globalization::CompareInfo*() const noexcept {

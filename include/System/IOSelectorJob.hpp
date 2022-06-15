@@ -71,6 +71,10 @@ namespace System {
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
     // Get instance field reference: private System.IOOperation operation
     [[deprecated("Use field access instead!")]] ::System::IOOperation& dyn_operation();
     // Get instance field reference: private System.IOAsyncCallback callback

@@ -60,6 +60,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);
     }
+    // Creating interface conversion operator: i_IConstructionReturnMessage
+    inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* i_IConstructionReturnMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);
+    }
     // System.Void .ctor(System.Object resultObject, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x1C785C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

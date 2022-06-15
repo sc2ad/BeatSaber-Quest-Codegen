@@ -112,6 +112,10 @@ namespace GlobalNamespace {
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.TableView _tableView

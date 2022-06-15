@@ -28,6 +28,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMethodMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMethodMessage
+    inline ::System::Runtime::Remoting::Messaging::IMethodMessage* i_IMethodMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(this);
+    }
   }; // System.Runtime.Remoting.Messaging.IMethodCallMessage
   #pragma pack(pop)
 }

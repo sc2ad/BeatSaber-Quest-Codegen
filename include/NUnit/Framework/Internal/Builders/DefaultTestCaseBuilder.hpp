@@ -65,6 +65,10 @@ namespace NUnit::Framework::Internal::Builders {
     operator ::NUnit::Framework::Interfaces::ITestCaseBuilder() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestCaseBuilder*>(this);
     }
+    // Creating interface conversion operator: i_ITestCaseBuilder
+    inline ::NUnit::Framework::Interfaces::ITestCaseBuilder* i_ITestCaseBuilder() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestCaseBuilder*>(this);
+    }
     // Creating conversion operator: operator ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*
     constexpr operator ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*() const noexcept {
       return nunitTestCaseBuilder;

@@ -34,9 +34,17 @@ namespace System::Collections::Concurrent {
     operator ::System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_T
+    inline ::System::Collections::Generic::IEnumerable_1<T>* i_IEnumerable_1_T() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::ICollection
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // public System.Boolean TryAdd(T item)
     // Offset: 0xFFFFFFFFFFFFFFFF

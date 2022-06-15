@@ -42,9 +42,17 @@ namespace System::Runtime::Remoting::Channels {
     operator ::System::Runtime::Remoting::Channels::IChannelSender() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Channels::IChannelSender*>(this);
     }
+    // Creating interface conversion operator: i_IChannelSender
+    inline ::System::Runtime::Remoting::Channels::IChannelSender* i_IChannelSender() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Channels::IChannelSender*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Remoting::Channels::IChannelReceiver
     operator ::System::Runtime::Remoting::Channels::IChannelReceiver() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Channels::IChannelReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_IChannelReceiver
+    inline ::System::Runtime::Remoting::Channels::IChannelReceiver* i_IChannelReceiver() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Channels::IChannelReceiver*>(this);
     }
     // Get static field: static private System.Object s_lock
     static ::Il2CppObject* _get_s_lock();

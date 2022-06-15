@@ -147,6 +147,10 @@ namespace System::Threading {
     operator ::System::Runtime::InteropServices::_Thread() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_Thread*>(this);
     }
+    // Creating interface conversion operator: i__Thread
+    inline ::System::Runtime::InteropServices::_Thread* i__Thread() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_Thread*>(this);
+    }
     // Get static field: static private System.LocalDataStoreMgr s_LocalDataStoreMgr
     static ::System::LocalDataStoreMgr* _get_s_LocalDataStoreMgr();
     // Set static field: static private System.LocalDataStoreMgr s_LocalDataStoreMgr

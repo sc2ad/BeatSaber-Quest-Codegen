@@ -37,9 +37,17 @@ namespace System::Resources {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IEnumerable
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
     // public System.Void Close()
     // Offset: 0xFFFFFFFFFFFFFFFF

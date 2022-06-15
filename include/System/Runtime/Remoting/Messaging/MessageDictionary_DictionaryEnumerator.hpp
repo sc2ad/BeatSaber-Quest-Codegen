@@ -56,6 +56,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IDictionaryEnumerator
+    inline ::System::Collections::IDictionaryEnumerator* i_IDictionaryEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
+    }
     // Get instance field reference: private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::MessageDictionary*& dyn__methodDictionary();
     // Get instance field reference: private System.Collections.IDictionaryEnumerator _hashtableEnum

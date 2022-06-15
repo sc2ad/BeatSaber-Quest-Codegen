@@ -92,9 +92,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
+    }
+    // Creating interface conversion operator: i_RenderTargetIdentifier
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i_RenderTargetIdentifier() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(this);
     }
     // Get instance field reference: private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::BuiltinRenderTextureType& dyn_m_Type();

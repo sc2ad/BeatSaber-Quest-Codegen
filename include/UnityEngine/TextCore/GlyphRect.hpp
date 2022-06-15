@@ -65,9 +65,17 @@ namespace UnityEngine::TextCore {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>
     operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*>(this);
+    }
+    // Creating interface conversion operator: i_GlyphRect
+    inline ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>* i_GlyphRect() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*>(this);
     }
     // Get static field: static private readonly UnityEngine.TextCore.GlyphRect s_ZeroGlyphRect
     static ::UnityEngine::TextCore::GlyphRect _get_s_ZeroGlyphRect();

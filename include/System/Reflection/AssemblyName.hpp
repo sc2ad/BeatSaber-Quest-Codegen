@@ -187,17 +187,33 @@ namespace System::Reflection {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_AssemblyName
     operator ::System::Runtime::InteropServices::_AssemblyName() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_AssemblyName*>(this);
+    }
+    // Creating interface conversion operator: i__AssemblyName
+    inline ::System::Runtime::InteropServices::_AssemblyName* i__AssemblyName() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_AssemblyName*>(this);
     }
     // Get instance field reference: private System.String name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_name();

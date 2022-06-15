@@ -61,6 +61,10 @@ namespace System::Xml {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.UInt32 IsTextualNodeBitmap
     static uint _get_IsTextualNodeBitmap();
     // Set static field: static private System.UInt32 IsTextualNodeBitmap

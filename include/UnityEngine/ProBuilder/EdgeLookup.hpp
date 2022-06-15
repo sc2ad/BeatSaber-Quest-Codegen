@@ -70,9 +70,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>*>(this);
+    }
+    // Creating interface conversion operator: i_EdgeLookup
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>* i_EdgeLookup() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::EdgeLookup>*>(this);
     }
     // Get instance field reference: private UnityEngine.ProBuilder.Edge m_Local
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Edge& dyn_m_Local();

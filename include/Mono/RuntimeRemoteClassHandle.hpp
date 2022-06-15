@@ -47,6 +47,10 @@ namespace Mono {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::Mono::RuntimeStructs::RemoteClass*
     constexpr operator ::Mono::RuntimeStructs::RemoteClass*() const noexcept {
       return value;

@@ -90,9 +90,17 @@ namespace System::Collections {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IList
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
+    }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
     }
     // Get static field: static private readonly System.Object[] emptyArray
     static ::ArrayW<::Il2CppObject*> _get_emptyArray();

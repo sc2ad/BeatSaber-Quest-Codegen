@@ -65,6 +65,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private readonly System.Byte[] octets
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_octets();
     // Get instance field reference: private readonly System.Int32 chunkSize

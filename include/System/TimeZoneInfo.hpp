@@ -152,13 +152,25 @@ namespace System {
     operator ::System::IEquatable_1<::System::TimeZoneInfo*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::TimeZoneInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_TimeZoneInfo
+    inline ::System::IEquatable_1<::System::TimeZoneInfo*>* i_TimeZoneInfo() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::TimeZoneInfo*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // Get static field: static private System.TimeZoneInfo local
     static ::System::TimeZoneInfo* _get_local();

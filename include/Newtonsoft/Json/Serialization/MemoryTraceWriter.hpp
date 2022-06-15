@@ -63,6 +63,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::ITraceWriter() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
     }
+    // Creating interface conversion operator: i_ITraceWriter
+    inline ::Newtonsoft::Json::Serialization::ITraceWriter* i_ITraceWriter() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.String> _traceMessages
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::StringW>*& dyn__traceMessages();
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField

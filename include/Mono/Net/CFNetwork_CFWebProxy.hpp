@@ -65,6 +65,10 @@ namespace Mono::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Get instance field reference: private System.Net.ICredentials credentials
     [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_credentials();
     // Get instance field reference: private System.Boolean userSpecified

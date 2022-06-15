@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresenceData
+    inline ::GlobalNamespace::IRichPresenceData* i_IRichPresenceData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;

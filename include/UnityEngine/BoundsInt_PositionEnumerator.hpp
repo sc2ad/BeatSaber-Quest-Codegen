@@ -53,9 +53,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector3Int
+    inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>* i_Vector3Int() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector3Int>*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.Vector3Int _min
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn__min();

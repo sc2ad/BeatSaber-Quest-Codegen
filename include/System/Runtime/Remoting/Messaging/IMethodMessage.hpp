@@ -45,6 +45,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMessage
+    inline ::System::Runtime::Remoting::Messaging::IMessage* i_IMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessage*>(this);
+    }
     // public System.Int32 get_ArgCount()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_ArgCount();

@@ -65,6 +65,10 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     operator ::Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
     }
+    // Creating interface conversion operator: i_IBasicAgreement
+    inline ::Org::BouncyCastle::Crypto::IBasicAgreement* i_IBasicAgreement() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams

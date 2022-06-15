@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Skipping declaration: CompressExpandReductionType because it is already included!
   // Skipping declaration: RotateRingsReductionType because it is already included!
+  // Skipping declaration: CompressExpandReductionType because it is already included!
 }
 // Completed forward declares
 // Type namespace: 
@@ -59,6 +59,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -100,6 +104,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {

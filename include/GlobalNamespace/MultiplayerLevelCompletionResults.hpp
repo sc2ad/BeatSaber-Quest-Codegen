@@ -72,6 +72,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -119,6 +123,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -202,9 +210,17 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*>(this);
     }
+    // Creating interface conversion operator: i_MultiplayerLevelCompletionResults
+    inline ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* i_MultiplayerLevelCompletionResults() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: private readonly MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState _playerLevelEndState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState& dyn__playerLevelEndState();

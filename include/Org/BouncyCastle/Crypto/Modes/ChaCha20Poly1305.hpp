@@ -71,6 +71,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -206,6 +210,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Creating interface conversion operator: operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher
     operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);
+    }
+    // Creating interface conversion operator: i_IAeadCipher
+    inline ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i_IAeadCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);
     }
     // Get static field: static private readonly System.Byte[] Zeroes
     static ::ArrayW<uint8_t> _get_Zeroes();

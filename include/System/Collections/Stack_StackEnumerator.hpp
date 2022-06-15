@@ -57,9 +57,17 @@ namespace System::Collections {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IEnumerator
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.Collections.Stack _stack
     [[deprecated("Use field access instead!")]] ::System::Collections::Stack*& dyn__stack();

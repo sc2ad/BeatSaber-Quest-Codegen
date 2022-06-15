@@ -17,16 +17,16 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine::UI
+namespace UnityEngine::UI {
+  // Skipping declaration: ScreenMatchMode because it is already included!
+  // Skipping declaration: ScaleMode because it is already included!
+  // Skipping declaration: Unit because it is already included!
+}
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: Canvas
   class Canvas;
-}
-// Forward declaring namespace: UnityEngine::UI
-namespace UnityEngine::UI {
-  // Skipping declaration: ScaleMode because it is already included!
-  // Skipping declaration: ScreenMatchMode because it is already included!
-  // Skipping declaration: Unit because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.UI
@@ -74,6 +74,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -123,6 +127,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -170,6 +178,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {

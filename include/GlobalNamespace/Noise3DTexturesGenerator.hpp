@@ -76,6 +76,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.String globalPropertyName
       [[deprecated("Use field access instead!")]] ::StringW& dyn_globalPropertyName();
       // Get instance field reference: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
@@ -110,6 +114,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.String texturePropertyName
       [[deprecated("Use field access instead!")]] ::StringW& dyn_texturePropertyName();

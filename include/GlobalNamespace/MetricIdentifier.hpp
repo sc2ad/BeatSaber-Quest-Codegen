@@ -80,9 +80,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::GlobalNamespace::MetricIdentifier>
     operator ::System::IComparable_1<::GlobalNamespace::MetricIdentifier>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::MetricIdentifier>*>(this);
+    }
+    // Creating interface conversion operator: i_MetricIdentifier
+    inline ::System::IComparable_1<::GlobalNamespace::MetricIdentifier>* i_MetricIdentifier() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::MetricIdentifier>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::MetricIdentifier>
     operator ::System::IEquatable_1<::GlobalNamespace::MetricIdentifier>() noexcept {

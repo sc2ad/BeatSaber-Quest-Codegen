@@ -70,6 +70,10 @@ namespace Zenject {
     operator ::Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
+    // Creating interface conversion operator: i_ISubContainerCreator
+    inline ::Zenject::ISubContainerCreator* i_ISubContainerCreator() noexcept {
+      return reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
+    }
     // Get instance field reference: private readonly Zenject.ISubContainerCreator _subCreator
     [[deprecated("Use field access instead!")]] ::Zenject::ISubContainerCreator*& dyn__subCreator();
     // Get instance field reference: private System.Boolean _isLookingUp

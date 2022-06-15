@@ -48,6 +48,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default
     static ::UnityEngine::ProBuilder::PickerOptions _get_k_Default();
     // Set static field: static private readonly UnityEngine.ProBuilder.PickerOptions k_Default

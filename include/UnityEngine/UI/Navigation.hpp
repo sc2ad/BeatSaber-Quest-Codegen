@@ -59,6 +59,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -139,9 +143,17 @@ namespace UnityEngine::UI {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>
     operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::Navigation>*>(this);
+    }
+    // Creating interface conversion operator: i_Navigation
+    inline ::System::IEquatable_1<::UnityEngine::UI::Navigation>* i_Navigation() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::Navigation>*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Navigation::Mode& dyn_m_Mode();

@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerStatusModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerStatusModel*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerStatusModel
+    inline ::GlobalNamespace::IMultiplayerStatusModel* i_IMultiplayerStatusModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerStatusModel*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::MultiplayerStatusData*
     constexpr operator ::GlobalNamespace::MultiplayerStatusData*() const noexcept {
       return multiplayerStatusData;

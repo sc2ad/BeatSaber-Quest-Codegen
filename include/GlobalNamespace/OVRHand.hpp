@@ -78,6 +78,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -125,6 +129,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -236,17 +244,33 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*>(this);
     }
+    // Creating interface conversion operator: i_IOVRSkeletonDataProvider
+    inline ::GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider* i_IOVRSkeletonDataProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider
     operator ::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IOVRSkeletonRendererDataProvider
+    inline ::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider* i_IOVRSkeletonRendererDataProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::OVRMesh::IOVRMeshDataProvider
     operator ::GlobalNamespace::OVRMesh::IOVRMeshDataProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::OVRMesh::IOVRMeshDataProvider*>(this);
     }
+    // Creating interface conversion operator: i_IOVRMeshDataProvider
+    inline ::GlobalNamespace::OVRMesh::IOVRMeshDataProvider* i_IOVRMeshDataProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::OVRMesh::IOVRMeshDataProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider
     operator ::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IOVRMeshRendererDataProvider
+    inline ::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider* i_IOVRMeshRendererDataProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

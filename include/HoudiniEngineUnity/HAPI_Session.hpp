@@ -48,6 +48,10 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionType type
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_SessionType& dyn_type();
     // Get instance field reference: public System.Int64 id

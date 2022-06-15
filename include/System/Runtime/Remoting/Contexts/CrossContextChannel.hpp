@@ -46,6 +46,10 @@ namespace System::Runtime::Remoting::Contexts {
     operator ::System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Creating interface conversion operator: i_IMessageSink
+    inline ::System::Runtime::Remoting::Messaging::IMessageSink* i_IMessageSink() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
+    }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     // Offset: 0x1C66EA4
     ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);

@@ -41,6 +41,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly OVRPlugin/Sizef zero
     static ::GlobalNamespace::OVRPlugin::Sizef _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizef zero

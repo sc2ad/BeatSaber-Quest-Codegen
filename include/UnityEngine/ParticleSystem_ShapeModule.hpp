@@ -41,6 +41,10 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::ParticleSystem*
     constexpr operator ::UnityEngine::ParticleSystem*() const noexcept {
       return m_ParticleSystem;

@@ -66,6 +66,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>*>(this);
     }
+    // Creating interface conversion operator: i_UnicastIPAddressInformation
+    inline ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>* i_UnicastIPAddressInformation() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>*
     constexpr operator ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>*() const noexcept {
       return addresses;

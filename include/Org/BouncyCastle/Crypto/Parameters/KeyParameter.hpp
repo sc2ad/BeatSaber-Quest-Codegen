@@ -41,6 +41,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Creating interface conversion operator: i_ICipherParameters
+    inline ::Org::BouncyCastle::Crypto::ICipherParameters* i_ICipherParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return key;

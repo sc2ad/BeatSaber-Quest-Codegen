@@ -30,6 +30,10 @@ namespace System {
     operator ::System::TypeName() noexcept {
       return *reinterpret_cast<::System::TypeName*>(this);
     }
+    // Creating interface conversion operator: i_TypeName
+    inline ::System::TypeName* i_TypeName() noexcept {
+      return reinterpret_cast<::System::TypeName*>(this);
+    }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DisplayName();

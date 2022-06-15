@@ -75,13 +75,25 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>
     operator ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>*>(this);
+    }
+    // Creating interface conversion operator: i_StandardScoreSyncState
+    inline ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>* i_StandardScoreSyncState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>*>(this);
     }
     // Get instance field reference: private StandardScoreSyncState _state
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardScoreSyncState& dyn__state();

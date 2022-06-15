@@ -81,6 +81,10 @@ namespace UnityEngine::Timeline {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.Playables.Playable mixer
       [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::Playable& dyn_mixer();
       // Get instance field reference: public UnityEngine.Playables.Playable parentMixer
@@ -118,6 +122,10 @@ namespace UnityEngine::Timeline {
     // Creating interface conversion operator: operator ::UnityEngine::Timeline::ITimelineEvaluateCallback
     operator ::UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
+    }
+    // Creating interface conversion operator: i_ITimelineEvaluateCallback
+    inline ::UnityEngine::Timeline::ITimelineEvaluateCallback* i_ITimelineEvaluateCallback() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
     // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();

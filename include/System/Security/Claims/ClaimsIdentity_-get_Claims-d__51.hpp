@@ -91,6 +91,10 @@ namespace System::Security::Claims {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>(this);
     }
+    // Creating interface conversion operator: i_Claim
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* i_Claim() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*>(this);

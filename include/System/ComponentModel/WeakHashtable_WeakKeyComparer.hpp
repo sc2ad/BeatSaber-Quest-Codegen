@@ -29,6 +29,10 @@ namespace System::ComponentModel {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1CD4C80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

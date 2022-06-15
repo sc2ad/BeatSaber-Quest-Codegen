@@ -56,13 +56,25 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>
     operator ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::ColorSerializable>*>(this);
+    }
+    // Creating interface conversion operator: i_ColorSerializable
+    inline ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>* i_ColorSerializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::ColorSerializable>*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Color
     constexpr operator ::UnityEngine::Color() const noexcept {

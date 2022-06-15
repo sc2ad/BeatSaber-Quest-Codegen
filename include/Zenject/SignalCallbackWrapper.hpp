@@ -78,6 +78,10 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly Zenject.SignalBus _signalBus
     [[deprecated("Use field access instead!")]] ::Zenject::SignalBus*& dyn__signalBus();
     // Get instance field reference: private readonly System.Action`1<System.Object> _action

@@ -118,13 +118,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISaberSwingRatingCounterDidChangeReceiver
+    inline ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* i_ISaberSwingRatingCounterDidChangeReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver
     operator ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISaberSwingRatingCounterDidFinishReceiver
+    inline ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* i_ISaberSwingRatingCounterDidFinishReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IReadonlyCutScoreBuffer
     operator ::GlobalNamespace::IReadonlyCutScoreBuffer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReadonlyCutScoreBuffer*>(this);
+    }
+    // Creating interface conversion operator: i_IReadonlyCutScoreBuffer
+    inline ::GlobalNamespace::IReadonlyCutScoreBuffer* i_IReadonlyCutScoreBuffer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReadonlyCutScoreBuffer*>(this);
     }
     // Get instance field reference: private readonly SaberSwingRatingCounter _saberSwingRatingCounter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberSwingRatingCounter*& dyn__saberSwingRatingCounter();

@@ -86,9 +86,17 @@ namespace NUnit::Framework {
     operator ::NUnit::Framework::Interfaces::ITestBuilder() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestBuilder*>(this);
     }
+    // Creating interface conversion operator: i_ITestBuilder
+    inline ::NUnit::Framework::Interfaces::ITestBuilder* i_ITestBuilder() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestBuilder*>(this);
+    }
     // Creating interface conversion operator: operator ::NUnit::Framework::Interfaces::IApplyToTest
     operator ::NUnit::Framework::Interfaces::IApplyToTest() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IApplyToTest*>(this);
+    }
+    // Creating interface conversion operator: i_IApplyToTest
+    inline ::NUnit::Framework::Interfaces::IApplyToTest* i_IApplyToTest() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IApplyToTest*>(this);
     }
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _builder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*& dyn__builder();

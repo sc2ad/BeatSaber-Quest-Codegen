@@ -51,6 +51,10 @@ namespace Mono {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return FixedElementField;
@@ -149,6 +153,10 @@ namespace Mono {
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
+    }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: System.IntPtr name
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_name();

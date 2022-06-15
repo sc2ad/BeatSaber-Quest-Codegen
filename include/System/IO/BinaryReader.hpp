@@ -116,6 +116,10 @@ namespace System::IO {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.IO.Stream m_stream
     [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_m_stream();
     // Get instance field reference: private System.Byte[] m_buffer

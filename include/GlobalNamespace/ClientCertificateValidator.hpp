@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICertificateValidator() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICertificateValidator*>(this);
     }
+    // Creating interface conversion operator: i_ICertificateValidator
+    inline ::GlobalNamespace::ICertificateValidator* i_ICertificateValidator() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICertificateValidator*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1552CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

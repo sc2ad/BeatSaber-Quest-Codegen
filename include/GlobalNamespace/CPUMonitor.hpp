@@ -78,6 +78,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICPUMonitor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICPUMonitor*>(this);
     }
+    // Creating interface conversion operator: i_ICPUMonitor
+    inline ::GlobalNamespace::ICPUMonitor* i_ICPUMonitor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICPUMonitor*>(this);
+    }
     // Get instance field reference: private readonly RollingAverage _utilization
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RollingAverage*& dyn__utilization();
     // Get instance field reference: private readonly System.Diagnostics.Process _currentProcess

@@ -84,6 +84,10 @@ namespace MasterServer {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return value;
@@ -235,6 +239,10 @@ namespace MasterServer {
     // Creating interface conversion operator: operator ::MasterServer::IUserMasterServerServerToClientMessage
     operator ::MasterServer::IUserMasterServerServerToClientMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IUserMasterServerServerToClientMessage
+    inline ::MasterServer::IUserMasterServerServerToClientMessage* i_IUserMasterServerServerToClientMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
     }
     // Get instance field reference: public MasterServer.ConnectToServerResponse/MasterServer.Result result
     [[deprecated("Use field access instead!")]] ::MasterServer::ConnectToServerResponse::Result& dyn_result();

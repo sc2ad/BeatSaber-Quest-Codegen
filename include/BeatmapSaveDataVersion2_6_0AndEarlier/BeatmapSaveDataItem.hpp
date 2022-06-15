@@ -32,6 +32,10 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     operator ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapSaveDataItem
+    inline ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* i_BeatmapSaveDataItem() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*>(this);
+    }
     // public System.Single get_time()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();

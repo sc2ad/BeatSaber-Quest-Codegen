@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal _inputFieldClickedSignal

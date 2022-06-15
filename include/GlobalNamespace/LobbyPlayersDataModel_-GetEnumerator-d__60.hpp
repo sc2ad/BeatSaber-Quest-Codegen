@@ -65,6 +65,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*>(this);
     }
+    // Creating interface conversion operator: i_ILobbyPlayerData
+    inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>* i_ILobbyPlayerData() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> <>2__current

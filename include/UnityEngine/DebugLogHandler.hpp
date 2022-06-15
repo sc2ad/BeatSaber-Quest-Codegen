@@ -50,6 +50,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ILogHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::ILogHandler*>(this);
     }
+    // Creating interface conversion operator: i_ILogHandler
+    inline ::UnityEngine::ILogHandler* i_ILogHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::ILogHandler*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1F8DB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

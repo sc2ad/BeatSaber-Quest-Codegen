@@ -68,9 +68,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*>(this);
+    }
+    // Creating interface conversion operator: i_VertexAttributeDescriptor
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* i_VertexAttributeDescriptor() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*>(this);
     }
     // Get instance field reference: private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::VertexAttribute& dyn_$attribute$k__BackingField();

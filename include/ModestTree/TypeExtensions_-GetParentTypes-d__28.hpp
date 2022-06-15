@@ -85,6 +85,10 @@ namespace ModestTree {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
     }
+    // Creating interface conversion operator: i_Type
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i_Type() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this);

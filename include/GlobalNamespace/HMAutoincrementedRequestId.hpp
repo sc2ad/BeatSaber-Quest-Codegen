@@ -40,6 +40,10 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*>(this);
     }
+    // Creating interface conversion operator: i_HMAutoincrementedRequestId
+    inline ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>* i_HMAutoincrementedRequestId() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*>(this);
+    }
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
       return requestId;

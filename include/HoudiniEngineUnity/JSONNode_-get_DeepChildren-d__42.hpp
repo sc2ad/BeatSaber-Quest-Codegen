@@ -80,6 +80,10 @@ namespace HoudiniEngineUnity {
     operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(this);
     }
+    // Creating interface conversion operator: i_JSONNode
+    inline ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* i_JSONNode() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>
     operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*>(this);

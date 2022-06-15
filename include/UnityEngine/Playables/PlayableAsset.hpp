@@ -62,6 +62,10 @@ namespace UnityEngine::Playables {
     operator ::UnityEngine::Playables::IPlayableAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayableAsset*>(this);
     }
+    // Creating interface conversion operator: i_IPlayableAsset
+    inline ::UnityEngine::Playables::IPlayableAsset* i_IPlayableAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayableAsset*>(this);
+    }
     // public System.Double get_duration()
     // Offset: 0x2042A7C
     double get_duration();

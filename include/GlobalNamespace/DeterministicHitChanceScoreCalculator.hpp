@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
+    // Creating interface conversion operator: i_IMockPlayerScoreCalculator
+    inline ::GlobalNamespace::IMockPlayerScoreCalculator* i_IMockPlayerScoreCalculator() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
+    }
     // static field const value: static private System.Int32 kScorePerHit
     static constexpr const int kScorePerHit = 105;
     // Get static field: static private System.Int32 kScorePerHit

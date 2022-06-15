@@ -77,6 +77,10 @@ namespace GlobalNamespace {
     operator ::OnlineServices::API::IUserLoginDtoDataSource() noexcept {
       return *reinterpret_cast<::OnlineServices::API::IUserLoginDtoDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IUserLoginDtoDataSource
+    inline ::OnlineServices::API::IUserLoginDtoDataSource* i_IUserLoginDtoDataSource() noexcept {
+      return reinterpret_cast<::OnlineServices::API::IUserLoginDtoDataSource*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::IPlatformUserModel*
     constexpr operator ::GlobalNamespace::IPlatformUserModel*() const noexcept {
       return platformUserModel;

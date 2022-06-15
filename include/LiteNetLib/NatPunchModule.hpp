@@ -105,6 +105,10 @@ namespace LiteNetLib {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Net.IPEndPoint LocalEndPoint
       [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_LocalEndPoint();
       // Get instance field reference: public System.Net.IPEndPoint RemoteEndPoint
@@ -149,6 +153,10 @@ namespace LiteNetLib {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Net.IPEndPoint TargetEndPoint
       [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_TargetEndPoint();

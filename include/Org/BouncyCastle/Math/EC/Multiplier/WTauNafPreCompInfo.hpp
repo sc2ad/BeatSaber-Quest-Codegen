@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
+    // Creating interface conversion operator: i_PreCompInfo
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i_PreCompInfo() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>
     constexpr operator ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>() const noexcept {
       return m_preComp;

@@ -50,6 +50,10 @@ namespace UnityEngine {
     operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::AnimationCurve*>*>(this);
     }
+    // Creating interface conversion operator: i_AnimationCurve
+    inline ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i_AnimationCurve() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::AnimationCurve*>*>(this);
+    }
     // Creating conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;

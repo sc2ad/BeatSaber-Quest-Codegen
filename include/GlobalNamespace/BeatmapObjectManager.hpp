@@ -194,33 +194,65 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapObjectSpawner() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapObjectSpawner*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapObjectSpawner
+    inline ::GlobalNamespace::IBeatmapObjectSpawner* i_IBeatmapObjectSpawner() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapObjectSpawner*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidStartJumpEvent
     operator ::GlobalNamespace::INoteControllerNoteDidStartJumpEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteDidStartJumpEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidStartJumpEvent* i_INoteControllerNoteDidStartJumpEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent
     operator ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerNoteDidFinishJumpEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent* i_INoteControllerNoteDidFinishJumpEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteWasCutEvent
     operator ::GlobalNamespace::INoteControllerNoteWasCutEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteWasCutEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteWasCutEvent
+    inline ::GlobalNamespace::INoteControllerNoteWasCutEvent* i_INoteControllerNoteWasCutEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteWasCutEvent*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteWasMissedEvent
     operator ::GlobalNamespace::INoteControllerNoteWasMissedEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerNoteWasMissedEvent
+    inline ::GlobalNamespace::INoteControllerNoteWasMissedEvent* i_INoteControllerNoteWasMissedEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidDissolveEvent
     operator ::GlobalNamespace::INoteControllerNoteDidDissolveEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteDidDissolveEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidDissolveEvent* i_INoteControllerNoteDidDissolveEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISliderDidFinishJumpEvent
     operator ::GlobalNamespace::ISliderDidFinishJumpEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISliderDidFinishJumpEvent*>(this);
     }
+    // Creating interface conversion operator: i_ISliderDidFinishJumpEvent
+    inline ::GlobalNamespace::ISliderDidFinishJumpEvent* i_ISliderDidFinishJumpEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISliderDidFinishJumpEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISliderDidDissolveEvent
     operator ::GlobalNamespace::ISliderDidDissolveEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISliderDidDissolveEvent*>(this);
+    }
+    // Creating interface conversion operator: i_ISliderDidDissolveEvent
+    inline ::GlobalNamespace::ISliderDidDissolveEvent* i_ISliderDidDissolveEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISliderDidDissolveEvent*>(this);
     }
     // Get instance field reference: private System.Action`3<NoteData,BeatmapObjectSpawnMovementData/NoteSpawnData,System.Single> noteWasAddedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float>*& dyn_noteWasAddedEvent();

@@ -62,6 +62,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IDictionaryEnumerator
+    inline ::System::Collections::IDictionaryEnumerator* i_IDictionaryEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
+    }
     // Get instance field reference: private System.Collections.Specialized.ListDictionary list
     [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::ListDictionary*& dyn_list();
     // Get instance field reference: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode current

@@ -68,6 +68,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);
     }
+    // Creating interface conversion operator: i_IFlyingObjectEffectDidFinishEvent
+    inline ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent* i_IFlyingObjectEffectDidFinishEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool

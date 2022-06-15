@@ -55,9 +55,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>*>(this);
+    }
+    // Creating interface conversion operator: i_SyncStateId
+    inline ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>* i_SyncStateId() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SyncStateId>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::SyncStateId>
     operator ::System::IEquatable_1<::GlobalNamespace::SyncStateId>() noexcept {

@@ -27,6 +27,10 @@ namespace GameLift {
     operator ::GameLift::IGameLiftMessage() noexcept {
       return *reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
     }
+    // Creating interface conversion operator: i_IGameLiftMessage
+    inline ::GameLift::IGameLiftMessage* i_IGameLiftMessage() noexcept {
+      return reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
+    }
   }; // GameLift.IGameLiftServerToClientMessage
   #pragma pack(pop)
 }

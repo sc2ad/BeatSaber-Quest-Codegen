@@ -21,8 +21,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Skipping declaration: GameplayType because it is already included!
   // Skipping declaration: ScoringType because it is already included!
+  // Skipping declaration: GameplayType because it is already included!
   // Skipping declaration: BeatmapDataItem because it is already included!
 }
 // Forward declaring namespace: System
@@ -71,6 +71,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -131,6 +135,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {

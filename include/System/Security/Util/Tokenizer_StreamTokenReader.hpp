@@ -50,6 +50,10 @@ namespace System::Security::Util {
     operator ::System::Security::Util::Tokenizer::ITokenReader() noexcept {
       return *reinterpret_cast<::System::Security::Util::Tokenizer::ITokenReader*>(this);
     }
+    // Creating interface conversion operator: i_ITokenReader
+    inline ::System::Security::Util::Tokenizer::ITokenReader* i_ITokenReader() noexcept {
+      return reinterpret_cast<::System::Security::Util::Tokenizer::ITokenReader*>(this);
+    }
     // Get instance field reference: System.IO.StreamReader _in
     [[deprecated("Use field access instead!")]] ::System::IO::StreamReader*& dyn__in();
     // Get instance field reference: System.Int32 _numCharRead

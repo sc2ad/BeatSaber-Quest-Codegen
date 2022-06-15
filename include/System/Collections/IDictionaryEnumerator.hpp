@@ -38,6 +38,10 @@ namespace System::Collections {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // public System.Object get_Key()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_Key();

@@ -32,6 +32,10 @@ namespace System::Collections::Generic {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // Get static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default
     static ::System::Collections::Generic::ObjectEqualityComparer* _get_Default();
     // Set static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default

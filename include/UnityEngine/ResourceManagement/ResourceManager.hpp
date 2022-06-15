@@ -165,6 +165,10 @@ namespace UnityEngine::ResourceManagement {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -261,6 +265,10 @@ namespace UnityEngine::ResourceManagement {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
       [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_$OperationHandle$k__BackingField();
@@ -438,6 +446,10 @@ namespace UnityEngine::ResourceManagement {
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
+    }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get static field: static private System.Action`2<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle,System.Exception> <ExceptionHandler>k__BackingField
     static ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* _get_$ExceptionHandler$k__BackingField();

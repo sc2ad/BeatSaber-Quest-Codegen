@@ -94,9 +94,17 @@ namespace Org::BouncyCastle::Crypto::Digests {
     operator ::Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
     }
+    // Creating interface conversion operator: i_IDigest
+    inline ::Org::BouncyCastle::Crypto::IDigest* i_IDigest() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
+    }
     // Creating interface conversion operator: operator ::Org::BouncyCastle::Utilities::IMemoable
     operator ::Org::BouncyCastle::Utilities::IMemoable() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Utilities::IMemoable*>(this);
+    }
+    // Creating interface conversion operator: i_IMemoable
+    inline ::Org::BouncyCastle::Utilities::IMemoable* i_IMemoable() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
     // Get static field: static private readonly System.Int32[] SBOX
     static ::ArrayW<int> _get_SBOX();

@@ -110,6 +110,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     operator ::Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
     }
+    // Creating interface conversion operator: i_IDigest
+    inline ::Org::BouncyCastle::Crypto::IDigest* i_IDigest() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
+    }
     // Get static field: static private readonly System.UInt64[] blake2b_IV
     static ::ArrayW<uint64_t> _get_blake2b_IV();
     // Set static field: static private readonly System.UInt64[] blake2b_IV

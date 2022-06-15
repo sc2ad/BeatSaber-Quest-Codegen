@@ -112,6 +112,10 @@ namespace VRUIControls {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly UnityEngine.UI.Graphic graphic
       [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Graphic*& dyn_graphic();
       // Get instance field reference: public readonly System.Single distance

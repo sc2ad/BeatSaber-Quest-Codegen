@@ -72,6 +72,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -147,6 +151,10 @@ namespace UnityEngine::UI {
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutSelfController
     operator ::UnityEngine::UI::ILayoutSelfController() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutSelfController*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutSelfController
+    inline ::UnityEngine::UI::ILayoutSelfController* i_ILayoutSelfController() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutSelfController*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

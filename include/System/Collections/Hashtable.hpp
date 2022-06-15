@@ -117,6 +117,10 @@ namespace System::Collections {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Object key
       [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_key();
       // Get instance field reference: public System.Object val
@@ -201,17 +205,33 @@ namespace System::Collections {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IDictionary
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // static field const value: static System.Int32 HashPrime
     static constexpr const int HashPrime = 101;

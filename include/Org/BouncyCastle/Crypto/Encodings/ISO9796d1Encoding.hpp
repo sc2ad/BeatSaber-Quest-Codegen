@@ -81,6 +81,10 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAsymmetricBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i_IAsymmetricBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
+    }
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger Sixteen
     static ::Org::BouncyCastle::Math::BigInteger* _get_Sixteen();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Sixteen

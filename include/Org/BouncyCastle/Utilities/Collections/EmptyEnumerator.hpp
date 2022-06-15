@@ -32,6 +32,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get static field: static public readonly System.Collections.IEnumerator Instance
     static ::System::Collections::IEnumerator* _get_Instance();
     // Set static field: static public readonly System.Collections.IEnumerator Instance

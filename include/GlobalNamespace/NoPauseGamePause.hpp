@@ -65,6 +65,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
+    // Creating interface conversion operator: i_IGamePause
+    inline ::GlobalNamespace::IGamePause* i_IGamePause() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
+    }
     // Get instance field reference: private System.Action didPauseEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent

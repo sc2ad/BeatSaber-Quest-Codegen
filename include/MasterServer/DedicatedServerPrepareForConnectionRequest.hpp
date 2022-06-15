@@ -98,6 +98,10 @@ namespace MasterServer {
     operator ::MasterServer::IDedicatedServerMasterServerServerToClientMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerServerToClientMessage*>(this);
     }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerServerToClientMessage
+    inline ::MasterServer::IDedicatedServerMasterServerServerToClientMessage* i_IDedicatedServerMasterServerServerToClientMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerServerToClientMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: public System.String id

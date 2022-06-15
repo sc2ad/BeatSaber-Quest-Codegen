@@ -107,6 +107,10 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocation
+    inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i_IResourceLocation() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
+    }
     // Get instance field reference: private System.String m_Name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Name();
     // Get instance field reference: private System.String m_Id

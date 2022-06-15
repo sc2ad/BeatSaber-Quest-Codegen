@@ -42,6 +42,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeServerToClientMessage
+    inline ::BGNet::Core::Messages::IHandshakeServerToClientMessage* i_IHandshakeServerToClientMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
+    }
     // static public PacketPool`1<BGNet.Core.Messages.ChangeCipherSpecRequest> get_pool()
     // Offset: 0x1545124
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ChangeCipherSpecRequest*>* get_pool();

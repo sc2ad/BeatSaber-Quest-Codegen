@@ -29,6 +29,10 @@ namespace UnityEngine::TextCore::LowLevel {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // static System.Int32 MaxValue(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0x2AC0B34
     static int MaxValue(int a, int b, int c);

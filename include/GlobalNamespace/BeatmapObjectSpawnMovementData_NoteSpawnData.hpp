@@ -64,6 +64,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly UnityEngine.Vector3 moveStartPos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_moveStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 moveEndPos

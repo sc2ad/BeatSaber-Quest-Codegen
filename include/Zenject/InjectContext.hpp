@@ -126,6 +126,10 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private Zenject.BindingId _bindingId
     [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn__bindingId();
     // Get instance field reference: private System.Type _objectType

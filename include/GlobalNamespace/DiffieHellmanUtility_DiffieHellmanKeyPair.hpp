@@ -67,6 +67,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IDiffieHellmanKeyPair() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(this);
     }
+    // Creating interface conversion operator: i_IDiffieHellmanKeyPair
+    inline ::GlobalNamespace::IDiffieHellmanKeyPair* i_IDiffieHellmanKeyPair() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(this);
+    }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement _dhBasicAgreement
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& dyn__dhBasicAgreement();
     // Get instance field reference: private readonly System.Byte[] _publicKey

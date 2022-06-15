@@ -58,9 +58,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector2Int>
     operator ::System::IEquatable_1<::UnityEngine::Vector2Int>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector2Int>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector2Int
+    inline ::System::IEquatable_1<::UnityEngine::Vector2Int>* i_Vector2Int() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector2Int>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Vector2Int s_Zero
     static ::UnityEngine::Vector2Int _get_s_Zero();

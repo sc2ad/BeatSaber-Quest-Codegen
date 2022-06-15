@@ -86,6 +86,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerableTestMethodCommand
+    inline ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* i_IEnumerableTestMethodCommand() noexcept {
+      return reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
+    }
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache
     static ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Nullable_1<bool>>* _get_s_AttributeCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache

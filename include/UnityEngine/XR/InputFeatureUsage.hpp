@@ -53,9 +53,17 @@ namespace UnityEngine::XR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>
     operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*>(this);
+    }
+    // Creating interface conversion operator: i_InputFeatureUsage
+    inline ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>* i_InputFeatureUsage() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*>(this);
     }
     // Get instance field reference: System.String m_Name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Name();

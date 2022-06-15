@@ -52,9 +52,17 @@ namespace UnityEngine::Playables {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayableOutput
     operator ::UnityEngine::Playables::IPlayableOutput() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayableOutput*>(this);
+    }
+    // Creating interface conversion operator: i_IPlayableOutput
+    inline ::UnityEngine::Playables::IPlayableOutput* i_IPlayableOutput() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayableOutput*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Playables::PlayableOutputHandle
     constexpr operator ::UnityEngine::Playables::PlayableOutputHandle() const noexcept {

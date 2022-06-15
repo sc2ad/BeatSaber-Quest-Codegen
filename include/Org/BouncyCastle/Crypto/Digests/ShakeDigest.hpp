@@ -42,6 +42,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     operator ::Org::BouncyCastle::Crypto::IXof() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IXof*>(this);
     }
+    // Creating interface conversion operator: i_IXof
+    inline ::Org::BouncyCastle::Crypto::IXof* i_IXof() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IXof*>(this);
+    }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.ShakeDigest source)
     // Offset: 0x1E41E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

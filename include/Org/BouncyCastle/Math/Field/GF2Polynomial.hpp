@@ -41,6 +41,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IPolynomial() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(this);
     }
+    // Creating interface conversion operator: i_IPolynomial
+    inline ::Org::BouncyCastle::Math::Field::IPolynomial* i_IPolynomial() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<int>
     constexpr operator ::ArrayW<int>() const noexcept {
       return exponents;

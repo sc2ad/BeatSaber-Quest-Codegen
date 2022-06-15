@@ -119,6 +119,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -307,6 +311,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IBeatmapObjectController
     operator ::GlobalNamespace::IBeatmapObjectController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
+    }
+    // Creating interface conversion operator: i_IBeatmapObjectController
+    inline ::GlobalNamespace::IBeatmapObjectController* i_IBeatmapObjectController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
     }
     // static field const value: static private System.Single kSaberAttractPointNormalizedPosition
     static constexpr const float kSaberAttractPointNormalizedPosition = 0.7;

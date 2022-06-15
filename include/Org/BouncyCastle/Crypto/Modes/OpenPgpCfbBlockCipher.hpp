@@ -85,6 +85,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator ::Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IBlockCipher* i_IBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
+    }
     // Get instance field reference: private System.Byte[] IV
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] FR

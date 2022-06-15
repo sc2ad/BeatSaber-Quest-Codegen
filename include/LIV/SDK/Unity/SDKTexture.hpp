@@ -107,6 +107,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public LIV.SDK.Unity.TEXTURE_ID id
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::TEXTURE_ID& dyn_id();
     // Get instance field reference: public System.IntPtr texturePtr

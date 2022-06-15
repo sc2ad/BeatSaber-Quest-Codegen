@@ -275,6 +275,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapObjectController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapObjectController
+    inline ::GlobalNamespace::IBeatmapObjectController* i_IBeatmapObjectController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
+    }
     // static field const value: static public System.Single kAvoidMarkTimeOffset
     static constexpr const float kAvoidMarkTimeOffset = 0.15;
     // Get static field: static public System.Single kAvoidMarkTimeOffset

@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPreviewBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IPreviewBeatmapLevel
+    inline ::GlobalNamespace::IPreviewBeatmapLevel* i_IPreviewBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
+    }
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

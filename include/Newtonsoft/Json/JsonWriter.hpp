@@ -113,6 +113,10 @@ namespace Newtonsoft::Json {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -260,6 +264,10 @@ namespace Newtonsoft::Json {
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
+    }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get static field: static private readonly Newtonsoft.Json.JsonWriter/Newtonsoft.Json.State[][] StateArray
     static ::ArrayW<::ArrayW<::Newtonsoft::Json::JsonWriter::State>> _get_StateArray();

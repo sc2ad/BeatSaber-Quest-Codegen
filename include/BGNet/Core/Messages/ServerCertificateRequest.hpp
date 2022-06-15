@@ -77,6 +77,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeServerToClientMessage
+    inline ::BGNet::Core::Messages::IHandshakeServerToClientMessage* i_IHandshakeServerToClientMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
+    }
     // Get instance field reference: private readonly ByteArrayNetSerializable[] _certificateList
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
     // Get instance field reference: private System.Int32 _certificateCount

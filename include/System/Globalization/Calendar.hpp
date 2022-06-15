@@ -70,6 +70,10 @@ namespace System::Globalization {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // static field const value: static System.Int64 TicksPerMillisecond
     static constexpr const int64_t TicksPerMillisecond = 10000;
     // Get static field: static System.Int64 TicksPerMillisecond

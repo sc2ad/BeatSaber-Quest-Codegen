@@ -180,6 +180,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels::_LoadRenderModel_Async*& dyn_LoadRenderModel_Async();
     // Get instance field reference: Valve.VR.IVRRenderModels/Valve.VR._FreeRenderModel FreeRenderModel

@@ -34,6 +34,10 @@ namespace UnityEngine::EventSystems {
     operator ::UnityEngine::EventSystems::IEventSystemHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
     }
+    // Creating interface conversion operator: i_IEventSystemHandler
+    inline ::UnityEngine::EventSystems::IEventSystemHandler* i_IEventSystemHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(this);
+    }
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);

@@ -70,6 +70,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable_1<::GlobalNamespace::ScoringElement*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoringElement*>*>(this);
     }
+    // Creating interface conversion operator: i_ScoringElement
+    inline ::System::IComparable_1<::GlobalNamespace::ScoringElement*>* i_ScoringElement() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoringElement*>*>(this);
+    }
     // Get instance field reference: private NoteData <noteData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData*& dyn_$noteData$k__BackingField();
     // Get instance field reference: private System.Int32 <multiplier>k__BackingField

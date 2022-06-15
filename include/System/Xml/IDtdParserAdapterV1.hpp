@@ -28,6 +28,10 @@ namespace System::Xml {
     operator ::System::Xml::IDtdParserAdapterWithValidation() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdParserAdapterWithValidation*>(this);
     }
+    // Creating interface conversion operator: i_IDtdParserAdapterWithValidation
+    inline ::System::Xml::IDtdParserAdapterWithValidation* i_IDtdParserAdapterWithValidation() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdParserAdapterWithValidation*>(this);
+    }
     // public System.Boolean get_V1CompatibilityMode()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_V1CompatibilityMode();

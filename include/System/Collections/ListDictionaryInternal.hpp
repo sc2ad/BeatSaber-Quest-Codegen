@@ -80,6 +80,10 @@ namespace System::Collections {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // Get instance field reference: private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode head
     [[deprecated("Use field access instead!")]] ::System::Collections::ListDictionaryInternal::DictionaryNode*& dyn_head();
     // Get instance field reference: private System.Int32 version

@@ -44,6 +44,10 @@ namespace System::Xml::Schema {
     operator ::System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNamespaceResolver
+    inline ::System::Xml::IXmlNamespaceResolver* i_IXmlNamespaceResolver() noexcept {
+      return reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
+    }
     // Get instance field reference: public System.String prefix
     [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
     // Get instance field reference: public System.String ns

@@ -98,9 +98,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::Decimal>
     operator ::System::IComparable_1<::System::Decimal>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::System::Decimal>*>(this);
+    }
+    // Creating interface conversion operator: i_Decimal
+    inline ::System::IComparable_1<::System::Decimal>* i_Decimal() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::System::Decimal>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::Decimal>
     operator ::System::IEquatable_1<::System::Decimal>() noexcept {
@@ -110,17 +118,33 @@ namespace System {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IConvertible
     operator ::System::IConvertible() noexcept {
       return *reinterpret_cast<::System::IConvertible*>(this);
+    }
+    // Creating interface conversion operator: i_IConvertible
+    inline ::System::IConvertible* i_IConvertible() noexcept {
+      return reinterpret_cast<::System::IConvertible*>(this);
     }
     // Creating interface conversion operator: operator ::System::IFormattable
     operator ::System::IFormattable() noexcept {
       return *reinterpret_cast<::System::IFormattable*>(this);
     }
+    // Creating interface conversion operator: i_IFormattable
+    inline ::System::IFormattable* i_IFormattable() noexcept {
+      return reinterpret_cast<::System::IFormattable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // static field const value: static private System.Int32 SignMask
     static constexpr const int SignMask = -2147483648;

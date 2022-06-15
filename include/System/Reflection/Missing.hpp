@@ -42,6 +42,10 @@ namespace System::Reflection {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Get static field: static public readonly System.Reflection.Missing Value
     static ::System::Reflection::Missing* _get_Value();
     // Set static field: static public readonly System.Reflection.Missing Value

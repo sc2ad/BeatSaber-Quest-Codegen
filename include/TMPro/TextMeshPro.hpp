@@ -175,6 +175,10 @@ namespace TMPro {
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
     // Get instance field reference: private System.Boolean m_hasFontAssetChanged
     [[deprecated("Use field access instead!")]] bool& dyn_m_hasFontAssetChanged();
     // Get instance field reference: private System.Single m_previousLossyScaleY

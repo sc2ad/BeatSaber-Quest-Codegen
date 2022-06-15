@@ -35,9 +35,17 @@ namespace System::Security::Cryptography {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::INotifyCompletion
     operator ::System::Runtime::CompilerServices::INotifyCompletion() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(this);
+    }
+    // Creating interface conversion operator: i_INotifyCompletion
+    inline ::System::Runtime::CompilerServices::INotifyCompletion* i_INotifyCompletion() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
     // public System.Boolean get_IsCompleted()
     // Offset: 0x1BA84F0

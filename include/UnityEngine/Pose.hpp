@@ -51,9 +51,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Pose>
     operator ::System::IEquatable_1<::UnityEngine::Pose>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Pose>*>(this);
+    }
+    // Creating interface conversion operator: i_Pose
+    inline ::System::IEquatable_1<::UnityEngine::Pose>* i_Pose() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Pose>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Pose k_Identity
     static ::UnityEngine::Pose _get_k_Identity();

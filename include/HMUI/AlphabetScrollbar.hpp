@@ -150,17 +150,33 @@ namespace HMUI {
     operator ::UnityEngine::EventSystems::IPointerDownHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerDownHandler
+    inline ::UnityEngine::EventSystems::IPointerDownHandler* i_IPointerDownHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerUpHandler
     operator ::UnityEngine::EventSystems::IPointerUpHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerUpHandler
+    inline ::UnityEngine::EventSystems::IPointerUpHandler* i_IPointerUpHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerEnterHandler
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Get instance field reference: private HMUI.TableView _tableView
     [[deprecated("Use field access instead!")]] ::HMUI::TableView*& dyn__tableView();

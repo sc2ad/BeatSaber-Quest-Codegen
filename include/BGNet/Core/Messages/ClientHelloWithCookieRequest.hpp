@@ -72,6 +72,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeClientToServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeClientToServerMessage
+    inline ::BGNet::Core::Messages::IHandshakeClientToServerMessage* i_IHandshakeClientToServerMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeClientToServerMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: public System.UInt32 certificateResponseId

@@ -55,6 +55,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
+    // Creating interface conversion operator: i_IPreCompCallback
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i_IPreCompCallback() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
+    }
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECCurve*& dyn_m_curve();
     // Get instance field reference: private readonly System.Int32 m_confWidth

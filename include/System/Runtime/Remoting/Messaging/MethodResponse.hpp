@@ -174,13 +174,25 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage
     operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMethodReturnMessage
+    inline ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i_IMethodReturnMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Remoting::Messaging::IInternalMessage
     operator ::System::Runtime::Remoting::Messaging::IInternalMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IInternalMessage
+    inline ::System::Runtime::Remoting::Messaging::IInternalMessage* i_IInternalMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
     // Get instance field reference: private System.String _methodName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__methodName();

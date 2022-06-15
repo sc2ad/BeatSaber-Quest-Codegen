@@ -63,6 +63,10 @@ namespace LiteNetLib {
     operator ::LiteNetLib::INatPunchListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INatPunchListener*>(this);
     }
+    // Creating interface conversion operator: i_INatPunchListener
+    inline ::LiteNetLib::INatPunchListener* i_INatPunchListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INatPunchListener*>(this);
+    }
     // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
     [[deprecated("Use field access instead!")]] ::LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*& dyn_NatIntroductionRequest();
     // Get instance field reference: private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionSuccess NatIntroductionSuccess

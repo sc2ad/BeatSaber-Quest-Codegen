@@ -100,6 +100,10 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Net.Http.Headers.HttpRequestHeaders headers
     [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpRequestHeaders*& dyn_headers();
     // Get instance field reference: private System.Net.Http.HttpMethod method

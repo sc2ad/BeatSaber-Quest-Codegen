@@ -96,6 +96,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
+    // Creating interface conversion operator: i_WingedEdge
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>* i_WingedEdge() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>*>(this);
+    }
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.WingedEdge> k_OppositeEdgeDictionary
     static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* _get_k_OppositeEdgeDictionary();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.WingedEdge> k_OppositeEdgeDictionary

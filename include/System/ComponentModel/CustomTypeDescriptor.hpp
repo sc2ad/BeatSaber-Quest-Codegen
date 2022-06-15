@@ -49,6 +49,10 @@ namespace System::ComponentModel {
     operator ::System::ComponentModel::ICustomTypeDescriptor() noexcept {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ICustomTypeDescriptor
+    inline ::System::ComponentModel::ICustomTypeDescriptor* i_ICustomTypeDescriptor() noexcept {
+      return reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
+    }
     // Creating conversion operator: operator ::System::ComponentModel::ICustomTypeDescriptor*
     constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() const noexcept {
       return parent;

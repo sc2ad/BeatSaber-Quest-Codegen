@@ -365,6 +365,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -438,6 +442,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get static field: static public readonly OVRPlugin/Vector3f zero
       static ::GlobalNamespace::OVRPlugin::Vector3f _get_zero();
       // Set static field: static public readonly OVRPlugin/Vector3f zero
@@ -499,6 +507,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get static field: static public readonly OVRPlugin/Quatf identity
       static ::GlobalNamespace::OVRPlugin::Quatf _get_identity();
       // Set static field: static public readonly OVRPlugin/Quatf identity
@@ -550,6 +562,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get static field: static public readonly OVRPlugin/Posef identity
       static ::GlobalNamespace::OVRPlugin::Posef _get_identity();
       // Set static field: static public readonly OVRPlugin/Posef identity
@@ -589,6 +605,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -632,6 +652,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -692,6 +716,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -897,6 +925,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -1205,6 +1237,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public OVRPlugin/HandStatus Status
       [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
       // Get instance field reference: public OVRPlugin/Posef RootPose
@@ -1334,6 +1370,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Int16 BoneIndex
       [[deprecated("Use field access instead!")]] int16_t& dyn_BoneIndex();
       // Get instance field reference: public OVRPlugin/Vector3f StartPoint
@@ -1381,6 +1421,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public OVRPlugin/BoneId Id
       [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
       // Get instance field reference: public System.Int16 ParentBoneIndex
@@ -1410,6 +1454,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -1485,6 +1533,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
       [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
@@ -1946,6 +1998,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
       [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();

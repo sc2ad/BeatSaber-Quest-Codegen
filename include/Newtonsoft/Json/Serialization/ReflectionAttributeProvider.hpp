@@ -41,6 +41,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::IAttributeProvider() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::IAttributeProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAttributeProvider
+    inline ::Newtonsoft::Json::Serialization::IAttributeProvider* i_IAttributeProvider() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::IAttributeProvider*>(this);
+    }
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return attributeProvider;

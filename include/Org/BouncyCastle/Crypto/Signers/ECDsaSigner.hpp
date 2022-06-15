@@ -85,6 +85,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Creating interface conversion operator: i_IDsaExt
+    inline ::Org::BouncyCastle::Crypto::IDsaExt* i_IDsaExt() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
+    }
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger Eight
     static ::Org::BouncyCastle::Math::BigInteger* _get_Eight();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Eight

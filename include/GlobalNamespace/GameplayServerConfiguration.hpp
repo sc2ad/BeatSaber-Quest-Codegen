@@ -100,9 +100,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>
     operator ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>*>(this);
+    }
+    // Creating interface conversion operator: i_GameplayServerConfiguration
+    inline ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i_GameplayServerConfiguration() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>*>(this);
     }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>() noexcept {

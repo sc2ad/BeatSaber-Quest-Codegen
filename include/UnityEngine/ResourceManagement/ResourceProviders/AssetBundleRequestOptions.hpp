@@ -117,6 +117,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);
     }
+    // Creating interface conversion operator: i_ILocationSizeData
+    inline ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData* i_ILocationSizeData() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);
+    }
     // Get instance field reference: private System.String m_Hash
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Hash();
     // Get instance field reference: private System.UInt32 m_Crc

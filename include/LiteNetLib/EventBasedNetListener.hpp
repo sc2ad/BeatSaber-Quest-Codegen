@@ -127,9 +127,17 @@ namespace LiteNetLib {
     operator ::LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
     }
+    // Creating interface conversion operator: i_INetEventListener
+    inline ::LiteNetLib::INetEventListener* i_INetEventListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::IDeliveryEventListener
     operator ::LiteNetLib::IDeliveryEventListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::IDeliveryEventListener*>(this);
+    }
+    // Creating interface conversion operator: i_IDeliveryEventListener
+    inline ::LiteNetLib::IDeliveryEventListener* i_IDeliveryEventListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::IDeliveryEventListener*>(this);
     }
     // Get instance field reference: private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected PeerConnectedEvent
     [[deprecated("Use field access instead!")]] ::LiteNetLib::EventBasedNetListener::OnPeerConnected*& dyn_PeerConnectedEvent();

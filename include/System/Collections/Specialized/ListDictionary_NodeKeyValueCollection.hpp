@@ -60,6 +60,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Get instance field reference: private System.Collections.Specialized.ListDictionary list
     [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::ListDictionary*& dyn_list();
     // Get instance field reference: private System.Boolean isKeys

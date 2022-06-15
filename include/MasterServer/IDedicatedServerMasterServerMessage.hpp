@@ -27,6 +27,10 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedMessage
+    inline ::BGNet::Core::Messages::IUnconnectedMessage* i_IUnconnectedMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMessage*>(this);
+    }
   }; // MasterServer.IDedicatedServerMasterServerMessage
   #pragma pack(pop)
 }

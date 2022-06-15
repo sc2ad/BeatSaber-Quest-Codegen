@@ -36,9 +36,17 @@ namespace System::Net {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IEqualityComparer
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
     // Get static field: static readonly System.Net.CaseInsensitiveAscii StaticInstance
     static ::System::Net::CaseInsensitiveAscii* _get_StaticInstance();

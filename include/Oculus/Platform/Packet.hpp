@@ -56,6 +56,10 @@ namespace Oculus::Platform {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.UInt64 size
     [[deprecated("Use field access instead!")]] uint64_t& dyn_size();
     // Get instance field reference: private readonly System.IntPtr packetHandle

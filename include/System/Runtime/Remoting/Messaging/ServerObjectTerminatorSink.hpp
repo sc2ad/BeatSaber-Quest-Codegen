@@ -49,6 +49,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Creating interface conversion operator: i_IMessageSink
+    inline ::System::Runtime::Remoting::Messaging::IMessageSink* i_IMessageSink() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::IMessageSink*
     constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return nextSink;

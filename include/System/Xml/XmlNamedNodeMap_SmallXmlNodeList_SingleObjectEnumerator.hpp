@@ -43,6 +43,10 @@ namespace System::Xml {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private System.Object loneValue
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_loneValue();
     // Get instance field reference: private System.Int32 position

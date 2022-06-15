@@ -126,6 +126,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IDifficultyBeatmap*>(this);
     }
+    // Creating interface conversion operator: i_IDifficultyBeatmap
+    inline ::GlobalNamespace::IDifficultyBeatmap* i_IDifficultyBeatmap() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IDifficultyBeatmap*>(this);
+    }
     // Get instance field reference: private readonly IBeatmapLevel <level>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevel*& dyn_$level$k__BackingField();
     // Get instance field reference: private readonly IDifficultyBeatmapSet <parentDifficultyBeatmapSet>k__BackingField

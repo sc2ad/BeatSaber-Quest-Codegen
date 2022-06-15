@@ -83,6 +83,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Guid parsedGuid
     [[deprecated("Use field access instead!")]] ::System::Guid& dyn_parsedGuid();
     // Get instance field reference: System.Guid/System.GuidParseThrowStyle throwStyle

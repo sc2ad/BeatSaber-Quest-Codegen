@@ -32,6 +32,10 @@ namespace System::Xml {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // private System.Object System.Collections.IEnumerator.get_Current()
     // Offset: 0x1ABD9D0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();

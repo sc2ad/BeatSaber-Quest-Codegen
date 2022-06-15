@@ -76,6 +76,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_PropertyInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_PropertyInfo*>(this);
     }
+    // Creating interface conversion operator: i__PropertyInfo
+    inline ::System::Runtime::InteropServices::_PropertyInfo* i__PropertyInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_PropertyInfo*>(this);
+    }
     // public System.Reflection.PropertyAttributes get_Attributes()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Reflection::PropertyAttributes get_Attributes();

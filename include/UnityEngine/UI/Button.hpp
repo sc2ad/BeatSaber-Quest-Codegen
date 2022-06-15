@@ -67,9 +67,17 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button::ButtonClickedEvent*& dyn_m_OnClick();

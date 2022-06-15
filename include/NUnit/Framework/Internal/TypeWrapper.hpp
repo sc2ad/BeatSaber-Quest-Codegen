@@ -69,6 +69,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITypeInfo() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITypeInfo*>(this);
     }
+    // Creating interface conversion operator: i_ITypeInfo
+    inline ::NUnit::Framework::Interfaces::ITypeInfo* i_ITypeInfo() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITypeInfo*>(this);
+    }
     // Creating conversion operator: operator ::System::Type*
     constexpr operator ::System::Type*() const noexcept {
       return Type;

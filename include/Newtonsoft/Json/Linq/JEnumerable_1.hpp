@@ -68,9 +68,17 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::Newtonsoft::Json::Linq::IJEnumerable_1<T>
     operator ::Newtonsoft::Json::Linq::IJEnumerable_1<T>() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<T>*>(this);
+    }
+    // Creating interface conversion operator: i_IJEnumerable_1_T
+    inline ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* i_IJEnumerable_1_T() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<T>*>(this);
     }
     // Creating conversion operator: operator ::System::Collections::Generic::IEnumerable_1<T>*
     constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() const noexcept {

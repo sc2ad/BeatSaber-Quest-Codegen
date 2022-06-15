@@ -66,6 +66,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPosesSerializer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPosesSerializer*>(this);
     }
+    // Creating interface conversion operator: i_IPosesSerializer
+    inline ::GlobalNamespace::IPosesSerializer* i_IPosesSerializer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPosesSerializer*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::IBeatSaberLogger*
     constexpr operator ::GlobalNamespace::IBeatSaberLogger*() const noexcept {
       return logger;

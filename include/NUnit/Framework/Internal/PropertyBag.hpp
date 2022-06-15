@@ -63,6 +63,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::IPropertyBag() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IPropertyBag*>(this);
     }
+    // Creating interface conversion operator: i_IPropertyBag
+    inline ::NUnit::Framework::Interfaces::IPropertyBag* i_IPropertyBag() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IPropertyBag*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::IList*>*
     constexpr operator ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::IList*>*() const noexcept {
       return inner;

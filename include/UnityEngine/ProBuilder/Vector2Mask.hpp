@@ -49,6 +49,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator uint8_t
     constexpr operator uint8_t() const noexcept {
       return m_Mask;

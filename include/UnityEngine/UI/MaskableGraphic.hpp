@@ -130,13 +130,25 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::IMaterialModifier() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IMaterialModifier*>(this);
     }
+    // Creating interface conversion operator: i_IMaterialModifier
+    inline ::UnityEngine::UI::IMaterialModifier* i_IMaterialModifier() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IMaterialModifier*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::IClippable
     operator ::UnityEngine::UI::IClippable() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IClippable*>(this);
     }
+    // Creating interface conversion operator: i_IClippable
+    inline ::UnityEngine::UI::IClippable* i_IClippable() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IClippable*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::IMaskable
     operator ::UnityEngine::UI::IMaskable() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IMaskable*>(this);
+    }
+    // Creating interface conversion operator: i_IMaskable
+    inline ::UnityEngine::UI::IMaskable* i_IMaskable() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IMaskable*>(this);
     }
     // Get instance field reference: protected System.Boolean m_ShouldRecalculateStencil
     [[deprecated("Use field access instead!")]] bool& dyn_m_ShouldRecalculateStencil();

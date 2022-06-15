@@ -67,6 +67,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
     // Get static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements
     static ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> _get_EmptyElements();
     // Set static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements

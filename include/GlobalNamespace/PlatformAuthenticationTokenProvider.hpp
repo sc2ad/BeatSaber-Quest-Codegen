@@ -82,6 +82,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAuthenticationTokenProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationTokenProvider
+    inline ::GlobalNamespace::IAuthenticationTokenProvider* i_IAuthenticationTokenProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(this);
+    }
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private readonly System.String _userId

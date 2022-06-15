@@ -48,6 +48,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::IValueProvider() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(this);
     }
+    // Creating interface conversion operator: i_IValueProvider
+    inline ::Newtonsoft::Json::Serialization::IValueProvider* i_IValueProvider() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(this);
+    }
     // Creating conversion operator: operator ::System::Reflection::MemberInfo*
     constexpr operator ::System::Reflection::MemberInfo*() const noexcept {
       return memberInfo;

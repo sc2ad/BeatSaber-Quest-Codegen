@@ -65,9 +65,17 @@ namespace UnityEngine::TextCore::LowLevel {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>
     operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*>(this);
+    }
+    // Creating interface conversion operator: i_GlyphValueRecord
+    inline ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>* i_GlyphValueRecord() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*>(this);
     }
     // Get instance field reference: private System.Single m_XPlacement
     [[deprecated("Use field access instead!")]] float& dyn_m_XPlacement();

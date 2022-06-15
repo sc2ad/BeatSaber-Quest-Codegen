@@ -85,6 +85,10 @@ namespace System::Net::Sockets {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Net.Sockets.Socket m_ClientSocket
     [[deprecated("Use field access instead!")]] ::System::Net::Sockets::Socket*& dyn_m_ClientSocket();
     // Get instance field reference: private System.Boolean m_Active

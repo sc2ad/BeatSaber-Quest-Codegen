@@ -106,6 +106,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerSpectatingSpot() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerSpectatingSpot
+    inline ::GlobalNamespace::IMultiplayerSpectatingSpot* i_IMultiplayerSpectatingSpot() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer

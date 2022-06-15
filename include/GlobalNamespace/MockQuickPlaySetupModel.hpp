@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
     }
+    // Creating interface conversion operator: i_IQuickPlaySetupModel
+    inline ::GlobalNamespace::IQuickPlaySetupModel* i_IQuickPlaySetupModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::QuickPlaySetupData*
     constexpr operator ::GlobalNamespace::QuickPlaySetupData*() const noexcept {
       return quickPlaySetupData;

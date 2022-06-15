@@ -151,6 +151,10 @@ namespace UnityEngine::Timeline {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> trackList
       [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>*& dyn_trackList();
       // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Timeline.TimelineClip> clipList
@@ -275,13 +279,25 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::IPropertyPreview() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::IPropertyPreview*>(this);
     }
+    // Creating interface conversion operator: i_IPropertyPreview
+    inline ::UnityEngine::Timeline::IPropertyPreview* i_IPropertyPreview() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::IPropertyPreview*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ISerializationCallbackReceiver
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Timeline::ICurvesOwner
     operator ::UnityEngine::Timeline::ICurvesOwner() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ICurvesOwner*>(this);
+    }
+    // Creating interface conversion operator: i_ICurvesOwner
+    inline ::UnityEngine::Timeline::ICurvesOwner* i_ICurvesOwner() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ICurvesOwner*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

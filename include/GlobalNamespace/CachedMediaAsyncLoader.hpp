@@ -77,6 +77,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISpriteAsyncLoader() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISpriteAsyncLoader*>(this);
     }
+    // Creating interface conversion operator: i_ISpriteAsyncLoader
+    inline ::GlobalNamespace::ISpriteAsyncLoader* i_ISpriteAsyncLoader() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISpriteAsyncLoader*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _maxNumberOfSpriteCachedElements

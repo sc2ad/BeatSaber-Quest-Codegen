@@ -97,6 +97,10 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAsymmetricBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i_IAsymmetricBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
+    }
     // Get static field: static private readonly System.Boolean[] strictLengthEnabled
     static ::ArrayW<bool> _get_strictLengthEnabled();
     // Set static field: static private readonly System.Boolean[] strictLengthEnabled

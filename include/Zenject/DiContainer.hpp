@@ -366,6 +366,10 @@ namespace Zenject {
     operator ::Zenject::IInstantiator() noexcept {
       return *reinterpret_cast<::Zenject::IInstantiator*>(this);
     }
+    // Creating interface conversion operator: i_IInstantiator
+    inline ::Zenject::IInstantiator* i_IInstantiator() noexcept {
+      return reinterpret_cast<::Zenject::IInstantiator*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*& dyn__decorators();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers

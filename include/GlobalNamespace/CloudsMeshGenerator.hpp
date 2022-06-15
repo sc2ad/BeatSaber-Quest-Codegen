@@ -121,6 +121,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.Mesh precisionOpaqueMesh
       [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_precisionOpaqueMesh();
       // Get instance field reference: public UnityEngine.Mesh lowPolyMesh
@@ -188,6 +192,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Single radius
       [[deprecated("Use field access instead!")]] float& dyn_radius();
       // Get instance field reference: public System.Single normalizedRadius
@@ -237,6 +245,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.Transform transform
       [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
       // Get instance field reference: public System.Single distance
@@ -285,6 +297,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Single normalizedStart
       [[deprecated("Use field access instead!")]] float& dyn_normalizedStart();

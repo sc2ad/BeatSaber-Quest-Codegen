@@ -74,6 +74,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_GeneratedOutput
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* i_HEU_GeneratedOutput() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*>(this);
+    }
     // Get instance field reference: public HoudiniEngineUnity.HEU_GeneratedOutputData _outputData
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_GeneratedOutputData*& dyn__outputData();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeneratedOutputData> _childOutputs

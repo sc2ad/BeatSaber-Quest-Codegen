@@ -70,9 +70,17 @@ namespace System::Runtime::CompilerServices {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
       operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() noexcept {
         return *reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
+      }
+      // Creating interface conversion operator: i_ICriticalNotifyCompletion
+      inline ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i_ICriticalNotifyCompletion() noexcept {
+        return reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
       // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
       [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_task();
@@ -110,6 +118,10 @@ namespace System::Runtime::CompilerServices {
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
+    }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
     }
     // Creating conversion operator: operator ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
     constexpr operator ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter() const noexcept {

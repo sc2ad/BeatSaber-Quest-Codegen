@@ -78,6 +78,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAsymmetricBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i_IAsymmetricBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random

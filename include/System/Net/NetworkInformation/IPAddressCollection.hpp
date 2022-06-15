@@ -66,6 +66,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>*>(this);
     }
+    // Creating interface conversion operator: i_IPAddress
+    inline ::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>* i_IPAddress() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::IPAddress*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*
     constexpr operator ::System::Collections::ObjectModel::Collection_1<::System::Net::IPAddress*>*() const noexcept {
       return addresses;

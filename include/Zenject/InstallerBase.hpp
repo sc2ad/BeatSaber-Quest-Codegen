@@ -50,6 +50,10 @@ namespace Zenject {
     operator ::Zenject::IInstaller() noexcept {
       return *reinterpret_cast<::Zenject::IInstaller*>(this);
     }
+    // Creating interface conversion operator: i_IInstaller
+    inline ::Zenject::IInstaller* i_IInstaller() noexcept {
+      return reinterpret_cast<::Zenject::IInstaller*>(this);
+    }
     // Creating conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept {
       return container;

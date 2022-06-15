@@ -73,6 +73,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ILogger() noexcept {
       return *reinterpret_cast<::UnityEngine::ILogger*>(this);
     }
+    // Creating interface conversion operator: i_ILogger
+    inline ::UnityEngine::ILogger* i_ILogger() noexcept {
+      return reinterpret_cast<::UnityEngine::ILogger*>(this);
+    }
     // Get instance field reference: private UnityEngine.ILogHandler <logHandler>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::ILogHandler*& dyn_$logHandler$k__BackingField();
     // Get instance field reference: private System.Boolean <logEnabled>k__BackingField

@@ -56,9 +56,17 @@ namespace System {
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppChar
+    inline ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>* i_Il2CppChar() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ICloneable
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
+    }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String str
     [[deprecated("Use field access instead!")]] ::StringW& dyn_str();

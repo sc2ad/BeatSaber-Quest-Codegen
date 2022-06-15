@@ -39,6 +39,10 @@ namespace Org::BouncyCastle::Math::EC {
     operator ::Org::BouncyCastle::Math::EC::ECLookupTable() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::ECLookupTable*>(this);
     }
+    // Creating interface conversion operator: i_ECLookupTable
+    inline ::Org::BouncyCastle::Math::EC::ECLookupTable* i_ECLookupTable() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::ECLookupTable*>(this);
+    }
     // public System.Int32 get_Size()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Size();

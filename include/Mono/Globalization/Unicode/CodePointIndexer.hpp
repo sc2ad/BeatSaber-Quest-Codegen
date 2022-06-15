@@ -76,6 +76,10 @@ namespace Mono::Globalization::Unicode {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly System.Int32 Start
       [[deprecated("Use field access instead!")]] int& dyn_Start();
       // Get instance field reference: public readonly System.Int32 End

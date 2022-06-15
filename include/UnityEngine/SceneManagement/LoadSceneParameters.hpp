@@ -48,6 +48,10 @@ namespace UnityEngine::SceneManagement {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
     [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::LoadSceneMode& dyn_m_LoadSceneMode();
     // Get instance field reference: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode

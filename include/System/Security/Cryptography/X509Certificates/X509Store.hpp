@@ -89,6 +89,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation _location

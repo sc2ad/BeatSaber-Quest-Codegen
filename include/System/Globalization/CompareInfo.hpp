@@ -106,6 +106,10 @@ namespace System::Globalization {
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
     // static field const value: static private System.Globalization.CompareOptions ValidIndexMaskOffFlags
     static constexpr const int ValidIndexMaskOffFlags = -32;
     // Get static field: static private System.Globalization.CompareOptions ValidIndexMaskOffFlags

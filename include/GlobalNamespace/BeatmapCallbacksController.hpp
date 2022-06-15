@@ -107,6 +107,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> _callbacksInTimes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>*& dyn__callbacksInTimes();
     // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData

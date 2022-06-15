@@ -135,6 +135,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);
     }
+    // Creating interface conversion operator: i_IAssetBundleResource
+    inline ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* i_IAssetBundleResource() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);
+    }
     // Get instance field reference: private UnityEngine.AssetBundle m_AssetBundle
     [[deprecated("Use field access instead!")]] ::UnityEngine::AssetBundle*& dyn_m_AssetBundle();
     // Get instance field reference: private UnityEngine.Networking.DownloadHandlerAssetBundle m_downloadHandler

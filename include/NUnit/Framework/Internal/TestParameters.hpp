@@ -89,9 +89,17 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::IApplyToTest() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IApplyToTest*>(this);
     }
+    // Creating interface conversion operator: i_IApplyToTest
+    inline ::NUnit::Framework::Interfaces::IApplyToTest* i_IApplyToTest() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IApplyToTest*>(this);
+    }
     // Creating interface conversion operator: operator ::NUnit::Framework::Interfaces::ITestData
     operator ::NUnit::Framework::Interfaces::ITestData() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestData*>(this);
+    }
+    // Creating interface conversion operator: i_ITestData
+    inline ::NUnit::Framework::Interfaces::ITestData* i_ITestData() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestData*>(this);
     }
     // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();

@@ -141,13 +141,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerLevelEndActionsPublisher
+    inline ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i_IMultiplayerLevelEndActionsPublisher() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IMultiplayerLevelEndActionsListener
     operator ::GlobalNamespace::IMultiplayerLevelEndActionsListener() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsListener*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerLevelEndActionsListener
+    inline ::GlobalNamespace::IMultiplayerLevelEndActionsListener* i_IMultiplayerLevelEndActionsListener() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsListener*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IStartSeekSongControllerProvider
     operator ::GlobalNamespace::IStartSeekSongControllerProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IStartSeekSongControllerProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IStartSeekSongControllerProvider
+    inline ::GlobalNamespace::IStartSeekSongControllerProvider* i_IStartSeekSongControllerProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IStartSeekSongControllerProvider*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

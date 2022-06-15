@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::GameplayServerFiniteStateMachine*
     constexpr operator ::GlobalNamespace::GameplayServerFiniteStateMachine*() const noexcept {
       return fsm;

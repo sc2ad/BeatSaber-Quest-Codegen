@@ -80,9 +80,17 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator ::System::Collections::Generic::IEnumerable_1<bool>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<bool>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_bool
+    inline ::System::Collections::Generic::IEnumerable_1<bool>* i_IEnumerable_1_bool() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<bool>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<bool>
     operator ::System::Collections::Generic::IEnumerator_1<bool>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<bool>*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerator_1_bool
+    inline ::System::Collections::Generic::IEnumerator_1<bool>* i_IEnumerator_1_bool() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<bool>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();

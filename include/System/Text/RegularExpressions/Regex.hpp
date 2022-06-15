@@ -156,6 +156,10 @@ namespace System::Text::RegularExpressions {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Get static field: static private readonly System.TimeSpan MaximumMatchTimeout
     static ::System::TimeSpan _get_MaximumMatchTimeout();
     // Set static field: static private readonly System.TimeSpan MaximumMatchTimeout

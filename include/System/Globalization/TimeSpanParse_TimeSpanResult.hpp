@@ -79,6 +79,10 @@ namespace System::Globalization {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.TimeSpan parsedTimeSpan
     [[deprecated("Use field access instead!")]] ::System::TimeSpan& dyn_parsedTimeSpan();
     // Get instance field reference: System.Globalization.TimeSpanParse/System.Globalization.TimeSpanThrowStyle throwStyle

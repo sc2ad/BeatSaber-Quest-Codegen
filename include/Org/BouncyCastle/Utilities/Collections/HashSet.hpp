@@ -54,6 +54,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::Org::BouncyCastle::Utilities::Collections::ISet() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(this);
     }
+    // Creating interface conversion operator: i_ISet
+    inline ::Org::BouncyCastle::Utilities::Collections::ISet* i_ISet() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IDictionary*
     constexpr operator ::System::Collections::IDictionary*() const noexcept {
       return impl;

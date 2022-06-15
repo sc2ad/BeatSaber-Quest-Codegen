@@ -131,6 +131,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IVRPlatformHelper*>(this);
     }
+    // Creating interface conversion operator: i_IVRPlatformHelper
+    inline ::GlobalNamespace::IVRPlatformHelper* i_IVRPlatformHelper() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IVRPlatformHelper*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action inputFocusWasCapturedEvent

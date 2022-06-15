@@ -66,6 +66,10 @@ namespace ModestTree::Util {
     operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>*>(this);
     }
+    // Creating interface conversion operator: i_Scene
+    inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* i_Scene() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>*>(this);

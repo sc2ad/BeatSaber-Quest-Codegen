@@ -72,9 +72,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Quaternion>
     operator ::System::IEquatable_1<::UnityEngine::Quaternion>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Quaternion>*>(this);
+    }
+    // Creating interface conversion operator: i_Quaternion
+    inline ::System::IEquatable_1<::UnityEngine::Quaternion>* i_Quaternion() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Quaternion>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Quaternion identityQuaternion
     static ::UnityEngine::Quaternion _get_identityQuaternion();

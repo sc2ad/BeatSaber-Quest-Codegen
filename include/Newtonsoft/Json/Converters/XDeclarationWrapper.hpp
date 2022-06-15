@@ -55,6 +55,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
     }
+    // Creating interface conversion operator: i_IXmlDeclaration
+    inline ::Newtonsoft::Json::Converters::IXmlDeclaration* i_IXmlDeclaration() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
+    }
     // Deleting conversion operator: operator ::System::Xml::Linq::XObject*
     constexpr operator ::System::Xml::Linq::XObject*() const noexcept = delete;
     // Get instance field reference: private System.Xml.Linq.XDeclaration <Declaration>k__BackingField

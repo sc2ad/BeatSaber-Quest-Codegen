@@ -140,13 +140,25 @@ namespace Newtonsoft::Json::Linq {
     operator ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* i_JToken() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
+    }
     // Creating interface conversion operator: operator ::Newtonsoft::Json::IJsonLineInfo
     operator ::Newtonsoft::Json::IJsonLineInfo() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
+    // Creating interface conversion operator: i_IJsonLineInfo
+    inline ::Newtonsoft::Json::IJsonLineInfo* i_IJsonLineInfo() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ICloneable
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
+    }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get static field: static private readonly Newtonsoft.Json.Linq.JTokenType[] BooleanTypes
     static ::ArrayW<::Newtonsoft::Json::Linq::JTokenType> _get_BooleanTypes();

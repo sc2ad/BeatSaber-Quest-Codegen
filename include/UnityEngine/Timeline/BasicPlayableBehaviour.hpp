@@ -61,9 +61,17 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Playables::IPlayableAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayableAsset*>(this);
     }
+    // Creating interface conversion operator: i_IPlayableAsset
+    inline ::UnityEngine::Playables::IPlayableAsset* i_IPlayableAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayableAsset*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayableBehaviour
     operator ::UnityEngine::Playables::IPlayableBehaviour() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayableBehaviour*>(this);
+    }
+    // Creating interface conversion operator: i_IPlayableBehaviour
+    inline ::UnityEngine::Playables::IPlayableBehaviour* i_IPlayableBehaviour() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayableBehaviour*>(this);
     }
     // public System.Double get_duration()
     // Offset: 0x1DA7498

@@ -76,6 +76,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
+    // Creating interface conversion operator: i_IStreamCipher
+    inline ::Org::BouncyCastle::Crypto::IStreamCipher* i_IStreamCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
+    }
     // Get instance field reference: protected System.Byte n
     [[deprecated("Use field access instead!")]] uint8_t& dyn_n();
     // Get instance field reference: protected System.Byte[] P

@@ -84,6 +84,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerStatusModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerStatusModel*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerStatusModel
+    inline ::GlobalNamespace::IMultiplayerStatusModel* i_IMultiplayerStatusModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerStatusModel*>(this);
+    }
     // static field const value: static private System.Int32 kRequestTimeoutSeconds
     static constexpr const int kRequestTimeoutSeconds = 60;
     // Get static field: static private System.Int32 kRequestTimeoutSeconds

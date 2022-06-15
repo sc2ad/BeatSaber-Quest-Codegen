@@ -62,6 +62,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(this);
     }
+    // Creating interface conversion operator: i_ISceneProvider
+    inline ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* i_ISceneProvider() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1EE3C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

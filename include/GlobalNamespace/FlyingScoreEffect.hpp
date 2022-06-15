@@ -108,9 +108,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ICutScoreBufferDidChangeReceiver
+    inline ::GlobalNamespace::ICutScoreBufferDidChangeReceiver* i_ICutScoreBufferDidChangeReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver
     operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_ICutScoreBufferDidFinishReceiver
+    inline ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i_ICutScoreBufferDidFinishReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(this);
     }
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve
     [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__fadeAnimationCurve();

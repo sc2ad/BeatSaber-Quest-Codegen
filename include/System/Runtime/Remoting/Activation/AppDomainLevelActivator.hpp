@@ -56,6 +56,10 @@ namespace System::Runtime::Remoting::Activation {
     operator ::System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Activation::IActivator*>(this);
     }
+    // Creating interface conversion operator: i_IActivator
+    inline ::System::Runtime::Remoting::Activation::IActivator* i_IActivator() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Activation::IActivator*>(this);
+    }
     // Get instance field reference: private System.String _activationUrl
     [[deprecated("Use field access instead!")]] ::StringW& dyn__activationUrl();
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _next

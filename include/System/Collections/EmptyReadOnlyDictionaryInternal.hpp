@@ -50,6 +50,10 @@ namespace System::Collections {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // public System.Int32 get_Count()
     // Offset: 0x1EBE6E4
     int get_Count();

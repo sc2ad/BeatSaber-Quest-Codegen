@@ -70,6 +70,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
     }
+    // Creating interface conversion operator: i_IConnectedPlayer
+    inline ::GlobalNamespace::IConnectedPlayer* i_IConnectedPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
+    }
     // Get instance field reference: private System.String <userId>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField

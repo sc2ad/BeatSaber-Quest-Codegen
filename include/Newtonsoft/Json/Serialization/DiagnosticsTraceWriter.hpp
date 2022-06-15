@@ -56,6 +56,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::ITraceWriter() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
     }
+    // Creating interface conversion operator: i_ITraceWriter
+    inline ::Newtonsoft::Json::Serialization::ITraceWriter* i_ITraceWriter() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
+    }
     // Creating conversion operator: operator ::System::Diagnostics::TraceLevel
     constexpr operator ::System::Diagnostics::TraceLevel() const noexcept {
       return LevelFilter;

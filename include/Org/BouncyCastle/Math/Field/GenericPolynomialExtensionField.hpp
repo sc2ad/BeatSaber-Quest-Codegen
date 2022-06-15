@@ -59,6 +59,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
     }
+    // Creating interface conversion operator: i_IPolynomialExtensionField
+    inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* i_IPolynomialExtensionField() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);
+    }
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.Field.IFiniteField subfield
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::Field::IFiniteField*& dyn_subfield();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.Field.IPolynomial minimalPolynomial

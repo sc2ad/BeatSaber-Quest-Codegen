@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
     }
+    // Creating interface conversion operator: i_IReturnToMenuController
+    inline ::GlobalNamespace::IReturnToMenuController* i_IReturnToMenuController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData

@@ -174,6 +174,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
     }
+    // Creating interface conversion operator: i_IConnectedPlayer
+    inline ::GlobalNamespace::IConnectedPlayer* i_IConnectedPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
+    }
     // static field const value: static private System.Single kFixedSyncTimeOffset
     static constexpr const float kFixedSyncTimeOffset = 0.033333335;
     // Get static field: static private System.Single kFixedSyncTimeOffset

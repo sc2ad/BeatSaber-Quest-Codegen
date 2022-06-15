@@ -118,6 +118,10 @@ namespace GlobalNamespace {
     operator ::OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<::OnlineServices::ILeaderboardsModel*>(this);
     }
+    // Creating interface conversion operator: i_ILeaderboardsModel
+    inline ::OnlineServices::ILeaderboardsModel* i_ILeaderboardsModel() noexcept {
+      return reinterpret_cast<::OnlineServices::ILeaderboardsModel*>(this);
+    }
     // Get instance field reference: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     [[deprecated("Use field access instead!")]] ::OnlineServices::API::IUserLoginDtoDataSource*& dyn__userLoginDataSource();
     // Get instance field reference: private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel

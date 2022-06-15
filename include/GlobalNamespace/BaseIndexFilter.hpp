@@ -76,6 +76,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IIndexFilter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IIndexFilter*>(this);
     }
+    // Creating interface conversion operator: i_IIndexFilter
+    inline ::GlobalNamespace::IIndexFilter* i_IIndexFilter() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IIndexFilter*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 _start
     [[deprecated("Use field access instead!")]] int& dyn__start();
     // Get instance field reference: private readonly System.Int32 _step

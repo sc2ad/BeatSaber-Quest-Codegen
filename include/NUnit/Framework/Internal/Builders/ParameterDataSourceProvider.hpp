@@ -44,6 +44,10 @@ namespace NUnit::Framework::Internal::Builders {
     operator ::NUnit::Framework::Interfaces::IParameterDataProvider() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
+    // Creating interface conversion operator: i_IParameterDataProvider
+    inline ::NUnit::Framework::Interfaces::IParameterDataProvider* i_IParameterDataProvider() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1C852E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

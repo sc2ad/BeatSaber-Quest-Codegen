@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INodePoseSyncStateManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
+    // Creating interface conversion operator: i_INodePoseSyncStateManager
+    inline ::GlobalNamespace::INodePoseSyncStateManager* i_INodePoseSyncStateManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INodePoseSyncStateManager*>(this);
+    }
     // protected IPacketPool`1<NodePoseSyncStateNetSerializable> get_serializablePool()
     // Offset: 0x14AC40C
     ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();

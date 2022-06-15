@@ -52,6 +52,10 @@ namespace System::ComponentModel {
     operator ::System::ComponentModel::ICustomTypeDescriptor() noexcept {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ICustomTypeDescriptor
+    inline ::System::ComponentModel::ICustomTypeDescriptor* i_ICustomTypeDescriptor() noexcept {
+      return reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
+    }
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _primary
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__primary();
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _secondary

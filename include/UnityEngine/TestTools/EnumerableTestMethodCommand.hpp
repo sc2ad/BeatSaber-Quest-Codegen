@@ -69,6 +69,10 @@ namespace UnityEngine::TestTools {
     operator ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerableTestMethodCommand
+    inline ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* i_IEnumerableTestMethodCommand() noexcept {
+      return reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
+    }
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod

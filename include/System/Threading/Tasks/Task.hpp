@@ -210,13 +210,25 @@ namespace System::Threading::Tasks {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IAsyncResult
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Threading::IThreadPoolWorkItem
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
     // Get static field: static System.Threading.Tasks.Task t_currentTask
     static ::System::Threading::Tasks::Task* _get_t_currentTask();

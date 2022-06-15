@@ -86,6 +86,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IStartSeekSongController*>(this);
     }
+    // Creating interface conversion operator: i_IStartSeekSongController
+    inline ::GlobalNamespace::IStartSeekSongController* i_IStartSeekSongController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IStartSeekSongController*>(this);
+    }
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private AudioPitchGainEffect _failAudioPitchGainEffect

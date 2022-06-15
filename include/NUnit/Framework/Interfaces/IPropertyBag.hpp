@@ -45,6 +45,10 @@ namespace NUnit::Framework::Interfaces {
     operator ::NUnit::Framework::Interfaces::IXmlNodeBuilder() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNodeBuilder
+    inline ::NUnit::Framework::Interfaces::IXmlNodeBuilder* i_IXmlNodeBuilder() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
+    }
     // public System.Collections.IList get_Item(System.String key)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::IList* get_Item(::StringW key);

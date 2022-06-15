@@ -61,9 +61,17 @@ namespace System::Reflection {
     operator ::System::Reflection::ICustomAttributeProvider() noexcept {
       return *reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ICustomAttributeProvider
+    inline ::System::Reflection::ICustomAttributeProvider* i_ICustomAttributeProvider() noexcept {
+      return reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_MemberInfo
     operator ::System::Runtime::InteropServices::_MemberInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_MemberInfo*>(this);
+    }
+    // Creating interface conversion operator: i__MemberInfo
+    inline ::System::Runtime::InteropServices::_MemberInfo* i__MemberInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_MemberInfo*>(this);
     }
     // public System.Reflection.MemberTypes get_MemberType()
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -51,9 +51,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::BoneWeight1>
     operator ::System::IEquatable_1<::UnityEngine::BoneWeight1>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::BoneWeight1>*>(this);
+    }
+    // Creating interface conversion operator: i_BoneWeight1
+    inline ::System::IEquatable_1<::UnityEngine::BoneWeight1>* i_BoneWeight1() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::BoneWeight1>*>(this);
     }
     // Get instance field reference: private System.Single m_Weight
     [[deprecated("Use field access instead!")]] float& dyn_m_Weight();

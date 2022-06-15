@@ -95,9 +95,17 @@ namespace System::Runtime::Serialization {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IObjectReference
     operator ::System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
+    }
+    // Creating interface conversion operator: i_IObjectReference
+    inline ::System::Runtime::Serialization::IObjectReference* i_IObjectReference() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
     }
     // static field const value: static private System.String RealTypeSerializationName
     static constexpr const char* RealTypeSerializationName = "CLR_SafeSerializationManager_RealType";

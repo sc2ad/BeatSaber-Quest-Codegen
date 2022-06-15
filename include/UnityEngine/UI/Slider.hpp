@@ -93,6 +93,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -235,13 +239,25 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDragHandler
     operator ::UnityEngine::EventSystems::IDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IDragHandler
+    inline ::UnityEngine::EventSystems::IDragHandler* i_IDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler
     operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IInitializePotentialDragHandler
+    inline ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i_IInitializePotentialDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
     // Get instance field reference: private UnityEngine.RectTransform m_FillRect
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_m_FillRect();

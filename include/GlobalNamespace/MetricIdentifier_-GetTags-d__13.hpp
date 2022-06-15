@@ -67,6 +67,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>
     operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);

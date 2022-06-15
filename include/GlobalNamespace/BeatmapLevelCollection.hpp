@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelCollection*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelCollection
+    inline ::GlobalNamespace::IBeatmapLevelCollection* i_IBeatmapLevelCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelCollection*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*
     constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>*() const noexcept {
       return levels;

@@ -53,6 +53,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(this);
     }
+    // Creating interface conversion operator: i_WingedEdge
+    inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>* i_WingedEdge() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(this);
+    }
     // Get instance field reference: private UnityEngine.ProBuilder.WingedEdge m_Start
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::WingedEdge*& dyn_m_Start();
     // Get instance field reference: private UnityEngine.ProBuilder.WingedEdge m_Current

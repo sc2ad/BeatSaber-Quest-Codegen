@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPacketPool() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPacketPool*>(this);
     }
+    // Creating interface conversion operator: i_IPacketPool
+    inline ::GlobalNamespace::IPacketPool* i_IPacketPool() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPacketPool*>(this);
+    }
     // public T Obtain(System.UInt32 version)
     // Offset: 0xFFFFFFFFFFFFFFFF
     T Obtain(uint version) {

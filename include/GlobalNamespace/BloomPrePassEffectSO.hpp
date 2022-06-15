@@ -69,6 +69,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBloomPrePassParams() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBloomPrePassParams*>(this);
     }
+    // Creating interface conversion operator: i_IBloomPrePassParams
+    inline ::GlobalNamespace::IBloomPrePassParams* i_IBloomPrePassParams() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBloomPrePassParams*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _textureWidth

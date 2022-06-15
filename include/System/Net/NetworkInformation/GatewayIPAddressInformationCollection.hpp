@@ -66,6 +66,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(this);
     }
+    // Creating interface conversion operator: i_GatewayIPAddressInformation
+    inline ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* i_GatewayIPAddressInformation() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*
     constexpr operator ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*() const noexcept {
       return addresses;

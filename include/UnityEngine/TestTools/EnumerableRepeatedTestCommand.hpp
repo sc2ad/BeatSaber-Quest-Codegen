@@ -63,6 +63,10 @@ namespace UnityEngine::TestTools {
     operator ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerableTestMethodCommand
+    inline ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* i_IEnumerableTestMethodCommand() noexcept {
+      return reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
+    }
     // Get instance field reference: private System.Int32 repeatCount
     [[deprecated("Use field access instead!")]] int& dyn_repeatCount();
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/NUnit.Framework.RepeatedTestCommand commandToReplace)

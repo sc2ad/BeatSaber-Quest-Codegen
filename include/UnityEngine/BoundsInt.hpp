@@ -59,9 +59,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::BoundsInt>
     operator ::System::IEquatable_1<::UnityEngine::BoundsInt>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::BoundsInt>*>(this);
+    }
+    // Creating interface conversion operator: i_BoundsInt
+    inline ::System::IEquatable_1<::UnityEngine::BoundsInt>* i_BoundsInt() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::BoundsInt>*>(this);
     }
     // Get instance field reference: private UnityEngine.Vector3Int m_Position
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn_m_Position();

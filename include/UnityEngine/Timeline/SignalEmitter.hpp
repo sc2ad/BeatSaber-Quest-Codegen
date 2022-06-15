@@ -74,9 +74,17 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
+    // Creating interface conversion operator: i_INotification
+    inline ::UnityEngine::Playables::INotification* i_INotification() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Timeline::INotificationOptionProvider
     operator ::UnityEngine::Timeline::INotificationOptionProvider() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(this);
+    }
+    // Creating interface conversion operator: i_INotificationOptionProvider
+    inline ::UnityEngine::Timeline::INotificationOptionProvider* i_INotificationOptionProvider() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(this);
     }
     // Get instance field reference: private System.Boolean m_Retroactive
     [[deprecated("Use field access instead!")]] bool& dyn_m_Retroactive();

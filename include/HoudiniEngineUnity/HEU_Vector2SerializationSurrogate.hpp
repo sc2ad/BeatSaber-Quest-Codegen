@@ -43,6 +43,10 @@ namespace HoudiniEngineUnity {
     operator ::System::Runtime::Serialization::ISerializationSurrogate() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationSurrogate
+    inline ::System::Runtime::Serialization::ISerializationSurrogate* i_ISerializationSurrogate() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1A086C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

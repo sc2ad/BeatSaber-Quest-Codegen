@@ -66,9 +66,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(this);
+    }
+    // Creating interface conversion operator: i_LODParameters
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* i_LODParameters() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(this);
     }
     // Get instance field reference: private System.Int32 m_IsOrthographic
     [[deprecated("Use field access instead!")]] int& dyn_m_IsOrthographic();

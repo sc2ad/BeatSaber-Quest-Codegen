@@ -35,6 +35,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::INetLogger() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetLogger*>(this);
     }
+    // Creating interface conversion operator: i_INetLogger
+    inline ::LiteNetLib::INetLogger* i_INetLogger() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetLogger*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x173AE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

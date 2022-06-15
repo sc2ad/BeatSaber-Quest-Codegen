@@ -67,9 +67,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IBpmController
     operator ::GlobalNamespace::IBpmController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBpmController*>(this);
+    }
+    // Creating interface conversion operator: i_IBpmController
+    inline ::GlobalNamespace::IBpmController* i_IBpmController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBpmController*>(this);
     }
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();

@@ -57,6 +57,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.SceneManagement.Scene m_Scene
     [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::Scene& dyn_m_Scene();
     // Get instance field reference: UnityEngine.AsyncOperation m_Operation

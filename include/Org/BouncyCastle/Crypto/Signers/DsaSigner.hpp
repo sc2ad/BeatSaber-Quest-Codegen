@@ -80,6 +80,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Creating interface conversion operator: i_IDsaExt
+    inline ::Org::BouncyCastle::Crypto::IDsaExt* i_IDsaExt() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
+    }
     // Get instance field reference: protected readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& dyn_kCalculator();
     // Get instance field reference: protected Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters key

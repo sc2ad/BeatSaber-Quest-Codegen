@@ -75,6 +75,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Vector3 position
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 tangentIn

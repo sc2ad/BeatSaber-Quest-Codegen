@@ -93,6 +93,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Int32 m_Version
     [[deprecated("Use field access instead!")]] int& dyn_m_Version();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation m_InternalOp

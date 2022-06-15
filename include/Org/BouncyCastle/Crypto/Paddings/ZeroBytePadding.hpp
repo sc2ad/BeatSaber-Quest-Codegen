@@ -40,6 +40,10 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipherPadding
+    inline ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i_IBlockCipherPadding() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x15F2A58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

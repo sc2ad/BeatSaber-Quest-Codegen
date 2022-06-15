@@ -66,6 +66,10 @@ namespace System::ComponentModel {
     operator ::System::ComponentModel::IComponent() noexcept {
       return *reinterpret_cast<::System::ComponentModel::IComponent*>(this);
     }
+    // Creating interface conversion operator: i_IComponent
+    inline ::System::ComponentModel::IComponent* i_IComponent() noexcept {
+      return reinterpret_cast<::System::ComponentModel::IComponent*>(this);
+    }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private readonly System.Object EventDisposed

@@ -40,6 +40,10 @@ namespace System::Diagnostics {
     operator ::System::Configuration::IConfigurationSectionHandler() noexcept {
       return *reinterpret_cast<::System::Configuration::IConfigurationSectionHandler*>(this);
     }
+    // Creating interface conversion operator: i_IConfigurationSectionHandler
+    inline ::System::Configuration::IConfigurationSectionHandler* i_IConfigurationSectionHandler() noexcept {
+      return reinterpret_cast<::System::Configuration::IConfigurationSectionHandler*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1CD7164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

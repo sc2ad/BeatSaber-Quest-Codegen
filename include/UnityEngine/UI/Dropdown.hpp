@@ -196,13 +196,25 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ICancelHandler
     operator ::UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ICancelHandler
+    inline ::UnityEngine::EventSystems::ICancelHandler* i_ICancelHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
     }
     // Get static field: static private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData s_NoOptionData
     static ::UnityEngine::UI::Dropdown::OptionData* _get_s_NoOptionData();

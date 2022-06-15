@@ -130,6 +130,10 @@ namespace HMUI {
     operator ::HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::SegmentedControl::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::SegmentedControl::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::SegmentedControl::IDataSource*>(this);
+    }
     // Get instance field reference: private System.Single _iconSize
     [[deprecated("Use field access instead!")]] float& dyn__iconSize();
     // Get instance field reference: private System.Boolean _overrideCellSize

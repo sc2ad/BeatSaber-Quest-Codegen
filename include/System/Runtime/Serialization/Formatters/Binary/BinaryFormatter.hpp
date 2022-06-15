@@ -127,6 +127,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     operator ::System::Runtime::Serialization::IFormatter() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IFormatter*>(this);
     }
+    // Creating interface conversion operator: i_IFormatter
+    inline ::System::Runtime::Serialization::IFormatter* i_IFormatter() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IFormatter*>(this);
+    }
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation> typeNameCache
     static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* _get_typeNameCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Runtime.Serialization.Formatters.Binary.TypeInformation> typeNameCache

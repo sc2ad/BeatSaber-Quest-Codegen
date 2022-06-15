@@ -54,9 +54,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongAudioClipProvider* i_IFilePathSongAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
     }
     // Creating conversion operator: operator ::GlobalNamespace::BeatmapLevelData*
     constexpr operator ::GlobalNamespace::BeatmapLevelData*() const noexcept {

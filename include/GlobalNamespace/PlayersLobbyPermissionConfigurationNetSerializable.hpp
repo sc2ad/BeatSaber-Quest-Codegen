@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*
     constexpr operator ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*() const noexcept {
       return playersPermission;

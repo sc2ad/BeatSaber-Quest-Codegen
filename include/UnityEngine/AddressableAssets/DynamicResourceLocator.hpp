@@ -73,6 +73,10 @@ namespace UnityEngine::AddressableAssets {
     operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocator
+    inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i_IResourceLocator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
+    }
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.String m_AtlasSpriteProviderId

@@ -154,6 +154,10 @@ namespace System::Security::Cryptography {
     operator ::System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
     }
+    // Creating interface conversion operator: i_ICryptoTransform
+    inline ::System::Security::Cryptography::ICryptoTransform* i_ICryptoTransform() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
+    }
     // Get static field: static private readonly System.Byte[] s_Sbox
     static ::ArrayW<uint8_t> _get_s_Sbox();
     // Set static field: static private readonly System.Byte[] s_Sbox

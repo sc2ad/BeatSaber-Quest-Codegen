@@ -226,6 +226,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ILayerable() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ILayerable*>(this);
     }
+    // Creating interface conversion operator: i_ILayerable
+    inline ::UnityEngine::Timeline::ILayerable* i_ILayerable() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ILayerable*>(this);
+    }
     // static field const value: static private System.String k_DefaultInfiniteClipName
     static constexpr const char* k_DefaultInfiniteClipName = "Recorded";
     // Get static field: static private System.String k_DefaultInfiniteClipName

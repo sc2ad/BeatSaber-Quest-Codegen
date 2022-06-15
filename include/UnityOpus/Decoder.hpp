@@ -69,6 +69,10 @@ namespace UnityOpus {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static field const value: static public System.Int32 maximumPacketDuration
     static constexpr const int maximumPacketDuration = 5760;
     // Get static field: static public System.Int32 maximumPacketDuration

@@ -59,6 +59,10 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
     [[deprecated("Use field access instead!")]] ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>& dyn_cullingPlanes();
     // Get instance field reference: public Unity.Collections.NativeArray`1<UnityEngine.Rendering.BatchVisibility> batchVisibility

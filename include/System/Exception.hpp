@@ -174,9 +174,17 @@ namespace System {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_Exception
     operator ::System::Runtime::InteropServices::_Exception() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_Exception*>(this);
+    }
+    // Creating interface conversion operator: i__Exception
+    inline ::System::Runtime::InteropServices::_Exception* i__Exception() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_Exception*>(this);
     }
     // [OptionalFieldAttribute] Offset: 0x1035770
     // Get static field: static private System.Object s_EDILock

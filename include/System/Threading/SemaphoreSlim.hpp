@@ -110,6 +110,10 @@ namespace System::Threading {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private readonly System.Threading.Tasks.Task`1<System.Boolean> s_trueTask
     static ::System::Threading::Tasks::Task_1<bool>* _get_s_trueTask();
     // Set static field: static private readonly System.Threading.Tasks.Task`1<System.Boolean> s_trueTask

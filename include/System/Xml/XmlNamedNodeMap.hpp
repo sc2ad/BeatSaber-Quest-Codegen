@@ -71,6 +71,10 @@ namespace System::Xml {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Creating conversion operator: operator ::Il2CppObject*
       constexpr operator ::Il2CppObject*() const noexcept {
         return field;
@@ -116,6 +120,10 @@ namespace System::Xml {
     // Creating interface conversion operator: operator ::System::Collections::IEnumerable
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
     // Get instance field reference: System.Xml.XmlNode parent
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_parent();

@@ -50,6 +50,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::IReferenceResolver() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(this);
     }
+    // Creating interface conversion operator: i_IReferenceResolver
+    inline ::Newtonsoft::Json::Serialization::IReferenceResolver* i_IReferenceResolver() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return referenceCount;

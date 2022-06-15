@@ -15,9 +15,9 @@
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
-  // Skipping declaration: Corner because it is already included!
-  // Skipping declaration: Axis because it is already included!
   // Skipping declaration: Constraint because it is already included!
+  // Skipping declaration: Axis because it is already included!
+  // Skipping declaration: Corner because it is already included!
 }
 // Completed forward declares
 // Type namespace: UnityEngine.UI
@@ -62,6 +62,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -117,6 +121,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -158,6 +166,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {

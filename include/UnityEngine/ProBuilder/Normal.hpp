@@ -56,9 +56,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>*>(this);
+    }
+    // Creating interface conversion operator: i_Normal
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>* i_Normal() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>*>(this);
     }
     // Get instance field reference: private UnityEngine.Vector3 <normal>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_$normal$k__BackingField();

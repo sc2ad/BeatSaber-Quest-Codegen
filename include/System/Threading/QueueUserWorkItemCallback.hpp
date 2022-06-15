@@ -67,6 +67,10 @@ namespace System::Threading {
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
     // Get static field: static System.Threading.ContextCallback ccb
     static ::System::Threading::ContextCallback* _get_ccb();
     // Set static field: static System.Threading.ContextCallback ccb

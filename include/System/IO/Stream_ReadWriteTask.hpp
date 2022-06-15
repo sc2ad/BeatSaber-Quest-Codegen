@@ -96,6 +96,10 @@ namespace System::IO {
     operator ::System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
+    // Creating interface conversion operator: i_ITaskCompletionAction
+    inline ::System::Threading::Tasks::ITaskCompletionAction* i_ITaskCompletionAction() noexcept {
+      return reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
+    }
     // Get static field: static private System.Threading.ContextCallback s_invokeAsyncCallback
     static ::System::Threading::ContextCallback* _get_s_invokeAsyncCallback();
     // Set static field: static private System.Threading.ContextCallback s_invokeAsyncCallback

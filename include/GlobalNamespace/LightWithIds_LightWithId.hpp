@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILightWithId*>(this);
     }
+    // Creating interface conversion operator: i_ILightWithId
+    inline ::GlobalNamespace::ILightWithId* i_ILightWithId() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILightWithId*>(this);
+    }
     // Get instance field reference: private System.Int32 _lightId
     [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: private UnityEngine.Color _color

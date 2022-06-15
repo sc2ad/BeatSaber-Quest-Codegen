@@ -42,6 +42,10 @@ namespace Mono::Security::Interface {
     operator ::Mono::Security::Interface::ICertificateValidator() noexcept {
       return *reinterpret_cast<::Mono::Security::Interface::ICertificateValidator*>(this);
     }
+    // Creating interface conversion operator: i_ICertificateValidator
+    inline ::Mono::Security::Interface::ICertificateValidator* i_ICertificateValidator() noexcept {
+      return reinterpret_cast<::Mono::Security::Interface::ICertificateValidator*>(this);
+    }
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509Certificate* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);

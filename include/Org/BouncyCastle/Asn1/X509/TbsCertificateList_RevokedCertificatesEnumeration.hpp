@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IEnumerable*
     constexpr operator ::System::Collections::IEnumerable*() const noexcept {
       return en;

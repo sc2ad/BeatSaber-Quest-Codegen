@@ -34,6 +34,10 @@ namespace GlobalNamespace {
     operator ::UnityEngine::UI::ILayoutController() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutController*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutController
+    inline ::UnityEngine::UI::ILayoutController* i_ILayoutController() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutController*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x146F8D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

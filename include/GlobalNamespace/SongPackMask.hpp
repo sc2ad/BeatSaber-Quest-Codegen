@@ -70,9 +70,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>*>(this);
+    }
+    // Creating interface conversion operator: i_SongPackMask
+    inline ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>* i_SongPackMask() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::SongPackMask>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::SongPackMask>
     operator ::System::IEquatable_1<::GlobalNamespace::SongPackMask>() noexcept {

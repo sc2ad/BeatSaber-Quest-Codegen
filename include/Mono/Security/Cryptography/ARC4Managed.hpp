@@ -69,6 +69,10 @@ namespace Mono::Security::Cryptography {
     operator ::System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
     }
+    // Creating interface conversion operator: i_ICryptoTransform
+    inline ::System::Security::Cryptography::ICryptoTransform* i_ICryptoTransform() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
+    }
     // Get instance field reference: private System.Byte[] key
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] state

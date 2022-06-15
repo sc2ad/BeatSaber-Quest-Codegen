@@ -229,6 +229,10 @@ namespace System::Net::Sockets {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject

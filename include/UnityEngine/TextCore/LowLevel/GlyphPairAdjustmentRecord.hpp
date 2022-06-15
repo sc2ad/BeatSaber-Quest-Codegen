@@ -58,6 +58,10 @@ namespace UnityEngine::TextCore::LowLevel {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
     [[deprecated("Use field access instead!")]] ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord& dyn_m_FirstAdjustmentRecord();
     // Get instance field reference: private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_SecondAdjustmentRecord

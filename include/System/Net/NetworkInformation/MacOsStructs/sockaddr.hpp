@@ -44,6 +44,10 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Byte sa_len
     [[deprecated("Use field access instead!")]] uint8_t& dyn_sa_len();
     // Get instance field reference: public System.Byte sa_family

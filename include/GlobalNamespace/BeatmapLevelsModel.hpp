@@ -127,6 +127,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly System.Boolean isError
       [[deprecated("Use field access instead!")]] bool& dyn_isError();
       // Get instance field reference: public readonly IBeatmapLevel beatmapLevel
@@ -166,6 +170,10 @@ namespace GlobalNamespace {
         // Creating interface conversion operator: operator ::System::Enum
         operator ::System::Enum() noexcept {
           return *reinterpret_cast<::System::Enum*>(this);
+        }
+        // Creating interface conversion operator: i_Enum
+        inline ::System::Enum* i_Enum() noexcept {
+          return reinterpret_cast<::System::Enum*>(this);
         }
         // Creating conversion operator: operator int
         constexpr operator int() const noexcept {
@@ -226,6 +234,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.String levelID
       [[deprecated("Use field access instead!")]] ::StringW& dyn_levelID();

@@ -41,6 +41,10 @@ namespace Oculus::Platform {
     operator ::Oculus::Platform::IVoipPCMSource() noexcept {
       return *reinterpret_cast<::Oculus::Platform::IVoipPCMSource*>(this);
     }
+    // Creating interface conversion operator: i_IVoipPCMSource
+    inline ::Oculus::Platform::IVoipPCMSource* i_IVoipPCMSource() noexcept {
+      return reinterpret_cast<::Oculus::Platform::IVoipPCMSource*>(this);
+    }
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
       return senderID;

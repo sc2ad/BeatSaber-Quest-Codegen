@@ -86,9 +86,17 @@ namespace UnityEngine::XR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>
     operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(this);
+    }
+    // Creating interface conversion operator: i_MeshGenerationResult
+    inline ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* i_MeshGenerationResult() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(this);
     }
     // Get instance field reference: private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::XR::MeshId& dyn_$MeshId$k__BackingField();

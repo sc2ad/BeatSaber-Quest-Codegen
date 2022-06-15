@@ -66,6 +66,10 @@ namespace System::Xml {
     operator ::System::Xml::IDtdParserAdapterV1() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdParserAdapterV1*>(this);
     }
+    // Creating interface conversion operator: i_IDtdParserAdapterV1
+    inline ::System::Xml::IDtdParserAdapterV1* i_IDtdParserAdapterV1() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdParserAdapterV1*>(this);
+    }
     // Creating conversion operator: operator ::System::Xml::XmlTextReaderImpl*
     constexpr operator ::System::Xml::XmlTextReaderImpl*() const noexcept {
       return reader;

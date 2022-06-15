@@ -38,6 +38,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::Security::Cryptography::X509Certificates::INativeCertificateHelper() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
+    // Creating interface conversion operator: i_INativeCertificateHelper
+    inline ::System::Security::Cryptography::X509Certificates::INativeCertificateHelper* i_INativeCertificateHelper() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1BEEF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

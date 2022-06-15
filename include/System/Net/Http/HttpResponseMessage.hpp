@@ -102,6 +102,10 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Net.Http.Headers.HttpResponseHeaders headers
     [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
     // Get instance field reference: private System.String reasonPhrase

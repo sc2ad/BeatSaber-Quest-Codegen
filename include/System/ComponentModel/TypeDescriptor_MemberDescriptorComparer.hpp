@@ -29,6 +29,10 @@ namespace System::ComponentModel {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // Get static field: static public readonly System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer Instance
     static ::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer* _get_Instance();
     // Set static field: static public readonly System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer Instance

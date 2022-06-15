@@ -76,9 +76,17 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::TMPro::ITweenValue
     operator ::TMPro::ITweenValue() noexcept {
       return *reinterpret_cast<::TMPro::ITweenValue*>(this);
+    }
+    // Creating interface conversion operator: i_ITweenValue
+    inline ::TMPro::ITweenValue* i_ITweenValue() noexcept {
+      return reinterpret_cast<::TMPro::ITweenValue*>(this);
     }
     // Get instance field reference: private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
     [[deprecated("Use field access instead!")]] ::TMPro::FloatTween::FloatTweenCallback*& dyn_m_Target();

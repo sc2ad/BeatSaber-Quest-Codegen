@@ -67,6 +67,10 @@ namespace System {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: private readonly System.Int32 _int32
       [[deprecated("Use field access instead!")]] int& dyn__int32();
       // Get instance field reference: private readonly System.String _string

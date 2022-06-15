@@ -85,6 +85,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelPack
+    inline ::GlobalNamespace::IBeatmapLevelPack* i_IBeatmapLevelPack() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
+    }
     // Get instance field reference: private readonly System.String <packID>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$packID$k__BackingField();
     // Get instance field reference: private readonly System.String <packName>k__BackingField

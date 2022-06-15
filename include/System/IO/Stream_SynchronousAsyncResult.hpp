@@ -95,6 +95,10 @@ namespace System::IO {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: private readonly System.Object _stateObject
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__stateObject();
     // Get instance field reference: private readonly System.Boolean _isWrite

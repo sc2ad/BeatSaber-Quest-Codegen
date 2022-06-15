@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_HAPI_GeoInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>* i_Test_HAPI_GeoInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(this);
+    }
     // Creating conversion operator: operator ::HoudiniEngineUnity::HAPI_GeoInfo
     constexpr operator ::HoudiniEngineUnity::HAPI_GeoInfo() const noexcept {
       return self;

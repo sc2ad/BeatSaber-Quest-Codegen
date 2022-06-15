@@ -43,6 +43,10 @@ namespace System::Net {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 m_StartTimeMilliseconds
     [[deprecated("Use field access instead!")]] int& dyn_m_StartTimeMilliseconds();
     // Get instance field reference: private readonly System.Int32 m_DurationMilliseconds

@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Get instance field reference: public readonly IConnectedPlayer connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn_connectedPlayer();
     // Get instance field reference: public readonly MultiplayerLevelCompletionResults multiplayerLevelCompletionResults

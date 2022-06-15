@@ -31,6 +31,10 @@ namespace System::Threading::Tasks {
     operator ::System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
+    // Creating interface conversion operator: i_ITaskCompletionAction
+    inline ::System::Threading::Tasks::ITaskCompletionAction* i_ITaskCompletionAction() noexcept {
+      return reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
+    }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
     // Offset: 0x1D21898
     void Invoke(::System::Threading::Tasks::Task* completingTask);

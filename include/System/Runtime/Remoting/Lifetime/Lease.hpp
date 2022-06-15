@@ -108,6 +108,10 @@ namespace System::Runtime::Remoting::Lifetime {
     operator ::System::Runtime::Remoting::Lifetime::ILease() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Lifetime::ILease*>(this);
     }
+    // Creating interface conversion operator: i_ILease
+    inline ::System::Runtime::Remoting::Lifetime::ILease* i_ILease() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Lifetime::ILease*>(this);
+    }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.DateTime _leaseExpireTime

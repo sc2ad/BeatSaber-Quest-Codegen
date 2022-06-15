@@ -31,6 +31,10 @@ namespace NUnit::Framework {
     operator ::NUnit::Framework::Interfaces::IImplyFixture() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IImplyFixture*>(this);
     }
+    // Creating interface conversion operator: i_IImplyFixture
+    inline ::NUnit::Framework::Interfaces::IImplyFixture* i_IImplyFixture() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IImplyFixture*>(this);
+    }
   }; // NUnit.Framework.TheoryAttribute
   #pragma pack(pop)
 }

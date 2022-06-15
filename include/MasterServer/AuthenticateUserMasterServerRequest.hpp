@@ -61,9 +61,17 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateRequest
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest* i_IUnconnectedAuthenticateRequest() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
+    }
     // Creating interface conversion operator: operator ::MasterServer::IUserMasterServerMessage
     operator ::MasterServer::IUserMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IUserMasterServerMessage
+    inline ::MasterServer::IUserMasterServerMessage* i_IUserMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // Creating conversion operator: operator ::GlobalNamespace::AuthenticationToken
     constexpr operator ::GlobalNamespace::AuthenticationToken() const noexcept {

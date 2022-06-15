@@ -63,6 +63,10 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>* i_JToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> <>2__current

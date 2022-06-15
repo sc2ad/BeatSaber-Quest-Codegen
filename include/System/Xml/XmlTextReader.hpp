@@ -68,6 +68,10 @@ namespace System::Xml {
     operator ::System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNamespaceResolver
+    inline ::System::Xml::IXmlNamespaceResolver* i_IXmlNamespaceResolver() noexcept {
+      return reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
+    }
     // Creating conversion operator: operator ::System::Xml::XmlTextReaderImpl*
     constexpr operator ::System::Xml::XmlTextReaderImpl*() const noexcept {
       return impl;

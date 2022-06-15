@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // static field const value: static public System.Int32 StructSize
     static constexpr const int StructSize = 12;
     // Get static field: static public System.Int32 StructSize

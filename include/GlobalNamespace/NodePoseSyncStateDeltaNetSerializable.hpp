@@ -75,13 +75,25 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>
     operator ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>*>(this);
+    }
+    // Creating interface conversion operator: i_NodePoseSyncState
+    inline ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>* i_NodePoseSyncState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::NodePoseSyncState>*>(this);
     }
     // Get instance field reference: private NodePoseSyncState _delta
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NodePoseSyncState& dyn__delta();

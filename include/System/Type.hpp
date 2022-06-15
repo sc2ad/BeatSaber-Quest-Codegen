@@ -110,6 +110,10 @@ namespace System {
     operator ::System::Runtime::InteropServices::_Type() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_Type*>(this);
     }
+    // Creating interface conversion operator: i__Type
+    inline ::System::Runtime::InteropServices::_Type* i__Type() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_Type*>(this);
+    }
     // Creating conversion operator: operator ::System::RuntimeTypeHandle
     constexpr operator ::System::RuntimeTypeHandle() const noexcept {
       return impl;

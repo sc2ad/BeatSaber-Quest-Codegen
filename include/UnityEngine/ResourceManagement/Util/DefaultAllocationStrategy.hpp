@@ -39,6 +39,10 @@ namespace UnityEngine::ResourceManagement::Util {
     operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
+    // Creating interface conversion operator: i_IAllocationStrategy
+    inline ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i_IAllocationStrategy() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1EE5554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -135,6 +135,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Nullable`1<System.Single> _firstBasicNoteTime
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<float>& dyn__firstBasicNoteTime();
     // Get instance field reference: private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerGameNoteController> _gameNotePoolContainer

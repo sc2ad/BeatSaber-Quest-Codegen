@@ -63,6 +63,10 @@ namespace Microsoft::Win32 {
     operator ::Microsoft::Win32::IRegistryApi() noexcept {
       return *reinterpret_cast<::Microsoft::Win32::IRegistryApi*>(this);
     }
+    // Creating interface conversion operator: i_IRegistryApi
+    inline ::Microsoft::Win32::IRegistryApi* i_IRegistryApi() noexcept {
+      return reinterpret_cast<::Microsoft::Win32::IRegistryApi*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return NativeBytesPerCharacter;

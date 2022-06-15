@@ -72,6 +72,10 @@ namespace Zenject {
     operator ::Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
+    // Creating interface conversion operator: i_ISubContainerCreator
+    inline ::Zenject::ISubContainerCreator* i_ISubContainerCreator() noexcept {
+      return reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
+    }
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     [[deprecated("Use field access instead!")]] ::Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // Get instance field reference: private readonly Zenject.IPrefabProvider _prefabProvider

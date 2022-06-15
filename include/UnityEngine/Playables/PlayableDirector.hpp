@@ -81,6 +81,10 @@ namespace UnityEngine::Playables {
     operator ::UnityEngine::IExposedPropertyTable() noexcept {
       return *reinterpret_cast<::UnityEngine::IExposedPropertyTable*>(this);
     }
+    // Creating interface conversion operator: i_IExposedPropertyTable
+    inline ::UnityEngine::IExposedPropertyTable* i_IExposedPropertyTable() noexcept {
+      return reinterpret_cast<::UnityEngine::IExposedPropertyTable*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> played

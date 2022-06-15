@@ -32,6 +32,10 @@ namespace Microsoft::Win32 {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // public System.Boolean Equals(System.Object x, System.Object y)
     // Offset: 0x1F3A1D8
     bool Equals(::Il2CppObject* x, ::Il2CppObject* y);

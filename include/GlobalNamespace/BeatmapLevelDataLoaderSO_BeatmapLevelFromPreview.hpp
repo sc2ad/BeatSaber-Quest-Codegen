@@ -92,13 +92,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAssetSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i_IAssetSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i_IFilePathSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
     }
     // Get instance field reference: private readonly IPreviewBeatmapLevel _level
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__level();

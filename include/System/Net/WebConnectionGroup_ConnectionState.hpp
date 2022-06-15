@@ -68,6 +68,10 @@ namespace System::Net {
     operator ::System::Net::IWebConnectionState() noexcept {
       return *reinterpret_cast<::System::Net::IWebConnectionState*>(this);
     }
+    // Creating interface conversion operator: i_IWebConnectionState
+    inline ::System::Net::IWebConnectionState* i_IWebConnectionState() noexcept {
+      return reinterpret_cast<::System::Net::IWebConnectionState*>(this);
+    }
     // Get instance field reference: private System.Net.WebConnection <Connection>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Net::WebConnection*& dyn_$Connection$k__BackingField();
     // Get instance field reference: private System.Net.WebConnectionGroup <Group>k__BackingField

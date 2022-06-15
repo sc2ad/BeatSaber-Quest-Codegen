@@ -58,6 +58,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ISubsystem() noexcept {
       return *reinterpret_cast<::UnityEngine::ISubsystem*>(this);
     }
+    // Creating interface conversion operator: i_ISubsystem
+    inline ::UnityEngine::ISubsystem* i_ISubsystem() noexcept {
+      return reinterpret_cast<::UnityEngine::ISubsystem*>(this);
+    }
     // Get instance field reference: System.IntPtr m_Ptr
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: UnityEngine.ISubsystemDescriptor m_subsystemDescriptor

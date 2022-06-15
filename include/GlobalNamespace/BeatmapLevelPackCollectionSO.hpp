@@ -66,6 +66,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelPackCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelPackCollection
+    inline ::GlobalNamespace::IBeatmapLevelPackCollection* i_IBeatmapLevelPackCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackSO[] _beatmapLevelPacks

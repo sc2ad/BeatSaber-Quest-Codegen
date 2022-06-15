@@ -163,6 +163,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::IContractResolver() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::IContractResolver*>(this);
     }
+    // Creating interface conversion operator: i_IContractResolver
+    inline ::Newtonsoft::Json::Serialization::IContractResolver* i_IContractResolver() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::IContractResolver*>(this);
+    }
     // Get static field: static private readonly Newtonsoft.Json.Serialization.IContractResolver _instance
     static ::Newtonsoft::Json::Serialization::IContractResolver* _get__instance();
     // Set static field: static private readonly Newtonsoft.Json.Serialization.IContractResolver _instance

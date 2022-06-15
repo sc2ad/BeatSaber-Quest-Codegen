@@ -44,6 +44,10 @@ namespace UnityEngine::PlayerLoop {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
   }; // UnityEngine.PlayerLoop.Update
   #pragma pack(pop)
 }

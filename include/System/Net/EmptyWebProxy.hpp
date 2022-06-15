@@ -52,6 +52,10 @@ namespace System::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::ICredentials*
     constexpr operator ::System::Net::ICredentials*() const noexcept {
       return m_credentials;

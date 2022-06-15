@@ -147,6 +147,10 @@ namespace System::Xml::Schema {
     operator ::System::Xml::IDtdInfo() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdInfo*>(this);
     }
+    // Creating interface conversion operator: i_IDtdInfo
+    inline ::System::Xml::IDtdInfo* i_IDtdInfo() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdInfo*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> elementDecls
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>*& dyn_elementDecls();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> undeclaredElementDecls

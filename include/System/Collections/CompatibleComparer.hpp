@@ -55,6 +55,10 @@ namespace System::Collections {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // Get instance field reference: private System.Collections.IComparer _comparer
     [[deprecated("Use field access instead!")]] ::System::Collections::IComparer*& dyn__comparer();
     // Get instance field reference: private System.Collections.IHashCodeProvider _hcp

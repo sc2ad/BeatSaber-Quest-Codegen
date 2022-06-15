@@ -166,6 +166,10 @@ namespace System::Resources {
     operator ::System::Resources::IResourceReader() noexcept {
       return *reinterpret_cast<::System::Resources::IResourceReader*>(this);
     }
+    // Creating interface conversion operator: i_IResourceReader
+    inline ::System::Resources::IResourceReader* i_IResourceReader() noexcept {
+      return reinterpret_cast<::System::Resources::IResourceReader*>(this);
+    }
     // Get instance field reference: private System.IO.BinaryReader _store
     [[deprecated("Use field access instead!")]] ::System::IO::BinaryReader*& dyn__store();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache

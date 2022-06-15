@@ -109,6 +109,10 @@ namespace System::Xml {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -534,6 +538,10 @@ namespace System::Xml {
     // Creating interface conversion operator: operator ::System::Xml::IDtdParser
     operator ::System::Xml::IDtdParser() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdParser*>(this);
+    }
+    // Creating interface conversion operator: i_IDtdParser
+    inline ::System::Xml::IDtdParser* i_IDtdParser() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdParser*>(this);
     }
     // Get instance field reference: private System.Xml.IDtdParserAdapter readerAdapter
     [[deprecated("Use field access instead!")]] ::System::Xml::IDtdParserAdapter*& dyn_readerAdapter();

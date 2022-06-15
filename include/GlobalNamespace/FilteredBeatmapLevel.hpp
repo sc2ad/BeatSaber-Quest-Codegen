@@ -105,21 +105,41 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IAssetSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i_IAssetSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
     }
+    // Creating interface conversion operator: i_IFilePathSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i_IFilePathSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongAudioClipProvider
     operator ::GlobalNamespace::IAssetSongAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongAudioClipProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAssetSongAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongAudioClipProvider* i_IAssetSongAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongAudioClipProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongAudioClipProvider* i_IFilePathSongAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> <previewDifficultyBeatmapSets>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn_$previewDifficultyBeatmapSets$k__BackingField();

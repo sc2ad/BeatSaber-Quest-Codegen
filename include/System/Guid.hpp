@@ -129,9 +129,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::Guid>
     operator ::System::IComparable_1<::System::Guid>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::System::Guid>*>(this);
+    }
+    // Creating interface conversion operator: i_Guid
+    inline ::System::IComparable_1<::System::Guid>* i_Guid() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::System::Guid>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::Guid>
     operator ::System::IEquatable_1<::System::Guid>() noexcept {
@@ -141,9 +149,17 @@ namespace System {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IFormattable
     operator ::System::IFormattable() noexcept {
       return *reinterpret_cast<::System::IFormattable*>(this);
+    }
+    // Creating interface conversion operator: i_IFormattable
+    inline ::System::IFormattable* i_IFormattable() noexcept {
+      return reinterpret_cast<::System::IFormattable*>(this);
     }
     // Get static field: static public readonly System.Guid Empty
     static ::System::Guid _get_Empty();

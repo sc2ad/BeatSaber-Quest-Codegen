@@ -80,6 +80,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
     // Get static field: static private UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder> s_Rebuilders
     static ::UnityEngine::UI::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* _get_s_Rebuilders();
     // Set static field: static private UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder> s_Rebuilders

@@ -57,6 +57,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners0
     [[deprecated("Use field access instead!")]] ::Valve::VR::HmdVector3_t& dyn_vCorners0();
     // Get instance field reference: public Valve.VR.HmdVector3_t vCorners1

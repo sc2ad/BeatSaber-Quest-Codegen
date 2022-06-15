@@ -79,9 +79,17 @@ namespace UnityEngine::Playables {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>
     operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*>(this);
+    }
+    // Creating interface conversion operator: i_PlayableOutputHandle
+    inline ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>* i_PlayableOutputHandle() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Playables.PlayableOutputHandle m_Null
     static ::UnityEngine::Playables::PlayableOutputHandle _get_m_Null();

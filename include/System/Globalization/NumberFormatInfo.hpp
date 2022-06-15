@@ -269,9 +269,17 @@ namespace System::Globalization {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IFormatProvider
     operator ::System::IFormatProvider() noexcept {
       return *reinterpret_cast<::System::IFormatProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFormatProvider
+    inline ::System::IFormatProvider* i_IFormatProvider() noexcept {
+      return reinterpret_cast<::System::IFormatProvider*>(this);
     }
     // Get static field: static private System.Globalization.NumberFormatInfo invariantInfo
     static ::System::Globalization::NumberFormatInfo* _get_invariantInfo();

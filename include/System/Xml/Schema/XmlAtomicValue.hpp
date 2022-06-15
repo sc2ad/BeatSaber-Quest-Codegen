@@ -99,6 +99,10 @@ namespace System::Xml::Schema {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Boolean boolVal
       [[deprecated("Use field access instead!")]] bool& dyn_boolVal();
       // Get instance field reference: public System.Double dblVal
@@ -144,6 +148,10 @@ namespace System::Xml::Schema {
     // Creating interface conversion operator: operator ::System::ICloneable
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
+    }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get instance field reference: private System.Xml.Schema.XmlSchemaType xmlType
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaType*& dyn_xmlType();

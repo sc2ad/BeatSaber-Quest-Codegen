@@ -126,6 +126,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return value;
@@ -333,6 +337,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IGameplayRpcManager
     operator ::GlobalNamespace::IGameplayRpcManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGameplayRpcManager*>(this);
+    }
+    // Creating interface conversion operator: i_IGameplayRpcManager
+    inline ::GlobalNamespace::IGameplayRpcManager* i_IGameplayRpcManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGameplayRpcManager*>(this);
     }
     // static field const value: static private System.String kGameplayState
     static constexpr const char* kGameplayState = "in_gameplay";

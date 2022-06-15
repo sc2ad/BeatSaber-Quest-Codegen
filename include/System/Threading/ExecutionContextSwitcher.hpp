@@ -67,6 +67,10 @@ namespace System::Threading {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Threading.ExecutionContext/System.Threading.Reader outerEC
     [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext::Reader& dyn_outerEC();
     // Get instance field reference: System.Boolean outerECBelongsToScope

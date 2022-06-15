@@ -45,6 +45,10 @@ namespace System::Net {
     operator ::System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationModule
+    inline ::System::Net::IAuthenticationModule* i_IAuthenticationModule() noexcept {
+      return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
+    }
     // public System.String get_AuthenticationType()
     // Offset: 0x1CEB4F4
     ::StringW get_AuthenticationType();

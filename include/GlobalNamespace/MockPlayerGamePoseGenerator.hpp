@@ -95,6 +95,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: protected readonly IMultiplayerSessionManager multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn_multiplayerSessionManager();
     // Get instance field reference: protected readonly IGameplayRpcManager gameplayRpcManager

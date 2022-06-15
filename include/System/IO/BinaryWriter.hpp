@@ -96,6 +96,10 @@ namespace System::IO {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static public readonly System.IO.BinaryWriter Null
     static ::System::IO::BinaryWriter* _get_Null();
     // Set static field: static public readonly System.IO.BinaryWriter Null

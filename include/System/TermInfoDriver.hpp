@@ -313,6 +313,10 @@ namespace System {
     operator ::System::IConsoleDriver() noexcept {
       return *reinterpret_cast<::System::IConsoleDriver*>(this);
     }
+    // Creating interface conversion operator: i_IConsoleDriver
+    inline ::System::IConsoleDriver* i_IConsoleDriver() noexcept {
+      return reinterpret_cast<::System::IConsoleDriver*>(this);
+    }
     // Get static field: static private System.Int32* native_terminal_size
     static int* _get_native_terminal_size();
     // Set static field: static private System.Int32* native_terminal_size

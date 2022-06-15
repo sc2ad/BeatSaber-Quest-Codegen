@@ -42,6 +42,10 @@ namespace System::Resources {
     operator ::System::Resources::IResourceGroveler() noexcept {
       return *reinterpret_cast<::System::Resources::IResourceGroveler*>(this);
     }
+    // Creating interface conversion operator: i_IResourceGroveler
+    inline ::System::Resources::IResourceGroveler* i_IResourceGroveler() noexcept {
+      return reinterpret_cast<::System::Resources::IResourceGroveler*>(this);
+    }
     // Creating conversion operator: operator ::System::Resources::ResourceManager::ResourceManagerMediator*
     constexpr operator ::System::Resources::ResourceManager::ResourceManagerMediator*() const noexcept {
       return mediator;

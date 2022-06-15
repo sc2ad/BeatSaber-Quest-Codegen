@@ -75,6 +75,10 @@ namespace Zenject::Internal {
     operator ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*>(this);
     }
+    // Creating interface conversion operator: i_SceneContext
+    inline ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* i_SceneContext() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>
     operator ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*>(this);

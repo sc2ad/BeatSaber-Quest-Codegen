@@ -41,6 +41,10 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static ::System::Text::RegularExpressions::Regex* _get_$ProfilePattern$k__BackingField();
     // Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField

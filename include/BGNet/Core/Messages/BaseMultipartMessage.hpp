@@ -80,6 +80,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedMultipartMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMultipartMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedMultipartMessage
+    inline ::BGNet::Core::Messages::IUnconnectedMultipartMessage* i_IUnconnectedMultipartMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMultipartMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static field const value: static public System.Int32 kDataChunkSize

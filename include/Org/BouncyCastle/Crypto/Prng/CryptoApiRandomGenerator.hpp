@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Crypto::Prng {
     operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
+    // Creating interface conversion operator: i_IRandomGenerator
+    inline ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i_IRandomGenerator() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
+    }
     // Creating conversion operator: operator ::System::Security::Cryptography::RandomNumberGenerator*
     constexpr operator ::System::Security::Cryptography::RandomNumberGenerator*() const noexcept {
       return rndProv;

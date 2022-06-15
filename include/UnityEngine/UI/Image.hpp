@@ -105,6 +105,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -158,6 +162,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -297,13 +305,25 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ICanvasRaycastFilter
     operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
+    }
+    // Creating interface conversion operator: i_ICanvasRaycastFilter
+    inline ::UnityEngine::ICanvasRaycastFilter* i_ICanvasRaycastFilter() noexcept {
+      return reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
     // Get static field: static protected UnityEngine.Material s_ETC1DefaultUI
     static ::UnityEngine::Material* _get_s_ETC1DefaultUI();

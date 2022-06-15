@@ -134,6 +134,10 @@ namespace Newtonsoft::Json {
     operator ::Newtonsoft::Json::IJsonLineInfo() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
+    // Creating interface conversion operator: i_IJsonLineInfo
+    inline ::Newtonsoft::Json::IJsonLineInfo* i_IJsonLineInfo() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
+    }
     // Get instance field reference: private readonly System.IO.TextReader _reader
     [[deprecated("Use field access instead!")]] ::System::IO::TextReader*& dyn__reader();
     // Get instance field reference: private System.Char[] _chars

@@ -51,6 +51,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // Get instance field reference: private readonly System.String _operationName

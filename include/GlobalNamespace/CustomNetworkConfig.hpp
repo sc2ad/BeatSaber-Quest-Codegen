@@ -106,6 +106,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
     }
+    // Creating interface conversion operator: i_INetworkConfig
+    inline ::GlobalNamespace::INetworkConfig* i_INetworkConfig() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 <maxPartySize>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$maxPartySize$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <discoveryPort>k__BackingField

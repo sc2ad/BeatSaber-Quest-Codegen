@@ -90,6 +90,10 @@ namespace System::Text {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // static field const value: static System.Int32 DefaultCapacity
     static constexpr const int DefaultCapacity = 16;
     // Get static field: static System.Int32 DefaultCapacity

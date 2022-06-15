@@ -36,6 +36,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator ::System::Collections::Generic::IComparer_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
     }
+    // Creating interface conversion operator: i_UnityWorkItem
+    inline ::System::Collections::Generic::IComparer_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* i_UnityWorkItem() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x196ED20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

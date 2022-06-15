@@ -50,6 +50,10 @@ namespace System::Collections {
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
     }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::SortedList*
     constexpr operator ::System::Collections::SortedList*() const noexcept {
       return sortedList;

@@ -88,6 +88,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelPack
+    inline ::GlobalNamespace::IBeatmapLevelPack* i_IBeatmapLevelPack() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _packID

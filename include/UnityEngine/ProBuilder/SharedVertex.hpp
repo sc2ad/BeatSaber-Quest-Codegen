@@ -77,6 +77,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::Collections::Generic::ICollection_1<int>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<int>*>(this);
     }
+    // Creating interface conversion operator: i_ICollection_1_int
+    inline ::System::Collections::Generic::ICollection_1<int>* i_ICollection_1_int() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<int>*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<int>
     constexpr operator ::ArrayW<int>() const noexcept {
       return m_Vertices;

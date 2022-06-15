@@ -87,6 +87,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
+    // Creating interface conversion operator: i_ISigner
+    inline ::Org::BouncyCastle::Crypto::ISigner* i_ISigner() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
+    }
     // Get static field: static private readonly System.Collections.IDictionary oidMap
     static ::System::Collections::IDictionary* _get_oidMap();
     // Set static field: static private readonly System.Collections.IDictionary oidMap

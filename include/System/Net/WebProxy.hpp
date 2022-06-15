@@ -133,9 +133,17 @@ namespace System::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get instance field reference: private System.Boolean _UseRegistry
     [[deprecated("Use field access instead!")]] bool& dyn__UseRegistry();

@@ -67,6 +67,10 @@ namespace System {
     operator ::System::IConsoleDriver() noexcept {
       return *reinterpret_cast<::System::IConsoleDriver*>(this);
     }
+    // Creating interface conversion operator: i_IConsoleDriver
+    inline ::System::IConsoleDriver* i_IConsoleDriver() noexcept {
+      return reinterpret_cast<::System::IConsoleDriver*>(this);
+    }
     // Get instance field reference: private System.IntPtr inputHandle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_inputHandle();
     // Get instance field reference: private System.IntPtr outputHandle

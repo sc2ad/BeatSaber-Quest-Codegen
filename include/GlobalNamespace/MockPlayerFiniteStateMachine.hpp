@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // public UnityEngine.Color get_saberAColor()
     // Offset: 0x2A9E6FC
     ::UnityEngine::Color get_saberAColor();

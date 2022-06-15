@@ -60,6 +60,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeServerToClientMessage
+    inline ::BGNet::Core::Messages::IHandshakeServerToClientMessage* i_IHandshakeServerToClientMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::ByteArrayNetSerializable*
     constexpr operator ::GlobalNamespace::ByteArrayNetSerializable*() const noexcept {
       return cookie;

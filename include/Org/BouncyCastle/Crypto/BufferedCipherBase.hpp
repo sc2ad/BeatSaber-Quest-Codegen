@@ -40,6 +40,10 @@ namespace Org::BouncyCastle::Crypto {
     operator ::Org::BouncyCastle::Crypto::IBufferedCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBufferedCipher*>(this);
     }
+    // Creating interface conversion operator: i_IBufferedCipher
+    inline ::Org::BouncyCastle::Crypto::IBufferedCipher* i_IBufferedCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBufferedCipher*>(this);
+    }
     // Get static field: static protected readonly System.Byte[] EmptyBuffer
     static ::ArrayW<uint8_t> _get_EmptyBuffer();
     // Set static field: static protected readonly System.Byte[] EmptyBuffer

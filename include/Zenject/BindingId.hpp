@@ -57,9 +57,17 @@ namespace Zenject {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::Zenject::BindingId>
     operator ::System::IEquatable_1<::Zenject::BindingId>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::Zenject::BindingId>*>(this);
+    }
+    // Creating interface conversion operator: i_BindingId
+    inline ::System::IEquatable_1<::Zenject::BindingId>* i_BindingId() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::Zenject::BindingId>*>(this);
     }
     // Get instance field reference: private System.Type _type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__type();

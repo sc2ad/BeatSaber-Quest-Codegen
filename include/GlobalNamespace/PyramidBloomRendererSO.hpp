@@ -76,6 +76,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: UnityEngine.RenderTexture down
       [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn_down();
       // Get instance field reference: UnityEngine.RenderTexture up

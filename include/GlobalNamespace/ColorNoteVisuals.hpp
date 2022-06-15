@@ -118,13 +118,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerDidInitEvent
+    inline ::GlobalNamespace::INoteControllerDidInitEvent* i_INoteControllerDidInitEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
     operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerNoteDidStartDissolvingEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i_INoteControllerNoteDidStartDissolvingEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent
     operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteDidPassJumpThreeQuartersEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent* i_INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

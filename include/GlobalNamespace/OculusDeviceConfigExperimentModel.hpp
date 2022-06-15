@@ -67,6 +67,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IExperimentModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
     }
+    // Creating interface conversion operator: i_IExperimentModel
+    inline ::GlobalNamespace::IExperimentModel* i_IExperimentModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
+    }
     // Creating conversion operator: operator ::System::Threading::Tasks::Task*
     constexpr operator ::System::Threading::Tasks::Task*() const noexcept {
       return initializationTask;

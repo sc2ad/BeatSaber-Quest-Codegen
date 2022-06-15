@@ -73,6 +73,10 @@ namespace System::Threading {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static field const value: static private System.Int32 DEFAULT_SPIN_SP
     static constexpr const int DEFAULT_SPIN_SP = 1;
     // Get static field: static private System.Int32 DEFAULT_SPIN_SP

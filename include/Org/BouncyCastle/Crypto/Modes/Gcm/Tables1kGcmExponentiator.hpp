@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*>(this);
     }
+    // Creating interface conversion operator: i_IGcmExponentiator
+    inline ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* i_IGcmExponentiator() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IList*
     constexpr operator ::System::Collections::IList*() const noexcept {
       return lookupPowX2;

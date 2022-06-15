@@ -142,6 +142,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IStartSeekSongController*>(this);
     }
+    // Creating interface conversion operator: i_IStartSeekSongController
+    inline ::GlobalNamespace::IStartSeekSongController* i_IStartSeekSongController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IStartSeekSongController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kReSyncThreshold

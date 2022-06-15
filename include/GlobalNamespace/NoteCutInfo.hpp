@@ -166,6 +166,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly NoteData noteData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData*& dyn_noteData();
     // Get instance field reference: public readonly System.Boolean speedOK

@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerObservable
+    inline ::GlobalNamespace::IMultiplayerObservable* i_IMultiplayerObservable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
+    }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private System.Single _lastReturnedOffsetSyncTime

@@ -53,6 +53,10 @@ namespace System {
     operator ::System::ModifierSpec() noexcept {
       return *reinterpret_cast<::System::ModifierSpec*>(this);
     }
+    // Creating interface conversion operator: i_ModifierSpec
+    inline ::System::ModifierSpec* i_ModifierSpec() noexcept {
+      return reinterpret_cast<::System::ModifierSpec*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return pointer_level;

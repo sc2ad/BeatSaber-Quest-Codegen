@@ -71,6 +71,10 @@ namespace Org::BouncyCastle::X509 {
     operator ::Org::BouncyCastle::X509::IX509AttributeCertificate() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);
     }
+    // Creating interface conversion operator: i_IX509AttributeCertificate
+    inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* i_IX509AttributeCertificate() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::X509::IX509AttributeCertificate*>(this);
+    }
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificate cert
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& dyn_cert();
     // Get instance field reference: private readonly System.DateTime notBefore

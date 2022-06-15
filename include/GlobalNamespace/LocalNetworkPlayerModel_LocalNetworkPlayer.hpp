@@ -182,6 +182,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Creating interface conversion operator: i_INetworkPlayer
+    inline ::GlobalNamespace::INetworkPlayer* i_INetworkPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
+    }
     // static field const value: static private System.Single kPeerBroadcastTimeout
     static constexpr const float kPeerBroadcastTimeout = 30;
     // Get static field: static private System.Single kPeerBroadcastTimeout

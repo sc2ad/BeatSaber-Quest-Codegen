@@ -97,6 +97,10 @@ namespace Zenject {
     operator ::Zenject::IProvider() noexcept {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
+    // Creating interface conversion operator: i_IProvider
+    inline ::Zenject::IProvider* i_IProvider() noexcept {
+      return reinterpret_cast<::Zenject::IProvider*>(this);
+    }
     // Get instance field reference: private readonly System.Object _identifier
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // Get instance field reference: private readonly Zenject.DiContainer _container

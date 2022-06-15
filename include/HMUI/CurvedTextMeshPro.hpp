@@ -72,6 +72,10 @@ namespace HMUI {
     operator ::GlobalNamespace::IComponentRefresher() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IComponentRefresher*>(this);
     }
+    // Creating interface conversion operator: i_IComponentRefresher
+    inline ::GlobalNamespace::IComponentRefresher* i_IComponentRefresher() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IComponentRefresher*>(this);
+    }
     // Get instance field reference: private System.Boolean _useScriptableObjectColors
     [[deprecated("Use field access instead!")]] bool& dyn__useScriptableObjectColors();
     // Get instance field reference: private ColorSO _colorSo

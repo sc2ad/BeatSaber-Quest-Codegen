@@ -110,13 +110,25 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* i_JToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ComponentModel::ICustomTypeDescriptor
     operator ::System::ComponentModel::ICustomTypeDescriptor() noexcept {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ICustomTypeDescriptor
+    inline ::System::ComponentModel::ICustomTypeDescriptor* i_ICustomTypeDescriptor() noexcept {
+      return reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ComponentModel::INotifyPropertyChanging
     operator ::System::ComponentModel::INotifyPropertyChanging() noexcept {
       return *reinterpret_cast<::System::ComponentModel::INotifyPropertyChanging*>(this);
+    }
+    // Creating interface conversion operator: i_INotifyPropertyChanging
+    inline ::System::ComponentModel::INotifyPropertyChanging* i_INotifyPropertyChanging() noexcept {
+      return reinterpret_cast<::System::ComponentModel::INotifyPropertyChanging*>(this);
     }
     // Get instance field reference: private readonly Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JPropertyKeyedCollection*& dyn__properties();

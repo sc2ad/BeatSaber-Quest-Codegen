@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*>(this);
     }
+    // Creating interface conversion operator: i_ILobbyPlayerData
+    inline ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>* i_ILobbyPlayerData() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*>(this);
+    }
     // public System.String get_localUserId()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_localUserId();

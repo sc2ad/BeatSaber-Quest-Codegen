@@ -61,6 +61,10 @@ namespace System::Runtime::Remoting {
     operator ::System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(this);
     }
+    // Creating interface conversion operator: i_IRemotingTypeInfo
+    inline ::System::Runtime::Remoting::IRemotingTypeInfo* i_IRemotingTypeInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(this);
+    }
     // Get instance field reference: private System.String serverType
     [[deprecated("Use field access instead!")]] ::StringW& dyn_serverType();
     // Get instance field reference: private System.String[] serverHierarchy

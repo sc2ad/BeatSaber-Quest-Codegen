@@ -117,13 +117,25 @@ namespace System::Reflection {
     operator ::System::Runtime::Serialization::IObjectReference() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
     }
+    // Creating interface conversion operator: i_IObjectReference
+    inline ::System::Runtime::Serialization::IObjectReference* i_IObjectReference() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Reflection::ICustomAttributeProvider
     operator ::System::Reflection::ICustomAttributeProvider() noexcept {
       return *reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ICustomAttributeProvider
+    inline ::System::Reflection::ICustomAttributeProvider* i_ICustomAttributeProvider() noexcept {
+      return reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_ParameterInfo
     operator ::System::Runtime::InteropServices::_ParameterInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_ParameterInfo*>(this);
+    }
+    // Creating interface conversion operator: i__ParameterInfo
+    inline ::System::Runtime::InteropServices::_ParameterInfo* i__ParameterInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_ParameterInfo*>(this);
     }
     // Get instance field reference: protected System.Type ClassImpl
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_ClassImpl();

@@ -88,6 +88,10 @@ namespace HMUI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -147,17 +151,33 @@ namespace HMUI {
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerClickHandler
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
     // Get instance field reference: private Signal _wasPressedSignal
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__wasPressedSignal();

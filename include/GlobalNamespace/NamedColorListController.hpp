@@ -75,6 +75,10 @@ namespace GlobalNamespace {
     operator ::HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<::HMUI::IValueChanger_1<int>*>(this);
     }
+    // Creating interface conversion operator: i_IValueChanger_1_int
+    inline ::HMUI::IValueChanger_1<int>* i_IValueChanger_1_int() noexcept {
+      return reinterpret_cast<::HMUI::IValueChanger_1<int>*>(this);
+    }
     // Get instance field reference: private NamedColorListController/ColorValuePair[] _textValuePairs
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::NamedColorListController::ColorValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value

@@ -193,13 +193,25 @@ namespace GlobalNamespace {
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::GridView::IDataSource
     operator ::GlobalNamespace::GridView::IDataSource() noexcept {
       return *reinterpret_cast<::GlobalNamespace::GridView::IDataSource*>(this);
+    }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::GlobalNamespace::GridView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::GlobalNamespace::GridView::IDataSource*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

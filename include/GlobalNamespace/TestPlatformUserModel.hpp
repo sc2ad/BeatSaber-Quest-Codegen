@@ -62,6 +62,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
     }
+    // Creating interface conversion operator: i_IPlatformUserModel
+    inline ::GlobalNamespace::IPlatformUserModel* i_IPlatformUserModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1476D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

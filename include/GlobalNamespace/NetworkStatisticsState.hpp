@@ -120,6 +120,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly System.Int64 packetsSent
     [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSent();
     // Get instance field reference: public readonly System.Int64 packetsReceived

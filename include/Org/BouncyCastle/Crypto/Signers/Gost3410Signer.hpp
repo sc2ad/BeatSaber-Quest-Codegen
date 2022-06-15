@@ -69,6 +69,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Creating interface conversion operator: i_IDsaExt
+    inline ::Org::BouncyCastle::Crypto::IDsaExt* i_IDsaExt() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Gost3410KeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random

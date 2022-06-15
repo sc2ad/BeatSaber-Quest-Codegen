@@ -63,9 +63,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*>(this);
+    }
+    // Creating interface conversion operator: i_Edge
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>* i_Edge() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*>(this);
     }
     // Get static field: static public readonly UnityEngine.ProBuilder.Edge Empty
     static ::UnityEngine::ProBuilder::Edge _get_Empty();

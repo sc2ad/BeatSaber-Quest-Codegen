@@ -75,6 +75,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::IJsonLineInfo() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
+    // Creating interface conversion operator: i_IJsonLineInfo
+    inline ::Newtonsoft::Json::IJsonLineInfo* i_IJsonLineInfo() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
+    }
     // Get instance field reference: private readonly Newtonsoft.Json.JsonReader _innerReader
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::JsonReader*& dyn__innerReader();
     // Get instance field reference: private readonly Newtonsoft.Json.JsonTextWriter _textWriter

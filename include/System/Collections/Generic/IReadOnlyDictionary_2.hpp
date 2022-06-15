@@ -34,6 +34,10 @@ namespace System::Collections::Generic {
     operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this);
     }
+    // Creating interface conversion operator: i_KeyValuePair_2_TKey_TValue
+    inline ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* i_KeyValuePair_2_TKey_TValue() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this);
+    }
     // public TValue get_Item(TKey key)
     // Offset: 0xFFFFFFFFFFFFFFFF
     TValue get_Item(TKey key) {

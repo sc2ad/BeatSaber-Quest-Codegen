@@ -82,9 +82,17 @@ namespace GlobalNamespace {
     operator ::Zenject::ITickable() noexcept {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
     }
+    // Creating interface conversion operator: i_ITickable
+    inline ::Zenject::ITickable* i_ITickable() noexcept {
+      return reinterpret_cast<::Zenject::ITickable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IMenuButtonTrigger
     operator ::GlobalNamespace::IMenuButtonTrigger() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMenuButtonTrigger*>(this);
+    }
+    // Creating interface conversion operator: i_IMenuButtonTrigger
+    inline ::GlobalNamespace::IMenuButtonTrigger* i_IMenuButtonTrigger() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMenuButtonTrigger*>(this);
     }
     // Get instance field reference: private System.Action menuButtonTriggeredEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_menuButtonTriggeredEvent();

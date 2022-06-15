@@ -56,6 +56,10 @@ namespace System::Security {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Int32 length
     [[deprecated("Use field access instead!")]] int& dyn_length();
     // Get instance field reference: private System.Boolean disposed

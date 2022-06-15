@@ -42,6 +42,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeMessage
+    inline ::BGNet::Core::Messages::IHandshakeMessage* i_IHandshakeMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
+    }
     // static public PacketPool`1<BGNet.Core.Messages.HandshakeMultipartMessage> get_pool()
     // Offset: 0x15451B4
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HandshakeMultipartMessage*>* get_pool();

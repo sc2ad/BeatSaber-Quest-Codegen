@@ -113,6 +113,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Activation::IConstructionCallMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>(this);
     }
+    // Creating interface conversion operator: i_IConstructionCallMessage
+    inline ::System::Runtime::Remoting::Activation::IConstructionCallMessage* i_IConstructionCallMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>(this);
+    }
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _activator
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Activation::IActivator*& dyn__activator();
     // Get instance field reference: private System.Object[] _activationAttributes

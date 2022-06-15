@@ -52,6 +52,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -103,6 +107,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>
     operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
+    }
+    // Creating interface conversion operator: i_BeatmapDataItem
+    inline ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>* i_BeatmapDataItem() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
     }
     // Get instance field reference: private readonly System.Single <time>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();

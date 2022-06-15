@@ -206,6 +206,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteCutSoundEffectDidFinishEvent
+    inline ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i_INoteCutSoundEffectDidFinishEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfEffects

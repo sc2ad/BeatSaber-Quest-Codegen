@@ -61,6 +61,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
+    // Creating interface conversion operator: i_PreCompInfo
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i_PreCompInfo() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
+    }
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_offset
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_offset();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECLookupTable m_lookupTable

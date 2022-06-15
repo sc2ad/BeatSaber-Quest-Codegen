@@ -101,6 +101,10 @@ namespace System::Text::RegularExpressions {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: System.Char _chMin
       [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn__chMin();
       // Get instance field reference: System.Char _chMax

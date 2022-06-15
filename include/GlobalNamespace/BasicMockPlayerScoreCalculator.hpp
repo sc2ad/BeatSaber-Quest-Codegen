@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
+    // Creating interface conversion operator: i_IMockPlayerScoreCalculator
+    inline ::GlobalNamespace::IMockPlayerScoreCalculator* i_IMockPlayerScoreCalculator() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
+    }
     // Get instance field reference: private readonly System.Single _hitFrequency
     [[deprecated("Use field access instead!")]] float& dyn__hitFrequency();
     // Get instance field reference: private readonly System.Int32 _minScore

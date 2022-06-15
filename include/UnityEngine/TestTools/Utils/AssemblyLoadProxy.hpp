@@ -40,6 +40,10 @@ namespace UnityEngine::TestTools::Utils {
     operator ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy() noexcept {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
     }
+    // Creating interface conversion operator: i_IAssemblyLoadProxy
+    inline ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy* i_IAssemblyLoadProxy() noexcept {
+      return reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x2ABB640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

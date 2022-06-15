@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelData
+    inline ::GlobalNamespace::IBeatmapLevelData* i_IBeatmapLevelData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
+    }
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x14103B8
     ::UnityEngine::AudioClip* get_audioClip();

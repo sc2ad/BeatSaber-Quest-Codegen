@@ -72,9 +72,17 @@ namespace UnityEngine::TextCore {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>
     operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*>(this);
+    }
+    // Creating interface conversion operator: i_GlyphMetrics
+    inline ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>* i_GlyphMetrics() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*>(this);
     }
     // Get instance field reference: private System.Single m_Width
     [[deprecated("Use field access instead!")]] float& dyn_m_Width();

@@ -112,6 +112,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -233,6 +237,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IConnectionManager
     operator ::GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
+    }
+    // Creating interface conversion operator: i_IConnectionManager
+    inline ::GlobalNamespace::IConnectionManager* i_IConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<OculusConnectionManager/OculusConnection> _connections
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>*& dyn__connections();

@@ -34,6 +34,10 @@ namespace System::Security::Cryptography {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static public System.Security.Cryptography.RandomNumberGenerator Create()
     // Offset: 0x20BFA64
     static ::System::Security::Cryptography::RandomNumberGenerator* Create();

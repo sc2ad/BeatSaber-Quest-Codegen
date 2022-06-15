@@ -134,17 +134,33 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*>(this);
     }
+    // Creating interface conversion operator: i_BurstSliderGameNoteController
+    inline ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>* i_BurstSliderGameNoteController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::BurstSliderGameNoteController*>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IGameNoteMirrorable
     operator ::GlobalNamespace::IGameNoteMirrorable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGameNoteMirrorable*>(this);
+    }
+    // Creating interface conversion operator: i_IGameNoteMirrorable
+    inline ::GlobalNamespace::IGameNoteMirrorable* i_IGameNoteMirrorable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGameNoteMirrorable*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteVisualModifierTypeProvider
     operator ::GlobalNamespace::INoteVisualModifierTypeProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(this);
     }
+    // Creating interface conversion operator: i_INoteVisualModifierTypeProvider
+    inline ::GlobalNamespace::INoteVisualModifierTypeProvider* i_INoteVisualModifierTypeProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteMovementProvider
     operator ::GlobalNamespace::INoteMovementProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
+    }
+    // Creating interface conversion operator: i_INoteMovementProvider
+    inline ::GlobalNamespace::INoteMovementProvider* i_INoteMovementProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
     }
     // Get instance field reference: private BoxCuttableBySaber[] _bigCuttableBySaberList
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BoxCuttableBySaber*>& dyn__bigCuttableBySaberList();

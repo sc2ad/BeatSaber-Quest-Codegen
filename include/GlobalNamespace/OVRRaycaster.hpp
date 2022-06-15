@@ -103,6 +103,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.UI.Graphic graphic
       [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Graphic*& dyn_graphic();
       // Get instance field reference: public UnityEngine.Vector3 worldPos
@@ -145,6 +149,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerEnterHandler
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
     // Get static field: static private readonly System.Collections.Generic.List`1<OVRRaycaster/RaycastHit> s_SortedGraphics
     static ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster::RaycastHit>* _get_s_SortedGraphics();

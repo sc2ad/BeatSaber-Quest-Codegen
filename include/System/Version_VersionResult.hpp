@@ -71,6 +71,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Version m_parsedVersion
     [[deprecated("Use field access instead!")]] ::System::Version*& dyn_m_parsedVersion();
     // Get instance field reference: System.Version/System.ParseFailureKind m_failure

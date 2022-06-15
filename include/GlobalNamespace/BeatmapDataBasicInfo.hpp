@@ -73,6 +73,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapDataBasicInfo() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapDataBasicInfo
+    inline ::GlobalNamespace::IBeatmapDataBasicInfo* i_IBeatmapDataBasicInfo() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 <numberOfLines>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$numberOfLines$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <cuttableNotesCount>k__BackingField

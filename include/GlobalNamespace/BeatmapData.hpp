@@ -163,6 +163,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IReadonlyBeatmapData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReadonlyBeatmapData*>(this);
     }
+    // Creating interface conversion operator: i_IReadonlyBeatmapData
+    inline ::GlobalNamespace::IReadonlyBeatmapData* i_IReadonlyBeatmapData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReadonlyBeatmapData*>(this);
+    }
     // Get instance field reference: private System.Int32 <cuttableNotesCount>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$cuttableNotesCount$k__BackingField();
     // Get instance field reference: private System.Int32 <obstaclesCount>k__BackingField

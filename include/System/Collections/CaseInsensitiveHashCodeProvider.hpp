@@ -51,6 +51,10 @@ namespace System::Collections {
     operator ::System::Collections::IHashCodeProvider() noexcept {
       return *reinterpret_cast<::System::Collections::IHashCodeProvider*>(this);
     }
+    // Creating interface conversion operator: i_IHashCodeProvider
+    inline ::System::Collections::IHashCodeProvider* i_IHashCodeProvider() noexcept {
+      return reinterpret_cast<::System::Collections::IHashCodeProvider*>(this);
+    }
     // Creating conversion operator: operator ::System::Globalization::TextInfo*
     constexpr operator ::System::Globalization::TextInfo*() const noexcept {
       return m_text;

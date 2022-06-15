@@ -76,9 +76,17 @@ namespace UnityEngine::UI::CoroutineTween {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::CoroutineTween::ITweenValue
     operator ::UnityEngine::UI::CoroutineTween::ITweenValue() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
+    }
+    // Creating interface conversion operator: i_ITweenValue
+    inline ::UnityEngine::UI::CoroutineTween::ITweenValue* i_ITweenValue() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback*& dyn_m_Target();

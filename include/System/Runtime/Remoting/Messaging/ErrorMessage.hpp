@@ -59,6 +59,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMethodCallMessage
+    inline ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i_IMethodCallMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return uri;

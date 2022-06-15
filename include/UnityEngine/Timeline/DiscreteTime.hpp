@@ -43,9 +43,17 @@ namespace UnityEngine::Timeline {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Creating conversion operator: operator int64_t
     constexpr operator int64_t() const noexcept {

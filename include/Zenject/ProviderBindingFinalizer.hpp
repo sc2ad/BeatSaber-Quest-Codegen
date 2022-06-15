@@ -72,6 +72,10 @@ namespace Zenject {
     operator ::Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
     }
+    // Creating interface conversion operator: i_IBindingFinalizer
+    inline ::Zenject::IBindingFinalizer* i_IBindingFinalizer() noexcept {
+      return reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
+    }
     // Creating conversion operator: operator ::Zenject::BindInfo*
     constexpr operator ::Zenject::BindInfo*() const noexcept {
       return BindInfo;

@@ -69,6 +69,10 @@ namespace UnityEngine::ProBuilder {
     operator ::UnityEngine::ProBuilder::IHasDefault() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::IHasDefault*>(this);
     }
+    // Creating interface conversion operator: i_IHasDefault
+    inline ::UnityEngine::ProBuilder::IHasDefault* i_IHasDefault() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::IHasDefault*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color <current>k__BackingField

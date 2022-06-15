@@ -133,6 +133,10 @@ namespace BGNet::Core::GameLift {
     operator ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider() noexcept {
       return *reinterpret_cast<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*>(this);
     }
+    // Creating interface conversion operator: i_IGameLiftPlayerSessionProvider
+    inline ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* i_IGameLiftPlayerSessionProvider() noexcept {
+      return reinterpret_cast<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*>(this);
+    }
     // static field const value: static private System.Int32 kMatchmakingTimeoutMs
     static constexpr const int kMatchmakingTimeoutMs = 120000;
     // Get static field: static private System.Int32 kMatchmakingTimeoutMs

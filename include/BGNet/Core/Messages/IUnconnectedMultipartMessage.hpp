@@ -29,6 +29,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedReliableRequest() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableRequest*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedReliableRequest
+    inline ::BGNet::Core::Messages::IUnconnectedReliableRequest* i_IUnconnectedReliableRequest() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableRequest*>(this);
+    }
     // public System.UInt32 get_multipartMessageId()
     // Offset: 0xFFFFFFFFFFFFFFFF
     uint get_multipartMessageId();

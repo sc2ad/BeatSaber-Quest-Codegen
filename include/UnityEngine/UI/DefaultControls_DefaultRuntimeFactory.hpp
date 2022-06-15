@@ -44,6 +44,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::DefaultControls::IFactoryControls() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::DefaultControls::IFactoryControls*>(this);
     }
+    // Creating interface conversion operator: i_IFactoryControls
+    inline ::UnityEngine::UI::DefaultControls::IFactoryControls* i_IFactoryControls() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::DefaultControls::IFactoryControls*>(this);
+    }
     // Get static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default
     static ::UnityEngine::UI::DefaultControls::IFactoryControls* _get_Default();
     // Set static field: static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls Default

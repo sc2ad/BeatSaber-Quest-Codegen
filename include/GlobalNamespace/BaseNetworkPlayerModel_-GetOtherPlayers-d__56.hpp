@@ -65,6 +65,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(this);
     }
+    // Creating interface conversion operator: i_INetworkPlayer
+    inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* i_INetworkPlayer() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>
     operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(this);

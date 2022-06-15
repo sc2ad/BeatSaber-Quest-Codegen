@@ -70,9 +70,17 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>*>(this);
     }
+    // Creating interface conversion operator: i_OculusConnection
+    inline ::System::IEquatable_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>* i_OculusConnection() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::OculusConnectionManager::OculusConnection*>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IConnection
     operator ::GlobalNamespace::IConnection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnection*>(this);
+    }
+    // Creating interface conversion operator: i_IConnection
+    inline ::GlobalNamespace::IConnection* i_IConnection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnection*>(this);
     }
     // Get instance field reference: private readonly System.UInt64 _id
     [[deprecated("Use field access instead!")]] uint64_t& dyn__id();

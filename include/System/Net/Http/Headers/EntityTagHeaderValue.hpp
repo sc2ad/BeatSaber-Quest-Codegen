@@ -64,6 +64,10 @@ namespace System::Net::Http::Headers {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Get static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any
     static ::System::Net::Http::Headers::EntityTagHeaderValue* _get_any();
     // Set static field: static private readonly System.Net.Http.Headers.EntityTagHeaderValue any

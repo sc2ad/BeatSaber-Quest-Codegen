@@ -59,6 +59,10 @@ namespace Mono::Http {
     operator ::System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationModule
+    inline ::System::Net::IAuthenticationModule* i_IAuthenticationModule() noexcept {
+      return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
+    }
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache
     static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* _get_cache();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache

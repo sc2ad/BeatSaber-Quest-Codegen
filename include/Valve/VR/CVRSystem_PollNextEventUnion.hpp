@@ -42,6 +42,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public Valve.VR.IVRSystem/Valve.VR._PollNextEvent pPollNextEvent
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRSystem::_PollNextEvent*& dyn_pPollNextEvent();
     // Get instance field reference: public Valve.VR.CVRSystem/Valve.VR._PollNextEventPacked pPollNextEventPacked

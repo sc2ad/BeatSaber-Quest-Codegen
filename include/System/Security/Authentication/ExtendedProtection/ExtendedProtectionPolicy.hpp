@@ -46,6 +46,10 @@ namespace System::Security::Authentication::ExtendedProtection {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // public System.Void .ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement policyEnforcement)
     // Offset: 0x1B59214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

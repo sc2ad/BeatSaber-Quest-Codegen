@@ -83,9 +83,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBladeMovementData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBladeMovementData*>(this);
     }
+    // Creating interface conversion operator: i_IBladeMovementData
+    inline ::GlobalNamespace::IBladeMovementData* i_IBladeMovementData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBladeMovementData*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISaberMovementData
     operator ::GlobalNamespace::ISaberMovementData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberMovementData*>(this);
+    }
+    // Creating interface conversion operator: i_ISaberMovementData
+    inline ::GlobalNamespace::ISaberMovementData* i_ISaberMovementData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberMovementData*>(this);
     }
     // static field const value: static private System.Single kOutOfRangeBladeSpeed
     static constexpr const float kOutOfRangeBladeSpeed = 100;

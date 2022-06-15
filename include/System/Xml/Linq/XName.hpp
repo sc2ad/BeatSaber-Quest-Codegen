@@ -70,9 +70,17 @@ namespace System::Xml::Linq {
     operator ::System::IEquatable_1<::System::Xml::Linq::XName*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::Xml::Linq::XName*>*>(this);
     }
+    // Creating interface conversion operator: i_XName
+    inline ::System::IEquatable_1<::System::Xml::Linq::XName*>* i_XName() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::Xml::Linq::XName*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get instance field reference: private System.Xml.Linq.XNamespace ns
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNamespace*& dyn_ns();

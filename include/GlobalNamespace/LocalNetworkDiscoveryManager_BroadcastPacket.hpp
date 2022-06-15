@@ -91,6 +91,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Get instance field reference: public System.UInt32 version
     [[deprecated("Use field access instead!")]] uint& dyn_version();
     // Get instance field reference: public System.String userId

@@ -165,9 +165,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Matrix4x4>
     operator ::System::IEquatable_1<::UnityEngine::Matrix4x4>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Matrix4x4>*>(this);
+    }
+    // Creating interface conversion operator: i_Matrix4x4
+    inline ::System::IEquatable_1<::UnityEngine::Matrix4x4>* i_Matrix4x4() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Matrix4x4>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Matrix4x4 zeroMatrix
     static ::UnityEngine::Matrix4x4 _get_zeroMatrix();

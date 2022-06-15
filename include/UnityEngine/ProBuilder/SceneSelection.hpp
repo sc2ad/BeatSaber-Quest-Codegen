@@ -111,6 +111,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>*>(this);
     }
+    // Creating interface conversion operator: i_SceneSelection
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>* i_SceneSelection() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObject();
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh

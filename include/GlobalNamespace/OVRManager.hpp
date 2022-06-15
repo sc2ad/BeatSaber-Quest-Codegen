@@ -467,6 +467,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration() noexcept {
       return *reinterpret_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(this);
     }
+    // Creating interface conversion operator: i_OVRMixedRealityCaptureConfiguration
+    inline ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i_OVRMixedRealityCaptureConfiguration() noexcept {
+      return reinterpret_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRManager <instance>k__BackingField

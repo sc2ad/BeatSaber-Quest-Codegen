@@ -42,9 +42,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*>(this);
+    }
+    // Creating interface conversion operator: i_ShaderTagId
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i_ShaderTagId() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {

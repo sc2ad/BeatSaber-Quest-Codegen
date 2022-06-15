@@ -120,9 +120,17 @@ namespace System::Collections {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IDictionary
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
     // static field const value: static private System.Int32 _defaultCapacity
     static constexpr const int _defaultCapacity = 16;

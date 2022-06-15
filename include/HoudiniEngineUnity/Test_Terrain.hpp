@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_Terrain
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>* i_Test_Terrain() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Terrain*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Terrain*
     constexpr operator ::UnityEngine::Terrain*() const noexcept {
       return self;

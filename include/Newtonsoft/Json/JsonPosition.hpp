@@ -85,6 +85,10 @@ namespace Newtonsoft::Json {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private readonly System.Char[] SpecialCharacters
     static ::ArrayW<::Il2CppChar> _get_SpecialCharacters();
     // Set static field: static private readonly System.Char[] SpecialCharacters

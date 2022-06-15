@@ -54,6 +54,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private readonly System.Type _resolverType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__resolverType();
     // Get instance field reference: private readonly System.Type _contractType

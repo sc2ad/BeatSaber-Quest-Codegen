@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IExperimentData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IExperimentData*>(this);
     }
+    // Creating interface conversion operator: i_IExperimentData
+    inline ::GlobalNamespace::IExperimentData* i_IExperimentData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IExperimentData*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return experimentPlatformKey;

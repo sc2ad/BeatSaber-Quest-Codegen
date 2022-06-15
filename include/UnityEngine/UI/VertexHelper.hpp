@@ -118,6 +118,10 @@ namespace UnityEngine::UI {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private readonly UnityEngine.Vector4 s_DefaultTangent
     static ::UnityEngine::Vector4 _get_s_DefaultTangent();
     // Set static field: static private readonly UnityEngine.Vector4 s_DefaultTangent

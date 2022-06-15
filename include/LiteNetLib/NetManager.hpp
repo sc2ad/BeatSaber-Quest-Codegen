@@ -384,9 +384,17 @@ namespace LiteNetLib {
     operator ::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>*>(this);
     }
+    // Creating interface conversion operator: i_NetPeer
+    inline ::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>* i_NetPeer() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::LiteNetLib::NetPeer*>*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::INetSocketListener
     operator ::LiteNetLib::INetSocketListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetSocketListener*>(this);
+    }
+    // Creating interface conversion operator: i_INetSocketListener
+    inline ::LiteNetLib::INetSocketListener* i_INetSocketListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetSocketListener*>(this);
     }
     // Get instance field reference: private readonly LiteNetLib.NetSocket _socket
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetSocket*& dyn__socket();

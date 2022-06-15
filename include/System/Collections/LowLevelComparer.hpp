@@ -32,6 +32,10 @@ namespace System::Collections {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // Get static field: static readonly System.Collections.LowLevelComparer Default
     static ::System::Collections::LowLevelComparer* _get_Default();
     // Set static field: static readonly System.Collections.LowLevelComparer Default

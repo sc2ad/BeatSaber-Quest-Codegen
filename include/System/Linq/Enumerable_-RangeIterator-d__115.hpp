@@ -88,9 +88,17 @@ namespace System::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<int>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<int>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_int
+    inline ::System::Collections::Generic::IEnumerable_1<int>* i_IEnumerable_1_int() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<int>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<int>
     operator ::System::Collections::Generic::IEnumerator_1<int>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<int>*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerator_1_int
+    inline ::System::Collections::Generic::IEnumerator_1<int>* i_IEnumerator_1_int() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<int>*>(this);
     }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();

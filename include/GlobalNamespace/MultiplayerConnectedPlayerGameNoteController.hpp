@@ -82,13 +82,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(this);
     }
+    // Creating interface conversion operator: i_MultiplayerConnectedPlayerGameNoteController
+    inline ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* i_MultiplayerConnectedPlayerGameNoteController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteVisualModifierTypeProvider
     operator ::GlobalNamespace::INoteVisualModifierTypeProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(this);
     }
+    // Creating interface conversion operator: i_INoteVisualModifierTypeProvider
+    inline ::GlobalNamespace::INoteVisualModifierTypeProvider* i_INoteVisualModifierTypeProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteVisualModifierTypeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteMovementProvider
     operator ::GlobalNamespace::INoteMovementProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
+    }
+    // Creating interface conversion operator: i_INoteMovementProvider
+    inline ::GlobalNamespace::INoteMovementProvider* i_INoteMovementProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
     }
     // Get instance field reference: private System.Action`1<MultiplayerConnectedPlayerGameNoteController> cubeNoteControllerDidInitEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();

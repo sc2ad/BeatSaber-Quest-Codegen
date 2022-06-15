@@ -51,6 +51,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mTrackingToComponentRenderModel
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::HmdMatrix34_t& dyn_mTrackingToComponentRenderModel();
     // Get instance field reference: public OVR.OpenVR.HmdMatrix34_t mTrackingToComponentLocal

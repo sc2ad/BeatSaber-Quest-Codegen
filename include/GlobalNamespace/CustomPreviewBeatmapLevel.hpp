@@ -196,9 +196,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPreviewBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IPreviewBeatmapLevel
+    inline ::GlobalNamespace::IPreviewBeatmapLevel* i_IPreviewBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i_IFilePathSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
     }
     // Get instance field reference: private readonly ISpriteAsyncLoader <spriteAsyncLoader>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISpriteAsyncLoader*& dyn_$spriteAsyncLoader$k__BackingField();

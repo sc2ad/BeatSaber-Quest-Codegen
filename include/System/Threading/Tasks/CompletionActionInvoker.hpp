@@ -60,6 +60,10 @@ namespace System::Threading::Tasks {
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
     // Get instance field reference: private readonly System.Threading.Tasks.ITaskCompletionAction m_action
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::ITaskCompletionAction*& dyn_m_action();
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_completingTask

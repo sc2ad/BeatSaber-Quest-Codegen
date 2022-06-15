@@ -74,6 +74,10 @@ namespace Newtonsoft::Json::Linq {
     operator ::Newtonsoft::Json::IJsonLineInfo() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
+    // Creating interface conversion operator: i_IJsonLineInfo
+    inline ::Newtonsoft::Json::IJsonLineInfo* i_IJsonLineInfo() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
+    }
     // Get instance field reference: private readonly Newtonsoft.Json.Linq.JToken _root
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::JToken*& dyn__root();
     // Get instance field reference: private System.String _initialPath

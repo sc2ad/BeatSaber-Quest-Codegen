@@ -34,6 +34,10 @@ namespace Org::BouncyCastle::Crypto {
     operator ::Org::BouncyCastle::Crypto::IDsa() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsa*>(this);
     }
+    // Creating interface conversion operator: i_IDsa
+    inline ::Org::BouncyCastle::Crypto::IDsa* i_IDsa() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDsa*>(this);
+    }
     // public Org.BouncyCastle.Math.BigInteger get_Order()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::BigInteger* get_Order();

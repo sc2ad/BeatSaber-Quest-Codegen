@@ -100,6 +100,10 @@ namespace HMUI {
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
     // static field const value: static private System.String kCellReuseIdentifier
     static constexpr const char* kCellReuseIdentifier = "Cell";
     // Get static field: static private System.String kCellReuseIdentifier

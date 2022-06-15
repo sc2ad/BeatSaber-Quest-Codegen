@@ -52,6 +52,10 @@ namespace Zenject {
     operator ::Zenject::IFactory_4<::StringW, P1, P2, T>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_4<::StringW, P1, P2, T>*>(this);
     }
+    // Creating interface conversion operator: i_StringW_P1_P2_T
+    inline ::Zenject::IFactory_4<::StringW, P1, P2, T>* i_StringW_P1_P2_T() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_4<::StringW, P1, P2, T>*>(this);
+    }
     // Creating conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept {
       return container;

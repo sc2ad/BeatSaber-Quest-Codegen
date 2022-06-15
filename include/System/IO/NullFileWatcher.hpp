@@ -39,6 +39,10 @@ namespace System::IO {
     operator ::System::IO::IFileWatcher() noexcept {
       return *reinterpret_cast<::System::IO::IFileWatcher*>(this);
     }
+    // Creating interface conversion operator: i_IFileWatcher
+    inline ::System::IO::IFileWatcher* i_IFileWatcher() noexcept {
+      return reinterpret_cast<::System::IO::IFileWatcher*>(this);
+    }
     // Get static field: static private System.IO.IFileWatcher instance
     static ::System::IO::IFileWatcher* _get_instance();
     // Set static field: static private System.IO.IFileWatcher instance

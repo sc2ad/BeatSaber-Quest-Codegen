@@ -51,6 +51,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     operator ::UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
+    // Creating interface conversion operator: i_IRemoteTestResultDataFactory
+    inline ::UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* i_IRemoteTestResultDataFactory() noexcept {
+      return reinterpret_cast<::UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x197B294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

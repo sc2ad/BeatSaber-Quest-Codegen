@@ -93,6 +93,10 @@ namespace System::Xml {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.String prefix
       [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
       // Get instance field reference: public System.String uri
@@ -168,9 +172,17 @@ namespace System::Xml {
     operator ::System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNamespaceResolver
+    inline ::System::Xml::IXmlNamespaceResolver* i_IXmlNamespaceResolver() noexcept {
+      return reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IEnumerable
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
     // Get instance field reference: private System.Xml.XmlNamespaceManager/System.Xml.NamespaceDeclaration[] nsdecls
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Xml::XmlNamespaceManager::NamespaceDeclaration>& dyn_nsdecls();

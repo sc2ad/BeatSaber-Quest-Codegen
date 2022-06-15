@@ -46,6 +46,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITestFilter() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
+    // Creating interface conversion operator: i_ITestFilter
+    inline ::NUnit::Framework::Interfaces::ITestFilter* i_ITestFilter() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
+    }
     // Get static field: static public readonly NUnit.Framework.Internal.TestFilter Empty
     static ::NUnit::Framework::Internal::TestFilter* _get_Empty();
     // Set static field: static public readonly NUnit.Framework.Internal.TestFilter Empty

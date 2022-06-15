@@ -55,6 +55,10 @@ namespace OVRSimpleJSON {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -104,6 +108,10 @@ namespace OVRSimpleJSON {
     // Creating interface conversion operator: operator ::System::ValueType
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
+    }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator/OVRSimpleJSON.Type type
     [[deprecated("Use field access instead!")]] ::OVRSimpleJSON::JSONNode::Enumerator::Type& dyn_type();

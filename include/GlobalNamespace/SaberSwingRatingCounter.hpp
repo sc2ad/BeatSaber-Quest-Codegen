@@ -191,9 +191,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISaberMovementDataProcessor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(this);
     }
+    // Creating interface conversion operator: i_ISaberMovementDataProcessor
+    inline ::GlobalNamespace::ISaberMovementDataProcessor* i_ISaberMovementDataProcessor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISaberSwingRatingCounter
     operator ::GlobalNamespace::ISaberSwingRatingCounter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
+    }
+    // Creating interface conversion operator: i_ISaberSwingRatingCounter
+    inline ::GlobalNamespace::ISaberSwingRatingCounter* i_ISaberSwingRatingCounter() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
     }
     // Get instance field reference: private ISaberMovementData _saberMovementData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISaberMovementData*& dyn__saberMovementData();

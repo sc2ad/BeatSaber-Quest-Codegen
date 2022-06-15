@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IExperimentModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
     }
+    // Creating interface conversion operator: i_IExperimentModel
+    inline ::GlobalNamespace::IExperimentModel* i_IExperimentModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x14ABBBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -42,6 +42,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IEditTimeValidated() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IEditTimeValidated*>(this);
     }
+    // Creating interface conversion operator: i_IEditTimeValidated
+    inline ::GlobalNamespace::IEditTimeValidated* i_IEditTimeValidated() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IEditTimeValidated*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _lightId

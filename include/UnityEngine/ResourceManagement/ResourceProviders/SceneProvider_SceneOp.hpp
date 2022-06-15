@@ -110,6 +110,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
     }
+    // Creating interface conversion operator: i_IUpdateReceiver
+    inline ::UnityEngine::ResourceManagement::IUpdateReceiver* i_IUpdateReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
+    }
     // Get instance field reference: private System.Boolean m_ActivateOnLoad
     [[deprecated("Use field access instead!")]] bool& dyn_m_ActivateOnLoad();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Inst

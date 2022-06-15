@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
+    // Creating interface conversion operator: i_IGcmMultiplier
+    inline ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i_IGcmMultiplier() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
+    }
     // Get instance field reference: private System.Byte[] H
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_H();
     // Get instance field reference: private System.UInt32[][][] M

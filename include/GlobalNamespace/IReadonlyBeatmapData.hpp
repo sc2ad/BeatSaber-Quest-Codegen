@@ -66,6 +66,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapDataBasicInfo() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapDataBasicInfo
+    inline ::GlobalNamespace::IBeatmapDataBasicInfo* i_IBeatmapDataBasicInfo() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapDataBasicInfo*>(this);
+    }
     // public System.Collections.Generic.LinkedList`1<BeatmapDataItem> get_allBeatmapDataItems()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();

@@ -39,6 +39,10 @@ namespace System::ComponentModel {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // public System.ComponentModel.ISite get_Site()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::ComponentModel::ISite* get_Site();

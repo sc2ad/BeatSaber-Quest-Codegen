@@ -212,9 +212,17 @@ namespace BGNet::Core::Messages {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Creating interface conversion operator: operator ::System::IEquatable_1<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId>
       operator ::System::IEquatable_1<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId>() noexcept {
         return *reinterpret_cast<::System::IEquatable_1<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId>*>(this);
+      }
+      // Creating interface conversion operator: i_RequestWaiterId
+      inline ::System::IEquatable_1<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId>* i_RequestWaiterId() noexcept {
+        return reinterpret_cast<::System::IEquatable_1<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId>*>(this);
       }
       // Get instance field reference: public readonly System.Net.IPEndPoint endPoint
       [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
@@ -267,6 +275,10 @@ namespace BGNet::Core::Messages {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.Net.IPEndPoint endPoint
       [[deprecated("Use field access instead!")]] ::System::Net::IPEndPoint*& dyn_endPoint();
@@ -369,9 +381,17 @@ namespace BGNet::Core::Messages {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IUnconnectedMessageReceiver
     operator ::GlobalNamespace::IUnconnectedMessageReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IUnconnectedMessageReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_IUnconnectedMessageReceiver
+    inline ::GlobalNamespace::IUnconnectedMessageReceiver* i_IUnconnectedMessageReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IUnconnectedMessageReceiver*>(this);
     }
     // static field const value: static protected System.UInt32 kProtocolVersion
     static constexpr const uint kProtocolVersion = 8u;

@@ -52,6 +52,10 @@ namespace System::Security {
     operator ::System::Security::IPermission() noexcept {
       return *reinterpret_cast<::System::Security::IPermission*>(this);
     }
+    // Creating interface conversion operator: i_IPermission
+    inline ::System::Security::IPermission* i_IPermission() noexcept {
+      return reinterpret_cast<::System::Security::IPermission*>(this);
+    }
     // public System.Void Demand()
     // Offset: 0x1BA2CAC
     void Demand();

@@ -44,6 +44,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt64 ulUserValue
     [[deprecated("Use field access instead!")]] uint64_t& dyn_ulUserValue();
     // Get instance field reference: public System.UInt32 notificationId

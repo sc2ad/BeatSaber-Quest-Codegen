@@ -31,6 +31,10 @@ namespace System::Runtime::Remoting::Channels {
     operator ::System::Runtime::Remoting::Channels::IChannel() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Channels::IChannel*>(this);
     }
+    // Creating interface conversion operator: i_IChannel
+    inline ::System::Runtime::Remoting::Channels::IChannel* i_IChannel() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Channels::IChannel*>(this);
+    }
     // public System.Object get_ChannelData()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_ChannelData();

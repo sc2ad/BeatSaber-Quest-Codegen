@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelPackCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelPackCollection
+    inline ::GlobalNamespace::IBeatmapLevelPackCollection* i_IBeatmapLevelPackCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>
     constexpr operator ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>() const noexcept {
       return beatmapLevelPacks;

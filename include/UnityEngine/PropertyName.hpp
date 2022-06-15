@@ -44,9 +44,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::PropertyName>
     operator ::System::IEquatable_1<::UnityEngine::PropertyName>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::PropertyName>*>(this);
+    }
+    // Creating interface conversion operator: i_PropertyName
+    inline ::System::IEquatable_1<::UnityEngine::PropertyName>* i_PropertyName() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::PropertyName>*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {

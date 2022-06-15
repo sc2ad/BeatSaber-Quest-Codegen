@@ -93,6 +93,10 @@ namespace System::Xml::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>*>(this);
     }
+    // Creating interface conversion operator: i_XAttribute
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* i_XAttribute() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>*>(this);

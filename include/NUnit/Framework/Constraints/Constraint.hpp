@@ -79,6 +79,10 @@ namespace NUnit::Framework::Constraints {
     operator ::NUnit::Framework::Constraints::IConstraint() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Constraints::IConstraint*>(this);
     }
+    // Creating interface conversion operator: i_IConstraint
+    inline ::NUnit::Framework::Constraints::IConstraint* i_IConstraint() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Constraints::IConstraint*>(this);
+    }
     // Get instance field reference: private System.Lazy`1<System.String> _displayName
     [[deprecated("Use field access instead!")]] ::System::Lazy_1_<::StringW>*& dyn__displayName();
     // Get instance field reference: private System.String <Description>k__BackingField

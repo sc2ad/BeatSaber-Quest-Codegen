@@ -96,6 +96,10 @@ namespace Zenject {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.IDisposable Disposable
       [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn_Disposable();
       // Get instance field reference: public System.Int32 Priority
@@ -136,6 +140,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
+    }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.DisposableInfo> _disposables
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::DisposableManager::DisposableInfo>*& dyn__disposables();

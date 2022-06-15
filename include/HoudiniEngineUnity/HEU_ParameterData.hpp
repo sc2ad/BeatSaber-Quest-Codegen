@@ -212,6 +212,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_ParameterData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>* i_HEU_ParameterData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(this);
+    }
     // Get instance field reference: public System.Int32 _unityIndex
     [[deprecated("Use field access instead!")]] int& dyn__unityIndex();
     // Get instance field reference: public System.String _name

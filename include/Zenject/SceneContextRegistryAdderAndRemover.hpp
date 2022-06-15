@@ -60,9 +60,17 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IInitializable
     operator ::Zenject::IInitializable() noexcept {
       return *reinterpret_cast<::Zenject::IInitializable*>(this);
+    }
+    // Creating interface conversion operator: i_IInitializable
+    inline ::Zenject::IInitializable* i_IInitializable() noexcept {
+      return reinterpret_cast<::Zenject::IInitializable*>(this);
     }
     // Get instance field reference: private readonly Zenject.SceneContextRegistry _registry
     [[deprecated("Use field access instead!")]] ::Zenject::SceneContextRegistry*& dyn__registry();

@@ -50,6 +50,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedResponse() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedResponse*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedResponse
+    inline ::BGNet::Core::Messages::IUnconnectedResponse* i_IUnconnectedResponse() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedResponse*>(this);
+    }
     // Creating conversion operator: operator uint
     constexpr operator uint() const noexcept {
       return responseId;

@@ -80,9 +80,17 @@ namespace Zenject {
     operator ::Zenject::IPoolable_2<::System::Action_1<::Il2CppObject*>*, ::Zenject::SignalDeclaration*>() noexcept {
       return *reinterpret_cast<::Zenject::IPoolable_2<::System::Action_1<::Il2CppObject*>*, ::Zenject::SignalDeclaration*>*>(this);
     }
+    // Creating interface conversion operator: i_SignalDeclaration
+    inline ::Zenject::IPoolable_2<::System::Action_1<::Il2CppObject*>*, ::Zenject::SignalDeclaration*>* i_SignalDeclaration() noexcept {
+      return reinterpret_cast<::Zenject::IPoolable_2<::System::Action_1<::Il2CppObject*>*, ::Zenject::SignalDeclaration*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
+    }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly Zenject.SignalSubscription/Zenject.Pool _pool
     [[deprecated("Use field access instead!")]] ::Zenject::SignalSubscription::Pool*& dyn__pool();

@@ -99,6 +99,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
+    // Creating interface conversion operator: i_IStreamCipher
+    inline ::Org::BouncyCastle::Crypto::IStreamCipher* i_IStreamCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
+    }
     // Get static field: static public readonly System.Int32 DEFAULT_ROUNDS
     static int _get_DEFAULT_ROUNDS();
     // Set static field: static public readonly System.Int32 DEFAULT_ROUNDS

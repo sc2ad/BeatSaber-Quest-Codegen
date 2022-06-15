@@ -66,6 +66,10 @@ namespace TMPro {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -138,9 +142,17 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::TMPro::ITweenValue
     operator ::TMPro::ITweenValue() noexcept {
       return *reinterpret_cast<::TMPro::ITweenValue*>(this);
+    }
+    // Creating interface conversion operator: i_ITweenValue
+    inline ::TMPro::ITweenValue* i_ITweenValue() noexcept {
+      return reinterpret_cast<::TMPro::ITweenValue*>(this);
     }
     // Get instance field reference: private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
     [[deprecated("Use field access instead!")]] ::TMPro::ColorTween::ColorTweenCallback*& dyn_m_Target();

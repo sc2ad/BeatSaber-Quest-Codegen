@@ -187,6 +187,10 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: public System.Boolean MarkAsCreationBinding
     [[deprecated("Use field access instead!")]] bool& dyn_MarkAsCreationBinding();
     // Get instance field reference: public System.Boolean MarkAsUniqueSingleton

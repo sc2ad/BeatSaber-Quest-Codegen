@@ -61,6 +61,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>
     constexpr operator ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept {
       return elements;

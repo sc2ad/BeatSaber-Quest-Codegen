@@ -205,6 +205,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get static field: static protected UnityEngine.Material s_DefaultUI

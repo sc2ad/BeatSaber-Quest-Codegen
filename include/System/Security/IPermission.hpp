@@ -28,6 +28,10 @@ namespace System::Security {
     operator ::System::Security::ISecurityEncodable() noexcept {
       return *reinterpret_cast<::System::Security::ISecurityEncodable*>(this);
     }
+    // Creating interface conversion operator: i_ISecurityEncodable
+    inline ::System::Security::ISecurityEncodable* i_ISecurityEncodable() noexcept {
+      return reinterpret_cast<::System::Security::ISecurityEncodable*>(this);
+    }
     // public System.Void Demand()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Demand();

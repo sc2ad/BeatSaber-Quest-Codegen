@@ -70,6 +70,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::System::Runtime::Serialization::IFormatterConverter() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
     }
+    // Creating interface conversion operator: i_IFormatterConverter
+    inline ::System::Runtime::Serialization::IFormatterConverter* i_IFormatterConverter() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
+    }
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _reader
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__reader();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonISerializableContract _contract

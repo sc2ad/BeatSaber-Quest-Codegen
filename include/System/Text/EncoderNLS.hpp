@@ -85,6 +85,10 @@ namespace System::Text {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Get instance field reference: System.Char charLeftOver
     [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_charLeftOver();
     // Get instance field reference: protected System.Text.Encoding m_encoding

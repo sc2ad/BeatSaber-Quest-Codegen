@@ -47,6 +47,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::IInterval() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::IInterval*>(this);
     }
+    // Creating interface conversion operator: i_IInterval
+    inline ::UnityEngine::Timeline::IInterval* i_IInterval() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::IInterval*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return intervalBit;

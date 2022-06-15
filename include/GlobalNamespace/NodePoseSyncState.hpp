@@ -69,17 +69,33 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable>
     operator ::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable>*>(this);
     }
+    // Creating interface conversion operator: i_PoseSerializable
+    inline ::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable>* i_PoseSerializable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IStateTable_3<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>
     operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>*>(this);
+    }
+    // Creating interface conversion operator: i_NodePoseSyncState
+    inline ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>* i_NodePoseSyncState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>*>(this);
     }
     // Get instance field reference: private PoseSerializable _head
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PoseSerializable& dyn__head();

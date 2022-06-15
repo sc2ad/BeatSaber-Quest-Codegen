@@ -41,6 +41,10 @@ namespace System::Runtime::Remoting {
     operator ::System::Runtime::Remoting::IChannelInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IChannelInfo*>(this);
     }
+    // Creating interface conversion operator: i_IChannelInfo
+    inline ::System::Runtime::Remoting::IChannelInfo* i_IChannelInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IChannelInfo*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Il2CppObject*>
     constexpr operator ::ArrayW<::Il2CppObject*>() const noexcept {
       return channelData;

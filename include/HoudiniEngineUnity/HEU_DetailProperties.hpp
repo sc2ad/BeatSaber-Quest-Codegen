@@ -58,6 +58,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_DetailProperties
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>* i_HEU_DetailProperties() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(this);
+    }
     // Get instance field reference: public System.Single _detailDistance
     [[deprecated("Use field access instead!")]] float& dyn__detailDistance();
     // Get instance field reference: public System.Single _detailDensity

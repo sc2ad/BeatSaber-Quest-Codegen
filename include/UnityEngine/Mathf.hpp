@@ -35,6 +35,10 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly System.Single Epsilon
     static float _get_Epsilon();
     // Set static field: static public readonly System.Single Epsilon

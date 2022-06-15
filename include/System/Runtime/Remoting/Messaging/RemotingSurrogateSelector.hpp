@@ -62,6 +62,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Serialization::ISurrogateSelector() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISurrogateSelector*>(this);
     }
+    // Creating interface conversion operator: i_ISurrogateSelector
+    inline ::System::Runtime::Serialization::ISurrogateSelector* i_ISurrogateSelector() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISurrogateSelector*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Serialization::ISurrogateSelector*
     constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() const noexcept {
       return next;

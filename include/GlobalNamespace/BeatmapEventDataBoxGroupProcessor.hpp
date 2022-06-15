@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapEventDataBoxGroup
+    inline ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* i_BeatmapEventDataBoxGroup() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
     constexpr operator ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() const noexcept {
       return dirtyBoxGroups;

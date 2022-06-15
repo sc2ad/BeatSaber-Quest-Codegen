@@ -80,9 +80,17 @@ namespace UnityEngine::Playables {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>
     operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>*>(this);
+    }
+    // Creating interface conversion operator: i_PlayableHandle
+    inline ::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>* i_PlayableHandle() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::PlayableHandle>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Playables.PlayableHandle m_Null
     static ::UnityEngine::Playables::PlayableHandle _get_m_Null();

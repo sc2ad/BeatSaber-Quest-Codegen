@@ -49,6 +49,10 @@ namespace System::Runtime::InteropServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Object m_wrapper
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_wrapper();
     // Get instance field reference: System.IntPtr m_handle

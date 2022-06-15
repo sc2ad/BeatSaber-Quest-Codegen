@@ -164,6 +164,10 @@ namespace System::Xml {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -350,6 +354,10 @@ namespace System::Xml {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -397,6 +405,10 @@ namespace System::Xml {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -642,6 +654,10 @@ namespace System::Xml {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: System.Char[] chars
       [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_chars();
@@ -1198,6 +1214,10 @@ namespace System::Xml {
     // Creating interface conversion operator: operator ::System::Xml::IXmlNamespaceResolver
     operator ::System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
+    }
+    // Creating interface conversion operator: i_IXmlNamespaceResolver
+    inline ::System::Xml::IXmlNamespaceResolver* i_IXmlNamespaceResolver() noexcept {
+      return reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
     }
     // Get instance field reference: private System.Xml.XmlTextReaderImpl/System.Xml.LaterInitParam laterInitParam
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl::LaterInitParam*& dyn_laterInitParam();

@@ -93,13 +93,25 @@ namespace System::Security {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Security::ISecurityEncodable
     operator ::System::Security::ISecurityEncodable() noexcept {
       return *reinterpret_cast<::System::Security::ISecurityEncodable*>(this);
+    }
+    // Creating interface conversion operator: i_ISecurityEncodable
+    inline ::System::Security::ISecurityEncodable* i_ISecurityEncodable() noexcept {
+      return reinterpret_cast<::System::Security::ISecurityEncodable*>(this);
     }
     // Get static field: static private System.Object[] psUnrestricted
     static ::ArrayW<::Il2CppObject*> _get_psUnrestricted();

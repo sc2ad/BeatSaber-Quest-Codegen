@@ -70,6 +70,10 @@ namespace Org::BouncyCastle::Crypto::Generators {
     operator ::Org::BouncyCastle::Crypto::IDerivationFunction() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
     }
+    // Creating interface conversion operator: i_IDerivationFunction
+    inline ::Org::BouncyCastle::Crypto::IDerivationFunction* i_IDerivationFunction() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
+    }
     // Get instance field reference: private System.Int32 counterStart
     [[deprecated("Use field access instead!")]] int& dyn_counterStart();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest digest

@@ -65,6 +65,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
+    // Creating interface conversion operator: i_IMessageSink
+    inline ::System::Runtime::Remoting::Messaging::IMessageSink* i_IMessageSink() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
+    }
     // Get instance field reference: private System.MarshalByRefObject _target
     [[deprecated("Use field access instead!")]] ::System::MarshalByRefObject*& dyn__target();
     // Get instance field reference: private System.Runtime.Remoting.Proxies.RealProxy _rp

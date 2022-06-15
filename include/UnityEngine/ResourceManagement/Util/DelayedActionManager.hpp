@@ -98,6 +98,10 @@ namespace UnityEngine::ResourceManagement::Util {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get static field: static private System.Int32 s_Id
       static int _get_s_Id();
       // Set static field: static private System.Int32 s_Id

@@ -51,6 +51,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private System.Int32 _pos
     [[deprecated("Use field access instead!")]] int& dyn__pos();
     // Get instance field reference: private System.Collections.Specialized.NameObjectCollectionBase _coll

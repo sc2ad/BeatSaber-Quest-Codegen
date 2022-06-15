@@ -50,6 +50,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlDocumentType() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(this);
     }
+    // Creating interface conversion operator: i_IXmlDocumentType
+    inline ::Newtonsoft::Json::Converters::IXmlDocumentType* i_IXmlDocumentType() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(this);
+    }
     // Deleting conversion operator: operator ::System::Xml::Linq::XObject*
     constexpr operator ::System::Xml::Linq::XObject*() const noexcept = delete;
     // Get instance field reference: private readonly System.Xml.Linq.XDocumentType _documentType

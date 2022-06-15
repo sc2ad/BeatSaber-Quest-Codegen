@@ -66,6 +66,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
+    // Creating interface conversion operator: i_IStreamCipher
+    inline ::Org::BouncyCastle::Crypto::IStreamCipher* i_IStreamCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
+    }
     // Get static field: static private readonly System.Int32 STATE_LENGTH
     static int _get_STATE_LENGTH();
     // Set static field: static private readonly System.Int32 STATE_LENGTH

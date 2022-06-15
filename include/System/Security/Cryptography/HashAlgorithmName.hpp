@@ -43,9 +43,17 @@ namespace System::Security::Cryptography {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::Security::Cryptography::HashAlgorithmName>
     operator ::System::IEquatable_1<::System::Security::Cryptography::HashAlgorithmName>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::Security::Cryptography::HashAlgorithmName>*>(this);
+    }
+    // Creating interface conversion operator: i_HashAlgorithmName
+    inline ::System::IEquatable_1<::System::Security::Cryptography::HashAlgorithmName>* i_HashAlgorithmName() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::Security::Cryptography::HashAlgorithmName>*>(this);
     }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {

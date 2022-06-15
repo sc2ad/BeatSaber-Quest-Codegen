@@ -52,6 +52,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedAcknowledgeMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAcknowledgeMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAcknowledgeMessage
+    inline ::BGNet::Core::Messages::IUnconnectedAcknowledgeMessage* i_IUnconnectedAcknowledgeMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAcknowledgeMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.Boolean <messageHandled>k__BackingField

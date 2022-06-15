@@ -65,6 +65,10 @@ namespace System::Net {
     operator ::System::Net::ICredentials() noexcept {
       return *reinterpret_cast<::System::Net::ICredentials*>(this);
     }
+    // Creating interface conversion operator: i_ICredentials
+    inline ::System::Net::ICredentials* i_ICredentials() noexcept {
+      return reinterpret_cast<::System::Net::ICredentials*>(this);
+    }
     // Get instance field reference: private System.String m_domain
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_domain();
     // Get instance field reference: private System.String m_userName

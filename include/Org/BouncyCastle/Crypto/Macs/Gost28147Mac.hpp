@@ -88,6 +88,10 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator ::Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
+    // Creating interface conversion operator: i_IMac
+    inline ::Org::BouncyCastle::Crypto::IMac* i_IMac() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
+    }
     // Get instance field reference: private System.Int32 bufOff
     [[deprecated("Use field access instead!")]] int& dyn_bufOff();
     // Get instance field reference: private System.Byte[] buf

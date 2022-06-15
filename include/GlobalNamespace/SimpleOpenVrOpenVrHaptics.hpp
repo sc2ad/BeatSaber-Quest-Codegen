@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
     }
+    // Creating interface conversion operator: i_IOpenVRHaptics
+    inline ::GlobalNamespace::IOpenVRHaptics* i_IOpenVRHaptics() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x2A25844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

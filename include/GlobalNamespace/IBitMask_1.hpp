@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<T>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IEquatable_1_T
+    inline ::System::IEquatable_1<T>* i_IEquatable_1_T() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<T>*>(this);
+    }
     // public System.Int32 get_bitCount()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_bitCount() {

@@ -76,6 +76,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocator
+    inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i_IResourceLocator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
+    }
     // Get instance field reference: private System.String <LocatorId>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$LocatorId$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField

@@ -101,6 +101,10 @@ namespace System::ComponentModel {
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
     }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
+    }
     // Get static field: static public readonly System.ComponentModel.EventDescriptorCollection Empty
     static ::System::ComponentModel::EventDescriptorCollection* _get_Empty();
     // Set static field: static public readonly System.ComponentModel.EventDescriptorCollection Empty

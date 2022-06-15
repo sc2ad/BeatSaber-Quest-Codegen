@@ -86,6 +86,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
     }
+    // Creating interface conversion operator: i_ISigner
+    inline ::Org::BouncyCastle::Crypto::ISigner* i_ISigner() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ISigner*>(this);
+    }
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Signers.Ed25519ctxSigner/Org.BouncyCastle.Crypto.Signers.Buffer buffer
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner::Buffer*& dyn_buffer();
     // Get instance field reference: private readonly System.Byte[] context

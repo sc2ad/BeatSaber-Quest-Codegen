@@ -53,6 +53,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     operator ::UnityEngine::ResourceManagement::Util::IInitializableObject() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
+    // Creating interface conversion operator: i_IInitializableObject
+    inline ::UnityEngine::ResourceManagement::Util::IInitializableObject* i_IInitializableObject() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
+    }
     // static public System.String get_RootPath()
     // Offset: 0x18C4924
     static ::StringW get_RootPath();

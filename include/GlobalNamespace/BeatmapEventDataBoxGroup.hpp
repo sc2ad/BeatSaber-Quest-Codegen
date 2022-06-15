@@ -98,6 +98,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapEventDataBoxGroup
+    inline ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* i_BeatmapEventDataBoxGroup() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
+    }
     // Get instance field reference: private readonly System.Single beat
     [[deprecated("Use field access instead!")]] float& dyn_beat();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.ValueTuple`3<System.Int32,System.Type,System.Int32>,BeatmapEventDataBoxGroup/ElementData> _elementDataDict

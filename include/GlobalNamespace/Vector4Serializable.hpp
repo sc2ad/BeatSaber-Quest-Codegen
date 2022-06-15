@@ -77,13 +77,25 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>
     operator ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector4Serializable
+    inline ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>* i_Vector4Serializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>*>(this);
     }
     // Get instance field reference: private System.Int32 _x
     [[deprecated("Use field access instead!")]] int& dyn__x();

@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_HAPI_AttributeInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>* i_Test_HAPI_AttributeInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*>(this);
+    }
     // Creating conversion operator: operator ::HoudiniEngineUnity::HAPI_AttributeInfo
     constexpr operator ::HoudiniEngineUnity::HAPI_AttributeInfo() const noexcept {
       return self;

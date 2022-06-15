@@ -115,6 +115,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteDebrisDidFinishEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteDebrisDidFinishEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteDebrisDidFinishEvent
+    inline ::GlobalNamespace::INoteDebrisDidFinishEvent* i_INoteDebrisDidFinishEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteDebrisDidFinishEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMinLifeTime

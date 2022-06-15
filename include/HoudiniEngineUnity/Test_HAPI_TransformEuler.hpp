@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_HAPI_TransformEuler
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>* i_Test_HAPI_TransformEuler() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*>(this);
+    }
     // Creating conversion operator: operator ::HoudiniEngineUnity::HAPI_TransformEuler
     constexpr operator ::HoudiniEngineUnity::HAPI_TransformEuler() const noexcept {
       return self;

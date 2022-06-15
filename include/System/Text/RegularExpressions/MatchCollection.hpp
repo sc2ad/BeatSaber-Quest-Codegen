@@ -107,6 +107,10 @@ namespace System::Text::RegularExpressions {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Get static field: static private System.Int32 infinite
     static int _get_infinite();
     // Set static field: static private System.Int32 infinite

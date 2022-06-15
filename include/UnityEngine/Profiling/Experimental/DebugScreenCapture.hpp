@@ -61,6 +61,10 @@ namespace UnityEngine::Profiling::Experimental {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
     [[deprecated("Use field access instead!")]] ::Unity::Collections::NativeArray_1<uint8_t>& dyn_$rawImageDataReference$k__BackingField();
     // Get instance field reference: private UnityEngine.TextureFormat <imageFormat>k__BackingField

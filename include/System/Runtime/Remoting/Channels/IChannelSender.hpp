@@ -39,6 +39,10 @@ namespace System::Runtime::Remoting::Channels {
     operator ::System::Runtime::Remoting::Channels::IChannel() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Channels::IChannel*>(this);
     }
+    // Creating interface conversion operator: i_IChannel
+    inline ::System::Runtime::Remoting::Channels::IChannel* i_IChannel() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Channels::IChannel*>(this);
+    }
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object remoteChannelData, out System.String objectURI)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::Il2CppObject* remoteChannelData, ByRef<::StringW> objectURI);

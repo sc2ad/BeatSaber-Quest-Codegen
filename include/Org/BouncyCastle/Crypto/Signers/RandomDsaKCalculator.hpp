@@ -59,6 +59,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
     }
+    // Creating interface conversion operator: i_IDsaKCalculator
+    inline ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i_IDsaKCalculator() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger q
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_q();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random

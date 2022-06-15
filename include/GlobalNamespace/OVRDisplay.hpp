@@ -98,6 +98,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Single UpFov
       [[deprecated("Use field access instead!")]] float& dyn_UpFov();
       // Get instance field reference: public System.Single DownFov
@@ -142,6 +146,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public UnityEngine.Vector2 resolution
       [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_resolution();

@@ -117,13 +117,25 @@ namespace System::Reflection {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Reflection::ICustomAttributeProvider
     operator ::System::Reflection::ICustomAttributeProvider() noexcept {
       return *reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ICustomAttributeProvider
+    inline ::System::Reflection::ICustomAttributeProvider* i_ICustomAttributeProvider() noexcept {
+      return reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_Module
     operator ::System::Runtime::InteropServices::_Module() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_Module*>(this);
+    }
+    // Creating interface conversion operator: i__Module
+    inline ::System::Runtime::InteropServices::_Module* i__Module() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_Module*>(this);
     }
     // Get static field: static public readonly System.Reflection.TypeFilter FilterTypeName
     static ::System::Reflection::TypeFilter* _get_FilterTypeName();

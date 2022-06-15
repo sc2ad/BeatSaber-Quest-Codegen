@@ -161,6 +161,10 @@ namespace System::Threading {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static field const value: static private System.Int32 LockSpinCycles
     static constexpr const int LockSpinCycles = 20;
     // Get static field: static private System.Int32 LockSpinCycles

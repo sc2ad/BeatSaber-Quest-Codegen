@@ -335,9 +335,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ILobbyGameStateController
     operator ::GlobalNamespace::ILobbyGameStateController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILobbyGameStateController*>(this);
+    }
+    // Creating interface conversion operator: i_ILobbyGameStateController
+    inline ::GlobalNamespace::ILobbyGameStateController* i_ILobbyGameStateController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILobbyGameStateController*>(this);
     }
     // static field const value: static public System.Single kShortTimerSeconds
     static constexpr const float kShortTimerSeconds = 5;

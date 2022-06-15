@@ -256,6 +256,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerLevelEndActionsPublisher
+    inline ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i_IMultiplayerLevelEndActionsPublisher() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab

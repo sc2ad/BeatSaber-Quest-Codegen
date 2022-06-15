@@ -51,9 +51,17 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
     operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
+    }
+    // Creating interface conversion operator: i_ICriticalNotifyCompletion
+    inline ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i_ICriticalNotifyCompletion() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
     }
     // Creating conversion operator: operator ::System::Threading::Tasks::Task*
     constexpr operator ::System::Threading::Tasks::Task*() const noexcept {

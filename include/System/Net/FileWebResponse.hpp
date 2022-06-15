@@ -104,6 +104,10 @@ namespace System::Net {
     operator ::System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<::System::Net::ICloseEx*>(this);
     }
+    // Creating interface conversion operator: i_ICloseEx
+    inline ::System::Net::ICloseEx* i_ICloseEx() noexcept {
+      return reinterpret_cast<::System::Net::ICloseEx*>(this);
+    }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_closed

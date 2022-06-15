@@ -36,6 +36,10 @@ namespace LiteNetLib {
     operator ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
     }
+    // Creating interface conversion operator: i_IPEndPoint
+    inline ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>* i_IPEndPoint() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x21A90A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

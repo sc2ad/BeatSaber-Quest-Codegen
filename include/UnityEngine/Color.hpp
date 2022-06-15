@@ -72,9 +72,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Color>
     operator ::System::IEquatable_1<::UnityEngine::Color>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Color>*>(this);
+    }
+    // Creating interface conversion operator: i_Color
+    inline ::System::IEquatable_1<::UnityEngine::Color>* i_Color() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Color>*>(this);
     }
     // Get instance field reference: public System.Single r
     [[deprecated("Use field access instead!")]] float& dyn_r();

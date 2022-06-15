@@ -68,6 +68,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMockBeatmapDataProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMockBeatmapDataProvider*>(this);
     }
+    // Creating interface conversion operator: i_IMockBeatmapDataProvider
+    inline ::GlobalNamespace::IMockBeatmapDataProvider* i_IMockBeatmapDataProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMockBeatmapDataProvider*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::BeatmapLevelsModel*
     constexpr operator ::GlobalNamespace::BeatmapLevelsModel*() const noexcept {
       return beatmapLevelsModel;

@@ -86,6 +86,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -203,9 +207,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
     }
+    // Creating interface conversion operator: i_ILevelEndActions
+    inline ::GlobalNamespace::ILevelEndActions* i_ILevelEndActions() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ILevelStartController
     operator ::GlobalNamespace::ILevelStartController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
+    }
+    // Creating interface conversion operator: i_ILevelStartController
+    inline ::GlobalNamespace::ILevelStartController* i_ILevelStartController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

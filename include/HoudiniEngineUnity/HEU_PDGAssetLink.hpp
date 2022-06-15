@@ -102,6 +102,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -243,6 +247,10 @@ namespace HoudiniEngineUnity {
     // Creating interface conversion operator: operator ::UnityEngine::ISerializationCallbackReceiver
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

@@ -80,6 +80,10 @@ namespace OnlineServices::API {
     operator ::OnlineServices::API::IApiLeaderboardsModel() noexcept {
       return *reinterpret_cast<::OnlineServices::API::IApiLeaderboardsModel*>(this);
     }
+    // Creating interface conversion operator: i_IApiLeaderboardsModel
+    inline ::OnlineServices::API::IApiLeaderboardsModel* i_IApiLeaderboardsModel() noexcept {
+      return reinterpret_cast<::OnlineServices::API::IApiLeaderboardsModel*>(this);
+    }
     // Creating conversion operator: operator ::OnlineServices::API::HTTPLeaderboardsOathHelper*
     constexpr operator ::OnlineServices::API::HTTPLeaderboardsOathHelper*() const noexcept {
       return httpLeaderboardsOathHelper;

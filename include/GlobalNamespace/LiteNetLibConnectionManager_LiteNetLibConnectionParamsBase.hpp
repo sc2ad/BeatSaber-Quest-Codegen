@@ -80,6 +80,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_LiteNetLibConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>* i_LiteNetLibConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*>(this);
+    }
     // Get instance field reference: public IConnectionRequestHandler connectionRequestHandler
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectionRequestHandler*& dyn_connectionRequestHandler();
     // Get instance field reference: public System.Int32 port

@@ -48,6 +48,10 @@ namespace Microsoft::Win32 {
     operator ::Microsoft::Win32::IRegistryApi() noexcept {
       return *reinterpret_cast<::Microsoft::Win32::IRegistryApi*>(this);
     }
+    // Creating interface conversion operator: i_IRegistryApi
+    inline ::Microsoft::Win32::IRegistryApi* i_IRegistryApi() noexcept {
+      return reinterpret_cast<::Microsoft::Win32::IRegistryApi*>(this);
+    }
     // static private System.String ToUnix(System.String keyname)
     // Offset: 0x1F3A570
     static ::StringW ToUnix(::StringW keyname);

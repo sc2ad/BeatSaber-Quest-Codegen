@@ -57,6 +57,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>*
     constexpr operator ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>*() const noexcept {
       return pendingStatesByPort;

@@ -47,6 +47,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating conversion operator: operator ::System::Security::Principal::IPrincipal*
     constexpr operator ::System::Security::Principal::IPrincipal*() const noexcept {
       return principal;

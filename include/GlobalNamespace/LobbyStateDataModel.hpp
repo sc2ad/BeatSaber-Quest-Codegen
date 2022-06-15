@@ -112,9 +112,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ILobbyStateDataModel
     operator ::GlobalNamespace::ILobbyStateDataModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILobbyStateDataModel*>(this);
+    }
+    // Creating interface conversion operator: i_ILobbyStateDataModel
+    inline ::GlobalNamespace::ILobbyStateDataModel* i_ILobbyStateDataModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILobbyStateDataModel*>(this);
     }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();

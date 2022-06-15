@@ -59,6 +59,10 @@ namespace System {
     operator ::System::ModifierSpec() noexcept {
       return *reinterpret_cast<::System::ModifierSpec*>(this);
     }
+    // Creating interface conversion operator: i_ModifierSpec
+    inline ::System::ModifierSpec* i_ModifierSpec() noexcept {
+      return reinterpret_cast<::System::ModifierSpec*>(this);
+    }
     // Get instance field reference: private System.Int32 dimensions
     [[deprecated("Use field access instead!")]] int& dyn_dimensions();
     // Get instance field reference: private System.Boolean bound

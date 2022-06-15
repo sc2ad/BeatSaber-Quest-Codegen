@@ -47,6 +47,10 @@ namespace System::Threading::Tasks {
     operator ::System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
+    // Creating interface conversion operator: i_ITaskCompletionAction
+    inline ::System::Threading::Tasks::ITaskCompletionAction* i_ITaskCompletionAction() noexcept {
+      return reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
+    }
     // Get instance field reference: private readonly System.Threading.Tasks.Task[] m_tasks
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Threading::Tasks::Task*>& dyn_m_tasks();
     // Get instance field reference: private System.Int32 m_count

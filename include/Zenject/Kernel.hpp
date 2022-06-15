@@ -80,25 +80,49 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::ITickable
     operator ::Zenject::ITickable() noexcept {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
+    }
+    // Creating interface conversion operator: i_ITickable
+    inline ::Zenject::ITickable* i_ITickable() noexcept {
+      return reinterpret_cast<::Zenject::ITickable*>(this);
     }
     // Creating interface conversion operator: operator ::Zenject::ILateDisposable
     operator ::Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<::Zenject::ILateDisposable*>(this);
     }
+    // Creating interface conversion operator: i_ILateDisposable
+    inline ::Zenject::ILateDisposable* i_ILateDisposable() noexcept {
+      return reinterpret_cast<::Zenject::ILateDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IInitializable
     operator ::Zenject::IInitializable() noexcept {
       return *reinterpret_cast<::Zenject::IInitializable*>(this);
+    }
+    // Creating interface conversion operator: i_IInitializable
+    inline ::Zenject::IInitializable* i_IInitializable() noexcept {
+      return reinterpret_cast<::Zenject::IInitializable*>(this);
     }
     // Creating interface conversion operator: operator ::Zenject::ILateTickable
     operator ::Zenject::ILateTickable() noexcept {
       return *reinterpret_cast<::Zenject::ILateTickable*>(this);
     }
+    // Creating interface conversion operator: i_ILateTickable
+    inline ::Zenject::ILateTickable* i_ILateTickable() noexcept {
+      return reinterpret_cast<::Zenject::ILateTickable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IFixedTickable
     operator ::Zenject::IFixedTickable() noexcept {
       return *reinterpret_cast<::Zenject::IFixedTickable*>(this);
+    }
+    // Creating interface conversion operator: i_IFixedTickable
+    inline ::Zenject::IFixedTickable* i_IFixedTickable() noexcept {
+      return reinterpret_cast<::Zenject::IFixedTickable*>(this);
     }
     // Get instance field reference: private Zenject.TickableManager _tickableManager
     [[deprecated("Use field access instead!")]] ::Zenject::TickableManager*& dyn__tickableManager();

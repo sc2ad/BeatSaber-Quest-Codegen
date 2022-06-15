@@ -88,6 +88,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private System.Char[] WhiteSpaceChecks
     static ::ArrayW<::Il2CppChar> _get_WhiteSpaceChecks();
     // Set static field: static private System.Char[] WhiteSpaceChecks

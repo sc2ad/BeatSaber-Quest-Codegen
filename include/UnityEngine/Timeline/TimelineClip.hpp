@@ -87,6 +87,10 @@ namespace UnityEngine::Timeline {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -146,6 +150,10 @@ namespace UnityEngine::Timeline {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -320,9 +328,17 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Timeline::ICurvesOwner
     operator ::UnityEngine::Timeline::ICurvesOwner() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ICurvesOwner*>(this);
+    }
+    // Creating interface conversion operator: i_ICurvesOwner
+    inline ::UnityEngine::Timeline::ICurvesOwner* i_ICurvesOwner() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ICurvesOwner*>(this);
     }
     // static field const value: static private System.Int32 k_LatestVersion
     static constexpr const int k_LatestVersion = 1;

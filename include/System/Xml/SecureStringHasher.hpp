@@ -48,6 +48,10 @@ namespace System::Xml {
     operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::IEqualityComparer_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return hashCodeRandomizer;

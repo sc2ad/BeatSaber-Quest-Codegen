@@ -138,13 +138,25 @@ namespace System::Reflection {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Reflection::ICustomAttributeProvider
     operator ::System::Reflection::ICustomAttributeProvider() noexcept {
       return *reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ICustomAttributeProvider
+    inline ::System::Reflection::ICustomAttributeProvider* i_ICustomAttributeProvider() noexcept {
+      return reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_Assembly
     operator ::System::Runtime::InteropServices::_Assembly() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_Assembly*>(this);
+    }
+    // Creating interface conversion operator: i__Assembly
+    inline ::System::Runtime::InteropServices::_Assembly* i__Assembly() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_Assembly*>(this);
     }
     // Get instance field reference: System.IntPtr _mono_assembly
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn__mono_assembly();

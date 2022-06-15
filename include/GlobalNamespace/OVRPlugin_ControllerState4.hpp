@@ -295,6 +295,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt32 ConnectedControllers
     [[deprecated("Use field access instead!")]] uint& dyn_ConnectedControllers();
     // Get instance field reference: public System.UInt32 Buttons

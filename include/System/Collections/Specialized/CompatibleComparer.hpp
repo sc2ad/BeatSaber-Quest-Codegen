@@ -55,6 +55,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // Get static field: static private System.Collections.IComparer defaultComparer
     static ::System::Collections::IComparer* _get_defaultComparer();
     // Set static field: static private System.Collections.IComparer defaultComparer

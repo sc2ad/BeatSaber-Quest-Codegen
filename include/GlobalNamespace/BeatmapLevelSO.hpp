@@ -123,6 +123,10 @@ namespace GlobalNamespace {
         operator ::System::Enum() noexcept {
           return *reinterpret_cast<::System::Enum*>(this);
         }
+        // Creating interface conversion operator: i_Enum
+        inline ::System::Enum* i_Enum() noexcept {
+          return reinterpret_cast<::System::Enum*>(this);
+        }
         // Creating conversion operator: operator int
         constexpr operator int() const noexcept {
           return value;
@@ -172,6 +176,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
+      }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
       [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result& dyn_result();
@@ -324,13 +332,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAssetSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i_IAssetSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongAudioClipProvider
     operator ::GlobalNamespace::IAssetSongAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IAssetSongAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongAudioClipProvider* i_IAssetSongAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongAudioClipProvider*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

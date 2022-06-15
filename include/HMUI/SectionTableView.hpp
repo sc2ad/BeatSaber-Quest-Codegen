@@ -86,6 +86,10 @@ namespace HMUI {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Boolean unfolded
       [[deprecated("Use field access instead!")]] bool& dyn_unfolded();
       // Get instance field reference: public System.Int32 startBaseRow
@@ -133,6 +137,10 @@ namespace HMUI {
     // Creating interface conversion operator: operator ::HMUI::TableView::IDataSource
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
     // Get instance field reference: private System.Boolean _unfoldSectionsByDefault
     [[deprecated("Use field access instead!")]] bool& dyn__unfoldSectionsByDefault();

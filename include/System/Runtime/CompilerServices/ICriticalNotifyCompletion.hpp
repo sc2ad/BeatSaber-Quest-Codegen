@@ -34,6 +34,10 @@ namespace System::Runtime::CompilerServices {
     operator ::System::Runtime::CompilerServices::INotifyCompletion() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(this);
     }
+    // Creating interface conversion operator: i_INotifyCompletion
+    inline ::System::Runtime::CompilerServices::INotifyCompletion* i_INotifyCompletion() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(this);
+    }
     // public System.Void UnsafeOnCompleted(System.Action continuation)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void UnsafeOnCompleted(::System::Action* continuation);

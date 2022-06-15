@@ -72,6 +72,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IRsa() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IRsa*>(this);
     }
+    // Creating interface conversion operator: i_IRsa
+    inline ::Org::BouncyCastle::Crypto::IRsa* i_IRsa() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IRsa*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_key();
     // Get instance field reference: private System.Boolean forEncryption

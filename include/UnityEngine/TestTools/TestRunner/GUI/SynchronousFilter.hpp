@@ -46,6 +46,10 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     operator ::NUnit::Framework::Interfaces::ITestFilter() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
+    // Creating interface conversion operator: i_ITestFilter
+    inline ::NUnit::Framework::Interfaces::ITestFilter* i_ITestFilter() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestFilter*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1983EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

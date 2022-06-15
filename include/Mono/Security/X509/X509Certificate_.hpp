@@ -192,6 +192,10 @@ namespace Mono::Security::X509 {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Get static field: static private System.String encoding_error
     static ::StringW _get_encoding_error();
     // Set static field: static private System.String encoding_error

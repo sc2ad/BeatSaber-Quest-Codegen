@@ -46,6 +46,10 @@ namespace System::Globalization {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HS state
     [[deprecated("Use field access instead!")]] ::System::Globalization::HebrewNumber::HS& dyn_state();
     // Get instance field reference: System.Int32 result

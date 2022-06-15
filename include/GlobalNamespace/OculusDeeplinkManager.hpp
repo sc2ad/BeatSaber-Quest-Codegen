@@ -79,6 +79,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IDeeplinkManager*>(this);
     }
+    // Creating interface conversion operator: i_IDeeplinkManager
+    inline ::GlobalNamespace::IDeeplinkManager* i_IDeeplinkManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IDeeplinkManager*>(this);
+    }
     // Get instance field reference: private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::Deeplink*>*& dyn_didReceiveDeeplinkEvent();
     // Get instance field reference: private Deeplink _currentDeeplink

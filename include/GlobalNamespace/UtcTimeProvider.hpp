@@ -46,6 +46,10 @@ namespace GlobalNamespace {
     operator ::BGNet::Core::ITimeProvider() noexcept {
       return *reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
     }
+    // Creating interface conversion operator: i_ITimeProvider
+    inline ::BGNet::Core::ITimeProvider* i_ITimeProvider() noexcept {
+      return reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
+    }
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B85D8
     // Get static field: static private readonly System.DateTime _epoch
     static ::System::DateTime _get__epoch();

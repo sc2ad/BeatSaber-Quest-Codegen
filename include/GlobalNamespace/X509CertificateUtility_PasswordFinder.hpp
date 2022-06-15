@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(this);
     }
+    // Creating interface conversion operator: i_IPasswordFinder
+    inline ::Org::BouncyCastle::OpenSsl::IPasswordFinder* i_IPasswordFinder() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Il2CppChar>
     constexpr operator ::ArrayW<::Il2CppChar>() const noexcept {
       return password;

@@ -52,6 +52,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModel*>(this);
     }
+    // Creating interface conversion operator: i_INetworkPlayerModel
+    inline ::GlobalNamespace::INetworkPlayerModel* i_INetworkPlayerModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayerModel*>(this);
+    }
     // public System.Boolean get_enableLocalNetwork()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_enableLocalNetwork();

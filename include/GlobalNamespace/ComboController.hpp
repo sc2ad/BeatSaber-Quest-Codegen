@@ -95,6 +95,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IComboController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IComboController*>(this);
     }
+    // Creating interface conversion operator: i_IComboController
+    inline ::GlobalNamespace::IComboController* i_IComboController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IComboController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction

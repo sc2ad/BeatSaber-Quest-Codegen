@@ -171,6 +171,10 @@ namespace System::Xml {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Get static field: static private System.Xml.XmlTextReaderImpl/System.Xml.NodeData s_None
     static ::System::Xml::XmlTextReaderImpl::NodeData* _get_s_None();
     // Set static field: static private System.Xml.XmlTextReaderImpl/System.Xml.NodeData s_None

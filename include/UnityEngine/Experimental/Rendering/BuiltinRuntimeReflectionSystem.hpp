@@ -33,6 +33,10 @@ namespace UnityEngine::Experimental::Rendering {
     operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem() noexcept {
       return *reinterpret_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(this);
     }
+    // Creating interface conversion operator: i_IScriptableRuntimeReflectionSystem
+    inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* i_IScriptableRuntimeReflectionSystem() noexcept {
+      return reinterpret_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1F921D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

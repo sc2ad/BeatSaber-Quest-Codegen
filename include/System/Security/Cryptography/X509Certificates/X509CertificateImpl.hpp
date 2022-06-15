@@ -54,6 +54,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return cachedCertificateHash;

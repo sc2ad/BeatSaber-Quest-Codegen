@@ -81,6 +81,10 @@ namespace System::ComponentModel {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Type type
       [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
       // Get instance field reference: public System.Int32 index
@@ -112,6 +116,10 @@ namespace System::ComponentModel {
     // Creating interface conversion operator: operator ::System::Collections::ICollection
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get static field: static public readonly System.ComponentModel.AttributeCollection Empty
     static ::System::ComponentModel::AttributeCollection* _get_Empty();

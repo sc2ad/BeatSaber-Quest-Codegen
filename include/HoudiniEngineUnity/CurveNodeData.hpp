@@ -56,6 +56,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*>(this);
     }
+    // Creating interface conversion operator: i_CurveNodeData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>* i_CurveNodeData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.Vector3 position
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 rotation

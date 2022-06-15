@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionRequestHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionRequestHandler*>(this);
     }
+    // Creating interface conversion operator: i_IConnectionRequestHandler
+    inline ::GlobalNamespace::IConnectionRequestHandler* i_IConnectionRequestHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionRequestHandler*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return secret;

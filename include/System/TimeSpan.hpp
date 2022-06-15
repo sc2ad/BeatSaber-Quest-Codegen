@@ -58,9 +58,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::TimeSpan>
     operator ::System::IComparable_1<::System::TimeSpan>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::System::TimeSpan>*>(this);
+    }
+    // Creating interface conversion operator: i_TimeSpan
+    inline ::System::IComparable_1<::System::TimeSpan>* i_TimeSpan() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::System::TimeSpan>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::TimeSpan>
     operator ::System::IEquatable_1<::System::TimeSpan>() noexcept {
@@ -70,9 +78,17 @@ namespace System {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IFormattable
     operator ::System::IFormattable() noexcept {
       return *reinterpret_cast<::System::IFormattable*>(this);
+    }
+    // Creating interface conversion operator: i_IFormattable
+    inline ::System::IFormattable* i_IFormattable() noexcept {
+      return reinterpret_cast<::System::IFormattable*>(this);
     }
     // Creating conversion operator: operator int64_t
     constexpr operator int64_t() const noexcept {

@@ -65,6 +65,10 @@ namespace UnityEngine::AddressableAssets::Utility {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceManager*& dyn_m_ResourceManager();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo

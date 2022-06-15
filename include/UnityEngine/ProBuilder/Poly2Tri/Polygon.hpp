@@ -85,6 +85,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
     }
+    // Creating interface conversion operator: i_Triangulatable
+    inline ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i_Triangulatable() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
+    }
     // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _points
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& dyn__points();
     // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> _steinerPoints

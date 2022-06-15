@@ -121,6 +121,10 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::Particle& dyn_m_Particle();
     // Get instance field reference: private System.Boolean m_PositionSet

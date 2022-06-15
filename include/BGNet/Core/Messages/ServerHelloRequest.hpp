@@ -72,6 +72,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeServerToClientMessage
+    inline ::BGNet::Core::Messages::IHandshakeServerToClientMessage* i_IHandshakeServerToClientMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
+    }
     // Get instance field reference: public readonly ByteArrayNetSerializable random
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey

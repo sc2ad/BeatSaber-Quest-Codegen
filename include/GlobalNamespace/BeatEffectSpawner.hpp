@@ -114,6 +114,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatEffectDidFinishEvent*>(this);
     }
+    // Creating interface conversion operator: i_IBeatEffectDidFinishEvent
+    inline ::GlobalNamespace::IBeatEffectDidFinishEvent* i_IBeatEffectDidFinishEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatEffectDidFinishEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _effectDuration

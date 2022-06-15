@@ -49,6 +49,10 @@ namespace System::Security::Principal {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.IntPtr _token
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn__token();
     // Get instance field reference: private System.Boolean undo

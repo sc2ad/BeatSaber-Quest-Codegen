@@ -122,6 +122,10 @@ namespace System::Threading {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private readonly System.Threading.CancellationTokenSource _staticSource_Set
     static ::System::Threading::CancellationTokenSource* _get__staticSource_Set();
     // Set static field: static private readonly System.Threading.CancellationTokenSource _staticSource_Set

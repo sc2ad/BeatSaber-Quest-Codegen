@@ -64,6 +64,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IDifficultyBeatmapSet*>(this);
     }
+    // Creating interface conversion operator: i_IDifficultyBeatmapSet
+    inline ::GlobalNamespace::IDifficultyBeatmapSet* i_IDifficultyBeatmapSet() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IDifficultyBeatmapSet*>(this);
+    }
     // Get instance field reference: private readonly BeatmapCharacteristicSO _beatmapCharacteristic
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<CustomDifficultyBeatmap> _difficultyBeatmaps

@@ -39,6 +39,10 @@ namespace System::Collections {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // public System.Object get_Item(System.Object key)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_Item(::Il2CppObject* key);

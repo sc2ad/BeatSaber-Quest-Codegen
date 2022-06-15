@@ -101,6 +101,10 @@ namespace System::Xml::Schema {
     operator ::System::Xml::Schema::IXmlSchemaInfo() noexcept {
       return *reinterpret_cast<::System::Xml::Schema::IXmlSchemaInfo*>(this);
     }
+    // Creating interface conversion operator: i_IXmlSchemaInfo
+    inline ::System::Xml::Schema::IXmlSchemaInfo* i_IXmlSchemaInfo() noexcept {
+      return reinterpret_cast<::System::Xml::Schema::IXmlSchemaInfo*>(this);
+    }
     // Get instance field reference: private System.Boolean isDefault
     [[deprecated("Use field access instead!")]] bool& dyn_isDefault();
     // Get instance field reference: private System.Boolean isNil

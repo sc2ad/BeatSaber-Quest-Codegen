@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_OculusConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>* i_OculusConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::OculusNetworkPlayerModel*
     constexpr operator ::GlobalNamespace::OculusNetworkPlayerModel*() const noexcept {
       return oculusNetworkPlayerModel;

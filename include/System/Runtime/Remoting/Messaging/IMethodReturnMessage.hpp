@@ -39,6 +39,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Remoting::Messaging::IMethodMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMethodMessage
+    inline ::System::Runtime::Remoting::Messaging::IMethodMessage* i_IMethodMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodMessage*>(this);
+    }
     // public System.Exception get_Exception()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Exception* get_Exception();

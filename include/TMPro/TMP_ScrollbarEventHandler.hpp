@@ -55,13 +55,25 @@ namespace TMPro {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISelectHandler
     operator ::UnityEngine::EventSystems::ISelectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
     }
+    // Creating interface conversion operator: i_ISelectHandler
+    inline ::UnityEngine::EventSystems::ISelectHandler* i_ISelectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDeselectHandler
     operator ::UnityEngine::EventSystems::IDeselectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IDeselectHandler
+    inline ::UnityEngine::EventSystems::IDeselectHandler* i_IDeselectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

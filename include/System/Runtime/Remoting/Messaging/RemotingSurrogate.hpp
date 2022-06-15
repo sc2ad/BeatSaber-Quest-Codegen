@@ -43,6 +43,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Runtime::Serialization::ISerializationSurrogate() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationSurrogate
+    inline ::System::Runtime::Serialization::ISerializationSurrogate* i_ISerializationSurrogate() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
+    }
     // public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
     // Offset: 0x1C7EB5C
     void GetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);

@@ -72,6 +72,10 @@ namespace HoudiniEngineUnity {
     operator ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_GeoGroup
+    inline ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>* i_HEU_GeoGroup() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*>(this);
+    }
     // Get instance field reference: public System.String _groupName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__groupName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> _subMeshesMap

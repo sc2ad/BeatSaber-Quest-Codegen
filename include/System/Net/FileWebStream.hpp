@@ -60,6 +60,10 @@ namespace System::Net {
     operator ::System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<::System::Net::ICloseEx*>(this);
     }
+    // Creating interface conversion operator: i_ICloseEx
+    inline ::System::Net::ICloseEx* i_ICloseEx() noexcept {
+      return reinterpret_cast<::System::Net::ICloseEx*>(this);
+    }
     // Get instance field reference: private System.Net.FileWebRequest m_request
     [[deprecated("Use field access instead!")]] ::System::Net::FileWebRequest*& dyn_m_request();
     // public System.Void .ctor(System.Net.FileWebRequest request, System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare sharing)

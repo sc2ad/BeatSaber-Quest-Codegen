@@ -48,6 +48,10 @@ namespace System::IO {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Byte[] Buffer
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset

@@ -42,6 +42,10 @@ namespace Zenject {
     operator ::Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
     }
+    // Creating interface conversion operator: i_IBindingFinalizer
+    inline ::Zenject::IBindingFinalizer* i_IBindingFinalizer() noexcept {
+      return reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
+    }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
     // Offset: 0x1C09A28
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();

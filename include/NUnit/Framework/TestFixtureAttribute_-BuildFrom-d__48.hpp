@@ -90,6 +90,10 @@ namespace NUnit::Framework {
     operator ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>*>(this);
     }
+    // Creating interface conversion operator: i_TestSuite
+    inline ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* i_TestSuite() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Internal::TestSuite*>
     operator ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Internal::TestSuite*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Internal::TestSuite*>*>(this);

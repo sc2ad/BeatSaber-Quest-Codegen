@@ -71,6 +71,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_EventInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_EventInfo*>(this);
     }
+    // Creating interface conversion operator: i__EventInfo
+    inline ::System::Runtime::InteropServices::_EventInfo* i__EventInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_EventInfo*>(this);
+    }
     // Creating conversion operator: operator ::System::Reflection::EventInfo::AddEventAdapter*
     constexpr operator ::System::Reflection::EventInfo::AddEventAdapter*() const noexcept {
       return cached_add_event;

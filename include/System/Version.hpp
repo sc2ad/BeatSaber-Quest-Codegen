@@ -83,9 +83,17 @@ namespace System {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::Version*>
     operator ::System::IComparable_1<::System::Version*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::System::Version*>*>(this);
+    }
+    // Creating interface conversion operator: i_Version
+    inline ::System::IComparable_1<::System::Version*>* i_Version() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::System::Version*>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::Version*>
     operator ::System::IEquatable_1<::System::Version*>() noexcept {
@@ -94,6 +102,10 @@ namespace System {
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Get static field: static private readonly System.Char[] SeparatorsArray
     static ::ArrayW<::Il2CppChar> _get_SeparatorsArray();

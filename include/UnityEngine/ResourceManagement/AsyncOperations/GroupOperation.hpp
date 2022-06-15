@@ -80,6 +80,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -149,6 +153,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Creating interface conversion operator: operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable
     operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(this);
+    }
+    // Creating interface conversion operator: i_ICachable
+    inline ::UnityEngine::ResourceManagement::AsyncOperations::ICachable* i_ICachable() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(this);
     }
     // static field const value: static private System.Int32 k_MaxDisplayedLocationLength
     static constexpr const int k_MaxDisplayedLocationLength = 45;

@@ -46,6 +46,10 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Color color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single time

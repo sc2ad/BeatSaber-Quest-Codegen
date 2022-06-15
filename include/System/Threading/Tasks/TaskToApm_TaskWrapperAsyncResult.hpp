@@ -61,6 +61,10 @@ namespace System::Threading::Tasks {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: readonly System.Threading.Tasks.Task Task
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_Task();
     // Get instance field reference: private readonly System.Object m_state

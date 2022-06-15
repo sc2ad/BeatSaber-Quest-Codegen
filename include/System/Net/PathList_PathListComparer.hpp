@@ -29,6 +29,10 @@ namespace System::Net {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // Get static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance
     static ::System::Net::PathList::PathListComparer* _get_StaticInstance();
     // Set static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance

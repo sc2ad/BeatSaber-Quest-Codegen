@@ -153,17 +153,33 @@ namespace HMUI {
     operator ::UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IBeginDragHandler
+    inline ::UnityEngine::EventSystems::IBeginDragHandler* i_IBeginDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDragHandler
     operator ::UnityEngine::EventSystems::IDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IDragHandler
+    inline ::UnityEngine::EventSystems::IDragHandler* i_IDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler
     operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IInitializePotentialDragHandler
+    inline ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i_IInitializePotentialDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ICanvasElement
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__valueText();

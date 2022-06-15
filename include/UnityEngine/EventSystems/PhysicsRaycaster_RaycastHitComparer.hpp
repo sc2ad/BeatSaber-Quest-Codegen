@@ -31,6 +31,10 @@ namespace UnityEngine::EventSystems {
     operator ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>*>(this);
     }
+    // Creating interface conversion operator: i_RaycastHit
+    inline ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>* i_RaycastHit() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>*>(this);
+    }
     // Get static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance
     static ::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* _get_instance();
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance

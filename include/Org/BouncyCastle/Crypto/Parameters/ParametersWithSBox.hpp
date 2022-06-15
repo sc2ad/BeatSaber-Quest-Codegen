@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Creating interface conversion operator: i_ICipherParameters
+    inline ::Org::BouncyCastle::Crypto::ICipherParameters* i_ICipherParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters parameters
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private System.Byte[] sBox

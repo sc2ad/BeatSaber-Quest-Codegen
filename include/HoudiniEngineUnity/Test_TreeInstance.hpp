@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_TreeInstance
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i_Test_TreeInstance() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::TreeInstance
     constexpr operator ::UnityEngine::TreeInstance() const noexcept {
       return self;

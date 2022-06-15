@@ -36,6 +36,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::LogicalCallContext*
     constexpr operator ::System::Runtime::Remoting::Messaging::LogicalCallContext*() const noexcept {
       return m_ctx;

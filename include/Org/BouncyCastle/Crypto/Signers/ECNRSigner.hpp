@@ -77,6 +77,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
     }
+    // Creating interface conversion operator: i_IDsaExt
+    inline ::Org::BouncyCastle::Crypto::IDsaExt* i_IDsaExt() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDsaExt*>(this);
+    }
     // Get instance field reference: private System.Boolean forSigning
     [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key

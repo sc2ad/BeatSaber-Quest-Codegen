@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // public IServerBeatmapProvider GetServerBeatmapProvider()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider();

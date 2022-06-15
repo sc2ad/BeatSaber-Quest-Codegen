@@ -55,6 +55,10 @@ namespace System::Text::RegularExpressions {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: System.Text.RegularExpressions.GroupCollection _rgc
     [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::GroupCollection*& dyn__rgc();
     // Get instance field reference: System.Int32 _curindex

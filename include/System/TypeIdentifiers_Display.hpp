@@ -46,6 +46,10 @@ namespace System {
     operator ::System::TypeIdentifier() noexcept {
       return *reinterpret_cast<::System::TypeIdentifier*>(this);
     }
+    // Creating interface conversion operator: i_TypeIdentifier
+    inline ::System::TypeIdentifier* i_TypeIdentifier() noexcept {
+      return reinterpret_cast<::System::TypeIdentifier*>(this);
+    }
     // Get instance field reference: private System.String displayName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_displayName();
     // Get instance field reference: private System.String internal_name

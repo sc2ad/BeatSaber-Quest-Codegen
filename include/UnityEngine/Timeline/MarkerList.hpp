@@ -93,9 +93,17 @@ namespace UnityEngine::Timeline {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ISerializationCallbackReceiver
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*& dyn_m_Objects();

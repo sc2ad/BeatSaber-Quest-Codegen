@@ -263,6 +263,10 @@ namespace UnityEngine::AddressableAssets {
     operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocation
+    inline ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* i_IResourceLocation() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(this);
+    }
     // static field const value: static System.String kCacheDataFolder
     static constexpr const char* kCacheDataFolder = "{UnityEngine.Application.persistentDataPath}/com.unity.addressables/";
     // Get static field: static System.String kCacheDataFolder

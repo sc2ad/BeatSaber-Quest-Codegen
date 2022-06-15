@@ -71,6 +71,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ICutScoreBufferDidFinishReceiver
+    inline ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i_ICutScoreBufferDidFinishReceiver() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(this);
+    }
     // Get instance field reference: private readonly CutScoreBuffer _cutScoreBuffer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutScoreBuffer*& dyn__cutScoreBuffer();
     // Get instance field reference: private ScoreMultiplierCounter/MultiplierEventType _multiplierEventType

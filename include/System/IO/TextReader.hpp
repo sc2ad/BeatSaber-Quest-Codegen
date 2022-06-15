@@ -54,6 +54,10 @@ namespace System::IO {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate
     static ::System::Func_2<::Il2CppObject*, ::StringW>* _get__ReadLineDelegate();
     // Set static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate

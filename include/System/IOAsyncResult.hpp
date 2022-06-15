@@ -79,6 +79,10 @@ namespace System {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: private System.AsyncCallback async_callback
     [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_async_callback();
     // Get instance field reference: private System.Object async_state

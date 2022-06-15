@@ -35,6 +35,10 @@ namespace System::Xml {
     operator ::System::Xml::IDtdParserAdapter() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdParserAdapter*>(this);
     }
+    // Creating interface conversion operator: i_IDtdParserAdapter
+    inline ::System::Xml::IDtdParserAdapter* i_IDtdParserAdapter() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdParserAdapter*>(this);
+    }
     // public System.Boolean get_DtdValidation()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_DtdValidation();

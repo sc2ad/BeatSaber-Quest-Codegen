@@ -70,6 +70,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILightWithId*>(this);
     }
+    // Creating interface conversion operator: i_ILightWithId
+    inline ::GlobalNamespace::ILightWithId* i_ILightWithId() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILightWithId*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _ID

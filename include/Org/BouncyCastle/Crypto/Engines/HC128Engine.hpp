@@ -95,6 +95,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
+    // Creating interface conversion operator: i_IStreamCipher
+    inline ::Org::BouncyCastle::Crypto::IStreamCipher* i_IStreamCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IStreamCipher*>(this);
+    }
     // Get instance field reference: private System.UInt32[] p
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_p();
     // Get instance field reference: private System.UInt32[] q

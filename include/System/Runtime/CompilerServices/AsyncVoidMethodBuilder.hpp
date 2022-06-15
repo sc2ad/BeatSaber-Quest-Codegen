@@ -79,6 +79,10 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Threading.SynchronizationContext m_synchronizationContext
     [[deprecated("Use field access instead!")]] ::System::Threading::SynchronizationContext*& dyn_m_synchronizationContext();
     // Get instance field reference: private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState

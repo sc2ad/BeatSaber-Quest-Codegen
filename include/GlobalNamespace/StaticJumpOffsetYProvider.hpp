@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IJumpOffsetYProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
     }
+    // Creating interface conversion operator: i_IJumpOffsetYProvider
+    inline ::GlobalNamespace::IJumpOffsetYProvider* i_IJumpOffsetYProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::StaticJumpOffsetYProvider::InitData*
     constexpr operator ::GlobalNamespace::StaticJumpOffsetYProvider::InitData*() const noexcept {
       return initData;

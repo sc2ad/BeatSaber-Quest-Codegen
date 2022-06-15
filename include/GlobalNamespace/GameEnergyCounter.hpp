@@ -165,6 +165,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IGameEnergyCounter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGameEnergyCounter*>(this);
     }
+    // Creating interface conversion operator: i_IGameEnergyCounter
+    inline ::GlobalNamespace::IGameEnergyCounter* i_IGameEnergyCounter() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGameEnergyCounter*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kBadNoteEnergyDrain

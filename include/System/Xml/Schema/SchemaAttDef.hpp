@@ -68,6 +68,10 @@ namespace System::Xml::Schema {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -137,6 +141,10 @@ namespace System::Xml::Schema {
     // Creating interface conversion operator: operator ::System::Xml::IDtdDefaultAttributeInfo
     operator ::System::Xml::IDtdDefaultAttributeInfo() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdDefaultAttributeInfo*>(this);
+    }
+    // Creating interface conversion operator: i_IDtdDefaultAttributeInfo
+    inline ::System::Xml::IDtdDefaultAttributeInfo* i_IDtdDefaultAttributeInfo() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdDefaultAttributeInfo*>(this);
     }
     // Get static field: static public readonly System.Xml.Schema.SchemaAttDef Empty
     static ::System::Xml::Schema::SchemaAttDef* _get_Empty();

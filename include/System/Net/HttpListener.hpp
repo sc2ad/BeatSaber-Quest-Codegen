@@ -203,6 +203,10 @@ namespace System::Net {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private Mono.Security.Interface.MonoTlsProvider tlsProvider
     [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoTlsProvider*& dyn_tlsProvider();
     // Get instance field reference: private Mono.Security.Interface.MonoTlsSettings tlsSettings

@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IScoreSyncStateManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IScoreSyncStateManager*>(this);
     }
+    // Creating interface conversion operator: i_IScoreSyncStateManager
+    inline ::GlobalNamespace::IScoreSyncStateManager* i_IScoreSyncStateManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IScoreSyncStateManager*>(this);
+    }
     // protected IPacketPool`1<StandardScoreSyncStateNetSerializable> get_serializablePool()
     // Offset: 0x148CE54
     ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_serializablePool();

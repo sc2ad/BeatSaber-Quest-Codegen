@@ -46,6 +46,10 @@ namespace MS::Internal::Xml::Cache {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] page
     [[deprecated("Use field access instead!")]] ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_page();
     // Get instance field reference: private System.Int32 idx

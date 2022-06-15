@@ -40,6 +40,10 @@ namespace NUnit::Framework::Constraints {
     operator ::NUnit::Framework::Constraints::IResolveConstraint() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Constraints::IResolveConstraint*>(this);
     }
+    // Creating interface conversion operator: i_IResolveConstraint
+    inline ::NUnit::Framework::Constraints::IResolveConstraint* i_IResolveConstraint() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Constraints::IResolveConstraint*>(this);
+    }
     // public System.String get_Description()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Description();

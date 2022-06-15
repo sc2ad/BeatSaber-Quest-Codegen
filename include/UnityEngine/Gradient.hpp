@@ -58,6 +58,10 @@ namespace UnityEngine {
     operator ::System::IEquatable_1<::UnityEngine::Gradient*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Gradient*>*>(this);
     }
+    // Creating interface conversion operator: i_Gradient
+    inline ::System::IEquatable_1<::UnityEngine::Gradient*>* i_Gradient() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Gradient*>*>(this);
+    }
     // Creating conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;

@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Boolean needsShutdown
     [[deprecated("Use field access instead!")]] bool& dyn_needsShutdown();
     // Get instance field reference: private System.Boolean failedLoadInterface

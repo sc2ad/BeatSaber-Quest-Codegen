@@ -85,6 +85,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -188,6 +192,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::Zenject::ITickable
     operator ::Zenject::ITickable() noexcept {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
+    }
+    // Creating interface conversion operator: i_ITickable
+    inline ::Zenject::ITickable* i_ITickable() noexcept {
+      return reinterpret_cast<::Zenject::ITickable*>(this);
     }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();

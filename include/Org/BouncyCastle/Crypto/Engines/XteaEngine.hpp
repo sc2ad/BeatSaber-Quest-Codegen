@@ -73,6 +73,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IBlockCipher* i_IBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
+    }
     // Get instance field reference: private System.UInt32[] _S
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn__S();
     // Get instance field reference: private System.UInt32[] _sum0

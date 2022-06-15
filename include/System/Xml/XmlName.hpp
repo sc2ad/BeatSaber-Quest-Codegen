@@ -99,6 +99,10 @@ namespace System::Xml {
     operator ::System::Xml::Schema::IXmlSchemaInfo() noexcept {
       return *reinterpret_cast<::System::Xml::Schema::IXmlSchemaInfo*>(this);
     }
+    // Creating interface conversion operator: i_IXmlSchemaInfo
+    inline ::System::Xml::Schema::IXmlSchemaInfo* i_IXmlSchemaInfo() noexcept {
+      return reinterpret_cast<::System::Xml::Schema::IXmlSchemaInfo*>(this);
+    }
     // Get instance field reference: private System.String prefix
     [[deprecated("Use field access instead!")]] ::StringW& dyn_prefix();
     // Get instance field reference: private System.String localName

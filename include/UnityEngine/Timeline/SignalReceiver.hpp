@@ -69,6 +69,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::INotificationReceiver*>(this);
     }
+    // Creating interface conversion operator: i_INotificationReceiver
+    inline ::UnityEngine::Playables::INotificationReceiver* i_INotificationReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::INotificationReceiver*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events

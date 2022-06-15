@@ -59,6 +59,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_InputHDAInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* i_HEU_InputHDAInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _pendingGO
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__pendingGO();
     // Get instance field reference: public UnityEngine.GameObject _connectedGO

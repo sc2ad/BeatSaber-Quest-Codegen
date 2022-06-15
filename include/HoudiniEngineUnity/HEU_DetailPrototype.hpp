@@ -103,6 +103,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_DetailPrototype
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* i_HEU_DetailPrototype() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
+    }
     // Get instance field reference: public System.String _prototypePrefab
     [[deprecated("Use field access instead!")]] ::StringW& dyn__prototypePrefab();
     // Get instance field reference: public System.String _prototypeTexture

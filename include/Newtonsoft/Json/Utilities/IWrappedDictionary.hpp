@@ -31,6 +31,10 @@ namespace Newtonsoft::Json::Utilities {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // public System.Object get_UnderlyingDictionary()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_UnderlyingDictionary();

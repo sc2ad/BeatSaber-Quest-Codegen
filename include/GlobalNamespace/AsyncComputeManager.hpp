@@ -79,6 +79,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAsyncComputeManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAsyncComputeManager*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncComputeManager
+    inline ::GlobalNamespace::IAsyncComputeManager* i_IAsyncComputeManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAsyncComputeManager*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
     [[deprecated("Use field access instead!")]] ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& dyn__asyncComputeRequests();
     // Get instance field reference: private readonly System.Threading.Thread _computeThread

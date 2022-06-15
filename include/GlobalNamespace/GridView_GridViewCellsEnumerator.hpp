@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
+    // Creating interface conversion operator: i_MonoBehaviour
+    inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i_MonoBehaviour() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::GridView*
     constexpr operator ::GlobalNamespace::GridView*() const noexcept {
       return gridView;

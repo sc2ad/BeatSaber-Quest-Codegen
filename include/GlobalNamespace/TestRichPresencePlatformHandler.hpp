@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresencePlatformHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresencePlatformHandler
+    inline ::GlobalNamespace::IRichPresencePlatformHandler* i_IRichPresencePlatformHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1477870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

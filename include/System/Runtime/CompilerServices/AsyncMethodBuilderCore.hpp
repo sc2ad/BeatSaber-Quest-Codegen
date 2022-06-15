@@ -75,6 +75,10 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::IAsyncStateMachine*& dyn_m_stateMachine();
     // Get instance field reference: System.Action m_defaultContextAction

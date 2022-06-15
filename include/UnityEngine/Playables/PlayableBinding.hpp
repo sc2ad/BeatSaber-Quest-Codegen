@@ -78,6 +78,10 @@ namespace UnityEngine::Playables {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly UnityEngine.Playables.PlayableBinding[] None
     static ::ArrayW<::UnityEngine::Playables::PlayableBinding> _get_None();
     // Set static field: static public readonly UnityEngine.Playables.PlayableBinding[] None

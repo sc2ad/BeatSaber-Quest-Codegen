@@ -28,6 +28,10 @@ namespace System::ComponentModel::Design {
     operator ::System::ComponentModel::Design::IDesigner() noexcept {
       return *reinterpret_cast<::System::ComponentModel::Design::IDesigner*>(this);
     }
+    // Creating interface conversion operator: i_IDesigner
+    inline ::System::ComponentModel::Design::IDesigner* i_IDesigner() noexcept {
+      return reinterpret_cast<::System::ComponentModel::Design::IDesigner*>(this);
+    }
   }; // System.ComponentModel.Design.IRootDesigner
   #pragma pack(pop)
 }

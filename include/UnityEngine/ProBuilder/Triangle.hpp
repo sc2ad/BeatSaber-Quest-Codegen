@@ -67,9 +67,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*>(this);
+    }
+    // Creating interface conversion operator: i_Triangle
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>* i_Triangle() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*>(this);
     }
     // Get instance field reference: private System.Int32 m_A
     [[deprecated("Use field access instead!")]] int& dyn_m_A();

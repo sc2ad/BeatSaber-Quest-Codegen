@@ -85,9 +85,17 @@ namespace TMPro {
     operator ::UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
     }
+    // Creating interface conversion operator: i_ICancelHandler
+    inline ::UnityEngine::EventSystems::ICancelHandler* i_ICancelHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerEnterHandler
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

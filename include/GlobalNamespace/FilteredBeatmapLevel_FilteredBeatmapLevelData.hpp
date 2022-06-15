@@ -68,6 +68,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelData
+    inline ::GlobalNamespace::IBeatmapLevelData* i_IBeatmapLevelData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> <difficultyBeatmapSets>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& dyn_$difficultyBeatmapSets$k__BackingField();
     // Get instance field reference: private readonly IBeatmapLevelData _beatmapLevelData

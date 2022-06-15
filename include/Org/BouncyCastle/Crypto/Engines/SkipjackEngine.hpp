@@ -73,6 +73,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IBlockCipher* i_IBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
+    }
     // Get static field: static private readonly System.Int16[] ftable
     static ::ArrayW<int16_t> _get_ftable();
     // Set static field: static private readonly System.Int16[] ftable

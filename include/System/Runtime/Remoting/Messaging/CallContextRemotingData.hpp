@@ -41,6 +41,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return logicalCallID;

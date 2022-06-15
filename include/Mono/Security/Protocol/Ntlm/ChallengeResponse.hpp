@@ -63,6 +63,10 @@ namespace Mono::Security::Protocol::Ntlm {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Byte[] magic
     static ::ArrayW<uint8_t> _get_magic();
     // Set static field: static private System.Byte[] magic

@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipherPadding
+    inline ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i_IBlockCipherPadding() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Security::SecureRandom*
     constexpr operator ::Org::BouncyCastle::Security::SecureRandom*() const noexcept {
       return random;

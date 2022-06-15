@@ -52,6 +52,10 @@ namespace Zenject {
     operator ::Zenject::IInstaller() noexcept {
       return *reinterpret_cast<::Zenject::IInstaller*>(this);
     }
+    // Creating interface conversion operator: i_IInstaller
+    inline ::Zenject::IInstaller* i_IInstaller() noexcept {
+      return reinterpret_cast<::Zenject::IInstaller*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField

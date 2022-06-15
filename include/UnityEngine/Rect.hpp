@@ -77,9 +77,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rect>
     operator ::System::IEquatable_1<::UnityEngine::Rect>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rect>*>(this);
+    }
+    // Creating interface conversion operator: i_Rect
+    inline ::System::IEquatable_1<::UnityEngine::Rect>* i_Rect() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rect>*>(this);
     }
     // Get instance field reference: private System.Single m_XMin
     [[deprecated("Use field access instead!")]] float& dyn_m_XMin();

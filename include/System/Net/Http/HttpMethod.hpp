@@ -41,6 +41,10 @@ namespace System::Net::Http {
     operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(this);
     }
+    // Creating interface conversion operator: i_HttpMethod
+    inline ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i_HttpMethod() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::Net::Http::HttpMethod*>*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return method;

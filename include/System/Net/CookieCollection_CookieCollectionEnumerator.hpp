@@ -55,6 +55,10 @@ namespace System::Net {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private System.Net.CookieCollection m_cookies
     [[deprecated("Use field access instead!")]] ::System::Net::CookieCollection*& dyn_m_cookies();
     // Get instance field reference: private System.Int32 m_count

@@ -95,6 +95,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
+    // Creating interface conversion operator: i_IGamePause
+    inline ::GlobalNamespace::IGamePause* i_IGamePause() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
+    }
     // Get instance field reference: private readonly TutorialSongController _tutorialSongController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialSongController*& dyn__tutorialSongController();
     // Get instance field reference: private readonly SaberManager _saberManager

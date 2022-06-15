@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Math::EC {
     operator ::Org::BouncyCastle::Math::EC::ECPointMap() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::ECPointMap*>(this);
     }
+    // Creating interface conversion operator: i_ECPointMap
+    inline ::Org::BouncyCastle::Math::EC::ECPointMap* i_ECPointMap() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::ECPointMap*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Math::EC::ECFieldElement*
     constexpr operator ::Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return scale;

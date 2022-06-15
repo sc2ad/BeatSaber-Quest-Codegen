@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
+    // Creating interface conversion operator: i_IDerivationParameters
+    inline ::Org::BouncyCastle::Crypto::IDerivationParameters* i_IDerivationParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
+    }
     // Get instance field reference: private System.Byte[] iv
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Byte[] shared

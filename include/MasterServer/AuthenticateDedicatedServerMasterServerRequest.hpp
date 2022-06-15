@@ -81,9 +81,17 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateRequest
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest* i_IUnconnectedAuthenticateRequest() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
+    }
     // Creating interface conversion operator: operator ::MasterServer::IDedicatedServerMasterServerMessage
     operator ::MasterServer::IDedicatedServerMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerMessage
+    inline ::MasterServer::IDedicatedServerMasterServerMessage* i_IDedicatedServerMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
     }
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$dedicatedServerId$k__BackingField();

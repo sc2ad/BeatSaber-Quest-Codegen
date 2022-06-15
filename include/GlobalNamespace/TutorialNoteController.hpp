@@ -90,6 +90,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IGameNoteMirrorable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGameNoteMirrorable*>(this);
     }
+    // Creating interface conversion operator: i_IGameNoteMirrorable
+    inline ::GlobalNamespace::IGameNoteMirrorable* i_IGameNoteMirrorable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGameNoteMirrorable*>(this);
+    }
     // Get instance field reference: private BoxCuttableBySaber _cuttableBySaberCore
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoxCuttableBySaber*& dyn__cuttableBySaberCore();
     // Get instance field reference: private BoxCuttableBySaber _cuttableBySaberBeforeNote

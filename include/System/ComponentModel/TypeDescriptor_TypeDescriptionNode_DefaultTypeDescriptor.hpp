@@ -65,9 +65,17 @@ namespace System::ComponentModel {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ComponentModel::ICustomTypeDescriptor
     operator ::System::ComponentModel::ICustomTypeDescriptor() noexcept {
       return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
+    }
+    // Creating interface conversion operator: i_ICustomTypeDescriptor
+    inline ::System::ComponentModel::ICustomTypeDescriptor* i_ICustomTypeDescriptor() noexcept {
+      return reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
     // Get instance field reference: private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode _node
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode*& dyn__node();

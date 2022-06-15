@@ -49,9 +49,17 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedUnreliableMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedUnreliableMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedUnreliableMessage
+    inline ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* i_IUnconnectedUnreliableMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedUnreliableMessage*>(this);
+    }
     // Creating interface conversion operator: operator ::MasterServer::IDedicatedServerMasterServerServerToClientMessage
     operator ::MasterServer::IDedicatedServerMasterServerServerToClientMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerServerToClientMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerServerToClientMessage
+    inline ::MasterServer::IDedicatedServerMasterServerServerToClientMessage* i_IDedicatedServerMasterServerServerToClientMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatResponse> get_pool()
     // Offset: 0x1683134

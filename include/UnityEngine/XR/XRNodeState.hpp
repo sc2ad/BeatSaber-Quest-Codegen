@@ -101,6 +101,10 @@ namespace UnityEngine::XR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.XR.XRNode m_Type
     [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn_m_Type();
     // Get instance field reference: private UnityEngine.XR.AvailableTrackingData m_AvailableFields

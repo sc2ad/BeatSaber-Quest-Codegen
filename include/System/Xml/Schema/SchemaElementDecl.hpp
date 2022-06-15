@@ -130,6 +130,10 @@ namespace System::Xml::Schema {
     operator ::System::Xml::IDtdAttributeListInfo() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdAttributeListInfo*>(this);
     }
+    // Creating interface conversion operator: i_IDtdAttributeListInfo
+    inline ::System::Xml::IDtdAttributeListInfo* i_IDtdAttributeListInfo() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdAttributeListInfo*>(this);
+    }
     // Get static field: static readonly System.Xml.Schema.SchemaElementDecl Empty
     static ::System::Xml::Schema::SchemaElementDecl* _get_Empty();
     // Set static field: static readonly System.Xml.Schema.SchemaElementDecl Empty

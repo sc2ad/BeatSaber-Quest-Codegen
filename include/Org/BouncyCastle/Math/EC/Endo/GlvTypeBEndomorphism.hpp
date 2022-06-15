@@ -66,6 +66,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
     }
+    // Creating interface conversion operator: i_GlvEndomorphism
+    inline ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* i_GlvEndomorphism() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
+    }
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters m_parameters
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*& dyn_m_parameters();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap

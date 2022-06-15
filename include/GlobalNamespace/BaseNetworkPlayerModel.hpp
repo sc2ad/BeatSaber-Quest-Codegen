@@ -128,6 +128,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModel*>(this);
     }
+    // Creating interface conversion operator: i_INetworkPlayerModel
+    inline ::GlobalNamespace::INetworkPlayerModel* i_INetworkPlayerModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayerModel*>(this);
+    }
     // Get instance field reference: private ConnectedPlayerManager _connectedPlayerManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectedPlayerManager*& dyn__connectedPlayerManager();
     // Get instance field reference: private INetworkPlayerModel _partyManager

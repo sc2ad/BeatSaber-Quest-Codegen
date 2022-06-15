@@ -55,6 +55,10 @@ namespace UnityEngine::TestTools::Utils {
     operator ::UnityEngine::TestTools::Utils::IAssemblyWrapper() noexcept {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
     }
+    // Creating interface conversion operator: i_IAssemblyWrapper
+    inline ::UnityEngine::TestTools::Utils::IAssemblyWrapper* i_IAssemblyWrapper() noexcept {
+      return reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
+    }
     // Get instance field reference: private readonly System.Reflection.Assembly <Assembly>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField

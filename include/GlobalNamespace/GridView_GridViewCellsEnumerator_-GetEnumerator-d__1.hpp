@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
+    // Creating interface conversion operator: i_MonoBehaviour
+    inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* i_MonoBehaviour() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private UnityEngine.MonoBehaviour <>2__current

@@ -79,17 +79,33 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>
     operator ::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>*>(this);
     }
+    // Creating interface conversion operator: i_StandardScoreSyncState_Score_int
+    inline ::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>* i_StandardScoreSyncState_Score_int() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>
     operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>*>(this);
+    }
+    // Creating interface conversion operator: i_StandardScoreSyncState
+    inline ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>* i_StandardScoreSyncState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>*>(this);
     }
     // Get instance field reference: private System.Int32 _modifiedScore
     [[deprecated("Use field access instead!")]] int& dyn__modifiedScore();

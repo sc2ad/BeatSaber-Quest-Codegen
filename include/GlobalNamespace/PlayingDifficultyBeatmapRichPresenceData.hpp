@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresenceData
+    inline ::GlobalNamespace::IRichPresenceData* i_IRichPresenceData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
+    }
     // Get instance field reference: private System.String <apiName>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$apiName$k__BackingField();
     // Get instance field reference: private System.String <localizedDescription>k__BackingField

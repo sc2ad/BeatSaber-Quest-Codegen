@@ -74,9 +74,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnection*>(this);
     }
+    // Creating interface conversion operator: i_IConnection
+    inline ::GlobalNamespace::IConnection* i_IConnection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnection*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>
     operator ::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);
+    }
+    // Creating interface conversion operator: i_NetPeerConnection
+    inline ::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>* i_NetPeerConnection() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);
     }
     // Get instance field reference: private readonly System.String _userId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__userId();

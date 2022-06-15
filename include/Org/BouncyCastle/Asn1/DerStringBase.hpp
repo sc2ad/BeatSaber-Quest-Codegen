@@ -35,6 +35,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::Org::BouncyCastle::Asn1::IAsn1String() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1String*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1String
+    inline ::Org::BouncyCastle::Asn1::IAsn1String* i_IAsn1String() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1String*>(this);
+    }
     // public System.String GetString()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetString();

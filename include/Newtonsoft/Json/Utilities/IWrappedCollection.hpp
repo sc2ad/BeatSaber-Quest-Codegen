@@ -31,6 +31,10 @@ namespace Newtonsoft::Json::Utilities {
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
     }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
+    }
     // public System.Object get_UnderlyingCollection()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* get_UnderlyingCollection();

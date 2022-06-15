@@ -157,6 +157,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapObjectSpawnController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapObjectSpawnController*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapObjectSpawnController
+    inline ::GlobalNamespace::IBeatmapObjectSpawnController* i_IBeatmapObjectSpawnController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapObjectSpawnController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData

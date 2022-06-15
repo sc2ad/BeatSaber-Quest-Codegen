@@ -122,6 +122,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
     }
+    // Creating interface conversion operator: i_INetworkConfig
+    inline ::GlobalNamespace::INetworkConfig* i_INetworkConfig() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _maxPartySize

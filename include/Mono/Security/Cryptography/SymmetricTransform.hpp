@@ -122,6 +122,10 @@ namespace Mono::Security::Cryptography {
     operator ::System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
     }
+    // Creating interface conversion operator: i_ICryptoTransform
+    inline ::System::Security::Cryptography::ICryptoTransform* i_ICryptoTransform() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
+    }
     // Get instance field reference: protected System.Security.Cryptography.SymmetricAlgorithm algo
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::SymmetricAlgorithm*& dyn_algo();
     // Get instance field reference: protected System.Boolean encrypt

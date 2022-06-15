@@ -57,9 +57,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*>(this);
+    }
+    // Creating interface conversion operator: i_ScriptableRenderContext
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>* i_ScriptableRenderContext() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*>(this);
     }
     // Creating conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept {

@@ -46,6 +46,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAnalyticsModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAnalyticsModel*>(this);
     }
+    // Creating interface conversion operator: i_IAnalyticsModel
+    inline ::GlobalNamespace::IAnalyticsModel* i_IAnalyticsModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAnalyticsModel*>(this);
+    }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
     // Offset: 0x14738AC
     bool get_supportsOpenDataPrivacyPage();

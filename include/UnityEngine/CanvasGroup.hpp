@@ -41,6 +41,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasRaycastFilter
+    inline ::UnityEngine::ICanvasRaycastFilter* i_ICanvasRaycastFilter() noexcept {
+      return reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
+    }
     // public System.Single get_alpha()
     // Offset: 0x2AD1D9C
     float get_alpha();

@@ -29,6 +29,10 @@ namespace UnityEngineInternal {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public System.Single FloatMinNormal
     static float _get_FloatMinNormal();
     // Set static field: static public System.Single FloatMinNormal

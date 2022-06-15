@@ -41,6 +41,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::IDisposableFixture() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IDisposableFixture*>(this);
     }
+    // Creating interface conversion operator: i_IDisposableFixture
+    inline ::NUnit::Framework::Interfaces::IDisposableFixture* i_IDisposableFixture() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IDisposableFixture*>(this);
+    }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo fixtureType)
     // Offset: 0x2A0A0A4
     // Implemented from: NUnit.Framework.Internal.TestSuite

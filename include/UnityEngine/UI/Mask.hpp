@@ -92,9 +92,17 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasRaycastFilter
+    inline ::UnityEngine::ICanvasRaycastFilter* i_ICanvasRaycastFilter() noexcept {
+      return reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::IMaterialModifier
     operator ::UnityEngine::UI::IMaterialModifier() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IMaterialModifier*>(this);
+    }
+    // Creating interface conversion operator: i_IMaterialModifier
+    inline ::UnityEngine::UI::IMaterialModifier* i_IMaterialModifier() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IMaterialModifier*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

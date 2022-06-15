@@ -117,6 +117,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private readonly UnityEngine.Color32 s_DefaultColor
     static ::UnityEngine::Color32 _get_s_DefaultColor();
     // Set static field: static private readonly UnityEngine.Color32 s_DefaultColor

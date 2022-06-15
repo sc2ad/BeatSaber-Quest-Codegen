@@ -87,6 +87,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
     }
+    // Creating interface conversion operator: i_IPlatformUserModel
+    inline ::GlobalNamespace::IPlatformUserModel* i_IPlatformUserModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
+    }
     // Get instance field reference: private System.String[] _friendsUserIds
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__friendsUserIds();
     // Get instance field reference: private UserInfo _userInfo

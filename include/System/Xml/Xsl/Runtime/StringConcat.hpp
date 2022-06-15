@@ -83,6 +83,10 @@ namespace System::Xml::Xsl::Runtime {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.String s1
     [[deprecated("Use field access instead!")]] ::StringW& dyn_s1();
     // Get instance field reference: private System.String s2

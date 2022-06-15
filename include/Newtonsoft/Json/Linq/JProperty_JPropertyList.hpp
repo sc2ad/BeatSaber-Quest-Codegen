@@ -59,6 +59,10 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* i_JToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
+    }
     // Creating conversion operator: operator ::Newtonsoft::Json::Linq::JToken*
     constexpr operator ::Newtonsoft::Json::Linq::JToken*() const noexcept {
       return token;

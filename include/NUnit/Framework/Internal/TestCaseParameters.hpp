@@ -50,6 +50,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITestCaseData() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestCaseData*>(this);
     }
+    // Creating interface conversion operator: i_ITestCaseData
+    inline ::NUnit::Framework::Interfaces::ITestCaseData* i_ITestCaseData() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestCaseData*>(this);
+    }
     // Get instance field reference: private System.Object _expectedResult
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__expectedResult();
     // Get instance field reference: private System.Boolean <HasExpectedResult>k__BackingField

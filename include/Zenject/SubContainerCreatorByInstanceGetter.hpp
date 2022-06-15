@@ -62,6 +62,10 @@ namespace Zenject {
     operator ::Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
+    // Creating interface conversion operator: i_ISubContainerCreator
+    inline ::Zenject::ISubContainerCreator* i_ISubContainerCreator() noexcept {
+      return reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
+    }
     // Creating conversion operator: operator ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*
     constexpr operator ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*() const noexcept {
       return subcontainerGetter;

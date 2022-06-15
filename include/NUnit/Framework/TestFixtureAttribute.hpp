@@ -109,9 +109,17 @@ namespace NUnit::Framework {
     operator ::NUnit::Framework::Interfaces::IFixtureBuilder() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IFixtureBuilder*>(this);
     }
+    // Creating interface conversion operator: i_IFixtureBuilder
+    inline ::NUnit::Framework::Interfaces::IFixtureBuilder* i_IFixtureBuilder() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IFixtureBuilder*>(this);
+    }
     // Creating interface conversion operator: operator ::NUnit::Framework::Interfaces::ITestFixtureData
     operator ::NUnit::Framework::Interfaces::ITestFixtureData() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestFixtureData*>(this);
+    }
+    // Creating interface conversion operator: i_ITestFixtureData
+    inline ::NUnit::Framework::Interfaces::ITestFixtureData* i_ITestFixtureData() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestFixtureData*>(this);
     }
     // Get instance field reference: private readonly NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _builder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__builder();

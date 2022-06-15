@@ -99,69 +99,137 @@ namespace UnityEngine::EventSystems {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ICancelHandler
     operator ::UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
     }
+    // Creating interface conversion operator: i_ICancelHandler
+    inline ::UnityEngine::EventSystems::ICancelHandler* i_ICancelHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerEnterHandler
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IUpdateSelectedHandler
     operator ::UnityEngine::EventSystems::IUpdateSelectedHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(this);
     }
+    // Creating interface conversion operator: i_IUpdateSelectedHandler
+    inline ::UnityEngine::EventSystems::IUpdateSelectedHandler* i_IUpdateSelectedHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IBeginDragHandler
     operator ::UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IBeginDragHandler
+    inline ::UnityEngine::EventSystems::IBeginDragHandler* i_IBeginDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDragHandler
     operator ::UnityEngine::EventSystems::IDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IDragHandler
+    inline ::UnityEngine::EventSystems::IDragHandler* i_IDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IEndDragHandler
     operator ::UnityEngine::EventSystems::IEndDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IEndDragHandler
+    inline ::UnityEngine::EventSystems::IEndDragHandler* i_IEndDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler
     operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IInitializePotentialDragHandler
+    inline ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i_IInitializePotentialDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IScrollHandler
     operator ::UnityEngine::EventSystems::IScrollHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IScrollHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IScrollHandler
+    inline ::UnityEngine::EventSystems::IScrollHandler* i_IScrollHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IScrollHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IMoveHandler
     operator ::UnityEngine::EventSystems::IMoveHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IMoveHandler*>(this);
     }
+    // Creating interface conversion operator: i_IMoveHandler
+    inline ::UnityEngine::EventSystems::IMoveHandler* i_IMoveHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IMoveHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerDownHandler
     operator ::UnityEngine::EventSystems::IPointerDownHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerDownHandler
+    inline ::UnityEngine::EventSystems::IPointerDownHandler* i_IPointerDownHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerUpHandler
     operator ::UnityEngine::EventSystems::IPointerUpHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerUpHandler
+    inline ::UnityEngine::EventSystems::IPointerUpHandler* i_IPointerUpHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISelectHandler
     operator ::UnityEngine::EventSystems::ISelectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
     }
+    // Creating interface conversion operator: i_ISelectHandler
+    inline ::UnityEngine::EventSystems::ISelectHandler* i_ISelectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDeselectHandler
     operator ::UnityEngine::EventSystems::IDeselectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
     }
+    // Creating interface conversion operator: i_IDeselectHandler
+    inline ::UnityEngine::EventSystems::IDeselectHandler* i_IDeselectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDropHandler
     operator ::UnityEngine::EventSystems::IDropHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDropHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IDropHandler
+    inline ::UnityEngine::EventSystems::IDropHandler* i_IDropHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDropHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

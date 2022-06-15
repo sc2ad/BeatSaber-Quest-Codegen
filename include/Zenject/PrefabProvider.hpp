@@ -48,6 +48,10 @@ namespace Zenject {
     operator ::Zenject::IPrefabProvider() noexcept {
       return *reinterpret_cast<::Zenject::IPrefabProvider*>(this);
     }
+    // Creating interface conversion operator: i_IPrefabProvider
+    inline ::Zenject::IPrefabProvider* i_IPrefabProvider() noexcept {
+      return reinterpret_cast<::Zenject::IPrefabProvider*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Object*
     constexpr operator ::UnityEngine::Object*() const noexcept {
       return prefab;

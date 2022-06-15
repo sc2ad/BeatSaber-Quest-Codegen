@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IBlockCipher* i_IBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBlockCipher*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<int>
     constexpr operator ::ArrayW<int>() const noexcept {
       return workingKey;

@@ -179,6 +179,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Internal::ITestExecutionContext*>(this);
     }
+    // Creating interface conversion operator: i_ITestExecutionContext
+    inline ::NUnit::Framework::Internal::ITestExecutionContext* i_ITestExecutionContext() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Internal::ITestExecutionContext*>(this);
+    }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private readonly System.String CONTEXT_KEY

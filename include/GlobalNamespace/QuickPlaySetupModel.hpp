@@ -91,6 +91,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
     }
+    // Creating interface conversion operator: i_IQuickPlaySetupModel
+    inline ::GlobalNamespace::IQuickPlaySetupModel* i_IQuickPlaySetupModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
+    }
     // static field const value: static private System.Int32 kRequestCacheTimeoutMinutes
     static constexpr const int kRequestCacheTimeoutMinutes = 5;
     // Get static field: static private System.Int32 kRequestCacheTimeoutMinutes

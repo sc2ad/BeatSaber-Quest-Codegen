@@ -32,6 +32,10 @@ namespace System::Collections::Generic {
     operator ::System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_T
+    inline ::System::Collections::Generic::IEnumerable_1<T>* i_IEnumerable_1_T() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
+    }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Count() {

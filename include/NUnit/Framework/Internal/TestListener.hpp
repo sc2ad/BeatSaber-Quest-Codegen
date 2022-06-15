@@ -43,6 +43,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
     }
+    // Creating interface conversion operator: i_ITestListener
+    inline ::NUnit::Framework::Interfaces::ITestListener* i_ITestListener() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestListener*>(this);
+    }
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
     // Offset: 0x2A094D0
     static ::NUnit::Framework::Interfaces::ITestListener* get_NULL();

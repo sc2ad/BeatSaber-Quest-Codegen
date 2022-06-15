@@ -66,6 +66,10 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::IParameterInfo() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IParameterInfo*>(this);
     }
+    // Creating interface conversion operator: i_IParameterInfo
+    inline ::NUnit::Framework::Interfaces::IParameterInfo* i_IParameterInfo() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IParameterInfo*>(this);
+    }
     // Get instance field reference: private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::IMethodInfo*& dyn_$Method$k__BackingField();
     // Get instance field reference: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField

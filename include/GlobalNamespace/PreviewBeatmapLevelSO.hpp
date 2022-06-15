@@ -195,9 +195,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPreviewBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IPreviewBeatmapLevel
+    inline ::GlobalNamespace::IPreviewBeatmapLevel* i_IPreviewBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPreviewBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IAssetSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i_IAssetSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

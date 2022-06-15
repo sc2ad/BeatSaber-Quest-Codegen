@@ -57,6 +57,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Get instance field reference: private System.Collections.ArrayList _objects
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Boolean isKeys

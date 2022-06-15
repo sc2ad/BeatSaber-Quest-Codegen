@@ -129,6 +129,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
     }
+    // Creating interface conversion operator: i_INetworkPlayer
+    inline ::GlobalNamespace::INetworkPlayer* i_INetworkPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
+    }
     // Get instance field reference: private readonly OculusNetworkPlayerModel _playerModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn__playerModel();
     // Get instance field reference: private readonly System.UInt64 _id

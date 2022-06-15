@@ -125,6 +125,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return value;
@@ -250,6 +254,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::LiteNetLib::INetEventListener
     operator ::LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
+    }
+    // Creating interface conversion operator: i_INetEventListener
+    inline ::LiteNetLib::INetEventListener* i_INetEventListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

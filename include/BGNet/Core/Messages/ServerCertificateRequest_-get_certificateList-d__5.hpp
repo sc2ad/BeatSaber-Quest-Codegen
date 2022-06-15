@@ -75,6 +75,10 @@ namespace BGNet::Core::Messages {
     operator ::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>*>(this);
     }
+    // Creating interface conversion operator: i_ArrayW_uint8_t
+    inline ::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* i_ArrayW_uint8_t() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>
     operator ::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>*>(this);

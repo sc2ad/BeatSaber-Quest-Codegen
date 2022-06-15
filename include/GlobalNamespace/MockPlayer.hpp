@@ -208,9 +208,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
     }
+    // Creating interface conversion operator: i_IConnectedPlayer
+    inline ::GlobalNamespace::IConnectedPlayer* i_IConnectedPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectedPlayer*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INetworkPlayer
     operator ::GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
+    }
+    // Creating interface conversion operator: i_INetworkPlayer
+    inline ::GlobalNamespace::INetworkPlayer* i_INetworkPlayer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayer*>(this);
     }
     // Get instance field reference: private readonly System.Boolean <isMe>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isMe$k__BackingField();

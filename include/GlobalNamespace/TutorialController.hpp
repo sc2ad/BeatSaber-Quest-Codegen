@@ -138,6 +138,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelStartController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
     }
+    // Creating interface conversion operator: i_ILevelStartController
+    inline ::GlobalNamespace::ILevelStartController* i_ILevelStartController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialSongController _tutorialSongController

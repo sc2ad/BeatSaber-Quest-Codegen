@@ -106,6 +106,10 @@ namespace System::Runtime::Remoting {
     operator ::Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<::Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
+    // Creating interface conversion operator: i_IContentHandler
+    inline ::Mono::Xml::SmallXmlParser::IContentHandler* i_IContentHandler() noexcept {
+      return reinterpret_cast<::Mono::Xml::SmallXmlParser::IContentHandler*>(this);
+    }
     // Get instance field reference: private System.Collections.ArrayList typeEntries
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn_typeEntries();
     // Get instance field reference: private System.Collections.ArrayList channelInstances

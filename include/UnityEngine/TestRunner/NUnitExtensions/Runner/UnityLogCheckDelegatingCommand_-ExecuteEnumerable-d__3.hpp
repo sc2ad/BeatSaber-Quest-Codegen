@@ -108,6 +108,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     operator ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

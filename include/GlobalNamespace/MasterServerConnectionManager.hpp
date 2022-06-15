@@ -137,6 +137,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -284,6 +288,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IConnectionManager
     operator ::GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
+    }
+    // Creating interface conversion operator: i_IConnectionManager
+    inline ::GlobalNamespace::IConnectionManager* i_IConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
     }
     // static field const value: static private System.Int32 kMaxConnectionAttemptCount
     static constexpr const int kMaxConnectionAttemptCount = 2;

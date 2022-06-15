@@ -74,6 +74,10 @@ namespace Zenject {
     operator ::Zenject::IProvider() noexcept {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
+    // Creating interface conversion operator: i_IProvider
+    inline ::Zenject::IProvider* i_IProvider() noexcept {
+      return reinterpret_cast<::Zenject::IProvider*>(this);
+    }
     // Get instance field reference: private readonly System.Type _resourceType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__resourceType();
     // Get instance field reference: private readonly System.String _resourcePath

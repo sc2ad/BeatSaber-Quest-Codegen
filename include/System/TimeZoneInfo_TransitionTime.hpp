@@ -87,17 +87,33 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::TimeZoneInfo::TransitionTime>
     operator ::System::IEquatable_1<::System::TimeZoneInfo::TransitionTime>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::TimeZoneInfo::TransitionTime>*>(this);
+    }
+    // Creating interface conversion operator: i_TransitionTime
+    inline ::System::IEquatable_1<::System::TimeZoneInfo::TransitionTime>* i_TransitionTime() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::TimeZoneInfo::TransitionTime>*>(this);
     }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // Get instance field reference: private System.DateTime m_timeOfDay
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_m_timeOfDay();

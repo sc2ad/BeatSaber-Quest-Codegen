@@ -54,6 +54,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localPosition
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_localPosition();
     // Get instance field reference: public LIV.SDK.Unity.SDKQuaternion localRotation

@@ -67,9 +67,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::UnityEngine::Hash128>
     operator ::System::IComparable_1<::UnityEngine::Hash128>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::UnityEngine::Hash128>*>(this);
+    }
+    // Creating interface conversion operator: i_Hash128
+    inline ::System::IComparable_1<::UnityEngine::Hash128>* i_Hash128() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::UnityEngine::Hash128>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Hash128>
     operator ::System::IEquatable_1<::UnityEngine::Hash128>() noexcept {
@@ -78,6 +86,10 @@ namespace UnityEngine {
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: private System.UInt32 m_u32_0
     [[deprecated("Use field access instead!")]] uint& dyn_m_u32_0();

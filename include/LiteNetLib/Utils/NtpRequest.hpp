@@ -86,6 +86,10 @@ namespace LiteNetLib::Utils {
     operator ::LiteNetLib::INetSocketListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetSocketListener*>(this);
     }
+    // Creating interface conversion operator: i_INetSocketListener
+    inline ::LiteNetLib::INetSocketListener* i_INetSocketListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetSocketListener*>(this);
+    }
     // static field const value: static public System.Int32 DefaultPort
     static constexpr const int DefaultPort = 123;
     // Get static field: static public System.Int32 DefaultPort

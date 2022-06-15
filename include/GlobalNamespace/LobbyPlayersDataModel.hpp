@@ -173,9 +173,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ILobbyPlayersDataModel
     operator ::GlobalNamespace::ILobbyPlayersDataModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILobbyPlayersDataModel*>(this);
+    }
+    // Creating interface conversion operator: i_ILobbyPlayersDataModel
+    inline ::GlobalNamespace::ILobbyPlayersDataModel* i_ILobbyPlayersDataModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILobbyPlayersDataModel*>(this);
     }
     // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();

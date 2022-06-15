@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelRestartController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelRestartController*>(this);
     }
+    // Creating interface conversion operator: i_ILevelRestartController
+    inline ::GlobalNamespace::ILevelRestartController* i_ILevelRestartController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelRestartController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData

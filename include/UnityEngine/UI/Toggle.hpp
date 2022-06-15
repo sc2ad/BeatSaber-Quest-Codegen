@@ -83,6 +83,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -144,13 +148,25 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ICanvasElement
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
     // Get instance field reference: public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition toggleTransition
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle::ToggleTransition& dyn_toggleTransition();

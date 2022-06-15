@@ -64,6 +64,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::ArrayList*
     constexpr operator ::System::Collections::ArrayList*() const noexcept {
       return list;

@@ -36,6 +36,10 @@ namespace NUnit::Framework::Internal {
     operator ::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_MethodInfo
+    inline ::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>* i_MethodInfo() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x2A0710C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

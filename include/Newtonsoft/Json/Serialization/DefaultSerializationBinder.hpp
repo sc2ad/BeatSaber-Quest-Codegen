@@ -78,6 +78,10 @@ namespace Newtonsoft::Json::Serialization {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: readonly System.String AssemblyName
       [[deprecated("Use field access instead!")]] ::StringW& dyn_AssemblyName();
       // Get instance field reference: readonly System.String TypeName

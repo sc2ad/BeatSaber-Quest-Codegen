@@ -96,17 +96,33 @@ namespace System {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IStructuralEquatable
     operator ::System::Collections::IStructuralEquatable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
+    }
+    // Creating interface conversion operator: i_IStructuralEquatable
+    inline ::System::Collections::IStructuralEquatable* i_IStructuralEquatable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
     }
     // Creating interface conversion operator: operator ::System::Collections::IStructuralComparable
     operator ::System::Collections::IStructuralComparable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
     }
+    // Creating interface conversion operator: i_IStructuralComparable
+    inline ::System::Collections::IStructuralComparable* i_IStructuralComparable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IList
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
+    }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
     }
     // private System.Int32 System.Collections.ICollection.get_Count()
     // Offset: 0x1EA9280

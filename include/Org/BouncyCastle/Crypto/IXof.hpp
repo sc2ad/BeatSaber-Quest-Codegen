@@ -29,6 +29,10 @@ namespace Org::BouncyCastle::Crypto {
     operator ::Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
     }
+    // Creating interface conversion operator: i_IDigest
+    inline ::Org::BouncyCastle::Crypto::IDigest* i_IDigest() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
+    }
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     // Offset: 0xFFFFFFFFFFFFFFFF
     int DoFinal(::ArrayW<uint8_t> output, int outOff, int outLen);

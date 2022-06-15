@@ -123,6 +123,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_VolumeLayer
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* i_HEU_VolumeLayer() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
+    }
     // Get instance field reference: public System.String _layerName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__layerName();
     // Get instance field reference: public HoudiniEngineUnity.HEU_PartData _part

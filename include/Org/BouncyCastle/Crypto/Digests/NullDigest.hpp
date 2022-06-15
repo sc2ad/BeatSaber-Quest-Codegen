@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     operator ::Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
     }
+    // Creating interface conversion operator: i_IDigest
+    inline ::Org::BouncyCastle::Crypto::IDigest* i_IDigest() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDigest*>(this);
+    }
     // Creating conversion operator: operator ::System::IO::MemoryStream*
     constexpr operator ::System::IO::MemoryStream*() const noexcept {
       return bOut;

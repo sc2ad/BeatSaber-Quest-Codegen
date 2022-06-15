@@ -53,6 +53,10 @@ namespace Mono::Xml {
     operator ::Mono::Xml::SmallXmlParser::IAttrList() noexcept {
       return *reinterpret_cast<::Mono::Xml::SmallXmlParser::IAttrList*>(this);
     }
+    // Creating interface conversion operator: i_IAttrList
+    inline ::Mono::Xml::SmallXmlParser::IAttrList* i_IAttrList() noexcept {
+      return reinterpret_cast<::Mono::Xml::SmallXmlParser::IAttrList*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrNames
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_attrNames();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues

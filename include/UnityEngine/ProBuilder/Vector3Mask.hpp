@@ -53,9 +53,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector3Mask
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>* i_Vector3Mask() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>*>(this);
     }
     // Creating conversion operator: operator uint8_t
     constexpr operator uint8_t() const noexcept {

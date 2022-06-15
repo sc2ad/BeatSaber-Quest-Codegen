@@ -34,6 +34,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
     }
+    // Creating interface conversion operator: i_IFiniteField
+    inline ::Org::BouncyCastle::Math::Field::IFiniteField* i_IFiniteField() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
+    }
     // public Org.BouncyCastle.Math.Field.IPolynomial get_MinimalPolynomial()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();

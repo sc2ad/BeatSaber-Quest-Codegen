@@ -87,9 +87,17 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* i_JToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IList
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
+    }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
     }
     // Get instance field reference: System.ComponentModel.ListChangedEventHandler _listChanged
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::ListChangedEventHandler*& dyn__listChanged();

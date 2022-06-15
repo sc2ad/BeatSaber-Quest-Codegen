@@ -65,9 +65,17 @@ namespace UnityEngine::UI {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>
     operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::SpriteState>*>(this);
+    }
+    // Creating interface conversion operator: i_SpriteState
+    inline ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* i_SpriteState() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::SpriteState>*>(this);
     }
     // Get instance field reference: private UnityEngine.Sprite m_HighlightedSprite
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_m_HighlightedSprite();

@@ -40,6 +40,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatSaberLogger() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatSaberLogger*>(this);
     }
+    // Creating interface conversion operator: i_IBeatSaberLogger
+    inline ::GlobalNamespace::IBeatSaberLogger* i_IBeatSaberLogger() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatSaberLogger*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x14A05CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

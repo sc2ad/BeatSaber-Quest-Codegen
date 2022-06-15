@@ -45,6 +45,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(this);
     }
+    // Creating interface conversion operator: i_IDsaEncoding
+    inline ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* i_IDsaEncoding() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(this);
+    }
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Signers.StandardDsaEncoding Instance
     static ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding* _get_Instance();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Signers.StandardDsaEncoding Instance

@@ -88,6 +88,10 @@ namespace System::Security::Claims {
     operator ::System::Security::Principal::IPrincipal() noexcept {
       return *reinterpret_cast<::System::Security::Principal::IPrincipal*>(this);
     }
+    // Creating interface conversion operator: i_IPrincipal
+    inline ::System::Security::Principal::IPrincipal* i_IPrincipal() noexcept {
+      return reinterpret_cast<::System::Security::Principal::IPrincipal*>(this);
+    }
     // Get static field: static private System.Func`2<System.Collections.Generic.IEnumerable`1<System.Security.Claims.ClaimsIdentity>,System.Security.Claims.ClaimsIdentity> s_identitySelector
     static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>* _get_s_identitySelector();
     // Set static field: static private System.Func`2<System.Collections.Generic.IEnumerable`1<System.Security.Claims.ClaimsIdentity>,System.Security.Claims.ClaimsIdentity> s_identitySelector

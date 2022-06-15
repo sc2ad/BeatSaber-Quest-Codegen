@@ -41,6 +41,10 @@ namespace System::Runtime::Serialization {
     operator ::System::Runtime::Serialization::IFormatterConverter() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
     }
+    // Creating interface conversion operator: i_IFormatterConverter
+    inline ::System::Runtime::Serialization::IFormatterConverter* i_IFormatterConverter() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
+    }
     // public System.Object Convert(System.Object value, System.Type type)
     // Offset: 0x18EA4B0
     ::Il2CppObject* Convert(::Il2CppObject* value, ::System::Type* type);

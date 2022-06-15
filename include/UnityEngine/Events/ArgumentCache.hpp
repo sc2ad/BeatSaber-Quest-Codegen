@@ -83,6 +83,10 @@ namespace UnityEngine::Events {
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
     // Get instance field reference: private UnityEngine.Object m_ObjectArgument
     [[deprecated("Use field access instead!")]] ::UnityEngine::Object*& dyn_m_ObjectArgument();
     // Get instance field reference: private System.String m_ObjectArgumentAssemblyTypeName

@@ -88,6 +88,10 @@ namespace UnityEngine::ProBuilder {
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>*>(this);
     }
+    // Creating interface conversion operator: i_SemVer
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>* i_SemVer() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>
     operator ::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::UnityEngine::ProBuilder::SemVer*>*>(this);
@@ -95,6 +99,10 @@ namespace UnityEngine::ProBuilder {
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // static field const value: static public System.String DefaultStringFormat
     static constexpr const char* DefaultStringFormat = "M.m.p-t.b";

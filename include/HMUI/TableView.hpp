@@ -104,6 +104,10 @@ namespace HMUI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -283,6 +287,10 @@ namespace HMUI {
     // Creating interface conversion operator: operator ::HMUI::ITableCellOwner
     operator ::HMUI::ITableCellOwner() noexcept {
       return *reinterpret_cast<::HMUI::ITableCellOwner*>(this);
+    }
+    // Creating interface conversion operator: i_ITableCellOwner
+    inline ::HMUI::ITableCellOwner* i_ITableCellOwner() noexcept {
+      return reinterpret_cast<::HMUI::ITableCellOwner*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

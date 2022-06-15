@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
     }
+    // Creating interface conversion operator: i_IFiniteField
+    inline ::Org::BouncyCastle::Math::Field::IFiniteField* i_IFiniteField() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Math::BigInteger*
     constexpr operator ::Org::BouncyCastle::Math::BigInteger*() const noexcept {
       return characteristic;

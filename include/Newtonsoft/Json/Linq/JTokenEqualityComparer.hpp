@@ -40,6 +40,10 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
+    // Creating interface conversion operator: i_JToken
+    inline ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>* i_JToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1753F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

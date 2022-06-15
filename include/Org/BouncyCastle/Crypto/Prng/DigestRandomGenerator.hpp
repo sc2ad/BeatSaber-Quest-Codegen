@@ -72,6 +72,10 @@ namespace Org::BouncyCastle::Crypto::Prng {
     operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
+    // Creating interface conversion operator: i_IRandomGenerator
+    inline ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i_IRandomGenerator() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
+    }
     // Get instance field reference: private System.Int64 stateCounter
     [[deprecated("Use field access instead!")]] int64_t& dyn_stateCounter();
     // Get instance field reference: private System.Int64 seedCounter

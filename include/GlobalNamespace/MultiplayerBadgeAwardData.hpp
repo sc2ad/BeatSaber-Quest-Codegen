@@ -87,6 +87,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Get instance field reference: private readonly IConnectedPlayer _awardedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__awardedPlayer();
     // Get instance field reference: private readonly System.Single _weight

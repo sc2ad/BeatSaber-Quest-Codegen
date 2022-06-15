@@ -37,6 +37,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatToTimeConvertor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatToTimeConvertor*>(this);
     }
+    // Creating interface conversion operator: i_IBeatToTimeConvertor
+    inline ::GlobalNamespace::IBeatToTimeConvertor* i_IBeatToTimeConvertor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatToTimeConvertor*>(this);
+    }
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return bpm;

@@ -121,9 +121,17 @@ namespace System::ComponentModel {
     operator ::System::Collections::IList() noexcept {
       return *reinterpret_cast<::System::Collections::IList*>(this);
     }
+    // Creating interface conversion operator: i_IList
+    inline ::System::Collections::IList* i_IList() noexcept {
+      return reinterpret_cast<::System::Collections::IList*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IDictionary
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
     // Get static field: static public readonly System.ComponentModel.PropertyDescriptorCollection Empty
     static ::System::ComponentModel::PropertyDescriptorCollection* _get_Empty();

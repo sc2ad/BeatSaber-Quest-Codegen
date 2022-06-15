@@ -46,6 +46,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public Valve.VR.IntersectionMaskRectangle_t m_Rectangle
     [[deprecated("Use field access instead!")]] ::Valve::VR::IntersectionMaskRectangle_t& dyn_m_Rectangle();
     // Get instance field reference: public Valve.VR.IntersectionMaskCircle_t m_Circle

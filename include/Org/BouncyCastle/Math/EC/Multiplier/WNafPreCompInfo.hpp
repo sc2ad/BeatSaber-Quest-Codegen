@@ -78,6 +78,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
+    // Creating interface conversion operator: i_PreCompInfo
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i_PreCompInfo() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
+    }
     // Get instance field reference: System.Int32 m_promotionCountdown
     [[deprecated("Use field access instead!")]] int& dyn_m_promotionCountdown();
     // Get instance field reference: protected System.Int32 m_confWidth

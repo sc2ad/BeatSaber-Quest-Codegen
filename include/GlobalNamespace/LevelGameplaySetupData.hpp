@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
+    // Creating interface conversion operator: i_ILevelGameplaySetupData
+    inline ::GlobalNamespace::ILevelGameplaySetupData* i_ILevelGameplaySetupData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
+    }
     // Get instance field reference: private PreviewDifficultyBeatmap _beatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewDifficultyBeatmap*& dyn__beatmapLevel();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers

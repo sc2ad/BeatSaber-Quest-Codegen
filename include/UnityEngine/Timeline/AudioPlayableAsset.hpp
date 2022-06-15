@@ -93,6 +93,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineClipAsset
+    inline ::UnityEngine::Timeline::ITimelineClipAsset* i_ITimelineClipAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip m_Clip

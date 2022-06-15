@@ -81,6 +81,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IDestinationRequestManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IDestinationRequestManager*>(this);
     }
+    // Creating interface conversion operator: i_IDestinationRequestManager
+    inline ::GlobalNamespace::IDestinationRequestManager* i_IDestinationRequestManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IDestinationRequestManager*>(this);
+    }
     // Get instance field reference: private BeatmapLevelsModel _beatmapLevelsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection

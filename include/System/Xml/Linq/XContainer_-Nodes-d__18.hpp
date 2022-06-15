@@ -79,6 +79,10 @@ namespace System::Xml::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>*>(this);
     }
+    // Creating interface conversion operator: i_XNode
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* i_XNode() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>*>(this);

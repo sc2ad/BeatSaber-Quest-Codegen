@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelData
+    inline ::GlobalNamespace::IBeatmapLevelData* i_IBeatmapLevelData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
+    }
     // Get instance field reference: private readonly UnityEngine.AudioClip _audioClip
     [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet> _difficultyBeatmapSets

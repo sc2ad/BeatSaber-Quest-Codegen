@@ -54,6 +54,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -119,6 +123,10 @@ namespace HoudiniEngineUnity {
     // Creating interface conversion operator: operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
+    }
+    // Creating interface conversion operator: i_HEU_HandleParamBinding
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>* i_HEU_HandleParamBinding() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
     }
     // Get instance field reference: public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType _paramType
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType& dyn__paramType();

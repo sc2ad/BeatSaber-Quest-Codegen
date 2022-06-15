@@ -58,13 +58,25 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IInitializable
     operator ::Zenject::IInitializable() noexcept {
       return *reinterpret_cast<::Zenject::IInitializable*>(this);
     }
+    // Creating interface conversion operator: i_IInitializable
+    inline ::Zenject::IInitializable* i_IInitializable() noexcept {
+      return reinterpret_cast<::Zenject::IInitializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IJumpOffsetYProvider
     operator ::GlobalNamespace::IJumpOffsetYProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IJumpOffsetYProvider
+    inline ::GlobalNamespace::IJumpOffsetYProvider* i_IJumpOffsetYProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
     }
     // Get instance field reference: private readonly PlayerHeightDetector _playerHeightDetector
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetector();

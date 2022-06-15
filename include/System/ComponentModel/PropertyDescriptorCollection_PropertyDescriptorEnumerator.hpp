@@ -50,6 +50,10 @@ namespace System::ComponentModel {
     operator ::System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IDictionaryEnumerator
+    inline ::System::Collections::IDictionaryEnumerator* i_IDictionaryEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
+    }
     // Get instance field reference: private System.ComponentModel.PropertyDescriptorCollection owner
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::PropertyDescriptorCollection*& dyn_owner();
     // Get instance field reference: private System.Int32 index

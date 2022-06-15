@@ -78,6 +78,10 @@ namespace HMUI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -180,6 +184,10 @@ namespace HMUI {
     // Creating interface conversion operator: operator ::GlobalNamespace::IComponentRefresher
     operator ::GlobalNamespace::IComponentRefresher() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IComponentRefresher*>(this);
+    }
+    // Creating interface conversion operator: i_IComponentRefresher
+    inline ::GlobalNamespace::IComponentRefresher* i_IComponentRefresher() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IComponentRefresher*>(this);
     }
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C1F7C
     // Get static field: static private readonly UnityEngine.Vector2 kVec2Zero

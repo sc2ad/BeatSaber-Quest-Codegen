@@ -29,6 +29,10 @@ namespace System::Xml {
     operator ::System::Collections::Generic::IComparer_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IComparer_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::Il2CppObject*>*>(this);
+    }
     // Get static field: static private System.Collections.Generic.IComparer`1<System.Object> s_instance
     static ::System::Collections::Generic::IComparer_1<::Il2CppObject*>* _get_s_instance();
     // Set static field: static private System.Collections.Generic.IComparer`1<System.Object> s_instance

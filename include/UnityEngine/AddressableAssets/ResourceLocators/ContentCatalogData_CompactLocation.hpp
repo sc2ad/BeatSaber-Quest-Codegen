@@ -104,6 +104,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocation
+    inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i_IResourceLocation() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
+    }
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& dyn_m_Locator();
     // Get instance field reference: private System.String m_InternalId

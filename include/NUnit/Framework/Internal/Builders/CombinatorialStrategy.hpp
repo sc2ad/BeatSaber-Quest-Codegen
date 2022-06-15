@@ -51,6 +51,10 @@ namespace NUnit::Framework::Internal::Builders {
     operator ::NUnit::Framework::Interfaces::ICombiningStrategy() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
     }
+    // Creating interface conversion operator: i_ICombiningStrategy
+    inline ::NUnit::Framework::Interfaces::ICombiningStrategy* i_ICombiningStrategy() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1C852D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

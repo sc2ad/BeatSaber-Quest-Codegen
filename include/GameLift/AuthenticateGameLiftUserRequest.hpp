@@ -72,9 +72,17 @@ namespace GameLift {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateRequest
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest* i_IUnconnectedAuthenticateRequest() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>(this);
+    }
     // Creating interface conversion operator: operator ::GameLift::IGameLiftClientToServerMessage
     operator ::GameLift::IGameLiftClientToServerMessage() noexcept {
       return *reinterpret_cast<::GameLift::IGameLiftClientToServerMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IGameLiftClientToServerMessage
+    inline ::GameLift::IGameLiftClientToServerMessage* i_IGameLiftClientToServerMessage() noexcept {
+      return reinterpret_cast<::GameLift::IGameLiftClientToServerMessage*>(this);
     }
     // Get instance field reference: private System.String <userId>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$userId$k__BackingField();

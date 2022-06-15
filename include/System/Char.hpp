@@ -73,9 +73,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::Il2CppChar>
     operator ::System::IComparable_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::Il2CppChar>*>(this);
+    }
+    // Creating interface conversion operator: i_Il2CppChar
+    inline ::System::IComparable_1<::Il2CppChar>* i_Il2CppChar() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::Il2CppChar>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::Il2CppChar>
     operator ::System::IEquatable_1<::Il2CppChar>() noexcept {
@@ -85,9 +93,17 @@ namespace System {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IConvertible
     operator ::System::IConvertible() noexcept {
       return *reinterpret_cast<::System::IConvertible*>(this);
+    }
+    // Creating interface conversion operator: i_IConvertible
+    inline ::System::IConvertible* i_IConvertible() noexcept {
+      return reinterpret_cast<::System::IConvertible*>(this);
     }
     // Creating conversion operator: operator ::Il2CppChar
     constexpr operator ::Il2CppChar() const noexcept {

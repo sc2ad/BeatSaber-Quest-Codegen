@@ -55,9 +55,17 @@ namespace UnityEngine::XR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::Bone>
     operator ::System::IEquatable_1<::UnityEngine::XR::Bone>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::Bone>*>(this);
+    }
+    // Creating interface conversion operator: i_Bone
+    inline ::System::IEquatable_1<::UnityEngine::XR::Bone>* i_Bone() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::Bone>*>(this);
     }
     // Get instance field reference: private System.UInt64 m_DeviceId
     [[deprecated("Use field access instead!")]] uint64_t& dyn_m_DeviceId();

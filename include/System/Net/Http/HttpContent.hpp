@@ -101,6 +101,10 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
     [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent::FixedMemoryStream*& dyn_buffer();
     // Get instance field reference: private System.Boolean disposed

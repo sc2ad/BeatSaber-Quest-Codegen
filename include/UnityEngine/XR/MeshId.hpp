@@ -52,9 +52,17 @@ namespace UnityEngine::XR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>
     operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::MeshId>*>(this);
+    }
+    // Creating interface conversion operator: i_MeshId
+    inline ::System::IEquatable_1<::UnityEngine::XR::MeshId>* i_MeshId() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::MeshId>*>(this);
     }
     // Get static field: static private UnityEngine.XR.MeshId s_InvalidId
     static ::UnityEngine::XR::MeshId _get_s_InvalidId();

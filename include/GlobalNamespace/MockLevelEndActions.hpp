@@ -53,6 +53,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
     }
+    // Creating interface conversion operator: i_ILevelEndActions
+    inline ::GlobalNamespace::ILevelEndActions* i_ILevelEndActions() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
+    }
     // Get instance field reference: private System.Action levelFailedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFailedEvent();
     // Get instance field reference: private System.Action levelFinishedEvent

@@ -75,9 +75,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>
     operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*>(this);
+    }
+    // Creating interface conversion operator: i_BeatmapLevelSelectionMask
+    inline ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>* i_BeatmapLevelSelectionMask() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*>(this);
     }
     // Get instance field reference: public readonly BeatmapDifficultyMask difficulties
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficultyMask& dyn_difficulties();

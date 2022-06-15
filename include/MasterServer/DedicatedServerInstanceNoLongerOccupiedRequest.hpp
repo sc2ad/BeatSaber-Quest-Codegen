@@ -72,6 +72,10 @@ namespace MasterServer {
     operator ::MasterServer::IDedicatedServerMasterServerClientToServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerClientToServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerClientToServerMessage
+    inline ::MasterServer::IDedicatedServerMasterServerClientToServerMessage* i_IDedicatedServerMasterServerClientToServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerClientToServerMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField

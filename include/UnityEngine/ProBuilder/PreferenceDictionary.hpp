@@ -165,9 +165,17 @@ namespace UnityEngine::ProBuilder {
     operator ::UnityEngine::ProBuilder::IHasDefault() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::IHasDefault*>(this);
     }
+    // Creating interface conversion operator: i_IHasDefault
+    inline ::UnityEngine::ProBuilder::IHasDefault* i_IHasDefault() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::IHasDefault*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ISerializationCallbackReceiver
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

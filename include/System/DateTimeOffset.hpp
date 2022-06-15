@@ -80,9 +80,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::DateTimeOffset>
     operator ::System::IComparable_1<::System::DateTimeOffset>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::System::DateTimeOffset>*>(this);
+    }
+    // Creating interface conversion operator: i_DateTimeOffset
+    inline ::System::IComparable_1<::System::DateTimeOffset>* i_DateTimeOffset() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::System::DateTimeOffset>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::DateTimeOffset>
     operator ::System::IEquatable_1<::System::DateTimeOffset>() noexcept {
@@ -92,17 +100,33 @@ namespace System {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Creating interface conversion operator: operator ::System::IFormattable
     operator ::System::IFormattable() noexcept {
       return *reinterpret_cast<::System::IFormattable*>(this);
     }
+    // Creating interface conversion operator: i_IFormattable
+    inline ::System::IFormattable* i_IFormattable() noexcept {
+      return reinterpret_cast<::System::IFormattable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
     operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
+    }
+    // Creating interface conversion operator: i_IDeserializationCallback
+    inline ::System::Runtime::Serialization::IDeserializationCallback* i_IDeserializationCallback() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // Get static field: static public readonly System.DateTimeOffset MinValue
     static ::System::DateTimeOffset _get_MinValue();

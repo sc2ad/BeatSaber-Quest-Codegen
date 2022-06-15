@@ -129,6 +129,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAeadBlockCipher
+    inline ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* i_IAeadBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Modes.SicBlockCipher cipher
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Boolean forEncryption

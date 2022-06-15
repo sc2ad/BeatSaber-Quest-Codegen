@@ -35,6 +35,10 @@ namespace System::Reflection {
     operator ::System::Reflection::IReflectableType() noexcept {
       return *reinterpret_cast<::System::Reflection::IReflectableType*>(this);
     }
+    // Creating interface conversion operator: i_IReflectableType
+    inline ::System::Reflection::IReflectableType* i_IReflectableType() noexcept {
+      return reinterpret_cast<::System::Reflection::IReflectableType*>(this);
+    }
     // private System.Reflection.TypeInfo System.Reflection.IReflectableType.GetTypeInfo()
     // Offset: 0x1D70C8C
     ::System::Reflection::TypeInfo* System_Reflection_IReflectableType_GetTypeInfo();

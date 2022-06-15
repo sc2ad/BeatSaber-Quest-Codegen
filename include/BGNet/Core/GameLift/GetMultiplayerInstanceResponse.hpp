@@ -96,6 +96,10 @@ namespace BGNet::Core::GameLift {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly MultiplayerPlacementErrorCode errorCode
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlacementErrorCode& dyn_errorCode();
     // Get instance field reference: public readonly BGNet.Core.GameLift.PlayerSessionInfo playerSessionInfo

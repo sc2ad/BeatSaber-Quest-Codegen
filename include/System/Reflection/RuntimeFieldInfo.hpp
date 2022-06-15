@@ -57,6 +57,10 @@ namespace System::Reflection {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // System.Reflection.BindingFlags get_BindingFlags()
     // Offset: 0x1D6F950
     ::System::Reflection::BindingFlags get_BindingFlags();

@@ -68,6 +68,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlNode() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNode
+    inline ::Newtonsoft::Json::Converters::IXmlNode* i_IXmlNode() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
+    }
     // Get instance field reference: private readonly System.Xml.XmlNode _node
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn__node();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes

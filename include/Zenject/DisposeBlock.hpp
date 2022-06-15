@@ -109,6 +109,10 @@ namespace Zenject {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public Zenject.IMemoryPool Pool
       [[deprecated("Use field access instead!")]] ::Zenject::IMemoryPool*& dyn_Pool();
       // Get instance field reference: public System.Object Object
@@ -134,6 +138,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::System::IDisposable
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
+    }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.DisposeBlock> _pool
     static ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* _get__pool();

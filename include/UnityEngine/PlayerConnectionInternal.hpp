@@ -42,6 +42,10 @@ namespace UnityEngine {
     operator ::UnityEngine::IPlayerEditorConnectionNative() noexcept {
       return *reinterpret_cast<::UnityEngine::IPlayerEditorConnectionNative*>(this);
     }
+    // Creating interface conversion operator: i_IPlayerEditorConnectionNative
+    inline ::UnityEngine::IPlayerEditorConnectionNative* i_IPlayerEditorConnectionNative() noexcept {
+      return reinterpret_cast<::UnityEngine::IPlayerEditorConnectionNative*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x2103C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

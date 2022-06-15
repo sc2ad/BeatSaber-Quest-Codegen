@@ -117,6 +117,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::EncryptionUtility::IEncryptionState() noexcept {
       return *reinterpret_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);
     }
+    // Creating interface conversion operator: i_IEncryptionState
+    inline ::GlobalNamespace::EncryptionUtility::IEncryptionState* i_IEncryptionState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);
+    }
     // static field const value: static private System.Int32 kReceivedSequencNumBufferLength
     static constexpr const int kReceivedSequencNumBufferLength = 64;
     // Get static field: static private System.Int32 kReceivedSequencNumBufferLength

@@ -71,6 +71,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapDataAssetFileModel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapDataAssetFileModel
+    inline ::GlobalNamespace::IBeatmapDataAssetFileModel* i_IBeatmapDataAssetFileModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapDataAssetFileModel*>(this);
+    }
     // Creating conversion operator: operator ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*
     constexpr operator ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*() const noexcept {
       return levelDataAssetDownloadUpdateEvent;

@@ -74,9 +74,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector4>
     operator ::System::IEquatable_1<::UnityEngine::Vector4>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector4>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector4
+    inline ::System::IEquatable_1<::UnityEngine::Vector4>* i_Vector4() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector4>*>(this);
     }
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;

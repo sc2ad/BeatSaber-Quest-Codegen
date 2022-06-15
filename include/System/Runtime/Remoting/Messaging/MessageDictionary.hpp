@@ -83,6 +83,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // Get instance field reference: private System.Collections.IDictionary _internalProperties
     [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn__internalProperties();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMethodMessage _message

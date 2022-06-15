@@ -51,6 +51,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_MethodInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_MethodInfo*>(this);
     }
+    // Creating interface conversion operator: i__MethodInfo
+    inline ::System::Runtime::InteropServices::_MethodInfo* i__MethodInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_MethodInfo*>(this);
+    }
     // public System.Type get_ReturnType()
     // Offset: 0x220B240
     ::System::Type* get_ReturnType();

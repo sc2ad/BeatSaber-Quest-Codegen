@@ -68,6 +68,10 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(this);
     }
+    // Creating interface conversion operator: i_DnsEndPoint
+    inline ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* i_DnsEndPoint() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*>(this);
+    }
     // Get instance field reference: public readonly System.String hostName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_hostName();
     // Get instance field reference: public readonly System.Int32 port

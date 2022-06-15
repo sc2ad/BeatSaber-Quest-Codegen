@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerDidInitEvent
+    inline ::GlobalNamespace::INoteControllerDidInitEvent* i_INoteControllerDidInitEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteControllerBase _noteController

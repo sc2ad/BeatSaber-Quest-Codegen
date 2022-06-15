@@ -70,6 +70,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_GeneratedOutputData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* i_HEU_GeneratedOutputData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Material[] _renderMaterials

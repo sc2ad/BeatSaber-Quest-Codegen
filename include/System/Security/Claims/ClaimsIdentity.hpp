@@ -154,6 +154,10 @@ namespace System::Security::Claims {
     operator ::System::Security::Principal::IIdentity() noexcept {
       return *reinterpret_cast<::System::Security::Principal::IIdentity*>(this);
     }
+    // Creating interface conversion operator: i_IIdentity
+    inline ::System::Security::Principal::IIdentity* i_IIdentity() noexcept {
+      return reinterpret_cast<::System::Security::Principal::IIdentity*>(this);
+    }
     // Get instance field reference: private System.Byte[] m_userSerializationData
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_m_userSerializationData();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims

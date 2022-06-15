@@ -63,6 +63,10 @@ namespace System::Security::Cryptography {
     operator ::System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
     }
+    // Creating interface conversion operator: i_ICryptoTransform
+    inline ::System::Security::Cryptography::ICryptoTransform* i_ICryptoTransform() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::ICryptoTransform*>(this);
+    }
     // Get instance field reference: protected System.Int32 HashSizeValue
     [[deprecated("Use field access instead!")]] int& dyn_HashSizeValue();
     // Get instance field reference: protected internal System.Byte[] HashValue

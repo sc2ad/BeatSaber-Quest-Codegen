@@ -164,13 +164,25 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Threading::IThreadPoolWorkItem
     operator ::System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
     }
+    // Creating interface conversion operator: i_IThreadPoolWorkItem
+    inline ::System::Threading::IThreadPoolWorkItem* i_IThreadPoolWorkItem() noexcept {
+      return reinterpret_cast<::System::Threading::IThreadPoolWorkItem*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::Remoting::Messaging::IMessageSink
     operator ::System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
+    }
+    // Creating interface conversion operator: i_IMessageSink
+    inline ::System::Runtime::Remoting::Messaging::IMessageSink* i_IMessageSink() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // Get static field: static System.Threading.ContextCallback ccb
     static ::System::Threading::ContextCallback* _get_ccb();

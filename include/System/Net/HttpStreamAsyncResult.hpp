@@ -115,6 +115,10 @@ namespace System::Net {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: private System.Object locker
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Threading.ManualResetEvent handle

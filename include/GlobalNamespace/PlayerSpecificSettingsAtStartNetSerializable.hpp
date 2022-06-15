@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn_$activePlayerSpecificSettingsAtGameStart$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _activePlayersAtGameStart

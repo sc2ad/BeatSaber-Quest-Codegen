@@ -42,6 +42,10 @@ namespace UnityEngine::AddressableAssets {
     operator ::UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
     }
+    // Creating interface conversion operator: i_IKeyEvaluator
+    inline ::UnityEngine::AddressableAssets::IKeyEvaluator* i_IKeyEvaluator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return m_LabelString;

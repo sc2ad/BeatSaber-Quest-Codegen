@@ -62,6 +62,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
     }
+    // Creating interface conversion operator: i_IPreCompCallback
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i_IPreCompCallback() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
+    }
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& dyn_m_endomorphism();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_point

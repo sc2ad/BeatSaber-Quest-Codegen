@@ -72,6 +72,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_MethodBase() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_MethodBase*>(this);
     }
+    // Creating interface conversion operator: i__MethodBase
+    inline ::System::Runtime::InteropServices::_MethodBase* i__MethodBase() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_MethodBase*>(this);
+    }
     // public System.RuntimeMethodHandle get_MethodHandle()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::RuntimeMethodHandle get_MethodHandle();

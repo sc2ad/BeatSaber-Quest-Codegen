@@ -52,6 +52,10 @@ namespace System::Net {
     operator ::System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationModule
+    inline ::System::Net::IAuthenticationModule* i_IAuthenticationModule() noexcept {
+      return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::IAuthenticationModule*
     constexpr operator ::System::Net::IAuthenticationModule*() const noexcept {
       return authObject;

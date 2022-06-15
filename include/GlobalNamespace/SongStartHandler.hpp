@@ -104,6 +104,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // static field const value: static private System.Single kFixedStartDelay
     static constexpr const float kFixedStartDelay = 0.25;
     // Get static field: static private System.Single kFixedStartDelay

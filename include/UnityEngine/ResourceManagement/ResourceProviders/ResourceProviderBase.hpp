@@ -83,9 +83,17 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(this);
     }
+    // Creating interface conversion operator: i_IResourceProvider
+    inline ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* i_IResourceProvider() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ResourceManagement::Util::IInitializableObject
     operator ::UnityEngine::ResourceManagement::Util::IInitializableObject() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
+    }
+    // Creating interface conversion operator: i_IInitializableObject
+    inline ::UnityEngine::ResourceManagement::Util::IInitializableObject* i_IInitializableObject() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
     // Get instance field reference: protected System.String m_ProviderId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ProviderId();

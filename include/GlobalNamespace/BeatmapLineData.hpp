@@ -56,6 +56,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IReadonlyBeatmapLineData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReadonlyBeatmapLineData*>(this);
     }
+    // Creating interface conversion operator: i_IReadonlyBeatmapLineData
+    inline ::GlobalNamespace::IReadonlyBeatmapLineData* i_IReadonlyBeatmapLineData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReadonlyBeatmapLineData*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>*
     constexpr operator ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>*() const noexcept {
       return beatmapObjectsData;

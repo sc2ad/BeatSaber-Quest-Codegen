@@ -71,6 +71,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
     }
+    // Creating interface conversion operator: i_Triangulatable
+    inline ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i_Triangulatable() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> <Points>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& dyn_$Points$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> <Triangles>k__BackingField

@@ -76,6 +76,10 @@ namespace MasterServer {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -116,9 +120,17 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateResponse
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse* i_IUnconnectedAuthenticateResponse() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
+    }
     // Creating interface conversion operator: operator ::MasterServer::IUserMasterServerServerToClientMessage
     operator ::MasterServer::IUserMasterServerServerToClientMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IUserMasterServerServerToClientMessage
+    inline ::MasterServer::IUserMasterServerServerToClientMessage* i_IUserMasterServerServerToClientMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerServerToClientMessage*>(this);
     }
     // Creating conversion operator: operator ::MasterServer::AuthenticateUserMasterServerResponse::Result
     constexpr operator ::MasterServer::AuthenticateUserMasterServerResponse::Result() const noexcept {

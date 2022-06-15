@@ -61,9 +61,17 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>
     operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*>(this);
+    }
+    // Creating interface conversion operator: i_BitMaskArray
+    inline ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>* i_BitMaskArray() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*>(this);
     }
     // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$bitCount$k__BackingField();

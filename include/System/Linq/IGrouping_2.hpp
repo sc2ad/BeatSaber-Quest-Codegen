@@ -31,6 +31,10 @@ namespace System::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<TElement>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_TElement
+    inline ::System::Collections::Generic::IEnumerable_1<TElement>* i_IEnumerable_1_TElement() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
+    }
     // public TKey get_Key()
     // Offset: 0xFFFFFFFFFFFFFFFF
     TKey get_Key() {

@@ -44,6 +44,10 @@ namespace System::Net {
     operator ::System::Net::IWebRequestCreate() noexcept {
       return *reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
     }
+    // Creating interface conversion operator: i_IWebRequestCreate
+    inline ::System::Net::IWebRequestCreate* i_IWebRequestCreate() noexcept {
+      return reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1A7C388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -91,9 +91,17 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IEnumerator
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*& dyn_m_InternalOp();

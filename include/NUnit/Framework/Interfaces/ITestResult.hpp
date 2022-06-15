@@ -48,6 +48,10 @@ namespace NUnit::Framework::Interfaces {
     operator ::NUnit::Framework::Interfaces::IXmlNodeBuilder() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNodeBuilder
+    inline ::NUnit::Framework::Interfaces::IXmlNodeBuilder* i_IXmlNodeBuilder() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IXmlNodeBuilder*>(this);
+    }
     // public NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();

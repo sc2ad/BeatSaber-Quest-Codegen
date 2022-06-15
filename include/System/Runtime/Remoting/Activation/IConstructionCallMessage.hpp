@@ -50,6 +50,10 @@ namespace System::Runtime::Remoting::Activation {
     operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
     }
+    // Creating interface conversion operator: i_IMethodCallMessage
+    inline ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i_IMethodCallMessage() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
+    }
     // public System.Type get_ActivationType()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ActivationType();

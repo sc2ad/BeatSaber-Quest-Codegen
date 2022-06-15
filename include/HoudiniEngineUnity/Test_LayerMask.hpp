@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_LayerMask
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>* i_Test_LayerMask() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::LayerMask
     constexpr operator ::UnityEngine::LayerMask() const noexcept {
       return self;

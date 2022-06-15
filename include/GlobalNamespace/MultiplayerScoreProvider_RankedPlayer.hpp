@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);
     }
+    // Creating interface conversion operator: i_RankedPlayer
+    inline ::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* i_RankedPlayer() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);
+    }
     // Get instance field reference: private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int>*& dyn__multiplayerSyncState();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreSyncManager

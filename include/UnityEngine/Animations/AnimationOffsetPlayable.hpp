@@ -64,13 +64,25 @@ namespace UnityEngine::Animations {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>
     operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>*>(this);
     }
+    // Creating interface conversion operator: i_AnimationOffsetPlayable
+    inline ::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>* i_AnimationOffsetPlayable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationOffsetPlayable>*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayable
     operator ::UnityEngine::Playables::IPlayable() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
+    }
+    // Creating interface conversion operator: i_IPlayable
+    inline ::UnityEngine::Playables::IPlayable* i_IPlayable() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Playables::PlayableHandle
     constexpr operator ::UnityEngine::Playables::PlayableHandle() const noexcept {

@@ -87,6 +87,10 @@ namespace UnityEngine::Tilemaps {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.Sprite m_Sprite
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_m_Sprite();
     // Get instance field reference: private UnityEngine.Color m_Color

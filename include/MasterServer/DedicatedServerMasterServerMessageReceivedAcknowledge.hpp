@@ -42,6 +42,10 @@ namespace MasterServer {
     operator ::MasterServer::IDedicatedServerMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerMessage
+    inline ::MasterServer::IDedicatedServerMasterServerMessage* i_IDedicatedServerMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
+    }
     // static public PacketPool`1<MasterServer.DedicatedServerMasterServerMessageReceivedAcknowledge> get_pool()
     // Offset: 0x1683534
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerMasterServerMessageReceivedAcknowledge*>* get_pool();

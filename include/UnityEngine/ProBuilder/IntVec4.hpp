@@ -43,9 +43,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>*>(this);
+    }
+    // Creating interface conversion operator: i_IntVec4
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>* i_IntVec4() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec4>*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Vector4
     constexpr operator ::UnityEngine::Vector4() const noexcept {

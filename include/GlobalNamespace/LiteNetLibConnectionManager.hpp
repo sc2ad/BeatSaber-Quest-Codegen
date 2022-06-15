@@ -168,6 +168,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -215,6 +219,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -426,13 +434,25 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
     }
+    // Creating interface conversion operator: i_IConnectionManager
+    inline ::GlobalNamespace::IConnectionManager* i_IConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionManager*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::INetEventListener
     operator ::LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
     }
+    // Creating interface conversion operator: i_INetEventListener
+    inline ::LiteNetLib::INetEventListener* i_INetEventListener() noexcept {
+      return reinterpret_cast<::LiteNetLib::INetEventListener*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IUnconnectedConnectionManager
     operator ::GlobalNamespace::IUnconnectedConnectionManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IUnconnectedConnectionManager*>(this);
+    }
+    // Creating interface conversion operator: i_IUnconnectedConnectionManager
+    inline ::GlobalNamespace::IUnconnectedConnectionManager* i_IUnconnectedConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IUnconnectedConnectionManager*>(this);
     }
     // static field const value: static private System.Int64 kBackgroundDisconnectTimeout
     static constexpr const int64_t kBackgroundDisconnectTimeout = 1200000000;

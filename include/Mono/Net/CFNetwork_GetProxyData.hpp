@@ -70,6 +70,10 @@ namespace Mono::Net {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: public System.IntPtr script
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_script();
     // Get instance field reference: public System.IntPtr targetUri

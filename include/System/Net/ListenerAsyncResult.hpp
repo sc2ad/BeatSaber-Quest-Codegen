@@ -125,6 +125,10 @@ namespace System::Net {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get static field: static private System.Threading.WaitCallback InvokeCB
     static ::System::Threading::WaitCallback* _get_InvokeCB();
     // Set static field: static private System.Threading.WaitCallback InvokeCB

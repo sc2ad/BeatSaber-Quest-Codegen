@@ -46,6 +46,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Boolean <IsDataValid>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsDataValid$k__BackingField();
     // Get instance field reference: private System.Boolean <IsDataHighConfidence>k__BackingField

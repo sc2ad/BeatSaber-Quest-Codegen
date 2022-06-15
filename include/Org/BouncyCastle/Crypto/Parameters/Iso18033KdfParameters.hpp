@@ -37,6 +37,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
+    // Creating interface conversion operator: i_IDerivationParameters
+    inline ::Org::BouncyCastle::Crypto::IDerivationParameters* i_IDerivationParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return seed;

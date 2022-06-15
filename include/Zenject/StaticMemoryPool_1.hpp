@@ -51,6 +51,10 @@ namespace Zenject {
     operator ::Zenject::IMemoryPool_1<TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IMemoryPool_1<TValue>*>(this);
     }
+    // Creating interface conversion operator: i_IMemoryPool_1_TValue
+    inline ::Zenject::IMemoryPool_1<TValue>* i_IMemoryPool_1_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IMemoryPool_1<TValue>*>(this);
+    }
     // Creating conversion operator: operator ::System::Action_1<TValue>*
     constexpr operator ::System::Action_1<TValue>*() const noexcept {
       return onSpawnMethod;

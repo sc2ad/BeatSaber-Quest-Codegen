@@ -32,6 +32,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IInvitePlatformHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
     }
+    // Creating interface conversion operator: i_IInvitePlatformHandler
+    inline ::GlobalNamespace::IInvitePlatformHandler* i_IInvitePlatformHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
+    }
     // public System.Boolean get_isSupported()
     // Offset: 0x155D6BC
     bool get_isSupported();

@@ -76,6 +76,10 @@ namespace GlobalNamespace {
     operator ::OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<::OnlineServices::ILeaderboardsModel*>(this);
     }
+    // Creating interface conversion operator: i_ILeaderboardsModel
+    inline ::OnlineServices::ILeaderboardsModel* i_ILeaderboardsModel() noexcept {
+      return reinterpret_cast<::OnlineServices::ILeaderboardsModel*>(this);
+    }
     // Creating conversion operator: operator ::System::Action_1<::StringW>*
     constexpr operator ::System::Action_1<::StringW>*() const noexcept {
       return scoreForLeaderboardDidUploadEvent;

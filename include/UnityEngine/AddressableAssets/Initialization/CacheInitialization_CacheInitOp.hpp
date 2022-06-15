@@ -52,6 +52,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     operator ::UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
     }
+    // Creating interface conversion operator: i_IUpdateReceiver
+    inline ::UnityEngine::ResourceManagement::IUpdateReceiver* i_IUpdateReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
+    }
     // Get instance field reference: private System.Func`1<System.Boolean> m_Callback
     [[deprecated("Use field access instead!")]] ::System::Func_1<bool>*& dyn_m_Callback();
     // Get instance field reference: private System.Boolean m_UpdateRequired

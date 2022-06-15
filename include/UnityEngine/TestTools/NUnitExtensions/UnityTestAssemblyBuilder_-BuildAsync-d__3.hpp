@@ -109,6 +109,10 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     operator ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>*>(this);
     }
+    // Creating interface conversion operator: i_ITest
+    inline ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>* i_ITest() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITest <>2__current

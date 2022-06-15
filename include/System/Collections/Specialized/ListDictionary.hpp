@@ -91,6 +91,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // Get instance field reference: private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
     [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::ListDictionary::DictionaryNode*& dyn_head();
     // Get instance field reference: private System.Int32 version

@@ -41,6 +41,10 @@ namespace UnityEngine::ProBuilder {
     operator ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
+    // Creating interface conversion operator: i_ISelectionPickerRenderer
+    inline ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* i_ISelectionPickerRenderer() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x19C3654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

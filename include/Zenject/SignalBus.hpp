@@ -123,6 +123,10 @@ namespace Zenject {
     operator ::Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<::Zenject::ILateDisposable*>(this);
     }
+    // Creating interface conversion operator: i_ILateDisposable
+    inline ::Zenject::ILateDisposable* i_ILateDisposable() noexcept {
+      return reinterpret_cast<::Zenject::ILateDisposable*>(this);
+    }
     // Get instance field reference: private readonly Zenject.SignalSubscription/Zenject.Pool _subscriptionPool
     [[deprecated("Use field access instead!")]] ::Zenject::SignalSubscription::Pool*& dyn__subscriptionPool();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,Zenject.SignalDeclaration> _localDeclarationMap

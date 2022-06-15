@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::Org::BouncyCastle::Asn1::Asn1SetParser() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::Asn1SetParser*>(this);
     }
+    // Creating interface conversion operator: i_Asn1SetParser
+    inline ::Org::BouncyCastle::Asn1::Asn1SetParser* i_Asn1SetParser() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::Asn1SetParser*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Asn1::Asn1StreamParser*
     constexpr operator ::Org::BouncyCastle::Asn1::Asn1StreamParser*() const noexcept {
       return parser;

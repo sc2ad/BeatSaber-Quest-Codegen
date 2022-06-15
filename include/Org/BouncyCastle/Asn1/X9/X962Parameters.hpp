@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1Choice
+    inline ::Org::BouncyCastle::Asn1::IAsn1Choice* i_IAsn1Choice() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Asn1::Asn1Object*
     constexpr operator ::Org::BouncyCastle::Asn1::Asn1Object*() const noexcept {
       return params;

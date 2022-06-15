@@ -57,6 +57,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::IMarker() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::IMarker*>(this);
     }
+    // Creating interface conversion operator: i_IMarker
+    inline ::UnityEngine::Timeline::IMarker* i_IMarker() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::IMarker*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Double m_Time

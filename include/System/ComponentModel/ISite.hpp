@@ -36,6 +36,10 @@ namespace System::ComponentModel {
     operator ::System::IServiceProvider() noexcept {
       return *reinterpret_cast<::System::IServiceProvider*>(this);
     }
+    // Creating interface conversion operator: i_IServiceProvider
+    inline ::System::IServiceProvider* i_IServiceProvider() noexcept {
+      return reinterpret_cast<::System::IServiceProvider*>(this);
+    }
     // public System.ComponentModel.IContainer get_Container()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::ComponentModel::IContainer* get_Container();

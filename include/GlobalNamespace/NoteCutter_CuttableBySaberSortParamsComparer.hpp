@@ -29,6 +29,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x14B1678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

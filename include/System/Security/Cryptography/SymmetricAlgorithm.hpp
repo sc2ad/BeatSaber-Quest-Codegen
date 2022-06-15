@@ -104,6 +104,10 @@ namespace System::Security::Cryptography {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: protected System.Int32 BlockSizeValue
     [[deprecated("Use field access instead!")]] int& dyn_BlockSizeValue();
     // Get instance field reference: protected System.Int32 FeedbackSizeValue

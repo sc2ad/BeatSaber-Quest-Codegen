@@ -37,6 +37,10 @@ namespace BeatmapSaveDataVersion3 {
     operator ::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapSaveDataItem
+    inline ::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>* i_BeatmapSaveDataItem() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>*>(this);
+    }
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return b;

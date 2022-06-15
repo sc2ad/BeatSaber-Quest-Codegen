@@ -54,6 +54,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocator
+    inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i_IResourceLocator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
+    }
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
     // Offset: 0x18C8F80
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();

@@ -31,6 +31,10 @@ namespace Zenject {
     operator ::Zenject::IDespawnableMemoryPool_1<TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(this);
     }
+    // Creating interface conversion operator: i_IDespawnableMemoryPool_1_TValue
+    inline ::Zenject::IDespawnableMemoryPool_1<TValue>* i_IDespawnableMemoryPool_1_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(this);
+    }
     // public TValue Spawn(TParam1 param)
     // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Spawn(TParam1 param) {

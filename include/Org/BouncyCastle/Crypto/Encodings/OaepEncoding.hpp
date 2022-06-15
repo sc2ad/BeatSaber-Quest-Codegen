@@ -79,6 +79,10 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAsymmetricBlockCipher
+    inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i_IAsymmetricBlockCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
+    }
     // Get instance field reference: private System.Byte[] defHash
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_defHash();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IDigest mgf1Hash

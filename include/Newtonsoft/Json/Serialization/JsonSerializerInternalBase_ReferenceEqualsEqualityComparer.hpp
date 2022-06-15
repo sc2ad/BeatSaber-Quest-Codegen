@@ -29,6 +29,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1D57A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

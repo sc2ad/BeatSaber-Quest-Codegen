@@ -44,6 +44,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>(this);
     }
+    // Creating interface conversion operator: i_ECMultiplier
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* i_ECMultiplier() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>(this);
+    }
     // protected System.Void .ctor()
     // Offset: 0x22D0C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

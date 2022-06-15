@@ -71,25 +71,49 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable_1<uint>
     operator ::System::IComparable_1<uint>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<uint>*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable_1_uint
+    inline ::System::IComparable_1<uint>* i_IComparable_1_uint() noexcept {
+      return reinterpret_cast<::System::IComparable_1<uint>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<uint>
     operator ::System::IEquatable_1<uint>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<uint>*>(this);
     }
+    // Creating interface conversion operator: i_IEquatable_1_uint
+    inline ::System::IEquatable_1<uint>* i_IEquatable_1_uint() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<uint>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Creating interface conversion operator: operator ::System::IConvertible
     operator ::System::IConvertible() noexcept {
       return *reinterpret_cast<::System::IConvertible*>(this);
     }
+    // Creating interface conversion operator: i_IConvertible
+    inline ::System::IConvertible* i_IConvertible() noexcept {
+      return reinterpret_cast<::System::IConvertible*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IFormattable
     operator ::System::IFormattable() noexcept {
       return *reinterpret_cast<::System::IFormattable*>(this);
+    }
+    // Creating interface conversion operator: i_IFormattable
+    inline ::System::IFormattable* i_IFormattable() noexcept {
+      return reinterpret_cast<::System::IFormattable*>(this);
     }
     // Creating conversion operator: operator uint
     constexpr operator uint() const noexcept {

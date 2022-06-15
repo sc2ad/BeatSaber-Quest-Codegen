@@ -70,9 +70,17 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapLevelMask
+    inline ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>* i_BeatmapLevelMask() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Creating conversion operator: operator ::GlobalNamespace::BitMaskSparse*
     constexpr operator ::GlobalNamespace::BitMaskSparse*() const noexcept {

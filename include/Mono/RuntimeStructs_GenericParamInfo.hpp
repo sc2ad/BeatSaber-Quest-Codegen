@@ -63,6 +63,10 @@ namespace Mono {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: Mono.RuntimeStructs/Mono.MonoClass* pklass
     [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::MonoClass*& dyn_pklass();
     // Get instance field reference: System.IntPtr name

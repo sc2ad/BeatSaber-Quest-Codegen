@@ -40,6 +40,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IPosesSerializer() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPosesSerializer*>(this);
     }
+    // Creating interface conversion operator: i_IPosesSerializer
+    inline ::GlobalNamespace::IPosesSerializer* i_IPosesSerializer() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPosesSerializer*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1394590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

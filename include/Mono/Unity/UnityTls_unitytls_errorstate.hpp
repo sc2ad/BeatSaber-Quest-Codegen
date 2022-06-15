@@ -49,6 +49,10 @@ namespace Mono::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.UInt32 magic
     [[deprecated("Use field access instead!")]] uint& dyn_magic();
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code code

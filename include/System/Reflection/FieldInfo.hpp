@@ -74,6 +74,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_FieldInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_FieldInfo*>(this);
     }
+    // Creating interface conversion operator: i__FieldInfo
+    inline ::System::Runtime::InteropServices::_FieldInfo* i__FieldInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_FieldInfo*>(this);
+    }
     // public System.Reflection.FieldAttributes get_Attributes()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Reflection::FieldAttributes get_Attributes();

@@ -58,9 +58,17 @@ namespace System {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IConvertible
     operator ::System::IConvertible() noexcept {
       return *reinterpret_cast<::System::IConvertible*>(this);
+    }
+    // Creating interface conversion operator: i_IConvertible
+    inline ::System::IConvertible* i_IConvertible() noexcept {
+      return reinterpret_cast<::System::IConvertible*>(this);
     }
     // Get static field: static public readonly System.DBNull Value
     static ::System::DBNull* _get_Value();

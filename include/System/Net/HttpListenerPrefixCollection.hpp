@@ -69,6 +69,10 @@ namespace System::Net {
     operator ::System::Collections::Generic::ICollection_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::ICollection_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> prefixes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_prefixes();
     // Get instance field reference: private System.Net.HttpListener listener

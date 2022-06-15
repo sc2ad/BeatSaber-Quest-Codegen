@@ -109,6 +109,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -156,6 +160,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -423,33 +431,65 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IBeginDragHandler
     operator ::UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IBeginDragHandler
+    inline ::UnityEngine::EventSystems::IBeginDragHandler* i_IBeginDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDragHandler
     operator ::UnityEngine::EventSystems::IDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IDragHandler
+    inline ::UnityEngine::EventSystems::IDragHandler* i_IDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IEndDragHandler
     operator ::UnityEngine::EventSystems::IEndDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IEndDragHandler
+    inline ::UnityEngine::EventSystems::IEndDragHandler* i_IEndDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutGroup
     operator ::UnityEngine::UI::ILayoutGroup() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutGroup*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutGroup
+    inline ::UnityEngine::UI::ILayoutGroup* i_ILayoutGroup() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutGroup*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler
     operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IInitializePotentialDragHandler
+    inline ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i_IInitializePotentialDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IScrollHandler
     operator ::UnityEngine::EventSystems::IScrollHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IScrollHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IScrollHandler
+    inline ::UnityEngine::EventSystems::IScrollHandler* i_IScrollHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IScrollHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

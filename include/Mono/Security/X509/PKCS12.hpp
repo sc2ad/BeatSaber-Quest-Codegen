@@ -134,6 +134,10 @@ namespace Mono::Security::X509 {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Get static field: static private System.Int32 password_max_length
     static int _get_password_max_length();
     // Set static field: static private System.Int32 password_max_length

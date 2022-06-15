@@ -136,6 +136,10 @@ namespace UnityEngine::TestTools::Logging {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogScope> s_ActiveScopes
     static ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogScope*>* _get_s_ActiveScopes();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogScope> s_ActiveScopes

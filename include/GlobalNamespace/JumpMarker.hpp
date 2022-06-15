@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
+    // Creating interface conversion operator: i_INotification
+    inline ::UnityEngine::Playables::INotification* i_INotification() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
+    }
     // Get instance field reference: private JumpDestinationMarker _destination
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::JumpDestinationMarker*& dyn__destination();
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField

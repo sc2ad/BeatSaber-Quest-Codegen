@@ -62,9 +62,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask128>
     operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask128>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask128>*>(this);
+    }
+    // Creating interface conversion operator: i_BitMask128
+    inline ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask128>* i_BitMask128() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask128>*>(this);
     }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask128>
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::BitMask128>() noexcept {

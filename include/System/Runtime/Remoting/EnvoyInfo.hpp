@@ -47,6 +47,10 @@ namespace System::Runtime::Remoting {
     operator ::System::Runtime::Remoting::IEnvoyInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IEnvoyInfo*>(this);
     }
+    // Creating interface conversion operator: i_IEnvoyInfo
+    inline ::System::Runtime::Remoting::IEnvoyInfo* i_IEnvoyInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IEnvoyInfo*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::IMessageSink*
     constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return envoySinks;

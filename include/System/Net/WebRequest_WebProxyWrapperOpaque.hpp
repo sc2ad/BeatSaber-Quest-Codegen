@@ -47,6 +47,10 @@ namespace System::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::WebProxy*
     constexpr operator ::System::Net::WebProxy*() const noexcept {
       return webProxy;

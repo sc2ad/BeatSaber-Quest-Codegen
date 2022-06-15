@@ -61,6 +61,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_InstancedInput
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>* i_HEU_InstancedInput() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _instancedGameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__instancedGameObject();
     // Get instance field reference: public UnityEngine.Vector3 _rotationOffset

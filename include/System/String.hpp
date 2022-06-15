@@ -109,9 +109,17 @@ namespace System {
     operator ::System::IComparable_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::IComparable_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::StringW>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>
     operator ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
+    }
+    // Creating interface conversion operator: i_Il2CppChar
+    inline ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>* i_Il2CppChar() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::StringW>
     operator ::System::IEquatable_1<::StringW>() noexcept {
@@ -121,13 +129,25 @@ namespace System {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IConvertible
     operator ::System::IConvertible() noexcept {
       return *reinterpret_cast<::System::IConvertible*>(this);
+    }
+    // Creating interface conversion operator: i_IConvertible
+    inline ::System::IConvertible* i_IConvertible() noexcept {
+      return reinterpret_cast<::System::IConvertible*>(this);
     }
     // static field const value: static private System.Int32 TrimHead
     static constexpr const int TrimHead = 0;

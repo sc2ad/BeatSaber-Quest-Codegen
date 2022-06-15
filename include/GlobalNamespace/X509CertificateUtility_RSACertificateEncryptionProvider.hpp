@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICertificateEncryptionProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(this);
     }
+    // Creating interface conversion operator: i_ICertificateEncryptionProvider
+    inline ::GlobalNamespace::ICertificateEncryptionProvider* i_ICertificateEncryptionProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICertificateEncryptionProvider*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Crypto::ISigner*
     constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() const noexcept {
       return signer;

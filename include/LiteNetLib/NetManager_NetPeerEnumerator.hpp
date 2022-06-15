@@ -50,9 +50,17 @@ namespace LiteNetLib {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>
     operator ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>*>(this);
+    }
+    // Creating interface conversion operator: i_NetPeer
+    inline ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>* i_NetPeer() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>*>(this);
     }
     // Get instance field reference: private readonly LiteNetLib.NetPeer _initialPeer
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn__initialPeer();

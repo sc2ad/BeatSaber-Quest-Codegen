@@ -74,6 +74,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_MasterServerConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>* i_MasterServerConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*>(this);
+    }
     // Get instance field reference: public DnsEndPoint masterServerEndPoint
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DnsEndPoint*& dyn_masterServerEndPoint();
     // Get instance field reference: public System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> authenticationTokenProviderTask

@@ -44,6 +44,10 @@ namespace GlobalNamespace {
     operator ::UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
+    // Creating interface conversion operator: i_INotification
+    inline ::UnityEngine::Playables::INotification* i_INotification() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
+    }
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()

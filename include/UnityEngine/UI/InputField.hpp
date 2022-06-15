@@ -152,6 +152,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -242,6 +246,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -289,6 +297,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -355,6 +367,10 @@ namespace UnityEngine::UI {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -705,33 +721,65 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerClickHandler
+    inline ::UnityEngine::EventSystems::IPointerClickHandler* i_IPointerClickHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
     operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_ISubmitHandler
+    inline ::UnityEngine::EventSystems::ISubmitHandler* i_ISubmitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ICanvasElement
     operator ::UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
     }
+    // Creating interface conversion operator: i_ICanvasElement
+    inline ::UnityEngine::UI::ICanvasElement* i_ICanvasElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ICanvasElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IUpdateSelectedHandler
     operator ::UnityEngine::EventSystems::IUpdateSelectedHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(this);
     }
+    // Creating interface conversion operator: i_IUpdateSelectedHandler
+    inline ::UnityEngine::EventSystems::IUpdateSelectedHandler* i_IUpdateSelectedHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IUpdateSelectedHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IBeginDragHandler
     operator ::UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IBeginDragHandler
+    inline ::UnityEngine::EventSystems::IBeginDragHandler* i_IBeginDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IBeginDragHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDragHandler
     operator ::UnityEngine::EventSystems::IDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
     }
+    // Creating interface conversion operator: i_IDragHandler
+    inline ::UnityEngine::EventSystems::IDragHandler* i_IDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDragHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IEndDragHandler
     operator ::UnityEngine::EventSystems::IEndDragHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IEndDragHandler
+    inline ::UnityEngine::EventSystems::IEndDragHandler* i_IEndDragHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IEndDragHandler*>(this);
     }
     // Get static field: static private readonly System.Char[] kSeparators
     static ::ArrayW<::Il2CppChar> _get_kSeparators();

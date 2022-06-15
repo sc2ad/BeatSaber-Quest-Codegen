@@ -67,6 +67,10 @@ namespace Zenject {
     operator ::Zenject::IInitializable() noexcept {
       return *reinterpret_cast<::Zenject::IInitializable*>(this);
     }
+    // Creating interface conversion operator: i_IInitializable
+    inline ::Zenject::IInitializable* i_IInitializable() noexcept {
+      return reinterpret_cast<::Zenject::IInitializable*>(this);
+    }
     // Get instance field reference: private readonly Zenject.LazyInject`1<Zenject.TickableManager> _tickManager
     [[deprecated("Use field access instead!")]] ::Zenject::LazyInject_1<::Zenject::TickableManager*>*& dyn__tickManager();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.SignalDeclaration> _declarations

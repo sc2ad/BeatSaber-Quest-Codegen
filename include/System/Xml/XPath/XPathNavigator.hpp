@@ -69,9 +69,17 @@ namespace System::Xml::XPath {
     operator ::System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNamespaceResolver
+    inline ::System::Xml::IXmlNamespaceResolver* i_IXmlNamespaceResolver() noexcept {
+      return reinterpret_cast<::System::Xml::IXmlNamespaceResolver*>(this);
+    }
     // Creating interface conversion operator: operator ::System::ICloneable
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
+    }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
     }
     // Get static field: static readonly System.Xml.XPath.XPathNavigatorKeyComparer comparer
     static ::System::Xml::XPath::XPathNavigatorKeyComparer* _get_comparer();

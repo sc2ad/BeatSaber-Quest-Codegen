@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRemoteProcedureCall() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRemoteProcedureCall*>(this);
     }
+    // Creating interface conversion operator: i_IRemoteProcedureCall
+    inline ::GlobalNamespace::IRemoteProcedureCall* i_IRemoteProcedureCall() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRemoteProcedureCall*>(this);
+    }
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return syncTime;

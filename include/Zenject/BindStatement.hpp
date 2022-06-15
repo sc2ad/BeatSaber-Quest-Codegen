@@ -66,6 +66,10 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::IDisposable*>*& dyn__disposables();
     // Get instance field reference: private Zenject.IBindingFinalizer _bindingFinalizer

@@ -40,6 +40,10 @@ namespace System::Resources {
     operator ::System::Collections::Generic::IComparer_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::IComparer_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>
     operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(this);
@@ -48,9 +52,17 @@ namespace System::Resources {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IComparer
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // Get static field: static readonly System.Resources.FastResourceComparer Default
     static ::System::Resources::FastResourceComparer* _get_Default();

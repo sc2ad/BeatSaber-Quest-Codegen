@@ -52,9 +52,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::ValueTuple>
     operator ::System::IEquatable_1<::System::ValueTuple>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::ValueTuple>*>(this);
+    }
+    // Creating interface conversion operator: i_ValueTuple
+    inline ::System::IEquatable_1<::System::ValueTuple>* i_ValueTuple() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::ValueTuple>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::ValueTuple>
     operator ::System::IComparable_1<::System::ValueTuple>() noexcept {
@@ -64,13 +72,25 @@ namespace System {
     operator ::System::Collections::IStructuralEquatable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
     }
+    // Creating interface conversion operator: i_IStructuralEquatable
+    inline ::System::Collections::IStructuralEquatable* i_IStructuralEquatable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IStructuralComparable
     operator ::System::Collections::IStructuralComparable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
     }
+    // Creating interface conversion operator: i_IStructuralComparable
+    inline ::System::Collections::IStructuralComparable* i_IStructuralComparable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // public System.Boolean Equals(System.ValueTuple other)
     // Offset: 0x29D72D0

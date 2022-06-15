@@ -152,6 +152,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Get instance field reference: public System.Single saberSpeed
     [[deprecated("Use field access instead!")]] float& dyn_saberSpeed();
     // Get instance field reference: public System.Boolean cutWasOk

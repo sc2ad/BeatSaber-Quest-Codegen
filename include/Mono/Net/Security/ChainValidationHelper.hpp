@@ -126,6 +126,10 @@ namespace Mono::Net::Security {
     operator ::Mono::Security::Interface::ICertificateValidator2() noexcept {
       return *reinterpret_cast<::Mono::Security::Interface::ICertificateValidator2*>(this);
     }
+    // Creating interface conversion operator: i_ICertificateValidator2
+    inline ::Mono::Security::Interface::ICertificateValidator2* i_ICertificateValidator2() noexcept {
+      return reinterpret_cast<::Mono::Security::Interface::ICertificateValidator2*>(this);
+    }
     // Get instance field reference: private readonly System.Object sender
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_sender();
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings

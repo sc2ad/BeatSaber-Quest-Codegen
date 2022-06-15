@@ -54,6 +54,10 @@ namespace System::Net::Http::Headers {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Get instance field reference: private System.String unit
     [[deprecated("Use field access instead!")]] ::StringW& dyn_unit();
     // Get instance field reference: private System.Nullable`1<System.Int64> <From>k__BackingField

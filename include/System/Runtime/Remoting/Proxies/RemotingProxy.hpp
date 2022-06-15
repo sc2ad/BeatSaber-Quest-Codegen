@@ -88,6 +88,10 @@ namespace System::Runtime::Remoting::Proxies {
     operator ::System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(this);
     }
+    // Creating interface conversion operator: i_IRemotingTypeInfo
+    inline ::System::Runtime::Remoting::IRemotingTypeInfo* i_IRemotingTypeInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(this);
+    }
     // Get static field: static private System.Reflection.MethodInfo _cache_GetTypeMethod
     static ::System::Reflection::MethodInfo* _get__cache_GetTypeMethod();
     // Set static field: static private System.Reflection.MethodInfo _cache_GetTypeMethod

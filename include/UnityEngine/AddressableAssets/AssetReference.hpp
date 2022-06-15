@@ -91,6 +91,10 @@ namespace UnityEngine::AddressableAssets {
     operator ::UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
     }
+    // Creating interface conversion operator: i_IKeyEvaluator
+    inline ::UnityEngine::AddressableAssets::IKeyEvaluator* i_IKeyEvaluator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
+    }
     // Get instance field reference: private System.String m_AssetGUID
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_AssetGUID();
     // Get instance field reference: private System.String m_SubObjectName

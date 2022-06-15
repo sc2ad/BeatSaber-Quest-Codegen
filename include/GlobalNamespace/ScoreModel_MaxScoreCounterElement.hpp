@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>*>(this);
     }
+    // Creating interface conversion operator: i_MaxScoreCounterElement
+    inline ::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>* i_MaxScoreCounterElement() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::ScoreModel::MaxScoreCounterElement*>*>(this);
+    }
     // Get instance field reference: public readonly ScoreModel/NoteScoreDefinition noteScoreDefinition
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreModel::NoteScoreDefinition*& dyn_noteScoreDefinition();
     // Get instance field reference: private readonly System.Single time

@@ -130,6 +130,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationCallbackReceiver
+    inline ::UnityEngine::ISerializationCallbackReceiver* i_ISerializationCallbackReceiver() noexcept {
+      return reinterpret_cast<::UnityEngine::ISerializationCallbackReceiver*>(this);
+    }
     // Get instance field reference: private UnityEngine.Font m_Font
     [[deprecated("Use field access instead!")]] ::UnityEngine::Font*& dyn_m_Font();
     // Get instance field reference: private System.Int32 m_FontSize

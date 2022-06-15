@@ -75,6 +75,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
+    // Creating interface conversion operator: i_IDictionary
+    inline ::System::Collections::IDictionary* i_IDictionary() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionary*>(this);
+    }
     // Get instance field reference: private System.Collections.Specialized.ListDictionary list
     [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::ListDictionary*& dyn_list();
     // Get instance field reference: private System.Collections.Hashtable hashtable

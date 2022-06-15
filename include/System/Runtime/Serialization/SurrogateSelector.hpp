@@ -63,6 +63,10 @@ namespace System::Runtime::Serialization {
     operator ::System::Runtime::Serialization::ISurrogateSelector() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISurrogateSelector*>(this);
     }
+    // Creating interface conversion operator: i_ISurrogateSelector
+    inline ::System::Runtime::Serialization::ISurrogateSelector* i_ISurrogateSelector() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISurrogateSelector*>(this);
+    }
     // Get instance field reference: System.Runtime.Serialization.SurrogateHashtable m_surrogates
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::SurrogateHashtable*& dyn_m_surrogates();
     // Get instance field reference: System.Runtime.Serialization.ISurrogateSelector m_nextSelector

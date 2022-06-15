@@ -63,6 +63,10 @@ namespace OnlineServices::API {
     operator ::OnlineServices::API::IApiLeaderboardsModel() noexcept {
       return *reinterpret_cast<::OnlineServices::API::IApiLeaderboardsModel*>(this);
     }
+    // Creating interface conversion operator: i_IApiLeaderboardsModel
+    inline ::OnlineServices::API::IApiLeaderboardsModel* i_IApiLeaderboardsModel() noexcept {
+      return reinterpret_cast<::OnlineServices::API::IApiLeaderboardsModel*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x156B734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

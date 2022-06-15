@@ -85,6 +85,10 @@ namespace ModestTree::Util {
     operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(this);
     }
+    // Creating interface conversion operator: i_GameObject
+    inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* i_GameObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>
     operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*>(this);

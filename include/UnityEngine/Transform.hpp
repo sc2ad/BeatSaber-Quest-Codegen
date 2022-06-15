@@ -59,6 +59,10 @@ namespace UnityEngine {
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x27B9508
     ::UnityEngine::Vector3 get_position();

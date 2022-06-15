@@ -36,6 +36,10 @@ namespace Newtonsoft::Json::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<T>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_T
+    inline ::System::Collections::Generic::IEnumerable_1<T>* i_IEnumerable_1_T() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<T>*>(this);
+    }
   }; // Newtonsoft.Json.Linq.IJEnumerable`1
   // Could not write size check! Type: Newtonsoft.Json.Linq.IJEnumerable`1 is generic, or has no fields that are valid for size checks!
 }

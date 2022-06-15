@@ -120,6 +120,10 @@ namespace UnityEngine::UI {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -262,29 +266,57 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IMoveHandler
     operator ::UnityEngine::EventSystems::IMoveHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IMoveHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IMoveHandler
+    inline ::UnityEngine::EventSystems::IMoveHandler* i_IMoveHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IMoveHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerDownHandler
     operator ::UnityEngine::EventSystems::IPointerDownHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerDownHandler
+    inline ::UnityEngine::EventSystems::IPointerDownHandler* i_IPointerDownHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerDownHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerUpHandler
     operator ::UnityEngine::EventSystems::IPointerUpHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerUpHandler
+    inline ::UnityEngine::EventSystems::IPointerUpHandler* i_IPointerUpHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerUpHandler*>(this);
     }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISelectHandler
     operator ::UnityEngine::EventSystems::ISelectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
     }
+    // Creating interface conversion operator: i_ISelectHandler
+    inline ::UnityEngine::EventSystems::ISelectHandler* i_ISelectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::ISelectHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IDeselectHandler
     operator ::UnityEngine::EventSystems::IDeselectHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IDeselectHandler
+    inline ::UnityEngine::EventSystems::IDeselectHandler* i_IDeselectHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IDeselectHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

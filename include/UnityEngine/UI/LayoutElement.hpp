@@ -91,9 +91,17 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutIgnorer
     operator ::UnityEngine::UI::ILayoutIgnorer() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutIgnorer*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutIgnorer
+    inline ::UnityEngine::UI::ILayoutIgnorer* i_ILayoutIgnorer() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutIgnorer*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

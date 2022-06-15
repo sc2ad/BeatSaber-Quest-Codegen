@@ -36,6 +36,10 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // public System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter GetAwaiter()
     // Offset: 0x1D79E18
     ::System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter GetAwaiter();

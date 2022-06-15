@@ -128,6 +128,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_InputObjectInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* i_HEU_InputObjectInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Terrain _terrainReference

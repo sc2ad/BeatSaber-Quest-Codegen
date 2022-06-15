@@ -84,6 +84,10 @@ namespace Zenject {
     operator ::Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
     }
+    // Creating interface conversion operator: i_ISubContainerCreator
+    inline ::Zenject::ISubContainerCreator* i_ISubContainerCreator() noexcept {
+      return reinterpret_cast<::Zenject::ISubContainerCreator*>(this);
+    }
     // Get instance field reference: private readonly System.Type _installerType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__installerType();
     // Get instance field reference: private readonly Zenject.DiContainer _container

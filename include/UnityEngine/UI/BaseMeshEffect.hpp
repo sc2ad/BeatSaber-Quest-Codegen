@@ -57,6 +57,10 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::IMeshModifier() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IMeshModifier*>(this);
     }
+    // Creating interface conversion operator: i_IMeshModifier
+    inline ::UnityEngine::UI::IMeshModifier* i_IMeshModifier() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IMeshModifier*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Graphic m_Graphic

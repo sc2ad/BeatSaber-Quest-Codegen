@@ -67,6 +67,10 @@ namespace System::Threading {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Int32 m_initialCount
     [[deprecated("Use field access instead!")]] int& dyn_m_initialCount();
     // Get instance field reference: private System.Int32 m_currentCount

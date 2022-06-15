@@ -64,6 +64,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt16 sin6_family
     [[deprecated("Use field access instead!")]] uint16_t& dyn_sin6_family();
     // Get instance field reference: public System.UInt16 sin6_port

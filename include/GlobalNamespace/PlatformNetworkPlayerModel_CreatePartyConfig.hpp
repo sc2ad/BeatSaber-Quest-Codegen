@@ -31,6 +31,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*>(this);
     }
+    // Creating interface conversion operator: i_PlatformNetworkPlayerModel
+    inline ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>* i_PlatformNetworkPlayerModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x136781C
     // Implemented from: BaseNetworkPlayerModel/PartyConfig

@@ -87,9 +87,17 @@ namespace UnityEngine::UI {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>
     operator ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::ColorBlock>*>(this);
+    }
+    // Creating interface conversion operator: i_ColorBlock
+    inline ::System::IEquatable_1<::UnityEngine::UI::ColorBlock>* i_ColorBlock() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::UI::ColorBlock>*>(this);
     }
     // Get instance field reference: private UnityEngine.Color m_NormalColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_m_NormalColor();

@@ -59,9 +59,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::PhysicsScene>
     operator ::System::IEquatable_1<::UnityEngine::PhysicsScene>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::PhysicsScene>*>(this);
+    }
+    // Creating interface conversion operator: i_PhysicsScene
+    inline ::System::IEquatable_1<::UnityEngine::PhysicsScene>* i_PhysicsScene() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::PhysicsScene>*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {

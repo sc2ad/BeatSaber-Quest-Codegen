@@ -173,9 +173,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapObjectController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapObjectController
+    inline ::GlobalNamespace::IBeatmapObjectController* i_IBeatmapObjectController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapObjectController*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteMirrorable
     operator ::GlobalNamespace::INoteMirrorable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteMirrorable*>(this);
+    }
+    // Creating interface conversion operator: i_INoteMirrorable
+    inline ::GlobalNamespace::INoteMirrorable* i_INoteMirrorable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteMirrorable*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

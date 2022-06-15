@@ -40,6 +40,10 @@ namespace BGNet::Logging {
     operator ::BGNet::Logging::Debug::ILogger() noexcept {
       return *reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
     }
+    // Creating interface conversion operator: i_ILogger
+    inline ::BGNet::Logging::Debug::ILogger* i_ILogger() noexcept {
+      return reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x2AE3428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

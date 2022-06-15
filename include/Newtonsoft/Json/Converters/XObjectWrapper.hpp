@@ -59,6 +59,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlNode() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNode
+    inline ::Newtonsoft::Json::Converters::IXmlNode* i_IXmlNode() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
+    }
     // Creating conversion operator: operator ::System::Xml::Linq::XObject*
     constexpr operator ::System::Xml::Linq::XObject*() const noexcept {
       return xmlObject;

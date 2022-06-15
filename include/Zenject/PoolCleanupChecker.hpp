@@ -69,6 +69,10 @@ namespace Zenject {
     operator ::Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<::Zenject::ILateDisposable*>(this);
     }
+    // Creating interface conversion operator: i_ILateDisposable
+    inline ::Zenject::ILateDisposable* i_ILateDisposable() noexcept {
+      return reinterpret_cast<::Zenject::ILateDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& dyn__poolFactories();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools

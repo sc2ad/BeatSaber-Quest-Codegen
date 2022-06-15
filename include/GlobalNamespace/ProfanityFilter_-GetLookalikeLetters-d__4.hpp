@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppChar
+    inline ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>* i_Il2CppChar() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);

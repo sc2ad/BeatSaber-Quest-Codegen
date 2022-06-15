@@ -93,6 +93,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*>(this);
     }
+    // Creating interface conversion operator: i_List_1_T
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>* i_List_1_T() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>*>(this);

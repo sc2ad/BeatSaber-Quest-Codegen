@@ -67,9 +67,17 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapIdentifierNetSerializable
+    inline ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>* i_BeatmapIdentifierNetSerializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.String <levelID>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$levelID$k__BackingField();

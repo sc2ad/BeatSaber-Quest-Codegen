@@ -27,6 +27,10 @@ namespace MasterServer {
     operator ::MasterServer::IUserMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUserMasterServerMessage
+    inline ::MasterServer::IUserMasterServerMessage* i_IUserMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
+    }
   }; // MasterServer.IUserMasterServerServerToClientMessage
   #pragma pack(pop)
 }

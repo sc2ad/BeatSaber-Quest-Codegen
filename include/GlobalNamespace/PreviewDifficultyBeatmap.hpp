@@ -63,6 +63,10 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>(this);
     }
+    // Creating interface conversion operator: i_PreviewDifficultyBeatmap
+    inline ::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* i_PreviewDifficultyBeatmap() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::PreviewDifficultyBeatmap*>*>(this);
+    }
     // Get instance field reference: private IPreviewBeatmapLevel <beatmapLevel>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_$beatmapLevel$k__BackingField();
     // Get instance field reference: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField

@@ -127,6 +127,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::TableViewWithDetailCell::IDataSource() noexcept {
       return *reinterpret_cast<::GlobalNamespace::TableViewWithDetailCell::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::GlobalNamespace::TableViewWithDetailCell::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::GlobalNamespace::TableViewWithDetailCell::IDataSource*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kCellReuseIdentifier

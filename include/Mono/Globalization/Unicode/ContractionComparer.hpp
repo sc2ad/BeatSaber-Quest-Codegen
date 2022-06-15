@@ -39,6 +39,10 @@ namespace Mono::Globalization::Unicode {
     operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*>(this);
     }
+    // Creating interface conversion operator: i_Contraction
+    inline ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>* i_Contraction() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*>(this);
+    }
     // Get static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance
     static ::Mono::Globalization::Unicode::ContractionComparer* _get_Instance();
     // Set static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance

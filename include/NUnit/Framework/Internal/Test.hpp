@@ -167,9 +167,17 @@ namespace NUnit::Framework::Internal {
     operator ::NUnit::Framework::Interfaces::ITest() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITest*>(this);
     }
+    // Creating interface conversion operator: i_ITest
+    inline ::NUnit::Framework::Interfaces::ITest* i_ITest() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITest*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
     }
     // Get static field: static private System.Int32 _nextID
     static int _get__nextID();

@@ -242,6 +242,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IScoreController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IScoreController*>(this);
     }
+    // Creating interface conversion operator: i_IScoreController
+    inline ::GlobalNamespace::IScoreController* i_IScoreController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IScoreController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel

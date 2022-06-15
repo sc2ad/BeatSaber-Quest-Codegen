@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILobbyPlayerData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILobbyPlayerData*>(this);
     }
+    // Creating interface conversion operator: i_ILobbyPlayerData
+    inline ::GlobalNamespace::ILobbyPlayerData* i_ILobbyPlayerData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILobbyPlayerData*>(this);
+    }
     // Get instance field reference: private System.Boolean <isPartyOwner>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isPartyOwner$k__BackingField();
     // Get instance field reference: private System.Boolean <isActive>k__BackingField

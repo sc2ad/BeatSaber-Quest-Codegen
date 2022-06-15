@@ -117,6 +117,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRefreshable*>(this);
     }
+    // Creating interface conversion operator: i_IRefreshable
+    inline ::GlobalNamespace::IRefreshable* i_IRefreshable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRefreshable*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ServerCodeView _serverCodeView

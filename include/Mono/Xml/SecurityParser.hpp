@@ -69,6 +69,10 @@ namespace Mono::Xml {
     operator ::Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<::Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
+    // Creating interface conversion operator: i_IContentHandler
+    inline ::Mono::Xml::SmallXmlParser::IContentHandler* i_IContentHandler() noexcept {
+      return reinterpret_cast<::Mono::Xml::SmallXmlParser::IContentHandler*>(this);
+    }
     // Get instance field reference: private System.Security.SecurityElement root
     [[deprecated("Use field access instead!")]] ::System::Security::SecurityElement*& dyn_root();
     // Get instance field reference: private System.Security.SecurityElement current

@@ -106,9 +106,17 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::ITickable
     operator ::Zenject::ITickable() noexcept {
       return *reinterpret_cast<::Zenject::ITickable*>(this);
+    }
+    // Creating interface conversion operator: i_ITickable
+    inline ::Zenject::ITickable* i_ITickable() noexcept {
+      return reinterpret_cast<::Zenject::ITickable*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.SignalSubscription> _subscriptions
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>*& dyn__subscriptions();

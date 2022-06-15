@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator uint16_t
     constexpr operator uint16_t() const noexcept {
       return value;

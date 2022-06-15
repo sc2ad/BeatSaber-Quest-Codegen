@@ -53,6 +53,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineClipAsset
+    inline ::UnityEngine::Timeline::ITimelineClipAsset* i_ITimelineClipAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
+    }
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x1DA0718
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();

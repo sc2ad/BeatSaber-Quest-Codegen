@@ -42,6 +42,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ISubsystemDescriptor
+    inline ::UnityEngine::ISubsystemDescriptor* i_ISubsystemDescriptor() noexcept {
+      return reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return id;

@@ -42,6 +42,10 @@ namespace GameLift {
     operator ::GameLift::IGameLiftMessage() noexcept {
       return *reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
     }
+    // Creating interface conversion operator: i_IGameLiftMessage
+    inline ::GameLift::IGameLiftMessage* i_IGameLiftMessage() noexcept {
+      return reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
+    }
     // static public PacketPool`1<GameLift.GameLiftMessageReceivedAcknowledge> get_pool()
     // Offset: 0x16778B4
     static ::GlobalNamespace::PacketPool_1<::GameLift::GameLiftMessageReceivedAcknowledge*>* get_pool();

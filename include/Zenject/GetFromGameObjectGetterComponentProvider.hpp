@@ -81,6 +81,10 @@ namespace Zenject {
     operator ::Zenject::IProvider() noexcept {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
+    // Creating interface conversion operator: i_IProvider
+    inline ::Zenject::IProvider* i_IProvider() noexcept {
+      return reinterpret_cast<::Zenject::IProvider*>(this);
+    }
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
     [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*& dyn__gameObjectGetter();
     // Get instance field reference: private readonly System.Type _componentType

@@ -48,6 +48,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Get instance field reference: System.Int32[] objects
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_objects();
     // Get instance field reference: System.Int32[] negObjects

@@ -99,6 +99,10 @@ namespace System::Net {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get static field: static private System.Net.LazyAsyncResult/System.Net.ThreadContext t_ThreadContext
     static ::System::Net::LazyAsyncResult::ThreadContext* _get_t_ThreadContext();
     // Set static field: static private System.Net.LazyAsyncResult/System.Net.ThreadContext t_ThreadContext

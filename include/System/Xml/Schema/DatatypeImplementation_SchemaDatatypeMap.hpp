@@ -50,6 +50,10 @@ namespace System::Xml::Schema {
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // Get instance field reference: private System.String name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // Get instance field reference: private System.Xml.Schema.DatatypeImplementation type

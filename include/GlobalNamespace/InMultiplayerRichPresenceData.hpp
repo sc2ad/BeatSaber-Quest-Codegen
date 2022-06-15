@@ -72,6 +72,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerRichPresenceData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerRichPresenceData*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerRichPresenceData
+    inline ::GlobalNamespace::IMultiplayerRichPresenceData* i_IMultiplayerRichPresenceData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerRichPresenceData*>(this);
+    }
     // [LocalizationKeyAttribute] Offset: 0x10D5D4C
     // static field const value: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kInMultiplayerLobbyRichPresenceLocalizationKey = "IN_MULTIPLAYER_LOBBY_PRESENCE";

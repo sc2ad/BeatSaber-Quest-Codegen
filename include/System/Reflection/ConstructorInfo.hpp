@@ -55,6 +55,10 @@ namespace System::Reflection {
     operator ::System::Runtime::InteropServices::_ConstructorInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::InteropServices::_ConstructorInfo*>(this);
     }
+    // Creating interface conversion operator: i__ConstructorInfo
+    inline ::System::Runtime::InteropServices::_ConstructorInfo* i__ConstructorInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::InteropServices::_ConstructorInfo*>(this);
+    }
     // [ComVisibleAttribute] Offset: 0x1035B28
     // Get static field: static public readonly System.String ConstructorName
     static ::StringW _get_ConstructorName();

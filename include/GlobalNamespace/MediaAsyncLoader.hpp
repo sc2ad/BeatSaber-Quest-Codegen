@@ -66,6 +66,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMediaAsyncLoader() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMediaAsyncLoader*>(this);
     }
+    // Creating interface conversion operator: i_IMediaAsyncLoader
+    inline ::GlobalNamespace::IMediaAsyncLoader* i_IMediaAsyncLoader() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMediaAsyncLoader*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x12FBC3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

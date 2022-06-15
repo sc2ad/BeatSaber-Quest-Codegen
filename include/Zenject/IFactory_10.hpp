@@ -31,6 +31,10 @@ namespace Zenject {
     operator ::Zenject::IFactory() noexcept {
       return *reinterpret_cast<::Zenject::IFactory*>(this);
     }
+    // Creating interface conversion operator: i_IFactory
+    inline ::Zenject::IFactory* i_IFactory() noexcept {
+      return reinterpret_cast<::Zenject::IFactory*>(this);
+    }
     // public TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9)
     // Offset: 0xFFFFFFFFFFFFFFFF
     TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9) {

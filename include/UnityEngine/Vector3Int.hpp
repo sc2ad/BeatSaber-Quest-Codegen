@@ -64,9 +64,17 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector3Int>
     operator ::System::IEquatable_1<::UnityEngine::Vector3Int>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector3Int>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector3Int
+    inline ::System::IEquatable_1<::UnityEngine::Vector3Int>* i_Vector3Int() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector3Int>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Vector3Int s_Zero
     static ::UnityEngine::Vector3Int _get_s_Zero();

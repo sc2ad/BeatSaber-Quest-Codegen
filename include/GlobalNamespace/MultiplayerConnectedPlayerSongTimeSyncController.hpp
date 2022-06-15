@@ -127,6 +127,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAudioTimeSource*>(this);
     }
+    // Creating interface conversion operator: i_IAudioTimeSource
+    inline ::GlobalNamespace::IAudioTimeSource* i_IAudioTimeSource() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAudioTimeSource*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _audioSyncLerpSpeed

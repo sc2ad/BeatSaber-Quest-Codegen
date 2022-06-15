@@ -30,6 +30,10 @@ namespace System::Security::Cryptography {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // public System.Int32 get_InputBlockSize()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_InputBlockSize();

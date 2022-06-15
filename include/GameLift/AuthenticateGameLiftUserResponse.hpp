@@ -76,6 +76,10 @@ namespace GameLift {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -116,9 +120,17 @@ namespace GameLift {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateResponse
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse* i_IUnconnectedAuthenticateResponse() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
+    }
     // Creating interface conversion operator: operator ::GameLift::IGameLiftServerToClientMessage
     operator ::GameLift::IGameLiftServerToClientMessage() noexcept {
       return *reinterpret_cast<::GameLift::IGameLiftServerToClientMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IGameLiftServerToClientMessage
+    inline ::GameLift::IGameLiftServerToClientMessage* i_IGameLiftServerToClientMessage() noexcept {
+      return reinterpret_cast<::GameLift::IGameLiftServerToClientMessage*>(this);
     }
     // Creating conversion operator: operator ::GameLift::AuthenticateGameLiftUserResponse::Result
     constexpr operator ::GameLift::AuthenticateGameLiftUserResponse::Result() const noexcept {

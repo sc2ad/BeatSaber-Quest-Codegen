@@ -80,6 +80,10 @@ namespace GlobalNamespace {
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
     // Get instance field reference: private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int>*& dyn_didSelectContentCellEvent();
     // Get instance field reference: private System.Action`2<TableViewWithDetailCell,System.Int32> didDeselectContentCellEvent

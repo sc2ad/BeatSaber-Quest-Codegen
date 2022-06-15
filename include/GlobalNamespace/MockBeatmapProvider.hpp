@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IServerBeatmapProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IServerBeatmapProvider*>(this);
     }
+    // Creating interface conversion operator: i_IServerBeatmapProvider
+    inline ::GlobalNamespace::IServerBeatmapProvider* i_IServerBeatmapProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IServerBeatmapProvider*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x13C540C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,6 +65,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(this);
     }
+    // Creating interface conversion operator: i_IInstanceProvider
+    inline ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* i_IInstanceProvider() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*
     constexpr operator ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*() const noexcept {
       return m_InstanceObjectToPrefabHandle;

@@ -55,9 +55,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IValue_1<T>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IValue_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IValue_1_T
+    inline ::GlobalNamespace::IValue_1<T>* i_IValue_1_T() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IValue_1<T>*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IObservableChange
     operator ::GlobalNamespace::IObservableChange() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IObservableChange*>(this);
+    }
+    // Creating interface conversion operator: i_IObservableChange
+    inline ::GlobalNamespace::IObservableChange* i_IObservableChange() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IObservableChange*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

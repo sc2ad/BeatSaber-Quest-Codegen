@@ -168,6 +168,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return value;
@@ -675,6 +679,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IMenuRpcManager
     operator ::GlobalNamespace::IMenuRpcManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMenuRpcManager*>(this);
+    }
+    // Creating interface conversion operator: i_IMenuRpcManager
+    inline ::GlobalNamespace::IMenuRpcManager* i_IMenuRpcManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMenuRpcManager*>(this);
     }
     // static field const value: static private System.String kMenuState
     static constexpr const char* kMenuState = "in_menu";

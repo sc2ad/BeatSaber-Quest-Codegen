@@ -87,6 +87,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISliderDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(this);
     }
+    // Creating interface conversion operator: i_ISliderDidStartDissolvingEvent
+    inline ::GlobalNamespace::ISliderDidStartDissolvingEvent* i_ISliderDidStartDissolvingEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISliderDidStartDissolvingEvent*>(this);
+    }
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController

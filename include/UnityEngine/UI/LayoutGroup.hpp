@@ -126,9 +126,17 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
+    // Creating interface conversion operator: i_ILayoutElement
+    inline ::UnityEngine::UI::ILayoutElement* i_ILayoutElement() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutGroup
     operator ::UnityEngine::UI::ILayoutGroup() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::ILayoutGroup*>(this);
+    }
+    // Creating interface conversion operator: i_ILayoutGroup
+    inline ::UnityEngine::UI::ILayoutGroup* i_ILayoutGroup() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::ILayoutGroup*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

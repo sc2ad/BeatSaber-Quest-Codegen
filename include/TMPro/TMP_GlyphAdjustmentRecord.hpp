@@ -52,6 +52,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.UInt32 m_GlyphIndex
     [[deprecated("Use field access instead!")]] uint& dyn_m_GlyphIndex();
     // Get instance field reference: private TMPro.TMP_GlyphValueRecord m_GlyphValueRecord

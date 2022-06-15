@@ -116,6 +116,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -257,6 +261,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IMultiplayerSessionManager
     operator ::GlobalNamespace::IMultiplayerSessionManager() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerSessionManager*>(this);
+    }
+    // Creating interface conversion operator: i_IMultiplayerSessionManager
+    inline ::GlobalNamespace::IMultiplayerSessionManager* i_IMultiplayerSessionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerSessionManager*>(this);
     }
     // static field const value: static private System.String kMultiplayerSessionState
     static constexpr const char* kMultiplayerSessionState = "multiplayer_session";

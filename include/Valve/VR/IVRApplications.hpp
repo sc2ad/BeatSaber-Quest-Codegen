@@ -284,6 +284,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRApplications::_AddApplicationManifest*& dyn_AddApplicationManifest();
     // Get instance field reference: Valve.VR.IVRApplications/Valve.VR._RemoveApplicationManifest RemoveApplicationManifest

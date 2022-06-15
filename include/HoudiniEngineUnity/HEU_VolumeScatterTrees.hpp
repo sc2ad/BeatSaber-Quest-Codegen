@@ -106,6 +106,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_VolumeScatterTrees
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>* i_HEU_VolumeScatterTrees() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
+    }
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& dyn__treePrototypInfos();
     // Get instance field reference: public UnityEngine.Color32[] _colors

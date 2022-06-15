@@ -73,6 +73,10 @@ namespace System::Xml::Schema {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private readonly System.Int32 Lzyyyy
     static int _get_Lzyyyy();
     // Set static field: static private readonly System.Int32 Lzyyyy

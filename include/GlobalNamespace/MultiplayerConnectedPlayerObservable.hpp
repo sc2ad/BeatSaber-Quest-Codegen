@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerObservable
+    inline ::GlobalNamespace::IMultiplayerObservable* i_IMultiplayerObservable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::IConnectedPlayer*
     constexpr operator ::GlobalNamespace::IConnectedPlayer*() const noexcept {
       return connectedPlayer;

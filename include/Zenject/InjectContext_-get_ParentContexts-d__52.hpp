@@ -80,6 +80,10 @@ namespace Zenject {
     operator ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>*>(this);
     }
+    // Creating interface conversion operator: i_InjectContext
+    inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* i_InjectContext() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>
     operator ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*>(this);

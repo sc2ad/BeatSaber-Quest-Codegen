@@ -29,6 +29,10 @@ namespace System::Text::RegularExpressions {
     operator ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
+    // Creating interface conversion operator: i_SingleRange
+    inline ::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>* i_SingleRange() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
+    }
     // public System.Void .ctor()
     // Offset: 0x1DD003C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

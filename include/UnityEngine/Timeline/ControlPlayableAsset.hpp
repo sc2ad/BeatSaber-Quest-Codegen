@@ -175,9 +175,17 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineClipAsset
+    inline ::UnityEngine::Timeline::ITimelineClipAsset* i_ITimelineClipAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Timeline::IPropertyPreview
     operator ::UnityEngine::Timeline::IPropertyPreview() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::IPropertyPreview*>(this);
+    }
+    // Creating interface conversion operator: i_IPropertyPreview
+    inline ::UnityEngine::Timeline::IPropertyPreview* i_IPropertyPreview() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::IPropertyPreview*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

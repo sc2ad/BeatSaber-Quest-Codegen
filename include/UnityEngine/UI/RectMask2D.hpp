@@ -158,9 +158,17 @@ namespace UnityEngine::UI {
     operator ::UnityEngine::UI::IClipper() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::IClipper*>(this);
     }
+    // Creating interface conversion operator: i_IClipper
+    inline ::UnityEngine::UI::IClipper* i_IClipper() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::IClipper*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::ICanvasRaycastFilter
     operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
+    }
+    // Creating interface conversion operator: i_ICanvasRaycastFilter
+    inline ::UnityEngine::ICanvasRaycastFilter* i_ICanvasRaycastFilter() noexcept {
+      return reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

@@ -67,6 +67,10 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.Vector3 m_Min
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Min();
     // Get instance field reference: private UnityEngine.Vector3 m_Max

@@ -111,6 +111,10 @@ namespace GlobalNamespace {
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private ColorSchemeView _colorSchemeView

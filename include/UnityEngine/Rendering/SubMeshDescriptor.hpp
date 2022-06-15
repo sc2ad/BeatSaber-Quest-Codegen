@@ -86,6 +86,10 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.Bounds <bounds>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Bounds& dyn_$bounds$k__BackingField();
     // Get instance field reference: private UnityEngine.MeshTopology <topology>k__BackingField

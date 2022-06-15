@@ -73,6 +73,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineEvaluateCallback
+    inline ::UnityEngine::Timeline::ITimelineEvaluateCallback* i_ITimelineEvaluateCallback() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
+    }
     // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
     // Get instance field reference: private UnityEngine.Playables.PlayableGraph m_Graph

@@ -64,6 +64,10 @@ namespace Newtonsoft::Json::Bson {
     operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>*>(this);
     }
+    // Creating interface conversion operator: i_BsonToken
+    inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>* i_BsonToken() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>*>(this);
+    }
     // Deleting conversion operator: operator ::Newtonsoft::Json::Bson::BsonToken*
     constexpr operator ::Newtonsoft::Json::Bson::BsonToken*() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Newtonsoft.Json.Bson.BsonToken> _children

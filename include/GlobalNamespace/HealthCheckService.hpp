@@ -84,6 +84,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IHealthCheckService() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IHealthCheckService*>(this);
     }
+    // Creating interface conversion operator: i_IHealthCheckService
+    inline ::GlobalNamespace::IHealthCheckService* i_IHealthCheckService() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IHealthCheckService*>(this);
+    }
     // static field const value: static private System.Int32 kTimeoutLengthMs
     static constexpr const int kTimeoutLengthMs = 1000;
     // Get static field: static private System.Int32 kTimeoutLengthMs

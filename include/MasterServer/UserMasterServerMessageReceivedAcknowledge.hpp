@@ -42,6 +42,10 @@ namespace MasterServer {
     operator ::MasterServer::IUserMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUserMasterServerMessage
+    inline ::MasterServer::IUserMasterServerMessage* i_IUserMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
+    }
     // static public PacketPool`1<MasterServer.UserMasterServerMessageReceivedAcknowledge> get_pool()
     // Offset: 0x172A470
     static ::GlobalNamespace::PacketPool_1<::MasterServer::UserMasterServerMessageReceivedAcknowledge*>* get_pool();

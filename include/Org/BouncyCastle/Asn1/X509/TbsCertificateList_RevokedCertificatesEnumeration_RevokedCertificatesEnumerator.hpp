@@ -37,6 +37,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IEnumerator*
     constexpr operator ::System::Collections::IEnumerator*() const noexcept {
       return e;

@@ -53,6 +53,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
+    // Creating interface conversion operator: i_PreCompInfo
+    inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i_PreCompInfo() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
+    }
     // Get static field: static readonly System.String PRECOMP_NAME
     static ::StringW _get_PRECOMP_NAME();
     // Set static field: static readonly System.String PRECOMP_NAME

@@ -71,6 +71,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly System.Single bpmChangeStartTime
       [[deprecated("Use field access instead!")]] float& dyn_bpmChangeStartTime();
       // Get instance field reference: public readonly System.Single bpmChangeStartBpmTime
@@ -101,6 +105,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IBeatToTimeConvertor
     operator ::GlobalNamespace::IBeatToTimeConvertor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatToTimeConvertor*>(this);
+    }
+    // Creating interface conversion operator: i_IBeatToTimeConvertor
+    inline ::GlobalNamespace::IBeatToTimeConvertor* i_IBeatToTimeConvertor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatToTimeConvertor*>(this);
     }
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapDataLoader/BpmTimeProcessor/BpmChangeData> _bpmChangeDataList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataLoader::BpmTimeProcessor::BpmChangeData>*& dyn__bpmChangeDataList();

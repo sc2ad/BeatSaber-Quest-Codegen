@@ -39,6 +39,10 @@ namespace Priority_Queue {
     operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>() noexcept {
       return *reinterpret_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(this);
     }
+    // Creating interface conversion operator: i_IPriorityQueue_2_TItem_TPriority
+    inline ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>* i_IPriorityQueue_2_TItem_TPriority() noexcept {
+      return reinterpret_cast<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>(this);
+    }
     // public System.Int32 get_MaxSize()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_MaxSize() {

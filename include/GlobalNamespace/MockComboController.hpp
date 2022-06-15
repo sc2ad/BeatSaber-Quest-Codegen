@@ -56,6 +56,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IComboController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IComboController*>(this);
     }
+    // Creating interface conversion operator: i_IComboController
+    inline ::GlobalNamespace::IComboController* i_IComboController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IComboController*>(this);
+    }
     // Get instance field reference: private System.Action`1<System.Int32> comboDidChangeEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_comboDidChangeEvent();
     // Get instance field reference: private System.Action comboBreakingEventHappenedEvent

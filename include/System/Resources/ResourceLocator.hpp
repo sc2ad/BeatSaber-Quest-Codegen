@@ -53,6 +53,10 @@ namespace System::Resources {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Object _value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__value();
     // Get instance field reference: System.Int32 _dataPos
