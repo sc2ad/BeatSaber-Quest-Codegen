@@ -27,6 +27,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1Convertible
+    inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* i_IAsn1Convertible() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
+    }
   }; // Org.BouncyCastle.Asn1.Asn1SetParser
   #pragma pack(pop)
 }

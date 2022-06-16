@@ -38,26 +38,26 @@ namespace GlobalNamespace {
   class SceneLoadedCallbacksOrderDebug : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A278EC
+    // Offset: 0x2A23AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneLoadedCallbacksOrderDebug* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneLoadedCallbacksOrderDebug::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneLoadedCallbacksOrderDebug*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A275AC
+    // Offset: 0x2A23764
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x2A27618
+    // Offset: 0x2A237D0
     void OnEnable();
     // protected System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x2A276E8
+    // Offset: 0x2A238A0
     void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void Start()
-    // Offset: 0x2A277B0
+    // Offset: 0x2A23968
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x2A2781C
+    // Offset: 0x2A239D4
     void OnDisable();
   }; // SceneLoadedCallbacksOrderDebug
   #pragma pack(pop)

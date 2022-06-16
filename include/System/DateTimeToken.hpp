@@ -54,6 +54,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.DateTimeParse/System.DTT dtt
     [[deprecated("Use field access instead!")]] ::System::DateTimeParse::DTT& dyn_dtt();
     // Get instance field reference: System.TokenType suffix

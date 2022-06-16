@@ -37,6 +37,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // static field const value: static public System.String SDK_ID
     static constexpr const char* SDK_ID = "7R9Y1V7WEROGDMRF6F3ESO2C6F858GCD";
     // Get static field: static public System.String SDK_ID

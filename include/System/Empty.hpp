@@ -42,18 +42,22 @@ namespace System {
     operator ::System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
+    // Creating interface conversion operator: i_ISerializable
+    inline ::System::Runtime::Serialization::ISerializable* i_ISerializable() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
+    }
     // Get static field: static public readonly System.Empty Value
     static ::System::Empty* _get_Value();
     // Set static field: static public readonly System.Empty Value
     static void _set_Value(::System::Empty* value);
     // static private System.Void .cctor()
-    // Offset: 0x195871C
+    // Offset: 0x1954260
     static void _cctor();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1958688
+    // Offset: 0x19541CC
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void .ctor()
-    // Offset: 0x1958630
+    // Offset: 0x1954174
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +66,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<Empty*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1958638
+    // Offset: 0x195417C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

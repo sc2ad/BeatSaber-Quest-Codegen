@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteMirrorable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteMirrorable*>(this);
     }
+    // Creating interface conversion operator: i_INoteMirrorable
+    inline ::GlobalNamespace::INoteMirrorable* i_INoteMirrorable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteMirrorable*>(this);
+    }
     // public NoteMovement get_noteMovement()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::NoteMovement* get_noteMovement();

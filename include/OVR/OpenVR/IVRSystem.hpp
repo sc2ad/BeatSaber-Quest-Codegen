@@ -412,6 +412,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRSystem::_GetRecommendedRenderTargetSize*& dyn_GetRecommendedRenderTargetSize();
     // Get instance field reference: OVR.OpenVR.IVRSystem/OVR.OpenVR._GetProjectionMatrix GetProjectionMatrix

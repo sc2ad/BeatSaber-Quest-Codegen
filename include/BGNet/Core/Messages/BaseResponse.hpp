@@ -50,6 +50,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedResponse() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedResponse*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedResponse
+    inline ::BGNet::Core::Messages::IUnconnectedResponse* i_IUnconnectedResponse() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedResponse*>(this);
+    }
     // Creating conversion operator: operator uint
     constexpr operator uint() const noexcept {
       return responseId;
@@ -57,35 +61,35 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     [[deprecated("Use field access instead!")]] uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_responseId()
-    // Offset: 0x1531B04
+    // Offset: 0x1549140
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x1531B0C
+    // Offset: 0x1549148
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x1531B14
+    // Offset: 0x1549150
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x1531B1C
+    // Offset: 0x1549158
     ::StringW get_resultCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x152C820
+    // Offset: 0x1543E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseResponse*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152C774
+    // Offset: 0x1543DB0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152C7E4
+    // Offset: 0x1543E20
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedResponse BGNet.Core.Messages.IUnconnectedResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x1531B64
+    // Offset: 0x15491A0
     ::BGNet::Core::Messages::IUnconnectedResponse* BGNet_Core_Messages_IUnconnectedResponse_WithResponseId(uint responseId);
   }; // BGNet.Core.Messages.BaseResponse
   #pragma pack(pop)

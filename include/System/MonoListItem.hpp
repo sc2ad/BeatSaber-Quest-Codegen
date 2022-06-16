@@ -45,7 +45,7 @@ namespace System {
     // Get instance field reference: private System.Object data
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1BD3658
+    // Offset: 0x1B9985C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -79,26 +79,26 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Boolean m_NeedsUpdate
     [[deprecated("Use field access instead!")]] bool& dyn_m_NeedsUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1F98640
+    // Offset: 0x1F8F314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvokableCallList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::InvokableCallList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvokableCallList*, creationType>()));
     }
     // public System.Void AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F982E0
+    // Offset: 0x1F8EFB4
     void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void AddListener(UnityEngine.Events.BaseInvokableCall call)
-    // Offset: 0x1F98354
+    // Offset: 0x1F8F028
     void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
     // public System.Void RemoveListener(System.Object targetObj, System.Reflection.MethodInfo method)
-    // Offset: 0x1F983C8
+    // Offset: 0x1F8F09C
     void RemoveListener(::Il2CppObject* targetObj, ::System::Reflection::MethodInfo* method);
     // public System.Void ClearPersistent()
-    // Offset: 0x1F98540
+    // Offset: 0x1F8F214
     void ClearPersistent();
     // public System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> PrepareInvoke()
-    // Offset: 0x1F985A4
+    // Offset: 0x1F8F278
     ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
   }; // UnityEngine.Events.InvokableCallList
   #pragma pack(pop)

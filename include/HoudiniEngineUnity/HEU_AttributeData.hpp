@@ -56,6 +56,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -121,6 +125,10 @@ namespace HoudiniEngineUnity {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -202,6 +210,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_AttributeData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>* i_HEU_AttributeData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*>(this);
+    }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _attributeInfo
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeInfo& dyn__attributeInfo();
     // Get instance field reference: public System.String _name
@@ -217,20 +229,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Void .ctor()
-    // Offset: 0x16E63A8
+    // Offset: 0x16E3ECC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AttributeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AttributeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AttributeData*, creationType>()));
     }
     // public System.Boolean IsColorAttribute()
-    // Offset: 0x16E5F98
+    // Offset: 0x16E3ABC
     bool IsColorAttribute();
     // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
-    // Offset: 0x16E6010
+    // Offset: 0x16E3B34
     void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
-    // Offset: 0x16E6130
+    // Offset: 0x16E3C54
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
   }; // HoudiniEngineUnity.HEU_AttributeData
   #pragma pack(pop)

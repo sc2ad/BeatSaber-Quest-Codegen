@@ -72,6 +72,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     operator ::Org::BouncyCastle::Crypto::IRsa() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IRsa*>(this);
     }
+    // Creating interface conversion operator: i_IRsa
+    inline ::Org::BouncyCastle::Crypto::IRsa* i_IRsa() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IRsa*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& dyn_key();
     // Get instance field reference: private System.Boolean forEncryption
@@ -79,32 +83,32 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 bitSize
     [[deprecated("Use field access instead!")]] int& dyn_bitSize();
     // public System.Void .ctor()
-    // Offset: 0x240B378
+    // Offset: 0x2403F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaCoreEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaCoreEngine*, creationType>()));
     }
     // private System.Void CheckInitialised()
-    // Offset: 0x240BB60
+    // Offset: 0x2404724
     void CheckInitialised();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x240BBE4
+    // Offset: 0x24047A8
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x240BD08
+    // Offset: 0x24048CC
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x240BD50
+    // Offset: 0x2404914
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x240BD98
+    // Offset: 0x240495C
     ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
-    // Offset: 0x240BEAC
+    // Offset: 0x2404A70
     ::ArrayW<uint8_t> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
-    // Offset: 0x240BF80
+    // Offset: 0x2404B44
     ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
   }; // Org.BouncyCastle.Crypto.Engines.RsaCoreEngine
   #pragma pack(pop)

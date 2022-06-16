@@ -41,22 +41,22 @@ namespace Newtonsoft::Json::Converters {
   class XTextWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
     public:
     // private System.Xml.Linq.XText get_Text()
-    // Offset: 0x17BA448
+    // Offset: 0x17B6F8C
     ::System::Xml::Linq::XText* get_Text();
     // public System.Void .ctor(System.Xml.Linq.XText text)
-    // Offset: 0x17B8B54
+    // Offset: 0x17B5698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XTextWrapper* New_ctor(::System::Xml::Linq::XText* text) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XTextWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XTextWrapper*, creationType>(text)));
     }
     // public override System.String get_Value()
-    // Offset: 0x17BA4C8
+    // Offset: 0x17B700C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_Value()
     ::StringW get_Value();
     // public override Newtonsoft.Json.Converters.IXmlNode get_ParentNode()
-    // Offset: 0x17BA4E8
+    // Offset: 0x17B702C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XObjectWrapper::get_ParentNode()
     ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();

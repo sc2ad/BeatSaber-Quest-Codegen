@@ -58,7 +58,7 @@ namespace GlobalNamespace {
   class ArrayPositionTween : public ::UnityEngine::Playables::PlayableAsset/*, public ::UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
     public:
-    // [NullAllowed] Offset: 0x10E4850
+    // [NullAllowed] Offset: 0x10E76F4
     // public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -80,6 +80,10 @@ namespace GlobalNamespace {
     operator ::UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineClipAsset
+    inline ::UnityEngine::Timeline::ITimelineClipAsset* i_ITimelineClipAsset() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.ExposedReference`1<TimelineArrayReference> arrayReference
@@ -89,17 +93,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public CustomTweenBehaviour template
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomTweenBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x14EE2E0
+    // Offset: 0x14F0428
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x14EE420
+    // Offset: 0x14F0568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayPositionTween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ArrayPositionTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayPositionTween*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x14EE2E8
+    // Offset: 0x14F0430
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

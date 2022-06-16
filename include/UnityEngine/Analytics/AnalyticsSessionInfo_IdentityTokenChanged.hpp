@@ -36,20 +36,20 @@ namespace UnityEngine::Analytics {
   class AnalyticsSessionInfo::IdentityTokenChanged : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2AEDCA4
+    // Offset: 0x2AE4A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnalyticsSessionInfo::IdentityTokenChanged* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnalyticsSessionInfo::IdentityTokenChanged*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String token)
-    // Offset: 0x2AED910
+    // Offset: 0x2AE46E4
     void Invoke(::StringW token);
     // public System.IAsyncResult BeginInvoke(System.String token, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2AEDCB4
+    // Offset: 0x2AE4A88
     ::System::IAsyncResult* BeginInvoke(::StringW token, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2AEDCD8
+    // Offset: 0x2AE4AAC
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.IdentityTokenChanged
   #pragma pack(pop)

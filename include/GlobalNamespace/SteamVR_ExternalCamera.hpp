@@ -188,6 +188,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Single x
       [[deprecated("Use field access instead!")]] float& dyn_x();
       // Get instance field reference: public System.Single y
@@ -333,38 +337,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single sceneResolutionScale
     [[deprecated("Use field access instead!")]] float& dyn_sceneResolutionScale();
     // public System.Void .ctor()
-    // Offset: 0x18A63B0
+    // Offset: 0x18A1EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_ExternalCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_ExternalCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ExternalCamera*, creationType>()));
     }
     // public System.Void ReadConfig()
-    // Offset: 0x18A4640
+    // Offset: 0x18A0184
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x18A4F48
+    // Offset: 0x18A0A8C
     void OnChanged(::Il2CppObject* source, ::System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x18A4F4C
+    // Offset: 0x18A0A90
     void AttachToCamera(::GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0x18A54FC
+    // Offset: 0x18A1040
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0x18A57A8
+    // Offset: 0x18A12EC
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0x18A5F00
+    // Offset: 0x18A1A44
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0x18A6020
+    // Offset: 0x18A1B64
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0x18A6024
+    // Offset: 0x18A1B68
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18A6274
+    // Offset: 0x18A1DB8
     void OnDisable();
   }; // SteamVR_ExternalCamera
   #pragma pack(pop)

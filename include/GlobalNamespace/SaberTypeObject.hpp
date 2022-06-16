@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // public SaberType get_saberType()
-    // Offset: 0x146200C
+    // Offset: 0x1487EB4
     ::GlobalNamespace::SaberType get_saberType();
     // public System.Void .ctor()
-    // Offset: 0x1462014
+    // Offset: 0x1487EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberTypeObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberTypeObject::.ctor");

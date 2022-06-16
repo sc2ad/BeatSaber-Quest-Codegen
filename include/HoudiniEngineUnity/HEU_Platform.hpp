@@ -49,104 +49,104 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Boolean _pathSet
     static void _set__pathSet(bool value);
     // static public System.String get_LibPath()
-    // Offset: 0x1AFB55C
+    // Offset: 0x1AF30A0
     static ::StringW get_LibPath();
     // static public System.Boolean get_IsPathSet()
-    // Offset: 0x1AFB5C4
+    // Offset: 0x1AF3108
     static bool get_IsPathSet();
     // static public System.Char get_DirectorySeparator()
-    // Offset: 0x1AFBD68
+    // Offset: 0x1AF38AC
     static ::Il2CppChar get_DirectorySeparator();
     // static public System.String get_DirectorySeparatorStr()
-    // Offset: 0x1AF96D4
+    // Offset: 0x1AF1218
     static ::StringW get_DirectorySeparatorStr();
     // static private System.Void .cctor()
-    // Offset: 0x1AFB62C
+    // Offset: 0x1AF3170
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1AFC618
+    // Offset: 0x1AF415C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Platform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Platform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Platform*, creationType>()));
     }
     // static public System.String GetHoudiniEnginePath()
-    // Offset: 0x1AFB68C
+    // Offset: 0x1AF31D0
     static ::StringW GetHoudiniEnginePath();
     // static public System.String GetHoudiniEngineDefaultPath()
-    // Offset: 0x1AFB6F0
+    // Offset: 0x1AF3234
     static ::StringW GetHoudiniEngineDefaultPath();
     // static public System.String GetSavedHoudiniPath()
-    // Offset: 0x1AFB768
+    // Offset: 0x1AF32AC
     static ::StringW GetSavedHoudiniPath();
     // static public System.Void SetHapiClientName()
-    // Offset: 0x1AFB630
+    // Offset: 0x1AF3174
     static void SetHapiClientName();
     // static public System.Void SetHoudiniEnginePath()
-    // Offset: 0x1AFB688
+    // Offset: 0x1AF31CC
     static void SetHoudiniEnginePath();
     // static public System.String GetAllFoldersInPath(System.String path)
-    // Offset: 0x1AFB900
+    // Offset: 0x1AF3444
     static ::StringW GetAllFoldersInPath(::StringW path);
     // static private System.Void GetAllFoldersInPathHelper(System.String inPath, System.Text.StringBuilder pathBuilder)
-    // Offset: 0x1AFB9C4
+    // Offset: 0x1AF3508
     static void GetAllFoldersInPathHelper(::StringW inPath, ::System::Text::StringBuilder* pathBuilder);
     // static public System.String[] GetFilesInFolder(System.String folderPath, System.String searchPattern, System.Boolean bRecursive)
-    // Offset: 0x1AFBB20
+    // Offset: 0x1AF3664
     static ::ArrayW<::StringW> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive);
     // static public System.String GetFileName(System.String path)
-    // Offset: 0x1AFBC98
+    // Offset: 0x1AF37DC
     static ::StringW GetFileName(::StringW path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
-    // Offset: 0x1AFBD00
+    // Offset: 0x1AF3844
     static ::StringW GetFileNameWithoutExtension(::StringW path);
     // static public System.String GetFolderPath(System.String path, System.Boolean bRemoveDirectorySeparatorAtEnd)
-    // Offset: 0x1AFAC1C
+    // Offset: 0x1AF2760
     static ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd);
     // static public System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
-    // Offset: 0x1AE8F6C
+    // Offset: 0x1AE0AB0
     static ::StringW BuildPath(::StringW folder1, ::StringW folder2, ::ArrayW<::Il2CppObject*> args);
     // static public System.String TrimLastDirectorySeparator(System.String inPath)
-    // Offset: 0x1AFBD70
+    // Offset: 0x1AF38B4
     static ::StringW TrimLastDirectorySeparator(::StringW inPath);
     // static public System.Boolean DoesPathExist(System.String inPath)
-    // Offset: 0x1AFBE20
+    // Offset: 0x1AF3964
     static bool DoesPathExist(::StringW inPath);
     // static public System.Boolean DoesFileExist(System.String inPath)
-    // Offset: 0x1AFBE60
+    // Offset: 0x1AF39A4
     static bool DoesFileExist(::StringW inPath);
     // static public System.Boolean DoesDirectoryExist(System.String inPath)
-    // Offset: 0x1AFBE68
+    // Offset: 0x1AF39AC
     static bool DoesDirectoryExist(::StringW inPath);
     // static public System.Boolean CreateDirectory(System.String inPath)
-    // Offset: 0x1AFBE70
+    // Offset: 0x1AF39B4
     static bool CreateDirectory(::StringW inPath);
     // static public System.String GetParentDirectory(System.String inPath)
-    // Offset: 0x1AFBE9C
+    // Offset: 0x1AF39E0
     static ::StringW GetParentDirectory(::StringW inPath);
     // static public System.String GetFullPath(System.String inPath)
-    // Offset: 0x1AFBEC4
+    // Offset: 0x1AF3A08
     static ::StringW GetFullPath(::StringW inPath);
     // static public System.Boolean IsPathRooted(System.String inPath)
-    // Offset: 0x1AFBF2C
+    // Offset: 0x1AF3A70
     static bool IsPathRooted(::StringW inPath);
     // static public System.Void WriteBytes(System.String path, System.Byte[] bytes)
-    // Offset: 0x1AFBF94
+    // Offset: 0x1AF3AD8
     static void WriteBytes(::StringW path, ::ArrayW<uint8_t> bytes);
     // static public System.Boolean WriteAllText(System.String path, System.String text)
-    // Offset: 0x1AFBF9C
+    // Offset: 0x1AF3AE0
     static bool WriteAllText(::StringW path, ::StringW text);
     // static public System.String ReadAllText(System.String path)
-    // Offset: 0x1AFC124
+    // Offset: 0x1AF3C68
     static ::StringW ReadAllText(::StringW path);
     // static public System.String GetEnvironmentValue(System.String key)
-    // Offset: 0x1AFC2BC
+    // Offset: 0x1AF3E00
     static ::StringW GetEnvironmentValue(::StringW key);
     // static public System.String GetHoudiniEngineEnvironmentFilePathFull()
-    // Offset: 0x1AFC334
+    // Offset: 0x1AF3E78
     static ::StringW GetHoudiniEngineEnvironmentFilePathFull();
     // static public System.Boolean LoadFileIntoMemory(System.String path, out System.Byte[] buffer)
-    // Offset: 0x1AFC3F4
+    // Offset: 0x1AF3F38
     static bool LoadFileIntoMemory(::StringW path, ByRef<::ArrayW<uint8_t>> buffer);
   }; // HoudiniEngineUnity.HEU_Platform
   #pragma pack(pop)

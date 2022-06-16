@@ -40,7 +40,7 @@ namespace RootMotion {
   class SolverManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10F78E4
+    // [TooltipAttribute] Offset: 0x10FA7A8
     // public System.Boolean fixTransforms
     // Size: 0x1
     // Offset: 0x18
@@ -95,53 +95,53 @@ namespace RootMotion {
     // Get instance field reference: private System.Boolean skipSolverUpdate
     [[deprecated("Use field access instead!")]] bool& dyn_skipSolverUpdate();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x1FCEC50
+    // Offset: 0x1FAC864
     bool get_animatePhysics();
     // private System.Boolean get_isAnimated()
-    // Offset: 0x1FCEF4C
+    // Offset: 0x1FACB60
     bool get_isAnimated();
     // public System.Void .ctor()
-    // Offset: 0x1FBDD18
+    // Offset: 0x1F9B92C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SolverManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::SolverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SolverManager*, creationType>()));
     }
     // public System.Void Disable()
-    // Offset: 0x1FCEB18
+    // Offset: 0x1FAC72C
     void Disable();
     // protected System.Void InitiateSolver()
-    // Offset: 0x1FCEBB0
+    // Offset: 0x1FAC7C4
     void InitiateSolver();
     // protected System.Void UpdateSolver()
-    // Offset: 0x1FCEBB4
+    // Offset: 0x1FAC7C8
     void UpdateSolver();
     // protected System.Void FixTransforms()
-    // Offset: 0x1FCEBB8
+    // Offset: 0x1FAC7CC
     void FixTransforms();
     // private System.Void OnDisable()
-    // Offset: 0x1FCEBBC
+    // Offset: 0x1FAC7D0
     void OnDisable();
     // private System.Void Start()
-    // Offset: 0x1FCEC4C
+    // Offset: 0x1FAC860
     void Start();
     // private System.Void Initiate()
-    // Offset: 0x1FCEBF4
+    // Offset: 0x1FAC808
     void Initiate();
     // private System.Void Update()
-    // Offset: 0x1FCEF00
+    // Offset: 0x1FACB14
     void Update();
     // private System.Void FindAnimatorRecursive(UnityEngine.Transform t, System.Boolean findInChildren)
-    // Offset: 0x1FCED40
+    // Offset: 0x1FAC954
     void FindAnimatorRecursive(::UnityEngine::Transform* t, bool findInChildren);
     // private System.Void FixedUpdate()
-    // Offset: 0x1FCF008
+    // Offset: 0x1FACC1C
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1FCF064
+    // Offset: 0x1FACC78
     void LateUpdate();
     // public System.Void UpdateSolverExternal()
-    // Offset: 0x1FCF0C0
+    // Offset: 0x1FACCD4
     void UpdateSolverExternal();
   }; // RootMotion.SolverManager
   #pragma pack(pop)

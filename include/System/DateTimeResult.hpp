@@ -146,6 +146,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Int32 Year
     [[deprecated("Use field access instead!")]] int& dyn_Year();
     // Get instance field reference: System.Int32 Month
@@ -179,16 +183,16 @@ namespace System {
     // Get instance field reference: System.String failureArgumentName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_failureArgumentName();
     // System.Void Init()
-    // Offset: 0x227BA0C
+    // Offset: 0x22735D0
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x227E744
+    // Offset: 0x2276308
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x227BE10
+    // Offset: 0x22739D4
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x227BE00
+    // Offset: 0x22739C4
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)

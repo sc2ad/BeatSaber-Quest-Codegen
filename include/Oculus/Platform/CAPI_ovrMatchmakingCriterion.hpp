@@ -60,6 +60,10 @@ namespace Oculus::Platform {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.String key_
     [[deprecated("Use field access instead!")]] ::StringW& dyn_key_();
     // Get instance field reference: public Oculus.Platform.MatchmakingCriterionImportance importance_
@@ -69,7 +73,7 @@ namespace Oculus::Platform {
     // Get instance field reference: public System.UInt32 parameterArrayCount
     [[deprecated("Use field access instead!")]] uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
-    // Offset: 0x19D6974
+    // Offset: 0x19D04B8
     ovrMatchmakingCriterion(::StringW key, ::Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCriterion
   #pragma pack(pop)

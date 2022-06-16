@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<EnvironmentInfoSO,System.String> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::GlobalNamespace::EnvironmentInfoSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x136C560
+    // Offset: 0x1396AB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x136C5C4
+    // Offset: 0x1396B14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController::$$c*, creationType>()));
     }
     // System.String <SetData>b__12_0(EnvironmentInfoSO x)
-    // Offset: 0x136C5CC
+    // Offset: 0x1396B1C
     ::StringW $SetData$b__12_0(::GlobalNamespace::EnvironmentInfoSO* x);
   }; // EnvironmentOverrideSettingsPanelController/<>c
   #pragma pack(pop)

@@ -30,7 +30,7 @@ namespace UnityEngine {
   class SubsystemDescriptor : public ::Il2CppObject/*, public ::UnityEngine::ISubsystemDescriptor*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x105C808
+    // [DebuggerBrowsableAttribute] Offset: 0x105D300
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +42,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ISubsystemDescriptor
+    inline ::UnityEngine::ISubsystemDescriptor* i_ISubsystemDescriptor() noexcept {
+      return reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return id;
@@ -49,10 +53,10 @@ namespace UnityEngine {
     // Get instance field reference: private System.String <id>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$id$k__BackingField();
     // public System.String get_id()
-    // Offset: 0x2AE8E88
+    // Offset: 0x2ADFC5C
     ::StringW get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2AE8E90
+    // Offset: 0x2ADFC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubsystemDescriptor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SubsystemDescriptor::.ctor");

@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_Collider
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>* i_Test_Collider() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Collider*
     constexpr operator ::UnityEngine::Collider*() const noexcept {
       return self;
@@ -54,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Collider self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_self();
     // public System.Void .ctor(UnityEngine.Collider self)
-    // Offset: 0x1A1BCB4
+    // Offset: 0x1A157F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Collider* New_ctor(::UnityEngine::Collider* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Collider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Collider*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x1A1BCE0
+    // Offset: 0x1A15824
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Collider other)
-    // Offset: 0x1A1BD50
+    // Offset: 0x1A15894
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
   }; // HoudiniEngineUnity.Test_Collider
   #pragma pack(pop)

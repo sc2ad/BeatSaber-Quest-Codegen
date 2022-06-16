@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: moveSensitivity and: transform
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x10E3768
+    // [NullAllowed] Offset: 0x10E65CC
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0x10E37A0
+    // [NullAllowed] Offset: 0x10E6604
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x28
@@ -85,35 +85,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: cameraFov and: centerAdjust
     char __padding3[0x4] = {};
-    // [NullAllowed] Offset: 0x10E37E8
+    // [NullAllowed] Offset: 0x10E664C
     // private VRCenterAdjust _centerAdjust
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::VRCenterAdjust* centerAdjust;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRCenterAdjust*) == 0x8);
-    // [NullAllowed] Offset: 0x10E3820
+    // [NullAllowed] Offset: 0x10E6684
     // private VRController _controller0
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::VRController* controller0;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x10E3858
+    // [NullAllowed] Offset: 0x10E66BC
     // private VRController _controller1
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::VRController* controller1;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRController*) == 0x8);
-    // [NullAllowed] Offset: 0x10E3890
+    // [NullAllowed] Offset: 0x10E66F4
     // private VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x50
     ::VRUIControls::VRInputModule* vrInputModule;
     // Field size check
     static_assert(sizeof(::VRUIControls::VRInputModule*) == 0x8);
-    // [NullAllowed] Offset: 0x10E38C8
+    // [NullAllowed] Offset: 0x10E672C
     // private UnityEngine.GameObject[] _controllerModels
     // Size: 0x8
     // Offset: 0x58
@@ -168,29 +168,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _cameraTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__cameraTransform();
     // public System.Void .ctor()
-    // Offset: 0x1377390
+    // Offset: 0x13A1A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FirstPersonFlyingController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FirstPersonFlyingController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FirstPersonFlyingController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1376A58
+    // Offset: 0x13A1104
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1376A64
+    // Offset: 0x13A1110
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1376C68
+    // Offset: 0x13A1314
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1376D04
+    // Offset: 0x13A13B0
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x1376D9C
+    // Offset: 0x13A1448
     void Update();
     // public System.Void Inject(UnityEngine.Camera camera, VRCenterAdjust centerAdjust, VRController controller0, VRController controller1, VRUIControls.VRInputModule vrInputModule, System.Boolean shouldBeEnabled)
-    // Offset: 0x1377248
+    // Offset: 0x13A18F4
     void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1, ::VRUIControls::VRInputModule* vrInputModule, bool shouldBeEnabled);
   }; // FirstPersonFlyingController
   #pragma pack(pop)

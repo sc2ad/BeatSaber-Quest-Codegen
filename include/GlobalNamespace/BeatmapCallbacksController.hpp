@@ -107,6 +107,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> _callbacksInTimes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>*& dyn__callbacksInTimes();
     // Get instance field reference: private readonly IReadonlyBeatmapData _beatmapData
@@ -122,26 +126,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _processingCallbacks
     [[deprecated("Use field access instead!")]] bool& dyn__processingCallbacks();
     // public System.Boolean get_sendCallbacksOnBeatmapDataChange()
-    // Offset: 0x134BE6C
+    // Offset: 0x134EE2C
     bool get_sendCallbacksOnBeatmapDataChange();
     // public System.Void set_sendCallbacksOnBeatmapDataChange(System.Boolean value)
-    // Offset: 0x134BE74
+    // Offset: 0x134EE34
     void set_sendCallbacksOnBeatmapDataChange(bool value);
     // public System.Single get_songTime()
-    // Offset: 0x134BE80
+    // Offset: 0x134EE40
     float get_songTime();
     // public System.Void .ctor(BeatmapCallbacksController/InitData initData)
-    // Offset: 0x134BE88
+    // Offset: 0x134EE48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksController* New_ctor(::GlobalNamespace::BeatmapCallbacksController::InitData* initData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbacksController*, creationType>(initData)));
     }
     // public System.Void Dispose()
-    // Offset: 0x134C10C
+    // Offset: 0x134F0CC
     void Dispose();
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x134C354
+    // Offset: 0x134F314
     void ManualUpdate(float songTime);
     // public BeatmapDataCallbackWrapper AddBeatmapCallback(System.Single aheadTime, BeatmapDataCallback`1<T> callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -184,19 +188,19 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::BeatmapDataCallbackWrapper*, false>(this, ___generic__method, aheadTime, callback, beatmapDataSubtypeIdentifiers);
     }
     // public System.Void RemoveBeatmapCallback(BeatmapDataCallbackWrapper callbackWrapper)
-    // Offset: 0x13449C8
+    // Offset: 0x1347988
     void RemoveBeatmapCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
     // public System.Void TriggerBeatmapEvent(BeatmapEventData beatmapEventData)
-    // Offset: 0x134C724
+    // Offset: 0x134F6E4
     void TriggerBeatmapEvent(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapEventDataWasInserted(BeatmapEventData beatmapEventData, System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> node)
-    // Offset: 0x134C834
+    // Offset: 0x134F7F4
     void HandleBeatmapEventDataWasInserted(::GlobalNamespace::BeatmapEventData* beatmapEventData, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
     // private System.Void HandleBeatmapEventDataWillBeRemoved(BeatmapEventData beatmapEventDataToRemove, System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToRemove)
-    // Offset: 0x134CB98
+    // Offset: 0x134FB58
     void HandleBeatmapEventDataWillBeRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventDataToRemove, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToRemove);
     // private System.Void HandleBeatmapEventDataWasRemoved(BeatmapEventData beatmapEventData)
-    // Offset: 0x134CD9C
+    // Offset: 0x134FD5C
     void HandleBeatmapEventDataWasRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventData);
   }; // BeatmapCallbacksController
   #pragma pack(pop)

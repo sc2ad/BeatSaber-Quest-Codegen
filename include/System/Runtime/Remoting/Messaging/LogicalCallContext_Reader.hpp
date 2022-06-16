@@ -36,6 +36,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::LogicalCallContext*
     constexpr operator ::System::Runtime::Remoting::Messaging::LogicalCallContext*() const noexcept {
       return m_ctx;
@@ -43,19 +47,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1C87444
+    // Offset: 0x1C7A118
     bool get_IsNull();
     // public System.Boolean get_HasInfo()
-    // Offset: 0x1C87454
+    // Offset: 0x1C7A128
     bool get_HasInfo();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
-    // Offset: 0x1C8743C
+    // Offset: 0x1C7A110
     // ABORTED: conflicts with another method.  Reader(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // public System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
-    // Offset: 0x1C87464
+    // Offset: 0x1C7A138
     ::System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C82EC4
+    // Offset: 0x1C75B98
     ::Il2CppObject* GetData(::StringW name);
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

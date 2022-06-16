@@ -46,6 +46,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // public System.Boolean get_IsValid()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsValid();
@@ -62,7 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // protected System.Void .ctor()
-    // Offset: 0x1BF6B4C
+    // Offset: 0x1BEA820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImpl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImpl::.ctor");
@@ -75,13 +79,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x1BF5CA8
+    // Offset: 0x1BE997C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1BF6AD4
+    // Offset: 0x1BEA7A8
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x1BF6AD8
+    // Offset: 0x1BEA7AC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

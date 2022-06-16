@@ -102,6 +102,10 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Net.Http.Headers.HttpResponseHeaders headers
     [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
     // Get instance field reference: private System.String reasonPhrase
@@ -117,53 +121,53 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.HttpRequestMessage <RequestMessage>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpRequestMessage*& dyn_$RequestMessage$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x199FD74
+    // Offset: 0x199B8B8
     ::System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x199FD7C
+    // Offset: 0x199B8C0
     void set_Content(::System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpResponseHeaders get_Headers()
-    // Offset: 0x199D1A0
+    // Offset: 0x1998CE4
     ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
     // public System.Boolean get_IsSuccessStatusCode()
-    // Offset: 0x199FD84
+    // Offset: 0x199B8C8
     bool get_IsSuccessStatusCode();
     // public System.String get_ReasonPhrase()
-    // Offset: 0x199FD98
+    // Offset: 0x199B8DC
     ::StringW get_ReasonPhrase();
     // public System.Void set_ReasonPhrase(System.String value)
-    // Offset: 0x199FDB4
+    // Offset: 0x199B8F8
     void set_ReasonPhrase(::StringW value);
     // public System.Void set_RequestMessage(System.Net.Http.HttpRequestMessage value)
-    // Offset: 0x199FDBC
+    // Offset: 0x199B900
     void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
     // public System.Net.HttpStatusCode get_StatusCode()
-    // Offset: 0x199FDC4
+    // Offset: 0x199B908
     ::System::Net::HttpStatusCode get_StatusCode();
     // public System.Void set_StatusCode(System.Net.HttpStatusCode value)
-    // Offset: 0x199FCF0
+    // Offset: 0x199B834
     void set_StatusCode(::System::Net::HttpStatusCode value);
     // public System.Version get_Version()
-    // Offset: 0x199FDCC
+    // Offset: 0x199B910
     ::System::Version* get_Version();
     // public System.Void .ctor(System.Net.HttpStatusCode statusCode)
-    // Offset: 0x199D144
+    // Offset: 0x1998C88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpResponseMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpResponseMessage*, creationType>(statusCode)));
     }
     // public System.Void Dispose()
-    // Offset: 0x199FE40
+    // Offset: 0x199B984
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x199FE50
+    // Offset: 0x199B994
     void Dispose(bool disposing);
     // public System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
-    // Offset: 0x199BE9C
+    // Offset: 0x19979E0
     ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
     // public override System.String ToString()
-    // Offset: 0x199FE84
+    // Offset: 0x199B9C8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

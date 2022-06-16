@@ -26,7 +26,7 @@ namespace System::ComponentModel {
   class TypeDescriptionProvider::EmptyCustomTypeDescriptor : public ::System::ComponentModel::CustomTypeDescriptor {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1DA5820
+    // Offset: 0x1D994F4
     // Implemented from: System.ComponentModel.CustomTypeDescriptor
     // Base method: System.Void CustomTypeDescriptor::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

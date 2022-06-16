@@ -37,6 +37,10 @@ namespace System::Xml::Schema {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -47,21 +51,21 @@ namespace System::Xml::Schema {
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_None();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing None
     static void _set_None(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103B21C
+    // [XmlEnumAttribute] Offset: 0x103BD14
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static constexpr const int Skip = 1;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_Skip();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static void _set_Skip(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103B254
+    // [XmlEnumAttribute] Offset: 0x103BD4C
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static constexpr const int Lax = 2;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_Lax();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static void _set_Lax(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103B28C
+    // [XmlEnumAttribute] Offset: 0x103BD84
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Strict
     static constexpr const int Strict = 3;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Strict

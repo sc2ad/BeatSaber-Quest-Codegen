@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_HAPI_GeoInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>* i_Test_HAPI_GeoInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*>(this);
+    }
     // Creating conversion operator: operator ::HoudiniEngineUnity::HAPI_GeoInfo
     constexpr operator ::HoudiniEngineUnity::HAPI_GeoInfo() const noexcept {
       return self;
@@ -49,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoInfo self
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_GeoInfo& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_GeoInfo self)
-    // Offset: 0x1A1C9F8
+    // Offset: 0x1A1653C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_GeoInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_GeoInfo*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_GeoInfo other)
-    // Offset: 0x1A1CA30
+    // Offset: 0x1A16574
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
   }; // HoudiniEngineUnity.Test_HAPI_GeoInfo
   #pragma pack(pop)

@@ -48,6 +48,10 @@ namespace Zenject {
     operator ::Zenject::IPrefabProvider() noexcept {
       return *reinterpret_cast<::Zenject::IPrefabProvider*>(this);
     }
+    // Creating interface conversion operator: i_IPrefabProvider
+    inline ::Zenject::IPrefabProvider* i_IPrefabProvider() noexcept {
+      return reinterpret_cast<::Zenject::IPrefabProvider*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Object*
     constexpr operator ::UnityEngine::Object*() const noexcept {
       return prefab;
@@ -55,14 +59,14 @@ namespace Zenject {
     // Get instance field reference: private readonly UnityEngine.Object _prefab
     [[deprecated("Use field access instead!")]] ::UnityEngine::Object*& dyn__prefab();
     // public System.Void .ctor(UnityEngine.Object prefab)
-    // Offset: 0x1C186AC
+    // Offset: 0x1C0C380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabProvider* New_ctor(::UnityEngine::Object* prefab) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabProvider*, creationType>(prefab)));
     }
     // public UnityEngine.Object GetPrefab()
-    // Offset: 0x1C1A28C
+    // Offset: 0x1C0DF60
     ::UnityEngine::Object* GetPrefab();
   }; // Zenject.PrefabProvider
   #pragma pack(pop)

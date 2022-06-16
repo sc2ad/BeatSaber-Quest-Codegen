@@ -38,6 +38,10 @@ namespace System::Security::Authentication {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -66,14 +70,14 @@ namespace System::Security::Authentication {
     static ::System::Security::Authentication::SslProtocols _get_Tls();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls
     static void _set_Tls(::System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0x103DD08
+    // [MonoTODOAttribute] Offset: 0x103E800
     // static field const value: static public System.Security.Authentication.SslProtocols Tls11
     static constexpr const int Tls11 = 768;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls11
     static ::System::Security::Authentication::SslProtocols _get_Tls11();
     // Set static field: static public System.Security.Authentication.SslProtocols Tls11
     static void _set_Tls11(::System::Security::Authentication::SslProtocols value);
-    // [MonoTODOAttribute] Offset: 0x103DD40
+    // [MonoTODOAttribute] Offset: 0x103E838
     // static field const value: static public System.Security.Authentication.SslProtocols Tls12
     static constexpr const int Tls12 = 3072;
     // Get static field: static public System.Security.Authentication.SslProtocols Tls12

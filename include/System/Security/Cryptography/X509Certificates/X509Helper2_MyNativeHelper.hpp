@@ -38,15 +38,19 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::Security::Cryptography::X509Certificates::INativeCertificateHelper() noexcept {
       return *reinterpret_cast<::System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
     }
+    // Creating interface conversion operator: i_INativeCertificateHelper
+    inline ::System::Security::Cryptography::X509Certificates::INativeCertificateHelper* i_INativeCertificateHelper() noexcept {
+      return reinterpret_cast<::System::Security::Cryptography::X509Certificates::INativeCertificateHelper*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1BFB2C4
+    // Offset: 0x1BEEF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Helper2::MyNativeHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Helper2::MyNativeHelper*, creationType>()));
     }
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1BFB35C
+    // Offset: 0x1BEF030
     ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
   }; // System.Security.Cryptography.X509Certificates.X509Helper2/System.Security.Cryptography.X509Certificates.MyNativeHelper
   #pragma pack(pop)

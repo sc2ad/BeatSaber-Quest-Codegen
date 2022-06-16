@@ -66,6 +66,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelPackCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelPackCollection
+    inline ::GlobalNamespace::IBeatmapLevelPackCollection* i_IBeatmapLevelPackCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPackCollection*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackSO[] _beatmapLevelPacks
@@ -75,17 +79,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x1507A24
+    // Offset: 0x1508B6C
     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x1507BA8
+    // Offset: 0x1508CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackCollectionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelPackCollectionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollectionSO*, creationType>()));
     }
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x1507A54
+    // Offset: 0x1508B9C
     void LoadAllBeatmapLevelPacks();
   }; // BeatmapLevelPackCollectionSO
   #pragma pack(pop)

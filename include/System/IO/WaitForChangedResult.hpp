@@ -61,6 +61,10 @@ namespace System::IO {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
     [[deprecated("Use field access instead!")]] ::System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String name
@@ -70,13 +74,13 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean timedOut
     [[deprecated("Use field access instead!")]] bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0x1CF41EC
+    // Offset: 0x1CE6EC0
     void set_ChangeType(::System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1CF41F4
+    // Offset: 0x1CE6EC8
     void set_Name(::StringW value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0x1CF41FC
+    // Offset: 0x1CE6ED0
     void set_OldName(::StringW value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

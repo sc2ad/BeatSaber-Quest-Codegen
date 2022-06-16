@@ -31,8 +31,12 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::LocalNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::LocalNetworkPlayerModel*>*>(this);
     }
+    // Creating interface conversion operator: i_LocalNetworkPlayerModel
+    inline ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::LocalNetworkPlayerModel*>* i_LocalNetworkPlayerModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::LocalNetworkPlayerModel*>*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1566430
+    // Offset: 0x153A494
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -79,9 +79,17 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
     // Get instance field reference: public PlayerStateHash playerState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerStateHash& dyn_playerState();
@@ -92,26 +100,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicEncryptionKey
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicEncryptionKey();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerIdentityPacket> get_pool()
-    // Offset: 0x16738B0
+    // Offset: 0x16723D4
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x1674628
+    // Offset: 0x167314C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerIdentityPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerIdentityPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16744C4
+    // Offset: 0x1672FE8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1674528
+    // Offset: 0x167304C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16745AC
+    // Offset: 0x16730D0
     void Release();
     // public ConnectedPlayerManager/PlayerIdentityPacket Init(PlayerStateHash states, MultiplayerAvatarData avatar, System.Byte[] random, System.Byte[] publicEncryptionKey)
-    // Offset: 0x16738F8
+    // Offset: 0x167241C
     ::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* Init(::GlobalNamespace::PlayerStateHash states, ::GlobalNamespace::MultiplayerAvatarData avatar, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicEncryptionKey);
   }; // ConnectedPlayerManager/PlayerIdentityPacket
   #pragma pack(pop)

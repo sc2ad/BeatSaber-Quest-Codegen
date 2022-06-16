@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IConnectedPlayer,System.Int32> <>9__102_0
     static void _set_$$9__102_0(::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x173DF5C
+    // Offset: 0x173AAA0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x173DFC0
+    // Offset: 0x173AB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSessionManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSessionManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager::$$c*, creationType>()));
     }
     // System.Int32 <TryUpdateConnectedPlayer>b__102_0(IConnectedPlayer p)
-    // Offset: 0x173DFC8
+    // Offset: 0x173AB0C
     int $TryUpdateConnectedPlayer$b__102_0(::GlobalNamespace::IConnectedPlayer* p);
   }; // MultiplayerSessionManager/<>c
   #pragma pack(pop)

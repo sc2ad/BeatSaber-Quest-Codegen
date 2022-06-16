@@ -69,6 +69,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly OVRPlugin/PoseStatef identity
     static ::GlobalNamespace::OVRPlugin::PoseStatef _get_identity();
     // Set static field: static public readonly OVRPlugin/PoseStatef identity
@@ -86,7 +90,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Double Time
     [[deprecated("Use field access instead!")]] double& dyn_Time();
     // static private System.Void .cctor()
-    // Offset: 0x1B1D8C0
+    // Offset: 0x1B15404
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

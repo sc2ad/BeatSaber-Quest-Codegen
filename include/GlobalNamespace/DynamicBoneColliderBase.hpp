@@ -54,6 +54,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -101,6 +105,10 @@ namespace GlobalNamespace {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -153,14 +161,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public DynamicBoneColliderBase/Bound m_Bound
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DynamicBoneColliderBase::Bound& dyn_m_Bound();
     // public System.Void .ctor()
-    // Offset: 0x2ACEFFC
+    // Offset: 0x2AC4DD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBoneColliderBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBoneColliderBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBoneColliderBase*, creationType>()));
     }
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x2ACF07C
+    // Offset: 0x2AC4E50
     void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float particleRadius);
   }; // DynamicBoneColliderBase
   #pragma pack(pop)

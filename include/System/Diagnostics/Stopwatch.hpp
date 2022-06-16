@@ -68,41 +68,41 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean is_running
     [[deprecated("Use field access instead!")]] bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x1CE875C
+    // Offset: 0x1CDB430
     ::System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x1CE88F8
+    // Offset: 0x1CDB5CC
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x1CE8878
+    // Offset: 0x1CDB54C
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1CE8A18
+    // Offset: 0x1CDB6EC
     bool get_IsRunning();
     // public System.Void .ctor()
-    // Offset: 0x1CE8754
+    // Offset: 0x1CDB428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stopwatch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Stopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CE8B9C
+    // Offset: 0x1CDB870
     static void _cctor();
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x1CE8750
+    // Offset: 0x1CDB424
     static int64_t GetTimestamp();
     // public System.Void Reset()
-    // Offset: 0x1CE8A20
+    // Offset: 0x1CDB6F4
     void Reset();
     // public System.Void Start()
-    // Offset: 0x1CE8A2C
+    // Offset: 0x1CDB700
     void Start();
     // public System.Void Stop()
-    // Offset: 0x1CE8AA4
+    // Offset: 0x1CDB778
     void Stop();
     // public System.Void Restart()
-    // Offset: 0x1CE8B2C
+    // Offset: 0x1CDB800
     void Restart();
   }; // System.Diagnostics.Stopwatch
   #pragma pack(pop)

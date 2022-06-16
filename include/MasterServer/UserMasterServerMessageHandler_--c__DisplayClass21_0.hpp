@@ -91,14 +91,14 @@ namespace MasterServer {
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onConnectionFailed
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
     // public System.Void .ctor()
-    // Offset: 0x172DE1C
+    // Offset: 0x172A960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageHandler::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageHandler::$$c__DisplayClass21_0*, creationType>()));
     }
     // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
-    // Offset: 0x172E080
+    // Offset: 0x172ABC4
     ::System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass21_0
   #pragma pack(pop)

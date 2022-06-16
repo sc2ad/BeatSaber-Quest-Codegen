@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerObservable
+    inline ::GlobalNamespace::IMultiplayerObservable* i_IMultiplayerObservable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::IConnectedPlayer*
     constexpr operator ::GlobalNamespace::IConnectedPlayer*() const noexcept {
       return connectedPlayer;
@@ -54,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x13D19A8
+    // Offset: 0x13D5250
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x13D1A5C
+    // Offset: 0x13D5304
     bool get_isFailed();
     // public System.Void .ctor(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13D197C
+    // Offset: 0x13D5224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObservable* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerObservable::.ctor");

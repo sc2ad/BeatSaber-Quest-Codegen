@@ -62,6 +62,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Single m_red
     [[deprecated("Use field access instead!")]] float& dyn_m_red();
     // Get instance field reference: private System.Single m_green
@@ -71,10 +75,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Get instance field reference: private System.Single m_intensity
     [[deprecated("Use field access instead!")]] float& dyn_m_intensity();
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Convert(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1F99F90
+    // Offset: 0x1F90C64
     static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float intensity);
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor Black()
-    // Offset: 0x1F9B258
+    // Offset: 0x1F91F2C
     static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
   }; // UnityEngine.Experimental.GlobalIllumination.LinearColor
   #pragma pack(pop)

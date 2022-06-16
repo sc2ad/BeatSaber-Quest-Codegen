@@ -91,6 +91,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
@@ -104,29 +108,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$uwr$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1381DD4
+    // Offset: 0x13828E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1381E3C
+    // Offset: 0x1382950
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1381988
+    // Offset: 0x138249C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTextureLoader::$LoadTextureCoroutine$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextureLoader::$LoadTextureCoroutine$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1381A2C
+    // Offset: 0x1382540
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1381B08
+    // Offset: 0x138261C
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1381A48
+    // Offset: 0x138255C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1381DDC
+    // Offset: 0x13828F0
     void System_Collections_IEnumerator_Reset();
   }; // SimpleTextureLoader/<LoadTextureCoroutine>d__2
   #pragma pack(pop)

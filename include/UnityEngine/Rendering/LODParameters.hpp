@@ -66,9 +66,17 @@ namespace UnityEngine::Rendering {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>
     operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(this);
+    }
+    // Creating interface conversion operator: i_LODParameters
+    inline ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* i_LODParameters() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*>(this);
     }
     // Get instance field reference: private System.Int32 m_IsOrthographic
     [[deprecated("Use field access instead!")]] int& dyn_m_IsOrthographic();
@@ -81,15 +89,15 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 m_CameraPixelHeight
     [[deprecated("Use field access instead!")]] int& dyn_m_CameraPixelHeight();
     // public System.Boolean Equals(UnityEngine.Rendering.LODParameters other)
-    // Offset: 0x2115474
+    // Offset: 0x210F038
     bool Equals(::UnityEngine::Rendering::LODParameters other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x21154FC
+    // Offset: 0x210F0C0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x211559C
+    // Offset: 0x210F160
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

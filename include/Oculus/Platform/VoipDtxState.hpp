@@ -37,25 +37,29 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C6070
+    // [DescriptionAttribute] Offset: 0x10C7B88
     // static field const value: static public Oculus.Platform.VoipDtxState Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipDtxState Unknown
     static ::Oculus::Platform::VoipDtxState _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipDtxState Unknown
     static void _set_Unknown(::Oculus::Platform::VoipDtxState value);
-    // [DescriptionAttribute] Offset: 0x10C60A8
+    // [DescriptionAttribute] Offset: 0x10C7BC0
     // static field const value: static public Oculus.Platform.VoipDtxState Enabled
     static constexpr const int Enabled = 1;
     // Get static field: static public Oculus.Platform.VoipDtxState Enabled
     static ::Oculus::Platform::VoipDtxState _get_Enabled();
     // Set static field: static public Oculus.Platform.VoipDtxState Enabled
     static void _set_Enabled(::Oculus::Platform::VoipDtxState value);
-    // [DescriptionAttribute] Offset: 0x10C60E0
+    // [DescriptionAttribute] Offset: 0x10C7BF8
     // static field const value: static public Oculus.Platform.VoipDtxState Disabled
     static constexpr const int Disabled = 2;
     // Get static field: static public Oculus.Platform.VoipDtxState Disabled

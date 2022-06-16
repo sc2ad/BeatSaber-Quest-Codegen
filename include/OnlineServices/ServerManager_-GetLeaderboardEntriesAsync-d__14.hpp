@@ -85,9 +85,17 @@ namespace OnlineServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
     operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    }
+    // Creating interface conversion operator: i_IAsyncStateMachine
+    inline ::System::Runtime::CompilerServices::IAsyncStateMachine* i_IAsyncStateMachine() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
@@ -104,10 +112,10 @@ namespace OnlineServices {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.GetLeaderboardEntriesResult> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::GetLeaderboardEntriesResult>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x1358EF8
+    // Offset: 0x135AEA8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1359264
+    // Offset: 0x135B214
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.ServerManager/OnlineServices.<GetLeaderboardEntriesAsync>d__14
   // WARNING Not writing size check since size may be invalid!

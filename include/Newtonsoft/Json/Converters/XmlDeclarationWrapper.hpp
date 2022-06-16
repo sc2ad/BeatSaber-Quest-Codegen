@@ -50,6 +50,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
     }
+    // Creating interface conversion operator: i_IXmlDeclaration
+    inline ::Newtonsoft::Json::Converters::IXmlDeclaration* i_IXmlDeclaration() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
+    }
     // Creating conversion operator: operator ::System::Xml::XmlDeclaration*
     constexpr operator ::System::Xml::XmlDeclaration*() const noexcept {
       return declaration;
@@ -57,16 +61,16 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private readonly System.Xml.XmlDeclaration _declaration
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlDeclaration*& dyn__declaration();
     // public System.String get_Version()
-    // Offset: 0x17BA598
+    // Offset: 0x17B70DC
     ::StringW get_Version();
     // public System.String get_Encoding()
-    // Offset: 0x17BA5B4
+    // Offset: 0x17B70F8
     ::StringW get_Encoding();
     // public System.String get_Standalone()
-    // Offset: 0x17BA5D0
+    // Offset: 0x17B7114
     ::StringW get_Standalone();
     // public System.Void .ctor(System.Xml.XmlDeclaration declaration)
-    // Offset: 0x17BA53C
+    // Offset: 0x17B7080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDeclarationWrapper::.ctor");

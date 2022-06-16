@@ -47,38 +47,38 @@ namespace System::Xml {
     // Get instance field reference: private System.String data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.String get_Data()
-    // Offset: 0x1BAFD64
+    // Offset: 0x1BBB7EC
     ::StringW get_Data();
     // public System.Void set_Data(System.String value)
-    // Offset: 0x1BAFDC0
+    // Offset: 0x1BBB848
     void set_Data(::StringW value);
     // protected internal System.Void .ctor(System.String data, System.Xml.XmlDocument doc)
-    // Offset: 0x1BAF1E8
+    // Offset: 0x1BBAC70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlCharacterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlCharacterData*, creationType>(data, doc)));
     }
     // System.Boolean CheckOnData(System.String data)
-    // Offset: 0x1BAFE70
+    // Offset: 0x1BBB8F8
     bool CheckOnData(::StringW data);
     // public override System.String get_Value()
-    // Offset: 0x1BAFD2C
+    // Offset: 0x1BBB7B4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x1BAFD3C
+    // Offset: 0x1BBB7C4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.String get_InnerText()
-    // Offset: 0x1BAFD4C
+    // Offset: 0x1BBB7D4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x1BAFD58
+    // Offset: 0x1BBB7E0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);

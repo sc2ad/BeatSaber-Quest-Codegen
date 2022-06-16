@@ -44,9 +44,17 @@ namespace Zenject {
     operator ::Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(this);
     }
+    // Creating interface conversion operator: i_IFactory_6_TParam1_TParam2_TParam3_TParam4_TParam5_TValue
+    inline ::Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* i_IFactory_6_TParam1_TParam2_TParam3_TParam4_TParam5_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
     operator ::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(this);
+    }
+    // Creating interface conversion operator: i_IMemoryPool_6_TParam1_TParam2_TParam3_TParam4_TParam5_TValue
+    inline ::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* i_IMemoryPool_6_TParam1_TParam2_TParam3_TParam4_TParam5_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(this);
     }
     // public TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5)
     // Offset: 0xFFFFFFFFFFFFFFFF

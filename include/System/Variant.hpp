@@ -159,6 +159,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int16 vt
     [[deprecated("Use field access instead!")]] int16_t& dyn_vt();
     // Get instance field reference: public System.UInt16 wReserved1
@@ -200,7 +204,7 @@ namespace System {
     // Get instance field reference: public System.BRECORD bRecord
     [[deprecated("Use field access instead!")]] ::System::BRECORD& dyn_bRecord();
     // public System.Void Clear()
-    // Offset: 0x29D97BC
+    // Offset: 0x29D7974
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

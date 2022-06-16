@@ -105,38 +105,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     [[deprecated("Use field access instead!")]] bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E7B9C0
+    // Offset: 0x1E72694
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E7BA64
+    // Offset: 0x1E72738
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1E7C640
+    // Offset: 0x1E73314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1E7BB08
+    // Offset: 0x1E727DC
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E7BD10
+    // Offset: 0x1E729E4
     void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E7C0D4
+    // Offset: 0x1E72DA8
     void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1E7C2B8
+    // Offset: 0x1E72F8C
     void SetColorForId(int lightId, ::UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
-    // Offset: 0x1E7C4F0
+    // Offset: 0x1E731C4
     ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
     // public System.Boolean IsColorSetForId(System.Int32 lightId)
-    // Offset: 0x1E7C5BC
+    // Offset: 0x1E73290
     bool IsColorSetForId(int lightId);
     // public System.Collections.Generic.List`1<ILightWithId>[] GetLightsArray()
-    // Offset: 0x1E7C638
+    // Offset: 0x1E7330C
     ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> GetLightsArray();
   }; // LightWithIdManager
   #pragma pack(pop)

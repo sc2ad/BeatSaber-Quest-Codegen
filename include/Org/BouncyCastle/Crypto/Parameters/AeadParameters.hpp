@@ -62,6 +62,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Creating interface conversion operator: i_ICipherParameters
+    inline ::Org::BouncyCastle::Crypto::ICipherParameters* i_ICipherParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
+    }
     // Get instance field reference: private readonly System.Byte[] associatedText
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_associatedText();
     // Get instance field reference: private readonly System.Byte[] nonce
@@ -71,16 +75,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 macSize
     [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x15F2F3C
+    // Offset: 0x15F2A60
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0x15F2F44
+    // Offset: 0x15F2A68
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x15F2F4C
+    // Offset: 0x15F2A70
     ::ArrayW<uint8_t> GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0x15F2F54
+    // Offset: 0x15F2A78
     ::ArrayW<uint8_t> GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
   #pragma pack(pop)

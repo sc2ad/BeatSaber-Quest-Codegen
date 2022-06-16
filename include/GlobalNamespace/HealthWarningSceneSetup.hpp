@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class HealthWarningSceneSetup : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E501C
+    // [InjectAttribute] Offset: 0x10E7EC0
     // private readonly HealthWarningSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HealthWarningSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x13AC9E4
+    // Offset: 0x136DEAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13AC85C
+    // Offset: 0x136DD24
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

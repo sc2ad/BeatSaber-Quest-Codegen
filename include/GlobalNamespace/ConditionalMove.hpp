@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _activateOnFalse
     [[deprecated("Use field access instead!")]] bool& dyn__activateOnFalse();
     // public System.Void .ctor()
-    // Offset: 0x1424F90
+    // Offset: 0x13FEF04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalMove* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalMove::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalMove*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1424E6C
+    // Offset: 0x13FEDE0
     void Awake();
   }; // ConditionalMove
   #pragma pack(pop)

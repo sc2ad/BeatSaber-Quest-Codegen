@@ -59,9 +59,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerDidInitEvent
+    inline ::GlobalNamespace::INoteControllerDidInitEvent* i_INoteControllerDidInitEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
     operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteDidStartDissolvingEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i_INoteControllerNoteDidStartDissolvingEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
@@ -70,26 +78,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // public System.Void .ctor()
-    // Offset: 0x1348AB8
+    // Offset: 0x134BA78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNoteVisuals* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNoteVisuals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseNoteVisuals*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x134877C
+    // Offset: 0x134B73C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13488CC
+    // Offset: 0x134B88C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x1348A64
+    // Offset: 0x134BA24
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x1348A80
+    // Offset: 0x134BA40
     void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1348A90
+    // Offset: 0x134BA50
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // BaseNoteVisuals
   #pragma pack(pop)

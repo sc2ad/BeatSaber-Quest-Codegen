@@ -87,6 +87,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Byte cNewInput0
     [[deprecated("Use field access instead!")]] uint8_t& dyn_cNewInput0();
     // Get instance field reference: public System.Byte cNewInput1
@@ -106,7 +110,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.UInt64 uUserValue
     [[deprecated("Use field access instead!")]] uint64_t& dyn_uUserValue();
     // public System.String get_cNewInput()
-    // Offset: 0x164FBB8
+    // Offset: 0x164F6DC
     ::StringW get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
   #pragma pack(pop)

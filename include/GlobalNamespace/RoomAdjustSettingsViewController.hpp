@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E1F9C
+    // [SpaceAttribute] Offset: 0x10E4E00
     // private StepValuePicker _xStepValuePicker
     // Size: 0x8
     // Offset: 0x80
@@ -126,53 +126,53 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _resetButton
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__resetButton();
     // public System.Void .ctor()
-    // Offset: 0x1458EE0
+    // Offset: 0x147ED88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomAdjustSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RoomAdjustSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomAdjustSettingsViewController*, creationType>()));
     }
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0x1458CD8
+    // Offset: 0x147EB80
     void Move(::UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0x1458DA8
+    // Offset: 0x147EC50
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0x1458E2C
+    // Offset: 0x147ECD4
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0x1458B5C
+    // Offset: 0x147EA04
     void RefreshTexts();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x1458EE8
+    // Offset: 0x147ED90
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x1458F40
+    // Offset: 0x147EDE8
     void $DidActivate$b__10_1();
     // private System.Void <DidActivate>b__10_2()
-    // Offset: 0x1458F98
+    // Offset: 0x147EE40
     void $DidActivate$b__10_2();
     // private System.Void <DidActivate>b__10_3()
-    // Offset: 0x1458FF0
+    // Offset: 0x147EE98
     void $DidActivate$b__10_3();
     // private System.Void <DidActivate>b__10_4()
-    // Offset: 0x1459048
+    // Offset: 0x147EEF0
     void $DidActivate$b__10_4();
     // private System.Void <DidActivate>b__10_5()
-    // Offset: 0x14590A0
+    // Offset: 0x147EF48
     void $DidActivate$b__10_5();
     // private System.Void <DidActivate>b__10_6()
-    // Offset: 0x14590F8
+    // Offset: 0x147EFA0
     void $DidActivate$b__10_6();
     // private System.Void <DidActivate>b__10_7()
-    // Offset: 0x1459100
+    // Offset: 0x147EFA8
     void $DidActivate$b__10_7();
     // private System.Void <DidActivate>b__10_8()
-    // Offset: 0x1459108
+    // Offset: 0x147EFB0
     void $DidActivate$b__10_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14588D8
+    // Offset: 0x147E780
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

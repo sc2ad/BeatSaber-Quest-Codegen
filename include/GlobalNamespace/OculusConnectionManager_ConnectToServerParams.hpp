@@ -50,12 +50,16 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_OculusConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>* i_OculusConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::OculusConnectionManager*>*>(this);
+    }
     // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
     // Get instance field reference: public System.UInt64 serverId
     [[deprecated("Use field access instead!")]] uint64_t& dyn_serverId();
     // public System.Void .ctor()
-    // Offset: 0x1544FB0
+    // Offset: 0x155B5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::ConnectToServerParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::ConnectToServerParams::.ctor");

@@ -45,14 +45,14 @@ namespace NUnit::Framework {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2A15F94
+    // Offset: 0x2A1214C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultStateException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::ResultStateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultStateException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A1600C
+    // Offset: 0x2A121C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultStateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::ResultStateException::.ctor");

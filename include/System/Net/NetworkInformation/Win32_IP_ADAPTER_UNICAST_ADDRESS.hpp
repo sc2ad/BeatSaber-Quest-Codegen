@@ -106,6 +106,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32LengthFlagsUnion& dyn_LengthFlags();
     // Get instance field reference: public System.IntPtr Next

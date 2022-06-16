@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_Gradient
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>* i_Test_Gradient() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::Gradient*
     constexpr operator ::UnityEngine::Gradient*() const noexcept {
       return self;
@@ -54,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Gradient self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn_self();
     // public System.Void .ctor(UnityEngine.Gradient self)
-    // Offset: 0x1A1C0D0
+    // Offset: 0x1A15C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Gradient* New_ctor(::UnityEngine::Gradient* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Gradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Gradient*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x1A1C0FC
+    // Offset: 0x1A15C40
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Gradient other)
-    // Offset: 0x1A1C10C
+    // Offset: 0x1A15C50
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
   }; // HoudiniEngineUnity.Test_Gradient
   #pragma pack(pop)

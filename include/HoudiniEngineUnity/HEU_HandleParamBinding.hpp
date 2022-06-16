@@ -54,6 +54,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -120,6 +124,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_HandleParamBinding
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>* i_HEU_HandleParamBinding() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
+    }
     // Get instance field reference: public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType _paramType
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamType& dyn__paramType();
     // Get instance field reference: public System.Int32 _parmID
@@ -131,14 +139,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean[] _boundChannels
     [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__boundChannels();
     // public System.Void .ctor()
-    // Offset: 0x191A16C
+    // Offset: 0x1915CB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HandleParamBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HandleParamBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HandleParamBinding*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
-    // Offset: 0x191B254
+    // Offset: 0x1916D98
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
   }; // HoudiniEngineUnity.HEU_HandleParamBinding
   #pragma pack(pop)

@@ -68,17 +68,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action <>9__1
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1383830
+    // Offset: 0x1384344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, creationType>()));
     }
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
-    // Offset: 0x1383CC8
+    // Offset: 0x13847DC
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);
     // System.Void <StartLevelOrShow360Prompt>b__1()
-    // Offset: 0x1383D60
+    // Offset: 0x1384874
     void $StartLevelOrShow360Prompt$b__1();
   }; // SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0
   #pragma pack(pop)

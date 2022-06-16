@@ -44,6 +44,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int32 dataOffset
     [[deprecated("Use field access instead!")]] int& dyn_dataOffset();
     // Get instance field reference: public System.Int32[] entries

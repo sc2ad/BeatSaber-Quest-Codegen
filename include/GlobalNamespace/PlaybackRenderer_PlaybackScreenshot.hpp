@@ -63,6 +63,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -136,35 +140,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _backgroundColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__backgroundColor();
     // public System.String get_name()
-    // Offset: 0x1366B28
+    // Offset: 0x1368AC0
     ::StringW get_name();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x1366B30
+    // Offset: 0x1368AC8
     ::UnityEngine::RenderTexture* get_texture();
     // public UnityEngine.LayerMask get_layerMask()
-    // Offset: 0x1366B38
+    // Offset: 0x1368AD0
     ::UnityEngine::LayerMask get_layerMask();
     // public PlaybackRenderer/PlaybackScreenshot/Type get_type()
-    // Offset: 0x1366B40
+    // Offset: 0x1368AD8
     ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type get_type();
     // public System.String get_path()
-    // Offset: 0x1366B48
+    // Offset: 0x1368AE0
     ::StringW get_path();
     // public System.Void set_path(System.String value)
-    // Offset: 0x1366B50
+    // Offset: 0x1368AE8
     void set_path(::StringW value);
     // public UnityEngine.Color get_backgroundColor()
-    // Offset: 0x1366B58
+    // Offset: 0x1368AF0
     ::UnityEngine::Color get_backgroundColor();
     // public System.Void .ctor(System.String name, UnityEngine.LayerMask layerMask, PlaybackRenderer/PlaybackScreenshot/Type type, UnityEngine.Color backgroundColor)
-    // Offset: 0x1366B64
+    // Offset: 0x1368AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaybackRenderer::PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type type, ::UnityEngine::Color backgroundColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaybackRenderer::PlaybackScreenshot*, creationType>(name, layerMask, type, backgroundColor)));
     }
     // public System.Void CreateTexture(System.Int32 width, System.Int32 height)
-    // Offset: 0x136623C
+    // Offset: 0x13681D4
     void CreateTexture(int width, int height);
   }; // PlaybackRenderer/PlaybackScreenshot
   #pragma pack(pop)

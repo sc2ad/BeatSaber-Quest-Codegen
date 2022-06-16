@@ -59,7 +59,7 @@ namespace HMUI {
     float noInteractionAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10BF3DC
+    // [SpaceAttribute] Offset: 0x10C0EF4
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -84,14 +84,14 @@ namespace HMUI {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.CanvasGroup> _canvasGroupCache
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>*& dyn__canvasGroupCache();
     // public System.Void .ctor()
-    // Offset: 0x16B9A64
+    // Offset: 0x16B8588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractableTextMeshPro* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InteractableTextMeshPro::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractableTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x16B98CC
+    // Offset: 0x16B83F0
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();

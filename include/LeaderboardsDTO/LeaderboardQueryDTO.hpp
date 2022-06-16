@@ -52,6 +52,10 @@ namespace LeaderboardsDTO {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -127,7 +131,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
     [[deprecated("Use field access instead!")]] bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x13B33C4
+    // Offset: 0x137488C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardQueryDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LeaderboardQueryDTO::.ctor");

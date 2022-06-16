@@ -62,6 +62,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt32 eventType
     [[deprecated("Use field access instead!")]] uint& dyn_eventType();
     // Get instance field reference: public System.UInt32 trackedDeviceIndex
@@ -71,10 +75,10 @@ namespace Valve::VR {
     // Get instance field reference: public Valve.VR.VREvent_Data_t data
     [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0x2AA8168
+    // Offset: 0x2A9DF3C
     VREvent_t_Packed(::Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0x2AA81A8
+    // Offset: 0x2A9DF7C
     void Unpack(ByRef<::Valve::VR::VREvent_t> unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

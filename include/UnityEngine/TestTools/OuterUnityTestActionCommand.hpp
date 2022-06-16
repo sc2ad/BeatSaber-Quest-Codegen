@@ -73,23 +73,23 @@ namespace UnityEngine::TestTools {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.MethodInfo,System.Collections.Generic.List`1<UnityEngine.TestTools.IOuterUnityTestAction>> m_TestActionsCache
     static void _set_m_TestActionsCache(::System::Collections::Generic::Dictionary_2<::System::Reflection::MethodInfo*, ::System::Collections::Generic::List_1<::UnityEngine::TestTools::IOuterUnityTestAction*>*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x19789A8
+    // Offset: 0x19744EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OuterUnityTestActionCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::OuterUnityTestActionCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OuterUnityTestActionCommand*, creationType>(innerCommand)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1984BF8
+    // Offset: 0x198073C
     static void _cctor();
     // protected System.Collections.IEnumerator InvokeBefore(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x1984A64
+    // Offset: 0x19805A8
     ::System::Collections::IEnumerator* InvokeBefore(::UnityEngine::TestTools::IOuterUnityTestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x1984B20
+    // Offset: 0x1980664
     ::System::Collections::IEnumerator* InvokeAfter(::UnityEngine::TestTools::IOuterUnityTestAction* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x1984BE0
+    // Offset: 0x1980724
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);

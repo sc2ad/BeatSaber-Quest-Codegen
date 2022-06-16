@@ -74,6 +74,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_MasterServerConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>* i_MasterServerConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::MasterServerConnectionManager*>*>(this);
+    }
     // Get instance field reference: public DnsEndPoint masterServerEndPoint
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DnsEndPoint*& dyn_masterServerEndPoint();
     // Get instance field reference: public System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> authenticationTokenProviderTask
@@ -83,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // protected System.Void .ctor()
-    // Offset: 0x17322E4
+    // Offset: 0x172EE28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerConnectionManager::MasterServerConnectionManagerParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::.ctor");

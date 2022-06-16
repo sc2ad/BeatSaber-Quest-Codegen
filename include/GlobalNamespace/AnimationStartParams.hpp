@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Animation _animation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // public System.Void .ctor()
-    // Offset: 0x159B41C
+    // Offset: 0x159BF40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationStartParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnimationStartParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationStartParams*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x159B1C8
+    // Offset: 0x159BCEC
     void Start();
   }; // AnimationStartParams
   #pragma pack(pop)

@@ -106,6 +106,10 @@ namespace System::IO {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: private System.Object state
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_state();
     // Get instance field reference: private System.Boolean completed
@@ -125,26 +129,26 @@ namespace System::IO {
     // Get instance field reference: private System.AsyncCallback realcb
     [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_realcb();
     // public System.Object get_AsyncState()
-    // Offset: 0x1FB301C
+    // Offset: 0x1FF7FBC
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1FB3024
+    // Offset: 0x1FF7FC4
     bool get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1FB302C
+    // Offset: 0x1FF7FCC
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1FB3034
+    // Offset: 0x1FF7FD4
     bool get_IsCompleted();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1FB18A4
+    // Offset: 0x1FF6844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStreamAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x1FB2F80
+    // Offset: 0x1FF7F20
     static void CBWrapper(::System::IAsyncResult* ares);
   }; // System.IO.FileStreamAsyncResult
   #pragma pack(pop)

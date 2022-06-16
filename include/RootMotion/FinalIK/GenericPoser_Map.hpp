@@ -69,20 +69,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
-    // Offset: 0x2216500
+    // Offset: 0x220E0C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericPoser::Map* New_ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()
-    // Offset: 0x2216904
+    // Offset: 0x220E4C8
     void StoreDefaultState();
     // public System.Void FixTransform()
-    // Offset: 0x22168B8
+    // Offset: 0x220E47C
     void FixTransform();
     // public System.Void Update(System.Single localRotationWeight, System.Single localPositionWeight)
-    // Offset: 0x22166B0
+    // Offset: 0x220E274
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map
   #pragma pack(pop)

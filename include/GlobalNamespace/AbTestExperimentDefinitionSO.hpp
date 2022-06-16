@@ -59,6 +59,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -142,35 +146,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
-    // Offset: 0x14E65AC
+    // Offset: 0x14E8658
     float get_test1GroupSize();
     // public System.Single get_test2GroupSize()
-    // Offset: 0x14E65B4
+    // Offset: 0x14E8660
     float get_test2GroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x14E65BC
+    // Offset: 0x14E8668
     ::StringW get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x14E65C4
+    // Offset: 0x14E8670
     ::GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // public System.Void .ctor()
-    // Offset: 0x14E68C0
+    // Offset: 0x14E896C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbTestExperimentDefinitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AbTestExperimentDefinitionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbTestExperimentDefinitionSO*, creationType>()));
     }
     // private System.Void OnValidate()
-    // Offset: 0x14E65CC
+    // Offset: 0x14E8678
     void OnValidate();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x14E6688
+    // Offset: 0x14E8734
     void ComputeCurrentUserTreatment(::StringW userId);
     // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
-    // Offset: 0x14E68B8
+    // Offset: 0x14E8964
     void ForceSetTreatmentGroup(::GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
     // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x14E66AC
+    // Offset: 0x14E8758
     ::GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::StringW userId);
   }; // AbTestExperimentDefinitionSO
   #pragma pack(pop)

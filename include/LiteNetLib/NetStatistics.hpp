@@ -70,53 +70,53 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int64 _packetLoss
     [[deprecated("Use field access instead!")]] int64_t& dyn__packetLoss();
     // public System.Int64 get_PacketsSent()
-    // Offset: 0x21B9C0C
+    // Offset: 0x21B17D0
     int64_t get_PacketsSent();
     // public System.Int64 get_PacketsReceived()
-    // Offset: 0x21B9C18
+    // Offset: 0x21B17DC
     int64_t get_PacketsReceived();
     // public System.Int64 get_BytesSent()
-    // Offset: 0x21B9C24
+    // Offset: 0x21B17E8
     int64_t get_BytesSent();
     // public System.Int64 get_BytesReceived()
-    // Offset: 0x21B9C30
+    // Offset: 0x21B17F4
     int64_t get_BytesReceived();
     // public System.Int64 get_PacketLoss()
-    // Offset: 0x21B9C3C
+    // Offset: 0x21B1800
     int64_t get_PacketLoss();
     // public System.Int64 get_PacketLossPercent()
-    // Offset: 0x21B9C48
+    // Offset: 0x21B180C
     int64_t get_PacketLossPercent();
     // public System.Void .ctor()
-    // Offset: 0x21B14D8
+    // Offset: 0x21A909C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetStatistics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x21B9C98
+    // Offset: 0x21B185C
     void Reset();
     // public System.Void IncrementPacketsSent()
-    // Offset: 0x21B1E54
+    // Offset: 0x21A9A18
     void IncrementPacketsSent();
     // public System.Void IncrementPacketsReceived()
-    // Offset: 0x21B3ED0
+    // Offset: 0x21ABA94
     void IncrementPacketsReceived();
     // public System.Void AddBytesSent(System.Int64 bytesSent)
-    // Offset: 0x21B1E60
+    // Offset: 0x21A9A24
     void AddBytesSent(int64_t bytesSent);
     // public System.Void AddBytesReceived(System.Int64 bytesReceived)
-    // Offset: 0x21B3EDC
+    // Offset: 0x21ABAA0
     void AddBytesReceived(int64_t bytesReceived);
     // public System.Void IncrementPacketLoss()
-    // Offset: 0x21B9D00
+    // Offset: 0x21B18C4
     void IncrementPacketLoss();
     // public System.Void AddPacketLoss(System.Int64 packetLoss)
-    // Offset: 0x21B9D0C
+    // Offset: 0x21B18D0
     void AddPacketLoss(int64_t packetLoss);
     // public override System.String ToString()
-    // Offset: 0x21B9D18
+    // Offset: 0x21B18DC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

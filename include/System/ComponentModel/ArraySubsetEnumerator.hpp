@@ -59,6 +59,10 @@ namespace System::ComponentModel {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private System.Array array
     [[deprecated("Use field access instead!")]] ::System::Array*& dyn_array();
     // Get instance field reference: private System.Int32 total
@@ -66,20 +70,20 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 current
     [[deprecated("Use field access instead!")]] int& dyn_current();
     // public System.Object get_Current()
-    // Offset: 0x1D93E90
+    // Offset: 0x1D87B64
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Array array, System.Int32 count)
-    // Offset: 0x1D93E1C
+    // Offset: 0x1D87AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySubsetEnumerator* New_ctor(::System::Array* array, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArraySubsetEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySubsetEnumerator*, creationType>(array, count)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D93E5C
+    // Offset: 0x1D87B30
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D93E84
+    // Offset: 0x1D87B58
     void Reset();
   }; // System.ComponentModel.ArraySubsetEnumerator
   #pragma pack(pop)

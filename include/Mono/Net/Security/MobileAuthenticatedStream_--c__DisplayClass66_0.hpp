@@ -43,14 +43,14 @@ namespace Mono::Net::Security {
     // Get instance field reference: public System.Int32 len
     [[deprecated("Use field access instead!")]] int& dyn_len();
     // public System.Void .ctor()
-    // Offset: 0x1ADA824
+    // Offset: 0x1AD2368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream::$$c__DisplayClass66_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream::$$c__DisplayClass66_0*, creationType>()));
     }
     // System.Int32 <InnerRead>b__0()
-    // Offset: 0x1ADA82C
+    // Offset: 0x1AD2370
     int $InnerRead$b__0();
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.<>c__DisplayClass66_0
   #pragma pack(pop)

@@ -27,6 +27,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
+    // Creating interface conversion operator: i_ILevelGameplaySetupData
+    inline ::GlobalNamespace::ILevelGameplaySetupData* i_ILevelGameplaySetupData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelGameplaySetupData*>(this);
+    }
     // public System.Boolean get_isPartyOwner()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isPartyOwner();

@@ -63,17 +63,17 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::IApplyToContext*>*& dyn__changes();
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
-    // Offset: 0x1CA58A4
+    // Offset: 0x1C98578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplyChangesToContextCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::IApplyToContext*>* changes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ApplyChangesToContextCommand*, creationType>(innerCommand, changes)));
     }
     // public System.Void ApplyChanges(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1CA590C
+    // Offset: 0x1C985E0
     void ApplyChanges(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1CA5BE0
+    // Offset: 0x1C988B4
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

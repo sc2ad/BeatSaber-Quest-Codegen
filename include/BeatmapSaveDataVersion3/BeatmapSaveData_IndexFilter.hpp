@@ -53,6 +53,10 @@ namespace BeatmapSaveDataVersion3 {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -110,39 +114,39 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Int32 r
     [[deprecated("Use field access instead!")]] int& dyn_r();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType get_type()
-    // Offset: 0x286D960
+    // Offset: 0x2826DF0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType get_type();
     // public System.Int32 get_param0()
-    // Offset: 0x286D968
+    // Offset: 0x2826DF8
     int get_param0();
     // public System.Int32 get_param1()
-    // Offset: 0x286D970
+    // Offset: 0x2826E00
     int get_param1();
     // public System.Boolean get_reversed()
-    // Offset: 0x286D978
+    // Offset: 0x2826E08
     bool get_reversed();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType type, System.Int32 param0, System.Int32 param1, System.Boolean reversed)
-    // Offset: 0x286D988
+    // Offset: 0x2826E18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType type, int param0, int param1, bool reversed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(type, param0, param1, reversed)));
     }
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter other)
-    // Offset: 0x286D9E4
+    // Offset: 0x2826E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(other)));
     }
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateDivisionIndexFilter(System.Int32 numberOfSections, System.Int32 divisionIdx, System.Boolean reversed)
-    // Offset: 0x286DA34
+    // Offset: 0x2826EC4
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateDivisionIndexFilter(int numberOfSections, int divisionIdx, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateStepFilter(System.Int32 offset, System.Int32 step, System.Boolean reversed)
-    // Offset: 0x286DAC0
+    // Offset: 0x2826F50
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateStepFilter(int offset, int step, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateForExtension()
-    // Offset: 0x286DB4C
+    // Offset: 0x2826FDC
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateForExtension();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter
   #pragma pack(pop)

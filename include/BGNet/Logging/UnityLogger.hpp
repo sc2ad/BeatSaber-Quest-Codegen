@@ -40,24 +40,28 @@ namespace BGNet::Logging {
     operator ::BGNet::Logging::Debug::ILogger() noexcept {
       return *reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
     }
+    // Creating interface conversion operator: i_ILogger
+    inline ::BGNet::Logging::Debug::ILogger* i_ILogger() noexcept {
+      return reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x2AEC654
+    // Offset: 0x2AE3428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Logging::UnityLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogger*, creationType>()));
     }
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x2AECEA4
+    // Offset: 0x2AE3C78
     void LogInfo(::StringW message);
     // public System.Void LogError(System.String message)
-    // Offset: 0x2AECEA8
+    // Offset: 0x2AE3C7C
     void LogError(::StringW message);
     // public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0x2AECF10
+    // Offset: 0x2AE3CE4
     void LogException(::System::Exception* exception, ::StringW message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x2AECFC0
+    // Offset: 0x2AE3D94
     void LogWarning(::StringW message);
   }; // BGNet.Logging.UnityLogger
   #pragma pack(pop)

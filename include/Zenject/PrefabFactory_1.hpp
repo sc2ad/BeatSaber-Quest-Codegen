@@ -44,7 +44,7 @@ namespace Zenject {
   class PrefabFactory_1 : public ::Il2CppObject/*, public ::Zenject::IFactory_2<::UnityEngine::Object*, T>*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10A4168
+    // [InjectAttribute] Offset: 0x10A5C60
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -55,6 +55,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::Zenject::IFactory_2<::UnityEngine::Object*, T>
     operator ::Zenject::IFactory_2<::UnityEngine::Object*, T>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(this);
+    }
+    // Creating interface conversion operator: i_Object_T
+    inline ::Zenject::IFactory_2<::UnityEngine::Object*, T>* i_Object_T() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(this);
     }
     // Creating conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept {

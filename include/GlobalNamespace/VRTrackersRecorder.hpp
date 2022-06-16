@@ -76,6 +76,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -193,35 +197,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__loadedOriginRot();
     // public System.Void .ctor()
-    // Offset: 0x14A1668
+    // Offset: 0x28659D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14A0598
+    // Offset: 0x2864904
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14A0C14
+    // Offset: 0x2864F80
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x14A0F48
+    // Offset: 0x28652B4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14A0F6C
+    // Offset: 0x28652D8
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x14A0F90
+    // Offset: 0x28652FC
     void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
-    // Offset: 0x14A1204
+    // Offset: 0x2865570
     void Update();
     // private System.Void Save()
-    // Offset: 0x14A0C24
+    // Offset: 0x2864F90
     void Save();
     // private System.Void Load()
-    // Offset: 0x14A0730
+    // Offset: 0x2864A9C
     void Load();
   }; // VRTrackersRecorder
   #pragma pack(pop)

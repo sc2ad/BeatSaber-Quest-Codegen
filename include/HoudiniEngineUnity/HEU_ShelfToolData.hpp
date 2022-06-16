@@ -52,6 +52,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -155,7 +159,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _jsonPath
     [[deprecated("Use field access instead!")]] ::StringW& dyn__jsonPath();
     // public System.Void .ctor()
-    // Offset: 0x1B07CB0
+    // Offset: 0x1AFE7F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ShelfToolData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ShelfToolData::.ctor");

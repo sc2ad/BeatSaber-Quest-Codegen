@@ -37,25 +37,29 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C5AC0
+    // [DescriptionAttribute] Offset: 0x10C75D8
     // static field const value: static public Oculus.Platform.ShareMediaStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Unknown
     static ::Oculus::Platform::ShareMediaStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Unknown
     static void _set_Unknown(::Oculus::Platform::ShareMediaStatus value);
-    // [DescriptionAttribute] Offset: 0x10C5AF8
+    // [DescriptionAttribute] Offset: 0x10C7610
     // static field const value: static public Oculus.Platform.ShareMediaStatus Shared
     static constexpr const int Shared = 1;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Shared
     static ::Oculus::Platform::ShareMediaStatus _get_Shared();
     // Set static field: static public Oculus.Platform.ShareMediaStatus Shared
     static void _set_Shared(::Oculus::Platform::ShareMediaStatus value);
-    // [DescriptionAttribute] Offset: 0x10C5B30
+    // [DescriptionAttribute] Offset: 0x10C7648
     // static field const value: static public Oculus.Platform.ShareMediaStatus Canceled
     static constexpr const int Canceled = 2;
     // Get static field: static public Oculus.Platform.ShareMediaStatus Canceled

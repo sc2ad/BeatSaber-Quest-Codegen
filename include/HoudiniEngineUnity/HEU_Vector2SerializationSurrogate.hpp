@@ -43,18 +43,22 @@ namespace HoudiniEngineUnity {
     operator ::System::Runtime::Serialization::ISerializationSurrogate() noexcept {
       return *reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
+    // Creating interface conversion operator: i_ISerializationSurrogate
+    inline ::System::Runtime::Serialization::ISerializationSurrogate* i_ISerializationSurrogate() noexcept {
+      return reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1A0EB84
+    // Offset: 0x1A086C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Vector2SerializationSurrogate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Vector2SerializationSurrogate*, creationType>()));
     }
     // private System.Void System.Runtime.Serialization.ISerializationSurrogate.GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A0E95C
+    // Offset: 0x1A084A0
     void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.ISerializationSurrogate.SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector selector)
-    // Offset: 0x1A0EA1C
+    // Offset: 0x1A08560
     ::Il2CppObject* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISurrogateSelector* selector);
   }; // HoudiniEngineUnity.HEU_Vector2SerializationSurrogate
   #pragma pack(pop)

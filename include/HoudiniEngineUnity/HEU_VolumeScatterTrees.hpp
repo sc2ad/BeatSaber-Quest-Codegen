@@ -106,6 +106,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_VolumeScatterTrees
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>* i_HEU_VolumeScatterTrees() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
+    }
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& dyn__treePrototypInfos();
     // Get instance field reference: public UnityEngine.Color32[] _colors
@@ -125,14 +129,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32[] _terrainTiles
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__terrainTiles();
     // public System.Void .ctor()
-    // Offset: 0x1A0DA1C
+    // Offset: 0x1A07560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeScatterTrees* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeScatterTrees::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeScatterTrees*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
-    // Offset: 0x1A12C44
+    // Offset: 0x1A0C788
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
   }; // HoudiniEngineUnity.HEU_VolumeScatterTrees
   #pragma pack(pop)

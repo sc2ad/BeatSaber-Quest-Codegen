@@ -45,6 +45,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType& dyn_m_nPrimitiveType();
     // Get instance field reference: public OVR.OpenVR.VROverlayIntersectionMaskPrimitive_Data_t m_Primitive

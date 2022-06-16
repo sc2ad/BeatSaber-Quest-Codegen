@@ -40,14 +40,14 @@ namespace RootMotion::FinalIK {
   class ShoulderRotator : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10FAE14
+    // [TooltipAttribute] Offset: 0x10FDCD8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10FAE4C
+    // [TooltipAttribute] Offset: 0x10FDD10
     // public System.Single offset
     // Size: 0x4
     // Offset: 0x1C
@@ -78,26 +78,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean skip
     [[deprecated("Use field access instead!")]] bool& dyn_skip();
     // public System.Void .ctor()
-    // Offset: 0x1FC4BE4
+    // Offset: 0x1FA27F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShoulderRotator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::ShoulderRotator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShoulderRotator*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1FC44AC
+    // Offset: 0x1FA20C0
     void Start();
     // private System.Void RotateShoulders()
-    // Offset: 0x1FC4580
+    // Offset: 0x1FA2194
     void RotateShoulders();
     // private System.Void RotateShoulder(RootMotion.FinalIK.FullBodyBipedChain chain, System.Single weight, System.Single offset)
-    // Offset: 0x1FC466C
+    // Offset: 0x1FA2280
     void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float weight, float offset);
     // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap GetParentBoneMap(RootMotion.FinalIK.FullBodyBipedChain chain)
-    // Offset: 0x1FC4AB4
+    // Offset: 0x1FA26C8
     ::RootMotion::FinalIK::IKMapping::BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
     // private System.Void OnDestroy()
-    // Offset: 0x1FC4AEC
+    // Offset: 0x1FA2700
     void OnDestroy();
   }; // RootMotion.FinalIK.ShoulderRotator
   #pragma pack(pop)

@@ -47,30 +47,34 @@ namespace UnityEngine {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private UnityEngine.Vector3 m_Origin
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Origin();
     // Get instance field reference: private UnityEngine.Vector3 m_Direction
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Direction();
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0x210D50C
+    // Offset: 0x21070D0
     ::UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0x210D518
+    // Offset: 0x21070DC
     void set_origin(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0x210D524
+    // Offset: 0x21070E8
     ::UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0x210D530
+    // Offset: 0x21070F4
     void set_direction(::UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0x210D4C4
+    // Offset: 0x2107088
     // ABORTED: conflicts with another method.  Ray(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0x210D570
+    // Offset: 0x2107134
     ::UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0x210D634
+    // Offset: 0x21071F8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

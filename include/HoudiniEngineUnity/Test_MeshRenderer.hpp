@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_MeshRenderer
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>* i_Test_MeshRenderer() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::MeshRenderer*
     constexpr operator ::UnityEngine::MeshRenderer*() const noexcept {
       return self;
@@ -54,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshRenderer self
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn_self();
     // public System.Void .ctor(UnityEngine.MeshRenderer self)
-    // Offset: 0x2A95DBC
+    // Offset: 0x2A8BB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_MeshRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_MeshRenderer*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A95DE8
+    // Offset: 0x2A8BBBC
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_MeshRenderer other)
-    // Offset: 0x2A95E58
+    // Offset: 0x2A8BC2C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
   }; // HoudiniEngineUnity.Test_MeshRenderer
   #pragma pack(pop)

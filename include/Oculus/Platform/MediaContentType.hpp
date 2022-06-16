@@ -37,18 +37,22 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C4880
+    // [DescriptionAttribute] Offset: 0x10C6398
     // static field const value: static public Oculus.Platform.MediaContentType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MediaContentType Unknown
     static ::Oculus::Platform::MediaContentType _get_Unknown();
     // Set static field: static public Oculus.Platform.MediaContentType Unknown
     static void _set_Unknown(::Oculus::Platform::MediaContentType value);
-    // [DescriptionAttribute] Offset: 0x10C48B8
+    // [DescriptionAttribute] Offset: 0x10C63D0
     // static field const value: static public Oculus.Platform.MediaContentType Photo
     static constexpr const int Photo = 1;
     // Get static field: static public Oculus.Platform.MediaContentType Photo

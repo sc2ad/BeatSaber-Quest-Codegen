@@ -36,17 +36,17 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1348B10
+    // Offset: 0x134BAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseResultsEnvironmentController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseResultsEnvironmentController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseResultsEnvironmentController*, creationType>()));
     }
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x1348AC0
+    // Offset: 0x134BA80
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1348AE8
+    // Offset: 0x134BAA8
     void Deactivate(bool immediately);
     // public System.Void Setup(IReadonlyBeatmapData beatmapData)
     // Offset: 0xFFFFFFFFFFFFFFFF

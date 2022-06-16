@@ -66,6 +66,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint8_t
       constexpr operator uint8_t() const noexcept {
         return value;
@@ -158,9 +162,17 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>
     operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*>(this);
+    }
+    // Creating interface conversion operator: i_AuthenticationToken
+    inline ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>* i_AuthenticationToken() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*>(this);
     }
     // Get instance field reference: public readonly AuthenticationToken/Platform platform
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken::Platform& dyn_platform();
@@ -171,31 +183,31 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String sessionToken
     [[deprecated("Use field access instead!")]] ::StringW& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.String sessionToken)
-    // Offset: 0x152A298
+    // Offset: 0x15418D4
     // ABORTED: conflicts with another method.  AuthenticationToken(::GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x152A2A8
+    // Offset: 0x15418E4
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152A474
+    // Offset: 0x1541AB0
     ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x152A47C
+    // Offset: 0x1541AB8
     static ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // static private System.Byte[] FromHex(System.String str)
-    // Offset: 0x152A37C
+    // Offset: 0x15419B8
     static ::ArrayW<uint8_t> FromHex(::StringW str);
     // static private System.Byte GetHexVal(System.Char c)
-    // Offset: 0x152A640
+    // Offset: 0x1541C7C
     static uint8_t GetHexVal(::Il2CppChar c);
     // static private System.Byte[] FromUtf8(System.String str)
-    // Offset: 0x152A340
+    // Offset: 0x154197C
     static ::ArrayW<uint8_t> FromUtf8(::StringW str);
     // static private System.String ToHex(System.Byte[] bytes)
-    // Offset: 0x152A5B0
+    // Offset: 0x1541BEC
     static ::StringW ToHex(::ArrayW<uint8_t> bytes);
     // static private System.String ToUtf8(System.Byte[] bytes)
-    // Offset: 0x152A574
+    // Offset: 0x1541BB0
     static ::StringW ToUtf8(::ArrayW<uint8_t> bytes);
   }; // AuthenticationToken
   #pragma pack(pop)

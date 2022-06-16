@@ -62,29 +62,33 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1Choice
+    inline ::Org::BouncyCastle::Asn1::IAsn1Choice* i_IAsn1Choice() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
+    }
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Encodable*& dyn_obj();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Object choiceObj
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_choiceObj();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.GeneralNames names)
-    // Offset: 0x1F10730
+    // Offset: 0x1F06404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::AttCertIssuer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertIssuer*, creationType>(names)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.V2Form v2Form)
-    // Offset: 0x1F106A8
+    // Offset: 0x1F0637C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::AttCertIssuer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttCertIssuer*, creationType>(v2Form)));
     }
     // static public Org.BouncyCastle.Asn1.X509.AttCertIssuer GetInstance(System.Object obj)
-    // Offset: 0x1F10394
+    // Offset: 0x1F06068
     static ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F10838
+    // Offset: 0x1F0650C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

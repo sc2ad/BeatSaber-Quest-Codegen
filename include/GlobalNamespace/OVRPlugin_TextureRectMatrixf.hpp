@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly OVRPlugin/TextureRectMatrixf zero
     static ::GlobalNamespace::OVRPlugin::TextureRectMatrixf _get_zero();
     // Set static field: static public readonly OVRPlugin/TextureRectMatrixf zero
@@ -71,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4 rightScaleBias
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_rightScaleBias();
     // static private System.Void .cctor()
-    // Offset: 0x1B1E030
+    // Offset: 0x1B15B74
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1B1DE48
+    // Offset: 0x1B1598C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

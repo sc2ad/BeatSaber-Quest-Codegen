@@ -58,7 +58,7 @@ namespace HMUI {
     ::StringW text;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [InjectAttribute] Offset: 0x10BF444
+    // [InjectAttribute] Offset: 0x10C0F5C
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -76,9 +76,17 @@ namespace HMUI {
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
@@ -89,32 +97,32 @@ namespace HMUI {
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
-    // Offset: 0x1723760
+    // Offset: 0x1700E44
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1723768
+    // Offset: 0x1700E4C
     void set_text(::StringW value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x1723770
+    // Offset: 0x1700E54
     ::UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x1723808
+    // Offset: 0x1700EEC
     ::UnityEngine::Vector3 get_worldCenter();
     // public System.Void .ctor()
-    // Offset: 0x1723C3C
+    // Offset: 0x1701320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHint*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1723990
+    // Offset: 0x1701074
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1723A44
+    // Offset: 0x1701128
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x1723BAC
+    // Offset: 0x1701290
     void OnDisable();
   }; // HMUI.HoverHint
   #pragma pack(pop)

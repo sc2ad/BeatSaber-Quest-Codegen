@@ -181,6 +181,10 @@ namespace System::Net::NetworkInformation {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Char[] Name
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_Name();
     // Get instance field reference: public System.Int32 Index

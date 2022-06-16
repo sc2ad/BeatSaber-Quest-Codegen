@@ -51,14 +51,14 @@ namespace NUnit::Compatibility {
     // Get instance field reference: public System.Type to
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_to();
     // public System.Void .ctor()
-    // Offset: 0x1C8FB04
+    // Offset: 0x1C827D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdditionalTypeExtensions::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdditionalTypeExtensions::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
-    // Offset: 0x1C90530
+    // Offset: 0x1C83204
     bool $IsCastableFrom$b__0(::System::Reflection::MethodInfo* m);
   }; // NUnit.Compatibility.AdditionalTypeExtensions/NUnit.Compatibility.<>c__DisplayClass2_0
   #pragma pack(pop)

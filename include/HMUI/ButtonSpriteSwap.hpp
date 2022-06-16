@@ -68,7 +68,7 @@ namespace HMUI {
     ::UnityEngine::Sprite* disabledStateSprite;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C015C
+    // [SpaceAttribute] Offset: 0x10C1C74
     // private HMUI.NoTransitionsButton _button
     // Size: 0x8
     // Offset: 0x38
@@ -105,29 +105,29 @@ namespace HMUI {
     // Get instance field reference: protected System.Boolean _didStart
     [[deprecated("Use field access instead!")]] bool& dyn__didStart();
     // public System.Void .ctor()
-    // Offset: 0x171739C
+    // Offset: 0x16F4A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonSpriteSwap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonSpriteSwap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwap*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x17170E0
+    // Offset: 0x16F47A4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1717174
+    // Offset: 0x16F4838
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x17171C4
+    // Offset: 0x16F4888
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x17171E8
+    // Offset: 0x16F48AC
     void OnDestroy();
     // protected System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x17172C0
+    // Offset: 0x16F4984
     void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);
     // protected System.Void RefreshVisualState()
-    // Offset: 0x17171A0
+    // Offset: 0x16F4864
     void RefreshVisualState();
   }; // HMUI.ButtonSpriteSwap
   #pragma pack(pop)

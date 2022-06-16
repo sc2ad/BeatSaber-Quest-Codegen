@@ -54,9 +54,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongAudioClipProvider* i_IFilePathSongAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongAudioClipProvider*>(this);
     }
     // Creating conversion operator: operator ::GlobalNamespace::BeatmapLevelData*
     constexpr operator ::GlobalNamespace::BeatmapLevelData*() const noexcept {
@@ -65,20 +73,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelData _beatmapLevelData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelData*& dyn__beatmapLevelData();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1429458
+    // Offset: 0x14033CC
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.String get_songAudioClipPath()
-    // Offset: 0x1429460
+    // Offset: 0x14033D4
     ::StringW get_songAudioClipPath();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel)
-    // Offset: 0x14294E4
+    // Offset: 0x1403458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(::GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x1429684
+    // Offset: 0x14035F8
     void SetBeatmapLevelData(::GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)

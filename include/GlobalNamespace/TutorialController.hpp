@@ -87,22 +87,22 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DB0F4
-    // [SignalSenderAttribute] Offset: 0x10DB0F4
+    // [SpaceAttribute] Offset: 0x10DDE80
+    // [SignalSenderAttribute] Offset: 0x10DDE80
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0x10DB13C
+    // [SignalSenderAttribute] Offset: 0x10DDEC8
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB174
+    // [InjectAttribute] Offset: 0x10DDF00
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -138,6 +138,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelStartController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
     }
+    // Creating interface conversion operator: i_ILevelStartController
+    inline ::GlobalNamespace::ILevelStartController* i_ILevelStartController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelStartController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialSongController _tutorialSongController
@@ -163,47 +167,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _doingOutroTransition
     [[deprecated("Use field access instead!")]] bool& dyn__doingOutroTransition();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x148F188
+    // Offset: 0x1495628
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x148F22C
+    // Offset: 0x14956CC
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x148F2D0
+    // Offset: 0x1495770
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x148F374
+    // Offset: 0x1495814
     void remove_levelDidStartEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x148FA50
+    // Offset: 0x1495EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x148F418
+    // Offset: 0x14958B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x148F600
+    // Offset: 0x1495AA0
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x148F844
+    // Offset: 0x1495CE4
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x148F8C8
+    // Offset: 0x1495D68
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x148F914
+    // Offset: 0x1495DB4
     ::System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x148F9B0
+    // Offset: 0x1495E50
     void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x148FA3C
+    // Offset: 0x1495EDC
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x148FA48
+    // Offset: 0x1495EE8
     void HandlePauseControllerDidResume();
   }; // TutorialController
   #pragma pack(pop)

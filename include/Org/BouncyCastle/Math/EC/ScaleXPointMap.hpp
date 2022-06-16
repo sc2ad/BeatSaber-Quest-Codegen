@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Math::EC {
     operator ::Org::BouncyCastle::Math::EC::ECPointMap() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::ECPointMap*>(this);
     }
+    // Creating interface conversion operator: i_ECPointMap
+    inline ::Org::BouncyCastle::Math::EC::ECPointMap* i_ECPointMap() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::ECPointMap*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Math::EC::ECFieldElement*
     constexpr operator ::Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return scale;
@@ -56,14 +60,14 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_scale();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x22E7048
+    // Offset: 0x22DEC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::ScaleXPointMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleXPointMap*, creationType>(scale)));
     }
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x22E7074
+    // Offset: 0x22DEC38
     ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ScaleXPointMap
   #pragma pack(pop)

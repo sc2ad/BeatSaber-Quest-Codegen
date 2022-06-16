@@ -61,41 +61,49 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>
     operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*>(this);
+    }
+    // Creating interface conversion operator: i_BitMaskArray
+    inline ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>* i_BitMaskArray() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*>(this);
     }
     // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$bitCount$k__BackingField();
     // Get instance field reference: private readonly System.UInt64[] _data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint64_t>& dyn__data();
     // public System.Int32 get_bitCount()
-    // Offset: 0x29FF410
+    // Offset: 0x29FC5C8
     int get_bitCount();
     // public System.Void .ctor(System.Int32 bitCount)
-    // Offset: 0x29FF418
+    // Offset: 0x29FC5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskArray* New_ctor(int bitCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BitMaskArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskArray*, creationType>(bitCount)));
     }
     // public System.Boolean Equals(BitMaskArray other)
-    // Offset: 0x29FF49C
+    // Offset: 0x29FC654
     bool Equals(::GlobalNamespace::BitMaskArray* other);
     // public BitMaskArray SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0x29FF514
+    // Offset: 0x29FC6CC
     ::GlobalNamespace::BitMaskArray* SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0x29FF640
+    // Offset: 0x29FC7F8
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29FF878
+    // Offset: 0x29FCA30
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FF9F0
+    // Offset: 0x29FCBA8
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.String ToString()
-    // Offset: 0x29FF768
+    // Offset: 0x29FC920
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

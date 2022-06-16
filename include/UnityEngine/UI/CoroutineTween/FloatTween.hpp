@@ -76,9 +76,17 @@ namespace UnityEngine::UI::CoroutineTween {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::UI::CoroutineTween::ITweenValue
     operator ::UnityEngine::UI::CoroutineTween::ITweenValue() noexcept {
       return *reinterpret_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
+    }
+    // Creating interface conversion operator: i_ITweenValue
+    inline ::UnityEngine::UI::CoroutineTween::ITweenValue* i_ITweenValue() noexcept {
+      return reinterpret_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(this);
     }
     // Get instance field reference: private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback*& dyn_m_Target();
@@ -91,43 +99,43 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x193AB98
+    // Offset: 0x19356DC
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x193ABA0
+    // Offset: 0x19356E4
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x193ABA8
+    // Offset: 0x19356EC
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x193ABB0
+    // Offset: 0x19356F4
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x193ABB8
+    // Offset: 0x19356FC
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x193ABC0
+    // Offset: 0x1935704
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x193ABC8
+    // Offset: 0x193570C
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x193ABD0
+    // Offset: 0x1935714
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x193ABDC
+    // Offset: 0x1935720
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x193ACAC
+    // Offset: 0x19357F0
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x193AD88
+    // Offset: 0x19358CC
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x193AD90
+    // Offset: 0x19358D4
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x193AC9C
+    // Offset: 0x19357E0
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)

@@ -57,14 +57,14 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public UnityEngine.Vector2 swipeStart
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_swipeStart();
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x24A6E48
+    // Offset: 0x249FA0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::OVRPointerEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x24A8FA0
+    // Offset: 0x24A1B64
     // Implemented from: UnityEngine.EventSystems.PointerEventData
     // Base method: System.String PointerEventData::ToString()
     ::StringW ToString();

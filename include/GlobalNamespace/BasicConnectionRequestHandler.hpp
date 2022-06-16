@@ -50,6 +50,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionRequestHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionRequestHandler*>(this);
     }
+    // Creating interface conversion operator: i_IConnectionRequestHandler
+    inline ::GlobalNamespace::IConnectionRequestHandler* i_IConnectionRequestHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionRequestHandler*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return secret;
@@ -57,23 +61,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <secret>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$secret$k__BackingField();
     // public System.String get_secret()
-    // Offset: 0x153AE7C
+    // Offset: 0x15524B8
     ::StringW get_secret();
     // public System.Void set_secret(System.String value)
-    // Offset: 0x153AE84
+    // Offset: 0x15524C0
     void set_secret(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x153AFC0
+    // Offset: 0x15525FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConnectionRequestHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicConnectionRequestHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConnectionRequestHandler*, creationType>()));
     }
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x153AE8C
+    // Offset: 0x15524C8
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x153AF00
+    // Offset: 0x155253C
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // BasicConnectionRequestHandler
   #pragma pack(pop)

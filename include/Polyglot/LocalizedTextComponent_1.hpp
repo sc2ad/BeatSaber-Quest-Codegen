@@ -46,20 +46,20 @@ namespace Polyglot {
   class LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour/*, public ::Polyglot::ILocalize*/ {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10B2030
+    // [TooltipAttribute] Offset: 0x10B4B48
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0x10B207C
+    // [TooltipAttribute] Offset: 0x10B4B94
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10B20C8
-    // [LocalizationKeyAttribute] Offset: 0x10B20C8
+    // [TooltipAttribute] Offset: 0x10B4BE0
+    // [LocalizationKeyAttribute] Offset: 0x10B4BE0
     // private System.String key
     // Size: 0x8
     // Offset: 0x0
@@ -76,6 +76,10 @@ namespace Polyglot {
     // Creating interface conversion operator: operator ::Polyglot::ILocalize
     operator ::Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<::Polyglot::ILocalize*>(this);
+    }
+    // Creating interface conversion operator: i_ILocalize
+    inline ::Polyglot::ILocalize* i_ILocalize() noexcept {
+      return reinterpret_cast<::Polyglot::ILocalize*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;

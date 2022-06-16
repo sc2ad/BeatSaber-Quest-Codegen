@@ -39,18 +39,22 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresencePlatformHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresencePlatformHandler
+    inline ::GlobalNamespace::IRichPresencePlatformHandler* i_IRichPresencePlatformHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x15504EC
+    // Offset: 0x1566B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusRichPresencePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusRichPresencePlatformHandler*, creationType>()));
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x1550274
+    // Offset: 0x15668B0
     void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x15504E4
+    // Offset: 0x1566B20
     void Clear();
   }; // OculusRichPresencePlatformHandler
   #pragma pack(pop)

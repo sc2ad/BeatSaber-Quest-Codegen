@@ -89,6 +89,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt32 unPacketNum
     [[deprecated("Use field access instead!")]] uint& dyn_unPacketNum();
     // Get instance field reference: public System.UInt64 ulButtonPressed
@@ -106,10 +110,10 @@ namespace OVR::OpenVR {
     // Get instance field reference: public OVR.OpenVR.VRControllerAxis_t rAxis4
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::VRControllerAxis_t& dyn_rAxis4();
     // public System.Void .ctor(OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x164FB30
+    // Offset: 0x164F654
     VRControllerState_t_Packed(::OVR::OpenVR::VRControllerState_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.VRControllerState_t unpacked)
-    // Offset: 0x164FB74
+    // Offset: 0x164F698
     void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
   }; // OVR.OpenVR.VRControllerState_t_Packed
   #pragma pack(pop)

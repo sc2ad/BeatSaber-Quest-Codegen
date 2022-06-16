@@ -54,6 +54,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::Org::BouncyCastle::Utilities::Collections::ISet() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(this);
     }
+    // Creating interface conversion operator: i_ISet
+    inline ::Org::BouncyCastle::Utilities::Collections::ISet* i_ISet() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IDictionary*
     constexpr operator ::System::Collections::IDictionary*() const noexcept {
       return impl;
@@ -61,26 +65,26 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary impl
     [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn_impl();
     // public System.Int32 get_Count()
-    // Offset: 0x25EDD28
+    // Offset: 0x25E68EC
     int get_Count();
     // public System.Object get_SyncRoot()
-    // Offset: 0x25EDF00
+    // Offset: 0x25E6AC4
     ::Il2CppObject* get_SyncRoot();
     // public System.Void .ctor()
-    // Offset: 0x25EDA58
+    // Offset: 0x25E661C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HashSet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::HashSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
     // public System.Void Add(System.Object o)
-    // Offset: 0x25EDB24
+    // Offset: 0x25E66E8
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x25EDBEC
+    // Offset: 0x25E67B0
     void CopyTo(::System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x25EDDDC
+    // Offset: 0x25E69A0
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.HashSet
   #pragma pack(pop)

@@ -54,12 +54,16 @@ namespace Zenject {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Type Type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_Type();
     // Get instance field reference: public System.Object Value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Value();
     // public System.Void .ctor(System.Type type, System.Object value)
-    // Offset: 0x1D29C9C
+    // Offset: 0x1D1D970
     // ABORTED: conflicts with another method.  TypeValuePair(::System::Type* type, ::Il2CppObject* value);
   }; // Zenject.TypeValuePair
   #pragma pack(pop)

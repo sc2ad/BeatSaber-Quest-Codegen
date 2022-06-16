@@ -50,14 +50,14 @@ namespace TMPro {
     // Get instance field reference: public System.UInt32 second
     [[deprecated("Use field access instead!")]] uint& dyn_second();
     // public System.Void .ctor()
-    // Offset: 0x1438978
+    // Offset: 0x142A4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Boolean <AddGlyphPairAdjustmentRecord>b__0(TMPro.KerningPair item)
-    // Offset: 0x1438D94
+    // Offset: 0x142A908
     bool $AddGlyphPairAdjustmentRecord$b__0(::TMPro::KerningPair* item);
   }; // TMPro.KerningTable/TMPro.<>c__DisplayClass4_0
   #pragma pack(pop)

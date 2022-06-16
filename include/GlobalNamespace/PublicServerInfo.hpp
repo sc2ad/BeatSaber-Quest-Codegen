@@ -54,18 +54,22 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly System.String code
     [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // Get instance field reference: public readonly System.Int32 currentPlayerCount
     [[deprecated("Use field access instead!")]] int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
-    // Offset: 0x2637E44
+    // Offset: 0x262FA08
     // ABORTED: conflicts with another method.  PublicServerInfo(::StringW code, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2637E50
+    // Offset: 0x262FA14
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2637E94
+    // Offset: 0x262FA58
     static ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)

@@ -48,12 +48,16 @@ namespace Zenject {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public Zenject.IPoolable Poolable
     [[deprecated("Use field access instead!")]] ::Zenject::IPoolable*& dyn_Poolable();
     // Get instance field reference: public System.Int32 Priority
     [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0x1C16CA0
+    // Offset: 0x1C0A974
     // ABORTED: conflicts with another method.  PoolableInfo(::Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/Zenject.PoolableInfo
   #pragma pack(pop)

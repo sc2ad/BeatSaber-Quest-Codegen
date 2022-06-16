@@ -47,6 +47,10 @@ namespace System::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::WebProxy*
     constexpr operator ::System::Net::WebProxy*() const noexcept {
       return webProxy;
@@ -54,13 +58,13 @@ namespace System::Net {
     // Get instance field reference: protected readonly System.Net.WebProxy webProxy
     [[deprecated("Use field access instead!")]] ::System::Net::WebProxy*& dyn_webProxy();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1B6124C
+    // Offset: 0x1B57D90
     ::System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x1B6121C
+    // Offset: 0x1B57D60
     ::System::Uri* GetProxy(::System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1B61234
+    // Offset: 0x1B57D78
     bool IsBypassed(::System::Uri* host);
   }; // System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
   #pragma pack(pop)

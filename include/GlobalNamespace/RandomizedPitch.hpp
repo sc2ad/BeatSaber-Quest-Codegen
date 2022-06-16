@@ -104,26 +104,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _restoringCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__restoringCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x2A2695C
+    // Offset: 0x2A22B14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizedPitch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomizedPitch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomizedPitch*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2A26668
+    // Offset: 0x2A22820
     void OnEnable();
     // public System.Void Play()
-    // Offset: 0x2A266D0
+    // Offset: 0x2A22888
     void Play();
     // public System.Void PlayDelayed(System.Single delay)
-    // Offset: 0x2A2683C
+    // Offset: 0x2A229F4
     void PlayDelayed(float delay);
     // private System.Collections.IEnumerator PlayDelayedCoroutine(System.Single delay)
-    // Offset: 0x2A26884
+    // Offset: 0x2A22A3C
     ::System::Collections::IEnumerator* PlayDelayedCoroutine(float delay);
     // private System.Collections.IEnumerator RestorePitchWithDelay(System.Single delay)
-    // Offset: 0x2A267BC
+    // Offset: 0x2A22974
     ::System::Collections::IEnumerator* RestorePitchWithDelay(float delay);
   }; // RandomizedPitch
   #pragma pack(pop)

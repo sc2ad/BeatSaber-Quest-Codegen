@@ -54,6 +54,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localPosition
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_localPosition();
     // Get instance field reference: public LIV.SDK.Unity.SDKQuaternion localRotation
@@ -61,10 +65,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localScale
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_localScale();
     // static public LIV.SDK.Unity.SDKTransform get_empty()
-    // Offset: 0x2A529C8
+    // Offset: 0x2A4A79C
     static ::LIV::SDK::Unity::SDKTransform get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A58C2C
+    // Offset: 0x2A50A00
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

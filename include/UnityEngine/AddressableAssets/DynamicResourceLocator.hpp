@@ -73,31 +73,35 @@ namespace UnityEngine::AddressableAssets {
     operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocator
+    inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i_IResourceLocator() noexcept {
+      return reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
+    }
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.String m_AtlasSpriteProviderId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_AtlasSpriteProviderId();
     // public System.String get_LocatorId()
-    // Offset: 0x18C6F48
+    // Offset: 0x18C2A8C
     ::StringW get_LocatorId();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x18C6F90
+    // Offset: 0x18C2AD4
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // private System.String get_AtlasSpriteProviderId()
-    // Offset: 0x18C6FDC
+    // Offset: 0x18C2B20
     ::StringW get_AtlasSpriteProviderId();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl addr)
-    // Offset: 0x18C73B4
+    // Offset: 0x18C2EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::DynamicResourceLocator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicResourceLocator*, creationType>(addr)));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x18C73E0
+    // Offset: 0x18C2F24
     bool Locate(::Il2CppObject* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // System.Void CreateDynamicLocations(System.Type type, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.String locName, System.String subKey, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation mainLoc)
-    // Offset: 0x18C7878
+    // Offset: 0x18C33BC
     void CreateDynamicLocations(::System::Type* type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::StringW locName, ::StringW subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
   }; // UnityEngine.AddressableAssets.DynamicResourceLocator
   #pragma pack(pop)

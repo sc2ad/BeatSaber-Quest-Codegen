@@ -35,6 +35,10 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(this);
     }
+    // Creating interface conversion operator: i_ECEndomorphism
+    inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* i_ECEndomorphism() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(this);
+    }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);

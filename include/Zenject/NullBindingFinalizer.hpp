@@ -42,18 +42,22 @@ namespace Zenject {
     operator ::Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
     }
+    // Creating interface conversion operator: i_IBindingFinalizer
+    inline ::Zenject::IBindingFinalizer* i_IBindingFinalizer() noexcept {
+      return reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
+    }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x1C15D54
+    // Offset: 0x1C09A28
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void .ctor()
-    // Offset: 0x1C15D60
+    // Offset: 0x1C09A34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullBindingFinalizer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NullBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullBindingFinalizer*, creationType>()));
     }
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1C15D5C
+    // Offset: 0x1C09A30
     void FinalizeBinding(::Zenject::DiContainer* container);
   }; // Zenject.NullBindingFinalizer
   #pragma pack(pop)

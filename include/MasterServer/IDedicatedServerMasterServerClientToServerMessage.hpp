@@ -29,6 +29,10 @@ namespace MasterServer {
     operator ::MasterServer::IDedicatedServerMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IDedicatedServerMasterServerMessage
+    inline ::MasterServer::IDedicatedServerMasterServerMessage* i_IDedicatedServerMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
+    }
     // public System.String get_dedicatedServerId()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_dedicatedServerId();

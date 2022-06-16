@@ -29,9 +29,17 @@ namespace BGNet::Core::Messages {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
   }; // BGNet.Core.Messages.IUnconnectedMessage
   #pragma pack(pop)

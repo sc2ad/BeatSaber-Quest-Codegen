@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13A816C
+    // Offset: 0x13BE754
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13A81D0
+    // Offset: 0x13BE7B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatingSpotManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotManager::$$c*, creationType>()));
     }
     // System.Boolean <get_defaultSpot>b__3_0(IMultiplayerSpectatingSpot s)
-    // Offset: 0x13A81D8
+    // Offset: 0x13BE7C0
     bool $get_defaultSpot$b__3_0(::GlobalNamespace::IMultiplayerSpectatingSpot* s);
   }; // MultiplayerSpectatingSpotManager/<>c
   #pragma pack(pop)

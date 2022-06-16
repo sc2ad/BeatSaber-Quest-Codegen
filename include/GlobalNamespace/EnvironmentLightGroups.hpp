@@ -70,17 +70,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentLightGroups/LightGroupData[] _lightGroupDataListForLightGroupDataDict
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>& dyn__lightGroupDataListForLightGroupDataDict();
     // public System.Collections.Generic.IReadOnlyList`1<EnvironmentLightGroups/LightGroupData> get_lightGroupDataList()
-    // Offset: 0x136B8C4
+    // Offset: 0x1395E14
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>* get_lightGroupDataList();
     // public System.Void .ctor()
-    // Offset: 0x136BA14
+    // Offset: 0x1395F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightGroups*, creationType>()));
     }
     // public EnvironmentLightGroups/LightGroupData GetDataForGroup(System.Int32 groupId)
-    // Offset: 0x136B8CC
+    // Offset: 0x1395E1C
     ::GlobalNamespace::EnvironmentLightGroups::LightGroupData* GetDataForGroup(int groupId);
   }; // EnvironmentLightGroups
   #pragma pack(pop)

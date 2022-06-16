@@ -166,6 +166,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly NoteData noteData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData*& dyn_noteData();
     // Get instance field reference: public readonly System.Boolean speedOK
@@ -205,16 +209,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ISaberMovementData saberMovementData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISaberMovementData*& dyn_saberMovementData();
     // public System.Boolean get_allIsOK()
-    // Offset: 0x2A02988
+    // Offset: 0x29FFB40
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x2A029B8
+    // Offset: 0x29FFB70
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0x2A029E0
+    // Offset: 0x29FFB98
     ::GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(NoteData noteData, System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, UnityEngine.Quaternion worldRotation, UnityEngine.Quaternion inverseWorldRotation, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 notePosition, ISaberMovementData saberMovementData)
-    // Offset: 0x2A02A24
+    // Offset: 0x29FFBDC
     // ABORTED: conflicts with another method.  NoteCutInfo(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, ::UnityEngine::Vector3 saberDir, ::GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
   }; // NoteCutInfo
   #pragma pack(pop)

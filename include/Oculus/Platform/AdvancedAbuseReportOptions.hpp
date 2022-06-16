@@ -53,26 +53,26 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x209B434
+    // Offset: 0x2094FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancedAbuseReportOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::AdvancedAbuseReportOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancedAbuseReportOptions*, creationType>()));
     }
     // public System.Void SetObjectType(System.String value)
-    // Offset: 0x209B51C
+    // Offset: 0x20950E0
     void SetObjectType(::StringW value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
-    // Offset: 0x209B640
+    // Offset: 0x2095204
     void SetReportType(::Oculus::Platform::AbuseReportType value);
     // public System.Void SetVideoMode(Oculus.Platform.AbuseReportVideoMode value)
-    // Offset: 0x209B748
+    // Offset: 0x209530C
     void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.AdvancedAbuseReportOptions options)
-    // Offset: 0x209B850
+    // Offset: 0x2095414
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x209B8A0
+    // Offset: 0x2095464
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

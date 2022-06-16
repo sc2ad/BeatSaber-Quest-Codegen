@@ -39,16 +39,16 @@ namespace Org::BouncyCastle::OpenSsl {
     // Nested type: ::Org::BouncyCastle::OpenSsl::PemUtilities::PemMode
     struct PemMode;
     // static private System.Void .cctor()
-    // Offset: 0x17A7C04
+    // Offset: 0x17A4748
     static void _cctor();
     // static private System.Void ParseDekAlgName(System.String dekAlgName, out Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg baseAlg, out Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemMode mode)
-    // Offset: 0x17A7D34
+    // Offset: 0x17A4878
     static void ParseDekAlgName(::StringW dekAlgName, ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg> baseAlg, ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities::PemMode> mode);
     // static System.Byte[] Crypt(System.Boolean encrypt, System.Byte[] bytes, System.Char[] password, System.String dekAlgName, System.Byte[] iv)
-    // Offset: 0x17A7774
+    // Offset: 0x17A42B8
     static ::ArrayW<uint8_t> Crypt(bool encrypt, ::ArrayW<uint8_t> bytes, ::ArrayW<::Il2CppChar> password, ::StringW dekAlgName, ::ArrayW<uint8_t> iv);
     // static private Org.BouncyCastle.Crypto.ICipherParameters GetCipherParameters(System.Char[] password, Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg baseAlg, System.Byte[] salt)
-    // Offset: 0x17A9C38
+    // Offset: 0x17A677C
     static ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<::Il2CppChar> password, ::Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg baseAlg, ::ArrayW<uint8_t> salt);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities
   #pragma pack(pop)

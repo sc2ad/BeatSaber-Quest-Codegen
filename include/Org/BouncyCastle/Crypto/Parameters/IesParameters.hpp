@@ -49,6 +49,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
+    // Creating interface conversion operator: i_ICipherParameters
+    inline ::Org::BouncyCastle::Crypto::ICipherParameters* i_ICipherParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(this);
+    }
     // Get instance field reference: private System.Byte[] derivation
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_derivation();
     // Get instance field reference: private System.Byte[] encoding
@@ -56,13 +60,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Int32 macKeySize
     [[deprecated("Use field access instead!")]] int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x15F91C4
+    // Offset: 0x15F8CE8
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x15F91B4
+    // Offset: 0x15F8CD8
     ::ArrayW<uint8_t> GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x15F91BC
+    // Offset: 0x15F8CE0
     ::ArrayW<uint8_t> GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)

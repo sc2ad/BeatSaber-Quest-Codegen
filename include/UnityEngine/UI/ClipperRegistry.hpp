@@ -58,23 +58,23 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
     // static public UnityEngine.UI.ClipperRegistry get_instance()
-    // Offset: 0x1939178
+    // Offset: 0x1933CBC
     static ::UnityEngine::UI::ClipperRegistry* get_instance();
     // protected System.Void .ctor()
-    // Offset: 0x1939D18
+    // Offset: 0x193485C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClipperRegistry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ClipperRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClipperRegistry*, creationType>()));
     }
     // public System.Void Cull()
-    // Offset: 0x19391F4
+    // Offset: 0x1933D38
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
-    // Offset: 0x1939D88
+    // Offset: 0x19348CC
     static void Register(::UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
-    // Offset: 0x1939DFC
+    // Offset: 0x1934940
     static void Unregister(::UnityEngine::UI::IClipper* c);
   }; // UnityEngine.UI.ClipperRegistry
   #pragma pack(pop)

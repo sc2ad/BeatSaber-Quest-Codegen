@@ -61,6 +61,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_InstancedInput
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>* i_HEU_InstancedInput() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _instancedGameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__instancedGameObject();
     // Get instance field reference: public UnityEngine.Vector3 _rotationOffset
@@ -68,14 +72,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x1894934
+    // Offset: 0x1891478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstancedInput* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstancedInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstancedInput*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstancedInput other)
-    // Offset: 0x18947D8
+    // Offset: 0x189131C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
   }; // HoudiniEngineUnity.HEU_InstancedInput
   #pragma pack(pop)

@@ -33,6 +33,10 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_ITypeMath_1_T
+    inline ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* i_ITypeMath_1_T() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(this);
+    }
     // public T get_MinValue()
     // Offset: 0xFFFFFFFFFFFFFFFF
     T get_MinValue() {

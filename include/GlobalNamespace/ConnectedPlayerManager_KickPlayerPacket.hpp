@@ -56,9 +56,17 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
     // Creating conversion operator: operator ::GlobalNamespace::DisconnectedReason
     constexpr operator ::GlobalNamespace::DisconnectedReason() const noexcept {
@@ -67,26 +75,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectedReason disconnectedReason
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectedReason& dyn_disconnectedReason();
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x1673FE4
+    // Offset: 0x1672B08
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16740D0
+    // Offset: 0x1672BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::KickPlayerPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::KickPlayerPacket*, creationType>()));
     }
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x167402C
+    // Offset: 0x1672B50
     ::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1674034
+    // Offset: 0x1672B58
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1674048
+    // Offset: 0x1672B6C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1674074
+    // Offset: 0x1672B98
     void Release();
   }; // ConnectedPlayerManager/KickPlayerPacket
   #pragma pack(pop)

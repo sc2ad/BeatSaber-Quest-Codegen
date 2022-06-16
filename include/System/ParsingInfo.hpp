@@ -97,6 +97,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Globalization.Calendar calendar
     [[deprecated("Use field access instead!")]] ::System::Globalization::Calendar*& dyn_calendar();
     // Get instance field reference: System.Int32 dayOfWeek
@@ -116,7 +120,7 @@ namespace System {
     // Get instance field reference: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
     [[deprecated("Use field access instead!")]] ::System::DateTimeParse::MatchNumberDelegate*& dyn_parseNumberDelegate();
     // System.Void Init()
-    // Offset: 0x2208AD4
+    // Offset: 0x2200698
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

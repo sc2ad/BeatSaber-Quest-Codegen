@@ -48,6 +48,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAudioTimeSource*>(this);
     }
+    // Creating interface conversion operator: i_IAudioTimeSource
+    inline ::GlobalNamespace::IAudioTimeSource* i_IAudioTimeSource() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAudioTimeSource*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single <songTime>k__BackingField
@@ -55,35 +59,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x13C0184
+    // Offset: 0x13C3A2C
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x13C018C
+    // Offset: 0x13C3A34
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x13C0194
+    // Offset: 0x13C3A3C
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x13C019C
+    // Offset: 0x13C3A44
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x13C01A4
+    // Offset: 0x13C3A4C
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0x13C01B0
+    // Offset: 0x13C3A58
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x13C01BC
+    // Offset: 0x13C3A64
     bool get_isReady();
     // public System.Void .ctor()
-    // Offset: 0x13C0208
+    // Offset: 0x13C3AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockAudioTimeSource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockAudioTimeSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockAudioTimeSource*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x13C01C4
+    // Offset: 0x13C3A6C
     void Update();
   }; // MockAudioTimeSource
   #pragma pack(pop)

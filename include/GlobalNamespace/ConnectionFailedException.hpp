@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ConnectionFailedReason reason
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConnectionFailedReason& dyn_reason();
     // public System.Void .ctor(ConnectionFailedReason reason)
-    // Offset: 0x1674A78
+    // Offset: 0x167359C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionFailedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionFailedException*, creationType>(reason)));
     }
     // public System.Void .ctor(ConnectionFailedReason reason, System.String message)
-    // Offset: 0x1674AF4
+    // Offset: 0x1673618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionFailedException::.ctor");

@@ -40,7 +40,7 @@ namespace Zenject {
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public ::Zenject::IFactory_2<::StringW, T>*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10A41B8
+    // [InjectAttribute] Offset: 0x10A5CB0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -51,6 +51,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::Zenject::IFactory_2<::StringW, T>
     operator ::Zenject::IFactory_2<::StringW, T>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_2<::StringW, T>*>(this);
+    }
+    // Creating interface conversion operator: i_StringW_T
+    inline ::Zenject::IFactory_2<::StringW, T>* i_StringW_T() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_2<::StringW, T>*>(this);
     }
     // Creating conversion operator: operator ::Zenject::DiContainer*
     constexpr operator ::Zenject::DiContainer*() const noexcept {

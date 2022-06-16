@@ -41,44 +41,48 @@ namespace Zenject {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static ::System::Text::RegularExpressions::Regex* _get_$ProfilePattern$k__BackingField();
     // Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static void _set_$ProfilePattern$k__BackingField(::System::Text::RegularExpressions::Regex* value);
     // static public System.Text.RegularExpressions.Regex get_ProfilePattern()
-    // Offset: 0x1C1B40C
+    // Offset: 0x1C0F0E0
     static ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
     // static public System.Void set_ProfilePattern(System.Text.RegularExpressions.Regex value)
-    // Offset: 0x1C1B45C
+    // Offset: 0x1C0F130
     static void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
     // private System.Void .ctor(System.String sampleName, System.Boolean rootBlock)
-    // Offset: 0x1C1B3FC
+    // Offset: 0x1C0F0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName, rootBlock)));
     }
     // private System.Void .ctor(System.String sampleName)
-    // Offset: 0x1C1B404
+    // Offset: 0x1C0F0D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::StringW sampleName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName)));
     }
     // static public Zenject.ProfileBlock Start()
-    // Offset: 0x1C1B4B0
+    // Offset: 0x1C0F184
     static ::Zenject::ProfileBlock* Start();
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj1, System.Object obj2)
-    // Offset: 0x1C1B4B8
+    // Offset: 0x1C0F18C
     static ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj)
-    // Offset: 0x1C1B4C0
+    // Offset: 0x1C0F194
     static ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj);
     // static public Zenject.ProfileBlock Start(System.String sampleName)
-    // Offset: 0x1C1B4C8
+    // Offset: 0x1C0F19C
     static ::Zenject::ProfileBlock* Start(::StringW sampleName);
     // public System.Void Dispose()
-    // Offset: 0x1C1B4D0
+    // Offset: 0x1C0F1A4
     void Dispose();
   }; // Zenject.ProfileBlock
   #pragma pack(pop)

@@ -69,28 +69,32 @@ namespace UnityEngine::TestTools {
     operator ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerableTestMethodCommand
+    inline ::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand* i_IEnumerableTestMethodCommand() noexcept {
+      return reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
+    }
     // Deleting conversion operator: operator ::NUnit::Framework::Internal::Test*
     constexpr operator ::NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x19779C8
+    // Offset: 0x197350C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand* New_ctor(::NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableTestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x198215C
+    // Offset: 0x197DCA0
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Boolean AdvanceEnumerator(System.Collections.IEnumerator enumerator)
-    // Offset: 0x1982224
+    // Offset: 0x197DD68
     bool AdvanceEnumerator(::System::Collections::IEnumerator* enumerator);
     // private System.Collections.IEnumerator ExecuteEnumerableAndRecordExceptions(System.Collections.IEnumerator enumerator, UnityEngine.TestTools.EnumerableTestMethodCommand/UnityEngine.TestTools.EnumeratorContext context)
-    // Offset: 0x1982360
+    // Offset: 0x197DEA4
     ::System::Collections::IEnumerator* ExecuteEnumerableAndRecordExceptions(::System::Collections::IEnumerator* enumerator, ::UnityEngine::TestTools::EnumerableTestMethodCommand::EnumeratorContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1982410
+    // Offset: 0x197DF54
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

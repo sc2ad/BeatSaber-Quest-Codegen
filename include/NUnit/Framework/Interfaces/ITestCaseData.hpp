@@ -27,6 +27,10 @@ namespace NUnit::Framework::Interfaces {
     operator ::NUnit::Framework::Interfaces::ITestData() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ITestData*>(this);
     }
+    // Creating interface conversion operator: i_ITestData
+    inline ::NUnit::Framework::Interfaces::ITestData* i_ITestData() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ITestData*>(this);
+    }
   }; // NUnit.Framework.Interfaces.ITestCaseData
   #pragma pack(pop)
 }

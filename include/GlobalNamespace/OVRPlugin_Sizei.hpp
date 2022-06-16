@@ -41,6 +41,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly OVRPlugin/Sizei zero
     static ::GlobalNamespace::OVRPlugin::Sizei _get_zero();
     // Set static field: static public readonly OVRPlugin/Sizei zero
@@ -50,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 h
     [[deprecated("Use field access instead!")]] int& dyn_h();
     // static private System.Void .cctor()
-    // Offset: 0x1B1DDF8
+    // Offset: 0x1B1593C
     static void _cctor();
   }; // OVRPlugin/Sizei
   #pragma pack(pop)

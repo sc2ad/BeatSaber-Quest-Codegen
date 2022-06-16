@@ -39,6 +39,10 @@ namespace Priority_Queue {
     operator ::System::Collections::Generic::IEnumerable_1<TItem>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_TItem
+    inline ::System::Collections::Generic::IEnumerable_1<TItem>* i_IEnumerable_1_TItem() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TItem>*>(this);
+    }
     // public TItem get_First()
     // Offset: 0xFFFFFFFFFFFFFFFF
     TItem get_First() {

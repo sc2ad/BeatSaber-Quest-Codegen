@@ -56,13 +56,13 @@ namespace Menu::ViewControllers {
     // Get instance field reference: private readonly AvatarData <avatarData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public EditAvatarViewController/AvatarEditPart get_avatarEditPart()
-    // Offset: 0x12FAE1C
+    // Offset: 0x12FCDDC
     ::GlobalNamespace::EditAvatarViewController::AvatarEditPart get_avatarEditPart();
     // public AvatarData get_avatarData()
-    // Offset: 0x12FAE24
+    // Offset: 0x12FCDE4
     ::GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void .ctor(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x12FAE2C
+    // Offset: 0x12FCDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarHistorySnapshot* New_ctor(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Menu::ViewControllers::EditAvatarHistorySnapshot::.ctor");

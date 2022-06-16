@@ -42,17 +42,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 bits
     [[deprecated("Use field access instead!")]] int& dyn_bits();
     // public System.Int32 get_EffectiveKeyBits()
-    // Offset: 0x15F947C
+    // Offset: 0x15F8FA0
     int get_EffectiveKeyBits();
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen, System.Int32 bits)
-    // Offset: 0x15F9454
+    // Offset: 0x15F8F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC2Parameters* New_ctor(::ArrayW<uint8_t> key, int keyOff, int keyLen, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Parameters*, creationType>(key, keyOff, keyLen, bits)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x15F9418
+    // Offset: 0x15F8F3C
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

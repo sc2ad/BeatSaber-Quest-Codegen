@@ -49,28 +49,36 @@ namespace MasterServer {
     operator ::BGNet::Core::Messages::IUnconnectedUnreliableMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedUnreliableMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedUnreliableMessage
+    inline ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* i_IUnconnectedUnreliableMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedUnreliableMessage*>(this);
+    }
     // Creating interface conversion operator: operator ::MasterServer::IUserMasterServerMessage
     operator ::MasterServer::IUserMasterServerMessage() noexcept {
       return *reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUserMasterServerMessage
+    inline ::MasterServer::IUserMasterServerMessage* i_IUserMasterServerMessage() noexcept {
+      return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
+    }
     // static public PacketPool`1<MasterServer.SessionKeepaliveMessage> get_pool()
-    // Offset: 0x172CD10
+    // Offset: 0x1729854
     static ::GlobalNamespace::PacketPool_1<::MasterServer::SessionKeepaliveMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x172CDBC
+    // Offset: 0x1729900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SessionKeepaliveMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::SessionKeepaliveMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SessionKeepaliveMessage*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x172CD58
+    // Offset: 0x172989C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x172CD5C
+    // Offset: 0x17298A0
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x172CD60
+    // Offset: 0x17298A4
     void Release();
   }; // MasterServer.SessionKeepaliveMessage
   #pragma pack(pop)

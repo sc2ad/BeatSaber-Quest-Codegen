@@ -27,6 +27,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IHandshakeMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
     }
+    // Creating interface conversion operator: i_IHandshakeMessage
+    inline ::BGNet::Core::Messages::IHandshakeMessage* i_IHandshakeMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
+    }
   }; // BGNet.Core.Messages.IHandshakeServerToClientMessage
   #pragma pack(pop)
 }

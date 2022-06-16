@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Animator* multiplierAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D72A8
+    // [InjectAttribute] Offset: 0x10DA034
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
@@ -113,32 +113,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _progressTarget
     [[deprecated("Use field access instead!")]] float& dyn__progressTarget();
     // public System.Void .ctor()
-    // Offset: 0x1466F14
+    // Offset: 0x148CDBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreMultiplierUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreMultiplierUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMultiplierUIController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1466998
+    // Offset: 0x148C840
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1466C20
+    // Offset: 0x148CAC8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1466C24
+    // Offset: 0x148CACC
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x1466A78
+    // Offset: 0x148C920
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1466C28
+    // Offset: 0x148CAD0
     void UnregisterFromEvents();
     // protected System.Void Update()
-    // Offset: 0x1466D28
+    // Offset: 0x148CBD0
     void Update();
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single progress)
-    // Offset: 0x1466E34
+    // Offset: 0x148CCDC
     void HandleMultiplierDidChange(int multiplier, float progress);
   }; // ScoreMultiplierUIController
   #pragma pack(pop)

@@ -50,6 +50,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public TMPro.TMP_FontAsset regularTypeface
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_FontAsset*& dyn_regularTypeface();
     // Get instance field reference: public TMPro.TMP_FontAsset italicTypeface

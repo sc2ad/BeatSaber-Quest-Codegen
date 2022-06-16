@@ -58,35 +58,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerData _playerData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerData*& dyn__playerData();
     // public PlayerDataFileManagerSO get_playerDataFileManager()
-    // Offset: 0x13D6B34
+    // Offset: 0x13DA3DC
     ::GlobalNamespace::PlayerDataFileManagerSO* get_playerDataFileManager();
     // public PlayerData get_playerData()
-    // Offset: 0x13D6B3C
+    // Offset: 0x13DA3E4
     ::GlobalNamespace::PlayerData* get_playerData();
     // public System.Void .ctor()
-    // Offset: 0x13D6BD8
+    // Offset: 0x13DA480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerDataModel*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x13D6B44
+    // Offset: 0x13DA3EC
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x13D6B78
+    // Offset: 0x13DA420
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x13D6BA4
+    // Offset: 0x13DA44C
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0x13D6BA8
+    // Offset: 0x13DA450
     void ResetData();
     // public System.Void Save()
-    // Offset: 0x13D6B84
+    // Offset: 0x13DA42C
     void Save();
     // public System.Void Load()
-    // Offset: 0x13D6B48
+    // Offset: 0x13DA3F0
     void Load();
   }; // PlayerDataModel
   #pragma pack(pop)

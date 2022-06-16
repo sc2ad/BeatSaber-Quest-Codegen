@@ -63,35 +63,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerGameState _gameState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerGameState& dyn__gameState();
     // public MultiplayerGameState get_gameState()
-    // Offset: 0x14CE2E4
+    // Offset: 0x152A610
     ::GlobalNamespace::MultiplayerGameState get_gameState();
     // public System.Void add_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x14CE2EC
+    // Offset: 0x152A618
     void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x14CE390
+    // Offset: 0x152A6BC
     void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x14CE434
+    // Offset: 0x152A760
     void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_gameStateDidChangeAlwaysSentEvent(System.Action`1<MultiplayerGameState> value)
-    // Offset: 0x14CE4D8
+    // Offset: 0x152A804
     void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void .ctor()
-    // Offset: 0x14CE624
+    // Offset: 0x152A958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateModel*, creationType>()));
     }
     // public System.Void SetGameState(MultiplayerGameState newGameState)
-    // Offset: 0x14CD770
+    // Offset: 0x152A334
     void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
     // public System.Void SetGameStateWithoutNotification(MultiplayerGameState newGameState)
-    // Offset: 0x14CB7F4
+    // Offset: 0x152A950
     void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetGameState(MultiplayerGameState newGameState, System.Boolean sendNotification)
-    // Offset: 0x14CE57C
+    // Offset: 0x152A8A8
     void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
   }; // LobbyGameStateModel
   #pragma pack(pop)

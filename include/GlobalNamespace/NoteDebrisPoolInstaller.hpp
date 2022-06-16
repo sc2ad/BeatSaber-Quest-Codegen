@@ -96,14 +96,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
     // public System.Void .ctor()
-    // Offset: 0x14AFB80
+    // Offset: 0x14B2E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebrisPoolInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisPoolInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisPoolInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14AF96C
+    // Offset: 0x14B2C34
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

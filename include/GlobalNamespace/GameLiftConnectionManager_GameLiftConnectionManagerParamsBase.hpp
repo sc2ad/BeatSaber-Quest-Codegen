@@ -77,6 +77,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*>(this);
     }
+    // Creating interface conversion operator: i_GameLiftConnectionManager
+    inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* i_GameLiftConnectionManager() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*>(this);
+    }
     // Get instance field reference: public System.Threading.Tasks.Task`1<IAuthenticationTokenProvider> authenticationTokenProviderTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& dyn_authenticationTokenProviderTask();
     // Get instance field reference: public BGNet.Core.GameLift.IGameLiftPlayerSessionProvider gameLiftPlayerSessionProvider
@@ -86,7 +90,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // protected System.Void .ctor()
-    // Offset: 0x167BFFC
+    // Offset: 0x167AB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftConnectionManager::GameLiftConnectionManagerParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManagerParamsBase::.ctor");

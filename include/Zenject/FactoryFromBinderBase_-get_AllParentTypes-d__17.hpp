@@ -80,6 +80,10 @@ namespace Zenject {
     operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
     }
+    // Creating interface conversion operator: i_Type
+    inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i_Type() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>
     operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this);
@@ -95,41 +99,41 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.Type> <>7__wrap1
     [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::System::Type*>::Enumerator& dyn_$$7__wrap1();
     // private System.Type System.Collections.Generic.IEnumerator<System.Type>.get_Current()
-    // Offset: 0x1E1B5CC
+    // Offset: 0x1E102A0
     ::System::Type* System_Collections_Generic_IEnumerator$System_Type$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1E1B634
+    // Offset: 0x1E10308
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1E1815C
+    // Offset: 0x1E0CE30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryFromBinderBase::$get_AllParentTypes$d__17* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinderBase::$get_AllParentTypes$d__17::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinderBase::$get_AllParentTypes$d__17*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1E1B3BC
+    // Offset: 0x1E10090
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1E1B430
+    // Offset: 0x1E10104
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1E1B3D8
+    // Offset: 0x1E100AC
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1E1B5D4
+    // Offset: 0x1E102A8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Type> System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator()
-    // Offset: 0x1E1B63C
+    // Offset: 0x1E10310
     ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1E1B6E8
+    // Offset: 0x1E103BC
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E1B6EC
+    // Offset: 0x1E103C0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E1B7B8
+    // Offset: 0x1E1048C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FactoryFromBinderBase/Zenject.<get_AllParentTypes>d__17
   // WARNING Not writing size check since size may be invalid!

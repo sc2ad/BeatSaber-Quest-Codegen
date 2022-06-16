@@ -62,18 +62,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(this);
     }
+    // Creating interface conversion operator: i_ISceneProvider
+    inline ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* i_ISceneProvider() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1EEEFA8
+    // Offset: 0x1EE3C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneProvider*, creationType>()));
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ProvideScene(UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x1EEE934
+    // Offset: 0x1EE3608
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> ReleaseScene(UnityEngine.ResourceManagement.ResourceManager resourceManager, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x1EEEDBC
+    // Offset: 0x1EE3A90
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
   }; // UnityEngine.ResourceManagement.ResourceProviders.SceneProvider
   #pragma pack(pop)

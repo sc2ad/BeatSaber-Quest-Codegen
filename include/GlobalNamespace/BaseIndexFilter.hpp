@@ -76,6 +76,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IIndexFilter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IIndexFilter*>(this);
     }
+    // Creating interface conversion operator: i_IIndexFilter
+    inline ::GlobalNamespace::IIndexFilter* i_IIndexFilter() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IIndexFilter*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 _start
     [[deprecated("Use field access instead!")]] int& dyn__start();
     // Get instance field reference: private readonly System.Int32 _step
@@ -85,20 +89,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _currentValue
     [[deprecated("Use field access instead!")]] int& dyn__currentValue();
     // public System.Int32 get_Count()
-    // Offset: 0x1347334
+    // Offset: 0x134A2F4
     int get_Count();
     // public System.Void .ctor(System.Int32 start, System.Int32 step, System.Int32 count)
-    // Offset: 0x134733C
+    // Offset: 0x134A2FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseIndexFilter* New_ctor(int start, int step, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseIndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseIndexFilter*, creationType>(start, step, count)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x134737C
+    // Offset: 0x134A33C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.Generic.IEnumerator`1<System.Int32> GetEnumerator()
-    // Offset: 0x1347380
+    // Offset: 0x134A340
     ::System::Collections::Generic::IEnumerator_1<int>* GetEnumerator();
   }; // BaseIndexFilter
   #pragma pack(pop)

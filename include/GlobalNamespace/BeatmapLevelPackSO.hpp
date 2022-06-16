@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* smallCoverImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D0DF0
+    // [SpaceAttribute] Offset: 0x10D3930
     // private BeatmapLevelCollectionSO _beatmapLevelCollection
     // Size: 0x8
     // Offset: 0x40
@@ -87,6 +87,10 @@ namespace GlobalNamespace {
     // Creating interface conversion operator: operator ::GlobalNamespace::IBeatmapLevelPack
     operator ::GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
+    }
+    // Creating interface conversion operator: i_IBeatmapLevelPack
+    inline ::GlobalNamespace::IBeatmapLevelPack* i_IBeatmapLevelPack() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelPack*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
@@ -103,28 +107,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelCollectionSO _beatmapLevelCollection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelCollectionSO*& dyn__beatmapLevelCollection();
     // public System.String get_packID()
-    // Offset: 0x1507BB0
+    // Offset: 0x1508CF8
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0x1507BB8
+    // Offset: 0x1508D00
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1507BC0
+    // Offset: 0x1508D08
     ::StringW get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1507BC8
+    // Offset: 0x1508D10
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1507BD0
+    // Offset: 0x1508D18
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x1507BD8
+    // Offset: 0x1508D20
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1507BE0
+    // Offset: 0x1508D28
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x1507BE8
+    // Offset: 0x1508D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelPackSO::.ctor");

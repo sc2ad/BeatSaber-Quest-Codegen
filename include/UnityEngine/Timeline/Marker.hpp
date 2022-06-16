@@ -38,8 +38,8 @@ namespace UnityEngine::Timeline {
   class Marker : public ::UnityEngine::ScriptableObject/*, public ::UnityEngine::Timeline::IMarker*/ {
     public:
     public:
-    // [TimeFieldAttribute] Offset: 0x1092484
-    // [TooltipAttribute] Offset: 0x1092484
+    // [TimeFieldAttribute] Offset: 0x1093F7C
+    // [TooltipAttribute] Offset: 0x1093F7C
     // private System.Double m_Time
     // Size: 0x8
     // Offset: 0x18
@@ -57,6 +57,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::IMarker() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::IMarker*>(this);
     }
+    // Creating interface conversion operator: i_IMarker
+    inline ::UnityEngine::Timeline::IMarker* i_IMarker() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::IMarker*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Double m_Time
@@ -64,29 +68,29 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::TrackAsset*& dyn_$parent$k__BackingField();
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x1DB9B20
+    // Offset: 0x1DAD7F4
     ::UnityEngine::Timeline::TrackAsset* get_parent();
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x1DB9B28
+    // Offset: 0x1DAD7FC
     void set_parent(::UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_time()
-    // Offset: 0x1DB9B30
+    // Offset: 0x1DAD804
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1DB9B38
+    // Offset: 0x1DAD80C
     void set_time(double value);
     // protected System.Void .ctor()
-    // Offset: 0x1DB9D20
+    // Offset: 0x1DAD9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Marker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::Marker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Marker*, creationType>()));
     }
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x1DB9BB8
+    // Offset: 0x1DAD88C
     void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x1DB9D1C
+    // Offset: 0x1DAD9F0
     void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
   }; // UnityEngine.Timeline.Marker
   #pragma pack(pop)

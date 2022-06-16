@@ -32,14 +32,14 @@ namespace UnityEngine::ResourceManagement::Util {
   struct SerializedType/*, public ::System::ValueType*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x10C2970
+    // [FormerlySerializedAsAttribute] Offset: 0x10C4488
     // private System.String m_AssemblyName
     // Size: 0x8
     // Offset: 0x0
     ::StringW m_AssemblyName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10C29BC
+    // [FormerlySerializedAsAttribute] Offset: 0x10C44D4
     // private System.String m_ClassName
     // Size: 0x8
     // Offset: 0x8
@@ -65,6 +65,10 @@ namespace UnityEngine::ResourceManagement::Util {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.String m_AssemblyName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_AssemblyName();
     // Get instance field reference: private System.String m_ClassName
@@ -74,25 +78,25 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean <ValueChanged>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ValueChanged$k__BackingField();
     // public System.String get_AssemblyName()
-    // Offset: 0x1EF21C0
+    // Offset: 0x1EE6E94
     ::StringW get_AssemblyName();
     // public System.String get_ClassName()
-    // Offset: 0x1EF21C8
+    // Offset: 0x1EE6E9C
     ::StringW get_ClassName();
     // public System.Type get_Value()
-    // Offset: 0x1EF1FA8
+    // Offset: 0x1EE6C7C
     ::System::Type* get_Value();
     // public System.Void set_Value(System.Type value)
-    // Offset: 0x1EF2284
+    // Offset: 0x1EE6F58
     void set_Value(::System::Type* value);
     // public System.Boolean get_ValueChanged()
-    // Offset: 0x1EF2354
+    // Offset: 0x1EE7028
     bool get_ValueChanged();
     // public System.Void set_ValueChanged(System.Boolean value)
-    // Offset: 0x1EF235C
+    // Offset: 0x1EE7030
     void set_ValueChanged(bool value);
     // public override System.String ToString()
-    // Offset: 0x1EF21D0
+    // Offset: 0x1EE6EA4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

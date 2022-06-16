@@ -99,6 +99,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Byte bold
     [[deprecated("Use field access instead!")]] uint8_t& dyn_bold();
     // Get instance field reference: public System.Byte italic
@@ -120,13 +124,13 @@ namespace TMPro {
     // Get instance field reference: public System.Byte smallcaps
     [[deprecated("Use field access instead!")]] uint8_t& dyn_smallcaps();
     // public System.Void Clear()
-    // Offset: 0x1447BC4
+    // Offset: 0x1439738
     void Clear();
     // public System.Byte Add(TMPro.FontStyles style)
-    // Offset: 0x1447BD0
+    // Offset: 0x1439744
     uint8_t Add(::TMPro::FontStyles style);
     // public System.Byte Remove(TMPro.FontStyles style)
-    // Offset: 0x1447C98
+    // Offset: 0x143980C
     uint8_t Remove(::TMPro::FontStyles style);
   }; // TMPro.TMP_FontStyleStack
   #pragma pack(pop)

@@ -73,6 +73,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -198,23 +202,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_WorkItemTally _workItemTally
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
     // public System.Void .ctor()
-    // Offset: 0x1B0B3D8
+    // Offset: 0x1B01F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TOPNodeData*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x1B0B360
+    // Offset: 0x1B01EA4
     void Reset();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x1B0B384
+    // Offset: 0x1B01EC8
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x1B0B3A0
+    // Offset: 0x1B01EE4
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x1B0B3BC
+    // Offset: 0x1B01F00
     bool AnyWorkItemsPending();
   }; // HoudiniEngineUnity.HEU_TOPNodeData
   #pragma pack(pop)

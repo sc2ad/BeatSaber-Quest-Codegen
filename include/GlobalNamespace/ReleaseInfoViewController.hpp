@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _firstTextAsset
     [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn__firstTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x14557AC
+    // Offset: 0x147B654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReleaseInfoViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReleaseInfoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReleaseInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1455740
+    // Offset: 0x147B5E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

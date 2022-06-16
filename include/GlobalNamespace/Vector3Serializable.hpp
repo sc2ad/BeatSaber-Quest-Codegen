@@ -71,13 +71,25 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>
     operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(this);
+    }
+    // Creating interface conversion operator: i_Vector3Serializable
+    inline ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>* i_Vector3Serializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(this);
     }
     // Get instance field reference: private System.Int32 _x
     [[deprecated("Use field access instead!")]] int& dyn__x();
@@ -86,38 +98,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _z
     [[deprecated("Use field access instead!")]] int& dyn__z();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0x2A06FD4
+    // Offset: 0x2A0418C
     Vector3Serializable(::UnityEngine::Vector3 v);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A07088
+    // Offset: 0x2A04240
     Vector3Serializable(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A02E74
+    // Offset: 0x2A0002C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A02C60
+    // Offset: 0x29FFE18
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0x2A04668
+    // Offset: 0x2A01820
     bool Equals(::GlobalNamespace::Vector3Serializable other);
     // public System.Boolean Approximately(Vector3Serializable other)
-    // Offset: 0x2A06CD4
+    // Offset: 0x2A03E8C
     bool Approximately(::GlobalNamespace::Vector3Serializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2A048D8
+    // Offset: 0x2A01A90
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2A06D44
+    // Offset: 0x2A03EFC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A047B4
+    // Offset: 0x2A0196C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2A06DEC
+    // Offset: 0x2A03FA4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -126,10 +138,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
   // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2A04BC0
+  // Offset: 0x2A01D78
   ::GlobalNamespace::Vector3Serializable operator+(const ::GlobalNamespace::Vector3Serializable& a, const ::GlobalNamespace::Vector3Serializable& b);
   // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2A04C5C
+  // Offset: 0x2A01E14
   ::GlobalNamespace::Vector3Serializable operator-(const ::GlobalNamespace::Vector3Serializable& a, const ::GlobalNamespace::Vector3Serializable& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

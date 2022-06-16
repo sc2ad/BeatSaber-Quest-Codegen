@@ -55,9 +55,17 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IPoolablePacket
     operator ::GlobalNamespace::IPoolablePacket() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
+    }
+    // Creating interface conversion operator: i_IPoolablePacket
+    inline ::GlobalNamespace::IPoolablePacket* i_IPoolablePacket() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IPoolablePacket*>(this);
     }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
@@ -66,26 +74,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String secret
     [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x2634000
+    // Offset: 0x262BBC4
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x2634714
+    // Offset: 0x262C2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ConnectToMasterServerMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerMessage*, creationType>()));
     }
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
-    // Offset: 0x2634244
+    // Offset: 0x262BE08
     ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x26346BC
+    // Offset: 0x262C280
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26346E0
+    // Offset: 0x262C2A4
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2634620
+    // Offset: 0x262C1E4
     void Release();
   }; // PartyMessageHandler/ConnectToMasterServerMessage
   #pragma pack(pop)

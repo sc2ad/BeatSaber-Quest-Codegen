@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapEventDataBoxGroup
+    inline ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* i_BeatmapEventDataBoxGroup() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
     constexpr operator ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() const noexcept {
       return dirtyBoxGroups;
@@ -66,23 +70,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _dirtyBoxGroups
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__dirtyBoxGroups();
     // public System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBoxGroup> get_dirtyBoxGroups()
-    // Offset: 0x1500CAC
+    // Offset: 0x1501DF4
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
     // public System.Void .ctor()
-    // Offset: 0x14FFF04
+    // Offset: 0x150104C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupProcessor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupProcessor*, creationType>()));
     }
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> insertedNode)
-    // Offset: 0x1500CB4
+    // Offset: 0x1501DFC
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
     // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x15011E8
+    // Offset: 0x1502330
     void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void ClearDirtyData()
-    // Offset: 0x15002B8
+    // Offset: 0x1501400
     void ClearDirtyData();
   }; // BeatmapEventDataBoxGroupProcessor
   #pragma pack(pop)

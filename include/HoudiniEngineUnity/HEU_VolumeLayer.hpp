@@ -123,6 +123,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_VolumeLayer
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* i_HEU_VolumeLayer() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
+    }
     // Get instance field reference: public System.String _layerName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__layerName();
     // Get instance field reference: public HoudiniEngineUnity.HEU_PartData _part
@@ -146,14 +150,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailPrototype _detailPrototype
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_DetailPrototype*& dyn__detailPrototype();
     // public System.Void .ctor()
-    // Offset: 0x1A0FB50
+    // Offset: 0x1A09694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeLayer*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeLayer other)
-    // Offset: 0x1A1297C
+    // Offset: 0x1A0C4C0
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
   }; // HoudiniEngineUnity.HEU_VolumeLayer
   #pragma pack(pop)

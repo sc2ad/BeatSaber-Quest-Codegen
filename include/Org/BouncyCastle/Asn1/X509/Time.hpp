@@ -55,6 +55,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1Choice
+    inline ::Org::BouncyCastle::Asn1::IAsn1Choice* i_IAsn1Choice() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Asn1::Asn1Object*
     constexpr operator ::Org::BouncyCastle::Asn1::Asn1Object*() const noexcept {
       return time;
@@ -62,28 +66,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object time
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_time();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object time)
-    // Offset: 0x1F17E90
+    // Offset: 0x1F0DB64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::Time::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Time*, creationType>(time)));
     }
     // static public Org.BouncyCastle.Asn1.X509.Time GetInstance(System.Object obj)
-    // Offset: 0x1F12DB4
+    // Offset: 0x1F08A88
     static ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x1F17FB8
+    // Offset: 0x1F0DC8C
     ::StringW GetTime();
     // public System.DateTime ToDateTime()
-    // Offset: 0x1F180A4
+    // Offset: 0x1F0DD78
     ::System::DateTime ToDateTime();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F18278
+    // Offset: 0x1F0DF4C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1F18280
+    // Offset: 0x1F0DF54
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -32,18 +32,22 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     operator ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapSaveDataItem
+    inline ::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* i_BeatmapSaveDataItem() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>*>(this);
+    }
     // public System.Single get_time()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();
     // protected System.Void .ctor()
-    // Offset: 0x286B840
+    // Offset: 0x2824CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveDataItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveDataItem*, creationType>()));
     }
     // public System.Int32 CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem other)
-    // Offset: 0x286BB40
+    // Offset: 0x2824FD0
     int CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
   #pragma pack(pop)

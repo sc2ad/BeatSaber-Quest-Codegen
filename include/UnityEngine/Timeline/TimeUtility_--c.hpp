@@ -45,20 +45,20 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_1
     static void _set_$$9__14_1(::System::Func_2<::Il2CppChar, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DC01D8
+    // Offset: 0x1DB3EAC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1DC023C
+    // Offset: 0x1DB3F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeUtility::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeUtility::$$c*, creationType>()));
     }
     // System.Boolean <ParseTimeCode>b__14_0(System.Char c)
-    // Offset: 0x1DC0244
+    // Offset: 0x1DB3F18
     bool $ParseTimeCode$b__14_0(::Il2CppChar c);
     // System.Boolean <ParseTimeCode>b__14_1(System.Char c)
-    // Offset: 0x1DC02AC
+    // Offset: 0x1DB3F80
     bool $ParseTimeCode$b__14_1(::Il2CppChar c);
   }; // UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c
   #pragma pack(pop)

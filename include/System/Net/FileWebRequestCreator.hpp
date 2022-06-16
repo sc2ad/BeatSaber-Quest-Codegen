@@ -44,15 +44,19 @@ namespace System::Net {
     operator ::System::Net::IWebRequestCreate() noexcept {
       return *reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
     }
+    // Creating interface conversion operator: i_IWebRequestCreate
+    inline ::System::Net::IWebRequestCreate* i_IWebRequestCreate() noexcept {
+      return reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
+    }
     // System.Void .ctor()
-    // Offset: 0x1A80764
+    // Offset: 0x1A792A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebRequestCreator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FileWebRequestCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebRequestCreator*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x1A8076C
+    // Offset: 0x1A792B0
     ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.FileWebRequestCreator
   #pragma pack(pop)

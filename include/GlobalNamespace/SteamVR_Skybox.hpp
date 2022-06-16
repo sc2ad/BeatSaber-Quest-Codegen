@@ -59,6 +59,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -168,29 +172,29 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single StereoIpdMm
     [[deprecated("Use field access instead!")]] float& dyn_StereoIpdMm();
     // public System.Void .ctor()
-    // Offset: 0x18B3AB8
+    // Offset: 0x18AF5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Skybox* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Skybox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Skybox*, creationType>()));
     }
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x18B39F0
+    // Offset: 0x18AF534
     void SetTextureByIndex(int i, ::UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x18B3A44
+    // Offset: 0x18AF588
     ::UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x18AA490
+    // Offset: 0x18A5FD4
     static void SetOverride(::UnityEngine::Texture* front, ::UnityEngine::Texture* back, ::UnityEngine::Texture* left, ::UnityEngine::Texture* right, ::UnityEngine::Texture* top, ::UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x18AA8BC
+    // Offset: 0x18A6400
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x18B3AA0
+    // Offset: 0x18AF5E4
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18B3AB4
+    // Offset: 0x18AF5F8
     void OnDisable();
   }; // SteamVR_Skybox
   #pragma pack(pop)

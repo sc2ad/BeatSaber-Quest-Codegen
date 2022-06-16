@@ -47,6 +47,10 @@ namespace Mono {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::Mono::RuntimeStructs::RemoteClass*
     constexpr operator ::Mono::RuntimeStructs::RemoteClass*() const noexcept {
       return value;
@@ -54,7 +58,7 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.RemoteClass* value
     [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::RemoteClass*& dyn_value();
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0x1F53788
+    // Offset: 0x1F4A45C
     ::Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

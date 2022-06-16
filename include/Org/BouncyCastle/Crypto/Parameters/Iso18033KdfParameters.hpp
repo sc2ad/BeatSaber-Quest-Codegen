@@ -37,6 +37,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
+    // Creating interface conversion operator: i_IDerivationParameters
+    inline ::Org::BouncyCastle::Crypto::IDerivationParameters* i_IDerivationParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return seed;
@@ -44,7 +48,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Byte[] seed
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_seed();
     // public System.Byte[] GetSeed()
-    // Offset: 0x15F91D4
+    // Offset: 0x15F8CF8
     ::ArrayW<uint8_t> GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
   #pragma pack(pop)

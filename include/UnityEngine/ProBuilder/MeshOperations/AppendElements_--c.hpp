@@ -53,20 +53,20 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__14_1
     static void _set_$$9__14_1(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A1D8C8
+    // Offset: 0x1A1840C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A1D92C
+    // Offset: 0x1A18470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppendElements::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppendElements::$$c*, creationType>()));
     }
     // System.Int32 <CreateShapeFromPolygon>b__7_0(UnityEngine.Vector3[] arr)
-    // Offset: 0x1A1D934
+    // Offset: 0x1A18478
     int $CreateShapeFromPolygon$b__7_0(::ArrayW<::UnityEngine::Vector3> arr);
     // UnityEngine.Vector3 <AppendVerticesToEdge>b__14_1(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1A1D94C
+    // Offset: 0x1A18490
     ::UnityEngine::Vector3 $AppendVerticesToEdge$b__14_1(::UnityEngine::ProBuilder::Vertex* x);
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

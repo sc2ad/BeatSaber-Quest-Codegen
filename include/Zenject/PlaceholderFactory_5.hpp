@@ -87,6 +87,10 @@ namespace Zenject {
       operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>() noexcept {
         return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
       }
+      // Creating interface conversion operator: i_Type
+      inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i_Type() noexcept {
+        return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
+      }
       // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>
       operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>() noexcept {
         return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this);
@@ -190,6 +194,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>
     operator ::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>*>(this);
+    }
+    // Creating interface conversion operator: i_IFactory_5_TParam1_TParam2_TParam3_TParam4_TValue
+    inline ::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>* i_IFactory_5_TParam1_TParam2_TParam3_TParam4_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>*>(this);
     }
     // public TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4)
     // Offset: 0xFFFFFFFFFFFFFFFF

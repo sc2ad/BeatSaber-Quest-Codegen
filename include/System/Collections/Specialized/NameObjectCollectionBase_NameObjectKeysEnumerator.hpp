@@ -51,6 +51,10 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: private System.Int32 _pos
     [[deprecated("Use field access instead!")]] int& dyn__pos();
     // Get instance field reference: private System.Collections.Specialized.NameObjectCollectionBase _coll
@@ -58,20 +62,20 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Int32 _version
     [[deprecated("Use field access instead!")]] int& dyn__version();
     // public System.Object get_Current()
-    // Offset: 0x1D90A94
+    // Offset: 0x1D84768
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1D90454
+    // Offset: 0x1D84128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D90900
+    // Offset: 0x1D845D4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D909F0
+    // Offset: 0x1D846C4
     void Reset();
   }; // System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectKeysEnumerator
   #pragma pack(pop)

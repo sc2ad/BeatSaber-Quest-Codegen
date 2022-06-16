@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_TreeInstance
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i_Test_TreeInstance() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::TreeInstance
     constexpr operator ::UnityEngine::TreeInstance() const noexcept {
       return self;
@@ -49,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.TreeInstance self
     [[deprecated("Use field access instead!")]] ::UnityEngine::TreeInstance& dyn_self();
     // public System.Void .ctor(UnityEngine.TreeInstance self)
-    // Offset: 0x2A987E4
+    // Offset: 0x2A8E5B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TreeInstance other)
-    // Offset: 0x2A9881C
+    // Offset: 0x2A8E5F0
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
   }; // HoudiniEngineUnity.Test_TreeInstance
   #pragma pack(pop)

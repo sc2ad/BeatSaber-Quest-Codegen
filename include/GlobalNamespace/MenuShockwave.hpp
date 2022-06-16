@@ -85,26 +85,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x12FBCEC
+    // Offset: 0x12FDCAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuShockwave* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuShockwave::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuShockwave*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x12FBA50
+    // Offset: 0x12FDA10
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x12FBA60
+    // Offset: 0x12FDA20
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12FBB34
+    // Offset: 0x12FDAF4
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x12FBC08
+    // Offset: 0x12FDBC8
     void HandleButtonClickEvent();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x12FBC3C
+    // Offset: 0x12FDBFC
     void SpawnShockwave(::UnityEngine::Vector3 pos);
   }; // MenuShockwave
   #pragma pack(pop)

@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA128
+    // [InjectAttribute] Offset: 0x10DCEB4
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -104,35 +104,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
     [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Color>*& dyn__scoreColorTween();
     // public System.Void .ctor()
-    // Offset: 0x13A5D78
+    // Offset: 0x13BC360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreRingItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreRingItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingItem*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13A5934
+    // Offset: 0x13BBF1C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A5AFC
+    // Offset: 0x13BC0E4
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x13A5B94
+    // Offset: 0x13BC17C
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x13A5C10
+    // Offset: 0x13BC1F8
     void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0x13A5D40
+    // Offset: 0x13BC328
     void SetName(::StringW text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0x13A5D5C
+    // Offset: 0x13BC344
     void SetScore(::StringW text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x13A5D80
+    // Offset: 0x13BC368
     void $Awake$b__6_0(::UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x13A5DA4
+    // Offset: 0x13BC38C
     void $Awake$b__6_1(::UnityEngine::Color val);
   }; // MultiplayerScoreRingItem
   #pragma pack(pop)

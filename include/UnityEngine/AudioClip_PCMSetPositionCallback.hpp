@@ -35,20 +35,20 @@ namespace UnityEngine {
   class AudioClip::PCMSetPositionCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2AD19CC
+    // Offset: 0x2AC77A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip::PCMSetPositionCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AudioClip::PCMSetPositionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip::PCMSetPositionCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Int32 position)
-    // Offset: 0x2AD172C
+    // Offset: 0x2AC7500
     void Invoke(int position);
     // public System.IAsyncResult BeginInvoke(System.Int32 position, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2AD19DC
+    // Offset: 0x2AC77B0
     ::System::IAsyncResult* BeginInvoke(int position, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2AD1A68
+    // Offset: 0x2AC783C
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback
   #pragma pack(pop)

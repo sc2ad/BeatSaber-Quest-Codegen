@@ -295,6 +295,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt32 ConnectedControllers
     [[deprecated("Use field access instead!")]] uint& dyn_ConnectedControllers();
     // Get instance field reference: public System.UInt32 Buttons
@@ -384,7 +388,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte Reserved_00
     [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x1B11F44
+    // Offset: 0x1B09A88
     ControllerState4(::GlobalNamespace::OVRPlugin::ControllerState2 cs);
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)

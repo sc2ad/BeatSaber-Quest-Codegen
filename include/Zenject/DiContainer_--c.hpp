@@ -87,41 +87,41 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__198_0
     static void _set_$$9__198_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E14048
+    // Offset: 0x1E08D1C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E140AC
+    // Offset: 0x1E08D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<Zenject.DiContainer/Zenject.ProviderInfo> <get_AllProviders>b__33_0(System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo> x)
-    // Offset: 0x1E140B4
+    // Offset: 0x1E08D88
     ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer::ProviderInfo*>* $get_AllProviders$b__33_0(::System::Collections::Generic::List_1<::Zenject::DiContainer::ProviderInfo*>* x);
     // Zenject.IProvider <get_AllProviders>b__33_1(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x1E140BC
+    // Offset: 0x1E08D90
     ::Zenject::IProvider* $get_AllProviders$b__33_1(::Zenject::DiContainer::ProviderInfo* x);
     // System.Boolean <ResolveTypeAll>b__86_1(System.Type x)
-    // Offset: 0x1E140D4
+    // Offset: 0x1E08DA8
     bool $ResolveTypeAll$b__86_1(::System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
-    // Offset: 0x1E14140
+    // Offset: 0x1E08E14
     ::StringW $InstantiateInternal$b__97_0(::Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
-    // Offset: 0x1E141A8
+    // Offset: 0x1E08E7C
     ::StringW $InjectExplicitInternal$b__102_0(::Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
-    // Offset: 0x1E14210
+    // Offset: 0x1E08EE4
     bool $BindInternal$b__197_0(::System::Type* x);
     // System.Boolean <Bind>b__198_0(System.Type x)
-    // Offset: 0x1E1428C
+    // Offset: 0x1E08F60
     bool $Bind$b__198_0(::System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E14308
+    // Offset: 0x1E08FDC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E14364
+    // Offset: 0x1E09038
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DiContainer/Zenject.<>c
   #pragma pack(pop)

@@ -63,6 +63,10 @@ namespace Org::BouncyCastle::Asn1 {
     operator ::Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
+    // Creating interface conversion operator: i_IAsn1Convertible
+    inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* i_IAsn1Convertible() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
+    }
     // Get instance field reference: private System.Boolean _constructed
     [[deprecated("Use field access instead!")]] bool& dyn__constructed();
     // Get instance field reference: private System.Int32 _tagNumber
@@ -70,14 +74,14 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // System.Void .ctor(System.Boolean constructed, System.Int32 tagNumber, Org.BouncyCastle.Asn1.Asn1StreamParser parser)
-    // Offset: 0x1C26670
+    // Offset: 0x1C19344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerTaggedObjectParser* New_ctor(bool constructed, int tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerTaggedObjectParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerTaggedObjectParser*, creationType>(constructed, tagNumber, parser)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C266B8
+    // Offset: 0x1C1938C
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
   }; // Org.BouncyCastle.Asn1.BerTaggedObjectParser
   #pragma pack(pop)

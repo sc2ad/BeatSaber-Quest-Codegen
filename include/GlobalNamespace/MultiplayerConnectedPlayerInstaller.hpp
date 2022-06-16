@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager* connectedPlayerBeatmapObjectEventManagerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D85E8
+    // [SpaceAttribute] Offset: 0x10DB374
     // private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -101,14 +101,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8670
+    // [InjectAttribute] Offset: 0x10DB3FC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8680
+    // [InjectAttribute] Offset: 0x10DB40C
     // private readonly MultiplayerPlayerStartState _localPlayerStartState
     // Size: 0x4
     // Offset: 0x68
@@ -117,14 +117,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
     char __padding9[0x4] = {};
-    // [InjectAttribute] Offset: 0x10D8690
+    // [InjectAttribute] Offset: 0x10DB41C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D86A0
+    // [InjectAttribute] Offset: 0x10DB42C
     // private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     // Size: 0x8
     // Offset: 0x78
@@ -157,14 +157,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersSpecificSettingsAtGameStartModel();
     // public System.Void .ctor()
-    // Offset: 0x13D13B4
+    // Offset: 0x13D4C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13D0894
+    // Offset: 0x13D413C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

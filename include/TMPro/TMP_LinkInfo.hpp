@@ -85,6 +85,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public TMPro.TMP_Text textComponent
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text*& dyn_textComponent();
     // Get instance field reference: public System.Int32 hashCode
@@ -100,13 +104,13 @@ namespace TMPro {
     // Get instance field reference: System.Char[] linkID
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_linkID();
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x146CFB0
+    // Offset: 0x1446EE4
     void SetLinkID(::ArrayW<::Il2CppChar> text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0x146D0B0
+    // Offset: 0x1446FE4
     ::StringW GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0x146D1A4
+    // Offset: 0x14470D8
     ::StringW GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)

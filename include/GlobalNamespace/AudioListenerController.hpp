@@ -41,26 +41,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _startAudioListenerPauseState
     [[deprecated("Use field access instead!")]] bool& dyn__startAudioListenerPauseState();
     // public System.Boolean get_isPaused()
-    // Offset: 0x14F0EE8
+    // Offset: 0x14F3030
     bool get_isPaused();
     // public System.Void .ctor()
-    // Offset: 0x14F0F40
+    // Offset: 0x14F3088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioListenerController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioListenerController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioListenerController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14F0EF0
+    // Offset: 0x14F3038
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14F0F1C
+    // Offset: 0x14F3064
     void OnDestroy();
     // public System.Void Pause()
-    // Offset: 0x14F0F28
+    // Offset: 0x14F3070
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x14F0F34
+    // Offset: 0x14F307C
     void Resume();
   }; // AudioListenerController
   #pragma pack(pop)

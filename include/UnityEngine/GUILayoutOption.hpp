@@ -50,6 +50,10 @@ namespace UnityEngine {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -165,7 +169,7 @@ namespace UnityEngine {
     // Get instance field reference: System.Object value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_value();
     // System.Void .ctor(UnityEngine.GUILayoutOption/UnityEngine.Type type, System.Object value)
-    // Offset: 0x1FF7818
+    // Offset: 0x1FD642C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutOption* New_ctor(::UnityEngine::GUILayoutOption::Type type, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutOption::.ctor");

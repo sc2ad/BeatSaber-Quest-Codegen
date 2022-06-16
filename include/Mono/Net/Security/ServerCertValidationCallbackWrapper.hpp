@@ -55,20 +55,20 @@ namespace Mono::Net::Security {
   class ServerCertValidationCallbackWrapper : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1ADDBA8
+    // Offset: 0x1AD56EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallbackWrapper* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::ServerCertValidationCallbackWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallbackWrapper*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.Net.ServerCertValidationCallback callback, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1AD8CB8
+    // Offset: 0x1AD07FC
     bool Invoke(::System::Net::ServerCertValidationCallback* callback, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
     // public System.IAsyncResult BeginInvoke(System.Net.ServerCertValidationCallback callback, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors, System.AsyncCallback __callback, System.Object object)
-    // Offset: 0x1ADDBB8
+    // Offset: 0x1AD56FC
     ::System::IAsyncResult* BeginInvoke(::System::Net::ServerCertValidationCallback* callback, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors, ::System::AsyncCallback* __callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1ADDC68
+    // Offset: 0x1AD57AC
     bool EndInvoke(::System::IAsyncResult* result);
   }; // Mono.Net.Security.ServerCertValidationCallbackWrapper
   #pragma pack(pop)

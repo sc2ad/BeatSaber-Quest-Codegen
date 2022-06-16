@@ -60,6 +60,10 @@ namespace HoudiniEngineUnity {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -113,6 +117,10 @@ namespace HoudiniEngineUnity {
       // Creating interface conversion operator: operator ::System::Enum
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
+      }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -280,6 +288,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_ToolsInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>* i_HEU_ToolsInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _paintBrushSize
@@ -325,14 +337,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility _paintMeshVisiblity
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility& dyn__paintMeshVisiblity();
     // public System.Void .ctor()
-    // Offset: 0x1A0E6D8
+    // Offset: 0x1A0821C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ToolsInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ToolsInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ToolsInfo*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ToolsInfo other)
-    // Offset: 0x1A0E1F4
+    // Offset: 0x1A07D38
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
   }; // HoudiniEngineUnity.HEU_ToolsInfo
   #pragma pack(pop)

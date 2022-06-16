@@ -115,23 +115,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightRotationBeatmapEventCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightRotationBeatmapEventCallbackWrapper();
     // public System.Void .ctor(LightRotationGroupEffect/InitData initData, Tweening.SongTimeTweeningManager tweeningManager, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x14C58C0
+    // Offset: 0x14C8348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect::InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffect*, creationType>(initData, tweeningManager, beatmapCallbacksController)));
     }
     // public System.Void Cleanup()
-    // Offset: 0x14C5AA8
+    // Offset: 0x14C8530
     void Cleanup();
     // private System.Void HandleRotationChangeBeatmapEvent(LightRotationBeatmapEventData currentEventData)
-    // Offset: 0x14C5B54
+    // Offset: 0x14C85DC
     void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
     // private System.Void SetRotation(System.Single rotation)
-    // Offset: 0x14C5D0C
+    // Offset: 0x14C8794
     void SetRotation(float rotation);
     // static public System.Single ComputeTargetAngle(System.Single startAngle, System.Single targetAngle, System.Int32 loopCount, LightRotationDirection rotationOrientation)
-    // Offset: 0x14C5E10
+    // Offset: 0x14C8898
     static float ComputeTargetAngle(float startAngle, float targetAngle, int loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
   }; // LightRotationGroupEffect
   #pragma pack(pop)

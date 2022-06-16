@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public ::GlobalNamespace::IMultiplayerObservable*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D9028
+    // [InjectAttribute] Offset: 0x10DBDB4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
     }
+    // Creating interface conversion operator: i_IMultiplayerObservable
+    inline ::GlobalNamespace::IMultiplayerObservable* i_IMultiplayerObservable() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMultiplayerObservable*>(this);
+    }
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private System.Single _lastReturnedOffsetSyncTime
@@ -67,13 +71,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
     [[deprecated("Use field access instead!")]] float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x13C78D8
+    // Offset: 0x13CB180
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x13C7B00
+    // Offset: 0x13CB3A8
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x13C7C60
+    // Offset: 0x13CB508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerActivePlayersTimeOffsetAverage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::.ctor");

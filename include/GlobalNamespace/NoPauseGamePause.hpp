@@ -65,6 +65,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
     }
+    // Creating interface conversion operator: i_IGamePause
+    inline ::GlobalNamespace::IGamePause* i_IGamePause() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IGamePause*>(this);
+    }
     // Get instance field reference: private System.Action didPauseEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPauseEvent();
     // Get instance field reference: private System.Action willResumeEvent
@@ -74,41 +78,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _pause
     [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x14A896C
+    // Offset: 0x14ABC34
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x14A8974
+    // Offset: 0x14ABC3C
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x14A8A18
+    // Offset: 0x14ABCE0
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x14A8ABC
+    // Offset: 0x14ABD84
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x14A8B60
+    // Offset: 0x14ABE28
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x14A8C04
+    // Offset: 0x14ABECC
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x14A8CA8
+    // Offset: 0x14ABF70
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x14A8D9C
+    // Offset: 0x14AC064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoPauseGamePause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoPauseGamePause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoPauseGamePause*, creationType>()));
     }
     // public System.Void Pause()
-    // Offset: 0x14A8D4C
+    // Offset: 0x14AC014
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x14A8D6C
+    // Offset: 0x14AC034
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x14A8D80
+    // Offset: 0x14AC048
     void Resume();
   }; // NoPauseGamePause
   #pragma pack(pop)

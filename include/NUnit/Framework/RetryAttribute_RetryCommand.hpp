@@ -41,7 +41,7 @@ namespace NUnit::Framework {
     // Get instance field reference: private System.Int32 _retryCount
     [[deprecated("Use field access instead!")]] int& dyn__retryCount();
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x2A1609C
+    // Offset: 0x2A12254
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

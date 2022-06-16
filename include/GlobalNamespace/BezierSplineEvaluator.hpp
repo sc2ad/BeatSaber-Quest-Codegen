@@ -78,41 +78,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _currentSegmentIndex
     [[deprecated("Use field access instead!")]] int& dyn__currentSegmentIndex();
     // public System.Void .ctor(BezierSpline spline)
-    // Offset: 0x132FD14
+    // Offset: 0x1331CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSplineEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSplineEvaluator*, creationType>(spline)));
     }
     // public UnityEngine.Vector3 EvaluatePosition(System.Single time)
-    // Offset: 0x1332818
+    // Offset: 0x13347D8
     ::UnityEngine::Vector3 EvaluatePosition(float time);
     // private UnityEngine.Vector3 Evaluate(System.Single t)
-    // Offset: 0x1332950
+    // Offset: 0x1334910
     ::UnityEngine::Vector3 Evaluate(float t);
     // private UnityEngine.Vector3 EvaluateFirstDerivation(System.Single t)
-    // Offset: 0x1332B8C
+    // Offset: 0x1334B4C
     ::UnityEngine::Vector3 EvaluateFirstDerivation(float t);
     // private UnityEngine.Vector3 EvaluateSecondDerivation(System.Single t)
-    // Offset: 0x1332DE0
+    // Offset: 0x1334DA0
     ::UnityEngine::Vector3 EvaluateSecondDerivation(float t);
     // public System.Single OffsetSegmentAndGetT(System.Single time)
-    // Offset: 0x133283C
+    // Offset: 0x13347FC
     float OffsetSegmentAndGetT(float time);
     // private System.Single GetTForSegment(System.Int32 segmentIndex, System.Single time)
-    // Offset: 0x1333168
+    // Offset: 0x1335128
     float GetTForSegment(int segmentIndex, float time);
     // public System.Void GetTimeValuesForSegment(System.Int32 segmentIndex, out System.Single t0Value, out System.Single t1Value)
-    // Offset: 0x1333778
+    // Offset: 0x1335738
     void GetTimeValuesForSegment(int segmentIndex, ByRef<float> t0Value, ByRef<float> t1Value);
     // private System.Void OffsetStartIndexToDistance(System.Single time)
-    // Offset: 0x1333024
+    // Offset: 0x1334FE4
     void OffsetStartIndexToDistance(float time);
     // static private System.Single CubeRoot(System.Single x)
-    // Offset: 0x1333854
+    // Offset: 0x1335814
     static float CubeRoot(float x);
     // static private BezierSplineEvaluator/CubicSolveResult SolveCubic(System.Single a, System.Single b, System.Single c, System.Single d)
-    // Offset: 0x13332D8
+    // Offset: 0x1335298
     static ::GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
   }; // BezierSplineEvaluator
   #pragma pack(pop)

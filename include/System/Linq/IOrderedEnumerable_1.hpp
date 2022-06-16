@@ -45,6 +45,10 @@ namespace System::Linq {
     operator ::System::Collections::Generic::IEnumerable_1<TElement>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable_1_TElement
+    inline ::System::Collections::Generic::IEnumerable_1<TElement>* i_IEnumerable_1_TElement() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<TElement>*>(this);
+    }
     // public System.Linq.IOrderedEnumerable`1<TElement> CreateOrderedEnumerable(System.Func`2<TElement,TKey> keySelector, System.Collections.Generic.IComparer`1<TKey> comparer, System.Boolean descending)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class TKey>

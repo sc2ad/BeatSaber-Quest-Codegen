@@ -66,6 +66,10 @@ namespace Zenject {
     operator ::Zenject::IProvider() noexcept {
       return *reinterpret_cast<::Zenject::IProvider*>(this);
     }
+    // Creating interface conversion operator: i_IProvider
+    inline ::Zenject::IProvider* i_IProvider() noexcept {
+      return reinterpret_cast<::Zenject::IProvider*>(this);
+    }
     // Creating conversion operator: operator ::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>*
     constexpr operator ::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>*() const noexcept {
       return method;

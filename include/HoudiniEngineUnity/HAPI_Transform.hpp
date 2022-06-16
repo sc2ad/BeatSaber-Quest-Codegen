@@ -65,6 +65,10 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Single[] position
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
@@ -76,10 +80,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x16E1E4C
+    // Offset: 0x16DF970
     HAPI_Transform(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x16E1F00
+    // Offset: 0x16DFA24
     void Init();
   }; // HoudiniEngineUnity.HAPI_Transform
   #pragma pack(pop)

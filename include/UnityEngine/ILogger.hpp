@@ -38,6 +38,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ILogHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::ILogHandler*>(this);
     }
+    // Creating interface conversion operator: i_ILogHandler
+    inline ::UnityEngine::ILogHandler* i_ILogHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::ILogHandler*>(this);
+    }
     // public UnityEngine.ILogHandler get_logHandler()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ILogHandler* get_logHandler();

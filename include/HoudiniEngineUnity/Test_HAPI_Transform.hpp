@@ -42,6 +42,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_HAPI_Transform
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>* i_Test_HAPI_Transform() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*>(this);
+    }
     // Creating conversion operator: operator ::HoudiniEngineUnity::HAPI_Transform
     constexpr operator ::HoudiniEngineUnity::HAPI_Transform() const noexcept {
       return self;
@@ -49,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform self
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Transform& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_Transform self)
-    // Offset: 0x2A941BC
+    // Offset: 0x2A89F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_Transform*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_Transform other)
-    // Offset: 0x2A941F4
+    // Offset: 0x2A89FC8
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
   }; // HoudiniEngineUnity.Test_HAPI_Transform
   #pragma pack(pop)

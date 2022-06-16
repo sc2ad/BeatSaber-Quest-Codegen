@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0x10B62F0
+    // [TupleElementNamesAttribute] Offset: 0x10B8E08
     // private System.ValueTuple`2<System.String,System.String> <>2__current
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -67,6 +67,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>
     operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>*>(this);
@@ -82,32 +86,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public MetricIdentifier <>3__<>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MetricIdentifier& dyn_$$3__$$4__this();
     // private System.ValueTuple`2<System.String,System.String> System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current()
-    // Offset: 0x173AF4C
+    // Offset: 0x1737A90
     ::System::ValueTuple_2<::StringW, ::StringW> System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x173AFB8
+    // Offset: 0x1737AFC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x173ADF0
+    // Offset: 0x1737934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetricIdentifier::$GetTags$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MetricIdentifier::$GetTags$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MetricIdentifier::$GetTags$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x173AE88
+    // Offset: 0x17379CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x173AE8C
+    // Offset: 0x17379D0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x173AF58
+    // Offset: 0x1737A9C
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.ValueTuple`2<System.String,System.String>> System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator()
-    // Offset: 0x173B01C
+    // Offset: 0x1737B60
     ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>* System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x173B108
+    // Offset: 0x1737C4C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MetricIdentifier/<GetTags>d__13
   // WARNING Not writing size check since size may be invalid!

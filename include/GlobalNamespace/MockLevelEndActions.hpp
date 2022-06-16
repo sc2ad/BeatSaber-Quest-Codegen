@@ -53,24 +53,28 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
     }
+    // Creating interface conversion operator: i_ILevelEndActions
+    inline ::GlobalNamespace::ILevelEndActions* i_ILevelEndActions() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelEndActions*>(this);
+    }
     // Get instance field reference: private System.Action levelFailedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFailedEvent();
     // Get instance field reference: private System.Action levelFinishedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFinishedEvent();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x13C1E04
+    // Offset: 0x13C56AC
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x13C1EA8
+    // Offset: 0x13C5750
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x13C1F4C
+    // Offset: 0x13C57F4
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x13C1FF0
+    // Offset: 0x13C5898
     void remove_levelFinishedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13C2094
+    // Offset: 0x13C593C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockLevelEndActions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockLevelEndActions::.ctor");

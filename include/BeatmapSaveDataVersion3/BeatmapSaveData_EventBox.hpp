@@ -53,6 +53,10 @@ namespace BeatmapSaveDataVersion3 {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -102,16 +106,16 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType d
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType& dyn_d();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter get_indexFilter()
-    // Offset: 0x286D8B8
+    // Offset: 0x2826D48
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* get_indexFilter();
     // public System.Single get_beatDistributionParam()
-    // Offset: 0x286D8C0
+    // Offset: 0x2826D50
     float get_beatDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_beatDistributionParamType()
-    // Offset: 0x286D8C8
+    // Offset: 0x2826D58
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_beatDistributionParamType();
     // protected System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType)
-    // Offset: 0x286D8D0
+    // Offset: 0x2826D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::.ctor");

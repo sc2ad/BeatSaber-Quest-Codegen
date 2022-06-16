@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kFirstPrivacyPolicyVersion
     static void _set_kFirstPrivacyPolicyVersion(int value);
     // static field const value: static private System.Int32 kCurrentEulaVersion
-    static constexpr const int kCurrentEulaVersion = 1;
+    static constexpr const int kCurrentEulaVersion = 2;
     // Get static field: static private System.Int32 kCurrentEulaVersion
     static int _get_kCurrentEulaVersion();
     // Set static field: static private System.Int32 kCurrentEulaVersion
     static void _set_kCurrentEulaVersion(int value);
     // static field const value: static private System.Int32 kCurrentPrivacyPolicyVersion
-    static constexpr const int kCurrentPrivacyPolicyVersion = 1;
+    static constexpr const int kCurrentPrivacyPolicyVersion = 2;
     // Get static field: static private System.Int32 kCurrentPrivacyPolicyVersion
     static int _get_kCurrentPrivacyPolicyVersion();
     // Set static field: static private System.Int32 kCurrentPrivacyPolicyVersion
@@ -85,36 +85,45 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x1367120
+    // Offset: 0x13690B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 eulaVersion, System.Int32 privacyPolicyVersion, System.Int32 healthAndSafetyVersion)
-    // Offset: 0x136714C
+    // Offset: 0x13690E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
-    // Offset: 0x136718C
+    // Offset: 0x1369124
     void AgreeToEula();
     // public System.Void AgreeToPrivacyPolicy()
-    // Offset: 0x1367198
+    // Offset: 0x1369130
     void AgreeToPrivacyPolicy();
     // public System.Void AgreeToHealthAndSafety()
-    // Offset: 0x13671A4
+    // Offset: 0x136913C
     void AgreeToHealthAndSafety();
+    // public System.Boolean AgreedToAnyPreviousEula()
+    // Offset: 0x1369148
+    bool AgreedToAnyPreviousEula();
+    // public System.Boolean AgreedToAnyPreviousPrivacyPolicy()
+    // Offset: 0x1369164
+    bool AgreedToAnyPreviousPrivacyPolicy();
+    // public System.Boolean AgreedToAnyPreviousHealthAndSafety()
+    // Offset: 0x1369180
+    bool AgreedToAnyPreviousHealthAndSafety();
     // public System.Boolean AgreedToEula()
-    // Offset: 0x13671B0
+    // Offset: 0x136918C
     bool AgreedToEula();
     // public System.Boolean AgreedToPrivacyPolicy()
-    // Offset: 0x13671C0
+    // Offset: 0x136919C
     bool AgreedToPrivacyPolicy();
     // public System.Boolean AgreedToHealthAndSafety()
-    // Offset: 0x13671D0
+    // Offset: 0x13691AC
     bool AgreedToHealthAndSafety();
   }; // PlayerAgreements
   #pragma pack(pop)
@@ -152,6 +161,30 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAgreements::*)()>(&GlobalNamespace::PlayerAgreements::AgreeToHealthAndSafety)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAgreements*), "AgreeToHealthAndSafety", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousEula
+// Il2CppName: AgreedToAnyPreviousEula
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerAgreements::*)()>(&GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousEula)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAgreements*), "AgreedToAnyPreviousEula", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPrivacyPolicy
+// Il2CppName: AgreedToAnyPreviousPrivacyPolicy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerAgreements::*)()>(&GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPrivacyPolicy)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAgreements*), "AgreedToAnyPreviousPrivacyPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousHealthAndSafety
+// Il2CppName: AgreedToAnyPreviousHealthAndSafety
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerAgreements::*)()>(&GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousHealthAndSafety)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAgreements*), "AgreedToAnyPreviousHealthAndSafety", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAgreements::AgreedToEula

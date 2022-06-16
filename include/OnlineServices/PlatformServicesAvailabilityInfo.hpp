@@ -51,6 +51,10 @@ namespace OnlineServices {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -94,13 +98,13 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.String localizedMessage
     [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedMessage();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0x1358718
+    // Offset: 0x135A6C8
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0x1358818
+    // Offset: 0x135A7C8
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0x13587DC
+    // Offset: 0x135A78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::StringW localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::PlatformServicesAvailabilityInfo::.ctor");

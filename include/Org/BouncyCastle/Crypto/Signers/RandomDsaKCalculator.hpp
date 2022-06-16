@@ -59,28 +59,32 @@ namespace Org::BouncyCastle::Crypto::Signers {
     operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
     }
+    // Creating interface conversion operator: i_IDsaKCalculator
+    inline ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i_IDsaKCalculator() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger q
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_q();
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x1602BE0
+    // Offset: 0x1602704
     bool get_IsDeterministic();
     // public System.Void .ctor()
-    // Offset: 0x15FBD44
+    // Offset: 0x15FB868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomDsaKCalculator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomDsaKCalculator*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1602BE8
+    // Offset: 0x160270C
     void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x1602BF0
+    // Offset: 0x1602714
     void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x1602C5C
+    // Offset: 0x1602780
     ::Org::BouncyCastle::Math::BigInteger* NextK();
   }; // Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator
   #pragma pack(pop)

@@ -52,9 +52,17 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::System::ValueTuple>
     operator ::System::IEquatable_1<::System::ValueTuple>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::ValueTuple>*>(this);
+    }
+    // Creating interface conversion operator: i_ValueTuple
+    inline ::System::IEquatable_1<::System::ValueTuple>* i_ValueTuple() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::ValueTuple>*>(this);
     }
     // Creating interface conversion operator: operator ::System::IComparable_1<::System::ValueTuple>
     operator ::System::IComparable_1<::System::ValueTuple>() noexcept {
@@ -64,50 +72,62 @@ namespace System {
     operator ::System::Collections::IStructuralEquatable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
     }
+    // Creating interface conversion operator: i_IStructuralEquatable
+    inline ::System::Collections::IStructuralEquatable* i_IStructuralEquatable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralEquatable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IStructuralComparable
     operator ::System::Collections::IStructuralComparable() noexcept {
       return *reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
+    }
+    // Creating interface conversion operator: i_IStructuralComparable
+    inline ::System::Collections::IStructuralComparable* i_IStructuralComparable() noexcept {
+      return reinterpret_cast<::System::Collections::IStructuralComparable*>(this);
     }
     // Creating interface conversion operator: operator ::System::IComparable
     operator ::System::IComparable() noexcept {
       return *reinterpret_cast<::System::IComparable*>(this);
     }
+    // Creating interface conversion operator: i_IComparable
+    inline ::System::IComparable* i_IComparable() noexcept {
+      return reinterpret_cast<::System::IComparable*>(this);
+    }
     // public System.Boolean Equals(System.ValueTuple other)
-    // Offset: 0x29D9118
+    // Offset: 0x29D72D0
     bool Equals(::System::ValueTuple other);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0x29D9120
+    // Offset: 0x29D72D8
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, ::System::Collections::IEqualityComparer* comparer);
     // private System.Int32 System.IComparable.CompareTo(System.Object other)
-    // Offset: 0x29D9184
+    // Offset: 0x29D733C
     int System_IComparable_CompareTo(::Il2CppObject* other);
     // public System.Int32 CompareTo(System.ValueTuple other)
-    // Offset: 0x29D9298
+    // Offset: 0x29D7450
     int CompareTo(::System::ValueTuple other);
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0x29D92A0
+    // Offset: 0x29D7458
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0x29D93BC
+    // Offset: 0x29D7574
     int System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x29D940C
+    // Offset: 0x29D75C4
     static int CombineHashCodes(int h1, int h2);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x29D9498
+    // Offset: 0x29D7650
     static int CombineHashCodes(int h1, int h2, int h3);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29D90B4
+    // Offset: 0x29D726C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29D93B4
+    // Offset: 0x29D756C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29D93C4
+    // Offset: 0x29D757C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

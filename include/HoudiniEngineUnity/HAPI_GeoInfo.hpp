@@ -115,6 +115,10 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public HoudiniEngineUnity.HAPI_GeoType type
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_GeoType& dyn_type();
     // Get instance field reference: public System.Int32 nameSH
@@ -140,7 +144,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 partCount
     [[deprecated("Use field access instead!")]] int& dyn_partCount();
     // public System.Int32 getGroupCountByType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x16E1B18
+    // Offset: 0x16DF63C
     int getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
   }; // HoudiniEngineUnity.HAPI_GeoInfo
   #pragma pack(pop)

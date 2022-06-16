@@ -92,6 +92,10 @@ namespace Org::BouncyCastle::Crypto::Macs {
     operator ::Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
     }
+    // Creating interface conversion operator: i_IMac
+    inline ::Org::BouncyCastle::Crypto::IMac* i_IMac() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IMac*>(this);
+    }
     // Get instance field reference: private System.Byte[] mac
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_mac();
     // Get instance field reference: private System.Byte[] Buffer
@@ -105,36 +109,36 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Int32 macSize
     [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1E33868
+    // Offset: 0x1E2853C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CfbBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CfbBlockCipherMac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 cfbBitSize, System.Int32 macSizeInBits, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x1E33950
+    // Offset: 0x1E28624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CfbBlockCipherMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int cfbBitSize, int macSizeInBits, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CfbBlockCipherMac*, creationType>(cipher, cfbBitSize, macSizeInBits, padding)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E33CDC
+    // Offset: 0x1E289B0
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1E33EA0
+    // Offset: 0x1E28B74
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E33EA8
+    // Offset: 0x1E28B7C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E34198
+    // Offset: 0x1E28E6C
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E342F4
+    // Offset: 0x1E28FC8
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E33D14
+    // Offset: 0x1E289E8
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CfbBlockCipherMac
   #pragma pack(pop)

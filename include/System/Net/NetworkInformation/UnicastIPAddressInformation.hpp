@@ -29,7 +29,7 @@ namespace System::Net::NetworkInformation {
   class UnicastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1B66EF4
+    // Offset: 0x1B5CA38
     // Implemented from: System.Net.NetworkInformation.IPAddressInformation
     // Base method: System.Void IPAddressInformation::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

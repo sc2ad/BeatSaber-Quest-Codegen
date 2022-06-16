@@ -39,6 +39,10 @@ namespace GlobalNamespace {
     operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(this);
     }
+    // Creating interface conversion operator: i_IPasswordFinder
+    inline ::Org::BouncyCastle::OpenSsl::IPasswordFinder* i_IPasswordFinder() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Il2CppChar>
     constexpr operator ::ArrayW<::Il2CppChar>() const noexcept {
       return password;
@@ -46,21 +50,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Char[] _password
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn__password();
     // public System.Void .ctor(System.Byte[] password)
-    // Offset: 0x263F618
+    // Offset: 0x26371DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::ArrayW<uint8_t> password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Void .ctor(System.String password)
-    // Offset: 0x263DCA0
+    // Offset: 0x2635864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::PasswordFinder* New_ctor(::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::PasswordFinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::PasswordFinder*, creationType>(password)));
     }
     // public System.Char[] GetPassword()
-    // Offset: 0x263F6E0
+    // Offset: 0x26372A4
     ::ArrayW<::Il2CppChar> GetPassword();
   }; // X509CertificateUtility/PasswordFinder
   #pragma pack(pop)

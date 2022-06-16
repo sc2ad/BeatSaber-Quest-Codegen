@@ -53,15 +53,19 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Single distance
     [[deprecated("Use field access instead!")]] float& dyn_distance();
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 normal
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_normal();
     // static public LIV.SDK.Unity.SDKPlane get_empty()
-    // Offset: 0x2A537F0
+    // Offset: 0x2A4B5C4
     static ::LIV::SDK::Unity::SDKPlane get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A53814
+    // Offset: 0x2A4B5E8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

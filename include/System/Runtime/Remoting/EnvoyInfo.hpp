@@ -47,6 +47,10 @@ namespace System::Runtime::Remoting {
     operator ::System::Runtime::Remoting::IEnvoyInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IEnvoyInfo*>(this);
     }
+    // Creating interface conversion operator: i_IEnvoyInfo
+    inline ::System::Runtime::Remoting::IEnvoyInfo* i_IEnvoyInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IEnvoyInfo*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::IMessageSink*
     constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() const noexcept {
       return envoySinks;
@@ -54,10 +58,10 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_envoySinks();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
-    // Offset: 0x1C7D4BC
+    // Offset: 0x1C70190
     ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink sinks)
-    // Offset: 0x1C7D490
+    // Offset: 0x1C70164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvoyInfo* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::EnvoyInfo::.ctor");

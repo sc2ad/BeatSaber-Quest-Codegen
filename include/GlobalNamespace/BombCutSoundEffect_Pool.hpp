@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class BombCutSoundEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombCutSoundEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1335648
+    // Offset: 0x1337608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombCutSoundEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombCutSoundEffect::Pool::.ctor");

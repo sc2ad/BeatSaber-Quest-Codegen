@@ -47,6 +47,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>*>(this);
     }
+    // Creating interface conversion operator: i_Test_TerrainData
+    inline ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>* i_Test_TerrainData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>*>(this);
+    }
     // Creating conversion operator: operator ::UnityEngine::TerrainData*
     constexpr operator ::UnityEngine::TerrainData*() const noexcept {
       return self;
@@ -54,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.TerrainData self
     [[deprecated("Use field access instead!")]] ::UnityEngine::TerrainData*& dyn_self();
     // public System.Void .ctor(UnityEngine.TerrainData self)
-    // Offset: 0x2A96840
+    // Offset: 0x2A8C614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TerrainData* New_ctor(::UnityEngine::TerrainData* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TerrainData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TerrainData*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2A9686C
+    // Offset: 0x2A8C640
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_TerrainData other)
-    // Offset: 0x2A968DC
+    // Offset: 0x2A8C6B0
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainData* other);
   }; // HoudiniEngineUnity.Test_TerrainData
   #pragma pack(pop)

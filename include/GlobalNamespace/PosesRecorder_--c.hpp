@@ -56,20 +56,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<PoseObject,System.String> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13DC4A8
+    // Offset: 0x13DFD50
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13DC50C
+    // Offset: 0x13DFDB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecorder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecorder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecorder::$$c*, creationType>()));
     }
     // UnityEngine.Transform <Init>b__6_0(PoseObject ro)
-    // Offset: 0x13DC514
+    // Offset: 0x13DFDBC
     ::UnityEngine::Transform* $Init$b__6_0(::GlobalNamespace::PoseObject* ro);
     // System.String <Init>b__6_1(PoseObject ro)
-    // Offset: 0x13DC52C
+    // Offset: 0x13DFDD4
     ::StringW $Init$b__6_1(::GlobalNamespace::PoseObject* ro);
   }; // PosesRecorder/<>c
   #pragma pack(pop)

@@ -27,6 +27,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IReadOnlyCollection_1<int>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<int>*>(this);
     }
+    // Creating interface conversion operator: i_IReadOnlyCollection_1_int
+    inline ::System::Collections::Generic::IReadOnlyCollection_1<int>* i_IReadOnlyCollection_1_int() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<int>*>(this);
+    }
   }; // IIndexFilter
   #pragma pack(pop)
 }

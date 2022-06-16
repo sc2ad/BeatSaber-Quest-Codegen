@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useGrayscale and: grayscaleFactor
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10BCE64
+    // [DrawIfAttribute] Offset: 0x10BE97C
     // private System.Single grayscaleFactor
     // Size: 0x4
     // Offset: 0x54
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single grayscaleFactor
     [[deprecated("Use field access instead!")]] float& dyn_grayscaleFactor();
     // public System.Void .ctor()
-    // Offset: 0x1E74D58
+    // Offset: 0x1E6BA2C
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientTintColorWithLightId*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E74BF8
+    // Offset: 0x1E6B8CC
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

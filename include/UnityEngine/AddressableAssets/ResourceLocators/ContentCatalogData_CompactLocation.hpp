@@ -104,6 +104,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
     }
+    // Creating interface conversion operator: i_IResourceLocation
+    inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i_IResourceLocation() noexcept {
+      return reinterpret_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
+    }
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& dyn_m_Locator();
     // Get instance field reference: private System.String m_InternalId
@@ -123,44 +127,44 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.Type m_Type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_Type();
     // public System.String get_InternalId()
-    // Offset: 0x18CCF3C
+    // Offset: 0x18C8A80
     ::StringW get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x18CCF44
+    // Offset: 0x18C8A88
     ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x18CCF4C
+    // Offset: 0x18C8A90
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x18CD004
+    // Offset: 0x18C8B48
     bool get_HasDependencies();
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x18CD014
+    // Offset: 0x18C8B58
     int get_DependencyHashCode();
     // public System.Object get_Data()
-    // Offset: 0x18CD01C
+    // Offset: 0x18C8B60
     ::Il2CppObject* get_Data();
     // public System.String get_PrimaryKey()
-    // Offset: 0x18CD024
+    // Offset: 0x18C8B68
     ::StringW get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x18CD02C
+    // Offset: 0x18C8B70
     void set_PrimaryKey(::StringW value);
     // public System.Type get_ResourceType()
-    // Offset: 0x18CD034
+    // Offset: 0x18C8B78
     ::System::Type* get_ResourceType();
     // public System.Void .ctor(UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locator, System.String internalId, System.String providerId, System.Object dependencyKey, System.Object data, System.Int32 depHash, System.String primaryKey, System.Type type)
-    // Offset: 0x18CCD14
+    // Offset: 0x18C8858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogData::CompactLocation* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator, ::StringW internalId, ::StringW providerId, ::Il2CppObject* dependencyKey, ::Il2CppObject* data, int depHash, ::StringW primaryKey, ::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogData::CompactLocation*, creationType>(locator, internalId, providerId, dependencyKey, data, depHash, primaryKey, type)));
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x18CD044
+    // Offset: 0x18C8B88
     int Hash(::System::Type* t);
     // public override System.String ToString()
-    // Offset: 0x18CD03C
+    // Offset: 0x18C8B80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

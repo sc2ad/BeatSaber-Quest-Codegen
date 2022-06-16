@@ -115,6 +115,10 @@ namespace System::Net {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get instance field reference: private System.Object locker
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Threading.ManualResetEvent handle
@@ -136,29 +140,29 @@ namespace System::Net {
     // Get instance field reference: System.Exception Error
     [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_Error();
     // public System.Object get_AsyncState()
-    // Offset: 0x1AAAB8C
+    // Offset: 0x1AA26D0
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1AAAB94
+    // Offset: 0x1AA26D8
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1AAAC84
+    // Offset: 0x1AA27C8
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1AAAC98
+    // Offset: 0x1AA27DC
     bool get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x1AAAD2C
+    // Offset: 0x1AA2870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpStreamAsyncResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpStreamAsyncResult*, creationType>()));
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1AAAAB8
+    // Offset: 0x1AA25FC
     void Complete(::System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1AAAAC0
+    // Offset: 0x1AA2604
     void Complete();
   }; // System.Net.HttpStreamAsyncResult
   #pragma pack(pop)

@@ -65,25 +65,29 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     operator ::Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
     }
+    // Creating interface conversion operator: i_IBasicAgreement
+    inline ::Org::BouncyCastle::Crypto::IBasicAgreement* i_IBasicAgreement() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(this);
+    }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& dyn_key();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& dyn_dhParams();
     // public System.Void .ctor()
-    // Offset: 0x1F24CF0
+    // Offset: 0x1F1A9C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHBasicAgreement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicAgreement*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1F2493C
+    // Offset: 0x1F1A610
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x1F24A44
+    // Offset: 0x1F1A718
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1F24A8C
+    // Offset: 0x1F1A760
     ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement
   #pragma pack(pop)

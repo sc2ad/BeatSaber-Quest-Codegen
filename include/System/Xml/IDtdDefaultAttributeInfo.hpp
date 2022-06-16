@@ -31,6 +31,10 @@ namespace System::Xml {
     operator ::System::Xml::IDtdAttributeInfo() noexcept {
       return *reinterpret_cast<::System::Xml::IDtdAttributeInfo*>(this);
     }
+    // Creating interface conversion operator: i_IDtdAttributeInfo
+    inline ::System::Xml::IDtdAttributeInfo* i_IDtdAttributeInfo() noexcept {
+      return reinterpret_cast<::System::Xml::IDtdAttributeInfo*>(this);
+    }
     // public System.String get_DefaultValueExpanded()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DefaultValueExpanded();

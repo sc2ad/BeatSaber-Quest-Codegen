@@ -86,6 +86,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public LIV.SDK.Unity.SDKMatrix4x4 projectionMatrix
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKMatrix4x4& dyn_projectionMatrix();
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localPosition
@@ -103,10 +107,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Int32 unused1
     [[deprecated("Use field access instead!")]] int& dyn_unused1();
     // static public LIV.SDK.Unity.SDKPose get_empty()
-    // Offset: 0x2A5294C
+    // Offset: 0x2A4A720
     static ::LIV::SDK::Unity::SDKPose get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A538C0
+    // Offset: 0x2A4B694
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

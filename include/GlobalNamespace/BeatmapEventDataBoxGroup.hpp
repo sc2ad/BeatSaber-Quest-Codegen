@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: beat and: elementDataDict
     char __padding0[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0x10D0C98
+    // [TupleElementNamesAttribute] Offset: 0x10D37D8
     // private readonly System.Collections.Generic.Dictionary`2<System.ValueTuple`3<System.Int32,System.Type,System.Int32>,BeatmapEventDataBoxGroup/ElementData> _elementDataDict
     // Size: 0x8
     // Offset: 0x18
@@ -98,6 +98,10 @@ namespace GlobalNamespace {
     operator ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapEventDataBoxGroup
+    inline ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* i_BeatmapEventDataBoxGroup() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(this);
+    }
     // Get instance field reference: private readonly System.Single beat
     [[deprecated("Use field access instead!")]] float& dyn_beat();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.ValueTuple`3<System.Int32,System.Type,System.Int32>,BeatmapEventDataBoxGroup/ElementData> _elementDataDict
@@ -107,26 +111,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBox> _beatmapEventDataBoxList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*& dyn__beatmapEventDataBoxList();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.ValueTuple`3<System.Int32,System.Type,System.Int32>,BeatmapEventDataBoxGroup/ElementData> get_elementDataDict()
-    // Offset: 0x14FE9B4
+    // Offset: 0x14FFAFC
     ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int, ::System::Type*, int>, ::GlobalNamespace::BeatmapEventDataBoxGroup::ElementData*>* get_elementDataDict();
     // public System.Void .ctor(System.Single beat, System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBox> beatmapEventDataBoxList)
-    // Offset: 0x14FE9BC
+    // Offset: 0x14FFB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroup* New_ctor(float beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroup*, creationType>(beat, beatmapEventDataBoxList)));
     }
     // public BeatmapEventDataBoxGroup GetCopyWithNewBeat(System.Single newBeat)
-    // Offset: 0x14FF15C
+    // Offset: 0x15002A4
     ::GlobalNamespace::BeatmapEventDataBoxGroup* GetCopyWithNewBeat(float newBeat);
     // public System.Void RemoveBeatmapEventDataFromBeatmapData(BeatmapData beatmapData)
-    // Offset: 0x14FF1D0
+    // Offset: 0x1500318
     void RemoveBeatmapEventDataFromBeatmapData(::GlobalNamespace::BeatmapData* beatmapData);
     // public System.Void SyncWithBeatmapData(System.Int32 groupId, BeatmapData beatmapData, IBeatToTimeConvertor beatToTimeConvertor)
-    // Offset: 0x14FF2F0
+    // Offset: 0x1500438
     void SyncWithBeatmapData(int groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor);
     // public System.Int32 CompareTo(BeatmapEventDataBoxGroup b)
-    // Offset: 0x14FF53C
+    // Offset: 0x1500684
     int CompareTo(::GlobalNamespace::BeatmapEventDataBoxGroup* b);
   }; // BeatmapEventDataBoxGroup
   #pragma pack(pop)

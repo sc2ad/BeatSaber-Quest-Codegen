@@ -49,20 +49,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.GameObject[] _gameObjects
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__gameObjects();
     // public System.Void .ctor()
-    // Offset: 0x159B17C
+    // Offset: 0x159BCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivateOnVisible* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ActivateOnVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivateOnVisible*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x159B02C
+    // Offset: 0x159BB50
     void Awake();
     // private System.Void OnBecameVisible()
-    // Offset: 0x159B09C
+    // Offset: 0x159BBC0
     void OnBecameVisible();
     // private System.Void OnBecameInvisible()
-    // Offset: 0x159B10C
+    // Offset: 0x159BC30
     void OnBecameInvisible();
   }; // ActivateOnVisible
   #pragma pack(pop)

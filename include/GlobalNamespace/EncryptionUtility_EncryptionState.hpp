@@ -117,6 +117,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::EncryptionUtility::IEncryptionState() noexcept {
       return *reinterpret_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);
     }
+    // Creating interface conversion operator: i_IEncryptionState
+    inline ::GlobalNamespace::EncryptionUtility::IEncryptionState* i_IEncryptionState() noexcept {
+      return reinterpret_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);
+    }
     // static field const value: static private System.Int32 kReceivedSequencNumBufferLength
     static constexpr const int kReceivedSequencNumBufferLength = 64;
     // Get static field: static private System.Int32 kReceivedSequencNumBufferLength
@@ -146,47 +150,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
     [[deprecated("Use field access instead!")]] ::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__receiveMacQueue();
     // public System.Boolean get_isValid()
-    // Offset: 0x1678528
+    // Offset: 0x167704C
     bool get_isValid();
     // public System.Void .ctor(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x16766F8
+    // Offset: 0x167521C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::EncryptionState* New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EncryptionUtility::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::EncryptionState*, creationType>(preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
-    // Offset: 0x167854C
+    // Offset: 0x1677070
     void EncryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x16785E0
+    // Offset: 0x1677104
     bool TryDecryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1676FC0
+    // Offset: 0x1675AE4
     ::ArrayW<uint8_t> ComputeSendMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1677960
+    // Offset: 0x1676484
     ::ArrayW<uint8_t> ComputeReceiveMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1677860
+    // Offset: 0x1676384
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x1677B6C
+    // Offset: 0x1676690
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x1676FB4
+    // Offset: 0x1675AD8
     uint GetNextSentSequenceNum();
     // static private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x167866C
+    // Offset: 0x1677190
     static ::ArrayW<uint8_t> MakeSeed(::ArrayW<uint8_t> baseSeed, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1678754
+    // Offset: 0x1677278
     static ::ArrayW<uint8_t> PRF(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1678844
+    // Offset: 0x1677368
     static void PRF_Hash(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, ByRef<int> length);
     // public System.Void Dispose()
-    // Offset: 0x16789FC
+    // Offset: 0x1677520
     void Dispose();
   }; // EncryptionUtility/EncryptionState
   #pragma pack(pop)

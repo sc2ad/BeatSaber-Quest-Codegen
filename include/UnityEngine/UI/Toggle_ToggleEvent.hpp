@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
   class Toggle::ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<bool> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A9CCC8
+    // Offset: 0x2A92A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Toggle::ToggleEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Toggle::ToggleEvent::.ctor");

@@ -32,24 +32,28 @@ namespace UnityEngine {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // public System.Boolean get_keepWaiting()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x1F9560C
+    // Offset: 0x1F8C2E0
     ::Il2CppObject* get_Current();
     // protected System.Void .ctor()
-    // Offset: 0x1F95624
+    // Offset: 0x1F8C2F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomYieldInstruction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::CustomYieldInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomYieldInstruction*, creationType>()));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1F95614
+    // Offset: 0x1F8C2E8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1F95620
+    // Offset: 0x1F8C2F4
     void Reset();
   }; // UnityEngine.CustomYieldInstruction
   #pragma pack(pop)

@@ -28,6 +28,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresenceData
+    inline ::GlobalNamespace::IRichPresenceData* i_IRichPresenceData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
+    }
     // public System.String get_multiplayerSecret()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_multiplayerSecret();

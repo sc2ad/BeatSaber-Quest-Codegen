@@ -46,12 +46,16 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // Get instance field reference: public TMPro.CaretPosition position
     [[deprecated("Use field access instead!")]] ::TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0x14377E0
+    // Offset: 0x1429354
     // ABORTED: conflicts with another method.  CaretInfo(int index, ::TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
   #pragma pack(pop)

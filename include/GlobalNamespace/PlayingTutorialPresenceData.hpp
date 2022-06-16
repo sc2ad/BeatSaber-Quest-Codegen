@@ -48,11 +48,15 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
     }
+    // Creating interface conversion operator: i_IRichPresenceData
+    inline ::GlobalNamespace::IRichPresenceData* i_IRichPresenceData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IRichPresenceData*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0x10D327C
+    // [LocalizationKeyAttribute] Offset: 0x10D5DBC
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_TUTORIAL_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -62,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x13DB5E4
+    // Offset: 0x13DEE8C
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x13DB62C
+    // Offset: 0x13DEED4
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x13DB634
+    // Offset: 0x13DEEDC
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x13DB63C
+    // Offset: 0x13DEEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingTutorialPresenceData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayingTutorialPresenceData::.ctor");

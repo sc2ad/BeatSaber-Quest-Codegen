@@ -70,22 +70,22 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Int32 h
     [[deprecated("Use field access instead!")]] int& dyn_h();
     // public System.Int32 get_line()
-    // Offset: 0x286E0A0
+    // Offset: 0x2827530
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x286E0A8
+    // Offset: 0x2827538
     int get_layer();
     // public System.Single get_duration()
-    // Offset: 0x286E0B0
+    // Offset: 0x2827540
     float get_duration();
     // public System.Int32 get_width()
-    // Offset: 0x286E0B8
+    // Offset: 0x2827548
     int get_width();
     // public System.Int32 get_height()
-    // Offset: 0x286E0C0
+    // Offset: 0x2827550
     int get_height();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer, System.Single duration, System.Int32 width, System.Int32 height)
-    // Offset: 0x286D218
+    // Offset: 0x28266A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ObstacleData* New_ctor(float beat, int line, int layer, float duration, int width, int height) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData::.ctor");

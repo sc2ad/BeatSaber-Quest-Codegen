@@ -49,19 +49,23 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
     }
+    // Creating interface conversion operator: i_IReturnToMenuController
+    inline ::GlobalNamespace::IReturnToMenuController* i_IReturnToMenuController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1491A5C
+    // Offset: 0x1497EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialReturnToMenuController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialReturnToMenuController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialReturnToMenuController*, creationType>()));
     }
     // public System.Void ReturnToMenu()
-    // Offset: 0x1491A40
+    // Offset: 0x1497EE0
     void ReturnToMenu();
   }; // TutorialReturnToMenuController
   #pragma pack(pop)

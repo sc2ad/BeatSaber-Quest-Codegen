@@ -37,39 +37,43 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C4110
+    // [DescriptionAttribute] Offset: 0x10C5C28
     // static field const value: static public Oculus.Platform.LaunchType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LaunchType Unknown
     static ::Oculus::Platform::LaunchType _get_Unknown();
     // Set static field: static public Oculus.Platform.LaunchType Unknown
     static void _set_Unknown(::Oculus::Platform::LaunchType value);
-    // [DescriptionAttribute] Offset: 0x10C4148
+    // [DescriptionAttribute] Offset: 0x10C5C60
     // static field const value: static public Oculus.Platform.LaunchType Normal
     static constexpr const int Normal = 1;
     // Get static field: static public Oculus.Platform.LaunchType Normal
     static ::Oculus::Platform::LaunchType _get_Normal();
     // Set static field: static public Oculus.Platform.LaunchType Normal
     static void _set_Normal(::Oculus::Platform::LaunchType value);
-    // [DescriptionAttribute] Offset: 0x10C4180
+    // [DescriptionAttribute] Offset: 0x10C5C98
     // static field const value: static public Oculus.Platform.LaunchType Invite
     static constexpr const int Invite = 2;
     // Get static field: static public Oculus.Platform.LaunchType Invite
     static ::Oculus::Platform::LaunchType _get_Invite();
     // Set static field: static public Oculus.Platform.LaunchType Invite
     static void _set_Invite(::Oculus::Platform::LaunchType value);
-    // [DescriptionAttribute] Offset: 0x10C41B8
+    // [DescriptionAttribute] Offset: 0x10C5CD0
     // static field const value: static public Oculus.Platform.LaunchType Coordinated
     static constexpr const int Coordinated = 3;
     // Get static field: static public Oculus.Platform.LaunchType Coordinated
     static ::Oculus::Platform::LaunchType _get_Coordinated();
     // Set static field: static public Oculus.Platform.LaunchType Coordinated
     static void _set_Coordinated(::Oculus::Platform::LaunchType value);
-    // [DescriptionAttribute] Offset: 0x10C41F0
+    // [DescriptionAttribute] Offset: 0x10C5D08
     // static field const value: static public Oculus.Platform.LaunchType Deeplink
     static constexpr const int Deeplink = 4;
     // Get static field: static public Oculus.Platform.LaunchType Deeplink

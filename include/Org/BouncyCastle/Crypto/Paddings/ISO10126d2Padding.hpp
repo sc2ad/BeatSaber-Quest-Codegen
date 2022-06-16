@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipherPadding
+    inline ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i_IBlockCipherPadding() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Security::SecureRandom*
     constexpr operator ::Org::BouncyCastle::Security::SecureRandom*() const noexcept {
       return random;
@@ -55,20 +59,20 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x15F1DF4
+    // Offset: 0x15F1918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO10126d2Padding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO10126d2Padding*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x15F1BF4
+    // Offset: 0x15F1718
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x15F1C74
+    // Offset: 0x15F1798
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x15F1D44
+    // Offset: 0x15F1868
     int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.ISO10126d2Padding
   #pragma pack(pop)

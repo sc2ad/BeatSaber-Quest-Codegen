@@ -125,6 +125,10 @@ namespace System::Net {
     operator ::System::IAsyncResult() noexcept {
       return *reinterpret_cast<::System::IAsyncResult*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncResult
+    inline ::System::IAsyncResult* i_IAsyncResult() noexcept {
+      return reinterpret_cast<::System::IAsyncResult*>(this);
+    }
     // Get static field: static private System.Threading.WaitCallback InvokeCB
     static ::System::Threading::WaitCallback* _get_InvokeCB();
     // Set static field: static private System.Threading.WaitCallback InvokeCB
@@ -152,41 +156,41 @@ namespace System::Net {
     // Get instance field reference: System.Boolean InGet
     [[deprecated("Use field access instead!")]] bool& dyn_InGet();
     // public System.Object get_AsyncState()
-    // Offset: 0x1AB3EB8
+    // Offset: 0x1AAB9FC
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1AA5E40
+    // Offset: 0x1A9D984
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1AB3ECC
+    // Offset: 0x1AABA10
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1AA5D94
+    // Offset: 0x1A9D8D8
     bool get_IsCompleted();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1AA5454
+    // Offset: 0x1A9CF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AB3EE0
+    // Offset: 0x1AABA24
     static void _cctor();
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x1AA5034
+    // Offset: 0x1A9CB78
     void Complete(::System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x1AB3D64
+    // Offset: 0x1AAB8A8
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x1AA6334
+    // Offset: 0x1A9DE78
     void Complete(::System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x1AA55A0
+    // Offset: 0x1A9D0E4
     void Complete(::System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x1AA5F44
+    // Offset: 0x1A9DA88
     ::System::Net::HttpListenerContext* GetContext();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)

@@ -83,29 +83,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private TrackLaneRing[] _rings
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TrackLaneRing*>& dyn__rings();
     // public System.Single get_ringPositionStep()
-    // Offset: 0x14203E0
+    // Offset: 0x1478020
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x14203E8
+    // Offset: 0x1478028
     ::ArrayW<::GlobalNamespace::TrackLaneRing*> get_Rings();
     // public System.Void .ctor()
-    // Offset: 0x1420C04
+    // Offset: 0x1478844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14203F0
+    // Offset: 0x1478030
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x142075C
+    // Offset: 0x147839C
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1420808
+    // Offset: 0x1478448
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x14208B4
+    // Offset: 0x14784F4
     void OnDrawGizmosSelected();
   }; // TrackLaneRingsManager
   #pragma pack(pop)

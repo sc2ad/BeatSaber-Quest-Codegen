@@ -95,6 +95,10 @@ namespace GlobalNamespace {
     operator ::HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
     }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::TableView::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::TableView::IDataSource*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kCellIdentifier
@@ -114,23 +118,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _specialScorePos
     [[deprecated("Use field access instead!")]] int& dyn__specialScorePos();
     // public System.Void .ctor()
-    // Offset: 0x13B3274
+    // Offset: 0x137473C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x13B300C
+    // Offset: 0x13744D4
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x13B3014
+    // Offset: 0x13744DC
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13B3068
+    // Offset: 0x1374530
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0x13B3244
+    // Offset: 0x137470C
     void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
   }; // LeaderboardTableView
   #pragma pack(pop)

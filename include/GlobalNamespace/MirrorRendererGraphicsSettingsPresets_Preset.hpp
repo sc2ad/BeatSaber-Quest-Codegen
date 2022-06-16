@@ -51,6 +51,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -148,7 +152,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean enableBloomPrePassFog
     [[deprecated("Use field access instead!")]] bool& dyn_enableBloomPrePassFog();
     // public System.Void .ctor()
-    // Offset: 0x12FDCE0
+    // Offset: 0x12FFCA0
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

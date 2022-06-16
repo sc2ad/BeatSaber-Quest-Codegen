@@ -52,6 +52,10 @@ namespace System::Net {
     operator ::System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<::System::Net::IWebProxy*>(this);
     }
+    // Creating interface conversion operator: i_IWebProxy
+    inline ::System::Net::IWebProxy* i_IWebProxy() noexcept {
+      return reinterpret_cast<::System::Net::IWebProxy*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::ICredentials*
     constexpr operator ::System::Net::ICredentials*() const noexcept {
       return m_credentials;
@@ -59,20 +63,20 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ICredentials m_credentials
     [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_m_credentials();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1A7B054
+    // Offset: 0x1A73B98
     ::System::Net::ICredentials* get_Credentials();
     // public System.Void .ctor()
-    // Offset: 0x1A7B03C
+    // Offset: 0x1A73B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyWebProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EmptyWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x1A7B044
+    // Offset: 0x1A73B88
     ::System::Uri* GetProxy(::System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x1A7B04C
+    // Offset: 0x1A73B90
     bool IsBypassed(::System::Uri* uri);
   }; // System.Net.EmptyWebProxy
   #pragma pack(pop)

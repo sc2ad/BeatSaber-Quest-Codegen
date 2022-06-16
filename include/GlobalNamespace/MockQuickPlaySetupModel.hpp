@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   class MockQuickPlaySetupModel : public ::Il2CppObject/*, public ::GlobalNamespace::IQuickPlaySetupModel*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D8FB8
+    // [InjectAttribute] Offset: 0x10DBD44
     // private readonly QuickPlaySetupData _quickPlaySetupData
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
     }
+    // Creating interface conversion operator: i_IQuickPlaySetupModel
+    inline ::GlobalNamespace::IQuickPlaySetupModel* i_IQuickPlaySetupModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IQuickPlaySetupModel*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::QuickPlaySetupData*
     constexpr operator ::GlobalNamespace::QuickPlaySetupData*() const noexcept {
       return quickPlaySetupData;
@@ -66,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly QuickPlaySetupData _quickPlaySetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public System.Void .ctor()
-    // Offset: 0x13C6048
+    // Offset: 0x13C98F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockQuickPlaySetupModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockQuickPlaySetupModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockQuickPlaySetupModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13C5FD4
+    // Offset: 0x13C987C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
   }; // MockQuickPlaySetupModel
   #pragma pack(pop)

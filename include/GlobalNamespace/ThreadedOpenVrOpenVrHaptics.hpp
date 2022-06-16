@@ -72,12 +72,16 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly System.Single endTime
       [[deprecated("Use field access instead!")]] float& dyn_endTime();
       // Get instance field reference: public readonly System.Single strength
       [[deprecated("Use field access instead!")]] float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0x2A2A35C
+      // Offset: 0x2A26514
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
@@ -115,6 +119,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
     }
+    // Creating interface conversion operator: i_IOpenVRHaptics
+    inline ::GlobalNamespace::IOpenVRHaptics* i_IOpenVRHaptics() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
+    }
     // Get instance field reference: private System.Single _currentTime
     [[deprecated("Use field access instead!")]] float& dyn__currentTime();
     // Get instance field reference: private System.Threading.Thread _hapticThread
@@ -124,23 +132,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
     // public System.Void .ctor()
-    // Offset: 0x2A2A270
+    // Offset: 0x2A26428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadedOpenVrOpenVrHaptics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadedOpenVrOpenVrHaptics*, creationType>()));
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x2A2A330
+    // Offset: 0x2A264E8
     void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // private System.Void UpdateHaptics()
-    // Offset: 0x2A2A364
+    // Offset: 0x2A2651C
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x2A2A42C
+    // Offset: 0x2A265E4
     void UpdateHandHaptics(::UnityEngine::XR::XRNode node);
     // public System.Void Destroy()
-    // Offset: 0x2A2A570
+    // Offset: 0x2A26728
     void Destroy();
   }; // ThreadedOpenVrOpenVrHaptics
   #pragma pack(pop)

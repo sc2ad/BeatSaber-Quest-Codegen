@@ -30,6 +30,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // public System.Void Add(System.Object o)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Add(::Il2CppObject* o);

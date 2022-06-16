@@ -122,6 +122,10 @@ namespace System::Xml::Schema {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static private System.Int32[] Power10
     static ::ArrayW<int> _get_Power10();
     // Set static field: static private System.Int32[] Power10
@@ -153,37 +157,37 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 length
     [[deprecated("Use field access instead!")]] int& dyn_length();
     // static private System.Void .cctor()
-    // Offset: 0x2065864
+    // Offset: 0x205F428
     static void _cctor();
     // public System.Boolean Parse(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x2062A94
+    // Offset: 0x205C658
     bool Parse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // private System.Boolean ParseDate(System.Int32 start)
-    // Offset: 0x2064E58
+    // Offset: 0x205EA1C
     bool ParseDate(int start);
     // private System.Boolean ParseTimeAndZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x2065074
+    // Offset: 0x205EC38
     bool ParseTimeAndZoneAndWhitespace(int start);
     // private System.Boolean ParseTimeAndWhitespace(System.Int32 start)
-    // Offset: 0x20652FC
+    // Offset: 0x205EEC0
     bool ParseTimeAndWhitespace(int start);
     // private System.Boolean ParseTime(ref System.Int32 start)
-    // Offset: 0x2065538
+    // Offset: 0x205F0FC
     bool ParseTime(ByRef<int> start);
     // private System.Boolean ParseZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x20650BC
+    // Offset: 0x205EC80
     bool ParseZoneAndWhitespace(int start);
     // private System.Boolean Parse4Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x2065358
+    // Offset: 0x205EF1C
     bool Parse4Dig(int start, ByRef<int> num);
     // private System.Boolean Parse2Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x2065484
+    // Offset: 0x205F048
     bool Parse2Dig(int start, ByRef<int> num);
     // private System.Boolean ParseChar(System.Int32 start, System.Char ch)
-    // Offset: 0x2065024
+    // Offset: 0x205EBE8
     bool ParseChar(int start, ::Il2CppChar ch);
     // static private System.Boolean Test(System.Xml.Schema.XsdDateTimeFlags left, System.Xml.Schema.XsdDateTimeFlags right)
-    // Offset: 0x2064E4C
+    // Offset: 0x205EA10
     static bool Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right);
   }; // System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser
   #pragma pack(pop)

@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private SkinColorSO[] _colors
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SkinColorSO*>& dyn__colors();
     // public SkinColorSO[] get_colors()
-    // Offset: 0x1383F88
+    // Offset: 0x1384A9C
     ::ArrayW<::GlobalNamespace::SkinColorSO*> get_colors();
     // public System.Void .ctor()
-    // Offset: 0x1383F90
+    // Offset: 0x1384AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SkinColorSetSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SkinColorSetSO::.ctor");

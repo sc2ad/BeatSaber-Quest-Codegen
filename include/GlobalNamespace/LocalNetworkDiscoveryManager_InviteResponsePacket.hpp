@@ -59,6 +59,10 @@ namespace GlobalNamespace {
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Get instance field reference: public System.String userId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // Get instance field reference: public System.Boolean accepted
@@ -66,17 +70,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean blocked
     [[deprecated("Use field access instead!")]] bool& dyn_blocked();
     // public System.Void .ctor()
-    // Offset: 0x1560310
+    // Offset: 0x1534374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::InviteResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::InviteResponsePacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1562CF4
+    // Offset: 0x1536D58
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1562D48
+    // Offset: 0x1536DAC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LocalNetworkDiscoveryManager/InviteResponsePacket
   #pragma pack(pop)

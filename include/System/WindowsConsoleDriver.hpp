@@ -67,6 +67,10 @@ namespace System {
     operator ::System::IConsoleDriver() noexcept {
       return *reinterpret_cast<::System::IConsoleDriver*>(this);
     }
+    // Creating interface conversion operator: i_IConsoleDriver
+    inline ::System::IConsoleDriver* i_IConsoleDriver() noexcept {
+      return reinterpret_cast<::System::IConsoleDriver*>(this);
+    }
     // Get instance field reference: private System.IntPtr inputHandle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_inputHandle();
     // Get instance field reference: private System.IntPtr outputHandle
@@ -74,22 +78,22 @@ namespace System {
     // Get instance field reference: private System.Int16 defaultAttribute
     [[deprecated("Use field access instead!")]] int16_t& dyn_defaultAttribute();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x29DB6E0
+    // Offset: 0x29D9898
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x29DB948
+    // Offset: 0x29D9B00
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x29DB5B8
+    // Offset: 0x29D9770
     static ::System::IntPtr GetStdHandle(::System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x29DB640
+    // Offset: 0x29D97F8
     static bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ByRef<::System::ConsoleScreenBufferInfo> info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x29DB858
+    // Offset: 0x29D9A10
     static bool ReadConsoleInput(::System::IntPtr handle, ByRef<::System::InputRecord> record, int length, ByRef<int> nread);
     // public System.Void .ctor()
-    // Offset: 0x29DB558
+    // Offset: 0x29D9710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -90,6 +90,10 @@ namespace VRUIControls {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public readonly System.Boolean wasHit
       [[deprecated("Use field access instead!")]] bool& dyn_wasHit();
       // Get instance field reference: public readonly UnityEngine.Ray ray
@@ -101,7 +105,7 @@ namespace VRUIControls {
       // Get instance field reference: public readonly System.Int32 layerMask
       [[deprecated("Use field access instead!")]] int& dyn_layerMask();
       // public System.Void .ctor(System.Boolean wasHit, UnityEngine.Ray ray, UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-      // Offset: 0x2A59C80
+      // Offset: 0x2A51A54
       // ABORTED: conflicts with another method.  CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float maxDistance, int layerMask);
     }; // VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast
     #pragma pack(pop)
@@ -126,14 +130,14 @@ namespace VRUIControls {
     // Get instance field reference: private System.Int32 _lastFrameCount
     [[deprecated("Use field access instead!")]] int& dyn__lastFrameCount();
     // public System.Void .ctor()
-    // Offset: 0x2A59CC0
+    // Offset: 0x2A51A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsRaycasterWithCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::PhysicsRaycasterWithCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycasterWithCache*, creationType>()));
     }
     // public System.Boolean Raycast(UnityEngine.Ray ray, out UnityEngine.RaycastHit hitInfo, System.Single maxDistance, System.Int32 layerMask)
-    // Offset: 0x2A5981C
+    // Offset: 0x2A515F0
     bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
   }; // VRUIControls.PhysicsRaycasterWithCache
   #pragma pack(pop)

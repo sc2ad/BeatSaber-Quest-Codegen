@@ -49,6 +49,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt32 ascii_Left
     [[deprecated("Use field access instead!")]] uint& dyn_ascii_Left();
     // Get instance field reference: public System.UInt32 ascii_Right
@@ -56,7 +60,7 @@ namespace TMPro {
     // Get instance field reference: public System.UInt32 key
     [[deprecated("Use field access instead!")]] uint& dyn_key();
     // public System.Void .ctor(System.UInt32 ascii_left, System.UInt32 ascii_right)
-    // Offset: 0x1438514
+    // Offset: 0x142A088
     KerningPairKey(uint ascii_left, uint ascii_right);
   }; // TMPro.KerningPairKey
   #pragma pack(pop)

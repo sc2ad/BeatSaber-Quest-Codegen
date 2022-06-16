@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   class PlayerHeightToJumpOffsetYProvider : public ::Il2CppObject/*, public ::System::IDisposable, public ::Zenject::IInitializable, public ::GlobalNamespace::IJumpOffsetYProvider*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10DA72C
+    // [InjectAttribute] Offset: 0x10DD4B8
     // private readonly PlayerHeightDetector _playerHeightDetector
     // Size: 0x8
     // Offset: 0x10
@@ -58,39 +58,51 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::Zenject::IInitializable
     operator ::Zenject::IInitializable() noexcept {
       return *reinterpret_cast<::Zenject::IInitializable*>(this);
     }
+    // Creating interface conversion operator: i_IInitializable
+    inline ::Zenject::IInitializable* i_IInitializable() noexcept {
+      return reinterpret_cast<::Zenject::IInitializable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IJumpOffsetYProvider
     operator ::GlobalNamespace::IJumpOffsetYProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IJumpOffsetYProvider
+    inline ::GlobalNamespace::IJumpOffsetYProvider* i_IJumpOffsetYProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IJumpOffsetYProvider*>(this);
     }
     // Get instance field reference: private readonly PlayerHeightDetector _playerHeightDetector
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerHeightDetector*& dyn__playerHeightDetector();
     // Get instance field reference: private System.Single _jumpOffsetY
     [[deprecated("Use field access instead!")]] float& dyn__jumpOffsetY();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x13D8038
+    // Offset: 0x13DB8E0
     float get_jumpOffsetY();
     // public System.Void .ctor()
-    // Offset: 0x13D8288
+    // Offset: 0x13DBB30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightToJumpOffsetYProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightToJumpOffsetYProvider*, creationType>()));
     }
     // public System.Void Initialize()
-    // Offset: 0x13D8040
+    // Offset: 0x13DB8E8
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x13D81B0
+    // Offset: 0x13DBA58
     void Dispose();
     // private System.Void HandlePlayerHeightDidChange(System.Single playerHeight)
-    // Offset: 0x13D818C
+    // Offset: 0x13DBA34
     void HandlePlayerHeightDidChange(float playerHeight);
     // static public System.Single JumpOffsetYForPlayerHeight(System.Single playerHeight)
-    // Offset: 0x13D80FC
+    // Offset: 0x13DB9A4
     static float JumpOffsetYForPlayerHeight(float playerHeight);
   }; // PlayerHeightToJumpOffsetYProvider
   #pragma pack(pop)

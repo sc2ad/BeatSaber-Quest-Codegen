@@ -32,23 +32,23 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static void _set_$PlatformNeedsLibCWorkaround$k__BackingField(bool value);
     // static private System.Boolean get_PlatformNeedsLibCWorkaround()
-    // Offset: 0x1AB6CD8
+    // Offset: 0x1AAE81C
     static bool get_PlatformNeedsLibCWorkaround();
     // public System.String get_DomainName()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x1AB64D0
+    // Offset: 0x1AAE014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPGlobalProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPGlobalProperties*, creationType>()));
     }
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
-    // Offset: 0x1AB6D28
+    // Offset: 0x1AAE86C
     static ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
-    // Offset: 0x1AB6DC0
+    // Offset: 0x1AAE904
     static ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
   }; // System.Net.NetworkInformation.IPGlobalProperties
   #pragma pack(pop)

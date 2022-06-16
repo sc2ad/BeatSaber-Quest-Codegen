@@ -109,25 +109,25 @@ namespace LIV::SDK::Unity {
     // Set static field: static public System.String LIV_FORCE_FORWARD_RENDERING_SHADER
     static void _set_LIV_FORCE_FORWARD_RENDERING_SHADER(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x2A58600
+    // Offset: 0x2A503D4
     static void _cctor();
     // static public System.Void StartRendering()
-    // Offset: 0x2A563AC
+    // Offset: 0x2A4E180
     static void StartRendering();
     // static public System.Void StopRendering()
-    // Offset: 0x2A56674
+    // Offset: 0x2A4E448
     static void StopRendering();
     // static public System.Void StartForegroundRendering()
-    // Offset: 0x2A56844
+    // Offset: 0x2A4E618
     static void StartForegroundRendering();
     // static public System.Void StopForegroundRendering()
-    // Offset: 0x2A56970
+    // Offset: 0x2A4E744
     static void StopForegroundRendering();
     // static public System.Void StartBackgroundRendering()
-    // Offset: 0x2A563F8
+    // Offset: 0x2A4E1CC
     static void StartBackgroundRendering();
     // static public System.Void StopBackgroundRendering()
-    // Offset: 0x2A56628
+    // Offset: 0x2A4E3FC
     static void StopBackgroundRendering();
   }; // LIV.SDK.Unity.SDKShaders
   #pragma pack(pop)

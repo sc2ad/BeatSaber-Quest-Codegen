@@ -55,34 +55,38 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
     }
+    // Creating interface conversion operator: i_IXmlDeclaration
+    inline ::Newtonsoft::Json::Converters::IXmlDeclaration* i_IXmlDeclaration() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
+    }
     // Deleting conversion operator: operator ::System::Xml::Linq::XObject*
     constexpr operator ::System::Xml::Linq::XObject*() const noexcept = delete;
     // Get instance field reference: private System.Xml.Linq.XDeclaration <Declaration>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XDeclaration*& dyn_$Declaration$k__BackingField();
     // System.Xml.Linq.XDeclaration get_Declaration()
-    // Offset: 0x17B8D34
+    // Offset: 0x17B5878
     ::System::Xml::Linq::XDeclaration* get_Declaration();
     // private System.Void set_Declaration(System.Xml.Linq.XDeclaration value)
-    // Offset: 0x17B8D3C
+    // Offset: 0x17B5880
     void set_Declaration(::System::Xml::Linq::XDeclaration* value);
     // public System.String get_Version()
-    // Offset: 0x17B8DC8
+    // Offset: 0x17B590C
     ::StringW get_Version();
     // public System.String get_Encoding()
-    // Offset: 0x17B8DE4
+    // Offset: 0x17B5928
     ::StringW get_Encoding();
     // public System.String get_Standalone()
-    // Offset: 0x17B8E00
+    // Offset: 0x17B5944
     ::StringW get_Standalone();
     // public System.Void .ctor(System.Xml.Linq.XDeclaration declaration)
-    // Offset: 0x17B8D44
+    // Offset: 0x17B5888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDeclarationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclarationWrapper*, creationType>(declaration)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x17B8DC0
+    // Offset: 0x17B5904
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Xml.XmlNodeType XObjectWrapper::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();

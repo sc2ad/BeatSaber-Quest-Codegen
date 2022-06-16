@@ -58,20 +58,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Camera _camera
     [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__camera();
     // public UnityEngine.RenderTexture get_targetTexture()
-    // Offset: 0x2A42134
+    // Offset: 0x2A39F08
     ::UnityEngine::RenderTexture* get_targetTexture();
     // public System.Void .ctor()
-    // Offset: 0x2A4239C
+    // Offset: 0x2A3A170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenderTextureFromPostEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RenderTextureFromPostEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenderTextureFromPostEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A4213C
+    // Offset: 0x2A39F10
     void Awake();
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dst)
-    // Offset: 0x2A42194
+    // Offset: 0x2A39F68
     void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
   }; // RenderTextureFromPostEffect
   #pragma pack(pop)

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class OVRLayerAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19FFB88
+    // Offset: 0x19F96CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRLayerAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRLayerAttribute::.ctor");

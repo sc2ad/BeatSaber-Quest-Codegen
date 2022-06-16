@@ -55,28 +55,32 @@ namespace System::Text::RegularExpressions {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get instance field reference: System.Text.RegularExpressions.GroupCollection _rgc
     [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::GroupCollection*& dyn__rgc();
     // Get instance field reference: System.Int32 _curindex
     [[deprecated("Use field access instead!")]] int& dyn__curindex();
     // public System.Object get_Current()
-    // Offset: 0x1BFDC90
+    // Offset: 0x1BF1964
     ::Il2CppObject* get_Current();
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x1BFDC94
+    // Offset: 0x1BF1968
     ::System::Text::RegularExpressions::Capture* get_Capture();
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x1BFDBCC
+    // Offset: 0x1BF18A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupEnumerator* New_ctor(::System::Text::RegularExpressions::GroupCollection* rgc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::GroupEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupEnumerator*, creationType>(rgc)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BFDC40
+    // Offset: 0x1BF1914
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BFDD50
+    // Offset: 0x1BF1A24
     void Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
   #pragma pack(pop)

@@ -63,76 +63,76 @@ namespace HoudiniEngineUnity {
   class HEU_TerrainUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean GenerateTerrainFromVolume(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject, ref UnityEngine.TerrainData terrainData, out UnityEngine.Vector3 volumePositionOffset, ref UnityEngine.Terrain terrain, System.String bakedMaterialPath)
-    // Offset: 0x1B0C050
+    // Offset: 0x1B02B94
     static bool GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int geoID, int partID, ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::TerrainData*> terrainData, ByRef<::UnityEngine::Vector3> volumePositionOffset, ByRef<::UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
     // static public System.Void SetTerrainMaterial(UnityEngine.Terrain terrain, System.String specifiedMaterialName, System.String bakedMaterialPath)
-    // Offset: 0x1B0CA50
+    // Offset: 0x1B03594
     static void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath);
     // static public System.String GetDefaultTerrainShaderName()
-    // Offset: 0x1B0D18C
+    // Offset: 0x1B03CD0
     static ::StringW GetDefaultTerrainShaderName();
     // static public System.String GetDefaultTerrainMaterialPath()
-    // Offset: 0x1B0D218
+    // Offset: 0x1B03D5C
     static ::StringW GetDefaultTerrainMaterialPath();
     // static public System.Single[] GetNormalizedHeightmapFromPartWithMinMax(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Int32 heightMapWidth, System.Int32 heightMapHeight, ref System.Single minHeight, ref System.Single maxHeight, ref System.Single heightRange, System.Boolean bUseHeightRangeOverride)
-    // Offset: 0x1B0CC2C
+    // Offset: 0x1B03770
     static ::ArrayW<float> GetNormalizedHeightmapFromPartWithMinMax(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int heightMapWidth, int heightMapHeight, ByRef<float> minHeight, ByRef<float> maxHeight, ByRef<float> heightRange, bool bUseHeightRangeOverride);
     // static public System.Int32[,] GetDetailMapFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, out System.Int32 detailResolution)
-    // Offset: 0x1B0D4B4
+    // Offset: 0x1B03FF8
     static ::ArrayW<int> GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<int> detailResolution);
     // static public System.Boolean GetHeightmapFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 xLength, System.Int32 yLength, System.Int32 geoID, System.Int32 partID, ref System.Single[] heightValues, ref System.Single minHeight, ref System.Single maxHeight)
-    // Offset: 0x1B0D2A4
+    // Offset: 0x1B03DE8
     static bool GetHeightmapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int xLength, int yLength, int geoID, int partID, ByRef<::ArrayW<float>> heightValues, ByRef<float> minHeight, ByRef<float> maxHeight);
     // static public System.Single[,] ConvertHeightMapHoudiniToUnity(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Single[] heightValues)
-    // Offset: 0x1B0D07C
+    // Offset: 0x1B03BC0
     static ::ArrayW<float> ConvertHeightMapHoudiniToUnity(int heightMapWidth, int heightMapHeight, ::ArrayW<float> heightValues);
     // static public System.Single[,,] ConvertHeightFieldToAlphaMap(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Collections.Generic.List`1<System.Single[]> heightFields)
-    // Offset: 0x1B0D778
+    // Offset: 0x1B042BC
     static ::ArrayW<float> ConvertHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, ::System::Collections::Generic::List_1<::ArrayW<float>>* heightFields);
     // static public System.Single[,,] AppendConvertedHeightFieldToAlphaMap(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Single[,,] existingAlphaMaps, System.Collections.Generic.List`1<System.Single[]> heightFields, System.Single[] strengths, System.Collections.Generic.List`1<System.Int32> alphaMapIndices)
-    // Offset: 0x1B0D92C
+    // Offset: 0x1B04470
     static ::ArrayW<float> AppendConvertedHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, ::ArrayW<float> existingAlphaMaps, ::System::Collections::Generic::List_1<::ArrayW<float>>* heightFields, ::ArrayW<float> strengths, ::System::Collections::Generic::List_1<int>* alphaMapIndices);
     // static public UnityEngine.Vector3 GetVolumePositionOffset(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.Vector3 volumePosition, System.Single terrainSizeX, System.Single heightMapSize, System.Int32 mapWidth, System.Int32 mapHeight, System.Single minHeight)
-    // Offset: 0x1B0DBF4
+    // Offset: 0x1B04738
     static ::UnityEngine::Vector3 GetVolumePositionOffset(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::Vector3 volumePosition, float terrainSizeX, float heightMapSize, int mapWidth, int mapHeight, float minHeight);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> GetTreePrototypeInfosFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x1B0DCDC
+    // Offset: 0x1B04820
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Void PopulateScatterTrees(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Int32 pointCount, ref HoudiniEngineUnity.HEU_VolumeScatterTrees scatterTrees, System.Boolean throwWarningIfNoTileAttribute)
-    // Offset: 0x1B0DF5C
+    // Offset: 0x1B04AA0
     static void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int pointCount, ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> scatterTrees, bool throwWarningIfNoTileAttribute);
     // static public System.Void ApplyScatterTrees(UnityEngine.TerrainData terrainData, HoudiniEngineUnity.HEU_VolumeScatterTrees scatterTrees, System.Int32 tileIndex)
-    // Offset: 0x1B0EB30
+    // Offset: 0x1B05674
     static void ApplyScatterTrees(::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees, int tileIndex);
     // static public System.Void PopulateDetailPrototype(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HEU_DetailPrototype detailPrototype)
-    // Offset: 0x1B0EFD4
+    // Offset: 0x1B05B18
     static void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*> detailPrototype);
     // static public System.Void PopulateDetailProperties(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HEU_DetailProperties detailProperties)
-    // Offset: 0x1B0F34C
+    // Offset: 0x1B05E90
     static void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HEU_DetailProperties*> detailProperties);
     // static public System.Void ApplyDetailLayers(UnityEngine.Terrain terrain, UnityEngine.TerrainData terrainData, HoudiniEngineUnity.HEU_DetailProperties detailProperties, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_DetailPrototype> heuDetailPrototypes, System.Collections.Generic.List`1<System.Int32[,]> convertedDetailMaps)
-    // Offset: 0x1B0F610
+    // Offset: 0x1B06154
     static void ApplyDetailLayers(::UnityEngine::Terrain* terrain, ::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_DetailProperties* detailProperties, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* heuDetailPrototypes, ::System::Collections::Generic::List_1<::ArrayW<int>>* convertedDetailMaps);
     // static private System.Int32 GetTerrainLayerIndexByName(System.String layerName, UnityEngine.TerrainLayer[] terrainLayers)
-    // Offset: 0x1B0FA30
+    // Offset: 0x1B06574
     static int GetTerrainLayerIndexByName(::StringW layerName, ::ArrayW<::UnityEngine::TerrainLayer*> terrainLayers);
     // static public System.Int32 GetTerrainLayerIndex(UnityEngine.TerrainLayer layer, UnityEngine.TerrainLayer[] terrainLayers)
-    // Offset: 0x1B0FBB4
+    // Offset: 0x1B066F8
     static int GetTerrainLayerIndex(::UnityEngine::TerrainLayer* layer, ::ArrayW<::UnityEngine::TerrainLayer*> terrainLayers);
     // static public System.Boolean VolumeLayerHasAttributes(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x1B0FC8C
+    // Offset: 0x1B067D0
     static bool VolumeLayerHasAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public HoudiniEngineUnity.HFLayerType GetHeightfieldLayerType(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String volumeName)
-    // Offset: 0x1B0FF88
+    // Offset: 0x1B06ACC
     static ::HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW volumeName);
     // static public System.Single GetHeightRangeFromHeightfield(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x1B0D430
+    // Offset: 0x1B03F74
     static float GetHeightRangeFromHeightfield(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.String GetTerrainDataExportPathFromHeightfieldAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x1B100D0
+    // Offset: 0x1B06C14
     static ::StringW GetTerrainDataExportPathFromHeightfieldAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Single[] ResampleData(System.Single[] data, System.Int32 oldWidth, System.Int32 oldHeight, System.Int32 newWidth, System.Int32 newHeight)
-    // Offset: 0x1B101B0
+    // Offset: 0x1B06CF4
     static ::ArrayW<float> ResampleData(::ArrayW<float> data, int oldWidth, int oldHeight, int newWidth, int newHeight);
   }; // HoudiniEngineUnity.HEU_TerrainUtility
   #pragma pack(pop)

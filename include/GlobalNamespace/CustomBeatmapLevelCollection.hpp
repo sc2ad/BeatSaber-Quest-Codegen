@@ -56,6 +56,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevelCollection*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevelCollection
+    inline ::GlobalNamespace::IBeatmapLevelCollection* i_IBeatmapLevelCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevelCollection*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*
     constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*() const noexcept {
       return customPreviewBeatmapLevels;
@@ -63,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<CustomPreviewBeatmapLevel> _customPreviewBeatmapLevels
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>*& dyn__customPreviewBeatmapLevels();
     // public System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> get_beatmapLevels()
-    // Offset: 0x142968C
+    // Offset: 0x1403600
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
-    // Offset: 0x1429694
+    // Offset: 0x1403608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelCollection* New_ctor(::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevelCollection::.ctor");

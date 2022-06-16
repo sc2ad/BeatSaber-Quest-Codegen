@@ -61,17 +61,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion localRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_localRotation();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1FBE3F8
+    // Offset: 0x1F9C00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Child* New_ctor(::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RagdollUtility::Child::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Child*, creationType>(transform)));
     }
     // public System.Void FixTransform(System.Single weight)
-    // Offset: 0x1FBF040
+    // Offset: 0x1F9CC54
     void FixTransform(float weight);
     // public System.Void StoreLocalState()
-    // Offset: 0x1FBEFF0
+    // Offset: 0x1F9CC04
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child
   #pragma pack(pop)

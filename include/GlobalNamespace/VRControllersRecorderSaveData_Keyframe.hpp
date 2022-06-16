@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single time
     [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor()
-    // Offset: 0x149F9FC
+    // Offset: 0x14A5E9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::Keyframe* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::Keyframe::.ctor");

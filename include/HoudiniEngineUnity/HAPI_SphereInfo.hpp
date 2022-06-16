@@ -44,12 +44,16 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Single[] center
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_center();
     // Get instance field reference: public System.Single radius
     [[deprecated("Use field access instead!")]] float& dyn_radius();
     // public System.Void .ctor(System.Boolean initialize_fields)
-    // Offset: 0x16E1DF0
+    // Offset: 0x16DF914
     HAPI_SphereInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_SphereInfo
   #pragma pack(pop)

@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultColorAlpha and: noteController
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10D3A94
+    // [SpaceAttribute] Offset: 0x10D65F4
     // private NoteControllerBase _noteController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::NoteControllerBase* noteController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteControllerBase*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D3ACC
+    // [SpaceAttribute] Offset: 0x10D662C
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x28
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::MeshRenderer*> circleMeshRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10D3B24
+    // [InjectAttribute] Offset: 0x10D6684
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -118,17 +118,29 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerDidInitEvent
+    inline ::GlobalNamespace::INoteControllerDidInitEvent* i_INoteControllerDidInitEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerDidInitEvent*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
     operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
+    }
+    // Creating interface conversion operator: i_INoteControllerNoteDidStartDissolvingEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i_INoteControllerNoteDidStartDissolvingEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);
     }
     // Creating interface conversion operator: operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent
     operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(this);
     }
+    // Creating interface conversion operator: i_INoteControllerNoteDidPassJumpThreeQuartersEvent
+    inline ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent* i_INoteControllerNoteDidPassJumpThreeQuartersEvent() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D3B44
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D66A4
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -150,41 +162,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _noteColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__noteColor();
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0x133F330
+    // Offset: 0x13412F0
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0x133F3AC
+    // Offset: 0x134136C
     void set_showCircle(bool value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x133F1E8
+    // Offset: 0x13411A8
     void add_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x133F28C
+    // Offset: 0x134124C
     void remove_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void .ctor()
-    // Offset: 0x133FA20
+    // Offset: 0x13419E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorNoteVisuals* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorNoteVisuals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorNoteVisuals*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x133FA30
+    // Offset: 0x13419F0
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x133F428
+    // Offset: 0x13413E8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x133F600
+    // Offset: 0x13415C0
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x133F824
+    // Offset: 0x13417E4
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0x133F9C8
+    // Offset: 0x1341988
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x133F9F4
+    // Offset: 0x13419B4
     void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
   }; // ColorNoteVisuals
   #pragma pack(pop)

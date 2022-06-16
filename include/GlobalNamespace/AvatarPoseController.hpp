@@ -130,41 +130,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<UnityEngine.Vector3> didUpdatePoseEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Vector3>*& dyn_didUpdatePoseEvent();
     // public AvatarPoseController/PositionsWillBeSetDelegate get_earlyPositionsWillBeSetCallback()
-    // Offset: 0x14F4DA4
+    // Offset: 0x14F6EEC
     ::GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* get_earlyPositionsWillBeSetCallback();
     // public System.Void set_earlyPositionsWillBeSetCallback(AvatarPoseController/PositionsWillBeSetDelegate value)
-    // Offset: 0x14F4DAC
+    // Offset: 0x14F6EF4
     void set_earlyPositionsWillBeSetCallback(::GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* value);
     // public AvatarPoseController/LatePositionsWillBeSetDelegate get_latePositionsWillBeSetCallback()
-    // Offset: 0x14F4DB4
+    // Offset: 0x14F6EFC
     ::GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* get_latePositionsWillBeSetCallback();
     // public System.Void set_latePositionsWillBeSetCallback(AvatarPoseController/LatePositionsWillBeSetDelegate value)
-    // Offset: 0x14F4DBC
+    // Offset: 0x14F6F04
     void set_latePositionsWillBeSetCallback(::GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* value);
     // public AvatarPoseController/RotationsWillBeSetDelegate get_earlyRotationsWillBeSetCallback()
-    // Offset: 0x14F4DC4
+    // Offset: 0x14F6F0C
     ::GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* get_earlyRotationsWillBeSetCallback();
     // public System.Void set_earlyRotationsWillBeSetCallback(AvatarPoseController/RotationsWillBeSetDelegate value)
-    // Offset: 0x14F4DCC
+    // Offset: 0x14F6F14
     void set_earlyRotationsWillBeSetCallback(::GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* value);
     // public System.Void add_didUpdatePoseEvent(System.Action`1<UnityEngine.Vector3> value)
-    // Offset: 0x14F465C
+    // Offset: 0x14F67A4
     void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
     // public System.Void remove_didUpdatePoseEvent(System.Action`1<UnityEngine.Vector3> value)
-    // Offset: 0x14F47D8
+    // Offset: 0x14F6920
     void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
     // public System.Void .ctor()
-    // Offset: 0x14F5B58
+    // Offset: 0x14F7CA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPoseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPoseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseController*, creationType>()));
     }
     // public System.Void UpdateTransforms(UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation)
-    // Offset: 0x14F4DD4
+    // Offset: 0x14F6F1C
     void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation, ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
     // public System.Void UpdateBodyPosition()
-    // Offset: 0x14E9354
+    // Offset: 0x14EB400
     void UpdateBodyPosition();
   }; // AvatarPoseController
   #pragma pack(pop)

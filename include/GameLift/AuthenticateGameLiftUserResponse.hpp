@@ -76,6 +76,10 @@ namespace GameLift {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -116,9 +120,17 @@ namespace GameLift {
     operator ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedAuthenticateResponse
+    inline ::BGNet::Core::Messages::IUnconnectedAuthenticateResponse* i_IUnconnectedAuthenticateResponse() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>(this);
+    }
     // Creating interface conversion operator: operator ::GameLift::IGameLiftServerToClientMessage
     operator ::GameLift::IGameLiftServerToClientMessage() noexcept {
       return *reinterpret_cast<::GameLift::IGameLiftServerToClientMessage*>(this);
+    }
+    // Creating interface conversion operator: i_IGameLiftServerToClientMessage
+    inline ::GameLift::IGameLiftServerToClientMessage* i_IGameLiftServerToClientMessage() noexcept {
+      return reinterpret_cast<::GameLift::IGameLiftServerToClientMessage*>(this);
     }
     // Creating conversion operator: operator ::GameLift::AuthenticateGameLiftUserResponse::Result
     constexpr operator ::GameLift::AuthenticateGameLiftUserResponse::Result() const noexcept {
@@ -127,26 +139,26 @@ namespace GameLift {
     // Get instance field reference: public GameLift.AuthenticateGameLiftUserResponse/GameLift.Result result
     [[deprecated("Use field access instead!")]] ::GameLift::AuthenticateGameLiftUserResponse::Result& dyn_result();
     // static public PacketPool`1<GameLift.AuthenticateGameLiftUserResponse> get_pool()
-    // Offset: 0x1678BB4
+    // Offset: 0x16776D8
     static ::GlobalNamespace::PacketPool_1<::GameLift::AuthenticateGameLiftUserResponse*>* get_pool();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x1678C94
+    // Offset: 0x16777B8
     bool get_isAuthenticated();
     // public GameLift.AuthenticateGameLiftUserResponse Init(GameLift.AuthenticateGameLiftUserResponse/GameLift.Result result)
-    // Offset: 0x1678CA4
+    // Offset: 0x16777C8
     ::GameLift::AuthenticateGameLiftUserResponse* Init(::GameLift::AuthenticateGameLiftUserResponse::Result result);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1678BFC
+    // Offset: 0x1677720
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x1678C04
+    // Offset: 0x1677728
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x1678D88
+    // Offset: 0x16778AC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -155,17 +167,17 @@ namespace GameLift {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateGameLiftUserResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1678CAC
+    // Offset: 0x16777D0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1678CE8
+    // Offset: 0x167780C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1678D2C
+    // Offset: 0x1677850
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

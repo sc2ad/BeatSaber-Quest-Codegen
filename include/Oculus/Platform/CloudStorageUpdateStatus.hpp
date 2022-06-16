@@ -37,32 +37,36 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C3DC8
+    // [DescriptionAttribute] Offset: 0x10C58E0
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus Unknown
     static void _set_Unknown(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x10C3E00
+    // [DescriptionAttribute] Offset: 0x10C5918
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static constexpr const int Ok = 1;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_Ok();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus Ok
     static void _set_Ok(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x10C3E38
+    // [DescriptionAttribute] Offset: 0x10C5950
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static constexpr const int BetterVersionStored = 2;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static ::Oculus::Platform::CloudStorageUpdateStatus _get_BetterVersionStored();
     // Set static field: static public Oculus.Platform.CloudStorageUpdateStatus BetterVersionStored
     static void _set_BetterVersionStored(::Oculus::Platform::CloudStorageUpdateStatus value);
-    // [DescriptionAttribute] Offset: 0x10C3E70
+    // [DescriptionAttribute] Offset: 0x10C5988
     // static field const value: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired
     static constexpr const int ManualMergeRequired = 3;
     // Get static field: static public Oculus.Platform.CloudStorageUpdateStatus ManualMergeRequired

@@ -66,7 +66,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10BF5E4
+    // [DrawIfAttribute] Offset: 0x10C10FC
     // private System.Single _padding
     // Size: 0x4
     // Offset: 0x60
@@ -81,7 +81,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
     char __padding3[0x3] = {};
-    // [SpaceAttribute] Offset: 0x10BF69C
+    // [SpaceAttribute] Offset: 0x10C11B4
     // private HMUI.IconSegmentedControlCell _firstCellPrefab
     // Size: 0x8
     // Offset: 0x68
@@ -106,7 +106,7 @@ namespace HMUI {
     ::HMUI::IconSegmentedControlCell* singleCellPrefab;
     // Field size check
     static_assert(sizeof(::HMUI::IconSegmentedControlCell*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BF704
+    // [InjectAttribute] Offset: 0x10C121C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -129,6 +129,10 @@ namespace HMUI {
     // Creating interface conversion operator: operator ::HMUI::SegmentedControl::IDataSource
     operator ::HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<::HMUI::SegmentedControl::IDataSource*>(this);
+    }
+    // Creating interface conversion operator: i_IDataSource
+    inline ::HMUI::SegmentedControl::IDataSource* i_IDataSource() noexcept {
+      return reinterpret_cast<::HMUI::SegmentedControl::IDataSource*>(this);
     }
     // Get instance field reference: private System.Single _iconSize
     [[deprecated("Use field access instead!")]] float& dyn__iconSize();
@@ -153,22 +157,22 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // protected System.Void Init()
-    // Offset: 0x172506C
+    // Offset: 0x1702750
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/HMUI.DataItem[] dataItems)
-    // Offset: 0x172508C
+    // Offset: 0x1702770
     void SetData(::ArrayW<::HMUI::IconSegmentedControl::DataItem*> dataItems);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x17250D8
+    // Offset: 0x17027BC
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x17250F0
+    // Offset: 0x17027D4
     ::HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x172529C
+    // Offset: 0x1702980
     ::HMUI::IconSegmentedControlCell* InstantiateCell(::UnityEngine::Object* prefab);
     // public System.Void .ctor()
-    // Offset: 0x172554C
+    // Offset: 0x1702C30
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

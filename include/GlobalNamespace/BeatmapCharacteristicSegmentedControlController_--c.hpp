@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IDifficultyBeatmapSet> <>9__10_0
     static void _set_$$9__10_0(::System::Comparison_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x134DC00
+    // Offset: 0x1350BC0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x134DC64
+    // Offset: 0x1350C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicSegmentedControlController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSegmentedControlController::$$c*, creationType>()));
     }
     // System.Int32 <SetData>b__10_0(IDifficultyBeatmapSet a, IDifficultyBeatmapSet b)
-    // Offset: 0x134DC6C
+    // Offset: 0x1350C2C
     int $SetData$b__10_0(::GlobalNamespace::IDifficultyBeatmapSet* a, ::GlobalNamespace::IDifficultyBeatmapSet* b);
   }; // BeatmapCharacteristicSegmentedControlController/<>c
   #pragma pack(pop)

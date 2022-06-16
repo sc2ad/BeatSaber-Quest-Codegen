@@ -89,6 +89,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation _location
@@ -100,29 +104,29 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private Mono.Security.X509.X509Store store
     [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509Store*& dyn_store();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x1BF784C
+    // Offset: 0x1BEB520
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x1BFBE54
+    // Offset: 0x1BEFB28
     ::Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x1BFBE70
+    // Offset: 0x1BEFB44
     ::Mono::Security::X509::X509Store* get_Store();
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x1BF7B88
+    // Offset: 0x1BEB85C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Void Close()
-    // Offset: 0x1BF757C
+    // Offset: 0x1BEB250
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1BFBE78
+    // Offset: 0x1BEFB4C
     void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x1BF7CC4
+    // Offset: 0x1BEB998
     void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)

@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean chromatic
     [[deprecated("Use field access instead!")]] bool& dyn_chromatic();
     // public System.Void .ctor()
-    // Offset: 0x1653030
+    // Offset: 0x1652B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRChromaticAberration* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRChromaticAberration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRChromaticAberration*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1652E5C
+    // Offset: 0x1652980
     void Start();
     // private System.Void Update()
-    // Offset: 0x1652F1C
+    // Offset: 0x1652A40
     void Update();
   }; // OVRChromaticAberration
   #pragma pack(pop)

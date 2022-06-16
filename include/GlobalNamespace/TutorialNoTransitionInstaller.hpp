@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x1490948
+    // Offset: 0x1496DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialNoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x14906AC
+    // Offset: 0x1496B4C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(::Zenject::DiContainer* container);

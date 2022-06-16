@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6A80
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C8598
     // Get static field: static private UnityEngine.Material _material
     static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
@@ -83,20 +83,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__mesh();
     // protected System.Void .ctor()
-    // Offset: 0x2A3D094
+    // Offset: 0x2A34E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBufferGOCore* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CommandBufferGOCore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferGOCore*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2A3D110
+    // Offset: 0x2A34EE4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2A3D538
+    // Offset: 0x2A3530C
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x2A3D8B8
+    // Offset: 0x2A3568C
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFFFFFFFFFF

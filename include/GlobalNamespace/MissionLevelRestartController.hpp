@@ -65,6 +65,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ILevelRestartController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ILevelRestartController*>(this);
     }
+    // Creating interface conversion operator: i_ILevelRestartController
+    inline ::GlobalNamespace::ILevelRestartController* i_ILevelRestartController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ILevelRestartController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
@@ -74,14 +78,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // public System.Void .ctor()
-    // Offset: 0x13041AC
+    // Offset: 0x130616C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelRestartController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelRestartController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelRestartController*, creationType>()));
     }
     // public System.Void RestartLevel()
-    // Offset: 0x1304100
+    // Offset: 0x13060C0
     void RestartLevel();
   }; // MissionLevelRestartController
   #pragma pack(pop)

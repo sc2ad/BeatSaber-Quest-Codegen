@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D7F98
+    // [InjectAttribute] Offset: 0x10DAD24
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
     }
+    // Creating interface conversion operator: i_IReturnToMenuController
+    inline ::GlobalNamespace::IReturnToMenuController* i_IReturnToMenuController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IReturnToMenuController*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
@@ -65,14 +69,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x1417A84
+    // Offset: 0x146F6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelReturnToMenuController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelReturnToMenuController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelReturnToMenuController*, creationType>()));
     }
     // public System.Void ReturnToMenu()
-    // Offset: 0x1417A3C
+    // Offset: 0x146F67C
     void ReturnToMenu();
   }; // StandardLevelReturnToMenuController
   #pragma pack(pop)

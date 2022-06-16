@@ -37,6 +37,10 @@ namespace BeatmapSaveDataVersion3 {
     operator ::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>() noexcept {
       return *reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapSaveDataItem
+    inline ::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>* i_BeatmapSaveDataItem() noexcept {
+      return reinterpret_cast<::System::IComparable_1<::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem*>*>(this);
+    }
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return b;
@@ -44,17 +48,17 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Single b
     [[deprecated("Use field access instead!")]] float& dyn_b();
     // public System.Single get_beat()
-    // Offset: 0x286D790
+    // Offset: 0x2826C20
     float get_beat();
     // protected System.Void .ctor(System.Single beat)
-    // Offset: 0x286D72C
+    // Offset: 0x2826BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BeatmapSaveDataItem* New_ctor(float beat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::BeatmapSaveDataItem*, creationType>(beat)));
     }
     // public System.Int32 CompareTo(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem other)
-    // Offset: 0x286D798
+    // Offset: 0x2826C28
     int CompareTo(::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem
   #pragma pack(pop)

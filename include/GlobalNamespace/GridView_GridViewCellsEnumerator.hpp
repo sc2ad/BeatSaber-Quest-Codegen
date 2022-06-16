@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
     }
+    // Creating interface conversion operator: i_MonoBehaviour
+    inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i_MonoBehaviour() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::GridView*
     constexpr operator ::GlobalNamespace::GridView*() const noexcept {
       return gridView;
@@ -67,17 +71,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GridView _gridView
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GridView*& dyn__gridView();
     // public System.Void .ctor(GridView gridView)
-    // Offset: 0x13F8330
+    // Offset: 0x136AE7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GridView::GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::GridViewCellsEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GridView::GridViewCellsEnumerator*, creationType>(gridView)));
     }
     // public System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> GetEnumerator()
-    // Offset: 0x13F8B20
+    // Offset: 0x136ADDC
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13F8BBC
+    // Offset: 0x136AE78
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // GridView/GridViewCellsEnumerator
   #pragma pack(pop)

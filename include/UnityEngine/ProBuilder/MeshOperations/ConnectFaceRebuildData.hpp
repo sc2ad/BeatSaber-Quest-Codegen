@@ -58,7 +58,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_newVertexIndexes();
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
-    // Offset: 0x1A2794C
+    // Offset: 0x1A22490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int>* newVertexIndexes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");

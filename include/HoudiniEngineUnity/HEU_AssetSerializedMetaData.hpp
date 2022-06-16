@@ -67,6 +67,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_AssetSerializedMetaData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>* i_HEU_AssetSerializedMetaData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _softDeleted
@@ -74,23 +78,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
     // public System.Boolean get_SoftDeleted()
-    // Offset: 0x16E4A08
+    // Offset: 0x16E252C
     bool get_SoftDeleted();
     // public System.Void set_SoftDeleted(System.Boolean value)
-    // Offset: 0x16E4A10
+    // Offset: 0x16E2534
     void set_SoftDeleted(bool value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> get_SavedCurveNodeData()
-    // Offset: 0x16E4A1C
+    // Offset: 0x16E2540
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
     // public System.Void .ctor()
-    // Offset: 0x16E4AD0
+    // Offset: 0x16E25F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetSerializedMetaData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetSerializedMetaData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetSerializedMetaData*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AssetSerializedMetaData other)
-    // Offset: 0x16E4A24
+    // Offset: 0x16E2548
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
   }; // HoudiniEngineUnity.HEU_AssetSerializedMetaData
   #pragma pack(pop)

@@ -72,14 +72,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomFogSO _bloomFog
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void .ctor()
-    // Offset: 0x137BDF4
+    // Offset: 0x13A64A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameCoreSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameCoreSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameCoreSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x137BA0C
+    // Offset: 0x13A60B8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

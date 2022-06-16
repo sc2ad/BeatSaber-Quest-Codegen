@@ -53,6 +53,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -76,7 +80,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(LightGroupCircularLayouter::RotationDirection), 0 + sizeof(int)> __GlobalNamespace_LightGroupCircularLayouter_RotationDirectionSizeCheck;
     static_assert(sizeof(LightGroupCircularLayouter::RotationDirection) == 0x4);
     public:
-    // [SpaceAttribute] Offset: 0x10D5D04
+    // [SpaceAttribute] Offset: 0x10D8874
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x20
@@ -95,7 +99,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightGroupCircularLayouter/RotationDirection _rotationDirection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroupCircularLayouter::RotationDirection& dyn__rotationDirection();
     // public System.Void .ctor()
-    // Offset: 0x14C33E4
+    // Offset: 0x14C5E18
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

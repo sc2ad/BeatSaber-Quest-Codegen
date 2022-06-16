@@ -49,34 +49,38 @@ namespace System::Net {
     operator ::System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationModule
+    inline ::System::Net::IAuthenticationModule* i_IAuthenticationModule() noexcept {
+      return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
+    }
     // Get static field: static private readonly System.Collections.Hashtable cache
     static ::System::Collections::Hashtable* _get_cache();
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(::System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x1A77D40
+    // Offset: 0x1A70884
     static ::System::Collections::Hashtable* get_Cache();
     // public System.String get_AuthenticationType()
-    // Offset: 0x1A79094
+    // Offset: 0x1A71BD8
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1A790DC
+    // Offset: 0x1A71C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestClient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A790E4
+    // Offset: 0x1A71C28
     static void _cctor();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x1A77E90
+    // Offset: 0x1A709D4
     static void CheckExpired(int count);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A78648
+    // Offset: 0x1A7118C
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A78F14
+    // Offset: 0x1A71A58
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.DigestClient
   #pragma pack(pop)

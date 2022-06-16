@@ -24,31 +24,31 @@ namespace Mono::Security {
   class BitConverterLE_ : public ::Il2CppObject {
     public:
     // static private System.Byte[] GetUIntBytes(System.Byte* bytes)
-    // Offset: 0x1F55648
+    // Offset: 0x1F4C31C
     static ::ArrayW<uint8_t> GetUIntBytes(uint8_t* bytes);
     // static private System.Byte[] GetULongBytes(System.Byte* bytes)
-    // Offset: 0x1F55764
+    // Offset: 0x1F4C438
     static ::ArrayW<uint8_t> GetULongBytes(uint8_t* bytes);
     // static System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x1F54C6C
+    // Offset: 0x1F4B940
     static ::ArrayW<uint8_t> GetBytes(int value);
     // static System.Byte[] GetBytes(System.Single value)
-    // Offset: 0x1F55900
+    // Offset: 0x1F4C5D4
     static ::ArrayW<uint8_t> GetBytes(float value);
     // static System.Byte[] GetBytes(System.Double value)
-    // Offset: 0x1F55924
+    // Offset: 0x1F4C5F8
     static ::ArrayW<uint8_t> GetBytes(double value);
     // static private System.Void UIntFromBytes(System.Byte* dst, System.Byte[] src, System.Int32 startIndex)
-    // Offset: 0x1F55948
+    // Offset: 0x1F4C61C
     static void UIntFromBytes(uint8_t* dst, ::ArrayW<uint8_t> src, int startIndex);
     // static private System.Void ULongFromBytes(System.Byte* dst, System.Byte[] src, System.Int32 startIndex)
-    // Offset: 0x1F55AAC
+    // Offset: 0x1F4C780
     static void ULongFromBytes(uint8_t* dst, ::ArrayW<uint8_t> src, int startIndex);
     // static System.Single ToSingle(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1F55BB8
+    // Offset: 0x1F4C88C
     static float ToSingle(::ArrayW<uint8_t> value, int startIndex);
     // static System.Double ToDouble(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1F55BE8
+    // Offset: 0x1F4C8BC
     static double ToDouble(::ArrayW<uint8_t> value, int startIndex);
   }; // Mono.Security.BitConverterLE
   #pragma pack(pop)

@@ -32,28 +32,32 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Get static field: static public readonly System.Collections.IEnumerator Instance
     static ::System::Collections::IEnumerator* _get_Instance();
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(::System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x1809AA8
+    // Offset: 0x18065EC
     ::Il2CppObject* get_Current();
     // private System.Void .ctor()
-    // Offset: 0x1809A94
+    // Offset: 0x18065D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1809B14
+    // Offset: 0x1806658
     static void _cctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x1809A9C
+    // Offset: 0x18065E0
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1809AA4
+    // Offset: 0x18065E8
     void Reset();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerator
   #pragma pack(pop)

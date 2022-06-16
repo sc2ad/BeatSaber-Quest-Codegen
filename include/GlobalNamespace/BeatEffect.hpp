@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D4F5C
+    // [SpaceAttribute] Offset: 0x10D7ACC
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
     // Offset: 0x30
@@ -151,20 +151,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x134A500
+    // Offset: 0x134D4C0
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void .ctor()
-    // Offset: 0x134A884
+    // Offset: 0x134D844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffect*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x134A508
+    // Offset: 0x134D4C8
     void Init(::UnityEngine::Color color, float animationDuration, ::UnityEngine::Quaternion rotation);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x134A5CC
+    // Offset: 0x134D58C
     void ManualUpdate(float deltaTime);
   }; // BeatEffect
   #pragma pack(pop)

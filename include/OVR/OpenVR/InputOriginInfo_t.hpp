@@ -813,6 +813,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.UInt64 devicePath
     [[deprecated("Use field access instead!")]] uint64_t& dyn_devicePath();
     // Get instance field reference: public System.UInt32 trackedDeviceIndex
@@ -1074,7 +1078,7 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.Byte rchRenderModelComponentName127
     [[deprecated("Use field access instead!")]] uint8_t& dyn_rchRenderModelComponentName127();
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0x164D7A4
+    // Offset: 0x164D2C8
     ::StringW get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)

@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Int32 cipherKeySize
     [[deprecated("Use field access instead!")]] int& dyn_cipherKeySize();
     // public System.Int32 get_CipherKeySize()
-    // Offset: 0x15F91CC
+    // Offset: 0x15F8CF0
     int get_CipherKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesWithCipherParameters
   #pragma pack(pop)

@@ -82,6 +82,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAuthenticationTokenProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationTokenProvider
+    inline ::GlobalNamespace::IAuthenticationTokenProvider* i_IAuthenticationTokenProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAuthenticationTokenProvider*>(this);
+    }
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private readonly System.String _userId
@@ -93,20 +97,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AuthenticationToken/Platform _platform
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
     // public System.String get_hashedUserId()
-    // Offset: 0x1363154
+    // Offset: 0x13650EC
     ::StringW get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0x136315C
+    // Offset: 0x13650F4
     ::StringW get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x1363164
+    // Offset: 0x13650FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x1363228
+    // Offset: 0x13651C0
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

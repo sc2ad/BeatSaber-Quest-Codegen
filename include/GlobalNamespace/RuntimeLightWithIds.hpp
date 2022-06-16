@@ -67,6 +67,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -96,7 +100,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*> lightIntensityData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BDBEC
+    // [SpaceAttribute] Offset: 0x10BF704
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -135,16 +139,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private RuntimeLightWithIds/MixType _mixType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RuntimeLightWithIds::MixType& dyn__mixType();
     // protected System.Void Awake()
-    // Offset: 0x1E7E5E0
+    // Offset: 0x1E752B4
     void Awake();
     // protected System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1E82A8C
+    // Offset: 0x1E79760
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x1E74D70
+    // Offset: 0x1E6BA44
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -153,7 +157,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1E82848
+    // Offset: 0x1E7951C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

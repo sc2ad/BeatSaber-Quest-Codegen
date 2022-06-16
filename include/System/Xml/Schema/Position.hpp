@@ -48,12 +48,16 @@ namespace System::Xml::Schema {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int32 symbol
     [[deprecated("Use field access instead!")]] int& dyn_symbol();
     // Get instance field reference: public System.Object particle
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Int32 symbol, System.Object particle)
-    // Offset: 0x1C62D70
+    // Offset: 0x1C55A44
     // ABORTED: conflicts with another method.  Position(int symbol, ::Il2CppObject* particle);
   }; // System.Xml.Schema.Position
   #pragma pack(pop)

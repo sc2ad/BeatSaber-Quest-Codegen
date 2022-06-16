@@ -77,6 +77,10 @@ namespace Mono::Globalization::Unicode {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly System.Globalization.CompareOptions Option
     [[deprecated("Use field access instead!")]] ::System::Globalization::CompareOptions& dyn_Option();
     // Get instance field reference: public readonly System.Byte* NeverMatchFlags
@@ -92,7 +96,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte* PrevSortKey
     [[deprecated("Use field access instead!")]] uint8_t*& dyn_PrevSortKey();
     // public System.Void .ctor(System.Globalization.CompareOptions opt, System.Byte* alwaysMatchFlags, System.Byte* neverMatchFlags, System.Byte* buffer1, System.Byte* buffer2, System.Byte* prev1)
-    // Offset: 0x1F49344
+    // Offset: 0x1F40018
     Context(::System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1);
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context
   #pragma pack(pop)

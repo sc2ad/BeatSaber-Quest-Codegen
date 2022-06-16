@@ -103,6 +103,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_DetailPrototype
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* i_HEU_DetailPrototype() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
+    }
     // Get instance field reference: public System.String _prototypePrefab
     [[deprecated("Use field access instead!")]] ::StringW& dyn__prototypePrefab();
     // Get instance field reference: public System.String _prototypeTexture
@@ -126,14 +130,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _renderMode
     [[deprecated("Use field access instead!")]] int& dyn__renderMode();
     // public System.Void .ctor()
-    // Offset: 0x1781EC4
+    // Offset: 0x177EA08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_DetailPrototype* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_DetailPrototype::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_DetailPrototype*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailPrototype other)
-    // Offset: 0x1781FEC
+    // Offset: 0x177EB30
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
   }; // HoudiniEngineUnity.HEU_DetailPrototype
   #pragma pack(pop)

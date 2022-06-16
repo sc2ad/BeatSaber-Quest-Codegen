@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     static float _get_kMaxDistanceForDistanceToCenterScore();
     // Set static field: static public System.Single kMaxDistanceForDistanceToCenterScore
     static void _set_kMaxDistanceForDistanceToCenterScore(float value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D334C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5E8C
     // Get static field: static public readonly System.Collections.Generic.HashSet`1<NoteData/ScoringType> fullScoreScoringTypes
     static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData::ScoringType>* _get_fullScoreScoringTypes();
     // Set static field: static public readonly System.Collections.Generic.HashSet`1<NoteData/ScoringType> fullScoreScoringTypes
     static void _set_fullScoreScoringTypes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData::ScoringType>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D335C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5E9C
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<NoteData/ScoringType,ScoreModel/NoteScoreDefinition> _scoreDefinitions
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData::ScoringType, ::GlobalNamespace::ScoreModel::NoteScoreDefinition*>* _get__scoreDefinitions();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<NoteData/ScoringType,ScoreModel/NoteScoreDefinition> _scoreDefinitions
@@ -94,29 +94,29 @@ namespace GlobalNamespace {
     static int _get_kMaxAfterCutScore();
     // Set static field: static private System.Int32 kMaxAfterCutScore
     static void _set_kMaxAfterCutScore(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D336C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D5EAC
     // Get static field: static private readonly ScoreMultiplierCounter _scoreMultiplierCounter
     static ::GlobalNamespace::ScoreMultiplierCounter* _get__scoreMultiplierCounter();
     // Set static field: static private readonly ScoreMultiplierCounter _scoreMultiplierCounter
     static void _set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
     // public System.Void .ctor()
-    // Offset: 0x14665BC
+    // Offset: 0x148C464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreModel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14665C4
+    // Offset: 0x148C46C
     static void _cctor();
     // static public ScoreModel/NoteScoreDefinition GetNoteScoreDefinition(NoteData/ScoringType scoringType)
-    // Offset: 0x1465B34
+    // Offset: 0x148B9DC
     static ::GlobalNamespace::ScoreModel::NoteScoreDefinition* GetNoteScoreDefinition(::GlobalNamespace::NoteData::ScoringType scoringType);
     // static public System.Int32 ComputeMaxMultipliedScoreForBeatmap(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1465BB8
+    // Offset: 0x148BA60
     static int ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 multipliedScore, System.Single gameplayModifiersScoreMultiplier)
-    // Offset: 0x14650BC
+    // Offset: 0x148AF64
     static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int multipliedScore, float gameplayModifiersScoreMultiplier);
   }; // ScoreModel
   #pragma pack(pop)

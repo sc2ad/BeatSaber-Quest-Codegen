@@ -68,7 +68,7 @@ namespace MasterServer {
     ::MasterServer::GetPublicServersRequest* $$7__wrap2;
     // Field size check
     static_assert(sizeof(::MasterServer::GetPublicServersRequest*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x10B6620
+    // [TupleElementNamesAttribute] Offset: 0x10B9138
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.String>> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -84,9 +84,17 @@ namespace MasterServer {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
     operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    }
+    // Creating interface conversion operator: i_IAsyncStateMachine
+    inline ::System::Runtime::CompilerServices::IAsyncStateMachine* i_IAsyncStateMachine() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Get instance field reference: public System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
@@ -103,10 +111,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.GetPublicServersResponse> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::MasterServer::GetPublicServersResponse*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x172F39C
+    // Offset: 0x172BEE0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x172F758
+    // Offset: 0x172C29C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass22_0/MasterServer.<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!

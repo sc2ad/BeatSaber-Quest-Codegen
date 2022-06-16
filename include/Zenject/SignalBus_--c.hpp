@@ -62,29 +62,29 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.SignalSubscription,System.String> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D1AF34
+    // Offset: 0x1D0EC08
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D1AF98
+    // Offset: 0x1D0EC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBus::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBus::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalBus::$$c*, creationType>()));
     }
     // Zenject.BindingId <.ctor>b__7_0(Zenject.SignalDeclaration x)
-    // Offset: 0x1D1AFA0
+    // Offset: 0x1D0EC74
     ::Zenject::BindingId $_ctor$b__7_0(::Zenject::SignalDeclaration* x);
     // Zenject.SignalDeclaration <.ctor>b__7_1(Zenject.SignalDeclaration x)
-    // Offset: 0x1D1AFB8
+    // Offset: 0x1D0EC8C
     ::Zenject::SignalDeclaration* $_ctor$b__7_1(::Zenject::SignalDeclaration* x);
     // System.String <LateDispose>b__12_0(Zenject.SignalSubscription x)
-    // Offset: 0x1D1AFC0
+    // Offset: 0x1D0EC94
     ::StringW $LateDispose$b__12_0(::Zenject::SignalSubscription* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D1AFF8
+    // Offset: 0x1D0ECCC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D1B054
+    // Offset: 0x1D0ED28
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalBus/Zenject.<>c
   #pragma pack(pop)

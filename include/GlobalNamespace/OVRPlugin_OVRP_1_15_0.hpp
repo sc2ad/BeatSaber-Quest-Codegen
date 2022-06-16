@@ -42,55 +42,55 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 OVRP_EXTERNAL_CAMERA_NAME_SIZE
     static void _set_OVRP_EXTERNAL_CAMERA_NAME_SIZE(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1B16BC8
+    // Offset: 0x1B0E70C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_InitializeMixedReality()
-    // Offset: 0x1B161A0
+    // Offset: 0x1B0DCE4
     static ::GlobalNamespace::OVRPlugin::Result ovrp_InitializeMixedReality();
     // static public OVRPlugin/Result ovrp_ShutdownMixedReality()
-    // Offset: 0x1B16214
+    // Offset: 0x1B0DD58
     static ::GlobalNamespace::OVRPlugin::Result ovrp_ShutdownMixedReality();
     // static public OVRPlugin/Bool ovrp_GetMixedRealityInitialized()
-    // Offset: 0x1B16288
+    // Offset: 0x1B0DDCC
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetMixedRealityInitialized();
     // static public OVRPlugin/Result ovrp_UpdateExternalCamera()
-    // Offset: 0x1B162FC
+    // Offset: 0x1B0DE40
     static ::GlobalNamespace::OVRPlugin::Result ovrp_UpdateExternalCamera();
     // static public OVRPlugin/Result ovrp_GetExternalCameraCount(out System.Int32 cameraCount)
-    // Offset: 0x1B16370
+    // Offset: 0x1B0DEB4
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraCount(ByRef<int> cameraCount);
     // static public OVRPlugin/Result ovrp_GetExternalCameraName(System.Int32 cameraId, System.Char[] cameraName)
-    // Offset: 0x1B163F0
+    // Offset: 0x1B0DF34
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraName(int cameraId, ::ArrayW<::Il2CppChar> cameraName);
     // static public OVRPlugin/Result ovrp_GetExternalCameraIntrinsics(System.Int32 cameraId, out OVRPlugin/CameraIntrinsics cameraIntrinsics)
-    // Offset: 0x1B1650C
+    // Offset: 0x1B0E050
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraIntrinsics(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
     // static public OVRPlugin/Result ovrp_GetExternalCameraExtrinsics(System.Int32 cameraId, out OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x1B1659C
+    // Offset: 0x1B0E0E0
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraExtrinsics(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Result ovrp_CalculateLayerDesc(OVRPlugin/OverlayShape shape, OVRPlugin/LayerLayout layout, ref OVRPlugin/Sizei textureSize, System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat format, System.Int32 layerFlags, ref OVRPlugin/LayerDesc layerDesc)
-    // Offset: 0x1B1662C
+    // Offset: 0x1B0E170
     static ::GlobalNamespace::OVRPlugin::Result ovrp_CalculateLayerDesc(::GlobalNamespace::OVRPlugin::OverlayShape shape, ::GlobalNamespace::OVRPlugin::LayerLayout layout, ByRef<::GlobalNamespace::OVRPlugin::Sizei> textureSize, int mipLevels, int sampleCount, ::GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags, ByRef<::GlobalNamespace::OVRPlugin::LayerDesc> layerDesc);
     // static public OVRPlugin/Result ovrp_EnqueueSetupLayer(ref OVRPlugin/LayerDesc desc, System.IntPtr layerId)
-    // Offset: 0x1B16754
+    // Offset: 0x1B0E298
     static ::GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSetupLayer(ByRef<::GlobalNamespace::OVRPlugin::LayerDesc> desc, ::System::IntPtr layerId);
     // static public OVRPlugin/Result ovrp_EnqueueDestroyLayer(System.IntPtr layerId)
-    // Offset: 0x1B16834
+    // Offset: 0x1B0E378
     static ::GlobalNamespace::OVRPlugin::Result ovrp_EnqueueDestroyLayer(::System::IntPtr layerId);
     // static public OVRPlugin/Result ovrp_GetLayerTextureStageCount(System.Int32 layerId, ref System.Int32 layerTextureStageCount)
-    // Offset: 0x1B168B4
+    // Offset: 0x1B0E3F8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetLayerTextureStageCount(int layerId, ByRef<int> layerTextureStageCount);
     // static public OVRPlugin/Result ovrp_GetLayerTexturePtr(System.Int32 layerId, System.Int32 stage, OVRPlugin/Eye eyeId, ref System.IntPtr textureHandle)
-    // Offset: 0x1B16944
+    // Offset: 0x1B0E488
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetLayerTexturePtr(int layerId, int stage, ::GlobalNamespace::OVRPlugin::Eye eyeId, ByRef<::System::IntPtr> textureHandle);
     // static public OVRPlugin/Result ovrp_EnqueueSubmitLayer(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.Int32 layerId, System.Int32 frameIndex, ref OVRPlugin/Posef pose, ref OVRPlugin/Vector3f scale, System.Int32 layerIndex)
-    // Offset: 0x1B169EC
+    // Offset: 0x1B0E530
     static ::GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSubmitLayer(uint flags, ::System::IntPtr textureLeft, ::System::IntPtr textureRight, int layerId, int frameIndex, ByRef<::GlobalNamespace::OVRPlugin::Posef> pose, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> scale, int layerIndex);
     // static public OVRPlugin/Result ovrp_GetNodeFrustum2(OVRPlugin/Node nodeId, out OVRPlugin/Frustumf2 nodeFrustum)
-    // Offset: 0x1B16AC4
+    // Offset: 0x1B0E608
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNodeFrustum2(::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::Frustumf2> nodeFrustum);
     // static public OVRPlugin/Bool ovrp_GetEyeTextureArrayEnabled()
-    // Offset: 0x1B16B54
+    // Offset: 0x1B0E698
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetEyeTextureArrayEnabled();
   }; // OVRPlugin/OVRP_1_15_0
   #pragma pack(pop)

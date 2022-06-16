@@ -74,6 +74,10 @@ namespace UnityEngine::Scripting::APIUpdating {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.String className
     [[deprecated("Use field access instead!")]] ::StringW& dyn_className();
     // Get instance field reference: public System.String nameSpace
@@ -89,7 +93,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Get instance field reference: public System.Boolean autoUdpateAPI
     [[deprecated("Use field access instead!")]] bool& dyn_autoUdpateAPI();
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0x211A9C0
+    // Offset: 0x2114584
     void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

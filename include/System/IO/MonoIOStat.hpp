@@ -66,6 +66,10 @@ namespace System::IO {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.IO.FileAttributes fileAttributes
     [[deprecated("Use field access instead!")]] ::System::IO::FileAttributes& dyn_fileAttributes();
     // Get instance field reference: public System.Int64 Length

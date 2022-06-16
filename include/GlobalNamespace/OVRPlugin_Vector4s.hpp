@@ -54,6 +54,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get static field: static public readonly OVRPlugin/Vector4s zero
     static ::GlobalNamespace::OVRPlugin::Vector4s _get_zero();
     // Set static field: static public readonly OVRPlugin/Vector4s zero
@@ -67,10 +71,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int16 w
     [[deprecated("Use field access instead!")]] int16_t& dyn_w();
     // static private System.Void .cctor()
-    // Offset: 0x1B1E698
+    // Offset: 0x1B161DC
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1B1E4B8
+    // Offset: 0x1B15FFC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

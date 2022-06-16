@@ -68,6 +68,10 @@ namespace UnityEngine {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: System.Int32 order
       [[deprecated("Use field access instead!")]] int& dyn_order();
       // Get instance field reference: UnityEngine.Events.UnityAction callback
@@ -81,19 +85,19 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F8CC64
+    // Offset: 0x1F83938
     static void _cctor();
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F8C944
+    // Offset: 0x1F83618
     static int GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F8A750
+    // Offset: 0x1F81424
     static void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1F8AAF0
+    // Offset: 0x1F817C4
     static void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1F8B1B0
+    // Offset: 0x1F81E84
     static void Invoke();
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)

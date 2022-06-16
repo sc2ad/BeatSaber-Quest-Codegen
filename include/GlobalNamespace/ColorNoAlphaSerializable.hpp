@@ -56,13 +56,25 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>
     operator ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>*>(this);
+    }
+    // Creating interface conversion operator: i_ColorNoAlphaSerializable
+    inline ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>* i_ColorNoAlphaSerializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Color
     constexpr operator ::UnityEngine::Color() const noexcept {
@@ -71,29 +83,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x2A0023C
+    // Offset: 0x29FD3F4
     // ABORTED: conflicts with another method.  ColorNoAlphaSerializable(::UnityEngine::Color color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A00248
+    // Offset: 0x29FD400
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A0029C
+    // Offset: 0x29FD454
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorNoAlphaSerializable other)
-    // Offset: 0x2A00304
+    // Offset: 0x29FD4BC
     bool Equals(::GlobalNamespace::ColorNoAlphaSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2A00408
+    // Offset: 0x29FD5C0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A00498
+    // Offset: 0x29FD650
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2A004A0
+    // Offset: 0x29FD658
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

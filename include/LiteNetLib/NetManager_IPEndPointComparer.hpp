@@ -36,18 +36,22 @@ namespace LiteNetLib {
     operator ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
     }
+    // Creating interface conversion operator: i_IPEndPoint
+    inline ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>* i_IPEndPoint() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x21B14E0
+    // Offset: 0x21A90A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetManager::IPEndPointComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetManager::IPEndPointComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetManager::IPEndPointComparer*, creationType>()));
     }
     // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x21B6B60
+    // Offset: 0x21AE724
     bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
     // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x21B6BC0
+    // Offset: 0x21AE784
     int GetHashCode(::System::Net::IPEndPoint* obj);
   }; // LiteNetLib.NetManager/LiteNetLib.IPEndPointComparer
   #pragma pack(pop)

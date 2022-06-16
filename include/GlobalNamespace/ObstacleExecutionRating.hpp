@@ -58,6 +58,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -93,10 +97,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ObstacleExecutionRating/Rating <rating>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x14B5B64
+    // Offset: 0x14B8F28
     ::GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x14B5B6C
+    // Offset: 0x14B8F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, ::GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleExecutionRating::.ctor");

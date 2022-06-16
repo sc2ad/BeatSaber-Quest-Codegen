@@ -65,24 +65,28 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: private System.Single <value>k__BackingField
       [[deprecated("Use field access instead!")]] float& dyn_$value$k__BackingField();
       // Get instance field reference: private System.Single <time>k__BackingField
       [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
       // public System.Single get_value()
-      // Offset: 0x14F9944
+      // Offset: 0x14FBA8C
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0x14F994C
+      // Offset: 0x14FBA94
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0x14F9954
+      // Offset: 0x14FBA9C
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0x14F995C
+      // Offset: 0x14FBAA4
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0x14F9924
+      // Offset: 0x14FBA6C
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
@@ -173,23 +177,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastValue
     [[deprecated("Use field access instead!")]] float& dyn__lastValue();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0x14F95CC
+    // Offset: 0x14FB714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AveragingValueRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AveragingValueRecorder*, creationType>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond)));
     }
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0x14F96F8
+    // Offset: 0x14FB840
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0x14F992C
+    // Offset: 0x14FBA74
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0x14F9934
+    // Offset: 0x14FBA7C
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0x14F993C
+    // Offset: 0x14FBA84
     ::System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
   #pragma pack(pop)

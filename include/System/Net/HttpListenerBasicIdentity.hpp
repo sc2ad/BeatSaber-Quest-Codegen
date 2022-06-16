@@ -44,7 +44,7 @@ namespace System::Net {
     // Get instance field reference: private System.String password
     [[deprecated("Use field access instead!")]] ::StringW& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x1AA64DC
+    // Offset: 0x1A9E020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerBasicIdentity::.ctor");

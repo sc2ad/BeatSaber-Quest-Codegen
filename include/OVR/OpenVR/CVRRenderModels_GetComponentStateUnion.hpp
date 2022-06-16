@@ -42,6 +42,10 @@ namespace OVR::OpenVR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState pGetComponentState
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRRenderModels::_GetComponentState*& dyn_pGetComponentState();
     // Get instance field reference: public OVR.OpenVR.CVRRenderModels/OVR.OpenVR._GetComponentStatePacked pGetComponentStatePacked

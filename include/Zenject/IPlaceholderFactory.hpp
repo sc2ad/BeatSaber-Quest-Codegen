@@ -27,6 +27,10 @@ namespace Zenject {
     operator ::Zenject::IValidatable() noexcept {
       return *reinterpret_cast<::Zenject::IValidatable*>(this);
     }
+    // Creating interface conversion operator: i_IValidatable
+    inline ::Zenject::IValidatable* i_IValidatable() noexcept {
+      return reinterpret_cast<::Zenject::IValidatable*>(this);
+    }
   }; // Zenject.IPlaceholderFactory
   #pragma pack(pop)
 }

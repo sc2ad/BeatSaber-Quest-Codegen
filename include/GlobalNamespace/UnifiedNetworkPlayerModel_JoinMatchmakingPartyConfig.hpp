@@ -60,6 +60,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);
     }
+    // Creating interface conversion operator: i_UnifiedNetworkPlayerModel
+    inline ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>* i_UnifiedNetworkPlayerModel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);
+    }
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
@@ -69,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x1498A24
+    // Offset: 0x149EEC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig::.ctor");

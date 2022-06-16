@@ -58,6 +58,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private System.Boolean needsShutdown
     [[deprecated("Use field access instead!")]] bool& dyn_needsShutdown();
     // Get instance field reference: private System.Boolean failedLoadInterface
@@ -65,17 +69,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels _instance
     [[deprecated("Use field access instead!")]] ::Valve::VR::CVRRenderModels*& dyn__instance();
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x18B1314
+    // Offset: 0x18ACE58
     ::Valve::VR::CVRRenderModels* get_instance();
     // public System.Void .ctor()
-    // Offset: 0x18B0C50
+    // Offset: 0x18AC794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModelInterfaceHolder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::RenderModelInterfaceHolder*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x18B3978
+    // Offset: 0x18AF4BC
     void Dispose();
   }; // SteamVR_RenderModel/RenderModelInterfaceHolder
   #pragma pack(pop)

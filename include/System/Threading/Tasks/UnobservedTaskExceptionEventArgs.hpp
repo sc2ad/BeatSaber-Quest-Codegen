@@ -54,7 +54,7 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Boolean m_observed
     [[deprecated("Use field access instead!")]] bool& dyn_m_observed();
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x1D2EE34
+    // Offset: 0x1D22B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(::System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");

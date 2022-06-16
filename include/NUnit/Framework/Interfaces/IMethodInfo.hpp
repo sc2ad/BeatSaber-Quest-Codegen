@@ -52,6 +52,10 @@ namespace NUnit::Framework::Interfaces {
     operator ::NUnit::Framework::Interfaces::IReflectionInfo() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::IReflectionInfo*>(this);
     }
+    // Creating interface conversion operator: i_IReflectionInfo
+    inline ::NUnit::Framework::Interfaces::IReflectionInfo* i_IReflectionInfo() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::IReflectionInfo*>(this);
+    }
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();

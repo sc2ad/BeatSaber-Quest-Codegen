@@ -302,6 +302,10 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int32 id
     [[deprecated("Use field access instead!")]] int& dyn_id();
     // Get instance field reference: public System.Int32 parentId
@@ -387,22 +391,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 disabledConditionSH
     [[deprecated("Use field access instead!")]] int& dyn_disabledConditionSH();
     // public System.Boolean isInt()
-    // Offset: 0x16E1B4C
+    // Offset: 0x16DF670
     bool isInt();
     // public System.Boolean isFloat()
-    // Offset: 0x16E1B6C
+    // Offset: 0x16DF690
     bool isFloat();
     // public System.Boolean isString()
-    // Offset: 0x16E1B80
+    // Offset: 0x16DF6A4
     bool isString();
     // public System.Boolean isPath()
-    // Offset: 0x16E1BB0
+    // Offset: 0x16DF6D4
     bool isPath();
     // public System.Boolean isNode()
-    // Offset: 0x16E1BD0
+    // Offset: 0x16DF6F4
     bool isNode();
     // public System.Boolean isNonValue()
-    // Offset: 0x16E1BE0
+    // Offset: 0x16DF704
     bool isNonValue();
   }; // HoudiniEngineUnity.HAPI_ParmInfo
   #pragma pack(pop)

@@ -49,6 +49,10 @@ namespace System::Security::Cryptography::X509Certificates {
     operator ::System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerator
+    inline ::System::Collections::IEnumerator* i_IEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerator*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::IEnumerator*
     constexpr operator ::System::Collections::IEnumerator*() const noexcept {
       return enumerator;
@@ -56,26 +60,26 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Collections.IEnumerator enumerator
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_enumerator();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Current()
-    // Offset: 0x1BF19B4
+    // Offset: 0x1BE5688
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1BF1B58
+    // Offset: 0x1BE582C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection collection)
-    // Offset: 0x1BF1830
+    // Offset: 0x1BE5504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2Enumerator* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate2Enumerator*, creationType>(collection)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BF1AA8
+    // Offset: 0x1BE577C
     bool MoveNext();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1BF1C0C
+    // Offset: 0x1BE58E0
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1BF1CBC
+    // Offset: 0x1BE5990
     void System_Collections_IEnumerator_Reset();
   }; // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
   #pragma pack(pop)

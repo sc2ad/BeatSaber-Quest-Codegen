@@ -37,11 +37,15 @@ namespace UnityEngine {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [ObsoleteAttribute] Offset: 0x10649D8
+    // [ObsoleteAttribute] Offset: 0x10654D0
     // static field const value: static public UnityEngine.FocusType Native
     static constexpr const int Native = 0;
     // Get static field: static public UnityEngine.FocusType Native

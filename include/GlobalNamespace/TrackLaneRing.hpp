@@ -122,35 +122,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Single get_destRotZ()
-    // Offset: 0x1420148
+    // Offset: 0x1477D88
     float get_destRotZ();
     // public System.Void .ctor()
-    // Offset: 0x14203D8
+    // Offset: 0x1478018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRing* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRing*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Vector3 position, UnityEngine.Vector3 positionOffset)
-    // Offset: 0x1420150
+    // Offset: 0x1477D90
     void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset);
     // public System.Void FixedUpdateRing(System.Single fixedDeltaTime)
-    // Offset: 0x1420238
+    // Offset: 0x1477E78
     void FixedUpdateRing(float fixedDeltaTime);
     // public System.Void LateUpdateRing(System.Single interpolationFactor)
-    // Offset: 0x14202F8
+    // Offset: 0x1477F38
     void LateUpdateRing(float interpolationFactor);
     // public System.Void SetDestRotation(System.Single destRotZ, System.Single rotateSpeed)
-    // Offset: 0x14203B8
+    // Offset: 0x1477FF8
     void SetDestRotation(float destRotZ, float rotateSpeed);
     // public System.Single GetRotation()
-    // Offset: 0x14203C0
+    // Offset: 0x1478000
     float GetRotation();
     // public System.Single GetDestinationRotation()
-    // Offset: 0x14203C8
+    // Offset: 0x1478008
     float GetDestinationRotation();
     // public System.Void SetPosition(System.Single destPosZ, System.Single moveSpeed)
-    // Offset: 0x14203D0
+    // Offset: 0x1478010
     void SetPosition(float destPosZ, float moveSpeed);
   }; // TrackLaneRing
   #pragma pack(pop)

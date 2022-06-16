@@ -40,6 +40,10 @@ namespace System::Resources {
     operator ::System::Collections::Generic::IComparer_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::IComparer_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>
     operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(this);
@@ -48,49 +52,57 @@ namespace System::Resources {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Collections::IComparer
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // Get static field: static readonly System.Resources.FastResourceComparer Default
     static ::System::Resources::FastResourceComparer* _get_Default();
     // Set static field: static readonly System.Resources.FastResourceComparer Default
     static void _set_Default(::System::Resources::FastResourceComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D7CAB4
+    // Offset: 0x1D71788
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object key)
-    // Offset: 0x1D7C5DC
+    // Offset: 0x1D712B0
     int GetHashCode(::Il2CppObject* key);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x1D7C6E4
+    // Offset: 0x1D713B8
     int GetHashCode(::StringW key);
     // static System.Int32 HashFunction(System.String key)
-    // Offset: 0x1D7C66C
+    // Offset: 0x1D71340
     static int HashFunction(::StringW key);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1D7C748
+    // Offset: 0x1D7141C
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 Compare(System.String a, System.String b)
-    // Offset: 0x1D7C7F8
+    // Offset: 0x1D714CC
     int Compare(::StringW a, ::StringW b);
     // public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x1D7C808
+    // Offset: 0x1D714DC
     bool Equals(::StringW a, ::StringW b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1D7C818
+    // Offset: 0x1D714EC
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // static public System.Int32 CompareOrdinal(System.String a, System.Byte[] bytes, System.Int32 bCharLength)
-    // Offset: 0x1D7C8C8
+    // Offset: 0x1D7159C
     static int CompareOrdinal(::StringW a, ::ArrayW<uint8_t> bytes, int bCharLength);
     // static public System.Int32 CompareOrdinal(System.Byte[] bytes, System.Int32 aCharLength, System.String b)
-    // Offset: 0x1D7C988
+    // Offset: 0x1D7165C
     static int CompareOrdinal(::ArrayW<uint8_t> bytes, int aCharLength, ::StringW b);
     // static System.Int32 CompareOrdinal(System.Byte* a, System.Int32 byteLen, System.String b)
-    // Offset: 0x1D7CA0C
+    // Offset: 0x1D716E0
     static int CompareOrdinal(uint8_t* a, int byteLen, ::StringW b);
     // public System.Void .ctor()
-    // Offset: 0x1D7CAAC
+    // Offset: 0x1D71780
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

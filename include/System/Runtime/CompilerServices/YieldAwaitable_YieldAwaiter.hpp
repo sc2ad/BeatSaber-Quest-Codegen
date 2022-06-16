@@ -43,9 +43,17 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion
     operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion() noexcept {
       return *reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
+    }
+    // Creating interface conversion operator: i_ICriticalNotifyCompletion
+    inline ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i_ICriticalNotifyCompletion() noexcept {
+      return reinterpret_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
     }
     // Get static field: static private readonly System.Threading.WaitCallback s_waitCallbackRunAction
     static ::System::Threading::WaitCallback* _get_s_waitCallbackRunAction();
@@ -56,25 +64,25 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private readonly System.Threading.SendOrPostCallback s_sendOrPostCallbackRunAction
     static void _set_s_sendOrPostCallbackRunAction(::System::Threading::SendOrPostCallback* value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1D8514C
+    // Offset: 0x1D79E20
     bool get_IsCompleted();
     // static private System.Void .cctor()
-    // Offset: 0x1D85568
+    // Offset: 0x1D7A23C
     static void _cctor();
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x1D85154
+    // Offset: 0x1D79E28
     void OnCompleted(::System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x1D85490
+    // Offset: 0x1D7A164
     void UnsafeOnCompleted(::System::Action* continuation);
     // static private System.Void QueueContinuation(System.Action continuation, System.Boolean flowContext)
-    // Offset: 0x1D851BC
+    // Offset: 0x1D79E90
     static void QueueContinuation(::System::Action* continuation, bool flowContext);
     // static private System.Void RunAction(System.Object state)
-    // Offset: 0x1D854F8
+    // Offset: 0x1D7A1CC
     static void RunAction(::Il2CppObject* state);
     // public System.Void GetResult()
-    // Offset: 0x1D85564
+    // Offset: 0x1D7A238
     void GetResult();
   }; // System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
   #pragma pack(pop)

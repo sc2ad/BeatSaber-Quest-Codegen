@@ -85,14 +85,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _obstacleColorImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__obstacleColorImage();
     // public System.Void .ctor()
-    // Offset: 0x13414B0
+    // Offset: 0x1343470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeView*, creationType>()));
     }
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x13412E8
+    // Offset: 0x13432A8
     void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
   }; // ColorSchemeView
   #pragma pack(pop)

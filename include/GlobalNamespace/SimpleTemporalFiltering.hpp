@@ -73,17 +73,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _bufferTexID
     [[deprecated("Use field access instead!")]] int& dyn__bufferTexID();
     // public System.Void .ctor()
-    // Offset: 0x2A42C48
+    // Offset: 0x2A3AA1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTemporalFiltering* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleTemporalFiltering::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTemporalFiltering*, creationType>()));
     }
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x2A42CFC
+    // Offset: 0x2A3AAD0
     ::UnityEngine::RenderTexture* FilterTexture(::UnityEngine::RenderTexture* src);
     // private System.Void CreateRenderTexturesIfNeeded(System.Int32 width, System.Int32 height)
-    // Offset: 0x2A42EA4
+    // Offset: 0x2A3AC78
     void CreateRenderTexturesIfNeeded(int width, int height);
   }; // SimpleTemporalFiltering
   #pragma pack(pop)

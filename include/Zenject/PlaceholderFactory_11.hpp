@@ -87,6 +87,10 @@ namespace Zenject {
       operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>() noexcept {
         return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
       }
+      // Creating interface conversion operator: i_Type
+      inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* i_Type() noexcept {
+        return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(this);
+      }
       // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>
       operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>() noexcept {
         return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(this);
@@ -190,6 +194,10 @@ namespace Zenject {
     // Creating interface conversion operator: operator ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>
     operator ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>() noexcept {
       return *reinterpret_cast<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>*>(this);
+    }
+    // Creating interface conversion operator: i_IFactory_11_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TParam8_TParam9_TParam10_TValue
+    inline ::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>* i_IFactory_11_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TParam7_TParam8_TParam9_TParam10_TValue() noexcept {
+      return reinterpret_cast<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>*>(this);
     }
     // public TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8, TParam9 param9, TParam10 param10)
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -49,6 +49,10 @@ namespace System::Collections {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Creating conversion operator: operator ::System::Collections::Hashtable*
     constexpr operator ::System::Collections::Hashtable*() const noexcept {
       return hashtable;
@@ -56,23 +60,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Collections.Hashtable _hashtable
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__hashtable();
     // public System.Object get_SyncRoot()
-    // Offset: 0x1CFE3F8
+    // Offset: 0x1CF20CC
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Count()
-    // Offset: 0x1CFE41C
+    // Offset: 0x1CF20F0
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1CFBF98
+    // Offset: 0x1CEFC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1CFE20C
+    // Offset: 0x1CF1EE0
     void CopyTo(::System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1CFE390
+    // Offset: 0x1CF2064
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.ValueCollection
   #pragma pack(pop)

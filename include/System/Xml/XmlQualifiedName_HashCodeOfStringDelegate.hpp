@@ -36,20 +36,20 @@ namespace System::Xml {
   class XmlQualifiedName::HashCodeOfStringDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15DBDBC
+    // Offset: 0x15DC8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName::HashCodeOfStringDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x15DB718
+    // Offset: 0x15DC23C
     int Invoke(::StringW s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15DC018
+    // Offset: 0x15DCB3C
     ::System::IAsyncResult* BeginInvoke(::StringW s, int sLen, int64_t additionalEntropy, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15DC0D0
+    // Offset: 0x15DCBF4
     int EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate
   #pragma pack(pop)

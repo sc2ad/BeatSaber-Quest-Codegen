@@ -58,6 +58,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_DetailProperties
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>* i_HEU_DetailProperties() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*>(this);
+    }
     // Get instance field reference: public System.Single _detailDistance
     [[deprecated("Use field access instead!")]] float& dyn__detailDistance();
     // Get instance field reference: public System.Single _detailDensity
@@ -67,14 +71,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _detailResolutionPerPatch
     [[deprecated("Use field access instead!")]] int& dyn__detailResolutionPerPatch();
     // public System.Void .ctor()
-    // Offset: 0x1781EAC
+    // Offset: 0x177E9F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_DetailProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_DetailProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_DetailProperties*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailProperties other)
-    // Offset: 0x1781D1C
+    // Offset: 0x177E860
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
   }; // HoudiniEngineUnity.HEU_DetailProperties
   #pragma pack(pop)

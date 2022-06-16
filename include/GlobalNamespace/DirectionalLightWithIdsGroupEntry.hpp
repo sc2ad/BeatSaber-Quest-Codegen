@@ -64,6 +64,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -93,7 +97,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DirectionalLightWithIds* directionalLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DirectionalLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BD034
+    // [SpaceAttribute] Offset: 0x10BEB4C
     // private DirectionalLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -112,7 +116,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BD08C
+    // [SpaceAttribute] Offset: 0x10BEBA4
     // private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -133,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
     // public System.Void .ctor()
-    // Offset: 0x1E78B8C
+    // Offset: 0x1E6F860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIdsGroupEntry::.ctor");

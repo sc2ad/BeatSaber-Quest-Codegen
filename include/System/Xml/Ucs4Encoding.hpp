@@ -59,76 +59,76 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.Ucs4Decoder ucs4Decoder
     [[deprecated("Use field access instead!")]] ::System::Xml::Ucs4Decoder*& dyn_ucs4Decoder();
     // static System.Text.Encoding get_UCS4_Littleendian()
-    // Offset: 0x1BA8668
+    // Offset: 0x1BB40F0
     static ::System::Text::Encoding* get_UCS4_Littleendian();
     // static System.Text.Encoding get_UCS4_Bigendian()
-    // Offset: 0x1BA8728
+    // Offset: 0x1BB41B0
     static ::System::Text::Encoding* get_UCS4_Bigendian();
     // static System.Text.Encoding get_UCS4_2143()
-    // Offset: 0x1BA87E8
+    // Offset: 0x1BB4270
     static ::System::Text::Encoding* get_UCS4_2143();
     // static System.Text.Encoding get_UCS4_3412()
-    // Offset: 0x1BA88A8
+    // Offset: 0x1BB4330
     static ::System::Text::Encoding* get_UCS4_3412();
     // public System.Void .ctor()
-    // Offset: 0x1BA8968
+    // Offset: 0x1BB43F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ucs4Encoding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Ucs4Encoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Encoding*, creationType>()));
     }
     // public override System.String get_WebName()
-    // Offset: 0x1BA856C
+    // Offset: 0x1BB3FF4
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::get_WebName()
     ::StringW get_WebName();
     // public override System.Int32 get_CodePage()
-    // Offset: 0x1BA8658
+    // Offset: 0x1BB40E0
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::get_CodePage()
     int get_CodePage();
     // public override System.Text.Decoder GetDecoder()
-    // Offset: 0x1BA8578
+    // Offset: 0x1BB4000
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Decoder Encoding::GetDecoder()
     ::System::Text::Decoder* GetDecoder();
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x1BA8580
+    // Offset: 0x1BB4008
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
     int GetByteCount(::ArrayW<::Il2CppChar> chars, int index, int count);
     // public override System.Byte[] GetBytes(System.String s)
-    // Offset: 0x1BA85E8
+    // Offset: 0x1BB4070
     // Implemented from: System.Text.Encoding
     // Base method: System.Byte[] Encoding::GetBytes(System.String s)
     ::ArrayW<uint8_t> GetBytes(::StringW s);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
-    // Offset: 0x1BA85F0
+    // Offset: 0x1BB4078
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     int GetBytes(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex);
     // public override System.Int32 GetMaxByteCount(System.Int32 charCount)
-    // Offset: 0x1BA85F8
+    // Offset: 0x1BB4080
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxByteCount(System.Int32 charCount)
     int GetMaxByteCount(int charCount);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1BA8600
+    // Offset: 0x1BB4088
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1BA8620
+    // Offset: 0x1BB40A8
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Int32 GetMaxCharCount(System.Int32 byteCount)
-    // Offset: 0x1BA8640
+    // Offset: 0x1BB40C8
     // Implemented from: System.Text.Encoding
     // Base method: System.Int32 Encoding::GetMaxCharCount(System.Int32 byteCount)
     int GetMaxCharCount(int byteCount);
     // public override System.Text.Encoder GetEncoder()
-    // Offset: 0x1BA8660
+    // Offset: 0x1BB40E8
     // Implemented from: System.Text.Encoding
     // Base method: System.Text.Encoder Encoding::GetEncoder()
     ::System::Text::Encoder* GetEncoder();

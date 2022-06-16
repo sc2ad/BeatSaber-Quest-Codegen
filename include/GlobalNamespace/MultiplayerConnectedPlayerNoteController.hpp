@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _visualsWrapperGo
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__visualsWrapperGo();
     // public System.Void .ctor()
-    // Offset: 0x13CF5E8
+    // Offset: 0x13D2E90
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -56,12 +56,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerNoteController*, creationType>()));
     }
     // protected override System.Void HiddenStateDidChange(System.Boolean hide)
-    // Offset: 0x13D1948
+    // Offset: 0x13D51F0
     // Implemented from: NoteController
     // Base method: System.Void NoteController::HiddenStateDidChange(System.Boolean hide)
     void HiddenStateDidChange(bool hide);
     // public override System.Void Pause(System.Boolean pause)
-    // Offset: 0x13D196C
+    // Offset: 0x13D5214
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Pause(System.Boolean pause)
     void Pause(bool pause);

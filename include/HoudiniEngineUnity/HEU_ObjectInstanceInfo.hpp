@@ -89,6 +89,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_ObjectInstanceInfo
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* i_HEU_ObjectInstanceInfo() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InstancedInput> _instancedInputs
@@ -102,14 +106,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__instances();
     // public System.Void .ctor()
-    // Offset: 0x18993EC
+    // Offset: 0x1895F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ObjectInstanceInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ObjectInstanceInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ObjectInstanceInfo*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)
-    // Offset: 0x18992D4
+    // Offset: 0x1895E18
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
   }; // HoudiniEngineUnity.HEU_ObjectInstanceInfo
   #pragma pack(pop)

@@ -52,6 +52,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -133,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly NoteData/ScoringType scoringType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::ScoringType& dyn_scoringType();
     // public System.Void .ctor(System.Single time, NoteData/ScoringType scoringType, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 beforeCutScore, System.Int32 centerDistanceCutScore, System.Int32 afterCutScore)
-    // Offset: 0x14B04B4
+    // Offset: 0x14B377C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, ::GlobalNamespace::NoteData::ScoringType scoringType, ::GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int beforeCutScore, int centerDistanceCutScore, int afterCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteExecutionRating::.ctor");

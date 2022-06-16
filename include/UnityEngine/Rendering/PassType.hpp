@@ -37,6 +37,10 @@ namespace UnityEngine::Rendering {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -59,7 +63,7 @@ namespace UnityEngine::Rendering {
     static ::UnityEngine::Rendering::PassType _get_VertexLM();
     // Set static field: static public UnityEngine.Rendering.PassType VertexLM
     static void _set_VertexLM(::UnityEngine::Rendering::PassType value);
-    // [ObsoleteAttribute] Offset: 0x104A5F0
+    // [ObsoleteAttribute] Offset: 0x104B0E8
     // static field const value: static public UnityEngine.Rendering.PassType VertexLMRGBM
     static constexpr const int VertexLMRGBM = 3;
     // Get static field: static public UnityEngine.Rendering.PassType VertexLMRGBM

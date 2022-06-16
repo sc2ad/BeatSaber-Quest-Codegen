@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D68D4
+    // [SpaceAttribute] Offset: 0x10D9660
     // private System.Single _transitionSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect::MovementData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D691C
+    // [SpaceAttribute] Offset: 0x10D96A8
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::Transform*> transforms;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10D6954
+    // [InjectAttribute] Offset: 0x10D96E0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -139,29 +139,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x13C70D8
+    // Offset: 0x13CA980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementBeatmapEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MovementBeatmapEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovementBeatmapEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C6B00
+    // Offset: 0x13CA3A8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C6E14
+    // Offset: 0x13CA6BC
     void OnDestroy();
     // protected System.Void FixedUpdate()
-    // Offset: 0x13C6E30
+    // Offset: 0x13CA6D8
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x13C6FB0
+    // Offset: 0x13CA858
     void LateUpdate();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13C709C
+    // Offset: 0x13CA944
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void SetLocalPositionOffsetsForAllObjects(UnityEngine.Vector3 localPositionOffset)
-    // Offset: 0x13C6CDC
+    // Offset: 0x13CA584
     void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
   }; // MovementBeatmapEventEffect
   #pragma pack(pop)

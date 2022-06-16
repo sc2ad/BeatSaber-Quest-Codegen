@@ -93,6 +93,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Int32 m_Version
     [[deprecated("Use field access instead!")]] int& dyn_m_Version();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation m_InternalOp
@@ -100,22 +104,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceManager*& dyn_m_ResourceManager();
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
-    // Offset: 0x1EEE1EC
+    // Offset: 0x1EE2EC0
     ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
     // public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0x1EEE2F0
+    // Offset: 0x1EE2FC4
     ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // public System.Type get_Type()
-    // Offset: 0x1EECC4C
+    // Offset: 0x1EE1920
     ::System::Type* get_Type();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0x1EEAE34
+    // Offset: 0x1EDFB08
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0x1EEE2F8
+    // Offset: 0x1EE2FCC
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
-    // Offset: 0x1EEE120
+    // Offset: 0x1EE2DF4
     ProvideHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
     // public TDepObject GetDependency(System.Int32 index)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -127,16 +131,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return ::il2cpp_utils::RunMethodRethrow<TDepObject, false>(this, ___generic__method, index);
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> list)
-    // Offset: 0x1EECB80
+    // Offset: 0x1EE1854
     void GetDependencies(::System::Collections::Generic::IList_1<::Il2CppObject*>* list);
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0x1EEAEF0
+    // Offset: 0x1EDFBC4
     void SetProgressCallback(::System::Func_1<float>* callback);
     // public System.Void SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0x1EEAFBC
+    // Offset: 0x1EDFC90
     void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0x1EEB088
+    // Offset: 0x1EDFD5C
     void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
     // public System.Void Complete(T result, System.Boolean status, System.Exception exception)
     // Offset: 0xFFFFFFFFFFFFFFFF

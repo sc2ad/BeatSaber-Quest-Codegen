@@ -37,25 +37,29 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C5D98
+    // [DescriptionAttribute] Offset: 0x10C78B0
     // static field const value: static public Oculus.Platform.UserOrdering Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.UserOrdering Unknown
     static ::Oculus::Platform::UserOrdering _get_Unknown();
     // Set static field: static public Oculus.Platform.UserOrdering Unknown
     static void _set_Unknown(::Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0x10C5DD0
+    // [DescriptionAttribute] Offset: 0x10C78E8
     // static field const value: static public Oculus.Platform.UserOrdering None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.UserOrdering None
     static ::Oculus::Platform::UserOrdering _get_None();
     // Set static field: static public Oculus.Platform.UserOrdering None
     static void _set_None(::Oculus::Platform::UserOrdering value);
-    // [DescriptionAttribute] Offset: 0x10C5E08
+    // [DescriptionAttribute] Offset: 0x10C7920
     // static field const value: static public Oculus.Platform.UserOrdering PresenceAlphabetical
     static constexpr const int PresenceAlphabetical = 2;
     // Get static field: static public Oculus.Platform.UserOrdering PresenceAlphabetical

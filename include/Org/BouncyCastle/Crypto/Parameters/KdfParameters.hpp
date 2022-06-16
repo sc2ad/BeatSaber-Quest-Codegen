@@ -47,22 +47,26 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     operator ::Org::BouncyCastle::Crypto::IDerivationParameters() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
     }
+    // Creating interface conversion operator: i_IDerivationParameters
+    inline ::Org::BouncyCastle::Crypto::IDerivationParameters* i_IDerivationParameters() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::IDerivationParameters*>(this);
+    }
     // Get instance field reference: private System.Byte[] iv
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Byte[] shared
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shared();
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0x15F91DC
+    // Offset: 0x15F8D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdfParameters* New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0x15F9214
+    // Offset: 0x15F8D38
     ::ArrayW<uint8_t> GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0x15F921C
+    // Offset: 0x15F8D40
     ::ArrayW<uint8_t> GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
   #pragma pack(pop)

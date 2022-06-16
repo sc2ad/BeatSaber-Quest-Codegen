@@ -59,17 +59,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRExternalComposition composition
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRExternalComposition*& dyn_composition();
     // public System.Void .ctor()
-    // Offset: 0x19FFBB8
+    // Offset: 0x19F96FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMRAudioFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMRAudioFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMRAudioFilter*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x19FFB90
+    // Offset: 0x19F96D4
     void Start();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x19FFB9C
+    // Offset: 0x19F96E0
     void OnAudioFilterRead(::ArrayW<float> data, int channels);
   }; // OVRMRAudioFilter
   #pragma pack(pop)

@@ -54,29 +54,29 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Get instance field reference: protected readonly System.Byte[] decodingTable
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_decodingTable();
     // public System.Void .ctor()
-    // Offset: 0x25EF3D8
+    // Offset: 0x25E7F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HexEncoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Encoders::HexEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HexEncoder*, creationType>()));
     }
     // protected System.Void InitialiseDecodingTable()
-    // Offset: 0x25EF470
+    // Offset: 0x25E8034
     void InitialiseDecodingTable();
     // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x25EF5EC
+    // Offset: 0x25E81B0
     int Encode(::ArrayW<uint8_t> inBuf, int inOff, int inLen, ::ArrayW<uint8_t> outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
-    // Offset: 0x25EEBBC
+    // Offset: 0x25E7780
     int Encode(::ArrayW<uint8_t> buf, int off, int len, ::System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
-    // Offset: 0x25EF6D0
+    // Offset: 0x25E8294
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
-    // Offset: 0x25EEDA4
+    // Offset: 0x25E7968
     int DecodeString(::StringW data, ::System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
-    // Offset: 0x25EF144
+    // Offset: 0x25E7D08
     ::ArrayW<uint8_t> DecodeStrict(::StringW str, int off, int len);
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
   #pragma pack(pop)

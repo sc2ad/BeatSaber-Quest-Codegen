@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _groupProbeHighlightsIntensityMultiplier
     [[deprecated("Use field access instead!")]] float& dyn__groupProbeHighlightsIntensityMultiplier();
     // public LightGroup get_lightGroup()
-    // Offset: 0x1E7D5E4
+    // Offset: 0x1E742B8
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x1E7D5EC
+    // Offset: 0x1E742C0
     float get_groupIntensity();
     // public System.Single get_groupProbeHighlightsIntensityMultiplier()
-    // Offset: 0x1E7D5F4
+    // Offset: 0x1E742C8
     float get_groupProbeHighlightsIntensityMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x1E7D5FC
+    // Offset: 0x1E742D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry::GroupLightData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::.ctor");

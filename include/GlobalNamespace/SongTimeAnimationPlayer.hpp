@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationClip* animationClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBB74
+    // [InjectAttribute] Offset: 0x10DE900
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // public System.Void .ctor()
-    // Offset: 0x138FB84
+    // Offset: 0x1390D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeAnimationPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeAnimationPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeAnimationPlayer*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x138FB3C
+    // Offset: 0x1390D38
     void Update();
   }; // SongTimeAnimationPlayer
   #pragma pack(pop)

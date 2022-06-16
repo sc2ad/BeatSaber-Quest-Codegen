@@ -56,6 +56,10 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::ITraceWriter() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
     }
+    // Creating interface conversion operator: i_ITraceWriter
+    inline ::Newtonsoft::Json::Serialization::ITraceWriter* i_ITraceWriter() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
+    }
     // Creating conversion operator: operator ::System::Diagnostics::TraceLevel
     constexpr operator ::System::Diagnostics::TraceLevel() const noexcept {
       return LevelFilter;
@@ -63,20 +67,20 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x1D5E574
+    // Offset: 0x1D52248
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void .ctor()
-    // Offset: 0x1D5E9F4
+    // Offset: 0x1D526C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticsTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticsTraceWriter*, creationType>()));
     }
     // private System.Diagnostics.TraceEventType GetTraceEventType(System.Diagnostics.TraceLevel level)
-    // Offset: 0x1D5E57C
+    // Offset: 0x1D52250
     ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x1D5E610
+    // Offset: 0x1D522E4
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.DiagnosticsTraceWriter
   #pragma pack(pop)

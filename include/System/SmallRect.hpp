@@ -56,6 +56,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int16 Left
     [[deprecated("Use field access instead!")]] int16_t& dyn_Left();
     // Get instance field reference: public System.Int16 Top

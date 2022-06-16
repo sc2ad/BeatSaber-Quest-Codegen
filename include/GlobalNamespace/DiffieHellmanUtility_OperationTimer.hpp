@@ -51,22 +51,26 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // Get instance field reference: private readonly System.String _operationName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__operationName();
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x1675F38
+    // Offset: 0x1674A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::StringW operationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1675FC4
+    // Offset: 0x1674AE8
     void Dispose();
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x1675630
+    // Offset: 0x1674154
     static ::GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::StringW operation);
   }; // DiffieHellmanUtility/OperationTimer
   #pragma pack(pop)

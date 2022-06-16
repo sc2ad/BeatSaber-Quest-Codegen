@@ -67,9 +67,17 @@ namespace UnityEngine::ProBuilder {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>
     operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*>(this);
+    }
+    // Creating interface conversion operator: i_Triangle
+    inline ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>* i_Triangle() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*>(this);
     }
     // Get instance field reference: private System.Int32 m_A
     [[deprecated("Use field access instead!")]] int& dyn_m_A();
@@ -78,36 +86,36 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 m_C
     [[deprecated("Use field access instead!")]] int& dyn_m_C();
     // public System.Int32 get_a()
-    // Offset: 0x29A503C
+    // Offset: 0x29A21F4
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0x29A5044
+    // Offset: 0x29A21FC
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0x29A504C
+    // Offset: 0x29A2204
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0x29A5054
+    // Offset: 0x29A220C
     ::System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x29A50EC
+    // Offset: 0x29A22A4
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x29A50F8
+    // Offset: 0x29A22B0
     bool Equals(::UnityEngine::ProBuilder::Triangle other);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x29A51F4
+    // Offset: 0x29A23AC
     bool IsAdjacent(::UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x29A5298
+    // Offset: 0x29A2450
     bool ContainsEdge(::UnityEngine::ProBuilder::Edge edge);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29A512C
+    // Offset: 0x29A22E4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29A51D4
+    // Offset: 0x29A238C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

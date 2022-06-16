@@ -29,18 +29,22 @@ namespace System::ComponentModel {
     operator ::System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
+    // Creating interface conversion operator: i_IEqualityComparer
+    inline ::System::Collections::IEqualityComparer* i_IEqualityComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1CE1FAC
+    // Offset: 0x1CD4C80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WeakHashtable::WeakKeyComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::WeakHashtable::WeakKeyComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WeakHashtable::WeakKeyComparer*, creationType>()));
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1CE1FB4
+    // Offset: 0x1CD4C88
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1CE2118
+    // Offset: 0x1CD4DEC
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
   }; // System.ComponentModel.WeakHashtable/System.ComponentModel.WeakKeyComparer
   #pragma pack(pop)

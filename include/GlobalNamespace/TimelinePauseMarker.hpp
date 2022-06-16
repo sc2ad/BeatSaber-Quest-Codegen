@@ -44,13 +44,17 @@ namespace GlobalNamespace {
     operator ::UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
+    // Creating interface conversion operator: i_INotification
+    inline ::UnityEngine::Playables::INotification* i_INotification() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
+    }
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x2A2B2CC
+    // Offset: 0x2A27484
     ::UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x2A2B2D4
+    // Offset: 0x2A2748C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelinePauseMarker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelinePauseMarker::.ctor");

@@ -52,6 +52,10 @@ namespace BeatSaberAPI::DataTransferObjects {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator uint
       constexpr operator uint() const noexcept {
         return value;
@@ -271,7 +275,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String extraDataBase64
     [[deprecated("Use field access instead!")]] ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x134BCC8
+    // Offset: 0x134EC88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LevelScoreResult::.ctor");

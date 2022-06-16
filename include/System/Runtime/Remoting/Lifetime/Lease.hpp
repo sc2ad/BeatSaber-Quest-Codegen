@@ -108,6 +108,10 @@ namespace System::Runtime::Remoting::Lifetime {
     operator ::System::Runtime::Remoting::Lifetime::ILease() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::Lifetime::ILease*>(this);
     }
+    // Creating interface conversion operator: i_ILease
+    inline ::System::Runtime::Remoting::Lifetime::ILease* i_ILease() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::Lifetime::ILease*>(this);
+    }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.DateTime _leaseExpireTime
@@ -127,34 +131,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Get instance field reference: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x1C7DD40
+    // Offset: 0x1C70A14
     ::System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x1C7DDB8
+    // Offset: 0x1C70A8C
     ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x1C7DDCC
+    // Offset: 0x1C70AA0
     ::System::TimeSpan get_RenewOnCallTime();
     // public System.Void Activate()
-    // Offset: 0x1C7DDC0
+    // Offset: 0x1C70A94
     void Activate();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x1C7DDD4
+    // Offset: 0x1C70AA8
     ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x1C7DE70
+    // Offset: 0x1C70B44
     void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x1C7DF80
+    // Offset: 0x1C70C54
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x1C7E0CC
+    // Offset: 0x1C70DA0
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x1C7E330
+    // Offset: 0x1C71004
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x1C7DBA8
+    // Offset: 0x1C7087C
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

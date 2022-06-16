@@ -31,6 +31,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<T>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<T>*>(this);
     }
+    // Creating interface conversion operator: i_IEquivable_1_T
+    inline ::HoudiniEngineUnity::IEquivable_1<T>* i_IEquivable_1_T() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<T>*>(this);
+    }
     // public System.Boolean IsNull()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsNull() {

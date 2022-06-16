@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songBPM and: playerHeightDetectorPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10DC11C
+    // [SpaceAttribute] Offset: 0x10DEEA8
     // private PlayerHeightDetector _playerHeightDetectorPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC164
+    // [InjectAttribute] Offset: 0x10DEEF0
     // private readonly TutorialSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x40
@@ -91,14 +91,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly TutorialSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x149069C
+    // Offset: 0x1496B3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x148FC54
+    // Offset: 0x14960F4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

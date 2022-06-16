@@ -111,6 +111,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly System.Int64 packetsSentDelta
     [[deprecated("Use field access instead!")]] int64_t& dyn_packetsSentDelta();
     // Get instance field reference: public readonly System.Int64 packetsReceivedDelta
@@ -138,7 +142,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int64 decryptionProcessingTimeDelta
     [[deprecated("Use field access instead!")]] int64_t& dyn_decryptionProcessingTimeDelta();
     // public System.Void .ctor(System.Int64 packetsSentDelta, System.Int64 packetsReceivedDelta, System.Int64 bytesSentDelta, System.Int64 bytesReceivedDelta, System.Int64 packetsLostDelta, System.Int64 packetsSentEncryptedDelta, System.Int64 packetsSentPlaintextDelta, System.Int64 packetsSentRejectedDelta, System.Int64 packetsReceivedEncryptedDelta, System.Int64 packetsReceivedPlaintextDelta, System.Int64 packetsReceivedRejectedDelta, System.Int64 encryptionProcessingTimeDelta, System.Int64 decryptionProcessingTimeDelta)
-    // Offset: 0x173E2F0
+    // Offset: 0x173AE34
     // ABORTED: conflicts with another method.  NetworkStatisticsDelta(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta, int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
   }; // NetworkStatisticsDelta
   #pragma pack(pop)

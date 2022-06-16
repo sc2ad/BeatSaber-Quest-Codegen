@@ -78,6 +78,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ICPUMonitor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ICPUMonitor*>(this);
     }
+    // Creating interface conversion operator: i_ICPUMonitor
+    inline ::GlobalNamespace::ICPUMonitor* i_ICPUMonitor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ICPUMonitor*>(this);
+    }
     // Get instance field reference: private readonly RollingAverage _utilization
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RollingAverage*& dyn__utilization();
     // Get instance field reference: private readonly System.Diagnostics.Process _currentProcess
@@ -89,17 +93,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 _lastSampleValue
     [[deprecated("Use field access instead!")]] int64_t& dyn__lastSampleValue();
     // public System.Single get_utilization()
-    // Offset: 0x153B430
+    // Offset: 0x1552A6C
     float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x153B458
+    // Offset: 0x1552A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CPUMonitor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CPUMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CPUMonitor*, creationType>()));
     }
     // public System.Void PollUpdate()
-    // Offset: 0x153B328
+    // Offset: 0x1552964
     void PollUpdate();
   }; // CPUMonitor
   #pragma pack(pop)

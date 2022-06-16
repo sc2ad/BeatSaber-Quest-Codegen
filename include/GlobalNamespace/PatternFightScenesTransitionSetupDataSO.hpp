@@ -72,6 +72,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -129,23 +133,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x135EE94
+    // Offset: 0x1360E2C
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x135EF38
+    // Offset: 0x1360ED0
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void .ctor()
-    // Offset: 0x135F054
+    // Offset: 0x1360FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x135E2D4
+    // Offset: 0x136026C
     void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void Finish(PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType endState)
-    // Offset: 0x135EFDC
+    // Offset: 0x1360F74
     void Finish(::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType endState);
   }; // PatternFightScenesTransitionSetupDataSO
   #pragma pack(pop)

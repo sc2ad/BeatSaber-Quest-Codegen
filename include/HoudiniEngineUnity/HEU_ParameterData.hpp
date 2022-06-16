@@ -212,6 +212,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_ParameterData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>* i_HEU_ParameterData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*>(this);
+    }
     // Get instance field reference: public System.Int32 _unityIndex
     [[deprecated("Use field access instead!")]] int& dyn__unityIndex();
     // Get instance field reference: public System.String _name
@@ -259,95 +263,95 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasAssetPathTag
     [[deprecated("Use field access instead!")]] bool& dyn__hasAssetPathTag();
     // public System.Int32 get_ParmID()
-    // Offset: 0x1AEC77C
+    // Offset: 0x1AE42C0
     int get_ParmID();
     // public System.Int32 get_ParentID()
-    // Offset: 0x1AEC784
+    // Offset: 0x1AE42C8
     int get_ParentID();
     // public System.Int32 get_ChildIndex()
-    // Offset: 0x1AEC78C
+    // Offset: 0x1AE42D0
     int get_ChildIndex();
     // public System.Int32 get_ParmSize()
-    // Offset: 0x1AEC794
+    // Offset: 0x1AE42D8
     int get_ParmSize();
     // public System.Int32 get_IntMin()
-    // Offset: 0x1AEC800
+    // Offset: 0x1AE4344
     int get_IntMin();
     // public System.Int32 get_IntMax()
-    // Offset: 0x1AEC874
+    // Offset: 0x1AE43B8
     int get_IntMax();
     // public System.Int32 get_IntUIMin()
-    // Offset: 0x1AEC8E8
+    // Offset: 0x1AE442C
     int get_IntUIMin();
     // public System.Int32 get_IntUIMax()
-    // Offset: 0x1AEC95C
+    // Offset: 0x1AE44A0
     int get_IntUIMax();
     // public System.Single get_FloatMin()
-    // Offset: 0x1AEC9D0
+    // Offset: 0x1AE4514
     float get_FloatMin();
     // public System.Single get_FloatMax()
-    // Offset: 0x1AEC9D8
+    // Offset: 0x1AE451C
     float get_FloatMax();
     // public System.Single get_FloatUIMin()
-    // Offset: 0x1AEC9E0
+    // Offset: 0x1AE4524
     float get_FloatUIMin();
     // public System.Single get_FloatUIMax()
-    // Offset: 0x1AEC9E8
+    // Offset: 0x1AE452C
     float get_FloatUIMax();
     // public System.Void .ctor()
-    // Offset: 0x1AED0F0
+    // Offset: 0x1AE4C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ParameterData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ParameterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ParameterData*, creationType>()));
     }
     // public System.Boolean IsInt()
-    // Offset: 0x1AEC79C
+    // Offset: 0x1AE42E0
     bool IsInt();
     // public System.Boolean IsFloat()
-    // Offset: 0x1AEC7AC
+    // Offset: 0x1AE42F0
     bool IsFloat();
     // public System.Boolean IsString()
-    // Offset: 0x1AEC7BC
+    // Offset: 0x1AE4300
     bool IsString();
     // public System.Boolean IsPathFile()
-    // Offset: 0x1AEC7CC
+    // Offset: 0x1AE4310
     bool IsPathFile();
     // public System.Boolean HasMin()
-    // Offset: 0x1AEC7E0
+    // Offset: 0x1AE4324
     bool HasMin();
     // public System.Boolean HasMax()
-    // Offset: 0x1AEC7E8
+    // Offset: 0x1AE432C
     bool HasMax();
     // public System.Boolean HasUIMin()
-    // Offset: 0x1AEC7F0
+    // Offset: 0x1AE4334
     bool HasUIMin();
     // public System.Boolean HasUIMax()
-    // Offset: 0x1AEC7F8
+    // Offset: 0x1AE433C
     bool HasUIMax();
     // public System.Boolean IsContainer()
-    // Offset: 0x1AEC9F0
+    // Offset: 0x1AE4534
     bool IsContainer();
     // public System.Boolean IsMultiParam()
-    // Offset: 0x1AECA4C
+    // Offset: 0x1AE4590
     bool IsMultiParam();
     // public System.Boolean IsRamp()
-    // Offset: 0x1AECA5C
+    // Offset: 0x1AE45A0
     bool IsRamp();
     // public System.Boolean IsToggle()
-    // Offset: 0x1AECA6C
+    // Offset: 0x1AE45B0
     bool IsToggle();
     // public System.Boolean IsColor()
-    // Offset: 0x1AECA7C
+    // Offset: 0x1AE45C0
     bool IsColor();
     // public UnityEngine.Vector3 ToVector3()
-    // Offset: 0x1AECA8C
+    // Offset: 0x1AE45D0
     ::UnityEngine::Vector3 ToVector3();
     // public System.Boolean IsAssetPath()
-    // Offset: 0x1AECB50
+    // Offset: 0x1AE4694
     bool IsAssetPath();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
-    // Offset: 0x1AECB58
+    // Offset: 0x1AE469C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
   }; // HoudiniEngineUnity.HEU_ParameterData
   #pragma pack(pop)

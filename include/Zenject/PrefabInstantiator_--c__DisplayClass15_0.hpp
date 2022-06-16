@@ -90,20 +90,20 @@ namespace Zenject {
     // Get instance field reference: public System.Boolean shouldMakeActive
     [[deprecated("Use field access instead!")]] bool& dyn_shouldMakeActive();
     // public System.Void .ctor()
-    // Offset: 0x1C197EC
+    // Offset: 0x1C0D4C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabInstantiator::$$c__DisplayClass15_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabInstantiator::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabInstantiator::$$c__DisplayClass15_0*, creationType>()));
     }
     // System.Void <Instantiate>b__0()
-    // Offset: 0x1C197F4
+    // Offset: 0x1C0D4C8
     void $Instantiate$b__0();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C19CA4
+    // Offset: 0x1C0D978
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C19D00
+    // Offset: 0x1C0D9D4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PrefabInstantiator/Zenject.<>c__DisplayClass15_0
   #pragma pack(pop)

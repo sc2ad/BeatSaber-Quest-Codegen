@@ -45,6 +45,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private OVRPlugin/Vector2i Pos
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2i& dyn_Pos();
     // Get instance field reference: private OVRPlugin/Sizei Size

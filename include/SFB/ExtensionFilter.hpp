@@ -46,12 +46,16 @@ namespace SFB {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // Get instance field reference: public readonly System.String[] _extensions
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0x14595EC
+    // Offset: 0x147F494
     // ABORTED: conflicts with another method.  ExtensionFilter(::StringW filterName, ::ArrayW<::StringW> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)

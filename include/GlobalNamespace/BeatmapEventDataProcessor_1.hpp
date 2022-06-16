@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapDataItem
+    inline ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>* i_BeatmapDataItem() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*>(this);
+    }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

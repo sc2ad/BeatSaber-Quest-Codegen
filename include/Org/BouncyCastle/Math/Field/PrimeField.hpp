@@ -47,6 +47,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
     }
+    // Creating interface conversion operator: i_IFiniteField
+    inline ::Org::BouncyCastle::Math::Field::IFiniteField* i_IFiniteField() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IFiniteField*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Math::BigInteger*
     constexpr operator ::Org::BouncyCastle::Math::BigInteger*() const noexcept {
       return characteristic;
@@ -54,25 +58,25 @@ namespace Org::BouncyCastle::Math::Field {
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger characteristic
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_characteristic();
     // public Org.BouncyCastle.Math.BigInteger get_Characteristic()
-    // Offset: 0x22E7A80
+    // Offset: 0x22DF644
     ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
     // public System.Int32 get_Dimension()
-    // Offset: 0x22E7A88
+    // Offset: 0x22DF64C
     int get_Dimension();
     // System.Void .ctor(Org.BouncyCastle.Math.BigInteger characteristic)
-    // Offset: 0x22E7444
+    // Offset: 0x22DF008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::Field::PrimeField::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimeField*, creationType>(characteristic)));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22E7A90
+    // Offset: 0x22DF654
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22E7B58
+    // Offset: 0x22DF71C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

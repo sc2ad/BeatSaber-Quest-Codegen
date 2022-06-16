@@ -27,6 +27,10 @@ namespace NUnit::Framework::Interfaces {
     operator ::NUnit::Framework::Interfaces::ICommandWrapper() noexcept {
       return *reinterpret_cast<::NUnit::Framework::Interfaces::ICommandWrapper*>(this);
     }
+    // Creating interface conversion operator: i_ICommandWrapper
+    inline ::NUnit::Framework::Interfaces::ICommandWrapper* i_ICommandWrapper() noexcept {
+      return reinterpret_cast<::NUnit::Framework::Interfaces::ICommandWrapper*>(this);
+    }
   }; // NUnit.Framework.Interfaces.IWrapSetUpTearDown
   #pragma pack(pop)
 }

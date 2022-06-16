@@ -36,6 +36,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating conversion operator: operator ::System::Runtime::Remoting::Messaging::IllogicalCallContext*
     constexpr operator ::System::Runtime::Remoting::Messaging::IllogicalCallContext*() const noexcept {
       return m_ctx;
@@ -43,13 +47,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& dyn_m_ctx();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1C86508
+    // Offset: 0x1C791DC
     bool get_IsNull();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IllogicalCallContext ctx)
-    // Offset: 0x1C86500
+    // Offset: 0x1C791D4
     // ABORTED: conflicts with another method.  Reader(::System::Runtime::Remoting::Messaging::IllogicalCallContext* ctx);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1C82F28
+    // Offset: 0x1C75BFC
     ::Il2CppObject* GetData(::StringW name);
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader
   #pragma pack(pop)

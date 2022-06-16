@@ -28,10 +28,10 @@ namespace Oculus::Platform {
   class MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
     public:
     // protected System.Boolean GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19E768C
+    // Offset: 0x19E11D0
     bool GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19E1F0C
+    // Offset: 0x19DBA50
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLeaderboardDidUpdate*, creationType>(c_message)));
     }
     // public override System.Boolean GetLeaderboardDidUpdate()
-    // Offset: 0x19E7648
+    // Offset: 0x19E118C
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Boolean Message::GetLeaderboardDidUpdate()
     bool GetLeaderboardDidUpdate();

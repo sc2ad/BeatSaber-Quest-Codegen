@@ -55,6 +55,10 @@ namespace HoudiniEngineUnity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Single time
     [[deprecated("Use field access instead!")]] float& dyn_time();
     // Get instance field reference: public System.Single value
@@ -64,7 +68,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single outTangent
     [[deprecated("Use field access instead!")]] float& dyn_outTangent();
     // public System.Void .ctor(System.Single t, System.Single v, System.Single in_tangent, System.Single out_tangent)
-    // Offset: 0x16E1B40
+    // Offset: 0x16DF664
     // ABORTED: conflicts with another method.  HAPI_Keyframe(float t, float v, float in_tangent, float out_tangent);
   }; // HoudiniEngineUnity.HAPI_Keyframe
   #pragma pack(pop)

@@ -66,25 +66,29 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
     }
+    // Creating interface conversion operator: i_GlvEndomorphism
+    inline ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* i_GlvEndomorphism() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(this);
+    }
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters m_parameters
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*& dyn_m_parameters();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECPointMap m_pointMap
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPointMap*& dyn_m_pointMap();
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
-    // Offset: 0x2759504
+    // Offset: 0x274B0C8
     ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
-    // Offset: 0x275950C
+    // Offset: 0x274B0D0
     bool get_HasEfficientPointMap();
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters parameters)
-    // Offset: 0x27593B4
+    // Offset: 0x274AF78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBEndomorphism* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBEndomorphism*, creationType>(curve, parameters)));
     }
     // public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2759470
+    // Offset: 0x274B034
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBEndomorphism
   #pragma pack(pop)

@@ -52,18 +52,22 @@ namespace System::Net::Http {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // protected System.Void .ctor()
-    // Offset: 0x199C740
+    // Offset: 0x1998284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageHandler*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x199F3E4
+    // Offset: 0x199AF28
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x199C85C
+    // Offset: 0x19983A0
     void Dispose(bool disposing);
     // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF

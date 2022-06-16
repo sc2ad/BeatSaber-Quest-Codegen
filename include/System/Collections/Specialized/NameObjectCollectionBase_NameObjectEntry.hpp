@@ -43,7 +43,7 @@ namespace System::Collections::Specialized {
     // Get instance field reference: System.Object Value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_Value();
     // System.Void .ctor(System.String name, System.Object value)
-    // Offset: 0x1D8FF70
+    // Offset: 0x1D83C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectEntry* New_ctor(::StringW name, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");

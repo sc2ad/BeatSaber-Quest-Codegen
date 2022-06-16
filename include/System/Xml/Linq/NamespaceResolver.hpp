@@ -61,6 +61,10 @@ namespace System::Xml::Linq {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Int32 scope
     [[deprecated("Use field access instead!")]] int& dyn_scope();
     // Get instance field reference: private System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration declaration
@@ -68,19 +72,19 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration rover
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_rover();
     // public System.Void PushScope()
-    // Offset: 0x2A9F5B4
+    // Offset: 0x2A95388
     void PushScope();
     // public System.Void PopScope()
-    // Offset: 0x2A9F670
+    // Offset: 0x2A95444
     void PopScope();
     // public System.Void Add(System.String prefix, System.Xml.Linq.XNamespace ns)
-    // Offset: 0x2A9F5C4
+    // Offset: 0x2A95398
     void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
     // public System.Void AddFirst(System.String prefix, System.Xml.Linq.XNamespace ns)
-    // Offset: 0x2A9F424
+    // Offset: 0x2A951F8
     void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
     // public System.String GetPrefixOfNamespace(System.Xml.Linq.XNamespace ns, System.Boolean allowDefaultNamespace)
-    // Offset: 0x2A9F1FC
+    // Offset: 0x2A94FD0
     ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
   }; // System.Xml.Linq.NamespaceResolver
   #pragma pack(pop)

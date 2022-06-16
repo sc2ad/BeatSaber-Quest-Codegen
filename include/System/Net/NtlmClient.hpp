@@ -52,6 +52,10 @@ namespace System::Net {
     operator ::System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
+    // Creating interface conversion operator: i_IAuthenticationModule
+    inline ::System::Net::IAuthenticationModule* i_IAuthenticationModule() noexcept {
+      return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
+    }
     // Creating conversion operator: operator ::System::Net::IAuthenticationModule*
     constexpr operator ::System::Net::IAuthenticationModule*() const noexcept {
       return authObject;
@@ -59,20 +63,20 @@ namespace System::Net {
     // Get instance field reference: private System.Net.IAuthenticationModule authObject
     [[deprecated("Use field access instead!")]] ::System::Net::IAuthenticationModule*& dyn_authObject();
     // public System.String get_AuthenticationType()
-    // Offset: 0x1B682F8
+    // Offset: 0x1B5DE3C
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1B68198
+    // Offset: 0x1B5DCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NtlmClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient*, creationType>()));
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B68204
+    // Offset: 0x1B5DD48
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B682F0
+    // Offset: 0x1B5DE34
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.NtlmClient
   #pragma pack(pop)

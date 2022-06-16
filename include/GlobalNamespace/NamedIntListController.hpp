@@ -71,6 +71,10 @@ namespace GlobalNamespace {
     operator ::HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<::HMUI::IValueChanger_1<int>*>(this);
     }
+    // Creating interface conversion operator: i_IValueChanger_1_int
+    inline ::HMUI::IValueChanger_1<int>* i_IValueChanger_1_int() noexcept {
+      return reinterpret_cast<::HMUI::IValueChanger_1<int>*>(this);
+    }
     // Get instance field reference: private NamedIntListController/TextValuePair[] _textValuePairs
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
@@ -78,19 +82,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14A48A8
+    // Offset: 0x14A7B70
     void add_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14A494C
+    // Offset: 0x14A7C14
     void remove_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
-    // Offset: 0x14A49F0
+    // Offset: 0x14A7CB8
     void InitValues(::ArrayW<::GlobalNamespace::NamedIntListController::TextValuePair*> values);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0x14A4A00
+    // Offset: 0x14A7CC8
     void SetValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x14A4B78
+    // Offset: 0x14A7E40
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -100,17 +104,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedIntListController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x14A4A10
+    // Offset: 0x14A7CD8
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x14A4AAC
+    // Offset: 0x14A7D74
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x14A4B24
+    // Offset: 0x14A7DEC
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

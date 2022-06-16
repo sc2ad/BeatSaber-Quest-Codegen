@@ -46,26 +46,30 @@ namespace GlobalNamespace {
     operator ::BGNet::Core::ITimeProvider() noexcept {
       return *reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B5AC0
+    // Creating interface conversion operator: i_ITimeProvider
+    inline ::BGNet::Core::ITimeProvider* i_ITimeProvider() noexcept {
+      return reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
+    }
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B85D8
     // Get static field: static private readonly System.DateTime _epoch
     static ::System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(::System::DateTime value);
     // public System.Void .ctor()
-    // Offset: 0x263DA04
+    // Offset: 0x26355C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UtcTimeProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UtcTimeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UtcTimeProvider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x263DA0C
+    // Offset: 0x26355D0
     static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x263D8B4
+    // Offset: 0x2635478
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x263D98C
+    // Offset: 0x2635550
     ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
   }; // UtcTimeProvider
   #pragma pack(pop)

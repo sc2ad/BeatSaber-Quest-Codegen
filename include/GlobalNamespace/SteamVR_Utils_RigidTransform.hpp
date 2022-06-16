@@ -59,65 +59,69 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Vector3 pos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pos();
     // Get instance field reference: public UnityEngine.Quaternion rot
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rot();
     // static public SteamVR_Utils/RigidTransform get_identity()
-    // Offset: 0x1BDA5F8
+    // Offset: 0x1BCE2CC
     static ::GlobalNamespace::SteamVR_Utils::RigidTransform get_identity();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1BDA6B4
+    // Offset: 0x1BCE388
     // ABORTED: conflicts with another method.  RigidTransform(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x1BDA730
+    // Offset: 0x1BCE404
     RigidTransform(::UnityEngine::Transform* t);
     // public System.Void .ctor(UnityEngine.Transform from, UnityEngine.Transform to)
-    // Offset: 0x1BDA780
+    // Offset: 0x1BCE454
     RigidTransform(::UnityEngine::Transform* from, ::UnityEngine::Transform* to);
     // public System.Void .ctor(Valve.VR.HmdMatrix34_t pose)
-    // Offset: 0x1BD7D18
+    // Offset: 0x1BCB9EC
     RigidTransform(::Valve::VR::HmdMatrix34_t pose);
     // public System.Void .ctor(Valve.VR.HmdMatrix44_t pose)
-    // Offset: 0x1BDA940
+    // Offset: 0x1BCE614
     RigidTransform(::Valve::VR::HmdMatrix44_t pose);
     // static public SteamVR_Utils/RigidTransform FromLocal(UnityEngine.Transform t)
-    // Offset: 0x1BDA6C8
+    // Offset: 0x1BCE39C
     static ::GlobalNamespace::SteamVR_Utils::RigidTransform FromLocal(::UnityEngine::Transform* t);
     // public Valve.VR.HmdMatrix44_t ToHmdMatrix44()
-    // Offset: 0x1BDABC0
+    // Offset: 0x1BCE894
     ::Valve::VR::HmdMatrix44_t ToHmdMatrix44();
     // public Valve.VR.HmdMatrix34_t ToHmdMatrix34()
-    // Offset: 0x1BDAEB4
+    // Offset: 0x1BCEB88
     ::Valve::VR::HmdMatrix34_t ToHmdMatrix34();
     // public System.Void Inverse()
-    // Offset: 0x1BDB698
+    // Offset: 0x1BCF36C
     void Inverse();
     // public SteamVR_Utils/RigidTransform GetInverse()
-    // Offset: 0x1BDB788
+    // Offset: 0x1BCF45C
     ::GlobalNamespace::SteamVR_Utils::RigidTransform GetInverse();
     // public System.Void Multiply(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
-    // Offset: 0x1BDB7DC
+    // Offset: 0x1BCF4B0
     void Multiply(::GlobalNamespace::SteamVR_Utils::RigidTransform a, ::GlobalNamespace::SteamVR_Utils::RigidTransform b);
     // public UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3 point)
-    // Offset: 0x1BDB920
+    // Offset: 0x1BCF5F4
     ::UnityEngine::Vector3 InverseTransformPoint(::UnityEngine::Vector3 point);
     // public UnityEngine.Vector3 TransformPoint(UnityEngine.Vector3 point)
-    // Offset: 0x1BDBA44
+    // Offset: 0x1BCF718
     ::UnityEngine::Vector3 TransformPoint(::UnityEngine::Vector3 point);
     // static public SteamVR_Utils/RigidTransform Interpolate(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b, System.Single t)
-    // Offset: 0x1BDBB5C
+    // Offset: 0x1BCF830
     static ::GlobalNamespace::SteamVR_Utils::RigidTransform Interpolate(::GlobalNamespace::SteamVR_Utils::RigidTransform a, ::GlobalNamespace::SteamVR_Utils::RigidTransform b, float t);
     // public System.Void Interpolate(SteamVR_Utils/RigidTransform to, System.Single t)
-    // Offset: 0x1BDBCB8
+    // Offset: 0x1BCF98C
     void Interpolate(::GlobalNamespace::SteamVR_Utils::RigidTransform to, float t);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1BDB128
+    // Offset: 0x1BCEDFC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1BDB28C
+    // Offset: 0x1BCEF60
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -126,16 +130,16 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Utils::RigidTransform), 12 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_SteamVR_Utils_RigidTransformSizeCheck;
   static_assert(sizeof(SteamVR_Utils::RigidTransform) == 0x1C);
   // static public System.Boolean op_Equality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
-  // Offset: 0x1BDB2C4
+  // Offset: 0x1BCEF98
   bool operator ==(const ::GlobalNamespace::SteamVR_Utils::RigidTransform& a, const ::GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public System.Boolean op_Inequality(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
-  // Offset: 0x1BDB3FC
+  // Offset: 0x1BCF0D0
   bool operator !=(const ::GlobalNamespace::SteamVR_Utils::RigidTransform& a, const ::GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public SteamVR_Utils/RigidTransform op_Multiply(SteamVR_Utils/RigidTransform a, SteamVR_Utils/RigidTransform b)
-  // Offset: 0x1BDB534
+  // Offset: 0x1BCF208
   ::GlobalNamespace::SteamVR_Utils::RigidTransform operator*(const ::GlobalNamespace::SteamVR_Utils::RigidTransform& a, const ::GlobalNamespace::SteamVR_Utils::RigidTransform& b);
   // static public UnityEngine.Vector3 op_Multiply(SteamVR_Utils/RigidTransform t, UnityEngine.Vector3 v)
-  // Offset: 0x1BDBB58
+  // Offset: 0x1BCF82C
   ::UnityEngine::Vector3 operator*(const ::GlobalNamespace::SteamVR_Utils::RigidTransform& t, const ::UnityEngine::Vector3& v);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

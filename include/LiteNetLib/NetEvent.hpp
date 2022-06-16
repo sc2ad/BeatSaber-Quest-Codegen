@@ -72,6 +72,10 @@ namespace LiteNetLib {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -225,7 +229,7 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly LiteNetLib.NetPacketReader DataReader
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPacketReader*& dyn_DataReader();
     // public System.Void .ctor(LiteNetLib.NetManager manager)
-    // Offset: 0x21B0A8C
+    // Offset: 0x21A8650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEvent* New_ctor(::LiteNetLib::NetManager* manager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetEvent::.ctor");

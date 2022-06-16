@@ -95,6 +95,10 @@ namespace LIV::SDK::Unity {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public LIV.SDK.Unity.SDKPose pose
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPose& dyn_pose();
     // Get instance field reference: public LIV.SDK.Unity.SDKClipPlane clipPlane
@@ -112,16 +116,16 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKPriority priority
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPriority& dyn_priority();
     // static public LIV.SDK.Unity.SDKInputFrame get_empty()
-    // Offset: 0x2A51B74
+    // Offset: 0x2A49948
     static ::LIV::SDK::Unity::SDKInputFrame get_empty();
     // public System.Void ReleaseControl()
-    // Offset: 0x2A529E8
+    // Offset: 0x2A4A7BC
     void ReleaseControl();
     // public System.Void ObtainControl()
-    // Offset: 0x2A529F8
+    // Offset: 0x2A4A7CC
     void ObtainControl();
     // public override System.String ToString()
-    // Offset: 0x2A52A0C
+    // Offset: 0x2A4A7E0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

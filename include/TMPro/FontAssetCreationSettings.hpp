@@ -130,6 +130,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.String sourceFontFileName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_sourceFontFileName();
     // Get instance field reference: public System.String sourceFontFileGUID
@@ -163,7 +167,7 @@ namespace TMPro {
     // Get instance field reference: public System.Boolean includeFontFeatures
     [[deprecated("Use field access instead!")]] bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
-    // Offset: 0x14381A0
+    // Offset: 0x1429D14
     FontAssetCreationSettings(::StringW sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::StringW characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
   #pragma pack(pop)

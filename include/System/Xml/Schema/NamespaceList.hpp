@@ -69,6 +69,10 @@ namespace System::Xml::Schema {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -126,36 +130,36 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String targetNamespace
     [[deprecated("Use field access instead!")]] ::StringW& dyn_targetNamespace();
     // public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType get_Type()
-    // Offset: 0x1C5E78C
+    // Offset: 0x1C51460
     ::System::Xml::Schema::NamespaceList::ListType get_Type();
     // public System.String get_Excluded()
-    // Offset: 0x1C5E794
+    // Offset: 0x1C51468
     ::StringW get_Excluded();
     // public System.Collections.ICollection get_Enumerate()
-    // Offset: 0x1C5E79C
+    // Offset: 0x1C51470
     ::System::Collections::ICollection* get_Enumerate();
     // public System.Void .ctor()
-    // Offset: 0x1C5E510
+    // Offset: 0x1C511E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
     }
     // public System.Void .ctor(System.String namespaces, System.String targetNamespace)
-    // Offset: 0x1C5E518
+    // Offset: 0x1C511EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>(namespaces, targetNamespace)));
     }
     // public System.Boolean Allows(System.String ns)
-    // Offset: 0x1C5E830
+    // Offset: 0x1C51504
     bool Allows(::StringW ns);
     // public System.Boolean Allows(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1C5E8C0
+    // Offset: 0x1C51594
     bool Allows(::System::Xml::XmlQualifiedName* qname);
     // public override System.String ToString()
-    // Offset: 0x1C5E8E0
+    // Offset: 0x1C515B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -57,6 +57,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Color topLeft
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_topLeft();
     // Get instance field reference: public UnityEngine.Color topRight
@@ -66,10 +70,10 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x21CF9E0
+    // Offset: 0x21C65A4
     VertexGradient(::UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x21CFA04
+    // Offset: 0x21C65C8
     // ABORTED: conflicts with another method.  VertexGradient(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
   }; // TMPro.VertexGradient
   #pragma pack(pop)

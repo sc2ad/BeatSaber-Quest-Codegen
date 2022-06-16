@@ -63,6 +63,10 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public TMPro.TMP_Text textComponent
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_Text*& dyn_textComponent();
     // Get instance field reference: public System.Int32 firstCharacterIndex
@@ -72,7 +76,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 characterCount
     [[deprecated("Use field access instead!")]] int& dyn_characterCount();
     // public System.String GetWord()
-    // Offset: 0x19038BC
+    // Offset: 0x18FF400
     ::StringW GetWord();
   }; // TMPro.TMP_WordInfo
   #pragma pack(pop)

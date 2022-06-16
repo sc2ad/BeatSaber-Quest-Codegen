@@ -83,6 +83,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -136,7 +140,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Color leadingBackgroundColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x10D8740
+    // [SpaceAttribute] Offset: 0x10DB4CC
     // private TMPro.TextMeshPro _onPlatformText
     // Size: 0x8
     // Offset: 0x48
@@ -149,21 +153,21 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* backgroundSpriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8788
+    // [InjectAttribute] Offset: 0x10DB514
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x58
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8798
+    // [InjectAttribute] Offset: 0x10DB524
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D87A8
+    // [InjectAttribute] Offset: 0x10DB534
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x68
@@ -216,38 +220,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.FloatTween _onPlatformTextAlphaTween
     [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__onPlatformTextAlphaTween();
     // public System.Void .ctor()
-    // Offset: 0x13D263C
+    // Offset: 0x13D5EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerScoreDiffText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerScoreDiffText*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x13D1F24
+    // Offset: 0x13D57CC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13D204C
+    // Offset: 0x13D58F4
     void OnDestroy();
     // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0x13D216C
+    // Offset: 0x13D5A14
     void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition relativePosition);
     // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0x13D2284
+    // Offset: 0x13D5B2C
     void AnimateScoreDiff(int scoreDiff);
     // public System.Void AnimateHide()
-    // Offset: 0x13D2420
+    // Offset: 0x13D5CC8
     void AnimateHide();
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x13D2510
+    // Offset: 0x13D5DB8
     void HandleNewLeaderWasSelected(::StringW userId);
     // private System.Void <Start>b__13_0(System.Single val)
-    // Offset: 0x13D2690
+    // Offset: 0x13D5F38
     void $Start$b__13_0(float val);
     // private System.Void <AnimateScoreDiff>b__16_0()
-    // Offset: 0x13D26F8
+    // Offset: 0x13D5FA0
     void $AnimateScoreDiff$b__16_0();
     // private System.Void <AnimateHide>b__17_0()
-    // Offset: 0x13D2704
+    // Offset: 0x13D5FAC
     void $AnimateHide$b__17_0();
   }; // MultiplayerConnectedPlayerScoreDiffText
   #pragma pack(pop)

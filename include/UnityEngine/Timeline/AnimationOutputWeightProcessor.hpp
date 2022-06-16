@@ -81,6 +81,10 @@ namespace UnityEngine::Timeline {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.Playables.Playable mixer
       [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::Playable& dyn_mixer();
       // Get instance field reference: public UnityEngine.Playables.Playable parentMixer
@@ -119,6 +123,10 @@ namespace UnityEngine::Timeline {
     operator ::UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
     }
+    // Creating interface conversion operator: i_ITimelineEvaluateCallback
+    inline ::UnityEngine::Timeline::ITimelineEvaluateCallback* i_ITimelineEvaluateCallback() noexcept {
+      return reinterpret_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);
+    }
     // Get instance field reference: private UnityEngine.Animations.AnimationPlayableOutput m_Output
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animations::AnimationPlayableOutput& dyn_m_Output();
     // Get instance field reference: private UnityEngine.Animations.AnimationMotionXToDeltaPlayable m_MotionXPlayable
@@ -126,20 +134,20 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.AnimationOutputWeightProcessor/UnityEngine.Timeline.WeightInfo> m_Mixers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*& dyn_m_Mixers();
     // public System.Void .ctor(UnityEngine.Animations.AnimationPlayableOutput output)
-    // Offset: 0x1DACE2C
+    // Offset: 0x1DA0B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AnimationOutputWeightProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationOutputWeightProcessor*, creationType>(output)));
     }
     // private System.Void FindMixers()
-    // Offset: 0x1DACED4
+    // Offset: 0x1DA0BA8
     void FindMixers();
     // private System.Void FindMixers(UnityEngine.Playables.Playable parent, System.Int32 port, UnityEngine.Playables.Playable node)
-    // Offset: 0x1DACFA8
+    // Offset: 0x1DA0C7C
     void FindMixers(::UnityEngine::Playables::Playable parent, int port, ::UnityEngine::Playables::Playable node);
     // public System.Void Evaluate()
-    // Offset: 0x1DAD1EC
+    // Offset: 0x1DA0EC0
     void Evaluate();
   }; // UnityEngine.Timeline.AnimationOutputWeightProcessor
   #pragma pack(pop)

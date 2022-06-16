@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: highquality and: scale
     char __padding3[0x1] = {};
-    // [TooltipAttribute] Offset: 0x108E5D4
+    // [TooltipAttribute] Offset: 0x108F0CC
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x24
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x108E60C
+    // [TooltipAttribute] Offset: 0x108F104
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x28
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x108E644
-    // [RangeAttribute] Offset: 0x108E644
+    // [TooltipAttribute] Offset: 0x108F13C
+    // [RangeAttribute] Offset: 0x108F13C
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x2C
@@ -166,35 +166,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt64 handle
     [[deprecated("Use field access instead!")]] uint64_t& dyn_handle();
     // static public SteamVR_Overlay get_instance()
-    // Offset: 0x18ACD80
+    // Offset: 0x18A88C4
     static ::GlobalNamespace::SteamVR_Overlay* get_instance();
     // static private System.Void set_instance(SteamVR_Overlay value)
-    // Offset: 0x18ACDD0
+    // Offset: 0x18A8914
     static void set_instance(::GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
-    // Offset: 0x18A9584
+    // Offset: 0x18A50C8
     static ::StringW get_key();
     // public System.Void .ctor()
-    // Offset: 0x18AD734
+    // Offset: 0x18A9278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Overlay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Overlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Overlay*, creationType>()));
     }
     // private System.Void OnEnable()
-    // Offset: 0x18ACE24
+    // Offset: 0x18A8968
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18ACF74
+    // Offset: 0x18A8AB8
     void OnDisable();
     // public System.Void UpdateOverlay()
-    // Offset: 0x18AD030
+    // Offset: 0x18A8B74
     void UpdateOverlay();
     // public System.Boolean PollNextEvent(ref Valve.VR.VREvent_t pEvent)
-    // Offset: 0x18AD46C
+    // Offset: 0x18A8FB0
     bool PollNextEvent(ByRef<::Valve::VR::VREvent_t> pEvent);
     // public System.Boolean ComputeIntersection(UnityEngine.Vector3 source, UnityEngine.Vector3 direction, ref SteamVR_Overlay/IntersectionResults results)
-    // Offset: 0x18AD578
+    // Offset: 0x18A90BC
     bool ComputeIntersection(::UnityEngine::Vector3 source, ::UnityEngine::Vector3 direction, ByRef<::GlobalNamespace::SteamVR_Overlay::IntersectionResults> results);
   }; // SteamVR_Overlay
   #pragma pack(pop)

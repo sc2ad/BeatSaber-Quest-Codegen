@@ -47,6 +47,10 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating conversion operator: operator ::GlobalNamespace::GameplayServerFiniteStateMachine*
     constexpr operator ::GlobalNamespace::GameplayServerFiniteStateMachine*() const noexcept {
       return fsm;
@@ -54,7 +58,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly GameplayServerFiniteStateMachine fsm
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerFiniteStateMachine*& dyn_fsm();
     // public System.Void .ctor(GameplayServerFiniteStateMachine fsm)
-    // Offset: 0x167C068
+    // Offset: 0x167AB8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameState::.ctor");

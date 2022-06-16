@@ -65,20 +65,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isLoading
     [[deprecated("Use field access instead!")]] bool& dyn__isLoading();
     // public System.Void .ctor()
-    // Offset: 0x14F01D4
+    // Offset: 0x14F231C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipLoaderSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipLoaderSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO*, creationType>()));
     }
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x14F0064
+    // Offset: 0x14F21AC
     void LoadAudioFile(::StringW filePath, ::System::Action_1<::UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x14F0124
+    // Offset: 0x14F226C
     ::System::Collections::IEnumerator* LoadAudioFileCoroutine(::StringW filePath, ::System::Action_1<::UnityEngine::AudioClip*>* finishCallback);
     // protected override System.Void OnEnable()
-    // Offset: 0x14F003C
+    // Offset: 0x14F2184
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

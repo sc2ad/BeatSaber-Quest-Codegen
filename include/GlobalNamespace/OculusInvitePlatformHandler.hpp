@@ -32,18 +32,22 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IInvitePlatformHandler() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
     }
+    // Creating interface conversion operator: i_IInvitePlatformHandler
+    inline ::GlobalNamespace::IInvitePlatformHandler* i_IInvitePlatformHandler() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
+    }
     // public System.Boolean get_isSupported()
-    // Offset: 0x1547080
+    // Offset: 0x155D6BC
     bool get_isSupported();
     // public System.Void .ctor()
-    // Offset: 0x15470E8
+    // Offset: 0x155D724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusInvitePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInvitePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInvitePlatformHandler*, creationType>()));
     }
     // public System.Void OpenInvitePanel()
-    // Offset: 0x1547088
+    // Offset: 0x155D6C4
     void OpenInvitePanel();
   }; // OculusInvitePlatformHandler
   #pragma pack(pop)

@@ -57,6 +57,10 @@ namespace UnityEngine::ProBuilder {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -112,38 +116,38 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.String <notification>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x24FB1F0
+    // Offset: 0x24F3DB4
     ::UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x24FB1F8
+    // Offset: 0x24F3DBC
     void set_status(::UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x24FB200
+    // Offset: 0x24F3DC4
     ::StringW get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x24FB208
+    // Offset: 0x24F3DCC
     void set_notification(::StringW value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x24FB30C
+    // Offset: 0x24F3ED0
     static ::UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x24FB37C
+    // Offset: 0x24F3F40
     static ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x24FB3F0
+    // Offset: 0x24F3FB4
     static ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x24FB210
+    // Offset: 0x24F3DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(::UnityEngine::ProBuilder::ActionResult::Status status, ::StringW notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x24FB260
+    // Offset: 0x24F3E24
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x24FB270
+    // Offset: 0x24F3E34
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)

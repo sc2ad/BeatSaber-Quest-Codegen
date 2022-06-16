@@ -69,43 +69,47 @@ namespace System::Net {
     operator ::System::Collections::Generic::ICollection_1<::StringW>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(this);
     }
+    // Creating interface conversion operator: i_StringW
+    inline ::System::Collections::Generic::ICollection_1<::StringW>* i_StringW() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(this);
+    }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> prefixes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_prefixes();
     // Get instance field reference: private System.Net.HttpListener listener
     [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_listener();
     // public System.Int32 get_Count()
-    // Offset: 0x1AA61FC
+    // Offset: 0x1A9DD40
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1AA6AF0
+    // Offset: 0x1A9E634
     bool get_IsReadOnly();
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x1AA4440
+    // Offset: 0x1A9BF84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x1AA6AF8
+    // Offset: 0x1A9E63C
     void Add(::StringW uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x1AA6ED8
+    // Offset: 0x1A9EA1C
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x1AA6F84
+    // Offset: 0x1A9EAC8
     bool Contains(::StringW uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x1AA6FF8
+    // Offset: 0x1A9EB3C
     void CopyTo(::ArrayW<::StringW> array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x1AA7074
+    // Offset: 0x1A9EBB8
     ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1AA7100
+    // Offset: 0x1A9EC44
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x1AA718C
+    // Offset: 0x1A9ECD0
     bool Remove(::StringW uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)

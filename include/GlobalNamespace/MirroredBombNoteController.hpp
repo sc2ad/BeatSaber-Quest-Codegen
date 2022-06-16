@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MirroredBombNoteController::Pool
     class Pool;
     // public System.Void .ctor()
-    // Offset: 0x12FF424
+    // Offset: 0x13013E4
     // Implemented from: MirroredNoteController`1
     // Base method: System.Void MirroredNoteController_1::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()

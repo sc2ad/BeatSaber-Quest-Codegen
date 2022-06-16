@@ -49,6 +49,10 @@ namespace System::Net {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -136,26 +140,26 @@ namespace System::Net {
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode prev
     [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode*& dyn_prev();
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x1B4F654
+    // Offset: 0x1B46198
     ::System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B4F65C
+    // Offset: 0x1B461A0
     void set_Next(::System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x1B4F664
+    // Offset: 0x1B461A8
     ::System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B4F66C
+    // Offset: 0x1B461B0
     void set_Prev(::System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x1B4F618
+    // Offset: 0x1B4615C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::TimerNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::TimerNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x1B4F674
+    // Offset: 0x1B461B8
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

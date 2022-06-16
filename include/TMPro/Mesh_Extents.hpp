@@ -47,15 +47,19 @@ namespace TMPro {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Vector2 min
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_min();
     // Get instance field reference: public UnityEngine.Vector2 max
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0x1439C0C
+    // Offset: 0x142B780
     // ABORTED: conflicts with another method.  Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
     // public override System.String ToString()
-    // Offset: 0x1439C18
+    // Offset: 0x142B78C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

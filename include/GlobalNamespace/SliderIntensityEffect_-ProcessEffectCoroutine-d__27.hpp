@@ -84,6 +84,10 @@ namespace GlobalNamespace {
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
@@ -99,29 +103,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <startTime>5__4
     [[deprecated("Use field access instead!")]] float& dyn_$startTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1387D7C
+    // Offset: 0x138893C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1387DE4
+    // Offset: 0x13889A4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1387864
+    // Offset: 0x1388424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect::$ProcessEffectCoroutine$d__27* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::$ProcessEffectCoroutine$d__27::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderIntensityEffect::$ProcessEffectCoroutine$d__27*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1387900
+    // Offset: 0x13884C0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13879DC
+    // Offset: 0x138859C
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x138791C
+    // Offset: 0x13884DC
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1387D84
+    // Offset: 0x1388944
     void System_Collections_IEnumerator_Reset();
   }; // SliderIntensityEffect/<ProcessEffectCoroutine>d__27
   #pragma pack(pop)

@@ -47,16 +47,16 @@ namespace Mono::Security::X509 {
     // Set static field: static private Mono.Security.X509.X509Stores _machineStore
     static void _set__machineStore(::Mono::Security::X509::X509Stores* value);
     // static System.String get_CurrentUserPath()
-    // Offset: 0x2AB44EC
+    // Offset: 0x2AAA2C0
     static ::StringW get_CurrentUserPath();
     // static System.String get_LocalMachinePath()
-    // Offset: 0x2AB45D0
+    // Offset: 0x2AAA3A4
     static ::StringW get_LocalMachinePath();
     // static public Mono.Security.X509.X509Stores get_CurrentUser()
-    // Offset: 0x2AB46AC
+    // Offset: 0x2AAA480
     static ::Mono::Security::X509::X509Stores* get_CurrentUser();
     // static public Mono.Security.X509.X509Stores get_LocalMachine()
-    // Offset: 0x2AB478C
+    // Offset: 0x2AAA560
     static ::Mono::Security::X509::X509Stores* get_LocalMachine();
   }; // Mono.Security.X509.X509StoreManager
   #pragma pack(pop)

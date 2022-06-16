@@ -52,6 +52,10 @@ namespace HMUI {
     operator ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
     }
+    // Creating interface conversion operator: i_Il2CppObject
+    inline ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* i_Il2CppObject() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
+    }
     // Get instance field reference: private System.Int32 <>1__state
     [[deprecated("Use field access instead!")]] int& dyn_$$1__state();
     // Get instance field reference: private System.Object <>2__current
@@ -59,26 +63,26 @@ namespace HMUI {
     // Get instance field reference: public HMUI.InputFieldView <>4__this
     [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x16B8C98
+    // Offset: 0x16B77BC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16B8D00
+    // Offset: 0x16B7824
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16B89F8
+    // Offset: 0x16B751C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldView::$BlinkingCaretCoroutine$d__43* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldView::$BlinkingCaretCoroutine$d__43*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16B8BFC
+    // Offset: 0x16B7720
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16B8C00
+    // Offset: 0x16B7724
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16B8CA0
+    // Offset: 0x16B77C4
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.InputFieldView/HMUI.<BlinkingCaretCoroutine>d__43
   #pragma pack(pop)

@@ -106,6 +106,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
     }
+    // Creating interface conversion operator: i_INetworkConfig
+    inline ::GlobalNamespace::INetworkConfig* i_INetworkConfig() noexcept {
+      return reinterpret_cast<::GlobalNamespace::INetworkConfig*>(this);
+    }
     // Get instance field reference: private readonly System.Int32 <maxPartySize>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$maxPartySize$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <discoveryPort>k__BackingField
@@ -127,40 +131,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ServiceEnvironment <serviceEnvironment>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServiceEnvironment& dyn_$serviceEnvironment$k__BackingField();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x1674CA4
+    // Offset: 0x16737C8
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x1674CAC
+    // Offset: 0x16737D0
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x1674CB4
+    // Offset: 0x16737D8
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x1674CBC
+    // Offset: 0x16737E0
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x1674CC4
+    // Offset: 0x16737E8
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x1674CCC
+    // Offset: 0x16737F0
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x1674CD4
+    // Offset: 0x16737F8
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x1674D24
+    // Offset: 0x1673848
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x1674D2C
+    // Offset: 0x1673850
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x1674D34
+    // Offset: 0x1673858
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x1674D3C
+    // Offset: 0x1673860
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port, System.Boolean forceGameLift)
-    // Offset: 0x1674D44
+    // Offset: 0x1673868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int port, bool forceGameLift) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomNetworkConfig::.ctor");

@@ -47,22 +47,26 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
     }
+    // Creating interface conversion operator: i_IGcmMultiplier
+    inline ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* i_IGcmMultiplier() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>(this);
+    }
     // Get instance field reference: private System.Byte[] H
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_H();
     // Get instance field reference: private System.UInt32[][][] M
     [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<::ArrayW<uint>>>& dyn_M();
     // public System.Void .ctor()
-    // Offset: 0x1E41F00
+    // Offset: 0x1E36BD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables8kGcmMultiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables8kGcmMultiplier*, creationType>()));
     }
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x1E41450
+    // Offset: 0x1E36124
     void Init(::ArrayW<uint8_t> H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x1E41CDC
+    // Offset: 0x1E369B0
     void MultiplyH(::ArrayW<uint8_t> x);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
   #pragma pack(pop)

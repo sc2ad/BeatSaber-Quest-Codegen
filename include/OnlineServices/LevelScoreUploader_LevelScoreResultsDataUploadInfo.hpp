@@ -44,7 +44,7 @@ namespace OnlineServices {
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft
     [[deprecated("Use field access instead!")]] int& dyn_uploadAttemptCountLeft();
     // public System.Void .ctor()
-    // Offset: 0x1357A54
+    // Offset: 0x1359A04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::.ctor");

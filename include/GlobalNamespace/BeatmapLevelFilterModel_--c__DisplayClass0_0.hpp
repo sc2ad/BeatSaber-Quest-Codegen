@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerDataModel playerDataModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // public System.Void .ctor()
-    // Offset: 0x1505AD8
+    // Offset: 0x1506C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelFilterModel::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelFilterModel::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1505AE0
+    // Offset: 0x1506C28
     bool $FilerBeatmapLevelPackCollectionAsync$b__0(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
   }; // BeatmapLevelFilterModel/<>c__DisplayClass0_0
   #pragma pack(pop)

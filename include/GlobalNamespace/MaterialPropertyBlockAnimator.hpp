@@ -74,32 +74,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1E7E81C
+    // Offset: 0x1E754F0
     ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1E7E824
+    // Offset: 0x1E754F8
     void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
     // public System.Void .ctor()
-    // Offset: 0x1E7EB98
+    // Offset: 0x1E7586C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockAnimator*, creationType>()));
     }
     // protected System.Void SetProperty()
-    // Offset: 0x1E7E8B0
+    // Offset: 0x1E75584
     void SetProperty();
     // protected System.Void Awake()
-    // Offset: 0x1E7E8B4
+    // Offset: 0x1E75588
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1E7E994
+    // Offset: 0x1E75668
     void Update();
     // private System.Void LazyInit()
-    // Offset: 0x1E7E954
+    // Offset: 0x1E75628
     void LazyInit();
     // private System.Void RefreshProperty()
-    // Offset: 0x1E7EB6C
+    // Offset: 0x1E75840
     void RefreshProperty();
   }; // MaterialPropertyBlockAnimator
   #pragma pack(pop)

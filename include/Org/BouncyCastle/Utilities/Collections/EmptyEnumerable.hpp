@@ -39,22 +39,26 @@ namespace Org::BouncyCastle::Utilities::Collections {
     operator ::System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
+    // Creating interface conversion operator: i_IEnumerable
+    inline ::System::Collections::IEnumerable* i_IEnumerable() noexcept {
+      return reinterpret_cast<::System::Collections::IEnumerable*>(this);
+    }
     // Get static field: static public readonly System.Collections.IEnumerable Instance
     static ::System::Collections::IEnumerable* _get_Instance();
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(::System::Collections::IEnumerable* value);
     // private System.Void .ctor()
-    // Offset: 0x18099C0
+    // Offset: 0x1806504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerable*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1809A30
+    // Offset: 0x1806574
     static void _cctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x18099C8
+    // Offset: 0x180650C
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerable
   #pragma pack(pop)

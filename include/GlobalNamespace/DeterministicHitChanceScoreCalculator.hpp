@@ -55,6 +55,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
+    // Creating interface conversion operator: i_IMockPlayerScoreCalculator
+    inline ::GlobalNamespace::IMockPlayerScoreCalculator* i_IMockPlayerScoreCalculator() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IMockPlayerScoreCalculator*>(this);
+    }
     // static field const value: static private System.Int32 kScorePerHit
     static constexpr const int kScorePerHit = 105;
     // Get static field: static private System.Int32 kScorePerHit
@@ -66,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _chanceAggregated
     [[deprecated("Use field access instead!")]] float& dyn__chanceAggregated();
     // public System.Void .ctor(System.Single hitChance)
-    // Offset: 0x142E828
+    // Offset: 0x140879C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeterministicHitChanceScoreCalculator* New_ctor(float hitChance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeterministicHitChanceScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeterministicHitChanceScoreCalculator*, creationType>(hitChance)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x142E85C
+    // Offset: 0x14087D0
     int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // DeterministicHitChanceScoreCalculator
   #pragma pack(pop)

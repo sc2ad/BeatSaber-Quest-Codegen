@@ -46,21 +46,25 @@ namespace MS::Internal::Xml::Cache {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] page
     [[deprecated("Use field access instead!")]] ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_page();
     // Get instance field reference: private System.Int32 idx
     [[deprecated("Use field access instead!")]] int& dyn_idx();
     // public MS.Internal.Xml.Cache.XPathNode[] get_Page()
-    // Offset: 0x1AB9A60
+    // Offset: 0x1AB15A4
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_Page();
     // public System.Int32 get_Index()
-    // Offset: 0x1AB9A68
+    // Offset: 0x1AB15AC
     int get_Index();
     // public System.Void .ctor(MS.Internal.Xml.Cache.XPathNode[] page, System.Int32 idx)
-    // Offset: 0x1AB9A54
+    // Offset: 0x1AB1598
     // ABORTED: conflicts with another method.  XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> page, int idx);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1AB9A70
+    // Offset: 0x1AB15B4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

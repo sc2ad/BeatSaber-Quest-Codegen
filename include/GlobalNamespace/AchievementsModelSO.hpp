@@ -76,20 +76,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x14E7B4C
+    // Offset: 0x14E9BF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsModelSO*, creationType>()));
     }
     // public System.Void Initialize()
-    // Offset: 0x14E6AC0
+    // Offset: 0x14E8B6C
     void Initialize();
     // public System.Void UnlockAchievement(AchievementSO achievement)
-    // Offset: 0x14E7A38
+    // Offset: 0x14E9AE4
     void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
-    // Offset: 0x14E7BBC
+    // Offset: 0x14E9C68
     void $Initialize$b__3_0(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::StringW> achievementIds);
   }; // AchievementsModelSO
   #pragma pack(pop)

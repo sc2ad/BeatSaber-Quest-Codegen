@@ -31,6 +31,10 @@ namespace Zenject {
     operator ::Zenject::IMemoryPool() noexcept {
       return *reinterpret_cast<::Zenject::IMemoryPool*>(this);
     }
+    // Creating interface conversion operator: i_IMemoryPool
+    inline ::Zenject::IMemoryPool* i_IMemoryPool() noexcept {
+      return reinterpret_cast<::Zenject::IMemoryPool*>(this);
+    }
     // public System.Void Despawn(TValue item)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Despawn(TValue item) {

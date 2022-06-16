@@ -40,14 +40,14 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: public System.String line
     [[deprecated("Use field access instead!")]] ::StringW& dyn_line();
     // public System.Void .ctor()
-    // Offset: 0x2AC7334
+    // Offset: 0x2ABC108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTraceFilter::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTraceFilter::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <Filter>b__0(System.String s)
-    // Offset: 0x2AC751C
+    // Offset: 0x2ABC2F0
     bool $Filter$b__0(::StringW s);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/UnityEngine.TestTools.Utils.<>c__DisplayClass2_0
   #pragma pack(pop)

@@ -28,6 +28,10 @@ namespace System {
     operator ::System::IEquatable_1<::System::TypeName*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::System::TypeName*>*>(this);
     }
+    // Creating interface conversion operator: i_TypeName
+    inline ::System::IEquatable_1<::System::TypeName*>* i_TypeName() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::System::TypeName*>*>(this);
+    }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DisplayName();

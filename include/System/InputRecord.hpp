@@ -88,6 +88,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Int16 EventType
     [[deprecated("Use field access instead!")]] int16_t& dyn_EventType();
     // Get instance field reference: public System.Boolean KeyDown

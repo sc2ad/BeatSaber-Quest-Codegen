@@ -106,7 +106,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()
-    // Offset: 0x1B0B2B8
+    // Offset: 0x1B01DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNetworkData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNetworkData::.ctor");

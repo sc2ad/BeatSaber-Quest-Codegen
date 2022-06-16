@@ -41,15 +41,19 @@ namespace RootMotion {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Boolean legsParentInSpine
     [[deprecated("Use field access instead!")]] bool& dyn_legsParentInSpine();
     // Get instance field reference: public System.Boolean includeEyes
     [[deprecated("Use field access instead!")]] bool& dyn_includeEyes();
     // static public RootMotion.BipedReferences/RootMotion.AutoDetectParams get_Default()
-    // Offset: 0x224E354
+    // Offset: 0x2245F18
     static ::RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0x224E340
+    // Offset: 0x2245F04
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams
   #pragma pack(pop)

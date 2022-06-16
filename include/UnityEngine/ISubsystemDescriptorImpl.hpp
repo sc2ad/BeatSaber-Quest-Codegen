@@ -34,6 +34,10 @@ namespace UnityEngine {
     operator ::UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
     }
+    // Creating interface conversion operator: i_ISubsystemDescriptor
+    inline ::UnityEngine::ISubsystemDescriptor* i_ISubsystemDescriptor() noexcept {
+      return reinterpret_cast<::UnityEngine::ISubsystemDescriptor*>(this);
+    }
     // public System.Void set_ptr(System.IntPtr value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void set_ptr(::System::IntPtr value);

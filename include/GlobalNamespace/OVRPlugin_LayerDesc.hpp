@@ -127,6 +127,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public OVRPlugin/OverlayShape Shape
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::OverlayShape& dyn_Shape();
     // Get instance field reference: public OVRPlugin/LayerLayout Layout
@@ -156,7 +160,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Sizei MotionVectorTextureSize
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Sizei& dyn_MotionVectorTextureSize();
     // public override System.String ToString()
-    // Offset: 0x1B11FB8
+    // Offset: 0x1B09AFC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

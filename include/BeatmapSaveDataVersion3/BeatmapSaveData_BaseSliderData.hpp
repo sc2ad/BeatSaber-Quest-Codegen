@@ -90,28 +90,28 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: protected System.Int32 ty
     [[deprecated("Use field access instead!")]] int& dyn_ty();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType get_colorType()
-    // Offset: 0x286D67C
+    // Offset: 0x2826B0C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType get_colorType();
     // public System.Int32 get_headLine()
-    // Offset: 0x286D684
+    // Offset: 0x2826B14
     int get_headLine();
     // public System.Int32 get_headLayer()
-    // Offset: 0x286D68C
+    // Offset: 0x2826B1C
     int get_headLayer();
     // public NoteCutDirection get_headCutDirection()
-    // Offset: 0x286D694
+    // Offset: 0x2826B24
     ::GlobalNamespace::NoteCutDirection get_headCutDirection();
     // public System.Single get_tailBeat()
-    // Offset: 0x286D69C
+    // Offset: 0x2826B2C
     float get_tailBeat();
     // public System.Int32 get_tailLine()
-    // Offset: 0x286D6A4
+    // Offset: 0x2826B34
     int get_tailLine();
     // public System.Int32 get_tailLayer()
-    // Offset: 0x286D6AC
+    // Offset: 0x2826B3C
     int get_tailLayer();
     // protected System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer)
-    // Offset: 0x286D6B4
+    // Offset: 0x2826B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BaseSliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BaseSliderData::.ctor");

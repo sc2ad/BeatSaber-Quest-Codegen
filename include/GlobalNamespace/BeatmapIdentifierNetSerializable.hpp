@@ -67,9 +67,17 @@ namespace GlobalNamespace {
     operator ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);
     }
+    // Creating interface conversion operator: i_BeatmapIdentifierNetSerializable
+    inline ::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>* i_BeatmapIdentifierNetSerializable() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);
+    }
     // Creating interface conversion operator: operator ::LiteNetLib::Utils::INetSerializable
     operator ::LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
+    }
+    // Creating interface conversion operator: i_INetSerializable
+    inline ::LiteNetLib::Utils::INetSerializable* i_INetSerializable() noexcept {
+      return reinterpret_cast<::LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.String <levelID>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$levelID$k__BackingField();
@@ -78,58 +86,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty <difficulty>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$k__BackingField();
     // public System.String get_levelID()
-    // Offset: 0x29FDD90
+    // Offset: 0x29FAF48
     ::StringW get_levelID();
     // private System.Void set_levelID(System.String value)
-    // Offset: 0x29FDD98
+    // Offset: 0x29FAF50
     void set_levelID(::StringW value);
     // public System.String get_beatmapCharacteristicSerializedName()
-    // Offset: 0x29FDDA0
+    // Offset: 0x29FAF58
     ::StringW get_beatmapCharacteristicSerializedName();
     // private System.Void set_beatmapCharacteristicSerializedName(System.String value)
-    // Offset: 0x29FDDA8
+    // Offset: 0x29FAF60
     void set_beatmapCharacteristicSerializedName(::StringW value);
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x29FDDB0
+    // Offset: 0x29FAF68
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // private System.Void set_difficulty(BeatmapDifficulty value)
-    // Offset: 0x29FDDB8
+    // Offset: 0x29FAF70
     void set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public System.Void .ctor()
-    // Offset: 0x29FDDC0
+    // Offset: 0x29FAF78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapIdentifierNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapIdentifierNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapIdentifierNetSerializable*, creationType>()));
     }
     // public System.Void .ctor(System.String levelID, System.String beatmapCharacteristicSerializedName, BeatmapDifficulty difficulty)
-    // Offset: 0x29FDDC8
+    // Offset: 0x29FAF80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapIdentifierNetSerializable* New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapIdentifierNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapIdentifierNetSerializable*, creationType>(levelID, beatmapCharacteristicSerializedName, difficulty)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FDE08
+    // Offset: 0x29FAFC0
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29FDE70
+    // Offset: 0x29FB028
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Boolean Equals(BeatmapIdentifierNetSerializable other)
-    // Offset: 0x29FDEC8
+    // Offset: 0x29FB080
     bool Equals(::GlobalNamespace::BeatmapIdentifierNetSerializable* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29FDF3C
+    // Offset: 0x29FB0F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29FE04C
+    // Offset: 0x29FB204
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29FE0B4
+    // Offset: 0x29FB26C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -52,14 +52,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1A205D4
+    // Offset: 0x1A1B118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c__DisplayClass0_2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c__DisplayClass0_2*, creationType>()));
     }
     // System.Boolean <BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A20A2C
+    // Offset: 0x1A1B570
     bool $BevelEdges$b__5(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_2
   #pragma pack(pop)

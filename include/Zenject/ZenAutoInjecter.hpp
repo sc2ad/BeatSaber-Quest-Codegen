@@ -63,6 +63,10 @@ namespace Zenject {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -112,35 +116,35 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInjected
     [[deprecated("Use field access instead!")]] bool& dyn__hasInjected();
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
-    // Offset: 0x1D2A140
+    // Offset: 0x1D1DE14
     ::Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/Zenject.ContainerSources value)
-    // Offset: 0x1D2A148
+    // Offset: 0x1D1DE1C
     void set_ContainerSource(::Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void .ctor()
-    // Offset: 0x1D2A3F4
+    // Offset: 0x1D1E0C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenAutoInjecter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenAutoInjecter*, creationType>()));
     }
     // public System.Void Construct()
-    // Offset: 0x1D2A150
+    // Offset: 0x1D1DE24
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x1D2A1BC
+    // Offset: 0x1D1DE90
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x1D2A208
+    // Offset: 0x1D1DEDC
     ::Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x1D2A358
+    // Offset: 0x1D1E02C
     ::Zenject::DiContainer* GetContainerForCurrentScene();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1D2A404
+    // Offset: 0x1D1E0D8
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D2A48C
+    // Offset: 0x1D1E160
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenAutoInjecter
   #pragma pack(pop)

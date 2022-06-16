@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean noBombs
     [[deprecated("Use field access instead!")]] bool& dyn_noBombs();
     // public System.Void .ctor()
-    // Offset: 0x1354B9C
+    // Offset: 0x1357B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataObstaclesAndBombsTransform::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataObstaclesAndBombsTransform::$$c__DisplayClass0_0*, creationType>()));
     }
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x1354CA8
+    // Offset: 0x1357C58
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataObstaclesAndBombsTransform/<>c__DisplayClass0_0
   #pragma pack(pop)

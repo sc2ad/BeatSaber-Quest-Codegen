@@ -53,20 +53,20 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_1
     static void _set_$$9__11_1(::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C19C0
+    // Offset: 0x16C04E4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16C1A24
+    // Offset: 0x16C0548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewItemsVisibilityController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollViewItemsVisibilityController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController::$$c*, creationType>()));
     }
     // System.Single <Start>b__11_0(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x16C1A2C
+    // Offset: 0x16C0550
     float $Start$b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // System.Single <Start>b__11_1(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
-    // Offset: 0x16C1A78
+    // Offset: 0x16C059C
     float $Start$b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>* item);
   }; // HMUI.ScrollViewItemsVisibilityController/HMUI.<>c
   #pragma pack(pop)

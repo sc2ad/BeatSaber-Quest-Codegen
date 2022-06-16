@@ -42,12 +42,16 @@ namespace TMPro::SpriteAssetUtilities {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Single w
     [[deprecated("Use field access instead!")]] float& dyn_w();
     // Get instance field reference: public System.Single h
     [[deprecated("Use field access instead!")]] float& dyn_h();
     // public override System.String ToString()
-    // Offset: 0x143C710
+    // Offset: 0x142E284
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

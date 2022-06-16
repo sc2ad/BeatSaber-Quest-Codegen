@@ -37,6 +37,10 @@ namespace System::Diagnostics {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -71,35 +75,35 @@ namespace System::Diagnostics {
     static ::System::Diagnostics::TraceEventType _get_Verbose();
     // Set static field: static public System.Diagnostics.TraceEventType Verbose
     static void _set_Verbose(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x103DC84
+    // [EditorBrowsableAttribute] Offset: 0x103E77C
     // static field const value: static public System.Diagnostics.TraceEventType Start
     static constexpr const int Start = 256;
     // Get static field: static public System.Diagnostics.TraceEventType Start
     static ::System::Diagnostics::TraceEventType _get_Start();
     // Set static field: static public System.Diagnostics.TraceEventType Start
     static void _set_Start(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x103DC98
+    // [EditorBrowsableAttribute] Offset: 0x103E790
     // static field const value: static public System.Diagnostics.TraceEventType Stop
     static constexpr const int Stop = 512;
     // Get static field: static public System.Diagnostics.TraceEventType Stop
     static ::System::Diagnostics::TraceEventType _get_Stop();
     // Set static field: static public System.Diagnostics.TraceEventType Stop
     static void _set_Stop(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x103DCAC
+    // [EditorBrowsableAttribute] Offset: 0x103E7A4
     // static field const value: static public System.Diagnostics.TraceEventType Suspend
     static constexpr const int Suspend = 1024;
     // Get static field: static public System.Diagnostics.TraceEventType Suspend
     static ::System::Diagnostics::TraceEventType _get_Suspend();
     // Set static field: static public System.Diagnostics.TraceEventType Suspend
     static void _set_Suspend(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x103DCC0
+    // [EditorBrowsableAttribute] Offset: 0x103E7B8
     // static field const value: static public System.Diagnostics.TraceEventType Resume
     static constexpr const int Resume = 2048;
     // Get static field: static public System.Diagnostics.TraceEventType Resume
     static ::System::Diagnostics::TraceEventType _get_Resume();
     // Set static field: static public System.Diagnostics.TraceEventType Resume
     static void _set_Resume(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x103DCD4
+    // [EditorBrowsableAttribute] Offset: 0x103E7CC
     // static field const value: static public System.Diagnostics.TraceEventType Transfer
     static constexpr const int Transfer = 4096;
     // Get static field: static public System.Diagnostics.TraceEventType Transfer

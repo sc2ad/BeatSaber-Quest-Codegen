@@ -19,6 +19,10 @@
 namespace GlobalNamespace {
   // Forward declaring type: FireworksController
   class FireworksController;
+  // Forward declaring type: IBeatmapLevelPack
+  class IBeatmapLevelPack;
+  // Forward declaring type: IPreviewBeatmapLevel
+  class IPreviewBeatmapLevel;
 }
 // Completed forward declares
 // Type namespace: 
@@ -44,7 +48,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10CE474
+    // [InjectAttribute] Offset: 0x10D0F7C
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -59,26 +63,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
     // public System.Void .ctor()
-    // Offset: 0x14E970C
+    // Offset: 0x14EB854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnniversaryManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnniversaryManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnniversaryManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14E9550
+    // Offset: 0x14EB5FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14E960C
+    // Offset: 0x14EB704
     void OnDestroy();
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x14E96E8
+    // Offset: 0x14EB82C
     void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
+    // private System.Void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(IBeatmapLevelPack musicPack, IPreviewBeatmapLevel beatmap)
+    // Offset: 0x14EB850
+    void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack* musicPack, ::GlobalNamespace::IPreviewBeatmapLevel* beatmap);
     // private System.Void StartFireworks()
-    // Offset: 0x14E95EC
+    // Offset: 0x14EB6E4
     void StartFireworks();
     // private System.Void StopFireworks()
-    // Offset: 0x14E96EC
+    // Offset: 0x14EB830
     void StopFireworks();
   }; // AnniversaryManager
   #pragma pack(pop)
@@ -114,6 +121,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* mainMenuViewController = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController")->byval_arg;
     static auto* menuButton = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController/MenuButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainMenuViewController, menuButton});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
+// Il2CppName: HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)(::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed)> {
+  static const MethodInfo* get() {
+    static auto* musicPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
+    static auto* beatmap = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerMusicPackPromoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{musicPack, beatmap});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StartFireworks

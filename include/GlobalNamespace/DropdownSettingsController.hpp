@@ -80,13 +80,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // public System.Void add_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x14314B4
+    // Offset: 0x140B5A8
     void add_dropDownValueDidChangeEvent(::System::Action* value);
     // public System.Void remove_dropDownValueDidChangeEvent(System.Action value)
-    // Offset: 0x1431558
+    // Offset: 0x140B64C
     void remove_dropDownValueDidChangeEvent(::System::Action* value);
     // protected System.Void .ctor()
-    // Offset: 0x143192C
+    // Offset: 0x140BA20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DropdownSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DropdownSettingsController::.ctor");
@@ -102,19 +102,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x14315FC
+    // Offset: 0x140B6F0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14317AC
+    // Offset: 0x140B8A0
     void OnDisable();
     // private System.Void HandleDropdownValueDidChange(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1431884
+    // Offset: 0x140B978
     void HandleDropdownValueDidChange(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI()
-    // Offset: 0x14316C4
+    // Offset: 0x140B7B8
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x14318CC
+    // Offset: 0x140B9C0
     void Refresh(bool applyValue);
   }; // DropdownSettingsController
   #pragma pack(pop)

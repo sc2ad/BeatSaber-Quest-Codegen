@@ -28,6 +28,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);
     }
+    // Creating interface conversion operator: i_IAnnotatedBeatmapLevelCollection
+    inline ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* i_IAnnotatedBeatmapLevelCollection() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);
+    }
     // public System.String get_packID()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_packID();

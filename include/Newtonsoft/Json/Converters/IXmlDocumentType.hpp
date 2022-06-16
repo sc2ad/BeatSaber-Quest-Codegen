@@ -28,6 +28,10 @@ namespace Newtonsoft::Json::Converters {
     operator ::Newtonsoft::Json::Converters::IXmlNode() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
+    // Creating interface conversion operator: i_IXmlNode
+    inline ::Newtonsoft::Json::Converters::IXmlNode* i_IXmlNode() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
+    }
     // public System.String get_Name()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_Name();

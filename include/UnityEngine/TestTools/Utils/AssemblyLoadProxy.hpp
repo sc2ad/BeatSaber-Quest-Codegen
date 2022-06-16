@@ -40,15 +40,19 @@ namespace UnityEngine::TestTools::Utils {
     operator ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy() noexcept {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
     }
+    // Creating interface conversion operator: i_IAssemblyLoadProxy
+    inline ::UnityEngine::TestTools::Utils::IAssemblyLoadProxy* i_IAssemblyLoadProxy() noexcept {
+      return reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x2AC686C
+    // Offset: 0x2ABB640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyLoadProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyLoadProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyLoadProxy*, creationType>()));
     }
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0x2AC67AC
+    // Offset: 0x2ABB580
     ::UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
   }; // UnityEngine.TestTools.Utils.AssemblyLoadProxy
   #pragma pack(pop)

@@ -41,19 +41,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class MessageEnd : public ::Il2CppObject {
     public:
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18F6CB0
+    // Offset: 0x18F27F4
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18F6CD0
+    // Offset: 0x18F2814
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18F6CD4
+    // Offset: 0x18F2818
     void Dump();
     // public System.Void Dump(System.IO.Stream sout)
-    // Offset: 0x18F6CD8
+    // Offset: 0x18F281C
     void Dump(::System::IO::Stream* sout);
     // System.Void .ctor()
-    // Offset: 0x18F6CA8
+    // Offset: 0x18F27EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

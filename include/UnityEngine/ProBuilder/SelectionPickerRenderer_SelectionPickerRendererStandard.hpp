@@ -41,15 +41,19 @@ namespace UnityEngine::ProBuilder {
     operator ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer() noexcept {
       return *reinterpret_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
+    // Creating interface conversion operator: i_ISelectionPickerRenderer
+    inline ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* i_ISelectionPickerRenderer() noexcept {
+      return reinterpret_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x19C8B10
+    // Offset: 0x19C3654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::SelectionPickerRendererStandard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::SelectionPickerRendererStandard*, creationType>()));
     }
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x19CB21C
+    // Offset: 0x19C5D60
     ::UnityEngine::Texture2D* RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int width, int height);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.SelectionPickerRendererStandard
   #pragma pack(pop)

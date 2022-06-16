@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class LightmappingGameplayManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D73B8
+    // [InjectAttribute] Offset: 0x10DA144
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x18
@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // public System.Void .ctor()
-    // Offset: 0x14C71E0
+    // Offset: 0x14C9C68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmappingGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmappingGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingGameplayManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14C7064
+    // Offset: 0x14C9AEC
     void Start();
   }; // LightmappingGameplayManager
   #pragma pack(pop)

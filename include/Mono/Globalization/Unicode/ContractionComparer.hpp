@@ -39,18 +39,22 @@ namespace Mono::Globalization::Unicode {
     operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*>(this);
     }
+    // Creating interface conversion operator: i_Contraction
+    inline ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>* i_Contraction() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*>(this);
+    }
     // Get static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance
     static ::Mono::Globalization::Unicode::ContractionComparer* _get_Instance();
     // Set static field: static public readonly Mono.Globalization.Unicode.ContractionComparer Instance
     static void _set_Instance(::Mono::Globalization::Unicode::ContractionComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F4549C
+    // Offset: 0x1F3C170
     static void _cctor();
     // public System.Int32 Compare(Mono.Globalization.Unicode.Contraction c1, Mono.Globalization.Unicode.Contraction c2)
-    // Offset: 0x1F453F8
+    // Offset: 0x1F3C0CC
     int Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
     // public System.Void .ctor()
-    // Offset: 0x1F45494
+    // Offset: 0x1F3C168
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,6 +27,10 @@ namespace Org::BouncyCastle::Crypto::Modes {
     operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);
     }
+    // Creating interface conversion operator: i_IAeadCipher
+    inline ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i_IAeadCipher() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(this);
+    }
     // public System.Int32 GetBlockSize()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int GetBlockSize();

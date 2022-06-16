@@ -53,12 +53,16 @@ namespace System::Threading {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
     [[deprecated("Use field access instead!")]] ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*& dyn_m_currArrayFragment();
     // Get instance field reference: System.Int32 m_currArrayIndex
     [[deprecated("Use field access instead!")]] int& dyn_m_currArrayIndex();
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0x1DC7974
+    // Offset: 0x1DBC648
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex);
   }; // System.Threading.CancellationCallbackCoreWorkArguments
   #pragma pack(pop)

@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Int64 Metric
     [[deprecated("Use field access instead!")]] int64_t& dyn_Metric();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19EDB14
+    // Offset: 0x19E7658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SupplementaryMetric* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::SupplementaryMetric::.ctor");

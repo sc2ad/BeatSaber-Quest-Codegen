@@ -48,6 +48,10 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
+    // Creating interface conversion operator: i_IBlockCipherPadding
+    inline ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i_IBlockCipherPadding() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
+    }
     // Creating conversion operator: operator ::Org::BouncyCastle::Security::SecureRandom*
     constexpr operator ::Org::BouncyCastle::Security::SecureRandom*() const noexcept {
       return random;
@@ -55,20 +59,20 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x15F2E6C
+    // Offset: 0x15F2990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X923Padding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::X923Padding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X923Padding*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x15F2CCC
+    // Offset: 0x15F27F0
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x15F2CD4
+    // Offset: 0x15F27F8
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x15F2DBC
+    // Offset: 0x15F28E0
     int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.X923Padding
   #pragma pack(pop)

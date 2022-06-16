@@ -50,6 +50,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public UnityEngine.Vector2 translation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_translation();
     // Get instance field reference: public System.Single rotation
@@ -57,7 +61,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.Vector2 scale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scale();
     // public override System.String ToString()
-    // Offset: 0x1C49984
+    // Offset: 0x1C3C658
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

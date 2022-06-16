@@ -29,7 +29,7 @@ namespace UnityEngine {
   class ImageEffectAllowedInSceneView : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x20332D4
+    // Offset: 0x202CE98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageEffectAllowedInSceneView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ImageEffectAllowedInSceneView::.ctor");

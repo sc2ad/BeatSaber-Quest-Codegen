@@ -55,15 +55,19 @@ namespace UnityEngine::TestTools::Utils {
     operator ::UnityEngine::TestTools::Utils::IAssemblyWrapper() noexcept {
       return *reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
     }
+    // Creating interface conversion operator: i_IAssemblyWrapper
+    inline ::UnityEngine::TestTools::Utils::IAssemblyWrapper* i_IAssemblyWrapper() noexcept {
+      return reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);
+    }
     // Get instance field reference: private readonly System.Reflection.Assembly <Assembly>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2AC6874
+    // Offset: 0x2ABB648
     ::System::Reflection::Assembly* get_Assembly();
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x2AC6820
+    // Offset: 0x2ABB5F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(::System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");

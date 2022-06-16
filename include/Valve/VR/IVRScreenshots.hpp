@@ -92,6 +92,10 @@ namespace Valve::VR {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRScreenshots::_RequestScreenshot*& dyn_RequestScreenshot();
     // Get instance field reference: Valve.VR.IVRScreenshots/Valve.VR._HookScreenshot HookScreenshot

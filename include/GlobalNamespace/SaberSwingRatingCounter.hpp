@@ -191,9 +191,17 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::ISaberMovementDataProcessor() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(this);
     }
+    // Creating interface conversion operator: i_ISaberMovementDataProcessor
+    inline ::GlobalNamespace::ISaberMovementDataProcessor* i_ISaberMovementDataProcessor() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::ISaberSwingRatingCounter
     operator ::GlobalNamespace::ISaberSwingRatingCounter() noexcept {
       return *reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
+    }
+    // Creating interface conversion operator: i_ISaberSwingRatingCounter
+    inline ::GlobalNamespace::ISaberSwingRatingCounter* i_ISaberSwingRatingCounter() noexcept {
+      return reinterpret_cast<::GlobalNamespace::ISaberSwingRatingCounter*>(this);
     }
     // Get instance field reference: private ISaberMovementData _saberMovementData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISaberMovementData*& dyn__saberMovementData();
@@ -238,41 +246,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // public System.Single get_beforeCutRating()
-    // Offset: 0x145F544
+    // Offset: 0x14853EC
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x145F54C
+    // Offset: 0x14853F4
     float get_afterCutRating();
     // public System.Void .ctor()
-    // Offset: 0x146047C
+    // Offset: 0x1486324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberSwingRatingCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberSwingRatingCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberSwingRatingCounter*, creationType>()));
     }
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x145F554
+    // Offset: 0x14853FC
     void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x145F5BC
+    // Offset: 0x1485464
     void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x145F624
+    // Offset: 0x14854CC
     void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x145F68C
+    // Offset: 0x1485534
     void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(ISaberMovementData saberMovementData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
-    // Offset: 0x145F6F4
+    // Offset: 0x148559C
     void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x145FA64
+    // Offset: 0x148590C
     void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // public System.Void Finish()
-    // Offset: 0x145FFFC
+    // Offset: 0x1485EA4
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0x1460198
+    // Offset: 0x1486040
     void DrawGizmos();
   }; // SaberSwingRatingCounter
   #pragma pack(pop)

@@ -41,6 +41,10 @@ namespace Org::BouncyCastle::Math::Field {
     operator ::Org::BouncyCastle::Math::Field::IPolynomial() noexcept {
       return *reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(this);
     }
+    // Creating interface conversion operator: i_IPolynomial
+    inline ::Org::BouncyCastle::Math::Field::IPolynomial* i_IPolynomial() noexcept {
+      return reinterpret_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<int>
     constexpr operator ::ArrayW<int>() const noexcept {
       return exponents;
@@ -48,25 +52,25 @@ namespace Org::BouncyCastle::Math::Field {
     // Get instance field reference: protected readonly System.Int32[] exponents
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_exponents();
     // public System.Int32 get_Degree()
-    // Offset: 0x22E7554
+    // Offset: 0x22DF118
     int get_Degree();
     // System.Void .ctor(System.Int32[] exponents)
-    // Offset: 0x22E720C
+    // Offset: 0x22DEDD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GF2Polynomial* New_ctor(::ArrayW<int> exponents) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::Field::GF2Polynomial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GF2Polynomial*, creationType>(exponents)));
     }
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0x22E7594
+    // Offset: 0x22DF158
     ::ArrayW<int> GetExponentsPresent();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22E7600
+    // Offset: 0x22DF1C4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22E76E8
+    // Offset: 0x22DF2AC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -61,6 +61,10 @@ namespace System::Globalization {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -198,16 +202,16 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
     static void _set_NumberPasingState(::ArrayW<::ArrayW<::System::Globalization::HebrewNumber::HS>> value);
     // static private System.Void .cctor()
-    // Offset: 0x213EDB8
+    // Offset: 0x213897C
     static void _cctor();
     // static System.String ToString(System.Int32 Number)
-    // Offset: 0x213E858
+    // Offset: 0x213841C
     static ::StringW ToString(int Number);
     // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, ref System.Globalization.HebrewNumberParsingContext context)
-    // Offset: 0x213EAC4
+    // Offset: 0x2138688
     static ::System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, ByRef<::System::Globalization::HebrewNumberParsingContext> context);
     // static System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x213ECB8
+    // Offset: 0x213887C
     static bool IsDigit(::Il2CppChar ch);
   }; // System.Globalization.HebrewNumber
   #pragma pack(pop)

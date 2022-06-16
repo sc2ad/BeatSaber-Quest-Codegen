@@ -88,6 +88,10 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Byte sdl_len
     [[deprecated("Use field access instead!")]] uint8_t& dyn_sdl_len();
     // Get instance field reference: public System.Byte sdl_family
@@ -105,7 +109,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Get instance field reference: public System.Byte[] sdl_data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
-    // Offset: 0x1B64960
+    // Offset: 0x1B5A4A4
     void Read(::System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)

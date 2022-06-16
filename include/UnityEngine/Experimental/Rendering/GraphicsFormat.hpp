@@ -37,6 +37,10 @@ namespace UnityEngine::Experimental::Rendering {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -545,8 +549,8 @@ namespace UnityEngine::Experimental::Rendering {
     static ::UnityEngine::Experimental::Rendering::GraphicsFormat _get_A10R10G10B10_XRUNormPack32();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat A10R10G10B10_XRUNormPack32
     static void _set_A10R10G10B10_XRUNormPack32(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [EditorBrowsableAttribute] Offset: 0x104B0B8
-    // [ObsoleteAttribute] Offset: 0x104B0B8
+    // [EditorBrowsableAttribute] Offset: 0x104BBB0
+    // [ObsoleteAttribute] Offset: 0x104BBB0
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
     static constexpr const int RGB_DXT1_SRGB = 96;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_SRGB
@@ -559,8 +563,8 @@ namespace UnityEngine::Experimental::Rendering {
     static ::UnityEngine::Experimental::Rendering::GraphicsFormat _get_RGBA_DXT1_SRGB();
     // Set static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGBA_DXT1_SRGB
     static void _set_RGBA_DXT1_SRGB(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
-    // [ObsoleteAttribute] Offset: 0x104B10C
-    // [EditorBrowsableAttribute] Offset: 0x104B10C
+    // [ObsoleteAttribute] Offset: 0x104BC04
+    // [EditorBrowsableAttribute] Offset: 0x104BC04
     // static field const value: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm
     static constexpr const int RGB_DXT1_UNorm = 97;
     // Get static field: static public UnityEngine.Experimental.Rendering.GraphicsFormat RGB_DXT1_UNorm

@@ -51,6 +51,10 @@ namespace System {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.Char* m_buffer
     [[deprecated("Use field access instead!")]] ::Il2CppChar*& dyn_m_buffer();
     // Get instance field reference: private System.Int32 m_totalSize
@@ -58,10 +62,10 @@ namespace System {
     // Get instance field reference: private System.Int32 m_length
     [[deprecated("Use field access instead!")]] int& dyn_m_length();
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
-    // Offset: 0x29D78F0
+    // Offset: 0x29D5AA8
     UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
-    // Offset: 0x29D78FC
+    // Offset: 0x29D5AB4
     void AppendString(::StringW stringToAppend);
   }; // System.UnSafeCharBuffer
   #pragma pack(pop)

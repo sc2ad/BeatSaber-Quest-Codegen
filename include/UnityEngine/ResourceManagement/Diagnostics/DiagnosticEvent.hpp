@@ -78,6 +78,10 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: private System.String m_Graph
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Graph();
     // Get instance field reference: private System.Int32[] m_Dependencies
@@ -93,34 +97,34 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Get instance field reference: private System.Int32 m_Value
     [[deprecated("Use field access instead!")]] int& dyn_m_Value();
     // public System.String get_Graph()
-    // Offset: 0x1EE4544
+    // Offset: 0x1ED9218
     ::StringW get_Graph();
     // public System.Int32 get_ObjectId()
-    // Offset: 0x1EE454C
+    // Offset: 0x1ED9220
     int get_ObjectId();
     // public System.String get_DisplayName()
-    // Offset: 0x1EE4554
+    // Offset: 0x1ED9228
     ::StringW get_DisplayName();
     // public System.Int32[] get_Dependencies()
-    // Offset: 0x1EE455C
+    // Offset: 0x1ED9230
     ::ArrayW<int> get_Dependencies();
     // public System.Int32 get_Stream()
-    // Offset: 0x1EE4564
+    // Offset: 0x1ED9238
     int get_Stream();
     // public System.Int32 get_Frame()
-    // Offset: 0x1EE456C
+    // Offset: 0x1ED9240
     int get_Frame();
     // public System.Int32 get_Value()
-    // Offset: 0x1EE4574
+    // Offset: 0x1ED9248
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
-    // Offset: 0x1EE457C
+    // Offset: 0x1ED9250
     DiagnosticEvent(::StringW graph, ::StringW name, int id, int stream, int frame, int value, ::ArrayW<int> deps);
     // System.Byte[] Serialize()
-    // Offset: 0x1EE4594
+    // Offset: 0x1ED9268
     ::ArrayW<uint8_t> Serialize();
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent Deserialize(System.Byte[] data)
-    // Offset: 0x1EE4634
+    // Offset: 0x1ED9308
     static ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::ArrayW<uint8_t> data);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
   #pragma pack(pop)

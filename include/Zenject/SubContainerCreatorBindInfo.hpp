@@ -64,25 +64,25 @@ namespace Zenject {
     // Get instance field reference: private System.Type <KernelType>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
-    // Offset: 0x1D223E0
+    // Offset: 0x1D160B4
     ::StringW get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
-    // Offset: 0x1D223E8
+    // Offset: 0x1D160BC
     void set_DefaultParentName(::StringW value);
     // public System.Boolean get_CreateKernel()
-    // Offset: 0x1D223F0
+    // Offset: 0x1D160C4
     bool get_CreateKernel();
     // public System.Void set_CreateKernel(System.Boolean value)
-    // Offset: 0x1D223F8
+    // Offset: 0x1D160CC
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
-    // Offset: 0x1D22404
+    // Offset: 0x1D160D8
     ::System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
-    // Offset: 0x1D2240C
+    // Offset: 0x1D160E0
     void set_KernelType(::System::Type* value);
     // public System.Void .ctor()
-    // Offset: 0x1D1E8C8
+    // Offset: 0x1D1259C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorBindInfo::.ctor");

@@ -100,6 +100,10 @@ namespace System::Reflection {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public System.Type declaring_type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_declaring_type();
     // Get instance field reference: public System.Type reflected_type
@@ -117,10 +121,10 @@ namespace System::Reflection {
     // Get instance field reference: public System.Reflection.MethodInfo[] other_methods
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Reflection::MethodInfo*>& dyn_other_methods();
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
-    // Offset: 0x1D75B2C
+    // Offset: 0x1D6A800
     static void get_event_info(::System::Reflection::MonoEvent* ev, ByRef<::System::Reflection::MonoEventInfo> info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x1D7573C
+    // Offset: 0x1D6A410
     static ::System::Reflection::MonoEventInfo GetEventInfo(::System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
   #pragma pack(pop)

@@ -70,6 +70,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_GeneratedOutputData
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* i_HEU_GeneratedOutputData() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
+    }
     // Get instance field reference: public UnityEngine.GameObject _gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Material[] _renderMaterials
@@ -77,14 +81,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& dyn__colliders();
     // public System.Void .ctor()
-    // Offset: 0x178D998
+    // Offset: 0x178A4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeneratedOutputData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneratedOutputData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeneratedOutputData*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
-    // Offset: 0x179404C
+    // Offset: 0x1790B90
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
   }; // HoudiniEngineUnity.HEU_GeneratedOutputData
   #pragma pack(pop)

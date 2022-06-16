@@ -63,28 +63,32 @@ namespace Newtonsoft::Json::Serialization {
     operator ::Newtonsoft::Json::Serialization::ITraceWriter() noexcept {
       return *reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
     }
+    // Creating interface conversion operator: i_ITraceWriter
+    inline ::Newtonsoft::Json::Serialization::ITraceWriter* i_ITraceWriter() noexcept {
+      return reinterpret_cast<::Newtonsoft::Json::Serialization::ITraceWriter*>(this);
+    }
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.String> _traceMessages
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::StringW>*& dyn__traceMessages();
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x2084F00
+    // Offset: 0x207EAC4
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void set_LevelFilter(System.Diagnostics.TraceLevel value)
-    // Offset: 0x2084F08
+    // Offset: 0x207EACC
     void set_LevelFilter(::System::Diagnostics::TraceLevel value);
     // public System.Void .ctor()
-    // Offset: 0x2084F10
+    // Offset: 0x207EAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::MemoryTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryTraceWriter*, creationType>()));
     }
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x2084F8C
+    // Offset: 0x207EB50
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public override System.String ToString()
-    // Offset: 0x2085164
+    // Offset: 0x207ED28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -32,15 +32,19 @@ namespace System::Net {
     operator ::System::Collections::IComparer() noexcept {
       return *reinterpret_cast<::System::Collections::IComparer*>(this);
     }
+    // Creating interface conversion operator: i_IComparer
+    inline ::System::Collections::IComparer* i_IComparer() noexcept {
+      return reinterpret_cast<::System::Collections::IComparer*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x1A6FA8C
+    // Offset: 0x1A685D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Comparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Comparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Comparer*, creationType>()));
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1A6F9A8
+    // Offset: 0x1A684EC
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
   }; // System.Net.Comparer
   #pragma pack(pop)

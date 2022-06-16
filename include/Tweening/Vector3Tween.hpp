@@ -43,26 +43,26 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3Tween : public ::Tweening::Tween_1<::UnityEngine::Vector3> {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E58AC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E8750
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,EaseType,System.Single,Tweening.Vector3Tween> Pool
     static ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_1<::UnityEngine::Vector3>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::Vector3Tween*>* _get_Pool();
     // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,EaseType,System.Single,Tweening.Vector3Tween> Pool
     static void _set_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_1<::UnityEngine::Vector3>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::Vector3Tween*>* value);
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
-    // Offset: 0x1493C14
+    // Offset: 0x149A0B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(::UnityEngine::Vector3 fromValue, ::UnityEngine::Vector3 toValue, ::System::Action_1<::UnityEngine::Vector3>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1493DDC
+    // Offset: 0x149A27C
     static void _cctor();
     // public UnityEngine.Vector3 GetValue(System.Single t)
-    // Offset: 0x1493CDC
+    // Offset: 0x149A17C
     ::UnityEngine::Vector3 GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x1493BC4
+    // Offset: 0x149A064
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()

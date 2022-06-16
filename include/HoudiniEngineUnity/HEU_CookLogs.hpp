@@ -91,35 +91,35 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _uniqueStrOnly
     [[deprecated("Use field access instead!")]] bool& dyn__uniqueStrOnly();
     // static public HoudiniEngineUnity.HEU_CookLogs get_Instance()
-    // Offset: 0x16EEC34
+    // Offset: 0x16EC758
     static ::HoudiniEngineUnity::HEU_CookLogs* get_Instance();
     // public System.Void .ctor()
-    // Offset: 0x16EECB0
+    // Offset: 0x16EC7D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_CookLogs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_CookLogs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_CookLogs*, creationType>()));
     }
     // public System.String GetCookLogString()
-    // Offset: 0x16EED30
+    // Offset: 0x16EC854
     ::StringW GetCookLogString();
     // public System.Void AppendCookLog(System.String logStr)
-    // Offset: 0x16EED50
+    // Offset: 0x16EC874
     void AppendCookLog(::StringW logStr);
     // public System.Void ClearCookLog()
-    // Offset: 0x16EF014
+    // Offset: 0x16ECB38
     void ClearCookLog();
     // public System.String GetCookLogFilePath()
-    // Offset: 0x16EF078
+    // Offset: 0x16ECB9C
     ::StringW GetCookLogFilePath();
     // public System.Void DeleteCookingFile()
-    // Offset: 0x16EF144
+    // Offset: 0x16ECC68
     void DeleteCookingFile();
     // public System.Void WriteToLogFile(System.String logStr, System.Boolean checkLastLogStr)
-    // Offset: 0x16EEE54
+    // Offset: 0x16EC978
     void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
     // public System.Int64 GetFileSizeOfLogFile()
-    // Offset: 0x16EF1D4
+    // Offset: 0x16ECCF8
     int64_t GetFileSizeOfLogFile();
   }; // HoudiniEngineUnity.HEU_CookLogs
   #pragma pack(pop)

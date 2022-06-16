@@ -47,6 +47,10 @@ namespace System::Runtime::Remoting::Messaging {
     operator ::System::ICloneable() noexcept {
       return *reinterpret_cast<::System::ICloneable*>(this);
     }
+    // Creating interface conversion operator: i_ICloneable
+    inline ::System::ICloneable* i_ICloneable() noexcept {
+      return reinterpret_cast<::System::ICloneable*>(this);
+    }
     // Creating conversion operator: operator ::System::Security::Principal::IPrincipal*
     constexpr operator ::System::Security::Principal::IPrincipal*() const noexcept {
       return principal;
@@ -54,13 +58,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Security.Principal.IPrincipal _principal
     [[deprecated("Use field access instead!")]] ::System::Security::Principal::IPrincipal*& dyn__principal();
     // System.Boolean get_HasInfo()
-    // Offset: 0x1C8328C
+    // Offset: 0x1C75F60
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1C8329C
+    // Offset: 0x1C75F70
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1C8330C
+    // Offset: 0x1C75FE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

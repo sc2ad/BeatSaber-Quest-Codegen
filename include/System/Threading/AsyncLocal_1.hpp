@@ -50,6 +50,10 @@ namespace System::Threading {
     operator ::System::Threading::IAsyncLocal() noexcept {
       return *reinterpret_cast<::System::Threading::IAsyncLocal*>(this);
     }
+    // Creating interface conversion operator: i_IAsyncLocal
+    inline ::System::Threading::IAsyncLocal* i_IAsyncLocal() noexcept {
+      return reinterpret_cast<::System::Threading::IAsyncLocal*>(this);
+    }
     // Creating conversion operator: operator ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*
     constexpr operator ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*() const noexcept {
       return m_valueChangedHandler;

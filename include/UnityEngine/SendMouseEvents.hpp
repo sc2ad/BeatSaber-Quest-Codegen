@@ -64,15 +64,19 @@ namespace UnityEngine {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public UnityEngine.GameObject target
       [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_target();
       // Get instance field reference: public UnityEngine.Camera camera
       [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_camera();
       // public System.Void SendMessage(System.String name)
-      // Offset: 0x2AE7308
+      // Offset: 0x2ADE0DC
       void SendMessage(::StringW name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/UnityEngine.HitInfo lhs, UnityEngine.SendMouseEvents/UnityEngine.HitInfo rhs)
-      // Offset: 0x2AE732C
+      // Offset: 0x2ADE100
       static bool Compare(::UnityEngine::SendMouseEvents::HitInfo lhs, ::UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/UnityEngine.HitInfo
     #pragma pack(pop)
@@ -99,16 +103,16 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Camera[] m_Cameras
     static void _set_m_Cameras(::ArrayW<::UnityEngine::Camera*> value);
     // static private System.Void .cctor()
-    // Offset: 0x2AE73F8
+    // Offset: 0x2ADE1CC
     static void _cctor();
     // static private System.Void SetMouseMoved()
-    // Offset: 0x2AE6320
+    // Offset: 0x2ADD0F4
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x2AE638C
+    // Offset: 0x2ADD160
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/UnityEngine.HitInfo hit)
-    // Offset: 0x2AE6D9C
+    // Offset: 0x2ADDB70
     static void SendEvents(int i, ::UnityEngine::SendMouseEvents::HitInfo hit);
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)

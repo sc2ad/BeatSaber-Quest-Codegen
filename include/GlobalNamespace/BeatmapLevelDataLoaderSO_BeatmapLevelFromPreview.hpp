@@ -92,84 +92,96 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
     }
+    // Creating interface conversion operator: i_IBeatmapLevel
+    inline ::GlobalNamespace::IBeatmapLevel* i_IBeatmapLevel() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBeatmapLevel*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
     }
+    // Creating interface conversion operator: i_IAssetSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i_IAssetSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IAssetSongPreviewAudioClipProvider*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider
     operator ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
+    }
+    // Creating interface conversion operator: i_IFilePathSongPreviewAudioClipProvider
+    inline ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* i_IFilePathSongPreviewAudioClipProvider() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*>(this);
     }
     // Get instance field reference: private readonly IPreviewBeatmapLevel _level
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__level();
     // Get instance field reference: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData _beatmapLevelData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*& dyn__beatmapLevelData();
     // public System.String get_levelID()
-    // Offset: 0x150438C
+    // Offset: 0x15054D4
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x150443C
+    // Offset: 0x1505584
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x15044F0
+    // Offset: 0x1505638
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x15045A4
+    // Offset: 0x15056EC
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1504658
+    // Offset: 0x15057A0
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x150470C
+    // Offset: 0x1505854
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x15047C0
+    // Offset: 0x1505908
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x1504874
+    // Offset: 0x15059BC
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x1504928
+    // Offset: 0x1505A70
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x15049DC
+    // Offset: 0x1505B24
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1504A90
+    // Offset: 0x1505BD8
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1504B44
+    // Offset: 0x1505C8C
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1504BF8
+    // Offset: 0x1505D40
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x1504CAC
+    // Offset: 0x1505DF4
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x1504D60
+    // Offset: 0x1505EA8
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1504E14
+    // Offset: 0x1505F5C
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public UnityEngine.AudioClip get_songPreviewAudioClip()
-    // Offset: 0x1504E1C
+    // Offset: 0x1505F64
     ::UnityEngine::AudioClip* get_songPreviewAudioClip();
     // public System.String get_songPreviewAudioClipPath()
-    // Offset: 0x1504EE0
+    // Offset: 0x1506028
     ::StringW get_songPreviewAudioClipPath();
     // public System.Void .ctor(IPreviewBeatmapLevel previewLevel)
-    // Offset: 0x1503BC4
+    // Offset: 0x1504D0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*, creationType>(previewLevel)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1504FB8
+    // Offset: 0x1506100
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void LoadData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, BeatmapLevelDataSO beatmapLevelData)
-    // Offset: 0x1503BF0
+    // Offset: 0x1504D38
     void LoadData(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::GlobalNamespace::BeatmapLevelDataSO* beatmapLevelData);
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview
   #pragma pack(pop)

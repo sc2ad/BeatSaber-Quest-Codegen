@@ -39,15 +39,19 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     operator ::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>(this);
     }
+    // Creating interface conversion operator: i_TriangulationPoint
+    inline ::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* i_TriangulationPoint() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>(this);
+    }
     // public System.Void .ctor()
-    // Offset: 0x2A910AC
+    // Offset: 0x2A87E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepPointComparator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepPointComparator*, creationType>()));
     }
     // public System.Int32 Compare(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x2A91800
+    // Offset: 0x2A885D4
     int Compare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator
   #pragma pack(pop)

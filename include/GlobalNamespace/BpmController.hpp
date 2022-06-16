@@ -67,9 +67,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IBpmController
     operator ::GlobalNamespace::IBpmController() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IBpmController*>(this);
+    }
+    // Creating interface conversion operator: i_IBpmController
+    inline ::GlobalNamespace::IBpmController* i_IBpmController() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IBpmController*>(this);
     }
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
@@ -78,20 +86,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentBpm
     [[deprecated("Use field access instead!")]] float& dyn__currentBpm();
     // public System.Single get_currentBpm()
-    // Offset: 0x1336A30
+    // Offset: 0x13389F0
     float get_currentBpm();
     // public System.Void .ctor(BpmController/InitData initData, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x1336A38
+    // Offset: 0x13389F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BpmController* New_ctor(::GlobalNamespace::BpmController::InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BpmController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BpmController*, creationType>(initData, beatmapCallbacksController)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1336AFC
+    // Offset: 0x1338ABC
     void Dispose();
     // private System.Void HandleBpmChangeBeatmapEvent(BPMChangeBeatmapEventData bpmChangeBeatmapEventData)
-    // Offset: 0x1336B18
+    // Offset: 0x1338AD8
     void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
   }; // BpmController
   #pragma pack(pop)

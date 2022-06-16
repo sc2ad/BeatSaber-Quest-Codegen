@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   class MissionObjectiveTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [LocalizationKeyAttribute] Offset: 0x10D1C94
+    // [LocalizationKeyAttribute] Offset: 0x10D47D4
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
@@ -68,19 +68,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private ObjectiveValueFormatterSO _objectiveValueFormater
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObjectiveValueFormatterSO*& dyn__objectiveValueFormater();
     // public System.String get_objectiveName()
-    // Offset: 0x1308630
+    // Offset: 0x130A5F0
     ::StringW get_objectiveName();
     // public System.String get_objectiveNameLocalized()
-    // Offset: 0x1302564
+    // Offset: 0x1304524
     ::StringW get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
-    // Offset: 0x1308638
+    // Offset: 0x130A5F8
     bool get_noConditionValue();
     // public ObjectiveValueFormatterSO get_objectiveValueFormater()
-    // Offset: 0x1308640
+    // Offset: 0x130A600
     ::GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
     // public System.Void .ctor()
-    // Offset: 0x1308648
+    // Offset: 0x130A608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveTypeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveTypeSO::.ctor");

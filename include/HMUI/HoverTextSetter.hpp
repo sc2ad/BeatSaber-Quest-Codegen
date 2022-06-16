@@ -63,9 +63,17 @@ namespace HMUI {
     operator ::UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
     }
+    // Creating interface conversion operator: i_IPointerEnterHandler
+    inline ::UnityEngine::EventSystems::IPointerEnterHandler* i_IPointerEnterHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerExitHandler
     operator ::UnityEngine::EventSystems::IPointerExitHandler() noexcept {
       return *reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
+    }
+    // Creating interface conversion operator: i_IPointerExitHandler
+    inline ::UnityEngine::EventSystems::IPointerExitHandler* i_IPointerExitHandler() noexcept {
+      return reinterpret_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(this);
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
@@ -74,26 +82,26 @@ namespace HMUI {
     // Get instance field reference: private System.String _text
     [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // public System.String get_text()
-    // Offset: 0x1725004
+    // Offset: 0x17026E8
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x172500C
+    // Offset: 0x17026F0
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1725064
+    // Offset: 0x1702748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverTextSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextSetter*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1725014
+    // Offset: 0x17026F8
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1725034
+    // Offset: 0x1702718
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x172504C
+    // Offset: 0x1702730
     void OnDisable();
   }; // HMUI.HoverTextSetter
   #pragma pack(pop)

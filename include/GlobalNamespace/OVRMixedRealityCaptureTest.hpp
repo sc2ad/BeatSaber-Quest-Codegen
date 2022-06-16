@@ -61,6 +61,10 @@ namespace GlobalNamespace {
       operator ::System::Enum() noexcept {
         return *reinterpret_cast<::System::Enum*>(this);
       }
+      // Creating interface conversion operator: i_Enum
+      inline ::System::Enum* i_Enum() noexcept {
+        return reinterpret_cast<::System::Enum*>(this);
+      }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
         return value;
@@ -128,23 +132,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRPlugin/Fovf defaultFov
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Fovf& dyn_defaultFov();
     // public System.Void .ctor()
-    // Offset: 0x16F9898
+    // Offset: 0x170E2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMixedRealityCaptureTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMixedRealityCaptureTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMixedRealityCaptureTest*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x16F7F14
+    // Offset: 0x170C938
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x16F7FC4
+    // Offset: 0x170C9E8
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x16F83F4
+    // Offset: 0x170CE18
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x16F8C64
+    // Offset: 0x170D688
     void Update();
   }; // OVRMixedRealityCaptureTest
   #pragma pack(pop)

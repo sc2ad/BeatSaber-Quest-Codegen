@@ -112,32 +112,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _graphicsColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x13E09AC
+    // Offset: 0x13E4704
     void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x13E0A50
+    // Offset: 0x13E47A8
     void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void .ctor()
-    // Offset: 0x13E0C84
+    // Offset: 0x13E49DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviousColorPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviousColorPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviousColorPanelController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13E0AF4
+    // Offset: 0x13E484C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E0BA4
+    // Offset: 0x13E48FC
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x13E0BC0
+    // Offset: 0x13E4918
     void AddColor(::UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x13E0C78
+    // Offset: 0x13E49D0
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x13E0CC8
+    // Offset: 0x13E4A20
     void $Awake$b__9_0();
   }; // PreviousColorPanelController
   #pragma pack(pop)

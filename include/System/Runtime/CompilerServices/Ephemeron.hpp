@@ -46,6 +46,10 @@ namespace System::Runtime::CompilerServices {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Object key
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_key();
     // Get instance field reference: System.Object value

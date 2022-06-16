@@ -72,13 +72,25 @@ namespace UnityEngine::Playables {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>
     operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>() noexcept {
       return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(this);
     }
+    // Creating interface conversion operator: i_ScriptPlayable_1_T
+    inline ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>* i_ScriptPlayable_1_T() noexcept {
+      return reinterpret_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(this);
+    }
     // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayable
     operator ::UnityEngine::Playables::IPlayable() noexcept {
       return *reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
+    }
+    // Creating interface conversion operator: i_IPlayable
+    inline ::UnityEngine::Playables::IPlayable* i_IPlayable() noexcept {
+      return reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
     }
     // Creating conversion operator: operator ::UnityEngine::Playables::PlayableHandle
     constexpr operator ::UnityEngine::Playables::PlayableHandle() const noexcept {

@@ -64,6 +64,10 @@ namespace GlobalNamespace {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: public readonly UnityEngine.Vector3 moveStartPos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_moveStartPos();
     // Get instance field reference: public readonly UnityEngine.Vector3 moveEndPos
@@ -77,7 +81,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpDuration
     [[deprecated("Use field access instead!")]] float& dyn_jumpDuration();
     // public System.Void .ctor(UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration)
-    // Offset: 0x132E3E4
+    // Offset: 0x13303A4
     // ABORTED: conflicts with another method.  NoteSpawnData(::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration);
   }; // BeatmapObjectSpawnMovementData/NoteSpawnData
   #pragma pack(pop)

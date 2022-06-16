@@ -57,28 +57,32 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::ICollection() noexcept {
       return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
+    // Creating interface conversion operator: i_ICollection
+    inline ::System::Collections::ICollection* i_ICollection() noexcept {
+      return reinterpret_cast<::System::Collections::ICollection*>(this);
+    }
     // Get instance field reference: private System.Collections.ArrayList _objects
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Boolean isKeys
     [[deprecated("Use field access instead!")]] bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1D92F00
+    // Offset: 0x1D86BD4
     int System_Collections_ICollection_get_Count();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
-    // Offset: 0x1D92F24
+    // Offset: 0x1D86BF8
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Void .ctor(System.Collections.ArrayList array, System.Boolean isKeys)
-    // Offset: 0x1D916CC
+    // Offset: 0x1D853A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedDictionary::OrderedDictionaryKeyValueCollection* New_ctor(::System::Collections::ArrayList* array, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::OrderedDictionary::OrderedDictionaryKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedDictionary::OrderedDictionaryKeyValueCollection*, creationType>(array, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1D92BF8
+    // Offset: 0x1D868CC
     void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1D92F48
+    // Offset: 0x1D86C1C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.OrderedDictionary/System.Collections.Specialized.OrderedDictionaryKeyValueCollection
   #pragma pack(pop)

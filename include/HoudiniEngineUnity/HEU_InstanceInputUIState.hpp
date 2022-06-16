@@ -56,6 +56,10 @@ namespace HoudiniEngineUnity {
     operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>() noexcept {
       return *reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(this);
     }
+    // Creating interface conversion operator: i_HEU_InstanceInputUIState
+    inline ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>* i_HEU_InstanceInputUIState() noexcept {
+      return reinterpret_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(this);
+    }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean _showInstanceInputs
@@ -65,17 +69,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _inputsPageIndexUI
     [[deprecated("Use field access instead!")]] int& dyn__inputsPageIndexUI();
     // public System.Void .ctor()
-    // Offset: 0x18947C0
+    // Offset: 0x1891304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstanceInputUIState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstanceInputUIState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstanceInputUIState*, creationType>()));
     }
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
-    // Offset: 0x1894604
+    // Offset: 0x1891148
     void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
-    // Offset: 0x1894630
+    // Offset: 0x1891174
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
   }; // HoudiniEngineUnity.HEU_InstanceInputUIState
   #pragma pack(pop)

@@ -41,6 +41,10 @@ namespace System::Runtime::Remoting {
     operator ::System::Runtime::Remoting::IChannelInfo() noexcept {
       return *reinterpret_cast<::System::Runtime::Remoting::IChannelInfo*>(this);
     }
+    // Creating interface conversion operator: i_IChannelInfo
+    inline ::System::Runtime::Remoting::IChannelInfo* i_IChannelInfo() noexcept {
+      return reinterpret_cast<::System::Runtime::Remoting::IChannelInfo*>(this);
+    }
     // Creating conversion operator: operator ::ArrayW<::Il2CppObject*>
     constexpr operator ::ArrayW<::Il2CppObject*>() const noexcept {
       return channelData;
@@ -48,17 +52,17 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Object[] channelData
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_channelData();
     // public System.Object[] get_ChannelData()
-    // Offset: 0x1D8A4B8
+    // Offset: 0x1D7F18C
     ::ArrayW<::Il2CppObject*> get_ChannelData();
     // public System.Void .ctor(System.Object remoteChannelData)
-    // Offset: 0x1D8A400
+    // Offset: 0x1D7F0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelInfo* New_ctor(::Il2CppObject* remoteChannelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::ChannelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelInfo*, creationType>(remoteChannelData)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1D8A388
+    // Offset: 0x1D7F05C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

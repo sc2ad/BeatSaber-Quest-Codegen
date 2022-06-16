@@ -29,9 +29,17 @@ namespace GlobalNamespace {
     operator ::System::IDisposable() noexcept {
       return *reinterpret_cast<::System::IDisposable*>(this);
     }
+    // Creating interface conversion operator: i_IDisposable
+    inline ::System::IDisposable* i_IDisposable() noexcept {
+      return reinterpret_cast<::System::IDisposable*>(this);
+    }
     // Creating interface conversion operator: operator ::GlobalNamespace::IUnconnectedMessageSender
     operator ::GlobalNamespace::IUnconnectedMessageSender() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IUnconnectedMessageSender*>(this);
+    }
+    // Creating interface conversion operator: i_IUnconnectedMessageSender
+    inline ::GlobalNamespace::IUnconnectedMessageSender* i_IUnconnectedMessageSender() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IUnconnectedMessageSender*>(this);
     }
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFFFFFFFFFF

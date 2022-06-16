@@ -69,37 +69,37 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Type listValueType
     static void _set_listValueType(::System::Type* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1C54A3C
+    // Offset: 0x1C47710
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Xml.Schema.FacetsChecker DatatypeImplementation::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Type get_ValueType()
-    // Offset: 0x1C54AA4
+    // Offset: 0x1C47778
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Type DatatypeImplementation::get_ValueType()
     ::System::Type* get_ValueType();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C54B0C
+    // Offset: 0x1C477E0
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Xml.Schema.XmlTypeCode DatatypeImplementation::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // override System.Type get_ListValueType()
-    // Offset: 0x1C54B14
+    // Offset: 0x1C477E8
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Type DatatypeImplementation::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1C54B7C
+    // Offset: 0x1C47850
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Xml.XmlTokenizedType DatatypeImplementation::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1C54B84
+    // Offset: 0x1C47858
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace DatatypeImplementation::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public System.Void .ctor()
-    // Offset: 0x1C5308C
+    // Offset: 0x1C45D60
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Void DatatypeImplementation::.ctor()
     // Base method: System.Void XmlSchemaDatatype::.ctor()
@@ -109,22 +109,22 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_anySimpleType*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C54C18
+    // Offset: 0x1C478EC
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1C549D4
+    // Offset: 0x1C476A8
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Xml.Schema.XmlValueConverter DatatypeImplementation::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1C54B8C
+    // Offset: 0x1C47860
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Int32 XmlSchemaDatatype::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C54BE8
+    // Offset: 0x1C478BC
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Exception XmlSchemaDatatype::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

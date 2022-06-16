@@ -37,32 +37,36 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C3B60
+    // [DescriptionAttribute] Offset: 0x10C5678
     // static field const value: static public Oculus.Platform.ChallengeVisibility Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static ::Oculus::Platform::ChallengeVisibility _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static void _set_Unknown(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x10C3B98
+    // [DescriptionAttribute] Offset: 0x10C56B0
     // static field const value: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static constexpr const int InviteOnly = 1;
     // Get static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static ::Oculus::Platform::ChallengeVisibility _get_InviteOnly();
     // Set static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static void _set_InviteOnly(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x10C3BD0
+    // [DescriptionAttribute] Offset: 0x10C56E8
     // static field const value: static public Oculus.Platform.ChallengeVisibility Public
     static constexpr const int Public = 2;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Public
     static ::Oculus::Platform::ChallengeVisibility _get_Public();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Public
     static void _set_Public(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x10C3C08
+    // [DescriptionAttribute] Offset: 0x10C5720
     // static field const value: static public Oculus.Platform.ChallengeVisibility Private
     static constexpr const int Private = 3;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Private

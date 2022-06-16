@@ -80,6 +80,10 @@ namespace BGNet::Core::Messages {
     operator ::BGNet::Core::Messages::IUnconnectedMultipartMessage() noexcept {
       return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMultipartMessage*>(this);
     }
+    // Creating interface conversion operator: i_IUnconnectedMultipartMessage
+    inline ::BGNet::Core::Messages::IUnconnectedMultipartMessage* i_IUnconnectedMultipartMessage() noexcept {
+      return reinterpret_cast<::BGNet::Core::Messages::IUnconnectedMultipartMessage*>(this);
+    }
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static field const value: static public System.Int32 kDataChunkSize
@@ -105,37 +109,37 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Byte[] _data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__data();
     // public System.UInt32 get_multipartMessageId()
-    // Offset: 0x1531678
+    // Offset: 0x1548CB4
     uint get_multipartMessageId();
     // private System.Void set_multipartMessageId(System.UInt32 value)
-    // Offset: 0x1531680
+    // Offset: 0x1548CBC
     void set_multipartMessageId(uint value);
     // public System.Int32 get_offset()
-    // Offset: 0x1531688
+    // Offset: 0x1548CC4
     int get_offset();
     // private System.Void set_offset(System.Int32 value)
-    // Offset: 0x1531690
+    // Offset: 0x1548CCC
     void set_offset(int value);
     // public System.Int32 get_length()
-    // Offset: 0x1531698
+    // Offset: 0x1548CD4
     int get_length();
     // private System.Void set_length(System.Int32 value)
-    // Offset: 0x15316A0
+    // Offset: 0x1548CDC
     void set_length(int value);
     // public System.Int32 get_totalLength()
-    // Offset: 0x15316A8
+    // Offset: 0x1548CE4
     int get_totalLength();
     // private System.Void set_totalLength(System.Int32 value)
-    // Offset: 0x15316B0
+    // Offset: 0x1548CEC
     void set_totalLength(int value);
     // public System.Byte[] get_data()
-    // Offset: 0x15316B8
+    // Offset: 0x1548CF4
     ::ArrayW<uint8_t> get_data();
     // public BGNet.Core.Messages.BaseMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
-    // Offset: 0x15316C0
+    // Offset: 0x1548CFC
     ::BGNet::Core::Messages::BaseMultipartMessage* Init(uint multipartMessageId, ::ArrayW<uint8_t> data, int offset, int length, int totalLength);
     // protected System.Void .ctor()
-    // Offset: 0x1531968
+    // Offset: 0x1548FA4
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,12 +148,12 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMultipartMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x153171C
+    // Offset: 0x1548D58
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15317CC
+    // Offset: 0x1548E08
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

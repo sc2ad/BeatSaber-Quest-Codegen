@@ -144,7 +144,7 @@ namespace GlobalNamespace {
     }; // MultiplayerSyncStateManager`5/<>c
     // Could not write size check! Type: MultiplayerSyncStateManager`5/<>c is generic, or has no fields that are valid for size checks!
     public:
-    // [InjectAttribute] Offset: 0x10D253C
+    // [InjectAttribute] Offset: 0x10D507C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x0

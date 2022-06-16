@@ -55,34 +55,38 @@ namespace System::Collections::Specialized {
     operator ::System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
+    // Creating interface conversion operator: i_IDictionaryEnumerator
+    inline ::System::Collections::IDictionaryEnumerator* i_IDictionaryEnumerator() noexcept {
+      return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
+    }
     // Get instance field reference: private System.Int32 _objectReturnType
     [[deprecated("Use field access instead!")]] int& dyn__objectReturnType();
     // Get instance field reference: private System.Collections.IEnumerator arrayEnumerator
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_arrayEnumerator();
     // public System.Object get_Current()
-    // Offset: 0x1D92554
+    // Offset: 0x1D86228
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1D92724
+    // Offset: 0x1D863F8
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1D928C4
+    // Offset: 0x1D86598
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1D929AC
+    // Offset: 0x1D86680
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Collections.ArrayList array, System.Int32 objectReturnType)
-    // Offset: 0x1D922F8
+    // Offset: 0x1D85FCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedDictionary::OrderedDictionaryEnumerator* New_ctor(::System::Collections::ArrayList* array, int objectReturnType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::OrderedDictionary::OrderedDictionaryEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedDictionary::OrderedDictionaryEnumerator*, creationType>(array, objectReturnType)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D92A94
+    // Offset: 0x1D86768
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D92B44
+    // Offset: 0x1D86818
     void Reset();
   }; // System.Collections.Specialized.OrderedDictionary/System.Collections.Specialized.OrderedDictionaryEnumerator
   #pragma pack(pop)

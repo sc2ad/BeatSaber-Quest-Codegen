@@ -37,25 +37,29 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C58C8
+    // [DescriptionAttribute] Offset: 0x10C73E0
     // static field const value: static public Oculus.Platform.SendPolicy Unreliable
     static constexpr const int Unreliable = 0;
     // Get static field: static public Oculus.Platform.SendPolicy Unreliable
     static ::Oculus::Platform::SendPolicy _get_Unreliable();
     // Set static field: static public Oculus.Platform.SendPolicy Unreliable
     static void _set_Unreliable(::Oculus::Platform::SendPolicy value);
-    // [DescriptionAttribute] Offset: 0x10C5900
+    // [DescriptionAttribute] Offset: 0x10C7418
     // static field const value: static public Oculus.Platform.SendPolicy Reliable
     static constexpr const int Reliable = 1;
     // Get static field: static public Oculus.Platform.SendPolicy Reliable
     static ::Oculus::Platform::SendPolicy _get_Reliable();
     // Set static field: static public Oculus.Platform.SendPolicy Reliable
     static void _set_Reliable(::Oculus::Platform::SendPolicy value);
-    // [DescriptionAttribute] Offset: 0x10C5938
+    // [DescriptionAttribute] Offset: 0x10C7450
     // static field const value: static public Oculus.Platform.SendPolicy Unknown
     static constexpr const int Unknown = 2;
     // Get static field: static public Oculus.Platform.SendPolicy Unknown

@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Events.UnityEvent _unityEvent
     [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityEvent*& dyn__unityEvent();
     // public System.Void .ctor()
-    // Offset: 0x2A28E28
+    // Offset: 0x2A24FE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SignalListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalListener*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2A28CF0
+    // Offset: 0x2A24EA8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2A28D84
+    // Offset: 0x2A24F3C
     void OnDisable();
     // private System.Void HandleEvent()
-    // Offset: 0x2A28E0C
+    // Offset: 0x2A24FC4
     void HandleEvent();
   }; // SignalListener
   #pragma pack(pop)

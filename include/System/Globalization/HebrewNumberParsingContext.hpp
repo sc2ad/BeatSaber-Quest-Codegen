@@ -46,12 +46,16 @@ namespace System::Globalization {
     operator ::System::ValueType() noexcept {
       return *reinterpret_cast<::System::ValueType*>(this);
     }
+    // Creating interface conversion operator: i_ValueType
+    inline ::System::ValueType* i_ValueType() noexcept {
+      return reinterpret_cast<::System::ValueType*>(this);
+    }
     // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HS state
     [[deprecated("Use field access instead!")]] ::System::Globalization::HebrewNumber::HS& dyn_state();
     // Get instance field reference: System.Int32 result
     [[deprecated("Use field access instead!")]] int& dyn_result();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x213FB5C
+    // Offset: 0x2139720
     HebrewNumberParsingContext(int result);
   }; // System.Globalization.HebrewNumberParsingContext
   #pragma pack(pop)

@@ -37,25 +37,29 @@ namespace Oculus::Platform {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C39A0
+    // [DescriptionAttribute] Offset: 0x10C54B8
     // static field const value: static public Oculus.Platform.ChallengeCreationType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static ::Oculus::Platform::ChallengeCreationType _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeCreationType Unknown
     static void _set_Unknown(::Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0x10C39D8
+    // [DescriptionAttribute] Offset: 0x10C54F0
     // static field const value: static public Oculus.Platform.ChallengeCreationType UserCreated
     static constexpr const int UserCreated = 1;
     // Get static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static ::Oculus::Platform::ChallengeCreationType _get_UserCreated();
     // Set static field: static public Oculus.Platform.ChallengeCreationType UserCreated
     static void _set_UserCreated(::Oculus::Platform::ChallengeCreationType value);
-    // [DescriptionAttribute] Offset: 0x10C3A10
+    // [DescriptionAttribute] Offset: 0x10C5528
     // static field const value: static public Oculus.Platform.ChallengeCreationType DeveloperCreated
     static constexpr const int DeveloperCreated = 2;
     // Get static field: static public Oculus.Platform.ChallengeCreationType DeveloperCreated

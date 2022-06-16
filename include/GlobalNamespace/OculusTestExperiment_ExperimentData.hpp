@@ -38,6 +38,10 @@ namespace GlobalNamespace {
     operator ::GlobalNamespace::IExperimentData() noexcept {
       return *reinterpret_cast<::GlobalNamespace::IExperimentData*>(this);
     }
+    // Creating interface conversion operator: i_IExperimentData
+    inline ::GlobalNamespace::IExperimentData* i_IExperimentData() noexcept {
+      return reinterpret_cast<::GlobalNamespace::IExperimentData*>(this);
+    }
     // Creating conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept {
       return experimentPlatformKey;
@@ -45,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.String _experimentPlatformKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn__experimentPlatformKey();
     // public System.String get_experimentPlatformKey()
-    // Offset: 0x1550A3C
+    // Offset: 0x1567078
     ::StringW get_experimentPlatformKey();
     // public System.Void .ctor(System.String experimentPlatformKey)
-    // Offset: 0x1550A04
+    // Offset: 0x1567040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusTestExperiment::ExperimentData* New_ctor(::StringW experimentPlatformKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusTestExperiment::ExperimentData::.ctor");

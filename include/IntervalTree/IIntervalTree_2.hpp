@@ -41,6 +41,10 @@ namespace IntervalTree {
     operator ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>() noexcept {
       return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(this);
     }
+    // Creating interface conversion operator: i_RangeValuePair_2_TKey_TValue
+    inline ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* i_RangeValuePair_2_TKey_TValue() noexcept {
+      return reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(this);
+    }
     // public System.Collections.Generic.IEnumerable`1<TValue> get_Values()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<TValue>* get_Values() {

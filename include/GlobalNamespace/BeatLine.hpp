@@ -88,6 +88,10 @@ namespace GlobalNamespace {
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
       }
+      // Creating interface conversion operator: i_ValueType
+      inline ::System::ValueType* i_ValueType() noexcept {
+        return reinterpret_cast<::System::ValueType*>(this);
+      }
       // Get instance field reference: public System.Single startTime
       [[deprecated("Use field access instead!")]] float& dyn_startTime();
       // Get instance field reference: public System.Single arriveDuration
@@ -165,29 +169,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotation
     [[deprecated("Use field access instead!")]] float& dyn__rotation();
     // public System.Boolean get_isFinished()
-    // Offset: 0x134B0B0
+    // Offset: 0x134E070
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x134B108
+    // Offset: 0x134E0C8
     float get_rotation();
     // public System.Void .ctor()
-    // Offset: 0x134B408
+    // Offset: 0x134E3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatLine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatLine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x134B110
+    // Offset: 0x134E0D0
     void Init(::UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x134B21C
+    // Offset: 0x134E1DC
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x134B2A0
+    // Offset: 0x134E260
     void ManualUpdate(float songTime);
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x134B210
+    // Offset: 0x134E1D0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

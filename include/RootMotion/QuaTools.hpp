@@ -32,43 +32,43 @@ namespace RootMotion {
   class QuaTools : public ::Il2CppObject {
     public:
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
-    // Offset: 0x1FCDC78
+    // Offset: 0x1FAB88C
     static ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
-    // Offset: 0x1FCDDC4
+    // Offset: 0x1FAB9D8
     static ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion LinearBlend(UnityEngine.Quaternion q, System.Single weight)
-    // Offset: 0x1FCDF10
+    // Offset: 0x1FABB24
     static ::UnityEngine::Quaternion LinearBlend(::UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion SphericalBlend(UnityEngine.Quaternion q, System.Single weight)
-    // Offset: 0x1FCE024
+    // Offset: 0x1FABC38
     static ::UnityEngine::Quaternion SphericalBlend(::UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion FromToAroundAxis(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection, UnityEngine.Vector3 axis)
-    // Offset: 0x1FCE138
+    // Offset: 0x1FABD4C
     static ::UnityEngine::Quaternion FromToAroundAxis(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection, ::UnityEngine::Vector3 axis);
     // static public UnityEngine.Quaternion RotationToLocalSpace(UnityEngine.Quaternion space, UnityEngine.Quaternion rotation)
-    // Offset: 0x1FCE2C4
+    // Offset: 0x1FABED8
     static ::UnityEngine::Quaternion RotationToLocalSpace(::UnityEngine::Quaternion space, ::UnityEngine::Quaternion rotation);
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Quaternion from, UnityEngine.Quaternion to)
-    // Offset: 0x1FBF690
+    // Offset: 0x1F9D2A4
     static ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to);
     // static public UnityEngine.Vector3 GetAxis(UnityEngine.Vector3 v)
-    // Offset: 0x1FCE394
+    // Offset: 0x1FABFA8
     static ::UnityEngine::Vector3 GetAxis(::UnityEngine::Vector3 v);
     // static public UnityEngine.Quaternion ClampRotation(UnityEngine.Quaternion rotation, System.Single clampWeight, System.Int32 clampSmoothing)
-    // Offset: 0x1FCE618
+    // Offset: 0x1FAC22C
     static ::UnityEngine::Quaternion ClampRotation(::UnityEngine::Quaternion rotation, float clampWeight, int clampSmoothing);
     // static public System.Single ClampAngle(System.Single angle, System.Single clampWeight, System.Int32 clampSmoothing)
-    // Offset: 0x1FCE82C
+    // Offset: 0x1FAC440
     static float ClampAngle(float angle, float clampWeight, int clampSmoothing);
     // static public UnityEngine.Quaternion MatchRotation(UnityEngine.Quaternion targetRotation, UnityEngine.Vector3 targetforwardAxis, UnityEngine.Vector3 targetUpAxis, UnityEngine.Vector3 forwardAxis, UnityEngine.Vector3 upAxis)
-    // Offset: 0x1FC8148
+    // Offset: 0x1FA5D5C
     static ::UnityEngine::Quaternion MatchRotation(::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetforwardAxis, ::UnityEngine::Vector3 targetUpAxis, ::UnityEngine::Vector3 forwardAxis, ::UnityEngine::Vector3 upAxis);
     // static public UnityEngine.Vector3 ToBiPolar(UnityEngine.Vector3 euler)
-    // Offset: 0x1FCE9AC
+    // Offset: 0x1FAC5C0
     static ::UnityEngine::Vector3 ToBiPolar(::UnityEngine::Vector3 euler);
     // static public System.Single ToBiPolar(System.Single angle)
-    // Offset: 0x1FCEABC
+    // Offset: 0x1FAC6D0
     static float ToBiPolar(float angle);
   }; // RootMotion.QuaTools
   #pragma pack(pop)

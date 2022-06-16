@@ -39,10 +39,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BurstSliderSpawner::ProcessNoteDataDelegate
     class ProcessNoteDataDelegate;
     // static private System.Void BezierCurve(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, System.Single t, out UnityEngine.Vector2 pos, out UnityEngine.Vector2 tangent)
-    // Offset: 0x133920C
+    // Offset: 0x133B1CC
     static void BezierCurve(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float t, ByRef<::UnityEngine::Vector2> pos, ByRef<::UnityEngine::Vector2> tangent);
     // static public System.Void ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation, System.Boolean forceIsFirstNote, BurstSliderSpawner/ProcessNoteDataDelegate processNoteData)
-    // Offset: 0x13393E0
+    // Offset: 0x133B3A0
     static void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData> sliderSpawnData, float rotation, bool forceIsFirstNote, ::GlobalNamespace::BurstSliderSpawner::ProcessNoteDataDelegate* processNoteData);
   }; // BurstSliderSpawner
   #pragma pack(pop)

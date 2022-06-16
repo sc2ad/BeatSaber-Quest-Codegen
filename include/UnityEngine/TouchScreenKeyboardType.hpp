@@ -37,6 +37,10 @@ namespace UnityEngine {
     operator ::System::Enum() noexcept {
       return *reinterpret_cast<::System::Enum*>(this);
     }
+    // Creating interface conversion operator: i_Enum
+    inline ::System::Enum* i_Enum() noexcept {
+      return reinterpret_cast<::System::Enum*>(this);
+    }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return value;
@@ -89,7 +93,7 @@ namespace UnityEngine {
     static ::UnityEngine::TouchScreenKeyboardType _get_EmailAddress();
     // Set static field: static public UnityEngine.TouchScreenKeyboardType EmailAddress
     static void _set_EmailAddress(::UnityEngine::TouchScreenKeyboardType value);
-    // [ObsoleteAttribute] Offset: 0x1049B74
+    // [ObsoleteAttribute] Offset: 0x104A66C
     // static field const value: static public UnityEngine.TouchScreenKeyboardType NintendoNetworkAccount
     static constexpr const int NintendoNetworkAccount = 8;
     // Get static field: static public UnityEngine.TouchScreenKeyboardType NintendoNetworkAccount
