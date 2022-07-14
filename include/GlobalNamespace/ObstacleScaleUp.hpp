@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScalePart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10D6E7C
+    // [SpaceAttribute] Offset: 0x10DE5B0
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private ObstacleController _obstacleController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ObstacleController*& dyn__obstacleController();
     // public System.Void .ctor()
-    // Offset: 0x14BAC28
+    // Offset: 0x14D9A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleScaleUp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleScaleUp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleScaleUp*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14BA7AC
+    // Offset: 0x14D95A0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14BA990
+    // Offset: 0x14D9784
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x14BA848
+    // Offset: 0x14D963C
     void UpdateScale(float progress);
     // private System.Void HandleObstacleControllerDidUpdateProgress(ObstacleController obstacleController, System.Single time)
-    // Offset: 0x14BAAB0
+    // Offset: 0x14D98A4
     void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float time);
     // private System.Void HandleObstacleControllerDidInit(ObstacleControllerBase obstacleController)
-    // Offset: 0x14BAB54
+    // Offset: 0x14D9948
     void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
   }; // ObstacleScaleUp
   #pragma pack(pop)

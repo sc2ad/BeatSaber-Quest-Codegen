@@ -63,18 +63,18 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.Type _contractType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__contractType();
     // public System.Void .ctor(System.Type resolverType, System.Type contractType)
-    // Offset: 0x207F8CC
+    // Offset: 0x208CD44
     // ABORTED: conflicts with another method.  ResolverContractKey(::System::Type* resolverType, ::System::Type* contractType);
     // public System.Boolean Equals(Newtonsoft.Json.Serialization.ResolverContractKey other)
-    // Offset: 0x207F9C0
+    // Offset: 0x208CE38
     bool Equals(::Newtonsoft::Json::Serialization::ResolverContractKey other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x207F8D4
+    // Offset: 0x208CD4C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x207F928
+    // Offset: 0x208CDA0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

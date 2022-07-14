@@ -78,24 +78,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _editIcon
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__editIcon();
     // public System.String get_text()
-    // Offset: 0x134344C
+    // Offset: 0x135D844
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1343014
+    // Offset: 0x135D35C
     void set_text(::StringW value);
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x1342FF4
+    // Offset: 0x135D33C
     void set_showEditIcon(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1343468
+    // Offset: 0x135D860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeTableCell*, creationType>()));
     }
-    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color obstacleColor)
-    // Offset: 0x1343030
-    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color obstacleColor);
+    // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstacleColor)
+    // Offset: 0x135D378
+    void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
   }; // ColorSchemeTableCell
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemeTableCell), 104 + sizeof(::UnityEngine::UI::Image*)> __GlobalNamespace_ColorSchemeTableCellSizeCheck;
@@ -135,13 +135,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeTableCell::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&GlobalNamespace::ColorSchemeTableCell::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeTableCell::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&GlobalNamespace::ColorSchemeTableCell::SetColors)> {
   static const MethodInfo* get() {
     static auto* saberAColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* saberBColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* environment0Color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* environment1Color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* environmentColor0Boost = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* environmentColor1Boost = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* obstacleColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberAColor, saberBColor, environment0Color, environment1Color, obstacleColor});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberAColor, saberBColor, environment0Color, environment1Color, environmentColor0Boost, environmentColor1Boost, obstacleColor});
   }
 };

@@ -104,13 +104,13 @@ namespace TMPro {
     // Get instance field reference: System.Char[] linkID
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_linkID();
     // System.Void SetLinkID(System.Char[] text, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1446EE4
+    // Offset: 0x1466244
     void SetLinkID(::ArrayW<::Il2CppChar> text, int startIndex, int length);
     // public System.String GetLinkText()
-    // Offset: 0x1446FE4
+    // Offset: 0x1466344
     ::StringW GetLinkText();
     // public System.String GetLinkID()
-    // Offset: 0x14470D8
+    // Offset: 0x1466438
     ::StringW GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)

@@ -57,10 +57,10 @@ namespace UnityEngine::SceneManagement {
     // Get instance field reference: private UnityEngine.SceneManagement.LocalPhysicsMode m_LocalPhysicsMode
     [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::LocalPhysicsMode& dyn_m_LocalPhysicsMode();
     // public System.Void set_loadSceneMode(UnityEngine.SceneManagement.LoadSceneMode value)
-    // Offset: 0x211269C
+    // Offset: 0x211EB14
     void set_loadSceneMode(::UnityEngine::SceneManagement::LoadSceneMode value);
     // public System.Void .ctor(UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x21126A4
+    // Offset: 0x211EB1C
     LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode mode);
   }; // UnityEngine.SceneManagement.LoadSceneParameters
   #pragma pack(pop)

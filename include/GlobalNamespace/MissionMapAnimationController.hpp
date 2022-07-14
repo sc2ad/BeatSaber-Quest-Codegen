@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     ::HMUI::ScrollView* mapScrollView;
     // Field size check
     static_assert(sizeof(::HMUI::ScrollView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E145C
+    // [SpaceAttribute] Offset: 0x10E8C30
     // private System.Single _startDelay
     // Size: 0x4
     // Offset: 0x28
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: stageAnimationDuration and: shockwaveEffect
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x10E14D4
+    // [InjectAttribute] Offset: 0x10E8CA8
     // private MenuShockwave _shockwaveEffect
     // Size: 0x8
     // Offset: 0x40
@@ -137,32 +137,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuShockwave _shockwaveEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuShockwave*& dyn__shockwaveEffect();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1306250
+    // Offset: 0x130BCB0
     bool get_animatedUpdateIsRequired();
     // public System.Void .ctor()
-    // Offset: 0x13069A4
+    // Offset: 0x130C404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionMapAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionMapAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionMapAnimationController*, creationType>()));
     }
     // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0x1306398
+    // Offset: 0x130BDF8
     void ScrollToTopMostNotClearedMission();
     // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0x13065D8
+    // Offset: 0x130C038
     void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0x1306714
+    // Offset: 0x130C174
     ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0x13067C4
+    // Offset: 0x130C224
     ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
     // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0x130686C
+    // Offset: 0x130C2CC
     ::System::Collections::IEnumerator* UpdateStageCoroutine();
     // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0x1306908
+    // Offset: 0x130C368
     ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
   }; // MissionMapAnimationController
   #pragma pack(pop)

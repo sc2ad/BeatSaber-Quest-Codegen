@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::FlyingScoreSpawner::InitData
     class InitData;
     public:
-    // [InjectAttribute] Offset: 0x10D7624
+    // [InjectAttribute] Offset: 0x10DED58
     // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FlyingScoreEffect::Pool* flyingScoreEffectPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D7634
+    // [InjectAttribute] Offset: 0x10DED68
     // private readonly FlyingScoreSpawner/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -79,17 +79,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FlyingScoreSpawner/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingScoreSpawner::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x13A3C2C
+    // Offset: 0x138242C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingScoreSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreSpawner*, creationType>()));
     }
     // public System.Void SpawnFlyingScore(IReadonlyCutScoreBuffer cutScoreBuffer, UnityEngine.Color color)
-    // Offset: 0x13A37D0
+    // Offset: 0x1381FD0
     void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x13A3B10
+    // Offset: 0x1382310
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // FlyingScoreSpawner
   #pragma pack(pop)

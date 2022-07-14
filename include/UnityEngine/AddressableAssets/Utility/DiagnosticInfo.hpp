@@ -66,14 +66,14 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Get instance field reference: public System.Int32[] Dependencies
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_Dependencies();
     // public System.Void .ctor()
-    // Offset: 0x2AB47CC
+    // Offset: 0x2ACDC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticInfo*, creationType>()));
     }
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
-    // Offset: 0x2AB4784
+    // Offset: 0x2ACDC0C
     ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
   }; // UnityEngine.AddressableAssets.Utility.DiagnosticInfo
   #pragma pack(pop)

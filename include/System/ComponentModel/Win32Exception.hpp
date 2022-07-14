@@ -65,47 +65,47 @@ namespace System::ComponentModel {
     // Get instance field reference: private readonly System.Int32 nativeErrorCode
     [[deprecated("Use field access instead!")]] int& dyn_nativeErrorCode();
     // public System.Int32 get_NativeErrorCode()
-    // Offset: 0x1CD50E4
+    // Offset: 0x1CE34D0
     int get_NativeErrorCode();
     // public System.Void .ctor()
-    // Offset: 0x1CD4E0C
+    // Offset: 0x1CE31F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 error)
-    // Offset: 0x1CD4E7C
+    // Offset: 0x1CE3268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error)));
     }
     // public System.Void .ctor(System.Int32 error, System.String message)
-    // Offset: 0x1CD501C
+    // Offset: 0x1CE3408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(int error, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1CD504C
+    // Offset: 0x1CE3438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CD62B8
+    // Offset: 0x1CE46A4
     static void _cctor();
     // static System.String GetErrorMessage(System.Int32 error)
-    // Offset: 0x1CD4F04
+    // Offset: 0x1CE32F0
     static ::StringW GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
-    // Offset: 0x1CD51B8
+    // Offset: 0x1CE35A4
     static void InitializeErrorMessages();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1CD50EC
+    // Offset: 0x1CE34D8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);

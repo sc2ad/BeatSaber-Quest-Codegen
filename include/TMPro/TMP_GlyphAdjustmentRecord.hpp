@@ -61,22 +61,22 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_GlyphValueRecord m_GlyphValueRecord
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_GlyphValueRecord& dyn_m_GlyphValueRecord();
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x1439D8C
+    // Offset: 0x142F9CC
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x1439D94
+    // Offset: 0x142F9D4
     void set_glyphIndex(uint value);
     // public TMPro.TMP_GlyphValueRecord get_glyphValueRecord()
-    // Offset: 0x1439D9C
+    // Offset: 0x142F9DC
     ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
     // public System.Void set_glyphValueRecord(TMPro.TMP_GlyphValueRecord value)
-    // Offset: 0x1439DA8
+    // Offset: 0x142F9E8
     void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
     // public System.Void .ctor(System.UInt32 glyphIndex, TMPro.TMP_GlyphValueRecord glyphValueRecord)
-    // Offset: 0x143856C
+    // Offset: 0x142E1AC
     // ABORTED: conflicts with another method.  TMP_GlyphAdjustmentRecord(uint glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord adjustmentRecord)
-    // Offset: 0x1439DB4
+    // Offset: 0x142F9F4
     TMP_GlyphAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
   }; // TMPro.TMP_GlyphAdjustmentRecord
   #pragma pack(pop)

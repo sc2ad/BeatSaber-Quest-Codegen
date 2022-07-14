@@ -82,35 +82,35 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
     static void _set_$$9__20_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C3C3F4
+    // Offset: 0x1C4B7E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C3C458
+    // Offset: 0x1C4B844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c*, creationType>()));
     }
     // System.Boolean <SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3C460
+    // Offset: 0x1C4B84C
     bool $SetAutoUV$b__0_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.Vector2 <GetUVs>b__11_0(UnityEngine.Vector4 x)
-    // Offset: 0x1C3C478
+    // Offset: 0x1C4B864
     ::UnityEngine::Vector2 $GetUVs$b__11_0(::UnityEngine::Vector4 x);
     // System.Int32 <SewUVs>b__13_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
-    // Offset: 0x1C3C508
+    // Offset: 0x1C4B8F4
     int $SewUVs$b__13_1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3C54C
+    // Offset: 0x1C4B938
     ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_1(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3C568
+    // Offset: 0x1C4B954
     ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__18_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3C584
+    // Offset: 0x1C4B970
     ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__20_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3C5A0
+    // Offset: 0x1C4B98C
     ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

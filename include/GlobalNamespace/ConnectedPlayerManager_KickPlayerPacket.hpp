@@ -75,26 +75,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectedReason disconnectedReason
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectedReason& dyn_disconnectedReason();
     // static public PacketPool`1<ConnectedPlayerManager/KickPlayerPacket> get_pool()
-    // Offset: 0x1672B08
+    // Offset: 0x167DEF4
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x1672BF4
+    // Offset: 0x167DFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::KickPlayerPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::KickPlayerPacket*, creationType>()));
     }
     // public ConnectedPlayerManager/KickPlayerPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x1672B50
+    // Offset: 0x167DF3C
     ::GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1672B58
+    // Offset: 0x167DF44
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1672B6C
+    // Offset: 0x167DF58
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1672B98
+    // Offset: 0x167DF84
     void Release();
   }; // ConnectedPlayerManager/KickPlayerPacket
   #pragma pack(pop)

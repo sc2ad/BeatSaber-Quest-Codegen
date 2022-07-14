@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public BasicBeatmapEventType videoEventType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicBeatmapEventType& dyn_videoEventType();
     // public System.Void .ctor()
-    // Offset: 0x2867E34
+    // Offset: 0x28802AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <.ctor>b__0(BasicBeatmapEventData e)
-    // Offset: 0x2868350
+    // Offset: 0x28807C8
     bool $_ctor$b__0(::GlobalNamespace::BasicBeatmapEventData* e);
   }; // VideoProjectionEffect/BeatmapEditorVideoProjectionBehavior/<>c__DisplayClass2_0
   #pragma pack(pop)

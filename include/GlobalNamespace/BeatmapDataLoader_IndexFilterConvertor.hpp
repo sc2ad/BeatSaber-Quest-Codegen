@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::IndexFilterConvertor : public ::Il2CppObject {
     public:
     // static public IIndexFilter Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Int32 groupSize)
-    // Offset: 0x13565F8
+    // Offset: 0x1397EE0
     static ::GlobalNamespace::IIndexFilter* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, int groupSize);
     // static public System.Boolean IsIndexFilterValid(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Int32 groupSize)
-    // Offset: 0x1356868
+    // Offset: 0x1398150
     static bool IsIndexFilterValid(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, int groupSize);
   }; // BeatmapDataLoader/IndexFilterConvertor
   #pragma pack(pop)

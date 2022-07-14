@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Single strength
       [[deprecated("Use field access instead!")]] float& dyn_strength();
       // public System.Void .ctor(System.Single endTime, System.Single strength)
-      // Offset: 0x2A26514
+      // Offset: 0x2A3C98C
       // ABORTED: conflicts with another method.  OpenVrHapticData(float endTime, float strength);
     }; // ThreadedOpenVrOpenVrHaptics/OpenVrHapticData
     #pragma pack(pop)
@@ -132,23 +132,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private ThreadedOpenVrOpenVrHaptics/OpenVrHapticData _rightHandHaptics
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData& dyn__rightHandHaptics();
     // public System.Void .ctor()
-    // Offset: 0x2A26428
+    // Offset: 0x2A3C8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadedOpenVrOpenVrHaptics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ThreadedOpenVrOpenVrHaptics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadedOpenVrOpenVrHaptics*, creationType>()));
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x2A264E8
+    // Offset: 0x2A3C960
     void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // private System.Void UpdateHaptics()
-    // Offset: 0x2A2651C
+    // Offset: 0x2A3C994
     void UpdateHaptics();
     // private System.Void UpdateHandHaptics(UnityEngine.XR.XRNode node)
-    // Offset: 0x2A265E4
+    // Offset: 0x2A3CA5C
     void UpdateHandHaptics(::UnityEngine::XR::XRNode node);
     // public System.Void Destroy()
-    // Offset: 0x2A26728
+    // Offset: 0x2A3CBA0
     void Destroy();
   }; // ThreadedOpenVrOpenVrHaptics
   #pragma pack(pop)

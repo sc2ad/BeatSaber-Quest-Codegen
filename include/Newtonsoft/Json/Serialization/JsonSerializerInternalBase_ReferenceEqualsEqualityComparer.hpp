@@ -34,17 +34,17 @@ namespace Newtonsoft::Json::Serialization {
       return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Il2CppObject*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1D57A9C
+    // Offset: 0x1D65E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalBase::ReferenceEqualsEqualityComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalBase::ReferenceEqualsEqualityComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerInternalBase::ReferenceEqualsEqualityComparer*, creationType>()));
     }
     // private System.Boolean System.Collections.Generic.IEqualityComparer<System.Object>.Equals(System.Object x, System.Object y)
-    // Offset: 0x1D57F70
+    // Offset: 0x1D6635C
     bool System_Collections_Generic_IEqualityComparer$System_Object$_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Int32 System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode(System.Object obj)
-    // Offset: 0x1D57F7C
+    // Offset: 0x1D66368
     int System_Collections_Generic_IEqualityComparer$System_Object$_GetHashCode(::Il2CppObject* obj);
   }; // Newtonsoft.Json.Serialization.JsonSerializerInternalBase/Newtonsoft.Json.Serialization.ReferenceEqualsEqualityComparer
   #pragma pack(pop)

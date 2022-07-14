@@ -153,47 +153,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private ServiceEnvironment _serviceEnvironment
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServiceEnvironment& dyn__serviceEnvironment();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x14A8048
+    // Offset: 0x14C6AFC
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x14A8050
+    // Offset: 0x14C6B04
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x14A8058
+    // Offset: 0x14C6B0C
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x14A8060
+    // Offset: 0x14C6B14
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x14A8068
+    // Offset: 0x14C6B1C
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x14A80E0
+    // Offset: 0x14C6B94
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x14A80E8
+    // Offset: 0x14C6B9C
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x14A80F0
+    // Offset: 0x14C6BA4
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x14A80F8
+    // Offset: 0x14C6BAC
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x14A818C
+    // Offset: 0x14C6C40
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x14A8194
+    // Offset: 0x14C6C48
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
     // public System.Void .ctor()
-    // Offset: 0x14A819C
+    // Offset: 0x14C6C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkConfigSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkConfigSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkConfigSO*, creationType>()));
     }
     // private System.String GetAppId()
-    // Offset: 0x14A815C
+    // Offset: 0x14C6C10
     ::StringW GetAppId();
   }; // NetworkConfigSO
   #pragma pack(pop)

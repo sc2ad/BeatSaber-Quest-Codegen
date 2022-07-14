@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BF7F4
+    // [SpaceAttribute] Offset: 0x10C7F54
     // private System.Boolean _hideIfAlphaOutOfRange
     // Size: 0x1
     // Offset: 0x38
@@ -55,21 +55,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10BF82C
+    // [DrawIfAttribute] Offset: 0x10C7F8C
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4
     // Offset: 0x3C
     float hideAlphaRangeMin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10BF8D4
+    // [DrawIfAttribute] Offset: 0x10C8034
     // private System.Single _hideAlphaRangeMax
     // Size: 0x4
     // Offset: 0x40
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10BF97C
+    // [SpaceAttribute] Offset: 0x10C80DC
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x44
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0x10BF9D4
+    // [SpaceAttribute] Offset: 0x10C8134
     // private System.Boolean _setOnlyOnce
     // Size: 0x1
     // Offset: 0x4D
@@ -113,10 +113,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _setOnlyOnce
     [[deprecated("Use field access instead!")]] bool& dyn__setOnlyOnce();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1E79D78
+    // Offset: 0x1E881F0
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1E79EF0
+    // Offset: 0x1E88368
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SpriteLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E79D94
+    // Offset: 0x1E8820C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

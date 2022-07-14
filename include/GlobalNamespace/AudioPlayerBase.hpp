@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::AudioClip* get_activeAudioClip();
     // protected System.Void .ctor()
-    // Offset: 0x14F382C
+    // Offset: 0x14FCA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPlayerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioPlayerBase::.ctor");

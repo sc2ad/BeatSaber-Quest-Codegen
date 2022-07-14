@@ -103,17 +103,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _foundFirstColoredEventData
     [[deprecated("Use field access instead!")]] bool& dyn__foundFirstColoredEventData();
     // public System.Void .ctor()
-    // Offset: 0x14FD178
+    // Offset: 0x1506380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataStrobeFilterTransform::StrobeStreakData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataStrobeFilterTransform::StrobeStreakData*, creationType>()));
     }
     // public System.Void StartPotentialStrobe(BasicBeatmapEventData startBasicBeatmapEventData)
-    // Offset: 0x14FD244
+    // Offset: 0x150644C
     void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
     // public System.Void AddStrobeData(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x14FD180
+    // Offset: 0x1506388
     void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // BeatmapDataStrobeFilterTransform/StrobeStreakData
   #pragma pack(pop)

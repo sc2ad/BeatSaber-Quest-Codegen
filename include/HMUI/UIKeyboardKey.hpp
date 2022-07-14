@@ -77,23 +77,23 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _canBeUppercase
     [[deprecated("Use field access instead!")]] bool& dyn__canBeUppercase();
     // public UnityEngine.KeyCode get_keyCode()
-    // Offset: 0x2A2F990
+    // Offset: 0x2A47E08
     ::UnityEngine::KeyCode get_keyCode();
     // public System.Boolean get_canBeUppercase()
-    // Offset: 0x2A2F998
+    // Offset: 0x2A47E10
     bool get_canBeUppercase();
     // public System.Void .ctor()
-    // Offset: 0x2A2FB60
+    // Offset: 0x2A47FD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboardKey* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboardKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboardKey*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A2F9A0
+    // Offset: 0x2A47E18
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x2A2FA64
+    // Offset: 0x2A47EDC
     void OnValidate();
   }; // HMUI.UIKeyboardKey
   #pragma pack(pop)

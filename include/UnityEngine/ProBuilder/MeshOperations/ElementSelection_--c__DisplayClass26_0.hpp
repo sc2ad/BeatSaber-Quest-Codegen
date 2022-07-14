@@ -70,17 +70,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
     [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__2();
     // public System.Void .ctor()
-    // Offset: 0x1A2805C
+    // Offset: 0x1A32448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c__DisplayClass26_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass26_0*, creationType>()));
     }
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x1A2846C
+    // Offset: 0x1A32858
     bool $FindHoles$b__1(::UnityEngine::ProBuilder::WingedEdge* w);
     // System.Boolean <FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x1A284D8
+    // Offset: 0x1A328C4
     bool $FindHoles$b__2(::UnityEngine::ProBuilder::WingedEdge* w);
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass26_0
   #pragma pack(pop)

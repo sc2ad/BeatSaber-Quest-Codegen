@@ -62,17 +62,17 @@ namespace System {
     // Get instance field reference: private System.Globalization.CompareInfo m_compareInfo
     [[deprecated("Use field access instead!")]] ::System::Globalization::CompareInfo*& dyn_m_compareInfo();
     // System.Void .ctor()
-    // Offset: 0x1CE8E04
+    // Offset: 0x1CF71F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvariantComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::InvariantComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvariantComparer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CE8F80
+    // Offset: 0x1CF736C
     static void _cctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1CE8E90
+    // Offset: 0x1CF727C
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
   }; // System.InvariantComparer
   #pragma pack(pop)

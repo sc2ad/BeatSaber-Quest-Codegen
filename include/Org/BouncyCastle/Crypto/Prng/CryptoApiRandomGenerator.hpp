@@ -59,21 +59,21 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Get instance field reference: private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::RandomNumberGenerator*& dyn_rndProv();
     // public System.Void .ctor()
-    // Offset: 0x15FA6C4
+    // Offset: 0x1605AB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>()));
     }
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x15FA6FC
+    // Offset: 0x1605AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>(rng)));
     }
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x15FA728
+    // Offset: 0x1605B14
     void NextBytes(::ArrayW<uint8_t> bytes);
   }; // Org.BouncyCastle.Crypto.Prng.CryptoApiRandomGenerator
   #pragma pack(pop)

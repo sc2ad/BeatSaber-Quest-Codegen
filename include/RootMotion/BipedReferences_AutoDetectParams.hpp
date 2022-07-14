@@ -50,10 +50,10 @@ namespace RootMotion {
     // Get instance field reference: public System.Boolean includeEyes
     [[deprecated("Use field access instead!")]] bool& dyn_includeEyes();
     // static public RootMotion.BipedReferences/RootMotion.AutoDetectParams get_Default()
-    // Offset: 0x2245F18
+    // Offset: 0x2254390
     static ::RootMotion::BipedReferences::AutoDetectParams get_Default();
     // public System.Void .ctor(System.Boolean legsParentInSpine, System.Boolean includeEyes)
-    // Offset: 0x2245F04
+    // Offset: 0x225437C
     // ABORTED: conflicts with another method.  AutoDetectParams(bool legsParentInSpine, bool includeEyes);
   }; // RootMotion.BipedReferences/RootMotion.AutoDetectParams
   #pragma pack(pop)

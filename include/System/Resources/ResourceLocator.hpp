@@ -62,19 +62,19 @@ namespace System::Resources {
     // Get instance field reference: System.Int32 _dataPos
     [[deprecated("Use field access instead!")]] int& dyn__dataPos();
     // System.Int32 get_DataPosition()
-    // Offset: 0x1D71D28
+    // Offset: 0x1D80114
     int get_DataPosition();
     // System.Object get_Value()
-    // Offset: 0x1D71D30
+    // Offset: 0x1D8011C
     ::Il2CppObject* get_Value();
     // System.Void set_Value(System.Object value)
-    // Offset: 0x1D71D38
+    // Offset: 0x1D80124
     void set_Value(::Il2CppObject* value);
     // System.Void .ctor(System.Int32 dataPos, System.Object value)
-    // Offset: 0x1D71D1C
+    // Offset: 0x1D80108
     ResourceLocator(int dataPos, ::Il2CppObject* value);
     // static System.Boolean CanCache(System.Resources.ResourceTypeCode value)
-    // Offset: 0x1D71D40
+    // Offset: 0x1D8012C
     static bool CanCache(::System::Resources::ResourceTypeCode value);
   }; // System.Resources.ResourceLocator
   #pragma pack(pop)

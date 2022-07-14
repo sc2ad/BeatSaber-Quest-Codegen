@@ -45,28 +45,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C7680
+    // [DescriptionAttribute] Offset: 0x10CFDE0
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static ::Oculus::Platform::SystemVoipStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unknown
     static void _set_Unknown(::Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0x10C76B8
+    // [DescriptionAttribute] Offset: 0x10CFE18
     // static field const value: static public Oculus.Platform.SystemVoipStatus Unavailable
     static constexpr const int Unavailable = 1;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static ::Oculus::Platform::SystemVoipStatus _get_Unavailable();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Unavailable
     static void _set_Unavailable(::Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0x10C76F0
+    // [DescriptionAttribute] Offset: 0x10CFE50
     // static field const value: static public Oculus.Platform.SystemVoipStatus Suppressed
     static constexpr const int Suppressed = 2;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static ::Oculus::Platform::SystemVoipStatus _get_Suppressed();
     // Set static field: static public Oculus.Platform.SystemVoipStatus Suppressed
     static void _set_Suppressed(::Oculus::Platform::SystemVoipStatus value);
-    // [DescriptionAttribute] Offset: 0x10C7728
+    // [DescriptionAttribute] Offset: 0x10CFE88
     // static field const value: static public Oculus.Platform.SystemVoipStatus Active
     static constexpr const int Active = 3;
     // Get static field: static public Oculus.Platform.SystemVoipStatus Active

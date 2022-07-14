@@ -43,10 +43,10 @@ namespace GlobalNamespace {
   class NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> GetNamedValues()
-    // Offset: 0x14B5580
+    // Offset: 0x14D4034
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x14B56B4
+    // Offset: 0x14D4168
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

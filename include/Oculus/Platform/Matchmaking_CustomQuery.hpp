@@ -90,7 +90,7 @@ namespace Oculus::Platform {
       // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
       [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*& dyn_parameters();
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
-      // Offset: 0x19D882C
+      // Offset: 0x19E2C18
       Criterion(::StringW key_, ::Oculus::Platform::MatchmakingCriterionImportance importance_);
     }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion
     #pragma pack(pop)
@@ -115,14 +115,14 @@ namespace Oculus::Platform {
     // Get instance field reference: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     [[deprecated("Use field access instead!")]] ::ArrayW<::Oculus::Platform::Matchmaking::CustomQuery::Criterion>& dyn_criteria();
     // public System.Void .ctor()
-    // Offset: 0x19D8824
+    // Offset: 0x19E2C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Matchmaking::CustomQuery* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Matchmaking::CustomQuery::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Matchmaking::CustomQuery*, creationType>()));
     }
     // public System.IntPtr ToUnmanaged()
-    // Offset: 0x19D7348
+    // Offset: 0x19E1734
     ::System::IntPtr ToUnmanaged();
   }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery
   #pragma pack(pop)

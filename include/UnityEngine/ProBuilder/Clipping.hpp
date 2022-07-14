@@ -35,10 +35,10 @@ namespace UnityEngine::ProBuilder {
     // Nested type: ::UnityEngine::ProBuilder::Clipping::OutCode
     struct OutCode;
     // static private UnityEngine.ProBuilder.Clipping/UnityEngine.ProBuilder.OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
-    // Offset: 0x24FA248
+    // Offset: 0x250C6C0
     static ::UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(::UnityEngine::Rect rect, float x, float y);
     // static System.Boolean RectContainsLineSegment(UnityEngine.Rect rect, System.Single x0, System.Single y0, System.Single x1, System.Single y1)
-    // Offset: 0x24FA2F0
+    // Offset: 0x250C768
     static bool RectContainsLineSegment(::UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
   #pragma pack(pop)

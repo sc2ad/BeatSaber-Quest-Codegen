@@ -97,42 +97,42 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasInvitePermission
     [[deprecated("Use field access instead!")]] bool& dyn__hasInvitePermission();
     // public System.String get_userId()
-    // Offset: 0x2A0104C
+    // Offset: 0x2A184C4
     ::StringW get_userId();
     // public System.Boolean get_isServerOwner()
-    // Offset: 0x2A01054
+    // Offset: 0x2A184CC
     bool get_isServerOwner();
     // public System.Boolean get_hasRecommendBeatmapsPermission()
-    // Offset: 0x2A0105C
+    // Offset: 0x2A184D4
     bool get_hasRecommendBeatmapsPermission();
     // public System.Boolean get_hasRecommendGameplayModifiersPermission()
-    // Offset: 0x2A01064
+    // Offset: 0x2A184DC
     bool get_hasRecommendGameplayModifiersPermission();
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x2A0106C
+    // Offset: 0x2A184E4
     bool get_hasKickVotePermission();
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x2A01074
+    // Offset: 0x2A184EC
     bool get_hasInvitePermission();
     // public System.Void .ctor(System.String userId, System.Boolean isServerOwner, System.Boolean hasRecommendBeatmapsPermission, System.Boolean hasRecommendGameplayModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x2A0107C
+    // Offset: 0x2A184F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>(userId, isServerOwner, hasRecommendBeatmapsPermission, hasRecommendGameplayModifiersPermission, hasKickVotePermission, hasInvitePermission)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2A010FC
+    // Offset: 0x2A18574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A01104
+    // Offset: 0x2A1857C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A01198
+    // Offset: 0x2A18610
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayerLobbyPermissionConfigurationNetSerializable
   #pragma pack(pop)

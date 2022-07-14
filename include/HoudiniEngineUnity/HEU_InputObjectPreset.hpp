@@ -82,7 +82,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x188F9D0
+    // Offset: 0x1898DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputObjectPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputObjectPreset::.ctor");

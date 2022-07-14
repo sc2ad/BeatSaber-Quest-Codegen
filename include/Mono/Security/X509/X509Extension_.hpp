@@ -68,30 +68,30 @@ namespace Mono::Security::X509 {
     // Get instance field reference: protected Mono.Security.ASN1 extnValue
     [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1_*& dyn_extnValue();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1F60AEC
+    // Offset: 0x1F6EF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension_* New_ctor(::Mono::Security::ASN1_* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Extension_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension_*, creationType>(asn1)));
     }
     // protected System.Void Decode()
-    // Offset: 0x1F60DA8
+    // Offset: 0x1F6F220
     void Decode();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x1F60F2C
+    // Offset: 0x1F6F3A4
     void WriteLine(::System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1F60DAC
+    // Offset: 0x1F6F224
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F60F0C
+    // Offset: 0x1F6F384
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1F61138
+    // Offset: 0x1F6F5B0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

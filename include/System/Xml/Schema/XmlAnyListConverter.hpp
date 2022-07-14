@@ -54,7 +54,7 @@ namespace System::Xml::Schema {
     // Set static field: static public readonly System.Xml.Schema.XmlValueConverter AnyAtomicList
     static void _set_AnyAtomicList(::System::Xml::Schema::XmlValueConverter* value);
     // protected System.Void .ctor(System.Xml.Schema.XmlBaseConverter atomicConverter)
-    // Offset: 0x1C5C8A0
+    // Offset: 0x1C6BC8C
     // Implemented from: System.Xml.Schema.XmlListConverter
     // Base method: System.Void XmlListConverter::.ctor(System.Xml.Schema.XmlBaseConverter atomicConverter)
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlBaseConverter atomicConverter)
@@ -64,12 +64,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlAnyListConverter*, creationType>(atomicConverter)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C5CAFC
+    // Offset: 0x1C6BEE8
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.cctor()
     static void _cctor();
     // public override System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C5C8A8
+    // Offset: 0x1C6BC94
     // Implemented from: System.Xml.Schema.XmlListConverter
     // Base method: System.Object XmlListConverter::ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);

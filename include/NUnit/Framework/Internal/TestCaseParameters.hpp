@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
     ::Il2CppObject* expectedResult;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10CB21C
+    // [DebuggerBrowsableAttribute] Offset: 0x10D397C
     // private System.Boolean <HasExpectedResult>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -59,13 +59,13 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Boolean <HasExpectedResult>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$HasExpectedResult$k__BackingField();
     // public System.Object get_ExpectedResult()
-    // Offset: 0x2A09100
+    // Offset: 0x2A20578
     ::Il2CppObject* get_ExpectedResult();
     // public System.Boolean get_HasExpectedResult()
-    // Offset: 0x2A09108
+    // Offset: 0x2A20580
     bool get_HasExpectedResult();
     // public System.Void .ctor()
-    // Offset: 0x2A09000
+    // Offset: 0x2A20478
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +74,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x2A09074
+    // Offset: 0x2A204EC
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

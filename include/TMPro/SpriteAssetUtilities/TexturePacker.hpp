@@ -40,7 +40,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Nested type: ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
     class SpriteDataObject;
     // public System.Void .ctor()
-    // Offset: 0x142E028
+    // Offset: 0x1423C68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SpriteAssetUtilities::TexturePacker::.ctor");

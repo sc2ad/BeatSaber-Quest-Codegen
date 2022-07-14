@@ -77,7 +77,7 @@ namespace System {
     // Get instance field reference: public System.String RemoteUrl
     [[deprecated("Use field access instead!")]] ::StringW& dyn_RemoteUrl();
     // public System.Void .ctor()
-    // Offset: 0x2AB01C0
+    // Offset: 0x2AC9648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::MoreInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Uri::MoreInfo::.ctor");

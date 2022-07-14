@@ -55,7 +55,7 @@ namespace TMPro {
     // Get instance field reference: public TMPro.CaretPosition position
     [[deprecated("Use field access instead!")]] ::TMPro::CaretPosition& dyn_position();
     // public System.Void .ctor(System.Int32 index, TMPro.CaretPosition position)
-    // Offset: 0x1429354
+    // Offset: 0x141EF94
     // ABORTED: conflicts with another method.  CaretInfo(int index, ::TMPro::CaretPosition position);
   }; // TMPro.CaretInfo
   #pragma pack(pop)

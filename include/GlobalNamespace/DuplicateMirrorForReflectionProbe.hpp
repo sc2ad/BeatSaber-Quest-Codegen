@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class DuplicateMirrorForReflectionProbe : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x140BA28
+    // Offset: 0x1495BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DuplicateMirrorForReflectionProbe* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DuplicateMirrorForReflectionProbe::.ctor");

@@ -77,101 +77,101 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlTextReaderImpl reader
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl*& dyn_reader();
     // private System.Xml.XmlNameTable System.Xml.IDtdParserAdapter.get_NameTable()
-    // Offset: 0x26FE544
+    // Offset: 0x27159BC
     ::System::Xml::XmlNameTable* System_Xml_IDtdParserAdapter_get_NameTable();
     // private System.Xml.IXmlNamespaceResolver System.Xml.IDtdParserAdapter.get_NamespaceResolver()
-    // Offset: 0x26FE560
+    // Offset: 0x27159D8
     ::System::Xml::IXmlNamespaceResolver* System_Xml_IDtdParserAdapter_get_NamespaceResolver();
     // private System.Uri System.Xml.IDtdParserAdapter.get_BaseUri()
-    // Offset: 0x26FE57C
+    // Offset: 0x27159F4
     ::System::Uri* System_Xml_IDtdParserAdapter_get_BaseUri();
     // private System.Boolean System.Xml.IDtdParserAdapter.get_IsEof()
-    // Offset: 0x26FE598
+    // Offset: 0x2715A10
     bool System_Xml_IDtdParserAdapter_get_IsEof();
     // private System.Char[] System.Xml.IDtdParserAdapter.get_ParsingBuffer()
-    // Offset: 0x26FE5B4
+    // Offset: 0x2715A2C
     ::ArrayW<::Il2CppChar> System_Xml_IDtdParserAdapter_get_ParsingBuffer();
     // private System.Int32 System.Xml.IDtdParserAdapter.get_ParsingBufferLength()
-    // Offset: 0x26FE5D0
+    // Offset: 0x2715A48
     int System_Xml_IDtdParserAdapter_get_ParsingBufferLength();
     // private System.Int32 System.Xml.IDtdParserAdapter.get_CurrentPosition()
-    // Offset: 0x26FE5EC
+    // Offset: 0x2715A64
     int System_Xml_IDtdParserAdapter_get_CurrentPosition();
     // private System.Void System.Xml.IDtdParserAdapter.set_CurrentPosition(System.Int32 value)
-    // Offset: 0x26FE608
+    // Offset: 0x2715A80
     void System_Xml_IDtdParserAdapter_set_CurrentPosition(int value);
     // private System.Int32 System.Xml.IDtdParserAdapter.get_EntityStackLength()
-    // Offset: 0x26FE624
+    // Offset: 0x2715A9C
     int System_Xml_IDtdParserAdapter_get_EntityStackLength();
     // private System.Boolean System.Xml.IDtdParserAdapter.get_IsEntityEolNormalized()
-    // Offset: 0x26FE640
+    // Offset: 0x2715AB8
     bool System_Xml_IDtdParserAdapter_get_IsEntityEolNormalized();
     // private System.Int32 System.Xml.IDtdParserAdapter.get_LineNo()
-    // Offset: 0x26FE678
+    // Offset: 0x2715AF0
     int System_Xml_IDtdParserAdapter_get_LineNo();
     // private System.Int32 System.Xml.IDtdParserAdapter.get_LineStartPosition()
-    // Offset: 0x26FE694
+    // Offset: 0x2715B0C
     int System_Xml_IDtdParserAdapter_get_LineStartPosition();
     // private System.Boolean System.Xml.IDtdParserAdapterWithValidation.get_DtdValidation()
-    // Offset: 0x26FE804
+    // Offset: 0x2715C7C
     bool System_Xml_IDtdParserAdapterWithValidation_get_DtdValidation();
     // private System.Xml.IValidationEventHandling System.Xml.IDtdParserAdapterWithValidation.get_ValidationEventHandling()
-    // Offset: 0x26FE820
+    // Offset: 0x2715C98
     ::System::Xml::IValidationEventHandling* System_Xml_IDtdParserAdapterWithValidation_get_ValidationEventHandling();
     // private System.Boolean System.Xml.IDtdParserAdapterV1.get_Normalization()
-    // Offset: 0x26FE83C
+    // Offset: 0x2715CB4
     bool System_Xml_IDtdParserAdapterV1_get_Normalization();
     // private System.Boolean System.Xml.IDtdParserAdapterV1.get_Namespaces()
-    // Offset: 0x26FE858
+    // Offset: 0x2715CD0
     bool System_Xml_IDtdParserAdapterV1_get_Namespaces();
     // private System.Boolean System.Xml.IDtdParserAdapterV1.get_V1CompatibilityMode()
-    // Offset: 0x26FE874
+    // Offset: 0x2715CEC
     bool System_Xml_IDtdParserAdapterV1_get_V1CompatibilityMode();
     // System.Void .ctor(System.Xml.XmlTextReaderImpl reader)
-    // Offset: 0x26FE518
+    // Offset: 0x2715990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::DtdParserProxy* New_ctor(::System::Xml::XmlTextReaderImpl* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::DtdParserProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::DtdParserProxy*, creationType>(reader)));
     }
     // private System.Void System.Xml.IDtdParserAdapter.OnNewLine(System.Int32 pos)
-    // Offset: 0x26FE65C
+    // Offset: 0x2715AD4
     void System_Xml_IDtdParserAdapter_OnNewLine(int pos);
     // private System.Int32 System.Xml.IDtdParserAdapter.ReadData()
-    // Offset: 0x26FE6B0
+    // Offset: 0x2715B28
     int System_Xml_IDtdParserAdapter_ReadData();
     // private System.Int32 System.Xml.IDtdParserAdapter.ParseNumericCharRef(System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x26FE6CC
+    // Offset: 0x2715B44
     int System_Xml_IDtdParserAdapter_ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
     // private System.Int32 System.Xml.IDtdParserAdapter.ParseNamedCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x26FE6E8
+    // Offset: 0x2715B60
     int System_Xml_IDtdParserAdapter_ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // private System.Void System.Xml.IDtdParserAdapter.ParsePI(System.Text.StringBuilder sb)
-    // Offset: 0x26FE708
+    // Offset: 0x2715B80
     void System_Xml_IDtdParserAdapter_ParsePI(::System::Text::StringBuilder* sb);
     // private System.Void System.Xml.IDtdParserAdapter.ParseComment(System.Text.StringBuilder sb)
-    // Offset: 0x26FE724
+    // Offset: 0x2715B9C
     void System_Xml_IDtdParserAdapter_ParseComment(::System::Text::StringBuilder* sb);
     // private System.Boolean System.Xml.IDtdParserAdapter.PushEntity(System.Xml.IDtdEntityInfo entity, out System.Int32 entityId)
-    // Offset: 0x26FE740
+    // Offset: 0x2715BB8
     bool System_Xml_IDtdParserAdapter_PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int> entityId);
     // private System.Boolean System.Xml.IDtdParserAdapter.PopEntity(out System.Xml.IDtdEntityInfo oldEntity, out System.Int32 newEntityId)
-    // Offset: 0x26FE75C
+    // Offset: 0x2715BD4
     bool System_Xml_IDtdParserAdapter_PopEntity(ByRef<::System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int> newEntityId);
     // private System.Boolean System.Xml.IDtdParserAdapter.PushExternalSubset(System.String systemId, System.String publicId)
-    // Offset: 0x26FE778
+    // Offset: 0x2715BF0
     bool System_Xml_IDtdParserAdapter_PushExternalSubset(::StringW systemId, ::StringW publicId);
     // private System.Void System.Xml.IDtdParserAdapter.PushInternalDtd(System.String baseUri, System.String internalDtd)
-    // Offset: 0x26FE794
+    // Offset: 0x2715C0C
     void System_Xml_IDtdParserAdapter_PushInternalDtd(::StringW baseUri, ::StringW internalDtd);
     // private System.Void System.Xml.IDtdParserAdapter.Throw(System.Exception e)
-    // Offset: 0x26FE7B0
+    // Offset: 0x2715C28
     void System_Xml_IDtdParserAdapter_Throw(::System::Exception* e);
     // private System.Void System.Xml.IDtdParserAdapter.OnSystemId(System.String systemId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo systemLiteralLineInfo)
-    // Offset: 0x26FE7CC
+    // Offset: 0x2715C44
     void System_Xml_IDtdParserAdapter_OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
     // private System.Void System.Xml.IDtdParserAdapter.OnPublicId(System.String publicId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo publicLiteralLineInfo)
-    // Offset: 0x26FE7E8
+    // Offset: 0x2715C60
     void System_Xml_IDtdParserAdapter_OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.DtdParserProxy
   #pragma pack(pop)

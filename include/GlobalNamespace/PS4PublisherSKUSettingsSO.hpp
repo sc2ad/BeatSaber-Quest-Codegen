@@ -76,22 +76,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _defaultAgeRestriction
     [[deprecated("Use field access instead!")]] int& dyn__defaultAgeRestriction();
     // public System.String get_skuName()
-    // Offset: 0x135E518
+    // Offset: 0x133CCFC
     ::StringW get_skuName();
     // public System.String get_contentId()
-    // Offset: 0x135E520
+    // Offset: 0x133CD04
     ::StringW get_contentId();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x135E528
+    // Offset: 0x133CD0C
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x135E530
+    // Offset: 0x133CD14
     ::StringW get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x135E538
+    // Offset: 0x133CD1C
     int get_defaultAgeRestriction();
     // public System.Void .ctor()
-    // Offset: 0x135E540
+    // Offset: 0x133CD24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4PublisherSKUSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4PublisherSKUSettingsSO::.ctor");

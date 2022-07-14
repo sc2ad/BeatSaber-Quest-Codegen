@@ -322,24 +322,24 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotation
     [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // public System.Void .ctor(ColorType colorType, SliderData/Type sliderType, System.Boolean hasHeadNote, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single headCutDirectionAngleOffset, System.Boolean hasTailNote, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, System.Single tailCutDirectionAngleOffset, SliderMidAnchorMode midAnchorMode, System.Int32 sliceCount, System.Single squishAmount, UnityEngine.Vector3 headMoveStartPos, UnityEngine.Vector3 headJumpStartPos, UnityEngine.Vector3 headJumpEndPos, System.Single headJumpGravity, UnityEngine.Vector3 tailMoveStartPos, UnityEngine.Vector3 tailJumpStartPos, UnityEngine.Vector3 tailJumpEndPos, System.Single tailJumpGravity, System.Single moveDuration, System.Single jumpDuration, System.Single rotation)
-    // Offset: 0x2A02BEC
+    // Offset: 0x2A1A064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData::Type sliderType, bool hasHeadNote, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float headCutDirectionAngleOffset, bool hasTailNote, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int sliceCount, float squishAmount, ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float tailJumpGravity, float moveDuration, float jumpDuration, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderSpawnInfoNetSerializable*, creationType>(colorType, sliderType, hasHeadNote, headTime, headLineIndex, headLineLayer, headBeforeJumpLineLayer, headControlPointLengthMultiplier, headCutDirection, headCutDirectionAngleOffset, hasTailNote, tailTime, tailLineIndex, tailLineLayer, tailBeforeJumpLineLayer, tailControlPointLengthMultiplier, tailCutDirection, tailCutDirectionAngleOffset, midAnchorMode, sliceCount, squishAmount, headMoveStartPos, headJumpStartPos, headJumpEndPos, headJumpGravity, tailMoveStartPos, tailJumpStartPos, tailJumpEndPos, tailJumpGravity, moveDuration, jumpDuration, rotation)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2A02ECC
+    // Offset: 0x2A1A344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderSpawnInfoNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderSpawnInfoNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A02ED4
+    // Offset: 0x2A1A34C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A031AC
+    // Offset: 0x2A1A624
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // SliderSpawnInfoNetSerializable
   #pragma pack(pop)

@@ -33,28 +33,28 @@ namespace BGNet::Core::GameLift {
   class PlayerSessionInfo : public ::Il2CppObject {
     public:
     public:
-    // [JsonPropertyAttribute] Offset: 0x10B8C28
+    // [JsonPropertyAttribute] Offset: 0x10C1378
     // public System.String playerSessionId
     // Size: 0x8
     // Offset: 0x10
     ::StringW playerSessionId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10B8C60
+    // [JsonPropertyAttribute] Offset: 0x10C13B0
     // public System.String gameSessionId
     // Size: 0x8
     // Offset: 0x18
     ::StringW gameSessionId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10B8C98
+    // [JsonPropertyAttribute] Offset: 0x10C13E8
     // public System.String dnsName
     // Size: 0x8
     // Offset: 0x20
     ::StringW dnsName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10B8CD0
+    // [JsonPropertyAttribute] Offset: 0x10C1420
     // public System.Int32 port
     // Size: 0x4
     // Offset: 0x28
@@ -63,28 +63,28 @@ namespace BGNet::Core::GameLift {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: port and: beatmapLevelSelectionMask
     char __padding3[0x4] = {};
-    // [JsonPropertyAttribute] Offset: 0x10B8D08
+    // [JsonPropertyAttribute] Offset: 0x10C1458
     // public BeatmapLevelSelectionMask beatmapLevelSelectionMask
     // Size: 0x18
     // Offset: 0x30
     ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
-    // [JsonPropertyAttribute] Offset: 0x10B8D40
+    // [JsonPropertyAttribute] Offset: 0x10C1490
     // public GameplayServerConfiguration gameplayServerConfiguration
     // Size: 0x18
     // Offset: 0x48
     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // [JsonPropertyAttribute] Offset: 0x10B8D78
+    // [JsonPropertyAttribute] Offset: 0x10C14C8
     // public System.String privateGameSecret
     // Size: 0x8
     // Offset: 0x60
     ::StringW privateGameSecret;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10B8DB0
+    // [JsonPropertyAttribute] Offset: 0x10C1500
     // public System.String privateGameCode
     // Size: 0x8
     // Offset: 0x68
@@ -109,7 +109,7 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: public System.String privateGameCode
     [[deprecated("Use field access instead!")]] ::StringW& dyn_privateGameCode();
     // public System.Void .ctor()
-    // Offset: 0x1543CDC
+    // Offset: 0x154CEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSessionInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::PlayerSessionInfo::.ctor");

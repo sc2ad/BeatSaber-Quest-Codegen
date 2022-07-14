@@ -49,23 +49,23 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__16_0
     static void _set_$$9__16_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x176E0B0
+    // Offset: 0x177849C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x176E114
+    // Offset: 0x1778500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Context::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Context::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Context::$$c*, creationType>()));
     }
     // System.Boolean <set_NormalInstallerTypes>b__16_0(System.Type x)
-    // Offset: 0x176E11C
+    // Offset: 0x1778508
     bool $set_NormalInstallerTypes$b__16_0(::System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x176E1D0
+    // Offset: 0x17785BC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x176E22C
+    // Offset: 0x1778618
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Context/Zenject.<>c
   #pragma pack(pop)

@@ -68,7 +68,7 @@ namespace HMUI {
     // Nested type: ::HMUI::SegmentedControl::IDataSource
     class IDataSource;
     public:
-    // [NullAllowed] Offset: 0x10C1284
+    // [NullAllowed] Offset: 0x10C99E4
     // private UnityEngine.Transform _separatorPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -141,44 +141,44 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action`1<System.Int32>> _callbacks
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::System::Action_1<int>*>*& dyn__callbacks();
     // public HMUI.SegmentedControl/HMUI.IDataSource get_dataSource()
-    // Offset: 0x16C1EB8
+    // Offset: 0x16CD2A4
     ::HMUI::SegmentedControl::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SegmentedControl/HMUI.IDataSource value)
-    // Offset: 0x16C1EC0
+    // Offset: 0x16CD2AC
     void set_dataSource(::HMUI::SegmentedControl::IDataSource* value);
     // public System.Int32 get_selectedCellNumber()
-    // Offset: 0x16C21EC
+    // Offset: 0x16CD5D8
     int get_selectedCellNumber();
     // public System.Collections.Generic.IReadOnlyList`1<HMUI.SegmentedControlCell> get_cells()
-    // Offset: 0x16C21F4
+    // Offset: 0x16CD5E0
     ::System::Collections::Generic::IReadOnlyList_1<::HMUI::SegmentedControlCell*>* get_cells();
     // public System.Void add_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x16C1D70
+    // Offset: 0x16CD15C
     void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // public System.Void remove_didSelectCellEvent(System.Action`2<HMUI.SegmentedControl,System.Int32> value)
-    // Offset: 0x16C1E14
+    // Offset: 0x16CD200
     void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int>* value);
     // public System.Void .ctor()
-    // Offset: 0x16C2A84
+    // Offset: 0x16CDE70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SegmentedControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SegmentedControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SegmentedControl*, creationType>()));
     }
     // private System.Void CreateCells()
-    // Offset: 0x16C21FC
+    // Offset: 0x16CD5E8
     void CreateCells();
     // private System.Void HandleCellSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x16C2800
+    // Offset: 0x16CDBEC
     void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // public System.Void SetCallbackForCell(System.Int32 cellNumber, System.Action`1<System.Int32> callback)
-    // Offset: 0x16C2958
+    // Offset: 0x16CDD44
     void SetCallbackForCell(int cellNumber, ::System::Action_1<int>* callback);
     // public System.Void ReloadData()
-    // Offset: 0x16C1EC8
+    // Offset: 0x16CD2B4
     void ReloadData();
     // public System.Void SelectCellWithNumber(System.Int32 selectCellNumber)
-    // Offset: 0x16C29C8
+    // Offset: 0x16CDDB4
     void SelectCellWithNumber(int selectCellNumber);
   }; // HMUI.SegmentedControl
   #pragma pack(pop)

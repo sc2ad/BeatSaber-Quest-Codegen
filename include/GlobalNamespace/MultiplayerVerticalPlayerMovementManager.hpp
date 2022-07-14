@@ -53,7 +53,7 @@ namespace GlobalNamespace {
   class MultiplayerVerticalPlayerMovementManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10DCF54
+    // [TooltipAttribute] Offset: 0x10E4698
     // private System.Single _movementRange
     // Size: 0x4
     // Offset: 0x18
@@ -90,28 +90,28 @@ namespace GlobalNamespace {
     float minScoreDifference;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10DCFF0
+    // [InjectAttribute] Offset: 0x10E4734
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD000
+    // [InjectAttribute] Offset: 0x10E4744
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD010
+    // [InjectAttribute] Offset: 0x10E4754
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD020
+    // [InjectAttribute] Offset: 0x10E4764
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x48
@@ -166,23 +166,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastFrameBaseScore
     [[deprecated("Use field access instead!")]] float& dyn__lastFrameBaseScore();
     // public System.Void .ctor()
-    // Offset: 0x14A72B8
+    // Offset: 0x14C5CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerVerticalPlayerMovementManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerVerticalPlayerMovementManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14A6834
+    // Offset: 0x14C5220
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14A68F8
+    // Offset: 0x14C52E4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x14A69D4
+    // Offset: 0x14C53C0
     void Update();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14A68E8
+    // Offset: 0x14C52D4
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
   }; // MultiplayerVerticalPlayerMovementManager
   #pragma pack(pop)

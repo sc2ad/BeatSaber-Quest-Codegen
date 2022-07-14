@@ -63,23 +63,23 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*& dyn_writeableFields();
     // public System.Void .ctor()
-    // Offset: 0x1C01440
+    // Offset: 0x1C0F82C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)
-    // Offset: 0x1C01AF0
+    // Offset: 0x1C0FEDC
     bool $GetOnlyPropertySetter$b__0(::System::Reflection::FieldInfo* f);
     // System.Void <GetOnlyPropertySetter>b__2(System.Object injectable, System.Object value)
-    // Offset: 0x1C01B98
+    // Offset: 0x1C0FF84
     void $GetOnlyPropertySetter$b__2(::Il2CppObject* injectable, ::Il2CppObject* value);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C01C68
+    // Offset: 0x1C10054
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C01CC4
+    // Offset: 0x1C100B0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/Zenject.Internal.<>c__DisplayClass8_0
   #pragma pack(pop)

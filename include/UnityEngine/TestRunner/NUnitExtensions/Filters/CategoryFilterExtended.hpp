@@ -41,17 +41,17 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Set static field: static public System.String k_DefaultCategory
     static void _set_k_DefaultCategory(::StringW value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x196D050
+    // Offset: 0x197743C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CategoryFilterExtended* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilterExtended*, creationType>(name)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x196D4EC
+    // Offset: 0x19778D8
     static void _cctor();
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x196D058
+    // Offset: 0x1977444
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Boolean CategoryFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(::NUnit::Framework::Interfaces::ITest* test);

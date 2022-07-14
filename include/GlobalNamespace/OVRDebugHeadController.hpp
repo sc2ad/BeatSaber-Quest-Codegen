@@ -116,20 +116,20 @@ namespace GlobalNamespace {
     // Get instance field reference: protected OVRCameraRig CameraRig
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCameraRig*& dyn_CameraRig();
     // public System.Void .ctor()
-    // Offset: 0x16591E4
+    // Offset: 0x16645D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRDebugHeadController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRDebugHeadController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRDebugHeadController*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1658B5C
+    // Offset: 0x1663F48
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1658C54
+    // Offset: 0x1664040
     void Start();
     // private System.Void Update()
-    // Offset: 0x1658C58
+    // Offset: 0x1664044
     void Update();
   }; // OVRDebugHeadController
   #pragma pack(pop)

@@ -60,20 +60,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.IPoolable poolable
     [[deprecated("Use field access instead!")]] ::Zenject::IPoolable*& dyn_poolable();
     // public System.Void .ctor()
-    // Offset: 0x1C0A96C
+    // Offset: 0x1C18D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableManager::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Boolean <CreatePoolableInfo>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1C0B3B0
+    // Offset: 0x1C1979C
     bool $CreatePoolableInfo$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C0B448
+    // Offset: 0x1C19834
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C0B4A4
+    // Offset: 0x1C19890
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PoolableManager/Zenject.<>c__DisplayClass3_0
   #pragma pack(pop)

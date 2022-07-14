@@ -72,17 +72,17 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_currPos
     [[deprecated("Use field access instead!")]] int& dyn_m_currPos();
     // System.Runtime.Serialization.ObjectHolder get_Current()
-    // Offset: 0x163749C
+    // Offset: 0x1642888
     ::System::Runtime::Serialization::ObjectHolder* get_Current();
     // System.Void .ctor(System.Runtime.Serialization.ObjectHolderList list, System.Boolean isFixupEnumerator)
-    // Offset: 0x1637384
+    // Offset: 0x1642770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolderListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderListEnumerator*, creationType>(list, isFixupEnumerator)));
     }
     // System.Boolean MoveNext()
-    // Offset: 0x16373E8
+    // Offset: 0x16427D4
     bool MoveNext();
   }; // System.Runtime.Serialization.ObjectHolderListEnumerator
   #pragma pack(pop)

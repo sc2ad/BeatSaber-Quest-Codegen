@@ -51,21 +51,21 @@ namespace System::Xml::Schema {
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_None();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing None
     static void _set_None(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103BD14
+    // [XmlEnumAttribute] Offset: 0x1046464
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static constexpr const int Skip = 1;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_Skip();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing Skip
     static void _set_Skip(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103BD4C
+    // [XmlEnumAttribute] Offset: 0x104649C
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static constexpr const int Lax = 2;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static ::System::Xml::Schema::XmlSchemaContentProcessing _get_Lax();
     // Set static field: static public System.Xml.Schema.XmlSchemaContentProcessing Lax
     static void _set_Lax(::System::Xml::Schema::XmlSchemaContentProcessing value);
-    // [XmlEnumAttribute] Offset: 0x103BD84
+    // [XmlEnumAttribute] Offset: 0x10464D4
     // static field const value: static public System.Xml.Schema.XmlSchemaContentProcessing Strict
     static constexpr const int Strict = 3;
     // Get static field: static public System.Xml.Schema.XmlSchemaContentProcessing Strict

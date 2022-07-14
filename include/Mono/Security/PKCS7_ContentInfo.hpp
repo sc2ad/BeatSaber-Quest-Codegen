@@ -51,50 +51,50 @@ namespace Mono::Security {
     // Get instance field reference: private Mono.Security.ASN1 content
     [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn_content();
     // public Mono.Security.ASN1 get_ASN1()
-    // Offset: 0x233E50C
+    // Offset: 0x2351984
     ::Mono::Security::ASN1* get_ASN1();
     // public Mono.Security.ASN1 get_Content()
-    // Offset: 0x233E5CC
+    // Offset: 0x2351A44
     ::Mono::Security::ASN1* get_Content();
     // public System.Void set_Content(Mono.Security.ASN1 value)
-    // Offset: 0x233E5D4
+    // Offset: 0x2351A4C
     void set_Content(::Mono::Security::ASN1* value);
     // public System.String get_ContentType()
-    // Offset: 0x233E5DC
+    // Offset: 0x2351A54
     ::StringW get_ContentType();
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x233E5E4
+    // Offset: 0x2351A5C
     void set_ContentType(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x233E260
+    // Offset: 0x23516D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>()));
     }
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x233E2D8
+    // Offset: 0x2351750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::StringW oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(oid)));
     }
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x233E300
+    // Offset: 0x2351778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(data)));
     }
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x233E370
+    // Offset: 0x23517E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::ContentInfo* New_ctor(::Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(asn1)));
     }
     // Mono.Security.ASN1 GetASN1()
-    // Offset: 0x233E510
+    // Offset: 0x2351988
     ::Mono::Security::ASN1* GetASN1();
   }; // Mono.Security.PKCS7/Mono.Security.ContentInfo
   #pragma pack(pop)

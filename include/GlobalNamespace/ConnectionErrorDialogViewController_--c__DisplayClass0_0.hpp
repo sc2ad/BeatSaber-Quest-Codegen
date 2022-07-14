@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action buttonAction
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_buttonAction();
     // public System.Void .ctor()
-    // Offset: 0x13FF200
+    // Offset: 0x1488FCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionErrorDialogViewController::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Void <Init>b__0(System.Int32 btnIdx)
-    // Offset: 0x13FF2F4
+    // Offset: 0x14890C0
     void $Init$b__0(int btnIdx);
   }; // ConnectionErrorDialogViewController/<>c__DisplayClass0_0
   #pragma pack(pop)

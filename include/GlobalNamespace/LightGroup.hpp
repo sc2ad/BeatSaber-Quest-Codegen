@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didRefreshContentEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didRefreshContentEvent();
     // public System.Int32 get_groupId()
-    // Offset: 0x1E71B64
+    // Offset: 0x1E7FF50
     int get_groupId();
     // public System.Void add_didRefreshContentEvent(System.Action value)
-    // Offset: 0x1E71A1C
+    // Offset: 0x1E7FE08
     void add_didRefreshContentEvent(::System::Action* value);
     // public System.Void remove_didRefreshContentEvent(System.Action value)
-    // Offset: 0x1E71AC0
+    // Offset: 0x1E7FEAC
     void remove_didRefreshContentEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1E71B6C
+    // Offset: 0x1E7FF58
     // Implemented from: LightIdsRange
     // Base method: System.Void LightIdsRange::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

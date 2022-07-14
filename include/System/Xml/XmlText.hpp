@@ -40,49 +40,49 @@ namespace System::Xml {
   class XmlText : public ::System::Xml::XmlCharacterData {
     public:
     // System.Void .ctor(System.String strData)
-    // Offset: 0x15D40EC
+    // Offset: 0x15DE4D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlText* New_ctor(::StringW strData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlText*, creationType>(strData)));
     }
     // public override System.String get_Name()
-    // Offset: 0x15DE93C
+    // Offset: 0x15E8D28
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x15DE968
+    // Offset: 0x15E8D54
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x15DE994
+    // Offset: 0x15E8D80
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x15DE99C
+    // Offset: 0x15E8D88
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.String get_Value()
-    // Offset: 0x15DEA8C
+    // Offset: 0x15E8E78
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.String XmlCharacterData::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x15DEA9C
+    // Offset: 0x15E8E88
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::set_Value(System.String value)
     void set_Value(::StringW value);
     // override System.Boolean get_IsText()
-    // Offset: 0x15DEB80
+    // Offset: 0x15E8F6C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsText()
     bool get_IsText();
     // protected internal System.Void .ctor(System.String strData, System.Xml.XmlDocument doc)
-    // Offset: 0x15D40E4
+    // Offset: 0x15DE4D0
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::.ctor(System.String strData, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +91,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlText*, creationType>(strData, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x15DEA2C
+    // Offset: 0x15E8E18
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

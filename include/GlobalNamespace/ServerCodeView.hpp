@@ -91,26 +91,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _codeIsShown
     [[deprecated("Use field access instead!")]] bool& dyn__codeIsShown();
     // public System.Void .ctor()
-    // Offset: 0x148FC00
+    // Offset: 0x13DDD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCodeView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerCodeView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCodeView*, creationType>()));
     }
     // public System.Void SetCode(System.String serverCode)
-    // Offset: 0x148FAA4
+    // Offset: 0x13DDBB4
     void SetCode(::StringW serverCode);
     // protected System.Void OnEnable()
-    // Offset: 0x148FB44
+    // Offset: 0x13DDC54
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x148FBD4
+    // Offset: 0x13DDCE4
     void OnDisable();
     // private System.Void HandleShowServerCodeButtonPressed()
-    // Offset: 0x148FBF0
+    // Offset: 0x13DDD00
     void HandleShowServerCodeButtonPressed();
     // private System.Void RefreshText(System.Boolean showCode)
-    // Offset: 0x148FAB0
+    // Offset: 0x13DDBC0
     void RefreshText(bool showCode);
   }; // ServerCodeView
   #pragma pack(pop)

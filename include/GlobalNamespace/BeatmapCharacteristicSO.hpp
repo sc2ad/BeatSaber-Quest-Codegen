@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10D3610
+    // [LocalizationKeyAttribute] Offset: 0x10DADA0
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
     ::StringW descriptionLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10D3648
+    // [LocalizationKeyAttribute] Offset: 0x10DADD8
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
@@ -117,34 +117,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfColors
     [[deprecated("Use field access instead!")]] int& dyn__numberOfColors();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x135030C
+    // Offset: 0x1391BF4
     ::UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x1350314
+    // Offset: 0x1391BFC
     ::StringW get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x135031C
+    // Offset: 0x1391C04
     ::StringW get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x1350324
+    // Offset: 0x1391C0C
     ::StringW get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x135032C
+    // Offset: 0x1391C14
     ::StringW get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x1350334
+    // Offset: 0x1391C1C
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x135033C
+    // Offset: 0x1391C24
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x1350344
+    // Offset: 0x1391C2C
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x135034C
+    // Offset: 0x1391C34
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x1350354
+    // Offset: 0x1391C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicSO::.ctor");

@@ -47,17 +47,17 @@ namespace BGNet::Core::Messages {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509Certificate2,System.Byte[]> <>9__12_0
     static void _set_$$9__12_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<uint8_t>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x154AA68
+    // Offset: 0x1553C70
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x154AACC
+    // Offset: 0x1553CD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler::$$c*, creationType>()));
     }
     // System.Byte[] <.ctor>b__12_0(System.Security.Cryptography.X509Certificates.X509Certificate2 cert)
-    // Offset: 0x154AAD4
+    // Offset: 0x1553CDC
     ::ArrayW<uint8_t> $_ctor$b__12_0(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
   }; // BGNet.Core.Messages.BaseServerUnconnectedMessageHandler/BGNet.Core.Messages.<>c
   #pragma pack(pop)

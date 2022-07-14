@@ -74,75 +74,75 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Int32 maxLineLength
     [[deprecated("Use field access instead!")]] int& dyn_maxLineLength();
     // public System.Void .ctor(System.String userMessage, params System.Object[] args)
-    // Offset: 0x2A0F3BC
+    // Offset: 0x2A26834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMessageWriter* New_ctor(::StringW userMessage, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TextMessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMessageWriter*, creationType>(userMessage, args)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A0FE3C
+    // Offset: 0x2A272B4
     static void _cctor();
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x2A0F5CC
+    // Offset: 0x2A26A44
     void WriteExpectedLine(::NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteExpectedLine(System.Object expected)
-    // Offset: 0x2A0F768
+    // Offset: 0x2A26BE0
     void WriteExpectedLine(::Il2CppObject* expected);
     // private System.Void WriteExpectedLine(System.Object expected, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x2A0F854
+    // Offset: 0x2A26CCC
     void WriteExpectedLine(::Il2CppObject* expected, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // private System.Void WriteActualLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x2A0F680
+    // Offset: 0x2A26AF8
     void WriteActualLine(::NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteActualLine(System.Object actual)
-    // Offset: 0x2A0F770
+    // Offset: 0x2A26BE8
     void WriteActualLine(::Il2CppObject* actual);
     // private System.Void WriteCaretLine(System.Int32 mismatch)
-    // Offset: 0x2A0FC4C
+    // Offset: 0x2A270C4
     void WriteCaretLine(int mismatch);
     // public override System.Int32 get_MaxLineLength()
-    // Offset: 0x2A0F490
+    // Offset: 0x2A26908
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Int32 MessageWriter::get_MaxLineLength()
     int get_MaxLineLength();
     // public override System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    // Offset: 0x2A0F498
+    // Offset: 0x2A26910
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     void WriteMessageLine(int level, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x2A0F5A0
+    // Offset: 0x2A26A18
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     void DisplayDifferences(::NUnit::Framework::Constraints::ConstraintResult* result);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual)
-    // Offset: 0x2A0F738
+    // Offset: 0x2A26BB0
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual)
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x2A0F824
+    // Offset: 0x2A26C9C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // public override System.Void DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    // Offset: 0x2A0FA28
+    // Offset: 0x2A26EA0
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
     void DisplayStringDifferences(::StringW expected, ::StringW actual, int mismatch, bool ignoreCase, bool clipping);
     // public override System.Void WriteActualValue(System.Object actual)
-    // Offset: 0x2A0FCFC
+    // Offset: 0x2A27174
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteActualValue(System.Object actual)
     void WriteActualValue(::Il2CppObject* actual);
     // public override System.Void WriteValue(System.Object val)
-    // Offset: 0x2A0FD0C
+    // Offset: 0x2A27184
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteValue(System.Object val)
     void WriteValue(::Il2CppObject* val);
     // public override System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x2A0FD98
+    // Offset: 0x2A27210
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
     void WriteCollectionElements(::System::Collections::IEnumerable* collection, int64_t start, int max);

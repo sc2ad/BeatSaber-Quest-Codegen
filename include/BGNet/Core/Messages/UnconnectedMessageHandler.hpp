@@ -229,18 +229,18 @@ namespace BGNet::Core::Messages {
       // Get instance field reference: public readonly System.UInt32 requestId
       [[deprecated("Use field access instead!")]] uint& dyn_requestId();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-      // Offset: 0x154EB08
+      // Offset: 0x1557D10
       // ABORTED: conflicts with another method.  RequestWaiterId(::System::Net::IPEndPoint* endPoint, uint requestId);
       // public System.Boolean Equals(BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiterId other)
-      // Offset: 0x15522C8
+      // Offset: 0x155B4D0
       bool Equals(::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId other);
       // public override System.Boolean Equals(System.Object other)
-      // Offset: 0x155230C
+      // Offset: 0x155B514
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object other)
       bool Equals(::Il2CppObject* other);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x15523A4
+      // Offset: 0x155B5AC
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -285,7 +285,7 @@ namespace BGNet::Core::Messages {
       // Get instance field reference: public readonly System.UInt32 protocolVersion
       [[deprecated("Use field access instead!")]] uint& dyn_protocolVersion();
       // public System.Void .ctor(System.Net.IPEndPoint endPoint, System.UInt32 protocolVersion)
-      // Offset: 0x154FCFC
+      // Offset: 0x1558F04
       // ABORTED: conflicts with another method.  MessageOrigin(::System::Net::IPEndPoint* endPoint, uint protocolVersion);
     }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin
     #pragma pack(pop)
@@ -506,13 +506,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Threading.CancellationTokenSource _disposedTokenSource
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__disposedTokenSource();
     // protected PacketEncryptionLayer get_encryptionLayer()
-    // Offset: 0x1544AFC
+    // Offset: 0x154DD04
     ::GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
     // protected BGNet.Core.ITimeProvider get_timeProvider()
-    // Offset: 0x154E2D0
+    // Offset: 0x15574D8
     ::BGNet::Core::ITimeProvider* get_timeProvider();
     // protected System.Void .ctor(IUnconnectedMessageSender sender, BGNet.Core.ITimeProvider timeProvider, BGNet.Core.IAnalyticsManager analytics)
-    // Offset: 0x1544138
+    // Offset: 0x154D340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler* New_ctor(::GlobalNamespace::IUnconnectedMessageSender* sender, ::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::IAnalyticsManager* analytics) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::.ctor");
@@ -530,16 +530,16 @@ namespace BGNet::Core::Messages {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, messageType, serializer, obtainMultipartMessage, obtainAcknowledgeMessage);
     }
     // protected System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x1544F18
+    // Offset: 0x154E120
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x1544E20
+    // Offset: 0x154E028
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // private BGNet.Core.Messages.BaseMultipartMessage GetMultipartMessage(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x154E2D8
+    // Offset: 0x15574E0
     ::BGNet::Core::Messages::BaseMultipartMessage* GetMultipartMessage(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // private BGNet.Core.Messages.BaseAcknowledgeMessage GetAcknowledgeMessage(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x154E36C
+    // Offset: 0x1557574
     ::BGNet::Core::Messages::BaseAcknowledgeMessage* GetAcknowledgeMessage(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected System.Func`2<BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin,T> ObtainVersioned(System.Func`2<System.UInt32,T> obtain)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -620,13 +620,13 @@ namespace BGNet::Core::Messages {
       return ::il2cpp_utils::RunMethodRethrow<::System::Action_2<T, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin>*, false>(this, ___generic__method, customHandler);
     }
     // private System.Boolean IsUnhandledMessage(BGNet.Core.Messages.IUnconnectedReliableRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x154E400
+    // Offset: 0x1557608
     bool IsUnhandledMessage(::BGNet::Core::Messages::IUnconnectedReliableRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // private System.Void CompleteSend(BGNet.Core.Messages.IUnconnectedResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x154E97C
+    // Offset: 0x1557B84
     void CompleteSend(::BGNet::Core::Messages::IUnconnectedResponse* packet, ::System::Net::IPEndPoint* remoteEndPoint);
     // protected System.Boolean CompleteRequest(BGNet.Core.Messages.IUnconnectedReliableResponse packet, System.Net.IPEndPoint remoteEndPoint)
-    // Offset: 0x15452C0
+    // Offset: 0x154E4C8
     bool CompleteRequest(::BGNet::Core::Messages::IUnconnectedReliableResponse* packet, ::System::Net::IPEndPoint* remoteEndPoint);
     // protected System.Void GetAndSendResponse(TRequest request, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin, System.Func`3<TRequest,BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -662,28 +662,28 @@ namespace BGNet::Core::Messages {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Void SendUnreliableMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
-    // Offset: 0x154ECBC
+    // Offset: 0x1557EC4
     void SendUnreliableMessage(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, BGNet.Core.Messages.IUnconnectedResponse response)
-    // Offset: 0x154A2E0
+    // Offset: 0x15534E8
     void SendUnreliableResponse(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::BGNet::Core::Messages::IUnconnectedResponse* response);
     // protected System.Void SendUnreliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, BGNet.Core.Messages.IUnconnectedResponse response)
-    // Offset: 0x154E738
+    // Offset: 0x1557940
     void SendUnreliableResponse(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, uint responseId, ::BGNet::Core::Messages::IUnconnectedResponse* response);
     // protected System.Void SendReliableRequest(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154EED4
+    // Offset: 0x15580DC
     void SendReliableRequest(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableRequestAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154808C
+    // Offset: 0x1551294
     ::System::Threading::Tasks::Task* SendReliableRequestAsync(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* onSendFailed, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, BGNet.Core.Messages.IUnconnectedReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F180
+    // Offset: 0x1558388
     void SendReliableResponse(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Void SendReliableResponse(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, BGNet.Core.Messages.IUnconnectedReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154C774
+    // Offset: 0x155597C
     void SendReliableResponse(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, uint responseId, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task SendReliableResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, BGNet.Core.Messages.IUnconnectedReliableResponse response, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F2E0
+    // Offset: 0x15584E8
     ::System::Threading::Tasks::Task* SendReliableResponseAsync(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response, ::System::Threading::CancellationToken cancellationToken);
     // protected System.Threading.Tasks.Task`1<T> SendReliableRequestAndAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -716,19 +716,19 @@ namespace BGNet::Core::Messages {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, responseId, response, cancellationToken);
     }
     // private System.Void SendMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x154ED60
+    // Offset: 0x1557F68
     void SendMessage(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedMessage* message);
     // private System.Void SendMessageWithRetry(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F008
+    // Offset: 0x1558210
     void SendMessageWithRetry(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F0EC
+    // Offset: 0x15582F4
     ::System::Threading::Tasks::Task* SendMessageWithRetryAsync(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* onSendFailed, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMultipartMessageWithRetryAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, LiteNetLib.Utils.NetDataWriter data, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F640
+    // Offset: 0x1558848
     ::System::Threading::Tasks::Task* SendMultipartMessageWithRetryAsync(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::LiteNetLib::Utils::NetDataWriter* data, ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* onSendFailed, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendMessageWithRetryAsyncInternal(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> onSendFailed, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F784
+    // Offset: 0x155898C
     ::System::Threading::Tasks::Task* SendMessageWithRetryAsyncInternal(uint protocolVersion, ::System::Net::IPEndPoint* remoteEndPoint, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message, ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* onSendFailed, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<T> SendMessageWithRetryAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, BGNet.Core.Messages.IUnconnectedReliableRequest message, System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -761,49 +761,49 @@ namespace BGNet::Core::Messages {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, requestId, cancellationToken);
     }
     // private System.Threading.Tasks.Task WaitForRetry(System.Int32 retryAttempt, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x154F8C4
+    // Offset: 0x1558ACC
     ::System::Threading::Tasks::Task* WaitForRetry(int retryAttempt, ::System::Threading::CancellationToken cancellationToken);
     // private LiteNetLib.Utils.NetDataWriter Write(System.UInt32 protocolVersion, BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x154F4FC
+    // Offset: 0x1558704
     ::LiteNetLib::Utils::NetDataWriter* Write(uint protocolVersion, ::BGNet::Core::Messages::IUnconnectedMessage* message);
     // public System.Void PollUpdate()
-    // Offset: 0x1549BB8
+    // Offset: 0x1552DC0
     void PollUpdate();
     // public System.Void ReceiveUnconnectedMessage(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x154FB18
+    // Offset: 0x1558D20
     void ReceiveUnconnectedMessage(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint endPoint)
-    // Offset: 0x154FD08
+    // Offset: 0x1558F10
     bool ShouldHandleMessageFromEndPoint(::System::Net::IPEndPoint* endPoint);
     // protected System.Void ReceivedMessageException(System.Net.IPEndPoint endPoint, System.Exception exception)
-    // Offset: 0x154FD10
+    // Offset: 0x1558F18
     void ReceivedMessageException(::System::Net::IPEndPoint* endPoint, ::System::Exception* exception);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint)
-    // Offset: 0x1545F34
+    // Offset: 0x154F13C
     void BeginSession(::System::Net::IPEndPoint* endPoint);
     // protected System.Void BeginSession(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x154A0D0
+    // Offset: 0x15532D8
     void BeginSession(::System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.UInt32 GetNextRequestId(System.Net.IPEndPoint endPoint)
-    // Offset: 0x15477A4
+    // Offset: 0x15509AC
     uint GetNextRequestId(::System::Net::IPEndPoint* endPoint);
     // protected BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.ConnectionState GetConnectionState(System.Net.IPEndPoint endPoint)
-    // Offset: 0x15478D4
+    // Offset: 0x1550ADC
     ::BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState* GetConnectionState(::System::Net::IPEndPoint* endPoint);
     // protected System.Boolean IsValidSessionStartRequestId(System.Net.IPEndPoint endPoint, System.UInt32 requestId)
-    // Offset: 0x154A1EC
+    // Offset: 0x15533F4
     bool IsValidSessionStartRequestId(::System::Net::IPEndPoint* endPoint, uint requestId);
     // protected System.Boolean IsConnectionStateEncrypted(System.Net.IPEndPoint endPoint)
-    // Offset: 0x1543EF0
+    // Offset: 0x154D0F8
     bool IsConnectionStateEncrypted(::System::Net::IPEndPoint* endPoint);
     // private INetworkPacketSerializer`1<BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin> GetSerializer(System.UInt32 protocolVersion, System.UInt32 messageType, System.Boolean throwOnInvalidVersion)
-    // Offset: 0x154F9D8
+    // Offset: 0x1558BE0
     ::GlobalNamespace::INetworkPacketSerializer_1<::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin>* GetSerializer(uint protocolVersion, uint messageType, bool throwOnInvalidVersion);
     // public System.Void Dispose()
-    // Offset: 0x1544C90
+    // Offset: 0x154DE98
     void Dispose();
     // static protected System.Byte[] CreateHandshakeHeader(System.Byte[] packetHeader)
-    // Offset: 0x1544BB0
+    // Offset: 0x154DDB8
     static ::ArrayW<uint8_t> CreateHandshakeHeader(::ArrayW<uint8_t> packetHeader);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler
   #pragma pack(pop)

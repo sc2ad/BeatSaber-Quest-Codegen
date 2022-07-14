@@ -60,23 +60,23 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger pgenCounter
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_pgenCounter();
     // public Org.BouncyCastle.Asn1.DerBitString get_Seed()
-    // Offset: 0x1F13688
+    // Offset: 0x1F21B00
     ::Org::BouncyCastle::Asn1::DerBitString* get_Seed();
     // public Org.BouncyCastle.Asn1.DerInteger get_PgenCounter()
-    // Offset: 0x1F13690
+    // Offset: 0x1F21B08
     ::Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F13518
+    // Offset: 0x1F21990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::DHValidationParms::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParms*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X9.DHValidationParms GetInstance(System.Object obj)
-    // Offset: 0x1F12F84
+    // Offset: 0x1F213FC
     static ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F13698
+    // Offset: 0x1F21B10
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -26,7 +26,7 @@ namespace Oculus::Platform {
   class Vrcamera : public ::Il2CppObject {
     public:
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x2A79A74
+    // Offset: 0x2A92EFC
     static void SetGetSurfaceUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
   }; // Oculus.Platform.Vrcamera
   #pragma pack(pop)

@@ -42,10 +42,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   class TestResultExtensions : public ::Il2CppObject {
     public:
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x1978CB8
+    // Offset: 0x19830A4
     static void RecordPrefixedException(::NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::System::Exception* ex, ::NUnit::Framework::Interfaces::ResultState* resultState);
     // static public System.Void RecordPrefixedError(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.String error, NUnit.Framework.Interfaces.ResultState resultState)
-    // Offset: 0x1979128
+    // Offset: 0x1983514
     static void RecordPrefixedError(::NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::StringW error, ::NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
   #pragma pack(pop)

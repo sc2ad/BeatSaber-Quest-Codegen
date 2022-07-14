@@ -183,31 +183,31 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String sessionToken
     [[deprecated("Use field access instead!")]] ::StringW& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.String sessionToken)
-    // Offset: 0x15418D4
+    // Offset: 0x154AADC
     // ABORTED: conflicts with another method.  AuthenticationToken(::GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15418E4
+    // Offset: 0x154AAEC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1541AB0
+    // Offset: 0x154ACB8
     ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1541AB8
+    // Offset: 0x154ACC0
     static ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // static private System.Byte[] FromHex(System.String str)
-    // Offset: 0x15419B8
+    // Offset: 0x154ABC0
     static ::ArrayW<uint8_t> FromHex(::StringW str);
     // static private System.Byte GetHexVal(System.Char c)
-    // Offset: 0x1541C7C
+    // Offset: 0x154AE84
     static uint8_t GetHexVal(::Il2CppChar c);
     // static private System.Byte[] FromUtf8(System.String str)
-    // Offset: 0x154197C
+    // Offset: 0x154AB84
     static ::ArrayW<uint8_t> FromUtf8(::StringW str);
     // static private System.String ToHex(System.Byte[] bytes)
-    // Offset: 0x1541BEC
+    // Offset: 0x154ADF4
     static ::StringW ToHex(::ArrayW<uint8_t> bytes);
     // static private System.String ToUtf8(System.Byte[] bytes)
-    // Offset: 0x1541BB0
+    // Offset: 0x154ADB8
     static ::StringW ToUtf8(::ArrayW<uint8_t> bytes);
   }; // AuthenticationToken
   #pragma pack(pop)

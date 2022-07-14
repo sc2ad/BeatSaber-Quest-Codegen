@@ -71,37 +71,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <width>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$width$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2A9E69C
+    // Offset: 0x2AB7B24
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2A9E6A4
+    // Offset: 0x2AB7B2C
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2A9E6AC
+    // Offset: 0x2AB7B34
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2A9E6B4
+    // Offset: 0x2AB7B3C
     void set_lineIndex(int value);
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x2A9E6BC
+    // Offset: 0x2AB7B44
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public System.Void set_lineLayer(NoteLineLayer value)
-    // Offset: 0x2A9E6C4
+    // Offset: 0x2AB7B4C
     void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2A9E6CC
+    // Offset: 0x2AB7B54
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2A9E6D4
+    // Offset: 0x2AB7B5C
     void set_duration(float value);
     // public System.Int32 get_width()
-    // Offset: 0x2A9E6DC
+    // Offset: 0x2AB7B64
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x2A9E6E4
+    // Offset: 0x2AB7B6C
     void set_width(int value);
     // public System.Void .ctor()
-    // Offset: 0x2A9E6EC
+    // Offset: 0x2AB7B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockObstacleData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockObstacleData::.ctor");

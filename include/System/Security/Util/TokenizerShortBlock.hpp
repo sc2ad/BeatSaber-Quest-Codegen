@@ -46,7 +46,7 @@ namespace System::Security::Util {
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
     [[deprecated("Use field access instead!")]] ::System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()
-    // Offset: 0x211C1C8
+    // Offset: 0x2128640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

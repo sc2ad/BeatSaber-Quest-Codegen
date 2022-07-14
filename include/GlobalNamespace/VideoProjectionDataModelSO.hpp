@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private VideoProjectionDataModelSO/VideoClipWithId[] _videoClipsWithId
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId*>& dyn__videoClipsWithId();
     // public VideoProjectionDataModelSO/VideoClipWithId[] get_videoClipWithIds()
-    // Offset: 0x28678D8
+    // Offset: 0x287FD50
     ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId*> get_videoClipWithIds();
     // public System.Void .ctor()
-    // Offset: 0x28678E0
+    // Offset: 0x287FD58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionDataModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionDataModelSO::.ctor");

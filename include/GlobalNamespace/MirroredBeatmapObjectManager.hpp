@@ -161,38 +161,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<SliderController,MirroredSliderController> _sliderControllersToMirroredSliderControllers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>*& dyn__sliderControllersToMirroredSliderControllers();
     // public System.Void .ctor()
-    // Offset: 0x13012FC
+    // Offset: 0x1306D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBeatmapObjectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirroredBeatmapObjectManager*, creationType>()));
     }
     // private System.Void Init(BeatmapObjectManager beatmapObjectManager, MirroredGameNoteController/Pool mirroredBasicGameNotePool, MirroredGameNoteController/Pool burstSliderHeadGameNotePool, MirroredGameNoteController/Pool burstSliderGameNotePool, MirroredGameNoteController/Pool burstSliderFillPool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool, MirroredSliderController/Pool mirroredSlidersPool)
-    // Offset: 0x12FFCF0
+    // Offset: 0x1305750
     void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::MirroredGameNoteController::Pool* mirroredBasicGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderGameNotePool, ::GlobalNamespace::MirroredGameNoteController::Pool* burstSliderFillPool, ::GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, ::GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool, ::GlobalNamespace::MirroredSliderController::Pool* mirroredSlidersPool);
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x130031C
+    // Offset: 0x1305D7C
     void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasDespawned(NoteController noteController)
-    // Offset: 0x1300518
+    // Offset: 0x1305F78
     void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
-    // Offset: 0x1300654
+    // Offset: 0x13060B4
     void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
-    // Offset: 0x13007E0
+    // Offset: 0x1306240
     void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleSliderWasSpawned(SliderController sliderController)
-    // Offset: 0x1300890
+    // Offset: 0x13062F0
     void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
     // private System.Void HandleSliderWasDespawned(SliderController sliderController)
-    // Offset: 0x1300B40
+    // Offset: 0x13065A0
     void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
     // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x1300BF0
+    // Offset: 0x1306650
     void HandleDidHideAllBeatmapObjects(bool hide);
     // protected override System.Void Finalize()
-    // Offset: 0x1300068
+    // Offset: 0x1305AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

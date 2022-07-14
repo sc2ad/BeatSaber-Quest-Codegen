@@ -44,14 +44,14 @@ namespace Zenject {
     // Nested type: ::Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
     public:
-    // [InjectAttribute] Offset: 0x10A64D0
+    // [InjectAttribute] Offset: 0x10AFC20
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     ::Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(::Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0x10A64E0
+    // [InjectAttribute] Offset: 0x10AFC30
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -64,16 +64,16 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry
     [[deprecated("Use field access instead!")]] ::Zenject::SceneContextRegistry*& dyn__contextRegistry();
     // public System.Void OnApplicationQuit()
-    // Offset: 0x1C10588
+    // Offset: 0x1C1E974
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x1C105AC
+    // Offset: 0x1C1E998
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x1C10654
+    // Offset: 0x1C1EA40
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x1C10990
+    // Offset: 0x1C1ED7C
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,17 +82,17 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel*, creationType>()));
     }
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C10998
+    // Offset: 0x1C1ED84
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::__zenFieldSetter0(System.Object P_0, System.Object P_1)
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C10A6C
+    // Offset: 0x1C1EE58
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::__zenFieldSetter1(System.Object P_0, System.Object P_1)
     static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C10B40
+    // Offset: 0x1C1EF2C
     // Implemented from: Zenject.MonoKernel
     // Base method: Zenject.InjectTypeInfo MonoKernel::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

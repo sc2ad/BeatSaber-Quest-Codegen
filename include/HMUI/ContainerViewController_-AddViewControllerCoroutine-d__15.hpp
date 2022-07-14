@@ -137,26 +137,26 @@ namespace HMUI {
     // Get instance field reference: private System.Single <elapsedTime>5__4
     [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x16F77A8
+    // Offset: 0x1701B94
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16F7810
+    // Offset: 0x1701BFC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16F71E0
+    // Offset: 0x17015CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContainerViewController::$AddViewControllerCoroutine$d__15* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ContainerViewController::$AddViewControllerCoroutine$d__15::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContainerViewController::$AddViewControllerCoroutine$d__15*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16F75E4
+    // Offset: 0x17019D0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16F75E8
+    // Offset: 0x17019D4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16F77B0
+    // Offset: 0x1701B9C
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ContainerViewController/HMUI.<AddViewControllerCoroutine>d__15
   #pragma pack(pop)

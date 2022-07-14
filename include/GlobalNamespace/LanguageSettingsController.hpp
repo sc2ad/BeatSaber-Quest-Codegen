@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LanguageSO _settingsValue
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x1372FC4
+    // Offset: 0x13A3A1C
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,17 +56,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LanguageSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x1372DFC
+    // Offset: 0x13A3854
     // Implemented from: DropdownSettingsController
     // Base method: System.Boolean DropdownSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1372EA8
+    // Offset: 0x13A3900
     // Implemented from: DropdownSettingsController
     // Base method: System.Void DropdownSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1372F44
+    // Offset: 0x13A399C
     // Implemented from: DropdownSettingsController
     // Base method: System.String DropdownSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

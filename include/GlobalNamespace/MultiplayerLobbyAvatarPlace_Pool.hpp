@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerLobbyAvatarPlace::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x141FD6C
+    // Offset: 0x14159AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarPlace::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool::.ctor");

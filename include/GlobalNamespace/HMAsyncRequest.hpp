@@ -58,19 +58,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest/CancelHander _cancelHander
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMAsyncRequest::CancelHander*& dyn__cancelHander();
     // public HMAsyncRequest/CancelHander get_CancelHandler()
-    // Offset: 0x15A9624
+    // Offset: 0x15B3A10
     ::GlobalNamespace::HMAsyncRequest::CancelHander* get_CancelHandler();
     // public System.Void set_CancelHandler(HMAsyncRequest/CancelHander value)
-    // Offset: 0x15A962C
+    // Offset: 0x15B3A18
     void set_CancelHandler(::GlobalNamespace::HMAsyncRequest::CancelHander* value);
     // public System.Boolean get_cancelled()
-    // Offset: 0x15A9634
+    // Offset: 0x15B3A20
     bool get_cancelled();
     // public System.Void Cancel()
-    // Offset: 0x15A963C
+    // Offset: 0x15B3A28
     void Cancel();
     // public System.Void .ctor()
-    // Offset: 0x15A99EC
+    // Offset: 0x15B3DD8
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

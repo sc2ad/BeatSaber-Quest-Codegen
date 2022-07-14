@@ -47,21 +47,21 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::VRsenalScoreLogger::$Start$d__3
     class $Start$d__3;
     public:
-    // [InjectAttribute] Offset: 0x10D1180
+    // [InjectAttribute] Offset: 0x10D8900
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D1190
+    // [InjectAttribute] Offset: 0x10D8910
     // private IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D11A0
+    // [InjectAttribute] Offset: 0x10D8920
     // private ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x28
@@ -78,23 +78,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILevelEndActions _levelEndActions
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__levelEndActions();
     // public System.Void .ctor()
-    // Offset: 0x28660AC
+    // Offset: 0x287E524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRsenalScoreLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRsenalScoreLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRsenalScoreLogger*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2865DEC
+    // Offset: 0x287E264
     ::System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2865E88
+    // Offset: 0x287E300
     void OnDestroy();
     // private System.Void HandleLevelFinishedEvent()
-    // Offset: 0x2865F80
+    // Offset: 0x287E3F8
     void HandleLevelFinishedEvent();
     // private System.Void LogScore()
-    // Offset: 0x2865F84
+    // Offset: 0x287E3FC
     void LogScore();
   }; // VRsenalScoreLogger
   #pragma pack(pop)

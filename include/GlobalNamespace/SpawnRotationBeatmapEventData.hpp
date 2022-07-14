@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10AF7FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B7F4C
     // Get static field: static private readonly BeatmapEventData _defaultCopy
     static ::GlobalNamespace::BeatmapEventData* _get__defaultCopy();
     // Set static field: static private readonly BeatmapEventData _defaultCopy
@@ -114,37 +114,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _deltaRotation
     [[deprecated("Use field access instead!")]] float& dyn__deltaRotation();
     // public System.Single get_rotation()
-    // Offset: 0x2829750
+    // Offset: 0x283FBC8
     float get_rotation();
     // private System.Void set_rotation(System.Single value)
-    // Offset: 0x2829758
+    // Offset: 0x283FBD0
     void set_rotation(float value);
     // public System.Void .ctor(System.Single time, SpawnRotationBeatmapEventData/SpawnRotationEventType spawnRotationEventType, System.Single deltaRotation)
-    // Offset: 0x2829760
+    // Offset: 0x283FBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationBeatmapEventData* New_ctor(float time, ::GlobalNamespace::SpawnRotationBeatmapEventData::SpawnRotationEventType spawnRotationEventType, float deltaRotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationBeatmapEventData*, creationType>(time, spawnRotationEventType, deltaRotation)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x28298FC
+    // Offset: 0x283FD74
     static void _cctor();
     // public System.Void Mirror()
-    // Offset: 0x28297CC
+    // Offset: 0x283FC44
     void Mirror();
     // public System.Void RecalculateRotationFromPreviousEvent(SpawnRotationBeatmapEventData previousSpawnRotationBeatmapEventData)
-    // Offset: 0x2829864
+    // Offset: 0x283FCDC
     void RecalculateRotationFromPreviousEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* previousSpawnRotationBeatmapEventData);
     // public System.Void SetFirstRotationEventRotation()
-    // Offset: 0x2829888
+    // Offset: 0x283FD00
     void SetFirstRotationEventRotation();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x28297E8
+    // Offset: 0x283FC60
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x2829894
+    // Offset: 0x283FD0C
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

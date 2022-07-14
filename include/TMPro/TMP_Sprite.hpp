@@ -83,7 +83,7 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Sprite sprite
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_sprite();
     // public System.Void .ctor()
-    // Offset: 0x144D3C8
+    // Offset: 0x146C728
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

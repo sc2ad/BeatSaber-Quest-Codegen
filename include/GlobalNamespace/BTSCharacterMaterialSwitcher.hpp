@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>& dyn__rendererMaterialsPairs();
     // public System.Void .ctor()
-    // Offset: 0x14FBEE8
+    // Offset: 0x15050F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher*, creationType>()));
     }
     // public System.Void SwapMaterials(System.Boolean alternative)
-    // Offset: 0x14FBC60
+    // Offset: 0x1504E68
     void SwapMaterials(bool alternative);
   }; // BTSCharacterMaterialSwitcher
   #pragma pack(pop)

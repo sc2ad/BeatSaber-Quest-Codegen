@@ -43,14 +43,14 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Dropdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1E50F20
+    // Offset: 0x1E6030C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::$$c__DisplayClass62_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::$$c__DisplayClass62_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::$$c__DisplayClass62_0*, creationType>()));
     }
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x1E50F28
+    // Offset: 0x1E60314
     void $Show$b__0(bool x);
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.<>c__DisplayClass62_0
   #pragma pack(pop)

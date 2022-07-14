@@ -66,26 +66,26 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier encryptionParamSet
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_encryptionParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x1C24CA0
+    // Offset: 0x1C3408C
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
-    // Offset: 0x1C24CA8
+    // Offset: 0x1C34094
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
-    // Offset: 0x1C24CB0
+    // Offset: 0x1C3409C
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C24B44
+    // Offset: 0x1C33F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
-    // Offset: 0x1C24AA4
+    // Offset: 0x1C33E90
     static ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C24CB8
+    // Offset: 0x1C340A4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

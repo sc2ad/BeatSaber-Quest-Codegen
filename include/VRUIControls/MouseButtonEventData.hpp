@@ -55,17 +55,17 @@ namespace VRUIControls {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Void .ctor()
-    // Offset: 0x2A51290
+    // Offset: 0x2A69718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseButtonEventData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseButtonEventData*, creationType>()));
     }
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x2A51268
+    // Offset: 0x2A696F0
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x2A5127C
+    // Offset: 0x2A69704
     bool ReleasedThisFrame();
   }; // VRUIControls.MouseButtonEventData
   #pragma pack(pop)

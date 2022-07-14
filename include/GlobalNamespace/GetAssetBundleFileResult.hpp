@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String assetBundlePath
     [[deprecated("Use field access instead!")]] ::StringW& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0x13FAE84
+    // Offset: 0x13D8E4C
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath);
   }; // GetAssetBundleFileResult
   #pragma pack(pop)

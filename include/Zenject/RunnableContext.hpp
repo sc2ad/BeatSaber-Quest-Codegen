@@ -41,7 +41,7 @@ namespace Zenject {
   class RunnableContext : public ::Zenject::Context {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10A5F1C
+    // [TooltipAttribute] Offset: 0x10AF66C
     // private System.Boolean _autoRun
     // Size: 0x1
     // Offset: 0x40
@@ -64,19 +64,19 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean <Initialized>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$Initialized$k__BackingField();
     // public System.Boolean get_Initialized()
-    // Offset: 0x1C12444
+    // Offset: 0x1C20830
     bool get_Initialized();
     // private System.Void set_Initialized(System.Boolean value)
-    // Offset: 0x1C1244C
+    // Offset: 0x1C20838
     void set_Initialized(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1C1258C
+    // Offset: 0x1C20978
     static void _cctor();
     // protected System.Void Initialize()
-    // Offset: 0x1C12458
+    // Offset: 0x1C20844
     void Initialize();
     // public System.Void Run()
-    // Offset: 0x1C12504
+    // Offset: 0x1C208F0
     void Run();
     // protected System.Void RunInternal()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -92,7 +92,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1C1257C
+    // Offset: 0x1C20968
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,7 +101,7 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<RunnableContext*, creationType>()));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C125E0
+    // Offset: 0x1C209CC
     // Implemented from: Zenject.Context
     // Base method: Zenject.InjectTypeInfo Context::__zenCreateInjectTypeInfo()
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

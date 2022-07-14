@@ -44,19 +44,19 @@ namespace System::Text {
     // Get instance field reference: System.Int32 readByteCount
     [[deprecated("Use field access instead!")]] int& dyn_readByteCount();
     // public System.Void .ctor(System.Text.UTF32Encoding encoding)
-    // Offset: 0x207524C
+    // Offset: 0x20826C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF32Encoding::UTF32Decoder* New_ctor(::System::Text::UTF32Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::UTF32Encoding::UTF32Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF32Encoding::UTF32Decoder*, creationType>(encoding)));
     }
     // override System.Boolean get_HasState()
-    // Offset: 0x2075760
+    // Offset: 0x2082BD8
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Boolean DecoderNLS::get_HasState()
     bool get_HasState();
     // public override System.Void Reset()
-    // Offset: 0x2075740
+    // Offset: 0x2082BB8
     // Implemented from: System.Text.DecoderNLS
     // Base method: System.Void DecoderNLS::Reset()
     void Reset();

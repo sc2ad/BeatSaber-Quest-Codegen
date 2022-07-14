@@ -53,10 +53,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Int32 height
     [[deprecated("Use field access instead!")]] int& dyn_height();
     // static public LIV.SDK.Unity.SDKResolution get_zero()
-    // Offset: 0x2A4A130
+    // Offset: 0x2A625B8
     static ::LIV::SDK::Unity::SDKResolution get_zero();
     // public override System.String ToString()
-    // Offset: 0x2A50338
+    // Offset: 0x2A687C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

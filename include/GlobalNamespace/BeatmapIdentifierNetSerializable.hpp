@@ -86,58 +86,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty <difficulty>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$k__BackingField();
     // public System.String get_levelID()
-    // Offset: 0x29FAF48
+    // Offset: 0x2A123C0
     ::StringW get_levelID();
     // private System.Void set_levelID(System.String value)
-    // Offset: 0x29FAF50
+    // Offset: 0x2A123C8
     void set_levelID(::StringW value);
     // public System.String get_beatmapCharacteristicSerializedName()
-    // Offset: 0x29FAF58
+    // Offset: 0x2A123D0
     ::StringW get_beatmapCharacteristicSerializedName();
     // private System.Void set_beatmapCharacteristicSerializedName(System.String value)
-    // Offset: 0x29FAF60
+    // Offset: 0x2A123D8
     void set_beatmapCharacteristicSerializedName(::StringW value);
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x29FAF68
+    // Offset: 0x2A123E0
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // private System.Void set_difficulty(BeatmapDifficulty value)
-    // Offset: 0x29FAF70
+    // Offset: 0x2A123E8
     void set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public System.Void .ctor()
-    // Offset: 0x29FAF78
+    // Offset: 0x2A123F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapIdentifierNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapIdentifierNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapIdentifierNetSerializable*, creationType>()));
     }
     // public System.Void .ctor(System.String levelID, System.String beatmapCharacteristicSerializedName, BeatmapDifficulty difficulty)
-    // Offset: 0x29FAF80
+    // Offset: 0x2A123F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapIdentifierNetSerializable* New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapIdentifierNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapIdentifierNetSerializable*, creationType>(levelID, beatmapCharacteristicSerializedName, difficulty)));
     }
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FAFC0
+    // Offset: 0x2A12438
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29FB028
+    // Offset: 0x2A124A0
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Boolean Equals(BeatmapIdentifierNetSerializable other)
-    // Offset: 0x29FB080
+    // Offset: 0x2A124F8
     bool Equals(::GlobalNamespace::BeatmapIdentifierNetSerializable* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29FB0F4
+    // Offset: 0x2A1256C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29FB204
+    // Offset: 0x2A1267C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29FB26C
+    // Offset: 0x2A126E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

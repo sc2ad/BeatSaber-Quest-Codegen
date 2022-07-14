@@ -69,17 +69,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels _instance
     [[deprecated("Use field access instead!")]] ::Valve::VR::CVRRenderModels*& dyn__instance();
     // public Valve.VR.CVRRenderModels get_instance()
-    // Offset: 0x18ACE58
+    // Offset: 0x18B6244
     ::Valve::VR::CVRRenderModels* get_instance();
     // public System.Void .ctor()
-    // Offset: 0x18AC794
+    // Offset: 0x18B5B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModelInterfaceHolder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::RenderModelInterfaceHolder*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x18AF4BC
+    // Offset: 0x18B88A8
     void Dispose();
   }; // SteamVR_RenderModel/RenderModelInterfaceHolder
   #pragma pack(pop)

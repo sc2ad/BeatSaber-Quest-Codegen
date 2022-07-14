@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapLevelPackSO
-  class BeatmapLevelPackSO;
+  // Forward declaring type: PreviewBeatmapLevelPackSO
+  class PreviewBeatmapLevelPackSO;
   // Forward declaring type: BeatmapLevelSO
   class BeatmapLevelSO;
   // Forward declaring type: IBeatmapLevelPack
@@ -42,13 +42,13 @@ namespace GlobalNamespace {
   class DlcPromoPanelDataSO::MusicPackPromoInfo : public ::Il2CppObject {
     public:
     public:
-    // private BeatmapLevelPackSO _beatmapLevelPack
+    // private PreviewBeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
+    ::GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x10E96BC
+    static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
+    // [NullAllowed] Offset: 0x10F0F3C
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -62,23 +62,23 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
-    // Get instance field reference: private BeatmapLevelPackSO _beatmapLevelPack
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    // Get instance field reference: private PreviewBeatmapLevelPackSO _beatmapLevelPack
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__bannerImage();
     // public IBeatmapLevelPack get_previewBeatmapLevelPack()
-    // Offset: 0x1409DD8
+    // Offset: 0x1493F6C
     ::GlobalNamespace::IBeatmapLevelPack* get_previewBeatmapLevelPack();
     // public IPreviewBeatmapLevel get_previewBeatmapLevel()
-    // Offset: 0x1409DE0
+    // Offset: 0x1493F74
     ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
     // public UnityEngine.Sprite get_bannerImage()
-    // Offset: 0x1409DE8
+    // Offset: 0x1493F7C
     ::UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
-    // Offset: 0x1409DF0
+    // Offset: 0x1493F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelDataSO::MusicPackPromoInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::.ctor");

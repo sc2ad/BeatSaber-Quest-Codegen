@@ -37,7 +37,7 @@ namespace BGNet::Logging {
     class LoggerLinkedList;
     // Nested type: ::BGNet::Logging::Debug::ILogger
     class ILogger;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B4E74
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BD5C4
     // Get static field: static private readonly System.Object _loggersMutex
     static ::Il2CppObject* _get__loggersMutex();
     // Set static field: static private readonly System.Object _loggersMutex
@@ -47,28 +47,28 @@ namespace BGNet::Logging {
     // Set static field: static private BGNet.Logging.Debug/BGNet.Logging.LoggerLinkedList _loggers
     static void _set__loggers(::BGNet::Logging::Debug::LoggerLinkedList* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AE3578
+    // Offset: 0x2AFBA00
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x2AE339C
+    // Offset: 0x2AFB824
     static void NoDomainReloadInit();
     // static public System.Void AddLogger(BGNet.Logging.Debug/BGNet.Logging.ILogger logger)
-    // Offset: 0x2AE3430
+    // Offset: 0x2AFB8B8
     static void AddLogger(::BGNet::Logging::Debug::ILogger* logger);
     // static public System.Void RemoveLogger(BGNet.Logging.Debug/BGNet.Logging.ILogger logger)
-    // Offset: 0x2AE3610
+    // Offset: 0x2AFBA98
     static void RemoveLogger(::BGNet::Logging::Debug::ILogger* logger);
     // static public System.Void Log(System.String message)
-    // Offset: 0x2AE385C
+    // Offset: 0x2AFBCE4
     static void Log(::StringW message);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x2AE395C
+    // Offset: 0x2AFBDE4
     static void LogError(::StringW message);
     // static public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0x2AE3A60
+    // Offset: 0x2AFBEE8
     static void LogException(::System::Exception* exception, ::StringW message);
     // static public System.Void LogWarning(System.String message)
-    // Offset: 0x2AE3B74
+    // Offset: 0x2AFBFFC
     static void LogWarning(::StringW message);
   }; // BGNet.Logging.Debug
   #pragma pack(pop)

@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.PropertyName <id>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::PropertyName& dyn_$id$k__BackingField();
     // public UnityEngine.PropertyName get_id()
-    // Offset: 0x2A27484
+    // Offset: 0x2A3D8FC
     ::UnityEngine::PropertyName get_id();
     // public System.Void .ctor()
-    // Offset: 0x2A2748C
+    // Offset: 0x2A3D904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelinePauseMarker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelinePauseMarker::.ctor");

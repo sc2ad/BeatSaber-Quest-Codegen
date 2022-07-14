@@ -50,14 +50,14 @@ namespace GlobalNamespace {
   class DeeplinkManagerToDestinationRequestManagerAdapter : public ::Il2CppObject/*, public ::GlobalNamespace::IDestinationRequestManager*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D30F0
+    // [InjectAttribute] Offset: 0x10DA880
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D3100
+    // [InjectAttribute] Offset: 0x10DA890
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -94,32 +94,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuDestination _currentMenuDestinationRequest
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuDestination*& dyn__currentMenuDestinationRequest();
     // public MenuDestination get_currentMenuDestinationRequest()
-    // Offset: 0x14079C8
+    // Offset: 0x1491964
     ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
     // public System.Void set_currentMenuDestinationRequest(MenuDestination value)
-    // Offset: 0x14079D0
+    // Offset: 0x149196C
     void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
     // public System.Void add_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x1407880
+    // Offset: 0x149181C
     void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
     // public System.Void remove_didSendMenuDestinationRequestEvent(System.Action`1<MenuDestination> value)
-    // Offset: 0x1407924
+    // Offset: 0x14918C0
     void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1408140
+    // Offset: 0x14920DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeeplinkManagerToDestinationRequestManagerAdapter*, creationType>()));
     }
     // public System.Void Init(IDeeplinkManager deeplinkManager)
-    // Offset: 0x1407A48
+    // Offset: 0x14919E4
     void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
     // public System.Void Clear()
-    // Offset: 0x1408138
+    // Offset: 0x14920D4
     void Clear();
     // protected System.Void HandleDeeplinkManagerDidReceiveDeeplink(Deeplink deeplink)
-    // Offset: 0x1407C20
+    // Offset: 0x1491BBC
     void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
   }; // DeeplinkManagerToDestinationRequestManagerAdapter
   #pragma pack(pop)

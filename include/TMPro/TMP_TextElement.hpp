@@ -80,34 +80,34 @@ namespace TMPro {
     // Get instance field reference: private System.Single m_Scale
     [[deprecated("Use field access instead!")]] float& dyn_m_Scale();
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0x18F94FC
+    // Offset: 0x19018E8
     ::TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0x18F9504
+    // Offset: 0x19018F0
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0x18F950C
+    // Offset: 0x19018F8
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0x18F9514
+    // Offset: 0x1901900
     ::UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0x18F951C
+    // Offset: 0x1901908
     void set_glyph(::UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x18F9524
+    // Offset: 0x1901910
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x18F952C
+    // Offset: 0x1901918
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0x18F9534
+    // Offset: 0x1901920
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x18F953C
+    // Offset: 0x1901928
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x18F9544
+    // Offset: 0x1901930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextElement::.ctor");

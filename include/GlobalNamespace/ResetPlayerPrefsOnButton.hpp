@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.KeyCode _keyCode
     [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn__keyCode();
     // public System.Void .ctor()
-    // Offset: 0x2A232D0
+    // Offset: 0x2A39748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetPlayerPrefsOnButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResetPlayerPrefsOnButton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPlayerPrefsOnButton*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x2A232A4
+    // Offset: 0x2A3971C
     void Update();
   }; // ResetPlayerPrefsOnButton
   #pragma pack(pop)

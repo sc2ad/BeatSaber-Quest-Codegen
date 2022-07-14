@@ -66,14 +66,14 @@ namespace Zenject {
     // Get instance field reference: public System.Type concreteType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_concreteType();
     // public System.Void .ctor()
-    // Offset: 0x1E09198
+    // Offset: 0x1E18584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::$$c__DisplayClass178_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$$c__DisplayClass178_0*, creationType>()));
     }
     // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x1E091A0
+    // Offset: 0x1E1858C
     bool $UnbindId$b__0(::Zenject::DiContainer::ProviderInfo* x);
   }; // Zenject.DiContainer/Zenject.<>c__DisplayClass178_0
   #pragma pack(pop)

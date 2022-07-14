@@ -29,7 +29,7 @@ namespace System::Xml {
   class XmlNameTable : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x15D7C10
+    // Offset: 0x15E1FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNameTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNameTable::.ctor");

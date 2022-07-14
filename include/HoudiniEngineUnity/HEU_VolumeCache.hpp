@@ -178,107 +178,107 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_DetailProperties _detailProperties
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_DetailProperties*& dyn__detailProperties();
     // public System.Boolean get_IsDirty()
-    // Offset: 0x1A089B8
+    // Offset: 0x1A12DA4
     bool get_IsDirty();
     // public System.Void set_IsDirty(System.Boolean value)
-    // Offset: 0x1A089C0
+    // Offset: 0x1A12DAC
     void set_IsDirty(bool value);
     // public System.Int32 get_TileIndex()
-    // Offset: 0x1A089CC
+    // Offset: 0x1A12DB8
     int get_TileIndex();
     // public System.String get_ObjectName()
-    // Offset: 0x1A089D4
+    // Offset: 0x1A12DC0
     ::StringW get_ObjectName();
     // public System.String get_GeoName()
-    // Offset: 0x1A089DC
+    // Offset: 0x1A12DC8
     ::StringW get_GeoName();
     // public System.Boolean get_UIExpanded()
-    // Offset: 0x1A089E4
+    // Offset: 0x1A12DD0
     bool get_UIExpanded();
     // public System.Void set_UIExpanded(System.Boolean value)
-    // Offset: 0x1A089EC
+    // Offset: 0x1A12DD8
     void set_UIExpanded(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1A0C3D8
+    // Offset: 0x1A167C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeCache*, creationType>()));
     }
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCache> UpdateVolumeCachesFromParts(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_GeoNode ownerNode, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> volumeParts, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCache> volumeCaches)
-    // Offset: 0x1A089F8
+    // Offset: 0x1A12DE4
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoNode* ownerNode, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches);
     // public System.Void Initialize(HoudiniEngineUnity.HEU_GeoNode ownerNode, System.Int32 tileIndex)
-    // Offset: 0x1A09530
+    // Offset: 0x1A1391C
     void Initialize(::HoudiniEngineUnity::HEU_GeoNode* ownerNode, int tileIndex);
     // public System.Void ResetParameters()
-    // Offset: 0x1A0957C
+    // Offset: 0x1A13968
     void ResetParameters();
     // public HoudiniEngineUnity.HEU_VolumeLayer GetLayer(System.String layerName)
-    // Offset: 0x1A09778
+    // Offset: 0x1A13B64
     ::HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::StringW layerName);
     // public System.Void StartUpdateLayers()
-    // Offset: 0x1A091A0
+    // Offset: 0x1A1358C
     void StartUpdateLayers();
     // public System.Void FinishUpdateLayers()
-    // Offset: 0x1A09570
+    // Offset: 0x1A1395C
     void FinishUpdateLayers();
     // private System.Void GetPartLayerAttributes(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HEU_VolumeLayer layer)
-    // Offset: 0x1A098A4
+    // Offset: 0x1A13C90
     void GetPartLayerAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer);
     // private System.Boolean LoadLayerTextureFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out UnityEngine.Texture2D outTexture)
-    // Offset: 0x1A099F4
+    // Offset: 0x1A13DE0
     bool LoadLayerTextureFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Texture2D*> outTexture);
     // private System.Boolean LoadLayerFloatFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.Single floatValue)
-    // Offset: 0x1A09C10
+    // Offset: 0x1A13FFC
     bool LoadLayerFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> floatValue);
     // private System.Boolean LoadLayerColorFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color colorValue)
-    // Offset: 0x1A09D3C
+    // Offset: 0x1A14128
     bool LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Color> colorValue);
     // private System.Boolean LoadLayerVector2FromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Vector2 vectorValue)
-    // Offset: 0x1A09F0C
+    // Offset: 0x1A142F8
     bool LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Vector2> vectorValue);
     // public System.Void UpdateLayerFromPart(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_PartData part)
-    // Offset: 0x1A09208
+    // Offset: 0x1A135F4
     void UpdateLayerFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_PartData* part);
     // public System.Void GenerateTerrainWithAlphamaps(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset, System.Boolean bRebuild)
-    // Offset: 0x1A0A07C
+    // Offset: 0x1A14468
     void GenerateTerrainWithAlphamaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, bool bRebuild);
     // public System.Void LoadLayerPropertiesFromAttributes(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.TerrainLayer terrainLayer, System.Boolean bNewTerrainLayer, UnityEngine.Texture2D defaultTexture)
-    // Offset: 0x1A0B930
+    // Offset: 0x1A15D1C
     void LoadLayerPropertiesFromAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::TerrainLayer* terrainLayer, bool bNewTerrainLayer, ::UnityEngine::Texture2D* defaultTexture);
     // public System.Void PopulateScatterTrees(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Int32 pointCount, System.Boolean throwWarningIfNoTileAttribute)
-    // Offset: 0x1A0BCAC
+    // Offset: 0x1A16098
     void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int pointCount, bool throwWarningIfNoTileAttribute);
     // public System.Void PopulateDetailPrototype(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HEU_VolumeLayer layer)
-    // Offset: 0x1A0BCD0
+    // Offset: 0x1A160BC
     void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer);
     // public System.Void PopulatePreset(HoudiniEngineUnity.HEU_VolumeCachePreset cachePreset)
-    // Offset: 0x1A0BCFC
+    // Offset: 0x1A160E8
     void PopulatePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* cachePreset);
     // public System.Boolean ApplyPreset(HoudiniEngineUnity.HEU_VolumeCachePreset volumeCachePreset)
-    // Offset: 0x1A0B630
+    // Offset: 0x1A15A1C
     bool ApplyPreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* volumeCachePreset);
     // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_VolumeCache destCache)
-    // Offset: 0x1A0BEF8
+    // Offset: 0x1A162E4
     void CopyValuesTo(::HoudiniEngineUnity::HEU_VolumeCache* destCache);
     // static public System.Void CopyDetailProperties(HoudiniEngineUnity.HEU_DetailProperties srcProp, HoudiniEngineUnity.HEU_DetailProperties destProp)
-    // Offset: 0x1A0C0D0
+    // Offset: 0x1A164BC
     static void CopyDetailProperties(::HoudiniEngineUnity::HEU_DetailProperties* srcProp, ::HoudiniEngineUnity::HEU_DetailProperties* destProp);
     // static public System.Void CopyLayer(HoudiniEngineUnity.HEU_VolumeLayer srcLayer, HoudiniEngineUnity.HEU_VolumeLayer destLayer)
-    // Offset: 0x1A096A4
+    // Offset: 0x1A13A90
     static void CopyLayer(::HoudiniEngineUnity::HEU_VolumeLayer* srcLayer, ::HoudiniEngineUnity::HEU_VolumeLayer* destLayer);
     // static public System.Void CopyPrototype(HoudiniEngineUnity.HEU_DetailPrototype srcProto, HoudiniEngineUnity.HEU_DetailPrototype destProto)
-    // Offset: 0x1A0C104
+    // Offset: 0x1A164F0
     static void CopyPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* srcProto, ::HoudiniEngineUnity::HEU_DetailPrototype* destProto);
     // static public UnityEngine.Texture2D LoadDefaultSplatTexture()
-    // Offset: 0x1A0B898
+    // Offset: 0x1A15C84
     static ::UnityEngine::Texture2D* LoadDefaultSplatTexture();
     // static public UnityEngine.Texture2D LoadAssetTexture(System.String path)
-    // Offset: 0x1A09B08
+    // Offset: 0x1A13EF4
     static ::UnityEngine::Texture2D* LoadAssetTexture(::StringW path);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeCache other)
-    // Offset: 0x1A0C168
+    // Offset: 0x1A16554
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeCache* other);
   }; // HoudiniEngineUnity.HEU_VolumeCache
   #pragma pack(pop)

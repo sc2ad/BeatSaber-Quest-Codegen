@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     float middleControlPointXDistanceModifier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D73AC
+    // [SpaceAttribute] Offset: 0x10DEAE0
     // private SliderMeshConstructor _sliderMeshConstructor
     // Size: 0x8
     // Offset: 0x30
@@ -153,23 +153,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Vector3[] _reusableControlPointsArray2
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray2();
     // public System.Single get_pathLength()
-    // Offset: 0x1389EC8
+    // Offset: 0x13E9554
     float get_pathLength();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1389EF0
+    // Offset: 0x13E957C
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor()
-    // Offset: 0x138A0A8
+    // Offset: 0x13E9734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMeshController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshController*, creationType>()));
     }
     // public System.Void CreateBezierPathAndMesh(SliderData sliderData, UnityEngine.Vector3 headNotePos, UnityEngine.Vector3 tailNotePos, System.Single jumpSpeed, System.Single noteUniformScale)
-    // Offset: 0x1385224
+    // Offset: 0x13E48B0
     void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float jumpSpeed, float noteUniformScale);
     // static private UnityEngine.Vector3 CutDirectionToControlPointPosition(NoteCutDirection noteCutDirection)
-    // Offset: 0x1389F0C
+    // Offset: 0x13E9598
     static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
   }; // SliderMeshController
   #pragma pack(pop)

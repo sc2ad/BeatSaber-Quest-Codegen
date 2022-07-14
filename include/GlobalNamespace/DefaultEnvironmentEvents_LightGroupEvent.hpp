@@ -68,22 +68,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotationY
     [[deprecated("Use field access instead!")]] float& dyn__rotationY();
     // public System.Int32 get_groupId()
-    // Offset: 0x14081B8
+    // Offset: 0x1492154
     int get_groupId();
     // public EnvironmentColorType get_environmentColorType()
-    // Offset: 0x14081C0
+    // Offset: 0x149215C
     ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
     // public System.Single get_brightness()
-    // Offset: 0x14081C8
+    // Offset: 0x1492164
     float get_brightness();
     // public System.Single get_rotationX()
-    // Offset: 0x14081D0
+    // Offset: 0x149216C
     float get_rotationX();
     // public System.Single get_rotationY()
-    // Offset: 0x14081D8
+    // Offset: 0x1492174
     float get_rotationY();
     // public System.Void .ctor()
-    // Offset: 0x14081E0
+    // Offset: 0x149217C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::LightGroupEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent::.ctor");

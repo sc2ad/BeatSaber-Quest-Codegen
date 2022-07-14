@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Single get_RootScale()
-    // Offset: 0x249A8B0
+    // Offset: 0x24AED28
     float get_RootScale();
     // public System.Void set_RootScale(System.Single value)
-    // Offset: 0x249A8B8
+    // Offset: 0x24AED30
     void set_RootScale(float value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x249A8C0
+    // Offset: 0x24AED38
     bool get_IsDataValid();
     // public System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x249A8C8
+    // Offset: 0x24AED40
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x249A8D4
+    // Offset: 0x24AED4C
     bool get_IsDataHighConfidence();
     // public System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x249A8DC
+    // Offset: 0x24AED54
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x249A8E8
+    // Offset: 0x24AED60
     bool get_ShouldUseSystemGestureMaterial();
     // public System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x249A8F0
+    // Offset: 0x24AED68
     void set_ShouldUseSystemGestureMaterial(bool value);
   }; // OVRSkeletonRenderer/SkeletonRendererData
   #pragma pack(pop)

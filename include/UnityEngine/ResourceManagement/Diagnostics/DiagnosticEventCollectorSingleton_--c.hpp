@@ -50,20 +50,20 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static public System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> <>9__11_0
     static void _set_$$9__11_0(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1EDA19C
+    // Offset: 0x1EE9614
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1EDA200
+    // Offset: 0x1EE9678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticEventCollectorSingleton::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollectorSingleton::$$c*, creationType>()));
     }
     // System.Int32 <RegisterEventHandler>b__8_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent evt)
-    // Offset: 0x1EDA208
+    // Offset: 0x1EE9680
     int $RegisterEventHandler$b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
     // System.Void <Awake>b__11_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1EDA210
+    // Offset: 0x1EE9688
     void $Awake$b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c
   #pragma pack(pop)

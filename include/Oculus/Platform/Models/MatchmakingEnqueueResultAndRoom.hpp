@@ -56,7 +56,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::Room*& dyn_Room();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19E2934
+    // Offset: 0x19ECD20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingEnqueueResultAndRoom* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom::.ctor");

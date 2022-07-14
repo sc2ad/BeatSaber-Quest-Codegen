@@ -34,14 +34,14 @@ namespace GlobalNamespace {
   class BTSStarTextEffectController::Pool : public ::Zenject::MonoMemoryPool_4<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float, ::GlobalNamespace::BTSStarTextEffectController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1347E18
+    // Offset: 0x13896F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEffectController::Pool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectController::Pool*, creationType>()));
     }
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
-    // Offset: 0x1347E00
+    // Offset: 0x13896E0
     void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* transform, float desiredAnimationLength, ::GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
   }; // BTSStarTextEffectController/Pool
 }

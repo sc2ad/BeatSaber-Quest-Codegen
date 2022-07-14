@@ -58,17 +58,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // public System.Void .ctor()
-    // Offset: 0x14B6D94
+    // Offset: 0x14D5848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteTrailParticleSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteTrailParticleSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailParticleSystem*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14B6D84
+    // Offset: 0x14D5838
     void Awake();
     // public System.Void Emit(UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Int32 count)
-    // Offset: 0x14B6C00
+    // Offset: 0x14D56B4
     void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int count);
   }; // NoteTrailParticleSystem
   #pragma pack(pop)

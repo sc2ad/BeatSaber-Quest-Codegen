@@ -52,14 +52,14 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: public System.Type[] argTypes
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_argTypes();
     // public System.Void .ctor()
-    // Offset: 0x2A11CD4
+    // Offset: 0x2A2914C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeWrapper::$$c__DisplayClass36_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeWrapper::$$c__DisplayClass36_0*, creationType>()));
     }
     // System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x2A11D90
+    // Offset: 0x2A29208
     bool $GetConstructor$b__0(::System::Reflection::ConstructorInfo* c);
   }; // NUnit.Framework.Internal.TypeWrapper/NUnit.Framework.Internal.<>c__DisplayClass36_0
   #pragma pack(pop)

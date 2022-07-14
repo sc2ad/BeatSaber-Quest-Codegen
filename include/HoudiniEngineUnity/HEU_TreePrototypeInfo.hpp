@@ -56,14 +56,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _bendfactor
     [[deprecated("Use field access instead!")]] float& dyn__bendfactor();
     // public System.Void .ctor()
-    // Offset: 0x1A08458
+    // Offset: 0x1A12844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TreePrototypeInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TreePrototypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TreePrototypeInfo*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)
-    // Offset: 0x1A08344
+    // Offset: 0x1A12730
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
   }; // HoudiniEngineUnity.HEU_TreePrototypeInfo
   #pragma pack(pop)

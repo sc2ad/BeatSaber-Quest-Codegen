@@ -48,26 +48,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private Mirror _mirror
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Mirror*& dyn__mirror();
     // public Mirror get_mirror()
-    // Offset: 0x14095E0
+    // Offset: 0x1493774
     ::GlobalNamespace::Mirror* get_mirror();
     // public System.Void set_mirror(Mirror value)
-    // Offset: 0x14095E8
+    // Offset: 0x149377C
     void set_mirror(::GlobalNamespace::Mirror* value);
     // public System.Void .ctor()
-    // Offset: 0x14097AC
+    // Offset: 0x1493940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableWhenMirrorIsEnabled* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableWhenMirrorIsEnabled::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableWhenMirrorIsEnabled*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14095F0
+    // Offset: 0x1493784
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14096D0
+    // Offset: 0x1493864
     void OnDestroy();
     // private System.Void HandleMirrorDidChangeEnabledState(System.Boolean isEnabled)
-    // Offset: 0x1409698
+    // Offset: 0x149382C
     void HandleMirrorDidChangeEnabledState(bool isEnabled);
   }; // DisableWhenMirrorIsEnabled
   #pragma pack(pop)

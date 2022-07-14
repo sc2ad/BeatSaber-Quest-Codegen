@@ -47,7 +47,7 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor(System.Type arrayType, System.Type elementType, System.Int32 index)
-    // Offset: 0x1D878F4
+    // Offset: 0x1D96CE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayConverter::ArrayPropertyDescriptor* New_ctor(::System::Type* arrayType, ::System::Type* elementType, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArrayConverter::ArrayPropertyDescriptor::.ctor");
