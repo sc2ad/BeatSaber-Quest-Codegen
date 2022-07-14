@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean checkingEnabled
     [[deprecated("Use field access instead!")]] bool& dyn_checkingEnabled();
     // public System.Void .ctor(System.Boolean checkingEnabled)
-    // Offset: 0x14881E0
+    // Offset: 0x145DC80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker::InitData* New_ctor(bool checkingEnabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SafeAreaRectChecker::InitData::.ctor");

@@ -46,14 +46,14 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public System.Boolean msgReceived
     [[deprecated("Use field access instead!")]] bool& dyn_msgReceived();
     // public System.Void .ctor()
-    // Offset: 0x203FAE8
+    // Offset: 0x204CF60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerConnection::$$c__DisplayClass20_0*, creationType>()));
     }
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
-    // Offset: 0x2040464
+    // Offset: 0x204D8DC
     void $BlockUntilRecvMsg$b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection/UnityEngine.Networking.PlayerConnection.<>c__DisplayClass20_0
   #pragma pack(pop)

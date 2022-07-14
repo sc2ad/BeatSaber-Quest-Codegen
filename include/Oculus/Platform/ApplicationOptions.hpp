@@ -44,20 +44,20 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2095EA8
+    // Offset: 0x20A3320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::ApplicationOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationOptions*, creationType>()));
     }
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x2095F90
+    // Offset: 0x20A3408
     void SetDeeplinkMessage(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
-    // Offset: 0x2095B34
+    // Offset: 0x20A2FAC
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x20960B4
+    // Offset: 0x20A352C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

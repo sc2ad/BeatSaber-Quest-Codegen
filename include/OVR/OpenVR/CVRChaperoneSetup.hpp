@@ -63,71 +63,71 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRChaperoneSetup FnTable
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperoneSetup& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1A8CBF4
+    // Offset: 0x1A99FE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperoneSetup* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRChaperoneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperoneSetup*, creationType>(pInterface)));
     }
     // public System.Boolean CommitWorkingCopy(OVR.OpenVR.EChaperoneConfigFile configFile)
-    // Offset: 0x1A8CCFC
+    // Offset: 0x1A9A0E8
     bool CommitWorkingCopy(::OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.Void RevertWorkingCopy()
-    // Offset: 0x1A8CF90
+    // Offset: 0x1A9A37C
     void RevertWorkingCopy();
     // public System.Boolean GetWorkingPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x1A8D1B4
+    // Offset: 0x1A9A5A0
     bool GetWorkingPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetWorkingPlayAreaRect(ref OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0x1A8D44C
+    // Offset: 0x1A9A838
     bool GetWorkingPlayAreaRect(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
     // public System.Boolean GetWorkingCollisionBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x1A8D6C4
+    // Offset: 0x1A9AAB0
     bool GetWorkingCollisionBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetLiveCollisionBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x1A8D9D8
+    // Offset: 0x1A9ADC4
     bool GetLiveCollisionBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetWorkingSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x1A8DCEC
+    // Offset: 0x1A9B0D8
     bool GetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Boolean GetWorkingStandingZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose)
-    // Offset: 0x1A8DF64
+    // Offset: 0x1A9B350
     bool GetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingPlayAreaSize(System.Single sizeX, System.Single sizeZ)
-    // Offset: 0x1A8E1DC
+    // Offset: 0x1A9B5C8
     void SetWorkingPlayAreaSize(float sizeX, float sizeZ);
     // public System.Void SetWorkingCollisionBoundsInfo(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x1A8E46C
+    // Offset: 0x1A9B858
     void SetWorkingCollisionBoundsInfo(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer);
     // public System.Void SetWorkingSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x1A8E700
+    // Offset: 0x1A9BAEC
     void SetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingStandingZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pMatStandingZeroPoseToRawTrackingPose)
-    // Offset: 0x1A8E96C
+    // Offset: 0x1A9BD58
     void SetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
     // public System.Void ReloadFromDisk(OVR.OpenVR.EChaperoneConfigFile configFile)
-    // Offset: 0x1A8EBD8
+    // Offset: 0x1A9BFC4
     void ReloadFromDisk(::OVR::OpenVR::EChaperoneConfigFile configFile);
     // public System.Boolean GetLiveSeatedZeroPoseToRawTrackingPose(ref OVR.OpenVR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
-    // Offset: 0x1A8EE60
+    // Offset: 0x1A9C24C
     bool GetLiveSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingCollisionBoundsTagsInfo(System.Byte[] pTagsBuffer)
-    // Offset: 0x1A8F0D8
+    // Offset: 0x1A9C4C4
     void SetWorkingCollisionBoundsTagsInfo(::ArrayW<uint8_t> pTagsBuffer);
     // public System.Boolean GetLiveCollisionBoundsTagsInfo(out System.Byte[] pTagsBuffer)
-    // Offset: 0x1A8F36C
+    // Offset: 0x1A9C758
     bool GetLiveCollisionBoundsTagsInfo(ByRef<::ArrayW<uint8_t>> pTagsBuffer);
     // public System.Boolean SetWorkingPhysicalBoundsInfo(OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x1A8F680
+    // Offset: 0x1A9CA6C
     bool SetWorkingPhysicalBoundsInfo(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer);
     // public System.Boolean GetLivePhysicalBoundsInfo(out OVR.OpenVR.HmdQuad_t[] pQuadsBuffer)
-    // Offset: 0x1A8F920
+    // Offset: 0x1A9CD0C
     bool GetLivePhysicalBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean ExportLiveToBuffer(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)
-    // Offset: 0x1A8FC34
+    // Offset: 0x1A9D020
     bool ExportLiveToBuffer(::System::Text::StringBuilder* pBuffer, ByRef<uint> pnBufferLength);
     // public System.Boolean ImportFromBufferToWorking(System.String pBuffer, System.UInt32 nImportFlags)
-    // Offset: 0x1A90044
+    // Offset: 0x1A9D430
     bool ImportFromBufferToWorking(::StringW pBuffer, uint nImportFlags);
   }; // OVR.OpenVR.CVRChaperoneSetup
   #pragma pack(pop)

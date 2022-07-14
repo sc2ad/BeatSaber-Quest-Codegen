@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Sprite categoryIcon
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()
-    // Offset: 0x148EDA8
+    // Offset: 0x13DCEB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::LevelCategoryInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::.ctor");

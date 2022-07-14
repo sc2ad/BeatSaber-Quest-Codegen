@@ -39,7 +39,7 @@ namespace NUnit::Framework::Internal {
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
     char ___base_padding[0x7] = {};
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x10CB7F8
+    // [DebuggerBrowsableAttribute] Offset: 0x10D3F58
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x90
@@ -54,25 +54,25 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.Assembly <Assembly>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_$Assembly$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2A08FA8
+    // Offset: 0x2A20420
     ::System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x2A08FB0
+    // Offset: 0x2A20428
     void set_Assembly(::System::Reflection::Assembly* value);
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x2A08DD8
+    // Offset: 0x2A20250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAssembly* New_ctor(::System::Reflection::Assembly* assembly, ::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x2A08FB8
+    // Offset: 0x2A20430
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::StringW get_TestType();
     // public System.Void .ctor(System.String path)
-    // Offset: 0x2A08F20
+    // Offset: 0x2A20398
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)

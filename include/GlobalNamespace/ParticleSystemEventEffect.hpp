@@ -91,14 +91,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D8F30
+    // [SpaceAttribute] Offset: 0x10E0664
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8F68
+    // [InjectAttribute] Offset: 0x10E069C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x48
@@ -209,26 +209,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x135F434
+    // Offset: 0x133DC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x135EE28
+    // Offset: 0x133D60C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x135F124
+    // Offset: 0x133D908
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x135F140
+    // Offset: 0x133D924
     void Update();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x135F264
+    // Offset: 0x133DA48
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0x135EFE8
+    // Offset: 0x133D7CC
     void RefreshParticles();
   }; // ParticleSystemEventEffect
   #pragma pack(pop)

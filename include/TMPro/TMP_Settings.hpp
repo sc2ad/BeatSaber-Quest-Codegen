@@ -293,125 +293,125 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_Settings/TMPro.LineBreakingTable m_linebreakingRules
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_Settings::LineBreakingTable*& dyn_m_linebreakingRules();
     // static public System.String get_version()
-    // Offset: 0x144C988
+    // Offset: 0x146BCE8
     static ::StringW get_version();
     // static public System.Boolean get_enableWordWrapping()
-    // Offset: 0x144C9D0
+    // Offset: 0x146BD30
     static bool get_enableWordWrapping();
     // static public System.Boolean get_enableKerning()
-    // Offset: 0x144CAA8
+    // Offset: 0x146BE08
     static bool get_enableKerning();
     // static public System.Boolean get_enableExtraPadding()
-    // Offset: 0x144CAC8
+    // Offset: 0x146BE28
     static bool get_enableExtraPadding();
     // static public System.Boolean get_enableTintAllSprites()
-    // Offset: 0x144CAE8
+    // Offset: 0x146BE48
     static bool get_enableTintAllSprites();
     // static public System.Boolean get_enableParseEscapeCharacters()
-    // Offset: 0x144CB08
+    // Offset: 0x146BE68
     static bool get_enableParseEscapeCharacters();
     // static public System.Boolean get_enableRaycastTarget()
-    // Offset: 0x144CB28
+    // Offset: 0x146BE88
     static bool get_enableRaycastTarget();
     // static public System.Boolean get_getFontFeaturesAtRuntime()
-    // Offset: 0x144CB48
+    // Offset: 0x146BEA8
     static bool get_getFontFeaturesAtRuntime();
     // static public System.Int32 get_missingGlyphCharacter()
-    // Offset: 0x144CB68
+    // Offset: 0x146BEC8
     static int get_missingGlyphCharacter();
     // static public System.Void set_missingGlyphCharacter(System.Int32 value)
-    // Offset: 0x144CB88
+    // Offset: 0x146BEE8
     static void set_missingGlyphCharacter(int value);
     // static public System.Boolean get_warningsDisabled()
-    // Offset: 0x144CBB4
+    // Offset: 0x146BF14
     static bool get_warningsDisabled();
     // static public TMPro.TMP_FontAsset get_defaultFontAsset()
-    // Offset: 0x144CBD4
+    // Offset: 0x146BF34
     static ::TMPro::TMP_FontAsset* get_defaultFontAsset();
     // static public System.String get_defaultFontAssetPath()
-    // Offset: 0x144CBF4
+    // Offset: 0x146BF54
     static ::StringW get_defaultFontAssetPath();
     // static public System.Single get_defaultFontSize()
-    // Offset: 0x144CC14
+    // Offset: 0x146BF74
     static float get_defaultFontSize();
     // static public System.Single get_defaultTextAutoSizingMinRatio()
-    // Offset: 0x144CC34
+    // Offset: 0x146BF94
     static float get_defaultTextAutoSizingMinRatio();
     // static public System.Single get_defaultTextAutoSizingMaxRatio()
-    // Offset: 0x144CC54
+    // Offset: 0x146BFB4
     static float get_defaultTextAutoSizingMaxRatio();
     // static public UnityEngine.Vector2 get_defaultTextMeshProTextContainerSize()
-    // Offset: 0x144CC74
+    // Offset: 0x146BFD4
     static ::UnityEngine::Vector2 get_defaultTextMeshProTextContainerSize();
     // static public UnityEngine.Vector2 get_defaultTextMeshProUITextContainerSize()
-    // Offset: 0x144CC94
+    // Offset: 0x146BFF4
     static ::UnityEngine::Vector2 get_defaultTextMeshProUITextContainerSize();
     // static public System.Boolean get_autoSizeTextContainer()
-    // Offset: 0x144CCB4
+    // Offset: 0x146C014
     static bool get_autoSizeTextContainer();
     // static public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> get_fallbackFontAssets()
-    // Offset: 0x144CCD4
+    // Offset: 0x146C034
     static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* get_fallbackFontAssets();
     // static public System.Boolean get_matchMaterialPreset()
-    // Offset: 0x144CCF4
+    // Offset: 0x146C054
     static bool get_matchMaterialPreset();
     // static public TMPro.TMP_SpriteAsset get_defaultSpriteAsset()
-    // Offset: 0x144CD14
+    // Offset: 0x146C074
     static ::TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
     // static public System.String get_defaultSpriteAssetPath()
-    // Offset: 0x144CD34
+    // Offset: 0x146C094
     static ::StringW get_defaultSpriteAssetPath();
     // static public System.String get_defaultColorGradientPresetsPath()
-    // Offset: 0x144CD54
+    // Offset: 0x146C0B4
     static ::StringW get_defaultColorGradientPresetsPath();
     // static public System.Boolean get_enableEmojiSupport()
-    // Offset: 0x144CD74
+    // Offset: 0x146C0D4
     static bool get_enableEmojiSupport();
     // static public System.Void set_enableEmojiSupport(System.Boolean value)
-    // Offset: 0x144CD94
+    // Offset: 0x146C0F4
     static void set_enableEmojiSupport(bool value);
     // static public TMPro.TMP_StyleSheet get_defaultStyleSheet()
-    // Offset: 0x144CDC4
+    // Offset: 0x146C124
     static ::TMPro::TMP_StyleSheet* get_defaultStyleSheet();
     // static public UnityEngine.TextAsset get_leadingCharacters()
-    // Offset: 0x144CDE4
+    // Offset: 0x146C144
     static ::UnityEngine::TextAsset* get_leadingCharacters();
     // static public UnityEngine.TextAsset get_followingCharacters()
-    // Offset: 0x144CE04
+    // Offset: 0x146C164
     static ::UnityEngine::TextAsset* get_followingCharacters();
     // static public TMPro.TMP_Settings/TMPro.LineBreakingTable get_linebreakingRules()
-    // Offset: 0x144CE24
+    // Offset: 0x146C184
     static ::TMPro::TMP_Settings::LineBreakingTable* get_linebreakingRules();
     // static public TMPro.TMP_Settings get_instance()
-    // Offset: 0x144C9F0
+    // Offset: 0x146BD50
     static ::TMPro::TMP_Settings* get_instance();
     // public System.Void .ctor()
-    // Offset: 0x144D3B8
+    // Offset: 0x146C718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Settings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Settings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Settings*, creationType>()));
     }
     // static public TMPro.TMP_Settings LoadDefaultSettings()
-    // Offset: 0x144CF64
+    // Offset: 0x146C2C4
     static ::TMPro::TMP_Settings* LoadDefaultSettings();
     // static public TMPro.TMP_Settings GetSettings()
-    // Offset: 0x144D058
+    // Offset: 0x146C3B8
     static ::TMPro::TMP_Settings* GetSettings();
     // static public TMPro.TMP_FontAsset GetFontAsset()
-    // Offset: 0x144D0E4
+    // Offset: 0x146C444
     static ::TMPro::TMP_FontAsset* GetFontAsset();
     // static public TMPro.TMP_SpriteAsset GetSpriteAsset()
-    // Offset: 0x144D178
+    // Offset: 0x146C4D8
     static ::TMPro::TMP_SpriteAsset* GetSpriteAsset();
     // static public TMPro.TMP_StyleSheet GetStyleSheet()
-    // Offset: 0x144D20C
+    // Offset: 0x146C56C
     static ::TMPro::TMP_StyleSheet* GetStyleSheet();
     // static public System.Void LoadLinebreakingRules()
-    // Offset: 0x144CE58
+    // Offset: 0x146C1B8
     static void LoadLinebreakingRules();
     // static private System.Collections.Generic.Dictionary`2<System.Int32,System.Char> GetCharacters(UnityEngine.TextAsset file)
-    // Offset: 0x144D2A8
+    // Offset: 0x146C608
     static ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* GetCharacters(::UnityEngine::TextAsset* file);
   }; // TMPro.TMP_Settings
   #pragma pack(pop)

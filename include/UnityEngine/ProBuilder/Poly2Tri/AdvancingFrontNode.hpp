@@ -78,13 +78,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
     // public System.Boolean get_HasNext()
-    // Offset: 0x2A8394C
+    // Offset: 0x2A9CDD4
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x2A8395C
+    // Offset: 0x2A9CDE4
     bool get_HasPrev();
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x2A83910
+    // Offset: 0x2A9CD98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");

@@ -235,7 +235,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String currentDlcPromoId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_currentDlcPromoId();
     // public System.Void .ctor()
-    // Offset: 0x13D7F28
+    // Offset: 0x1360090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::LocalPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::LocalPlayer::.ctor");

@@ -218,62 +218,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action RecenteredPose
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_RecenteredPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x165ACAC
+    // Offset: 0x1666098
     ::UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x165ADD8
+    // Offset: 0x16661C4
     ::UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x165AF04
+    // Offset: 0x16662F0
     ::UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x165B030
+    // Offset: 0x166641C
     ::UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x165B15C
+    // Offset: 0x1666548
     ::GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x165B328
+    // Offset: 0x1666714
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x165B3C4
+    // Offset: 0x16667B0
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x165B430
+    // Offset: 0x166681C
     ::ArrayW<float> get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x165B490
+    // Offset: 0x166687C
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x165B4F0
+    // Offset: 0x16668DC
     void set_displayFrequency(float value);
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x165AAE8
+    // Offset: 0x1665ED4
     void add_RecenteredPose(::System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x165AB8C
+    // Offset: 0x1665F78
     void remove_RecenteredPose(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x165A8A8
+    // Offset: 0x1665C94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRDisplay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRDisplay*, creationType>()));
     }
     // public System.Void Update()
-    // Offset: 0x165A954
+    // Offset: 0x1665D40
     void Update();
     // public System.Void RecenterPose()
-    // Offset: 0x165AC30
+    // Offset: 0x166601C
     void RecenterPose();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x165A84C
+    // Offset: 0x1665C38
     ::GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
     // private System.Void UpdateTextures()
-    // Offset: 0x165A928
+    // Offset: 0x1665D14
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x165B560
+    // Offset: 0x166694C
     void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
   }; // OVRDisplay
   #pragma pack(pop)

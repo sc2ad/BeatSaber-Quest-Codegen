@@ -111,20 +111,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single remainingBufferTime
     [[deprecated("Use field access instead!")]] float& dyn_remainingBufferTime();
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x209363C
+    // Offset: 0x20A0AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()
-    // Offset: 0x209374C
+    // Offset: 0x20A0BC4
     void Update();
     // private System.Void Stop()
-    // Offset: 0x20936FC
+    // Offset: 0x20A0B74
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x2093924
+    // Offset: 0x20A0D9C
     void AddData(::ArrayW<float> samples);
   }; // BufferedAudioStream
   #pragma pack(pop)

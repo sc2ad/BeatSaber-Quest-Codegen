@@ -33,34 +33,34 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B10C2C
+    // Offset: 0x1B1D018
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTiledMultiResSupported(out OVRPlugin/Bool foveationSupported)
-    // Offset: 0x1B10794
+    // Offset: 0x1B1CB80
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResSupported(ByRef<::GlobalNamespace::OVRPlugin::Bool> foveationSupported);
     // static public OVRPlugin/Result ovrp_GetTiledMultiResLevel(out OVRPlugin/FixedFoveatedRenderingLevel level)
-    // Offset: 0x1B10814
+    // Offset: 0x1B1CC00
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResLevel(ByRef<::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel> level);
     // static public OVRPlugin/Result ovrp_SetTiledMultiResLevel(OVRPlugin/FixedFoveatedRenderingLevel level)
-    // Offset: 0x1B10894
+    // Offset: 0x1B1CC80
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResLevel(::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel level);
     // static public OVRPlugin/Result ovrp_GetGPUUtilSupported(out OVRPlugin/Bool gpuUtilSupported)
-    // Offset: 0x1B10914
+    // Offset: 0x1B1CD00
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetGPUUtilSupported(ByRef<::GlobalNamespace::OVRPlugin::Bool> gpuUtilSupported);
     // static public OVRPlugin/Result ovrp_GetGPUUtilLevel(out System.Single gpuUtil)
-    // Offset: 0x1B10994
+    // Offset: 0x1B1CD80
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetGPUUtilLevel(ByRef<float> gpuUtil);
     // static public OVRPlugin/Result ovrp_GetSystemDisplayFrequency2(out System.Single systemDisplayFrequency)
-    // Offset: 0x1B10A14
+    // Offset: 0x1B1CE00
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSystemDisplayFrequency2(ByRef<float> systemDisplayFrequency);
     // static public OVRPlugin/Result ovrp_GetSystemDisplayAvailableFrequencies(System.IntPtr systemDisplayAvailableFrequencies, ref System.Int32 numFrequencies)
-    // Offset: 0x1B10A94
+    // Offset: 0x1B1CE80
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSystemDisplayAvailableFrequencies(::System::IntPtr systemDisplayAvailableFrequencies, ByRef<int> numFrequencies);
     // static public OVRPlugin/Result ovrp_SetSystemDisplayFrequency(System.Single requestedFrequency)
-    // Offset: 0x1B10B24
+    // Offset: 0x1B1CF10
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetSystemDisplayFrequency(float requestedFrequency);
     // static public OVRPlugin/Result ovrp_GetAppAsymmetricFov(out OVRPlugin/Bool useAsymmetricFov)
-    // Offset: 0x1B10BAC
+    // Offset: 0x1B1CF98
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetAppAsymmetricFov(ByRef<::GlobalNamespace::OVRPlugin::Bool> useAsymmetricFov);
   }; // OVRPlugin/OVRP_1_21_0
   #pragma pack(pop)

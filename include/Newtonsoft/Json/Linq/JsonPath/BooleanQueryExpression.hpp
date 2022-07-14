@@ -30,7 +30,7 @@ namespace Newtonsoft::Json::Linq::JsonPath {
   class BooleanQueryExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1757F3C
+    // Offset: 0x1762328
     // Implemented from: Newtonsoft.Json.Linq.JsonPath.QueryExpression
     // Base method: System.Void QueryExpression::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

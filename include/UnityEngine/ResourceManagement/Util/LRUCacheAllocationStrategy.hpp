@@ -97,23 +97,23 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_cache();
     // public System.Void .ctor(System.Int32 poolMaxSize, System.Int32 poolCapacity, System.Int32 poolCacheMaxSize, System.Int32 initialPoolCacheCapacity)
-    // Offset: 0x1EDB2AC
+    // Offset: 0x1EEA724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LRUCacheAllocationStrategy* New_ctor(int poolMaxSize, int poolCapacity, int poolCacheMaxSize, int initialPoolCacheCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LRUCacheAllocationStrategy*, creationType>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity)));
     }
     // private System.Collections.Generic.List`1<System.Object> GetPool()
-    // Offset: 0x1EE662C
+    // Offset: 0x1EF5AA4
     ::System::Collections::Generic::List_1<::Il2CppObject*>* GetPool();
     // private System.Void ReleasePool(System.Collections.Generic.List`1<System.Object> pool)
-    // Offset: 0x1EE66D4
+    // Offset: 0x1EF5B4C
     void ReleasePool(::System::Collections::Generic::List_1<::Il2CppObject*>* pool);
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x1EE675C
+    // Offset: 0x1EF5BD4
     ::Il2CppObject* New(::System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x1EE689C
+    // Offset: 0x1EF5D14
     void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
   #pragma pack(pop)

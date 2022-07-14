@@ -30,10 +30,10 @@ namespace UnityEngine {
     // Set static field: static private readonly System.DateTime s_Epoch
     static void _set_s_Epoch(::System::DateTime value);
     // static public System.DateTime get_now()
-    // Offset: 0x27B3DF0
+    // Offset: 0x27CB268
     static ::System::DateTime get_now();
     // static private System.Void .cctor()
-    // Offset: 0x27B3E50
+    // Offset: 0x27CB2C8
     static void _cctor();
   }; // UnityEngine.SystemClock
   #pragma pack(pop)

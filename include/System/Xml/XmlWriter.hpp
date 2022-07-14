@@ -58,7 +58,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::WriteState get_WriteState();
     // protected System.Void .ctor()
-    // Offset: 0x2703D58
+    // Offset: 0x271B1D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWriter::.ctor");
@@ -80,7 +80,7 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // public System.Void WriteStartElement(System.String localName)
-    // Offset: 0x270B754
+    // Offset: 0x2722BCC
     void WriteStartElement(::StringW localName);
     // public System.Void WriteEndElement()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -89,10 +89,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteFullEndElement();
     // public System.Void WriteAttributeString(System.String localName, System.String value)
-    // Offset: 0x270B76C
+    // Offset: 0x2722BE4
     void WriteAttributeString(::StringW localName, ::StringW value);
     // public System.Void WriteAttributeString(System.String prefix, System.String localName, System.String ns, System.String value)
-    // Offset: 0x270B7CC
+    // Offset: 0x2722C44
     void WriteAttributeString(::StringW prefix, ::StringW localName, ::StringW ns, ::StringW value);
     // public System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -137,10 +137,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteBase64(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x2709D54
+    // Offset: 0x27211CC
     void WriteBinHex(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Void Close()
-    // Offset: 0x270B820
+    // Offset: 0x2722C98
     void Close();
     // public System.Void Flush()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -149,19 +149,19 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW LookupPrefix(::StringW ns);
     // public System.Void WriteValue(System.String value)
-    // Offset: 0x270B824
+    // Offset: 0x2722C9C
     void WriteValue(::StringW value);
     // public System.Void Dispose()
-    // Offset: 0x270B83C
+    // Offset: 0x2722CB4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x270B850
+    // Offset: 0x2722CC8
     void Dispose(bool disposing);
     // static public System.Xml.XmlWriter Create(System.IO.Stream output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x270B8A4
+    // Offset: 0x2722D1C
     static ::System::Xml::XmlWriter* Create(::System::IO::Stream* output, ::System::Xml::XmlWriterSettings* settings);
     // static public System.Xml.XmlWriter Create(System.IO.TextWriter output, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x270BD54
+    // Offset: 0x27231CC
     static ::System::Xml::XmlWriter* Create(::System::IO::TextWriter* output, ::System::Xml::XmlWriterSettings* settings);
   }; // System.Xml.XmlWriter
   #pragma pack(pop)

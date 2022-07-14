@@ -95,133 +95,133 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* defaultLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B3C
+    // [InjectAttribute] Offset: 0x10E82C0
     // private readonly SoloFreePlayFlowCoordinator _soloFreePlayFlowCoordinator
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::SoloFreePlayFlowCoordinator* soloFreePlayFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B4C
+    // [InjectAttribute] Offset: 0x10E82D0
     // private readonly PartyFreePlayFlowCoordinator _partyFreePlayFlowCoordinator
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::PartyFreePlayFlowCoordinator* partyFreePlayFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B5C
+    // [InjectAttribute] Offset: 0x10E82E0
     // private readonly CampaignFlowCoordinator _campaignFlowCoordinator
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::CampaignFlowCoordinator* campaignFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CampaignFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B6C
+    // [InjectAttribute] Offset: 0x10E82F0
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SettingsFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B7C
+    // [InjectAttribute] Offset: 0x10E8300
     // private readonly MultiplayerModeSelectionFlowCoordinator _multiplayerModeSelectionFlowCoordinator
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* multiplayerModeSelectionFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B8C
+    // [InjectAttribute] Offset: 0x10E8310
     // private readonly EditAvatarFlowCoordinator _editAvatarFlowCoordinator
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::EditAvatarFlowCoordinator* editAvatarFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0B9C
+    // [InjectAttribute] Offset: 0x10E8320
     // private readonly HelpFlowCoordinator _helpFlowCoordinator
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::HelpFlowCoordinator* helpFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HelpFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BAC
+    // [InjectAttribute] Offset: 0x10E8330
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BBC
+    // [InjectAttribute] Offset: 0x10E8340
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::MainMenuViewController* mainMenuViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainMenuViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BCC
+    // [InjectAttribute] Offset: 0x10E8350
     // private readonly PlayerOptionsViewController _playerOptionsViewController
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::PlayerOptionsViewController* playerOptionsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerOptionsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BDC
+    // [InjectAttribute] Offset: 0x10E8360
     // private readonly OptionsViewController _optionsViewController
     // Size: 0x8
     // Offset: 0x100
     ::GlobalNamespace::OptionsViewController* optionsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OptionsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BEC
+    // [InjectAttribute] Offset: 0x10E8370
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x108
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0BFC
+    // [InjectAttribute] Offset: 0x10E8380
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x110
     ::GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C0C
+    // [InjectAttribute] Offset: 0x10E8390
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x118
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C1C
+    // [InjectAttribute] Offset: 0x10E83A0
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x120
     ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C2C
+    // [InjectAttribute] Offset: 0x10E83B0
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C3C
+    // [InjectAttribute] Offset: 0x10E83C0
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C4C
+    // [InjectAttribute] Offset: 0x10E83D0
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10E0C5C
+    // [InjectOptionalAttribute] Offset: 0x10E83E0
     // private MenuDestination _menuDestinationRequest
     // Size: 0x8
     // Offset: 0x140
@@ -282,97 +282,97 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.FlowCoordinator _afterDialogPromptFlowCoordinator
     [[deprecated("Use field access instead!")]] ::HMUI::FlowCoordinator*& dyn__afterDialogPromptFlowCoordinator();
     // public System.Void .ctor()
-    // Offset: 0x153D56C
+    // Offset: 0x1547774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainFlowCoordinator*, creationType>()));
     }
     // private System.Void PresentFlowCoordinatorOrAskForTutorial(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x153C438
+    // Offset: 0x1546640
     void PresentFlowCoordinatorOrAskForTutorial(::HMUI::FlowCoordinator* flowCoordinator);
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController viewController, MainMenuViewController/MenuButton subMenuType)
-    // Offset: 0x153C5E4
+    // Offset: 0x15467EC
     void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* viewController, ::GlobalNamespace::MainMenuViewController::MenuButton subMenuType);
     // private System.Void HandleOptionsViewControllerDidFinish(OptionsViewController/OptionsButton optionsType)
-    // Offset: 0x153CA68
+    // Offset: 0x1546C70
     void HandleOptionsViewControllerDidFinish(::GlobalNamespace::OptionsViewController::OptionsButton optionsType);
     // private System.Void HandlePlayerOptionsViewControllerDidFinish(HMUI.ViewController viewController)
-    // Offset: 0x153CB54
+    // Offset: 0x1546D5C
     void HandlePlayerOptionsViewControllerDidFinish(::HMUI::ViewController* viewController);
     // private System.Void HandleHowToPlayViewControllerDidFinish(HowToPlayViewController/HowToPlayOptions howToPlayOptions)
-    // Offset: 0x153CB68
+    // Offset: 0x1546D70
     void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::HowToPlayViewController::HowToPlayOptions howToPlayOptions);
     // private System.Void HandleCampaignFlowCoordinatorDidFinish(CampaignFlowCoordinator flowCoordinator)
-    // Offset: 0x153CBF4
+    // Offset: 0x1546DFC
     void HandleCampaignFlowCoordinatorDidFinish(::GlobalNamespace::CampaignFlowCoordinator* flowCoordinator);
     // private System.Void HandleEditAvatarFlowCoordinatorDidFinish(EditAvatarFlowCoordinator flowCoordinator, EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x153CC08
+    // Offset: 0x1546E10
     void HandleEditAvatarFlowCoordinatorDidFinish(::GlobalNamespace::EditAvatarFlowCoordinator* flowCoordinator, ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleSoloFreePlayFlowCoordinatorDidFinish(LevelSelectionFlowCoordinator flowCoordinator)
-    // Offset: 0x153CDD4
+    // Offset: 0x1546FDC
     void HandleSoloFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
     // private System.Void HandlePartyFreePlayFlowCoordinatorDidFinish(LevelSelectionFlowCoordinator flowCoordinator)
-    // Offset: 0x153CDE8
+    // Offset: 0x1546FF0
     void HandlePartyFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
     // private System.Void HandleSettingsFlowCoordinatorDidFinish(SettingsFlowCoordinator settingsFlowCoordinator, SettingsFlowCoordinator/FinishAction finishAction)
-    // Offset: 0x153CDFC
+    // Offset: 0x1547004
     void HandleSettingsFlowCoordinatorDidFinish(::GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator, ::GlobalNamespace::SettingsFlowCoordinator::FinishAction finishAction);
     // private System.Void HandleHelpFlowCoordinatorDidFinish(HelpFlowCoordinator helpFlowCoordinator)
-    // Offset: 0x153CEA4
+    // Offset: 0x15470AC
     void HandleHelpFlowCoordinatorDidFinish(::GlobalNamespace::HelpFlowCoordinator* helpFlowCoordinator);
     // private System.Void HandleMultiplayerModeSelectionFlowCoordinatorDidFinish(MultiplayerModeSelectionFlowCoordinator multiplayerModeSelectionFlowCoordinator)
-    // Offset: 0x153CEB8
+    // Offset: 0x15470C0
     void HandleMultiplayerModeSelectionFlowCoordinatorDidFinish(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* multiplayerModeSelectionFlowCoordinator);
     // private System.Void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(IBeatmapLevelPack beatmapLevelPack, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x153CECC
+    // Offset: 0x15470D4
     void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // private System.Void ProcessMenuDestinationRequest(MenuDestination destination)
-    // Offset: 0x153CF90
+    // Offset: 0x1547198
     void ProcessMenuDestinationRequest(::GlobalNamespace::MenuDestination* destination);
     // private System.Void PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator()
-    // Offset: 0x153D2E4
+    // Offset: 0x15474EC
     void PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator();
     // private System.Collections.IEnumerator ProcessMenuDestinationRequestAfterFrameCoroutine(MenuDestination destination)
-    // Offset: 0x153BCC4
+    // Offset: 0x1545ECC
     ::System::Collections::IEnumerator* ProcessMenuDestinationRequestAfterFrameCoroutine(::GlobalNamespace::MenuDestination* destination);
     // private System.Void <PresentFlowCoordinatorOrAskForTutorial>b__26_0(System.Int32 buttonNumber)
-    // Offset: 0x153D574
+    // Offset: 0x154777C
     void $PresentFlowCoordinatorOrAskForTutorial$b__26_0(int buttonNumber);
     // private System.Void <PresentFlowCoordinatorOrAskForTutorial>b__26_1()
-    // Offset: 0x153D64C
+    // Offset: 0x1547854
     void $PresentFlowCoordinatorOrAskForTutorial$b__26_1();
     // private System.Void <HandleMainMenuViewControllerDidFinish>b__27_0()
-    // Offset: 0x153D664
+    // Offset: 0x154786C
     void $HandleMainMenuViewControllerDidFinish$b__27_0();
     // private System.Void <HandleMainMenuViewControllerDidFinish>b__27_1(System.Int32 buttonNumber)
-    // Offset: 0x153D680
+    // Offset: 0x1547888
     void $HandleMainMenuViewControllerDidFinish$b__27_1(int buttonNumber);
     // private System.Void <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__40_0(System.Int32 buttonNumber)
-    // Offset: 0x153D97C
+    // Offset: 0x1547B84
     void $PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__40_0(int buttonNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x153B790
+    // Offset: 0x1545998
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x153BD40
+    // Offset: 0x1545F48
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // protected override System.Void InitialViewControllerWasPresented()
-    // Offset: 0x153BED8
+    // Offset: 0x15460E0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::InitialViewControllerWasPresented()
     void InitialViewControllerWasPresented();
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x153BF58
+    // Offset: 0x1546160
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x153D4C0
+    // Offset: 0x15476C8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(::HMUI::ViewController* topViewController);

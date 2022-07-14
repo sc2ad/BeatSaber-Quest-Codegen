@@ -61,26 +61,26 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Int32 _referenceCount
     [[deprecated("Use field access instead!")]] int& dyn__referenceCount();
     // public System.Void .ctor()
-    // Offset: 0x1D51D40
+    // Offset: 0x1D6012C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultReferenceResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultReferenceResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultReferenceResolver*, creationType>()));
     }
     // private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> GetMappings(System.Object context)
-    // Offset: 0x1D51914
+    // Offset: 0x1D5FD00
     ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
     // public System.Object ResolveReference(System.Object context, System.String reference)
-    // Offset: 0x1D51AE0
+    // Offset: 0x1D5FECC
     ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
     // public System.String GetReference(System.Object context, System.Object value)
-    // Offset: 0x1D51B5C
+    // Offset: 0x1D5FF48
     ::StringW GetReference(::Il2CppObject* context, ::Il2CppObject* value);
     // public System.Void AddReference(System.Object context, System.String reference, System.Object value)
-    // Offset: 0x1D51C50
+    // Offset: 0x1D6003C
     void AddReference(::Il2CppObject* context, ::StringW reference, ::Il2CppObject* value);
     // public System.Boolean IsReferenced(System.Object context, System.Object value)
-    // Offset: 0x1D51CC4
+    // Offset: 0x1D600B0
     bool IsReferenced(::Il2CppObject* context, ::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.DefaultReferenceResolver
   #pragma pack(pop)

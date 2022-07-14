@@ -41,19 +41,19 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData
     class CalibrationData;
     // static public System.Void RecalibrateScale(RootMotion.FinalIK.VRIK ik, RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.Settings settings)
-    // Offset: 0x1FA4914
+    // Offset: 0x1FB1D8C
     static void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::VRIKCalibrator::Settings* settings);
     // static public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData Calibrate(RootMotion.FinalIK.VRIK ik, RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.Settings settings, UnityEngine.Transform headTracker, UnityEngine.Transform bodyTracker, UnityEngine.Transform leftHandTracker, UnityEngine.Transform rightHandTracker, UnityEngine.Transform leftFootTracker, UnityEngine.Transform rightFootTracker)
-    // Offset: 0x1FA4A7C
+    // Offset: 0x1FB1EF4
     static ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::VRIKCalibrator::Settings* settings, ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
     // static private System.Void CalibrateLeg(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.Settings settings, UnityEngine.Transform tracker, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leg, UnityEngine.Transform lastBone, UnityEngine.Vector3 rootForward, System.Boolean isLeft)
-    // Offset: 0x1FA5ECC
+    // Offset: 0x1FB3344
     static void CalibrateLeg(::RootMotion::FinalIK::VRIKCalibrator::Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::IKSolverVR::Leg* leg, ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
     // static public System.Void Calibrate(RootMotion.FinalIK.VRIK ik, RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data, UnityEngine.Transform headTracker, UnityEngine.Transform bodyTracker, UnityEngine.Transform leftHandTracker, UnityEngine.Transform rightHandTracker, UnityEngine.Transform leftFootTracker, UnityEngine.Transform rightFootTracker)
-    // Offset: 0x1FA6974
+    // Offset: 0x1FB3DEC
     static void Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data, ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
     // static private System.Void CalibrateLeg(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data, UnityEngine.Transform tracker, RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leg, UnityEngine.Transform lastBone, UnityEngine.Vector3 rootForward, System.Boolean isLeft)
-    // Offset: 0x1FA7464
+    // Offset: 0x1FB48DC
     static void CalibrateLeg(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::IKSolverVR::Leg* leg, ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
   }; // RootMotion.FinalIK.VRIKCalibrator
   #pragma pack(pop)

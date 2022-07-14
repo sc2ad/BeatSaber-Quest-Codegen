@@ -61,26 +61,26 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Boolean <messageHandled>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$messageHandled$k__BackingField();
     // public System.Boolean get_messageHandled()
-    // Offset: 0x1543D4C
+    // Offset: 0x154CF54
     bool get_messageHandled();
     // private System.Void set_messageHandled(System.Boolean value)
-    // Offset: 0x1543D54
+    // Offset: 0x154CF5C
     void set_messageHandled(bool value);
     // public BGNet.Core.Messages.BaseAcknowledgeMessage Init(System.Boolean messageHandled)
-    // Offset: 0x1543D60
+    // Offset: 0x154CF68
     ::BGNet::Core::Messages::BaseAcknowledgeMessage* Init(bool messageHandled);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1543CE4
+    // Offset: 0x154CEEC
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Byte BaseResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x1543CEC
+    // Offset: 0x154CEF4
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.String BaseResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x1543E54
+    // Offset: 0x154D05C
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,12 +89,12 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<BaseAcknowledgeMessage*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1543D6C
+    // Offset: 0x154CF74
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1543DD4
+    // Offset: 0x154CFDC
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

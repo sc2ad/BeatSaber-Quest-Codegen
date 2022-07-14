@@ -63,20 +63,20 @@ namespace TMPro {
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecordLookupDictionary();
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords()
-    // Offset: 0x14394BC
+    // Offset: 0x142F0FC
     ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
     // System.Void set_glyphPairAdjustmentRecords(System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> value)
-    // Offset: 0x14394C4
+    // Offset: 0x142F104
     void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1437F20
+    // Offset: 0x142DB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontFeatureTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontFeatureTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontFeatureTable*, creationType>()));
     }
     // public System.Void SortGlyphPairAdjustmentRecords()
-    // Offset: 0x14394CC
+    // Offset: 0x142F10C
     void SortGlyphPairAdjustmentRecords();
   }; // TMPro.TMP_FontFeatureTable
   #pragma pack(pop)

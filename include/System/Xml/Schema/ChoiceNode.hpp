@@ -42,15 +42,15 @@ namespace System::Xml::Schema {
   class ChoiceNode : public ::System::Xml::Schema::InteriorNode {
     public:
     // static private System.Void ConstructChildPos(System.Xml.Schema.SyntaxTreeNode child, System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1AC338C
+    // Offset: 0x1AD0778
     static void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1AC3574
+    // Offset: 0x1AD0960
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public System.Void .ctor()
-    // Offset: 0x1AC3614
+    // Offset: 0x1AD0A00
     // Implemented from: System.Xml.Schema.InteriorNode
     // Base method: System.Void InteriorNode::.ctor()
     // Base method: System.Void SyntaxTreeNode::.ctor()
@@ -60,12 +60,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<ChoiceNode*, creationType>()));
     }
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1AC3468
+    // Offset: 0x1AD0854
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1AC360C
+    // Offset: 0x1AD09F8
     // Implemented from: System.Xml.Schema.InteriorNode
     // Base method: System.Void InteriorNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);

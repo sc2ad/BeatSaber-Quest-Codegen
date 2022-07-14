@@ -102,7 +102,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _bPartInstanced
     [[deprecated("Use field access instead!")]] bool& dyn__bPartInstanced();
     // public System.Void .ctor()
-    // Offset: 0x189152C
+    // Offset: 0x189A918
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

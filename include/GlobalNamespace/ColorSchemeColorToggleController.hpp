@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn__toggle();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1341F40
+    // Offset: 0x135C15C
     ::UnityEngine::UI::Toggle* get_toggle();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1341F48
+    // Offset: 0x135C164
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1341F8C
+    // Offset: 0x135C1A8
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1342030
+    // Offset: 0x135C24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeColorToggleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeColorToggleController::.ctor");

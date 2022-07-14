@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single velocity
     [[deprecated("Use field access instead!")]] float& dyn_velocity();
     // public System.Void .ctor()
-    // Offset: 0x1335A9C
+    // Offset: 0x134FCB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlocksBlade::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlocksBlade::Element::.ctor");

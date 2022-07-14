@@ -37,10 +37,10 @@ namespace NUnit::Framework {
   class _Assert : public ::Il2CppObject {
     public:
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x1C84FB8
+    // Offset: 0x1C933A4
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x1C8502C
+    // Offset: 0x1C93418
     static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -52,10 +52,10 @@ namespace NUnit::Framework {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, actual, expression, message, args);
     }
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x1C85104
+    // Offset: 0x1C934F0
     static void IsTrue(bool condition);
     // static public System.Void IsFalse(System.Boolean condition)
-    // Offset: 0x1C8516C
+    // Offset: 0x1C93558
     static void IsFalse(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)

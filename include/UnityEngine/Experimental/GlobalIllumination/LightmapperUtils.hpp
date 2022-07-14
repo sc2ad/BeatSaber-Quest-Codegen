@@ -45,25 +45,25 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   class LightmapperUtils : public ::Il2CppObject {
     public:
     // static public UnityEngine.Experimental.GlobalIllumination.LinearColor ExtractIndirect(UnityEngine.Light l)
-    // Offset: 0x1F90BE0
+    // Offset: 0x1F9E058
     static ::UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(::UnityEngine::Light* l);
     // static public System.Single ExtractInnerCone(UnityEngine.Light l)
-    // Offset: 0x1F90D58
+    // Offset: 0x1F9E1D0
     static float ExtractInnerCone(::UnityEngine::Light* l);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DirectionalLight dir)
-    // Offset: 0x1F90E10
+    // Offset: 0x1F9E288
     static void Extract(::UnityEngine::Light* l, ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> dir);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.PointLight point)
-    // Offset: 0x1F90F10
+    // Offset: 0x1F9E388
     static void Extract(::UnityEngine::Light* l, ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> point);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.SpotLight spot)
-    // Offset: 0x1F91028
+    // Offset: 0x1F9E4A0
     static void Extract(::UnityEngine::Light* l, ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> spot);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.RectangleLight rect)
-    // Offset: 0x1F911A0
+    // Offset: 0x1F9E618
     static void Extract(::UnityEngine::Light* l, ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> rect);
     // static public System.Void Extract(UnityEngine.Light l, ref UnityEngine.Experimental.GlobalIllumination.DiscLight disc)
-    // Offset: 0x1F912F0
+    // Offset: 0x1F9E768
     static void Extract(::UnityEngine::Light* l, ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight> disc);
   }; // UnityEngine.Experimental.GlobalIllumination.LightmapperUtils
   #pragma pack(pop)

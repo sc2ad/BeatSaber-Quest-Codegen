@@ -139,89 +139,89 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.SessionMode _sessionMode
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::SessionMode& dyn__sessionMode();
     // public System.Int64 get_SessionID()
-    // Offset: 0x1AFB548
+    // Offset: 0x1B08934
     int64_t get_SessionID();
     // public System.Void set_SessionID(System.Int64 value)
-    // Offset: 0x1AFABEC
+    // Offset: 0x1B07FD8
     void set_SessionID(int64_t value);
     // public System.Int32 get_ProcessID()
-    // Offset: 0x1AFB5B0
+    // Offset: 0x1B0899C
     int get_ProcessID();
     // public System.Void set_ProcessID(System.Int32 value)
-    // Offset: 0x1AFB5B8
+    // Offset: 0x1B089A4
     void set_ProcessID(int value);
     // public HoudiniEngineUnity.HAPI_SessionType get_SessionType()
-    // Offset: 0x1AFB5C0
+    // Offset: 0x1B089AC
     ::HoudiniEngineUnity::HAPI_SessionType get_SessionType();
     // public System.Void set_SessionType(HoudiniEngineUnity.HAPI_SessionType value)
-    // Offset: 0x1AFB5C8
+    // Offset: 0x1B089B4
     void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value);
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1AFB5D0
+    // Offset: 0x1B089BC
     bool get_IsInitialized();
     // public System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x1AFB5D8
+    // Offset: 0x1B089C4
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsValidSessionID()
-    // Offset: 0x1AFB5E4
+    // Offset: 0x1B089D0
     bool get_IsValidSessionID();
     // public System.String get_PipeName()
-    // Offset: 0x1AFB5EC
+    // Offset: 0x1B089D8
     ::StringW get_PipeName();
     // public System.Void set_PipeName(System.String value)
-    // Offset: 0x1AFB634
+    // Offset: 0x1B08A20
     void set_PipeName(::StringW value);
     // public System.Int32 get_Port()
-    // Offset: 0x1AFB63C
+    // Offset: 0x1B08A28
     int get_Port();
     // public System.Void set_Port(System.Int32 value)
-    // Offset: 0x1AFB644
+    // Offset: 0x1B08A30
     void set_Port(int value);
     // public System.Type get_SessionClassType()
-    // Offset: 0x1AFB64C
+    // Offset: 0x1B08A38
     ::System::Type* get_SessionClassType();
     // public System.Void set_SessionClassType(System.Type value)
-    // Offset: 0x1AFB6F8
+    // Offset: 0x1B08AE4
     void set_SessionClassType(::System::Type* value);
     // public System.Boolean get_IsDefaultSession()
-    // Offset: 0x1AFB734
+    // Offset: 0x1B08B20
     bool get_IsDefaultSession();
     // public System.Void set_IsDefaultSession(System.Boolean value)
-    // Offset: 0x1AFB73C
+    // Offset: 0x1B08B28
     void set_IsDefaultSession(bool value);
     // public System.Boolean get_IsSessionSync()
-    // Offset: 0x1AFA7A4
+    // Offset: 0x1B07B90
     bool get_IsSessionSync();
     // public HoudiniEngineUnity.SessionConnectionState get_ThisConnectionMode()
-    // Offset: 0x1AFB748
+    // Offset: 0x1B08B34
     ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
     // public System.Void set_ThisConnectionMode(HoudiniEngineUnity.SessionConnectionState value)
-    // Offset: 0x1AFB750
+    // Offset: 0x1B08B3C
     void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value);
     // public HoudiniEngineUnity.SessionMode get_ThisSessionMode()
-    // Offset: 0x1AFB758
+    // Offset: 0x1B08B44
     ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
     // public System.Void set_ThisSessionMode(HoudiniEngineUnity.SessionMode value)
-    // Offset: 0x1AFB760
+    // Offset: 0x1B08B4C
     void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
     // public System.Void .ctor()
-    // Offset: 0x1AFB768
+    // Offset: 0x1B08B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionData*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AFB778
+    // Offset: 0x1B08B64
     static void _cctor();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetOrCreateSessionSync()
-    // Offset: 0x1AFB41C
+    // Offset: 0x1B08808
     ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetSessionSync()
-    // Offset: 0x1AFB538
+    // Offset: 0x1B08924
     ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
     // public System.Void SetSessionSync(HoudiniEngineUnity.HEU_SessionSyncData syncData)
-    // Offset: 0x1AFB540
+    // Offset: 0x1B0892C
     void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
   }; // HoudiniEngineUnity.HEU_SessionData
   #pragma pack(pop)

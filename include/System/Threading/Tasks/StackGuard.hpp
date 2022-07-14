@@ -49,16 +49,16 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Int32 m_inliningDepth
     [[deprecated("Use field access instead!")]] int& dyn_m_inliningDepth();
     // System.Boolean TryBeginInliningScope()
-    // Offset: 0x1DC8268
+    // Offset: 0x1DD7654
     bool TryBeginInliningScope();
     // System.Void EndInliningScope()
-    // Offset: 0x1DC8288
+    // Offset: 0x1DD7674
     void EndInliningScope();
     // private System.Boolean CheckForSufficientStack()
-    // Offset: 0x1DC8280
+    // Offset: 0x1DD766C
     bool CheckForSufficientStack();
     // public System.Void .ctor()
-    // Offset: 0x1DC829C
+    // Offset: 0x1DD7688
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

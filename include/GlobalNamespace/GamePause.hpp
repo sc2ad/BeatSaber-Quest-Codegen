@@ -71,49 +71,49 @@ namespace GlobalNamespace {
     ::System::Action* didResumeEvent;
     // Field size check
     static_assert(sizeof(::System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA404
+    // [InjectAttribute] Offset: 0x10E1B48
     // private GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA414
+    // [InjectAttribute] Offset: 0x10E1B58
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA424
+    // [InjectAttribute] Offset: 0x10E1B68
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA434
+    // [InjectAttribute] Offset: 0x10E1B78
     // private BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA444
+    // [InjectAttribute] Offset: 0x10E1B88
     // private SongController _songController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::SongController* songController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA454
+    // [InjectAttribute] Offset: 0x10E1B98
     // private SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DA464
+    // [InjectAttribute] Offset: 0x10E1BA8
     // private AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x58
@@ -158,41 +158,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _pause
     [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x13E8B08
+    // Offset: 0x13C6AD0
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x13E8B10
+    // Offset: 0x13C6AD8
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x13E8BB4
+    // Offset: 0x13C6B7C
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x13E8C58
+    // Offset: 0x13C6C20
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x13E8CFC
+    // Offset: 0x13C6CC4
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x13E8DA0
+    // Offset: 0x13C6D68
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x13E8E44
+    // Offset: 0x13C6E0C
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13E91B0
+    // Offset: 0x13C7178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GamePause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GamePause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GamePause*, creationType>()));
     }
     // public System.Void Pause()
-    // Offset: 0x13E8EE8
+    // Offset: 0x13C6EB0
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x13E9040
+    // Offset: 0x13C7008
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x13E905C
+    // Offset: 0x13C7024
     void Resume();
   }; // GamePause
   #pragma pack(pop)

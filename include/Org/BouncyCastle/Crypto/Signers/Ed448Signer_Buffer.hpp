@@ -34,17 +34,17 @@ namespace Org::BouncyCastle::Crypto::Signers {
   class Ed448Signer::Buffer : public ::System::IO::MemoryStream {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15FE900
+    // Offset: 0x1609CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448Signer::Buffer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed448Signer::Buffer*, creationType>()));
     }
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey, System.Byte[] ctx)
-    // Offset: 0x15FEA80
+    // Offset: 0x1609E6C
     ::ArrayW<uint8_t> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::ArrayW<uint8_t> ctx);
     // System.Void Reset()
-    // Offset: 0x15FEBF8
+    // Offset: 0x1609FE4
     void Reset();
   }; // Org.BouncyCastle.Crypto.Signers.Ed448Signer/Org.BouncyCastle.Crypto.Signers.Buffer
   #pragma pack(pop)

@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::NoteJump* jump;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteJump*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D6C0C
+    // [SpaceAttribute] Offset: 0x10DE340
     // private System.Single _zOffset
     // Size: 0x4
     // Offset: 0x28
@@ -234,125 +234,125 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _prevLocalPosition
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__prevLocalPosition();
     // public NoteMovement/MovementPhase get_movementPhase()
-    // Offset: 0x14B64B4
+    // Offset: 0x14D4F68
     ::GlobalNamespace::NoteMovement::MovementPhase get_movementPhase();
     // private System.Void set_movementPhase(NoteMovement/MovementPhase value)
-    // Offset: 0x14B64BC
+    // Offset: 0x14D4F70
     void set_movementPhase(::GlobalNamespace::NoteMovement::MovementPhase value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x14B64C4
+    // Offset: 0x14D4F78
     ::UnityEngine::Vector3 get_position();
     // public UnityEngine.Vector3 get_prevPosition()
-    // Offset: 0x14B64D0
+    // Offset: 0x14D4F84
     ::UnityEngine::Vector3 get_prevPosition();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x14B64DC
+    // Offset: 0x14D4F90
     ::UnityEngine::Vector3 get_localPosition();
     // public UnityEngine.Vector3 get_prevLocalPosition()
-    // Offset: 0x14B64E8
+    // Offset: 0x14D4F9C
     ::UnityEngine::Vector3 get_prevLocalPosition();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x14AC86C
+    // Offset: 0x14CB320
     ::UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x14AC8B8
+    // Offset: 0x14CB36C
     ::UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_moveEndPos()
-    // Offset: 0x14ACA58
+    // Offset: 0x14CB50C
     ::UnityEngine::Vector3 get_moveEndPos();
     // public System.Single get_moveStartTime()
-    // Offset: 0x14AC900
+    // Offset: 0x14CB3B4
     float get_moveStartTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x14AC944
+    // Offset: 0x14CB3F8
     float get_moveDuration();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x14ACA14
+    // Offset: 0x14CB4C8
     ::UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0x14AC988
+    // Offset: 0x14CB43C
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_jumpMoveVec()
-    // Offset: 0x14AC9D0
+    // Offset: 0x14CB484
     ::UnityEngine::Vector3 get_jumpMoveVec();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x14B64F4
+    // Offset: 0x14D4FA8
     float get_distanceToPlayer();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x14B60DC
+    // Offset: 0x14D4B90
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x14B6180
+    // Offset: 0x14D4C34
     void remove_didInitEvent(::System::Action* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x14ACD4C
+    // Offset: 0x14CB800
     void add_noteDidStartJumpEvent(::System::Action* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x14AD164
+    // Offset: 0x14CBC18
     void remove_noteDidStartJumpEvent(::System::Action* value);
     // public System.Void add_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x14ACCA8
+    // Offset: 0x14CB75C
     void add_noteDidFinishJumpEvent(::System::Action* value);
     // public System.Void remove_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x14AD0C0
+    // Offset: 0x14CBB74
     void remove_noteDidFinishJumpEvent(::System::Action* value);
     // public System.Void add_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x14ACE94
+    // Offset: 0x14CB948
     void add_noteDidPassMissedMarkerEvent(::System::Action* value);
     // public System.Void remove_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x14AD2AC
+    // Offset: 0x14CBD60
     void remove_noteDidPassMissedMarkerEvent(::System::Action* value);
     // public System.Void add_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x14B6224
+    // Offset: 0x14D4CD8
     void add_noteDidPassHalfJumpEvent(::System::Action* value);
     // public System.Void remove_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x14B62C8
+    // Offset: 0x14D4D7C
     void remove_noteDidPassHalfJumpEvent(::System::Action* value);
     // public System.Void add_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x14ACDF0
+    // Offset: 0x14CB8A4
     void add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value);
     // public System.Void remove_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x14AD208
+    // Offset: 0x14CBCBC
     void remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value);
     // public System.Void add_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x14B636C
+    // Offset: 0x14D4E20
     void add_noteDidMoveInJumpPhaseEvent(::System::Action* value);
     // public System.Void remove_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x14B6410
+    // Offset: 0x14D4EC4
     void remove_noteDidMoveInJumpPhaseEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x14B69AC
+    // Offset: 0x14D5460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteMovement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteMovement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteMovement*, creationType>()));
     }
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single flipYSide, System.Single endRotation, System.Boolean rotateTowardsPlayer, System.Boolean useRandomRotation)
-    // Offset: 0x14ADF28
+    // Offset: 0x14CC9DC
     void Init(float beatTime, float worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float flipYSide, float endRotation, bool rotateTowardsPlayer, bool useRandomRotation);
     // protected System.Void Awake()
-    // Offset: 0x14B652C
+    // Offset: 0x14D4FE0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14B66A8
+    // Offset: 0x14D515C
     void OnDestroy();
     // private System.Void HandleFloorMovementDidFinish()
-    // Offset: 0x14B6898
+    // Offset: 0x14D534C
     void HandleFloorMovementDidFinish();
     // private System.Void HandleNoteJumpDidFinish()
-    // Offset: 0x14B6904
+    // Offset: 0x14D53B8
     void HandleNoteJumpDidFinish();
     // private System.Void HandleNoteJumpDidPassMissedMark()
-    // Offset: 0x14B6920
+    // Offset: 0x14D53D4
     void HandleNoteJumpDidPassMissedMark();
     // private System.Void HandleNoteJumpDidPassThreeQuarters(NoteJump noteJump)
-    // Offset: 0x14B6934
+    // Offset: 0x14D53E8
     void HandleNoteJumpDidPassThreeQuarters(::GlobalNamespace::NoteJump* noteJump);
     // private System.Void HandleNoteJumpNoteJumpDidPassHalf()
-    // Offset: 0x14B6998
+    // Offset: 0x14D544C
     void HandleNoteJumpNoteJumpDidPassHalf();
     // public System.Void ManualUpdate()
-    // Offset: 0x14AD378
+    // Offset: 0x14CBE2C
     void ManualUpdate();
   }; // NoteMovement
   #pragma pack(pop)

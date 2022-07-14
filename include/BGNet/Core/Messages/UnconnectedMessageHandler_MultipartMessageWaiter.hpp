@@ -67,7 +67,7 @@ namespace BGNet::Core::Messages {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: length and: ranges
     char __padding2[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0x10B8F18
+    // [TupleElementNamesAttribute] Offset: 0x10C1668
     // private readonly System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int32>> _ranges
     // Size: 0x8
     // Offset: 0x28
@@ -100,26 +100,26 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Boolean _isDisposed
     [[deprecated("Use field access instead!")]] bool& dyn__isDisposed();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x1551F20
+    // Offset: 0x155B128
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x1551F40
+    // Offset: 0x155B148
     ::ArrayW<uint8_t> get_data();
     // public System.Int32 get_length()
-    // Offset: 0x1551F48
+    // Offset: 0x155B150
     int get_length();
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x1551798
+    // Offset: 0x155A9A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::MultipartMessageWaiter* New_ctor(::GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(BGNet.Core.Messages.IUnconnectedMultipartMessage packet)
-    // Offset: 0x1551868
+    // Offset: 0x155AA70
     void Append(::BGNet::Core::Messages::IUnconnectedMultipartMessage* packet);
     // public override System.Void Dispose()
-    // Offset: 0x1551824
+    // Offset: 0x155AA2C
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

@@ -41,22 +41,22 @@ namespace Newtonsoft::Json::Converters {
   class XCommentWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
     public:
     // private System.Xml.Linq.XComment get_Text()
-    // Offset: 0x17B508C
+    // Offset: 0x17BF478
     ::System::Xml::Linq::XComment* get_Text();
     // public System.Void .ctor(System.Xml.Linq.XComment text)
-    // Offset: 0x17B510C
+    // Offset: 0x17BF4F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XCommentWrapper* New_ctor(::System::Xml::Linq::XComment* text) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XCommentWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XCommentWrapper*, creationType>(text)));
     }
     // public override System.String get_Value()
-    // Offset: 0x17B5188
+    // Offset: 0x17BF574
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_Value()
     ::StringW get_Value();
     // public override Newtonsoft.Json.Converters.IXmlNode get_ParentNode()
-    // Offset: 0x17B51A8
+    // Offset: 0x17BF594
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XObjectWrapper::get_ParentNode()
     ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();

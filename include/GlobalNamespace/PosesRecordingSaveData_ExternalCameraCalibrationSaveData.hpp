@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single nearOffset
     [[deprecated("Use field access instead!")]] float& dyn_nearOffset();
     // public System.Void .ctor(System.Single fieldOfVision, System.Single nearClip, System.Single farClip, System.Single hmdOffset, System.Single nearOffset)
-    // Offset: 0x13E013C
+    // Offset: 0x13682AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::ExternalCameraCalibrationSaveData* New_ctor(float fieldOfVision, float nearClip, float farClip, float hmdOffset, float nearOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData::.ctor");

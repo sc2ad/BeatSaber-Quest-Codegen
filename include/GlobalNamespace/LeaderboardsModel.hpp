@@ -35,14 +35,14 @@ namespace GlobalNamespace {
   class LeaderboardsModel : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1374910
+    // Offset: 0x13A5368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModel*, creationType>()));
     }
     // static public System.String GetLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x13748AC
+    // Offset: 0x13A5304
     static ::StringW GetLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // LeaderboardsModel
   #pragma pack(pop)

@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerLobbyAvatarPlace::Pool
     class Pool;
     // public System.Void .ctor()
-    // Offset: 0x141FD64
+    // Offset: 0x14159A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarPlace* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarPlace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarPlace*, creationType>()));
     }
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 worldPos, UnityEngine.Quaternion rotation)
-    // Offset: 0x141FCE8
+    // Offset: 0x1415928
     void SetPositionAndRotation(::UnityEngine::Vector3 worldPos, ::UnityEngine::Quaternion rotation);
   }; // MultiplayerLobbyAvatarPlace
   #pragma pack(pop)

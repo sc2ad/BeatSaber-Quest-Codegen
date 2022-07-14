@@ -132,37 +132,37 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
     static void _set__responseCodeLookup(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1737194
+    // Offset: 0x1741580
     static void _cctor();
     // static private System.String GetMessageName(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x1735D90
+    // Offset: 0x174017C
     static ::StringW GetMessageName(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // static private System.String GetResponseCodeName(BGNet.Core.Messages.IUnconnectedResponse response)
-    // Offset: 0x1735ED8
+    // Offset: 0x17402C4
     static ::StringW GetResponseCodeName(::BGNet::Core::Messages::IUnconnectedResponse* response);
     // static public System.Void ReceivedReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
-    // Offset: 0x1736198
+    // Offset: 0x1740584
     static void ReceivedReliableRequestEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request);
     // static public System.Void SentReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
-    // Offset: 0x1736434
+    // Offset: 0x1740820
     static void SentReliableRequestEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request);
     // static public System.Void ReceivedReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
-    // Offset: 0x1736604
+    // Offset: 0x17409F0
     static void ReceivedReliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response);
     // static public System.Void SentReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
-    // Offset: 0x1736800
+    // Offset: 0x1740BEC
     static void SentReliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response);
     // static public System.Void ReceivedUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
-    // Offset: 0x17369FC
+    // Offset: 0x1740DE8
     static void ReceivedUnreliableMessageEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
     // static public System.Void SentUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
-    // Offset: 0x1736BCC
+    // Offset: 0x1740FB8
     static void SentUnreliableMessageEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
     // static public System.Void ReceivedUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
-    // Offset: 0x1736D9C
+    // Offset: 0x1741188
     static void ReceivedUnreliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedResponse* response);
     // static public System.Void SentUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
-    // Offset: 0x1736F98
+    // Offset: 0x1741384
     static void SentUnreliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedResponse* response);
   }; // MessageHandlerAnalyticsManagerExtensions
   #pragma pack(pop)

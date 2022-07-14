@@ -117,26 +117,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _startVolume
     [[deprecated("Use field access instead!")]] float& dyn__startVolume();
     // public System.Void .ctor()
-    // Offset: 0x14F361C
+    // Offset: 0x14FC824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPitchGainEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioPitchGainEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPitchGainEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14F34A4
+    // Offset: 0x14FC6AC
     void Start();
     // private System.Collections.IEnumerator StartEffectCoroutine(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x14F34D8
+    // Offset: 0x14FC6E0
     ::System::Collections::IEnumerator* StartEffectCoroutine(float volumeScale, ::System::Action* finishCallback);
     // public System.Void StartEffect(System.Single volumeScale, System.Action finishCallback)
-    // Offset: 0x14F3594
+    // Offset: 0x14FC79C
     void StartEffect(float volumeScale, ::System::Action* finishCallback);
     // public System.Void InterruptEffect()
-    // Offset: 0x14F35C8
+    // Offset: 0x14FC7D0
     void InterruptEffect();
     // public System.Void SetAudioSource(UnityEngine.AudioSource audioSource)
-    // Offset: 0x14F3614
+    // Offset: 0x14FC81C
     void SetAudioSource(::UnityEngine::AudioSource* audioSource);
   }; // AudioPitchGainEffect
   #pragma pack(pop)

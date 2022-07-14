@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class LocalizationKeyAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A2A018
+    // Offset: 0x2A41490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationKeyAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizationKeyAttribute::.ctor");

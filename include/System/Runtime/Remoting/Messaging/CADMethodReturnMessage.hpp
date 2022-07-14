@@ -79,29 +79,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Type[] _sig
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn__sig();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1C75A48
+    // Offset: 0x1C84E34
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage retMsg)
-    // Offset: 0x1C75518
+    // Offset: 0x1C84904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodReturnMessage*, creationType>(retMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1C75494
+    // Offset: 0x1C84880
     static ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1C75898
+    // Offset: 0x1C84C84
     ::System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1C75974
+    // Offset: 0x1C84D60
     ::ArrayW<::Il2CppObject*> GetArgs(::System::Collections::ArrayList* args);
     // System.Object GetReturnValue(System.Collections.ArrayList args)
-    // Offset: 0x1C75984
+    // Offset: 0x1C84D70
     ::Il2CppObject* GetReturnValue(::System::Collections::ArrayList* args);
     // System.Exception GetException(System.Collections.ArrayList args)
-    // Offset: 0x1C75994
+    // Offset: 0x1C84D80
     ::System::Exception* GetException(::System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodReturnMessage
   #pragma pack(pop)

@@ -1327,7 +1327,7 @@ namespace GlobalNamespace {
     }; // NetworkPlayerModel`1/<>c
     // Could not write size check! Type: NetworkPlayerModel`1/<>c is generic, or has no fields that are valid for size checks!
     public:
-    // [InjectAttribute] Offset: 0x10D514C
+    // [InjectAttribute] Offset: 0x10DC8DC
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x0

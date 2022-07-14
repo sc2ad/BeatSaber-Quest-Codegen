@@ -93,60 +93,60 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.String get_SubjectKeyIdentifier()
-    // Offset: 0x1BE5348
+    // Offset: 0x1BF3734
     ::StringW get_SubjectKeyIdentifier();
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedSubjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x1BEEA24
+    // Offset: 0x1BFCE10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(encodedSubjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.Byte[] subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x1BEFD6C
+    // Offset: 0x1BFE158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(subjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.String subjectKeyIdentifier, System.Boolean critical)
-    // Offset: 0x1BEFF54
+    // Offset: 0x1BFE340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::StringW subjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(subjectKeyIdentifier, critical)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Boolean critical)
-    // Offset: 0x1BF019C
+    // Offset: 0x1BFE588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(key, critical)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.PublicKey key, System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm algorithm, System.Boolean critical)
-    // Offset: 0x1BF01A8
+    // Offset: 0x1BFE594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509SubjectKeyIdentifierExtension* New_ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(key, algorithm, critical)));
     }
     // static System.Byte FromHexChar(System.Char c)
-    // Offset: 0x1BF06AC
+    // Offset: 0x1BFEA98
     static uint8_t FromHexChar(::Il2CppChar c);
     // static System.Byte FromHexChars(System.Char c1, System.Char c2)
-    // Offset: 0x1BF06F4
+    // Offset: 0x1BFEAE0
     static uint8_t FromHexChars(::Il2CppChar c1, ::Il2CppChar c2);
     // static System.Byte[] FromHex(System.String hex)
-    // Offset: 0x1BF0094
+    // Offset: 0x1BFE480
     static ::ArrayW<uint8_t> FromHex(::StringW hex);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1BEFBF8
+    // Offset: 0x1BFDFE4
     ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // System.Byte[] Encode()
-    // Offset: 0x1BEFED8
+    // Offset: 0x1BFE2C4
     ::ArrayW<uint8_t> Encode();
     // public System.Void .ctor()
-    // Offset: 0x1BEFB68
+    // Offset: 0x1BFDF54
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
@@ -156,12 +156,12 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1BF0508
+    // Offset: 0x1BFE8F4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1BF0790
+    // Offset: 0x1BFEB7C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::StringW ToString(bool multiLine);

@@ -37,10 +37,10 @@ namespace System::Threading::Tasks {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
     // static protected System.Void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task task, System.Boolean needsProtection)
-    // Offset: 0x1D21ECC
+    // Offset: 0x1D302B8
     static void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
     // protected System.Void .ctor()
-    // Offset: 0x1D222D8
+    // Offset: 0x1D306C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

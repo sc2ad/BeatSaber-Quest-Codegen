@@ -47,20 +47,20 @@ namespace Newtonsoft::Json::Serialization {
   class ExtensionDataGetter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D527F0
+    // Offset: 0x1D60BDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtensionDataGetter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ExtensionDataGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionDataGetter*, creationType>(object, method)));
     }
     // public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>> Invoke(System.Object o)
-    // Offset: 0x1D52800
+    // Offset: 0x1D60BEC
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* Invoke(::Il2CppObject* o);
     // public System.IAsyncResult BeginInvoke(System.Object o, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D52B9C
+    // Offset: 0x1D60F88
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* o, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>> EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D52BC0
+    // Offset: 0x1D60FAC
     ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* EndInvoke(::System::IAsyncResult* result);
   }; // Newtonsoft.Json.Serialization.ExtensionDataGetter
   #pragma pack(pop)

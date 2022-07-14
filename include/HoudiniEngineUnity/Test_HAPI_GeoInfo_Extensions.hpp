@@ -33,7 +33,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_GeoInfo_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_GeoInfo ToTestObject(HoudiniEngineUnity.HAPI_GeoInfo self)
-    // Offset: 0x1A167DC
+    // Offset: 0x1A20BC8
     static ::HoudiniEngineUnity::Test_HAPI_GeoInfo* ToTestObject(::HoudiniEngineUnity::HAPI_GeoInfo self);
   }; // HoudiniEngineUnity.Test_HAPI_GeoInfo_Extensions
   #pragma pack(pop)

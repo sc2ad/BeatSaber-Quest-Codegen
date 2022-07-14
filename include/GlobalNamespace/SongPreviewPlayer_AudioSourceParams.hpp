@@ -32,21 +32,21 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x10E8ADC
+    // [RangeAttribute] Offset: 0x10F035C
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10E8B20
+    // [RangeAttribute] Offset: 0x10F03A0
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10E8B60
+    // [RangeAttribute] Offset: 0x10F03E0
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spread
     [[deprecated("Use field access instead!")]] float& dyn__spread();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x138FCAC
+    // Offset: 0x13EF338
     ::UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x138FCB8
+    // Offset: 0x13EF344
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x138FCC0
+    // Offset: 0x13EF34C
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x138FCC8
+    // Offset: 0x13EF354
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x138FCD0
+    // Offset: 0x13EF35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceParams::.ctor");

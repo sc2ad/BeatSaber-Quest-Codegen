@@ -36,7 +36,7 @@ namespace BGNet::Core::GameLift {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0x10B9028
+    // [TupleElementNamesAttribute] Offset: 0x10C1778
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`2<System.String,System.Int64>> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
@@ -79,10 +79,10 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Int64> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<int64_t>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15439C0
+    // Offset: 0x154CBC8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1543C64
+    // Offset: 0x154CE6C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<PingRegionAsync>d__18
   // WARNING Not writing size check since size may be invalid!

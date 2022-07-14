@@ -70,14 +70,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* continueButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10E2D94
+    // [HeaderAttribute] Offset: 0x10EA5A0
     // private SafeAreaRectChecker _safeAreaRectChecker
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::SafeAreaRectChecker* safeAreaRectChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SafeAreaRectChecker*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10E2DE0
+    // [HeaderAttribute] Offset: 0x10EA5EC
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x80
@@ -86,21 +86,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: duration and: healthAndSafetyTextMesh
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0x10E2E2C
+    // [HeaderAttribute] Offset: 0x10EA638
     // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x88
     ::TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10E2E78
+    // [LocalizationKeyAttribute] Offset: 0x10EA684
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x90
     ::StringW healthAndSafetyFullLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10E2EB0
+    // [LocalizationKeyAttribute] Offset: 0x10EA6BC
     // private System.String _healthAndSafetyShortLocalizationKey
     // Size: 0x8
     // Offset: 0x98
@@ -147,34 +147,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _dismissCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__dismissCoroutine();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x136D58C
+    // Offset: 0x139E180
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x136D864
+    // Offset: 0x139E458
     void remove_didFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x136E39C
+    // Offset: 0x139EDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningViewController*, creationType>()));
     }
     // public System.Void Init(System.Boolean showShortHealthAndSafety)
-    // Offset: 0x136E364
+    // Offset: 0x139EDBC
     void Init(bool showShortHealthAndSafety);
     // private System.Collections.IEnumerator DismissHealthAndSafety()
-    // Offset: 0x136E220
+    // Offset: 0x139EC78
     ::System::Collections::IEnumerator* DismissHealthAndSafety();
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x136E3A4
+    // Offset: 0x139EDFC
     void $DidActivate$b__11_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x136E08C
+    // Offset: 0x139EAE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x136E290
+    // Offset: 0x139ECE8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

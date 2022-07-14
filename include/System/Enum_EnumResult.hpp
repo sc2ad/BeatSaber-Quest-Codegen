@@ -102,19 +102,19 @@ namespace System {
     // Get instance field reference: System.Exception m_innerException
     [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0x195502C
+    // Offset: 0x195F418
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0x1955E80
+    // Offset: 0x196026C
     void SetFailure(::System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0x1955884
+    // Offset: 0x195FC70
     void SetFailure(::System::Enum::ParseFailureKind failure, ::StringW failureParameter);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x19558FC
+    // Offset: 0x195FCE8
     void SetFailure(::System::Enum::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0x195571C
+    // Offset: 0x195FB08
     ::System::Exception* GetEnumParseException();
   }; // System.Enum/System.EnumResult
   #pragma pack(pop)

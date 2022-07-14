@@ -43,32 +43,32 @@ namespace RootMotion {
   class AxisTools : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x223CC48
+    // Offset: 0x224B0C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AxisTools* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::AxisTools::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisTools*, creationType>()));
     }
     // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
-    // Offset: 0x223C4D4
+    // Offset: 0x224A94C
     static ::UnityEngine::Vector3 ToVector3(::RootMotion::Axis axis);
     // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
-    // Offset: 0x223C58C
+    // Offset: 0x224AA04
     static ::RootMotion::Axis ToAxis(::UnityEngine::Vector3 v);
     // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x223C638
+    // Offset: 0x224AAB0
     static ::RootMotion::Axis GetAxisToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
     // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x223C81C
+    // Offset: 0x224AC94
     static ::RootMotion::Axis GetAxisToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x223C754
+    // Offset: 0x224ABCC
     static ::UnityEngine::Vector3 GetAxisVectorToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
-    // Offset: 0x223C938
+    // Offset: 0x224ADB0
     static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
-    // Offset: 0x223C980
+    // Offset: 0x224ADF8
     static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Quaternion r, ::UnityEngine::Vector3 direction);
   }; // RootMotion.AxisTools
   #pragma pack(pop)

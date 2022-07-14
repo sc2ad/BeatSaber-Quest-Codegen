@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     float timeToLooseLead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10DC558
+    // [InjectAttribute] Offset: 0x10E3C9C
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC568
+    // [InjectAttribute] Offset: 0x10E3CAC
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
@@ -114,38 +114,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyLeadingUser
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x1417718
+    // Offset: 0x140D358
     void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
-    // Offset: 0x1417674
+    // Offset: 0x140D2B4
     void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x141ADD0
+    // Offset: 0x1410A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeadPlayerProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeadPlayerProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeadPlayerProvider*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x141A878
+    // Offset: 0x14104B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x141A944
+    // Offset: 0x1410584
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x141AA98
+    // Offset: 0x14106D8
     void Update();
     // private System.Void StopProviding()
-    // Offset: 0x141AB58
+    // Offset: 0x1410798
     void StopProviding();
     // private System.Void StartProviding()
-    // Offset: 0x141ABFC
+    // Offset: 0x141083C
     void StartProviding();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x141A934
+    // Offset: 0x1410574
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer firstPlayer)
-    // Offset: 0x141ACA4
+    // Offset: 0x14108E4
     void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* firstPlayer);
   }; // MultiplayerLeadPlayerProvider
   #pragma pack(pop)

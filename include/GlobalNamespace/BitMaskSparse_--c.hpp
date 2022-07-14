@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.UInt32,System.String> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<uint, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x29FCF5C
+    // Offset: 0x2A143D4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x29FCFC0
+    // Offset: 0x2A14438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskSparse::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BitMaskSparse::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskSparse::$$c*, creationType>()));
     }
     // System.String <ToString>b__8_0(System.UInt32 i)
-    // Offset: 0x29FCFC8
+    // Offset: 0x2A14440
     ::StringW $ToString$b__8_0(uint i);
   }; // BitMaskSparse/<>c
   #pragma pack(pop)

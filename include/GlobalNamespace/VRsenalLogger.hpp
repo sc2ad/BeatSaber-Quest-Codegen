@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VRsenalScoreLogger* vRsenalScoreLoggerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRsenalScoreLogger*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D1170
+    // [InjectAttribute] Offset: 0x10D88F0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x38
@@ -93,23 +93,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x2865DE4
+    // Offset: 0x287E25C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRsenalLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRsenalLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRsenalLogger*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2865A34
+    // Offset: 0x287DEAC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2865B1C
+    // Offset: 0x287DF94
     void OnDestroy();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x2865C04
+    // Offset: 0x287E07C
     void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
-    // Offset: 0x2865D5C
+    // Offset: 0x287E1D4
     void HandlePlayerNameWasEntered(::StringW playerName);
   }; // VRsenalLogger
   #pragma pack(pop)

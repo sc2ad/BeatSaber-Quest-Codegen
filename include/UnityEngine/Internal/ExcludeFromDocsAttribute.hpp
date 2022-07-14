@@ -29,7 +29,7 @@ namespace UnityEngine::Internal {
   class ExcludeFromDocsAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x202CFC4
+    // Offset: 0x203A43C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExcludeFromDocsAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Internal::ExcludeFromDocsAttribute::.ctor");

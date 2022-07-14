@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
     static void _set_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x1B188E0
+    // Offset: 0x1B24CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRResources* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources*, creationType>()));
     }
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x1B1866C
+    // Offset: 0x1B24A58
     static ::UnityEngine::Object* Load(::StringW path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, path);
     }
     // static public System.Void SetResourceBundle(UnityEngine.AssetBundle bundle)
-    // Offset: 0x1B18828
+    // Offset: 0x1B24C14
     static void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
   }; // OVRResources
   #pragma pack(pop)

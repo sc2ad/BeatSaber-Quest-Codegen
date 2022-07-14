@@ -108,56 +108,56 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_InternalUpdateLookup
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_InternalUpdateLookup();
     // static public TMPro.TMP_UpdateManager get_instance()
-    // Offset: 0x18FE208
+    // Offset: 0x19065F4
     static ::TMPro::TMP_UpdateManager* get_instance();
     // protected System.Void .ctor()
-    // Offset: 0x18FE284
+    // Offset: 0x1906670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_UpdateManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_UpdateManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_UpdateManager*, creationType>()));
     }
     // static System.Void RegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18FE460
+    // Offset: 0x190684C
     static void RegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
     // private System.Void InternalRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18FE48C
+    // Offset: 0x1906878
     void InternalRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
     // static public System.Void RegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FE55C
+    // Offset: 0x1906948
     static void RegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FE588
+    // Offset: 0x1906974
     bool InternalRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
     // static public System.Void RegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FE658
+    // Offset: 0x1906A44
     static void RegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
     // private System.Boolean InternalRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FE684
+    // Offset: 0x1906A70
     bool InternalRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
     // private System.Void OnBeginFrameRendering(UnityEngine.Rendering.ScriptableRenderContext renderContext, UnityEngine.Camera[] cameras)
-    // Offset: 0x18FE754
+    // Offset: 0x1906B40
     void OnBeginFrameRendering(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayW<::UnityEngine::Camera*> cameras);
     // private System.Void OnCameraPreCull(UnityEngine.Camera cam)
-    // Offset: 0x18FE928
+    // Offset: 0x1906D14
     void OnCameraPreCull(::UnityEngine::Camera* cam);
     // private System.Void DoRebuilds()
-    // Offset: 0x18FE758
+    // Offset: 0x1906B44
     void DoRebuilds();
     // static System.Void UnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18FE92C
+    // Offset: 0x1906D18
     static void UnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
     // static public System.Void UnRegisterTextElementForRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FE9F8
+    // Offset: 0x1906DE4
     static void UnRegisterTextElementForRebuild(::TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForGraphicRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FEA44
+    // Offset: 0x1906E30
     void InternalUnRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextElementForLayoutRebuild(TMPro.TMP_Text element)
-    // Offset: 0x18FEAE4
+    // Offset: 0x1906ED0
     void InternalUnRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
     // private System.Void InternalUnRegisterTextObjectForUpdate(TMPro.TMP_Text textObject)
-    // Offset: 0x18FE958
+    // Offset: 0x1906D44
     void InternalUnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
   }; // TMPro.TMP_UpdateManager
   #pragma pack(pop)

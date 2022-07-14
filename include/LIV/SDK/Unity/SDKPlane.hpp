@@ -62,10 +62,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 normal
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_normal();
     // static public LIV.SDK.Unity.SDKPlane get_empty()
-    // Offset: 0x2A4B5C4
+    // Offset: 0x2A63A4C
     static ::LIV::SDK::Unity::SDKPlane get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A4B5E8
+    // Offset: 0x2A63A70
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

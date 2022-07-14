@@ -47,14 +47,14 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0x10FB83C
+    // [RangeAttribute] Offset: 0x1104250
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10FB854
+    // [RangeAttribute] Offset: 0x1104268
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -77,26 +77,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Int32[] children
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_children();
     // public System.Void .ctor()
-    // Offset: 0x224B314
+    // Offset: 0x225978C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FABRIKChain* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FABRIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FABRIKChain*, creationType>()));
     }
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x224AD64
+    // Offset: 0x22591DC
     bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate()
-    // Offset: 0x224AE2C
+    // Offset: 0x22592A4
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x224AE4C
+    // Offset: 0x22592C4
     void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x224B21C
+    // Offset: 0x2259694
     void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x224AF20
+    // Offset: 0x2259398
     ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*> chain);
   }; // RootMotion.FinalIK.FABRIKChain
   #pragma pack(pop)

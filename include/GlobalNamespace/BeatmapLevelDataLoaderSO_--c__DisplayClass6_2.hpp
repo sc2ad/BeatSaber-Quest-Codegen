@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*& dyn_CS$$$8__locals2();
     // public System.Void .ctor()
-    // Offset: 0x150486C
+    // Offset: 0x150DA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2*, creationType>()));
     }
     // System.Void <LoadBeatmapLevelDataAsync>b__1(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x1504874
+    // Offset: 0x150DA7C
     void $LoadBeatmapLevelDataAsync$b__1(::UnityEngine::AsyncOperation* asyncOperation2);
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_2
   #pragma pack(pop)

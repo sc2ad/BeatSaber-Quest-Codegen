@@ -74,20 +74,20 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: private readonly System.String m_ProductName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_ProductName();
     // public System.Void .ctor()
-    // Offset: 0x1980074
+    // Offset: 0x198A460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyBuilder*, creationType>()));
     }
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x1976590
+    // Offset: 0x198097C
     ::NUnit::Framework::Interfaces::ITest* Build(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
-    // Offset: 0x19800EC
+    // Offset: 0x198A4D8
     ::System::Collections::Generic::IEnumerator_1<::NUnit::Framework::Interfaces::ITest*>* BuildAsync(::ArrayW<::System::Reflection::Assembly*> assemblies, ::ArrayW<::UnityEngine::TestTools::TestPlatform> testPlatforms, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
-    // Offset: 0x19801A8
+    // Offset: 0x198A594
     static ::System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* GetNUnitTestBuilderSettings(::UnityEngine::TestTools::TestPlatform testPlatform);
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder
   #pragma pack(pop)

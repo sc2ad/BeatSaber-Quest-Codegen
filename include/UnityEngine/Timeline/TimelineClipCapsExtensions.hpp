@@ -33,25 +33,25 @@ namespace UnityEngine::Timeline {
   class TimelineClipCapsExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean SupportsLooping(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2A16BBC
+    // Offset: 0x2A2D034
     static bool SupportsLooping(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsExtrapolation(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2A16BD8
+    // Offset: 0x2A2D050
     static bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsClipIn(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2A16BF4
+    // Offset: 0x2A2D06C
     static bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsSpeedMultiplier(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2A16C10
+    // Offset: 0x2A2D088
     static bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsBlending(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2A16C2C
+    // Offset: 0x2A2D0A4
     static bool SupportsBlending(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean HasAll(UnityEngine.Timeline.ClipCaps caps, UnityEngine.Timeline.ClipCaps flags)
-    // Offset: 0x2A16C48
+    // Offset: 0x2A2D0C0
     static bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
     // static public System.Boolean HasAny(UnityEngine.Timeline.ClipCaps caps, UnityEngine.Timeline.ClipCaps flags)
-    // Offset: 0x2A14910
+    // Offset: 0x2A2AD88
     static bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
   }; // UnityEngine.Timeline.TimelineClipCapsExtensions
   #pragma pack(pop)

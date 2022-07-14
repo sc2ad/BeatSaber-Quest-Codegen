@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public ObstacleData[] prevObstacleDataInLines
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ObstacleData*>& dyn_prevObstacleDataInLines();
     // public System.Void .ctor()
-    // Offset: 0x1357E24
+    // Offset: 0x139970C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataObstaclesMergingTransform::$$c__DisplayClass0_0*, creationType>()));
     }
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x1357EB0
+    // Offset: 0x1399798
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataObstaclesMergingTransform/<>c__DisplayClass0_0
   #pragma pack(pop)

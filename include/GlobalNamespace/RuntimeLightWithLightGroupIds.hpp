@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::LightIdsRange*> lightIdsRangeList;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightIdsRange*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10BF77C
+    // [SpaceAttribute] Offset: 0x10C7EDC
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // protected System.Void Awake()
-    // Offset: 0x1E79890
+    // Offset: 0x1E87D08
     void Awake();
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1E79C84
+    // Offset: 0x1E880FC
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x1E6F904
+    // Offset: 0x1E7DCF0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithLightGroupIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1E79A98
+    // Offset: 0x1E87F10
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

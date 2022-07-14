@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* circle;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D9F5C
+    // [SpaceAttribute] Offset: 0x10E16A0
     // private System.Single _updateTimeSpan
     // Size: 0x4
     // Offset: 0x20
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: updateTimeSpan and: initData
     char __padding1[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0x10D9F94
+    // [InjectOptionalAttribute] Offset: 0x10E16D8
     // private readonly RecordingUIController/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -81,17 +81,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastUpdateTime
     [[deprecated("Use field access instead!")]] float& dyn__lastUpdateTime();
     // public System.Void .ctor()
-    // Offset: 0x147A924
+    // Offset: 0x14503F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingUIController*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x147A824
+    // Offset: 0x14502F0
     void Init();
     // protected System.Void Update()
-    // Offset: 0x147A8B4
+    // Offset: 0x1450380
     void Update();
   }; // RecordingUIController
   #pragma pack(pop)

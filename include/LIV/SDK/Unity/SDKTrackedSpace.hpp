@@ -83,10 +83,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKMatrix4x4 trackedSpaceWorldToLocalMatrix
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKMatrix4x4& dyn_trackedSpaceWorldToLocalMatrix();
     // static public LIV.SDK.Unity.SDKTrackedSpace get_empty()
-    // Offset: 0x2A4B458
+    // Offset: 0x2A638E0
     static ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A507CC
+    // Offset: 0x2A68C54
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

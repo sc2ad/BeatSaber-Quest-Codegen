@@ -187,42 +187,42 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
     [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TMP_MeshInfo>& dyn_m_CachedMeshInfo();
     // public System.Void .ctor()
-    // Offset: 0x18F9554
+    // Offset: 0x1901940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>()));
     }
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
-    // Offset: 0x18F9630
+    // Offset: 0x1901A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextInfo*, creationType>(textComponent)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18F9F8C
+    // Offset: 0x1902378
     static void _cctor();
     // public System.Void Clear()
-    // Offset: 0x18F9760
+    // Offset: 0x1901B4C
     void Clear();
     // public System.Void ClearMeshInfo(System.Boolean updateMesh)
-    // Offset: 0x18F97C4
+    // Offset: 0x1901BB0
     void ClearMeshInfo(bool updateMesh);
     // public System.Void ClearAllMeshInfo()
-    // Offset: 0x18F9844
+    // Offset: 0x1901C30
     void ClearAllMeshInfo();
     // public System.Void ResetVertexLayout(System.Boolean isVolumetric)
-    // Offset: 0x18F98C0
+    // Offset: 0x1901CAC
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
-    // Offset: 0x18F9944
+    // Offset: 0x1901D30
     void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference> materials);
     // public System.Void ClearLineInfo()
-    // Offset: 0x18F99C0
+    // Offset: 0x1901DAC
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
-    // Offset: 0x18F9BC0
+    // Offset: 0x1901FAC
     ::ArrayW<::TMPro::TMP_MeshInfo> CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFFFFFFFFFF

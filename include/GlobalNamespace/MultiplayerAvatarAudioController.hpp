@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10D2A90
+    // [InjectOptionalAttribute] Offset: 0x10DA220
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -69,17 +69,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x13CB510
+    // Offset: 0x13FB834
     void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
     // public System.Void .ctor()
-    // Offset: 0x13CB5B4
+    // Offset: 0x13FB8D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarAudioController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerAvatarAudioController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarAudioController*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x13CB518
+    // Offset: 0x13FB83C
     ::System::Collections::IEnumerator* Start();
   }; // MultiplayerAvatarAudioController
   #pragma pack(pop)

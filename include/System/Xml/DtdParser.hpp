@@ -610,320 +610,320 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32[] condSectionEntityIds
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_condSectionEntityIds();
     // private System.Boolean get_ParsingInternalSubset()
-    // Offset: 0x1AB44AC
+    // Offset: 0x1AC1898
     bool get_ParsingInternalSubset();
     // private System.Boolean get_IgnoreEntityReferences()
-    // Offset: 0x1AB44BC
+    // Offset: 0x1AC18A8
     bool get_IgnoreEntityReferences();
     // private System.Boolean get_SaveInternalSubsetValue()
-    // Offset: 0x1AB44CC
+    // Offset: 0x1AC18B8
     bool get_SaveInternalSubsetValue();
     // private System.Boolean get_ParsingTopLevelMarkup()
-    // Offset: 0x1AB459C
+    // Offset: 0x1AC1988
     bool get_ParsingTopLevelMarkup();
     // private System.Boolean get_SupportNamespaces()
-    // Offset: 0x1AB45CC
+    // Offset: 0x1AC19B8
     bool get_SupportNamespaces();
     // private System.Boolean get_Normalize()
-    // Offset: 0x1AB45D4
+    // Offset: 0x1AC19C0
     bool get_Normalize();
     // private System.Int32 get_LineNo()
-    // Offset: 0x1AB76A0
+    // Offset: 0x1AC4A8C
     int get_LineNo();
     // private System.Int32 get_LinePos()
-    // Offset: 0x1AB7754
+    // Offset: 0x1AC4B40
     int get_LinePos();
     // private System.String get_BaseUriStr()
-    // Offset: 0x1AB47A0
+    // Offset: 0x1AC1B8C
     ::StringW get_BaseUriStr();
     // private System.Void .ctor()
-    // Offset: 0x1AB3958
+    // Offset: 0x1AC0D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DtdParser*, creationType>()));
     }
     // static System.Xml.IDtdParser Create()
-    // Offset: 0x1AB3A08
+    // Offset: 0x1AC0DF4
     static ::System::Xml::IDtdParser* Create();
     // private System.Void Initialize(System.Xml.IDtdParserAdapter readerAdapter)
-    // Offset: 0x1AB3A60
+    // Offset: 0x1AC0E4C
     void Initialize(::System::Xml::IDtdParserAdapter* readerAdapter);
     // private System.Void InitializeFreeFloatingDtd(System.String baseUri, System.String docTypeName, System.String publicId, System.String systemId, System.String internalSubset, System.Xml.IDtdParserAdapter adapter)
-    // Offset: 0x1AB3E24
+    // Offset: 0x1AC1210
     void InitializeFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::IDtdParserAdapter* adapter);
     // private System.Xml.IDtdInfo System.Xml.IDtdParser.ParseInternalDtd(System.Xml.IDtdParserAdapter adapter, System.Boolean saveInternalSubset)
-    // Offset: 0x1AB4284
+    // Offset: 0x1AC1670
     ::System::Xml::IDtdInfo* System_Xml_IDtdParser_ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
     // private System.Xml.IDtdInfo System.Xml.IDtdParser.ParseFreeFloatingDtd(System.String baseUri, System.String docTypeName, System.String publicId, System.String systemId, System.String internalSubset, System.Xml.IDtdParserAdapter adapter)
-    // Offset: 0x1AB447C
+    // Offset: 0x1AC1868
     ::System::Xml::IDtdInfo* System_Xml_IDtdParser_ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::IDtdParserAdapter* adapter);
     // private System.Void Parse(System.Boolean saveInternalSubset)
-    // Offset: 0x1AB42B8
+    // Offset: 0x1AC16A4
     void Parse(bool saveInternalSubset);
     // private System.Void ParseInDocumentDtd(System.Boolean saveInternalSubset)
-    // Offset: 0x1AB4640
+    // Offset: 0x1AC1A2C
     void ParseInDocumentDtd(bool saveInternalSubset);
     // private System.Void ParseFreeFloatingDtd()
-    // Offset: 0x1AB45DC
+    // Offset: 0x1AC19C8
     void ParseFreeFloatingDtd();
     // private System.Void ParseInternalSubset()
-    // Offset: 0x1AB5B3C
+    // Offset: 0x1AC2F28
     void ParseInternalSubset();
     // private System.Void ParseExternalSubset()
-    // Offset: 0x1AB5B40
+    // Offset: 0x1AC2F2C
     void ParseExternalSubset();
     // private System.Void ParseSubset()
-    // Offset: 0x1AB5D04
+    // Offset: 0x1AC30F0
     void ParseSubset();
     // private System.Void ParseAttlistDecl()
-    // Offset: 0x1AB600C
+    // Offset: 0x1AC33F8
     void ParseAttlistDecl();
     // private System.Void ParseAttlistType(System.Xml.Schema.SchemaAttDef attrDef, System.Xml.Schema.SchemaElementDecl elementDecl, System.Boolean ignoreErrors)
-    // Offset: 0x1AB79E8
+    // Offset: 0x1AC4DD4
     void ParseAttlistType(::System::Xml::Schema::SchemaAttDef* attrDef, ::System::Xml::Schema::SchemaElementDecl* elementDecl, bool ignoreErrors);
     // private System.Void ParseAttlistDefault(System.Xml.Schema.SchemaAttDef attrDef, System.Boolean ignoreErrors)
-    // Offset: 0x1AB7F08
+    // Offset: 0x1AC52F4
     void ParseAttlistDefault(::System::Xml::Schema::SchemaAttDef* attrDef, bool ignoreErrors);
     // private System.Void ParseElementDecl()
-    // Offset: 0x1AB6564
+    // Offset: 0x1AC3950
     void ParseElementDecl();
     // private System.Void ParseElementOnlyContent(System.Xml.Schema.ParticleContentValidator pcv, System.Int32 startParenEntityId)
-    // Offset: 0x1AB865C
+    // Offset: 0x1AC5A48
     void ParseElementOnlyContent(::System::Xml::Schema::ParticleContentValidator* pcv, int startParenEntityId);
     // private System.Void ParseHowMany(System.Xml.Schema.ParticleContentValidator pcv)
-    // Offset: 0x1AB8980
+    // Offset: 0x1AC5D6C
     void ParseHowMany(::System::Xml::Schema::ParticleContentValidator* pcv);
     // private System.Void ParseElementMixedContent(System.Xml.Schema.ParticleContentValidator pcv, System.Int32 startParenEntityId)
-    // Offset: 0x1AB83D8
+    // Offset: 0x1AC57C4
     void ParseElementMixedContent(::System::Xml::Schema::ParticleContentValidator* pcv, int startParenEntityId);
     // private System.Void ParseEntityDecl()
-    // Offset: 0x1AB68D0
+    // Offset: 0x1AC3CBC
     void ParseEntityDecl();
     // private System.Void ParseNotationDecl()
-    // Offset: 0x1AB6BE4
+    // Offset: 0x1AC3FD0
     void ParseNotationDecl();
     // private System.Void AddUndeclaredNotation(System.String notationName)
-    // Offset: 0x1AB81A4
+    // Offset: 0x1AC5590
     void AddUndeclaredNotation(::StringW notationName);
     // private System.Void ParseComment()
-    // Offset: 0x1AB6DBC
+    // Offset: 0x1AC41A8
     void ParseComment();
     // private System.Void ParsePI()
-    // Offset: 0x1AB7014
+    // Offset: 0x1AC4400
     void ParsePI();
     // private System.Void ParseCondSection()
-    // Offset: 0x1AB71FC
+    // Offset: 0x1AC45E8
     void ParseCondSection();
     // private System.Void ParseExternalId(System.Xml.DtdParser/System.Xml.Token idTokenType, System.Xml.DtdParser/System.Xml.Token declType, out System.String publicId, out System.String systemId)
-    // Offset: 0x1AB5654
+    // Offset: 0x1AC2A40
     void ParseExternalId(::System::Xml::DtdParser::Token idTokenType, ::System::Xml::DtdParser::Token declType, ByRef<::StringW> publicId, ByRef<::StringW> systemId);
     // private System.Xml.DtdParser/System.Xml.Token GetToken(System.Boolean needWhiteSpace)
-    // Offset: 0x1AB4BB4
+    // Offset: 0x1AC1FA0
     ::System::Xml::DtdParser::Token GetToken(bool needWhiteSpace);
     // private System.Xml.DtdParser/System.Xml.Token ScanSubsetContent()
-    // Offset: 0x1AB9214
+    // Offset: 0x1AC6600
     ::System::Xml::DtdParser::Token ScanSubsetContent();
     // private System.Xml.DtdParser/System.Xml.Token ScanNameExpected()
-    // Offset: 0x1AB9188
+    // Offset: 0x1AC6574
     ::System::Xml::DtdParser::Token ScanNameExpected();
     // private System.Xml.DtdParser/System.Xml.Token ScanQNameExpected()
-    // Offset: 0x1AB91B8
+    // Offset: 0x1AC65A4
     ::System::Xml::DtdParser::Token ScanQNameExpected();
     // private System.Xml.DtdParser/System.Xml.Token ScanNmtokenExpected()
-    // Offset: 0x1AB91E8
+    // Offset: 0x1AC65D4
     ::System::Xml::DtdParser::Token ScanNmtokenExpected();
     // private System.Xml.DtdParser/System.Xml.Token ScanDoctype1()
-    // Offset: 0x1AB9928
+    // Offset: 0x1AC6D14
     ::System::Xml::DtdParser::Token ScanDoctype1();
     // private System.Xml.DtdParser/System.Xml.Token ScanDoctype2()
-    // Offset: 0x1AB9A64
+    // Offset: 0x1AC6E50
     ::System::Xml::DtdParser::Token ScanDoctype2();
     // private System.Xml.DtdParser/System.Xml.Token ScanClosingTag()
-    // Offset: 0x1ABBDCC
+    // Offset: 0x1AC91B8
     ::System::Xml::DtdParser::Token ScanClosingTag();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement1()
-    // Offset: 0x1AB9B1C
+    // Offset: 0x1AC6F08
     ::System::Xml::DtdParser::Token ScanElement1();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement2()
-    // Offset: 0x1AB9CF8
+    // Offset: 0x1AC70E4
     ::System::Xml::DtdParser::Token ScanElement2();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement3()
-    // Offset: 0x1AB9EA0
+    // Offset: 0x1AC728C
     ::System::Xml::DtdParser::Token ScanElement3();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement4()
-    // Offset: 0x1AB9F34
+    // Offset: 0x1AC7320
     ::System::Xml::DtdParser::Token ScanElement4();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement5()
-    // Offset: 0x1ABA010
+    // Offset: 0x1AC73FC
     ::System::Xml::DtdParser::Token ScanElement5();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement6()
-    // Offset: 0x1ABA10C
+    // Offset: 0x1AC74F8
     ::System::Xml::DtdParser::Token ScanElement6();
     // private System.Xml.DtdParser/System.Xml.Token ScanElement7()
-    // Offset: 0x1ABA1E0
+    // Offset: 0x1AC75CC
     ::System::Xml::DtdParser::Token ScanElement7();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist1()
-    // Offset: 0x1ABA24C
+    // Offset: 0x1AC7638
     ::System::Xml::DtdParser::Token ScanAttlist1();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist2()
-    // Offset: 0x1ABA320
+    // Offset: 0x1AC770C
     ::System::Xml::DtdParser::Token ScanAttlist2();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist3()
-    // Offset: 0x1ABA99C
+    // Offset: 0x1AC7D88
     ::System::Xml::DtdParser::Token ScanAttlist3();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist4()
-    // Offset: 0x1ABAA4C
+    // Offset: 0x1AC7E38
     ::System::Xml::DtdParser::Token ScanAttlist4();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist5()
-    // Offset: 0x1ABAB20
+    // Offset: 0x1AC7F0C
     ::System::Xml::DtdParser::Token ScanAttlist5();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist6()
-    // Offset: 0x1ABABF4
+    // Offset: 0x1AC7FE0
     ::System::Xml::DtdParser::Token ScanAttlist6();
     // private System.Xml.DtdParser/System.Xml.Token ScanAttlist7()
-    // Offset: 0x1ABAF74
+    // Offset: 0x1AC8360
     ::System::Xml::DtdParser::Token ScanAttlist7();
     // private System.Xml.DtdParser/System.Xml.Token ScanLiteral(System.Xml.DtdParser/System.Xml.LiteralType literalType)
-    // Offset: 0x1ABC464
+    // Offset: 0x1AC9850
     ::System::Xml::DtdParser::Token ScanLiteral(::System::Xml::DtdParser::LiteralType literalType);
     // private System.Xml.XmlQualifiedName ScanEntityName()
-    // Offset: 0x1ABCF10
+    // Offset: 0x1ACA2FC
     ::System::Xml::XmlQualifiedName* ScanEntityName();
     // private System.Xml.DtdParser/System.Xml.Token ScanNotation1()
-    // Offset: 0x1ABB034
+    // Offset: 0x1AC8420
     ::System::Xml::DtdParser::Token ScanNotation1();
     // private System.Xml.DtdParser/System.Xml.Token ScanSystemId()
-    // Offset: 0x1ABB138
+    // Offset: 0x1AC8524
     ::System::Xml::DtdParser::Token ScanSystemId();
     // private System.Xml.DtdParser/System.Xml.Token ScanEntity1()
-    // Offset: 0x1ABB324
+    // Offset: 0x1AC8710
     ::System::Xml::DtdParser::Token ScanEntity1();
     // private System.Xml.DtdParser/System.Xml.Token ScanEntity2()
-    // Offset: 0x1ABB3AC
+    // Offset: 0x1AC8798
     ::System::Xml::DtdParser::Token ScanEntity2();
     // private System.Xml.DtdParser/System.Xml.Token ScanEntity3()
-    // Offset: 0x1ABB4E4
+    // Offset: 0x1AC88D0
     ::System::Xml::DtdParser::Token ScanEntity3();
     // private System.Xml.DtdParser/System.Xml.Token ScanPublicId1()
-    // Offset: 0x1ABB1F0
+    // Offset: 0x1AC85DC
     ::System::Xml::DtdParser::Token ScanPublicId1();
     // private System.Xml.DtdParser/System.Xml.Token ScanPublicId2()
-    // Offset: 0x1ABB2A8
+    // Offset: 0x1AC8694
     ::System::Xml::DtdParser::Token ScanPublicId2();
     // private System.Xml.DtdParser/System.Xml.Token ScanCondSection1()
-    // Offset: 0x1ABB60C
+    // Offset: 0x1AC89F8
     ::System::Xml::DtdParser::Token ScanCondSection1();
     // private System.Xml.DtdParser/System.Xml.Token ScanCondSection2()
-    // Offset: 0x1ABB8B4
+    // Offset: 0x1AC8CA0
     ::System::Xml::DtdParser::Token ScanCondSection2();
     // private System.Xml.DtdParser/System.Xml.Token ScanCondSection3()
-    // Offset: 0x1ABB95C
+    // Offset: 0x1AC8D48
     ::System::Xml::DtdParser::Token ScanCondSection3();
     // private System.Void ScanName()
-    // Offset: 0x1ABC100
+    // Offset: 0x1AC94EC
     void ScanName();
     // private System.Void ScanQName()
-    // Offset: 0x1ABC108
+    // Offset: 0x1AC94F4
     void ScanQName();
     // private System.Void ScanQName(System.Boolean isQName)
-    // Offset: 0x1ABD25C
+    // Offset: 0x1ACA648
     void ScanQName(bool isQName);
     // private System.Boolean ReadDataInName()
-    // Offset: 0x1ABD4D0
+    // Offset: 0x1ACA8BC
     bool ReadDataInName();
     // private System.Void ScanNmtoken()
-    // Offset: 0x1ABC110
+    // Offset: 0x1AC94FC
     void ScanNmtoken();
     // private System.Boolean EatPublicKeyword()
-    // Offset: 0x1ABC274
+    // Offset: 0x1AC9660
     bool EatPublicKeyword();
     // private System.Boolean EatSystemKeyword()
-    // Offset: 0x1ABC36C
+    // Offset: 0x1AC9758
     bool EatSystemKeyword();
     // private System.Xml.XmlQualifiedName GetNameQualified(System.Boolean canHavePrefix)
-    // Offset: 0x1AB54E0
+    // Offset: 0x1AC28CC
     ::System::Xml::XmlQualifiedName* GetNameQualified(bool canHavePrefix);
     // private System.String GetNameString()
-    // Offset: 0x1AB8188
+    // Offset: 0x1AC5574
     ::StringW GetNameString();
     // private System.String GetNmtokenString()
-    // Offset: 0x1AB82E4
+    // Offset: 0x1AC56D0
     ::StringW GetNmtokenString();
     // private System.String GetValue()
-    // Offset: 0x1AB836C
+    // Offset: 0x1AC5758
     ::StringW GetValue();
     // private System.String GetValueWithStrippedSpaces()
-    // Offset: 0x1AB8300
+    // Offset: 0x1AC56EC
     ::StringW GetValueWithStrippedSpaces();
     // private System.Int32 ReadData()
-    // Offset: 0x1ABBE70
+    // Offset: 0x1AC925C
     int ReadData();
     // private System.Void LoadParsingBuffer()
-    // Offset: 0x1AB4A10
+    // Offset: 0x1AC1DFC
     void LoadParsingBuffer();
     // private System.Void SaveParsingBuffer()
-    // Offset: 0x1AB5B34
+    // Offset: 0x1AC2F20
     void SaveParsingBuffer();
     // private System.Void SaveParsingBuffer(System.Int32 internalSubsetValueEndPos)
-    // Offset: 0x1AB752C
+    // Offset: 0x1AC4918
     void SaveParsingBuffer(int internalSubsetValueEndPos);
     // private System.Boolean HandleEntityReference(System.Boolean paramEntity, System.Boolean inLiteral, System.Boolean inAttribute)
-    // Offset: 0x1AB906C
+    // Offset: 0x1AC6458
     bool HandleEntityReference(bool paramEntity, bool inLiteral, bool inAttribute);
     // private System.Boolean HandleEntityReference(System.Xml.XmlQualifiedName entityName, System.Boolean paramEntity, System.Boolean inLiteral, System.Boolean inAttribute)
-    // Offset: 0x1ABD728
+    // Offset: 0x1ACAB14
     bool HandleEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool inLiteral, bool inAttribute);
     // private System.Boolean HandleEntityEnd(System.Boolean inLiteral)
-    // Offset: 0x1ABBF44
+    // Offset: 0x1AC9330
     bool HandleEntityEnd(bool inLiteral);
     // private System.Xml.Schema.SchemaEntity VerifyEntityReference(System.Xml.XmlQualifiedName entityName, System.Boolean paramEntity, System.Boolean mustBeDeclared, System.Boolean inAttribute)
-    // Offset: 0x1ABD06C
+    // Offset: 0x1ACA458
     ::System::Xml::Schema::SchemaEntity* VerifyEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool mustBeDeclared, bool inAttribute);
     // private System.Void SendValidationEvent(System.Int32 pos, System.Xml.Schema.XmlSeverityType severity, System.String code, System.String arg)
-    // Offset: 0x1AB7450
+    // Offset: 0x1AC483C
     void SendValidationEvent(int pos, ::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSeverityType severity, System.String code, System.String arg)
-    // Offset: 0x1AB80C0
+    // Offset: 0x1AC54AC
     void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSeverityType severity, System.Xml.Schema.XmlSchemaException e)
-    // Offset: 0x1AB48C4
+    // Offset: 0x1AC1CB0
     void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::System::Xml::Schema::XmlSchemaException* e);
     // private System.Boolean IsAttributeValueType(System.Xml.DtdParser/System.Xml.Token token)
-    // Offset: 0x1AB80B4
+    // Offset: 0x1AC54A0
     bool IsAttributeValueType(::System::Xml::DtdParser::Token token);
     // private System.Void OnUnexpectedError()
-    // Offset: 0x1AB548C
+    // Offset: 0x1AC2878
     void OnUnexpectedError();
     // private System.Void Throw(System.Int32 curPos, System.String res)
-    // Offset: 0x1AB718C
+    // Offset: 0x1AC4578
     void Throw(int curPos, ::StringW res);
     // private System.Void Throw(System.Int32 curPos, System.String res, System.String arg)
-    // Offset: 0x1AB8A08
+    // Offset: 0x1AC5DF4
     void Throw(int curPos, ::StringW res, ::StringW arg);
     // private System.Void Throw(System.Int32 curPos, System.String res, System.String[] args)
-    // Offset: 0x1AB8DF0
+    // Offset: 0x1AC61DC
     void Throw(int curPos, ::StringW res, ::ArrayW<::StringW> args);
     // private System.Void Throw(System.String res, System.String arg, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1AB7814
+    // Offset: 0x1AC4C00
     void Throw(::StringW res, ::StringW arg, int lineNo, int linePos);
     // private System.Void ThrowInvalidChar(System.Int32 pos, System.String data, System.Int32 invCharPos)
-    // Offset: 0x1AB4200
+    // Offset: 0x1AC15EC
     void ThrowInvalidChar(int pos, ::StringW data, int invCharPos);
     // private System.Void ThrowInvalidChar(System.Char[] data, System.Int32 length, System.Int32 invCharPos)
-    // Offset: 0x1AB8FE4
+    // Offset: 0x1AC63D0
     void ThrowInvalidChar(::ArrayW<::Il2CppChar> data, int length, int invCharPos);
     // private System.Void ThrowUnexpectedToken(System.Int32 pos, System.String expectedToken)
-    // Offset: 0x1AB7698
+    // Offset: 0x1AC4A84
     void ThrowUnexpectedToken(int pos, ::StringW expectedToken);
     // private System.Void ThrowUnexpectedToken(System.Int32 pos, System.String expectedToken1, System.String expectedToken2)
-    // Offset: 0x1AB8C40
+    // Offset: 0x1AC602C
     void ThrowUnexpectedToken(int pos, ::StringW expectedToken1, ::StringW expectedToken2);
     // private System.String ParseUnexpectedToken(System.Int32 startPos)
-    // Offset: 0x1AB90C0
+    // Offset: 0x1AC64AC
     ::StringW ParseUnexpectedToken(int startPos);
     // static System.String StripSpaces(System.String value)
-    // Offset: 0x1ABD518
+    // Offset: 0x1ACA904
     static ::StringW StripSpaces(::StringW value);
   }; // System.Xml.DtdParser
   #pragma pack(pop)

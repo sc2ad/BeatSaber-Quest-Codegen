@@ -81,20 +81,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _defaultColliderSize
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__defaultColliderSize();
     // public System.Void .ctor()
-    // Offset: 0x14AC7F0
+    // Offset: 0x14CB2A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteBigCuttableColliderSize* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteBigCuttableColliderSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteBigCuttableColliderSize*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14AC50C
+    // Offset: 0x14CAFC0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14AC5EC
+    // Offset: 0x14CB0A0
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x14AC6FC
+    // Offset: 0x14CB1B0
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
   }; // NoteBigCuttableColliderSize
   #pragma pack(pop)

@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerLobbyAvatarController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLobbyAvatarController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x141EC38
+    // Offset: 0x1414878
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x141ECA0
+    // Offset: 0x14148E0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x141E8D8
+    // Offset: 0x1414518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarController::$ShowDespawnAnimationAndDestroy$d__10* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarController::$ShowDespawnAnimationAndDestroy$d__10::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarController::$ShowDespawnAnimationAndDestroy$d__10*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x141EBC0
+    // Offset: 0x1414800
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x141EBC4
+    // Offset: 0x1414804
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x141EC40
+    // Offset: 0x1414880
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerLobbyAvatarController/<ShowDespawnAnimationAndDestroy>d__10
   #pragma pack(pop)

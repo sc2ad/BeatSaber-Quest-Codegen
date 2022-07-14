@@ -74,26 +74,26 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     [[deprecated("Use field access instead!")]] int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
-    // Offset: 0x13591F4
+    // Offset: 0x1337978
     static ::OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
     // static public OnlineServices.LeaderboardEntriesResult get_somethingWentWrongError()
-    // Offset: 0x1359244
+    // Offset: 0x13379C8
     static ::OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
     // static public OnlineServices.LeaderboardEntriesResult get_onlineServicesUnavailableError()
-    // Offset: 0x1359294
+    // Offset: 0x1337A18
     static ::OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
-    // Offset: 0x135912C
+    // Offset: 0x13378B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntriesResult* New_ctor(::ArrayW<::OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::StringW localizedErrorMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LeaderboardEntriesResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntriesResult*, creationType>(leaderboardEntries, referencePlayerScoreIndex, isError, localizedErrorMessage)));
     }
     // static private OnlineServices.LeaderboardEntriesResult ErrorResult(System.String localizedErrorMessage)
-    // Offset: 0x1359180
+    // Offset: 0x1337904
     static ::OnlineServices::LeaderboardEntriesResult* ErrorResult(::StringW localizedErrorMessage);
     // static public OnlineServices.LeaderboardEntriesResult FromGetLeaderboardEntriesResult(OnlineServices.GetLeaderboardEntriesResult getLeaderboardEntriesResult)
-    // Offset: 0x13592E4
+    // Offset: 0x1337A68
     static ::OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(::OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
   #pragma pack(pop)

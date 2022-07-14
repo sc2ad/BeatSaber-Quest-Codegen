@@ -40,12 +40,12 @@ namespace Org::BouncyCastle::Math::EC {
   class AbstractFpPoint : public ::Org::BouncyCastle::Math::EC::ECPointBase {
     public:
     // protected internal override System.Boolean get_CompressionYTilde()
-    // Offset: 0x22B5C94
+    // Offset: 0x22C610C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Boolean ECPoint::get_CompressionYTilde()
     bool get_CompressionYTilde();
     // protected System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
-    // Offset: 0x22B5C7C
+    // Offset: 0x22C60F4
     // Implemented from: Org.BouncyCastle.Math.EC.ECPointBase
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, System.Boolean withCompression)
@@ -55,7 +55,7 @@ namespace Org::BouncyCastle::Math::EC {
       return THROW_UNLESS((::il2cpp_utils::New<AbstractFpPoint*, creationType>(curve, x, y, withCompression)));
     }
     // protected System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    // Offset: 0x22B5C88
+    // Offset: 0x22C6100
     // Implemented from: Org.BouncyCastle.Math.EC.ECPointBase
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
@@ -65,12 +65,12 @@ namespace Org::BouncyCastle::Math::EC {
       return THROW_UNLESS((::il2cpp_utils::New<AbstractFpPoint*, creationType>(curve, x, y, zs, withCompression)));
     }
     // protected override System.Boolean SatisfiesCurveEquation()
-    // Offset: 0x22B5CC4
+    // Offset: 0x22C613C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Boolean ECPoint::SatisfiesCurveEquation()
     bool SatisfiesCurveEquation();
     // public override Org.BouncyCastle.Math.EC.ECPoint Subtract(Org.BouncyCastle.Math.EC.ECPoint b)
-    // Offset: 0x22B5FB4
+    // Offset: 0x22C642C
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECPoint::Subtract(Org.BouncyCastle.Math.EC.ECPoint b)
     ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);

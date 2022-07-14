@@ -55,13 +55,13 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IBeatmapLevelData*>(this);
     }
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x14103B8
+    // Offset: 0x13725E4
     ::UnityEngine::AudioClip* get_audioClip();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> get_difficultyBeatmapSets()
-    // Offset: 0x14103C0
+    // Offset: 0x13725EC
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x14103B0
+    // Offset: 0x13725DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyBeatmapLevelData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyBeatmapLevelData::.ctor");

@@ -42,35 +42,35 @@ namespace GlobalNamespace {
   class LobbyDataModelsManager : public ::Il2CppObject {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10D4A0C
+    // [InjectAttribute] Offset: 0x10DC19C
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D4A1C
+    // [InjectAttribute] Offset: 0x10DC1AC
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D4A2C
+    // [InjectAttribute] Offset: 0x10DC1BC
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D4A3C
+    // [InjectAttribute] Offset: 0x10DC1CC
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D4A4C
+    // [InjectAttribute] Offset: 0x10DC1DC
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x30
@@ -89,17 +89,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void .ctor()
-    // Offset: 0x14CBECC
+    // Offset: 0x14C0894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyDataModelsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyDataModelsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelsManager*, creationType>()));
     }
     // public System.Void Activate()
-    // Offset: 0x14CBB00
+    // Offset: 0x14C04C8
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x14CBD20
+    // Offset: 0x14C06E8
     void Deactivate();
   }; // LobbyDataModelsManager
   #pragma pack(pop)

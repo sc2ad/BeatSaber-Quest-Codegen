@@ -53,22 +53,22 @@ namespace Zenject {
     // Get instance field reference: private readonly UnityEngine.Animator _animator
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x1766D08
+    // Offset: 0x17710F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1766E34
+    // Offset: 0x1771220
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x1766D6C
+    // Offset: 0x1771158
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1766EF8
+    // Offset: 0x17712E4
     // Implemented from: Zenject.Installer`2
     // Base method: Zenject.InjectTypeInfo Installer_2::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

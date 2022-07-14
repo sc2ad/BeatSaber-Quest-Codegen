@@ -59,32 +59,32 @@ namespace TMPro {
     // Get instance field reference: private TMPro.FontFeatureLookupFlags m_FeatureLookupFlags
     [[deprecated("Use field access instead!")]] ::TMPro::FontFeatureLookupFlags& dyn_m_FeatureLookupFlags();
     // public TMPro.TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord()
-    // Offset: 0x1439E78
+    // Offset: 0x142FAB8
     ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
     // public System.Void set_firstAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0x1439E8C
+    // Offset: 0x142FACC
     void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord()
-    // Offset: 0x1439EA0
+    // Offset: 0x142FAE0
     ::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
     // public System.Void set_secondAdjustmentRecord(TMPro.TMP_GlyphAdjustmentRecord value)
-    // Offset: 0x1439EB4
+    // Offset: 0x142FAF4
     void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
     // public TMPro.FontFeatureLookupFlags get_featureLookupFlags()
-    // Offset: 0x1439EC8
+    // Offset: 0x142FB08
     ::TMPro::FontFeatureLookupFlags get_featureLookupFlags();
     // public System.Void set_featureLookupFlags(TMPro.FontFeatureLookupFlags value)
-    // Offset: 0x1439ED0
+    // Offset: 0x142FB10
     void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value);
     // public System.Void .ctor(TMPro.TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMPro.TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
-    // Offset: 0x143857C
+    // Offset: 0x142E1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_GlyphPairAdjustmentRecord* New_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_GlyphPairAdjustmentRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_GlyphPairAdjustmentRecord*, creationType>(firstAdjustmentRecord, secondAdjustmentRecord)));
     }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
-    // Offset: 0x1437FBC
+    // Offset: 0x142DBFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_GlyphPairAdjustmentRecord* New_ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_GlyphPairAdjustmentRecord::.ctor");

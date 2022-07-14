@@ -34,13 +34,13 @@ namespace Mono::Unity {
   class CertHelper : public ::Il2CppObject {
     public:
     // static public System.Void AddCertificatesToNativeChain(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* nativeCertificateChain, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AD5958
+    // Offset: 0x1AE2D44
     static void AddCertificatesToNativeChain(::Mono::Unity::UnityTls::unitytls_x509list* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // static public System.Void AddCertificateToNativeChain(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* nativeCertificateChain, System.Security.Cryptography.X509Certificates.X509Certificate certificate, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AD5AB0
+    // Offset: 0x1AE2E9C
     static void AddCertificateToNativeChain(::Mono::Unity::UnityTls::unitytls_x509list* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateCollection NativeChainToManagedCollection(Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list_ref nativeCertificateChain, Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate* errorState)
-    // Offset: 0x1AD5FD4
+    // Offset: 0x1AE33C0
     static ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* NativeChainToManagedCollection(::Mono::Unity::UnityTls::unitytls_x509list_ref nativeCertificateChain, ::Mono::Unity::UnityTls::unitytls_errorstate* errorState);
   }; // Mono.Unity.CertHelper
   #pragma pack(pop)

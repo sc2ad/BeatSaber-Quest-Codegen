@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     ::System::Action_1<int>* didSelectHelpSubMenuEvent;
     // Field size check
     static_assert(sizeof(::System::Action_1<int>*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x10E2F18
+    // [TupleElementNamesAttribute] Offset: 0x10EA724
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0x80
@@ -80,26 +80,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x136E9C0
+    // Offset: 0x139F418
     void add_didSelectHelpSubMenuEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x136EBF8
+    // Offset: 0x139F650
     void remove_didSelectHelpSubMenuEvent(::System::Action_1<int>* value);
     // public System.Void .ctor()
-    // Offset: 0x136F174
+    // Offset: 0x139FBCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HelpMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpMenuViewController*, creationType>()));
     }
     // public System.Void Init(System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> viewControllers)
-    // Offset: 0x136EF20
+    // Offset: 0x139F978
     void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::HMUI::ViewController*, ::StringW>>* viewControllers);
     // private System.Void HandleHelpMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x136F100
+    // Offset: 0x139FB58
     void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x136EF28
+    // Offset: 0x139F980
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

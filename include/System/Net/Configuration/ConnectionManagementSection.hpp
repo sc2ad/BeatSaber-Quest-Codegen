@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class ConnectionManagementSection : public ::System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A68658
+    // Offset: 0x1A75A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionManagementSection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::ConnectionManagementSection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionManagementSection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A68698
+    // Offset: 0x1A75A84
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

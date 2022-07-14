@@ -85,32 +85,32 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE7EC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F4C
     // Get static field: static private readonly System.Int32 _directionalLightDirectionsID
     static int _get__directionalLightDirectionsID();
     // Set static field: static private readonly System.Int32 _directionalLightDirectionsID
     static void _set__directionalLightDirectionsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE7FC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F5C
     // Get static field: static private readonly System.Int32 _directionalLightPositionID
     static int _get__directionalLightPositionID();
     // Set static field: static private readonly System.Int32 _directionalLightPositionID
     static void _set__directionalLightPositionID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE80C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F6C
     // Get static field: static private readonly System.Int32 _directionalLightRadiiID
     static int _get__directionalLightRadiiID();
     // Set static field: static private readonly System.Int32 _directionalLightRadiiID
     static void _set__directionalLightRadiiID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE81C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F7C
     // Get static field: static private readonly System.Int32 _directionalLightColorsID
     static int _get__directionalLightColorsID();
     // Set static field: static private readonly System.Int32 _directionalLightColorsID
     static void _set__directionalLightColorsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE82C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F8C
     // Get static field: static private readonly System.Int32 _pointLightPositionsID
     static int _get__pointLightPositionsID();
     // Set static field: static private readonly System.Int32 _pointLightPositionsID
     static void _set__pointLightPositionsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BE83C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C6F9C
     // Get static field: static private readonly System.Int32 _pointLightColorsID
     static int _get__pointLightColorsID();
     // Set static field: static private readonly System.Int32 _pointLightColorsID
@@ -130,29 +130,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 lastRefreshFrameNum
     [[deprecated("Use field access instead!")]] int& dyn_lastRefreshFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x1E724D0
+    // Offset: 0x1E808BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E72590
+    // Offset: 0x1E8097C
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1E71B9C
+    // Offset: 0x1E7FF88
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E71C60
+    // Offset: 0x1E8004C
     void OnDisable();
     // private System.Void OnCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1E71D24
+    // Offset: 0x1E80110
     void OnCameraPreRender(::UnityEngine::Camera* camera);
     // protected System.Void OnDestroy()
-    // Offset: 0x1E72350
+    // Offset: 0x1E8073C
     void OnDestroy();
     // private System.Void ResetColors()
-    // Offset: 0x1E72354
+    // Offset: 0x1E80740
     void ResetColors();
   }; // LightManager
   #pragma pack(pop)

@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Set static field: static public BasicBeatmapEventType kLegacyLateSpawnRotation
     static void _set_kLegacyLateSpawnRotation(::GlobalNamespace::BasicBeatmapEventType value);
     // static public System.Boolean IsCoreLightIntensityChangeEvent(BasicBeatmapEventType basicBeatmapEventType)
-    // Offset: 0x2821C34
+    // Offset: 0x28380AC
     static bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
   }; // BeatmapEventTypeExtensions
   #pragma pack(pop)

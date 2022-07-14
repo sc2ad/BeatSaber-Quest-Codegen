@@ -50,20 +50,20 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
     static void _set_$$9__2_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1984CF8
+    // Offset: 0x198F0E4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1984D5C
+    // Offset: 0x198F148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronousFilter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter::$$c*, creationType>()));
     }
     // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
-    // Offset: 0x1984D64
+    // Offset: 0x198F150
     bool $Pass$b__2_0(::System::Reflection::MethodInfo* mi);
     // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
-    // Offset: 0x1984E0C
+    // Offset: 0x198F1F8
     bool $Pass$b__2_1(::System::Reflection::MethodInfo* mi);
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
   #pragma pack(pop)

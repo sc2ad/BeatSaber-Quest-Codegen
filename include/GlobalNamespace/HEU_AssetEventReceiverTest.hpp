@@ -47,20 +47,20 @@ namespace GlobalNamespace {
   class HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16DC29C
+    // Offset: 0x16E7688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetEventReceiverTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_AssetEventReceiverTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetEventReceiverTest*, creationType>()));
     }
     // public System.Void ReloadCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x16DBE04
+    // Offset: 0x16E71F0
     void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
     // public System.Void CookedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x16DBF8C
+    // Offset: 0x16E7378
     void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
     // public System.Void BakedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x16DC114
+    // Offset: 0x16E7500
     void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputList);
   }; // HEU_AssetEventReceiverTest
   #pragma pack(pop)

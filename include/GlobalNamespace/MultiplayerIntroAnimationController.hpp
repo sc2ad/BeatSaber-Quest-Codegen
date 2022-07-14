@@ -74,7 +74,7 @@ namespace GlobalNamespace {
   class MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x10DC184
+    // [HeaderAttribute] Offset: 0x10E38C8
     // private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     // Size: 0x8
     // Offset: 0x18
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::PropertyName> playerTimelinePropertyNames;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::PropertyName>) == 0x8);
-    // [HeaderAttribute] Offset: 0x10DC228
+    // [HeaderAttribute] Offset: 0x10E396C
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x38
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     ::UnityEngine::PropertyName localPlayerTimelinePropertyName;
     // Field size check
     static_assert(sizeof(::UnityEngine::PropertyName) == 0x4);
-    // [HeaderAttribute] Offset: 0x10DC2BC
+    // [HeaderAttribute] Offset: 0x10E3A00
     // private System.Single _firstConnectedPlayerStart
     // Size: 0x4
     // Offset: 0x4C
@@ -139,28 +139,28 @@ namespace GlobalNamespace {
     ::StringW endMarkerName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DC328
+    // [SpaceAttribute] Offset: 0x10E3A6C
     // private MultiplayerScoreRingManager _scoreRingManager
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerScoreRingManager* scoreRingManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreRingManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC360
+    // [InjectAttribute] Offset: 0x10E3AA4
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC370
+    // [InjectAttribute] Offset: 0x10E3AB4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC380
+    // [InjectAttribute] Offset: 0x10E3AC4
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x78
@@ -223,41 +223,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _bindingFinished
     [[deprecated("Use field access instead!")]] bool& dyn__bindingFinished();
     // public System.Void .ctor()
-    // Offset: 0x1419318
+    // Offset: 0x140EF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroAnimationController*, creationType>()));
     }
     // protected System.Void OnValidate()
-    // Offset: 0x14178C0
+    // Offset: 0x140D500
     void OnValidate();
     // public System.Void SetBeforeIntroValue()
-    // Offset: 0x1415AB4
+    // Offset: 0x140B6F4
     void SetBeforeIntroValue();
     // public System.Void PlayIntroAnimation(System.Single maxDesiredIntroAnimationDuration, System.Action onCompleted)
-    // Offset: 0x1414110
+    // Offset: 0x1409D50
     void PlayIntroAnimation(float maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
     // public System.Single GetFullIntroAnimationTime()
-    // Offset: 0x1413DE0
+    // Offset: 0x1409A20
     float GetFullIntroAnimationTime();
     // private System.Void BindTimeline()
-    // Offset: 0x1417D94
+    // Offset: 0x140D9D4
     void BindTimeline();
     // private System.Void BindRingsAndSetTiming(System.Int32 connectedPlayersCount, UnityEngine.GameObject[] connectedRings, UnityEngine.GameObject localRing)
-    // Offset: 0x14189F4
+    // Offset: 0x140E634
     void BindRingsAndSetTiming(int connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*> connectedRings, ::UnityEngine::GameObject* localRing);
     // public System.Void TransitionToAfterIntroAnimationState()
-    // Offset: 0x1414210
+    // Offset: 0x1409E50
     void TransitionToAfterIntroAnimationState();
     // private System.Collections.Generic.Queue`1<System.Int32> CalculatePlayerIndexSequence(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActivePlayer)
-    // Offset: 0x141854C
+    // Offset: 0x140E18C
     ::System::Collections::Generic::Queue_1<int>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
     // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
-    // Offset: 0x14191A4
+    // Offset: 0x140EDE4
     void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
     // public System.Void Completed()
-    // Offset: 0x14192DC
+    // Offset: 0x140EF1C
     void Completed();
   }; // MultiplayerIntroAnimationController
   #pragma pack(pop)

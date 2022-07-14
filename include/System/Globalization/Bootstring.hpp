@@ -96,26 +96,26 @@ namespace System::Globalization {
     // Get instance field reference: private readonly System.Int32 initial_n
     [[deprecated("Use field access instead!")]] int& dyn_initial_n();
     // public System.Void .ctor(System.Char delimiter, System.Int32 baseNum, System.Int32 tmin, System.Int32 tmax, System.Int32 skew, System.Int32 damp, System.Int32 initialBias, System.Int32 initialN)
-    // Offset: 0x195BF2C
+    // Offset: 0x1966318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bootstring* New_ctor(::Il2CppChar delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::Bootstring::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bootstring*, creationType>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN)));
     }
     // public System.String Encode(System.String s, System.Int32 offset)
-    // Offset: 0x195BFA4
+    // Offset: 0x1966390
     ::StringW Encode(::StringW s, int offset);
     // private System.Char EncodeDigit(System.Int32 d)
-    // Offset: 0x195C304
+    // Offset: 0x19666F0
     ::Il2CppChar EncodeDigit(int d);
     // private System.Int32 DecodeDigit(System.Char c)
-    // Offset: 0x195C394
+    // Offset: 0x1966780
     int DecodeDigit(::Il2CppChar c);
     // private System.Int32 Adapt(System.Int32 delta, System.Int32 numPoints, System.Boolean firstTime)
-    // Offset: 0x195C31C
+    // Offset: 0x1966708
     int Adapt(int delta, int numPoints, bool firstTime);
     // public System.String Decode(System.String s, System.Int32 offset)
-    // Offset: 0x195C3D4
+    // Offset: 0x19667C0
     ::StringW Decode(::StringW s, int offset);
   }; // System.Globalization.Bootstring
   #pragma pack(pop)

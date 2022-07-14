@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10D9510
+    // [InjectAttribute] Offset: 0x10E0C44
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D9520
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E0C54
     // Get static field: static private readonly System.Int32 _spawnRotationID
     static int _get__spawnRotationID();
     // Set static field: static private readonly System.Int32 _spawnRotationID
@@ -110,38 +110,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetRotation
     [[deprecated("Use field access instead!")]] float& dyn__targetRotation();
     // public System.Single get_targetRotation()
-    // Offset: 0x13972B4
+    // Offset: 0x1375A9C
     float get_targetRotation();
     // public System.Void .ctor()
-    // Offset: 0x13978C8
+    // Offset: 0x13760B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSpawnRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSpawnRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSpawnRotation*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13978D0
+    // Offset: 0x13760B8
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x13972BC
+    // Offset: 0x1375AA4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x139732C
+    // Offset: 0x1375B14
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x139739C
+    // Offset: 0x1375B84
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13974F0
+    // Offset: 0x1375CD8
     void OnDestroy();
     // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x139750C
+    // Offset: 0x1375CF4
     void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x139765C
+    // Offset: 0x1375E44
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x139772C
+    // Offset: 0x1375F14
     void LateUpdate();
   }; // EnvironmentSpawnRotation
   #pragma pack(pop)

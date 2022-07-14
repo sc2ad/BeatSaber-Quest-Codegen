@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1372DAC
+    // Offset: 0x13A3804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguageSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LanguageSO::.ctor");

@@ -43,17 +43,17 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<System.Object,System.Type> <>9__18_1
     static void _set_$$9__18_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x207E544
+    // Offset: 0x208B9BC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x207E5A8
+    // Offset: 0x208BA20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonTypeReflector::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTypeReflector::$$c*, creationType>()));
     }
     // System.Type <GetJsonConverterCreator>b__18_1(System.Object param)
-    // Offset: 0x207E5B0
+    // Offset: 0x208BA28
     ::System::Type* $GetJsonConverterCreator$b__18_1(::Il2CppObject* param);
   }; // Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c
   #pragma pack(pop)

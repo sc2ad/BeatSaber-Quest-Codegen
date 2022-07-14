@@ -65,23 +65,23 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: public readonly System.Func`2<System.Object,System.String> CustomToString
     [[deprecated("Use field access instead!")]] ::System::Func_2<::Il2CppObject*, ::StringW>*& dyn_CustomToString();
     // public System.Boolean get_HasStringValues()
-    // Offset: 0x198EA68
+    // Offset: 0x1998E54
     bool get_HasStringValues();
     // public System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x198DBE0
+    // Offset: 0x1997FCC
     ::System::Collections::Generic::List_1<::StringW>* get_Values();
     // public System.Void set_Values(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x198EF58
+    // Offset: 0x1999344
     void set_Values(::System::Collections::Generic::List_1<::StringW>* value);
     // public System.Void .ctor(System.Object parsed, System.Func`2<System.Object,System.String> converter)
-    // Offset: 0x198DBA4
+    // Offset: 0x1997F90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders::HeaderBucket* New_ctor(::Il2CppObject* parsed, ::System::Func_2<::Il2CppObject*, ::StringW>* converter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpHeaders::HeaderBucket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders::HeaderBucket*, creationType>(parsed, converter)));
     }
     // public System.String ParsedToString()
-    // Offset: 0x198E9E4
+    // Offset: 0x1998DD0
     ::StringW ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket
   #pragma pack(pop)

@@ -98,32 +98,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapCharacteristicSO> _beatmapCharacteristics
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn__beatmapCharacteristics();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x13504AC
+    // Offset: 0x1391D94
     ::GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1350364
+    // Offset: 0x1391C4C
     void add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSegmentedControlController,BeatmapCharacteristicSO> value)
-    // Offset: 0x1350408
+    // Offset: 0x1391CF0
     void remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1350B4C
+    // Offset: 0x1392434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicSegmentedControlController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSegmentedControlController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13504B4
+    // Offset: 0x1391D9C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1350548
+    // Offset: 0x1391E30
     void OnDestroy();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> difficultyBeatmapSets, BeatmapCharacteristicSO selectedBeatmapCharacteristic)
-    // Offset: 0x1350624
+    // Offset: 0x1391F0C
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets, ::GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1350AA8
+    // Offset: 0x1392390
     void HandleDifficultySegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
   }; // BeatmapCharacteristicSegmentedControlController
   #pragma pack(pop)

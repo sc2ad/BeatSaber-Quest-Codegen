@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x188B0F0
+    // Offset: 0x18944DC
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

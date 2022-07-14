@@ -74,37 +74,37 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Byte[] _salt
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x1F5E370
+    // Offset: 0x1F6C7E8
     void set_HashName(::StringW value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x1F5E378
+    // Offset: 0x1F6C7F0
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x1F5A17C
+    // Offset: 0x1F685F4
     void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x1F5A21C
+    // Offset: 0x1F68694
     void set_Salt(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1F5E8B0
+    // Offset: 0x1F6CD28
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x1F5E380
+    // Offset: 0x1F6C7F8
     void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x1F5E468
+    // Offset: 0x1F6C8E0
     ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x1F5A2B0
+    // Offset: 0x1F68728
     ::ArrayW<uint8_t> DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x1F5A330
+    // Offset: 0x1F687A8
     ::ArrayW<uint8_t> DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x1F5B910
+    // Offset: 0x1F69D88
     ::ArrayW<uint8_t> DeriveMAC(int size);
     // public System.Void .ctor()
-    // Offset: 0x1F5A174
+    // Offset: 0x1F685EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

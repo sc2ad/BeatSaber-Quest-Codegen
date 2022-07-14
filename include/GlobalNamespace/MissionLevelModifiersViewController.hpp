@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E3A70
+    // [SpaceAttribute] Offset: 0x10EB27C
     // private GameplayModifierInfoListItemsList _gameplayModifierInfoListItemsList
     // Size: 0x8
     // Offset: 0x78
@@ -95,20 +95,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x1305F50
+    // Offset: 0x130B9B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelModifiersViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelModifiersViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelModifiersViewController*, creationType>()));
     }
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1305DBC
+    // Offset: 0x130B81C
     void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void RefreshContent()
-    // Offset: 0x1305DF8
+    // Offset: 0x130B858
     void RefreshContent();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1305F44
+    // Offset: 0x130B9A4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

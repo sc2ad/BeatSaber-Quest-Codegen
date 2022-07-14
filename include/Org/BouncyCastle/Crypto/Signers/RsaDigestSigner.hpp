@@ -104,57 +104,57 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Boolean forSigning
     [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // static private System.Void .cctor()
-    // Offset: 0x160283C
+    // Offset: 0x160DC28
     static void _cctor();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1602FA8
+    // Offset: 0x160E394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaDigestSigner*, creationType>(digest)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.DerObjectIdentifier digestOid)
-    // Offset: 0x1603150
+    // Offset: 0x160E53C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaDigestSigner*, creationType>(digest, digestOid)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0x1603204
+    // Offset: 0x160E5F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaDigestSigner*, creationType>(digest, algId)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0x1603280
+    // Offset: 0x160E66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaDigestSigner*, creationType>(rsa, digest, algId)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher rsaEngine, Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algId)
-    // Offset: 0x160330C
+    // Offset: 0x160E6F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* rsaEngine, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaDigestSigner*, creationType>(rsaEngine, digest, algId)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x160339C
+    // Offset: 0x160E788
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x16035A4
+    // Offset: 0x160E990
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1603680
+    // Offset: 0x160EA6C
     ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
-    // Offset: 0x1603944
+    // Offset: 0x160ED30
     void Reset();
     // private System.Byte[] DerEncode(System.Byte[] hash)
-    // Offset: 0x16038A8
+    // Offset: 0x160EC94
     ::ArrayW<uint8_t> DerEncode(::ArrayW<uint8_t> hash);
   }; // Org.BouncyCastle.Crypto.Signers.RsaDigestSigner
   #pragma pack(pop)

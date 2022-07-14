@@ -82,22 +82,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint _activeConstraint
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& dyn__activeConstraint();
     // public System.Void set_PrimaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
-    // Offset: 0x2A85AB8
+    // Offset: 0x2A9EF40
     void set_PrimaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
     // public System.Void set_SecondaryTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle value)
-    // Offset: 0x2A86CD0
+    // Offset: 0x2AA0158
     void set_SecondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
     // public System.Void set_ActivePoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint value)
-    // Offset: 0x2A88528
+    // Offset: 0x2AA19B0
     void set_ActivePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
     // public System.Void set_ActiveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode value)
-    // Offset: 0x2A85074
+    // Offset: 0x2A9E4FC
     void set_ActiveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
     // public System.Void set_ActiveConstraint(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint value)
-    // Offset: 0x2A8427C
+    // Offset: 0x2A9D704
     void set_ActiveConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
     // public override System.Void Clear()
-    // Offset: 0x2A88584
+    // Offset: 0x2AA1A0C
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
     // Base method: System.Void TriangulationDebugContext::Clear()
     void Clear();

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E8068
+    // [SpaceAttribute] Offset: 0x10EF8A8
     // private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private PatternFightScenesTransitionSetupDataSO _scenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x13604C0
+    // Offset: 0x133ECA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightNoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1360228
+    // Offset: 0x133EA0C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(::Zenject::DiContainer* container);

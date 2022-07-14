@@ -45,49 +45,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10C6FF0
+    // [DescriptionAttribute] Offset: 0x10CF750
     // static field const value: static public Oculus.Platform.RoomJoinability Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.RoomJoinability Unknown
     static ::Oculus::Platform::RoomJoinability _get_Unknown();
     // Set static field: static public Oculus.Platform.RoomJoinability Unknown
     static void _set_Unknown(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C7028
+    // [DescriptionAttribute] Offset: 0x10CF788
     // static field const value: static public Oculus.Platform.RoomJoinability AreIn
     static constexpr const int AreIn = 1;
     // Get static field: static public Oculus.Platform.RoomJoinability AreIn
     static ::Oculus::Platform::RoomJoinability _get_AreIn();
     // Set static field: static public Oculus.Platform.RoomJoinability AreIn
     static void _set_AreIn(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C7060
+    // [DescriptionAttribute] Offset: 0x10CF7C0
     // static field const value: static public Oculus.Platform.RoomJoinability AreKicked
     static constexpr const int AreKicked = 2;
     // Get static field: static public Oculus.Platform.RoomJoinability AreKicked
     static ::Oculus::Platform::RoomJoinability _get_AreKicked();
     // Set static field: static public Oculus.Platform.RoomJoinability AreKicked
     static void _set_AreKicked(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C7098
+    // [DescriptionAttribute] Offset: 0x10CF7F8
     // static field const value: static public Oculus.Platform.RoomJoinability CanJoin
     static constexpr const int CanJoin = 3;
     // Get static field: static public Oculus.Platform.RoomJoinability CanJoin
     static ::Oculus::Platform::RoomJoinability _get_CanJoin();
     // Set static field: static public Oculus.Platform.RoomJoinability CanJoin
     static void _set_CanJoin(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C70D0
+    // [DescriptionAttribute] Offset: 0x10CF830
     // static field const value: static public Oculus.Platform.RoomJoinability IsFull
     static constexpr const int IsFull = 4;
     // Get static field: static public Oculus.Platform.RoomJoinability IsFull
     static ::Oculus::Platform::RoomJoinability _get_IsFull();
     // Set static field: static public Oculus.Platform.RoomJoinability IsFull
     static void _set_IsFull(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C7108
+    // [DescriptionAttribute] Offset: 0x10CF868
     // static field const value: static public Oculus.Platform.RoomJoinability NoViewer
     static constexpr const int NoViewer = 5;
     // Get static field: static public Oculus.Platform.RoomJoinability NoViewer
     static ::Oculus::Platform::RoomJoinability _get_NoViewer();
     // Set static field: static public Oculus.Platform.RoomJoinability NoViewer
     static void _set_NoViewer(::Oculus::Platform::RoomJoinability value);
-    // [DescriptionAttribute] Offset: 0x10C7140
+    // [DescriptionAttribute] Offset: 0x10CF8A0
     // static field const value: static public Oculus.Platform.RoomJoinability PolicyPrevents
     static constexpr const int PolicyPrevents = 6;
     // Get static field: static public Oculus.Platform.RoomJoinability PolicyPrevents

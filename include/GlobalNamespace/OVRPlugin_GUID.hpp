@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte d7
     [[deprecated("Use field access instead!")]] uint8_t& dyn_d7();
     // public System.Void .ctor()
-    // Offset: 0x1B09AF4
+    // Offset: 0x1B15EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::GUID* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::GUID::.ctor");

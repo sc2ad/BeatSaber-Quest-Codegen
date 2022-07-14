@@ -78,26 +78,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // public System.Void .ctor()
-    // Offset: 0x134BA78
+    // Offset: 0x138D358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNoteVisuals* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNoteVisuals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseNoteVisuals*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x134B73C
+    // Offset: 0x138D01C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x134B88C
+    // Offset: 0x138D16C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x134BA24
+    // Offset: 0x138D304
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x134BA40
+    // Offset: 0x138D320
     void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
     // private System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x134BA50
+    // Offset: 0x138D330
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // BaseNoteVisuals
   #pragma pack(pop)

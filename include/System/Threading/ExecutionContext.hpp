@@ -215,117 +215,117 @@ namespace System::Threading {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Threading.IAsyncLocal> _localChangeNotifications
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*& dyn__localChangeNotifications();
     // System.Boolean get_isNewCapture()
-    // Offset: 0x1DBFB0C
+    // Offset: 0x1DCEEF8
     bool get_isNewCapture();
     // System.Void set_isNewCapture(System.Boolean value)
-    // Offset: 0x1DBFB20
+    // Offset: 0x1DCEF0C
     void set_isNewCapture(bool value);
     // System.Boolean get_isFlowSuppressed()
-    // Offset: 0x1DBFB3C
+    // Offset: 0x1DCEF28
     bool get_isFlowSuppressed();
     // System.Void set_isFlowSuppressed(System.Boolean value)
-    // Offset: 0x1DBFB48
+    // Offset: 0x1DCEF34
     void set_isFlowSuppressed(bool value);
     // static System.Threading.ExecutionContext get_PreAllocatedDefault()
-    // Offset: 0x1DBFB64
+    // Offset: 0x1DCEF50
     static ::System::Threading::ExecutionContext* get_PreAllocatedDefault();
     // System.Boolean get_IsPreAllocatedDefault()
-    // Offset: 0x1DBFBCC
+    // Offset: 0x1DCEFB8
     bool get_IsPreAllocatedDefault();
     // System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x1DC0280
+    // Offset: 0x1DCF66C
     ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // System.Void set_LogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext value)
-    // Offset: 0x1DC02EC
+    // Offset: 0x1DCF6D8
     void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
     // System.Runtime.Remoting.Messaging.IllogicalCallContext get_IllogicalCallContext()
-    // Offset: 0x1DC02F4
+    // Offset: 0x1DCF6E0
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext* get_IllogicalCallContext();
     // System.Void set_IllogicalCallContext(System.Runtime.Remoting.Messaging.IllogicalCallContext value)
-    // Offset: 0x1DC0360
+    // Offset: 0x1DCF74C
     void set_IllogicalCallContext(::System::Runtime::Remoting::Messaging::IllogicalCallContext* value);
     // System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0x1DC0368
+    // Offset: 0x1DCF754
     ::System::Threading::SynchronizationContext* get_SynchronizationContext();
     // System.Void set_SynchronizationContext(System.Threading.SynchronizationContext value)
-    // Offset: 0x1DC0370
+    // Offset: 0x1DCF75C
     void set_SynchronizationContext(::System::Threading::SynchronizationContext* value);
     // System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0x1DC0378
+    // Offset: 0x1DCF764
     ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // System.Void set_SynchronizationContextNoFlow(System.Threading.SynchronizationContext value)
-    // Offset: 0x1DC0380
+    // Offset: 0x1DCF76C
     void set_SynchronizationContextNoFlow(::System::Threading::SynchronizationContext* value);
     // System.Void .ctor(System.Boolean isPreAllocatedDefault)
-    // Offset: 0x1DBFBE0
+    // Offset: 0x1DCEFCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionContext* New_ctor(bool isPreAllocatedDefault) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionContext*, creationType>(isPreAllocatedDefault)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DC0F34
+    // Offset: 0x1DD0320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionContext* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionContext*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DC101C
+    // Offset: 0x1DD0408
     static void _cctor();
     // static System.Void SetLocalValue(System.Threading.IAsyncLocal local, System.Object newValue, System.Boolean needChangeNotifications)
-    // Offset: 0x1DBFC14
+    // Offset: 0x1DCF000
     static void SetLocalValue(::System::Threading::IAsyncLocal* local, ::Il2CppObject* newValue, bool needChangeNotifications);
     // static System.Void OnAsyncLocalContextChanged(System.Threading.ExecutionContext previous, System.Threading.ExecutionContext current)
-    // Offset: 0x1DBFE38
+    // Offset: 0x1DCF224
     static void OnAsyncLocalContextChanged(::System::Threading::ExecutionContext* previous, ::System::Threading::ExecutionContext* current);
     // public System.Void Dispose()
-    // Offset: 0x1DC0388
+    // Offset: 0x1DCF774
     void Dispose();
     // static public System.Void Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state)
-    // Offset: 0x1DBC79C
+    // Offset: 0x1DCBB88
     static void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::Il2CppObject* state);
     // static System.Void Run(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx)
-    // Offset: 0x1DC038C
+    // Offset: 0x1DCF778
     static void Run(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::Il2CppObject* state, bool preserveSyncCtx);
     // static System.Void RunInternal(System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx)
-    // Offset: 0x1DC0418
+    // Offset: 0x1DCF804
     static void RunInternal(::System::Threading::ExecutionContext* executionContext, ::System::Threading::ContextCallback* callback, ::Il2CppObject* state, bool preserveSyncCtx);
     // static System.Void EstablishCopyOnWriteScope(ref System.Threading.ExecutionContextSwitcher ecsw)
-    // Offset: 0x1DC0980
+    // Offset: 0x1DCFD6C
     static void EstablishCopyOnWriteScope(ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
     // static private System.Void EstablishCopyOnWriteScope(System.Threading.Thread currentThread, System.Boolean knownNullWindowsIdentity, ref System.Threading.ExecutionContextSwitcher ecsw)
-    // Offset: 0x1DC06BC
+    // Offset: 0x1DCFAA8
     static void EstablishCopyOnWriteScope(::System::Threading::Thread* currentThread, bool knownNullWindowsIdentity, ByRef<::System::Threading::ExecutionContextSwitcher> ecsw);
     // static System.Threading.ExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext executionContext, System.Boolean preserveSyncCtx)
-    // Offset: 0x1DC0718
+    // Offset: 0x1DCFB04
     static ::System::Threading::ExecutionContextSwitcher SetExecutionContext(::System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx);
     // public System.Threading.ExecutionContext CreateCopy()
-    // Offset: 0x1DC0AEC
+    // Offset: 0x1DCFED8
     ::System::Threading::ExecutionContext* CreateCopy();
     // System.Threading.ExecutionContext CreateMutableCopy()
-    // Offset: 0x1DC0C28
+    // Offset: 0x1DD0014
     ::System::Threading::ExecutionContext* CreateMutableCopy();
     // static public System.Boolean IsFlowSuppressed()
-    // Offset: 0x1DC0D2C
+    // Offset: 0x1DD0118
     static bool IsFlowSuppressed();
     // static public System.Threading.ExecutionContext Capture()
-    // Offset: 0x1DC0D60
+    // Offset: 0x1DD014C
     static ::System::Threading::ExecutionContext* Capture();
     // static System.Threading.ExecutionContext FastCapture()
-    // Offset: 0x1DC0DC0
+    // Offset: 0x1DD01AC
     static ::System::Threading::ExecutionContext* FastCapture();
     // static System.Threading.ExecutionContext Capture(ref System.Threading.StackCrawlMark stackMark, System.Threading.ExecutionContext/System.Threading.CaptureOptions options)
-    // Offset: 0x1DBCD90
+    // Offset: 0x1DCC17C
     static ::System::Threading::ExecutionContext* Capture(ByRef<::System::Threading::StackCrawlMark> stackMark, ::System::Threading::ExecutionContext::CaptureOptions options);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DC0E3C
+    // Offset: 0x1DD0228
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0x1DC0638
+    // Offset: 0x1DCFA24
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // System.Void .ctor()
-    // Offset: 0x1DBFBD8
+    // Offset: 0x1DCEFC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

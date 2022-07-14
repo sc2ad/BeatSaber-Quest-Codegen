@@ -45,13 +45,13 @@ namespace System::Net::Http::Headers {
   class TransferCodingWithQualityHeaderValue : public ::System::Net::Http::Headers::TransferCodingHeaderValue {
     public:
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingWithQualityHeaderValue> result)
-    // Offset: 0x1995618
+    // Offset: 0x199FA04
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.TransferCodingWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x19956B8
+    // Offset: 0x199FAA4
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x1995610
+    // Offset: 0x199F9FC
     // Implemented from: System.Net.Http.Headers.TransferCodingHeaderValue
     // Base method: System.Void TransferCodingHeaderValue::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

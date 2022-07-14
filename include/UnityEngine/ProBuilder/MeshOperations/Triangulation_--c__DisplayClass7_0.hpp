@@ -53,17 +53,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor()
-    // Offset: 0x1C37FA0
+    // Offset: 0x1C4738C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Triangulation::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Triangulation::$$c__DisplayClass7_0*, creationType>()));
     }
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
-    // Offset: 0x1C37FB0
+    // Offset: 0x1C4739C
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(::UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
-    // Offset: 0x1C38038
+    // Offset: 0x1C47424
     ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(::UnityEngine::Vector2 x);
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass7_0
   #pragma pack(pop)

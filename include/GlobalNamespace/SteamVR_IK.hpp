@@ -123,17 +123,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Transform endXform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_endXform();
     // public System.Void .ctor()
-    // Offset: 0x18A429C
+    // Offset: 0x18AD688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_IK* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_IK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_IK*, creationType>()));
     }
     // private System.Void LateUpdate()
-    // Offset: 0x18A33DC
+    // Offset: 0x18AC7C8
     void LateUpdate();
     // static public System.Boolean Solve(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Vector3 poleVector, System.Single jointDist, System.Single targetDist, ref UnityEngine.Vector3 result, out UnityEngine.Vector3 forward, out UnityEngine.Vector3 up)
-    // Offset: 0x18A3D84
+    // Offset: 0x18AD170
     static bool Solve(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Vector3 poleVector, float jointDist, float targetDist, ByRef<::UnityEngine::Vector3> result, ByRef<::UnityEngine::Vector3> forward, ByRef<::UnityEngine::Vector3> up);
   }; // SteamVR_IK
   #pragma pack(pop)

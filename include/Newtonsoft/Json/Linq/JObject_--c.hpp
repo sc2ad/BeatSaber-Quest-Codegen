@@ -29,10 +29,10 @@ namespace Newtonsoft::Json::Linq {
     // Set static field: static public readonly Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.<>c <>9
     static void _set_$$9(::Newtonsoft::Json::Linq::JObject::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x174B2FC
+    // Offset: 0x17556E8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x174B360
+    // Offset: 0x175574C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JObject::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::$$c::.ctor");

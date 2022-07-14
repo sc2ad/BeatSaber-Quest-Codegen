@@ -37,20 +37,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PseudoHDREncoding : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C0C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE4D0
     // static field const value: static private System.String kPseudoHDREncodingShaderName
     static constexpr const char* kPseudoHDREncodingShaderName = "Hidden/PseudoHDREncoding";
     // Get static field: static private System.String kPseudoHDREncodingShaderName
     static ::StringW _get_kPseudoHDREncodingShaderName();
     // Set static field: static private System.String kPseudoHDREncodingShaderName
     static void _set_kPseudoHDREncodingShaderName(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C1C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE4E0
     // Get static field: static private UnityEngine.Material _material
     static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(::UnityEngine::Material* value);
     // static public UnityEngine.RenderTexture CreatePseudoHDREncodedTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x13E55FC
+    // Offset: 0x136D2D4
     static ::UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
   }; // PseudoHDREncoding
   #pragma pack(pop)

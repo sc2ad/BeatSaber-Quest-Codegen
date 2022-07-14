@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
   class DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
     public:
     // private System.Boolean MatchEnumeration(System.DateTime value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C4FAF4
+    // Offset: 0x1C5EEE0
     bool MatchEnumeration(::System::DateTime value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // public System.Void .ctor()
-    // Offset: 0x1C4FC9C
+    // Offset: 0x1C5F088
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Void FacetsChecker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,17 +60,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeFacetsChecker*, creationType>()));
     }
     // override System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C4F6F0
+    // Offset: 0x1C5EADC
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C4F760
+    // Offset: 0x1C5EB4C
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C4FC34
+    // Offset: 0x1C5F020
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Boolean FacetsChecker::MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);

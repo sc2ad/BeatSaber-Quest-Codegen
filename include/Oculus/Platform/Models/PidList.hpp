@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class PidList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Pid*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x19E4844
+    // Offset: 0x19EEC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PidList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::PidList::.ctor");

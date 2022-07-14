@@ -74,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<PlatformUserAuthTokenData> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlatformUserAuthTokenData*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1476D7C
+    // Offset: 0x144E360
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1476F7C
+    // Offset: 0x144E560
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // TestPlatformUserModel/<GetUserAuthToken>d__2
   // WARNING Not writing size check since size may be invalid!

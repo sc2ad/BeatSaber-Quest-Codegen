@@ -153,32 +153,32 @@ namespace RootMotion {
     // Get instance field reference: private UnityEngine.Quaternion relativeRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_relativeRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
-    // Offset: 0x223E890
+    // Offset: 0x224CD08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x223EA24
+    // Offset: 0x224CE9C
     void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x223EA38
+    // Offset: 0x224CEB0
     void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x223ECC8
+    // Offset: 0x224D140
     void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // public System.Void Reset()
-    // Offset: 0x223E92C
+    // Offset: 0x224CDA4
     void Reset();
     // public System.Void ReduceKeyframes(System.Single maxError)
-    // Offset: 0x223EF14
+    // Offset: 0x224D38C
     void ReduceKeyframes(float maxError);
     // public System.Void SetKeyframes(System.Single time)
-    // Offset: 0x223EF88
+    // Offset: 0x224D400
     void SetKeyframes(float time);
     // public System.Void AddLoopFrame(System.Single time)
-    // Offset: 0x223F1D4
+    // Offset: 0x224D64C
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)

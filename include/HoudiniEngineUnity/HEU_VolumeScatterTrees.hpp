@@ -129,14 +129,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32[] _terrainTiles
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__terrainTiles();
     // public System.Void .ctor()
-    // Offset: 0x1A07560
+    // Offset: 0x1A1194C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeScatterTrees* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeScatterTrees::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeScatterTrees*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
-    // Offset: 0x1A0C788
+    // Offset: 0x1A16B74
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
   }; // HoudiniEngineUnity.HEU_VolumeScatterTrees
   #pragma pack(pop)

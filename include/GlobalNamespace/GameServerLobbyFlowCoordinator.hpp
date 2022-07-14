@@ -148,161 +148,161 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioClip* ambienceAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0C9C
+    // [InjectAttribute] Offset: 0x10E8420
     // private readonly ServerPlayerListViewController _serverPlayerListViewController
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::ServerPlayerListViewController* serverPlayerListViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ServerPlayerListViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CAC
+    // [InjectAttribute] Offset: 0x10E8430
     // private readonly SelectModifiersViewController _selectModifiersViewController
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::SelectModifiersViewController* selectModifiersViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SelectModifiersViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CBC
+    // [InjectAttribute] Offset: 0x10E8440
     // private readonly MultiplayerLevelSelectionFlowCoordinator _multiplayerLevelSelectionFlowCoordinator
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator* multiplayerLevelSelectionFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CCC
+    // [InjectAttribute] Offset: 0x10E8450
     // private readonly MultiplayerResultsViewController _multiplayerResultsViewController
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::MultiplayerResultsViewController* multiplayerResultsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CDC
+    // [InjectAttribute] Offset: 0x10E8460
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CEC
+    // [InjectAttribute] Offset: 0x10E8470
     // private readonly ConnectionErrorDialogViewController _connectionErrorDialogViewController
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::ConnectionErrorDialogViewController* connectionErrorDialogViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ConnectionErrorDialogViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0CFC
+    // [InjectAttribute] Offset: 0x10E8480
     // private readonly MultiplayerSettingsPanelController _multiplayerSettingsPanelController
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerSettingsPanelController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D0C
+    // [InjectAttribute] Offset: 0x10E8490
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplaySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D1C
+    // [InjectAttribute] Offset: 0x10E84A0
     // private readonly MultiplayerLobbyController _multiplayerLobbyController
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::MultiplayerLobbyController* multiplayerLobbyController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D2C
+    // [InjectAttribute] Offset: 0x10E84B0
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x100
     ::GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D3C
+    // [InjectAttribute] Offset: 0x10E84C0
     // private readonly CenterStageScreenController _centerStageScreenController
     // Size: 0x8
     // Offset: 0x108
     ::GlobalNamespace::CenterStageScreenController* centerStageScreenController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CenterStageScreenController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D4C
+    // [InjectAttribute] Offset: 0x10E84D0
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x110
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D5C
+    // [InjectAttribute] Offset: 0x10E84E0
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x118
     ::GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D6C
+    // [InjectAttribute] Offset: 0x10E84F0
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x120
     ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D7C
+    // [InjectAttribute] Offset: 0x10E8500
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D8C
+    // [InjectAttribute] Offset: 0x10E8510
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0D9C
+    // [InjectAttribute] Offset: 0x10E8520
     // private readonly LobbySetupViewController _lobbySetupViewController
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::LobbySetupViewController* lobbySetupViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DAC
+    // [InjectAttribute] Offset: 0x10E8530
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x140
     ::GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DBC
+    // [InjectAttribute] Offset: 0x10E8540
     // private readonly HMUI.ScreenModeController _screenModeController
     // Size: 0x8
     // Offset: 0x148
     ::HMUI::ScreenModeController* screenModeController;
     // Field size check
     static_assert(sizeof(::HMUI::ScreenModeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DCC
+    // [InjectAttribute] Offset: 0x10E8550
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x150
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DDC
+    // [InjectAttribute] Offset: 0x10E8560
     // private readonly PlatformLeaderboardsModel _platformLeaderboardsModel
     // Size: 0x8
     // Offset: 0x158
     ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlatformLeaderboardsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DEC
+    // [InjectAttribute] Offset: 0x10E8570
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x160
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E0DFC
+    // [InjectAttribute] Offset: 0x10E8580
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x168
@@ -372,7 +372,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // [LocalizationKeyAttribute] Offset: 0x10E0C6C
+    // [LocalizationKeyAttribute] Offset: 0x10E83F0
     // static field const value: static private System.String kPlayersMissingEntitlementKey
     static constexpr const char* kPlayersMissingEntitlementKey = "LABEL_PLAYERS_MISSING_ENTITLEMENT";
     // Get static field: static private System.String kPlayersMissingEntitlementKey
@@ -456,233 +456,233 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <rejoinQuickPlay>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$rejoinQuickPlay$k__BackingField();
     // private System.Boolean get_isPartyOwner()
-    // Offset: 0x13E981C
+    // Offset: 0x13C77E4
     bool get_isPartyOwner();
     // private System.Boolean get_isPublicGame()
-    // Offset: 0x13E9838
+    // Offset: 0x13C7800
     bool get_isPublicGame();
     // private System.Boolean get_isManaged()
-    // Offset: 0x13E9908
+    // Offset: 0x13C78D0
     bool get_isManaged();
     // private System.Boolean get_isQuickStartServer()
-    // Offset: 0x13E99D8
+    // Offset: 0x13C79A0
     bool get_isQuickStartServer();
     // private System.Boolean get_isQuickPlayServer()
-    // Offset: 0x13E9AA8
+    // Offset: 0x13C7A70
     bool get_isQuickPlayServer();
     // public System.Boolean get_rejoinQuickPlay()
-    // Offset: 0x13EA208
+    // Offset: 0x13C81D0
     bool get_rejoinQuickPlay();
     // private System.Void set_rejoinQuickPlay(System.Boolean value)
-    // Offset: 0x13EA210
+    // Offset: 0x13C81D8
     void set_rejoinQuickPlay(bool value);
     // public System.Void add_willFinishEvent(System.Action value)
-    // Offset: 0x13E9B78
+    // Offset: 0x13C7B40
     void add_willFinishEvent(::System::Action* value);
     // public System.Void remove_willFinishEvent(System.Action value)
-    // Offset: 0x13E9C20
+    // Offset: 0x13C7BE8
     void remove_willFinishEvent(::System::Action* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x13E9CC8
+    // Offset: 0x13C7C90
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x13E9D70
+    // Offset: 0x13C7D38
     void remove_didFinishEvent(::System::Action* value);
     // public System.Void add_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x13E9E18
+    // Offset: 0x13C7DE0
     void add_startGameOrReadyEvent(::System::Action* value);
     // public System.Void remove_startGameOrReadyEvent(System.Action value)
-    // Offset: 0x13E9EC0
+    // Offset: 0x13C7E88
     void remove_startGameOrReadyEvent(::System::Action* value);
     // public System.Void add_didSetupEvent(System.Action value)
-    // Offset: 0x13E9F68
+    // Offset: 0x13C7F30
     void add_didSetupEvent(::System::Action* value);
     // public System.Void remove_didSetupEvent(System.Action value)
-    // Offset: 0x13EA010
+    // Offset: 0x13C7FD8
     void remove_didSetupEvent(::System::Action* value);
     // public System.Void add_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x13EA0B8
+    // Offset: 0x13C8080
     void add_didOpenInvitePanelEvent(::System::Action* value);
     // public System.Void remove_didOpenInvitePanelEvent(System.Action value)
-    // Offset: 0x13EA160
+    // Offset: 0x13C8128
     void remove_didOpenInvitePanelEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13F06C0
+    // Offset: 0x13CE688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator*, creationType>()));
     }
     // public GameServerLobbyFlowCoordinator/LobbyType GetLobbyType()
-    // Offset: 0x13EA21C
+    // Offset: 0x13C81E4
     ::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType GetLobbyType();
     // private System.Void PresentBackButtonConfirmationDialog()
-    // Offset: 0x13ED81C
+    // Offset: 0x13CB7E4
     void PresentBackButtonConfirmationDialog();
     // private System.Void Finish(System.Action finishedCallback, System.Boolean withFadeOut)
-    // Offset: 0x13EDA20
+    // Offset: 0x13CB9E8
     void Finish(::System::Action* finishedCallback, bool withFadeOut);
     // private System.Void GetInitialGameState()
-    // Offset: 0x13EC7A4
+    // Offset: 0x13CA76C
     void GetInitialGameState();
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0x13EDD24
+    // Offset: 0x13CBCEC
     void HandleLobbyPlayersDataModelDidChange(::StringW userId);
     // private System.Void HandleServerPlayerListViewControllerDidOpenInvitePanel()
-    // Offset: 0x13EDD28
+    // Offset: 0x13CBCF0
     void HandleServerPlayerListViewControllerDidOpenInvitePanel();
     // private System.Void HandleLobbySetupViewControllerSelectBeatmap()
-    // Offset: 0x13EDD3C
+    // Offset: 0x13CBD04
     void HandleLobbySetupViewControllerSelectBeatmap();
     // private System.Void HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged(System.Boolean isActive)
-    // Offset: 0x13EDF10
+    // Offset: 0x13CBED8
     void HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged(bool isActive);
     // private System.Void HandleLobbyGameStateControllerLobbyDisconnected()
-    // Offset: 0x13EE394
+    // Offset: 0x13CC35C
     void HandleLobbyGameStateControllerLobbyDisconnected();
     // private System.Void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(LevelSelectionFlowCoordinator/State state)
-    // Offset: 0x13EE454
+    // Offset: 0x13CC41C
     void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(::GlobalNamespace::LevelSelectionFlowCoordinator::State* state);
     // private System.Void HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel()
-    // Offset: 0x13EE760
+    // Offset: 0x13CC728
     void HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel();
     // private System.Void HandleLobbySetupViewControllerSelectModifiers()
-    // Offset: 0x13EE7A4
+    // Offset: 0x13CC76C
     void HandleLobbySetupViewControllerSelectModifiers();
     // private System.Void HandleLobbySetupViewControllerClearSelectedBeatmap()
-    // Offset: 0x13EE9A8
+    // Offset: 0x13CC970
     void HandleLobbySetupViewControllerClearSelectedBeatmap();
     // private System.Void HandleLobbySetupViewControllerClearSelectedModifiers()
-    // Offset: 0x13EEA5C
+    // Offset: 0x13CCA24
     void HandleLobbySetupViewControllerClearSelectedModifiers();
     // private System.Void HandleLobbyGameStateControllerGameStateChanged(MultiplayerLobbyState state)
-    // Offset: 0x13EEB10
+    // Offset: 0x13CCAD8
     void HandleLobbyGameStateControllerGameStateChanged(::GlobalNamespace::MultiplayerLobbyState state);
     // private System.Void HandleServerPlayerListViewControllerSelectSuggestedBeatmap(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x13EEB2C
+    // Offset: 0x13CCAF4
     void HandleServerPlayerListViewControllerSelectSuggestedBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // private System.Void HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers(GameplayModifiers modifiers)
-    // Offset: 0x13EEBF0
+    // Offset: 0x13CCBB8
     void HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
     // private System.Void HandleServerPlayerListViewControllerKickPlayer(System.String userId)
-    // Offset: 0x13EECB4
+    // Offset: 0x13CCC7C
     void HandleServerPlayerListViewControllerKickPlayer(::StringW userId);
     // private System.Void HandleLobbyGameStateControllerCountdownStarted()
-    // Offset: 0x13EEF80
+    // Offset: 0x13CCF48
     void HandleLobbyGameStateControllerCountdownStarted();
     // private System.Void HandleLobbyGameStateControllerCountdownCancelled()
-    // Offset: 0x13EF1B8
+    // Offset: 0x13CD180
     void HandleLobbyGameStateControllerCountdownCancelled();
     // private System.Void HandleLobbyGameStateControllerGameStarted(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x13EF1F4
+    // Offset: 0x13CD1BC
     void HandleLobbyGameStateControllerGameStarted(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // private System.Void HandleLobbyGameStateControllerStartTimeChanged()
-    // Offset: 0x13EF4D4
+    // Offset: 0x13CD49C
     void HandleLobbyGameStateControllerStartTimeChanged();
     // private System.Void HandleLobbyGameStateControllerSongStillDownloading()
-    // Offset: 0x13EF6E8
+    // Offset: 0x13CD6B0
     void HandleLobbyGameStateControllerSongStillDownloading();
     // private System.Void HandleLobbySetupViewControllerStartGameOrReady()
-    // Offset: 0x13EF6EC
+    // Offset: 0x13CD6B4
     void HandleLobbySetupViewControllerStartGameOrReady();
     // private System.Void HandleLobbySetupViewControllerCancelGameOrUnready()
-    // Offset: 0x13EFA24
+    // Offset: 0x13CD9EC
     void HandleLobbySetupViewControllerCancelGameOrUnready();
     // private System.Void HandleLobbyGameStateControllerCancelStartTime()
-    // Offset: 0x13EFBA4
+    // Offset: 0x13CDB6C
     void HandleLobbyGameStateControllerCancelStartTime();
     // private System.Void HandleLobbyGameStateControllerGameStartedPresentView(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x13EFBE8
+    // Offset: 0x13CDBB0
     void HandleLobbyGameStateControllerGameStartedPresentView(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // private System.Void HandleLobbyGameStateControllerLevelFinished(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
-    // Offset: 0x13EFCB0
+    // Offset: 0x13CDC78
     void HandleLobbyGameStateControllerLevelFinished(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
     // private System.Void HandleLobbyGameStateControllerLevelDidGetDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x13F001C
+    // Offset: 0x13CDFE4
     void HandleLobbyGameStateControllerLevelDidGetDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void HandleMultiplayerResultsViewControllerBackToLobbyPressed(MultiplayerResultsViewController viewController)
-    // Offset: 0x13F0020
+    // Offset: 0x13CDFE8
     void HandleMultiplayerResultsViewControllerBackToLobbyPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
     // private System.Void HandleMultiplayerResultsViewControllerBackToMenuPressed(MultiplayerResultsViewController viewController)
-    // Offset: 0x13F0184
+    // Offset: 0x13CE14C
     void HandleMultiplayerResultsViewControllerBackToMenuPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
     // private System.Void SetupLobbyWithPermissions()
-    // Offset: 0x13EB540
+    // Offset: 0x13C9508
     void SetupLobbyWithPermissions();
     // private System.Void SetLobbyPlayerDataToViews(System.String userId)
-    // Offset: 0x13EB328
+    // Offset: 0x13C92F0
     void SetLobbyPlayerDataToViews(::StringW userId);
     // private System.Void ShowSideViewControllers(System.Boolean showSideViewControllers, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x13ED504
+    // Offset: 0x13CB4CC
     void ShowSideViewControllers(bool showSideViewControllers, ::HMUI::ViewController::AnimationType animationType);
     // private System.Void ShowBackButton(System.Boolean show)
-    // Offset: 0x13ED56C
+    // Offset: 0x13CB534
     void ShowBackButton(bool show);
     // private System.String GetLocalizedTitle()
-    // Offset: 0x13F0190
+    // Offset: 0x13CE158
     ::StringW GetLocalizedTitle();
     // private System.Void SetTitle(HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x13ED578
+    // Offset: 0x13CB540
     void SetTitle(::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // private System.Void ShowDisconnectDialogAndFinish(DisconnectedReason disconnectedReason)
-    // Offset: 0x13ED0A8
+    // Offset: 0x13CB070
     void ShowDisconnectDialogAndFinish(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x13EE158
+    // Offset: 0x13CC120
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // private System.Void HandleLobbyGameBeforeSceneSwitchCallback()
-    // Offset: 0x13F0200
+    // Offset: 0x13CE1C8
     void HandleLobbyGameBeforeSceneSwitchCallback();
     // private System.Void HandleLobbyGameStateStartButtonEnabled(CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x13F03E0
+    // Offset: 0x13CE3A8
     void HandleLobbyGameStateStartButtonEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
     // private System.Void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(PlayersMissingEntitlementsNetSerializable playersMissingEntitlements)
-    // Offset: 0x13F0418
+    // Offset: 0x13CE3E0
     void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
     // private System.Void HandleLobbyPlayerPermissionsModelPermissionsChanged()
-    // Offset: 0x13F06BC
+    // Offset: 0x13CE684
     void HandleLobbyPlayerPermissionsModelPermissionsChanged();
     // private System.Void DismissViewControllersAndCoordinators()
-    // Offset: 0x13EDC14
+    // Offset: 0x13CBBDC
     void DismissViewControllersAndCoordinators();
     // private System.Void <PresentBackButtonConfirmationDialog>b__69_0(System.Int32 btnIndex)
-    // Offset: 0x13F0728
+    // Offset: 0x13CE6F0
     void $PresentBackButtonConfirmationDialog$b__69_0(int btnIndex);
     // private System.Void <ShowDisconnectDialogAndFinish>b__105_0()
-    // Offset: 0x13F0874
+    // Offset: 0x13CE83C
     void $ShowDisconnectDialogAndFinish$b__105_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13EA278
+    // Offset: 0x13C8240
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13EB9F8
+    // Offset: 0x13C99C0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void InitialViewControllerWasPresented()
-    // Offset: 0x13EC6C0
+    // Offset: 0x13CA688
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::InitialViewControllerWasPresented()
     void InitialViewControllerWasPresented();
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x13EC910
+    // Offset: 0x13CA8D8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x13ECAD0
+    // Offset: 0x13CAA98
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x13ED44C
+    // Offset: 0x13CB414
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x13ED6A0
+    // Offset: 0x13CB668
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(::HMUI::ViewController* topViewController);

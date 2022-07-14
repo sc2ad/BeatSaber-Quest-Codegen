@@ -292,14 +292,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawButton Right
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawButton& dyn_Right();
     // public System.Void .ctor()
-    // Offset: 0x19F5A50
+    // Offset: 0x19FFE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualButtonMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualButtonMap*, creationType>()));
     }
     // public OVRInput/RawButton ToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x19F6514
+    // Offset: 0x1A00900
     ::GlobalNamespace::OVRInput::RawButton ToRawMask(::GlobalNamespace::OVRInput::Button virtualMask);
   }; // OVRInput/OVRControllerBase/VirtualButtonMap
   #pragma pack(pop)

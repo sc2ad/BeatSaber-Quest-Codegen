@@ -56,21 +56,21 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerSpectatingSpot : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IMultiplayerSpectatingSpot*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10DD060
+    // [InjectAttribute] Offset: 0x10E47A4
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD070
+    // [InjectAttribute] Offset: 0x10E47B4
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD080
+    // [InjectAttribute] Offset: 0x10E47C4
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x28
@@ -127,56 +127,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _playerFailed
     [[deprecated("Use field access instead!")]] bool& dyn__playerFailed();
     // public IMultiplayerObservable get_observable()
-    // Offset: 0x1411BAC
+    // Offset: 0x14077EC
     ::GlobalNamespace::IMultiplayerObservable* get_observable();
     // private System.Void set_observable(IMultiplayerObservable value)
-    // Offset: 0x1411BB4
+    // Offset: 0x14077F4
     void set_observable(::GlobalNamespace::IMultiplayerObservable* value);
     // public System.String get_spotName()
-    // Offset: 0x1411BBC
+    // Offset: 0x14077FC
     ::StringW get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0x1411C70
+    // Offset: 0x14078B0
     bool get_isMain();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x141221C
+    // Offset: 0x1407E5C
     ::UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x141191C
+    // Offset: 0x140755C
     void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x14119C0
+    // Offset: 0x1407600
     void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void add_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1411A64
+    // Offset: 0x14076A4
     void add_isObservedChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_isObservedChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1411B08
+    // Offset: 0x1407748
     void remove_isObservedChangedEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x1412214
+    // Offset: 0x1407E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSpectatingSpot* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSpectatingSpot*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1411C78
+    // Offset: 0x14078B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1411E5C
+    // Offset: 0x1407A9C
     void OnDestroy();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x1412000
+    // Offset: 0x1407C40
     void SetIsObserved(bool isObserved);
     // private System.Void ReloadBasedOnPlayerCurrentState(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1412074
+    // Offset: 0x1407CB4
     void ReloadBasedOnPlayerCurrentState(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer connectedPlayer)
-    // Offset: 0x141220C
+    // Offset: 0x1407E4C
     void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1412210
+    // Offset: 0x1407E50
     void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MultiplayerConnectedPlayerSpectatingSpot
   #pragma pack(pop)

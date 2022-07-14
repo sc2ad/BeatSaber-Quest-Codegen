@@ -86,33 +86,33 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Security.Cryptography.X509Certificates.X509KeyUsageFlags get_KeyUsages()
-    // Offset: 0x1BE5414
+    // Offset: 0x1BF3800
     ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags get_KeyUsages();
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedKeyUsage, System.Boolean critical)
-    // Offset: 0x1BEEAE8
+    // Offset: 0x1BFCED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509KeyUsageExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedKeyUsage, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509KeyUsageExtension*, creationType>(encodedKeyUsage, critical)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags keyUsages, System.Boolean critical)
-    // Offset: 0x1BEF2A0
+    // Offset: 0x1BFD68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509KeyUsageExtension* New_ctor(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509KeyUsageExtension*, creationType>(keyUsages, critical)));
     }
     // System.Security.Cryptography.X509Certificates.X509KeyUsageFlags GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags flags)
-    // Offset: 0x1BEF36C
+    // Offset: 0x1BFD758
     ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags GetValidFlags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags flags);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1BEF0CC
+    // Offset: 0x1BFD4B8
     ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // System.Byte[] Encode()
-    // Offset: 0x1BEF37C
+    // Offset: 0x1BFD768
     ::ArrayW<uint8_t> Encode();
     // public System.Void .ctor()
-    // Offset: 0x1BEF03C
+    // Offset: 0x1BFD428
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
@@ -122,12 +122,12 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509KeyUsageExtension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1BEF4EC
+    // Offset: 0x1BFD8D8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1BEF690
+    // Offset: 0x1BFDA7C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::StringW ToString(bool multiLine);

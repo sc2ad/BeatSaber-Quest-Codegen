@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassEffectSO _bloomPrePassEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassEffectSO*& dyn__bloomPrePassEffect();
     // public BloomPrePassEffectSO get_bloomPrePassEffect()
-    // Offset: 0x1E6D568
+    // Offset: 0x1E7B954
     ::GlobalNamespace::BloomPrePassEffectSO* get_bloomPrePassEffect();
     // public System.Void .ctor()
-    // Offset: 0x1E6D578
+    // Offset: 0x1E7B964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassEffectContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassEffectContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassEffectContainerSO*, creationType>()));
     }
     // public System.Void Init(BloomPrePassEffectSO bloomPrePassEffect)
-    // Offset: 0x1E6D570
+    // Offset: 0x1E7B95C
     void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
   }; // BloomPrePassEffectContainerSO
   #pragma pack(pop)

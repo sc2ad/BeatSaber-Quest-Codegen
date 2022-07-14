@@ -38,13 +38,13 @@ namespace Oculus::Platform {
   class ApplicationLifecycle : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x2095C14
+    // Offset: 0x20A308C
     static ::Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x2095D14
+    // Offset: 0x20A318C
     static void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result);
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x2095E30
+    // Offset: 0x20A32A8
     static void SetLaunchIntentChangedNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
   #pragma pack(pop)

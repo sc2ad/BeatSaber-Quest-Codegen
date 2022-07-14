@@ -68,21 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: clampValue and: eventValueMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10D9098
+    // [DrawIfAttribute] Offset: 0x10E07CC
     // private System.Int32 _eventValueMin
     // Size: 0x4
     // Offset: 0x20
     int eventValueMin;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10D9140
+    // [DrawIfAttribute] Offset: 0x10E0874
     // private System.Int32 _eventValueMax
     // Size: 0x4
     // Offset: 0x24
     int eventValueMax;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D91E8
+    // [SpaceAttribute] Offset: 0x10E091C
     // private UnityEngine.Vector3 _movementVector
     // Size: 0xC
     // Offset: 0x28
@@ -95,14 +95,14 @@ namespace GlobalNamespace {
     float stepSize;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10D9234
+    // [InjectAttribute] Offset: 0x10E0968
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D9244
+    // [InjectAttribute] Offset: 0x10E0978
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -163,29 +163,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x138BD70
+    // Offset: 0x13EB3FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothStepPositionEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothStepPositionEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothStepPositionEventEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x138B85C
+    // Offset: 0x13EAEE8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x138B964
+    // Offset: 0x13EAFF0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x138BA7C
+    // Offset: 0x13EB108
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x138BB28
+    // Offset: 0x13EB1B4
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private UnityEngine.Vector3 GetPositionForValue(System.Int32 value)
-    // Offset: 0x138BC08
+    // Offset: 0x13EB294
     ::UnityEngine::Vector3 GetPositionForValue(int value);
     // private System.Void SetPosition(UnityEngine.Vector3 position)
-    // Offset: 0x138BD24
+    // Offset: 0x13EB3B0
     void SetPosition(::UnityEngine::Vector3 position);
   }; // SmoothStepPositionEventEffect
   #pragma pack(pop)

@@ -135,44 +135,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedColumn
     [[deprecated("Use field access instead!")]] int& dyn__selectedColumn();
     // public System.Void add_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x13519F4
+    // Offset: 0x13932DC
     void add_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCharacteristic(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1351A98
+    // Offset: 0x1393380
     void remove_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13520B4
+    // Offset: 0x139399C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicsTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicsTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsTableView*, creationType>()));
     }
     // private System.Void Init()
-    // Offset: 0x1351B3C
+    // Offset: 0x1393424
     void Init();
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x1351C08
+    // Offset: 0x13934F0
     void SetData(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // protected System.Void OnDestroy()
-    // Offset: 0x1351C60
+    // Offset: 0x1393548
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x1351CF4
+    // Offset: 0x13935DC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1351CFC
+    // Offset: 0x13935E4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1351DA8
+    // Offset: 0x1393690
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectColumnEvent(HMUI.TableView tableView, System.Int32 column)
-    // Offset: 0x1351F18
+    // Offset: 0x1393800
     void HandleDidSelectColumnEvent(::HMUI::TableView* tableView, int column);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x1351FD4
+    // Offset: 0x13938BC
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x1352094
+    // Offset: 0x139397C
     void SelectCellWithIdx(int idx);
   }; // BeatmapCharacteristicsTableView
   #pragma pack(pop)

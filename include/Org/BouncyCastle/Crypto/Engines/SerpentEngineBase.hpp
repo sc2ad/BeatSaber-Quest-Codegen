@@ -102,92 +102,92 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: protected System.Int32 X3
     [[deprecated("Use field access instead!")]] int& dyn_X3();
     // public System.String get_AlgorithmName()
-    // Offset: 0x240C904
+    // Offset: 0x2421D7C
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x240C94C
+    // Offset: 0x2421DC4
     bool get_IsPartialBlockOkay();
     // protected System.Void .ctor()
-    // Offset: 0x240C768
+    // Offset: 0x2421BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerpentEngineBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerpentEngineBase*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x240CB5C
+    // Offset: 0x2421FD4
     static void _cctor();
     // public System.Void Init(System.Boolean encrypting, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x240C770
+    // Offset: 0x2421BE8
     void Init(bool encrypting, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x240C954
+    // Offset: 0x2421DCC
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x240C9BC
+    // Offset: 0x2421E34
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x240CB50
+    // Offset: 0x2421FC8
     void Reset();
     // static protected System.Int32 RotateLeft(System.Int32 x, System.Int32 bits)
-    // Offset: 0x2409314
+    // Offset: 0x241E78C
     static int RotateLeft(int x, int bits);
     // static private System.Int32 RotateRight(System.Int32 x, System.Int32 bits)
-    // Offset: 0x240CB54
+    // Offset: 0x2421FCC
     static int RotateRight(int x, int bits);
     // protected System.Void Sb0(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x24093F8
+    // Offset: 0x241E870
     void Sb0(int a, int b, int c, int d);
     // protected System.Void Ib0(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C6BC
+    // Offset: 0x2421B34
     void Ib0(int a, int b, int c, int d);
     // protected System.Void Sb1(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x24093B8
+    // Offset: 0x241E830
     void Sb1(int a, int b, int c, int d);
     // protected System.Void Ib1(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C67C
+    // Offset: 0x2421AF4
     void Ib1(int a, int b, int c, int d);
     // protected System.Void Sb2(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240936C
+    // Offset: 0x241E7E4
     void Sb2(int a, int b, int c, int d);
     // protected System.Void Ib2(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C638
+    // Offset: 0x2421AB0
     void Ib2(int a, int b, int c, int d);
     // protected System.Void Sb3(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x2409320
+    // Offset: 0x241E798
     void Sb3(int a, int b, int c, int d);
     // protected System.Void Ib3(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C5F0
+    // Offset: 0x2421A68
     void Ib3(int a, int b, int c, int d);
     // protected System.Void Sb4(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x2409508
+    // Offset: 0x241E980
     void Sb4(int a, int b, int c, int d);
     // protected System.Void Ib4(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C5AC
+    // Offset: 0x2421A24
     void Ib4(int a, int b, int c, int d);
     // protected System.Void Sb5(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x24094C0
+    // Offset: 0x241E938
     void Sb5(int a, int b, int c, int d);
     // protected System.Void Ib5(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C564
+    // Offset: 0x24219DC
     void Ib5(int a, int b, int c, int d);
     // protected System.Void Sb6(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x2409480
+    // Offset: 0x241E8F8
     void Sb6(int a, int b, int c, int d);
     // protected System.Void Ib6(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C520
+    // Offset: 0x2421998
     void Ib6(int a, int b, int c, int d);
     // protected System.Void Sb7(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x2409438
+    // Offset: 0x241E8B0
     void Sb7(int a, int b, int c, int d);
     // protected System.Void Ib7(System.Int32 a, System.Int32 b, System.Int32 c, System.Int32 d)
-    // Offset: 0x240C438
+    // Offset: 0x24218B0
     void Ib7(int a, int b, int c, int d);
     // protected System.Void LT()
-    // Offset: 0x240AAC0
+    // Offset: 0x241FF38
     void LT();
     // protected System.Void InverseLT()
-    // Offset: 0x240C484
+    // Offset: 0x24218FC
     void InverseLT();
     // protected System.Int32[] MakeWorkingKey(System.Byte[] key)
     // Offset: 0xFFFFFFFFFFFFFFFF

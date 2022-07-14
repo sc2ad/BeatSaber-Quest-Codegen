@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D1220
+    // [InjectAttribute] Offset: 0x10D89A0
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // public System.Void .ctor()
-    // Offset: 0x141BCCC
+    // Offset: 0x141190C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelAnalytics*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x141B438
+    // Offset: 0x1411078
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x141B56C
+    // Offset: 0x14111AC
     void OnDestroy();
     // private System.Void HandleMultiplayerLevelDidFinish(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
-    // Offset: 0x141B6A0
+    // Offset: 0x14112E0
     void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
   }; // MultiplayerLevelAnalytics
   #pragma pack(pop)

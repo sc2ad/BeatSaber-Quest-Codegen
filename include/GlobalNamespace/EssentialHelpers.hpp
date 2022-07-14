@@ -38,10 +38,10 @@ namespace GlobalNamespace {
   class EssentialHelpers : public ::Il2CppObject {
     public:
     // static public System.Double get_CurrentTimeStamp()
-    // Offset: 0x15A25D4
+    // Offset: 0x15ACA80
     static double get_CurrentTimeStamp();
     // static public System.Void SafeDestroy(UnityEngine.Object obj)
-    // Offset: 0x15A2698
+    // Offset: 0x15ACB44
     static void SafeDestroy(::UnityEngine::Object* obj);
     // static public T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFFFFFFFFFF

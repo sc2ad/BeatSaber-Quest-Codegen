@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E3D40
+    // [SpaceAttribute] Offset: 0x10EB54C
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E3D88
+    // [SpaceAttribute] Offset: 0x10EB594
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -94,14 +94,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3DD0
+    // [InjectAttribute] Offset: 0x10EB5DC
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3DE0
+    // [InjectAttribute] Offset: 0x10EB5EC
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
@@ -148,47 +148,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _countdownEndTime
     [[deprecated("Use field access instead!")]] float& dyn__countdownEndTime();
     // public System.Boolean get_countdownShown()
-    // Offset: 0x133DE08
+    // Offset: 0x1358024
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x133DE10
+    // Offset: 0x135802C
     void set_countdownShown(bool value);
     // public System.Void .ctor()
-    // Offset: 0x133E3C4
+    // Offset: 0x13585E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CenterStageScreenController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CenterStageScreenController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CenterStageScreenController*, creationType>()));
     }
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x133DE1C
+    // Offset: 0x1358038
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0x133DE58
+    // Offset: 0x1358074
     void Show();
     // public System.Void Hide()
-    // Offset: 0x133E168
+    // Offset: 0x1358384
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x133E2E4
+    // Offset: 0x1358500
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x133E29C
+    // Offset: 0x13584B8
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x133E32C
+    // Offset: 0x1358548
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x133E394
+    // Offset: 0x13585B0
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x133DFE8
+    // Offset: 0x1358204
     void ShowLobbyColorPreset(bool animated);
     // private System.Void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x133E3C0
+    // Offset: 0x13585DC
     void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void SetNextGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x133E014
+    // Offset: 0x1358230
     void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
   }; // CenterStageScreenController
   #pragma pack(pop)

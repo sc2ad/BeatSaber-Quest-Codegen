@@ -56,22 +56,22 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installMethod
     [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn__installMethod();
     // public System.Void .ctor(System.Action`1<Zenject.DiContainer> installMethod)
-    // Offset: 0x17652F4
+    // Offset: 0x176F6E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ActionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionInstaller*, creationType>(installMethod)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17653B4
+    // Offset: 0x176F7A0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x1765358
+    // Offset: 0x176F744
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x176545C
+    // Offset: 0x176F848
     // Implemented from: Zenject.Installer`1
     // Base method: Zenject.InjectTypeInfo Installer_1::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

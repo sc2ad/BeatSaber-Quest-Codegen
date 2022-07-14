@@ -356,68 +356,68 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean started
     [[deprecated("Use field access instead!")]] bool& dyn_started();
     // public RootMotion.FinalIK.FullBodyBipedEffector get_effectorType()
-    // Offset: 0x2394D88
+    // Offset: 0x23A9200
     ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
     // private System.Void set_effectorType(RootMotion.FinalIK.FullBodyBipedEffector value)
-    // Offset: 0x2394D90
+    // Offset: 0x23A9208
     void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
     // public System.Boolean get_isPaused()
-    // Offset: 0x2394D98
+    // Offset: 0x23A9210
     bool get_isPaused();
     // private System.Void set_isPaused(System.Boolean value)
-    // Offset: 0x2394DA0
+    // Offset: 0x23A9218
     void set_isPaused(bool value);
     // public RootMotion.FinalIK.InteractionObject get_interactionObject()
-    // Offset: 0x2394DAC
+    // Offset: 0x23A9224
     ::RootMotion::FinalIK::InteractionObject* get_interactionObject();
     // private System.Void set_interactionObject(RootMotion.FinalIK.InteractionObject value)
-    // Offset: 0x2394DB4
+    // Offset: 0x23A922C
     void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
     // public System.Boolean get_inInteraction()
-    // Offset: 0x2394DBC
+    // Offset: 0x23A9234
     bool get_inInteraction();
     // public System.Single get_progress()
-    // Offset: 0x239777C
+    // Offset: 0x23ABBF4
     float get_progress();
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
-    // Offset: 0x2394E2C
+    // Offset: 0x23A92A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionEffector*, creationType>(effectorType)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.InteractionSystem interactionSystem)
-    // Offset: 0x2394EB0
+    // Offset: 0x23A9328
     void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
     // private System.Void StoreDefaults()
-    // Offset: 0x2394F54
+    // Offset: 0x23A93CC
     void StoreDefaults();
     // public System.Boolean ResetToDefaults(System.Single speed)
-    // Offset: 0x23950CC
+    // Offset: 0x23A9544
     bool ResetToDefaults(float speed);
     // public System.Boolean Pause()
-    // Offset: 0x239557C
+    // Offset: 0x23A99F4
     bool Pause();
     // public System.Boolean Resume()
-    // Offset: 0x239593C
+    // Offset: 0x23A9DB4
     bool Resume();
     // public System.Boolean Start(RootMotion.FinalIK.InteractionObject interactionObject, System.String tag, System.Single fadeInTime, System.Boolean interrupt)
-    // Offset: 0x2395990
+    // Offset: 0x23A9E08
     bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float fadeInTime, bool interrupt);
     // public System.Void Update(UnityEngine.Transform root, System.Single speed)
-    // Offset: 0x23964E4
+    // Offset: 0x23AA95C
     void Update(::UnityEngine::Transform* root, float speed);
     // private System.Void TriggerUntriggeredEvents(System.Boolean checkTime, out System.Boolean pickUp, out System.Boolean pause)
-    // Offset: 0x2396FC4
+    // Offset: 0x23AB43C
     void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
     // private System.Void PickUp(UnityEngine.Transform root)
-    // Offset: 0x23971EC
+    // Offset: 0x23AB664
     void PickUp(::UnityEngine::Transform* root);
     // public System.Boolean Stop()
-    // Offset: 0x2397628
+    // Offset: 0x23ABAA0
     bool Stop();
     // public System.Void OnPostFBBIK()
-    // Offset: 0x2397C64
+    // Offset: 0x23AC0DC
     void OnPostFBBIK();
   }; // RootMotion.FinalIK.InteractionEffector
   #pragma pack(pop)

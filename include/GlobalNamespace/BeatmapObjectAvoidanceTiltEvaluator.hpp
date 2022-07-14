@@ -86,14 +86,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentAcceleration
     [[deprecated("Use field access instead!")]] float& dyn__currentAcceleration();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
-    // Offset: 0x150CDF0
+    // Offset: 0x1515FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Single GetTiltAngle()
-    // Offset: 0x150CE54
+    // Offset: 0x151605C
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
   #pragma pack(pop)

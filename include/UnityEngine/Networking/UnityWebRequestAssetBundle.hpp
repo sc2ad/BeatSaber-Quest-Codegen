@@ -36,13 +36,13 @@ namespace UnityEngine::Networking {
   class UnityWebRequestAssetBundle : public ::Il2CppObject {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
-    // Offset: 0x2AE6C04
+    // Offset: 0x2AFE08C
     static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, System.UInt32 crc)
-    // Offset: 0x2AE6C0C
+    // Offset: 0x2AFE094
     static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint crc);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, UnityEngine.CachedAssetBundle cachedAssetBundle, System.UInt32 crc)
-    // Offset: 0x2AE6CB0
+    // Offset: 0x2AFE138
     static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
   }; // UnityEngine.Networking.UnityWebRequestAssetBundle
   #pragma pack(pop)

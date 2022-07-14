@@ -25,7 +25,7 @@ namespace Unity {
   class ThrowStub_ : public ::System::ObjectDisposedException {
     public:
     // static public System.Void ThrowNotSupportedException()
-    // Offset: 0x2AE7484
+    // Offset: 0x2AFF90C
     static void ThrowNotSupportedException();
   }; // Unity.ThrowStub
   #pragma pack(pop)

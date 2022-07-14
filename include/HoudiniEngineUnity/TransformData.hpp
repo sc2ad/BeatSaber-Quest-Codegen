@@ -98,13 +98,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Transform parent
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_parent();
     // public System.Void .ctor(UnityEngine.Transform other)
-    // Offset: 0x2A8EA90
+    // Offset: 0x2AA8F18
     TransformData(::UnityEngine::Transform* other);
     // public System.Void CopyTo(UnityEngine.Transform other, System.Boolean copyParent)
-    // Offset: 0x2A8EB2C
+    // Offset: 0x2AA8FB4
     void CopyTo(::UnityEngine::Transform* other, bool copyParent);
     // public System.Void CopyToLocal(UnityEngine.Transform other, System.Boolean copyParent)
-    // Offset: 0x2A8EBBC
+    // Offset: 0x2AA9044
     void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
   }; // HoudiniEngineUnity.TransformData
   #pragma pack(pop)

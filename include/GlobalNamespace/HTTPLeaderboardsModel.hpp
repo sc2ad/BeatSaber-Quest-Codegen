@@ -75,14 +75,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11
     struct $SendLevelScoreResultAsync$d__11;
     public:
-    // [InjectAttribute] Offset: 0x10D53EC
+    // [InjectAttribute] Offset: 0x10DCB7C
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
     // Offset: 0x10
     ::OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
     // Field size check
     static_assert(sizeof(::OnlineServices::API::IUserLoginDtoDataSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D53FC
+    // [InjectAttribute] Offset: 0x10DCB8C
     // private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
     // Size: 0x8
     // Offset: 0x18
@@ -135,29 +135,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _platformUserId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__platformUserId();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x136B930
+    // Offset: 0x139C524
     void add_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x136B9D4
+    // Offset: 0x139C5C8
     void remove_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x136C074
+    // Offset: 0x139CC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HTTPLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsModel*, creationType>()));
     }
     // public System.Void LogoutAsync()
-    // Offset: 0x136BA78
+    // Offset: 0x139C66C
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x136BB2C
+    // Offset: 0x139C720
     ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x136BE0C
+    // Offset: 0x139CA00
     ::System::Threading::Tasks::Task_1<::OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x136BF3C
+    // Offset: 0x139CB30
     ::System::Threading::Tasks::Task_1<::OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(::OnlineServices::LevelScoreResultsData levelResultsData, ::System::Threading::CancellationToken cancellationToken);
   }; // HTTPLeaderboardsModel
   #pragma pack(pop)

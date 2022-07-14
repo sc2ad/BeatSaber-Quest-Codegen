@@ -68,32 +68,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>*& dyn__pendingStatesByPort();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x262B25C
+    // Offset: 0x263F6D4
     bool get_isEmpty();
     // public System.Void .ctor()
-    // Offset: 0x262AFA8
+    // Offset: 0x263F420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::PendingEncryptionStateList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::PendingEncryptionStateList*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x262B2C0
+    // Offset: 0x263F738
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
-    // Offset: 0x262B44C
+    // Offset: 0x263F8C4
     ::ArrayW<::GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x262B5D8
+    // Offset: 0x263FA50
     bool TryGetEncryptionState(int port, ByRef<::GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
     // public System.Void Add(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x262B018
+    // Offset: 0x263F490
     void Add(int port, ::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Boolean Remove(System.Int32 port)
-    // Offset: 0x262B75C
+    // Offset: 0x263FBD4
     bool Remove(int port);
     // public System.Boolean Remove(System.Int32 port, EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x262B7C4
+    // Offset: 0x263FC3C
     bool Remove(int port, ::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
   }; // PacketEncryptionLayer/PendingEncryptionStateList
   #pragma pack(pop)

@@ -367,30 +367,30 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single endSongTime
     [[deprecated("Use field access instead!")]] float& dyn_endSongTime();
     // public System.Void .ctor()
-    // Offset: 0x29FE4D8
+    // Offset: 0x2A15950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>()));
     }
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 multipliedScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 maxCutScore, System.Int32 totalCutScore, System.Int32 goodCutsCountForNotesWithFullScoreScoringType, System.Single averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, System.Single averageCutScoreForNotesWithFullScoreScoringType, System.Int32 maxCombo, System.Single endSongTime)
-    // Offset: 0x29FE4E0
+    // Offset: 0x2A15958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int multipliedScore, ::GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int maxCutScore, int totalCutScore, int goodCutsCountForNotesWithFullScoreScoringType, float averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float averageCutScoreForNotesWithFullScoreScoringType, int maxCombo, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, multipliedScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, maxCutScore, totalCutScore, goodCutsCountForNotesWithFullScoreScoringType, averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, averageCutScoreForNotesWithFullScoreScoringType, maxCombo, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x29FE628
+    // Offset: 0x2A15AA0
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29FE744
+    // Offset: 0x2A15BBC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FE9EC
+    // Offset: 0x2A15E64
     ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FE9F4
+    // Offset: 0x2A15E6C
     static ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LevelCompletionResults
   #pragma pack(pop)

@@ -85,13 +85,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<BGNet.Core.Messages.ClientHelloWithCookieRequest> get_pool()
-    // Offset: 0x1545004
+    // Offset: 0x154E20C
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ClientHelloWithCookieRequest*>* get_pool();
     // public BGNet.Core.Messages.ClientHelloWithCookieRequest Init(System.UInt32 certificateResponseId, System.Byte[] random, System.Byte[] cookie)
-    // Offset: 0x15477D8
+    // Offset: 0x15509E0
     ::BGNet::Core::Messages::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> cookie);
     // public System.Void .ctor()
-    // Offset: 0x154D328
+    // Offset: 0x1556530
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,17 +100,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloWithCookieRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x154CEB8
+    // Offset: 0x15560C0
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x154D02C
+    // Offset: 0x1556234
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x154D2AC
+    // Offset: 0x15564B4
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

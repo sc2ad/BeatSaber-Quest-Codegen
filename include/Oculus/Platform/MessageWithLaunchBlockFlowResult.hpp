@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithLaunchBlockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchBlockFlowResult*> {
     public:
     // protected Oculus.Platform.Models.LaunchBlockFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19E0984
+    // Offset: 0x19EAD70
     ::Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19E08E0
+    // Offset: 0x19EACCC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchBlockFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchBlockFlowResult GetLaunchBlockFlowResult()
-    // Offset: 0x19E0940
+    // Offset: 0x19EAD2C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchBlockFlowResult Message::GetLaunchBlockFlowResult()
     ::Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();

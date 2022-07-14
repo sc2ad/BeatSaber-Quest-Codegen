@@ -84,25 +84,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _linesWidth
     [[deprecated("Use field access instead!")]] float& dyn__linesWidth();
     // public TextureEffectSO get_textureEffect()
-    // Offset: 0x1E6D580
+    // Offset: 0x1E7B96C
     ::GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
-    // Offset: 0x1E6D584
+    // Offset: 0x1E7B970
     int get_textureWidth();
     // public System.Int32 get_textureHeight()
-    // Offset: 0x1E6D58C
+    // Offset: 0x1E7B978
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
-    // Offset: 0x1E6D594
+    // Offset: 0x1E7B980
     ::UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
-    // Offset: 0x1E6D59C
+    // Offset: 0x1E7B988
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
-    // Offset: 0x1E6D5A4
+    // Offset: 0x1E7B990
     ::GlobalNamespace::ToneMapping get_toneMapping();
     // protected System.Void .ctor()
-    // Offset: 0x1E6D5AC
+    // Offset: 0x1E7B998
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

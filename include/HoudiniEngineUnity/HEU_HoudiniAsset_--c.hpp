@@ -62,26 +62,26 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_MaterialData,System.Boolean> <>9__364_2
     static void _set_$$9__364_2(::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1882EF4
+    // Offset: 0x188C2E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1882F58
+    // Offset: 0x188C344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAsset::$$c*, creationType>()));
     }
     // System.Boolean <ClearInvalidCurves>b__309_0(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x1882F60
+    // Offset: 0x188C34C
     bool $ClearInvalidCurves$b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_0(HoudiniEngineUnity.HEU_ObjectNode node)
-    // Offset: 0x1882FCC
+    // Offset: 0x188C3B8
     bool $ClearInvalidLists$b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
     // System.Boolean <ClearInvalidLists>b__364_1(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x1883038
+    // Offset: 0x188C424
     bool $ClearInvalidLists$b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_2(HoudiniEngineUnity.HEU_MaterialData data)
-    // Offset: 0x18830A4
+    // Offset: 0x188C490
     bool $ClearInvalidLists$b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c
   #pragma pack(pop)

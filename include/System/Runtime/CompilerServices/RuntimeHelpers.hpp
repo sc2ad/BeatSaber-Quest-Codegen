@@ -38,19 +38,19 @@ namespace System::Runtime::CompilerServices {
   class RuntimeHelpers : public ::Il2CppObject {
     public:
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x1D79724
+    // Offset: 0x1D87B10
     static int get_OffsetToStringData();
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x1D79684
+    // Offset: 0x1D87A70
     static void InitializeArray(::System::Array* array, ::System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x1D79688
+    // Offset: 0x1D87A74
     static void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x1D79728
+    // Offset: 0x1D87B14
     static int GetHashCode(::Il2CppObject* o);
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x1D79730
+    // Offset: 0x1D87B1C
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -195,105 +195,105 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* loadingEnvironment;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DBF1C
+    // [SpaceAttribute] Offset: 0x10E3660
     // private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelSceneSetupData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBF54
+    // [InjectAttribute] Offset: 0x10E3698
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBF64
+    // [InjectAttribute] Offset: 0x10E36A8
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBF74
+    // [InjectAttribute] Offset: 0x10E36B8
     // private readonly SceneStartSyncController _sceneStartSyncController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SceneStartSyncController* sceneStartSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SceneStartSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBF84
+    // [InjectAttribute] Offset: 0x10E36C8
     // private readonly SongStartSyncController _songStartSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::SongStartSyncController* songStartSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongStartSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBF94
+    // [InjectAttribute] Offset: 0x10E36D8
     // private readonly MultiplayerLevelFinishedController _multiplayerLevelFinishedController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerLevelFinishedController* multiplayerLevelFinishedController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelFinishedController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFA4
+    // [InjectAttribute] Offset: 0x10E36E8
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFB4
+    // [InjectAttribute] Offset: 0x10E36F8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFC4
+    // [InjectAttribute] Offset: 0x10E3708
     // private readonly MultiplayerIntroAnimationController _introAnimationController
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerIntroAnimationController* introAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerIntroAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFD4
+    // [InjectAttribute] Offset: 0x10E3718
     // private readonly MultiplayerOutroAnimationController _outroAnimationController
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::MultiplayerOutroAnimationController* outroAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerOutroAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFE4
+    // [InjectAttribute] Offset: 0x10E3728
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DBFF4
+    // [InjectAttribute] Offset: 0x10E3738
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC004
+    // [InjectAttribute] Offset: 0x10E3748
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC014
+    // [InjectAttribute] Offset: 0x10E3758
     // private readonly Zenject.DiContainer _diContainer
     // Size: 0x8
     // Offset: 0x88
     ::Zenject::DiContainer* diContainer;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DC024
+    // [InjectAttribute] Offset: 0x10E3768
     // private readonly MultiplayerBadgesProvider _badgesProvider
     // Size: 0x8
     // Offset: 0x90
@@ -420,86 +420,86 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _timeoutGetGameStateCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__timeoutGetGameStateCoroutine();
     // public MultiplayerController/State get_state()
-    // Offset: 0x1412224
+    // Offset: 0x1407E64
     ::GlobalNamespace::MultiplayerController::State get_state();
     // public System.Void add_stateChangedEvent(System.Action`1<MultiplayerController/State> value)
-    // Offset: 0x141222C
+    // Offset: 0x1407E6C
     void add_stateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerController::State>* value);
     // public System.Void remove_stateChangedEvent(System.Action`1<MultiplayerController/State> value)
-    // Offset: 0x14122D0
+    // Offset: 0x1407F10
     void remove_stateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerController::State>* value);
     // public System.Void .ctor()
-    // Offset: 0x1415268
+    // Offset: 0x140AEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1412374
+    // Offset: 0x1407FB4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1412B60
+    // Offset: 0x14087A0
     void OnDestroy();
     // private System.Void HandleSetMultiplayerGameState(System.String userId, MultiplayerGameState gameState)
-    // Offset: 0x1413158
+    // Offset: 0x1408D98
     void HandleSetMultiplayerGameState(::StringW userId, ::GlobalNamespace::MultiplayerGameState gameState);
     // private System.Void CreateAndBindPlayersSpecificSettingsAtGameStartModel()
-    // Offset: 0x141269C
+    // Offset: 0x14082DC
     void CreateAndBindPlayersSpecificSettingsAtGameStartModel();
     // private System.Void StartSceneLoadSync()
-    // Offset: 0x1413310
+    // Offset: 0x1408F50
     void StartSceneLoadSync();
     // private System.Collections.IEnumerator PerformSongStartSync(MultiplayerPlayerStartState localPlayerSyncState)
-    // Offset: 0x14134C4
+    // Offset: 0x1409104
     ::System::Collections::IEnumerator* PerformSongStartSync(::GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState);
     // private System.Void HandleDidSwitchPlayerToInactive()
-    // Offset: 0x1413570
+    // Offset: 0x14091B0
     void HandleDidSwitchPlayerToInactive();
     // private System.Void HandleSceneStartSyncControllerSyncStartDidSuccess(System.String sessionGameId)
-    // Offset: 0x14137E8
+    // Offset: 0x1409428
     void HandleSceneStartSyncControllerSyncStartDidSuccess(::StringW sessionGameId);
     // private System.Void HandleSceneStartSyncControllerSyncStartDidReceiveTooLate(System.String sessionGameId)
-    // Offset: 0x141381C
+    // Offset: 0x140945C
     void HandleSceneStartSyncControllerSyncStartDidReceiveTooLate(::StringW sessionGameId);
     // private System.Void HandleSceneStartSyncControllerSyncStartDidFail()
-    // Offset: 0x1413850
+    // Offset: 0x1409490
     void HandleSceneStartSyncControllerSyncStartDidFail();
     // private System.Void HandleSongStartSyncControllerSyncStartSuccess(System.Single introAnimationStartSyncTime)
-    // Offset: 0x1413B18
+    // Offset: 0x1409758
     void HandleSongStartSyncControllerSyncStartSuccess(float introAnimationStartSyncTime);
     // private System.Void HandleSongStartSyncControllerSyncResume(System.Single introAnimationStartSyncTime)
-    // Offset: 0x1414AE8
+    // Offset: 0x140A728
     void HandleSongStartSyncControllerSyncResume(float introAnimationStartSyncTime);
     // private System.Void HandleSongStartSyncControllerSyncStartFailed()
-    // Offset: 0x1414F40
+    // Offset: 0x140AB80
     void HandleSongStartSyncControllerSyncStartFailed();
     // private System.Void StartGameplay(System.Single introAnimationStartSyncTime)
-    // Offset: 0x14142F4
+    // Offset: 0x1409F34
     void StartGameplay(float introAnimationStartSyncTime);
     // private System.Void HandleAllResultsCollected(MultiplayerLevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayerResults)
-    // Offset: 0x1414FF8
+    // Offset: 0x140AC38
     void HandleAllResultsCollected(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayerResults);
     // private System.Void EndGameplay(MultiplayerLevelCompletionResults localPlayerResults, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayerResults)
-    // Offset: 0x14138EC
+    // Offset: 0x140952C
     void EndGameplay(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayerResults);
     // private System.Void HandleOutroAnimationDidFinish()
-    // Offset: 0x1414FFC
+    // Offset: 0x140AC3C
     void HandleOutroAnimationDidFinish();
     // private System.Void HandleRpcReturnToMenu(System.String userId)
-    // Offset: 0x1415030
+    // Offset: 0x140AC70
     void HandleRpcReturnToMenu(::StringW userId);
     // private System.Void HandleDisconnected(DisconnectedReason disconnectedReason)
-    // Offset: 0x14151B8
+    // Offset: 0x140ADF8
     void HandleDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void ChangeState(MultiplayerController/State newState)
-    // Offset: 0x1412AE8
+    // Offset: 0x1408728
     void ChangeState(::GlobalNamespace::MultiplayerController::State newState);
     // private System.Single GetCurrentSongTime(System.Single songStartSyncTime)
-    // Offset: 0x1413720
+    // Offset: 0x1409360
     float GetCurrentSongTime(float songStartSyncTime);
     // private System.Single GetSongStartSyncTime(System.Single introAnimationStartSyncTime)
-    // Offset: 0x14136E4
+    // Offset: 0x1409324
     float GetSongStartSyncTime(float introAnimationStartSyncTime);
   }; // MultiplayerController
   #pragma pack(pop)

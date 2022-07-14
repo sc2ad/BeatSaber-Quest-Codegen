@@ -78,32 +78,32 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Collections.ArrayList _list
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__list();
     // public System.Byte[] get_PrivateKey()
-    // Offset: 0x1F53510
+    // Offset: 0x1F61988
     ::ArrayW<uint8_t> get_PrivateKey();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1F53298
+    // Offset: 0x1F61710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8_::PrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8_::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8_::PrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1F532C4
+    // Offset: 0x1F6173C
     void Decode(::ArrayW<uint8_t> data);
     // static private System.Byte[] RemoveLeadingZero(System.Byte[] bigInt)
-    // Offset: 0x1F5358C
+    // Offset: 0x1F61A04
     static ::ArrayW<uint8_t> RemoveLeadingZero(::ArrayW<uint8_t> bigInt);
     // static private System.Byte[] Normalize(System.Byte[] bigInt, System.Int32 length)
-    // Offset: 0x1F53638
+    // Offset: 0x1F61AB0
     static ::ArrayW<uint8_t> Normalize(::ArrayW<uint8_t> bigInt, int length);
     // static public System.Security.Cryptography.RSA DecodeRSA(System.Byte[] keypair)
-    // Offset: 0x1F536EC
+    // Offset: 0x1F61B64
     static ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> keypair);
     // static public System.Security.Cryptography.DSA DecodeDSA(System.Byte[] privateKey, System.Security.Cryptography.DSAParameters dsaParameters)
-    // Offset: 0x1F53AA4
+    // Offset: 0x1F61F1C
     static ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
     // public System.Void .ctor()
-    // Offset: 0x1F53228
+    // Offset: 0x1F616A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

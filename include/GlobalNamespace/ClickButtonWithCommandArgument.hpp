@@ -67,14 +67,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public System.Void .ctor()
-    // Offset: 0x159CF30
+    // Offset: 0x15A73DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClickButtonWithCommandArgument* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ClickButtonWithCommandArgument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClickButtonWithCommandArgument*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x159CE94
+    // Offset: 0x15A7340
     ::System::Collections::IEnumerator* Start();
   }; // ClickButtonWithCommandArgument
   #pragma pack(pop)

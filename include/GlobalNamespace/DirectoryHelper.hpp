@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class DirectoryHelper : public ::Il2CppObject {
     public:
     // static public System.Boolean IsDirectoryWritable(System.String path)
-    // Offset: 0x14093F0
+    // Offset: 0x1493584
     static bool IsDirectoryWritable(::StringW path);
   }; // DirectoryHelper
   #pragma pack(pop)

@@ -173,32 +173,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _selectedCellHasOptions
     [[deprecated("Use field access instead!")]] bool& dyn__selectedCellHasOptions();
     // public System.Void .ctor()
-    // Offset: 0x14AAF6C
+    // Offset: 0x14C9A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayersTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x14A9F7C
+    // Offset: 0x14C8A30
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x14A9F84
+    // Offset: 0x14C8A38
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x14A9FD4
+    // Offset: 0x14C8A88
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
-    // Offset: 0x14AA594
+    // Offset: 0x14C9048
     void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
     // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
-    // Offset: 0x14AAE48
+    // Offset: 0x14C98FC
     void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
     // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
-    // Offset: 0x14AAF68
+    // Offset: 0x14C9A1C
     void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
     // static private System.Boolean HasVisibleOptions(INetworkPlayer player)
-    // Offset: 0x14AAAB0
+    // Offset: 0x14C9564
     static bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
   }; // NetworkPlayersTableView
   #pragma pack(pop)

@@ -130,10 +130,10 @@ namespace OnlineServices {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x1359B74
+    // Offset: 0x13382F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x135A390
+    // Offset: 0x1338B14
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.LevelScoreUploader/OnlineServices.<SendLevelScoreResultAsync>d__13
   // WARNING Not writing size check since size may be invalid!

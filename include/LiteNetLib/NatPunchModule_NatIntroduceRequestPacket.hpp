@@ -50,19 +50,19 @@ namespace LiteNetLib {
     // Get instance field reference: private System.String <Token>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x21A798C
+    // Offset: 0x21B4E04
     ::System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x21A7994
+    // Offset: 0x21B4E0C
     void set_Internal(::System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x21A799C
+    // Offset: 0x21B4E14
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x21A79A4
+    // Offset: 0x21B4E1C
     void set_Token(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x21A725C
+    // Offset: 0x21B46D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceRequestPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::.ctor");

@@ -308,7 +308,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean smallCubes
     [[deprecated("Use field access instead!")]] bool& dyn_smallCubes();
     // public System.Void .ctor()
-    // Offset: 0x13D7F40
+    // Offset: 0x13600A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::GameplayModifiers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::GameplayModifiers::.ctor");

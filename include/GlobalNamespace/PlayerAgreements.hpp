@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kFirstPrivacyPolicyVersion
     static void _set_kFirstPrivacyPolicyVersion(int value);
     // static field const value: static private System.Int32 kCurrentEulaVersion
-    static constexpr const int kCurrentEulaVersion = 2;
+    static constexpr const int kCurrentEulaVersion = 3;
     // Get static field: static private System.Int32 kCurrentEulaVersion
     static int _get_kCurrentEulaVersion();
     // Set static field: static private System.Int32 kCurrentEulaVersion
     static void _set_kCurrentEulaVersion(int value);
     // static field const value: static private System.Int32 kCurrentPrivacyPolicyVersion
-    static constexpr const int kCurrentPrivacyPolicyVersion = 2;
+    static constexpr const int kCurrentPrivacyPolicyVersion = 3;
     // Get static field: static private System.Int32 kCurrentPrivacyPolicyVersion
     static int _get_kCurrentPrivacyPolicyVersion();
     // Set static field: static private System.Int32 kCurrentPrivacyPolicyVersion
@@ -85,45 +85,45 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x13690B8
+    // Offset: 0x134789C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 eulaVersion, System.Int32 privacyPolicyVersion, System.Int32 healthAndSafetyVersion)
-    // Offset: 0x13690E4
+    // Offset: 0x13478C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
-    // Offset: 0x1369124
+    // Offset: 0x1347908
     void AgreeToEula();
     // public System.Void AgreeToPrivacyPolicy()
-    // Offset: 0x1369130
+    // Offset: 0x1347914
     void AgreeToPrivacyPolicy();
     // public System.Void AgreeToHealthAndSafety()
-    // Offset: 0x136913C
+    // Offset: 0x1347920
     void AgreeToHealthAndSafety();
     // public System.Boolean AgreedToAnyPreviousEula()
-    // Offset: 0x1369148
+    // Offset: 0x134792C
     bool AgreedToAnyPreviousEula();
     // public System.Boolean AgreedToAnyPreviousPrivacyPolicy()
-    // Offset: 0x1369164
+    // Offset: 0x1347948
     bool AgreedToAnyPreviousPrivacyPolicy();
     // public System.Boolean AgreedToAnyPreviousHealthAndSafety()
-    // Offset: 0x1369180
+    // Offset: 0x1347964
     bool AgreedToAnyPreviousHealthAndSafety();
     // public System.Boolean AgreedToEula()
-    // Offset: 0x136918C
+    // Offset: 0x1347970
     bool AgreedToEula();
     // public System.Boolean AgreedToPrivacyPolicy()
-    // Offset: 0x136919C
+    // Offset: 0x1347980
     bool AgreedToPrivacyPolicy();
     // public System.Boolean AgreedToHealthAndSafety()
-    // Offset: 0x13691AC
+    // Offset: 0x1347990
     bool AgreedToHealthAndSafety();
   }; // PlayerAgreements
   #pragma pack(pop)

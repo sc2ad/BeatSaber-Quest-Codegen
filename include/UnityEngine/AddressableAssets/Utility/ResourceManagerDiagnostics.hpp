@@ -74,23 +74,23 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AddressableAssets.Utility.DiagnosticInfo> m_cachedDiagnosticInfo
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& dyn_m_cachedDiagnosticInfo();
     // public System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x2AB47D4
+    // Offset: 0x2ACDC5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerDiagnostics* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerDiagnostics*, creationType>(resourceManager)));
     }
     // System.Int32 SumDependencyNameHashCodes(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x2AB48A4
+    // Offset: 0x2ACDD2C
     int SumDependencyNameHashCodes(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // System.Int32 CalculateHashCode(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
-    // Offset: 0x2AB4A60
+    // Offset: 0x2ACDEE8
     int CalculateHashCode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
     // private System.Void OnResourceManagerDiagnosticEvent(UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext eventContext)
-    // Offset: 0x2AB4B58
+    // Offset: 0x2ACDFE0
     void OnResourceManagerDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext eventContext);
     // public System.Void Dispose()
-    // Offset: 0x2AB4E2C
+    // Offset: 0x2ACE2B4
     void Dispose();
   }; // UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics
   #pragma pack(pop)

@@ -55,29 +55,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <goStraightToEditor>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$goStraightToEditor$k__BackingField();
     // public System.Boolean get_goStraightToEditor()
-    // Offset: 0x14FF740
+    // Offset: 0x1508948
     bool get_goStraightToEditor();
     // private System.Void set_goStraightToEditor(System.Boolean value)
-    // Offset: 0x14FF748
+    // Offset: 0x1508950
     void set_goStraightToEditor(bool value);
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x14FF5F8
+    // Offset: 0x1508800
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)
-    // Offset: 0x14FF69C
+    // Offset: 0x15088A4
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14FF838
+    // Offset: 0x1508A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEditorScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(System.Boolean goStraightToEditor)
-    // Offset: 0x14FF754
+    // Offset: 0x150895C
     void Init(bool goStraightToEditor);
     // public System.Void Finish()
-    // Offset: 0x14FF7D4
+    // Offset: 0x15089DC
     void Finish();
   }; // BeatmapEditorScenesTransitionSetupDataSO
   #pragma pack(pop)

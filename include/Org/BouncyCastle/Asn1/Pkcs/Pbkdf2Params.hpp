@@ -91,35 +91,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier prf
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_prf();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1CC05EC
+    // Offset: 0x1CCE9D8
     ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x1CC0608
+    // Offset: 0x1CCE9F4
     ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x1CC061C
+    // Offset: 0x1CCEA08
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x1CC06A8
+    // Offset: 0x1CCEA94
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1CC0320
+    // Offset: 0x1CCE70C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CC08A0
+    // Offset: 0x1CCEC8C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x1CC0098
+    // Offset: 0x1CCE484
     static ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1CC05CC
+    // Offset: 0x1CCE9B8
     ::ArrayW<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1CC071C
+    // Offset: 0x1CCEB08
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

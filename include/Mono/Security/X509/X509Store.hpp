@@ -87,35 +87,35 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Boolean _newFormat
     [[deprecated("Use field access instead!")]] bool& dyn__newFormat();
     // public Mono.Security.X509.X509CertificateCollection get_Certificates()
-    // Offset: 0x2AA9AF8
+    // Offset: 0x2AC2F80
     ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
     // public System.Collections.ArrayList get_Crls()
-    // Offset: 0x2AA9CFC
+    // Offset: 0x2AC3184
     ::System::Collections::ArrayList* get_Crls();
     // System.Void .ctor(System.String path, System.Boolean crl, System.Boolean newFormat)
-    // Offset: 0x2AA9AAC
+    // Offset: 0x2AC2F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::StringW path, bool crl, bool newFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(path, crl, newFormat)));
     }
     // private System.Byte[] Load(System.String filename)
-    // Offset: 0x2AA9F54
+    // Offset: 0x2AC33DC
     ::ArrayW<uint8_t> Load(::StringW filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
-    // Offset: 0x2AAA0CC
+    // Offset: 0x2AC3554
     ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
     // private Mono.Security.X509.X509Crl LoadCrl(System.String filename)
-    // Offset: 0x2AAA13C
+    // Offset: 0x2AC35C4
     ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
     // private System.Boolean CheckStore(System.String path, System.Boolean throwException)
-    // Offset: 0x2AAA1AC
+    // Offset: 0x2AC3634
     bool CheckStore(::StringW path, bool throwException);
     // private Mono.Security.X509.X509CertificateCollection BuildCertificatesCollection(System.String storeName)
-    // Offset: 0x2AA9B2C
+    // Offset: 0x2AC2FB4
     ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
     // private System.Collections.ArrayList BuildCrlsCollection(System.String storeName)
-    // Offset: 0x2AA9D8C
+    // Offset: 0x2AC3214
     ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
   }; // Mono.Security.X509.X509Store
   #pragma pack(pop)

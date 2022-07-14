@@ -78,26 +78,26 @@ namespace HMUI {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData eventData
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData*& dyn_eventData();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x16F2C5C
+    // Offset: 0x16FD048
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x16F2CC4
+    // Offset: 0x16FD0B0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x16F2A78
+    // Offset: 0x16FCE64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x16F2B0C
+    // Offset: 0x16FCEF8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x16F2B10
+    // Offset: 0x16FCEFC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x16F2C64
+    // Offset: 0x16FD050
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.AlphabetScrollbar/HMUI.<PointerMoveInsideCoroutine>d__18
   #pragma pack(pop)

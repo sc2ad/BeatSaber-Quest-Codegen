@@ -61,17 +61,17 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _secondary
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__secondary();
     // System.Void .ctor(System.ComponentModel.ICustomTypeDescriptor primary, System.ComponentModel.ICustomTypeDescriptor secondary)
-    // Offset: 0x1CD3430
+    // Offset: 0x1CE181C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::MergedTypeDescriptor* New_ctor(::System::ComponentModel::ICustomTypeDescriptor* primary, ::System::ComponentModel::ICustomTypeDescriptor* secondary) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::MergedTypeDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::MergedTypeDescriptor*, creationType>(primary, secondary)));
     }
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
-    // Offset: 0x1CD3468
+    // Offset: 0x1CE1854
     ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
-    // Offset: 0x1CD359C
+    // Offset: 0x1CE1988
     ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.MergedTypeDescriptor
   #pragma pack(pop)

@@ -65,17 +65,17 @@ namespace System::Runtime::Remoting::Activation {
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _next
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Activation::IActivator*& dyn__next();
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1D7DD20
+    // Offset: 0x1D8C10C
     ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
-    // Offset: 0x1D7D740
+    // Offset: 0x1D8BB2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1D7DD28
+    // Offset: 0x1D8C114
     ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
   }; // System.Runtime.Remoting.Activation.AppDomainLevelActivator
   #pragma pack(pop)

@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: shockWaveYPos and: noteCutParticlesEffect
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10D77A4
+    // [SpaceAttribute] Offset: 0x10DEED8
     // private NoteCutParticlesEffect _noteCutParticlesEffect
     // Size: 0x8
     // Offset: 0x20
@@ -95,21 +95,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D781C
+    // [InjectAttribute] Offset: 0x10DEF50
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D782C
+    // [InjectAttribute] Offset: 0x10DEF60
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D783C
+    // [InjectAttribute] Offset: 0x10DEF70
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x58
@@ -162,26 +162,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // public System.Void .ctor()
-    // Offset: 0x14AFB5C
+    // Offset: 0x14CE610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutCoreEffectsSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutCoreEffectsSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutCoreEffectsSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14AE704
+    // Offset: 0x14CD1B8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14AE790
+    // Offset: 0x14CD244
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x14AE828
+    // Offset: 0x14CD2DC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void SpawnNoteCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount)
-    // Offset: 0x14AEA2C
+    // Offset: 0x14CD4E0
     void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int sparkleParticlesCount, int explosionParticlesCount);
     // private System.Void SpawnBombCutEffect(in NoteCutInfo noteCutInfo, NoteController noteController)
-    // Offset: 0x14AE964
+    // Offset: 0x14CD418
     void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
   }; // NoteCutCoreEffectsSpawner
   #pragma pack(pop)

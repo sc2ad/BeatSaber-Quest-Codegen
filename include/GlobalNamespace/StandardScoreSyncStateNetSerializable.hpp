@@ -102,41 +102,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x2634EB8
+    // Offset: 0x2649330
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x2634F00
+    // Offset: 0x2649378
     ::GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x2634F08
+    // Offset: 0x2649380
     void set_id(::GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x2634F10
+    // Offset: 0x2649388
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2634F18
+    // Offset: 0x2649390
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x2634F20
+    // Offset: 0x2649398
     ::GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x2634F34
+    // Offset: 0x26493AC
     void set_state(::GlobalNamespace::StandardScoreSyncState value);
     // public System.Void .ctor()
-    // Offset: 0x263508C
+    // Offset: 0x2649504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardScoreSyncStateNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardScoreSyncStateNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardScoreSyncStateNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2634F48
+    // Offset: 0x26493C0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2634FBC
+    // Offset: 0x2649434
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2635030
+    // Offset: 0x26494A8
     void Release();
   }; // StandardScoreSyncStateNetSerializable
   #pragma pack(pop)

@@ -50,14 +50,14 @@ namespace HMUI {
     // Get instance field reference: public System.Action finishedCallback
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
-    // Offset: 0x16B90F8
+    // Offset: 0x16C44E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ModalView::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView::$$c__DisplayClass17_0*, creationType>()));
     }
     // System.Void <Hide>b__0()
-    // Offset: 0x16B9B88
+    // Offset: 0x16C4F74
     void $Hide$b__0();
   }; // HMUI.ModalView/HMUI.<>c__DisplayClass17_0
   #pragma pack(pop)

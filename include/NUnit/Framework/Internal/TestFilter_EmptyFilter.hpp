@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal {
   class TestFilter::EmptyFilter : public ::NUnit::Framework::Internal::TestFilter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A09FC8
+    // Offset: 0x2A21440
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,22 +42,22 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestFilter::EmptyFilter*, creationType>()));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A0A030
+    // Offset: 0x2A214A8
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(::NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A0A038
+    // Offset: 0x2A214B0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(::NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A0A040
+    // Offset: 0x2A214B8
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x2A0A048
+    // Offset: 0x2A214C0
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

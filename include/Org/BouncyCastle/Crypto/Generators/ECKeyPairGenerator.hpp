@@ -100,33 +100,33 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x1E23B7C
+    // Offset: 0x1E32F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyPairGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>()));
     }
     // public System.Void .ctor(System.String algorithm)
-    // Offset: 0x1E23BCC
+    // Offset: 0x1E32FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyPairGenerator* New_ctor(::StringW algorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>(algorithm)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
-    // Offset: 0x1E23C94
+    // Offset: 0x1E33080
     void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
-    // Offset: 0x1E23FEC
+    // Offset: 0x1E333D8
     ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1E242A4
+    // Offset: 0x1E33690
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // static Org.BouncyCastle.Asn1.X9.X9ECParameters FindECCurveByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1E23F68
+    // Offset: 0x1E33354
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters GetCorrespondingPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey)
-    // Offset: 0x1E24300
+    // Offset: 0x1E336EC
     static ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
   }; // Org.BouncyCastle.Crypto.Generators.ECKeyPairGenerator
   #pragma pack(pop)
