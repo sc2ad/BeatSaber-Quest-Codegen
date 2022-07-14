@@ -40,7 +40,7 @@ namespace System::Net {
     // Get instance field reference: private readonly System.Net.TimerThread/System.Net.TimerNode m_Timers
     [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode*& dyn_m_Timers();
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x1B459F0
+    // Offset: 0x1B51DDC
     // Implemented from: System.Net.TimerThread/System.Net.Queue
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

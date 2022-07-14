@@ -23,10 +23,10 @@ namespace System::Collections::Generic {
   class IntrospectiveSortUtilities : public ::Il2CppObject {
     public:
     // static System.Int32 FloorLog2(System.Int32 n)
-    // Offset: 0x1CED8CC
+    // Offset: 0x1CFBCB8
     static int FloorLog2(int n);
     // static System.Void ThrowOrIgnoreBadComparer(System.Object comparer)
-    // Offset: 0x1CED900
+    // Offset: 0x1CFBCEC
     static void ThrowOrIgnoreBadComparer(::Il2CppObject* comparer);
   }; // System.Collections.Generic.IntrospectiveSortUtilities
   #pragma pack(pop)

@@ -107,38 +107,38 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*& dyn_m_BundledCatalog();
     // public System.Void .ctor()
-    // Offset: 0x18C9604
+    // Offset: 0x18D29F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp*, creationType>()));
     }
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle providerInterface, System.Boolean disableCatalogUpdateOnStart, System.Boolean isLocalCatalogInBundle)
-    // Offset: 0x18C960C
+    // Offset: 0x18D29F8
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
     // private System.Boolean WaitForCompletionCallback()
-    // Offset: 0x18CA308
+    // Offset: 0x18D36F4
     bool WaitForCompletionCallback();
     // public System.Void Release()
-    // Offset: 0x18C94B0
+    // Offset: 0x18D289C
     void Release();
     // System.Void LoadCatalog(System.String idToLoad, System.Boolean isLocalCatalogInBundle, System.Boolean isLocalCatalog)
-    // Offset: 0x18C9FBC
+    // Offset: 0x18D33A8
     void LoadCatalog(::StringW idToLoad, bool isLocalCatalogInBundle, bool isLocalCatalog);
     // private System.Void CatalogLoadOpCompleteCallback(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> op)
-    // Offset: 0x18CA768
+    // Offset: 0x18D3B54
     void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
     // private System.String GetTransformedInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x18C9EE4
+    // Offset: 0x18D32D0
     ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // System.String DetermineIdToLoad(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Collections.Generic.IList`1<System.Object> dependencyObjects, System.Boolean disableCatalogUpdateOnStart)
-    // Offset: 0x18C975C
+    // Offset: 0x18D2B48
     ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::Il2CppObject*>* dependencyObjects, bool disableCatalogUpdateOnStart);
     // private System.Void OnCatalogLoaded(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x18CA840
+    // Offset: 0x18D3C2C
     void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // private System.Void <LoadCatalog>b__10_0(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x18CA9FC
+    // Offset: 0x18D3DE8
     void $LoadCatalog$b__10_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp
   // WARNING Not writing size check since size may be invalid!

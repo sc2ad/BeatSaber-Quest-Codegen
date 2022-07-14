@@ -46,14 +46,14 @@ namespace System::Xml {
     // Get instance field reference: System.Object data
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_data();
     // System.Void .ctor()
-    // Offset: 0x270B3F4
+    // Offset: 0x272286C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::Item*, creationType>()));
     }
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x270B3FC
+    // Offset: 0x2722874
     void Set(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item
   #pragma pack(pop)

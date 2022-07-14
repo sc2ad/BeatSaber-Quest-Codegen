@@ -118,14 +118,14 @@ namespace GlobalNamespace {
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x10E1CA8
+    // [InjectAttribute] Offset: 0x10E947C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E1CB8
+    // [InjectAttribute] Offset: 0x10E948C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x18
@@ -220,35 +220,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _stillDownloadingCalled
     [[deprecated("Use field access instead!")]] bool& dyn__stillDownloadingCalled();
     // public System.Void add_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x141C8E4
+    // Offset: 0x1412524
     void add_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void remove_stillDownloadingSongEvent(System.Action value)
-    // Offset: 0x141C988
+    // Offset: 0x14125C8
     void remove_stillDownloadingSongEvent(::System::Action* value);
     // public System.Void add_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x141CA2C
+    // Offset: 0x141266C
     void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_countdownFinishedEvent(System.Action`2<ILevelGameplaySetupData,IDifficultyBeatmap> value)
-    // Offset: 0x141CAD0
+    // Offset: 0x1412710
     void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void .ctor()
-    // Offset: 0x141D064
+    // Offset: 0x1412CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelLoader*, creationType>()));
     }
     // public System.Void LoadLevel(ILevelGameplaySetupData gameplaySetupData, System.Single initialStartTime)
-    // Offset: 0x141CB74
+    // Offset: 0x14127B4
     void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, float initialStartTime);
     // public System.Void SetNewStartTime(System.Single newStartTime)
-    // Offset: 0x141CD20
+    // Offset: 0x1412960
     void SetNewStartTime(float newStartTime);
     // public System.Void ClearLoading()
-    // Offset: 0x141CD28
+    // Offset: 0x1412968
     void ClearLoading();
     // public System.Void Tick()
-    // Offset: 0x141CD68
+    // Offset: 0x14129A8
     void Tick();
   }; // MultiplayerLevelLoader
   #pragma pack(pop)

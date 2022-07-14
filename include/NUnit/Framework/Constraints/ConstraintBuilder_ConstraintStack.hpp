@@ -47,7 +47,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.IConstraint> stack
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Stack_1<::NUnit::Framework::Constraints::IConstraint*>*& dyn_stack();
     // public NUnit.Framework.Constraints.IConstraint Pop()
-    // Offset: 0x1C879B8
+    // Offset: 0x1C95DA4
     ::NUnit::Framework::Constraints::IConstraint* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack
   #pragma pack(pop)

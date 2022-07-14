@@ -64,26 +64,26 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__10_0
     static void _set_$$9__10_0(::System::Func_2<::UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C067B8
+    // Offset: 0x1C14BA4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C0681C
+    // Offset: 0x1C14C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenUtilInternal::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetAllSceneContexts>b__3_0(UnityEngine.GameObject root)
-    // Offset: 0x1C06824
+    // Offset: 0x1C14C10
     ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* $GetAllSceneContexts$b__3_0(::UnityEngine::GameObject* root);
     // System.Boolean <GetRootGameObjects>b__10_0(UnityEngine.GameObject x)
-    // Offset: 0x1C0687C
+    // Offset: 0x1C14C68
     bool $GetRootGameObjects$b__10_0(::UnityEngine::GameObject* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C0690C
+    // Offset: 0x1C14CF8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C06968
+    // Offset: 0x1C14D54
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c
   #pragma pack(pop)

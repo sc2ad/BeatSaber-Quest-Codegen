@@ -47,38 +47,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapEventData <nextSameTypeEventData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventData*& dyn_$nextSameTypeEventData$k__BackingField();
     // public BeatmapEventData get_previousSameTypeEventData()
-    // Offset: 0x2821AB4
+    // Offset: 0x2837F2C
     ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();
     // private System.Void set_previousSameTypeEventData(BeatmapEventData value)
-    // Offset: 0x2821ABC
+    // Offset: 0x2837F34
     void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
     // public BeatmapEventData get_nextSameTypeEventData()
-    // Offset: 0x2821AC4
+    // Offset: 0x2837F3C
     ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEventData();
     // private System.Void set_nextSameTypeEventData(BeatmapEventData value)
-    // Offset: 0x2821ACC
+    // Offset: 0x2837F44
     void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
     // protected System.Void .ctor(System.Single time, System.Int32 executionOrder, System.Int32 subtypeIdentifier)
-    // Offset: 0x2820C90
+    // Offset: 0x2837108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, int executionOrder, int subtypeIdentifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventData*, creationType>(time, executionOrder, subtypeIdentifier)));
     }
     // public System.Void __ConnectWithPreviousSameTypeEventData(BeatmapEventData newPreviousSameTypeEvent)
-    // Offset: 0x2821AD4
+    // Offset: 0x2837F4C
     void __ConnectWithPreviousSameTypeEventData(::GlobalNamespace::BeatmapEventData* newPreviousSameTypeEvent);
     // public System.Void __ConnectWithNextSameTypeEventData(BeatmapEventData newNextSameTypeEvent)
-    // Offset: 0x2821AE4
+    // Offset: 0x2837F5C
     void __ConnectWithNextSameTypeEventData(::GlobalNamespace::BeatmapEventData* newNextSameTypeEvent);
     // public System.Void __ResetConnections()
-    // Offset: 0x2821AF4
+    // Offset: 0x2837F6C
     void __ResetConnections();
     // protected BeatmapEventData GetDefault()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapEventData* GetDefault();
     // public BeatmapEventData GetDefault(BeatmapEventData nextData)
-    // Offset: 0x2821AFC
+    // Offset: 0x2837F74
     ::GlobalNamespace::BeatmapEventData* GetDefault(::GlobalNamespace::BeatmapEventData* nextData);
   }; // BeatmapEventData
   #pragma pack(pop)

@@ -186,38 +186,38 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // static public PacketPool`1<MasterServer.CreateDedicatedServerInstanceResponse> get_pool()
-    // Offset: 0x1682B04
+    // Offset: 0x168DEF0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::CreateDedicatedServerInstanceResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1682BE4
+    // Offset: 0x168DFD0
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1682BEC
+    // Offset: 0x168DFD8
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x1682BF4
+    // Offset: 0x168DFE0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1682BFC
+    // Offset: 0x168DFE8
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result)
-    // Offset: 0x1682E4C
+    // Offset: 0x168E238
     ::MasterServer::CreateDedicatedServerInstanceResponse* InitForFailure(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::MasterServer::CreateDedicatedServerInstanceResponse::Result result);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, System.Int32 port, System.Byte[] random, System.Byte[] publicKey, System.Int32 maxPlayerCount)
-    // Offset: 0x1682E58
+    // Offset: 0x168E244
     ::MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::StringW id, int port, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, int maxPlayerCount);
     // public override System.Byte get_resultCode()
-    // Offset: 0x1682B4C
+    // Offset: 0x168DF38
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x1682B54
+    // Offset: 0x168DF40
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x1682EB8
+    // Offset: 0x168E2A4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -226,17 +226,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1682C04
+    // Offset: 0x168DFF0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1682D04
+    // Offset: 0x168E0F0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1682DD0
+    // Offset: 0x168E1BC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

@@ -30,46 +30,46 @@ namespace System {
     // Set static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static void _set_EPHEMERON_TOMBSTONE(::Il2CppObject* value);
     // static public System.Int32 get_MaxGeneration()
-    // Offset: 0x195BC74
+    // Offset: 0x1966060
     static int get_MaxGeneration();
     // static private System.Void .cctor()
-    // Offset: 0x195BED8
+    // Offset: 0x19662C4
     static void _cctor();
     // static private System.Int32 GetCollectionCount(System.Int32 generation)
-    // Offset: 0x195BC00
+    // Offset: 0x1965FEC
     static int GetCollectionCount(int generation);
     // static private System.Int32 GetMaxGeneration()
-    // Offset: 0x195BC04
+    // Offset: 0x1965FF0
     static int GetMaxGeneration();
     // static private System.Void InternalCollect(System.Int32 generation)
-    // Offset: 0x195BC08
+    // Offset: 0x1965FF4
     static void InternalCollect(int generation);
     // static System.Void register_ephemeron_array(System.Runtime.CompilerServices.Ephemeron[] array)
-    // Offset: 0x195BC0C
+    // Offset: 0x1965FF8
     static void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron> array);
     // static private System.Object get_ephemeron_tombstone()
-    // Offset: 0x195BC10
+    // Offset: 0x1965FFC
     static ::Il2CppObject* get_ephemeron_tombstone();
     // static public System.Void Collect()
-    // Offset: 0x195BC14
+    // Offset: 0x1966000
     static void Collect();
     // static public System.Int32 CollectionCount(System.Int32 generation)
-    // Offset: 0x195BCD0
+    // Offset: 0x19660BC
     static int CollectionCount(int generation);
     // static public System.Void KeepAlive(System.Object obj)
-    // Offset: 0x195BD84
+    // Offset: 0x1966170
     static void KeepAlive(::Il2CppObject* obj);
     // static private System.Void _SuppressFinalize(System.Object o)
-    // Offset: 0x195BD88
+    // Offset: 0x1966174
     static void _SuppressFinalize(::Il2CppObject* o);
     // static public System.Void SuppressFinalize(System.Object obj)
-    // Offset: 0x195BD8C
+    // Offset: 0x1966178
     static void SuppressFinalize(::Il2CppObject* obj);
     // static private System.Void _ReRegisterForFinalize(System.Object o)
-    // Offset: 0x195BE30
+    // Offset: 0x196621C
     static void _ReRegisterForFinalize(::Il2CppObject* o);
     // static public System.Void ReRegisterForFinalize(System.Object obj)
-    // Offset: 0x195BE34
+    // Offset: 0x1966220
     static void ReRegisterForFinalize(::Il2CppObject* obj);
   }; // System.GC
   #pragma pack(pop)

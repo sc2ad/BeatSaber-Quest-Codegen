@@ -55,14 +55,14 @@ namespace System::Net {
     // Get instance field reference: public System.Net.SimpleAsyncResult result
     [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncResult*& dyn_result();
     // public System.Void .ctor()
-    // Offset: 0x1B5147C
+    // Offset: 0x1B5D868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass76_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass76_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass76_0*, creationType>()));
     }
     // System.Void <SetHeadersAsync>b__0(System.IAsyncResult r)
-    // Offset: 0x1B51C6C
+    // Offset: 0x1B5E058
     void $SetHeadersAsync$b__0(::System::IAsyncResult* r);
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass76_0
   #pragma pack(pop)

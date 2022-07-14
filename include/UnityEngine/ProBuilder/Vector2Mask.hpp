@@ -76,35 +76,35 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Byte m_Mask
     [[deprecated("Use field access instead!")]] uint8_t& dyn_m_Mask();
     // public System.Single get_x()
-    // Offset: 0x29A41D4
+    // Offset: 0x29BB64C
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x29A41EC
+    // Offset: 0x29BB664
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0x29A4204
+    // Offset: 0x29BB67C
     Vector2Mask(::UnityEngine::Vector3 v, float epsilon);
     // public System.Void .ctor(System.Byte mask)
-    // Offset: 0x29A42CC
+    // Offset: 0x29BB744
     // ABORTED: conflicts with another method.  Vector2Mask(uint8_t mask);
     // static private System.Void .cctor()
-    // Offset: 0x29A4420
+    // Offset: 0x29BB898
     static void _cctor();
   }; // UnityEngine.ProBuilder.Vector2Mask
   #pragma pack(pop)
   static check_size<sizeof(Vector2Mask), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_Vector2MaskSizeCheck;
   static_assert(sizeof(Vector2Mask) == 0x1);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x29A43AC
+  // Offset: 0x29BB824
   ::UnityEngine::ProBuilder::Vector2Mask operator|(const ::UnityEngine::ProBuilder::Vector2Mask& left, const ::UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_BitwiseAnd(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x29A43B8
+  // Offset: 0x29BB830
   ::UnityEngine::ProBuilder::Vector2Mask operator&(const ::UnityEngine::ProBuilder::Vector2Mask& left, const ::UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.ProBuilder.Vector2Mask op_ExclusiveOr(UnityEngine.ProBuilder.Vector2Mask left, UnityEngine.ProBuilder.Vector2Mask right)
-  // Offset: 0x29A43C4
+  // Offset: 0x29BB83C
   ::UnityEngine::ProBuilder::Vector2Mask operator^(const ::UnityEngine::ProBuilder::Vector2Mask& left, const ::UnityEngine::ProBuilder::Vector2Mask& right);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.ProBuilder.Vector2Mask mask, System.Single value)
-  // Offset: 0x29A43D0
+  // Offset: 0x29BB848
   ::UnityEngine::Vector2 operator*(const ::UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

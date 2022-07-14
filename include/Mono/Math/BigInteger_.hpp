@@ -127,118 +127,118 @@ namespace Mono::Math {
     // Get instance field reference: private System.UInt32[] data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_data();
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
-    // Offset: 0x1F461A8
+    // Offset: 0x1F53620
     static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
     // public System.Void .ctor(Mono.Math.BigInteger/Mono.Math.Sign sign, System.UInt32 len)
-    // Offset: 0x1F447D0
+    // Offset: 0x1F51C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger_* New_ctor(::Mono::Math::BigInteger_::Sign sign, uint len) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger_*, creationType>(sign, len)));
     }
     // public System.Void .ctor(Mono.Math.BigInteger bi)
-    // Offset: 0x1F4484C
+    // Offset: 0x1F51CC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger_* New_ctor(::Mono::Math::BigInteger_* bi) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger_*, creationType>(bi)));
     }
     // public System.Void .ctor(Mono.Math.BigInteger bi, System.UInt32 len)
-    // Offset: 0x1F448FC
+    // Offset: 0x1F51D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger_* New_ctor(::Mono::Math::BigInteger_* bi, uint len) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger_*, creationType>(bi, len)));
     }
     // public System.Void .ctor(System.Byte[] inData)
-    // Offset: 0x1F449E4
+    // Offset: 0x1F51E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger_* New_ctor(::ArrayW<uint8_t> inData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger_*, creationType>(inData)));
     }
     // public System.Void .ctor(System.UInt32 ui)
-    // Offset: 0x1F44CD8
+    // Offset: 0x1F52150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BigInteger_* New_ctor(uint ui) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger_*, creationType>(ui)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F47D14
+    // Offset: 0x1F5518C
     static void _cctor();
     // static public Mono.Math.BigInteger GenerateRandom(System.Int32 bits, System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x1F46270
+    // Offset: 0x1F536E8
     static ::Mono::Math::BigInteger_* GenerateRandom(int bits, ::System::Security::Cryptography::RandomNumberGenerator* rng);
     // static public Mono.Math.BigInteger GenerateRandom(System.Int32 bits)
-    // Offset: 0x1F463F8
+    // Offset: 0x1F53870
     static ::Mono::Math::BigInteger_* GenerateRandom(int bits);
     // public System.Void Randomize(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x1F46464
+    // Offset: 0x1F538DC
     void Randomize(::System::Security::Cryptography::RandomNumberGenerator* rng);
     // public System.Void Randomize()
-    // Offset: 0x1F466A0
+    // Offset: 0x1F53B18
     void Randomize();
     // public System.Int32 BitCount()
-    // Offset: 0x1F46620
+    // Offset: 0x1F53A98
     int BitCount();
     // public System.Boolean TestBit(System.UInt32 bitNum)
-    // Offset: 0x1F4670C
+    // Offset: 0x1F53B84
     bool TestBit(uint bitNum);
     // public System.Boolean TestBit(System.Int32 bitNum)
-    // Offset: 0x1F4675C
+    // Offset: 0x1F53BD4
     bool TestBit(int bitNum);
     // public System.Void SetBit(System.UInt32 bitNum)
-    // Offset: 0x1F4682C
+    // Offset: 0x1F53CA4
     void SetBit(uint bitNum);
     // public System.Void SetBit(System.UInt32 bitNum, System.Boolean value)
-    // Offset: 0x1F46834
+    // Offset: 0x1F53CAC
     void SetBit(uint bitNum, bool value);
     // public System.Int32 LowestSetBit()
-    // Offset: 0x1F4689C
+    // Offset: 0x1F53D14
     int LowestSetBit();
     // public System.Byte[] GetBytes()
-    // Offset: 0x1F46928
+    // Offset: 0x1F53DA0
     ::ArrayW<uint8_t> GetBytes();
     // public System.String ToString(System.UInt32 radix)
-    // Offset: 0x1F46CE8
+    // Offset: 0x1F54160
     ::StringW ToString(uint radix);
     // public System.String ToString(System.UInt32 radix, System.String characterSet)
-    // Offset: 0x1F46D48
+    // Offset: 0x1F541C0
     ::StringW ToString(uint radix, ::StringW characterSet);
     // private System.Void Normalize()
-    // Offset: 0x1F44C74
+    // Offset: 0x1F520EC
     void Normalize();
     // public System.Void Clear()
-    // Offset: 0x1F46FCC
+    // Offset: 0x1F54444
     void Clear();
     // public Mono.Math.BigInteger ModInverse(Mono.Math.BigInteger modulus)
-    // Offset: 0x1F471E8
+    // Offset: 0x1F54660
     ::Mono::Math::BigInteger_* ModInverse(::Mono::Math::BigInteger_* modulus);
     // public Mono.Math.BigInteger ModPow(Mono.Math.BigInteger exp, Mono.Math.BigInteger n)
-    // Offset: 0x1F47710
+    // Offset: 0x1F54B88
     ::Mono::Math::BigInteger_* ModPow(::Mono::Math::BigInteger_* exp, ::Mono::Math::BigInteger_* n);
     // public System.Boolean IsProbablePrime()
-    // Offset: 0x1F47998
+    // Offset: 0x1F54E10
     bool IsProbablePrime();
     // static public Mono.Math.BigInteger GeneratePseudoPrime(System.Int32 bits)
-    // Offset: 0x1F47BC8
+    // Offset: 0x1F55040
     static ::Mono::Math::BigInteger_* GeneratePseudoPrime(int bits);
     // public System.Void Incr2()
-    // Offset: 0x1F47C44
+    // Offset: 0x1F550BC
     void Incr2();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F47028
+    // Offset: 0x1F544A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1F4708C
+    // Offset: 0x1F54504
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1F47094
+    // Offset: 0x1F5450C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
@@ -247,52 +247,52 @@ namespace Mono::Math {
   static check_size<sizeof(BigInteger_), 24 + sizeof(::ArrayW<uint>)> __Mono_Math_BigInteger_SizeCheck;
   static_assert(sizeof(BigInteger_) == 0x20);
   // static public Mono.Math.BigInteger op_Subtraction(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F44E70
+  // Offset: 0x1F522E8
   ::Mono::Math::BigInteger_* operator-(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.UInt32 op_Modulus(Mono.Math.BigInteger bi, System.UInt32 ui)
-  // Offset: 0x1F4537C
+  // Offset: 0x1F527F4
   uint operator%(::Mono::Math::BigInteger_& bi, const uint& ui);
   // static public Mono.Math.BigInteger op_Modulus(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F453F8
+  // Offset: 0x1F52870
   ::Mono::Math::BigInteger_* operator%(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public Mono.Math.BigInteger op_Division(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F45904
+  // Offset: 0x1F52D7C
   ::Mono::Math::BigInteger_* operator/(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public Mono.Math.BigInteger op_Multiply(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F45938
+  // Offset: 0x1F52DB0
   ::Mono::Math::BigInteger_* operator*(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public Mono.Math.BigInteger op_Multiply(Mono.Math.BigInteger bi, System.Int32 i)
-  // Offset: 0x1F45BF8
+  // Offset: 0x1F53070
   ::Mono::Math::BigInteger_* operator*(::Mono::Math::BigInteger_& bi, const int& i);
   // static public Mono.Math.BigInteger op_LeftShift(Mono.Math.BigInteger bi1, System.Int32 shiftVal)
-  // Offset: 0x1F45E0C
+  // Offset: 0x1F53284
   ::Mono::Math::BigInteger_* operator<<(::Mono::Math::BigInteger_& bi1, const int& shiftVal);
   // static public Mono.Math.BigInteger op_RightShift(Mono.Math.BigInteger bi1, System.Int32 shiftVal)
-  // Offset: 0x1F45FF4
+  // Offset: 0x1F5346C
   ::Mono::Math::BigInteger_* operator>>(::Mono::Math::BigInteger_& bi1, const int& shiftVal);
   // static public System.Boolean op_Equality(Mono.Math.BigInteger bi1, System.UInt32 ui)
-  // Offset: 0x1F44FF0
+  // Offset: 0x1F52468
   bool operator ==(::Mono::Math::BigInteger_& bi1, const uint& ui);
   // static public System.Boolean op_Inequality(Mono.Math.BigInteger bi1, System.UInt32 ui)
-  // Offset: 0x1F46A64
+  // Offset: 0x1F53EDC
   bool operator !=(::Mono::Math::BigInteger_& bi1, const uint& ui);
   // static public System.Boolean op_Equality(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46ADC
+  // Offset: 0x1F53F54
   bool operator ==(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.Boolean op_Inequality(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46BAC
+  // Offset: 0x1F54024
   bool operator !=(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.Boolean op_GreaterThan(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46C7C
+  // Offset: 0x1F540F4
   bool operator >(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.Boolean op_LessThan(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46C98
+  // Offset: 0x1F54110
   bool operator <(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.Boolean op_GreaterThanOrEqual(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46CB0
+  // Offset: 0x1F54128
   bool operator >=(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
   // static public System.Boolean op_LessThanOrEqual(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
-  // Offset: 0x1F46CCC
+  // Offset: 0x1F54144
   bool operator <=(::Mono::Math::BigInteger_* bi1, ::Mono::Math::BigInteger_& bi2);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

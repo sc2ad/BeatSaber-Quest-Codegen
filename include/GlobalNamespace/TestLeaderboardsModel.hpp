@@ -87,26 +87,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1474AE0
+    // Offset: 0x144C0C4
     void add_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x1474B84
+    // Offset: 0x144C168
     void remove_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x1474E78
+    // Offset: 0x144C45C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestLeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestLeaderboardsModel*, creationType>()));
     }
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1474C28
+    // Offset: 0x144C20C
     ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1474C34
+    // Offset: 0x144C218
     ::System::Threading::Tasks::Task_1<::OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1474D48
+    // Offset: 0x144C32C
     ::System::Threading::Tasks::Task_1<::OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(::OnlineServices::LevelScoreResultsData levelScoreResult, ::System::Threading::CancellationToken cancellationToken);
   }; // TestLeaderboardsModel
   #pragma pack(pop)

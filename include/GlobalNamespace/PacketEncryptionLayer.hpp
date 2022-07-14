@@ -160,79 +160,79 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <enableStatistics>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$enableStatistics$k__BackingField();
     // public System.Boolean get_filterUnencryptedTraffic()
-    // Offset: 0x173C474
+    // Offset: 0x1746860
     bool get_filterUnencryptedTraffic();
     // public System.Void set_filterUnencryptedTraffic(System.Boolean value)
-    // Offset: 0x173C47C
+    // Offset: 0x1746868
     void set_filterUnencryptedTraffic(bool value);
     // public System.Boolean get_enableStatistics()
-    // Offset: 0x173C488
+    // Offset: 0x1746874
     bool get_enableStatistics();
     // public System.Void set_enableStatistics(System.Boolean value)
-    // Offset: 0x173C490
+    // Offset: 0x174687C
     void set_enableStatistics(bool value);
     // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider)
-    // Offset: 0x173C49C
+    // Offset: 0x1746888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer* New_ctor(::BGNet::Core::ITimeProvider* timeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer*, creationType>(timeProvider)));
     }
     // public System.Void SetUnencryptedTrafficFilter(System.Byte[] unencryptedTrafficFilter)
-    // Offset: 0x173CDD8
+    // Offset: 0x17471C4
     void SetUnencryptedTrafficFilter(::ArrayW<uint8_t> unencryptedTrafficFilter);
     // public EncryptionUtility/IEncryptionState AddEncryptedEndpoint(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x173CDE0
+    // Offset: 0x17471CC
     ::GlobalNamespace::EncryptionUtility::IEncryptionState* AddEncryptedEndpoint(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> clientRandom, bool isClient);
     // public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> AddEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x172ECD8
+    // Offset: 0x17390C4
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>* AddEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> clientRandom, bool isClient);
     // public System.Boolean RemoveEncryptedEndpoint(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState encryptedState)
-    // Offset: 0x173CF14
+    // Offset: 0x1747300
     bool RemoveEncryptedEndpoint(::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptedState);
     // public System.Threading.Tasks.Task AddPendingEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x173D1D4
+    // Offset: 0x17475C0
     ::System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> clientRandom, bool isClient);
     // public System.Void PollUpdate()
-    // Offset: 0x173D304
+    // Offset: 0x17476F0
     void PollUpdate();
     // public System.Void RemoveAllEndpoints()
-    // Offset: 0x173D488
+    // Offset: 0x1747874
     void RemoveAllEndpoints();
     // private System.Boolean TryGetEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x173D60C
+    // Offset: 0x17479F8
     bool TryGetEncryptionState(::System::Net::IPEndPoint* endPoint, ByRef<::GlobalNamespace::EncryptionUtility::IEncryptionState*> state);
     // private System.Boolean TryGetPendingEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x173D704
+    // Offset: 0x1747AF0
     bool TryGetPendingEncryptionState(::System::Net::IPEndPoint* endPoint, ByRef<::GlobalNamespace::EncryptionUtility::IEncryptionState*> state);
     // private System.Boolean TryGetPotentialPendingEncryptionStates(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState[] encryptionStates)
-    // Offset: 0x173D830
+    // Offset: 0x1747C1C
     bool TryGetPotentialPendingEncryptionStates(::System::Net::IPEndPoint* endPoint, ByRef<::ArrayW<::GlobalNamespace::EncryptionUtility::IEncryptionState*>> encryptionStates);
     // private System.Void PromotePendingEncryptionState(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState state)
-    // Offset: 0x173D960
+    // Offset: 0x1747D4C
     void PromotePendingEncryptionState(::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::EncryptionUtility::IEncryptionState* state);
     // private System.Boolean MatchesFilter(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x173DBC0
+    // Offset: 0x1747FAC
     bool MatchesFilter(::ArrayW<uint8_t> data, int offset, int length);
     // private System.Boolean ProcessInboundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x173C71C
+    // Offset: 0x1746B08
     bool ProcessInboundPacketInternal(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
     // public System.Boolean ProcessOutBoundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x173CBD8
+    // Offset: 0x1746FC4
     bool ProcessOutBoundPacketInternal(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length, ByRef<bool> encrypted);
     // static public System.Void Log(System.String message)
-    // Offset: 0x173DC48
+    // Offset: 0x1748034
     static void Log(::StringW message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x173DCD0
+    // Offset: 0x17480BC
     static void LogV(::StringW message);
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x173C57C
+    // Offset: 0x1746968
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x173CA50
+    // Offset: 0x1746E3C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);

@@ -51,23 +51,23 @@ namespace Zenject {
     // Get instance field reference: private Zenject.GuiRenderableManager _renderableManager
     [[deprecated("Use field access instead!")]] ::Zenject::GuiRenderableManager*& dyn__renderableManager();
     // public System.Void .ctor()
-    // Offset: 0x1E1CAB0
+    // Offset: 0x1E2BE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderer*, creationType>()));
     }
     // private System.Void Construct(Zenject.GuiRenderableManager renderableManager)
-    // Offset: 0x1E1CA90
+    // Offset: 0x1E2BE7C
     void Construct(::Zenject::GuiRenderableManager* renderableManager);
     // public System.Void OnGUI()
-    // Offset: 0x1E1CA98
+    // Offset: 0x1E2BE84
     void OnGUI();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1E1CAB8
+    // Offset: 0x1E2BEA4
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E1CBA4
+    // Offset: 0x1E2BF90
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderer
   #pragma pack(pop)

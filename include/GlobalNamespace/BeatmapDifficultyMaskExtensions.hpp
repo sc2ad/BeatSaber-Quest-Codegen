@@ -34,28 +34,28 @@ namespace GlobalNamespace {
   class BeatmapDifficultyMaskExtensions : public ::Il2CppObject {
     public:
     // static public BeatmapDifficultyMask ToMask(BeatmapDifficulty difficulty)
-    // Offset: 0x282166C
+    // Offset: 0x2837AE4
     static ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public BeatmapDifficulty FromMask(BeatmapDifficultyMask mask)
-    // Offset: 0x2821678
+    // Offset: 0x2837AF0
     static ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.String LocalizedKey(BeatmapDifficultyMask mask)
-    // Offset: 0x28216C8
+    // Offset: 0x2837B40
     static ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.String ShortLocalizedKey(BeatmapDifficultyMask mask)
-    // Offset: 0x2821770
+    // Offset: 0x2837BE8
     static ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
     // static public System.Boolean Contains(BeatmapDifficultyMask mask, BeatmapDifficulty difficulty)
-    // Offset: 0x2821818
+    // Offset: 0x2837C90
     static bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Boolean Contains(BeatmapDifficultyMask mask, BeatmapDifficultyMask other)
-    // Offset: 0x2821830
+    // Offset: 0x2837CA8
     static bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
     // static public System.Int32 DifferenceFrom(BeatmapDifficultyMask mask, BeatmapDifficultyMask other)
-    // Offset: 0x2821840
+    // Offset: 0x2837CB8
     static int DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
     // static public System.String ToHexString(BeatmapDifficultyMask mask)
-    // Offset: 0x28218B0
+    // Offset: 0x2837D28
     static ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask mask);
   }; // BeatmapDifficultyMaskExtensions
   #pragma pack(pop)

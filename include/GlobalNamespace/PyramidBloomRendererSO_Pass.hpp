@@ -120,6 +120,12 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentAndACESToneMapping();
     // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMapping
     static void _set_UpsampleTentAndACESToneMapping(::GlobalNamespace::PyramidBloomRendererSO::Pass value);
+    // static field const value: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMappingGlobalIntensity
+    static constexpr const int UpsampleTentAndACESToneMappingGlobalIntensity = 13;
+    // Get static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMappingGlobalIntensity
+    static ::GlobalNamespace::PyramidBloomRendererSO::Pass _get_UpsampleTentAndACESToneMappingGlobalIntensity();
+    // Set static field: static public PyramidBloomRendererSO/Pass UpsampleTentAndACESToneMappingGlobalIntensity
+    static void _set_UpsampleTentAndACESToneMappingGlobalIntensity(::GlobalNamespace::PyramidBloomRendererSO::Pass value);
     // Get instance field reference: public System.Int32 value__
     [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // PyramidBloomRendererSO/Pass

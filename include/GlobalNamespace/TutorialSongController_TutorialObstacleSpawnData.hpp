@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 height
     [[deprecated("Use field access instead!")]] int& dyn_height();
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, System.Int32 width, System.Int32 height, NoteLineLayer noteLineLayer)
-    // Offset: 0x1498658
+    // Offset: 0x14A1E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObstacleSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, int width, int height, ::GlobalNamespace::NoteLineLayer noteLineLayer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData::.ctor");

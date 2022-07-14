@@ -46,21 +46,21 @@ namespace GlobalNamespace {
   class ConditionalImageMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x10DE4B0
+    // [HeaderAttribute] Offset: 0x10E5BF4
     // private UnityEngine.Material _material0
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Material* material0;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10DE4FC
+    // [HeaderAttribute] Offset: 0x10E5C40
     // private UnityEngine.Material _material1
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Material* material1;
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DE548
+    // [SpaceAttribute] Offset: 0x10E5C8C
     // private BoolSO _value
     // Size: 0x8
     // Offset: 0x28
@@ -85,14 +85,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _image
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__image();
     // public System.Void .ctor()
-    // Offset: 0x13FED54
+    // Offset: 0x1488B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalImageMaterialSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConditionalImageMaterialSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalImageMaterialSwitcher*, creationType>()));
     }
     // public System.Void Awake()
-    // Offset: 0x13FECCC
+    // Offset: 0x1488A98
     void Awake();
   }; // ConditionalImageMaterialSwitcher
   #pragma pack(pop)

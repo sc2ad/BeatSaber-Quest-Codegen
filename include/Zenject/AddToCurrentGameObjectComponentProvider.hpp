@@ -110,29 +110,29 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Action`2<Zenject.InjectContext,System.Object> _instantiateCallback
     [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__instantiateCallback();
     // public System.Boolean get_IsCached()
-    // Offset: 0x176572C
+    // Offset: 0x176FB18
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1765734
+    // Offset: 0x176FB20
     bool get_TypeVariesBasedOnMemberType();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x176573C
+    // Offset: 0x176FB28
     ::Zenject::DiContainer* get_Container();
     // protected System.Type get_ComponentType()
-    // Offset: 0x1765744
+    // Offset: 0x176FB30
     ::System::Type* get_ComponentType();
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x1765658
+    // Offset: 0x176FA44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToCurrentGameObjectComponentProvider* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToCurrentGameObjectComponentProvider*, creationType>(container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x176574C
+    // Offset: 0x176FB38
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1765754
+    // Offset: 0x176FB40
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.AddToCurrentGameObjectComponentProvider
   #pragma pack(pop)

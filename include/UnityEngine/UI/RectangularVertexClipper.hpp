@@ -59,14 +59,14 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_CanvasCorners
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_m_CanvasCorners();
     // public System.Void .ctor()
-    // Offset: 0x1EC8C68
+    // Offset: 0x1ED70E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectangularVertexClipper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::RectangularVertexClipper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangularVertexClipper*, creationType>()));
     }
     // public UnityEngine.Rect GetCanvasRect(UnityEngine.RectTransform t, UnityEngine.Canvas c)
-    // Offset: 0x1EC89EC
+    // Offset: 0x1ED6E64
     ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
   }; // UnityEngine.UI.RectangularVertexClipper
   #pragma pack(pop)

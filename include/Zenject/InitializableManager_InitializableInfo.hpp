@@ -52,17 +52,17 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1E1D8C4
+    // Offset: 0x1E2CCB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::InitializableInfo* New_ctor(::Zenject::IInitializable* initializable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager::InitializableInfo*, creationType>(initializable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E1E5A4
+    // Offset: 0x1E2D990
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E1E6B0
+    // Offset: 0x1E2DA9C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager/Zenject.InitializableInfo
   #pragma pack(pop)

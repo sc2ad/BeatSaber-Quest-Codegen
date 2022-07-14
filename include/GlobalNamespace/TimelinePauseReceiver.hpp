@@ -65,20 +65,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action timelinePauseEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_timelinePauseEvent();
     // public System.Void add_timelinePauseEvent(System.Action value)
-    // Offset: 0x2A27494
+    // Offset: 0x2A3D90C
     void add_timelinePauseEvent(::System::Action* value);
     // public System.Void remove_timelinePauseEvent(System.Action value)
-    // Offset: 0x2A27538
+    // Offset: 0x2A3D9B0
     void remove_timelinePauseEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x2A2767C
+    // Offset: 0x2A3DAF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelinePauseReceiver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelinePauseReceiver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelinePauseReceiver*, creationType>()));
     }
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x2A275DC
+    // Offset: 0x2A3DA54
     void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
   }; // TimelinePauseReceiver
   #pragma pack(pop)

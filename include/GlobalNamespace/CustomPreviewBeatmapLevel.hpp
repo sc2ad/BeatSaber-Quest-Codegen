@@ -249,74 +249,74 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _coverImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__coverImage();
     // public ISpriteAsyncLoader get_spriteAsyncLoader()
-    // Offset: 0x14040B8
+    // Offset: 0x148DE84
     ::GlobalNamespace::ISpriteAsyncLoader* get_spriteAsyncLoader();
     // public StandardLevelInfoSaveData get_standardLevelInfoSaveData()
-    // Offset: 0x14040C0
+    // Offset: 0x148DE8C
     ::GlobalNamespace::StandardLevelInfoSaveData* get_standardLevelInfoSaveData();
     // public System.String get_customLevelPath()
-    // Offset: 0x14040C8
+    // Offset: 0x148DE94
     ::StringW get_customLevelPath();
     // public System.String get_levelID()
-    // Offset: 0x14040D0
+    // Offset: 0x148DE9C
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x14040D8
+    // Offset: 0x148DEA4
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x14040E0
+    // Offset: 0x148DEAC
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x14040E8
+    // Offset: 0x148DEB4
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x14040F0
+    // Offset: 0x148DEBC
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x14040F8
+    // Offset: 0x148DEC4
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1404100
+    // Offset: 0x148DECC
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x1404108
+    // Offset: 0x148DED4
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x1404110
+    // Offset: 0x148DEDC
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x1404118
+    // Offset: 0x148DEE4
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1404120
+    // Offset: 0x148DEEC
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1404128
+    // Offset: 0x148DEF4
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1404130
+    // Offset: 0x148DEFC
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x1404138
+    // Offset: 0x148DF04
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public UnityEngine.Sprite get_defaultCoverImage()
-    // Offset: 0x1404140
+    // Offset: 0x148DF0C
     ::UnityEngine::Sprite* get_defaultCoverImage();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x1404148
+    // Offset: 0x148DF14
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public System.String get_songPreviewAudioClipPath()
-    // Offset: 0x14033D8
+    // Offset: 0x148D1A4
     ::StringW get_songPreviewAudioClipPath();
     // public System.Void .ctor(UnityEngine.Sprite defaultCoverImage, StandardLevelInfoSaveData standardLevelInfoSaveData, System.String customLevelPath, ISpriteAsyncLoader spriteAsyncLoader, System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets)
-    // Offset: 0x140350C
+    // Offset: 0x148D2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomPreviewBeatmapLevel* New_ctor(::UnityEngine::Sprite* defaultCoverImage, ::GlobalNamespace::StandardLevelInfoSaveData* standardLevelInfoSaveData, ::StringW customLevelPath, ::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomPreviewBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomPreviewBeatmapLevel*, creationType>(defaultCoverImage, standardLevelInfoSaveData, customLevelPath, spriteAsyncLoader, levelID, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, environmentInfo, allDirectionsEnvironmentInfo, previewDifficultyBeatmapSets)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1404150
+    // Offset: 0x148DF1C
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
   }; // CustomPreviewBeatmapLevel
   #pragma pack(pop)

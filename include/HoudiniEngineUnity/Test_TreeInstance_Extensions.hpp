@@ -42,13 +42,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_TreeInstance ToTestObject(UnityEngine.TreeInstance self)
-    // Offset: 0x2A8E798
+    // Offset: 0x2AA8C20
     static ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
     // static public HoudiniEngineUnity.Test_TreeInstance[] ToTestObject(UnityEngine.TreeInstance[] self)
-    // Offset: 0x2A8CC8C
+    // Offset: 0x2AA7114
     static ::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*> ToTestObject(::ArrayW<::UnityEngine::TreeInstance> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_TreeInstance> ToTestObject(System.Collections.Generic.List`1<UnityEngine.TreeInstance> self)
-    // Offset: 0x2A8E820
+    // Offset: 0x2AA8CA8
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>* self);
   }; // HoudiniEngineUnity.Test_TreeInstance_Extensions
   #pragma pack(pop)

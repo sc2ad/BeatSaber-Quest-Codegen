@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
     static void _set_$$9__8_2(::System::Func_2<::UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1334724
+    // Offset: 0x134E940
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1334788
+    // Offset: 0x134E9A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSpline::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSpline::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline::$$c*, creationType>()));
     }
     // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
-    // Offset: 0x1334790
+    // Offset: 0x134E9AC
     int $SortSourceData$b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
     // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
-    // Offset: 0x13347C4
+    // Offset: 0x134E9E0
     float $ComputeControlPoints$b__8_0(::UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
-    // Offset: 0x13347C8
+    // Offset: 0x134E9E4
     float $ComputeControlPoints$b__8_1(::UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
-    // Offset: 0x13347D0
+    // Offset: 0x134E9EC
     float $ComputeControlPoints$b__8_2(::UnityEngine::Vector3 p);
   }; // BezierSpline/<>c
   #pragma pack(pop)

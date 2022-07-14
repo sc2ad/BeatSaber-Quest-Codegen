@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4[] viewPos
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn_viewPos();
     // public System.Void .ctor()
-    // Offset: 0x1E6E11C
+    // Offset: 0x1E7C508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::LightsRenderingData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::.ctor");

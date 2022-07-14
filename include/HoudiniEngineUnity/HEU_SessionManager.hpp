@@ -68,154 +68,154 @@ namespace HoudiniEngineUnity {
     // Set static field: static public HoudiniEngineUnity.HEU_SessionManager/HoudiniEngineUnity.CreateSessionFromTypeDelegate _createSessionFromTypeDelegate
     static void _set__createSessionFromTypeDelegate(::HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AFE314
+    // Offset: 0x1B0B700
     static void _cctor();
     // static public HoudiniEngineUnity.HEU_SessionBase CreateSessionObject()
-    // Offset: 0x1AFB7F8
+    // Offset: 0x1B08BE4
     static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionObject();
     // static public HoudiniEngineUnity.HEU_SessionBase CreateSessionFromType(System.Type type)
-    // Offset: 0x1AFB85C
+    // Offset: 0x1B08C48
     static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(::System::Type* type);
     // static public HoudiniEngineUnity.HEU_SessionBase GetDefaultSession()
-    // Offset: 0x1AFB8C0
+    // Offset: 0x1B08CAC
     static ::HoudiniEngineUnity::HEU_SessionBase* GetDefaultSession();
     // static public System.Void RegisterSession(System.Int64 sessionID, HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFBA20
+    // Offset: 0x1B08E0C
     static void RegisterSession(int64_t sessionID, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Void UnregisterSession(System.Int64 sessionID)
-    // Offset: 0x1AFBB60
+    // Offset: 0x1B08F4C
     static void UnregisterSession(int64_t sessionID);
     // static public HoudiniEngineUnity.HEU_SessionBase GetSessionWithID(System.Int64 sessionID)
-    // Offset: 0x1AFBBE8
+    // Offset: 0x1B08FD4
     static ::HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(int64_t sessionID);
     // static public System.Void SaveAllSessionData()
-    // Offset: 0x1AFBAB8
+    // Offset: 0x1B08EA4
     static void SaveAllSessionData();
     // static public System.Void LoadAllSessionData()
-    // Offset: 0x1AF9138
+    // Offset: 0x1B06524
     static void LoadAllSessionData();
     // static private System.Void InternalValidateSceneAssets()
-    // Offset: 0x1AFBC84
+    // Offset: 0x1B09070
     static void InternalValidateSceneAssets();
     // static public HoudiniEngineUnity.HEU_SessionBase GetOrCreateDefaultSession(System.Boolean bNotifyUserError)
-    // Offset: 0x1AFBDD4
+    // Offset: 0x1B091C0
     static ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError);
     // static public System.Boolean CreateInProcessSession()
-    // Offset: 0x1AFC1B0
+    // Offset: 0x1B0959C
     static bool CreateInProcessSession();
     // static public System.Boolean CreateThriftSocketSession(System.String hostName, System.Int32 serverPort, System.Boolean autoClose, System.Single timeout, System.Boolean logError)
-    // Offset: 0x1AFC314
+    // Offset: 0x1B09700
     static bool CreateThriftSocketSession(::StringW hostName, int serverPort, bool autoClose, float timeout, bool logError);
     // static public System.Boolean CreateThriftPipeSession(System.String pipeName, System.Boolean autoClose, System.Single timeout, System.Boolean logError)
-    // Offset: 0x1AFC074
+    // Offset: 0x1B09460
     static bool CreateThriftPipeSession(::StringW pipeName, bool autoClose, float timeout, bool logError);
     // static public System.Boolean CreateCustomSession()
-    // Offset: 0x1AFC3E8
+    // Offset: 0x1B097D4
     static bool CreateCustomSession();
     // static public System.Boolean ConnectThriftSocketSession(System.String hostName, System.Int32 serverPort, System.Boolean autoClose, System.Single timeout)
-    // Offset: 0x1AFC47C
+    // Offset: 0x1B09868
     static bool ConnectThriftSocketSession(::StringW hostName, int serverPort, bool autoClose, float timeout);
     // static public System.Boolean ConnectThriftPipeSession(System.String pipeName, System.Boolean autoClose, System.Single timeout)
-    // Offset: 0x1AFC548
+    // Offset: 0x1B09934
     static bool ConnectThriftPipeSession(::StringW pipeName, bool autoClose, float timeout);
     // static public System.Void RecreateDefaultSessionData()
-    // Offset: 0x1AFC60C
+    // Offset: 0x1B099F8
     static void RecreateDefaultSessionData();
     // static public System.Boolean ConnectSessionSyncUsingThriftSocket(System.String hostName, System.Int32 serverPort, System.Boolean autoClose, System.Single timeout, System.Boolean logError)
-    // Offset: 0x1AFC67C
+    // Offset: 0x1B09A68
     static bool ConnectSessionSyncUsingThriftSocket(::StringW hostName, int serverPort, bool autoClose, float timeout, bool logError);
     // static public System.Boolean ConnectSessionSyncUsingThriftPipe(System.String pipeName, System.Boolean autoClose, System.Single timeout, System.Boolean logError)
-    // Offset: 0x1AFC780
+    // Offset: 0x1B09B6C
     static bool ConnectSessionSyncUsingThriftPipe(::StringW pipeName, bool autoClose, float timeout, bool logError);
     // static public System.Boolean InitializeDefaultSession()
-    // Offset: 0x1AFC874
+    // Offset: 0x1B09C60
     static bool InitializeDefaultSession();
     // static public System.Boolean CloseDefaultSession()
-    // Offset: 0x1AFC92C
+    // Offset: 0x1B09D18
     static bool CloseDefaultSession();
     // static public System.Void CloseAllSessions()
-    // Offset: 0x1AFCA08
+    // Offset: 0x1B09DF4
     static void CloseAllSessions();
     // static private System.Void CheckAndCloseExistingSession()
-    // Offset: 0x1AFC244
+    // Offset: 0x1B09630
     static void CheckAndCloseExistingSession();
     // static public HoudiniEngineUnity.HEU_SessionData GetSessionData()
-    // Offset: 0x1AFCC94
+    // Offset: 0x1B0A080
     static ::HoudiniEngineUnity::HEU_SessionData* GetSessionData();
     // static public System.String GetSessionInfo()
-    // Offset: 0x1AFCCFC
+    // Offset: 0x1B0A0E8
     static ::StringW GetSessionInfo();
     // static public System.Boolean LoadStoredDefaultSession()
-    // Offset: 0x1AFB968
+    // Offset: 0x1B08D54
     static bool LoadStoredDefaultSession();
     // static public System.Boolean RestartSession()
-    // Offset: 0x1AFCD84
+    // Offset: 0x1B0A170
     static bool RestartSession();
     // static public System.Boolean ValidatePluginSession(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFCEE0
+    // Offset: 0x1B0A2CC
     static bool ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String GetLastSessionError()
-    // Offset: 0x1AFC138
+    // Offset: 0x1B09524
     static ::StringW GetLastSessionError();
     // static public System.Boolean CheckVersionMatch()
-    // Offset: 0x1AFCF70
+    // Offset: 0x1B0A35C
     static bool CheckVersionMatch();
     // static public System.Boolean ClearConnectionError()
-    // Offset: 0x1AFCFF0
+    // Offset: 0x1B0A3DC
     static bool ClearConnectionError();
     // static public System.String GetConnectionError(System.Boolean clear)
-    // Offset: 0x1AFAA78
+    // Offset: 0x1B07E64
     static ::StringW GetConnectionError(bool clear);
     // static public System.Boolean IsHARSProcessRunning(System.Int32 processID)
-    // Offset: 0x1AFCFF8
+    // Offset: 0x1B0A3E4
     static bool IsHARSProcessRunning(int processID);
     // static public System.Boolean LoadSessionFromHIP(System.Boolean bCookNodes, HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFD094
+    // Offset: 0x1B0A480
     static bool LoadSessionFromHIP(bool bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean SaveSessionToHIP(System.Boolean bLockNodes, HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFD16C
+    // Offset: 0x1B0A558
     static bool SaveSessionToHIP(bool bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String GetHoudiniPathOnMacOS(System.String houdiniPath)
-    // Offset: 0x1AFD244
+    // Offset: 0x1B0A630
     static ::StringW GetHoudiniPathOnMacOS(::StringW houdiniPath);
     // static public System.Boolean OpenHoudini(System.String args)
-    // Offset: 0x1AFD248
+    // Offset: 0x1B0A634
     static bool OpenHoudini(::StringW args);
     // static public System.Boolean OpenSessionInHoudini(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFD2F0
+    // Offset: 0x1B0A6DC
     static bool OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public HoudiniEngineUnity.HAPI_License GetCurrentLicense(System.Boolean bLogError)
-    // Offset: 0x1AFD59C
+    // Offset: 0x1B0A988
     static ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(bool bLogError);
     // static public System.String GetString(System.Int32 stringHandle, HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFD648
+    // Offset: 0x1B0AA34
     static ::StringW GetString(int stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String[] GetStringValuesFromStringIndices(System.Int32[] strIndices)
-    // Offset: 0x1AFD738
+    // Offset: 0x1B0AB24
     static ::ArrayW<::StringW> GetStringValuesFromStringIndices(::ArrayW<int> strIndices);
     // static public System.String[] GetGroupNames(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.Boolean isInstanced)
-    // Offset: 0x1AFD8E0
+    // Offset: 0x1B0ACCC
     static ::ArrayW<::StringW> GetGroupNames(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, bool isInstanced);
     // static public System.Boolean GetGroupMembership(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Int32[] membership, System.Boolean isInstanced)
-    // Offset: 0x1AFDB3C
+    // Offset: 0x1B0AF28
     static bool GetGroupMembership(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int>> membership, bool isInstanced);
     // static public System.String GetNodeName(System.Int32 nodeID, HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1AFDC80
+    // Offset: 0x1B0B06C
     static ::StringW GetNodeName(int nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean GetNodeInputName(System.Int32 nodeID, System.Int32 inputIndex, out System.String inputName)
-    // Offset: 0x1AFDD8C
+    // Offset: 0x1B0B178
     static bool GetNodeInputName(int nodeID, int inputIndex, ByRef<::StringW> inputName);
     // static public System.Boolean GetComposedChildNodeList(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 parentNodeID, System.Int32 nodeTypeFilter, System.Int32 nodeFlagFilter, System.Boolean bRecursive, out System.Int32[] childNodeIDs)
-    // Offset: 0x1AFDE7C
+    // Offset: 0x1B0B268
     static bool GetComposedChildNodeList(::HoudiniEngineUnity::HEU_SessionBase* session, int parentNodeID, int nodeTypeFilter, int nodeFlagFilter, bool bRecursive, ByRef<::ArrayW<int>> childNodeIDs);
     // static public System.Boolean GetComposedObjectListMemorySafe(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, System.Int32 start, System.Int32 length)
-    // Offset: 0x1AFDF7C
+    // Offset: 0x1B0B368
     static bool GetComposedObjectListMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
     // static public System.Boolean GetComposedObjectTransformsMemorySafe(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transforms, System.Int32 start, System.Int32 length)
-    // Offset: 0x1AFE034
+    // Offset: 0x1B0B420
     static bool GetComposedObjectTransformsMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
     // static public System.String GetUniqueMaterialShopName(System.Int32 assetID, System.Int32 materialID)
-    // Offset: 0x1AFE0FC
+    // Offset: 0x1B0B4E8
     static ::StringW GetUniqueMaterialShopName(int assetID, int materialID);
   }; // HoudiniEngineUnity.HEU_SessionManager
   #pragma pack(pop)

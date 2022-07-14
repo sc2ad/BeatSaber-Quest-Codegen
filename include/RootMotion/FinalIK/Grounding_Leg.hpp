@@ -217,113 +217,113 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 transformPosition
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_transformPosition();
     // public System.Boolean get_isGrounded()
-    // Offset: 0x2217140
+    // Offset: 0x22245B8
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x2217148
+    // Offset: 0x22245C0
     void set_isGrounded(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
-    // Offset: 0x2217154
+    // Offset: 0x22245CC
     ::UnityEngine::Vector3 get_IKPosition();
     // private System.Void set_IKPosition(UnityEngine.Vector3 value)
-    // Offset: 0x2217160
+    // Offset: 0x22245D8
     void set_IKPosition(::UnityEngine::Vector3 value);
     // public System.Boolean get_initiated()
-    // Offset: 0x221716C
+    // Offset: 0x22245E4
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x2217174
+    // Offset: 0x22245EC
     void set_initiated(bool value);
     // public System.Single get_heightFromGround()
-    // Offset: 0x2217180
+    // Offset: 0x22245F8
     float get_heightFromGround();
     // private System.Void set_heightFromGround(System.Single value)
-    // Offset: 0x2217188
+    // Offset: 0x2224600
     void set_heightFromGround(float value);
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x2217190
+    // Offset: 0x2224608
     ::UnityEngine::Vector3 get_velocity();
     // private System.Void set_velocity(UnityEngine.Vector3 value)
-    // Offset: 0x221719C
+    // Offset: 0x2224614
     void set_velocity(::UnityEngine::Vector3 value);
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x22171A8
+    // Offset: 0x2224620
     ::UnityEngine::Transform* get_transform();
     // private System.Void set_transform(UnityEngine.Transform value)
-    // Offset: 0x22171B0
+    // Offset: 0x2224628
     void set_transform(::UnityEngine::Transform* value);
     // public System.Single get_IKOffset()
-    // Offset: 0x22171B8
+    // Offset: 0x2224630
     float get_IKOffset();
     // private System.Void set_IKOffset(System.Single value)
-    // Offset: 0x22171C0
+    // Offset: 0x2224638
     void set_IKOffset(float value);
     // public UnityEngine.RaycastHit get_heelHit()
-    // Offset: 0x22171C8
+    // Offset: 0x2224640
     ::UnityEngine::RaycastHit get_heelHit();
     // private System.Void set_heelHit(UnityEngine.RaycastHit value)
-    // Offset: 0x22171E0
+    // Offset: 0x2224658
     void set_heelHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_capsuleHit()
-    // Offset: 0x2217200
+    // Offset: 0x2224678
     ::UnityEngine::RaycastHit get_capsuleHit();
     // private System.Void set_capsuleHit(UnityEngine.RaycastHit value)
-    // Offset: 0x2217218
+    // Offset: 0x2224690
     void set_capsuleHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_GetHitPoint()
-    // Offset: 0x2217238
+    // Offset: 0x22246B0
     ::UnityEngine::RaycastHit get_GetHitPoint();
     // public System.Single get_stepHeightFromGround()
-    // Offset: 0x2217FF4
+    // Offset: 0x222546C
     float get_stepHeightFromGround();
     // private System.Single get_rootYOffset()
-    // Offset: 0x22182CC
+    // Offset: 0x2225744
     float get_rootYOffset();
     // public System.Void .ctor()
-    // Offset: 0x2215EB4
+    // Offset: 0x222332C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounding::Leg* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounding::Leg::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Leg*, creationType>()));
     }
     // public System.Void SetFootPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2217280
+    // Offset: 0x22246F8
     void SetFootPosition(::UnityEngine::Vector3 position);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding, UnityEngine.Transform transform)
-    // Offset: 0x2215F64
+    // Offset: 0x22233DC
     void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
     // public System.Void OnEnable()
-    // Offset: 0x2217294
+    // Offset: 0x222470C
     void OnEnable();
     // public System.Void Reset()
-    // Offset: 0x2216C60
+    // Offset: 0x22240D8
     void Reset();
     // public System.Void Process()
-    // Offset: 0x2216070
+    // Offset: 0x22234E8
     void Process();
     // private UnityEngine.RaycastHit GetCapsuleHit(UnityEngine.Vector3 offsetFromHeel)
-    // Offset: 0x2217A6C
+    // Offset: 0x2224EE4
     ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
     // private UnityEngine.RaycastHit GetRaycastHit(UnityEngine.Vector3 offsetFromHeel)
-    // Offset: 0x22172E0
+    // Offset: 0x2224758
     ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
     // private UnityEngine.Vector3 RotateNormal(UnityEngine.Vector3 normal)
-    // Offset: 0x2218174
+    // Offset: 0x22255EC
     ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
     // private System.Void SetFootToPoint(UnityEngine.Vector3 normal, UnityEngine.Vector3 point)
-    // Offset: 0x2217718
+    // Offset: 0x2224B90
     void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
     // private System.Void SetFootToPlane(UnityEngine.Vector3 planeNormal, UnityEngine.Vector3 planePoint, UnityEngine.Vector3 heelHitPoint)
-    // Offset: 0x2217820
+    // Offset: 0x2224C98
     void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
     // private System.Single GetHeightFromGround(UnityEngine.Vector3 hitPoint)
-    // Offset: 0x2218270
+    // Offset: 0x22256E8
     float GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
     // private System.Void RotateFoot()
-    // Offset: 0x2218080
+    // Offset: 0x22254F8
     void RotateFoot();
     // private UnityEngine.Quaternion GetRotationOffsetTarget()
-    // Offset: 0x22183F4
+    // Offset: 0x222586C
     ::UnityEngine::Quaternion GetRotationOffsetTarget();
   }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg
   #pragma pack(pop)

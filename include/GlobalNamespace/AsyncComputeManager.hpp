@@ -90,17 +90,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disposed
     [[deprecated("Use field access instead!")]] bool& dyn__disposed();
     // public System.Void .ctor()
-    // Offset: 0x1541438
+    // Offset: 0x154A640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncComputeManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncComputeManager*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x154153C
+    // Offset: 0x154A744
     void Dispose();
     // public System.Void BeginOperation(AsyncComputeOperation operation)
-    // Offset: 0x15415AC
+    // Offset: 0x154A7B4
     void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> operation)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, operation);
     }
     // private System.Void ComputeThreadRun()
-    // Offset: 0x1541614
+    // Offset: 0x154A81C
     void ComputeThreadRun();
   }; // AsyncComputeManager
   #pragma pack(pop)

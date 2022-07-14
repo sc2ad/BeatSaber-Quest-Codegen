@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO[] _colorSchemes
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ColorSchemeSO*>& dyn__colorSchemes();
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x2AE41E8
+    // Offset: 0x2AFC670
     ::ArrayW<::GlobalNamespace::ColorSchemeSO*> get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x2AE41F0
+    // Offset: 0x2AFC678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemesListSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemesListSO::.ctor");

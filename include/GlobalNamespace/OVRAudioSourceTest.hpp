@@ -49,17 +49,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single nextActionTime
     [[deprecated("Use field access instead!")]] float& dyn_nextActionTime();
     // public System.Void .ctor()
-    // Offset: 0x164FAF0
+    // Offset: 0x165AEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRAudioSourceTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRAudioSourceTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRAudioSourceTest*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x164F838
+    // Offset: 0x165AC24
     void Start();
     // private System.Void Update()
-    // Offset: 0x164F92C
+    // Offset: 0x165AD18
     void Update();
   }; // OVRAudioSourceTest
   #pragma pack(pop)

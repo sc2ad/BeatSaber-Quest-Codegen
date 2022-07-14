@@ -88,26 +88,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MissionNode> _missionNodes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*& dyn__missionNodes();
     // private MissionNode get__rootMissionNode()
-    // Offset: 0x1302B4C
+    // Offset: 0x13085AC
     ::GlobalNamespace::MissionNode* get__rootMissionNode();
     // public System.Void .ctor()
-    // Offset: 0x1303260
+    // Offset: 0x1308CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionConnectionsGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionConnectionsGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionConnectionsGenerator*, creationType>()));
     }
     // private System.Void CreateNodeConnections()
-    // Offset: 0x1302B68
+    // Offset: 0x13085C8
     void CreateNodeConnections();
     // private System.Void RemoveOldConnections()
-    // Offset: 0x1302BF0
+    // Offset: 0x1308650
     void RemoveOldConnections();
     // private System.Void CreateConnections(MissionNode missionNode, System.Collections.Generic.List`1<MissionNode> visitedNodes)
-    // Offset: 0x1302FBC
+    // Offset: 0x1308A1C
     void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
     // private MissionNodeConnection CreateConnectionBetweenNodes(MissionNode parentMissionNode, MissionNode childMissionNode)
-    // Offset: 0x1303154
+    // Offset: 0x1308BB4
     ::GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
   }; // MissionConnectionsGenerator
   #pragma pack(pop)

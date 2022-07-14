@@ -55,20 +55,20 @@ namespace TMPro {
     // Set static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
     static void _set_$$9__101_0(::System::Func_2<::UnityEngine::TextCore::Glyph*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14387FC
+    // Offset: 0x142E43C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1438860
+    // Offset: 0x142E4A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontAsset::$$c*, creationType>()));
     }
     // System.UInt32 <SortCharacterTable>b__100_0(TMPro.TMP_Character c)
-    // Offset: 0x1438868
+    // Offset: 0x142E4A8
     uint $SortCharacterTable$b__100_0(::TMPro::TMP_Character* c);
     // System.UInt32 <SortGlyphTable>b__101_0(UnityEngine.TextCore.Glyph c)
-    // Offset: 0x1438880
+    // Offset: 0x142E4C0
     uint $SortGlyphTable$b__101_0(::UnityEngine::TextCore::Glyph* c);
   }; // TMPro.TMP_FontAsset/TMPro.<>c
   #pragma pack(pop)

@@ -30,7 +30,7 @@ namespace UnityEngine::AddressableAssets {
   class AssetLabelReference : public ::Il2CppObject/*, public ::UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x10C9724
+    // [FormerlySerializedAsAttribute] Offset: 0x10D1E84
     // private System.String m_LabelString
     // Size: 0x8
     // Offset: 0x10
@@ -53,26 +53,26 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.String m_LabelString
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_LabelString();
     // public System.String get_labelString()
-    // Offset: 0x18C16BC
+    // Offset: 0x18CAAA8
     ::StringW get_labelString();
     // public System.Void set_labelString(System.String value)
-    // Offset: 0x18C16C4
+    // Offset: 0x18CAAB0
     void set_labelString(::StringW value);
     // public System.Object get_RuntimeKey()
-    // Offset: 0x18C16CC
+    // Offset: 0x18CAAB8
     ::Il2CppObject* get_RuntimeKey();
     // public System.Void .ctor()
-    // Offset: 0x18C1784
+    // Offset: 0x18CAB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetLabelReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AssetLabelReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetLabelReference*, creationType>()));
     }
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x18C172C
+    // Offset: 0x18CAB18
     bool RuntimeKeyIsValid();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x18C1764
+    // Offset: 0x18CAB50
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

@@ -242,12 +242,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean saveToOldFormat
     [[deprecated("Use field access instead!")]] bool& dyn_saveToOldFormat();
     // public System.Void .ctor(System.String gameMode, IBeatmapLevelPack pack, IPreviewBeatmapLevel level, BeatmapDifficulty difficulty, BeatmapCharacteristicSO characteristic, System.Boolean runLevel, ObjectsMovementRecorder/Mode recordingMode, System.String recordingPath, ObjectsMovementRecorder/CameraView cameraView, System.Boolean addDateTimeSuffixToRecordingName, System.Boolean screenshotRecording, System.Int32 screenshotWidth, System.Int32 screenshotHeight, System.Int32 framerate, PlaybackRenderer/PlaybackScreenshot[] playbackScreenshots, System.Boolean practice, System.Single startSongTime, System.Single songSpeedMultiplier, System.Boolean overrideEnvironments, EnvironmentTypeSO environmentType, EnvironmentInfoSO environmentInfo, System.Boolean saveToOldFormat)
-    // Offset: 0x147A6CC
+    // Offset: 0x144F330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSettings* New_ctor(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IPreviewBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, ::GlobalNamespace::ObjectsMovementRecorder::Mode recordingMode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot*> playbackScreenshots, bool practice, float startSongTime, float songSpeedMultiplier, bool overrideEnvironments, ::GlobalNamespace::EnvironmentTypeSO* environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolSettings*, creationType>(gameMode, pack, level, difficulty, characteristic, runLevel, recordingMode, recordingPath, cameraView, addDateTimeSuffixToRecordingName, screenshotRecording, screenshotWidth, screenshotHeight, framerate, playbackScreenshots, practice, startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentInfo, saveToOldFormat)));
     }
+    // public override System.String ToString()
+    // Offset: 0x144F488
+    // Implemented from: System.Object
+    // Base method: System.String Object::ToString()
+    ::StringW ToString();
   }; // RecordingToolSettings
   #pragma pack(pop)
   static check_size<sizeof(RecordingToolSettings), 136 + sizeof(bool)> __GlobalNamespace_RecordingToolSettingsSizeCheck;
@@ -258,3 +263,11 @@ namespace GlobalNamespace {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::RecordingToolSettings::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::RecordingToolSettings::*)()>(&GlobalNamespace::RecordingToolSettings::ToString)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RecordingToolSettings*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};

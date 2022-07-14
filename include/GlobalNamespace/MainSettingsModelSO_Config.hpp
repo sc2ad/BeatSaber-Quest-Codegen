@@ -457,7 +457,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String language
     [[deprecated("Use field access instead!")]] ::StringW& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x12F9878
+    // Offset: 0x12FF218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsModelSO::Config* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsModelSO::Config::.ctor");

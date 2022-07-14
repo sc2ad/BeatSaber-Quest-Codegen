@@ -52,17 +52,17 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x1E0A414
+    // Offset: 0x1E19800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(::Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::LateDisposableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::LateDisposableInfo*, creationType>(lateDisposable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E0BCA0
+    // Offset: 0x1E1B08C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E0BDAC
+    // Offset: 0x1E1B198
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.LateDisposableInfo
   #pragma pack(pop)

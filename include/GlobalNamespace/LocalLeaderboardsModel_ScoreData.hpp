@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int64 _timestamp
     [[deprecated("Use field access instead!")]] int64_t& dyn__timestamp();
     // public System.Void .ctor()
-    // Offset: 0x1532DD8
+    // Offset: 0x153CFE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::ScoreData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::ScoreData::.ctor");

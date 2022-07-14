@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A22224
+    // Offset: 0x2A3869C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentScriptableObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PersistentScriptableObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentScriptableObject*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2A221F4
+    // Offset: 0x2A3866C
     void OnEnable();
   }; // PersistentScriptableObject
   #pragma pack(pop)

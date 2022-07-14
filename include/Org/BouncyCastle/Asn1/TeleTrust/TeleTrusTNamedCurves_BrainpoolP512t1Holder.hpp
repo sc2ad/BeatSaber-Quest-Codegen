@@ -37,10 +37,10 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CCDF90
+    // Offset: 0x1CDC37C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x1CCDE14
+    // Offset: 0x1CDC200
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
       return THROW_UNLESS((::il2cpp_utils::New<TeleTrusTNamedCurves::BrainpoolP512t1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x1CCDE1C
+    // Offset: 0x1CDC208
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();

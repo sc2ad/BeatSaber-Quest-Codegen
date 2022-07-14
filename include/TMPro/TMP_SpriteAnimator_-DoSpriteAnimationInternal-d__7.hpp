@@ -174,26 +174,26 @@ namespace TMPro {
     // Get instance field reference: private System.Single <targetTime>5__8
     [[deprecated("Use field access instead!")]] float& dyn_$targetTime$5__8();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x144DFFC
+    // Offset: 0x146D35C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x144E064
+    // Offset: 0x146D3C4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x144D620
+    // Offset: 0x146C980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x144D6C0
+    // Offset: 0x146CA20
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x144D6C4
+    // Offset: 0x146CA24
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x144E004
+    // Offset: 0x146D364
     void System_Collections_IEnumerator_Reset();
   }; // TMPro.TMP_SpriteAnimator/TMPro.<DoSpriteAnimationInternal>d__7
   #pragma pack(pop)

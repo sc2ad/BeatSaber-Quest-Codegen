@@ -79,17 +79,17 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::Addressables::MergeMode& dyn_mode();
     // public System.Void .ctor()
-    // Offset: 0x18BE12C
+    // Offset: 0x18C7518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass94_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass94_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass94_0*, creationType>()));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> <DownloadDependenciesAsyncWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x18C0F18
+    // Offset: 0x18CA304
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> $DownloadDependenciesAsyncWithChain$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // System.Void <DownloadDependenciesAsyncWithChain>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource>> op)
-    // Offset: 0x18C0FBC
+    // Offset: 0x18CA3A8
     void $DownloadDependenciesAsyncWithChain$b__1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>*> op);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass94_0
   #pragma pack(pop)

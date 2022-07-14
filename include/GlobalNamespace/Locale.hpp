@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class Locale : public ::Il2CppObject {
     public:
     // static public System.String GetText(System.String msg)
-    // Offset: 0x23304F8
+    // Offset: 0x2343970
     static ::StringW GetText(::StringW msg);
   }; // Locale
   #pragma pack(pop)

@@ -71,26 +71,26 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IMediaAsyncLoader*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x12FBC3C
+    // Offset: 0x130169C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaAsyncLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MediaAsyncLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaAsyncLoader*, creationType>()));
     }
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12FB7A4
+    // Offset: 0x1301204
     static ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipFromFilePathAsync(System.String filePath)
-    // Offset: 0x12FB8B4
+    // Offset: 0x1301314
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadTextureAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12FB9B4
+    // Offset: 0x1301414
     static ::System::Threading::Tasks::Task_1<::UnityEngine::Texture2D*>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x12FBAC4
+    // Offset: 0x1301524
     static ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x12FBBD4
+    // Offset: 0x1301634
     static void Log(::StringW message);
   }; // MediaAsyncLoader
   #pragma pack(pop)

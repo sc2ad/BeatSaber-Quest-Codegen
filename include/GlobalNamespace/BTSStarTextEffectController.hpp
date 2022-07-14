@@ -95,17 +95,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentAnimationDuration
     [[deprecated("Use field access instead!")]] float& dyn__currentAnimationDuration();
     // public System.Single get_animationDuration()
-    // Offset: 0x1347CE0
+    // Offset: 0x13895C0
     float get_animationDuration();
     // public System.Void .ctor()
-    // Offset: 0x1347DF8
+    // Offset: 0x13896D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEffectController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectController*, creationType>()));
     }
     // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x1347CE8
+    // Offset: 0x13895C8
     void Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
   }; // BTSStarTextEffectController
   #pragma pack(pop)

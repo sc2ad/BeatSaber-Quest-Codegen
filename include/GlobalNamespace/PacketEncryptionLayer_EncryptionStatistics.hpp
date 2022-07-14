@@ -90,59 +90,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 _decryptionProcessingTime
     [[deprecated("Use field access instead!")]] int64_t& dyn__decryptionProcessingTime();
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x262B094
+    // Offset: 0x263F50C
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x262B0A0
+    // Offset: 0x263F518
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x262B0AC
+    // Offset: 0x263F524
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x262B0B8
+    // Offset: 0x263F530
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x262B0C4
+    // Offset: 0x263F53C
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x262B0D0
+    // Offset: 0x263F548
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x262B0DC
+    // Offset: 0x263F554
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x262B168
+    // Offset: 0x263F5E0
     int64_t get_decryptionProcessingTime();
     // public System.Void .ctor()
-    // Offset: 0x262B254
+    // Offset: 0x263F6CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::EncryptionStatistics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::EncryptionStatistics*, creationType>()));
     }
     // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x262B1F4
+    // Offset: 0x263F66C
     void IncrementPacketsReceivedPlaintext();
     // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x262B200
+    // Offset: 0x263F678
     void IncrementPacketsReceivedEncrypted();
     // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x262B20C
+    // Offset: 0x263F684
     void IncrementPacketsReceivedRejected();
     // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x262B218
+    // Offset: 0x263F690
     void IncrementPacketsSentPlaintext();
     // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x262B224
+    // Offset: 0x263F69C
     void IncrementPacketsSentEncrypted();
     // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x262B230
+    // Offset: 0x263F6A8
     void IncrementPacketsSentRejected();
     // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x262B23C
+    // Offset: 0x263F6B4
     void AddEncryptionProcessingTime(int64_t time);
     // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x262B248
+    // Offset: 0x263F6C0
     void AddDecryptionProcessingTime(int64_t time);
   }; // PacketEncryptionLayer/EncryptionStatistics
   #pragma pack(pop)

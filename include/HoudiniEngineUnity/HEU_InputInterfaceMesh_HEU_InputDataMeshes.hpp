@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasLOD
     [[deprecated("Use field access instead!")]] bool& dyn__hasLOD();
     // public System.Void .ctor()
-    // Offset: 0x1886DF0
+    // Offset: 0x18901DC
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

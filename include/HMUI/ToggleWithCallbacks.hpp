@@ -119,23 +119,23 @@ namespace HMUI {
     // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()
-    // Offset: 0x2A2EE9C
+    // Offset: 0x2A47314
     ::HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x2A2ED4C
+    // Offset: 0x2A471C4
     void add_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> value)
-    // Offset: 0x2A2EDF4
+    // Offset: 0x2A4726C
     void remove_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x2A2EF88
+    // Offset: 0x2A47400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleWithCallbacks* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleWithCallbacks::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleWithCallbacks*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x2A2EEFC
+    // Offset: 0x2A47374
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

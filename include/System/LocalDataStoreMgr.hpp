@@ -113,34 +113,34 @@ namespace System {
     // Get instance field reference: private System.Int64 m_CookieGenerator
     [[deprecated("Use field access instead!")]] int64_t& dyn_m_CookieGenerator();
     // public System.LocalDataStoreHolder CreateLocalDataStore()
-    // Offset: 0x1B95948
+    // Offset: 0x1BA2D34
     ::System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
-    // Offset: 0x1B951CC
+    // Offset: 0x1BA25B8
     void DeleteLocalDataStore(::System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
-    // Offset: 0x1B95A68
+    // Offset: 0x1BA2E54
     ::System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
-    // Offset: 0x1B95CAC
+    // Offset: 0x1BA3098
     ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
-    // Offset: 0x1B95D98
+    // Offset: 0x1BA3184
     ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1B95E84
+    // Offset: 0x1BA3270
     void FreeNamedDataSlot(::StringW name);
     // System.Void FreeDataSlot(System.Int32 slot, System.Int64 cookie)
-    // Offset: 0x1B95F54
+    // Offset: 0x1BA3340
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
-    // Offset: 0x1B953A4
+    // Offset: 0x1BA2790
     void ValidateSlot(::System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
-    // Offset: 0x1B95844
+    // Offset: 0x1BA2C30
     int GetSlotTableLength();
     // public System.Void .ctor()
-    // Offset: 0x1B960BC
+    // Offset: 0x1BA34A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

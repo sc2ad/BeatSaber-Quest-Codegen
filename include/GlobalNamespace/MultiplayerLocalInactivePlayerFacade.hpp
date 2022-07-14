@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory
     class Factory;
     public:
-    // [InjectAttribute] Offset: 0x10DB9C4
+    // [InjectAttribute] Offset: 0x10E3108
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* inactivePlayerSongSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB9D4
+    // [InjectAttribute] Offset: 0x10E3118
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* introAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB9F4
+    // [InjectAttribute] Offset: 0x10E3138
     // private readonly MultiplayerLocalInactivePlayerOutroAnimator _outroAnimator
     // Size: 0x8
     // Offset: 0x30
@@ -147,44 +147,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerNetworkDidFailedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x13AA73C
+    // Offset: 0x13AFB10
     ::GlobalNamespace::IStartSeekSongController* get_songController();
     // public MultiplayerSpectatorController get_spectatorController()
-    // Offset: 0x13AA744
+    // Offset: 0x13AFB18
     ::GlobalNamespace::MultiplayerSpectatorController* get_spectatorController();
     // public UnityEngine.GameObject get_introAnimator()
-    // Offset: 0x13AA74C
+    // Offset: 0x13AFB20
     ::UnityEngine::GameObject* get_introAnimator();
     // public UnityEngine.Playables.PlayableDirector get_introPlayableDirector()
-    // Offset: 0x13AA768
+    // Offset: 0x13AFB3C
     ::UnityEngine::Playables::PlayableDirector* get_introPlayableDirector();
     // public MultiplayerLocalInactivePlayerOutroAnimator get_outroAnimator()
-    // Offset: 0x13AA770
+    // Offset: 0x13AFB44
     ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* get_outroAnimator();
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13AA778
+    // Offset: 0x13AFB4C
     void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13AA81C
+    // Offset: 0x13AFBF0
     void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13AA8C0
+    // Offset: 0x13AFC94
     void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13AA964
+    // Offset: 0x13AFD38
     void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13AAAF0
+    // Offset: 0x13AFEC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerFacade*, creationType>()));
     }
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13AAA08
+    // Offset: 0x13AFDDC
     void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13AAA7C
+    // Offset: 0x13AFE50
     void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
   }; // MultiplayerLocalInactivePlayerFacade
   #pragma pack(pop)

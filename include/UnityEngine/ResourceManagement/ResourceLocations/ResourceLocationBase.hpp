@@ -130,50 +130,50 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     // Get instance field reference: private System.String m_PrimaryKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_PrimaryKey();
     // public System.String get_InternalId()
-    // Offset: 0x1EDA6A4
+    // Offset: 0x1EE9B1C
     ::StringW get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x1EDA6AC
+    // Offset: 0x1EE9B24
     ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x1EDA6B4
+    // Offset: 0x1EE9B2C
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x1EDA6BC
+    // Offset: 0x1EE9B34
     bool get_HasDependencies();
     // public System.Object get_Data()
-    // Offset: 0x1EDA718
+    // Offset: 0x1EE9B90
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x1EDA720
+    // Offset: 0x1EE9B98
     void set_Data(::Il2CppObject* value);
     // public System.String get_PrimaryKey()
-    // Offset: 0x1EDA728
+    // Offset: 0x1EE9BA0
     ::StringW get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x1EDA730
+    // Offset: 0x1EE9BA8
     void set_PrimaryKey(::StringW value);
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x1EDA738
+    // Offset: 0x1EE9BB0
     int get_DependencyHashCode();
     // public System.Type get_ResourceType()
-    // Offset: 0x1EDA740
+    // Offset: 0x1EE9BB8
     ::System::Type* get_ResourceType();
     // public System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    // Offset: 0x1EDA7A8
+    // Offset: 0x1EE9C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationBase* New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationBase*, creationType>(name, id, providerId, t, dependencies)));
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x1EDA748
+    // Offset: 0x1EE9BC0
     int Hash(::System::Type* t);
     // public System.Void ComputeDependencyHash()
-    // Offset: 0x1EDA9A4
+    // Offset: 0x1EE9E1C
     void ComputeDependencyHash();
     // public override System.String ToString()
-    // Offset: 0x1EDA7A0
+    // Offset: 0x1EE9C18
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

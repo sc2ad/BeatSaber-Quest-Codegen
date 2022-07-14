@@ -92,32 +92,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedSubMenuInfoIdx
     [[deprecated("Use field access instead!")]] int& dyn__selectedSubMenuInfoIdx();
     // public System.Int32 get_numberOfSubMenus()
-    // Offset: 0x153F30C
+    // Offset: 0x1549514
     int get_numberOfSubMenus();
     // public SettingsSubMenuInfo get_selectedSubMenuInfo()
-    // Offset: 0x153F328
+    // Offset: 0x1549530
     ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
     // public System.Void add_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x153F1C4
+    // Offset: 0x15493CC
     void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void remove_didSelectSettingsSubMenuEvent(System.Action`2<SettingsSubMenuInfo,System.Int32> value)
-    // Offset: 0x153F268
+    // Offset: 0x1549470
     void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int>* value);
     // public System.Void .ctor()
-    // Offset: 0x153F5A4
+    // Offset: 0x15497AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewController*, creationType>()));
     }
     // public System.Void Init(System.Int32 selectedSubMenuInfoIdx)
-    // Offset: 0x153F330
+    // Offset: 0x1549538
     void Init(int selectedSubMenuInfoIdx);
     // private System.Void HandleSettingsMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x153F4FC
+    // Offset: 0x1549704
     void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x153F374
+    // Offset: 0x154957C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

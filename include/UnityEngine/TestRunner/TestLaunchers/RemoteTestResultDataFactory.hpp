@@ -56,23 +56,23 @@ namespace UnityEngine::TestRunner::TestLaunchers {
       return reinterpret_cast<::UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x197B294
+    // Offset: 0x1985680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultDataFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultDataFactory*, creationType>()));
     }
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTestResult(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x197ABFC
+    // Offset: 0x1984FE8
     ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTestResult(::NUnit::Framework::Interfaces::ITestResult* result);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData CreateFromTest(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x197B17C
+    // Offset: 0x1985568
     ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(::NUnit::Framework::Interfaces::ITest* test);
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x197AD58
+    // Offset: 0x1985144
     ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> CreateTestDataList(::NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x197AEF8
+    // Offset: 0x19852E4
     static ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> CreateTestResultDataList(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataFactory
   #pragma pack(pop)

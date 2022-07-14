@@ -23,7 +23,7 @@ namespace System::Net::Cache {
   class RequestCacheValidator : public ::Il2CppObject {
     public:
     // public System.Object CreateValidator()
-    // Offset: 0x1CEBB30
+    // Offset: 0x1CF9F1C
     ::Il2CppObject* CreateValidator();
   }; // System.Net.Cache.RequestCacheValidator
   #pragma pack(pop)

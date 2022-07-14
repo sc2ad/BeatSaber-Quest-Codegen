@@ -34,14 +34,14 @@ namespace GlobalNamespace {
       return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x14B1678
+    // Offset: 0x14D012C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter::CuttableBySaberSortParamsComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter::CuttableBySaberSortParamsComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x14B1D48
+    // Offset: 0x14D07FC
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
   }; // NoteCutter/CuttableBySaberSortParamsComparer
   #pragma pack(pop)

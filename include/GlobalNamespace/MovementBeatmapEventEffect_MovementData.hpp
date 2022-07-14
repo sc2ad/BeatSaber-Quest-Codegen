@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPositionOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPositionOffset();
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x13CA988
+    // Offset: 0x13FACAC
     ::UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x13CA994
+    // Offset: 0x13FACB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementBeatmapEventEffect::MovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MovementBeatmapEventEffect::MovementData::.ctor");

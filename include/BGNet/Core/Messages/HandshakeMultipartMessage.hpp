@@ -47,10 +47,10 @@ namespace BGNet::Core::Messages {
       return reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<BGNet.Core.Messages.HandshakeMultipartMessage> get_pool()
-    // Offset: 0x15451B4
+    // Offset: 0x154E3BC
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HandshakeMultipartMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x154D6A8
+    // Offset: 0x15568B0
     // Implemented from: BGNet.Core.Messages.BaseMultipartMessage
     // Base method: System.Void BaseMultipartMessage::.ctor()
     // Base method: System.Void BaseReliableRequest::.ctor()
@@ -60,7 +60,7 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMultipartMessage*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x154D64C
+    // Offset: 0x1556854
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD5E8
+    // [InjectAttribute] Offset: 0x10E4D2C
     // private readonly NoteCutter _noteCutter
     // Size: 0x8
     // Offset: 0x20
@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly NoteCutter _noteCutter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutter*& dyn__noteCutter();
     // public System.Void .ctor()
-    // Offset: 0x1406BD4
+    // Offset: 0x1490B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CuttingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttingManager*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x1406A5C
+    // Offset: 0x14909F8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1406AF0
+    // Offset: 0x1490A8C
     void OnDisable();
     // private System.Void HandleSaberManagerDidUpdateSaberPositions(Saber leftSaber, Saber rightSaber)
-    // Offset: 0x1406B84
+    // Offset: 0x1490B20
     void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
   }; // CuttingManager
   #pragma pack(pop)

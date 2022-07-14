@@ -45,25 +45,25 @@ namespace Org::BouncyCastle::Asn1::Utilities {
     // Set static field: static private readonly System.String NewLine
     static void _set_NewLine(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1CD2188
+    // Offset: 0x1CE0574
     static void _cctor();
     // static private System.Void AsString(System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.Asn1Object obj, System.Text.StringBuilder buf)
-    // Offset: 0x1CCEF88
+    // Offset: 0x1CDD374
     static void AsString(::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::System::Text::StringBuilder* buf);
     // static private System.String outputApplicationSpecific(System.String type, System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.DerApplicationSpecific app)
-    // Offset: 0x1CD173C
+    // Offset: 0x1CDFB28
     static ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1CD1F84
+    // Offset: 0x1CE0370
     static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj, System.Boolean verbose)
-    // Offset: 0x1CD1FEC
+    // Offset: 0x1CE03D8
     static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
     // static private System.String dumpBinaryDataAsString(System.String indent, System.Byte[] bytes)
-    // Offset: 0x1CD14CC
+    // Offset: 0x1CDF8B8
     static ::StringW dumpBinaryDataAsString(::StringW indent, ::ArrayW<uint8_t> bytes);
     // static private System.String calculateAscString(System.Byte[] bytes, System.Int32 off, System.Int32 len)
-    // Offset: 0x1CD20BC
+    // Offset: 0x1CE04A8
     static ::StringW calculateAscString(::ArrayW<uint8_t> bytes, int off, int len);
   }; // Org.BouncyCastle.Asn1.Utilities.Asn1Dump
   #pragma pack(pop)

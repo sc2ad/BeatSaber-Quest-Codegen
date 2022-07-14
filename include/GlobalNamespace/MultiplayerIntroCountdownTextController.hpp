@@ -50,32 +50,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshPro[] _texts
     [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TextMeshPro*>& dyn__texts();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x14193E4
+    // Offset: 0x140F024
     void set_hide(bool value);
     // public System.Single get_fontSize()
-    // Offset: 0x141941C
+    // Offset: 0x140F05C
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x14198A8
+    // Offset: 0x140F4E8
     void set_fontSize(float value);
     // public System.Single get_alpha()
-    // Offset: 0x1419460
+    // Offset: 0x140F0A0
     float get_alpha();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x141993C
+    // Offset: 0x140F57C
     void set_alpha(float value);
     // public System.Void .ctor()
-    // Offset: 0x141A664
+    // Offset: 0x14102A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdownTextController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdownTextController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdownTextController*, creationType>()));
     }
     // public System.Void SetText(System.String text)
-    // Offset: 0x141A43C
+    // Offset: 0x141007C
     void SetText(::StringW text);
     // public System.Void SetDistances(System.Single distance)
-    // Offset: 0x1419A98
+    // Offset: 0x140F6D8
     void SetDistances(float distance);
   }; // MultiplayerIntroCountdownTextController
   #pragma pack(pop)

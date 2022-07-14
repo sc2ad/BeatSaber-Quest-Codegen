@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MirroredObstacleController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredObstacleController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1301C4C
+    // Offset: 0x13076AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredObstacleController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredObstacleController::Pool::.ctor");

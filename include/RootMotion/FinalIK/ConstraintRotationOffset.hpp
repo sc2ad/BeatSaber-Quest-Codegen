@@ -88,17 +88,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean initiated
     [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // private System.Boolean get_rotationChanged()
-    // Offset: 0x224A8E4
+    // Offset: 0x2258D5C
     bool get_rotationChanged();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x224A9BC
+    // Offset: 0x2258E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintRotationOffset* New_ctor(::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::ConstraintRotationOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>(transform)));
     }
     // public System.Void .ctor()
-    // Offset: 0x224A9B4
+    // Offset: 0x2258E2C
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,7 +107,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotationOffset*, creationType>()));
     }
     // public override System.Void UpdateConstraint()
-    // Offset: 0x224A744
+    // Offset: 0x2258BBC
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();

@@ -85,10 +85,10 @@ namespace Valve::VR {
     // Get instance field reference: public System.Int32 diffuseTextureId
     [[deprecated("Use field access instead!")]] int& dyn_diffuseTextureId();
     // public System.Void .ctor(Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x2A9DE5C
+    // Offset: 0x2AB72E4
     RenderModel_t_Packed(::Valve::VR::RenderModel_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_t unpacked)
-    // Offset: 0x2A9DE88
+    // Offset: 0x2AB7310
     void Unpack(ByRef<::Valve::VR::RenderModel_t> unpacked);
   }; // Valve.VR.RenderModel_t_Packed
   #pragma pack(pop)

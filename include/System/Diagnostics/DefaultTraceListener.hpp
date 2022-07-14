@@ -52,56 +52,56 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String logFileName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_logFileName();
     // public System.String get_LogFileName()
-    // Offset: 0x1CD6928
+    // Offset: 0x1CE4D14
     ::StringW get_LogFileName();
     // static private System.Void .cctor()
-    // Offset: 0x1CD66C4
+    // Offset: 0x1CE4AB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CD6880
+    // Offset: 0x1CE4C6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTraceListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DefaultTraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTraceListener*, creationType>()));
     }
     // static private System.String GetPrefix(System.String var, System.String target)
-    // Offset: 0x1CD67F0
+    // Offset: 0x1CE4BDC
     static ::StringW GetPrefix(::StringW var, ::StringW target);
     // static private System.Void WriteWindowsDebugString(System.String message)
-    // Offset: 0x1CD6B08
+    // Offset: 0x1CE4EF4
     static void WriteWindowsDebugString(::StringW message);
     // private System.Void WriteDebugString(System.String message)
-    // Offset: 0x1CD6B0C
+    // Offset: 0x1CE4EF8
     void WriteDebugString(::StringW message);
     // private System.Void WriteMonoTrace(System.String message)
-    // Offset: 0x1CD6BB8
+    // Offset: 0x1CE4FA4
     void WriteMonoTrace(::StringW message);
     // private System.Void WritePrefix()
-    // Offset: 0x1CD6F94
+    // Offset: 0x1CE5380
     void WritePrefix();
     // private System.Void WriteImpl(System.String message)
-    // Offset: 0x1CD7034
+    // Offset: 0x1CE5420
     void WriteImpl(::StringW message);
     // private System.Void WriteLogFile(System.String message, System.String logFile)
-    // Offset: 0x1CD6D88
+    // Offset: 0x1CE5174
     void WriteLogFile(::StringW message, ::StringW logFile);
     // public override System.Void Fail(System.String message)
-    // Offset: 0x1CD6930
+    // Offset: 0x1CE4D1C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
     void Fail(::StringW message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1CD6950
+    // Offset: 0x1CE4D3C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
     void Fail(::StringW message, ::StringW detailMessage);
     // public override System.Void Write(System.String message)
-    // Offset: 0x1CD7114
+    // Offset: 0x1CE5500
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
     void Write(::StringW message);
     // public override System.Void WriteLine(System.String message)
-    // Offset: 0x1CD7118
+    // Offset: 0x1CE5504
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
     void WriteLine(::StringW message);

@@ -68,7 +68,7 @@ namespace OnlineServices::API {
     // Nested type: ::OnlineServices::API::HTTPApiLeaderboardsModel::$SendLevelScoreResultAsync$d__5
     struct $SendLevelScoreResultAsync$d__5;
     public:
-    // [InjectAttribute] Offset: 0x10E8880
+    // [InjectAttribute] Offset: 0x10F0100
     // private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     // Size: 0x8
     // Offset: 0x10
@@ -103,20 +103,20 @@ namespace OnlineServices::API {
     // Get instance field reference: private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn__httpLeaderboardsOathHelper();
     // public System.Void .ctor()
-    // Offset: 0x1568D5C
+    // Offset: 0x1573C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPApiLeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPApiLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPApiLeaderboardsModel*, creationType>()));
     }
     // public System.Void LogoutAsync()
-    // Offset: 0x1568A74
+    // Offset: 0x1573988
     void LogoutAsync();
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1568B34
+    // Offset: 0x1573A48
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1568C48
+    // Offset: 0x1573B5C
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::Response>* SendLevelScoreResultAsync(::BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResult, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.HTTPApiLeaderboardsModel
   #pragma pack(pop)

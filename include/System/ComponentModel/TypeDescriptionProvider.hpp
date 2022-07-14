@@ -64,32 +64,32 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.TypeDescriptionProvider/System.ComponentModel.EmptyCustomTypeDescriptor _emptyDescriptor
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::TypeDescriptionProvider::EmptyCustomTypeDescriptor*& dyn__emptyDescriptor();
     // protected System.Void .ctor()
-    // Offset: 0x1D8B2F8
+    // Offset: 0x1D9A6E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptionProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptionProvider*, creationType>()));
     }
     // public System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1D99440
+    // Offset: 0x1DA882C
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1D99458
+    // Offset: 0x1DA8844
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public System.Type GetReflectionType(System.Type objectType)
-    // Offset: 0x1D994FC
+    // Offset: 0x1DA88E8
     ::System::Type* GetReflectionType(::System::Type* objectType);
     // public System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1D9950C
+    // Offset: 0x1DA88F8
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType)
-    // Offset: 0x1D99528
+    // Offset: 0x1DA8914
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Object instance)
-    // Offset: 0x1D99538
+    // Offset: 0x1DA8924
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::Il2CppObject* instance);
     // public System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1D995E4
+    // Offset: 0x1DA89D0
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);
   }; // System.ComponentModel.TypeDescriptionProvider
   #pragma pack(pop)

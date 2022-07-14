@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class TransformLayouter : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A27764
+    // Offset: 0x2A3DBDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransformLayouter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TransformLayouter::.ctor");

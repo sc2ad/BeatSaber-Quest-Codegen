@@ -72,21 +72,21 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
-    // [NullAllowed] Offset: 0x10DD748
+    // [NullAllowed] Offset: 0x10E4E8C
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::TubeBloomPrePassLight* saberLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10DD780
+    // [InjectOptionalAttribute] Offset: 0x10E4EC4
     // private readonly SaberModelController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SaberModelController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberModelController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DD790
+    // [InjectAttribute] Offset: 0x10E4ED4
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -109,14 +109,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorManager _colorManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // public System.Void .ctor()
-    // Offset: 0x1484680
+    // Offset: 0x145A120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Transform parent, Saber saber)
-    // Offset: 0x14843A8
+    // Offset: 0x1459E48
     void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
   }; // SaberModelController
   #pragma pack(pop)

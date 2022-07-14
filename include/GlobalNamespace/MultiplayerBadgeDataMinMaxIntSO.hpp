@@ -50,7 +50,7 @@ namespace GlobalNamespace {
   class MultiplayerBadgeDataMinMaxIntSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10DAEBC
+    // [SpaceAttribute] Offset: 0x10E2600
     // private MultiplayerBadgeMinMax _minMax
     // Size: 0x4
     // Offset: 0x30
@@ -72,13 +72,13 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
     // private MultiplayerBadgeAwardData CalculateMax(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, System.Single randomMultiplier)
-    // Offset: 0x13CCBA4
+    // Offset: 0x13FCEC8
     ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, float randomMultiplier);
     // private MultiplayerBadgeAwardData CalculateMin(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, System.Single randomMultiplier)
-    // Offset: 0x13CD034
+    // Offset: 0x13FD358
     ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x13CBDC8
+    // Offset: 0x13FC0EC
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataMinMaxIntSO*, creationType>()));
     }
     // public override MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
-    // Offset: 0x13CCB90
+    // Offset: 0x13FCEB4
     // Implemented from: MultiplayerBadgeDataSO
     // Base method: MultiplayerBadgeAwardData MultiplayerBadgeDataSO::CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);

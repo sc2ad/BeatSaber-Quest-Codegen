@@ -43,20 +43,20 @@ namespace System::Xml {
   class OnRemoveWriter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AC1704
+    // Offset: 0x1ACEAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnRemoveWriter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::OnRemoveWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnRemoveWriter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Xml.XmlRawWriter writer)
-    // Offset: 0x1AC1714
+    // Offset: 0x1ACEB00
     void Invoke(::System::Xml::XmlRawWriter* writer);
     // public System.IAsyncResult BeginInvoke(System.Xml.XmlRawWriter writer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AC1AA8
+    // Offset: 0x1ACEE94
     ::System::IAsyncResult* BeginInvoke(::System::Xml::XmlRawWriter* writer, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AC1ACC
+    // Offset: 0x1ACEEB8
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.OnRemoveWriter
   #pragma pack(pop)

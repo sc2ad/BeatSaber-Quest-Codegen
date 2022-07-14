@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 nodeIdx
     [[deprecated("Use field access instead!")]] int& dyn_nodeIdx();
     // public System.Void .ctor()
-    // Offset: 0x14A5E94
+    // Offset: 0x14AF6D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::NodeInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo::.ctor");

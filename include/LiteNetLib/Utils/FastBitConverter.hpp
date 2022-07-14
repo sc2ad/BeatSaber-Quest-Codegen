@@ -33,37 +33,37 @@ namespace LiteNetLib::Utils {
     // Nested type: ::LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat
     struct ConverterHelperFloat;
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.UInt64 data)
-    // Offset: 0x21B3DC4
+    // Offset: 0x21C123C
     static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, uint64_t data);
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int32 data)
-    // Offset: 0x21B3EC0
+    // Offset: 0x21C1338
     static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, int data);
     // static public System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int16 data)
-    // Offset: 0x21B3F4C
+    // Offset: 0x21C13C4
     static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, int16_t data);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Double value)
-    // Offset: 0x21B3FA0
+    // Offset: 0x21C1418
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, double value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Single value)
-    // Offset: 0x21B3FA8
+    // Offset: 0x21C1420
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, float value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int16 value)
-    // Offset: 0x21B3FB0
+    // Offset: 0x21C1428
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt16 value)
-    // Offset: 0x21AE8D8
+    // Offset: 0x21BBD50
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int32 value)
-    // Offset: 0x21A8134
+    // Offset: 0x21B55AC
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt32 value)
-    // Offset: 0x21A645C
+    // Offset: 0x21B38D4
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int64 value)
-    // Offset: 0x21A7CF4
+    // Offset: 0x21B516C
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int64_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt64 value)
-    // Offset: 0x21B3FB4
+    // Offset: 0x21C142C
     static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint64_t value);
   }; // LiteNetLib.Utils.FastBitConverter
   #pragma pack(pop)

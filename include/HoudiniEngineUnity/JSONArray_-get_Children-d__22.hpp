@@ -93,35 +93,35 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> <>7__wrap1
     [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_$$7__wrap1();
     // private HoudiniEngineUnity.JSONNode System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current()
-    // Offset: 0x1A0DFA0
+    // Offset: 0x1A1838C
     ::HoudiniEngineUnity::JSONNode* System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1A0E008
+    // Offset: 0x1A183F4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1A0DB90
+    // Offset: 0x1A17F7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONArray::$get_Children$d__22* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONArray::$get_Children$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONArray::$get_Children$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1A0DDD8
+    // Offset: 0x1A181C4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1A0DE4C
+    // Offset: 0x1A18238
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1A0DDF4
+    // Offset: 0x1A181E0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1A0DFA8
+    // Offset: 0x1A18394
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<HoudiniEngineUnity.JSONNode> System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator()
-    // Offset: 0x1A0E010
+    // Offset: 0x1A183FC
     ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* System_Collections_Generic_IEnumerable$HoudiniEngineUnity_JSONNode$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1A0E0BC
+    // Offset: 0x1A184A8
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // HoudiniEngineUnity.JSONArray/HoudiniEngineUnity.<get_Children>d__22
   // WARNING Not writing size check since size may be invalid!

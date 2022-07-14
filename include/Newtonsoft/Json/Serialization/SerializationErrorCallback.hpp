@@ -49,20 +49,20 @@ namespace Newtonsoft::Json::Serialization {
   class SerializationErrorCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x207FEBC
+    // Offset: 0x208D334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationErrorCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::SerializationErrorCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationErrorCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext errorContext)
-    // Offset: 0x207FECC
+    // Offset: 0x208D344
     void Invoke(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
     // public System.IAsyncResult BeginInvoke(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext errorContext, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2080318
+    // Offset: 0x208D790
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x20803B8
+    // Offset: 0x208D830
     void EndInvoke(::System::IAsyncResult* result);
   }; // Newtonsoft.Json.Serialization.SerializationErrorCallback
   #pragma pack(pop)

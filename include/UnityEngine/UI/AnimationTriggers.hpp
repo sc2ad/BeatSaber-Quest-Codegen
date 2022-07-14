@@ -35,35 +35,35 @@ namespace UnityEngine::UI {
   class AnimationTriggers : public ::Il2CppObject {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x1080764
+    // [FormerlySerializedAsAttribute] Offset: 0x108AEB4
     // private System.String m_NormalTrigger
     // Size: 0x8
     // Offset: 0x10
     ::StringW m_NormalTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10807B0
+    // [FormerlySerializedAsAttribute] Offset: 0x108AF00
     // private System.String m_HighlightedTrigger
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_HighlightedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10807FC
+    // [FormerlySerializedAsAttribute] Offset: 0x108AF4C
     // private System.String m_PressedTrigger
     // Size: 0x8
     // Offset: 0x20
     ::StringW m_PressedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1080848
+    // [FormerlySerializedAsAttribute] Offset: 0x108AF98
     // private System.String m_SelectedTrigger
     // Size: 0x8
     // Offset: 0x28
     ::StringW m_SelectedTrigger;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1080894
+    // [FormerlySerializedAsAttribute] Offset: 0x108AFE4
     // private System.String m_DisabledTrigger
     // Size: 0x8
     // Offset: 0x30
@@ -112,37 +112,37 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.String m_DisabledTrigger
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_DisabledTrigger();
     // public System.String get_normalTrigger()
-    // Offset: 0x1931658
+    // Offset: 0x193BA44
     ::StringW get_normalTrigger();
     // public System.Void set_normalTrigger(System.String value)
-    // Offset: 0x1931660
+    // Offset: 0x193BA4C
     void set_normalTrigger(::StringW value);
     // public System.String get_highlightedTrigger()
-    // Offset: 0x1931668
+    // Offset: 0x193BA54
     ::StringW get_highlightedTrigger();
     // public System.Void set_highlightedTrigger(System.String value)
-    // Offset: 0x1931670
+    // Offset: 0x193BA5C
     void set_highlightedTrigger(::StringW value);
     // public System.String get_pressedTrigger()
-    // Offset: 0x1931678
+    // Offset: 0x193BA64
     ::StringW get_pressedTrigger();
     // public System.Void set_pressedTrigger(System.String value)
-    // Offset: 0x1931680
+    // Offset: 0x193BA6C
     void set_pressedTrigger(::StringW value);
     // public System.String get_selectedTrigger()
-    // Offset: 0x1931688
+    // Offset: 0x193BA74
     ::StringW get_selectedTrigger();
     // public System.Void set_selectedTrigger(System.String value)
-    // Offset: 0x1931690
+    // Offset: 0x193BA7C
     void set_selectedTrigger(::StringW value);
     // public System.String get_disabledTrigger()
-    // Offset: 0x1931698
+    // Offset: 0x193BA84
     ::StringW get_disabledTrigger();
     // public System.Void set_disabledTrigger(System.String value)
-    // Offset: 0x19316A0
+    // Offset: 0x193BA8C
     void set_disabledTrigger(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x19316A8
+    // Offset: 0x193BA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationTriggers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::AnimationTriggers::.ctor");

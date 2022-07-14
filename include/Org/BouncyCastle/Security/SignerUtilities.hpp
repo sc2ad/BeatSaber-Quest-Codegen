@@ -49,13 +49,13 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static readonly System.Collections.IDictionary oids
     static void _set_oids(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x17F9054
+    // Offset: 0x1802440
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.ISigner GetSigner(System.String algorithm)
-    // Offset: 0x1803E94
+    // Offset: 0x180D280
     static ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::StringW algorithm);
     // static public System.String GetEncodingName(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1804D14
+    // Offset: 0x180E100
     static ::StringW GetEncodingName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Security.SignerUtilities
   #pragma pack(pop)

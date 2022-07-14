@@ -50,7 +50,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1569CDC
+    // Offset: 0x1574BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0::.ctor");

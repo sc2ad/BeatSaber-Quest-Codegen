@@ -184,93 +184,93 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] shifts1SC
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shifts1SC();
     // public System.String get_AlgorithmName()
-    // Offset: 0x240339C
+    // Offset: 0x2418814
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x24033E4
+    // Offset: 0x241885C
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x2402EEC
+    // Offset: 0x2418364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RijndaelEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 blockBits)
-    // Offset: 0x2402EF4
+    // Offset: 0x241836C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RijndaelEngine* New_ctor(int blockBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RijndaelEngine*, creationType>(blockBits)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2403A08
+    // Offset: 0x2418E80
     static void _cctor();
     // private System.Byte Mul0x2(System.Int32 b)
-    // Offset: 0x2401B08
+    // Offset: 0x2416F80
     uint8_t Mul0x2(int b);
     // private System.Byte Mul0x3(System.Int32 b)
-    // Offset: 0x2401BC8
+    // Offset: 0x2417040
     uint8_t Mul0x3(int b);
     // private System.Byte Mul0x9(System.Int32 b)
-    // Offset: 0x2401C88
+    // Offset: 0x2417100
     uint8_t Mul0x9(int b);
     // private System.Byte Mul0xb(System.Int32 b)
-    // Offset: 0x2401D2C
+    // Offset: 0x24171A4
     uint8_t Mul0xb(int b);
     // private System.Byte Mul0xd(System.Int32 b)
-    // Offset: 0x2401DD0
+    // Offset: 0x2417248
     uint8_t Mul0xd(int b);
     // private System.Byte Mul0xe(System.Int32 b)
-    // Offset: 0x2401E74
+    // Offset: 0x24172EC
     uint8_t Mul0xe(int b);
     // private System.Void KeyAddition(System.Int64[] rk)
-    // Offset: 0x2401F18
+    // Offset: 0x2417390
     void KeyAddition(::ArrayW<int64_t> rk);
     // private System.Int64 Shift(System.Int64 r, System.Int32 shift)
-    // Offset: 0x2401FA8
+    // Offset: 0x2417420
     int64_t Shift(int64_t r, int shift);
     // private System.Void ShiftRow(System.Byte[] shiftsSC)
-    // Offset: 0x2401FD4
+    // Offset: 0x241744C
     void ShiftRow(::ArrayW<uint8_t> shiftsSC);
     // private System.Int64 ApplyS(System.Int64 r, System.Byte[] box)
-    // Offset: 0x24020A8
+    // Offset: 0x2417520
     int64_t ApplyS(int64_t r, ::ArrayW<uint8_t> box);
     // private System.Void Substitution(System.Byte[] box)
-    // Offset: 0x240211C
+    // Offset: 0x2417594
     void Substitution(::ArrayW<uint8_t> box);
     // private System.Void MixColumn()
-    // Offset: 0x240218C
+    // Offset: 0x2417604
     void MixColumn();
     // private System.Void InvMixColumn()
-    // Offset: 0x2402330
+    // Offset: 0x24177A8
     void InvMixColumn();
     // private System.Int64[][] GenerateWorkingKey(System.Byte[] key)
-    // Offset: 0x2402674
+    // Offset: 0x2417AEC
     ::ArrayW<::ArrayW<int64_t>> GenerateWorkingKey(::ArrayW<uint8_t> key);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x240320C
+    // Offset: 0x2418684
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x24033EC
+    // Offset: 0x2418864
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2403400
+    // Offset: 0x2418878
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2403A04
+    // Offset: 0x2418E7C
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x2403548
+    // Offset: 0x24189C0
     void UnPackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x2403938
+    // Offset: 0x2418DB0
     void PackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void EncryptBlock(System.Int64[][] rk)
-    // Offset: 0x240368C
+    // Offset: 0x2418B04
     void EncryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
     // private System.Void DecryptBlock(System.Int64[][] rk)
-    // Offset: 0x24037EC
+    // Offset: 0x2418C64
     void DecryptBlock(::ArrayW<::ArrayW<int64_t>> rk);
   }; // Org.BouncyCastle.Crypto.Engines.RijndaelEngine
   #pragma pack(pop)

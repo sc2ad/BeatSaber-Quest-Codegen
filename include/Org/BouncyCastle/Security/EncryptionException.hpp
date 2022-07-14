@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Security {
   class EncryptionException : public ::System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x17E6748
+    // Offset: 0x17EFB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::EncryptionException::.ctor");

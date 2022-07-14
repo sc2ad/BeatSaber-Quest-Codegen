@@ -57,44 +57,44 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary d
     [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn_d();
     // public System.Void .ctor(System.Collections.IDictionary d)
-    // Offset: 0x25E6D28
+    // Offset: 0x25FB1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmodifiableDictionaryProxy*, creationType>(d)));
     }
     // public override System.Int32 get_Count()
-    // Offset: 0x25E6EE0
+    // Offset: 0x25FB358
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Int32 UnmodifiableDictionary::get_Count()
     int get_Count();
     // public override System.Object get_SyncRoot()
-    // Offset: 0x25E7048
+    // Offset: 0x25FB4C0
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::get_SyncRoot()
     ::Il2CppObject* get_SyncRoot();
     // public override System.Collections.ICollection get_Keys()
-    // Offset: 0x25E70FC
+    // Offset: 0x25FB574
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.ICollection UnmodifiableDictionary::get_Keys()
     ::System::Collections::ICollection* get_Keys();
     // public override System.Boolean Contains(System.Object k)
-    // Offset: 0x25E6D54
+    // Offset: 0x25FB1CC
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Boolean UnmodifiableDictionary::Contains(System.Object k)
     bool Contains(::Il2CppObject* k);
     // public override System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x25E6E18
+    // Offset: 0x25FB290
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Void UnmodifiableDictionary::CopyTo(System.Array array, System.Int32 index)
     void CopyTo(::System::Array* array, int index);
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x25E6F94
+    // Offset: 0x25FB40C
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Collections.IDictionaryEnumerator UnmodifiableDictionary::GetEnumerator()
     ::System::Collections::IDictionaryEnumerator* GetEnumerator();
     // protected override System.Object GetValue(System.Object k)
-    // Offset: 0x25E71B0
+    // Offset: 0x25FB628
     // Implemented from: Org.BouncyCastle.Utilities.Collections.UnmodifiableDictionary
     // Base method: System.Object UnmodifiableDictionary::GetValue(System.Object k)
     ::Il2CppObject* GetValue(::Il2CppObject* k);

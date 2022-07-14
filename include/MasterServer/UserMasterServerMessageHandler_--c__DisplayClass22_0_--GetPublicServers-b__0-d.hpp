@@ -68,7 +68,7 @@ namespace MasterServer {
     ::MasterServer::GetPublicServersRequest* $$7__wrap2;
     // Field size check
     static_assert(sizeof(::MasterServer::GetPublicServersRequest*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x10B9138
+    // [TupleElementNamesAttribute] Offset: 0x10C1888
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`2<System.String,System.String>> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -111,10 +111,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.GetPublicServersResponse> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::MasterServer::GetPublicServersResponse*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x172BEE0
+    // Offset: 0x17362CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x172C29C
+    // Offset: 0x1736688
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass22_0/MasterServer.<<GetPublicServers>b__0>d
   // WARNING Not writing size check since size may be invalid!

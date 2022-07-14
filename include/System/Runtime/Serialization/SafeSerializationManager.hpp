@@ -83,7 +83,7 @@ namespace System::Runtime::Serialization {
     ::System::RuntimeType* m_realType;
     // Field size check
     static_assert(sizeof(::System::RuntimeType*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x103697C
+    // [CompilerGeneratedAttribute] Offset: 0x10410CC
     // private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
     // Size: 0x8
     // Offset: 0x30
@@ -124,32 +124,32 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.EventHandler`1<System.Runtime.Serialization.SafeSerializationEventArgs> SerializeObjectState
     [[deprecated("Use field access instead!")]] ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& dyn_SerializeObjectState();
     // System.Boolean get_IsActive()
-    // Offset: 0x163B878
+    // Offset: 0x1646C64
     bool get_IsActive();
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x163B3AC
+    // Offset: 0x1646798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SafeSerializationManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeSerializationManager*, creationType>(info, context)));
     }
     // System.Void CompleteSerialization(System.Object serializedObject, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x163B888
+    // Offset: 0x1646C74
     void CompleteSerialization(::Il2CppObject* serializedObject, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void CompleteDeserialization(System.Object deserializedObject)
-    // Offset: 0x163BC10
+    // Offset: 0x1646FFC
     void CompleteDeserialization(::Il2CppObject* deserializedObject);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x163BF2C
+    // Offset: 0x1647318
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.IObjectReference.GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x163BFD4
+    // Offset: 0x16473C0
     ::Il2CppObject* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x163C270
+    // Offset: 0x164765C
     void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
     // System.Void .ctor()
-    // Offset: 0x163B3A4
+    // Offset: 0x1646790
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

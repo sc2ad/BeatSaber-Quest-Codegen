@@ -46,31 +46,31 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.AndroidJavaClass _oculusDeviceConfig
     static void _set__oculusDeviceConfig(::UnityEngine::AndroidJavaClass* value);
     // static private System.Void .cctor()
-    // Offset: 0x155BDF8
+    // Offset: 0x1566D0C
     static void _cctor();
     // static public System.Void Init()
-    // Offset: 0x155BECC
+    // Offset: 0x1566DE0
     static void Init();
     // static public OculusDeviceConfig/State GetCurrentState()
-    // Offset: 0x155BFC0
+    // Offset: 0x1566ED4
     static ::GlobalNamespace::OculusDeviceConfig::State GetCurrentState();
     // static public System.Boolean DidPrefetchParamName(System.String key)
-    // Offset: 0x155C0E0
+    // Offset: 0x1566FF4
     static bool DidPrefetchParamName(::StringW key);
     // static public System.String GetError()
-    // Offset: 0x155C1D4
+    // Offset: 0x15670E8
     static ::StringW GetError();
     // static public System.Boolean GetBoolean(System.String key)
-    // Offset: 0x155C2F4
+    // Offset: 0x1567208
     static bool GetBoolean(::StringW key);
     // static public System.Int64 GetLong(System.String key)
-    // Offset: 0x155C41C
+    // Offset: 0x1567330
     static int64_t GetLong(::StringW key);
     // static public System.Double GetDouble(System.String key)
-    // Offset: 0x155C544
+    // Offset: 0x1567458
     static double GetDouble(::StringW key);
     // static public System.String GetString(System.String key)
-    // Offset: 0x155C66C
+    // Offset: 0x1567580
     static ::StringW GetString(::StringW key);
   }; // OculusDeviceConfig
   #pragma pack(pop)

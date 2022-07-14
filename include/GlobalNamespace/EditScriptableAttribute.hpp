@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class EditScriptableAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15A1DEC
+    // Offset: 0x15AC298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditScriptableAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditScriptableAttribute::.ctor");

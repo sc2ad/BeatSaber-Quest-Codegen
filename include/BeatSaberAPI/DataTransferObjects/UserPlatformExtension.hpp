@@ -67,10 +67,10 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Set static field: static public System.String kOculusQuest
     static void _set_kOculusQuest(::StringW value);
     // static public BeatSaberAPI.DataTransferObjects.UserPlatform GetUserPlatformFromSerializedName(System.String name)
-    // Offset: 0x134ECC0
+    // Offset: 0x13905A0
     static ::BeatSaberAPI::DataTransferObjects::UserPlatform GetUserPlatformFromSerializedName(::StringW name);
     // static public System.String GetUserPlatformSerializedName(BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform)
-    // Offset: 0x134EDB4
+    // Offset: 0x1390694
     static ::StringW GetUserPlatformSerializedName(::BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform);
   }; // BeatSaberAPI.DataTransferObjects.UserPlatformExtension
   #pragma pack(pop)

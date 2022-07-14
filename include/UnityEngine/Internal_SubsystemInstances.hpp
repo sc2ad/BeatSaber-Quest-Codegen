@@ -51,19 +51,19 @@ namespace UnityEngine {
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_StandaloneSubsystemInstances
     static void _set_s_StandaloneSubsystemInstances(::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2ADFBC0
+    // Offset: 0x2AF8048
     static void _cctor();
     // static System.Void Internal_InitializeManagedInstance(System.IntPtr ptr, UnityEngine.IntegratedSubsystem inst)
-    // Offset: 0x2ADF5DC
+    // Offset: 0x2AF7A64
     static void Internal_InitializeManagedInstance(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystem* inst);
     // static System.Void Internal_ClearManagedInstances()
-    // Offset: 0x2ADF6A0
+    // Offset: 0x2AF7B28
     static void Internal_ClearManagedInstances();
     // static System.Void Internal_RemoveInstanceByPtr(System.IntPtr ptr)
-    // Offset: 0x2ADF854
+    // Offset: 0x2AF7CDC
     static void Internal_RemoveInstanceByPtr(::System::IntPtr ptr);
     // static UnityEngine.IntegratedSubsystem Internal_GetInstanceByPtr(System.IntPtr ptr)
-    // Offset: 0x2ADFA3C
+    // Offset: 0x2AF7EC4
     static ::UnityEngine::IntegratedSubsystem* Internal_GetInstanceByPtr(::System::IntPtr ptr);
   }; // UnityEngine.Internal_SubsystemInstances
   #pragma pack(pop)

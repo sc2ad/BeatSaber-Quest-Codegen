@@ -44,7 +44,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single tangentWeight
     [[deprecated("Use field access instead!")]] float& dyn_tangentWeight();
     // public System.Void .ctor()
-    // Offset: 0x1FA0C0C
+    // Offset: 0x1FAE084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::LimitPoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint::.ctor");

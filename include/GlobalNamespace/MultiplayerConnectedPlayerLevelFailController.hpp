@@ -53,21 +53,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VFXController* failVFXController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VFXController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB45C
+    // [InjectAttribute] Offset: 0x10E2BA0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB46C
+    // [InjectAttribute] Offset: 0x10E2BB0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DB47C
+    // [InjectAttribute] Offset: 0x10E2BC0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x30
@@ -102,32 +102,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _wasActive
     [[deprecated("Use field access instead!")]] bool& dyn__wasActive();
     // public System.Void add_playerDidFailEvent(System.Action value)
-    // Offset: 0x13D4000
+    // Offset: 0x1404324
     void add_playerDidFailEvent(::System::Action* value);
     // public System.Void remove_playerDidFailEvent(System.Action value)
-    // Offset: 0x13D3B84
+    // Offset: 0x1403EA8
     void remove_playerDidFailEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13D51E8
+    // Offset: 0x140550C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerLevelFailController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerLevelFailController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13D4C88
+    // Offset: 0x1404FAC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13D4E2C
+    // Offset: 0x1405150
     void OnDestroy();
     // private System.Void CheckIfPlayerFailed(IConnectedPlayer player)
-    // Offset: 0x13D4FD0
+    // Offset: 0x14052F4
     void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x13D51E0
+    // Offset: 0x1405504
     void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x13D51E4
+    // Offset: 0x1405508
     void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerConnectedPlayerLevelFailController
   #pragma pack(pop)

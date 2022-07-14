@@ -70,73 +70,73 @@ namespace TMPro {
     // Set static field: static private System.String k_lookupStringU
     static void _set_k_lookupStringU(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x18FE194
+    // Offset: 0x1906580
     static void _cctor();
     // static public System.Int32 GetCursorIndexFromPosition(TMPro.TMP_Text textComponent, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FA464
+    // Offset: 0x1902850
     static int GetCursorIndexFromPosition(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 GetCursorIndexFromPosition(TMPro.TMP_Text textComponent, UnityEngine.Vector3 position, UnityEngine.Camera camera, out TMPro.CaretPosition cursor)
-    // Offset: 0x18FAC48
+    // Offset: 0x1903034
     static int GetCursorIndexFromPosition(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, ByRef<::TMPro::CaretPosition> cursor);
     // static public System.Int32 FindNearestLine(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FAE84
+    // Offset: 0x1903270
     static int FindNearestLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindNearestCharacterOnLine(TMPro.TMP_Text text, UnityEngine.Vector3 position, System.Int32 line, UnityEngine.Camera camera, System.Boolean visibleOnly)
-    // Offset: 0x18FB0C0
+    // Offset: 0x19034AC
     static int FindNearestCharacterOnLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, int line, ::UnityEngine::Camera* camera, bool visibleOnly);
     // static public System.Boolean IsIntersectingRectTransform(UnityEngine.RectTransform rectTransform, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FB9C0
+    // Offset: 0x1903DAC
     static bool IsIntersectingRectTransform(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindIntersectingCharacter(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera, System.Boolean visibleOnly)
-    // Offset: 0x18FBB3C
+    // Offset: 0x1903F28
     static int FindIntersectingCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, bool visibleOnly);
     // static public System.Int32 FindNearestCharacter(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera, System.Boolean visibleOnly)
-    // Offset: 0x18FA614
+    // Offset: 0x1902A00
     static int FindNearestCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, bool visibleOnly);
     // static public System.Int32 FindIntersectingWord(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FBDE8
+    // Offset: 0x19041D4
     static int FindIntersectingWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindNearestWord(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FC4B0
+    // Offset: 0x190489C
     static int FindNearestWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindIntersectingLine(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FCD1C
+    // Offset: 0x1905108
     static int FindIntersectingLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindIntersectingLink(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FCF04
+    // Offset: 0x19052F0
     static int FindIntersectingLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static public System.Int32 FindNearestLink(TMPro.TMP_Text text, UnityEngine.Vector3 position, UnityEngine.Camera camera)
-    // Offset: 0x18FD348
+    // Offset: 0x1905734
     static int FindNearestLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
     // static private System.Boolean PointIntersectRectangle(UnityEngine.Vector3 m, UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 c, UnityEngine.Vector3 d)
-    // Offset: 0x18FB4F8
+    // Offset: 0x19038E4
     static bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
     // static public System.Boolean ScreenPointToWorldPointInRectangle(UnityEngine.Transform transform, UnityEngine.Vector2 screenPoint, UnityEngine.Camera cam, out UnityEngine.Vector3 worldPoint)
-    // Offset: 0x18FAA08
+    // Offset: 0x1902DF4
     static bool ScreenPointToWorldPointInRectangle(::UnityEngine::Transform* transform, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ByRef<::UnityEngine::Vector3> worldPoint);
     // static private System.Boolean IntersectLinePlane(TMPro.TMP_TextUtilities/TMPro.LineSegment line, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, out UnityEngine.Vector3 intersectingPoint)
-    // Offset: 0x18FDBC4
+    // Offset: 0x1905FB0
     static bool IntersectLinePlane(::TMPro::TMP_TextUtilities::LineSegment line, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ByRef<::UnityEngine::Vector3> intersectingPoint);
     // static public System.Single DistanceToLine(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 point)
-    // Offset: 0x18FB750
+    // Offset: 0x1903B3C
     static float DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
     // static public System.Char ToLowerFast(System.Char c)
-    // Offset: 0x18FDDE4
+    // Offset: 0x19061D0
     static ::Il2CppChar ToLowerFast(::Il2CppChar c);
     // static public System.Char ToUpperFast(System.Char c)
-    // Offset: 0x18FDE60
+    // Offset: 0x190624C
     static ::Il2CppChar ToUpperFast(::Il2CppChar c);
     // static public System.Int32 GetSimpleHashCode(System.String s)
-    // Offset: 0x18FDEDC
+    // Offset: 0x19062C8
     static int GetSimpleHashCode(::StringW s);
     // static public System.UInt32 GetSimpleHashCodeLowercase(System.String s)
-    // Offset: 0x18FDF54
+    // Offset: 0x1906340
     static uint GetSimpleHashCodeLowercase(::StringW s);
     // static public System.Int32 HexToInt(System.Char hex)
-    // Offset: 0x18FE028
+    // Offset: 0x1906414
     static int HexToInt(::Il2CppChar hex);
     // static public System.Int32 StringHexToInt(System.String s)
-    // Offset: 0x18FE054
+    // Offset: 0x1906440
     static int StringHexToInt(::StringW s);
   }; // TMPro.TMP_TextUtilities
   #pragma pack(pop)

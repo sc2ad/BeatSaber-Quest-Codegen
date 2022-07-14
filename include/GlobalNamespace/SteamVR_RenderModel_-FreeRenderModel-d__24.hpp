@@ -65,26 +65,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.IntPtr pRenderModel
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_pRenderModel();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x18AEA3C
+    // Offset: 0x18B7E28
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18AEAA4
+    // Offset: 0x18B7E90
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x18AE390
+    // Offset: 0x18B777C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::$FreeRenderModel$d__24* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_RenderModel::$FreeRenderModel$d__24*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x18AE8C0
+    // Offset: 0x18B7CAC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x18AE8C4
+    // Offset: 0x18B7CB0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18AEA44
+    // Offset: 0x18B7E30
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_RenderModel/<FreeRenderModel>d__24
   #pragma pack(pop)

@@ -139,43 +139,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor2
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor2();
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x13FC890
+    // Offset: 0x13DA858
     ::UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x13FC89C
+    // Offset: 0x13DA864
     ::UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x13FCB0C
+    // Offset: 0x13DAAD4
     ::UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x13FCB18
+    // Offset: 0x13DAAE0
     ::UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x13FCBB0
+    // Offset: 0x13DAB78
     ::UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x13FCBBC
+    // Offset: 0x13DAB84
     ::UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x13FCC54
+    // Offset: 0x13DAC1C
     ::UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x13FCC60
+    // Offset: 0x13DAC28
     ::UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x13FCCF8
+    // Offset: 0x13DACC0
     ::UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x13FCD04
+    // Offset: 0x13DACCC
     ::UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x13FCD9C
+    // Offset: 0x13DAD64
     ::UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x13FCDA8
+    // Offset: 0x13DAD70
     ::UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x13FD4E4
+    // Offset: 0x13DB4AC
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

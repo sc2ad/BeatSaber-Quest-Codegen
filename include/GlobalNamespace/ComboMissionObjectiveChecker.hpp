@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
     public:
-    // [InjectAttribute] Offset: 0x10DAD64
+    // [InjectAttribute] Offset: 0x10E24A8
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x48
@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // protected System.Void OnDestroy()
-    // Offset: 0x13FE5A8
+    // Offset: 0x14876D0
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x13FE680
+    // Offset: 0x14877A8
     void HandleComboDidChange(int combo);
     // public System.Void .ctor()
-    // Offset: 0x13FE6BC
+    // Offset: 0x14877E4
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ComboMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x13FE4B0
+    // Offset: 0x14875D8
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

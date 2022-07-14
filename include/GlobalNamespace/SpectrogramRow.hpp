@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: dataIndex and: spectrogramData
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x10D9908
+    // [InjectAttribute] Offset: 0x10E103C
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D9918
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E104C
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -84,20 +84,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // public System.Void .ctor()
-    // Offset: 0x1466F6C
+    // Offset: 0x143E550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpectrogramRow* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpectrogramRow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpectrogramRow*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1466F74
+    // Offset: 0x143E558
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x1466D78
+    // Offset: 0x143E35C
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1466E24
+    // Offset: 0x143E408
     void Update();
   }; // SpectrogramRow
   #pragma pack(pop)

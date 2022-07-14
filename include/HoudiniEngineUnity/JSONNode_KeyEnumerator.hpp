@@ -46,22 +46,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::JSONNode::Enumerator& dyn_m_Enumerator();
     // public System.String get_Current()
-    // Offset: 0x1A135B0
+    // Offset: 0x1A1D99C
     ::StringW get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
-    // Offset: 0x1A13504
+    // Offset: 0x1A1D8F0
     KeyEnumerator(typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
-    // Offset: 0x1A1354C
+    // Offset: 0x1A1D938
     KeyEnumerator(typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator aEnumerator)
-    // Offset: 0x1A13598
+    // Offset: 0x1A1D984
     // ABORTED: conflicts with another method.  KeyEnumerator(::HoudiniEngineUnity::JSONNode::Enumerator aEnumerator);
     // public System.Boolean MoveNext()
-    // Offset: 0x1A135F4
+    // Offset: 0x1A1D9E0
     bool MoveNext();
     // public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.KeyEnumerator GetEnumerator()
-    // Offset: 0x1A135F8
+    // Offset: 0x1A1D9E4
     ::HoudiniEngineUnity::JSONNode::KeyEnumerator GetEnumerator();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.KeyEnumerator
   // WARNING Not writing size check since size may be invalid!

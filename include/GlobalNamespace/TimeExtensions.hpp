@@ -32,67 +32,67 @@ namespace GlobalNamespace {
   class TimeExtensions : public ::Il2CppObject {
     public:
     // static public System.String MinSecDurationText(System.Single duration)
-    // Offset: 0x2A26744
+    // Offset: 0x2A3CBBC
     static ::StringW MinSecDurationText(float duration);
     // static public System.String MinSecMillisecDurationText(System.Single duration)
-    // Offset: 0x2A2696C
+    // Offset: 0x2A3CDE4
     static ::StringW MinSecMillisecDurationText(float duration);
     // static public System.Single OneBeatDuration(System.Single bpm)
-    // Offset: 0x2A26A8C
+    // Offset: 0x2A3CF04
     static float OneBeatDuration(float bpm);
     // static public System.Single TimeToBeat(System.Single time, System.Single bpm)
-    // Offset: 0x2A26AA8
+    // Offset: 0x2A3CF20
     static float TimeToBeat(float time, float bpm);
     // static public System.Single SecondsToMinutes(System.Single seconds)
-    // Offset: 0x2A26ABC
+    // Offset: 0x2A3CF34
     static float SecondsToMinutes(float seconds);
     // static public System.Int32 SecondsToDays(System.Int32 time)
-    // Offset: 0x2A26ACC
+    // Offset: 0x2A3CF44
     static int SecondsToDays(int time);
     // static public System.Int32 SecondsToHours(System.Int32 time)
-    // Offset: 0x2A26AEC
+    // Offset: 0x2A3CF64
     static int SecondsToHours(int time);
     // static public System.Int32 SecondsToMinutes(System.Int32 time)
-    // Offset: 0x2A26B0C
+    // Offset: 0x2A3CF84
     static int SecondsToMinutes(int time);
     // static public System.Int32 DaysToSeconds(System.Int32 days)
-    // Offset: 0x2A26B2C
+    // Offset: 0x2A3CFA4
     static int DaysToSeconds(int days);
     // static public System.Int32 HoursToSeconds(System.Int32 hours)
-    // Offset: 0x2A26B3C
+    // Offset: 0x2A3CFB4
     static int HoursToSeconds(int hours);
     // static public System.Int32 MinutesToSeconds(System.Int32 minutes)
-    // Offset: 0x2A26B48
+    // Offset: 0x2A3CFC0
     static int MinutesToSeconds(int minutes);
     // static public System.Int32 Hours(System.Single time)
-    // Offset: 0x2A26B54
+    // Offset: 0x2A3CFCC
     static int Hours(float time);
     // static public System.Int32 Minutes(System.Single time)
-    // Offset: 0x2A268B8
+    // Offset: 0x2A3CD30
     static int Minutes(float time);
     // static public System.Int32 Seconds(System.Single time)
-    // Offset: 0x2A26934
+    // Offset: 0x2A3CDAC
     static int Seconds(float time);
     // static public System.Int32 Milliseconds(System.Single time)
-    // Offset: 0x2A26A4C
+    // Offset: 0x2A3CEC4
     static int Milliseconds(float time);
     // static public System.Int32 TotalDays(System.Single time)
-    // Offset: 0x2A26BD4
+    // Offset: 0x2A3D04C
     static int TotalDays(float time);
     // static public System.Int32 TotalHours(System.Single time)
-    // Offset: 0x2A26C10
+    // Offset: 0x2A3D088
     static int TotalHours(float time);
     // static public System.Int32 TotalMinutes(System.Single time)
-    // Offset: 0x2A26C4C
+    // Offset: 0x2A3D0C4
     static int TotalMinutes(float time);
     // static public System.Int32 TotalSeconds(System.Single time)
-    // Offset: 0x2A26C88
+    // Offset: 0x2A3D100
     static int TotalSeconds(float time);
     // static public System.Int64 ToUnixTime(System.DateTime dateTime)
-    // Offset: 0x2A26CA8
+    // Offset: 0x2A3D120
     static int64_t ToUnixTime(::System::DateTime dateTime);
     // static public System.DateTime AsUnixTime(System.Int64 unixTime)
-    // Offset: 0x2A26D88
+    // Offset: 0x2A3D200
     static ::System::DateTime AsUnixTime(int64_t unixTime);
   }; // TimeExtensions
   #pragma pack(pop)

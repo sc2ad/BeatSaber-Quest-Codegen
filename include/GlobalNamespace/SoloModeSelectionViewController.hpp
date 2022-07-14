@@ -150,35 +150,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController::MenuType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0x138CE38
+    // Offset: 0x13EC4C4
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SoloModeSelectionViewController,SoloModeSelectionViewController/MenuType> value)
-    // Offset: 0x138CEDC
+    // Offset: 0x13EC568
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController::MenuType>* value);
     // public System.Void .ctor()
-    // Offset: 0x138D17C
+    // Offset: 0x13EC808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoloModeSelectionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SoloModeSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoloModeSelectionViewController*, creationType>()));
     }
     // private System.Void HandleMenuButton(SoloModeSelectionViewController/MenuType subMenuType)
-    // Offset: 0x138D104
+    // Offset: 0x13EC790
     void HandleMenuButton(::GlobalNamespace::SoloModeSelectionViewController::MenuType subMenuType);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x138D184
+    // Offset: 0x13EC810
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x138D18C
+    // Offset: 0x13EC818
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x138D194
+    // Offset: 0x13EC820
     void $DidActivate$b__8_2();
     // private System.Void <DidActivate>b__8_3()
-    // Offset: 0x138D19C
+    // Offset: 0x13EC828
     void $DidActivate$b__8_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x138CF80
+    // Offset: 0x13EC60C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

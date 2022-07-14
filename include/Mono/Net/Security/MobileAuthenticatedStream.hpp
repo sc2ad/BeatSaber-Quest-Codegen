@@ -254,186 +254,186 @@ namespace Mono::Net::Security {
     // Get instance field reference: readonly System.Int32 ID
     [[deprecated("Use field access instead!")]] int& dyn_ID();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x1AD0D60
+    // Offset: 0x1ADE14C
     ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public Mono.Security.Interface.MonoTlsProvider get_Provider()
-    // Offset: 0x1AD0D68
+    // Offset: 0x1ADE154
     ::Mono::Security::Interface::MonoTlsProvider* get_Provider();
     // public System.Net.Security.AuthenticatedStream get_AuthenticatedStream()
-    // Offset: 0x1AD11C4
+    // Offset: 0x1ADE5B0
     ::System::Net::Security::AuthenticatedStream* get_AuthenticatedStream();
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_InternalLocalCertificate()
-    // Offset: 0x1AD1FE0
+    // Offset: 0x1ADF3CC
     ::System::Security::Cryptography::X509Certificates::X509Certificate* get_InternalLocalCertificate();
     // public System.Void .ctor(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, System.Net.Security.SslStream owner, Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
-    // Offset: 0x1AD0C48
+    // Offset: 0x1ADE034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner, ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Security::Interface::MonoTlsProvider* provider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MobileAuthenticatedStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream*, creationType>(innerStream, leaveInnerStreamOpen, owner, settings, provider)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AD22DC
+    // Offset: 0x1ADF6C8
     static void _cctor();
     // System.Void CheckThrow(System.Boolean authSuccessCheck, System.Boolean shutdownCheck)
-    // Offset: 0x1AD0D70
+    // Offset: 0x1ADE15C
     void CheckThrow(bool authSuccessCheck, bool shutdownCheck);
     // static System.Exception GetSSPIException(System.Exception e)
-    // Offset: 0x1ACEFFC
+    // Offset: 0x1ADC3E8
     static ::System::Exception* GetSSPIException(::System::Exception* e);
     // static System.Exception GetIOException(System.Exception e, System.String message)
-    // Offset: 0x1AD0E50
+    // Offset: 0x1ADE23C
     static ::System::Exception* GetIOException(::System::Exception* e, ::StringW message);
     // System.Runtime.ExceptionServices.ExceptionDispatchInfo SetException(System.Exception e)
-    // Offset: 0x1ACF130
+    // Offset: 0x1ADC51C
     ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* SetException(::System::Exception* e);
     // public System.Void AuthenticateAsClient(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
-    // Offset: 0x1AD0F88
+    // Offset: 0x1ADE374
     void AuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // public System.Void AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Boolean clientCertificateRequired, System.Security.Authentication.SslProtocols enabledSslProtocols, System.Boolean checkCertificateRevocation)
-    // Offset: 0x1AD1120
+    // Offset: 0x1ADE50C
     void AuthenticateAsServer(::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired, ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
     // private System.Threading.Tasks.Task ProcessAuthentication(System.Boolean runSynchronously, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean clientCertRequired)
-    // Offset: 0x1AD0FCC
+    // Offset: 0x1ADE3B8
     ::System::Threading::Tasks::Task* ProcessAuthentication(bool runSynchronously, bool serverMode, ::StringW targetHost, ::System::Security::Authentication::SslProtocols enabledProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool clientCertRequired);
     // protected Mono.Net.Security.MobileTlsContext CreateContext(System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Mono::Net::Security::MobileTlsContext* CreateContext(bool serverMode, ::StringW targetHost, ::System::Security::Authentication::SslProtocols enabledProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert);
     // private System.Threading.Tasks.Task`1<System.Int32> StartOperation(Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.OperationType type, Mono.Net.Security.AsyncProtocolRequest asyncRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1AD12A8
+    // Offset: 0x1ADE694
     ::System::Threading::Tasks::Task_1<int>* StartOperation(::Mono::Net::Security::MobileAuthenticatedStream::OperationType type, ::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::System::Threading::CancellationToken cancellationToken);
     // System.Int32 InternalRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, out System.Boolean outWantMore)
-    // Offset: 0x1AD17EC
+    // Offset: 0x1ADEBD8
     int InternalRead(::ArrayW<uint8_t> buffer, int offset, int size, ByRef<bool> outWantMore);
     // private System.ValueTuple`2<System.Int32,System.Boolean> InternalRead(Mono.Net.Security.AsyncProtocolRequest asyncRequest, Mono.Net.Security.BufferOffsetSize internalBuffer, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AD193C
+    // Offset: 0x1ADED28
     ::System::ValueTuple_2<int, bool> InternalRead(::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::Mono::Net::Security::BufferOffsetSize* internalBuffer, ::ArrayW<uint8_t> buffer, int offset, int size);
     // System.Boolean InternalWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AD1ABC
+    // Offset: 0x1ADEEA8
     bool InternalWrite(::ArrayW<uint8_t> buffer, int offset, int size);
     // private System.Boolean InternalWrite(Mono.Net.Security.AsyncProtocolRequest asyncRequest, Mono.Net.Security.BufferOffsetSize2 internalBuffer, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AD1C00
+    // Offset: 0x1ADEFEC
     bool InternalWrite(::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::Mono::Net::Security::BufferOffsetSize2* internalBuffer, ::ArrayW<uint8_t> buffer, int offset, int size);
     // System.Threading.Tasks.Task`1<System.Int32> InnerRead(System.Boolean sync, System.Int32 requestedSize, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1ACE650
+    // Offset: 0x1ADBA3C
     ::System::Threading::Tasks::Task_1<int>* InnerRead(bool sync, int requestedSize, ::System::Threading::CancellationToken cancellationToken);
     // System.Threading.Tasks.Task InnerWrite(System.Boolean sync, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1ACEB74
+    // Offset: 0x1ADBF60
     ::System::Threading::Tasks::Task* InnerWrite(bool sync, ::System::Threading::CancellationToken cancellationToken);
     // Mono.Net.Security.AsyncOperationStatus ProcessHandshake(Mono.Net.Security.AsyncOperationStatus status)
-    // Offset: 0x1ACDD34
+    // Offset: 0x1ADB120
     ::Mono::Net::Security::AsyncOperationStatus ProcessHandshake(::Mono::Net::Security::AsyncOperationStatus status);
     // System.ValueTuple`2<System.Int32,System.Boolean> ProcessRead(Mono.Net.Security.BufferOffsetSize userBuffer)
-    // Offset: 0x1ACF4D8
+    // Offset: 0x1ADC8C4
     ::System::ValueTuple_2<int, bool> ProcessRead(::Mono::Net::Security::BufferOffsetSize* userBuffer);
     // System.ValueTuple`2<System.Int32,System.Boolean> ProcessWrite(Mono.Net.Security.BufferOffsetSize userBuffer)
-    // Offset: 0x1ACF660
+    // Offset: 0x1ADCA4C
     ::System::ValueTuple_2<int, bool> ProcessWrite(::Mono::Net::Security::BufferOffsetSize* userBuffer);
     // private System.Void <InnerWrite>b__67_0()
-    // Offset: 0x1AD2330
+    // Offset: 0x1ADF71C
     void $InnerWrite$b__67_0();
     // public override System.Boolean get_IsAuthenticated()
-    // Offset: 0x1AD1D2C
+    // Offset: 0x1ADF118
     // Implemented from: System.Net.Security.AuthenticatedStream
     // Base method: System.Boolean AuthenticatedStream::get_IsAuthenticated()
     bool get_IsAuthenticated();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x1AD2130
+    // Offset: 0x1ADF51C
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x1AD2184
+    // Offset: 0x1ADF570
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanWrite()
     bool get_CanWrite();
     // public override System.Boolean get_CanSeek()
-    // Offset: 0x1AD21EC
+    // Offset: 0x1ADF5D8
     // Implemented from: System.IO.Stream
     // Base method: System.Boolean Stream::get_CanSeek()
     bool get_CanSeek();
     // public override System.Int64 get_Length()
-    // Offset: 0x1AD21F4
+    // Offset: 0x1ADF5E0
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Length()
     int64_t get_Length();
     // public override System.Int64 get_Position()
-    // Offset: 0x1AD2214
+    // Offset: 0x1ADF600
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::get_Position()
     int64_t get_Position();
     // public override System.Void set_Position(System.Int64 value)
-    // Offset: 0x1AD2234
+    // Offset: 0x1ADF620
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::set_Position(System.Int64 value)
     void set_Position(int64_t value);
     // public override System.Int32 get_ReadTimeout()
-    // Offset: 0x1AD2294
+    // Offset: 0x1ADF680
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_ReadTimeout()
     int get_ReadTimeout();
     // public override System.Int32 get_WriteTimeout()
-    // Offset: 0x1AD22B8
+    // Offset: 0x1ADF6A4
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::get_WriteTimeout()
     int get_WriteTimeout();
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x1AD11C8
+    // Offset: 0x1ADE5B4
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int count, ::System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x1AD13D0
+    // Offset: 0x1ADE7BC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::EndRead(System.IAsyncResult asyncResult)
     int EndRead(::System::IAsyncResult* asyncResult);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    // Offset: 0x1AD1420
+    // Offset: 0x1ADE80C
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int count, ::System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1AD1500
+    // Offset: 0x1ADE8EC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::EndWrite(System.IAsyncResult asyncResult)
     void EndWrite(::System::IAsyncResult* asyncResult);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1AD150C
+    // Offset: 0x1ADE8F8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1AD15E4
+    // Offset: 0x1ADE9D0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1AD16B4
+    // Offset: 0x1ADEAA0
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, ::System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1AD1750
+    // Offset: 0x1ADEB3C
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, ::System::Threading::CancellationToken cancellationToken);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1AD1DE0
+    // Offset: 0x1ADF1CC
     // Implemented from: System.Net.Security.AuthenticatedStream
     // Base method: System.Void AuthenticatedStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Void Flush()
-    // Offset: 0x1AD1FBC
+    // Offset: 0x1ADF3A8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Flush()
     void Flush();
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
-    // Offset: 0x1AD20AC
+    // Offset: 0x1ADF498
     // Implemented from: System.IO.Stream
     // Base method: System.Int64 Stream::Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
     // public override System.Void SetLength(System.Int64 value)
-    // Offset: 0x1AD210C
+    // Offset: 0x1ADF4F8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::SetLength(System.Int64 value)
     void SetLength(int64_t value);

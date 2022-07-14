@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__53_0
     static void _set_$$9__53_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14BC974
+    // Offset: 0x13AE504
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14BC9D8
+    // Offset: 0x13AE568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilteringNavigationController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c*, creationType>()));
     }
     // System.String <SelectAnnotatedBeatmapLevelCollection>b__53_0(IBeatmapLevelPack pack)
-    // Offset: 0x14BC9E0
+    // Offset: 0x13AE570
     ::StringW $SelectAnnotatedBeatmapLevelCollection$b__53_0(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // LevelFilteringNavigationController/<>c
   #pragma pack(pop)

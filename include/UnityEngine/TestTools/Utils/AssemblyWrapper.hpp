@@ -64,10 +64,10 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: private readonly System.Reflection.AssemblyName <Name>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::AssemblyName*& dyn_$Name$k__BackingField();
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2ABB648
+    // Offset: 0x2AD4AD0
     ::System::Reflection::Assembly* get_Assembly();
     // public System.Void .ctor(System.Reflection.Assembly assembly)
-    // Offset: 0x2ABB5F4
+    // Offset: 0x2AD4A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyWrapper* New_ctor(::System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyWrapper::.ctor");

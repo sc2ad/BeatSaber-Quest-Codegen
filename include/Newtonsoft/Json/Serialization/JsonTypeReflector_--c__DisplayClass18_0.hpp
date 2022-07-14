@@ -59,14 +59,14 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Func`1<System.Object> defaultConstructor
     [[deprecated("Use field access instead!")]] ::System::Func_1<::Il2CppObject*>*& dyn_defaultConstructor();
     // public System.Void .ctor()
-    // Offset: 0x207D84C
+    // Offset: 0x208ACC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonTypeReflector::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTypeReflector::$$c__DisplayClass18_0*, creationType>()));
     }
     // Newtonsoft.Json.JsonConverter <GetJsonConverterCreator>b__0(System.Object[] parameters)
-    // Offset: 0x207E5CC
+    // Offset: 0x208BA44
     ::Newtonsoft::Json::JsonConverter* $GetJsonConverterCreator$b__0(::ArrayW<::Il2CppObject*> parameters);
   }; // Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c__DisplayClass18_0
   #pragma pack(pop)

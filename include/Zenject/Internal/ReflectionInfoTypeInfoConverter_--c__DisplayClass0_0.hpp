@@ -52,20 +52,20 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.MethodInfo methodInfo
     [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_methodInfo();
     // public System.Void .ctor()
-    // Offset: 0x1C009E8
+    // Offset: 0x1C0EDD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
-    // Offset: 0x1C016D0
+    // Offset: 0x1C0FABC
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C016EC
+    // Offset: 0x1C0FAD8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C01748
+    // Offset: 0x1C0FB34
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/Zenject.Internal.<>c__DisplayClass0_0
   #pragma pack(pop)

@@ -55,13 +55,13 @@ namespace NUnit::Compatibility {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
     static void _set_convertibleValueTypes(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Type*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C827E4
+    // Offset: 0x1C90BD0
     static void _cctor();
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
-    // Offset: 0x1C82484
+    // Offset: 0x1C90870
     static bool ParametersMatch(::ArrayW<::System::Reflection::ParameterInfo*> pinfos, ::ArrayW<::System::Type*> ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
-    // Offset: 0x1C82598
+    // Offset: 0x1C90984
     static bool IsCastableFrom(::System::Type* to, ::System::Type* from);
   }; // NUnit.Compatibility.AdditionalTypeExtensions
   #pragma pack(pop)

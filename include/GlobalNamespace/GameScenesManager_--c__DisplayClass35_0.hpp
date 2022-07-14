@@ -71,17 +71,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> sceneNamesToRemove
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_sceneNamesToRemove();
     // public System.Void .ctor()
-    // Offset: 0x15A6B54
+    // Offset: 0x15B1004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass35_0*, creationType>()));
     }
     // System.Void <RemoveScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x15A80D8
+    // Offset: 0x15B2588
     void $RemoveScenes$b__0(::Zenject::DiContainer* container);
     // System.Boolean <RemoveScenes>b__1(System.String scene)
-    // Offset: 0x15A81A0
+    // Offset: 0x15B2650
     bool $RemoveScenes$b__1(::StringW scene);
   }; // GameScenesManager/<>c__DisplayClass35_0
   #pragma pack(pop)

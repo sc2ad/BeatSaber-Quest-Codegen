@@ -92,21 +92,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _fadingIn
     [[deprecated("Use field access instead!")]] bool& dyn__fadingIn();
     // protected System.Void Start()
-    // Offset: 0x1381658
+    // Offset: 0x13E0CE4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x138172C
+    // Offset: 0x13E0DB8
     void Update();
     // private System.Void FadeIn(System.Single duration)
-    // Offset: 0x13816E4
+    // Offset: 0x13E0D70
     void FadeIn(float duration);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x1381650
+    // Offset: 0x13E0CDC
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     ::UnityEngine::AudioClip* get_activeAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x1381908
+    // Offset: 0x13E0F94
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -115,17 +115,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAudioPlayer*, creationType>()));
     }
     // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x138188C
+    // Offset: 0x13E0F18
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
     void FadeOut(float duration);
     // public override System.Void PauseCurrentChannel()
-    // Offset: 0x13818D0
+    // Offset: 0x13E0F5C
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
     void PauseCurrentChannel();
     // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x13818EC
+    // Offset: 0x13E0F78
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
     void UnPauseCurrentChannel();

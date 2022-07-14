@@ -63,20 +63,20 @@ namespace System::Net {
     // Get instance field reference: private System.Net.IAuthenticationModule authObject
     [[deprecated("Use field access instead!")]] ::System::Net::IAuthenticationModule*& dyn_authObject();
     // public System.String get_AuthenticationType()
-    // Offset: 0x1B5DE3C
+    // Offset: 0x1B6B228
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1B5DCDC
+    // Offset: 0x1B6B0C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NtlmClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient*, creationType>()));
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B5DD48
+    // Offset: 0x1B6B134
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B5DE34
+    // Offset: 0x1B6B220
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.NtlmClient
   #pragma pack(pop)

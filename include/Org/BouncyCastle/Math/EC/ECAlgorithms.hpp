@@ -50,43 +50,43 @@ namespace Org::BouncyCastle::Math::EC {
   class ECAlgorithms : public ::Il2CppObject {
     public:
     // static public System.Boolean IsF2mCurve(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x27457B8
+    // Offset: 0x275DC30
     static bool IsF2mCurve(::Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public System.Boolean IsF2mField(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x27457E0
+    // Offset: 0x275DC58
     static bool IsF2mField(::Org::BouncyCastle::Math::Field::IFiniteField* field);
     // static public System.Boolean IsFpCurve(Org.BouncyCastle.Math.EC.ECCurve c)
-    // Offset: 0x2745974
+    // Offset: 0x275DDEC
     static bool IsFpCurve(::Org::BouncyCastle::Math::EC::ECCurve* c);
     // static public System.Boolean IsFpField(Org.BouncyCastle.Math.Field.IFiniteField field)
-    // Offset: 0x274599C
+    // Offset: 0x275DE14
     static bool IsFpField(::Org::BouncyCastle::Math::Field::IFiniteField* field);
     // static public Org.BouncyCastle.Math.EC.ECPoint ImportPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x2745A58
+    // Offset: 0x275DED0
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* p);
     // static public System.Void MontgomeryTrick(Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Int32 off, System.Int32 len, Org.BouncyCastle.Math.EC.ECFieldElement scale)
-    // Offset: 0x2745B2C
+    // Offset: 0x275DFA4
     static void MontgomeryTrick(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, int off, int len, ::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // static public Org.BouncyCastle.Math.EC.ECPoint ReferenceMultiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
-    // Offset: 0x2745DF0
+    // Offset: 0x275E268
     static ::Org::BouncyCastle::Math::EC::ECPoint* ReferenceMultiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
     // static public Org.BouncyCastle.Math.EC.ECPoint CleanPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x2745F34
+    // Offset: 0x275E3AC
     static ::Org::BouncyCastle::Math::EC::ECPoint* CleanPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* p);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplCheckResult(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x274602C
+    // Offset: 0x275E4A4
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImplCheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.ECPoint P, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.EC.ECPoint Q, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x27460D4
+    // Offset: 0x275E54C
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::EC::ECPoint* Q, ::Org::BouncyCastle::Math::BigInteger* l);
     // static Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint P, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x2746BD8
+    // Offset: 0x275F050
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* l);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.ECPoint[] preCompP, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegP, System.Byte[] wnafP, Org.BouncyCastle.Math.EC.ECPoint[] preCompQ, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegQ, System.Byte[] wnafQ)
-    // Offset: 0x27468F8
+    // Offset: 0x275ED70
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> preCompP, ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> preCompNegP, ::ArrayW<uint8_t> wnafP, ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> preCompQ, ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> preCompNegQ, ::ArrayW<uint8_t> wnafQ);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickFixedPoint(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.EC.ECPoint q, Org.BouncyCastle.Math.BigInteger l)
-    // Offset: 0x2746454
+    // Offset: 0x275E8CC
     static ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickFixedPoint(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Math::BigInteger* l);
   }; // Org.BouncyCastle.Math.EC.ECAlgorithms
   #pragma pack(pop)

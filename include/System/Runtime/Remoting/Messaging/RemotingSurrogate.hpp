@@ -48,13 +48,13 @@ namespace System::Runtime::Remoting::Messaging {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
     // public System.Void GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc)
-    // Offset: 0x1C7EB5C
+    // Offset: 0x1C8DF48
     void GetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
     // public System.Object SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo si, System.Runtime.Serialization.StreamingContext sc, System.Runtime.Serialization.ISurrogateSelector selector)
-    // Offset: 0x1C7ECA0
+    // Offset: 0x1C8E08C
     ::Il2CppObject* SetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc, ::System::Runtime::Serialization::ISurrogateSelector* selector);
     // public System.Void .ctor()
-    // Offset: 0x1C7ED00
+    // Offset: 0x1C8E0EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

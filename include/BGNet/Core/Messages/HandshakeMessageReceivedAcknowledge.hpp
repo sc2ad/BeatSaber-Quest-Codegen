@@ -47,10 +47,10 @@ namespace BGNet::Core::Messages {
       return reinterpret_cast<::BGNet::Core::Messages::IHandshakeMessage*>(this);
     }
     // static public PacketPool`1<BGNet.Core.Messages.HandshakeMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x154516C
+    // Offset: 0x154E374
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HandshakeMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x154D644
+    // Offset: 0x155684C
     // Implemented from: BGNet.Core.Messages.BaseAcknowledgeMessage
     // Base method: System.Void BaseAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseResponse::.ctor()
@@ -60,7 +60,7 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<HandshakeMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x154D5E8
+    // Offset: 0x15567F0
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Release()
     void Release();

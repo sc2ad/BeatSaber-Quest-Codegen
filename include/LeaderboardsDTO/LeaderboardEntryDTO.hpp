@@ -93,7 +93,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     [[deprecated("Use field access instead!")]] ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x1374884
+    // Offset: 0x13A52DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LeaderboardEntryDTO::.ctor");

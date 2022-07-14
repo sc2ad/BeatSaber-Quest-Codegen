@@ -93,27 +93,27 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type m_ResourceType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_ResourceType();
     // public System.Void .ctor()
-    // Offset: 0x18BCCDC
+    // Offset: 0x18C60C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::LoadResourceLocationKeysOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeysOp*, creationType>()));
     }
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
-    // Offset: 0x18BCD2C
+    // Offset: 0x18C6118
     void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::System::Collections::IEnumerable* key, ::UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
     // protected override System.String get_DebugName()
-    // Offset: 0x18C11F8
+    // Offset: 0x18CA5E4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // protected override System.Void Execute()
-    // Offset: 0x18C1240
+    // Offset: 0x18CA62C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x18C1308
+    // Offset: 0x18CA6F4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _iconImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__iconImage();
     // public System.Void .ctor()
-    // Offset: 0x13F6F90
+    // Offset: 0x13D4F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierInfoListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierInfoListItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierInfoListItem*, creationType>()));
     }
     // public System.Void SetModifier(GameplayModifierParamsSO modifierParam, System.Boolean showName)
-    // Offset: 0x13F1EEC
+    // Offset: 0x13CFEB4
     void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
   }; // GameplayModifierInfoListItem
   #pragma pack(pop)

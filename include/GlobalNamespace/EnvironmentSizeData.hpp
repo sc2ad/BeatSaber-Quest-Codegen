@@ -15,9 +15,9 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Skipping declaration: TrackLaneType because it is already included!
-  // Skipping declaration: CeilingType because it is already included!
   // Skipping declaration: FloorType because it is already included!
+  // Skipping declaration: CeilingType because it is already included!
+  // Skipping declaration: TrackLaneType because it is already included!
 }
 // Completed forward declares
 // Type namespace: 
@@ -207,16 +207,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentSizeData/TrackLaneType _trackLaneType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSizeData::TrackLaneType& dyn__trackLaneType();
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x1397294
+    // Offset: 0x1375A7C
     ::GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x139729C
+    // Offset: 0x1375A84
     ::GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public EnvironmentSizeData/TrackLaneType get_trackLaneType()
-    // Offset: 0x13972A4
+    // Offset: 0x1375A8C
     ::GlobalNamespace::EnvironmentSizeData::TrackLaneType get_trackLaneType();
     // public System.Void .ctor()
-    // Offset: 0x13972AC
+    // Offset: 0x1375A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSizeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSizeData::.ctor");

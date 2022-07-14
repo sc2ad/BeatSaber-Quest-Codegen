@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x167AAF4
+    // Offset: 0x1685EE0
     // Implemented from: GameLiftConnectionManager/GameLiftConnectionManagerParamsBase
     // Base method: System.Void GameLiftConnectionManagerParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

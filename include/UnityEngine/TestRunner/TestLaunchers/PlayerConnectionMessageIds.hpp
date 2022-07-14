@@ -30,22 +30,22 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class PlayerConnectionMessageIds : public ::Il2CppObject {
     public:
     // static public System.Guid get_runStartedMessageId()
-    // Offset: 0x1979380
+    // Offset: 0x198376C
     static ::System::Guid get_runStartedMessageId();
     // static public System.Guid get_runFinishedMessageId()
-    // Offset: 0x19793E4
+    // Offset: 0x19837D0
     static ::System::Guid get_runFinishedMessageId();
     // static public System.Guid get_testStartedMessageId()
-    // Offset: 0x1979448
+    // Offset: 0x1983834
     static ::System::Guid get_testStartedMessageId();
     // static public System.Guid get_testFinishedMessageId()
-    // Offset: 0x19794AC
+    // Offset: 0x1983898
     static ::System::Guid get_testFinishedMessageId();
     // static public System.Guid get_quitPlayerMessageId()
-    // Offset: 0x1979510
+    // Offset: 0x19838FC
     static ::System::Guid get_quitPlayerMessageId();
     // static public System.Guid get_playerAliveHeartbeat()
-    // Offset: 0x1979574
+    // Offset: 0x1983960
     static ::System::Guid get_playerAliveHeartbeat();
   }; // UnityEngine.TestRunner.TestLaunchers.PlayerConnectionMessageIds
   #pragma pack(pop)

@@ -27,7 +27,7 @@ namespace UnityEngine::UI {
   class ScrollRect::ScrollRectEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1ECC898
+    // Offset: 0x1EDAD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollRect::ScrollRectEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ScrollRect::ScrollRectEvent::.ctor");

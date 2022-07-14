@@ -56,17 +56,17 @@ namespace GlobalNamespace {
     static ::StringW _get_kCubemapHelpersShaderName();
     // Set static field: static private System.String kCubemapHelpersShaderName
     static void _set_kCubemapHelpersShaderName(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E698C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE250
     // Get static field: static private UnityEngine.Material _cubemapHelpersMaterial
     static ::UnityEngine::Material* _get__cubemapHelpersMaterial();
     // Set static field: static private UnityEngine.Material _cubemapHelpersMaterial
     static void _set__cubemapHelpersMaterial(::UnityEngine::Material* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E699C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE260
     // Get static field: static private readonly System.Int32 _cubePropertyId
     static int _get__cubePropertyId();
     // Set static field: static private readonly System.Int32 _cubePropertyId
     static void _set__cubePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E69AC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE270
     // Get static field: static private readonly System.Int32 _cubeFaceNumberId
     static int _get__cubeFaceNumberId();
     // Set static field: static private readonly System.Int32 _cubeFaceNumberId
@@ -83,33 +83,33 @@ namespace GlobalNamespace {
     static int _get_kCubemapTo2DTexturePass();
     // Set static field: static private System.Int32 kCubemapTo2DTexturePass
     static void _set_kCubemapTo2DTexturePass(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E69BC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE280
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.CubemapFace,System.Int32> _cubemapFaceToCubeFaceNumberDict
     static ::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace, int>* _get__cubemapFaceToCubeFaceNumberDict();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.CubemapFace,System.Int32> _cubemapFaceToCubeFaceNumberDict
     static void _set__cubemapFaceToCubeFaceNumberDict(::System::Collections::Generic::Dictionary_2<::UnityEngine::CubemapFace, int>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E69CC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE290
     // Get static field: static private readonly UnityEngine.CubemapFace[] _cubemapFaces
     static ::ArrayW<::UnityEngine::CubemapFace> _get__cubemapFaces();
     // Set static field: static private readonly UnityEngine.CubemapFace[] _cubemapFaces
     static void _set__cubemapFaces(::ArrayW<::UnityEngine::CubemapFace> value);
     // static private UnityEngine.Material get_cubemapHelpersMaterial()
-    // Offset: 0x1402798
+    // Offset: 0x148C564
     static ::UnityEngine::Material* get_cubemapHelpersMaterial();
     // static private System.Void .cctor()
-    // Offset: 0x1402EF8
+    // Offset: 0x148CCC4
     static void _cctor();
     // static private System.Void Downsample(UnityEngine.Texture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x14028C4
+    // Offset: 0x148C690
     static void Downsample(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest);
     // static public UnityEngine.RenderTexture CreateDownsampledCubemap(UnityEngine.RenderTexture src, System.Int32 count)
-    // Offset: 0x1402BB8
+    // Offset: 0x148C984
     static ::UnityEngine::RenderTexture* CreateDownsampledCubemap(::UnityEngine::RenderTexture* src, int count);
     // static public UnityEngine.RenderTexture Create2DTextureFromCubemap(UnityEngine.RenderTexture src)
-    // Offset: 0x1402DA4
+    // Offset: 0x148CB70
     static ::UnityEngine::RenderTexture* Create2DTextureFromCubemap(::UnityEngine::RenderTexture* src);
     // static private System.Void DrawCubemapFace(UnityEngine.Texture cubemap, UnityEngine.CubemapFace cubemapFace)
-    // Offset: 0x1402A04
+    // Offset: 0x148C7D0
     static void DrawCubemapFace(::UnityEngine::Texture* cubemap, ::UnityEngine::CubemapFace cubemapFace);
   }; // CubemapHelpers
   #pragma pack(pop)

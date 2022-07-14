@@ -45,7 +45,7 @@ namespace Microsoft::Win32 {
     // Get instance field reference: System.String cFileName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_cFileName();
     // public System.Void .ctor()
-    // Offset: 0x1F3AC30
+    // Offset: 0x1F480A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

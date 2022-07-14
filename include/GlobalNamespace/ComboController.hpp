@@ -52,14 +52,14 @@ namespace GlobalNamespace {
   class ComboController : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::IComboController*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10DDA6C
+    // [InjectAttribute] Offset: 0x10E51B0
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DDA7C
+    // [InjectAttribute] Offset: 0x10E51C0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -114,41 +114,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _maxCombo
     [[deprecated("Use field access instead!")]] int& dyn__maxCombo();
     // public System.Int32 get_maxCombo()
-    // Offset: 0x13FDD70
+    // Offset: 0x1486E98
     int get_maxCombo();
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13FDD78
+    // Offset: 0x1486EA0
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13FDE1C
+    // Offset: 0x1486F44
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x13FDEC0
+    // Offset: 0x1486FE8
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x13FDF64
+    // Offset: 0x148708C
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13FE4A8
+    // Offset: 0x14875D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComboController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ComboController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComboController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13FE008
+    // Offset: 0x1487130
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13FE124
+    // Offset: 0x148724C
     void OnDestroy();
     // private System.Void HandlePlayerHeadDidEnterObstacles()
-    // Offset: 0x13FE288
+    // Offset: 0x14873B0
     void HandlePlayerHeadDidEnterObstacles();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x13FE30C
+    // Offset: 0x1487434
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x13FE3EC
+    // Offset: 0x1487514
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
   }; // ComboController
   #pragma pack(pop)

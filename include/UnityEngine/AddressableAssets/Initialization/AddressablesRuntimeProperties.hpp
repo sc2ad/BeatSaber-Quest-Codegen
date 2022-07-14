@@ -59,28 +59,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
     static void _set_s_CachedValues(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18C4570
+    // Offset: 0x18CD95C
     static void _cctor();
     // static private System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x18C3A90
+    // Offset: 0x18CCE7C
     static ::ArrayW<::System::Reflection::Assembly*> GetAssemblies();
     // static System.Int32 GetCachedValueCount()
-    // Offset: 0x18C3AB4
+    // Offset: 0x18CCEA0
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
-    // Offset: 0x18C3B30
+    // Offset: 0x18CCF1C
     static void SetPropertyValue(::StringW name, ::StringW val);
     // static public System.Void ClearCachedPropertyValues()
-    // Offset: 0x18C3BC4
+    // Offset: 0x18CCFB0
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
-    // Offset: 0x18C3C40
+    // Offset: 0x18CD02C
     static ::StringW EvaluateProperty(::StringW name);
     // static public System.String EvaluateString(System.String input)
-    // Offset: 0x18BAA1C
+    // Offset: 0x18C3E08
     static ::StringW EvaluateString(::StringW input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
-    // Offset: 0x18C407C
+    // Offset: 0x18CD468
     static ::StringW EvaluateString(::StringW inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)

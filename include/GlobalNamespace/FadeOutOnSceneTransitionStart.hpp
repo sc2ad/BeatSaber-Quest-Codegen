@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class FadeOutOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10C8618
+    // [InjectAttribute] Offset: 0x10D0D78
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10C8628
+    // [InjectAttribute] Offset: 0x10D0D88
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -60,20 +60,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x2A361E4
+    // Offset: 0x2A4E66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeOutOnSceneTransitionStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeOutOnSceneTransitionStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutOnSceneTransitionStart*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2A36058
+    // Offset: 0x2A4E4E0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2A360EC
+    // Offset: 0x2A4E574
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x2A361C8
+    // Offset: 0x2A4E650
     void HandleGameScenesManagerTransitionDidStart(float duration);
   }; // FadeOutOnSceneTransitionStart
   #pragma pack(pop)

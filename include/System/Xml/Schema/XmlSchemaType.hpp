@@ -111,49 +111,49 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentType contentType
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
     // public System.Xml.XmlQualifiedName get_QualifiedName()
-    // Offset: 0x2055380
+    // Offset: 0x20627F8
     ::System::Xml::XmlQualifiedName* get_QualifiedName();
     // public System.Xml.Schema.XmlSchemaType get_BaseXmlSchemaType()
-    // Offset: 0x20553A4
+    // Offset: 0x206281C
     ::System::Xml::Schema::XmlSchemaType* get_BaseXmlSchemaType();
     // public System.Xml.Schema.XmlSchemaDatatype get_Datatype()
-    // Offset: 0x20553AC
+    // Offset: 0x2062824
     ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
     // public System.Void set_IsMixed(System.Boolean value)
-    // Offset: 0x20553B4
+    // Offset: 0x206282C
     void set_IsMixed(bool value);
     // public System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x20553B8
+    // Offset: 0x2062830
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // System.Xml.Schema.XmlValueConverter get_ValueConverter()
-    // Offset: 0x2055494
+    // Offset: 0x206290C
     ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
     // System.Xml.Schema.SchemaElementDecl get_ElementDecl()
-    // Offset: 0x20538A8
+    // Offset: 0x2060D20
     ::System::Xml::Schema::SchemaElementDecl* get_ElementDecl();
     // System.Void set_ElementDecl(System.Xml.Schema.SchemaElementDecl value)
-    // Offset: 0x2053880
+    // Offset: 0x2060CF8
     void set_ElementDecl(::System::Xml::Schema::SchemaElementDecl* value);
     // static public System.Xml.Schema.XmlSchemaSimpleType GetBuiltInSimpleType(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x2055318
+    // Offset: 0x2062790
     static ::System::Xml::Schema::XmlSchemaSimpleType* GetBuiltInSimpleType(::System::Xml::Schema::XmlTypeCode typeCode);
     // System.Void SetQualifiedName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x2053858
+    // Offset: 0x2060CD0
     void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
     // System.Void SetBaseSchemaType(System.Xml.Schema.XmlSchemaType value)
-    // Offset: 0x205551C
+    // Offset: 0x2062994
     void SetBaseSchemaType(::System::Xml::Schema::XmlSchemaType* value);
     // System.Void SetDerivedBy(System.Xml.Schema.XmlSchemaDerivationMethod value)
-    // Offset: 0x2055524
+    // Offset: 0x206299C
     void SetDerivedBy(::System::Xml::Schema::XmlSchemaDerivationMethod value);
     // System.Void SetDatatype(System.Xml.Schema.XmlSchemaDatatype value)
-    // Offset: 0x205552C
+    // Offset: 0x20629A4
     void SetDatatype(::System::Xml::Schema::XmlSchemaDatatype* value);
     // System.Void SetContentType(System.Xml.Schema.XmlSchemaContentType value)
-    // Offset: 0x2055534
+    // Offset: 0x20629AC
     void SetContentType(::System::Xml::Schema::XmlSchemaContentType value);
     // public System.Void .ctor()
-    // Offset: 0x2053D28
+    // Offset: 0x20611A0
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   class GameplayServerFiniteStateMachineFactory : public ::Il2CppObject {
     public:
     // static public GameplayServerFiniteStateMachine Create(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String creatorId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x167DB78
+    // Offset: 0x1688F64
     static ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
   }; // GameplayServerFiniteStateMachineFactory
   #pragma pack(pop)

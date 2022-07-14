@@ -40,16 +40,16 @@ namespace Oculus::Platform {
   class RichPresence : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request Clear()
-    // Offset: 0x2A72D44
+    // Offset: 0x2A8C1CC
     static ::Oculus::Platform::Request* Clear();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetDestinations()
-    // Offset: 0x2A72E48
+    // Offset: 0x2A8C2D0
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
     // static public Oculus.Platform.Request Set(Oculus.Platform.RichPresenceOptions richPresenceOptions)
-    // Offset: 0x2A72F54
+    // Offset: 0x2A8C3DC
     static ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetNextDestinationListPage(Oculus.Platform.Models.DestinationList list)
-    // Offset: 0x2A730E4
+    // Offset: 0x2A8C56C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
   }; // Oculus.Platform.RichPresence
   #pragma pack(pop)

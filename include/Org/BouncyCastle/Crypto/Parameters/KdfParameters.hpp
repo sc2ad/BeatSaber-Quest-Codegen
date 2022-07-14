@@ -56,17 +56,17 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Byte[] shared
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_shared();
     // public System.Void .ctor(System.Byte[] shared, System.Byte[] iv)
-    // Offset: 0x15F8D00
+    // Offset: 0x16040EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KdfParameters* New_ctor(::ArrayW<uint8_t> shared, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::KdfParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KdfParameters*, creationType>(shared, iv)));
     }
     // public System.Byte[] GetSharedSecret()
-    // Offset: 0x15F8D38
+    // Offset: 0x1604124
     ::ArrayW<uint8_t> GetSharedSecret();
     // public System.Byte[] GetIV()
-    // Offset: 0x15F8D40
+    // Offset: 0x160412C
     ::ArrayW<uint8_t> GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.KdfParameters
   #pragma pack(pop)

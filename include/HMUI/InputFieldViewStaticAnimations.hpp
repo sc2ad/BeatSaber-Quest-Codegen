@@ -44,7 +44,7 @@ namespace HMUI {
     ::HMUI::InputFieldView* inputFieldView;
     // Field size check
     static_assert(sizeof(::HMUI::InputFieldView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C218C
+    // [SpaceAttribute] Offset: 0x10CA8EC
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -99,26 +99,26 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _didStart
     [[deprecated("Use field access instead!")]] bool& dyn__didStart();
     // public System.Void .ctor()
-    // Offset: 0x16B81F8
+    // Offset: 0x16C35E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldViewStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldViewStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldViewStaticAnimations*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x16B7F38
+    // Offset: 0x16C3324
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x16B7FC8
+    // Offset: 0x16C33B4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x16B8104
+    // Offset: 0x16C34F0
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x16B8120
+    // Offset: 0x16C350C
     void OnDestroy();
     // private System.Void HandleInputFieldViewSelectionStateDidChange(HMUI.InputFieldView/HMUI.SelectionState state)
-    // Offset: 0x16B7FEC
+    // Offset: 0x16C33D8
     void HandleInputFieldViewSelectionStateDidChange(::HMUI::InputFieldView::SelectionState state);
   }; // HMUI.InputFieldViewStaticAnimations
   #pragma pack(pop)

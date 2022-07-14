@@ -36,7 +36,7 @@ namespace NUnit {
     // Set static field: static public readonly System.String DefaultWorkDirectory
     static void _set_DefaultWorkDirectory(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1C832BC
+    // Offset: 0x1C916A8
     static void _cctor();
   }; // NUnit.Env
   #pragma pack(pop)

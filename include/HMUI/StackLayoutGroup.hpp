@@ -47,47 +47,47 @@ namespace HMUI {
     // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight
     [[deprecated("Use field access instead!")]] bool& dyn_m_ChildForceExpandHeight();
     // public System.Boolean get_childForceExpandWidth()
-    // Offset: 0x16C48CC
+    // Offset: 0x16CFCB8
     bool get_childForceExpandWidth();
     // public System.Void set_childForceExpandWidth(System.Boolean value)
-    // Offset: 0x16C48D4
+    // Offset: 0x16CFCC0
     void set_childForceExpandWidth(bool value);
     // public System.Boolean get_childForceExpandHeight()
-    // Offset: 0x16C4938
+    // Offset: 0x16CFD24
     bool get_childForceExpandHeight();
     // public System.Void set_childForceExpandHeight(System.Boolean value)
-    // Offset: 0x16C4940
+    // Offset: 0x16CFD2C
     void set_childForceExpandHeight(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x16C49A4
+    // Offset: 0x16CFD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackLayoutGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackLayoutGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackLayoutGroup*, creationType>()));
     }
     // private System.Void CalcAlongAxis(System.Int32 axis)
-    // Offset: 0x16C49E0
+    // Offset: 0x16CFDCC
     void CalcAlongAxis(int axis);
     // private System.Void SetChildrenAlongAxis(System.Int32 axis)
-    // Offset: 0x16C4BF8
+    // Offset: 0x16CFFE4
     void SetChildrenAlongAxis(int axis);
     // public override System.Void CalculateLayoutInputHorizontal()
-    // Offset: 0x16C49B4
+    // Offset: 0x16CFDA0
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputHorizontal()
     void CalculateLayoutInputHorizontal();
     // public override System.Void CalculateLayoutInputVertical()
-    // Offset: 0x16C4BE8
+    // Offset: 0x16CFFD4
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::CalculateLayoutInputVertical()
     void CalculateLayoutInputVertical();
     // public override System.Void SetLayoutHorizontal()
-    // Offset: 0x16C4BF0
+    // Offset: 0x16CFFDC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutHorizontal()
     void SetLayoutHorizontal();
     // public override System.Void SetLayoutVertical()
-    // Offset: 0x16C4E10
+    // Offset: 0x16D01FC
     // Implemented from: UnityEngine.UI.LayoutGroup
     // Base method: System.Void LayoutGroup::SetLayoutVertical()
     void SetLayoutVertical();

@@ -65,16 +65,16 @@ namespace System::Xml::Schema {
     // Set static field: static public readonly System.Xml.Schema.XmlValueConverter AnyAtomic
     static void _set_AnyAtomic(::System::Xml::Schema::XmlValueConverter* value);
     // private System.Object ChangeTypeWildcardDestination(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C58BEC
+    // Offset: 0x1C67FD8
     ::Il2CppObject* ChangeTypeWildcardDestination(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // private System.Object ChangeTypeWildcardSource(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C59BE8
+    // Offset: 0x1C68FD4
     ::Il2CppObject* ChangeTypeWildcardSource(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // private System.Xml.XPath.XPathNavigator ToNavigator(System.Xml.XPath.XPathNavigator nav)
-    // Offset: 0x1C5C530
+    // Offset: 0x1C6B91C
     ::System::Xml::XPath::XPathNavigator* ToNavigator(::System::Xml::XPath::XPathNavigator* nav);
     // protected System.Void .ctor(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x1C588C4
+    // Offset: 0x1C67CB0
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlTypeCode typeCode)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,87 +83,87 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlAnyConverter*, creationType>(typeCode)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C5C81C
+    // Offset: 0x1C6BC08
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.cctor()
     static void _cctor();
     // public override System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x1C58A40
+    // Offset: 0x1C67E2C
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Boolean XmlBaseConverter::ToBoolean(System.Object value)
     bool ToBoolean(::Il2CppObject* value);
     // public override System.DateTime ToDateTime(System.Object value)
-    // Offset: 0x1C58D28
+    // Offset: 0x1C68114
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.DateTime XmlBaseConverter::ToDateTime(System.Object value)
     ::System::DateTime ToDateTime(::Il2CppObject* value);
     // public override System.DateTimeOffset ToDateTimeOffset(System.Object value)
-    // Offset: 0x1C58ED4
+    // Offset: 0x1C682C0
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.DateTimeOffset XmlBaseConverter::ToDateTimeOffset(System.Object value)
     ::System::DateTimeOffset ToDateTimeOffset(::Il2CppObject* value);
     // public override System.Decimal ToDecimal(System.Object value)
-    // Offset: 0x1C590A4
+    // Offset: 0x1C68490
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Decimal XmlBaseConverter::ToDecimal(System.Object value)
     ::System::Decimal ToDecimal(::Il2CppObject* value);
     // public override System.Double ToDouble(System.Object value)
-    // Offset: 0x1C59274
+    // Offset: 0x1C68660
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Double XmlBaseConverter::ToDouble(System.Object value)
     double ToDouble(::Il2CppObject* value);
     // public override System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1C59420
+    // Offset: 0x1C6880C
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Int32 XmlBaseConverter::ToInt32(System.Object value)
     int ToInt32(::Il2CppObject* value);
     // public override System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1C595CC
+    // Offset: 0x1C689B8
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Int64 XmlBaseConverter::ToInt64(System.Object value)
     int64_t ToInt64(::Il2CppObject* value);
     // public override System.Single ToSingle(System.Object value)
-    // Offset: 0x1C59778
+    // Offset: 0x1C68B64
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Single XmlBaseConverter::ToSingle(System.Object value)
     float ToSingle(::Il2CppObject* value);
     // public override System.Object ChangeType(System.Boolean value, System.Type destinationType)
-    // Offset: 0x1C59944
+    // Offset: 0x1C68D30
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Boolean value, System.Type destinationType)
     ::Il2CppObject* ChangeType(bool value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.DateTime value, System.Type destinationType)
-    // Offset: 0x1C59D54
+    // Offset: 0x1C69140
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.DateTime value, System.Type destinationType)
     ::Il2CppObject* ChangeType(::System::DateTime value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Decimal value, System.Type destinationType)
-    // Offset: 0x1C59FF0
+    // Offset: 0x1C693DC
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Decimal value, System.Type destinationType)
     ::Il2CppObject* ChangeType(::System::Decimal value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Double value, System.Type destinationType)
-    // Offset: 0x1C5A2C8
+    // Offset: 0x1C696B4
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Double value, System.Type destinationType)
     ::Il2CppObject* ChangeType(double value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Int32 value, System.Type destinationType)
-    // Offset: 0x1C5A574
+    // Offset: 0x1C69960
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Int32 value, System.Type destinationType)
     ::Il2CppObject* ChangeType(int value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Int64 value, System.Type destinationType)
-    // Offset: 0x1C5A810
+    // Offset: 0x1C69BFC
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Int64 value, System.Type destinationType)
     ::Il2CppObject* ChangeType(int64_t value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C5AAAC
+    // Offset: 0x1C69E98
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C5AD74
+    // Offset: 0x1C6A160
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);

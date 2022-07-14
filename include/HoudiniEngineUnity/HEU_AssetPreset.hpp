@@ -82,14 +82,14 @@ namespace HoudiniEngineUnity {
     ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* curvePresets;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x1103DC8
+    // [OptionalFieldAttribute] Offset: 0x110C7DC
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
     // Size: 0x8
     // Offset: 0x40
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0x1103E00
+    // [OptionalFieldAttribute] Offset: 0x110C814
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
     // Size: 0x8
     // Offset: 0x48
@@ -114,7 +114,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn_volumeCachePresets();
     // public System.Void .ctor()
-    // Offset: 0x16E1850
+    // Offset: 0x16ECC3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetPreset::.ctor");

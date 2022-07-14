@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshPro _versionText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshPro*& dyn__versionText();
     // public System.Void .ctor()
-    // Offset: 0x137FD98
+    // Offset: 0x13DF424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetApplicationVersionText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetApplicationVersionText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetApplicationVersionText*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x137FD60
+    // Offset: 0x13DF3EC
     void Start();
   }; // SetApplicationVersionText
   #pragma pack(pop)

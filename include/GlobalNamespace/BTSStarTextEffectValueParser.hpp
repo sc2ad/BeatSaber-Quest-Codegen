@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kPositionBitOffset
     static void _set_kPositionBitOffset(int value);
     // static public System.Int32 GetTextId(System.Int32 value)
-    // Offset: 0x1347E68
+    // Offset: 0x1389748
     static int GetTextId(int value);
     // static public System.Int32 GetPositionId(System.Int32 value)
-    // Offset: 0x1347E70
+    // Offset: 0x1389750
     static int GetPositionId(int value);
     // static public System.Int32 MergeValuesIntoOneInt(System.Int32 textId, System.Int32 positionId)
-    // Offset: 0x1347E78
+    // Offset: 0x1389758
     static int MergeValuesIntoOneInt(int textId, int positionId);
   }; // BTSStarTextEffectValueParser
   #pragma pack(pop)

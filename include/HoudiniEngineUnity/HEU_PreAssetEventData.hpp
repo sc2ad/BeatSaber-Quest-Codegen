@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetEventType AssetType
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AssetEventType& dyn_AssetType();
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, HoudiniEngineUnity.HEU_AssetEventType assetType)
-    // Offset: 0x1AFA270
+    // Offset: 0x1B0765C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PreAssetEventData::.ctor");

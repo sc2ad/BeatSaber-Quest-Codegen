@@ -88,17 +88,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void .ctor()
-    // Offset: 0x133BE88
+    // Offset: 0x13560A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedMediaAsyncLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CachedMediaAsyncLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedMediaAsyncLoader*, creationType>()));
     }
     // public System.Void ClearCache()
-    // Offset: 0x133BD14
+    // Offset: 0x1355F30
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x133BD74
+    // Offset: 0x1355F90
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
   }; // CachedMediaAsyncLoader
   #pragma pack(pop)

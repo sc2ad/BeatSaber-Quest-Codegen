@@ -28,10 +28,10 @@ namespace System::Net {
   class UnsafeNclNativeMethods::SecureStringHelper : public ::Il2CppObject {
     public:
     // static System.String CreateString(System.Security.SecureString secureString)
-    // Offset: 0x1B47310
+    // Offset: 0x1B536FC
     static ::StringW CreateString(::System::Security::SecureString* secureString);
     // static System.Security.SecureString CreateSecureString(System.String plainString)
-    // Offset: 0x1B4743C
+    // Offset: 0x1B53828
     static ::System::Security::SecureString* CreateSecureString(::StringW plainString);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.SecureStringHelper
   #pragma pack(pop)

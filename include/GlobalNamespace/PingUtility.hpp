@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::PingUtility::$PingAsync$d__0
     struct $PingAsync$d__0;
     // static public System.Threading.Tasks.Task`1<System.Int64> PingAsync(System.String url)
-    // Offset: 0x262C7B8
+    // Offset: 0x2640C30
     static ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
   }; // PingUtility
   #pragma pack(pop)

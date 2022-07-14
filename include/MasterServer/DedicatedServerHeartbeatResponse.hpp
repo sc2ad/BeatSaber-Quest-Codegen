@@ -62,23 +62,23 @@ namespace MasterServer {
       return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatResponse> get_pool()
-    // Offset: 0x1683134
+    // Offset: 0x168E520
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerHeartbeatResponse*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16831E0
+    // Offset: 0x168E5CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerHeartbeatResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerHeartbeatResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerHeartbeatResponse*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x168317C
+    // Offset: 0x168E568
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1683180
+    // Offset: 0x168E56C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1683184
+    // Offset: 0x168E570
     void Release();
   }; // MasterServer.DedicatedServerHeartbeatResponse
   #pragma pack(pop)

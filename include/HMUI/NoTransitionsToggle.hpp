@@ -59,23 +59,23 @@ namespace HMUI {
     // Get instance field reference: private HMUI.UISelectionState _selectionState
     [[deprecated("Use field access instead!")]] ::HMUI::UISelectionState& dyn__selectionState();
     // public HMUI.UISelectionState get_selectionState()
-    // Offset: 0x16BB460
+    // Offset: 0x16C684C
     ::HMUI::UISelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16BB468
+    // Offset: 0x16C6854
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16BB510
+    // Offset: 0x16C68FC
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x16BB644
+    // Offset: 0x16C6A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NoTransitionsToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsToggle*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x16BB5B8
+    // Offset: 0x16C69A4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

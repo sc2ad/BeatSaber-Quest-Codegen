@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MissScoringElement::Pool : public ::GlobalNamespace::ScoringElement::Pool_1<::GlobalNamespace::MissScoringElement*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13023E4
+    // Offset: 0x1307E44
     // Implemented from: ScoringElement/Pool`1
     // Base method: System.Void Pool_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,14 +51,14 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlRawWriter rawWriter
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlRawWriter*& dyn_rawWriter();
     // System.Void .ctor(System.Xml.XmlRawWriter rawWriter)
-    // Offset: 0x15DCEA4
+    // Offset: 0x15E7290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlRawWriterBase64Encoder* New_ctor(::System::Xml::XmlRawWriter* rawWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlRawWriterBase64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriterBase64Encoder*, creationType>(rawWriter)));
     }
     // override System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
-    // Offset: 0x15DD2F8
+    // Offset: 0x15E76E4
     // Implemented from: System.Xml.Base64Encoder
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     void WriteChars(::ArrayW<::Il2CppChar> chars, int index, int count);
