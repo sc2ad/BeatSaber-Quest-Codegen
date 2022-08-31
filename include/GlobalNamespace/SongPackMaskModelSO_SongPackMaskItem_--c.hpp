@@ -75,29 +75,29 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapLevelPackCollectionSO,System.Collections.Generic.IEnumerable`1<System.String>> <>9__11_3
     static void _set_$$9__11_3(::System::Func_2<::GlobalNamespace::BeatmapLevelPackCollectionSO*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13ED724
+    // Offset: 0x13CDBB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13ED788
+    // Offset: 0x13CDC14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO::SongPackMaskItem::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMaskModelSO::SongPackMaskItem::$$c*, creationType>()));
     }
     // System.String <get_songPackMask>b__11_0(IBeatmapLevelPack pack)
-    // Offset: 0x13ED790
+    // Offset: 0x13CDC1C
     ::StringW $get_songPackMask$b__11_0(::GlobalNamespace::IBeatmapLevelPack* pack);
     // System.String <get_songPackMask>b__11_1(BeatmapLevelPackSO pack)
-    // Offset: 0x13ED83C
+    // Offset: 0x13CDCC8
     ::StringW $get_songPackMask$b__11_1(::GlobalNamespace::BeatmapLevelPackSO* pack);
     // System.String <get_songPackMask>b__11_2(PreviewBeatmapLevelPackSO pack)
-    // Offset: 0x13ED854
+    // Offset: 0x13CDCE0
     ::StringW $get_songPackMask$b__11_2(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
     // System.Collections.Generic.IEnumerable`1<System.String> <get_songPackMask>b__11_3(BeatmapLevelPackCollectionSO collection)
-    // Offset: 0x13ED86C
+    // Offset: 0x13CDCF8
     ::System::Collections::Generic::IEnumerable_1<::StringW>* $get_songPackMask$b__11_3(::GlobalNamespace::BeatmapLevelPackCollectionSO* collection);
     // System.String <get_songPackMask>b__11_4(IBeatmapLevelPack pack)
-    // Offset: 0x13ED978
+    // Offset: 0x13CDE04
     ::StringW $get_songPackMask$b__11_4(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // SongPackMaskModelSO/SongPackMaskItem/<>c
   #pragma pack(pop)

@@ -59,28 +59,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::CrossFadeAudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CrossFadeAudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E31D8
+    // [SpaceAttribute] Offset: 0x10EB218
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3210
+    // [InjectAttribute] Offset: 0x10EB250
     // private readonly MultiplayerLocalInactivePlayerSongSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3220
+    // [InjectAttribute] Offset: 0x10EB260
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3230
+    // [InjectAttribute] Offset: 0x10EB270
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -181,50 +181,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastLatencyOffsetTime
     [[deprecated("Use field access instead!")]] float& dyn__lastLatencyOffsetTime();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x13B0F90
+    // Offset: 0x13A5B0C
     ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // private System.Boolean get_isAudioLoaded()
-    // Offset: 0x13B1028
+    // Offset: 0x13A5BA4
     bool get_isAudioLoaded();
     // public System.Void .ctor()
-    // Offset: 0x13B1CE4
+    // Offset: 0x13A6860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerSongSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13B10D4
+    // Offset: 0x13A5C50
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13B11F0
+    // Offset: 0x13A5D6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B12DC
+    // Offset: 0x13A5E58
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13B13D4
+    // Offset: 0x13A5F50
     void Update();
     // public System.Void StartSong(System.Single offsetTime)
-    // Offset: 0x13B17FC
+    // Offset: 0x13A6378
     void StartSong(float offsetTime);
     // public System.Void FollowOffsetSyncTime(IMultiplayerObservable observable, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x13B1AC4
+    // Offset: 0x13A6640
     void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
     // private System.Void UpdateOffsetSyncTime(System.Single offsetSyncTime, System.Boolean crossFade, System.Boolean forceUpdate)
-    // Offset: 0x13B169C
+    // Offset: 0x13A6218
     void UpdateOffsetSyncTime(float offsetSyncTime, bool crossFade, bool forceUpdate);
     // public System.Void SeekTo(System.Single offsetTime)
-    // Offset: 0x13B1CD4
+    // Offset: 0x13A6850
     void SeekTo(float offsetTime);
     // private System.Void SeekTo(System.Single offsetTime, System.Boolean crossFade, System.Single toVolume)
-    // Offset: 0x13B18F8
+    // Offset: 0x13A6474
     void SeekTo(float offsetTime, bool crossFade, float toVolume);
     // private System.Void HandleVrFocusWasReleased()
-    // Offset: 0x13B1CE0
+    // Offset: 0x13A685C
     void HandleVrFocusWasReleased();
     // private System.Boolean <get_waitUntilIsReadyToStartTheSong>b__7_0()
-    // Offset: 0x13B1CEC
+    // Offset: 0x13A6868
     bool $get_waitUntilIsReadyToStartTheSong$b__7_0();
   }; // MultiplayerLocalInactivePlayerSongSyncController
   #pragma pack(pop)

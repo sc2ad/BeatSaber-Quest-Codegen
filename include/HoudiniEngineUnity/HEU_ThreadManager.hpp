@@ -70,35 +70,35 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
     // static public HoudiniEngineUnity.HEU_ThreadManager get_Instance()
-    // Offset: 0x1B151A0
+    // Offset: 0x1B1AB28
     static ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
     // public System.Void .ctor()
-    // Offset: 0x1B156AC
+    // Offset: 0x1B1B034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadManager*, creationType>()));
     }
     // static private System.Void CreateInstance()
-    // Offset: 0x1B151F0
+    // Offset: 0x1B1AB78
     static void CreateInstance();
     // public System.Void Register()
-    // Offset: 0x1B15200
+    // Offset: 0x1B1AB88
     void Register();
     // public System.Void Unregister()
-    // Offset: 0x1B151FC
+    // Offset: 0x1B1AB84
     void Unregister();
     // public System.Void Update()
-    // Offset: 0x1B15204
+    // Offset: 0x1B1AB8C
     void Update();
     // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x1B1554C
+    // Offset: 0x1B1AED4
     void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x1B155FC
+    // Offset: 0x1B1AF84
     void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // protected override System.Void Finalize()
-    // Offset: 0x1B151F4
+    // Offset: 0x1B1AB7C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

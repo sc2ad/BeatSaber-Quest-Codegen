@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   class CertificateParsingException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17B4178
+    // Offset: 0x17C6E8C
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor()
     // Base method: System.Void GeneralSecurityException::.ctor()
@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Security::Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<CertificateParsingException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x17B4180
+    // Offset: 0x17C6E94
     // Implemented from: Org.BouncyCastle.Security.Certificates.CertificateException
     // Base method: System.Void CertificateException::.ctor(System.String message)
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)

@@ -52,28 +52,28 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::PlayerHeightDetector::InitData
     class InitData;
     public:
-    // [InjectAttribute] Offset: 0x10E4BAC
+    // [InjectAttribute] Offset: 0x10ECBEC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E4BBC
+    // [InjectAttribute] Offset: 0x10ECBFC
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E4BCC
+    // [InjectAttribute] Offset: 0x10ECC0C
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E4BDC
+    // [InjectAttribute] Offset: 0x10ECC1C
     // private readonly PlayerHeightDetector/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -140,32 +140,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastReportedHeight
     [[deprecated("Use field access instead!")]] float& dyn__lastReportedHeight();
     // public System.Single get_playerHeight()
-    // Offset: 0x1363284
+    // Offset: 0x13FF698
     float get_playerHeight();
     // public System.Void add_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x136313C
+    // Offset: 0x13FF550
     void add_playerHeightDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_playerHeightDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x13631E0
+    // Offset: 0x13FF5F4
     void remove_playerHeightDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x1363638
+    // Offset: 0x13FFA4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightDetector* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightDetector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightDetector*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x136328C
+    // Offset: 0x13FF6A0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1363374
+    // Offset: 0x13FF788
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x1363390
+    // Offset: 0x13FF7A4
     void LateUpdate();
     // private System.Void BeatmapObjectSpawnCallback(ObstacleData obstacleData)
-    // Offset: 0x1363580
+    // Offset: 0x13FF994
     void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
   }; // PlayerHeightDetector
   #pragma pack(pop)

@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single heightFogHeight
     [[deprecated("Use field access instead!")]] float& dyn_heightFogHeight();
     // public System.Void .ctor()
-    // Offset: 0x1E77824
+    // Offset: 0x1E67F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogEnvironmentParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogEnvironmentParams::.ctor");

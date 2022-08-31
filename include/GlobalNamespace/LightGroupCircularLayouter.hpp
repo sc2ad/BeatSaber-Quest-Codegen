@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(LightGroupCircularLayouter::RotationDirection), 0 + sizeof(int)> __GlobalNamespace_LightGroupCircularLayouter_RotationDirectionSizeCheck;
     static_assert(sizeof(LightGroupCircularLayouter::RotationDirection) == 0x4);
     public:
-    // [SpaceAttribute] Offset: 0x10DFFA8
+    // [SpaceAttribute] Offset: 0x10E7FE8
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x20
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightGroupCircularLayouter/RotationDirection _rotationDirection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroupCircularLayouter::RotationDirection& dyn__rotationDirection();
     // public System.Void .ctor()
-    // Offset: 0x14BA408
+    // Offset: 0x14D9FAC
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

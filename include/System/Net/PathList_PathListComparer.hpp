@@ -38,17 +38,17 @@ namespace System::Net {
     // Set static field: static readonly System.Net.PathList/System.Net.PathListComparer StaticInstance
     static void _set_StaticInstance(::System::Net::PathList::PathListComparer* value);
     // public System.Void .ctor()
-    // Offset: 0x1B6B9A4
+    // Offset: 0x1B72318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathList::PathListComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::PathList::PathListComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathList::PathListComparer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B6B9AC
+    // Offset: 0x1B72320
     static void _cctor();
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1B6B828
+    // Offset: 0x1B7219C
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
   }; // System.Net.PathList/System.Net.PathListComparer
   #pragma pack(pop)

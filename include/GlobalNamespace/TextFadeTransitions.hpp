@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* textLabel;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10E5528
+    // [TooltipAttribute] Offset: 0x10ED568
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x20
@@ -151,26 +151,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _fade
     [[deprecated("Use field access instead!")]] float& dyn__fade();
     // public System.Void .ctor()
-    // Offset: 0x149B8A8
+    // Offset: 0x140F930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextFadeTransitions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextFadeTransitions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextFadeTransitions*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x149B548
+    // Offset: 0x140F5D0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x149B6AC
+    // Offset: 0x140F734
     void Update();
     // private System.Void RefreshState()
-    // Offset: 0x149B6B0
+    // Offset: 0x140F738
     void RefreshState();
     // private System.Void RefreshTextAlpha()
-    // Offset: 0x149B5C4
+    // Offset: 0x140F64C
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
-    // Offset: 0x149B83C
+    // Offset: 0x140F8C4
     void ShowText(::StringW text);
   }; // TextFadeTransitions
   #pragma pack(pop)

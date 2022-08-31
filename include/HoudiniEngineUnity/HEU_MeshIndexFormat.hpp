@@ -50,17 +50,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Rendering.IndexFormat _indexFormat
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::IndexFormat& dyn__indexFormat();
     // public System.Void .ctor()
-    // Offset: 0x189EB90
+    // Offset: 0x189031C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MeshIndexFormat* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MeshIndexFormat::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_MeshIndexFormat*, creationType>()));
     }
     // public System.Void CalculateIndexFormat(System.Int32 numVertices)
-    // Offset: 0x189EAE4
+    // Offset: 0x1890270
     void CalculateIndexFormat(int numVertices);
     // public System.Void SetFormatForMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x189EB6C
+    // Offset: 0x18902F8
     void SetFormatForMesh(::UnityEngine::Mesh* mesh);
   }; // HoudiniEngineUnity.HEU_MeshIndexFormat
   #pragma pack(pop)

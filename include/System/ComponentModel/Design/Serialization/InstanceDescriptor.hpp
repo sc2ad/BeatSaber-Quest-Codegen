@@ -65,21 +65,21 @@ namespace System::ComponentModel::Design::Serialization {
     // Get instance field reference: private System.Boolean isComplete
     [[deprecated("Use field access instead!")]] bool& dyn_isComplete();
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments)
-    // Offset: 0x1D9A030
+    // Offset: 0x1D8C8BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments)));
     }
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments, System.Boolean isComplete)
-    // Offset: 0x1D9ABE8
+    // Offset: 0x1D8D474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments, isComplete)));
     }
     // public System.Object Invoke()
-    // Offset: 0x1D9B07C
+    // Offset: 0x1D8D908
     ::Il2CppObject* Invoke();
   }; // System.ComponentModel.Design.Serialization.InstanceDescriptor
   #pragma pack(pop)

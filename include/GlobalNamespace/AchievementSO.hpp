@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _achievementId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__achievementId();
     // public System.String get_achievementId()
-    // Offset: 0x14F1C04
+    // Offset: 0x1514760
     ::StringW get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x14F1C0C
+    // Offset: 0x1514768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementSO::.ctor");

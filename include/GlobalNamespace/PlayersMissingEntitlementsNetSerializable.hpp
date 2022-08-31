@@ -67,27 +67,27 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
-    // Offset: 0x2A188E0
+    // Offset: 0x2A3FA04
     ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
     // public System.Void .ctor()
-    // Offset: 0x2A188E8
+    // Offset: 0x2A3FA0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersMissingEntitlementsNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>()));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> playersWithoutEntitlements)
-    // Offset: 0x2A188F0
+    // Offset: 0x2A3FA14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersMissingEntitlementsNetSerializable* New_ctor(::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>(playersWithoutEntitlements)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A1891C
+    // Offset: 0x2A3FA40
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A18A34
+    // Offset: 0x2A3FB58
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayersMissingEntitlementsNetSerializable
   #pragma pack(pop)

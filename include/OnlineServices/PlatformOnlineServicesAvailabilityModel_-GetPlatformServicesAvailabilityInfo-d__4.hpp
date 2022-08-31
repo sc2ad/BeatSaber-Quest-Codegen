@@ -74,10 +74,10 @@ namespace OnlineServices {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.PlatformServicesAvailabilityInfo> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::PlatformServicesAvailabilityInfo*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1338C70
+    // Offset: 0x133E5F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1338EB0
+    // Offset: 0x133E838
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel/OnlineServices.<GetPlatformServicesAvailabilityInfo>d__4
   // WARNING Not writing size check since size may be invalid!

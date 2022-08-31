@@ -62,17 +62,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // public System.Void .ctor()
-    // Offset: 0x153E1F0
+    // Offset: 0x1561D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinRequestPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinRequestPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1541014
+    // Offset: 0x1564B9C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1541058
+    // Offset: 0x1564BE0
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LocalNetworkDiscoveryManager/JoinRequestPacket
   #pragma pack(pop)

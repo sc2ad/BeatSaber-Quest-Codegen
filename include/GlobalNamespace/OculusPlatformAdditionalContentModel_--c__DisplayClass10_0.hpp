@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase>> launchCheckoutFlowTaskSource
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*& dyn_launchCheckoutFlowTaskSource();
     // public System.Void .ctor()
-    // Offset: 0x156D4A0
+    // Offset: 0x15A24C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0*, creationType>()));
     }
     // System.Void <LaunchCheckoutFlow>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Purchase> msg)
-    // Offset: 0x156D4A8
+    // Offset: 0x15A24D0
     void $LaunchCheckoutFlow$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
   }; // OculusPlatformAdditionalContentModel/<>c__DisplayClass10_0
   #pragma pack(pop)

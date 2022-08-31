@@ -91,7 +91,7 @@ namespace Mono::Globalization::Unicode {
       // Get instance field reference: public readonly System.Int32 IndexEnd
       [[deprecated("Use field access instead!")]] int& dyn_IndexEnd();
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-      // Offset: 0x1F4944C
+      // Offset: 0x1F63028
       TableRange(int start, int end, int indexStart);
     }; // Mono.Globalization.Unicode.CodePointIndexer/Mono.Globalization.Unicode.TableRange
     #pragma pack(pop)
@@ -132,14 +132,14 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private System.Int32 defaultCP
     [[deprecated("Use field access instead!")]] int& dyn_defaultCP();
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x1F492D8
+    // Offset: 0x1F62EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::ArrayW<int> starts, ::ArrayW<int> ends, int defaultIndex, int defaultCP) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x1F49464
+    // Offset: 0x1F63040
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
   #pragma pack(pop)

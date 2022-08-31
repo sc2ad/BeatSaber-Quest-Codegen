@@ -53,20 +53,20 @@ namespace System::Net::Configuration {
     // Get instance field reference: readonly System.Net.Sockets.IPProtectionLevel IPProtectionLevel
     [[deprecated("Use field access instead!")]] ::System::Net::Sockets::IPProtectionLevel& dyn_IPProtectionLevel();
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x1A76058
+    // Offset: 0x1A7B9E0
     static ::System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x1A760C0
+    // Offset: 0x1A7BA48
     bool get_Ipv6Enabled();
     // public System.Void .ctor()
-    // Offset: 0x1A760C8
+    // Offset: 0x1A7BA50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSectionInternal* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::SettingsSectionInternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSectionInternal*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A760E0
+    // Offset: 0x1A7BA68
     static void _cctor();
   }; // System.Net.Configuration.SettingsSectionInternal
   #pragma pack(pop)

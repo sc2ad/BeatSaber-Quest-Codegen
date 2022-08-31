@@ -72,23 +72,23 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x208BF3C
+    // Offset: 0x20BBD50
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void set_LevelFilter(System.Diagnostics.TraceLevel value)
-    // Offset: 0x208BF44
+    // Offset: 0x20BBD58
     void set_LevelFilter(::System::Diagnostics::TraceLevel value);
     // public System.Void .ctor()
-    // Offset: 0x208BF4C
+    // Offset: 0x20BBD60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::MemoryTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryTraceWriter*, creationType>()));
     }
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x208BFC8
+    // Offset: 0x20BBDDC
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
     // public override System.String ToString()
-    // Offset: 0x208C1A0
+    // Offset: 0x20BBFB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

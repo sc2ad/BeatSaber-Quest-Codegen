@@ -42,20 +42,20 @@ namespace GlobalNamespace {
   class BurstSliderSpawner::ProcessNoteDataDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1355E34
+    // Offset: 0x135B80C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BurstSliderSpawner::ProcessNoteDataDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BurstSliderSpawner::ProcessNoteDataDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BurstSliderSpawner::ProcessNoteDataDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNote)
-    // Offset: 0x13559F8
+    // Offset: 0x135B3D0
     void Invoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, float rotation, bool forceIsFirstNote);
     // public System.IAsyncResult BeginInvoke(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNote, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1355E44
+    // Offset: 0x135B81C
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, float rotation, bool forceIsFirstNote, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.IAsyncResult result)
-    // Offset: 0x1355F24
+    // Offset: 0x135B8FC
     void EndInvoke(ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
   }; // BurstSliderSpawner/ProcessNoteDataDelegate
   #pragma pack(pop)

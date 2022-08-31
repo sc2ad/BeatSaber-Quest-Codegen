@@ -43,28 +43,28 @@ namespace HoudiniEngineUnity {
   class HEU_InputMeshUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, System.Boolean bConvertToHoudiniCoordinateSystem)
-    // Offset: 0x188FAD8
+    // Offset: 0x1881264
     static bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<::UnityEngine::Vector3> data, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, System.Single[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x18942F0
+    // Offset: 0x1885A7C
     static bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<float> data, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshVertexAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3[] data, System.Int32[] indices, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, System.Boolean bConvertToHoudiniCoordinateSystem)
-    // Offset: 0x188FD2C
+    // Offset: 0x18814B8
     static bool SetMeshVertexAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<::UnityEngine::Vector3> data, ::ArrayW<int> indices, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
     // static public System.Boolean SetMeshVertexFloatAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, System.Single[] data, System.Int32[] indices, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x188FFC4
+    // Offset: 0x1881750
     static bool SetMeshVertexFloatAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<float> data, ::ArrayW<int> indices, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean UploadMeshIntoHoudiniNode(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetNodeID, System.Int32 objectID, System.Int32 geoID, ref UnityEngine.Mesh mesh)
-    // Offset: 0x18944E4
+    // Offset: 0x1885C70
     static bool UploadMeshIntoHoudiniNode(::HoudiniEngineUnity::HEU_SessionBase* session, int assetNodeID, int objectID, int geoID, ByRef<::UnityEngine::Mesh*> mesh);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3Int[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1893D98
+    // Offset: 0x1885524
     static bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<::UnityEngine::Vector3Int> data, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.String[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1893FCC
+    // Offset: 0x1885758
     static bool SetMeshPointAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ::ArrayW<::StringW> data, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshDetailAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3 data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1894158
+    // Offset: 0x18858E4
     static bool SetMeshDetailAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::UnityEngine::Vector3 data, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
   }; // HoudiniEngineUnity.HEU_InputMeshUtility
   #pragma pack(pop)

@@ -64,20 +64,20 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*& dyn_lookup();
     // public System.Void .ctor()
-    // Offset: 0x141F6BC
+    // Offset: 0x143B998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastAction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FastAction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FastAction*, creationType>()));
     }
     // public System.Void Add(System.Action rhs)
-    // Offset: 0x141F4D0
+    // Offset: 0x143B7AC
     void Add(::System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0x141F58C
+    // Offset: 0x143B868
     void Remove(::System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0x141F63C
+    // Offset: 0x143B918
     void Call();
   }; // TMPro.FastAction
   #pragma pack(pop)

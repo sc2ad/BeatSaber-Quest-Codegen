@@ -39,17 +39,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::UnityEngine::UI::ILayoutController*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1446EBC
+    // Offset: 0x14656F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StartMiddleEndButtonsGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StartMiddleEndButtonsGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StartMiddleEndButtonsGroup*, creationType>()));
     }
     // public System.Void SetLayoutHorizontal()
-    // Offset: 0x1446DB4
+    // Offset: 0x14655F0
     void SetLayoutHorizontal();
     // public System.Void SetLayoutVertical()
-    // Offset: 0x1446EB8
+    // Offset: 0x14656F4
     void SetLayoutVertical();
   }; // StartMiddleEndButtonsGroup
   #pragma pack(pop)

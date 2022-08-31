@@ -64,38 +64,38 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.Boolean <IsHandled>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsHandled$k__BackingField();
     // public System.String get_Message()
-    // Offset: 0x1989314
+    // Offset: 0x198E118
     ::StringW get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x198931C
+    // Offset: 0x198E120
     void set_Message(::StringW value);
     // public System.String get_StackTrace()
-    // Offset: 0x1989324
+    // Offset: 0x198E128
     ::StringW get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0x198932C
+    // Offset: 0x198E130
     void set_StackTrace(::StringW value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0x1989334
+    // Offset: 0x198E138
     ::UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0x198933C
+    // Offset: 0x198E140
     void set_LogType(::UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0x1989344
+    // Offset: 0x198E148
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0x198934C
+    // Offset: 0x198E150
     void set_IsHandled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19893DC
+    // Offset: 0x198E1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1989358
+    // Offset: 0x198E15C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

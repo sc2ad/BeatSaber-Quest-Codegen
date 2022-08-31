@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class SliderMidAnchorModeExtensions : public ::Il2CppObject {
     public:
     // static public SliderMidAnchorMode OppositeDirection(SliderMidAnchorMode sliderMidAnchorMode)
-    // Offset: 0x283FBAC
+    // Offset: 0x284B85C
     static ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
   }; // SliderMidAnchorModeExtensions
   #pragma pack(pop)

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class SerializationHelpers : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A3AD3C
+    // Offset: 0x2A63E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationHelpers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SerializationHelpers::.ctor");

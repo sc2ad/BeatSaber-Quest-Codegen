@@ -116,16 +116,16 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKPriority priority
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKPriority& dyn_priority();
     // static public LIV.SDK.Unity.SDKInputFrame get_empty()
-    // Offset: 0x2A61DD0
+    // Offset: 0x2A88EF4
     static ::LIV::SDK::Unity::SDKInputFrame get_empty();
     // public System.Void ReleaseControl()
-    // Offset: 0x2A62C44
+    // Offset: 0x2A89D68
     void ReleaseControl();
     // public System.Void ObtainControl()
-    // Offset: 0x2A62C54
+    // Offset: 0x2A89D78
     void ObtainControl();
     // public override System.String ToString()
-    // Offset: 0x2A62C68
+    // Offset: 0x2A89D8C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

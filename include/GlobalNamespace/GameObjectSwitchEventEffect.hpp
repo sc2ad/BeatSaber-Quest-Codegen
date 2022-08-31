@@ -46,21 +46,21 @@ namespace GlobalNamespace {
   class GameObjectSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [NullAllowed] Offset: 0x10DFE90
+    // [NullAllowed] Offset: 0x10E7ED0
     // private UnityEngine.GameObject[] _deactivateOnBoostObjects
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::UnityEngine::GameObject*> deactivateOnBoostObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [NullAllowed] Offset: 0x10DFEC8
+    // [NullAllowed] Offset: 0x10E7F08
     // private UnityEngine.GameObject[] _activateOnBoostObjects
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::UnityEngine::GameObject*> activateOnBoostObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10DFF00
+    // [InjectAttribute] Offset: 0x10E7F40
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -85,23 +85,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x13C6AC8
+    // Offset: 0x13CF7F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectSwitchEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameObjectSwitchEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectSwitchEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C6918
+    // Offset: 0x13CF640
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C69BC
+    // Offset: 0x13CF6E4
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(ColorBoostBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13C69D8
+    // Offset: 0x13CF700
     void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleObjects(System.Boolean isBoostOn)
-    // Offset: 0x13C69F0
+    // Offset: 0x13CF718
     void ToggleObjects(bool isBoostOn);
   }; // GameObjectSwitchEventEffect
   #pragma pack(pop)

@@ -56,42 +56,42 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.String text
     [[deprecated("Use field access instead!")]] ::StringW& dyn_text();
     // public System.String get_Value()
-    // Offset: 0x2AB62D0
+    // Offset: 0x2AD1B04
     ::StringW get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x2AB2BF0
+    // Offset: 0x2ACE424
     void set_Value(::StringW value);
     // public System.Void .ctor(System.String value)
-    // Offset: 0x2AB1238
+    // Offset: 0x2ACCA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XText* New_ctor(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XText*, creationType>(value)));
     }
     // public System.Void .ctor(System.Xml.Linq.XText other)
-    // Offset: 0x2AB12D8
+    // Offset: 0x2ACCB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XText* New_ctor(::System::Xml::Linq::XText* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XText*, creationType>(other)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2AB62C8
+    // Offset: 0x2AD1AFC
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2AB62D8
+    // Offset: 0x2AD1B0C
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x2AB63CC
+    // Offset: 0x2AD1C00
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::AppendText(System.Text.StringBuilder sb)
     void AppendText(::System::Text::StringBuilder* sb);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2AB63F0
+    // Offset: 0x2AD1C24
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

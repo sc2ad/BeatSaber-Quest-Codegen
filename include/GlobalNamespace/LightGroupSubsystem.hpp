@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightGroup _lightGroup
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroup*& dyn__lightGroup();
     // public System.Int32 get_groupId()
-    // Offset: 0x14BA4CC
+    // Offset: 0x14DA070
     int get_groupId();
     // protected LightGroup get_lightGroup()
-    // Offset: 0x14BA4E8
+    // Offset: 0x14DA08C
     ::GlobalNamespace::LightGroup* get_lightGroup();
     // protected System.Void .ctor()
-    // Offset: 0x14B94A8
+    // Offset: 0x14D904C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupSubsystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupSubsystem::.ctor");

@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomize and: randomMinMultiplier
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10B4EF8
+    // [DrawIfAttribute] Offset: 0x10BBF18
     // public UnityEngine.Vector3 _randomMinMultiplier
     // Size: 0xC
     // Offset: 0x2C
     ::UnityEngine::Vector3 randomMinMultiplier;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0x10B4F90
+    // [DrawIfAttribute] Offset: 0x10BBFB0
     // public UnityEngine.Vector3 _randomMaxMultiplier
     // Size: 0xC
     // Offset: 0x38
@@ -110,26 +110,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _randomizedMultiplier
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__randomizedMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x2A39A98
+    // Offset: 0x2A62BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Rotate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Rotate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Rotate*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A39758
+    // Offset: 0x2A6287C
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x2A39824
+    // Offset: 0x2A62948
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x2A398F4
+    // Offset: 0x2A62A18
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0x2A39900
+    // Offset: 0x2A62A24
     void Update();
     // protected System.Void Randomize()
-    // Offset: 0x2A39850
+    // Offset: 0x2A62974
     void Randomize();
   }; // Rotate
   #pragma pack(pop)

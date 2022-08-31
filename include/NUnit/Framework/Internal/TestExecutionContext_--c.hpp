@@ -41,17 +41,17 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public NUnit.Framework.Constraints.ValueFormatter <>9__9_0
     static void _set_$$9__9_0(::NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A20BE8
+    // Offset: 0x2A48D0C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2A20C4C
+    // Offset: 0x2A48D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestExecutionContext::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestExecutionContext::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext::$$c*, creationType>()));
     }
     // System.String <.ctor>b__9_0(System.Object val)
-    // Offset: 0x2A20C54
+    // Offset: 0x2A48D78
     ::StringW $_ctor$b__9_0(::Il2CppObject* val);
   }; // NUnit.Framework.Internal.TestExecutionContext/NUnit.Framework.Internal.<>c
   #pragma pack(pop)

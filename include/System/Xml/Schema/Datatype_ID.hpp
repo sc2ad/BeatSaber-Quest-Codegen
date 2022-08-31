@@ -41,17 +41,17 @@ namespace System::Xml::Schema {
   class Datatype_ID : public ::System::Xml::Schema::Datatype_NCName {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C54DB8
+    // Offset: 0x1C468DC
     // Implemented from: System.Xml.Schema.Datatype_NCName
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_NCName::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1C54DC0
+    // Offset: 0x1C468E4
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.XmlTokenizedType Datatype_string::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1C54DC8
+    // Offset: 0x1C468EC
     // Implemented from: System.Xml.Schema.Datatype_NCName
     // Base method: System.Void Datatype_NCName::.ctor()
     // Base method: System.Void Datatype_Name::.ctor()

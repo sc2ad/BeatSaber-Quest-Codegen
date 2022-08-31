@@ -33,7 +33,7 @@ namespace System {
     // Nested type: ::System::TypeIdentifiers::Display
     class Display;
     // static System.TypeIdentifier FromDisplay(System.String displayName)
-    // Offset: 0x29E6DC8
+    // Offset: 0x29ED430
     static ::System::TypeIdentifier* FromDisplay(::StringW displayName);
   }; // System.TypeIdentifiers
   #pragma pack(pop)

@@ -107,26 +107,26 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Int32 Nr
     [[deprecated("Use field access instead!")]] int& dyn_Nr();
     // public System.Void .ctor(System.Security.Cryptography.Aes algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x2A94A38
+    // Offset: 0x2AB226C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AesTransform* New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AesTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AesTransform*, creationType>(algo, encryption, key, iv)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A9984C
+    // Offset: 0x2AB7080
     static void _cctor();
     // private System.UInt32 SubByte(System.UInt32 a)
-    // Offset: 0x2A95B34
+    // Offset: 0x2AB3368
     uint SubByte(uint a);
     // private System.Void Encrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
-    // Offset: 0x2A95C24
+    // Offset: 0x2AB3458
     void Encrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint> ekey);
     // private System.Void Decrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
-    // Offset: 0x2A97A3C
+    // Offset: 0x2AB5270
     void Decrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint> ekey);
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x2A95C10
+    // Offset: 0x2AB3444
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);

@@ -29,14 +29,14 @@ namespace NUnit::Compatibility {
   class LongLivedMarshalByRefObject : public ::System::MarshalByRefObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C916A0
+    // Offset: 0x1C841C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongLivedMarshalByRefObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Compatibility::LongLivedMarshalByRefObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongLivedMarshalByRefObject*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x1C91698
+    // Offset: 0x1C841BC
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Object MarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

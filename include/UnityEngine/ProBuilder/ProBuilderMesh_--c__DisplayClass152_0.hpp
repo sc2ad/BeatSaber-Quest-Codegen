@@ -46,14 +46,14 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 i
     [[deprecated("Use field access instead!")]] int& dyn_i();
     // public System.Void .ctor()
-    // Offset: 0x19C0790
+    // Offset: 0x19C6594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c__DisplayClass152_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c__DisplayClass152_0*, creationType>()));
     }
     // System.Boolean <UnusedElementGroup>b__0(UnityEngine.ProBuilder.Face element)
-    // Offset: 0x19C3BF4
+    // Offset: 0x19C99F8
     bool $UnusedElementGroup$b__0(::UnityEngine::ProBuilder::Face* element);
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c__DisplayClass152_0
   #pragma pack(pop)

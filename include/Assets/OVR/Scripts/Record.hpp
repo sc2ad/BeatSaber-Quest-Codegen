@@ -46,7 +46,7 @@ namespace Assets::OVR::Scripts {
     // Get instance field reference: public System.String message
     [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // public System.Void .ctor(System.String cat, System.String msg)
-    // Offset: 0x1A91B08
+    // Offset: 0x1A97490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::StringW cat, ::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::Record::.ctor");

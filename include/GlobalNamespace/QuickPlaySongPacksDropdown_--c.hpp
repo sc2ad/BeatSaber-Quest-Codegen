@@ -52,23 +52,23 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<QuickPlaySongPacksDropdown/SongPackMaskItem,System.String> <>9__15_3
     static void _set_$$9__15_3(::System::Func_2<::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x136EE98
+    // Offset: 0x140B2AC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x136EEFC
+    // Offset: 0x140B310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySongPacksDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySongPacksDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySongPacksDropdown::$$c*, creationType>()));
     }
     // QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_2(QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack localizedPack)
-    // Offset: 0x136EF04
+    // Offset: 0x140B318
     ::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_2(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack* localizedPack);
     // System.Boolean <LazyInit>b__15_4(QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName packName)
-    // Offset: 0x136F088
+    // Offset: 0x140B49C
     bool $LazyInit$b__15_4(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName* packName);
     // System.String <LazyInit>b__15_3(QuickPlaySongPacksDropdown/SongPackMaskItem item)
-    // Offset: 0x136F0D0
+    // Offset: 0x140B4E4
     ::StringW $LazyInit$b__15_3(::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
   }; // QuickPlaySongPacksDropdown/<>c
   #pragma pack(pop)

@@ -41,26 +41,26 @@ namespace Oculus::Platform {
     // Get instance field reference: public System.Boolean IsPersistantBetweenSceneLoads
     [[deprecated("Use field access instead!")]] bool& dyn_IsPersistantBetweenSceneLoads();
     // public System.Void .ctor()
-    // Offset: 0x19DB8B0
+    // Offset: 0x19E16B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackRunner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::CallbackRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackRunner*, creationType>()));
     }
     // static private System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x19DB6D8
+    // Offset: 0x19E14DC
     static void ovr_UnityResetTestPlatform();
     // private System.Void Awake()
-    // Offset: 0x19DB748
+    // Offset: 0x19E154C
     void Awake();
     // private System.Void Update()
-    // Offset: 0x19DB844
+    // Offset: 0x19E1648
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x19DB850
+    // Offset: 0x19E1654
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x19DB854
+    // Offset: 0x19E1658
     void OnApplicationQuit();
   }; // Oculus.Platform.CallbackRunner
   #pragma pack(pop)

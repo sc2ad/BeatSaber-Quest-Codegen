@@ -90,7 +90,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       // Get instance field reference: public readonly System.Int32 tileZ
       [[deprecated("Use field access instead!")]] int& dyn_tileZ();
       // public System.Void .ctor(System.Int32 tileX, System.Int32 tileZ)
-      // Offset: 0x2AC5900
+      // Offset: 0x2AE3134
       // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ);
     }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord
     #pragma pack(pop)
@@ -181,32 +181,32 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord,UnityEngine.Terrain> m_terrainTiles
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, ::UnityEngine::Terrain*>*& dyn_m_terrainTiles();
     // public System.Void .ctor()
-    // Offset: 0x2AC5C68
+    // Offset: 0x2AE349C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::TerrainMap*, creationType>()));
     }
     // public UnityEngine.Terrain GetTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x2AC578C
+    // Offset: 0x2AE2FC0
     ::UnityEngine::Terrain* GetTerrain(int tileX, int tileZ);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Terrain originTerrain, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x2AC51B4
+    // Offset: 0x2AE29E8
     static ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Vector2 gridOrigin, UnityEngine.Vector2 gridSize, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x2AC59B0
+    // Offset: 0x2AE31E4
     static ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // private System.Void AddTerrainInternal(System.Int32 x, System.Int32 z, UnityEngine.Terrain terrain)
-    // Offset: 0x2AC62B8
+    // Offset: 0x2AE3AEC
     void AddTerrainInternal(int x, int z, ::UnityEngine::Terrain* terrain);
     // private System.Boolean TryToAddTerrain(System.Int32 tileX, System.Int32 tileZ, UnityEngine.Terrain terrain)
-    // Offset: 0x2AC6080
+    // Offset: 0x2AE38B4
     bool TryToAddTerrain(int tileX, int tileZ, ::UnityEngine::Terrain* terrain);
     // private System.Void ValidateTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x2AC6414
+    // Offset: 0x2AE3C48
     void ValidateTerrain(int tileX, int tileZ);
     // private UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.ErrorCode Validate()
-    // Offset: 0x2AC61B4
+    // Offset: 0x2AE39E8
     ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::ErrorCode Validate();
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap
   #pragma pack(pop)

@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean advancedHUD
     [[deprecated("Use field access instead!")]] bool& dyn_advancedHUD();
     // public System.Void .ctor(System.Boolean hide, System.Boolean showEnergyPanel, System.Boolean advancedHUD)
-    // Offset: 0x148A3A4
+    // Offset: 0x1490DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoreGameHUDController::InitData::.ctor");

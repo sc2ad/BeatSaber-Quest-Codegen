@@ -43,8 +43,8 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::Grounder::GrounderDelegate
     class GrounderDelegate;
     public:
-    // [TooltipAttribute] Offset: 0x1103600
-    // [RangeAttribute] Offset: 0x1103600
+    // [TooltipAttribute] Offset: 0x110B71C
+    // [RangeAttribute] Offset: 0x110B71C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -53,7 +53,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: solver
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x1103654
+    // [TooltipAttribute] Offset: 0x110B770
     // public RootMotion.FinalIK.Grounding solver
     // Size: 0x8
     // Offset: 0x20
@@ -92,13 +92,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // public System.Boolean get_initiated()
-    // Offset: 0x221B998
+    // Offset: 0x21FE070
     bool get_initiated();
     // protected System.Void set_initiated(System.Boolean value)
-    // Offset: 0x221B9A0
+    // Offset: 0x21FE078
     void set_initiated(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x221BEBC
+    // Offset: 0x21FE594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounder::.ctor");
@@ -108,16 +108,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ResetPosition();
     // protected UnityEngine.Vector3 GetSpineOffsetTarget()
-    // Offset: 0x221B9AC
+    // Offset: 0x21FE084
     ::UnityEngine::Vector3 GetSpineOffsetTarget();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x221BC80
+    // Offset: 0x21FE358
     void LogWarning(::StringW message);
     // private UnityEngine.Vector3 GetLegSpineBendVector(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg leg)
-    // Offset: 0x221BAF0
+    // Offset: 0x21FE1C8
     ::UnityEngine::Vector3 GetLegSpineBendVector(::RootMotion::FinalIK::Grounding::Leg* leg);
     // private UnityEngine.Vector3 GetLegSpineTangent(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg leg)
-    // Offset: 0x221BCB4
+    // Offset: 0x21FE38C
     ::UnityEngine::Vector3 GetLegSpineTangent(::RootMotion::FinalIK::Grounding::Leg* leg);
     // protected System.Void OpenUserManual()
     // Offset: 0xFFFFFFFFFFFFFFFF

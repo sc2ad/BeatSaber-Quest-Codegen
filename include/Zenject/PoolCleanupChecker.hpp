@@ -78,20 +78,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Type> _ignoredPools
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Type*>*& dyn__ignoredPools();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IMemoryPool> poolFactories, System.Collections.Generic.List`1<System.Type> ignoredPools)
-    // Offset: 0x1C17E28
+    // Offset: 0x1C0994C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolCleanupChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolCleanupChecker*, creationType>(poolFactories, ignoredPools)));
     }
     // public System.Void LateDispose()
-    // Offset: 0x1C17F38
+    // Offset: 0x1C09A5C
     void LateDispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C182A0
+    // Offset: 0x1C09DC4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C183B8
+    // Offset: 0x1C09EDC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PoolCleanupChecker
   #pragma pack(pop)

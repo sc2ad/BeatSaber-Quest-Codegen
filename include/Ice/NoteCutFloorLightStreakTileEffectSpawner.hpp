@@ -55,14 +55,14 @@ namespace Ice {
     ::Ice::FloorLightStreakTileEffect* floorLightStreakTileEffect;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightStreakTileEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x110C1E0
+    // [InjectAttribute] Offset: 0x11142FC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x110C1F0
+    // [InjectAttribute] Offset: 0x111430C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -87,26 +87,26 @@ namespace Ice {
     // Get instance field reference: private UnityEngine.Color _spawnColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__spawnColor();
     // public UnityEngine.Color get_spawnColor()
-    // Offset: 0x2AD69C0
+    // Offset: 0x2AF51F4
     ::UnityEngine::Color get_spawnColor();
     // public System.Void set_spawnColor(UnityEngine.Color value)
-    // Offset: 0x2AD69B4
+    // Offset: 0x2AF51E8
     void set_spawnColor(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x2AD6B58
+    // Offset: 0x2AF538C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutFloorLightStreakTileEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::NoteCutFloorLightStreakTileEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutFloorLightStreakTileEffectSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2AD69CC
+    // Offset: 0x2AF5200
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AD6A58
+    // Offset: 0x2AF528C
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x2AD6AF0
+    // Offset: 0x2AF5324
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // Ice.NoteCutFloorLightStreakTileEffectSpawner
   #pragma pack(pop)

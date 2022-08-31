@@ -74,26 +74,26 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Get instance field reference: private NoteCutDirection _cutDirection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn__cutDirection();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x283B158
+    // Offset: 0x2846E08
     int get_lineIndex();
     // public NoteLineLayer get_lineLayer()
-    // Offset: 0x283B160
+    // Offset: 0x2846E10
     ::GlobalNamespace::NoteLineLayer get_lineLayer();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType get_type()
-    // Offset: 0x283B168
+    // Offset: 0x2846E18
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType get_type();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x283B170
+    // Offset: 0x2846E20
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteType type, NoteCutDirection cutDirection)
-    // Offset: 0x283B178
+    // Offset: 0x2846E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::NoteData* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteType type, ::GlobalNamespace::NoteCutDirection cutDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::NoteData*, creationType>(time, lineIndex, lineLayer, type, cutDirection)));
     }
     // public override System.Single get_time()
-    // Offset: 0x283B150
+    // Offset: 0x2846E00
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

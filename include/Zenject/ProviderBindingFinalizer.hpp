@@ -83,26 +83,26 @@ namespace Zenject {
     // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x1C1F458
+    // Offset: 0x1C10F7C
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // protected Zenject.BindInfo get_BindInfo()
-    // Offset: 0x1C1F474
+    // Offset: 0x1C10F98
     ::Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x1C1F47C
+    // Offset: 0x1C10FA0
     void set_BindInfo(::Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1C19A3C
+    // Offset: 0x1C0B560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProviderBindingFinalizer*, creationType>(bindInfo)));
     }
     // protected Zenject.ScopeTypes GetScope()
-    // Offset: 0x1C1A070
+    // Offset: 0x1C0BB94
     ::Zenject::ScopeTypes GetScope();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1C1F484
+    // Offset: 0x1C10FA8
     void FinalizeBinding(::Zenject::DiContainer* container);
     // protected System.Void OnFinalizeBinding(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -117,22 +117,22 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, container, provider);
     }
     // protected System.Void RegisterProvider(Zenject.DiContainer container, System.Type contractType, Zenject.IProvider provider)
-    // Offset: 0x1C1F7B4
+    // Offset: 0x1C112D8
     void RegisterProvider(::Zenject::DiContainer* container, ::System::Type* contractType, ::Zenject::IProvider* provider);
     // protected System.Void RegisterProviderPerContract(Zenject.DiContainer container, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x1C1A898
+    // Offset: 0x1C0C3BC
     void RegisterProviderPerContract(::Zenject::DiContainer* container, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
     // protected System.Void RegisterProviderForAllContracts(Zenject.DiContainer container, Zenject.IProvider provider)
-    // Offset: 0x1C1FA4C
+    // Offset: 0x1C11570
     void RegisterProviderForAllContracts(::Zenject::DiContainer* container, ::Zenject::IProvider* provider);
     // protected System.Void RegisterProvidersPerContractAndConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<System.Type,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x1C1FBE8
+    // Offset: 0x1C1170C
     void RegisterProvidersPerContractAndConcreteType(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes, ::System::Func_3<::System::Type*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
     // private System.Boolean ValidateBindTypes(System.Type concreteType, System.Type contractType)
-    // Offset: 0x1C1FEA4
+    // Offset: 0x1C119C8
     bool ValidateBindTypes(::System::Type* concreteType, ::System::Type* contractType);
     // protected System.Void RegisterProvidersForAllContractsPerConcreteType(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFunc)
-    // Offset: 0x1C1A288
+    // Offset: 0x1C0BDAC
     void RegisterProvidersForAllContractsPerConcreteType(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFunc);
   }; // Zenject.ProviderBindingFinalizer
   #pragma pack(pop)

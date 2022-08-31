@@ -40,20 +40,20 @@ namespace Newtonsoft::Json::Serialization {
   class ExtensionDataSetter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D60FB8
+    // Offset: 0x1D53844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtensionDataSetter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ExtensionDataSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionDataSetter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object o, System.String key, System.Object value)
-    // Offset: 0x1D60FC8
+    // Offset: 0x1D53854
     void Invoke(::Il2CppObject* o, ::StringW key, ::Il2CppObject* value);
     // public System.IAsyncResult BeginInvoke(System.Object o, System.String key, System.Object value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D613D8
+    // Offset: 0x1D53C64
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* o, ::StringW key, ::Il2CppObject* value, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D61408
+    // Offset: 0x1D53C94
     void EndInvoke(::System::IAsyncResult* result);
   }; // Newtonsoft.Json.Serialization.ExtensionDataSetter
   #pragma pack(pop)

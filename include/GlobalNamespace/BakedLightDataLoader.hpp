@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   class BakedLightDataLoader : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [NullAllowed] Offset: 0x10EE0B8
+    // [NullAllowed] Offset: 0x10F6184
     // private LightmapDataSO _lightmapData
     // Size: 0x8
     // Offset: 0x18
@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE0F4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F61C0
     // Get static field: static private readonly System.Int32 _lightMap1PropertyId
     static int _get__lightMap1PropertyId();
     // Set static field: static private readonly System.Int32 _lightMap1PropertyId
     static void _set__lightMap1PropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EE104
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F61D0
     // Get static field: static private readonly System.Int32 _lightMap2PropertyId
     static int _get__lightMap2PropertyId();
     // Set static field: static private readonly System.Int32 _lightMap2PropertyId
@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _blackTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__blackTexture();
     // public LightmapDataSO get_lightmapData()
-    // Offset: 0x138A7F4
+    // Offset: 0x137F2EC
     ::GlobalNamespace::LightmapDataSO* get_lightmapData();
     // public System.Void set_lightmapData(LightmapDataSO value)
-    // Offset: 0x138A7FC
+    // Offset: 0x137F2F4
     void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
     // public System.Void .ctor()
-    // Offset: 0x138AA1C
+    // Offset: 0x137F514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedLightDataLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedLightDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedLightDataLoader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x138AA24
+    // Offset: 0x137F51C
     static void _cctor();
     // protected System.Void Start()
-    // Offset: 0x138A804
+    // Offset: 0x137F2FC
     void Start();
     // private System.Void SetTextureDataToShaders()
-    // Offset: 0x138A8BC
+    // Offset: 0x137F3B4
     void SetTextureDataToShaders();
   }; // BakedLightDataLoader
   #pragma pack(pop)

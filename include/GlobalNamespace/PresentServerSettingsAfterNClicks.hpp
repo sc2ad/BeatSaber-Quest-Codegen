@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfClicksRequired and: settingsFlowCoordinator
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x10E9924
+    // [InjectAttribute] Offset: 0x10F1974
     // private readonly SettingsFlowCoordinator _settingsFlowCoordinator
     // Size: 0x8
     // Offset: 0x30
@@ -105,20 +105,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void .ctor()
-    // Offset: 0x136B1F0
+    // Offset: 0x1407604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PresentServerSettingsAfterNClicks* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PresentServerSettingsAfterNClicks::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PresentServerSettingsAfterNClicks*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x136B140
+    // Offset: 0x1407554
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x136B1D4
+    // Offset: 0x14075E8
     void OnDisable();
     // private System.Void <OnEnable>b__6_0()
-    // Offset: 0x136B260
+    // Offset: 0x1407674
     void $OnEnable$b__6_0();
   }; // PresentServerSettingsAfterNClicks
   #pragma pack(pop)

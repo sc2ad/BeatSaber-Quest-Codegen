@@ -63,7 +63,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: System.Byte[] TypeInfo
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_TypeInfo();
     // public System.Void .ctor(System.Runtime.Remoting.ObjRef o, System.Int32 sourceDomain)
-    // Offset: 0x1C8381C
+    // Offset: 0x1C75340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int sourceDomain) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADObjRef::.ctor");

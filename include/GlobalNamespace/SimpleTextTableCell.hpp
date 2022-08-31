@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.String get_text()
-    // Offset: 0x2A4B0D8
+    // Offset: 0x2A741FC
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x2A4B0BC
+    // Offset: 0x2A741E0
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2A4B0F4
+    // Offset: 0x2A74218
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -102,71 +102,71 @@ namespace Zenject {
     // Get instance field reference: private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<::UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x1E2A0DC
+    // Offset: 0x1E1A7D4
     ::StringW get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1E2A0E4
+    // Offset: 0x1E1A7DC
     void set_Name(::StringW value);
     // public System.String get_GroupName()
-    // Offset: 0x1E2A0EC
+    // Offset: 0x1E1A7E4
     ::StringW get_GroupName();
     // public System.Void set_GroupName(System.String value)
-    // Offset: 0x1E2A0F4
+    // Offset: 0x1E1A7EC
     void set_GroupName(::StringW value);
     // public UnityEngine.Transform get_ParentTransform()
-    // Offset: 0x1E2A0FC
+    // Offset: 0x1E1A7F4
     ::UnityEngine::Transform* get_ParentTransform();
     // public System.Void set_ParentTransform(UnityEngine.Transform value)
-    // Offset: 0x1E2A104
+    // Offset: 0x1E1A7FC
     void set_ParentTransform(::UnityEngine::Transform* value);
     // public System.Func`2<Zenject.InjectContext,UnityEngine.Transform> get_ParentTransformGetter()
-    // Offset: 0x1E2A10C
+    // Offset: 0x1E1A804
     ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* get_ParentTransformGetter();
     // public System.Void set_ParentTransformGetter(System.Func`2<Zenject.InjectContext,UnityEngine.Transform> value)
-    // Offset: 0x1E2A114
+    // Offset: 0x1E1A80C
     void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value);
     // public System.Nullable`1<UnityEngine.Vector3> get_Position()
-    // Offset: 0x1E2A11C
+    // Offset: 0x1E1A814
     ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
     // public System.Void set_Position(System.Nullable`1<UnityEngine.Vector3> value)
-    // Offset: 0x1E2A128
+    // Offset: 0x1E1A820
     void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
     // public System.Nullable`1<UnityEngine.Quaternion> get_Rotation()
-    // Offset: 0x1E2A130
+    // Offset: 0x1E1A828
     ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
     // public System.Void set_Rotation(System.Nullable`1<UnityEngine.Quaternion> value)
-    // Offset: 0x1E2A144
+    // Offset: 0x1E1A83C
     void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
     // public System.Void .ctor()
-    // Offset: 0x1E1C954
+    // Offset: 0x1E0D04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectCreationParameters* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GameObjectCreationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectCreationParameters*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E2A524
+    // Offset: 0x1E1AC1C
     static void _cctor();
     // public System.Boolean Equals(Zenject.GameObjectCreationParameters that)
-    // Offset: 0x1E2A48C
+    // Offset: 0x1E1AB84
     bool Equals(::Zenject::GameObjectCreationParameters* that);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1E2A158
+    // Offset: 0x1E1A850
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1E2A344
+    // Offset: 0x1E1AA3C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
   }; // Zenject.GameObjectCreationParameters
   // WARNING Not writing size check since size may be invalid!
   // static public System.Boolean op_Equality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
-  // Offset: 0x1E2A430
+  // Offset: 0x1E1AB28
   bool operator ==(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
   // static public System.Boolean op_Inequality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
-  // Offset: 0x1E2A500
+  // Offset: 0x1E1ABF8
   bool operator !=(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

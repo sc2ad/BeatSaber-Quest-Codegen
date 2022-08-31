@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 number
     [[deprecated("Use field access instead!")]] int& dyn_number();
     // public System.Void .ctor()
-    // Offset: 0x15B6614
+    // Offset: 0x15CCA70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberTag* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NumberTag::.ctor");

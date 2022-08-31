@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean disableMultiplayer
     [[deprecated("Use field access instead!")]] bool& dyn_disableMultiplayer();
     // public System.Void .ctor()
-    // Offset: 0x14F9628
+    // Offset: 0x151C184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppStaticSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppStaticSettingsSO::.ctor");

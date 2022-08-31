@@ -52,30 +52,30 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SaberTrailRenderer* trailRendererPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberTrailRenderer*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10DFB6C
-    // [TooltipAttribute] Offset: 0x10DFB6C
+    // [HeaderAttribute] Offset: 0x10E7BAC
+    // [TooltipAttribute] Offset: 0x10E7BAC
     // private System.Single _trailDuration
     // Size: 0x4
     // Offset: 0x20
     float trailDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DFBDC
+    // [TooltipAttribute] Offset: 0x10E7C1C
     // private System.Int32 _samplingFrequency
     // Size: 0x4
     // Offset: 0x24
     int samplingFrequency;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x10DFC28
+    // [TooltipAttribute] Offset: 0x10E7C68
     // private System.Int32 _granularity
     // Size: 0x4
     // Offset: 0x28
     int granularity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0x10DFC74
-    // [TooltipAttribute] Offset: 0x10DFC74
+    // [RangeAttribute] Offset: 0x10E7CB4
+    // [TooltipAttribute] Offset: 0x10E7CB4
     // private System.Single _whiteSectionMaxDuration
     // Size: 0x4
     // Offset: 0x2C
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorOverwrite and: forcedColor
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10DFCE8
+    // [DrawIfAttribute] Offset: 0x10E7D28
     // private UnityEngine.Color _forcedColor
     // Size: 0x10
     // Offset: 0x34
@@ -217,41 +217,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _inited
     [[deprecated("Use field access instead!")]] bool& dyn__inited();
     // public System.Void .ctor()
-    // Offset: 0x145CD5C
+    // Offset: 0x14B14D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberTrail* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberTrail::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrail*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x145BE5C
+    // Offset: 0x14B05D8
     void Awake();
     // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0x145A100
+    // Offset: 0x14AE87C
     void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
     // private System.Void Init()
-    // Offset: 0x145BF80
+    // Offset: 0x14B06FC
     void Init();
     // private System.Void ResetTrailData()
-    // Offset: 0x145C2B0
+    // Offset: 0x14B0A2C
     void ResetTrailData();
     // protected System.Void LateUpdate()
-    // Offset: 0x145C398
+    // Offset: 0x14B0B14
     void LateUpdate();
     // protected System.Void OnEnable()
-    // Offset: 0x145C958
+    // Offset: 0x14B10D4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x145CA20
+    // Offset: 0x14B119C
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x145CAB4
+    // Offset: 0x14B1230
     void OnDestroy();
     // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0x145C1E8
+    // Offset: 0x14B0964
     float GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x145CB80
+    // Offset: 0x14B12FC
     void OnDrawGizmosSelected();
   }; // SaberTrail
   #pragma pack(pop)

@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class HealthWarningScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x139EADC
+    // Offset: 0x1393770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0x139E908
+    // Offset: 0x139359C
     void Init(::GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
   }; // HealthWarningScenesTransitionSetupDataSO
   #pragma pack(pop)

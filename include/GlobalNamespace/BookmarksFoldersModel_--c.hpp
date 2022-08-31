@@ -44,17 +44,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::System::Environment::SpecialFolder, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1352854
+    // Offset: 0x135822C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13528B8
+    // Offset: 0x1358290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BookmarksFoldersModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BookmarksFoldersModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BookmarksFoldersModel::$$c*, creationType>()));
     }
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
-    // Offset: 0x13528C0
+    // Offset: 0x1358298
     ::StringW $get_bookmarksFolders$b__3_0(::System::Environment::SpecialFolder specialFolder);
   }; // BookmarksFoldersModel/<>c
   #pragma pack(pop)

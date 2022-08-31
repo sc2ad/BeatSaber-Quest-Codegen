@@ -58,20 +58,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BoolSO _postProcessEnabled
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BoolSO*& dyn__postProcessEnabled();
     // public MainEffectSO get_mainEffect()
-    // Offset: 0x2A4F0E0
+    // Offset: 0x2A77204
     ::GlobalNamespace::MainEffectSO* get_mainEffect();
     // public System.Void .ctor()
-    // Offset: 0x2A4F1EC
+    // Offset: 0x2A77310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectContainerSO*, creationType>()));
     }
     // public System.Void Init(MainEffectSO mainEffect)
-    // Offset: 0x2A4F168
+    // Offset: 0x2A7728C
     void Init(::GlobalNamespace::MainEffectSO* mainEffect);
     // protected override System.Void OnEnable()
-    // Offset: 0x2A4F0E8
+    // Offset: 0x2A7720C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

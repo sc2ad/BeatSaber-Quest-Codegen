@@ -74,41 +74,41 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Byte[] _salt
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x2ABD6AC
+    // Offset: 0x2ADAEE0
     void set_HashName(::StringW value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x2ABD6B4
+    // Offset: 0x2ADAEE8
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x2ABD6BC
+    // Offset: 0x2ADAEF0
     void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x2ABD75C
+    // Offset: 0x2ADAF90
     void set_Salt(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x2ABD6A4
+    // Offset: 0x2ADAED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12::DeriveBytes* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::PKCS12::DeriveBytes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12::DeriveBytes*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ABDEA4
+    // Offset: 0x2ADB6D8
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x2ABD7F0
+    // Offset: 0x2ADB024
     void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x2ABD8D8
+    // Offset: 0x2ADB10C
     ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x2ABDD24
+    // Offset: 0x2ADB558
     ::ArrayW<uint8_t> DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x2ABDDA4
+    // Offset: 0x2ADB5D8
     ::ArrayW<uint8_t> DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x2ABDE24
+    // Offset: 0x2ADB658
     ::ArrayW<uint8_t> DeriveMAC(int size);
   }; // Mono.Security.X509.PKCS12/Mono.Security.X509.DeriveBytes
   #pragma pack(pop)

@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public LightmappingSceneSetup <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmappingSceneSetup*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x14BEC64
+    // Offset: 0x14DE808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmappingSceneSetup::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmappingSceneSetup::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingSceneSetup::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Threading.Tasks.Task <InstallBindings>b__0()
-    // Offset: 0x14BEC74
+    // Offset: 0x14DE818
     ::System::Threading::Tasks::Task* $InstallBindings$b__0();
   }; // LightmappingSceneSetup/<>c__DisplayClass8_0
   #pragma pack(pop)

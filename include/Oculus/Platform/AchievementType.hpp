@@ -45,28 +45,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10CDB38
+    // [DescriptionAttribute] Offset: 0x10D5B58
     // static field const value: static public Oculus.Platform.AchievementType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AchievementType Unknown
     static ::Oculus::Platform::AchievementType _get_Unknown();
     // Set static field: static public Oculus.Platform.AchievementType Unknown
     static void _set_Unknown(::Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0x10CDB70
+    // [DescriptionAttribute] Offset: 0x10D5B90
     // static field const value: static public Oculus.Platform.AchievementType Simple
     static constexpr const int Simple = 1;
     // Get static field: static public Oculus.Platform.AchievementType Simple
     static ::Oculus::Platform::AchievementType _get_Simple();
     // Set static field: static public Oculus.Platform.AchievementType Simple
     static void _set_Simple(::Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0x10CDBA8
+    // [DescriptionAttribute] Offset: 0x10D5BC8
     // static field const value: static public Oculus.Platform.AchievementType Bitfield
     static constexpr const int Bitfield = 2;
     // Get static field: static public Oculus.Platform.AchievementType Bitfield
     static ::Oculus::Platform::AchievementType _get_Bitfield();
     // Set static field: static public Oculus.Platform.AchievementType Bitfield
     static void _set_Bitfield(::Oculus::Platform::AchievementType value);
-    // [DescriptionAttribute] Offset: 0x10CDBE0
+    // [DescriptionAttribute] Offset: 0x10D5C00
     // static field const value: static public Oculus.Platform.AchievementType Count
     static constexpr const int Count = 3;
     // Get static field: static public Oculus.Platform.AchievementType Count

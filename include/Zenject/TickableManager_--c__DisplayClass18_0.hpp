@@ -60,20 +60,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.ITickable tickable
     [[deprecated("Use field access instead!")]] ::Zenject::ITickable*& dyn_tickable();
     // public System.Void .ctor()
-    // Offset: 0x1D28868
+    // Offset: 0x1D1D760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TickableManager::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c__DisplayClass18_0*, creationType>()));
     }
     // System.Boolean <InitTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1D29E18
+    // Offset: 0x1D1ED10
     bool $InitTickables$b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D29EB0
+    // Offset: 0x1D1EDA8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D29F0C
+    // Offset: 0x1D1EE04
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TickableManager/Zenject.<>c__DisplayClass18_0
   #pragma pack(pop)

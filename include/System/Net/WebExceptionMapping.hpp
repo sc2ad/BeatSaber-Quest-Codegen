@@ -36,10 +36,10 @@ namespace System::Net {
     // Set static field: static private readonly System.String[] s_Mapping
     static void _set_s_Mapping(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x1B5E918
+    // Offset: 0x1B6528C
     static void _cctor();
     // static System.String GetWebStatusString(System.Net.WebExceptionStatus status)
-    // Offset: 0x1B5E760
+    // Offset: 0x1B650D4
     static ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
   }; // System.Net.WebExceptionMapping
   #pragma pack(pop)

@@ -45,49 +45,49 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10CE200
+    // [DescriptionAttribute] Offset: 0x10D6220
     // static field const value: static public Oculus.Platform.LaunchResult Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.LaunchResult Unknown
     static ::Oculus::Platform::LaunchResult _get_Unknown();
     // Set static field: static public Oculus.Platform.LaunchResult Unknown
     static void _set_Unknown(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE238
+    // [DescriptionAttribute] Offset: 0x10D6258
     // static field const value: static public Oculus.Platform.LaunchResult Success
     static constexpr const int Success = 1;
     // Get static field: static public Oculus.Platform.LaunchResult Success
     static ::Oculus::Platform::LaunchResult _get_Success();
     // Set static field: static public Oculus.Platform.LaunchResult Success
     static void _set_Success(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE270
+    // [DescriptionAttribute] Offset: 0x10D6290
     // static field const value: static public Oculus.Platform.LaunchResult FailedRoomFull
     static constexpr const int FailedRoomFull = 2;
     // Get static field: static public Oculus.Platform.LaunchResult FailedRoomFull
     static ::Oculus::Platform::LaunchResult _get_FailedRoomFull();
     // Set static field: static public Oculus.Platform.LaunchResult FailedRoomFull
     static void _set_FailedRoomFull(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE2A8
+    // [DescriptionAttribute] Offset: 0x10D62C8
     // static field const value: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static constexpr const int FailedGameAlreadyStarted = 3;
     // Get static field: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static ::Oculus::Platform::LaunchResult _get_FailedGameAlreadyStarted();
     // Set static field: static public Oculus.Platform.LaunchResult FailedGameAlreadyStarted
     static void _set_FailedGameAlreadyStarted(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE2E0
+    // [DescriptionAttribute] Offset: 0x10D6300
     // static field const value: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static constexpr const int FailedRoomNotFound = 4;
     // Get static field: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static ::Oculus::Platform::LaunchResult _get_FailedRoomNotFound();
     // Set static field: static public Oculus.Platform.LaunchResult FailedRoomNotFound
     static void _set_FailedRoomNotFound(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE318
+    // [DescriptionAttribute] Offset: 0x10D6338
     // static field const value: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static constexpr const int FailedUserDeclined = 5;
     // Get static field: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static ::Oculus::Platform::LaunchResult _get_FailedUserDeclined();
     // Set static field: static public Oculus.Platform.LaunchResult FailedUserDeclined
     static void _set_FailedUserDeclined(::Oculus::Platform::LaunchResult value);
-    // [DescriptionAttribute] Offset: 0x10CE350
+    // [DescriptionAttribute] Offset: 0x10D6370
     // static field const value: static public Oculus.Platform.LaunchResult FailedOtherReason
     static constexpr const int FailedOtherReason = 6;
     // Get static field: static public Oculus.Platform.LaunchResult FailedOtherReason

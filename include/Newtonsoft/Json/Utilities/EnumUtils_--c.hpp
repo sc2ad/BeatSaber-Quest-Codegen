@@ -56,20 +56,20 @@ namespace Newtonsoft::Json::Utilities {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2097FE8
+    // Offset: 0x20C7DFC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x209804C
+    // Offset: 0x20C7E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumUtils::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::EnumUtils::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumUtils::$$c*, creationType>()));
     }
     // System.String <InitializeEnumType>b__1_0(System.Runtime.Serialization.EnumMemberAttribute a)
-    // Offset: 0x2098054
+    // Offset: 0x20C7E68
     ::StringW $InitializeEnumType$b__1_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
     // System.Boolean <GetValues>b__5_0(System.Reflection.FieldInfo f)
-    // Offset: 0x209806C
+    // Offset: 0x20C7E80
     bool $GetValues$b__5_0(::System::Reflection::FieldInfo* f);
   }; // Newtonsoft.Json.Utilities.EnumUtils/Newtonsoft.Json.Utilities.<>c
   #pragma pack(pop)

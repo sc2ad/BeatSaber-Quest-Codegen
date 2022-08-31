@@ -92,10 +92,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatSaberAPI.DataTransferObjects.AccessToken> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaberAPI::DataTransferObjects::AccessToken*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1575394
+    // Offset: 0x15AA3BC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1575550
+    // Offset: 0x15AA578
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<LoginIfNeededAsync>d__7
   // WARNING Not writing size check since size may be invalid!

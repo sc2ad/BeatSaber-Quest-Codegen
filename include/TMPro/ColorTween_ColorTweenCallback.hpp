@@ -27,7 +27,7 @@ namespace TMPro {
   class ColorTween::ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x141F164
+    // Offset: 0x143B440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween::ColorTweenCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::ColorTween::ColorTweenCallback::.ctor");

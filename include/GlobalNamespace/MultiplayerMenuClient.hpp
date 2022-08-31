@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E952C
+    // [InjectAttribute] Offset: 0x10F157C
     // private readonly MenuPlayerController _menuPlayerController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MenuPlayerController* menuPlayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuPlayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E953C
+    // [InjectAttribute] Offset: 0x10F158C
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // public System.Void .ctor()
-    // Offset: 0x13B2290
+    // Offset: 0x13A6E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerMenuClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerMenuClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMenuClient*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x13B1EE8
+    // Offset: 0x13A6A64
     void LateUpdate();
   }; // MultiplayerMenuClient
   #pragma pack(pop)

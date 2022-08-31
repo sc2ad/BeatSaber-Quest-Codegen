@@ -56,23 +56,23 @@ namespace VRUIControls {
     // Get instance field reference: private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& dyn__trackedButtons();
     // public System.Void .ctor()
-    // Offset: 0x2A69A08
+    // Offset: 0x2A91B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::MouseState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseState*, creationType>()));
     }
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x2A69720
+    // Offset: 0x2A91844
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x2A697D4
+    // Offset: 0x2A918F8
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
-    // Offset: 0x2A69888
+    // Offset: 0x2A919AC
     ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x2A699C4
+    // Offset: 0x2A91AE8
     void SetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button, ::UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data);
   }; // VRUIControls.MouseState
   #pragma pack(pop)

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class StringListSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [ReorderableAttribute] Offset: 0x10B59C0
+    // [ReorderableAttribute] Offset: 0x10BC9E0
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String[] _strings
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__strings();
     // public System.String[] get_strings()
-    // Offset: 0x2A3C7E8
+    // Offset: 0x2A6590C
     ::ArrayW<::StringW> get_strings();
     // public System.Void .ctor()
-    // Offset: 0x2A3C7F0
+    // Offset: 0x2A65914
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

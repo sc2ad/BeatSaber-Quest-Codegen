@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 playCount
     [[deprecated("Use field access instead!")]] int& dyn_playCount();
     // public System.Void .ctor()
-    // Offset: 0x13601EC
+    // Offset: 0x13FC5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerLevelStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData::.ctor");

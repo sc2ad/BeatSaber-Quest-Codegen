@@ -110,7 +110,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeTypeInfo typeInfo
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
-    // Offset: 0x16EA990
+    // Offset: 0x16E9D4C
     HAPI_AttributeInfo(::StringW ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScaleJumpPart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10DE278
+    // [SpaceAttribute] Offset: 0x10E62B8
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -94,26 +94,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteJump _noteJump
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteJump*& dyn__noteJump();
     // public System.Void .ctor()
-    // Offset: 0x14D46B4
+    // Offset: 0x14F5258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteJumpStartScaleUp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteJumpStartScaleUp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteJumpStartScaleUp*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14D41B8
+    // Offset: 0x14F4D5C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14D4448
+    // Offset: 0x14F4FEC
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x14D428C
+    // Offset: 0x14F4E30
     void UpdateScale(float progress);
     // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
-    // Offset: 0x14D45DC
+    // Offset: 0x14F5180
     void HandleNoteJumpDidUpdateProgress(float progress);
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x14D45E0
+    // Offset: 0x14F5184
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
   }; // NoteJumpStartScaleUp
   #pragma pack(pop)

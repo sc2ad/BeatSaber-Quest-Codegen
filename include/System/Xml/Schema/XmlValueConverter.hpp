@@ -46,7 +46,7 @@ namespace System::Xml::Schema {
   class XmlValueConverter : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2069964
+    // Offset: 0x2099778
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlValueConverter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlValueConverter::.ctor");

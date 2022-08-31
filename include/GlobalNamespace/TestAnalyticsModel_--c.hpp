@@ -44,17 +44,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x144B2C8
+    // Offset: 0x1469B04
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x144B32C
+    // Offset: 0x1469B68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAnalyticsModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestAnalyticsModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAnalyticsModel::$$c*, creationType>()));
     }
     // System.String <LogEvent>b__3_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String> kvp)
-    // Offset: 0x144B334
+    // Offset: 0x1469B70
     ::StringW $LogEvent$b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
   }; // TestAnalyticsModel/<>c
   #pragma pack(pop)

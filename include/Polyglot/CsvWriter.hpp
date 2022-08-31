@@ -41,20 +41,20 @@ namespace Polyglot {
   class CsvWriter : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A41FE8
+    // Offset: 0x2A6B10C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvWriter*, creationType>()));
     }
     // static public System.Void AppendRow(System.String filePath, System.Collections.Generic.List`1<System.String> row)
-    // Offset: 0x2A41BB0
+    // Offset: 0x2A6ACD4
     static void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
     // static private System.Void AppendElement(System.Text.StringBuilder buffer, System.String element)
-    // Offset: 0x2A41F60
+    // Offset: 0x2A6B084
     static void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
     // static private System.Boolean HasEscapeChars(System.String element)
-    // Offset: 0x2A41EBC
+    // Offset: 0x2A6AFE0
     static bool HasEscapeChars(::StringW element);
   }; // Polyglot.CsvWriter
   #pragma pack(pop)

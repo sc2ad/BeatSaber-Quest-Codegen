@@ -219,32 +219,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap5
     [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::StringW>::Enumerator& dyn_$$7__wrap5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x15B352C
+    // Offset: 0x15C9988
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15B3594
+    // Offset: 0x15C99F0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15B100C
+    // Offset: 0x15C7468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$ScenesTransitionCoroutine$d__38* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__38::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$ScenesTransitionCoroutine$d__38*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15B2714
+    // Offset: 0x15C8B70
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15B27FC
+    // Offset: 0x15C8C58
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x15B274C
+    // Offset: 0x15C8BA8
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x15B27A4
+    // Offset: 0x15C8C00
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15B3534
+    // Offset: 0x15C9990
     void System_Collections_IEnumerator_Reset();
   }; // GameScenesManager/<ScenesTransitionCoroutine>d__38
   // WARNING Not writing size check since size may be invalid!

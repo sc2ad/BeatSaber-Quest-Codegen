@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     float tailIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10DE950
+    // [SpaceAttribute] Offset: 0x10E6990
     // private System.Single _fadeOutDuration
     // Size: 0x4
     // Offset: 0x24
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     float stayOffDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10DE998
+    // [SpaceAttribute] Offset: 0x10E69D8
     // private System.Single _flashBoost
     // Size: 0x4
     // Offset: 0x2C
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     float flashOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10DE9F0
+    // [InjectAttribute] Offset: 0x10E6A30
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
@@ -212,41 +212,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private SliderIntensityEffect/FadeElement[] _flashEffectFadeElements
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SliderIntensityEffect::FadeElement*>& dyn__flashEffectFadeElements();
     // public System.Single get_intensity()
-    // Offset: 0x13E41A0
+    // Offset: 0x13C462C
     float get_intensity();
     // public System.Void add_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x13E5AA0
+    // Offset: 0x13C5F2C
     void add_fadeInDidStartEvent(::System::Action* value);
     // public System.Void remove_fadeInDidStartEvent(System.Action value)
-    // Offset: 0x13E5F7C
+    // Offset: 0x13C6408
     void remove_fadeInDidStartEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13E7B18
+    // Offset: 0x13C7FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderIntensityEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13E7774
+    // Offset: 0x13C7C00
     void Awake();
     // public System.Void Init(System.Single sliderDuration, System.Single halfJumpDuration)
-    // Offset: 0x13E473C
+    // Offset: 0x13C4BC8
     void Init(float sliderDuration, float halfJumpDuration);
     // public System.Void ManualUpdate(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x13E633C
+    // Offset: 0x13C67C8
     void ManualUpdate(float timeSinceHeadNoteJump);
     // private System.Collections.IEnumerator ProcessEffectCoroutine(System.Collections.Generic.IEnumerable`1<SliderIntensityEffect/FadeElement> fadeElements)
-    // Offset: 0x13E7A34
+    // Offset: 0x13C7EC0
     ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SliderIntensityEffect::FadeElement*>* fadeElements);
     // public System.Void StartIntensityDipEffect()
-    // Offset: 0x13E6C60
+    // Offset: 0x13C70EC
     void StartIntensityDipEffect();
     // public System.Void StartFlashEffect()
-    // Offset: 0x13E7ADC
+    // Offset: 0x13C7F68
     void StartFlashEffect();
     // private System.Void <Awake>b__24_0()
-    // Offset: 0x13E7B38
+    // Offset: 0x13C7FC4
     void $Awake$b__24_0();
   }; // SliderIntensityEffect
   #pragma pack(pop)

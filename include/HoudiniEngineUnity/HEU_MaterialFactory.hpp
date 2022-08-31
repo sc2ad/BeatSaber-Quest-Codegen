@@ -57,94 +57,94 @@ namespace HoudiniEngineUnity {
     // Set static field: static public UnityEngine.Material _defaultStandardMaterial
     static void _set__defaultStandardMaterial(::UnityEngine::Material* value);
     // static public UnityEngine.Shader FindShader(System.String shaderName)
-    // Offset: 0x189CA7C
+    // Offset: 0x188E208
     static ::UnityEngine::Shader* FindShader(::StringW shaderName);
     // static public UnityEngine.Shader FindPluginShader(System.String shaderName)
-    // Offset: 0x189BA14
+    // Offset: 0x188D1A0
     static ::UnityEngine::Shader* FindPluginShader(::StringW shaderName);
     // static public UnityEngine.Material GetNewMaterialWithShader(System.String assetCacheFolderPath, System.String shaderName, System.String materialName, System.Boolean bWriteToFile)
-    // Offset: 0x189CACC
+    // Offset: 0x188E258
     static ::UnityEngine::Material* GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName, bool bWriteToFile);
     // static public UnityEngine.Material CreateNewHoudiniStandardMaterial(System.String assetCacheFolderPath, System.String materialName, System.Boolean bWriteToFile)
-    // Offset: 0x189CCC0
+    // Offset: 0x188E44C
     static ::UnityEngine::Material* CreateNewHoudiniStandardMaterial(::StringW assetCacheFolderPath, ::StringW materialName, bool bWriteToFile);
     // static public System.Void WriteMaterialToAssetCache(UnityEngine.Material material, System.String assetCacheFolderPath, System.String materialName, System.Boolean bOverwriteExisting)
-    // Offset: 0x189CD04
+    // Offset: 0x188E490
     static void WriteMaterialToAssetCache(::UnityEngine::Material* material, ::StringW assetCacheFolderPath, ::StringW materialName, bool bOverwriteExisting);
     // static public System.Boolean DoesMaterialExistInAssetCache(UnityEngine.Material material)
-    // Offset: 0x189CDDC
+    // Offset: 0x188E568
     static bool DoesMaterialExistInAssetCache(::UnityEngine::Material* material);
     // static public System.Void DestroyNonAssetMaterial(UnityEngine.Material material, System.Boolean bRegisterUndo)
-    // Offset: 0x189CE04
+    // Offset: 0x188E590
     static void DestroyNonAssetMaterial(::UnityEngine::Material* material, bool bRegisterUndo);
     // static public System.Void DeleteAssetMaterial(UnityEngine.Material material)
-    // Offset: 0x189CEB4
+    // Offset: 0x188E640
     static void DeleteAssetMaterial(::UnityEngine::Material* material);
     // static public UnityEngine.Texture2D RenderAndExtractImageToTexture(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.Int32 textureParmID, System.String textureName, System.String assetCacheFolderPath, System.Boolean isNormalMap, System.Boolean invertTexture)
-    // Offset: 0x189C1D4
+    // Offset: 0x188D960
     static ::UnityEngine::Texture2D* RenderAndExtractImageToTexture(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, int textureParmID, ::StringW textureName, ::StringW assetCacheFolderPath, bool isNormalMap, bool invertTexture);
     // static private UnityEngine.Texture2D ExtractHoudiniImageToTexturePNGJPEG(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes)
-    // Offset: 0x189D1CC
+    // Offset: 0x188E958
     static ::UnityEngine::Texture2D* ExtractHoudiniImageToTexturePNGJPEG(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes);
     // static private UnityEngine.Texture2D ExtractHoudiniImageToTextureRaw(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes)
-    // Offset: 0x189CEBC
+    // Offset: 0x188E648
     static ::UnityEngine::Texture2D* ExtractHoudiniImageToTextureRaw(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes);
     // static public UnityEngine.Texture2D ExtractHoudiniImageToTextureFile(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes, System.String assetCacheFolderPath)
-    // Offset: 0x189D304
+    // Offset: 0x188EA90
     static ::UnityEngine::Texture2D* ExtractHoudiniImageToTextureFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes, ::StringW assetCacheFolderPath);
     // static public UnityEngine.Material LoadUnityMaterial(System.String materialPath)
-    // Offset: 0x189D4A4
+    // Offset: 0x188EC30
     static ::UnityEngine::Material* LoadUnityMaterial(::StringW materialPath);
     // static public UnityEngine.Material LoadSubstanceMaterialWithName(System.String materialPath, System.String substanceName)
-    // Offset: 0x189D710
+    // Offset: 0x188EE9C
     static ::UnityEngine::Material* LoadSubstanceMaterialWithName(::StringW materialPath, ::StringW substanceName);
     // static public UnityEngine.Material LoadSubstanceMaterialWithIndex(System.String materialPath, System.Int32 substanceMaterialIndex)
-    // Offset: 0x189D8FC
+    // Offset: 0x188F088
     static ::UnityEngine::Material* LoadSubstanceMaterialWithIndex(::StringW materialPath, int substanceMaterialIndex);
     // static public System.Int32 GetUnitySubstanceMaterialKey(System.String unityMaterialPath, System.String substanceName, System.Int32 substanceIndex)
-    // Offset: 0x189DB68
+    // Offset: 0x188F2F4
     static int GetUnitySubstanceMaterialKey(::StringW unityMaterialPath, ::StringW substanceName, int substanceIndex);
     // static public System.Int32 MaterialNameToKey(System.String materialName)
-    // Offset: 0x189DC78
+    // Offset: 0x188F404
     static int MaterialNameToKey(::StringW materialName);
     // static public System.Void EnableGPUInstancing(UnityEngine.Material material)
-    // Offset: 0x189DC94
+    // Offset: 0x188F420
     static void EnableGPUInstancing(::UnityEngine::Material* material);
     // static public System.Boolean MaterialHasGPUInstancingEnabled(UnityEngine.Material material)
-    // Offset: 0x189DCB0
+    // Offset: 0x188F43C
     static bool MaterialHasGPUInstancingEnabled(::UnityEngine::Material* material);
     // static public UnityEngine.Material CopyMaterial(UnityEngine.Material material)
-    // Offset: 0x189DCC8
+    // Offset: 0x188F454
     static ::UnityEngine::Material* CopyMaterial(::UnityEngine::Material* material);
     // static public UnityEngine.Material GetDefaultStandardMaterial()
-    // Offset: 0x189DD2C
+    // Offset: 0x188F4B8
     static ::UnityEngine::Material* GetDefaultStandardMaterial();
     // static public UnityEngine.Texture2D LoadTexture(System.String path)
-    // Offset: 0x189DDE4
+    // Offset: 0x188F570
     static ::UnityEngine::Texture2D* LoadTexture(::StringW path);
     // static public UnityEngine.Texture2D WhiteTexture()
-    // Offset: 0x189DF00
+    // Offset: 0x188F68C
     static ::UnityEngine::Texture2D* WhiteTexture();
     // static public HoudiniEngineUnity.HEU_MaterialData CreateUnitySubstanceMaterialData(System.Int32 materialKey, System.String materialPath, System.String substanceName, System.Int32 substanceIndex, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
-    // Offset: 0x189DF08
+    // Offset: 0x188F694
     static ::HoudiniEngineUnity::HEU_MaterialData* CreateUnitySubstanceMaterialData(int materialKey, ::StringW materialPath, ::StringW substanceName, int substanceIndex, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData CreateMaterialInCache(System.Int32 materialKey, System.String materialName, HoudiniEngineUnity.HEU_MaterialData/HoudiniEngineUnity.Source sourceType, System.Boolean bWriteToFile, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
-    // Offset: 0x189E218
+    // Offset: 0x188F9A4
     static ::HoudiniEngineUnity::HEU_MaterialData* CreateMaterialInCache(int materialKey, ::StringW materialName, ::HoudiniEngineUnity::HEU_MaterialData::Source sourceType, bool bWriteToFile, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData GetOrCreateDefaultMaterialInCache(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Boolean bWriteToFile, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
-    // Offset: 0x189E330
+    // Offset: 0x188FABC
     static ::HoudiniEngineUnity::HEU_MaterialData* GetOrCreateDefaultMaterialInCache(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, bool bWriteToFile, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData GetMaterialDataFromCache(System.Int32 materialKey, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache)
-    // Offset: 0x189E4D0
+    // Offset: 0x188FC5C
     static ::HoudiniEngineUnity::HEU_MaterialData* GetMaterialDataFromCache(int materialKey, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
     // static public System.String GenerateDefaultMaterialName(System.Int32 geoID, System.Int32 partID)
-    // Offset: 0x189E42C
+    // Offset: 0x188FBB8
     static ::StringW GenerateDefaultMaterialName(int geoID, int partID);
     // static public HoudiniEngineUnity.HEU_MaterialData CreateHoudiniMaterialData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 materialID, System.Int32 geoID, System.Int32 partID, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
-    // Offset: 0x189E5E4
+    // Offset: 0x188FD70
     static ::HoudiniEngineUnity::HEU_MaterialData* CreateHoudiniMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int materialID, int geoID, int partID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MaterialData> GetMaterialDataMapFromCache(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache)
-    // Offset: 0x189E778
+    // Offset: 0x188FF04
     static ::System::Collections::Generic::Dictionary_2<int, ::HoudiniEngineUnity::HEU_MaterialData*>* GetMaterialDataMapFromCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
   }; // HoudiniEngineUnity.HEU_MaterialFactory
   #pragma pack(pop)

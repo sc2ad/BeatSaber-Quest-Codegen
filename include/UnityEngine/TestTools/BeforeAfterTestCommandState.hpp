@@ -147,20 +147,20 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public System.Int64 Timestamp
     [[deprecated("Use field access instead!")]] int64_t& dyn_Timestamp();
     // public System.Void .ctor()
-    // Offset: 0x19864D4
+    // Offset: 0x198B2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeforeAfterTestCommandState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::BeforeAfterTestCommandState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeforeAfterTestCommandState*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x1986380
+    // Offset: 0x198B184
     void Reset();
     // public System.Void StoreTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x198639C
+    // Offset: 0x198B1A0
     void StoreTestResult(::NUnit::Framework::Internal::TestResult* result);
     // public System.Void ApplyTestResult(NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x1986434
+    // Offset: 0x198B238
     void ApplyTestResult(::NUnit::Framework::Internal::TestResult* result);
   }; // UnityEngine.TestTools.BeforeAfterTestCommandState
   #pragma pack(pop)

@@ -59,26 +59,26 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private readonly System.Xml.Linq.XDocumentType _documentType
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XDocumentType*& dyn__documentType();
     // public System.String get_Name()
-    // Offset: 0x17BFD4C
+    // Offset: 0x17D1A60
     ::StringW get_Name();
     // public System.String get_System()
-    // Offset: 0x17BFD68
+    // Offset: 0x17D1A7C
     ::StringW get_System();
     // public System.String get_Public()
-    // Offset: 0x17BFD84
+    // Offset: 0x17D1A98
     ::StringW get_Public();
     // public System.String get_InternalSubset()
-    // Offset: 0x17BFDA0
+    // Offset: 0x17D1AB4
     ::StringW get_InternalSubset();
     // public System.Void .ctor(System.Xml.Linq.XDocumentType documentType)
-    // Offset: 0x17BFB00
+    // Offset: 0x17D1814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentTypeWrapper* New_ctor(::System::Xml::Linq::XDocumentType* documentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDocumentTypeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentTypeWrapper*, creationType>(documentType)));
     }
     // public override System.String get_LocalName()
-    // Offset: 0x17BFDBC
+    // Offset: 0x17D1AD0
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_LocalName()
     ::StringW get_LocalName();

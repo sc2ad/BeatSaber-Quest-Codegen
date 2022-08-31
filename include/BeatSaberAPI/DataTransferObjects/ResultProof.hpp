@@ -42,13 +42,13 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: private System.String <proof>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$proof$k__BackingField();
     // public System.String get_proof()
-    // Offset: 0x1390570
+    // Offset: 0x1385068
     ::StringW get_proof();
     // public System.Void set_proof(System.String value)
-    // Offset: 0x1390578
+    // Offset: 0x1385070
     void set_proof(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1390580
+    // Offset: 0x1385078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultProof* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::ResultProof::.ctor");

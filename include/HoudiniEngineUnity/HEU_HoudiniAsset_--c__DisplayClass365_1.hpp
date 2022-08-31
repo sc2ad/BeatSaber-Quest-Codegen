@@ -52,14 +52,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c__DisplayClass365_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x188C5B8
+    // Offset: 0x187DD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c__DisplayClass365_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAsset::$$c__DisplayClass365_1*, creationType>()));
     }
     // System.Boolean <CopyPropertiesTo>b__0(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x188C5C0
+    // Offset: 0x187DD4C
     bool $CopyPropertiesTo$b__0(::HoudiniEngineUnity::HEU_Curve* curve);
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c__DisplayClass365_1
   #pragma pack(pop)

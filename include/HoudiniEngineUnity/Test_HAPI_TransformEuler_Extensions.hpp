@@ -33,7 +33,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_TransformEuler_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_TransformEuler ToTestObject(HoudiniEngineUnity.HAPI_TransformEuler self)
-    // Offset: 0x2AA47F4
+    // Offset: 0x2AC0028
     static ::HoudiniEngineUnity::Test_HAPI_TransformEuler* ToTestObject(::HoudiniEngineUnity::HAPI_TransformEuler self);
   }; // HoudiniEngineUnity.Test_HAPI_TransformEuler_Extensions
   #pragma pack(pop)

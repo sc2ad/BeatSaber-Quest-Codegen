@@ -42,10 +42,10 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.String m_typeName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_typeName();
     // System.String get_TypeName()
-    // Offset: 0x164A33C
+    // Offset: 0x163A764
     ::StringW get_TypeName();
     // System.Void .ctor(System.String typeName)
-    // Offset: 0x164A310
+    // Offset: 0x163A738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeLoadExceptionHolder* New_ctor(::StringW typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::TypeLoadExceptionHolder::.ctor");

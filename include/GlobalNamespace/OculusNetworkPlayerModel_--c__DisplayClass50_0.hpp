@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::StringW>*& dyn_tcs();
     // public System.Void .ctor()
-    // Offset: 0x1569778
+    // Offset: 0x159E7A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::$$c__DisplayClass50_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass50_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::$$c__DisplayClass50_0*, creationType>()));
     }
     // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x156A4FC
+    // Offset: 0x159F524
     void $GetUserNameAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* result);
   }; // OculusNetworkPlayerModel/<>c__DisplayClass50_0
   #pragma pack(pop)

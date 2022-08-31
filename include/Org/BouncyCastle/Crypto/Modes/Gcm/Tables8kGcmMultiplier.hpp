@@ -56,17 +56,17 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Get instance field reference: private System.UInt32[][][] M
     [[deprecated("Use field access instead!")]] ::ArrayW<::ArrayW<::ArrayW<uint>>>& dyn_M();
     // public System.Void .ctor()
-    // Offset: 0x1E45FC0
+    // Offset: 0x1E366B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables8kGcmMultiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables8kGcmMultiplier*, creationType>()));
     }
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x1E45510
+    // Offset: 0x1E35C08
     void Init(::ArrayW<uint8_t> H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x1E45D9C
+    // Offset: 0x1E36494
     void MultiplyH(::ArrayW<uint8_t> x);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables8kGcmMultiplier
   #pragma pack(pop)

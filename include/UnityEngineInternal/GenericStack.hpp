@@ -29,7 +29,7 @@ namespace UnityEngineInternal {
   class GenericStack : public ::System::Collections::Stack {
     public:
     // public System.Void .ctor()
-    // Offset: 0x27D9814
+    // Offset: 0x2823A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericStack* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngineInternal::GenericStack::.ctor");

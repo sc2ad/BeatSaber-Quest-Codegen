@@ -36,17 +36,17 @@ namespace GlobalNamespace {
     // Set static field: static public readonly BeatmapDataZenModeTransform/<>c <>9
     static void _set_$$9(::GlobalNamespace::BeatmapDataZenModeTransform::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1506A28
+    // Offset: 0x152A584
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1506A8C
+    // Offset: 0x152A5E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataZenModeTransform::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataZenModeTransform::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataZenModeTransform::$$c*, creationType>()));
     }
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0_0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x1506A94
+    // Offset: 0x152A5F0
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataZenModeTransform/<>c
   #pragma pack(pop)

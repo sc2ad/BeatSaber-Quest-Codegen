@@ -95,14 +95,14 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0x10ED998
+    // [LocalizationKeyAttribute] Offset: 0x10F5A64
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::StringW _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x10ED9A8
+    // [LocalizationKeyAttribute] Offset: 0x10F5A74
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
@@ -122,23 +122,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel _currentPromoBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__currentPromoBeatmapLevel();
     // public IPreviewBeatmapLevel get_currentPromoBeatmapLevel()
-    // Offset: 0x14C6080
+    // Offset: 0x14E6C24
     ::GlobalNamespace::IPreviewBeatmapLevel* get_currentPromoBeatmapLevel();
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0x14C6088
+    // Offset: 0x14E6C2C
     ::GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0x14C6090
+    // Offset: 0x14E6C34
     ::StringW get_promoButtonText();
     // public System.Void .ctor()
-    // Offset: 0x14C627C
+    // Offset: 0x14E6E20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MusicPackPromoBanner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MusicPackPromoBanner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MusicPackPromoBanner*, creationType>()));
     }
     // public System.Void Setup(DlcPromoPanelDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0x14C60AC
+    // Offset: 0x14E6C50
     void Setup(::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
   }; // MusicPackPromoBanner
   #pragma pack(pop)

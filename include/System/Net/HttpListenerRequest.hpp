@@ -207,68 +207,68 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean keep_alive
     [[deprecated("Use field access instead!")]] bool& dyn_keep_alive();
     // public System.Boolean get_HasEntityBody()
-    // Offset: 0x1AAC830
+    // Offset: 0x1AB21B8
     bool get_HasEntityBody();
     // public System.Collections.Specialized.NameValueCollection get_Headers()
-    // Offset: 0x1AAC908
+    // Offset: 0x1AB2290
     ::System::Collections::Specialized::NameValueCollection* get_Headers();
     // public System.IO.Stream get_InputStream()
-    // Offset: 0x1AAC854
+    // Offset: 0x1AB21DC
     ::System::IO::Stream* get_InputStream();
     // public System.Boolean get_IsSecureConnection()
-    // Offset: 0x1AAC6DC
+    // Offset: 0x1AB2064
     bool get_IsSecureConnection();
     // public System.Boolean get_KeepAlive()
-    // Offset: 0x1AA860C
+    // Offset: 0x1AADF94
     bool get_KeepAlive();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1AAC704
+    // Offset: 0x1AB208C
     ::System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x1AAC910
+    // Offset: 0x1AB2298
     ::System::Version* get_ProtocolVersion();
     // public System.Uri get_Url()
-    // Offset: 0x1AAC918
+    // Offset: 0x1AB22A0
     ::System::Uri* get_Url();
     // public System.String get_UserHostAddress()
-    // Offset: 0x1AAC6B8
+    // Offset: 0x1AB2040
     ::StringW get_UserHostAddress();
     // public System.String get_UserHostName()
-    // Offset: 0x1AAC65C
+    // Offset: 0x1AB1FE4
     ::StringW get_UserHostName();
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1AAB47C
+    // Offset: 0x1AB0E04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequest* New_ctor(::System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AAC920
+    // Offset: 0x1AB22A8
     static void _cctor();
     // System.Void SetRequestLine(System.String req)
-    // Offset: 0x1AA740C
+    // Offset: 0x1AACD94
     void SetRequestLine(::StringW req);
     // private System.Void CreateQueryString(System.String query)
-    // Offset: 0x1AAC1C4
+    // Offset: 0x1AB1B4C
     void CreateQueryString(::StringW query);
     // static private System.Boolean MaybeUri(System.String s)
-    // Offset: 0x1AAC41C
+    // Offset: 0x1AB1DA4
     static bool MaybeUri(::StringW s);
     // static private System.Boolean IsPredefinedScheme(System.String scheme)
-    // Offset: 0x1AAC4D4
+    // Offset: 0x1AB1E5C
     static bool IsPredefinedScheme(::StringW scheme);
     // System.Void FinishInitialization()
-    // Offset: 0x1AA68E8
+    // Offset: 0x1AAC270
     void FinishInitialization();
     // static System.String Unquote(System.String str)
-    // Offset: 0x1AAC7C0
+    // Offset: 0x1AB2148
     static ::StringW Unquote(::StringW str);
     // System.Void AddHeader(System.String header)
-    // Offset: 0x1AA7710
+    // Offset: 0x1AAD098
     void AddHeader(::StringW header);
     // System.Boolean FlushInput()
-    // Offset: 0x1AA8784
+    // Offset: 0x1AAE10C
     bool FlushInput();
   }; // System.Net.HttpListenerRequest
   #pragma pack(pop)

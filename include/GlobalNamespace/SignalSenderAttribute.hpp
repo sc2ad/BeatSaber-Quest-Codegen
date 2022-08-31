@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class SignalSenderAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A3B65C
+    // Offset: 0x2A64780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalSenderAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SignalSenderAttribute::.ctor");

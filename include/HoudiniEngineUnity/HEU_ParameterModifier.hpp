@@ -161,17 +161,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _intValue
     [[deprecated("Use field access instead!")]] int& dyn__intValue();
     // public System.Void .ctor()
-    // Offset: 0x1AF111C
+    // Offset: 0x1AF6AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ParameterModifier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ParameterModifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ParameterModifier*, creationType>()));
     }
     // static public HoudiniEngineUnity.HEU_ParameterModifier GetNewModifier(HoudiniEngineUnity.HEU_ParameterModifier/HoudiniEngineUnity.ModifierAction action, System.Int32 parameterIndex, System.Int32 instanceIndex, System.Int32 modifierValue)
-    // Offset: 0x1AF1090
+    // Offset: 0x1AF6A18
     static ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction action, int parameterIndex, int instanceIndex, int modifierValue);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterModifier other)
-    // Offset: 0x1AF1124
+    // Offset: 0x1AF6AAC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
   }; // HoudiniEngineUnity.HEU_ParameterModifier
   #pragma pack(pop)

@@ -30,7 +30,7 @@ namespace UnityEngine {
   class PlayerPrefsException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String error)
-    // Offset: 0x2110218
+    // Offset: 0x21391F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerPrefsException* New_ctor(::StringW error) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::PlayerPrefsException::.ctor");

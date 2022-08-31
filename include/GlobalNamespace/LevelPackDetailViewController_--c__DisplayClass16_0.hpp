@@ -50,17 +50,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public LevelPackDetailViewController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelPackDetailViewController*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x14B39A0
+    // Offset: 0x14D3544
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelPackDetailViewController::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController::$$c__DisplayClass16_0*, creationType>()));
     }
     // System.Void <DidActivate>b__1()
-    // Offset: 0x14B41A4
+    // Offset: 0x14D3D48
     void $DidActivate$b__1();
     // System.Void <DidActivate>b__2()
-    // Offset: 0x14B4274
+    // Offset: 0x14D3E18
     void $DidActivate$b__2();
   }; // LevelPackDetailViewController/<>c__DisplayClass16_0
   #pragma pack(pop)

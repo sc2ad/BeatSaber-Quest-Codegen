@@ -160,19 +160,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     [[deprecated("Use field access instead!")]] bool& dyn__initializedPropertyIds();
     // public LightConstants/BakeId get_bakeId()
-    // Offset: 0x1E820A8
+    // Offset: 0x1E727A0
     ::GlobalNamespace::LightConstants::BakeId get_bakeId();
     // protected System.Void Awake()
-    // Offset: 0x1E820B0
+    // Offset: 0x1E727A8
     void Awake();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1E8223C
+    // Offset: 0x1E72934
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // private System.Void SetShaderProperties()
-    // Offset: 0x1E8216C
+    // Offset: 0x1E72864
     void SetShaderProperties();
     // public System.Void .ctor()
-    // Offset: 0x1E82634
+    // Offset: 0x1E72D2C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -181,7 +181,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1E8229C
+    // Offset: 0x1E72994
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

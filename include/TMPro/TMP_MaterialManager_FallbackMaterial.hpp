@@ -75,7 +75,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 count
     [[deprecated("Use field access instead!")]] int& dyn_count();
     // public System.Void .ctor()
-    // Offset: 0x14687A0
+    // Offset: 0x146F1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::FallbackMaterial* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::FallbackMaterial::.ctor");

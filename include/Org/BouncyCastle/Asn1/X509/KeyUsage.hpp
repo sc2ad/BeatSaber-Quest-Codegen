@@ -30,17 +30,17 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
     public:
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x1F1A1D0
+    // Offset: 0x1F48C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyUsage* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::KeyUsage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyUsage*, creationType>(usage)));
     }
     // static public Org.BouncyCastle.Asn1.X509.KeyUsage GetInstance(System.Object obj)
-    // Offset: 0x1F1A0B8
+    // Offset: 0x1F48B30
     static ::Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1F1A27C
+    // Offset: 0x1F48CF4
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::StringW ToString();

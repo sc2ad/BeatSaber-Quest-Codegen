@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class NoteLineConnectionController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteLineConnectionController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14D4B40
+    // Offset: 0x14F56E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteLineConnectionController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteLineConnectionController::Pool::.ctor");

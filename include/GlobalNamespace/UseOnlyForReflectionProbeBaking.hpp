@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14AADC4
+    // Offset: 0x141EE4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UseOnlyForReflectionProbeBaking* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UseOnlyForReflectionProbeBaking::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UseOnlyForReflectionProbeBaking*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14AAD9C
+    // Offset: 0x141EE24
     void Awake();
   }; // UseOnlyForReflectionProbeBaking
   #pragma pack(pop)

@@ -139,32 +139,32 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Byte x4
     [[deprecated("Use field access instead!")]] uint8_t& dyn_x4();
     // public System.Void .ctor()
-    // Offset: 0x1E3CF18
+    // Offset: 0x1E2D610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcMac* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::VmpcMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcMac*, creationType>()));
     }
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E3C298
+    // Offset: 0x1E2C990
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1E3C718
+    // Offset: 0x1E2CE10
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E3C720
+    // Offset: 0x1E2CE18
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void initKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1E3C8AC
+    // Offset: 0x1E2CFA4
     void initKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // public System.Void Reset()
-    // Offset: 0x1E3CAD8
+    // Offset: 0x1E2D1D0
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E3CB84
+    // Offset: 0x1E2D27C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E3CDF0
+    // Offset: 0x1E2D4E8
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
   }; // Org.BouncyCastle.Crypto.Macs.VmpcMac
   #pragma pack(pop)

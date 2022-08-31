@@ -42,17 +42,17 @@ namespace System::Xml::Schema {
   class Datatype_untypedAtomicType : public ::System::Xml::Schema::Datatype_anyAtomicType {
     public:
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1C5E2C0
+    // Offset: 0x1C4FDE4
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anyAtomicType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C5E2C8
+    // Offset: 0x1C4FDEC
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anyAtomicType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C5E2D0
+    // Offset: 0x1C4FDF4
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Void Datatype_anyAtomicType::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -64,7 +64,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_untypedAtomicType*, creationType>()));
     }
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1C5E258
+    // Offset: 0x1C4FD7C
     // Implemented from: System.Xml.Schema.Datatype_anyAtomicType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anyAtomicType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);

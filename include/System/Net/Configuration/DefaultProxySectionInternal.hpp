@@ -52,26 +52,26 @@ namespace System::Net::Configuration {
     // Get instance field reference: private System.Net.IWebProxy webProxy
     [[deprecated("Use field access instead!")]] ::System::Net::IWebProxy*& dyn_webProxy();
     // static System.Object get_ClassSyncObject()
-    // Offset: 0x1A75B94
+    // Offset: 0x1A7B51C
     static ::Il2CppObject* get_ClassSyncObject();
     // System.Net.IWebProxy get_WebProxy()
-    // Offset: 0x1A75D10
+    // Offset: 0x1A7B698
     ::System::Net::IWebProxy* get_WebProxy();
     // public System.Void .ctor()
-    // Offset: 0x1A75D08
+    // Offset: 0x1A7B690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultProxySectionInternal* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::DefaultProxySectionInternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultProxySectionInternal*, creationType>()));
     }
     // static private System.Net.IWebProxy GetDefaultProxy_UsingOldMonoCode()
-    // Offset: 0x1A75B84
+    // Offset: 0x1A7B50C
     static ::System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
     // static private System.Net.IWebProxy GetSystemWebProxy()
-    // Offset: 0x1A75B8C
+    // Offset: 0x1A7B514
     static ::System::Net::IWebProxy* GetSystemWebProxy();
     // static System.Net.Configuration.DefaultProxySectionInternal GetSection()
-    // Offset: 0x1A75C28
+    // Offset: 0x1A7B5B0
     static ::System::Net::Configuration::DefaultProxySectionInternal* GetSection();
   }; // System.Net.Configuration.DefaultProxySectionInternal
   #pragma pack(pop)

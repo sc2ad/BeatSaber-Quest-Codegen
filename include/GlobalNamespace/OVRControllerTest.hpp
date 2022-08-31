@@ -91,20 +91,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder data
     [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x16619B4
+    // Offset: 0x1651DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16619BC
+    // Offset: 0x1651DE4
     static void _cctor();
     // private System.Void Start()
-    // Offset: 0x165F814
+    // Offset: 0x164FC3C
     void Start();
     // private System.Void Update()
-    // Offset: 0x1661000
+    // Offset: 0x1651428
     void Update();
   }; // OVRControllerTest
   #pragma pack(pop)

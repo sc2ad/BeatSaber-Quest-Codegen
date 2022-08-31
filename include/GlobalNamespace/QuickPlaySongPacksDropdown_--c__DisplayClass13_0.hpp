@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String serializedName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_serializedName();
     // public System.Void .ctor()
-    // Offset: 0x136ECBC
+    // Offset: 0x140B0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySongPacksDropdown::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Boolean <SelectCellWithSerializedName>b__0(QuickPlaySongPacksDropdown/SongPackMaskItem item)
-    // Offset: 0x136F0E8
+    // Offset: 0x140B4FC
     bool $SelectCellWithSerializedName$b__0(::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
   }; // QuickPlaySongPacksDropdown/<>c__DisplayClass13_0
   #pragma pack(pop)

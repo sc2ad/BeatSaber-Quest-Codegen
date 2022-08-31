@@ -42,7 +42,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
-    // Offset: 0x1ABBCF4
+    // Offset: 0x1AC167C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPInterfaceProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPInterfaceProperties::.ctor");

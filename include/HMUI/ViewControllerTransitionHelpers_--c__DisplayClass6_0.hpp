@@ -66,14 +66,14 @@ namespace HMUI {
     // Get instance field reference: public HMUI.ViewController toDismissViewController
     [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_toDismissViewController();
     // public System.Void .ctor()
-    // Offset: 0x2A4A5B0
+    // Offset: 0x2A736D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$$c__DisplayClass6_0*, creationType>()));
     }
     // System.Void <DoVerticalTransition>b__0(System.Single t)
-    // Offset: 0x2A4A5B8
+    // Offset: 0x2A736DC
     void $DoVerticalTransition$b__0(float t);
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass6_0
   #pragma pack(pop)

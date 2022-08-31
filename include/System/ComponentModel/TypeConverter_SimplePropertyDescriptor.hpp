@@ -57,14 +57,14 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Type propertyType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_propertyType();
     // protected System.Void .ctor(System.Type componentType, System.String name, System.Type propertyType, System.Attribute[] attributes)
-    // Offset: 0x1D96EA0
+    // Offset: 0x1D8972C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeConverter::SimplePropertyDescriptor* New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType, ::ArrayW<::System::Attribute*> attributes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeConverter::SimplePropertyDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverter::SimplePropertyDescriptor*, creationType>(componentType, name, propertyType, attributes)));
     }
     // public override System.Type get_PropertyType()
-    // Offset: 0x1DA8368
+    // Offset: 0x1D9ABF4
     // Implemented from: System.ComponentModel.PropertyDescriptor
     // Base method: System.Type PropertyDescriptor::get_PropertyType()
     ::System::Type* get_PropertyType();

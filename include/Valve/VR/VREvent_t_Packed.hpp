@@ -75,10 +75,10 @@ namespace Valve::VR {
     // Get instance field reference: public Valve.VR.VREvent_Data_t data
     [[deprecated("Use field access instead!")]] ::Valve::VR::VREvent_Data_t& dyn_data();
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0x2AB73C4
+    // Offset: 0x2AD3BF8
     VREvent_t_Packed(::Valve::VR::VREvent_t unpacked);
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0x2AB7404
+    // Offset: 0x2AD3C38
     void Unpack(ByRef<::Valve::VR::VREvent_t> unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!

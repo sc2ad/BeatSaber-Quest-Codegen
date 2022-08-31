@@ -37,12 +37,12 @@ namespace System::Xml::Schema {
   class PlusNode : public ::System::Xml::Schema::InteriorNode {
     public:
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1C64E10
+    // Offset: 0x1C56934
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public System.Void .ctor()
-    // Offset: 0x1C63788
+    // Offset: 0x1C552AC
     // Implemented from: System.Xml.Schema.InteriorNode
     // Base method: System.Void InteriorNode::.ctor()
     // Base method: System.Void SyntaxTreeNode::.ctor()
@@ -52,7 +52,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<PlusNode*, creationType>()));
     }
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C64D5C
+    // Offset: 0x1C56880
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);

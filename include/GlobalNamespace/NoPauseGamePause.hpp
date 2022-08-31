@@ -78,41 +78,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _pause
     [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x14CA6E8
+    // Offset: 0x14EB28C
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x14CA6F0
+    // Offset: 0x14EB294
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x14CA794
+    // Offset: 0x14EB338
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x14CA838
+    // Offset: 0x14EB3DC
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x14CA8DC
+    // Offset: 0x14EB480
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x14CA980
+    // Offset: 0x14EB524
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x14CAA24
+    // Offset: 0x14EB5C8
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x14CAB18
+    // Offset: 0x14EB6BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoPauseGamePause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoPauseGamePause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoPauseGamePause*, creationType>()));
     }
     // public System.Void Pause()
-    // Offset: 0x14CAAC8
+    // Offset: 0x14EB66C
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x14CAAE8
+    // Offset: 0x14EB68C
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x14CAAFC
+    // Offset: 0x14EB6A0
     void Resume();
   }; // NoPauseGamePause
   #pragma pack(pop)

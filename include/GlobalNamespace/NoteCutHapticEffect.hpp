@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* shortWeakPreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF9EC
+    // [InjectAttribute] Offset: 0x10E7A2C
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x30
@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HapticFeedbackController _hapticFeedbackController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HapticFeedbackController*& dyn__hapticFeedbackController();
     // public System.Void .ctor()
-    // Offset: 0x14CE624
+    // Offset: 0x14EF1C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutHapticEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutHapticEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutHapticEffect*, creationType>()));
     }
     // public System.Void HitNote(SaberType saberType, NoteCutHapticEffect/Type type)
-    // Offset: 0x14CD478
+    // Offset: 0x14EE01C
     void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect::Type type);
   }; // NoteCutHapticEffect
   #pragma pack(pop)

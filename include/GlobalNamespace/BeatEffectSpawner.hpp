@@ -69,28 +69,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // Padding between fields: bombColorEffect and: colorManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x10DED18
+    // [InjectAttribute] Offset: 0x10E6D58
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DED28
+    // [InjectAttribute] Offset: 0x10E6D68
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DED38
+    // [InjectAttribute] Offset: 0x10E6D78
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DED48
+    // [InjectAttribute] Offset: 0x10E6D88
     // private readonly BeatEffectSpawner/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -137,29 +137,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private MemoryPoolContainer`1<BeatEffect> _beatEffectPoolContainer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>*& dyn__beatEffectPoolContainer();
     // public System.Void .ctor()
-    // Offset: 0x138F8BC
+    // Offset: 0x13843B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatEffectSpawner*, creationType>()));
     }
     // private System.Void Init(BeatEffect/Pool beatEffectPool)
-    // Offset: 0x138F1E4
+    // Offset: 0x1383CDC
     void Init(::GlobalNamespace::BeatEffect::Pool* beatEffectPool);
     // protected System.Void Start()
-    // Offset: 0x138F25C
+    // Offset: 0x1383D54
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x138F2F0
+    // Offset: 0x1383DE8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x138F390
+    // Offset: 0x1383E88
     void Update();
     // private System.Void HandleNoteDidStartJump(NoteController noteController)
-    // Offset: 0x138F4B0
+    // Offset: 0x1383FA8
     void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
     // public System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
-    // Offset: 0x138F7D8
+    // Offset: 0x13842D0
     void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
   }; // BeatEffectSpawner
   #pragma pack(pop)

@@ -63,20 +63,20 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ICredentials m_credentials
     [[deprecated("Use field access instead!")]] ::System::Net::ICredentials*& dyn_m_credentials();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1A80F84
+    // Offset: 0x1A8690C
     ::System::Net::ICredentials* get_Credentials();
     // public System.Void .ctor()
-    // Offset: 0x1A80F6C
+    // Offset: 0x1A868F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyWebProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EmptyWebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyWebProxy*, creationType>()));
     }
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x1A80F74
+    // Offset: 0x1A868FC
     ::System::Uri* GetProxy(::System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x1A80F7C
+    // Offset: 0x1A86904
     bool IsBypassed(::System::Uri* uri);
   }; // System.Net.EmptyWebProxy
   #pragma pack(pop)

@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x13C0FA8
+    // Offset: 0x13B5B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::$$c__DisplayClass18_0*, creationType>()));
     }
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x13C10DC
+    // Offset: 0x13B5C58
     bool $GetPositionOfPlayer$b__0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
   }; // MultiplayerScoreProvider/<>c__DisplayClass18_0
   #pragma pack(pop)

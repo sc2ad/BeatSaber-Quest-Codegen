@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayingMultiplayerRichPresenceData : public ::GlobalNamespace::InMultiplayerRichPresenceData {
     public:
-    // [LocalizationKeyAttribute] Offset: 0x10DD4EC
+    // [LocalizationKeyAttribute] Offset: 0x10E552C
     // static field const value: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kPlayingMultiplayerLobbyRichPresenceLocalizationKey = "PLAYING_MULTIPLAYER_PRESENCE";
     // Get static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static void _set_kPlayingMultiplayerLobbyRichPresenceLocalizationKey(::StringW value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Boolean atMaxPartySize)
-    // Offset: 0x1366F68
+    // Offset: 0x140337C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingMultiplayerRichPresenceData* New_ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool atMaxPartySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayingMultiplayerRichPresenceData::.ctor");

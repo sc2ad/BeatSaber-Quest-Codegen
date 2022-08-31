@@ -34,20 +34,20 @@ namespace System::Xml::Schema {
   class XmlSchemaObject : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x20605B8
+    // Offset: 0x20903CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaObject*, creationType>()));
     }
     // System.Void OnAdd(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2062114
+    // Offset: 0x2091F28
     void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnRemove(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
-    // Offset: 0x2062118
+    // Offset: 0x2091F2C
     void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnClear(System.Xml.Schema.XmlSchemaObjectCollection container)
-    // Offset: 0x206211C
+    // Offset: 0x2091F30
     void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
   }; // System.Xml.Schema.XmlSchemaObject
   #pragma pack(pop)

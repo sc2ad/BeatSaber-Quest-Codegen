@@ -114,17 +114,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _prevMenuEnvironmentType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__prevMenuEnvironmentType();
     // public System.Void .ctor()
-    // Offset: 0x1302A48
+    // Offset: 0x13086EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuEnvironmentManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuEnvironmentManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuEnvironmentManager*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1302890
+    // Offset: 0x1308534
     void Start();
     // public System.Void ShowEnvironmentType(MenuEnvironmentManager/MenuEnvironmentType menuEnvironmentType)
-    // Offset: 0x1302898
+    // Offset: 0x130853C
     void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType menuEnvironmentType);
   }; // MenuEnvironmentManager
   #pragma pack(pop)

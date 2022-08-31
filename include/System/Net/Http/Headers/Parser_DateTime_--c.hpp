@@ -30,17 +30,17 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(::System::Net::Http::Headers::Parser::DateTime::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x199C02C
+    // Offset: 0x19A0E30
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x199C090
+    // Offset: 0x19A0E94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser::DateTime::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::Parser::DateTime::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser::DateTime::$$c*, creationType>()));
     }
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x199C098
+    // Offset: 0x19A0E9C
     ::StringW $_cctor$b__2_0(::Il2CppObject* l);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime/System.Net.Http.Headers.<>c
   #pragma pack(pop)

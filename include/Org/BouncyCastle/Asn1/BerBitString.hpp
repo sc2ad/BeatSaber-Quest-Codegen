@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Asn1 {
   class BerBitString : public ::Org::BouncyCastle::Asn1::DerBitString {
     public:
     // public System.Void .ctor(System.Byte[] data, System.Int32 padBits)
-    // Offset: 0x1C2DD60
+    // Offset: 0x1C1F884
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString
     // Base method: System.Void DerBitString::.ctor(System.Byte[] data, System.Int32 padBits)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<BerBitString*, creationType>(data, padBits)));
     }
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1C2DF24
+    // Offset: 0x1C1FA48
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString
     // Base method: System.Void DerBitString::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);

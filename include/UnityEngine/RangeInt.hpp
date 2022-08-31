@@ -52,10 +52,10 @@ namespace UnityEngine {
     // Get instance field reference: public System.Int32 length
     [[deprecated("Use field access instead!")]] int& dyn_length();
     // public System.Int32 get_end()
-    // Offset: 0x21134EC
+    // Offset: 0x213C4C4
     int get_end();
     // public System.Void .ctor(System.Int32 start, System.Int32 length)
-    // Offset: 0x21134F8
+    // Offset: 0x213C4D0
     // ABORTED: conflicts with another method.  RangeInt(int start, int length);
   }; // UnityEngine.RangeInt
   #pragma pack(pop)

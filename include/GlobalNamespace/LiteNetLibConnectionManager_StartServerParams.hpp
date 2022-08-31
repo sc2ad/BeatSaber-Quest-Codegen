@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userName();
     // public System.Void .ctor()
-    // Offset: 0x168C7D8
+    // Offset: 0x1694088
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

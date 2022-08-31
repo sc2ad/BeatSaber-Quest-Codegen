@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 propertyId
     [[deprecated("Use field access instead!")]] int& dyn_propertyId();
     // public System.Void .ctor()
-    // Offset: 0x1E7AC28
+    // Offset: 0x1E6B320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty::.ctor");

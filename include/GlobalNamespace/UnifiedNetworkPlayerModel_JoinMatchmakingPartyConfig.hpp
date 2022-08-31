@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x14A8704
+    // Offset: 0x141C78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig::.ctor");

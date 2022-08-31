@@ -132,10 +132,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Int32 height
     [[deprecated("Use field access instead!")]] int& dyn_height();
     // static public LIV.SDK.Unity.SDKTexture get_empty()
-    // Offset: 0x2A62078
+    // Offset: 0x2A8919C
     static ::LIV::SDK::Unity::SDKTexture get_empty();
     // public override System.String ToString()
-    // Offset: 0x2A68900
+    // Offset: 0x2A8FA24
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

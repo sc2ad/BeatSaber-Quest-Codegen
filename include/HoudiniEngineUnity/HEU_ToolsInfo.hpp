@@ -337,14 +337,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMeshVisibility _paintMeshVisiblity
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility& dyn__paintMeshVisiblity();
     // public System.Void .ctor()
-    // Offset: 0x1A12608
+    // Offset: 0x1A1840C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ToolsInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ToolsInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ToolsInfo*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ToolsInfo other)
-    // Offset: 0x1A12124
+    // Offset: 0x1A17F28
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
   }; // HoudiniEngineUnity.HEU_ToolsInfo
   #pragma pack(pop)

@@ -67,37 +67,37 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,UnityEngine.Events.UnityAction>> _bindings
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::UnityEngine::Events::UnityAction*>*>*& dyn__bindings();
     // public System.Void .ctor()
-    // Offset: 0x16FE738
+    // Offset: 0x16FEAF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x16FE7C8
+    // Offset: 0x16FEB84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(::UnityEngine::UI::Button* button, ::System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(button, action)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x16FE8C0
+    // Offset: 0x16FEC7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x16FE760
+    // Offset: 0x16FEB1C
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,System.Action>> bindingData)
-    // Offset: 0x16FE8F8
+    // Offset: 0x16FECB4
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Button button, System.Action action)
-    // Offset: 0x16FE810
+    // Offset: 0x16FEBCC
     void AddBinding(::UnityEngine::UI::Button* button, ::System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x16FEA00
+    // Offset: 0x16FEDBC
     void ClearBindings();
   }; // HMUI.ButtonBinder
   #pragma pack(pop)

@@ -57,7 +57,7 @@ namespace UnityEngine::Playables {
     static ::UnityEngine::Playables::PlayState _get_Playing();
     // Set static field: static public UnityEngine.Playables.PlayState Playing
     static void _set_Playing(::UnityEngine::Playables::PlayState value);
-    // [ObsoleteAttribute] Offset: 0x1056268
+    // [ObsoleteAttribute] Offset: 0x105D288
     // static field const value: static public UnityEngine.Playables.PlayState Delayed
     static constexpr const int Delayed = 2;
     // Get static field: static public UnityEngine.Playables.PlayState Delayed

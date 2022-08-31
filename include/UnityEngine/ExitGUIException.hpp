@@ -30,7 +30,7 @@ namespace UnityEngine {
   class ExitGUIException : public ::System::Exception {
     public:
     // System.Void .ctor(System.String message)
-    // Offset: 0x1FD78A0
+    // Offset: 0x2005490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExitGUIException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ExitGUIException::.ctor");

@@ -57,23 +57,23 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
     static void _set_$$9__37_0(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1359880
+    // Offset: 0x135F258
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13598E4
+    // Offset: 0x135F2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::$$c*, creationType>()));
     }
     // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x13598EC
+    // Offset: 0x135F2C4
     ::StringW $DidActivate$b__26_1(::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x1359904
+    // Offset: 0x135F2DC
     ::HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
-    // Offset: 0x1359980
+    // Offset: 0x135F358
     ::StringW $LoadScoresAsync$b__37_0(::GlobalNamespace::GameplayModifierParamsSO* m);
   }; // CentralLeaderboardViewController/<>c
   #pragma pack(pop)

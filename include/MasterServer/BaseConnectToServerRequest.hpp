@@ -99,25 +99,25 @@ namespace MasterServer {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
-    // Offset: 0x168CFB4
+    // Offset: 0x1694864
     ::StringW get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x168CFBC
+    // Offset: 0x169486C
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x168CFC4
+    // Offset: 0x1694874
     ::StringW get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x168CFCC
+    // Offset: 0x169487C
     void set_userName(::StringW value);
     // public MasterServer.BaseConnectToServerRequest WithUserIdAndName(System.ValueTuple`2<System.String,System.String> idPair)
-    // Offset: 0x168CFD4
+    // Offset: 0x1694884
     ::MasterServer::BaseConnectToServerRequest* WithUserIdAndName(::System::ValueTuple_2<::StringW, ::StringW> idPair);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x168CFDC
+    // Offset: 0x169488C
     ::MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey);
     // protected System.Void .ctor()
-    // Offset: 0x168D150
+    // Offset: 0x1694A00
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,17 +126,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<BaseConnectToServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x168D028
+    // Offset: 0x16948D8
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x168D09C
+    // Offset: 0x169494C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x168D114
+    // Offset: 0x16949C4
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

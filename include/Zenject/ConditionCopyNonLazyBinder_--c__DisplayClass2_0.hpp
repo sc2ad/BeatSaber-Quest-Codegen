@@ -49,20 +49,20 @@ namespace Zenject {
     // Get instance field reference: public System.Object instance
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_instance();
     // public System.Void .ctor()
-    // Offset: 0x177611C
+    // Offset: 0x17764D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionCopyNonLazyBinder::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionCopyNonLazyBinder::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <WhenInjectedIntoInstance>b__0(Zenject.InjectContext r)
-    // Offset: 0x17761D8
+    // Offset: 0x1776594
     bool $WhenInjectedIntoInstance$b__0(::Zenject::InjectContext* r);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17761FC
+    // Offset: 0x17765B8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1776258
+    // Offset: 0x1776614
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConditionCopyNonLazyBinder/Zenject.<>c__DisplayClass2_0
   #pragma pack(pop)

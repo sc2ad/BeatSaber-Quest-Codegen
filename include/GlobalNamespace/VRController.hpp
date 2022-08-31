@@ -58,21 +58,21 @@ namespace GlobalNamespace {
     int nodeIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [NullAllowed] Offset: 0x10B5928
+    // [NullAllowed] Offset: 0x10BC948
     // private VRControllerTransformOffset _transformOffset
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::VRControllerTransformOffset* transformOffset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllerTransformOffset*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B5960
+    // [InjectAttribute] Offset: 0x10BC980
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10B5970
+    // [InjectAttribute] Offset: 0x10BC990
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x30
@@ -101,47 +101,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _lastTrackedPosition
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__lastTrackedPosition();
     // public UnityEngine.XR.XRNode get_node()
-    // Offset: 0x2A3F060
+    // Offset: 0x2A68184
     ::UnityEngine::XR::XRNode get_node();
     // public System.Void set_node(UnityEngine.XR.XRNode value)
-    // Offset: 0x2A3F068
+    // Offset: 0x2A6818C
     void set_node(::UnityEngine::XR::XRNode value);
     // public System.Int32 get_nodeIdx()
-    // Offset: 0x2A3F070
+    // Offset: 0x2A68194
     int get_nodeIdx();
     // public System.Void set_nodeIdx(System.Int32 value)
-    // Offset: 0x2A3F078
+    // Offset: 0x2A6819C
     void set_nodeIdx(int value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x2A3F080
+    // Offset: 0x2A681A4
     ::UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
-    // Offset: 0x2A3F0A4
+    // Offset: 0x2A681C8
     ::UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x2A3F0C8
+    // Offset: 0x2A681EC
     ::UnityEngine::Vector3 get_forward();
     // public System.Single get_triggerValue()
-    // Offset: 0x2A3F0EC
+    // Offset: 0x2A68210
     float get_triggerValue();
     // public System.Single get_verticalAxisValue()
-    // Offset: 0x2A3F290
+    // Offset: 0x2A683B4
     float get_verticalAxisValue();
     // public System.Single get_horizontalAxisValue()
-    // Offset: 0x2A3F328
+    // Offset: 0x2A6844C
     float get_horizontalAxisValue();
     // public System.Boolean get_active()
-    // Offset: 0x2A3F3C0
+    // Offset: 0x2A684E4
     bool get_active();
     // public System.Void .ctor()
-    // Offset: 0x2A3F790
+    // Offset: 0x2A688B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRController*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x2A3F3E4
+    // Offset: 0x2A68508
     void Update();
   }; // VRController
   #pragma pack(pop)

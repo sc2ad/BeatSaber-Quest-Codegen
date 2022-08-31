@@ -72,16 +72,16 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hashCodeRandomizer
     [[deprecated("Use field access instead!")]] int& dyn_hashCodeRandomizer();
     // private System.String AddEntry(System.String str, System.Int32 hashCode)
-    // Offset: 0x1ACE4A0
+    // Offset: 0x1AD3E28
     ::StringW AddEntry(::StringW str, int hashCode);
     // private System.Void Grow()
-    // Offset: 0x1ACE9B4
+    // Offset: 0x1AD433C
     void Grow();
     // static private System.Boolean TextEquals(System.String str1, System.Char[] str2, System.Int32 str2Start, System.Int32 str2Length)
-    // Offset: 0x1ACE748
+    // Offset: 0x1AD40D0
     static bool TextEquals(::StringW str1, ::ArrayW<::Il2CppChar> str2, int str2Start, int str2Length);
     // public System.Void .ctor()
-    // Offset: 0x1ACE2AC
+    // Offset: 0x1AD3C34
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.Void XmlNameTable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,17 +90,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<NameTable*, creationType>()));
     }
     // public override System.String Add(System.String key)
-    // Offset: 0x1ACE324
+    // Offset: 0x1AD3CAC
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Add(System.String key)
     ::StringW Add(::StringW key);
     // public override System.String Add(System.Char[] key, System.Int32 start, System.Int32 len)
-    // Offset: 0x1ACE5C4
+    // Offset: 0x1AD3F4C
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Add(System.Char[] key, System.Int32 start, System.Int32 len)
     ::StringW Add(::ArrayW<::Il2CppChar> key, int start, int len);
     // public override System.String Get(System.String value)
-    // Offset: 0x1ACE808
+    // Offset: 0x1AD4190
     // Implemented from: System.Xml.XmlNameTable
     // Base method: System.String XmlNameTable::Get(System.String value)
     ::StringW Get(::StringW value);

@@ -35,7 +35,7 @@ namespace Newtonsoft::Json::Bson {
     // Set static field: static private readonly System.Text.Encoding Encoding
     static void _set_Encoding(::System::Text::Encoding* value);
     // static private System.Void .cctor()
-    // Offset: 0x17B8454
+    // Offset: 0x17CA168
     static void _cctor();
   }; // Newtonsoft.Json.Bson.BsonBinaryWriter
   #pragma pack(pop)

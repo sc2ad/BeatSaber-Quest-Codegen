@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _noLevelText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__noLevelText();
     // public System.Void .ctor()
-    // Offset: 0x134C4A0
+    // Offset: 0x1351E78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSelectionView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapSelectionView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSelectionView*, creationType>()));
     }
     // public System.Void SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x134C3E8
+    // Offset: 0x1351DC0
     void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
   }; // BeatmapSelectionView
   #pragma pack(pop)

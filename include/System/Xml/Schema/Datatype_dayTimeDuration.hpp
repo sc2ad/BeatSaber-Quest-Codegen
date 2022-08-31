@@ -49,12 +49,12 @@ namespace System::Xml::Schema {
   class Datatype_dayTimeDuration : public ::System::Xml::Schema::Datatype_duration {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C591F4
+    // Offset: 0x1C4AD18
     // Implemented from: System.Xml.Schema.Datatype_duration
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_duration::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1C591FC
+    // Offset: 0x1C4AD20
     // Implemented from: System.Xml.Schema.Datatype_duration
     // Base method: System.Void Datatype_duration::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -66,7 +66,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_dayTimeDuration*, creationType>()));
     }
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1C59040
+    // Offset: 0x1C4AB64
     // Implemented from: System.Xml.Schema.Datatype_duration
     // Base method: System.Exception Datatype_duration::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

@@ -30,7 +30,7 @@ namespace RootMotion {
   class Comments : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [MultilineAttribute] Offset: 0x11031AC
+    // [MultilineAttribute] Offset: 0x110B2C8
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
@@ -43,7 +43,7 @@ namespace RootMotion {
     // Get instance field reference: public System.String text
     [[deprecated("Use field access instead!")]] ::StringW& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x2254398
+    // Offset: 0x221EE60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Comments* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Comments::.ctor");

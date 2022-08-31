@@ -96,23 +96,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 cubemapSize
     [[deprecated("Use field access instead!")]] int& dyn_cubemapSize();
     // public System.Void .ctor()
-    // Offset: 0x1663BCC
+    // Offset: 0x1653FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCubemapCapture* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCubemapCapture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRCubemapCapture*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x1662B54
+    // Offset: 0x1652F7C
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
-    // Offset: 0x1662C0C
+    // Offset: 0x1653034
     static void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int cubemapSize, ::StringW pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
-    // Offset: 0x1662E78
+    // Offset: 0x16532A0
     static void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
-    // Offset: 0x16634D4
+    // Offset: 0x16538FC
     static bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
   }; // OVRCubemapCapture
   #pragma pack(pop)

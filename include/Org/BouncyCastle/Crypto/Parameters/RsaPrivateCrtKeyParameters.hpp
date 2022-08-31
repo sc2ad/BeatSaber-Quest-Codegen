@@ -87,40 +87,40 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger qInv
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_qInv();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x160510C
+    // Offset: 0x15FCD34
     ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1605114
+    // Offset: 0x15FCD3C
     ::Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x160511C
+    // Offset: 0x15FCD44
     ::Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_DP()
-    // Offset: 0x1605124
+    // Offset: 0x15FCD4C
     ::Org::BouncyCastle::Math::BigInteger* get_DP();
     // public Org.BouncyCastle.Math.BigInteger get_DQ()
-    // Offset: 0x160512C
+    // Offset: 0x15FCD54
     ::Org::BouncyCastle::Math::BigInteger* get_DQ();
     // public Org.BouncyCastle.Math.BigInteger get_QInv()
-    // Offset: 0x1605134
+    // Offset: 0x15FCD5C
     ::Org::BouncyCastle::Math::BigInteger* get_QInv();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger modulus, Org.BouncyCastle.Math.BigInteger publicExponent, Org.BouncyCastle.Math.BigInteger privateExponent, Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger dP, Org.BouncyCastle.Math.BigInteger dQ, Org.BouncyCastle.Math.BigInteger qInv)
-    // Offset: 0x1604EA0
+    // Offset: 0x15FCAC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP, ::Org::BouncyCastle::Math::BigInteger* dQ, ::Org::BouncyCastle::Math::BigInteger* qInv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPrivateCrtKeyParameters*, creationType>(modulus, publicExponent, privateExponent, p, q, dP, dQ, qInv)));
     }
     // static private System.Void ValidateValue(Org.BouncyCastle.Math.BigInteger x, System.String name, System.String desc)
-    // Offset: 0x1605020
+    // Offset: 0x15FCC48
     static void ValidateValue(::Org::BouncyCastle::Math::BigInteger* x, ::StringW name, ::StringW desc);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x160513C
+    // Offset: 0x15FCD64
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters
     // Base method: System.Boolean RsaKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16052C8
+    // Offset: 0x15FCEF0
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters
     // Base method: System.Int32 RsaKeyParameters::GetHashCode()
     int GetHashCode();

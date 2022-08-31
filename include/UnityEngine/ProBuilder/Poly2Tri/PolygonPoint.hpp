@@ -29,7 +29,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class PolygonPoint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
     public:
     // public System.Void .ctor(System.Double x, System.Double y, System.Int32 index)
-    // Offset: 0x2AA30F8
+    // Offset: 0x2ABF92C
     // Implemented from: UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint
     // Base method: System.Void TriangulationPoint::.ctor(System.Double x, System.Double y, System.Int32 index)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

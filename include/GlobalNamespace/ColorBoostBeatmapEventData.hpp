@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     constexpr operator bool() const noexcept {
       return boostColorsAreOn;
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10B7ECC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BEEEC
     // Get static field: static private readonly ColorBoostBeatmapEventData _defaultCopy
     static ::GlobalNamespace::ColorBoostBeatmapEventData* _get__defaultCopy();
     // Set static field: static private readonly ColorBoostBeatmapEventData _defaultCopy
@@ -54,22 +54,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean boostColorsAreOn
     [[deprecated("Use field access instead!")]] bool& dyn_boostColorsAreOn();
     // public System.Void .ctor(System.Single time, System.Boolean boostColorsAreOn)
-    // Offset: 0x283DB44
+    // Offset: 0x28497F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorBoostBeatmapEventData* New_ctor(float time, bool boostColorsAreOn) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorBoostBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorBoostBeatmapEventData*, creationType>(time, boostColorsAreOn)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x283DC8C
+    // Offset: 0x284993C
     static void _cctor();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x283DB98
+    // Offset: 0x2849848
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x283DC24
+    // Offset: 0x28498D4
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

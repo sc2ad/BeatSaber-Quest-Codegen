@@ -29,7 +29,7 @@ namespace UnityEngine::Timeline {
   class CustomSignalEventDrawer : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1DBA9EC
+    // Offset: 0x1DAD278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomSignalEventDrawer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::CustomSignalEventDrawer::.ctor");

@@ -157,68 +157,68 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaAnyAttribute anyAttribute
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaAnyAttribute*& dyn_anyAttribute();
     // private System.Boolean System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes()
-    // Offset: 0x1C65D94
+    // Offset: 0x1C578B8
     bool System_Xml_IDtdAttributeListInfo_get_HasNonCDataAttributes();
     // System.Boolean get_IsIdDeclared()
-    // Offset: 0x1C65E54
+    // Offset: 0x1C57978
     bool get_IsIdDeclared();
     // System.Void set_IsIdDeclared(System.Boolean value)
-    // Offset: 0x1C65E5C
+    // Offset: 0x1C57980
     void set_IsIdDeclared(bool value);
     // System.Boolean get_HasNonCDataAttribute()
-    // Offset: 0x1C65E68
+    // Offset: 0x1C5798C
     bool get_HasNonCDataAttribute();
     // System.Void set_HasNonCDataAttribute(System.Boolean value)
-    // Offset: 0x1C65E70
+    // Offset: 0x1C57994
     void set_HasNonCDataAttribute(bool value);
     // System.Boolean get_IsNotationDeclared()
-    // Offset: 0x1C65E7C
+    // Offset: 0x1C579A0
     bool get_IsNotationDeclared();
     // System.Void set_IsNotationDeclared(System.Boolean value)
-    // Offset: 0x1C65E84
+    // Offset: 0x1C579A8
     void set_IsNotationDeclared(bool value);
     // System.Xml.Schema.ContentValidator get_ContentValidator()
-    // Offset: 0x1C65E90
+    // Offset: 0x1C579B4
     ::System::Xml::Schema::ContentValidator* get_ContentValidator();
     // System.Void set_ContentValidator(System.Xml.Schema.ContentValidator value)
-    // Offset: 0x1C65E98
+    // Offset: 0x1C579BC
     void set_ContentValidator(::System::Xml::Schema::ContentValidator* value);
     // System.Void set_AnyAttribute(System.Xml.Schema.XmlSchemaAnyAttribute value)
-    // Offset: 0x1C65EA0
+    // Offset: 0x1C579C4
     void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
     // System.Collections.Generic.IList`1<System.Xml.IDtdDefaultAttributeInfo> get_DefaultAttDefs()
-    // Offset: 0x1C66020
+    // Offset: 0x1C57B44
     ::System::Collections::Generic::IList_1<::System::Xml::IDtdDefaultAttributeInfo*>* get_DefaultAttDefs();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaAttDef> get_AttDefs()
-    // Offset: 0x1C66028
+    // Offset: 0x1C57B4C
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* get_AttDefs();
     // System.Void .ctor(System.Xml.Schema.XmlSchemaDatatype dtype)
-    // Offset: 0x1C65B34
+    // Offset: 0x1C57658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaElementDecl* New_ctor(::System::Xml::Schema::XmlSchemaDatatype* dtype) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaElementDecl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaElementDecl*, creationType>(dtype)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C66030
+    // Offset: 0x1C57B54
     static void _cctor();
     // static System.Xml.Schema.SchemaElementDecl CreateAnyTypeElementDecl()
-    // Offset: 0x1C65CB8
+    // Offset: 0x1C577DC
     static ::System::Xml::Schema::SchemaElementDecl* CreateAnyTypeElementDecl();
     // private System.Xml.IDtdAttributeInfo System.Xml.IDtdAttributeListInfo.LookupAttribute(System.String prefix, System.String localName)
-    // Offset: 0x1C65D9C
+    // Offset: 0x1C578C0
     ::System::Xml::IDtdAttributeInfo* System_Xml_IDtdAttributeListInfo_LookupAttribute(::StringW prefix, ::StringW localName);
     // private System.Collections.Generic.IEnumerable`1<System.Xml.IDtdDefaultAttributeInfo> System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes()
-    // Offset: 0x1C65E4C
+    // Offset: 0x1C57970
     ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* System_Xml_IDtdAttributeListInfo_LookupDefaultAttributes();
     // System.Void AddAttDef(System.Xml.Schema.SchemaAttDef attdef)
-    // Offset: 0x1C65EA8
+    // Offset: 0x1C579CC
     void AddAttDef(::System::Xml::Schema::SchemaAttDef* attdef);
     // System.Xml.Schema.SchemaAttDef GetAttDef(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1C65FA0
+    // Offset: 0x1C57AC4
     ::System::Xml::Schema::SchemaAttDef* GetAttDef(::System::Xml::XmlQualifiedName* qname);
     // System.Void .ctor()
-    // Offset: 0x1C65AA0
+    // Offset: 0x1C575C4
     // Implemented from: System.Xml.Schema.SchemaDeclBase
     // Base method: System.Void SchemaDeclBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -227,7 +227,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<SchemaElementDecl*, creationType>()));
     }
     // System.Void .ctor(System.Xml.XmlQualifiedName name, System.String prefix)
-    // Offset: 0x1C65C0C
+    // Offset: 0x1C57730
     // Implemented from: System.Xml.Schema.SchemaDeclBase
     // Base method: System.Void SchemaDeclBase::.ctor(System.Xml.XmlQualifiedName name, System.String prefix)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

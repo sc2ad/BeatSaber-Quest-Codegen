@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   class VRControllersInputManager : public ::Il2CppObject {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10B5980
+    // [InjectAttribute] Offset: 0x10BC9A0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
@@ -126,26 +126,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x2A3FD30
+    // Offset: 0x2A68E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersInputManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersInputManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersInputManager*, creationType>()));
     }
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x2A3F10C
+    // Offset: 0x2A68230
     float TriggerValue(::UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x2A3F2AC
+    // Offset: 0x2A683D0
     float VerticalAxisValue(::UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
-    // Offset: 0x2A3F344
+    // Offset: 0x2A68468
     float HorizontalAxisValue(::UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
-    // Offset: 0x2A3F810
+    // Offset: 0x2A68934
     bool MenuButtonDown();
     // public System.Boolean MenuButton()
-    // Offset: 0x2A3FAA0
+    // Offset: 0x2A68BC4
     bool MenuButton();
   }; // VRControllersInputManager
   #pragma pack(pop)
