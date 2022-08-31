@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean adaptiveSfx
     [[deprecated("Use field access instead!")]] bool& dyn_adaptiveSfx();
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx, System.Single maxVolume)
-    // Offset: 0x14FE1B8
+    // Offset: 0x1520D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx, float maxVolume) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");

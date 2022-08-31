@@ -87,18 +87,18 @@ namespace Newtonsoft::Json::Serialization {
       // Get instance field reference: readonly System.String TypeName
       [[deprecated("Use field access instead!")]] ::StringW& dyn_TypeName();
       // public System.Void .ctor(System.String assemblyName, System.String typeName)
-      // Offset: 0x1D603F0
+      // Offset: 0x1D52C7C
       // ABORTED: conflicts with another method.  TypeNameKey(::StringW assemblyName, ::StringW typeName);
       // public System.Boolean Equals(Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey other)
-      // Offset: 0x1D605E8
+      // Offset: 0x1D52E74
       bool Equals(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey other);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x1D60508
+      // Offset: 0x1D52D94
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0x1D6055C
+      // Offset: 0x1D52DE8
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
@@ -125,20 +125,20 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey,System.Type> _typeCache
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey, ::System::Type*>*& dyn__typeCache();
     // public System.Void .ctor()
-    // Offset: 0x1D603F8
+    // Offset: 0x1D52C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultSerializationBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultSerializationBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultSerializationBinder*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D604A8
+    // Offset: 0x1D52D34
     static void _cctor();
     // static private System.Type GetTypeFromTypeNameKey(Newtonsoft.Json.Serialization.DefaultSerializationBinder/Newtonsoft.Json.Serialization.TypeNameKey typeNameKey)
-    // Offset: 0x1D60134
+    // Offset: 0x1D529C0
     static ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::DefaultSerializationBinder::TypeNameKey typeNameKey);
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x1D60380
+    // Offset: 0x1D52C0C
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);

@@ -68,32 +68,32 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private System.Boolean orderPassed
     [[deprecated("Use field access instead!")]] bool& dyn_orderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x22E3EC0
+    // Offset: 0x2318178
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x22E3F1C
+    // Offset: 0x23181D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidityPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidityPreCompInfo*, creationType>()));
     }
     // System.Boolean HasFailed()
-    // Offset: 0x22E3E84
+    // Offset: 0x231813C
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x22E3E8C
+    // Offset: 0x2318144
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x22E3E98
+    // Offset: 0x2318150
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x22E3EA0
+    // Offset: 0x2318158
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x22E3EAC
+    // Offset: 0x2318164
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x22E3EB4
+    // Offset: 0x231816C
     void ReportOrderPassed();
   }; // Org.BouncyCastle.Math.EC.Multiplier.ValidityPreCompInfo
   #pragma pack(pop)

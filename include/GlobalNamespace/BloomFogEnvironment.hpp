@@ -45,8 +45,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10C6248
-    // [FormerlySerializedAsAttribute] Offset: 0x10C6248
+    // [SpaceAttribute] Offset: 0x10CD268
+    // [FormerlySerializedAsAttribute] Offset: 0x10CD268
     // private BloomFogEnvironmentParams _fogParams
     // Size: 0x8
     // Offset: 0x20
@@ -61,17 +61,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomFogEnvironmentParams _fogParams
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__fogParams();
     // public System.Void .ctor()
-    // Offset: 0x1E7781C
+    // Offset: 0x1E67F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogEnvironment* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogEnvironment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogEnvironment*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x1E77468
+    // Offset: 0x1E67B60
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x1E774D4
+    // Offset: 0x1E67BCC
     void OnValidate();
   }; // BloomFogEnvironment
   #pragma pack(pop)

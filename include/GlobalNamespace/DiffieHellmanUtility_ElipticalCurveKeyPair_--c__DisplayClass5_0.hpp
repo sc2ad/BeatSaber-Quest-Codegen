@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte[] clientPublicKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientPublicKey();
     // public System.Void .ctor()
-    // Offset: 0x167FD4C
+    // Offset: 0x16875FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::ElipticalCurveKeyPair::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
-    // Offset: 0x167FDCC
+    // Offset: 0x168767C
     ::ArrayW<uint8_t> $GetPreMasterSecretAsync$b__0();
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair/<>c__DisplayClass5_0
   #pragma pack(pop)

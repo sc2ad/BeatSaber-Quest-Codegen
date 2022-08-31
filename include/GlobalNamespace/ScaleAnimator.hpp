@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* targetTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E4794
+    // [InjectAttribute] Offset: 0x10EC7D4
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -106,41 +106,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x145EA9C
+    // Offset: 0x14B3218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScaleAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScaleAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScaleAnimator*, creationType>()));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0x145E500
+    // Offset: 0x14B2C7C
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x145E598
+    // Offset: 0x14B2D14
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x145E788
+    // Offset: 0x14B2F04
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x145E804
+    // Offset: 0x14B2F80
     void HideInstant();
     // public System.Void ShowInstant()
-    // Offset: 0x145E8C8
+    // Offset: 0x14B3044
     void ShowInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, EaseType easeType, System.Single delay)
-    // Offset: 0x145E970
+    // Offset: 0x14B30EC
     void Animate(bool show, float duration, ::GlobalNamespace::EaseType easeType, float delay);
     // private System.Void <InitIfNeeded>b__7_0(System.Single val)
-    // Offset: 0x145EAAC
+    // Offset: 0x14B3228
     void $InitIfNeeded$b__7_0(float val);
     // private System.Void <InitIfNeeded>b__7_2()
-    // Offset: 0x145EB08
+    // Offset: 0x14B3284
     void $InitIfNeeded$b__7_2();
     // private System.Void <InitIfNeeded>b__7_1(System.Single val)
-    // Offset: 0x145EB38
+    // Offset: 0x14B32B4
     void $InitIfNeeded$b__7_1(float val);
     // private System.Void <InitIfNeeded>b__7_3()
-    // Offset: 0x145EB94
+    // Offset: 0x14B3310
     void $InitIfNeeded$b__7_3();
   }; // ScaleAnimator
   #pragma pack(pop)

@@ -48,14 +48,14 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ScrollView _scrollView
     [[deprecated("Use field access instead!")]] ::HMUI::ScrollView*& dyn__scrollView();
     // public System.Void .ctor()
-    // Offset: 0x16C8ED4
+    // Offset: 0x16DA584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollToTopOnEnable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollToTopOnEnable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollToTopOnEnable*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x16C8D7C
+    // Offset: 0x16DA42C
     void OnEnable();
   }; // HMUI.ScrollToTopOnEnable
   #pragma pack(pop)

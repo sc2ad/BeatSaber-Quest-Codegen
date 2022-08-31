@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public HMUI.ViewController viewController
     [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_viewController();
     // public System.Void .ctor()
-    // Offset: 0x13A8B2C
+    // Offset: 0x139D7C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionNavigationController::$$c__DisplayClass54_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionNavigationController::$$c__DisplayClass54_0*, creationType>()));
     }
     // System.Void <PresentDetailViewController>b__0()
-    // Offset: 0x13A8E88
+    // Offset: 0x139DB1C
     void $PresentDetailViewController$b__0();
   }; // LevelCollectionNavigationController/<>c__DisplayClass54_0
   #pragma pack(pop)

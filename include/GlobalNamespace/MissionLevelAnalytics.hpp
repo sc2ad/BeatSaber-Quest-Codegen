@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D8980
+    // [InjectAttribute] Offset: 0x10E09B0
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // public System.Void .ctor()
-    // Offset: 0x1309964
+    // Offset: 0x130F608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelAnalytics*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1309654
+    // Offset: 0x130F2F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13096E4
+    // Offset: 0x130F388
     void OnDestroy();
     // private System.Void HandleMissionLevelDidFinishEvent(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1309774
+    // Offset: 0x130F418
     void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
   }; // MissionLevelAnalytics
   #pragma pack(pop)

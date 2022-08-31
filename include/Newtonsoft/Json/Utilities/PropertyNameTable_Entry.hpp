@@ -53,7 +53,7 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: Newtonsoft.Json.Utilities.PropertyNameTable/Newtonsoft.Json.Utilities.Entry Next
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PropertyNameTable::Entry*& dyn_Next();
     // System.Void .ctor(System.String value, System.Int32 hashCode, Newtonsoft.Json.Utilities.PropertyNameTable/Newtonsoft.Json.Utilities.Entry next)
-    // Offset: 0x209A3D8
+    // Offset: 0x20CA1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyNameTable::Entry* New_ctor(::StringW value, int hashCode, ::Newtonsoft::Json::Utilities::PropertyNameTable::Entry* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::PropertyNameTable::Entry::.ctor");

@@ -48,7 +48,7 @@ namespace UnityEngine::Timeline {
     ::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* m_Signals;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>*) == 0x8);
-    // [CustomSignalEventDrawer] Offset: 0x109D958
+    // [CustomSignalEventDrawer] Offset: 0x10A4978
     // private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     // Size: 0x8
     // Offset: 0x18
@@ -61,29 +61,29 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*& dyn_m_Events();
     // public System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> get_signals()
-    // Offset: 0x1DC0FA8
+    // Offset: 0x1DB3834
     ::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* get_signals();
     // public System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> get_events()
-    // Offset: 0x1DC0FB0
+    // Offset: 0x1DB383C
     ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* get_events();
     // public System.Void .ctor()
-    // Offset: 0x1DC0F10
+    // Offset: 0x1DB379C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalReceiver::EventKeyValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::SignalReceiver::EventKeyValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalReceiver::EventKeyValue*, creationType>()));
     }
     // public System.Boolean TryGetValue(UnityEngine.Timeline.SignalAsset key, out UnityEngine.Events.UnityEvent value)
-    // Offset: 0x1DC03C8
+    // Offset: 0x1DB2C54
     bool TryGetValue(::UnityEngine::Timeline::SignalAsset* key, ByRef<::UnityEngine::Events::UnityEvent*> value);
     // public System.Void Append(UnityEngine.Timeline.SignalAsset key, UnityEngine.Events.UnityEvent value)
-    // Offset: 0x1DC05A8
+    // Offset: 0x1DB2E34
     void Append(::UnityEngine::Timeline::SignalAsset* key, ::UnityEngine::Events::UnityEvent* value);
     // public System.Void Remove(System.Int32 idx)
-    // Offset: 0x1DC0BD0
+    // Offset: 0x1DB345C
     void Remove(int idx);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1DC076C
+    // Offset: 0x1DB2FF8
     void Remove(::UnityEngine::Timeline::SignalAsset* key);
   }; // UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue
   #pragma pack(pop)

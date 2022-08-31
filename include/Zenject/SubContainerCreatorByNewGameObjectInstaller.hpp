@@ -72,14 +72,14 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn__extraArgs();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Type installerType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x1D22224
+    // Offset: 0x1D1711C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewGameObjectInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByNewGameObjectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewGameObjectInstaller*, creationType>(container, gameObjectBindInfo, installerType, extraArgs)));
     }
     // protected override System.Void AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
-    // Offset: 0x1D24CE8
+    // Offset: 0x1D19BE0
     // Implemented from: Zenject.SubContainerCreatorDynamicContext
     // Base method: System.Void SubContainerCreatorDynamicContext::AddInstallers(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.GameObjectContext context)
     void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);

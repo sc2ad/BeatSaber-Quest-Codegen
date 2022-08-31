@@ -45,7 +45,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _autoload
     [[deprecated("Use field access instead!")]] bool& dyn__autoload();
     // public System.Void .ctor()
-    // Offset: 0x1A1F74C
+    // Offset: 0x1A25550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TOPNodeTags* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::TOPNodeTags::.ctor");

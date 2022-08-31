@@ -36,20 +36,20 @@ namespace System::Xml {
   class SecureStringHasher::HashCodeOfStringDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x206E73C
+    // Offset: 0x209E550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureStringHasher::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::SecureStringHasher::HashCodeOfStringDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureStringHasher::HashCodeOfStringDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x206E288
+    // Offset: 0x209E09C
     int Invoke(::StringW s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x206E74C
+    // Offset: 0x209E560
     ::System::IAsyncResult* BeginInvoke(::StringW s, int sLen, int64_t additionalEntropy, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x206E804
+    // Offset: 0x209E618
     int EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate
   #pragma pack(pop)

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusNetworkPlayerModel oculusNetworkPlayerModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_oculusNetworkPlayerModel();
     // public System.Void .ctor()
-    // Offset: 0x1566724
+    // Offset: 0x159B74C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::StartServerParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::StartServerParams::.ctor");

@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
-    // Offset: 0x137BAE0
+    // Offset: 0x136F5D8
     static void GetContentOfDirectory(::StringW direcotryPath, ::ArrayW<::StringW> extensions, ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
-    // Offset: 0x137BBE4
+    // Offset: 0x136F6DC
     static ::ArrayW<::GlobalNamespace::FileBrowserItem*> GetContentOfDirectory(::StringW directoryPath, ::ArrayW<::StringW> extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
-    // Offset: 0x137BFB0
+    // Offset: 0x136FAA8
     static bool CanOpenDirectory(::StringW path);
   }; // FileBrowserModel
   #pragma pack(pop)

@@ -41,16 +41,16 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 flag
     [[deprecated("Use field access instead!")]] int& dyn_flag();
     // public System.Boolean TryRelaxedSet()
-    // Offset: 0x1DCB8EC
+    // Offset: 0x1DD9C04
     bool TryRelaxedSet();
     // public System.Boolean Exchange(System.Boolean newVal)
-    // Offset: 0x1DCB91C
+    // Offset: 0x1DD9C34
     bool Exchange(bool newVal);
     // public System.Boolean Equals(System.Threading.AtomicBoolean rhs)
-    // Offset: 0x1DCB944
+    // Offset: 0x1DD9C5C
     bool Equals(::System::Threading::AtomicBoolean* rhs);
     // public System.Void .ctor()
-    // Offset: 0x1DCBA10
+    // Offset: 0x1DD9D28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,12 +59,12 @@ namespace System::Threading {
       return THROW_UNLESS((::il2cpp_utils::New<AtomicBoolean*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rhs)
-    // Offset: 0x1DCB968
+    // Offset: 0x1DD9C80
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object rhs)
     bool Equals(::Il2CppObject* rhs);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DCBA04
+    // Offset: 0x1DD9D1C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

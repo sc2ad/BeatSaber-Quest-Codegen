@@ -62,667 +62,667 @@ namespace System {
     // Set static field: static public readonly System.Object DBNull
     static void _set_DBNull(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D12D18
+    // Offset: 0x1D07C10
     static void _cctor();
     // static public System.TypeCode GetTypeCode(System.Object value)
-    // Offset: 0x1D09174
+    // Offset: 0x1CFE06C
     static ::System::TypeCode GetTypeCode(::Il2CppObject* value);
     // static public System.Object ChangeType(System.Object value, System.TypeCode typeCode, System.IFormatProvider provider)
-    // Offset: 0x1D09248
+    // Offset: 0x1CFE140
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::TypeCode typeCode, ::System::IFormatProvider* provider);
     // static System.Object DefaultToType(System.IConvertible value, System.Type targetType, System.IFormatProvider provider)
-    // Offset: 0x1D09ACC
+    // Offset: 0x1CFE9C4
     static ::Il2CppObject* DefaultToType(::System::IConvertible* value, ::System::Type* targetType, ::System::IFormatProvider* provider);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType)
-    // Offset: 0x1D0ACB4
+    // Offset: 0x1CFFBAC
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* conversionType);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType, System.IFormatProvider provider)
-    // Offset: 0x1D0AD4C
+    // Offset: 0x1CFFC44
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* conversionType, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0BD34
+    // Offset: 0x1D00C2C
     static bool ToBoolean(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.SByte value)
-    // Offset: 0x1D0BE48
+    // Offset: 0x1D00D40
     static bool ToBoolean(int8_t value);
     // static public System.Boolean ToBoolean(System.Byte value)
-    // Offset: 0x1D0BE54
+    // Offset: 0x1D00D4C
     static bool ToBoolean(uint8_t value);
     // static public System.Boolean ToBoolean(System.Int16 value)
-    // Offset: 0x1D0BE60
+    // Offset: 0x1D00D58
     static bool ToBoolean(int16_t value);
     // static public System.Boolean ToBoolean(System.UInt16 value)
-    // Offset: 0x1D0BE6C
+    // Offset: 0x1D00D64
     static bool ToBoolean(uint16_t value);
     // static public System.Boolean ToBoolean(System.Int32 value)
-    // Offset: 0x1D0BE78
+    // Offset: 0x1D00D70
     static bool ToBoolean(int value);
     // static public System.Boolean ToBoolean(System.UInt32 value)
-    // Offset: 0x1D0BE84
+    // Offset: 0x1D00D7C
     static bool ToBoolean(uint value);
     // static public System.Boolean ToBoolean(System.Int64 value)
-    // Offset: 0x1D0BE90
+    // Offset: 0x1D00D88
     static bool ToBoolean(int64_t value);
     // static public System.Boolean ToBoolean(System.UInt64 value)
-    // Offset: 0x1D0BE9C
+    // Offset: 0x1D00D94
     static bool ToBoolean(uint64_t value);
     // static public System.Boolean ToBoolean(System.String value)
-    // Offset: 0x1D0BEA8
+    // Offset: 0x1D00DA0
     static bool ToBoolean(::StringW value);
     // static public System.Boolean ToBoolean(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0BF24
+    // Offset: 0x1D00E1C
     static bool ToBoolean(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Single value)
-    // Offset: 0x1D0BFA0
+    // Offset: 0x1D00E98
     static bool ToBoolean(float value);
     // static public System.Boolean ToBoolean(System.Double value)
-    // Offset: 0x1D0BFAC
+    // Offset: 0x1D00EA4
     static bool ToBoolean(double value);
     // static public System.Boolean ToBoolean(System.Decimal value)
-    // Offset: 0x1D0BFB8
+    // Offset: 0x1D00EB0
     static bool ToBoolean(::System::Decimal value);
     // static public System.Char ToChar(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0C03C
+    // Offset: 0x1D00F34
     static ::Il2CppChar ToChar(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Char ToChar(System.SByte value)
-    // Offset: 0x1D0C150
+    // Offset: 0x1D01048
     static ::Il2CppChar ToChar(int8_t value);
     // static public System.Char ToChar(System.Byte value)
-    // Offset: 0x1D0C1E8
+    // Offset: 0x1D010E0
     static ::Il2CppChar ToChar(uint8_t value);
     // static public System.Char ToChar(System.Int16 value)
-    // Offset: 0x1D0C1F0
+    // Offset: 0x1D010E8
     static ::Il2CppChar ToChar(int16_t value);
     // static public System.Char ToChar(System.UInt16 value)
-    // Offset: 0x1D0C28C
+    // Offset: 0x1D01184
     static ::Il2CppChar ToChar(uint16_t value);
     // static public System.Char ToChar(System.Int32 value)
-    // Offset: 0x1D0C290
+    // Offset: 0x1D01188
     static ::Il2CppChar ToChar(int value);
     // static public System.Char ToChar(System.UInt32 value)
-    // Offset: 0x1D0C32C
+    // Offset: 0x1D01224
     static ::Il2CppChar ToChar(uint value);
     // static public System.Char ToChar(System.Int64 value)
-    // Offset: 0x1D0C3C8
+    // Offset: 0x1D012C0
     static ::Il2CppChar ToChar(int64_t value);
     // static public System.Char ToChar(System.UInt64 value)
-    // Offset: 0x1D0C464
+    // Offset: 0x1D0135C
     static ::Il2CppChar ToChar(uint64_t value);
     // static public System.Char ToChar(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0C500
+    // Offset: 0x1D013F8
     static ::Il2CppChar ToChar(::StringW value, ::System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0C5E8
+    // Offset: 0x1D014E0
     static int8_t ToSByte(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Boolean value)
-    // Offset: 0x1D0C6FC
+    // Offset: 0x1D015F4
     static int8_t ToSByte(bool value);
     // static public System.SByte ToSByte(System.Char value)
-    // Offset: 0x1D0C704
+    // Offset: 0x1D015FC
     static int8_t ToSByte(::Il2CppChar value);
     // static public System.SByte ToSByte(System.Byte value)
-    // Offset: 0x1D0C7A4
+    // Offset: 0x1D0169C
     static int8_t ToSByte(uint8_t value);
     // static public System.SByte ToSByte(System.Int16 value)
-    // Offset: 0x1D0C840
+    // Offset: 0x1D01738
     static int8_t ToSByte(int16_t value);
     // static public System.SByte ToSByte(System.UInt16 value)
-    // Offset: 0x1D0C8E4
+    // Offset: 0x1D017DC
     static int8_t ToSByte(uint16_t value);
     // static public System.SByte ToSByte(System.Int32 value)
-    // Offset: 0x1D0C984
+    // Offset: 0x1D0187C
     static int8_t ToSByte(int value);
     // static public System.SByte ToSByte(System.UInt32 value)
-    // Offset: 0x1D0CA24
+    // Offset: 0x1D0191C
     static int8_t ToSByte(uint value);
     // static public System.SByte ToSByte(System.Int64 value)
-    // Offset: 0x1D0CAC0
+    // Offset: 0x1D019B8
     static int8_t ToSByte(int64_t value);
     // static public System.SByte ToSByte(System.UInt64 value)
-    // Offset: 0x1D0CB60
+    // Offset: 0x1D01A58
     static int8_t ToSByte(uint64_t value);
     // static public System.SByte ToSByte(System.Single value)
-    // Offset: 0x1D0CBFC
+    // Offset: 0x1D01AF4
     static int8_t ToSByte(float value);
     // static public System.SByte ToSByte(System.Double value)
-    // Offset: 0x1D0CC68
+    // Offset: 0x1D01B60
     static int8_t ToSByte(double value);
     // static public System.SByte ToSByte(System.Decimal value)
-    // Offset: 0x1D0CE14
+    // Offset: 0x1D01D0C
     static int8_t ToSByte(::System::Decimal value);
     // static public System.SByte ToSByte(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0CE98
+    // Offset: 0x1D01D90
     static int8_t ToSByte(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0CEA8
+    // Offset: 0x1D01DA0
     static uint8_t ToByte(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Boolean value)
-    // Offset: 0x1D0CFBC
+    // Offset: 0x1D01EB4
     static uint8_t ToByte(bool value);
     // static public System.Byte ToByte(System.Char value)
-    // Offset: 0x1D0CFC4
+    // Offset: 0x1D01EBC
     static uint8_t ToByte(::Il2CppChar value);
     // static public System.Byte ToByte(System.SByte value)
-    // Offset: 0x1D0D064
+    // Offset: 0x1D01F5C
     static uint8_t ToByte(int8_t value);
     // static public System.Byte ToByte(System.Int16 value)
-    // Offset: 0x1D0D100
+    // Offset: 0x1D01FF8
     static uint8_t ToByte(int16_t value);
     // static public System.Byte ToByte(System.UInt16 value)
-    // Offset: 0x1D0D1A0
+    // Offset: 0x1D02098
     static uint8_t ToByte(uint16_t value);
     // static public System.Byte ToByte(System.Int32 value)
-    // Offset: 0x1D0D240
+    // Offset: 0x1D02138
     static uint8_t ToByte(int value);
     // static public System.Byte ToByte(System.UInt32 value)
-    // Offset: 0x1D0D2DC
+    // Offset: 0x1D021D4
     static uint8_t ToByte(uint value);
     // static public System.Byte ToByte(System.Int64 value)
-    // Offset: 0x1D0D378
+    // Offset: 0x1D02270
     static uint8_t ToByte(int64_t value);
     // static public System.Byte ToByte(System.UInt64 value)
-    // Offset: 0x1D0D414
+    // Offset: 0x1D0230C
     static uint8_t ToByte(uint64_t value);
     // static public System.Byte ToByte(System.Single value)
-    // Offset: 0x1D0D4B0
+    // Offset: 0x1D023A8
     static uint8_t ToByte(float value);
     // static public System.Byte ToByte(System.Double value)
-    // Offset: 0x1D0D51C
+    // Offset: 0x1D02414
     static uint8_t ToByte(double value);
     // static public System.Byte ToByte(System.Decimal value)
-    // Offset: 0x1D0D58C
+    // Offset: 0x1D02484
     static uint8_t ToByte(::System::Decimal value);
     // static public System.Byte ToByte(System.String value)
-    // Offset: 0x1D0D610
+    // Offset: 0x1D02508
     static uint8_t ToByte(::StringW value);
     // static public System.Byte ToByte(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0D698
+    // Offset: 0x1D02590
     static uint8_t ToByte(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0D6B0
+    // Offset: 0x1D025A8
     static int16_t ToInt16(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Boolean value)
-    // Offset: 0x1D0D7C4
+    // Offset: 0x1D026BC
     static int16_t ToInt16(bool value);
     // static public System.Int16 ToInt16(System.Char value)
-    // Offset: 0x1D0D7CC
+    // Offset: 0x1D026C4
     static int16_t ToInt16(::Il2CppChar value);
     // static public System.Int16 ToInt16(System.SByte value)
-    // Offset: 0x1D0D868
+    // Offset: 0x1D02760
     static int16_t ToInt16(int8_t value);
     // static public System.Int16 ToInt16(System.Byte value)
-    // Offset: 0x1D0D870
+    // Offset: 0x1D02768
     static int16_t ToInt16(uint8_t value);
     // static public System.Int16 ToInt16(System.UInt16 value)
-    // Offset: 0x1D0D878
+    // Offset: 0x1D02770
     static int16_t ToInt16(uint16_t value);
     // static public System.Int16 ToInt16(System.Int32 value)
-    // Offset: 0x1D0D914
+    // Offset: 0x1D0280C
     static int16_t ToInt16(int value);
     // static public System.Int16 ToInt16(System.UInt32 value)
-    // Offset: 0x1D0D9B4
+    // Offset: 0x1D028AC
     static int16_t ToInt16(uint value);
     // static public System.Int16 ToInt16(System.Int64 value)
-    // Offset: 0x1D0DA50
+    // Offset: 0x1D02948
     static int16_t ToInt16(int64_t value);
     // static public System.Int16 ToInt16(System.UInt64 value)
-    // Offset: 0x1D0DAF0
+    // Offset: 0x1D029E8
     static int16_t ToInt16(uint64_t value);
     // static public System.Int16 ToInt16(System.Single value)
-    // Offset: 0x1D0DB8C
+    // Offset: 0x1D02A84
     static int16_t ToInt16(float value);
     // static public System.Int16 ToInt16(System.Double value)
-    // Offset: 0x1D0DBF8
+    // Offset: 0x1D02AF0
     static int16_t ToInt16(double value);
     // static public System.Int16 ToInt16(System.Decimal value)
-    // Offset: 0x1D0DC68
+    // Offset: 0x1D02B60
     static int16_t ToInt16(::System::Decimal value);
     // static public System.Int16 ToInt16(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0DCEC
+    // Offset: 0x1D02BE4
     static int16_t ToInt16(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0DD04
+    // Offset: 0x1D02BFC
     static uint16_t ToUInt16(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Boolean value)
-    // Offset: 0x1D0DE18
+    // Offset: 0x1D02D10
     static uint16_t ToUInt16(bool value);
     // static public System.UInt16 ToUInt16(System.Char value)
-    // Offset: 0x1D0DE20
+    // Offset: 0x1D02D18
     static uint16_t ToUInt16(::Il2CppChar value);
     // static public System.UInt16 ToUInt16(System.SByte value)
-    // Offset: 0x1D0DE24
+    // Offset: 0x1D02D1C
     static uint16_t ToUInt16(int8_t value);
     // static public System.UInt16 ToUInt16(System.Byte value)
-    // Offset: 0x1D0DEBC
+    // Offset: 0x1D02DB4
     static uint16_t ToUInt16(uint8_t value);
     // static public System.UInt16 ToUInt16(System.Int16 value)
-    // Offset: 0x1D0DEC4
+    // Offset: 0x1D02DBC
     static uint16_t ToUInt16(int16_t value);
     // static public System.UInt16 ToUInt16(System.Int32 value)
-    // Offset: 0x1D0DF60
+    // Offset: 0x1D02E58
     static uint16_t ToUInt16(int value);
     // static public System.UInt16 ToUInt16(System.UInt32 value)
-    // Offset: 0x1D0DFFC
+    // Offset: 0x1D02EF4
     static uint16_t ToUInt16(uint value);
     // static public System.UInt16 ToUInt16(System.Int64 value)
-    // Offset: 0x1D0E098
+    // Offset: 0x1D02F90
     static uint16_t ToUInt16(int64_t value);
     // static public System.UInt16 ToUInt16(System.UInt64 value)
-    // Offset: 0x1D0E134
+    // Offset: 0x1D0302C
     static uint16_t ToUInt16(uint64_t value);
     // static public System.UInt16 ToUInt16(System.Single value)
-    // Offset: 0x1D0E1D0
+    // Offset: 0x1D030C8
     static uint16_t ToUInt16(float value);
     // static public System.UInt16 ToUInt16(System.Double value)
-    // Offset: 0x1D0E23C
+    // Offset: 0x1D03134
     static uint16_t ToUInt16(double value);
     // static public System.UInt16 ToUInt16(System.Decimal value)
-    // Offset: 0x1D0E2AC
+    // Offset: 0x1D031A4
     static uint16_t ToUInt16(::System::Decimal value);
     // static public System.UInt16 ToUInt16(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0E330
+    // Offset: 0x1D03228
     static uint16_t ToUInt16(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1D0E348
+    // Offset: 0x1D03240
     static int ToInt32(::Il2CppObject* value);
     // static public System.Int32 ToInt32(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0E458
+    // Offset: 0x1D03350
     static int ToInt32(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Boolean value)
-    // Offset: 0x1D0E56C
+    // Offset: 0x1D03464
     static int ToInt32(bool value);
     // static public System.Int32 ToInt32(System.Char value)
-    // Offset: 0x1D0E574
+    // Offset: 0x1D0346C
     static int ToInt32(::Il2CppChar value);
     // static public System.Int32 ToInt32(System.Byte value)
-    // Offset: 0x1D0E57C
+    // Offset: 0x1D03474
     static int ToInt32(uint8_t value);
     // static public System.Int32 ToInt32(System.Int16 value)
-    // Offset: 0x1D0E584
+    // Offset: 0x1D0347C
     static int ToInt32(int16_t value);
     // static public System.Int32 ToInt32(System.UInt16 value)
-    // Offset: 0x1D0E58C
+    // Offset: 0x1D03484
     static int ToInt32(uint16_t value);
     // static public System.Int32 ToInt32(System.UInt32 value)
-    // Offset: 0x1D0E594
+    // Offset: 0x1D0348C
     static int ToInt32(uint value);
     // static public System.Int32 ToInt32(System.Int64 value)
-    // Offset: 0x1D0E62C
+    // Offset: 0x1D03524
     static int ToInt32(int64_t value);
     // static public System.Int32 ToInt32(System.UInt64 value)
-    // Offset: 0x1D0E6CC
+    // Offset: 0x1D035C4
     static int ToInt32(uint64_t value);
     // static public System.Int32 ToInt32(System.Single value)
-    // Offset: 0x1D0E768
+    // Offset: 0x1D03660
     static int ToInt32(float value);
     // static public System.Int32 ToInt32(System.Double value)
-    // Offset: 0x1D0CCD8
+    // Offset: 0x1D01BD0
     static int ToInt32(double value);
     // static public System.Int32 ToInt32(System.Decimal value)
-    // Offset: 0x1D0E7D4
+    // Offset: 0x1D036CC
     static int ToInt32(::System::Decimal value);
     // static public System.Int32 ToInt32(System.String value)
-    // Offset: 0x1D0E84C
+    // Offset: 0x1D03744
     static int ToInt32(::StringW value);
     // static public System.Int32 ToInt32(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0E8D4
+    // Offset: 0x1D037CC
     static int ToInt32(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Object value)
-    // Offset: 0x1D0E8EC
+    // Offset: 0x1D037E4
     static uint ToUInt32(::Il2CppObject* value);
     // static public System.UInt32 ToUInt32(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0E9FC
+    // Offset: 0x1D038F4
     static uint ToUInt32(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Boolean value)
-    // Offset: 0x1D0EB10
+    // Offset: 0x1D03A08
     static uint ToUInt32(bool value);
     // static public System.UInt32 ToUInt32(System.Char value)
-    // Offset: 0x1D0EB18
+    // Offset: 0x1D03A10
     static uint ToUInt32(::Il2CppChar value);
     // static public System.UInt32 ToUInt32(System.SByte value)
-    // Offset: 0x1D0EB20
+    // Offset: 0x1D03A18
     static uint ToUInt32(int8_t value);
     // static public System.UInt32 ToUInt32(System.Byte value)
-    // Offset: 0x1D0EBB8
+    // Offset: 0x1D03AB0
     static uint ToUInt32(uint8_t value);
     // static public System.UInt32 ToUInt32(System.Int16 value)
-    // Offset: 0x1D0EBC0
+    // Offset: 0x1D03AB8
     static uint ToUInt32(int16_t value);
     // static public System.UInt32 ToUInt32(System.UInt16 value)
-    // Offset: 0x1D0EC58
+    // Offset: 0x1D03B50
     static uint ToUInt32(uint16_t value);
     // static public System.UInt32 ToUInt32(System.Int32 value)
-    // Offset: 0x1D0EC60
+    // Offset: 0x1D03B58
     static uint ToUInt32(int value);
     // static public System.UInt32 ToUInt32(System.Int64 value)
-    // Offset: 0x1D0ECF8
+    // Offset: 0x1D03BF0
     static uint ToUInt32(int64_t value);
     // static public System.UInt32 ToUInt32(System.UInt64 value)
-    // Offset: 0x1D0ED94
+    // Offset: 0x1D03C8C
     static uint ToUInt32(uint64_t value);
     // static public System.UInt32 ToUInt32(System.Single value)
-    // Offset: 0x1D0EE30
+    // Offset: 0x1D03D28
     static uint ToUInt32(float value);
     // static public System.UInt32 ToUInt32(System.Double value)
-    // Offset: 0x1D0EE9C
+    // Offset: 0x1D03D94
     static uint ToUInt32(double value);
     // static public System.UInt32 ToUInt32(System.Decimal value)
-    // Offset: 0x1D0EF84
+    // Offset: 0x1D03E7C
     static uint ToUInt32(::System::Decimal value);
     // static public System.UInt32 ToUInt32(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0F008
+    // Offset: 0x1D03F00
     static uint ToUInt32(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1D0F020
+    // Offset: 0x1D03F18
     static int64_t ToInt64(::Il2CppObject* value);
     // static public System.Int64 ToInt64(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0F130
+    // Offset: 0x1D04028
     static int64_t ToInt64(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Boolean value)
-    // Offset: 0x1D0F244
+    // Offset: 0x1D0413C
     static int64_t ToInt64(bool value);
     // static public System.Int64 ToInt64(System.Char value)
-    // Offset: 0x1D0F24C
+    // Offset: 0x1D04144
     static int64_t ToInt64(::Il2CppChar value);
     // static public System.Int64 ToInt64(System.SByte value)
-    // Offset: 0x1D0F254
+    // Offset: 0x1D0414C
     static int64_t ToInt64(int8_t value);
     // static public System.Int64 ToInt64(System.Byte value)
-    // Offset: 0x1D0F25C
+    // Offset: 0x1D04154
     static int64_t ToInt64(uint8_t value);
     // static public System.Int64 ToInt64(System.Int16 value)
-    // Offset: 0x1D0F264
+    // Offset: 0x1D0415C
     static int64_t ToInt64(int16_t value);
     // static public System.Int64 ToInt64(System.UInt16 value)
-    // Offset: 0x1D0F26C
+    // Offset: 0x1D04164
     static int64_t ToInt64(uint16_t value);
     // static public System.Int64 ToInt64(System.Int32 value)
-    // Offset: 0x1D0F274
+    // Offset: 0x1D0416C
     static int64_t ToInt64(int value);
     // static public System.Int64 ToInt64(System.UInt32 value)
-    // Offset: 0x1D0F27C
+    // Offset: 0x1D04174
     static int64_t ToInt64(uint value);
     // static public System.Int64 ToInt64(System.UInt64 value)
-    // Offset: 0x1D0F284
+    // Offset: 0x1D0417C
     static int64_t ToInt64(uint64_t value);
     // static public System.Int64 ToInt64(System.Single value)
-    // Offset: 0x1D0F31C
+    // Offset: 0x1D04214
     static int64_t ToInt64(float value);
     // static public System.Int64 ToInt64(System.Double value)
-    // Offset: 0x1D0F388
+    // Offset: 0x1D04280
     static int64_t ToInt64(double value);
     // static public System.Int64 ToInt64(System.Decimal value)
-    // Offset: 0x1D0F494
+    // Offset: 0x1D0438C
     static int64_t ToInt64(::System::Decimal value);
     // static public System.Int64 ToInt64(System.String value)
-    // Offset: 0x1D0F518
+    // Offset: 0x1D04410
     static int64_t ToInt64(::StringW value);
     // static public System.Int64 ToInt64(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0F5A0
+    // Offset: 0x1D04498
     static int64_t ToInt64(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Object value)
-    // Offset: 0x1D0F5B8
+    // Offset: 0x1D044B0
     static uint64_t ToUInt64(::Il2CppObject* value);
     // static public System.UInt64 ToUInt64(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0F6C8
+    // Offset: 0x1D045C0
     static uint64_t ToUInt64(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Boolean value)
-    // Offset: 0x1D0F7DC
+    // Offset: 0x1D046D4
     static uint64_t ToUInt64(bool value);
     // static public System.UInt64 ToUInt64(System.Char value)
-    // Offset: 0x1D0F7E4
+    // Offset: 0x1D046DC
     static uint64_t ToUInt64(::Il2CppChar value);
     // static public System.UInt64 ToUInt64(System.SByte value)
-    // Offset: 0x1D0F7EC
+    // Offset: 0x1D046E4
     static uint64_t ToUInt64(int8_t value);
     // static public System.UInt64 ToUInt64(System.Byte value)
-    // Offset: 0x1D0F888
+    // Offset: 0x1D04780
     static uint64_t ToUInt64(uint8_t value);
     // static public System.UInt64 ToUInt64(System.Int16 value)
-    // Offset: 0x1D0F890
+    // Offset: 0x1D04788
     static uint64_t ToUInt64(int16_t value);
     // static public System.UInt64 ToUInt64(System.UInt16 value)
-    // Offset: 0x1D0F92C
+    // Offset: 0x1D04824
     static uint64_t ToUInt64(uint16_t value);
     // static public System.UInt64 ToUInt64(System.Int32 value)
-    // Offset: 0x1D0F934
+    // Offset: 0x1D0482C
     static uint64_t ToUInt64(int value);
     // static public System.UInt64 ToUInt64(System.UInt32 value)
-    // Offset: 0x1D0F9CC
+    // Offset: 0x1D048C4
     static uint64_t ToUInt64(uint value);
     // static public System.UInt64 ToUInt64(System.Int64 value)
-    // Offset: 0x1D0F9D4
+    // Offset: 0x1D048CC
     static uint64_t ToUInt64(int64_t value);
     // static public System.UInt64 ToUInt64(System.Single value)
-    // Offset: 0x1D0FA6C
+    // Offset: 0x1D04964
     static uint64_t ToUInt64(float value);
     // static public System.UInt64 ToUInt64(System.Double value)
-    // Offset: 0x1D0FAD8
+    // Offset: 0x1D049D0
     static uint64_t ToUInt64(double value);
     // static public System.UInt64 ToUInt64(System.Decimal value)
-    // Offset: 0x1D0FBD0
+    // Offset: 0x1D04AC8
     static uint64_t ToUInt64(::System::Decimal value);
     // static public System.UInt64 ToUInt64(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0FC54
+    // Offset: 0x1D04B4C
     static uint64_t ToUInt64(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Object value)
-    // Offset: 0x1D0FC6C
+    // Offset: 0x1D04B64
     static float ToSingle(::Il2CppObject* value);
     // static public System.Single ToSingle(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D0FD7C
+    // Offset: 0x1D04C74
     static float ToSingle(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.SByte value)
-    // Offset: 0x1D0FE90
+    // Offset: 0x1D04D88
     static float ToSingle(int8_t value);
     // static public System.Single ToSingle(System.Byte value)
-    // Offset: 0x1D0FE9C
+    // Offset: 0x1D04D94
     static float ToSingle(uint8_t value);
     // static public System.Single ToSingle(System.Int16 value)
-    // Offset: 0x1D0FEA8
+    // Offset: 0x1D04DA0
     static float ToSingle(int16_t value);
     // static public System.Single ToSingle(System.UInt16 value)
-    // Offset: 0x1D0FEB4
+    // Offset: 0x1D04DAC
     static float ToSingle(uint16_t value);
     // static public System.Single ToSingle(System.Int32 value)
-    // Offset: 0x1D0FEC0
+    // Offset: 0x1D04DB8
     static float ToSingle(int value);
     // static public System.Single ToSingle(System.UInt32 value)
-    // Offset: 0x1D0FEC8
+    // Offset: 0x1D04DC0
     static float ToSingle(uint value);
     // static public System.Single ToSingle(System.Int64 value)
-    // Offset: 0x1D0FED4
+    // Offset: 0x1D04DCC
     static float ToSingle(int64_t value);
     // static public System.Single ToSingle(System.UInt64 value)
-    // Offset: 0x1D0FEDC
+    // Offset: 0x1D04DD4
     static float ToSingle(uint64_t value);
     // static public System.Single ToSingle(System.Double value)
-    // Offset: 0x1D0FEE8
+    // Offset: 0x1D04DE0
     static float ToSingle(double value);
     // static public System.Single ToSingle(System.Decimal value)
-    // Offset: 0x1D0FEF0
+    // Offset: 0x1D04DE8
     static float ToSingle(::System::Decimal value);
     // static public System.Single ToSingle(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D0FF68
+    // Offset: 0x1D04E60
     static float ToSingle(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Boolean value)
-    // Offset: 0x1D0FF84
+    // Offset: 0x1D04E7C
     static float ToSingle(bool value);
     // static public System.Double ToDouble(System.Object value)
-    // Offset: 0x1D0FF98
+    // Offset: 0x1D04E90
     static double ToDouble(::Il2CppObject* value);
     // static public System.Double ToDouble(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D100A8
+    // Offset: 0x1D04FA0
     static double ToDouble(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.SByte value)
-    // Offset: 0x1D101BC
+    // Offset: 0x1D050B4
     static double ToDouble(int8_t value);
     // static public System.Double ToDouble(System.Byte value)
-    // Offset: 0x1D101C8
+    // Offset: 0x1D050C0
     static double ToDouble(uint8_t value);
     // static public System.Double ToDouble(System.Int16 value)
-    // Offset: 0x1D101D4
+    // Offset: 0x1D050CC
     static double ToDouble(int16_t value);
     // static public System.Double ToDouble(System.UInt16 value)
-    // Offset: 0x1D101E0
+    // Offset: 0x1D050D8
     static double ToDouble(uint16_t value);
     // static public System.Double ToDouble(System.Int32 value)
-    // Offset: 0x1D101EC
+    // Offset: 0x1D050E4
     static double ToDouble(int value);
     // static public System.Double ToDouble(System.UInt32 value)
-    // Offset: 0x1D101F4
+    // Offset: 0x1D050EC
     static double ToDouble(uint value);
     // static public System.Double ToDouble(System.Int64 value)
-    // Offset: 0x1D101FC
+    // Offset: 0x1D050F4
     static double ToDouble(int64_t value);
     // static public System.Double ToDouble(System.UInt64 value)
-    // Offset: 0x1D10204
+    // Offset: 0x1D050FC
     static double ToDouble(uint64_t value);
     // static public System.Double ToDouble(System.Single value)
-    // Offset: 0x1D1020C
+    // Offset: 0x1D05104
     static double ToDouble(float value);
     // static public System.Double ToDouble(System.Decimal value)
-    // Offset: 0x1D10214
+    // Offset: 0x1D0510C
     static double ToDouble(::System::Decimal value);
     // static public System.Double ToDouble(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D1028C
+    // Offset: 0x1D05184
     static double ToDouble(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.Boolean value)
-    // Offset: 0x1D10320
+    // Offset: 0x1D05218
     static double ToDouble(bool value);
     // static public System.Decimal ToDecimal(System.Object value)
-    // Offset: 0x1D10334
+    // Offset: 0x1D0522C
     static ::System::Decimal ToDecimal(::Il2CppObject* value);
     // static public System.Decimal ToDecimal(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D10464
+    // Offset: 0x1D0535C
     static ::System::Decimal ToDecimal(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.SByte value)
-    // Offset: 0x1D10598
+    // Offset: 0x1D05490
     static ::System::Decimal ToDecimal(int8_t value);
     // static public System.Decimal ToDecimal(System.Byte value)
-    // Offset: 0x1D10600
+    // Offset: 0x1D054F8
     static ::System::Decimal ToDecimal(uint8_t value);
     // static public System.Decimal ToDecimal(System.Int16 value)
-    // Offset: 0x1D10668
+    // Offset: 0x1D05560
     static ::System::Decimal ToDecimal(int16_t value);
     // static public System.Decimal ToDecimal(System.UInt16 value)
-    // Offset: 0x1D106D0
+    // Offset: 0x1D055C8
     static ::System::Decimal ToDecimal(uint16_t value);
     // static public System.Decimal ToDecimal(System.Int32 value)
-    // Offset: 0x1D10738
+    // Offset: 0x1D05630
     static ::System::Decimal ToDecimal(int value);
     // static public System.Decimal ToDecimal(System.UInt32 value)
-    // Offset: 0x1D107A0
+    // Offset: 0x1D05698
     static ::System::Decimal ToDecimal(uint value);
     // static public System.Decimal ToDecimal(System.Int64 value)
-    // Offset: 0x1D10808
+    // Offset: 0x1D05700
     static ::System::Decimal ToDecimal(int64_t value);
     // static public System.Decimal ToDecimal(System.UInt64 value)
-    // Offset: 0x1D10870
+    // Offset: 0x1D05768
     static ::System::Decimal ToDecimal(uint64_t value);
     // static public System.Decimal ToDecimal(System.Single value)
-    // Offset: 0x1D108D8
+    // Offset: 0x1D057D0
     static ::System::Decimal ToDecimal(float value);
     // static public System.Decimal ToDecimal(System.Double value)
-    // Offset: 0x1D10948
+    // Offset: 0x1D05840
     static ::System::Decimal ToDecimal(double value);
     // static public System.Decimal ToDecimal(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D109B8
+    // Offset: 0x1D058B0
     static ::System::Decimal ToDecimal(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.Boolean value)
-    // Offset: 0x1D10A5C
+    // Offset: 0x1D05954
     static ::System::Decimal ToDecimal(bool value);
     // static public System.DateTime ToDateTime(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D10AC8
+    // Offset: 0x1D059C0
     static ::System::DateTime ToDateTime(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.DateTime ToDateTime(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1D10C04
+    // Offset: 0x1D05AFC
     static ::System::DateTime ToDateTime(::StringW value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1D10E28
+    // Offset: 0x1D05D20
     static ::StringW ToString(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Boolean value)
-    // Offset: 0x1D10FC8
+    // Offset: 0x1D05EC0
     static ::StringW ToString(bool value);
     // static public System.String ToString(System.Char value, System.IFormatProvider provider)
-    // Offset: 0x1D10FF4
+    // Offset: 0x1D05EEC
     static ::StringW ToString(::Il2CppChar value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Int32 value)
-    // Offset: 0x1D1101C
+    // Offset: 0x1D05F14
     static ::StringW ToString(int value);
     // static public System.String ToString(System.Int32 value, System.IFormatProvider provider)
-    // Offset: 0x1D11094
+    // Offset: 0x1D05F8C
     static ::StringW ToString(int value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Int64 value)
-    // Offset: 0x1D110BC
+    // Offset: 0x1D05FB4
     static ::StringW ToString(int64_t value);
     // static public System.String ToString(System.Single value)
-    // Offset: 0x1D11134
+    // Offset: 0x1D0602C
     static ::StringW ToString(float value);
     // static public System.Byte ToByte(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D111AC
+    // Offset: 0x1D060A4
     static uint8_t ToByte(::StringW value, int fromBase);
     // static public System.SByte ToSByte(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D112C8
+    // Offset: 0x1D061C0
     static int8_t ToSByte(::StringW value, int fromBase);
     // static public System.Int16 ToInt16(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D11400
+    // Offset: 0x1D062F8
     static int16_t ToInt16(::StringW value, int fromBase);
     // static public System.UInt16 ToUInt16(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D11538
+    // Offset: 0x1D06430
     static uint16_t ToUInt16(::StringW value, int fromBase);
     // static public System.Int32 ToInt32(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D11654
+    // Offset: 0x1D0654C
     static int ToInt32(::StringW value, int fromBase);
     // static public System.UInt32 ToUInt32(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D11724
+    // Offset: 0x1D0661C
     static uint ToUInt32(::StringW value, int fromBase);
     // static public System.Int64 ToInt64(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D117F4
+    // Offset: 0x1D066EC
     static int64_t ToInt64(::StringW value, int fromBase);
     // static public System.UInt64 ToUInt64(System.String value, System.Int32 fromBase)
-    // Offset: 0x1D118C4
+    // Offset: 0x1D067BC
     static uint64_t ToUInt64(::StringW value, int fromBase);
     // static public System.String ToString(System.Int32 value, System.Int32 toBase)
-    // Offset: 0x1D11994
+    // Offset: 0x1D0688C
     static ::StringW ToString(int value, int toBase);
     // static public System.String ToString(System.Int64 value, System.Int32 toBase)
-    // Offset: 0x1D11A6C
+    // Offset: 0x1D06964
     static ::StringW ToString(int64_t value, int toBase);
     // static public System.String ToBase64String(System.Byte[] inArray)
-    // Offset: 0x1D11B44
+    // Offset: 0x1D06A3C
     static ::StringW ToBase64String(::ArrayW<uint8_t> inArray);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1D11EAC
+    // Offset: 0x1D06DA4
     static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length, System.Base64FormattingOptions options)
-    // Offset: 0x1D11BF4
+    // Offset: 0x1D06AEC
     static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length, ::System::Base64FormattingOptions options);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut)
-    // Offset: 0x1D1226C
+    // Offset: 0x1D07164
     static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut, System.Base64FormattingOptions options)
-    // Offset: 0x1D12304
+    // Offset: 0x1D071FC
     static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut, ::System::Base64FormattingOptions options);
     // static private System.Int32 ConvertToBase64Array(System.Char* outChars, System.Byte* inData, System.Int32 offset, System.Int32 length, System.Boolean insertLineBreaks)
-    // Offset: 0x1D1201C
+    // Offset: 0x1D06F14
     static int ConvertToBase64Array(::Il2CppChar* outChars, uint8_t* inData, int offset, int length, bool insertLineBreaks);
     // static private System.Int32 ToBase64_CalculateAndValidateOutputLength(System.Int32 inputLength, System.Boolean insertLineBreaks)
-    // Offset: 0x1D11F2C
+    // Offset: 0x1D06E24
     static int ToBase64_CalculateAndValidateOutputLength(int inputLength, bool insertLineBreaks);
     // static public System.Byte[] FromBase64String(System.String s)
-    // Offset: 0x1D12640
+    // Offset: 0x1D07538
     static ::ArrayW<uint8_t> FromBase64String(::StringW s);
     // static public System.Byte[] FromBase64CharArray(System.Char[] inArray, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1D12834
+    // Offset: 0x1D0772C
     static ::ArrayW<uint8_t> FromBase64CharArray(::ArrayW<::Il2CppChar> inArray, int offset, int length);
     // static private System.Byte[] FromBase64CharPtr(System.Char* inputPtr, System.Int32 inputLength)
-    // Offset: 0x1D126FC
+    // Offset: 0x1D075F4
     static ::ArrayW<uint8_t> FromBase64CharPtr(::Il2CppChar* inputPtr, int inputLength);
     // static private System.Int32 FromBase64_Decode(System.Char* startInputPtr, System.Int32 inputLength, System.Byte* startDestPtr, System.Int32 destLength)
-    // Offset: 0x1D12AB4
+    // Offset: 0x1D079AC
     static int FromBase64_Decode(::Il2CppChar* startInputPtr, int inputLength, uint8_t* startDestPtr, int destLength);
     // static private System.Int32 FromBase64_ComputeResultLength(System.Char* inputPtr, System.Int32 inputLength)
-    // Offset: 0x1D129B0
+    // Offset: 0x1D078A8
     static int FromBase64_ComputeResultLength(::Il2CppChar* inputPtr, int inputLength);
   }; // System.Convert
   #pragma pack(pop)

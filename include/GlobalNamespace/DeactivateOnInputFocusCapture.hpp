@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class DeactivateOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10B4C28
+    // [InjectAttribute] Offset: 0x10BBC48
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -49,23 +49,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x15AA0E0
+    // Offset: 0x15C053C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeactivateOnInputFocusCapture* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeactivateOnInputFocusCapture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeactivateOnInputFocusCapture*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x15A9820
+    // Offset: 0x15BFC7C
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x15A9B58
+    // Offset: 0x15BFFB4
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x15A9CF4
+    // Offset: 0x15C0150
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x15A9F80
+    // Offset: 0x15C03DC
     void HandleInputFocusReleased();
   }; // DeactivateOnInputFocusCapture
   #pragma pack(pop)

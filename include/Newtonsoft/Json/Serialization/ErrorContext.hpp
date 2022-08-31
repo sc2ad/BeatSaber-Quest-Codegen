@@ -88,31 +88,31 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <Handled>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$Handled$k__BackingField();
     // System.Boolean get_Traced()
-    // Offset: 0x1D60B08
+    // Offset: 0x1D53394
     bool get_Traced();
     // System.Void set_Traced(System.Boolean value)
-    // Offset: 0x1D60B10
+    // Offset: 0x1D5339C
     void set_Traced(bool value);
     // public System.Exception get_Error()
-    // Offset: 0x1D60B1C
+    // Offset: 0x1D533A8
     ::System::Exception* get_Error();
     // private System.Void set_Error(System.Exception value)
-    // Offset: 0x1D60B24
+    // Offset: 0x1D533B0
     void set_Error(::System::Exception* value);
     // private System.Void set_OriginalObject(System.Object value)
-    // Offset: 0x1D60B2C
+    // Offset: 0x1D533B8
     void set_OriginalObject(::Il2CppObject* value);
     // private System.Void set_Member(System.Object value)
-    // Offset: 0x1D60B34
+    // Offset: 0x1D533C0
     void set_Member(::Il2CppObject* value);
     // private System.Void set_Path(System.String value)
-    // Offset: 0x1D60B3C
+    // Offset: 0x1D533C8
     void set_Path(::StringW value);
     // public System.Boolean get_Handled()
-    // Offset: 0x1D60B44
+    // Offset: 0x1D533D0
     bool get_Handled();
     // System.Void .ctor(System.Object originalObject, System.Object member, System.String path, System.Exception error)
-    // Offset: 0x1D60ABC
+    // Offset: 0x1D53348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorContext* New_ctor(::Il2CppObject* originalObject, ::Il2CppObject* member, ::StringW path, ::System::Exception* error) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorContext::.ctor");

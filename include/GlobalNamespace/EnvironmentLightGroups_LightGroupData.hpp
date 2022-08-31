@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElements
     [[deprecated("Use field access instead!")]] int& dyn__numberOfElements();
     // public System.Int32 get_groupId()
-    // Offset: 0x1374754
+    // Offset: 0x136824C
     int get_groupId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x137475C
+    // Offset: 0x1368254
     int get_numberOfElements();
     // public System.Void .ctor()
-    // Offset: 0x1374764
+    // Offset: 0x136825C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups::LightGroupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::LightGroupData::.ctor");

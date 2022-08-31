@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Sprite sprite, UnityEngine.Material material, UnityEngine.Color color, System.Boolean shake)
-    // Offset: 0x1382460
+    // Offset: 0x1375F58
     void InitAndPresent(float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material, ::UnityEngine::Color color, bool shake);
     // public System.Void .ctor()
-    // Offset: 0x138258C
+    // Offset: 0x1376084
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingSpriteEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x1382524
+    // Offset: 0x137601C
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

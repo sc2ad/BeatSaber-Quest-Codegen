@@ -54,23 +54,23 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Reflection.Assembly> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::System::Type*, ::System::Reflection::Assembly*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1778B84
+    // Offset: 0x1778F40
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1778BE8
+    // Offset: 0x1778FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionAssemblySelectionBinder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionAssemblySelectionBinder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder::$$c*, creationType>()));
     }
     // System.Reflection.Assembly <FromAssembliesContaining>b__8_0(System.Type t)
-    // Offset: 0x1778BF0
+    // Offset: 0x1778FAC
     ::System::Reflection::Assembly* $FromAssembliesContaining$b__8_0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1778C14
+    // Offset: 0x1778FD0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1778C70
+    // Offset: 0x177902C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionAssemblySelectionBinder/Zenject.<>c
   #pragma pack(pop)

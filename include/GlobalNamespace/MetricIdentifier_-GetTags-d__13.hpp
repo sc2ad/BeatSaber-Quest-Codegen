@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0x10C1558
+    // [TupleElementNamesAttribute] Offset: 0x10C8578
     // private System.ValueTuple`2<System.String,System.String> <>2__current
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -86,32 +86,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public MetricIdentifier <>3__<>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MetricIdentifier& dyn_$$3__$$4__this();
     // private System.ValueTuple`2<System.String,System.String> System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current()
-    // Offset: 0x1741E7C
+    // Offset: 0x1743238
     ::System::ValueTuple_2<::StringW, ::StringW> System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1741EE8
+    // Offset: 0x17432A4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1741D20
+    // Offset: 0x17430DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetricIdentifier::$GetTags$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MetricIdentifier::$GetTags$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MetricIdentifier::$GetTags$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1741DB8
+    // Offset: 0x1743174
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1741DBC
+    // Offset: 0x1743178
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1741E88
+    // Offset: 0x1743244
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.ValueTuple`2<System.String,System.String>> System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator()
-    // Offset: 0x1741F4C
+    // Offset: 0x1743308
     ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::StringW, ::StringW>>* System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1742038
+    // Offset: 0x17433F4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MetricIdentifier/<GetTags>d__13
   // WARNING Not writing size check since size may be invalid!

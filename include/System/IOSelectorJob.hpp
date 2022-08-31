@@ -82,20 +82,20 @@ namespace System {
     // Get instance field reference: private System.IOAsyncResult state
     [[deprecated("Use field access instead!")]] ::System::IOAsyncResult*& dyn_state();
     // public System.Void .ctor(System.IOOperation operation, System.IOAsyncCallback callback, System.IOAsyncResult state)
-    // Offset: 0x1CF58B4
+    // Offset: 0x1CEA7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOSelectorJob::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOSelectorJob*, creationType>(operation, callback, state)));
     }
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1CF58F4
+    // Offset: 0x1CEA7EC
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1CF5914
+    // Offset: 0x1CEA80C
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // public System.Void MarkDisposed()
-    // Offset: 0x1CF5918
+    // Offset: 0x1CEA810
     void MarkDisposed();
   }; // System.IOSelectorJob
   #pragma pack(pop)

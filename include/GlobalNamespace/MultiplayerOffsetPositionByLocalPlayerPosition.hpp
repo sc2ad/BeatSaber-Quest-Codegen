@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class MultiplayerOffsetPositionByLocalPlayerPosition : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E3CFC
+    // [InjectAttribute] Offset: 0x10EBD3C
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -81,23 +81,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Void .ctor()
-    // Offset: 0x13B6EDC
+    // Offset: 0x13ABA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOffsetPositionByLocalPlayerPosition*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13B6B60
+    // Offset: 0x13AB6DC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x13B6BB4
+    // Offset: 0x13AB730
     void Update();
     // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0x13B6E40
+    // Offset: 0x13AB9BC
     void SetEnabled(bool isEnabled);
     // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0x13B6BB8
+    // Offset: 0x13AB734
     void UpdatePositionAndRotationIfNeeded();
   }; // MultiplayerOffsetPositionByLocalPlayerPosition
   #pragma pack(pop)

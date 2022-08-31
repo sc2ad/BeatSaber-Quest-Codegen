@@ -128,112 +128,112 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Object> _serializeStack
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn__serializeStack();
     // public System.Void Serialize(Newtonsoft.Json.JsonWriter jsonWriter, System.Object value, System.Type objectType)
-    // Offset: 0x1D71080
+    // Offset: 0x1D6390C
     void Serialize(::Newtonsoft::Json::JsonWriter* jsonWriter, ::Il2CppObject* value, ::System::Type* objectType);
     // private Newtonsoft.Json.Serialization.JsonSerializerProxy GetInternalSerializer()
-    // Offset: 0x1D71D94
+    // Offset: 0x1D64620
     ::Newtonsoft::Json::Serialization::JsonSerializerProxy* GetInternalSerializer();
     // private Newtonsoft.Json.Serialization.JsonContract GetContractSafe(System.Object value)
-    // Offset: 0x1D712C4
+    // Offset: 0x1D63B50
     ::Newtonsoft::Json::Serialization::JsonContract* GetContractSafe(::Il2CppObject* value);
     // private System.Void SerializePrimitive(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonPrimitiveContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D71E04
+    // Offset: 0x1D64690
     void SerializePrimitive(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeValue(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonContract valueContract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D717C0
+    // Offset: 0x1D6404C
     void SerializeValue(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonContract* valueContract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Nullable`1<System.Boolean> ResolveIsReference(Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D74228
+    // Offset: 0x1D66AB4
     ::System::Nullable_1<bool> ResolveIsReference(::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Boolean ShouldWriteReference(System.Object value, Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.Serialization.JsonContract valueContract, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D713B4
+    // Offset: 0x1D63C40
     bool ShouldWriteReference(::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContract* valueContract, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Boolean ShouldWriteProperty(System.Object memberValue, Newtonsoft.Json.Serialization.JsonProperty property)
-    // Offset: 0x1D742E8
+    // Offset: 0x1D66B74
     bool ShouldWriteProperty(::Il2CppObject* memberValue, ::Newtonsoft::Json::Serialization::JsonProperty* property);
     // private System.Boolean CheckForCircularReference(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonProperty property, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D743E0
+    // Offset: 0x1D66C6C
     bool CheckForCircularReference(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void WriteReference(Newtonsoft.Json.JsonWriter writer, System.Object value)
-    // Offset: 0x1D71544
+    // Offset: 0x1D63DD0
     void WriteReference(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value);
     // private System.String GetReference(Newtonsoft.Json.JsonWriter writer, System.Object value)
-    // Offset: 0x1D7491C
+    // Offset: 0x1D671A8
     ::StringW GetReference(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value);
     // static System.Boolean TryConvertToString(System.Object value, System.Type type, out System.String s)
-    // Offset: 0x1D74B1C
+    // Offset: 0x1D673A8
     static bool TryConvertToString(::Il2CppObject* value, ::System::Type* type, ByRef<::StringW> s);
     // private System.Void SerializeString(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonStringContract contract)
-    // Offset: 0x1D7360C
+    // Offset: 0x1D65E98
     void SerializeString(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonStringContract* contract);
     // private System.Void OnSerializing(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Serialization.JsonContract contract, System.Object value)
-    // Offset: 0x1D74CE8
+    // Offset: 0x1D67574
     void OnSerializing(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Il2CppObject* value);
     // private System.Void OnSerialized(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Serialization.JsonContract contract, System.Object value)
-    // Offset: 0x1D74EF8
+    // Offset: 0x1D67784
     void OnSerialized(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Il2CppObject* value);
     // private System.Void SerializeObject(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D7287C
+    // Offset: 0x1D65108
     void SerializeObject(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Boolean CalculatePropertyValues(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonContainerContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonProperty property, out Newtonsoft.Json.Serialization.JsonContract memberContract, out System.Object memberValue)
-    // Offset: 0x1D75234
+    // Offset: 0x1D67AC0
     bool CalculatePropertyValues(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonContainerContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonProperty* property, ByRef<::Newtonsoft::Json::Serialization::JsonContract*> memberContract, ByRef<::Il2CppObject*> memberValue);
     // private System.Void WriteObjectStart(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D75108
+    // Offset: 0x1D67994
     void WriteObjectStart(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void WriteReferenceIdProperty(Newtonsoft.Json.JsonWriter writer, System.Type type, System.Object value)
-    // Offset: 0x1D75E40
+    // Offset: 0x1D686CC
     void WriteReferenceIdProperty(::Newtonsoft::Json::JsonWriter* writer, ::System::Type* type, ::Il2CppObject* value);
     // private System.Void WriteTypeProperty(Newtonsoft.Json.JsonWriter writer, System.Type type)
-    // Offset: 0x1D72130
+    // Offset: 0x1D649BC
     void WriteTypeProperty(::Newtonsoft::Json::JsonWriter* writer, ::System::Type* type);
     // private System.Boolean HasFlag(Newtonsoft.Json.DefaultValueHandling value, Newtonsoft.Json.DefaultValueHandling flag)
-    // Offset: 0x1D743D4
+    // Offset: 0x1D66C60
     bool HasFlag(::Newtonsoft::Json::DefaultValueHandling value, ::Newtonsoft::Json::DefaultValueHandling flag);
     // private System.Boolean HasFlag(Newtonsoft.Json.PreserveReferencesHandling value, Newtonsoft.Json.PreserveReferencesHandling flag)
-    // Offset: 0x1D742DC
+    // Offset: 0x1D66B68
     bool HasFlag(::Newtonsoft::Json::PreserveReferencesHandling value, ::Newtonsoft::Json::PreserveReferencesHandling flag);
     // private System.Boolean HasFlag(Newtonsoft.Json.TypeNameHandling value, Newtonsoft.Json.TypeNameHandling flag)
-    // Offset: 0x1D76084
+    // Offset: 0x1D68910
     bool HasFlag(::Newtonsoft::Json::TypeNameHandling value, ::Newtonsoft::Json::TypeNameHandling flag);
     // private System.Void SerializeConvertable(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.JsonConverter converter, System.Object value, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D723A4
+    // Offset: 0x1D64C30
     void SerializeConvertable(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::JsonConverter* converter, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeList(Newtonsoft.Json.JsonWriter writer, System.Collections.IEnumerable values, Newtonsoft.Json.Serialization.JsonArrayContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D72E68
+    // Offset: 0x1D656F4
     void SerializeList(::Newtonsoft::Json::JsonWriter* writer, ::System::Collections::IEnumerable* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeMultidimensionalArray(Newtonsoft.Json.JsonWriter writer, System.Array values, Newtonsoft.Json.Serialization.JsonArrayContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D734B4
+    // Offset: 0x1D65D40
     void SerializeMultidimensionalArray(::Newtonsoft::Json::JsonWriter* writer, ::System::Array* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeMultidimensionalArray(Newtonsoft.Json.JsonWriter writer, System.Array values, Newtonsoft.Json.Serialization.JsonArrayContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Int32 initialDepth, System.Int32[] indices)
-    // Offset: 0x1D76320
+    // Offset: 0x1D68BAC
     void SerializeMultidimensionalArray(::Newtonsoft::Json::JsonWriter* writer, ::System::Array* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, int initialDepth, ::ArrayW<int> indices);
     // private System.Boolean WriteStartArray(Newtonsoft.Json.JsonWriter writer, System.Object values, Newtonsoft.Json.Serialization.JsonArrayContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D76090
+    // Offset: 0x1D6891C
     bool WriteStartArray(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* values, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeISerializable(Newtonsoft.Json.JsonWriter writer, System.Runtime.Serialization.ISerializable value, Newtonsoft.Json.Serialization.JsonISerializableContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D73E38
+    // Offset: 0x1D666C4
     void SerializeISerializable(::Newtonsoft::Json::JsonWriter* writer, ::System::Runtime::Serialization::ISerializable* value, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Boolean ShouldWriteType(Newtonsoft.Json.TypeNameHandling typeNameHandlingFlag, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D71F80
+    // Offset: 0x1D6480C
     bool ShouldWriteType(::Newtonsoft::Json::TypeNameHandling typeNameHandlingFlag, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.Void SerializeDictionary(Newtonsoft.Json.JsonWriter writer, System.Collections.IDictionary values, Newtonsoft.Json.Serialization.JsonDictionaryContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty)
-    // Offset: 0x1D7369C
+    // Offset: 0x1D65F28
     void SerializeDictionary(::Newtonsoft::Json::JsonWriter* writer, ::System::Collections::IDictionary* values, ::Newtonsoft::Json::Serialization::JsonDictionaryContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* collectionContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty);
     // private System.String GetPropertyName(Newtonsoft.Json.JsonWriter writer, System.Object name, Newtonsoft.Json.Serialization.JsonContract contract, out System.Boolean escape)
-    // Offset: 0x1D75618
+    // Offset: 0x1D67EA4
     ::StringW GetPropertyName(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* name, ::Newtonsoft::Json::Serialization::JsonContract* contract, ByRef<bool> escape);
     // private System.Void HandleError(Newtonsoft.Json.JsonWriter writer, System.Int32 initialDepth)
-    // Offset: 0x1D71D1C
+    // Offset: 0x1D645A8
     void HandleError(::Newtonsoft::Json::JsonWriter* writer, int initialDepth);
     // private System.Boolean ShouldSerialize(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Serialization.JsonProperty property, System.Object target)
-    // Offset: 0x1D75980
+    // Offset: 0x1D6820C
     bool ShouldSerialize(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Il2CppObject* target);
     // private System.Boolean IsSpecified(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Serialization.JsonProperty property, System.Object target)
-    // Offset: 0x1D75BE0
+    // Offset: 0x1D6846C
     bool IsSpecified(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Serialization::JsonProperty* property, ::Il2CppObject* target);
     // public System.Void .ctor(Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1D71004
+    // Offset: 0x1D63890
     // Implemented from: Newtonsoft.Json.Serialization.JsonSerializerInternalBase
     // Base method: System.Void JsonSerializerInternalBase::.ctor(Newtonsoft.Json.JsonSerializer serializer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

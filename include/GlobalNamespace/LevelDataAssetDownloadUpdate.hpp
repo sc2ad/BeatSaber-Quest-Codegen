@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState& dyn_assetDownloadingState();
     // public System.Void .ctor(System.String levelID, System.UInt32 bytesTotal, System.UInt32 bytesTransferred, LevelDataAssetDownloadUpdate/AssetDownloadingState assetDownloadingState)
-    // Offset: 0x13AC260
+    // Offset: 0x13A0EF4
     // ABORTED: conflicts with another method.  LevelDataAssetDownloadUpdate(::StringW levelID, uint bytesTotal, uint bytesTransferred, ::GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState);
   }; // LevelDataAssetDownloadUpdate
   #pragma pack(pop)

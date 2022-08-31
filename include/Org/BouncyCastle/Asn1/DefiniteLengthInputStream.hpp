@@ -58,31 +58,31 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private System.Int32 _remaining
     [[deprecated("Use field access instead!")]] int& dyn__remaining();
     // System.Int32 get_Remaining()
-    // Offset: 0x1C3420C
+    // Offset: 0x1C25D30
     int get_Remaining();
     // System.Void .ctor(System.IO.Stream inStream, System.Int32 length, System.Int32 limit)
-    // Offset: 0x1C26BDC
+    // Offset: 0x1C18700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int length, int limit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefiniteLengthInputStream*, creationType>(inStream, length, limit)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C3462C
+    // Offset: 0x1C26150
     static void _cctor();
     // System.Void ReadAllIntoByteArray(System.Byte[] buf)
-    // Offset: 0x1C28CA0
+    // Offset: 0x1C1A7C4
     void ReadAllIntoByteArray(::ArrayW<uint8_t> buf);
     // System.Byte[] ToArray()
-    // Offset: 0x1C26CC8
+    // Offset: 0x1C187EC
     ::ArrayW<uint8_t> ToArray();
     // public override System.Int32 ReadByte()
-    // Offset: 0x1C34214
+    // Offset: 0x1C25D38
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1C343F8
+    // Offset: 0x1C25F1C
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buf, System.Int32 off, System.Int32 len)
     int Read(::ArrayW<uint8_t> buf, int off, int len);

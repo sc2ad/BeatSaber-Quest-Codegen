@@ -55,32 +55,32 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.TestFilter Empty
     static void _set_Empty(::NUnit::Framework::Internal::TestFilter* value);
     // protected System.Void .ctor()
-    // Offset: 0x2A213D0
+    // Offset: 0x2A494F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestFilter*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A213D8
+    // Offset: 0x2A494FC
     static void _cctor();
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A20D14
+    // Offset: 0x2A48E38
     bool Pass(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A20F34
+    // Offset: 0x2A49058
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool Match(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean MatchParent(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A20D74
+    // Offset: 0x2A48E98
     bool MatchParent(::NUnit::Framework::Interfaces::ITest* test);
     // protected System.Boolean MatchDescendant(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2A20F84
+    // Offset: 0x2A490A8
     bool MatchDescendant(::NUnit::Framework::Interfaces::ITest* test);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x2A21348
+    // Offset: 0x2A4946C
     ::NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0xFFFFFFFFFFFFFFFF

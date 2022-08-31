@@ -56,20 +56,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRController _rightHandVRController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRController*& dyn__rightHandVRController();
     // public VRController get_leftHandVRController()
-    // Offset: 0x1366964
+    // Offset: 0x1402D78
     ::GlobalNamespace::VRController* get_leftHandVRController();
     // public VRController get_rightHandVRController()
-    // Offset: 0x136696C
+    // Offset: 0x1402D80
     ::GlobalNamespace::VRController* get_rightHandVRController();
     // public System.Void .ctor()
-    // Offset: 0x13669B8
+    // Offset: 0x1402DCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerVRControllersManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerVRControllersManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerVRControllersManager*, creationType>()));
     }
     // public System.Void DisableAllVRControllers()
-    // Offset: 0x1366974
+    // Offset: 0x1402D88
     void DisableAllVRControllers();
   }; // PlayerVRControllersManager
   #pragma pack(pop)

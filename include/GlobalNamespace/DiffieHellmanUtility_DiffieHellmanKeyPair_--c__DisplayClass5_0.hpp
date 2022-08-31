@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte[] clientPublicKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_clientPublicKey();
     // public System.Void .ctor()
-    // Offset: 0x167FB70
+    // Offset: 0x1687420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
-    // Offset: 0x167FBF0
+    // Offset: 0x16874A0
     ::ArrayW<uint8_t> $GetPreMasterSecretAsync$b__0();
   }; // DiffieHellmanUtility/DiffieHellmanKeyPair/<>c__DisplayClass5_0
   #pragma pack(pop)

@@ -93,38 +93,38 @@ namespace Oculus::Platform {
     // Get instance field reference: protected Oculus.Platform.IVoipPCMSource pcmSource
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::IVoipPCMSource*& dyn_pcmSource();
     // public System.Void set_senderID(System.UInt64 value)
-    // Offset: 0x2A91E44
+    // Offset: 0x2AAF678
     void set_senderID(uint64_t value);
     // public System.Void .ctor()
-    // Offset: 0x2A925D4
+    // Offset: 0x2AAFE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipAudioSourceHiLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipAudioSourceHiLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A925DC
+    // Offset: 0x2AAFE10
     static void _cctor();
     // protected System.Void Stop()
-    // Offset: 0x2A91F08
+    // Offset: 0x2AAF73C
     void Stop();
     // private Oculus.Platform.VoipSampleRate SampleRateToEnum(System.Int32 rate)
-    // Offset: 0x2A91F0C
+    // Offset: 0x2AAF740
     ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int rate);
     // protected System.Void Awake()
-    // Offset: 0x2A91F48
+    // Offset: 0x2AAF77C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x2A921F0
+    // Offset: 0x2AAFA24
     void Start();
     // protected System.Void CreatePCMSource()
-    // Offset: 0x2A9220C
+    // Offset: 0x2AAFA40
     void CreatePCMSource();
     // static protected System.Int32 MSToElements(System.Int32 ms)
-    // Offset: 0x2A92274
+    // Offset: 0x2AAFAA8
     static int MSToElements(int ms);
     // private System.Void Update()
-    // Offset: 0x2A922FC
+    // Offset: 0x2AAFB30
     void Update();
   }; // Oculus.Platform.VoipAudioSourceHiLevel
   #pragma pack(pop)

@@ -41,17 +41,17 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> <>9__12_0
     static void _set_$$9__12_0(::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DC1E94
+    // Offset: 0x1DB4720
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1DC1EF8
+    // Offset: 0x1DB4784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeNotificationBehaviour::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeNotificationBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour::$$c*, creationType>()));
     }
     // System.Int32 <SortNotifications>b__12_0(UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry x, UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry y)
-    // Offset: 0x1DC1F00
+    // Offset: 0x1DB478C
     int $SortNotifications$b__12_0(::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, ::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
   }; // UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.<>c
   #pragma pack(pop)

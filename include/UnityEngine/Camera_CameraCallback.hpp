@@ -35,20 +35,20 @@ namespace UnityEngine {
   class Camera::CameraCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F95F58
+    // Offset: 0x1FAC518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Camera::CameraCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Camera::CameraCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Camera::CameraCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Camera cam)
-    // Offset: 0x1F95AF0
+    // Offset: 0x1FAC0B0
     void Invoke(::UnityEngine::Camera* cam);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Camera cam, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F95F68
+    // Offset: 0x1FAC528
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Camera* cam, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F95F8C
+    // Offset: 0x1FAC54C
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Camera/UnityEngine.CameraCallback
   #pragma pack(pop)

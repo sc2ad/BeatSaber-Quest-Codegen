@@ -43,7 +43,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean InvitesSent
     [[deprecated("Use field access instead!")]] bool& dyn_InvitesSent();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19EAC40
+    // Offset: 0x19F0A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvitePanelResultInfo* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::InvitePanelResultInfo::.ctor");

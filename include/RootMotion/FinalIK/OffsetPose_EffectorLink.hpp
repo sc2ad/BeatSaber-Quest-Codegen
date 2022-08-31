@@ -74,14 +74,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 pinWeight
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pinWeight();
     // public System.Void .ctor()
-    // Offset: 0x1FA8618
+    // Offset: 0x1FBEBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetPose::EffectorLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetPose::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose::EffectorLink*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1FA81C8
+    // Offset: 0x1FBE788
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, ::UnityEngine::Quaternion rotation);
   }; // RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink
   #pragma pack(pop)

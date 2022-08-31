@@ -48,14 +48,14 @@ namespace ModestTree {
     // Get instance field reference: public System.Attribute a
     [[deprecated("Use field access instead!")]] ::System::Attribute*& dyn_a();
     // public System.Void .ctor()
-    // Offset: 0x176C46C
+    // Offset: 0x176C828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeExtensions::$$c__DisplayClass39_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeExtensions::$$c__DisplayClass39_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeExtensions::$$c__DisplayClass39_1*, creationType>()));
     }
     // System.Boolean <AllAttributes>b__1(System.Type x)
-    // Offset: 0x176C474
+    // Offset: 0x176C830
     bool $AllAttributes$b__1(::System::Type* x);
   }; // ModestTree.TypeExtensions/ModestTree.<>c__DisplayClass39_1
   #pragma pack(pop)

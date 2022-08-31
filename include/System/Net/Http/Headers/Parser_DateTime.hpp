@@ -40,10 +40,10 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static void _set_ToString(::System::Func_2<::Il2CppObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x199BF7C
+    // Offset: 0x19A0D80
     static void _cctor();
     // static public System.Boolean TryParse(System.String input, out System.DateTimeOffset result)
-    // Offset: 0x199BF08
+    // Offset: 0x19A0D0C
     static bool TryParse(::StringW input, ByRef<::System::DateTimeOffset> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime
   #pragma pack(pop)

@@ -76,29 +76,29 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JToken> <>7__wrap1
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& dyn_$$7__wrap1();
     // private System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current()
-    // Offset: 0x1755ACC
+    // Offset: 0x1755E88
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> System_Collections_Generic_IEnumerator$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1755B38
+    // Offset: 0x1755EF4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x17554D0
+    // Offset: 0x175588C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JObject::$GetEnumerator$d__58* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::$GetEnumerator$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JObject::$GetEnumerator$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1755754
+    // Offset: 0x1755B10
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1755830
+    // Offset: 0x1755BEC
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1755770
+    // Offset: 0x1755B2C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1755AD8
+    // Offset: 0x1755E94
     void System_Collections_IEnumerator_Reset();
   }; // Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.<GetEnumerator>d__58
   // WARNING Not writing size check since size may be invalid!

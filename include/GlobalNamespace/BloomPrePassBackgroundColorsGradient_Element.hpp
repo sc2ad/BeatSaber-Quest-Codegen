@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single exp
     [[deprecated("Use field access instead!")]] float& dyn_exp();
     // public System.Void .ctor()
-    // Offset: 0x1E79A9C
+    // Offset: 0x1E6A194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradient::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element::.ctor");

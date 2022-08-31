@@ -1404,95 +1404,95 @@ namespace OVR::OpenVR {
     // Set static field: static private OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(::OVR::OpenVR::OpenVR::COpenVRContext* value);
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x16594A4
+    // Offset: 0x16498CC
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x165950C
+    // Offset: 0x1649934
     static void set_VRToken(uint value);
     // static private OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x1659578
+    // Offset: 0x16499A0
     static ::OVR::OpenVR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public OVR.OpenVR.CVRSystem get_System()
-    // Offset: 0x1659684
+    // Offset: 0x1649AAC
     static ::OVR::OpenVR::CVRSystem* get_System();
     // static public OVR.OpenVR.CVRChaperone get_Chaperone()
-    // Offset: 0x16597AC
+    // Offset: 0x1649BD4
     static ::OVR::OpenVR::CVRChaperone* get_Chaperone();
     // static public OVR.OpenVR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x16598D4
+    // Offset: 0x1649CFC
     static ::OVR::OpenVR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public OVR.OpenVR.CVRCompositor get_Compositor()
-    // Offset: 0x16599FC
+    // Offset: 0x1649E24
     static ::OVR::OpenVR::CVRCompositor* get_Compositor();
     // static public OVR.OpenVR.CVROverlay get_Overlay()
-    // Offset: 0x1659B24
+    // Offset: 0x1649F4C
     static ::OVR::OpenVR::CVROverlay* get_Overlay();
     // static public OVR.OpenVR.CVRRenderModels get_RenderModels()
-    // Offset: 0x1659C4C
+    // Offset: 0x164A074
     static ::OVR::OpenVR::CVRRenderModels* get_RenderModels();
     // static public OVR.OpenVR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x1659D74
+    // Offset: 0x164A19C
     static ::OVR::OpenVR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public OVR.OpenVR.CVRSettings get_Settings()
-    // Offset: 0x1659E9C
+    // Offset: 0x164A2C4
     static ::OVR::OpenVR::CVRSettings* get_Settings();
     // static public OVR.OpenVR.CVRApplications get_Applications()
-    // Offset: 0x1659FC4
+    // Offset: 0x164A3EC
     static ::OVR::OpenVR::CVRApplications* get_Applications();
     // static public OVR.OpenVR.CVRScreenshots get_Screenshots()
-    // Offset: 0x165A0EC
+    // Offset: 0x164A514
     static ::OVR::OpenVR::CVRScreenshots* get_Screenshots();
     // static public OVR.OpenVR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x165A214
+    // Offset: 0x164A63C
     static ::OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
     // static public OVR.OpenVR.CVRInput get_Input()
-    // Offset: 0x165A33C
+    // Offset: 0x164A764
     static ::OVR::OpenVR::CVRInput* get_Input();
     // static public OVR.OpenVR.CVRSpatialAnchors get_SpatialAnchors()
-    // Offset: 0x165A464
+    // Offset: 0x164A88C
     static ::OVR::OpenVR::CVRSpatialAnchors* get_SpatialAnchors();
     // public System.Void .ctor()
-    // Offset: 0x165A870
+    // Offset: 0x164AC98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::OpenVR::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x165A878
+    // Offset: 0x164ACA0
     static void _cctor();
     // static public System.UInt32 InitInternal(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0x1658F28
+    // Offset: 0x1649350
     static uint InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
     // static public System.UInt32 InitInternal2(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x1658FBC
+    // Offset: 0x16493E4
     static uint InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo);
     // static public System.Void ShutdownInternal()
-    // Offset: 0x1659074
+    // Offset: 0x164949C
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x16590E8
+    // Offset: 0x1649510
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1659168
+    // Offset: 0x1649590
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0x16591E8
+    // Offset: 0x1649610
     static ::StringW GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref OVR.OpenVR.EVRInitError peError)
-    // Offset: 0x16592E0
+    // Offset: 0x1649708
     static ::System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x165938C
+    // Offset: 0x16497B4
     static bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0x165942C
+    // Offset: 0x1649854
     static uint GetInitToken();
     // static public OVR.OpenVR.CVRSystem Init(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, System.String pchStartupInfo)
-    // Offset: 0x165A58C
+    // Offset: 0x164A9B4
     static ::OVR::OpenVR::CVRSystem* Init(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo);
     // static public System.Void Shutdown()
-    // Offset: 0x165A814
+    // Offset: 0x164AC3C
     static void Shutdown();
   }; // OVR.OpenVR.OpenVR
   #pragma pack(pop)

@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _startLightId
     [[deprecated("Use field access instead!")]] int& dyn__startLightId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x1E7FF78
+    // Offset: 0x1E70670
     int get_numberOfElements();
     // public System.Int32 get_startLightId()
-    // Offset: 0x1E7FF80
+    // Offset: 0x1E70678
     int get_startLightId();
     // public System.Void .ctor()
-    // Offset: 0x1E7FF68
+    // Offset: 0x1E70660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightIdsRange* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightIdsRange::.ctor");

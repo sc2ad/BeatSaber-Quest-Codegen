@@ -132,47 +132,47 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Get instance field reference: private SliderMidAnchorMode _sliderMidAnchorMode
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderMidAnchorMode& dyn__sliderMidAnchorMode();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType get_colorType()
-    // Offset: 0x283B25C
+    // Offset: 0x2846F0C
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType get_colorType();
     // public System.Int32 get_headLineIndex()
-    // Offset: 0x283B264
+    // Offset: 0x2846F14
     int get_headLineIndex();
     // public NoteLineLayer get_headLineLayer()
-    // Offset: 0x283B26C
+    // Offset: 0x2846F1C
     ::GlobalNamespace::NoteLineLayer get_headLineLayer();
     // public System.Single get_headControlPointLengthMultiplier()
-    // Offset: 0x283B274
+    // Offset: 0x2846F24
     float get_headControlPointLengthMultiplier();
     // public NoteCutDirection get_headCutDirection()
-    // Offset: 0x283B27C
+    // Offset: 0x2846F2C
     ::GlobalNamespace::NoteCutDirection get_headCutDirection();
     // public System.Single get_tailTime()
-    // Offset: 0x283B284
+    // Offset: 0x2846F34
     float get_tailTime();
     // public System.Int32 get_tailLineIndex()
-    // Offset: 0x283B28C
+    // Offset: 0x2846F3C
     int get_tailLineIndex();
     // public NoteLineLayer get_tailLineLayer()
-    // Offset: 0x283B294
+    // Offset: 0x2846F44
     ::GlobalNamespace::NoteLineLayer get_tailLineLayer();
     // public System.Single get_tailControlPointLengthMultiplier()
-    // Offset: 0x283B29C
+    // Offset: 0x2846F4C
     float get_tailControlPointLengthMultiplier();
     // public NoteCutDirection get_tailCutDirection()
-    // Offset: 0x283B2A4
+    // Offset: 0x2846F54
     ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
     // public SliderMidAnchorMode get_sliderMidAnchorMode()
-    // Offset: 0x283B2AC
+    // Offset: 0x2846F5C
     ::GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode();
     // public System.Void .ctor(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ColorType colorType, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, SliderMidAnchorMode sliderMidAnchorMode)
-    // Offset: 0x283B2B4
+    // Offset: 0x2846F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SliderData* New_ctor(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ColorType colorType, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::SliderData*, creationType>(colorType, headTime, headLineIndex, headLineLayer, headControlPointLengthMultiplier, headCutDirection, tailTime, tailLineIndex, tailLineLayer, tailControlPointLengthMultiplier, tailCutDirection, sliderMidAnchorMode)));
     }
     // public override System.Single get_time()
-    // Offset: 0x283B254
+    // Offset: 0x2846F04
     // Implemented from: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
     // Base method: System.Single BeatmapSaveDataItem::get_time()
     float get_time();

@@ -117,13 +117,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public ColorNoAlphaSerializable environmentColor1Boost
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorNoAlphaSerializable& dyn_environmentColor1Boost();
     // public System.Void .ctor(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x155BED8
+    // Offset: 0x1590F00
     ColorSchemeNetSerializable(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x155C064
+    // Offset: 0x159108C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x155C0E8
+    // Offset: 0x1591110
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // ColorSchemeNetSerializable
   #pragma pack(pop)

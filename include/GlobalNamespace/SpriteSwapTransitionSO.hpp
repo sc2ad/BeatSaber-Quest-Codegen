@@ -86,25 +86,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _selectedAndHighlightedSprite
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__selectedAndHighlightedSprite();
     // public UnityEngine.Sprite get_normalSprite()
-    // Offset: 0x143E980
+    // Offset: 0x145D1BC
     ::UnityEngine::Sprite* get_normalSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0x143E988
+    // Offset: 0x145D1C4
     ::UnityEngine::Sprite* get_highlightedSprite();
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0x143E990
+    // Offset: 0x145D1CC
     ::UnityEngine::Sprite* get_pressedSprite();
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0x143E998
+    // Offset: 0x145D1D4
     ::UnityEngine::Sprite* get_disabledSprite();
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0x143E9A0
+    // Offset: 0x145D1DC
     ::UnityEngine::Sprite* get_selectedSprite();
     // public UnityEngine.Sprite get_selectedAndHighlightedSprite()
-    // Offset: 0x143E9A8
+    // Offset: 0x145D1E4
     ::UnityEngine::Sprite* get_selectedAndHighlightedSprite();
     // public System.Void .ctor()
-    // Offset: 0x143E9B0
+    // Offset: 0x145D1EC
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

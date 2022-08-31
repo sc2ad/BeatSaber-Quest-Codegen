@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String enumName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_enumName();
     // public System.Void .ctor()
-    // Offset: 0x15ACA4C
+    // Offset: 0x15C2EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumFlagAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnumFlagAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>()));
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0x15ACA54
+    // Offset: 0x15C2EB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumFlagAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnumFlagAttribute::.ctor");

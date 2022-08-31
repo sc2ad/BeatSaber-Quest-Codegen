@@ -46,25 +46,25 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly System.Type NonmatchingType
     static void _set_NonmatchingType(::System::Type* value);
     // static private System.Void .cctor()
-    // Offset: 0x2A28A1C
+    // Offset: 0x2A50B40
     static void _cctor();
     // static public System.String GetDisplayName(System.Type type)
-    // Offset: 0x2A2734C
+    // Offset: 0x2A4F470
     static ::StringW GetDisplayName(::System::Type* type);
     // static public System.String GetDisplayName(System.Type type, System.Object[] arglist)
-    // Offset: 0x2A27704
+    // Offset: 0x2A4F828
     static ::StringW GetDisplayName(::System::Type* type, ::ArrayW<::Il2CppObject*> arglist);
     // static public System.Type BestCommonType(System.Type type1, System.Type type2)
-    // Offset: 0x2A27A24
+    // Offset: 0x2A4FB48
     static ::System::Type* BestCommonType(::System::Type* type1, ::System::Type* type2);
     // static public System.Boolean IsNumeric(System.Type type)
-    // Offset: 0x2A28054
+    // Offset: 0x2A50178
     static bool IsNumeric(::System::Type* type);
     // static public System.Void ConvertArgumentList(System.Object[] arglist, NUnit.Framework.Interfaces.IParameterInfo[] parameters)
-    // Offset: 0x2A28314
+    // Offset: 0x2A50438
     static void ConvertArgumentList(::ArrayW<::Il2CppObject*> arglist, ::ArrayW<::NUnit::Framework::Interfaces::IParameterInfo*> parameters);
     // static public System.Boolean CanDeduceTypeArgsFromArgs(System.Type type, System.Object[] arglist, ref System.Type[] typeArgsOut)
-    // Offset: 0x2A28738
+    // Offset: 0x2A5085C
     static bool CanDeduceTypeArgsFromArgs(::System::Type* type, ::ArrayW<::Il2CppObject*> arglist, ByRef<::ArrayW<::System::Type*>> typeArgsOut);
   }; // NUnit.Framework.Internal.TypeHelper
   #pragma pack(pop)

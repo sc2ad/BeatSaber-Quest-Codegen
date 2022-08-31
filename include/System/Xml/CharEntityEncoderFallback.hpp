@@ -88,28 +88,28 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 startOffset
     [[deprecated("Use field access instead!")]] int& dyn_startOffset();
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x1AC01E8
+    // Offset: 0x1AC5B70
     void set_StartOffset(int value);
     // System.Void .ctor()
-    // Offset: 0x1AC00F0
+    // Offset: 0x1AC5A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEntityEncoderFallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::CharEntityEncoderFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallback*, creationType>()));
     }
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x1AC01F0
+    // Offset: 0x1AC5B78
     void Reset(::ArrayW<int> textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x1AC01FC
+    // Offset: 0x1AC5B84
     bool CanReplaceAt(int index);
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1AC01E0
+    // Offset: 0x1AC5B68
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1AC00F8
+    // Offset: 0x1AC5A80
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();

@@ -72,25 +72,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: protected System.Int32 m_width
     [[deprecated("Use field access instead!")]] int& dyn_m_width();
     // public Org.BouncyCastle.Math.EC.ECLookupTable get_LookupTable()
-    // Offset: 0x22E3530
+    // Offset: 0x23177E8
     ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
     // public System.Void set_LookupTable(Org.BouncyCastle.Math.EC.ECLookupTable value)
-    // Offset: 0x22E3538
+    // Offset: 0x23177F0
     void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Offset()
-    // Offset: 0x22E3540
+    // Offset: 0x23177F8
     ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
     // public System.Void set_Offset(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x22E3548
+    // Offset: 0x2317800
     void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x22E3550
+    // Offset: 0x2317808
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x22E3558
+    // Offset: 0x2317810
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x22E3560
+    // Offset: 0x2317818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::.ctor");

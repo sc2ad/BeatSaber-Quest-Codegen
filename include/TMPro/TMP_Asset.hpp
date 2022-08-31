@@ -66,7 +66,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 materialHashCode
     [[deprecated("Use field access instead!")]] int& dyn_materialHashCode();
     // public System.Void .ctor()
-    // Offset: 0x1423F60
+    // Offset: 0x144023C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Asset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Asset::.ctor");

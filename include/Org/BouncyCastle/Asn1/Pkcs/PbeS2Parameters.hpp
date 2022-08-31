@@ -63,23 +63,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& dyn_scheme();
     // public Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc get_KeyDerivationFunc()
-    // Offset: 0x1CCE604
+    // Offset: 0x1CC34FC
     ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
     // public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme get_EncryptionScheme()
-    // Offset: 0x1CCE60C
+    // Offset: 0x1CC3504
     ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1CCE210
+    // Offset: 0x1CC3108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeS2Parameters*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeS2Parameters GetInstance(System.Object obj)
-    // Offset: 0x1CCE16C
+    // Offset: 0x1CC3064
     static ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1CCE614
+    // Offset: 0x1CC350C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

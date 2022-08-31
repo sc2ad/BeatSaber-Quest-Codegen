@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // public System.Void .ctor(MissionObjective[] missionObjectives)
-    // Offset: 0x13091B0
+    // Offset: 0x130EE54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveCheckersManager::InitData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");

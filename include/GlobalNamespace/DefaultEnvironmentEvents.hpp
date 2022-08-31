@@ -55,16 +55,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents/LightGroupEvent[] _lightGroupEvents
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*>& dyn__lightGroupEvents();
     // public DefaultEnvironmentEvents/BasicBeatmapEvent[] get_basicBeatmapEvents()
-    // Offset: 0x14920E4
+    // Offset: 0x1498B00
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent*> get_basicBeatmapEvents();
     // public DefaultEnvironmentEvents/LightGroupEvent[] get_lightGroupEvents()
-    // Offset: 0x14920EC
+    // Offset: 0x1498B08
     ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*> get_lightGroupEvents();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x14920F4
+    // Offset: 0x1498B10
     bool get_isEmpty();
     // public System.Void .ctor()
-    // Offset: 0x149212C
+    // Offset: 0x1498B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::.ctor");

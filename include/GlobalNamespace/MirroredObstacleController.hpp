@@ -79,31 +79,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _followedTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1306CEC
+    // Offset: 0x130C990
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x130746C
+    // Offset: 0x130D110
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1307494
+    // Offset: 0x130D138
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x130756C
+    // Offset: 0x130D210
     void Update();
     // private System.Void RemoveListeners()
-    // Offset: 0x1307498
+    // Offset: 0x130D13C
     void RemoveListeners();
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0x1307570
+    // Offset: 0x130D214
     void UpdatePositionAndRotation();
     // public System.Void Mirror(ObstacleController obstacleController)
-    // Offset: 0x1306150
+    // Offset: 0x130BDF4
     void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidStartDissolving(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x1307698
+    // Offset: 0x130D33C
     void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x13076A4
+    // Offset: 0x130D348
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

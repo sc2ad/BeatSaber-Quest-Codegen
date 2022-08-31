@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: _ID and: lightManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x10C7524
+    // [InjectAttribute] Offset: 0x10CE544
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x20
@@ -83,41 +83,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isRegistered
     [[deprecated("Use field access instead!")]] bool& dyn__isRegistered();
     // public System.Int32 get_lightId()
-    // Offset: 0x1E817A4
+    // Offset: 0x1E71E9C
     int get_lightId();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1E817AC
+    // Offset: 0x1E71EA4
     bool get_isRegistered();
     // protected System.Void .ctor()
-    // Offset: 0x1E79C98
+    // Offset: 0x1E6A390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdMonoBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdMonoBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdMonoBehaviour*, creationType>()));
     }
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1E817B4
+    // Offset: 0x1E71EAC
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1E817C0
+    // Offset: 0x1E71EB8
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // protected System.Void OnEnable()
-    // Offset: 0x1E817C8
+    // Offset: 0x1E71EC0
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1E81860
+    // Offset: 0x1E71F58
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1E81864
+    // Offset: 0x1E71F5C
     void OnDisable();
     // private System.Void RegisterLight()
-    // Offset: 0x1E817CC
+    // Offset: 0x1E71EC4
     void RegisterLight();
     // public System.Void SetLightId(System.Int32 newLightId)
-    // Offset: 0x1E818F8
+    // Offset: 0x1E71FF0
     void SetLightId(int newLightId);
   }; // LightWithIdMonoBehaviour
   #pragma pack(pop)

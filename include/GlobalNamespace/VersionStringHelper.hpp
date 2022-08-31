@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class VersionStringHelper : public ::Il2CppObject {
     public:
     // static public System.Int32 GetMajorVersionNumber(System.String versionString)
-    // Offset: 0x2A3FEDC
+    // Offset: 0x2A69000
     static int GetMajorVersionNumber(::StringW versionString);
   }; // VersionStringHelper
   #pragma pack(pop)

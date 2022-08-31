@@ -69,52 +69,52 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Type type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // protected System.Collections.IComparer get_Comparer()
-    // Offset: 0x1D9C6C0
+    // Offset: 0x1D8EF4C
     ::System::Collections::IComparer* get_Comparer();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1D9C464
+    // Offset: 0x1D8ECF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::EnumConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumConverter*, creationType>(type)));
     }
     // public override System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
-    // Offset: 0x1D9C4E0
+    // Offset: 0x1D8ED6C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public override System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
-    // Offset: 0x1D9C5D0
+    // Offset: 0x1D8EE5C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
     bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
     // public override System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
-    // Offset: 0x1D9C728
+    // Offset: 0x1D8EFB4
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1D9CC6C
+    // Offset: 0x1D8F4F8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public override System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1D9D9E4
+    // Offset: 0x1D90270
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection TypeConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
     ::System::ComponentModel::TypeConverter::StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
     // public override System.Boolean GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1D9DDA8
+    // Offset: 0x1D90634
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
     bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
     // public override System.Boolean GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1D9DE50
+    // Offset: 0x1D906DC
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
     bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
     // public override System.Boolean IsValid(System.ComponentModel.ITypeDescriptorContext context, System.Object value)
-    // Offset: 0x1D9DE58
+    // Offset: 0x1D906E4
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::IsValid(System.ComponentModel.ITypeDescriptorContext context, System.Object value)
     bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value);

@@ -95,19 +95,19 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Collections.Hashtable _customProperties
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__customProperties();
     // System.Collections.ArrayList get_ServerProviders()
-    // Offset: 0x1D8CA08
+    // Offset: 0x1D7F294
     ::System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
-    // Offset: 0x1D8CA74
+    // Offset: 0x1D7F300
     ::System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
-    // Offset: 0x1D8CAE0
+    // Offset: 0x1D7F36C
     ::System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
-    // Offset: 0x1D8CB4C
+    // Offset: 0x1D7F3D8
     void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
-    // Offset: 0x1D8D3A0
+    // Offset: 0x1D7FC2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

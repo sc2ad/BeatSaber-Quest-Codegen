@@ -52,89 +52,89 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Texture2D cachedTexture
     static void _set_cachedTexture(::UnityEngine::Texture2D* value);
     // public System.Void .ctor()
-    // Offset: 0x1B1945C
+    // Offset: 0x1B1FDE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::Media* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::Media::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlugin::Media*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B19464
+    // Offset: 0x1B1FDEC
     static void _cctor();
     // static public System.Boolean Initialize()
-    // Offset: 0x1B162F4
+    // Offset: 0x1B1CC7C
     static bool Initialize();
     // static public System.Boolean Shutdown()
-    // Offset: 0x1B16468
+    // Offset: 0x1B1CDF0
     static bool Shutdown();
     // static public System.Boolean GetInitialized()
-    // Offset: 0x1B165DC
+    // Offset: 0x1B1CF64
     static bool GetInitialized();
     // static public System.Boolean Update()
-    // Offset: 0x1B16770
+    // Offset: 0x1B1D0F8
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
-    // Offset: 0x1B168E4
+    // Offset: 0x1B1D26C
     static ::GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
-    // Offset: 0x1B16A70
+    // Offset: 0x1B1D3F8
     static bool SetMrcActivationMode(::GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
     // static public System.Boolean SetPlatformInitialized()
-    // Offset: 0x1B16BF8
+    // Offset: 0x1B1D580
     static bool SetPlatformInitialized();
     // static public OVRPlugin/Media/PlatformCameraMode GetPlatformCameraMode()
-    // Offset: 0x1B16D6C
+    // Offset: 0x1B1D6F4
     static ::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
     // static public System.Boolean SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode mode)
-    // Offset: 0x1B16EF8
+    // Offset: 0x1B1D880
     static bool SetPlatformCameraMode(::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
     // static public System.Boolean IsMrcEnabled()
-    // Offset: 0x1B17080
+    // Offset: 0x1B1DA08
     static bool IsMrcEnabled();
     // static public System.Boolean IsMrcActivated()
-    // Offset: 0x1B17210
+    // Offset: 0x1B1DB98
     static bool IsMrcActivated();
     // static public System.Boolean UseMrcDebugCamera()
-    // Offset: 0x1B173A0
+    // Offset: 0x1B1DD28
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
-    // Offset: 0x1B17530
+    // Offset: 0x1B1DEB8
     static bool SetMrcInputVideoBufferType(::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
-    // Offset: 0x1B176B8
+    // Offset: 0x1B1E040
     static ::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
-    // Offset: 0x1B17840
+    // Offset: 0x1B1E1C8
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public System.Void GetMrcFrameSize(out System.Int32 frameWidth, out System.Int32 frameHeight)
-    // Offset: 0x1B179E8
+    // Offset: 0x1B1E370
     static void GetMrcFrameSize(ByRef<int> frameWidth, ByRef<int> frameHeight);
     // static public System.Boolean SetMrcAudioSampleRate(System.Int32 sampleRate)
-    // Offset: 0x1B17B9C
+    // Offset: 0x1B1E524
     static bool SetMrcAudioSampleRate(int sampleRate);
     // static public System.Int32 GetMrcAudioSampleRate()
-    // Offset: 0x1B17D24
+    // Offset: 0x1B1E6AC
     static int GetMrcAudioSampleRate();
     // static public System.Boolean SetMrcFrameImageFlipped(System.Boolean imageFlipped)
-    // Offset: 0x1B17EA8
+    // Offset: 0x1B1E830
     static bool SetMrcFrameImageFlipped(bool imageFlipped);
     // static public System.Boolean GetMrcFrameImageFlipped()
-    // Offset: 0x1B18034
+    // Offset: 0x1B1E9BC
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1B181C0
+    // Offset: 0x1B1EB48
     static bool EncodeMrcFrame(::System::IntPtr textureHandle, ::System::IntPtr fgTextureHandle, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1B18914
+    // Offset: 0x1B1F29C
     static bool EncodeMrcFrame(::UnityEngine::RenderTexture* frame, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
-    // Offset: 0x1B18EF0
+    // Offset: 0x1B1F878
     static bool SyncMrcFrame(int syncId);
     // static public System.Boolean SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
-    // Offset: 0x1B19078
+    // Offset: 0x1B1FA00
     static bool SetAvailableQueueIndexVulkan(uint queueIndexVk);
     // static public System.Boolean SetMrcHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x1B19200
+    // Offset: 0x1B1FB88
     static bool SetMrcHeadsetControllerPose(::GlobalNamespace::OVRPlugin::Posef headsetPose, ::GlobalNamespace::OVRPlugin::Posef leftControllerPose, ::GlobalNamespace::OVRPlugin::Posef rightControllerPose);
   }; // OVRPlugin/Media
   #pragma pack(pop)

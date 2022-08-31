@@ -33,10 +33,10 @@ namespace Mono::Unity {
   class Debug : public ::Il2CppObject {
     public:
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x1AE3B04
+    // Offset: 0x1AE848C
     static void CheckAndThrow(::Mono::Unity::UnityTls::unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result verifyResult, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
-    // Offset: 0x1AE3BDC
+    // Offset: 0x1AE8564
     static void CheckAndThrow(::Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
   #pragma pack(pop)

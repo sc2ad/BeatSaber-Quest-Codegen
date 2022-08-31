@@ -51,14 +51,14 @@ namespace NUnit::Framework::Internal {
   class MethodWrapper : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::IMethodInfo*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x10D3634
+    // [DebuggerBrowsableAttribute] Offset: 0x10DB654
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::NUnit::Framework::Interfaces::ITypeInfo* TypeInfo;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::ITypeInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10D3670
+    // [DebuggerBrowsableAttribute] Offset: 0x10DB690
     // private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,47 +79,47 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_$MethodInfo$k__BackingField();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x2A1C668
+    // Offset: 0x2A4478C
     ::NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x2A1C670
+    // Offset: 0x2A44794
     void set_TypeInfo(::NUnit::Framework::Interfaces::ITypeInfo* value);
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0x2A1C678
+    // Offset: 0x2A4479C
     ::System::Reflection::MethodInfo* get_MethodInfo();
     // private System.Void set_MethodInfo(System.Reflection.MethodInfo value)
-    // Offset: 0x2A1C680
+    // Offset: 0x2A447A4
     void set_MethodInfo(::System::Reflection::MethodInfo* value);
     // public System.String get_Name()
-    // Offset: 0x2A1C688
+    // Offset: 0x2A447AC
     ::StringW get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x2A1C6A8
+    // Offset: 0x2A447CC
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x2A1C6C4
+    // Offset: 0x2A447E8
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x2A1C6E0
+    // Offset: 0x2A44804
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x2A1C704
+    // Offset: 0x2A44828
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0x2A1C728
+    // Offset: 0x2A4484C
     ::NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public System.Void .ctor(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x2A1C578
+    // Offset: 0x2A4469C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodWrapper* New_ctor(::System::Type* type, ::System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::MethodWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodWrapper*, creationType>(type, method)));
     }
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0x2A1C7AC
+    // Offset: 0x2A448D0
     ::ArrayW<::NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    // Offset: 0x2A1C920
+    // Offset: 0x2A44A44
     ::NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayW<::System::Type*> typeArguments);
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -140,10 +140,10 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, inherit);
     }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
-    // Offset: 0x2A1CA30
+    // Offset: 0x2A44B54
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
     // public override System.String ToString()
-    // Offset: 0x2A1CD84
+    // Offset: 0x2A44EA8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

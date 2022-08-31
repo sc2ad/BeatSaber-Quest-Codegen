@@ -70,26 +70,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.RectTransform rectTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_rectTransform();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1ED07FC
+    // Offset: 0x1EC84A0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1ED0864
+    // Offset: 0x1EC8508
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1ED0734
+    // Offset: 0x1EC83D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutGroup::$DelayedSetDirty$d__56* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutGroup::$DelayedSetDirty$d__56*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1ED0760
+    // Offset: 0x1EC8404
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1ED0764
+    // Offset: 0x1EC8408
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1ED0804
+    // Offset: 0x1EC84A8
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.LayoutGroup/UnityEngine.UI.<DelayedSetDirty>d__56
   #pragma pack(pop)

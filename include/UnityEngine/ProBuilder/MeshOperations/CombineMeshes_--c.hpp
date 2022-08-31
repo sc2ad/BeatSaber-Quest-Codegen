@@ -46,17 +46,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A283FC
+    // Offset: 0x1A2E200
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A28460
+    // Offset: 0x1A2E264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CombineMeshes::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CombineMeshes::$$c*, creationType>()));
     }
     // System.Int32 <SplitByMaxVertexCount>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A28468
+    // Offset: 0x1A2E26C
     int $SplitByMaxVertexCount$b__5_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.CombineMeshes/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

@@ -23,7 +23,7 @@ namespace System {
   class __Il2CppComObject : public ::Il2CppObject {
     public:
     // protected override System.Void Finalize()
-    // Offset: 0x29F1A8C
+    // Offset: 0x29F80F4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

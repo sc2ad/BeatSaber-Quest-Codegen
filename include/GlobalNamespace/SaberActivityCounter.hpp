@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0x10E4DCC
+    // [InjectAttribute] Offset: 0x10ECE0C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
@@ -219,44 +219,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private MovementHistoryRecorder _handMovementHistoryRecorder
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MovementHistoryRecorder*& dyn__handMovementHistoryRecorder();
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x1456394
+    // Offset: 0x14AAB10
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x145639C
+    // Offset: 0x14AAB18
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x14563A4
+    // Offset: 0x14AAB20
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x14563AC
+    // Offset: 0x14AAB28
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x14563B4
+    // Offset: 0x14AAB30
     ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x14563D0
+    // Offset: 0x14AAB4C
     ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x145624C
+    // Offset: 0x14AA9C8
     void add_totalDistanceDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x14562F0
+    // Offset: 0x14AAA6C
     void remove_totalDistanceDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x1456884
+    // Offset: 0x14AB000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberActivityCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberActivityCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberActivityCounter*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14563EC
+    // Offset: 0x14AAB68
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x14564AC
+    // Offset: 0x14AAC28
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14564D4
+    // Offset: 0x14AAC50
     void Update();
   }; // SaberActivityCounter
   #pragma pack(pop)

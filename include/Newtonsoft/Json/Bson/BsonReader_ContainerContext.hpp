@@ -54,7 +54,7 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: public System.Int32 Position
     [[deprecated("Use field access instead!")]] int& dyn_Position();
     // public System.Void .ctor(Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x17B92DC
+    // Offset: 0x17CAFF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonReader::ContainerContext* New_ctor(::Newtonsoft::Json::Bson::BsonType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonReader::ContainerContext::.ctor");

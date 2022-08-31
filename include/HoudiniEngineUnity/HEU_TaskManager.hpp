@@ -53,41 +53,41 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingRemove
     static void _set__pendingRemove(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B0F894
+    // Offset: 0x1B1521C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B0FF78
+    // Offset: 0x1B15900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TaskManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TaskManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TaskManager*, creationType>()));
     }
     // static private System.Void Update()
-    // Offset: 0x1B0F950
+    // Offset: 0x1B152D8
     static void Update();
     // static public HoudiniEngineUnity.HEU_Task GetTask(System.Guid taskGuid)
-    // Offset: 0x1B0F954
+    // Offset: 0x1B152DC
     static ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
     // static public System.Void AddTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1B0FADC
+    // Offset: 0x1B15464
     static void AddTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void KillTask(HoudiniEngineUnity.HEU_Task task, System.Boolean bRemove)
-    // Offset: 0x1B0FBFC
+    // Offset: 0x1B15584
     static void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
     // static public System.Void KillTask(System.Guid taskGuid, System.Boolean bRemove)
-    // Offset: 0x1B0FE04
+    // Offset: 0x1B1578C
     static void KillTask(::System::Guid taskGuid, bool bRemove);
     // static public System.Void RemoveTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1B0FCF0
+    // Offset: 0x1B15678
     static void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void ExecuteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1B0FEB8
+    // Offset: 0x1B15840
     static void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task task, HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
-    // Offset: 0x1B0FEEC
+    // Offset: 0x1B15874
     static void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task::TaskResult result);
     // static private System.Void InternalCompleteTask(HoudiniEngineUnity.HEU_Task task)
-    // Offset: 0x1B0FF14
+    // Offset: 0x1B1589C
     static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
   }; // HoudiniEngineUnity.HEU_TaskManager
   #pragma pack(pop)

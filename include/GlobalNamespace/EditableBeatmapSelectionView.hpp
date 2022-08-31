@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   class EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10ECBDC
+    // [SpaceAttribute] Offset: 0x10F4CA8
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x28
@@ -89,31 +89,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x1499EF0
+    // Offset: 0x14A090C
     ::UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x1499EF8
+    // Offset: 0x14A0914
     ::UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x1499F00
+    // Offset: 0x14A091C
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x1499F08
+    // Offset: 0x14A0924
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x1499F74
+    // Offset: 0x14A0990
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x1499F7C
+    // Offset: 0x14A0998
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x1499F88
+    // Offset: 0x14A09A4
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x1499FBC
+    // Offset: 0x14A09D8
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x149A038
+    // Offset: 0x14A0A54
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableBeatmapSelectionView*, creationType>()));
     }
     // public override System.Void SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x1499FC8
+    // Offset: 0x14A09E4
     // Implemented from: BeatmapSelectionView
     // Base method: System.Void BeatmapSelectionView::SetBeatmap(PreviewDifficultyBeatmap beatmapLevel)
     void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);

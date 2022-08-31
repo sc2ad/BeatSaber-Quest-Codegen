@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x10E7960
+    // [InjectAttribute] Offset: 0x10EF9A0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
@@ -149,29 +149,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
     // public Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x13DD6DC
+    // Offset: 0x13BDB68
     ::Tweening::TimeTweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x13DD6E4
+    // Offset: 0x13BDB70
     ::GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x13DD6EC
+    // Offset: 0x13BDB78
     void set_currentViewState(::GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x13DD594
+    // Offset: 0x13BDA20
     void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x13DD638
+    // Offset: 0x13BDAC4
     void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // protected System.Void .ctor()
-    // Offset: 0x13DD6F4
+    // Offset: 0x13BDB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectableStateController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectableStateController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectableStateController*, creationType>()));
     }
     // protected System.Void SetState(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x13DD4C4
+    // Offset: 0x13BD950
     void SetState(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
   }; // SelectableStateController
   #pragma pack(pop)

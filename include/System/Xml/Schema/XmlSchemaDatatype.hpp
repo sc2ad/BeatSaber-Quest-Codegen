@@ -67,10 +67,10 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Xml.Schema.XmlSchemaDatatypeVariety get_Variety()
-    // Offset: 0x20612C0
+    // Offset: 0x20910D4
     ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
     // public System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x20612C8
+    // Offset: 0x20910DC
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // System.Xml.Schema.XmlValueConverter get_ValueConverter()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -85,10 +85,10 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // System.String get_TypeCodeString()
-    // Offset: 0x20612D0
+    // Offset: 0x20910E4
     ::StringW get_TypeCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x206170C
+    // Offset: 0x2091520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaDatatype* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaDatatype::.ctor");
@@ -107,10 +107,10 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool IsEqual(::Il2CppObject* o1, ::Il2CppObject* o2);
     // System.String TypeCodeToString(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x20613E0
+    // Offset: 0x20911F4
     ::StringW TypeCodeToString(::System::Xml::Schema::XmlTypeCode typeCode);
     // static System.Xml.Schema.XmlSchemaDatatype FromXmlTokenizedType(System.Xml.XmlTokenizedType token)
-    // Offset: 0x20616A4
+    // Offset: 0x20914B8
     static ::System::Xml::Schema::XmlSchemaDatatype* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
   }; // System.Xml.Schema.XmlSchemaDatatype
   #pragma pack(pop)

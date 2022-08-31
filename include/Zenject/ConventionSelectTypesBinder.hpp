@@ -53,29 +53,29 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.ConventionBindInfo _bindInfo
     [[deprecated("Use field access instead!")]] ::Zenject::ConventionBindInfo*& dyn__bindInfo();
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
-    // Offset: 0x1775DAC
+    // Offset: 0x1776168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionSelectTypesBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionSelectTypesBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionSelectTypesBinder*, creationType>(bindInfo)));
     }
     // private Zenject.ConventionFilterTypesBinder CreateNextBinder()
-    // Offset: 0x177B4D4
+    // Offset: 0x177B890
     ::Zenject::ConventionFilterTypesBinder* CreateNextBinder();
     // public Zenject.ConventionFilterTypesBinder AllTypes()
-    // Offset: 0x177B53C
+    // Offset: 0x177B8F8
     ::Zenject::ConventionFilterTypesBinder* AllTypes();
     // public Zenject.ConventionFilterTypesBinder AllClasses()
-    // Offset: 0x177B540
+    // Offset: 0x177B8FC
     ::Zenject::ConventionFilterTypesBinder* AllClasses();
     // public Zenject.ConventionFilterTypesBinder AllNonAbstractClasses()
-    // Offset: 0x177B63C
+    // Offset: 0x177B9F8
     ::Zenject::ConventionFilterTypesBinder* AllNonAbstractClasses();
     // public Zenject.ConventionFilterTypesBinder AllAbstractClasses()
-    // Offset: 0x177B738
+    // Offset: 0x177BAF4
     ::Zenject::ConventionFilterTypesBinder* AllAbstractClasses();
     // public Zenject.ConventionFilterTypesBinder AllInterfaces()
-    // Offset: 0x177B834
+    // Offset: 0x177BBF0
     ::Zenject::ConventionFilterTypesBinder* AllInterfaces();
   }; // Zenject.ConventionSelectTypesBinder
   #pragma pack(pop)

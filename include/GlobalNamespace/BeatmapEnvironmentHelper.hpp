@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   class BeatmapEnvironmentHelper : public ::Il2CppObject {
     public:
     // static public EnvironmentInfoSO GetEnvironmentInfo(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15084A8
+    // Offset: 0x152C004
     static ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfo(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // BeatmapEnvironmentHelper
   #pragma pack(pop)

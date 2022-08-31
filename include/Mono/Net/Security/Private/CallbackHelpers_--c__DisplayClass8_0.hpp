@@ -55,14 +55,14 @@ namespace Mono::Net::Security::Private {
     // Get instance field reference: public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
     [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1AE2A78
+    // Offset: 0x1AE7400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackHelpers::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
-    // Offset: 0x1AE2ABC
+    // Offset: 0x1AE7444
     ::System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, ::System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::ArrayW<::StringW> ai);
   }; // Mono.Net.Security.Private.CallbackHelpers/Mono.Net.Security.Private.<>c__DisplayClass8_0
   #pragma pack(pop)

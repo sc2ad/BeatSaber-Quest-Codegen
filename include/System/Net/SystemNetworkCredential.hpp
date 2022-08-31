@@ -33,14 +33,14 @@ namespace System::Net {
     // Set static field: static readonly System.Net.SystemNetworkCredential defaultCredential
     static void _set_defaultCredential(::System::Net::SystemNetworkCredential* value);
     // private System.Void .ctor()
-    // Offset: 0x1B51900
+    // Offset: 0x1B58274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemNetworkCredential* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SystemNetworkCredential::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemNetworkCredential*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B51964
+    // Offset: 0x1B582D8
     static void _cctor();
   }; // System.Net.SystemNetworkCredential
   #pragma pack(pop)

@@ -86,23 +86,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _matchSingle
     [[deprecated("Use field access instead!")]] bool& dyn__matchSingle();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1E2A8A8
+    // Offset: 0x1E1AFA0
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1E2A8B0
+    // Offset: 0x1E1AFA8
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type componentType, Zenject.IPrefabInstantiator prefabInstantiator, System.Boolean matchSingle)
-    // Offset: 0x1E1E44C
+    // Offset: 0x1E0EB44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetFromPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromPrefabComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetFromPrefabComponentProvider*, creationType>(componentType, prefabInstantiator, matchSingle)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1E2A8B8
+    // Offset: 0x1E1AFB0
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1E2A8C0
+    // Offset: 0x1E1AFB8
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.GetFromPrefabComponentProvider
   #pragma pack(pop)

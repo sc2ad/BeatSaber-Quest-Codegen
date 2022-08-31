@@ -94,23 +94,23 @@ namespace System::Net::Sockets {
     // Get instance field reference: private System.Boolean in_cleanup
     [[deprecated("Use field access instead!")]] bool& dyn_in_cleanup();
     // public System.Void .ctor(System.IntPtr preexistingHandle, System.Boolean ownsHandle)
-    // Offset: 0x1B7609C
+    // Offset: 0x1B7CA10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSocketHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SafeSocketHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeSocketHandle*, creationType>(preexistingHandle, ownsHandle)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B769FC
+    // Offset: 0x1B7D370
     static void _cctor();
     // public System.Void RegisterForBlockingSyscall()
-    // Offset: 0x1B76628
+    // Offset: 0x1B7CF9C
     void RegisterForBlockingSyscall();
     // public System.Void UnRegisterForBlockingSyscall()
-    // Offset: 0x1B76864
+    // Offset: 0x1B7D1D8
     void UnRegisterForBlockingSyscall();
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1B76158
+    // Offset: 0x1B7CACC
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

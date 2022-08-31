@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Int32 get_id()
-    // Offset: 0x138A0DC
+    // Offset: 0x137EBD4
     int get_id();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x138A0E4
+    // Offset: 0x137EBDC
     ::UnityEngine::Transform* get_transform();
     // public System.Void .ctor()
-    // Offset: 0x138A0EC
+    // Offset: 0x137EBE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect::StartTextPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition::.ctor");

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   class MockQuickPlaySetupModel : public ::Il2CppObject/*, public ::GlobalNamespace::IQuickPlaySetupModel*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E3488
+    // [InjectAttribute] Offset: 0x10EB4C8
     // private readonly QuickPlaySetupData _quickPlaySetupData
     // Size: 0x8
     // Offset: 0x10
@@ -70,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly QuickPlaySetupData _quickPlaySetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public System.Void .ctor()
-    // Offset: 0x13F9C14
+    // Offset: 0x13EDE5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockQuickPlaySetupModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockQuickPlaySetupModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockQuickPlaySetupModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13F9BA0
+    // Offset: 0x13EDDE8
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
   }; // MockQuickPlaySetupModel
   #pragma pack(pop)

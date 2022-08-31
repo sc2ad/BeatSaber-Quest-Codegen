@@ -69,40 +69,40 @@ namespace System::Resources {
     // Set static field: static readonly System.Resources.FastResourceComparer Default
     static void _set_Default(::System::Resources::FastResourceComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D7FB74
+    // Offset: 0x1D72400
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object key)
-    // Offset: 0x1D7F69C
+    // Offset: 0x1D71F28
     int GetHashCode(::Il2CppObject* key);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x1D7F7A4
+    // Offset: 0x1D72030
     int GetHashCode(::StringW key);
     // static System.Int32 HashFunction(System.String key)
-    // Offset: 0x1D7F72C
+    // Offset: 0x1D71FB8
     static int HashFunction(::StringW key);
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1D7F808
+    // Offset: 0x1D72094
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 Compare(System.String a, System.String b)
-    // Offset: 0x1D7F8B8
+    // Offset: 0x1D72144
     int Compare(::StringW a, ::StringW b);
     // public System.Boolean Equals(System.String a, System.String b)
-    // Offset: 0x1D7F8C8
+    // Offset: 0x1D72154
     bool Equals(::StringW a, ::StringW b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1D7F8D8
+    // Offset: 0x1D72164
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // static public System.Int32 CompareOrdinal(System.String a, System.Byte[] bytes, System.Int32 bCharLength)
-    // Offset: 0x1D7F988
+    // Offset: 0x1D72214
     static int CompareOrdinal(::StringW a, ::ArrayW<uint8_t> bytes, int bCharLength);
     // static public System.Int32 CompareOrdinal(System.Byte[] bytes, System.Int32 aCharLength, System.String b)
-    // Offset: 0x1D7FA48
+    // Offset: 0x1D722D4
     static int CompareOrdinal(::ArrayW<uint8_t> bytes, int aCharLength, ::StringW b);
     // static System.Int32 CompareOrdinal(System.Byte* a, System.Int32 byteLen, System.String b)
-    // Offset: 0x1D7FACC
+    // Offset: 0x1D72358
     static int CompareOrdinal(uint8_t* a, int byteLen, ::StringW b);
     // public System.Void .ctor()
-    // Offset: 0x1D7FB6C
+    // Offset: 0x1D723F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

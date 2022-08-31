@@ -35,14 +35,14 @@ namespace GlobalNamespace {
   class NamedValueChecker : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14C6AF4
+    // Offset: 0x14E7698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedValueChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedValueChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamedValueChecker*, creationType>()));
     }
     // static public System.Boolean Check(System.String fieldName, System.Object value, System.Object expectedValue, System.Text.StringBuilder assertMessageSb)
-    // Offset: 0x14C6A34
+    // Offset: 0x14E75D8
     static bool Check(::StringW fieldName, ::Il2CppObject* value, ::Il2CppObject* expectedValue, ::System::Text::StringBuilder* assertMessageSb);
   }; // NamedValueChecker
   #pragma pack(pop)

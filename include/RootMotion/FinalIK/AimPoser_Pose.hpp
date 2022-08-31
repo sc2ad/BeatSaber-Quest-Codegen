@@ -79,17 +79,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single angleBuffer
     [[deprecated("Use field access instead!")]] float& dyn_angleBuffer();
     // public System.Void .ctor()
-    // Offset: 0x22566F4
+    // Offset: 0x22211BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimPoser::Pose* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimPoser::Pose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimPoser::Pose*, creationType>()));
     }
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x2256380
+    // Offset: 0x2220E48
     bool IsInDirection(::UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x22566EC
+    // Offset: 0x22211B4
     void SetAngleBuffer(float value);
   }; // RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose
   #pragma pack(pop)

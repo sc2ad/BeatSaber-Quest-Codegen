@@ -114,17 +114,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache::ScreenshotType, ::UnityEngine::Texture2D*>*& dyn__cache();
     // public System.Void .ctor()
-    // Offset: 0x2A52D88
+    // Offset: 0x2A7AEAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureCache*, creationType>()));
     }
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x2A52D08
+    // Offset: 0x2A7AE2C
     ::UnityEngine::Texture2D* GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
     // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x2A529C8
+    // Offset: 0x2A7AAEC
     void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
   }; // ScreenCaptureCache
   #pragma pack(pop)

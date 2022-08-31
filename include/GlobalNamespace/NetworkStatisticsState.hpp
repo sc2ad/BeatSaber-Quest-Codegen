@@ -151,14 +151,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int64 decryptionProcessingTime
     [[deprecated("Use field access instead!")]] int64_t& dyn_decryptionProcessingTime();
     // public System.Void .ctor(System.Int64 packetsSent, System.Int64 packetsReceived, System.Int64 bytesSent, System.Int64 bytesReceived, System.Int64 packetsLost, System.Int64 packetsSentEncrypted, System.Int64 packetsSentPlaintext, System.Int64 packetsSentRejected, System.Int64 packetsReceivedEncrypted, System.Int64 packetsReceivedPlaintext, System.Int64 packetsReceivedRejected, System.Int64 encryptionProcessingTime, System.Int64 decryptionProcessingTime)
-    // Offset: 0x1745248
+    // Offset: 0x1746604
     // ABORTED: conflicts with another method.  NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime, int64_t decryptionProcessingTime);
   }; // NetworkStatisticsState
   #pragma pack(pop)
   static check_size<sizeof(NetworkStatisticsState), 96 + sizeof(int64_t)> __GlobalNamespace_NetworkStatisticsStateSizeCheck;
   static_assert(sizeof(NetworkStatisticsState) == 0x68);
   // static public NetworkStatisticsDelta op_Subtraction(in NetworkStatisticsState a, in NetworkStatisticsState b)
-  // Offset: 0x1745270
+  // Offset: 0x174662C
   ::GlobalNamespace::NetworkStatisticsDelta operator-(const ::GlobalNamespace::NetworkStatisticsState&& a, const ::GlobalNamespace::NetworkStatisticsState&& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

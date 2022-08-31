@@ -163,25 +163,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasValue
     [[deprecated("Use field access instead!")]] bool& dyn__hasValue();
     // public System.Single get_value()
-    // Offset: 0x1383074
+    // Offset: 0x1376B6C
     float get_value();
     // public System.Single[] get_values()
-    // Offset: 0x138307C
+    // Offset: 0x1376B74
     ::ArrayW<float> get_values();
     // public System.Void set_values(System.Single[] value)
-    // Offset: 0x1383084
+    // Offset: 0x1376B7C
     void set_values(::ArrayW<float> value);
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1382F2C
+    // Offset: 0x1376A24
     void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1382FD0
+    // Offset: 0x1376AC8
     void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x1383094
+    // Offset: 0x1376B8C
     void SetValue(float value, bool callCallback);
     // public System.Void .ctor()
-    // Offset: 0x1383394
+    // Offset: 0x1376E8C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -191,17 +191,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FormattedFloatListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x13830AC
+    // Offset: 0x1376BA4
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1383204
+    // Offset: 0x1376CFC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x13832A8
+    // Offset: 0x1376DA0
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

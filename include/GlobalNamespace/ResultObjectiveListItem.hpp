@@ -93,31 +93,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__valueText();
     // public System.Void set_iconColor(UnityEngine.Color value)
-    // Offset: 0x14515B8
+    // Offset: 0x14A5DCC
     void set_iconColor(::UnityEngine::Color value);
     // public System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x14515DC
+    // Offset: 0x14A5DF0
     void set_icon(::UnityEngine::Sprite* value);
     // public System.Void set_iconGlow(UnityEngine.Sprite value)
-    // Offset: 0x14515F8
+    // Offset: 0x14A5E0C
     void set_iconGlow(::UnityEngine::Sprite* value);
     // public System.Void set_title(System.String value)
-    // Offset: 0x1451614
+    // Offset: 0x14A5E28
     void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0x1451630
+    // Offset: 0x14A5E44
     void set_conditionText(::StringW value);
     // public System.Void set_hideConditionText(System.Boolean value)
-    // Offset: 0x145164C
+    // Offset: 0x14A5E60
     void set_hideConditionText(bool value);
     // public System.Void set_valueText(System.String value)
-    // Offset: 0x145168C
+    // Offset: 0x14A5EA0
     void set_valueText(::StringW value);
     // public System.Void set_hideValueText(System.Boolean value)
-    // Offset: 0x14516A8
+    // Offset: 0x14A5EBC
     void set_hideValueText(bool value);
     // public System.Void .ctor()
-    // Offset: 0x14516E8
+    // Offset: 0x14A5EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultObjectiveListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultObjectiveListItem::.ctor");

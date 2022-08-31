@@ -68,21 +68,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: displaySpotNumber and: spotNumber
     char __padding1[0x2] = {};
-    // [DrawIfAttribute] Offset: 0x10E4824
+    // [DrawIfAttribute] Offset: 0x10EC864
     // private System.Int32 _spotNumber
     // Size: 0x4
     // Offset: 0x1C
     int spotNumber;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x10E48CC
+    // [InjectAttribute] Offset: 0x10EC90C
     // private readonly MultiplayerSpectatingSpotManager _spectatingSpotManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerSpectatingSpotManager* spectatingSpotManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E48DC
+    // [InjectAttribute] Offset: 0x10EC91C
     // private readonly MultiplayerActivePlayersTimeOffsetAverage _activePlayersTimeOffsetAverage
     // Size: 0x8
     // Offset: 0x28
@@ -119,38 +119,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IMultiplayerSpectatingSpot> hasBeenRemovedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn_hasBeenRemovedEvent();
     // public IMultiplayerObservable get_observable()
-    // Offset: 0x140D0B4
+    // Offset: 0x1429390
     ::GlobalNamespace::IMultiplayerObservable* get_observable();
     // public System.String get_spotName()
-    // Offset: 0x140D0BC
+    // Offset: 0x1429398
     ::StringW get_spotName();
     // public System.Boolean get_isMain()
-    // Offset: 0x140D168
+    // Offset: 0x1429444
     bool get_isMain();
     // private UnityEngine.Transform IMultiplayerSpectatingSpot.get_transform()
-    // Offset: 0x140D200
+    // Offset: 0x14294DC
     ::UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
     // public System.Void add_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x140CF6C
+    // Offset: 0x1429248
     void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_hasBeenRemovedEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x140D010
+    // Offset: 0x14292EC
     void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void .ctor()
-    // Offset: 0x140D1F8
+    // Offset: 0x14294D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentSpectatingSpot* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEnvironmentSpectatingSpot*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x140D170
+    // Offset: 0x142944C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x140D190
+    // Offset: 0x142946C
     void OnDisable();
     // public System.Void SetIsObserved(System.Boolean isObserved)
-    // Offset: 0x140D1F4
+    // Offset: 0x14294D0
     void SetIsObserved(bool isObserved);
   }; // MultiplayerEnvironmentSpectatingSpot
   #pragma pack(pop)

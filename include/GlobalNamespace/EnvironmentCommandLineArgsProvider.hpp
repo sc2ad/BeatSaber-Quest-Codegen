@@ -39,14 +39,14 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::ICommandLineArgsProvider*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1374304
+    // Offset: 0x1367DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentCommandLineArgsProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentCommandLineArgsProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentCommandLineArgsProvider*, creationType>()));
     }
     // public System.String[] GetCommandLineArgs()
-    // Offset: 0x13742FC
+    // Offset: 0x1367DF4
     ::ArrayW<::StringW> GetCommandLineArgs();
   }; // EnvironmentCommandLineArgsProvider
   #pragma pack(pop)

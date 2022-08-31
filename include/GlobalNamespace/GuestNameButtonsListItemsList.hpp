@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GuestNameButtonsListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x139BF4C
+    // Offset: 0x1390A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuestNameButtonsListItemsList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GuestNameButtonsListItemsList::.ctor");

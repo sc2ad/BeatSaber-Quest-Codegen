@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Action action
       [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
       // public System.Void .ctor(System.Single time, System.Action action)
-      // Offset: 0x264975C
+      // Offset: 0x2678290
       // ABORTED: conflicts with another method.  SynchronizedAction(float time, ::System::Action* action);
     }; // SynchronizedActionQueue/SynchronizedAction
     #pragma pack(pop)
@@ -103,20 +103,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*& dyn__synchronizedActionQueue();
     // public System.Void .ctor()
-    // Offset: 0x2649880
+    // Offset: 0x26783B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizedActionQueue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SynchronizedActionQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizedActionQueue*, creationType>()));
     }
     // public System.Void Clear()
-    // Offset: 0x264968C
+    // Offset: 0x26781C0
     void Clear();
     // public System.Void EnqueueAction(System.Single time, System.Action action)
-    // Offset: 0x26496E4
+    // Offset: 0x2678218
     void EnqueueAction(float time, ::System::Action* action);
     // public System.Void Update(System.Single time)
-    // Offset: 0x2649768
+    // Offset: 0x267829C
     void Update(float time);
   }; // SynchronizedActionQueue
   #pragma pack(pop)

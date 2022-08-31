@@ -31,10 +31,10 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Utils : public ::Il2CppObject {
     public:
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x1BFED7C
+    // Offset: 0x1BF18A0
     static ::StringW FindOidInfo(uint keyType, ::StringW keyValue, ::System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
-    // Offset: 0x1BEE5B0
+    // Offset: 0x1BE10D4
     static ::StringW FindOidInfoWithFallback(uint key, ::StringW value, ::System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)

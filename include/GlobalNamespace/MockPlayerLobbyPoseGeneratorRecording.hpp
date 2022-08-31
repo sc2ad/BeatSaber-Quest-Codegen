@@ -41,14 +41,14 @@ namespace GlobalNamespace {
   class MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
     public:
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x13F7658
+    // Offset: 0x13EB8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorRecording*, creationType>(multiplayerSessionManager)));
     }
     // public override System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13F9A30
+    // Offset: 0x13EDC78
     // Implemented from: MockPlayerLobbyPoseGenerator
     // Base method: System.Void MockPlayerLobbyPoseGenerator::SendPoses(System.Threading.CancellationToken cancellationToken)
     void SendPoses(::System::Threading::CancellationToken cancellationToken);

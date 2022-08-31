@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfFrames
     [[deprecated("Use field access instead!")]] int& dyn__numberOfFrames();
     // public System.Void .ctor()
-    // Offset: 0x15AF600
+    // Offset: 0x15C5A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FrameCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FrameCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FrameCounter*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x15AF53C
+    // Offset: 0x15C5998
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x15AF54C
+    // Offset: 0x15C59A8
     void OnDestroy();
   }; // FrameCounter
   #pragma pack(pop)

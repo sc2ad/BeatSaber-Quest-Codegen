@@ -110,7 +110,7 @@ namespace Org::BouncyCastle::Asn1::Rosstandart {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_tc26_gost_28147_param_Z
     static void _set_id_tc26_gost_28147_param_Z(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CD2AB4
+    // Offset: 0x1CC79AC
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Rosstandart.RosstandartObjectIdentifiers
   #pragma pack(pop)

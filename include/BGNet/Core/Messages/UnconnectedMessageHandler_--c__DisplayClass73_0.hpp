@@ -80,14 +80,14 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationToken& dyn_cancellationToken();
     // public System.Void .ctor()
-    // Offset: 0x15591C4
+    // Offset: 0x158E1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::$$c__DisplayClass73_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass73_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::$$c__DisplayClass73_0*, creationType>()));
     }
     // System.Threading.Tasks.Task <SendMultipartMessageWithRetryAsync>b__0(BGNet.Core.Messages.IUnconnectedReliableRequest mm)
-    // Offset: 0x15591CC
+    // Offset: 0x158E1F4
     ::System::Threading::Tasks::Task* $SendMultipartMessageWithRetryAsync$b__0(::BGNet::Core::Messages::IUnconnectedReliableRequest* mm);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass73_0
   #pragma pack(pop)

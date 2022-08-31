@@ -70,23 +70,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapEventDataBoxGroup> _dirtyBoxGroups
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& dyn__dirtyBoxGroups();
     // public System.Collections.Generic.IReadOnlyCollection`1<BeatmapEventDataBoxGroup> get_dirtyBoxGroups()
-    // Offset: 0x150AFFC
+    // Offset: 0x152EB58
     ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
     // public System.Void .ctor()
-    // Offset: 0x150A254
+    // Offset: 0x152DDB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupProcessor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupProcessor*, creationType>()));
     }
     // public System.Void ProcessInsertedData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> insertedNode)
-    // Offset: 0x150B004
+    // Offset: 0x152EB60
     void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
     // public System.Void ProcessBeforeDeleteData(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x150B538
+    // Offset: 0x152F094
     void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void ClearDirtyData()
-    // Offset: 0x150A608
+    // Offset: 0x152E164
     void ClearDirtyData();
   }; // BeatmapEventDataBoxGroupProcessor
   #pragma pack(pop)

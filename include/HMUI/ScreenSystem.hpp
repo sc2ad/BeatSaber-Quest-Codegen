@@ -136,47 +136,47 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public HMUI.TitleViewController get_titleViewController()
-    // Offset: 0x16C8AE0
+    // Offset: 0x16DA190
     ::HMUI::TitleViewController* get_titleViewController();
     // public HMUI.Screen get_mainScreen()
-    // Offset: 0x16C8AE8
+    // Offset: 0x16DA198
     ::HMUI::Screen* get_mainScreen();
     // public HMUI.Screen get_leftScreen()
-    // Offset: 0x16C8AF0
+    // Offset: 0x16DA1A0
     ::HMUI::Screen* get_leftScreen();
     // public HMUI.Screen get_rightScreen()
-    // Offset: 0x16C8AF8
+    // Offset: 0x16DA1A8
     ::HMUI::Screen* get_rightScreen();
     // public HMUI.Screen get_bottomScreen()
-    // Offset: 0x16C8B00
+    // Offset: 0x16DA1B0
     ::HMUI::Screen* get_bottomScreen();
     // public HMUI.Screen get_topScreen()
-    // Offset: 0x16C8B08
+    // Offset: 0x16DA1B8
     ::HMUI::Screen* get_topScreen();
     // public System.Void add_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16C8B10
+    // Offset: 0x16DA1C0
     void add_backButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_backButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16C8BB4
+    // Offset: 0x16DA264
     void remove_backButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x16C8D60
+    // Offset: 0x16DA410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenSystem*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x16C8C58
+    // Offset: 0x16DA308
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x16C8D08
+    // Offset: 0x16DA3B8
     void OnDestroy();
     // public System.Void SetBackButton(System.Boolean visible, System.Boolean animated)
-    // Offset: 0x16C8D24
+    // Offset: 0x16DA3D4
     void SetBackButton(bool visible, bool animated);
     // private System.Void <Awake>b__24_0()
-    // Offset: 0x16C8D68
+    // Offset: 0x16DA418
     void $Awake$b__24_0();
   }; // HMUI.ScreenSystem
   #pragma pack(pop)

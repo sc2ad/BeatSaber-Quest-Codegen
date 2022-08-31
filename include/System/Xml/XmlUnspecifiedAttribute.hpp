@@ -48,20 +48,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean fSpecified
     [[deprecated("Use field access instead!")]] bool& dyn_fSpecified();
     // System.Void SetSpecified(System.Boolean f)
-    // Offset: 0x2716C64
+    // Offset: 0x277DAF8
     void SetSpecified(bool f);
     // public override System.Boolean get_Specified()
-    // Offset: 0x2716AA0
+    // Offset: 0x277D934
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Boolean XmlAttribute::get_Specified()
     bool get_Specified();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x2716BE0
+    // Offset: 0x277DA74
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // protected internal System.Void .ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
-    // Offset: 0x2716A98
+    // Offset: 0x277D92C
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Void XmlAttribute::.ctor(System.String prefix, System.String localName, System.String namespaceURI, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,17 +70,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlUnspecifiedAttribute*, creationType>(prefix, localName, namespaceURI, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x2716AA8
+    // Offset: 0x277D93C
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // public override System.Xml.XmlNode RemoveChild(System.Xml.XmlNode oldChild)
-    // Offset: 0x2716C0C
+    // Offset: 0x277DAA0
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::RemoveChild(System.Xml.XmlNode oldChild)
     ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
     // public override System.Xml.XmlNode AppendChild(System.Xml.XmlNode newChild)
-    // Offset: 0x2716C38
+    // Offset: 0x277DACC
     // Implemented from: System.Xml.XmlAttribute
     // Base method: System.Xml.XmlNode XmlAttribute::AppendChild(System.Xml.XmlNode newChild)
     ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);

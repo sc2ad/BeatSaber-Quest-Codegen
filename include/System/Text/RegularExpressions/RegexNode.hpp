@@ -108,84 +108,84 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _next
     [[deprecated("Use field access instead!")]] ::System::Text::RegularExpressions::RegexNode*& dyn__next();
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options)
-    // Offset: 0x1DE3318
+    // Offset: 0x1DF1630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Char ch)
-    // Offset: 0x1DE3354
+    // Offset: 0x1DF166C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, ch)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
-    // Offset: 0x1DE3398
+    // Offset: 0x1DF16B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, str)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m)
-    // Offset: 0x1DE33DC
+    // Offset: 0x1DF16F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, int m) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m, System.Int32 n)
-    // Offset: 0x1DE3420
+    // Offset: 0x1DF1738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, int m, int n) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m, n)));
     }
     // System.Boolean UseOptionR()
-    // Offset: 0x1DE3470
+    // Offset: 0x1DF1788
     bool UseOptionR();
     // System.Text.RegularExpressions.RegexNode ReverseLeft()
-    // Offset: 0x1DE347C
+    // Offset: 0x1DF1794
     ::System::Text::RegularExpressions::RegexNode* ReverseLeft();
     // System.Void MakeRep(System.Int32 type, System.Int32 min, System.Int32 max)
-    // Offset: 0x1DE34F4
+    // Offset: 0x1DF180C
     void MakeRep(int type, int min, int max);
     // System.Text.RegularExpressions.RegexNode Reduce()
-    // Offset: 0x1DE350C
+    // Offset: 0x1DF1824
     ::System::Text::RegularExpressions::RegexNode* Reduce();
     // System.Text.RegularExpressions.RegexNode StripEnation(System.Int32 emptyType)
-    // Offset: 0x1DE3F74
+    // Offset: 0x1DF228C
     ::System::Text::RegularExpressions::RegexNode* StripEnation(int emptyType);
     // System.Text.RegularExpressions.RegexNode ReduceGroup()
-    // Offset: 0x1DE3DE8
+    // Offset: 0x1DF2100
     ::System::Text::RegularExpressions::RegexNode* ReduceGroup();
     // System.Text.RegularExpressions.RegexNode ReduceRep()
-    // Offset: 0x1DE3C54
+    // Offset: 0x1DF1F6C
     ::System::Text::RegularExpressions::RegexNode* ReduceRep();
     // System.Text.RegularExpressions.RegexNode ReduceSet()
-    // Offset: 0x1DE3E18
+    // Offset: 0x1DF2130
     ::System::Text::RegularExpressions::RegexNode* ReduceSet();
     // System.Text.RegularExpressions.RegexNode ReduceAlternation()
-    // Offset: 0x1DE3558
+    // Offset: 0x1DF1870
     ::System::Text::RegularExpressions::RegexNode* ReduceAlternation();
     // System.Text.RegularExpressions.RegexNode ReduceConcatenation()
-    // Offset: 0x1DE390C
+    // Offset: 0x1DF1C24
     ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
     // System.Text.RegularExpressions.RegexNode MakeQuantifier(System.Boolean lazy, System.Int32 min, System.Int32 max)
-    // Offset: 0x1DE4040
+    // Offset: 0x1DF2358
     ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int min, int max);
     // System.Void AddChild(System.Text.RegularExpressions.RegexNode newChild)
-    // Offset: 0x1DE4168
+    // Offset: 0x1DF2480
     void AddChild(::System::Text::RegularExpressions::RegexNode* newChild);
     // System.Text.RegularExpressions.RegexNode Child(System.Int32 i)
-    // Offset: 0x1DDFE80
+    // Offset: 0x1DEE198
     ::System::Text::RegularExpressions::RegexNode* Child(int i);
     // System.Int32 ChildCount()
-    // Offset: 0x1DDFE2C
+    // Offset: 0x1DEE144
     int ChildCount();
     // System.Int32 Type()
-    // Offset: 0x1DE4224
+    // Offset: 0x1DF253C
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
   #pragma pack(pop)

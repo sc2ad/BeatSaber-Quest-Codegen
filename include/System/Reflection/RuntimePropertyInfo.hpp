@@ -63,33 +63,33 @@ namespace System::Reflection {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x1D7E454
+    // Offset: 0x1D70CE0
     ::System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x1D7E50C
+    // Offset: 0x1D70D98
     ::System::RuntimeType* get_ReflectedTypeInternal();
     // System.RuntimeType GetDeclaringTypeInternal()
-    // Offset: 0x1D7E480
+    // Offset: 0x1D70D0C
     ::System::RuntimeType* GetDeclaringTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1D7E460
+    // Offset: 0x1D70CEC
     ::System::Reflection::RuntimeModule* GetRuntimeModule();
     // private System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x1D7E5A0
+    // Offset: 0x1D70E2C
     ::StringW FormatNameAndSig(bool serialization);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D7E6F4
+    // Offset: 0x1D70F80
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x1D7E7E8
+    // Offset: 0x1D71074
     ::StringW SerializationToString();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x1D7E45C
+    // Offset: 0x1D70CE8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     ::System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x1D7BB48
+    // Offset: 0x1D6E3D4
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Void PropertyInfo::.ctor()
     // Base method: System.Void MemberInfo::.ctor()
@@ -100,7 +100,7 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimePropertyInfo*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1D7E598
+    // Offset: 0x1D70E24
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

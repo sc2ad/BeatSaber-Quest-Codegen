@@ -80,28 +80,28 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF170
+    // [InjectAttribute] Offset: 0x10E71B0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF180
+    // [InjectAttribute] Offset: 0x10E71C0
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF190
+    // [InjectAttribute] Offset: 0x10E71D0
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF1A0
+    // [InjectAttribute] Offset: 0x10E71E0
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -188,41 +188,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3[] _burnMarkPositions
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__burnMarkPositions();
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x14D7E44
+    // Offset: 0x14F89E8
     void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
-    // Offset: 0x14D80A8
+    // Offset: 0x14F8C4C
     void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void add_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x14D7EE8
+    // Offset: 0x14F8A8C
     void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void remove_sparkleEffectDidEndEvent(System.Action`1<SaberType> value)
-    // Offset: 0x14D814C
+    // Offset: 0x14F8CF0
     void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
     // public System.Void .ctor()
-    // Offset: 0x14D9598
+    // Offset: 0x14FA13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSparkleEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSparkleEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSparkleEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14D87DC
+    // Offset: 0x14F9380
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x14D8A68
+    // Offset: 0x14F960C
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x14D8B24
+    // Offset: 0x14F96C8
     void Update();
     // private UnityEngine.Quaternion GetEffectRotation(UnityEngine.Vector3 pos, UnityEngine.Transform transform, UnityEngine.Bounds bounds)
-    // Offset: 0x14D93E0
+    // Offset: 0x14F9F84
     ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
     // public UnityEngine.Vector3 BurnMarkPosForSaberType(SaberType saberType)
-    // Offset: 0x14D8334
+    // Offset: 0x14F8ED8
     ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
     // private System.Boolean GetBurnMarkPos(UnityEngine.Bounds bounds, UnityEngine.Transform transform, UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x14D9188
+    // Offset: 0x14F9D2C
     bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
   }; // ObstacleSaberSparkleEffectManager
   #pragma pack(pop)

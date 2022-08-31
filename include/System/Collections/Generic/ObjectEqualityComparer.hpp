@@ -41,16 +41,16 @@ namespace System::Collections::Generic {
     // Set static field: static readonly System.Collections.Generic.ObjectEqualityComparer Default
     static void _set_Default(::System::Collections::Generic::ObjectEqualityComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CFBFBC
+    // Offset: 0x1CF0EB4
     static void _cctor();
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1CFBF6C
+    // Offset: 0x1CF0E64
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object x, System.Object y)
-    // Offset: 0x1CFBF8C
+    // Offset: 0x1CF0E84
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // private System.Void .ctor()
-    // Offset: 0x1CFBF64
+    // Offset: 0x1CF0E5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

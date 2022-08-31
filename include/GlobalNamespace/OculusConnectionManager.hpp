@@ -271,95 +271,95 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Byte[] _buffer
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__buffer();
     // public System.String get_userId()
-    // Offset: 0x1565158
+    // Offset: 0x159A180
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x1565210
+    // Offset: 0x159A238
     ::StringW get_userName();
     // public System.Boolean get_isConnected()
-    // Offset: 0x15652CC
+    // Offset: 0x159A2F4
     bool get_isConnected();
     // public System.Boolean get_isConnecting()
-    // Offset: 0x1565300
+    // Offset: 0x159A328
     bool get_isConnecting();
     // public System.Boolean get_isDisconnecting()
-    // Offset: 0x1565324
+    // Offset: 0x159A34C
     bool get_isDisconnecting();
     // private System.Void set_isDisconnecting(System.Boolean value)
-    // Offset: 0x156532C
+    // Offset: 0x159A354
     void set_isDisconnecting(bool value);
     // public System.Boolean get_isDisposed()
-    // Offset: 0x1565338
+    // Offset: 0x159A360
     bool get_isDisposed();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1565348
+    // Offset: 0x159A370
     bool get_isConnectionOwner();
     // public System.Boolean get_isServer()
-    // Offset: 0x1565358
+    // Offset: 0x159A380
     bool get_isServer();
     // public System.Boolean get_isClient()
-    // Offset: 0x1565368
+    // Offset: 0x159A390
     bool get_isClient();
     // public System.Int32 get_connectionCount()
-    // Offset: 0x1565378
+    // Offset: 0x159A3A0
     int get_connectionCount();
     // public System.Void add_onInitializedEvent(System.Action value)
-    // Offset: 0x1564860
+    // Offset: 0x1599888
     void add_onInitializedEvent(::System::Action* value);
     // public System.Void remove_onInitializedEvent(System.Action value)
-    // Offset: 0x1564904
+    // Offset: 0x159992C
     void remove_onInitializedEvent(::System::Action* value);
     // public System.Void add_onConnectedEvent(System.Action value)
-    // Offset: 0x15649A8
+    // Offset: 0x15999D0
     void add_onConnectedEvent(::System::Action* value);
     // public System.Void remove_onConnectedEvent(System.Action value)
-    // Offset: 0x1564A4C
+    // Offset: 0x1599A74
     void remove_onConnectedEvent(::System::Action* value);
     // public System.Void add_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1564AF0
+    // Offset: 0x1599B18
     void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onDisconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x1564B94
+    // Offset: 0x1599BBC
     void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x1564C38
+    // Offset: 0x1599C60
     void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_onConnectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x1564CDC
+    // Offset: 0x1599D04
     void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x1564D80
+    // Offset: 0x1599DA8
     void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
     // public System.Void remove_onConnectionConnectedEvent(System.Action`1<IConnection> value)
-    // Offset: 0x1564E24
+    // Offset: 0x1599E4C
     void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
     // public System.Void add_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x1564EC8
+    // Offset: 0x1599EF0
     void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
-    // Offset: 0x1564F6C
+    // Offset: 0x1599F94
     void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x1565010
+    // Offset: 0x159A038
     void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::LiteNetLib::DeliveryMethod>* value);
     // public System.Void remove_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
-    // Offset: 0x15650B4
+    // Offset: 0x159A0DC
     void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::LiteNetLib::DeliveryMethod>* value);
     // public System.Void .ctor()
-    // Offset: 0x1566010
+    // Offset: 0x159B038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager*, creationType>()));
     }
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x15653C8
+    // Offset: 0x159A3F0
     void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void SendToAll(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod, IConnection excludingConnection)
-    // Offset: 0x15653D0
+    // Offset: 0x159A3F8
     void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
     // public System.Void PollUpdate()
-    // Offset: 0x156561C
+    // Offset: 0x159A644
     void PollUpdate();
     // public System.Boolean Init(IConnectionInitParams`1<T> initParams)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -372,43 +372,43 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, initParams);
     }
     // public System.Void Disconnect(DisconnectedReason disconnectedReason)
-    // Offset: 0x1565948
+    // Offset: 0x159A970
     void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
     // private System.Void DisconnectInternal(DisconnectedReason disconnectedReason, ConnectionFailedReason connectionFailedReason)
-    // Offset: 0x1565950
+    // Offset: 0x159A978
     void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // public System.Void Dispose()
-    // Offset: 0x1565BA0
+    // Offset: 0x159ABC8
     void Dispose();
     // public IConnection GetConnection(System.Int32 index)
-    // Offset: 0x1565BAC
+    // Offset: 0x159ABD4
     ::GlobalNamespace::IConnection* GetConnection(int index);
     // private System.Void HandlePeerConnectionRequest(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x1565C24
+    // Offset: 0x159AC4C
     void HandlePeerConnectionRequest(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer*>* message);
     // private System.Void HandleConnectionStateChanged(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x1565CE8
+    // Offset: 0x159AD10
     void HandleConnectionStateChanged(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer*>* message);
     // private OculusConnectionManager/OculusConnection GetConnection(System.UInt64 user)
-    // Offset: 0x1565754
+    // Offset: 0x159A77C
     ::GlobalNamespace::OculusConnectionManager::OculusConnection* GetConnection(uint64_t user);
     // private System.Void RemoveConnection(System.UInt64 id, DisconnectedReason reason)
-    // Offset: 0x1565DF8
+    // Offset: 0x159AE20
     void RemoveConnection(uint64_t id, ::GlobalNamespace::DisconnectedReason reason);
     // private System.Byte[] AcquireBuffer(System.Int32 size)
-    // Offset: 0x15658B4
+    // Offset: 0x159A8DC
     ::ArrayW<uint8_t> AcquireBuffer(int size);
     // private System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x1565944
+    // Offset: 0x159A96C
     void ReleaseBuffer(::ArrayW<uint8_t> buffer);
     // static private Oculus.Platform.SendPolicy DeliveryMethodToSendPolicy(LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1565FFC
+    // Offset: 0x159B024
     static ::Oculus::Platform::SendPolicy DeliveryMethodToSendPolicy(::LiteNetLib::DeliveryMethod deliveryMethod);
     // static private LiteNetLib.DeliveryMethod SendPolicyToDeliveryMethod(Oculus.Platform.SendPolicy sendPolicy)
-    // Offset: 0x1565930
+    // Offset: 0x159A958
     static ::LiteNetLib::DeliveryMethod SendPolicyToDeliveryMethod(::Oculus::Platform::SendPolicy sendPolicy);
     // static private System.Void VoidHandler(Oculus.Platform.Message`1<Oculus.Platform.Models.NetworkingPeer> message)
-    // Offset: 0x156600C
+    // Offset: 0x159B034
     static void VoidHandler(::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer*>* message);
   }; // OculusConnectionManager
   #pragma pack(pop)

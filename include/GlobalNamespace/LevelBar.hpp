@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* authorNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10ECE4C
+    // [SpaceAttribute] Offset: 0x10F4F18
     // private System.Boolean _showSongSubName
     // Size: 0x1
     // Offset: 0x30
@@ -89,39 +89,39 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showSongSubName and: singleLineSongInfoContainer
     char __padding3[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x10ECE84
-    // [NullAllowed] Offset: 0x10ECE84
+    // [DrawIfAttribute] Offset: 0x10F4F50
+    // [NullAllowed] Offset: 0x10F4F50
     // private UnityEngine.GameObject _singleLineSongInfoContainer
     // Size: 0x8
     // Offset: 0x38
     ::UnityEngine::GameObject* singleLineSongInfoContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x10ECF7C
-    // [NullAllowed] Offset: 0x10ECF7C
+    // [DrawIfAttribute] Offset: 0x10F5048
+    // [NullAllowed] Offset: 0x10F5048
     // private UnityEngine.GameObject _multiLineSongInfoContainer
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::GameObject* multiLineSongInfoContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x10ED074
-    // [NullAllowed] Offset: 0x10ED074
+    // [DrawIfAttribute] Offset: 0x10F5140
+    // [NullAllowed] Offset: 0x10F5140
     // private TMPro.TextMeshProUGUI _multiLineSongNameText
     // Size: 0x8
     // Offset: 0x48
     ::TMPro::TextMeshProUGUI* multiLineSongNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x10ED16C
-    // [NullAllowed] Offset: 0x10ED16C
+    // [DrawIfAttribute] Offset: 0x10F5238
+    // [NullAllowed] Offset: 0x10F5238
     // private TMPro.TextMeshProUGUI _multiLineAuthorNameText
     // Size: 0x8
     // Offset: 0x50
     ::TMPro::TextMeshProUGUI* multiLineAuthorNameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10ED264
+    // [SpaceAttribute] Offset: 0x10F5330
     // private System.Boolean _showDifficultyAndCharacteristic
     // Size: 0x1
     // Offset: 0x58
@@ -130,16 +130,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: showDifficultyAndCharacteristic and: difficultyText
     char __padding8[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x10ED29C
-    // [NullAllowed] Offset: 0x10ED29C
+    // [DrawIfAttribute] Offset: 0x10F5368
+    // [NullAllowed] Offset: 0x10F5368
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x60
     ::TMPro::TextMeshProUGUI* difficultyText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [DrawIfAttribute] Offset: 0x10ED394
-    // [NullAllowed] Offset: 0x10ED394
+    // [DrawIfAttribute] Offset: 0x10F5460
+    // [NullAllowed] Offset: 0x10F5460
     // private HMUI.ImageView _characteristicIconImageView
     // Size: 0x8
     // Offset: 0x68
@@ -154,8 +154,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useArtworkBackground and: artworkBackgroundImage
     char __padding11[0x7] = {};
-    // [DrawIfAttribute] Offset: 0x10ED49C
-    // [NullAllowed] Offset: 0x10ED49C
+    // [DrawIfAttribute] Offset: 0x10F5568
+    // [NullAllowed] Offset: 0x10F5568
     // private HMUI.ImageView _artworkBackgroundImage
     // Size: 0x8
     // Offset: 0x78
@@ -200,23 +200,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13A5FE8
+    // Offset: 0x139AC7C
     void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0x13A611C
+    // Offset: 0x139ADB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelBar* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelBar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelBar*, creationType>()));
     }
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x13A6020
+    // Offset: 0x139ACB4
     void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     // public System.Void Setup(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x13A602C
+    // Offset: 0x139ACC0
     void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // protected System.Void OnDestroy()
-    // Offset: 0x13A6108
+    // Offset: 0x139AD9C
     void OnDestroy();
   }; // LevelBar
   #pragma pack(pop)

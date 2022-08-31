@@ -46,31 +46,31 @@ namespace Org::BouncyCastle::Asn1 {
       return reinterpret_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x1C25C94
+    // Offset: 0x1C177B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Encodable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Encodable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Encodable*, creationType>()));
     }
     // public System.Byte[] GetEncoded()
-    // Offset: 0x1C258AC
+    // Offset: 0x1C173D0
     ::ArrayW<uint8_t> GetEncoded();
     // public System.Byte[] GetEncoded(System.String encoding)
-    // Offset: 0x1C2596C
+    // Offset: 0x1C17490
     ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
     // public System.Byte[] GetDerEncoded()
-    // Offset: 0x1C25A64
+    // Offset: 0x1C17588
     ::ArrayW<uint8_t> GetDerEncoded();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1C25B2C
+    // Offset: 0x1C17650
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1C25B64
+    // Offset: 0x1C17688
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

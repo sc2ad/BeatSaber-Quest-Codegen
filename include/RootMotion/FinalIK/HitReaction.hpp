@@ -49,14 +49,14 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::HitReaction::HitPointBone
     class HitPointBone;
     public:
-    // [TooltipAttribute] Offset: 0x1105F50
+    // [TooltipAttribute] Offset: 0x110E06C
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector[] effectorHitPoints
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector*> effectorHitPoints;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1105F88
+    // [TooltipAttribute] Offset: 0x110E0A4
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     // Size: 0x8
     // Offset: 0x38
@@ -69,13 +69,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone[] boneHitPoints
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointBone*>& dyn_boneHitPoints();
     // public System.Boolean get_inProgress()
-    // Offset: 0x2226104
+    // Offset: 0x22087DC
     bool get_inProgress();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x22263F4
+    // Offset: 0x2208ACC
     void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x2226760
+    // Offset: 0x2208E38
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,7 +84,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x22261D4
+    // Offset: 0x22088AC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

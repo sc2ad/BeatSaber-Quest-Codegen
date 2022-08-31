@@ -74,19 +74,19 @@ namespace GlobalNamespace {
       // Get instance field reference: private System.Single <time>k__BackingField
       [[deprecated("Use field access instead!")]] float& dyn_$time$k__BackingField();
       // public System.Single get_value()
-      // Offset: 0x1504C94
+      // Offset: 0x15277F0
       float get_value();
       // private System.Void set_value(System.Single value)
-      // Offset: 0x1504C9C
+      // Offset: 0x15277F8
       void set_value(float value);
       // public System.Single get_time()
-      // Offset: 0x1504CA4
+      // Offset: 0x1527800
       float get_time();
       // private System.Void set_time(System.Single value)
-      // Offset: 0x1504CAC
+      // Offset: 0x1527808
       void set_time(float value);
       // public System.Void .ctor(System.Single value, System.Single time)
-      // Offset: 0x1504C74
+      // Offset: 0x15277D0
       // ABORTED: conflicts with another method.  AverageValueData(float value, float time);
     }; // AveragingValueRecorder/AverageValueData
     #pragma pack(pop)
@@ -177,23 +177,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastValue
     [[deprecated("Use field access instead!")]] float& dyn__lastValue();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyWindowDuration, System.Single historyValuesPerSecond)
-    // Offset: 0x150491C
+    // Offset: 0x1527478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AveragingValueRecorder* New_ctor(float averageWindowDuration, float historyWindowDuration, float historyValuesPerSecond) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AveragingValueRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AveragingValueRecorder*, creationType>(averageWindowDuration, historyWindowDuration, historyValuesPerSecond)));
     }
     // public System.Void Update(System.Single value, System.Single deltaTime)
-    // Offset: 0x1504A48
+    // Offset: 0x15275A4
     void Update(float value, float deltaTime);
     // public System.Single GetAverageValue()
-    // Offset: 0x1504C7C
+    // Offset: 0x15277D8
     float GetAverageValue();
     // public System.Single GetLastValue()
-    // Offset: 0x1504C84
+    // Offset: 0x15277E0
     float GetLastValue();
     // public System.Collections.Generic.Queue`1<System.Single> GetHistoryValues()
-    // Offset: 0x1504C8C
+    // Offset: 0x15277E8
     ::System::Collections::Generic::Queue_1<float>* GetHistoryValues();
   }; // AveragingValueRecorder
   #pragma pack(pop)

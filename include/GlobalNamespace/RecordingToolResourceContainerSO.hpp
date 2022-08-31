@@ -92,23 +92,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<IBeatmapLevelPack> _beatmapLevelPacks
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*& dyn__beatmapLevelPacks();
     // public System.Collections.Generic.List`1<IBeatmapLevelPack> get_beatmapLevelPacks()
-    // Offset: 0x144F11C
+    // Offset: 0x14A3A88
     ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
     // public BeatmapCharacteristicCollectionSO get_beatmapCharacteristicCollection()
-    // Offset: 0x144F124
+    // Offset: 0x14A3A90
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO* get_beatmapCharacteristicCollection();
     // public EnvironmentsListSO get_environmentsList()
-    // Offset: 0x144F12C
+    // Offset: 0x14A3A98
     ::GlobalNamespace::EnvironmentsListSO* get_environmentsList();
     // public System.Void .ctor()
-    // Offset: 0x144F1F8
+    // Offset: 0x14A3B64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolResourceContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolResourceContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolResourceContainerSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x144F134
+    // Offset: 0x14A3AA0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

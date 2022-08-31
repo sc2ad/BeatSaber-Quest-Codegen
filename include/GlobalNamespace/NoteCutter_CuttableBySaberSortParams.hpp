@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 pos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_pos();
     // public System.Void .ctor()
-    // Offset: 0x14D0134
+    // Offset: 0x14F0CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter::CuttableBySaberSortParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::CuttableBySaberSortParams::.ctor");

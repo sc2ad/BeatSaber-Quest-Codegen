@@ -62,17 +62,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserList> onGetInvitable
     [[deprecated("Use field access instead!")]] typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>::Callback*& dyn_onGetInvitable();
     // public System.Void .ctor()
-    // Offset: 0x1569F28
+    // Offset: 0x159EF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::$$c__DisplayClass55_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass55_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::$$c__DisplayClass55_0*, creationType>()));
     }
     // System.Void <Refresh>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserAndRoomList> result)
-    // Offset: 0x156A6D8
+    // Offset: 0x159F700
     void $Refresh$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAndRoomList*>* result);
     // System.Void <Refresh>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> result)
-    // Offset: 0x156ABA0
+    // Offset: 0x159FBC8
     void $Refresh$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>* result);
   }; // OculusNetworkPlayerModel/<>c__DisplayClass55_0
   #pragma pack(pop)

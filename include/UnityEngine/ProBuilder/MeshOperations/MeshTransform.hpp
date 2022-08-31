@@ -39,16 +39,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class MeshTransform : public ::Il2CppObject {
     public:
     // static System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 firstVertexIndex)
-    // Offset: 0x1C4128C
+    // Offset: 0x1C32DB0
     static void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotType, int firstVertexIndex);
     // static public System.Void CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
-    // Offset: 0x1C41340
+    // Offset: 0x1C32E64
     static void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes);
     // static public System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3 worldPosition)
-    // Offset: 0x1C416F0
+    // Offset: 0x1C33214
     static void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
     // static public System.Void FreezeScaleTransform(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x1C418D8
+    // Offset: 0x1C333FC
     static void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshTransform
   #pragma pack(pop)

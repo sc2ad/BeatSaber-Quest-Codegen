@@ -45,20 +45,20 @@ namespace RootMotion {
   class AvatarUtility : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x224A944
+    // Offset: 0x221540C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarUtility* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::AvatarUtility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarUtility*, creationType>()));
     }
     // static public UnityEngine.Quaternion GetPostRotation(UnityEngine.Avatar avatar, UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x224A0B0
+    // Offset: 0x2214B78
     static ::UnityEngine::Quaternion GetPostRotation(::UnityEngine::Avatar* avatar, ::UnityEngine::AvatarIKGoal avatarIKGoal);
     // static public RootMotion.TQ GetIKGoalTQ(UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.AvatarIKGoal avatarIKGoal, RootMotion.TQ bodyPositionRotation, RootMotion.TQ boneTQ)
-    // Offset: 0x224A2C4
+    // Offset: 0x2214D8C
     static ::RootMotion::TQ* GetIKGoalTQ(::UnityEngine::Avatar* avatar, float humanScale, ::UnityEngine::AvatarIKGoal avatarIKGoal, ::RootMotion::TQ* bodyPositionRotation, ::RootMotion::TQ* boneTQ);
     // static public UnityEngine.HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine.AvatarIKGoal avatarIKGoal)
-    // Offset: 0x224A2A4
+    // Offset: 0x2214D6C
     static ::UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(::UnityEngine::AvatarIKGoal avatarIKGoal);
   }; // RootMotion.AvatarUtility
   #pragma pack(pop)

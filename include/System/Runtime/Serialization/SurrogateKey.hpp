@@ -54,14 +54,14 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1649F30
+    // Offset: 0x163A358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SurrogateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SurrogateKey*, creationType>(type, context)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1649F70
+    // Offset: 0x163A398
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

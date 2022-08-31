@@ -102,22 +102,22 @@ namespace System {
     // Get instance field reference: System.Exception m_innerException
     [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Guid/System.GuidParseThrowStyle canThrow)
-    // Offset: 0x1FF3868
+    // Offset: 0x2021458
     void Init(::System::Guid::GuidParseThrowStyle canThrow);
     // System.Void SetFailure(System.Exception nativeException)
-    // Offset: 0x1FF533C
+    // Offset: 0x2022F2C
     void SetFailure(::System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0x1FF3EFC
+    // Offset: 0x2021AEC
     void SetFailure(::System::Guid::ParseFailureKind failure, ::StringW failureMessageID);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x1FF4DFC
+    // Offset: 0x20229EC
     void SetFailure(::System::Guid::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
-    // Offset: 0x1FF4B3C
+    // Offset: 0x202272C
     void SetFailure(::System::Guid::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName, ::System::Exception* innerException);
     // System.Exception GetGuidParseException()
-    // Offset: 0x1FF3B50
+    // Offset: 0x2021740
     ::System::Exception* GetGuidParseException();
   }; // System.Guid/System.GuidResult
   #pragma pack(pop)

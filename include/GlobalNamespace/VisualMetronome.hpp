@@ -179,38 +179,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _dontTickThisFrame
     [[deprecated("Use field access instead!")]] bool& dyn__dontTickThisFrame();
     // public System.Void set_tickerColor(UnityEngine.Color value)
-    // Offset: 0x2880BF4
+    // Offset: 0x255D89C
     void set_tickerColor(::UnityEngine::Color value);
     // public System.Void set_movingTickerColor(UnityEngine.Color value)
-    // Offset: 0x2880C18
+    // Offset: 0x255D8C0
     void set_movingTickerColor(::UnityEngine::Color value);
     // public System.Single get_zeroOffset()
-    // Offset: 0x2880C4C
+    // Offset: 0x255D8F4
     float get_zeroOffset();
     // public System.Void set_zeroOffset(System.Single value)
-    // Offset: 0x2880C3C
+    // Offset: 0x255D8E4
     void set_zeroOffset(float value);
     // public System.Void .ctor()
-    // Offset: 0x28810B4
+    // Offset: 0x255DD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisualMetronome* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VisualMetronome::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisualMetronome*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2880C54
+    // Offset: 0x255D8FC
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x2880D64
+    // Offset: 0x255DA0C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2880DB8
+    // Offset: 0x255DA60
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x2880E0C
+    // Offset: 0x255DAB4
     void Update();
     // private System.Void SetMovingTickerNormalizedPosition(System.Single t)
-    // Offset: 0x2880FD0
+    // Offset: 0x255DC78
     void SetMovingTickerNormalizedPosition(float t);
   }; // VisualMetronome
   #pragma pack(pop)

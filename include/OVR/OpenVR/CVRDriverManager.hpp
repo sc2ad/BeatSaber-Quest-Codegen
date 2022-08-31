@@ -53,20 +53,20 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRDriverManager FnTable
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRDriverManager& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1A9DE70
+    // Offset: 0x1AA37F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRDriverManager* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
-    // Offset: 0x1A9DF78
+    // Offset: 0x1AA3900
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1A9DF94
+    // Offset: 0x1AA391C
     uint GetDriverName(uint nDriver, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt64 GetDriverHandle(System.String pchDriverName)
-    // Offset: 0x1A9DFB0
+    // Offset: 0x1AA3938
     uint64_t GetDriverHandle(::StringW pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
   #pragma pack(pop)

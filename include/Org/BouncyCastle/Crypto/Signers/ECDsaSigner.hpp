@@ -100,32 +100,32 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: protected Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x1607AA0
+    // Offset: 0x15FF6C8
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void .ctor()
-    // Offset: 0x160781C
+    // Offset: 0x15FF444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECDsaSigner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDsaSigner*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16080EC
+    // Offset: 0x15FFD14
     static void _cctor();
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x160788C
+    // Offset: 0x15FF4B4
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x1607AC8
+    // Offset: 0x15FF6F0
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
-    // Offset: 0x1607F3C
+    // Offset: 0x15FFB64
     ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x1608010
+    // Offset: 0x15FFC38
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
     // protected Org.BouncyCastle.Security.SecureRandom InitSecureRandom(System.Boolean needed, Org.BouncyCastle.Security.SecureRandom provided)
-    // Offset: 0x160806C
+    // Offset: 0x15FFC94
     ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
   }; // Org.BouncyCastle.Crypto.Signers.ECDsaSigner
   #pragma pack(pop)

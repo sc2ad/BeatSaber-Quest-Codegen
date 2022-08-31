@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   class TutorialSongController::TutorialBombNoteSpawnData : public ::GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData {
     public:
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x14A1E44
+    // Offset: 0x1415ECC
     // Implemented from: TutorialSongController/TutorialJumpingNoteSpawnData
     // Base method: System.Void TutorialJumpingNoteSpawnData::.ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

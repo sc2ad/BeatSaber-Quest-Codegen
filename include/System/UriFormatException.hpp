@@ -37,28 +37,28 @@ namespace System {
   class UriFormatException : public ::System::FormatException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2ACA86C
+    // Offset: 0x2AE90A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>()));
     }
     // public System.Void .ctor(System.String textString)
-    // Offset: 0x2ACA760
+    // Offset: 0x2AE8F94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor(::StringW textString) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(textString)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x2ACA874
+    // Offset: 0x2AE90A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x2ACA87C
+    // Offset: 0x2AE90B0
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
   }; // System.UriFormatException
   #pragma pack(pop)

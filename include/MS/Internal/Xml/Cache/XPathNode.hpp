@@ -113,46 +113,46 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private System.String value
     [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // public System.Xml.XPath.XPathNodeType get_NodeType()
-    // Offset: 0x1ABE108
+    // Offset: 0x1AC3A90
     ::System::Xml::XPath::XPathNodeType get_NodeType();
     // public System.String get_Prefix()
-    // Offset: 0x1ABE224
+    // Offset: 0x1AC3BAC
     ::StringW get_Prefix();
     // public System.String get_LocalName()
-    // Offset: 0x1ABE15C
+    // Offset: 0x1AC3AE4
     ::StringW get_LocalName();
     // public System.String get_NamespaceUri()
-    // Offset: 0x1ABE1C0
+    // Offset: 0x1AC3B48
     ::StringW get_NamespaceUri();
     // public System.Xml.XPath.XPathDocument get_Document()
-    // Offset: 0x1ABE290
+    // Offset: 0x1AC3C18
     ::System::Xml::XPath::XPathDocument* get_Document();
     // public MS.Internal.Xml.Cache.XPathNodePageInfo get_PageInfo()
-    // Offset: 0x1ABE834
+    // Offset: 0x1AC41BC
     ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
     // public System.Boolean get_IsXmlNamespaceNode()
-    // Offset: 0x1ABE4E0
+    // Offset: 0x1AC3E68
     bool get_IsXmlNamespaceNode();
     // public System.Boolean get_HasSibling()
-    // Offset: 0x1ABE850
+    // Offset: 0x1AC41D8
     bool get_HasSibling();
     // public System.Boolean get_HasCollapsedText()
-    // Offset: 0x1ABE860
+    // Offset: 0x1AC41E8
     bool get_HasCollapsedText();
     // public System.Boolean get_IsText()
-    // Offset: 0x1ABE86C
+    // Offset: 0x1AC41F4
     bool get_IsText();
     // public System.Boolean get_HasNamespaceDecls()
-    // Offset: 0x1ABE8DC
+    // Offset: 0x1AC4264
     bool get_HasNamespaceDecls();
     // public System.String get_Value()
-    // Offset: 0x1ABE8E8
+    // Offset: 0x1AC4270
     ::StringW get_Value();
     // public System.Int32 GetParent(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1ABE6A8
+    // Offset: 0x1AC4030
     int GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
     // public System.Int32 GetSibling(out MS.Internal.Xml.Cache.XPathNode[] pageNode)
-    // Offset: 0x1ABE570
+    // Offset: 0x1AC3EF8
     int GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode);
   }; // MS.Internal.Xml.Cache.XPathNode
   #pragma pack(pop)

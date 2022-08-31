@@ -50,7 +50,7 @@ namespace GlobalNamespace {
   class ServerPasswordEntryViewController : public ::HMUI::ViewController {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x10EBD0C
+    // [HeaderAttribute] Offset: 0x10F3D5C
     // private HMUI.InputFieldView _passwordInput
     // Size: 0x8
     // Offset: 0x70
@@ -85,34 +85,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private INetworkPlayer _selectedNetworkPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x13DDD78
+    // Offset: 0x13BE204
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
-    // Offset: 0x13DDE1C
+    // Offset: 0x13BE2A8
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x13DE130
+    // Offset: 0x13BE5BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerPasswordEntryViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ServerPasswordEntryViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerPasswordEntryViewController*, creationType>()));
     }
     // public System.Void Setup(INetworkPlayer selectedPlayer)
-    // Offset: 0x13DDEC0
+    // Offset: 0x13BE34C
     void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
     // private System.Void HandleJoinClicked()
-    // Offset: 0x13DE048
+    // Offset: 0x13BE4D4
     void HandleJoinClicked();
     // private System.Void HandleUIKeyboardOkButtonWasPressed()
-    // Offset: 0x13DE0BC
+    // Offset: 0x13BE548
     void HandleUIKeyboardOkButtonWasPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13DDEC8
+    // Offset: 0x13BE354
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13DDF90
+    // Offset: 0x13BE41C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

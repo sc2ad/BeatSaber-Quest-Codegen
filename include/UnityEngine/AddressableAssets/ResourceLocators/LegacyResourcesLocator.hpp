@@ -59,20 +59,20 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
       return reinterpret_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x18D236C
+    // Offset: 0x18D5968
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.String get_LocatorId()
-    // Offset: 0x18D2374
+    // Offset: 0x18D5970
     ::StringW get_LocatorId();
     // public System.Void .ctor()
-    // Offset: 0x18D23BC
+    // Offset: 0x18D59B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LegacyResourcesLocator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LegacyResourcesLocator*, creationType>()));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x18D2118
+    // Offset: 0x18D5714
     bool Locate(::Il2CppObject* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
   }; // UnityEngine.AddressableAssets.ResourceLocators.LegacyResourcesLocator
   #pragma pack(pop)

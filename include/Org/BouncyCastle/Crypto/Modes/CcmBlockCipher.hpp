@@ -134,50 +134,50 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private readonly System.IO.MemoryStream data
     [[deprecated("Use field access instead!")]] ::System::IO::MemoryStream*& dyn_data();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1E3D770
+    // Offset: 0x1E2DE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CcmBlockCipher*, creationType>(cipher)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E3F1EC
+    // Offset: 0x1E2F8E4
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E3D974
+    // Offset: 0x1E2E06C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E3DBF8
+    // Offset: 0x1E2E2F0
     int GetBlockSize();
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E3DCAC
+    // Offset: 0x1E2E3A4
     int ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int inLen, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E3DD54
+    // Offset: 0x1E2E44C
     int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E3DDFC
+    // Offset: 0x1E2E4F4
     void Reset();
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1E3DEE8
+    // Offset: 0x1E2E5E0
     int GetUpdateOutputSize(int len);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1E3DEF0
+    // Offset: 0x1E2E5E8
     int GetOutputSize(int len);
     // public System.Int32 ProcessPacket(System.Byte[] input, System.Int32 inOff, System.Int32 inLen, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E3DF48
+    // Offset: 0x1E2E640
     int ProcessPacket(::ArrayW<uint8_t> input, int inOff, int inLen, ::ArrayW<uint8_t> output, int outOff);
     // private System.Int32 CalculateMac(System.Byte[] data, System.Int32 dataOff, System.Int32 dataLen, System.Byte[] macBlock)
-    // Offset: 0x1E3E840
+    // Offset: 0x1E2EF38
     int CalculateMac(::ArrayW<uint8_t> data, int dataOff, int dataLen, ::ArrayW<uint8_t> macBlock);
     // private System.Int32 GetMacSize(System.Boolean forEncryption, System.Int32 requestedMacBits)
-    // Offset: 0x1E3DB54
+    // Offset: 0x1E2E24C
     int GetMacSize(bool forEncryption, int requestedMacBits);
     // private System.Int32 GetAssociatedTextLength()
-    // Offset: 0x1E3F1A8
+    // Offset: 0x1E2F8A0
     int GetAssociatedTextLength();
     // private System.Boolean HasAssociatedText()
-    // Offset: 0x1E3F18C
+    // Offset: 0x1E2F884
     bool HasAssociatedText();
   }; // Org.BouncyCastle.Crypto.Modes.CcmBlockCipher
   #pragma pack(pop)

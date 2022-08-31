@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: loadFromColorScheme and: environmentColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10F0D68
+    // [DrawIfAttribute] Offset: 0x10F8E34
     // public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
     // Size: 0x4
     // Offset: 0x14
     ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10F0E00
+    // [DrawIfAttribute] Offset: 0x10F8ECC
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x18
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10F0E98
+    // [DrawIfAttribute] Offset: 0x10F8F64
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x1C
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x13509DC
+    // Offset: 0x13563B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element::.ctor");

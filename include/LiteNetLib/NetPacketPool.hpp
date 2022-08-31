@@ -68,26 +68,26 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int32 _count
     [[deprecated("Use field access instead!")]] int& dyn__count();
     // public System.Void .ctor()
-    // Offset: 0x21B6490
+    // Offset: 0x21AF94C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketPool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacketPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketPool*, creationType>()));
     }
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x21BA648
+    // Offset: 0x21B3B04
     ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int start, int length);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
-    // Offset: 0x21B860C
+    // Offset: 0x21B1AC8
     ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int size);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property)
-    // Offset: 0x21B90A8
+    // Offset: 0x21B2564
     ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
     // public LiteNetLib.NetPacket GetPacket(System.Int32 size)
-    // Offset: 0x21B6CE8
+    // Offset: 0x21B01A4
     ::LiteNetLib::NetPacket* GetPacket(int size);
     // public System.Void Recycle(LiteNetLib.NetPacket packet)
-    // Offset: 0x21B6B68
+    // Offset: 0x21B0024
     void Recycle(::LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPacketPool
   #pragma pack(pop)

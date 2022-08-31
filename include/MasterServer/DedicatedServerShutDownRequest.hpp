@@ -81,38 +81,38 @@ namespace MasterServer {
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
-    // Offset: 0x1733310
+    // Offset: 0x17346CC
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerShutDownRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x1733358
+    // Offset: 0x1734714
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x1733360
+    // Offset: 0x173471C
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x1733368
+    // Offset: 0x1734724
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x1733370
+    // Offset: 0x173472C
     void set_dedicatedServerCreationTime(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1733468
+    // Offset: 0x1734824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerShutDownRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerShutDownRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerShutDownRequest*, creationType>()));
     }
     // public MasterServer.DedicatedServerShutDownRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x1733378
+    // Offset: 0x1734734
     ::MasterServer::DedicatedServerShutDownRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1733380
+    // Offset: 0x173473C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x17333C4
+    // Offset: 0x1734780
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x173340C
+    // Offset: 0x17347C8
     void Release();
   }; // MasterServer.DedicatedServerShutDownRequest
   #pragma pack(pop)

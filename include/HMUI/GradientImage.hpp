@@ -67,42 +67,42 @@ namespace HMUI {
     // Field size check
     static_assert(sizeof(::HMUI::CurvedCanvasSettingsHelper*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA544
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D2564
     // Get static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static ::UnityEngine::Vector2 _get_kVec2Zero();
     // Set static field: static private readonly UnityEngine.Vector2 kVec2Zero
     static void _set_kVec2Zero(::UnityEngine::Vector2 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA554
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D2574
     // Get static field: static private readonly UnityEngine.Vector3 kVec3Zero
     static ::UnityEngine::Vector3 _get_kVec3Zero();
     // Set static field: static private readonly UnityEngine.Vector3 kVec3Zero
     static void _set_kVec3Zero(::UnityEngine::Vector3 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA564
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D2584
     // Get static field: static private readonly UnityEngine.Vector4 kVec4Zero
     static ::UnityEngine::Vector4 _get_kVec4Zero();
     // Set static field: static private readonly UnityEngine.Vector4 kVec4Zero
     static void _set_kVec4Zero(::UnityEngine::Vector4 value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA574
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D2594
     // Get static field: static private readonly UnityEngine.Vector2[] s_VertScratch
     static ::ArrayW<::UnityEngine::Vector2> _get_s_VertScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_VertScratch
     static void _set_s_VertScratch(::ArrayW<::UnityEngine::Vector2> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA584
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D25A4
     // Get static field: static private readonly UnityEngine.Vector2[] s_UVScratch
     static ::ArrayW<::UnityEngine::Vector2> _get_s_UVScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_UVScratch
     static void _set_s_UVScratch(::ArrayW<::UnityEngine::Vector2> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA594
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D25B4
     // Get static field: static private readonly UnityEngine.Color[] s_ColorScratch
     static ::ArrayW<::UnityEngine::Color> _get_s_ColorScratch();
     // Set static field: static private readonly UnityEngine.Color[] s_ColorScratch
     static void _set_s_ColorScratch(::ArrayW<::UnityEngine::Color> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA5A4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D25C4
     // Get static field: static private readonly UnityEngine.Vector3[] s_Xy
     static ::ArrayW<::UnityEngine::Vector3> _get_s_Xy();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Xy
     static void _set_s_Xy(::ArrayW<::UnityEngine::Vector3> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CA5B4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D25D4
     // Get static field: static private readonly UnityEngine.Vector3[] s_Uv
     static ::ArrayW<::UnityEngine::Vector3> _get_s_Uv();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
@@ -114,62 +114,62 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     [[deprecated("Use field access instead!")]] ::HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public UnityEngine.Color get_color0()
-    // Offset: 0x1706A24
+    // Offset: 0x1706DE0
     ::UnityEngine::Color get_color0();
     // public System.Void set_color0(UnityEngine.Color value)
-    // Offset: 0x1706A34
+    // Offset: 0x1706DF0
     void set_color0(::UnityEngine::Color value);
     // public UnityEngine.Color get_color1()
-    // Offset: 0x1706A7C
+    // Offset: 0x1706E38
     ::UnityEngine::Color get_color1();
     // public System.Void set_color1(UnityEngine.Color value)
-    // Offset: 0x1706A90
+    // Offset: 0x1706E4C
     void set_color1(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x170ACC0
+    // Offset: 0x170B07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GradientImage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::GradientImage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GradientImage*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x170AD48
+    // Offset: 0x170B104
     static void _cctor();
     // private System.Void GenerateSimpleSprite(UnityEngine.UI.VertexHelper vh, System.Boolean lPreserveAspect, System.Single curvedUIRadius)
-    // Offset: 0x1706C60
+    // Offset: 0x170701C
     void GenerateSimpleSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect, float curvedUIRadius);
     // private System.Void GenerateSlicedSprite(UnityEngine.UI.VertexHelper vh, System.Single curvedUIRadius)
-    // Offset: 0x17070E8
+    // Offset: 0x17074A4
     void GenerateSlicedSprite(::UnityEngine::UI::VertexHelper* vh, float curvedUIRadius);
     // private System.Void GenerateTiledSprite(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x1707AE8
+    // Offset: 0x1707EA4
     void GenerateTiledSprite(::UnityEngine::UI::VertexHelper* toFill);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
-    // Offset: 0x170A454
+    // Offset: 0x170A810
     static void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<::UnityEngine::Vector3> quadPositions, ::UnityEngine::Color32 color, ::ArrayW<::UnityEngine::Vector3> quadUVs);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax)
-    // Offset: 0x170A248
+    // Offset: 0x170A604
     static void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uvMin, ::UnityEngine::Vector2 uvMax);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color0, UnityEngine.Color32 color1, UnityEngine.Vector2 uv0Min, UnityEngine.Vector2 uv0Max, System.Single elementWidthScale, System.Single curvedUIRadius)
-    // Offset: 0x1709E90
+    // Offset: 0x170A24C
     static void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color0, ::UnityEngine::Color32 color1, ::UnityEngine::Vector2 uv0Min, ::UnityEngine::Vector2 uv0Max, float elementWidthScale, float curvedUIRadius);
     // private UnityEngine.Vector4 GetAdjustedBorders(UnityEngine.Vector4 border, UnityEngine.Rect rect)
-    // Offset: 0x1709D74
+    // Offset: 0x170A130
     ::UnityEngine::Vector4 GetAdjustedBorders(::UnityEngine::Vector4 border, ::UnityEngine::Rect rect);
     // private System.Void GenerateFilledSprite(UnityEngine.UI.VertexHelper toFill, System.Boolean preserveAspect)
-    // Offset: 0x1708A94
+    // Offset: 0x1708E50
     void GenerateFilledSprite(::UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
     // static private System.Boolean RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x170A5DC
+    // Offset: 0x170A998
     static bool RadialCut(::ArrayW<::UnityEngine::Vector3> xy, ::ArrayW<::UnityEngine::Vector3> uv, float fill, bool invert, int corner);
     // static private System.Void RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
-    // Offset: 0x170A748
+    // Offset: 0x170AB04
     static void RadialCut(::ArrayW<::UnityEngine::Vector3> xy, float cos, float sin, bool invert, int corner);
     // private UnityEngine.Vector4 GetDrawingDimensions(System.Boolean shouldPreserveAspect)
-    // Offset: 0x17098D0
+    // Offset: 0x1709C8C
     ::UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
-    // Offset: 0x1706AD8
+    // Offset: 0x1706E94
     // Implemented from: UnityEngine.UI.Image
     // Base method: System.Void Image::OnPopulateMesh(UnityEngine.UI.VertexHelper toFill)
     void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);

@@ -65,34 +65,34 @@ namespace System {
     // Get instance field reference: private System.Collections.IComparer comparer
     [[deprecated("Use field access instead!")]] ::System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0x1EBB7F8
+    // Offset: 0x1EB349C
     // ABORTED: conflicts with another method.  SorterGenericArray(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
-    // Offset: 0x1EBB9EC
+    // Offset: 0x1EB3690
     void SwapIfGreaterWithItems(int a, int b);
     // private System.Void Swap(System.Int32 i, System.Int32 j)
-    // Offset: 0x1EBBBA4
+    // Offset: 0x1EB3848
     void Swap(int i, int j);
     // System.Void Sort(System.Int32 left, System.Int32 length)
-    // Offset: 0x1EBB88C
+    // Offset: 0x1EB3530
     void Sort(int left, int length);
     // private System.Void IntrospectiveSort(System.Int32 left, System.Int32 length)
-    // Offset: 0x1EBBC80
+    // Offset: 0x1EB3924
     void IntrospectiveSort(int left, int length);
     // private System.Void IntroSort(System.Int32 lo, System.Int32 hi, System.Int32 depthLimit)
-    // Offset: 0x1EBBDF4
+    // Offset: 0x1EB3A98
     void IntroSort(int lo, int hi, int depthLimit);
     // private System.Int32 PickPivotAndPartition(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1EBC1A8
+    // Offset: 0x1EB3E4C
     int PickPivotAndPartition(int lo, int hi);
     // private System.Void Heapsort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1EBC0F4
+    // Offset: 0x1EB3D98
     void Heapsort(int lo, int hi);
     // private System.Void DownHeap(System.Int32 i, System.Int32 n, System.Int32 lo)
-    // Offset: 0x1EBC3D0
+    // Offset: 0x1EB4074
     void DownHeap(int i, int n, int lo);
     // private System.Void InsertionSort(System.Int32 lo, System.Int32 hi)
-    // Offset: 0x1EBBF20
+    // Offset: 0x1EB3BC4
     void InsertionSort(int lo, int hi);
   }; // System.Array/System.SorterGenericArray
   #pragma pack(pop)

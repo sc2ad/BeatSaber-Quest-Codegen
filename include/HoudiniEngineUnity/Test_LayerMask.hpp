@@ -53,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.LayerMask self
     [[deprecated("Use field access instead!")]] ::UnityEngine::LayerMask& dyn_self();
     // public System.Void .ctor(UnityEngine.LayerMask self)
-    // Offset: 0x2AA4F68
+    // Offset: 0x2AC079C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LayerMask* New_ctor(::UnityEngine::LayerMask self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_LayerMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LayerMask*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_LayerMask other)
-    // Offset: 0x2AA4F94
+    // Offset: 0x2AC07C8
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
   }; // HoudiniEngineUnity.Test_LayerMask
   #pragma pack(pop)

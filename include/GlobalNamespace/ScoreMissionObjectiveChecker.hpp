@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
     public:
-    // [InjectAttribute] Offset: 0x10E2598
+    // [InjectAttribute] Offset: 0x10EA5D8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IScoreController _scoreController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void OnDestroy()
-    // Offset: 0x146118C
+    // Offset: 0x14B5870
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x146128C
+    // Offset: 0x14B5970
     void HandleScoreDidChange(int multipliedScore, int modifiedScore);
     // public System.Void .ctor()
-    // Offset: 0x1461474
+    // Offset: 0x14B5B58
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x14612B8
+    // Offset: 0x14B599C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

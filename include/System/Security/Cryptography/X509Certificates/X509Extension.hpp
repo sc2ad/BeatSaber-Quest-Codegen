@@ -45,23 +45,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Boolean _critical
     [[deprecated("Use field access instead!")]] bool& dyn__critical();
     // public System.Boolean get_Critical()
-    // Offset: 0x1BFCCD4
+    // Offset: 0x1BEF7F8
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x1BFCCDC
+    // Offset: 0x1BEF800
     void set_Critical(bool value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x1BFCCA4
+    // Offset: 0x1BEF7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x1BF0E3C
+    // Offset: 0x1BE3960
     ::StringW FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
-    // Offset: 0x1BF03A4
+    // Offset: 0x1BE2EC8
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,7 +70,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1BFCCE8
+    // Offset: 0x1BEF80C
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);

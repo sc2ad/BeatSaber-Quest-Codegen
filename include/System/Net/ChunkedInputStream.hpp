@@ -88,32 +88,32 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean no_more_data
     [[deprecated("Use field access instead!")]] bool& dyn_no_more_data();
     // public System.Void .ctor(System.Net.HttpListenerContext context, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1A74E3C
+    // Offset: 0x1A7A7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ChunkedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream*, creationType>(context, stream, buffer, offset, length)));
     }
     // private System.Void OnRead(System.IAsyncResult base_ares)
-    // Offset: 0x1A75298
+    // Offset: 0x1A7AC20
     void OnRead(::System::IAsyncResult* base_ares);
     // public override System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1A74F40
+    // Offset: 0x1A7A8C8
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
-    // Offset: 0x1A74F88
+    // Offset: 0x1A7A910
     // Implemented from: System.Net.RequestStream
     // Base method: System.IAsyncResult RequestStream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
     ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int count, ::System::AsyncCallback* cback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult ares)
-    // Offset: 0x1A7562C
+    // Offset: 0x1A7AFB4
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::EndRead(System.IAsyncResult ares)
     int EndRead(::System::IAsyncResult* ares);
     // public override System.Void Close()
-    // Offset: 0x1A758BC
+    // Offset: 0x1A7B244
     // Implemented from: System.Net.RequestStream
     // Base method: System.Void RequestStream::Close()
     void Close();

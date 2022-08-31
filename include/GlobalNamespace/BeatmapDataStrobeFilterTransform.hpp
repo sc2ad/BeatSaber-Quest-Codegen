@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
-    // Offset: 0x1505B90
+    // Offset: 0x15296EC
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
     // static private System.Int32 GetOnEventDataValue(EnvironmentColorType lightColorType)
-    // Offset: 0x1506408
+    // Offset: 0x1529F64
     static int GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
     // static private System.Int32 GetFlashAndFadeToBlackEventDataValue(EnvironmentColorType lightColorType)
-    // Offset: 0x150642C
+    // Offset: 0x1529F88
     static int GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)

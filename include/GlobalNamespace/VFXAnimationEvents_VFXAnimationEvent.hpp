@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // public System.String get_name()
-    // Offset: 0x2A3EC10
+    // Offset: 0x2A67D34
     ::StringW get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x2A3EC18
+    // Offset: 0x2A67D3C
     ::ArrayW<::UnityEngine::ParticleSystem*> get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x2A3EC20
+    // Offset: 0x2A67D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXAnimationEvents::VFXAnimationEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::.ctor");

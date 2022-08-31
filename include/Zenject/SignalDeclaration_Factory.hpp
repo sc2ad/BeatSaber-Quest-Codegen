@@ -35,7 +35,7 @@ namespace Zenject {
   class SignalDeclaration::Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D1F2AC
+    // Offset: 0x1D141A4
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: System.Void PlaceholderFactory_2::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()
@@ -45,12 +45,12 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SignalDeclaration::Factory*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D1F2FC
+    // Offset: 0x1D141F4
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: System.Object PlaceholderFactory_2::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D1F354
+    // Offset: 0x1D1424C
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: Zenject.InjectTypeInfo PlaceholderFactory_2::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo PlaceholderFactoryBase_1::__zenCreateInjectTypeInfo()

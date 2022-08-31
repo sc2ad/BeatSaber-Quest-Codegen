@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String code
     [[deprecated("Use field access instead!")]] ::StringW& dyn_code();
     // public System.Void .ctor()
-    // Offset: 0x1739210
+    // Offset: 0x173A5CC
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,17 +52,17 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Int32 _locked
     [[deprecated("Use field access instead!")]] int& dyn__locked();
     // public System.Void .ctor()
-    // Offset: 0x1DEC9C4
+    // Offset: 0x1DFACDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::SharedReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedReference*, creationType>()));
     }
     // System.Object Get()
-    // Offset: 0x1DEC90C
+    // Offset: 0x1DFAC24
     ::Il2CppObject* Get();
     // System.Void Cache(System.Object obj)
-    // Offset: 0x1DEC964
+    // Offset: 0x1DFAC7C
     void Cache(::Il2CppObject* obj);
   }; // System.Text.RegularExpressions.SharedReference
   #pragma pack(pop)

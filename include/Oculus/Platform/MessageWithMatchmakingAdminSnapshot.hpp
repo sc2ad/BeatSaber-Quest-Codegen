@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingAdminSnapshot : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MatchmakingAdminSnapshot*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingAdminSnapshot GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19EC69C
+    // Offset: 0x19F24A0
     ::Oculus::Platform::Models::MatchmakingAdminSnapshot* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19E5EFC
+    // Offset: 0x19EBD00
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMatchmakingAdminSnapshot*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.MatchmakingAdminSnapshot GetMatchmakingAdminSnapshot()
-    // Offset: 0x19EC658
+    // Offset: 0x19F245C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingAdminSnapshot Message::GetMatchmakingAdminSnapshot()
     ::Oculus::Platform::Models::MatchmakingAdminSnapshot* GetMatchmakingAdminSnapshot();

@@ -50,13 +50,13 @@ namespace System::Threading {
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next
     [[deprecated("Use field access instead!")]] ::System::Threading::SemaphoreSlim::TaskNode*& dyn_Next();
     // private System.Void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
-    // Offset: 0x1DD5780
+    // Offset: 0x1DE3A98
     void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
     // private System.Void System.Threading.IThreadPoolWorkItem.MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DD57D4
+    // Offset: 0x1DE3AEC
     void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
     // System.Void .ctor()
-    // Offset: 0x1DD4590
+    // Offset: 0x1DE28A8
     // Implemented from: System.Threading.Tasks.Task`1
     // Base method: System.Void Task_1::.ctor()
     // Base method: System.Void Task::.ctor()

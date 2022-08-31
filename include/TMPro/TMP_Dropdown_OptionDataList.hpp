@@ -46,13 +46,13 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>*& dyn_m_Options();
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> get_options()
-    // Offset: 0x1428F20
+    // Offset: 0x14451FC
     ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> value)
-    // Offset: 0x1428F28
+    // Offset: 0x1445204
     void set_options(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1426684
+    // Offset: 0x1442960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionDataList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionDataList::.ctor");

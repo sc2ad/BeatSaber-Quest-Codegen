@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class NoteCutSoundEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14CF460
+    // Offset: 0x14F0004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffect::Pool::.ctor");

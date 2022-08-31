@@ -47,7 +47,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Object particle2
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle2();
     // public System.Void .ctor(System.Object particle1, System.Object particle2)
-    // Offset: 0x1C64B14
+    // Offset: 0x1C56638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UpaException* New_ctor(::Il2CppObject* particle1, ::Il2CppObject* particle2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::UpaException::.ctor");

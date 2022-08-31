@@ -24,7 +24,7 @@ namespace LiteNetLib::Utils {
   class NetSerializer::CustomType : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2AECB60
+    // Offset: 0x2B0C394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer::CustomType* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetSerializer::CustomType::.ctor");

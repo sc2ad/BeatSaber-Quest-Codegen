@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithLivestreamingApplicationStatus : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingApplicationStatus*> {
     public:
     // protected Oculus.Platform.Models.LivestreamingApplicationStatus GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19EBFC8
+    // Offset: 0x19F1DCC
     ::Oculus::Platform::Models::LivestreamingApplicationStatus* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19EBF24
+    // Offset: 0x19F1D28
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLivestreamingApplicationStatus*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LivestreamingApplicationStatus GetLivestreamingApplicationStatus()
-    // Offset: 0x19EBF84
+    // Offset: 0x19F1D88
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LivestreamingApplicationStatus Message::GetLivestreamingApplicationStatus()
     ::Oculus::Platform::Models::LivestreamingApplicationStatus* GetLivestreamingApplicationStatus();

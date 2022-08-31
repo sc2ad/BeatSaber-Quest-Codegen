@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   class LightRotationGroup : public ::GlobalNamespace::LightGroupSubsystem {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10E0090
+    // [SpaceAttribute] Offset: 0x10E80D0
     // private System.Boolean _mirrorX
     // Size: 0x1
     // Offset: 0x20
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform[] _yTransforms
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__yTransforms();
     // public System.Boolean get_mirrorX()
-    // Offset: 0x14BC910
+    // Offset: 0x14DC4B4
     bool get_mirrorX();
     // public System.Boolean get_mirrorY()
-    // Offset: 0x14BC918
+    // Offset: 0x14DC4BC
     bool get_mirrorY();
     // public UnityEngine.Transform[] get_xTransforms()
-    // Offset: 0x14BC920
+    // Offset: 0x14DC4C4
     ::ArrayW<::UnityEngine::Transform*> get_xTransforms();
     // public UnityEngine.Transform[] get_yTransforms()
-    // Offset: 0x14BC928
+    // Offset: 0x14DC4CC
     ::ArrayW<::UnityEngine::Transform*> get_yTransforms();
     // public System.Void .ctor()
-    // Offset: 0x14BC930
+    // Offset: 0x14DC4D4
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

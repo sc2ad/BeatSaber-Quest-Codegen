@@ -52,13 +52,13 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleTypeContent content
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSimpleTypeContent*& dyn_content();
     // public System.Xml.Schema.XmlSchemaSimpleTypeContent get_Content()
-    // Offset: 0x20625A0
+    // Offset: 0x20923B4
     ::System::Xml::Schema::XmlSchemaSimpleTypeContent* get_Content();
     // public System.Void set_Content(System.Xml.Schema.XmlSchemaSimpleTypeContent value)
-    // Offset: 0x20625A8
+    // Offset: 0x20923BC
     void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
     // public System.Void .ctor()
-    // Offset: 0x206259C
+    // Offset: 0x20923B0
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

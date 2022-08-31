@@ -53,20 +53,20 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: System.Int32 m_count
     [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x18F26DC
+    // Offset: 0x18F6CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
-    // Offset: 0x18F2750
+    // Offset: 0x18F6D4C
     void Add(::System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
-    // Offset: 0x18F2804
+    // Offset: 0x18F6E00
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x18F26D4
+    // Offset: 0x18F6CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

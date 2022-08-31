@@ -30,35 +30,35 @@ namespace UnityEngine::ProBuilder {
   class UnwrapParameters : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1111270
-    // [RangeAttribute] Offset: 0x1111270
-    // [FormerlySerializedAsAttribute] Offset: 0x1111270
+    // [TooltipAttribute] Offset: 0x111938C
+    // [RangeAttribute] Offset: 0x111938C
+    // [FormerlySerializedAsAttribute] Offset: 0x111938C
     // private System.Single m_HardAngle
     // Size: 0x4
     // Offset: 0x10
     float m_HardAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x11112FC
-    // [RangeAttribute] Offset: 0x11112FC
-    // [FormerlySerializedAsAttribute] Offset: 0x11112FC
+    // [TooltipAttribute] Offset: 0x1119418
+    // [RangeAttribute] Offset: 0x1119418
+    // [FormerlySerializedAsAttribute] Offset: 0x1119418
     // private System.Single m_PackMargin
     // Size: 0x4
     // Offset: 0x14
     float m_PackMargin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1111388
-    // [RangeAttribute] Offset: 0x1111388
-    // [FormerlySerializedAsAttribute] Offset: 0x1111388
+    // [TooltipAttribute] Offset: 0x11194A4
+    // [RangeAttribute] Offset: 0x11194A4
+    // [FormerlySerializedAsAttribute] Offset: 0x11194A4
     // private System.Single m_AngleError
     // Size: 0x4
     // Offset: 0x18
     float m_AngleError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1111414
-    // [FormerlySerializedAsAttribute] Offset: 0x1111414
+    // [RangeAttribute] Offset: 0x1119530
+    // [FormerlySerializedAsAttribute] Offset: 0x1119530
     // private System.Single m_AreaError
     // Size: 0x4
     // Offset: 0x1C
@@ -99,48 +99,48 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Single m_AreaError
     [[deprecated("Use field access instead!")]] float& dyn_m_AreaError();
     // public System.Single get_hardAngle()
-    // Offset: 0x29B9D48
+    // Offset: 0x299E774
     float get_hardAngle();
     // public System.Void set_hardAngle(System.Single value)
-    // Offset: 0x29B9D50
+    // Offset: 0x299E77C
     void set_hardAngle(float value);
     // public System.Single get_packMargin()
-    // Offset: 0x29B9D58
+    // Offset: 0x299E784
     float get_packMargin();
     // public System.Void set_packMargin(System.Single value)
-    // Offset: 0x29B9D60
+    // Offset: 0x299E78C
     void set_packMargin(float value);
     // public System.Single get_angleError()
-    // Offset: 0x29B9D68
+    // Offset: 0x299E794
     float get_angleError();
     // public System.Void set_angleError(System.Single value)
-    // Offset: 0x29B9D70
+    // Offset: 0x299E79C
     void set_angleError(float value);
     // public System.Single get_areaError()
-    // Offset: 0x29B9D78
+    // Offset: 0x299E7A4
     float get_areaError();
     // public System.Void set_areaError(System.Single value)
-    // Offset: 0x29B9D80
+    // Offset: 0x299E7AC
     void set_areaError(float value);
     // public System.Void .ctor()
-    // Offset: 0x29B9D88
+    // Offset: 0x299E7B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnwrapParameters* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::UnwrapParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.UnwrapParameters other)
-    // Offset: 0x29B9DDC
+    // Offset: 0x299E808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::UnwrapParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnwrapParameters*, creationType>(other)));
     }
     // public System.Void Reset()
-    // Offset: 0x29B9DCC
+    // Offset: 0x299E7F8
     void Reset();
     // public override System.String ToString()
-    // Offset: 0x29B9EA0
+    // Offset: 0x299E8CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

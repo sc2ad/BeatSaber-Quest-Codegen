@@ -52,14 +52,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& dyn_remove();
     // public System.Void .ctor()
-    // Offset: 0x1C3E5B4
+    // Offset: 0x1C300D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MergeElements::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Boolean <MergePairs>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1C3F054
+    // Offset: 0x1C30B78
     bool $MergePairs$b__0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)

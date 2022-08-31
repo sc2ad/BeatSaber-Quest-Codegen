@@ -61,26 +61,26 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _requestCancellationTokenRegistration
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenRegistration& dyn__requestCancellationTokenRegistration();
     // public System.Threading.Tasks.Task get_task()
-    // Offset: 0x155A020
+    // Offset: 0x158F048
     ::System::Threading::Tasks::Task* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x155A070
+    // Offset: 0x158F098
     bool get_isWaiting();
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x1559F04
+    // Offset: 0x158EF2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::SentRequestWaiter* New_ctor(::System::Threading::CancellationToken disposedCancellationToken, ::System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::SentRequestWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::SentRequestWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(System.Boolean handled)
-    // Offset: 0x1557D1C
+    // Offset: 0x158CD44
     void Complete(bool handled);
     // public System.Void Cancel()
-    // Offset: 0x155A0E0
+    // Offset: 0x158F108
     void Cancel();
     // public override System.Void Dispose()
-    // Offset: 0x155B5E4
+    // Offset: 0x159060C
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();

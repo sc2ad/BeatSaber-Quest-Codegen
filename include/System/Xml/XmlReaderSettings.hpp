@@ -216,77 +216,77 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean <IsXmlResolverSet>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsXmlResolverSet$k__BackingField();
     // public System.Void set_NameTable(System.Xml.XmlNameTable value)
-    // Offset: 0x15E7A14
+    // Offset: 0x15E063C
     void set_NameTable(::System::Xml::XmlNameTable* value);
     // System.Void set_IsXmlResolverSet(System.Boolean value)
-    // Offset: 0x15E7B4C
+    // Offset: 0x15E0774
     void set_IsXmlResolverSet(bool value);
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
-    // Offset: 0x15E7B58
+    // Offset: 0x15E0780
     void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Void set_LineNumberOffset(System.Int32 value)
-    // Offset: 0x15E7BCC
+    // Offset: 0x15E07F4
     void set_LineNumberOffset(int value);
     // public System.Void set_LinePositionOffset(System.Int32 value)
-    // Offset: 0x15E7C30
+    // Offset: 0x15E0858
     void set_LinePositionOffset(int value);
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x15E7C94
+    // Offset: 0x15E08BC
     void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
     // public System.Void set_CheckCharacters(System.Boolean value)
-    // Offset: 0x15E7D3C
+    // Offset: 0x15E0964
     void set_CheckCharacters(bool value);
     // public System.Void set_MaxCharactersInDocument(System.Int64 value)
-    // Offset: 0x15E7DA4
+    // Offset: 0x15E09CC
     void set_MaxCharactersInDocument(int64_t value);
     // public System.Void set_MaxCharactersFromEntities(System.Int64 value)
-    // Offset: 0x15E7E48
+    // Offset: 0x15E0A70
     void set_MaxCharactersFromEntities(int64_t value);
     // public System.Void set_IgnoreWhitespace(System.Boolean value)
-    // Offset: 0x15E7EEC
+    // Offset: 0x15E0B14
     void set_IgnoreWhitespace(bool value);
     // public System.Void set_IgnoreProcessingInstructions(System.Boolean value)
-    // Offset: 0x15E7F54
+    // Offset: 0x15E0B7C
     void set_IgnoreProcessingInstructions(bool value);
     // public System.Void set_IgnoreComments(System.Boolean value)
-    // Offset: 0x15E7FBC
+    // Offset: 0x15E0BE4
     void set_IgnoreComments(bool value);
     // public System.Void set_DtdProcessing(System.Xml.DtdProcessing value)
-    // Offset: 0x15E8024
+    // Offset: 0x15E0C4C
     void set_DtdProcessing(::System::Xml::DtdProcessing value);
     // public System.Xml.ValidationType get_ValidationType()
-    // Offset: 0x15E80CC
+    // Offset: 0x15E0CF4
     ::System::Xml::ValidationType get_ValidationType();
     // public System.Xml.Schema.XmlSchemaSet get_Schemas()
-    // Offset: 0x15DD03C
+    // Offset: 0x15D5C64
     ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x15E80D4
+    // Offset: 0x15E0CFC
     void set_ReadOnly(bool value);
     // public System.Void .ctor()
-    // Offset: 0x15E79E0
+    // Offset: 0x15E0608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlReaderSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlReaderSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReaderSettings*, creationType>()));
     }
     // System.Xml.XmlResolver GetXmlResolver()
-    // Offset: 0x15E7BC4
+    // Offset: 0x15E07EC
     ::System::Xml::XmlResolver* GetXmlResolver();
     // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x15E7A78
+    // Offset: 0x15E06A0
     void CheckReadOnly(::StringW propertyName);
     // private System.Void Initialize()
-    // Offset: 0x15E7A0C
+    // Offset: 0x15E0634
     void Initialize();
     // private System.Void Initialize(System.Xml.XmlResolver resolver)
-    // Offset: 0x15E80E0
+    // Offset: 0x15E0D08
     void Initialize(::System::Xml::XmlResolver* resolver);
     // static private System.Xml.XmlResolver CreateDefaultResolver()
-    // Offset: 0x15E8150
+    // Offset: 0x15E0D78
     static ::System::Xml::XmlResolver* CreateDefaultResolver();
     // static System.Boolean EnableLegacyXmlSettings()
-    // Offset: 0x15E81AC
+    // Offset: 0x15E0DD4
     static bool EnableLegacyXmlSettings();
   }; // System.Xml.XmlReaderSettings
   #pragma pack(pop)

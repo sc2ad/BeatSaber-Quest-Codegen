@@ -39,7 +39,7 @@ namespace HMUI {
     // Get instance field reference: private System.String _formatString
     [[deprecated("Use field access instead!")]] ::StringW& dyn__formatString();
     // public System.Void .ctor()
-    // Offset: 0x1702D30
+    // Offset: 0x17030EC
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -49,7 +49,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CustomFormatRangeValuesSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1702CB8
+    // Offset: 0x1703074
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::StringW TextForValue(float value);

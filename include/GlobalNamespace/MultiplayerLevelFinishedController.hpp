@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19
     class $StartLevelFinished$d__19;
     public:
-    // [InjectAttribute] Offset: 0x10E2338
+    // [InjectAttribute] Offset: 0x10EA378
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E2348
+    // [InjectAttribute] Offset: 0x10EA388
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E2358
+    // [InjectAttribute] Offset: 0x10EA398
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x28
@@ -141,44 +141,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _sceneLoadTime
     [[deprecated("Use field access instead!")]] float& dyn__sceneLoadTime();
     // public System.Boolean get_gameResultsReady()
-    // Offset: 0x1411914
+    // Offset: 0x142DBF0
     bool get_gameResultsReady();
     // public System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> get_otherPlayersCompletionResults()
-    // Offset: 0x141191C
+    // Offset: 0x142DBF8
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
     // public MultiplayerLevelCompletionResults get_localPlayerResults()
-    // Offset: 0x1411924
+    // Offset: 0x142DC00
     ::GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
     // public System.Void add_allResultsCollectedEvent(System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> value)
-    // Offset: 0x140997C
+    // Offset: 0x1425C58
     void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
     // public System.Void remove_allResultsCollectedEvent(System.Action`2<MultiplayerLevelCompletionResults,System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults>> value)
-    // Offset: 0x1408CF4
+    // Offset: 0x1424FD0
     void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1411F90
+    // Offset: 0x142E26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelFinishedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelFinishedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelFinishedController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x141192C
+    // Offset: 0x142DC08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1411B70
+    // Offset: 0x142DE4C
     void OnDestroy();
     // private System.Collections.IEnumerator StartLevelFinished(MultiplayerLevelCompletionResults localPlayerResults)
-    // Offset: 0x1411DC0
+    // Offset: 0x142E09C
     ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x1411E68
+    // Offset: 0x142E144
     void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x1411E94
+    // Offset: 0x142E170
     void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void HandleRpcLevelFinished(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x1411F20
+    // Offset: 0x142E1FC
     void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
   }; // MultiplayerLevelFinishedController
   #pragma pack(pop)

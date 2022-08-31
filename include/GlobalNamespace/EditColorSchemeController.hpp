@@ -137,47 +137,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x1499450
+    // Offset: 0x149FE6C
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x14994F4
+    // Offset: 0x149FF10
     void remove_didFinishEvent(::System::Action* value);
     // public System.Void add_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x1499598
+    // Offset: 0x149FFB4
     void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
     // public System.Void remove_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x149963C
+    // Offset: 0x14A0058
     void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1499ED4
+    // Offset: 0x14A08F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditColorSchemeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditColorSchemeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditColorSchemeController*, creationType>()));
     }
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x14996E0
+    // Offset: 0x14A00FC
     void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Start()
-    // Offset: 0x14996FC
+    // Offset: 0x14A0118
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1499938
+    // Offset: 0x14A0354
     void OnDestroy();
     // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
-    // Offset: 0x1499B0C
+    // Offset: 0x14A0528
     void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
     // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1499B98
+    // Offset: 0x14A05B4
     void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1499CB4
+    // Offset: 0x14A06D0
     void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x1499DD0
+    // Offset: 0x14A07EC
     void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
     // private System.Void <Start>b__13_0()
-    // Offset: 0x1499EDC
+    // Offset: 0x14A08F8
     void $Start$b__13_0();
   }; // EditColorSchemeController
   #pragma pack(pop)

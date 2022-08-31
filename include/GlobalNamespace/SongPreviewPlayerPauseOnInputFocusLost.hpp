@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0x10D99CC
+    // [InjectAttribute] Offset: 0x10E19FC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -59,23 +59,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x13EF804
+    // Offset: 0x14597D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayerPauseOnInputFocusLost* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayerPauseOnInputFocusLost*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13EF3B0
+    // Offset: 0x145937C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13EF614
+    // Offset: 0x14595E0
     void OnDestroy();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x13EF5C0
+    // Offset: 0x145958C
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x13EF7B0
+    // Offset: 0x145977C
     void HandleInputFocusReleased();
   }; // SongPreviewPlayerPauseOnInputFocusLost
   #pragma pack(pop)

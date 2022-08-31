@@ -44,7 +44,7 @@ namespace HMUI {
     ::HMUI::NoTransitionsButton* button;
     // Field size check
     static_assert(sizeof(::HMUI::NoTransitionsButton*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10CA44C
+    // [SpaceAttribute] Offset: 0x10D246C
     // private UnityEngine.AnimationClip _normalClip
     // Size: 0x8
     // Offset: 0x20
@@ -91,26 +91,26 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _didStart
     [[deprecated("Use field access instead!")]] bool& dyn__didStart();
     // public System.Void .ctor()
-    // Offset: 0x16FF2F4
+    // Offset: 0x16FF6B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ButtonStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ButtonStaticAnimations*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x16FF034
+    // Offset: 0x16FF3F0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x16FF0C8
+    // Offset: 0x16FF484
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x16FF1FC
+    // Offset: 0x16FF5B8
     void OnEnable();
     // protected System.Void OnDestroy()
-    // Offset: 0x16FF218
+    // Offset: 0x16FF5D4
     void OnDestroy();
     // private System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x16FF0EC
+    // Offset: 0x16FF4A8
     void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);
   }; // HMUI.ButtonStaticAnimations
   #pragma pack(pop)

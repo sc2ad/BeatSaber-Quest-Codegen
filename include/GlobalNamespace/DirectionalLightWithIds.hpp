@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setIntensityOnly and: defaultColor
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10C71F4
+    // [DrawIfAttribute] Offset: 0x10CE214
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x54
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _defaultColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__defaultColor();
     // public System.Void .ctor()
-    // Offset: 0x1E7DC08
+    // Offset: 0x1E6E300
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLightWithIds*, creationType>()));
     }
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1E7DBB8
+    // Offset: 0x1E6E2B0
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

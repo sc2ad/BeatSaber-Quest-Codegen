@@ -169,15 +169,15 @@ namespace RootMotion::FinalIK {
     int lastLOD;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1104CCC
-    // [RangeAttribute] Offset: 0x1104CCC
+    // [TooltipAttribute] Offset: 0x110CDE8
+    // [RangeAttribute] Offset: 0x110CDE8
     // public System.Int32 LOD
     // Size: 0x4
     // Offset: 0xC4
     int LOD;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x1104D20
+    // [TooltipAttribute] Offset: 0x110CE3C
     // public System.Boolean plantFeet
     // Size: 0x1
     // Offset: 0xC8
@@ -192,42 +192,42 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* rootBone;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::VirtualBone*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104D68
+    // [TooltipAttribute] Offset: 0x110CE84
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Spine spine
     // Size: 0x8
     // Offset: 0xD8
     ::RootMotion::FinalIK::IKSolverVR::Spine* spine;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Spine*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104DA0
+    // [TooltipAttribute] Offset: 0x110CEBC
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm leftArm
     // Size: 0x8
     // Offset: 0xE0
     ::RootMotion::FinalIK::IKSolverVR::Arm* leftArm;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Arm*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104DD8
+    // [TooltipAttribute] Offset: 0x110CEF4
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm rightArm
     // Size: 0x8
     // Offset: 0xE8
     ::RootMotion::FinalIK::IKSolverVR::Arm* rightArm;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Arm*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104E10
+    // [TooltipAttribute] Offset: 0x110CF2C
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg leftLeg
     // Size: 0x8
     // Offset: 0xF0
     ::RootMotion::FinalIK::IKSolverVR::Leg* leftLeg;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Leg*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104E48
+    // [TooltipAttribute] Offset: 0x110CF64
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Leg rightLeg
     // Size: 0x8
     // Offset: 0xF8
     ::RootMotion::FinalIK::IKSolverVR::Leg* rightLeg;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::Leg*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1104E80
+    // [TooltipAttribute] Offset: 0x110CF9C
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Locomotion locomotion
     // Size: 0x8
     // Offset: 0x100
@@ -368,73 +368,73 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 debugPos4
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_debugPos4();
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone get_rootBone()
-    // Offset: 0x2204A00
+    // Offset: 0x21E60D8
     ::RootMotion::FinalIK::IKSolverVR::VirtualBone* get_rootBone();
     // private System.Void set_rootBone(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone value)
-    // Offset: 0x2204A08
+    // Offset: 0x21E60E0
     void set_rootBone(::RootMotion::FinalIK::IKSolverVR::VirtualBone* value);
     // public System.Void SetToReferences(RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
-    // Offset: 0x22001F8
+    // Offset: 0x21E18D0
     void SetToReferences(::RootMotion::FinalIK::VRIK::References* references);
     // public System.Void GuessHandOrientations(RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references, System.Boolean onlyIfZero)
-    // Offset: 0x2200634
+    // Offset: 0x21E1D0C
     void GuessHandOrientations(::RootMotion::FinalIK::VRIK::References* references, bool onlyIfZero);
     // public System.Void DefaultAnimationCurves()
-    // Offset: 0x22004DC
+    // Offset: 0x21E1BB4
     void DefaultAnimationCurves();
     // public System.Void AddPositionOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset, UnityEngine.Vector3 value)
-    // Offset: 0x2201020
+    // Offset: 0x21E26F8
     void AddPositionOffset(::RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset, ::UnityEngine::Vector3 value);
     // public System.Void AddRotationOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset, UnityEngine.Vector3 value)
-    // Offset: 0x22012FC
+    // Offset: 0x21E29D4
     void AddRotationOffset(::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
     // public System.Void AddRotationOffset(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset, UnityEngine.Quaternion value)
-    // Offset: 0x22013A0
+    // Offset: 0x21E2A78
     void AddRotationOffset(::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
     // public System.Void AddPlatformMotion(UnityEngine.Vector3 deltaPosition, UnityEngine.Quaternion deltaRotation, UnityEngine.Vector3 platformPivot)
-    // Offset: 0x2201534
+    // Offset: 0x21E2C0C
     void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
     // public System.Void Reset()
-    // Offset: 0x22016C0
+    // Offset: 0x21E2D98
     void Reset();
     // private UnityEngine.Vector3 GetNormal(UnityEngine.Transform[] transforms)
-    // Offset: 0x220255C
+    // Offset: 0x21E3C34
     ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*> transforms);
     // private UnityEngine.Vector3 GuessWristToPalmAxis(UnityEngine.Transform hand, UnityEngine.Transform forearm)
-    // Offset: 0x22008D4
+    // Offset: 0x21E1FAC
     ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
     // private UnityEngine.Vector3 GuessPalmToThumbAxis(UnityEngine.Transform hand, UnityEngine.Transform forearm)
-    // Offset: 0x2200AAC
+    // Offset: 0x21E2184
     ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
     // static private UnityEngine.Keyframe[] GetSineKeyframes(System.Single mag)
-    // Offset: 0x2200EFC
+    // Offset: 0x21E25D4
     static ::ArrayW<::UnityEngine::Keyframe> GetSineKeyframes(float mag);
     // private System.Void UpdateSolverTransforms()
-    // Offset: 0x2201838
+    // Offset: 0x21E2F10
     void UpdateSolverTransforms();
     // private System.Void WriteTransforms()
-    // Offset: 0x2203F88
+    // Offset: 0x21E5660
     void WriteTransforms();
     // private System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs)
-    // Offset: 0x22019A0
+    // Offset: 0x21E3078
     void Read(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
     // private System.Void Solve()
-    // Offset: 0x2202D4C
+    // Offset: 0x21E4424
     void Solve();
     // private UnityEngine.Vector3 GetPosition(System.Int32 index)
-    // Offset: 0x2204374
+    // Offset: 0x21E5A4C
     ::UnityEngine::Vector3 GetPosition(int index);
     // private UnityEngine.Quaternion GetRotation(System.Int32 index)
-    // Offset: 0x22043BC
+    // Offset: 0x21E5A94
     ::UnityEngine::Quaternion GetRotation(int index);
     // private System.Void Write()
-    // Offset: 0x2203E38
+    // Offset: 0x21E5510
     void Write();
     // private UnityEngine.Vector3 GetPelvisOffset()
-    // Offset: 0x2204400
+    // Offset: 0x21E5AD8
     ::UnityEngine::Vector3 GetPelvisOffset();
     // public System.Void .ctor()
-    // Offset: 0x2204A10
+    // Offset: 0x21E60E8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -443,37 +443,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR*, creationType>()));
     }
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x2201EE4
+    // Offset: 0x21E35BC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x2202058
+    // Offset: 0x21E3730
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x2202260
+    // Offset: 0x21E3938
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::ArrayW<::RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x22022D4
+    // Offset: 0x21E39AC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     ::RootMotion::FinalIK::IKSolver::Point* GetPoint(::UnityEngine::Transform* transform);
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x2202348
+    // Offset: 0x21E3A20
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::StringW> message);
     // protected override System.Void OnInitiate()
-    // Offset: 0x220283C
+    // Offset: 0x21E3F14
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x2202884
+    // Offset: 0x21E3F5C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();

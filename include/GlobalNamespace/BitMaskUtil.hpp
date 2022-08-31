@@ -24,16 +24,16 @@ namespace GlobalNamespace {
   class BitMaskUtil : public ::Il2CppObject {
     public:
     // static public System.UInt32 NumberOfSetBits(System.UInt64 i)
-    // Offset: 0x283DA18
+    // Offset: 0x28496C8
     static uint NumberOfSetBits(uint64_t i);
     // static public System.UInt32 NumberOfSetBits(System.UInt32 i)
-    // Offset: 0x2837CF4
+    // Offset: 0x28439A4
     static uint NumberOfSetBits(uint i);
     // static public System.UInt64 ShiftLeft(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x283DA7C
+    // Offset: 0x284972C
     static uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int> shift);
     // static public System.UInt64 ShiftRight(in System.UInt64 value, in System.Int32 shift)
-    // Offset: 0x283DAD0
+    // Offset: 0x2849780
     static uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int> shift);
   }; // BitMaskUtil
   #pragma pack(pop)

@@ -75,35 +75,35 @@ namespace System::Diagnostics {
     static ::System::Diagnostics::TraceEventType _get_Verbose();
     // Set static field: static public System.Diagnostics.TraceEventType Verbose
     static void _set_Verbose(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x1048ECC
+    // [EditorBrowsableAttribute] Offset: 0x104FEEC
     // static field const value: static public System.Diagnostics.TraceEventType Start
     static constexpr const int Start = 256;
     // Get static field: static public System.Diagnostics.TraceEventType Start
     static ::System::Diagnostics::TraceEventType _get_Start();
     // Set static field: static public System.Diagnostics.TraceEventType Start
     static void _set_Start(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x1048EE0
+    // [EditorBrowsableAttribute] Offset: 0x104FF00
     // static field const value: static public System.Diagnostics.TraceEventType Stop
     static constexpr const int Stop = 512;
     // Get static field: static public System.Diagnostics.TraceEventType Stop
     static ::System::Diagnostics::TraceEventType _get_Stop();
     // Set static field: static public System.Diagnostics.TraceEventType Stop
     static void _set_Stop(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x1048EF4
+    // [EditorBrowsableAttribute] Offset: 0x104FF14
     // static field const value: static public System.Diagnostics.TraceEventType Suspend
     static constexpr const int Suspend = 1024;
     // Get static field: static public System.Diagnostics.TraceEventType Suspend
     static ::System::Diagnostics::TraceEventType _get_Suspend();
     // Set static field: static public System.Diagnostics.TraceEventType Suspend
     static void _set_Suspend(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x1048F08
+    // [EditorBrowsableAttribute] Offset: 0x104FF28
     // static field const value: static public System.Diagnostics.TraceEventType Resume
     static constexpr const int Resume = 2048;
     // Get static field: static public System.Diagnostics.TraceEventType Resume
     static ::System::Diagnostics::TraceEventType _get_Resume();
     // Set static field: static public System.Diagnostics.TraceEventType Resume
     static void _set_Resume(::System::Diagnostics::TraceEventType value);
-    // [EditorBrowsableAttribute] Offset: 0x1048F1C
+    // [EditorBrowsableAttribute] Offset: 0x104FF3C
     // static field const value: static public System.Diagnostics.TraceEventType Transfer
     static constexpr const int Transfer = 4096;
     // Get static field: static public System.Diagnostics.TraceEventType Transfer

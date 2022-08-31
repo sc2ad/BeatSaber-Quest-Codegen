@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* outroPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E31B8
+    // [InjectAttribute] Offset: 0x10EB1F8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // public System.Void .ctor()
-    // Offset: 0x13B0F88
+    // Offset: 0x13A5B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerOutroAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerOutroAnimator*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13B0F48
+    // Offset: 0x13A5AC4
     void Start();
   }; // MultiplayerLocalInactivePlayerOutroAnimator
   #pragma pack(pop)

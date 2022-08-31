@@ -200,26 +200,26 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly System.Collections.IList ordering
     [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_ordering();
     // public System.Collections.IEnumerable get_ExtensionOids()
-    // Offset: 0x1F1D384
+    // Offset: 0x1F4BDFC
     ::System::Collections::IEnumerable* get_ExtensionOids();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F1CC78
+    // Offset: 0x1F4B6F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extensions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Extensions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extensions*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1F1D9F4
+    // Offset: 0x1F4C46C
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.X509.X509Extensions GetInstance(System.Object obj)
-    // Offset: 0x1F15764
+    // Offset: 0x1F441DC
     static ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.X509Extension GetExtension(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1F1D3EC
+    // Offset: 0x1F4BE64
     ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F1D4EC
+    // Offset: 0x1F4BF64
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

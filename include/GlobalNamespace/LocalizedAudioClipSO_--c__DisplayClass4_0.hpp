@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public Polyglot.Language language
     [[deprecated("Use field access instead!")]] ::Polyglot::Language& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x1545260
+    // Offset: 0x1568DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedAudioClipSO::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedAudioClipSO::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Boolean <get_localizedAudioClip>b__0(LocalizedAudioClipSO/LocalizedAudioClipInfo t)
-    // Offset: 0x1545270
+    // Offset: 0x1568DF8
     bool $get_localizedAudioClip$b__0(::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* t);
   }; // LocalizedAudioClipSO/<>c__DisplayClass4_0
   #pragma pack(pop)

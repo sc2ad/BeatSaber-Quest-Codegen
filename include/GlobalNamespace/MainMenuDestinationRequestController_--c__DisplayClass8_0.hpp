@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public MenuDestination menuDestination
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuDestination*& dyn_menuDestination();
     // public System.Void .ctor()
-    // Offset: 0x15483F4
+    // Offset: 0x156BF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainMenuDestinationRequestController::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainMenuDestinationRequestController::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuDestinationRequestController::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Void <ProcessDestinationRequest>b__0(Zenject.DiContainer container)
-    // Offset: 0x15483FC
+    // Offset: 0x156BF84
     void $ProcessDestinationRequest$b__0(::Zenject::DiContainer* container);
   }; // MainMenuDestinationRequestController/<>c__DisplayClass8_0
   #pragma pack(pop)

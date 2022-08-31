@@ -148,7 +148,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _mergeNodeID
     [[deprecated("Use field access instead!")]] int& dyn__mergeNodeID();
     // public System.Void .ctor()
-    // Offset: 0x1892338
+    // Offset: 0x1883AC4
     // Implemented from: HoudiniEngineUnity.HEU_InputData
     // Base method: System.Void HEU_InputData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

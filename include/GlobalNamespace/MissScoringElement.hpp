@@ -60,30 +60,30 @@ namespace GlobalNamespace {
     // Get instance field reference: private ScoreMultiplierCounter/MultiplierEventType _wouldBeCorrectCutBestPossibleMultiplierEventType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType& dyn__wouldBeCorrectCutBestPossibleMultiplierEventType();
     // public System.Void Init(NoteData noteData)
-    // Offset: 0x1307DF0
+    // Offset: 0x130DA94
     void Init(::GlobalNamespace::NoteData* noteData);
     // public override System.Int32 get_cutScore()
-    // Offset: 0x1307DCC
+    // Offset: 0x130DA70
     // Implemented from: ScoringElement
     // Base method: System.Int32 ScoringElement::get_cutScore()
     int get_cutScore();
     // public override ScoreMultiplierCounter/MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType()
-    // Offset: 0x1307DD4
+    // Offset: 0x130DA78
     // Implemented from: ScoringElement
     // Base method: ScoreMultiplierCounter/MultiplierEventType ScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType()
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
     // public override ScoreMultiplierCounter/MultiplierEventType get_multiplierEventType()
-    // Offset: 0x1307DDC
+    // Offset: 0x130DA80
     // Implemented from: ScoringElement
     // Base method: ScoreMultiplierCounter/MultiplierEventType ScoringElement::get_multiplierEventType()
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_multiplierEventType();
     // protected override System.Int32 get_executionOrder()
-    // Offset: 0x1307DE4
+    // Offset: 0x130DA88
     // Implemented from: ScoringElement
     // Base method: System.Int32 ScoringElement::get_executionOrder()
     int get_executionOrder();
     // public System.Void .ctor()
-    // Offset: 0x1307E3C
+    // Offset: 0x130DAE0
     // Implemented from: ScoringElement
     // Base method: System.Void ScoringElement::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

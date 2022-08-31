@@ -36,13 +36,13 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::ObstacleConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData*, ::GlobalNamespace::ObstacleData*> {
     public:
     // protected ObstacleData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ObstacleData obstacleSaveData)
-    // Offset: 0x1398AA0
+    // Offset: 0x138D598
     ::GlobalNamespace::ObstacleData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::ObstacleData* obstacleSaveData);
     // static private NoteLineLayer GetNoteLineLayer(System.Int32 lineLayer)
-    // Offset: 0x1398B8C
+    // Offset: 0x138D684
     static ::GlobalNamespace::NoteLineLayer GetNoteLineLayer(int lineLayer);
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0x1396B7C
+    // Offset: 0x138B674
     // Implemented from: BeatmapDataLoader/BeatmapDataItemConvertor`3
     // Base method: System.Void BeatmapDataItemConvertor_3::.ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

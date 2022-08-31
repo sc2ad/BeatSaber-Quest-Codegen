@@ -26,7 +26,7 @@ namespace System::IO {
   class TextReader::NullTextReader : public ::System::IO::TextReader {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B9AE68
+    // Offset: 0x1B8C98C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -37,12 +37,12 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::NullTextReader*, creationType>()));
     }
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1B9B090
+    // Offset: 0x1B8CBB4
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1B9B098
+    // Offset: 0x1B8CBBC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::StringW ReadLine();

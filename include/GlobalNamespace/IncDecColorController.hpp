@@ -53,26 +53,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorStepValuePicker _stepValuePicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorStepValuePicker*& dyn__stepValuePicker();
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x13A13A8
+    // Offset: 0x139603C
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x13A13C8
+    // Offset: 0x139605C
     void set_enableInc(bool value);
     // protected System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13A13E8
+    // Offset: 0x139607C
     void set_color(::UnityEngine::Color value);
     // protected System.Void .ctor()
-    // Offset: 0x13A15D0
+    // Offset: 0x1396264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IncDecColorController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IncDecColorController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13A1404
+    // Offset: 0x1396098
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A14C8
+    // Offset: 0x139615C
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF

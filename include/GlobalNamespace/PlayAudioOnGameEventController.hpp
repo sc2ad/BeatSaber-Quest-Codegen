@@ -59,17 +59,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>& dyn__eventAudioBindings();
     // public System.Void .ctor()
-    // Offset: 0x134629C
+    // Offset: 0x134BC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayAudioOnGameEventController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayAudioOnGameEventController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayAudioOnGameEventController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1346064
+    // Offset: 0x134B9EC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13461A8
+    // Offset: 0x134BB30
     void OnDestroy();
   }; // PlayAudioOnGameEventController
   #pragma pack(pop)

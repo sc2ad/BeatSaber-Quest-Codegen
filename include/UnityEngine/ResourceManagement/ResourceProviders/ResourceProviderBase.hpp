@@ -100,38 +100,38 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: protected UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags m_BehaviourFlags
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags& dyn_m_BehaviourFlags();
     // public System.String get_ProviderId()
-    // Offset: 0x1EF251C
+    // Offset: 0x1F3D800
     ::StringW get_ProviderId();
     // private UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider.get_BehaviourFlags()
-    // Offset: 0x1EF27E8
+    // Offset: 0x1F3DACC
     ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_get_BehaviourFlags();
     // protected System.Void .ctor()
-    // Offset: 0x1EEE798
+    // Offset: 0x1F39A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProviderBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase*, creationType>()));
     }
     // public System.Boolean Initialize(System.String id, System.String data)
-    // Offset: 0x1EF2578
+    // Offset: 0x1F3D85C
     bool Initialize(::StringW id, ::StringW data);
     // public System.Boolean CanProvide(System.Type t, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1EF25A0
+    // Offset: 0x1F3D884
     bool CanProvide(::System::Type* t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Object obj)
-    // Offset: 0x1EF25F8
+    // Offset: 0x1F3D8DC
     void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::Il2CppObject* obj);
     // public System.Type GetDefaultType(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x1EF25FC
+    // Offset: 0x1F3D8E0
     ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x1EF266C
+    // Offset: 0x1F3D950
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
     // public override System.String ToString()
-    // Offset: 0x1EF25EC
+    // Offset: 0x1F3D8D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

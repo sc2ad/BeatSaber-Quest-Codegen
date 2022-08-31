@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single pingTime
     [[deprecated("Use field access instead!")]] float& dyn_pingTime();
     // static public PacketPool`1<ConnectedPlayerManager/PingPacket> get_pool()
-    // Offset: 0x167DFE8
+    // Offset: 0x1685898
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PingPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x167E0E8
+    // Offset: 0x1685998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PingPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PingPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PingPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x167E030
+    // Offset: 0x16858E0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x167E050
+    // Offset: 0x1685900
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/PingPacket Init(System.Single pingTime)
-    // Offset: 0x167E084
+    // Offset: 0x1685934
     ::GlobalNamespace::ConnectedPlayerManager::PingPacket* Init(float pingTime);
     // public System.Void Release()
-    // Offset: 0x167E08C
+    // Offset: 0x168593C
     void Release();
   }; // ConnectedPlayerManager/PingPacket
   #pragma pack(pop)

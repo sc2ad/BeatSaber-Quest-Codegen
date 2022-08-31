@@ -106,16 +106,16 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: protected BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType d
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType& dyn_d();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter get_indexFilter()
-    // Offset: 0x283D1C0
+    // Offset: 0x2848E70
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* get_indexFilter();
     // public System.Single get_beatDistributionParam()
-    // Offset: 0x283D1C8
+    // Offset: 0x2848E78
     float get_beatDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_beatDistributionParamType()
-    // Offset: 0x283D1D0
+    // Offset: 0x2848E80
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_beatDistributionParamType();
     // protected System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType)
-    // Offset: 0x283D1D8
+    // Offset: 0x2848E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::.ctor");

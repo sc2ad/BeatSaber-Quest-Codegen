@@ -84,26 +84,26 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.String m_LogType
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_LogType();
     // public System.String get_Message()
-    // Offset: 0x19893E4
+    // Offset: 0x198E1E8
     ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0x19893EC
+    // Offset: 0x198E1F0
     ::System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0x1989464
+    // Offset: 0x198E268
     ::System::Nullable_1<::UnityEngine::LogType> get_LogType();
     // public System.Void .ctor()
-    // Offset: 0x1989720
+    // Offset: 0x198E524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogMatch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogMatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x1989580
+    // Offset: 0x198E384
     bool Matches(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public override System.String ToString()
-    // Offset: 0x1989658
+    // Offset: 0x198E45C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

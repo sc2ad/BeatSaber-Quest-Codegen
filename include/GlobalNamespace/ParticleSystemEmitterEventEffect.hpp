@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10E05F4
+    // [InjectAttribute] Offset: 0x10E8634
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -87,23 +87,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x133D604
+    // Offset: 0x1342F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitterEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitterEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitterEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x133D3F0
+    // Offset: 0x1342D78
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x133D508
+    // Offset: 0x1342E90
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x133D524
+    // Offset: 0x1342EAC
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleEmitting(System.Boolean isBoostOn)
-    // Offset: 0x133D544
+    // Offset: 0x1342ECC
     void ToggleEmitting(bool isBoostOn);
   }; // ParticleSystemEmitterEventEffect
   #pragma pack(pop)

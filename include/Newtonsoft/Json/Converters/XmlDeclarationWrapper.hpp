@@ -61,16 +61,16 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private readonly System.Xml.XmlDeclaration _declaration
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlDeclaration*& dyn__declaration();
     // public System.String get_Version()
-    // Offset: 0x17C14C8
+    // Offset: 0x17D31DC
     ::StringW get_Version();
     // public System.String get_Encoding()
-    // Offset: 0x17C14E4
+    // Offset: 0x17D31F8
     ::StringW get_Encoding();
     // public System.String get_Standalone()
-    // Offset: 0x17C1500
+    // Offset: 0x17D3214
     ::StringW get_Standalone();
     // public System.Void .ctor(System.Xml.XmlDeclaration declaration)
-    // Offset: 0x17C146C
+    // Offset: 0x17D3180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDeclarationWrapper::.ctor");

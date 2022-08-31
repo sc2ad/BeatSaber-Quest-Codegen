@@ -59,62 +59,62 @@ namespace System::Xml::Schema {
   class FacetsChecker : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1C5F090
+    // Offset: 0x1C50BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FacetsChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::FacetsChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FacetsChecker*, creationType>()));
     }
     // System.Exception CheckLexicalFacets(ref System.String parseString, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FBF8
+    // Offset: 0x1C5171C
     ::System::Exception* CheckLexicalFacets(ByRef<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE6C
+    // Offset: 0x1C51990
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Decimal value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE74
+    // Offset: 0x1C51998
     ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int64 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE7C
+    // Offset: 0x1C519A0
     ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int32 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE84
+    // Offset: 0x1C519A8
     ::System::Exception* CheckValueFacets(int value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Int16 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE8C
+    // Offset: 0x1C519B0
     ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.DateTime value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE94
+    // Offset: 0x1C519B8
     ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Double value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FE9C
+    // Offset: 0x1C519C0
     ::System::Exception* CheckValueFacets(double value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Single value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FEA4
+    // Offset: 0x1C519C8
     ::System::Exception* CheckValueFacets(float value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.String value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FEAC
+    // Offset: 0x1C519D0
     ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Byte[] value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FEB4
+    // Offset: 0x1C519D8
     ::System::Exception* CheckValueFacets(::ArrayW<uint8_t> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.TimeSpan value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FEBC
+    // Offset: 0x1C519E0
     ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckValueFacets(System.Xml.XmlQualifiedName value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FEC4
+    // Offset: 0x1C519E8
     ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Void CheckWhitespaceFacets(ref System.String s, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FC3C
+    // Offset: 0x1C51760
     void CheckWhitespaceFacets(ByRef<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // System.Exception CheckPatternFacets(System.Xml.Schema.RestrictionFacets restriction, System.String value)
-    // Offset: 0x1C5FD2C
+    // Offset: 0x1C51850
     ::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::StringW value);
     // System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1C5FECC
+    // Offset: 0x1C519F0
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // static System.Decimal Power(System.Int32 x, System.Int32 y)
-    // Offset: 0x1C5FED4
+    // Offset: 0x1C519F8
     static ::System::Decimal Power(int x, int y);
   }; // System.Xml.Schema.FacetsChecker
   #pragma pack(pop)

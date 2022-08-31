@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)
-    // Offset: 0x16D2D10
+    // Offset: 0x16E43C0
     void SetText(::StringW text);
     // public System.Void .ctor()
-    // Offset: 0x16D2D74
+    // Offset: 0x16E4424
     // Implemented from: HMUI.ScrollView
     // Base method: System.Void ScrollView::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

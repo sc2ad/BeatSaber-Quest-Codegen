@@ -229,20 +229,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Void .ctor()
-    // Offset: 0x16EF2B8
+    // Offset: 0x16EE674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AttributeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AttributeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AttributeData*, creationType>()));
     }
     // public System.Boolean IsColorAttribute()
-    // Offset: 0x16EEEA8
+    // Offset: 0x16EE264
     bool IsColorAttribute();
     // public System.Void CopyValuesTo(HoudiniEngineUnity.HEU_AttributeData destAttrData)
-    // Offset: 0x16EEF20
+    // Offset: 0x16EE2DC
     void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AttributeData other)
-    // Offset: 0x16EF040
+    // Offset: 0x16EE3FC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
   }; // HoudiniEngineUnity.HEU_AttributeData
   #pragma pack(pop)

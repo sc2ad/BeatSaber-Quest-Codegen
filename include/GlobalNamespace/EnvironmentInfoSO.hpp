@@ -142,37 +142,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents _defaultEnvironmentEvents
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DefaultEnvironmentEvents*& dyn__defaultEnvironmentEvents();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x1374440
+    // Offset: 0x1367F38
     ::GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x1374448
+    // Offset: 0x1367F40
     ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1374450
+    // Offset: 0x1367F48
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x1374458
+    // Offset: 0x1367F50
     ::StringW get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x1374460
+    // Offset: 0x1367F58
     ::GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x1374468
+    // Offset: 0x1367F60
     ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x1374470
+    // Offset: 0x1367F68
     ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x1374478
+    // Offset: 0x1367F70
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public EnvironmentLightGroups get_lightGroups()
-    // Offset: 0x1374480
+    // Offset: 0x1367F78
     ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
     // public DefaultEnvironmentEvents get_defaultEnvironmentEvents()
-    // Offset: 0x1374488
+    // Offset: 0x1367F80
     ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
     // public System.Void .ctor()
-    // Offset: 0x1374490
+    // Offset: 0x1367F88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentInfoSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentInfoSO::.ctor");

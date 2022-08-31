@@ -64,7 +64,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String MatchSessionId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_MatchSessionId();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19EA3E8
+    // Offset: 0x19F01EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupPresenceJoinIntent* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::GroupPresenceJoinIntent::.ctor");

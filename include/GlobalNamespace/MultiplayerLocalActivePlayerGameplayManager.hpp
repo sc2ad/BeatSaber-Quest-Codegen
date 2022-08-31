@@ -54,70 +54,70 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData
     class InitData;
     public:
-    // [InjectAttribute] Offset: 0x10E3028
+    // [InjectAttribute] Offset: 0x10EB068
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3038
+    // [InjectAttribute] Offset: 0x10EB078
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3048
+    // [InjectAttribute] Offset: 0x10EB088
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3058
+    // [InjectAttribute] Offset: 0x10EB098
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3068
+    // [InjectAttribute] Offset: 0x10EB0A8
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3078
+    // [InjectAttribute] Offset: 0x10EB0B8
     // private readonly MultiplayerLocalActivePlayerInGameMenuController _inGameMenuController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* inGameMenuController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3088
+    // [InjectAttribute] Offset: 0x10EB0C8
     // private readonly IVRPlatformHelper _platformHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IVRPlatformHelper* platformHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E3098
+    // [InjectAttribute] Offset: 0x10EB0D8
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E30A8
+    // [InjectAttribute] Offset: 0x10EB0E8
     // private readonly MultiplayerLocalActivePlayerGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E30B8
+    // [InjectAttribute] Offset: 0x10EB0F8
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x60
@@ -156,50 +156,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _levelFinishedOrFailed
     [[deprecated("Use field access instead!")]] bool& dyn__levelFinishedOrFailed();
     // public System.Void .ctor()
-    // Offset: 0x141C958
+    // Offset: 0x1438C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayManager*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x141B6E0
+    // Offset: 0x14379BC
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x141BC68
+    // Offset: 0x1437F44
     void OnDisable();
     // private System.Void PerformPlayerFail()
-    // Offset: 0x141C20C
+    // Offset: 0x14384E8
     void PerformPlayerFail();
     // private System.Void PerformPlayerGivenUp()
-    // Offset: 0x141C438
+    // Offset: 0x1438714
     void PerformPlayerGivenUp();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x141C664
+    // Offset: 0x1438940
     void HandleGameEnergyDidReach0();
     // private System.Void HandleInGameMenuControllerDidGiveUp()
-    // Offset: 0x141C688
+    // Offset: 0x1438964
     void HandleInGameMenuControllerDidGiveUp();
     // private System.Void HandleInGameMenuControllerRequestsDisconnect()
-    // Offset: 0x141C68C
+    // Offset: 0x1438968
     void HandleInGameMenuControllerRequestsDisconnect();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x141C6DC
+    // Offset: 0x14389B8
     void HandleSongDidFinish();
     // private System.Void HandleHmdUnmounted()
-    // Offset: 0x141C908
+    // Offset: 0x1438BE4
     void HandleHmdUnmounted();
     // private System.Void HandleVrFocusWasCapturedEvent()
-    // Offset: 0x141C90C
+    // Offset: 0x1438BE8
     void HandleVrFocusWasCapturedEvent();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x141BC48
+    // Offset: 0x1437F24
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x141C910
+    // Offset: 0x1438BEC
     void HandleInputFocusReleased();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x141C94C
+    // Offset: 0x1438C28
     void OnApplicationFocus(bool hasFocus);
   }; // MultiplayerLocalActivePlayerGameplayManager
   #pragma pack(pop)

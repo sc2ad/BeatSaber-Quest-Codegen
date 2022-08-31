@@ -83,32 +83,32 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 bitSize
     [[deprecated("Use field access instead!")]] int& dyn_bitSize();
     // public System.Void .ctor()
-    // Offset: 0x24193B4
+    // Offset: 0x2466198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaCoreEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaCoreEngine*, creationType>()));
     }
     // private System.Void CheckInitialised()
-    // Offset: 0x2419B9C
+    // Offset: 0x2466980
     void CheckInitialised();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2419C20
+    // Offset: 0x2466A04
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x2419D44
+    // Offset: 0x2466B28
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x2419D8C
+    // Offset: 0x2466B70
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x2419DD4
+    // Offset: 0x2466BB8
     ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
-    // Offset: 0x2419EE8
+    // Offset: 0x2466CCC
     ::ArrayW<uint8_t> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
-    // Offset: 0x2419FBC
+    // Offset: 0x2466DA0
     ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
   }; // Org.BouncyCastle.Crypto.Engines.RsaCoreEngine
   #pragma pack(pop)

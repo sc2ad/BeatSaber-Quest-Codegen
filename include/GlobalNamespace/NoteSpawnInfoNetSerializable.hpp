@@ -230,24 +230,24 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single cutSfxVolumeMultiplier
     [[deprecated("Use field access instead!")]] float& dyn_cutSfxVolumeMultiplier();
     // public System.Void .ctor(System.Single time, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteLineLayer beforeJumpNoteLineLayer, NoteData/GameplayType gameplayType, NoteData/ScoringType scoringType, ColorType colorType, NoteCutDirection cutDirection, System.Single timeToNextColorNote, System.Single timeToPrevColorNote, System.Int32 flipLineIndex, System.Single flipYSide, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single jumpGravity, System.Single moveDuration, System.Single jumpDuration, System.Single rotation, System.Single cutDirectionAngleOffset, System.Single cutSfxVolumeMultiplier)
-    // Offset: 0x2A17B4C
+    // Offset: 0x2A3EC70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteSpawnInfoNetSerializable* New_ctor(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::NoteData::GameplayType gameplayType, ::GlobalNamespace::NoteData::ScoringType scoringType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, float timeToNextColorNote, float timeToPrevColorNote, int flipLineIndex, float flipYSide, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float jumpGravity, float moveDuration, float jumpDuration, float rotation, float cutDirectionAngleOffset, float cutSfxVolumeMultiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteSpawnInfoNetSerializable*, creationType>(time, lineIndex, noteLineLayer, beforeJumpNoteLineLayer, gameplayType, scoringType, colorType, cutDirection, timeToNextColorNote, timeToPrevColorNote, flipLineIndex, flipYSide, moveStartPos, moveEndPos, jumpEndPos, jumpGravity, moveDuration, jumpDuration, rotation, cutDirectionAngleOffset, cutSfxVolumeMultiplier)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2A17D0C
+    // Offset: 0x2A3EE30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteSpawnInfoNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteSpawnInfoNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteSpawnInfoNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A17D14
+    // Offset: 0x2A3EE38
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A17F34
+    // Offset: 0x2A3F058
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // NoteSpawnInfoNetSerializable
   #pragma pack(pop)
