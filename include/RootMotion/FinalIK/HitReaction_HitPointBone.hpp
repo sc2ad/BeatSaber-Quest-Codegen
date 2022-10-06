@@ -43,14 +43,14 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink
     class BoneLink;
     public:
-    // [TooltipAttribute] Offset: 0x1110C2C
+    // [TooltipAttribute] Offset: 0x11298F0
     // public UnityEngine.AnimationCurve aroundCenterOfMass
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::AnimationCurve* aroundCenterOfMass;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1110C64
+    // [TooltipAttribute] Offset: 0x1129928
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
     // Size: 0x8
     // Offset: 0x58
@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Rigidbody rigidbody
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rigidbody*& dyn_rigidbody();
     // public System.Void .ctor()
-    // Offset: 0x2209370
+    // Offset: 0x2274040
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,17 +80,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointBone*, creationType>()));
     }
     // protected override System.Single GetLength()
-    // Offset: 0x2208EA4
+    // Offset: 0x2273B74
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x2208F48
+    // Offset: 0x2273C18
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x2208FB8
+    // Offset: 0x2273C88
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

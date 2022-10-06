@@ -54,30 +54,30 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.String standalone
     [[deprecated("Use field access instead!")]] ::StringW& dyn_standalone();
     // public System.String get_Encoding()
-    // Offset: 0x2ACEC44
+    // Offset: 0x2AF81E8
     ::StringW get_Encoding();
     // public System.String get_Standalone()
-    // Offset: 0x2ACEC4C
+    // Offset: 0x2AF81F0
     ::StringW get_Standalone();
     // public System.String get_Version()
-    // Offset: 0x2ACEC54
+    // Offset: 0x2AF81F8
     ::StringW get_Version();
     // public System.Void .ctor(System.String version, System.String encoding, System.String standalone)
-    // Offset: 0x2ACEB54
+    // Offset: 0x2AF80F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclaration*, creationType>(version, encoding, standalone)));
     }
     // public System.Void .ctor(System.Xml.Linq.XDeclaration other)
-    // Offset: 0x2ACEB94
+    // Offset: 0x2AF8138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDeclaration* New_ctor(::System::Xml::Linq::XDeclaration* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclaration*, creationType>(other)));
     }
     // public override System.String ToString()
-    // Offset: 0x2ACEC5C
+    // Offset: 0x2AF8200
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

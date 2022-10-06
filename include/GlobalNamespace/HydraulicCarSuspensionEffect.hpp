@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> contractEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E030C
+    // [SpaceAttribute] Offset: 0x10F7594
     // private BasicBeatmapEventType _expandEvent
     // Size: 0x4
     // Offset: 0x28
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> expandEventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E0354
+    // [SpaceAttribute] Offset: 0x10F75DC
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
     // Offset: 0x38
@@ -104,14 +104,14 @@ namespace GlobalNamespace {
     float expandDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10E03AC
+    // [SpaceAttribute] Offset: 0x10F7634
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(::UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E03E4
+    // [InjectAttribute] Offset: 0x10F766C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -172,23 +172,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _expandBeatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__expandBeatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x1395C44
+    // Offset: 0x13B0C60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HydraulicCarSuspensionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HydraulicCarSuspensionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HydraulicCarSuspensionEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13958A0
+    // Offset: 0x13B08BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1395A84
+    // Offset: 0x13B0AA0
     void OnDestroy();
     // private System.Void HandleContractBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1395AD4
+    // Offset: 0x13B0AF0
     void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void HandleExpandBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1395B8C
+    // Offset: 0x13B0BA8
     void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // HydraulicCarSuspensionEffect
   #pragma pack(pop)

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class OVRInput::OVRControllerTouch : public ::GlobalNamespace::OVRInput::OVRControllerBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A0195C
+    // Offset: 0x1A082A0
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -35,32 +35,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerTouch*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x1A094BC
+    // Offset: 0x1A0FE00
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x1A096B8
+    // Offset: 0x1A0FFFC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x1A09790
+    // Offset: 0x1A100D4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x1A097F0
+    // Offset: 0x1A10134
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x1A09850
+    // Offset: 0x1A10194
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
     // public override System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x1A098A8
+    // Offset: 0x1A101EC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Byte OVRControllerBase::GetBatteryPercentRemaining()
     uint8_t GetBatteryPercentRemaining();

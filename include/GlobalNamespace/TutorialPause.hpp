@@ -45,21 +45,21 @@ namespace GlobalNamespace {
   class TutorialPause : public ::Il2CppObject/*, public ::GlobalNamespace::IGamePause*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10ED6D4
+    // [InjectAttribute] Offset: 0x1104F10
     // private readonly TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::TutorialSongController* tutorialSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10ED6E4
+    // [InjectAttribute] Offset: 0x1104F20
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10ED6F4
+    // [InjectAttribute] Offset: 0x1104F30
     // private readonly AudioListenerController _audioListenerController
     // Size: 0x8
     // Offset: 0x20
@@ -114,41 +114,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _pause
     [[deprecated("Use field access instead!")]] bool& dyn__pause();
     // public System.Boolean get_isPaused()
-    // Offset: 0x141528C
+    // Offset: 0x13F1DD4
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x1415294
+    // Offset: 0x13F1DDC
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x1415338
+    // Offset: 0x13F1E80
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x14153DC
+    // Offset: 0x13F1F24
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x1415480
+    // Offset: 0x13F1FC8
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x1415524
+    // Offset: 0x13F206C
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x14155C8
+    // Offset: 0x13F2110
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x141577C
+    // Offset: 0x13F22C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialPause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialPause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialPause*, creationType>()));
     }
     // public System.Void Pause()
-    // Offset: 0x141566C
+    // Offset: 0x13F21B4
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x14156EC
+    // Offset: 0x13F2234
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x1415700
+    // Offset: 0x13F2248
     void Resume();
   }; // TutorialPause
   #pragma pack(pop)

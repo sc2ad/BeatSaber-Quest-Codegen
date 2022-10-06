@@ -164,47 +164,47 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 _currentEpoch
     [[deprecated("Use field access instead!")]] uint& dyn__currentEpoch();
     // public System.Boolean get_isEncrypted()
-    // Offset: 0x158E130
+    // Offset: 0x15B9BE8
     bool get_isEncrypted();
     // public System.Void .ctor()
-    // Offset: 0x158E094
+    // Offset: 0x15B9B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnconnectedMessageHandler::ConnectionState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::ConnectionState*, creationType>()));
     }
     // public System.UInt32 GetNextRequestId()
-    // Offset: 0x158E078
+    // Offset: 0x15B9B30
     uint GetNextRequestId();
     // public System.Void BeginSession()
-    // Offset: 0x158DFAC
+    // Offset: 0x15B9A64
     void BeginSession();
     // public System.Boolean IsValidSessionStartRequestId(System.UInt32 requestId)
-    // Offset: 0x158E0F4
+    // Offset: 0x15B9BAC
     bool IsValidSessionStartRequestId(uint requestId);
     // public System.Void BeginSession(System.UInt32 requestId)
-    // Offset: 0x158E040
+    // Offset: 0x15B9AF8
     void BeginSession(uint requestId);
     // private System.Void SetEpoch(System.UInt32 epoch)
-    // Offset: 0x158F880
+    // Offset: 0x15BB338
     void SetEpoch(uint epoch);
     // public System.Boolean CanAcceptRequest(System.UInt32 requestId)
-    // Offset: 0x158CA88
+    // Offset: 0x15B8540
     bool CanAcceptRequest(uint requestId);
     // public System.Void SetEncryptionState(EncryptionUtility/IEncryptionState encryptionState)
-    // Offset: 0x158F8A4
+    // Offset: 0x15BB35C
     void SetEncryptionState(::GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x158F8AC
+    // Offset: 0x15BB364
     void SetIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
-    // Offset: 0x158F8C0
+    // Offset: 0x15BB378
     bool VerifyIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Void Dispose()
-    // Offset: 0x158F930
+    // Offset: 0x15BB3E8
     void Dispose();
     // static private System.Void LogD(System.String message)
-    // Offset: 0x158F940
+    // Offset: 0x15BB3F8
     static void LogD(::StringW message);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.ConnectionState
   #pragma pack(pop)

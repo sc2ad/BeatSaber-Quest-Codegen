@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> _eventTypesToFilter
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>*& dyn__eventTypesToFilter();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BasicEventTypesWithKeywords basicEventTypesWithKeywords, EnvironmentKeywords environmentKeywords)
-    // Offset: 0x138B32C
+    // Offset: 0x137954C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::SpecialEventsFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::SpecialEventsFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::SpecialEventsFilter*, creationType>(basicEventTypesWithKeywords, environmentKeywords)));
     }
     // public System.Boolean IsEventValid(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType basicBeatmapEventType)
-    // Offset: 0x138C2F8
+    // Offset: 0x137A548
     bool IsEventValid(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType basicBeatmapEventType);
   }; // BeatmapDataLoader/SpecialEventsFilter
   #pragma pack(pop)

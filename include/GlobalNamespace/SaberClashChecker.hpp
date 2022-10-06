@@ -94,20 +94,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevGetFrameNum
     [[deprecated("Use field access instead!")]] int& dyn__prevGetFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x14ADE14
+    // Offset: 0x1496490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberClashChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberClashChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashChecker*, creationType>()));
     }
     // private System.Void Init(SaberManager saberManager)
-    // Offset: 0x14AD76C
+    // Offset: 0x1495DE8
     void Init(::GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0x14AD790
+    // Offset: 0x1495E0C
     bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0x14AD968
+    // Offset: 0x1495FE4
     float SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
   }; // SaberClashChecker
   #pragma pack(pop)

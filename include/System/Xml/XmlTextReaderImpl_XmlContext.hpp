@@ -63,14 +63,14 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlTextReaderImpl::XmlContext*& dyn_previousContext();
     // System.Void .ctor()
-    // Offset: 0x277D870
+    // Offset: 0x27AA608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::XmlContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>()));
     }
     // System.Void .ctor(System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext)
-    // Offset: 0x277D8E4
+    // Offset: 0x27AA67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::XmlContext* New_ctor(::System::Xml::XmlTextReaderImpl::XmlContext* previousContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");

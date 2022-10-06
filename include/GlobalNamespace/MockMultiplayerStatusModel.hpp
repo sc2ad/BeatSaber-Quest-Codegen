@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   class MockMultiplayerStatusModel : public ::Il2CppObject/*, public ::GlobalNamespace::IMultiplayerStatusModel*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10EB2B0
+    // [InjectAttribute] Offset: 0x1102A9C
     // private readonly MultiplayerStatusData _multiplayerStatusData
     // Size: 0x8
     // Offset: 0x10
@@ -70,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerStatusData _multiplayerStatusData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
     // public System.Void .ctor()
-    // Offset: 0x13E9F24
+    // Offset: 0x14011B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockMultiplayerStatusModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockMultiplayerStatusModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockMultiplayerStatusModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13E9EB0
+    // Offset: 0x140113C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
   }; // MockMultiplayerStatusModel
   #pragma pack(pop)

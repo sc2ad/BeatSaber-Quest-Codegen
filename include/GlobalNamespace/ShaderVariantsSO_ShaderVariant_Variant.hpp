@@ -47,13 +47,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _keywords
     [[deprecated("Use field access instead!")]] ::StringW& dyn__keywords();
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x2A7AF7C
+    // Offset: 0x2A99C30
     ::UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x2A7AF84
+    // Offset: 0x2A99C38
     ::StringW get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x2A7AF8C
+    // Offset: 0x2A99C40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");

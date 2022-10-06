@@ -42,13 +42,13 @@ namespace UnityEngine::Timeline {
     // Set static field: static public UnityEngine.Timeline.MatchTargetFields Rotation
     static void _set_Rotation(::UnityEngine::Timeline::MatchTargetFields value);
     // static private System.Void .cctor()
-    // Offset: 0x1DB03CC
+    // Offset: 0x1E157D4
     static void _cctor();
     // static public System.Boolean HasAny(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields fields)
-    // Offset: 0x1DB0340
+    // Offset: 0x1E15748
     static bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
     // static public UnityEngine.Timeline.MatchTargetFields Toggle(UnityEngine.Timeline.MatchTargetFields me, UnityEngine.Timeline.MatchTargetFields flag)
-    // Offset: 0x1DB03C4
+    // Offset: 0x1E157CC
     static ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
   }; // UnityEngine.Timeline.MatchTargetFieldConstants
   #pragma pack(pop)

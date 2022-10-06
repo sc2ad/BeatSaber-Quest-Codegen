@@ -42,17 +42,17 @@ namespace UnityEngine {
     // Set static field: static public System.UnhandledExceptionEventHandler <>9__0_0
     static void _set_$$9__0_0(::System::UnhandledExceptionEventHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x281E200
+    // Offset: 0x28EB33C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x281E264
+    // Offset: 0x28EB3A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledExceptionHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnhandledExceptionHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledExceptionHandler::$$c*, creationType>()));
     }
     // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
-    // Offset: 0x281E26C
+    // Offset: 0x28EB3A8
     void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, ::System::UnhandledExceptionEventArgs* e);
   }; // UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c
   #pragma pack(pop)

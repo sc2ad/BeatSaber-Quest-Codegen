@@ -38,17 +38,17 @@ namespace System::Xml::Schema {
   class Datatype_normalizedString : public ::System::Xml::Schema::Datatype_string {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C4DFB4
+    // Offset: 0x1C864E8
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_string::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1C4DFBC
+    // Offset: 0x1C864F0
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_string::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public System.Void .ctor()
-    // Offset: 0x1C4DFC4
+    // Offset: 0x1C864F8
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Void Datatype_string::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()

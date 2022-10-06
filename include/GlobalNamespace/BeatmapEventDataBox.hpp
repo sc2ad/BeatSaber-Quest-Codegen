@@ -17,8 +17,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IBeatToTimeConvertor
   class IBeatToTimeConvertor;
-  // Forward declaring type: IIndexFilter
-  class IIndexFilter;
+  // Forward declaring type: IndexFilter
+  class IndexFilter;
   // Forward declaring type: BeatmapEventData
   class BeatmapEventData;
   // Skipping declaration: DistributionParamType because it is already included!
@@ -95,12 +95,12 @@ namespace GlobalNamespace {
     static check_size<sizeof(BeatmapEventDataBox::DistributionParamType), 0 + sizeof(int)> __GlobalNamespace_BeatmapEventDataBox_DistributionParamTypeSizeCheck;
     static_assert(sizeof(BeatmapEventDataBox::DistributionParamType) == 0x4);
     public:
-    // private readonly IIndexFilter <indexFilter>k__BackingField
+    // private readonly IndexFilter <indexFilter>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::IIndexFilter* indexFilter;
+    ::GlobalNamespace::IndexFilter* indexFilter;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::IIndexFilter*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IndexFilter*) == 0x8);
     // private readonly System.Single _beatDistributionParam
     // Size: 0x4
     // Offset: 0x18
@@ -114,8 +114,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapEventDataBox::DistributionParamType) == 0x4);
     public:
-    // Get instance field reference: private readonly IIndexFilter <indexFilter>k__BackingField
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IIndexFilter*& dyn_$indexFilter$k__BackingField();
+    // Get instance field reference: private readonly IndexFilter <indexFilter>k__BackingField
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::IndexFilter*& dyn_$indexFilter$k__BackingField();
     // Get instance field reference: private readonly System.Single _beatDistributionParam
     [[deprecated("Use field access instead!")]] float& dyn__beatDistributionParam();
     // Get instance field reference: private readonly BeatmapEventDataBox/DistributionParamType _beatDistributionParamType
@@ -126,28 +126,25 @@ namespace GlobalNamespace {
     // public System.Single get_beatStep()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_beatStep();
-    // public IIndexFilter get_indexFilter()
-    // Offset: 0x152C5A4
-    ::GlobalNamespace::IIndexFilter* get_indexFilter();
-    // protected System.Int32 get_numberOfElements()
-    // Offset: 0x152C5AC
-    int get_numberOfElements();
-    // protected System.Void .ctor(IIndexFilter indexFilter, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single beatDistributionParam)
-    // Offset: 0x152C65C
+    // public IndexFilter get_indexFilter()
+    // Offset: 0x1543AB4
+    ::GlobalNamespace::IndexFilter* get_indexFilter();
+    // protected System.Void .ctor(IndexFilter indexFilter, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single beatDistributionParam)
+    // Offset: 0x1543ABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapEventDataBox* New_ctor(::GlobalNamespace::IIndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float beatDistributionParam) {
+    static BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float beatDistributionParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBox*, creationType>(indexFilter, beatDistributionParamType, beatDistributionParam)));
     }
-    // public System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 orderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
+    // public System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 durationOrderIndex, System.Int32 distributionOrderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
     // Offset: 0xFFFFFFFFFFFFFFFF
-    void Unpack(float groupBoxBeat, int groupId, int elementId, int orderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
-    // protected System.Single GetBeatStep(System.Single lastBaseEventRelativeBeat)
-    // Offset: 0x152C6A8
-    float GetBeatStep(float lastBaseEventRelativeBeat);
-    // protected System.Single DistributionParamToStep(System.Single distributionParam, BeatmapEventDataBox/DistributionParamType distributionParamType)
-    // Offset: 0x152C748
-    float DistributionParamToStep(float distributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType distributionParamType);
+    void Unpack(float groupBoxBeat, int groupId, int elementId, int durationOrderIndex, int distributionOrderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+    // protected System.Single GetBeatStep(System.Single lastBaseEventRelativeBeat, System.Int32 count)
+    // Offset: 0x1543B08
+    float GetBeatStep(float lastBaseEventRelativeBeat, int count);
+    // protected System.Single DistributionParamToStep(System.Single distributionParam, BeatmapEventDataBox/DistributionParamType distributionParamType, System.Int32 count)
+    // Offset: 0x1543BB0
+    float DistributionParamToStep(float distributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType distributionParamType, int count);
   }; // BeatmapEventDataBox
   #pragma pack(pop)
   static check_size<sizeof(BeatmapEventDataBox), 28 + sizeof(::GlobalNamespace::BeatmapEventDataBox::DistributionParamType)> __GlobalNamespace_BeatmapEventDataBoxSizeCheck;
@@ -175,17 +172,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::get_indexFilter
 // Il2CppName: get_indexFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IIndexFilter* (GlobalNamespace::BeatmapEventDataBox::*)()>(&GlobalNamespace::BeatmapEventDataBox::get_indexFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (GlobalNamespace::BeatmapEventDataBox::*)()>(&GlobalNamespace::BeatmapEventDataBox::get_indexFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "get_indexFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::get_numberOfElements
-// Il2CppName: get_numberOfElements
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapEventDataBox::*)()>(&GlobalNamespace::BeatmapEventDataBox::get_numberOfElements)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "get_numberOfElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::New_ctor
@@ -195,34 +184,37 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::Unpack
 // Il2CppName: Unpack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataBox::*)(float, int, int, int, float, ::GlobalNamespace::IBeatToTimeConvertor*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::BeatmapEventDataBox::Unpack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataBox::*)(float, int, int, int, int, float, ::GlobalNamespace::IBeatToTimeConvertor*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::BeatmapEventDataBox::Unpack)> {
   static const MethodInfo* get() {
     static auto* groupBoxBeat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* groupId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* elementId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* orderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* durationOrderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* distributionOrderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxBeat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* beatToTimeConvertor = &::il2cpp_utils::GetClassFromName("", "IBeatToTimeConvertor")->byval_arg;
     static auto* output = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventData")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupBoxBeat, groupId, elementId, orderIndex, maxBeat, beatToTimeConvertor, output});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConvertor, output});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::GetBeatStep
 // Il2CppName: GetBeatStep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapEventDataBox::*)(float)>(&GlobalNamespace::BeatmapEventDataBox::GetBeatStep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapEventDataBox::*)(float, int)>(&GlobalNamespace::BeatmapEventDataBox::GetBeatStep)> {
   static const MethodInfo* get() {
     static auto* lastBaseEventRelativeBeat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "GetBeatStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastBaseEventRelativeBeat});
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "GetBeatStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastBaseEventRelativeBeat, count});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBox::DistributionParamToStep
 // Il2CppName: DistributionParamToStep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapEventDataBox::*)(float, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType)>(&GlobalNamespace::BeatmapEventDataBox::DistributionParamToStep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapEventDataBox::*)(float, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType, int)>(&GlobalNamespace::BeatmapEventDataBox::DistributionParamToStep)> {
   static const MethodInfo* get() {
     static auto* distributionParam = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* distributionParamType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventDataBox/DistributionParamType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "DistributionParamToStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distributionParam, distributionParamType});
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBox*), "DistributionParamToStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distributionParam, distributionParamType, count});
   }
 };

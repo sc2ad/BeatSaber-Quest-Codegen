@@ -39,14 +39,14 @@ namespace BeatmapSaveDataVersion3 {
   class BeatmapSaveData::LightColorEventBoxGroup : public ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBox*> {
     public:
     // public System.Void .ctor(System.Single beat, System.Int32 groupId, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBox> eventBoxes)
-    // Offset: 0x28492A0
+    // Offset: 0x28BE680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightColorEventBoxGroup* New_ctor(float beat, int groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBox*>* eventBoxes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBoxGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::LightColorEventBoxGroup*, creationType>(beat, groupId, eventBoxes)));
     }
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBoxGroup CopyWith(System.Nullable`1<System.Single> newBeat, System.Nullable`1<System.Int32> newGroupId)
-    // Offset: 0x2849318
+    // Offset: 0x28BE6F8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBoxGroup* CopyWith(::System::Nullable_1<float> newBeat, ::System::Nullable_1<int> newGroupId);
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorEventBoxGroup
 }

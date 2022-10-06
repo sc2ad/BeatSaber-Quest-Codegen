@@ -71,21 +71,21 @@ namespace GlobalNamespace {
     ::UnityEngine::Video::VideoPlayer* videoPlayer;
     // Field size check
     static_assert(sizeof(::UnityEngine::Video::VideoPlayer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F6CFC
+    // [SpaceAttribute] Offset: 0x110E538
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6D34
+    // [InjectAttribute] Offset: 0x110E570
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6D44
+    // [InjectAttribute] Offset: 0x110E580
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x48
@@ -107,17 +107,17 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F6D54
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110E590
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F6D64
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110E5A0
     // Get static field: static private readonly System.Int32 _textureId
     static int _get__textureId();
     // Set static field: static private readonly System.Int32 _textureId
     static void _set__textureId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F6D74
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110E5B0
     // Get static field: static private readonly System.Int32 _textureStId
     static int _get__textureStId();
     // Set static field: static private readonly System.Int32 _textureStId
@@ -135,46 +135,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _waitForDependenciesAndPlayCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__waitForDependenciesAndPlayCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x145AEE4
+    // Offset: 0x14C3B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeSyncedVideoPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeSyncedVideoPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeSyncedVideoPlayer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x145AF18
+    // Offset: 0x14C3B4C
     static void _cctor();
     // protected System.Void OnDestroy()
-    // Offset: 0x145A8C0
+    // Offset: 0x14C34F4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x145A91C
+    // Offset: 0x14C3550
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0x145AA8C
+    // Offset: 0x14C36C0
     void LateUpdate();
     // public System.Void SetVideoClip(UnityEngine.Video.VideoClip videoClip)
-    // Offset: 0x145AC14
+    // Offset: 0x14C3848
     void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
     // public System.Void SetSpriteAndStopVideo(UnityEngine.Sprite sprite)
-    // Offset: 0x145AC30
+    // Offset: 0x14C3864
     void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
     // private System.Void StopVideoPlayer()
-    // Offset: 0x145A8C4
+    // Offset: 0x14C34F8
     void StopVideoPlayer();
     // private System.Collections.IEnumerator WaitForDependenciesAndPlay()
-    // Offset: 0x145A850
+    // Offset: 0x14C3484
     ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
     // private System.Boolean <WaitForDependenciesAndPlay>b__17_0()
-    // Offset: 0x145AFBC
+    // Offset: 0x14C3BF0
     bool $WaitForDependenciesAndPlay$b__17_0();
     // protected override System.Void Start()
-    // Offset: 0x145A7E4
+    // Offset: 0x14C3418
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::Start()
     void Start();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x145AC0C
+    // Offset: 0x14C3840
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

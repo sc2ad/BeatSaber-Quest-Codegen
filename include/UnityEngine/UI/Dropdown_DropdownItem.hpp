@@ -105,41 +105,41 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.UI.Toggle m_Toggle
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn_m_Toggle();
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x1E4FBDC
+    // Offset: 0x1E9960C
     ::UnityEngine::UI::Text* get_text();
     // public System.Void set_text(UnityEngine.UI.Text value)
-    // Offset: 0x1E4FBE4
+    // Offset: 0x1E99614
     void set_text(::UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x1E4FBEC
+    // Offset: 0x1E9961C
     ::UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x1E4FBF4
+    // Offset: 0x1E99624
     void set_image(::UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1E4FBFC
+    // Offset: 0x1E9962C
     ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x1E4FC04
+    // Offset: 0x1E99634
     void set_rectTransform(::UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1E4FC0C
+    // Offset: 0x1E9963C
     ::UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x1E4FC14
+    // Offset: 0x1E99644
     void set_toggle(::UnityEngine::UI::Toggle* value);
     // public System.Void .ctor()
-    // Offset: 0x1E4FD50
+    // Offset: 0x1E99780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::DropdownItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::DropdownItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown::DropdownItem*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1E4FC1C
+    // Offset: 0x1E9964C
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1E4FCA8
+    // Offset: 0x1E996D8
     void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem
   #pragma pack(pop)

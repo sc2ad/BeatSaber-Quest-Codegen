@@ -102,115 +102,115 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Set static field: static private System.Int32[] precompBase
     static void _set_precompBase(::ArrayW<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x2321EEC
+    // Offset: 0x237B544
     static void _cctor();
     // static private System.Byte[] CalculateS(System.Byte[] r, System.Byte[] k, System.Byte[] s)
-    // Offset: 0x231E8C8
+    // Offset: 0x2377F20
     static ::ArrayW<uint8_t> CalculateS(::ArrayW<uint8_t> r, ::ArrayW<uint8_t> k, ::ArrayW<uint8_t> s);
     // static private System.Boolean CheckContextVar(System.Byte[] ctx, System.Byte phflag)
-    // Offset: 0x231F028
+    // Offset: 0x2378680
     static bool CheckContextVar(::ArrayW<uint8_t> ctx, uint8_t phflag);
     // static private System.Int32 CheckPoint(System.Int32[] x, System.Int32[] y)
-    // Offset: 0x231F054
+    // Offset: 0x23786AC
     static int CheckPoint(::ArrayW<int> x, ::ArrayW<int> y);
     // static private Org.BouncyCastle.Crypto.IDigest CreateDigest()
-    // Offset: 0x231F174
+    // Offset: 0x23787CC
     static ::Org::BouncyCastle::Crypto::IDigest* CreateDigest();
     // static public Org.BouncyCastle.Crypto.IDigest CreatePrehash()
-    // Offset: 0x231F1D0
+    // Offset: 0x2378828
     static ::Org::BouncyCastle::Crypto::IDigest* CreatePrehash();
     // static private System.UInt32 Decode24(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x231F22C
+    // Offset: 0x2378884
     static uint Decode24(::ArrayW<uint8_t> bs, int off);
     // static private System.UInt32 Decode32(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x231F28C
+    // Offset: 0x23788E4
     static uint Decode32(::ArrayW<uint8_t> bs, int off);
     // static private System.Void Decode32(System.Byte[] bs, System.Int32 bsOff, System.UInt32[] n, System.Int32 nOff, System.Int32 nLen)
-    // Offset: 0x231F300
+    // Offset: 0x2378958
     static void Decode32(::ArrayW<uint8_t> bs, int bsOff, ::ArrayW<uint> n, int nOff, int nLen);
     // static private System.Void DecodeScalar(System.Byte[] k, System.Int32 kOff, System.UInt32[] n)
-    // Offset: 0x231EA74
+    // Offset: 0x23780CC
     static void DecodeScalar(::ArrayW<uint8_t> k, int kOff, ::ArrayW<uint> n);
     // static private System.Void Dom2(Org.BouncyCastle.Crypto.IDigest d, System.Byte phflag, System.Byte[] ctx)
-    // Offset: 0x231F3F8
+    // Offset: 0x2378A50
     static void Dom2(::Org::BouncyCastle::Crypto::IDigest* d, uint8_t phflag, ::ArrayW<uint8_t> ctx);
     // static private System.Void Encode24(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x231F660
+    // Offset: 0x2378CB8
     static void Encode24(uint n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Void Encode32(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x231EAF8
+    // Offset: 0x2378150
     static void Encode32(uint n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Void Encode56(System.UInt64 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x231F6D0
+    // Offset: 0x2378D28
     static void Encode56(uint64_t n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Int32 EncodePoint(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p, System.Byte[] r, System.Int32 rOff)
-    // Offset: 0x231F75C
+    // Offset: 0x2378DB4
     static int EncodePoint(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p, ::ArrayW<uint8_t> r, int rOff);
     // static public System.Void GeneratePublicKey(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff)
-    // Offset: 0x231F8B0
+    // Offset: 0x2378F08
     static void GeneratePublicKey(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff);
     // static private System.Void ImplSign(Org.BouncyCastle.Crypto.IDigest d, System.Byte[] h, System.Byte[] s, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte phflag, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x231FC2C
+    // Offset: 0x2379284
     static void ImplSign(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t> h, ::ArrayW<uint8_t> s, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static private System.Void ImplSign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte phflag, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x23200B0
+    // Offset: 0x2379708
     static void ImplSign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static private System.Void PointAddVar(System.Boolean negate, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt q, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt r)
-    // Offset: 0x23203D4
+    // Offset: 0x2379A2C
     static void PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* q, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* r);
     // static private System.Void PointAddPrecomp(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp p, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum r)
-    // Offset: 0x232061C
+    // Offset: 0x2379C74
     static void PointAddPrecomp(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp* p, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* r);
     // static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt PointCopy(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p)
-    // Offset: 0x2320788
+    // Offset: 0x2379DE0
     static ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p);
     // static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt PointCopy(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p)
-    // Offset: 0x23208F0
+    // Offset: 0x2379F48
     static ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p);
     // static private System.Void PointDouble(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum r)
-    // Offset: 0x23209D8
+    // Offset: 0x237A030
     static void PointDouble(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* r);
     // static private System.Void PointExtendXY(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p)
-    // Offset: 0x2320B40
+    // Offset: 0x237A198
     static void PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p);
     // static private System.Void PointExtendXY(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p)
-    // Offset: 0x2320BD8
+    // Offset: 0x237A230
     static void PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p);
     // static private System.Void PointLookup(System.Int32 block, System.Int32 index, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp p)
-    // Offset: 0x2320C54
+    // Offset: 0x237A2AC
     static void PointLookup(int block, int index, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp* p);
     // static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt[] PointPrecompVar(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p, System.Int32 count)
-    // Offset: 0x2320D98
+    // Offset: 0x237A3F0
     static ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> PointPrecompVar(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p, int count);
     // static private System.Void PointSetNeutral(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p)
-    // Offset: 0x2320F54
+    // Offset: 0x237A5AC
     static void PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p);
     // static private System.Void PointSetNeutral(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p)
-    // Offset: 0x2320FE4
+    // Offset: 0x237A63C
     static void PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p);
     // static public System.Void Precompute()
-    // Offset: 0x232106C
+    // Offset: 0x237A6C4
     static void Precompute();
     // static private System.Void PruneScalar(System.Byte[] n, System.Int32 nOff, System.Byte[] r)
-    // Offset: 0x231FAE8
+    // Offset: 0x2379140
     static void PruneScalar(::ArrayW<uint8_t> n, int nOff, ::ArrayW<uint8_t> r);
     // static private System.Byte[] ReduceScalar(System.Byte[] n)
-    // Offset: 0x231EB84
+    // Offset: 0x23781DC
     static ::ArrayW<uint8_t> ReduceScalar(::ArrayW<uint8_t> n);
     // static private System.Void ScalarMultBase(System.Byte[] k, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum r)
-    // Offset: 0x2321998
+    // Offset: 0x237AFF0
     static void ScalarMultBase(::ArrayW<uint8_t> k, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* r);
     // static private System.Void ScalarMultBaseEncoded(System.Byte[] k, System.Byte[] r, System.Int32 rOff)
-    // Offset: 0x231FB54
+    // Offset: 0x23791AC
     static void ScalarMultBaseEncoded(::ArrayW<uint8_t> k, ::ArrayW<uint8_t> r, int rOff);
     // static public System.Void Sign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x2321C54
+    // Offset: 0x237B2AC
     static void Sign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static public System.Void Sign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x2321D2C
+    // Offset: 0x237B384
     static void Sign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static public System.Void SignPrehash(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte[] ph, System.Int32 phOff, System.Byte[] sig, System.Int32 sigOff)
-    // Offset: 0x2321E08
+    // Offset: 0x237B460
     static void SignPrehash(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> ph, int phOff, ::ArrayW<uint8_t> sig, int sigOff);
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519
   #pragma pack(pop)

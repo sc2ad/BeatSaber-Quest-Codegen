@@ -45,21 +45,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10D6A70
+    // [DescriptionAttribute] Offset: 0x10EDAAC
     // static field const value: static public Oculus.Platform.MatchmakingStatApproach Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.MatchmakingStatApproach Unknown
     static ::Oculus::Platform::MatchmakingStatApproach _get_Unknown();
     // Set static field: static public Oculus.Platform.MatchmakingStatApproach Unknown
     static void _set_Unknown(::Oculus::Platform::MatchmakingStatApproach value);
-    // [DescriptionAttribute] Offset: 0x10D6AA8
+    // [DescriptionAttribute] Offset: 0x10EDAE4
     // static field const value: static public Oculus.Platform.MatchmakingStatApproach Trailing
     static constexpr const int Trailing = 1;
     // Get static field: static public Oculus.Platform.MatchmakingStatApproach Trailing
     static ::Oculus::Platform::MatchmakingStatApproach _get_Trailing();
     // Set static field: static public Oculus.Platform.MatchmakingStatApproach Trailing
     static void _set_Trailing(::Oculus::Platform::MatchmakingStatApproach value);
-    // [DescriptionAttribute] Offset: 0x10D6AE0
+    // [DescriptionAttribute] Offset: 0x10EDB1C
     // static field const value: static public Oculus.Platform.MatchmakingStatApproach Swingy
     static constexpr const int Swingy = 2;
     // Get static field: static public Oculus.Platform.MatchmakingStatApproach Swingy

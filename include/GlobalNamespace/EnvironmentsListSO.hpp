@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentInfoSO[] _environmentInfos
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*>& dyn__environmentInfos();
     // public EnvironmentInfoSO[] get_environmentInfos()
-    // Offset: 0x136A738
+    // Offset: 0x139899C
     ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*> get_environmentInfos();
     // public System.Void .ctor()
-    // Offset: 0x136A8C0
+    // Offset: 0x1398B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentsListSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentsListSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentsListSO*, creationType>()));
     }
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentSerializedName)
-    // Offset: 0x136A740
+    // Offset: 0x13989A4
     ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x136850C
+    // Offset: 0x1396770
     ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetFirstEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x136A7CC
+    // Offset: 0x1398A30
     ::GlobalNamespace::EnvironmentInfoSO* GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
     // public EnvironmentInfoSO GetLastEnvironmentInfoWithType(EnvironmentTypeSO environmentType)
-    // Offset: 0x136A844
+    // Offset: 0x1398AA8
     ::GlobalNamespace::EnvironmentInfoSO* GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentTypeSO* environmentType);
   }; // EnvironmentsListSO
   #pragma pack(pop)

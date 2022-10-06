@@ -150,13 +150,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType& dyn__rotateRings();
     // public EnvironmentIntensityReductionOptions/CompressExpandReductionType get_compressExpand()
-    // Offset: 0x1367F90
+    // Offset: 0x1396198
     ::GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType get_compressExpand();
     // public EnvironmentIntensityReductionOptions/RotateRingsReductionType get_rotateRings()
-    // Offset: 0x1367F98
+    // Offset: 0x13961A0
     ::GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType get_rotateRings();
     // public System.Void .ctor()
-    // Offset: 0x1367FA0
+    // Offset: 0x13961A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentIntensityReductionOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentIntensityReductionOptions::.ctor");

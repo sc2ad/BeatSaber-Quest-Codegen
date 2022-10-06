@@ -123,38 +123,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmapSet _parentDifficultyBeatmapSet
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmapSet*& dyn__parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x1536F64
+    // Offset: 0x154E374
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x1536F6C
+    // Offset: 0x154E37C
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x1536F74
+    // Offset: 0x154E384
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x1536F7C
+    // Offset: 0x154E38C
     float get_noteJumpStartBeatOffset();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1537198
+    // Offset: 0x154E5A8
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x15371A0
+    // Offset: 0x154E5B0
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public System.Void .ctor(IBeatmapLevel parentLevel, BeatmapDifficulty difficulty, System.Int32 difficultyRank, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset, BeatmapDataSO beatmapData)
-    // Offset: 0x15371A8
+    // Offset: 0x154E5B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelSO::DifficultyBeatmap* New_ctor(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, int difficultyRank, float noteJumpMovementSpeed, float noteJumpStartBeatOffset, ::GlobalNamespace::BeatmapDataSO* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelSO::DifficultyBeatmap*, creationType>(parentLevel, difficulty, difficultyRank, noteJumpMovementSpeed, noteJumpStartBeatOffset, beatmapData)));
     }
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x1536F84
+    // Offset: 0x154E394
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
     // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1537084
+    // Offset: 0x154E494
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetParents(IBeatmapLevel parentLevel, IDifficultyBeatmapSet parentDifficultyBeatmapSet)
-    // Offset: 0x1533440
+    // Offset: 0x154A850
     void SetParents(::GlobalNamespace::IBeatmapLevel* parentLevel, ::GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet);
   }; // BeatmapLevelSO/DifficultyBeatmap
   #pragma pack(pop)

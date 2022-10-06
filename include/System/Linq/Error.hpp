@@ -31,25 +31,25 @@ namespace System::Linq {
   class Error : public ::Il2CppObject {
     public:
     // static System.Exception ArgumentNull(System.String s)
-    // Offset: 0x2AB1404
+    // Offset: 0x2AD99A8
     static ::System::Exception* ArgumentNull(::StringW s);
     // static System.Exception ArgumentOutOfRange(System.String s)
-    // Offset: 0x2AB1048
+    // Offset: 0x2AD95EC
     static ::System::Exception* ArgumentOutOfRange(::StringW s);
     // static System.Exception MoreThanOneElement()
-    // Offset: 0x2AB1F18
+    // Offset: 0x2ADA4BC
     static ::System::Exception* MoreThanOneElement();
     // static System.Exception MoreThanOneMatch()
-    // Offset: 0x2AB1F80
+    // Offset: 0x2ADA524
     static ::System::Exception* MoreThanOneMatch();
     // static System.Exception NoElements()
-    // Offset: 0x2AB1730
+    // Offset: 0x2AD9CD4
     static ::System::Exception* NoElements();
     // static System.Exception NoMatch()
-    // Offset: 0x2AB1FE8
+    // Offset: 0x2ADA58C
     static ::System::Exception* NoMatch();
     // static System.Exception NotSupported()
-    // Offset: 0x2AB2050
+    // Offset: 0x2ADA5F4
     static ::System::Exception* NotSupported();
   }; // System.Linq.Error
   #pragma pack(pop)

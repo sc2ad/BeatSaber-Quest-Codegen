@@ -160,44 +160,44 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_Completed
     [[deprecated("Use field access instead!")]] bool& dyn_m_Completed();
     // public System.Void .ctor()
-    // Offset: 0x1F395BC
+    // Offset: 0x1F5249C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundleResource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundleResource*, creationType>()));
     }
     // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x1F39D50
+    // Offset: 0x1F52C30
     ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // private System.Single PercentComplete()
-    // Offset: 0x1F39F24
+    // Offset: 0x1F52E04
     float PercentComplete();
     // private UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
-    // Offset: 0x1F39F3C
+    // Offset: 0x1F52E1C
     ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
     // public UnityEngine.AssetBundle GetAssetBundle()
-    // Offset: 0x1F3A0F8
+    // Offset: 0x1F52FD8
     ::UnityEngine::AssetBundle* GetAssetBundle();
     // System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1F395C4
+    // Offset: 0x1F524A4
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1F3A8A8
+    // Offset: 0x1F53788
     bool WaitForCompletionHandler();
     // private System.Void BeginOperation()
-    // Offset: 0x1F3A584
+    // Offset: 0x1F53464
     void BeginOperation();
     // private System.Void LocalRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1F3A9FC
+    // Offset: 0x1F538DC
     void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
     // private System.Void WebRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1F3ABDC
+    // Offset: 0x1F53ABC
     void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
     // public System.Void Unload()
-    // Offset: 0x1F399C8
+    // Offset: 0x1F528A8
     void Unload();
     // private System.Void <BeginOperation>b__16_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1F3B3C0
+    // Offset: 0x1F542A0
     void $BeginOperation$b__16_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource
   #pragma pack(pop)

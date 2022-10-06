@@ -52,20 +52,20 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19CD380
+    // Offset: 0x19D3CC4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19CD3E4
+    // Offset: 0x19D3D28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Projection::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Projection::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Projection::$$c*, creationType>()));
     }
     // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
-    // Offset: 0x19CD3EC
+    // Offset: 0x19D3D30
     int $Sort$b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> b);
     // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
-    // Offset: 0x19CD444
+    // Offset: 0x19D3D88
     ::UnityEngine::Vector2 $Sort$b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> x);
   }; // UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

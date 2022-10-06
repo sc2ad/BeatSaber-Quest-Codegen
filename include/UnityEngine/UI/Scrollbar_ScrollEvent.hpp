@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
   class Scrollbar::ScrollEvent : public ::UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1ED6958
+    // Offset: 0x1EF3B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Scrollbar::ScrollEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Scrollbar::ScrollEvent::.ctor");

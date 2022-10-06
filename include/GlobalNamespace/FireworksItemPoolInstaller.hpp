@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworkItemController*& dyn__fireworkItemControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x13733F4
+    // Offset: 0x13A1CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworksItemPoolInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworksItemPoolInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworksItemPoolInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1373364
+    // Offset: 0x13A1C64
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

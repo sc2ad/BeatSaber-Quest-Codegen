@@ -85,48 +85,48 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x134D224
+    // Offset: 0x1368A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 eulaVersion, System.Int32 privacyPolicyVersion, System.Int32 healthAndSafetyVersion)
-    // Offset: 0x134D250
+    // Offset: 0x1368AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
-    // Offset: 0x134D290
+    // Offset: 0x1368B04
     void AgreeToEula();
     // public System.Void AgreeToPrivacyPolicy()
-    // Offset: 0x134D29C
+    // Offset: 0x1368B10
     void AgreeToPrivacyPolicy();
     // public System.Void AgreeToHealthAndSafety()
-    // Offset: 0x134D2A8
+    // Offset: 0x1368B1C
     void AgreeToHealthAndSafety();
     // public System.Boolean AgreedToPreviousPrivacyPolicy()
-    // Offset: 0x134D2B4
+    // Offset: 0x1368B28
     bool AgreedToPreviousPrivacyPolicy();
     // public System.Boolean AgreedToAnyPreviousEula()
-    // Offset: 0x134D2C4
+    // Offset: 0x1368B38
     bool AgreedToAnyPreviousEula();
     // public System.Boolean AgreedToAnyPreviousPrivacyPolicy()
-    // Offset: 0x134D2E0
+    // Offset: 0x1368B54
     bool AgreedToAnyPreviousPrivacyPolicy();
     // public System.Boolean AgreedToAnyPreviousHealthAndSafety()
-    // Offset: 0x134D2FC
+    // Offset: 0x1368B70
     bool AgreedToAnyPreviousHealthAndSafety();
     // public System.Boolean AgreedToEula()
-    // Offset: 0x134D308
+    // Offset: 0x1368B7C
     bool AgreedToEula();
     // public System.Boolean AgreedToPrivacyPolicy()
-    // Offset: 0x134D318
+    // Offset: 0x1368B8C
     bool AgreedToPrivacyPolicy();
     // public System.Boolean AgreedToHealthAndSafety()
-    // Offset: 0x134D328
+    // Offset: 0x1368B9C
     bool AgreedToHealthAndSafety();
   }; // PlayerAgreements
   #pragma pack(pop)

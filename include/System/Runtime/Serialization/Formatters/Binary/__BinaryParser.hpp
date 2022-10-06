@@ -289,149 +289,149 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ObjectNull objectNull
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& dyn_objectNull();
     // System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo get_SystemAssemblyInfo()
-    // Offset: 0x162B508
+    // Offset: 0x166A2E4
     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* get_SystemAssemblyInfo();
     // System.Runtime.Serialization.Formatters.Binary.SizedArray get_ObjectMapIdTable()
-    // Offset: 0x162B5B0
+    // Offset: 0x166A38C
     ::System::Runtime::Serialization::Formatters::Binary::SizedArray* get_ObjectMapIdTable();
     // System.Runtime.Serialization.Formatters.Binary.SizedArray get_AssemIdToAssemblyTable()
-    // Offset: 0x162B618
+    // Offset: 0x166A3F4
     ::System::Runtime::Serialization::Formatters::Binary::SizedArray* get_AssemIdToAssemblyTable();
     // System.Runtime.Serialization.Formatters.Binary.ParseRecord get_prs()
-    // Offset: 0x162B684
+    // Offset: 0x166A460
     ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* get_prs();
     // System.Void .ctor(System.IO.Stream stream, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader)
-    // Offset: 0x162B424
+    // Offset: 0x166A200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __BinaryParser* New_ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::__BinaryParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__BinaryParser*, creationType>(stream, objectReader)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x162F158
+    // Offset: 0x166DF34
     static void _cctor();
     // System.Void Run()
-    // Offset: 0x162B6F0
+    // Offset: 0x166A4CC
     void Run();
     // System.Void ReadBegin()
-    // Offset: 0x162BCD8
+    // Offset: 0x166AAB4
     void ReadBegin();
     // System.Void ReadEnd()
-    // Offset: 0x162DA84
+    // Offset: 0x166C860
     void ReadEnd();
     // System.Boolean ReadBoolean()
-    // Offset: 0x162DDB0
+    // Offset: 0x166CB8C
     bool ReadBoolean();
     // System.Byte ReadByte()
-    // Offset: 0x162DDD0
+    // Offset: 0x166CBAC
     uint8_t ReadByte();
     // System.Byte[] ReadBytes(System.Int32 length)
-    // Offset: 0x1628E88
+    // Offset: 0x1667C64
     ::ArrayW<uint8_t> ReadBytes(int length);
     // System.Void ReadBytes(System.Byte[] byteA, System.Int32 offset, System.Int32 size)
-    // Offset: 0x162DDF0
+    // Offset: 0x166CBCC
     void ReadBytes(::ArrayW<uint8_t> byteA, int offset, int size);
     // System.Char ReadChar()
-    // Offset: 0x162DE78
+    // Offset: 0x166CC54
     ::Il2CppChar ReadChar();
     // System.Char[] ReadChars(System.Int32 length)
-    // Offset: 0x162DE98
+    // Offset: 0x166CC74
     ::ArrayW<::Il2CppChar> ReadChars(int length);
     // System.Decimal ReadDecimal()
-    // Offset: 0x162DEBC
+    // Offset: 0x166CC98
     ::System::Decimal ReadDecimal();
     // System.Single ReadSingle()
-    // Offset: 0x162DF7C
+    // Offset: 0x166CD58
     float ReadSingle();
     // System.Double ReadDouble()
-    // Offset: 0x162DFA0
+    // Offset: 0x166CD7C
     double ReadDouble();
     // System.Int16 ReadInt16()
-    // Offset: 0x162DFC4
+    // Offset: 0x166CDA0
     int16_t ReadInt16();
     // System.Int32 ReadInt32()
-    // Offset: 0x162DFE8
+    // Offset: 0x166CDC4
     int ReadInt32();
     // System.Int64 ReadInt64()
-    // Offset: 0x162E00C
+    // Offset: 0x166CDE8
     int64_t ReadInt64();
     // System.SByte ReadSByte()
-    // Offset: 0x162E030
+    // Offset: 0x166CE0C
     int8_t ReadSByte();
     // System.String ReadString()
-    // Offset: 0x162E050
+    // Offset: 0x166CE2C
     ::StringW ReadString();
     // System.TimeSpan ReadTimeSpan()
-    // Offset: 0x162E074
+    // Offset: 0x166CE50
     ::System::TimeSpan ReadTimeSpan();
     // System.DateTime ReadDateTime()
-    // Offset: 0x162E098
+    // Offset: 0x166CE74
     ::System::DateTime ReadDateTime();
     // System.UInt16 ReadUInt16()
-    // Offset: 0x162E124
+    // Offset: 0x166CF00
     uint16_t ReadUInt16();
     // System.UInt32 ReadUInt32()
-    // Offset: 0x162E148
+    // Offset: 0x166CF24
     uint ReadUInt32();
     // System.UInt64 ReadUInt64()
-    // Offset: 0x162E16C
+    // Offset: 0x166CF48
     uint64_t ReadUInt64();
     // System.Void ReadSerializationHeaderRecord()
-    // Offset: 0x162BCDC
+    // Offset: 0x166AAB8
     void ReadSerializationHeaderRecord();
     // System.Void ReadAssembly(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162BDA4
+    // Offset: 0x166AB80
     void ReadAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadObject()
-    // Offset: 0x162BFE8
+    // Offset: 0x166ADC4
     void ReadObject();
     // System.Void ReadCrossAppDomainMap()
-    // Offset: 0x162C354
+    // Offset: 0x166B130
     void ReadCrossAppDomainMap();
     // System.Void ReadObjectWithMap(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162C504
+    // Offset: 0x166B2E0
     void ReadObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadObjectWithMap(System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMap record)
-    // Offset: 0x162E244
+    // Offset: 0x166D020
     void ReadObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* record);
     // System.Void ReadObjectWithMapTyped(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162C5BC
+    // Offset: 0x166B398
     void ReadObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadObjectWithMapTyped(System.Runtime.Serialization.Formatters.Binary.BinaryObjectWithMapTyped record)
-    // Offset: 0x162E664
+    // Offset: 0x166D440
     void ReadObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* record);
     // private System.Void ReadObjectString(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162C660
+    // Offset: 0x166B43C
     void ReadObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadMemberPrimitiveTyped()
-    // Offset: 0x162D178
+    // Offset: 0x166BF54
     void ReadMemberPrimitiveTyped();
     // private System.Void ReadArray(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162CBB4
+    // Offset: 0x166B990
     void ReadArray(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadArrayAsBytes(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x162EAAC
+    // Offset: 0x166D888
     void ReadArrayAsBytes(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ReadMemberPrimitiveUnTyped()
-    // Offset: 0x162DA88
+    // Offset: 0x166C864
     void ReadMemberPrimitiveUnTyped();
     // private System.Void ReadMemberReference()
-    // Offset: 0x162D4FC
+    // Offset: 0x166C2D8
     void ReadMemberReference();
     // private System.Void ReadObjectNull(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x162D6F4
+    // Offset: 0x166C4D0
     void ReadObjectNull(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // private System.Void ReadMessageEnd()
-    // Offset: 0x162D900
+    // Offset: 0x166C6DC
     void ReadMessageEnd();
     // System.Object ReadValue(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x162EDEC
+    // Offset: 0x166DBC8
     ::Il2CppObject* ReadValue(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // private System.Runtime.Serialization.Formatters.Binary.ObjectProgress GetOp()
-    // Offset: 0x162E190
+    // Offset: 0x166CF6C
     ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* GetOp();
     // private System.Void PutOp(System.Runtime.Serialization.Formatters.Binary.ObjectProgress op)
-    // Offset: 0x162DD24
+    // Offset: 0x166CB00
     void PutOp(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* op);
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryParser
   #pragma pack(pop)

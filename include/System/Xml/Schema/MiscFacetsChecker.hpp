@@ -29,7 +29,7 @@ namespace System::Xml::Schema {
   class MiscFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1C520EC
+    // Offset: 0x1C8A620
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Void FacetsChecker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

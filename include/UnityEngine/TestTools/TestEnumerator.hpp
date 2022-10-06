@@ -64,17 +64,17 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_m_Context();
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x198D630
+    // Offset: 0x195CFB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumerator* New_ctor(::NUnit::Framework::Internal::ITestExecutionContext* context, ::System::Collections::IEnumerator* testEnumerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
-    // Offset: 0x198D6A4
+    // Offset: 0x195D02C
     ::System::Collections::IEnumerator* Execute();
     // private System.Collections.IEnumerator Execute(System.Collections.IEnumerator enumerator, UnityEngine.TestTools.TestEnumerator/UnityEngine.TestTools.EnumeratorContext context)
-    // Offset: 0x19903F4
+    // Offset: 0x195FD7C
     ::System::Collections::IEnumerator* Execute(::System::Collections::IEnumerator* enumerator, ::UnityEngine::TestTools::TestEnumerator::EnumeratorContext* context);
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)

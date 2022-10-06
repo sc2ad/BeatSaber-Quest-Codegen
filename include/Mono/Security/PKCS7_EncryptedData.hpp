@@ -68,20 +68,20 @@ namespace Mono::Security {
     // Get instance field reference: private System.Byte[] _encrypted
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__encrypted();
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x234CF4C
+    // Offset: 0x23A65A4
     ::Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x234CF54
+    // Offset: 0x23A65AC
     ::ArrayW<uint8_t> get_EncryptedContent();
     // public System.Void .ctor()
-    // Offset: 0x234CC70
+    // Offset: 0x23A62C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>()));
     }
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x234CC98
+    // Offset: 0x23A62F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(::Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::EncryptedData::.ctor");

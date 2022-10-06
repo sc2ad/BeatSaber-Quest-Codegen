@@ -78,22 +78,22 @@ namespace System {
     // Get instance field reference: private System.Int16 defaultAttribute
     [[deprecated("Use field access instead!")]] int16_t& dyn_defaultAttribute();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x29F6378
+    // Offset: 0x2B13A34
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean IsModifierKey(System.Int16 virtualKeyCode)
-    // Offset: 0x29F65E0
+    // Offset: 0x2B13C9C
     static bool IsModifierKey(int16_t virtualKeyCode);
     // static private System.IntPtr GetStdHandle(System.Handles handle)
-    // Offset: 0x29F6250
+    // Offset: 0x2B1390C
     static ::System::IntPtr GetStdHandle(::System::Handles handle);
     // static private System.Boolean GetConsoleScreenBufferInfo(System.IntPtr handle, out System.ConsoleScreenBufferInfo info)
-    // Offset: 0x29F62D8
+    // Offset: 0x2B13994
     static bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ByRef<::System::ConsoleScreenBufferInfo> info);
     // static private System.Boolean ReadConsoleInput(System.IntPtr handle, out System.InputRecord record, System.Int32 length, out System.Int32 nread)
-    // Offset: 0x29F64F0
+    // Offset: 0x2B13BAC
     static bool ReadConsoleInput(::System::IntPtr handle, ByRef<::System::InputRecord> record, int length, ByRef<int> nread);
     // public System.Void .ctor()
-    // Offset: 0x29F61F0
+    // Offset: 0x2B138AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

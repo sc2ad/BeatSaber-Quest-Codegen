@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::X509 {
   class X509ExtensionBase : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x26138F4
+    // Offset: 0x2655A08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509ExtensionBase::.ctor");
@@ -51,7 +51,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x26180B4
+    // Offset: 0x265A1C8
     ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.X509.X509ExtensionBase
   #pragma pack(pop)

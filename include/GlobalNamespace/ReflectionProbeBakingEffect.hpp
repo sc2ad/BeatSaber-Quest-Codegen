@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public System.Void .ctor()
-    // Offset: 0x1E78084
+    // Offset: 0x1D08C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionProbeBakingEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReflectionProbeBakingEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionProbeBakingEffect*, creationType>()));
     }
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1E78000
+    // Offset: 0x1D08C00
     void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
   }; // ReflectionProbeBakingEffect
   #pragma pack(pop)

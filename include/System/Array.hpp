@@ -125,40 +125,40 @@ namespace System {
       return reinterpret_cast<::System::Collections::IList*>(this);
     }
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1EAF39C
+    // Offset: 0x1ECC5B8
     int System_Collections_ICollection_get_Count();
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
-    // Offset: 0x1EAF40C
+    // Offset: 0x1ECC628
     bool System_Collections_IList_get_IsReadOnly();
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
-    // Offset: 0x1EAF414
+    // Offset: 0x1ECC630
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // private System.Void System.Collections.IList.set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x1EAF5A8
+    // Offset: 0x1ECC7C4
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // public System.Int64 get_LongLength()
-    // Offset: 0x1EB0E64
+    // Offset: 0x1ECE080
     int64_t get_LongLength();
     // public System.Boolean get_IsFixedSize()
-    // Offset: 0x1EB1438
+    // Offset: 0x1ECE654
     bool get_IsFixedSize();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1EB1440
+    // Offset: 0x1ECE65C
     bool get_IsReadOnly();
     // public System.Boolean get_IsSynchronized()
-    // Offset: 0x1EB1448
+    // Offset: 0x1ECE664
     bool get_IsSynchronized();
     // public System.Object get_SyncRoot()
-    // Offset: 0x1EB1450
+    // Offset: 0x1ECE66C
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Length()
-    // Offset: 0x1EAF3A0
+    // Offset: 0x1ECC5BC
     int get_Length();
     // public System.Int32 get_Rank()
-    // Offset: 0x1EAFC0C
+    // Offset: 0x1ECCE28
     int get_Rank();
     // static public System.Array CreateInstance(System.Type elementType, System.Int64[] lengths)
-    // Offset: 0x1EAEFB8
+    // Offset: 0x1ECC1D4
     static ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int64_t> lengths);
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> AsReadOnly(T[] array)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -179,46 +179,46 @@ namespace System {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(array), newSize);
     }
     // private System.Int32 System.Collections.IList.Add(System.Object value)
-    // Offset: 0x1EAF758
+    // Offset: 0x1ECC974
     int System_Collections_IList_Add(::Il2CppObject* value);
     // private System.Boolean System.Collections.IList.Contains(System.Object value)
-    // Offset: 0x1EAF7C4
+    // Offset: 0x1ECC9E0
     bool System_Collections_IList_Contains(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Clear()
-    // Offset: 0x1EAF890
+    // Offset: 0x1ECCAAC
     void System_Collections_IList_Clear();
     // private System.Int32 System.Collections.IList.IndexOf(System.Object value)
-    // Offset: 0x1EAF9FC
+    // Offset: 0x1ECCC18
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
-    // Offset: 0x1EAFA00
+    // Offset: 0x1ECCC1C
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
     // private System.Void System.Collections.IList.Remove(System.Object value)
-    // Offset: 0x1EAFA6C
+    // Offset: 0x1ECCC88
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // private System.Void System.Collections.IList.RemoveAt(System.Int32 index)
-    // Offset: 0x1EAFAD8
+    // Offset: 0x1ECCCF4
     void System_Collections_IList_RemoveAt(int index);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1EAFB44
+    // Offset: 0x1ECCD60
     void CopyTo(::System::Array* array, int index);
     // public System.Object Clone()
-    // Offset: 0x1EB0110
+    // Offset: 0x1ECD32C
     ::Il2CppObject* Clone();
     // private System.Int32 System.Collections.IStructuralComparable.CompareTo(System.Object other, System.Collections.IComparer comparer)
-    // Offset: 0x1EB0118
+    // Offset: 0x1ECD334
     int System_Collections_IStructuralComparable_CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer);
     // private System.Boolean System.Collections.IStructuralEquatable.Equals(System.Object other, System.Collections.IEqualityComparer comparer)
-    // Offset: 0x1EB02EC
+    // Offset: 0x1ECD508
     bool System_Collections_IStructuralEquatable_Equals(::Il2CppObject* other, ::System::Collections::IEqualityComparer* comparer);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x1EB0488
+    // Offset: 0x1ECD6A4
     static int CombineHashCodes(int h1, int h2);
     // private System.Int32 System.Collections.IStructuralEquatable.GetHashCode(System.Collections.IEqualityComparer comparer)
-    // Offset: 0x1EB0494
+    // Offset: 0x1ECD6B0
     int System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
     // static public System.Int32 BinarySearch(System.Array array, System.Object value)
-    // Offset: 0x1EB0604
+    // Offset: 0x1ECD820
     static int BinarySearch(::System::Array* array, ::Il2CppObject* value);
     // static public TOutput[] ConvertAll(TInput[] array, System.Converter`2<TInput,TOutput> converter)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -230,13 +230,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<TOutput>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, converter);
     }
     // static public System.Void Copy(System.Array sourceArray, System.Array destinationArray, System.Int64 length)
-    // Offset: 0x1EB0B1C
+    // Offset: 0x1ECDD38
     static void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int64_t length);
     // static public System.Void Copy(System.Array sourceArray, System.Int64 sourceIndex, System.Array destinationArray, System.Int64 destinationIndex, System.Int64 length)
-    // Offset: 0x1EB0CA4
+    // Offset: 0x1ECDEC0
     static void Copy(::System::Array* sourceArray, int64_t sourceIndex, ::System::Array* destinationArray, int64_t destinationIndex, int64_t length);
     // public System.Void CopyTo(System.Array array, System.Int64 index)
-    // Offset: 0x1EB0DB8
+    // Offset: 0x1ECDFD4
     void CopyTo(::System::Array* array, int64_t index);
     // static public System.Void ForEach(T[] array, System.Action`1<T> action)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -248,31 +248,31 @@ namespace System {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, action);
     }
     // public System.Int64 GetLongLength(System.Int32 dimension)
-    // Offset: 0x1EB0ED8
+    // Offset: 0x1ECE0F4
     int64_t GetLongLength(int dimension);
     // public System.Object GetValue(System.Int64 index)
-    // Offset: 0x1EB0EF0
+    // Offset: 0x1ECE10C
     ::Il2CppObject* GetValue(int64_t index);
     // public System.Object GetValue(System.Int64 index1, System.Int64 index2)
-    // Offset: 0x1EB0F94
+    // Offset: 0x1ECE1B0
     ::Il2CppObject* GetValue(int64_t index1, int64_t index2);
     // public System.Object GetValue(System.Int64 index1, System.Int64 index2, System.Int64 index3)
-    // Offset: 0x1EB1100
+    // Offset: 0x1ECE31C
     ::Il2CppObject* GetValue(int64_t index1, int64_t index2, int64_t index3);
     // public System.Object GetValue(System.Int64[] indices)
-    // Offset: 0x1EB12BC
+    // Offset: 0x1ECE4D8
     ::Il2CppObject* GetValue(::ArrayW<int64_t> indices);
     // static public System.Int32 BinarySearch(System.Array array, System.Int32 index, System.Int32 length, System.Object value)
-    // Offset: 0x1EB1454
+    // Offset: 0x1ECE670
     static int BinarySearch(::System::Array* array, int index, int length, ::Il2CppObject* value);
     // static public System.Int32 BinarySearch(System.Array array, System.Object value, System.Collections.IComparer comparer)
-    // Offset: 0x1EB145C
+    // Offset: 0x1ECE678
     static int BinarySearch(::System::Array* array, ::Il2CppObject* value, ::System::Collections::IComparer* comparer);
     // static public System.Int32 BinarySearch(System.Array array, System.Int32 index, System.Int32 length, System.Object value, System.Collections.IComparer comparer)
-    // Offset: 0x1EB06B8
+    // Offset: 0x1ECD8D4
     static int BinarySearch(::System::Array* array, int index, int length, ::Il2CppObject* value, ::System::Collections::IComparer* comparer);
     // static private System.Int32 GetMedian(System.Int32 low, System.Int32 hi)
-    // Offset: 0x1EB1514
+    // Offset: 0x1ECE730
     static int GetMedian(int low, int hi);
     // static public System.Int32 BinarySearch(T[] array, T value)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -311,13 +311,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, index, length, value, comparer);
     }
     // static public System.Int32 IndexOf(System.Array array, System.Object value)
-    // Offset: 0x1EAF7E0
+    // Offset: 0x1ECC9FC
     static int IndexOf(::System::Array* array, ::Il2CppObject* value);
     // static public System.Int32 IndexOf(System.Array array, System.Object value, System.Int32 startIndex)
-    // Offset: 0x1EB1788
+    // Offset: 0x1ECE9A4
     static int IndexOf(::System::Array* array, ::Il2CppObject* value, int startIndex);
     // static public System.Int32 IndexOf(System.Array array, System.Object value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1EB1520
+    // Offset: 0x1ECE73C
     static int IndexOf(::System::Array* array, ::Il2CppObject* value, int startIndex, int count);
     // static public System.Int32 IndexOf(T[] array, T value)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -347,13 +347,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value)
-    // Offset: 0x1EB1840
+    // Offset: 0x1ECEA5C
     static int LastIndexOf(::System::Array* array, ::Il2CppObject* value);
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value, System.Int32 startIndex)
-    // Offset: 0x1EB1B58
+    // Offset: 0x1ECED74
     static int LastIndexOf(::System::Array* array, ::Il2CppObject* value, int startIndex);
     // static public System.Int32 LastIndexOf(System.Array array, System.Object value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1EB18EC
+    // Offset: 0x1ECEB08
     static int LastIndexOf(::System::Array* array, ::Il2CppObject* value, int startIndex, int count);
     // static public System.Int32 LastIndexOf(T[] array, T value)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -383,10 +383,10 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static public System.Void Reverse(System.Array array)
-    // Offset: 0x1EB1BF4
+    // Offset: 0x1ECEE10
     static void Reverse(::System::Array* array);
     // static public System.Void Reverse(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x1EB1C94
+    // Offset: 0x1ECEEB0
     static void Reverse(::System::Array* array, int index, int length);
     // static public System.Void Reverse(T[] array)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -407,40 +407,40 @@ namespace System {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, index, length);
     }
     // public System.Void SetValue(System.Object value, System.Int64 index)
-    // Offset: 0x1EB1F44
+    // Offset: 0x1ECF160
     void SetValue(::Il2CppObject* value, int64_t index);
     // public System.Void SetValue(System.Object value, System.Int64 index1, System.Int64 index2)
-    // Offset: 0x1EB1FF0
+    // Offset: 0x1ECF20C
     void SetValue(::Il2CppObject* value, int64_t index1, int64_t index2);
     // public System.Void SetValue(System.Object value, System.Int64 index1, System.Int64 index2, System.Int64 index3)
-    // Offset: 0x1EB217C
+    // Offset: 0x1ECF398
     void SetValue(::Il2CppObject* value, int64_t index1, int64_t index2, int64_t index3);
     // public System.Void SetValue(System.Object value, System.Int64[] indices)
-    // Offset: 0x1EB2348
+    // Offset: 0x1ECF564
     void SetValue(::Il2CppObject* value, ::ArrayW<int64_t> indices);
     // static public System.Void Sort(System.Array array)
-    // Offset: 0x1EB24CC
+    // Offset: 0x1ECF6E8
     static void Sort(::System::Array* array);
     // static public System.Void Sort(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x1EB27A4
+    // Offset: 0x1ECF9C0
     static void Sort(::System::Array* array, int index, int length);
     // static public System.Void Sort(System.Array array, System.Collections.IComparer comparer)
-    // Offset: 0x1EB27B8
+    // Offset: 0x1ECF9D4
     static void Sort(::System::Array* array, ::System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array array, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x1EB286C
+    // Offset: 0x1ECFA88
     static void Sort(::System::Array* array, int index, int length, ::System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array keys, System.Array items)
-    // Offset: 0x1EB2880
+    // Offset: 0x1ECFA9C
     static void Sort(::System::Array* keys, ::System::Array* items);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Collections.IComparer comparer)
-    // Offset: 0x1EB2934
+    // Offset: 0x1ECFB50
     static void Sort(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Int32 index, System.Int32 length)
-    // Offset: 0x1EB29EC
+    // Offset: 0x1ECFC08
     static void Sort(::System::Array* keys, ::System::Array* items, int index, int length);
     // static public System.Void Sort(System.Array keys, System.Array items, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x1EB2574
+    // Offset: 0x1ECF790
     static void Sort(::System::Array* keys, ::System::Array* items, int index, int length, ::System::Collections::IComparer* comparer);
     // static public System.Void Sort(T[] array)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -641,13 +641,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, match);
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1EB2AF0
+    // Offset: 0x1ECFD0C
     ::System::Collections::IEnumerator* GetEnumerator();
     // System.Int32 InternalArray__ICollection_get_Count()
-    // Offset: 0x1EB2BA0
+    // Offset: 0x1ECFDBC
     int InternalArray__ICollection_get_Count();
     // System.Boolean InternalArray__ICollection_get_IsReadOnly()
-    // Offset: 0x1EB2BA4
+    // Offset: 0x1ECFDC0
     bool InternalArray__ICollection_get_IsReadOnly();
     // System.Collections.Generic.IEnumerator`1<T> InternalArray__IEnumerable_GetEnumerator()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -659,7 +659,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___generic__method);
     }
     // System.Void InternalArray__ICollection_Clear()
-    // Offset: 0x1EB2BAC
+    // Offset: 0x1ECFDC8
     void InternalArray__ICollection_Clear();
     // System.Void InternalArray__ICollection_Add(T item)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -707,7 +707,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, index);
     }
     // System.Int32 InternalArray__IReadOnlyCollection_get_Count()
-    // Offset: 0x1EB2C18
+    // Offset: 0x1ECFE34
     int InternalArray__IReadOnlyCollection_get_Count();
     // System.Void InternalArray__Insert(System.Int32 index, T item)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -719,7 +719,7 @@ namespace System {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, index, item);
     }
     // System.Void InternalArray__RemoveAt(System.Int32 index)
-    // Offset: 0x1EB2C1C
+    // Offset: 0x1ECFE38
     void InternalArray__RemoveAt(int index);
     // System.Int32 InternalArray__IndexOf(T item)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -767,97 +767,97 @@ namespace System {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, pos, byref(value));
     }
     // private System.Int32 GetRank()
-    // Offset: 0x1EB2C88
+    // Offset: 0x1ECFEA4
     int GetRank();
     // public System.Int32 GetLength(System.Int32 dimension)
-    // Offset: 0x1EB0ED4
+    // Offset: 0x1ECE0F0
     int GetLength(int dimension);
     // public System.Int32 GetLowerBound(System.Int32 dimension)
-    // Offset: 0x1EAF8CC
+    // Offset: 0x1ECCAE8
     int GetLowerBound(int dimension);
     // public System.Object GetValue(System.Int32[] indices)
-    // Offset: 0x1EB1434
+    // Offset: 0x1ECE650
     ::Il2CppObject* GetValue(::ArrayW<int> indices);
     // public System.Void SetValue(System.Object value, System.Int32[] indices)
-    // Offset: 0x1EB24C8
+    // Offset: 0x1ECF6E4
     void SetValue(::Il2CppObject* value, ::ArrayW<int> indices);
     // System.Object GetValueImpl(System.Int32 pos)
-    // Offset: 0x1EB2C8C
+    // Offset: 0x1ECFEA8
     ::Il2CppObject* GetValueImpl(int pos);
     // System.Void SetValueImpl(System.Object value, System.Int32 pos)
-    // Offset: 0x1EB2C90
+    // Offset: 0x1ECFEAC
     void SetValueImpl(::Il2CppObject* value, int pos);
     // static System.Boolean FastCopy(System.Array source, System.Int32 source_idx, System.Array dest, System.Int32 dest_idx, System.Int32 length)
-    // Offset: 0x1EB2C94
+    // Offset: 0x1ECFEB0
     static bool FastCopy(::System::Array* source, int source_idx, ::System::Array* dest, int dest_idx, int length);
     // static System.Array CreateInstanceImpl(System.Type elementType, System.Int32[] lengths, System.Int32[] bounds)
-    // Offset: 0x1EB2C98
+    // Offset: 0x1ECFEB4
     static ::System::Array* CreateInstanceImpl(::System::Type* elementType, ::ArrayW<int> lengths, ::ArrayW<int> bounds);
     // public System.Int32 GetUpperBound(System.Int32 dimension)
-    // Offset: 0x1EB2C9C
+    // Offset: 0x1ECFEB8
     int GetUpperBound(int dimension);
     // public System.Object GetValue(System.Int32 index)
-    // Offset: 0x1EAF418
+    // Offset: 0x1ECC634
     ::Il2CppObject* GetValue(int index);
     // public System.Object GetValue(System.Int32 index1, System.Int32 index2)
-    // Offset: 0x1EB1068
+    // Offset: 0x1ECE284
     ::Il2CppObject* GetValue(int index1, int index2);
     // public System.Object GetValue(System.Int32 index1, System.Int32 index2, System.Int32 index3)
-    // Offset: 0x1EB120C
+    // Offset: 0x1ECE428
     ::Il2CppObject* GetValue(int index1, int index2, int index3);
     // public System.Void SetValue(System.Object value, System.Int32 index)
-    // Offset: 0x1EAF5B8
+    // Offset: 0x1ECC7D4
     void SetValue(::Il2CppObject* value, int index);
     // public System.Void SetValue(System.Object value, System.Int32 index1, System.Int32 index2)
-    // Offset: 0x1EB20D4
+    // Offset: 0x1ECF2F0
     void SetValue(::Il2CppObject* value, int index1, int index2);
     // public System.Void SetValue(System.Object value, System.Int32 index1, System.Int32 index2, System.Int32 index3)
-    // Offset: 0x1EB2290
+    // Offset: 0x1ECF4AC
     void SetValue(::Il2CppObject* value, int index1, int index2, int index3);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32[] lengths, System.Int32[] lowerBounds)
-    // Offset: 0x1EB2CE0
+    // Offset: 0x1ECFEFC
     static ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int> lengths, ::ArrayW<int> lowerBounds);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2)
-    // Offset: 0x1EB308C
+    // Offset: 0x1ED02A8
     static ::System::Array* UnsafeCreateInstance(::System::Type* elementType, int length1, int length2);
     // static System.Array UnsafeCreateInstance(System.Type elementType, System.Int32[] lengths)
-    // Offset: 0x1EB3128
+    // Offset: 0x1ED0344
     static ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int> lengths);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length)
-    // Offset: 0x1EB312C
+    // Offset: 0x1ED0348
     static ::System::Array* CreateInstance(::System::Type* elementType, int length);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2)
-    // Offset: 0x1EB3090
+    // Offset: 0x1ED02AC
     static ::System::Array* CreateInstance(::System::Type* elementType, int length1, int length2);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32 length1, System.Int32 length2, System.Int32 length3)
-    // Offset: 0x1EB31B4
+    // Offset: 0x1ED03D0
     static ::System::Array* CreateInstance(::System::Type* elementType, int length1, int length2, int length3);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths)
-    // Offset: 0x1EAF120
+    // Offset: 0x1ECC33C
     static ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int> lengths);
     // static public System.Array CreateInstance(System.Type elementType, System.Int32[] lengths, System.Int32[] lowerBounds)
-    // Offset: 0x1EB2CE4
+    // Offset: 0x1ECFF00
     static ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int> lengths, ::ArrayW<int> lowerBounds);
     // static public System.Void Clear(System.Array array, System.Int32 index, System.Int32 length)
-    // Offset: 0x1EAF8D0
+    // Offset: 0x1ECCAEC
     static void Clear(::System::Array* array, int index, int length);
     // static private System.Void ClearInternal(System.Array a, System.Int32 index, System.Int32 count)
-    // Offset: 0x1EB3264
+    // Offset: 0x1ED0480
     static void ClearInternal(::System::Array* a, int index, int count);
     // static public System.Void Copy(System.Array sourceArray, System.Array destinationArray, System.Int32 length)
-    // Offset: 0x1EB0BC8
+    // Offset: 0x1ECDDE4
     static void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int length);
     // static public System.Void Copy(System.Array sourceArray, System.Int32 sourceIndex, System.Array destinationArray, System.Int32 destinationIndex, System.Int32 length)
-    // Offset: 0x1EAFC10
+    // Offset: 0x1ECCE2C
     static void Copy(::System::Array* sourceArray, int sourceIndex, ::System::Array* destinationArray, int destinationIndex, int length);
     // static private System.Exception CreateArrayTypeMismatchException()
-    // Offset: 0x1EB3268
+    // Offset: 0x1ED0484
     static ::System::Exception* CreateArrayTypeMismatchException();
     // static private System.Boolean CanAssignArrayElement(System.Type source, System.Type target)
-    // Offset: 0x1EB32C0
+    // Offset: 0x1ED04DC
     static bool CanAssignArrayElement(::System::Type* source, ::System::Type* target);
     // static public System.Void ConstrainedCopy(System.Array sourceArray, System.Int32 sourceIndex, System.Array destinationArray, System.Int32 destinationIndex, System.Int32 length)
-    // Offset: 0x1EB33FC
+    // Offset: 0x1ED0618
     static void ConstrainedCopy(::System::Array* sourceArray, int sourceIndex, ::System::Array* destinationArray, int destinationIndex, int length);
     // static public T[] Empty()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -869,7 +869,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // public System.Void Initialize()
-    // Offset: 0x1EB3400
+    // Offset: 0x1ED061C
     void Initialize();
     // static private System.Int32 IndexOfImpl(T[] array, T value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -890,7 +890,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, value, startIndex, count);
     }
     // static private System.Void SortImpl(System.Array keys, System.Array items, System.Int32 index, System.Int32 length, System.Collections.IComparer comparer)
-    // Offset: 0x1EB29F4
+    // Offset: 0x1ECFC10
     static void SortImpl(::System::Array* keys, ::System::Array* items, int index, int length, ::System::Collections::IComparer* comparer);
     // static T UnsafeLoad(T[] array, System.Int32 index)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -920,7 +920,7 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<R, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, instance);
     }
     // private System.Void .ctor()
-    // Offset: 0x1EB2B98
+    // Offset: 0x1ECFDB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

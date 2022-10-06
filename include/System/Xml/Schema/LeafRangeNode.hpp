@@ -64,16 +64,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.BitSet nextIteration
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_nextIteration();
     // public System.Decimal get_Max()
-    // Offset: 0x1C51DF0
+    // Offset: 0x1C8A324
     ::System::Decimal get_Max();
     // public System.Decimal get_Min()
-    // Offset: 0x1C51E00
+    // Offset: 0x1C8A334
     ::System::Decimal get_Min();
     // public System.Xml.Schema.BitSet get_NextIteration()
-    // Offset: 0x1C51E10
+    // Offset: 0x1C8A344
     ::System::Xml::Schema::BitSet* get_NextIteration();
     // public System.Void set_NextIteration(System.Xml.Schema.BitSet value)
-    // Offset: 0x1C51E18
+    // Offset: 0x1C8A34C
     void set_NextIteration(::System::Xml::Schema::BitSet* value);
   }; // System.Xml.Schema.LeafRangeNode
   #pragma pack(pop)

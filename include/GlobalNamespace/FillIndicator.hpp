@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _image
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__image();
     // public System.Single get_fillAmount()
-    // Offset: 0x137039C
+    // Offset: 0x139EC9C
     float get_fillAmount();
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x137034C
+    // Offset: 0x139EC4C
     void set_fillAmount(float value);
     // public System.Void .ctor()
-    // Offset: 0x13703B8
+    // Offset: 0x139ECB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FillIndicator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FillIndicator::.ctor");

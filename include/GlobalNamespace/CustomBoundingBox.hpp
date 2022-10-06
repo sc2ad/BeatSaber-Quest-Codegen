@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // public System.Void .ctor()
-    // Offset: 0x15BF790
+    // Offset: 0x15C6644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBoundingBox* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBoundingBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBoundingBox*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15BF680
+    // Offset: 0x15C6534
     void Awake();
   }; // CustomBoundingBox
   #pragma pack(pop)

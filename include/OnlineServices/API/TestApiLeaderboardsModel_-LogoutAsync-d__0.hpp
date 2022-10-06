@@ -74,10 +74,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x133CE18
+    // Offset: 0x1357494
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x133CFB4
+    // Offset: 0x1357630
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<LogoutAsync>d__0
   #pragma pack(pop)

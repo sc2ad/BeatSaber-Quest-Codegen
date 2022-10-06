@@ -38,44 +38,44 @@ namespace System::IO {
     // Get instance field reference: System.IO.TextReader _in
     [[deprecated("Use field access instead!")]] ::System::IO::TextReader*& dyn__in();
     // System.Void .ctor(System.IO.TextReader t)
-    // Offset: 0x1B8C7E8
+    // Offset: 0x1BDA3A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader::SyncTextReader* New_ctor(::System::IO::TextReader* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::TextReader::SyncTextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::SyncTextReader*, creationType>(t)));
     }
     // public override System.Void Close()
-    // Offset: 0x1B8CBC4
+    // Offset: 0x1BDA77C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Close()
     void Close();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B8CBE4
+    // Offset: 0x1BDA79C
     // Implemented from: System.IO.TextReader
     // Base method: System.Void TextReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x1B8CCB4
+    // Offset: 0x1BDA86C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1B8CCD4
+    // Offset: 0x1BDA88C
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1B8CCF4
+    // Offset: 0x1BDA8AC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1B8CD14
+    // Offset: 0x1BDA8CC
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
     ::StringW ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1B8CD38
+    // Offset: 0x1BDA8F0
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
     ::StringW ReadToEnd();

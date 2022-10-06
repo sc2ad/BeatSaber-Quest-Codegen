@@ -36,7 +36,7 @@ namespace HoudiniEngineUnity {
   class Test_LayerMask_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_LayerMask ToTestObject(UnityEngine.LayerMask self)
-    // Offset: 0x2AC089C
+    // Offset: 0x2AE9E40
     static ::HoudiniEngineUnity::Test_LayerMask* ToTestObject(::UnityEngine::LayerMask self);
   }; // HoudiniEngineUnity.Test_LayerMask_Extensions
   #pragma pack(pop)

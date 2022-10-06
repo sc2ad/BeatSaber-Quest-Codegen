@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class RecordingToolSceneSetup : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10F7B24
+    // [InjectAttribute] Offset: 0x110F360
     // private readonly RecordingToolSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RecordingToolSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x14A3C50
+    // Offset: 0x148C34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14A3B6C
+    // Offset: 0x148C268
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

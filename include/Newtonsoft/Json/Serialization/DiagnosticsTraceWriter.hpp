@@ -67,20 +67,20 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Diagnostics.TraceLevel <LevelFilter>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceLevel& dyn_$LevelFilter$k__BackingField();
     // public System.Diagnostics.TraceLevel get_LevelFilter()
-    // Offset: 0x1D52EC0
+    // Offset: 0x1DB82C8
     ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void .ctor()
-    // Offset: 0x1D53340
+    // Offset: 0x1DB8748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticsTraceWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticsTraceWriter*, creationType>()));
     }
     // private System.Diagnostics.TraceEventType GetTraceEventType(System.Diagnostics.TraceLevel level)
-    // Offset: 0x1D52EC8
+    // Offset: 0x1DB82D0
     ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
-    // Offset: 0x1D52F5C
+    // Offset: 0x1DB8364
     void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.DiagnosticsTraceWriter
   #pragma pack(pop)

@@ -27,7 +27,7 @@ namespace System {
   class __ComObject : public ::Il2CppObject {
     public:
     // private System.Void .ctor()
-    // Offset: 0x29F6614
+    // Offset: 0x2B13CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

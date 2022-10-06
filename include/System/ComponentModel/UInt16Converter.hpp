@@ -38,22 +38,22 @@ namespace System::ComponentModel {
   class UInt16Converter : public ::System::ComponentModel::BaseNumberConverter {
     public:
     // override System.Type get_TargetType()
-    // Offset: 0x1CD77F0
+    // Offset: 0x1D249A0
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Type BaseNumberConverter::get_TargetType()
     ::System::Type* get_TargetType();
     // override System.Object FromString(System.String value, System.Int32 radix)
-    // Offset: 0x1CD7860
+    // Offset: 0x1D24A10
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Int32 radix)
     ::Il2CppObject* FromString(::StringW value, int radix);
     // override System.Object FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1CD78F8
+    // Offset: 0x1D24AA8
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // override System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1CD7974
+    // Offset: 0x1D24B24
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.String BaseNumberConverter::ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);

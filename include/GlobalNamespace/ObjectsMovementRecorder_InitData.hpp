@@ -143,7 +143,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly IBeatSaberLogger logger
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatSaberLogger*& dyn_logger();
     // public System.Void .ctor(ObjectsMovementRecorder/Mode mode, System.String recordingPath, ObjectsMovementRecorder/CameraView cameraView, System.Boolean addDateTimeSuffixToRecordingName, System.Boolean screenshotRecording, System.Int32 screenshotWidth, System.Int32 screenshotHeight, System.Int32 framerate, PlaybackRenderer/PlaybackScreenshot[] playbackScreenshots, System.Boolean saveToOldFormat, IBeatSaberLogger logger, IPosesSerializer posesSerializer)
-    // Offset: 0x14F6DE4
+    // Offset: 0x150D6A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectsMovementRecorder::InitData* New_ctor(::GlobalNamespace::ObjectsMovementRecorder::Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot*> playbackScreenshots, bool saveToOldFormat, ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectsMovementRecorder::InitData::.ctor");

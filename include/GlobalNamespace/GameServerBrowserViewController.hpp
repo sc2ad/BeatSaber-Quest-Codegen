@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   class GameServerBrowserViewController : public ::HMUI::ViewController {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x10F369C
+    // [HeaderAttribute] Offset: 0x110AED8
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
     // Offset: 0x70
@@ -66,21 +66,21 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* canBeInvitedOnLocalNetworkToggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10F3708
+    // [HeaderAttribute] Offset: 0x110AF44
     // private UnityEngine.UI.Button _createServerButton
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10F3754
+    // [HeaderAttribute] Offset: 0x110AF90
     // private GameServersListTableView _gameServersListTableView
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::GameServersListTableView* gameServersListTableView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServersListTableView*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10F37A0
+    // [HeaderAttribute] Offset: 0x110AFDC
     // private LoadingControl _mainLoadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LoadingControl _smallLoadingControl
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LoadingControl*& dyn__smallLoadingControl();
     // public System.Void .ctor()
-    // Offset: 0x13CFEC4
+    // Offset: 0x1414960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerBrowserViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerBrowserViewController::.ctor");

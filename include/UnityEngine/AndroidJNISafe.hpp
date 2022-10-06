@@ -27,295 +27,295 @@ namespace UnityEngine {
   class AndroidJNISafe : public ::Il2CppObject {
     public:
     // static public System.Void CheckException()
-    // Offset: 0x2A9D700
+    // Offset: 0x2ABA3B4
     static void CheckException();
     // static public System.Void DeleteGlobalRef(System.IntPtr globalref)
-    // Offset: 0x2A9DAFC
+    // Offset: 0x2ABA7B0
     static void DeleteGlobalRef(::System::IntPtr globalref);
     // static public System.Void DeleteWeakGlobalRef(System.IntPtr globalref)
-    // Offset: 0x2A9DB80
+    // Offset: 0x2ABA834
     static void DeleteWeakGlobalRef(::System::IntPtr globalref);
     // static public System.Void DeleteLocalRef(System.IntPtr localref)
-    // Offset: 0x2A9DA78
+    // Offset: 0x2ABA72C
     static void DeleteLocalRef(::System::IntPtr localref);
     // static public System.IntPtr NewString(System.String chars)
-    // Offset: 0x2A9DC04
+    // Offset: 0x2ABA8B8
     static ::System::IntPtr NewString(::StringW chars);
     // static public System.String GetStringChars(System.IntPtr str)
-    // Offset: 0x2A9DC80
+    // Offset: 0x2ABA934
     static ::StringW GetStringChars(::System::IntPtr str);
     // static public System.IntPtr GetObjectClass(System.IntPtr ptr)
-    // Offset: 0x2A9DCFC
+    // Offset: 0x2ABA9B0
     static ::System::IntPtr GetObjectClass(::System::IntPtr ptr);
     // static public System.IntPtr GetStaticMethodID(System.IntPtr clazz, System.String name, System.String sig)
-    // Offset: 0x2A9DD78
+    // Offset: 0x2ABAA2C
     static ::System::IntPtr GetStaticMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetMethodID(System.IntPtr obj, System.String name, System.String sig)
-    // Offset: 0x2A9DE0C
+    // Offset: 0x2ABAAC0
     static ::System::IntPtr GetMethodID(::System::IntPtr obj, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetFieldID(System.IntPtr clazz, System.String name, System.String sig)
-    // Offset: 0x2A9DEA0
+    // Offset: 0x2ABAB54
     static ::System::IntPtr GetFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetStaticFieldID(System.IntPtr clazz, System.String name, System.String sig)
-    // Offset: 0x2A9DF34
+    // Offset: 0x2ABABE8
     static ::System::IntPtr GetStaticFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr FromReflectedMethod(System.IntPtr refMethod)
-    // Offset: 0x2A9DFC8
+    // Offset: 0x2ABAC7C
     static ::System::IntPtr FromReflectedMethod(::System::IntPtr refMethod);
     // static public System.IntPtr FindClass(System.String name)
-    // Offset: 0x2A9E044
+    // Offset: 0x2ABACF8
     static ::System::IntPtr FindClass(::StringW name);
     // static public System.IntPtr NewObject(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9E0C0
+    // Offset: 0x2ABAD74
     static ::System::IntPtr NewObject(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Void SetStaticObjectField(System.IntPtr clazz, System.IntPtr fieldID, System.IntPtr val)
-    // Offset: 0x2A9E154
+    // Offset: 0x2ABAE08
     static void SetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::System::IntPtr val);
     // static public System.Void SetStaticStringField(System.IntPtr clazz, System.IntPtr fieldID, System.String val)
-    // Offset: 0x2A9E1EC
+    // Offset: 0x2ABAEA0
     static void SetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::StringW val);
     // static public System.Void SetStaticCharField(System.IntPtr clazz, System.IntPtr fieldID, System.Char val)
-    // Offset: 0x2A9E284
+    // Offset: 0x2ABAF38
     static void SetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::Il2CppChar val);
     // static public System.Void SetStaticDoubleField(System.IntPtr clazz, System.IntPtr fieldID, System.Double val)
-    // Offset: 0x2A9E31C
+    // Offset: 0x2ABAFD0
     static void SetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID, double val);
     // static public System.Void SetStaticFloatField(System.IntPtr clazz, System.IntPtr fieldID, System.Single val)
-    // Offset: 0x2A9E3C0
+    // Offset: 0x2ABB074
     static void SetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID, float val);
     // static public System.Void SetStaticLongField(System.IntPtr clazz, System.IntPtr fieldID, System.Int64 val)
-    // Offset: 0x2A9E464
+    // Offset: 0x2ABB118
     static void SetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID, int64_t val);
     // static public System.Void SetStaticShortField(System.IntPtr clazz, System.IntPtr fieldID, System.Int16 val)
-    // Offset: 0x2A9E4FC
+    // Offset: 0x2ABB1B0
     static void SetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID, int16_t val);
     // static public System.Void SetStaticSByteField(System.IntPtr clazz, System.IntPtr fieldID, System.SByte val)
-    // Offset: 0x2A9E594
+    // Offset: 0x2ABB248
     static void SetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, int8_t val);
     // static public System.Void SetStaticBooleanField(System.IntPtr clazz, System.IntPtr fieldID, System.Boolean val)
-    // Offset: 0x2A9E62C
+    // Offset: 0x2ABB2E0
     static void SetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool val);
     // static public System.Void SetStaticIntField(System.IntPtr clazz, System.IntPtr fieldID, System.Int32 val)
-    // Offset: 0x2A9E6C4
+    // Offset: 0x2ABB378
     static void SetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID, int val);
     // static public System.IntPtr GetStaticObjectField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9E75C
+    // Offset: 0x2ABB410
     static ::System::IntPtr GetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.String GetStaticStringField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9E7E8
+    // Offset: 0x2ABB49C
     static ::StringW GetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Char GetStaticCharField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9E874
+    // Offset: 0x2ABB528
     static ::Il2CppChar GetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Double GetStaticDoubleField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9E900
+    // Offset: 0x2ABB5B4
     static double GetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Single GetStaticFloatField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9E998
+    // Offset: 0x2ABB64C
     static float GetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int64 GetStaticLongField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9EA30
+    // Offset: 0x2ABB6E4
     static int64_t GetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int16 GetStaticShortField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9EABC
+    // Offset: 0x2ABB770
     static int16_t GetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.SByte GetStaticSByteField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9EB48
+    // Offset: 0x2ABB7FC
     static int8_t GetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Boolean GetStaticBooleanField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9EBD4
+    // Offset: 0x2ABB888
     static bool GetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int32 GetStaticIntField(System.IntPtr clazz, System.IntPtr fieldID)
-    // Offset: 0x2A9EC60
+    // Offset: 0x2ABB914
     static int GetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Void CallStaticVoidMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9ECEC
+    // Offset: 0x2ABB9A0
     static void CallStaticVoidMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.IntPtr CallStaticObjectMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9ED84
+    // Offset: 0x2ABBA38
     static ::System::IntPtr CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.String CallStaticStringMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9EE18
+    // Offset: 0x2ABBACC
     static ::StringW CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Char CallStaticCharMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9EEAC
+    // Offset: 0x2ABBB60
     static ::Il2CppChar CallStaticCharMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Double CallStaticDoubleMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9EF40
+    // Offset: 0x2ABBBF4
     static double CallStaticDoubleMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Single CallStaticFloatMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9EFE0
+    // Offset: 0x2ABBC94
     static float CallStaticFloatMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int64 CallStaticLongMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9F080
+    // Offset: 0x2ABBD34
     static int64_t CallStaticLongMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int16 CallStaticShortMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9F114
+    // Offset: 0x2ABBDC8
     static int16_t CallStaticShortMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.SByte CallStaticSByteMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9F1A8
+    // Offset: 0x2ABBE5C
     static int8_t CallStaticSByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Boolean CallStaticBooleanMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9F23C
+    // Offset: 0x2ABBEF0
     static bool CallStaticBooleanMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int32 CallStaticIntMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9F2D0
+    // Offset: 0x2ABBF84
     static int CallStaticIntMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Void SetObjectField(System.IntPtr obj, System.IntPtr fieldID, System.IntPtr val)
-    // Offset: 0x2A9F364
+    // Offset: 0x2ABC018
     static void SetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID, ::System::IntPtr val);
     // static public System.Void SetStringField(System.IntPtr obj, System.IntPtr fieldID, System.String val)
-    // Offset: 0x2A9F3FC
+    // Offset: 0x2ABC0B0
     static void SetStringField(::System::IntPtr obj, ::System::IntPtr fieldID, ::StringW val);
     // static public System.Void SetCharField(System.IntPtr obj, System.IntPtr fieldID, System.Char val)
-    // Offset: 0x2A9F494
+    // Offset: 0x2ABC148
     static void SetCharField(::System::IntPtr obj, ::System::IntPtr fieldID, ::Il2CppChar val);
     // static public System.Void SetDoubleField(System.IntPtr obj, System.IntPtr fieldID, System.Double val)
-    // Offset: 0x2A9F52C
+    // Offset: 0x2ABC1E0
     static void SetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID, double val);
     // static public System.Void SetFloatField(System.IntPtr obj, System.IntPtr fieldID, System.Single val)
-    // Offset: 0x2A9F5D0
+    // Offset: 0x2ABC284
     static void SetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID, float val);
     // static public System.Void SetLongField(System.IntPtr obj, System.IntPtr fieldID, System.Int64 val)
-    // Offset: 0x2A9F674
+    // Offset: 0x2ABC328
     static void SetLongField(::System::IntPtr obj, ::System::IntPtr fieldID, int64_t val);
     // static public System.Void SetShortField(System.IntPtr obj, System.IntPtr fieldID, System.Int16 val)
-    // Offset: 0x2A9F70C
+    // Offset: 0x2ABC3C0
     static void SetShortField(::System::IntPtr obj, ::System::IntPtr fieldID, int16_t val);
     // static public System.Void SetSByteField(System.IntPtr obj, System.IntPtr fieldID, System.SByte val)
-    // Offset: 0x2A9F7A4
+    // Offset: 0x2ABC458
     static void SetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID, int8_t val);
     // static public System.Void SetBooleanField(System.IntPtr obj, System.IntPtr fieldID, System.Boolean val)
-    // Offset: 0x2A9F83C
+    // Offset: 0x2ABC4F0
     static void SetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID, bool val);
     // static public System.Void SetIntField(System.IntPtr obj, System.IntPtr fieldID, System.Int32 val)
-    // Offset: 0x2A9F8D4
+    // Offset: 0x2ABC588
     static void SetIntField(::System::IntPtr obj, ::System::IntPtr fieldID, int val);
     // static public System.IntPtr GetObjectField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9F96C
+    // Offset: 0x2ABC620
     static ::System::IntPtr GetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.String GetStringField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9F9F8
+    // Offset: 0x2ABC6AC
     static ::StringW GetStringField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Char GetCharField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FA84
+    // Offset: 0x2ABC738
     static ::Il2CppChar GetCharField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Double GetDoubleField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FB10
+    // Offset: 0x2ABC7C4
     static double GetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Single GetFloatField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FBA8
+    // Offset: 0x2ABC85C
     static float GetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int64 GetLongField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FC40
+    // Offset: 0x2ABC8F4
     static int64_t GetLongField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int16 GetShortField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FCCC
+    // Offset: 0x2ABC980
     static int16_t GetShortField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.SByte GetSByteField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FD58
+    // Offset: 0x2ABCA0C
     static int8_t GetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Boolean GetBooleanField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FDE4
+    // Offset: 0x2ABCA98
     static bool GetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int32 GetIntField(System.IntPtr obj, System.IntPtr fieldID)
-    // Offset: 0x2A9FE70
+    // Offset: 0x2ABCB24
     static int GetIntField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Void CallVoidMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9FEFC
+    // Offset: 0x2ABCBB0
     static void CallVoidMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.IntPtr CallObjectMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2A9FF94
+    // Offset: 0x2ABCC48
     static ::System::IntPtr CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.String CallStringMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA0028
+    // Offset: 0x2ABCCDC
     static ::StringW CallStringMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Char CallCharMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA00BC
+    // Offset: 0x2ABCD70
     static ::Il2CppChar CallCharMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Double CallDoubleMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA0150
+    // Offset: 0x2ABCE04
     static double CallDoubleMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Single CallFloatMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA01F0
+    // Offset: 0x2ABCEA4
     static float CallFloatMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int64 CallLongMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA0290
+    // Offset: 0x2ABCF44
     static int64_t CallLongMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int16 CallShortMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA0324
+    // Offset: 0x2ABCFD8
     static int16_t CallShortMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.SByte CallSByteMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA03B8
+    // Offset: 0x2ABD06C
     static int8_t CallSByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Boolean CallBooleanMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA044C
+    // Offset: 0x2ABD100
     static bool CallBooleanMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int32 CallIntMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
-    // Offset: 0x2AA04E0
+    // Offset: 0x2ABD194
     static int CallIntMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Char[] FromCharArray(System.IntPtr array)
-    // Offset: 0x2AA0574
+    // Offset: 0x2ABD228
     static ::ArrayW<::Il2CppChar> FromCharArray(::System::IntPtr array);
     // static public System.Double[] FromDoubleArray(System.IntPtr array)
-    // Offset: 0x2AA05F0
+    // Offset: 0x2ABD2A4
     static ::ArrayW<double> FromDoubleArray(::System::IntPtr array);
     // static public System.Single[] FromFloatArray(System.IntPtr array)
-    // Offset: 0x2AA066C
+    // Offset: 0x2ABD320
     static ::ArrayW<float> FromFloatArray(::System::IntPtr array);
     // static public System.Int64[] FromLongArray(System.IntPtr array)
-    // Offset: 0x2AA06E8
+    // Offset: 0x2ABD39C
     static ::ArrayW<int64_t> FromLongArray(::System::IntPtr array);
     // static public System.Int16[] FromShortArray(System.IntPtr array)
-    // Offset: 0x2AA0764
+    // Offset: 0x2ABD418
     static ::ArrayW<int16_t> FromShortArray(::System::IntPtr array);
     // static public System.Byte[] FromByteArray(System.IntPtr array)
-    // Offset: 0x2AA07E0
+    // Offset: 0x2ABD494
     static ::ArrayW<uint8_t> FromByteArray(::System::IntPtr array);
     // static public System.SByte[] FromSByteArray(System.IntPtr array)
-    // Offset: 0x2AA085C
+    // Offset: 0x2ABD510
     static ::ArrayW<int8_t> FromSByteArray(::System::IntPtr array);
     // static public System.Boolean[] FromBooleanArray(System.IntPtr array)
-    // Offset: 0x2AA08D8
+    // Offset: 0x2ABD58C
     static ::ArrayW<bool> FromBooleanArray(::System::IntPtr array);
     // static public System.Int32[] FromIntArray(System.IntPtr array)
-    // Offset: 0x2AA0954
+    // Offset: 0x2ABD608
     static ::ArrayW<int> FromIntArray(::System::IntPtr array);
     // static public System.IntPtr ToObjectArray(System.IntPtr[] array, System.IntPtr type)
-    // Offset: 0x2AA09D0
+    // Offset: 0x2ABD684
     static ::System::IntPtr ToObjectArray(::ArrayW<::System::IntPtr> array, ::System::IntPtr type);
     // static public System.IntPtr ToCharArray(System.Char[] array)
-    // Offset: 0x2AA0A5C
+    // Offset: 0x2ABD710
     static ::System::IntPtr ToCharArray(::ArrayW<::Il2CppChar> array);
     // static public System.IntPtr ToDoubleArray(System.Double[] array)
-    // Offset: 0x2AA0AD8
+    // Offset: 0x2ABD78C
     static ::System::IntPtr ToDoubleArray(::ArrayW<double> array);
     // static public System.IntPtr ToFloatArray(System.Single[] array)
-    // Offset: 0x2AA0B54
+    // Offset: 0x2ABD808
     static ::System::IntPtr ToFloatArray(::ArrayW<float> array);
     // static public System.IntPtr ToLongArray(System.Int64[] array)
-    // Offset: 0x2AA0BD0
+    // Offset: 0x2ABD884
     static ::System::IntPtr ToLongArray(::ArrayW<int64_t> array);
     // static public System.IntPtr ToShortArray(System.Int16[] array)
-    // Offset: 0x2AA0C4C
+    // Offset: 0x2ABD900
     static ::System::IntPtr ToShortArray(::ArrayW<int16_t> array);
     // static public System.IntPtr ToByteArray(System.Byte[] array)
-    // Offset: 0x2AA0CC8
+    // Offset: 0x2ABD97C
     static ::System::IntPtr ToByteArray(::ArrayW<uint8_t> array);
     // static public System.IntPtr ToSByteArray(System.SByte[] array)
-    // Offset: 0x2AA0D44
+    // Offset: 0x2ABD9F8
     static ::System::IntPtr ToSByteArray(::ArrayW<int8_t> array);
     // static public System.IntPtr ToBooleanArray(System.Boolean[] array)
-    // Offset: 0x2AA0DC0
+    // Offset: 0x2ABDA74
     static ::System::IntPtr ToBooleanArray(::ArrayW<bool> array);
     // static public System.IntPtr ToIntArray(System.Int32[] array)
-    // Offset: 0x2AA0E3C
+    // Offset: 0x2ABDAF0
     static ::System::IntPtr ToIntArray(::ArrayW<int> array);
     // static public System.IntPtr GetObjectArrayElement(System.IntPtr array, System.Int32 index)
-    // Offset: 0x2AA0EB8
+    // Offset: 0x2ABDB6C
     static ::System::IntPtr GetObjectArrayElement(::System::IntPtr array, int index);
     // static public System.Int32 GetArrayLength(System.IntPtr array)
-    // Offset: 0x2AA0F44
+    // Offset: 0x2ABDBF8
     static int GetArrayLength(::System::IntPtr array);
   }; // UnityEngine.AndroidJNISafe
   #pragma pack(pop)

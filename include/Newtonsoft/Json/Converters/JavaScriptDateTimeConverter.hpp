@@ -46,7 +46,7 @@ namespace Newtonsoft::Json::Converters {
   class JavaScriptDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17CE1B0
+    // Offset: 0x17E1BB8
     // Implemented from: Newtonsoft.Json.Converters.DateTimeConverterBase
     // Base method: System.Void DateTimeConverterBase::.ctor()
     // Base method: System.Void JsonConverter::.ctor()
@@ -56,12 +56,12 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<JavaScriptDateTimeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x17CDBA0
+    // Offset: 0x17E15A8
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x17CDD38
+    // Offset: 0x17E1740
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);

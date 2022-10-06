@@ -139,53 +139,53 @@ namespace System::Net {
     // Get instance field reference: private System.Object locker
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_locker();
     // public System.Object get_AsyncState()
-    // Offset: 0x1A8CFCC
+    // Offset: 0x1A7E23C
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1A8CFD4
+    // Offset: 0x1A7E244
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1A8D0BC
+    // Offset: 0x1A7E32C
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1A8D0C4
+    // Offset: 0x1A7E334
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x1A8D158
+    // Offset: 0x1A7E3C8
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x1A8D168
+    // Offset: 0x1A7E3D8
     ::System::Exception* get_Exception();
     // System.Net.FtpWebResponse get_Response()
-    // Offset: 0x1A8D170
+    // Offset: 0x1A7E3E0
     ::System::Net::FtpWebResponse* get_Response();
     // System.IO.Stream get_Stream()
-    // Offset: 0x1A8D178
+    // Offset: 0x1A7E3E8
     ::System::IO::Stream* get_Stream();
     // System.Void set_Stream(System.IO.Stream value)
-    // Offset: 0x1A8D180
+    // Offset: 0x1A7E3F0
     void set_Stream(::System::IO::Stream* value);
     // public System.Void .ctor(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1A8CF48
+    // Offset: 0x1A7E1B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpAsyncResult* New_ctor(::System::AsyncCallback* callback, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpAsyncResult*, creationType>(callback, state)));
     }
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x1A8D188
+    // Offset: 0x1A7E3F8
     bool WaitUntilComplete(int timeout, bool exitContext);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc, System.Net.FtpWebResponse response)
-    // Offset: 0x1A8D1F0
+    // Offset: 0x1A7E460
     void SetCompleted(bool synch, ::System::Exception* exc, ::System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Net.FtpWebResponse response)
-    // Offset: 0x1A8D374
+    // Offset: 0x1A7E5E4
     void SetCompleted(bool synch, ::System::Net::FtpWebResponse* response);
     // System.Void SetCompleted(System.Boolean synch, System.Exception exc)
-    // Offset: 0x1A8D384
+    // Offset: 0x1A7E5F4
     void SetCompleted(bool synch, ::System::Exception* exc);
     // System.Void DoCallback()
-    // Offset: 0x1A8D2AC
+    // Offset: 0x1A7E51C
     void DoCallback();
   }; // System.Net.FtpAsyncResult
   #pragma pack(pop)

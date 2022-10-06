@@ -7,8 +7,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LobbyGameStateController
 #include "GlobalNamespace/LobbyGameStateController.hpp"
-// Including type: MultiplayerGameState
-#include "GlobalNamespace/MultiplayerGameState.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -24,6 +22,8 @@ namespace System::Threading::Tasks {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: MultiplayerGameState
+  struct MultiplayerGameState;
   // Forward declaring type: PlayersLobbyPermissionConfigurationNetSerializable
   class PlayersLobbyPermissionConfigurationNetSerializable;
   // Forward declaring type: PlayerLobbyPermissionConfigurationNetSerializable
@@ -49,44 +49,44 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LobbyGameStateController* $$4__this;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyGameStateController*) == 0x8);
-    // public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
+    // public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> getGameStateAsyncTcs
     // Size: 0x8
     // Offset: 0x18
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::MultiplayerGameState>* getGameStateAsyncTcs;
+    ::System::Threading::Tasks::TaskCompletionSource_1<bool>* getGameStateAsyncTcs;
     // Field size check
-    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::MultiplayerGameState>*) == 0x8);
-    // public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
+    // public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> getPlayerPermissionAsyncTcs
     // Size: 0x8
     // Offset: 0x20
-    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* getPlayerPermissionAsyncTcs;
+    ::System::Threading::Tasks::TaskCompletionSource_1<bool>* getPlayerPermissionAsyncTcs;
     // Field size check
-    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
     public:
     // Get instance field reference: public LobbyGameStateController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
-    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs
-    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::MultiplayerGameState>*& dyn_getGameStateAsyncTcs();
-    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlayersLobbyPermissionConfigurationNetSerializable> getPlayerPermissionAsyncTcs
-    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> getGameStateAsyncTcs
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_getGameStateAsyncTcs();
+    // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> getPlayerPermissionAsyncTcs
+    [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_getPlayerPermissionAsyncTcs();
     // public System.Void .ctor()
-    // Offset: 0x1557E64
+    // Offset: 0x156F990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c__DisplayClass98_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c__DisplayClass98_0*, creationType>()));
     }
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x1557E6C
+    // Offset: 0x156F998
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x15580CC
+    // Offset: 0x156FBF8
     void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x15582C0
+    // Offset: 0x156FDEC
     bool $GetGameStateAndConfigurationAsync$b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
   }; // LobbyGameStateController/<>c__DisplayClass98_0
   #pragma pack(pop)
-  static check_size<sizeof(LobbyGameStateController::$$c__DisplayClass98_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)> __GlobalNamespace_LobbyGameStateController_$$c__DisplayClass98_0SizeCheck;
+  static check_size<sizeof(LobbyGameStateController::$$c__DisplayClass98_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<bool>*)> __GlobalNamespace_LobbyGameStateController_$$c__DisplayClass98_0SizeCheck;
   static_assert(sizeof(LobbyGameStateController::$$c__DisplayClass98_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -96,38 +96,38 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean _forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x246FB14
+    // Offset: 0x24A8C00
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x246FB5C
+    // Offset: 0x24A8C48
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x246FAEC
+    // Offset: 0x24A8BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TeaEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::TeaEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TeaEngine*, creationType>()));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x246FB64
+    // Offset: 0x24A8C50
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x246FB6C
+    // Offset: 0x24A8C58
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x246FD3C
+    // Offset: 0x24A8E28
     int ProcessBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x247005C
+    // Offset: 0x24A9148
     void Reset();
     // private System.Void setKey(System.Byte[] key)
-    // Offset: 0x246FCCC
+    // Offset: 0x24A8DB8
     void setKey(::ArrayW<uint8_t> key);
     // private System.Int32 encryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x246FF6C
+    // Offset: 0x24A9058
     int encryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 decryptBlock(System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x246FE84
+    // Offset: 0x24A8F70
     int decryptBlock(::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.TeaEngine
   #pragma pack(pop)

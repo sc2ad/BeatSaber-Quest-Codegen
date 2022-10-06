@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*& dyn_completionHandler();
     // public System.Void .ctor()
-    // Offset: 0x15A49F4
+    // Offset: 0x15A3748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0*, creationType>()));
     }
     // System.Void <UploadScore>b__0(Oculus.Platform.Message`1<System.Boolean> messsage)
-    // Offset: 0x15A4DA8
+    // Offset: 0x15A3AFC
     void $UploadScore$b__0(::Oculus::Platform::Message_1<bool>* messsage);
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass6_0
   #pragma pack(pop)

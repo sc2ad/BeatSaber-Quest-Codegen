@@ -7,8 +7,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BeatmapDataLoader
 #include "GlobalNamespace/BeatmapDataLoader.hpp"
-// Including type: EnvironmentLightGroups
-#include "GlobalNamespace/EnvironmentLightGroups.hpp"
 // Including type: BeatmapSaveDataVersion3.BeatmapSaveData
 #include "BeatmapSaveDataVersion3/BeatmapSaveData.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -24,6 +22,10 @@ namespace GlobalNamespace {
   class DataConvertor_2;
   // Forward declaring type: BeatmapEventDataBox
   class BeatmapEventDataBox;
+  // Forward declaring type: LightGroupSO
+  class LightGroupSO;
+  // Forward declaring type: EnvironmentLightGroups
+  class EnvironmentLightGroups;
   // Forward declaring type: BeatmapEventDataBoxGroup
   class BeatmapEventDataBoxGroup;
 }
@@ -40,12 +42,12 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::EventBoxGroupConvertor : public ::Il2CppObject {
     public:
     public:
-    // private readonly DataConvertor`2<BeatmapEventDataBox,EnvironmentLightGroups/LightGroupData> _dataConvertor
+    // private readonly DataConvertor`2<BeatmapEventDataBox,LightGroupSO> _dataConvertor
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>* dataConvertor;
+    ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::LightGroupSO*>* dataConvertor;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::LightGroupSO*>*) == 0x8);
     // private readonly EnvironmentLightGroups _lightGroups
     // Size: 0x8
     // Offset: 0x18
@@ -53,19 +55,19 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentLightGroups*) == 0x8);
     public:
-    // Get instance field reference: private readonly DataConvertor`2<BeatmapEventDataBox,EnvironmentLightGroups/LightGroupData> _dataConvertor
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::EnvironmentLightGroups::LightGroupData*>*& dyn__dataConvertor();
+    // Get instance field reference: private readonly DataConvertor`2<BeatmapEventDataBox,LightGroupSO> _dataConvertor
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DataConvertor_2<::GlobalNamespace::BeatmapEventDataBox*, ::GlobalNamespace::LightGroupSO*>*& dyn__dataConvertor();
     // Get instance field reference: private readonly EnvironmentLightGroups _lightGroups
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
     // public System.Void .ctor(EnvironmentLightGroups lightGroups)
-    // Offset: 0x138B988
+    // Offset: 0x1379BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::EventBoxGroupConvertor* New_ctor(::GlobalNamespace::EnvironmentLightGroups* lightGroups) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::EventBoxGroupConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::EventBoxGroupConvertor*, creationType>(lightGroups)));
     }
     // public BeatmapEventDataBoxGroup Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBoxGroup eventBoxGroupSaveData)
-    // Offset: 0x138BA70
+    // Offset: 0x1379C90
     ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup* eventBoxGroupSaveData);
   }; // BeatmapDataLoader/EventBoxGroupConvertor
   #pragma pack(pop)

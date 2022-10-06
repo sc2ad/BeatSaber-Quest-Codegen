@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   class OnWillRenderObjectTrigger : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [NullAllowed] Offset: 0x10CF574
+    // [NullAllowed] Offset: 0x10E75B0
     // private UnityEngine.Shader _overrideShader
     // Size: 0x8
     // Offset: 0x18
@@ -100,17 +100,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1E75510
+    // Offset: 0x1D06078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnWillRenderObjectTrigger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnWillRenderObjectTrigger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnWillRenderObjectTrigger*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x1E750D8
+    // Offset: 0x1D05C40
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1E754D4
+    // Offset: 0x1D0603C
     void OnDisable();
   }; // OnWillRenderObjectTrigger
   #pragma pack(pop)

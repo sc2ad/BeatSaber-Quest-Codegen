@@ -63,72 +63,72 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3[] solverLocalPositions
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_solverLocalPositions();
     // public System.Void SolveForward(UnityEngine.Vector3 position)
-    // Offset: 0x21D1BDC
+    // Offset: 0x223C8AC
     void SolveForward(::UnityEngine::Vector3 position);
     // public System.Void SolveBackward(UnityEngine.Vector3 position)
-    // Offset: 0x21D2320
+    // Offset: 0x223CFF0
     void SolveBackward(::UnityEngine::Vector3 position);
     // private UnityEngine.Vector3 SolveJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x21D2DFC
+    // Offset: 0x223DACC
     ::UnityEngine::Vector3 SolveJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // private System.Void OnPreSolve()
-    // Offset: 0x21D1CAC
+    // Offset: 0x223C97C
     void OnPreSolve();
     // private System.Void OnPostSolve()
-    // Offset: 0x21D2400
+    // Offset: 0x223D0D0
     void OnPostSolve();
     // private System.Void Solve(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x21D2D98
+    // Offset: 0x223DA68
     void Solve(::UnityEngine::Vector3 targetPosition);
     // private System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x21D2148
+    // Offset: 0x223CE18
     void ForwardReach(::UnityEngine::Vector3 position);
     // private System.Void SolverMove(System.Int32 index, UnityEngine.Vector3 offset)
-    // Offset: 0x21D3644
+    // Offset: 0x223E314
     void SolverMove(int index, ::UnityEngine::Vector3 offset);
     // private System.Void SolverRotate(System.Int32 index, UnityEngine.Quaternion rotation, System.Boolean recursive)
-    // Offset: 0x21D3754
+    // Offset: 0x223E424
     void SolverRotate(int index, ::UnityEngine::Quaternion rotation, bool recursive);
     // private System.Void SolverRotateChildren(System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x21D3880
+    // Offset: 0x223E550
     void SolverRotateChildren(int index, ::UnityEngine::Quaternion rotation);
     // private System.Void SolverMoveChildrenAroundPoint(System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x21D3998
+    // Offset: 0x223E668
     void SolverMoveChildrenAroundPoint(int index, ::UnityEngine::Quaternion rotation);
     // private UnityEngine.Quaternion GetParentSolverRotation(System.Int32 index)
-    // Offset: 0x21D27F8
+    // Offset: 0x223D4C8
     ::UnityEngine::Quaternion GetParentSolverRotation(int index);
     // private UnityEngine.Vector3 GetParentSolverPosition(System.Int32 index)
-    // Offset: 0x21D2944
+    // Offset: 0x223D614
     ::UnityEngine::Vector3 GetParentSolverPosition(int index);
     // private UnityEngine.Quaternion GetLimitedRotation(System.Int32 index, UnityEngine.Quaternion q, out System.Boolean changed)
-    // Offset: 0x21D3B84
+    // Offset: 0x223E854
     ::UnityEngine::Quaternion GetLimitedRotation(int index, ::UnityEngine::Quaternion q, ByRef<bool> changed);
     // private System.Void LimitForward(System.Int32 rotateBone, System.Int32 limitBone)
-    // Offset: 0x21D30B8
+    // Offset: 0x223DD88
     void LimitForward(int rotateBone, int limitBone);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x21D23F0
+    // Offset: 0x223D0C0
     void BackwardReach(::UnityEngine::Vector3 position);
     // private System.Void BackwardReachUnlimited(UnityEngine.Vector3 position)
-    // Offset: 0x21D42F4
+    // Offset: 0x223EFC4
     void BackwardReachUnlimited(::UnityEngine::Vector3 position);
     // private System.Void BackwardReachLimited(UnityEngine.Vector3 position)
-    // Offset: 0x21D3D5C
+    // Offset: 0x223EA2C
     void BackwardReachLimited(::UnityEngine::Vector3 position);
     // private System.Void MapToSolverPositions()
-    // Offset: 0x21D2F14
+    // Offset: 0x223DBE4
     void MapToSolverPositions();
     // private System.Void MapToSolverPositionsLimited()
-    // Offset: 0x21D2FF4
+    // Offset: 0x223DCC4
     void MapToSolverPositionsLimited();
     // protected override System.Boolean get_boneLengthCanBeZero()
-    // Offset: 0x21D2DF4
+    // Offset: 0x223DAC4
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Boolean IKSolverHeuristic::get_boneLengthCanBeZero()
     bool get_boneLengthCanBeZero();
     // public System.Void .ctor()
-    // Offset: 0x21D43C0
+    // Offset: 0x223F090
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -138,17 +138,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverFABRIK*, creationType>()));
     }
     // public override UnityEngine.Vector3 GetIKPosition()
-    // Offset: 0x21D2454
+    // Offset: 0x223D124
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: UnityEngine.Vector3 IKSolver::GetIKPosition()
     ::UnityEngine::Vector3 GetIKPosition();
     // protected override System.Void OnInitiate()
-    // Offset: 0x21D24EC
+    // Offset: 0x223D1BC
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x21D2A90
+    // Offset: 0x223D760
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();

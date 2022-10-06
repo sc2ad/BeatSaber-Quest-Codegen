@@ -40,12 +40,12 @@ namespace NUnit::Framework::Internal::Filters {
   class AndFilter : public ::NUnit::Framework::Internal::Filters::CompositeFilter {
     public:
     // protected override System.String get_ElementName()
-    // Offset: 0x1C9D9C4
+    // Offset: 0x1CF5284
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
     ::StringW get_ElementName();
     // public System.Void .ctor()
-    // Offset: 0x1C9CF90
+    // Offset: 0x1CF4850
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor()
     // Base method: System.Void TestFilter::.ctor()
@@ -55,7 +55,7 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AndFilter*, creationType>()));
     }
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x1C9D028
+    // Offset: 0x1CF48E8
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,17 +64,17 @@ namespace NUnit::Framework::Internal::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AndFilter*, creationType>(filters)));
     }
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1C9D0D0
+    // Offset: 0x1CF4990
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(::NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1C9D3EC
+    // Offset: 0x1CF4CAC
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(::NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1C9D6D8
+    // Offset: 0x1CF4F98
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Boolean CompositeFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);

@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   class PlayerSaveDataConvertor : public ::Il2CppObject {
     public:
     // static public EnvironmentEffectsFilterPreset GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData saveData)
-    // Offset: 0x13FDE74
+    // Offset: 0x14D7228
     static ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData GetSaveData(EnvironmentEffectsFilterPreset data)
-    // Offset: 0x13FC4FC
+    // Offset: 0x14D573C
     static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
     // static public NoteJumpDurationTypeSettings GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData saveData)
-    // Offset: 0x13FDE68
+    // Offset: 0x14D721C
     static ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData GetSaveData(NoteJumpDurationTypeSettings data)
-    // Offset: 0x13FC4F0
+    // Offset: 0x14D5730
     static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
   }; // PlayerSaveDataConvertor
   #pragma pack(pop)

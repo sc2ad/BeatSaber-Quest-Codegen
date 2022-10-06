@@ -35,19 +35,19 @@ namespace RootMotion {
   class BakerUtilities : public ::Il2CppObject {
     public:
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x2216E44
+    // Offset: 0x22AB2F8
     static void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x2218318
+    // Offset: 0x22AC7CC
     static ::ArrayW<::UnityEngine::Keyframe> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x2216858
+    // Offset: 0x22AAD0C
     static void SetLoopFrame(float time, ::UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
-    // Offset: 0x2216E8C
+    // Offset: 0x22AB340
     static void SetTangentMode(::UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
-    // Offset: 0x2216390
+    // Offset: 0x22AA844
     static ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
   #pragma pack(pop)

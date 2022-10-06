@@ -83,35 +83,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA288
+    // [InjectAttribute] Offset: 0x1101A64
     // private MissionLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MissionLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA298
+    // [InjectAttribute] Offset: 0x1101A74
     // private BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA2A8
+    // [InjectAttribute] Offset: 0x1101A84
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA2B8
+    // [InjectAttribute] Offset: 0x1101A94
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA2C8
+    // [InjectAttribute] Offset: 0x1101AA4
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -140,23 +140,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapObjectManager _beatmapObjectManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // public System.Void .ctor()
-    // Offset: 0x130FF68
+    // Offset: 0x132AF9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelFailedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFailedController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x130FCC0
+    // Offset: 0x132ACF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x130FDA8
+    // Offset: 0x132ADDC
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x130FEA0
+    // Offset: 0x132AED4
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x130FECC
+    // Offset: 0x132AF00
     ::System::Collections::IEnumerator* LevelFailedCoroutine();
   }; // MissionLevelFailedController
   #pragma pack(pop)

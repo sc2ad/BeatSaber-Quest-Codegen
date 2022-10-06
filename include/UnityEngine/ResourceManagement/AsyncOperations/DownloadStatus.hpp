@@ -61,7 +61,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: public System.Boolean IsDone
     [[deprecated("Use field access instead!")]] bool& dyn_IsDone();
     // public System.Single get_Percent()
-    // Offset: 0x1F32000
+    // Offset: 0x1F4AEE0
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)

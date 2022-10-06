@@ -64,20 +64,20 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_p();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECPoint p)
-    // Offset: 0x231782C
+    // Offset: 0x2370E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixedPointUtilities::FixedPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixedPointUtilities::FixedPointCallback*, creationType>(p)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x23178B4
+    // Offset: 0x2370F0C
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
     // private System.Boolean CheckExisting(Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo existingFP, System.Int32 n)
-    // Offset: 0x2317CEC
+    // Offset: 0x2371344
     bool CheckExisting(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* existingFP, int n);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECLookupTable table, System.Int32 n)
-    // Offset: 0x2317D30
+    // Offset: 0x2371388
     bool CheckTable(::Org::BouncyCastle::Math::EC::ECLookupTable* table, int n);
   }; // Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities/Org.BouncyCastle.Math.EC.Multiplier.FixedPointCallback
   #pragma pack(pop)

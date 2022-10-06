@@ -67,35 +67,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.IntPtr m_ptr
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_m_ptr();
     // public System.Void .ctor(System.Int32 numBytes)
-    // Offset: 0x1719EFC
+    // Offset: 0x1735FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNativeBuffer* New_ctor(int numBytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNativeBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNativeBuffer*, creationType>(numBytes)));
     }
     // public System.Void Reset(System.Int32 numBytes)
-    // Offset: 0x171A0AC
+    // Offset: 0x1736168
     void Reset(int numBytes);
     // public System.Int32 GetCapacity()
-    // Offset: 0x171A0B0
+    // Offset: 0x173616C
     int GetCapacity();
     // public System.IntPtr GetPointer(System.Int32 byteOffset)
-    // Offset: 0x171A0B8
+    // Offset: 0x1736174
     ::System::IntPtr GetPointer(int byteOffset);
     // public System.Void Dispose()
-    // Offset: 0x171A14C
+    // Offset: 0x1736208
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x171A078
+    // Offset: 0x1736134
     void Dispose(bool disposing);
     // private System.Void Reallocate(System.Int32 numBytes)
-    // Offset: 0x1719F60
+    // Offset: 0x173601C
     void Reallocate(int numBytes);
     // private System.Void Release()
-    // Offset: 0x171A1CC
+    // Offset: 0x1736288
     void Release();
     // protected override System.Void Finalize()
-    // Offset: 0x1719FFC
+    // Offset: 0x17360B8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

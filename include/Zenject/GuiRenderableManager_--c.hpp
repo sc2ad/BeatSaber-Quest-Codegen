@@ -59,26 +59,26 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.GuiRenderableManager/Zenject.RenderableInfo,System.Int32> <>9__1_0
     static void _set_$$9__1_0(::System::Func_2<::Zenject::GuiRenderableManager::RenderableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E1BD48
+    // Offset: 0x1E64778
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E1BDAC
+    // Offset: 0x1E647DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::$$c*, creationType>()));
     }
     // System.Int32 <.ctor>b__1_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1E1BDB4
+    // Offset: 0x1E647E4
     int $_ctor$b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <.ctor>b__1_0(Zenject.GuiRenderableManager/Zenject.RenderableInfo x)
-    // Offset: 0x1E1BDCC
+    // Offset: 0x1E647FC
     int $_ctor$b__1_0(::Zenject::GuiRenderableManager::RenderableInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E1BDE4
+    // Offset: 0x1E64814
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E1BE40
+    // Offset: 0x1E64870
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderableManager/Zenject.<>c
   #pragma pack(pop)

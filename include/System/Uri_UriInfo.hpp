@@ -77,7 +77,7 @@ namespace System {
     // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
     [[deprecated("Use field access instead!")]] ::System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()
-    // Offset: 0x2AE7E84
+    // Offset: 0x2B15860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::UriInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Uri::UriInfo::.ctor");

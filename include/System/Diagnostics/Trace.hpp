@@ -36,13 +36,13 @@ namespace System::Diagnostics {
     // Set static field: static private System.Diagnostics.CorrelationManager correlationManager
     static void _set_correlationManager(::System::Diagnostics::CorrelationManager* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
-    // Offset: 0x1CDF318
+    // Offset: 0x1D2C4C8
     static ::System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
-    // Offset: 0x1CDF59C
+    // Offset: 0x1D2C74C
     static bool get_AutoFlush();
     // static public System.Diagnostics.CorrelationManager get_CorrelationManager()
-    // Offset: 0x1CDF668
+    // Offset: 0x1D2C818
     static ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
   }; // System.Diagnostics.Trace
   #pragma pack(pop)

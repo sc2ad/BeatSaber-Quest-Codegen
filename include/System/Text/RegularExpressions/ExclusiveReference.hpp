@@ -60,17 +60,17 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Int32 _locked
     [[deprecated("Use field access instead!")]] int& dyn__locked();
     // public System.Void .ctor()
-    // Offset: 0x1BF1FC8
+    // Offset: 0x1C294FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExclusiveReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::ExclusiveReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExclusiveReference*, creationType>()));
     }
     // System.Object Get()
-    // Offset: 0x1BF1E6C
+    // Offset: 0x1C293A0
     ::Il2CppObject* Get();
     // System.Void Release(System.Object obj)
-    // Offset: 0x1BF1EBC
+    // Offset: 0x1C293F0
     void Release(::Il2CppObject* obj);
   }; // System.Text.RegularExpressions.ExclusiveReference
   #pragma pack(pop)

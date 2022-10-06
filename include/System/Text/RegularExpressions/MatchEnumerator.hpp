@@ -80,20 +80,20 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _done
     [[deprecated("Use field access instead!")]] bool& dyn__done();
     // public System.Object get_Current()
-    // Offset: 0x1BF3E10
+    // Offset: 0x1C2B344
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Text.RegularExpressions.MatchCollection matchcoll)
-    // Offset: 0x1BF3CEC
+    // Offset: 0x1C2B220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchEnumerator* New_ctor(::System::Text::RegularExpressions::MatchCollection* matchcoll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::MatchEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchEnumerator*, creationType>(matchcoll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1BF3DAC
+    // Offset: 0x1C2B2E0
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1BF3EA8
+    // Offset: 0x1C2B3DC
     void Reset();
   }; // System.Text.RegularExpressions.MatchEnumerator
   #pragma pack(pop)

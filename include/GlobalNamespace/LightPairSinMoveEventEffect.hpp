@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType switchOverrideRandomValuesEvent;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0x10E82A8
+    // [SpaceAttribute] Offset: 0x10FF994
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x24
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideRandomValues and: startValueOffset
     char __padding3[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10E82E0
+    // [TooltipAttribute] Offset: 0x10FF9CC
     // private System.Single _startValueOffset
     // Size: 0x4
     // Offset: 0x28
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: endPositionOffset and: transformL
     char __padding6[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10E834C
+    // [SpaceAttribute] Offset: 0x10FFA38
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x48
@@ -112,14 +112,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E8394
+    // [InjectAttribute] Offset: 0x10FFA80
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E83A4
+    // [InjectAttribute] Offset: 0x10FFA90
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x60
@@ -198,26 +198,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x14DB854
+    // Offset: 0x1468FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairSinMoveEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairSinMoveEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightPairSinMoveEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14DADAC
+    // Offset: 0x146851C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14DB134
+    // Offset: 0x14688A4
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x14DB410
+    // Offset: 0x1468B80
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x14DB42C
+    // Offset: 0x1468B9C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void UpdateMovementData(System.Int32 beatmapEventDataValue, LightPairSinMoveEventEffect/MovementData movementData, System.Single movementValueOffset)
-    // Offset: 0x14DB610
+    // Offset: 0x1468D80
     void UpdateMovementData(int beatmapEventDataValue, ::GlobalNamespace::LightPairSinMoveEventEffect::MovementData* movementData, float movementValueOffset);
   }; // LightPairSinMoveEventEffect
   #pragma pack(pop)

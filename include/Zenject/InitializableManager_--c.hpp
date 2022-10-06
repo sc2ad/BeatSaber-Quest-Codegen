@@ -59,26 +59,26 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E1DBDC
+    // Offset: 0x1E6660C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E1DC40
+    // Offset: 0x1E66670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager::$$c*, creationType>()));
     }
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1E1DC48
+    // Offset: 0x1E66678
     int $_ctor$b__2_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/Zenject.InitializableInfo x)
-    // Offset: 0x1E1DC60
+    // Offset: 0x1E66690
     int $Initialize$b__5_0(::Zenject::InitializableManager::InitializableInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E1DC78
+    // Offset: 0x1E666A8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E1DCD4
+    // Offset: 0x1E66704
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager/Zenject.<>c
   #pragma pack(pop)

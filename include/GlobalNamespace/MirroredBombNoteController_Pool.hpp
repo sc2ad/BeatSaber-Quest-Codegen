@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MirroredBombNoteController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredBombNoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x130CB38
+    // Offset: 0x1327B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBombNoteController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirroredBombNoteController::Pool::.ctor");

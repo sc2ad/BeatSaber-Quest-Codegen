@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single syncTime
     [[deprecated("Use field access instead!")]] float& dyn_syncTime();
     // static public PacketPool`1<ConnectedPlayerManager/SyncTimePacket> get_pool()
-    // Offset: 0x1686130
+    // Offset: 0x169CB68
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x1686230
+    // Offset: 0x169CC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::SyncTimePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::SyncTimePacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1686178
+    // Offset: 0x169CBB0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1686198
+    // Offset: 0x169CBD0
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/SyncTimePacket Init(System.Single syncTime)
-    // Offset: 0x16861CC
+    // Offset: 0x169CC04
     ::GlobalNamespace::ConnectedPlayerManager::SyncTimePacket* Init(float syncTime);
     // public System.Void Release()
-    // Offset: 0x16861D4
+    // Offset: 0x169CC0C
     void Release();
   }; // ConnectedPlayerManager/SyncTimePacket
   #pragma pack(pop)

@@ -66,32 +66,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<IMultiplayerSpectatingSpot,System.Int32> _spotIndexBySpot
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, int>*& dyn__spotIndexBySpot();
     // public System.Collections.Generic.IReadOnlyList`1<IMultiplayerSpectatingSpot> get_spectatingSpots()
-    // Offset: 0x13B7FF8
+    // Offset: 0x13E5F08
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* get_spectatingSpots();
     // public IMultiplayerSpectatingSpot get_defaultSpot()
-    // Offset: 0x13B8000
+    // Offset: 0x13E5F10
     ::GlobalNamespace::IMultiplayerSpectatingSpot* get_defaultSpot();
     // public System.Void .ctor()
-    // Offset: 0x13B860C
+    // Offset: 0x13E651C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatingSpotManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatingSpotManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotManager*, creationType>()));
     }
     // public System.Void RegisterSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x13B8128
+    // Offset: 0x13E6038
     void RegisterSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // public IMultiplayerSpectatingSpot GetAdjacentSpot(IMultiplayerSpectatingSpot spectatingSpot, System.Int32 offset)
-    // Offset: 0x13B83B8
+    // Offset: 0x13E62C8
     ::GlobalNamespace::IMultiplayerSpectatingSpot* GetAdjacentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot, int offset);
     // private System.Int32 GetIndexBySpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x13B8468
+    // Offset: 0x13E6378
     int GetIndexBySpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void UpdateIndexBySpotDictionary()
-    // Offset: 0x13B823C
+    // Offset: 0x13E614C
     void UpdateIndexBySpotDictionary();
     // private System.Void SpotOnHasBeenRemoved(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x13B84F4
+    // Offset: 0x13E6404
     void SpotOnHasBeenRemoved(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
   }; // MultiplayerSpectatingSpotManager
   #pragma pack(pop)

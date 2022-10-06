@@ -29,40 +29,40 @@ namespace RootMotion {
   class LayerMaskExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean Contains(UnityEngine.LayerMask mask, System.Int32 layer)
-    // Offset: 0x1FCEDA0
+    // Offset: 0x205F058
     static bool Contains(::UnityEngine::LayerMask mask, int layer);
     // static public UnityEngine.LayerMask Create(params System.String[] layerNames)
-    // Offset: 0x1FCEDF8
+    // Offset: 0x205F0B0
     static ::UnityEngine::LayerMask Create(::ArrayW<::StringW> layerNames);
     // static public UnityEngine.LayerMask Create(params System.Int32[] layerNumbers)
-    // Offset: 0x1FCEEC4
+    // Offset: 0x205F17C
     static ::UnityEngine::LayerMask Create(::ArrayW<int> layerNumbers);
     // static public UnityEngine.LayerMask NamesToMask(params System.String[] layerNames)
-    // Offset: 0x1FCEE10
+    // Offset: 0x205F0C8
     static ::UnityEngine::LayerMask NamesToMask(::ArrayW<::StringW> layerNames);
     // static public UnityEngine.LayerMask LayerNumbersToMask(params System.Int32[] layerNumbers)
-    // Offset: 0x1FCEEDC
+    // Offset: 0x205F194
     static ::UnityEngine::LayerMask LayerNumbersToMask(::ArrayW<int> layerNumbers);
     // static public UnityEngine.LayerMask Inverse(UnityEngine.LayerMask original)
-    // Offset: 0x1FCEF80
+    // Offset: 0x205F238
     static ::UnityEngine::LayerMask Inverse(::UnityEngine::LayerMask original);
     // static public UnityEngine.LayerMask AddToMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x1FCEFAC
+    // Offset: 0x205F264
     static ::UnityEngine::LayerMask AddToMask(::UnityEngine::LayerMask original, ::ArrayW<::StringW> layerNames);
     // static public UnityEngine.LayerMask RemoveFromMask(UnityEngine.LayerMask original, params System.String[] layerNames)
-    // Offset: 0x1FCEFFC
+    // Offset: 0x205F2B4
     static ::UnityEngine::LayerMask RemoveFromMask(::UnityEngine::LayerMask original, ::ArrayW<::StringW> layerNames);
     // static public System.String[] MaskToNames(UnityEngine.LayerMask original)
-    // Offset: 0x1FCF068
+    // Offset: 0x205F320
     static ::ArrayW<::StringW> MaskToNames(::UnityEngine::LayerMask original);
     // static public System.Int32[] MaskToNumbers(UnityEngine.LayerMask original)
-    // Offset: 0x1FCF15C
+    // Offset: 0x205F414
     static ::ArrayW<int> MaskToNumbers(::UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original)
-    // Offset: 0x1FCF234
+    // Offset: 0x205F4EC
     static ::StringW MaskToString(::UnityEngine::LayerMask original);
     // static public System.String MaskToString(UnityEngine.LayerMask original, System.String delimiter)
-    // Offset: 0x1FCF294
+    // Offset: 0x205F54C
     static ::StringW MaskToString(::UnityEngine::LayerMask original, ::StringW delimiter);
   }; // RootMotion.LayerMaskExtensions
   #pragma pack(pop)

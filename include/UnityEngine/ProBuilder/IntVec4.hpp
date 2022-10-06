@@ -62,41 +62,41 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector4 value
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x1FDB0E8
+    // Offset: 0x20822E4
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x1FDB0F0
+    // Offset: 0x20822EC
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x1FDB0F8
+    // Offset: 0x20822F4
     float get_z();
     // public System.Single get_w()
-    // Offset: 0x1FDB100
+    // Offset: 0x20822FC
     float get_w();
     // public System.Void .ctor(UnityEngine.Vector4 vector)
-    // Offset: 0x1FDB108
+    // Offset: 0x2082304
     // ABORTED: conflicts with another method.  IntVec4(::UnityEngine::Vector4 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec4 p)
-    // Offset: 0x1FDB2F4
+    // Offset: 0x20824F0
     bool Equals(::UnityEngine::ProBuilder::IntVec4 p);
     // public System.Boolean Equals(UnityEngine.Vector4 p)
-    // Offset: 0x1FDB464
+    // Offset: 0x2082660
     bool Equals(::UnityEngine::Vector4 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x1FDB3EC
+    // Offset: 0x20825E8
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x1FDB114
+    // Offset: 0x2082310
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x1FDB51C
+    // Offset: 0x2082718
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1FDB5E8
+    // Offset: 0x20827E4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -105,10 +105,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec4), 0 + sizeof(::UnityEngine::Vector4)> __UnityEngine_ProBuilder_IntVec4SizeCheck;
   static_assert(sizeof(IntVec4) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1FDB2B8
+  // Offset: 0x20824B4
   bool operator ==(const ::UnityEngine::ProBuilder::IntVec4& a, const ::UnityEngine::ProBuilder::IntVec4& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec4 a, UnityEngine.ProBuilder.IntVec4 b)
-  // Offset: 0x1FDB3AC
+  // Offset: 0x20825A8
   bool operator !=(const ::UnityEngine::ProBuilder::IntVec4& a, const ::UnityEngine::ProBuilder::IntVec4& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

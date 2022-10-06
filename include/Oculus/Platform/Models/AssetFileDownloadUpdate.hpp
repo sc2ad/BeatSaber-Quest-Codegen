@@ -71,7 +71,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean Completed
     [[deprecated("Use field access instead!")]] bool& dyn_Completed();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19EE35C
+    // Offset: 0x19F4CA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDownloadUpdate* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetFileDownloadUpdate::.ctor");

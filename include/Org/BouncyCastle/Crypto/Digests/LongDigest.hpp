@@ -182,69 +182,69 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_AlgorithmName();
     // System.Void .ctor()
-    // Offset: 0x22AEC64
+    // Offset: 0x231D210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::LongDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongDigest*, creationType>()));
     }
     // System.Void .ctor(Org.BouncyCastle.Crypto.Digests.LongDigest t)
-    // Offset: 0x22AECF8
+    // Offset: 0x231D2A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::LongDigest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::LongDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongDigest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x22AF880
+    // Offset: 0x231DE2C
     static void _cctor();
     // protected System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.LongDigest t)
-    // Offset: 0x22AEDA0
+    // Offset: 0x231D34C
     void CopyIn(::Org::BouncyCastle::Crypto::Digests::LongDigest* t);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x22AEE68
+    // Offset: 0x231D414
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x22AEF7C
+    // Offset: 0x231D528
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Finish()
-    // Offset: 0x22AF0A4
+    // Offset: 0x231D650
     void Finish();
     // public System.Void Reset()
-    // Offset: 0x22AF79C
+    // Offset: 0x231DD48
     void Reset();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x22AEEF0
+    // Offset: 0x231D49C
     void ProcessWord(::ArrayW<uint8_t> input, int inOff);
     // private System.Void AdjustByteCounts()
-    // Offset: 0x22AF11C
+    // Offset: 0x231D6C8
     void AdjustByteCounts();
     // System.Void ProcessLength(System.Int64 lowW, System.Int64 hiW)
-    // Offset: 0x22AF140
+    // Offset: 0x231D6EC
     void ProcessLength(int64_t lowW, int64_t hiW);
     // System.Void ProcessBlock()
-    // Offset: 0x22AF1C0
+    // Offset: 0x231D76C
     void ProcessBlock();
     // static private System.UInt64 Ch(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x22AF844
+    // Offset: 0x231DDF0
     static uint64_t Ch(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Maj(System.UInt64 x, System.UInt64 y, System.UInt64 z)
-    // Offset: 0x22AF864
+    // Offset: 0x231DE10
     static uint64_t Maj(uint64_t x, uint64_t y, uint64_t z);
     // static private System.UInt64 Sum0(System.UInt64 x)
-    // Offset: 0x22AF854
+    // Offset: 0x231DE00
     static uint64_t Sum0(uint64_t x);
     // static private System.UInt64 Sum1(System.UInt64 x)
-    // Offset: 0x22AF834
+    // Offset: 0x231DDE0
     static uint64_t Sum1(uint64_t x);
     // static private System.UInt64 Sigma0(System.UInt64 x)
-    // Offset: 0x22AF824
+    // Offset: 0x231DDD0
     static uint64_t Sigma0(uint64_t x);
     // static private System.UInt64 Sigma1(System.UInt64 x)
-    // Offset: 0x22AF814
+    // Offset: 0x231DDC0
     static uint64_t Sigma1(uint64_t x);
     // public System.Int32 GetByteLength()
-    // Offset: 0x22AF878
+    // Offset: 0x231DE24
     int GetByteLength();
     // public System.Int32 GetDigestSize()
     // Offset: 0xFFFFFFFFFFFFFFFF

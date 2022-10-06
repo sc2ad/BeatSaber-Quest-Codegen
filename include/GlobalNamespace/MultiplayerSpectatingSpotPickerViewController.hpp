@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StepValuePicker*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA010
+    // [InjectAttribute] Offset: 0x11017EC
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -61,29 +61,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerSpectatorController _spectatorController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerSpectatorController*& dyn__spectatorController();
     // public System.Void .ctor()
-    // Offset: 0x13B8D74
+    // Offset: 0x13E6C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatingSpotPickerViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotPickerViewController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13B87C0
+    // Offset: 0x13E66D0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B8A7C
+    // Offset: 0x13E698C
     void OnDestroy();
     // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x13B8CA8
+    // Offset: 0x13E6BB8
     void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void RefreshSpectatingSpotName()
-    // Offset: 0x13B88D8
+    // Offset: 0x13E67E8
     void RefreshSpectatingSpotName();
     // private System.Void HandleIncButtonWasPressed()
-    // Offset: 0x13B8CAC
+    // Offset: 0x13E6BBC
     void HandleIncButtonWasPressed();
     // private System.Void HandleDecButtonWasPressed()
-    // Offset: 0x13B8D10
+    // Offset: 0x13E6C20
     void HandleDecButtonWasPressed();
   }; // MultiplayerSpectatingSpotPickerViewController
   #pragma pack(pop)

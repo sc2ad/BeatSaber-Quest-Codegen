@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ModifiersSelectionView*& dyn__modifiersSelectionView();
     // public System.Void .ctor()
-    // Offset: 0x135D9F4
+    // Offset: 0x138C378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CenterStageLobbyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CenterStageLobbyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CenterStageLobbyViewController*, creationType>()));
     }
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x135D8A0
+    // Offset: 0x138C224
     void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
   }; // CenterStageLobbyViewController
   #pragma pack(pop)

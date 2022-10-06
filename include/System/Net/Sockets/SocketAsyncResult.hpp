@@ -224,47 +224,47 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Int32 EndCalled
     [[deprecated("Use field access instead!")]] int& dyn_EndCalled();
     // public System.IntPtr get_Handle()
-    // Offset: 0x1B57024
+    // Offset: 0x1B47E50
     ::System::IntPtr get_Handle();
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x1B5712C
+    // Offset: 0x1B47F58
     ::System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1B570E8
+    // Offset: 0x1B47F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::Il2CppObject* state, ::System::Net::Sockets::SocketOperation operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>(socket, callback, state, operation)));
     }
     // public System.Void Init(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x1B5707C
+    // Offset: 0x1B47EA8
     void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::Il2CppObject* state, ::System::Net::Sockets::SocketOperation operation);
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x1B571B4
+    // Offset: 0x1B47FE0
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x1B556AC
+    // Offset: 0x1B464D8
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x1B57270
+    // Offset: 0x1B4809C
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x1B55FF4
+    // Offset: 0x1B46E20
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x1B5727C
+    // Offset: 0x1B480A8
     void Complete(::System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1B54F08
+    // Offset: 0x1B45D34
     void Complete(::System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x1B54F10
+    // Offset: 0x1B45D3C
     void Complete(::System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x1B551AC
+    // Offset: 0x1B45FD8
     void Complete(::System::Net::Sockets::Socket* s, int total);
     // public System.Void .ctor()
-    // Offset: 0x1B56E3C
+    // Offset: 0x1B47C68
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -273,7 +273,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>()));
     }
     // override System.Void CompleteDisposed()
-    // Offset: 0x1B5726C
+    // Offset: 0x1B48098
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();

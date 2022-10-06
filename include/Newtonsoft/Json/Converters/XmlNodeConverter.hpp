@@ -96,82 +96,82 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Boolean <OmitRootObject>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$OmitRootObject$k__BackingField();
     // public System.String get_DeserializeRootElementName()
-    // Offset: 0x17D3D0C
+    // Offset: 0x17E7714
     ::StringW get_DeserializeRootElementName();
     // public System.Boolean get_WriteArrayAttribute()
-    // Offset: 0x17D3D14
+    // Offset: 0x17E771C
     bool get_WriteArrayAttribute();
     // public System.Boolean get_OmitRootObject()
-    // Offset: 0x17D3D1C
+    // Offset: 0x17E7724
     bool get_OmitRootObject();
     // private Newtonsoft.Json.Converters.IXmlNode WrapXml(System.Object value)
-    // Offset: 0x17D3E48
+    // Offset: 0x17E7850
     ::Newtonsoft::Json::Converters::IXmlNode* WrapXml(::Il2CppObject* value);
     // private System.Void PushParentNamespaces(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D3F48
+    // Offset: 0x17E7950
     void PushParentNamespaces(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.String ResolveFullName(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D5D74
+    // Offset: 0x17E977C
     ::StringW ResolveFullName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.String GetPropertyName(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D60B0
+    // Offset: 0x17E9AB8
     ::StringW GetPropertyName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Boolean IsArray(Newtonsoft.Json.Converters.IXmlNode node)
-    // Offset: 0x17D647C
+    // Offset: 0x17E9E84
     bool IsArray(::Newtonsoft::Json::Converters::IXmlNode* node);
     // private System.Void SerializeGroupedNodes(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName)
-    // Offset: 0x17D681C
+    // Offset: 0x17EA224
     void SerializeGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
     // private System.Void SerializeNode(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName)
-    // Offset: 0x17D4538
+    // Offset: 0x17E7F40
     void SerializeNode(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
     // static private System.Boolean AllSameName(Newtonsoft.Json.Converters.IXmlNode node)
-    // Offset: 0x17D6C64
+    // Offset: 0x17EA66C
     static bool AllSameName(::Newtonsoft::Json::Converters::IXmlNode* node);
     // private System.Void DeserializeValue(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.Xml.XmlNamespaceManager manager, System.String propertyName, Newtonsoft.Json.Converters.IXmlNode currentNode)
-    // Offset: 0x17D7FAC
+    // Offset: 0x17EB9B4
     void DeserializeValue(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private System.Void ReadElement(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String propertyName, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D7628
+    // Offset: 0x17EB030
     void ReadElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void CreateElement(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String elementName, System.Xml.XmlNamespaceManager manager, System.String elementPrefix, System.Collections.Generic.Dictionary`2<System.String,System.String> attributeNameValues)
-    // Offset: 0x17D98B8
+    // Offset: 0x17ED2C0
     void CreateElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW elementName, ::System::Xml::XmlNamespaceManager* manager, ::StringW elementPrefix, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues);
     // static private System.Void AddAttribute(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String attributeName, System.Xml.XmlNamespaceManager manager, System.String attributePrefix)
-    // Offset: 0x17D9614
+    // Offset: 0x17ED01C
     static void AddAttribute(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW attributeName, ::System::Xml::XmlNamespaceManager* manager, ::StringW attributePrefix);
     // private System.String ConvertTokenToXmlValue(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x17DA08C
+    // Offset: 0x17EDA94
     ::StringW ConvertTokenToXmlValue(::Newtonsoft::Json::JsonReader* reader);
     // private System.Void ReadArrayElements(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.String propertyName, Newtonsoft.Json.Converters.IXmlNode currentNode, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D8D18
+    // Offset: 0x17EC720
     void ReadArrayElements(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void AddJsonArrayAttribute(Newtonsoft.Json.Converters.IXmlElement element, Newtonsoft.Json.Converters.IXmlDocument document)
-    // Offset: 0x17DA718
+    // Offset: 0x17EE120
     void AddJsonArrayAttribute(::Newtonsoft::Json::Converters::IXmlElement* element, ::Newtonsoft::Json::Converters::IXmlDocument* document);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> ReadAttributeElements(Newtonsoft.Json.JsonReader reader, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D9050
+    // Offset: 0x17ECA58
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ReadAttributeElements(::Newtonsoft::Json::JsonReader* reader, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void CreateInstruction(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String propertyName)
-    // Offset: 0x17D856C
+    // Offset: 0x17EBF74
     void CreateInstruction(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName);
     // private System.Void CreateDocumentType(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode)
-    // Offset: 0x17D89A4
+    // Offset: 0x17EC3AC
     void CreateDocumentType(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String elementName, Newtonsoft.Json.Converters.IXmlDocument document, System.String elementPrefix, System.Xml.XmlNamespaceManager manager)
-    // Offset: 0x17D9ED0
+    // Offset: 0x17ED8D8
     ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW elementPrefix, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void DeserializeNode(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.Xml.XmlNamespaceManager manager, Newtonsoft.Json.Converters.IXmlNode currentNode)
-    // Offset: 0x17D78C0
+    // Offset: 0x17EB2C8
     void DeserializeNode(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private System.Boolean IsNamespaceAttribute(System.String attributeName, out System.String prefix)
-    // Offset: 0x17DAA34
+    // Offset: 0x17EE43C
     bool IsNamespaceAttribute(::StringW attributeName, ByRef<::StringW> prefix);
     // private System.Boolean ValueAttributes(System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> c)
-    // Offset: 0x17D6ED4
+    // Offset: 0x17EA8DC
     bool ValueAttributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* c);
     // public System.Void .ctor()
-    // Offset: 0x17DAC10
+    // Offset: 0x17EE618
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -180,17 +180,17 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<XmlNodeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x17D3D24
+    // Offset: 0x17E772C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x17D7060
+    // Offset: 0x17EAA68
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type valueType)
-    // Offset: 0x17DAB18
+    // Offset: 0x17EE520
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type valueType)
     bool CanConvert(::System::Type* valueType);

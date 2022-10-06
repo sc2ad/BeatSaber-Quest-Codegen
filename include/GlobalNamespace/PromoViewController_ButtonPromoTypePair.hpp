@@ -48,21 +48,21 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0x10F8DC4
+    // [NullAllowed] Offset: 0x1110688
     // public PreviewBeatmapLevelPackSO previewLevelPack
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x10F8DD4
+    // [NullAllowed] Offset: 0x1110698
     // public BeatmapLevelPackSO levelPack
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapLevelPackSO* levelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x10F8DE4
+    // [NullAllowed] Offset: 0x11106A8
     // public BeatmapLevelSO beatmapLevel
     // Size: 0x8
     // Offset: 0x28
@@ -87,10 +87,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private IAnnotatedBeatmapLevelCollection _annotatedBeatmapLevelCollection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& dyn__annotatedBeatmapLevelCollection();
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0x1409610
+    // Offset: 0x14E2B3C
     ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x14096E0
+    // Offset: 0x14E2C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PromoViewController::ButtonPromoTypePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PromoViewController::ButtonPromoTypePair::.ctor");

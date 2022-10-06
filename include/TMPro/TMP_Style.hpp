@@ -81,38 +81,38 @@ namespace TMPro {
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
-    // Offset: 0x1475850
+    // Offset: 0x14A73CC
     ::StringW get_name();
     // public System.Void set_name(System.String value)
-    // Offset: 0x1475858
+    // Offset: 0x14A73D4
     void set_name(::StringW value);
     // public System.Int32 get_hashCode()
-    // Offset: 0x1475894
+    // Offset: 0x14A7410
     int get_hashCode();
     // public System.Void set_hashCode(System.Int32 value)
-    // Offset: 0x147589C
+    // Offset: 0x14A7418
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
-    // Offset: 0x14758B0
+    // Offset: 0x14A742C
     ::StringW get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
-    // Offset: 0x14758B8
+    // Offset: 0x14A7434
     ::StringW get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
-    // Offset: 0x14758C0
+    // Offset: 0x14A743C
     ::ArrayW<int> get_styleOpeningTagArray();
     // public System.Int32[] get_styleClosingTagArray()
-    // Offset: 0x14758C8
+    // Offset: 0x14A7444
     ::ArrayW<int> get_styleClosingTagArray();
     // public System.Void .ctor()
-    // Offset: 0x1475A40
+    // Offset: 0x14A75BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Style* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Style::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Style*, creationType>()));
     }
     // public System.Void RefreshStyle()
-    // Offset: 0x14758D0
+    // Offset: 0x14A744C
     void RefreshStyle();
   }; // TMPro.TMP_Style
   #pragma pack(pop)

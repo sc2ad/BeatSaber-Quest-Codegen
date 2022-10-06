@@ -118,37 +118,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _multiplier
     [[deprecated("Use field access instead!")]] int& dyn__multiplier();
     // public System.Void SetState(StandardScoreSyncState/Score s, System.Int32 value)
-    // Offset: 0x2677894
+    // Offset: 0x26A4A38
     void SetState(::GlobalNamespace::StandardScoreSyncState_Score s, int value);
     // public StandardScoreSyncState GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x26778D8
+    // Offset: 0x26A4A7C
     ::GlobalNamespace::StandardScoreSyncState GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
     // public StandardScoreSyncState ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x26778FC
+    // Offset: 0x26A4AA0
     ::GlobalNamespace::StandardScoreSyncState ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
     // public System.Int32 GetState(StandardScoreSyncState/Score s)
-    // Offset: 0x2677920
+    // Offset: 0x26A4AC4
     int GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x267796C
+    // Offset: 0x26A4B10
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26779DC
+    // Offset: 0x26A4B80
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(in StandardScoreSyncState other)
-    // Offset: 0x2677A4C
+    // Offset: 0x26A4BF0
     bool Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
     // public System.Int32 GetSize()
-    // Offset: 0x2677AA8
+    // Offset: 0x26A4C4C
     int GetSize();
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta(in StandardScoreSyncState stateTable)
-    // Offset: 0x2677B38
+    // Offset: 0x26A4CDC
     ::GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_GetDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
     // private StandardScoreSyncState IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta(in StandardScoreSyncState delta)
-    // Offset: 0x2677B5C
+    // Offset: 0x26A4D00
     ::GlobalNamespace::StandardScoreSyncState IStateTable$StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32$_ApplyDelta(ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
     // private System.Boolean IEquatableByReference<StandardScoreSyncState>.Equals(in StandardScoreSyncState other)
-    // Offset: 0x2677B80
+    // Offset: 0x26A4D24
     bool IEquatableByReference$StandardScoreSyncState$_Equals(ByRef<::GlobalNamespace::StandardScoreSyncState> other);
   }; // StandardScoreSyncState
   #pragma pack(pop)

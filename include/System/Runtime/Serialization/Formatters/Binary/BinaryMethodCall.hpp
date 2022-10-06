@@ -103,13 +103,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18FC56C
+    // Offset: 0x18CDB58
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
-    // Offset: 0x18FC844
+    // Offset: 0x18CDE30
     void Dump();
     // public System.Void .ctor()
-    // Offset: 0x18FC848
+    // Offset: 0x18CDE34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

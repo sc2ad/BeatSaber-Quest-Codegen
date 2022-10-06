@@ -86,38 +86,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private INetworkPlayer _player
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayer*& dyn__player();
     // public INetworkPlayer get_player()
-    // Offset: 0x14E8218
+    // Offset: 0x14FEAD4
     ::GlobalNamespace::INetworkPlayer* get_player();
     // public System.Void set_player(INetworkPlayer value)
-    // Offset: 0x14E8220
+    // Offset: 0x14FEADC
     void set_player(::GlobalNamespace::INetworkPlayer* value);
     // public System.Void .ctor()
-    // Offset: 0x14E91A0
+    // Offset: 0x14FFA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerOptionsTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerOptionsTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerOptionsTableCell*, creationType>()));
     }
     // private System.Void Refresh()
-    // Offset: 0x14E8228
+    // Offset: 0x14FEAE4
     void Refresh();
     // private System.Void Block()
-    // Offset: 0x14E8D38
+    // Offset: 0x14FF5F4
     void Block();
     // private System.Void Unblock()
-    // Offset: 0x14E8DF4
+    // Offset: 0x14FF6B0
     void Unblock();
     // private System.Void Join()
-    // Offset: 0x14E8EB0
+    // Offset: 0x14FF76C
     void Join();
     // private System.Void Invite()
-    // Offset: 0x14E8F6C
+    // Offset: 0x14FF828
     void Invite();
     // private System.Void Kick()
-    // Offset: 0x14E9028
+    // Offset: 0x14FF8E4
     void Kick();
     // private System.Void Leave()
-    // Offset: 0x14E90E4
+    // Offset: 0x14FF9A0
     void Leave();
   }; // NetworkPlayerOptionsTableCell
   #pragma pack(pop)

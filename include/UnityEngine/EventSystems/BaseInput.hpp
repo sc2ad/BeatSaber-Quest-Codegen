@@ -41,55 +41,55 @@ namespace UnityEngine::EventSystems {
   class BaseInput : public ::UnityEngine::EventSystems::UIBehaviour {
     public:
     // public System.String get_compositionString()
-    // Offset: 0x1947158
+    // Offset: 0x1916AE0
     ::StringW get_compositionString();
     // public UnityEngine.IMECompositionMode get_imeCompositionMode()
-    // Offset: 0x1947160
+    // Offset: 0x1916AE8
     ::UnityEngine::IMECompositionMode get_imeCompositionMode();
     // public System.Void set_imeCompositionMode(UnityEngine.IMECompositionMode value)
-    // Offset: 0x1947168
+    // Offset: 0x1916AF0
     void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
     // public UnityEngine.Vector2 get_compositionCursorPos()
-    // Offset: 0x1947174
+    // Offset: 0x1916AFC
     ::UnityEngine::Vector2 get_compositionCursorPos();
     // public System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
-    // Offset: 0x194717C
+    // Offset: 0x1916B04
     void set_compositionCursorPos(::UnityEngine::Vector2 value);
     // public System.Boolean get_mousePresent()
-    // Offset: 0x1947184
+    // Offset: 0x1916B0C
     bool get_mousePresent();
     // public UnityEngine.Vector2 get_mousePosition()
-    // Offset: 0x19471B0
+    // Offset: 0x1916B38
     ::UnityEngine::Vector2 get_mousePosition();
     // public UnityEngine.Vector2 get_mouseScrollDelta()
-    // Offset: 0x19471B8
+    // Offset: 0x1916B40
     ::UnityEngine::Vector2 get_mouseScrollDelta();
     // public System.Boolean get_touchSupported()
-    // Offset: 0x19471C0
+    // Offset: 0x1916B48
     bool get_touchSupported();
     // public System.Int32 get_touchCount()
-    // Offset: 0x19471C8
+    // Offset: 0x1916B50
     int get_touchCount();
     // public System.Boolean GetMouseButtonDown(System.Int32 button)
-    // Offset: 0x194718C
+    // Offset: 0x1916B14
     bool GetMouseButtonDown(int button);
     // public System.Boolean GetMouseButtonUp(System.Int32 button)
-    // Offset: 0x1947198
+    // Offset: 0x1916B20
     bool GetMouseButtonUp(int button);
     // public System.Boolean GetMouseButton(System.Int32 button)
-    // Offset: 0x19471A4
+    // Offset: 0x1916B2C
     bool GetMouseButton(int button);
     // public UnityEngine.Touch GetTouch(System.Int32 index)
-    // Offset: 0x19471D0
+    // Offset: 0x1916B58
     ::UnityEngine::Touch GetTouch(int index);
     // public System.Single GetAxisRaw(System.String axisName)
-    // Offset: 0x19471DC
+    // Offset: 0x1916B64
     float GetAxisRaw(::StringW axisName);
     // public System.Boolean GetButtonDown(System.String buttonName)
-    // Offset: 0x19471E8
+    // Offset: 0x1916B70
     bool GetButtonDown(::StringW buttonName);
     // public System.Void .ctor()
-    // Offset: 0x19471F4
+    // Offset: 0x1916B7C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

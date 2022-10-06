@@ -74,22 +74,22 @@ namespace System::Reflection {
     // Get instance field reference: private System.IntPtr handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1D6B1D8
+    // Offset: 0x1DD05E0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     ::System::Type* get_DeclaringType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1D6B208
+    // Offset: 0x1DD0610
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     ::System::Type* get_ReflectedType();
     // public override System.String get_Name()
-    // Offset: 0x1D6B238
+    // Offset: 0x1DD0640
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::StringW get_Name();
     // public System.Void .ctor()
-    // Offset: 0x1D6B468
+    // Offset: 0x1DD0870
     // Implemented from: System.Reflection.RuntimeEventInfo
     // Base method: System.Void RuntimeEventInfo::.ctor()
     // Base method: System.Void EventInfo::.ctor()
@@ -101,42 +101,42 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MonoEvent*, creationType>()));
     }
     // public override System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
-    // Offset: 0x1D6B004
+    // Offset: 0x1DD040C
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetAddMethod(System.Boolean nonPublic)
     ::System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRaiseMethod(System.Boolean nonPublic)
-    // Offset: 0x1D6B0D0
+    // Offset: 0x1DD04D8
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRaiseMethod(System.Boolean nonPublic)
     ::System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetRemoveMethod(System.Boolean nonPublic)
-    // Offset: 0x1D6B154
+    // Offset: 0x1DD055C
     // Implemented from: System.Reflection.EventInfo
     // Base method: System.Reflection.MethodInfo EventInfo::GetRemoveMethod(System.Boolean nonPublic)
     ::System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
     // public override System.String ToString()
-    // Offset: 0x1D6B268
+    // Offset: 0x1DD0670
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1D6B2E8
+    // Offset: 0x1DD06F0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(::System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1D6B368
+    // Offset: 0x1DD0770
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1D6B3E0
+    // Offset: 0x1DD07E8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1D6B460
+    // Offset: 0x1DD0868
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData();

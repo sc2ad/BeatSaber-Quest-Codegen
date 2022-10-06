@@ -166,61 +166,61 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <HasParameterizedCreator>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$HasParameterizedCreator$k__BackingField();
     // public System.Type get_CollectionItemType()
-    // Offset: 0x1D53CA0
+    // Offset: 0x1DB90A8
     ::System::Type* get_CollectionItemType();
     // private System.Void set_CollectionItemType(System.Type value)
-    // Offset: 0x1D53CA8
+    // Offset: 0x1DB90B0
     void set_CollectionItemType(::System::Type* value);
     // public System.Boolean get_IsMultidimensionalArray()
-    // Offset: 0x1D53CB0
+    // Offset: 0x1DB90B8
     bool get_IsMultidimensionalArray();
     // private System.Void set_IsMultidimensionalArray(System.Boolean value)
-    // Offset: 0x1D53CB8
+    // Offset: 0x1DB90C0
     void set_IsMultidimensionalArray(bool value);
     // System.Boolean get_IsArray()
-    // Offset: 0x1D53CC4
+    // Offset: 0x1DB90CC
     bool get_IsArray();
     // private System.Void set_IsArray(System.Boolean value)
-    // Offset: 0x1D53CCC
+    // Offset: 0x1DB90D4
     void set_IsArray(bool value);
     // System.Boolean get_ShouldCreateWrapper()
-    // Offset: 0x1D53CD8
+    // Offset: 0x1DB90E0
     bool get_ShouldCreateWrapper();
     // private System.Void set_ShouldCreateWrapper(System.Boolean value)
-    // Offset: 0x1D53CE0
+    // Offset: 0x1DB90E8
     void set_ShouldCreateWrapper(bool value);
     // System.Boolean get_CanDeserialize()
-    // Offset: 0x1D53CEC
+    // Offset: 0x1DB90F4
     bool get_CanDeserialize();
     // private System.Void set_CanDeserialize(System.Boolean value)
-    // Offset: 0x1D53CF4
+    // Offset: 0x1DB90FC
     void set_CanDeserialize(bool value);
     // Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_ParameterizedCreator()
-    // Offset: 0x1D53D00
+    // Offset: 0x1DB9108
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_ParameterizedCreator();
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_OverrideCreator()
-    // Offset: 0x1D53D8C
+    // Offset: 0x1DB9194
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_OverrideCreator();
     // public System.Void set_OverrideCreator(Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> value)
-    // Offset: 0x1D53D94
+    // Offset: 0x1DB919C
     void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* value);
     // public System.Boolean get_HasParameterizedCreator()
-    // Offset: 0x1D53DA4
+    // Offset: 0x1DB91AC
     bool get_HasParameterizedCreator();
     // public System.Void set_HasParameterizedCreator(System.Boolean value)
-    // Offset: 0x1D53DAC
+    // Offset: 0x1DB91B4
     void set_HasParameterizedCreator(bool value);
     // System.Boolean get_HasParameterizedCreatorInternal()
-    // Offset: 0x1D53DB8
+    // Offset: 0x1DB91C0
     bool get_HasParameterizedCreatorInternal();
     // Newtonsoft.Json.Utilities.IWrappedCollection CreateWrapper(System.Object list)
-    // Offset: 0x1D548D4
+    // Offset: 0x1DB9CDC
     ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::Il2CppObject* list);
     // System.Collections.IList CreateTemporaryCollection()
-    // Offset: 0x1D54C64
+    // Offset: 0x1DBA06C
     ::System::Collections::IList* CreateTemporaryCollection();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D53DE0
+    // Offset: 0x1DB91E8
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class StringSO : public ::GlobalNamespace::ObservableVariableSO_1<::StringW> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A6591C
+    // Offset: 0x2A845AC
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

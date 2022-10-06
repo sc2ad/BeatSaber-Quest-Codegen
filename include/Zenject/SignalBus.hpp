@@ -142,20 +142,20 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // public Zenject.SignalBus get_ParentBus()
-    // Offset: 0x1D1087C
+    // Offset: 0x1D5DA2C
     ::Zenject::SignalBus* get_ParentBus();
     // public System.Int32 get_NumSubscribers()
-    // Offset: 0x1D10884
+    // Offset: 0x1D5DA34
     int get_NumSubscribers();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.SignalDeclaration> signalDeclarations, Zenject.SignalBus parentBus, Zenject.ZenjectSettings zenjectSettings, Zenject.SignalSubscription/Zenject.Pool subscriptionPool, Zenject.SignalDeclaration/Zenject.Factory signalDeclarationFactory, Zenject.DiContainer container)
-    // Offset: 0x1D1062C
+    // Offset: 0x1D5D7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalBus* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus, ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription::Pool* subscriptionPool, ::Zenject::SignalDeclaration::Factory* signalDeclarationFactory, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalBus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalBus*, creationType>(signalDeclarations, parentBus, zenjectSettings, subscriptionPool, signalDeclarationFactory, container)));
     }
     // public System.Void LateDispose()
-    // Offset: 0x1D108DC
+    // Offset: 0x1D5DA8C
     void LateDispose();
     // public System.Void FireId(System.Object identifier, TSignal signal)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -194,10 +194,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void FireId(System.Object identifier, System.Object signal)
-    // Offset: 0x1D10DE8
+    // Offset: 0x1D5DF98
     void FireId(::Il2CppObject* identifier, ::Il2CppObject* signal);
     // public System.Void Fire(System.Object signal)
-    // Offset: 0x1D11088
+    // Offset: 0x1D5E238
     void Fire(::Il2CppObject* signal);
     // public System.Void TryFireId(System.Object identifier, TSignal signal)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -236,10 +236,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void TryFireId(System.Object identifier, System.Object signal)
-    // Offset: 0x1D11094
+    // Offset: 0x1D5E244
     void TryFireId(::Il2CppObject* identifier, ::Il2CppObject* signal);
     // public System.Void TryFire(System.Object signal)
-    // Offset: 0x1D11100
+    // Offset: 0x1D5E2B0
     void TryFire(::Il2CppObject* signal);
     // public System.Void SubscribeId(System.Object identifier, System.Action callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -278,10 +278,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, callback);
     }
     // public System.Void SubscribeId(System.Type signalType, System.Object identifier, System.Action`1<System.Object> callback)
-    // Offset: 0x1D1110C
+    // Offset: 0x1D5E2BC
     void SubscribeId(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void Subscribe(System.Type signalType, System.Action`1<System.Object> callback)
-    // Offset: 0x1D11174
+    // Offset: 0x1D5E324
     void Subscribe(::System::Type* signalType, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void UnsubscribeId(System.Object identifier, System.Action callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -302,16 +302,16 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, callback);
     }
     // public System.Void UnsubscribeId(System.Type signalType, System.Object identifier, System.Action callback)
-    // Offset: 0x1D11184
+    // Offset: 0x1D5E334
     void UnsubscribeId(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Action* callback);
     // public System.Void Unsubscribe(System.Type signalType, System.Action callback)
-    // Offset: 0x1D111EC
+    // Offset: 0x1D5E39C
     void Unsubscribe(::System::Type* signalType, ::System::Action* callback);
     // public System.Void UnsubscribeId(System.Type signalType, System.Object identifier, System.Action`1<System.Object> callback)
-    // Offset: 0x1D111FC
+    // Offset: 0x1D5E3AC
     void UnsubscribeId(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void Unsubscribe(System.Type signalType, System.Action`1<System.Object> callback)
-    // Offset: 0x1D11204
+    // Offset: 0x1D5E3B4
     void Unsubscribe(::System::Type* signalType, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void UnsubscribeId(System.Object identifier, System.Action`1<TSignal> callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -350,16 +350,16 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, callback);
     }
     // public System.Void TryUnsubscribeId(System.Type signalType, System.Object identifier, System.Action callback)
-    // Offset: 0x1D11214
+    // Offset: 0x1D5E3C4
     void TryUnsubscribeId(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Action* callback);
     // public System.Void TryUnsubscribe(System.Type signalType, System.Action callback)
-    // Offset: 0x1D1121C
+    // Offset: 0x1D5E3CC
     void TryUnsubscribe(::System::Type* signalType, ::System::Action* callback);
     // public System.Void TryUnsubscribeId(System.Type signalType, System.Object identifier, System.Action`1<System.Object> callback)
-    // Offset: 0x1D1122C
+    // Offset: 0x1D5E3DC
     void TryUnsubscribeId(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void TryUnsubscribe(System.Type signalType, System.Action`1<System.Object> callback)
-    // Offset: 0x1D11234
+    // Offset: 0x1D5E3E4
     void TryUnsubscribe(::System::Type* signalType, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void TryUnsubscribeId(System.Object identifier, System.Action`1<TSignal> callback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -380,22 +380,22 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, callback);
     }
     // private System.Void UnsubscribeInternal(System.Type signalType, System.Object identifier, System.Object token, System.Boolean throwIfMissing)
-    // Offset: 0x1D1118C
+    // Offset: 0x1D5E33C
     void UnsubscribeInternal(::System::Type* signalType, ::Il2CppObject* identifier, ::Il2CppObject* token, bool throwIfMissing);
     // private System.Void UnsubscribeInternal(Zenject.BindingId signalId, System.Object token, System.Boolean throwIfMissing)
-    // Offset: 0x1D11244
+    // Offset: 0x1D5E3F4
     void UnsubscribeInternal(::Zenject::BindingId signalId, ::Il2CppObject* token, bool throwIfMissing);
     // private System.Void UnsubscribeInternal(Zenject.SignalSubscriptionId id, System.Boolean throwIfMissing)
-    // Offset: 0x1D1127C
+    // Offset: 0x1D5E42C
     void UnsubscribeInternal(::Zenject::SignalSubscriptionId id, bool throwIfMissing);
     // private System.Void SubscribeInternal(System.Type signalType, System.Object identifier, System.Object token, System.Action`1<System.Object> callback)
-    // Offset: 0x1D11114
+    // Offset: 0x1D5E2C4
     void SubscribeInternal(::System::Type* signalType, ::Il2CppObject* identifier, ::Il2CppObject* token, ::System::Action_1<::Il2CppObject*>* callback);
     // private System.Void SubscribeInternal(Zenject.BindingId signalId, System.Object token, System.Action`1<System.Object> callback)
-    // Offset: 0x1D11388
+    // Offset: 0x1D5E538
     void SubscribeInternal(::Zenject::BindingId signalId, ::Il2CppObject* token, ::System::Action_1<::Il2CppObject*>* callback);
     // private System.Void SubscribeInternal(Zenject.SignalSubscriptionId id, System.Action`1<System.Object> callback)
-    // Offset: 0x1D113B4
+    // Offset: 0x1D5E564
     void SubscribeInternal(::Zenject::SignalSubscriptionId id, ::System::Action_1<::Il2CppObject*>* callback);
     // public System.Void DeclareSignal(System.Object identifier, System.Nullable`1<Zenject.SignalMissingHandlerResponses> missingHandlerResponse, System.Nullable`1<System.Boolean> forceAsync, System.Nullable`1<System.Int32> asyncTickPriority)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -407,19 +407,19 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, identifier, missingHandlerResponse, forceAsync, asyncTickPriority);
     }
     // public System.Void DeclareSignal(System.Type signalType, System.Object identifier, System.Nullable`1<Zenject.SignalMissingHandlerResponses> missingHandlerResponse, System.Nullable`1<System.Boolean> forceAsync, System.Nullable`1<System.Int32> asyncTickPriority)
-    // Offset: 0x1D1161C
+    // Offset: 0x1D5E7CC
     void DeclareSignal(::System::Type* signalType, ::Il2CppObject* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse, ::System::Nullable_1<bool> forceAsync, ::System::Nullable_1<int> asyncTickPriority);
     // private Zenject.SignalDeclaration GetDeclaration(System.Type signalType, System.Object identifier, System.Boolean requireDeclaration)
-    // Offset: 0x1D10E44
+    // Offset: 0x1D5DFF4
     ::Zenject::SignalDeclaration* GetDeclaration(::System::Type* signalType, ::Il2CppObject* identifier, bool requireDeclaration);
     // private Zenject.SignalDeclaration GetDeclaration(Zenject.BindingId signalId, System.Boolean requireDeclaration)
-    // Offset: 0x1D114DC
+    // Offset: 0x1D5E68C
     ::Zenject::SignalDeclaration* GetDeclaration(::Zenject::BindingId signalId, bool requireDeclaration);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D11840
+    // Offset: 0x1D5E9F0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D11A98
+    // Offset: 0x1D5EC48
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalBus
   #pragma pack(pop)

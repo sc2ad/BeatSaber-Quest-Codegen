@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
     [[deprecated("Use field access instead!")]] bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x13FC710
+    // Offset: 0x14D5970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::MultiplayerModeSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::MultiplayerModeSettings::.ctor");

@@ -68,14 +68,14 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private readonly System.Threading.Tasks.TaskScheduler m_taskScheduler
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskScheduler*& dyn_m_taskScheduler();
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Threading.Tasks.TaskContinuationOptions options, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x1DE59A8
+    // Offset: 0x1D78500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::StandardTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardTaskContinuation*, creationType>(task, options, scheduler)));
     }
     // override System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
-    // Offset: 0x1DE5C40
+    // Offset: 0x1D787A4
     // Implemented from: System.Threading.Tasks.TaskContinuation
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);

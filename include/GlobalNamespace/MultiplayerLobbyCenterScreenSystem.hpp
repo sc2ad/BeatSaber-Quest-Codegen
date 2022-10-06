@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MultiplayerLobbyCenterScreenSystem : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1432710
+    // Offset: 0x1437364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyCenterScreenSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyCenterScreenSystem::.ctor");

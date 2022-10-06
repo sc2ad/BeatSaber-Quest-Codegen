@@ -52,23 +52,23 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.UInt64 senderID
     [[deprecated("Use field access instead!")]] uint64_t& dyn_senderID();
     // public System.Void .ctor()
-    // Offset: 0x2AAFAA0
+    // Offset: 0x2AD8044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipPCMSourceNative* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipPCMSourceNative::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipPCMSourceNative*, creationType>()));
     }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x2AB05C4
+    // Offset: 0x2AD8B68
     int GetPCM(::ArrayW<float> dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x2AB0684
+    // Offset: 0x2AD8C28
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x2AB068C
+    // Offset: 0x2AD8C30
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x2AB072C
+    // Offset: 0x2AD8CD0
     void Update();
   }; // Oculus.Platform.VoipPCMSourceNative
   #pragma pack(pop)

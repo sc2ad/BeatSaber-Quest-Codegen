@@ -160,73 +160,73 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Boolean resetColumn
     [[deprecated("Use field access instead!")]] bool& dyn_resetColumn();
     // private System.Exception Error(System.String msg)
-    // Offset: 0x1F9FB3C
+    // Offset: 0x1FCD26C
     ::System::Exception* Error(::StringW msg);
     // private System.Exception UnexpectedEndError()
-    // Offset: 0x1F9FC7C
+    // Offset: 0x1FCD3AC
     ::System::Exception* UnexpectedEndError();
     // private System.Boolean IsNameChar(System.Char c, System.Boolean start)
-    // Offset: 0x1F9FD50
+    // Offset: 0x1FCD480
     bool IsNameChar(::Il2CppChar c, bool start);
     // private System.Boolean IsWhitespace(System.Int32 c)
-    // Offset: 0x1F9FE64
+    // Offset: 0x1FCD594
     bool IsWhitespace(int c);
     // public System.Void SkipWhitespaces()
-    // Offset: 0x1F9FE94
+    // Offset: 0x1FCD5C4
     void SkipWhitespaces();
     // private System.Void HandleWhitespaces()
-    // Offset: 0x1F9FF60
+    // Offset: 0x1FCD690
     void HandleWhitespaces();
     // public System.Void SkipWhitespaces(System.Boolean expected)
-    // Offset: 0x1F9FE9C
+    // Offset: 0x1FCD5CC
     void SkipWhitespaces(bool expected);
     // private System.Int32 Peek()
-    // Offset: 0x1FA0098
+    // Offset: 0x1FCD7C8
     int Peek();
     // private System.Int32 Read()
-    // Offset: 0x1FA0024
+    // Offset: 0x1FCD754
     int Read();
     // public System.Void Expect(System.Int32 c)
-    // Offset: 0x1FA00B8
+    // Offset: 0x1FCD7E8
     void Expect(int c);
     // private System.String ReadUntil(System.Char until, System.Boolean handleReferences)
-    // Offset: 0x1FA019C
+    // Offset: 0x1FCD8CC
     ::StringW ReadUntil(::Il2CppChar until, bool handleReferences);
     // public System.String ReadName()
-    // Offset: 0x1FA0428
+    // Offset: 0x1FCDB58
     ::StringW ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler)
-    // Offset: 0x1F9F50C
+    // Offset: 0x1FCCC3C
     void Parse(::System::IO::TextReader* input, ::Mono::Xml::SmallXmlParser::IContentHandler* handler);
     // private System.Void Cleanup()
-    // Offset: 0x1FA0DEC
+    // Offset: 0x1FCE51C
     void Cleanup();
     // public System.Void ReadContent()
-    // Offset: 0x1FA05CC
+    // Offset: 0x1FCDCFC
     void ReadContent();
     // private System.Void HandleBufferedContent()
-    // Offset: 0x1FA0C9C
+    // Offset: 0x1FCE3CC
     void HandleBufferedContent();
     // private System.Void ReadCharacters()
-    // Offset: 0x1FA11F8
+    // Offset: 0x1FCE928
     void ReadCharacters();
     // private System.Void ReadReference()
-    // Offset: 0x1FA0298
+    // Offset: 0x1FCD9C8
     void ReadReference();
     // private System.Int32 ReadCharacterReference()
-    // Offset: 0x1FA1284
+    // Offset: 0x1FCE9B4
     int ReadCharacterReference();
     // private System.Void ReadAttribute(Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl a)
-    // Offset: 0x1FA109C
+    // Offset: 0x1FCE7CC
     void ReadAttribute(::Mono::Xml::SmallXmlParser::AttrListImpl* a);
     // private System.Void ReadCDATASection()
-    // Offset: 0x1FA0ED4
+    // Offset: 0x1FCE604
     void ReadCDATASection();
     // private System.Void ReadComment()
-    // Offset: 0x1FA0FF0
+    // Offset: 0x1FCE720
     void ReadComment();
     // public System.Void .ctor()
-    // Offset: 0x1F9F424
+    // Offset: 0x1FCCB54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

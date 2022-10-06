@@ -52,16 +52,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _floatValue
     [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // public BasicBeatmapEventType get_eventType()
-    // Offset: 0x1498B50
+    // Offset: 0x147E5A0
     ::GlobalNamespace::BasicBeatmapEventType get_eventType();
     // public System.Int32 get_value()
-    // Offset: 0x1498B58
+    // Offset: 0x147E5A8
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x1498B60
+    // Offset: 0x147E5B0
     float get_floatValue();
     // public System.Void .ctor()
-    // Offset: 0x1498B68
+    // Offset: 0x147E5B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::BasicBeatmapEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent::.ctor");

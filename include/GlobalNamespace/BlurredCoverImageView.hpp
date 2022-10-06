@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::HMUI::ImageView* coverImage;
     // Field size check
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F4B98
+    // [SpaceAttribute] Offset: 0x110C3D4
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x20
@@ -101,17 +101,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _blurredCoverTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__blurredCoverTexture();
     // public System.Void .ctor()
-    // Offset: 0x13566E8
+    // Offset: 0x1384FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlurredCoverImageView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlurredCoverImageView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlurredCoverImageView*, creationType>()));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0x135655C
+    // Offset: 0x1384E5C
     void OnDestroy();
     // public System.Void SetTextureAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x1356624
+    // Offset: 0x1384F24
     void SetTextureAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
   }; // BlurredCoverImageView
   #pragma pack(pop)

@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Collider_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Collider ToTestObject(UnityEngine.Collider self)
-    // Offset: 0x1A25A8C
+    // Offset: 0x1A416AC
     static ::HoudiniEngineUnity::Test_Collider* ToTestObject(::UnityEngine::Collider* self);
     // static public HoudiniEngineUnity.Test_Collider[] ToTestObject(UnityEngine.Collider[] self)
-    // Offset: 0x1A25AF0
+    // Offset: 0x1A41710
     static ::ArrayW<::HoudiniEngineUnity::Test_Collider*> ToTestObject(::ArrayW<::UnityEngine::Collider*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Collider> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Collider> self)
-    // Offset: 0x1A25BDC
+    // Offset: 0x1A417FC
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Collider*>* self);
   }; // HoudiniEngineUnity.Test_Collider_Extensions
   #pragma pack(pop)

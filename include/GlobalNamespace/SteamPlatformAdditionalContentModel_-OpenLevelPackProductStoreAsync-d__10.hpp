@@ -86,10 +86,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/OpenProductStoreResult> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1466EF8
+    // Offset: 0x14CFB3C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14671F4
+    // Offset: 0x14CFE38
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__10
   // WARNING Not writing size check since size may be invalid!

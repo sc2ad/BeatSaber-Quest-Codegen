@@ -80,35 +80,35 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> <Triangles>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& dyn_$Triangles$k__BackingField();
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> get_Points()
-    // Offset: 0x2ABE9F0
+    // Offset: 0x2AE6F94
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
     // private System.Void set_Points(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> value)
-    // Offset: 0x2ABE9F8
+    // Offset: 0x2AE6F9C
     void set_Points(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
-    // Offset: 0x2ABEA00
+    // Offset: 0x2AE6FA4
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
     // private System.Void set_Triangles(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> value)
-    // Offset: 0x2ABEA08
+    // Offset: 0x2AE6FAC
     void set_Triangles(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x2ABEA94
+    // Offset: 0x2AE7038
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // public System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> points)
-    // Offset: 0x2ABEA10
+    // Offset: 0x2AE6FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointSet* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::PointSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointSet*, creationType>(points)));
     }
     // public System.Void AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x2ABEA9C
+    // Offset: 0x2AE7040
     void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
-    // Offset: 0x2ABEB60
+    // Offset: 0x2AE7104
     void AddTriangles(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
     // public System.Void Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
-    // Offset: 0x2ABEE40
+    // Offset: 0x2AE73E4
     void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
   }; // UnityEngine.ProBuilder.Poly2Tri.PointSet
   #pragma pack(pop)

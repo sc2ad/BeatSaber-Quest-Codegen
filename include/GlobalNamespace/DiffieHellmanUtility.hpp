@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     static ::Org::BouncyCastle::Security::SecureRandom* _get__secureRandom();
     // Set static field: static private Org.BouncyCastle.Security.SecureRandom _secureRandom
     static void _set__secureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C71F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DEED8
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
     static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get__dhParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
     static void _set__dhParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10C7208
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10DEEE8
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
     static ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get__ecParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
@@ -96,25 +96,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _ecPointFormats
     static void _set__ecPointFormats(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1687220
+    // Offset: 0x169DC58
     static void _cctor();
     // static public System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GenerateKeysAsync(DiffieHellmanUtility/KeyType keyType)
-    // Offset: 0x1686A0C
+    // Offset: 0x169D444
     static ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static public IDiffieHellmanKeyPair GenerateKeys(DiffieHellmanUtility/KeyType keyType)
-    // Offset: 0x1686AC8
+    // Offset: 0x169D500
     static ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static private DiffieHellmanUtility/DiffieHellmanKeyPair GenerateDiffieHellmanKeys()
-    // Offset: 0x1686CA0
+    // Offset: 0x169D6D8
     static ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
     // static private DiffieHellmanUtility/ElipticalCurveKeyPair GenerateElipticalCurveKeys()
-    // Offset: 0x1686B4C
+    // Offset: 0x169D584
     static ::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement dhBasicAgreement, System.Byte[] clientPublicKey)
-    // Offset: 0x1686F30
+    // Offset: 0x169D968
     static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement ecdhBasicAgreement, System.Byte[] clientPublicKey)
-    // Offset: 0x1687084
+    // Offset: 0x169DABC
     static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility
   #pragma pack(pop)

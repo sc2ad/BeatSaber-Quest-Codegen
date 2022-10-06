@@ -247,50 +247,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x1715060
+    // Offset: 0x173111C
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x1715068
+    // Offset: 0x1731124
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x1715074
+    // Offset: 0x1731130
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x171507C
+    // Offset: 0x1731138
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x1715088
+    // Offset: 0x1731144
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x1715090
+    // Offset: 0x173114C
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x171509C
+    // Offset: 0x1731158
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x17150A4
+    // Offset: 0x1731160
     void set_ShouldUseSystemGestureMaterial(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1715AEC
+    // Offset: 0x1731BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMeshRenderer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMeshRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMeshRenderer*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x17150B0
+    // Offset: 0x173116C
     void Awake();
     // private System.Void Start()
-    // Offset: 0x17151B0
+    // Offset: 0x173126C
     void Start();
     // private System.Boolean ShouldInitialize()
-    // Offset: 0x171525C
+    // Offset: 0x1731318
     bool ShouldInitialize();
     // private System.Void Initialize()
-    // Offset: 0x1715374
+    // Offset: 0x1731430
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x1715810
+    // Offset: 0x17318CC
     void Update();
   }; // OVRMeshRenderer
   #pragma pack(pop)

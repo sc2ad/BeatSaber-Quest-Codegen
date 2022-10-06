@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes, PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration)
-    // Offset: 0x1404680
+    // Offset: 0x14DD95C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes, ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::.ctor");

@@ -59,14 +59,14 @@ namespace Mono::Net::Security::Private {
     // Get instance field reference: public System.Net.Security.RemoteCertificateValidationCallback callback
     [[deprecated("Use field access instead!")]] ::System::Net::Security::RemoteCertificateValidationCallback*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1AE73F0
+    // Offset: 0x1AD8660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackHelpers::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Boolean <PublicToMono>b__0(System.String h, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, Mono.Security.Interface.MonoSslPolicyErrors e)
-    // Offset: 0x1AE7408
+    // Offset: 0x1AD8678
     bool $PublicToMono$b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::Mono::Security::Interface::MonoSslPolicyErrors e);
   }; // Mono.Net.Security.Private.CallbackHelpers/Mono.Net.Security.Private.<>c__DisplayClass0_0
   #pragma pack(pop)

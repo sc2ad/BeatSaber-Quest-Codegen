@@ -68,24 +68,24 @@ namespace Zenject {
     // Get instance field reference: private System.Object _callback
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__callback();
     // public Zenject.BindingId get_SignalId()
-    // Offset: 0x1D14EFC
+    // Offset: 0x1D620AC
     ::Zenject::BindingId get_SignalId();
     // public System.Object get_Callback()
-    // Offset: 0x1D14F08
+    // Offset: 0x1D620B8
     ::Il2CppObject* get_Callback();
     // public System.Void .ctor(Zenject.BindingId signalId, System.Object callback)
-    // Offset: 0x1D11270
+    // Offset: 0x1D5E420
     // ABORTED: conflicts with another method.  SignalSubscriptionId(::Zenject::BindingId signalId, ::Il2CppObject* callback);
     // public System.Boolean Equals(Zenject.SignalSubscriptionId that)
-    // Offset: 0x1D15004
+    // Offset: 0x1D621B4
     bool Equals(::Zenject::SignalSubscriptionId that);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D14F10
+    // Offset: 0x1D620C0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object that)
-    // Offset: 0x1D14F64
+    // Offset: 0x1D62114
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object that)
     bool Equals(::Il2CppObject* that);
@@ -94,10 +94,10 @@ namespace Zenject {
   static check_size<sizeof(SignalSubscriptionId), 16 + sizeof(::Il2CppObject*)> __Zenject_SignalSubscriptionIdSizeCheck;
   static_assert(sizeof(SignalSubscriptionId) == 0x18);
   // static public System.Boolean op_Equality(Zenject.SignalSubscriptionId left, Zenject.SignalSubscriptionId right)
-  // Offset: 0x1D150BC
+  // Offset: 0x1D6226C
   bool operator ==(const ::Zenject::SignalSubscriptionId& left, const ::Zenject::SignalSubscriptionId& right);
   // static public System.Boolean op_Inequality(Zenject.SignalSubscriptionId left, Zenject.SignalSubscriptionId right)
-  // Offset: 0x1D150F0
+  // Offset: 0x1D622A0
   bool operator !=(const ::Zenject::SignalSubscriptionId& left, const ::Zenject::SignalSubscriptionId& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

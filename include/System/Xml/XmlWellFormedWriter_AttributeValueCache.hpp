@@ -86,56 +86,56 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 lastItem
     [[deprecated("Use field access instead!")]] int& dyn_lastItem();
     // System.String get_StringValue()
-    // Offset: 0x2785030
+    // Offset: 0x27B1DC8
     ::StringW get_StringValue();
     // public System.Void .ctor()
-    // Offset: 0x2788084
+    // Offset: 0x27B4E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::AttributeValueCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache*, creationType>()));
     }
     // System.Void WriteEntityRef(System.String name)
-    // Offset: 0x2786344
+    // Offset: 0x27B30DC
     void WriteEntityRef(::StringW name);
     // System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x2786674
+    // Offset: 0x27B340C
     void WriteCharEntity(::Il2CppChar ch);
     // System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x27868C8
+    // Offset: 0x27B3660
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x2786B5C
+    // Offset: 0x27B38F4
     void WriteWhitespace(::StringW ws);
     // System.Void WriteString(System.String text)
-    // Offset: 0x2786CDC
+    // Offset: 0x27B3A74
     void WriteString(::StringW text);
     // System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x2786FB4
+    // Offset: 0x27B3D4C
     void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x27872D4
+    // Offset: 0x27B406C
     void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.String data)
-    // Offset: 0x27874BC
+    // Offset: 0x27B4254
     void WriteRaw(::StringW data);
     // System.Void WriteValue(System.String value)
-    // Offset: 0x2787EA4
+    // Offset: 0x27B4C3C
     void WriteValue(::StringW value);
     // System.Void Replay(System.Xml.XmlWriter writer)
-    // Offset: 0x2785520
+    // Offset: 0x27B22B8
     void Replay(::System::Xml::XmlWriter* writer);
     // System.Void Trim()
-    // Offset: 0x278582C
+    // Offset: 0x27B25C4
     void Trim();
     // System.Void Clear()
-    // Offset: 0x2785CA0
+    // Offset: 0x27B2A38
     void Clear();
     // private System.Void StartComplexValue()
-    // Offset: 0x2789500
+    // Offset: 0x27B6298
     void StartComplexValue();
     // private System.Void AddItem(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
-    // Offset: 0x2789548
+    // Offset: 0x27B62E0
     void AddItem(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache
   #pragma pack(pop)

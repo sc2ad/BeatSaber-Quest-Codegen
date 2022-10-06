@@ -46,17 +46,17 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__4_0
     static void _set_$$9__4_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AEC334
+    // Offset: 0x2B19D10
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2AEC398
+    // Offset: 0x2B19D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UpdateCatalogsOperation::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UpdateCatalogsOperation::$$c*, creationType>()));
     }
     // System.Boolean <Start>b__4_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x2AEC3A0
+    // Offset: 0x2B19D7C
     bool $Start$b__4_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
   }; // UnityEngine.AddressableAssets.UpdateCatalogsOperation/UnityEngine.AddressableAssets.<>c
   #pragma pack(pop)

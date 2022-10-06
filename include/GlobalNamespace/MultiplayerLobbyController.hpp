@@ -54,28 +54,28 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x10F152C
+    // [InjectAttribute] Offset: 0x1108D68
     // private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyAvatarManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F153C
+    // [InjectAttribute] Offset: 0x1108D78
     // private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyCenterStageManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F154C
+    // [InjectAttribute] Offset: 0x1108D88
     // private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F155C
+    // [InjectAttribute] Offset: 0x1108D98
     // private readonly MenuEnvironmentManager _menuEnvironmentManager
     // Size: 0x8
     // Offset: 0x38
@@ -106,23 +106,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <lobbyActivated>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$lobbyActivated$k__BackingField();
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0x1434650
+    // Offset: 0x1439300
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0x1434658
+    // Offset: 0x1439308
     void set_lobbyActivated(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1434774
+    // Offset: 0x1439424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyController*, creationType>()));
     }
     // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0x1434664
+    // Offset: 0x1439314
     void ActivateMultiplayerLobby();
     // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0x1434700
+    // Offset: 0x14393B0
     void DeactivateMultiplayerLobby();
   }; // MultiplayerLobbyController
   #pragma pack(pop)

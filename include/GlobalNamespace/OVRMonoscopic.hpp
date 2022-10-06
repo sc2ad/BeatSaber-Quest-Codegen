@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean monoscopic
     [[deprecated("Use field access instead!")]] bool& dyn_monoscopic();
     // public System.Void .ctor()
-    // Offset: 0x1719EEC
+    // Offset: 0x1735FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMonoscopic* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMonoscopic::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMonoscopic*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x1719DD8
+    // Offset: 0x1735E94
     void Update();
   }; // OVRMonoscopic
   #pragma pack(pop)

@@ -67,13 +67,13 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.NamespaceList namespaceList
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
     // public System.Void set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing value)
-    // Offset: 0x2090554
+    // Offset: 0x2108B14
     void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
     // System.Void BuildNamespaceList(System.String targetNamespace)
-    // Offset: 0x209055C
+    // Offset: 0x2108B1C
     void BuildNamespaceList(::StringW targetNamespace);
     // public System.Void .ctor()
-    // Offset: 0x20905E4
+    // Offset: 0x2108BA4
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()

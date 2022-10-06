@@ -64,14 +64,14 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: private readonly System.SByte m_a
     [[deprecated("Use field access instead!")]] int8_t& dyn_m_a();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x231B104
+    // Offset: 0x237475C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafMultiplier::WTauNafCallback* New_ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WTauNafMultiplier::WTauNafCallback*, creationType>(p, a)));
     }
     // public Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo Precompute(Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo existing)
-    // Offset: 0x231B1A4
+    // Offset: 0x23747FC
     ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier/Org.BouncyCastle.Math.EC.Multiplier.WTauNafCallback
   #pragma pack(pop)

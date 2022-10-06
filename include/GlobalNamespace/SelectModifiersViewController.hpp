@@ -48,20 +48,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiersPanelController _gameplayModifiersPanelController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersPanelController*& dyn__gameplayModifiersPanelController();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13BCE24
+    // Offset: 0x13C0D28
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x13BCF0C
+    // Offset: 0x13C0E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectModifiersViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectModifiersViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectModifiersViewController*, creationType>()));
     }
     // public System.Void Setup(GameplayModifiers gameplayModifiers)
-    // Offset: 0x13BCE40
+    // Offset: 0x13C0D44
     void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13BCE5C
+    // Offset: 0x13C0D60
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

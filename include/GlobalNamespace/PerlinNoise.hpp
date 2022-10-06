@@ -27,43 +27,43 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerlinNoise : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BBEA8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D29B4
     // Get static field: static private readonly System.Int32[] permutation
     static ::ArrayW<int> _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
     static void _set_permutation(::ArrayW<int> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10BBEB8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D29C4
     // Get static field: static private readonly System.Int32[] p
     static ::ArrayW<int> _get_p();
     // Set static field: static private readonly System.Int32[] p
     static void _set_p(::ArrayW<int> value);
     // static private System.Void .cctor()
-    // Offset: 0x2A60F38
+    // Offset: 0x2A7FBC8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2A61788
+    // Offset: 0x2A80418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerlinNoise* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerlinNoise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerlinNoise*, creationType>()));
     }
     // static public System.Single OctavePerlin3D(System.Single x, System.Single y, System.Single z, System.Int32 octaves, System.Single persistence, System.Int32 repeat)
-    // Offset: 0x2A61044
+    // Offset: 0x2A7FCD4
     static float OctavePerlin3D(float x, float y, float z, int octaves, float persistence, int repeat);
     // static public System.Single Perlin3D(System.Single x, System.Single y, System.Single z, System.Int32 repeat)
-    // Offset: 0x2A61138
+    // Offset: 0x2A7FDC8
     static float Perlin3D(float x, float y, float z, int repeat);
     // static private System.Int32 Inc(System.Int32 num, System.Int32 repeat)
-    // Offset: 0x2A616E4
+    // Offset: 0x2A80374
     static int Inc(int num, int repeat);
     // static private System.Single Grad3D(System.Int32 hash, System.Single x, System.Single y, System.Single z)
-    // Offset: 0x2A616FC
+    // Offset: 0x2A8038C
     static float Grad3D(int hash, float x, float y, float z);
     // static private System.Single Fade(System.Single t)
-    // Offset: 0x2A616B8
+    // Offset: 0x2A80348
     static float Fade(float t);
     // static private System.Single Lerp(System.Single a, System.Single b, System.Single x)
-    // Offset: 0x2A61778
+    // Offset: 0x2A80408
     static float Lerp(float a, float b, float x);
   }; // PerlinNoise
   #pragma pack(pop)

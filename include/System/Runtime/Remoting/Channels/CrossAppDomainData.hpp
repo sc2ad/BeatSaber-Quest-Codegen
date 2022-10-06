@@ -56,13 +56,13 @@ namespace System::Runtime::Remoting::Channels {
     // Get instance field reference: private System.String _processGuid
     [[deprecated("Use field access instead!")]] ::StringW& dyn__processGuid();
     // System.Int32 get_DomainID()
-    // Offset: 0x1C68FD0
+    // Offset: 0x1CC0890
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x1C68FD8
+    // Offset: 0x1CC0898
     ::StringW get_ProcessID();
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x1C68AD4
+    // Offset: 0x1CC0394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");

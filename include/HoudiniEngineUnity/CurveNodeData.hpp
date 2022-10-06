@@ -67,45 +67,45 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 scale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_scale();
     // public System.Void .ctor()
-    // Offset: 0x16E974C
+    // Offset: 0x16F09D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Vector3 position)
-    // Offset: 0x16E97E4
+    // Offset: 0x16F0A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(::UnityEngine::Vector3 position) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x16E98A4
+    // Offset: 0x16F0B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position, rotation)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale)
-    // Offset: 0x16E9988
+    // Offset: 0x16F0C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(position, rotation, scale)));
     }
     // public System.Void .ctor(HoudiniEngineUnity.CurveNodeData other)
-    // Offset: 0x16E9A80
+    // Offset: 0x16F0D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurveNodeData* New_ctor(::HoudiniEngineUnity::CurveNodeData* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::CurveNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurveNodeData*, creationType>(other)));
     }
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x16E9B60
+    // Offset: 0x16F0DE8
     ::UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.CurveNodeData other)
-    // Offset: 0x16E9BE8
+    // Offset: 0x16F0E70
     bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
   }; // HoudiniEngineUnity.CurveNodeData
   #pragma pack(pop)

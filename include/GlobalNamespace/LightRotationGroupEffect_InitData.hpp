@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Transform transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
     // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, LightRotationBeatmapEventData/Axis axis, System.Boolean mirrored, UnityEngine.Transform transform)
-    // Offset: 0x14DCB74
+    // Offset: 0x146A398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect::InitData* New_ctor(int groupId, int elementId, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis, bool mirrored, ::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::InitData::.ctor");

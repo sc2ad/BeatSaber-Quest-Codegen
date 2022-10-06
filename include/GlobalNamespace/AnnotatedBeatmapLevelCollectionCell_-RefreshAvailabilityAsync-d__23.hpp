@@ -135,10 +135,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1517D1C
+    // Offset: 0x152F22C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15189D0
+    // Offset: 0x152FEE0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__23
   // WARNING Not writing size check since size may be invalid!

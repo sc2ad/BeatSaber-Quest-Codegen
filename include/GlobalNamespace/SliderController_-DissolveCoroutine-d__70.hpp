@@ -71,26 +71,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single duration
     [[deprecated("Use field access instead!")]] float& dyn_duration();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13C7670
+    // Offset: 0x13CB49C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13C76D8
+    // Offset: 0x13CB504
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13C6A50
+    // Offset: 0x13CA87C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderController::$DissolveCoroutine$d__70* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderController::$DissolveCoroutine$d__70::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderController::$DissolveCoroutine$d__70*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13C736C
+    // Offset: 0x13CB198
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13C7370
+    // Offset: 0x13CB19C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13C7678
+    // Offset: 0x13CB4A4
     void System_Collections_IEnumerator_Reset();
   }; // SliderController/<DissolveCoroutine>d__70
   #pragma pack(pop)

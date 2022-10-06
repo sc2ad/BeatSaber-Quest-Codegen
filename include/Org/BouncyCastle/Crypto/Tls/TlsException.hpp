@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class TlsException : public ::System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message, System.Exception cause)
-    // Offset: 0x160A31C
+    // Offset: 0x165B5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(::StringW message, ::System::Exception* cause) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Tls::TlsException::.ctor");

@@ -37,16 +37,16 @@ namespace Zenject {
   class DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder : public ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder {
     public:
     // public Zenject.DeclareSignalAsyncTickPriorityCopyBinder RequireSubscriber()
-    // Offset: 0x177C298
+    // Offset: 0x1783520
     ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* RequireSubscriber();
     // public Zenject.DeclareSignalAsyncTickPriorityCopyBinder OptionalSubscriber()
-    // Offset: 0x177C2B8
+    // Offset: 0x1783540
     ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriber();
     // public Zenject.DeclareSignalAsyncTickPriorityCopyBinder OptionalSubscriberWithWarning()
-    // Offset: 0x177C2D4
+    // Offset: 0x178355C
     ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriberWithWarning();
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
-    // Offset: 0x177C274
+    // Offset: 0x17834FC
     // Implemented from: Zenject.DeclareSignalAsyncTickPriorityCopyBinder
     // Base method: System.Void DeclareSignalAsyncTickPriorityCopyBinder::.ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
     // Base method: System.Void SignalTickPriorityCopyBinder::.ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)

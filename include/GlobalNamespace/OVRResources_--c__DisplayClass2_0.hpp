@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String path
     [[deprecated("Use field access instead!")]] ::StringW& dyn_path();
     // public System.Void .ctor()
-    // Offset: 0x1B2B594
+    // Offset: 0x1B3B528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRResources::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRResources::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRResources::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x1B2B65C
+    // Offset: 0x1B3B5F0
     bool $Load$b__0(::StringW s);
   }; // OVRResources/<>c__DisplayClass2_0
   #pragma pack(pop)

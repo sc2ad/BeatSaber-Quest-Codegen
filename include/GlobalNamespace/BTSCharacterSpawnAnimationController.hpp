@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* spawnCharacterPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10DF6E8
+    // [SpaceAttribute] Offset: 0x10F6970
     // private JumpReceiver _jumpReceiver
     // Size: 0x8
     // Offset: 0x20
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     float disappearAnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10DF740
+    // [SpaceAttribute] Offset: 0x10F69C8
     // private MaterialPropertyBlockColorSetter _rimLightColorSetter
     // Size: 0x8
     // Offset: 0x30
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10DF798
+    // [InjectAttribute] Offset: 0x10F6A20
     // private readonly SongSpeedData _songSpeedData
     // Size: 0x8
     // Offset: 0x48
@@ -179,41 +179,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _animatorNormalizedTimeBeforePause
     [[deprecated("Use field access instead!")]] float& dyn__animatorNormalizedTimeBeforePause();
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x1527D88
+    // Offset: 0x153F298
     bool get_isCharacterVisible();
     // public System.Single get_duration()
-    // Offset: 0x1527DB4
+    // Offset: 0x153F2C4
     float get_duration();
     // private UnityEngine.Timeline.ActivationTrack get_characterActivationTrack()
-    // Offset: 0x1527DF8
+    // Offset: 0x153F308
     ::UnityEngine::Timeline::ActivationTrack* get_characterActivationTrack();
     // public System.Void .ctor()
-    // Offset: 0x15284D8
+    // Offset: 0x153F9E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnAnimationController*, creationType>()));
     }
     // public System.Void PlayAnimation()
-    // Offset: 0x1528148
+    // Offset: 0x153F658
     void PlayAnimation();
     // public System.Void EndEarlyAnimation()
-    // Offset: 0x152821C
+    // Offset: 0x153F72C
     void EndEarlyAnimation();
     // public System.Void StopAnimation()
-    // Offset: 0x15282A0
+    // Offset: 0x153F7B0
     void StopAnimation();
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x15282BC
+    // Offset: 0x153F7CC
     void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void WillResumeAnimation()
-    // Offset: 0x1528358
+    // Offset: 0x153F868
     void WillResumeAnimation();
     // public System.Void ResumeAnimation()
-    // Offset: 0x15283C4
+    // Offset: 0x153F8D4
     void ResumeAnimation();
     // public System.Void PauseAnimation()
-    // Offset: 0x1528430
+    // Offset: 0x153F940
     void PauseAnimation();
   }; // BTSCharacterSpawnAnimationController
   #pragma pack(pop)

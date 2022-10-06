@@ -80,6 +80,13 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
+    // public System.Void Release()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Release() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::Release");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+    }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {

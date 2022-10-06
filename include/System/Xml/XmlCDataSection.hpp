@@ -40,32 +40,32 @@ namespace System::Xml {
   class XmlCDataSection : public ::System::Xml::XmlCharacterData {
     public:
     // public override System.String get_Name()
-    // Offset: 0x1BBABB0
+    // Offset: 0x1BF20E4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1BBABDC
+    // Offset: 0x1BF2110
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1BBAC08
+    // Offset: 0x1BF213C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x1BBAC10
+    // Offset: 0x1BF2144
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // override System.Boolean get_IsText()
-    // Offset: 0x1BBAD00
+    // Offset: 0x1BF2234
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsText()
     bool get_IsText();
     // protected internal System.Void .ctor(System.String data, System.Xml.XmlDocument doc)
-    // Offset: 0x1BBAB50
+    // Offset: 0x1BF2084
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::.ctor(System.String data, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +74,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlCDataSection*, creationType>(data, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1BBACA0
+    // Offset: 0x1BF21D4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

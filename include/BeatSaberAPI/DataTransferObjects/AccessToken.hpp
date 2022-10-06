@@ -46,7 +46,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String expiration
     [[deprecated("Use field access instead!")]] ::StringW& dyn_expiration();
     // public System.Void .ctor()
-    // Offset: 0x1385040
+    // Offset: 0x1373150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AccessToken* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::AccessToken::.ctor");

@@ -30,7 +30,7 @@ namespace UnityEngine {
   class WWWForm : public ::Il2CppObject {
     public:
     // static System.Text.Encoding get_DefaultEncoding()
-    // Offset: 0x2AF1024
+    // Offset: 0x2B21E70
     static ::System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
   #pragma pack(pop)

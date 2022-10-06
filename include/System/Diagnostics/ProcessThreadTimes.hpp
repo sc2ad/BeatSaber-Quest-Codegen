@@ -68,10 +68,10 @@ namespace System::Diagnostics {
     // Get instance field reference: System.Int64 user
     [[deprecated("Use field access instead!")]] int64_t& dyn_user();
     // public System.TimeSpan get_TotalProcessorTime()
-    // Offset: 0x1CDB804
+    // Offset: 0x1D289B4
     ::System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
-    // Offset: 0x1CDB3C8
+    // Offset: 0x1D28578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessThreadTimes* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::ProcessThreadTimes::.ctor");

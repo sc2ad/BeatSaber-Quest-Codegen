@@ -208,510 +208,510 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Type clrTypeDefault
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_clrTypeDefault();
     // protected System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x1C61750
+    // Offset: 0x1C99C84
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // protected System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1C61758
+    // Offset: 0x1C99C8C
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // protected System.String get_XmlTypeName()
-    // Offset: 0x1C61760
+    // Offset: 0x1C99C94
     ::StringW get_XmlTypeName();
     // protected System.Type get_DefaultClrType()
-    // Offset: 0x1C61938
+    // Offset: 0x1C99E6C
     ::System::Type* get_DefaultClrType();
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1C5E8A8
+    // Offset: 0x1C96DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlBaseConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlBaseConverter*, creationType>(schemaType)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x1C59848
+    // Offset: 0x1C91D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlTypeCode typeCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlBaseConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlBaseConverter*, creationType>(typeCode)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlBaseConverter converterAtomic)
-    // Offset: 0x1C5E99C
+    // Offset: 0x1C96ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlBaseConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlBaseConverter*, creationType>(converterAtomic)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlBaseConverter converterAtomic, System.Type clrTypeDefault)
-    // Offset: 0x1C5E9FC
+    // Offset: 0x1C96F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlBaseConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* converterAtomic, ::System::Type* clrTypeDefault) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlBaseConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlBaseConverter*, creationType>(converterAtomic, clrTypeDefault)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1C63F80
+    // Offset: 0x1C9C4B4
     static void _cctor();
     // static protected System.Boolean IsDerivedFrom(System.Type derivedType, System.Type baseType)
-    // Offset: 0x1C5D364
+    // Offset: 0x1C95898
     static bool IsDerivedFrom(::System::Type* derivedType, ::System::Type* baseType);
     // protected System.Exception CreateInvalidClrMappingException(System.Type sourceType, System.Type destinationType)
-    // Offset: 0x1C5D4E4
+    // Offset: 0x1C95A18
     ::System::Exception* CreateInvalidClrMappingException(::System::Type* sourceType, ::System::Type* destinationType);
     // static protected System.String QNameToString(System.Xml.XmlQualifiedName name)
-    // Offset: 0x1C6184C
+    // Offset: 0x1C99D80
     static ::StringW QNameToString(::System::Xml::XmlQualifiedName* name);
     // protected System.Object ChangeListType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C61940
+    // Offset: 0x1C99E74
     ::Il2CppObject* ChangeListType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // static protected System.Byte[] StringToBase64Binary(System.String value)
-    // Offset: 0x1C619B4
+    // Offset: 0x1C99EE8
     static ::ArrayW<uint8_t> StringToBase64Binary(::StringW value);
     // static protected System.DateTime StringToDate(System.String value)
-    // Offset: 0x1C61A50
+    // Offset: 0x1C99F84
     static ::System::DateTime StringToDate(::StringW value);
     // static protected System.DateTime StringToDateTime(System.String value)
-    // Offset: 0x1C61ADC
+    // Offset: 0x1C9A010
     static ::System::DateTime StringToDateTime(::StringW value);
     // static protected System.TimeSpan StringToDayTimeDuration(System.String value)
-    // Offset: 0x1C61B68
+    // Offset: 0x1C9A09C
     static ::System::TimeSpan StringToDayTimeDuration(::StringW value);
     // static protected System.TimeSpan StringToDuration(System.String value)
-    // Offset: 0x1C61BCC
+    // Offset: 0x1C9A100
     static ::System::TimeSpan StringToDuration(::StringW value);
     // static protected System.DateTime StringToGDay(System.String value)
-    // Offset: 0x1C61C30
+    // Offset: 0x1C9A164
     static ::System::DateTime StringToGDay(::StringW value);
     // static protected System.DateTime StringToGMonth(System.String value)
-    // Offset: 0x1C61CBC
+    // Offset: 0x1C9A1F0
     static ::System::DateTime StringToGMonth(::StringW value);
     // static protected System.DateTime StringToGMonthDay(System.String value)
-    // Offset: 0x1C61D48
+    // Offset: 0x1C9A27C
     static ::System::DateTime StringToGMonthDay(::StringW value);
     // static protected System.DateTime StringToGYear(System.String value)
-    // Offset: 0x1C61DD4
+    // Offset: 0x1C9A308
     static ::System::DateTime StringToGYear(::StringW value);
     // static protected System.DateTime StringToGYearMonth(System.String value)
-    // Offset: 0x1C61E60
+    // Offset: 0x1C9A394
     static ::System::DateTime StringToGYearMonth(::StringW value);
     // static protected System.DateTimeOffset StringToDateOffset(System.String value)
-    // Offset: 0x1C61EEC
+    // Offset: 0x1C9A420
     static ::System::DateTimeOffset StringToDateOffset(::StringW value);
     // static protected System.DateTimeOffset StringToDateTimeOffset(System.String value)
-    // Offset: 0x1C61F78
+    // Offset: 0x1C9A4AC
     static ::System::DateTimeOffset StringToDateTimeOffset(::StringW value);
     // static protected System.DateTimeOffset StringToGDayOffset(System.String value)
-    // Offset: 0x1C62004
+    // Offset: 0x1C9A538
     static ::System::DateTimeOffset StringToGDayOffset(::StringW value);
     // static protected System.DateTimeOffset StringToGMonthOffset(System.String value)
-    // Offset: 0x1C62090
+    // Offset: 0x1C9A5C4
     static ::System::DateTimeOffset StringToGMonthOffset(::StringW value);
     // static protected System.DateTimeOffset StringToGMonthDayOffset(System.String value)
-    // Offset: 0x1C6211C
+    // Offset: 0x1C9A650
     static ::System::DateTimeOffset StringToGMonthDayOffset(::StringW value);
     // static protected System.DateTimeOffset StringToGYearOffset(System.String value)
-    // Offset: 0x1C621A8
+    // Offset: 0x1C9A6DC
     static ::System::DateTimeOffset StringToGYearOffset(::StringW value);
     // static protected System.DateTimeOffset StringToGYearMonthOffset(System.String value)
-    // Offset: 0x1C62234
+    // Offset: 0x1C9A768
     static ::System::DateTimeOffset StringToGYearMonthOffset(::StringW value);
     // static protected System.Byte[] StringToHexBinary(System.String value)
-    // Offset: 0x1C622C0
+    // Offset: 0x1C9A7F4
     static ::ArrayW<uint8_t> StringToHexBinary(::StringW value);
     // static protected System.Xml.XmlQualifiedName StringToQName(System.String value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C62400
+    // Offset: 0x1C9A934
     static ::System::Xml::XmlQualifiedName* StringToQName(::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // static protected System.DateTime StringToTime(System.String value)
-    // Offset: 0x1C626B8
+    // Offset: 0x1C9ABEC
     static ::System::DateTime StringToTime(::StringW value);
     // static protected System.DateTimeOffset StringToTimeOffset(System.String value)
-    // Offset: 0x1C62744
+    // Offset: 0x1C9AC78
     static ::System::DateTimeOffset StringToTimeOffset(::StringW value);
     // static protected System.TimeSpan StringToYearMonthDuration(System.String value)
-    // Offset: 0x1C627D0
+    // Offset: 0x1C9AD04
     static ::System::TimeSpan StringToYearMonthDuration(::StringW value);
     // static protected System.String AnyUriToString(System.Uri value)
-    // Offset: 0x1C62834
+    // Offset: 0x1C9AD68
     static ::StringW AnyUriToString(::System::Uri* value);
     // static protected System.String Base64BinaryToString(System.Byte[] value)
-    // Offset: 0x1C6284C
+    // Offset: 0x1C9AD80
     static ::StringW Base64BinaryToString(::ArrayW<uint8_t> value);
     // static protected System.String DateToString(System.DateTime value)
-    // Offset: 0x1C628B4
+    // Offset: 0x1C9ADE8
     static ::StringW DateToString(::System::DateTime value);
     // static protected System.String DateTimeToString(System.DateTime value)
-    // Offset: 0x1C628FC
+    // Offset: 0x1C9AE30
     static ::StringW DateTimeToString(::System::DateTime value);
     // static protected System.String DayTimeDurationToString(System.TimeSpan value)
-    // Offset: 0x1C62944
+    // Offset: 0x1C9AE78
     static ::StringW DayTimeDurationToString(::System::TimeSpan value);
     // static protected System.String DurationToString(System.TimeSpan value)
-    // Offset: 0x1C629A8
+    // Offset: 0x1C9AEDC
     static ::StringW DurationToString(::System::TimeSpan value);
     // static protected System.String GDayToString(System.DateTime value)
-    // Offset: 0x1C62A0C
+    // Offset: 0x1C9AF40
     static ::StringW GDayToString(::System::DateTime value);
     // static protected System.String GMonthToString(System.DateTime value)
-    // Offset: 0x1C62A54
+    // Offset: 0x1C9AF88
     static ::StringW GMonthToString(::System::DateTime value);
     // static protected System.String GMonthDayToString(System.DateTime value)
-    // Offset: 0x1C62A9C
+    // Offset: 0x1C9AFD0
     static ::StringW GMonthDayToString(::System::DateTime value);
     // static protected System.String GYearToString(System.DateTime value)
-    // Offset: 0x1C62AE4
+    // Offset: 0x1C9B018
     static ::StringW GYearToString(::System::DateTime value);
     // static protected System.String GYearMonthToString(System.DateTime value)
-    // Offset: 0x1C62B2C
+    // Offset: 0x1C9B060
     static ::StringW GYearMonthToString(::System::DateTime value);
     // static protected System.String DateOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62B74
+    // Offset: 0x1C9B0A8
     static ::StringW DateOffsetToString(::System::DateTimeOffset value);
     // static protected System.String DateTimeOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62BC0
+    // Offset: 0x1C9B0F4
     static ::StringW DateTimeOffsetToString(::System::DateTimeOffset value);
     // static protected System.String GDayOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62C0C
+    // Offset: 0x1C9B140
     static ::StringW GDayOffsetToString(::System::DateTimeOffset value);
     // static protected System.String GMonthOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62C58
+    // Offset: 0x1C9B18C
     static ::StringW GMonthOffsetToString(::System::DateTimeOffset value);
     // static protected System.String GMonthDayOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62CA4
+    // Offset: 0x1C9B1D8
     static ::StringW GMonthDayOffsetToString(::System::DateTimeOffset value);
     // static protected System.String GYearOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62CF0
+    // Offset: 0x1C9B224
     static ::StringW GYearOffsetToString(::System::DateTimeOffset value);
     // static protected System.String GYearMonthOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62D3C
+    // Offset: 0x1C9B270
     static ::StringW GYearMonthOffsetToString(::System::DateTimeOffset value);
     // static protected System.String QNameToString(System.Xml.XmlQualifiedName qname, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C62D88
+    // Offset: 0x1C9B2BC
     static ::StringW QNameToString(::System::Xml::XmlQualifiedName* qname, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // static protected System.String TimeToString(System.DateTime value)
-    // Offset: 0x1C62F98
+    // Offset: 0x1C9B4CC
     static ::StringW TimeToString(::System::DateTime value);
     // static protected System.String TimeOffsetToString(System.DateTimeOffset value)
-    // Offset: 0x1C62FE0
+    // Offset: 0x1C9B514
     static ::StringW TimeOffsetToString(::System::DateTimeOffset value);
     // static protected System.String YearMonthDurationToString(System.TimeSpan value)
-    // Offset: 0x1C6302C
+    // Offset: 0x1C9B560
     static ::StringW YearMonthDurationToString(::System::TimeSpan value);
     // static System.DateTime DateTimeOffsetToDateTime(System.DateTimeOffset value)
-    // Offset: 0x1C63090
+    // Offset: 0x1C9B5C4
     static ::System::DateTime DateTimeOffsetToDateTime(::System::DateTimeOffset value);
     // static System.Int32 DecimalToInt32(System.Decimal value)
-    // Offset: 0x1C630B8
+    // Offset: 0x1C9B5EC
     static int DecimalToInt32(::System::Decimal value);
     // static protected System.Int64 DecimalToInt64(System.Decimal value)
-    // Offset: 0x1C632B8
+    // Offset: 0x1C9B7EC
     static int64_t DecimalToInt64(::System::Decimal value);
     // static protected System.UInt64 DecimalToUInt64(System.Decimal value)
-    // Offset: 0x1C634B8
+    // Offset: 0x1C9B9EC
     static uint64_t DecimalToUInt64(::System::Decimal value);
     // static protected System.Byte Int32ToByte(System.Int32 value)
-    // Offset: 0x1C636AC
+    // Offset: 0x1C9BBE0
     static uint8_t Int32ToByte(int value);
     // static protected System.Int16 Int32ToInt16(System.Int32 value)
-    // Offset: 0x1C637F4
+    // Offset: 0x1C9BD28
     static int16_t Int32ToInt16(int value);
     // static protected System.SByte Int32ToSByte(System.Int32 value)
-    // Offset: 0x1C63940
+    // Offset: 0x1C9BE74
     static int8_t Int32ToSByte(int value);
     // static protected System.UInt16 Int32ToUInt16(System.Int32 value)
-    // Offset: 0x1C63A8C
+    // Offset: 0x1C9BFC0
     static uint16_t Int32ToUInt16(int value);
     // static protected System.Int32 Int64ToInt32(System.Int64 value)
-    // Offset: 0x1C63BD4
+    // Offset: 0x1C9C108
     static int Int64ToInt32(int64_t value);
     // static protected System.UInt32 Int64ToUInt32(System.Int64 value)
-    // Offset: 0x1C63D20
+    // Offset: 0x1C9C254
     static uint Int64ToUInt32(int64_t value);
     // static protected System.DateTime UntypedAtomicToDateTime(System.String value)
-    // Offset: 0x1C63E68
+    // Offset: 0x1C9C39C
     static ::System::DateTime UntypedAtomicToDateTime(::StringW value);
     // static protected System.DateTimeOffset UntypedAtomicToDateTimeOffset(System.String value)
-    // Offset: 0x1C63EF4
+    // Offset: 0x1C9C428
     static ::System::DateTimeOffset UntypedAtomicToDateTimeOffset(::StringW value);
     // public override System.Boolean ToBoolean(System.DateTime value)
-    // Offset: 0x1C5EA4C
+    // Offset: 0x1C96F80
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.DateTime value)
     bool ToBoolean(::System::DateTime value);
     // public override System.Boolean ToBoolean(System.Double value)
-    // Offset: 0x1C5EB34
+    // Offset: 0x1C97068
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.Double value)
     bool ToBoolean(double value);
     // public override System.Boolean ToBoolean(System.Int32 value)
-    // Offset: 0x1C5EC2C
+    // Offset: 0x1C97160
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.Int32 value)
     bool ToBoolean(int value);
     // public override System.Boolean ToBoolean(System.Int64 value)
-    // Offset: 0x1C5ED14
+    // Offset: 0x1C97248
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.Int64 value)
     bool ToBoolean(int64_t value);
     // public override System.Boolean ToBoolean(System.String value)
-    // Offset: 0x1C5EDFC
+    // Offset: 0x1C97330
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.String value)
     bool ToBoolean(::StringW value);
     // public override System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x1C5EEC4
+    // Offset: 0x1C973F8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Boolean XmlValueConverter::ToBoolean(System.Object value)
     bool ToBoolean(::Il2CppObject* value);
     // public override System.DateTime ToDateTime(System.Boolean value)
-    // Offset: 0x1C5EF8C
+    // Offset: 0x1C974C0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.Boolean value)
     ::System::DateTime ToDateTime(bool value);
     // public override System.DateTime ToDateTime(System.DateTimeOffset value)
-    // Offset: 0x1C5F074
+    // Offset: 0x1C975A8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.DateTimeOffset value)
     ::System::DateTime ToDateTime(::System::DateTimeOffset value);
     // public override System.DateTime ToDateTime(System.Double value)
-    // Offset: 0x1C5F168
+    // Offset: 0x1C9769C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.Double value)
     ::System::DateTime ToDateTime(double value);
     // public override System.DateTime ToDateTime(System.Int32 value)
-    // Offset: 0x1C5F260
+    // Offset: 0x1C97794
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.Int32 value)
     ::System::DateTime ToDateTime(int value);
     // public override System.DateTime ToDateTime(System.Int64 value)
-    // Offset: 0x1C5F348
+    // Offset: 0x1C9787C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.Int64 value)
     ::System::DateTime ToDateTime(int64_t value);
     // public override System.DateTime ToDateTime(System.String value)
-    // Offset: 0x1C5F430
+    // Offset: 0x1C97964
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.String value)
     ::System::DateTime ToDateTime(::StringW value);
     // public override System.DateTime ToDateTime(System.Object value)
-    // Offset: 0x1C5F4F8
+    // Offset: 0x1C97A2C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTime XmlValueConverter::ToDateTime(System.Object value)
     ::System::DateTime ToDateTime(::Il2CppObject* value);
     // public override System.DateTimeOffset ToDateTimeOffset(System.DateTime value)
-    // Offset: 0x1C5F5C0
+    // Offset: 0x1C97AF4
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTimeOffset XmlValueConverter::ToDateTimeOffset(System.DateTime value)
     ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
     // public override System.DateTimeOffset ToDateTimeOffset(System.String value)
-    // Offset: 0x1C5F6AC
+    // Offset: 0x1C97BE0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTimeOffset XmlValueConverter::ToDateTimeOffset(System.String value)
     ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
     // public override System.DateTimeOffset ToDateTimeOffset(System.Object value)
-    // Offset: 0x1C5F778
+    // Offset: 0x1C97CAC
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.DateTimeOffset XmlValueConverter::ToDateTimeOffset(System.Object value)
     ::System::DateTimeOffset ToDateTimeOffset(::Il2CppObject* value);
     // public override System.Decimal ToDecimal(System.String value)
-    // Offset: 0x1C5F844
+    // Offset: 0x1C97D78
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Decimal XmlValueConverter::ToDecimal(System.String value)
     ::System::Decimal ToDecimal(::StringW value);
     // public override System.Decimal ToDecimal(System.Object value)
-    // Offset: 0x1C5F910
+    // Offset: 0x1C97E44
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Decimal XmlValueConverter::ToDecimal(System.Object value)
     ::System::Decimal ToDecimal(::Il2CppObject* value);
     // public override System.Double ToDouble(System.Boolean value)
-    // Offset: 0x1C5F9DC
+    // Offset: 0x1C97F10
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.Boolean value)
     double ToDouble(bool value);
     // public override System.Double ToDouble(System.DateTime value)
-    // Offset: 0x1C5FAC4
+    // Offset: 0x1C97FF8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.DateTime value)
     double ToDouble(::System::DateTime value);
     // public override System.Double ToDouble(System.Int32 value)
-    // Offset: 0x1C5FBAC
+    // Offset: 0x1C980E0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.Int32 value)
     double ToDouble(int value);
     // public override System.Double ToDouble(System.Int64 value)
-    // Offset: 0x1C5FC94
+    // Offset: 0x1C981C8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.Int64 value)
     double ToDouble(int64_t value);
     // public override System.Double ToDouble(System.String value)
-    // Offset: 0x1C5FD7C
+    // Offset: 0x1C982B0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.String value)
     double ToDouble(::StringW value);
     // public override System.Double ToDouble(System.Object value)
-    // Offset: 0x1C5FE44
+    // Offset: 0x1C98378
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Double XmlValueConverter::ToDouble(System.Object value)
     double ToDouble(::Il2CppObject* value);
     // public override System.Int32 ToInt32(System.Boolean value)
-    // Offset: 0x1C5FF0C
+    // Offset: 0x1C98440
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.Boolean value)
     int ToInt32(bool value);
     // public override System.Int32 ToInt32(System.DateTime value)
-    // Offset: 0x1C5FFF4
+    // Offset: 0x1C98528
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.DateTime value)
     int ToInt32(::System::DateTime value);
     // public override System.Int32 ToInt32(System.Double value)
-    // Offset: 0x1C600DC
+    // Offset: 0x1C98610
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.Double value)
     int ToInt32(double value);
     // public override System.Int32 ToInt32(System.Int64 value)
-    // Offset: 0x1C601D4
+    // Offset: 0x1C98708
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.Int64 value)
     int ToInt32(int64_t value);
     // public override System.Int32 ToInt32(System.String value)
-    // Offset: 0x1C602BC
+    // Offset: 0x1C987F0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.String value)
     int ToInt32(::StringW value);
     // public override System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1C60384
+    // Offset: 0x1C988B8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int32 XmlValueConverter::ToInt32(System.Object value)
     int ToInt32(::Il2CppObject* value);
     // public override System.Int64 ToInt64(System.Boolean value)
-    // Offset: 0x1C6044C
+    // Offset: 0x1C98980
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.Boolean value)
     int64_t ToInt64(bool value);
     // public override System.Int64 ToInt64(System.DateTime value)
-    // Offset: 0x1C60534
+    // Offset: 0x1C98A68
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.DateTime value)
     int64_t ToInt64(::System::DateTime value);
     // public override System.Int64 ToInt64(System.Double value)
-    // Offset: 0x1C6061C
+    // Offset: 0x1C98B50
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.Double value)
     int64_t ToInt64(double value);
     // public override System.Int64 ToInt64(System.Int32 value)
-    // Offset: 0x1C60714
+    // Offset: 0x1C98C48
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.Int32 value)
     int64_t ToInt64(int value);
     // public override System.Int64 ToInt64(System.String value)
-    // Offset: 0x1C607FC
+    // Offset: 0x1C98D30
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.String value)
     int64_t ToInt64(::StringW value);
     // public override System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1C608C4
+    // Offset: 0x1C98DF8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Int64 XmlValueConverter::ToInt64(System.Object value)
     int64_t ToInt64(::Il2CppObject* value);
     // public override System.Single ToSingle(System.Double value)
-    // Offset: 0x1C6098C
+    // Offset: 0x1C98EC0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Single XmlValueConverter::ToSingle(System.Double value)
     float ToSingle(double value);
     // public override System.Single ToSingle(System.String value)
-    // Offset: 0x1C60A84
+    // Offset: 0x1C98FB8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Single XmlValueConverter::ToSingle(System.String value)
     float ToSingle(::StringW value);
     // public override System.Single ToSingle(System.Object value)
-    // Offset: 0x1C60B4C
+    // Offset: 0x1C99080
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Single XmlValueConverter::ToSingle(System.Object value)
     float ToSingle(::Il2CppObject* value);
     // public override System.String ToString(System.Boolean value)
-    // Offset: 0x1C60C14
+    // Offset: 0x1C99148
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Boolean value)
     ::StringW ToString(bool value);
     // public override System.String ToString(System.DateTime value)
-    // Offset: 0x1C60CE8
+    // Offset: 0x1C9921C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.DateTime value)
     ::StringW ToString(::System::DateTime value);
     // public override System.String ToString(System.DateTimeOffset value)
-    // Offset: 0x1C60DBC
+    // Offset: 0x1C992F0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.DateTimeOffset value)
     ::StringW ToString(::System::DateTimeOffset value);
     // public override System.String ToString(System.Decimal value)
-    // Offset: 0x1C60E9C
+    // Offset: 0x1C993D0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Decimal value)
     ::StringW ToString(::System::Decimal value);
     // public override System.String ToString(System.Double value)
-    // Offset: 0x1C60F7C
+    // Offset: 0x1C994B0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Double value)
     ::StringW ToString(double value);
     // public override System.String ToString(System.Int32 value)
-    // Offset: 0x1C61060
+    // Offset: 0x1C99594
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Int32 value)
     ::StringW ToString(int value);
     // public override System.String ToString(System.Int64 value)
-    // Offset: 0x1C61134
+    // Offset: 0x1C99668
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Int64 value)
     ::StringW ToString(int64_t value);
     // public override System.String ToString(System.Single value)
-    // Offset: 0x1C61208
+    // Offset: 0x1C9973C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Single value)
     ::StringW ToString(float value);
     // public override System.String ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C612EC
+    // Offset: 0x1C99820
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
     ::StringW ToString(::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.String ToString(System.Object value)
-    // Offset: 0x1C613A4
+    // Offset: 0x1C998D8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.String XmlValueConverter::ToString(System.Object value)
     ::StringW ToString(::Il2CppObject* value);
     // public override System.Object ChangeType(System.Boolean value, System.Type destinationType)
-    // Offset: 0x1C613B8
+    // Offset: 0x1C998EC
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Boolean value, System.Type destinationType)
     ::Il2CppObject* ChangeType(bool value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.DateTime value, System.Type destinationType)
-    // Offset: 0x1C61448
+    // Offset: 0x1C9997C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.DateTime value, System.Type destinationType)
     ::Il2CppObject* ChangeType(::System::DateTime value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Decimal value, System.Type destinationType)
-    // Offset: 0x1C614D8
+    // Offset: 0x1C99A0C
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Decimal value, System.Type destinationType)
     ::Il2CppObject* ChangeType(::System::Decimal value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Double value, System.Type destinationType)
-    // Offset: 0x1C61574
+    // Offset: 0x1C99AA8
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Double value, System.Type destinationType)
     ::Il2CppObject* ChangeType(double value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Int32 value, System.Type destinationType)
-    // Offset: 0x1C6160C
+    // Offset: 0x1C99B40
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Int32 value, System.Type destinationType)
     ::Il2CppObject* ChangeType(int value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.Int64 value, System.Type destinationType)
-    // Offset: 0x1C6169C
+    // Offset: 0x1C99BD0
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Int64 value, System.Type destinationType)
     ::Il2CppObject* ChangeType(int64_t value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1C6172C
+    // Offset: 0x1C99C60
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.Object value, System.Type destinationType)
-    // Offset: 0x1C6173C
+    // Offset: 0x1C99C70
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Object value, System.Type destinationType)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType);

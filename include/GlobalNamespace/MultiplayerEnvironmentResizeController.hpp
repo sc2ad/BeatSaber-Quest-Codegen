@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10EB7E8
+    // [InjectAttribute] Offset: 0x1102FD4
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EB7F8
+    // [InjectAttribute] Offset: 0x1102FE4
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x30
@@ -123,38 +123,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
     [[deprecated("Use field access instead!")]] bool& dyn__spawnCenterDistanceFound();
     // public System.Boolean get_isResizingFinished()
-    // Offset: 0x1428AF0
+    // Offset: 0x142D6DC
     bool get_isResizingFinished();
     // public System.Void add_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x1428AF8
+    // Offset: 0x142D6E4
     void add_resizingDidFinishEvent(::System::Action* value);
     // public System.Void remove_resizingDidFinishEvent(System.Action value)
-    // Offset: 0x1428B9C
+    // Offset: 0x142D788
     void remove_resizingDidFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1429218
+    // Offset: 0x142DE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentResizeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentResizeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerEnvironmentResizeController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1428C40
+    // Offset: 0x142D82C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1428DB0
+    // Offset: 0x142D99C
     void OnDestroy();
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single edgeDistanceFromCenter)
-    // Offset: 0x1428D80
+    // Offset: 0x142D96C
     void HandleEdgeDistanceFromCenterWasCalculated(float edgeDistanceFromCenter);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x1428D98
+    // Offset: 0x142D984
     void HandleSpawnCenterDistanceWasFound(float distance);
     // private System.Void TryResize()
-    // Offset: 0x1428F08
+    // Offset: 0x142DAF4
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x1428F20
+    // Offset: 0x142DB0C
     void Resize();
   }; // MultiplayerEnvironmentResizeController
   #pragma pack(pop)

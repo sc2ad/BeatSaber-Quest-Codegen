@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
     // Padding between fields: beatmapEvent and: deactivateOnBoostRenderers
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x10E8514
+    // [NullAllowed] Offset: 0x10FFC00
     // private UnityEngine.MeshRenderer[] _deactivateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::UnityEngine::MeshRenderer*> deactivateOnBoostRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [NullAllowed] Offset: 0x10E854C
+    // [NullAllowed] Offset: 0x10FFC38
     // private UnityEngine.MeshRenderer[] _activateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::UnityEngine::MeshRenderer*> activateOnBoostRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10E8584
+    // [InjectAttribute] Offset: 0x10FFC70
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -97,23 +97,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x130B384
+    // Offset: 0x13263B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshRendererSwitchEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MeshRendererSwitchEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshRendererSwitchEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x130B158
+    // Offset: 0x132618C
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x130B270
+    // Offset: 0x13262A4
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x130B28C
+    // Offset: 0x13262C0
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleObjects(System.Boolean isBoostOn)
-    // Offset: 0x130B2AC
+    // Offset: 0x13262E0
     void ToggleObjects(bool isBoostOn);
   }; // MeshRendererSwitchEventEffect
   #pragma pack(pop)

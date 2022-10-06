@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class LightGroupElementsSpawner : public ::GlobalNamespace::LightGroupSubsystem {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10E8030
+    // [SpaceAttribute] Offset: 0x10FF580
     // private UnityEngine.GameObject _lightPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _lightPrefab
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__lightPrefab();
     // public System.Void .ctor()
-    // Offset: 0x14D9FB4
+    // Offset: 0x146759C
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -78,20 +78,20 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean start
     [[deprecated("Use field access instead!")]] bool& dyn_start();
     // public System.Object get_Current()
-    // Offset: 0x1CF6740
+    // Offset: 0x1D438F0
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x1CF66E4
+    // Offset: 0x1D43894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1CF67F0
+    // Offset: 0x1D439A0
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CF68C8
+    // Offset: 0x1D43A78
     void Reset();
   }; // System.Collections.ListDictionaryInternal/System.Collections.NodeKeyValueCollection/System.Collections.NodeKeyValueEnumerator
   #pragma pack(pop)

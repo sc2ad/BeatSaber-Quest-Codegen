@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* continueButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F4564
+    // [SpaceAttribute] Offset: 0x110BDA0
     // private UnityEngine.GameObject _clearedPanel
     // Size: 0x8
     // Offset: 0x80
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* comboText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F45EC
+    // [SpaceAttribute] Offset: 0x110BE28
     // private UnityEngine.GameObject _clearedBannerGo
     // Size: 0x8
     // Offset: 0xB0
@@ -142,35 +142,35 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* failedBannerGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F4634
+    // [SpaceAttribute] Offset: 0x110BE70
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F466C
+    // [SpaceAttribute] Offset: 0x110BEA8
     // private UnityEngine.AudioClip _levelClearedAudioClip
     // Size: 0x8
     // Offset: 0xC8
     ::UnityEngine::AudioClip* levelClearedAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F46A4
+    // [InjectAttribute] Offset: 0x110BEE0
     // private readonly FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F46B4
+    // [InjectAttribute] Offset: 0x110BEF0
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F46C4
+    // [InjectAttribute] Offset: 0x110BF00
     // private readonly ResultsEnvironmentManager _resultsEnvironmentManager
     // Size: 0x8
     // Offset: 0xE0
@@ -273,55 +273,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _practice
     [[deprecated("Use field access instead!")]] bool& dyn__practice();
     // public System.Boolean get_practice()
-    // Offset: 0x14A6ABC
+    // Offset: 0x148F134
     bool get_practice();
     // public System.Void add_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x14A682C
+    // Offset: 0x148EEA4
     void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_continueButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x14A68D0
+    // Offset: 0x148EF48
     void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void add_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x14A6974
+    // Offset: 0x148EFEC
     void add_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void remove_restartButtonPressedEvent(System.Action`1<ResultsViewController> value)
-    // Offset: 0x14A6A18
+    // Offset: 0x148F090
     void remove_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14A7A24
+    // Offset: 0x14900A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsViewController*, creationType>()));
     }
     // public System.Void Init(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, System.Boolean practice, System.Boolean newHighScore)
-    // Offset: 0x14A6AC4
+    // Offset: 0x148F13C
     void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool practice, bool newHighScore);
     // private System.Collections.IEnumerator StartFireworksAfterDelay(System.Single delay)
-    // Offset: 0x14A7500
+    // Offset: 0x148FB7C
     ::System::Collections::IEnumerator* StartFireworksAfterDelay(float delay);
     // private System.Void SetDataToUI()
-    // Offset: 0x14A6C84
+    // Offset: 0x148F2FC
     void SetDataToUI();
     // private System.Void EnableResultsEnvironmentController()
-    // Offset: 0x14A7154
+    // Offset: 0x148F7D0
     void EnableResultsEnvironmentController();
     // private System.Void DisableResultEnvironmentController()
-    // Offset: 0x14A765C
+    // Offset: 0x148FCD8
     void DisableResultEnvironmentController();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x14A794C
+    // Offset: 0x148FFC8
     void ContinueButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0x14A79B8
+    // Offset: 0x1490034
     void RestartButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14A6AE0
+    // Offset: 0x148F158
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14A7580
+    // Offset: 0x148FBFC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

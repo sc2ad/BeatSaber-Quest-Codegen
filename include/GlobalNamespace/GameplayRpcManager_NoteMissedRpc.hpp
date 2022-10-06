@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::NoteMissedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float, ::GlobalNamespace::NoteMissInfoNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16901DC
+    // Offset: 0x16A6C14
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

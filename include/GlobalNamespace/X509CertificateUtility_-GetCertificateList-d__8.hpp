@@ -136,35 +136,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.IEnumerator <>7__wrap2
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_$$7__wrap2();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current()
-    // Offset: 0x267A060
+    // Offset: 0x26A7204
     ::System::Security::Cryptography::X509Certificates::X509Certificate2* System_Collections_Generic_IEnumerator$System_Security_Cryptography_X509Certificates_X509Certificate2$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x267A0C8
+    // Offset: 0x26A726C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2678B10
+    // Offset: 0x26A5CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::$GetCertificateList$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::$GetCertificateList$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::$GetCertificateList$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2679AD8
+    // Offset: 0x26A6C7C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2679BC0
+    // Offset: 0x26A6D64
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x2679AF4
+    // Offset: 0x26A6C98
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x267A068
+    // Offset: 0x26A720C
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Security.Cryptography.X509Certificates.X509Certificate2> System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator()
-    // Offset: 0x267A0D0
+    // Offset: 0x26A7274
     ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* System_Collections_Generic_IEnumerable$System_Security_Cryptography_X509Certificates_X509Certificate2$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x267A184
+    // Offset: 0x26A7328
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // X509CertificateUtility/<GetCertificateList>d__8
   #pragma pack(pop)

@@ -38,102 +38,102 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderShaderHelper : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6BE8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDF60
     // Get static field: static private readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();
     // Set static field: static private readonly System.Int32 colorPropertyId
     static void _set_colorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6BF8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDF70
     // Get static field: static private readonly System.Int32 saberAttractionPointPropertyId
     static int _get_saberAttractionPointPropertyId();
     // Set static field: static private readonly System.Int32 saberAttractionPointPropertyId
     static void _set_saberAttractionPointPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C08
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDF80
     // Get static field: static private readonly System.Int32 timeSinceHeadNoteJumpPropertyId
     static int _get_timeSinceHeadNoteJumpPropertyId();
     // Set static field: static private readonly System.Int32 timeSinceHeadNoteJumpPropertyId
     static void _set_timeSinceHeadNoteJumpPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C18
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDF90
     // Get static field: static private readonly System.Int32 headNoteJumpDataPropertyId
     static int _get_headNoteJumpDataPropertyId();
     // Set static field: static private readonly System.Int32 headNoteJumpDataPropertyId
     static void _set_headNoteJumpDataPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C28
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFA0
     // Get static field: static private readonly System.Int32 tailNoteJumpDataPropertyId
     static int _get_tailNoteJumpDataPropertyId();
     // Set static field: static private readonly System.Int32 tailNoteJumpDataPropertyId
     static void _set_tailNoteJumpDataPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C38
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFB0
     // Get static field: static private readonly System.Int32 jumpSpeedPropertyId
     static int _get_jumpSpeedPropertyId();
     // Set static field: static private readonly System.Int32 jumpSpeedPropertyId
     static void _set_jumpSpeedPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C48
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFC0
     // Get static field: static private readonly System.Int32 jumpDistancePropertyId
     static int _get_jumpDistancePropertyId();
     // Set static field: static private readonly System.Int32 jumpDistancePropertyId
     static void _set_jumpDistancePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C58
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFD0
     // Get static field: static private readonly System.Int32 randomPropertyId
     static int _get_randomPropertyId();
     // Set static field: static private readonly System.Int32 randomPropertyId
     static void _set_randomPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C68
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFE0
     // Get static field: static private readonly System.Int32 headFadeLengthPropertyId
     static int _get_headFadeLengthPropertyId();
     // Set static field: static private readonly System.Int32 headFadeLengthPropertyId
     static void _set_headFadeLengthPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C78
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FDFF0
     // Get static field: static private readonly System.Int32 tailFadeLengthPropertyId
     static int _get_tailFadeLengthPropertyId();
     // Set static field: static private readonly System.Int32 tailFadeLengthPropertyId
     static void _set_tailFadeLengthPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C88
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FE000
     // Get static field: static private readonly System.Int32 sliderZLengthPropertyId
     static int _get_sliderZLengthPropertyId();
     // Set static field: static private readonly System.Int32 sliderZLengthPropertyId
     static void _set_sliderZLengthPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6C98
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FE010
     // Get static field: static private readonly System.Int32 sliderLengthPropertyId
     static int _get_sliderLengthPropertyId();
     // Set static field: static private readonly System.Int32 sliderLengthPropertyId
     static void _set_sliderLengthPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6CA8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FE020
     // Get static field: static private readonly System.Int32 tailHeadNoteJumpOffsetDifferencePropertyId
     static int _get_tailHeadNoteJumpOffsetDifferencePropertyId();
     // Set static field: static private readonly System.Int32 tailHeadNoteJumpOffsetDifferencePropertyId
     static void _set_tailHeadNoteJumpOffsetDifferencePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E6CB8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FE030
     // Get static field: static private readonly System.Int32 saberAttractionMultiplier
     static int _get_saberAttractionMultiplier();
     // Set static field: static private readonly System.Int32 saberAttractionMultiplier
     static void _set_saberAttractionMultiplier(int value);
     // static private System.Void .cctor()
-    // Offset: 0x13CA6A8
+    // Offset: 0x13CE4B4
     static void _cctor();
     // static public System.Void SetTimeSinceHeadNoteJump(UnityEngine.MaterialPropertyBlock materialPropertyBlock, System.Single time)
-    // Offset: 0x13CA13C
+    // Offset: 0x13CDF48
     static void SetTimeSinceHeadNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float time);
     // static public System.Void SetTailHeadNoteJumpOffsetDifference(UnityEngine.MaterialPropertyBlock materialPropertyBlock, System.Single tailHeadNoteJumpOffsetDifference)
-    // Offset: 0x13CA1C8
+    // Offset: 0x13CDFD4
     static void SetTailHeadNoteJumpOffsetDifference(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float tailHeadNoteJumpOffsetDifference);
     // static public System.Void SetSaberAttractionPoint(UnityEngine.MaterialPropertyBlock materialPropertyBlock, UnityEngine.Vector3 attractPoint)
-    // Offset: 0x13CA254
+    // Offset: 0x13CE060
     static void SetSaberAttractionPoint(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Vector3 attractPoint);
     // static public System.Void EnableSaberAttraction(UnityEngine.MaterialPropertyBlock materialPropertyBlock, System.Boolean enableSaberAttraction)
-    // Offset: 0x13C71B4
+    // Offset: 0x13CAFE0
     static void EnableSaberAttraction(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, bool enableSaberAttraction);
     // static public System.Void SetColor(UnityEngine.MaterialPropertyBlock materialPropertyBlock, UnityEngine.Color color)
-    // Offset: 0x13CA328
+    // Offset: 0x13CE134
     static void SetColor(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Color color);
     // static public System.Void SetInitialProperties(UnityEngine.MaterialPropertyBlock materialPropertyBlock, UnityEngine.Color sliderColor, System.Single headNoteGravity, System.Single tailNoteGravity, System.Single noteJumpMovementSpeed, System.Single jumpDistance, System.Single sliderZLength, System.Single sliderLength, System.Boolean hasHeadNote, System.Boolean hasTailNote, System.Single randomValue)
-    // Offset: 0x13CA3D4
+    // Offset: 0x13CE1E0
     static void SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Color sliderColor, float headNoteGravity, float tailNoteGravity, float noteJumpMovementSpeed, float jumpDistance, float sliderZLength, float sliderLength, bool hasHeadNote, bool hasTailNote, float randomValue);
     // static public System.Void SetInitialProperties(UnityEngine.MaterialPropertyBlock materialPropertyBlock, SliderController sliderController, System.Single noteJumpMovementSpeed)
-    // Offset: 0x13C56FC
+    // Offset: 0x13C9528
     static void SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController, float noteJumpMovementSpeed);
     // static public System.Void UpdateMaterialPropertyBlock(UnityEngine.MaterialPropertyBlock materialPropertyBlock, SliderController sliderController, System.Single timeSinceHeadNoteJump, System.Single jumpOffsetY)
-    // Offset: 0x13C686C
+    // Offset: 0x13CA698
     static void UpdateMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController, float timeSinceHeadNoteJump, float jumpOffsetY);
   }; // SliderShaderHelper
   #pragma pack(pop)

@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public BTSCharacterSpawnController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSCharacterSpawnController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x137CE5C
+    // Offset: 0x136B100
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x137CEC4
+    // Offset: 0x136B168
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x137CD54
+    // Offset: 0x136AFF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x137CD88
+    // Offset: 0x136B02C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x137CD8C
+    // Offset: 0x136B030
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x137CE64
+    // Offset: 0x136B108
     void System_Collections_IEnumerator_Reset();
   }; // BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19
   #pragma pack(pop)

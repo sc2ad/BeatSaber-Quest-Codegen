@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public TrailerGameplayManager <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TrailerGameplayManager*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1411A6C
+    // Offset: 0x13EE5B4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1411AD4
+    // Offset: 0x13EE61C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1411948
+    // Offset: 0x13EE490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailerGameplayManager::$Start$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailerGameplayManager::$Start$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailerGameplayManager::$Start$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x141197C
+    // Offset: 0x13EE4C4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1411980
+    // Offset: 0x13EE4C8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1411A74
+    // Offset: 0x13EE5BC
     void System_Collections_IEnumerator_Reset();
   }; // TrailerGameplayManager/<Start>d__4
   #pragma pack(pop)

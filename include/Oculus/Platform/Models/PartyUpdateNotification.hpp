@@ -92,7 +92,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String UserName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_UserName();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x19F486C
+    // Offset: 0x19FB1B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyUpdateNotification* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::PartyUpdateNotification::.ctor");

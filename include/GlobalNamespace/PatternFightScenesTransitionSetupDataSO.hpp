@@ -133,23 +133,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x1344F98
+    // Offset: 0x1360930
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<PatternFightScenesTransitionSetupDataSO,PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType> value)
-    // Offset: 0x134503C
+    // Offset: 0x13609D4
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, ::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>* value);
     // public System.Void .ctor()
-    // Offset: 0x1345158
+    // Offset: 0x1360AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PatternFightScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13443D8
+    // Offset: 0x135FD70
     void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void Finish(PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType endState)
-    // Offset: 0x13450E0
+    // Offset: 0x1360A78
     void Finish(::GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType endState);
   }; // PatternFightScenesTransitionSetupDataSO
   #pragma pack(pop)

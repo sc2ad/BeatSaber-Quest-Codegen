@@ -48,13 +48,13 @@ namespace Mono::Net::Security::Private {
     // Nested type: ::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
     // static Mono.Security.Interface.MonoRemoteCertificateValidationCallback PublicToMono(System.Net.Security.RemoteCertificateValidationCallback callback)
-    // Offset: 0x1AE7354
+    // Offset: 0x1AD85C4
     static ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
     // static System.Net.Security.RemoteCertificateValidationCallback MonoToPublic(Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback)
-    // Offset: 0x1AE1BD8
+    // Offset: 0x1AD2E48
     static ::System::Net::Security::RemoteCertificateValidationCallback* MonoToPublic(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback);
     // static System.Net.Security.LocalCertSelectionCallback MonoToInternal(Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback)
-    // Offset: 0x1AE1C74
+    // Offset: 0x1AD2EE4
     static ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
   }; // Mono.Net.Security.Private.CallbackHelpers
   #pragma pack(pop)

@@ -29,14 +29,14 @@ namespace Mono::Security::Cryptography {
   class MD2 : public ::System::Security::Cryptography::HashAlgorithm {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2347704
+    // Offset: 0x23A0D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::MD2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2*, creationType>()));
     }
     // static public Mono.Security.Cryptography.MD2 Create()
-    // Offset: 0x2347730
+    // Offset: 0x23A0D88
     static ::Mono::Security::Cryptography::MD2* Create();
   }; // Mono.Security.Cryptography.MD2
   #pragma pack(pop)

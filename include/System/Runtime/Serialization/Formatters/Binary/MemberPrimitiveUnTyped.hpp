@@ -58,22 +58,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_value();
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
-    // Offset: 0x18FF0CC
+    // Offset: 0x18D06B8
     void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::Il2CppObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
-    // Offset: 0x18FF0D8
+    // Offset: 0x18D06C4
     void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18FF0E0
+    // Offset: 0x18D06CC
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18FF108
+    // Offset: 0x18D06F4
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18FF144
+    // Offset: 0x18D0730
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18FF0C4
+    // Offset: 0x18D06B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

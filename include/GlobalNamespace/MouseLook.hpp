@@ -132,32 +132,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _cursorIsLocked
     [[deprecated("Use field access instead!")]] bool& dyn__cursorIsLocked();
     // public System.Void .ctor()
-    // Offset: 0x13EE564
+    // Offset: 0x1405854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseLook* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MouseLook::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseLook*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x13EE058
+    // Offset: 0x1405348
     void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void SetRotations(UnityEngine.Quaternion characterRotation, UnityEngine.Quaternion cameraRotation)
-    // Offset: 0x13EE0F0
+    // Offset: 0x14053E0
     void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
-    // Offset: 0x13EE104
+    // Offset: 0x14053F4
     void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
-    // Offset: 0x13EE4B4
+    // Offset: 0x14057A4
     void SetCursorLock(bool value);
     // public System.Void UpdateCursorLock()
-    // Offset: 0x13EE4A4
+    // Offset: 0x1405794
     void UpdateCursorLock();
     // private System.Void InternalLockUpdate()
-    // Offset: 0x13EE4E8
+    // Offset: 0x14057D8
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
-    // Offset: 0x13EE3DC
+    // Offset: 0x14056CC
     ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
   }; // MouseLook
   #pragma pack(pop)

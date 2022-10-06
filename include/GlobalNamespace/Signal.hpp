@@ -48,26 +48,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _event
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn__event();
     // private System.Void add__event(System.Action value)
-    // Offset: 0x2A642B0
+    // Offset: 0x2A82F40
     void add__event(::System::Action* value);
     // private System.Void remove__event(System.Action value)
-    // Offset: 0x2A64354
+    // Offset: 0x2A82FE4
     void remove__event(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x2A6443C
+    // Offset: 0x2A830CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Signal* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Signal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Signal*, creationType>()));
     }
     // public System.Void Raise()
-    // Offset: 0x2A643F8
+    // Offset: 0x2A83088
     void Raise();
     // public System.Void Subscribe(System.Action foo)
-    // Offset: 0x2A6440C
+    // Offset: 0x2A8309C
     void Subscribe(::System::Action* foo);
     // public System.Void Unsubscribe(System.Action foo)
-    // Offset: 0x2A64438
+    // Offset: 0x2A830C8
     void Unsubscribe(::System::Action* foo);
   }; // Signal
   #pragma pack(pop)

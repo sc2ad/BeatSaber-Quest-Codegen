@@ -55,34 +55,34 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ExecutionContext m_ec
     [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext*& dyn_m_ec();
     // public System.Boolean get_IsNull()
-    // Offset: 0x1DDDD10
+    // Offset: 0x22366D0
     bool get_IsNull();
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0x1DDE79C
+    // Offset: 0x223715C
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0x1DDE100
+    // Offset: 0x2236AC0
     ::System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0x1DDE118
+    // Offset: 0x2236AD8
     ::System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/System.Runtime.Remoting.Messaging.Reader get_LogicalCallContext()
-    // Offset: 0x1DDE524
+    // Offset: 0x2236EE4
     ::System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/System.Runtime.Remoting.Messaging.Reader get_IllogicalCallContext()
-    // Offset: 0x1DDE7B8
+    // Offset: 0x2237178
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0x1DDE78C
+    // Offset: 0x223714C
     // ABORTED: conflicts with another method.  Reader(::System::Threading::ExecutionContext* ec);
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0x1DDE794
+    // Offset: 0x2237154
     ::System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0x1DDDD20
+    // Offset: 0x22366E0
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0x1DDDD98
+    // Offset: 0x2236758
     bool HasSameLocalValues(::System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/System.Threading.Reader
   #pragma pack(pop)

@@ -78,26 +78,26 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _erroredWorkItems
     [[deprecated("Use field access instead!")]] int& dyn__erroredWorkItems();
     // public System.Void .ctor()
-    // Offset: 0x1A1CD98
+    // Offset: 0x1A389B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_WorkItemTally* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_WorkItemTally::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_WorkItemTally*, creationType>()));
     }
     // public System.Void ZeroAll()
-    // Offset: 0x1A1CC24
+    // Offset: 0x1A38844
     void ZeroAll();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x1A1CC30
+    // Offset: 0x1A38850
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x1A1CC68
+    // Offset: 0x1A38888
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x1A1CC78
+    // Offset: 0x1A38898
     bool AnyWorkItemsPending();
     // public System.String ProgressRatio()
-    // Offset: 0x1A1CCBC
+    // Offset: 0x1A388DC
     ::StringW ProgressRatio();
   }; // HoudiniEngineUnity.HEU_WorkItemTally
   #pragma pack(pop)

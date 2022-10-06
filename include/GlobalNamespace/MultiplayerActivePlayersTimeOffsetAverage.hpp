@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public ::GlobalNamespace::IMultiplayerObservable*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10EB538
+    // [InjectAttribute] Offset: 0x1102D24
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -71,13 +71,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
     [[deprecated("Use field access instead!")]] float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x13EF6EC
+    // Offset: 0x14069DC
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x13EF914
+    // Offset: 0x1406C04
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x13EFA74
+    // Offset: 0x1406D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerActivePlayersTimeOffsetAverage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::.ctor");

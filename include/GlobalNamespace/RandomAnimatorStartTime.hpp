@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _stateName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__stateName();
     // public System.Void .ctor()
-    // Offset: 0x2A61D64
+    // Offset: 0x2A809F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomAnimatorStartTime* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomAnimatorStartTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomAnimatorStartTime*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2A61D20
+    // Offset: 0x2A809B0
     void Start();
   }; // RandomAnimatorStartTime
   #pragma pack(pop)

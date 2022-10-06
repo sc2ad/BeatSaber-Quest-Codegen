@@ -118,26 +118,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _nonSyncedInsertsExist
     [[deprecated("Use field access instead!")]] bool& dyn__nonSyncedInsertsExist();
     // public System.Void .ctor(System.Int32 groupId, BeatmapData beatmapData, IBeatToTimeConvertor beatToTimeConvertor)
-    // Offset: 0x152DCF4
+    // Offset: 0x1545104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupList* New_ctor(int groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupList*, creationType>(groupId, beatmapData, beatToTimeConvertor)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x152E608
+    // Offset: 0x1545A18
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x152DC78
+    // Offset: 0x1545088
     static void NoDomainReloadInit();
     // public System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> Insert(BeatmapEventDataBoxGroup beatmapEventDataBoxGroup)
-    // Offset: 0x152DE20
+    // Offset: 0x1545230
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
     // public System.Void Remove(System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x152E1BC
+    // Offset: 0x15455CC
     void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void SyncWithBeatmapData()
-    // Offset: 0x152E4EC
+    // Offset: 0x15458FC
     void SyncWithBeatmapData();
   }; // BeatmapEventDataBoxGroupList
   #pragma pack(pop)

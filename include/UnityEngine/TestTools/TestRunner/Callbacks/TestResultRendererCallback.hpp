@@ -55,26 +55,26 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer m_ResultRenderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*& dyn_m_ResultRenderer();
     // public System.Void .ctor()
-    // Offset: 0x1992948
+    // Offset: 0x19622D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRendererCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRendererCallback*, creationType>()));
     }
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x1992844
+    // Offset: 0x19621CC
     void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1992848
+    // Offset: 0x19621D0
     void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void OnGUI()
-    // Offset: 0x1992930
+    // Offset: 0x19622B8
     void OnGUI();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1992940
+    // Offset: 0x19622C8
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1992944
+    // Offset: 0x19622CC
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
   #pragma pack(pop)

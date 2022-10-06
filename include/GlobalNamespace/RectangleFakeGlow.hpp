@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // Padding between fields: color and: materialPropertyBlockController
     char __padding2[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10E8E94
+    // [SpaceAttribute] Offset: 0x1100670
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -71,12 +71,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E8ECC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11006A8
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E8EDC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11006B8
     // Get static field: static private readonly System.Int32 _sizeParamsID
     static int _get__sizeParamsID();
     // Set static field: static private readonly System.Int32 _sizeParamsID
@@ -90,32 +90,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // public UnityEngine.Color get_color()
-    // Offset: 0x14A4CF0
+    // Offset: 0x148D3EC
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x14A4C14
+    // Offset: 0x148D310
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x14A4FEC
+    // Offset: 0x148D6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectangleFakeGlow* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RectangleFakeGlow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectangleFakeGlow*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14A5050
+    // Offset: 0x148D74C
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x14A4CFC
+    // Offset: 0x148D3F8
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x14A4D74
+    // Offset: 0x148D470
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14A4F74
+    // Offset: 0x148D670
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x14A4DF4
+    // Offset: 0x148D4F0
     void Refresh();
   }; // RectangleFakeGlow
   #pragma pack(pop)

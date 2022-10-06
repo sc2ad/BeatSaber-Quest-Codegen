@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _multiplayerResultsPyramidViewAvatarPrefab
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__multiplayerResultsPyramidViewAvatarPrefab();
     // public System.Void .ctor()
-    // Offset: 0x13AB6D4
+    // Offset: 0x13D9194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerObjectInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerObjectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerObjectInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13AB5D0
+    // Offset: 0x13D9090
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

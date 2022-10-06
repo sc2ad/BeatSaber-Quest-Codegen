@@ -52,10 +52,10 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 linePos
     [[deprecated("Use field access instead!")]] int& dyn_linePos();
     // public System.Void .ctor(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1AC6774
+    // Offset: 0x1AB69E4
     // ABORTED: conflicts with another method.  LineInfo(int lineNo, int linePos);
     // public System.Void Set(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1ACFC7C
+    // Offset: 0x1ABFEEC
     void Set(int lineNo, int linePos);
   }; // System.Xml.LineInfo
   #pragma pack(pop)

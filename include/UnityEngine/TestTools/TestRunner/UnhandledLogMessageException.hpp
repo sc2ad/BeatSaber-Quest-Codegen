@@ -60,22 +60,22 @@ namespace UnityEngine::TestTools::TestRunner {
     // Get instance field reference: private readonly System.String m_CustomStackTrace
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_CustomStackTrace();
     // public System.Void .ctor(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x2AF2C58
+    // Offset: 0x2B23AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledLogMessageException* New_ctor(::UnityEngine::TestTools::Logging::LogEvent* log) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledLogMessageException*, creationType>(log)));
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x2AF2CF8
+    // Offset: 0x2B23B44
     static ::StringW BuildMessage(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x2AF2FBC
+    // Offset: 0x2B23E08
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x2AF3024
+    // Offset: 0x2B23E70
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::StringW get_StackTrace();

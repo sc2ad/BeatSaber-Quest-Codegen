@@ -64,27 +64,27 @@ namespace System::Collections::Generic {
     // Get instance field reference: private readonly System.Boolean _useStackAlloc
     [[deprecated("Use field access instead!")]] bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
-    // Offset: 0x1D81E04
+    // Offset: 0x1DE720C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper_* New_ctor(int* bitArrayPtr, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper_*, creationType>(bitArrayPtr, length)));
     }
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
-    // Offset: 0x1D81E48
+    // Offset: 0x1DE7250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper_* New_ctor(::ArrayW<int> bitArray, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper_*, creationType>(bitArray, length)));
     }
     // System.Void MarkBit(System.Int32 bitPosition)
-    // Offset: 0x1D81E84
+    // Offset: 0x1DE728C
     void MarkBit(int bitPosition);
     // System.Boolean IsMarked(System.Int32 bitPosition)
-    // Offset: 0x1D81F0C
+    // Offset: 0x1DE7314
     bool IsMarked(int bitPosition);
     // static System.Int32 ToIntArrayLength(System.Int32 n)
-    // Offset: 0x1D81F9C
+    // Offset: 0x1DE73A4
     static int ToIntArrayLength(int n);
   }; // System.Collections.Generic.BitHelper
   #pragma pack(pop)

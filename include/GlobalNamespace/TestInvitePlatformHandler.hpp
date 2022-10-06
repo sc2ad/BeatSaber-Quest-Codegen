@@ -37,17 +37,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
     }
     // public System.Boolean get_isSupported()
-    // Offset: 0x146A884
+    // Offset: 0x13E92A0
     bool get_isSupported();
     // public System.Void .ctor()
-    // Offset: 0x146A8F8
+    // Offset: 0x13E9314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestInvitePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestInvitePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestInvitePlatformHandler*, creationType>()));
     }
     // public System.Void OpenInvitePanel()
-    // Offset: 0x146A88C
+    // Offset: 0x13E92A8
     void OpenInvitePanel();
   }; // TestInvitePlatformHandler
   #pragma pack(pop)

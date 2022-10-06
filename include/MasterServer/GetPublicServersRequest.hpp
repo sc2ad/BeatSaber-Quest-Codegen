@@ -119,28 +119,28 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public PacketPool`1<MasterServer.GetPublicServersRequest> get_pool()
-    // Offset: 0x173482C
+    // Offset: 0x1703754
     static ::GlobalNamespace::PacketPool_1<::MasterServer::GetPublicServersRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x1734874
+    // Offset: 0x170379C
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x173487C
+    // Offset: 0x17037A4
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x1734884
+    // Offset: 0x17037AC
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x173488C
+    // Offset: 0x17037B4
     void set_userName(::StringW value);
     // public MasterServer.GetPublicServersRequest WithUserIdAndName(System.ValueTuple`2<System.String,System.String> idPair)
-    // Offset: 0x1734894
+    // Offset: 0x17037BC
     ::MasterServer::GetPublicServersRequest* WithUserIdAndName(::System::ValueTuple_2<::StringW, ::StringW> idPair);
     // public MasterServer.GetPublicServersRequest Init(System.Int32 offset, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x173489C
+    // Offset: 0x17037C4
     ::MasterServer::GetPublicServersRequest* Init(int offset, int count, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void .ctor()
-    // Offset: 0x1734A6C
+    // Offset: 0x1703994
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -149,17 +149,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<GetPublicServersRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x17348C4
+    // Offset: 0x17037EC
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1734954
+    // Offset: 0x170387C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x1734A10
+    // Offset: 0x1703938
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

@@ -51,22 +51,22 @@ namespace NUnit::Framework::Internal {
   class ActionsHelper : public ::Il2CppObject {
     public:
     // static public NUnit.Framework.ITestAction[] GetActionsFromTestAssembly(NUnit.Framework.Internal.TestAssembly testAssembly)
-    // Offset: 0x1C93A54
+    // Offset: 0x1CEB314
     static ::ArrayW<::NUnit::Framework::ITestAction*> GetActionsFromTestAssembly(::NUnit::Framework::Internal::TestAssembly* testAssembly);
     // static public NUnit.Framework.ITestAction[] GetActionsFromTestMethodInfo(NUnit.Framework.Interfaces.IMethodInfo testAssembly)
-    // Offset: 0x1C93C48
+    // Offset: 0x1CEB508
     static ::ArrayW<::NUnit::Framework::ITestAction*> GetActionsFromTestMethodInfo(::NUnit::Framework::Interfaces::IMethodInfo* testAssembly);
     // static public NUnit.Framework.ITestAction[] GetActionsFromAttributeProvider(System.Reflection.ICustomAttributeProvider attributeProvider)
-    // Offset: 0x1C93A6C
+    // Offset: 0x1CEB32C
     static ::ArrayW<::NUnit::Framework::ITestAction*> GetActionsFromAttributeProvider(::System::Reflection::ICustomAttributeProvider* attributeProvider);
     // static public NUnit.Framework.ITestAction[] GetActionsFromTypesAttributes(System.Type type)
-    // Offset: 0x1C93CFC
+    // Offset: 0x1CEB5BC
     static ::ArrayW<::NUnit::Framework::ITestAction*> GetActionsFromTypesAttributes(::System::Type* type);
     // static private System.Type[] GetDeclaredInterfaces(System.Type type)
-    // Offset: 0x1C93E94
+    // Offset: 0x1CEB754
     static ::ArrayW<::System::Type*> GetDeclaredInterfaces(::System::Type* type);
     // static private System.Int32 SortByTargetDescending(NUnit.Framework.ITestAction x, NUnit.Framework.ITestAction y)
-    // Offset: 0x1C9410C
+    // Offset: 0x1CEB9CC
     static int SortByTargetDescending(::NUnit::Framework::ITestAction* x, ::NUnit::Framework::ITestAction* y);
   }; // NUnit.Framework.Internal.ActionsHelper
   #pragma pack(pop)

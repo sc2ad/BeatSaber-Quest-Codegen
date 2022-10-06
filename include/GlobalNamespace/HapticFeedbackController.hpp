@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* continuousRumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10BC5C8
+    // [InjectAttribute] Offset: 0x10D30D4
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x28
@@ -96,29 +96,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.XR.XRNode,System.Collections.Generic.Dictionary`2<System.Object,HapticFeedbackController/RumbleData>> _rumblesByNode
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::GlobalNamespace::HapticFeedbackController::RumbleData*>*>*& dyn__rumblesByNode();
     // public Libraries.HM.HMLib.VR.HapticPresetSO get_continuousRumblePreset()
-    // Offset: 0x15CAD24
+    // Offset: 0x15D1BD8
     ::Libraries::HM::HMLib::VR::HapticPresetSO* get_continuousRumblePreset();
     // public System.Void .ctor()
-    // Offset: 0x15CB3E8
+    // Offset: 0x15D229C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticFeedbackController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HapticFeedbackController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HapticFeedbackController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15CAD2C
+    // Offset: 0x15D1BE0
     void Awake();
     // public System.Void PlayHapticFeedback(UnityEngine.XR.XRNode node, Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x15CADF4
+    // Offset: 0x15D1CA8
     void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
     // private System.Void LateUpdate()
-    // Offset: 0x15CAFD8
+    // Offset: 0x15D1E8C
     void LateUpdate();
     // private System.Void UpdateRumbles()
-    // Offset: 0x15CAFDC
+    // Offset: 0x15D1E90
     void UpdateRumbles();
     // private HapticFeedbackController/RumbleData GetRumble(UnityEngine.XR.XRNode node, System.Object preset)
-    // Offset: 0x15CAEDC
+    // Offset: 0x15D1D90
     ::GlobalNamespace::HapticFeedbackController::RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::Il2CppObject* preset);
   }; // HapticFeedbackController
   #pragma pack(pop)

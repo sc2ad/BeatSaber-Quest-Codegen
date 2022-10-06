@@ -83,10 +83,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1567CC4
+    // Offset: 0x157F7F4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1568218
+    // Offset: 0x157FD48
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LocalNetworkPlayerModel/<Start>d__41
   // WARNING Not writing size check since size may be invalid!

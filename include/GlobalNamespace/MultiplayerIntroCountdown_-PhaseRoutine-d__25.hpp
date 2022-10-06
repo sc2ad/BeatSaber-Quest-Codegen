@@ -96,26 +96,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerIntroCountdown/<>c__DisplayClass25_0 <>8__1
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*& dyn_$$8__1();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x142C3D4
+    // Offset: 0x1431028
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x142C43C
+    // Offset: 0x1431090
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x142B6E4
+    // Offset: 0x1430338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$PhaseRoutine$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$PhaseRoutine$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x142BE34
+    // Offset: 0x1430A88
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x142BE38
+    // Offset: 0x1430A8C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x142C3DC
+    // Offset: 0x1431030
     void System_Collections_IEnumerator_Reset();
   }; // MultiplayerIntroCountdown/<PhaseRoutine>d__25
   #pragma pack(pop)

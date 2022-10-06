@@ -70,41 +70,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didResumeEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didResumeEvent();
     // public System.Boolean get_isPaused()
-    // Offset: 0x13E9F2C
+    // Offset: 0x14011B8
     bool get_isPaused();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x13E9F34
+    // Offset: 0x14011C0
     void add_didPauseEvent(::System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x13E9FD8
+    // Offset: 0x1401264
     void remove_didPauseEvent(::System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x13EA07C
+    // Offset: 0x1401308
     void add_willResumeEvent(::System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x13EA120
+    // Offset: 0x14013AC
     void remove_willResumeEvent(::System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x13EA1C4
+    // Offset: 0x1401450
     void add_didResumeEvent(::System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x13EA268
+    // Offset: 0x14014F4
     void remove_didResumeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13EA42C
+    // Offset: 0x14016B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPause* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPause*, creationType>()));
     }
     // public System.Void Pause()
-    // Offset: 0x13EA30C
+    // Offset: 0x1401598
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x13EA36C
+    // Offset: 0x14015F8
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x13EA3CC
+    // Offset: 0x1401658
     void Resume();
   }; // MockPause
   #pragma pack(pop)

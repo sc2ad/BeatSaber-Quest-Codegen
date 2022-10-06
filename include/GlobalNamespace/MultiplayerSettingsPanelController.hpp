@@ -140,44 +140,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13B7BC0
+    // Offset: 0x13E5AD0
     void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13B7C64
+    // Offset: 0x13E5B74
     void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x13B7FE8
+    // Offset: 0x13E5EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSettingsPanelController*, creationType>()));
     }
     // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x13B7D08
+    // Offset: 0x13E5C18
     void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x13B7E40
+    // Offset: 0x13E5D50
     void HideConnectionSettings(bool hide);
     // public System.Void HideSpectateSettings(System.Boolean hide)
-    // Offset: 0x13B7E64
+    // Offset: 0x13E5D74
     void HideSpectateSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x13B7E88
+    // Offset: 0x13E5D98
     void SetLobbyCode(::StringW code);
     // protected System.Void Awake()
-    // Offset: 0x13B7EA4
+    // Offset: 0x13E5DB4
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x13B7F5C
+    // Offset: 0x13E5E6C
     void OnDestroy();
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x13B7F70
+    // Offset: 0x13E5E80
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // public System.Void Refresh()
-    // Offset: 0x13B7D14
+    // Offset: 0x13E5C24
     void Refresh();
     // private System.Void <Awake>b__14_0(System.Boolean on)
-    // Offset: 0x13B7FF0
+    // Offset: 0x13E5F00
     void $Awake$b__14_0(bool on);
   }; // MultiplayerSettingsPanelController
   #pragma pack(pop)

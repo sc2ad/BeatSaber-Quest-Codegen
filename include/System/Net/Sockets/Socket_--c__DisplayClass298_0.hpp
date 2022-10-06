@@ -65,14 +65,14 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.IntPtr handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_handle();
     // public System.Void .ctor()
-    // Offset: 0x1B56BAC
+    // Offset: 0x1B479D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c__DisplayClass298_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c__DisplayClass298_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c__DisplayClass298_0*, creationType>()));
     }
     // System.Void <QueueIOSelectorJob>b__0(System.Threading.Tasks.Task t)
-    // Offset: 0x1B56BB4
+    // Offset: 0x1B479E0
     void $QueueIOSelectorJob$b__0(::System::Threading::Tasks::Task* t);
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c__DisplayClass298_0
   #pragma pack(pop)

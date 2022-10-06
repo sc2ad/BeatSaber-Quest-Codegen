@@ -141,50 +141,50 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.CVRTrackedCamera m_pVRTrackedCamera
     [[deprecated("Use field access instead!")]] ::Valve::VR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
     // public System.Void .ctor()
-    // Offset: 0x2AD2CE4
+    // Offset: 0x2AFC288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR::COpenVRContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::OpenVR::COpenVRContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
     // public System.Void Clear()
-    // Offset: 0x2AD2D14
+    // Offset: 0x2AFC2B8
     void Clear();
     // private System.Void CheckClear()
-    // Offset: 0x2AD2D34
+    // Offset: 0x2AFC2D8
     void CheckClear();
     // public Valve.VR.CVRSystem VRSystem()
-    // Offset: 0x2AD2E70
+    // Offset: 0x2AFC414
     ::Valve::VR::CVRSystem* VRSystem();
     // public Valve.VR.CVRChaperone VRChaperone()
-    // Offset: 0x2AD2FD8
+    // Offset: 0x2AFC57C
     ::Valve::VR::CVRChaperone* VRChaperone();
     // public Valve.VR.CVRChaperoneSetup VRChaperoneSetup()
-    // Offset: 0x2AD3098
+    // Offset: 0x2AFC63C
     ::Valve::VR::CVRChaperoneSetup* VRChaperoneSetup();
     // public Valve.VR.CVRCompositor VRCompositor()
-    // Offset: 0x2AD3158
+    // Offset: 0x2AFC6FC
     ::Valve::VR::CVRCompositor* VRCompositor();
     // public Valve.VR.CVROverlay VROverlay()
-    // Offset: 0x2AD3218
+    // Offset: 0x2AFC7BC
     ::Valve::VR::CVROverlay* VROverlay();
     // public Valve.VR.CVRRenderModels VRRenderModels()
-    // Offset: 0x2AD32D8
+    // Offset: 0x2AFC87C
     ::Valve::VR::CVRRenderModels* VRRenderModels();
     // public Valve.VR.CVRExtendedDisplay VRExtendedDisplay()
-    // Offset: 0x2AD3398
+    // Offset: 0x2AFC93C
     ::Valve::VR::CVRExtendedDisplay* VRExtendedDisplay();
     // public Valve.VR.CVRSettings VRSettings()
-    // Offset: 0x2AD3458
+    // Offset: 0x2AFC9FC
     ::Valve::VR::CVRSettings* VRSettings();
     // public Valve.VR.CVRApplications VRApplications()
-    // Offset: 0x2AD3518
+    // Offset: 0x2AFCABC
     ::Valve::VR::CVRApplications* VRApplications();
     // public Valve.VR.CVRScreenshots VRScreenshots()
-    // Offset: 0x2AD35D8
+    // Offset: 0x2AFCB7C
     ::Valve::VR::CVRScreenshots* VRScreenshots();
     // public Valve.VR.CVRTrackedCamera VRTrackedCamera()
-    // Offset: 0x2AD3698
+    // Offset: 0x2AFCC3C
     ::Valve::VR::CVRTrackedCamera* VRTrackedCamera();
   }; // Valve.VR.OpenVR/Valve.VR.COpenVRContext
   #pragma pack(pop)

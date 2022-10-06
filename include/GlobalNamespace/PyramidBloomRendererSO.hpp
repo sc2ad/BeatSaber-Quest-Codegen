@@ -122,32 +122,42 @@ namespace GlobalNamespace {
     static int _get_kMaxPyramidSize();
     // Set static field: static private System.Int32 kMaxPyramidSize
     static void _set_kMaxPyramidSize(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD1F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4EE8
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD208
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4EF8
     // Get static field: static private readonly System.Int32 _globalIntensityTex
     static int _get__globalIntensityTex();
     // Set static field: static private readonly System.Int32 _globalIntensityTex
     static void _set__globalIntensityTex(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD218
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F08
+    // Get static field: static private readonly System.Int32 _brightnessID
+    static int _get__brightnessID();
+    // Set static field: static private readonly System.Int32 _brightnessID
+    static void _set__brightnessID(int value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F18
+    // Get static field: static private readonly System.Int32 _autoExposureIntensityID
+    static int _get__autoExposureIntensityID();
+    // Set static field: static private readonly System.Int32 _autoExposureIntensityID
+    static void _set__autoExposureIntensityID(int value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F28
     // Get static field: static private readonly System.Int32 _sampleScaleID
     static int _get__sampleScaleID();
     // Set static field: static private readonly System.Int32 _sampleScaleID
     static void _set__sampleScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD228
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F38
     // Get static field: static private readonly System.Int32 _combineSrcID
     static int _get__combineSrcID();
     // Set static field: static private readonly System.Int32 _combineSrcID
     static void _set__combineSrcID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD238
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F48
     // Get static field: static private readonly System.Int32 _combineDstID
     static int _get__combineDstID();
     // Set static field: static private readonly System.Int32 _combineDstID
     static void _set__combineDstID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CD248
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E4F58
     // Get static field: static private readonly System.Int32 _alphaWeightsID
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
@@ -161,26 +171,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x1E77E80
+    // Offset: 0x1D08A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PyramidBloomRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PyramidBloomRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PyramidBloomRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E77E88
+    // Offset: 0x1D08A48
     static void _cctor();
     // protected System.Void OnDisable()
-    // Offset: 0x1E77518
+    // Offset: 0x1D08080
     void OnDisable();
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Boolean alphaWeights, System.Boolean betterQuality, System.Boolean gammaCorrection)
-    // Offset: 0x1E77548
+    // Offset: 0x1D080B0
     void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float radius, bool alphaWeights, bool betterQuality, bool gammaCorrection);
-    // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Single intensity, System.Single downIntensityOffset, System.Boolean uniformPyramidWeights, System.Boolean downsampleOnFirstPass, System.Single pyramidWeightsParam, System.Single alphaWeights, System.Single firstUpsampleBrightness, System.Single finalUpsampleBrightness, PyramidBloomRendererSO/Pass preFilterPass, PyramidBloomRendererSO/Pass downsamplePass, PyramidBloomRendererSO/Pass upsamplePass, PyramidBloomRendererSO/Pass finalUpsamplePass)
-    // Offset: 0x1E775C4
-    void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float radius, float intensity, float downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float pyramidWeightsParam, float alphaWeights, float firstUpsampleBrightness, float finalUpsampleBrightness, ::GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass, ::GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass);
+    // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Single intensity, System.Single fogBrightness, System.Single autoExposureIntensity, System.Single downIntensityOffset, System.Boolean uniformPyramidWeights, System.Boolean downsampleOnFirstPass, System.Single pyramidWeightsParam, System.Single alphaWeights, System.Single firstUpsampleBrightness, System.Single finalUpsampleBrightness, PyramidBloomRendererSO/Pass preFilterPass, PyramidBloomRendererSO/Pass downsamplePass, PyramidBloomRendererSO/Pass upsamplePass, PyramidBloomRendererSO/Pass finalUpsamplePass)
+    // Offset: 0x1D0813C
+    void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float radius, float intensity, float fogBrightness, float autoExposureIntensity, float downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float pyramidWeightsParam, float alphaWeights, float firstUpsampleBrightness, float finalUpsampleBrightness, ::GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass, ::GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass);
     // protected override System.Void OnEnable()
-    // Offset: 0x1E773E0
+    // Offset: 0x1D07F48
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -229,12 +239,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::RenderBloom
 // Il2CppName: RenderBloom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomRendererSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float, float, float, bool, bool, float, float, float, float, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass)>(&GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomRendererSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float, float, float, float, float, bool, bool, float, float, float, float, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass, ::GlobalNamespace::PyramidBloomRendererSO::Pass)>(&GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* intensity = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fogBrightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* autoExposureIntensity = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* downIntensityOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* uniformPyramidWeights = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* downsampleOnFirstPass = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -246,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* downsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
     static auto* upsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
     static auto* finalUpsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, radius, intensity, downIntensityOffset, uniformPyramidWeights, downsampleOnFirstPass, pyramidWeightsParam, alphaWeights, firstUpsampleBrightness, finalUpsampleBrightness, preFilterPass, downsamplePass, upsamplePass, finalUpsamplePass});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, radius, intensity, fogBrightness, autoExposureIntensity, downIntensityOffset, uniformPyramidWeights, downsampleOnFirstPass, pyramidWeightsParam, alphaWeights, firstUpsampleBrightness, finalUpsampleBrightness, preFilterPass, downsamplePass, upsamplePass, finalUpsamplePass});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::OnEnable

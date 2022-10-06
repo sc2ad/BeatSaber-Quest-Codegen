@@ -56,47 +56,47 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2AA9F1C
+    // Offset: 0x2AD24C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RichPresenceOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::RichPresenceOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceOptions*, creationType>()));
     }
     // public System.Void SetApiName(System.String value)
-    // Offset: 0x2AA9F94
+    // Offset: 0x2AD2538
     void SetApiName(::StringW value);
     // public System.Void SetCurrentCapacity(System.UInt32 value)
-    // Offset: 0x2AAA010
+    // Offset: 0x2AD25B4
     void SetCurrentCapacity(uint value);
     // public System.Void SetDeeplinkMessageOverride(System.String value)
-    // Offset: 0x2AAA08C
+    // Offset: 0x2AD2630
     void SetDeeplinkMessageOverride(::StringW value);
     // public System.Void SetEndTime(System.DateTime value)
-    // Offset: 0x2AAA108
+    // Offset: 0x2AD26AC
     void SetEndTime(::System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x2AAA184
+    // Offset: 0x2AD2728
     void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetInstanceId(System.String value)
-    // Offset: 0x2AAA200
+    // Offset: 0x2AD27A4
     void SetInstanceId(::StringW value);
     // public System.Void SetIsIdle(System.Boolean value)
-    // Offset: 0x2AAA27C
+    // Offset: 0x2AD2820
     void SetIsIdle(bool value);
     // public System.Void SetIsJoinable(System.Boolean value)
-    // Offset: 0x2AAA2F8
+    // Offset: 0x2AD289C
     void SetIsJoinable(bool value);
     // public System.Void SetMaxCapacity(System.UInt32 value)
-    // Offset: 0x2AAA374
+    // Offset: 0x2AD2918
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
-    // Offset: 0x2AAA3F0
+    // Offset: 0x2AD2994
     void SetStartTime(::System::DateTime value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
-    // Offset: 0x2AA9D50
+    // Offset: 0x2AD22F4
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2AAA46C
+    // Offset: 0x2AD2A10
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class GaussianSeparableBlurRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1E6E460
+    // Offset: 0x1CFEC08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GaussianSeparableBlurRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GaussianSeparableBlurRendererSO::.ctor");

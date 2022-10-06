@@ -67,16 +67,16 @@ namespace HMUI {
     // Get instance field reference: private HMUI.HoverHint _hoverHint
     [[deprecated("Use field access instead!")]] ::HMUI::HoverHint*& dyn__hoverHint();
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x16D31D4
+    // Offset: 0x16DA45C
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x16D31B8
+    // Offset: 0x16DA440
     void set_sprite(::UnityEngine::Sprite* value);
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x16D31F0
+    // Offset: 0x16DA478
     void set_hintText(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x16D320C
+    // Offset: 0x16DA494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageWithHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ImageWithHint::.ctor");

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* contentTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F4A90
+    // [SpaceAttribute] Offset: 0x110C2CC
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x28
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EaseType easeType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0x10F4AD8
+    // [InjectAttribute] Offset: 0x110C314
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
@@ -135,56 +135,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Vector2Tween _contentPositionTween
     [[deprecated("Use field access instead!")]] ::Tweening::Vector2Tween*& dyn__contentPositionTween();
     // public System.Void .ctor()
-    // Offset: 0x151AA7C
+    // Offset: 0x1531F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsGridViewAnimator*, creationType>()));
     }
     // public System.Void Init(System.Single rowHeight, System.Int32 rowCount)
-    // Offset: 0x1518F40
+    // Offset: 0x1530450
     void Init(float rowHeight, int rowCount);
     // protected System.Void OnDestroy()
-    // Offset: 0x151A994
+    // Offset: 0x1531EA4
     void OnDestroy();
     // public System.Void ScrollToRowIdxInstant(System.Int32 selectedRow)
-    // Offset: 0x15198B4
+    // Offset: 0x1530DC4
     void ScrollToRowIdxInstant(int selectedRow);
     // public System.Void AnimateOpen(System.Boolean animated)
-    // Offset: 0x1519978
+    // Offset: 0x1530E88
     void AnimateOpen(bool animated);
     // public System.Void AnimateClose(System.Int32 selectedRow, System.Boolean animated)
-    // Offset: 0x1519D34
+    // Offset: 0x1531244
     void AnimateClose(int selectedRow, bool animated);
     // private System.Void DespawnAllActiveTweens()
-    // Offset: 0x151A998
+    // Offset: 0x1531EA8
     void DespawnAllActiveTweens();
     // private System.Single GetContentYOffset()
-    // Offset: 0x151A968
+    // Offset: 0x1531E78
     float GetContentYOffset();
     // private System.Void <AnimateOpen>b__13_0(UnityEngine.Vector2 size)
-    // Offset: 0x151AA94
+    // Offset: 0x1531FA4
     void $AnimateOpen$b__13_0(::UnityEngine::Vector2 size);
     // private System.Void <AnimateOpen>b__13_1()
-    // Offset: 0x151AAB0
+    // Offset: 0x1531FC0
     void $AnimateOpen$b__13_1();
     // private System.Void <AnimateOpen>b__13_2(UnityEngine.Vector2 pos)
-    // Offset: 0x151AB3C
+    // Offset: 0x153204C
     void $AnimateOpen$b__13_2(::UnityEngine::Vector2 pos);
     // private System.Void <AnimateOpen>b__13_3()
-    // Offset: 0x151AB58
+    // Offset: 0x1532068
     void $AnimateOpen$b__13_3();
     // private System.Void <AnimateClose>b__14_0(UnityEngine.Vector2 size)
-    // Offset: 0x151ABE4
+    // Offset: 0x15320F4
     void $AnimateClose$b__14_0(::UnityEngine::Vector2 size);
     // private System.Void <AnimateClose>b__14_1()
-    // Offset: 0x151AC00
+    // Offset: 0x1532110
     void $AnimateClose$b__14_1();
     // private System.Void <AnimateClose>b__14_2(UnityEngine.Vector2 pos)
-    // Offset: 0x151AC8C
+    // Offset: 0x153219C
     void $AnimateClose$b__14_2(::UnityEngine::Vector2 pos);
     // private System.Void <AnimateClose>b__14_3()
-    // Offset: 0x151ACA8
+    // Offset: 0x15321B8
     void $AnimateClose$b__14_3();
   }; // AnnotatedBeatmapLevelCollectionsGridViewAnimator
   #pragma pack(pop)

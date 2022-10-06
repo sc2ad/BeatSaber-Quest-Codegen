@@ -43,17 +43,17 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>,System.Boolean> <>9__26_0
     static void _set_$$9__26_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, int>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x299975C
+    // Offset: 0x29D574C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x29997C0
+    // Offset: 0x29D57B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedVertex::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SharedVertex::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedVertex::$$c*, creationType>()));
     }
     // System.Boolean <SortedRemoveAndShift>b__26_0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x29997C8
+    // Offset: 0x29D57B8
     bool $SortedRemoveAndShift$b__26_0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
   }; // UnityEngine.ProBuilder.SharedVertex/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

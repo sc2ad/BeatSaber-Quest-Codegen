@@ -62,10 +62,10 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Object> m_serializedStates
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_m_serializedStates();
     // System.Collections.Generic.IList`1<System.Object> get_SerializedStates()
-    // Offset: 0x1636BB0
+    // Offset: 0x167598C
     ::System::Collections::Generic::IList_1<::Il2CppObject*>* get_SerializedStates();
     // System.Void .ctor(System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1636B08
+    // Offset: 0x16758E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeSerializationEventArgs* New_ctor(::System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SafeSerializationEventArgs::.ctor");

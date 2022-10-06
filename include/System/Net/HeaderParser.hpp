@@ -40,20 +40,20 @@ namespace System::Net {
   class HeaderParser : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AAA7B8
+    // Offset: 0x1A9AA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderParser* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderParser*, creationType>(object, method)));
     }
     // public System.String[] Invoke(System.String value)
-    // Offset: 0x1AAA7C8
+    // Offset: 0x1A9AA38
     ::ArrayW<::StringW> Invoke(::StringW value);
     // public System.IAsyncResult BeginInvoke(System.String value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AAAB64
+    // Offset: 0x1A9ADD4
     ::System::IAsyncResult* BeginInvoke(::StringW value, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String[] EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AAAB88
+    // Offset: 0x1A9ADF8
     ::ArrayW<::StringW> EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.HeaderParser
   #pragma pack(pop)

@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class CloudStorageMetadataList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CloudStorageMetadata*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x19EF744
+    // Offset: 0x19F6088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageMetadataList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageMetadataList::.ctor");

@@ -233,68 +233,68 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean force_close_chunked
     [[deprecated("Use field access instead!")]] bool& dyn_force_close_chunked();
     // System.Boolean get_ForceCloseChunked()
-    // Offset: 0x1AB4040
+    // Offset: 0x1AA42B0
     bool get_ForceCloseChunked();
     // public System.Text.Encoding get_ContentEncoding()
-    // Offset: 0x1AADE84
+    // Offset: 0x1A9E0F4
     ::System::Text::Encoding* get_ContentEncoding();
     // public System.Void set_ContentLength64(System.Int64 value)
-    // Offset: 0x1AB4048
+    // Offset: 0x1AA42B8
     void set_ContentLength64(int64_t value);
     // public System.Void set_ContentType(System.String value)
-    // Offset: 0x1AADA64
+    // Offset: 0x1A9DCD4
     void set_ContentType(::StringW value);
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1AB4188
+    // Offset: 0x1AA43F8
     ::System::Net::WebHeaderCollection* get_Headers();
     // public System.IO.Stream get_OutputStream()
-    // Offset: 0x1AB4190
+    // Offset: 0x1AA4400
     ::System::IO::Stream* get_OutputStream();
     // public System.Boolean get_SendChunked()
-    // Offset: 0x1AB41D0
+    // Offset: 0x1AA4440
     bool get_SendChunked();
     // public System.Void set_SendChunked(System.Boolean value)
-    // Offset: 0x1AAB598
+    // Offset: 0x1A9B808
     void set_SendChunked(bool value);
     // public System.Void set_StatusCode(System.Int32 value)
-    // Offset: 0x1AAD924
+    // Offset: 0x1A9DB94
     void set_StatusCode(int value);
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1AB0EB0
+    // Offset: 0x1AA1120
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerResponse* New_ctor(::System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerResponse*, creationType>(context)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AB5138
+    // Offset: 0x1AA53A8
     static void _cctor();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1AB41D8
+    // Offset: 0x1AA4448
     void System_IDisposable_Dispose();
     // private System.Void Close(System.Boolean force)
-    // Offset: 0x1AB41E0
+    // Offset: 0x1AA4450
     void Close(bool force);
     // public System.Void Close()
-    // Offset: 0x1AB4210
+    // Offset: 0x1AA4480
     void Close();
     // public System.Void Close(System.Byte[] responseEntity, System.Boolean willBlock)
-    // Offset: 0x1AADEB0
+    // Offset: 0x1A9E120
     void Close(::ArrayW<uint8_t> responseEntity, bool willBlock);
     // System.Void SendHeaders(System.Boolean closing, System.IO.MemoryStream ms)
-    // Offset: 0x1AB4224
+    // Offset: 0x1AA4494
     void SendHeaders(bool closing, ::System::IO::MemoryStream* ms);
     // static private System.String FormatHeaders(System.Net.WebHeaderCollection headers)
-    // Offset: 0x1AB4D24
+    // Offset: 0x1AA4F94
     static ::StringW FormatHeaders(::System::Net::WebHeaderCollection* headers);
     // static private System.String CookieToClientString(System.Net.Cookie cookie)
-    // Offset: 0x1AB4AC4
+    // Offset: 0x1AA4D34
     static ::StringW CookieToClientString(::System::Net::Cookie* cookie);
     // static private System.String QuotedString(System.Net.Cookie cookie, System.String value)
-    // Offset: 0x1AB4F7C
+    // Offset: 0x1AA51EC
     static ::StringW QuotedString(::System::Net::Cookie* cookie, ::StringW value);
     // static private System.Boolean IsToken(System.String value)
-    // Offset: 0x1AB5050
+    // Offset: 0x1AA52C0
     static bool IsToken(::StringW value);
   }; // System.Net.HttpListenerResponse
   #pragma pack(pop)

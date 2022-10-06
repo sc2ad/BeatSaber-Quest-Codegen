@@ -64,29 +64,29 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Xml.Linq.XDeclaration <Declaration>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XDeclaration*& dyn_$Declaration$k__BackingField();
     // System.Xml.Linq.XDeclaration get_Declaration()
-    // Offset: 0x17D1978
+    // Offset: 0x17E5380
     ::System::Xml::Linq::XDeclaration* get_Declaration();
     // private System.Void set_Declaration(System.Xml.Linq.XDeclaration value)
-    // Offset: 0x17D1980
+    // Offset: 0x17E5388
     void set_Declaration(::System::Xml::Linq::XDeclaration* value);
     // public System.String get_Version()
-    // Offset: 0x17D1A0C
+    // Offset: 0x17E5414
     ::StringW get_Version();
     // public System.String get_Encoding()
-    // Offset: 0x17D1A28
+    // Offset: 0x17E5430
     ::StringW get_Encoding();
     // public System.String get_Standalone()
-    // Offset: 0x17D1A44
+    // Offset: 0x17E544C
     ::StringW get_Standalone();
     // public System.Void .ctor(System.Xml.Linq.XDeclaration declaration)
-    // Offset: 0x17D1988
+    // Offset: 0x17E5390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDeclarationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclarationWrapper*, creationType>(declaration)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x17D1A04
+    // Offset: 0x17E540C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Xml.XmlNodeType XObjectWrapper::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();

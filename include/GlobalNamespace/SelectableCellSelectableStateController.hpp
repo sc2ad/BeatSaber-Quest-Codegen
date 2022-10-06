@@ -36,25 +36,25 @@ namespace GlobalNamespace {
   class SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::SelectableCell*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x13BD60C
+    // Offset: 0x13C1510
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13BD738
+    // Offset: 0x13C163C
     void OnDisable();
     // private System.Void HandleSelectableCellInteractableDidChange(HMUI.Interactable interactableCell, System.Boolean interactable)
-    // Offset: 0x13BD864
+    // Offset: 0x13C1768
     void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
     // private System.Void HandleSelectableCellHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13BD948
+    // Offset: 0x13C184C
     void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void HandleSelectableCellSelectionStateDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object owner)
-    // Offset: 0x13BD94C
+    // Offset: 0x13C1850
     void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* owner);
     // private System.Void ResolveState(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13BD8FC
+    // Offset: 0x13C1800
     void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x13BD9D0
+    // Offset: 0x13C18D4
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()

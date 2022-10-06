@@ -702,16 +702,16 @@ namespace System::Xml {
       // Get instance field reference: System.Boolean entityResolvedManually
       [[deprecated("Use field access instead!")]] bool& dyn_entityResolvedManually();
       // System.Int32 get_LineNo()
-      // Offset: 0x277D858
+      // Offset: 0x27AA5F0
       int get_LineNo();
       // System.Int32 get_LinePos()
-      // Offset: 0x277D860
+      // Offset: 0x27AA5F8
       int get_LinePos();
       // System.Void Clear()
-      // Offset: 0x277D79C
+      // Offset: 0x27AA534
       void Clear();
       // System.Void Close(System.Boolean closeInput)
-      // Offset: 0x277D820
+      // Offset: 0x27AA5B8
       void Close(bool closeInput);
     }; // System.Xml.XmlTextReaderImpl/System.Xml.ParsingState
     #pragma pack(pop)
@@ -1372,734 +1372,734 @@ namespace System::Xml {
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Tuple`4<System.Int32,System.Int32,System.Int32,System.Boolean>> parseText_dummyTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::System::Tuple_4<int, int, int, bool>*>*& dyn_parseText_dummyTask();
     // System.Void set_OuterReader(System.Xml.XmlReader value)
-    // Offset: 0x15E6788
+    // Offset: 0x15FDB08
     void set_OuterReader(::System::Xml::XmlReader* value);
     // System.Void set_Namespaces(System.Boolean value)
-    // Offset: 0x15D88D4
+    // Offset: 0x15EFC54
     void set_Namespaces(bool value);
     // System.Void set_EntityHandling(System.Xml.EntityHandling value)
-    // Offset: 0x15E201C
+    // Offset: 0x15F939C
     void set_EntityHandling(::System::Xml::EntityHandling value);
     // System.Void set_XmlResolver(System.Xml.XmlResolver value)
-    // Offset: 0x15D8A88
+    // Offset: 0x15EFE08
     void set_XmlResolver(::System::Xml::XmlResolver* value);
     // System.Xml.XmlNameTable get_DtdParserProxy_NameTable()
-    // Offset: 0x15E67C4
+    // Offset: 0x15FDB44
     ::System::Xml::XmlNameTable* get_DtdParserProxy_NameTable();
     // System.Xml.IXmlNamespaceResolver get_DtdParserProxy_NamespaceResolver()
-    // Offset: 0x15E67CC
+    // Offset: 0x15FDB4C
     ::System::Xml::IXmlNamespaceResolver* get_DtdParserProxy_NamespaceResolver();
     // System.Boolean get_DtdParserProxy_DtdValidation()
-    // Offset: 0x15E67D4
+    // Offset: 0x15FDB54
     bool get_DtdParserProxy_DtdValidation();
     // System.Boolean get_DtdParserProxy_Normalization()
-    // Offset: 0x15E67F4
+    // Offset: 0x15FDB74
     bool get_DtdParserProxy_Normalization();
     // System.Boolean get_DtdParserProxy_Namespaces()
-    // Offset: 0x15E67FC
+    // Offset: 0x15FDB7C
     bool get_DtdParserProxy_Namespaces();
     // System.Boolean get_DtdParserProxy_V1CompatibilityMode()
-    // Offset: 0x15E6804
+    // Offset: 0x15FDB84
     bool get_DtdParserProxy_V1CompatibilityMode();
     // System.Uri get_DtdParserProxy_BaseUri()
-    // Offset: 0x15E680C
+    // Offset: 0x15FDB8C
     ::System::Uri* get_DtdParserProxy_BaseUri();
     // System.Boolean get_DtdParserProxy_IsEof()
-    // Offset: 0x15E68C0
+    // Offset: 0x15FDC40
     bool get_DtdParserProxy_IsEof();
     // System.Char[] get_DtdParserProxy_ParsingBuffer()
-    // Offset: 0x15E68C8
+    // Offset: 0x15FDC48
     ::ArrayW<::Il2CppChar> get_DtdParserProxy_ParsingBuffer();
     // System.Int32 get_DtdParserProxy_ParsingBufferLength()
-    // Offset: 0x15E68D0
+    // Offset: 0x15FDC50
     int get_DtdParserProxy_ParsingBufferLength();
     // System.Int32 get_DtdParserProxy_CurrentPosition()
-    // Offset: 0x15E68D8
+    // Offset: 0x15FDC58
     int get_DtdParserProxy_CurrentPosition();
     // System.Void set_DtdParserProxy_CurrentPosition(System.Int32 value)
-    // Offset: 0x15E68E0
+    // Offset: 0x15FDC60
     void set_DtdParserProxy_CurrentPosition(int value);
     // System.Int32 get_DtdParserProxy_EntityStackLength()
-    // Offset: 0x15E68E8
+    // Offset: 0x15FDC68
     int get_DtdParserProxy_EntityStackLength();
     // System.Boolean get_DtdParserProxy_IsEntityEolNormalized()
-    // Offset: 0x15E68F4
+    // Offset: 0x15FDC74
     bool get_DtdParserProxy_IsEntityEolNormalized();
     // System.Xml.IValidationEventHandling get_DtdParserProxy_ValidationEventHandling()
-    // Offset: 0x15E68FC
+    // Offset: 0x15FDC7C
     ::System::Xml::IValidationEventHandling* get_DtdParserProxy_ValidationEventHandling();
     // System.Int32 get_DtdParserProxy_LineNo()
-    // Offset: 0x15E692C
+    // Offset: 0x15FDCAC
     int get_DtdParserProxy_LineNo();
     // System.Int32 get_DtdParserProxy_LineStartPosition()
-    // Offset: 0x15E6934
+    // Offset: 0x15FDCB4
     int get_DtdParserProxy_LineStartPosition();
     // private System.Boolean get_IsResolverNull()
-    // Offset: 0x15E7654
+    // Offset: 0x15FE9D4
     bool get_IsResolverNull();
     // private System.Boolean get_InAttributeValueIterator()
-    // Offset: 0x15E3590
+    // Offset: 0x15FA910
     bool get_InAttributeValueIterator();
     // private System.Boolean get_DtdValidation()
-    // Offset: 0x15E67E4
+    // Offset: 0x15FDB64
     bool get_DtdValidation();
     // private System.Boolean get_InEntity()
-    // Offset: 0x15EA104
+    // Offset: 0x1601484
     bool get_InEntity();
     // System.Void set_XmlValidatingReaderCompatibilityMode(System.Boolean value)
-    // Offset: 0x15D9B80
+    // Offset: 0x15F0F00
     void set_XmlValidatingReaderCompatibilityMode(bool value);
     // System.Void set_DisableUndeclaredEntityCheck(System.Boolean value)
-    // Offset: 0x15F291C
+    // Offset: 0x1609C9C
     void set_DisableUndeclaredEntityCheck(bool value);
     // System.Void .ctor(System.Xml.XmlNameTable nt)
-    // Offset: 0x15E2128
+    // Offset: 0x15F94A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl* New_ctor(::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl*, creationType>(nt)));
     }
     // System.Void .ctor(System.IO.TextReader input, System.Xml.XmlNameTable nt)
-    // Offset: 0x15E1C48
+    // Offset: 0x15F8FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl* New_ctor(::System::IO::TextReader* input, ::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl*, creationType>(input, nt)));
     }
     // System.Void .ctor(System.String url, System.IO.TextReader input, System.Xml.XmlNameTable nt)
-    // Offset: 0x15E2418
+    // Offset: 0x15F9798
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl* New_ctor(::StringW url, ::System::IO::TextReader* input, ::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl*, creationType>(url, input, nt)));
     }
     // System.Void .ctor(System.String xmlFragment, System.Xml.XmlNodeType fragType, System.Xml.XmlParserContext context)
-    // Offset: 0x15D87C0
+    // Offset: 0x15EFB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl* New_ctor(::StringW xmlFragment, ::System::Xml::XmlNodeType fragType, ::System::Xml::XmlParserContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl*, creationType>(xmlFragment, fragType, context)));
     }
     // System.Void .ctor(System.String xmlFragment, System.Xml.XmlParserContext context)
-    // Offset: 0x15D9D9C
+    // Offset: 0x15F111C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl* New_ctor(::StringW xmlFragment, ::System::Xml::XmlParserContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl*, creationType>(xmlFragment, context)));
     }
     // private System.Void FinishInitUriString()
-    // Offset: 0x15E27CC
+    // Offset: 0x15F9B4C
     void FinishInitUriString();
     // private System.Void FinishInitStream()
-    // Offset: 0x15E2D9C
+    // Offset: 0x15FA11C
     void FinishInitStream();
     // private System.Void FinishInitTextReader()
-    // Offset: 0x15E2E24
+    // Offset: 0x15FA1A4
     void FinishInitTextReader();
     // private System.Void FinishInit()
-    // Offset: 0x15E3824
+    // Offset: 0x15FABA4
     void FinishInit();
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x15E6790
+    // Offset: 0x15FDB10
     ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x15E67A0
+    // Offset: 0x15FDB20
     ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
     // System.String LookupPrefix(System.String namespaceName)
-    // Offset: 0x15E1FE0
+    // Offset: 0x15F9360
     ::StringW LookupPrefix(::StringW namespaceName);
     // System.Void DtdParserProxy_OnNewLine(System.Int32 pos)
-    // Offset: 0x15E6904
+    // Offset: 0x15FDC84
     void DtdParserProxy_OnNewLine(int pos);
     // System.Int32 DtdParserProxy_ReadData()
-    // Offset: 0x15E693C
+    // Offset: 0x15FDCBC
     int DtdParserProxy_ReadData();
     // System.Int32 DtdParserProxy_ParseNumericCharRef(System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x15E6D88
+    // Offset: 0x15FE108
     int DtdParserProxy_ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
     // System.Int32 DtdParserProxy_ParseNamedCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x15E6E68
+    // Offset: 0x15FE1E8
     int DtdParserProxy_ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // System.Void DtdParserProxy_ParsePI(System.Text.StringBuilder sb)
-    // Offset: 0x15E6EE0
+    // Offset: 0x15FE260
     void DtdParserProxy_ParsePI(::System::Text::StringBuilder* sb);
     // System.Void DtdParserProxy_ParseComment(System.Text.StringBuilder sb)
-    // Offset: 0x15E729C
+    // Offset: 0x15FE61C
     void DtdParserProxy_ParseComment(::System::Text::StringBuilder* sb);
     // private System.Xml.XmlResolver GetTempResolver()
-    // Offset: 0x15E76A0
+    // Offset: 0x15FEA20
     ::System::Xml::XmlResolver* GetTempResolver();
     // System.Boolean DtdParserProxy_PushEntity(System.Xml.IDtdEntityInfo entity, out System.Int32 entityId)
-    // Offset: 0x15E7708
+    // Offset: 0x15FEA88
     bool DtdParserProxy_PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int> entityId);
     // System.Boolean DtdParserProxy_PopEntity(out System.Xml.IDtdEntityInfo oldEntity, out System.Int32 newEntityId)
-    // Offset: 0x15E7F44
+    // Offset: 0x15FF2C4
     bool DtdParserProxy_PopEntity(ByRef<::System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int> newEntityId);
     // System.Boolean DtdParserProxy_PushExternalSubset(System.String systemId, System.String publicId)
-    // Offset: 0x15E7FEC
+    // Offset: 0x15FF36C
     bool DtdParserProxy_PushExternalSubset(::StringW systemId, ::StringW publicId);
     // System.Void DtdParserProxy_PushInternalDtd(System.String baseUri, System.String internalDtd)
-    // Offset: 0x15E8720
+    // Offset: 0x15FFAA0
     void DtdParserProxy_PushInternalDtd(::StringW baseUri, ::StringW internalDtd);
     // System.Void DtdParserProxy_Throw(System.Exception e)
-    // Offset: 0x15E89B0
+    // Offset: 0x15FFD30
     void DtdParserProxy_Throw(::System::Exception* e);
     // System.Void DtdParserProxy_OnSystemId(System.String systemId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo systemLiteralLineInfo)
-    // Offset: 0x15E8A74
+    // Offset: 0x15FFDF4
     void DtdParserProxy_OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
     // System.Void DtdParserProxy_OnPublicId(System.String publicId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo publicLiteralLineInfo)
-    // Offset: 0x15E8B90
+    // Offset: 0x15FFF10
     void DtdParserProxy_OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
     // private System.Void Throw(System.Int32 pos, System.String res, System.String arg)
-    // Offset: 0x15E8C24
+    // Offset: 0x15FFFA4
     void Throw(int pos, ::StringW res, ::StringW arg);
     // private System.Void Throw(System.Int32 pos, System.String res, System.String[] args)
-    // Offset: 0x15E8CD8
+    // Offset: 0x1600058
     void Throw(int pos, ::StringW res, ::ArrayW<::StringW> args);
     // private System.Void Throw(System.Int32 pos, System.String res)
-    // Offset: 0x15E8D8C
+    // Offset: 0x160010C
     void Throw(int pos, ::StringW res);
     // private System.Void Throw(System.String res)
-    // Offset: 0x15E8DF0
+    // Offset: 0x1600170
     void Throw(::StringW res);
     // private System.Void Throw(System.String res, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x15E8E4C
+    // Offset: 0x16001CC
     void Throw(::StringW res, int lineNo, int linePos);
     // private System.Void Throw(System.String res, System.String arg)
-    // Offset: 0x15E8C3C
+    // Offset: 0x15FFFBC
     void Throw(::StringW res, ::StringW arg);
     // private System.Void Throw(System.String res, System.String arg, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x15E8EE8
+    // Offset: 0x1600268
     void Throw(::StringW res, ::StringW arg, int lineNo, int linePos);
     // private System.Void Throw(System.String res, System.String[] args)
-    // Offset: 0x15E8CF0
+    // Offset: 0x1600070
     void Throw(::StringW res, ::ArrayW<::StringW> args);
     // private System.Void Throw(System.String res, System.String arg, System.Exception innerException)
-    // Offset: 0x15E8F74
+    // Offset: 0x16002F4
     void Throw(::StringW res, ::StringW arg, ::System::Exception* innerException);
     // private System.Void Throw(System.String res, System.String[] args, System.Exception innerException)
-    // Offset: 0x15E9008
+    // Offset: 0x1600388
     void Throw(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException);
     // private System.Void Throw(System.Exception e)
-    // Offset: 0x15E89BC
+    // Offset: 0x15FFD3C
     void Throw(::System::Exception* e);
     // private System.Void ReThrow(System.Exception e, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x15E90C0
+    // Offset: 0x1600440
     void ReThrow(::System::Exception* e, int lineNo, int linePos);
     // private System.Void ThrowWithoutLineInfo(System.String res)
-    // Offset: 0x15E569C
+    // Offset: 0x15FCA1C
     void ThrowWithoutLineInfo(::StringW res);
     // private System.Void ThrowWithoutLineInfo(System.String res, System.String arg)
-    // Offset: 0x15E9164
+    // Offset: 0x16004E4
     void ThrowWithoutLineInfo(::StringW res, ::StringW arg);
     // private System.Void ThrowWithoutLineInfo(System.String res, System.String[] args, System.Exception innerException)
-    // Offset: 0x15E91DC
+    // Offset: 0x160055C
     void ThrowWithoutLineInfo(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException);
     // private System.Void ThrowInvalidChar(System.Char[] data, System.Int32 length, System.Int32 invCharPos)
-    // Offset: 0x15E9264
+    // Offset: 0x16005E4
     void ThrowInvalidChar(::ArrayW<::Il2CppChar> data, int length, int invCharPos);
     // private System.Void SetErrorState()
-    // Offset: 0x15E90AC
+    // Offset: 0x160042C
     void SetErrorState();
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSeverityType severity, System.String code, System.String arg, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x15E75A8
+    // Offset: 0x15FE928
     void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg, int lineNo, int linePos);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSeverityType severity, System.Xml.Schema.XmlSchemaException exception)
-    // Offset: 0x15E92D8
+    // Offset: 0x1600658
     void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::System::Xml::Schema::XmlSchemaException* exception);
     // private System.Void FinishAttributeValueIterator()
-    // Offset: 0x15E35B4
+    // Offset: 0x15FA934
     void FinishAttributeValueIterator();
     // private System.Void InitStreamInput(System.Uri baseUri, System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x15E94E4
+    // Offset: 0x1600864
     void InitStreamInput(::System::Uri* baseUri, ::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
     // private System.Void InitStreamInput(System.Uri baseUri, System.String baseUriStr, System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x15E9548
+    // Offset: 0x16008C8
     void InitStreamInput(::System::Uri* baseUri, ::StringW baseUriStr, ::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
     // private System.Void InitStreamInput(System.Uri baseUri, System.String baseUriStr, System.IO.Stream stream, System.Byte[] bytes, System.Int32 byteCount, System.Text.Encoding encoding)
-    // Offset: 0x15E2AB0
+    // Offset: 0x15F9E30
     void InitStreamInput(::System::Uri* baseUri, ::StringW baseUriStr, ::System::IO::Stream* stream, ::ArrayW<uint8_t> bytes, int byteCount, ::System::Text::Encoding* encoding);
     // private System.Void InitTextReaderInput(System.String baseUriStr, System.IO.TextReader input)
-    // Offset: 0x15E24D8
+    // Offset: 0x15F9858
     void InitTextReaderInput(::StringW baseUriStr, ::System::IO::TextReader* input);
     // private System.Void InitTextReaderInput(System.String baseUriStr, System.Uri baseUri, System.IO.TextReader input)
-    // Offset: 0x15E989C
+    // Offset: 0x1600C1C
     void InitTextReaderInput(::StringW baseUriStr, ::System::Uri* baseUri, ::System::IO::TextReader* input);
     // private System.Void InitStringInput(System.String baseUriStr, System.Text.Encoding originalEncoding, System.String str)
-    // Offset: 0x15E24E4
+    // Offset: 0x15F9864
     void InitStringInput(::StringW baseUriStr, ::System::Text::Encoding* originalEncoding, ::StringW str);
     // private System.Void InitFragmentReader(System.Xml.XmlNodeType fragmentType, System.Xml.XmlParserContext parserContext, System.Boolean allowXmlDeclFragment)
-    // Offset: 0x15E25C8
+    // Offset: 0x15F9948
     void InitFragmentReader(::System::Xml::XmlNodeType fragmentType, ::System::Xml::XmlParserContext* parserContext, bool allowXmlDeclFragment);
     // private System.Void ProcessDtdFromParserContext(System.Xml.XmlParserContext context)
-    // Offset: 0x15E2D28
+    // Offset: 0x15FA0A8
     void ProcessDtdFromParserContext(::System::Xml::XmlParserContext* context);
     // private System.Void OpenUrl()
-    // Offset: 0x15E43B0
+    // Offset: 0x15FB730
     void OpenUrl();
     // private System.Void OpenUrlDelegate(System.Object xmlResolver)
-    // Offset: 0x15E9B88
+    // Offset: 0x1600F08
     void OpenUrlDelegate(::Il2CppObject* xmlResolver);
     // private System.Text.Encoding DetectEncoding()
-    // Offset: 0x15E9558
+    // Offset: 0x16008D8
     ::System::Text::Encoding* DetectEncoding();
     // private System.Void SetupEncoding(System.Text.Encoding encoding)
-    // Offset: 0x15E9778
+    // Offset: 0x1600AF8
     void SetupEncoding(::System::Text::Encoding* encoding);
     // private System.Void SwitchEncoding(System.Text.Encoding newEncoding)
-    // Offset: 0x15E9C80
+    // Offset: 0x1601000
     void SwitchEncoding(::System::Text::Encoding* newEncoding);
     // private System.Text.Encoding CheckEncoding(System.String newEncodingName)
-    // Offset: 0x15E9E30
+    // Offset: 0x16011B0
     ::System::Text::Encoding* CheckEncoding(::StringW newEncodingName);
     // private System.Void UnDecodeChars()
-    // Offset: 0x15E9D84
+    // Offset: 0x1601104
     void UnDecodeChars();
     // private System.Void SwitchEncodingToUTF8()
-    // Offset: 0x15EA114
+    // Offset: 0x1601494
     void SwitchEncodingToUTF8();
     // private System.Int32 ReadData()
-    // Offset: 0x15E6940
+    // Offset: 0x15FDCC0
     int ReadData();
     // private System.Int32 GetChars(System.Int32 maxCharsCount)
-    // Offset: 0x15EA19C
+    // Offset: 0x160151C
     int GetChars(int maxCharsCount);
     // private System.Void InvalidCharRecovery(ref System.Int32 bytesCount, out System.Int32 charsCount)
-    // Offset: 0x15EA2E8
+    // Offset: 0x1601668
     void InvalidCharRecovery(ByRef<int> bytesCount, ByRef<int> charsCount);
     // System.Void Close(System.Boolean closeInput)
-    // Offset: 0x15E58D4
+    // Offset: 0x15FCC54
     void Close(bool closeInput);
     // private System.Void ShiftBuffer(System.Int32 sourcePos, System.Int32 destPos, System.Int32 count)
-    // Offset: 0x15EA4F0
+    // Offset: 0x1601870
     void ShiftBuffer(int sourcePos, int destPos, int count);
     // private System.Boolean ParseXmlDeclaration(System.Boolean isTextDecl)
-    // Offset: 0x15E4550
+    // Offset: 0x15FB8D0
     bool ParseXmlDeclaration(bool isTextDecl);
     // private System.Boolean ParseDocumentContent()
-    // Offset: 0x15E3F14
+    // Offset: 0x15FB294
     bool ParseDocumentContent();
     // private System.Boolean ParseElementContent()
-    // Offset: 0x15E3C0C
+    // Offset: 0x15FAF8C
     bool ParseElementContent();
     // private System.Void ThrowUnclosedElements()
-    // Offset: 0x15EBA34
+    // Offset: 0x1602DB4
     void ThrowUnclosedElements();
     // private System.Void ParseElement()
-    // Offset: 0x15EA988
+    // Offset: 0x1601D08
     void ParseElement();
     // private System.Void AddDefaultAttributesAndNormalize()
-    // Offset: 0x15EC1C4
+    // Offset: 0x1603544
     void AddDefaultAttributesAndNormalize();
     // private System.Void ParseEndElement()
-    // Offset: 0x15EB63C
+    // Offset: 0x16029BC
     void ParseEndElement();
     // private System.Void ThrowTagMismatch(System.Xml.XmlTextReaderImpl/System.Xml.NodeData startTag)
-    // Offset: 0x15ED31C
+    // Offset: 0x160469C
     void ThrowTagMismatch(::System::Xml::XmlTextReaderImpl::NodeData* startTag);
     // private System.Void ParseAttributes()
-    // Offset: 0x15EBBC4
+    // Offset: 0x1602F44
     void ParseAttributes();
     // private System.Void ElementNamespaceLookup()
-    // Offset: 0x15ECB4C
+    // Offset: 0x1603ECC
     void ElementNamespaceLookup();
     // private System.Void AttributeNamespaceLookup()
-    // Offset: 0x15ED264
+    // Offset: 0x16045E4
     void AttributeNamespaceLookup();
     // private System.Void AttributeDuplCheck()
-    // Offset: 0x15EE3EC
+    // Offset: 0x160576C
     void AttributeDuplCheck();
     // private System.Void OnDefaultNamespaceDecl(System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr)
-    // Offset: 0x15EE044
+    // Offset: 0x16053C4
     void OnDefaultNamespaceDecl(::System::Xml::XmlTextReaderImpl::NodeData* attr);
     // private System.Void OnNamespaceDecl(System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr)
-    // Offset: 0x15EE148
+    // Offset: 0x16054C8
     void OnNamespaceDecl(::System::Xml::XmlTextReaderImpl::NodeData* attr);
     // private System.Void OnXmlReservedAttribute(System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr)
-    // Offset: 0x15EE22C
+    // Offset: 0x16055AC
     void OnXmlReservedAttribute(::System::Xml::XmlTextReaderImpl::NodeData* attr);
     // private System.Void ParseAttributeValueSlow(System.Int32 curPos, System.Char quoteChar, System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr)
-    // Offset: 0x15ED748
+    // Offset: 0x1604AC8
     void ParseAttributeValueSlow(int curPos, ::Il2CppChar quoteChar, ::System::Xml::XmlTextReaderImpl::NodeData* attr);
     // private System.Void AddAttributeChunkToList(System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr, System.Xml.XmlTextReaderImpl/System.Xml.NodeData chunk, ref System.Xml.XmlTextReaderImpl/System.Xml.NodeData lastChunk)
-    // Offset: 0x15EEAE4
+    // Offset: 0x1605E64
     void AddAttributeChunkToList(::System::Xml::XmlTextReaderImpl::NodeData* attr, ::System::Xml::XmlTextReaderImpl::NodeData* chunk, ByRef<::System::Xml::XmlTextReaderImpl::NodeData*> lastChunk);
     // private System.Boolean ParseText()
-    // Offset: 0x15EB0B4
+    // Offset: 0x1602434
     bool ParseText();
     // private System.Boolean ParseText(out System.Int32 startPos, out System.Int32 endPos, ref System.Int32 outOrChars)
-    // Offset: 0x15EEC50
+    // Offset: 0x1605FD0
     bool ParseText(ByRef<int> startPos, ByRef<int> endPos, ByRef<int> outOrChars);
     // private System.Void FinishPartialValue()
-    // Offset: 0x15E30D0
+    // Offset: 0x15FA450
     void FinishPartialValue();
     // private System.Void FinishOtherValueIterator()
-    // Offset: 0x15E3198
+    // Offset: 0x15FA518
     void FinishOtherValueIterator();
     // private System.Void SkipPartialTextValue()
-    // Offset: 0x15E5724
+    // Offset: 0x15FCAA4
     void SkipPartialTextValue();
     // private System.Void FinishReadValueChunk()
-    // Offset: 0x15E5770
+    // Offset: 0x15FCAF0
     void FinishReadValueChunk();
     // private System.Void FinishReadContentAsBinary()
-    // Offset: 0x15E5790
+    // Offset: 0x15FCB10
     void FinishReadContentAsBinary();
     // private System.Void FinishReadElementContentAsBinary()
-    // Offset: 0x15E57EC
+    // Offset: 0x15FCB6C
     void FinishReadElementContentAsBinary();
     // private System.Boolean ParseRootLevelWhitespace()
-    // Offset: 0x15EB430
+    // Offset: 0x16027B0
     bool ParseRootLevelWhitespace();
     // private System.Void ParseEntityReference()
-    // Offset: 0x15E5240
+    // Offset: 0x15FC5C0
     void ParseEntityReference();
     // private System.Xml.XmlTextReaderImpl/System.Xml.EntityType HandleEntityReference(System.Boolean isInAttributeValue, System.Xml.XmlTextReaderImpl/System.Xml.EntityExpandType expandType, out System.Int32 charRefEndPos)
-    // Offset: 0x15EAE04
+    // Offset: 0x1602184
     ::System::Xml::XmlTextReaderImpl::EntityType HandleEntityReference(bool isInAttributeValue, ::System::Xml::XmlTextReaderImpl::EntityExpandType expandType, ByRef<int> charRefEndPos);
     // private System.Xml.XmlTextReaderImpl/System.Xml.EntityType HandleGeneralEntityReference(System.String name, System.Boolean isInAttributeValue, System.Boolean pushFakeEntityIfNullResolver, System.Int32 entityStartLinePos)
-    // Offset: 0x15E6314
+    // Offset: 0x15FD694
     ::System::Xml::XmlTextReaderImpl::EntityType HandleGeneralEntityReference(::StringW name, bool isInAttributeValue, bool pushFakeEntityIfNullResolver, int entityStartLinePos);
     // private System.Boolean HandleEntityEnd(System.Boolean checkEntityNesting)
-    // Offset: 0x15E93AC
+    // Offset: 0x160072C
     bool HandleEntityEnd(bool checkEntityNesting);
     // private System.Void SetupEndEntityNodeInContent()
-    // Offset: 0x15E52C0
+    // Offset: 0x15FC640
     void SetupEndEntityNodeInContent();
     // private System.Void SetupEndEntityNodeInAttribute()
-    // Offset: 0x15EF59C
+    // Offset: 0x160691C
     void SetupEndEntityNodeInAttribute();
     // private System.Boolean ParsePI()
-    // Offset: 0x15EA6B0
+    // Offset: 0x1601A30
     bool ParsePI();
     // private System.Boolean ParsePI(System.Text.StringBuilder piInDtdStringBuilder)
-    // Offset: 0x15E6F28
+    // Offset: 0x15FE2A8
     bool ParsePI(::System::Text::StringBuilder* piInDtdStringBuilder);
     // private System.Boolean ParsePIValue(out System.Int32 outStartPos, out System.Int32 outEndPos)
-    // Offset: 0x15EF618
+    // Offset: 0x1606998
     bool ParsePIValue(ByRef<int> outStartPos, ByRef<int> outEndPos);
     // private System.Boolean ParseComment()
-    // Offset: 0x15EA6B8
+    // Offset: 0x1601A38
     bool ParseComment();
     // private System.Void ParseCData()
-    // Offset: 0x15EA720
+    // Offset: 0x1601AA0
     void ParseCData();
     // private System.Void ParseCDataOrComment(System.Xml.XmlNodeType type)
-    // Offset: 0x15E744C
+    // Offset: 0x15FE7CC
     void ParseCDataOrComment(::System::Xml::XmlNodeType type);
     // private System.Boolean ParseCDataOrComment(System.Xml.XmlNodeType type, out System.Int32 outStartPos, out System.Int32 outEndPos)
-    // Offset: 0x15EF9AC
+    // Offset: 0x1606D2C
     bool ParseCDataOrComment(::System::Xml::XmlNodeType type, ByRef<int> outStartPos, ByRef<int> outEndPos);
     // private System.Boolean ParseDoctypeDecl()
-    // Offset: 0x15EA728
+    // Offset: 0x1601AA8
     bool ParseDoctypeDecl();
     // private System.Void ParseDtd()
-    // Offset: 0x15EFDD0
+    // Offset: 0x1607150
     void ParseDtd();
     // private System.Void SkipDtd()
-    // Offset: 0x15F00FC
+    // Offset: 0x160747C
     void SkipDtd();
     // private System.Void SkipPublicOrSystemIdLiteral()
-    // Offset: 0x15F0428
+    // Offset: 0x16077A8
     void SkipPublicOrSystemIdLiteral();
     // private System.Void SkipUntil(System.Char stopChar, System.Boolean recognizeLiterals)
-    // Offset: 0x15F04E4
+    // Offset: 0x1607864
     void SkipUntil(::Il2CppChar stopChar, bool recognizeLiterals);
     // private System.Int32 EatWhitespaces(System.Text.StringBuilder sb)
-    // Offset: 0x15E84C8
+    // Offset: 0x15FF848
     int EatWhitespaces(::System::Text::StringBuilder* sb);
     // private System.Int32 ParseCharRefInline(System.Int32 startPos, out System.Int32 charCount, out System.Xml.XmlTextReaderImpl/System.Xml.EntityType entityType)
-    // Offset: 0x15EF3A4
+    // Offset: 0x1606724
     int ParseCharRefInline(int startPos, ByRef<int> charCount, ByRef<::System::Xml::XmlTextReaderImpl::EntityType> entityType);
     // private System.Int32 ParseNumericCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder, out System.Xml.XmlTextReaderImpl/System.Xml.EntityType entityType)
-    // Offset: 0x15E6DB4
+    // Offset: 0x15FE134
     int ParseNumericCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder, ByRef<::System::Xml::XmlTextReaderImpl::EntityType> entityType);
     // private System.Int32 ParseNumericCharRefInline(System.Int32 startPos, System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder, out System.Int32 charCount, out System.Xml.XmlTextReaderImpl/System.Xml.EntityType entityType)
-    // Offset: 0x15F0954
+    // Offset: 0x1607CD4
     int ParseNumericCharRefInline(int startPos, bool expand, ::System::Text::StringBuilder* internalSubsetBuilder, ByRef<int> charCount, ByRef<::System::Xml::XmlTextReaderImpl::EntityType> entityType);
     // private System.Int32 ParseNamedCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x15E6E70
+    // Offset: 0x15FE1F0
     int ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // private System.Int32 ParseNamedCharRefInline(System.Int32 startPos, System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
-    // Offset: 0x15F0F94
+    // Offset: 0x1608314
     int ParseNamedCharRefInline(int startPos, bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // private System.Int32 ParseName()
-    // Offset: 0x15EA518
+    // Offset: 0x1601898
     int ParseName();
     // private System.Int32 ParseQName(out System.Int32 colonPos)
-    // Offset: 0x15EBBB4
+    // Offset: 0x1602F34
     int ParseQName(ByRef<int> colonPos);
     // private System.Int32 ParseQName(System.Boolean isQName, System.Int32 startOffset, out System.Int32 colonPos)
-    // Offset: 0x15F1284
+    // Offset: 0x1608604
     int ParseQName(bool isQName, int startOffset, ByRef<int> colonPos);
     // private System.Boolean ReadDataInName(ref System.Int32 pos)
-    // Offset: 0x15F14DC
+    // Offset: 0x160885C
     bool ReadDataInName(ByRef<int> pos);
     // private System.String ParseEntityName()
-    // Offset: 0x15EEB14
+    // Offset: 0x1605E94
     ::StringW ParseEntityName();
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AddNode(System.Int32 nodeIndex, System.Int32 nodeDepth)
-    // Offset: 0x15E519C
+    // Offset: 0x15FC51C
     ::System::Xml::XmlTextReaderImpl::NodeData* AddNode(int nodeIndex, int nodeDepth);
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AllocNode(System.Int32 nodeIndex, System.Int32 nodeDepth)
-    // Offset: 0x15F1528
+    // Offset: 0x16088A8
     ::System::Xml::XmlTextReaderImpl::NodeData* AllocNode(int nodeIndex, int nodeDepth);
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AddAttributeNoChecks(System.String name, System.Int32 attrDepth)
-    // Offset: 0x15E8B08
+    // Offset: 0x15FFE88
     ::System::Xml::XmlTextReaderImpl::NodeData* AddAttributeNoChecks(::StringW name, int attrDepth);
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AddAttribute(System.Int32 endNamePos, System.Int32 colonPos)
-    // Offset: 0x15ED598
+    // Offset: 0x1604918
     ::System::Xml::XmlTextReaderImpl::NodeData* AddAttribute(int endNamePos, int colonPos);
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AddAttribute(System.String localName, System.String prefix, System.String nameWPrefix)
-    // Offset: 0x15F1670
+    // Offset: 0x16089F0
     ::System::Xml::XmlTextReaderImpl::NodeData* AddAttribute(::StringW localName, ::StringW prefix, ::StringW nameWPrefix);
     // private System.Void PopElementContext()
-    // Offset: 0x15E51EC
+    // Offset: 0x15FC56C
     void PopElementContext();
     // private System.Void OnNewLine(System.Int32 pos)
-    // Offset: 0x15E6918
+    // Offset: 0x15FDC98
     void OnNewLine(int pos);
     // private System.Void OnEof()
-    // Offset: 0x15E5600
+    // Offset: 0x15FC980
     void OnEof();
     // private System.String LookupNamespace(System.Xml.XmlTextReaderImpl/System.Xml.NodeData node)
-    // Offset: 0x15EE75C
+    // Offset: 0x1605ADC
     ::StringW LookupNamespace(::System::Xml::XmlTextReaderImpl::NodeData* node);
     // private System.Void AddNamespace(System.String prefix, System.String uri, System.Xml.XmlTextReaderImpl/System.Xml.NodeData attr)
-    // Offset: 0x15EE8AC
+    // Offset: 0x1605C2C
     void AddNamespace(::StringW prefix, ::StringW uri, ::System::Xml::XmlTextReaderImpl::NodeData* attr);
     // private System.Void ResetAttributes()
-    // Offset: 0x15E5164
+    // Offset: 0x15FC4E4
     void ResetAttributes();
     // private System.Void FullAttributeCleanup()
-    // Offset: 0x15F17E8
+    // Offset: 0x1608B68
     void FullAttributeCleanup();
     // private System.Void PushXmlContext()
-    // Offset: 0x15EE828
+    // Offset: 0x1605BA8
     void PushXmlContext();
     // private System.Void PopXmlContext()
-    // Offset: 0x15F17B8
+    // Offset: 0x1608B38
     void PopXmlContext();
     // private System.Xml.XmlNodeType GetWhitespaceType()
-    // Offset: 0x15EF554
+    // Offset: 0x16068D4
     ::System::Xml::XmlNodeType GetWhitespaceType();
     // private System.Xml.XmlNodeType GetTextNodeType(System.Int32 orChars)
-    // Offset: 0x15EF34C
+    // Offset: 0x16066CC
     ::System::Xml::XmlNodeType GetTextNodeType(int orChars);
     // private System.Void PushExternalEntityOrSubset(System.String publicId, System.String systemId, System.Uri baseUri, System.String entityName)
-    // Offset: 0x15E8124
+    // Offset: 0x15FF4A4
     void PushExternalEntityOrSubset(::StringW publicId, ::StringW systemId, ::System::Uri* baseUri, ::StringW entityName);
     // private System.Boolean OpenAndPush(System.Uri uri)
-    // Offset: 0x15F1864
+    // Offset: 0x1608BE4
     bool OpenAndPush(::System::Uri* uri);
     // private System.Boolean PushExternalEntity(System.Xml.IDtdEntityInfo entity)
-    // Offset: 0x15E7824
+    // Offset: 0x15FEBA4
     bool PushExternalEntity(::System::Xml::IDtdEntityInfo* entity);
     // private System.Void PushInternalEntity(System.Xml.IDtdEntityInfo entity)
-    // Offset: 0x15E7BF0
+    // Offset: 0x15FEF70
     void PushInternalEntity(::System::Xml::IDtdEntityInfo* entity);
     // private System.Void PopEntity()
-    // Offset: 0x15E7F94
+    // Offset: 0x15FF314
     void PopEntity();
     // private System.Void RegisterEntity(System.Xml.IDtdEntityInfo entity)
-    // Offset: 0x15F1A88
+    // Offset: 0x1608E08
     void RegisterEntity(::System::Xml::IDtdEntityInfo* entity);
     // private System.Void UnregisterEntity()
-    // Offset: 0x15F1C38
+    // Offset: 0x1608FB8
     void UnregisterEntity();
     // private System.Void PushParsingState()
-    // Offset: 0x15E8790
+    // Offset: 0x15FFB10
     void PushParsingState();
     // private System.Void PopParsingState()
-    // Offset: 0x15EA478
+    // Offset: 0x16017F8
     void PopParsingState();
     // private System.Int32 IncrementalRead()
-    // Offset: 0x15F1CA4
+    // Offset: 0x1609024
     int IncrementalRead();
     // private System.Void FinishIncrementalRead()
-    // Offset: 0x15E5418
+    // Offset: 0x15FC798
     void FinishIncrementalRead();
     // private System.Boolean ParseFragmentAttribute()
-    // Offset: 0x15E5484
+    // Offset: 0x15FC804
     bool ParseFragmentAttribute();
     // private System.Boolean ParseAttributeValueChunk()
-    // Offset: 0x15E5C30
+    // Offset: 0x15FCFB0
     bool ParseAttributeValueChunk();
     // private System.Void ParseXmlDeclarationFragment()
-    // Offset: 0x15E5514
+    // Offset: 0x15FC894
     void ParseXmlDeclarationFragment();
     // private System.Void ThrowUnexpectedToken(System.Int32 pos, System.String expectedToken)
-    // Offset: 0x15EA710
+    // Offset: 0x1601A90
     void ThrowUnexpectedToken(int pos, ::StringW expectedToken);
     // private System.Void ThrowUnexpectedToken(System.String expectedToken1)
-    // Offset: 0x15EA510
+    // Offset: 0x1601890
     void ThrowUnexpectedToken(::StringW expectedToken1);
     // private System.Void ThrowUnexpectedToken(System.Int32 pos, System.String expectedToken1, System.String expectedToken2)
-    // Offset: 0x15EA978
+    // Offset: 0x1601CF8
     void ThrowUnexpectedToken(int pos, ::StringW expectedToken1, ::StringW expectedToken2);
     // private System.Void ThrowUnexpectedToken(System.String expectedToken1, System.String expectedToken2)
-    // Offset: 0x15EA544
+    // Offset: 0x16018C4
     void ThrowUnexpectedToken(::StringW expectedToken1, ::StringW expectedToken2);
     // private System.String ParseUnexpectedToken(System.Int32 pos)
-    // Offset: 0x15EA970
+    // Offset: 0x1601CF0
     ::StringW ParseUnexpectedToken(int pos);
     // private System.String ParseUnexpectedToken()
-    // Offset: 0x15F25DC
+    // Offset: 0x160995C
     ::StringW ParseUnexpectedToken();
     // private System.Void ThrowExpectingWhitespace(System.Int32 pos)
-    // Offset: 0x15ED518
+    // Offset: 0x1604898
     void ThrowExpectingWhitespace(int pos);
     // private System.Int32 GetIndexOfAttributeWithoutPrefix(System.String name)
-    // Offset: 0x15E33D4
+    // Offset: 0x15FA754
     int GetIndexOfAttributeWithoutPrefix(::StringW name);
     // private System.Int32 GetIndexOfAttributeWithPrefix(System.String name)
-    // Offset: 0x15E34C8
+    // Offset: 0x15FA848
     int GetIndexOfAttributeWithPrefix(::StringW name);
     // private System.Boolean ZeroEndingStream(System.Int32 pos)
-    // Offset: 0x15EF41C
+    // Offset: 0x160679C
     bool ZeroEndingStream(int pos);
     // private System.Void ParseDtdFromParserContext()
-    // Offset: 0x15E995C
+    // Offset: 0x1600CDC
     void ParseDtdFromParserContext();
     // private System.Boolean MoveToNextContentNode(System.Boolean moveIfOnContentNode)
-    // Offset: 0x15EF4AC
+    // Offset: 0x160682C
     bool MoveToNextContentNode(bool moveIfOnContentNode);
     // System.Void SetDtdInfo(System.Xml.IDtdInfo newDtdInfo)
-    // Offset: 0x15D9C48
+    // Offset: 0x15F0FC8
     void SetDtdInfo(::System::Xml::IDtdInfo* newDtdInfo);
     // private System.Boolean AddDefaultAttributeDtd(System.Xml.IDtdDefaultAttributeInfo defAttrInfo, System.Boolean definedInDtd, System.Xml.XmlTextReaderImpl/System.Xml.NodeData[] nameSortedNodeData)
-    // Offset: 0x15ECBA0
+    // Offset: 0x1603F20
     bool AddDefaultAttributeDtd(::System::Xml::IDtdDefaultAttributeInfo* defAttrInfo, bool definedInDtd, ::ArrayW<::System::Xml::XmlTextReaderImpl::NodeData*> nameSortedNodeData);
     // private System.Xml.XmlTextReaderImpl/System.Xml.NodeData AddDefaultAttributeInternal(System.String localName, System.String ns, System.String prefix, System.String value, System.Int32 lineNo, System.Int32 linePos, System.Int32 valueLineNo, System.Int32 valueLinePos, System.Boolean isXmlAttribute)
-    // Offset: 0x15F26C4
+    // Offset: 0x1609A44
     ::System::Xml::XmlTextReaderImpl::NodeData* AddDefaultAttributeInternal(::StringW localName, ::StringW ns, ::StringW prefix, ::StringW value, int lineNo, int linePos, int valueLineNo, int valueLinePos, bool isXmlAttribute);
     // private System.Void RegisterConsumedCharacters(System.Int64 characters, System.Boolean inEntityReference)
-    // Offset: 0x15E88D8
+    // Offset: 0x15FFC58
     void RegisterConsumedCharacters(int64_t characters, bool inEntityReference);
     // static System.String StripSpaces(System.String value)
-    // Offset: 0x15F2928
+    // Offset: 0x1609CA8
     static ::StringW StripSpaces(::StringW value);
     // static System.Void StripSpaces(System.Char[] value, System.Int32 index, ref System.Int32 len)
-    // Offset: 0x15F2B38
+    // Offset: 0x1609EB8
     static void StripSpaces(::ArrayW<::Il2CppChar> value, int index, ByRef<int> len);
     // static System.Void BlockCopyChars(System.Char[] src, System.Int32 srcOffset, System.Char[] dst, System.Int32 dstOffset, System.Int32 count)
-    // Offset: 0x15EA180
+    // Offset: 0x1601500
     static void BlockCopyChars(::ArrayW<::Il2CppChar> src, int srcOffset, ::ArrayW<::Il2CppChar> dst, int dstOffset, int count);
     // static System.Void BlockCopy(System.Byte[] src, System.Int32 srcOffset, System.Byte[] dst, System.Int32 dstOffset, System.Int32 count)
-    // Offset: 0x15EA194
+    // Offset: 0x1601514
     static void BlockCopy(::ArrayW<uint8_t> src, int srcOffset, ::ArrayW<uint8_t> dst, int dstOffset, int count);
     // public override System.Xml.XmlReaderSettings get_Settings()
-    // Offset: 0x15E2E90
+    // Offset: 0x15FA210
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Xml.XmlReaderSettings XmlReader::get_Settings()
     ::System::Xml::XmlReaderSettings* get_Settings();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x15E2FE8
+    // Offset: 0x15FA368
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Xml.XmlNodeType XmlReader::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.String get_Name()
-    // Offset: 0x15E3004
+    // Offset: 0x15FA384
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x15E3028
+    // Offset: 0x15FA3A8
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_NamespaceURI()
-    // Offset: 0x15E3044
+    // Offset: 0x15FA3C4
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_NamespaceURI()
     ::StringW get_NamespaceURI();
     // public override System.String get_Prefix()
-    // Offset: 0x15E3060
+    // Offset: 0x15FA3E0
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_Prefix()
     ::StringW get_Prefix();
     // public override System.String get_Value()
-    // Offset: 0x15E307C
+    // Offset: 0x15FA3FC
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_Value()
     ::StringW get_Value();
     // public override System.String get_BaseURI()
-    // Offset: 0x15E32B0
+    // Offset: 0x15FA630
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::get_BaseURI()
     ::StringW get_BaseURI();
     // public override System.Boolean get_IsEmptyElement()
-    // Offset: 0x15E32B8
+    // Offset: 0x15FA638
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::get_IsEmptyElement()
     bool get_IsEmptyElement();
     // public override System.Boolean get_IsDefault()
-    // Offset: 0x15E32D4
+    // Offset: 0x15FA654
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::get_IsDefault()
     bool get_IsDefault();
     // public override System.Xml.ReadState get_ReadState()
-    // Offset: 0x15E32F0
+    // Offset: 0x15FA670
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Xml.ReadState XmlReader::get_ReadState()
     ::System::Xml::ReadState get_ReadState();
     // public override System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x15E32F8
+    // Offset: 0x15FA678
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Xml.XmlNameTable XmlReader::get_NameTable()
     ::System::Xml::XmlNameTable* get_NameTable();
     // public override System.Boolean get_CanResolveEntity()
-    // Offset: 0x15E3300
+    // Offset: 0x15FA680
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::get_CanResolveEntity()
     bool get_CanResolveEntity();
     // override System.Xml.IDtdInfo get_DtdInfo()
-    // Offset: 0x15F26BC
+    // Offset: 0x1609A3C
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Xml.IDtdInfo XmlReader::get_DtdInfo()
     ::System::Xml::IDtdInfo* get_DtdInfo();
     // public override System.Boolean MoveToAttribute(System.String name)
-    // Offset: 0x15E3308
+    // Offset: 0x15FA688
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::MoveToAttribute(System.String name)
     bool MoveToAttribute(::StringW name);
     // public override System.Boolean MoveToFirstAttribute()
-    // Offset: 0x15E3664
+    // Offset: 0x15FA9E4
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::MoveToFirstAttribute()
     bool MoveToFirstAttribute();
     // public override System.Boolean MoveToNextAttribute()
-    // Offset: 0x15E36EC
+    // Offset: 0x15FAA6C
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::MoveToNextAttribute()
     bool MoveToNextAttribute();
     // public override System.Boolean MoveToElement()
-    // Offset: 0x15E3788
+    // Offset: 0x15FAB08
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::MoveToElement()
     bool MoveToElement();
     // public override System.Boolean Read()
-    // Offset: 0x15E3860
+    // Offset: 0x15FABE0
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::Read()
     bool Read();
     // public override System.Void Close()
-    // Offset: 0x15E58CC
+    // Offset: 0x15FCC4C
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Void XmlReader::Close()
     void Close();
     // public override System.String LookupNamespace(System.String prefix)
-    // Offset: 0x15E599C
+    // Offset: 0x15FCD1C
     // Implemented from: System.Xml.XmlReader
     // Base method: System.String XmlReader::LookupNamespace(System.String prefix)
     ::StringW LookupNamespace(::StringW prefix);
     // public override System.Boolean ReadAttributeValue()
-    // Offset: 0x15E59D0
+    // Offset: 0x15FCD50
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Boolean XmlReader::ReadAttributeValue()
     bool ReadAttributeValue();
     // public override System.Void ResolveEntity()
-    // Offset: 0x15E60C8
+    // Offset: 0x15FD448
     // Implemented from: System.Xml.XmlReader
     // Base method: System.Void XmlReader::ResolveEntity()
     void ResolveEntity();

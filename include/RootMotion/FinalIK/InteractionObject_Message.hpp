@@ -39,14 +39,14 @@ namespace RootMotion::FinalIK {
   class InteractionObject::Message : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x11101D4
+    // [TooltipAttribute] Offset: 0x1128E98
     // public System.String function
     // Size: 0x8
     // Offset: 0x10
     ::StringW function;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x111020C
+    // [TooltipAttribute] Offset: 0x1128ED0
     // public UnityEngine.GameObject recipient
     // Size: 0x8
     // Offset: 0x18
@@ -65,14 +65,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.GameObject recipient
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_recipient();
     // public System.Void .ctor()
-    // Offset: 0x23C5F5C
+    // Offset: 0x2408F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Message* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Message*, creationType>()));
     }
     // public System.Void Send(UnityEngine.Transform t)
-    // Offset: 0x23C5E64
+    // Offset: 0x2408E5C
     void Send(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message
   #pragma pack(pop)

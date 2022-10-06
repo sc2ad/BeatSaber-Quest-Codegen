@@ -56,28 +56,28 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::StringW m_buildTarget;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10DA4F0
+    // [FormerlySerializedAsAttribute] Offset: 0x10F154C
     // private System.String m_SettingsHash
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_SettingsHash;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10DA53C
+    // [FormerlySerializedAsAttribute] Offset: 0x10F1598
     // private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     // Size: 0x8
     // Offset: 0x20
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10DA588
+    // [FormerlySerializedAsAttribute] Offset: 0x10F15E4
     // private System.Boolean m_ProfileEvents
     // Size: 0x1
     // Offset: 0x28
     bool m_ProfileEvents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0x10DA5D4
+    // [FormerlySerializedAsAttribute] Offset: 0x10F1630
     // private System.Boolean m_LogResourceManagerExceptions
     // Size: 0x1
     // Offset: 0x29
@@ -86,7 +86,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_LogResourceManagerExceptions and: m_ExtraInitializationData
     char __padding4[0x6] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x10DA620
+    // [FormerlySerializedAsAttribute] Offset: 0x10F167C
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
     // Size: 0x8
     // Offset: 0x30
@@ -157,67 +157,67 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
     [[deprecated("Use field access instead!")]] int& dyn_m_maxConcurrentWebRequests();
     // public System.String get_BuildTarget()
-    // Offset: 0x18D3F10
+    // Offset: 0x18B6718
     ::StringW get_BuildTarget();
     // public System.Void set_BuildTarget(System.String value)
-    // Offset: 0x18D3F18
+    // Offset: 0x18B6720
     void set_BuildTarget(::StringW value);
     // public System.String get_SettingsHash()
-    // Offset: 0x18D3F20
+    // Offset: 0x18B6728
     ::StringW get_SettingsHash();
     // public System.Void set_SettingsHash(System.String value)
-    // Offset: 0x18D3F28
+    // Offset: 0x18B6730
     void set_SettingsHash(::StringW value);
     // public System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> get_CatalogLocations()
-    // Offset: 0x18D3F30
+    // Offset: 0x18B6738
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
     // public System.Boolean get_ProfileEvents()
-    // Offset: 0x18D3F38
+    // Offset: 0x18B6740
     bool get_ProfileEvents();
     // public System.Void set_ProfileEvents(System.Boolean value)
-    // Offset: 0x18D3F40
+    // Offset: 0x18B6748
     void set_ProfileEvents(bool value);
     // public System.Boolean get_LogResourceManagerExceptions()
-    // Offset: 0x18D3F4C
+    // Offset: 0x18B6754
     bool get_LogResourceManagerExceptions();
     // public System.Void set_LogResourceManagerExceptions(System.Boolean value)
-    // Offset: 0x18D3F54
+    // Offset: 0x18B675C
     void set_LogResourceManagerExceptions(bool value);
     // public System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> get_InitializationObjects()
-    // Offset: 0x18D3F60
+    // Offset: 0x18B6768
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
     // public System.Boolean get_DisableCatalogUpdateOnStartup()
-    // Offset: 0x18D3F68
+    // Offset: 0x18B6770
     bool get_DisableCatalogUpdateOnStartup();
     // public System.Void set_DisableCatalogUpdateOnStartup(System.Boolean value)
-    // Offset: 0x18D3F70
+    // Offset: 0x18B6778
     void set_DisableCatalogUpdateOnStartup(bool value);
     // public System.Boolean get_IsLocalCatalogInBundle()
-    // Offset: 0x18D3F7C
+    // Offset: 0x18B6784
     bool get_IsLocalCatalogInBundle();
     // public System.Void set_IsLocalCatalogInBundle(System.Boolean value)
-    // Offset: 0x18D3F84
+    // Offset: 0x18B678C
     void set_IsLocalCatalogInBundle(bool value);
     // public System.Type get_CertificateHandlerType()
-    // Offset: 0x18D2038
+    // Offset: 0x18B4840
     ::System::Type* get_CertificateHandlerType();
     // public System.Void set_CertificateHandlerType(System.Type value)
-    // Offset: 0x18D3F90
+    // Offset: 0x18B6798
     void set_CertificateHandlerType(::System::Type* value);
     // public System.String get_AddressablesVersion()
-    // Offset: 0x18D3F9C
+    // Offset: 0x18B67A4
     ::StringW get_AddressablesVersion();
     // public System.Void set_AddressablesVersion(System.String value)
-    // Offset: 0x18D3FA4
+    // Offset: 0x18B67AC
     void set_AddressablesVersion(::StringW value);
     // public System.Int32 get_MaxConcurrentWebRequests()
-    // Offset: 0x18D3FAC
+    // Offset: 0x18B67B4
     int get_MaxConcurrentWebRequests();
     // public System.Void set_MaxConcurrentWebRequests(System.Int32 value)
-    // Offset: 0x18D3FB4
+    // Offset: 0x18B67BC
     void set_MaxConcurrentWebRequests(int value);
     // public System.Void .ctor()
-    // Offset: 0x18D4038
+    // Offset: 0x18B6840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerRuntimeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::.ctor");

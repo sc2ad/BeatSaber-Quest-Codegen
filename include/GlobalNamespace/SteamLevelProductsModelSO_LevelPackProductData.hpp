@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamLevelProductsModelSO/LevelProductData[] _levelProductsData
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.UInt32 get_bundleId()
-    // Offset: 0x1465B24
+    // Offset: 0x14CE768
     uint get_bundleId();
     // public System.String get_levelPackId()
-    // Offset: 0x1465B2C
+    // Offset: 0x14CE770
     ::StringW get_levelPackId();
     // public SteamLevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x1465B34
+    // Offset: 0x14CE778
     ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor()
-    // Offset: 0x1465B3C
+    // Offset: 0x14CE780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamLevelProductsModelSO::LevelPackProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData::.ctor");

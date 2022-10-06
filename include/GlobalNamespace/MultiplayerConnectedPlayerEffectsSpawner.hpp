@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA914
+    // [InjectAttribute] Offset: 0x11020F0
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x28
@@ -71,20 +71,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public System.Void .ctor()
-    // Offset: 0x13F78CC
+    // Offset: 0x140EC14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerEffectsSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerEffectsSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13F74CC
+    // Offset: 0x140E814
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13F75C0
+    // Offset: 0x140E908
     void OnDestroy();
     // private System.Void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x13F76C0
+    // Offset: 0x140EA08
     void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
   }; // MultiplayerConnectedPlayerEffectsSpawner
   #pragma pack(pop)

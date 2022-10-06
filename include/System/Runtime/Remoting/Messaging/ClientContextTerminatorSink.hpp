@@ -65,17 +65,17 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Contexts.Context _context
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Contexts::Context*& dyn__context();
     // public System.Void .ctor(System.Runtime.Remoting.Contexts.Context ctx)
-    // Offset: 0x1C6F3B0
+    // Offset: 0x1CC6C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientContextTerminatorSink*, creationType>(ctx)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1C770A0
+    // Offset: 0x1CCE960
     ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1C77280
+    // Offset: 0x1CCEB40
     ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
   #pragma pack(pop)

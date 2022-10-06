@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class GeometryTools : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15C9E64
+    // Offset: 0x15D0D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeometryTools* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GeometryTools::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeometryTools*, creationType>()));
     }
     // static public System.Boolean ThreePointsToBox(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, out UnityEngine.Vector3 center, out UnityEngine.Vector3 halfSize, out UnityEngine.Quaternion orientation)
-    // Offset: 0x15C9A80
+    // Offset: 0x15D0934
     static bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> halfSize, ByRef<::UnityEngine::Quaternion> orientation);
   }; // GeometryTools
   #pragma pack(pop)

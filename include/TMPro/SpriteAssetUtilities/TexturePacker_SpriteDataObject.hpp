@@ -48,7 +48,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
     // public System.Void .ctor()
-    // Offset: 0x143FF4C
+    // Offset: 0x1444EAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker::SpriteDataObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject::.ctor");

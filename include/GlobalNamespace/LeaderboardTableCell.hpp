@@ -102,25 +102,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _separatorImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__separatorImage();
     // public System.Void set_rank(System.Int32 value)
-    // Offset: 0x1399970
+    // Offset: 0x13B5684
     void set_rank(int value);
     // public System.Void set_playerName(System.String value)
-    // Offset: 0x13999B4
+    // Offset: 0x13B56C8
     void set_playerName(::StringW value);
     // public System.Void set_score(System.Int32 value)
-    // Offset: 0x13999D0
+    // Offset: 0x13B56E4
     void set_score(int value);
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x1399A74
+    // Offset: 0x13B5788
     void set_showSeparator(bool value);
     // public System.Void set_showFullCombo(System.Boolean value)
-    // Offset: 0x1399A94
+    // Offset: 0x13B57A8
     void set_showFullCombo(bool value);
     // public System.Void set_specialScore(System.Boolean value)
-    // Offset: 0x1399AB4
+    // Offset: 0x13B57C8
     void set_specialScore(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1399BB8
+    // Offset: 0x13B58CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableCell::.ctor");

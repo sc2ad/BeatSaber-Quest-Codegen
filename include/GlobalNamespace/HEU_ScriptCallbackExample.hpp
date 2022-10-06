@@ -43,17 +43,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String _msg
     [[deprecated("Use field access instead!")]] ::StringW& dyn__msg();
     // public System.Void .ctor()
-    // Offset: 0x16E8B6C
+    // Offset: 0x16EFDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ScriptCallbackExample* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ScriptCallbackExample::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ScriptCallbackExample*, creationType>()));
     }
     // private System.Void AssetCallbackWithMsg(System.String msg)
-    // Offset: 0x16E8A64
+    // Offset: 0x16EFCEC
     void AssetCallbackWithMsg(::StringW msg);
     // private System.Void AssetCallbackNoMsg()
-    // Offset: 0x16E8B00
+    // Offset: 0x16EFD88
     void AssetCallbackNoMsg();
   }; // HEU_ScriptCallbackExample
   #pragma pack(pop)

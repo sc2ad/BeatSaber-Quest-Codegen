@@ -71,17 +71,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _maxRankText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__maxRankText();
     // public System.Void .ctor()
-    // Offset: 0x14D8120
+    // Offset: 0x1465490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelStatsView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelStatsView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelStatsView*, creationType>()));
     }
     // public System.Void Hide()
-    // Offset: 0x14D7D54
+    // Offset: 0x14650C4
     void Hide();
     // public System.Void ShowStats(IDifficultyBeatmap difficultyBeatmap, PlayerData playerData)
-    // Offset: 0x14D7D7C
+    // Offset: 0x14650EC
     void ShowStats(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::PlayerData* playerData);
   }; // LevelStatsView
   #pragma pack(pop)

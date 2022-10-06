@@ -130,44 +130,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmap[] _difficultyBeatmaps
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IDifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x149982C
+    // Offset: 0x147F2BC
     void add_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void remove_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
-    // Offset: 0x14998D0
+    // Offset: 0x147F360
     void remove_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void .ctor()
-    // Offset: 0x1499F90
+    // Offset: 0x147FA20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DifficultyTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyTableView*, creationType>()));
     }
     // public System.Void Init(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x1499974
+    // Offset: 0x147F404
     void Init(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Void SetDifficultyBeatmaps(IDifficultyBeatmap[] difficultyBeatmaps)
-    // Offset: 0x1499A64
+    // Offset: 0x147F4F4
     void SetDifficultyBeatmaps(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Single CellSize()
-    // Offset: 0x1499A8C
+    // Offset: 0x147F51C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1499A94
+    // Offset: 0x147F524
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1499AB4
+    // Offset: 0x147F544
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1499E1C
+    // Offset: 0x147F8AC
     void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
     // public System.Void SelectRow(System.Int32 row, System.Boolean callbackTable)
-    // Offset: 0x1499EC4
+    // Offset: 0x147F954
     void SelectRow(int row, bool callbackTable);
     // public System.Void SelectRow(IDifficultyBeatmap difficultyBeatmap, System.Boolean callbackTable)
-    // Offset: 0x1499EE4
+    // Offset: 0x147F974
     void SelectRow(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool callbackTable);
     // public System.Void ClearSelection()
-    // Offset: 0x1499F74
+    // Offset: 0x147FA04
     void ClearSelection();
   }; // DifficultyTableView
   #pragma pack(pop)

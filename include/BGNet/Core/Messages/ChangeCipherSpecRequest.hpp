@@ -47,10 +47,10 @@ namespace BGNet::Core::Messages {
       return reinterpret_cast<::BGNet::Core::Messages::IHandshakeServerToClientMessage*>(this);
     }
     // static public PacketPool`1<BGNet.Core.Messages.ChangeCipherSpecRequest> get_pool()
-    // Offset: 0x1583354
+    // Offset: 0x15AEE0C
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ChangeCipherSpecRequest*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x158AD94
+    // Offset: 0x15B684C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,7 +59,7 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ChangeCipherSpecRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x158AD38
+    // Offset: 0x15B67F0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

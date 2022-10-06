@@ -83,32 +83,32 @@ namespace ModestTree::Util {
     // Get instance field reference: private System.Int32 <i>5__2
     [[deprecated("Use field access instead!")]] int& dyn_$i$5__2();
     // private UnityEngine.SceneManagement.Scene System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current()
-    // Offset: 0x176F934
+    // Offset: 0x1776BBC
     ::UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator$UnityEngine_SceneManagement_Scene$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x176F99C
+    // Offset: 0x1776C24
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x176D7CC
+    // Offset: 0x1774A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$get_AllScenes$d__1* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::UnityUtil::$get_AllScenes$d__1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$get_AllScenes$d__1*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x176F83C
+    // Offset: 0x1776AC4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x176F840
+    // Offset: 0x1776AC8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x176F93C
+    // Offset: 0x1776BC4
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.SceneManagement.Scene> System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator()
-    // Offset: 0x176FA00
+    // Offset: 0x1776C88
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* System_Collections_Generic_IEnumerable$UnityEngine_SceneManagement_Scene$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x176FA98
+    // Offset: 0x1776D20
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<get_AllScenes>d__1
   #pragma pack(pop)

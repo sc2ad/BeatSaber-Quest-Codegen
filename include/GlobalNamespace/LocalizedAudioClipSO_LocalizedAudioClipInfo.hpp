@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.AudioClip localizedAudioClip
     [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn_localizedAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x1568E1C
+    // Offset: 0x158094C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedAudioClipSO::LocalizedAudioClipInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo::.ctor");

@@ -40,10 +40,10 @@ namespace System::Collections::Generic {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
     static void _set_$SerializationInfoTable$k__BackingField(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
-    // Offset: 0x1CF09CC
+    // Offset: 0x1D3DB7C
     static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
-    // Offset: 0x1CF0A34
+    // Offset: 0x1D3DBE4
     static void _cctor();
   }; // System.Collections.Generic.DictionaryHashHelpers
   #pragma pack(pop)

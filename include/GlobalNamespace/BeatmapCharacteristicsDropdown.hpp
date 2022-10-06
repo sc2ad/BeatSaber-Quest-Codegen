@@ -81,32 +81,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& dyn_didSelectCellWithIdxEvent();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x13877A0
+    // Offset: 0x13759C0
     void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x1387844
+    // Offset: 0x1375A64
     void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1387D44
+    // Offset: 0x1375F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicsDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicsDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsDropdown*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13878E8
+    // Offset: 0x1375B08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1387A8C
+    // Offset: 0x1375CAC
     void OnDestroy();
     // public BeatmapCharacteristicSO GetSelectedBeatmapCharacteristic()
-    // Offset: 0x1387B68
+    // Offset: 0x1375D88
     ::GlobalNamespace::BeatmapCharacteristicSO* GetSelectedBeatmapCharacteristic();
     // public System.Void SelectCellWithBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1387BCC
+    // Offset: 0x1375DEC
     void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x1387C8C
+    // Offset: 0x1375EAC
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
   }; // BeatmapCharacteristicsDropdown
   #pragma pack(pop)

@@ -73,31 +73,31 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
     [[deprecated("Use field access instead!")]] int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
-    // Offset: 0x1D41780
+    // Offset: 0x1D86BCC
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x1D401D4
+    // Offset: 0x1D85644
     ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x1D40354
+    // Offset: 0x1D857C4
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x1D4040C
+    // Offset: 0x1D8587C
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x1D3FE9C
+    // Offset: 0x1D8530C
     void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x1D3FFC8
+    // Offset: 0x1D85438
     bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x1D40C30
+    // Offset: 0x1D86088
     void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<::System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x1D411F4
+    // Offset: 0x1D86640
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x1D400FC
+    // Offset: 0x1D8556C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

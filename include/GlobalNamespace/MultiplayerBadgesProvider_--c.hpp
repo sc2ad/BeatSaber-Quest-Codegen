@@ -50,20 +50,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
     static void _set_$$9__7_1(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13F316C
+    // Offset: 0x140A45C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13F31D0
+    // Offset: 0x140A4C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider::$$c*, creationType>()));
     }
     // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
-    // Offset: 0x13F31D8
+    // Offset: 0x140A4C8
     bool $SelectBadgesAndPutThemIntoResults$b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
     // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
-    // Offset: 0x13F31FC
+    // Offset: 0x140A4EC
     int $SelectBadgesAndPutThemIntoResults$b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
   }; // MultiplayerBadgesProvider/<>c
   #pragma pack(pop)

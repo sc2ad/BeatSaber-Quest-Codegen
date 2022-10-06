@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Texture2D,HoudiniEngineUnity.Test_Texture2D> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Texture2D*, ::HoudiniEngineUnity::Test_Texture2D*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AC3B8C
+    // Offset: 0x2AED130
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2AC3BF0
+    // Offset: 0x2AED194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Texture2D_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Texture2D_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Texture2D_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__1_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2AC3BF8
+    // Offset: 0x2AED19C
     ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__1_0(::UnityEngine::Texture2D* lod);
     // HoudiniEngineUnity.Test_Texture2D <ToTestObject>b__2_0(UnityEngine.Texture2D lod)
-    // Offset: 0x2AC3C5C
+    // Offset: 0x2AED200
     ::HoudiniEngineUnity::Test_Texture2D* $ToTestObject$b__2_0(::UnityEngine::Texture2D* lod);
   }; // HoudiniEngineUnity.Test_Texture2D_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

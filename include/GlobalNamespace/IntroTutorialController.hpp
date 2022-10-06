@@ -99,21 +99,21 @@ namespace GlobalNamespace {
     ::UnityEngine::ParticleSystem* shockWavePS;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10ED480
+    // [SpaceAttribute] Offset: 0x1104CBC
     // private BloomFogEnvironmentParams _finishForParams
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BloomFogEnvironmentParams* finishForParams;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0x10ED4B8
+    // [InjectAttribute] Offset: 0x1104CF4
     // private readonly BloomFogParamsAnimator _bloomFogAnimator
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomFogParamsAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10ED4C8
+    // [InjectAttribute] Offset: 0x1104D04
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
@@ -174,44 +174,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _blueRingWrapperActive
     [[deprecated("Use field access instead!")]] bool& dyn__blueRingWrapperActive();
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x1396E34
+    // Offset: 0x13B2B48
     void add_introTutorialDidFinishEvent(::System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x1396ED8
+    // Offset: 0x13B2BEC
     void remove_introTutorialDidFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13975E4
+    // Offset: 0x13B32F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IntroTutorialController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1396F7C
+    // Offset: 0x13B2C90
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1397104
+    // Offset: 0x13B2E18
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13972A4
+    // Offset: 0x13B2FB8
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0x1397108
+    // Offset: 0x13B2E1C
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0x13973F4
+    // Offset: 0x13B3108
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0x1397470
+    // Offset: 0x13B3184
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0x1397368
+    // Offset: 0x13B307C
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0x13974B4
+    // Offset: 0x13B31C8
     ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0x1397550
+    // Offset: 0x13B3264
     void SetFinishAnimationParams(float progress);
   }; // IntroTutorialController
   #pragma pack(pop)

@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [LocalizationKeyAttribute] Offset: 0x10E2AE0
+    // [LocalizationKeyAttribute] Offset: 0x10F9E48
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x10E2B18
+    // [LocalizationKeyAttribute] Offset: 0x10F9E80
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -118,34 +118,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInBeta
     [[deprecated("Use field access instead!")]] bool& dyn__isInBeta();
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x13DDCD8
+    // Offset: 0x1422774
     ::StringW get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x13DDCE0
+    // Offset: 0x142277C
     ::StringW get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x13DDCE8
+    // Offset: 0x1422784
     float get_multiplier();
     // public System.Boolean get_multiplierConditionallyValid()
-    // Offset: 0x13DDCF0
+    // Offset: 0x142278C
     bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x13DDCF8
+    // Offset: 0x1422794
     ::UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x13DDD00
+    // Offset: 0x142279C
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_mutuallyExclusives();
     // public GameplayModifierParamsSO[] get_requires()
-    // Offset: 0x13DDD08
+    // Offset: 0x14227A4
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_requires();
     // public GameplayModifierParamsSO[] get_requiredBy()
-    // Offset: 0x13DDD10
+    // Offset: 0x14227AC
     ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*> get_requiredBy();
     // public System.Boolean get_isInBeta()
-    // Offset: 0x13DDD18
+    // Offset: 0x14227B4
     bool get_isInBeta();
     // public System.Void .ctor()
-    // Offset: 0x13DDD20
+    // Offset: 0x14227BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierParamsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierParamsSO::.ctor");

@@ -12,10 +12,17 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+}
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
+  class Dictionary_2;
 }
 // Completed forward declares
 // Type namespace: 
@@ -49,12 +56,18 @@ namespace GlobalNamespace {
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>& dyn_perceivedLoudnessPerLevel();
     // public System.Void .ctor()
-    // Offset: 0x1348174
+    // Offset: 0x13639D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelSO*, creationType>()));
     }
+    // public System.Collections.Generic.Dictionary`2<System.String,PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair> ToDictionary()
+    // Offset: 0x136387C
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* ToDictionary();
+    // public System.Void SetLoudnessData(System.Collections.Generic.Dictionary`2<System.String,PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair> loudnessDictionary)
+    // Offset: 0x1363954
+    void SetLoudnessData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* loudnessDictionary);
   }; // PerceivedLoudnessPerLevelSO
   #pragma pack(pop)
   static check_size<sizeof(PerceivedLoudnessPerLevelSO), 24 + sizeof(::ArrayW<::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>)> __GlobalNamespace_PerceivedLoudnessPerLevelSOSizeCheck;
@@ -65,3 +78,20 @@ namespace GlobalNamespace {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::ToDictionary
+// Il2CppName: ToDictionary
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* (GlobalNamespace::PerceivedLoudnessPerLevelSO::*)()>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::ToDictionary)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelSO*), "ToDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::SetLoudnessData
+// Il2CppName: SetLoudnessData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PerceivedLoudnessPerLevelSO::*)(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>*)>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::SetLoudnessData)> {
+  static const MethodInfo* get() {
+    static auto* loudnessDictionary = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelSO*), "SetLoudnessData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loudnessDictionary});
+  }
+};

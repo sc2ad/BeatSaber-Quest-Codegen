@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Mesh_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Mesh ToTestObject(UnityEngine.Mesh self)
-    // Offset: 0x2AC1470
+    // Offset: 0x2AEAA14
     static ::HoudiniEngineUnity::Test_Mesh* ToTestObject(::UnityEngine::Mesh* self);
     // static public HoudiniEngineUnity.Test_Mesh[] ToTestObject(UnityEngine.Mesh[] self)
-    // Offset: 0x2AC1D80
+    // Offset: 0x2AEB324
     static ::ArrayW<::HoudiniEngineUnity::Test_Mesh*> ToTestObject(::ArrayW<::UnityEngine::Mesh*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Mesh> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Mesh> self)
-    // Offset: 0x2AC1E6C
+    // Offset: 0x2AEB410
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Mesh*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* self);
   }; // HoudiniEngineUnity.Test_Mesh_Extensions
   #pragma pack(pop)

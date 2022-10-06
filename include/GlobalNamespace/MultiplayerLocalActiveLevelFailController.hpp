@@ -61,35 +61,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LevelFailedTextEffect* levelFailedTextEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelFailedTextEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAF20
+    // [InjectAttribute] Offset: 0x110270C
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* levelEndActionsPublisher;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAF30
+    // [InjectAttribute] Offset: 0x110271C
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAF40
+    // [InjectAttribute] Offset: 0x110272C
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAF50
+    // [InjectAttribute] Offset: 0x110273C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAF60
+    // [InjectAttribute] Offset: 0x110274C
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x40
@@ -112,23 +112,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerPlayersManager*& dyn__multiplayerPlayersManager();
     // public System.Void .ctor()
-    // Offset: 0x1436D58
+    // Offset: 0x143B830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveLevelFailController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActiveLevelFailController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveLevelFailController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1436A78
+    // Offset: 0x143B550
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1436B68
+    // Offset: 0x143B640
     void OnDestroy();
     // private System.Collections.IEnumerator PlayerFailedCoroutine()
-    // Offset: 0x1436C68
+    // Offset: 0x143B740
     ::System::Collections::IEnumerator* PlayerFailedCoroutine();
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x1436D04
+    // Offset: 0x143B7DC
     void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
   }; // MultiplayerLocalActiveLevelFailController
   #pragma pack(pop)

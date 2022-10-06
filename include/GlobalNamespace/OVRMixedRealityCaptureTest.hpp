@@ -132,23 +132,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRPlugin/Fovf defaultFov
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Fovf& dyn_defaultFov();
     // public System.Void .ctor()
-    // Offset: 0x1719A64
+    // Offset: 0x1735B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRMixedRealityCaptureTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRMixedRealityCaptureTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRMixedRealityCaptureTest*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x17180E0
+    // Offset: 0x173419C
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x1718190
+    // Offset: 0x173424C
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x17185C0
+    // Offset: 0x173467C
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x1718E30
+    // Offset: 0x1734EEC
     void Update();
   }; // OVRMixedRealityCaptureTest
   #pragma pack(pop)

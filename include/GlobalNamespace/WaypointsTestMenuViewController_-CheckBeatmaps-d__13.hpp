@@ -143,35 +143,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty <difficulty>5__9
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$5__9();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2560954
+    // Offset: 0x218FFFC
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x25609BC
+    // Offset: 0x2190064
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x255FE8C
+    // Offset: 0x218F534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointsTestMenuViewController::$CheckBeatmaps$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointsTestMenuViewController::$CheckBeatmaps$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2560048
+    // Offset: 0x218F6F0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2560244
+    // Offset: 0x218F8EC
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x25601EC
+    // Offset: 0x218F894
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x2560194
+    // Offset: 0x218F83C
     void $$m__Finally2();
     // private System.Void <>m__Finally3()
-    // Offset: 0x256013C
+    // Offset: 0x218F7E4
     void $$m__Finally3();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x256095C
+    // Offset: 0x2190004
     void System_Collections_IEnumerator_Reset();
   }; // WaypointsTestMenuViewController/<CheckBeatmaps>d__13
   // WARNING Not writing size check since size may be invalid!

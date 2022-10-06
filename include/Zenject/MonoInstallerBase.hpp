@@ -61,32 +61,32 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer <Container>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_$Container$k__BackingField();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1C08A4C
+    // Offset: 0x1C40F80
     ::Zenject::DiContainer* get_Container();
     // protected System.Void set_Container(Zenject.DiContainer value)
-    // Offset: 0x1C08A54
+    // Offset: 0x1C40F88
     void set_Container(::Zenject::DiContainer* value);
     // public System.Boolean get_IsEnabled()
-    // Offset: 0x1C08A5C
+    // Offset: 0x1C40F90
     bool get_IsEnabled();
     // public System.Void .ctor()
-    // Offset: 0x1C08910
+    // Offset: 0x1C40E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoInstallerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoInstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoInstallerBase*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x1C08A64
+    // Offset: 0x1C40F98
     void Start();
     // public System.Void InstallBindings()
-    // Offset: 0x1C08A68
+    // Offset: 0x1C40F9C
     void InstallBindings();
     // static private System.Void __zenPropertySetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C08AC8
+    // Offset: 0x1C40FFC
     static void __zenPropertySetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C08B9C
+    // Offset: 0x1C410D0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.MonoInstallerBase
   #pragma pack(pop)

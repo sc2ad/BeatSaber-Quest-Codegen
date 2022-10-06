@@ -67,32 +67,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__sourceDataPoints();
     // public System.Collections.Generic.List`1<BezierCurve> get_segments()
-    // Offset: 0x1353BD0
+    // Offset: 0x13824D0
     ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* get_segments();
     // public System.Void .ctor()
-    // Offset: 0x1350D6C
+    // Offset: 0x137F4D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSpline* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSpline::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline*, creationType>()));
     }
     // public System.Void AddPoint(System.Single distance, UnityEngine.Vector2 point)
-    // Offset: 0x1351158
+    // Offset: 0x137F8BC
     void AddPoint(float distance, ::UnityEngine::Vector2 point);
     // public System.Void SortSourceData()
-    // Offset: 0x1353BD8
+    // Offset: 0x13824D8
     void SortSourceData();
     // public System.Void AddArtificialStartAndFinishPoint()
-    // Offset: 0x1351204
+    // Offset: 0x137F968
     void AddArtificialStartAndFinishPoint();
     // public System.Void ComputeControlPoints()
-    // Offset: 0x13513B0
+    // Offset: 0x137FB14
     void ComputeControlPoints();
     // public System.Void Clear()
-    // Offset: 0x13542A0
+    // Offset: 0x1382BA0
     void Clear();
     // private BezierSpline/ComputeControlPointsResults ComputeControlPoints(System.Collections.Generic.List`1<System.Single> k)
-    // Offset: 0x1353CD0
+    // Offset: 0x13825D0
     ::GlobalNamespace::BezierSpline::ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float>* k);
   }; // BezierSpline
   #pragma pack(pop)

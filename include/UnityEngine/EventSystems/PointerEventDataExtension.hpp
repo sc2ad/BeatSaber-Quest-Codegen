@@ -38,16 +38,16 @@ namespace UnityEngine::EventSystems {
   class PointerEventDataExtension : public ::Il2CppObject {
     public:
     // static public System.Boolean IsVRPointer(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x25389EC
+    // Offset: 0x25362FC
     static bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public UnityEngine.Ray GetRay(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x253B01C
+    // Offset: 0x253892C
     static ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public UnityEngine.Vector2 GetSwipeStart(UnityEngine.EventSystems.PointerEventData pointerEventData)
-    // Offset: 0x253A414
+    // Offset: 0x2537D24
     static ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
     // static public System.Void SetSwipeStart(UnityEngine.EventSystems.PointerEventData pointerEventData, UnityEngine.Vector2 start)
-    // Offset: 0x2538A6C
+    // Offset: 0x253637C
     static void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
   }; // UnityEngine.EventSystems.PointerEventDataExtension
   #pragma pack(pop)

@@ -42,16 +42,16 @@ namespace TMPro {
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedFontAssets
     static void _set_k_searchedFontAssets(::System::Collections::Generic::List_1<int>* value);
     // static public TMPro.TMP_FontAsset SearchForCharacter(TMPro.TMP_FontAsset font, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x144B80C
+    // Offset: 0x145076C
     static ::TMPro::TMP_FontAsset* SearchForCharacter(::TMPro::TMP_FontAsset* font, uint unicode, ByRef<::TMPro::TMP_Character*> character);
     // static public TMPro.TMP_FontAsset SearchForCharacter(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fonts, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x144BAFC
+    // Offset: 0x1450A5C
     static ::TMPro::TMP_FontAsset* SearchForCharacter(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fonts, uint unicode, ByRef<::TMPro::TMP_Character*> character);
     // static private TMPro.TMP_FontAsset SearchForCharacterInternal(TMPro.TMP_FontAsset font, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x144B8DC
+    // Offset: 0x145083C
     static ::TMPro::TMP_FontAsset* SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint unicode, ByRef<::TMPro::TMP_Character*> character);
     // static private TMPro.TMP_FontAsset SearchForCharacterInternal(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fonts, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x144BB00
+    // Offset: 0x1450A60
     static ::TMPro::TMP_FontAsset* SearchForCharacterInternal(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fonts, uint unicode, ByRef<::TMPro::TMP_Character*> character);
   }; // TMPro.TMP_FontUtilities
   #pragma pack(pop)

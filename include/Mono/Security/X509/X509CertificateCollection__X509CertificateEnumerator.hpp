@@ -55,26 +55,26 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Collections.IEnumerator enumerator
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_enumerator();
     // public Mono.Security.X509.X509Certificate get_Current()
-    // Offset: 0x1F989CC
+    // Offset: 0x1FC60FC
     ::Mono::Security::X509::X509Certificate_* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1F9EA90
+    // Offset: 0x1FCC1C0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(Mono.Security.X509.X509CertificateCollection mappings)
-    // Offset: 0x1F9E970
+    // Offset: 0x1FCC0A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection_::X509CertificateEnumerator* New_ctor(::Mono::Security::X509::X509CertificateCollection_* mappings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509CertificateCollection_::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection_::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1F9EB44
+    // Offset: 0x1FCC274
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1F9EBF4
+    // Offset: 0x1FCC324
     void System_Collections_IEnumerator_Reset();
     // public System.Boolean MoveNext()
-    // Offset: 0x1F98D6C
+    // Offset: 0x1FC649C
     bool MoveNext();
   }; // Mono.Security.X509.X509CertificateCollection/Mono.Security.X509.X509CertificateEnumerator
   #pragma pack(pop)

@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public EnvironmentShaderWarmup <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentShaderWarmup*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1369504
+    // Offset: 0x1397768
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x136956C
+    // Offset: 0x13977D0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x136909C
+    // Offset: 0x1397300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentShaderWarmup::$Start$d__6* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentShaderWarmup::$Start$d__6::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentShaderWarmup::$Start$d__6*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13690D0
+    // Offset: 0x1397334
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13690D4
+    // Offset: 0x1397338
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x136950C
+    // Offset: 0x1397770
     void System_Collections_IEnumerator_Reset();
   }; // EnvironmentShaderWarmup/<Start>d__6
   #pragma pack(pop)

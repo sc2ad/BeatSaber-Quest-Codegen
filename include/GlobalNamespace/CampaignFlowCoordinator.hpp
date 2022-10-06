@@ -37,6 +37,8 @@ namespace GlobalNamespace {
   class MissionLevelScenesTransitionSetupDataSO;
   // Forward declaring type: MissionCompletionResults
   class MissionCompletionResults;
+  // Forward declaring type: MissionNode
+  class MissionNode;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -92,56 +94,56 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* newObjectiveLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF38
+    // [InjectAttribute] Offset: 0x1107774
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xC8
     ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF48
+    // [InjectAttribute] Offset: 0x1107784
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0xD0
     ::GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF58
+    // [InjectAttribute] Offset: 0x1107794
     // private readonly MissionSelectionNavigationController _missionSelectionNavigationController
     // Size: 0x8
     // Offset: 0xD8
     ::GlobalNamespace::MissionSelectionNavigationController* missionSelectionNavigationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionSelectionNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF68
+    // [InjectAttribute] Offset: 0x11077A4
     // private readonly MissionResultsViewController _missionResultsViewController
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::MissionResultsViewController* missionResultsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF78
+    // [InjectAttribute] Offset: 0x11077B4
     // private readonly GameplaySetupViewController _gameplaySetupViewController
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::GameplaySetupViewController* gameplaySetupViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplaySetupViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF88
+    // [InjectAttribute] Offset: 0x11077C4
     // private readonly MissionHelpViewController _missionHelpViewController
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::MissionHelpViewController* missionHelpViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionHelpViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFF98
+    // [InjectAttribute] Offset: 0x11077D4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EFFA8
+    // [InjectAttribute] Offset: 0x11077E4
     // private readonly CampaignProgressModel _campaignProgressModel
     // Size: 0x8
     // Offset: 0x100
@@ -190,59 +192,65 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showCredits
     [[deprecated("Use field access instead!")]] bool& dyn__showCredits();
     // public System.Void add_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0x135C5A8
+    // Offset: 0x138AEA8
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CampaignFlowCoordinator> value)
-    // Offset: 0x135C650
+    // Offset: 0x138AF50
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
     // public System.Void .ctor()
-    // Offset: 0x135D318
+    // Offset: 0x138BC9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CampaignFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CampaignFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CampaignFlowCoordinator*, creationType>()));
     }
     // private System.Void HandleMissionSelectionNavigationControllerDidPressPlayButton(MissionSelectionNavigationController viewController)
-    // Offset: 0x135CB98
+    // Offset: 0x138B498
     void HandleMissionSelectionNavigationControllerDidPressPlayButton(::GlobalNamespace::MissionSelectionNavigationController* viewController);
     // private System.Void HandleMissionHelpViewControllerDidFinish(MissionHelpViewController viewController)
-    // Offset: 0x135CE68
+    // Offset: 0x138B790
     void HandleMissionHelpViewControllerDidFinish(::GlobalNamespace::MissionHelpViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerContinueButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0x135CF18
+    // Offset: 0x138B840
     void HandleMissionResultsViewControllerContinueButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void HandleMissionResultsViewControllerRetryButtonPressed(MissionResultsViewController viewController)
-    // Offset: 0x135CFC4
+    // Offset: 0x138B8EC
     void HandleMissionResultsViewControllerRetryButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
     // private System.Void StartLevel(System.Action beforeSceneSwitchCallback)
-    // Offset: 0x135CCD4
+    // Offset: 0x138B5D4
     void StartLevel(::System::Action* beforeSceneSwitchCallback);
     // private System.Void HandleMissionLevelSceneDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x135D088
+    // Offset: 0x138B9B0
     void HandleMissionLevelSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
+    // private System.Void HandleMissionLevelSceneRestarted(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
+    // Offset: 0x138BB5C
+    void HandleMissionLevelSceneRestarted(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
+    // private System.Void UpdatePlayerStatistics(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
+    // Offset: 0x138BA94
+    void UpdatePlayerStatistics(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_0()
-    // Offset: 0x135D320
+    // Offset: 0x138BCA4
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_0();
     // private System.Void <HandleMissionResultsViewControllerContinueButtonPressed>b__21_1(System.Boolean presented)
-    // Offset: 0x135D3B4
+    // Offset: 0x138BD38
     void $HandleMissionResultsViewControllerContinueButtonPressed$b__21_1(bool presented);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x135C6F8
+    // Offset: 0x138AFF8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x135C910
+    // Offset: 0x138B210
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x135CA9C
+    // Offset: 0x138B39C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x135D26C
+    // Offset: 0x138BBF0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(::HMUI::ViewController* topViewController);
@@ -327,6 +335,26 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* missionLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignFlowCoordinator*), "HandleMissionLevelSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionLevelScenesTransitionSetupData, missionCompletionResults});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::HandleMissionLevelSceneRestarted
+// Il2CppName: HandleMissionLevelSceneRestarted
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::CampaignFlowCoordinator::HandleMissionLevelSceneRestarted)> {
+  static const MethodInfo* get() {
+    static auto* missionLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO")->byval_arg;
+    static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignFlowCoordinator*), "HandleMissionLevelSceneRestarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionLevelScenesTransitionSetupData, missionCompletionResults});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::UpdatePlayerStatistics
+// Il2CppName: UpdatePlayerStatistics
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*)>(&GlobalNamespace::CampaignFlowCoordinator::UpdatePlayerStatistics)> {
+  static const MethodInfo* get() {
+    static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
+    static auto* missionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignFlowCoordinator*), "UpdatePlayerStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionCompletionResults, missionNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::$HandleMissionResultsViewControllerContinueButtonPressed$b__21_0

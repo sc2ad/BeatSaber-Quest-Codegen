@@ -99,41 +99,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> _gameplayModifiersData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*& dyn__gameplayModifiersData();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<GameplayModifierMask,System.String>> get_gameplayModifiersData()
-    // Offset: 0x13DE1E4
+    // Offset: 0x1422C80
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* get_gameplayModifiersData();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DE09C
+    // Offset: 0x1422B38
     void add_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13DE140
+    // Offset: 0x1422BDC
     void remove_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void .ctor()
-    // Offset: 0x13DE7AC
+    // Offset: 0x1423248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersDropdown*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13DE358
+    // Offset: 0x1422DF4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13DE4D8
+    // Offset: 0x1422F74
     void OnDestroy();
     // public GameplayModifierMask GetSelectedGameplayModifierMask()
-    // Offset: 0x13DAA34
+    // Offset: 0x141F4D0
     ::GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
     // public System.Void SelectCellWithGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x13DAD90
+    // Offset: 0x141F82C
     void SelectCellWithGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Int32 GetIdxForGameplayModifierMask(GameplayModifierMask gameplayModifierMask)
-    // Offset: 0x13DE5B4
+    // Offset: 0x1423050
     int GetIdxForGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x13DE738
+    // Offset: 0x14231D4
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Tuple`2<GameplayModifierMask,System.String> <get_gameplayModifiersData>b__7_0(GameplayModifierMask value)
-    // Offset: 0x13DE7B4
+    // Offset: 0x1423250
     ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* $get_gameplayModifiersData$b__7_0(::GlobalNamespace::GameplayModifierMask value);
   }; // GameplayModifiersDropdown
   #pragma pack(pop)

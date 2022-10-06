@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class OVRHandTest::BoolMonitor::BoolGenerator : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x19FD1C4
+    // Offset: 0x1A03B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::BoolMonitor::BoolGenerator* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::BoolMonitor::BoolGenerator*, creationType>(object, method)));
     }
     // public System.Boolean Invoke()
-    // Offset: 0x19FE250
+    // Offset: 0x1A04B94
     bool Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x19FE468
+    // Offset: 0x1A04DAC
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x19FE494
+    // Offset: 0x1A04DD8
     bool EndInvoke(::System::IAsyncResult* result);
   }; // OVRHandTest/BoolMonitor/BoolGenerator
   #pragma pack(pop)

@@ -325,270 +325,270 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didIncreaseNumberOfGameplaysEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didIncreaseNumberOfGameplaysEvent();
     // public System.String get_playerId()
-    // Offset: 0x134DD68
+    // Offset: 0x14D32D8
     ::StringW get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x134DD70
+    // Offset: 0x14D32E0
     void set_playerId(::StringW value);
     // public System.String get_playerName()
-    // Offset: 0x134DD78
+    // Offset: 0x14D32E8
     ::StringW get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x134DD80
+    // Offset: 0x14D32F0
     void set_playerName(::StringW value);
     // public System.Boolean get_shouldShowTutorialPrompt()
-    // Offset: 0x134DD88
+    // Offset: 0x14D32F8
     bool get_shouldShowTutorialPrompt();
     // private System.Void set_shouldShowTutorialPrompt(System.Boolean value)
-    // Offset: 0x134DD90
+    // Offset: 0x14D3300
     void set_shouldShowTutorialPrompt(bool value);
     // public System.Boolean get_shouldShow360Warning()
-    // Offset: 0x134DD9C
+    // Offset: 0x14D330C
     bool get_shouldShow360Warning();
     // private System.Void set_shouldShow360Warning(System.Boolean value)
-    // Offset: 0x134DDA4
+    // Offset: 0x14D3314
     void set_shouldShow360Warning(bool value);
     // public System.Boolean get_agreedToEula()
-    // Offset: 0x134DDB0
+    // Offset: 0x14D3320
     bool get_agreedToEula();
     // private System.Void set_agreedToEula(System.Boolean value)
-    // Offset: 0x134DDB8
+    // Offset: 0x14D3328
     void set_agreedToEula(bool value);
     // public System.Boolean get_didSelectLanguage()
-    // Offset: 0x134DDC4
+    // Offset: 0x14D3334
     bool get_didSelectLanguage();
     // private System.Void set_didSelectLanguage(System.Boolean value)
-    // Offset: 0x134DDCC
+    // Offset: 0x14D333C
     void set_didSelectLanguage(bool value);
     // public System.Boolean get_agreedToMultiplayerDisclaimer()
-    // Offset: 0x134DDD8
+    // Offset: 0x14D3348
     bool get_agreedToMultiplayerDisclaimer();
     // private System.Void set_agreedToMultiplayerDisclaimer(System.Boolean value)
-    // Offset: 0x134DDE0
+    // Offset: 0x14D3350
     void set_agreedToMultiplayerDisclaimer(bool value);
     // public System.Boolean get_avatarCreated()
-    // Offset: 0x134DDEC
+    // Offset: 0x14D335C
     bool get_avatarCreated();
     // private System.Void set_avatarCreated(System.Boolean value)
-    // Offset: 0x134DDF4
+    // Offset: 0x14D3364
     void set_avatarCreated(bool value);
     // public System.Int32 get_didSelectRegionVersion()
-    // Offset: 0x134DE00
+    // Offset: 0x14D3370
     int get_didSelectRegionVersion();
     // private System.Void set_didSelectRegionVersion(System.Int32 value)
-    // Offset: 0x134DE08
+    // Offset: 0x14D3378
     void set_didSelectRegionVersion(int value);
     // public PlayerAgreements get_playerAgreements()
-    // Offset: 0x134DE10
+    // Offset: 0x14D3380
     ::GlobalNamespace::PlayerAgreements* get_playerAgreements();
     // private System.Void set_playerAgreements(PlayerAgreements value)
-    // Offset: 0x134DE18
+    // Offset: 0x14D3388
     void set_playerAgreements(::GlobalNamespace::PlayerAgreements* value);
     // public BeatmapDifficulty get_lastSelectedBeatmapDifficulty()
-    // Offset: 0x134DE20
+    // Offset: 0x14D3390
     ::GlobalNamespace::BeatmapDifficulty get_lastSelectedBeatmapDifficulty();
     // private System.Void set_lastSelectedBeatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x134DE28
+    // Offset: 0x14D3398
     void set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public BeatmapCharacteristicSO get_lastSelectedBeatmapCharacteristic()
-    // Offset: 0x134DE30
+    // Offset: 0x14D33A0
     ::GlobalNamespace::BeatmapCharacteristicSO* get_lastSelectedBeatmapCharacteristic();
     // private System.Void set_lastSelectedBeatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x134DE38
+    // Offset: 0x14D33A8
     void set_lastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x134DE40
+    // Offset: 0x14D33B0
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x134DE48
+    // Offset: 0x14D33B8
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x134DE50
+    // Offset: 0x14D33C0
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x134DE58
+    // Offset: 0x14D33C8
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x134DE60
+    // Offset: 0x14D33D0
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x134DE68
+    // Offset: 0x14D33D8
     void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public PlayerAllOverallStatsData get_playerAllOverallStatsData()
-    // Offset: 0x134DE70
+    // Offset: 0x14D33E0
     ::GlobalNamespace::PlayerAllOverallStatsData* get_playerAllOverallStatsData();
     // private System.Void set_playerAllOverallStatsData(PlayerAllOverallStatsData value)
-    // Offset: 0x134DE78
+    // Offset: 0x14D33E8
     void set_playerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* value);
     // public System.Collections.Generic.List`1<PlayerLevelStatsData> get_levelsStatsData()
-    // Offset: 0x134DE80
+    // Offset: 0x14D33F0
     ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* get_levelsStatsData();
     // private System.Void set_levelsStatsData(System.Collections.Generic.List`1<PlayerLevelStatsData> value)
-    // Offset: 0x134DE88
+    // Offset: 0x14D33F8
     void set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* value);
     // public System.Collections.Generic.List`1<PlayerMissionStatsData> get_missionsStatsData()
-    // Offset: 0x134DE90
+    // Offset: 0x14D3400
     ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* get_missionsStatsData();
     // private System.Void set_missionsStatsData(System.Collections.Generic.List`1<PlayerMissionStatsData> value)
-    // Offset: 0x134DE98
+    // Offset: 0x14D3408
     void set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* value);
     // public System.Collections.Generic.List`1<System.String> get_showedMissionHelpIds()
-    // Offset: 0x134DEA0
+    // Offset: 0x14D3410
     ::System::Collections::Generic::List_1<::StringW>* get_showedMissionHelpIds();
     // private System.Void set_showedMissionHelpIds(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x134DEA8
+    // Offset: 0x14D3418
     void set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
     // public System.Collections.Generic.List`1<System.String> get_guestPlayerNames()
-    // Offset: 0x134DEB0
+    // Offset: 0x14D3420
     ::System::Collections::Generic::List_1<::StringW>* get_guestPlayerNames();
     // private System.Void set_guestPlayerNames(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x134DEB8
+    // Offset: 0x14D3428
     void set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x134DEC0
+    // Offset: 0x14D3430
     ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // private System.Void set_colorSchemesSettings(ColorSchemesSettings value)
-    // Offset: 0x134DEC8
+    // Offset: 0x14D3438
     void set_colorSchemesSettings(::GlobalNamespace::ColorSchemesSettings* value);
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x134DED0
+    // Offset: 0x14D3440
     ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // private System.Void set_overrideEnvironmentSettings(OverrideEnvironmentSettings value)
-    // Offset: 0x134DED8
+    // Offset: 0x14D3448
     void set_overrideEnvironmentSettings(::GlobalNamespace::OverrideEnvironmentSettings* value);
     // public System.Collections.Generic.HashSet`1<System.String> get_favoritesLevelIds()
-    // Offset: 0x134DEE0
+    // Offset: 0x14D3450
     ::System::Collections::Generic::HashSet_1<::StringW>* get_favoritesLevelIds();
     // private System.Void set_favoritesLevelIds(System.Collections.Generic.HashSet`1<System.String> value)
-    // Offset: 0x134DEE8
+    // Offset: 0x14D3458
     void set_favoritesLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x134DEF0
+    // Offset: 0x14D3460
     ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // private System.Void set_multiplayerModeSettings(MultiplayerModeSettings value)
-    // Offset: 0x134DEF8
+    // Offset: 0x14D3468
     void set_multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
     // public System.Int32 get_currentDlcPromoDisplayCount()
-    // Offset: 0x134DF00
+    // Offset: 0x14D3470
     int get_currentDlcPromoDisplayCount();
     // private System.Void set_currentDlcPromoDisplayCount(System.Int32 value)
-    // Offset: 0x134DF08
+    // Offset: 0x14D3478
     void set_currentDlcPromoDisplayCount(int value);
     // public System.String get_currentDlcPromoId()
-    // Offset: 0x134DF10
+    // Offset: 0x14D3480
     ::StringW get_currentDlcPromoId();
     // private System.Void set_currentDlcPromoId(System.String value)
-    // Offset: 0x134DF18
+    // Offset: 0x14D3488
     void set_currentDlcPromoId(::StringW value);
     // public System.Void add_favoriteLevelsSetDidChangeEvent(System.Action value)
-    // Offset: 0x134DF20
+    // Offset: 0x14D3490
     void add_favoriteLevelsSetDidChangeEvent(::System::Action* value);
     // public System.Void remove_favoriteLevelsSetDidChangeEvent(System.Action value)
-    // Offset: 0x134DFC4
+    // Offset: 0x14D3534
     void remove_favoriteLevelsSetDidChangeEvent(::System::Action* value);
     // public System.Void add_didIncreaseNumberOfGameplaysEvent(System.Action value)
-    // Offset: 0x134E068
+    // Offset: 0x14D35D8
     void add_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
     // public System.Void remove_didIncreaseNumberOfGameplaysEvent(System.Action value)
-    // Offset: 0x134E10C
+    // Offset: 0x14D367C
     void remove_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
     // public System.Void .ctor(System.String playerId, System.String playerName, BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, ColorSchemesSettings colorSchemesSettings, OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x134E1B0
+    // Offset: 0x14D3720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, ::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerData*, creationType>(playerId, playerName, lastSelectedBeatmapCharacteristic, colorSchemesSettings, overrideEnvironmentSettings)));
     }
     // public System.Void .ctor(System.String playerId, System.String playerName, System.Boolean shouldShowTutorialPrompt, System.Boolean shouldShow360Warning, System.Boolean agreedToEula, System.Boolean didSelectLanguage, System.Boolean agreedToMultiplayerDisclaimer, System.Boolean avatarCreated, System.Int32 didSelectRegionVersion, PlayerAgreements playerAgreements, BeatmapDifficulty lastSelectedBeatmapDifficulty, BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, PlayerAllOverallStatsData playerAllOverallStatsData, System.Collections.Generic.List`1<PlayerLevelStatsData> levelsStatsData, System.Collections.Generic.List`1<PlayerMissionStatsData> missionsStatsData, System.Collections.Generic.List`1<System.String> showedMissionHelpIds, System.Collections.Generic.List`1<System.String> guestPlayerNames, ColorSchemesSettings colorSchemesSettings, OverrideEnvironmentSettings overrideEnvironmentSettings, System.Collections.Generic.List`1<System.String> favoritesLevelIds, MultiplayerModeSettings multiplayerModeSettings, System.Int32 currentDlcPromoDisplayCount, System.String currentDlcPromoId)
-    // Offset: 0x134E3C4
+    // Offset: 0x14D3A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, int didSelectRegionVersion, ::GlobalNamespace::PlayerAgreements* playerAgreements, ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData, ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds, ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings, int currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerData*, creationType>(playerId, playerName, shouldShowTutorialPrompt, shouldShow360Warning, agreedToEula, didSelectLanguage, agreedToMultiplayerDisclaimer, avatarCreated, didSelectRegionVersion, playerAgreements, lastSelectedBeatmapDifficulty, lastSelectedBeatmapCharacteristic, gameplayModifiers, playerSpecificSettings, practiceSettings, playerAllOverallStatsData, levelsStatsData, missionsStatsData, showedMissionHelpIds, guestPlayerNames, colorSchemesSettings, overrideEnvironmentSettings, favoritesLevelIds, multiplayerModeSettings, currentDlcPromoDisplayCount, currentDlcPromoId)));
     }
     // public System.Void SetNewDlcPromo(System.String dlcPromoId)
-    // Offset: 0x134E5D0
+    // Offset: 0x14D3C58
     void SetNewDlcPromo(::StringW dlcPromoId);
     // public System.Void IncreaseCurrentDlcPromoDisplayCount()
-    // Offset: 0x134E5DC
+    // Offset: 0x14D3C64
     void IncreaseCurrentDlcPromoDisplayCount();
     // public PlayerLevelStatsData GetPlayerLevelStatsData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1343C20
+    // Offset: 0x14D3C74
     ::GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public PlayerLevelStatsData GetPlayerLevelStatsData(System.String levelId, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x134E5EC
+    // Offset: 0x14D3EF0
     ::GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(::StringW levelId, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public PlayerMissionStatsData GetPlayerMissionStatsData(System.String missionId)
-    // Offset: 0x134E7BC
+    // Offset: 0x14D4104
     ::GlobalNamespace::PlayerMissionStatsData* GetPlayerMissionStatsData(::StringW missionId);
     // public System.Boolean WasMissionHelpShowed(MissionHelpSO missionHelp)
-    // Offset: 0x134E924
+    // Offset: 0x14D42AC
     bool WasMissionHelpShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void MissionHelpWasShowed(MissionHelpSO missionHelp)
-    // Offset: 0x134E990
+    // Offset: 0x14D4318
     void MissionHelpWasShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void IncreaseNumberOfGameplays(PlayerLevelStatsData playerLevelStats)
-    // Offset: 0x1343E9C
+    // Offset: 0x14D43B4
     void IncreaseNumberOfGameplays(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
     // public System.Boolean IsLevelUserFavorite(IPreviewBeatmapLevel level)
-    // Offset: 0x134EA2C
+    // Offset: 0x14D43F4
     bool IsLevelUserFavorite(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void AddLevelToFavorites(IPreviewBeatmapLevel level)
-    // Offset: 0x134EB04
+    // Offset: 0x14D44CC
     void AddLevelToFavorites(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void RemoveLevelFromFavorites(IPreviewBeatmapLevel level)
-    // Offset: 0x134EC0C
+    // Offset: 0x14D45D4
     void RemoveLevelFromFavorites(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void MarkTutorialAsShown()
-    // Offset: 0x134ED14
+    // Offset: 0x14D46DC
     void MarkTutorialAsShown();
     // public System.Void Mark360WarningAsShown()
-    // Offset: 0x134ED1C
+    // Offset: 0x14D46E4
     void Mark360WarningAsShown();
     // public System.Void MarkEulaAsAgreed()
-    // Offset: 0x134ED24
+    // Offset: 0x14D46EC
     void MarkEulaAsAgreed();
     // public System.Void MarkLanguageAsSelected()
-    // Offset: 0x134ED44
+    // Offset: 0x14D4708
     void MarkLanguageAsSelected();
     // public System.Void MarkRegionAsSelected(System.Int32 version)
-    // Offset: 0x134ED50
+    // Offset: 0x14D4714
     void MarkRegionAsSelected(int version);
     // public System.Void MarkMultiplayerDisclaimerAsAgreed()
-    // Offset: 0x134ED58
+    // Offset: 0x14D471C
     void MarkMultiplayerDisclaimerAsAgreed();
     // public System.Void MarkPrivacyPolicyAsAgreed()
-    // Offset: 0x134ED64
+    // Offset: 0x14D4728
     void MarkPrivacyPolicyAsAgreed();
     // public System.Void MarkHealthAndSafetyAsAgreed()
-    // Offset: 0x134ED84
+    // Offset: 0x14D4744
     void MarkHealthAndSafetyAsAgreed();
     // public System.Void MarkAvatarCreated()
-    // Offset: 0x134EDA4
+    // Offset: 0x14D4760
     void MarkAvatarCreated();
     // public System.Void AddGuestPlayerName(System.String guestPlayerName)
-    // Offset: 0x134EDB0
+    // Offset: 0x14D476C
     void AddGuestPlayerName(::StringW guestPlayerName);
     // public System.Void DeleteAllGuestPlayers()
-    // Offset: 0x134EF08
+    // Offset: 0x14D48C4
     void DeleteAllGuestPlayers();
     // public System.Void SetLastSelectedBeatmapDifficulty(BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x134EF60
+    // Offset: 0x14D491C
     void SetLastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // public System.Void SetLastSelectedBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x134EF68
+    // Offset: 0x14D4924
     void SetLastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void SetGameplayModifiers(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x134EF70
+    // Offset: 0x14D492C
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // public System.Void SetPlayerSpecificSettings(PlayerSpecificSettings newPlayerSpecificSettings)
-    // Offset: 0x134EF78
+    // Offset: 0x14D4934
     void SetPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* newPlayerSpecificSettings);
     // public System.Void SetMultiplayerModeSettings(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x134EF80
+    // Offset: 0x14D493C
     void SetMultiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // public System.Boolean DidSelectRegion()
-    // Offset: 0x134EF88
+    // Offset: 0x14D4944
     bool DidSelectRegion();
   }; // PlayerData
   #pragma pack(pop)

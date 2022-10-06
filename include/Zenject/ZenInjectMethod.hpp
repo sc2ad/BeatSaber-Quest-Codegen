@@ -39,20 +39,20 @@ namespace Zenject {
   class ZenInjectMethod : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B06EA8
+    // Offset: 0x2B36CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenInjectMethod* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenInjectMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenInjectMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object obj, System.Object[] args)
-    // Offset: 0x2B06EB8
+    // Offset: 0x2B36D04
     void Invoke(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B072A0
+    // Offset: 0x2B370EC
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B072D0
+    // Offset: 0x2B3711C
     void EndInvoke(::System::IAsyncResult* result);
   }; // Zenject.ZenInjectMethod
   #pragma pack(pop)

@@ -105,61 +105,61 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: private System.Boolean m_IsInitilized
     [[deprecated("Use field access instead!")]] bool& dyn_m_IsInitilized();
     // static public UnityEngine.Networking.PlayerConnection.PlayerConnection get_instance()
-    // Offset: 0x2062EA0
+    // Offset: 0x20DAC34
     static ::UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();
     // public System.Boolean get_isConnected()
-    // Offset: 0x206305C
+    // Offset: 0x20DADF0
     bool get_isConnected();
     // static private UnityEngine.Networking.PlayerConnection.PlayerConnection CreateInstance()
-    // Offset: 0x2062FAC
+    // Offset: 0x20DAD40
     static ::UnityEngine::Networking::PlayerConnection::PlayerConnection* CreateInstance();
     // public System.Void OnEnable()
-    // Offset: 0x20631D4
+    // Offset: 0x20DAF68
     void OnEnable();
     // private UnityEngine.IPlayerEditorConnectionNative GetConnectionNativeApi()
-    // Offset: 0x2063110
+    // Offset: 0x20DAEA4
     ::UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
     // public System.Void Register(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x20632A4
+    // Offset: 0x20DB038
     void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void Unregister(System.Guid messageId, UnityEngine.Events.UnityAction`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> callback)
-    // Offset: 0x2063614
+    // Offset: 0x20DB3A8
     void Unregister(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
     // public System.Void RegisterConnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x20638E4
+    // Offset: 0x20DB678
     void RegisterConnection(::UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void RegisterDisconnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x2063A28
+    // Offset: 0x20DB7BC
     void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void UnregisterConnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x2063A98
+    // Offset: 0x20DB82C
     void UnregisterConnection(::UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void UnregisterDisconnection(UnityEngine.Events.UnityAction`1<System.Int32> callback)
-    // Offset: 0x2063B08
+    // Offset: 0x20DB89C
     void UnregisterDisconnection(::UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void Send(System.Guid messageId, System.Byte[] data)
-    // Offset: 0x2063B78
+    // Offset: 0x20DB90C
     void Send(::System::Guid messageId, ::ArrayW<uint8_t> data);
     // public System.Boolean TrySend(System.Guid messageId, System.Byte[] data)
-    // Offset: 0x2063CD8
+    // Offset: 0x20DBA6C
     bool TrySend(::System::Guid messageId, ::ArrayW<uint8_t> data);
     // public System.Boolean BlockUntilRecvMsg(System.Guid messageId, System.Int32 timeout)
-    // Offset: 0x2063E38
+    // Offset: 0x20DBBCC
     bool BlockUntilRecvMsg(::System::Guid messageId, int timeout);
     // public System.Void DisconnectAll()
-    // Offset: 0x2064044
+    // Offset: 0x20DBDD8
     void DisconnectAll();
     // static private System.Void MessageCallbackInternal(System.IntPtr data, System.UInt64 size, System.UInt64 guid, System.String messageId)
-    // Offset: 0x20640F8
+    // Offset: 0x20DBE8C
     static void MessageCallbackInternal(::System::IntPtr data, uint64_t size, uint64_t guid, ::StringW messageId);
     // static private System.Void ConnectedCallbackInternal(System.Int32 playerId)
-    // Offset: 0x20645CC
+    // Offset: 0x20DC360
     static void ConnectedCallbackInternal(int playerId);
     // static private System.Void DisconnectedCallback(System.Int32 playerId)
-    // Offset: 0x206465C
+    // Offset: 0x20DC3F0
     static void DisconnectedCallback(int playerId);
     // public System.Void .ctor()
-    // Offset: 0x20646EC
+    // Offset: 0x20DC480
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

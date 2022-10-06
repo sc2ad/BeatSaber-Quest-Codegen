@@ -40,14 +40,14 @@ namespace UnityEngine::Events {
   class BaseInvokableCall : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1FB2544
+    // Offset: 0x1FFA3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::BaseInvokableCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseInvokableCall*, creationType>()));
     }
     // protected System.Void .ctor(System.Object target, System.Reflection.MethodInfo function)
-    // Offset: 0x1FB254C
+    // Offset: 0x1FFA400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseInvokableCall* New_ctor(::Il2CppObject* target, ::System::Reflection::MethodInfo* function) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::BaseInvokableCall::.ctor");
@@ -66,7 +66,7 @@ namespace UnityEngine::Events {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg);
     }
     // static protected System.Boolean AllowInvoke(System.Delegate delegate)
-    // Offset: 0x1FB2608
+    // Offset: 0x1FFA4BC
     static bool AllowInvoke(::System::Delegate* delegate);
     // public System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFFFFFFFFFF

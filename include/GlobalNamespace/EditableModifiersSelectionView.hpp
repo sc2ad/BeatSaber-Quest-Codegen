@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   class EditableModifiersSelectionView : public ::GlobalNamespace::ModifiersSelectionView {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10F4D10
+    // [SpaceAttribute] Offset: 0x110C54C
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
     // Offset: 0x30
@@ -89,31 +89,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <showClearButton>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$showClearButton$k__BackingField();
     // public UnityEngine.UI.Button get_editButton()
-    // Offset: 0x14A0A64
+    // Offset: 0x1393D88
     ::UnityEngine::UI::Button* get_editButton();
     // public UnityEngine.UI.Button get_clearButton()
-    // Offset: 0x14A0A6C
+    // Offset: 0x1393D90
     ::UnityEngine::UI::Button* get_clearButton();
     // public System.Boolean get_interactable()
-    // Offset: 0x14A0A74
+    // Offset: 0x1393D98
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x14A0A7C
+    // Offset: 0x1393DA0
     void set_interactable(bool value);
     // public System.Boolean get_showClearButton()
-    // Offset: 0x14A0AE8
+    // Offset: 0x1393E0C
     bool get_showClearButton();
     // public System.Void set_showClearButton(System.Boolean value)
-    // Offset: 0x14A0AF0
+    // Offset: 0x1393E14
     void set_showClearButton(bool value);
     // public System.Void SetVisibility(System.Boolean visible)
-    // Offset: 0x14A0AFC
+    // Offset: 0x1393E20
     void SetVisibility(bool visible);
     // public System.Void Setup(System.Boolean showClearButton)
-    // Offset: 0x14A0B30
+    // Offset: 0x1393E54
     void Setup(bool showClearButton);
     // public System.Void .ctor()
-    // Offset: 0x14A0BAC
+    // Offset: 0x1393ED0
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EditableModifiersSelectionView*, creationType>()));
     }
     // public override System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14A0B3C
+    // Offset: 0x1393E60
     // Implemented from: ModifiersSelectionView
     // Base method: System.Void ModifiersSelectionView::SetGameplayModifiers(GameplayModifiers gameplayModifiers)
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);

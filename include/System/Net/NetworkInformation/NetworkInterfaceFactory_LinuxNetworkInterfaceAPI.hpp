@@ -39,13 +39,13 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
     // static private System.Void FreeInterfaceAddresses(System.IntPtr ifap)
-    // Offset: 0x1B6EB1C
+    // Offset: 0x1BA1798
     static void FreeInterfaceAddresses(::System::IntPtr ifap);
     // static private System.Int32 GetInterfaceAddresses(out System.IntPtr ifap)
-    // Offset: 0x1B6EBA0
+    // Offset: 0x1BA181C
     static int GetInterfaceAddresses(ByRef<::System::IntPtr> ifap);
     // public System.Void .ctor()
-    // Offset: 0x1B6EB04
+    // Offset: 0x1BA1780
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
@@ -55,7 +55,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1B6EC24
+    // Offset: 0x1BA18A0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();

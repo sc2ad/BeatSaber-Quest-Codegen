@@ -42,38 +42,38 @@ namespace OVR::OpenVR {
   class OpenVRInterop : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x164ADD8
+    // Offset: 0x1688BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVRInterop* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::OpenVRInterop::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVRInterop*, creationType>()));
     }
     // static System.UInt32 InitInternal(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType)
-    // Offset: 0x1649354
+    // Offset: 0x1687130
     static uint InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
     // static System.UInt32 InitInternal2(ref OVR.OpenVR.EVRInitError peError, OVR.OpenVR.EVRApplicationType eApplicationType, in System.String pStartupInfo)
-    // Offset: 0x16493E8
+    // Offset: 0x16871C4
     static uint InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRef<::StringW> pStartupInfo);
     // static System.Void ShutdownInternal()
-    // Offset: 0x16494A0
+    // Offset: 0x168727C
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0x1649514
+    // Offset: 0x16872F0
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1649594
+    // Offset: 0x1687370
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(OVR.OpenVR.EVRInitError error)
-    // Offset: 0x1649688
+    // Offset: 0x1687464
     static ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref OVR.OpenVR.EVRInitError peError)
-    // Offset: 0x164970C
+    // Offset: 0x16874E8
     static ::System::IntPtr GetGenericInterface(ByRef<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
     // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x16497B8
+    // Offset: 0x1687594
     static bool IsInterfaceVersionValid(ByRef<::StringW> pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0x1649858
+    // Offset: 0x1687634
     static uint GetInitToken();
   }; // OVR.OpenVR.OpenVRInterop
   #pragma pack(pop)

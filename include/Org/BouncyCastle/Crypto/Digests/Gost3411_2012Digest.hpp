@@ -138,59 +138,59 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_AlgorithmName();
     // protected System.Void .ctor(System.Byte[] IV)
-    // Offset: 0x22AB298
+    // Offset: 0x2319844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t> IV) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012Digest*, creationType>(IV)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x22ACC8C
+    // Offset: 0x231B238
     static void _cctor();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x22AB3A4
+    // Offset: 0x2319950
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Int32 GetByteLength()
-    // Offset: 0x22AB7EC
+    // Offset: 0x2319D98
     int GetByteLength();
     // public System.Int32 GetDigestSize()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int GetDigestSize();
     // public System.Void Reset()
-    // Offset: 0x22AB738
+    // Offset: 0x2319CE4
     void Reset();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x22AB7F4
+    // Offset: 0x2319DA0
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x22AB950
+    // Offset: 0x2319EFC
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x22AB9E0
+    // Offset: 0x2319F8C
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // private System.Void F(System.Byte[] V)
-    // Offset: 0x22ABB48
+    // Offset: 0x231A0F4
     void F(::ArrayW<uint8_t> V);
     // private System.Void xor512(System.Byte[] A, System.Byte[] B)
-    // Offset: 0x22ACAA8
+    // Offset: 0x231B054
     void xor512(::ArrayW<uint8_t> A, ::ArrayW<uint8_t> B);
     // private System.Void E(System.Byte[] K, System.Byte[] m)
-    // Offset: 0x22ACB14
+    // Offset: 0x231B0C0
     void E(::ArrayW<uint8_t> K, ::ArrayW<uint8_t> m);
     // private System.Void g_N(System.Byte[] h, System.Byte[] N, System.Byte[] m)
-    // Offset: 0x22AB540
+    // Offset: 0x2319AEC
     void g_N(::ArrayW<uint8_t> h, ::ArrayW<uint8_t> N, ::ArrayW<uint8_t> m);
     // private System.Void addMod512(System.Byte[] A, System.Int32 num)
-    // Offset: 0x22AB5C4
+    // Offset: 0x2319B70
     void addMod512(::ArrayW<uint8_t> A, int num);
     // private System.Void addMod512(System.Byte[] A, System.Byte[] B)
-    // Offset: 0x22AB650
+    // Offset: 0x2319BFC
     void addMod512(::ArrayW<uint8_t> A, ::ArrayW<uint8_t> B);
     // private System.Void reverse(System.Byte[] src, System.Byte[] dst)
-    // Offset: 0x22AB6BC
+    // Offset: 0x2319C68
     void reverse(::ArrayW<uint8_t> src, ::ArrayW<uint8_t> dst);
   }; // Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
   #pragma pack(pop)

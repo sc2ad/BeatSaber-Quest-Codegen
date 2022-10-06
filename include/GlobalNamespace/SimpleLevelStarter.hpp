@@ -108,42 +108,42 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideStrobeFilterSettingsToAllEffects and: recordingTextAsset
     char __padding4[0x2] = {};
-    // [NullAllowed] Offset: 0x10F7FA4
+    // [NullAllowed] Offset: 0x110F7E0
     // private UnityEngine.TextAsset _recordingTextAsset
     // Size: 0x8
     // Offset: 0x30
     ::UnityEngine::TextAsset* recordingTextAsset;
     // Field size check
     static_assert(sizeof(::UnityEngine::TextAsset*) == 0x8);
-    // [NullAllowed] Offset: 0x10F7FDC
+    // [NullAllowed] Offset: 0x110F818
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::UnityEngine::Component*> prefabBindings;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Component*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F8014
+    // [SpaceAttribute] Offset: 0x110F850
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F804C
+    // [InjectAttribute] Offset: 0x110F888
     // private readonly MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F805C
+    // [InjectAttribute] Offset: 0x110F898
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F806C
+    // [InjectAttribute] Offset: 0x110F8A8
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x58
@@ -192,32 +192,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayModifiers _gameplayModifiers
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x13C1C64
+    // Offset: 0x13C5B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleLevelStarter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleLevelStarter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleLevelStarter*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13C17C4
+    // Offset: 0x13C56C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C1874
+    // Offset: 0x13C5778
     void OnDestroy();
     // private System.Void StartLevel()
-    // Offset: 0x13C1890
+    // Offset: 0x13C5794
     void StartLevel();
     // private System.Void InstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x13C1AFC
+    // Offset: 0x13C5A04
     void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
     // private System.Void ButtonPressed()
-    // Offset: 0x13C1C3C
+    // Offset: 0x13C5B44
     void ButtonPressed();
     // private System.Void HandleLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelSceneSetupData, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x13C1C40
+    // Offset: 0x13C5B48
     void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void <StartLevel>g__AfterSceneSwitchCallback|15_0(Zenject.DiContainer container)
-    // Offset: 0x13C1D40
+    // Offset: 0x13C5C48
     void $StartLevel$g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
   }; // SimpleLevelStarter
   #pragma pack(pop)

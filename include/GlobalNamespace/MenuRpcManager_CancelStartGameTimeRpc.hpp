@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::CancelStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1740E68
+    // Offset: 0x170FD90
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

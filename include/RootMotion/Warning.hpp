@@ -40,10 +40,10 @@ namespace RootMotion {
     // Set static field: static public System.Boolean logged
     static void _set_logged(bool value);
     // static public System.Void Log(System.String message, RootMotion.Warning/RootMotion.Logger logger, System.Boolean logInEditMode)
-    // Offset: 0x1FD1AF4
+    // Offset: 0x2061DAC
     static void Log(::StringW message, ::RootMotion::Warning::Logger* logger, bool logInEditMode);
     // static public System.Void Log(System.String message, UnityEngine.Transform context, System.Boolean logInEditMode)
-    // Offset: 0x1FBB6CC
+    // Offset: 0x204B984
     static void Log(::StringW message, ::UnityEngine::Transform* context, bool logInEditMode);
   }; // RootMotion.Warning
   #pragma pack(pop)

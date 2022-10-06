@@ -40,17 +40,17 @@ namespace GlobalNamespace {
   class LocalizedHoverHint : public ::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1568E40
+    // Offset: 0x1580970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedHoverHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedHoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedHoverHint*, creationType>()));
     }
     // protected System.Void SetText(HMUI.HoverHint hoverHint, System.String value)
-    // Offset: 0x1568E24
+    // Offset: 0x1580954
     void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
     // protected System.Void UpdateAlignment(HMUI.HoverHint hoverHint, Polyglot.LanguageDirection direction)
-    // Offset: 0x1568E3C
+    // Offset: 0x158096C
     void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::Polyglot::LanguageDirection direction);
   }; // LocalizedHoverHint
 }

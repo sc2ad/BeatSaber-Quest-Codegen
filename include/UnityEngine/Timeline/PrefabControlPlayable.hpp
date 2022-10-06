@@ -64,36 +64,36 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.GameObject m_Instance
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_m_Instance();
     // public UnityEngine.GameObject get_prefabInstance()
-    // Offset: 0x1DB1644
+    // Offset: 0x1E16A4C
     ::UnityEngine::GameObject* get_prefabInstance();
     // public System.Void .ctor()
-    // Offset: 0x1DB1B44
+    // Offset: 0x1E16F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabControlPlayable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::PrefabControlPlayable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabControlPlayable*, creationType>()));
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.PrefabControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject prefabGameObject, UnityEngine.Transform parentTransform)
-    // Offset: 0x1DA9AC8
+    // Offset: 0x1E0EED0
     static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
     // public UnityEngine.GameObject Initialize(UnityEngine.GameObject prefabGameObject, UnityEngine.Transform parentTransform)
-    // Offset: 0x1DB13D0
+    // Offset: 0x1E167D8
     ::UnityEngine::GameObject* Initialize(::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
     // static private System.Void SetHideFlagsRecursive(UnityEngine.GameObject gameObject)
-    // Offset: 0x1DB164C
+    // Offset: 0x1E16A54
     static void SetHideFlagsRecursive(::UnityEngine::GameObject* gameObject);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1DB1908
+    // Offset: 0x1E16D10
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1DB19F4
+    // Offset: 0x1E16DFC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1DB1A8C
+    // Offset: 0x1E16E94
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
