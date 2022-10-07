@@ -32,28 +32,28 @@ namespace System {
   class IPv6AddressHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
-    // Offset: 0x1CEB0E0
+    // Offset: 0x1D38290
     static ::StringW ParseCanonicalName(::StringW str, int start, ByRef<bool> isLoopback, ByRef<::StringW> scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
-    // Offset: 0x1CEB690
+    // Offset: 0x1D38840
     static ::StringW CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
-    // Offset: 0x1CEBC9C
+    // Offset: 0x1D38E4C
     static ::System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
-    // Offset: 0x1CEBD74
+    // Offset: 0x1D38F24
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
     // static private System.Boolean InternalIsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean validateStrictAddress)
-    // Offset: 0x1CEBE04
+    // Offset: 0x1D38FB4
     static bool InternalIsValid(::Il2CppChar* name, int start, ByRef<int> end, bool validateStrictAddress);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x1CEC0D8
+    // Offset: 0x1D39288
     static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean IsValidStrict(System.Char* name, System.Int32 start, ref System.Int32 end)
-    // Offset: 0x1CEC0E0
+    // Offset: 0x1D39290
     static bool IsValidStrict(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, ref System.String scopeId)
-    // Offset: 0x1CEB1A4
+    // Offset: 0x1D38354
     static bool Parse(::StringW address, uint16_t* numbers, int start, ByRef<::StringW> scopeId);
   }; // System.IPv6AddressHelper
   #pragma pack(pop)

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
-    // [InjectAttribute] Offset: 0x10ED370
+    // [InjectAttribute] Offset: 0x1104BAC
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
@@ -104,23 +104,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _positionSmooth
     [[deprecated("Use field access instead!")]] float& dyn__positionSmooth();
     // public System.Void .ctor()
-    // Offset: 0x13CAECC
+    // Offset: 0x13CECD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmoothCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmoothCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCamera*, creationType>()));
     }
     // public System.Void Init(System.Single fieldOfView, System.Single positionSmooth, System.Single rotationSmooth, System.Boolean thirdPersonEnabled, UnityEngine.Vector3 thirdPersonPosition, UnityEngine.Vector3 thirdPersonEulerAngles)
-    // Offset: 0x13CAAA4
+    // Offset: 0x13CE8B0
     void Init(float fieldOfView, float positionSmooth, float rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition, ::UnityEngine::Vector3 thirdPersonEulerAngles);
     // protected System.Void OnEnable()
-    // Offset: 0x13CAC50
+    // Offset: 0x13CEA5C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13CAC70
+    // Offset: 0x13CEA7C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x13CAC90
+    // Offset: 0x13CEA9C
     void LateUpdate();
   }; // SmoothCamera
   #pragma pack(pop)

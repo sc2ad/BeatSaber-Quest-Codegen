@@ -67,22 +67,22 @@ namespace LiteNetLib {
     // Get instance field reference: private LiteNetLib.NetPeer _p
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn__p();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0x21B517C
+    // Offset: 0x21DC6F8
     ::LiteNetLib::NetPeer* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x21B5184
+    // Offset: 0x21DC700
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0x21B4F80
+    // Offset: 0x21DC4FC
     NetPeerEnumerator(::LiteNetLib::NetPeer* p);
     // public System.Void Dispose()
-    // Offset: 0x21B50D8
+    // Offset: 0x21DC654
     void Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0x21B50DC
+    // Offset: 0x21DC658
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x21B511C
+    // Offset: 0x21DC698
     void Reset();
   }; // LiteNetLib.NetManager/LiteNetLib.NetPeerEnumerator
   #pragma pack(pop)

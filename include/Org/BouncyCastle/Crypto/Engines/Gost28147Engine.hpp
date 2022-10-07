@@ -115,53 +115,53 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] S
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S();
     // public System.String get_AlgorithmName()
-    // Offset: 0x237A048
+    // Offset: 0x23EC600
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x237A090
+    // Offset: 0x23EC648
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x237983C
+    // Offset: 0x23EBDF4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2379C40
+    // Offset: 0x23EC1F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost28147Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Gost28147Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost28147Engine*, creationType>()));
     }
     // static private System.Void AddSBox(System.String sBoxName, System.Byte[] sBox)
-    // Offset: 0x2379B1C
+    // Offset: 0x23EC0D4
     static void AddSBox(::StringW sBoxName, ::ArrayW<uint8_t> sBox);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2379CBC
+    // Offset: 0x23EC274
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x237A098
+    // Offset: 0x23EC650
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x237A0A0
+    // Offset: 0x23EC658
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x237A410
+    // Offset: 0x23EC9C8
     void Reset();
     // private System.Int32[] generateWorkingKey(System.Boolean forEncryption, System.Byte[] userKey)
-    // Offset: 0x2379F14
+    // Offset: 0x23EC4CC
     ::ArrayW<int> generateWorkingKey(bool forEncryption, ::ArrayW<uint8_t> userKey);
     // private System.Int32 Gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x237A494
+    // Offset: 0x23ECA4C
     int Gost28147_mainStep(int n1, int key);
     // private System.Void Gost28147Func(System.Int32[] workingKey, System.Byte[] inBytes, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x237A1A4
+    // Offset: 0x23EC75C
     void Gost28147Func(::ArrayW<int> workingKey, ::ArrayW<uint8_t> inBytes, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] inBytes, System.Int32 inOff)
-    // Offset: 0x237A414
+    // Offset: 0x23EC9CC
     static int bytesToint(::ArrayW<uint8_t> inBytes, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x237A588
+    // Offset: 0x23ECB40
     static void intTobytes(int num, ::ArrayW<uint8_t> outBytes, int outOff);
     // static public System.Byte[] GetSBox(System.String sBoxName)
-    // Offset: 0x237A614
+    // Offset: 0x23ECBCC
     static ::ArrayW<uint8_t> GetSBox(::StringW sBoxName);
   }; // Org.BouncyCastle.Crypto.Engines.Gost28147Engine
   #pragma pack(pop)

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class ColorTypeExtensions : public ::Il2CppObject {
     public:
     // static public ColorType Opposite(ColorType colorType)
-    // Offset: 0x2849A0C
+    // Offset: 0x28BEDEC
     static ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType);
   }; // ColorTypeExtensions
   #pragma pack(pop)

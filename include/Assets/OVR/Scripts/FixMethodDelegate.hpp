@@ -43,20 +43,20 @@ namespace Assets::OVR::Scripts {
   class FixMethodDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A96EF8
+    // Offset: 0x1A87168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixMethodDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::FixMethodDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixMethodDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex)
-    // Offset: 0x1A96F08
+    // Offset: 0x1A87178
     void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int selectedIndex);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Object obj, System.Boolean isLastInSet, System.Int32 selectedIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A97358
+    // Offset: 0x1A875C8
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Object* obj, bool isLastInSet, int selectedIndex, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A97418
+    // Offset: 0x1A87688
     void EndInvoke(::System::IAsyncResult* result);
   }; // Assets.OVR.Scripts.FixMethodDelegate
   #pragma pack(pop)

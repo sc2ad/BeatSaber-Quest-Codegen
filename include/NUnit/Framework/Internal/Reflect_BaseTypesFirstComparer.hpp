@@ -41,14 +41,14 @@ namespace NUnit::Framework::Internal {
       return reinterpret_cast<::System::Collections::Generic::IComparer_1<::System::Reflection::MethodInfo*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x2A466A8
+    // Offset: 0x2A67338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::BaseTypesFirstComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::BaseTypesFirstComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Reflection.MethodInfo m1, System.Reflection.MethodInfo m2)
-    // Offset: 0x2A46F54
+    // Offset: 0x2A67BE4
     int Compare(::System::Reflection::MethodInfo* m1, ::System::Reflection::MethodInfo* m2);
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.BaseTypesFirstComparer
   #pragma pack(pop)

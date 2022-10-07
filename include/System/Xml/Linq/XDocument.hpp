@@ -59,16 +59,16 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.XDeclaration declaration
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XDeclaration*& dyn_declaration();
     // public System.Xml.Linq.XDeclaration get_Declaration()
-    // Offset: 0x2ACEE68
+    // Offset: 0x2AF840C
     ::System::Xml::Linq::XDeclaration* get_Declaration();
     // public System.Void set_Declaration(System.Xml.Linq.XDeclaration value)
-    // Offset: 0x2ACEE70
+    // Offset: 0x2AF8414
     void set_Declaration(::System::Xml::Linq::XDeclaration* value);
     // public System.Xml.Linq.XElement get_Root()
-    // Offset: 0x2ACEE80
+    // Offset: 0x2AF8424
     ::System::Xml::Linq::XElement* get_Root();
     // public System.Void .ctor(System.Xml.Linq.XDocument other)
-    // Offset: 0x2ACEDE0
+    // Offset: 0x2AF8384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocument* New_ctor(::System::Xml::Linq::XDocument* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocument::.ctor");
@@ -85,18 +85,18 @@ namespace System::Xml::Linq {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
     }
     // static System.Boolean IsWhitespace(System.String s)
-    // Offset: 0x2ACF14C
+    // Offset: 0x2AF86F0
     static bool IsWhitespace(::StringW s);
     // private System.Void ValidateDocument(System.Xml.Linq.XNode previous, System.Xml.XmlNodeType allowBefore, System.Xml.XmlNodeType allowAfter)
-    // Offset: 0x2ACF3E4
+    // Offset: 0x2AF8988
     void ValidateDocument(::System::Xml::Linq::XNode* previous, ::System::Xml::XmlNodeType allowBefore, ::System::Xml::XmlNodeType allowAfter);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2ACEE78
+    // Offset: 0x2AF841C
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.Void .ctor()
-    // Offset: 0x2ACEDD8
+    // Offset: 0x2AF837C
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::.ctor()
     // Base method: System.Void XNode::.ctor()
@@ -107,32 +107,32 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XDocument*, creationType>()));
     }
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2ACEED0
+    // Offset: 0x2AF8474
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Void AddAttribute(System.Xml.Linq.XAttribute a)
-    // Offset: 0x2ACEFF4
+    // Offset: 0x2AF8598
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::AddAttribute(System.Xml.Linq.XAttribute a)
     void AddAttribute(::System::Xml::Linq::XAttribute* a);
     // override System.Void AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
-    // Offset: 0x2ACF070
+    // Offset: 0x2AF8614
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
     void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2ACF0EC
+    // Offset: 0x2AF8690
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();
     // override System.Void ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
-    // Offset: 0x2ACF1DC
+    // Offset: 0x2AF8780
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
     void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
     // override System.Void ValidateString(System.String s)
-    // Offset: 0x2ACF520
+    // Offset: 0x2AF8AC4
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::ValidateString(System.String s)
     void ValidateString(::StringW s);

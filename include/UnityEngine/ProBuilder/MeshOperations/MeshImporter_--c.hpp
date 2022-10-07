@@ -48,17 +48,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__9_0
     static void _set_$$9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C32D28
+    // Offset: 0x1C6B25C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C32D8C
+    // Offset: 0x1C6B2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImporter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter::$$c*, creationType>()));
     }
     // UnityEngine.Vector3 <Import>b__9_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1C32D94
+    // Offset: 0x1C6B2C8
     ::UnityEngine::Vector3 $Import$b__9_0(::UnityEngine::ProBuilder::Vertex* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

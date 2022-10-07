@@ -13,8 +13,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: IIndexFilter
-  class IIndexFilter;
+  // Forward declaring type: IndexFilter
+  class IndexFilter;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -28,11 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataLoader::IndexFilterConvertor : public ::Il2CppObject {
     public:
-    // static public IIndexFilter Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Int32 groupSize)
-    // Offset: 0x138C9D8
-    static ::GlobalNamespace::IIndexFilter* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, int groupSize);
+    // static public IndexFilter Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Int32 groupSize)
+    // Offset: 0x137AC28
+    static ::GlobalNamespace::IndexFilter* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, int groupSize);
     // static public System.Boolean IsIndexFilterValid(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Int32 groupSize)
-    // Offset: 0x138CC48
+    // Offset: 0x137AF88
     static bool IsIndexFilterValid(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, int groupSize);
   }; // BeatmapDataLoader/IndexFilterConvertor
   #pragma pack(pop)
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::IndexFilterConvertor::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IIndexFilter* (*)(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter*, int)>(&GlobalNamespace::BeatmapDataLoader::IndexFilterConvertor::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter*, int)>(&GlobalNamespace::BeatmapDataLoader::IndexFilterConvertor::Convert)> {
   static const MethodInfo* get() {
     static auto* indexFilter = &::il2cpp_utils::GetClassFromName("BeatmapSaveDataVersion3", "BeatmapSaveData/IndexFilter")->byval_arg;
     static auto* groupSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

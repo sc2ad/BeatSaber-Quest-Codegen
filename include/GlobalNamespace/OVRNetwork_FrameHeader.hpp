@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 payloadLength
     [[deprecated("Use field access instead!")]] int& dyn_payloadLength();
     // public System.Byte[] ToBytes()
-    // Offset: 0x171A260
+    // Offset: 0x173631C
     ::ArrayW<uint8_t> ToBytes();
     // static public OVRNetwork/FrameHeader FromBytes(System.Byte[] arr)
-    // Offset: 0x171A364
+    // Offset: 0x1736420
     static ::GlobalNamespace::OVRNetwork::FrameHeader FromBytes(::ArrayW<uint8_t> arr);
   }; // OVRNetwork/FrameHeader
   #pragma pack(pop)

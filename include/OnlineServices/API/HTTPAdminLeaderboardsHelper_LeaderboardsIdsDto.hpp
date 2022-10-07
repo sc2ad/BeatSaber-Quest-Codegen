@@ -40,7 +40,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.String[] leaderboardsIds
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_leaderboardsIds();
     // public System.Void .ctor()
-    // Offset: 0x15A7B54
+    // Offset: 0x15A68A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto::.ctor");

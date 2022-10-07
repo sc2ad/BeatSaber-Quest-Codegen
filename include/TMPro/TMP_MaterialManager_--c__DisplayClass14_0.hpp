@@ -46,14 +46,14 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Material baseMaterial
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_baseMaterial();
     // public System.Void .ctor()
-    // Offset: 0x146E618
+    // Offset: 0x14A0194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::$$c__DisplayClass14_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::$$c__DisplayClass14_0*, creationType>()));
     }
     // System.Boolean <ReleaseBaseMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
-    // Offset: 0x146FA58
+    // Offset: 0x14A15D4
     bool $ReleaseBaseMaterial$b__0(::TMPro::TMP_MaterialManager::MaskingMaterial* item);
   }; // TMPro.TMP_MaterialManager/TMPro.<>c__DisplayClass14_0
   #pragma pack(pop)

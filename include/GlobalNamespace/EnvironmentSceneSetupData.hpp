@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // public System.Void .ctor(EnvironmentInfoSO environmentInfo, IPreviewBeatmapLevel previewBeatmapLevel, System.Boolean hideBranding)
-    // Offset: 0x1368FE8
+    // Offset: 0x139724C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSceneSetupData::.ctor");

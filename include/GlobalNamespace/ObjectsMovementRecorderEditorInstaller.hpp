@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class ObjectsMovementRecorderEditorInstaller : public ::Zenject::MonoInstaller {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14F6EA4
+    // Offset: 0x150D760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectsMovementRecorderEditorInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectsMovementRecorderEditorInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14F6EA0
+    // Offset: 0x150D75C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

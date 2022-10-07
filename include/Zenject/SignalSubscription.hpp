@@ -101,38 +101,38 @@ namespace Zenject {
     // Get instance field reference: private Zenject.BindingId _signalId
     [[deprecated("Use field access instead!")]] ::Zenject::BindingId& dyn__signalId();
     // public Zenject.BindingId get_SignalId()
-    // Offset: 0x1D14990
+    // Offset: 0x1D61B40
     ::Zenject::BindingId get_SignalId();
     // public System.Void .ctor(Zenject.SignalSubscription/Zenject.Pool pool)
-    // Offset: 0x1D1494C
+    // Offset: 0x1D61AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalSubscription* New_ctor(::Zenject::SignalSubscription::Pool* pool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalSubscription::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalSubscription*, creationType>(pool)));
     }
     // public System.Void OnSpawned(System.Action`1<System.Object> callback, Zenject.SignalDeclaration declaration)
-    // Offset: 0x1D1499C
+    // Offset: 0x1D61B4C
     void OnSpawned(::System::Action_1<::Il2CppObject*>* callback, ::Zenject::SignalDeclaration* declaration);
     // public System.Void OnDespawned()
-    // Offset: 0x1D149F0
+    // Offset: 0x1D61BA0
     void OnDespawned();
     // private System.Void SetDefaults()
-    // Offset: 0x1D14980
+    // Offset: 0x1D61B30
     void SetDefaults();
     // public System.Void Dispose()
-    // Offset: 0x1D10C30
+    // Offset: 0x1D5DDE0
     void Dispose();
     // public System.Void OnDeclarationDespawned()
-    // Offset: 0x1D13880
+    // Offset: 0x1D60A30
     void OnDeclarationDespawned();
     // public System.Void Invoke(System.Object signal)
-    // Offset: 0x1D13A80
+    // Offset: 0x1D60C30
     void Invoke(::Il2CppObject* signal);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D14A28
+    // Offset: 0x1D61BD8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D14AF8
+    // Offset: 0x1D61CA8
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalSubscription
   #pragma pack(pop)

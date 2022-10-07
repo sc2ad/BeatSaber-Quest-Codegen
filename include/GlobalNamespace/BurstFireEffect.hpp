@@ -50,7 +50,7 @@ namespace GlobalNamespace {
   class BurstFireEffect : public ::GlobalNamespace::FireEffect {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10E03F4
+    // [SpaceAttribute] Offset: 0x10F767C
     // private System.Single _fadeOutDuration
     // Size: 0x4
     // Offset: 0x80
@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* bloomFadeOutCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E044C
+    // [InjectAttribute] Offset: 0x10F76D4
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E045C
+    // [InjectAttribute] Offset: 0x10F76E4
     // private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
     // Size: 0x8
     // Offset: 0xA0
@@ -105,22 +105,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.FloatTween _fadeOutTween
     [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__fadeOutTween();
     // protected System.Void Awake()
-    // Offset: 0x13594F8
+    // Offset: 0x1387DF8
     void Awake();
     // private System.Void StartEffect(System.Single time)
-    // Offset: 0x1359944
+    // Offset: 0x1388244
     void StartEffect(float time);
     // private System.Void EndEffect()
-    // Offset: 0x1359904
+    // Offset: 0x1388204
     void EndEffect();
     // private System.Void SetInitialValues()
-    // Offset: 0x135961C
+    // Offset: 0x1387F1C
     void SetInitialValues();
     // private System.Void UpdateFadeOutProgress(System.Single fadeOutProgress)
-    // Offset: 0x1359A34
+    // Offset: 0x1388334
     void UpdateFadeOutProgress(float fadeOutProgress);
     // public System.Void .ctor()
-    // Offset: 0x1359C30
+    // Offset: 0x1388530
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -129,17 +129,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BurstFireEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x13595F4
+    // Offset: 0x1387EF4
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::Start()
     void Start();
     // protected override System.Void OnDestroy()
-    // Offset: 0x13596EC
+    // Offset: 0x1387FEC
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
-    // Offset: 0x1359790
+    // Offset: 0x1388090
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);

@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UIKeyboard <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::UIKeyboard*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1418FC0
+    // Offset: 0x13F5B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass21_0*, creationType>()));
     }
     // System.Void <Awake>b__4()
-    // Offset: 0x1419080
+    // Offset: 0x13F5BC8
     void $Awake$b__4();
   }; // UIKeyboard/<>c__DisplayClass21_0
   #pragma pack(pop)

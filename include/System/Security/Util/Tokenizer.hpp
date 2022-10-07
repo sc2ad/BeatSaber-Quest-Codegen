@@ -257,26 +257,26 @@ namespace System::Security::Util {
     // Get instance field reference: private System.String _inNestedString
     [[deprecated("Use field access instead!")]] ::StringW& dyn__inNestedString();
     // System.Void .ctor(System.String input)
-    // Offset: 0x214F614
+    // Offset: 0x1BC8A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::StringW input) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void BasicInitialization()
-    // Offset: 0x214F660
+    // Offset: 0x1BC8AB8
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x214F53C
+    // Offset: 0x1BC8994
     void Recycle();
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x214EB78
+    // Offset: 0x1BC7FF4
     void ChangeFormat(::System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x214E2F8
+    // Offset: 0x1BC7774
     void GetTokens(::System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x2150024
+    // Offset: 0x1BC9160
     ::StringW GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)

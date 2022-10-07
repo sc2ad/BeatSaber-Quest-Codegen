@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     inline ::GlobalNamespace::IMultiplayerRichPresenceData* i_IMultiplayerRichPresenceData() noexcept {
       return reinterpret_cast<::GlobalNamespace::IMultiplayerRichPresenceData*>(this);
     }
-    // [LocalizationKeyAttribute] Offset: 0x10E551C
+    // [LocalizationKeyAttribute] Offset: 0x10FC894
     // static field const value: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kInMultiplayerLobbyRichPresenceLocalizationKey = "IN_MULTIPLAYER_LOBBY_PRESENCE";
     // Get static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
@@ -94,40 +94,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <canInvite>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$canInvite$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x1395F08
+    // Offset: 0x13B0F24
     ::StringW get_apiName();
     // protected System.Void set_apiName(System.String value)
-    // Offset: 0x1395F10
+    // Offset: 0x13B0F2C
     void set_apiName(::StringW value);
     // public System.String get_localizedDescription()
-    // Offset: 0x1395F18
+    // Offset: 0x13B0F34
     ::StringW get_localizedDescription();
     // protected System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1395F20
+    // Offset: 0x13B0F3C
     void set_localizedDescription(::StringW value);
     // public System.String get_multiplayerSecret()
-    // Offset: 0x1395F28
+    // Offset: 0x13B0F44
     ::StringW get_multiplayerSecret();
     // public System.Void set_multiplayerSecret(System.String value)
-    // Offset: 0x1395F30
+    // Offset: 0x13B0F4C
     void set_multiplayerSecret(::StringW value);
     // public System.Boolean get_atMaxPartySize()
-    // Offset: 0x1395F38
+    // Offset: 0x13B0F54
     bool get_atMaxPartySize();
     // public System.Void set_atMaxPartySize(System.Boolean value)
-    // Offset: 0x1395F40
+    // Offset: 0x13B0F5C
     void set_atMaxPartySize(bool value);
     // public System.Boolean get_canInvite()
-    // Offset: 0x1395F4C
+    // Offset: 0x13B0F68
     bool get_canInvite();
     // public System.Void set_canInvite(System.Boolean value)
-    // Offset: 0x1395F54
+    // Offset: 0x13B0F70
     void set_canInvite(bool value);
     // public System.Boolean get_isJoinable()
-    // Offset: 0x1395F60
+    // Offset: 0x13B0F7C
     bool get_isJoinable();
     // public System.Void .ctor(System.String multiplayerSecret, System.Boolean canInvite, System.Boolean atMaxPartySize)
-    // Offset: 0x1395F9C
+    // Offset: 0x13B0FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InMultiplayerRichPresenceData* New_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InMultiplayerRichPresenceData::.ctor");

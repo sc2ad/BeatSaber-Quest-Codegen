@@ -101,7 +101,7 @@ namespace TMPro {
     // Get instance field reference: public System.Single scale
     [[deprecated("Use field access instead!")]] float& dyn_scale();
     // public System.Void .ctor()
-    // Offset: 0x1905F34
+    // Offset: 0x18D7520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement_Legacy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextElement_Legacy::.ctor");

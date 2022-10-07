@@ -267,62 +267,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean showVRVars
     [[deprecated("Use field access instead!")]] bool& dyn_showVRVars();
     // public System.Void .ctor()
-    // Offset: 0x16560A4
+    // Offset: 0x1693E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRDebugInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRDebugInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRDebugInfo*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1654A1C
+    // Offset: 0x16927F8
     void Awake();
     // private System.Void Update()
-    // Offset: 0x1654C24
+    // Offset: 0x1692A00
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1655368
+    // Offset: 0x1693144
     void OnDestroy();
     // private System.Void InitUIComponents()
-    // Offset: 0x1654CEC
+    // Offset: 0x1692AC8
     void InitUIComponents();
     // private System.Void UpdateVariable()
-    // Offset: 0x16550C0
+    // Offset: 0x1692E9C
     void UpdateVariable();
     // private System.Void UpdateStrings()
-    // Offset: 0x1655104
+    // Offset: 0x1692EE0
     void UpdateStrings();
     // private System.Void RiftPresentGUI(UnityEngine.GameObject guiMainOBj)
-    // Offset: 0x1655B84
+    // Offset: 0x1693960
     void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
     // private System.Void UpdateDeviceDetection()
-    // Offset: 0x1655080
+    // Offset: 0x1692E5C
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
-    // Offset: 0x1655370
+    // Offset: 0x169314C
     ::UnityEngine::GameObject* VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float posY, ::StringW str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
-    // Offset: 0x1655D38
+    // Offset: 0x1693B14
     ::UnityEngine::GameObject* ComponentComposition(::UnityEngine::GameObject* GO);
     // private System.Void UpdateIPD()
-    // Offset: 0x1655550
+    // Offset: 0x169332C
     void UpdateIPD();
     // private System.Void UpdateEyeHeightOffset()
-    // Offset: 0x1655614
+    // Offset: 0x16933F0
     void UpdateEyeHeightOffset();
     // private System.Void UpdateEyeDepthOffset()
-    // Offset: 0x16556CC
+    // Offset: 0x16934A8
     void UpdateEyeDepthOffset();
     // private System.Void UpdateFOV()
-    // Offset: 0x1655784
+    // Offset: 0x1693560
     void UpdateFOV();
     // private System.Void UpdateResolutionEyeTexture()
-    // Offset: 0x165588C
+    // Offset: 0x1693668
     void UpdateResolutionEyeTexture();
     // private System.Void UpdateLatencyValues()
-    // Offset: 0x1655A9C
+    // Offset: 0x1693878
     void UpdateLatencyValues();
     // private System.Void UpdateFPS()
-    // Offset: 0x1655AA0
+    // Offset: 0x169387C
     void UpdateFPS();
   }; // OVRDebugInfo
   #pragma pack(pop)

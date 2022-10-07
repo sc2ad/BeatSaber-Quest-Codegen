@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class TagPropertyAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A659BC
+    // Offset: 0x2A8464C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TagPropertyAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TagPropertyAttribute::.ctor");

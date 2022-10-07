@@ -58,14 +58,14 @@ namespace Mono::Net {
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop
     [[deprecated("Use field access instead!")]] ::Mono::Net::CFRunLoop*& dyn_runLoop();
     // public System.Void .ctor()
-    // Offset: 0x1ADCDB8
+    // Offset: 0x1ACE028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFNetwork::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)
-    // Offset: 0x1ADD614
+    // Offset: 0x1ACE884
     void $ExecuteProxyAutoConfigurationURL$b__0(::System::IntPtr client, ::System::IntPtr proxyList, ::System::IntPtr error);
   }; // Mono.Net.CFNetwork/Mono.Net.<>c__DisplayClass13_0
   #pragma pack(pop)

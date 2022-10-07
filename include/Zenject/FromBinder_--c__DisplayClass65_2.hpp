@@ -54,20 +54,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.InjectContext ctx
     [[deprecated("Use field access instead!")]] ::Zenject::InjectContext*& dyn_ctx();
     // public System.Void .ctor()
-    // Offset: 0x1E18420
+    // Offset: 0x1E60E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass65_2* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass65_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass65_2*, creationType>()));
     }
     // System.Boolean <FromComponentInHierarchy>b__3(UnityEngine.Component x)
-    // Offset: 0x1E18618
+    // Offset: 0x1E61048
     bool $FromComponentInHierarchy$b__3(::UnityEngine::Component* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E186B8
+    // Offset: 0x1E610E8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E18714
+    // Offset: 0x1E61144
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass65_2
   #pragma pack(pop)

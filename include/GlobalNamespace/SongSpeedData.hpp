@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single speedMul
     [[deprecated("Use field access instead!")]] float& dyn_speedMul();
     // public System.Void .ctor(System.Single speedMul)
-    // Offset: 0x1459C70
+    // Offset: 0x14C28A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongSpeedData::.ctor");

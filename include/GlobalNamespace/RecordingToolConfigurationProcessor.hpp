@@ -153,47 +153,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RecordingToolResourceContainerSO _resourceContainer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolResourceContainerSO*& dyn__resourceContainer();
     // public System.Void .ctor(ProgramArguments programArguments, IBeatSaberLogger logger, IPosesSerializer posesSerializer, RecordingToolResourceContainerSO resourceContainer)
-    // Offset: 0x14A0BBC
+    // Offset: 0x1489260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolConfigurationProcessor* New_ctor(::GlobalNamespace::ProgramArguments* programArguments, ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::RecordingToolResourceContainerSO* resourceContainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolConfigurationProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolConfigurationProcessor*, creationType>(programArguments, logger, posesSerializer, resourceContainer)));
     }
     // public System.Boolean IsRecordingToolEnabled()
-    // Offset: 0x14A0C08
+    // Offset: 0x14892AC
     bool IsRecordingToolEnabled();
     // public System.String GetConfigFilePath()
-    // Offset: 0x14A0C70
+    // Offset: 0x1489314
     ::StringW GetConfigFilePath();
     // public System.String LoadConfigurationFile(System.String filePath)
-    // Offset: 0x14A10C4
+    // Offset: 0x14896E8
     ::StringW LoadConfigurationFile(::StringW filePath);
     // public RecordingToolConfigurationProcessor/RecordingToolConfiguration DeserializeConfigurationFile(System.String jsonData)
-    // Offset: 0x14A1254
+    // Offset: 0x1489878
     ::GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
     // public RecordingToolConfigurationProcessor/RecordingToolConfiguration LoadConfiguration(System.String filePath)
-    // Offset: 0x14A13D8
+    // Offset: 0x14899FC
     ::GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
     // static public UnityEngine.LayerMask GetDefaultMrcLayersMask()
-    // Offset: 0x14A1400
+    // Offset: 0x1489A24
     static ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
     // public UnityEngine.LayerMask GetLayerMask(System.String layerName)
-    // Offset: 0x14A1498
+    // Offset: 0x1489ABC
     ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
     // public UnityEngine.LayerMask GetLayersMask(System.String[] layerNames)
-    // Offset: 0x14A1670
+    // Offset: 0x1489C94
     ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW> layerNames);
     // static private System.ValueTuple`2<IBeatmapLevelPack,IPreviewBeatmapLevel> GetLevelPackAndLevelPreviewForLevelId(System.String packId, System.String levelId, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks)
-    // Offset: 0x14A1728
+    // Offset: 0x1489D4C
     static ::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*> GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // public RecordingToolSettings CreateRecordingToolSettingsFromConfiguration(RecordingToolConfigurationProcessor/RecordingToolConfiguration recordingToolConfiguration)
-    // Offset: 0x14A2008
+    // Offset: 0x148A62C
     ::GlobalNamespace::RecordingToolSettings* CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfiguration* recordingToolConfiguration);
     // public ObjectsMovementRecorder/InitData CreateObjectsMovementRecorderInitDataFromConfiguration(RecordingToolSettings recordingToolSettings)
-    // Offset: 0x14A3020
+    // Offset: 0x148B71C
     ::GlobalNamespace::ObjectsMovementRecorder::InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingToolSettings* recordingToolSettings);
     // public MenuDestination CreateMenuDestinationFromConfiguration(RecordingToolSettings recordingToolSettings)
-    // Offset: 0x14A311C
+    // Offset: 0x148B818
     ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingToolSettings* recordingToolSettings);
   }; // RecordingToolConfigurationProcessor
   #pragma pack(pop)

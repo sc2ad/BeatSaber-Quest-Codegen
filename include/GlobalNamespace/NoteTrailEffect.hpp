@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::NoteMovement* noteMovement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteMovement*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E85E4
+    // [InjectAttribute] Offset: 0x10FFCD0
     // private NoteTrailParticleSystem _noteTrailParticleSystem
     // Size: 0x8
     // Offset: 0x28
@@ -75,26 +75,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteTrailParticleSystem _noteTrailParticleSystem
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteTrailParticleSystem*& dyn__noteTrailParticleSystem();
     // public System.Void .ctor()
-    // Offset: 0x14F63C8
+    // Offset: 0x150CC84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteTrailEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteTrailEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteTrailEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14F600C
+    // Offset: 0x150C8C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14F60EC
+    // Offset: 0x150C9A8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x14F61F4
+    // Offset: 0x150CAB0
     void Update();
     // private System.Void HandleNoteMovementDidInit()
-    // Offset: 0x14F63B0
+    // Offset: 0x150CC6C
     void HandleNoteMovementDidInit();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x14F63BC
+    // Offset: 0x150CC78
     void HandleNoteDidStartJump();
   }; // NoteTrailEffect
   #pragma pack(pop)

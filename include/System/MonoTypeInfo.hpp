@@ -54,7 +54,7 @@ namespace System {
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
     [[deprecated("Use field access instead!")]] ::System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()
-    // Offset: 0x1B9877C
+    // Offset: 0x1BE6330
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

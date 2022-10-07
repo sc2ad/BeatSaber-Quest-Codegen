@@ -77,14 +77,14 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass34_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1D52070
+    // Offset: 0x1DB7478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass34_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c__DisplayClass34_1*, creationType>()));
     }
     // System.Void <SetExtensionDataDelegates>b__0(System.Object o, System.String key, System.Object value)
-    // Offset: 0x1D52078
+    // Offset: 0x1DB7480
     void $SetExtensionDataDelegates$b__0(::Il2CppObject* o, ::StringW key, ::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass34_1
   #pragma pack(pop)

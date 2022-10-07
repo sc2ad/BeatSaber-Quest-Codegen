@@ -60,20 +60,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <jumpToDestinationValid>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$jumpToDestinationValid$k__BackingField();
     // public System.Boolean get_jumpToDestinationValid()
-    // Offset: 0x15CB9E8
+    // Offset: 0x15D289C
     bool get_jumpToDestinationValid();
     // public System.Void set_jumpToDestinationValid(System.Boolean value)
-    // Offset: 0x15CB9F0
+    // Offset: 0x15D28A4
     void set_jumpToDestinationValid(bool value);
     // public System.Void .ctor()
-    // Offset: 0x15CBB30
+    // Offset: 0x15D29E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JumpReceiver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::JumpReceiver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JumpReceiver*, creationType>()));
     }
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x15CB9FC
+    // Offset: 0x15D28B0
     void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
   }; // JumpReceiver
   #pragma pack(pop)

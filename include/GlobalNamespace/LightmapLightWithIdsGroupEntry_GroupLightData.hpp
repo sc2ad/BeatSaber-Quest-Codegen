@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: LightGroup
-  class LightGroup;
+  // Forward declaring type: LightGroupSO
+  class LightGroupSO;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -31,12 +31,12 @@ namespace GlobalNamespace {
   class LightmapLightWithIdsGroupEntry::GroupLightData : public ::Il2CppObject {
     public:
     public:
-    // private LightGroup _lightGroup
+    // private LightGroupSO _lightGroup
     // Size: 0x8
     // Offset: 0x10
-    ::GlobalNamespace::LightGroup* lightGroup;
+    ::GlobalNamespace::LightGroupSO* lightGroup;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::LightGroup*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LightGroupSO*) == 0x8);
     // private System.Single _groupIntensity
     // Size: 0x4
     // Offset: 0x18
@@ -50,23 +50,23 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // Get instance field reference: private LightGroup _lightGroup
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroup*& dyn__lightGroup();
+    // Get instance field reference: private LightGroupSO _lightGroup
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightGroupSO*& dyn__lightGroup();
     // Get instance field reference: private System.Single _groupIntensity
     [[deprecated("Use field access instead!")]] float& dyn__groupIntensity();
     // Get instance field reference: private System.Single _groupProbeHighlightsIntensityMultiplier
     [[deprecated("Use field access instead!")]] float& dyn__groupProbeHighlightsIntensityMultiplier();
-    // public LightGroup get_lightGroup()
-    // Offset: 0x1E72D9C
-    ::GlobalNamespace::LightGroup* get_lightGroup();
+    // public LightGroupSO get_lightGroup()
+    // Offset: 0x1D03904
+    ::GlobalNamespace::LightGroupSO* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x1E72DA4
+    // Offset: 0x1D0390C
     float get_groupIntensity();
     // public System.Single get_groupProbeHighlightsIntensityMultiplier()
-    // Offset: 0x1E72DAC
+    // Offset: 0x1D03914
     float get_groupProbeHighlightsIntensityMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x1E72DB4
+    // Offset: 0x1D0391C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry::GroupLightData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::.ctor");
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::get_lightGroup
 // Il2CppName: get_lightGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightGroup* (GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::*)()>(&GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::get_lightGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightGroupSO* (GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::*)()>(&GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::get_lightGroup)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData*), "get_lightGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

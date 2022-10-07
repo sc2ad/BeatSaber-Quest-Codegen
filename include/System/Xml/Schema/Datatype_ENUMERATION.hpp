@@ -36,12 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN {
     public:
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1C468CC
+    // Offset: 0x1C7EE00
     // Implemented from: System.Xml.Schema.Datatype_NMTOKEN
     // Base method: System.Xml.XmlTokenizedType Datatype_NMTOKEN::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1C468D4
+    // Offset: 0x1C7EE08
     // Implemented from: System.Xml.Schema.Datatype_NMTOKEN
     // Base method: System.Void Datatype_NMTOKEN::.ctor()
     // Base method: System.Void Datatype_token::.ctor()

@@ -67,7 +67,7 @@ namespace Ice {
     ::Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0x111425C
+    // [InjectAttribute] Offset: 0x112CF20
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x30
@@ -88,14 +88,14 @@ namespace Ice {
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // public System.Void .ctor()
-    // Offset: 0x2AF4248
+    // Offset: 0x2B25094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapFloorLightTilesGrid* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::BeatmapFloorLightTilesGrid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapFloorLightTilesGrid*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2AF3FC8
+    // Offset: 0x2B24E14
     void Start();
   }; // Ice.BeatmapFloorLightTilesGrid
   #pragma pack(pop)

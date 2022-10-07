@@ -118,29 +118,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x1394008
+    // Offset: 0x13AF024
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x1394240
+    // Offset: 0x13AF25C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void .ctor()
-    // Offset: 0x13954E0
+    // Offset: 0x13B04FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HowToPlayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HowToPlayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HowToPlayViewController*, creationType>()));
     }
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0x13953A8
+    // Offset: 0x13B03C4
     void Setup(bool showTutorialButton);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x13954E8
+    // Offset: 0x13B0504
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x139554C
+    // Offset: 0x13B0568
     void $DidActivate$b__7_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13953E4
+    // Offset: 0x13B0400
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

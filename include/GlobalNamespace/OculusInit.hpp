@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OculusInit::$$c
     class $$c;
     public:
-    // [InjectOptionalAttribute] Offset: 0x10E1070
+    // [InjectOptionalAttribute] Offset: 0x10F82F8
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OculusDeeplinkManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E1080
+    // [InjectAttribute] Offset: 0x10F8308
     // private DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0x20
@@ -77,26 +77,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private DlcPromoPanelModel _dlcPromoPanelModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // public System.Void .ctor()
-    // Offset: 0x159D454
+    // Offset: 0x159C198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInit*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x159D45C
+    // Offset: 0x159C1A0
     static void _cctor();
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x159CFE4
+    // Offset: 0x159BD28
     static void NoDomainReloadInit();
     // public System.Void Init()
-    // Offset: 0x159D050
+    // Offset: 0x159BD94
     void Init();
     // private System.Void TryToInitialize()
-    // Offset: 0x159D110
+    // Offset: 0x159BE54
     void TryToInitialize();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x159D2A4
+    // Offset: 0x159BFE8
     void InitCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg);
   }; // OculusInit
   #pragma pack(pop)

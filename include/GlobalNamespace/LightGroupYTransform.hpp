@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class LightGroupYTransform : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14DA09C
+    // Offset: 0x146780C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupYTransform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupYTransform::.ctor");

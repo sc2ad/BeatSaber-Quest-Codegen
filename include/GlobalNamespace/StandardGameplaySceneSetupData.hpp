@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean startPaused
     [[deprecated("Use field access instead!")]] bool& dyn_startPaused();
     // public System.Void .ctor(System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.String backButtonText, GameplayModifiers gameplayModifiers, System.Boolean startPaused)
-    // Offset: 0x145D510
+    // Offset: 0x14C6144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::StringW backButtonText, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardGameplaySceneSetupData::.ctor");

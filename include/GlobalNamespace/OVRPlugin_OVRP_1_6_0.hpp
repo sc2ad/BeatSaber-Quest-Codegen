@@ -33,34 +33,34 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B27564
+    // Offset: 0x1B374F8
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetTrackingIPDEnabled()
-    // Offset: 0x1B2707C
+    // Offset: 0x1B37010
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingIPDEnabled();
     // static public OVRPlugin/Bool ovrp_SetTrackingIPDEnabled(OVRPlugin/Bool value)
-    // Offset: 0x1B270F0
+    // Offset: 0x1B37084
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingIPDEnabled(::GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/HapticsDesc ovrp_GetControllerHapticsDesc(System.UInt32 controllerMask)
-    // Offset: 0x1B27170
+    // Offset: 0x1B37104
     static ::GlobalNamespace::OVRPlugin::HapticsDesc ovrp_GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState ovrp_GetControllerHapticsState(System.UInt32 controllerMask)
-    // Offset: 0x1B27200
+    // Offset: 0x1B37194
     static ::GlobalNamespace::OVRPlugin::HapticsState ovrp_GetControllerHapticsState(uint controllerMask);
     // static public OVRPlugin/Bool ovrp_SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
-    // Offset: 0x1B27280
+    // Offset: 0x1B37214
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerHaptics(uint controllerMask, ::GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public OVRPlugin/Bool ovrp_SetOverlayQuad3(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.IntPtr device, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex)
-    // Offset: 0x1B27318
+    // Offset: 0x1B372AC
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad3(uint flags, ::System::IntPtr textureLeft, ::System::IntPtr textureRight, ::System::IntPtr device, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex);
     // static public System.Single ovrp_GetEyeRecommendedResolutionScale()
-    // Offset: 0x1B27410
+    // Offset: 0x1B373A4
     static float ovrp_GetEyeRecommendedResolutionScale();
     // static public System.Single ovrp_GetAppCpuStartToGpuEndTime()
-    // Offset: 0x1B27480
+    // Offset: 0x1B37414
     static float ovrp_GetAppCpuStartToGpuEndTime();
     // static public System.Int32 ovrp_GetSystemRecommendedMSAALevel()
-    // Offset: 0x1B274F0
+    // Offset: 0x1B37484
     static int ovrp_GetSystemRecommendedMSAALevel();
   }; // OVRPlugin/OVRP_1_6_0
   #pragma pack(pop)

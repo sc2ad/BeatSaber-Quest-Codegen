@@ -68,7 +68,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single outTangent
     [[deprecated("Use field access instead!")]] float& dyn_outTangent();
     // public System.Void .ctor(System.Single t, System.Single v, System.Single in_tangent, System.Single out_tangent)
-    // Offset: 0x16E9E0C
+    // Offset: 0x16F1094
     // ABORTED: conflicts with another method.  HAPI_Keyframe(float t, float v, float in_tangent, float out_tangent);
   }; // HoudiniEngineUnity.HAPI_Keyframe
   #pragma pack(pop)

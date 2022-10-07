@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   class LevelCompletionResultsAnalyticsHelper : public ::Il2CppObject {
     public:
     // static public System.Void FillEventData(LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x13A026C
+    // Offset: 0x13BBF80
     static void FillEventData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
   }; // LevelCompletionResultsAnalyticsHelper
   #pragma pack(pop)

@@ -56,17 +56,17 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector2 scale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_scale();
     // public System.Void .ctor(UnityEngine.Vector2 position, System.Single rotation, UnityEngine.Vector2 scale)
-    // Offset: 0x299D4C8
+    // Offset: 0x29D94B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Transform2D* New_ctor(::UnityEngine::Vector2 position, float rotation, ::UnityEngine::Vector2 scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Transform2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Transform2D*, creationType>(position, rotation, scale)));
     }
     // public UnityEngine.Vector2 TransformPoint(UnityEngine.Vector2 p)
-    // Offset: 0x299D524
+    // Offset: 0x29D9514
     ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
     // public override System.String ToString()
-    // Offset: 0x299D5F8
+    // Offset: 0x29D95E8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

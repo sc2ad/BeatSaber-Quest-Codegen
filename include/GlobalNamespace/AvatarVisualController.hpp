@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshFilter* bodyMeshFilter;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E20B8
+    // [SpaceAttribute] Offset: 0x10F9340
     // private MulticolorAvatarPartPropertyBlockSetter _headTopPropertyBlockColorSetter
     // Size: 0x8
     // Offset: 0x58
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter* rightHandPropertyBlockSetter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E2150
+    // [InjectAttribute] Offset: 0x10F93D8
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x90
@@ -227,35 +227,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private AvatarVisualController/HighlighterDelegate _currentHighlighter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarVisualController::HighlighterDelegate*& dyn__currentHighlighter();
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x15265D4
+    // Offset: 0x153DAE4
     ::UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0x1527388
+    // Offset: 0x153E898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarVisualController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarVisualController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarVisualController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15265E0
+    // Offset: 0x153DAF0
     void Awake();
     // public System.Void UpdateAvatarVisual(AvatarData avatarData)
-    // Offset: 0x152681C
+    // Offset: 0x153DD2C
     void UpdateAvatarVisual(::GlobalNamespace::AvatarData* avatarData);
     // public System.Void SetLightColor(UnityEngine.Color color)
-    // Offset: 0x15210C4
+    // Offset: 0x15385D4
     void SetLightColor(::UnityEngine::Color color);
     // private System.Void UpdateAvatarColors()
-    // Offset: 0x1526C6C
+    // Offset: 0x153E17C
     void UpdateAvatarColors();
     // public System.Void HighlightEditedPart(EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x1526FDC
+    // Offset: 0x153E4EC
     void HighlightEditedPart(::GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // public System.Void DisableEditedPartHighlight()
-    // Offset: 0x1527308
+    // Offset: 0x153E818
     void DisableEditedPartHighlight();
     // private System.Void SetHandsHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x152733C
+    // Offset: 0x153E84C
     void SetHandsHighlight(bool highlighted, int uvSegment);
   }; // AvatarVisualController
   #pragma pack(pop)

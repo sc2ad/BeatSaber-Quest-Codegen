@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _serializedId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__serializedId();
     // public System.String get_id()
-    // Offset: 0x1403520
+    // Offset: 0x14DC7FC
     ::StringW get_id();
     // public System.Void .ctor()
-    // Offset: 0x1403528
+    // Offset: 0x14DC804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoseObjectIdSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PoseObjectIdSO::.ctor");

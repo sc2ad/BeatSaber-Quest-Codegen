@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F0E78
+    // [InjectAttribute] Offset: 0x11086B4
     // private CampaignProgressModel _missionProgressModel
     // Size: 0x8
     // Offset: 0x28
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private CampaignProgressModel _missionProgressModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CampaignProgressModel*& dyn__missionProgressModel();
     // public System.Void .ctor()
-    // Offset: 0x13131D4
+    // Offset: 0x132E208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeGizmos* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeGizmos::.ctor");

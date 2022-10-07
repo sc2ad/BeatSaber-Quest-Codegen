@@ -43,13 +43,13 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private System.Byte[] <Value>k__BackingField
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$Value$k__BackingField();
     // public System.Byte[] get_Value()
-    // Offset: 0x17CA400
+    // Offset: 0x17DDE08
     ::ArrayW<uint8_t> get_Value();
     // private System.Void set_Value(System.Byte[] value)
-    // Offset: 0x17CA408
+    // Offset: 0x17DDE10
     void set_Value(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.Byte[] value)
-    // Offset: 0x17CA410
+    // Offset: 0x17DDE18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonObjectId* New_ctor(::ArrayW<uint8_t> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonObjectId::.ctor");

@@ -93,7 +93,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: packGeometryBeforeMerging and: inputAssetPresets
     char __padding6[0x6] = {};
-    // [OptionalFieldAttribute] Offset: 0x1114968
+    // [OptionalFieldAttribute] Offset: 0x112D62C
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
     // Size: 0x8
     // Offset: 0x40
@@ -118,7 +118,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& dyn__inputAssetPresets();
     // public System.Void .ctor()
-    // Offset: 0x188B6B4
+    // Offset: 0x187ED2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputPreset::.ctor");

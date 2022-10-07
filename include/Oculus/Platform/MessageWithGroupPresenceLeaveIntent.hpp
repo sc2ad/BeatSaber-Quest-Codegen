@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithGroupPresenceLeaveIntent : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*> {
     public:
     // protected Oculus.Platform.Models.GroupPresenceLeaveIntent GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19F02E8
+    // Offset: 0x19F6C2C
     ::Oculus::Platform::Models::GroupPresenceLeaveIntent* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19EBA00
+    // Offset: 0x19F2344
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithGroupPresenceLeaveIntent*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.GroupPresenceLeaveIntent GetGroupPresenceLeaveIntent()
-    // Offset: 0x19F02A4
+    // Offset: 0x19F6BE8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.GroupPresenceLeaveIntent Message::GetGroupPresenceLeaveIntent()
     ::Oculus::Platform::Models::GroupPresenceLeaveIntent* GetGroupPresenceLeaveIntent();

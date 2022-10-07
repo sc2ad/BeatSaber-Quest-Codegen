@@ -142,6 +142,15 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DeserializeData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(protocolVersion)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, protocolVersion);
     }
+    // public override System.Void Release()
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    // Implemented from: RemoteProcedureCall
+    // Base method: System.Void RemoteProcedureCall::Release()
+    void Release() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall_3::Release");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+    }
   }; // RemoteProcedureCall`3
   // Could not write size check! Type: RemoteProcedureCall`3 is generic, or has no fields that are valid for size checks!
 }

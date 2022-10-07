@@ -65,29 +65,29 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(::System::Func_2<::System::Reflection::FieldInfo*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C01368
+    // Offset: 0x1C3989C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C013CC
+    // Offset: 0x1C39900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionInfoTypeInfoConverter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionInfoTypeInfoConverter::$$c*, creationType>()));
     }
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1C013D4
+    // Offset: 0x1C39908
     ::Zenject::InjectableInfo* $ConvertMethod$b__0_1(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x1C013EC
+    // Offset: 0x1C39920
     ::Zenject::InjectableInfo* $ConvertConstructor$b__1_0(::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x1C01404
+    // Offset: 0x1C39938
     ::StringW $GetOnlyPropertySetter$b__8_1(::System::Reflection::FieldInfo* f);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1C01424
+    // Offset: 0x1C39958
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C01480
+    // Offset: 0x1C399B4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionInfoTypeInfoConverter/Zenject.Internal.<>c
   #pragma pack(pop)

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E85A4
+    // [InjectAttribute] Offset: 0x10FFC90
     // private BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
@@ -59,20 +59,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCallbacksController _beatmapCallbacksController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // public System.Void .ctor()
-    // Offset: 0x130E190
+    // Offset: 0x13291C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionClearedEnvironmentEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionClearedEnvironmentEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionClearedEnvironmentEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x130DEB8
+    // Offset: 0x1328EEC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x130DFE4
+    // Offset: 0x1329018
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x130E110
+    // Offset: 0x1329144
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
   }; // MissionClearedEnvironmentEffect
   #pragma pack(pop)

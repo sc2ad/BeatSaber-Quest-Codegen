@@ -52,10 +52,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     [[deprecated("Use field access instead!")]] float& dyn_weight();
     // public System.Boolean get_isValid()
-    // Offset: 0x22230E4
+    // Offset: 0x22B7598
     bool get_isValid();
     // protected System.Void .ctor()
-    // Offset: 0x2223154
+    // Offset: 0x22B7608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Constraint::.ctor");

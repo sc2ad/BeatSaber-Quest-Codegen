@@ -15,10 +15,10 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: LightWithIdManager
-  class LightWithIdManager;
   // Forward declaring type: ColorManager
   class ColorManager;
+  // Forward declaring type: LightWithIdManager
+  class LightWithIdManager;
   // Forward declaring type: BeatmapCallbacksController
   class BeatmapCallbacksController;
   // Forward declaring type: IBpmController
@@ -57,32 +57,32 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::LightColorGroupEffect::InitData
     class InitData;
     public:
+    // protected readonly ColorManager _colorManager
+    // Size: 0x8
+    // Offset: 0x10
+    ::GlobalNamespace::ColorManager* colorManager;
+    // Field size check
+    static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
     // private readonly System.Int32 _lightId
     // Size: 0x4
-    // Offset: 0x10
+    // Offset: 0x18
     int lightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: lightId and: lightManager
-    char __padding0[0x4] = {};
+    char __padding1[0x4] = {};
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
-    // Offset: 0x18
+    // Offset: 0x20
     ::GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightWithIdManager*) == 0x8);
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x28
     ::Tweening::SongTimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::SongTimeTweeningManager*) == 0x8);
-    // private readonly ColorManager _colorManager
-    // Size: 0x8
-    // Offset: 0x28
-    ::GlobalNamespace::ColorManager* colorManager;
-    // Field size check
-    static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
@@ -150,19 +150,19 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E7F70
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FF488
     // Get static field: static private readonly UnityEngine.Color offColor
     static ::UnityEngine::Color _get_offColor();
     // Set static field: static private readonly UnityEngine.Color offColor
     static void _set_offColor(::UnityEngine::Color value);
+    // Get instance field reference: protected readonly ColorManager _colorManager
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private readonly System.Int32 _lightId
     [[deprecated("Use field access instead!")]] int& dyn__lightId();
     // Get instance field reference: private readonly LightWithIdManager _lightManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _tweeningManager
     [[deprecated("Use field access instead!")]] ::Tweening::SongTimeTweeningManager*& dyn__tweeningManager();
-    // Get instance field reference: private readonly ColorManager _colorManager
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private readonly BeatmapCallbacksController _beatmapCallbacksController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCallbacksController*& dyn__beatmapCallbacksController();
     // Get instance field reference: private readonly IBpmController _bpmController
@@ -186,32 +186,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _usingBoostColors
     [[deprecated("Use field access instead!")]] bool& dyn__usingBoostColors();
     // public System.Void .ctor(LightColorGroupEffect/InitData initData, LightWithIdManager lightManager, Tweening.SongTimeTweeningManager tweeningManager, ColorManager colorManager, BeatmapCallbacksController beatmapCallbacksController, IBpmController bpmController)
-    // Offset: 0x14D9054
+    // Offset: 0x1466480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect::InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorGroupEffect*, creationType>(initData, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14D9A78
+    // Offset: 0x1466ED4
     static void _cctor();
     // public System.Void Cleanup()
-    // Offset: 0x14D92EC
+    // Offset: 0x1466718
     void Cleanup();
     // private System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData currentEventData)
-    // Offset: 0x14D9398
+    // Offset: 0x14667C4
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
     // public System.Void UseBoostColors(System.Boolean useBoostColors)
-    // Offset: 0x14D980C
+    // Offset: 0x1466C30
     void UseBoostColors(bool useBoostColors);
-    // private System.Void SetData(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor, System.Single fromStrobeBeatFrequency, System.Single toStrobeBeatFrequency)
-    // Offset: 0x14D98F8
-    void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float fromStrobeBeatFrequency, float toStrobeBeatFrequency);
-    // private UnityEngine.Color GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
-    // Offset: 0x14D9690
+    // protected UnityEngine.Color GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
+    // Offset: 0x1466D1C
     ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float brightness);
+    // private System.Void SetData(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor, System.Single fromStrobeBeatFrequency, System.Single toStrobeBeatFrequency)
+    // Offset: 0x1466D54
+    void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float fromStrobeBeatFrequency, float toStrobeBeatFrequency);
     // private System.Void SetColor(System.Single t)
-    // Offset: 0x14D96C8
+    // Offset: 0x1466AEC
     void SetColor(float t);
   }; // LightColorGroupEffect
   #pragma pack(pop)
@@ -257,6 +257,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorGroupEffect*), "UseBoostColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useBoostColors});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::LightColorGroupEffect::GetColor
+// Il2CppName: GetColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::LightColorGroupEffect::*)(::GlobalNamespace::EnvironmentColorType, bool, float)>(&GlobalNamespace::LightColorGroupEffect::GetColor)> {
+  static const MethodInfo* get() {
+    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
+    static auto* colorBoost = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* brightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorGroupEffect*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorType, colorBoost, brightness});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightColorGroupEffect::SetData
 // Il2CppName: SetData
 template<>
@@ -269,17 +280,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* fromStrobeBeatFrequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* toStrobeBeatFrequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorGroupEffect*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromColor, toColor, alternativeFromColor, alternativeToColor, fromStrobeBeatFrequency, toStrobeBeatFrequency});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightColorGroupEffect::GetColor
-// Il2CppName: GetColor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::LightColorGroupEffect::*)(::GlobalNamespace::EnvironmentColorType, bool, float)>(&GlobalNamespace::LightColorGroupEffect::GetColor)> {
-  static const MethodInfo* get() {
-    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
-    static auto* colorBoost = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* brightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorGroupEffect*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorType, colorBoost, brightness});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightColorGroupEffect::SetColor

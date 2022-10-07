@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerIntroAnimator;
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
-  // Forward declaring type: MultiplayerConnectedPlayerScoreDiffText
-  class MultiplayerConnectedPlayerScoreDiffText;
+  // Forward declaring type: MultiplayerScoreDiffText
+  class MultiplayerScoreDiffText;
   // Forward declaring type: IConnectedPlayerBeatmapObjectEventManager
   class IConnectedPlayerBeatmapObjectEventManager;
   // Forward declaring type: AvatarPoseController
@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [NullAllowed] Offset: 0x10EA934
+    // [NullAllowed] Offset: 0x1102110
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10EA96C
+    // [HeaderAttribute] Offset: 0x1102148
     // private System.Single _bigAvatarDisappearDuration
     // Size: 0x4
     // Offset: 0x28
@@ -83,35 +83,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EaseType bigAvatarDisappearEasing;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0x10EA9C8
+    // [InjectAttribute] Offset: 0x11021A4
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA9D8
+    // [InjectAttribute] Offset: 0x11021B4
     // private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA9E8
+    // [InjectAttribute] Offset: 0x11021C4
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA9F8
-    // private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
+    // [InjectAttribute] Offset: 0x11021D4
+    // private readonly MultiplayerScoreDiffText _scoreDiffText
     // Size: 0x8
     // Offset: 0x48
-    ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* scoreDiffText;
+    ::GlobalNamespace::MultiplayerScoreDiffText* scoreDiffText;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EAA08
+    static_assert(sizeof(::GlobalNamespace::MultiplayerScoreDiffText*) == 0x8);
+    // [InjectAttribute] Offset: 0x11021E4
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x50
@@ -135,43 +135,43 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*& dyn__introAnimator();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
-    // Get instance field reference: private readonly MultiplayerConnectedPlayerScoreDiffText _scoreDiffText
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*& dyn__scoreDiffText();
+    // Get instance field reference: private readonly MultiplayerScoreDiffText _scoreDiffText
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreDiffText*& dyn__scoreDiffText();
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0x13F78D4
+    // Offset: 0x140EC1C
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x13F78DC
+    // Offset: 0x140EC24
     ::UnityEngine::GameObject* get_outroAnimator();
-    // public MultiplayerConnectedPlayerScoreDiffText get_scoreDiffText()
-    // Offset: 0x13F78E4
-    ::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* get_scoreDiffText();
+    // public MultiplayerScoreDiffText get_scoreDiffText()
+    // Offset: 0x140EC2C
+    ::GlobalNamespace::MultiplayerScoreDiffText* get_scoreDiffText();
     // public System.Void .ctor()
-    // Offset: 0x13F7CD0
+    // Offset: 0x140F018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerFacade*, creationType>()));
     }
     // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x13F78EC
+    // Offset: 0x140EC34
     void SetSongStartSyncTime(float songStartSyncTime);
     // public System.Void PauseSpawning()
-    // Offset: 0x13F7A2C
+    // Offset: 0x140ED74
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x13F7AE0
+    // Offset: 0x140EE28
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x13F7B94
+    // Offset: 0x140EEDC
     void __ForceStopSong();
     // public System.Void HideBigAvatar()
-    // Offset: 0x13F7BE0
+    // Offset: 0x140EF28
     void HideBigAvatar();
     // public AvatarPoseController __GetPlayerAvatar()
-    // Offset: 0x13F7C7C
+    // Offset: 0x140EFC4
     ::GlobalNamespace::AvatarPoseController* __GetPlayerAvatar();
   }; // MultiplayerConnectedPlayerFacade
   #pragma pack(pop)
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText
 // Il2CppName: get_scoreDiffText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText* (GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerScoreDiffText* (GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerFacade*), "get_scoreDiffText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

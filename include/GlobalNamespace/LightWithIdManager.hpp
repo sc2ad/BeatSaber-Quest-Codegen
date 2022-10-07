@@ -105,39 +105,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     [[deprecated("Use field access instead!")]] bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E71178
+    // Offset: 0x1D01C28
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1E7121C
+    // Offset: 0x1D01CCC
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1E71DF8
+    // Offset: 0x1D02824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1E712C0
+    // Offset: 0x1D01D70
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E714C8
+    // Offset: 0x1D01F78
     void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1E7188C
+    // Offset: 0x1D0233C
     void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1E71A70
+    // Offset: 0x1D02520
     void SetColorForId(int lightId, ::UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
-    // Offset: 0x1E71CA8
+    // Offset: 0x1D02758
     ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
-    // public System.Boolean IsColorSetForId(System.Int32 lightId)
-    // Offset: 0x1E71D74
-    bool IsColorSetForId(int lightId);
-    // public System.Collections.Generic.List`1<ILightWithId>[] GetLightsArray()
-    // Offset: 0x1E71DF0
-    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> GetLightsArray();
   }; // LightWithIdManager
   #pragma pack(pop)
   static check_size<sizeof(LightWithIdManager), 56 + sizeof(bool)> __GlobalNamespace_LightWithIdManagerSizeCheck;
@@ -210,22 +204,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngi
     static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* initializeIfNull = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetColorForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId, initializeIfNull});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::IsColorSetForId
-// Il2CppName: IsColorSetForId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightWithIdManager::*)(int)>(&GlobalNamespace::LightWithIdManager::IsColorSetForId)> {
-  static const MethodInfo* get() {
-    static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "IsColorSetForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::GetLightsArray
-// Il2CppName: GetLightsArray
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::GetLightsArray)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetLightsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

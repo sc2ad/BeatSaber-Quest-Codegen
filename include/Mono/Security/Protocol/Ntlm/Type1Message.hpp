@@ -49,25 +49,25 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private System.String _domain
     [[deprecated("Use field access instead!")]] ::StringW& dyn__domain();
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x234FA5C
+    // Offset: 0x23A90B4
     void set_Domain(::StringW value);
     // public System.Void set_Host(System.String value)
-    // Offset: 0x234FAE4
+    // Offset: 0x23A913C
     void set_Host(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x234F9C8
+    // Offset: 0x23A9020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type1Message* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Protocol::Ntlm::Type1Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type1Message*, creationType>()));
     }
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x234FB6C
+    // Offset: 0x23A91C4
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::ArrayW<uint8_t> message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x234FC60
+    // Offset: 0x23A92B8
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::ArrayW<uint8_t> GetBytes();

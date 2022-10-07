@@ -83,26 +83,26 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] workingKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // static private System.Void .cctor()
-    // Offset: 0x237FD78
+    // Offset: 0x23F2330
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x237FDCC
+    // Offset: 0x23F2384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RC4Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RC4Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC4Engine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x237F894
+    // Offset: 0x23F1E4C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x237FB80
+    // Offset: 0x23F2138
     void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x237FD70
+    // Offset: 0x23F2328
     void Reset();
     // private System.Void SetKey(System.Byte[] keyBytes)
-    // Offset: 0x237F9B4
+    // Offset: 0x23F1F6C
     void SetKey(::ArrayW<uint8_t> keyBytes);
   }; // Org.BouncyCastle.Crypto.Engines.RC4Engine
   #pragma pack(pop)

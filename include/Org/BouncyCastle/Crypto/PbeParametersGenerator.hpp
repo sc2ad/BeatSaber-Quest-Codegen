@@ -62,14 +62,14 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: protected System.Int32 mIterationCount
     [[deprecated("Use field access instead!")]] int& dyn_mIterationCount();
     // protected System.Void .ctor()
-    // Offset: 0x15FD494
+    // Offset: 0x164E748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParametersGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::PbeParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParametersGenerator*, creationType>()));
     }
     // public System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x15FD49C
+    // Offset: 0x164E750
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -81,10 +81,10 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
-    // Offset: 0x15FD59C
+    // Offset: 0x164E850
     static ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<::Il2CppChar> password);
     // static public System.Byte[] Pkcs12PasswordToBytes(System.Char[] password, System.Boolean wrongPkcs12Zero)
-    // Offset: 0x15FD604
+    // Offset: 0x164E8B8
     static ::ArrayW<uint8_t> Pkcs12PasswordToBytes(::ArrayW<::Il2CppChar> password, bool wrongPkcs12Zero);
   }; // Org.BouncyCastle.Crypto.PbeParametersGenerator
   #pragma pack(pop)

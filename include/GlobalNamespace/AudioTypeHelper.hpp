@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class AudioTypeHelper : public ::Il2CppObject {
     public:
     // static public UnityEngine.AudioType GetAudioTypeFromPath(System.String path)
-    // Offset: 0x1520338
+    // Offset: 0x1537848
     static ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
   }; // AudioTypeHelper
   #pragma pack(pop)

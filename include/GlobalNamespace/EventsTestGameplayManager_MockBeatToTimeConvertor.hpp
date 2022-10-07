@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single _bpm
     [[deprecated("Use field access instead!")]] float& dyn__bpm();
     // public System.Void .ctor(System.Single bpm)
-    // Offset: 0x136B338
+    // Offset: 0x139959C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager::MockBeatToTimeConvertor* New_ctor(float bpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::MockBeatToTimeConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager::MockBeatToTimeConvertor*, creationType>(bpm)));
     }
     // public System.Single ConvertBeatToTime(System.Single beat)
-    // Offset: 0x136DAC0
+    // Offset: 0x139BF44
     float ConvertBeatToTime(float beat);
   }; // EventsTestGameplayManager/MockBeatToTimeConvertor
   #pragma pack(pop)

@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void .ctor()
-    // Offset: 0x1491348
+    // Offset: 0x1476D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrashInfoViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CrashInfoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrashInfoViewController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14912D0
+    // Offset: 0x1476D20
     void Start();
   }; // CrashInfoViewController
   #pragma pack(pop)

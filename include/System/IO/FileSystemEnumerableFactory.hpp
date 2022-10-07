@@ -37,7 +37,7 @@ namespace System::IO {
   class FileSystemEnumerableFactory : public ::Il2CppObject {
     public:
     // static System.Collections.Generic.IEnumerable`1<System.String> CreateFileNameIterator(System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
-    // Offset: 0x20281B4
+    // Offset: 0x20697D4
     static ::System::Collections::Generic::IEnumerable_1<::StringW>* CreateFileNameIterator(::StringW path, ::StringW originalUserPath, ::StringW searchPattern, bool includeFiles, bool includeDirs, ::System::IO::SearchOption searchOption, bool checkHost);
   }; // System.IO.FileSystemEnumerableFactory
   #pragma pack(pop)

@@ -52,7 +52,7 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Vector3 Point2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_Point2();
     // public System.Void .ctor(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x190ABE0
+    // Offset: 0x18DC1CC
     // ABORTED: conflicts with another method.  LineSegment(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
   }; // TMPro.TMP_TextUtilities/TMPro.LineSegment
   #pragma pack(pop)

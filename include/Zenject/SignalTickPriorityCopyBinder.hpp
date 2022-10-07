@@ -49,20 +49,20 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SignalDeclarationBindInfo <SignalBindInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::SignalDeclarationBindInfo*& dyn_$SignalBindInfo$k__BackingField();
     // protected Zenject.SignalDeclarationBindInfo get_SignalBindInfo()
-    // Offset: 0x1D15150
+    // Offset: 0x1D62300
     ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
     // private System.Void set_SignalBindInfo(Zenject.SignalDeclarationBindInfo value)
-    // Offset: 0x1D15158
+    // Offset: 0x1D62308
     void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
-    // Offset: 0x1D15128
+    // Offset: 0x1D622D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalTickPriorityCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalTickPriorityCopyBinder*, creationType>(signalBindInfo)));
     }
     // public Zenject.SignalCopyBinder WithTickPriority(System.Int32 priority)
-    // Offset: 0x1D15160
+    // Offset: 0x1D62310
     ::Zenject::SignalCopyBinder* WithTickPriority(int priority);
   }; // Zenject.SignalTickPriorityCopyBinder
   #pragma pack(pop)

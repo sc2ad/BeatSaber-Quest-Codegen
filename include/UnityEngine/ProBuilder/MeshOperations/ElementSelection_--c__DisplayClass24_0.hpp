@@ -48,14 +48,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Face*& dyn_face();
     // public System.Void .ctor()
-    // Offset: 0x1A37940
+    // Offset: 0x1A53560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c__DisplayClass24_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass24_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass24_0*, creationType>()));
     }
     // System.Boolean <GetFaceLoop>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A38638
+    // Offset: 0x1A54258
     bool $GetFaceLoop$b__0(::UnityEngine::ProBuilder::WingedEdge* x);
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass24_0
   #pragma pack(pop)

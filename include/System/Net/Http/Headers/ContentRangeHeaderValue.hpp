@@ -67,51 +67,51 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.Int64> <To>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<int64_t>& dyn_$To$k__BackingField();
     // public System.Nullable`1<System.Int64> get_From()
-    // Offset: 0x1999A34
+    // Offset: 0x19A0378
     ::System::Nullable_1<int64_t> get_From();
     // private System.Void set_From(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1999A40
+    // Offset: 0x19A0384
     void set_From(::System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_Length()
-    // Offset: 0x1999A48
+    // Offset: 0x19A038C
     ::System::Nullable_1<int64_t> get_Length();
     // private System.Void set_Length(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1999A54
+    // Offset: 0x19A0398
     void set_Length(::System::Nullable_1<int64_t> value);
     // public System.Nullable`1<System.Int64> get_To()
-    // Offset: 0x1999A5C
+    // Offset: 0x19A03A0
     ::System::Nullable_1<int64_t> get_To();
     // private System.Void set_To(System.Nullable`1<System.Int64> value)
-    // Offset: 0x1999A68
+    // Offset: 0x19A03AC
     void set_To(::System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
-    // Offset: 0x1999A70
+    // Offset: 0x19A03B4
     ::StringW get_Unit();
     // private System.Void .ctor()
-    // Offset: 0x19999DC
+    // Offset: 0x19A0320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentRangeHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::ContentRangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentRangeHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1999A78
+    // Offset: 0x19A03BC
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
-    // Offset: 0x1999CC0
+    // Offset: 0x19A0604
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1999A80
+    // Offset: 0x19A03C4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1999BC4
+    // Offset: 0x19A0508
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x199A1E4
+    // Offset: 0x19A0B28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

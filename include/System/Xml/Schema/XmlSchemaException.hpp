@@ -105,71 +105,71 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String message
     [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2091528
+    // Offset: 0x2109AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(info, context)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2091A24
+    // Offset: 0x2109FE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2091A38
+    // Offset: 0x2109FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x2091B68
+    // Offset: 0x210A128
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message, innerException)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x2091A48
+    // Offset: 0x210A008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW message, ::System::Exception* innerException, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(message, innerException, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String arg)
-    // Offset: 0x2091C00
+    // Offset: 0x210A1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW res, ::StringW arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg)));
     }
     // System.Void .ctor(System.String res, System.String arg, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x2091CE4
+    // Offset: 0x210A2A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, arg, sourceUri, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition, System.Xml.Schema.XmlSchemaObject source)
-    // Offset: 0x2091B74
+    // Offset: 0x210A134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaException* New_ctor(::StringW res, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::StringW sourceUri, int lineNumber, int linePosition, ::System::Xml::Schema::XmlSchemaObject* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaException*, creationType>(res, args, innerException, sourceUri, lineNumber, linePosition, source)));
     }
     // static System.String CreateMessage(System.String res, System.String[] args)
-    // Offset: 0x2091804
+    // Offset: 0x2109DC4
     static ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args);
     // public override System.String get_Message()
-    // Offset: 0x2091DE8
+    // Offset: 0x210A3A8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::StringW get_Message();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x20918FC
+    // Offset: 0x2109EBC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);

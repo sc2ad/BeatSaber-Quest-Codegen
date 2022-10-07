@@ -74,17 +74,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
     [[deprecated("Use field access instead!")]] ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x136F6D4
+    // Offset: 0x139DB58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserModel::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserModel::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x136FB6C
+    // Offset: 0x139DFF0
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x136FB98
+    // Offset: 0x139E01C
     void $GetContentOfDirectory$b__1();
   }; // FileBrowserModel/<>c__DisplayClass0_0
   #pragma pack(pop)

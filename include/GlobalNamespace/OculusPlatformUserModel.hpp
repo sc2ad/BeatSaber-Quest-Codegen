@@ -96,23 +96,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UserInfo _userInfo
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::UserInfo*& dyn__userInfo();
     // public System.Void .ctor()
-    // Offset: 0x15A527C
+    // Offset: 0x15A3FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformUserModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformUserModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x15A4E50
+    // Offset: 0x15A3BA4
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x15A4F50
+    // Offset: 0x15A3CA4
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x15A507C
+    // Offset: 0x15A3DD0
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x15A517C
+    // Offset: 0x15A3ED0
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
   }; // OculusPlatformUserModel
   #pragma pack(pop)

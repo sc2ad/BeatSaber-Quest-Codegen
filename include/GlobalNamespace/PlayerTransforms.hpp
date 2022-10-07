@@ -170,56 +170,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _useOriginParentTransformForPseudoLocalCalculations
     [[deprecated("Use field access instead!")]] bool& dyn__useOriginParentTransformForPseudoLocalCalculations();
     // public UnityEngine.Vector3 get_headWorldPos()
-    // Offset: 0x14028C8
+    // Offset: 0x14DBBA4
     ::UnityEngine::Vector3 get_headWorldPos();
     // public UnityEngine.Quaternion get_headWorldRot()
-    // Offset: 0x14028D4
+    // Offset: 0x14DBBB0
     ::UnityEngine::Quaternion get_headWorldRot();
     // public UnityEngine.Vector3 get_headPseudoLocalPos()
-    // Offset: 0x14028E0
+    // Offset: 0x14DBBBC
     ::UnityEngine::Vector3 get_headPseudoLocalPos();
     // public UnityEngine.Quaternion get_headPseudoLocalRot()
-    // Offset: 0x14028EC
+    // Offset: 0x14DBBC8
     ::UnityEngine::Quaternion get_headPseudoLocalRot();
     // public UnityEngine.Vector3 get_leftHandPseudoLocalPos()
-    // Offset: 0x14028F8
+    // Offset: 0x14DBBD4
     ::UnityEngine::Vector3 get_leftHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_leftHandPseudoLocalRot()
-    // Offset: 0x1402904
+    // Offset: 0x14DBBE0
     ::UnityEngine::Quaternion get_leftHandPseudoLocalRot();
     // public UnityEngine.Vector3 get_rightHandPseudoLocalPos()
-    // Offset: 0x1402910
+    // Offset: 0x14DBBEC
     ::UnityEngine::Vector3 get_rightHandPseudoLocalPos();
     // public UnityEngine.Quaternion get_rightHandPseudoLocalRot()
-    // Offset: 0x140291C
+    // Offset: 0x14DBBF8
     ::UnityEngine::Quaternion get_rightHandPseudoLocalRot();
     // public System.Void .ctor()
-    // Offset: 0x1402D70
+    // Offset: 0x14DC04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTransforms* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerTransforms::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTransforms*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1402928
+    // Offset: 0x14DBC04
     void Awake();
     // public System.Void OverrideHeadPos(UnityEngine.Vector3 pos)
-    // Offset: 0x14029BC
+    // Offset: 0x14DBC98
     void OverrideHeadPos(::UnityEngine::Vector3 pos);
     // protected System.Void Update()
-    // Offset: 0x14029D8
+    // Offset: 0x14DBCB4
     void Update();
     // public System.Single MoveTowardsHead(System.Single start, System.Single end, UnityEngine.Quaternion noteInverseWorldRotation, System.Single t)
-    // Offset: 0x1402BB4
+    // Offset: 0x14DBE90
     float MoveTowardsHead(float start, float end, ::UnityEngine::Quaternion noteInverseWorldRotation, float t);
     // public System.Single GetZPosOffsetByHeadPosAtTime(System.Single start, System.Single end, System.Single t)
-    // Offset: 0x1402D64
+    // Offset: 0x14DC040
     float GetZPosOffsetByHeadPosAtTime(float start, float end, float t);
     // private System.Single GetZPos(System.Single start, System.Single end, System.Single headOffsetZ, System.Single t)
-    // Offset: 0x1402CC4
+    // Offset: 0x14DBFA0
     float GetZPos(float start, float end, float headOffsetZ, float t);
     // public System.Single HeadOffsetZ(UnityEngine.Quaternion noteInverseWorldRotation)
-    // Offset: 0x1402C04
+    // Offset: 0x14DBEE0
     float HeadOffsetZ(::UnityEngine::Quaternion noteInverseWorldRotation);
   }; // PlayerTransforms
   #pragma pack(pop)

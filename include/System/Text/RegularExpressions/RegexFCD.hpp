@@ -101,53 +101,53 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Boolean _failed
     [[deprecated("Use field access instead!")]] bool& dyn__failed();
     // private System.Void .ctor()
-    // Offset: 0x1DEDCAC
+    // Offset: 0x1E1F29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFCD* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFCD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFCD*, creationType>()));
     }
     // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x1DEDB90
+    // Offset: 0x1E1F180
     static ::System::Text::RegularExpressions::RegexPrefix* FirstChars(::System::Text::RegularExpressions::RegexTree* t);
     // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1DEDED4
+    // Offset: 0x1E1F4C4
     static ::System::Text::RegularExpressions::RegexPrefix* Prefix(::System::Text::RegularExpressions::RegexTree* tree);
     // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1DEE210
+    // Offset: 0x1E1F800
     static int Anchors(::System::Text::RegularExpressions::RegexTree* tree);
     // static private System.Int32 AnchorFromType(System.Int32 type)
-    // Offset: 0x1DEE344
+    // Offset: 0x1E1F934
     static int AnchorFromType(int type);
     // private System.Void PushInt(System.Int32 I)
-    // Offset: 0x1DEE3B0
+    // Offset: 0x1E1F9A0
     void PushInt(int I);
     // private System.Boolean IntIsEmpty()
-    // Offset: 0x1DEE490
+    // Offset: 0x1E1FA80
     bool IntIsEmpty();
     // private System.Int32 PopInt()
-    // Offset: 0x1DEE4A0
+    // Offset: 0x1E1FA90
     int PopInt();
     // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
-    // Offset: 0x1DEE4E8
+    // Offset: 0x1E1FAD8
     void PushFC(::System::Text::RegularExpressions::RegexFC* fc);
     // private System.Boolean FCIsEmpty()
-    // Offset: 0x1DEE5F0
+    // Offset: 0x1E1FBE0
     bool FCIsEmpty();
     // private System.Text.RegularExpressions.RegexFC PopFC()
-    // Offset: 0x1DEE600
+    // Offset: 0x1E1FBF0
     ::System::Text::RegularExpressions::RegexFC* PopFC();
     // private System.Text.RegularExpressions.RegexFC TopFC()
-    // Offset: 0x1DEE648
+    // Offset: 0x1E1FC38
     ::System::Text::RegularExpressions::RegexFC* TopFC();
     // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1DEDD28
+    // Offset: 0x1E1F318
     ::System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
     // private System.Void SkipChild()
-    // Offset: 0x1DEEAF8
+    // Offset: 0x1E200E8
     void SkipChild();
     // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x1DEE68C
+    // Offset: 0x1E1FC7C
     void CalculateFC(int NodeType, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
   }; // System.Text.RegularExpressions.RegexFCD
   #pragma pack(pop)

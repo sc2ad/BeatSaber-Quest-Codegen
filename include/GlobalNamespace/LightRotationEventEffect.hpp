@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: rotationSpeedMultiplier and: beatmapCallbacksController
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x10E83E4
+    // [InjectAttribute] Offset: 0x10FFAD0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E83F4
+    // [InjectAttribute] Offset: 0x10FFAE0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x38
@@ -137,23 +137,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x14DC434
+    // Offset: 0x1469C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14DC09C
+    // Offset: 0x14698C0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14DC1E4
+    // Offset: 0x1469A08
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x14DC2E4
+    // Offset: 0x1469B08
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x14DC300
+    // Offset: 0x1469B24
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // LightRotationEventEffect
   #pragma pack(pop)

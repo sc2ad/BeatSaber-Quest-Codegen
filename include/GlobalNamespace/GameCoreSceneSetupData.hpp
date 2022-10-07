@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class GameCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
     public:
     // public System.Void .ctor()
-    // Offset: 0x136E5E8
+    // Offset: 0x139CA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameCoreSceneSetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameCoreSceneSetupData::.ctor");

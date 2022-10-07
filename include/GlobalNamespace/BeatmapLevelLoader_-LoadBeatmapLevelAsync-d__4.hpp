@@ -124,10 +124,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevel> <>u__3
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevel*>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x1534E0C
+    // Offset: 0x154C21C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x153547C
+    // Offset: 0x154C88C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BeatmapLevelLoader/<LoadBeatmapLevelAsync>d__4
   // WARNING Not writing size check since size may be invalid!

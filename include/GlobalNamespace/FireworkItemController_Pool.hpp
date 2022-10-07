@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class FireworkItemController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FireworkItemController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1372D5C
+    // Offset: 0x13A165C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworkItemController::Pool::.ctor");

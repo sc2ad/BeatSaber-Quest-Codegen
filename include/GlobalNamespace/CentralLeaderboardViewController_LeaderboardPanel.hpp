@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean mixed
     [[deprecated("Use field access instead!")]] bool& dyn_mixed();
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
-    // Offset: 0x135E9B8
+    // Offset: 0x138D33C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::StringW title, ::StringW hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");

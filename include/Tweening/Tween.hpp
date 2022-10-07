@@ -138,65 +138,65 @@ namespace Tweening {
     // Get instance field reference: protected EaseType _easeType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__easeType();
     // public System.Boolean get_isStarted()
-    // Offset: 0x1416EFC
+    // Offset: 0x13F3A44
     bool get_isStarted();
     // public System.Boolean get_isActive()
-    // Offset: 0x1416F04
+    // Offset: 0x13F3A4C
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0x1416F34
+    // Offset: 0x13F3A7C
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0x1416F48
+    // Offset: 0x13F3A90
     bool get_isKilled();
     // public System.Single get_progress()
-    // Offset: 0x1416F50
+    // Offset: 0x13F3A98
     float get_progress();
     // public System.Single get_startTime()
-    // Offset: 0x1416F58
+    // Offset: 0x13F3AA0
     float get_startTime();
     // public System.Single get_duration()
-    // Offset: 0x1416F60
+    // Offset: 0x13F3AA8
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1416F68
+    // Offset: 0x13F3AB0
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0x1416F70
+    // Offset: 0x13F3AB8
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x1416F78
+    // Offset: 0x13F3AC0
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0x1416F84
+    // Offset: 0x13F3ACC
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0x1416F8C
+    // Offset: 0x13F3AD4
     void set_delay(float value);
     // public EaseType get_easeType()
-    // Offset: 0x1416F94
+    // Offset: 0x13F3ADC
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Void set_easeType(EaseType value)
-    // Offset: 0x1416F9C
+    // Offset: 0x13F3AE4
     void set_easeType(::GlobalNamespace::EaseType value);
     // protected System.Void .ctor()
-    // Offset: 0x1416FD0
+    // Offset: 0x13F3B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
     // public System.Void Kill()
-    // Offset: 0x1416FA4
+    // Offset: 0x13F3AEC
     void Kill();
     // public System.Void Restart(System.Single startTime)
-    // Offset: 0x1416FB0
+    // Offset: 0x13F3AF8
     void Restart(float startTime);
     // public System.Void Resume()
-    // Offset: 0x1416FBC
+    // Offset: 0x13F3B04
     void Resume();
     // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
-    // Offset: 0x1416FC4
+    // Offset: 0x13F3B0C
     void SetStartTimeAndEndTime(float startTime, float endTime);
     // public System.Void Update(System.Single currentTime)
     // Offset: 0xFFFFFFFFFFFFFFFF

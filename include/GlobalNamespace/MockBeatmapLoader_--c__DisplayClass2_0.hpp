@@ -71,20 +71,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public IDifficultyBeatmap difficultyBeatmap
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // public System.Void .ctor()
-    // Offset: 0x13E8D4C
+    // Offset: 0x13FFFD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x13E8D54
+    // Offset: 0x13FFFE0
     bool $GetBeatmapData$b__0(::GlobalNamespace::IDifficultyBeatmapSet* bds);
     // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x13E8E28
+    // Offset: 0x14000B4
     bool $GetBeatmapData$b__2(::GlobalNamespace::IDifficultyBeatmap* dbm);
     // System.Threading.Tasks.Task <GetBeatmapData>b__3()
-    // Offset: 0x13E8EFC
+    // Offset: 0x1400188
     ::System::Threading::Tasks::Task* $GetBeatmapData$b__3();
   }; // MockBeatmapLoader/<>c__DisplayClass2_0
   #pragma pack(pop)

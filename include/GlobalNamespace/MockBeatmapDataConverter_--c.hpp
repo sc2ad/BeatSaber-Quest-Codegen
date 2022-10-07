@@ -76,35 +76,35 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<ObstacleData,MockObstacleData> <>9__0_6
     static void _set_$$9__0_6(::System::Func_2<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::MockObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13E89FC
+    // Offset: 0x13FFC88
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13E8A60
+    // Offset: 0x13FFCEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapDataConverter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapDataConverter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapDataConverter::$$c*, creationType>()));
     }
     // System.Boolean <ToMockBeatmapData>b__0_0(NoteData nd)
-    // Offset: 0x13E8A68
+    // Offset: 0x13FFCF4
     bool $ToMockBeatmapData$b__0_0(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_1(NoteData nd)
-    // Offset: 0x13E8A88
+    // Offset: 0x13FFD14
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_1(::GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_2(NoteData nd)
-    // Offset: 0x13E8A90
+    // Offset: 0x13FFD1C
     bool $ToMockBeatmapData$b__0_2(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_3(NoteData nd)
-    // Offset: 0x13E8AB0
+    // Offset: 0x13FFD3C
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_3(::GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_4(NoteData nd)
-    // Offset: 0x13E8AB8
+    // Offset: 0x13FFD44
     bool $ToMockBeatmapData$b__0_4(::GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_5(NoteData nd)
-    // Offset: 0x13E8AD8
+    // Offset: 0x13FFD64
     ::GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_5(::GlobalNamespace::NoteData* nd);
     // MockObstacleData <ToMockBeatmapData>b__0_6(ObstacleData od)
-    // Offset: 0x13E8AE0
+    // Offset: 0x13FFD6C
     ::GlobalNamespace::MockObstacleData* $ToMockBeatmapData$b__0_6(::GlobalNamespace::ObstacleData* od);
   }; // MockBeatmapDataConverter/<>c
   #pragma pack(pop)

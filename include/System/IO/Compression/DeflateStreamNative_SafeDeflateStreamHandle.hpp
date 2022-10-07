@@ -26,19 +26,19 @@ namespace System::IO::Compression {
   class DeflateStreamNative::SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle {
     public:
     // private System.Void .ctor()
-    // Offset: 0x1CE4DF0
+    // Offset: 0x1D31FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStreamNative::SafeDeflateStreamHandle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative::SafeDeflateStreamHandle*, creationType>()));
     }
     // public override System.Boolean get_IsInvalid()
-    // Offset: 0x1CE4E44
+    // Offset: 0x1D31FF4
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::get_IsInvalid()
     bool get_IsInvalid();
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1CE4E90
+    // Offset: 0x1D32040
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();

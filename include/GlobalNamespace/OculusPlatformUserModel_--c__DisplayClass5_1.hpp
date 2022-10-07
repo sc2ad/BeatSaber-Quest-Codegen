@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x15A584C
+    // Offset: 0x15A45A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformUserModel::$$c__DisplayClass5_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel::$$c__DisplayClass5_1*, creationType>()));
     }
     // System.Void <GetUserNamesForUserIds>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
-    // Offset: 0x15A5854
+    // Offset: 0x15A45A8
     void $GetUserNamesForUserIds$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* result);
   }; // OculusPlatformUserModel/<>c__DisplayClass5_1
   #pragma pack(pop)

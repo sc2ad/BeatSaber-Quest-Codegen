@@ -70,20 +70,20 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 current
     [[deprecated("Use field access instead!")]] int& dyn_current();
     // public System.Object get_Current()
-    // Offset: 0x1D897DC
+    // Offset: 0x1DEEBE4
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Array array, System.Int32 count)
-    // Offset: 0x1D89768
+    // Offset: 0x1DEEB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArraySubsetEnumerator* New_ctor(::System::Array* array, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ArraySubsetEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArraySubsetEnumerator*, creationType>(array, count)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D897A8
+    // Offset: 0x1DEEBB0
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D897D0
+    // Offset: 0x1DEEBD8
     void Reset();
   }; // System.ComponentModel.ArraySubsetEnumerator
   #pragma pack(pop)

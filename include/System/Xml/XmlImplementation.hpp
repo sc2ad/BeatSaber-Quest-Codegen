@@ -50,24 +50,24 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // System.Xml.XmlNameTable get_NameTable()
-    // Offset: 0x15D5974
+    // Offset: 0x15ECCF4
     ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Void .ctor()
-    // Offset: 0x15D5878
+    // Offset: 0x15ECBF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlImplementation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>()));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nt)
-    // Offset: 0x15D58E4
+    // Offset: 0x15ECC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>(nt)));
     }
     // public System.Xml.XmlDocument CreateDocument()
-    // Offset: 0x15D5910
+    // Offset: 0x15ECC90
     ::System::Xml::XmlDocument* CreateDocument();
   }; // System.Xml.XmlImplementation
   #pragma pack(pop)

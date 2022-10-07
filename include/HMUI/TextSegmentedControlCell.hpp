@@ -60,25 +60,25 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__backgroundGameObject();
     // public System.String get_text()
-    // Offset: 0x16E49C4
+    // Offset: 0x16EBC4C
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x16E4950
+    // Offset: 0x16EBBD8
     void set_text(::StringW value);
     // public System.Single get_fontSize()
-    // Offset: 0x16E49E0
+    // Offset: 0x16EBC68
     float get_fontSize();
     // public System.Void set_fontSize(System.Single value)
-    // Offset: 0x16E4934
+    // Offset: 0x16EBBBC
     void set_fontSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x16E496C
+    // Offset: 0x16EBBF4
     void set_hideBackgroundImage(bool value);
     // public System.Single get_preferredWidth()
-    // Offset: 0x16E4990
+    // Offset: 0x16EBC18
     float get_preferredWidth();
     // public System.Void .ctor()
-    // Offset: 0x16E49FC
+    // Offset: 0x16EBC84
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

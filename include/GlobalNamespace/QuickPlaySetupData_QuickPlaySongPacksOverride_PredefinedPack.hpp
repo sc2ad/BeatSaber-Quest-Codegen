@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String packId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_packId();
     // public System.Void .ctor()
-    // Offset: 0x1409D30
+    // Offset: 0x1486F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack::.ctor");

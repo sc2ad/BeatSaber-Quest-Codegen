@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarPoseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E2270
+    // [InjectAttribute] Offset: 0x10F94F8
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10E2280
+    // [InjectOptionalAttribute] Offset: 0x10F9508
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x28
@@ -70,20 +70,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x13EFC80
+    // Offset: 0x1406F70
     void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
     // public System.Void .ctor()
-    // Offset: 0x13F0058
+    // Offset: 0x1407348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarPoseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerAvatarPoseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarPoseController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13EFC88
+    // Offset: 0x1406F78
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13EFCA0
+    // Offset: 0x1406F90
     void Update();
   }; // MultiplayerAvatarPoseController
   #pragma pack(pop)

@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Behaviour[] _components
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x15C2B78
+    // Offset: 0x15C9A2C
     void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x15C2C1C
+    // Offset: 0x15C9AD0
     void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x15C2EA0
+    // Offset: 0x15C9D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableOnVisible* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableOnVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableOnVisible*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15C2CC0
+    // Offset: 0x15C9B74
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x15C2D30
+    // Offset: 0x15C9BE4
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x15C2DE8
+    // Offset: 0x15C9C9C
     void OnBecameInvisible();
   }; // EnableOnVisible
   #pragma pack(pop)

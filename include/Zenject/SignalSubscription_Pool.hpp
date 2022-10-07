@@ -41,7 +41,7 @@ namespace Zenject {
   class SignalSubscription::Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::Il2CppObject*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D14CF4
+    // Offset: 0x1D61EA4
     // Implemented from: Zenject.PoolableMemoryPool`3
     // Base method: System.Void PoolableMemoryPool_3::.ctor()
     // Base method: System.Void MemoryPool_3::.ctor()
@@ -52,14 +52,14 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SignalSubscription::Pool*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D14D44
+    // Offset: 0x1D61EF4
     // Implemented from: Zenject.PoolableMemoryPool`3
     // Base method: System.Object PoolableMemoryPool_3::__zenCreate(System.Object[] P_0)
     // Base method: System.Object MemoryPool_3::__zenCreate(System.Object[] P_0)
     // Base method: System.Object MemoryPoolBase_1::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D14D9C
+    // Offset: 0x1D61F4C
     // Implemented from: Zenject.PoolableMemoryPool`3
     // Base method: Zenject.InjectTypeInfo PoolableMemoryPool_3::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo MemoryPool_3::__zenCreateInjectTypeInfo()

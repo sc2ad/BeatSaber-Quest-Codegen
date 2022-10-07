@@ -16,8 +16,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: LightIdsRange
-  class LightIdsRange;
+  // Forward declaring type: LightGroup
+  class LightGroup;
 }
 // Forward declaring namespace: UnityEngine
 namespace UnityEngine {
@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::RuntimeLightWithLightGroupIds::LightIntensitiesWithId
     class LightIntensitiesWithId;
     public:
-    // private LightIdsRange[] _lightIdsRangeList
+    // private LightGroup[] _lightGroupList
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::GlobalNamespace::LightIdsRange*> lightIdsRangeList;
+    ::ArrayW<::GlobalNamespace::LightGroup*> lightGroupList;
     // Field size check
-    static_assert(sizeof(::ArrayW<::GlobalNamespace::LightIdsRange*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10CEEFC
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::LightGroup*>) == 0x8);
+    // [SpaceAttribute] Offset: 0x10E6E00
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -80,8 +80,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::RuntimeLightWithLightGroupIds::LightIntensitiesWithId*>) == 0x8);
     public:
-    // Get instance field reference: private LightIdsRange[] _lightIdsRangeList
-    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightIdsRange*>& dyn__lightIdsRangeList();
+    // Get instance field reference: private LightGroup[] _lightGroupList
+    [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightGroup*>& dyn__lightGroupList();
     // Get instance field reference: private System.Single _intensity
     [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // Get instance field reference: private System.Single _maxIntensity
@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // protected System.Void Awake()
-    // Offset: 0x1E78400
+    // Offset: 0x1D09000
     void Awake();
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1E787F4
+    // Offset: 0x1D0940C
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x1E6E3E8
+    // Offset: 0x1CFEB90
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithLightGroupIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1E78608
+    // Offset: 0x1D09220
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();

@@ -118,7 +118,7 @@ namespace System::IO {
     // Get instance field reference: public System.Collections.Hashtable Files
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_Files();
     // public System.Void .ctor()
-    // Offset: 0x1CE5F00
+    // Offset: 0x1D330B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultWatcherData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::DefaultWatcherData::.ctor");

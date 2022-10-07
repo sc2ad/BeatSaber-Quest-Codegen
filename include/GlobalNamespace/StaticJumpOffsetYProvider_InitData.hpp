@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single jumpyYOffset
     [[deprecated("Use field access instead!")]] float& dyn_jumpyYOffset();
     // public System.Void .ctor(System.Single jumpyYOffset)
-    // Offset: 0x14657D4
+    // Offset: 0x14CE418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticJumpOffsetYProvider::InitData* New_ctor(float jumpyYOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticJumpOffsetYProvider::InitData::.ctor");

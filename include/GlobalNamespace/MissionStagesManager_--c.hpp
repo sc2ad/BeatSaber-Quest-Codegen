@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionStage,System.Int32> <>9__6_0
     static void _set_$$9__6_0(::System::Func_2<::GlobalNamespace::MissionStage*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13E771C
+    // Offset: 0x13FE9A8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13E7780
+    // Offset: 0x13FEA0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStagesManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStagesManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionStagesManager::$$c*, creationType>()));
     }
     // System.Int32 <InitStages>b__6_0(MissionStage stage)
-    // Offset: 0x13E7788
+    // Offset: 0x13FEA14
     int $InitStages$b__6_0(::GlobalNamespace::MissionStage* stage);
   }; // MissionStagesManager/<>c
   #pragma pack(pop)

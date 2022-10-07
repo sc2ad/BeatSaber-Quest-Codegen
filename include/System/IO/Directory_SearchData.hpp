@@ -53,7 +53,7 @@ namespace System::IO {
     // Get instance field reference: public readonly System.IO.SearchOption searchOption
     [[deprecated("Use field access instead!")]] ::System::IO::SearchOption& dyn_searchOption();
     // public System.Void .ctor(System.String fullPath, System.String userPath, System.IO.SearchOption searchOption)
-    // Offset: 0x202A400
+    // Offset: 0x206BAA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Directory::SearchData* New_ctor(::StringW fullPath, ::StringW userPath, ::System::IO::SearchOption searchOption) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Directory::SearchData::.ctor");

@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Material self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_self();
     // public System.Void .ctor(UnityEngine.Material self)
-    // Offset: 0x2AC0900
+    // Offset: 0x2AE9EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Material* New_ctor(::UnityEngine::Material* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Material::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Material*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2AC092C
+    // Offset: 0x2AE9ED0
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Material other)
-    // Offset: 0x2AC099C
+    // Offset: 0x2AE9F40
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Material* other);
   }; // HoudiniEngineUnity.Test_Material
   #pragma pack(pop)

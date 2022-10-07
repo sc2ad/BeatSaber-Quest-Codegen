@@ -55,23 +55,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
     // public System.Void .ctor()
-    // Offset: 0x14D2370
+    // Offset: 0x145F9F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelMissionParser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelMissionParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelMissionParser*, creationType>()));
     }
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0x14D23E8
+    // Offset: 0x145FA70
     void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
-    // Offset: 0x14D2458
+    // Offset: 0x145FAE0
     bool Parse(::StringW s);
     // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x14D2474
+    // Offset: 0x145FAFC
     bool Parse(::StringW s, int start, int length);
     // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x14D2750
+    // Offset: 0x145FDD8
     bool ParseFunction(::StringW s, int start, int length);
   }; // LevelMissionParser
   #pragma pack(pop)

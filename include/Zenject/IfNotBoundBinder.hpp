@@ -49,20 +49,20 @@ namespace Zenject {
     // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindInfo get_BindInfo()
-    // Offset: 0x1E1D0C8
+    // Offset: 0x1E65AF8
     ::Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
-    // Offset: 0x1E1D0D0
+    // Offset: 0x1E65B00
     void set_BindInfo(::Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1E1D09C
+    // Offset: 0x1E65ACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public System.Void IfNotBound()
-    // Offset: 0x1E1D0D8
+    // Offset: 0x1E65B08
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
   #pragma pack(pop)

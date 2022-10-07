@@ -72,40 +72,40 @@ namespace UnityEngine {
     // Set static field: static private readonly System.IntPtr s_FieldGetDeclaringClass
     static void _set_s_FieldGetDeclaringClass(::System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x2AA4BB8
+    // Offset: 0x2AC186C
     static void _cctor();
     // static public System.Boolean IsPrimitive(System.Type t)
-    // Offset: 0x2AA4374
+    // Offset: 0x2AC1028
     static bool IsPrimitive(::System::Type* t);
     // static public System.Boolean IsAssignableFrom(System.Type t, System.Type from)
-    // Offset: 0x2AA438C
+    // Offset: 0x2AC1040
     static bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
     // static private System.IntPtr GetStaticMethodID(System.String clazz, System.String methodName, System.String signature)
-    // Offset: 0x2AA43AC
+    // Offset: 0x2AC1060
     static ::System::IntPtr GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
     // static private System.IntPtr GetMethodID(System.String clazz, System.String methodName, System.String signature)
-    // Offset: 0x2AA4428
+    // Offset: 0x2AC10DC
     static ::System::IntPtr GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
     // static public System.IntPtr GetConstructorMember(System.IntPtr jclass, System.String signature)
-    // Offset: 0x2AA44A4
+    // Offset: 0x2AC1158
     static ::System::IntPtr GetConstructorMember(::System::IntPtr jclass, ::StringW signature);
     // static public System.IntPtr GetMethodMember(System.IntPtr jclass, System.String methodName, System.String signature, System.Boolean isStatic)
-    // Offset: 0x2AA460C
+    // Offset: 0x2AC12C0
     static ::System::IntPtr GetMethodMember(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
     // static public System.IntPtr GetFieldMember(System.IntPtr jclass, System.String fieldName, System.String signature, System.Boolean isStatic)
-    // Offset: 0x2AA47E0
+    // Offset: 0x2AC1494
     static ::System::IntPtr GetFieldMember(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
     // static public System.IntPtr GetFieldClass(System.IntPtr field)
-    // Offset: 0x2AA49B4
+    // Offset: 0x2AC1668
     static ::System::IntPtr GetFieldClass(::System::IntPtr field);
     // static public System.String GetFieldSignature(System.IntPtr field)
-    // Offset: 0x2AA4A28
+    // Offset: 0x2AC16DC
     static ::StringW GetFieldSignature(::System::IntPtr field);
     // static public System.IntPtr NewProxyInstance(System.IntPtr delegateHandle, System.IntPtr interfaze)
-    // Offset: 0x2AA4ADC
+    // Offset: 0x2AC1790
     static ::System::IntPtr NewProxyInstance(::System::IntPtr delegateHandle, ::System::IntPtr interfaze);
     // static public System.Void SetNativeExceptionOnProxy(System.IntPtr proxy, System.Exception e, System.Boolean methodNotFound)
-    // Offset: 0x2AA34C8
+    // Offset: 0x2AC017C
     static void SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound);
   }; // UnityEngine.AndroidReflection
   #pragma pack(pop)

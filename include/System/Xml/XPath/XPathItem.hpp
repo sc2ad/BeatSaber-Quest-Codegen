@@ -74,14 +74,14 @@ namespace System::Xml::XPath {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_ValueAsLong();
     // protected System.Void .ctor()
-    // Offset: 0x1BB5320
+    // Offset: 0x1BEC854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XPathItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XPath::XPathItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathItem*, creationType>()));
     }
     // public System.Object ValueAs(System.Type returnType)
-    // Offset: 0x1BB530C
+    // Offset: 0x1BEC840
     ::Il2CppObject* ValueAs(::System::Type* returnType);
     // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFFFFFFFFFF

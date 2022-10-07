@@ -77,20 +77,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.InjectContext context
     [[deprecated("Use field access instead!")]] ::Zenject::InjectContext*& dyn_context();
     // public System.Void .ctor()
-    // Offset: 0x1770180
+    // Offset: 0x1777408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToCurrentGameObjectComponentProvider::$$c__DisplayClass15_0*, creationType>()));
     }
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x1770188
+    // Offset: 0x1777410
     void $GetAllInstancesWithInjectSplit$b__0();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x177045C
+    // Offset: 0x17776E4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17704B8
+    // Offset: 0x1777740
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.AddToCurrentGameObjectComponentProvider/Zenject.<>c__DisplayClass15_0
   #pragma pack(pop)

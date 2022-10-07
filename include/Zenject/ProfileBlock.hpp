@@ -50,39 +50,39 @@ namespace Zenject {
     // Set static field: static private System.Text.RegularExpressions.Regex <ProfilePattern>k__BackingField
     static void _set_$ProfilePattern$k__BackingField(::System::Text::RegularExpressions::Regex* value);
     // static public System.Text.RegularExpressions.Regex get_ProfilePattern()
-    // Offset: 0x1C0EFF0
+    // Offset: 0x1C47524
     static ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
     // static public System.Void set_ProfilePattern(System.Text.RegularExpressions.Regex value)
-    // Offset: 0x1C0F040
+    // Offset: 0x1C47574
     static void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
     // private System.Void .ctor(System.String sampleName, System.Boolean rootBlock)
-    // Offset: 0x1C0EFE0
+    // Offset: 0x1C47514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName, rootBlock)));
     }
     // private System.Void .ctor(System.String sampleName)
-    // Offset: 0x1C0EFE8
+    // Offset: 0x1C4751C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfileBlock* New_ctor(::StringW sampleName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName)));
     }
     // static public Zenject.ProfileBlock Start()
-    // Offset: 0x1C0F094
+    // Offset: 0x1C475C8
     static ::Zenject::ProfileBlock* Start();
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj1, System.Object obj2)
-    // Offset: 0x1C0F09C
+    // Offset: 0x1C475D0
     static ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj)
-    // Offset: 0x1C0F0A4
+    // Offset: 0x1C475D8
     static ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj);
     // static public Zenject.ProfileBlock Start(System.String sampleName)
-    // Offset: 0x1C0F0AC
+    // Offset: 0x1C475E0
     static ::Zenject::ProfileBlock* Start(::StringW sampleName);
     // public System.Void Dispose()
-    // Offset: 0x1C0F0B4
+    // Offset: 0x1C475E8
     void Dispose();
   }; // Zenject.ProfileBlock
   #pragma pack(pop)

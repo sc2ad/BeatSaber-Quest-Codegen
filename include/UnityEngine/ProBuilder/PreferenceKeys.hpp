@@ -150,588 +150,588 @@ namespace UnityEngine::ProBuilder {
     static int _get_menuExport();
     // Set static field: static public System.Int32 menuExport
     static void _set_menuExport(int value);
-    // [ObsoleteAttribute] Offset: 0x1117AFC
+    // [ObsoleteAttribute] Offset: 0x11307C0
     // static field const value: static System.String pbDefaultEditLevel
     static constexpr const char* pbDefaultEditLevel = "pbDefaultEditLevel";
     // Get static field: static System.String pbDefaultEditLevel
     static ::StringW _get_pbDefaultEditLevel();
     // Set static field: static System.String pbDefaultEditLevel
     static void _set_pbDefaultEditLevel(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117B34
+    // [ObsoleteAttribute] Offset: 0x11307F8
     // static field const value: static System.String pbDefaultSelectionMode
     static constexpr const char* pbDefaultSelectionMode = "pbDefaultSelectionMode";
     // Get static field: static System.String pbDefaultSelectionMode
     static ::StringW _get_pbDefaultSelectionMode();
     // Set static field: static System.String pbDefaultSelectionMode
     static void _set_pbDefaultSelectionMode(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117B6C
+    // [ObsoleteAttribute] Offset: 0x1130830
     // static field const value: static System.String pbHandleAlignment
     static constexpr const char* pbHandleAlignment = "pbHandleAlignment";
     // Get static field: static System.String pbHandleAlignment
     static ::StringW _get_pbHandleAlignment();
     // Set static field: static System.String pbHandleAlignment
     static void _set_pbHandleAlignment(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117BA4
+    // [ObsoleteAttribute] Offset: 0x1130868
     // static field const value: static System.String pbVertexColorTool
     static constexpr const char* pbVertexColorTool = "pbVertexColorTool";
     // Get static field: static System.String pbVertexColorTool
     static ::StringW _get_pbVertexColorTool();
     // Set static field: static System.String pbVertexColorTool
     static void _set_pbVertexColorTool(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117BDC
+    // [ObsoleteAttribute] Offset: 0x11308A0
     // static field const value: static System.String pbToolbarLocation
     static constexpr const char* pbToolbarLocation = "pbToolbarLocation";
     // Get static field: static System.String pbToolbarLocation
     static ::StringW _get_pbToolbarLocation();
     // Set static field: static System.String pbToolbarLocation
     static void _set_pbToolbarLocation(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117C14
+    // [ObsoleteAttribute] Offset: 0x11308D8
     // static field const value: static System.String pbDefaultEntity
     static constexpr const char* pbDefaultEntity = "pbDefaultEntity";
     // Get static field: static System.String pbDefaultEntity
     static ::StringW _get_pbDefaultEntity();
     // Set static field: static System.String pbDefaultEntity
     static void _set_pbDefaultEntity(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117C4C
+    // [ObsoleteAttribute] Offset: 0x1130910
     // static field const value: static System.String pbExtrudeMethod
     static constexpr const char* pbExtrudeMethod = "pbExtrudeMethod";
     // Get static field: static System.String pbExtrudeMethod
     static ::StringW _get_pbExtrudeMethod();
     // Set static field: static System.String pbExtrudeMethod
     static void _set_pbExtrudeMethod(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117C84
+    // [ObsoleteAttribute] Offset: 0x1130948
     // static field const value: static System.String pbDefaultStaticFlags
     static constexpr const char* pbDefaultStaticFlags = "pbDefaultStaticFlags";
     // Get static field: static System.String pbDefaultStaticFlags
     static ::StringW _get_pbDefaultStaticFlags();
     // Set static field: static System.String pbDefaultStaticFlags
     static void _set_pbDefaultStaticFlags(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117CBC
+    // [ObsoleteAttribute] Offset: 0x1130980
     // static field const value: static System.String pbSelectedFaceColor
     static constexpr const char* pbSelectedFaceColor = "pbDefaultFaceColor";
     // Get static field: static System.String pbSelectedFaceColor
     static ::StringW _get_pbSelectedFaceColor();
     // Set static field: static System.String pbSelectedFaceColor
     static void _set_pbSelectedFaceColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117CF4
+    // [ObsoleteAttribute] Offset: 0x11309B8
     // static field const value: static System.String pbWireframeColor
     static constexpr const char* pbWireframeColor = "pbDefaultEdgeColor";
     // Get static field: static System.String pbWireframeColor
     static ::StringW _get_pbWireframeColor();
     // Set static field: static System.String pbWireframeColor
     static void _set_pbWireframeColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117D2C
+    // [ObsoleteAttribute] Offset: 0x11309F0
     // static field const value: static System.String pbUnselectedEdgeColor
     static constexpr const char* pbUnselectedEdgeColor = "pbUnselectedEdgeColor";
     // Get static field: static System.String pbUnselectedEdgeColor
     static ::StringW _get_pbUnselectedEdgeColor();
     // Set static field: static System.String pbUnselectedEdgeColor
     static void _set_pbUnselectedEdgeColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117D64
+    // [ObsoleteAttribute] Offset: 0x1130A28
     // static field const value: static System.String pbSelectedEdgeColor
     static constexpr const char* pbSelectedEdgeColor = "pbSelectedEdgeColor";
     // Get static field: static System.String pbSelectedEdgeColor
     static ::StringW _get_pbSelectedEdgeColor();
     // Set static field: static System.String pbSelectedEdgeColor
     static void _set_pbSelectedEdgeColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117D9C
+    // [ObsoleteAttribute] Offset: 0x1130A60
     // static field const value: static System.String pbSelectedVertexColor
     static constexpr const char* pbSelectedVertexColor = "pbDefaultSelectedVertexColor";
     // Get static field: static System.String pbSelectedVertexColor
     static ::StringW _get_pbSelectedVertexColor();
     // Set static field: static System.String pbSelectedVertexColor
     static void _set_pbSelectedVertexColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117DD4
+    // [ObsoleteAttribute] Offset: 0x1130A98
     // static field const value: static System.String pbUnselectedVertexColor
     static constexpr const char* pbUnselectedVertexColor = "pbDefaultVertexColor";
     // Get static field: static System.String pbUnselectedVertexColor
     static ::StringW _get_pbUnselectedVertexColor();
     // Set static field: static System.String pbUnselectedVertexColor
     static void _set_pbUnselectedVertexColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117E0C
+    // [ObsoleteAttribute] Offset: 0x1130AD0
     // static field const value: static System.String pbPreselectionColor
     static constexpr const char* pbPreselectionColor = "pbPreselectionColor";
     // Get static field: static System.String pbPreselectionColor
     static ::StringW _get_pbPreselectionColor();
     // Set static field: static System.String pbPreselectionColor
     static void _set_pbPreselectionColor(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117E44
+    // [ObsoleteAttribute] Offset: 0x1130B08
     // static field const value: static System.String pbDefaultOpenInDockableWindow
     static constexpr const char* pbDefaultOpenInDockableWindow = "pbDefaultOpenInDockableWindow";
     // Get static field: static System.String pbDefaultOpenInDockableWindow
     static ::StringW _get_pbDefaultOpenInDockableWindow();
     // Set static field: static System.String pbDefaultOpenInDockableWindow
     static void _set_pbDefaultOpenInDockableWindow(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117E7C
+    // [ObsoleteAttribute] Offset: 0x1130B40
     // static field const value: static System.String pbEditorPrefVersion
     static constexpr const char* pbEditorPrefVersion = "pbEditorPrefVersion";
     // Get static field: static System.String pbEditorPrefVersion
     static ::StringW _get_pbEditorPrefVersion();
     // Set static field: static System.String pbEditorPrefVersion
     static void _set_pbEditorPrefVersion(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117EB4
+    // [ObsoleteAttribute] Offset: 0x1130B78
     // static field const value: static System.String pbEditorShortcutsVersion
     static constexpr const char* pbEditorShortcutsVersion = "pbEditorShortcutsVersion";
     // Get static field: static System.String pbEditorShortcutsVersion
     static ::StringW _get_pbEditorShortcutsVersion();
     // Set static field: static System.String pbEditorShortcutsVersion
     static void _set_pbEditorShortcutsVersion(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117EEC
+    // [ObsoleteAttribute] Offset: 0x1130BB0
     // static field const value: static System.String pbDefaultCollider
     static constexpr const char* pbDefaultCollider = "pbDefaultCollider";
     // Get static field: static System.String pbDefaultCollider
     static ::StringW _get_pbDefaultCollider();
     // Set static field: static System.String pbDefaultCollider
     static void _set_pbDefaultCollider(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117F24
+    // [ObsoleteAttribute] Offset: 0x1130BE8
     // static field const value: static System.String pbForceConvex
     static constexpr const char* pbForceConvex = "pbForceConvex";
     // Get static field: static System.String pbForceConvex
     static ::StringW _get_pbForceConvex();
     // Set static field: static System.String pbForceConvex
     static void _set_pbForceConvex(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117F5C
+    // [ObsoleteAttribute] Offset: 0x1130C20
     // static field const value: static System.String pbVertexColorPrefs
     static constexpr const char* pbVertexColorPrefs = "pbVertexColorPrefs";
     // Get static field: static System.String pbVertexColorPrefs
     static ::StringW _get_pbVertexColorPrefs();
     // Set static field: static System.String pbVertexColorPrefs
     static void _set_pbVertexColorPrefs(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117F94
+    // [ObsoleteAttribute] Offset: 0x1130C58
     // static field const value: static System.String pbShowEditorNotifications
     static constexpr const char* pbShowEditorNotifications = "pbShowEditorNotifications";
     // Get static field: static System.String pbShowEditorNotifications
     static ::StringW _get_pbShowEditorNotifications();
     // Set static field: static System.String pbShowEditorNotifications
     static void _set_pbShowEditorNotifications(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1117FCC
+    // [ObsoleteAttribute] Offset: 0x1130C90
     // static field const value: static System.String pbDragCheckLimit
     static constexpr const char* pbDragCheckLimit = "pbDragCheckLimit";
     // Get static field: static System.String pbDragCheckLimit
     static ::StringW _get_pbDragCheckLimit();
     // Set static field: static System.String pbDragCheckLimit
     static void _set_pbDragCheckLimit(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118004
+    // [ObsoleteAttribute] Offset: 0x1130CC8
     // static field const value: static System.String pbForceVertexPivot
     static constexpr const char* pbForceVertexPivot = "pbForceVertexPivot";
     // Get static field: static System.String pbForceVertexPivot
     static ::StringW _get_pbForceVertexPivot();
     // Set static field: static System.String pbForceVertexPivot
     static void _set_pbForceVertexPivot(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111803C
+    // [ObsoleteAttribute] Offset: 0x1130D00
     // static field const value: static System.String pbForceGridPivot
     static constexpr const char* pbForceGridPivot = "pbForceGridPivot";
     // Get static field: static System.String pbForceGridPivot
     static ::StringW _get_pbForceGridPivot();
     // Set static field: static System.String pbForceGridPivot
     static void _set_pbForceGridPivot(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118074
+    // [ObsoleteAttribute] Offset: 0x1130D38
     // static field const value: static System.String pbManifoldEdgeExtrusion
     static constexpr const char* pbManifoldEdgeExtrusion = "pbManifoldEdgeExtrusion";
     // Get static field: static System.String pbManifoldEdgeExtrusion
     static ::StringW _get_pbManifoldEdgeExtrusion();
     // Set static field: static System.String pbManifoldEdgeExtrusion
     static void _set_pbManifoldEdgeExtrusion(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11180AC
+    // [ObsoleteAttribute] Offset: 0x1130D70
     // static field const value: static System.String pbPerimeterEdgeBridgeOnly
     static constexpr const char* pbPerimeterEdgeBridgeOnly = "pbPerimeterEdgeBridgeOnly";
     // Get static field: static System.String pbPerimeterEdgeBridgeOnly
     static ::StringW _get_pbPerimeterEdgeBridgeOnly();
     // Set static field: static System.String pbPerimeterEdgeBridgeOnly
     static void _set_pbPerimeterEdgeBridgeOnly(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11180E4
+    // [ObsoleteAttribute] Offset: 0x1130DA8
     // static field const value: static System.String pbPBOSelectionOnly
     static constexpr const char* pbPBOSelectionOnly = "pbPBOSelectionOnly";
     // Get static field: static System.String pbPBOSelectionOnly
     static ::StringW _get_pbPBOSelectionOnly();
     // Set static field: static System.String pbPBOSelectionOnly
     static void _set_pbPBOSelectionOnly(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111811C
+    // [ObsoleteAttribute] Offset: 0x1130DE0
     // static field const value: static System.String pbCloseShapeWindow
     static constexpr const char* pbCloseShapeWindow = "pbCloseShapeWindow";
     // Get static field: static System.String pbCloseShapeWindow
     static ::StringW _get_pbCloseShapeWindow();
     // Set static field: static System.String pbCloseShapeWindow
     static void _set_pbCloseShapeWindow(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118154
+    // [ObsoleteAttribute] Offset: 0x1130E18
     // static field const value: static System.String pbUVEditorFloating
     static constexpr const char* pbUVEditorFloating = "pbUVEditorFloating";
     // Get static field: static System.String pbUVEditorFloating
     static ::StringW _get_pbUVEditorFloating();
     // Set static field: static System.String pbUVEditorFloating
     static void _set_pbUVEditorFloating(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111818C
+    // [ObsoleteAttribute] Offset: 0x1130E50
     // static field const value: static System.String pbUVMaterialPreview
     static constexpr const char* pbUVMaterialPreview = "pbUVMaterialPreview";
     // Get static field: static System.String pbUVMaterialPreview
     static ::StringW _get_pbUVMaterialPreview();
     // Set static field: static System.String pbUVMaterialPreview
     static void _set_pbUVMaterialPreview(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11181C4
+    // [ObsoleteAttribute] Offset: 0x1130E88
     // static field const value: static System.String pbShowSceneToolbar
     static constexpr const char* pbShowSceneToolbar = "pbShowSceneToolbar";
     // Get static field: static System.String pbShowSceneToolbar
     static ::StringW _get_pbShowSceneToolbar();
     // Set static field: static System.String pbShowSceneToolbar
     static void _set_pbShowSceneToolbar(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11181FC
+    // [ObsoleteAttribute] Offset: 0x1130EC0
     // static field const value: static System.String pbNormalizeUVsOnPlanarProjection
     static constexpr const char* pbNormalizeUVsOnPlanarProjection = "pbNormalizeUVsOnPlanarProjection";
     // Get static field: static System.String pbNormalizeUVsOnPlanarProjection
     static ::StringW _get_pbNormalizeUVsOnPlanarProjection();
     // Set static field: static System.String pbNormalizeUVsOnPlanarProjection
     static void _set_pbNormalizeUVsOnPlanarProjection(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118234
+    // [ObsoleteAttribute] Offset: 0x1130EF8
     // static field const value: static System.String pbStripProBuilderOnBuild
     static constexpr const char* pbStripProBuilderOnBuild = "pbStripProBuilderOnBuild";
     // Get static field: static System.String pbStripProBuilderOnBuild
     static ::StringW _get_pbStripProBuilderOnBuild();
     // Set static field: static System.String pbStripProBuilderOnBuild
     static void _set_pbStripProBuilderOnBuild(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111826C
+    // [ObsoleteAttribute] Offset: 0x1130F30
     // static field const value: static System.String pbDisableAutoUV2Generation
     static constexpr const char* pbDisableAutoUV2Generation = "pbDisableAutoUV2Generation";
     // Get static field: static System.String pbDisableAutoUV2Generation
     static ::StringW _get_pbDisableAutoUV2Generation();
     // Set static field: static System.String pbDisableAutoUV2Generation
     static void _set_pbDisableAutoUV2Generation(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11182A4
+    // [ObsoleteAttribute] Offset: 0x1130F68
     // static field const value: static System.String pbShowSceneInfo
     static constexpr const char* pbShowSceneInfo = "pbShowSceneInfo";
     // Get static field: static System.String pbShowSceneInfo
     static ::StringW _get_pbShowSceneInfo();
     // Set static field: static System.String pbShowSceneInfo
     static void _set_pbShowSceneInfo(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11182DC
+    // [ObsoleteAttribute] Offset: 0x1130FA0
     // static field const value: static System.String pbEnableBackfaceSelection
     static constexpr const char* pbEnableBackfaceSelection = "pbEnableBackfaceSelection";
     // Get static field: static System.String pbEnableBackfaceSelection
     static ::StringW _get_pbEnableBackfaceSelection();
     // Set static field: static System.String pbEnableBackfaceSelection
     static void _set_pbEnableBackfaceSelection(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118314
+    // [ObsoleteAttribute] Offset: 0x1130FD8
     // static field const value: static System.String pbVertexPaletteDockable
     static constexpr const char* pbVertexPaletteDockable = "pbVertexPaletteDockable";
     // Get static field: static System.String pbVertexPaletteDockable
     static ::StringW _get_pbVertexPaletteDockable();
     // Set static field: static System.String pbVertexPaletteDockable
     static void _set_pbVertexPaletteDockable(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111834C
+    // [ObsoleteAttribute] Offset: 0x1131010
     // static field const value: static System.String pbExtrudeAsGroup
     static constexpr const char* pbExtrudeAsGroup = "pbExtrudeAsGroup";
     // Get static field: static System.String pbExtrudeAsGroup
     static ::StringW _get_pbExtrudeAsGroup();
     // Set static field: static System.String pbExtrudeAsGroup
     static void _set_pbExtrudeAsGroup(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118384
+    // [ObsoleteAttribute] Offset: 0x1131048
     // static field const value: static System.String pbUniqueModeShortcuts
     static constexpr const char* pbUniqueModeShortcuts = "pbUniqueModeShortcuts";
     // Get static field: static System.String pbUniqueModeShortcuts
     static ::StringW _get_pbUniqueModeShortcuts();
     // Set static field: static System.String pbUniqueModeShortcuts
     static void _set_pbUniqueModeShortcuts(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11183BC
+    // [ObsoleteAttribute] Offset: 0x1131080
     // static field const value: static System.String pbMaterialEditorFloating
     static constexpr const char* pbMaterialEditorFloating = "pbMaterialEditorFloating";
     // Get static field: static System.String pbMaterialEditorFloating
     static ::StringW _get_pbMaterialEditorFloating();
     // Set static field: static System.String pbMaterialEditorFloating
     static void _set_pbMaterialEditorFloating(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11183F4
+    // [ObsoleteAttribute] Offset: 0x11310B8
     // static field const value: static System.String pbShapeWindowFloating
     static constexpr const char* pbShapeWindowFloating = "pbShapeWindowFloating";
     // Get static field: static System.String pbShapeWindowFloating
     static ::StringW _get_pbShapeWindowFloating();
     // Set static field: static System.String pbShapeWindowFloating
     static void _set_pbShapeWindowFloating(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111842C
+    // [ObsoleteAttribute] Offset: 0x11310F0
     // static field const value: static System.String pbIconGUI
     static constexpr const char* pbIconGUI = "pbIconGUI";
     // Get static field: static System.String pbIconGUI
     static ::StringW _get_pbIconGUI();
     // Set static field: static System.String pbIconGUI
     static void _set_pbIconGUI(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118464
+    // [ObsoleteAttribute] Offset: 0x1131128
     // static field const value: static System.String pbShiftOnlyTooltips
     static constexpr const char* pbShiftOnlyTooltips = "pbShiftOnlyTooltips";
     // Get static field: static System.String pbShiftOnlyTooltips
     static ::StringW _get_pbShiftOnlyTooltips();
     // Set static field: static System.String pbShiftOnlyTooltips
     static void _set_pbShiftOnlyTooltips(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111849C
+    // [ObsoleteAttribute] Offset: 0x1131160
     // static field const value: static System.String pbDrawAxisLines
     static constexpr const char* pbDrawAxisLines = "pbDrawAxisLines";
     // Get static field: static System.String pbDrawAxisLines
     static ::StringW _get_pbDrawAxisLines();
     // Set static field: static System.String pbDrawAxisLines
     static void _set_pbDrawAxisLines(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11184D4
+    // [ObsoleteAttribute] Offset: 0x1131198
     // static field const value: static System.String pbCollapseVertexToFirst
     static constexpr const char* pbCollapseVertexToFirst = "pbCollapseVertexToFirst";
     // Get static field: static System.String pbCollapseVertexToFirst
     static ::StringW _get_pbCollapseVertexToFirst();
     // Set static field: static System.String pbCollapseVertexToFirst
     static void _set_pbCollapseVertexToFirst(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111850C
+    // [ObsoleteAttribute] Offset: 0x11311D0
     // static field const value: static System.String pbMeshesAreAssets
     static constexpr const char* pbMeshesAreAssets = "pbMeshesAreAssets";
     // Get static field: static System.String pbMeshesAreAssets
     static ::StringW _get_pbMeshesAreAssets();
     // Set static field: static System.String pbMeshesAreAssets
     static void _set_pbMeshesAreAssets(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118544
+    // [ObsoleteAttribute] Offset: 0x1131208
     // static field const value: static System.String pbElementSelectIsHamFisted
     static constexpr const char* pbElementSelectIsHamFisted = "pbElementSelectIsHamFisted";
     // Get static field: static System.String pbElementSelectIsHamFisted
     static ::StringW _get_pbElementSelectIsHamFisted();
     // Set static field: static System.String pbElementSelectIsHamFisted
     static void _set_pbElementSelectIsHamFisted(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111857C
+    // [ObsoleteAttribute] Offset: 0x1131240
     // static field const value: static System.String pbFillHoleSelectsEntirePath
     static constexpr const char* pbFillHoleSelectsEntirePath = "pbFillHoleSelectsEntirePath";
     // Get static field: static System.String pbFillHoleSelectsEntirePath
     static ::StringW _get_pbFillHoleSelectsEntirePath();
     // Set static field: static System.String pbFillHoleSelectsEntirePath
     static void _set_pbFillHoleSelectsEntirePath(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11185B4
+    // [ObsoleteAttribute] Offset: 0x1131278
     // static field const value: static System.String pbDetachToNewObject
     static constexpr const char* pbDetachToNewObject = "pbDetachToNewObject";
     // Get static field: static System.String pbDetachToNewObject
     static ::StringW _get_pbDetachToNewObject();
     // Set static field: static System.String pbDetachToNewObject
     static void _set_pbDetachToNewObject(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11185EC
+    // [ObsoleteAttribute] Offset: 0x11312B0
     // static field const value: static System.String pbPreserveFaces
     static constexpr const char* pbPreserveFaces = "pbPreserveFaces";
     // Get static field: static System.String pbPreserveFaces
     static ::StringW _get_pbPreserveFaces();
     // Set static field: static System.String pbPreserveFaces
     static void _set_pbPreserveFaces(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118624
+    // [ObsoleteAttribute] Offset: 0x11312E8
     // static field const value: static System.String pbDragSelectWholeElement
     static constexpr const char* pbDragSelectWholeElement = "pbDragSelectWholeElement";
     // Get static field: static System.String pbDragSelectWholeElement
     static ::StringW _get_pbDragSelectWholeElement();
     // Set static field: static System.String pbDragSelectWholeElement
     static void _set_pbDragSelectWholeElement(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111865C
+    // [ObsoleteAttribute] Offset: 0x1131320
     // static field const value: static System.String pbShowPreselectionHighlight
     static constexpr const char* pbShowPreselectionHighlight = "pbShowPreselectionHighlight";
     // Get static field: static System.String pbShowPreselectionHighlight
     static ::StringW _get_pbShowPreselectionHighlight();
     // Set static field: static System.String pbShowPreselectionHighlight
     static void _set_pbShowPreselectionHighlight(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118694
+    // [ObsoleteAttribute] Offset: 0x1131358
     // static field const value: static System.String pbRectSelectMode
     static constexpr const char* pbRectSelectMode = "pbRectSelectMode";
     // Get static field: static System.String pbRectSelectMode
     static ::StringW _get_pbRectSelectMode();
     // Set static field: static System.String pbRectSelectMode
     static void _set_pbRectSelectMode(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11186CC
+    // [ObsoleteAttribute] Offset: 0x1131390
     // static field const value: static System.String pbDragSelectMode
     static constexpr const char* pbDragSelectMode = "pbDragSelectMode";
     // Get static field: static System.String pbDragSelectMode
     static ::StringW _get_pbDragSelectMode();
     // Set static field: static System.String pbDragSelectMode
     static void _set_pbDragSelectMode(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118704
+    // [ObsoleteAttribute] Offset: 0x11313C8
     // static field const value: static System.String pbShadowCastingMode
     static constexpr const char* pbShadowCastingMode = "pbShadowCastingMode";
     // Get static field: static System.String pbShadowCastingMode
     static ::StringW _get_pbShadowCastingMode();
     // Set static field: static System.String pbShadowCastingMode
     static void _set_pbShadowCastingMode(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111873C
+    // [ObsoleteAttribute] Offset: 0x1131400
     // static field const value: static System.String pbEnableExperimental
     static constexpr const char* pbEnableExperimental = "pbEnableExperimental";
     // Get static field: static System.String pbEnableExperimental
     static ::StringW _get_pbEnableExperimental();
     // Set static field: static System.String pbEnableExperimental
     static void _set_pbEnableExperimental(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118774
+    // [ObsoleteAttribute] Offset: 0x1131438
     // static field const value: static System.String pbCheckForProBuilderUpdates
     static constexpr const char* pbCheckForProBuilderUpdates = "pbCheckForProBuilderUpdates";
     // Get static field: static System.String pbCheckForProBuilderUpdates
     static ::StringW _get_pbCheckForProBuilderUpdates();
     // Set static field: static System.String pbCheckForProBuilderUpdates
     static void _set_pbCheckForProBuilderUpdates(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11187AC
+    // [ObsoleteAttribute] Offset: 0x1131470
     // static field const value: static System.String pbManageLightmappingStaticFlag
     static constexpr const char* pbManageLightmappingStaticFlag = "pbManageLightmappingStaticFlag";
     // Get static field: static System.String pbManageLightmappingStaticFlag
     static ::StringW _get_pbManageLightmappingStaticFlag();
     // Set static field: static System.String pbManageLightmappingStaticFlag
     static void _set_pbManageLightmappingStaticFlag(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11187E4
+    // [ObsoleteAttribute] Offset: 0x11314A8
     // static field const value: static System.String pbShowMissingLightmapUvWarning
     static constexpr const char* pbShowMissingLightmapUvWarning = "pb_Lightmapping::showMissingLightmapUvWarning";
     // Get static field: static System.String pbShowMissingLightmapUvWarning
     static ::StringW _get_pbShowMissingLightmapUvWarning();
     // Set static field: static System.String pbShowMissingLightmapUvWarning
     static void _set_pbShowMissingLightmapUvWarning(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111881C
+    // [ObsoleteAttribute] Offset: 0x11314E0
     // static field const value: static System.String pbSelectedFaceDither
     static constexpr const char* pbSelectedFaceDither = "pbSelectedFaceDither";
     // Get static field: static System.String pbSelectedFaceDither
     static ::StringW _get_pbSelectedFaceDither();
     // Set static field: static System.String pbSelectedFaceDither
     static void _set_pbSelectedFaceDither(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118854
+    // [ObsoleteAttribute] Offset: 0x1131518
     // static field const value: static System.String pbUseUnityColors
     static constexpr const char* pbUseUnityColors = "pbUseUnityColors";
     // Get static field: static System.String pbUseUnityColors
     static ::StringW _get_pbUseUnityColors();
     // Set static field: static System.String pbUseUnityColors
     static void _set_pbUseUnityColors(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111888C
+    // [ObsoleteAttribute] Offset: 0x1131550
     // static field const value: static System.String pbVertexHandleSize
     static constexpr const char* pbVertexHandleSize = "pbVertexHandleSize";
     // Get static field: static System.String pbVertexHandleSize
     static ::StringW _get_pbVertexHandleSize();
     // Set static field: static System.String pbVertexHandleSize
     static void _set_pbVertexHandleSize(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11188C4
+    // [ObsoleteAttribute] Offset: 0x1131588
     // static field const value: static System.String pbUVGridSnapValue
     static constexpr const char* pbUVGridSnapValue = "pbUVGridSnapValue";
     // Get static field: static System.String pbUVGridSnapValue
     static ::StringW _get_pbUVGridSnapValue();
     // Set static field: static System.String pbUVGridSnapValue
     static void _set_pbUVGridSnapValue(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11188FC
+    // [ObsoleteAttribute] Offset: 0x11315C0
     // static field const value: static System.String pbUVWeldDistance
     static constexpr const char* pbUVWeldDistance = "pbUVWeldDistance";
     // Get static field: static System.String pbUVWeldDistance
     static ::StringW _get_pbUVWeldDistance();
     // Set static field: static System.String pbUVWeldDistance
     static void _set_pbUVWeldDistance(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118934
+    // [ObsoleteAttribute] Offset: 0x11315F8
     // static field const value: static System.String pbLineHandleSize
     static constexpr const char* pbLineHandleSize = "pbLineHandleSize";
     // Get static field: static System.String pbLineHandleSize
     static ::StringW _get_pbLineHandleSize();
     // Set static field: static System.String pbLineHandleSize
     static void _set_pbLineHandleSize(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x111896C
+    // [ObsoleteAttribute] Offset: 0x1131630
     // static field const value: static System.String pbWireframeSize
     static constexpr const char* pbWireframeSize = "pbWireframeSize";
     // Get static field: static System.String pbWireframeSize
     static ::StringW _get_pbWireframeSize();
     // Set static field: static System.String pbWireframeSize
     static void _set_pbWireframeSize(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11189A4
+    // [ObsoleteAttribute] Offset: 0x1131668
     // static field const value: static System.String pbWeldDistance
     static constexpr const char* pbWeldDistance = "pbWeldDistance";
     // Get static field: static System.String pbWeldDistance
     static ::StringW _get_pbWeldDistance();
     // Set static field: static System.String pbWeldDistance
     static void _set_pbWeldDistance(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x11189DC
+    // [ObsoleteAttribute] Offset: 0x11316A0
     // static field const value: static System.String pbExtrudeDistance
     static constexpr const char* pbExtrudeDistance = "pbExtrudeDistance";
     // Get static field: static System.String pbExtrudeDistance
     static ::StringW _get_pbExtrudeDistance();
     // Set static field: static System.String pbExtrudeDistance
     static void _set_pbExtrudeDistance(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118A14
+    // [ObsoleteAttribute] Offset: 0x11316D8
     // static field const value: static System.String pbBevelAmount
     static constexpr const char* pbBevelAmount = "pbBevelAmount";
     // Get static field: static System.String pbBevelAmount
     static ::StringW _get_pbBevelAmount();
     // Set static field: static System.String pbBevelAmount
     static void _set_pbBevelAmount(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118A4C
+    // [ObsoleteAttribute] Offset: 0x1131710
     // static field const value: static System.String pbEdgeSubdivisions
     static constexpr const char* pbEdgeSubdivisions = "pbEdgeSubdivisions";
     // Get static field: static System.String pbEdgeSubdivisions
     static ::StringW _get_pbEdgeSubdivisions();
     // Set static field: static System.String pbEdgeSubdivisions
     static void _set_pbEdgeSubdivisions(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118A84
+    // [ObsoleteAttribute] Offset: 0x1131748
     // static field const value: static System.String pbDefaultShortcuts
     static constexpr const char* pbDefaultShortcuts = "pbDefaultShortcuts";
     // Get static field: static System.String pbDefaultShortcuts
     static ::StringW _get_pbDefaultShortcuts();
     // Set static field: static System.String pbDefaultShortcuts
     static void _set_pbDefaultShortcuts(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118ABC
+    // [ObsoleteAttribute] Offset: 0x1131780
     // static field const value: static System.String pbDefaultMaterial
     static constexpr const char* pbDefaultMaterial = "pbDefaultMaterial";
     // Get static field: static System.String pbDefaultMaterial
     static ::StringW _get_pbDefaultMaterial();
     // Set static field: static System.String pbDefaultMaterial
     static void _set_pbDefaultMaterial(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118AF4
+    // [ObsoleteAttribute] Offset: 0x11317B8
     // static field const value: static System.String pbCurrentMaterialPalette
     static constexpr const char* pbCurrentMaterialPalette = "pbCurrentMaterialPalette";
     // Get static field: static System.String pbCurrentMaterialPalette
     static ::StringW _get_pbCurrentMaterialPalette();
     // Set static field: static System.String pbCurrentMaterialPalette
     static void _set_pbCurrentMaterialPalette(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118B2C
+    // [ObsoleteAttribute] Offset: 0x11317F0
     // static field const value: static System.String pbGrowSelectionUsingAngle
     static constexpr const char* pbGrowSelectionUsingAngle = "pbGrowSelectionUsingAngle";
     // Get static field: static System.String pbGrowSelectionUsingAngle
     static ::StringW _get_pbGrowSelectionUsingAngle();
     // Set static field: static System.String pbGrowSelectionUsingAngle
     static void _set_pbGrowSelectionUsingAngle(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118B64
+    // [ObsoleteAttribute] Offset: 0x1131828
     // static field const value: static System.String pbGrowSelectionAngle
     static constexpr const char* pbGrowSelectionAngle = "pbGrowSelectionAngle";
     // Get static field: static System.String pbGrowSelectionAngle
     static ::StringW _get_pbGrowSelectionAngle();
     // Set static field: static System.String pbGrowSelectionAngle
     static void _set_pbGrowSelectionAngle(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118B9C
+    // [ObsoleteAttribute] Offset: 0x1131860
     // static field const value: static System.String pbGrowSelectionAngleIterative
     static constexpr const char* pbGrowSelectionAngleIterative = "pbGrowSelectionAngleIterative";
     // Get static field: static System.String pbGrowSelectionAngleIterative
     static ::StringW _get_pbGrowSelectionAngleIterative();
     // Set static field: static System.String pbGrowSelectionAngleIterative
     static void _set_pbGrowSelectionAngleIterative(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118BD4
+    // [ObsoleteAttribute] Offset: 0x1131898
     // static field const value: static System.String pbShowDetail
     static constexpr const char* pbShowDetail = "pbShowDetail";
     // Get static field: static System.String pbShowDetail
     static ::StringW _get_pbShowDetail();
     // Set static field: static System.String pbShowDetail
     static void _set_pbShowDetail(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118C0C
+    // [ObsoleteAttribute] Offset: 0x11318D0
     // static field const value: static System.String pbShowOccluder
     static constexpr const char* pbShowOccluder = "pbShowOccluder";
     // Get static field: static System.String pbShowOccluder
     static ::StringW _get_pbShowOccluder();
     // Set static field: static System.String pbShowOccluder
     static void _set_pbShowOccluder(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118C44
+    // [ObsoleteAttribute] Offset: 0x1131908
     // static field const value: static System.String pbShowMover
     static constexpr const char* pbShowMover = "pbShowMover";
     // Get static field: static System.String pbShowMover
     static ::StringW _get_pbShowMover();
     // Set static field: static System.String pbShowMover
     static void _set_pbShowMover(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118C7C
+    // [ObsoleteAttribute] Offset: 0x1131940
     // static field const value: static System.String pbShowCollider
     static constexpr const char* pbShowCollider = "pbShowCollider";
     // Get static field: static System.String pbShowCollider
     static ::StringW _get_pbShowCollider();
     // Set static field: static System.String pbShowCollider
     static void _set_pbShowCollider(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118CB4
+    // [ObsoleteAttribute] Offset: 0x1131978
     // static field const value: static System.String pbShowTrigger
     static constexpr const char* pbShowTrigger = "pbShowTrigger";
     // Get static field: static System.String pbShowTrigger
     static ::StringW _get_pbShowTrigger();
     // Set static field: static System.String pbShowTrigger
     static void _set_pbShowTrigger(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118CEC
+    // [ObsoleteAttribute] Offset: 0x11319B0
     // static field const value: static System.String pbShowNoDraw
     static constexpr const char* pbShowNoDraw = "pbShowNoDraw";
     // Get static field: static System.String pbShowNoDraw
     static ::StringW _get_pbShowNoDraw();
     // Set static field: static System.String pbShowNoDraw
     static void _set_pbShowNoDraw(::StringW value);
-    // [ObsoleteAttribute] Offset: 0x1118D24
+    // [ObsoleteAttribute] Offset: 0x11319E8
     // static field const value: static System.String defaultUnwrapParameters
     static constexpr const char* defaultUnwrapParameters = "pbDefaultUnwrapParameters";
     // Get static field: static System.String defaultUnwrapParameters
@@ -739,7 +739,7 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.String defaultUnwrapParameters
     static void _set_defaultUnwrapParameters(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x19C1628
+    // Offset: 0x19C7F6C
     static void _cctor();
   }; // UnityEngine.ProBuilder.PreferenceKeys
   #pragma pack(pop)

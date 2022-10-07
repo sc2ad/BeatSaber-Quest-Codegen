@@ -168,26 +168,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // public System.Void .ctor()
-    // Offset: 0x137405C
+    // Offset: 0x13A295C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlickeringNeonSign::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1373DB0
+    // Offset: 0x13A26B0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1373E30
+    // Offset: 0x13A2730
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1373E78
+    // Offset: 0x13A2778
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x1373EA4
+    // Offset: 0x13A27A4
     ::System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x1373F40
+    // Offset: 0x13A2840
     void SetOn(bool on);
   }; // FlickeringNeonSign
   #pragma pack(pop)

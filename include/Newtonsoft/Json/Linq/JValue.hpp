@@ -100,155 +100,155 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: private System.Object _value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__value();
     // public System.Object get_Value()
-    // Offset: 0x1761584
+    // Offset: 0x176880C
     ::Il2CppObject* get_Value();
     // System.Void .ctor(System.Object value, Newtonsoft.Json.Linq.JTokenType type)
-    // Offset: 0x17574A8
+    // Offset: 0x175E730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JValue* New_ctor(::Il2CppObject* value, ::Newtonsoft::Json::Linq::JTokenType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(value, type)));
     }
     // public System.Void .ctor(Newtonsoft.Json.Linq.JValue other)
-    // Offset: 0x175740C
+    // Offset: 0x175E694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(other)));
     }
     // public System.Void .ctor(System.Object value)
-    // Offset: 0x17534DC
+    // Offset: 0x175A764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JValue* New_ctor(::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(value)));
     }
     // static System.Int32 Compare(Newtonsoft.Json.Linq.JTokenType valueType, System.Object objA, System.Object objB)
-    // Offset: 0x1760B24
+    // Offset: 0x1767DAC
     static int Compare(::Newtonsoft::Json::Linq::JTokenType valueType, ::Il2CppObject* objA, ::Il2CppObject* objB);
     // static private System.Int32 CompareFloat(System.Object objA, System.Object objB)
-    // Offset: 0x17613A0
+    // Offset: 0x1768628
     static int CompareFloat(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static public Newtonsoft.Json.Linq.JValue CreateComment(System.String value)
-    // Offset: 0x1753A10
+    // Offset: 0x175AC98
     static ::Newtonsoft::Json::Linq::JValue* CreateComment(::StringW value);
     // static public Newtonsoft.Json.Linq.JValue CreateNull()
-    // Offset: 0x1751A88
+    // Offset: 0x1758D10
     static ::Newtonsoft::Json::Linq::JValue* CreateNull();
     // static public Newtonsoft.Json.Linq.JValue CreateUndefined()
-    // Offset: 0x1753A74
+    // Offset: 0x175ACFC
     static ::Newtonsoft::Json::Linq::JValue* CreateUndefined();
     // static private Newtonsoft.Json.Linq.JTokenType GetValueType(System.Nullable`1<Newtonsoft.Json.Linq.JTokenType> current, System.Object value)
-    // Offset: 0x176067C
+    // Offset: 0x1767904
     static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current, ::Il2CppObject* value);
     // static private Newtonsoft.Json.Linq.JTokenType GetStringValueType(System.Nullable`1<Newtonsoft.Json.Linq.JTokenType> current)
-    // Offset: 0x1761508
+    // Offset: 0x1768790
     static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current);
     // static private System.Boolean ValuesEquals(Newtonsoft.Json.Linq.JValue v1, Newtonsoft.Json.Linq.JValue v2)
-    // Offset: 0x1760ABC
+    // Offset: 0x1767D44
     static bool ValuesEquals(::Newtonsoft::Json::Linq::JValue* v1, ::Newtonsoft::Json::Linq::JValue* v2);
     // public System.Boolean Equals(Newtonsoft.Json.Linq.JValue other)
-    // Offset: 0x1761D28
+    // Offset: 0x1768FB0
     bool Equals(::Newtonsoft::Json::Linq::JValue* other);
     // public System.String ToString(System.IFormatProvider formatProvider)
-    // Offset: 0x1761E7C
+    // Offset: 0x1769104
     ::StringW ToString(::System::IFormatProvider* formatProvider);
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x1761E88
+    // Offset: 0x1769110
     ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
     // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0x1761FB4
+    // Offset: 0x176923C
     int System_IComparable_CompareTo(::Il2CppObject* obj);
     // private System.TypeCode System.IConvertible.GetTypeCode()
-    // Offset: 0x176205C
+    // Offset: 0x17692E4
     ::System::TypeCode System_IConvertible_GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
-    // Offset: 0x1762128
+    // Offset: 0x17693B0
     bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
-    // Offset: 0x176218C
+    // Offset: 0x1769414
     ::Il2CppChar System_IConvertible_ToChar(::System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
-    // Offset: 0x17621F0
+    // Offset: 0x1769478
     int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
-    // Offset: 0x1762254
+    // Offset: 0x17694DC
     uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
-    // Offset: 0x17622B8
+    // Offset: 0x1769540
     int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
-    // Offset: 0x176231C
+    // Offset: 0x17695A4
     uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
-    // Offset: 0x1762380
+    // Offset: 0x1769608
     int System_IConvertible_ToInt32(::System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
-    // Offset: 0x17623E4
+    // Offset: 0x176966C
     uint System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
-    // Offset: 0x1762448
+    // Offset: 0x17696D0
     int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
-    // Offset: 0x17624AC
+    // Offset: 0x1769734
     uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
-    // Offset: 0x1762510
+    // Offset: 0x1769798
     float System_IConvertible_ToSingle(::System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
-    // Offset: 0x1762574
+    // Offset: 0x17697FC
     double System_IConvertible_ToDouble(::System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
-    // Offset: 0x17625D8
+    // Offset: 0x1769860
     ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
-    // Offset: 0x176263C
+    // Offset: 0x17698C4
     ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type conversionType, System.IFormatProvider provider)
-    // Offset: 0x17626A0
+    // Offset: 0x1769928
     ::Il2CppObject* System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
     // public override System.Boolean get_HasValues()
-    // Offset: 0x1760B1C
+    // Offset: 0x1767DA4
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Boolean JToken::get_HasValues()
     bool get_HasValues();
     // public override Newtonsoft.Json.Linq.JTokenType get_Type()
-    // Offset: 0x176157C
+    // Offset: 0x1768804
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JTokenType JToken::get_Type()
     ::Newtonsoft::Json::Linq::JTokenType get_Type();
     // override System.Boolean DeepEquals(Newtonsoft.Json.Linq.JToken node)
-    // Offset: 0x1760A0C
+    // Offset: 0x1767C94
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Boolean JToken::DeepEquals(Newtonsoft.Json.Linq.JToken node)
     bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
     // override Newtonsoft.Json.Linq.JToken CloneToken()
-    // Offset: 0x17614A8
+    // Offset: 0x1768730
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::CloneToken()
     ::Newtonsoft::Json::Linq::JToken* CloneToken();
     // public override System.Void WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
-    // Offset: 0x176158C
+    // Offset: 0x1768814
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Void JToken::WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
     void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
     // override System.Int32 GetDeepHashCode()
-    // Offset: 0x1761CC8
+    // Offset: 0x1768F50
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Int32 JToken::GetDeepHashCode()
     int GetDeepHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1761D38
+    // Offset: 0x1768FC0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1761DF4
+    // Offset: 0x176907C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1761E0C
+    // Offset: 0x1769094
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.String JToken::ToString()
     ::StringW ToString();

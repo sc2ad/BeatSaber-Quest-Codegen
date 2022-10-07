@@ -212,7 +212,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean saveToOldFormat
     [[deprecated("Use field access instead!")]] bool& dyn_saveToOldFormat();
     // public System.Void .ctor()
-    // Offset: 0x14A3470
+    // Offset: 0x148BB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolConfigurationProcessor::RecordingToolConfiguration* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfiguration::.ctor");

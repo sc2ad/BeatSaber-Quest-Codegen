@@ -59,17 +59,17 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.Reflection.MemberInfo _memberInfo
     [[deprecated("Use field access instead!")]] ::System::Reflection::MemberInfo*& dyn__memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0x20BC1A4
+    // Offset: 0x211962C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionValueProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionValueProvider*, creationType>(memberInfo)));
     }
     // public System.Void SetValue(System.Object target, System.Object value)
-    // Offset: 0x20BC214
+    // Offset: 0x211969C
     void SetValue(::Il2CppObject* target, ::Il2CppObject* value);
     // public System.Object GetValue(System.Object target)
-    // Offset: 0x20BC698
+    // Offset: 0x2119B20
     ::Il2CppObject* GetValue(::Il2CppObject* target);
   }; // Newtonsoft.Json.Serialization.ReflectionValueProvider
   #pragma pack(pop)

@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material[] _materials
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Material*>& dyn__materials();
     // public System.Void .ctor()
-    // Offset: 0x14657A8
+    // Offset: 0x14CE3EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticEnvironmentLights* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticEnvironmentLights::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticEnvironmentLights*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1465700
+    // Offset: 0x14CE344
     void Awake();
   }; // StaticEnvironmentLights
   #pragma pack(pop)

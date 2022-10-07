@@ -34,7 +34,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private System.Action <RestoringTestContext>k__BackingField
     static void _set_$RestoringTestContext$k__BackingField(::System::Action* value);
     // static public System.Action get_RestoringTestContext()
-    // Offset: 0x19821C4
+    // Offset: 0x1951B4C
     static ::System::Action* get_RestoringTestContext();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.EditModeTestCallbacks
   #pragma pack(pop)

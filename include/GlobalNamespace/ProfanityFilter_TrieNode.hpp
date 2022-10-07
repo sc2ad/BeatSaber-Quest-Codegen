@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _shortestWord
     [[deprecated("Use field access instead!")]] int& dyn__shortestWord();
     // public System.Void .ctor()
-    // Offset: 0x2672088
+    // Offset: 0x269F22C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::TrieNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProfanityFilter::TrieNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::TrieNode*, creationType>()));
     }
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x2672098
+    // Offset: 0x269F23C
     void AddWord(::StringW word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x26724F4
+    // Offset: 0x269F698
     bool IsMatch(::StringW word, int index);
   }; // ProfanityFilter/TrieNode
   #pragma pack(pop)

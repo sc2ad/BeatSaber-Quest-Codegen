@@ -40,20 +40,20 @@ namespace HoudiniEngineUnity {
   class HEU_ThreadedTaskLoadGeo::HEU_LoadCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A17E6C
+    // Offset: 0x1A33A8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallbackType callbackType)
-    // Offset: 0x1A13B28
+    // Offset: 0x1A2F748
     void Invoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallbackType callbackType);
     // public System.IAsyncResult BeginInvoke(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData loadData, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallbackType callbackType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A17E7C
+    // Offset: 0x1A33A9C
     ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData* loadData, ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallbackType callbackType, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A17F1C
+    // Offset: 0x1A33B3C
     void EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback
   #pragma pack(pop)

@@ -45,21 +45,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10D59D0
+    // [DescriptionAttribute] Offset: 0x10ECA0C
     // static field const value: static public Oculus.Platform.AbuseReportType Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.AbuseReportType Unknown
     static ::Oculus::Platform::AbuseReportType _get_Unknown();
     // Set static field: static public Oculus.Platform.AbuseReportType Unknown
     static void _set_Unknown(::Oculus::Platform::AbuseReportType value);
-    // [DescriptionAttribute] Offset: 0x10D5A08
+    // [DescriptionAttribute] Offset: 0x10ECA44
     // static field const value: static public Oculus.Platform.AbuseReportType Object
     static constexpr const int Object = 1;
     // Get static field: static public Oculus.Platform.AbuseReportType Object
     static ::Oculus::Platform::AbuseReportType _get_Object();
     // Set static field: static public Oculus.Platform.AbuseReportType Object
     static void _set_Object(::Oculus::Platform::AbuseReportType value);
-    // [DescriptionAttribute] Offset: 0x10D5A40
+    // [DescriptionAttribute] Offset: 0x10ECA7C
     // static field const value: static public Oculus.Platform.AbuseReportType User
     static constexpr const int User = 2;
     // Get static field: static public Oculus.Platform.AbuseReportType User

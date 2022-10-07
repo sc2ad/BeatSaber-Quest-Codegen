@@ -39,10 +39,10 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static void _set_ToString(::System::Func_2<::Il2CppObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19A1318
+    // Offset: 0x19A7C5C
     static void _cctor();
     // static public System.Boolean TryParse(System.String input, out System.Byte[] result)
-    // Offset: 0x19A1218
+    // Offset: 0x19A7B5C
     static bool TryParse(::StringW input, ByRef<::ArrayW<uint8_t>> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5
   #pragma pack(pop)

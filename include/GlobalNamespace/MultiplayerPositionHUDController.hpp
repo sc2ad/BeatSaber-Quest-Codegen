@@ -76,21 +76,21 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* firstPlayerAnimationGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E96A0
+    // [InjectAttribute] Offset: 0x1100E7C
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E96B0
+    // [InjectAttribute] Offset: 0x1100E8C
     // private readonly MultiplayerPlayersManager _playersManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerPlayersManager* playersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10E96C0
+    // [InjectAttribute] Offset: 0x1100E9C
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x48
@@ -123,20 +123,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevPosition
     [[deprecated("Use field access instead!")]] int& dyn__prevPosition();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13B22C0
+    // Offset: 0x13DFD8C
     void set_alpha(float value);
     // public System.Void .ctor()
-    // Offset: 0x13B25DC
+    // Offset: 0x13E00A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPositionHUDController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPositionHUDController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionHUDController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13B22DC
+    // Offset: 0x13DFDA8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13B2428
+    // Offset: 0x13DFEF4
     void Update();
   }; // MultiplayerPositionHUDController
   #pragma pack(pop)

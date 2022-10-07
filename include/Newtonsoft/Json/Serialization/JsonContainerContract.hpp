@@ -89,40 +89,40 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Nullable`1<Newtonsoft.Json.TypeNameHandling> <ItemTypeNameHandling>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& dyn_$ItemTypeNameHandling$k__BackingField();
     // Newtonsoft.Json.Serialization.JsonContract get_ItemContract()
-    // Offset: 0x1D54E6C
+    // Offset: 0x1DBA274
     ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
     // System.Void set_ItemContract(Newtonsoft.Json.Serialization.JsonContract value)
-    // Offset: 0x1D54E74
+    // Offset: 0x1DBA27C
     void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
     // Newtonsoft.Json.Serialization.JsonContract get_FinalItemContract()
-    // Offset: 0x1D54EBC
+    // Offset: 0x1DBA2C4
     ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
     // public Newtonsoft.Json.JsonConverter get_ItemConverter()
-    // Offset: 0x1D54EC4
+    // Offset: 0x1DBA2CC
     ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
     // public System.Void set_ItemConverter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1D54ECC
+    // Offset: 0x1DBA2D4
     void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
     // public System.Nullable`1<System.Boolean> get_ItemIsReference()
-    // Offset: 0x1D54ED4
+    // Offset: 0x1DBA2DC
     ::System::Nullable_1<bool> get_ItemIsReference();
     // public System.Void set_ItemIsReference(System.Nullable`1<System.Boolean> value)
-    // Offset: 0x1D54EDC
+    // Offset: 0x1DBA2E4
     void set_ItemIsReference(::System::Nullable_1<bool> value);
     // public System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> get_ItemReferenceLoopHandling()
-    // Offset: 0x1D54EE4
+    // Offset: 0x1DBA2EC
     ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
     // public System.Void set_ItemReferenceLoopHandling(System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> value)
-    // Offset: 0x1D54EEC
+    // Offset: 0x1DBA2F4
     void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
     // public System.Nullable`1<Newtonsoft.Json.TypeNameHandling> get_ItemTypeNameHandling()
-    // Offset: 0x1D54EF4
+    // Offset: 0x1DBA2FC
     ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
     // public System.Void set_ItemTypeNameHandling(System.Nullable`1<Newtonsoft.Json.TypeNameHandling> value)
-    // Offset: 0x1D54EFC
+    // Offset: 0x1DBA304
     void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
     // System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1D54788
+    // Offset: 0x1DB9B90
     // Implemented from: Newtonsoft.Json.Serialization.JsonContract
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

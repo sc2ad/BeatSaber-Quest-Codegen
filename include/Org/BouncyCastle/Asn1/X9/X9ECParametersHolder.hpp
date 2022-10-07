@@ -48,10 +48,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x1F51900
+    // Offset: 0x1F81D90
     ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected System.Void .ctor()
-    // Offset: 0x1F5199C
+    // Offset: 0x1F81E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParametersHolder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::.ctor");

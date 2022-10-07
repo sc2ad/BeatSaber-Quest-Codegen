@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class AnimatedAvatarPoseController : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E1A3C
+    // [InjectAttribute] Offset: 0x10F8CC4
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x1517358
+    // Offset: 0x152E868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedAvatarPoseController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnimatedAvatarPoseController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedAvatarPoseController*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x151714C
+    // Offset: 0x152E65C
     void LateUpdate();
   }; // AnimatedAvatarPoseController
   #pragma pack(pop)

@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public ResultsViewController resultsViewController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // public System.Void .ctor()
-    // Offset: 0x134411C
+    // Offset: 0x135FA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyFreePlayFlowCoordinator::$$c__DisplayClass22_0*, creationType>()));
     }
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
-    // Offset: 0x1344200
+    // Offset: 0x135FB78
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
   }; // PartyFreePlayFlowCoordinator/<>c__DisplayClass22_0
   #pragma pack(pop)

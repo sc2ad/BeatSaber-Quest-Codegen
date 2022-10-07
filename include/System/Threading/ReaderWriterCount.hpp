@@ -71,7 +71,7 @@ namespace System::Threading {
     // Get instance field reference: public System.Threading.ReaderWriterCount next
     [[deprecated("Use field access instead!")]] ::System::Threading::ReaderWriterCount*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x2AB73C8
+    // Offset: 0x2ADF96C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReaderWriterCount* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ReaderWriterCount::.ctor");

@@ -33,7 +33,7 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_NodeInfo_Extensions : public ::Il2CppObject {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_NodeInfo ToTestObject(HoudiniEngineUnity.HAPI_NodeInfo self)
-    // Offset: 0x1A26D28
+    // Offset: 0x1A42948
     static ::HoudiniEngineUnity::Test_HAPI_NodeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_NodeInfo self);
   }; // HoudiniEngineUnity.Test_HAPI_NodeInfo_Extensions
   #pragma pack(pop)

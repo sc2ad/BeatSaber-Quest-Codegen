@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly BeatmapData beatmapData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn_beatmapData();
     // public System.Void .ctor(BeatmapData beatmapData)
-    // Offset: 0x1344F24
+    // Offset: 0x13608BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PatternFightSongController::InitData* New_ctor(::GlobalNamespace::BeatmapData* beatmapData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PatternFightSongController::InitData::.ctor");

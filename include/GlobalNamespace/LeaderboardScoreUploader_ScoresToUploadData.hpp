@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*& dyn_scores();
     // public System.Void .ctor()
-    // Offset: 0x1398F10
+    // Offset: 0x13B4C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoresToUploadData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData::.ctor");

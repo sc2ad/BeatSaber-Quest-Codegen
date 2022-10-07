@@ -60,29 +60,29 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <requestId>k__BackingField
     [[deprecated("Use field access instead!")]] uint& dyn_$requestId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x158723C
+    // Offset: 0x15B2CF4
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x1587244
+    // Offset: 0x15B2CFC
     void set_requestId(uint value);
     // protected System.Void .ctor()
-    // Offset: 0x1587234
+    // Offset: 0x15B2CEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseReliableRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseReliableRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseReliableRequest*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1587014
+    // Offset: 0x15B2ACC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15871A0
+    // Offset: 0x15B2C58
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedReliableRequest BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x158724C
+    // Offset: 0x15B2D04
     ::BGNet::Core::Messages::IUnconnectedReliableRequest* BGNet_Core_Messages_IUnconnectedReliableRequest_WithRequestId(uint requestId);
   }; // BGNet.Core.Messages.BaseReliableRequest
   #pragma pack(pop)

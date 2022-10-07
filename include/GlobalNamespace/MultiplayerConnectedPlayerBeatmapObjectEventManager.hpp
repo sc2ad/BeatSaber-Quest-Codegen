@@ -16,13 +16,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: LiteNetLib::Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: INetSerializable
-  class INetSerializable;
-}
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: IPoolableSerializable
+  class IPoolableSerializable;
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
   // Forward declaring type: IGameplayRpcManager
@@ -88,15 +85,15 @@ namespace GlobalNamespace {
       static_assert(sizeof(float) == 0x4);
       // Padding between fields: time and: beatmapObjectEventData
       char __padding0[0x4] = {};
-      // public readonly LiteNetLib.Utils.INetSerializable beatmapObjectEventData
+      // public readonly IPoolableSerializable beatmapObjectEventData
       // Size: 0x8
       // Offset: 0x8
-      ::LiteNetLib::Utils::INetSerializable* beatmapObjectEventData;
+      ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData;
       // Field size check
-      static_assert(sizeof(::LiteNetLib::Utils::INetSerializable*) == 0x8);
+      static_assert(sizeof(::GlobalNamespace::IPoolableSerializable*) == 0x8);
       public:
       // Creating value type constructor for type: TimestampedBeatmapObjectEventData
-      constexpr TimestampedBeatmapObjectEventData(float time_ = {}, ::LiteNetLib::Utils::INetSerializable* beatmapObjectEventData_ = {}) noexcept : time{time_}, beatmapObjectEventData{beatmapObjectEventData_} {}
+      constexpr TimestampedBeatmapObjectEventData(float time_ = {}, ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData_ = {}) noexcept : time{time_}, beatmapObjectEventData{beatmapObjectEventData_} {}
       // Creating interface conversion operator: operator ::System::ValueType
       operator ::System::ValueType() noexcept {
         return *reinterpret_cast<::System::ValueType*>(this);
@@ -107,31 +104,31 @@ namespace GlobalNamespace {
       }
       // Get instance field reference: public readonly System.Single time
       [[deprecated("Use field access instead!")]] float& dyn_time();
-      // Get instance field reference: public readonly LiteNetLib.Utils.INetSerializable beatmapObjectEventData
-      [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::INetSerializable*& dyn_beatmapObjectEventData();
-      // public System.Void .ctor(System.Single time, LiteNetLib.Utils.INetSerializable beatmapObjectEventData)
-      // Offset: 0x13F5940
-      // ABORTED: conflicts with another method.  TimestampedBeatmapObjectEventData(float time, ::LiteNetLib::Utils::INetSerializable* beatmapObjectEventData);
+      // Get instance field reference: public readonly IPoolableSerializable beatmapObjectEventData
+      [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPoolableSerializable*& dyn_beatmapObjectEventData();
+      // public System.Void .ctor(System.Single time, IPoolableSerializable beatmapObjectEventData)
+      // Offset: 0x140CC88
+      // ABORTED: conflicts with another method.  TimestampedBeatmapObjectEventData(float time, ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData);
     }; // MultiplayerConnectedPlayerBeatmapObjectEventManager/TimestampedBeatmapObjectEventData
     #pragma pack(pop)
-    static check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData), 8 + sizeof(::LiteNetLib::Utils::INetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventDataSizeCheck;
+    static check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData), 8 + sizeof(::GlobalNamespace::IPoolableSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventDataSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager::TimestampedBeatmapObjectEventData) == 0x10);
     public:
-    // [InjectAttribute] Offset: 0x10EA874
+    // [InjectAttribute] Offset: 0x1102050
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA884
+    // [InjectAttribute] Offset: 0x1102060
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10EA894
+    // [InjectAttribute] Offset: 0x1102070
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeController
     // Size: 0x8
     // Offset: 0x28
@@ -212,70 +209,70 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _paused
     [[deprecated("Use field access instead!")]] bool& dyn__paused();
     // public System.Void add_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x13F48D0
+    // Offset: 0x140BBC0
     void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
-    // Offset: 0x13F4974
+    // Offset: 0x140BC64
     void remove_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x13F4A18
+    // Offset: 0x140BD08
     void add_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
-    // Offset: 0x13F4ABC
+    // Offset: 0x140BDAC
     void remove_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x13F4B60
+    // Offset: 0x140BE50
     void add_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerSliderWasSpawnedEvent(System.Action`1<SliderSpawnInfoNetSerializable> value)
-    // Offset: 0x13F4C04
+    // Offset: 0x140BEF4
     void remove_connectedPlayerSliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x13F4CA8
+    // Offset: 0x140BF98
     void add_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
-    // Offset: 0x13F4D4C
+    // Offset: 0x140C03C
     void remove_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x13F4DF0
+    // Offset: 0x140C0E0
     void add_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
-    // Offset: 0x13F4E94
+    // Offset: 0x140C184
     void remove_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13F58D0
+    // Offset: 0x140CC18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectEventManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectEventManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13F4F38
+    // Offset: 0x140C228
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13F52BC
+    // Offset: 0x140C5AC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13F5650
+    // Offset: 0x140C940
     void Update();
     // public System.Void Pause()
-    // Offset: 0x13F58BC
+    // Offset: 0x140CC04
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x13F58C8
+    // Offset: 0x140CC10
     void Resume();
     // private System.Void HandleBeatmapObjectEventData(System.String userId, System.Single syncTime, System.Single songTime, T beatmapObjectEventData)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
     void HandleBeatmapObjectEventData(::StringW userId, float syncTime, float songTime, T beatmapObjectEventData) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IPoolableSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::HandleBeatmapObjectEventData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleBeatmapObjectEventData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(userId), ::il2cpp_utils::ExtractType(syncTime), ::il2cpp_utils::ExtractType(songTime), ::il2cpp_utils::ExtractType(beatmapObjectEventData)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, userId, syncTime, songTime, beatmapObjectEventData);
     }
-    // private System.Void InvokeCallback(LiteNetLib.Utils.INetSerializable noteEventData)
-    // Offset: 0x13F5708
-    void InvokeCallback(::LiteNetLib::Utils::INetSerializable* noteEventData);
+    // private System.Void InvokeCallback(IPoolableSerializable noteEventData)
+    // Offset: 0x140C9F8
+    void InvokeCallback(::GlobalNamespace::IPoolableSerializable* noteEventData);
   }; // MultiplayerConnectedPlayerBeatmapObjectEventManager
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerBeatmapObjectEventManager), 96 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerBeatmapObjectEventManagerSizeCheck;
@@ -424,9 +421,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::InvokeCallback
 // Il2CppName: InvokeCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::*)(::LiteNetLib::Utils::INetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::InvokeCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::*)(::GlobalNamespace::IPoolableSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::InvokeCallback)> {
   static const MethodInfo* get() {
-    static auto* noteEventData = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "INetSerializable")->byval_arg;
+    static auto* noteEventData = &::il2cpp_utils::GetClassFromName("", "IPoolableSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager*), "InvokeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteEventData});
   }
 };

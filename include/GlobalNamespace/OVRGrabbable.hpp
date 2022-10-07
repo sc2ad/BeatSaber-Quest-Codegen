@@ -119,53 +119,53 @@ namespace GlobalNamespace {
     // Get instance field reference: protected OVRGrabber m_grabbedBy
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRGrabber*& dyn_m_grabbedBy();
     // public System.Boolean get_allowOffhandGrab()
-    // Offset: 0x19F96D8
+    // Offset: 0x1A0001C
     bool get_allowOffhandGrab();
     // public System.Boolean get_isGrabbed()
-    // Offset: 0x19F96E0
+    // Offset: 0x1A00024
     bool get_isGrabbed();
     // public System.Boolean get_snapPosition()
-    // Offset: 0x19F9750
+    // Offset: 0x1A00094
     bool get_snapPosition();
     // public System.Boolean get_snapOrientation()
-    // Offset: 0x19F9758
+    // Offset: 0x1A0009C
     bool get_snapOrientation();
     // public UnityEngine.Transform get_snapOffset()
-    // Offset: 0x19F9760
+    // Offset: 0x1A000A4
     ::UnityEngine::Transform* get_snapOffset();
     // public OVRGrabber get_grabbedBy()
-    // Offset: 0x19F9768
+    // Offset: 0x1A000AC
     ::GlobalNamespace::OVRGrabber* get_grabbedBy();
     // public UnityEngine.Transform get_grabbedTransform()
-    // Offset: 0x19F9770
+    // Offset: 0x1A000B4
     ::UnityEngine::Transform* get_grabbedTransform();
     // public UnityEngine.Rigidbody get_grabbedRigidbody()
-    // Offset: 0x19F978C
+    // Offset: 0x1A000D0
     ::UnityEngine::Rigidbody* get_grabbedRigidbody();
     // public UnityEngine.Collider[] get_grabPoints()
-    // Offset: 0x19F97A8
+    // Offset: 0x1A000EC
     ::ArrayW<::UnityEngine::Collider*> get_grabPoints();
     // public System.Void .ctor()
-    // Offset: 0x19F9C1C
+    // Offset: 0x1A00560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGrabbable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGrabbable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGrabbable*, creationType>()));
     }
     // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
-    // Offset: 0x19F97B0
+    // Offset: 0x1A000F4
     void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
     // public System.Void GrabEnd(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
-    // Offset: 0x19F9834
+    // Offset: 0x1A00178
     void GrabEnd(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
     // private System.Void Awake()
-    // Offset: 0x19F9910
+    // Offset: 0x1A00254
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x19F9A54
+    // Offset: 0x1A00398
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x19F9AC0
+    // Offset: 0x1A00404
     void OnDestroy();
   }; // OVRGrabbable
   #pragma pack(pop)

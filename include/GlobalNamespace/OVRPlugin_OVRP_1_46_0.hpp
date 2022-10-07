@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B25B24
+    // Offset: 0x1B35AB8
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTiledMultiResDynamic(out OVRPlugin/Bool isDynamic)
-    // Offset: 0x1B25A24
+    // Offset: 0x1B359B8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResDynamic(ByRef<::GlobalNamespace::OVRPlugin::Bool> isDynamic);
     // static public OVRPlugin/Result ovrp_SetTiledMultiResDynamic(OVRPlugin/Bool isDynamic)
-    // Offset: 0x1B25AA4
+    // Offset: 0x1B35A38
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResDynamic(::GlobalNamespace::OVRPlugin::Bool isDynamic);
   }; // OVRPlugin/OVRP_1_46_0
   #pragma pack(pop)

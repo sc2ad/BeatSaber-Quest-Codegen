@@ -41,20 +41,20 @@ namespace GlobalNamespace {
   class LocalNetworkDiscoveryManager::JoinRequestedDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1564C28
+    // Offset: 0x157C754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinRequestedDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinRequestedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName)
-    // Offset: 0x1562C4C
+    // Offset: 0x157A778
     void Invoke(::StringW userId, ::System::Net::IPAddress* remoteEndPoint, ::StringW userName);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.Net.IPAddress remoteEndPoint, System.String userName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1564C38
+    // Offset: 0x157C764
     ::System::IAsyncResult* BeginInvoke(::StringW userId, ::System::Net::IPAddress* remoteEndPoint, ::StringW userName, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1564C68
+    // Offset: 0x157C794
     void EndInvoke(::System::IAsyncResult* result);
   }; // LocalNetworkDiscoveryManager/JoinRequestedDelegate
   #pragma pack(pop)

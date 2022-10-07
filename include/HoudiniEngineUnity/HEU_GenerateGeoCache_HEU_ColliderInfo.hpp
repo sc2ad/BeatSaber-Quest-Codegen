@@ -192,7 +192,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _isTrigger
     [[deprecated("Use field access instead!")]] bool& dyn__isTrigger();
     // public System.Void .ctor()
-    // Offset: 0x17AABB8
+    // Offset: 0x179F4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GenerateGeoCache::HEU_ColliderInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::.ctor");

@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 namespace GlobalNamespace {
   // Forward declaring type: LightColorBaseData
   class LightColorBaseData;
-  // Forward declaring type: IIndexFilter
-  class IIndexFilter;
+  // Forward declaring type: IndexFilter
+  class IndexFilter;
   // Forward declaring type: IBeatToTimeConvertor
   class IBeatToTimeConvertor;
   // Forward declaring type: BeatmapEventData
@@ -84,28 +84,28 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] float& dyn__beatStep();
     // Get instance field reference: private readonly System.Boolean _brightnessDistributionShouldAffectFirstBaseEvent
     [[deprecated("Use field access instead!")]] bool& dyn__brightnessDistributionShouldAffectFirstBaseEvent();
-    // public System.Void .ctor(IIndexFilter indexFilter, System.Single beatDistributionParam, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single brightnessDistributionParam, BeatmapEventDataBox/DistributionParamType brightnessDistributionParamType, System.Boolean brightnessDistributionShouldAffectFirstBaseEvent, System.Collections.Generic.IReadOnlyList`1<LightColorBaseData> lightColorBaseDataList)
-    // Offset: 0x14D8A40
+    // public System.Void .ctor(IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single brightnessDistributionParam, BeatmapEventDataBox/DistributionParamType brightnessDistributionParamType, System.Boolean brightnessDistributionShouldAffectFirstBaseEvent, System.Collections.Generic.IReadOnlyList`1<LightColorBaseData> lightColorBaseDataList)
+    // Offset: 0x1465DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightColorBeatmapEventDataBox* New_ctor(::GlobalNamespace::IIndexFilter* indexFilter, float beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float brightnessDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
+    static LightColorBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float brightnessDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorBeatmapEventDataBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorBeatmapEventDataBox*, creationType>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam, brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent, lightColorBaseDataList)));
     }
     // public override System.Int32 get_subtypeIdentifier()
-    // Offset: 0x14D8A30
+    // Offset: 0x1465DA0
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Int32 BeatmapEventDataBox::get_subtypeIdentifier()
     int get_subtypeIdentifier();
     // public override System.Single get_beatStep()
-    // Offset: 0x14D8A38
+    // Offset: 0x1465DA8
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Single BeatmapEventDataBox::get_beatStep()
     float get_beatStep();
-    // public override System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 orderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
-    // Offset: 0x14D8C68
+    // public override System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 durationOrderIndex, System.Int32 distributionOrderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
+    // Offset: 0x146608C
     // Implemented from: BeatmapEventDataBox
-    // Base method: System.Void BeatmapEventDataBox::Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 orderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
-    void Unpack(float groupBoxBeat, int groupId, int elementId, int orderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+    // Base method: System.Void BeatmapEventDataBox::Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 durationOrderIndex, System.Int32 distributionOrderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
+    void Unpack(float groupBoxBeat, int groupId, int elementId, int durationOrderIndex, int distributionOrderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
   }; // LightColorBeatmapEventDataBox
   #pragma pack(pop)
   static check_size<sizeof(LightColorBeatmapEventDataBox), 48 + sizeof(bool)> __GlobalNamespace_LightColorBeatmapEventDataBoxSizeCheck;
@@ -135,15 +135,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::LightColorBeatmapEventDataBox::Unpack
 // Il2CppName: Unpack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightColorBeatmapEventDataBox::*)(float, int, int, int, float, ::GlobalNamespace::IBeatToTimeConvertor*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::LightColorBeatmapEventDataBox::Unpack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightColorBeatmapEventDataBox::*)(float, int, int, int, int, float, ::GlobalNamespace::IBeatToTimeConvertor*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::LightColorBeatmapEventDataBox::Unpack)> {
   static const MethodInfo* get() {
     static auto* groupBoxBeat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* groupId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* elementId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* orderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* durationOrderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* distributionOrderIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxBeat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* beatToTimeConvertor = &::il2cpp_utils::GetClassFromName("", "IBeatToTimeConvertor")->byval_arg;
     static auto* output = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventData")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorBeatmapEventDataBox*), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupBoxBeat, groupId, elementId, orderIndex, maxBeat, beatToTimeConvertor, output});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightColorBeatmapEventDataBox*), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConvertor, output});
   }
 };

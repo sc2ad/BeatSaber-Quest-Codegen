@@ -63,23 +63,23 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::NUnitEqualityComparer*& dyn_comparer();
     // public System.Int32 get_Count()
-    // Offset: 0x1C87088
+    // Offset: 0x1CDE948
     int get_Count();
     // public System.Void .ctor(NUnit.Framework.Constraints.NUnitEqualityComparer comparer, System.Collections.IEnumerable c)
-    // Offset: 0x1C86DD4
+    // Offset: 0x1CDE694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CollectionTally* New_ctor(::NUnit::Framework::Constraints::NUnitEqualityComparer* comparer, ::System::Collections::IEnumerable* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::CollectionTally::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CollectionTally*, creationType>(comparer, c)));
     }
     // private System.Boolean ItemsEqual(System.Object expected, System.Object actual)
-    // Offset: 0x1C870D8
+    // Offset: 0x1CDE998
     bool ItemsEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // public System.Boolean TryRemove(System.Object o)
-    // Offset: 0x1C87DE4
+    // Offset: 0x1CDF6A4
     bool TryRemove(::Il2CppObject* o);
     // public System.Boolean TryRemove(System.Collections.IEnumerable c)
-    // Offset: 0x1C87EB0
+    // Offset: 0x1CDF770
     bool TryRemove(::System::Collections::IEnumerable* c);
   }; // NUnit.Framework.Constraints.CollectionTally
   #pragma pack(pop)

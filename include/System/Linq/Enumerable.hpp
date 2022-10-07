@@ -578,10 +578,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, index);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> Range(System.Int32 start, System.Int32 count)
-    // Offset: 0x2AB0FBC
+    // Offset: 0x2AD9560
     static ::System::Collections::Generic::IEnumerable_1<int>* Range(int start, int count);
     // static private System.Collections.Generic.IEnumerable`1<System.Int32> RangeIterator(System.Int32 start, System.Int32 count)
-    // Offset: 0x2AB10AC
+    // Offset: 0x2AD9650
     static ::System::Collections::Generic::IEnumerable_1<int>* RangeIterator(int start, int count);
     // static public System.Collections.Generic.IEnumerable`1<TResult> Repeat(TResult element, System.Int32 count)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -692,7 +692,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TAccumulate, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, seed, func);
     }
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x2AB1174
+    // Offset: 0x2AD9718
     static int Sum(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Int32 Sum(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Int32> selector)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -704,7 +704,7 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Single Min(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x2AB1468
+    // Offset: 0x2AD9A0C
     static float Min(::System::Collections::Generic::IEnumerable_1<float>* source);
     // static public TSource Min(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -725,10 +725,10 @@ namespace System::Linq {
       return ::il2cpp_utils::RunMethodRethrow<TResult, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, selector);
     }
     // static public System.Int32 Max(System.Collections.Generic.IEnumerable`1<System.Int32> source)
-    // Offset: 0x2AB1798
+    // Offset: 0x2AD9D3C
     static int Max(::System::Collections::Generic::IEnumerable_1<int>* source);
     // static public System.Single Max(System.Collections.Generic.IEnumerable`1<System.Single> source)
-    // Offset: 0x2AB1A34
+    // Offset: 0x2AD9FD8
     static float Max(::System::Collections::Generic::IEnumerable_1<float>* source);
     // static public TSource Max(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFFFFFFFFFF

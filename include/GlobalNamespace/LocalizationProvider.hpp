@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private Polyglot.Localization _localization
     [[deprecated("Use field access instead!")]] ::Polyglot::Localization*& dyn__localization();
     // public Polyglot.Localization get_localization()
-    // Offset: 0x2A6A5BC
+    // Offset: 0x2A8924C
     ::Polyglot::Localization* get_localization();
     // static public LocalizationProvider get_Instance()
-    // Offset: 0x2A6A5C4
+    // Offset: 0x2A89254
     static ::GlobalNamespace::LocalizationProvider* get_Instance();
     // static public System.Void set_Instance(LocalizationProvider value)
-    // Offset: 0x2A6A734
+    // Offset: 0x2A893C4
     static void set_Instance(::GlobalNamespace::LocalizationProvider* value);
     // static public System.Boolean get_HasInstance()
-    // Offset: 0x2A6A650
+    // Offset: 0x2A892E0
     static bool get_HasInstance();
     // public System.Void .ctor()
-    // Offset: 0x2A6A788
+    // Offset: 0x2A89418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizationProvider::.ctor");

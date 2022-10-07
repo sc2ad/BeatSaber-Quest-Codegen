@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingScoreEffect* flyingScoreEffectPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10EE1B4
+    // [SpaceAttribute] Offset: 0x11059F0
     // private BeatEffect _beatEffectPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatEffect* shortBeatEffectPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatEffect*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10EE1FC
+    // [SpaceAttribute] Offset: 0x1105A38
     // private NoteCutSoundEffect _noteCutSoundEffectPrefab
     // Size: 0x8
     // Offset: 0x38
@@ -113,14 +113,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private FlyingSpriteEffect _flyingSpriteEffectPrefab
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingSpriteEffect*& dyn__flyingSpriteEffectPrefab();
     // public System.Void .ctor()
-    // Offset: 0x1365EFC
+    // Offset: 0x13940AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EffectPoolsManualInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EffectPoolsManualInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EffectPoolsManualInstaller*, creationType>()));
     }
     // public System.Void ManualInstallBindings(Zenject.DiContainer container, System.Boolean shortBeatEffect)
-    // Offset: 0x1365D30
+    // Offset: 0x1393EE0
     void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
   }; // EffectPoolsManualInstaller
   #pragma pack(pop)

@@ -55,65 +55,68 @@ namespace GlobalNamespace {
     // Get instance field reference: protected SelectableStateController _selectableStateController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
     // protected Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x1381EB0
+    // Offset: 0x136FF18
     ::Tweening::TimeTweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BaseTransitionSO* get_transition();
     // protected System.Void .ctor()
-    // Offset: 0x1382104
+    // Offset: 0x1370214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseStateTransition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseStateTransition*, creationType>()));
     }
     // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x1381ECC
+    // Offset: 0x136FF34
     void SetState(::GlobalNamespace::SelectableStateController::ViewState viewState);
     // protected System.Void OnEnable()
-    // Offset: 0x1381F44
+    // Offset: 0x136FFAC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1381FD8
+    // Offset: 0x1370040
     void OnDisable();
+    // protected System.Void OnDestroy()
+    // Offset: 0x13700D4
+    void OnDestroy();
     // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x138206C
+    // Offset: 0x137017C
     void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
     // protected System.Void TransitionToNormalState()
-    // Offset: 0x13820D4
+    // Offset: 0x13701E4
     void TransitionToNormalState();
     // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x13820D8
+    // Offset: 0x13701E8
     void TransitionToHighlightedState();
     // protected System.Void TransitionToPressedState()
-    // Offset: 0x13820DC
+    // Offset: 0x13701EC
     void TransitionToPressedState();
     // protected System.Void TransitionToDisabledState()
-    // Offset: 0x13820E0
+    // Offset: 0x13701F0
     void TransitionToDisabledState();
     // protected System.Void TransitionToSelectedState()
-    // Offset: 0x13820E4
+    // Offset: 0x13701F4
     void TransitionToSelectedState();
     // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x13820E8
+    // Offset: 0x13701F8
     void TransitionToSelectedAndHighlightedState();
     // protected System.Void SetNormalState()
-    // Offset: 0x13820EC
+    // Offset: 0x13701FC
     void SetNormalState();
     // protected System.Void SetHighlightedState()
-    // Offset: 0x13820F0
+    // Offset: 0x1370200
     void SetHighlightedState();
     // protected System.Void SetPressedState()
-    // Offset: 0x13820F4
+    // Offset: 0x1370204
     void SetPressedState();
     // protected System.Void SetDisabledState()
-    // Offset: 0x13820F8
+    // Offset: 0x1370208
     void SetDisabledState();
     // protected System.Void SetSelectedState()
-    // Offset: 0x13820FC
+    // Offset: 0x137020C
     void SetSelectedState();
     // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x1382100
+    // Offset: 0x1370210
     void SetSelectedAndHighlightedState();
   }; // BaseStateTransition
   #pragma pack(pop)
@@ -164,6 +167,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseStateTransition::*)()>(&GlobalNamespace::BaseStateTransition::OnDisable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseStateTransition*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseStateTransition::*)()>(&GlobalNamespace::BaseStateTransition::OnDestroy)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseStateTransition*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BaseStateTransition::HandleSelectableStateControllerStateDidChange

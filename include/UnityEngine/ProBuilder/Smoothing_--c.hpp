@@ -50,20 +50,20 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__9_0
     static void _set_$$9__9_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x299ACF8
+    // Offset: 0x29D6CE8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x299AD5C
+    // Offset: 0x29D6D4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Smoothing::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Smoothing::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Smoothing::$$c*, creationType>()));
     }
     // System.Int32 <GetUnusedSmoothingGroup>b__5_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x299AD64
+    // Offset: 0x29D6D54
     int $GetUnusedSmoothingGroup$b__5_0(::UnityEngine::ProBuilder::Face* x);
     // System.Int32 <ApplySmoothingGroups>b__9_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x299AD7C
+    // Offset: 0x29D6D6C
     int $ApplySmoothingGroups$b__9_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.Smoothing/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

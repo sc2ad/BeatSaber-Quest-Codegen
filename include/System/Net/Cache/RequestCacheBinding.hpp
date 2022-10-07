@@ -50,10 +50,10 @@ namespace System::Net::Cache {
     // Get instance field reference: private System.Net.Cache.RequestCacheValidator m_CacheValidator
     [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheValidator*& dyn_m_CacheValidator();
     // System.Net.Cache.RequestCache get_Cache()
-    // Offset: 0x1CEED8C
+    // Offset: 0x1D3BF3C
     ::System::Net::Cache::RequestCache* get_Cache();
     // System.Net.Cache.RequestCacheValidator get_Validator()
-    // Offset: 0x1CEED94
+    // Offset: 0x1D3BF44
     ::System::Net::Cache::RequestCacheValidator* get_Validator();
   }; // System.Net.Cache.RequestCacheBinding
   #pragma pack(pop)

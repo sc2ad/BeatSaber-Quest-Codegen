@@ -25,7 +25,7 @@ namespace HMUI {
   class InputFieldView::InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16D40E8
+    // Offset: 0x16DB370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldView::InputFieldChanged* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldView::InputFieldChanged::.ctor");

@@ -77,26 +77,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule _burnParticleSystemEmissionModule
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmissionModule& dyn__burnParticleSystemEmissionModule();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x14F90C4
+    // Offset: 0x150F980
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x14F9378
+    // Offset: 0x150FC34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleSaberSparkleEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleSaberSparkleEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSaberSparkleEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14F91D0
+    // Offset: 0x150FA8C
     void Awake();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x14F9238
+    // Offset: 0x150FAF4
     void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void StartEmission()
-    // Offset: 0x14F92B4
+    // Offset: 0x150FB70
     void StartEmission();
     // public System.Void StopEmission()
-    // Offset: 0x14F930C
+    // Offset: 0x150FBC8
     void StopEmission();
   }; // ObstacleSaberSparkleEffect
   #pragma pack(pop)

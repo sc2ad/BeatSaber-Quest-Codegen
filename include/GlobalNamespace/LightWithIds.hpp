@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::LightWithIds::LightWithId
     class LightWithId;
     public:
-    // [InjectAttribute] Offset: 0x10CE554
+    // [InjectAttribute] Offset: 0x10E6448
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -82,35 +82,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _childrenColorWasSet
     [[deprecated("Use field access instead!")]] bool& dyn__childrenColorWasSet();
     // protected System.Void .ctor()
-    // Offset: 0x1E72704
+    // Offset: 0x1D03130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1E720A8
+    // Offset: 0x1D02AD4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1E723C0
+    // Offset: 0x1D02DEC
     void OnEnable();
-    // private System.Void MarkChildrenColorAsSet()
-    // Offset: 0x1E723C4
+    // public System.Void MarkChildrenColorAsSet()
+    // Offset: 0x1D02DF0
     void MarkChildrenColorAsSet();
     // protected System.Void SetNewLightsWithIds(System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> lightsWithIds)
-    // Offset: 0x1E723D0
+    // Offset: 0x1D02DFC
     void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* lightsWithIds);
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1E720AC
+    // Offset: 0x1D02AD8
     void RegisterForColorChanges();
     // private System.Void UnregisterFromColorChanges()
-    // Offset: 0x1E723FC
+    // Offset: 0x1D02E28
     void UnregisterFromColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1E726E4
+    // Offset: 0x1D03110
     void OnDisable();
     // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1E726E8
+    // Offset: 0x1D03114
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void ProcessNewColorData()
     // Offset: 0xFFFFFFFFFFFFFFFF

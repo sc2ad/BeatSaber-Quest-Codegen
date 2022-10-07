@@ -64,23 +64,23 @@ namespace Zenject {
     // Get instance field reference: private UnityEngine.Animator _animator
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor()
-    // Offset: 0x1D22DAC
+    // Offset: 0x1D6FF5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectStateMachineBehaviourAutoInjecter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectStateMachineBehaviourAutoInjecter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectStateMachineBehaviourAutoInjecter*, creationType>()));
     }
     // public System.Void Construct(Zenject.DiContainer container)
-    // Offset: 0x1D22C4C
+    // Offset: 0x1D6FDFC
     void Construct(::Zenject::DiContainer* container);
     // public System.Void Start()
-    // Offset: 0x1D22CB8
+    // Offset: 0x1D6FE68
     void Start();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1D22DB4
+    // Offset: 0x1D6FF64
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D22EA8
+    // Offset: 0x1D70058
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectStateMachineBehaviourAutoInjecter
   #pragma pack(pop)

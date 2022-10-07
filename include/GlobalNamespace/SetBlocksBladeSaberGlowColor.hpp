@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BlocksBlade _blocksBlade
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BlocksBlade*& dyn__blocksBlade();
     // public System.Void .ctor()
-    // Offset: 0x13BF904
+    // Offset: 0x13C3808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetBlocksBladeSaberGlowColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetBlocksBladeSaberGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetBlocksBladeSaberGlowColor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13BF8B8
+    // Offset: 0x13C37BC
     void Start();
   }; // SetBlocksBladeSaberGlowColor
   #pragma pack(pop)

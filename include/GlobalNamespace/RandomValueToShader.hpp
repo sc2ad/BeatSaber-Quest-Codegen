@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10CDF48
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E5C94
     // Get static field: static private readonly System.Int32 _randomValueID
     static int _get__randomValueID();
     // Set static field: static private readonly System.Int32 _randomValueID
@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameNum
     [[deprecated("Use field access instead!")]] int& dyn__lastFrameNum();
     // public System.Void .ctor()
-    // Offset: 0x1E77F8C
+    // Offset: 0x1D08B8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomValueToShader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomValueToShader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomValueToShader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E77F9C
+    // Offset: 0x1D08B9C
     static void _cctor();
     // public System.Void SetRandomValueToShaders()
-    // Offset: 0x1E6DF38
+    // Offset: 0x1CFE6E0
     void SetRandomValueToShaders();
   }; // RandomValueToShader
   #pragma pack(pop)

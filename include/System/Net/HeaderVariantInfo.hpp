@@ -56,13 +56,13 @@ namespace System::Net {
     // Get instance field reference: private System.Net.CookieVariant m_variant
     [[deprecated("Use field access instead!")]] ::System::Net::CookieVariant& dyn_m_variant();
     // System.String get_Name()
-    // Offset: 0x1AAABA0
+    // Offset: 0x1A9AE10
     ::StringW get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0x1AAABA8
+    // Offset: 0x1A9AE18
     ::System::Net::CookieVariant get_Variant();
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0x1AAAB94
+    // Offset: 0x1A9AE04
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::StringW name, ::System::Net::CookieVariant variant);
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)

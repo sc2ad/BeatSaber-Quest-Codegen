@@ -27,7 +27,7 @@ namespace HoudiniEngineUnity {
   class HEU_HARCImports : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1921DDC
+    // Offset: 0x19045C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HARCImports* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HARCImports::.ctor");

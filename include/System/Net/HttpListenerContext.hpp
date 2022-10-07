@@ -108,41 +108,41 @@ namespace System::Net {
     // Get instance field reference: System.Net.HttpListener Listener
     [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_Listener();
     // System.Int32 get_ErrorStatus()
-    // Offset: 0x1AB0F9C
+    // Offset: 0x1AA120C
     int get_ErrorStatus();
     // System.Void set_ErrorStatus(System.Int32 value)
-    // Offset: 0x1AB0FA4
+    // Offset: 0x1AA1214
     void set_ErrorStatus(int value);
     // System.String get_ErrorMessage()
-    // Offset: 0x1AB0FAC
+    // Offset: 0x1AA121C
     ::StringW get_ErrorMessage();
     // System.Void set_ErrorMessage(System.String value)
-    // Offset: 0x1AB0FB4
+    // Offset: 0x1AA1224
     void set_ErrorMessage(::StringW value);
     // System.Boolean get_HaveError()
-    // Offset: 0x1AAC260
+    // Offset: 0x1A9C4D0
     bool get_HaveError();
     // System.Net.HttpConnection get_Connection()
-    // Offset: 0x1AB0FBC
+    // Offset: 0x1AA122C
     ::System::Net::HttpConnection* get_Connection();
     // public System.Net.HttpListenerRequest get_Request()
-    // Offset: 0x1AB0FC4
+    // Offset: 0x1AA1234
     ::System::Net::HttpListenerRequest* get_Request();
     // public System.Net.HttpListenerResponse get_Response()
-    // Offset: 0x1AB0FCC
+    // Offset: 0x1AA123C
     ::System::Net::HttpListenerResponse* get_Response();
     // System.Void .ctor(System.Net.HttpConnection cnc)
-    // Offset: 0x1AAAFCC
+    // Offset: 0x1A9B23C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerContext*, creationType>(cnc)));
     }
     // System.Void ParseAuthentication(System.Net.AuthenticationSchemes expectedSchemes)
-    // Offset: 0x1AB08A0
+    // Offset: 0x1AA0B10
     void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
     // System.Security.Principal.IPrincipal ParseBasicAuthentication(System.String authData)
-    // Offset: 0x1AB0FD4
+    // Offset: 0x1AA1244
     ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
   }; // System.Net.HttpListenerContext
   #pragma pack(pop)

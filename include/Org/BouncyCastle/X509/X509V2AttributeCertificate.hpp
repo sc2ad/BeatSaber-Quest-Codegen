@@ -82,41 +82,41 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private readonly System.DateTime notAfter
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_notAfter();
     // public System.Void .ctor(System.IO.Stream encIn)
-    // Offset: 0x26185CC
+    // Offset: 0x265A6E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::System::IO::Stream* encIn) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encIn)));
     }
     // public System.Void .ctor(System.Byte[] encoded)
-    // Offset: 0x2618788
+    // Offset: 0x265A89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::ArrayW<uint8_t> encoded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(encoded)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.X509.AttributeCertificate cert)
-    // Offset: 0x26185F8
+    // Offset: 0x265A70C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509V2AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509V2AttributeCertificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509V2AttributeCertificate*, creationType>(cert)));
     }
     // static private Org.BouncyCastle.Asn1.X509.AttributeCertificate GetObject(System.IO.Stream input)
-    // Offset: 0x2618494
+    // Offset: 0x265A5A8
     static ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream* input);
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x2618808
+    // Offset: 0x265A91C
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2618830
+    // Offset: 0x265A944
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x26188F4
+    // Offset: 0x265AA08
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
