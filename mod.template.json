@@ -5,7 +5,7 @@
   "author": "Sc2ad",
   "version": "${version}",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.25.0",
+  "packageVersion": "1.25.1",
   "description": "A core library used by almost every mod. DO NOT ATTEMPT TO UNINSTALL IT!",
   "coverImage": "cover.png",
   "dependencies": [],
