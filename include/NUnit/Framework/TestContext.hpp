@@ -56,10 +56,10 @@ namespace NUnit::Framework {
     // Set static field: static public readonly NUnit.Framework.TestParameters Parameters
     static void _set_Parameters(::NUnit::Framework::TestParameters* value);
     // static public System.IO.TextWriter get_Out()
-    // Offset: 0x2A72678
+    // Offset: 0x2A6AECC
     static ::System::IO::TextWriter* get_Out();
     // static private System.Void .cctor()
-    // Offset: 0x2A7277C
+    // Offset: 0x2A6AFD0
     static void _cctor();
   }; // NUnit.Framework.TestContext
   #pragma pack(pop)

@@ -242,83 +242,83 @@ namespace System::Net {
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy extendedProtectionPolicy
     [[deprecated("Use field access instead!")]] ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*& dyn_extendedProtectionPolicy();
     // public System.Net.AuthenticationSchemes get_AuthenticationSchemes()
-    // Offset: 0x1A9EFEC
+    // Offset: 0x1ABDD78
     ::System::Net::AuthenticationSchemes get_AuthenticationSchemes();
     // public System.Net.AuthenticationSchemeSelector get_AuthenticationSchemeSelectorDelegate()
-    // Offset: 0x1A9EFF4
+    // Offset: 0x1ABDD80
     ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate();
     // public System.Boolean get_IgnoreWriteExceptions()
-    // Offset: 0x1A9EFFC
+    // Offset: 0x1ABDD88
     bool get_IgnoreWriteExceptions();
     // public System.Boolean get_IsListening()
-    // Offset: 0x1A9F004
+    // Offset: 0x1ABDD90
     bool get_IsListening();
     // public System.Net.HttpListenerPrefixCollection get_Prefixes()
-    // Offset: 0x1A9F00C
+    // Offset: 0x1ABDD98
     ::System::Net::HttpListenerPrefixCollection* get_Prefixes();
     // public System.String get_Realm()
-    // Offset: 0x1A9F0D8
+    // Offset: 0x1ABDE64
     ::StringW get_Realm();
     // public System.Void .ctor()
-    // Offset: 0x1A9EE0C
+    // Offset: 0x1ABDB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListener*, creationType>()));
     }
     // System.Security.Cryptography.X509Certificates.X509Certificate LoadCertificateAndKey(System.Net.IPAddress addr, System.Int32 port)
-    // Offset: 0x1A9EAF4
+    // Offset: 0x1ABD880
     ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int port);
     // System.Net.Security.SslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean ownsStream, System.Net.Security.RemoteCertificateValidationCallback callback)
-    // Offset: 0x1A9B048
+    // Offset: 0x1AB9DD4
     ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
     // public System.Void Close()
-    // Offset: 0x1A9F0E0
+    // Offset: 0x1ABDE6C
     void Close();
     // private System.Void Close(System.Boolean force)
-    // Offset: 0x1A9F124
+    // Offset: 0x1ABDEB0
     void Close(bool force);
     // private System.Void Cleanup(System.Boolean close_existing)
-    // Offset: 0x1A9F1AC
+    // Offset: 0x1ABDF38
     void Cleanup(bool close_existing);
     // public System.IAsyncResult BeginGetContext(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1A9FCF8
+    // Offset: 0x1ABEA84
     ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.HttpListenerContext EndGetContext(System.IAsyncResult asyncResult)
-    // Offset: 0x1AA0674
+    // Offset: 0x1ABF400
     ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
     // System.Net.AuthenticationSchemes SelectAuthenticationScheme(System.Net.HttpListenerContext context)
-    // Offset: 0x1AA0AE0
+    // Offset: 0x1ABF86C
     ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
     // public System.Net.HttpListenerContext GetContext()
-    // Offset: 0x1AA0C30
+    // Offset: 0x1ABF9BC
     ::System::Net::HttpListenerContext* GetContext();
     // public System.Void Start()
-    // Offset: 0x1AA0D74
+    // Offset: 0x1ABFB00
     void Start();
     // public System.Void Stop()
-    // Offset: 0x1AA0DF8
+    // Offset: 0x1ABFB84
     void Stop();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1AA0E24
+    // Offset: 0x1ABFBB0
     void System_IDisposable_Dispose();
     // System.Void CheckDisposed()
-    // Offset: 0x1A9F030
+    // Offset: 0x1ABDDBC
     void CheckDisposed();
     // private System.Net.HttpListenerContext GetContextFromQueue()
-    // Offset: 0x1A9FFFC
+    // Offset: 0x1ABED88
     ::System::Net::HttpListenerContext* GetContextFromQueue();
     // System.Void RegisterContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1A9CB4C
+    // Offset: 0x1ABB8D8
     void RegisterContext(::System::Net::HttpListenerContext* context);
     // System.Void UnregisterContext(System.Net.HttpListenerContext context)
-    // Offset: 0x1AA0E64
+    // Offset: 0x1ABFBF0
     void UnregisterContext(::System::Net::HttpListenerContext* context);
     // System.Void AddConnection(System.Net.HttpConnection cnc)
-    // Offset: 0x1A9CB24
+    // Offset: 0x1ABB8B0
     void AddConnection(::System::Net::HttpConnection* cnc);
     // System.Void RemoveConnection(System.Net.HttpConnection cnc)
-    // Offset: 0x1A9CE5C
+    // Offset: 0x1ABBBE8
     void RemoveConnection(::System::Net::HttpConnection* cnc);
   }; // System.Net.HttpListener
   #pragma pack(pop)

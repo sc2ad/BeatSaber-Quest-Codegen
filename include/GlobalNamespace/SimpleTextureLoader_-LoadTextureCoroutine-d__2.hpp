@@ -108,29 +108,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <uwr>5__2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$uwr$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13C6308
+    // Offset: 0x140B5F4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13C6370
+    // Offset: 0x140B65C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13C5EBC
+    // Offset: 0x140B1A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleTextureLoader::$LoadTextureCoroutine$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleTextureLoader::$LoadTextureCoroutine$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13C5F60
+    // Offset: 0x140B24C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13C603C
+    // Offset: 0x140B328
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x13C5F7C
+    // Offset: 0x140B268
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13C6310
+    // Offset: 0x140B5FC
     void System_Collections_IEnumerator_Reset();
   }; // SimpleTextureLoader/<LoadTextureCoroutine>d__2
   #pragma pack(pop)

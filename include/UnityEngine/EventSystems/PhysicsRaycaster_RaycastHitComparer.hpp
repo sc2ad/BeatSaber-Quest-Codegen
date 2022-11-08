@@ -40,17 +40,17 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer instance
     static void _set_instance(::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer* value);
     // public System.Void .ctor()
-    // Offset: 0x191C2D0
+    // Offset: 0x194FBDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsRaycaster::RaycastHitComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsRaycaster::RaycastHitComparer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x191C2D8
+    // Offset: 0x194FBE4
     static void _cctor();
     // public System.Int32 Compare(UnityEngine.RaycastHit x, UnityEngine.RaycastHit y)
-    // Offset: 0x191C28C
+    // Offset: 0x194FB98
     int Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
   }; // UnityEngine.EventSystems.PhysicsRaycaster/UnityEngine.EventSystems.RaycastHitComparer
   #pragma pack(pop)

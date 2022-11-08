@@ -57,28 +57,28 @@ namespace GlobalNamespace {
   class BeatmapObjectExecutionRatingsRecorder : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10FCCAC
+    // [InjectAttribute] Offset: 0x1112314
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FCCBC
+    // [InjectAttribute] Offset: 0x1112324
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FCCCC
+    // [InjectAttribute] Offset: 0x1112334
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FCCDC
+    // [InjectAttribute] Offset: 0x1112344
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -113,29 +113,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<ObstacleController> _hitObstacles
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& dyn__hitObstacles();
     // public System.Collections.Generic.List`1<BeatmapObjectExecutionRating> get_beatmapObjectExecutionRatings()
-    // Offset: 0x15517C8
+    // Offset: 0x1564EB8
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
     // public System.Void .ctor()
-    // Offset: 0x1552200
+    // Offset: 0x15658F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectExecutionRatingsRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectExecutionRatingsRecorder*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x15517D0
+    // Offset: 0x1564EC0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x15519F4
+    // Offset: 0x15650E4
     void OnDestroy();
     // private System.Void HandleScoringForNoteDidFinish(ScoringElement scoringElement)
-    // Offset: 0x1551C68
+    // Offset: 0x1565358
     void HandleScoringForNoteDidFinish(::GlobalNamespace::ScoringElement* scoringElement);
     // private System.Void HandlePlayerHeadDidEnterObstacle(ObstacleController obstacleController)
-    // Offset: 0x155204C
+    // Offset: 0x156573C
     void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleDidPassAvoidedMark(ObstacleController obstacleController)
-    // Offset: 0x155210C
+    // Offset: 0x15657FC
     void HandleObstacleDidPassAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
   }; // BeatmapObjectExecutionRatingsRecorder
   #pragma pack(pop)

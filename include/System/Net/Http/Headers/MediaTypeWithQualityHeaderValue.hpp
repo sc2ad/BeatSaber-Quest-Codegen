@@ -44,13 +44,13 @@ namespace System::Net::Http::Headers {
   class MediaTypeWithQualityHeaderValue : public ::System::Net::Http::Headers::MediaTypeHeaderValue {
     public:
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.MediaTypeWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x19A68BC
+    // Offset: 0x19B80B0
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.MediaTypeWithQualityHeaderValue> result)
-    // Offset: 0x19A6A20
+    // Offset: 0x19B8214
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
     // private System.Void .ctor()
-    // Offset: 0x19A68B4
+    // Offset: 0x19B80A8
     // Implemented from: System.Net.Http.Headers.MediaTypeHeaderValue
     // Base method: System.Void MediaTypeHeaderValue::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

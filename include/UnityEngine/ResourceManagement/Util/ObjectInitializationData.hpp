@@ -43,14 +43,14 @@ namespace UnityEngine::ResourceManagement::Util {
   struct ObjectInitializationData/*, public ::System::ValueType*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBCEC
+    // [FormerlySerializedAsAttribute] Offset: 0x110043C
     // private System.String m_Id
     // Size: 0x8
     // Offset: 0x0
     ::StringW m_Id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBD38
+    // [FormerlySerializedAsAttribute] Offset: 0x1100488
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     // Size: 0x19
     // Offset: 0x8
@@ -59,7 +59,7 @@ namespace UnityEngine::ResourceManagement::Util {
     static_assert(sizeof(::UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_ObjectType and: m_Data
     char __padding1[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBD84
+    // [FormerlySerializedAsAttribute] Offset: 0x11004D4
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x28
@@ -84,13 +84,13 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.String m_Data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Data();
     // public System.String get_Id()
-    // Offset: 0x1F59FB8
+    // Offset: 0x1F6B800
     ::StringW get_Id();
     // public UnityEngine.ResourceManagement.Util.SerializedType get_ObjectType()
-    // Offset: 0x1F59FC0
+    // Offset: 0x1F6B808
     ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
     // public System.String get_Data()
-    // Offset: 0x1F59FD0
+    // Offset: 0x1F6B818
     ::StringW get_Data();
     // public TObject CreateInstance(System.String idOverride)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -102,10 +102,10 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(this, ___generic__method, idOverride);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
-    // Offset: 0x1F5A064
+    // Offset: 0x1F6B8AC
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
     // public override System.String ToString()
-    // Offset: 0x1F59FD8
+    // Offset: 0x1F6B820
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

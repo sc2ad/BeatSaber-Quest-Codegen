@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single startBpm
     [[deprecated("Use field access instead!")]] float& dyn_startBpm();
     // public System.Void .ctor(System.Single startBpm)
-    // Offset: 0x1386FE8
+    // Offset: 0x13DAB1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BpmController::InitData* New_ctor(float startBpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BpmController::InitData::.ctor");

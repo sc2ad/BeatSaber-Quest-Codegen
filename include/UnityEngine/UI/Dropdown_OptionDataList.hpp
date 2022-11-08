@@ -46,13 +46,13 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> m_Options
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>*& dyn_m_Options();
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> get_options()
-    // Offset: 0x1E99840
+    // Offset: 0x1EB7D78
     ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> value)
-    // Offset: 0x1E99848
+    // Offset: 0x1EB7D80
     void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1E99850
+    // Offset: 0x1EB7D88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown::OptionDataList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::OptionDataList::.ctor");

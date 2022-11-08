@@ -43,7 +43,7 @@ namespace UnityEngine::ProBuilder {
   class EntityBehaviour : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x11303AC
+    // [TooltipAttribute] Offset: 0x1144408
     // public System.Boolean manageVisibility
     // Size: 0x1
     // Offset: 0x18
@@ -56,7 +56,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Boolean manageVisibility
     [[deprecated("Use field access instead!")]] bool& dyn_manageVisibility();
     // protected System.Void .ctor()
-    // Offset: 0x207B5A4
+    // Offset: 0x207CF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EntityBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::EntityBehaviour::.ctor");
@@ -72,7 +72,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void SetMaterial(UnityEngine.Material material)
-    // Offset: 0x207B4C8
+    // Offset: 0x207CEBC
     void SetMaterial(::UnityEngine::Material* material);
   }; // UnityEngine.ProBuilder.EntityBehaviour
   #pragma pack(pop)

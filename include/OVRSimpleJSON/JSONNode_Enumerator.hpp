@@ -120,19 +120,19 @@ namespace OVRSimpleJSON {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> m_Array
     [[deprecated("Use field access instead!")]] typename ::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
-    // Offset: 0x252C3B8
+    // Offset: 0x254F36C
     bool get_IsValid();
     // public System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> get_Current()
-    // Offset: 0x252C414
+    // Offset: 0x254F3C8
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
-    // Offset: 0x252C3C8
+    // Offset: 0x254F37C
     Enumerator(typename ::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
-    // Offset: 0x252C3F0
+    // Offset: 0x254F3A4
     Enumerator(typename ::System::Collections::Generic::Dictionary_2<::StringW, ::OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Boolean MoveNext()
-    // Offset: 0x252C4C8
+    // Offset: 0x254F47C
     bool MoveNext();
   }; // OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
   // WARNING Not writing size check since size may be invalid!

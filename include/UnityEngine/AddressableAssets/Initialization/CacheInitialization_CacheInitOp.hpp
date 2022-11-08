@@ -61,25 +61,25 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.Boolean m_UpdateRequired
     [[deprecated("Use field access instead!")]] bool& dyn_m_UpdateRequired();
     // public System.Void .ctor()
-    // Offset: 0x18B3ABC
+    // Offset: 0x18D7270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitialization::CacheInitOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization::CacheInitOp*, creationType>()));
     }
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x18B3BCC
+    // Offset: 0x18D7380
     void Init(::System::Func_1<bool>* callback);
     // public System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x18B3C64
+    // Offset: 0x18D7418
     void Update(float unscaledDeltaTime);
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x18B3BD4
+    // Offset: 0x18D7388
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x18B3D1C
+    // Offset: 0x18D74D0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

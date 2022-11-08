@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::MeshRenderer*> meshRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1100818
+    // [InjectAttribute] Offset: 0x11160DC
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x20
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1100828
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11160EC
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -74,20 +74,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // public System.Void .ctor()
-    // Offset: 0x14C5760
+    // Offset: 0x1475388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Spectrogram* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Spectrogram::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Spectrogram*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14C5768
+    // Offset: 0x1475390
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x14C5594
+    // Offset: 0x14751BC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x14C5640
+    // Offset: 0x1475268
     void Update();
   }; // Spectrogram
   #pragma pack(pop)

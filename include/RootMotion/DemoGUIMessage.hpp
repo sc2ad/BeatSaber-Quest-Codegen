@@ -52,14 +52,14 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Color color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x22B345C
+    // Offset: 0x23051C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DemoGUIMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::DemoGUIMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DemoGUIMessage*, creationType>()));
     }
     // private System.Void OnGUI()
-    // Offset: 0x22B331C
+    // Offset: 0x2305080
     void OnGUI();
   }; // RootMotion.DemoGUIMessage
   #pragma pack(pop)

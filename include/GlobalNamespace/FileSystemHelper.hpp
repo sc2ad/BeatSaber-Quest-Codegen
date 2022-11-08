@@ -31,19 +31,19 @@ namespace GlobalNamespace {
   class FileSystemHelper : public ::Il2CppObject {
     public:
     // static public System.String FindFirstExistedParentPath(System.String path)
-    // Offset: 0x139E7D0
+    // Offset: 0x13892A0
     static ::StringW FindFirstExistedParentPath(::StringW path);
     // static private System.Boolean HasWritePermission(System.Security.AccessControl.FileSystemSecurity accessControlList)
-    // Offset: 0x139E870
+    // Offset: 0x1389340
     static bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
     // static public System.Boolean HasWritePermissionOnDirectory(System.String path)
-    // Offset: 0x139EB50
+    // Offset: 0x1389620
     static bool HasWritePermissionOnDirectory(::StringW path);
     // static public System.Boolean HasWritePermissionOnFile(System.String path)
-    // Offset: 0x139EB68
+    // Offset: 0x1389638
     static bool HasWritePermissionOnFile(::StringW path);
     // static public System.Boolean IsFileWritable(System.String path)
-    // Offset: 0x139EB80
+    // Offset: 0x1389650
     static bool IsFileWritable(::StringW path);
   }; // FileSystemHelper
   #pragma pack(pop)

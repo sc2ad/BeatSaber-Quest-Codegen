@@ -31,16 +31,16 @@ namespace System {
   class IriHelper : public ::Il2CppObject {
     public:
     // static System.Boolean CheckIriUnicodeRange(System.Char unicode, System.Boolean isQuery)
-    // Offset: 0x1D39474
+    // Offset: 0x1D87CB0
     static bool CheckIriUnicodeRange(::Il2CppChar unicode, bool isQuery);
     // static System.Boolean CheckIriUnicodeRange(System.Char highSurr, System.Char lowSurr, ref System.Boolean surrogatePair, System.Boolean isQuery)
-    // Offset: 0x1D394CC
+    // Offset: 0x1D87D08
     static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, ByRef<bool> surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)
-    // Offset: 0x1D39988
+    // Offset: 0x1D881C4
     static bool CheckIsReserved(::Il2CppChar ch, ::System::UriComponents component);
     // static System.String EscapeUnescapeIri(System.Char* pInput, System.Int32 start, System.Int32 end, System.UriComponents component)
-    // Offset: 0x1D39AEC
+    // Offset: 0x1D88328
     static ::StringW EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, ::System::UriComponents component);
   }; // System.IriHelper
   #pragma pack(pop)

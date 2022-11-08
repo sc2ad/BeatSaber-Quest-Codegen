@@ -55,29 +55,29 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: System.Int32 m_count
     [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // System.Int32 get_Version()
-    // Offset: 0x16719C8
+    // Offset: 0x16766E0
     int get_Version();
     // System.Int32 get_Count()
-    // Offset: 0x16719D0
+    // Offset: 0x16766E8
     int get_Count();
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x1671758
+    // Offset: 0x1676470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.ObjectHolder value)
-    // Offset: 0x16717CC
+    // Offset: 0x16764E4
     void Add(::System::Runtime::Serialization::ObjectHolder* value);
     // System.Runtime.Serialization.ObjectHolderListEnumerator GetFixupEnumerator()
-    // Offset: 0x1671910
+    // Offset: 0x1676628
     ::System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
     // private System.Void EnlargeArray()
-    // Offset: 0x1671880
+    // Offset: 0x1676598
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x1671750
+    // Offset: 0x1676468
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

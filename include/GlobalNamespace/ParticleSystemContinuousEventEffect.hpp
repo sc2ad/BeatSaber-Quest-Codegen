@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10FFD20
+    // [InjectAttribute] Offset: 0x11155E4
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -87,23 +87,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x135D608
+    // Offset: 0x1377E88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemContinuousEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemContinuousEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemContinuousEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x135D3F4
+    // Offset: 0x1377C74
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x135D50C
+    // Offset: 0x1377D8C
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x135D528
+    // Offset: 0x1377DA8
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void ToggleEmitting(System.Boolean shouldPlay)
-    // Offset: 0x135D548
+    // Offset: 0x1377DC8
     void ToggleEmitting(bool shouldPlay);
   }; // ParticleSystemContinuousEventEffect
   #pragma pack(pop)

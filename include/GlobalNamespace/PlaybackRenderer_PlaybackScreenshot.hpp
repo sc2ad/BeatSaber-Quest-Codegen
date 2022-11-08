@@ -140,35 +140,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _backgroundColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__backgroundColor();
     // public System.String get_name()
-    // Offset: 0x13684A0
+    // Offset: 0x156DDCC
     ::StringW get_name();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x13684A8
+    // Offset: 0x156DDD4
     ::UnityEngine::RenderTexture* get_texture();
     // public UnityEngine.LayerMask get_layerMask()
-    // Offset: 0x13684B0
+    // Offset: 0x156DDDC
     ::UnityEngine::LayerMask get_layerMask();
     // public PlaybackRenderer/PlaybackScreenshot/Type get_type()
-    // Offset: 0x13684B8
+    // Offset: 0x156DDE4
     ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type get_type();
     // public System.String get_path()
-    // Offset: 0x13684C0
+    // Offset: 0x156DDEC
     ::StringW get_path();
     // public System.Void set_path(System.String value)
-    // Offset: 0x13684C8
+    // Offset: 0x156DDF4
     void set_path(::StringW value);
     // public UnityEngine.Color get_backgroundColor()
-    // Offset: 0x13684D0
+    // Offset: 0x156DDFC
     ::UnityEngine::Color get_backgroundColor();
     // public System.Void .ctor(System.String name, UnityEngine.LayerMask layerMask, PlaybackRenderer/PlaybackScreenshot/Type type, UnityEngine.Color backgroundColor)
-    // Offset: 0x13684DC
+    // Offset: 0x156DE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaybackRenderer::PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type type, ::UnityEngine::Color backgroundColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaybackRenderer::PlaybackScreenshot*, creationType>(name, layerMask, type, backgroundColor)));
     }
     // public System.Void CreateTexture(System.Int32 width, System.Int32 height)
-    // Offset: 0x1367BB4
+    // Offset: 0x156D4E0
     void CreateTexture(int width, int height);
   }; // PlaybackRenderer/PlaybackScreenshot
   #pragma pack(pop)

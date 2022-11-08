@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     ::Tweening::SongTimeTweeningManager* songTimeTweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::SongTimeTweeningManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1105B90
+    // [SpaceAttribute] Offset: 0x111B454
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x30
@@ -102,28 +102,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1105C08
+    // [SpaceAttribute] Offset: 0x111B4CC
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0x1105C40
+    // [InjectAttribute] Offset: 0x111B504
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1105C50
+    // [InjectAttribute] Offset: 0x111B514
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1105C60
+    // [InjectAttribute] Offset: 0x111B524
     // private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     // Size: 0x8
     // Offset: 0x70
@@ -154,14 +154,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x1421AD4
+    // Offset: 0x144C5CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayCoreInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayCoreInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14203F0
+    // Offset: 0x144AEE0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

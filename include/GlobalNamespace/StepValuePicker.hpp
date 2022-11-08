@@ -91,47 +91,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action incButtonWasPressedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_incButtonWasPressedEvent();
     // public System.String get_text()
-    // Offset: 0x14D0494
+    // Offset: 0x1396D50
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x14D04B0
+    // Offset: 0x1396D6C
     void set_text(::StringW value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x14D04CC
+    // Offset: 0x1396D88
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x14D04EC
+    // Offset: 0x1396DA8
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D0204
+    // Offset: 0x1396AC0
     void add_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D02A8
+    // Offset: 0x1396B64
     void remove_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D034C
+    // Offset: 0x1396C08
     void add_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D03F0
+    // Offset: 0x1396CAC
     void remove_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x14D06E4
+    // Offset: 0x1396FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StepValuePicker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StepValuePicker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StepValuePicker*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x14D050C
+    // Offset: 0x1396DC8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14D05E4
+    // Offset: 0x1396EA0
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x14D06BC
+    // Offset: 0x1396F78
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x14D06D0
+    // Offset: 0x1396F8C
     void DecButtonPressed();
   }; // StepValuePicker
   #pragma pack(pop)

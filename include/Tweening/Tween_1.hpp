@@ -76,7 +76,7 @@ namespace Tweening {
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "onUpdate"))->offset;
       return *reinterpret_cast<::System::Action_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
-    // public System.Void .ctor(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
+    // protected System.Void .ctor(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween_1<T>* New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
@@ -97,18 +97,11 @@ namespace Tweening {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tween_1<T>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, t);
     }
-    // private System.Void Init(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
+    // public System.Void Init(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromValue), ::il2cpp_utils::ExtractType(toValue), ::il2cpp_utils::ExtractType(onUpdate), ::il2cpp_utils::ExtractType(duration), ::il2cpp_utils::ExtractType(easeType), ::il2cpp_utils::ExtractType(delay)})));
-      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, fromValue, toValue, onUpdate, duration, easeType, delay);
-    }
-    // public System.Void Reinit(T fromValue, T toValue, System.Action`1<T> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void Reinit(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween_1::Reinit");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromValue), ::il2cpp_utils::ExtractType(toValue), ::il2cpp_utils::ExtractType(onUpdate), ::il2cpp_utils::ExtractType(duration), ::il2cpp_utils::ExtractType(easeType), ::il2cpp_utils::ExtractType(delay)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, fromValue, toValue, onUpdate, duration, easeType, delay);
     }
     // public System.Void ForceOnUpdate()
@@ -142,6 +135,15 @@ namespace Tweening {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween_1::Update");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentTime)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, currentTime);
+    }
+    // public override System.Void Sample(System.Single t)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    // Implemented from: Tweening.Tween
+    // Base method: System.Void Tween::Sample(System.Single t)
+    void Sample(float t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween_1::Sample");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sample", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, t);
     }
   }; // Tweening.Tween`1
   // Could not write size check! Type: Tweening.Tween`1 is generic, or has no fields that are valid for size checks!

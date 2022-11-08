@@ -48,14 +48,14 @@ namespace Zenject::Internal {
     // Get instance field reference: public UnityEngine.SceneManagement.Scene scene
     [[deprecated("Use field access instead!")]] ::UnityEngine::SceneManagement::Scene& dyn_scene();
     // public System.Void .ctor()
-    // Offset: 0x1C3EBF4
+    // Offset: 0x1CAD140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenUtilInternal::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenUtilInternal::$$c__DisplayClass10_0*, creationType>()));
     }
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
-    // Offset: 0x1C3EF0C
+    // Offset: 0x1CAD458
     bool $GetRootGameObjects$b__1(::UnityEngine::GameObject* x);
   }; // Zenject.Internal.ZenUtilInternal/Zenject.Internal.<>c__DisplayClass10_0
   #pragma pack(pop)

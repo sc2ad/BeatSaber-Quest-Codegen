@@ -84,26 +84,26 @@ namespace Ice {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2B2590C
+    // Offset: 0x2B4C620
     int get_lineIndex();
     // public System.Int32 get_currentTileY()
-    // Offset: 0x2B25914
+    // Offset: 0x2B4C628
     int get_currentTileY();
     // public UnityEngine.Color get_color()
-    // Offset: 0x2B2591C
+    // Offset: 0x2B4C630
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2B25840
+    // Offset: 0x2B4C554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightStreakTileEffect::Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightStreakTileEffect::Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightStreakTileEffect::Element*, creationType>()));
     }
     // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
-    // Offset: 0x2B25458
+    // Offset: 0x2B4C16C
     void Setup(::UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x2B252E4
+    // Offset: 0x2B4BFF8
     void ManualUpdate(float deltaTime);
   }; // Ice.FloorLightStreakTileEffect/Ice.Element
   #pragma pack(pop)

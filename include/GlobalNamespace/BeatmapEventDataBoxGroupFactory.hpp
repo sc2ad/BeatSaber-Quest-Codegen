@@ -5,14 +5,16 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+// Including type: DefaultEnvironmentEvents
+#include "GlobalNamespace/DefaultEnvironmentEvents.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: BeatmapEventDataBoxGroup
   class BeatmapEventDataBoxGroup;
-  // Forward declaring type: EnvironmentColorType
-  struct EnvironmentColorType;
+  // Forward declaring type: IndexFilter
+  class IndexFilter;
 }
 // Completed forward declares
 // Type namespace: 
@@ -31,15 +33,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataBoxGroupFactory : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0
+    struct $$c__DisplayClass2_0;
     // static public BeatmapEventDataBoxGroup CreateExtendColorBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x15447C8
+    // Offset: 0x15579D8
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendColorBeatmapEventDataBoxGroup(float beat, int numberOfElements);
     // static public BeatmapEventDataBoxGroup CreateExtendRotationBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x1544990
+    // Offset: 0x1557BA4
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendRotationBeatmapEventDataBoxGroup(float beat, int numberOfElements);
-    // static public BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements, EnvironmentColorType colorType, System.Single brightness, System.Single rotationX, System.Single rotationY)
-    // Offset: 0x1544C7C
-    static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateSingleLightBeatmapEventDataBoxGroup(float beat, int numberOfElements, ::GlobalNamespace::EnvironmentColorType colorType, float brightness, float rotationX, float rotationY);
+    // static public BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements, DefaultEnvironmentEvents/LightGroupEvent lightGroupEvent)
+    // Offset: 0x1557E90
+    static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateSingleLightBeatmapEventDataBoxGroup(float beat, int numberOfElements, ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent* lightGroupEvent);
+    // static IndexFilter <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0(DefaultEnvironmentEvents/LightGroupFiltering filtering, ref BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0 param_00011cc4)
+    // Offset: 0x15586A8
+    static ::GlobalNamespace::IndexFilter* $CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* filtering, ByRef<::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0> param_00011cc4);
   }; // BeatmapEventDataBoxGroupFactory
   #pragma pack(pop)
 }
@@ -67,14 +74,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupFactory::CreateSingleLightBeatmapEventDataBoxGroup
 // Il2CppName: CreateSingleLightBeatmapEventDataBoxGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventDataBoxGroup* (*)(float, int, ::GlobalNamespace::EnvironmentColorType, float, float, float)>(&GlobalNamespace::BeatmapEventDataBoxGroupFactory::CreateSingleLightBeatmapEventDataBoxGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventDataBoxGroup* (*)(float, int, ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent*)>(&GlobalNamespace::BeatmapEventDataBoxGroupFactory::CreateSingleLightBeatmapEventDataBoxGroup)> {
   static const MethodInfo* get() {
     static auto* beat = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "EnvironmentColorType")->byval_arg;
-    static auto* brightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* rotationX = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* rotationY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupFactory*), "CreateSingleLightBeatmapEventDataBoxGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beat, numberOfElements, colorType, brightness, rotationX, rotationY});
+    static auto* lightGroupEvent = &::il2cpp_utils::GetClassFromName("", "DefaultEnvironmentEvents/LightGroupEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupFactory*), "CreateSingleLightBeatmapEventDataBoxGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beat, numberOfElements, lightGroupEvent});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupFactory::$CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0
+// Il2CppName: <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering*, ByRef<::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0>)>(&GlobalNamespace::BeatmapEventDataBoxGroupFactory::$CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0)> {
+  static const MethodInfo* get() {
+    static auto* filtering = &::il2cpp_utils::GetClassFromName("", "DefaultEnvironmentEvents/LightGroupFiltering")->byval_arg;
+    static auto* param_00011cc4 = &::il2cpp_utils::GetClassFromName("", "BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupFactory*), "<CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filtering, param_00011cc4});
   }
 };

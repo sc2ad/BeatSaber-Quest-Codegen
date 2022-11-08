@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Int32 kMaxLightId
-    static constexpr const int kMaxLightId = 250;
+    static constexpr const int kMaxLightId = 500;
     // Get static field: static public System.Int32 kMaxLightId
     static int _get_kMaxLightId();
     // Set static field: static public System.Int32 kMaxLightId
@@ -105,32 +105,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     [[deprecated("Use field access instead!")]] bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1D01C28
+    // Offset: 0x1CC79AC
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1D01CCC
+    // Offset: 0x1CC7A50
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1D02824
+    // Offset: 0x1CC85A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1D01D70
+    // Offset: 0x1CC7AF4
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1D01F78
+    // Offset: 0x1CC7CFC
     void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1D0233C
+    // Offset: 0x1CC80C0
     void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1D02520
+    // Offset: 0x1CC82A4
     void SetColorForId(int lightId, ::UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
-    // Offset: 0x1D02758
+    // Offset: 0x1CC84DC
     ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
   }; // LightWithIdManager
   #pragma pack(pop)

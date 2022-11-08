@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11083A4
+    // [SpaceAttribute] Offset: 0x111DC68
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x48
@@ -116,20 +116,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _positiveColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__positiveColor();
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x14227C4
+    // Offset: 0x144D398
     ::UnityEngine::UI::Toggle* get_toggle();
     // public GameplayModifierParamsSO get_gameplayModifier()
-    // Offset: 0x14227CC
+    // Offset: 0x144D3A0
     ::GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
     // public System.Void .ctor()
-    // Offset: 0x1422B30
+    // Offset: 0x144D704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifierToggle*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14227D4
+    // Offset: 0x144D3A8
     void Start();
   }; // GameplayModifierToggle
   #pragma pack(pop)

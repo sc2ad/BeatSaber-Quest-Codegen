@@ -141,29 +141,29 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Byte[] preBlock
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_preBlock();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Boolean isImplicit)
-    // Offset: 0x16540C4
+    // Offset: 0x1658DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Iso9796d2Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Iso9796d2Signer*, creationType>(cipher, digest, isImplicit)));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16544B0
+    // Offset: 0x16591C8
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void ClearBlock(System.Byte[] block)
-    // Offset: 0x16546B8
+    // Offset: 0x16593D0
     void ClearBlock(::ArrayW<uint8_t> block);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x16546DC
+    // Offset: 0x16593F4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x16547E4
+    // Offset: 0x16594FC
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Reset()
-    // Offset: 0x1654940
+    // Offset: 0x1659658
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1654A30
+    // Offset: 0x1659748
     ::ArrayW<uint8_t> GenerateSignature();
   }; // Org.BouncyCastle.Crypto.Signers.Iso9796d2Signer
   #pragma pack(pop)

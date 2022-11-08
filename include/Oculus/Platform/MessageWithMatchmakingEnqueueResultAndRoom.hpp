@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingEnqueueResultAndRoom : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*> {
     public:
     // protected Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19F93CC
+    // Offset: 0x1A08BCC
     ::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19F2764
+    // Offset: 0x1A01F64
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMatchmakingEnqueueResultAndRoom*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom GetMatchmakingEnqueueResultAndRoom()
-    // Offset: 0x19F9388
+    // Offset: 0x1A08B88
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom Message::GetMatchmakingEnqueueResultAndRoom()
     ::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* GetMatchmakingEnqueueResultAndRoom();

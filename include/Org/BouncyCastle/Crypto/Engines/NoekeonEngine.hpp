@@ -76,38 +76,38 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean _forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn__forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23F0344
+    // Offset: 0x23D9E1C
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23F038C
+    // Offset: 0x23D9E64
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x23F02DC
+    // Offset: 0x23D9DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoekeonEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::NoekeonEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoekeonEngine*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23F0DAC
+    // Offset: 0x23DA884
     static void _cctor();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x23F0394
+    // Offset: 0x23D9E6C
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23F039C
+    // Offset: 0x23D9E74
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23F0644
+    // Offset: 0x23DA11C
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23F0DA8
+    // Offset: 0x23DA880
     void Reset();
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23F0AB0
+    // Offset: 0x23DA588
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23F078C
+    // Offset: 0x23DA264
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.NoekeonEngine
   #pragma pack(pop)

@@ -96,19 +96,19 @@ namespace System::Globalization {
     // Get instance field reference: System.String m_failureArgumentName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_failureArgumentName();
     // System.Void Init(System.Globalization.TimeSpanParse/System.Globalization.TimeSpanThrowStyle canThrow)
-    // Offset: 0x21B8B60
+    // Offset: 0x21B85FC
     void Init(::System::Globalization::TimeSpanParse::TimeSpanThrowStyle canThrow);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID)
-    // Offset: 0x21B8F88
+    // Offset: 0x21B8A24
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x21BCFF8
+    // Offset: 0x21BCA94
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Globalization.TimeSpanParse/System.Globalization.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x21B8EFC
+    // Offset: 0x21B8998
     void SetFailure(::System::Globalization::TimeSpanParse::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
     // System.Exception GetTimeSpanParseException()
-    // Offset: 0x21B8D58
+    // Offset: 0x21B87F4
     ::System::Exception* GetTimeSpanParseException();
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult
   #pragma pack(pop)

@@ -41,19 +41,19 @@ namespace Mono::Math::Prime::Generator {
   class PrimeGeneratorBase_ : public ::Il2CppObject {
     public:
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x1FB3398
+    // Offset: 0x1FE34E4
     ::Mono::Math::Prime::ConfidenceFactor_ get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x1FB33A0
+    // Offset: 0x1FE34EC
     ::Mono::Math::Prime::PrimalityTest_* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x1FB3414
+    // Offset: 0x1FE3560
     int get_TrialDivisionBounds();
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Mono::Math::BigInteger_* GenerateNewPrime(int bits);
     // protected System.Void .ctor()
-    // Offset: 0x1FB341C
+    // Offset: 0x1FE3568
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

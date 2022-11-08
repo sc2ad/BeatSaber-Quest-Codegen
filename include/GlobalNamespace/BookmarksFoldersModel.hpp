@@ -60,10 +60,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
-    // Offset: 0x138674C
+    // Offset: 0x13DA280
     ::ArrayW<::GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
     // public System.Void .ctor()
-    // Offset: 0x1386B24
+    // Offset: 0x13DA658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BookmarksFoldersModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BookmarksFoldersModel::.ctor");

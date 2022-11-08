@@ -37,31 +37,31 @@ namespace System::Net {
   class ProtocolViolationException : public ::System::InvalidOperationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BA5000
+    // Offset: 0x1BADEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1BA5008
+    // Offset: 0x1BADED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1BA5010
+    // Offset: 0x1BADED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProtocolViolationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ProtocolViolationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProtocolViolationException*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1BA5018
+    // Offset: 0x1BADEE0
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1BA5020
+    // Offset: 0x1BADEE8
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);

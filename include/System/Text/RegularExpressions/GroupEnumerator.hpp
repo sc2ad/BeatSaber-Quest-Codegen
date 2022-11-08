@@ -64,23 +64,23 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _curindex
     [[deprecated("Use field access instead!")]] int& dyn__curindex();
     // public System.Object get_Current()
-    // Offset: 0x1C29DA8
+    // Offset: 0x1C982F4
     ::Il2CppObject* get_Current();
     // public System.Text.RegularExpressions.Capture get_Capture()
-    // Offset: 0x1C29DAC
+    // Offset: 0x1C982F8
     ::System::Text::RegularExpressions::Capture* get_Capture();
     // System.Void .ctor(System.Text.RegularExpressions.GroupCollection rgc)
-    // Offset: 0x1C29CE4
+    // Offset: 0x1C98230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupEnumerator* New_ctor(::System::Text::RegularExpressions::GroupCollection* rgc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::GroupEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupEnumerator*, creationType>(rgc)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1C29D58
+    // Offset: 0x1C982A4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C29E68
+    // Offset: 0x1C983B4
     void Reset();
   }; // System.Text.RegularExpressions.GroupEnumerator
   #pragma pack(pop)

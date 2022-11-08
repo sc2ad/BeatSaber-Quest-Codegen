@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public ColorScheme get_colorScheme()
-    // Offset: 0x2B4BF60
+    // Offset: 0x2B74A24
     ::GlobalNamespace::ColorScheme* get_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x2B4BF68
+    // Offset: 0x2B74A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeSO::.ctor");

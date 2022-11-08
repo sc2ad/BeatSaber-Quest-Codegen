@@ -23,6 +23,12 @@ namespace GlobalNamespace {
   // Forward declaring type: BakedLightsNormalizer
   class BakedLightsNormalizer;
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
+  class IEnumerable_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -201,37 +207,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _calculatedColorPreNormalization
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__calculatedColorPreNormalization();
     // public System.Single get_intensity()
-    // Offset: 0x1D031CC
+    // Offset: 0x1CC8EF4
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1D031D4
+    // Offset: 0x1CC8EFC
     void set_intensity(float value);
     // public System.Single get_normalizerWeight()
-    // Offset: 0x1D031DC
+    // Offset: 0x1CC8F04
     float get_normalizerWeight();
     // public System.Void set_normalizerWeight(System.Single value)
-    // Offset: 0x1D031E4
+    // Offset: 0x1CC8F0C
     void set_normalizerWeight(float value);
     // public UnityEngine.Color get_calculatedColorPreNormalization()
-    // Offset: 0x1D031EC
+    // Offset: 0x1CC8F14
     ::UnityEngine::Color get_calculatedColorPreNormalization();
     // public LightConstants/BakeId get_bakeId()
-    // Offset: 0x1D031F8
+    // Offset: 0x1CC8F20
     ::GlobalNamespace::LightConstants::BakeId get_bakeId();
-    // protected System.Void Awake()
-    // Offset: 0x1D03200
-    void Awake();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1D03424
+    // Offset: 0x1CC913C
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // private System.Void SetShaderProperties()
-    // Offset: 0x1D03354
+    // Offset: 0x1CC906C
     void SetShaderProperties();
     // private System.Void GetBakedLightsNormalizer()
-    // Offset: 0x1D032C4
+    // Offset: 0x1CC8FDC
     void GetBakedLightsNormalizer();
     // public System.Void .ctor()
-    // Offset: 0x1D0388C
+    // Offset: 0x1CC95AC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -239,11 +242,21 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
+    // protected override System.Void Awake()
+    // Offset: 0x1CC8F28
+    // Implemented from: LightWithIds
+    // Base method: System.Void LightWithIds::Awake()
+    void Awake();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1D03484
+    // Offset: 0x1CC919C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
+    // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
+    // Offset: 0x1CC95A4
+    // Implemented from: LightWithIds
+    // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();
   }; // LightmapLightWithIds
   #pragma pack(pop)
   static check_size<sizeof(LightmapLightWithIds), 92 + sizeof(::UnityEngine::Color)> __GlobalNamespace_LightmapLightWithIdsSizeCheck;
@@ -302,14 +315,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "get_bakeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::Awake
-// Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::Awake)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::SetDataToShaders
 // Il2CppName: SetDataToShaders
 template<>
@@ -340,11 +345,27 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::Awake)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::ProcessNewColorData
 // Il2CppName: ProcessNewColorData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::ProcessNewColorData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "ProcessNewColorData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIds::GetLightWithIds
+// Il2CppName: GetLightWithIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* (GlobalNamespace::LightmapLightWithIds::*)()>(&GlobalNamespace::LightmapLightWithIds::GetLightWithIds)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds*), "GetLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

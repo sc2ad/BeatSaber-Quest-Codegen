@@ -228,20 +228,20 @@ namespace Zenject {
     // Get instance field reference: public System.Action`2<Zenject.InjectContext,System.Object> InstantiatedCallback
     [[deprecated("Use field access instead!")]] ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn_InstantiatedCallback();
     // public System.Void .ctor()
-    // Offset: 0x17793E0
+    // Offset: 0x17AF288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindInfo*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x1779558
+    // Offset: 0x17AF400
     void Dispose();
     // public System.Void SetContextInfo(System.String contextInfo)
-    // Offset: 0x17795C0
+    // Offset: 0x17AF468
     void SetContextInfo(::StringW contextInfo);
     // public System.Void Reset()
-    // Offset: 0x17794A0
+    // Offset: 0x17AF348
     void Reset();
   }; // Zenject.BindInfo
   #pragma pack(pop)

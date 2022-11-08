@@ -63,29 +63,29 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
     static void _set_$$9__7_2(::System::Func_2<::StringW, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1962BCC
+    // Offset: 0x19964D8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1962C30
+    // Offset: 0x199653C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter::$$c*, creationType>()));
     }
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x1962C38
+    // Offset: 0x1996544
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x1962C9C
+    // Offset: 0x19965A8
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x1962D00
+    // Offset: 0x199660C
     ::NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::StringW s);
     // System.Boolean <AddFilters>b__7_0(System.String v)
-    // Offset: 0x1962D74
+    // Offset: 0x1996680
     bool $AddFilters$b__7_0(::StringW v);
     // System.Boolean <AddFilters>b__7_2(System.String v)
-    // Offset: 0x1962DDC
+    // Offset: 0x19966E8
     bool $AddFilters$b__7_2(::StringW v);
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
   #pragma pack(pop)

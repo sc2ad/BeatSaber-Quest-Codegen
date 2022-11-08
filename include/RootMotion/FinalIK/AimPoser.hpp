@@ -63,17 +63,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose[] poses
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::AimPoser::Pose*>& dyn_poses();
     // public System.Void .ctor()
-    // Offset: 0x22B5600
+    // Offset: 0x2307364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimPoser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimPoser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimPoser*, creationType>()));
     }
     // public RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose GetPose(UnityEngine.Vector3 localDirection)
-    // Offset: 0x22B5220
+    // Offset: 0x2306F84
     ::RootMotion::FinalIK::AimPoser::Pose* GetPose(::UnityEngine::Vector3 localDirection);
     // public System.Void SetPoseActive(RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose pose)
-    // Offset: 0x22B5594
+    // Offset: 0x23072F8
     void SetPoseActive(::RootMotion::FinalIK::AimPoser::Pose* pose);
   }; // RootMotion.FinalIK.AimPoser
   #pragma pack(pop)

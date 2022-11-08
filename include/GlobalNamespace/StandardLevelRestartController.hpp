@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1101C64
+    // [InjectAttribute] Offset: 0x1117528
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x14CE0C0
+    // Offset: 0x139484C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelRestartController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelRestartController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelRestartController*, creationType>()));
     }
     // public System.Void RestartLevel()
-    // Offset: 0x14CE078
+    // Offset: 0x139478C
     void RestartLevel();
   }; // StandardLevelRestartController
   #pragma pack(pop)

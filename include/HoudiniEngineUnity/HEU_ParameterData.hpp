@@ -263,95 +263,95 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasAssetPathTag
     [[deprecated("Use field access instead!")]] bool& dyn__hasAssetPathTag();
     // public System.Int32 get_ParmID()
-    // Offset: 0x1AE72A4
+    // Offset: 0x1B06030
     int get_ParmID();
     // public System.Int32 get_ParentID()
-    // Offset: 0x1AE72AC
+    // Offset: 0x1B06038
     int get_ParentID();
     // public System.Int32 get_ChildIndex()
-    // Offset: 0x1AE72B4
+    // Offset: 0x1B06040
     int get_ChildIndex();
     // public System.Int32 get_ParmSize()
-    // Offset: 0x1AE72BC
+    // Offset: 0x1B06048
     int get_ParmSize();
     // public System.Int32 get_IntMin()
-    // Offset: 0x1AE7328
+    // Offset: 0x1B060B4
     int get_IntMin();
     // public System.Int32 get_IntMax()
-    // Offset: 0x1AE739C
+    // Offset: 0x1B06128
     int get_IntMax();
     // public System.Int32 get_IntUIMin()
-    // Offset: 0x1AE7410
+    // Offset: 0x1B0619C
     int get_IntUIMin();
     // public System.Int32 get_IntUIMax()
-    // Offset: 0x1AE7484
+    // Offset: 0x1B06210
     int get_IntUIMax();
     // public System.Single get_FloatMin()
-    // Offset: 0x1AE74F8
+    // Offset: 0x1B06284
     float get_FloatMin();
     // public System.Single get_FloatMax()
-    // Offset: 0x1AE7500
+    // Offset: 0x1B0628C
     float get_FloatMax();
     // public System.Single get_FloatUIMin()
-    // Offset: 0x1AE7508
+    // Offset: 0x1B06294
     float get_FloatUIMin();
     // public System.Single get_FloatUIMax()
-    // Offset: 0x1AE7510
+    // Offset: 0x1B0629C
     float get_FloatUIMax();
     // public System.Void .ctor()
-    // Offset: 0x1AE7C18
+    // Offset: 0x1B069A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ParameterData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ParameterData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ParameterData*, creationType>()));
     }
     // public System.Boolean IsInt()
-    // Offset: 0x1AE72C4
+    // Offset: 0x1B06050
     bool IsInt();
     // public System.Boolean IsFloat()
-    // Offset: 0x1AE72D4
+    // Offset: 0x1B06060
     bool IsFloat();
     // public System.Boolean IsString()
-    // Offset: 0x1AE72E4
+    // Offset: 0x1B06070
     bool IsString();
     // public System.Boolean IsPathFile()
-    // Offset: 0x1AE72F4
+    // Offset: 0x1B06080
     bool IsPathFile();
     // public System.Boolean HasMin()
-    // Offset: 0x1AE7308
+    // Offset: 0x1B06094
     bool HasMin();
     // public System.Boolean HasMax()
-    // Offset: 0x1AE7310
+    // Offset: 0x1B0609C
     bool HasMax();
     // public System.Boolean HasUIMin()
-    // Offset: 0x1AE7318
+    // Offset: 0x1B060A4
     bool HasUIMin();
     // public System.Boolean HasUIMax()
-    // Offset: 0x1AE7320
+    // Offset: 0x1B060AC
     bool HasUIMax();
     // public System.Boolean IsContainer()
-    // Offset: 0x1AE7518
+    // Offset: 0x1B062A4
     bool IsContainer();
     // public System.Boolean IsMultiParam()
-    // Offset: 0x1AE7574
+    // Offset: 0x1B06300
     bool IsMultiParam();
     // public System.Boolean IsRamp()
-    // Offset: 0x1AE7584
+    // Offset: 0x1B06310
     bool IsRamp();
     // public System.Boolean IsToggle()
-    // Offset: 0x1AE7594
+    // Offset: 0x1B06320
     bool IsToggle();
     // public System.Boolean IsColor()
-    // Offset: 0x1AE75A4
+    // Offset: 0x1B06330
     bool IsColor();
     // public UnityEngine.Vector3 ToVector3()
-    // Offset: 0x1AE75B4
+    // Offset: 0x1B06340
     ::UnityEngine::Vector3 ToVector3();
     // public System.Boolean IsAssetPath()
-    // Offset: 0x1AE7678
+    // Offset: 0x1B06404
     bool IsAssetPath();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
-    // Offset: 0x1AE7680
+    // Offset: 0x1B0640C
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
   }; // HoudiniEngineUnity.HEU_ParameterData
   #pragma pack(pop)

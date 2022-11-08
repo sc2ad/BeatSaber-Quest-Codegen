@@ -58,14 +58,14 @@ namespace GlobalNamespace {
   class PlayerHeadAndObstacleInteraction : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x11042D8
+    // [InjectAttribute] Offset: 0x1119B9C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x11042E8
+    // [InjectAttribute] Offset: 0x1119BAC
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -122,32 +122,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevFrameNumberOfIntersectingObstaclesCount
     [[deprecated("Use field access instead!")]] int& dyn__prevFrameNumberOfIntersectingObstaclesCount();
     // public System.Boolean get_playerHeadIsInObstacle()
-    // Offset: 0x14D8490
+    // Offset: 0x1574058
     bool get_playerHeadIsInObstacle();
     // public System.Void add_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x14D8200
+    // Offset: 0x1573DC8
     void add_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void remove_headDidEnterObstaclesEvent(System.Action value)
-    // Offset: 0x14D82A4
+    // Offset: 0x1573E6C
     void remove_headDidEnterObstaclesEvent(::System::Action* value);
     // public System.Void add_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D8348
+    // Offset: 0x1573F10
     void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_headDidEnterObstacleEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x14D83EC
+    // Offset: 0x1573FB4
     void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14D8814
+    // Offset: 0x15743DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeadAndObstacleInteraction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeadAndObstacleInteraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeadAndObstacleInteraction*, creationType>()));
     }
     // private System.Void RefreshIntersectingObstacles(UnityEngine.Vector3 worldPos)
-    // Offset: 0x14D84E8
+    // Offset: 0x15740B0
     void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
     // protected System.Void Update()
-    // Offset: 0x14D8788
+    // Offset: 0x1574350
     void Update();
   }; // PlayerHeadAndObstacleInteraction
   #pragma pack(pop)

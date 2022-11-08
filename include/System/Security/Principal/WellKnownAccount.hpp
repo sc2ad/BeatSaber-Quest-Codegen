@@ -31,14 +31,14 @@ namespace System::Security::Principal {
   class WellKnownAccount : public ::Il2CppObject {
     public:
     public:
-    // [CompilerGeneratedAttribute] Offset: 0x105D6C8
+    // [CompilerGeneratedAttribute] Offset: 0x1072B88
     // private System.Security.Principal.WellKnownSidType <WellKnownValue>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     ::System::Security::Principal::WellKnownSidType WellKnownValue;
     // Field size check
     static_assert(sizeof(::System::Security::Principal::WellKnownSidType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0x105D6D8
+    // [CompilerGeneratedAttribute] Offset: 0x1072B98
     // private System.Boolean <IsAbsolute>k__BackingField
     // Size: 0x1
     // Offset: 0x14
@@ -47,28 +47,28 @@ namespace System::Security::Principal {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: IsAbsolute and: Sid
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0x105D6E8
+    // [CompilerGeneratedAttribute] Offset: 0x1072BA8
     // private System.String <Sid>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW Sid;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x105D6F8
+    // [CompilerGeneratedAttribute] Offset: 0x1072BB8
     // private System.String <Rid>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::StringW Rid;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x105D708
+    // [CompilerGeneratedAttribute] Offset: 0x1072BC8
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::StringW Name;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x105D718
+    // [CompilerGeneratedAttribute] Offset: 0x1072BD8
     // private System.String <SddlForm>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -93,49 +93,49 @@ namespace System::Security::Principal {
     // Get instance field reference: private System.String <SddlForm>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$SddlForm$k__BackingField();
     // public System.Void set_WellKnownValue(System.Security.Principal.WellKnownSidType value)
-    // Offset: 0x1BC1118
+    // Offset: 0x1BDF108
     void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value);
     // public System.Boolean get_IsAbsolute()
-    // Offset: 0x1BC1120
+    // Offset: 0x1BDF110
     bool get_IsAbsolute();
     // public System.Void set_IsAbsolute(System.Boolean value)
-    // Offset: 0x1BC1128
+    // Offset: 0x1BDF118
     void set_IsAbsolute(bool value);
     // public System.String get_Sid()
-    // Offset: 0x1BC1134
+    // Offset: 0x1BDF124
     ::StringW get_Sid();
     // public System.Void set_Sid(System.String value)
-    // Offset: 0x1BC113C
+    // Offset: 0x1BDF12C
     void set_Sid(::StringW value);
     // public System.Void set_Rid(System.String value)
-    // Offset: 0x1BC1144
+    // Offset: 0x1BDF134
     void set_Rid(::StringW value);
     // public System.String get_Name()
-    // Offset: 0x1BC114C
+    // Offset: 0x1BDF13C
     ::StringW get_Name();
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1BC1154
+    // Offset: 0x1BDF144
     void set_Name(::StringW value);
     // public System.String get_SddlForm()
-    // Offset: 0x1BC115C
+    // Offset: 0x1BDF14C
     ::StringW get_SddlForm();
     // public System.Void set_SddlForm(System.String value)
-    // Offset: 0x1BC1164
+    // Offset: 0x1BDF154
     void set_SddlForm(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x1BC1174
+    // Offset: 0x1BDF164
     static void _cctor();
     // static public System.Security.Principal.WellKnownAccount LookupBySid(System.String s)
-    // Offset: 0x1BC0BE8
+    // Offset: 0x1BDEBD8
     static ::System::Security::Principal::WellKnownAccount* LookupBySid(::StringW s);
     // static public System.Security.Principal.WellKnownAccount LookupByName(System.String s)
-    // Offset: 0x1BBF998
+    // Offset: 0x1BDD988
     static ::System::Security::Principal::WellKnownAccount* LookupByName(::StringW s);
     // static public System.Security.Principal.WellKnownAccount LookupBySddlForm(System.String s)
-    // Offset: 0x1BC0CBC
+    // Offset: 0x1BDECAC
     static ::System::Security::Principal::WellKnownAccount* LookupBySddlForm(::StringW s);
     // public System.Void .ctor()
-    // Offset: 0x1BC116C
+    // Offset: 0x1BDF15C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -52,20 +52,20 @@ namespace Zenject {
     // Get instance field reference: public System.Type attribute
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_attribute();
     // public System.Void .ctor()
-    // Offset: 0x17811C8
+    // Offset: 0x17B7070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionFilterTypesBinder::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionFilterTypesBinder::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Boolean <WithoutAttribute>b__0(System.Type t)
-    // Offset: 0x178287C
+    // Offset: 0x17B8724
     bool $WithoutAttribute$b__0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x178295C
+    // Offset: 0x17B8804
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17829B8
+    // Offset: 0x17B8860
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionFilterTypesBinder/Zenject.<>c__DisplayClass8_0
   #pragma pack(pop)

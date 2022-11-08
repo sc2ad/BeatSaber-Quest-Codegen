@@ -169,83 +169,83 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.String <NUnitExceptionMessage>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$NUnitExceptionMessage$k__BackingField();
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
-    // Offset: 0x195DEB4
+    // Offset: 0x19917C0
     ::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();
     // public System.Void set_ExpectedLogs(System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> value)
-    // Offset: 0x195DEBC
+    // Offset: 0x19917C8
     void set_ExpectedLogs(::System::Collections::Generic::Queue_1<::UnityEngine::TestTools::Logging::LogMatch*>* value);
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_AllLogs()
-    // Offset: 0x195DEC4
+    // Offset: 0x19917D0
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>* get_AllLogs();
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Logging.LogEvent> get_FailingLogs()
-    // Offset: 0x195DECC
+    // Offset: 0x19917D8
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Logging::LogEvent*>* get_FailingLogs();
     // public System.Boolean get_IgnoreFailingMessages()
-    // Offset: 0x195DED4
+    // Offset: 0x19917E0
     bool get_IgnoreFailingMessages();
     // public System.Void set_IgnoreFailingMessages(System.Boolean value)
-    // Offset: 0x195DEDC
+    // Offset: 0x19917E8
     void set_IgnoreFailingMessages(bool value);
     // private System.Void set_IsNUnitException(System.Boolean value)
-    // Offset: 0x195DEE8
+    // Offset: 0x19917F4
     void set_IsNUnitException(bool value);
     // private System.Void set_IsNUnitSuccessException(System.Boolean value)
-    // Offset: 0x195DEF4
+    // Offset: 0x1991800
     void set_IsNUnitSuccessException(bool value);
     // private System.Void set_IsNUnitInconclusiveException(System.Boolean value)
-    // Offset: 0x195DF00
+    // Offset: 0x199180C
     void set_IsNUnitInconclusiveException(bool value);
     // private System.Void set_IsNUnitIgnoreException(System.Boolean value)
-    // Offset: 0x195DF0C
+    // Offset: 0x1991818
     void set_IsNUnitIgnoreException(bool value);
     // private System.Void set_NUnitExceptionMessage(System.String value)
-    // Offset: 0x195DF18
+    // Offset: 0x1991824
     void set_NUnitExceptionMessage(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x194CE18
+    // Offset: 0x1980724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogScope* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogScope::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogScope*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x195EAEC
+    // Offset: 0x19923F8
     static void _cctor();
     // private System.Void Activate()
-    // Offset: 0x195DF20
+    // Offset: 0x199182C
     void Activate();
     // private System.Void Deactivate()
-    // Offset: 0x195E094
+    // Offset: 0x19919A0
     void Deactivate();
     // static private System.Void RegisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x195E01C
+    // Offset: 0x1991928
     static void RegisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
     // static private System.Void UnregisterScope(UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x195E158
+    // Offset: 0x1991A64
     static void UnregisterScope(::UnityEngine::TestTools::Logging::LogScope* logScope);
     // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
-    // Offset: 0x195E1D0
+    // Offset: 0x1991ADC
     void AddLog(::StringW message, ::StringW stacktrace, ::UnityEngine::LogType type);
     // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
-    // Offset: 0x195E4FC
+    // Offset: 0x1991E08
     static bool IsNUnitResultStateException(::StringW stacktrace, ::UnityEngine::LogType logType);
     // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
-    // Offset: 0x195E598
+    // Offset: 0x1991EA4
     static bool IsFailingLog(::UnityEngine::LogType type);
     // public System.Void Dispose()
-    // Offset: 0x194CF54
+    // Offset: 0x1980860
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x195E5B4
+    // Offset: 0x1991EC0
     void Dispose(bool disposing);
     // public System.Boolean AnyFailingLogs()
-    // Offset: 0x194CEFC
+    // Offset: 0x1980808
     bool AnyFailingLogs();
     // public System.Void ProcessExpectedLogs()
-    // Offset: 0x195E5D0
+    // Offset: 0x1991EDC
     void ProcessExpectedLogs();
     // public System.Void NoUnexpectedReceived()
-    // Offset: 0x195E940
+    // Offset: 0x199224C
     void NoUnexpectedReceived();
   }; // UnityEngine.TestTools.Logging.LogScope
   #pragma pack(pop)

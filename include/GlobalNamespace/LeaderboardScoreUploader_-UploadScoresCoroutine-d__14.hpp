@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public LeaderboardScoreUploader <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13B548C
+    // Offset: 0x13F1E18
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13B54F4
+    // Offset: 0x13F1E80
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13B4864
+    // Offset: 0x13F11F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::$UploadScoresCoroutine$d__14* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::$UploadScoresCoroutine$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13B4EE8
+    // Offset: 0x13F1874
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13B4EEC
+    // Offset: 0x13F1878
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13B5494
+    // Offset: 0x13F1E20
     void System_Collections_IEnumerator_Reset();
   }; // LeaderboardScoreUploader/<UploadScoresCoroutine>d__14
   #pragma pack(pop)

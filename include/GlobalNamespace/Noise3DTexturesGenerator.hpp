@@ -144,20 +144,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private Noise3DTexturesGenerator/MaterialTextureParamsCouple[] _data
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple>& dyn__data();
     // public System.Void .ctor()
-    // Offset: 0x2A98BD0
+    // Offset: 0x2AC8F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Noise3DTexturesGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Noise3DTexturesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Noise3DTexturesGenerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A98BD8
+    // Offset: 0x2AC8F14
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x2A986C8
+    // Offset: 0x2AC8A04
     void Awake();
     // static private UnityEngine.Color32[] CreateNoisePixels(System.Int32 width, System.Int32 height, System.Int32 depth, System.Single scale, System.Int32 repeat, System.Single contrast)
-    // Offset: 0x2A98944
+    // Offset: 0x2AC8C80
     static ::ArrayW<::UnityEngine::Color32> CreateNoisePixels(int width, int height, int depth, float scale, int repeat, float contrast);
   }; // Noise3DTexturesGenerator
   #pragma pack(pop)

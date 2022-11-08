@@ -44,14 +44,14 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Get instance field reference: private readonly System.DateTime dt
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_dt();
     // public System.Void .ctor(System.DateTime dt)
-    // Offset: 0x2651E14
+    // Offset: 0x2676EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeObject* New_ctor(::System::DateTime dt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Date::DateTimeObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeObject*, creationType>(dt)));
     }
     // public override System.String ToString()
-    // Offset: 0x2651E40
+    // Offset: 0x2676ED4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class HeadObstacleLowPassAudioEffect : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10FF468
+    // [InjectAttribute] Offset: 0x1114AE0
     // private PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerHeadAndObstacleInteraction* playerHeadAndObstacleInteraction;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerHeadAndObstacleInteraction*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF478
+    // [InjectAttribute] Offset: 0x1114AF0
     // private MainAudioEffects _mainAudioEffects
     // Size: 0x8
     // Offset: 0x20
@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _headWasInObstacle
     [[deprecated("Use field access instead!")]] bool& dyn__headWasInObstacle();
     // public System.Void .ctor()
-    // Offset: 0x13AD878
+    // Offset: 0x13EA1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeadObstacleLowPassAudioEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HeadObstacleLowPassAudioEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeadObstacleLowPassAudioEffect*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x13AD80C
+    // Offset: 0x13EA174
     void Update();
   }; // HeadObstacleLowPassAudioEffect
   #pragma pack(pop)

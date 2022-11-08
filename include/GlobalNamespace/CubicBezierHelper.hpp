@@ -33,22 +33,22 @@ namespace GlobalNamespace {
   class CubicBezierHelper : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector3 EvaluateCurve(in UnityEngine.Vector3 a1, in UnityEngine.Vector3 c1, in UnityEngine.Vector3 c2, in UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x15C5A30
+    // Offset: 0x15ECE38
     static ::UnityEngine::Vector3 EvaluateCurve(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveDerivative(in UnityEngine.Vector3 a1, in UnityEngine.Vector3 c1, in UnityEngine.Vector3 c2, in UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x15C5BC4
+    // Offset: 0x15ECFCC
     static ::UnityEngine::Vector3 EvaluateCurveDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveSecondDerivative(in UnityEngine.Vector3 a1, in UnityEngine.Vector3 c1, in UnityEngine.Vector3 c2, in UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x15C5DA8
+    // Offset: 0x15ED1B0
     static ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float t);
     // static public UnityEngine.Vector3 Normal(in UnityEngine.Vector3 a1, in UnityEngine.Vector3 c1, in UnityEngine.Vector3 c2, in UnityEngine.Vector3 a2, System.Single t)
-    // Offset: 0x15C5F6C
+    // Offset: 0x15ED374
     static ::UnityEngine::Vector3 Normal(ByRef<::UnityEngine::Vector3> a1, ByRef<::UnityEngine::Vector3> c1, ByRef<::UnityEngine::Vector3> c2, ByRef<::UnityEngine::Vector3> a2, float t);
     // static public System.Void SplitCurve(System.Collections.Generic.List`1<UnityEngine.Vector3> points, System.Single t)
-    // Offset: 0x15C60A4
+    // Offset: 0x15ED4AC
     static void SplitCurve(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, float t);
     // static public System.Single EstimateCurveLength(in UnityEngine.Vector3 p0, in UnityEngine.Vector3 p1, in UnityEngine.Vector3 p2, in UnityEngine.Vector3 p3)
-    // Offset: 0x15C63A0
+    // Offset: 0x15ED7A8
     static float EstimateCurveLength(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3);
   }; // CubicBezierHelper
   #pragma pack(pop)

@@ -139,37 +139,37 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean hasChanged
     [[deprecated("Use field access instead!")]] bool& dyn_hasChanged();
     // public System.Int32 get_pointAttributeCount()
-    // Offset: 0x16EF620
+    // Offset: 0x1713F3C
     int get_pointAttributeCount();
     // public System.Void set_pointAttributeCount(System.Int32 value)
-    // Offset: 0x16F1218
+    // Offset: 0x1715B34
     void set_pointAttributeCount(int value);
     // public System.Int32 get_primitiveAttributeCount()
-    // Offset: 0x16EF5D8
+    // Offset: 0x1713EF4
     int get_primitiveAttributeCount();
     // public System.Void set_primitiveAttributeCount(System.Int32 value)
-    // Offset: 0x16F1264
+    // Offset: 0x1715B80
     void set_primitiveAttributeCount(int value);
     // public System.Int32 get_vertexAttributeCount()
-    // Offset: 0x16EF668
+    // Offset: 0x1713F84
     int get_vertexAttributeCount();
     // public System.Void set_vertexAttributeCount(System.Int32 value)
-    // Offset: 0x16F12B0
+    // Offset: 0x1715BCC
     void set_vertexAttributeCount(int value);
     // public System.Int32 get_detailAttributeCount()
-    // Offset: 0x16EF324
+    // Offset: 0x1713C40
     int get_detailAttributeCount();
     // public System.Void set_detailAttributeCount(System.Int32 value)
-    // Offset: 0x16F12F8
+    // Offset: 0x1715C14
     void set_detailAttributeCount(int value);
     // public System.Int32 getElementCountByAttributeOwner(HoudiniEngineUnity.HAPI_AttributeOwner owner)
-    // Offset: 0x16F1148
+    // Offset: 0x1715A64
     int getElementCountByAttributeOwner(::HoudiniEngineUnity::HAPI_AttributeOwner owner);
     // public System.Int32 getElementCountByGroupType(HoudiniEngineUnity.HAPI_GroupType type)
-    // Offset: 0x16F1190
+    // Offset: 0x1715AAC
     int getElementCountByGroupType(::HoudiniEngineUnity::HAPI_GroupType type);
     // public System.Void init()
-    // Offset: 0x16F11B8
+    // Offset: 0x1715AD4
     void init();
   }; // HoudiniEngineUnity.HAPI_PartInfo
   #pragma pack(pop)

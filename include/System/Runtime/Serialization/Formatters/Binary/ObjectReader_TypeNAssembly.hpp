@@ -50,7 +50,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: public System.String assemblyName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_assemblyName();
     // public System.Void .ctor()
-    // Offset: 0x18D4248
+    // Offset: 0x18F79FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

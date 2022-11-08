@@ -68,27 +68,27 @@ namespace System::Xml::Schema {
     // Get instance field reference: protected System.Object particle
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Xml.Schema.NamespaceList namespaceList, System.Object particle)
-    // Offset: 0x1C8AE10
+    // Offset: 0x1D0C890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::Il2CppObject* particle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceListNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceListNode*, creationType>(namespaceList, particle)));
     }
     // public System.Collections.ICollection GetResolvedSymbols(System.Xml.Schema.SymbolsDictionary symbols)
-    // Offset: 0x1C8AE48
+    // Offset: 0x1D0C8C8
     ::System::Collections::ICollection* GetResolvedSymbols(::System::Xml::Schema::SymbolsDictionary* symbols);
     // public override System.Boolean get_IsNullable()
-    // Offset: 0x1C8BA28
+    // Offset: 0x1D0D4A8
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Boolean SyntaxTreeNode::get_IsNullable()
     bool get_IsNullable();
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1C8B554
+    // Offset: 0x1D0CFD4
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public override System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
-    // Offset: 0x1C8B9C8
+    // Offset: 0x1D0D448
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);

@@ -45,10 +45,10 @@ namespace GlobalNamespace {
   class EnvironmentEffectsFilterPresetDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<EnvironmentEffectsFilterPreset,System.String>> GetNamedValues()
-    // Offset: 0x1395FB4
+    // Offset: 0x13808E4
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x1396098
+    // Offset: 0x13809C8
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -85,14 +85,14 @@ namespace Mono::Net {
     // Get instance field reference: public System.Threading.ManualResetEvent evt
     [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_evt();
     // public System.Void .ctor()
-    // Offset: 0x1ACD8B8
+    // Offset: 0x1AEC644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFNetwork::GetProxyData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFNetwork::GetProxyData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFNetwork::GetProxyData*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x1ACFA80
+    // Offset: 0x1AEE80C
     void Dispose();
   }; // Mono.Net.CFNetwork/Mono.Net.GetProxyData
   #pragma pack(pop)

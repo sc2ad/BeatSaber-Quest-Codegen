@@ -46,28 +46,28 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Get instance field reference: private System.String val
     [[deprecated("Use field access instead!")]] ::StringW& dyn_val();
     // public System.String get_Name()
-    // Offset: 0x26539A4
+    // Offset: 0x2678A38
     ::StringW get_Name();
     // public System.String get_Value()
-    // Offset: 0x26539AC
+    // Offset: 0x2678A40
     ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String val)
-    // Offset: 0x265396C
+    // Offset: 0x2678A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemHeader* New_ctor(::StringW name, ::StringW val) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)
-    // Offset: 0x2653A10
+    // Offset: 0x2678AA4
     int GetHashCode(::StringW s);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x26539B4
+    // Offset: 0x2678A48
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2653A28
+    // Offset: 0x2678ABC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

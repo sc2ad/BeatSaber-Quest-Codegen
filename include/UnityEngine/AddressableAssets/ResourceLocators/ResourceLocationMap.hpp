@@ -85,42 +85,42 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> <Locations>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*& dyn_$Locations$k__BackingField();
     // public System.String get_LocatorId()
-    // Offset: 0x18B8414
+    // Offset: 0x18DBBC8
     ::StringW get_LocatorId();
     // private System.Void set_LocatorId(System.String value)
-    // Offset: 0x18B841C
+    // Offset: 0x18DBBD0
     void set_LocatorId(::StringW value);
     // public System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> get_Locations()
-    // Offset: 0x18B856C
+    // Offset: 0x18DBD20
     ::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* get_Locations();
     // private System.Void set_Locations(System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> value)
-    // Offset: 0x18B8574
+    // Offset: 0x18DBD28
     void set_Locations(::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x18B857C
+    // Offset: 0x18DBD30
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.Void .ctor(System.String id, System.Int32 capacity)
-    // Offset: 0x18B78DC
+    // Offset: 0x18DB090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationMap* New_ctor(::StringW id, int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationMap*, creationType>(id, capacity)));
     }
     // public System.Void .ctor(System.String id, System.Collections.Generic.IList`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> locations)
-    // Offset: 0x18B484C
+    // Offset: 0x18D8000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationMap* New_ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationMap*, creationType>(id, locations)));
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x18B50D8
+    // Offset: 0x18D888C
     bool Locate(::Il2CppObject* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // public System.Void Add(System.Object key, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
-    // Offset: 0x18B8424
+    // Offset: 0x18DBBD8
     void Add(::Il2CppObject* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void Add(System.Object key, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x18B7B90
+    // Offset: 0x18DB344
     void Add(::Il2CppObject* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
   }; // UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap
   #pragma pack(pop)

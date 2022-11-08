@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LightRotationGroupEffect
 #include "GlobalNamespace/LightRotationGroupEffect.hpp"
-// Including type: LightRotationBeatmapEventData/Axis
-#include "GlobalNamespace/LightRotationBeatmapEventData.hpp"
+// Including type: LightAxis
+#include "GlobalNamespace/LightAxis.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -45,12 +45,12 @@ namespace GlobalNamespace {
     int elementId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // public readonly LightRotationBeatmapEventData/Axis axis
+    // public readonly LightAxis axis
     // Size: 0x4
     // Offset: 0x18
-    ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis;
+    ::GlobalNamespace::LightAxis axis;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::LightRotationBeatmapEventData::Axis) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::LightAxis) == 0x4);
     // public readonly System.Boolean mirrored
     // Size: 0x1
     // Offset: 0x1C
@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] int& dyn_groupId();
     // Get instance field reference: public readonly System.Int32 elementId
     [[deprecated("Use field access instead!")]] int& dyn_elementId();
-    // Get instance field reference: public readonly LightRotationBeatmapEventData/Axis axis
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn_axis();
+    // Get instance field reference: public readonly LightAxis axis
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightAxis& dyn_axis();
     // Get instance field reference: public readonly System.Boolean mirrored
     [[deprecated("Use field access instead!")]] bool& dyn_mirrored();
     // Get instance field reference: public readonly UnityEngine.Transform transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_transform();
-    // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, LightRotationBeatmapEventData/Axis axis, System.Boolean mirrored, UnityEngine.Transform transform)
-    // Offset: 0x146A398
+    // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, LightAxis axis, System.Boolean mirrored, UnityEngine.Transform transform)
+    // Offset: 0x150CF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightRotationGroupEffect::InitData* New_ctor(int groupId, int elementId, ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis, bool mirrored, ::UnityEngine::Transform* transform) {
+    static LightRotationGroupEffect::InitData* New_ctor(int groupId, int elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffect::InitData*, creationType>(groupId, elementId, axis, mirrored, transform)));
     }

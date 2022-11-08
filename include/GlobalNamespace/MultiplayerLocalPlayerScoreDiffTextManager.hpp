@@ -51,28 +51,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerScoreDiffText* scoreDiffText;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0x1103508
+    // [InjectAttribute] Offset: 0x1118DCC
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1103518
+    // [InjectAttribute] Offset: 0x1118DDC
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1103528
+    // [InjectAttribute] Offset: 0x1118DEC
     // private readonly CoreGameHUDController/InitData _hudInitData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::CoreGameHUDController::InitData* hudInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CoreGameHUDController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1103538
+    // [InjectAttribute] Offset: 0x1118DFC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x38
@@ -113,23 +113,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Nullable`1<System.Boolean> _wasLocalPlayerLeader
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn__wasLocalPlayerLeader();
     // public System.Void .ctor()
-    // Offset: 0x13D47D4
+    // Offset: 0x13B0A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalPlayerScoreDiffTextManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerScoreDiffTextManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13D3E98
+    // Offset: 0x13B04EC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13D3F58
+    // Offset: 0x13B05AC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13D4034
+    // Offset: 0x13B0688
     void Update();
     // private System.Void HandleStateChanged(MultiplayerController/State newState)
-    // Offset: 0x13D477C
+    // Offset: 0x13B09F0
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State newState);
   }; // MultiplayerLocalPlayerScoreDiffTextManager
   // WARNING Not writing size check since size may be invalid!

@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly MockNodePoseSyncStateSender mockNodePoseSyncStateSender
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockNodePoseSyncStateSender*& dyn_mockNodePoseSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x2B0226C
+    // Offset: 0x2B29CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerLobbyPoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGenerator*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2B022E8
+    // Offset: 0x2B29D34
     void Dispose();
     // public System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF

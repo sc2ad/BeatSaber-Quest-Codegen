@@ -197,22 +197,22 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Boolean disposed
     [[deprecated("Use field access instead!")]] bool& dyn_disposed();
     // public System.Net.CookieContainer get_CookieContainer()
-    // Offset: 0x19ADDC0
+    // Offset: 0x19BF5B4
     ::System::Net::CookieContainer* get_CookieContainer();
     // public System.Int64 get_MaxRequestContentBufferSize()
-    // Offset: 0x19ADE2C
+    // Offset: 0x19BF620
     int64_t get_MaxRequestContentBufferSize();
     // System.Net.HttpWebRequest CreateWebRequest(System.Net.Http.HttpRequestMessage request)
-    // Offset: 0x19ADED8
+    // Offset: 0x19BF6CC
     ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
     // private System.Net.Http.HttpResponseMessage CreateResponseMessage(System.Net.HttpWebResponse wr, System.Net.Http.HttpRequestMessage requestMessage, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19AE59C
+    // Offset: 0x19BFD90
     ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage, ::System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean MethodHasBody(System.Net.Http.HttpMethod method)
-    // Offset: 0x19AE880
+    // Offset: 0x19C0074
     static bool MethodHasBody(::System::Net::Http::HttpMethod* method);
     // public System.Void .ctor()
-    // Offset: 0x19AC2F0
+    // Offset: 0x19BDAE4
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -221,12 +221,12 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19ADE34
+    // Offset: 0x19BF628
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x19AE964
+    // Offset: 0x19C0158
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Threading::CancellationToken cancellationToken);

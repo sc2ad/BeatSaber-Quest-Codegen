@@ -59,23 +59,31 @@ namespace HMUI {
     // Get instance field reference: private HMUI.UISelectionState _selectionState
     [[deprecated("Use field access instead!")]] ::HMUI::UISelectionState& dyn__selectionState();
     // public HMUI.UISelectionState get_selectionState()
-    // Offset: 0x16DF184
+    // Offset: 0x170299C
     ::HMUI::UISelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16DF18C
+    // Offset: 0x17029A4
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16DF234
+    // Offset: 0x1702A4C
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x16DF368
+    // Offset: 0x1702C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NoTransitionsToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsToggle*, creationType>()));
     }
+    // private System.Void <Start>b__6_0(System.Boolean isOn)
+    // Offset: 0x1702C50
+    void $Start$b__6_0(bool isOn);
+    // protected override System.Void Start()
+    // Offset: 0x1702AF4
+    // Implemented from: UnityEngine.UI.Toggle
+    // Base method: System.Void Toggle::Start()
+    void Start();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x16DF2DC
+    // Offset: 0x1702B9C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);
@@ -115,6 +123,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: HMUI::NoTransitionsToggle::$Start$b__6_0
+// Il2CppName: <Start>b__6_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsToggle::*)(bool)>(&HMUI::NoTransitionsToggle::$Start$b__6_0)> {
+  static const MethodInfo* get() {
+    static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsToggle*), "<Start>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
+  }
+};
+// Writing MetadataGetter for method: HMUI::NoTransitionsToggle::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsToggle::*)()>(&HMUI::NoTransitionsToggle::Start)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: HMUI::NoTransitionsToggle::DoStateTransition
 // Il2CppName: DoStateTransition
 template<>

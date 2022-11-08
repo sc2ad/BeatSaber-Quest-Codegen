@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B37664
+    // Offset: 0x1B6B810
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetAppChromaticCorrection()
-    // Offset: 0x1B37570
+    // Offset: 0x1B6B71C
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetAppChromaticCorrection();
     // static public OVRPlugin/Bool ovrp_SetAppChromaticCorrection(OVRPlugin/Bool value)
-    // Offset: 0x1B375E4
+    // Offset: 0x1B6B790
     static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetAppChromaticCorrection(::GlobalNamespace::OVRPlugin::Bool value);
   }; // OVRPlugin/OVRP_1_7_0
   #pragma pack(pop)

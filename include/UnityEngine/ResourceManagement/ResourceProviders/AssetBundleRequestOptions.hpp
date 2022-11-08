@@ -42,28 +42,28 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   class AssetBundleRequestOptions : public ::Il2CppObject/*, public ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBDD0
+    // [FormerlySerializedAsAttribute] Offset: 0x1100520
     // private System.String m_Hash
     // Size: 0x8
     // Offset: 0x10
     ::StringW m_Hash;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBE1C
+    // [FormerlySerializedAsAttribute] Offset: 0x110056C
     // private System.UInt32 m_Crc
     // Size: 0x4
     // Offset: 0x18
     uint m_Crc;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBE68
+    // [FormerlySerializedAsAttribute] Offset: 0x11005B8
     // private System.Int32 m_Timeout
     // Size: 0x4
     // Offset: 0x1C
     int m_Timeout;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBEB4
+    // [FormerlySerializedAsAttribute] Offset: 0x1100604
     // private System.Boolean m_ChunkedTransfer
     // Size: 0x1
     // Offset: 0x20
@@ -72,14 +72,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_ChunkedTransfer and: m_RedirectLimit
     char __padding3[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBF00
+    // [FormerlySerializedAsAttribute] Offset: 0x1100650
     // private System.Int32 m_RedirectLimit
     // Size: 0x4
     // Offset: 0x24
     int m_RedirectLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x10EBF4C
+    // [FormerlySerializedAsAttribute] Offset: 0x110069C
     // private System.Int32 m_RetryCount
     // Size: 0x4
     // Offset: 0x28
@@ -142,74 +142,74 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_ClearOtherCachedVersionsWhenLoaded
     [[deprecated("Use field access instead!")]] bool& dyn_m_ClearOtherCachedVersionsWhenLoaded();
     // public System.String get_Hash()
-    // Offset: 0x1F52964
+    // Offset: 0x1F641AC
     ::StringW get_Hash();
     // public System.Void set_Hash(System.String value)
-    // Offset: 0x1F5296C
+    // Offset: 0x1F641B4
     void set_Hash(::StringW value);
     // public System.UInt32 get_Crc()
-    // Offset: 0x1F52974
+    // Offset: 0x1F641BC
     uint get_Crc();
     // public System.Void set_Crc(System.UInt32 value)
-    // Offset: 0x1F5297C
+    // Offset: 0x1F641C4
     void set_Crc(uint value);
     // public System.Int32 get_Timeout()
-    // Offset: 0x1F52984
+    // Offset: 0x1F641CC
     int get_Timeout();
     // public System.Void set_Timeout(System.Int32 value)
-    // Offset: 0x1F5298C
+    // Offset: 0x1F641D4
     void set_Timeout(int value);
     // public System.Boolean get_ChunkedTransfer()
-    // Offset: 0x1F52994
+    // Offset: 0x1F641DC
     bool get_ChunkedTransfer();
     // public System.Void set_ChunkedTransfer(System.Boolean value)
-    // Offset: 0x1F5299C
+    // Offset: 0x1F641E4
     void set_ChunkedTransfer(bool value);
     // public System.Int32 get_RedirectLimit()
-    // Offset: 0x1F529A8
+    // Offset: 0x1F641F0
     int get_RedirectLimit();
     // public System.Void set_RedirectLimit(System.Int32 value)
-    // Offset: 0x1F529B0
+    // Offset: 0x1F641F8
     void set_RedirectLimit(int value);
     // public System.Int32 get_RetryCount()
-    // Offset: 0x1F529B8
+    // Offset: 0x1F64200
     int get_RetryCount();
     // public System.Void set_RetryCount(System.Int32 value)
-    // Offset: 0x1F529C0
+    // Offset: 0x1F64208
     void set_RetryCount(int value);
     // public System.String get_BundleName()
-    // Offset: 0x1F529C8
+    // Offset: 0x1F64210
     ::StringW get_BundleName();
     // public System.Void set_BundleName(System.String value)
-    // Offset: 0x1F529D0
+    // Offset: 0x1F64218
     void set_BundleName(::StringW value);
     // public System.Int64 get_BundleSize()
-    // Offset: 0x1F529D8
+    // Offset: 0x1F64220
     int64_t get_BundleSize();
     // public System.Void set_BundleSize(System.Int64 value)
-    // Offset: 0x1F529E0
+    // Offset: 0x1F64228
     void set_BundleSize(int64_t value);
     // public System.Boolean get_UseCrcForCachedBundle()
-    // Offset: 0x1F529E8
+    // Offset: 0x1F64230
     bool get_UseCrcForCachedBundle();
     // public System.Void set_UseCrcForCachedBundle(System.Boolean value)
-    // Offset: 0x1F529F0
+    // Offset: 0x1F64238
     void set_UseCrcForCachedBundle(bool value);
     // public System.Boolean get_ClearOtherCachedVersionsWhenLoaded()
-    // Offset: 0x1F529FC
+    // Offset: 0x1F64244
     bool get_ClearOtherCachedVersionsWhenLoaded();
     // public System.Void set_ClearOtherCachedVersionsWhenLoaded(System.Boolean value)
-    // Offset: 0x1F52A04
+    // Offset: 0x1F6424C
     void set_ClearOtherCachedVersionsWhenLoaded(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F52BD0
+    // Offset: 0x1F64418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundleRequestOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundleRequestOptions*, creationType>()));
     }
     // public System.Int64 ComputeSize(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.ResourceManager resourceManager)
-    // Offset: 0x1F52A10
+    // Offset: 0x1F64258
     int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
   }; // UnityEngine.ResourceManagement.ResourceProviders.AssetBundleRequestOptions
   #pragma pack(pop)

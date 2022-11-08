@@ -79,10 +79,10 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: System.Collections.IList CustomData
     [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_CustomData();
     // public System.Void CopyFrom(System.Runtime.Remoting.ProviderData other)
-    // Offset: 0x18BB79C
+    // Offset: 0x18DEF50
     void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
     // public System.Void .ctor()
-    // Offset: 0x18BBDD4
+    // Offset: 0x18DF588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

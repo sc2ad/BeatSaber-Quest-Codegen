@@ -49,23 +49,23 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
     static void _set_videostreams(::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> value);
     // public System.Void .ctor()
-    // Offset: 0x1C037D0
+    // Offset: 0x1C71D1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera*, creationType>()));
     }
     // static public SteamVR_TrackedCamera/VideoStreamTexture Distorted(System.Int32 deviceIndex)
-    // Offset: 0x1C032F8
+    // Offset: 0x1C71844
     static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Distorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Undistorted(System.Int32 deviceIndex)
-    // Offset: 0x1C03498
+    // Offset: 0x1C719E4
     static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Undistorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Source(System.Boolean undistorted, System.Int32 deviceIndex)
-    // Offset: 0x1C035E8
+    // Offset: 0x1C71B34
     static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Source(bool undistorted, int deviceIndex);
     // static private SteamVR_TrackedCamera/VideoStream Stream(System.UInt32 deviceIndex)
-    // Offset: 0x1C035FC
+    // Offset: 0x1C71B48
     static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStream* Stream(uint deviceIndex);
   }; // SteamVR_TrackedCamera
   #pragma pack(pop)

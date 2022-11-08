@@ -50,32 +50,32 @@ namespace GlobalNamespace {
   class OVRCompositionUtil : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x168D27C
+    // Offset: 0x16B096C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCompositionUtil* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCompositionUtil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRCompositionUtil*, creationType>()));
     }
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x168C8F8
+    // Offset: 0x16AFFE8
     static void SafeDestroy(::UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x168C998
+    // Offset: 0x16B0088
     static void SafeDestroy_(ByRef<::UnityEngine::GameObject*> obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x168CA1C
+    // Offset: 0x16B010C
     static ::GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(::GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x168CA48
+    // Offset: 0x16B0138
     static ::GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(::GlobalNamespace::OVRManager_VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Camera camera, UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x168CADC
+    // Offset: 0x16B01CC
     static ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x168CB90
+    // Offset: 0x16B0280
     static float GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x168CDD4
+    // Offset: 0x16B04C4
     static ::UnityEngine::Mesh* BuildBoundaryMesh(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
   }; // OVRCompositionUtil
   #pragma pack(pop)

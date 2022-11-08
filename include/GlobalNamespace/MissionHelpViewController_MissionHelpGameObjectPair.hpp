@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.GameObject gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor()
-    // Offset: 0x132A324
+    // Offset: 0x1341F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::.ctor");

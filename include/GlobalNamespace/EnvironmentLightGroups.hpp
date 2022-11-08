@@ -11,6 +11,11 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: LightGroupSO
+  class LightGroupSO;
+}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
@@ -19,11 +24,6 @@ namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
   template<typename TKey, typename TValue>
   class Dictionary_2;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: LightGroupSO
-  class LightGroupSO;
 }
 // Completed forward declares
 // Type namespace: 
@@ -42,8 +42,10 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentLightGroups : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::EnvironmentLightGroups::$$c
+    class $$c;
     public:
-    // [TooltipAttribute] Offset: 0x10F9D6C
+    // [TooltipAttribute] Offset: 0x110F3D4
     // private System.Collections.Generic.List`1<LightGroupSO> _lightGroupSOList
     // Size: 0x8
     // Offset: 0x10
@@ -70,18 +72,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<LightGroupSO> _lightGroupSOListForLightGroupDataDict
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& dyn__lightGroupSOListForLightGroupDataDict();
     // public System.Collections.Generic.List`1<LightGroupSO> get_lightGroupSOList()
-    // Offset: 0x13962FC
+    // Offset: 0x1380C2C
     ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* get_lightGroupSOList();
     // public System.Void .ctor()
-    // Offset: 0x13964C0
+    // Offset: 0x1380F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightGroups*, creationType>()));
     }
     // public LightGroupSO GetDataForGroup(System.Int32 groupId)
-    // Offset: 0x1396304
+    // Offset: 0x1380C34
     ::GlobalNamespace::LightGroupSO* GetDataForGroup(int groupId);
+    // public System.Void Sort()
+    // Offset: 0x1380DF0
+    void Sort();
   }; // EnvironmentLightGroups
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentLightGroups), 32 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*)> __GlobalNamespace_EnvironmentLightGroupsSizeCheck;
@@ -107,5 +112,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
   static const MethodInfo* get() {
     static auto* groupId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentLightGroups*), "GetDataForGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupId});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightGroups::Sort
+// Il2CppName: Sort
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentLightGroups::*)()>(&GlobalNamespace::EnvironmentLightGroups::Sort)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentLightGroups*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _negativeBadges
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>*& dyn__negativeBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_positiveBadges()
-    // Offset: 0x14092A8
+    // Offset: 0x148F870
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerBadgeDataSO> get_negativeBadges()
-    // Offset: 0x14092B0
+    // Offset: 0x148F878
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_negativeBadges();
     // public System.Void .ctor()
-    // Offset: 0x14092B8
+    // Offset: 0x148F880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesModelSO::.ctor");

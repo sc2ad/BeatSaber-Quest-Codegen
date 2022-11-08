@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_AnimationCurve ToTestObject(UnityEngine.AnimationCurve self)
-    // Offset: 0x1A41290
+    // Offset: 0x1A5F840
     static ::HoudiniEngineUnity::Test_AnimationCurve* ToTestObject(::UnityEngine::AnimationCurve* self);
     // static public HoudiniEngineUnity.Test_AnimationCurve[] ToTestObject(UnityEngine.AnimationCurve[] self)
-    // Offset: 0x1A412F4
+    // Offset: 0x1A5F8A4
     static ::ArrayW<::HoudiniEngineUnity::Test_AnimationCurve*> ToTestObject(::ArrayW<::UnityEngine::AnimationCurve*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_AnimationCurve> ToTestObject(System.Collections.Generic.List`1<UnityEngine.AnimationCurve> self)
-    // Offset: 0x1A413E0
+    // Offset: 0x1A5F990
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_AnimationCurve*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>* self);
   }; // HoudiniEngineUnity.Test_AnimationCurve_Extensions
   #pragma pack(pop)

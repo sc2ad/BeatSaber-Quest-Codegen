@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13C4A78
+    // Offset: 0x1409D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(ShaderWarmupSceneSetupData shaderWarmupSceneSetupData)
-    // Offset: 0x13C4A70
+    // Offset: 0x1409D5C
     void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
   }; // ShaderWarmupScenesTransitionSetupDataSO
   #pragma pack(pop)

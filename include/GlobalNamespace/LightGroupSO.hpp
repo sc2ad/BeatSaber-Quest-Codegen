@@ -30,43 +30,43 @@ namespace GlobalNamespace {
   class LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10E5E08
+    // [TooltipAttribute] Offset: 0x10FA448
     // private System.String _groupName
     // Size: 0x8
     // Offset: 0x18
     ::StringW groupName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TextAreaAttribute] Offset: 0x10E5E54
-    // [TooltipAttribute] Offset: 0x10E5E54
+    // [TextAreaAttribute] Offset: 0x10FA494
+    // [TooltipAttribute] Offset: 0x10FA494
     // private System.String _groupDescription
     // Size: 0x8
     // Offset: 0x20
     ::StringW groupDescription;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [MinAttribute] Offset: 0x10E5EB0
+    // [MinAttribute] Offset: 0x10FA4F0
     // private System.Int32 _groupId
     // Size: 0x4
     // Offset: 0x28
     int groupId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [MinAttribute] Offset: 0x10E5EEC
+    // [MinAttribute] Offset: 0x10FA52C
     // private System.Int32 _startLightId
     // Size: 0x4
     // Offset: 0x2C
     int startLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [MinAttribute] Offset: 0x10E5F28
+    // [MinAttribute] Offset: 0x10FA568
     // private System.Int32 _numberOfElements
     // Size: 0x4
     // Offset: 0x30
     int numberOfElements;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [MinAttribute] Offset: 0x10E5F64
+    // [MinAttribute] Offset: 0x10FA5A4
     // private System.Int32 _sameIdElements
     // Size: 0x4
     // Offset: 0x34
@@ -97,25 +97,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _ignoreLightGroupEffectManager
     [[deprecated("Use field access instead!")]] bool& dyn__ignoreLightGroupEffectManager();
     // public System.String get_groupName()
-    // Offset: 0x1D010F8
+    // Offset: 0x1CC6E74
     ::StringW get_groupName();
     // public System.Int32 get_groupId()
-    // Offset: 0x1D01100
+    // Offset: 0x1CC6E7C
     int get_groupId();
     // public System.Int32 get_startLightId()
-    // Offset: 0x1D01108
+    // Offset: 0x1CC6E84
     int get_startLightId();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x1D01110
+    // Offset: 0x1CC6E8C
     int get_numberOfElements();
     // public System.Int32 get_sameIdElements()
-    // Offset: 0x1D01118
+    // Offset: 0x1CC6E94
     int get_sameIdElements();
     // public System.Boolean get_ignoreLightGroupEffectManager()
-    // Offset: 0x1D01120
+    // Offset: 0x1CC6E9C
     bool get_ignoreLightGroupEffectManager();
     // public System.Void .ctor()
-    // Offset: 0x1D01128
+    // Offset: 0x1CC6EA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupSO::.ctor");

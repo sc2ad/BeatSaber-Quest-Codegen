@@ -146,59 +146,59 @@ namespace System::Net {
     // Get instance field reference: private System.Uri requestUri
     [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_requestUri();
     // static private System.Void .cctor()
-    // Offset: 0x1AA25D4
+    // Offset: 0x1AC1360
     static void _cctor();
     // private System.Void .ctor(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
-    // Offset: 0x1AA2728
+    // Offset: 0x1AC14B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerRequestUriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequestUriBuilder*, creationType>(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery)));
     }
     // static public System.Uri GetRequestUri(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
-    // Offset: 0x1AA2320
+    // Offset: 0x1AC10AC
     static ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
     // private System.Uri Build()
-    // Offset: 0x1AA287C
+    // Offset: 0x1AC1608
     ::System::Uri* Build();
     // private System.Void BuildRequestUriUsingCookedPath()
-    // Offset: 0x1AA2994
+    // Offset: 0x1AC1720
     void BuildRequestUriUsingCookedPath();
     // private System.Void BuildRequestUriUsingRawPath()
-    // Offset: 0x1AA2C20
+    // Offset: 0x1AC19AC
     void BuildRequestUriUsingRawPath();
     // static private System.Text.Encoding GetEncoding(System.Net.HttpListenerRequestUriBuilder/System.Net.EncodingType type)
-    // Offset: 0x1AA312C
+    // Offset: 0x1AC1EB8
     static ::System::Text::Encoding* GetEncoding(::System::Net::HttpListenerRequestUriBuilder::EncodingType type);
     // private System.Net.HttpListenerRequestUriBuilder/System.Net.ParsingResult BuildRequestUriUsingRawPath(System.Text.Encoding encoding)
-    // Offset: 0x1AA31C4
+    // Offset: 0x1AC1F50
     ::System::Net::HttpListenerRequestUriBuilder::ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
     // private System.Net.HttpListenerRequestUriBuilder/System.Net.ParsingResult ParseRawPath(System.Text.Encoding encoding)
-    // Offset: 0x1AA3404
+    // Offset: 0x1AC2190
     ::System::Net::HttpListenerRequestUriBuilder::ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
     // private System.Boolean AppendUnicodeCodePointValuePercentEncoded(System.String codePoint)
-    // Offset: 0x1AA38C4
+    // Offset: 0x1AC2650
     bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
     // private System.Boolean AddPercentEncodedOctetToRawOctetsList(System.Text.Encoding encoding, System.String escapedCharacter)
-    // Offset: 0x1AA3B80
+    // Offset: 0x1AC290C
     bool AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::StringW escapedCharacter);
     // private System.Boolean EmptyDecodeAndAppendRawOctetsList(System.Text.Encoding encoding)
-    // Offset: 0x1AA3558
+    // Offset: 0x1AC22E4
     bool EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding);
     // static private System.Void AppendOctetsPercentEncoded(System.Text.StringBuilder target, System.Collections.Generic.IEnumerable`1<System.Byte> octets)
-    // Offset: 0x1AA3C9C
+    // Offset: 0x1AC2A28
     static void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetOctetsAsString(System.Collections.Generic.IEnumerable`1<System.Byte> octets)
-    // Offset: 0x1AA3F7C
+    // Offset: 0x1AC2D08
     static ::StringW GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetPath(System.String uriString)
-    // Offset: 0x1AA2FD0
+    // Offset: 0x1AC1D5C
     static ::StringW GetPath(::StringW uriString);
     // static private System.String AddSlashToAsteriskOnlyPath(System.String path)
-    // Offset: 0x1AA27F8
+    // Offset: 0x1AC1584
     static ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
     // private System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
-    // Offset: 0x1AA2F94
+    // Offset: 0x1AC1D20
     void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::Il2CppObject*> args);
   }; // System.Net.HttpListenerRequestUriBuilder
   #pragma pack(pop)

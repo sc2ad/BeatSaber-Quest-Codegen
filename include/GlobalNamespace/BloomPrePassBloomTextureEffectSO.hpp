@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   class BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x10F0758
+    // [SpaceAttribute] Offset: 0x1104EA8
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x2C
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PyramidBloomRendererSO::Pass) == 0x4);
-    // [SpaceAttribute] Offset: 0x10F0830
+    // [SpaceAttribute] Offset: 0x1104F80
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x58
@@ -156,19 +156,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomFogSO _bloomFog
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void .ctor()
-    // Offset: 0x2A93E90
+    // Offset: 0x2AC41CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBloomTextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBloomTextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO*, creationType>()));
     }
     // public override ToneMapping get_toneMapping()
-    // Offset: 0x2A93E08
+    // Offset: 0x2AC4144
     // Implemented from: BloomPrePassEffectSO
     // Base method: ToneMapping BloomPrePassEffectSO::get_toneMapping()
     ::GlobalNamespace::ToneMapping get_toneMapping();
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x2A93E28
+    // Offset: 0x2AC4164
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);

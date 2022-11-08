@@ -52,14 +52,14 @@ namespace HMUI {
     // Get instance field reference: public System.Action action
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // public System.Void .ctor()
-    // Offset: 0x2A8DF3C
+    // Offset: 0x2ABE278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder::$$c__DisplayClass7_0*, creationType>()));
     }
     // System.Void <AddBinding>b__0(System.Boolean b)
-    // Offset: 0x2A8DF44
+    // Offset: 0x2ABE280
     void $AddBinding$b__0(bool b);
   }; // HMUI.ToggleBinder/HMUI.<>c__DisplayClass7_0
   #pragma pack(pop)

@@ -59,26 +59,26 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__71_0
     static void _set_$$9__71_0(::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19A5320
+    // Offset: 0x19B6B14
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19A5384
+    // Offset: 0x19B6B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestHeaders::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpRequestHeaders::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestHeaders::$$c*, creationType>()));
     }
     // System.Boolean <get_ConnectionClose>b__19_0(System.String l)
-    // Offset: 0x19A538C
+    // Offset: 0x19B6B80
     bool $get_ConnectionClose$b__19_0(::StringW l);
     // System.Boolean <get_ConnectionKeepAlive>b__22_0(System.String l)
-    // Offset: 0x19A53E4
+    // Offset: 0x19B6BD8
     bool $get_ConnectionKeepAlive$b__22_0(::StringW l);
     // System.Boolean <get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x19A543C
+    // Offset: 0x19B6C30
     bool $get_ExpectContinue$b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // System.Boolean <get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
-    // Offset: 0x19A549C
+    // Offset: 0x19B6C90
     bool $get_TransferEncodingChunked$b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
   }; // System.Net.Http.Headers.HttpRequestHeaders/System.Net.Http.Headers.<>c
   #pragma pack(pop)

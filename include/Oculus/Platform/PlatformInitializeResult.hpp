@@ -45,70 +45,70 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x10EE29C
+    // [DescriptionAttribute] Offset: 0x11029EC
     // static field const value: static public Oculus.Platform.PlatformInitializeResult Success
     static constexpr const int Success = 0;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult Success
     static ::Oculus::Platform::PlatformInitializeResult _get_Success();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult Success
     static void _set_Success(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE2D4
+    // [DescriptionAttribute] Offset: 0x1102A24
     // static field const value: static public Oculus.Platform.PlatformInitializeResult Uninitialized
     static constexpr const int Uninitialized = -1;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult Uninitialized
     static ::Oculus::Platform::PlatformInitializeResult _get_Uninitialized();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult Uninitialized
     static void _set_Uninitialized(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE30C
+    // [DescriptionAttribute] Offset: 0x1102A5C
     // static field const value: static public Oculus.Platform.PlatformInitializeResult PreLoaded
     static constexpr const int PreLoaded = -2;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult PreLoaded
     static ::Oculus::Platform::PlatformInitializeResult _get_PreLoaded();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult PreLoaded
     static void _set_PreLoaded(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE344
+    // [DescriptionAttribute] Offset: 0x1102A94
     // static field const value: static public Oculus.Platform.PlatformInitializeResult FileInvalid
     static constexpr const int FileInvalid = -3;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult FileInvalid
     static ::Oculus::Platform::PlatformInitializeResult _get_FileInvalid();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult FileInvalid
     static void _set_FileInvalid(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE37C
+    // [DescriptionAttribute] Offset: 0x1102ACC
     // static field const value: static public Oculus.Platform.PlatformInitializeResult SignatureInvalid
     static constexpr const int SignatureInvalid = -4;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult SignatureInvalid
     static ::Oculus::Platform::PlatformInitializeResult _get_SignatureInvalid();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult SignatureInvalid
     static void _set_SignatureInvalid(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE3B4
+    // [DescriptionAttribute] Offset: 0x1102B04
     // static field const value: static public Oculus.Platform.PlatformInitializeResult UnableToVerify
     static constexpr const int UnableToVerify = -5;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult UnableToVerify
     static ::Oculus::Platform::PlatformInitializeResult _get_UnableToVerify();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult UnableToVerify
     static void _set_UnableToVerify(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE3EC
+    // [DescriptionAttribute] Offset: 0x1102B3C
     // static field const value: static public Oculus.Platform.PlatformInitializeResult VersionMismatch
     static constexpr const int VersionMismatch = -6;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult VersionMismatch
     static ::Oculus::Platform::PlatformInitializeResult _get_VersionMismatch();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult VersionMismatch
     static void _set_VersionMismatch(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE424
+    // [DescriptionAttribute] Offset: 0x1102B74
     // static field const value: static public Oculus.Platform.PlatformInitializeResult Unknown
     static constexpr const int Unknown = -7;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult Unknown
     static ::Oculus::Platform::PlatformInitializeResult _get_Unknown();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult Unknown
     static void _set_Unknown(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE45C
+    // [DescriptionAttribute] Offset: 0x1102BAC
     // static field const value: static public Oculus.Platform.PlatformInitializeResult InvalidCredentials
     static constexpr const int InvalidCredentials = -8;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult InvalidCredentials
     static ::Oculus::Platform::PlatformInitializeResult _get_InvalidCredentials();
     // Set static field: static public Oculus.Platform.PlatformInitializeResult InvalidCredentials
     static void _set_InvalidCredentials(::Oculus::Platform::PlatformInitializeResult value);
-    // [DescriptionAttribute] Offset: 0x10EE494
+    // [DescriptionAttribute] Offset: 0x1102BE4
     // static field const value: static public Oculus.Platform.PlatformInitializeResult NotEntitled
     static constexpr const int NotEntitled = -9;
     // Get static field: static public Oculus.Platform.PlatformInitializeResult NotEntitled

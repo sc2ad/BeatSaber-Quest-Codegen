@@ -41,13 +41,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_IgnoreFailures
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreFailures();
     // System.Boolean get_IgnoreFailures()
-    // Offset: 0x1F566C4
+    // Offset: 0x1F67F0C
     bool get_IgnoreFailures();
     // System.Void set_IgnoreFailures(System.Boolean value)
-    // Offset: 0x1F566CC
+    // Offset: 0x1F67F14
     void set_IgnoreFailures(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1F566D8
+    // Offset: 0x1F67F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProviderLoadRequestOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::.ctor");

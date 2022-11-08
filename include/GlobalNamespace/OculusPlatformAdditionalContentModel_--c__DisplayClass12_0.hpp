@@ -80,17 +80,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
     [[deprecated("Use field access instead!")]] typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x15A128C
+    // Offset: 0x154FE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*, creationType>()));
     }
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x15A1294
+    // Offset: 0x154FE40
     void $CheckForNewEntitlementsAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0x15A16CC
+    // Offset: 0x1550278
     void $CheckForNewEntitlementsAsync$b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
   }; // OculusPlatformAdditionalContentModel/<>c__DisplayClass12_0
   #pragma pack(pop)

@@ -30,21 +30,21 @@ namespace Org::BouncyCastle::Crypto {
   class CryptoException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2314120
+    // Offset: 0x2346E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::CryptoException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2314188
+    // Offset: 0x2346EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::CryptoException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x2314200
+    // Offset: 0x2346F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoException* New_ctor(::StringW message, ::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::CryptoException::.ctor");

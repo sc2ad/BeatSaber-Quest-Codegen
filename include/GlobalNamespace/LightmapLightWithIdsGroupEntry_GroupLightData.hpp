@@ -57,20 +57,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _groupProbeHighlightsIntensityMultiplier
     [[deprecated("Use field access instead!")]] float& dyn__groupProbeHighlightsIntensityMultiplier();
     // public LightGroupSO get_lightGroup()
-    // Offset: 0x1D03904
+    // Offset: 0x1CC962C
     ::GlobalNamespace::LightGroupSO* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x1D0390C
+    // Offset: 0x1CC9634
     float get_groupIntensity();
     // public System.Single get_groupProbeHighlightsIntensityMultiplier()
-    // Offset: 0x1D03914
+    // Offset: 0x1CC963C
     float get_groupProbeHighlightsIntensityMultiplier();
-    // public System.Void .ctor()
-    // Offset: 0x1D0391C
+    // public System.Void .ctor(LightGroupSO lightGroup, System.Single groupIntensity, System.Single groupProbeHighlightsIntensityMultiplier)
+    // Offset: 0x1CC9644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightmapLightWithIdsGroupEntry::GroupLightData* New_ctor() {
+    static LightmapLightWithIdsGroupEntry::GroupLightData* New_ctor(::GlobalNamespace::LightGroupSO* lightGroup, float groupIntensity, float groupProbeHighlightsIntensityMultiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIdsGroupEntry::GroupLightData*, creationType>()));
+      return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIdsGroupEntry::GroupLightData*, creationType>(lightGroup, groupIntensity, groupProbeHighlightsIntensityMultiplier)));
     }
   }; // LightmapLightWithIdsGroupEntry/GroupLightData
   #pragma pack(pop)

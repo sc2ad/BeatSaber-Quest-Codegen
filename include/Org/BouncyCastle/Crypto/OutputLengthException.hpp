@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto {
   class OutputLengthException : public ::Org::BouncyCastle::Crypto::DataLengthException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16459D0
+    // Offset: 0x164A6E8
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor()
     // Base method: System.Void CryptoException::.ctor()
@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<OutputLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x16459D8
+    // Offset: 0x164A6F0
     // Implemented from: Org.BouncyCastle.Crypto.DataLengthException
     // Base method: System.Void DataLengthException::.ctor(System.String message)
     // Base method: System.Void CryptoException::.ctor(System.String message)

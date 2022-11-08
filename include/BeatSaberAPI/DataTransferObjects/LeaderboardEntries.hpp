@@ -49,7 +49,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LeaderboardEntry[] entries
     [[deprecated("Use field access instead!")]] ::ArrayW<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>& dyn_entries();
     // public System.Void .ctor()
-    // Offset: 0x1373158
+    // Offset: 0x13C5400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntries* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LeaderboardEntries::.ctor");

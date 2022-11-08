@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*> renderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E51A4
+    // [SpaceAttribute] Offset: 0x10F97E4
     // private BloomPrePassBackgroundNonLightInstancedGroupRenderer/SupportedProperty[] _supportedProperties
     // Size: 0x8
     // Offset: 0x28
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::MaterialPropertyBlock*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10E51DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F981C
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
@@ -158,22 +158,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _reusableGetMaterialPropertyBlock
     [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__reusableGetMaterialPropertyBlock();
     // protected System.Void Awake()
-    // Offset: 0x1CFADEC
+    // Offset: 0x1CC0308
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1CFADF0
+    // Offset: 0x1CC030C
     void InitIfNeeded();
     // private UnityEngine.Matrix4x4[] GetCachedMatrixArray(System.String propertyName)
-    // Offset: 0x1CFB6C8
+    // Offset: 0x1CC0BE4
     ::ArrayW<::UnityEngine::Matrix4x4> GetCachedMatrixArray(::StringW propertyName);
     // private System.Single[] GetCachedFloatArray(System.String propertyName)
-    // Offset: 0x1CFB860
+    // Offset: 0x1CC0D7C
     ::ArrayW<float> GetCachedFloatArray(::StringW propertyName);
     // private UnityEngine.Vector4[] GetCachedVectorArray(System.String propertyName)
-    // Offset: 0x1CFB794
+    // Offset: 0x1CC0CB0
     ::ArrayW<::UnityEngine::Vector4> GetCachedVectorArray(::StringW propertyName);
+    // private System.Void AutoFillRenderers()
+    // Offset: 0x1CC0E48
+    void AutoFillRenderers();
     // public System.Void .ctor()
-    // Offset: 0x1CFB92C
+    // Offset: 0x1CC0EA0
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -182,12 +185,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightInstancedGroupRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CFBA0C
+    // Offset: 0x1CC0F80
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1CFB05C
+    // Offset: 0x1CC0578
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
@@ -238,6 +241,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer*), "GetCachedVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyName});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::AutoFillRenderers
+// Il2CppName: AutoFillRenderers
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::AutoFillRenderers)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer*), "AutoFillRenderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::New_ctor

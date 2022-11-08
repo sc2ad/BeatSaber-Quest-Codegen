@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class OVRGearVrControllerTest : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A00014
+    // Offset: 0x1A23BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGearVrControllerTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGearVrControllerTest::.ctor");

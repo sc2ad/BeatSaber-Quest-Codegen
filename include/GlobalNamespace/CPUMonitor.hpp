@@ -93,17 +93,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 _lastSampleValue
     [[deprecated("Use field access instead!")]] int64_t& dyn__lastSampleValue();
     // public System.Single get_utilization()
-    // Offset: 0x15BC754
+    // Offset: 0x15C9D3C
     float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x15BC77C
+    // Offset: 0x15C9D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CPUMonitor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CPUMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CPUMonitor*, creationType>()));
     }
     // public System.Void PollUpdate()
-    // Offset: 0x15BC64C
+    // Offset: 0x15C9C34
     void PollUpdate();
   }; // CPUMonitor
   #pragma pack(pop)

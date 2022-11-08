@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithGroupPresenceJoinIntent : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*> {
     public:
     // protected Oculus.Platform.Models.GroupPresenceJoinIntent GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19F6A94
+    // Offset: 0x1A06294
     ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19F22E4
+    // Offset: 0x1A01AE4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithGroupPresenceJoinIntent*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.GroupPresenceJoinIntent GetGroupPresenceJoinIntent()
-    // Offset: 0x19F6A50
+    // Offset: 0x1A06250
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.GroupPresenceJoinIntent Message::GetGroupPresenceJoinIntent()
     ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetGroupPresenceJoinIntent();

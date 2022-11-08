@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10F0168
+    // [InjectOptionalAttribute] Offset: 0x11048B8
     // private readonly MainCameraCullingMask/InitData _initData
     // Size: 0x8
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MainCameraCullingMask/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainCameraCullingMask::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x2A95E04
+    // Offset: 0x2AC6140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCameraCullingMask* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainCameraCullingMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainCameraCullingMask*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2A95D1C
+    // Offset: 0x2AC6058
     void Start();
   }; // MainCameraCullingMask
   #pragma pack(pop)

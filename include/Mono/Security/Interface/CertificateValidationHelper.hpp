@@ -42,10 +42,10 @@ namespace Mono::Security::Interface {
     // Set static field: static private readonly System.Boolean supportsTrustAnchors
     static void _set_supportsTrustAnchors(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x23A4E18
+    // Offset: 0x23A6850
     static void _cctor();
     // static Mono.Security.Interface.ICertificateValidator2 GetInternalValidator(Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
-    // Offset: 0x23A4E8C
+    // Offset: 0x23A68C4
     static ::Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Security::Interface::MonoTlsProvider* provider);
   }; // Mono.Security.Interface.CertificateValidationHelper
   #pragma pack(pop)

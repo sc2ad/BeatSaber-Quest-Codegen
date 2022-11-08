@@ -37,20 +37,20 @@ namespace System::Xml {
       return reinterpret_cast<::System::Collections::IEnumerator*>(this);
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1AC09B4
+    // Offset: 0x1ADF740
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor()
-    // Offset: 0x1AC0A28
+    // Offset: 0x1ADF7B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::EmptyEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1AC09A8
+    // Offset: 0x1ADF734
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1AC09B0
+    // Offset: 0x1ADF73C
     void System_Collections_IEnumerator_Reset();
   }; // System.Xml.EmptyEnumerator
   #pragma pack(pop)

@@ -100,14 +100,14 @@ namespace GlobalNamespace {
     float bloomIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [ColorUsageAttribute] Offset: 0x10F7824
+    // [ColorUsageAttribute] Offset: 0x110CE8C
     // protected UnityEngine.Color _pointLightColor
     // Size: 0x10
     // Offset: 0x4C
     ::UnityEngine::Color pointLightColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x10F7864
+    // [SpaceAttribute] Offset: 0x110CECC
     // private System.Boolean _contributeCustomLightColor
     // Size: 0x1
     // Offset: 0x5C
@@ -116,22 +116,22 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: contributeCustomLightColor and: customLightColorContribution
     char __padding9[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10F789C
-    // [NullAllowed] Offset: 0x10F789C
+    // [DrawIfAttribute] Offset: 0x110CF04
+    // [NullAllowed] Offset: 0x110CF04
     // private ColorSO _customLightColorContribution
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::ColorSO* customLightColorContribution;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F7954
+    // [InjectAttribute] Offset: 0x110CFBC
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F7964
+    // [InjectAttribute] Offset: 0x110CFCC
     // private readonly LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x70
@@ -176,26 +176,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _lightColorBeatmapEventCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightColorBeatmapEventCallbackWrapper();
     // protected System.Void .ctor()
-    // Offset: 0x13A0A70
+    // Offset: 0x138B540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13A082C
+    // Offset: 0x138B2FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A0948
+    // Offset: 0x138B418
     void OnDestroy();
     // protected System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
     // protected System.Void SetRenderersEnabled(System.Boolean enabled)
-    // Offset: 0x13A0964
+    // Offset: 0x138B434
     void SetRenderersEnabled(bool enabled);
     // protected System.Void NotifyAlphaWasChanged(System.Single currentAlpha)
-    // Offset: 0x13A09FC
+    // Offset: 0x138B4CC
     void NotifyAlphaWasChanged(float currentAlpha);
   }; // FireEffect
   #pragma pack(pop)

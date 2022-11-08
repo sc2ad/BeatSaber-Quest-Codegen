@@ -90,10 +90,10 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private System.Threading.Tasks.Task m_task
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_task();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1DDF090
+    // Offset: 0x1E004F0
     ::System::Threading::Tasks::Task* get_Task();
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x1DDEFD8
+    // Offset: 0x1E00438
     static ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -106,7 +106,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1DDF01C
+    // Offset: 0x1E0047C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -120,13 +120,13 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1DDF024
+    // Offset: 0x1E00484
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1DDF1D4
+    // Offset: 0x1E00634
     void SetException(::System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0x1DDF0FC
+    // Offset: 0x1E0055C
     void NotifySynchronizationContextOfCompletion();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
   #pragma pack(pop)

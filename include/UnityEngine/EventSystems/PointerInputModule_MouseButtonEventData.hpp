@@ -52,17 +52,17 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Void .ctor()
-    // Offset: 0x191E39C
+    // Offset: 0x1951CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerInputModule::MouseButtonEventData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseButtonEventData*, creationType>()));
     }
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x191E374
+    // Offset: 0x1951C80
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x191E388
+    // Offset: 0x1951C94
     bool ReleasedThisFrame();
   }; // UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData
   #pragma pack(pop)

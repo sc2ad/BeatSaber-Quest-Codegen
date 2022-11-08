@@ -131,53 +131,53 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::TMPro::TextMeshProUGUI*>*& dyn__letterBtnTexts();
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2A8E248
+    // Offset: 0x2ABE584
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2A8E2EC
+    // Offset: 0x2ABE628
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x2A8E390
+    // Offset: 0x2ABE6CC
     void add_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x2A8E434
+    // Offset: 0x2ABE770
     void remove_keyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2A8E4D8
+    // Offset: 0x2ABE814
     void add_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x2A8E57C
+    // Offset: 0x2ABE8B8
     void remove_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x2A8EB04
+    // Offset: 0x2ABEE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A8E620
+    // Offset: 0x2ABE95C
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x2A8E894
+    // Offset: 0x2ABEBD0
     void HandleKeyPress(::UnityEngine::KeyCode keyCode);
     // private System.Void HandleCapsLockPressed()
-    // Offset: 0x2A8E990
+    // Offset: 0x2ABECCC
     void HandleCapsLockPressed();
     // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
-    // Offset: 0x2A8E9A8
+    // Offset: 0x2ABECE4
     void SetKeyboardCapitalization(bool capitalize);
     // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
-    // Offset: 0x2A8EAD8
+    // Offset: 0x2ABEE14
     bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
     // private System.Void OnEnable()
-    // Offset: 0x2A8EAF8
+    // Offset: 0x2ABEE34
     void OnEnable();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0x2A8EB6C
+    // Offset: 0x2ABEEA8
     void $Awake$b__13_0();
     // private System.Void <Awake>b__13_1()
-    // Offset: 0x2A8EB80
+    // Offset: 0x2ABEEBC
     void $Awake$b__13_1();
   }; // HMUI.UIKeyboard
   #pragma pack(pop)

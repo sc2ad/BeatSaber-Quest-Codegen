@@ -455,89 +455,89 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaType parentSchemaType
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaType*& dyn_parentSchemaType();
     // static System.Xml.Schema.XmlSchemaSimpleType get_AnySimpleType()
-    // Offset: 0x1ACA0B0
+    // Offset: 0x1AE8E3C
     static ::System::Xml::Schema::XmlSchemaSimpleType* get_AnySimpleType();
     // static System.Xml.Schema.XmlSchemaSimpleType get_UntypedAtomicType()
-    // Offset: 0x1ACA118
+    // Offset: 0x1AE8EA4
     static ::System::Xml::Schema::XmlSchemaSimpleType* get_UntypedAtomicType();
     // System.Type get_ListValueType()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Type* get_ListValueType();
     // static private System.Void .cctor()
-    // Offset: 0x1AC679C
+    // Offset: 0x1AE5528
     static void _cctor();
     // static System.Xml.Schema.DatatypeImplementation FromXmlTokenizedType(System.Xml.XmlTokenizedType token)
-    // Offset: 0x1ACA180
+    // Offset: 0x1AE8F0C
     static ::System::Xml::Schema::DatatypeImplementation* FromXmlTokenizedType(::System::Xml::XmlTokenizedType token);
     // static private System.Xml.Schema.DatatypeImplementation FromTypeName(System.String name)
-    // Offset: 0x1ACA214
+    // Offset: 0x1AE8FA0
     static ::System::Xml::Schema::DatatypeImplementation* FromTypeName(::StringW name);
     // static System.Xml.Schema.XmlSchemaSimpleType StartBuiltinType(System.Xml.XmlQualifiedName qname, System.Xml.Schema.XmlSchemaDatatype dataType)
-    // Offset: 0x1ACA2F4
+    // Offset: 0x1AE9080
     static ::System::Xml::Schema::XmlSchemaSimpleType* StartBuiltinType(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaDatatype* dataType);
     // static System.Void FinishBuiltinType(System.Xml.Schema.XmlSchemaSimpleType derivedType, System.Xml.Schema.XmlSchemaSimpleType baseType)
-    // Offset: 0x1ACA3C0
+    // Offset: 0x1AE914C
     static void FinishBuiltinType(::System::Xml::Schema::XmlSchemaSimpleType* derivedType, ::System::Xml::Schema::XmlSchemaSimpleType* baseType);
     // static System.Void CreateBuiltinTypes()
-    // Offset: 0x1AC9890
+    // Offset: 0x1AE861C
     static void CreateBuiltinTypes();
     // static System.Xml.Schema.XmlSchemaSimpleType GetSimpleTypeFromTypeCode(System.Xml.Schema.XmlTypeCode typeCode)
-    // Offset: 0x1ACA5D4
+    // Offset: 0x1AE9360
     static ::System::Xml::Schema::XmlSchemaSimpleType* GetSimpleTypeFromTypeCode(::System::Xml::Schema::XmlTypeCode typeCode);
     // System.Xml.Schema.XmlSchemaDatatype DeriveByList(System.Int32 minSize, System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1AC971C
+    // Offset: 0x1AE84A8
     ::System::Xml::Schema::XmlSchemaDatatype* DeriveByList(int minSize, ::System::Xml::Schema::XmlSchemaType* schemaType);
     // System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1ACA68C
+    // Offset: 0x1AE9418
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // System.String GetTypeName()
-    // Offset: 0x1ACA9CC
+    // Offset: 0x1AE9758
     ::StringW GetTypeName();
     // protected System.Int32 Compare(System.Byte[] value1, System.Byte[] value2)
-    // Offset: 0x1ACAA3C
+    // Offset: 0x1AE97C8
     int Compare(::ArrayW<uint8_t> value1, ::ArrayW<uint8_t> value2);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1ACA694
+    // Offset: 0x1AE9420
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.FacetsChecker XmlSchemaDatatype::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // override System.Xml.Schema.XmlValueConverter get_ValueConverter()
-    // Offset: 0x1ACA6FC
+    // Offset: 0x1AE9488
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlValueConverter XmlSchemaDatatype::get_ValueConverter()
     ::System::Xml::Schema::XmlValueConverter* get_ValueConverter();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1ACA73C
+    // Offset: 0x1AE94C8
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.XmlTokenizedType XmlSchemaDatatype::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public override System.Type get_ValueType()
-    // Offset: 0x1ACA744
+    // Offset: 0x1AE94D0
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Type XmlSchemaDatatype::get_ValueType()
     ::System::Type* get_ValueType();
     // public override System.Xml.Schema.XmlSchemaDatatypeVariety get_Variety()
-    // Offset: 0x1ACA7B4
+    // Offset: 0x1AE9540
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlSchemaDatatypeVariety XmlSchemaDatatype::get_Variety()
     ::System::Xml::Schema::XmlSchemaDatatypeVariety get_Variety();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1ACA7BC
+    // Offset: 0x1AE9548
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlTypeCode XmlSchemaDatatype::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // override System.Xml.Schema.RestrictionFacets get_Restriction()
-    // Offset: 0x1ACA7C4
+    // Offset: 0x1AE9550
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.RestrictionFacets XmlSchemaDatatype::get_Restriction()
     ::System::Xml::Schema::RestrictionFacets* get_Restriction();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1ACA7CC
+    // Offset: 0x1AE9558
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace XmlSchemaDatatype::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // protected System.Void .ctor()
-    // Offset: 0x1ACAAB8
+    // Offset: 0x1AE9844
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Void XmlSchemaDatatype::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -546,12 +546,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation*, creationType>()));
     }
     // override System.Boolean IsEqual(System.Object o1, System.Object o2)
-    // Offset: 0x1ACA668
+    // Offset: 0x1AE93F4
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Boolean XmlSchemaDatatype::IsEqual(System.Object o1, System.Object o2)
     bool IsEqual(::Il2CppObject* o1, ::Il2CppObject* o2);
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1ACA7D4
+    // Offset: 0x1AE9560
     // Implemented from: System.Xml.Schema.XmlSchemaDatatype
     // Base method: System.Object XmlSchemaDatatype::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);

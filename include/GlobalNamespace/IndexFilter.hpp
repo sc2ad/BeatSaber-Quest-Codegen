@@ -247,36 +247,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _count
     [[deprecated("Use field access instead!")]] int& dyn__count();
     // public System.Int32 get_Count()
-    // Offset: 0x13B14B8
+    // Offset: 0x13EDE44
     int get_Count();
     // public System.Int32 get_VisibleCount()
-    // Offset: 0x13B14C0
+    // Offset: 0x13EDE4C
     int get_VisibleCount();
     // public IndexFilter/IndexFilterLimitAlsoAffectType get_limitAlsoAffectType()
-    // Offset: 0x13B14C8
+    // Offset: 0x13EDE54
     ::GlobalNamespace::IndexFilter::IndexFilterLimitAlsoAffectType get_limitAlsoAffectType();
     // public System.Void .ctor(System.Int32 start, System.Int32 step, System.Int32 count, System.Int32 groupSize, IndexFilter/IndexFilterRandomType random, System.Int32 seed, System.Int32 chunkSize, System.Single limit, IndexFilter/IndexFilterLimitAlsoAffectType limitAlsoAffectType)
-    // Offset: 0x13B14D0
+    // Offset: 0x13EDE5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexFilter* New_ctor(int start, int step, int count, int groupSize, ::GlobalNamespace::IndexFilter::IndexFilterRandomType random, int seed, int chunkSize, float limit, ::GlobalNamespace::IndexFilter::IndexFilterLimitAlsoAffectType limitAlsoAffectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexFilter*, creationType>(start, step, count, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType)));
     }
     // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 groupSize, IndexFilter/IndexFilterRandomType random, System.Int32 seed, System.Int32 chunkSize, System.Single limit, IndexFilter/IndexFilterLimitAlsoAffectType limitAlsoAffectType)
-    // Offset: 0x13B15C4
+    // Offset: 0x13EDF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexFilter* New_ctor(int start, int end, int groupSize, ::GlobalNamespace::IndexFilter::IndexFilterRandomType random, int seed, int chunkSize, float limit, ::GlobalNamespace::IndexFilter::IndexFilterLimitAlsoAffectType limitAlsoAffectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexFilter*, creationType>(start, end, groupSize, random, seed, chunkSize, limit, limitAlsoAffectType)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.ValueTuple`3<System.Int32,System.Int32,System.Int32>> GetEnumerator()
-    // Offset: 0x13B16C4
+    // Offset: 0x13EE050
     ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int, int, int>>* GetEnumerator();
     // private System.Collections.Generic.IEnumerable`1<System.Int32> GetValues()
-    // Offset: 0x13B1760
+    // Offset: 0x13EE0EC
     ::System::Collections::Generic::IEnumerable_1<int>* GetValues();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13B1818
+    // Offset: 0x13EE1A4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // IndexFilter
   #pragma pack(pop)

@@ -216,23 +216,23 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Material> m_Material_values
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& dyn_m_Material_values();
     // public System.Void .ctor()
-    // Offset: 0x1C7DB90
+    // Offset: 0x1D00610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreferenceDictionary* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::PreferenceDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreferenceDictionary*, creationType>()));
     }
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x1C7C8B4
+    // Offset: 0x1CFF334
     void OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x1C7CB04
+    // Offset: 0x1CFF584
     void OnAfterDeserialize();
     // public System.Void SetDefaultValues()
-    // Offset: 0x1C7CEC0
+    // Offset: 0x1CFF940
     void SetDefaultValues();
     // public System.Boolean HasKey(System.String key)
-    // Offset: 0x1C7CF90
+    // Offset: 0x1CFFA10
     bool HasKey(::StringW key);
     // public System.Boolean HasKey(System.String key)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -244,7 +244,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, key);
     }
     // public System.Void DeleteKey(System.String key)
-    // Offset: 0x1C7D0AC
+    // Offset: 0x1CFFB2C
     void DeleteKey(::StringW key);
     // public T Get(System.String key, T fallback)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -265,61 +265,61 @@ namespace UnityEngine::ProBuilder {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, key, value);
     }
     // public System.Boolean GetBool(System.String key, System.Boolean fallback)
-    // Offset: 0x1C7D270
+    // Offset: 0x1CFFCF0
     bool GetBool(::StringW key, bool fallback);
     // public System.Int32 GetInt(System.String key, System.Int32 fallback)
-    // Offset: 0x1C7D308
+    // Offset: 0x1CFFD88
     int GetInt(::StringW key, int fallback);
     // public System.Single GetFloat(System.String key, System.Single fallback)
-    // Offset: 0x1C7D394
+    // Offset: 0x1CFFE14
     float GetFloat(::StringW key, float fallback);
     // public System.String GetString(System.String key, System.String fallback)
-    // Offset: 0x1C7D428
+    // Offset: 0x1CFFEA8
     ::StringW GetString(::StringW key, ::StringW fallback);
     // public UnityEngine.Color GetColor(System.String key, UnityEngine.Color fallback)
-    // Offset: 0x1C7D4B4
+    // Offset: 0x1CFFF34
     ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback);
     // public UnityEngine.Material GetMaterial(System.String key, UnityEngine.Material fallback)
-    // Offset: 0x1C7D56C
+    // Offset: 0x1CFFFEC
     ::UnityEngine::Material* GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
     // public System.Void SetBool(System.String key, System.Boolean value)
-    // Offset: 0x1C7D5F8
+    // Offset: 0x1D00078
     void SetBool(::StringW key, bool value);
     // public System.Void SetInt(System.String key, System.Int32 value)
-    // Offset: 0x1C7D6B4
+    // Offset: 0x1D00134
     void SetInt(::StringW key, int value);
     // public System.Void SetFloat(System.String key, System.Single value)
-    // Offset: 0x1C7D770
+    // Offset: 0x1D001F0
     void SetFloat(::StringW key, float value);
     // public System.Void SetString(System.String key, System.String value)
-    // Offset: 0x1C7D838
+    // Offset: 0x1D002B8
     void SetString(::StringW key, ::StringW value);
     // public System.Void SetColor(System.String key, UnityEngine.Color value)
-    // Offset: 0x1C7D8F4
+    // Offset: 0x1D00374
     void SetColor(::StringW key, ::UnityEngine::Color value);
     // public System.Void SetMaterial(System.String key, UnityEngine.Material value)
-    // Offset: 0x1C7D9EC
+    // Offset: 0x1D0046C
     void SetMaterial(::StringW key, ::UnityEngine::Material* value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Boolean> GetBoolDictionary()
-    // Offset: 0x1C7DAA8
+    // Offset: 0x1D00528
     ::System::Collections::Generic::Dictionary_2<::StringW, bool>* GetBoolDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Int32> GetIntDictionary()
-    // Offset: 0x1C7DAB0
+    // Offset: 0x1D00530
     ::System::Collections::Generic::Dictionary_2<::StringW, int>* GetIntDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.Single> GetFloatDictionary()
-    // Offset: 0x1C7DAB8
+    // Offset: 0x1D00538
     ::System::Collections::Generic::Dictionary_2<::StringW, float>* GetFloatDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetStringDictionary()
-    // Offset: 0x1C7DAC0
+    // Offset: 0x1D00540
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetStringDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Color> GetColorDictionary()
-    // Offset: 0x1C7DAC8
+    // Offset: 0x1D00548
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* GetColorDictionary();
     // public System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material> GetMaterialDictionary()
-    // Offset: 0x1C7DAD0
+    // Offset: 0x1D00550
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Material*>* GetMaterialDictionary();
     // public System.Void Clear()
-    // Offset: 0x1C7DAD8
+    // Offset: 0x1D00558
     void Clear();
   }; // UnityEngine.ProBuilder.PreferenceDictionary
   #pragma pack(pop)

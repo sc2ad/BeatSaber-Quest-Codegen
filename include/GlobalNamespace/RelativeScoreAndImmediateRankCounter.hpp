@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1100F14
+    // [InjectAttribute] Offset: 0x11167D8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1100F24
+    // [InjectAttribute] Offset: 0x11167E8
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
@@ -101,41 +101,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private RankModel/Rank <immediateRank>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RankModel::Rank& dyn_$immediateRank$k__BackingField();
     // public System.Single get_relativeScore()
-    // Offset: 0x148D99C
+    // Offset: 0x141DA68
     float get_relativeScore();
     // private System.Void set_relativeScore(System.Single value)
-    // Offset: 0x148D9A4
+    // Offset: 0x141DA70
     void set_relativeScore(float value);
     // public RankModel/Rank get_immediateRank()
-    // Offset: 0x148D9AC
+    // Offset: 0x141DA78
     ::GlobalNamespace::RankModel::Rank get_immediateRank();
     // private System.Void set_immediateRank(RankModel/Rank value)
-    // Offset: 0x148D9B4
+    // Offset: 0x141DA80
     void set_immediateRank(::GlobalNamespace::RankModel::Rank value);
     // public System.Void add_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x148D854
+    // Offset: 0x141D920
     void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
     // public System.Void remove_relativeScoreOrImmediateRankDidChangeEvent(System.Action value)
-    // Offset: 0x148D8F8
+    // Offset: 0x141D9C4
     void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x148DDD4
+    // Offset: 0x141DEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeScoreAndImmediateRankCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeScoreAndImmediateRankCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RelativeScoreAndImmediateRankCounter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x148D9BC
+    // Offset: 0x141DA88
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x148DAF0
+    // Offset: 0x141DBBC
     void OnDestroy();
     // private System.Void HandleScoreDidChange(System.Int32 scoreWithoutModifiers, System.Int32 scoreWithModifiers)
-    // Offset: 0x148DBF0
+    // Offset: 0x141DCBC
     void HandleScoreDidChange(int scoreWithoutModifiers, int scoreWithModifiers);
     // private System.Void UpdateRelativeScoreAndImmediateRank(System.Int32 score, System.Int32 modifiedScore, System.Int32 maxPossibleScore, System.Int32 maxPossibleModifiedScore)
-    // Offset: 0x148DD44
+    // Offset: 0x141DE10
     void UpdateRelativeScoreAndImmediateRank(int score, int modifiedScore, int maxPossibleScore, int maxPossibleModifiedScore);
   }; // RelativeScoreAndImmediateRankCounter
   #pragma pack(pop)

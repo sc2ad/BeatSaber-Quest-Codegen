@@ -57,19 +57,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.String assemblyString
     [[deprecated("Use field access instead!")]] ::StringW& dyn_assemblyString();
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
-    // Offset: 0x18CB62C
+    // Offset: 0x18EEDE0
     void Set(int assemId, ::StringW assemblyString);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18CB638
+    // Offset: 0x18EEDEC
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18CB68C
+    // Offset: 0x18EEE40
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18CB6D4
+    // Offset: 0x18EEE88
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18CB624
+    // Offset: 0x18EEDD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

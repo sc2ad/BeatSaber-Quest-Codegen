@@ -50,14 +50,14 @@ namespace GlobalNamespace {
   class LightRotationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10FF834
+    // [InjectAttribute] Offset: 0x1114F08
     // private readonly LightRotationGroup[] _lightRotationGroups
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::LightRotationGroup*> lightRotationGroups;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightRotationGroup*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF844
+    // [InjectAttribute] Offset: 0x1114F18
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x20
@@ -80,17 +80,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LightRotationGroupEffect> _lightRotationGroupEffects
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& dyn__lightRotationGroupEffects();
     // public System.Void .ctor()
-    // Offset: 0x146A7DC
+    // Offset: 0x150D4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x146A3F4
+    // Offset: 0x150CFD8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x146A6E8
+    // Offset: 0x150D3F8
     void OnDestroy();
   }; // LightRotationGroupEffectManager
   #pragma pack(pop)

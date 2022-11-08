@@ -51,17 +51,17 @@ namespace UnityEngine::TestTools::TestRunner {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter,NUnit.Framework.Interfaces.ITestFilter> <>9__7_0
     static void _set_$$9__7_0(::System::Func_2<::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, ::NUnit::Framework::Interfaces::ITestFilter*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x196499C
+    // Offset: 0x19982A8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1964A00
+    // Offset: 0x199830C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsControllerSettings::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsControllerSettings::$$c*, creationType>()));
     }
     // NUnit.Framework.Interfaces.ITestFilter <BuildNUnitFilter>b__7_0(UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter f)
-    // Offset: 0x1964A08
+    // Offset: 0x1998314
     ::NUnit::Framework::Interfaces::ITestFilter* $BuildNUnitFilter$b__7_0(::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter* f);
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings/UnityEngine.TestTools.TestRunner.<>c
   #pragma pack(pop)

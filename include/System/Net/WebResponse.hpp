@@ -73,42 +73,42 @@ namespace System::Net {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Uri get_ResponseUri()
-    // Offset: 0x1B5BB00
+    // Offset: 0x1B8FCAC
     ::System::Uri* get_ResponseUri();
     // public System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x1B5BB48
+    // Offset: 0x1B8FCF4
     ::System::Net::WebHeaderCollection* get_Headers();
     // protected System.Void .ctor()
-    // Offset: 0x1B5B940
+    // Offset: 0x1B8FAEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebResponse*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B5B948
+    // Offset: 0x1B8FAF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebResponse*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B5B950
+    // Offset: 0x1B8FAFC
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1B5B95C
+    // Offset: 0x1B8FB08
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
     // public System.Void Close()
-    // Offset: 0x1B5B960
+    // Offset: 0x1B8FB0C
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1B5B964
+    // Offset: 0x1B8FB10
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1B5B9E0
+    // Offset: 0x1B8FB8C
     void Dispose(bool disposing);
     // public System.IO.Stream GetResponseStream()
-    // Offset: 0x1B5BAB8
+    // Offset: 0x1B8FC64
     ::System::IO::Stream* GetResponseStream();
   }; // System.Net.WebResponse
   #pragma pack(pop)

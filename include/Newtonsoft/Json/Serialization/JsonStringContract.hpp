@@ -36,7 +36,7 @@ namespace Newtonsoft::Json::Serialization {
   class JsonStringContract : public ::Newtonsoft::Json::Serialization::JsonPrimitiveContract {
     public:
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x211751C
+    // Offset: 0x21078B4
     // Implemented from: Newtonsoft.Json.Serialization.JsonPrimitiveContract
     // Base method: System.Void JsonPrimitiveContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

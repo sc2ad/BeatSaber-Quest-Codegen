@@ -168,26 +168,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // public System.Void .ctor()
-    // Offset: 0x13A295C
+    // Offset: 0x138D42C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlickeringNeonSign* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlickeringNeonSign::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlickeringNeonSign*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13A26B0
+    // Offset: 0x138D180
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13A2730
+    // Offset: 0x138D200
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x13A2778
+    // Offset: 0x138D248
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x13A27A4
+    // Offset: 0x138D274
     ::System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x13A2840
+    // Offset: 0x138D310
     void SetOn(bool on);
   }; // FlickeringNeonSign
   #pragma pack(pop)

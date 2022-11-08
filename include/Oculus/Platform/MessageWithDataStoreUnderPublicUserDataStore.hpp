@@ -37,10 +37,10 @@ namespace Oculus::Platform {
   class MessageWithDataStoreUnderPublicUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
     public:
     // protected System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x19F66F8
+    // Offset: 0x1A05EF8
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x19F2224
+    // Offset: 0x1A01A24
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -50,7 +50,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithDataStoreUnderPublicUserDataStore*, creationType>(c_message)));
     }
     // public override System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataStore()
-    // Offset: 0x19F66B4
+    // Offset: 0x1A05EB4
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Collections.Generic.Dictionary`2<System.String,System.String> Message::GetDataStore()
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();

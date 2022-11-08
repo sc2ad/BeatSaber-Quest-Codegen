@@ -45,10 +45,10 @@ namespace Mono::Security::X509::Extensions {
     // Get instance field reference: private System.Byte[] aki
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_aki();
     // public System.Byte[] get_Identifier()
-    // Offset: 0x23AA708
+    // Offset: 0x23AC140
     ::ArrayW<uint8_t> get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x23AA4C8
+    // Offset: 0x23ABF00
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,17 +57,17 @@ namespace Mono::Security::X509::Extensions {
       return THROW_UNLESS((::il2cpp_utils::New<AuthorityKeyIdentifierExtension*, creationType>(extension)));
     }
     // protected override System.Void Decode()
-    // Offset: 0x23AA4D0
+    // Offset: 0x23ABF08
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Decode()
     void Decode();
     // protected override System.Void Encode()
-    // Offset: 0x23AA5E8
+    // Offset: 0x23AC020
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Encode()
     void Encode();
     // public override System.String ToString()
-    // Offset: 0x23AA784
+    // Offset: 0x23AC1BC
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.String X509Extension::ToString()
     ::StringW ToString();

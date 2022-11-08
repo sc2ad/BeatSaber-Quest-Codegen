@@ -52,21 +52,21 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Byte[] key
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_key();
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x1648E90
+    // Offset: 0x164DBA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x16490A8
+    // Offset: 0x164DDC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyParameter* New_ctor(::ArrayW<uint8_t> key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::KeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyParameter*, creationType>(key, keyOff, keyLen)));
     }
     // public System.Byte[] GetKey()
-    // Offset: 0x164D010
+    // Offset: 0x1651D28
     ::ArrayW<uint8_t> GetKey();
   }; // Org.BouncyCastle.Crypto.Parameters.KeyParameter
   #pragma pack(pop)

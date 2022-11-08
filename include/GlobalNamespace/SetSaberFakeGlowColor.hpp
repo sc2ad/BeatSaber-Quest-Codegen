@@ -50,8 +50,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Color tintColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0x1104904
-    // [NullAllowed] Offset: 0x1104904
+    // [SpaceAttribute] Offset: 0x111A1C8
+    // [NullAllowed] Offset: 0x111A1C8
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x28
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Parametric3SliceSpriteController* parametric3SliceSprite;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Parametric3SliceSpriteController*) == 0x8);
-    // [InjectAttribute] Offset: 0x110495C
+    // [InjectAttribute] Offset: 0x111A220
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
@@ -91,20 +91,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x13C39C8
+    // Offset: 0x13FB1C8
     void set_saberType(::GlobalNamespace::SaberType value);
     // public System.Void .ctor()
-    // Offset: 0x13C3AC4
+    // Offset: 0x1408DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberFakeGlowColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberFakeGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberFakeGlowColor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C3A34
+    // Offset: 0x1408D2C
     void Start();
     // private System.Void SetColors()
-    // Offset: 0x13C39D4
+    // Offset: 0x1408CCC
     void SetColors();
   }; // SetSaberFakeGlowColor
   #pragma pack(pop)

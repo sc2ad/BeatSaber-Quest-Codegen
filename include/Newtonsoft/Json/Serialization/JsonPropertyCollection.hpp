@@ -68,26 +68,26 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.JsonProperty> _list
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>*& dyn__list();
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x1DBC6D0
+    // Offset: 0x1DDEB30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonPropertyCollection* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonPropertyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonPropertyCollection*, creationType>(type)));
     }
     // protected System.String GetKeyForItem(Newtonsoft.Json.Serialization.JsonProperty item)
-    // Offset: 0x1DBD644
+    // Offset: 0x1DDFAA4
     ::StringW GetKeyForItem(::Newtonsoft::Json::Serialization::JsonProperty* item);
     // public System.Void AddProperty(Newtonsoft.Json.Serialization.JsonProperty property)
-    // Offset: 0x1DBD65C
+    // Offset: 0x1DDFABC
     void AddProperty(::Newtonsoft::Json::Serialization::JsonProperty* property);
     // public Newtonsoft.Json.Serialization.JsonProperty GetClosestMatchProperty(System.String propertyName)
-    // Offset: 0x1DBD87C
+    // Offset: 0x1DDFCDC
     ::Newtonsoft::Json::Serialization::JsonProperty* GetClosestMatchProperty(::StringW propertyName);
     // private System.Boolean TryGetValue(System.String key, out Newtonsoft.Json.Serialization.JsonProperty item)
-    // Offset: 0x1DBD9AC
+    // Offset: 0x1DDFE0C
     bool TryGetValue(::StringW key, ByRef<::Newtonsoft::Json::Serialization::JsonProperty*> item);
     // public Newtonsoft.Json.Serialization.JsonProperty GetProperty(System.String propertyName, System.StringComparison comparisonType)
-    // Offset: 0x1DBD8C0
+    // Offset: 0x1DDFD20
     ::Newtonsoft::Json::Serialization::JsonProperty* GetProperty(::StringW propertyName, ::System::StringComparison comparisonType);
   }; // Newtonsoft.Json.Serialization.JsonPropertyCollection
   // WARNING Not writing size check since size may be invalid!

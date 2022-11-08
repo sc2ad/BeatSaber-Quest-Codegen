@@ -85,14 +85,14 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor()
-    // Offset: 0x18B6294
+    // Offset: 0x18D9A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializationOperation::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializationOperation::$$c__DisplayClass18_0*, creationType>()));
     }
     // System.Void <LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op)
-    // Offset: 0x18B66C0
+    // Offset: 0x18D9E74
     void $LoadContentCatalogInternal$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
   }; // UnityEngine.AddressableAssets.Initialization.InitializationOperation/UnityEngine.AddressableAssets.Initialization.<>c__DisplayClass18_0
   #pragma pack(pop)

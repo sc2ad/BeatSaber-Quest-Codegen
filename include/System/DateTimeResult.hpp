@@ -183,16 +183,16 @@ namespace System {
     // Get instance field reference: System.String failureArgumentName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_failureArgumentName();
     // System.Void Init()
-    // Offset: 0x23019F4
+    // Offset: 0x2334728
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0x230472C
+    // Offset: 0x2337460
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0x2301DF8
+    // Offset: 0x2334B2C
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0x2301DE8
+    // Offset: 0x2334B1C
     void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)

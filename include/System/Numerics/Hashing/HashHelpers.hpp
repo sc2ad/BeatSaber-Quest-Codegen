@@ -27,10 +27,10 @@ namespace System::Numerics::Hashing {
     // Set static field: static public readonly System.Int32 RandomSeed
     static void _set_RandomSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x22575D0
+    // Offset: 0x22D3B18
     static void _cctor();
     // static public System.Int32 Combine(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x22575C0
+    // Offset: 0x22D3B08
     static int Combine(int h1, int h2);
   }; // System.Numerics.Hashing.HashHelpers
   #pragma pack(pop)

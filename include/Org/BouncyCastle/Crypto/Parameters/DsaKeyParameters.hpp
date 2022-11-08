@@ -50,25 +50,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::DsaParameters*& dyn_parameters();
     // public Org.BouncyCastle.Crypto.Parameters.DsaParameters get_Parameters()
-    // Offset: 0x164938C
+    // Offset: 0x164E0A4
     ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DsaParameters parameters)
-    // Offset: 0x164935C
+    // Offset: 0x164E074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DsaKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DsaKeyParameters other)
-    // Offset: 0x1649444
+    // Offset: 0x164E15C
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1649394
+    // Offset: 0x164E0AC
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x164949C
+    // Offset: 0x164E1B4
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

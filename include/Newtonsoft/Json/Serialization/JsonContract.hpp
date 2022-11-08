@@ -248,89 +248,89 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <DefaultCreatorNonPublic>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$DefaultCreatorNonPublic$k__BackingField();
     // public System.Type get_UnderlyingType()
-    // Offset: 0x1DBA454
+    // Offset: 0x1DDC8B4
     ::System::Type* get_UnderlyingType();
     // private System.Void set_UnderlyingType(System.Type value)
-    // Offset: 0x1DBA45C
+    // Offset: 0x1DDC8BC
     void set_UnderlyingType(::System::Type* value);
     // public System.Type get_CreatedType()
-    // Offset: 0x1DBA464
+    // Offset: 0x1DDC8C4
     ::System::Type* get_CreatedType();
     // public System.Void set_CreatedType(System.Type value)
-    // Offset: 0x1DB9C74
+    // Offset: 0x1DDC0D4
     void set_CreatedType(::System::Type* value);
     // public System.Nullable`1<System.Boolean> get_IsReference()
-    // Offset: 0x1DBA46C
+    // Offset: 0x1DDC8CC
     ::System::Nullable_1<bool> get_IsReference();
     // public System.Void set_IsReference(System.Nullable`1<System.Boolean> value)
-    // Offset: 0x1DBA474
+    // Offset: 0x1DDC8D4
     void set_IsReference(::System::Nullable_1<bool> value);
     // public Newtonsoft.Json.JsonConverter get_Converter()
-    // Offset: 0x1DBA47C
+    // Offset: 0x1DDC8DC
     ::Newtonsoft::Json::JsonConverter* get_Converter();
     // public System.Void set_Converter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1DBA484
+    // Offset: 0x1DDC8E4
     void set_Converter(::Newtonsoft::Json::JsonConverter* value);
     // Newtonsoft.Json.JsonConverter get_InternalConverter()
-    // Offset: 0x1DBA48C
+    // Offset: 0x1DDC8EC
     ::Newtonsoft::Json::JsonConverter* get_InternalConverter();
     // System.Void set_InternalConverter(Newtonsoft.Json.JsonConverter value)
-    // Offset: 0x1DBA494
+    // Offset: 0x1DDC8F4
     void set_InternalConverter(::Newtonsoft::Json::JsonConverter* value);
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnDeserializedCallbacks()
-    // Offset: 0x1DBA49C
+    // Offset: 0x1DDC8FC
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializedCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnDeserializingCallbacks()
-    // Offset: 0x1DBA510
+    // Offset: 0x1DDC970
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializingCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnSerializedCallbacks()
-    // Offset: 0x1DBA584
+    // Offset: 0x1DDC9E4
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializedCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnSerializingCallbacks()
-    // Offset: 0x1DBA5F8
+    // Offset: 0x1DDCA58
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializingCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationErrorCallback> get_OnErrorCallbacks()
-    // Offset: 0x1DBA66C
+    // Offset: 0x1DDCACC
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* get_OnErrorCallbacks();
     // public System.Func`1<System.Object> get_DefaultCreator()
-    // Offset: 0x1DBA6E0
+    // Offset: 0x1DDCB40
     ::System::Func_1<::Il2CppObject*>* get_DefaultCreator();
     // public System.Void set_DefaultCreator(System.Func`1<System.Object> value)
-    // Offset: 0x1DBA6E8
+    // Offset: 0x1DDCB48
     void set_DefaultCreator(::System::Func_1<::Il2CppObject*>* value);
     // public System.Boolean get_DefaultCreatorNonPublic()
-    // Offset: 0x1DBA6F0
+    // Offset: 0x1DDCB50
     bool get_DefaultCreatorNonPublic();
     // public System.Void set_DefaultCreatorNonPublic(System.Boolean value)
-    // Offset: 0x1DBA6F8
+    // Offset: 0x1DDCB58
     void set_DefaultCreatorNonPublic(bool value);
     // System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1DBA30C
+    // Offset: 0x1DDC76C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonContract* New_ctor(::System::Type* underlyingType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonContract::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonContract*, creationType>(underlyingType)));
     }
     // System.Void InvokeOnSerializing(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DBA704
+    // Offset: 0x1DDCB64
     void InvokeOnSerializing(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnSerialized(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DBA980
+    // Offset: 0x1DDCDE0
     void InvokeOnSerialized(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DBABFC
+    // Offset: 0x1DDD05C
     void InvokeOnDeserializing(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DBAE78
+    // Offset: 0x1DDD2D8
     void InvokeOnDeserialized(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnError(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext errorContext)
-    // Offset: 0x1DBAF94
+    // Offset: 0x1DDD3F4
     void InvokeOnError(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
     // static Newtonsoft.Json.Serialization.SerializationCallback CreateSerializationCallback(System.Reflection.MethodInfo callbackMethodInfo)
-    // Offset: 0x1DBB220
+    // Offset: 0x1DDD680
     static ::Newtonsoft::Json::Serialization::SerializationCallback* CreateSerializationCallback(::System::Reflection::MethodInfo* callbackMethodInfo);
     // static Newtonsoft.Json.Serialization.SerializationErrorCallback CreateSerializationErrorCallback(System.Reflection.MethodInfo callbackMethodInfo)
-    // Offset: 0x1DBB2C0
+    // Offset: 0x1DDD720
     static ::Newtonsoft::Json::Serialization::SerializationErrorCallback* CreateSerializationErrorCallback(::System::Reflection::MethodInfo* callbackMethodInfo);
   }; // Newtonsoft.Json.Serialization.JsonContract
   // WARNING Not writing size check since size may be invalid!

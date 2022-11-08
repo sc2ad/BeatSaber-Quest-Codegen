@@ -38,7 +38,7 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.Boolean everythingOK
     [[deprecated("Use field access instead!")]] bool& dyn_everythingOK();
     // public System.Void .ctor()
-    // Offset: 0x15A76FC
+    // Offset: 0x136EC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto::.ctor");

@@ -58,23 +58,23 @@ namespace Zenject {
     // Get instance field reference: private Zenject.NoTransitionInstaller _noScenesTransitionInstaller
     [[deprecated("Use field access instead!")]] ::Zenject::NoTransitionInstaller*& dyn__noScenesTransitionInstaller();
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0x1C41A28
+    // Offset: 0x1CAFF74
     ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
     // public System.Action`1<Zenject.DiContainer> get_postInstallMethod()
-    // Offset: 0x1C41AA8
+    // Offset: 0x1CAFFF4
     ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
     // public System.Void .ctor()
-    // Offset: 0x1C41BA8
+    // Offset: 0x1CB00F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionContext*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1C41B28
+    // Offset: 0x1CB0074
     void Awake();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C41BB0
+    // Offset: 0x1CB00FC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.NoTransitionContext
   #pragma pack(pop)

@@ -54,19 +54,19 @@ namespace System::Text {
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
-    // Offset: 0x1F0C990
+    // Offset: 0x1F52210
     static ::System::Text::Encoding* get_UTF8Unmarked();
     // static private System.Void .cctor()
-    // Offset: 0x1F0CB6C
+    // Offset: 0x1F523EC
     static void _cctor();
     // static System.String InternalCodePage(ref System.Int32 code_page)
-    // Offset: 0x1F0CB68
+    // Offset: 0x1F523E8
     static ::StringW InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
-    // Offset: 0x1F0B224
+    // Offset: 0x1F50AA4
     static ::System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
-    // Offset: 0x1F09744
+    // Offset: 0x1F4EFC4
     static ::Il2CppObject* InvokeI18N(::StringW name, ::ArrayW<::Il2CppObject*> args);
   }; // System.Text.EncodingHelper
   #pragma pack(pop)

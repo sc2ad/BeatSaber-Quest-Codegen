@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BombExecutionRating/Rating <rating>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BombExecutionRating::Rating& dyn_$rating$k__BackingField();
     // public BombExecutionRating/Rating get_rating()
-    // Offset: 0x1385F70
+    // Offset: 0x13D9AA4
     ::GlobalNamespace::BombExecutionRating::Rating get_rating();
     // public System.Void .ctor(System.Single time, BombExecutionRating/Rating rating)
-    // Offset: 0x1385F78
+    // Offset: 0x13D9AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombExecutionRating* New_ctor(float time, ::GlobalNamespace::BombExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombExecutionRating::.ctor");

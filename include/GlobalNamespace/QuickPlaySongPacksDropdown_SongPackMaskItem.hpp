@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SongPackMask songPackMask
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongPackMask& dyn_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0x148843C
+    // Offset: 0x1418494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySongPacksDropdown::SongPackMaskItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::.ctor");

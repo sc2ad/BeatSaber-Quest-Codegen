@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Object typedValue
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_typedValue();
     // public System.Xml.Schema.XmlSchemaSimpleType get_XmlType()
-    // Offset: 0x2116440
+    // Offset: 0x21057D8
     ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
     // public System.Object get_TypedValue()
-    // Offset: 0x2116448
+    // Offset: 0x21057E0
     ::Il2CppObject* get_TypedValue();
   }; // System.Xml.Schema.XsdSimpleValue
   #pragma pack(pop)

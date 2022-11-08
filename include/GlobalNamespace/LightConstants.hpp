@@ -5,6 +5,8 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+// Including type: System.Int32
+#include "System/Int32.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +31,12 @@ namespace GlobalNamespace {
     public:
     // Nested type: ::GlobalNamespace::LightConstants::BakeId
     struct BakeId;
+    // static field const value: static public System.Int32 kBaseLightId
+    static constexpr const int kBaseLightId = 25;
+    // Get static field: static public System.Int32 kBaseLightId
+    static int _get_kBaseLightId();
+    // Set static field: static public System.Int32 kBaseLightId
+    static void _set_kBaseLightId(int value);
   }; // LightConstants
   #pragma pack(pop)
 }

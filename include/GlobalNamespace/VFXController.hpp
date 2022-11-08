@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
     public:
-    // [NullAllowed] Offset: 0x10D2D64
+    // [NullAllowed] Offset: 0x10E8250
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [NullAllowed] Offset: 0x10D2D9C
+    // [NullAllowed] Offset: 0x10E8288
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x20
@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
     [[deprecated("Use field access instead!")]] bool& dyn__deactivateAfterAnimationDuration();
     // public UnityEngine.Animation get_animation()
-    // Offset: 0x2A869DC
+    // Offset: 0x2AB6D18
     ::UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
-    // Offset: 0x2A869E4
+    // Offset: 0x2AB6D20
     ::ArrayW<::UnityEngine::ParticleSystem*> get_particleSystems();
     // public System.Void .ctor()
-    // Offset: 0x2A86C04
+    // Offset: 0x2AB6F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2A869EC
+    // Offset: 0x2AB6D28
     void Awake();
     // public System.Void Play()
-    // Offset: 0x2A86A14
+    // Offset: 0x2AB6D50
     void Play();
     // private System.Collections.IEnumerator MainCoroutine(System.Boolean deactivateAfterDuration, System.Single duration)
-    // Offset: 0x2A86B44
+    // Offset: 0x2AB6E80
     ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float duration);
   }; // VFXController
   #pragma pack(pop)

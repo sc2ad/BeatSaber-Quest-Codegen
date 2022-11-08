@@ -109,64 +109,64 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.UInt32 nanoseconds
     [[deprecated("Use field access instead!")]] uint& dyn_nanoseconds();
     // public System.Boolean get_IsNegative()
-    // Offset: 0x2115844
+    // Offset: 0x2104BDC
     bool get_IsNegative();
     // public System.Int32 get_Years()
-    // Offset: 0x2115850
+    // Offset: 0x2104BE8
     int get_Years();
     // public System.Int32 get_Months()
-    // Offset: 0x2115858
+    // Offset: 0x2104BF0
     int get_Months();
     // public System.Int32 get_Days()
-    // Offset: 0x2115860
+    // Offset: 0x2104BF8
     int get_Days();
     // public System.Int32 get_Hours()
-    // Offset: 0x2115868
+    // Offset: 0x2104C00
     int get_Hours();
     // public System.Int32 get_Minutes()
-    // Offset: 0x2115870
+    // Offset: 0x2104C08
     int get_Minutes();
     // public System.Int32 get_Seconds()
-    // Offset: 0x2115878
+    // Offset: 0x2104C10
     int get_Seconds();
     // public System.Int32 get_Nanoseconds()
-    // Offset: 0x2115838
+    // Offset: 0x2104BD0
     int get_Nanoseconds();
     // public System.Void .ctor(System.Boolean isNegative, System.Int32 years, System.Int32 months, System.Int32 days, System.Int32 hours, System.Int32 minutes, System.Int32 seconds, System.Int32 nanoseconds)
-    // Offset: 0x2114CF0
+    // Offset: 0x2104088
     XsdDuration(bool isNegative, int years, int months, int days, int hours, int minutes, int seconds, int nanoseconds);
     // public System.Void .ctor(System.TimeSpan timeSpan)
-    // Offset: 0x2114E98
+    // Offset: 0x2104230
     XsdDuration(::System::TimeSpan timeSpan);
     // public System.Void .ctor(System.TimeSpan timeSpan, System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType)
-    // Offset: 0x2114F5C
+    // Offset: 0x21042F4
     XsdDuration(::System::TimeSpan timeSpan, ::System::Xml::Schema::XsdDuration::DurationType durationType);
     // public System.Void .ctor(System.String s, System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType)
-    // Offset: 0x21150C0
+    // Offset: 0x2104458
     XsdDuration(::StringW s, ::System::Xml::Schema::XsdDuration::DurationType durationType);
     // public System.TimeSpan ToTimeSpan(System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType)
-    // Offset: 0x2115880
+    // Offset: 0x2104C18
     ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration::DurationType durationType);
     // System.Exception TryToTimeSpan(out System.TimeSpan result)
-    // Offset: 0x2115E1C
+    // Offset: 0x21051B4
     ::System::Exception* TryToTimeSpan(ByRef<::System::TimeSpan> result);
     // System.Exception TryToTimeSpan(System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType, out System.TimeSpan result)
-    // Offset: 0x21158F8
+    // Offset: 0x2104C90
     ::System::Exception* TryToTimeSpan(::System::Xml::Schema::XsdDuration::DurationType durationType, ByRef<::System::TimeSpan> result);
     // System.String ToString(System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType)
-    // Offset: 0x2115E30
+    // Offset: 0x21051C8
     ::StringW ToString(::System::Xml::Schema::XsdDuration::DurationType durationType);
     // static System.Exception TryParse(System.String s, out System.Xml.Schema.XsdDuration result)
-    // Offset: 0x2116270
+    // Offset: 0x2105608
     static ::System::Exception* TryParse(::StringW s, ByRef<::System::Xml::Schema::XsdDuration> result);
     // static System.Exception TryParse(System.String s, System.Xml.Schema.XsdDuration/System.Xml.Schema.DurationType durationType, out System.Xml.Schema.XsdDuration result)
-    // Offset: 0x2115178
+    // Offset: 0x2104510
     static ::System::Exception* TryParse(::StringW s, ::System::Xml::Schema::XsdDuration::DurationType durationType, ByRef<::System::Xml::Schema::XsdDuration> result);
     // static private System.String TryParseDigits(System.String s, ref System.Int32 offset, System.Boolean eatDigits, out System.Int32 result, out System.Int32 numDigits)
-    // Offset: 0x211627C
+    // Offset: 0x2105614
     static ::StringW TryParseDigits(::StringW s, ByRef<int> offset, bool eatDigits, ByRef<int> result, ByRef<int> numDigits);
     // public override System.String ToString()
-    // Offset: 0x2115E28
+    // Offset: 0x21051C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

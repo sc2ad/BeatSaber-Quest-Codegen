@@ -107,47 +107,47 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Byte[] S
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_S();
     // public System.Void .ctor()
-    // Offset: 0x1E717FC
+    // Offset: 0x1E8FD34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost28147Mac* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::Gost28147Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost28147Mac*, creationType>()));
     }
     // static private System.Int32[] GenerateWorkingKey(System.Byte[] userKey)
-    // Offset: 0x1E718B0
+    // Offset: 0x1E8FDE8
     static ::ArrayW<int> GenerateWorkingKey(::ArrayW<uint8_t> userKey);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E71A34
+    // Offset: 0x1E8FF6C
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1E71CE4
+    // Offset: 0x1E9021C
     int GetMacSize();
     // private System.Int32 gost28147_mainStep(System.Int32 n1, System.Int32 key)
-    // Offset: 0x1E71CEC
+    // Offset: 0x1E90224
     int gost28147_mainStep(int n1, int key);
     // private System.Void gost28147MacFunc(System.Int32[] workingKey, System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E71DE0
+    // Offset: 0x1E90318
     void gost28147MacFunc(::ArrayW<int> workingKey, ::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // static private System.Int32 bytesToint(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1E719B4
+    // Offset: 0x1E8FEEC
     static int bytesToint(::ArrayW<uint8_t> input, int inOff);
     // static private System.Void intTobytes(System.Int32 num, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E71ED0
+    // Offset: 0x1E90408
     static void intTobytes(int num, ::ArrayW<uint8_t> output, int outOff);
     // static private System.Byte[] CM5func(System.Byte[] buf, System.Int32 bufOff, System.Byte[] mac)
-    // Offset: 0x1E71F5C
+    // Offset: 0x1E90494
     static ::ArrayW<uint8_t> CM5func(::ArrayW<uint8_t> buf, int bufOff, ::ArrayW<uint8_t> mac);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E72050
+    // Offset: 0x1E90588
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E72178
+    // Offset: 0x1E906B0
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E72388
+    // Offset: 0x1E908C0
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E71CA0
+    // Offset: 0x1E901D8
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.Gost28147Mac
   #pragma pack(pop)

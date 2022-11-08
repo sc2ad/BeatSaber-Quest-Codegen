@@ -78,27 +78,27 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type m_ResourceType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_ResourceType();
     // public System.Void .ctor()
-    // Offset: 0x18AC04C
+    // Offset: 0x18CF800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::LoadResourceLocationKeyOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeyOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeyOp*, creationType>()));
     }
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Object keys)
-    // Offset: 0x18AC09C
+    // Offset: 0x18CF850
     void Init(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::System::Type* t, ::Il2CppObject* keys);
     // protected override System.String get_DebugName()
-    // Offset: 0x18B0288
+    // Offset: 0x18D3A3C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x18B02A8
+    // Offset: 0x18D3A5C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x18B0324
+    // Offset: 0x18D3AD8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

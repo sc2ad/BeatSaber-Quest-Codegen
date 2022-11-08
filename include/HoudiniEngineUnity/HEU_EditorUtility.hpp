@@ -61,58 +61,58 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions
     struct HEU_ReplacePrefabOptions;
     // static public System.Void MarkSceneDirty()
-    // Offset: 0x1790634
+    // Offset: 0x17C64DC
     static void MarkSceneDirty();
     // static public System.Void SelectObject(UnityEngine.GameObject gameObject)
-    // Offset: 0x1790638
+    // Offset: 0x17C64E0
     static void SelectObject(::UnityEngine::GameObject* gameObject);
     // static public System.Void SelectObjects(UnityEngine.GameObject[] gameObjects)
-    // Offset: 0x179063C
+    // Offset: 0x17C64E4
     static void SelectObjects(::ArrayW<::UnityEngine::GameObject*> gameObjects);
     // static public UnityEngine.Vector3 GetSelectedObjectsMeanPosition()
-    // Offset: 0x1790640
+    // Offset: 0x17C64E8
     static ::UnityEngine::Vector3 GetSelectedObjectsMeanPosition();
     // static public UnityEngine.Matrix4x4 GetSelectedObjectsMeanTransform()
-    // Offset: 0x17906A0
+    // Offset: 0x17C6548
     static ::UnityEngine::Matrix4x4 GetSelectedObjectsMeanTransform();
     // static public UnityEngine.GameObject SaveAsPrefabAsset(System.String path, UnityEngine.GameObject go)
-    // Offset: 0x1790708
+    // Offset: 0x17C65B0
     static ::UnityEngine::GameObject* SaveAsPrefabAsset(::StringW path, ::UnityEngine::GameObject* go);
     // static public System.Boolean PrefabIsAddedComponentOverride(UnityEngine.Component comp)
-    // Offset: 0x179075C
+    // Offset: 0x17C6604
     static bool PrefabIsAddedComponentOverride(::UnityEngine::Component* comp);
     // static public System.Boolean IsEditorPlaying()
-    // Offset: 0x1790764
+    // Offset: 0x17C660C
     static bool IsEditorPlaying();
     // static public UnityEngine.GameObject ReplacePrefab(UnityEngine.GameObject go, UnityEngine.Object targetPrefab, HoudiniEngineUnity.HEU_EditorUtility/HoudiniEngineUnity.HEU_ReplacePrefabOptions heuOptions)
-    // Offset: 0x179076C
+    // Offset: 0x17C6614
     static ::UnityEngine::GameObject* ReplacePrefab(::UnityEngine::GameObject* go, ::UnityEngine::Object* targetPrefab, ::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions heuOptions);
     // static public System.Boolean IsPrefabInstance(UnityEngine.GameObject go)
-    // Offset: 0x17907C0
+    // Offset: 0x17C6668
     static bool IsPrefabInstance(::UnityEngine::GameObject* go);
     // static public System.Boolean IsPrefabAsset(UnityEngine.GameObject go)
-    // Offset: 0x1790814
+    // Offset: 0x17C66BC
     static bool IsPrefabAsset(::UnityEngine::GameObject* go);
     // static public System.Boolean IsEditingInPrefabMode(UnityEngine.GameObject obj)
-    // Offset: 0x1790868
+    // Offset: 0x17C6710
     static bool IsEditingInPrefabMode(::UnityEngine::GameObject* obj);
     // static public System.Boolean IsDisconnectedPrefabInstance(UnityEngine.GameObject go)
-    // Offset: 0x1790870
+    // Offset: 0x17C6718
     static bool IsDisconnectedPrefabInstance(::UnityEngine::GameObject* go);
     // static public UnityEngine.Object GetPrefabAsset(UnityEngine.GameObject go)
-    // Offset: 0x17908C4
+    // Offset: 0x17C676C
     static ::UnityEngine::Object* GetPrefabAsset(::UnityEngine::GameObject* go);
     // static public System.String GetPrefabAssetPath(UnityEngine.Object obj)
-    // Offset: 0x1790918
+    // Offset: 0x17C67C0
     static ::StringW GetPrefabAssetPath(::UnityEngine::Object* obj);
     // static public System.Void DisconnectPrefabInstance(UnityEngine.GameObject instance)
-    // Offset: 0x179096C
+    // Offset: 0x17C6814
     static void DisconnectPrefabInstance(::UnityEngine::GameObject* instance);
     // static public UnityEngine.Object InstantiatePrefab(UnityEngine.GameObject prefabOriginal)
-    // Offset: 0x17909B8
+    // Offset: 0x17C6860
     static ::UnityEngine::Object* InstantiatePrefab(::UnityEngine::GameObject* prefabOriginal);
     // static public UnityEngine.GameObject InstantiateGameObject(UnityEngine.GameObject sourceGameObject, UnityEngine.Transform parentTransform, System.Boolean instantiateInWorldSpace, System.Boolean bRegisterUndo)
-    // Offset: 0x1790A0C
+    // Offset: 0x17C68B4
     static ::UnityEngine::GameObject* InstantiateGameObject(::UnityEngine::GameObject* sourceGameObject, ::UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace, bool bRegisterUndo);
     // static public UnityEngine.Component AddComponent(UnityEngine.GameObject target, System.Boolean bRegisterUndo)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -124,112 +124,112 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, target, bRegisterUndo);
     }
     // static public System.Void UndoRecordObject(UnityEngine.Object objectToUndo, System.String name)
-    // Offset: 0x1790A94
+    // Offset: 0x17C693C
     static void UndoRecordObject(::UnityEngine::Object* objectToUndo, ::StringW name);
     // static public System.Void UndoCollapseCurrentGroup()
-    // Offset: 0x1790A98
+    // Offset: 0x17C6940
     static void UndoCollapseCurrentGroup();
     // static public UnityEngine.Object[] CollectDependencies(UnityEngine.Object obj)
-    // Offset: 0x1790A9C
+    // Offset: 0x17C6944
     static ::ArrayW<::UnityEngine::Object*> CollectDependencies(::UnityEngine::Object* obj);
     // static public System.Boolean IsPersistant(UnityEngine.Object obj)
-    // Offset: 0x1790AF0
+    // Offset: 0x17C6998
     static bool IsPersistant(::UnityEngine::Object* obj);
     // static public System.String GetUniqueNameForSibling(UnityEngine.Transform parentTransform, System.String name)
-    // Offset: 0x1790B44
+    // Offset: 0x17C69EC
     static ::StringW GetUniqueNameForSibling(::UnityEngine::Transform* parentTransform, ::StringW name);
     // static public System.Void DisplayProgressBar(System.String title, System.String info, System.Single progress)
-    // Offset: 0x1790B98
+    // Offset: 0x17C6A40
     static void DisplayProgressBar(::StringW title, ::StringW info, float progress);
     // static public System.Void ClearProgressBar()
-    // Offset: 0x1790BE4
+    // Offset: 0x17C6A8C
     static void ClearProgressBar();
     // static public System.Boolean IsEditorNotInPlayModeAndNotGoingToPlayMode()
-    // Offset: 0x1790C30
+    // Offset: 0x17C6AD8
     static bool IsEditorNotInPlayModeAndNotGoingToPlayMode();
     // static public System.Boolean DisplayDialog(System.String title, System.String message, System.String ok, System.String cancel)
-    // Offset: 0x1790C64
+    // Offset: 0x17C6B0C
     static bool DisplayDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
     // static public System.Boolean DisplayErrorDialog(System.String title, System.String message, System.String ok, System.String cancel)
-    // Offset: 0x1790CD8
+    // Offset: 0x17C6B80
     static bool DisplayErrorDialog(::StringW title, ::StringW message, ::StringW ok, ::StringW cancel);
     // static public System.Void RevealInFinder(System.String path)
-    // Offset: 0x1790D58
+    // Offset: 0x17C6C00
     static void RevealInFinder(::StringW path);
     // static public System.Void SetObjectDirtyForEditorUpdate(UnityEngine.Object obj)
-    // Offset: 0x1790D5C
+    // Offset: 0x17C6C04
     static void SetObjectDirtyForEditorUpdate(::UnityEngine::Object* obj);
     // static public System.Void SetStatic(UnityEngine.GameObject go, System.Boolean bStatic, System.Boolean bIncludeChildren)
-    // Offset: 0x1790D60
+    // Offset: 0x17C6C08
     static void SetStatic(::UnityEngine::GameObject* go, bool bStatic, bool bIncludeChildren);
     // static public System.Void SetIsHidden(UnityEngine.GameObject go, System.Boolean isHidden, System.Boolean bIncludeChildren)
-    // Offset: 0x1790D64
+    // Offset: 0x17C6C0C
     static void SetIsHidden(::UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
     // static public UnityEngine.GameObject[] GetSelectedObjects()
-    // Offset: 0x1790D68
+    // Offset: 0x17C6C10
     static ::ArrayW<::UnityEngine::GameObject*> GetSelectedObjects();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetSelectedAssetRoots()
-    // Offset: 0x1790D70
+    // Offset: 0x17C6C18
     static ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetSelectedAssetRoots();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetAllAssetRoots()
-    // Offset: 0x1790DE8
+    // Offset: 0x17C6C90
     static ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetAllAssetRoots();
     // static public System.Void CookSelected()
-    // Offset: 0x1790E50
+    // Offset: 0x17C6CF8
     static void CookSelected();
     // static public System.Void CookAll()
-    // Offset: 0x1790F58
+    // Offset: 0x17C6E00
     static void CookAll();
     // static public System.Void CookAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
-    // Offset: 0x1790E64
+    // Offset: 0x17C6D0C
     static void CookAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void RebuildSelected()
-    // Offset: 0x1790F6C
+    // Offset: 0x17C6E14
     static void RebuildSelected();
     // static public System.Void RebuildAll()
-    // Offset: 0x1791068
+    // Offset: 0x17C6F10
     static void RebuildAll();
     // static public System.Void RebuildAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
-    // Offset: 0x1790F80
+    // Offset: 0x17C6E28
     static void RebuildAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void BakeAndReplaceSelectedInScene()
-    // Offset: 0x179107C
+    // Offset: 0x17C6F24
     static void BakeAndReplaceSelectedInScene();
     // static public System.Void BakeAndReplaceAllInScene()
-    // Offset: 0x1791174
+    // Offset: 0x17C701C
     static void BakeAndReplaceAllInScene();
     // static public System.Void BakeAndReplaceAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
-    // Offset: 0x1791090
+    // Offset: 0x17C6F38
     static void BakeAndReplaceAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void ExportSelectedAssetsToGeoFiles()
-    // Offset: 0x1791188
+    // Offset: 0x17C7030
     static void ExportSelectedAssetsToGeoFiles();
     // static public System.Void ExportAllAssetsToGeoFiles()
-    // Offset: 0x1791814
+    // Offset: 0x17C76BC
     static void ExportAllAssetsToGeoFiles();
     // static public System.Void ExportAssetsToGeoFiles(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
-    // Offset: 0x179119C
+    // Offset: 0x17C7044
     static void ExportAssetsToGeoFiles(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.String EditorSaveFolderPanel(System.String title, System.String folder, System.String defaultName)
-    // Offset: 0x1791828
+    // Offset: 0x17C76D0
     static ::StringW EditorSaveFolderPanel(::StringW title, ::StringW folder, ::StringW defaultName);
     // static public System.Void QuerySelectedMeshTopology()
-    // Offset: 0x1791884
+    // Offset: 0x17C772C
     static void QuerySelectedMeshTopology();
     // static public System.String GetObjectParentFolder(UnityEngine.GameObject parentObject, System.Collections.Generic.HashSet`1<UnityEngine.Material> generatedMaterials)
-    // Offset: 0x1791888
+    // Offset: 0x17C7730
     static ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* generatedMaterials);
     // static private System.String GetObjectParentFolderHelper(System.Int32 instanceID)
-    // Offset: 0x17918D0
+    // Offset: 0x17C7778
     static ::StringW GetObjectParentFolderHelper(int instanceID);
     // static public System.Void RepaintScene()
-    // Offset: 0x1791918
+    // Offset: 0x17C77C0
     static void RepaintScene();
     // static public System.Void SetTextureToNormalMap(System.String filename)
-    // Offset: 0x179191C
+    // Offset: 0x17C77C4
     static void SetTextureToNormalMap(::StringW filename);
     // static public System.Boolean ReleasedMouse()
-    // Offset: 0x1791920
+    // Offset: 0x17C77C8
     static bool ReleasedMouse();
   }; // HoudiniEngineUnity.HEU_EditorUtility
   #pragma pack(pop)

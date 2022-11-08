@@ -40,10 +40,10 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private System.Boolean <IncludeLength>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IncludeLength$k__BackingField();
     // public System.Void set_IncludeLength(System.Boolean value)
-    // Offset: 0x17DF940
+    // Offset: 0x180417C
     void set_IncludeLength(bool value);
     // public System.Void .ctor(System.Object value, System.Boolean includeLength)
-    // Offset: 0x17DDCB8
+    // Offset: 0x18024F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonString* New_ctor(::Il2CppObject* value, bool includeLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonString::.ctor");

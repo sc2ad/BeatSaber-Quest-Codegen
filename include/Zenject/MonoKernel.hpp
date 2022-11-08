@@ -42,21 +42,21 @@ namespace Zenject {
   class MonoKernel : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectLocalAttribute] Offset: 0x10CD71C
+    // [InjectLocalAttribute] Offset: 0x10E2C08
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     ::Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(::Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x10CD72C
+    // [InjectLocalAttribute] Offset: 0x10E2C18
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     ::Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(::Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x10CD73C
+    // [InjectLocalAttribute] Offset: 0x10E2C28
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,44 +89,44 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isDestroyed
     [[deprecated("Use field access instead!")]] bool& dyn__isDestroyed();
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x1C412F8
+    // Offset: 0x1CAF844
     bool get_IsDestroyed();
     // protected System.Void .ctor()
-    // Offset: 0x1C413E0
+    // Offset: 0x1CAF92C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoKernel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MonoKernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoKernel*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x1C41300
+    // Offset: 0x1CAF84C
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x1C41304
+    // Offset: 0x1CAF850
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x1C41338
+    // Offset: 0x1CAF884
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x1C4134C
+    // Offset: 0x1CAF898
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x1C41360
+    // Offset: 0x1CAF8AC
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x1C41374
+    // Offset: 0x1CAF8C0
     void OnDestroy();
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C413E8
+    // Offset: 0x1CAF934
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C414BC
+    // Offset: 0x1CAFA08
     static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
-    // Offset: 0x1C41590
+    // Offset: 0x1CAFADC
     static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1C41664
+    // Offset: 0x1CAFBB0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.MonoKernel
   #pragma pack(pop)

@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Mesh self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn_self();
     // public System.Void .ctor(UnityEngine.Mesh self)
-    // Offset: 0x2AEA3C0
+    // Offset: 0x2B11E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Mesh* New_ctor(::UnityEngine::Mesh* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Mesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Mesh*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2AEA3EC
+    // Offset: 0x2B11E38
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Mesh other)
-    // Offset: 0x2AEA45C
+    // Offset: 0x2B11EA8
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
   }; // HoudiniEngineUnity.Test_Mesh
   #pragma pack(pop)

@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x13EC100
+    // Offset: 0x139CB98
     ::UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x13EC108
+    // Offset: 0x139CBA0
     ::UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x13EC110
+    // Offset: 0x139CBA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextButton::.ctor");

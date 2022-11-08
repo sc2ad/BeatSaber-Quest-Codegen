@@ -59,10 +59,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection facets
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_facets();
     // public System.Void set_BaseTypeName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x210AA1C
+    // Offset: 0x20F9DB4
     void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
     // public System.Void .ctor()
-    // Offset: 0x210AACC
+    // Offset: 0x20F9E64
     // Implemented from: System.Xml.Schema.XmlSchemaSimpleTypeContent
     // Base method: System.Void XmlSchemaSimpleTypeContent::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

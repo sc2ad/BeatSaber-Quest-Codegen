@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     float maxHeadYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x10F8E14
+    // [FormerlySerializedAsAttribute] Offset: 0x110E47C
     // private System.Single _minHandXZSquareDistanceFromHeadCenter
     // Size: 0x4
     // Offset: 0x24
     float minHandXZSquareDistanceFromHeadCenter;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0x10F8E60
+    // [FormerlySerializedAsAttribute] Offset: 0x110E4C8
     // private System.Single _maxHandXZSquareDistanceFromHeadCenter
     // Size: 0x4
     // Offset: 0x28
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: centerHeadOffset and: avatarPoseController
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0x10F8EEC
+    // [InjectAttribute] Offset: 0x110E554
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x48
@@ -131,20 +131,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x153BC48
+    // Offset: 0x15392C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPoseRestrictions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPoseRestrictions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseRestrictions*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x153B5CC
+    // Offset: 0x1538C48
     void Start();
     // private System.Void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine.Quaternion headRotation, UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0x153B644
+    // Offset: 0x1538CC0
     void HandleAvatarPoseControllerPositionsWillBeSet(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
     // private UnityEngine.Vector3 LimitHandPositionRelativeToHead(UnityEngine.Vector3 handPosition, UnityEngine.Vector3 headCenter)
-    // Offset: 0x153B9FC
+    // Offset: 0x1539078
     ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
   }; // AvatarPoseRestrictions
   #pragma pack(pop)

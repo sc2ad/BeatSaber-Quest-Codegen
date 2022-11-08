@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
     // Padding between fields: videoEventType and: initData
     char __padding2[0x4] = {};
-    // [InjectAttribute] Offset: 0x11003F0
+    // [InjectAttribute] Offset: 0x1115CB4
     // private readonly VideoProjectionEffect/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::VideoProjectionEffect::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VideoProjectionEffect::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1100400
+    // [InjectAttribute] Offset: 0x1115CC4
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x38
@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EnvironmentContext) == 0x4);
     // Padding between fields: environmentContext and: beatmapData
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0x1100410
+    // [InjectAttribute] Offset: 0x1115CD4
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1100420
+    // [InjectAttribute] Offset: 0x1115CE4
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x48
@@ -130,17 +130,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private VideoProjectionEffect/VideoProjectionBehavior _behavior
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior*& dyn__behavior();
     // public System.Void .ctor()
-    // Offset: 0x218C5F4
+    // Offset: 0x1631BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x218C0C8
+    // Offset: 0x16316C0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x218C5DC
+    // Offset: 0x1631BDC
     void OnDestroy();
   }; // VideoProjectionEffect
   #pragma pack(pop)

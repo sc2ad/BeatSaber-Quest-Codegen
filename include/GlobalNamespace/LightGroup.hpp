@@ -67,31 +67,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<UnityEngine.GameObject> didRefreshContentEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::GameObject*>*& dyn_didRefreshContentEvent();
     // public LightGroupSO get_lightGroupSO()
-    // Offset: 0x1D00CDC
+    // Offset: 0x1CC6A58
     ::GlobalNamespace::LightGroupSO* get_lightGroupSO();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x1D00CE4
+    // Offset: 0x1CC6A60
     int get_numberOfElements();
     // public System.Int32 get_startLightId()
-    // Offset: 0x1D00D70
+    // Offset: 0x1CC6AEC
     int get_startLightId();
     // public System.Int32 get_groupId()
-    // Offset: 0x1D00DFC
+    // Offset: 0x1CC6B78
     int get_groupId();
     // public System.Int32 get_sameIdElements()
-    // Offset: 0x1D00E88
+    // Offset: 0x1CC6C04
     int get_sameIdElements();
     // public System.Boolean get_ignoreLightGroupEffectManager()
-    // Offset: 0x1D00F14
+    // Offset: 0x1CC6C90
     bool get_ignoreLightGroupEffectManager();
     // public System.Void add_didRefreshContentEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1D00FA8
+    // Offset: 0x1CC6D24
     void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void remove_didRefreshContentEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1D0104C
+    // Offset: 0x1CC6DC8
     void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1D010F0
+    // Offset: 0x1CC6E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroup::.ctor");

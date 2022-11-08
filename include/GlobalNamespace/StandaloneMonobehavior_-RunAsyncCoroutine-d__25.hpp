@@ -89,26 +89,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_tcs();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x26A4560
+    // Offset: 0x26C0FC4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x26A45C8
+    // Offset: 0x26C102C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x26A4334
+    // Offset: 0x26C0D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneMonobehavior::$RunAsyncCoroutine$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneMonobehavior::$RunAsyncCoroutine$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x26A43E8
+    // Offset: 0x26C0E4C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x26A43EC
+    // Offset: 0x26C0E50
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x26A4568
+    // Offset: 0x26C0FCC
     void System_Collections_IEnumerator_Reset();
   }; // StandaloneMonobehavior/<RunAsyncCoroutine>d__25
   #pragma pack(pop)

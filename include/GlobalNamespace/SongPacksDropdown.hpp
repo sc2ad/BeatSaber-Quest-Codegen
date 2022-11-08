@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     ::HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(::HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1108CC0
+    // [SpaceAttribute] Offset: 0x111E584
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
@@ -107,41 +107,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__songPackSerializedNames();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14C0784
+    // Offset: 0x14703AC
     void add_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14C0828
+    // Offset: 0x1470450
     void remove_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void .ctor()
-    // Offset: 0x14C0E38
+    // Offset: 0x1470A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPacksDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPacksDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPacksDropdown*, creationType>()));
     }
     // private System.Void LazyInit()
-    // Offset: 0x14C08CC
+    // Offset: 0x14704F4
     void LazyInit();
     // protected System.Void Start()
-    // Offset: 0x14C0A28
+    // Offset: 0x1470650
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14C0AC4
+    // Offset: 0x14706EC
     void OnDestroy();
     // public System.Void SetOverrideSongPacks(System.Collections.Generic.List`1<System.String> songPackSerializedNames)
-    // Offset: 0x14C0BA0
+    // Offset: 0x14707C8
     void SetOverrideSongPacks(::System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
     // public SongPackMask GetSelectedSongPackMask()
-    // Offset: 0x14C0BA8
+    // Offset: 0x14707D0
     ::GlobalNamespace::SongPackMask GetSelectedSongPackMask();
     // public System.Void SelectCellWithSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x14C0C3C
+    // Offset: 0x1470864
     void SelectCellWithSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
     // private System.Int32 GetIdxForSongPackMask(SongPackMask songPackMask)
-    // Offset: 0x14C0CFC
+    // Offset: 0x1470924
     int GetIdxForSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x14C0DC4
+    // Offset: 0x14709EC
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
   }; // SongPacksDropdown
   #pragma pack(pop)

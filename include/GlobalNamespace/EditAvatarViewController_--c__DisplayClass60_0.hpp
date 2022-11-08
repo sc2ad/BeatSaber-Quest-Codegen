@@ -92,17 +92,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<UnityEngine.Color> <>9__1
     [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::Color>*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1484DB4
+    // Offset: 0x137D21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarViewController::$$c__DisplayClass60_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarViewController::$$c__DisplayClass60_0*, creationType>()));
     }
     // System.Void <SetupColorButton>b__0()
-    // Offset: 0x14850AC
+    // Offset: 0x137D224
     void $SetupColorButton$b__0();
     // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0x148518C
+    // Offset: 0x137D304
     void $SetupColorButton$b__1(::UnityEngine::Color c);
   }; // EditAvatarViewController/<>c__DisplayClass60_0
   #pragma pack(pop)

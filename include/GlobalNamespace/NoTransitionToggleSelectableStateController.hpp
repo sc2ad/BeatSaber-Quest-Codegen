@@ -37,16 +37,19 @@ namespace GlobalNamespace {
   class NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x150212C
+    // Offset: 0x14F4C38
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x15021C0
+    // Offset: 0x14F4D58
     void OnDisable();
     // private System.Void HandleNoTransitionToggleSelectionStateDidChange(HMUI.UISelectionState state)
-    // Offset: 0x1502254
+    // Offset: 0x14F4DEC
     void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
+    // private System.Void ResolveSelectionState(HMUI.UISelectionState state, System.Boolean animated)
+    // Offset: 0x14F4CE4
+    void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
     // public System.Void .ctor()
-    // Offset: 0x15022A8
+    // Offset: 0x14F4DF4
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
@@ -81,6 +84,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "UISelectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionToggleSelectableStateController*), "HandleNoTransitionToggleSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState
+// Il2CppName: ResolveSelectionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState, bool)>(&GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState)> {
+  static const MethodInfo* get() {
+    static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "UISelectionState")->byval_arg;
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionToggleSelectableStateController*), "ResolveSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, animated});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionToggleSelectableStateController::New_ctor

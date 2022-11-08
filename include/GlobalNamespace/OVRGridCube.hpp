@@ -139,26 +139,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRCameraRig CameraController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRCameraRig*& dyn_CameraController();
     // public System.Void .ctor()
-    // Offset: 0x1A032CC
+    // Offset: 0x1A26EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRGridCube* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRGridCube::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRGridCube*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x1A02908
+    // Offset: 0x1A264F0
     void Update();
     // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x1A02B70
+    // Offset: 0x1A26758
     void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0x1A0290C
+    // Offset: 0x1A264F4
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0x1A02B7C
+    // Offset: 0x1A26764
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x1A02F28
+    // Offset: 0x1A26B10
     void CubeGridSwitchColor(bool CubeSwitchColor);
   }; // OVRGridCube
   #pragma pack(pop)

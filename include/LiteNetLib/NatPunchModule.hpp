@@ -233,17 +233,17 @@ namespace LiteNetLib {
     // Get instance field reference: private LiteNetLib.INatPunchListener _natPunchListener
     [[deprecated("Use field access instead!")]] ::LiteNetLib::INatPunchListener*& dyn__natPunchListener();
     // System.Void .ctor(LiteNetLib.NetSocket socket)
-    // Offset: 0x21D45C0
+    // Offset: 0x21F053C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule*, creationType>(socket)));
     }
     // System.Void ProcessMessage(System.Net.IPEndPoint senderEndPoint, LiteNetLib.NetPacket packet)
-    // Offset: 0x21D47E4
+    // Offset: 0x21F0760
     void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
     // public System.Void Init(LiteNetLib.INatPunchListener listener)
-    // Offset: 0x21D48D8
+    // Offset: 0x21F0854
     void Init(::LiteNetLib::INatPunchListener* listener);
     // private System.Void Send(T packet, System.Net.IPEndPoint target)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -255,25 +255,25 @@ namespace LiteNetLib {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packet, target);
     }
     // public System.Void NatIntroduce(System.Net.IPEndPoint hostInternal, System.Net.IPEndPoint hostExternal, System.Net.IPEndPoint clientInternal, System.Net.IPEndPoint clientExternal, System.String additionalInfo)
-    // Offset: 0x21D48E0
+    // Offset: 0x21F085C
     void NatIntroduce(::System::Net::IPEndPoint* hostInternal, ::System::Net::IPEndPoint* hostExternal, ::System::Net::IPEndPoint* clientInternal, ::System::Net::IPEndPoint* clientExternal, ::StringW additionalInfo);
     // public System.Void PollEvents()
-    // Offset: 0x21D49B0
+    // Offset: 0x21F092C
     void PollEvents();
     // public System.Void SendNatIntroduceRequest(System.String host, System.Int32 port, System.String additionalInfo)
-    // Offset: 0x21D4CF8
+    // Offset: 0x21F0C74
     void SendNatIntroduceRequest(::StringW host, int port, ::StringW additionalInfo);
     // public System.Void SendNatIntroduceRequest(System.Net.IPEndPoint masterServerEndPoint, System.String additionalInfo)
-    // Offset: 0x21D4E30
+    // Offset: 0x21F0DAC
     void SendNatIntroduceRequest(::System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
     // private System.Void OnNatIntroductionRequest(LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceRequestPacket req, System.Net.IPEndPoint senderEndPoint)
-    // Offset: 0x21D5114
+    // Offset: 0x21F1090
     void OnNatIntroductionRequest(::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
     // private System.Void OnNatIntroductionResponse(LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceResponsePacket req)
-    // Offset: 0x21D5204
+    // Offset: 0x21F1180
     void OnNatIntroductionResponse(::LiteNetLib::NatPunchModule::NatIntroduceResponsePacket* req);
     // private System.Void OnNatPunch(LiteNetLib.NatPunchModule/LiteNetLib.NatPunchPacket req, System.Net.IPEndPoint senderEndPoint)
-    // Offset: 0x21D571C
+    // Offset: 0x21F1698
     void OnNatPunch(::LiteNetLib::NatPunchModule::NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
   }; // LiteNetLib.NatPunchModule
   #pragma pack(pop)

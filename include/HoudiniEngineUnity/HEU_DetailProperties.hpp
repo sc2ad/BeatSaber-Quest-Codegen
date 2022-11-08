@@ -71,14 +71,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _detailResolutionPerPatch
     [[deprecated("Use field access instead!")]] int& dyn__detailResolutionPerPatch();
     // public System.Void .ctor()
-    // Offset: 0x1790420
+    // Offset: 0x17C62C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_DetailProperties* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_DetailProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_DetailProperties*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_DetailProperties other)
-    // Offset: 0x1790290
+    // Offset: 0x17C6138
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
   }; // HoudiniEngineUnity.HEU_DetailProperties
   #pragma pack(pop)

@@ -52,20 +52,20 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 lockCount
     [[deprecated("Use field access instead!")]] int& dyn_lockCount();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x22373E4
+    // Offset: 0x227952C
     bool get_IsEmpty();
     // public System.Void .ctor(System.Threading.ReaderWriterLock rwlock)
-    // Offset: 0x2237250
+    // Offset: 0x2279398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::LockQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LockQueue*, creationType>(rwlock)));
     }
     // public System.Boolean Wait(System.Int32 timeout)
-    // Offset: 0x223727C
+    // Offset: 0x22793C4
     bool Wait(int timeout);
     // public System.Void Pulse()
-    // Offset: 0x2237468
+    // Offset: 0x22795B0
     void Pulse();
   }; // System.Threading.LockQueue
   #pragma pack(pop)

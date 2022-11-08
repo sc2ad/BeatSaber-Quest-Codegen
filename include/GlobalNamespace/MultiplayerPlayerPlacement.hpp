@@ -48,22 +48,22 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerPlayerPlacement::$$c
     class $$c;
     // static public UnityEngine.Vector3 GetPlayerWorldPosition(System.Single outerCircleRadius, System.Single outerCirclePositionAngle, MultiplayerPlayerLayout layout)
-    // Offset: 0x13DD4D8
+    // Offset: 0x13B9384
     static ::UnityEngine::Vector3 GetPlayerWorldPosition(float outerCircleRadius, float outerCirclePositionAngle, ::GlobalNamespace::MultiplayerPlayerLayout layout);
     // static public System.Single GetOuterCirclePositionAngleForPlayer(System.Int32 playerIndex, System.Int32 localPlayerIndex, System.Single angleBetweenPlayers)
-    // Offset: 0x13DD694
+    // Offset: 0x13B9540
     static float GetOuterCirclePositionAngleForPlayer(int playerIndex, int localPlayerIndex, float angleBetweenPlayers);
     // static public System.Single GetOuterCircleRadius(System.Single angleBetweenPlayers, System.Single innerCircleRadius)
-    // Offset: 0x13DD6A4
+    // Offset: 0x13A66AC
     static float GetOuterCircleRadius(float angleBetweenPlayers, float innerCircleRadius);
     // static public System.Single GetAngleBetweenPlayersWithEvenAdjustment(System.Int32 numberOfPlayers, MultiplayerPlayerLayout layout)
-    // Offset: 0x13DD73C
+    // Offset: 0x13A6680
     static float GetAngleBetweenPlayersWithEvenAdjustment(int numberOfPlayers, ::GlobalNamespace::MultiplayerPlayerLayout layout);
     // static public System.Void SortPlayers(System.Collections.Generic.List`1<IConnectedPlayer> players)
-    // Offset: 0x13DD768
+    // Offset: 0x13B9550
     static void SortPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* players);
     // static public System.Int32 GetLocalPlayerIndex(System.Collections.Generic.IList`1<IConnectedPlayer> otherPlayers, IConnectedPlayer localPlayer)
-    // Offset: 0x13DD85C
+    // Offset: 0x13B9644
     static int GetLocalPlayerIndex(::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>* otherPlayers, ::GlobalNamespace::IConnectedPlayer* localPlayer);
   }; // MultiplayerPlayerPlacement
   #pragma pack(pop)

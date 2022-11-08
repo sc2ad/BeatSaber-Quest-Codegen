@@ -56,37 +56,37 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Playables.Playable m_Playable
     [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::Playable& dyn_m_Playable();
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x1E0C34C
+    // Offset: 0x1E2C7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InfiniteRuntimeClip* New_ctor(::UnityEngine::Playables::Playable playable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::InfiniteRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InfiniteRuntimeClip*, creationType>(playable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E147C4
+    // Offset: 0x1E34C24
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x1E14604
+    // Offset: 0x1E34A64
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x1E1460C
+    // Offset: 0x1E34A6C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x1E14674
+    // Offset: 0x1E34AD4
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1E146F0
+    // Offset: 0x1E34B50
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, ::UnityEngine::Playables::FrameData frameData);
     // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x1E14750
+    // Offset: 0x1E34BB0
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     void DisableAt(double localTime, double rootDuration, ::UnityEngine::Playables::FrameData frameData);

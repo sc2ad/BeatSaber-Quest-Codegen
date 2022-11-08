@@ -123,41 +123,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _numberOfLines
     [[deprecated("Use field access instead!")]] int& dyn__numberOfLines();
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x28B9220
+    // Offset: 0x2740B60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
-    // Offset: 0x28B96C4
+    // Offset: 0x2741004
     void ProcessNote(::GlobalNamespace::NoteData* noteData);
     // public System.Void ProcessSlider(SliderData sliderData)
-    // Offset: 0x28B9798
+    // Offset: 0x27410D8
     void ProcessSlider(::GlobalNamespace::SliderData* sliderData);
     // public System.Void ProcessAllRemainingData()
-    // Offset: 0x28B98A0
+    // Offset: 0x27411E0
     void ProcessAllRemainingData();
     // private System.Void HandleCurrentTimeSliceColorNotesDidAddItem(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, NoteData noteData)
-    // Offset: 0x28B9A0C
+    // Offset: 0x274134C
     void HandleCurrentTimeSliceColorNotesDidAddItem(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, ::GlobalNamespace::NoteData* noteData);
     // private System.Void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice)
-    // Offset: 0x28B9A7C
+    // Offset: 0x27413BC
     void HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice);
     // private System.Void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<BeatmapDataItem> allObjectsTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x28B9C70
+    // Offset: 0x27415B0
     void HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* allObjectsTimeSlice, float nextTimeSliceTime);
     // private System.Void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> currentTimeSlice, System.Single nextTimeSliceTime)
-    // Offset: 0x28BAE60
+    // Offset: 0x27427A0
     void HandleCurrentTimeSliceColorNotesDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* currentTimeSlice, float nextTimeSliceTime);
     // private System.Void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<NoteData> timeSliceContainer, System.Single nextTimeSliceTime)
-    // Offset: 0x28BB49C
+    // Offset: 0x2742DDC
     void HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer_1<::GlobalNamespace::NoteData*>* timeSliceContainer, float nextTimeSliceTime);
     // static private System.Boolean SliderHeadPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x28BAC1C
+    // Offset: 0x274255C
     static bool SliderHeadPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
     // static private System.Boolean SliderTailPositionOverlapsWithNote(SliderData slider, NoteData note)
-    // Offset: 0x28BADFC
+    // Offset: 0x274273C
     static bool SliderTailPositionOverlapsWithNote(::GlobalNamespace::SliderData* slider, ::GlobalNamespace::NoteData* note);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)

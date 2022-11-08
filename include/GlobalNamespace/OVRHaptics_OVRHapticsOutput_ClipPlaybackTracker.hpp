@@ -51,19 +51,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRHapticsClip <Clip>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRHapticsClip*& dyn_$Clip$k__BackingField();
     // public System.Int32 get_ReadCount()
-    // Offset: 0x1A06EE8
+    // Offset: 0x1A2AAD0
     int get_ReadCount();
     // public System.Void set_ReadCount(System.Int32 value)
-    // Offset: 0x1A06EF0
+    // Offset: 0x1A2AAD8
     void set_ReadCount(int value);
     // public OVRHapticsClip get_Clip()
-    // Offset: 0x1A06EF8
+    // Offset: 0x1A2AAE0
     ::GlobalNamespace::OVRHapticsClip* get_Clip();
     // public System.Void set_Clip(OVRHapticsClip value)
-    // Offset: 0x1A06F00
+    // Offset: 0x1A2AAE8
     void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
     // public System.Void .ctor(OVRHapticsClip clip)
-    // Offset: 0x1A06C6C
+    // Offset: 0x1A2A854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker* New_ctor(::GlobalNamespace::OVRHapticsClip* clip) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::.ctor");

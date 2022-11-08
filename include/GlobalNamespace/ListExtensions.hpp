@@ -49,13 +49,13 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ListExtensions : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110DE18
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1123914
     // Get static field: static private readonly System.Random _random
     static ::System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
     static void _set__random(::System::Random* value);
     // static private System.Void .cctor()
-    // Offset: 0x146CCB4
+    // Offset: 0x15A0CC4
     static void _cctor();
     // static public System.Int32 IndexOf(System.Collections.Generic.IReadOnlyList`1<T> self, T item)
     // Offset: 0xFFFFFFFFFFFFFFFF

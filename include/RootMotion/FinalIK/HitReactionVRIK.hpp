@@ -57,14 +57,14 @@ namespace RootMotion::FinalIK {
     ::ArrayW<::UnityEngine::AnimationCurve*> offsetCurves;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AnimationCurve*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1126DA0
+    // [TooltipAttribute] Offset: 0x113AC08
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1126DD8
+    // [TooltipAttribute] Offset: 0x113AC40
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
@@ -79,10 +79,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x2274830
+    // Offset: 0x22F0D78
     void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x2274BB8
+    // Offset: 0x22F1100
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +91,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x2274610
+    // Offset: 0x22F0B58
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();

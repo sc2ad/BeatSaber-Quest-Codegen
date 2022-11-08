@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean cleared
     [[deprecated("Use field access instead!")]] bool& dyn_cleared();
     // public System.Void .ctor()
-    // Offset: 0x14D9F5C
+    // Offset: 0x1575B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerMissionStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData::.ctor");

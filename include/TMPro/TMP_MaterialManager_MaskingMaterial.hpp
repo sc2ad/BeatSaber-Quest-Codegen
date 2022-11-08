@@ -65,7 +65,7 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 stencilID
     [[deprecated("Use field access instead!")]] int& dyn_stencilID();
     // public System.Void .ctor()
-    // Offset: 0x149F2F8
+    // Offset: 0x14AFA3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::MaskingMaterial* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::MaskingMaterial::.ctor");

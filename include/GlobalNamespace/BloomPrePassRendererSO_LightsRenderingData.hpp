@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Rendering.SubMeshDescriptor subMeshDescriptor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::SubMeshDescriptor& dyn_subMeshDescriptor();
     // public System.Void .ctor()
-    // Offset: 0x1CFD3BC
+    // Offset: 0x1CC2930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::LightsRenderingData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::.ctor");

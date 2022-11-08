@@ -203,7 +203,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String[] childrenIds
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result, System.Boolean isTopLevel)
-    // Offset: 0x1958C58
+    // Offset: 0x198C564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData* New_ctor(::NUnit::Framework::Interfaces::ITestResult* result, bool isTopLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");

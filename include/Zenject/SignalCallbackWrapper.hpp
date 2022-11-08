@@ -91,23 +91,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Object _identifier
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // public System.Void .ctor(Zenject.SignalBindingBindInfo bindInfo, System.Action`1<System.Object> action, Zenject.SignalBus signalBus)
-    // Offset: 0x1D60060
+    // Offset: 0x1DAE89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCallbackWrapper* New_ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::Il2CppObject*>* action, ::Zenject::SignalBus* signalBus) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCallbackWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCallbackWrapper*, creationType>(bindInfo, action, signalBus)));
     }
     // private System.Void OnSignalFired(System.Object signal)
-    // Offset: 0x1D60134
+    // Offset: 0x1DAE970
     void OnSignalFired(::Il2CppObject* signal);
     // public System.Void Dispose()
-    // Offset: 0x1D6019C
+    // Offset: 0x1DAE9D8
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1D60244
+    // Offset: 0x1DAEA80
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D60390
+    // Offset: 0x1DAEBCC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalCallbackWrapper
   #pragma pack(pop)

@@ -61,25 +61,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _canBeCut
     [[deprecated("Use field access instead!")]] bool& dyn__canBeCut();
     // protected System.Void Awake()
-    // Offset: 0x14C5A8C
+    // Offset: 0x14756B4
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0x14C5A2C
+    // Offset: 0x1475654
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x14C5A84
+    // Offset: 0x14756AC
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x14C5A48
+    // Offset: 0x1475670
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public System.Void .ctor()
-    // Offset: 0x14C5AE8
+    // Offset: 0x1475710
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x14C5AC4
+    // Offset: 0x14756EC
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);

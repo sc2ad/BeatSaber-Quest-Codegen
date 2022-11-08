@@ -64,33 +64,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // public PreviewDifficultyBeatmap get_beatmapLevel()
-    // Offset: 0x145E80C
+    // Offset: 0x15017A0
     ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x145E814
+    // Offset: 0x15017A8
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void .ctor()
-    // Offset: 0x145E81C
+    // Offset: 0x15017B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelGameplaySetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>()));
     }
     // public System.Void .ctor(PreviewDifficultyBeatmap beatmapLevel, GameplayModifiers gameplayModifiers)
-    // Offset: 0x145E894
+    // Offset: 0x1501828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelGameplaySetupData* New_ctor(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelGameplaySetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelGameplaySetupData*, creationType>(beatmapLevel, gameplayModifiers)));
     }
     // public System.Void ClearGameplaySetupData()
-    // Offset: 0x145E950
+    // Offset: 0x15018E4
     void ClearGameplaySetupData();
     // public System.Void SetBeatmapLevel(PreviewDifficultyBeatmap beatmapLevel)
-    // Offset: 0x145E9C4
+    // Offset: 0x1501958
     void SetBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x145E9CC
+    // Offset: 0x1501960
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // LevelGameplaySetupData
   #pragma pack(pop)

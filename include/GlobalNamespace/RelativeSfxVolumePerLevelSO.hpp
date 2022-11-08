@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] _relativeSfxVolumePerLevel
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*>& dyn__relativeSfxVolumePerLevel();
     // public RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair[] get_relativeSfxVolumePerLevel()
-    // Offset: 0x148DF74
+    // Offset: 0x141E040
     ::ArrayW<::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*> get_relativeSfxVolumePerLevel();
     // public System.Void .ctor()
-    // Offset: 0x148DF7C
+    // Offset: 0x141E048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeSfxVolumePerLevelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeSfxVolumePerLevelSO::.ctor");

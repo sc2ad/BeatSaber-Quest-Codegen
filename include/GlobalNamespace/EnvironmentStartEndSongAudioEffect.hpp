@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     float songFinishedAheadTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10F87E0
+    // [SpaceAttribute] Offset: 0x110DE48
     // private System.Single _songStartAudioClipVolume
     // Size: 0x4
     // Offset: 0x20
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: songFailedAudioClipVolume and: songStartAudioClips
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10F8838
+    // [SpaceAttribute] Offset: 0x110DEA0
     // private UnityEngine.AudioClip[] _songStartAudioClips
     // Size: 0x8
     // Offset: 0x30
@@ -104,35 +104,35 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::AudioClip*> songFailedAudioClips;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AudioClip*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10F8890
+    // [InjectAttribute] Offset: 0x110DEF8
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::ILevelEndActions* levelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F88A0
+    // [InjectAttribute] Offset: 0x110DF08
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F88B0
+    // [InjectAttribute] Offset: 0x110DF18
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F88C0
+    // [InjectAttribute] Offset: 0x110DF28
     // private readonly EnvironmentAudioEffectsPlayer _audioEffectsPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::EnvironmentAudioEffectsPlayer* audioEffectsPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentAudioEffectsPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F88D0
+    // [InjectAttribute] Offset: 0x110DF38
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x68
@@ -191,32 +191,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isWaitingToPlayStartAudio
     [[deprecated("Use field access instead!")]] bool& dyn__isWaitingToPlayStartAudio();
     // public System.Void .ctor()
-    // Offset: 0x1398978
+    // Offset: 0x138343C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentStartEndSongAudioEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentStartEndSongAudioEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentStartEndSongAudioEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1397E78
+    // Offset: 0x138293C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13982F0
+    // Offset: 0x1382DB4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1398530
+    // Offset: 0x1382FF4
     void Update();
     // private System.Void LevelWillFinishWithinAheadTime()
-    // Offset: 0x1398810
+    // Offset: 0x13832D4
     void LevelWillFinishWithinAheadTime();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x1398880
+    // Offset: 0x1383344
     void HandleLevelFailed();
     // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x1398928
+    // Offset: 0x13833EC
     void HandleGamePauseDidResume();
     // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x1398950
+    // Offset: 0x1383414
     void HandleGamePauseDidPause();
   }; // EnvironmentStartEndSongAudioEffect
   #pragma pack(pop)

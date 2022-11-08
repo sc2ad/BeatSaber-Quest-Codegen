@@ -121,38 +121,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _handleRot
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__handleRot();
     // public SaberType get_saberType()
-    // Offset: 0x149285C
+    // Offset: 0x1422910
     ::GlobalNamespace::SaberType get_saberType();
     // public UnityEngine.Vector3 get_saberBladeTopPos()
-    // Offset: 0x1492878
+    // Offset: 0x142292C
     ::UnityEngine::Vector3 get_saberBladeTopPos();
     // public UnityEngine.Vector3 get_saberBladeBottomPos()
-    // Offset: 0x1492884
+    // Offset: 0x1422938
     ::UnityEngine::Vector3 get_saberBladeBottomPos();
     // public UnityEngine.Vector3 get_handlePos()
-    // Offset: 0x1492890
+    // Offset: 0x1422944
     ::UnityEngine::Vector3 get_handlePos();
     // public UnityEngine.Quaternion get_handleRot()
-    // Offset: 0x149289C
+    // Offset: 0x1422950
     ::UnityEngine::Quaternion get_handleRot();
     // public System.Single get_bladeSpeed()
-    // Offset: 0x14928A8
+    // Offset: 0x142295C
     float get_bladeSpeed();
     // public SaberMovementData get_movementData()
-    // Offset: 0x14928C4
+    // Offset: 0x1422978
     ::GlobalNamespace::SaberMovementData* get_movementData();
     // public System.Void .ctor()
-    // Offset: 0x1492F50
+    // Offset: 0x1422B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Saber* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Saber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Saber*, creationType>()));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0x14928CC
+    // Offset: 0x1422980
     void ManualUpdate();
     // public System.Void OverridePositionAndRotation(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
-    // Offset: 0x1492ED4
+    // Offset: 0x1422AC8
     void OverridePositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
   }; // Saber
   #pragma pack(pop)

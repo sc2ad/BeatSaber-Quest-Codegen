@@ -74,26 +74,26 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Proxies.RealProxy _rp
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // public System.Void .ctor(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
-    // Offset: 0x1CC6C9C
+    // Offset: 0x1D29390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackBuilderSink* New_ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::StackBuilderSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackBuilderSink*, creationType>(obj, forceInternalExecute)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1CD83CC
+    // Offset: 0x1D3AAC0
     ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1CD88CC
+    // Offset: 0x1D3AFC0
     ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // private System.Void ExecuteAsyncMessage(System.Object ob)
-    // Offset: 0x1CD89E0
+    // Offset: 0x1D3B0D4
     void ExecuteAsyncMessage(::Il2CppObject* ob);
     // private System.Void CheckParameters(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1CD84A8
+    // Offset: 0x1D3AB9C
     void CheckParameters(::System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void <AsyncProcessMessage>b__4_0(System.Object data)
-    // Offset: 0x1CD8BE4
+    // Offset: 0x1D3B2D8
     void $AsyncProcessMessage$b__4_0(::Il2CppObject* data);
   }; // System.Runtime.Remoting.Messaging.StackBuilderSink
   #pragma pack(pop)

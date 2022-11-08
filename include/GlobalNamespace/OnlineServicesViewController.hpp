@@ -68,26 +68,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Boolean> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x135A2B4
+    // Offset: 0x1374B3C
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x135A358
+    // Offset: 0x1374BE0
     void remove_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x135A4F8
+    // Offset: 0x1374D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesViewController*, creationType>()));
     }
     // private System.Void <DidActivate>b__5_0()
-    // Offset: 0x135A500
+    // Offset: 0x1374D88
     void $DidActivate$b__5_0();
     // private System.Void <DidActivate>b__5_1()
-    // Offset: 0x135A564
+    // Offset: 0x1374DEC
     void $DidActivate$b__5_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x135A3FC
+    // Offset: 0x1374C84
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

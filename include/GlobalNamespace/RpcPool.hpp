@@ -71,7 +71,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x269FCE8
+    // Offset: 0x26BC74C
     static void Release(::GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)

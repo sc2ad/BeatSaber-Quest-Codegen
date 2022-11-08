@@ -54,6 +54,12 @@ namespace BeatmapSaveDataVersion3 {
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis _get_Y();
     // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis Y
     static void _set_Y(::BeatmapSaveDataVersion3::BeatmapSaveData::Axis value);
+    // static field const value: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis Z
+    static constexpr const int Z = 2;
+    // Get static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis Z
+    static ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis _get_Z();
+    // Set static field: static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis Z
+    static void _set_Z(::BeatmapSaveDataVersion3::BeatmapSaveData::Axis value);
     // Get instance field reference: public System.Int32 value__
     [[deprecated("Use field access instead!")]] int& dyn_value__();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis

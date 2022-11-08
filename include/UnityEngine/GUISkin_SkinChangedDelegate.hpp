@@ -35,20 +35,20 @@ namespace UnityEngine {
   class GUISkin::SkinChangedDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x20BFD94
+    // Offset: 0x20AA370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin::SkinChangedDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUISkin::SkinChangedDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin::SkinChangedDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x20BFAD8
+    // Offset: 0x20AA0B4
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x20BFDA4
+    // Offset: 0x20AA380
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x20BFDD0
+    // Offset: 0x20AA3AC
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.GUISkin/UnityEngine.SkinChangedDelegate
   #pragma pack(pop)

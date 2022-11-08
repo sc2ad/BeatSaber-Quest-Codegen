@@ -47,7 +47,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_Size();
     // protected System.Void .ctor()
-    // Offset: 0x2327B78
+    // Offset: 0x235B8AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractECLookupTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::AbstractECLookupTable::.ctor");
@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x2327B6C
+    // Offset: 0x235B8A0
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.AbstractECLookupTable
   #pragma pack(pop)

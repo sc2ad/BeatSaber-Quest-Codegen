@@ -24,19 +24,19 @@ namespace Org::BouncyCastle::Math::Raw {
   class Interleave : public ::Il2CppObject {
     public:
     // static System.UInt32 Expand8to16(System.UInt32 x)
-    // Offset: 0x237F4C4
+    // Offset: 0x2399284
     static uint Expand8to16(uint x);
     // static System.UInt64 Expand32to64(System.UInt32 x)
-    // Offset: 0x237F4E4
+    // Offset: 0x23992A4
     static uint64_t Expand32to64(uint x);
     // static System.Void Expand64To128(System.UInt64 x, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x237F53C
+    // Offset: 0x23992FC
     static void Expand64To128(uint64_t x, ::ArrayW<uint64_t> z, int zOff);
     // static System.UInt32 Shuffle2(System.UInt32 x)
-    // Offset: 0x237B258
+    // Offset: 0x2395018
     static uint Shuffle2(uint x);
     // static System.UInt64 Unshuffle(System.UInt64 x)
-    // Offset: 0x237F5F0
+    // Offset: 0x23993B0
     static uint64_t Unshuffle(uint64_t x);
   }; // Org.BouncyCastle.Math.Raw.Interleave
   #pragma pack(pop)

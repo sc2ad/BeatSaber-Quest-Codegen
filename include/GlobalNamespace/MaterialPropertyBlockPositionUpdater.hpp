@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
     public:
-    // [SpaceAttribute] Offset: 0x10E74B0
+    // [SpaceAttribute] Offset: 0x10FBB88
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x30
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _targetTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__targetTransform();
     // public System.Void .ctor()
-    // Offset: 0x1D053D4
+    // Offset: 0x1CCAEFC
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockPositionUpdater*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1D052BC
+    // Offset: 0x1CCADE4
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

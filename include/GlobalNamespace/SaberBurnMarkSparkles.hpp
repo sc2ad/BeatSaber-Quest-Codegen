@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     ::UnityEngine::BoxCollider* boxCollider;
     // Field size check
     static_assert(sizeof(::UnityEngine::BoxCollider*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF094
+    // [InjectAttribute] Offset: 0x111470C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF0A4
+    // [InjectAttribute] Offset: 0x111471C
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x38
@@ -155,29 +155,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // public System.Void .ctor()
-    // Offset: 0x1495DE0
+    // Offset: 0x1425910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberBurnMarkSparkles* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberBurnMarkSparkles::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberBurnMarkSparkles*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1494F24
+    // Offset: 0x1424A54
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14953AC
+    // Offset: 0x1424EDC
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x14954B8
+    // Offset: 0x1424FE8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x14955A8
+    // Offset: 0x14250D8
     void OnDisable();
     // private System.Boolean GetBurnMarkPos(UnityEngine.Vector3 bladeBottomPos, UnityEngine.Vector3 bladeTopPos, out UnityEngine.Vector3 burnMarkPos)
-    // Offset: 0x1495698
+    // Offset: 0x14251C8
     bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
     // protected System.Void LateUpdate()
-    // Offset: 0x1495930
+    // Offset: 0x1425460
     void LateUpdate();
   }; // SaberBurnMarkSparkles
   #pragma pack(pop)

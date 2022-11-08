@@ -56,24 +56,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Byte[] iv
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_iv();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x164D1A4
+    // Offset: 0x1651EBC
     ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] iv)
-    // Offset: 0x164D0A0
+    // Offset: 0x1651DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithIV*, creationType>(parameters, iv)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.ICipherParameters parameters, System.Byte[] iv, System.Int32 ivOff, System.Int32 ivLen)
-    // Offset: 0x164D0BC
+    // Offset: 0x1651DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> iv, int ivOff, int ivLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametersWithIV*, creationType>(parameters, iv, ivOff, ivLen)));
     }
     // public System.Byte[] GetIV()
-    // Offset: 0x16450F0
+    // Offset: 0x1649E08
     ::ArrayW<uint8_t> GetIV();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithIV
   #pragma pack(pop)

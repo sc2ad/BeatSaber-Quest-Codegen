@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public IPreviewBeatmapLevel level
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_level();
     // public System.Void .ctor()
-    // Offset: 0x13BB7C8
+    // Offset: 0x13F8154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionViewController::$$c__DisplayClass24_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionViewController::$$c__DisplayClass24_0*, creationType>()));
     }
     // System.Void <SongPlayerCrossfadeToLevelAsync>b__0()
-    // Offset: 0x13BB7D0
+    // Offset: 0x13F815C
     void $SongPlayerCrossfadeToLevelAsync$b__0();
   }; // LevelCollectionViewController/<>c__DisplayClass24_0
   #pragma pack(pop)

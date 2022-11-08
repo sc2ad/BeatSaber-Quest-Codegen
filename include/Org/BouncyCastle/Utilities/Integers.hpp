@@ -23,16 +23,16 @@ namespace Org::BouncyCastle::Utilities {
   class Integers : public ::Il2CppObject {
     public:
     // static public System.Int32 NumberOfLeadingZeros(System.Int32 i)
-    // Offset: 0x26547B4
+    // Offset: 0x2679848
     static int NumberOfLeadingZeros(int i);
     // static public System.Int32 NumberOfTrailingZeros(System.Int32 i)
-    // Offset: 0x2654830
+    // Offset: 0x26798C4
     static int NumberOfTrailingZeros(int i);
     // static public System.Int32 RotateLeft(System.Int32 i, System.Int32 distance)
-    // Offset: 0x2654864
+    // Offset: 0x26798F8
     static int RotateLeft(int i, int distance);
     // static public System.UInt32 RotateLeft(System.UInt32 i, System.Int32 distance)
-    // Offset: 0x2654878
+    // Offset: 0x267990C
     static uint RotateLeft(uint i, int distance);
   }; // Org.BouncyCastle.Utilities.Integers
   #pragma pack(pop)

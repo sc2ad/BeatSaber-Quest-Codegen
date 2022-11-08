@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsAvatarController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D094
+    // [SpaceAttribute] Offset: 0x1122958
     // private System.Single _avatarScale
     // Size: 0x4
     // Offset: 0x98
@@ -176,17 +176,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _lightColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__lightColor();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13E0D10
+    // Offset: 0x14E6E80
     void set_alpha(float value);
     // public System.Void .ctor()
-    // Offset: 0x13E1158
+    // Offset: 0x14E72D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableCell*, creationType>()));
     }
     // public System.Void SetData(IConnectedPlayer connectedPlayer, System.Int32 position, System.String playerName, LevelCompletionResults levelCompletionResults, System.Boolean isLocalPlayer, System.Int32 numberOfPlayers)
-    // Offset: 0x13E0DC0
+    // Offset: 0x14E6F34
     void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, int position, ::StringW playerName, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool isLocalPlayer, int numberOfPlayers);
   }; // MultiplayerResultsTableCell
   #pragma pack(pop)

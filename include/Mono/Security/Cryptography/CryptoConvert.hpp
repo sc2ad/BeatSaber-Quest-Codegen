@@ -32,22 +32,22 @@ namespace Mono::Security::Cryptography {
   class CryptoConvert : public ::Il2CppObject {
     public:
     // static private System.Int32 ToInt32LE(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x23A029C
+    // Offset: 0x23A1CD4
     static int ToInt32LE(::ArrayW<uint8_t> bytes, int offset);
     // static private System.UInt32 ToUInt32LE(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x23A031C
+    // Offset: 0x23A1D54
     static uint ToUInt32LE(::ArrayW<uint8_t> bytes, int offset);
     // static private System.Byte[] Trim(System.Byte[] array)
-    // Offset: 0x23A039C
+    // Offset: 0x23A1DD4
     static ::ArrayW<uint8_t> Trim(::ArrayW<uint8_t> array);
     // static public System.Security.Cryptography.RSA FromCapiPrivateKeyBlob(System.Byte[] blob)
-    // Offset: 0x239F058
+    // Offset: 0x23A0A90
     static ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob);
     // static public System.Security.Cryptography.RSA FromCapiPrivateKeyBlob(System.Byte[] blob, System.Int32 offset)
-    // Offset: 0x23A046C
+    // Offset: 0x23A1EA4
     static ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob, int offset);
     // static public System.String ToHex(System.Byte[] input)
-    // Offset: 0x23A0BA8
+    // Offset: 0x23A25E0
     static ::StringW ToHex(::ArrayW<uint8_t> input);
   }; // Mono.Security.Cryptography.CryptoConvert
   #pragma pack(pop)

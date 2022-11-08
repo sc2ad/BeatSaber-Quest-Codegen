@@ -5,8 +5,8 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-// Including type: LightRotationBeatmapEventData/Axis
-#include "GlobalNamespace/LightRotationBeatmapEventData.hpp"
+// Including type: LightAxis
+#include "GlobalNamespace/LightAxis.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -19,7 +19,8 @@ namespace GlobalNamespace {
   class BeatmapCallbacksController;
   // Forward declaring type: BeatmapDataCallbackWrapper
   class BeatmapDataCallbackWrapper;
-  // Skipping declaration: LightRotationBeatmapEventData because it is already included!
+  // Forward declaring type: LightRotationBeatmapEventData
+  class LightRotationBeatmapEventData;
   // Forward declaring type: LightRotationDirection
   struct LightRotationDirection;
 }
@@ -61,12 +62,12 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // private readonly LightRotationBeatmapEventData/Axis _axis
+    // private readonly LightAxis _axis
     // Size: 0x4
     // Offset: 0x18
-    ::GlobalNamespace::LightRotationBeatmapEventData::Axis axis;
+    ::GlobalNamespace::LightAxis axis;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::LightRotationBeatmapEventData::Axis) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::LightAxis) == 0x4);
     // private readonly System.Boolean _mirrored
     // Size: 0x1
     // Offset: 0x1C
@@ -102,8 +103,8 @@ namespace GlobalNamespace {
     public:
     // Get instance field reference: private readonly UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
-    // Get instance field reference: private readonly LightRotationBeatmapEventData/Axis _axis
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightRotationBeatmapEventData::Axis& dyn__axis();
+    // Get instance field reference: private readonly LightAxis _axis
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightAxis& dyn__axis();
     // Get instance field reference: private readonly System.Boolean _mirrored
     [[deprecated("Use field access instead!")]] bool& dyn__mirrored();
     // Get instance field reference: private readonly Tweening.SongTimeTweeningManager _tweeningManager
@@ -115,23 +116,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightRotationBeatmapEventCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightRotationBeatmapEventCallbackWrapper();
     // public System.Void .ctor(LightRotationGroupEffect/InitData initData, Tweening.SongTimeTweeningManager tweeningManager, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x1469D00
+    // Offset: 0x150C898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect::InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationGroupEffect*, creationType>(initData, tweeningManager, beatmapCallbacksController)));
     }
     // public System.Void Cleanup()
-    // Offset: 0x1469EE8
+    // Offset: 0x150CA80
     void Cleanup();
     // private System.Void HandleRotationChangeBeatmapEvent(LightRotationBeatmapEventData currentEventData)
-    // Offset: 0x1469F94
+    // Offset: 0x150CB2C
     void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
     // private System.Void SetRotation(System.Single rotation)
-    // Offset: 0x146A14C
+    // Offset: 0x150CCE4
     void SetRotation(float rotation);
     // static public System.Single ComputeTargetAngle(System.Single startAngle, System.Single targetAngle, System.Int32 loopCount, LightRotationDirection rotationOrientation)
-    // Offset: 0x146A250
+    // Offset: 0x150CE34
     static float ComputeTargetAngle(float startAngle, float targetAngle, int loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
   }; // LightRotationGroupEffect
   #pragma pack(pop)

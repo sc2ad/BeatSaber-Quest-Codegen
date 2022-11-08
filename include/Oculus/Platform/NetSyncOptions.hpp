@@ -51,26 +51,26 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2AD0044
+    // Offset: 0x2AF5A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::NetSyncOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncOptions*, creationType>()));
     }
     // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0x2AD00BC
+    // Offset: 0x2AF5B08
     void SetVoipGroup(::StringW value);
     // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x2AD0138
+    // Offset: 0x2AF5B84
     void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
     // public System.Void SetZoneId(System.String value)
-    // Offset: 0x2AD01B4
+    // Offset: 0x2AF5C00
     void SetZoneId(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
-    // Offset: 0x2AD0230
+    // Offset: 0x2AF5C7C
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2AD0280
+    // Offset: 0x2AF5CCC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

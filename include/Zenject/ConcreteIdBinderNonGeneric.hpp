@@ -41,10 +41,10 @@ namespace Zenject {
   class ConcreteIdBinderNonGeneric : public ::Zenject::ConcreteBinderNonGeneric {
     public:
     // public Zenject.ConcreteBinderNonGeneric WithId(System.Object identifier)
-    // Offset: 0x177D66C
+    // Offset: 0x17B3514
     ::Zenject::ConcreteBinderNonGeneric* WithId(::Il2CppObject* identifier);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0x177D644
+    // Offset: 0x17B34EC
     // Implemented from: Zenject.ConcreteBinderNonGeneric
     // Base method: System.Void ConcreteBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)

@@ -37,14 +37,14 @@ namespace NUnit::Framework::Internal::Filters {
   class ValueMatchFilter : public ::NUnit::Framework::Internal::TestFilter {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x10F3100
+    // [DebuggerBrowsableAttribute] Offset: 0x1107850
     // private System.String <ExpectedValue>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::StringW ExpectedValue;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10F313C
+    // [DebuggerBrowsableAttribute] Offset: 0x110788C
     // private System.Boolean <IsRegex>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -57,32 +57,32 @@ namespace NUnit::Framework::Internal::Filters {
     // Get instance field reference: private System.Boolean <IsRegex>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsRegex$k__BackingField();
     // public System.String get_ExpectedValue()
-    // Offset: 0x1CF67CC
+    // Offset: 0x1D58EC0
     ::StringW get_ExpectedValue();
     // private System.Void set_ExpectedValue(System.String value)
-    // Offset: 0x1CF67D4
+    // Offset: 0x1D58EC8
     void set_ExpectedValue(::StringW value);
     // public System.Boolean get_IsRegex()
-    // Offset: 0x1CF67DC
+    // Offset: 0x1D58ED0
     bool get_IsRegex();
     // public System.Void set_IsRegex(System.Boolean value)
-    // Offset: 0x1CF67E4
+    // Offset: 0x1D58ED8
     void set_IsRegex(bool value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_ElementName();
     // public System.Void .ctor(System.String expectedValue)
-    // Offset: 0x1CF52D0
+    // Offset: 0x1D579C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueMatchFilter* New_ctor(::StringW expectedValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Filters::ValueMatchFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueMatchFilter*, creationType>(expectedValue)));
     }
     // protected System.Boolean Match(System.String input)
-    // Offset: 0x1CF5734
+    // Offset: 0x1D57E28
     bool Match(::StringW input);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1CF67F0
+    // Offset: 0x1D58EE4
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

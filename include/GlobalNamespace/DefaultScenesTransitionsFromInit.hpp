@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F7D38
+    // [InjectAttribute] Offset: 0x110D3A0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x40
@@ -99,17 +99,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x147EA10
+    // Offset: 0x14349F8
     ::GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x147EBE8
+    // Offset: 0x1434BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultScenesTransitionsFromInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultScenesTransitionsFromInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultScenesTransitionsFromInit*, creationType>()));
     }
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu, System.Boolean goStraightToEditor, System.Boolean goToRecordingToolScene)
-    // Offset: 0x147EA18
+    // Offset: 0x1434A00
     void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
   }; // DefaultScenesTransitionsFromInit
   #pragma pack(pop)

@@ -58,52 +58,52 @@ namespace System::Xml {
     // Get instance field reference: private System.String data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.Void set_Data(System.String value)
-    // Offset: 0x15F612C
+    // Offset: 0x160D068
     void set_Data(::StringW value);
     // protected internal System.Void .ctor(System.String target, System.String data, System.Xml.XmlDocument doc)
-    // Offset: 0x15EF6BC
+    // Offset: 0x16065F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlProcessingInstruction* New_ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlProcessingInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlProcessingInstruction*, creationType>(target, data, doc)));
     }
     // public override System.String get_Name()
-    // Offset: 0x15F60B8
+    // Offset: 0x160CFF4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x15F6114
+    // Offset: 0x160D050
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_Value()
-    // Offset: 0x15F6120
+    // Offset: 0x160D05C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x15F6128
+    // Offset: 0x160D064
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.String get_InnerText()
-    // Offset: 0x15F61DC
+    // Offset: 0x160D118
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x15F61E4
+    // Offset: 0x160D120
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x15F61E8
+    // Offset: 0x160D124
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x15F61F0
+    // Offset: 0x160D12C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

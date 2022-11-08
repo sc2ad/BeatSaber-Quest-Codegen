@@ -53,20 +53,20 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IServerBeatmapProvider*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1400C04
+    // Offset: 0x14871CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapProvider*, creationType>()));
     }
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
-    // Offset: 0x1400B80
+    // Offset: 0x1487148
     bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
     // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(System.Int32 playerCount, System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> suggestedBeatmaps, BeatmapLevelSelectionMask selectionMask, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> ownedSongPacks)
-    // Offset: 0x1400B88
+    // Offset: 0x1487150
     ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* suggestedBeatmaps, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
     // public System.Void Dispose()
-    // Offset: 0x1400C00
+    // Offset: 0x14871C8
     void Dispose();
   }; // MockBeatmapProvider
   #pragma pack(pop)

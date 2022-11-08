@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x152DF1C
+    // Offset: 0x152B598
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x152DF80
+    // Offset: 0x152B5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollbarInfoBeatmapLevelHelper::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollbarInfoBeatmapLevelHelper::$$c*, creationType>()));
     }
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
-    // Offset: 0x152DF88
+    // Offset: 0x152B604
     ::StringW $CreateData$b__3_0(::GlobalNamespace::IPreviewBeatmapLevel* x);
   }; // AlphabetScrollbarInfoBeatmapLevelHelper/<>c
   #pragma pack(pop)

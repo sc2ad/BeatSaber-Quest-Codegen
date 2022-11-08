@@ -63,16 +63,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Color ColorForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x146CB10
+    // Offset: 0x15A0B20
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x146CB54
+    // Offset: 0x15A0B64
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x146CBBC
+    // Offset: 0x15A0BCC
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x146CCAC
+    // Offset: 0x15A0CBC
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ListColorController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x146CC1C
+    // Offset: 0x15A0C2C
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x146CC68
+    // Offset: 0x15A0C78
     // Implemented from: IncDecColorController
     // Base method: System.Void IncDecColorController::DecButtonPressed()
     void DecButtonPressed();

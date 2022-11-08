@@ -78,26 +78,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.InputField <>4__this
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::InputField*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1EE35D4
+    // Offset: 0x1F28E54
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1EE363C
+    // Offset: 0x1F28EBC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1EE319C
+    // Offset: 0x1F28A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputField::$MouseDragOutsideRect$d__181* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputField::$MouseDragOutsideRect$d__181*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1EE31C8
+    // Offset: 0x1F28A48
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1EE31CC
+    // Offset: 0x1F28A4C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1EE35DC
+    // Offset: 0x1F28E5C
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.InputField/UnityEngine.UI.<MouseDragOutsideRect>d__181
   #pragma pack(pop)

@@ -27,15 +27,18 @@ namespace GlobalNamespace {
   class MathfExtra : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B50CD8
+    // Offset: 0x2B78848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MathfExtra* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MathfExtra::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MathfExtra*, creationType>()));
     }
     // static public System.Single Mod(System.Single value, System.Single mod)
-    // Offset: 0x2B50C5C
+    // Offset: 0x2B78720
     static float Mod(float value, float mod);
+    // static public System.Single Round(System.Single value, System.Int32 decimals)
+    // Offset: 0x2B7879C
+    static float Round(float value, int decimals);
   }; // MathfExtra
   #pragma pack(pop)
 }
@@ -52,5 +55,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* mod = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MathfExtra*), "Mod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, mod});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MathfExtra::Round
+// Il2CppName: Round
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, int)>(&GlobalNamespace::MathfExtra::Round)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* decimals = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MathfExtra*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, decimals});
   }
 };

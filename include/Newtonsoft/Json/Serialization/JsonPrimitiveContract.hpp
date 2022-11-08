@@ -62,16 +62,16 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
     // Newtonsoft.Json.Utilities.PrimitiveTypeCode get_TypeCode()
-    // Offset: 0x1DBCF68
+    // Offset: 0x1DDF3C8
     ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
     // System.Void set_TypeCode(Newtonsoft.Json.Utilities.PrimitiveTypeCode value)
-    // Offset: 0x1DBCF70
+    // Offset: 0x1DDF3D0
     void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
     // static private System.Void .cctor()
-    // Offset: 0x1DBD06C
+    // Offset: 0x1DDF4CC
     static void _cctor();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1DBCF78
+    // Offset: 0x1DDF3D8
     // Implemented from: Newtonsoft.Json.Serialization.JsonContract
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

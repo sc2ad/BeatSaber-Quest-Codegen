@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single offset
     [[deprecated("Use field access instead!")]] float& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x1481A60
+    // Offset: 0x1437A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroneHover::SineLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroneHover::SineLayer::.ctor");

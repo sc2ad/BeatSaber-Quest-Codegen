@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class SR_ : public ::Il2CppObject {
     public:
     // static System.String GetString(System.String name)
-    // Offset: 0x2AD939C
+    // Offset: 0x2AFFDE8
     static ::StringW GetString(::StringW name);
   }; // SR
   #pragma pack(pop)

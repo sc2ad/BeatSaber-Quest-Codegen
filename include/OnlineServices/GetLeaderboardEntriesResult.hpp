@@ -71,10 +71,10 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     [[deprecated("Use field access instead!")]] int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x1357884
+    // Offset: 0x137210C
     static ::OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x1357870
+    // Offset: 0x13720F8
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayW<::OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex);
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)

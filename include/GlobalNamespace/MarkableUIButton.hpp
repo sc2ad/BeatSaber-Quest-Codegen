@@ -66,23 +66,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _markedTriggerId
     [[deprecated("Use field access instead!")]] int& dyn__markedTriggerId();
     // public System.Boolean get_marked()
-    // Offset: 0x15D35D0
+    // Offset: 0x15FA9D8
     bool get_marked();
     // public System.Void set_marked(System.Boolean value)
-    // Offset: 0x15D35D8
+    // Offset: 0x15FA9E0
     void set_marked(bool value);
     // public System.Void .ctor()
-    // Offset: 0x15D366C
+    // Offset: 0x15FAA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarkableUIButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MarkableUIButton::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarkableUIButton*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15D3604
+    // Offset: 0x15FAA0C
     void Awake();
     // public System.Void ToggleMarked()
-    // Offset: 0x15D365C
+    // Offset: 0x15FAA64
     void ToggleMarked();
   }; // MarkableUIButton
   #pragma pack(pop)

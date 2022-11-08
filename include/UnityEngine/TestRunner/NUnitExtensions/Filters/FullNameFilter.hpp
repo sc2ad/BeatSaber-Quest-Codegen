@@ -37,19 +37,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   class FullNameFilter : public ::NUnit::Framework::Internal::Filters::FullNameFilter {
     public:
     // public System.Void .ctor(System.String expectedValue)
-    // Offset: 0x194C0C0
+    // Offset: 0x197F9CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FullNameFilter* New_ctor(::StringW expectedValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Filters::FullNameFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FullNameFilter*, creationType>(expectedValue)));
     }
     // protected override System.String get_ElementName()
-    // Offset: 0x194C3D0
+    // Offset: 0x197FCDC
     // Implemented from: NUnit.Framework.Internal.Filters.FullNameFilter
     // Base method: System.String FullNameFilter::get_ElementName()
     ::StringW get_ElementName();
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x194C0C8
+    // Offset: 0x197F9D4
     // Implemented from: NUnit.Framework.Internal.Filters.FullNameFilter
     // Base method: System.Boolean FullNameFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(::NUnit::Framework::Interfaces::ITest* test);

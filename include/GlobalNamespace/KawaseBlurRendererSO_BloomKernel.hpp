@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 sharedPartWithNext
     [[deprecated("Use field access instead!")]] int& dyn_sharedPartWithNext();
     // public System.Void .ctor()
-    // Offset: 0x1CFF724
+    // Offset: 0x1CC54A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KawaseBlurRendererSO::BloomKernel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KawaseBlurRendererSO::BloomKernel::.ctor");

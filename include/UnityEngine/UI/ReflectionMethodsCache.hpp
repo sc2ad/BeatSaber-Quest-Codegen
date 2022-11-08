@@ -98,17 +98,17 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.GetRayIntersectionAllNonAllocCallback getRayIntersectionAllNonAlloc
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*& dyn_getRayIntersectionAllNonAlloc();
     // static public UnityEngine.UI.ReflectionMethodsCache get_Singleton()
-    // Offset: 0x1EED85C
+    // Offset: 0x1F330DC
     static ::UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
     // public System.Void .ctor()
-    // Offset: 0x1EECD70
+    // Offset: 0x1F325F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ReflectionMethodsCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EED91C
+    // Offset: 0x1F3319C
     static void _cctor();
   }; // UnityEngine.UI.ReflectionMethodsCache
   #pragma pack(pop)

@@ -81,39 +81,39 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean isLimited
     [[deprecated("Use field access instead!")]] bool& dyn_isLimited();
     // public RootMotion.FinalIK.RotationLimit get_rotationLimit()
-    // Offset: 0x227D604
+    // Offset: 0x22F9B4C
     ::RootMotion::FinalIK::RotationLimit* get_rotationLimit();
     // public System.Void set_rotationLimit(RootMotion.FinalIK.RotationLimit value)
-    // Offset: 0x227D6F8
+    // Offset: 0x22F9C40
     void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* value);
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x227E0B4
+    // Offset: 0x22FA5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Bone* New_ctor(::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Bone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Bone*, creationType>(transform)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x227E14C
+    // Offset: 0x22FA694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Bone* New_ctor(::UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Bone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Bone*, creationType>(transform, weight)));
     }
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x227D780
+    // Offset: 0x22F9CC8
     void Swing(::UnityEngine::Vector3 swingTarget, float weight);
     // static public System.Void SolverSwing(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x227DA40
+    // Offset: 0x22F9F88
     static void SolverSwing(::ArrayW<::RootMotion::FinalIK::IKSolver::Bone*> bones, int index, ::UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing2D(UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x227DD20
+    // Offset: 0x22FA268
     void Swing2D(::UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void SetToSolverPosition()
-    // Offset: 0x227DF88
+    // Offset: 0x22FA4D0
     void SetToSolverPosition();
     // public System.Void .ctor()
-    // Offset: 0x227DFB0
+    // Offset: 0x22FA4F8
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
     // Base method: System.Void Point::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

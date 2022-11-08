@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::SetPlayerDidConnectLateRpc : public ::GlobalNamespace::RemoteProcedureCall_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16A6DBC
+    // Offset: 0x16CA4AC
     // Implemented from: RemoteProcedureCall`3
     // Base method: System.Void RemoteProcedureCall_3::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

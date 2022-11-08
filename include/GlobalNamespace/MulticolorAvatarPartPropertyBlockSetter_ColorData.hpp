@@ -52,16 +52,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteBoost
     [[deprecated("Use field access instead!")]] float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x1406980
+    // Offset: 0x148CF48
     ::UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x140698C
+    // Offset: 0x148CF54
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x1406994
+    // Offset: 0x148CF5C
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x140699C
+    // Offset: 0x148CF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MulticolorAvatarPartPropertyBlockSetter::ColorData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::.ctor");

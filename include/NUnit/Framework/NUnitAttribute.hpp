@@ -29,7 +29,7 @@ namespace NUnit::Framework {
   class NUnitAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A72178
+    // Offset: 0x2A6A9CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::NUnitAttribute::.ctor");

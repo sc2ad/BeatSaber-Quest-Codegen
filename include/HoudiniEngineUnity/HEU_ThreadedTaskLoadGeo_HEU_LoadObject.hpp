@@ -83,7 +83,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferInstancer> _instancerBuffers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& dyn__instancerBuffers();
     // public System.Void .ctor()
-    // Offset: 0x1A2FEA8
+    // Offset: 0x1A4E458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTaskLoadGeo::HEU_LoadObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadObject::.ctor");

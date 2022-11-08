@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10D2C3C
+    // [SpaceAttribute] Offset: 0x10E8128
     // private System.Single _distanceScale
     // Size: 0x4
     // Offset: 0x28
@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D2C84
+    // [SpaceAttribute] Offset: 0x10E8170
     // private System.Single _alpha
     // Size: 0x4
     // Offset: 0x30
     float alpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10D2CBC
+    // [SpaceAttribute] Offset: 0x10E81A8
     // private System.Single _floorYPos
     // Size: 0x4
     // Offset: 0x34
@@ -111,17 +111,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x2A83C10
+    // Offset: 0x2AB3F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleShadowController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleShadowController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleShadowController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2A83A78
+    // Offset: 0x2AB3DB4
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x2A83AA0
+    // Offset: 0x2AB3DDC
     void LateUpdate();
   }; // SimpleShadowController
   #pragma pack(pop)

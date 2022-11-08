@@ -82,26 +82,26 @@ namespace HMUI {
     // Get instance field reference: private System.String _text
     [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // public System.String get_text()
-    // Offset: 0x1729F4C
+    // Offset: 0x174D868
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1729F54
+    // Offset: 0x174D870
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1729FAC
+    // Offset: 0x174D8C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverTextSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextSetter*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1729F5C
+    // Offset: 0x174D878
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1729F7C
+    // Offset: 0x174D898
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x1729F94
+    // Offset: 0x174D8B0
     void OnDisable();
   }; // HMUI.HoverTextSetter
   #pragma pack(pop)

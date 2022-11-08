@@ -50,21 +50,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FullVRControllersRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x110E188
+    // [InjectAttribute] Offset: 0x1123C84
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x110E198
+    // [InjectAttribute] Offset: 0x1123C94
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x110E1A8
+    // [InjectAttribute] Offset: 0x1123CA4
     // private readonly PlayerVRControllersManager _playerVRControllersManager
     // Size: 0x8
     // Offset: 0x30
@@ -83,20 +83,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayerVRControllersManager _playerVRControllersManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerVRControllersManager*& dyn__playerVRControllersManager();
     // public System.Void .ctor()
-    // Offset: 0x135ADB8
+    // Offset: 0x1375640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OverridePlayerTransformsFromFullVRControllersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OverridePlayerTransformsFromFullVRControllersRecorder*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x135AB20
+    // Offset: 0x13753A8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x135ABC4
+    // Offset: 0x137544C
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0x135ACA0
+    // Offset: 0x1375528
     void HandleFullVRControllersRecorderDidSetControllerTransform(::GlobalNamespace::VRController* controller);
   }; // OverridePlayerTransformsFromFullVRControllersRecorder
   #pragma pack(pop)
