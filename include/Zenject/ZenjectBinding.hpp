@@ -107,21 +107,21 @@ namespace Zenject {
     static check_size<sizeof(ZenjectBinding::BindTypes), 0 + sizeof(int)> __Zenject_ZenjectBinding_BindTypesSizeCheck;
     static_assert(sizeof(ZenjectBinding::BindTypes) == 0x4);
     public:
-    // [TooltipAttribute] Offset: 0x10CD40C
+    // [TooltipAttribute] Offset: 0x10E28F8
     // private UnityEngine.Component[] _components
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::UnityEngine::Component*> components;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Component*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x10CD458
+    // [TooltipAttribute] Offset: 0x10E2944
     // private System.String _identifier
     // Size: 0x8
     // Offset: 0x20
     ::StringW identifier;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x10CD4A4
+    // [TooltipAttribute] Offset: 0x10E2990
     // private System.Boolean _useSceneContext
     // Size: 0x1
     // Offset: 0x28
@@ -136,16 +136,16 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ifNotBound and: context
     char __padding3[0x6] = {};
-    // [NullAllowed] Offset: 0x10CD500
-    // [FormerlySerializedAsAttribute] Offset: 0x10CD500
-    // [TooltipAttribute] Offset: 0x10CD500
+    // [NullAllowed] Offset: 0x10E29EC
+    // [FormerlySerializedAsAttribute] Offset: 0x10E29EC
+    // [TooltipAttribute] Offset: 0x10E29EC
     // private Zenject.Context _context
     // Size: 0x8
     // Offset: 0x30
     ::Zenject::Context* context;
     // Field size check
     static_assert(sizeof(::Zenject::Context*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10CD580
+    // [TooltipAttribute] Offset: 0x10E2A6C
     // private Zenject.ZenjectBinding/Zenject.BindTypes _bindType
     // Size: 0x4
     // Offset: 0x38
@@ -168,38 +168,38 @@ namespace Zenject {
     // Get instance field reference: private Zenject.ZenjectBinding/Zenject.BindTypes _bindType
     [[deprecated("Use field access instead!")]] ::Zenject::ZenjectBinding::BindTypes& dyn__bindType();
     // public System.Boolean get_UseSceneContext()
-    // Offset: 0x1D6E824
+    // Offset: 0x1DBD060
     bool get_UseSceneContext();
     // public System.Boolean get_IfNotBound()
-    // Offset: 0x1D6E82C
+    // Offset: 0x1DBD068
     bool get_IfNotBound();
     // public Zenject.Context get_Context()
-    // Offset: 0x1D6E834
+    // Offset: 0x1DBD070
     ::Zenject::Context* get_Context();
     // public System.Void set_Context(Zenject.Context value)
-    // Offset: 0x1D6E83C
+    // Offset: 0x1DBD078
     void set_Context(::Zenject::Context* value);
     // public UnityEngine.Component[] get_Components()
-    // Offset: 0x1D6E844
+    // Offset: 0x1DBD080
     ::ArrayW<::UnityEngine::Component*> get_Components();
     // public System.String get_Identifier()
-    // Offset: 0x1D6E84C
+    // Offset: 0x1DBD088
     ::StringW get_Identifier();
     // public Zenject.ZenjectBinding/Zenject.BindTypes get_BindType()
-    // Offset: 0x1D6E854
+    // Offset: 0x1DBD090
     ::Zenject::ZenjectBinding::BindTypes get_BindType();
     // public System.Void .ctor()
-    // Offset: 0x1D6E860
+    // Offset: 0x1DBD09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectBinding*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x1D6E85C
+    // Offset: 0x1DBD098
     void Start();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1D6E8C0
+    // Offset: 0x1DBD0FC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectBinding
   #pragma pack(pop)

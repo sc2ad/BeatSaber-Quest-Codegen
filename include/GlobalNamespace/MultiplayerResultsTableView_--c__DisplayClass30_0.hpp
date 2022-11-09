@@ -57,17 +57,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerResultsTableCell cell
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsTableCell*& dyn_cell();
     // public System.Void .ctor()
-    // Offset: 0x13E225C
+    // Offset: 0x14E83D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$$c__DisplayClass30_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$$c__DisplayClass30_0*, creationType>()));
     }
     // System.Void <StartAnimation>b__0(UnityEngine.Vector2 val)
-    // Offset: 0x13E2460
+    // Offset: 0x14E85D8
     void $StartAnimation$b__0(::UnityEngine::Vector2 val);
     // System.Void <StartAnimation>b__2(System.Single val)
-    // Offset: 0x13E247C
+    // Offset: 0x14E85F4
     void $StartAnimation$b__2(float val);
   }; // MultiplayerResultsTableView/<>c__DisplayClass30_0
   #pragma pack(pop)

@@ -51,14 +51,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.Func`1<System.Boolean> m_Predicate
     [[deprecated("Use field access instead!")]] ::System::Func_1<bool>*& dyn_m_Predicate();
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x28F07F0
+    // Offset: 0x28D062C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitWhile* New_ctor(::System::Func_1<bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::WaitWhile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitWhile*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x28F0798
+    // Offset: 0x28D05D4
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

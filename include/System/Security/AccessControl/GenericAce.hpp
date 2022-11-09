@@ -61,68 +61,68 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.AceType ace_type
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::AceType& dyn_ace_type();
     // public System.Security.AccessControl.AceFlags get_AceFlags()
-    // Offset: 0x1B8F280
+    // Offset: 0x1B98148
     ::System::Security::AccessControl::AceFlags get_AceFlags();
     // public System.Security.AccessControl.AceType get_AceType()
-    // Offset: 0x1B8F288
+    // Offset: 0x1B98150
     ::System::Security::AccessControl::AceType get_AceType();
     // public System.Security.AccessControl.AuditFlags get_AuditFlags()
-    // Offset: 0x1B8EF7C
+    // Offset: 0x1B97E44
     ::System::Security::AccessControl::AuditFlags get_AuditFlags();
     // public System.Int32 get_BinaryLength()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_BinaryLength();
     // public System.Security.AccessControl.InheritanceFlags get_InheritanceFlags()
-    // Offset: 0x1B8F290
+    // Offset: 0x1B98158
     ::System::Security::AccessControl::InheritanceFlags get_InheritanceFlags();
     // public System.Boolean get_IsInherited()
-    // Offset: 0x1B8D020
+    // Offset: 0x1B95EE8
     bool get_IsInherited();
     // public System.Security.AccessControl.PropagationFlags get_PropagationFlags()
-    // Offset: 0x1B8F2A0
+    // Offset: 0x1B98168
     ::System::Security::AccessControl::PropagationFlags get_PropagationFlags();
     // System.Void .ctor(System.Security.AccessControl.AceType type, System.Security.AccessControl.AceFlags flags)
-    // Offset: 0x1B8F074
+    // Offset: 0x1B97F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::GenericAce::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericAce*, creationType>(type, flags)));
     }
     // System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B8F120
+    // Offset: 0x1B97FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericAce* New_ctor(::ArrayW<uint8_t> binaryForm, int offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::GenericAce::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericAce*, creationType>(binaryForm, offset)));
     }
     // static public System.Security.AccessControl.GenericAce CreateFromBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B8DF78
+    // Offset: 0x1B96E40
     static ::System::Security::AccessControl::GenericAce* CreateFromBinaryForm(::ArrayW<uint8_t> binaryForm, int offset);
     // public System.Void GetBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int offset);
     // static private System.Boolean IsObjectType(System.Security.AccessControl.AceType type)
-    // Offset: 0x1B8F2AC
+    // Offset: 0x1B98174
     static bool IsObjectType(::System::Security::AccessControl::AceType type);
     // static System.UInt16 ReadUShort(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1B8BC78
+    // Offset: 0x1B94B40
     static uint16_t ReadUShort(::ArrayW<uint8_t> buffer, int offset);
     // static System.Int32 ReadInt(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1B8BCC4
+    // Offset: 0x1B94B8C
     static int ReadInt(::ArrayW<uint8_t> buffer, int offset);
     // static System.Void WriteInt(System.Int32 val, System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1B8BF8C
+    // Offset: 0x1B94E54
     static void WriteInt(int val, ::ArrayW<uint8_t> buffer, int offset);
     // static System.Void WriteUShort(System.UInt16 val, System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1B8BF38
+    // Offset: 0x1B94E00
     static void WriteUShort(uint16_t val, ::ArrayW<uint8_t> buffer, int offset);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x1B8F544
+    // Offset: 0x1B9840C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B8F5D4
+    // Offset: 0x1B9849C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -131,10 +131,10 @@ namespace System::Security::AccessControl {
   static check_size<sizeof(GenericAce), 17 + sizeof(::System::Security::AccessControl::AceType)> __System_Security_AccessControl_GenericAceSizeCheck;
   static_assert(sizeof(GenericAce) == 0x12);
   // static public System.Boolean op_Equality(System.Security.AccessControl.GenericAce left, System.Security.AccessControl.GenericAce right)
-  // Offset: 0x1B8D258
+  // Offset: 0x1B96120
   bool operator ==(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce& right);
   // static public System.Boolean op_Inequality(System.Security.AccessControl.GenericAce left, System.Security.AccessControl.GenericAce right)
-  // Offset: 0x1B8CE58
+  // Offset: 0x1B95D20
   bool operator !=(::System::Security::AccessControl::GenericAce* left, ::System::Security::AccessControl::GenericAce& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

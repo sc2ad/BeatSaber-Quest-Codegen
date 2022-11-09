@@ -51,7 +51,7 @@ namespace ModestTree {
   class MiscExtensions : public ::Il2CppObject {
     public:
     // static public System.String Fmt(System.String s, params System.Object[] args)
-    // Offset: 0x17711CC
+    // Offset: 0x17A7074
     static ::StringW Fmt(::StringW s, ::ArrayW<::Il2CppObject*> args);
     // static public System.Int32 IndexOf(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -63,7 +63,7 @@ namespace ModestTree {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
-    // Offset: 0x1772268
+    // Offset: 0x17A8110
     static ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFFFFFFFFFF

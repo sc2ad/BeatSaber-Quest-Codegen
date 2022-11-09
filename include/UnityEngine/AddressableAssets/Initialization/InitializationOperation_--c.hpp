@@ -46,17 +46,17 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18B657C
+    // Offset: 0x18D9D30
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18B65E0
+    // Offset: 0x18D9D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializationOperation::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializationOperation::$$c*, creationType>()));
     }
     // System.Boolean <Execute>b__13_0(UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider rp)
-    // Offset: 0x18B65E8
+    // Offset: 0x18D9D9C
     bool $Execute$b__13_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
   }; // UnityEngine.AddressableAssets.Initialization.InitializationOperation/UnityEngine.AddressableAssets.Initialization.<>c
   #pragma pack(pop)

@@ -66,7 +66,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Utilities.PropertyNameTable NameTable
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::PropertyNameTable*& dyn_NameTable();
     // public System.Void .ctor()
-    // Offset: 0x1DB792C
+    // Offset: 0x1DD9D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolverState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolverState::.ctor");

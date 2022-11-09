@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRSceneLoader <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRSceneLoader*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1B3CEA8
+    // Offset: 0x1B71054
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1B3CF10
+    // Offset: 0x1B710BC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1B3C908
+    // Offset: 0x1B70AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneLoader::$onCheckSceneCoroutine$d__25* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneLoader::$onCheckSceneCoroutine$d__25*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1B3CBF0
+    // Offset: 0x1B70D9C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1B3CBF4
+    // Offset: 0x1B70DA0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1B3CEB0
+    // Offset: 0x1B7105C
     void System_Collections_IEnumerator_Reset();
   }; // OVRSceneLoader/<onCheckSceneCoroutine>d__25
   #pragma pack(pop)

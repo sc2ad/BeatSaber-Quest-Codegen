@@ -60,20 +60,20 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonString <Options>k__BackingField
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonString*& dyn_$Options$k__BackingField();
     // public System.Void set_Pattern(Newtonsoft.Json.Bson.BsonString value)
-    // Offset: 0x17DF878
+    // Offset: 0x18040B4
     void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
     // public System.Void set_Options(Newtonsoft.Json.Bson.BsonString value)
-    // Offset: 0x17DF880
+    // Offset: 0x18040BC
     void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
     // public System.Void .ctor(System.String pattern, System.String options)
-    // Offset: 0x17DF888
+    // Offset: 0x18040C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonRegex* New_ctor(::StringW pattern, ::StringW options) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonRegex::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BsonRegex*, creationType>(pattern, options)));
     }
     // public override Newtonsoft.Json.Bson.BsonType get_Type()
-    // Offset: 0x17DF938
+    // Offset: 0x1804174
     // Implemented from: Newtonsoft.Json.Bson.BsonToken
     // Base method: Newtonsoft.Json.Bson.BsonType BsonToken::get_Type()
     ::Newtonsoft::Json::Bson::BsonType get_Type();

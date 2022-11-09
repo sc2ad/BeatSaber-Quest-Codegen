@@ -96,26 +96,26 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass5_0 <>8__1
     [[deprecated("Use field access instead!")]] ::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*& dyn_$$8__1();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2A918F0
+    // Offset: 0x2AC1C2C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2A91958
+    // Offset: 0x2AC1C94
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2A9105C
+    // Offset: 0x2AC1398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2A91780
+    // Offset: 0x2AC1ABC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2A91784
+    // Offset: 0x2AC1AC0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2A918F8
+    // Offset: 0x2AC1C34
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<DoHorizontalTransition>d__5
   #pragma pack(pop)

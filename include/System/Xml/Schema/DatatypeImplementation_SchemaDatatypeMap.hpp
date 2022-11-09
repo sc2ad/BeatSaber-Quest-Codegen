@@ -61,30 +61,30 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 parentIndex
     [[deprecated("Use field access instead!")]] int& dyn_parentIndex();
     // public System.String get_Name()
-    // Offset: 0x1C7ED58
+    // Offset: 0x1D007D8
     ::StringW get_Name();
     // public System.Int32 get_ParentIndex()
-    // Offset: 0x1C7ED60
+    // Offset: 0x1D007E0
     int get_ParentIndex();
     // System.Void .ctor(System.String name, System.Xml.Schema.DatatypeImplementation type)
-    // Offset: 0x1C7ECC8
+    // Offset: 0x1D00748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DatatypeImplementation::SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DatatypeImplementation::SchemaDatatypeMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation::SchemaDatatypeMap*, creationType>(name, type)));
     }
     // System.Void .ctor(System.String name, System.Xml.Schema.DatatypeImplementation type, System.Int32 parentIndex)
-    // Offset: 0x1C7ED00
+    // Offset: 0x1D00780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DatatypeImplementation::SchemaDatatypeMap* New_ctor(::StringW name, ::System::Xml::Schema::DatatypeImplementation* type, int parentIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::DatatypeImplementation::SchemaDatatypeMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DatatypeImplementation::SchemaDatatypeMap*, creationType>(name, type, parentIndex)));
     }
     // static public System.Xml.Schema.DatatypeImplementation op_Explicit(System.Xml.Schema.DatatypeImplementation/System.Xml.Schema.SchemaDatatypeMap sdm)
-    // Offset: 0x1C7ED40
+    // Offset: 0x1D007C0
     explicit operator ::System::Xml::Schema::DatatypeImplementation*();
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1C7ED68
+    // Offset: 0x1D007E8
     int CompareTo(::Il2CppObject* obj);
   }; // System.Xml.Schema.DatatypeImplementation/System.Xml.Schema.SchemaDatatypeMap
   #pragma pack(pop)

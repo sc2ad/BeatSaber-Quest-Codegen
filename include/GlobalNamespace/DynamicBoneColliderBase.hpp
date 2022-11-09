@@ -161,14 +161,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public DynamicBoneColliderBase/Bound m_Bound
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DynamicBoneColliderBase::Bound& dyn_m_Bound();
     // public System.Void .ctor()
-    // Offset: 0x2B2C8D8
+    // Offset: 0x2B535EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBoneColliderBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBoneColliderBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBoneColliderBase*, creationType>()));
     }
     // public System.Void Collide(ref UnityEngine.Vector3 particlePosition, System.Single particleRadius)
-    // Offset: 0x2B2C958
+    // Offset: 0x2B5366C
     void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float particleRadius);
   }; // DynamicBoneColliderBase
   #pragma pack(pop)

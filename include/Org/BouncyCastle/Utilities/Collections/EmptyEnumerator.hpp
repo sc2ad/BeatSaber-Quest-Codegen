@@ -41,23 +41,23 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerator Instance
     static void _set_Instance(::System::Collections::IEnumerator* value);
     // public System.Object get_Current()
-    // Offset: 0x18228E4
+    // Offset: 0x185AA30
     ::Il2CppObject* get_Current();
     // private System.Void .ctor()
-    // Offset: 0x18228D0
+    // Offset: 0x185AA1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyEnumerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyEnumerator*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1822950
+    // Offset: 0x185AA9C
     static void _cctor();
     // public System.Boolean MoveNext()
-    // Offset: 0x18228D8
+    // Offset: 0x185AA24
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x18228E0
+    // Offset: 0x185AA2C
     void Reset();
   }; // Org.BouncyCastle.Utilities.Collections.EmptyEnumerator
   #pragma pack(pop)

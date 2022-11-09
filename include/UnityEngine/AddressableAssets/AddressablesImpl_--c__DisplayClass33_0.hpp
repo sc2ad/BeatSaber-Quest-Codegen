@@ -44,14 +44,14 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x18A9B94
+    // Offset: 0x18CD348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass33_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass33_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass33_0*, creationType>()));
     }
     // System.Void <OnSceneUnloaded>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> handle)
-    // Offset: 0x18AFCC0
+    // Offset: 0x18D3474
     void $OnSceneUnloaded$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass33_0
   // WARNING Not writing size check since size may be invalid!

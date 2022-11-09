@@ -93,10 +93,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IBeatmapLevelPackCollection> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelPackCollection*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x145E38C
+    // Offset: 0x1501320
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x145E800
+    // Offset: 0x1501794
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // LevelFilteringNavigationController/<UpdateCustomSongs>d__54
   // WARNING Not writing size check since size may be invalid!

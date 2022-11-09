@@ -319,13 +319,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotation
     [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // static public SliderSpawnInfoNetSerializable Obtain()
-    // Offset: 0x29D202C
+    // Offset: 0x29EEEF8
     static ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
     // public SliderSpawnInfoNetSerializable Init(ColorType colorType, SliderData/Type sliderType, System.Boolean hasHeadNote, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single headCutDirectionAngleOffset, System.Boolean hasTailNote, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, System.Single tailCutDirectionAngleOffset, SliderMidAnchorMode midAnchorMode, System.Int32 sliceCount, System.Single squishAmount, UnityEngine.Vector3 headMoveStartPos, UnityEngine.Vector3 headJumpStartPos, UnityEngine.Vector3 headJumpEndPos, System.Single headJumpGravity, UnityEngine.Vector3 tailMoveStartPos, UnityEngine.Vector3 tailJumpStartPos, UnityEngine.Vector3 tailJumpEndPos, System.Single tailJumpGravity, System.Single moveDuration, System.Single jumpDuration, System.Single rotation)
-    // Offset: 0x29D2074
+    // Offset: 0x29EEF40
     ::GlobalNamespace::SliderSpawnInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData::Type sliderType, bool hasHeadNote, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float headCutDirectionAngleOffset, bool hasTailNote, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int sliceCount, float squishAmount, ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos, ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float tailJumpGravity, float moveDuration, float jumpDuration, float rotation);
     // public System.Void .ctor()
-    // Offset: 0x29D22C0
+    // Offset: 0x29EF18C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -334,12 +334,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SliderSpawnInfoNetSerializable*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29D22C8
+    // Offset: 0x29EF194
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29D25A0
+    // Offset: 0x29EF46C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public ToneMapping toneMapping
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ToneMapping& dyn_toneMapping();
     // public System.Void .ctor()
-    // Offset: 0x1CF8DB4
+    // Offset: 0x1CBE2D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRenderDataSO::Data* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRenderDataSO::Data::.ctor");

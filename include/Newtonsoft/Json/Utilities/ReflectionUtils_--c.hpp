@@ -67,26 +67,26 @@ namespace Newtonsoft::Json::Utilities {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.Boolean> <>9__39_0
     static void _set_$$9__39_0(::System::Func_2<::System::Reflection::FieldInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x212B104
+    // Offset: 0x211B49C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x212B168
+    // Offset: 0x211B500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionUtils::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionUtils::$$c*, creationType>()));
     }
     // System.Boolean <GetDefaultConstructor>b__10_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x212B170
+    // Offset: 0x211B508
     bool $GetDefaultConstructor$b__10_0(::System::Reflection::ConstructorInfo* c);
     // System.String <GetFieldsAndProperties>b__29_0(System.Reflection.MemberInfo m)
-    // Offset: 0x212B1E4
+    // Offset: 0x211B57C
     ::StringW $GetFieldsAndProperties$b__29_0(::System::Reflection::MemberInfo* m);
     // System.Type <GetMemberInfoFromType>b__37_0(System.Reflection.ParameterInfo p)
-    // Offset: 0x212B204
+    // Offset: 0x211B59C
     ::System::Type* $GetMemberInfoFromType$b__37_0(::System::Reflection::ParameterInfo* p);
     // System.Boolean <GetChildPrivateFields>b__39_0(System.Reflection.FieldInfo f)
-    // Offset: 0x212B224
+    // Offset: 0x211B5BC
     bool $GetChildPrivateFields$b__39_0(::System::Reflection::FieldInfo* f);
   }; // Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c
   #pragma pack(pop)

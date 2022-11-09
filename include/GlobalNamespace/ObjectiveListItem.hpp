@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _conditionText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__conditionText();
     // public System.Void set_title(System.String value)
-    // Offset: 0x150CCB0
+    // Offset: 0x154025C
     void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0x150CCCC
+    // Offset: 0x1540278
     void set_conditionText(::StringW value);
     // public System.Void set_hideCondition(System.Boolean value)
-    // Offset: 0x150CCE8
+    // Offset: 0x1540294
     void set_hideCondition(bool value);
     // public System.Void .ctor()
-    // Offset: 0x150CD28
+    // Offset: 0x15402D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectiveListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectiveListItem::.ctor");

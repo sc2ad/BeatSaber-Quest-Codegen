@@ -133,7 +133,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pelvisRotationWeight
     [[deprecated("Use field access instead!")]] float& dyn_pelvisRotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x2059A44
+    // Offset: 0x2059438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::.ctor");

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ResultObjectiveListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x148E5FC
+    // Offset: 0x141E6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultObjectiveListItemsList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultObjectiveListItemsList::.ctor");

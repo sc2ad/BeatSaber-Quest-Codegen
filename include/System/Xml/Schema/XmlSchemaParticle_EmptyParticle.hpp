@@ -23,7 +23,7 @@ namespace System::Xml::Schema {
   class XmlSchemaParticle::EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle {
     public:
     // public System.Void .ctor()
-    // Offset: 0x210A618
+    // Offset: 0x20F99B0
     // Implemented from: System.Xml.Schema.XmlSchemaParticle
     // Base method: System.Void XmlSchemaParticle::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

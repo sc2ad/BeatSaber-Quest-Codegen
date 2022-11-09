@@ -39,21 +39,21 @@ namespace RootMotion::FinalIK {
   class InteractionLookAt : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1125E3C
+    // [TooltipAttribute] Offset: 0x1139CA4
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
     // Offset: 0x10
     ::RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1125E74
+    // [TooltipAttribute] Offset: 0x1139CDC
     // public System.Single lerpSpeed
     // Size: 0x4
     // Offset: 0x18
     float lerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1125EAC
+    // [TooltipAttribute] Offset: 0x1139D14
     // public System.Single weightSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -110,26 +110,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean firstFBBIKSolve
     [[deprecated("Use field access instead!")]] bool& dyn_firstFBBIKSolve();
     // public System.Void .ctor()
-    // Offset: 0x2407C30
+    // Offset: 0x24072B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionLookAt* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionLookAt::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionLookAt*, creationType>()));
     }
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
-    // Offset: 0x2407608
+    // Offset: 0x2406C90
     void Look(::UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
-    // Offset: 0x2407780
+    // Offset: 0x2406E08
     void OnFixTransforms();
     // public System.Void Update()
-    // Offset: 0x2407828
+    // Offset: 0x2406EB0
     void Update();
     // public System.Void SolveSpine()
-    // Offset: 0x2407A6C
+    // Offset: 0x24070F4
     void SolveSpine();
     // public System.Void SolveHead()
-    // Offset: 0x2407B64
+    // Offset: 0x24071EC
     void SolveHead();
   }; // RootMotion.FinalIK.InteractionLookAt
   #pragma pack(pop)

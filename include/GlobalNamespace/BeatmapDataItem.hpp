@@ -121,13 +121,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly BeatmapDataItem/BeatmapDataItemType type
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType& dyn_type();
     // public System.Single get_time()
-    // Offset: 0x28B8A24
+    // Offset: 0x274035C
     float get_time();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x28B8A2C
+    // Offset: 0x2740364
     int get_executionOrder();
+    // public System.Int32 get_subtypeGroupIdentifier()
+    // Offset: 0x274036C
+    int get_subtypeGroupIdentifier();
     // protected System.Void .ctor(System.Single time, System.Int32 executionOrder, System.Int32 subtypeIdentifier, BeatmapDataItem/BeatmapDataItemType type)
-    // Offset: 0x28B8A34
+    // Offset: 0x2740374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataItem* New_ctor(float time, int executionOrder, int subtypeIdentifier, ::GlobalNamespace::BeatmapDataItem::BeatmapDataItemType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataItem::.ctor");
@@ -137,7 +140,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public System.Int32 CompareTo(BeatmapDataItem b)
-    // Offset: 0x28B8A84
+    // Offset: 0x27403C4
     int CompareTo(::GlobalNamespace::BeatmapDataItem* b);
   }; // BeatmapDataItem
   #pragma pack(pop)
@@ -161,6 +164,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapDataItem::*)()>(&GlobalNamespace::BeatmapDataItem::get_executionOrder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataItem*), "get_executionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataItem::get_subtypeGroupIdentifier
+// Il2CppName: get_subtypeGroupIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapDataItem::*)()>(&GlobalNamespace::BeatmapDataItem::get_subtypeGroupIdentifier)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataItem*), "get_subtypeGroupIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataItem::New_ctor

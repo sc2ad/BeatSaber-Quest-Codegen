@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Material alternativeMaterial
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_alternativeMaterial();
     // public System.Void .ctor()
-    // Offset: 0x153F164
+    // Offset: 0x153C7E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::MaterialPairs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs::.ctor");

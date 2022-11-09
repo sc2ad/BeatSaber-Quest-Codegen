@@ -104,29 +104,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerBadgeDataSO _badgeData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBadgeDataSO*& dyn__badgeData();
     // public IConnectedPlayer get_awardedPlayer()
-    // Offset: 0x1407458
+    // Offset: 0x148DA20
     ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x1407460
+    // Offset: 0x148DA28
     ::StringW get_titleLocalizationKey();
     // public System.String get_title()
-    // Offset: 0x140747C
+    // Offset: 0x148DA44
     ::StringW get_title();
     // public System.String get_subtitle()
-    // Offset: 0x1407484
+    // Offset: 0x148DA4C
     ::StringW get_subtitle();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x140748C
+    // Offset: 0x148DA54
     ::UnityEngine::Sprite* get_icon();
     // public System.Void .ctor(IConnectedPlayer awardedPlayer, System.Single weight, System.String title, System.String subtitle, MultiplayerBadgeDataSO badgeData)
-    // Offset: 0x1407494
+    // Offset: 0x148DA5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgeAwardData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeAwardData*, creationType>(awardedPlayer, weight, title, subtitle, badgeData)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x1407500
+    // Offset: 0x148DAC8
     int CompareTo(::Il2CppObject* obj);
   }; // MultiplayerBadgeAwardData
   #pragma pack(pop)

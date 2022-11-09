@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String secret
     [[deprecated("Use field access instead!")]] ::StringW& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x269BD14
+    // Offset: 0x26B8778
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x269C428
+    // Offset: 0x26B8E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ConnectToMasterServerMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerMessage*, creationType>()));
     }
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
-    // Offset: 0x269BF58
+    // Offset: 0x26B89BC
     ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x269C3D0
+    // Offset: 0x26B8E34
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x269C3F4
+    // Offset: 0x26B8E58
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x269C334
+    // Offset: 0x26B8D98
     void Release();
   }; // PartyMessageHandler/ConnectToMasterServerMessage
   #pragma pack(pop)

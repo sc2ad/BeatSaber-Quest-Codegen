@@ -187,60 +187,60 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private readonly System.Byte[] _hmacKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__hmacKey();
     // public System.Void .ctor(IUnconnectedMessageSender sender, BGNet.Core.ITimeProvider timeProvider, IAsyncComputeManager asyncCompute, BGNet.Core.IAnalyticsManager analytics, ICertificateEncryptionProvider certificateEncryptionProvider, System.Collections.Generic.IEnumerable`1<System.Security.Cryptography.X509Certificates.X509Certificate2> certificateList)
-    // Offset: 0x15B2E90
+    // Offset: 0x15C0478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseServerUnconnectedMessageHandler* New_ctor(::GlobalNamespace::IUnconnectedMessageSender* sender, ::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IAsyncComputeManager* asyncCompute, ::BGNet::Core::IAnalyticsManager* analytics, ::GlobalNamespace::ICertificateEncryptionProvider* certificateEncryptionProvider, ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* certificateList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseServerUnconnectedMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseServerUnconnectedMessageHandler*, creationType>(sender, timeProvider, asyncCompute, analytics, certificateEncryptionProvider, certificateList)));
     }
     // private System.Void RegisterHandshakeMessageHandlers()
-    // Offset: 0x15B3144
+    // Offset: 0x15C072C
     void RegisterHandshakeMessageHandlers();
     // protected System.Void HandleClientHelloRequest(BGNet.Core.Messages.ClientHelloRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x15B3DE4
+    // Offset: 0x15C13CC
     void HandleClientHelloRequest(::BGNet::Core::Messages::ClientHelloRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected System.Void HandleClientHelloWithCookieRequest(BGNet.Core.Messages.ClientHelloWithCookieRequest packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x15B4118
+    // Offset: 0x15C1700
     void HandleClientHelloWithCookieRequest(::BGNet::Core::Messages::ClientHelloWithCookieRequest* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // private System.Void StartServerAuthenticationFlow(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.UInt32 requestId, System.UInt32 certificateResponseId, System.Byte[] clientRandom)
-    // Offset: 0x15B4164
+    // Offset: 0x15C174C
     void StartServerAuthenticationFlow(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, uint requestId, uint certificateResponseId, ::ArrayW<uint8_t> clientRandom);
     // protected System.Threading.Tasks.Task VerifyAuthenticationRequest(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, BGNet.Core.Messages.IUnconnectedAuthenticateRequest authenticateRequest)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Threading::Tasks::Task* VerifyAuthenticationRequest(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::BGNet::Core::Messages::IUnconnectedAuthenticateRequest* authenticateRequest);
     // private System.Threading.Tasks.Task StartServerAuthenticationFlowAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.UInt32 requestId, System.UInt32 certificateResponseId, System.Byte[] clientRandom)
-    // Offset: 0x15B4258
+    // Offset: 0x15C1840
     ::System::Threading::Tasks::Task* StartServerAuthenticationFlowAsync(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, uint requestId, uint certificateResponseId, ::ArrayW<uint8_t> clientRandom);
     // private System.Byte[] GetCookie(System.Net.IPEndPoint endPoint, System.Byte[] random)
-    // Offset: 0x15B3BE0
+    // Offset: 0x15C11C8
     ::ArrayW<uint8_t> GetCookie(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t> random);
     // private System.Threading.Tasks.Task`1<System.Byte[]> GetSignatureAsync(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey)
-    // Offset: 0x15B4398
+    // Offset: 0x15C1980
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetSignatureAsync(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey);
     // private System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(IDiffieHellmanKeyPair serverKeys, System.Byte[] clientKey)
-    // Offset: 0x15B44C0
+    // Offset: 0x15C1AA8
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::GlobalNamespace::IDiffieHellmanKeyPair* serverKeys, ::ArrayW<uint8_t> clientKey);
     // private System.Void RotateServerKeys()
-    // Offset: 0x15B393C
+    // Offset: 0x15C0F24
     void RotateServerKeys();
     // private System.Threading.Tasks.Task RotateServerKeysAsync()
-    // Offset: 0x15B45D8
+    // Offset: 0x15C1BC0
     ::System::Threading::Tasks::Task* RotateServerKeysAsync();
     // private System.Void HandshakeLog(System.String message)
-    // Offset: 0x15B46C8
+    // Offset: 0x15C1CB0
     void HandshakeLog(::StringW message);
     // public override System.Void PollUpdate()
-    // Offset: 0x15B387C
+    // Offset: 0x15C0E64
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Void UnconnectedMessageHandler::PollUpdate()
     void PollUpdate();
     // protected override System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x15B3A68
+    // Offset: 0x15C1050
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.UInt32 UnconnectedMessageHandler::GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected override System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x15B3AD0
+    // Offset: 0x15C10B8
     // Implemented from: BGNet.Core.Messages.UnconnectedMessageHandler
     // Base method: System.Boolean UnconnectedMessageHandler::ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);

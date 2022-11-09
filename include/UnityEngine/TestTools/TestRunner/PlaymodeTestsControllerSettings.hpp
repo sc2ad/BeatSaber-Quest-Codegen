@@ -98,14 +98,14 @@ namespace UnityEngine::TestTools::TestRunner {
     // Get instance field reference: public System.Boolean consoleErrorPaused
     [[deprecated("Use field access instead!")]] bool& dyn_consoleErrorPaused();
     // public System.Void .ctor()
-    // Offset: 0x1963FA8
+    // Offset: 0x19978B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsControllerSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsControllerSettings*, creationType>()));
     }
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x19644C8
+    // Offset: 0x1997DD4
     ::NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings
   #pragma pack(pop)

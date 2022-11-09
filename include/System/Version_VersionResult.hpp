@@ -86,16 +86,16 @@ namespace System {
     // Get instance field reference: System.Boolean m_canThrow
     [[deprecated("Use field access instead!")]] bool& dyn_m_canThrow();
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0x2B12AC8
+    // Offset: 0x2B3CC4C
     void Init(::StringW argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure)
-    // Offset: 0x2B12F8C
+    // Offset: 0x2B3D110
     void SetFailure(::System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure, System.String argument)
-    // Offset: 0x2B130C8
+    // Offset: 0x2B3D24C
     void SetFailure(::System::Version::ParseFailureKind failure, ::StringW argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0x2B12D68
+    // Offset: 0x2B3CEEC
     ::System::Exception* GetVersionParseException();
   }; // System.Version/System.VersionResult
   #pragma pack(pop)

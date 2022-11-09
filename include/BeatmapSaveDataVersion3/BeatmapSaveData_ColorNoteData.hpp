@@ -74,22 +74,22 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private NoteCutDirection d
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutDirection& dyn_d();
     // public System.Int32 get_line()
-    // Offset: 0x28BE18C
+    // Offset: 0x2745B14
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x28BE194
+    // Offset: 0x2745B1C
     int get_layer();
     // public System.Int32 get_angleOffset()
-    // Offset: 0x28BE19C
+    // Offset: 0x2745B24
     int get_angleOffset();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType get_color()
-    // Offset: 0x28BE1A4
+    // Offset: 0x2745B2C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType get_color();
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x28BE1AC
+    // Offset: 0x2745B34
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType color, NoteCutDirection cutDirection, System.Int32 angleOffset)
-    // Offset: 0x28BDA8C
+    // Offset: 0x2745414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::ColorNoteData* New_ctor(float beat, int line, int layer, ::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType color, ::GlobalNamespace::NoteCutDirection cutDirection, int angleOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::ColorNoteData::.ctor");

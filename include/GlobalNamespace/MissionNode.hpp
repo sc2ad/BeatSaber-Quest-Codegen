@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1108594
+    // [SpaceAttribute] Offset: 0x111DE58
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
@@ -103,34 +103,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNode[] _childNodes
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionNode*>& dyn__childNodes();
     // public MissionDataSO get_missionData()
-    // Offset: 0x132DDD4
+    // Offset: 0x147F388
     ::GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x132DDDC
+    // Offset: 0x147F390
     ::ArrayW<::GlobalNamespace::MissionNode*> get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x132DDE4
+    // Offset: 0x147F398
     ::GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x132DDEC
+    // Offset: 0x147F3A0
     ::StringW get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x132DDF4
+    // Offset: 0x147F3A8
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x1329960
+    // Offset: 0x147F3B0
     ::StringW get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x132DDFC
+    // Offset: 0x147F3E0
     ::StringW get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x132D184
+    // Offset: 0x147E644
     ::UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x132DE80
+    // Offset: 0x147F464
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x132DEC4
+    // Offset: 0x147F4A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNode::.ctor");

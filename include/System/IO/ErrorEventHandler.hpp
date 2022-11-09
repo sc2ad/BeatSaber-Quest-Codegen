@@ -43,20 +43,20 @@ namespace System::IO {
   class ErrorEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D35434
+    // Offset: 0x1D83C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::ErrorEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ErrorEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.IO.ErrorEventArgs e)
-    // Offset: 0x1D35444
+    // Offset: 0x1D83C80
     void Invoke(::Il2CppObject* sender, ::System::IO::ErrorEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.IO.ErrorEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D3582C
+    // Offset: 0x1D84068
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, ::System::IO::ErrorEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D3585C
+    // Offset: 0x1D84098
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.IO.ErrorEventHandler
   #pragma pack(pop)

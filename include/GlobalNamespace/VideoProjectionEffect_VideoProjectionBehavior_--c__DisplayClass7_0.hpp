@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 eventValue
     [[deprecated("Use field access instead!")]] int& dyn_eventValue();
     // public System.Void .ctor()
-    // Offset: 0x218CB94
+    // Offset: 0x1632194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::VideoProjectionBehavior::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect::VideoProjectionBehavior::$$c__DisplayClass7_0*, creationType>()));
     }
     // System.Boolean <LoadVideoFromModel>b__0(VideoProjectionDataModelSO/VideoClipWithId clipWithId)
-    // Offset: 0x218CB9C
+    // Offset: 0x163219C
     bool $LoadVideoFromModel$b__0(::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId* clipWithId);
   }; // VideoProjectionEffect/VideoProjectionBehavior/<>c__DisplayClass7_0
   #pragma pack(pop)

@@ -53,14 +53,14 @@ namespace OVRSimpleJSON {
     // Get instance field reference: public OVRSimpleJSON.JSONNode aNode
     [[deprecated("Use field access instead!")]] ::OVRSimpleJSON::JSONNode*& dyn_aNode();
     // public System.Void .ctor()
-    // Offset: 0x252DBC4
+    // Offset: 0x2550B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject::$$c__DisplayClass21_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$$c__DisplayClass21_0*, creationType>()));
     }
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
-    // Offset: 0x252DFE4
+    // Offset: 0x2550F98
     bool $Remove$b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*> k);
   }; // OVRSimpleJSON.JSONObject/OVRSimpleJSON.<>c__DisplayClass21_0
   #pragma pack(pop)

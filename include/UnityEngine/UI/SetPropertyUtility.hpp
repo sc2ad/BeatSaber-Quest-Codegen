@@ -39,7 +39,7 @@ namespace UnityEngine::UI {
   class SetPropertyUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x1EF76D0
+    // Offset: 0x1F3CF50
     static bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFFFFFFFFFF

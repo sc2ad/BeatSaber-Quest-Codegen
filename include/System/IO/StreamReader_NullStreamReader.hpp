@@ -38,17 +38,17 @@ namespace System::IO {
   class StreamReader::NullStreamReader : public ::System::IO::StreamReader {
     public:
     // public override System.IO.Stream get_BaseStream()
-    // Offset: 0x1BD7EC4
+    // Offset: 0x1BF5EB4
     // Implemented from: System.IO.StreamReader
     // Base method: System.IO.Stream StreamReader::get_BaseStream()
     ::System::IO::Stream* get_BaseStream();
     // public override System.Text.Encoding get_CurrentEncoding()
-    // Offset: 0x1BD7F2C
+    // Offset: 0x1BF5F1C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Text.Encoding StreamReader::get_CurrentEncoding()
     ::System::Text::Encoding* get_CurrentEncoding();
     // System.Void .ctor()
-    // Offset: 0x1BD7E24
+    // Offset: 0x1BF5E14
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor()
     // Base method: System.Void TextReader::.ctor()
@@ -60,37 +60,37 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader::NullStreamReader*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1BD7F34
+    // Offset: 0x1BF5F24
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x1BD7F38
+    // Offset: 0x1BF5F28
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1BD7F40
+    // Offset: 0x1BF5F30
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1BD7F48
+    // Offset: 0x1BF5F38
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1BD7F50
+    // Offset: 0x1BF5F40
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::StringW ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1BD7F58
+    // Offset: 0x1BF5F48
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::StringW ReadToEnd();
     // override System.Int32 ReadBuffer()
-    // Offset: 0x1BD7FA8
+    // Offset: 0x1BF5F98
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::ReadBuffer()
     int ReadBuffer();

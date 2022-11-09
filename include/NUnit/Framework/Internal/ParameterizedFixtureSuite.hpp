@@ -51,12 +51,12 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Boolean _genericFixture
     [[deprecated("Use field access instead!")]] bool& dyn__genericFixture();
     // public override System.String get_TestType()
-    // Offset: 0x2A65F88
+    // Offset: 0x2A5E7DC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::StringW get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x2A65D24
+    // Offset: 0x2A5E578
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)

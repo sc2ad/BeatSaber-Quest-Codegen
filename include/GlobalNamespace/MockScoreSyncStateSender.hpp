@@ -62,20 +62,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor(IMultiplayerSessionManager msm)
-    // Offset: 0x2AFDA5C
+    // Offset: 0x2B254A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockScoreSyncStateSender::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockScoreSyncStateSender*, creationType>(msm)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2AFDBFC
+    // Offset: 0x2B25648
     void Dispose();
     // public System.Void SendScore(System.Int32 modifiedScore, System.Int32 multipliedScore, System.Int32 immediateMaxPossibleMultipliedScore, System.Int32 combo, System.Int32 multiplier)
-    // Offset: 0x2B00564
+    // Offset: 0x2B27FB0
     void SendScore(int modifiedScore, int multipliedScore, int immediateMaxPossibleMultipliedScore, int combo, int multiplier);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer connectedPlayer)
-    // Offset: 0x2B0345C
+    // Offset: 0x2B2AEA8
     void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MockScoreSyncStateSender
   #pragma pack(pop)

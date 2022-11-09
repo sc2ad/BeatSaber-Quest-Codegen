@@ -30,7 +30,7 @@ namespace LiteNetLib::Utils {
   class ParseException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2B3BC44
+    // Offset: 0x2B63958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParseException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::ParseException::.ctor");

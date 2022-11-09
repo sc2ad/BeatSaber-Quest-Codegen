@@ -30,16 +30,19 @@ namespace GlobalNamespace {
   class NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x1501F80
+    // Offset: 0x14F4A6C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1502014
+    // Offset: 0x14F4B4C
     void OnDisable();
     // private System.Void HandleNoTransitionButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x15020A8
+    // Offset: 0x14F4BE0
     void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);
+    // private System.Void ResolveSelectionState(HMUI.NoTransitionsButton/HMUI.SelectionState state, System.Boolean animated)
+    // Offset: 0x14F4B18
+    void ResolveSelectionState(::HMUI::NoTransitionsButton::SelectionState state, bool animated);
     // public System.Void .ctor()
-    // Offset: 0x15020DC
+    // Offset: 0x14F4BE8
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
@@ -74,6 +77,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "NoTransitionsButton/SelectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionButtonSelectableStateController*), "HandleNoTransitionButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::ResolveSelectionState
+// Il2CppName: ResolveSelectionState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoTransitionButtonSelectableStateController::*)(::HMUI::NoTransitionsButton::SelectionState, bool)>(&GlobalNamespace::NoTransitionButtonSelectableStateController::ResolveSelectionState)> {
+  static const MethodInfo* get() {
+    static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "NoTransitionsButton/SelectionState")->byval_arg;
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionButtonSelectableStateController*), "ResolveSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, animated});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::New_ctor

@@ -94,32 +94,32 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Int32 <i>5__2
     [[deprecated("Use field access instead!")]] int& dyn_$i$5__2();
     // private System.Byte[] System.Collections.Generic.IEnumerator<System.Byte[]>.get_Current()
-    // Offset: 0x15B7C74
+    // Offset: 0x15C525C
     ::ArrayW<uint8_t> System_Collections_Generic_IEnumerator$System_Byte$$$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15B7CDC
+    // Offset: 0x15C52C4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15B74F0
+    // Offset: 0x15C4AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertificateRequest::$get_certificateList$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::ServerCertificateRequest::$get_certificateList$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest::$get_certificateList$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15B7BC8
+    // Offset: 0x15C51B0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15B7BCC
+    // Offset: 0x15C51B4
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15B7C7C
+    // Offset: 0x15C5264
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Byte[]> System.Collections.Generic.IEnumerable<System.Byte[]>.GetEnumerator()
-    // Offset: 0x15B7CE4
+    // Offset: 0x15C52CC
     ::System::Collections::Generic::IEnumerator_1<::ArrayW<uint8_t>>* System_Collections_Generic_IEnumerable$System_Byte$$$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x15B7D90
+    // Offset: 0x15C5378
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // BGNet.Core.Messages.ServerCertificateRequest/BGNet.Core.Messages.<get_certificateList>d__5
   #pragma pack(pop)

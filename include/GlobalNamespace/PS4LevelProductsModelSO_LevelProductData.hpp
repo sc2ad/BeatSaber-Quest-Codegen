@@ -51,16 +51,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // public System.String get_entitlementLabel()
-    // Offset: 0x135C86C
+    // Offset: 0x13770F4
     ::StringW get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x135C874
+    // Offset: 0x13770FC
     ::StringW get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x135C87C
+    // Offset: 0x1377104
     ::StringW get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x135C884
+    // Offset: 0x137710C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData::.ctor");

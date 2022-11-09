@@ -50,17 +50,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // public UnityEngine.AudioSource get_audioSource()
-    // Offset: 0x1395C40
+    // Offset: 0x1380570
     ::UnityEngine::AudioSource* get_audioSource();
     // public System.Void .ctor()
-    // Offset: 0x1395CB0
+    // Offset: 0x13805E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentAudioEffectsPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentAudioEffectsPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentAudioEffectsPlayer*, creationType>()));
     }
     // public System.Void PlayEffect(UnityEngine.AudioClip clip, System.Single volume)
-    // Offset: 0x1395C48
+    // Offset: 0x1380578
     void PlayEffect(::UnityEngine::AudioClip* clip, float volume);
   }; // EnvironmentAudioEffectsPlayer
   #pragma pack(pop)

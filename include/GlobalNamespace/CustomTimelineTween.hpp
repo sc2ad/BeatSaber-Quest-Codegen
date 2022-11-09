@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3[] startPositions
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn_startPositions();
     // public System.Void .ctor()
-    // Offset: 0x147A950
+    // Offset: 0x1430880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTimelineTween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomTimelineTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTimelineTween*, creationType>()));
     }
     // private System.Void OnValidate()
-    // Offset: 0x147A86C
+    // Offset: 0x143079C
     void OnValidate();
   }; // CustomTimelineTween
   #pragma pack(pop)

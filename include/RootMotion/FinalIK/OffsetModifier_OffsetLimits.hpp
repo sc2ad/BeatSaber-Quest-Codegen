@@ -38,35 +38,35 @@ namespace RootMotion::FinalIK {
   class OffsetModifier::OffsetLimits : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1129CE0
+    // [TooltipAttribute] Offset: 0x113DB48
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129D18
+    // [TooltipAttribute] Offset: 0x113DB80
     // public System.Single spring
     // Size: 0x4
     // Offset: 0x14
     float spring;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129D50
+    // [TooltipAttribute] Offset: 0x113DBB8
     // public System.Boolean x
     // Size: 0x1
     // Offset: 0x18
     bool x;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1129D88
+    // [TooltipAttribute] Offset: 0x113DBF0
     // public System.Boolean y
     // Size: 0x1
     // Offset: 0x19
     bool y;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x1129DC0
+    // [TooltipAttribute] Offset: 0x113DC28
     // public System.Boolean z
     // Size: 0x1
     // Offset: 0x1A
@@ -75,42 +75,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: z and: minX
     char __padding4[0x1] = {};
-    // [TooltipAttribute] Offset: 0x1129DF8
+    // [TooltipAttribute] Offset: 0x113DC60
     // public System.Single minX
     // Size: 0x4
     // Offset: 0x1C
     float minX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129E30
+    // [TooltipAttribute] Offset: 0x113DC98
     // public System.Single maxX
     // Size: 0x4
     // Offset: 0x20
     float maxX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129E68
+    // [TooltipAttribute] Offset: 0x113DCD0
     // public System.Single minY
     // Size: 0x4
     // Offset: 0x24
     float minY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129EA0
+    // [TooltipAttribute] Offset: 0x113DD08
     // public System.Single maxY
     // Size: 0x4
     // Offset: 0x28
     float maxY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129ED8
+    // [TooltipAttribute] Offset: 0x113DD40
     // public System.Single minZ
     // Size: 0x4
     // Offset: 0x2C
     float minZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1129F10
+    // [TooltipAttribute] Offset: 0x113DD78
     // public System.Single maxZ
     // Size: 0x4
     // Offset: 0x30
@@ -141,20 +141,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maxZ
     [[deprecated("Use field access instead!")]] float& dyn_maxZ();
     // public System.Void .ctor()
-    // Offset: 0x204E4C0
+    // Offset: 0x204DEB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier::OffsetLimits* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::OffsetLimits::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::OffsetLimits*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x204DEA0
+    // Offset: 0x204D894
     void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x204E3B8
+    // Offset: 0x204DDAC
     float SpringAxis(float value, float min, float max);
     // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x204E3E8
+    // Offset: 0x204DDDC
     float Spring(float value, float limit, bool negative);
   }; // RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits
   #pragma pack(pop)

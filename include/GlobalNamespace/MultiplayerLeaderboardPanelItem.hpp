@@ -156,17 +156,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevNumberOfPlayers
     [[deprecated("Use field access instead!")]] int& dyn__prevNumberOfPlayers();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x14319C0
+    // Offset: 0x1461504
     void set_hide(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1431F94
+    // Offset: 0x1461AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeaderboardPanelItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeaderboardPanelItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelItem*, creationType>()));
     }
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
-    // Offset: 0x1431C78
+    // Offset: 0x14617BC
     void SetData(int position, ::StringW playerName, int score, bool failed, int numberOfPlayers);
   }; // MultiplayerLeaderboardPanelItem
   #pragma pack(pop)

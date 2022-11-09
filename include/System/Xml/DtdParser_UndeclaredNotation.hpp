@@ -59,7 +59,7 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.DtdParser/System.Xml.UndeclaredNotation next
     [[deprecated("Use field access instead!")]] ::System::Xml::DtdParser::UndeclaredNotation*& dyn_next();
     // System.Void .ctor(System.String name, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1ABBBE0
+    // Offset: 0x1ADA96C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::UndeclaredNotation* New_ctor(::StringW name, int lineNo, int linePos) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::UndeclaredNotation::.ctor");

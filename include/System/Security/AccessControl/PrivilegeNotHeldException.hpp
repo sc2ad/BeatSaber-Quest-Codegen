@@ -37,7 +37,7 @@ namespace System::Security::AccessControl {
   class PrivilegeNotHeldException : public ::System::UnauthorizedAccessException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B8FD1C
+    // Offset: 0x1B98BE4
     // Implemented from: System.UnauthorizedAccessException
     // Base method: System.Void UnauthorizedAccessException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -49,7 +49,7 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<PrivilegeNotHeldException*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1B914F8
+    // Offset: 0x1B9A3C0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);

@@ -44,21 +44,21 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.String _errorMsg
     [[deprecated("Use field access instead!")]] ::StringW& dyn__errorMsg();
     // public System.Void .ctor()
-    // Offset: 0x1871B48
+    // Offset: 0x18952FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniEngineError* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniEngineError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>()));
     }
     // public System.Void .ctor(System.String errorMsg)
-    // Offset: 0x1871BC0
+    // Offset: 0x1895374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniEngineError* New_ctor(::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniEngineError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>(errorMsg)));
     }
     // public override System.String ToString()
-    // Offset: 0x1871C4C
+    // Offset: 0x1895400
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
     ::StringW ToString();

@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x11071DC
+    // [InjectAttribute] Offset: 0x111CAA0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
@@ -149,29 +149,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectableStateController/ViewState <currentViewState>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectableStateController::ViewState& dyn_$currentViewState$k__BackingField();
     // public Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x13C1A6C
+    // Offset: 0x1406D68
     ::Tweening::TimeTweeningManager* get_tweeningManager();
+    // public SelectableStateController/ViewState get_viewState()
+    // Offset: 0x1406D70
+    ::GlobalNamespace::SelectableStateController::ViewState get_viewState();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x13C1A74
+    // Offset: 0x1406D78
     ::GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x13C1A7C
+    // Offset: 0x1406D80
     void set_currentViewState(::GlobalNamespace::SelectableStateController::ViewState value);
     // public System.Void add_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x13C1924
+    // Offset: 0x1406C20
     void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`2<SelectableStateController/ViewState,System.Boolean> value)
-    // Offset: 0x13C19C8
+    // Offset: 0x1406CC4
     void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController::ViewState, bool>* value);
     // protected System.Void .ctor()
-    // Offset: 0x13C1A84
+    // Offset: 0x1406D88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectableStateController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectableStateController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectableStateController*, creationType>()));
     }
     // protected System.Void SetState(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x13C1854
+    // Offset: 0x1406B50
     void SetState(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
   }; // SelectableStateController
   #pragma pack(pop)
@@ -187,6 +190,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::TimeTweeningManager* (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_tweeningManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_viewState
+// Il2CppName: get_viewState
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SelectableStateController::ViewState (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_viewState)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "get_viewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_currentViewState

@@ -58,14 +58,14 @@ namespace Newtonsoft::Json::Bson {
     static ::Newtonsoft::Json::Bson::BsonBinaryType _get_Function();
     // Set static field: static public Newtonsoft.Json.Bson.BsonBinaryType Function
     static void _set_Function(::Newtonsoft::Json::Bson::BsonBinaryType value);
-    // [ObsoleteAttribute] Offset: 0x10DA36C
+    // [ObsoleteAttribute] Offset: 0x10EE998
     // static field const value: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static constexpr const uint8_t BinaryOld = 2u;
     // Get static field: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static ::Newtonsoft::Json::Bson::BsonBinaryType _get_BinaryOld();
     // Set static field: static public Newtonsoft.Json.Bson.BsonBinaryType BinaryOld
     static void _set_BinaryOld(::Newtonsoft::Json::Bson::BsonBinaryType value);
-    // [ObsoleteAttribute] Offset: 0x10DA3A4
+    // [ObsoleteAttribute] Offset: 0x10EE9D0
     // static field const value: static public Newtonsoft.Json.Bson.BsonBinaryType UuidOld
     static constexpr const uint8_t UuidOld = 3u;
     // Get static field: static public Newtonsoft.Json.Bson.BsonBinaryType UuidOld

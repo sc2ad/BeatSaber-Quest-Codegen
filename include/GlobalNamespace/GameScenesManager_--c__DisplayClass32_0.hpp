@@ -116,20 +116,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> <>9__2
     [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_$$9__2();
     // public System.Void .ctor()
-    // Offset: 0x15CD974
+    // Offset: 0x15F4D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass32_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass32_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass32_0*, creationType>()));
     }
     // System.Void <ReplaceScenes>b__0(Zenject.DiContainer emptySceneContainer)
-    // Offset: 0x15CF240
+    // Offset: 0x15F6648
     void $ReplaceScenes$b__0(::Zenject::DiContainer* emptySceneContainer);
     // System.Void <ReplaceScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x15CF368
+    // Offset: 0x15F6770
     void $ReplaceScenes$b__1(::Zenject::DiContainer* container);
     // System.Void <ReplaceScenes>b__2(Zenject.DiContainer container)
-    // Offset: 0x15CF40C
+    // Offset: 0x15F6814
     void $ReplaceScenes$b__2(::Zenject::DiContainer* container);
   }; // GameScenesManager/<>c__DisplayClass32_0
   #pragma pack(pop)

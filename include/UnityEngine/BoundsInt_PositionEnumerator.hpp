@@ -72,25 +72,25 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector3Int _current
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3Int& dyn__current();
     // public UnityEngine.Vector3Int get_Current()
-    // Offset: 0x1FF128C
+    // Offset: 0x2039084
     ::UnityEngine::Vector3Int get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1FF129C
+    // Offset: 0x2039094
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(UnityEngine.Vector3Int min, UnityEngine.Vector3Int max)
-    // Offset: 0x1FF1030
+    // Offset: 0x2038E28
     PositionEnumerator(::UnityEngine::Vector3Int min, ::UnityEngine::Vector3Int max);
     // public UnityEngine.BoundsInt/UnityEngine.PositionEnumerator GetEnumerator()
-    // Offset: 0x1FF10C0
+    // Offset: 0x2038EB8
     ::UnityEngine::BoundsInt::PositionEnumerator GetEnumerator();
     // public System.Boolean MoveNext()
-    // Offset: 0x1FF10D4
+    // Offset: 0x2038ECC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1FF107C
+    // Offset: 0x2038E74
     void Reset();
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1FF1308
+    // Offset: 0x2039100
     void System_IDisposable_Dispose();
   }; // UnityEngine.BoundsInt/UnityEngine.PositionEnumerator
   #pragma pack(pop)

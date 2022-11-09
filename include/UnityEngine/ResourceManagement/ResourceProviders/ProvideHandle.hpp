@@ -104,22 +104,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceManager*& dyn_m_ResourceManager();
     // private UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation get_InternalOp()
-    // Offset: 0x1F564FC
+    // Offset: 0x1F67D44
     ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
     // public UnityEngine.ResourceManagement.ResourceManager get_ResourceManager()
-    // Offset: 0x1F56600
+    // Offset: 0x1F67E48
     ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
     // public System.Type get_Type()
-    // Offset: 0x1F54F5C
+    // Offset: 0x1F667A4
     ::System::Type* get_Type();
     // public UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation get_Location()
-    // Offset: 0x1F53144
+    // Offset: 0x1F6498C
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
     // public System.Int32 get_DependencyCount()
-    // Offset: 0x1F56608
+    // Offset: 0x1F67E50
     int get_DependencyCount();
     // System.Void .ctor(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation op)
-    // Offset: 0x1F56430
+    // Offset: 0x1F67C78
     ProvideHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
     // public TDepObject GetDependency(System.Int32 index)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -131,16 +131,16 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return ::il2cpp_utils::RunMethodRethrow<TDepObject, false>(this, ___generic__method, index);
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> list)
-    // Offset: 0x1F54E90
+    // Offset: 0x1F666D8
     void GetDependencies(::System::Collections::Generic::IList_1<::Il2CppObject*>* list);
     // public System.Void SetProgressCallback(System.Func`1<System.Single> callback)
-    // Offset: 0x1F53200
+    // Offset: 0x1F64A48
     void SetProgressCallback(::System::Func_1<float>* callback);
     // public System.Void SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus> callback)
-    // Offset: 0x1F532CC
+    // Offset: 0x1F64B14
     void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
-    // Offset: 0x1F53398
+    // Offset: 0x1F64BE0
     void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
     // public System.Void Complete(T result, System.Boolean status, System.Exception exception)
     // Offset: 0xFFFFFFFFFFFFFFFF

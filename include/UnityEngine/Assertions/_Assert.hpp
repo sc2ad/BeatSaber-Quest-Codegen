@@ -41,16 +41,16 @@ namespace UnityEngine::Assertions {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class _Assert : public ::Il2CppObject {
     public:
-    // [ObsoleteAttribute] Offset: 0x1072D50
+    // [ObsoleteAttribute] Offset: 0x1088210
     // Get static field: static public System.Boolean raiseExceptions
     static bool _get_raiseExceptions();
     // Set static field: static public System.Boolean raiseExceptions
     static void _set_raiseExceptions(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1FEE0D8
+    // Offset: 0x2035ED0
     static void _cctor();
     // static private System.Void Fail(System.String message, System.String userMessage)
-    // Offset: 0x1FEDAEC
+    // Offset: 0x20358E4
     static void Fail(::StringW message, ::StringW userMessage);
     // static public System.Void AreEqual(T expected, T actual, System.String message)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -71,10 +71,10 @@ namespace UnityEngine::Assertions {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, expected, actual, message, comparer);
     }
     // static public System.Void AreEqual(UnityEngine.Object expected, UnityEngine.Object actual, System.String message)
-    // Offset: 0x1FEDDA4
+    // Offset: 0x2035B9C
     static void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
     // static public System.Void AreEqual(System.Int32 expected, System.Int32 actual)
-    // Offset: 0x1FEE03C
+    // Offset: 0x2035E34
     static void AreEqual(int expected, int actual);
   }; // UnityEngine.Assertions.Assert
   #pragma pack(pop)

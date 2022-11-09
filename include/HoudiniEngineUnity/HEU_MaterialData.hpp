@@ -149,35 +149,35 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _materialKey
     [[deprecated("Use field access instead!")]] int& dyn__materialKey();
     // public System.Void .ctor()
-    // Offset: 0x1881870
+    // Offset: 0x18A5024
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MaterialData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MaterialData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_MaterialData*, creationType>()));
     }
     // public System.Boolean IsExistingMaterial()
-    // Offset: 0x187FAC8
+    // Offset: 0x18A327C
     bool IsExistingMaterial();
     // public System.Void UpdateMaterialFromHoudini(HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String assetCacheFolderPath)
-    // Offset: 0x187FADC
+    // Offset: 0x18A3290
     void UpdateMaterialFromHoudini(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath);
     // public System.Void UseLegacyShaders(HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String assetCacheFolderPath, HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, HoudiniEngineUnity.HAPI_ParmInfo[] parmInfos)
-    // Offset: 0x1880868
+    // Offset: 0x18A401C
     void UseLegacyShaders(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath, ::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parmInfos);
     // static public System.String GetTextureFileNameFromMaterialParam(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo parmInfo)
-    // Offset: 0x1880D68
+    // Offset: 0x18A451C
     static ::StringW GetTextureFileNameFromMaterialParam(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::HoudiniEngineUnity::HAPI_ParmInfo parmInfo);
     // static public System.Boolean IsTransparentMaterial(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters)
-    // Offset: 0x18807DC
+    // Offset: 0x18A3F90
     static bool IsTransparentMaterial(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters);
     // static public System.Boolean GetMaterialAlpha(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.Single defaultValue, out System.Single alpha)
-    // Offset: 0x1881438
+    // Offset: 0x18A4BEC
     static bool GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, float defaultValue, ByRef<float> alpha);
     // static public System.String GetSupportedFileFormat(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_ImageInfo imageInfo)
-    // Offset: 0x18815F0
+    // Offset: 0x18A4DA4
     static ::StringW GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_MaterialData other)
-    // Offset: 0x18816F8
+    // Offset: 0x18A4EAC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_MaterialData* other);
   }; // HoudiniEngineUnity.HEU_MaterialData
   #pragma pack(pop)

@@ -271,29 +271,29 @@ namespace MasterServer {
     // Get instance field reference: public System.String managerId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
-    // Offset: 0x16AB75C
+    // Offset: 0x16CEE4C
     static ::GlobalNamespace::IPacketPool_1<::MasterServer::ConnectToServerResponse*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x16AB83C
+    // Offset: 0x16CEF2C
     uint get_version();
     // public MasterServer.ConnectToServerResponse InitForFailure(MasterServer.ConnectToServerResponse/MasterServer.Result result)
-    // Offset: 0x16AB844
+    // Offset: 0x16CEF34
     ::MasterServer::ConnectToServerResponse* InitForFailure(::MasterServer::ConnectToServerResponse::Result result);
     // public MasterServer.ConnectToServerResponse InitForSuccess(System.String userId, System.String userName, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.String managerId)
-    // Offset: 0x16AB8DC
+    // Offset: 0x16CEFCC
     ::MasterServer::ConnectToServerResponse* InitForSuccess(::StringW userId, ::StringW userName, ::StringW secret, ::StringW code, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, ::System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW managerId);
     // public override System.Byte get_resultCode()
-    // Offset: 0x16AB7A4
+    // Offset: 0x16CEE94
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x16AB7AC
+    // Offset: 0x16CEE9C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x16ABCDC
+    // Offset: 0x16CF3CC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -302,17 +302,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16AB974
+    // Offset: 0x16CF064
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16ABAB4
+    // Offset: 0x16CF1A4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16ABC00
+    // Offset: 0x16CF2F0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

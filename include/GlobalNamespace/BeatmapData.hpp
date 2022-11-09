@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
+#include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IReadonlyBeatmapData
 #include "GlobalNamespace/IReadonlyBeatmapData.hpp"
@@ -11,9 +12,27 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: BeatmapEventData
+  class BeatmapEventData;
+  // Forward declaring type: BeatmapDataItem
+  class BeatmapDataItem;
+  // Forward declaring type: ISortedList`1<T>
+  template<typename T>
+  class ISortedList_1;
+  // Forward declaring type: BeatmapDataSortedListForTypeAndIds`1<TBase>
+  template<typename TBase>
+  class BeatmapDataSortedListForTypeAndIds_1;
+  // Forward declaring type: BeatmapObjectsInTimeRowProcessor
+  class BeatmapObjectsInTimeRowProcessor;
+  // Forward declaring type: BeatmapObjectData
+  class BeatmapObjectData;
+}
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
@@ -25,23 +44,6 @@ namespace System {
   // Forward declaring type: Func`2<T, TResult>
   template<typename T, typename TResult>
   class Func_2;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapEventData
-  class BeatmapEventData;
-  // Forward declaring type: BeatmapDataItem
-  class BeatmapDataItem;
-  // Forward declaring type: ISortedList`1<T>
-  template<typename T>
-  class ISortedList_1;
-  // Forward declaring type: BeatmapDataSortedListForTypes`1<TBase>
-  template<typename TBase>
-  class BeatmapDataSortedListForTypes_1;
-  // Forward declaring type: BeatmapObjectsInTimeRowProcessor
-  class BeatmapObjectsInTimeRowProcessor;
-  // Forward declaring type: BeatmapObjectData
-  class BeatmapObjectData;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -57,6 +59,12 @@ namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
   template<typename T>
   class IEnumerable_1;
+  // Forward declaring type: IReadOnlyCollection`1<T>
+  template<typename T>
+  class IReadOnlyCollection_1;
+  // Forward declaring type: ICollection`1<T>
+  template<typename T>
+  class ICollection_1;
 }
 // Completed forward declares
 // Type namespace: 
@@ -75,6 +83,8 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapData : public ::Il2CppObject/*, public ::GlobalNamespace::IReadonlyBeatmapData*/ {
     public:
+    // Nested type: ::GlobalNamespace::BeatmapData::BeatmapDataBinaryHeapItem
+    class BeatmapDataBinaryHeapItem;
     public:
     // private System.Int32 <cuttableNotesCount>k__BackingField
     // Size: 0x4
@@ -120,12 +130,12 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* allBeatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*) == 0x8);
-    // private readonly BeatmapDataSortedListForTypes`1<BeatmapDataItem> _beatmapDataItemsPerType
+    // private readonly BeatmapDataSortedListForTypeAndIds`1<BeatmapDataItem> _beatmapDataItemsPerTypeAndId
     // Size: 0x8
     // Offset: 0x40
-    ::GlobalNamespace::BeatmapDataSortedListForTypes_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItemsPerType;
+    ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItemsPerTypeAndId;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::BeatmapDataSortedListForTypes_1<::GlobalNamespace::BeatmapDataItem*>*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*) == 0x8);
     // private readonly System.Int32 _numberOfLines
     // Size: 0x4
     // Offset: 0x48
@@ -181,8 +191,8 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::BeatmapEventData*>*& dyn_beatmapEventDataWasRemovedEvent();
     // Get instance field reference: private readonly ISortedList`1<BeatmapDataItem> _allBeatmapData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*& dyn__allBeatmapData();
-    // Get instance field reference: private readonly BeatmapDataSortedListForTypes`1<BeatmapDataItem> _beatmapDataItemsPerType
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataSortedListForTypes_1<::GlobalNamespace::BeatmapDataItem*>*& dyn__beatmapDataItemsPerType();
+    // Get instance field reference: private readonly BeatmapDataSortedListForTypeAndIds`1<BeatmapDataItem> _beatmapDataItemsPerTypeAndId
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*& dyn__beatmapDataItemsPerTypeAndId();
     // Get instance field reference: private readonly System.Int32 _numberOfLines
     [[deprecated("Use field access instead!")]] int& dyn__numberOfLines();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _specialBasicBeatmapEventKeywords
@@ -194,104 +204,133 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isCreatingFilteredCopy
     [[deprecated("Use field access instead!")]] bool& dyn__isCreatingFilteredCopy();
     // public System.Collections.Generic.LinkedList`1<BeatmapDataItem> get_allBeatmapDataItems()
-    // Offset: 0x1376C30
+    // Offset: 0x13C9654
     ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x1376CE0
+    // Offset: 0x13C9704
     int get_numberOfLines();
     // public System.Int32 get_cuttableNotesCount()
-    // Offset: 0x1376CE8
+    // Offset: 0x13C970C
     int get_cuttableNotesCount();
     // private System.Void set_cuttableNotesCount(System.Int32 value)
-    // Offset: 0x1376CF0
+    // Offset: 0x13C9714
     void set_cuttableNotesCount(int value);
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0x1376CF8
+    // Offset: 0x13C971C
     int get_obstaclesCount();
     // private System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x1376D00
+    // Offset: 0x13C9724
     void set_obstaclesCount(int value);
     // public System.Int32 get_bombsCount()
-    // Offset: 0x1376D08
+    // Offset: 0x13C972C
     int get_bombsCount();
     // private System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x1376D10
+    // Offset: 0x13C9734
     void set_bombsCount(int value);
     // public System.Int32 get_spawnRotationEventsCount()
-    // Offset: 0x1376D18
+    // Offset: 0x13C973C
     int get_spawnRotationEventsCount();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_specialBasicBeatmapEventKeywords()
-    // Offset: 0x1376D68
+    // Offset: 0x13C9790
     ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
     // public System.Void add_beatmapEventDataWasInsertedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x1376D70
+    // Offset: 0x13C9798
     void add_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void remove_beatmapEventDataWasInsertedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x1376E14
+    // Offset: 0x13C983C
     void remove_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void add_beatmapEventDataWillBeRemovedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x1376EB8
+    // Offset: 0x13C98E0
     void add_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void remove_beatmapEventDataWillBeRemovedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x1376F5C
+    // Offset: 0x13C9984
     void remove_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void add_beatmapEventDataWasRemovedEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x1377000
+    // Offset: 0x13C9A28
     void add_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDataWasRemovedEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x13770A4
+    // Offset: 0x13C9ACC
     void remove_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x1377148
+    // Offset: 0x13C9B70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapData* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapData*, creationType>(numberOfLines)));
     }
-    // public System.Collections.Generic.IEnumerable`1<T> GetBeatmapDataItems()
+    // public System.Collections.Generic.IEnumerable`1<T> GetBeatmapDataItems(System.Int32 subtypeGroupIdentifier)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
-    ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItems() {
+    ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItems(int subtypeGroupIdentifier) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::BeatmapDataItem*>);
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::GetBeatmapDataItems");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItems", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItems", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subtypeGroupIdentifier)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method, subtypeGroupIdentifier);
     }
-    // public System.Int32 GetBeatmapDataItemsCount()
+    // public System.Collections.Generic.IEnumerable`1<T> GetBeatmapDataItemsMerged(params System.Int32[] subtypeGroupIdentifiers)
     // Offset: 0xFFFFFFFFFFFFFFFF
     template<class T>
-    int GetBeatmapDataItemsCount() {
+    ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItemsMerged(::ArrayW<int> subtypeGroupIdentifiers) {
+      static_assert(std::is_convertible_v<T, ::GlobalNamespace::BeatmapDataItem*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::GetBeatmapDataItemsMerged");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItemsMerged", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subtypeGroupIdentifiers)})));
+      auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method, subtypeGroupIdentifiers);
+    }
+    // public System.Int32 GetBeatmapDataItemsCount(System.Int32 subtypeGroupIdentifier)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<class T>
+    int GetBeatmapDataItemsCount(int subtypeGroupIdentifier) {
       static_assert(std::is_convertible_v<T, ::GlobalNamespace::BeatmapDataItem*>);
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::GetBeatmapDataItemsCount");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItemsCount", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItemsCount", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subtypeGroupIdentifier)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___generic__method, subtypeGroupIdentifier);
     }
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x13775AC
+    // Offset: 0x13C9C6C
     void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
+    // public System.Void AddBeatmapObjectDataInOrder(BeatmapObjectData beatmapObjectData)
+    // Offset: 0x13C9DD0
+    void AddBeatmapObjectDataInOrder(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1377788
+    // Offset: 0x13C9EA0
     void InsertBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
+    // public System.Void InsertBeatmapEventDataInOrder(BeatmapEventData beatmapEventData)
+    // Offset: 0x13C9F08
+    void InsertBeatmapEventDataInOrder(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void RemoveBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x137789C
+    // Offset: 0x13CA00C
     void RemoveBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void AddSpecialBasicBeatmapEventKeyword(System.String specialBasicBeatmapEventKeyword)
-    // Offset: 0x1377A4C
+    // Offset: 0x13CA1BC
     void AddSpecialBasicBeatmapEventKeyword(::StringW specialBasicBeatmapEventKeyword);
-    // public System.Void Clear()
-    // Offset: 0x1377AB4
-    void Clear();
     // public System.Void ProcessRemainingData()
-    // Offset: 0x1377AB8
+    // Offset: 0x13CA224
     void ProcessRemainingData();
     // public BeatmapData GetCopy()
-    // Offset: 0x1377AD4
+    // Offset: 0x13CA32C
     ::GlobalNamespace::BeatmapData* GetCopy();
     // public BeatmapData GetFilteredCopy(System.Func`2<BeatmapDataItem,BeatmapDataItem> processDataItem)
-    // Offset: 0x1377C84
+    // Offset: 0x13CA50C
     ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
+    // private System.Void AllBeatmapObjectsAndEventsAdded()
+    // Offset: 0x13CA254
+    void AllBeatmapObjectsAndEventsAdded();
+    // static private System.Void MergeSortedLists(System.Collections.Generic.IReadOnlyCollection`1<System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> sortedListHeads, System.Collections.Generic.ICollection`1<BeatmapDataItem> items)
+    // Offset: 0x13CA734
+    static void MergeSortedLists(::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* sortedListHeads, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::BeatmapDataItem*>* items);
+    // private System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> <GetBeatmapDataItemsMerged>b__38_0(System.Int32 subtypeGroupIdentifier)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<class T>
+    ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* $GetBeatmapDataItemsMerged$b__38_0(int subtypeGroupIdentifier) {
+      static_assert(std::is_convertible_v<T, ::GlobalNamespace::BeatmapDataItem*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::<GetBeatmapDataItemsMerged>b__38_0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetBeatmapDataItemsMerged>b__38_0", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subtypeGroupIdentifier)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*, false>(this, ___generic__method, subtypeGroupIdentifier);
+    }
   }; // BeatmapData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapData), 100 + sizeof(bool)> __GlobalNamespace_BeatmapDataSizeCheck;
@@ -442,6 +481,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::GetBeatmapDataItems
 // Il2CppName: GetBeatmapDataItems
 // Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::GetBeatmapDataItemsMerged
+// Il2CppName: GetBeatmapDataItemsMerged
+// Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::GetBeatmapDataItemsCount
 // Il2CppName: GetBeatmapDataItemsCount
 // Cannot write MetadataGetter for generic methods!
@@ -454,6 +496,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "AddBeatmapObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::AddBeatmapObjectDataInOrder
+// Il2CppName: AddBeatmapObjectDataInOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::BeatmapData::AddBeatmapObjectDataInOrder)> {
+  static const MethodInfo* get() {
+    static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "AddBeatmapObjectDataInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::InsertBeatmapEventData
 // Il2CppName: InsertBeatmapEventData
 template<>
@@ -461,6 +512,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "InsertBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::InsertBeatmapEventDataInOrder
+// Il2CppName: InsertBeatmapEventDataInOrder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapData::InsertBeatmapEventDataInOrder)> {
+  static const MethodInfo* get() {
+    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "InsertBeatmapEventDataInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::RemoveBeatmapEventData
@@ -479,14 +539,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* specialBasicBeatmapEventKeyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "AddSpecialBasicBeatmapEventKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{specialBasicBeatmapEventKeyword});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::Clear
-// Il2CppName: Clear
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)()>(&GlobalNamespace::BeatmapData::Clear)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::ProcessRemainingData
@@ -514,3 +566,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "GetFilteredCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{processDataItem});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::AllBeatmapObjectsAndEventsAdded
+// Il2CppName: AllBeatmapObjectsAndEventsAdded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)()>(&GlobalNamespace::BeatmapData::AllBeatmapObjectsAndEventsAdded)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "AllBeatmapObjectsAndEventsAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::MergeSortedLists
+// Il2CppName: MergeSortedLists
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::BeatmapDataItem*>*)>(&GlobalNamespace::BeatmapData::MergeSortedLists)> {
+  static const MethodInfo* get() {
+    static auto* sortedListHeads = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyCollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "LinkedListNode`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapDataItem")})})->byval_arg;
+    static auto* items = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "ICollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapDataItem")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "MergeSortedLists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sortedListHeads, items});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$GetBeatmapDataItemsMerged$b__38_0
+// Il2CppName: <GetBeatmapDataItemsMerged>b__38_0
+// Cannot write MetadataGetter for generic methods!

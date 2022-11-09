@@ -122,7 +122,7 @@ namespace Mono::Security::Cryptography {
     ::Mono::Math::BigInteger_* e;
     // Field size check
     static_assert(sizeof(::Mono::Math::BigInteger_*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0x105C598
+    // [CompilerGeneratedAttribute] Offset: 0x1071A58
     // private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     // Size: 0x8
     // Offset: 0x68
@@ -157,59 +157,59 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler KeyGenerated
     [[deprecated("Use field access instead!")]] ::Mono::Security::Cryptography::RSAManaged_::KeyGeneratedEventHandler*& dyn_KeyGenerated();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1FBFFBC
+    // Offset: 0x2007758
     bool get_PublicOnly();
     // public System.Void add_KeyGenerated(Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1FC0D6C
+    // Offset: 0x2008508
     void add_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_::KeyGeneratedEventHandler* value);
     // public System.Void remove_KeyGenerated(Mono.Security.Cryptography.RSAManaged/Mono.Security.Cryptography.KeyGeneratedEventHandler value)
-    // Offset: 0x1FC0E10
+    // Offset: 0x20085AC
     void remove_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_::KeyGeneratedEventHandler* value);
     // public System.Void .ctor(System.Int32 keySize)
-    // Offset: 0x1FBF6AC
+    // Offset: 0x2006E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAManaged_* New_ctor(int keySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::RSAManaged_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RSAManaged_*, creationType>(keySize)));
     }
     // private System.Void GenerateKeyPair()
-    // Offset: 0x1FBF814
+    // Offset: 0x2006FB0
     void GenerateKeyPair();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
-    // Offset: 0x1FC01A4
+    // Offset: 0x2007940
     ::ArrayW<uint8_t> GetPaddedValue(::Mono::Math::BigInteger_* value, int length);
     // public override System.Int32 get_KeySize()
-    // Offset: 0x1FBFEF0
+    // Offset: 0x200768C
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // protected override System.Void Finalize()
-    // Offset: 0x1FBF7A0
+    // Offset: 0x2006F3C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Byte[] EncryptValue(System.Byte[] rgb)
-    // Offset: 0x1FC0088
+    // Offset: 0x2007824
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Byte[] RSA::EncryptValue(System.Byte[] rgb)
     ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1FC0268
+    // Offset: 0x2007A04
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x1FC05D8
+    // Offset: 0x2007D74
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1FC0AE0
+    // Offset: 0x200827C
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.String ToXmlString(System.Boolean includePrivateParameters)
-    // Offset: 0x1FC0EB4
+    // Offset: 0x2008650
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.String RSA::ToXmlString(System.Boolean includePrivateParameters)
     ::StringW ToXmlString(bool includePrivateParameters);

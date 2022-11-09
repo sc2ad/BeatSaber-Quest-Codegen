@@ -54,17 +54,17 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxTimeDiff
     static void _set_kMaxTimeDiff(float value);
     // public System.Void .ctor()
-    // Offset: 0x1378388
+    // Offset: 0x13CB154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataAddTestSlidersTransform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataAddTestSlidersTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataAddTestSlidersTransform*, creationType>()));
     }
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x1377EAC
+    // Offset: 0x13CAC78
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private NoteData FindNextSameColorTypeNote(System.Collections.Generic.IReadOnlyList`1<BeatmapDataItem> beatmapDataItems, System.Int32 startIndex, ColorType colorType)
-    // Offset: 0x1378194
+    // Offset: 0x13CAF60
     static ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int startIndex, ::GlobalNamespace::ColorType colorType);
   }; // BeatmapDataAddTestSlidersTransform
   #pragma pack(pop)

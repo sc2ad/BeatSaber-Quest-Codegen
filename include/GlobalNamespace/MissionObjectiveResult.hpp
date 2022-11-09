@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <value>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$value$k__BackingField();
     // public MissionObjective get_missionObjective()
-    // Offset: 0x1330CF4
+    // Offset: 0x1482AF8
     ::GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
-    // Offset: 0x1330CFC
+    // Offset: 0x1482B00
     void set_missionObjective(::GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
-    // Offset: 0x1330D04
+    // Offset: 0x1482B08
     bool get_cleared();
     // private System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1330D0C
+    // Offset: 0x1482B10
     void set_cleared(bool value);
     // public System.Int32 get_value()
-    // Offset: 0x1330D18
+    // Offset: 0x1482B1C
     int get_value();
     // private System.Void set_value(System.Int32 value)
-    // Offset: 0x1330D20
+    // Offset: 0x1482B24
     void set_value(int value);
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
-    // Offset: 0x1330798
+    // Offset: 0x1482560
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveResult* New_ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveResult::.ctor");

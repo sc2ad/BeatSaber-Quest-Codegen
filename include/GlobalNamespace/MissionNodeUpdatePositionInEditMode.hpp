@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodeConnection _missionNodeConnection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeConnection*& dyn__missionNodeConnection();
     // public System.Void .ctor()
-    // Offset: 0x132EAA0
+    // Offset: 0x1480090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeUpdatePositionInEditMode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeUpdatePositionInEditMode::.ctor");

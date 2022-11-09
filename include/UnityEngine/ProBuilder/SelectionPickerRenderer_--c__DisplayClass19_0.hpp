@@ -53,14 +53,14 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
     // public System.Void .ctor()
-    // Offset: 0x19D9750
+    // Offset: 0x19E9F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::$$c__DisplayClass19_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::$$c__DisplayClass19_0*, creationType>()));
     }
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
-    // Offset: 0x19DB808
+    // Offset: 0x19EC008
     int $PickVerticesInRect$b__0(int x);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c__DisplayClass19_0
   #pragma pack(pop)

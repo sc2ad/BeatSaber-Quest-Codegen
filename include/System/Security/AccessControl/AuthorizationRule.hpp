@@ -82,10 +82,10 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.PropagationFlags propagationFlags
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::PropagationFlags& dyn_propagationFlags();
     // protected internal System.Int32 get_AccessMask()
-    // Offset: 0x1B8B87C
+    // Offset: 0x1B94744
     int get_AccessMask();
     // protected internal System.Void .ctor(System.Security.Principal.IdentityReference identity, System.Int32 accessMask, System.Boolean isInherited, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags)
-    // Offset: 0x1B8B61C
+    // Offset: 0x1B944E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AuthorizationRule* New_ctor(::System::Security::Principal::IdentityReference* identity, int accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::AuthorizationRule::.ctor");

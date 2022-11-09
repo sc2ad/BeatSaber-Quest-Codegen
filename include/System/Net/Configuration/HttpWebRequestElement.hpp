@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class HttpWebRequestElement : public ::System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A6C910
+    // Offset: 0x1A8A69C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpWebRequestElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::HttpWebRequestElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebRequestElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A6C950
+    // Offset: 0x1A8A6DC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

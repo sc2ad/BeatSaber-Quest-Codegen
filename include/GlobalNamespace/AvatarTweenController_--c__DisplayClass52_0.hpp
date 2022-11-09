@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 originalScale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_originalScale();
     // public System.Void .ctor()
-    // Offset: 0x153C600
+    // Offset: 0x1539C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarTweenController::$$c__DisplayClass52_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController::$$c__DisplayClass52_0*, creationType>()));
     }
     // System.Void <CreatePopTween>b__0(System.Single val)
-    // Offset: 0x153D3FC
+    // Offset: 0x153AA78
     void $CreatePopTween$b__0(float val);
   }; // AvatarTweenController/<>c__DisplayClass52_0
   #pragma pack(pop)

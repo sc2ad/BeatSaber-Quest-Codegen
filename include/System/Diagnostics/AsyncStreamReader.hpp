@@ -111,13 +111,13 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Object syncObject
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_syncObject();
     // public System.Void Close()
-    // Offset: 0x1D267CC
+    // Offset: 0x1D75008
     void Close();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1D267DC
+    // Offset: 0x1D75018
     void Dispose(bool disposing);
     // System.Void CancelOperation()
-    // Offset: 0x1D268BC
+    // Offset: 0x1D750F8
     void CancelOperation();
   }; // System.Diagnostics.AsyncStreamReader
   #pragma pack(pop)

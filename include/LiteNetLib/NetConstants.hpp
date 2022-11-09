@@ -116,7 +116,7 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 PacketPoolSize
     static void _set_PacketPoolSize(int value);
     // static private System.Void .cctor()
-    // Offset: 0x21D5FE8
+    // Offset: 0x21F1F64
     static void _cctor();
   }; // LiteNetLib.NetConstants
   #pragma pack(pop)

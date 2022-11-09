@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class PlatformAchievementsModelSO::UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1364A24
+    // Offset: 0x156A348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformAchievementsModelSO/UnlockAchievementResult result)
-    // Offset: 0x1364400
+    // Offset: 0x1569D24
     void Invoke(::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.IAsyncResult BeginInvoke(PlatformAchievementsModelSO/UnlockAchievementResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1364A34
+    // Offset: 0x156A358
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1364AC0
+    // Offset: 0x156A3E4
     void EndInvoke(::System::IAsyncResult* result);
   }; // PlatformAchievementsModelSO/UnlockAchievementCompletionHandler
   #pragma pack(pop)

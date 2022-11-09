@@ -43,20 +43,20 @@ namespace System::ComponentModel {
   class ListChangedEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DF7530
+    // Offset: 0x1E17990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListChangedEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ListChangedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListChangedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.ComponentModel.ListChangedEventArgs e)
-    // Offset: 0x1DF7540
+    // Offset: 0x1E179A0
     void Invoke(::Il2CppObject* sender, ::System::ComponentModel::ListChangedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ComponentModel.ListChangedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DF7928
+    // Offset: 0x1E17D88
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, ::System::ComponentModel::ListChangedEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DF7958
+    // Offset: 0x1E17DB8
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.ComponentModel.ListChangedEventHandler
   #pragma pack(pop)

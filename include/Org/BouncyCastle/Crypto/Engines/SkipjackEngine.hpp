@@ -92,44 +92,44 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean encrypting
     [[deprecated("Use field access instead!")]] bool& dyn_encrypting();
     // public System.String get_AlgorithmName()
-    // Offset: 0x24A822C
+    // Offset: 0x2484B60
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x24A8274
+    // Offset: 0x2484BA8
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x24A8B54
+    // Offset: 0x2485488
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x24A8BD0
+    // Offset: 0x2485504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SkipjackEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SkipjackEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x24A7EF8
+    // Offset: 0x248482C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x24A827C
+    // Offset: 0x2484BB0
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x24A8284
+    // Offset: 0x2484BB8
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x24A83A4
+    // Offset: 0x2484CD8
     void Reset();
     // private System.Int32 G(System.Int32 k, System.Int32 w)
-    // Offset: 0x24A83A8
+    // Offset: 0x2484CDC
     int G(int k, int w);
     // public System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x24A851C
+    // Offset: 0x2484E50
     int EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Int32 H(System.Int32 k, System.Int32 w)
-    // Offset: 0x24A8770
+    // Offset: 0x24850A4
     int H(int k, int w);
     // public System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x24A88E4
+    // Offset: 0x2485218
     int DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.SkipjackEngine
   #pragma pack(pop)

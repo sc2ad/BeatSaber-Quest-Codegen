@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> <difficultyBeatmaps>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>*& dyn_$difficultyBeatmaps$k__BackingField();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x147F0C4
+    // Offset: 0x14350AC
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> get_difficultyBeatmaps()
-    // Offset: 0x147F0CC
+    // Offset: 0x14350B4
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> difficultyBeatmaps)
-    // Offset: 0x147F0D4
+    // Offset: 0x14350BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DifficultyBeatmapSet* New_ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyBeatmapSet::.ctor");

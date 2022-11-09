@@ -107,26 +107,26 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _requiresSave
     [[deprecated("Use field access instead!")]] bool& dyn__requiresSave();
     // public System.Boolean get_RequiresSave()
-    // Offset: 0x1AFB70C
+    // Offset: 0x1B2F8CC
     bool get_RequiresSave();
     // static public HoudiniEngineUnity.HEU_PluginStorage get_Instance()
-    // Offset: 0x1AF71BC
+    // Offset: 0x1B2B37C
     static ::HoudiniEngineUnity::HEU_PluginStorage* get_Instance();
     // public System.Void .ctor()
-    // Offset: 0x1AFB7E4
+    // Offset: 0x1B2F9A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PluginStorage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PluginStorage*, creationType>()));
     }
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetEnvironmentPathMap()
-    // Offset: 0x1AFB704
+    // Offset: 0x1B2F8C4
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetEnvironmentPathMap();
     // static public System.Void InstantiateAndLoad()
-    // Offset: 0x1AFB714
+    // Offset: 0x1B2F8D4
     static void InstantiateAndLoad();
     // static public System.Void SetCurrentCulture(System.Boolean useInvariant)
-    // Offset: 0x1AFA984
+    // Offset: 0x1B2EB44
     static void SetCurrentCulture(bool useInvariant);
     // private T[] GetJSONArray(System.String jsonArray)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -138,85 +138,85 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, jsonArray);
     }
     // public System.Void Set(System.String key, System.Boolean value)
-    // Offset: 0x1AF78C4
+    // Offset: 0x1B2BA84
     void Set(::StringW key, bool value);
     // public System.Void Set(System.String key, System.Int32 value)
-    // Offset: 0x1AF9180
+    // Offset: 0x1B2D340
     void Set(::StringW key, int value);
     // public System.Void Set(System.String key, System.Int64 value)
-    // Offset: 0x1AFC584
+    // Offset: 0x1B30744
     void Set(::StringW key, int64_t value);
     // public System.Void Set(System.String key, System.Single value)
-    // Offset: 0x1AF86C8
+    // Offset: 0x1B2C888
     void Set(::StringW key, float value);
     // public System.Void Set(System.String key, System.String value)
-    // Offset: 0x1AF7348
+    // Offset: 0x1B2B508
     void Set(::StringW key, ::StringW value);
     // public System.Void Set(System.String key, System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
-    // Offset: 0x1AF9B08
+    // Offset: 0x1B2DCC8
     void Set(::StringW key, ::System::Collections::Generic::List_1<::StringW>* values, ::Il2CppChar delimiter);
     // public System.Boolean Get(System.String key, out System.Boolean value, System.Boolean defaultValue)
-    // Offset: 0x1AF7774
+    // Offset: 0x1B2B934
     bool Get(::StringW key, ByRef<bool> value, bool defaultValue);
     // public System.Boolean Get(System.String key, out System.Int32 value, System.Int32 defaultValue)
-    // Offset: 0x1AF9030
+    // Offset: 0x1B2D1F0
     bool Get(::StringW key, ByRef<int> value, int defaultValue);
     // public System.Boolean Get(System.String key, out System.Int64 value, System.Int64 defaultValue)
-    // Offset: 0x1AFC64C
+    // Offset: 0x1B3080C
     bool Get(::StringW key, ByRef<int64_t> value, int64_t defaultValue);
     // public System.Boolean Get(System.String key, out System.Single value, System.Single defaultValue)
-    // Offset: 0x1AF853C
+    // Offset: 0x1B2C6FC
     bool Get(::StringW key, ByRef<float> value, float defaultValue);
     // public System.Boolean Get(System.String key, out System.String value, System.String defaultValue)
-    // Offset: 0x1AF7220
+    // Offset: 0x1B2B3E0
     bool Get(::StringW key, ByRef<::StringW> value, ::StringW defaultValue);
     // public System.Boolean Get(System.String key, out System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
-    // Offset: 0x1AF9918
+    // Offset: 0x1B2DAD8
     bool Get(::StringW key, ByRef<::System::Collections::Generic::List_1<::StringW>*> values, ::Il2CppChar delimiter);
     // private System.Void MarkDirtyForSave()
-    // Offset: 0x1AFC580
+    // Offset: 0x1B30740
     void MarkDirtyForSave();
     // static public System.Void SaveIfRequired()
-    // Offset: 0x1AFC740
+    // Offset: 0x1B30900
     static void SaveIfRequired();
     // static public System.String SettingsFilePath()
-    // Offset: 0x1AFCBA8
+    // Offset: 0x1B30D68
     static ::StringW SettingsFilePath();
     // public System.Boolean SavePluginData()
-    // Offset: 0x1AFC7A8
+    // Offset: 0x1B30968
     bool SavePluginData();
     // public System.Boolean LoadPluginData()
-    // Offset: 0x1AFB854
+    // Offset: 0x1B2FA14
     bool LoadPluginData();
     // private System.Boolean ReadFromEditorPrefs()
-    // Offset: 0x1AFCC74
+    // Offset: 0x1B30E34
     bool ReadFromEditorPrefs();
     // static public System.Void ClearPluginData()
-    // Offset: 0x1AFCC7C
+    // Offset: 0x1B30E3C
     static void ClearPluginData();
     // static public System.Void LoadFromSavedFile()
-    // Offset: 0x1AFCD24
+    // Offset: 0x1B30EE4
     static void LoadFromSavedFile();
     // static public System.String SessionFilePath()
-    // Offset: 0x1AFCD84
+    // Offset: 0x1B30F44
     static ::StringW SessionFilePath();
     // static public System.Void SaveAllSessionData(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_SessionBase> allSessions)
-    // Offset: 0x1AFCE50
+    // Offset: 0x1B31010
     static void SaveAllSessionData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>* allSessions);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_SessionData> LoadAllSessionData()
-    // Offset: 0x1AFCE54
+    // Offset: 0x1B31014
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionData*>* LoadAllSessionData();
     // static public System.Void DeleteAllSavedSessionData()
-    // Offset: 0x1AFCEB8
+    // Offset: 0x1B31078
     static void DeleteAllSavedSessionData();
     // public System.Void LoadAssetEnvironmentPaths()
-    // Offset: 0x1AF73E4
+    // Offset: 0x1B2B5A4
     void LoadAssetEnvironmentPaths();
     // public System.String ConvertRealPathToEnvKeyedPath(System.String inPath)
-    // Offset: 0x1AFCEBC
+    // Offset: 0x1B3107C
     ::StringW ConvertRealPathToEnvKeyedPath(::StringW inPath);
     // public System.String ConvertEnvKeyedPathToReal(System.String inPath)
-    // Offset: 0x1AFD040
+    // Offset: 0x1B31200
     ::StringW ConvertEnvKeyedPathToReal(::StringW inPath);
   }; // HoudiniEngineUnity.HEU_PluginStorage
   #pragma pack(pop)

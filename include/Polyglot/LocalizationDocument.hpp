@@ -81,37 +81,37 @@ namespace Polyglot {
     // Get instance field reference: private System.Boolean downloadOnStart
     [[deprecated("Use field access instead!")]] bool& dyn_downloadOnStart();
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x2A8C0F4
+    // Offset: 0x2ABC430
     ::UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x2A8C0FC
+    // Offset: 0x2ABC438
     void set_TextAsset(::UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
-    // Offset: 0x2A8C104
+    // Offset: 0x2ABC440
     ::StringW get_DocsId();
     // public System.Void set_DocsId(System.String value)
-    // Offset: 0x2A8C10C
+    // Offset: 0x2ABC448
     void set_DocsId(::StringW value);
     // public System.String get_SheetId()
-    // Offset: 0x2A8C114
+    // Offset: 0x2ABC450
     ::StringW get_SheetId();
     // public System.Void set_SheetId(System.String value)
-    // Offset: 0x2A8C11C
+    // Offset: 0x2ABC458
     void set_SheetId(::StringW value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x2A8C124
+    // Offset: 0x2ABC460
     ::Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x2A8C12C
+    // Offset: 0x2ABC468
     void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
     // public System.Boolean get_DownloadOnStart()
-    // Offset: 0x2A8C134
+    // Offset: 0x2ABC470
     bool get_DownloadOnStart();
     // public System.Void set_DownloadOnStart(System.Boolean value)
-    // Offset: 0x2A8C13C
+    // Offset: 0x2ABC478
     void set_DownloadOnStart(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2A8C148
+    // Offset: 0x2ABC484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationDocument* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationDocument::.ctor");

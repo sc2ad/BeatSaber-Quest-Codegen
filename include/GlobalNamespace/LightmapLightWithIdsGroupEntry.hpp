@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightmapLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E64C8
+    // [SpaceAttribute] Offset: 0x10FABB8
     // private LightmapLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E6520
+    // [SpaceAttribute] Offset: 0x10FAC10
     // private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -136,8 +136,11 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__excludedLightIds();
     // Get instance field reference: private LightmapLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
+    // public LightmapLightWithIds get_lightmapLightWithIds()
+    // Offset: 0x1CC961C
+    ::GlobalNamespace::LightmapLightWithIds* get_lightmapLightWithIds();
     // public System.Void .ctor()
-    // Offset: 0x1D038FC
+    // Offset: 0x1CC9624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapLightWithIdsGroupEntry::.ctor");
@@ -151,6 +154,14 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmapLightWithIdsGroupEntry::GroupLightsWeighting, "", "LightmapLightWithIdsGroupEntry/GroupLightsWeighting");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIdsGroupEntry::get_lightmapLightWithIds
+// Il2CppName: get_lightmapLightWithIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightmapLightWithIds* (GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(&GlobalNamespace::LightmapLightWithIdsGroupEntry::get_lightmapLightWithIds)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIdsGroupEntry*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightWithIdsGroupEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

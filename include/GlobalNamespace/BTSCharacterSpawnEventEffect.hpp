@@ -93,35 +93,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BTSCharacterDataModel* btsCharacterDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterDataModel*) == 0x8);
-    // [NullAllowed] Offset: 0x10F6AB8
+    // [NullAllowed] Offset: 0x110C120
     // private UnityEngine.Transform _characterWrapper
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* characterWrapper;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6AF4
+    // [InjectAttribute] Offset: 0x110C15C
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6B04
+    // [InjectAttribute] Offset: 0x110C16C
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6B14
+    // [InjectAttribute] Offset: 0x110C17C
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x10F6B24
+    // [InjectAttribute] Offset: 0x110C18C
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x48
@@ -212,38 +212,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _asyncOperationHandles
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__asyncOperationHandles();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x136B170
+    // Offset: 0x13BD3C0
     bool get_isInitialized();
     // public System.Void add_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x136A8FC
+    // Offset: 0x13BCB4C
     void add_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
     // public System.Void remove_startCharacterAnimationEvent(System.Action`1<BTSCharacter> value)
-    // Offset: 0x136AD0C
+    // Offset: 0x13BCF5C
     void remove_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
     // public System.Void .ctor()
-    // Offset: 0x136C25C
+    // Offset: 0x13BE4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x136B178
+    // Offset: 0x13BD3C8
     void Start();
     // private System.Void LoadAddressables()
-    // Offset: 0x136B67C
+    // Offset: 0x13BD8D0
     void LoadAddressables();
     // private System.Void CleanupAddressables()
-    // Offset: 0x136BE84
+    // Offset: 0x13BE0DC
     void CleanupAddressables();
     // protected System.Void OnDestroy()
-    // Offset: 0x136BFD4
+    // Offset: 0x13BE22C
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x136C0E4
+    // Offset: 0x13BE33C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // static private System.Tuple`2<BTSCharacter,UnityEngine.AnimationClip> GetCharacterWithAnimationClip(System.Collections.Generic.Dictionary`2<System.Int32,BTSCharacter> charDictionary, System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.AnimationClip> animDictionary, System.Int32 prefabId, System.Int32 animationId)
-    // Offset: 0x136BD2C
+    // Offset: 0x13BDF84
     static ::System::Tuple_2<::GlobalNamespace::BTSCharacter*, ::UnityEngine::AnimationClip*>* GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::BTSCharacter*>* charDictionary, ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::AnimationClip*>* animDictionary, int prefabId, int animationId);
   }; // BTSCharacterSpawnEventEffect
   #pragma pack(pop)

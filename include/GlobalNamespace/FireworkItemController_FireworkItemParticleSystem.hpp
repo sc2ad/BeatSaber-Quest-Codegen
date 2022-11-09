@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0x11103DC
+    // [DrawIfAttribute] Offset: 0x1126190
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0x1110470
+    // [DrawIfAttribute] Offset: 0x1126224
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean _randomizeSpeed
     [[deprecated("Use field access instead!")]] bool& dyn__randomizeSpeed();
     // public System.Void .ctor()
-    // Offset: 0x13A164C
+    // Offset: 0x138C11C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController::FireworkItemParticleSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::.ctor");

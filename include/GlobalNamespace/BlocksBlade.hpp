@@ -171,22 +171,22 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104538
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1119DFC
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104548
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1119E0C
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104558
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1119E1C
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104568
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1119E2C
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
@@ -228,32 +228,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _layer
     [[deprecated("Use field access instead!")]] int& dyn__layer();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1383DC8
+    // Offset: 0x13D7910
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1383DD4
+    // Offset: 0x13D791C
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1384624
+    // Offset: 0x13D816C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlocksBlade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlocksBlade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x138465C
+    // Offset: 0x13D81A4
     static void _cctor();
     // protected System.Void Start()
-    // Offset: 0x1383DE0
+    // Offset: 0x13D7928
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1384178
+    // Offset: 0x13D7CC0
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0x1383F98
+    // Offset: 0x13D7AE0
     void SetUpElement(::GlobalNamespace::BlocksBlade::Element* element, float velocity, ::UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0x1384564
+    // Offset: 0x13D80AC
     ::UnityEngine::Vector2 RandomPointOnCircle(float radius);
   }; // BlocksBlade
   #pragma pack(pop)

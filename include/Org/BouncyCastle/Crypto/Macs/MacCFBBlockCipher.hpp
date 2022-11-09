@@ -90,32 +90,32 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IBlockCipher*& dyn_cipher();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E74240
+    // Offset: 0x1E92778
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E7433C
+    // Offset: 0x1E92874
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 bitBlockSize)
-    // Offset: 0x1E70CD0
+    // Offset: 0x1E8F208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacCFBBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int bitBlockSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacCFBBlockCipher*, creationType>(cipher, bitBlockSize)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E70F40
+    // Offset: 0x1E8F478
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E74344
+    // Offset: 0x1E9287C
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E71128
+    // Offset: 0x1E8F660
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E71730
+    // Offset: 0x1E8FC68
     void Reset();
     // public System.Void GetMacBlock(System.Byte[] mac)
-    // Offset: 0x1E7165C
+    // Offset: 0x1E8FB94
     void GetMacBlock(::ArrayW<uint8_t> mac);
   }; // Org.BouncyCastle.Crypto.Macs.MacCFBBlockCipher
   #pragma pack(pop)

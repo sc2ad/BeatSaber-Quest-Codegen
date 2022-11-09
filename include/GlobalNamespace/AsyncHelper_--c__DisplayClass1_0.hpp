@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Func`1<System.Threading.Tasks.Task> asyncTask
     [[deprecated("Use field access instead!")]] ::System::Func_1<::System::Threading::Tasks::Task*>*& dyn_asyncTask();
     // public System.Void .ctor()
-    // Offset: 0x15C3C04
+    // Offset: 0x15EB00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncHelper::$$c__DisplayClass1_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncHelper::$$c__DisplayClass1_0*, creationType>()));
     }
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0x15C3C0C
+    // Offset: 0x15EB014
     ::System::Threading::Tasks::Task* $RunSync$b__0();
   }; // AsyncHelper/<>c__DisplayClass1_0
   #pragma pack(pop)

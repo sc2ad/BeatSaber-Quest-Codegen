@@ -77,66 +77,66 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.GlobalJavaObjectRef m_jclass
     [[deprecated("Use field access instead!")]] ::UnityEngine::GlobalJavaObjectRef*& dyn_m_jclass();
     // public System.Void .ctor(System.String className, System.String[] args)
-    // Offset: 0x2ABE044
+    // Offset: 0x2AF0380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::StringW> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaObject[] args)
-    // Offset: 0x2ABE2C0
+    // Offset: 0x2AF05FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaClass[] args)
-    // Offset: 0x2ABE384
+    // Offset: 0x2AF06C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaProxy[] args)
-    // Offset: 0x2ABE448
+    // Offset: 0x2AF0784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaProxy*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, UnityEngine.AndroidJavaRunnable[] args)
-    // Offset: 0x2ABE50C
+    // Offset: 0x2AF0848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // public System.Void .ctor(System.String className, params System.Object[] args)
-    // Offset: 0x2ABE5D0
+    // Offset: 0x2AF090C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::StringW className, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(className, args)));
     }
     // System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x2ABEC70
+    // Offset: 0x2AF0FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor(::System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>(jobject)));
     }
     // System.Void .ctor()
-    // Offset: 0x2ABDCF4
+    // Offset: 0x2AF0030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaObject*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2ABEFC0
+    // Offset: 0x2AF12FC
     static void _cctor();
     // public System.Void Dispose()
-    // Offset: 0x2ABE610
+    // Offset: 0x2AF094C
     void Dispose();
     // public System.Void Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -148,7 +148,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x2ABE68C
+    // Offset: 0x2AF09C8
     void Call(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
     // public System.Void CallStatic(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -160,7 +160,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, methodName, args);
     }
     // public System.Void CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x2ABE7A4
+    // Offset: 0x2AF0AE0
     void CallStatic(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
     // public FieldType Get(System.String fieldName)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -199,10 +199,10 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // public System.IntPtr GetRawObject()
-    // Offset: 0x2ABE8BC
+    // Offset: 0x2AF0BF8
     ::System::IntPtr GetRawObject();
     // public System.IntPtr GetRawClass()
-    // Offset: 0x2ABE8F4
+    // Offset: 0x2AF0C30
     ::System::IntPtr GetRawClass();
     // public ReturnType Call(System.String methodName, T[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -241,19 +241,19 @@ namespace UnityEngine {
       return ::il2cpp_utils::RunMethodRethrow<ReturnType, false>(this, ___generic__method, methodName, args);
     }
     // protected System.Void DebugPrint(System.String msg)
-    // Offset: 0x2ABDDCC
+    // Offset: 0x2AF0108
     void DebugPrint(::StringW msg);
     // protected System.Void DebugPrint(System.String call, System.String methodName, System.String signature, System.Object[] args)
-    // Offset: 0x2ABE92C
+    // Offset: 0x2AF0C68
     void DebugPrint(::StringW call, ::StringW methodName, ::StringW signature, ::ArrayW<::Il2CppObject*> args);
     // private System.Void _AndroidJavaObject(System.String className, params System.Object[] args)
-    // Offset: 0x2ABE108
+    // Offset: 0x2AF0444
     void _AndroidJavaObject(::StringW className, ::ArrayW<::Il2CppObject*> args);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2ABEDE0
+    // Offset: 0x2AF111C
     void Dispose(bool disposing);
     // protected System.Void _Call(System.String methodName, params System.Object[] args)
-    // Offset: 0x2ABE690
+    // Offset: 0x2AF09CC
     void _Call(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
     // protected ReturnType _Call(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -283,7 +283,7 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // protected System.Void _CallStatic(System.String methodName, params System.Object[] args)
-    // Offset: 0x2ABE7A8
+    // Offset: 0x2AF0AE4
     void _CallStatic(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
     // protected ReturnType _CallStatic(System.String methodName, params System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -313,19 +313,19 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, fieldName, val);
     }
     // static UnityEngine.AndroidJavaObject AndroidJavaObjectDeleteLocalRef(System.IntPtr jobject)
-    // Offset: 0x2ABEE90
+    // Offset: 0x2AF11CC
     static ::UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(::System::IntPtr jobject);
     // static UnityEngine.AndroidJavaClass AndroidJavaClassDeleteLocalRef(System.IntPtr jclass)
-    // Offset: 0x2ABEF28
+    // Offset: 0x2AF1264
     static ::UnityEngine::AndroidJavaClass* AndroidJavaClassDeleteLocalRef(::System::IntPtr jclass);
     // protected System.IntPtr _GetRawObject()
-    // Offset: 0x2ABE8D8
+    // Offset: 0x2AF0C14
     ::System::IntPtr _GetRawObject();
     // protected System.IntPtr _GetRawClass()
-    // Offset: 0x2ABE910
+    // Offset: 0x2AF0C4C
     ::System::IntPtr _GetRawClass();
     // protected override System.Void Finalize()
-    // Offset: 0x2ABED6C
+    // Offset: 0x2AF10A8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

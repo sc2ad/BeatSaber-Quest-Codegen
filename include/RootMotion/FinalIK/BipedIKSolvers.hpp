@@ -132,20 +132,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IKSolver[] _ikSolvers
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
-    // Offset: 0x22B6380
+    // Offset: 0x23080E4
     ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*> get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
-    // Offset: 0x22B6F98
+    // Offset: 0x2308CFC
     ::ArrayW<::RootMotion::FinalIK::IKSolver*> get_ikSolvers();
     // public System.Void .ctor()
-    // Offset: 0x22B6E50
+    // Offset: 0x2308BB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedIKSolvers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::BipedIKSolvers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedIKSolvers*, creationType>()));
     }
     // public System.Void AssignReferences(RootMotion.BipedReferences references)
-    // Offset: 0x22B673C
+    // Offset: 0x23084A0
     void AssignReferences(::RootMotion::BipedReferences* references);
   }; // RootMotion.FinalIK.BipedIKSolvers
   #pragma pack(pop)

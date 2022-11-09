@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   class DirectionalLight : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [ColorUsageAttribute] Offset: 0x10E5CA4
+    // [ColorUsageAttribute] Offset: 0x10FA2E4
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -85,23 +85,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single radius
     [[deprecated("Use field access instead!")]] float& dyn_radius();
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x1CFE78C
+    // Offset: 0x1CC4508
     static ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* get_lights();
     // public System.Void .ctor()
-    // Offset: 0x1CFE8FC
+    // Offset: 0x1CC4678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CFE90C
+    // Offset: 0x1CC4688
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1CFE7F4
+    // Offset: 0x1CC4570
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CFE878
+    // Offset: 0x1CC45F4
     void OnDisable();
   }; // DirectionalLight
   #pragma pack(pop)

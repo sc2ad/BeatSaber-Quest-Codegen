@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean showDebris
     [[deprecated("Use field access instead!")]] bool& dyn_showDebris();
     // public System.Void .ctor(System.Boolean showDebris)
-    // Offset: 0x2A95E74
+    // Offset: 0x2AC61B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainCameraCullingMask::InitData::.ctor");

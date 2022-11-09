@@ -122,47 +122,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _c
     [[deprecated("Use field access instead!")]] int& dyn__c();
     // static public QuaternionSerializable get_identity()
-    // Offset: 0x29D0B18
+    // Offset: 0x29ED9E4
     static ::GlobalNamespace::QuaternionSerializable get_identity();
     // public System.Void .ctor(UnityEngine.Quaternion q)
-    // Offset: 0x29D171C
+    // Offset: 0x29EE5E8
     QuaternionSerializable(::UnityEngine::Quaternion q);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29D1D60
+    // Offset: 0x29EEC2C
     QuaternionSerializable(::LiteNetLib::Utils::NetDataReader* reader);
     // static private System.Void ToSmallest(UnityEngine.Quaternion q, out System.Int32 sa, out System.Int32 sb, out System.Int32 sc)
-    // Offset: 0x29D1844
+    // Offset: 0x29EE710
     static void ToSmallest(::UnityEngine::Quaternion q, ByRef<int> sa, ByRef<int> sb, ByRef<int> sc);
     // static private UnityEngine.Quaternion FromSmallest(System.Int32 sa, System.Int32 sb, System.Int32 sc)
-    // Offset: 0x29D1A84
+    // Offset: 0x29EE950
     static ::UnityEngine::Quaternion FromSmallest(int sa, int sb, int sc);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29CEF84
+    // Offset: 0x29EBE50
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29CED50
+    // Offset: 0x29EBC1C
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(QuaternionSerializable other)
-    // Offset: 0x29D0C94
+    // Offset: 0x29EDB60
     bool Equals(::GlobalNamespace::QuaternionSerializable other);
     // public System.Boolean Approximately(QuaternionSerializable other)
-    // Offset: 0x29D1CAC
+    // Offset: 0x29EEB78
     bool Approximately(::GlobalNamespace::QuaternionSerializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x29D0F54
+    // Offset: 0x29EDE20
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29D1C04
+    // Offset: 0x29EEAD0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29D0DD4
+    // Offset: 0x29EDCA0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29D1D6C
+    // Offset: 0x29EEC38
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -171,10 +171,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(QuaternionSerializable), 8 + sizeof(int)> __GlobalNamespace_QuaternionSerializableSizeCheck;
   static_assert(sizeof(QuaternionSerializable) == 0xC);
   // static public QuaternionSerializable op_Addition(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x29D11D4
+  // Offset: 0x29EE0A0
   ::GlobalNamespace::QuaternionSerializable operator+(const ::GlobalNamespace::QuaternionSerializable& a, const ::GlobalNamespace::QuaternionSerializable& b);
   // static public QuaternionSerializable op_Subtraction(QuaternionSerializable a, QuaternionSerializable b)
-  // Offset: 0x29D1270
+  // Offset: 0x29EE13C
   ::GlobalNamespace::QuaternionSerializable operator-(const ::GlobalNamespace::QuaternionSerializable& a, const ::GlobalNamespace::QuaternionSerializable& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

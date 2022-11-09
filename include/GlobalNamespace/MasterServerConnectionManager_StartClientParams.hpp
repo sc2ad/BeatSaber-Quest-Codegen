@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MasterServerConnectionManager::StartClientParams : public ::GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1709560
+    // Offset: 0x172CE7C
     // Implemented from: MasterServerConnectionManager/MasterServerConnectionManagerParamsBase
     // Base method: System.Void MasterServerConnectionManagerParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -49,13 +49,13 @@ namespace System {
     // Get instance field reference: private System.Int32 _inheritanceLevel
     [[deprecated("Use field access instead!")]] int& dyn__inheritanceLevel();
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x1BE62B8
+    // Offset: 0x1C042A8
     ::System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x1BE62C0
+    // Offset: 0x1C042B0
     int get_InheritanceLevel();
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x1BE563C
+    // Offset: 0x1C0362C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoCustomAttrs::AttributeInfo::.ctor");

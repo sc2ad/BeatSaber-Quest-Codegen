@@ -60,13 +60,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__rectTransform();
     // public System.Int32 get_minimumMissionsToUnlock()
-    // Offset: 0x13FE344
+    // Offset: 0x1484E38
     int get_minimumMissionsToUnlock();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x13FE34C
+    // Offset: 0x14812B4
     ::UnityEngine::Vector2 get_position();
     // public System.Void .ctor()
-    // Offset: 0x13FE3EC
+    // Offset: 0x1484E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStage::.ctor");

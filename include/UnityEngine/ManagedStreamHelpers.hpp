@@ -36,16 +36,16 @@ namespace UnityEngine {
   class ManagedStreamHelpers : public ::Il2CppObject {
     public:
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
-    // Offset: 0x20CA8CC
+    // Offset: 0x20D31C8
     static void ValidateLoadFromStream(::System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x20CA9D4
+    // Offset: 0x20D32D0
     static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int offset, int count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x20CAAD4
+    // Offset: 0x20D33D0
     static void ManagedStreamSeek(int64_t offset, uint origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamLength(System.IO.Stream stream, System.IntPtr returnValueAddress)
-    // Offset: 0x20CABCC
+    // Offset: 0x20D34C8
     static void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)

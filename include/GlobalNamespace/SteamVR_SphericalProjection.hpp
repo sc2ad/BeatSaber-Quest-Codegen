@@ -44,17 +44,17 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material material
     static void _set_material(::UnityEngine::Material* value);
     // public System.Void .ctor()
-    // Offset: 0x189EC30
+    // Offset: 0x18C23E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_SphericalProjection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_SphericalProjection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_SphericalProjection*, creationType>()));
     }
     // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
-    // Offset: 0x189E800
+    // Offset: 0x18C1FB4
     void Set(::UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, ::UnityEngine::Vector3 uAxis, ::UnityEngine::Vector3 uOrigin, float uScale, ::UnityEngine::Vector3 vAxis, ::UnityEngine::Vector3 vOrigin, float vScale);
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x189EBA0
+    // Offset: 0x18C2354
     void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
   }; // SteamVR_SphericalProjection
   #pragma pack(pop)

@@ -83,59 +83,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerAvatarData& dyn_$multiplayerAvatarData$k__BackingField();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x169E29C
+    // Offset: 0x16C198C
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x169E2A4
+    // Offset: 0x16C1994
     bool get_isFailed();
     // public System.Boolean get_isMe()
-    // Offset: 0x169E2AC
+    // Offset: 0x16C199C
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x169E2B4
+    // Offset: 0x16C19A4
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x169E2BC
+    // Offset: 0x16C19AC
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x169E2C4
+    // Offset: 0x16C19B4
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x169E2CC
+    // Offset: 0x16C19BC
     void set_userName(::StringW value);
     // public System.Boolean get_hasValidLatency()
-    // Offset: 0x169E2D4
+    // Offset: 0x16C19C4
     bool get_hasValidLatency();
     // public System.Single get_currentLatency()
-    // Offset: 0x169E2DC
+    // Offset: 0x16C19CC
     float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0x169E2E4
+    // Offset: 0x16C19D4
     bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x169E2EC
+    // Offset: 0x16C19DC
     ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x169E2F4
+    // Offset: 0x16C19E4
     bool get_isConnectionOwner();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x169E2FC
+    // Offset: 0x16C19EC
     int get_sortIndex();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x169E304
+    // Offset: 0x16C19F4
     ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean get_isKicked()
-    // Offset: 0x169E314
+    // Offset: 0x16C1A04
     bool get_isKicked();
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
-    // Offset: 0x169E324
+    // Offset: 0x16C1A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int sortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectedPlayer*, creationType>(userId, userName, sortIndex)));
     }
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x169E31C
+    // Offset: 0x16C1A0C
     bool HasState(::StringW state);
   }; // DisconnectedPlayer
   #pragma pack(pop)

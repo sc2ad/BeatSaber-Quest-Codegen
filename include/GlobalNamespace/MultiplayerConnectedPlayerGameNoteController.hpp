@@ -109,25 +109,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteData/GameplayType _gameplayType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::GameplayType& dyn__gameplayType();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x140F1C4
+    // Offset: 0x1456074
     ::GlobalNamespace::NoteMovement* get_noteMovement();
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x140F1CC
+    // Offset: 0x145607C
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0x140F1D4
+    // Offset: 0x1456084
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x140F07C
+    // Offset: 0x1455F2C
     void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<MultiplayerConnectedPlayerGameNoteController> value)
-    // Offset: 0x140F120
+    // Offset: 0x1455FD0
     void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, NoteVisualModifierType noteVisualModifierType, System.Single uniformScale)
-    // Offset: 0x140D850
+    // Offset: 0x14546FC
     void Init(::GlobalNamespace::NoteData* noteData, float worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float uniformScale);
     // public System.Void .ctor()
-    // Offset: 0x140F1DC
+    // Offset: 0x145608C
     // Implemented from: MultiplayerConnectedPlayerNoteController
     // Base method: System.Void MultiplayerConnectedPlayerNoteController::.ctor()
     // Base method: System.Void NoteController::.ctor()

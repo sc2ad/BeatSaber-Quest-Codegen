@@ -83,28 +83,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isFinished>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isFinished$k__BackingField();
     // public NoteData get_noteData()
-    // Offset: 0x13BF4B0
+    // Offset: 0x1404854
     ::GlobalNamespace::NoteData* get_noteData();
     // protected System.Void set_noteData(NoteData value)
-    // Offset: 0x13BF4B8
+    // Offset: 0x140485C
     void set_noteData(::GlobalNamespace::NoteData* value);
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x13BF4C0
+    // Offset: 0x1401E28
     int get_maxPossibleCutScore();
     // public System.Single get_time()
-    // Offset: 0x13BF554
+    // Offset: 0x1401D54
     float get_time();
     // public System.Int32 get_multiplier()
-    // Offset: 0x13BF570
+    // Offset: 0x1404864
     int get_multiplier();
     // private System.Void set_multiplier(System.Int32 value)
-    // Offset: 0x13BF578
+    // Offset: 0x140486C
     void set_multiplier(int value);
     // public System.Int32 get_maxMultiplier()
-    // Offset: 0x13BF580
+    // Offset: 0x1404874
     int get_maxMultiplier();
     // private System.Void set_maxMultiplier(System.Int32 value)
-    // Offset: 0x13BF588
+    // Offset: 0x140487C
     void set_maxMultiplier(int value);
     // public System.Int32 get_cutScore()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -116,29 +116,29 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_multiplierEventType();
     // public System.Boolean get_isFinished()
-    // Offset: 0x13BF590
+    // Offset: 0x1404884
     bool get_isFinished();
     // protected System.Void set_isFinished(System.Boolean value)
-    // Offset: 0x13BF598
+    // Offset: 0x140488C
     void set_isFinished(bool value);
     // protected System.Int32 get_executionOrder()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_executionOrder();
     // protected System.Void .ctor()
-    // Offset: 0x13BF644
+    // Offset: 0x1404930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoringElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoringElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoringElement*, creationType>()));
     }
     // public System.Int32 CompareTo(ScoringElement other)
-    // Offset: 0x13BF5A4
+    // Offset: 0x1404898
     int CompareTo(::GlobalNamespace::ScoringElement* other);
     // public System.Void SetMultipliers(System.Int32 multiplier, System.Int32 maxMultiplier)
-    // Offset: 0x13BF638
+    // Offset: 0x1401E0C
     void SetMultipliers(int multiplier, int maxMultiplier);
     // protected System.Void Reinitialize()
-    // Offset: 0x13BF640
+    // Offset: 0x140492C
     void Reinitialize();
   }; // ScoringElement
   #pragma pack(pop)

@@ -50,20 +50,20 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.GameObject target
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_target();
     // public System.Void .ctor()
-    // Offset: 0x2060CA4
+    // Offset: 0x2060698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriggerEventBroadcaster* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::TriggerEventBroadcaster::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriggerEventBroadcaster*, creationType>()));
     }
     // private System.Void OnTriggerEnter(UnityEngine.Collider collider)
-    // Offset: 0x2060A7C
+    // Offset: 0x2060470
     void OnTriggerEnter(::UnityEngine::Collider* collider);
     // private System.Void OnTriggerStay(UnityEngine.Collider collider)
-    // Offset: 0x2060B34
+    // Offset: 0x2060528
     void OnTriggerStay(::UnityEngine::Collider* collider);
     // private System.Void OnTriggerExit(UnityEngine.Collider collider)
-    // Offset: 0x2060BEC
+    // Offset: 0x20605E0
     void OnTriggerExit(::UnityEngine::Collider* collider);
   }; // RootMotion.TriggerEventBroadcaster
   #pragma pack(pop)

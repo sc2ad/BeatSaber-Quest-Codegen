@@ -105,41 +105,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _defaultFadeInDuration
     [[deprecated("Use field access instead!")]] float& dyn__defaultFadeInDuration();
     // public System.Void .ctor()
-    // Offset: 0x15CAAE4
+    // Offset: 0x15F1EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeInOutController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeInOutController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOutController*, creationType>()));
     }
     // public System.Void FadeOutInstant()
-    // Offset: 0x15CA828
+    // Offset: 0x15F1C30
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0x15CA8FC
+    // Offset: 0x15F1D04
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x15CA9D8
+    // Offset: 0x15F1DE0
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0x15CA9E4
+    // Offset: 0x15F1DEC
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0x15CA9EC
+    // Offset: 0x15F1DF4
     void FadeOut(float duration);
     // public System.Void FadeIn(System.Action fadeInCallback)
-    // Offset: 0x15CA9F4
+    // Offset: 0x15F1DFC
     void FadeIn(::System::Action* fadeInCallback);
     // public System.Void FadeOut(System.Action fadeOutCallback)
-    // Offset: 0x15CA9FC
+    // Offset: 0x15F1E04
     void FadeOut(::System::Action* fadeOutCallback);
     // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
-    // Offset: 0x15CA908
+    // Offset: 0x15F1D10
     void FadeIn(float duration, ::System::Action* fadeInFinishedCallback);
     // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
-    // Offset: 0x15CA834
+    // Offset: 0x15F1C3C
     void FadeOut(float duration, ::System::Action* fadeOutFinishedCallback);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
-    // Offset: 0x15CAA04
+    // Offset: 0x15F1E0C
     ::System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, ::UnityEngine::AnimationCurve* curve, ::System::Action* fadeFinishedCallback);
   }; // FadeInOutController
   #pragma pack(pop)

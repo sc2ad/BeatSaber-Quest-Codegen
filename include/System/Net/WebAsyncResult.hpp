@@ -131,63 +131,63 @@ namespace System::Net {
     // Get instance field reference: public System.Net.HttpWebRequest AsyncObject
     [[deprecated("Use field access instead!")]] ::System::Net::HttpWebRequest*& dyn_AsyncObject();
     // System.Int32 get_NBytes()
-    // Offset: 0x1B4B244
+    // Offset: 0x1B7F3F0
     int get_NBytes();
     // System.Void set_NBytes(System.Int32 value)
-    // Offset: 0x1B4B24C
+    // Offset: 0x1B7F3F8
     void set_NBytes(int value);
     // System.IAsyncResult get_InnerAsyncResult()
-    // Offset: 0x1B4B254
+    // Offset: 0x1B7F400
     ::System::IAsyncResult* get_InnerAsyncResult();
     // System.Void set_InnerAsyncResult(System.IAsyncResult value)
-    // Offset: 0x1B4B25C
+    // Offset: 0x1B7F408
     void set_InnerAsyncResult(::System::IAsyncResult* value);
     // System.IO.Stream get_WriteStream()
-    // Offset: 0x1B4B264
+    // Offset: 0x1B7F410
     ::System::IO::Stream* get_WriteStream();
     // System.Net.HttpWebResponse get_Response()
-    // Offset: 0x1B4B26C
+    // Offset: 0x1B7F418
     ::System::Net::HttpWebResponse* get_Response();
     // System.Byte[] get_Buffer()
-    // Offset: 0x1B4B274
+    // Offset: 0x1B7F420
     ::ArrayW<uint8_t> get_Buffer();
     // System.Int32 get_Offset()
-    // Offset: 0x1B4B27C
+    // Offset: 0x1B7F428
     int get_Offset();
     // System.Int32 get_Size()
-    // Offset: 0x1B4B284
+    // Offset: 0x1B7F430
     int get_Size();
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B4B184
+    // Offset: 0x1B7F330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebAsyncResult* New_ctor(::System::Net::HttpWebRequest* request, ::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebAsyncResult*, creationType>(request, cb, state)));
     }
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B4B1B8
+    // Offset: 0x1B7F364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state, ::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebAsyncResult*, creationType>(cb, state, buffer, offset, size)));
     }
     // System.Void Reset()
-    // Offset: 0x1B4B1F8
+    // Offset: 0x1B7F3A4
     void Reset();
     // System.Void SetCompleted(System.Boolean synch, System.Int32 nbytes)
-    // Offset: 0x1B4B20C
+    // Offset: 0x1B7F3B8
     void SetCompleted(bool synch, int nbytes);
     // System.Void SetCompleted(System.Boolean synch, System.IO.Stream writeStream)
-    // Offset: 0x1B4B21C
+    // Offset: 0x1B7F3C8
     void SetCompleted(bool synch, ::System::IO::Stream* writeStream);
     // System.Void SetCompleted(System.Boolean synch, System.Net.HttpWebResponse response)
-    // Offset: 0x1B4B22C
+    // Offset: 0x1B7F3D8
     void SetCompleted(bool synch, ::System::Net::HttpWebResponse* response);
     // System.Void DoCallback()
-    // Offset: 0x1B4B23C
+    // Offset: 0x1B7F3E8
     void DoCallback();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B4B17C
+    // Offset: 0x1B7F328
     // Implemented from: System.Net.SimpleAsyncResult
     // Base method: System.Void SimpleAsyncResult::.ctor(System.AsyncCallback cb, System.Object state)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,20 +41,20 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: protected System.Boolean m_Used
     [[deprecated("Use field access instead!")]] bool& dyn_m_Used();
     // public System.Boolean get_used()
-    // Offset: 0x19167AC
+    // Offset: 0x194A0B8
     bool get_used();
     // protected System.Void .ctor()
-    // Offset: 0x19167B4
+    // Offset: 0x194A0C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractEventData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::AbstractEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractEventData*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x1916798
+    // Offset: 0x194A0A4
     void Reset();
     // public System.Void Use()
-    // Offset: 0x19167A0
+    // Offset: 0x194A0AC
     void Use();
   }; // UnityEngine.EventSystems.AbstractEventData
   #pragma pack(pop)

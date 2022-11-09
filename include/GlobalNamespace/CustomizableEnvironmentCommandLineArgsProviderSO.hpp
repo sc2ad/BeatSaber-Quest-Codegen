@@ -86,14 +86,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentCommandLineArgsProvider _environmentCommandLineArgsProvider
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& dyn__environmentCommandLineArgsProvider();
     // public System.Void .ctor()
-    // Offset: 0x147B4B4
+    // Offset: 0x14313E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomizableEnvironmentCommandLineArgsProviderSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomizableEnvironmentCommandLineArgsProviderSO*, creationType>()));
     }
     // public System.String[] GetCommandLineArgs()
-    // Offset: 0x147B34C
+    // Offset: 0x143127C
     ::ArrayW<::StringW> GetCommandLineArgs();
   }; // CustomizableEnvironmentCommandLineArgsProviderSO
   #pragma pack(pop)

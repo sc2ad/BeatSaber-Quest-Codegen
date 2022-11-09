@@ -17,6 +17,12 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
+  class IEnumerable_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -57,16 +63,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesWithId[] _lightIntensityData
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1D0394C
+    // Offset: 0x1CC96E4
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x1D03954
+    // Offset: 0x1CC96EC
     void set_maxTotalIntensity(float value);
-    // protected System.Void Awake()
-    // Offset: 0x1D0395C
-    void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1D03D20
+    // Offset: 0x1CC9A94
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,10 +78,15 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1D03988
+    // Offset: 0x1CC96F4
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
+    // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
+    // Offset: 0x1CC9A8C
+    // Implemented from: LightWithIds
+    // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();
   }; // LightmapLightsWithIds
   #pragma pack(pop)
   static check_size<sizeof(LightmapLightsWithIds), 48 + sizeof(::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>)> __GlobalNamespace_LightmapLightsWithIdsSizeCheck;
@@ -102,14 +110,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "set_maxTotalIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::Awake
-// Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::Awake)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -120,5 +120,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::ProcessNewColorData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "ProcessNewColorData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LightmapLightsWithIds::GetLightWithIds
+// Il2CppName: GetLightWithIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* (GlobalNamespace::LightmapLightsWithIds::*)()>(&GlobalNamespace::LightmapLightsWithIds::GetLightWithIds)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightsWithIds*), "GetLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

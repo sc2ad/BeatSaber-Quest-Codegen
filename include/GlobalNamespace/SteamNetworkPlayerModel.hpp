@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class SteamNetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14CE7F8
+    // Offset: 0x13950B4
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

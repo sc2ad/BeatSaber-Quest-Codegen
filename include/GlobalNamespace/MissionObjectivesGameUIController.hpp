@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1100D8C
+    // [InjectAttribute] Offset: 0x1116650
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,23 +89,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MissionObjectiveGameUIView*>*& dyn__missionObjectiveGameUIViews();
     // public System.Void .ctor()
-    // Offset: 0x13311E8
+    // Offset: 0x1482FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectivesGameUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectivesGameUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectivesGameUIController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1330D48
+    // Offset: 0x1482B4C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1331114
+    // Offset: 0x1482F18
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x13311E4
+    // Offset: 0x1482FE8
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x1330DD8
+    // Offset: 0x1482BDC
     void CreateUIElements();
   }; // MissionObjectivesGameUIController
   #pragma pack(pop)

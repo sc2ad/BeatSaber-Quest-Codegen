@@ -41,13 +41,13 @@ namespace System::Collections {
     // Set static field: static readonly System.Collections.LowLevelComparer Default
     static void _set_Default(::System::Collections::LowLevelComparer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D43CF0
+    // Offset: 0x1D9252C
     static void _cctor();
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1D43B38
+    // Offset: 0x1D92374
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // private System.Void .ctor()
-    // Offset: 0x1D43B30
+    // Offset: 0x1D9236C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

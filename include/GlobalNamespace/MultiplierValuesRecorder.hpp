@@ -81,21 +81,21 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Single time
       [[deprecated("Use field access instead!")]] float& dyn_time();
       // public System.Void .ctor(System.Int32 multiplier, System.Single time)
-      // Offset: 0x14FD460
+      // Offset: 0x14EFF4C
       // ABORTED: conflicts with another method.  MultiplierValue(int multiplier, float time);
     }; // MultiplierValuesRecorder/MultiplierValue
     #pragma pack(pop)
     static check_size<sizeof(MultiplierValuesRecorder::MultiplierValue), 4 + sizeof(float)> __GlobalNamespace_MultiplierValuesRecorder_MultiplierValueSizeCheck;
     static_assert(sizeof(MultiplierValuesRecorder::MultiplierValue) == 0x8);
     public:
-    // [InjectAttribute] Offset: 0x11042B8
+    // [InjectAttribute] Offset: 0x1119B7C
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11042C8
+    // [InjectAttribute] Offset: 0x1119B8C
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -118,23 +118,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> _multiplierValues
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*& dyn__multiplierValues();
     // public System.Collections.Generic.List`1<MultiplierValuesRecorder/MultiplierValue> get_multiplierValues()
-    // Offset: 0x14FD1BC
+    // Offset: 0x14EFCA8
     ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* get_multiplierValues();
     // public System.Void .ctor()
-    // Offset: 0x14FD46C
+    // Offset: 0x14EFF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplierValuesRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplierValuesRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplierValuesRecorder*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14FD1C4
+    // Offset: 0x14EFCB0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14FD2B8
+    // Offset: 0x14EFDA4
     void OnDestroy();
     // private System.Void HandleScoreControllerMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x14FD3B8
+    // Offset: 0x14EFEA4
     void HandleScoreControllerMultiplierDidChange(int multiplier, float multiplierProgress);
   }; // MultiplierValuesRecorder
   #pragma pack(pop)

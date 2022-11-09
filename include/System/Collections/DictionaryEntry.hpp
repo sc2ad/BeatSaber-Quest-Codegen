@@ -55,13 +55,13 @@ namespace System::Collections {
     // Get instance field reference: private System.Object _value
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__value();
     // public System.Object get_Key()
-    // Offset: 0x1EE1820
+    // Offset: 0x1F270A0
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1EE1828
+    // Offset: 0x1F270A8
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0x1EE1818
+    // Offset: 0x1F27098
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)

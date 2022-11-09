@@ -48,17 +48,17 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Single b
     [[deprecated("Use field access instead!")]] float& dyn_b();
     // public System.Single get_beat()
-    // Offset: 0x28BE08C
+    // Offset: 0x2745A14
     float get_beat();
     // protected System.Void .ctor(System.Single beat)
-    // Offset: 0x28BE028
+    // Offset: 0x27459B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BeatmapSaveDataItem* New_ctor(float beat) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::BeatmapSaveDataItem*, creationType>(beat)));
     }
     // public System.Int32 CompareTo(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem other)
-    // Offset: 0x28BE094
+    // Offset: 0x2745A1C
     int CompareTo(::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BeatmapSaveDataItem
   #pragma pack(pop)

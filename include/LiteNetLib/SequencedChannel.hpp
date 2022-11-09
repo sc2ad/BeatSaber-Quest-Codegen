@@ -108,19 +108,19 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int64 _lastPacketSendTime
     [[deprecated("Use field access instead!")]] int64_t& dyn__lastPacketSendTime();
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x21DD228
+    // Offset: 0x21F91A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x21E1578
+    // Offset: 0x21FD4F4
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x21E1858
+    // Offset: 0x21FD7D4
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(::LiteNetLib::NetPacket* packet);

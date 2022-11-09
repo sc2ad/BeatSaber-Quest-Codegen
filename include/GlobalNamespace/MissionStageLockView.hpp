@@ -86,20 +86,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _startAnimationTime
     [[deprecated("Use field access instead!")]] float& dyn__startAnimationTime();
     // public System.Void .ctor()
-    // Offset: 0x13FE608
+    // Offset: 0x148505C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStageLockView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStageLockView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionStageLockView*, creationType>()));
     }
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x13FE3F4
+    // Offset: 0x1484E48
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
     // protected System.Void Update()
-    // Offset: 0x13FE498
+    // Offset: 0x1484EEC
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0x13FE5EC
+    // Offset: 0x1485040
     void UpdateStageLockText(::StringW text);
   }; // MissionStageLockView
   #pragma pack(pop)

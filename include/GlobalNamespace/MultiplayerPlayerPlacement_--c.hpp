@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IConnectedPlayer> <>9__4_0
     static void _set_$$9__4_0(::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13DDB08
+    // Offset: 0x13B98F0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13DDB6C
+    // Offset: 0x13B9954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPlayerPlacement::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPlayerPlacement::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPlayerPlacement::$$c*, creationType>()));
     }
     // System.Int32 <SortPlayers>b__4_0(IConnectedPlayer p1, IConnectedPlayer p2)
-    // Offset: 0x13DDB74
+    // Offset: 0x13B995C
     int $SortPlayers$b__4_0(::GlobalNamespace::IConnectedPlayer* p1, ::GlobalNamespace::IConnectedPlayer* p2);
   }; // MultiplayerPlayerPlacement/<>c
   #pragma pack(pop)

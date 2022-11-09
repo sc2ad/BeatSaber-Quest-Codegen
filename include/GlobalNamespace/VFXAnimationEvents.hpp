@@ -93,44 +93,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action despawnCharacterEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_despawnCharacterEvent();
     // public System.Void add_animationDidPauseEvent(System.Action value)
-    // Offset: 0x2A86074
+    // Offset: 0x2AB63B0
     void add_animationDidPauseEvent(::System::Action* value);
     // public System.Void remove_animationDidPauseEvent(System.Action value)
-    // Offset: 0x2A86118
+    // Offset: 0x2AB6454
     void remove_animationDidPauseEvent(::System::Action* value);
     // public System.Void add_spawnCharacterEvent(System.Action value)
-    // Offset: 0x2A861BC
+    // Offset: 0x2AB64F8
     void add_spawnCharacterEvent(::System::Action* value);
     // public System.Void remove_spawnCharacterEvent(System.Action value)
-    // Offset: 0x2A86260
+    // Offset: 0x2AB659C
     void remove_spawnCharacterEvent(::System::Action* value);
     // public System.Void add_despawnCharacterEvent(System.Action value)
-    // Offset: 0x2A86304
+    // Offset: 0x2AB6640
     void add_despawnCharacterEvent(::System::Action* value);
     // public System.Void remove_despawnCharacterEvent(System.Action value)
-    // Offset: 0x2A863A8
+    // Offset: 0x2AB66E4
     void remove_despawnCharacterEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x2A869BC
+    // Offset: 0x2AB6CF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VFXAnimationEvents* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VFXAnimationEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VFXAnimationEvents*, creationType>()));
     }
     // private System.Void PlayEvent(System.String eventName)
-    // Offset: 0x2A8644C
+    // Offset: 0x2AB6788
     void PlayEvent(::StringW eventName);
     // private System.Void PauseAnimation()
-    // Offset: 0x2A86524
+    // Offset: 0x2AB6860
     void PauseAnimation();
     // private System.Void SpawnCharacterEvent()
-    // Offset: 0x2A86764
+    // Offset: 0x2AB6AA0
     void SpawnCharacterEvent();
     // private System.Void DeSpawnCharacterEvent()
-    // Offset: 0x2A86778
+    // Offset: 0x2AB6AB4
     void DeSpawnCharacterEvent();
     // public System.Void ResumeAnimation()
-    // Offset: 0x2A8678C
+    // Offset: 0x2AB6AC8
     void ResumeAnimation();
   }; // VFXAnimationEvents
   #pragma pack(pop)

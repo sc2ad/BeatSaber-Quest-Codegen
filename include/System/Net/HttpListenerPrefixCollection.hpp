@@ -78,38 +78,38 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpListener listener
     [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn_listener();
     // public System.Int32 get_Count()
-    // Offset: 0x1AA0D24
+    // Offset: 0x1ABFAB0
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1AA1618
+    // Offset: 0x1AC03A4
     bool get_IsReadOnly();
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x1A9EF68
+    // Offset: 0x1ABDCF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x1AA1620
+    // Offset: 0x1AC03AC
     void Add(::StringW uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x1AA1A00
+    // Offset: 0x1AC078C
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x1AA1AAC
+    // Offset: 0x1AC0838
     bool Contains(::StringW uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x1AA1B20
+    // Offset: 0x1AC08AC
     void CopyTo(::ArrayW<::StringW> array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x1AA1B9C
+    // Offset: 0x1AC0928
     ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1AA1C28
+    // Offset: 0x1AC09B4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x1AA1CB4
+    // Offset: 0x1AC0A40
     bool Remove(::StringW uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)

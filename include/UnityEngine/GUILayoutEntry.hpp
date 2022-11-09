@@ -125,66 +125,66 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.GUIStyle m_Style
     [[deprecated("Use field access instead!")]] ::UnityEngine::GUIStyle*& dyn_m_Style();
     // public UnityEngine.GUIStyle get_style()
-    // Offset: 0x20B94B4
+    // Offset: 0x20A3A90
     ::UnityEngine::GUIStyle* get_style();
     // public System.Void set_style(UnityEngine.GUIStyle value)
-    // Offset: 0x20B94BC
+    // Offset: 0x20A3A98
     void set_style(::UnityEngine::GUIStyle* value);
     // public System.Int32 get_marginLeft()
-    // Offset: 0x20B94CC
+    // Offset: 0x20A3AA8
     int get_marginLeft();
     // public System.Int32 get_marginRight()
-    // Offset: 0x20B94F4
+    // Offset: 0x20A3AD0
     int get_marginRight();
     // public System.Int32 get_marginTop()
-    // Offset: 0x20B951C
+    // Offset: 0x20A3AF8
     int get_marginTop();
     // public System.Int32 get_marginBottom()
-    // Offset: 0x20B9544
+    // Offset: 0x20A3B20
     int get_marginBottom();
     // public System.Int32 get_marginHorizontal()
-    // Offset: 0x20B956C
+    // Offset: 0x20A3B48
     int get_marginHorizontal();
     // public System.Int32 get_marginVertical()
-    // Offset: 0x20B95AC
+    // Offset: 0x20A3B88
     int get_marginVertical();
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style)
-    // Offset: 0x20B95EC
+    // Offset: 0x20A3BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, ::UnityEngine::GUIStyle* _style) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutEntry*, creationType>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style)));
     }
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x20B9708
+    // Offset: 0x20A3CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, ::UnityEngine::GUIStyle* _style, ::ArrayW<::UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutEntry*, creationType>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style, options)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x20BA2B0
+    // Offset: 0x20A488C
     static void _cctor();
     // public System.Void CalcWidth()
-    // Offset: 0x20B981C
+    // Offset: 0x20A3DF8
     void CalcWidth();
     // public System.Void CalcHeight()
-    // Offset: 0x20B9820
+    // Offset: 0x20A3DFC
     void CalcHeight();
     // public System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x20B9824
+    // Offset: 0x20A3E00
     void SetHorizontal(float x, float width);
     // public System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x20B9864
+    // Offset: 0x20A3E40
     void SetVertical(float y, float height);
     // protected System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x20B98A4
+    // Offset: 0x20A3E80
     void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
     // public System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x20B9A2C
+    // Offset: 0x20A4008
     void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*> options);
     // public override System.String ToString()
-    // Offset: 0x20B9D08
+    // Offset: 0x20A42E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

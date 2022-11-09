@@ -9,8 +9,6 @@
 #include "UnityEngine/MonoBehaviour.hpp"
 // Including type: LightConstants/BakeId
 #include "GlobalNamespace/LightConstants_BakeId.hpp"
-// Including type: System.Int32
-#include "System/Int32.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -134,29 +132,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _newUpdates
     [[deprecated("Use field access instead!")]] bool& dyn__newUpdates();
     // public System.Collections.Generic.Dictionary`2<LightConstants/BakeId,LightmapLightWithIds> get_lightmapLightDict()
-    // Offset: 0x1CF7E20
+    // Offset: 0x1CBD2EC
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants::BakeId, ::GlobalNamespace::LightmapLightWithIds*>* get_lightmapLightDict();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1CF7E28
+    // Offset: 0x1CBD2F4
     float get_maxTotalIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1CF81C4
+    // Offset: 0x1CBD690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedLightsNormalizer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedLightsNormalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedLightsNormalizer*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1CF7E30
+    // Offset: 0x1CBD2FC
     void LateUpdate();
     // private System.Void GetLightmapLights()
-    // Offset: 0x1CF8018
+    // Offset: 0x1CBD4E4
     void GetLightmapLights();
     // private System.Void UpdateGrayscaleTotal()
-    // Offset: 0x1CF7E78
+    // Offset: 0x1CBD344
     void UpdateGrayscaleTotal();
     // public System.Single GetNormalizationMultiplier()
-    // Offset: 0x1CF8118
+    // Offset: 0x1CBD5E4
     float GetNormalizationMultiplier();
   }; // BakedLightsNormalizer
   #pragma pack(pop)

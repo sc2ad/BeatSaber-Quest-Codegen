@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class ParticleSystemEventController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x135EB78
+    // Offset: 0x13793F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEventController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEventController::Pool::.ctor");

@@ -46,17 +46,17 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__2_0
     static void _set_$$9__2_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E142A8
+    // Offset: 0x1E34708
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E1430C
+    // Offset: 0x1E3476C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Extrapolation::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::Extrapolation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Extrapolation::$$c*, creationType>()));
     }
     // System.Int32 <SortClipsByStartTime>b__2_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
-    // Offset: 0x1E14314
+    // Offset: 0x1E34774
     int $SortClipsByStartTime$b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
   }; // UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c
   #pragma pack(pop)

@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10D6BD8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EB0F4
     // Get static field: static private readonly BeatmapEventData _defaultCopy
     static ::GlobalNamespace::BeatmapEventData* _get__defaultCopy();
     // Set static field: static private readonly BeatmapEventData _defaultCopy
@@ -114,37 +114,42 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _deltaRotation
     [[deprecated("Use field access instead!")]] float& dyn__deltaRotation();
     // public System.Single get_rotation()
-    // Offset: 0x28C0C58
+    // Offset: 0x2748EA4
     float get_rotation();
     // private System.Void set_rotation(System.Single value)
-    // Offset: 0x28C0C60
+    // Offset: 0x2748EAC
     void set_rotation(float value);
     // public System.Void .ctor(System.Single time, SpawnRotationBeatmapEventData/SpawnRotationEventType spawnRotationEventType, System.Single deltaRotation)
-    // Offset: 0x28C0C68
+    // Offset: 0x2748EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationBeatmapEventData* New_ctor(float time, ::GlobalNamespace::SpawnRotationBeatmapEventData::SpawnRotationEventType spawnRotationEventType, float deltaRotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationBeatmapEventData*, creationType>(time, spawnRotationEventType, deltaRotation)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x28C0E04
+    // Offset: 0x2749050
     static void _cctor();
     // public System.Void Mirror()
-    // Offset: 0x28C0CD4
+    // Offset: 0x2748F20
     void Mirror();
     // public System.Void RecalculateRotationFromPreviousEvent(SpawnRotationBeatmapEventData previousSpawnRotationBeatmapEventData)
-    // Offset: 0x28C0D6C
+    // Offset: 0x2748FB8
     void RecalculateRotationFromPreviousEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* previousSpawnRotationBeatmapEventData);
     // public System.Void SetFirstRotationEventRotation()
-    // Offset: 0x28C0D90
+    // Offset: 0x2748FDC
     void SetFirstRotationEventRotation();
+    // public override System.Int32 get_subtypeGroupIdentifier()
+    // Offset: 0x2748E9C
+    // Implemented from: BeatmapDataItem
+    // Base method: System.Int32 BeatmapDataItem::get_subtypeGroupIdentifier()
+    int get_subtypeGroupIdentifier();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x28C0CF0
+    // Offset: 0x2748F3C
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x28C0D9C
+    // Offset: 0x2748FE8
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();
@@ -208,6 +213,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(&GlobalNamespace::SpawnRotationBeatmapEventData::SetFirstRotationEventRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationBeatmapEventData*), "SetFirstRotationEventRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationBeatmapEventData::get_subtypeGroupIdentifier
+// Il2CppName: get_subtypeGroupIdentifier
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::SpawnRotationBeatmapEventData::*)()>(&GlobalNamespace::SpawnRotationBeatmapEventData::get_subtypeGroupIdentifier)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationBeatmapEventData*), "get_subtypeGroupIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationBeatmapEventData::GetCopy

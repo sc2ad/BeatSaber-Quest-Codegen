@@ -72,23 +72,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1414968
+    // Offset: 0x143F458
     void add_joinServerButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_joinServerButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1414A0C
+    // Offset: 0x143F4FC
     void remove_joinServerButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1414B50
+    // Offset: 0x143F640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerListDetailTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerListDetailTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerListDetailTableCell*, creationType>()));
     }
     // private System.Void <Start>b__5_0()
-    // Offset: 0x1414BB8
+    // Offset: 0x143F6A8
     void $Start$b__5_0();
     // protected override System.Void Start()
-    // Offset: 0x1414AB0
+    // Offset: 0x143F5A0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::Start()
     void Start();

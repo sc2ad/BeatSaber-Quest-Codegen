@@ -61,29 +61,29 @@ namespace System::Text {
     // Get instance field reference: System.Char[] arrayBestFit
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_arrayBestFit();
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1F082F4
+    // Offset: 0x1F4DB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalEncoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::InternalEncoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalEncoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1F0E704
+    // Offset: 0x1F53F84
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1F0E5B0
+    // Offset: 0x1F53E30
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1F0E70C
+    // Offset: 0x1F53F8C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F0E7E0
+    // Offset: 0x1F54060
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

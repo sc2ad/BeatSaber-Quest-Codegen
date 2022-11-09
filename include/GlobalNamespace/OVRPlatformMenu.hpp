@@ -131,29 +131,29 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Func`1<System.Boolean> OnShortPress
     [[deprecated("Use field access instead!")]] ::System::Func_1<bool>*& dyn_OnShortPress();
     // public System.Void .ctor()
-    // Offset: 0x17423E4
+    // Offset: 0x1766D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlatformMenu* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlatformMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17423F4
+    // Offset: 0x1766D10
     static void _cctor();
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x1741FCC
+    // Offset: 0x17668E8
     ::GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0x1742044
+    // Offset: 0x1766960
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x17421A4
+    // Offset: 0x1766AC0
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x1742278
+    // Offset: 0x1766B94
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0x174236C
+    // Offset: 0x1766C88
     void Update();
   }; // OVRPlatformMenu
   #pragma pack(pop)

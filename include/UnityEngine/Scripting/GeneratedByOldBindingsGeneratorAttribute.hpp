@@ -30,7 +30,7 @@ namespace UnityEngine::Scripting {
   class GeneratedByOldBindingsGeneratorAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B44364
+    // Offset: 0x2B6CE28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneratedByOldBindingsGeneratorAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute::.ctor");

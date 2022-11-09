@@ -24,43 +24,43 @@ namespace System::IO {
   class __Error : public ::Il2CppObject {
     public:
     // static System.Void EndOfFile()
-    // Offset: 0x1BDE2A8
+    // Offset: 0x1BFC298
     static void EndOfFile();
     // static System.Void FileNotOpen()
-    // Offset: 0x1BDE328
+    // Offset: 0x1BFC318
     static void FileNotOpen();
     // static System.Void StreamIsClosed()
-    // Offset: 0x1BDCC58
+    // Offset: 0x1BFAC48
     static void StreamIsClosed();
     // static System.Void MemoryStreamNotExpandable()
-    // Offset: 0x1BDE3AC
+    // Offset: 0x1BFC39C
     static void MemoryStreamNotExpandable();
     // static System.Void ReaderClosed()
-    // Offset: 0x1BD6F18
+    // Offset: 0x1BF4F08
     static void ReaderClosed();
     // static System.Void ReadNotSupported()
-    // Offset: 0x1BD3D2C
+    // Offset: 0x1BF1D1C
     static void ReadNotSupported();
     // static System.Void WrongAsyncResult()
-    // Offset: 0x1BD6270
+    // Offset: 0x1BF4260
     static void WrongAsyncResult();
     // static System.Void EndReadCalledTwice()
-    // Offset: 0x1BD62F0
+    // Offset: 0x1BF42E0
     static void EndReadCalledTwice();
     // static System.Void EndWriteCalledTwice()
-    // Offset: 0x1BD6370
+    // Offset: 0x1BF4360
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
-    // Offset: 0x1BDE428
+    // Offset: 0x1BFC418
     static ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
-    // Offset: 0x1BDE560
+    // Offset: 0x1BFC550
     static void WinIOError(int errorCode, ::StringW maybeFullPath);
     // static System.Void WriteNotSupported()
-    // Offset: 0x1BD4978
+    // Offset: 0x1BF2968
     static void WriteNotSupported();
     // static System.Void WriterClosed()
-    // Offset: 0x1BD8CB0
+    // Offset: 0x1BF6CA0
     static void WriterClosed();
   }; // System.IO.__Error
   #pragma pack(pop)

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x13671FC
+    // Offset: 0x156CB28
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

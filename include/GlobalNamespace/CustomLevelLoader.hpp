@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _smallDefaultPackCover
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__smallDefaultPackCover();
     // public System.Void .ctor()
-    // Offset: 0x147A2E8
+    // Offset: 0x1430218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomLevelLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomLevelLoader::.ctor");

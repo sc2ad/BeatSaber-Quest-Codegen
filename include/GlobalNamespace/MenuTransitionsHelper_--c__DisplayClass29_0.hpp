@@ -15,10 +15,10 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: MultiplayerLevelScenesTransitionSetupDataSO
-  class MultiplayerLevelScenesTransitionSetupDataSO;
-  // Forward declaring type: MultiplayerResultsData
-  class MultiplayerResultsData;
+  // Forward declaring type: StandardLevelScenesTransitionSetupDataSO
+  class StandardLevelScenesTransitionSetupDataSO;
+  // Forward declaring type: LevelCompletionResults
+  class LevelCompletionResults;
 }
 // Forward declaring namespace: Zenject
 namespace Zenject {
@@ -45,38 +45,38 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuTransitionsHelper* $$4__this;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuTransitionsHelper*) == 0x8);
-    // public MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData
+    // public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
-    ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // public MultiplayerResultsData multiplayerResultsData
+    static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
+    // public LevelCompletionResults levelCompletionResults
     // Size: 0x8
     // Offset: 0x20
-    ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData;
+    ::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // Field size check
-    static_assert(sizeof(::GlobalNamespace::MultiplayerResultsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelCompletionResults*) == 0x8);
     public:
     // Get instance field reference: public MenuTransitionsHelper <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuTransitionsHelper*& dyn_$$4__this();
-    // Get instance field reference: public MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn_multiplayerLevelScenesTransitionSetupData();
-    // Get instance field reference: public MultiplayerResultsData multiplayerResultsData
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsData*& dyn_multiplayerResultsData();
+    // Get instance field reference: public StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn_standardLevelScenesTransitionSetupData();
+    // Get instance field reference: public LevelCompletionResults levelCompletionResults
+    [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x132574C
+    // Offset: 0x133D4AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c__DisplayClass29_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c__DisplayClass29_0*, creationType>()));
     }
-    // System.Void <HandleMultiplayerLevelDidFinish>b__0(Zenject.DiContainer container)
-    // Offset: 0x1325F98
-    void $HandleMultiplayerLevelDidFinish$b__0(::Zenject::DiContainer* container);
+    // System.Void <HandleMainGameSceneDidFinish>b__0(Zenject.DiContainer container)
+    // Offset: 0x133DE30
+    void $HandleMainGameSceneDidFinish$b__0(::Zenject::DiContainer* container);
   }; // MenuTransitionsHelper/<>c__DisplayClass29_0
   #pragma pack(pop)
-  static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass29_0), 32 + sizeof(::GlobalNamespace::MultiplayerResultsData*)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass29_0SizeCheck;
+  static check_size<sizeof(MenuTransitionsHelper::$$c__DisplayClass29_0), 32 + sizeof(::GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MenuTransitionsHelper_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass29_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,12 +84,12 @@ namespace GlobalNamespace {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::$HandleMultiplayerLevelDidFinish$b__0
-// Il2CppName: <HandleMultiplayerLevelDidFinish>b__0
+// Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::$HandleMainGameSceneDidFinish$b__0
+// Il2CppName: <HandleMainGameSceneDidFinish>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::*)(::Zenject::DiContainer*)>(&GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::$HandleMultiplayerLevelDidFinish$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::*)(::Zenject::DiContainer*)>(&GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0::$HandleMainGameSceneDidFinish$b__0)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0*), "<HandleMultiplayerLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass29_0*), "<HandleMainGameSceneDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };

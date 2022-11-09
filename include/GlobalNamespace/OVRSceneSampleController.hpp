@@ -122,29 +122,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRGridCube gridCube
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRGridCube*& dyn_gridCube();
     // public System.Void .ctor()
-    // Offset: 0x1B3D530
+    // Offset: 0x1B716DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneSampleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSceneSampleController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneSampleController*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1B3CF20
+    // Offset: 0x1B710CC
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1B3D0BC
+    // Offset: 0x1B71268
     void Start();
     // private System.Void Update()
-    // Offset: 0x1B3D1A8
+    // Offset: 0x1B71354
     void Update();
     // private System.Void UpdateVisionMode()
-    // Offset: 0x1B3D358
+    // Offset: 0x1B71504
     void UpdateVisionMode();
     // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0x1B3D43C
+    // Offset: 0x1B715E8
     void UpdateSpeedAndRotationScaleMultiplier();
     // private System.Void UpdateRecenterPose()
-    // Offset: 0x1B3D28C
+    // Offset: 0x1B71438
     void UpdateRecenterPose();
   }; // OVRSceneSampleController
   #pragma pack(pop)

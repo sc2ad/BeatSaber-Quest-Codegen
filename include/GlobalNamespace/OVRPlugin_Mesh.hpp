@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Vector4f[] BlendWeights
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::OVRPlugin::Vector4f>& dyn_BlendWeights();
     // public System.Void .ctor()
-    // Offset: 0x1B2FD84
+    // Offset: 0x1B63F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::Mesh* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::Mesh::.ctor");

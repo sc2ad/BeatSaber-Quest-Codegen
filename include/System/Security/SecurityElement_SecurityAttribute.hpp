@@ -43,13 +43,13 @@ namespace System::Security {
     // Get instance field reference: private System.String _value
     [[deprecated("Use field access instead!")]] ::StringW& dyn__value();
     // public System.String get_Name()
-    // Offset: 0x1BC6B50
+    // Offset: 0x1BE4B40
     ::StringW get_Name();
     // public System.String get_Value()
-    // Offset: 0x1BC6B58
+    // Offset: 0x1BE4B48
     ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x1BC5734
+    // Offset: 0x1BE3724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::StringW name, ::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityElement::SecurityAttribute::.ctor");

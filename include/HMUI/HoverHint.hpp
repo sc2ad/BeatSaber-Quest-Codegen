@@ -58,7 +58,7 @@ namespace HMUI {
     ::StringW text;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [InjectAttribute] Offset: 0x10E8718
+    // [InjectAttribute] Offset: 0x10FCE58
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
     // Offset: 0x20
@@ -97,32 +97,32 @@ namespace HMUI {
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
-    // Offset: 0x17286A8
+    // Offset: 0x174BFC4
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x17286B0
+    // Offset: 0x174BFCC
     void set_text(::StringW value);
     // public UnityEngine.Vector2 get_size()
-    // Offset: 0x17286B8
+    // Offset: 0x174BFD4
     ::UnityEngine::Vector2 get_size();
     // public UnityEngine.Vector3 get_worldCenter()
-    // Offset: 0x1728750
+    // Offset: 0x174C06C
     ::UnityEngine::Vector3 get_worldCenter();
     // public System.Void .ctor()
-    // Offset: 0x1728B84
+    // Offset: 0x174C4A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHint*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x17288D8
+    // Offset: 0x174C1F4
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x172898C
+    // Offset: 0x174C2A8
     void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x1728AF4
+    // Offset: 0x174C410
     void OnDisable();
   }; // HMUI.HoverHint
   #pragma pack(pop)

@@ -66,14 +66,14 @@ namespace HMUI {
     // Get instance field reference: public HMUI.FlowCoordinator flowCoordinatorToReplace
     [[deprecated("Use field access instead!")]] ::HMUI::FlowCoordinator*& dyn_flowCoordinatorToReplace();
     // public System.Void .ctor()
-    // Offset: 0x1722C68
+    // Offset: 0x1746584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass37_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass37_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass37_0*, creationType>()));
     }
     // System.Void <ReplaceChildFlowCoordinator>b__0()
-    // Offset: 0x1723AAC
+    // Offset: 0x17473C8
     void $ReplaceChildFlowCoordinator$b__0();
   }; // HMUI.FlowCoordinator/HMUI.<>c__DisplayClass37_0
   #pragma pack(pop)

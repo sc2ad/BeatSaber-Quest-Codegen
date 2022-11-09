@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::BeatmapEventDataBoxDistributionParamTypeConvertor : public ::Il2CppObject {
     public:
     // static public BeatmapEventDataBox/DistributionParamType Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType distributionParamType)
-    // Offset: 0x137A5C0
+    // Offset: 0x13CD990
     static ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType distributionParamType);
   }; // BeatmapDataLoader/BeatmapEventDataBoxDistributionParamTypeConvertor
   #pragma pack(pop)

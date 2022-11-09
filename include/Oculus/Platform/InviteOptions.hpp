@@ -43,23 +43,23 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x19EC570
+    // Offset: 0x19FBD70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InviteOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::InviteOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
     // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x19EC5E8
+    // Offset: 0x19FBDE8
     void AddSuggestedUser(uint64_t userID);
     // public System.Void ClearSuggestedUsers()
-    // Offset: 0x19EC664
+    // Offset: 0x19FBE64
     void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x19EB0D8
+    // Offset: 0x19FA8D8
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x19EC6D0
+    // Offset: 0x19FBED0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

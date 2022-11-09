@@ -38,19 +38,19 @@ namespace HoudiniEngineUnity {
   class HEU_GeometryUtility : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2[] GeneratePerTriangle(UnityEngine.Mesh meshSrc)
-    // Offset: 0x18FF3CC
+    // Offset: 0x1912988
     static ::ArrayW<::UnityEngine::Vector2> GeneratePerTriangle(::UnityEngine::Mesh* meshSrc);
     // static public System.Void GenerateSecondaryUVSet(UnityEngine.Mesh meshsrc)
-    // Offset: 0x18FF420
+    // Offset: 0x19129DC
     static void GenerateSecondaryUVSet(::UnityEngine::Mesh* meshsrc);
     // static public System.Void CalculateMeshTangents(UnityEngine.Mesh mesh)
-    // Offset: 0x18FF46C
+    // Offset: 0x1912A28
     static void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
     // static public UnityEngine.Mesh GenerateCubeMeshFromPoints(UnityEngine.Vector3[] points, UnityEngine.Color[] pointsColor, System.Single size)
-    // Offset: 0x18FFA8C
+    // Offset: 0x1913048
     static ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3> points, ::ArrayW<::UnityEngine::Color> pointsColor, float size);
     // static public System.String GetInstanceOutputName(System.String partName, System.String[] userPrefix, System.Int32 index)
-    // Offset: 0x1900554
+    // Offset: 0x1913B10
     static ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW> userPrefix, int index);
   }; // HoudiniEngineUnity.HEU_GeometryUtility
   #pragma pack(pop)

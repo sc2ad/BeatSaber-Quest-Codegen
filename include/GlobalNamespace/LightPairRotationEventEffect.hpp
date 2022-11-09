@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 rotationVector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x10FF894
+    // [SpaceAttribute] Offset: 0x1115158
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x30
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startRotation and: transformL
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0x10FF8FC
+    // [SpaceAttribute] Offset: 0x11151C0
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x40
@@ -117,14 +117,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF944
+    // [InjectAttribute] Offset: 0x1115208
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x10FF954
+    // [InjectAttribute] Offset: 0x1115218
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x58
@@ -215,26 +215,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x1468490
+    // Offset: 0x150B118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairRotationEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairRotationEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightPairRotationEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1467814
+    // Offset: 0x150A49C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1467B74
+    // Offset: 0x150A7FC
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1467E60
+    // Offset: 0x150AAE8
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1467E7C
+    // Offset: 0x150AB04
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0x146821C
+    // Offset: 0x150AEA4
     void UpdateRotationData(int beatmapEventDataValue, ::GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
   }; // LightPairRotationEventEffect
   #pragma pack(pop)

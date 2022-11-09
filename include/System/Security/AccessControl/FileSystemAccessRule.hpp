@@ -38,10 +38,10 @@ namespace System::Security::AccessControl {
   class FileSystemAccessRule : public ::System::Security::AccessControl::AccessRule {
     public:
     // public System.Security.AccessControl.FileSystemRights get_FileSystemRights()
-    // Offset: 0x1B8EFBC
+    // Offset: 0x1B97E84
     ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
     // System.Void .ctor(System.Security.Principal.IdentityReference identity, System.Security.AccessControl.FileSystemRights fileSystemRights, System.Boolean isInherited, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags, System.Security.AccessControl.AccessControlType type)
-    // Offset: 0x1B8EFB4
+    // Offset: 0x1B97E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemAccessRule* New_ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::FileSystemAccessRule::.ctor");

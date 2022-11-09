@@ -72,32 +72,32 @@ namespace ModestTree::Util {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__23_0
     static void _set_$$9__23_0(::System::Func_2<::UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x177559C
+    // Offset: 0x17AB444
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1775600
+    // Offset: 0x17AB4A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::UnityUtil::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$$c*, creationType>()));
     }
     // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1775608
+    // Offset: 0x17AB4B0
     bool $get_AllLoadedScenes$b__3_0(::UnityEngine::SceneManagement::Scene scene);
     // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
-    // Offset: 0x1775634
+    // Offset: 0x17AB4DC
     ::UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(::UnityEngine::Transform* x);
     // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
-    // Offset: 0x1775650
+    // Offset: 0x17AB4F8
     int $GetComponentsInChildrenTopDown$b__18_0(::UnityEngine::Component* x);
     // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
-    // Offset: 0x17756E8
+    // Offset: 0x17AB590
     int $GetComponentsInChildrenBottomUp$b__19_0(::UnityEngine::Component* x);
     // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
-    // Offset: 0x1775780
+    // Offset: 0x17AB628
     ::UnityEngine::GameObject* $GetAllGameObjects$b__22_0(::UnityEngine::Transform* x);
     // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
-    // Offset: 0x177579C
+    // Offset: 0x17AB644
     bool $GetAllRootGameObjects$b__23_0(::UnityEngine::GameObject* x);
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<>c
   #pragma pack(pop)

@@ -55,13 +55,13 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private Newtonsoft.Json.Serialization.ErrorContext <ErrorContext>k__BackingField
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::ErrorContext*& dyn_$ErrorContext$k__BackingField();
     // private System.Void set_CurrentObject(System.Object value)
-    // Offset: 0x1DB87E0
+    // Offset: 0x1DDAC40
     void set_CurrentObject(::Il2CppObject* value);
     // private System.Void set_ErrorContext(Newtonsoft.Json.Serialization.ErrorContext value)
-    // Offset: 0x1DB87E8
+    // Offset: 0x1DDAC48
     void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
     // public System.Void .ctor(System.Object currentObject, Newtonsoft.Json.Serialization.ErrorContext errorContext)
-    // Offset: 0x1DB87F0
+    // Offset: 0x1DDAC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ErrorEventArgs* New_ctor(::Il2CppObject* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorEventArgs::.ctor");

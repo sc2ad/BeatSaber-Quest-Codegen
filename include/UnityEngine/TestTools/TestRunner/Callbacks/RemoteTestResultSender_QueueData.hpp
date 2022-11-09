@@ -45,19 +45,19 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private System.Byte[] <data>k__BackingField
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$data$k__BackingField();
     // public System.Guid get_id()
-    // Offset: 0x19618A4
+    // Offset: 0x19951B0
     ::System::Guid get_id();
     // public System.Void set_id(System.Guid value)
-    // Offset: 0x19618B0
+    // Offset: 0x19951BC
     void set_id(::System::Guid value);
     // public System.Byte[] get_data()
-    // Offset: 0x19618B8
+    // Offset: 0x19951C4
     ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x19618C0
+    // Offset: 0x19951CC
     void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x1960E1C
+    // Offset: 0x1994728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultSender::QueueData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::.ctor");

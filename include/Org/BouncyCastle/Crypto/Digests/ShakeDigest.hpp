@@ -47,28 +47,28 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return reinterpret_cast<::Org::BouncyCastle::Crypto::IXof*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.ShakeDigest source)
-    // Offset: 0x1E8A314
+    // Offset: 0x1EA884C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShakeDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::ShakeDigest* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::ShakeDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShakeDigest*, creationType>(source)));
     }
     // static private System.Int32 CheckBitLength(System.Int32 bitLength)
-    // Offset: 0x1E8A1BC
+    // Offset: 0x1EA86F4
     static int CheckBitLength(int bitLength);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
-    // Offset: 0x1E8A468
+    // Offset: 0x1EA89A0
     int DoFinal(::ArrayW<uint8_t> output, int outOff, int outLen);
     // public System.Int32 DoOutput(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
-    // Offset: 0x1E8A4B0
+    // Offset: 0x1EA89E8
     int DoOutput(::ArrayW<uint8_t> output, int outOff, int outLen);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1E8A38C
+    // Offset: 0x1EA88C4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.String KeccakDigest::get_AlgorithmName()
     ::StringW get_AlgorithmName();
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x1E8A28C
+    // Offset: 0x1EA87C4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Void KeccakDigest::.ctor(System.Int32 bitLength)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,12 +77,12 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<ShakeDigest*, creationType>(bitLength)));
     }
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E8A40C
+    // Offset: 0x1EA8944
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1E8A518
+    // Offset: 0x1EA8A50
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable KeccakDigest::Copy()
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();

@@ -48,13 +48,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 crossAppDomainArrayIndex
     [[deprecated("Use field access instead!")]] int& dyn_crossAppDomainArrayIndex();
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x18CCB08
+    // Offset: 0x18F02BC
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x18CCB3C
+    // Offset: 0x18F02F0
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x18CCB00
+    // Offset: 0x18F02B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

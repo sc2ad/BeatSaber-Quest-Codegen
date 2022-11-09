@@ -43,17 +43,17 @@ namespace Oculus::Platform {
     // Nested type: ::Oculus::Platform::StandalonePlatform::UnityLogDelegate
     class UnityLogDelegate;
     // public System.Void .ctor()
-    // Offset: 0x2AD16FC
+    // Offset: 0x2AF7148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandalonePlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::StandalonePlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandalonePlatform*, creationType>()));
     }
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeInEditor()
-    // Offset: 0x2AD4CAC
+    // Offset: 0x2AFA6F8
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.UInt64 appID, System.String accessToken)
-    // Offset: 0x2AD1704
+    // Offset: 0x2AF7150
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(uint64_t appID, ::StringW accessToken);
   }; // Oculus.Platform.StandalonePlatform
   #pragma pack(pop)

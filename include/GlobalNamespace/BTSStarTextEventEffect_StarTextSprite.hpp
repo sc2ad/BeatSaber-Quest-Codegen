@@ -59,16 +59,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _animationLength
     [[deprecated("Use field access instead!")]] float& dyn__animationLength();
     // public System.Int32 get_id()
-    // Offset: 0x136CE58
+    // Offset: 0x13BF0B0
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x136CE60
+    // Offset: 0x13BF0B8
     ::UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x136CE68
+    // Offset: 0x13BF0C0
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x136CE70
+    // Offset: 0x13BF0C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect::StarTextSprite* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::.ctor");

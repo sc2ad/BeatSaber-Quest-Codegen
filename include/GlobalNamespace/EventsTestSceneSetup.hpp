@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class EventsTestSceneSetup : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [InjectAttribute] Offset: 0x110EFF8
+    // [InjectAttribute] Offset: 0x1124AF4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x139C894
+    // Offset: 0x138736C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x139BF5C
+    // Offset: 0x1386A30
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

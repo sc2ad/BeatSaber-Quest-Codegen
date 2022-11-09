@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public LeaderboardScoreUploader <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LeaderboardScoreUploader*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x13B4DA0
+    // Offset: 0x13F172C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::$$c__DisplayClass14_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::$$c__DisplayClass14_0*, creationType>()));
     }
     // System.Void <UploadScoresCoroutine>b__0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x13B4DA8
+    // Offset: 0x13F1734
     void $UploadScoresCoroutine$b__0(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
   }; // LeaderboardScoreUploader/<>c__DisplayClass14_0
   #pragma pack(pop)

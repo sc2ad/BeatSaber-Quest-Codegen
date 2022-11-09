@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshRenderer* progressImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
-    // [RangeAttribute] Offset: 0x10B38D0
+    // [RangeAttribute] Offset: 0x10C8DBC
     // public System.Single currentProgress
     // Size: 0x4
     // Offset: 0x20
@@ -57,17 +57,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single currentProgress
     [[deprecated("Use field access instead!")]] float& dyn_currentProgress();
     // public System.Void .ctor()
-    // Offset: 0x1B39998
+    // Offset: 0x1B6DB44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRProgressIndicator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRProgressIndicator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRProgressIndicator*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1B39904
+    // Offset: 0x1B6DAB0
     void Awake();
     // private System.Void Update()
-    // Offset: 0x1B39924
+    // Offset: 0x1B6DAD0
     void Update();
   }; // OVRProgressIndicator
   #pragma pack(pop)

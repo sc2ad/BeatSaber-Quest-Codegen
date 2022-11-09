@@ -124,7 +124,7 @@ namespace GlobalNamespace {
     int showAlphabetScrollbarLevelCountThreshold;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x110CF1C
+    // [InjectAttribute] Offset: 0x11227E0
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -247,74 +247,74 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__selectedPreviewBeatmapLevel();
     // public System.Void add_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x13B985C
+    // Offset: 0x13F61E8
     void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_didSelectLevelEvent(System.Action`2<LevelCollectionTableView,IPreviewBeatmapLevel> value)
-    // Offset: 0x13B9900
+    // Offset: 0x13F628C
     void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x13B99A4
+    // Offset: 0x13F6330
     void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`1<LevelCollectionTableView> value)
-    // Offset: 0x13B9A48
+    // Offset: 0x13F63D4
     void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13BB2B4
+    // Offset: 0x13F7C40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionTableView*, creationType>()));
     }
     // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
-    // Offset: 0x13B9AEC
+    // Offset: 0x13F6478
     void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
     // private System.Void Init()
-    // Offset: 0x13B9B38
+    // Offset: 0x13F64C4
     void Init();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
-    // Offset: 0x13B9C04
+    // Offset: 0x13F6590
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* previewBeatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
-    // Offset: 0x13B9E6C
+    // Offset: 0x13F67F8
     void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
     // protected System.Void OnEnable()
-    // Offset: 0x13B9FAC
+    // Offset: 0x13F6938
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13BA038
+    // Offset: 0x13F69C4
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x13BA0C4
+    // Offset: 0x13F6A50
     void OnDestroy();
     // public System.Single CellSize()
-    // Offset: 0x13BA1A0
+    // Offset: 0x13F6B2C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x13BA1A8
+    // Offset: 0x13F6B34
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13BA268
+    // Offset: 0x13F6BF4
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13BA620
+    // Offset: 0x13F6FAC
     void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x13BA764
+    // Offset: 0x13F70F0
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x13BA820
+    // Offset: 0x13F71AC
     void CancelAsyncOperations();
     // public System.Void RefreshLevelsAvailability()
-    // Offset: 0x13BAB0C
+    // Offset: 0x13F7498
     void RefreshLevelsAvailability();
     // public System.Void SelectLevelPackHeaderCell()
-    // Offset: 0x13BAFB4
+    // Offset: 0x13F7940
     void SelectLevelPackHeaderCell();
     // public System.Void ClearSelection()
-    // Offset: 0x13BAFE0
+    // Offset: 0x13F796C
     void ClearSelection();
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x13BB010
+    // Offset: 0x13F799C
     void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
   }; // LevelCollectionTableView
   #pragma pack(pop)

@@ -33,12 +33,12 @@ namespace System::IO {
   class TextWriter::NullTextWriter : public ::System::IO::TextWriter {
     public:
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1BDBADC
+    // Offset: 0x1BF9ACC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     ::System::Text::Encoding* get_Encoding();
     // System.Void .ctor()
-    // Offset: 0x1BDB578
+    // Offset: 0x1BF9568
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -49,22 +49,22 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::NullTextWriter*, creationType>()));
     }
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1BDBAE4
+    // Offset: 0x1BF9AD4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.String value)
-    // Offset: 0x1BDBAE8
+    // Offset: 0x1BF9AD8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
     void Write(::StringW value);
     // public override System.Void WriteLine()
-    // Offset: 0x1BDBAEC
+    // Offset: 0x1BF9ADC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine()
     void WriteLine();
     // public override System.Void WriteLine(System.String value)
-    // Offset: 0x1BDBAF0
+    // Offset: 0x1BF9AE0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String value)
     void WriteLine(::StringW value);

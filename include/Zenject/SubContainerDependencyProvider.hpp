@@ -96,26 +96,26 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _resolveAll
     [[deprecated("Use field access instead!")]] bool& dyn__resolveAll();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1D6855C
+    // Offset: 0x1DB6D98
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1D68564
+    // Offset: 0x1DB6DA0
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type dependencyType, System.Object identifier, Zenject.ISubContainerCreator subContainerCreator, System.Boolean resolveAll)
-    // Offset: 0x1D65C08
+    // Offset: 0x1DB4444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::Il2CppObject* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerDependencyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerDependencyProvider*, creationType>(dependencyType, identifier, subContainerCreator, resolveAll)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1D6856C
+    // Offset: 0x1DB6DA8
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // private Zenject.InjectContext CreateSubContext(Zenject.InjectContext parent, Zenject.DiContainer subContainer)
-    // Offset: 0x1D68574
+    // Offset: 0x1DB6DB0
     ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1D685BC
+    // Offset: 0x1DB6DF8
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.SubContainerDependencyProvider
   #pragma pack(pop)

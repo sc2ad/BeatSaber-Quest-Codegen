@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSchemeSO* defaultColorScheme;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D710
+    // [SpaceAttribute] Offset: 0x1122FD4
     // private SimpleColorSO _environmentColor0
     // Size: 0x8
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SimpleColorSO* environmentColor1Boost;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SimpleColorSO*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x110D778
+    // [InjectOptionalAttribute] Offset: 0x112303C
     // private ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x40
@@ -99,29 +99,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_environmentColor0()
-    // Offset: 0x1395DC8
+    // Offset: 0x13806F8
     ::UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
-    // Offset: 0x1395DE8
+    // Offset: 0x1380718
     ::UnityEngine::Color get_environmentColor1();
     // public UnityEngine.Color get_environmentColor0Boost()
-    // Offset: 0x1395E08
+    // Offset: 0x1380738
     ::UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
-    // Offset: 0x1395E5C
+    // Offset: 0x138078C
     ::UnityEngine::Color get_environmentColor1Boost();
     // public System.Void .ctor()
-    // Offset: 0x1395F9C
+    // Offset: 0x13808CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentColorManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentColorManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentColorManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1395EB0
+    // Offset: 0x13807E0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1395EDC
+    // Offset: 0x138080C
     void Start();
   }; // EnvironmentColorManager
   #pragma pack(pop)

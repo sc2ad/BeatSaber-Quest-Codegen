@@ -45,10 +45,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerConnectedPlayerGameNoteController _gameNoteController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& dyn__gameNoteController();
     // protected MultiplayerConnectedPlayerGameNoteController get_gameNoteController()
-    // Offset: 0x140E79C
+    // Offset: 0x1455648
     ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x140E7A4
+    // Offset: 0x1455650
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

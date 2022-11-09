@@ -78,41 +78,41 @@ namespace System::IO {
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::ArrayW<::StringW> value);
     // private System.Void .ctor()
-    // Offset: 0x1D32AF8
+    // Offset: 0x1D81334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultWatcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::DefaultWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultWatcher*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D353D0
+    // Offset: 0x1D83C0C
     static void _cctor();
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1D32B00
+    // Offset: 0x1D8133C
     static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1D32BD8
+    // Offset: 0x1D81414
     void StartDispatching(::System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1D333E0
+    // Offset: 0x1D81C1C
     void StopDispatching(::System::IO::FileSystemWatcher* fsw);
     // private System.Void Monitor()
-    // Offset: 0x1D33658
+    // Offset: 0x1D81E94
     void Monitor();
     // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x1D332CC
+    // Offset: 0x1D81B08
     bool UpdateDataAndDispatch(::System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x1D33FE0
+    // Offset: 0x1D8281C
     static void DispatchEvents(::System::IO::FileSystemWatcher* fsw, ::System::IO::FileAction action, ::StringW filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x1D33D94
+    // Offset: 0x1D825D0
     void DoFiles(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x1D342CC
+    // Offset: 0x1D82B08
     void IterateAndModifyFilesData(::System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch, ::ArrayW<::StringW> files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x1D352F0
+    // Offset: 0x1D83B2C
     static ::System::IO::FileData* CreateFileData(::StringW directory, ::StringW filename);
   }; // System.IO.DefaultWatcher
   #pragma pack(pop)

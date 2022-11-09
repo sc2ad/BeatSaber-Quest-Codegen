@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // public System.Void .ctor()
-    // Offset: 0x13CE8A8
+    // Offset: 0x146CE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderShaderWarmup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderShaderWarmup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderShaderWarmup*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13CE6B8
+    // Offset: 0x146CC3C
     void Start();
   }; // SliderShaderWarmup
   #pragma pack(pop)

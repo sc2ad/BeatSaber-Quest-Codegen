@@ -59,20 +59,20 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x1646C58
+    // Offset: 0x164B970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X923Padding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::X923Padding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X923Padding*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1646AB8
+    // Offset: 0x164B7D0
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1646AC0
+    // Offset: 0x164B7D8
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x1646BA8
+    // Offset: 0x164B8C0
     int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.X923Padding
   #pragma pack(pop)

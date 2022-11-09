@@ -152,23 +152,23 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.DisposeBlock/Zenject.SpawnedObjectPoolPair> _objectPoolPairs
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::DisposeBlock::SpawnedObjectPoolPair>*& dyn__objectPoolPairs();
     // public System.Void .ctor()
-    // Offset: 0x1E54A6C
+    // Offset: 0x1E72FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposeBlock* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposeBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposeBlock*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E54A74
+    // Offset: 0x1E72FAC
     static void _cctor();
     // static private System.Void OnSpawned(Zenject.DisposeBlock that)
-    // Offset: 0x1E54534
+    // Offset: 0x1E72A6C
     static void OnSpawned(::Zenject::DisposeBlock* that);
     // static private System.Void OnDespawned(Zenject.DisposeBlock that)
-    // Offset: 0x1E5456C
+    // Offset: 0x1E72AA4
     static void OnDespawned(::Zenject::DisposeBlock* that);
     // private System.Void LazyInitializeDisposableList()
-    // Offset: 0x1E547D0
+    // Offset: 0x1E72D08
     void LazyInitializeDisposableList();
     // public System.Void AddRange(System.Collections.Generic.IList`1<T> disposables)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -181,10 +181,10 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, disposables);
     }
     // public System.Void Add(System.IDisposable disposable)
-    // Offset: 0x1E54864
+    // Offset: 0x1E72D9C
     void Add(::System::IDisposable* disposable);
     // public System.Void Remove(System.IDisposable disposable)
-    // Offset: 0x1E54900
+    // Offset: 0x1E72E38
     void Remove(::System::IDisposable* disposable);
     // private System.Void StoreSpawnedObject(T obj, Zenject.IDespawnableMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -286,10 +286,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___generic__method);
     }
     // static public Zenject.DisposeBlock Spawn()
-    // Offset: 0x1E5496C
+    // Offset: 0x1E72EA4
     static ::Zenject::DisposeBlock* Spawn();
     // public System.Void Dispose()
-    // Offset: 0x1E549E8
+    // Offset: 0x1E72F20
     void Dispose();
   }; // Zenject.DisposeBlock
   #pragma pack(pop)

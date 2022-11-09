@@ -33,25 +33,25 @@ namespace ModestTree {
   class Log : public ::Il2CppObject {
     public:
     // static public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x1771EF8
+    // Offset: 0x17A7DA0
     static void Debug(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Info(System.String message, params System.Object[] args)
-    // Offset: 0x1771EFC
+    // Offset: 0x17A7DA4
     static void Info(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Warn(System.String message, params System.Object[] args)
-    // Offset: 0x1771798
+    // Offset: 0x17A7640
     static void Warn(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Trace(System.String message, params System.Object[] args)
-    // Offset: 0x1771F84
+    // Offset: 0x17A7E2C
     static void Trace(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void ErrorException(System.Exception e)
-    // Offset: 0x177200C
+    // Offset: 0x17A7EB4
     static void ErrorException(::System::Exception* e);
     // static public System.Void ErrorException(System.String message, System.Exception e)
-    // Offset: 0x1772074
+    // Offset: 0x17A7F1C
     static void ErrorException(::StringW message, ::System::Exception* e);
     // static public System.Void Error(System.String message, params System.Object[] args)
-    // Offset: 0x17720F4
+    // Offset: 0x17A7F9C
     static void Error(::StringW message, ::ArrayW<::Il2CppObject*> args);
   }; // ModestTree.Log
   #pragma pack(pop)

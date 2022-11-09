@@ -165,75 +165,75 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int64[] _state
     [[deprecated("Use field access instead!")]] ::ArrayW<int64_t>& dyn__state();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E8C468
+    // Offset: 0x1EAA9A0
     ::StringW get_AlgorithmName();
     // static private System.Void .cctor()
-    // Offset: 0x1E8BAC4
+    // Offset: 0x1EA9FFC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E8BF4C
+    // Offset: 0x1EAA484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WhirlpoolDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WhirlpoolDigest*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.WhirlpoolDigest originalDigest)
-    // Offset: 0x1E8C1F8
+    // Offset: 0x1EAA730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WhirlpoolDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest* originalDigest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WhirlpoolDigest*, creationType>(originalDigest)));
     }
     // static private System.Int64 packIntoLong(System.Int32 b7, System.Int32 b6, System.Int32 b5, System.Int32 b4, System.Int32 b3, System.Int32 b2, System.Int32 b1, System.Int32 b0)
-    // Offset: 0x1E8BF18
+    // Offset: 0x1EAA450
     static int64_t packIntoLong(int b7, int b6, int b5, int b4, int b3, int b2, int b1, int b0);
     // static private System.Int32 maskWithReductionPolynomial(System.Int32 input)
-    // Offset: 0x1E8BF04
+    // Offset: 0x1EAA43C
     static int maskWithReductionPolynomial(int input);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1E8C4B0
+    // Offset: 0x1EAA9E8
     int GetDigestSize();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E8C4B8
+    // Offset: 0x1EAA9F0
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E8C6E4
+    // Offset: 0x1EAAC1C
     void Reset();
     // private System.Void processFilledBuffer()
-    // Offset: 0x1E8C7AC
+    // Offset: 0x1EAACE4
     void processFilledBuffer();
     // static private System.Int64 bytesToLongFromBuffer(System.Byte[] buffer, System.Int32 startPos)
-    // Offset: 0x1E8C8A4
+    // Offset: 0x1EAADDC
     static int64_t bytesToLongFromBuffer(::ArrayW<uint8_t> buffer, int startPos);
     // static private System.Void convertLongToByteArray(System.Int64 inputLong, System.Byte[] outputArray, System.Int32 offSet)
-    // Offset: 0x1E8C674
+    // Offset: 0x1EAABAC
     static void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t> outputArray, int offSet);
     // private System.Void processBlock()
-    // Offset: 0x1E8C984
+    // Offset: 0x1EAAEBC
     void processBlock();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E8D2E0
+    // Offset: 0x1EAB818
     void Update(uint8_t input);
     // private System.Void increment()
-    // Offset: 0x1E8D358
+    // Offset: 0x1EAB890
     void increment();
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1E8D478
+    // Offset: 0x1EAB9B0
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Void finish()
-    // Offset: 0x1E8C594
+    // Offset: 0x1EAAACC
     void finish();
     // private System.Byte[] copyBitLength()
-    // Offset: 0x1E8D4F0
+    // Offset: 0x1EABA28
     ::ArrayW<uint8_t> copyBitLength();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1E8D5A8
+    // Offset: 0x1EABAE0
     int GetByteLength();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1E8D5B0
+    // Offset: 0x1EABAE8
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1E8C2F0
+    // Offset: 0x1EAA828
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.WhirlpoolDigest
   #pragma pack(pop)

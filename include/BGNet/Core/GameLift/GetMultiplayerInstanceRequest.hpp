@@ -43,14 +43,14 @@ namespace BGNet::Core::GameLift {
   struct GetMultiplayerInstanceRequest/*, public ::System::ValueType*/ {
     public:
     public:
-    // [JsonPropertyAttribute] Offset: 0x10DFC18
+    // [JsonPropertyAttribute] Offset: 0x10F4244
     // public readonly System.String version
     // Size: 0x8
     // Offset: 0x0
     ::StringW version;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFC50
+    // [JsonPropertyAttribute] Offset: 0x10F427C
     // public readonly ServiceEnvironment serviceEnvironment
     // Size: 0x4
     // Offset: 0x8
@@ -59,49 +59,49 @@ namespace BGNet::Core::GameLift {
     static_assert(sizeof(::GlobalNamespace::ServiceEnvironment) == 0x4);
     // Padding between fields: serviceEnvironment and: singleUseAuthToken
     char __padding1[0x4] = {};
-    // [JsonPropertyAttribute] Offset: 0x10DFC88
+    // [JsonPropertyAttribute] Offset: 0x10F42B4
     // public readonly System.String singleUseAuthToken
     // Size: 0x8
     // Offset: 0x10
     ::StringW singleUseAuthToken;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFCC0
+    // [JsonPropertyAttribute] Offset: 0x10F42EC
     // public readonly BeatmapLevelSelectionMask beatmapLevelSelectionMask
     // Size: 0x18
     // Offset: 0x18
     ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
-    // [JsonPropertyAttribute] Offset: 0x10DFCF8
+    // [JsonPropertyAttribute] Offset: 0x10F4324
     // public readonly GameplayServerConfiguration gameplayServerConfiguration
     // Size: 0x18
     // Offset: 0x30
     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayServerConfiguration) == 0x18);
-    // [JsonPropertyAttribute] Offset: 0x10DFD30
+    // [JsonPropertyAttribute] Offset: 0x10F435C
     // public readonly System.String userId
     // Size: 0x8
     // Offset: 0x48
     ::StringW userId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFD68
+    // [JsonPropertyAttribute] Offset: 0x10F4394
     // public readonly System.String privateGameSecret
     // Size: 0x8
     // Offset: 0x50
     ::StringW privateGameSecret;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFDA0
+    // [JsonPropertyAttribute] Offset: 0x10F43CC
     // public readonly System.String privateGameCode
     // Size: 0x8
     // Offset: 0x58
     ::StringW privateGameCode;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFDD8
+    // [JsonPropertyAttribute] Offset: 0x10F4404
     // public readonly AuthenticationToken/Platform platform
     // Size: 0x1
     // Offset: 0x60
@@ -110,28 +110,28 @@ namespace BGNet::Core::GameLift {
     static_assert(sizeof(::GlobalNamespace::AuthenticationToken::Platform) == 0x1);
     // Padding between fields: platform and: authUserId
     char __padding8[0x7] = {};
-    // [JsonPropertyAttribute] Offset: 0x10DFE10
+    // [JsonPropertyAttribute] Offset: 0x10F443C
     // public readonly System.String authUserId
     // Size: 0x8
     // Offset: 0x68
     ::StringW authUserId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFE48
+    // [JsonPropertyAttribute] Offset: 0x10F4474
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.Int64> gameliftRegionLatencies
     // Size: 0x8
     // Offset: 0x70
     ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFE80
+    // [JsonPropertyAttribute] Offset: 0x10F44AC
     // public readonly System.String ticketId
     // Size: 0x8
     // Offset: 0x78
     ::StringW ticketId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [JsonPropertyAttribute] Offset: 0x10DFEB8
+    // [JsonPropertyAttribute] Offset: 0x10F44E4
     // public readonly System.String placementId
     // Size: 0x8
     // Offset: 0x80
@@ -176,7 +176,7 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: public readonly System.String placementId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_placementId();
     // public System.Void .ctor(System.String version, ServiceEnvironment serviceEnvironment, System.String userId, BeatmapLevelSelectionMask beatmapLevelSelectionMask, GameplayServerConfiguration gameplayServerConfiguration, AuthenticationToken/Platform platform, System.String authUserId, System.String singleUseAuthToken, System.String privateGameSecret, System.String privateGameCode, System.Collections.Generic.Dictionary`2<System.String,System.Int64> gameliftRegionLatencies, System.String ticketId, System.String placementId)
-    // Offset: 0x15AD2DC
+    // Offset: 0x15BA8C4
     GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken::Platform platform, ::StringW authUserId, ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId);
   }; // BGNet.Core.GameLift.GetMultiplayerInstanceRequest
   #pragma pack(pop)

@@ -53,21 +53,21 @@ namespace UnityEngine::Events {
   class PersistentCall : public ::Il2CppObject {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x1071E28
+    // [FormerlySerializedAsAttribute] Offset: 0x10872E8
     // private UnityEngine.Object m_Target
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Object* m_Target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1071E74
+    // [FormerlySerializedAsAttribute] Offset: 0x1087334
     // private System.String m_MethodName
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_MethodName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1071EC0
+    // [FormerlySerializedAsAttribute] Offset: 0x1087380
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
     // Offset: 0x20
@@ -76,15 +76,15 @@ namespace UnityEngine::Events {
     static_assert(sizeof(::UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
     char __padding2[0x4] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x1071F0C
+    // [FormerlySerializedAsAttribute] Offset: 0x10873CC
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Events::ArgumentCache* m_Arguments;
     // Field size check
     static_assert(sizeof(::UnityEngine::Events::ArgumentCache*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1071F58
-    // [FormerlySerializedAsAttribute] Offset: 0x1071F58
+    // [FormerlySerializedAsAttribute] Offset: 0x1087418
+    // [FormerlySerializedAsAttribute] Offset: 0x1087418
     // private UnityEngine.Events.UnityEventCallState m_CallState
     // Size: 0x4
     // Offset: 0x30
@@ -103,32 +103,32 @@ namespace UnityEngine::Events {
     // Get instance field reference: private UnityEngine.Events.UnityEventCallState m_CallState
     [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityEventCallState& dyn_m_CallState();
     // public UnityEngine.Object get_target()
-    // Offset: 0x1FFACB0
+    // Offset: 0x2042AA8
     ::UnityEngine::Object* get_target();
     // public System.String get_methodName()
-    // Offset: 0x1FFACB8
+    // Offset: 0x2042AB0
     ::StringW get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
-    // Offset: 0x1FFACC0
+    // Offset: 0x2042AB8
     ::UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
-    // Offset: 0x1FFACC8
+    // Offset: 0x2042AC0
     ::UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Void .ctor()
-    // Offset: 0x1FFB4E0
+    // Offset: 0x20432D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentCall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::PersistentCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCall*, creationType>()));
     }
     // public System.Boolean IsValid()
-    // Offset: 0x1FFACD0
+    // Offset: 0x2042AC8
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
-    // Offset: 0x1FFAD64
+    // Offset: 0x2042B5C
     ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
-    // Offset: 0x1FFB0D4
+    // Offset: 0x2042ECC
     static ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
   }; // UnityEngine.Events.PersistentCall
   #pragma pack(pop)

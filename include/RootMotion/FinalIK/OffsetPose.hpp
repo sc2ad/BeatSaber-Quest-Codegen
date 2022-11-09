@@ -55,17 +55,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::OffsetPose::EffectorLink*>& dyn_effectorLinks();
     // public System.Void .ctor()
-    // Offset: 0x204EE30
+    // Offset: 0x204E824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetPose* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetPose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x204E980
+    // Offset: 0x204E374
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x204ED78
+    // Offset: 0x204E76C
     void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, ::UnityEngine::Quaternion rotation);
   }; // RootMotion.FinalIK.OffsetPose
   #pragma pack(pop)

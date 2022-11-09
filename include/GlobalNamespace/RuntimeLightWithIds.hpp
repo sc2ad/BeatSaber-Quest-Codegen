@@ -24,6 +24,12 @@ namespace UnityEngine {
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
 }
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
+  class IEnumerable_1;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -100,7 +106,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*> lightIntensityData;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::RuntimeLightWithIds::LightIntensitiesWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10E6D88
+    // [SpaceAttribute] Offset: 0x10FB478
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -138,17 +144,14 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] bool& dyn__multiplyColorByAlpha();
     // Get instance field reference: private RuntimeLightWithIds/MixType _mixType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RuntimeLightWithIds::MixType& dyn__mixType();
-    // protected System.Void Awake()
-    // Offset: 0x1D04900
-    void Awake();
     // protected System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1D08ED0
+    // Offset: 0x1CCE9E8
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x1CFAC78
+    // Offset: 0x1CC0194
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,10 +160,15 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1D08C8C
+    // Offset: 0x1CCE7A4
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
+    // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
+    // Offset: 0x1CCEACC
+    // Implemented from: LightWithIds
+    // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();
   }; // RuntimeLightWithIds
   #pragma pack(pop)
   static check_size<sizeof(RuntimeLightWithIds), 68 + sizeof(::GlobalNamespace::RuntimeLightWithIds::MixType)> __GlobalNamespace_RuntimeLightWithIdsSizeCheck;
@@ -169,14 +177,6 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RuntimeLightWithIds::MixType, "", "RuntimeLightWithIds/MixType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::Awake
-// Il2CppName: Awake
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RuntimeLightWithIds::*)()>(&GlobalNamespace::RuntimeLightWithIds::Awake)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
@@ -206,5 +206,13 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RuntimeLightWithIds::*)()>(&GlobalNamespace::RuntimeLightWithIds::ProcessNewColorData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds*), "ProcessNewColorData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::RuntimeLightWithIds::GetLightWithIds
+// Il2CppName: GetLightWithIds
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* (GlobalNamespace::RuntimeLightWithIds::*)()>(&GlobalNamespace::RuntimeLightWithIds::GetLightWithIds)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds*), "GetLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

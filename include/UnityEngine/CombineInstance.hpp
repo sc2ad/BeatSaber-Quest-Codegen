@@ -88,16 +88,16 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector4 m_RealtimeLightmapScaleOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_m_RealtimeLightmapScaleOffset();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1FF5B20
+    // Offset: 0x203D918
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x1FF5B2C
+    // Offset: 0x203D924
     void set_mesh(::UnityEngine::Mesh* value);
     // public System.Void set_subMeshIndex(System.Int32 value)
-    // Offset: 0x1FF5BCC
+    // Offset: 0x203D9C4
     void set_subMeshIndex(int value);
     // public System.Void set_transform(UnityEngine.Matrix4x4 value)
-    // Offset: 0x1FF5BD4
+    // Offset: 0x203D9CC
     void set_transform(::UnityEngine::Matrix4x4 value);
   }; // UnityEngine.CombineInstance
   #pragma pack(pop)

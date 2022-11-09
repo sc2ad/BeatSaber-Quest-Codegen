@@ -75,32 +75,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _totalDistance
     [[deprecated("Use field access instead!")]] float& dyn__totalDistance();
     // public System.Void .ctor(System.Int32 capacity, UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
-    // Offset: 0x13EDC38
+    // Offset: 0x139E6D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrailElementCollection* New_ctor(int capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailElementCollection*, creationType>(capacity, defaultStartPosition, defaultEndPosition, time)));
     }
     // public System.Void InitSnapshots(UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
-    // Offset: 0x13EDDD4
+    // Offset: 0x139E86C
     void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float time);
     // public System.Void SetHeadData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
-    // Offset: 0x13EDE9C
+    // Offset: 0x139E934
     void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
     // public System.Void MoveTailToHead()
-    // Offset: 0x13EDF38
+    // Offset: 0x139E9D0
     void MoveTailToHead();
     // public System.Void UpdateDistances()
-    // Offset: 0x13EDFB0
+    // Offset: 0x139EA48
     void UpdateDistances();
     // public System.Void Interpolate(System.Single t, ref TrailElementCollection/InterpolationState lerpState, out UnityEngine.Vector3 position, out UnityEngine.Vector3 normal, out System.Single time)
-    // Offset: 0x13EE03C
+    // Offset: 0x139EAD4
     void Interpolate(float t, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> normal, ByRef<float> time);
     // private System.Void UpdateLerpState(System.Single t, ref TrailElementCollection/InterpolationState interpolationState)
-    // Offset: 0x13EE294
+    // Offset: 0x139ED2C
     void UpdateLerpState(float t, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState> interpolationState);
     // private TrailElement GetElement(System.Int32 index)
-    // Offset: 0x13EE3D0
+    // Offset: 0x139EE68
     ::GlobalNamespace::TrailElement* GetElement(int index);
   }; // TrailElementCollection
   #pragma pack(pop)

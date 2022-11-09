@@ -98,36 +98,36 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> _triangles
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& dyn__triangles();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x2AE7994
+    // Offset: 0x2B0F3E0
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> get_Triangles()
-    // Offset: 0x2AE7A34
+    // Offset: 0x2B0F480
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
     // public System.Void .ctor(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x2AE7570
+    // Offset: 0x2B0EFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> points)
-    // Offset: 0x2AE7908
+    // Offset: 0x2B0F354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Polygon* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::Polygon::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Polygon*, creationType>(points)));
     }
     // public System.Void AddHole(UnityEngine.ProBuilder.Poly2Tri.Polygon poly)
-    // Offset: 0x2AE799C
+    // Offset: 0x2B0F3E8
     void AddHole(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
     // public System.Void AddTriangle(UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle t)
-    // Offset: 0x2AE7A3C
+    // Offset: 0x2B0F488
     void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
     // public System.Void AddTriangles(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> list)
-    // Offset: 0x2AE7AA4
+    // Offset: 0x2B0F4F0
     void AddTriangles(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
     // public System.Void Prepare(UnityEngine.ProBuilder.Poly2Tri.TriangulationContext tcx)
-    // Offset: 0x2AE7B0C
+    // Offset: 0x2B0F558
     void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
   }; // UnityEngine.ProBuilder.Poly2Tri.Polygon
   #pragma pack(pop)

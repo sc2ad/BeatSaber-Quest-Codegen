@@ -61,14 +61,14 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.XObjectChange objectChange
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XObjectChange& dyn_objectChange();
     // public System.Void .ctor(System.Xml.Linq.XObjectChange objectChange)
-    // Offset: 0x2AFABEC
+    // Offset: 0x2B22638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XObjectChangeEventArgs* New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObjectChangeEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XObjectChangeEventArgs*, creationType>(objectChange)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AFAC68
+    // Offset: 0x2B226B4
     static void _cctor();
   }; // System.Xml.Linq.XObjectChangeEventArgs
   #pragma pack(pop)

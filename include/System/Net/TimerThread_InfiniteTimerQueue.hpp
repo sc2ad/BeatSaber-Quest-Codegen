@@ -26,7 +26,7 @@ namespace System::Net {
   class TimerThread::InfiniteTimerQueue : public ::System::Net::TimerThread::Queue {
     public:
     // System.Void .ctor()
-    // Offset: 0x1B49550
+    // Offset: 0x1B7D6FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::InfiniteTimerQueue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::InfiniteTimerQueue::.ctor");

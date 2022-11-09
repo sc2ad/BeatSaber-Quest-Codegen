@@ -22,23 +22,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireEffectShaderHelper : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F7974
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110CFDC
     // Get static field: static public readonly System.Int32 effectStartSongTimePropertyId
     static int _get_effectStartSongTimePropertyId();
     // Set static field: static public readonly System.Int32 effectStartSongTimePropertyId
     static void _set_effectStartSongTimePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F7984
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110CFEC
     // Get static field: static public readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();
     // Set static field: static public readonly System.Int32 colorPropertyId
     static void _set_colorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F7994
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110CFFC
     // Get static field: static public readonly System.Int32 privatePointLightColorPropertyId
     static int _get_privatePointLightColorPropertyId();
     // Set static field: static public readonly System.Int32 privatePointLightColorPropertyId
     static void _set_privatePointLightColorPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x13A0AB4
+    // Offset: 0x138B584
     static void _cctor();
   }; // FireEffectShaderHelper
   #pragma pack(pop)

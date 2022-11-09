@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Object context
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_context();
     // public System.Void .ctor(ListLogger/LogType type, System.String message, System.Object context)
-    // Offset: 0x146CE38
+    // Offset: 0x15A0E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListLogger::LogMessage* New_ctor(::GlobalNamespace::ListLogger::LogType type, ::StringW message, ::Il2CppObject* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListLogger::LogMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListLogger::LogMessage*, creationType>(type, message, context)));
     }
     // public override System.String ToString()
-    // Offset: 0x146D074
+    // Offset: 0x15A1084
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

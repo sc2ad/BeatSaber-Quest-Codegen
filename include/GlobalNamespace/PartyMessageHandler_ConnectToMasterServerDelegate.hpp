@@ -36,20 +36,20 @@ namespace GlobalNamespace {
   class PartyMessageHandler::ConnectToMasterServerDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x269C390
+    // Offset: 0x26B8DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler::ConnectToMasterServerDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler::ConnectToMasterServerDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String secret)
-    // Offset: 0x269BFA0
+    // Offset: 0x26B8A04
     void Invoke(::StringW secret);
     // public System.IAsyncResult BeginInvoke(System.String secret, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x269C3A0
+    // Offset: 0x26B8E04
     ::System::IAsyncResult* BeginInvoke(::StringW secret, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x269C3C4
+    // Offset: 0x26B8E28
     void EndInvoke(::System::IAsyncResult* result);
   }; // PartyMessageHandler/ConnectToMasterServerDelegate
   #pragma pack(pop)

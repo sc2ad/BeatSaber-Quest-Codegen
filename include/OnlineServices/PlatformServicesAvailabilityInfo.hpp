@@ -98,13 +98,13 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.String localizedMessage
     [[deprecated("Use field access instead!")]] ::StringW& dyn_localizedMessage();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
-    // Offset: 0x1358E50
+    // Offset: 0x13736D8
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_onlineServicesUnavailableError()
-    // Offset: 0x1358F50
+    // Offset: 0x13737D8
     static ::OnlineServices::PlatformServicesAvailabilityInfo* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability, System.String localizedMessage)
-    // Offset: 0x1358F14
+    // Offset: 0x137379C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformServicesAvailabilityInfo* New_ctor(::OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::StringW localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::PlatformServicesAvailabilityInfo::.ctor");

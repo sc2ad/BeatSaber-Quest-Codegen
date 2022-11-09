@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     float downSmooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x11047D0
+    // [TooltipAttribute] Offset: 0x111A094
     // private System.Single _noSoundTopThresholdSqr
     // Size: 0x4
     // Offset: 0x44
@@ -125,17 +125,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _speed
     [[deprecated("Use field access instead!")]] float& dyn__speed();
     // public System.Void .ctor()
-    // Offset: 0x1497BA8
+    // Offset: 0x13FC3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberSound* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberSound::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberSound*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1497948
+    // Offset: 0x13FC158
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1497980
+    // Offset: 0x13FC190
     void Update();
   }; // SaberSound
   #pragma pack(pop)

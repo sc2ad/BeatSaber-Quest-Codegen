@@ -59,17 +59,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private ShowTextOnGameEventController/EventTextBinding[] _eventTextBindings
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>& dyn__eventTextBindings();
     // public System.Void .ctor()
-    // Offset: 0x13C5020
+    // Offset: 0x140A30C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowTextOnGameEventController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowTextOnGameEventController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13C4E20
+    // Offset: 0x140A10C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C4F2C
+    // Offset: 0x140A218
     void OnDestroy();
   }; // ShowTextOnGameEventController
   #pragma pack(pop)

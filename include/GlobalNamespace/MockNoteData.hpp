@@ -93,56 +93,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <duration>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
-    // Offset: 0x2AFD82C
+    // Offset: 0x2B25278
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x2AFD834
+    // Offset: 0x2B25280
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x2AFD83C
+    // Offset: 0x2B25288
     int get_lineIndex();
     // public System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x2AFD844
+    // Offset: 0x2B25290
     void set_lineIndex(int value);
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x2AFD84C
+    // Offset: 0x2B25298
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public System.Void set_gameplayType(NoteData/GameplayType value)
-    // Offset: 0x2AFD854
+    // Offset: 0x2B252A0
     void set_gameplayType(::GlobalNamespace::NoteData::GameplayType value);
     // public ColorType get_colorType()
-    // Offset: 0x2AFD85C
+    // Offset: 0x2B252A8
     ::GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
-    // Offset: 0x2AFD864
+    // Offset: 0x2B252B0
     void set_colorType(::GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
-    // Offset: 0x2AFD86C
+    // Offset: 0x2B252B8
     ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
-    // Offset: 0x2AFD874
+    // Offset: 0x2B252C0
     void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x2AFD87C
+    // Offset: 0x2B252C8
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x2AFD884
+    // Offset: 0x2B252D0
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
-    // Offset: 0x2AFD88C
+    // Offset: 0x2B252D8
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x2AFD894
+    // Offset: 0x2B252E0
     void set_duration(float value);
     // public System.Void .ctor()
-    // Offset: 0x2AFD8F4
+    // Offset: 0x2B25340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockNoteData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockNoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockNoteData*, creationType>()));
     }
     // public System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x2AFD89C
+    // Offset: 0x2B252E8
     void Mirror(int lineCount);
   }; // MockNoteData
   #pragma pack(pop)

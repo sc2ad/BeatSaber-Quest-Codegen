@@ -27,7 +27,7 @@ namespace System::Net::Cache {
   class RequestCacheProtocol : public ::Il2CppObject {
     public:
     // public System.Void .ctor(System.Object arg1, System.Object arg2)
-    // Offset: 0x1D3BF54
+    // Offset: 0x1D8A790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequestCacheProtocol* New_ctor(::Il2CppObject* arg1, ::Il2CppObject* arg2) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Cache::RequestCacheProtocol::.ctor");

@@ -60,13 +60,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private System.Int32 macKeySize
     [[deprecated("Use field access instead!")]] int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x164CFB0
+    // Offset: 0x1651CC8
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x164CFA0
+    // Offset: 0x1651CB8
     ::ArrayW<uint8_t> GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x164CFA8
+    // Offset: 0x1651CC0
     ::ArrayW<uint8_t> GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)

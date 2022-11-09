@@ -78,26 +78,26 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData eventData
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::PointerEventData*& dyn_eventData();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x149E0A0
+    // Offset: 0x14AE7E4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x149E108
+    // Offset: 0x14AE84C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x149DE18
+    // Offset: 0x14AE55C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::$MouseDragOutsideRect$d__285* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputField::$MouseDragOutsideRect$d__285::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::$MouseDragOutsideRect$d__285*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x149DE44
+    // Offset: 0x14AE588
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x149DE48
+    // Offset: 0x14AE58C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x149E0A8
+    // Offset: 0x14AE7EC
     void System_Collections_IEnumerator_Reset();
   }; // TMPro.TMP_InputField/TMPro.<MouseDragOutsideRect>d__285
   #pragma pack(pop)

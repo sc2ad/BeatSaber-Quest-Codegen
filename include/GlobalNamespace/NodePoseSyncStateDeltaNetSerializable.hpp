@@ -102,41 +102,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$timeOffsetMs$k__BackingField();
     // static public IPacketPool`1<NodePoseSyncStateDeltaNetSerializable> get_pool()
-    // Offset: 0x1716740
+    // Offset: 0x173A05C
     static ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
     // public SyncStateId get_baseId()
-    // Offset: 0x1716788
+    // Offset: 0x173A0A4
     ::GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x1716790
+    // Offset: 0x173A0AC
     void set_baseId(::GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x1716798
+    // Offset: 0x173A0B4
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x17167A0
+    // Offset: 0x173A0BC
     void set_timeOffsetMs(int value);
     // public NodePoseSyncState get_delta()
-    // Offset: 0x17167A8
+    // Offset: 0x173A0C4
     ::GlobalNamespace::NodePoseSyncState get_delta();
     // public System.Void set_delta(NodePoseSyncState value)
-    // Offset: 0x17167B8
+    // Offset: 0x173A0D4
     void set_delta(::GlobalNamespace::NodePoseSyncState value);
     // public System.Void .ctor()
-    // Offset: 0x1716994
+    // Offset: 0x173A2B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NodePoseSyncStateDeltaNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NodePoseSyncStateDeltaNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x17167D4
+    // Offset: 0x173A0F0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1716864
+    // Offset: 0x173A180
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x17168D8
+    // Offset: 0x173A1F4
     void Release();
   }; // NodePoseSyncStateDeltaNetSerializable
   #pragma pack(pop)

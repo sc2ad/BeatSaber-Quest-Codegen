@@ -138,69 +138,72 @@ namespace Tweening {
     // Get instance field reference: protected EaseType _easeType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EaseType& dyn__easeType();
     // public System.Boolean get_isStarted()
-    // Offset: 0x13F3A44
+    // Offset: 0x13A4500
     bool get_isStarted();
     // public System.Boolean get_isActive()
-    // Offset: 0x13F3A4C
+    // Offset: 0x13A4508
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0x13F3A7C
+    // Offset: 0x13A4538
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0x13F3A90
+    // Offset: 0x13A454C
     bool get_isKilled();
     // public System.Single get_progress()
-    // Offset: 0x13F3A98
+    // Offset: 0x13A4554
     float get_progress();
     // public System.Single get_startTime()
-    // Offset: 0x13F3AA0
+    // Offset: 0x13A455C
     float get_startTime();
     // public System.Single get_duration()
-    // Offset: 0x13F3AA8
+    // Offset: 0x13A4564
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x13F3AB0
+    // Offset: 0x13A456C
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0x13F3AB8
+    // Offset: 0x13A4574
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x13F3AC0
+    // Offset: 0x13A457C
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0x13F3ACC
+    // Offset: 0x13A4588
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0x13F3AD4
+    // Offset: 0x13A4590
     void set_delay(float value);
     // public EaseType get_easeType()
-    // Offset: 0x13F3ADC
+    // Offset: 0x13A4598
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Void set_easeType(EaseType value)
-    // Offset: 0x13F3AE4
+    // Offset: 0x13A45A0
     void set_easeType(::GlobalNamespace::EaseType value);
     // protected System.Void .ctor()
-    // Offset: 0x13F3B18
+    // Offset: 0x13A45D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
     // public System.Void Kill()
-    // Offset: 0x13F3AEC
+    // Offset: 0x13A45A8
     void Kill();
     // public System.Void Restart(System.Single startTime)
-    // Offset: 0x13F3AF8
+    // Offset: 0x13A45B4
     void Restart(float startTime);
     // public System.Void Resume()
-    // Offset: 0x13F3B04
+    // Offset: 0x13A45C4
     void Resume();
     // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
-    // Offset: 0x13F3B0C
+    // Offset: 0x13A45CC
     void SetStartTimeAndEndTime(float startTime, float endTime);
     // public System.Void Update(System.Single currentTime)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Update(float currentTime);
+    // public System.Void Sample(System.Single t)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void Sample(float t);
   }; // Tweening.Tween
   #pragma pack(pop)
   static check_size<sizeof(Tween), 64 + sizeof(::GlobalNamespace::EaseType)> __Tweening_TweenSizeCheck;
@@ -369,5 +372,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
   static const MethodInfo* get() {
     static auto* currentTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentTime});
+  }
+};
+// Writing MetadataGetter for method: Tweening::Tween::Sample
+// Il2CppName: Sample
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(float)>(&Tweening::Tween::Sample)> {
+  static const MethodInfo* get() {
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };

@@ -65,10 +65,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKVector3 localScale
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKVector3& dyn_localScale();
     // static public LIV.SDK.Unity.SDKTransform get_empty()
-    // Offset: 0x2AA89FC
+    // Offset: 0x2AD8D38
     static ::LIV::SDK::Unity::SDKTransform get_empty();
     // public override System.String ToString()
-    // Offset: 0x2AAEC60
+    // Offset: 0x2ADEF9C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -72,31 +72,31 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.UInt32[] buff
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_buff();
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x24BDB60
+    // Offset: 0x24BEBB8
     void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // public System.Byte[] HashFinal()
-    // Offset: 0x24BDC84
+    // Offset: 0x24BECDC
     ::ArrayW<uint8_t> HashFinal();
     // public System.Void Initialize()
-    // Offset: 0x24BDD90
+    // Offset: 0x24BEDE8
     void Initialize();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.UInt32 inputOffset)
-    // Offset: 0x24BDE54
+    // Offset: 0x24BEEAC
     void ProcessBlock(::ArrayW<uint8_t> inputBuffer, uint inputOffset);
     // static private System.Void InitialiseBuff(System.UInt32[] buff, System.Byte[] input, System.UInt32 inputOffset)
-    // Offset: 0x24BE530
+    // Offset: 0x24BF588
     static void InitialiseBuff(::ArrayW<uint> buff, ::ArrayW<uint8_t> input, uint inputOffset);
     // static private System.Void FillBuff(System.UInt32[] buff)
-    // Offset: 0x24BEC18
+    // Offset: 0x24BFC70
     static void FillBuff(::ArrayW<uint> buff);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x24BE378
+    // Offset: 0x24BF3D0
     void ProcessFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x24BEE58
+    // Offset: 0x24BFEB0
     void AddLength(uint64_t length, ::ArrayW<uint8_t> buffer, int position);
     // public System.Void .ctor()
-    // Offset: 0x24BD9F0
+    // Offset: 0x24BEA48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
