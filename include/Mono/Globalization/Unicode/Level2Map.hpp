@@ -45,7 +45,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte Replace
     [[deprecated("Use field access instead!")]] uint8_t& dyn_Replace();
     // public System.Void .ctor(System.Byte source, System.Byte replace)
-    // Offset: 0x1FD6C0C
+    // Offset: 0x1FC8234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Level2Map::.ctor");

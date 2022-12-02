@@ -32,14 +32,14 @@ namespace UnityEngine::ResourceManagement::Util {
   struct SerializedType/*, public ::System::ValueType*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x1100394
+    // [FormerlySerializedAsAttribute] Offset: 0x1101114
     // private System.String m_AssemblyName
     // Size: 0x8
     // Offset: 0x0
     ::StringW m_AssemblyName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11003E0
+    // [FormerlySerializedAsAttribute] Offset: 0x1101160
     // private System.String m_ClassName
     // Size: 0x8
     // Offset: 0x8
@@ -78,25 +78,25 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean <ValueChanged>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ValueChanged$k__BackingField();
     // public System.String get_AssemblyName()
-    // Offset: 0x1F6BD18
+    // Offset: 0x1F79E64
     ::StringW get_AssemblyName();
     // public System.String get_ClassName()
-    // Offset: 0x1F6BD20
+    // Offset: 0x1F79E6C
     ::StringW get_ClassName();
     // public System.Type get_Value()
-    // Offset: 0x1F6BB00
+    // Offset: 0x1F79C4C
     ::System::Type* get_Value();
     // public System.Void set_Value(System.Type value)
-    // Offset: 0x1F6BDDC
+    // Offset: 0x1F79F28
     void set_Value(::System::Type* value);
     // public System.Boolean get_ValueChanged()
-    // Offset: 0x1F6BEAC
+    // Offset: 0x1F79FF8
     bool get_ValueChanged();
     // public System.Void set_ValueChanged(System.Boolean value)
-    // Offset: 0x1F6BEB4
+    // Offset: 0x1F7A000
     void set_ValueChanged(bool value);
     // public override System.String ToString()
-    // Offset: 0x1F6BD28
+    // Offset: 0x1F79E74
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

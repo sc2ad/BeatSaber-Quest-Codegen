@@ -53,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform self
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Transform& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_Transform self)
-    // Offset: 0x2B10C3C
+    // Offset: 0x2B1CE74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_Transform*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_Transform other)
-    // Offset: 0x2B10C74
+    // Offset: 0x2B1CEAC
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
   }; // HoudiniEngineUnity.Test_HAPI_Transform
   #pragma pack(pop)

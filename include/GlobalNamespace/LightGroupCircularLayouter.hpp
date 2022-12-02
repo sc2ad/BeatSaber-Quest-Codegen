@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(LightGroupCircularLayouter::RotationDirection), 0 + sizeof(int)> __GlobalNamespace_LightGroupCircularLayouter_RotationDirectionSizeCheck;
     static_assert(sizeof(LightGroupCircularLayouter::RotationDirection) == 0x4);
     public:
-    // [SpaceAttribute] Offset: 0x1114B90
+    // [SpaceAttribute] Offset: 0x1114920
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x20
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _additionalAngle
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__additionalAngle();
     // public System.Void .ctor()
-    // Offset: 0x150A1AC
+    // Offset: 0x15132B0
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

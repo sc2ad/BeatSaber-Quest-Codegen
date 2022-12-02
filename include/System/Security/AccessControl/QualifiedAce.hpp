@@ -51,29 +51,29 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Byte[] opaque
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_opaque();
     // public System.Security.AccessControl.AceQualifier get_AceQualifier()
-    // Offset: 0x1B95EF4
+    // Offset: 0x1BA0F14
     ::System::Security::AccessControl::AceQualifier get_AceQualifier();
     // public System.Boolean get_IsCallback()
-    // Offset: 0x1B967BC
+    // Offset: 0x1BA17DC
     bool get_IsCallback();
     // public System.Int32 get_OpaqueLength()
-    // Offset: 0x1B94CE4
+    // Offset: 0x1B9FD04
     int get_OpaqueLength();
     // System.Void .ctor(System.Security.AccessControl.AceType type, System.Security.AccessControl.AceFlags flags, System.Byte[] opaque)
-    // Offset: 0x1B9492C
+    // Offset: 0x1B9F94C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QualifiedAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::QualifiedAce::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QualifiedAce*, creationType>(type, flags, opaque)));
     }
     // public System.Byte[] GetOpaque()
-    // Offset: 0x1B94EE0
+    // Offset: 0x1B9FF00
     ::ArrayW<uint8_t> GetOpaque();
     // public System.Void SetOpaque(System.Byte[] opaque)
-    // Offset: 0x1B94C0C
+    // Offset: 0x1B9FC2C
     void SetOpaque(::ArrayW<uint8_t> opaque);
     // System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B94B3C
+    // Offset: 0x1B9FB5C
     // Implemented from: System.Security.AccessControl.KnownAce
     // Base method: System.Void KnownAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
     // Base method: System.Void GenericAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)

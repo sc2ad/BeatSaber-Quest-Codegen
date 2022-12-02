@@ -49,7 +49,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::Destination* DestinationOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::Destination*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1103DA4
+    // [ObsoleteAttribute] Offset: 0x1104B24
     // public readonly Oculus.Platform.Models.Destination Destination
     // Size: 0x8
     // Offset: 0x20
@@ -72,7 +72,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 ID
     [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A0D368
+    // Offset: 0x1A16258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Leaderboard* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Leaderboard::.ctor");

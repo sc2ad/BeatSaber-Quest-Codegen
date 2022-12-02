@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<SelectRegionViewController/RegionToLocalizationKeyPair,System.String> <>9__8_1
     static void _set_$$9__8_1(::System::Func_2<::GlobalNamespace::SelectRegionViewController::RegionToLocalizationKeyPair, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x140674C
+    // Offset: 0x140D9F0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14067B0
+    // Offset: 0x140DA54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectRegionViewController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectRegionViewController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectRegionViewController::$$c*, creationType>()));
     }
     // System.String <DidActivate>b__8_1(SelectRegionViewController/RegionToLocalizationKeyPair p)
-    // Offset: 0x14067B8
+    // Offset: 0x140DA5C
     ::StringW $DidActivate$b__8_1(::GlobalNamespace::SelectRegionViewController::RegionToLocalizationKeyPair p);
   }; // SelectRegionViewController/<>c
   #pragma pack(pop)

@@ -108,45 +108,45 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Timeline.AudioClipProperties m_ClipProperties
     [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::AudioClipProperties*& dyn_m_ClipProperties();
     // System.Single get_bufferingTime()
-    // Offset: 0x1E2D7FC
+    // Offset: 0x1E3A948
     float get_bufferingTime();
     // System.Void set_bufferingTime(System.Single value)
-    // Offset: 0x1E2D804
+    // Offset: 0x1E3A950
     void set_bufferingTime(float value);
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x1E2D80C
+    // Offset: 0x1E3A958
     ::UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1E2D814
+    // Offset: 0x1E3A960
     void set_clip(::UnityEngine::AudioClip* value);
     // public System.Boolean get_loop()
-    // Offset: 0x1E2D81C
+    // Offset: 0x1E3A968
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x1E2D824
+    // Offset: 0x1E3A970
     void set_loop(bool value);
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1E2DAD8
+    // Offset: 0x1E3AC24
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1E2DAE4
+    // Offset: 0x1E3AC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioPlayableAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AudioPlayableAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioPlayableAsset*, creationType>()));
     }
     // public override System.Double get_duration()
-    // Offset: 0x1E2D830
+    // Offset: 0x1E3A97C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Double PlayableAsset::get_duration()
     double get_duration();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
-    // Offset: 0x1E2D8F4
+    // Offset: 0x1E3AA40
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> PlayableAsset::get_outputs()
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x1E2D9AC
+    // Offset: 0x1E3AAF8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

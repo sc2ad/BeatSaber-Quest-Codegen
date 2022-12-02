@@ -30,14 +30,14 @@ namespace Org::BouncyCastle::Security {
   class SecurityUtilityException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x184D428
+    // Offset: 0x1852364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityUtilityException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::SecurityUtilityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x183A9D4
+    // Offset: 0x183F910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityUtilityException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::SecurityUtilityException::.ctor");

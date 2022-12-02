@@ -90,23 +90,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Threading.Tasks.Task _initializationTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn__initializationTask();
     // public System.Void .ctor()
-    // Offset: 0x1549FC0
+    // Offset: 0x1553EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusDeviceConfigExperimentModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusDeviceConfigExperimentModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusDeviceConfigExperimentModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x154A0D4
+    // Offset: 0x1554000
     ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x154A248
+    // Offset: 0x1554174
     ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
     // private System.Threading.Tasks.Task Initialize()
-    // Offset: 0x1549FEC
+    // Offset: 0x1553F18
     ::System::Threading::Tasks::Task* Initialize();
     // private System.Threading.Tasks.Task`1<System.Boolean> GetBooleanAsync(System.String key)
-    // Offset: 0x154A124
+    // Offset: 0x1554050
     ::System::Threading::Tasks::Task_1<bool>* GetBooleanAsync(::StringW key);
   }; // OculusDeviceConfigExperimentModel
   #pragma pack(pop)

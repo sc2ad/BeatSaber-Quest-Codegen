@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* settingsButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121124
+    // [InjectAttribute] Offset: 0x1120EC4
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
@@ -146,29 +146,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<OptionsViewController/OptionsButton> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1374E50
+    // Offset: 0x137AC7C
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<OptionsViewController/OptionsButton> value)
-    // Offset: 0x1374EF4
+    // Offset: 0x137AD20
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController::OptionsButton>* value);
     // public System.Void .ctor()
-    // Offset: 0x1375114
+    // Offset: 0x137AF40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OptionsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OptionsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OptionsViewController*, creationType>()));
     }
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x137511C
+    // Offset: 0x137AF48
     void $DidActivate$b__8_0();
     // private System.Void <DidActivate>b__8_1()
-    // Offset: 0x1375180
+    // Offset: 0x137AFAC
     void $DidActivate$b__8_1();
     // private System.Void <DidActivate>b__8_2()
-    // Offset: 0x13751E4
+    // Offset: 0x137B010
     void $DidActivate$b__8_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1374F98
+    // Offset: 0x137ADC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

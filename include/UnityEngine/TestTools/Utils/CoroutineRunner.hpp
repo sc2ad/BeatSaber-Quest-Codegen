@@ -112,29 +112,29 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: private System.Collections.IEnumerator m_TestCoroutine
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_m_TestCoroutine();
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x2B4AE6C
+    // Offset: 0x2B5720C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner* New_ctor(::UnityEngine::MonoBehaviour* playmodeTestsController, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x2B4AEA4
+    // Offset: 0x2B57244
     ::System::Collections::IEnumerator* HandleEnumerableTest(::System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
-    // Offset: 0x2B4AF4C
+    // Offset: 0x2B572EC
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
-    // Offset: 0x2B4AFA4
+    // Offset: 0x2B57344
     ::System::Collections::IEnumerator* ExMethod(::System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
-    // Offset: 0x2B4B054
+    // Offset: 0x2B573F4
     ::System::Collections::IEnumerator* StartTimer(::System::Collections::IEnumerator* coroutineToBeKilled, int timeout, ::System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
-    // Offset: 0x2B4B114
+    // Offset: 0x2B574B4
     bool HasFailedWithTimeout();
     // private System.Void <ExMethod>b__10_0()
-    // Offset: 0x2B4B11C
+    // Offset: 0x2B574BC
     void $ExMethod$b__10_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
   #pragma pack(pop)

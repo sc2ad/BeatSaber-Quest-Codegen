@@ -42,20 +42,20 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainCallbacks::HeightmapChangedCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B322A8
+    // Offset: 0x2B42D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainCallbacks::HeightmapChangedCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainCallbacks::HeightmapChangedCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Terrain terrain, UnityEngine.RectInt heightRegion, System.Boolean synched)
-    // Offset: 0x2B318C8
+    // Offset: 0x2B423A0
     void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Terrain terrain, UnityEngine.RectInt heightRegion, System.Boolean synched, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B322B8
+    // Offset: 0x2B42D90
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B32378
+    // Offset: 0x2B42E50
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback
   #pragma pack(pop)

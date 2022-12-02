@@ -94,14 +94,14 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Vector3> corners;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
-    // [InjectAttribute] Offset: 0x111C648
+    // [InjectAttribute] Offset: 0x111C3D8
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C658
+    // [InjectAttribute] Offset: 0x111C3E8
     // private readonly SafeAreaRectChecker/InitData _initData
     // Size: 0x8
     // Offset: 0x50
@@ -132,17 +132,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SafeAreaRectChecker/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SafeAreaRectChecker::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x13FF21C
+    // Offset: 0x14062E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAreaRectChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SafeAreaRectChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeAreaRectChecker*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x13FEF6C
+    // Offset: 0x1406038
     void Start();
     // protected System.Void Update()
-    // Offset: 0x13FEFE0
+    // Offset: 0x14060AC
     void Update();
   }; // SafeAreaRectChecker
   #pragma pack(pop)

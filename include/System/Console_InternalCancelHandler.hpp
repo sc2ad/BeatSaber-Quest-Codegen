@@ -35,20 +35,20 @@ namespace System {
   class Console::InternalCancelHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D97AA4
+    // Offset: 0x1DA2BF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Console::InternalCancelHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Console::InternalCancelHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Console::InternalCancelHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1D98E74
+    // Offset: 0x1DA3FC0
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D99080
+    // Offset: 0x1DA41CC
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D990AC
+    // Offset: 0x1DA41F8
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Console/System.InternalCancelHandler
   #pragma pack(pop)

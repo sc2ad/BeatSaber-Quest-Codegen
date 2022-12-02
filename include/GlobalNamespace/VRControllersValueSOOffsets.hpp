@@ -68,19 +68,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _mirror
     [[deprecated("Use field access instead!")]] bool& dyn__mirror();
     // public System.Void .ctor()
-    // Offset: 0x162DE40
+    // Offset: 0x166820C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersValueSOOffsets* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersValueSOOffsets::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersValueSOOffsets*, creationType>()));
     }
     // public override UnityEngine.Vector3 get_positionOffset()
-    // Offset: 0x162DD70
+    // Offset: 0x166813C
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_positionOffset()
     ::UnityEngine::Vector3 get_positionOffset();
     // public override UnityEngine.Vector3 get_rotationOffset()
-    // Offset: 0x162DDD4
+    // Offset: 0x16681A0
     // Implemented from: VRControllerTransformOffset
     // Base method: UnityEngine.Vector3 VRControllerTransformOffset::get_rotationOffset()
     ::UnityEngine::Vector3 get_rotationOffset();

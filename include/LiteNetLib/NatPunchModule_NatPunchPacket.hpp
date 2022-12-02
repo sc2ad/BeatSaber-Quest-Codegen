@@ -43,19 +43,19 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Boolean <IsExternal>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsExternal$k__BackingField();
     // public System.String get_Token()
-    // Offset: 0x21F1808
+    // Offset: 0x21FE714
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x21F1810
+    // Offset: 0x21FE71C
     void set_Token(::StringW value);
     // public System.Boolean get_IsExternal()
-    // Offset: 0x21F1818
+    // Offset: 0x21FE724
     bool get_IsExternal();
     // public System.Void set_IsExternal(System.Boolean value)
-    // Offset: 0x21F1820
+    // Offset: 0x21FE72C
     void set_IsExternal(bool value);
     // public System.Void .ctor()
-    // Offset: 0x21F12D4
+    // Offset: 0x21FE1E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatPunchPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatPunchPacket::.ctor");

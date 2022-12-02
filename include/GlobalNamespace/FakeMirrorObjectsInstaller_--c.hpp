@@ -43,17 +43,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::Zenject::BindingId, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13883B8
+    // Offset: 0x138F1E4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x138841C
+    // Offset: 0x138F248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorObjectsInstaller::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorObjectsInstaller::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller::$$c*, creationType>()));
     }
     // System.Boolean <InstallBindings>b__11_0(Zenject.BindingId t)
-    // Offset: 0x1388424
+    // Offset: 0x138F250
     bool $InstallBindings$b__11_0(::Zenject::BindingId t);
   }; // FakeMirrorObjectsInstaller/<>c
   #pragma pack(pop)

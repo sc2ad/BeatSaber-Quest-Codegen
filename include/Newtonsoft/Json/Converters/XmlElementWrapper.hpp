@@ -65,20 +65,20 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private readonly System.Xml.XmlElement _element
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlElement*& dyn__element();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x180BF34
+    // Offset: 0x1810E70
     bool get_IsEmpty();
     // public System.Void .ctor(System.Xml.XmlElement element)
-    // Offset: 0x180BB28
+    // Offset: 0x1810A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlElementWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlElementWrapper*, creationType>(element)));
     }
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
-    // Offset: 0x180BE24
+    // Offset: 0x1810D60
     void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
-    // Offset: 0x180BF10
+    // Offset: 0x1810E4C
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
   }; // Newtonsoft.Json.Converters.XmlElementWrapper
   #pragma pack(pop)

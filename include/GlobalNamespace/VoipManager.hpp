@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class VoipManager : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1632AB8
+    // Offset: 0x166CD58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VoipManager::.ctor");

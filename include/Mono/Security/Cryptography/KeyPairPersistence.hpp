@@ -89,96 +89,96 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.String _container
     [[deprecated("Use field access instead!")]] ::StringW& dyn__container();
     // public System.String get_Filename()
-    // Offset: 0x200239C
+    // Offset: 0x1FF29C4
     ::StringW get_Filename();
     // public System.String get_KeyValue()
-    // Offset: 0x20030BC
+    // Offset: 0x1FF36E4
     ::StringW get_KeyValue();
     // public System.Void set_KeyValue(System.String value)
-    // Offset: 0x20030C4
+    // Offset: 0x1FF36EC
     void set_KeyValue(::StringW value);
     // static private System.String get_UserPath()
-    // Offset: 0x2002B94
+    // Offset: 0x1FF31BC
     static ::StringW get_UserPath();
     // static private System.String get_MachinePath()
-    // Offset: 0x2002670
+    // Offset: 0x1FF2C98
     static ::StringW get_MachinePath();
     // private System.Boolean get_CanChange()
-    // Offset: 0x20030D8
+    // Offset: 0x1FF3700
     bool get_CanChange();
     // private System.Boolean get_UseDefaultKeyContainer()
-    // Offset: 0x2003A38
+    // Offset: 0x1FF4060
     bool get_UseDefaultKeyContainer();
     // private System.Boolean get_UseMachineKeyStore()
-    // Offset: 0x2002650
+    // Offset: 0x1FF2C78
     bool get_UseMachineKeyStore();
     // private System.String get_ContainerName()
-    // Offset: 0x2002528
+    // Offset: 0x1FF2B50
     ::StringW get_ContainerName();
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters)
-    // Offset: 0x2002244
+    // Offset: 0x1FF286C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::KeyPairPersistence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyPairPersistence*, creationType>(parameters)));
     }
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters, System.String keyPair)
-    // Offset: 0x200224C
+    // Offset: 0x1FF2874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::KeyPairPersistence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyPairPersistence*, creationType>(parameters, keyPair)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2003B54
+    // Offset: 0x1FF417C
     static void _cctor();
     // public System.Boolean Load()
-    // Offset: 0x20030E8
+    // Offset: 0x1FF3710
     bool Load();
     // public System.Void Save()
-    // Offset: 0x2003330
+    // Offset: 0x1FF3958
     void Save();
     // public System.Void Remove()
-    // Offset: 0x2003808
+    // Offset: 0x1FF3E30
     void Remove();
     // static System.Boolean _CanSecure(System.String root)
-    // Offset: 0x2003950
+    // Offset: 0x1FF3F78
     static bool _CanSecure(::StringW root);
     // static System.Boolean _ProtectUser(System.String path)
-    // Offset: 0x2003954
+    // Offset: 0x1FF3F7C
     static bool _ProtectUser(::StringW path);
     // static System.Boolean _ProtectMachine(System.String path)
-    // Offset: 0x2003958
+    // Offset: 0x1FF3F80
     static bool _ProtectMachine(::StringW path);
     // static System.Boolean _IsUserProtected(System.String path)
-    // Offset: 0x200395C
+    // Offset: 0x1FF3F84
     static bool _IsUserProtected(::StringW path);
     // static System.Boolean _IsMachineProtected(System.String path)
-    // Offset: 0x2003960
+    // Offset: 0x1FF3F88
     static bool _IsMachineProtected(::StringW path);
     // static private System.Boolean CanSecure(System.String path)
-    // Offset: 0x2003964
+    // Offset: 0x1FF3F8C
     static bool CanSecure(::StringW path);
     // static private System.Boolean ProtectUser(System.String path)
-    // Offset: 0x2003770
+    // Offset: 0x1FF3D98
     static bool ProtectUser(::StringW path);
     // static private System.Boolean ProtectMachine(System.String path)
-    // Offset: 0x20036D8
+    // Offset: 0x1FF3D00
     static bool ProtectMachine(::StringW path);
     // static private System.Boolean IsUserProtected(System.String path)
-    // Offset: 0x2003820
+    // Offset: 0x1FF3E48
     static bool IsUserProtected(::StringW path);
     // static private System.Boolean IsMachineProtected(System.String path)
-    // Offset: 0x20038B8
+    // Offset: 0x1FF3EE0
     static bool IsMachineProtected(::StringW path);
     // private System.Security.Cryptography.CspParameters Copy(System.Security.Cryptography.CspParameters p)
-    // Offset: 0x20022F4
+    // Offset: 0x1FF291C
     ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p);
     // private System.Void FromXml(System.String xml)
-    // Offset: 0x2003224
+    // Offset: 0x1FF384C
     void FromXml(::StringW xml);
     // private System.String ToXml()
-    // Offset: 0x2003510
+    // Offset: 0x1FF3B38
     ::StringW ToXml();
   }; // Mono.Security.Cryptography.KeyPairPersistence
   #pragma pack(pop)

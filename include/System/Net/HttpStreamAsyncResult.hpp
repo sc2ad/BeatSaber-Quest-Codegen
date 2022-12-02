@@ -140,29 +140,29 @@ namespace System::Net {
     // Get instance field reference: System.Exception Error
     [[deprecated("Use field access instead!")]] ::System::Exception*& dyn_Error();
     // public System.Object get_AsyncState()
-    // Offset: 0x1AC4440
+    // Offset: 0x1ACF428
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1AC4448
+    // Offset: 0x1ACF430
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1AC4538
+    // Offset: 0x1ACF520
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1AC454C
+    // Offset: 0x1ACF534
     bool get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x1AC45E0
+    // Offset: 0x1ACF5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpStreamAsyncResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpStreamAsyncResult*, creationType>()));
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x1AC436C
+    // Offset: 0x1ACF354
     void Complete(::System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x1AC4374
+    // Offset: 0x1ACF35C
     void Complete();
   }; // System.Net.HttpStreamAsyncResult
   #pragma pack(pop)

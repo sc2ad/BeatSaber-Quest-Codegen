@@ -78,26 +78,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 sortIndex
     [[deprecated("Use field access instead!")]] int& dyn_sortIndex();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
-    // Offset: 0x16BF47C
+    // Offset: 0x16C5240
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16C00AC
+    // Offset: 0x16C5E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerSortOrderPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerSortOrderPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16BFFC4
+    // Offset: 0x16C5D88
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16C0008
+    // Offset: 0x16C5DCC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16C0050
+    // Offset: 0x16C5E14
     void Release();
     // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
-    // Offset: 0x16BF4C4
+    // Offset: 0x16C5288
     ::GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::StringW userId, int sortIndex);
   }; // ConnectedPlayerManager/PlayerSortOrderPacket
   #pragma pack(pop)

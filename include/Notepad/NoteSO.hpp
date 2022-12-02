@@ -61,7 +61,7 @@ namespace Notepad {
     // Get instance field reference: public Notepad.NoteURL[] urls
     [[deprecated("Use field access instead!")]] ::ArrayW<::Notepad::NoteURL>& dyn_urls();
     // public System.Void .ctor()
-    // Offset: 0x2B78C88
+    // Offset: 0x2B85028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Notepad::NoteSO::.ctor");

@@ -79,21 +79,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: spawnTestBox and: beatmapCallbacksController
     char __padding1[0x6] = {};
-    // [InjectAttribute] Offset: 0x1116938
+    // [InjectAttribute] Offset: 0x11166C8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116948
+    // [InjectAttribute] Offset: 0x11166D8
     // private readonly BeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116958
+    // [InjectAttribute] Offset: 0x11166E8
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -192,29 +192,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _rotatingLasers
     [[deprecated("Use field access instead!")]] bool& dyn__rotatingLasers();
     // public System.Void .ctor()
-    // Offset: 0x1386370
+    // Offset: 0x138D19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1383F48
+    // Offset: 0x138AD74
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1384094
+    // Offset: 0x138AEC0
     void Update();
     // private System.Void AddEventsForLightGroup(System.Int32 lightGroupId)
-    // Offset: 0x1384890
+    // Offset: 0x138B6BC
     void AddEventsForLightGroup(int lightGroupId);
     // private System.Void AddInstantToggleEventsForLightGroup(System.Int32 lightGroupId)
-    // Offset: 0x1385640
+    // Offset: 0x138C46C
     void AddInstantToggleEventsForLightGroup(int lightGroupId);
     // private System.Void AddToggleEventsForLightGroup(System.Int32 lightGroupId, EnvironmentColorType color)
-    // Offset: 0x1385114
+    // Offset: 0x138BF40
     void AddToggleEventsForLightGroup(int lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
     // private System.Void AddTestBox()
-    // Offset: 0x1385A30
+    // Offset: 0x138C85C
     void AddTestBox();
   }; // EventsTestGameplayManager
   #pragma pack(pop)

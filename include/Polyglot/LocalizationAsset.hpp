@@ -54,19 +54,19 @@ namespace Polyglot {
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format
     [[deprecated("Use field access instead!")]] ::Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // public UnityEngine.TextAsset get_TextAsset()
-    // Offset: 0x2ABC408
+    // Offset: 0x2ACC640
     ::UnityEngine::TextAsset* get_TextAsset();
     // public System.Void set_TextAsset(UnityEngine.TextAsset value)
-    // Offset: 0x2ABC410
+    // Offset: 0x2ACC648
     void set_TextAsset(::UnityEngine::TextAsset* value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
-    // Offset: 0x2ABC418
+    // Offset: 0x2ACC650
     ::Polyglot::GoogleDriveDownloadFormat get_Format();
     // public System.Void set_Format(Polyglot.GoogleDriveDownloadFormat value)
-    // Offset: 0x2ABC420
+    // Offset: 0x2ACC658
     void set_Format(::Polyglot::GoogleDriveDownloadFormat value);
     // public System.Void .ctor()
-    // Offset: 0x2ABC428
+    // Offset: 0x2ACC660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationAsset::.ctor");

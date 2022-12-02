@@ -31,12 +31,12 @@ namespace System::Xml {
   class Ucs4Encoding3412 : public ::System::Xml::Ucs4Encoding {
     public:
     // public override System.String get_EncodingName()
-    // Offset: 0x1C20AD8
+    // Offset: 0x1C2E24C
     // Implemented from: System.Text.Encoding
     // Base method: System.String Encoding::get_EncodingName()
     ::StringW get_EncodingName();
     // public System.Void .ctor()
-    // Offset: 0x1C208C8
+    // Offset: 0x1C2E03C
     // Implemented from: System.Xml.Ucs4Encoding
     // Base method: System.Void Ucs4Encoding::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,7 +45,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<Ucs4Encoding3412*, creationType>()));
     }
     // public override System.Byte[] GetPreamble()
-    // Offset: 0x1C20B20
+    // Offset: 0x1C2E294
     // Implemented from: System.Text.Encoding
     // Base method: System.Byte[] Encoding::GetPreamble()
     ::ArrayW<uint8_t> GetPreamble();

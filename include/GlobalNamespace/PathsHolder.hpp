@@ -54,20 +54,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly VertexPath _vertexPath
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::VertexPath*& dyn__vertexPath();
     // public BezierPath get_bezierPath()
-    // Offset: 0x137A3C8
+    // Offset: 0x13801F4
     ::GlobalNamespace::BezierPath* get_bezierPath();
     // public VertexPath get_vertexPath()
-    // Offset: 0x137A3D0
+    // Offset: 0x13801FC
     ::GlobalNamespace::VertexPath* get_vertexPath();
     // public System.Void .ctor(System.Int32 numberOfFixedVertexPathSegments, System.Boolean updateVertexPath)
-    // Offset: 0x137A3D8
+    // Offset: 0x1380204
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathsHolder* New_ctor(int numberOfFixedVertexPathSegments, bool updateVertexPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PathsHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathsHolder*, creationType>(numberOfFixedVertexPathSegments, updateVertexPath)));
     }
     // public System.Void UpdateVertexPathByBezierPath()
-    // Offset: 0x137A4FC
+    // Offset: 0x1380328
     void UpdateVertexPathByBezierPath();
   }; // PathsHolder
   #pragma pack(pop)

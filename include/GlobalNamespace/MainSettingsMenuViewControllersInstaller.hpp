@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TabBarViewController _tabBarViewControllerPrefab
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TabBarViewController*& dyn__tabBarViewControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x1337A24
+    // Offset: 0x133CA0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsMenuViewControllersInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsMenuViewControllersInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsMenuViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1337980
+    // Offset: 0x133C968
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

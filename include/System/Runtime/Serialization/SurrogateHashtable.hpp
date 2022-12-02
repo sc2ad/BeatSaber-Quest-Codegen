@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization {
   class SurrogateHashtable : public ::System::Collections::Hashtable {
     public:
     // System.Void .ctor(System.Int32 size)
-    // Offset: 0x167DD18
+    // Offset: 0x1684AB8
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Void Hashtable::.ctor(System.Int32 size)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,7 +38,7 @@ namespace System::Runtime::Serialization {
       return THROW_UNLESS((::il2cpp_utils::New<SurrogateHashtable*, creationType>(size)));
     }
     // protected override System.Boolean KeyEquals(System.Object key, System.Object item)
-    // Offset: 0x167DD20
+    // Offset: 0x1684AC0
     // Implemented from: System.Collections.Hashtable
     // Base method: System.Boolean Hashtable::KeyEquals(System.Object key, System.Object item)
     bool KeyEquals(::Il2CppObject* key, ::Il2CppObject* item);

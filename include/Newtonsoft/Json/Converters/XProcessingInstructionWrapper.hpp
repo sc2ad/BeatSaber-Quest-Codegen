@@ -37,22 +37,22 @@ namespace Newtonsoft::Json::Converters {
   class XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
     public:
     // private System.Xml.Linq.XProcessingInstruction get_ProcessingInstruction()
-    // Offset: 0x180B210
+    // Offset: 0x181014C
     ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
     // public System.Void .ctor(System.Xml.Linq.XProcessingInstruction processingInstruction)
-    // Offset: 0x1809960
+    // Offset: 0x180E89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XProcessingInstructionWrapper*, creationType>(processingInstruction)));
     }
     // public override System.String get_LocalName()
-    // Offset: 0x180B290
+    // Offset: 0x18101CC
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_Value()
-    // Offset: 0x180B2B0
+    // Offset: 0x18101EC
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_Value()
     ::StringW get_Value();

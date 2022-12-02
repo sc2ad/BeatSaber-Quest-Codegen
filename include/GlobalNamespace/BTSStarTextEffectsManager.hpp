@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BTSStarTextEventEffect* btsStarTextEventEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSStarTextEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x110C1EC
+    // [InjectAttribute] Offset: 0x110BF5C
     // private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
     // Size: 0x8
     // Offset: 0x20
@@ -73,23 +73,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BTSStarTextEffectController/Pool _btsStarTextEffectControllerPool
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BTSStarTextEffectController::Pool*& dyn__btsStarTextEffectControllerPool();
     // public System.Void .ctor()
-    // Offset: 0x13BEB00
+    // Offset: 0x139C1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEffectsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEffectsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectsManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13BE754
+    // Offset: 0x139BE3C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13BE888
+    // Offset: 0x139BF70
     void OnDestroy();
     // private System.Void HandleBTSStarTextEventEffect(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x13BE9BC
+    // Offset: 0x139C0A4
     void HandleBTSStarTextEventEffect(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // private System.Collections.IEnumerator DespawnEffectDelayed(BTSStarTextEffectController effectController)
-    // Offset: 0x13BEA58
+    // Offset: 0x139C140
     ::System::Collections::IEnumerator* DespawnEffectDelayed(::GlobalNamespace::BTSStarTextEffectController* effectController);
   }; // BTSStarTextEffectsManager
   #pragma pack(pop)

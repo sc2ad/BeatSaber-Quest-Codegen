@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class UserList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::User*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x2AF4A38
+    // Offset: 0x2B02C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserList::.ctor");

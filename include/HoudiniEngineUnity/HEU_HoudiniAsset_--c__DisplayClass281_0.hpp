@@ -54,14 +54,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& dyn_previousTransformValues();
     // public System.Void .ctor()
-    // Offset: 0x1894AB4
+    // Offset: 0x189A9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c__DisplayClass281_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass281_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAsset::$$c__DisplayClass281_0*, creationType>()));
     }
     // System.Void <BakeToExistingPrefab>b__0(UnityEngine.Transform trans)
-    // Offset: 0x1894ABC
+    // Offset: 0x189A9E4
     void $BakeToExistingPrefab$b__0(::UnityEngine::Transform* trans);
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c__DisplayClass281_0
   #pragma pack(pop)

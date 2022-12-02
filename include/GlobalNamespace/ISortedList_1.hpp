@@ -63,12 +63,12 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
-    // public System.Collections.Generic.LinkedListNode`1<T> NodeForItem(T item)
+    // public System.Void TouchLastUsedNode(System.Collections.Generic.LinkedListNode`1<T> node)
     // Offset: 0xFFFFFFFFFFFFFFFF
-    ::System::Collections::Generic::LinkedListNode_1<T>* NodeForItem(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::NodeForItem");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "NodeForItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method, item);
+    void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<T>* node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ISortedList_1::TouchLastUsedNode");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TouchLastUsedNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
   }; // ISortedList`1
   // Could not write size check! Type: ISortedList`1 is generic, or has no fields that are valid for size checks!

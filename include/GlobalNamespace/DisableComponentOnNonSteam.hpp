@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MonoBehaviour _component
     [[deprecated("Use field access instead!")]] ::UnityEngine::MonoBehaviour*& dyn__component();
     // public System.Void .ctor()
-    // Offset: 0x1435A38
+    // Offset: 0x143CCDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableComponentOnNonSteam* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableComponentOnNonSteam::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableComponentOnNonSteam*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1435A18
+    // Offset: 0x143CCBC
     void Awake();
   }; // DisableComponentOnNonSteam
   #pragma pack(pop)

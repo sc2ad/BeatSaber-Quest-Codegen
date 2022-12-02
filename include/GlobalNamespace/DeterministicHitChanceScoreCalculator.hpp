@@ -70,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _chanceAggregated
     [[deprecated("Use field access instead!")]] float& dyn__chanceAggregated();
     // public System.Void .ctor(System.Single hitChance)
-    // Offset: 0x1434DC4
+    // Offset: 0x143C068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeterministicHitChanceScoreCalculator* New_ctor(float hitChance) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeterministicHitChanceScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeterministicHitChanceScoreCalculator*, creationType>(hitChance)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x1434DF8
+    // Offset: 0x143C09C
     int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // DeterministicHitChanceScoreCalculator
   #pragma pack(pop)

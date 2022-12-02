@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public RecordingToolConfigurationProcessor/ColorSaveData backgroundColor
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolConfigurationProcessor::ColorSaveData*& dyn_backgroundColor();
     // public System.Void .ctor()
-    // Offset: 0x141BAB0
+    // Offset: 0x1422D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolConfigurationProcessor::PlaybackScreenshot* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolConfigurationProcessor::PlaybackScreenshot::.ctor");

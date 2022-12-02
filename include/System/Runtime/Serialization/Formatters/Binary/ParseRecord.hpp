@@ -400,13 +400,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 PRnullCount
     [[deprecated("Use field access instead!")]] int& dyn_PRnullCount();
     // static private System.Void .cctor()
-    // Offset: 0x166A490
+    // Offset: 0x1671230
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x166A434
+    // Offset: 0x16711D4
     void Init();
     // System.Void .ctor()
-    // Offset: 0x166A42C
+    // Offset: 0x16711CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

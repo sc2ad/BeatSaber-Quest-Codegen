@@ -77,17 +77,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
     [[deprecated("Use field access instead!")]] ::System::Action_1<::Zenject::DiContainer*>*& dyn_finishCallback();
     // public System.Void .ctor()
-    // Offset: 0x15F477C
+    // Offset: 0x15FD648
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass30_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass30_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass30_0*, creationType>()));
     }
     // System.Void <PushScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x15F6420
+    // Offset: 0x15FF2EC
     void $PushScenes$b__0(::Zenject::DiContainer* container);
     // System.Void <PushScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x15F64CC
+    // Offset: 0x15FF398
     void $PushScenes$b__1(::Zenject::DiContainer* container);
   }; // GameScenesManager/<>c__DisplayClass30_0
   #pragma pack(pop)

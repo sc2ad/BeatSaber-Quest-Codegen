@@ -63,26 +63,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.OffsetModifier <>4__this
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::OffsetModifier*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x204DD3C
+    // Offset: 0x203D364
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x204DDA4
+    // Offset: 0x203D3CC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x204D6A0
+    // Offset: 0x203CCC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier::$Initiate$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::$Initiate$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::$Initiate$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x204DBFC
+    // Offset: 0x203D224
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x204DC00
+    // Offset: 0x203D228
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x204DD44
+    // Offset: 0x203D36C
     void System_Collections_IEnumerator_Reset();
   }; // RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.<Initiate>d__8
   #pragma pack(pop)

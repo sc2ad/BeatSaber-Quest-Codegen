@@ -129,88 +129,88 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.RefreshEventHandler Refreshed
     static void _set_Refreshed(::System::ComponentModel::RefreshEventHandler* value);
     // static public System.Type get_ComObjectType()
-    // Offset: 0x1E20CF4
+    // Offset: 0x1E2DE40
     static ::System::Type* get_ComObjectType();
     // static public System.Type get_InterfaceType()
-    // Offset: 0x1E20D64
+    // Offset: 0x1E2DEB0
     static ::System::Type* get_InterfaceType();
     // static System.Int32 get_MetadataVersion()
-    // Offset: 0x1E20DD4
+    // Offset: 0x1E2DF20
     static int get_MetadataVersion();
     // static private System.Void .cctor()
-    // Offset: 0x1E26130
+    // Offset: 0x1E3327C
     static void _cctor();
     // static public System.Void AddProvider(System.ComponentModel.TypeDescriptionProvider provider, System.Type type)
-    // Offset: 0x1E20E3C
+    // Offset: 0x1E2DF88
     static void AddProvider(::System::ComponentModel::TypeDescriptionProvider* provider, ::System::Type* type);
     // static private System.Void CheckDefaultProvider(System.Type type)
-    // Offset: 0x1E21AC4
+    // Offset: 0x1E2EC10
     static void CheckDefaultProvider(::System::Type* type);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Type componentType)
-    // Offset: 0x1E1E1B4
+    // Offset: 0x1E2B300
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* componentType);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Object component)
-    // Offset: 0x1E1E2F8
+    // Offset: 0x1E2B444
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::Il2CppObject* component);
     // static public System.ComponentModel.AttributeCollection GetAttributes(System.Object component, System.Boolean noCustomTypeDesc)
-    // Offset: 0x1E221C0
+    // Offset: 0x1E2F30C
     static ::System::ComponentModel::AttributeCollection* GetAttributes(::Il2CppObject* component, bool noCustomTypeDesc);
     // static System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1E25164
+    // Offset: 0x1E322B0
     static ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // static public System.ComponentModel.TypeConverter GetConverter(System.Type type)
-    // Offset: 0x1E259B0
+    // Offset: 0x1E32AFC
     static ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
     // static System.ComponentModel.ICustomTypeDescriptor GetDescriptor(System.Type type, System.String typeName)
-    // Offset: 0x1E220CC
+    // Offset: 0x1E2F218
     static ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::System::Type* type, ::StringW typeName);
     // static System.ComponentModel.ICustomTypeDescriptor GetDescriptor(System.Object component, System.Boolean noCustomTypeDesc)
-    // Offset: 0x1E22624
+    // Offset: 0x1E2F770
     static ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::Il2CppObject* component, bool noCustomTypeDesc);
     // static System.ComponentModel.ICustomTypeDescriptor GetExtendedDescriptor(System.Object component)
-    // Offset: 0x1E22810
+    // Offset: 0x1E2F95C
     static ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedDescriptor(::Il2CppObject* component);
     // static private System.String GetExtenderCollisionSuffix(System.ComponentModel.MemberDescriptor member)
-    // Offset: 0x1E25B00
+    // Offset: 0x1E32C4C
     static ::StringW GetExtenderCollisionSuffix(::System::ComponentModel::MemberDescriptor* member);
     // static private System.Type GetNodeForBaseType(System.Type searchType)
-    // Offset: 0x1E25E0C
+    // Offset: 0x1E32F58
     static ::System::Type* GetNodeForBaseType(::System::Type* searchType);
     // static System.ComponentModel.TypeDescriptionProvider GetProviderRecursive(System.Type type)
-    // Offset: 0x1E12848
+    // Offset: 0x1E1F994
     static ::System::ComponentModel::TypeDescriptionProvider* GetProviderRecursive(::System::Type* type);
     // static public System.Type GetReflectionType(System.Type type)
-    // Offset: 0x1E0FBBC
+    // Offset: 0x1E1CD08
     static ::System::Type* GetReflectionType(::System::Type* type);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Type type)
-    // Offset: 0x1E25A98
+    // Offset: 0x1E32BE4
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::System::Type* type);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Type type, System.Boolean createDelegator)
-    // Offset: 0x1E2108C
+    // Offset: 0x1E2E1D8
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::System::Type* type, bool createDelegator);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Object instance)
-    // Offset: 0x1E25948
+    // Offset: 0x1E32A94
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::Il2CppObject* instance);
     // static private System.ComponentModel.TypeDescriptor/System.ComponentModel.TypeDescriptionNode NodeFor(System.Object instance, System.Boolean createDelegator)
-    // Offset: 0x1E25F08
+    // Offset: 0x1E33054
     static ::System::ComponentModel::TypeDescriptor::TypeDescriptionNode* NodeFor(::Il2CppObject* instance, bool createDelegator);
     // static private System.Collections.ICollection PipelineFilter(System.Int32 pipelineType, System.Collections.ICollection members, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1E239B0
+    // Offset: 0x1E30AFC
     static ::System::Collections::ICollection* PipelineFilter(int pipelineType, ::System::Collections::ICollection* members, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
     // static private System.Collections.ICollection PipelineInitialize(System.Int32 pipelineType, System.Collections.ICollection members, System.Collections.IDictionary cache)
-    // Offset: 0x1E251E0
+    // Offset: 0x1E3232C
     static ::System::Collections::ICollection* PipelineInitialize(int pipelineType, ::System::Collections::ICollection* members, ::System::Collections::IDictionary* cache);
     // static private System.Collections.ICollection PipelineMerge(System.Int32 pipelineType, System.Collections.ICollection primary, System.Collections.ICollection secondary, System.Object instance, System.Collections.IDictionary cache)
-    // Offset: 0x1E228CC
+    // Offset: 0x1E2FA18
     static ::System::Collections::ICollection* PipelineMerge(int pipelineType, ::System::Collections::ICollection* primary, ::System::Collections::ICollection* secondary, ::Il2CppObject* instance, ::System::Collections::IDictionary* cache);
     // static private System.Void RaiseRefresh(System.Type type)
-    // Offset: 0x1E26080
+    // Offset: 0x1E331CC
     static void RaiseRefresh(::System::Type* type);
     // static public System.Void Refresh(System.Type type)
-    // Offset: 0x1E215A8
+    // Offset: 0x1E2E6F4
     static void Refresh(::System::Type* type);
     // static public System.Void SortDescriptorArray(System.Collections.IList infos)
-    // Offset: 0x1E16C3C
+    // Offset: 0x1E23D88
     static void SortDescriptorArray(::System::Collections::IList* infos);
   }; // System.ComponentModel.TypeDescriptor
   #pragma pack(pop)

@@ -159,20 +159,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private IReadonlyBeatmapData _transformedBeatmapData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn__transformedBeatmapData();
     // public IReadonlyBeatmapData get_transformedBeatmapData()
-    // Offset: 0x144C5D4
+    // Offset: 0x1453878
     ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useTestNoteCutSoundEffects, EnvironmentInfoSO environmentInfo, ColorScheme colorScheme, MainSettingsModelSO mainSettingsModel, BeatmapDataCache beatmapDataCache)
-    // Offset: 0x144C5DC
+    // Offset: 0x1453880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayCoreSceneSetupData* New_ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayCoreSceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayCoreSceneSetupData*, creationType>(difficultyBeatmap, previewBeatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, beatmapDataCache)));
     }
     // public System.Threading.Tasks.Task LoadTransformedBeatmapDataAsync()
-    // Offset: 0x144C674
+    // Offset: 0x1453918
     ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
     // private System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetTransformedBeatmapDataAsync()
-    // Offset: 0x144C764
+    // Offset: 0x1453A08
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetTransformedBeatmapDataAsync();
   }; // GameplayCoreSceneSetupData
   #pragma pack(pop)

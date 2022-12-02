@@ -48,10 +48,10 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ScreenModeData _data
     [[deprecated("Use field access instead!")]] ::HMUI::ScreenModeData*& dyn__data();
     // public HMUI.ScreenModeData get_data()
-    // Offset: 0x1704D24
+    // Offset: 0x170AD6C
     ::HMUI::ScreenModeData* get_data();
     // public System.Void .ctor()
-    // Offset: 0x1704D2C
+    // Offset: 0x170AD74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenModeSO::.ctor");

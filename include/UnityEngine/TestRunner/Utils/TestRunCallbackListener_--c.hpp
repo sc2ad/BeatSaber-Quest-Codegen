@@ -73,26 +73,26 @@ namespace UnityEngine::TestRunner::Utils {
     // Set static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
     static void _set_$$9__2_2(::System::Func_2<::UnityEngine::TestRunner::TestRunCallbackAttribute*, ::UnityEngine::TestRunner::ITestRunCallback*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x198DE70
+    // Offset: 0x1995D98
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x198DED4
+    // Offset: 0x1995DFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c*, creationType>()));
     }
     // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
-    // Offset: 0x198DEDC
+    // Offset: 0x1995E04
     bool $GetAllCallbacks$b__2_0(::System::Reflection::Assembly* x);
     // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
-    // Offset: 0x198DFF0
+    // Offset: 0x1995F18
     bool $GetAllCallbacks$b__2_3(::System::Reflection::AssemblyName* z);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
-    // Offset: 0x198E04C
+    // Offset: 0x1995F74
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(::System::Reflection::Assembly* assembly);
     // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
-    // Offset: 0x198E0F4
+    // Offset: 0x199601C
     ::UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(::UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c
   #pragma pack(pop)

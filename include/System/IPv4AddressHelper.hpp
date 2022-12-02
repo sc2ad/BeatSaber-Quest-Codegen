@@ -24,25 +24,25 @@ namespace System {
   class IPv4AddressHelper : public ::Il2CppObject {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean isLoopback)
-    // Offset: 0x1D8621C
+    // Offset: 0x1D91368
     static ::StringW ParseCanonicalName(::StringW str, int start, int end, ByRef<bool> isLoopback);
     // static System.Int32 ParseHostNumber(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0x1D8651C
+    // Offset: 0x1D91668
     static int ParseHostNumber(::StringW str, int start, int end);
     // static System.Boolean IsValid(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile, System.Boolean unknownScheme)
-    // Offset: 0x1D8660C
+    // Offset: 0x1D91758
     static bool IsValid(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
     // static System.Boolean IsValidCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean allowIPv6, System.Boolean notImplicitFile)
-    // Offset: 0x1D86640
+    // Offset: 0x1D9178C
     static bool IsValidCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool allowIPv6, bool notImplicitFile);
     // static System.Int64 ParseNonCanonical(System.Char* name, System.Int32 start, ref System.Int32 end, System.Boolean notImplicitFile)
-    // Offset: 0x1D86780
+    // Offset: 0x1D918CC
     static int64_t ParseNonCanonical(::Il2CppChar* name, int start, ByRef<int> end, bool notImplicitFile);
     // static private System.Boolean Parse(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x1D8648C
+    // Offset: 0x1D915D8
     static bool Parse(::StringW name, uint8_t* numbers, int start, int end);
     // static private System.Boolean ParseCanonical(System.String name, System.Byte* numbers, System.Int32 start, System.Int32 end)
-    // Offset: 0x1D86550
+    // Offset: 0x1D9169C
     static bool ParseCanonical(::StringW name, uint8_t* numbers, int start, int end);
   }; // System.IPv4AddressHelper
   #pragma pack(pop)

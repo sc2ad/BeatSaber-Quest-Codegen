@@ -36,21 +36,21 @@ namespace Org::BouncyCastle::Asn1 {
   class Asn1ParsingException : public ::System::InvalidOperationException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CD78A0
+    // Offset: 0x1CE09EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1ParsingException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1ParsingException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1CD78A8
+    // Offset: 0x1CE09F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1ParsingException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1ParsingException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x1CD78B0
+    // Offset: 0x1CE09FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1ParsingException* New_ctor(::StringW message, ::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1ParsingException::.ctor");

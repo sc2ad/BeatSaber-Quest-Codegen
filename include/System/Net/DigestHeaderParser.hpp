@@ -67,41 +67,41 @@ namespace System::Net {
     // Get instance field reference: private System.String[] values
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_values();
     // public System.String get_Realm()
-    // Offset: 0x1A93AC8
+    // Offset: 0x1A9EAB0
     ::StringW get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x1A93AFC
+    // Offset: 0x1A9EAE4
     ::StringW get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x1A93B34
+    // Offset: 0x1A9EB1C
     ::StringW get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1A93B6C
+    // Offset: 0x1A9EB54
     ::StringW get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x1A93BA4
+    // Offset: 0x1A9EB8C
     ::StringW get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x1A93A10
+    // Offset: 0x1A9E9F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A94080
+    // Offset: 0x1A9F068
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x1A93BDC
+    // Offset: 0x1A9EBC4
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x1A93F60
+    // Offset: 0x1A9EF48
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x1A93FEC
+    // Offset: 0x1A9EFD4
     ::StringW GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x1A93DC4
+    // Offset: 0x1A9EDAC
     bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)

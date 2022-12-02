@@ -173,7 +173,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public DirectionalLight[] _directionalLights
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // public System.Void .ctor()
-    // Offset: 0x139D0A0
+    // Offset: 0x13B85C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineArrayReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimelineArrayReference::.ctor");

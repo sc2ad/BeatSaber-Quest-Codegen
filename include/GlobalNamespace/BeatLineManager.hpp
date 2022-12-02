@@ -61,21 +61,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: linesYPosition and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x111223C
+    // [InjectAttribute] Offset: 0x1111FCC
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111224C
+    // [InjectAttribute] Offset: 0x1111FDC
     // private BeatLine/Pool _beatLinePool
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatLine::Pool* beatLinePool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLine::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111225C
+    // [InjectAttribute] Offset: 0x1111FEC
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -136,32 +136,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotationRange
     [[deprecated("Use field access instead!")]] float& dyn__rotationRange();
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x13C4C68
+    // Offset: 0x13A2350
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x13C4C70
+    // Offset: 0x13A2358
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x13C4C78
+    // Offset: 0x13A2360
     float get_rotationRange();
     // public System.Void .ctor()
-    // Offset: 0x13C5358
+    // Offset: 0x13A2A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatLineManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatLineManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatLineManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C4C80
+    // Offset: 0x13A2368
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C4D14
+    // Offset: 0x13A23FC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13C4DA8
+    // Offset: 0x13A2490
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x13C515C
+    // Offset: 0x13A2844
     void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
   }; // BeatLineManager
   #pragma pack(pop)

@@ -38,14 +38,14 @@ namespace System::Net::Http {
   class StringContent : public ::System::Net::Http::ByteArrayContent {
     public:
     // public System.Void .ctor(System.String content, System.Text.Encoding encoding, System.String mediaType)
-    // Offset: 0x19C31B0
+    // Offset: 0x19E0514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringContent* New_ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StringContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringContent*, creationType>(content, encoding, mediaType)));
     }
     // static private System.Byte[] GetByteArray(System.String content, System.Text.Encoding encoding)
-    // Offset: 0x19C32B0
+    // Offset: 0x19E0614
     static ::ArrayW<uint8_t> GetByteArray(::StringW content, ::System::Text::Encoding* encoding);
   }; // System.Net.Http.StringContent
   #pragma pack(pop)

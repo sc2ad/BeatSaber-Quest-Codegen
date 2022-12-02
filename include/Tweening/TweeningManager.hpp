@@ -95,41 +95,41 @@ namespace Tweening {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void .ctor()
-    // Offset: 0x13A43E4
+    // Offset: 0x13BF90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweeningManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::TweeningManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweeningManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13A45E8
+    // Offset: 0x13BFB10
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x13A4654
+    // Offset: 0x13BFB7C
     void LateUpdate();
     // protected System.Single GetTime()
     // Offset: 0xFFFFFFFFFFFFFFFF
     float GetTime();
     // public Tweening.Tween AddTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x13A49A4
+    // Offset: 0x13BFECC
     ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x13A4AD0
+    // Offset: 0x13BFFF8
     ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public Tweening.Tween ResumeTween(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x13A4B34
+    // Offset: 0x13C005C
     ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // public System.Void KillAllTweens(System.Object owner)
-    // Offset: 0x13A4B64
+    // Offset: 0x13C008C
     void KillAllTweens(::Il2CppObject* owner);
     // private System.Void RemoveTweenFromOwnerDictionary(Tweening.Tween tween)
-    // Offset: 0x13A481C
+    // Offset: 0x13BFD44
     void RemoveTweenFromOwnerDictionary(::Tweening::Tween* tween);
     // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x13A49F4
+    // Offset: 0x13BFF1C
     bool AddTweenToDataStructures(::Tweening::Tween* tween, ::Il2CppObject* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, System.Object owner)
-    // Offset: 0x13A4C8C
+    // Offset: 0x13C01B4
     void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::Il2CppObject* owner);
   }; // Tweening.TweeningManager
   #pragma pack(pop)

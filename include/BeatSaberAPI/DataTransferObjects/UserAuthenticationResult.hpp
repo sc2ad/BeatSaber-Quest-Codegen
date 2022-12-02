@@ -54,7 +54,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.AccessToken accessToken
     [[deprecated("Use field access instead!")]] ::BeatSaberAPI::DataTransferObjects::AccessToken*& dyn_accessToken();
     // public System.Void .ctor()
-    // Offset: 0x13C5440
+    // Offset: 0x13A2B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAuthenticationResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserAuthenticationResult::.ctor");

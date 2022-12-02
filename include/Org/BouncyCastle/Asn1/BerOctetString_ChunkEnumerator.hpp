@@ -78,20 +78,20 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private System.Int32 nextChunkPos
     [[deprecated("Use field access instead!")]] int& dyn_nextChunkPos();
     // public System.Object get_Current()
-    // Offset: 0x1CDB36C
+    // Offset: 0x1CE44B8
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
-    // Offset: 0x1CDAF90
+    // Offset: 0x1CE40DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BerOctetString::ChunkEnumerator* New_ctor(::ArrayW<uint8_t> octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1CDB3E4
+    // Offset: 0x1CE4530
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1CDB4FC
+    // Offset: 0x1CE4648
     void Reset();
   }; // Org.BouncyCastle.Asn1.BerOctetString/Org.BouncyCastle.Asn1.ChunkEnumerator
   #pragma pack(pop)

@@ -57,19 +57,19 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.Principal.SecurityIdentifier identifier
     [[deprecated("Use field access instead!")]] ::System::Security::Principal::SecurityIdentifier*& dyn_identifier();
     // public System.Int32 get_AccessMask()
-    // Offset: 0x1B9882C
+    // Offset: 0x1BA384C
     int get_AccessMask();
     // public System.Void set_AccessMask(System.Int32 value)
-    // Offset: 0x1B98834
+    // Offset: 0x1BA3854
     void set_AccessMask(int value);
     // public System.Security.Principal.SecurityIdentifier get_SecurityIdentifier()
-    // Offset: 0x1B9883C
+    // Offset: 0x1BA385C
     ::System::Security::Principal::SecurityIdentifier* get_SecurityIdentifier();
     // public System.Void set_SecurityIdentifier(System.Security.Principal.SecurityIdentifier value)
-    // Offset: 0x1B98844
+    // Offset: 0x1BA3864
     void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier* value);
     // System.Void .ctor(System.Security.AccessControl.AceType type, System.Security.AccessControl.AceFlags flags)
-    // Offset: 0x1B98824
+    // Offset: 0x1BA3844
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Void GenericAce::.ctor(System.Security.AccessControl.AceType type, System.Security.AccessControl.AceFlags flags)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +78,7 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<KnownAce*, creationType>(type, flags)));
     }
     // System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B98828
+    // Offset: 0x1BA3848
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Void GenericAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

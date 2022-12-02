@@ -99,26 +99,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapDataBasicInfo _beatmapDataBasic
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapDataBasicInfo*& dyn__beatmapDataBasic();
     // public System.Void .ctor()
-    // Offset: 0x1552E14
+    // Offset: 0x155BD40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x15529B0
+    // Offset: 0x155B8DC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
     // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(BeatmapDifficulty beatmapDifficulty, System.Single beatsPerMinute, System.Boolean loadingForDesignatedEnvironment, EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1552AB0
+    // Offset: 0x155B9DC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float beatsPerMinute, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetJsonData(System.String jsonData)
-    // Offset: 0x1552BFC
+    // Offset: 0x155BB28
     void SetJsonData(::StringW jsonData);
     // private System.Threading.Tasks.Task`1<BeatmapSaveDataVersion3.BeatmapSaveData> LoadBeatmapSaveDataAsync()
-    // Offset: 0x1552C04
+    // Offset: 0x155BB30
     ::System::Threading::Tasks::Task_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>* LoadBeatmapSaveDataAsync();
     // private System.Threading.Tasks.Task RunTaskAndLogException(System.Action action)
-    // Offset: 0x1552D24
+    // Offset: 0x155BC50
     ::System::Threading::Tasks::Task* RunTaskAndLogException(::System::Action* action);
   }; // BeatmapDataSO
   #pragma pack(pop)

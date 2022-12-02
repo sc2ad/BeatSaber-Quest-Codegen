@@ -41,43 +41,43 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
     public:
-    // [TooltipAttribute] Offset: 0x113D9DC
+    // [TooltipAttribute] Offset: 0x113D7DC
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113DA14
+    // [TooltipAttribute] Offset: 0x113D814
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::Inertia::Body::EffectorLink*> effectorLinks;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Inertia::Body::EffectorLink*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x113DA4C
+    // [TooltipAttribute] Offset: 0x113D84C
     // public System.Single speed
     // Size: 0x4
     // Offset: 0x20
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113DA84
+    // [TooltipAttribute] Offset: 0x113D884
     // public System.Single acceleration
     // Size: 0x4
     // Offset: 0x24
     float acceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113DABC
-    // [RangeAttribute] Offset: 0x113DABC
+    // [TooltipAttribute] Offset: 0x113D8BC
+    // [RangeAttribute] Offset: 0x113D8BC
     // public System.Single matchVelocity
     // Size: 0x4
     // Offset: 0x28
     float matchVelocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113DB10
+    // [TooltipAttribute] Offset: 0x113D910
     // public System.Single gravity
     // Size: 0x4
     // Offset: 0x2C
@@ -138,17 +138,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean firstUpdate
     [[deprecated("Use field access instead!")]] bool& dyn_firstUpdate();
     // public System.Void .ctor()
-    // Offset: 0x2403B2C
+    // Offset: 0x2412DF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Inertia::Body* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Inertia::Body::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Inertia::Body*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x2403614
+    // Offset: 0x24128E0
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
-    // Offset: 0x24037AC
+    // Offset: 0x2412A78
     void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
   }; // RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body
   #pragma pack(pop)

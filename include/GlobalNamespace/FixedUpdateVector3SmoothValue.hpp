@@ -30,10 +30,10 @@ namespace GlobalNamespace {
   class FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
     public:
     // protected UnityEngine.Vector3 Interpolate(UnityEngine.Vector3 value0, UnityEngine.Vector3 value1, System.Single t)
-    // Offset: 0x15F33A8
+    // Offset: 0x15FC274
     ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float t);
     // public System.Void .ctor(System.Single smooth)
-    // Offset: 0x15F3348
+    // Offset: 0x15FC214
     // Implemented from: FixedUpdateSmoothValue`1
     // Base method: System.Void FixedUpdateSmoothValue_1::.ctor(System.Single smooth)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

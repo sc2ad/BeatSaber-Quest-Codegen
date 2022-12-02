@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     ::HMUI::FlowCoordinator* rootFlowCoordinator;
     // Field size check
     static_assert(sizeof(::HMUI::FlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1124BA4
+    // [InjectAttribute] Offset: 0x1124944
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1124BB4
+    // [InjectAttribute] Offset: 0x1124954
     // private readonly HMUI.HierarchyManager _hierarchyManager
     // Size: 0x8
     // Offset: 0x28
@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.HierarchyManager _hierarchyManager
     [[deprecated("Use field access instead!")]] ::HMUI::HierarchyManager*& dyn__hierarchyManager();
     // public System.Void .ctor()
-    // Offset: 0x133C894
+    // Offset: 0x134187C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuSceneSetup*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x133C7F8
+    // Offset: 0x13417E0
     ::System::Collections::IEnumerator* Start();
   }; // MenuSceneSetup
   #pragma pack(pop)

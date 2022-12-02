@@ -46,10 +46,10 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Get instance field reference: private System.Int32 buf
     [[deprecated("Use field access instead!")]] int& dyn_buf();
     // public System.Void Unread(System.Int32 b)
-    // Offset: 0x26794DC
+    // Offset: 0x268871C
     void Unread(int b);
     // public System.Void .ctor(System.IO.Stream s)
-    // Offset: 0x2679418
+    // Offset: 0x2688658
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream s)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,12 +58,12 @@ namespace Org::BouncyCastle::Utilities::IO {
       return THROW_UNLESS((::il2cpp_utils::New<PushbackStream*, creationType>(s)));
     }
     // public override System.Int32 ReadByte()
-    // Offset: 0x2679424
+    // Offset: 0x2688664
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::ReadByte()
     int ReadByte();
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x2679464
+    // Offset: 0x26886A4
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     int Read(::ArrayW<uint8_t> buffer, int offset, int count);

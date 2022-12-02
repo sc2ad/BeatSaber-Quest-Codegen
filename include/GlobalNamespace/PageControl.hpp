@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* content;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1122BF4
+    // [SpaceAttribute] Offset: 0x1122994
     // private System.Single _spacing
     // Size: 0x4
     // Offset: 0x20
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: spacing and: elementPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1122C2C
+    // [SpaceAttribute] Offset: 0x11229CC
     // private PageControlElement _elementPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -114,20 +114,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _pagesCount
     [[deprecated("Use field access instead!")]] int& dyn__pagesCount();
     // public System.Void .ctor()
-    // Offset: 0x1377B80
+    // Offset: 0x137D9AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PageControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PageControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PageControl*, creationType>()));
     }
     // public System.Void SetPagesCount(System.Int32 pagesCount)
-    // Offset: 0x13776DC
+    // Offset: 0x137D508
     void SetPagesCount(int pagesCount);
     // public System.Void SetSelectedPageIndex(System.Int32 page)
-    // Offset: 0x1377A54
+    // Offset: 0x137D880
     void SetSelectedPageIndex(int page);
     // public System.Void SetVisible(System.Boolean isVisible)
-    // Offset: 0x1377B44
+    // Offset: 0x137D970
     void SetVisible(bool isVisible);
   }; // PageControl
   #pragma pack(pop)

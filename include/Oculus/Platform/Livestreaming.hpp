@@ -40,19 +40,19 @@ namespace Oculus::Platform {
   class Livestreaming : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> GetStatus()
-    // Offset: 0x19FCD18
+    // Offset: 0x1A05C08
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LivestreamingStatus*>* GetStatus();
     // static public Oculus.Platform.Request LaunchLivestreamingFlow()
-    // Offset: 0x19FCE24
+    // Offset: 0x1A05D14
     static ::Oculus::Platform::Request* LaunchLivestreamingFlow();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> PauseStream()
-    // Offset: 0x19FCF28
+    // Offset: 0x1A05E18
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LivestreamingStatus*>* PauseStream();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LivestreamingStatus> ResumeStream()
-    // Offset: 0x19FD034
+    // Offset: 0x1A05F24
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LivestreamingStatus*>* ResumeStream();
     // static public System.Void SetStatusUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LivestreamingStatus> callback)
-    // Offset: 0x19FD140
+    // Offset: 0x1A06030
     static void SetStatusUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStatus*>::Callback* callback);
   }; // Oculus.Platform.Livestreaming
   #pragma pack(pop)

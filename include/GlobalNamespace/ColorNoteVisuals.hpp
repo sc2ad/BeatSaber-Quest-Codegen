@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultColorAlpha and: noteController
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1112748
+    // [SpaceAttribute] Offset: 0x11124D8
     // private NoteControllerBase _noteController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::NoteControllerBase* noteController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteControllerBase*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1112780
+    // [SpaceAttribute] Offset: 0x1112510
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x28
@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::MeshRenderer*> circleMeshRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [InjectAttribute] Offset: 0x11127D8
+    // [InjectAttribute] Offset: 0x1112568
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11127F8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112588
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -162,41 +162,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _noteColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__noteColor();
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0x13E331C
+    // Offset: 0x13EB378
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0x13E3398
+    // Offset: 0x13EB3F4
     void set_showCircle(bool value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x13E31D4
+    // Offset: 0x13EB230
     void add_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x13E3278
+    // Offset: 0x13EB2D4
     void remove_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13E3A0C
+    // Offset: 0x13EBA68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorNoteVisuals* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorNoteVisuals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorNoteVisuals*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13E3A1C
+    // Offset: 0x13EBA78
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x13E3414
+    // Offset: 0x13EB470
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E35EC
+    // Offset: 0x13EB648
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x13E3810
+    // Offset: 0x13EB86C
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0x13E39B4
+    // Offset: 0x13EBA10
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x13E39E0
+    // Offset: 0x13EBA3C
     void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
   }; // ColorNoteVisuals
   #pragma pack(pop)

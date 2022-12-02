@@ -38,28 +38,28 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   class ResourceLocationData : public ::Il2CppObject {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x11059A0
+    // [FormerlySerializedAsAttribute] Offset: 0x1106720
     // private System.String[] m_Keys
     // Size: 0x8
     // Offset: 0x10
     ::ArrayW<::StringW> m_Keys;
     // Field size check
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x11059EC
+    // [FormerlySerializedAsAttribute] Offset: 0x110676C
     // private System.String m_InternalId
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_InternalId;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1105A38
+    // [FormerlySerializedAsAttribute] Offset: 0x11067B8
     // private System.String m_Provider
     // Size: 0x8
     // Offset: 0x20
     ::StringW m_Provider;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x1105A84
+    // [FormerlySerializedAsAttribute] Offset: 0x1106804
     // private System.String[] m_Dependencies
     // Size: 0x8
     // Offset: 0x28
@@ -102,28 +102,28 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.Object _Data
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__Data();
     // public System.String[] get_Keys()
-    // Offset: 0x18DB97C
+    // Offset: 0x18E18A4
     ::ArrayW<::StringW> get_Keys();
     // public System.String get_InternalId()
-    // Offset: 0x18DB984
+    // Offset: 0x18E18AC
     ::StringW get_InternalId();
     // public System.String get_Provider()
-    // Offset: 0x18DB98C
+    // Offset: 0x18E18B4
     ::StringW get_Provider();
     // public System.String[] get_Dependencies()
-    // Offset: 0x18DB994
+    // Offset: 0x18E18BC
     ::ArrayW<::StringW> get_Dependencies();
     // public System.Type get_ResourceType()
-    // Offset: 0x18DB99C
+    // Offset: 0x18E18C4
     ::System::Type* get_ResourceType();
     // public System.Object get_Data()
-    // Offset: 0x18DB9A8
+    // Offset: 0x18E18D0
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x18DB9F8
+    // Offset: 0x18E1920
     void set_Data(::Il2CppObject* value);
     // public System.Void .ctor(System.String[] keys, System.String id, System.Type provider, System.Type t, System.String[] dependencies)
-    // Offset: 0x18DBA98
+    // Offset: 0x18E19C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationData* New_ctor(::ArrayW<::StringW> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW> dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::.ctor");

@@ -54,7 +54,7 @@ namespace System::Security::AccessControl {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
     // protected System.Void .ctor()
-    // Offset: 0x1B973F8
+    // Offset: 0x1BA2418
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

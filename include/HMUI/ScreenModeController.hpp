@@ -55,7 +55,7 @@ namespace HMUI {
     ::ArrayW<::HMUI::CurvedCanvasSettings*> curvedCanvases;
     // Field size check
     static_assert(sizeof(::ArrayW<::HMUI::CurvedCanvasSettings*>) == 0x8);
-    // [InjectAttribute] Offset: 0x10FD790
+    // [InjectAttribute] Offset: 0x10FE510
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -86,20 +86,20 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1704D1C
+    // Offset: 0x170AD64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenModeController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScreenModeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenModeController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x17048B0
+    // Offset: 0x170A8F8
     void Awake();
     // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x1704AAC
+    // Offset: 0x170AAF4
     void SetMode(::HMUI::ScreenModeData* screenModeData);
     // public System.Void SetDefaultMode()
-    // Offset: 0x1704D14
+    // Offset: 0x170AD5C
     void SetDefaultMode();
   }; // HMUI.ScreenModeController
   #pragma pack(pop)

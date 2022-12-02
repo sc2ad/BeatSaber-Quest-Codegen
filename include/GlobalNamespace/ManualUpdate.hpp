@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class ManualUpdate : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15FA968
+    // Offset: 0x1603834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualUpdate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ManualUpdate::.ctor");

@@ -44,14 +44,14 @@ namespace UnityEngine::Assertions {
     // Get instance field reference: private System.String m_UserMessage
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_UserMessage();
     // public System.Void .ctor(System.String message, System.String userMessage)
-    // Offset: 0x2035B18
+    // Offset: 0x2026140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssertionException* New_ctor(::StringW message, ::StringW userMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Assertions::AssertionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message, userMessage)));
     }
     // public override System.String get_Message()
-    // Offset: 0x2035F24
+    // Offset: 0x202654C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::StringW get_Message();

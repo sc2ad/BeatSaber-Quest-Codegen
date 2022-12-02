@@ -80,22 +80,22 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F9964
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FA6E4
     // Get static field: static private readonly System.Int32 _gradientTexID
     static int _get__gradientTexID();
     // Set static field: static private readonly System.Int32 _gradientTexID
     static void _set__gradientTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F9974
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FA6F4
     // Get static field: static private readonly System.Int32 _inverseProjectionMatrixID
     static int _get__inverseProjectionMatrixID();
     // Set static field: static private readonly System.Int32 _inverseProjectionMatrixID
     static void _set__inverseProjectionMatrixID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F9984
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FA704
     // Get static field: static private readonly System.Int32 _cameraToWorldMatrixID
     static int _get__cameraToWorldMatrixID();
     // Set static field: static private readonly System.Int32 _cameraToWorldMatrixID
     static void _set__cameraToWorldMatrixID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F9994
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FA714
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
@@ -125,28 +125,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public UnityEngine.Color get_tintColor()
-    // Offset: 0x1CC1884
+    // Offset: 0x1CCB9D0
     ::UnityEngine::Color get_tintColor();
     // public System.Void set_tintColor(UnityEngine.Color value)
-    // Offset: 0x1CC1890
+    // Offset: 0x1CCB9DC
     void set_tintColor(::UnityEngine::Color value);
     // private System.Void InitIfNeeded()
-    // Offset: 0x1CC189C
+    // Offset: 0x1CCB9E8
     void InitIfNeeded();
     // protected System.Void Start()
-    // Offset: 0x1CC1AA0
+    // Offset: 0x1CCBBEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CC1AA4
+    // Offset: 0x1CCBBF0
     void OnDestroy();
     // protected System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int numberOfPixels);
     // public System.Void UpdateGradientTexture()
-    // Offset: 0x1CBFF58
+    // Offset: 0x1CCA0A4
     void UpdateGradientTexture();
     // protected System.Void .ctor()
-    // Offset: 0x1CBFD88
+    // Offset: 0x1CC9ED4
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -155,17 +155,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundTextureGradient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CC1CB8
+    // Offset: 0x1CCBE04
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     static void _cctor();
     // protected override System.Void OnValidate()
-    // Offset: 0x1CC1AD4
+    // Offset: 0x1CCBC20
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::OnValidate()
     void OnValidate();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1CC1B34
+    // Offset: 0x1CCBC80
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

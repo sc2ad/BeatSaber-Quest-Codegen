@@ -137,16 +137,16 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.CreateDedicatedServerInstanceRequest> get_pool()
-    // Offset: 0x16CF480
+    // Offset: 0x16D5244
     static ::GlobalNamespace::IPacketPool_1<::MasterServer::CreateDedicatedServerInstanceRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x16CF4C8
+    // Offset: 0x16D528C
     uint get_version();
     // public MasterServer.CreateDedicatedServerInstanceRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
-    // Offset: 0x16CF79C
+    // Offset: 0x16D5560
     ::MasterServer::CreateDedicatedServerInstanceRequest* Init(::StringW secret, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW userId, ::StringW userName, ::System::Net::IPEndPoint* userEndPoint, ::ArrayW<uint8_t> userRandom, ::ArrayW<uint8_t> userPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x16CF814
+    // Offset: 0x16D55D8
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -155,17 +155,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<CreateDedicatedServerInstanceRequest*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x16CF4D0
+    // Offset: 0x16D5294
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CF5AC
+    // Offset: 0x16D5370
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CF6A8
+    // Offset: 0x16D546C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

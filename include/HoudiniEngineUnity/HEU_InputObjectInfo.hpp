@@ -87,7 +87,7 @@ namespace HoudiniEngineUnity {
     ::UnityEngine::Matrix4x4 syncdTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
-    // [FormerlySerializedAsAttribute] Offset: 0x1141D2C
+    // [FormerlySerializedAsAttribute] Offset: 0x1141B2C
     // public System.Boolean _useTransformOffset
     // Size: 0x1
     // Offset: 0x70
@@ -96,21 +96,21 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTransformOffset and: translateOffset
     char __padding5[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0x1141D64
+    // [FormerlySerializedAsAttribute] Offset: 0x1141B64
     // public UnityEngine.Vector3 _translateOffset
     // Size: 0xC
     // Offset: 0x74
     ::UnityEngine::Vector3 translateOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [FormerlySerializedAsAttribute] Offset: 0x1141D9C
+    // [FormerlySerializedAsAttribute] Offset: 0x1141B9C
     // public UnityEngine.Vector3 _rotateOffset
     // Size: 0xC
     // Offset: 0x80
     ::UnityEngine::Vector3 rotateOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [FormerlySerializedAsAttribute] Offset: 0x1141DD4
+    // [FormerlySerializedAsAttribute] Offset: 0x1141BD4
     // public UnityEngine.Vector3 _scaleOffset
     // Size: 0xC
     // Offset: 0x8C
@@ -153,20 +153,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Type _inputInterfaceType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__inputInterfaceType();
     // public System.Void .ctor()
-    // Offset: 0x189F82C
+    // Offset: 0x18A5754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputObjectInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputObjectInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputObjectInfo*, creationType>()));
     }
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputObjectInfo destObject)
-    // Offset: 0x189F90C
+    // Offset: 0x18A5834
     void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
     // public System.Void SetReferencesFromGameObject()
-    // Offset: 0x18A0150
+    // Offset: 0x18A6078
     void SetReferencesFromGameObject();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputObjectInfo other)
-    // Offset: 0x18A22D0
+    // Offset: 0x18A81F8
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
   }; // HoudiniEngineUnity.HEU_InputObjectInfo
   #pragma pack(pop)

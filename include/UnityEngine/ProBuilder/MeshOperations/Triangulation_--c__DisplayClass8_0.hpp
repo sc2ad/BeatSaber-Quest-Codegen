@@ -60,17 +60,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1
     [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1CF3E6C
+    // Offset: 0x1CFCFB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Triangulation::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Triangulation::$$c__DisplayClass8_0*, creationType>()));
     }
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__0(UnityEngine.Vector2 x)
-    // Offset: 0x1CF3F84
+    // Offset: 0x1CFD0D0
     ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__0(::UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
-    // Offset: 0x1CF400C
+    // Offset: 0x1CFD158
     ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(::UnityEngine::Vector2 x);
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass8_0
   #pragma pack(pop)

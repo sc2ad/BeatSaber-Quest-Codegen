@@ -69,13 +69,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly System.Byte[] random
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_random();
     // static public PacketPool`1<BGNet.Core.Messages.ClientHelloRequest> get_pool()
-    // Offset: 0x15BC244
+    // Offset: 0x15C5168
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ClientHelloRequest*>* get_pool();
     // public BGNet.Core.Messages.ClientHelloRequest Init(System.Byte[] random)
-    // Offset: 0x15BEA18
+    // Offset: 0x15C793C
     ::BGNet::Core::Messages::ClientHelloRequest* Init(::ArrayW<uint8_t> random);
     // public System.Void .ctor()
-    // Offset: 0x15C3F28
+    // Offset: 0x15CCE4C
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,17 +84,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ClientHelloRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C3E3C
+    // Offset: 0x15CCD60
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C3E80
+    // Offset: 0x15CCDA4
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x15C3ECC
+    // Offset: 0x15CCDF0
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

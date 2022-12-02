@@ -168,7 +168,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.String localizationKey
       [[deprecated("Use field access instead!")]] ::StringW& dyn_localizationKey();
       // public System.Void .ctor(SelectRegionViewController/Region region, System.String localizationKey)
-      // Offset: 0x14067C4
+      // Offset: 0x140DA68
       // ABORTED: conflicts with another method.  RegionToLocalizationKeyPair(::GlobalNamespace::SelectRegionViewController::Region region, ::StringW localizationKey);
     }; // SelectRegionViewController/RegionToLocalizationKeyPair
     #pragma pack(pop)
@@ -187,7 +187,7 @@ namespace GlobalNamespace {
     ::HMUI::SimpleTextDropdown* regionSelectionDropdown;
     // Field size check
     static_assert(sizeof(::HMUI::SimpleTextDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x11218EC
+    // [HeaderAttribute] Offset: 0x112168C
     // private SelectRegionViewController/RegionToLocalizationKeyPair[] _regionLocalizationKeys
     // Size: 0x8
     // Offset: 0x80
@@ -210,31 +210,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<SelectRegionViewController/Region> didPressContinueButtonEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SelectRegionViewController::Region>*& dyn_didPressContinueButtonEvent();
     // public System.Void add_didPressContinueButtonEvent(System.Action`1<SelectRegionViewController/Region> value)
-    // Offset: 0x140622C
+    // Offset: 0x140D4D0
     void add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController::Region>* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action`1<SelectRegionViewController/Region> value)
-    // Offset: 0x14062D0
+    // Offset: 0x140D574
     void remove_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController::Region>* value);
     // public System.Void .ctor()
-    // Offset: 0x14066AC
+    // Offset: 0x140D950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectRegionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectRegionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectRegionViewController*, creationType>()));
     }
     // private System.Void HandleRegionSelectionDropdownDidSelectCell(HMUI.DropdownWithTableView dropdown, System.Int32 idx)
-    // Offset: 0x140665C
+    // Offset: 0x140D900
     void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int idx);
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x14066B4
+    // Offset: 0x140D958
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1406374
+    // Offset: 0x140D618
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1406574
+    // Offset: 0x140D818
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

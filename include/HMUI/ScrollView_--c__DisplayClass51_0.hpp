@@ -39,14 +39,14 @@ namespace HMUI {
     // Get instance field reference: public System.Single threshold
     [[deprecated("Use field access instead!")]] float& dyn_threshold();
     // public System.Void .ctor()
-    // Offset: 0x17067A8
+    // Offset: 0x170C7F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollView::$$c__DisplayClass51_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollView::$$c__DisplayClass51_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView::$$c__DisplayClass51_0*, creationType>()));
     }
     // System.Boolean <PageDownButtonPressed>b__0(System.Single pos)
-    // Offset: 0x17070F8
+    // Offset: 0x170D140
     bool $PageDownButtonPressed$b__0(float pos);
   }; // HMUI.ScrollView/HMUI.<>c__DisplayClass51_0
   #pragma pack(pop)

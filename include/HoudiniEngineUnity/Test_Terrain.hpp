@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Terrain self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Terrain*& dyn_self();
     // public System.Void .ctor(UnityEngine.Terrain self)
-    // Offset: 0x2B13084
+    // Offset: 0x2B1F2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Terrain* New_ctor(::UnityEngine::Terrain* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Terrain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Terrain*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2B130B0
+    // Offset: 0x2B1F2E8
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Terrain other)
-    // Offset: 0x2B13120
+    // Offset: 0x2B1F358
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Terrain* other);
   }; // HoudiniEngineUnity.Test_Terrain
   #pragma pack(pop)

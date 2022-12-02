@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class MarkSceneAsPersistent : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E8380
+    // [InjectAttribute] Offset: 0x10E9100
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x15FA9D0
+    // Offset: 0x160389C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarkSceneAsPersistent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MarkSceneAsPersistent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarkSceneAsPersistent*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15FA978
+    // Offset: 0x1603844
     void Awake();
   }; // MarkSceneAsPersistent
   #pragma pack(pop)

@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public ScenesTransitionSetupDataSO newScenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_newScenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x15F6DDC
+    // Offset: 0x15FFCA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameScenesManager::$$c__DisplayClass38_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameScenesManager::$$c__DisplayClass38_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameScenesManager::$$c__DisplayClass38_0*, creationType>()));
     }
     // System.Boolean <ScenesTransitionCoroutine>b__0()
-    // Offset: 0x15F6DE4
+    // Offset: 0x15FFCB0
     bool $ScenesTransitionCoroutine$b__0();
     // System.Boolean <ScenesTransitionCoroutine>b__1()
-    // Offset: 0x15F6E08
+    // Offset: 0x15FFCD4
     bool $ScenesTransitionCoroutine$b__1();
   }; // GameScenesManager/<>c__DisplayClass38_0
   #pragma pack(pop)

@@ -78,7 +78,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String buildVersion
     [[deprecated("Use field access instead!")]] ::StringW& dyn_buildVersion();
     // public System.Void .ctor()
-    // Offset: 0x13F2628
+    // Offset: 0x13F9684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LoginRequestDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LoginRequestDTO::.ctor");

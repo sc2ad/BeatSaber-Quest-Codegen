@@ -56,17 +56,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x15F3C4C
+    // Offset: 0x15FCB18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FollowLocalRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FollowLocalRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FollowLocalRotation*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15F3BE4
+    // Offset: 0x15FCAB0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x15F3C0C
+    // Offset: 0x15FCAD8
     void Update();
   }; // FollowLocalRotation
   #pragma pack(pop)

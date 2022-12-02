@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void .ctor()
-    // Offset: 0x13D4154
+    // Offset: 0x13DC1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BetaBuildInfoText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BetaBuildInfoText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BetaBuildInfoText*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13D412C
+    // Offset: 0x13DC194
     void Start();
   }; // BetaBuildInfoText
   #pragma pack(pop)

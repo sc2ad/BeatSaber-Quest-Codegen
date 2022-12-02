@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerLevelCompletionResults,System.Boolean> <>9__47_0
     static void _set_$$9__47_0(::System::Func_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x145BEB4
+    // Offset: 0x1464348
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x145BF18
+    // Offset: 0x14643AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$$c*, creationType>()));
     }
     // System.Boolean <EndGameplay>b__47_0(MultiplayerLevelCompletionResults result)
-    // Offset: 0x145BF20
+    // Offset: 0x14643B4
     bool $EndGameplay$b__47_0(::GlobalNamespace::MultiplayerLevelCompletionResults* result);
   }; // MultiplayerController/<>c
   #pragma pack(pop)

@@ -48,14 +48,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 delCount
     [[deprecated("Use field access instead!")]] int& dyn_delCount();
     // public System.Void .ctor()
-    // Offset: 0x1A6286C
+    // Offset: 0x1A6C854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppendElements::$$c__DisplayClass14_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppendElements::$$c__DisplayClass14_0*, creationType>()));
     }
     // UnityEngine.ProBuilder.Edge <AppendVerticesToEdge>b__0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A62874
+    // Offset: 0x1A6C85C
     ::UnityEngine::ProBuilder::Edge $AppendVerticesToEdge$b__0(::UnityEngine::ProBuilder::EdgeLookup x);
   }; // UnityEngine.ProBuilder.MeshOperations.AppendElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass14_0
   #pragma pack(pop)

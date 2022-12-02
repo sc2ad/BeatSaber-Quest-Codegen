@@ -45,21 +45,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x11032EC
+    // [DescriptionAttribute] Offset: 0x110406C
     // static field const value: static public Oculus.Platform.SendPolicy Unreliable
     static constexpr const int Unreliable = 0;
     // Get static field: static public Oculus.Platform.SendPolicy Unreliable
     static ::Oculus::Platform::SendPolicy _get_Unreliable();
     // Set static field: static public Oculus.Platform.SendPolicy Unreliable
     static void _set_Unreliable(::Oculus::Platform::SendPolicy value);
-    // [DescriptionAttribute] Offset: 0x1103324
+    // [DescriptionAttribute] Offset: 0x11040A4
     // static field const value: static public Oculus.Platform.SendPolicy Reliable
     static constexpr const int Reliable = 1;
     // Get static field: static public Oculus.Platform.SendPolicy Reliable
     static ::Oculus::Platform::SendPolicy _get_Reliable();
     // Set static field: static public Oculus.Platform.SendPolicy Reliable
     static void _set_Reliable(::Oculus::Platform::SendPolicy value);
-    // [DescriptionAttribute] Offset: 0x110335C
+    // [DescriptionAttribute] Offset: 0x11040DC
     // static field const value: static public Oculus.Platform.SendPolicy Unknown
     static constexpr const int Unknown = 2;
     // Get static field: static public Oculus.Platform.SendPolicy Unknown

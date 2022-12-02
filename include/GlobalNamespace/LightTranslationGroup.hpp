@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   class LightTranslationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupTranslationXTransform*, ::GlobalNamespace::LightGroupTranslationYTransform*, ::GlobalNamespace::LightGroupTranslationZTransform*>/*, public ::GlobalNamespace::IEditTimeValidated*/ {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x1114FC0
+    // [SpaceAttribute] Offset: 0x1114D50
     // private UnityEngine.Vector2 _xTranslationLimits
     // Size: 0x8
     // Offset: 0x40
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector2 zTranslationLimits;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [SpaceAttribute] Offset: 0x1115018
+    // [SpaceAttribute] Offset: 0x1114DA8
     // private UnityEngine.Vector2 _xDistributionLimits
     // Size: 0x8
     // Offset: 0x58
@@ -104,28 +104,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector2 _zDistributionLimits
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__zDistributionLimits();
     // public UnityEngine.Vector2 get_xTranslationLimits()
-    // Offset: 0x150E840
+    // Offset: 0x1517944
     ::UnityEngine::Vector2 get_xTranslationLimits();
     // public UnityEngine.Vector2 get_yTranslationLimits()
-    // Offset: 0x150E848
+    // Offset: 0x151794C
     ::UnityEngine::Vector2 get_yTranslationLimits();
     // public UnityEngine.Vector2 get_zTranslationLimits()
-    // Offset: 0x150E850
+    // Offset: 0x1517954
     ::UnityEngine::Vector2 get_zTranslationLimits();
     // public UnityEngine.Vector2 get_xDistributionLimits()
-    // Offset: 0x150E858
+    // Offset: 0x151795C
     ::UnityEngine::Vector2 get_xDistributionLimits();
     // public UnityEngine.Vector2 get_yDistributionLimits()
-    // Offset: 0x150E860
+    // Offset: 0x1517964
     ::UnityEngine::Vector2 get_yDistributionLimits();
     // public UnityEngine.Vector2 get_zDistributionLimits()
-    // Offset: 0x150E868
+    // Offset: 0x151796C
     ::UnityEngine::Vector2 get_zDistributionLimits();
     // public System.Boolean __Validate()
-    // Offset: 0x150E870
+    // Offset: 0x1517974
     bool __Validate();
     // public System.Void .ctor()
-    // Offset: 0x150EB68
+    // Offset: 0x1517C6C
     // Implemented from: LightTransformGroup`3
     // Base method: System.Void LightTransformGroup_3::.ctor()
     // Base method: System.Void LightGroupSubsystem::.ctor()

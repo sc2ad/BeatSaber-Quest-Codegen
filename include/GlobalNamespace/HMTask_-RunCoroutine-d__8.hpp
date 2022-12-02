@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public HMTask <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMTask*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x15F8F70
+    // Offset: 0x1601E3C
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15F8FD8
+    // Offset: 0x1601EA4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15F8D38
+    // Offset: 0x1601C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask::$RunCoroutine$d__8* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMTask::$RunCoroutine$d__8::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask::$RunCoroutine$d__8*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15F8E88
+    // Offset: 0x1601D54
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15F8E8C
+    // Offset: 0x1601D58
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15F8F78
+    // Offset: 0x1601E44
     void System_Collections_IEnumerator_Reset();
   }; // HMTask/<RunCoroutine>d__8
   #pragma pack(pop)

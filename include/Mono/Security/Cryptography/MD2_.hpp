@@ -29,10 +29,10 @@ namespace Mono::Security::Cryptography {
   class MD2_ : public ::System::Security::Cryptography::HashAlgorithm {
     public:
     // static public Mono.Security.Cryptography.MD2 Create()
-    // Offset: 0x2003BEC
+    // Offset: 0x1FF4214
     static ::Mono::Security::Cryptography::MD2_* Create();
     // protected System.Void .ctor()
-    // Offset: 0x2003BC0
+    // Offset: 0x1FF41E8
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()

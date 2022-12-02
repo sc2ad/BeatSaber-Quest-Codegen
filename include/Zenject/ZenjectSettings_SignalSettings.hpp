@@ -76,39 +76,39 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 _defaultAsyncTickPriority
     [[deprecated("Use field access instead!")]] int& dyn__defaultAsyncTickPriority();
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x1DBE3C8
+    // Offset: 0x1DC9514
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x1DBE3D0
+    // Offset: 0x1DC951C
     ::Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x1DBE3D8
+    // Offset: 0x1DC9524
     ::Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x1DBE3E0
+    // Offset: 0x1DC952C
     bool get_RequireStrictUnsubscribe();
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x1DBE338
+    // Offset: 0x1DC9484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1DBE38C
+    // Offset: 0x1DC94D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DBE3E8
+    // Offset: 0x1DC9534
     static void _cctor();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DBE464
+    // Offset: 0x1DC95B0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DBE4D8
+    // Offset: 0x1DC9624
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectSettings/Zenject.SignalSettings
   #pragma pack(pop)

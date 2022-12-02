@@ -73,26 +73,26 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.String subObjectName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_subObjectName();
     // public System.Void .ctor()
-    // Offset: 0x1F66044
+    // Offset: 0x1F74190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BundledAssetProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BundledAssetProvider::InternalOp*, creationType>()));
     }
     // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
-    // Offset: 0x1F66498
+    // Offset: 0x1F745E4
     static ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::Il2CppObject*>* results);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1F6604C
+    // Offset: 0x1F74198
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1F66BDC
+    // Offset: 0x1F74D28
     bool WaitForCompletionHandler();
     // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1F66860
+    // Offset: 0x1F749AC
     void ActionComplete(::UnityEngine::AsyncOperation* obj);
     // public System.Single ProgressCallback()
-    // Offset: 0x1F6702C
+    // Offset: 0x1F75178
     float ProgressCallback();
   }; // UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
   #pragma pack(pop)

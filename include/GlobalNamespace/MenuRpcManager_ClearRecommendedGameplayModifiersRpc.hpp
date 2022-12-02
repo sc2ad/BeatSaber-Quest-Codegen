@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::ClearRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17336BC
+    // Offset: 0x1738704
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

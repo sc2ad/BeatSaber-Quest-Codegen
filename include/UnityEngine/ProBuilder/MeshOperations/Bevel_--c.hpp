@@ -72,29 +72,29 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.FaceRebuildData,UnityEngine.ProBuilder.Face> <>9__0_3
     static void _set_$$9__0_3(::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A65748
+    // Offset: 0x1A6F730
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A657AC
+    // Offset: 0x1A6F794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c*, creationType>()));
     }
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1A657B4
+    // Offset: 0x1A6F79C
     ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <BevelEdges>b__0_6(UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.FaceRebuildData,System.Collections.Generic.List`1<System.Int32>> x)
-    // Offset: 0x1A657CC
+    // Offset: 0x1A6F7B4
     int $BevelEdges$b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int>*> x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_1(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1A65818
+    // Offset: 0x1A6F800
     ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_2(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1A65830
+    // Offset: 0x1A6F818
     ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.ProBuilder.Face <BevelEdges>b__0_3(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1A65848
+    // Offset: 0x1A6F830
     ::UnityEngine::ProBuilder::Face* $BevelEdges$b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

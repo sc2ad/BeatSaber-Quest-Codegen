@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAutomaticLeadPlayerSelection and: onPlatformText
     char __padding3[0x7] = {};
-    // [SpaceAttribute] Offset: 0x1117DD8
+    // [SpaceAttribute] Offset: 0x1117B68
     // private TMPro.TextMeshPro _onPlatformText
     // Size: 0x8
     // Offset: 0x50
@@ -161,21 +161,21 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* backgroundSpriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E20
+    // [InjectAttribute] Offset: 0x1117BB0
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x60
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E30
+    // [InjectAttribute] Offset: 0x1117BC0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E40
+    // [InjectAttribute] Offset: 0x1117BD0
     // private readonly MultiplayerLeadPlayerProvider _leadPlayerProvider
     // Size: 0x8
     // Offset: 0x70
@@ -230,41 +230,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.FloatTween _onPlatformTextAlphaTween
     [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__onPlatformTextAlphaTween();
     // public System.Void .ctor()
-    // Offset: 0x14E9604
+    // Offset: 0x14F257C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreDiffText* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreDiffText::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreDiffText*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x14E8EB8
+    // Offset: 0x14F1E30
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14E8FF8
+    // Offset: 0x14F1F70
     void OnDestroy();
     // public System.Void SetHorizontalPositionRelativeToLocalPlayer(MultiplayerScoreDiffText/HorizontalPosition relativePosition)
-    // Offset: 0x14E9118
+    // Offset: 0x14F2090
     void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerScoreDiffText::HorizontalPosition relativePosition);
     // public System.Void AnimateScoreDiff(System.Int32 scoreDiff)
-    // Offset: 0x14E9230
+    // Offset: 0x14F21A8
     void AnimateScoreDiff(int scoreDiff);
     // public System.Void AnimateHide()
-    // Offset: 0x14E93CC
+    // Offset: 0x14F2344
     void AnimateHide();
     // public System.Void AnimateIsLeadPlayer(System.Boolean isLeader)
-    // Offset: 0x14E94BC
+    // Offset: 0x14F2434
     void AnimateIsLeadPlayer(bool isLeader);
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
-    // Offset: 0x14E952C
+    // Offset: 0x14F24A4
     void HandleNewLeaderWasSelected(::StringW userId);
     // private System.Void <Start>b__14_0(System.Single val)
-    // Offset: 0x14E9660
+    // Offset: 0x14F25D8
     void $Start$b__14_0(float val);
     // private System.Void <AnimateScoreDiff>b__17_0()
-    // Offset: 0x14E96C8
+    // Offset: 0x14F2640
     void $AnimateScoreDiff$b__17_0();
     // private System.Void <AnimateHide>b__18_0()
-    // Offset: 0x14E96D4
+    // Offset: 0x14F264C
     void $AnimateHide$b__18_0();
   }; // MultiplayerScoreDiffText
   #pragma pack(pop)

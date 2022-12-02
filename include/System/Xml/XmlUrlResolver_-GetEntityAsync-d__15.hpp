@@ -107,10 +107,10 @@ namespace System::Xml {
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.IO.Stream> <>u__1
     [[deprecated("Use field access instead!")]] typename ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::System::IO::Stream*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x2798C18
+    // Offset: 0x27AAE50
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x2798F44
+    // Offset: 0x27AB17C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Xml.XmlUrlResolver/System.Xml.<GetEntityAsync>d__15
   // WARNING Not writing size check since size may be invalid!

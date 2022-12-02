@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* relativeScoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116518
+    // [InjectAttribute] Offset: 0x11162A8
     // private readonly RelativeScoreAndImmediateRankCounter _relativeScoreAndImmediateRankCounter
     // Size: 0x8
     // Offset: 0x28
@@ -101,20 +101,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private RankModel/Rank _prevImmediateRank
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RankModel::Rank& dyn__prevImmediateRank();
     // public System.Void .ctor()
-    // Offset: 0x13ED89C
+    // Offset: 0x13F48F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmediateRankUIPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ImmediateRankUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmediateRankUIPanel*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13ED660
+    // Offset: 0x13F46BC
     void Start();
     // private System.Void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange()
-    // Offset: 0x13ED898
+    // Offset: 0x13F48F4
     void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
     // private System.Void RefreshUI()
-    // Offset: 0x13ED718
+    // Offset: 0x13F4774
     void RefreshUI();
   }; // ImmediateRankUIPanel
   #pragma pack(pop)

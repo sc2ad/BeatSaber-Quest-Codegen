@@ -40,20 +40,20 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData
     class AppInitSceneSetupData;
     // public System.Void .ctor()
-    // Offset: 0x1530CE8
+    // Offset: 0x153AC14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInitScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInitScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x1530B80
+    // Offset: 0x153AAAC
     void Init();
     // public System.Void InitAsAppStart()
-    // Offset: 0x1530BF4
+    // Offset: 0x153AB20
     void InitAsAppStart();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
-    // Offset: 0x1530C68
+    // Offset: 0x153AB94
     void __Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, ::GlobalNamespace::MockPlayersModel* mockPlayersModel);
   }; // AppInitScenesTransitionSetupDataSO
   #pragma pack(pop)

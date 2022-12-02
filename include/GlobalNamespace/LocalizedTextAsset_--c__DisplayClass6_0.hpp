@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public Polyglot.Language language
     [[deprecated("Use field access instead!")]] ::Polyglot::Language& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x13332EC
+    // Offset: 0x1338114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::$$c__DisplayClass6_0*, creationType>()));
     }
     // System.Boolean <get_localizedText>b__1(LocalizedTextAsset/TextInfo t)
-    // Offset: 0x1333388
+    // Offset: 0x13381B0
     bool $get_localizedText$b__1(::GlobalNamespace::LocalizedTextAsset::TextInfo* t);
   }; // LocalizedTextAsset/<>c__DisplayClass6_0
   #pragma pack(pop)

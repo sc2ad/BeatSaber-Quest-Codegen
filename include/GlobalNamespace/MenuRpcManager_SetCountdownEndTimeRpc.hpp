@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x173396C
+    // Offset: 0x17389B4
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

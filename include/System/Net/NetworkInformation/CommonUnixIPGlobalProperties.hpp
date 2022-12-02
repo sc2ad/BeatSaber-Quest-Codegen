@@ -31,15 +31,15 @@ namespace System::Net::NetworkInformation {
   class CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // static private System.Int32 getdomainname(System.Byte[] name, System.Int32 len)
-    // Offset: 0x1ACFB78
+    // Offset: 0x1ADAB60
     static int getdomainname(::ArrayW<uint8_t> name, int len);
     // public override System.String get_DomainName()
-    // Offset: 0x1ACFC10
+    // Offset: 0x1ADABF8
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::StringW get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x1ACFD7C
+    // Offset: 0x1ADAD64
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

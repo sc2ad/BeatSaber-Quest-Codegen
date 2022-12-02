@@ -66,8 +66,14 @@ namespace GlobalNamespace {
     bool filterByOwned;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: filterByOwned and: searchText
-    char __padding2[0x7] = {};
+    // private System.Boolean <filterByNotOwned>k__BackingField
+    // Size: 0x1
+    // Offset: 0x21
+    bool filterByNotOwned;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: filterByNotOwned and: searchText
+    char __padding3[0x6] = {};
     // private System.String <searchText>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -93,7 +99,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterBySongPacks and: filteredSongPacks
-    char __padding6[0x5] = {};
+    char __padding7[0x5] = {};
     // private SongPackMask <filteredSongPacks>k__BackingField
     // Size: 0x10
     // Offset: 0x38
@@ -107,7 +113,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByCharacteristic and: filteredCharacteristic
-    char __padding8[0x7] = {};
+    char __padding9[0x7] = {};
     // private BeatmapCharacteristicSO <filteredCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x50
@@ -127,7 +133,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByMinBpm and: filteredMinBpm
-    char __padding11[0x2] = {};
+    char __padding12[0x2] = {};
     // private System.Single <filteredMinBpm>k__BackingField
     // Size: 0x4
     // Offset: 0x5C
@@ -141,7 +147,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: filterByMaxBpm and: filteredMaxBpm
-    char __padding13[0x3] = {};
+    char __padding14[0x3] = {};
     // private System.Single <filteredMaxBpm>k__BackingField
     // Size: 0x4
     // Offset: 0x64
@@ -149,7 +155,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1110018
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110FDA8
     // Get static field: static public readonly System.Single[] bpmValues
     static ::ArrayW<float> _get_bpmValues();
     // Set static field: static public readonly System.Single[] bpmValues
@@ -160,6 +166,8 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn_$beatmapLevelIds$k__BackingField();
     // Get instance field reference: private System.Boolean <filterByOwned>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$filterByOwned$k__BackingField();
+    // Get instance field reference: private System.Boolean <filterByNotOwned>k__BackingField
+    [[deprecated("Use field access instead!")]] bool& dyn_$filterByNotOwned$k__BackingField();
     // Get instance field reference: private System.String <searchText>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$searchText$k__BackingField();
     // Get instance field reference: private System.Boolean <filterByDifficulty>k__BackingField
@@ -185,137 +193,143 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <filteredMaxBpm>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$filteredMaxBpm$k__BackingField();
     // public System.Boolean get_filterByLevelIds()
-    // Offset: 0x14FEC0C
+    // Offset: 0x1507B84
     bool get_filterByLevelIds();
     // public System.Void set_filterByLevelIds(System.Boolean value)
-    // Offset: 0x14FEC14
+    // Offset: 0x1507B8C
     void set_filterByLevelIds(bool value);
     // public System.Collections.Generic.HashSet`1<System.String> get_beatmapLevelIds()
-    // Offset: 0x14FEC20
+    // Offset: 0x1507B98
     ::System::Collections::Generic::HashSet_1<::StringW>* get_beatmapLevelIds();
     // public System.Void set_beatmapLevelIds(System.Collections.Generic.HashSet`1<System.String> value)
-    // Offset: 0x14FEC28
+    // Offset: 0x1507BA0
     void set_beatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
     // public System.Boolean get_filterByOwned()
-    // Offset: 0x14FEC30
+    // Offset: 0x1507BA8
     bool get_filterByOwned();
     // private System.Void set_filterByOwned(System.Boolean value)
-    // Offset: 0x14FEC38
+    // Offset: 0x1507BB0
     void set_filterByOwned(bool value);
+    // public System.Boolean get_filterByNotOwned()
+    // Offset: 0x1507BBC
+    bool get_filterByNotOwned();
+    // public System.Void set_filterByNotOwned(System.Boolean value)
+    // Offset: 0x1507BC4
+    void set_filterByNotOwned(bool value);
     // public System.String get_searchText()
-    // Offset: 0x14FEC44
+    // Offset: 0x1507BD0
     ::StringW get_searchText();
     // public System.Void set_searchText(System.String value)
-    // Offset: 0x14FEC4C
+    // Offset: 0x1507BD8
     void set_searchText(::StringW value);
     // public System.Boolean get_filterByDifficulty()
-    // Offset: 0x14FEC54
+    // Offset: 0x1507BE0
     bool get_filterByDifficulty();
     // private System.Void set_filterByDifficulty(System.Boolean value)
-    // Offset: 0x14FEC5C
+    // Offset: 0x1507BE8
     void set_filterByDifficulty(bool value);
     // public BeatmapDifficultyMask get_filteredDifficulty()
-    // Offset: 0x14FEC68
+    // Offset: 0x1507BF4
     ::GlobalNamespace::BeatmapDifficultyMask get_filteredDifficulty();
     // private System.Void set_filteredDifficulty(BeatmapDifficultyMask value)
-    // Offset: 0x14FEC70
+    // Offset: 0x1507BFC
     void set_filteredDifficulty(::GlobalNamespace::BeatmapDifficultyMask value);
     // public System.Boolean get_filterBySongPacks()
-    // Offset: 0x14FEC78
+    // Offset: 0x1507C04
     bool get_filterBySongPacks();
     // private System.Void set_filterBySongPacks(System.Boolean value)
-    // Offset: 0x14FEC80
+    // Offset: 0x1507C0C
     void set_filterBySongPacks(bool value);
     // public SongPackMask get_filteredSongPacks()
-    // Offset: 0x14FEC8C
+    // Offset: 0x1507C18
     ::GlobalNamespace::SongPackMask get_filteredSongPacks();
     // private System.Void set_filteredSongPacks(SongPackMask value)
-    // Offset: 0x14FEC98
+    // Offset: 0x1507C24
     void set_filteredSongPacks(::GlobalNamespace::SongPackMask value);
     // public System.Boolean get_filterByCharacteristic()
-    // Offset: 0x14FECA0
+    // Offset: 0x1507C2C
     bool get_filterByCharacteristic();
     // private System.Void set_filterByCharacteristic(System.Boolean value)
-    // Offset: 0x14FECA8
+    // Offset: 0x1507C34
     void set_filterByCharacteristic(bool value);
     // public BeatmapCharacteristicSO get_filteredCharacteristic()
-    // Offset: 0x14FECB4
+    // Offset: 0x1507C40
     ::GlobalNamespace::BeatmapCharacteristicSO* get_filteredCharacteristic();
     // private System.Void set_filteredCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x14FECBC
+    // Offset: 0x1507C48
     void set_filteredCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public System.Boolean get_filterByNotPlayedYet()
-    // Offset: 0x14FECC4
+    // Offset: 0x1507C50
     bool get_filterByNotPlayedYet();
     // private System.Void set_filterByNotPlayedYet(System.Boolean value)
-    // Offset: 0x14FECCC
+    // Offset: 0x1507C58
     void set_filterByNotPlayedYet(bool value);
     // public System.Boolean get_filterByMinBpm()
-    // Offset: 0x14FECD8
+    // Offset: 0x1507C64
     bool get_filterByMinBpm();
     // private System.Void set_filterByMinBpm(System.Boolean value)
-    // Offset: 0x14FECE0
+    // Offset: 0x1507C6C
     void set_filterByMinBpm(bool value);
     // public System.Single get_filteredMinBpm()
-    // Offset: 0x14FECEC
+    // Offset: 0x1507C78
     float get_filteredMinBpm();
     // private System.Void set_filteredMinBpm(System.Single value)
-    // Offset: 0x14FECF4
+    // Offset: 0x1507C80
     void set_filteredMinBpm(float value);
     // public System.Boolean get_filterByMaxBpm()
-    // Offset: 0x14FECFC
+    // Offset: 0x1507C88
     bool get_filterByMaxBpm();
     // private System.Void set_filterByMaxBpm(System.Boolean value)
-    // Offset: 0x14FED04
+    // Offset: 0x1507C90
     void set_filterByMaxBpm(bool value);
     // public System.Single get_filteredMaxBpm()
-    // Offset: 0x14FED10
+    // Offset: 0x1507C9C
     float get_filteredMaxBpm();
     // private System.Void set_filteredMaxBpm(System.Single value)
-    // Offset: 0x14FED18
+    // Offset: 0x1507CA4
     void set_filteredMaxBpm(float value);
     // private System.Void .ctor()
-    // Offset: 0x14FED20
+    // Offset: 0x1507CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilterParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilterParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>()));
     }
-    // public System.Void .ctor(System.Boolean filterByLevelIds, System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds, System.String searchText, System.Boolean filterByOwned, System.Boolean filterByDifficulty, BeatmapDifficultyMask filteredDifficulty, System.Boolean filterByCharacteristic, BeatmapCharacteristicSO filteredCharacteristic, System.Boolean filterBySongPacks, SongPackMask filteredSongPacks, System.Boolean filterByNotPlayedYet, System.Boolean filterByMinBpm, System.Single filteredMinBpm, System.Boolean filterByMaxBpm, System.Single filteredMaxBpm)
-    // Offset: 0x14FEE1C
+    // public System.Void .ctor(System.Boolean filterByLevelIds, System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds, System.String searchText, System.Boolean filterByOwned, System.Boolean filterByNotOwned, System.Boolean filterByDifficulty, BeatmapDifficultyMask filteredDifficulty, System.Boolean filterByCharacteristic, BeatmapCharacteristicSO filteredCharacteristic, System.Boolean filterBySongPacks, SongPackMask filteredSongPacks, System.Boolean filterByNotPlayedYet, System.Boolean filterByMinBpm, System.Single filteredMinBpm, System.Boolean filterByMaxBpm, System.Single filteredMaxBpm)
+    // Offset: 0x1507DA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LevelFilterParams* New_ctor(bool filterByLevelIds, ::System::Collections::Generic::HashSet_1<::StringW>* beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByDifficulty, ::GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, ::GlobalNamespace::BeatmapCharacteristicSO* filteredCharacteristic, bool filterBySongPacks, ::GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float filteredMinBpm, bool filterByMaxBpm, float filteredMaxBpm) {
+    static LevelFilterParams* New_ctor(bool filterByLevelIds, ::System::Collections::Generic::HashSet_1<::StringW>* beatmapLevelIds, ::StringW searchText, bool filterByOwned, bool filterByNotOwned, bool filterByDifficulty, ::GlobalNamespace::BeatmapDifficultyMask filteredDifficulty, bool filterByCharacteristic, ::GlobalNamespace::BeatmapCharacteristicSO* filteredCharacteristic, bool filterBySongPacks, ::GlobalNamespace::SongPackMask filteredSongPacks, bool filterByNotPlayedYet, bool filterByMinBpm, float filteredMinBpm, bool filterByMaxBpm, float filteredMaxBpm) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilterParams::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>(filterByLevelIds, beatmapLevelIds, searchText, filterByOwned, filterByDifficulty, filteredDifficulty, filterByCharacteristic, filteredCharacteristic, filterBySongPacks, filteredSongPacks, filterByNotPlayedYet, filterByMinBpm, filteredMinBpm, filterByMaxBpm, filteredMaxBpm)));
+      return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>(filterByLevelIds, beatmapLevelIds, searchText, filterByOwned, filterByNotOwned, filterByDifficulty, filteredDifficulty, filterByCharacteristic, filteredCharacteristic, filterBySongPacks, filteredSongPacks, filterByNotPlayedYet, filterByMinBpm, filteredMinBpm, filterByMaxBpm, filteredMaxBpm)));
     }
     // private System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0x14FEF74
+    // Offset: 0x1507F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilterParams* New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* beatmapLevelIds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilterParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>(beatmapLevelIds)));
     }
     // private System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x14FEFA4
+    // Offset: 0x1507F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilterParams* New_ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilterParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilterParams*, creationType>(beatmapCharacteristic)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14FF0FC
+    // Offset: 0x15080AC
     static void _cctor();
     // public System.Boolean IsWithoutFilter(System.Boolean ignoreFilterBySongs)
-    // Offset: 0x14FEF20
+    // Offset: 0x1507EC8
     bool IsWithoutFilter(bool ignoreFilterBySongs);
     // static public LevelFilterParams NoFilter()
-    // Offset: 0x14FEFD4
+    // Offset: 0x1507F84
     static ::GlobalNamespace::LevelFilterParams* NoFilter();
     // static public LevelFilterParams ByBeatmapLevelIds(System.Collections.Generic.HashSet`1<System.String> beatmapLevelIds)
-    // Offset: 0x14FF02C
+    // Offset: 0x1507FDC
     static ::GlobalNamespace::LevelFilterParams* ByBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* beatmapLevelIds);
     // static public LevelFilterParams ByBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x14FF094
+    // Offset: 0x1508044
     static ::GlobalNamespace::LevelFilterParams* ByBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // LevelFilterParams
   #pragma pack(pop)
@@ -372,6 +386,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilterParams*), "set_filterByOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LevelFilterParams::get_filterByNotOwned
+// Il2CppName: get_filterByNotOwned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelFilterParams::*)()>(&GlobalNamespace::LevelFilterParams::get_filterByNotOwned)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilterParams*), "get_filterByNotOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::LevelFilterParams::set_filterByNotOwned
+// Il2CppName: set_filterByNotOwned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelFilterParams::*)(bool)>(&GlobalNamespace::LevelFilterParams::set_filterByNotOwned)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilterParams*), "set_filterByNotOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilterParams::get_searchText

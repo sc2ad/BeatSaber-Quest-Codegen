@@ -66,23 +66,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean isKeys
     [[deprecated("Use field access instead!")]] bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1D9200C
+    // Offset: 0x1D9D158
     int System_Collections_ICollection_get_Count();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
-    // Offset: 0x1D92044
+    // Offset: 0x1D9D190
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x1D91164
+    // Offset: 0x1D9C2B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection* New_ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ListDictionaryInternal::NodeKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection*, creationType>(list, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1D91E10
+    // Offset: 0x1D9CF5C
     void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1D9205C
+    // Offset: 0x1D9D1A8
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.ListDictionaryInternal/System.Collections.NodeKeyValueCollection
   #pragma pack(pop)

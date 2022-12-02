@@ -26,28 +26,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectCore : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104A80
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105800
     // Get static field: static private readonly System.Int32 _baseColorBoostID
     static int _get__baseColorBoostID();
     // Set static field: static private readonly System.Int32 _baseColorBoostID
     static void _set__baseColorBoostID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104A90
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105810
     // Get static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static int _get__baseColorBoostThresholdID();
     // Set static field: static private readonly System.Int32 _baseColorBoostThresholdID
     static void _set__baseColorBoostThresholdID(int value);
     // public System.Void .ctor()
-    // Offset: 0x2AC688C
+    // Offset: 0x2AD5AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectCore* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectCore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectCore*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AC6894
+    // Offset: 0x2AD5ACC
     static void _cctor();
     // static public System.Void SetGlobalShaderValues(System.Single baseColorBoost, System.Single baseColorBoostThreshold)
-    // Offset: 0x2AC5C78
+    // Offset: 0x2AD4EB0
     static void SetGlobalShaderValues(float baseColorBoost, float baseColorBoostThreshold);
   }; // MainEffectCore
   #pragma pack(pop)

@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0x11163D8
+    // [InjectAttribute] Offset: 0x1116168
     // private readonly IComboController _comboController
     // Size: 0x8
     // Offset: 0x28
@@ -91,32 +91,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _fullComboLost
     [[deprecated("Use field access instead!")]] bool& dyn__fullComboLost();
     // public System.Void .ctor()
-    // Offset: 0x142A0F4
+    // Offset: 0x1431398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComboUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ComboUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComboUIController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1429B88
+    // Offset: 0x1430E2C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1429ED0
+    // Offset: 0x1431174
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1429ED4
+    // Offset: 0x1431178
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x1429C04
+    // Offset: 0x1430EA8
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1429ED8
+    // Offset: 0x143117C
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x142A078
+    // Offset: 0x143131C
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x142A0BC
+    // Offset: 0x1431360
     void HandleComboBreakingEventHappened();
   }; // ComboUIController
   #pragma pack(pop)

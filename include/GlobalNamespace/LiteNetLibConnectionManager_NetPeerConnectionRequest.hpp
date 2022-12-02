@@ -75,26 +75,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LiteNetLib.ConnectionRequest _request
     [[deprecated("Use field access instead!")]] ::LiteNetLib::ConnectionRequest*& dyn__request();
     // public System.String get_userId()
-    // Offset: 0x16CE118
+    // Offset: 0x16D3EDC
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x16CE120
+    // Offset: 0x16D3EE4
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x16CE128
+    // Offset: 0x16D3EEC
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x16CE130
+    // Offset: 0x16D3EF4
     ::System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x16CE14C
+    // Offset: 0x16D3F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnectionRequest*, creationType>(request, userId, userName, isConnectionOwner)));
     }
     // public LiteNetLib.NetPeer Accept()
-    // Offset: 0x16CD340
+    // Offset: 0x16D3104
     ::LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
   #pragma pack(pop)

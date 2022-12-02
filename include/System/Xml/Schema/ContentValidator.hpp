@@ -71,27 +71,27 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean isEmptiable
     [[deprecated("Use field access instead!")]] bool& dyn_isEmptiable();
     // public System.Xml.Schema.XmlSchemaContentType get_ContentType()
-    // Offset: 0x1AE540C
+    // Offset: 0x1AF03F4
     ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
     // public System.Boolean get_IsOpen()
-    // Offset: 0x1AE5414
+    // Offset: 0x1AF03FC
     bool get_IsOpen();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType)
-    // Offset: 0x1AE538C
+    // Offset: 0x1AF0374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType)));
     }
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isOpen, System.Boolean isEmptiable)
-    // Offset: 0x1AE53C0
+    // Offset: 0x1AF03A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ContentValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentValidator*, creationType>(contentType, isOpen, isEmptiable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AE5438
+    // Offset: 0x1AF0420
     static void _cctor();
   }; // System.Xml.Schema.ContentValidator
   #pragma pack(pop)

@@ -52,20 +52,20 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger y
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_y();
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()
-    // Offset: 0x1FA74E4
+    // Offset: 0x1F9F23C
     ::Org::BouncyCastle::Asn1::DerInteger* get_Y();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerInteger y)
-    // Offset: 0x1FA7448
+    // Offset: 0x1F9F1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::DHPublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKey*, creationType>(y)));
     }
     // static public Org.BouncyCastle.Asn1.X9.DHPublicKey GetInstance(System.Object obj)
-    // Offset: 0x1FA72C8
+    // Offset: 0x1F9F020
     static ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1FA74EC
+    // Offset: 0x1F9F244
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

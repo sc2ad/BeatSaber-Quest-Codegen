@@ -120,32 +120,32 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 chain2Index
     [[deprecated("Use field access instead!")]] int& dyn_chain2Index();
     // public System.Single get_nominalDistance()
-    // Offset: 0x2310E08
+    // Offset: 0x231F0D4
     float get_nominalDistance();
     // private System.Void set_nominalDistance(System.Single value)
-    // Offset: 0x2310E10
+    // Offset: 0x231F0DC
     void set_nominalDistance(float value);
     // public System.Boolean get_isRigid()
-    // Offset: 0x2310E18
+    // Offset: 0x231F0E4
     bool get_isRigid();
     // private System.Void set_isRigid(System.Boolean value)
-    // Offset: 0x2310E20
+    // Offset: 0x231F0EC
     void set_isRigid(bool value);
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
-    // Offset: 0x2310E2C
+    // Offset: 0x231F0F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain::ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x230EB8C
+    // Offset: 0x231CE58
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x230F0CC
+    // Offset: 0x231D398
     void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x2310B04
+    // Offset: 0x231EDD0
     void Solve(::RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint
   #pragma pack(pop)

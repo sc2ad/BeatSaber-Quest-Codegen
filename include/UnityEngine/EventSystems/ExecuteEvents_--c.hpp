@@ -42,17 +42,17 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9
     static void _set_$$9(::UnityEngine::EventSystems::ExecuteEvents::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x194EBAC
+    // Offset: 0x1956AD4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x194EC10
+    // Offset: 0x1956B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecuteEvents::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecuteEvents::$$c*, creationType>()));
     }
     // System.Void <.cctor>b__79_0(System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler> l)
-    // Offset: 0x194EC18
+    // Offset: 0x1956B40
     void $_cctor$b__79_0(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>* l);
   }; // UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c
   #pragma pack(pop)

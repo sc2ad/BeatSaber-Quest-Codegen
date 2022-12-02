@@ -46,49 +46,49 @@ namespace System::Xml::Schema {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [XmlEnumAttribute] Offset: 0x1078368
+    // [XmlEnumAttribute] Offset: 0x107A0E8
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod Empty
     static constexpr const int Empty = 0;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Empty
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_Empty();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Empty
     static void _set_Empty(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x10783A0
+    // [XmlEnumAttribute] Offset: 0x107A120
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod Substitution
     static constexpr const int Substitution = 1;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Substitution
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_Substitution();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Substitution
     static void _set_Substitution(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x10783D8
+    // [XmlEnumAttribute] Offset: 0x107A158
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod Extension
     static constexpr const int Extension = 2;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Extension
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_Extension();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Extension
     static void _set_Extension(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x1078410
+    // [XmlEnumAttribute] Offset: 0x107A190
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod Restriction
     static constexpr const int Restriction = 4;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Restriction
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_Restriction();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Restriction
     static void _set_Restriction(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x1078448
+    // [XmlEnumAttribute] Offset: 0x107A1C8
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod List
     static constexpr const int List = 8;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod List
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_List();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod List
     static void _set_List(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x1078480
+    // [XmlEnumAttribute] Offset: 0x107A200
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod Union
     static constexpr const int Union = 16;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Union
     static ::System::Xml::Schema::XmlSchemaDerivationMethod _get_Union();
     // Set static field: static public System.Xml.Schema.XmlSchemaDerivationMethod Union
     static void _set_Union(::System::Xml::Schema::XmlSchemaDerivationMethod value);
-    // [XmlEnumAttribute] Offset: 0x10784B8
+    // [XmlEnumAttribute] Offset: 0x107A238
     // static field const value: static public System.Xml.Schema.XmlSchemaDerivationMethod All
     static constexpr const int All = 255;
     // Get static field: static public System.Xml.Schema.XmlSchemaDerivationMethod All

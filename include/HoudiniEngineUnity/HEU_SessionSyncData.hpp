@@ -129,13 +129,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
     // public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status get_SyncStatus()
-    // Offset: 0x1B35908
+    // Offset: 0x1B2C4BC
     ::HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
     // public System.Void set_SyncStatus(HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status value)
-    // Offset: 0x1B3591C
+    // Offset: 0x1B2C4D0
     void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // public System.Void .ctor()
-    // Offset: 0x1B32628
+    // Offset: 0x1B291DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionSyncData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionSyncData::.ctor");

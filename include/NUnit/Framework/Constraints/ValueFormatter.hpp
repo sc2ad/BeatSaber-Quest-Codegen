@@ -39,20 +39,20 @@ namespace NUnit::Framework::Constraints {
   class ValueFormatter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D456D8
+    // Offset: 0x1D4F824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueFormatter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::ValueFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFormatter*, creationType>(object, method)));
     }
     // public System.String Invoke(System.Object val)
-    // Offset: 0x1D45BA0
+    // Offset: 0x1D4FCEC
     ::StringW Invoke(::Il2CppObject* val);
     // public System.IAsyncResult BeginInvoke(System.Object val, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D4C224
+    // Offset: 0x1D56370
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* val, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D4C248
+    // Offset: 0x1D56394
     ::StringW EndInvoke(::System::IAsyncResult* result);
   }; // NUnit.Framework.Constraints.ValueFormatter
   #pragma pack(pop)

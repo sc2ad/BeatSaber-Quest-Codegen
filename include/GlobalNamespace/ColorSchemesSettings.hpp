@@ -83,48 +83,48 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _selectedColorSchemeId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__selectedColorSchemeId();
     // public System.String get_selectedColorSchemeId()
-    // Offset: 0x14276F8
+    // Offset: 0x142E99C
     ::StringW get_selectedColorSchemeId();
     // public System.Void set_selectedColorSchemeId(System.String value)
-    // Offset: 0x14276F0
+    // Offset: 0x142E994
     void set_selectedColorSchemeId(::StringW value);
     // public System.Void .ctor(ColorScheme[] colorSchemes)
-    // Offset: 0x1427700
+    // Offset: 0x142E9A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemesSettings* New_ctor(::ArrayW<::GlobalNamespace::ColorScheme*> colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemes)));
     }
     // public System.Void .ctor(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0x1427830
+    // Offset: 0x142EAD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemesSettings* New_ctor(::ArrayW<::GlobalNamespace::ColorSchemeSO*> colorSchemeSOs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemeSOs)));
     }
     // static private ColorScheme[] ConvertColorSchemeSOs(ColorSchemeSO[] colorSchemeSOs)
-    // Offset: 0x142785C
+    // Offset: 0x142EB00
     static ::ArrayW<::GlobalNamespace::ColorScheme*> ConvertColorSchemeSOs(::ArrayW<::GlobalNamespace::ColorSchemeSO*> colorSchemeSOs);
     // public System.Int32 GetNumberOfColorSchemes()
-    // Offset: 0x1427974
+    // Offset: 0x142EC18
     int GetNumberOfColorSchemes();
     // public ColorScheme GetColorSchemeForIdx(System.Int32 idx)
-    // Offset: 0x14279C4
+    // Offset: 0x142EC68
     ::GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int idx);
     // public ColorScheme GetColorSchemeForId(System.String id)
-    // Offset: 0x1427A3C
+    // Offset: 0x142ECE0
     ::GlobalNamespace::ColorScheme* GetColorSchemeForId(::StringW id);
     // public System.Void SetColorSchemeForId(ColorScheme colorScheme)
-    // Offset: 0x1427AA4
+    // Offset: 0x142ED48
     void SetColorSchemeForId(::GlobalNamespace::ColorScheme* colorScheme);
     // public ColorScheme GetSelectedColorScheme()
-    // Offset: 0x1427BA0
+    // Offset: 0x142EE44
     ::GlobalNamespace::ColorScheme* GetSelectedColorScheme();
     // public System.Int32 GetSelectedColorSchemeIdx()
-    // Offset: 0x1427BFC
+    // Offset: 0x142EEA0
     int GetSelectedColorSchemeIdx();
     // public ColorScheme GetOverrideColorScheme()
-    // Offset: 0x1427CA8
+    // Offset: 0x142EF4C
     ::GlobalNamespace::ColorScheme* GetOverrideColorScheme();
   }; // ColorSchemesSettings
   #pragma pack(pop)

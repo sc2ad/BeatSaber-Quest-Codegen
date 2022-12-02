@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x13CF984
+    // Offset: 0x13ACF7C
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapDataItem(BeatmapDataItem beatmapDataItem, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
-    // Offset: 0x13CFAB0
+    // Offset: 0x13AD0A8
     static bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
   }; // BeatmapDataObstaclesAndBombsTransform
   #pragma pack(pop)

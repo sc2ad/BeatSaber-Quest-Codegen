@@ -30,14 +30,14 @@ namespace GlobalNamespace {
   class ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1540354
+    // Offset: 0x154A280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectiveValueFormatterSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectiveValueFormatterSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectiveValueFormatterSO*, creationType>()));
     }
     // public System.String FormatValue(System.Int32 value)
-    // Offset: 0x154032C
+    // Offset: 0x154A258
     ::StringW FormatValue(int value);
   }; // ObjectiveValueFormatterSO
   #pragma pack(pop)

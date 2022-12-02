@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class OffsetDirectionExtensions : public ::Il2CppObject {
     public:
     // static public OffsetDirection OppositeDirection(OffsetDirection offsetDirection)
-    // Offset: 0x27487B0
+    // Offset: 0x27589E8
     static ::GlobalNamespace::OffsetDirection OppositeDirection(::GlobalNamespace::OffsetDirection offsetDirection);
   }; // OffsetDirectionExtensions
   #pragma pack(pop)

@@ -85,10 +85,10 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.Int32 diffuseTextureId
     [[deprecated("Use field access instead!")]] int& dyn_diffuseTextureId();
     // public System.Void .ctor(OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0x16AC2DC
+    // Offset: 0x16956A4
     RenderModel_t_Packed(::OVR::OpenVR::RenderModel_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_t unpacked)
-    // Offset: 0x16AC308
+    // Offset: 0x16956D0
     void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
   }; // OVR.OpenVR.RenderModel_t_Packed
   #pragma pack(pop)

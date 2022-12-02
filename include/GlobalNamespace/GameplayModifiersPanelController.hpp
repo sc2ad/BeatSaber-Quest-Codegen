@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* maxRankValueText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111F37C
+    // [SpaceAttribute] Offset: 0x111F10C
     // private UnityEngine.Color _positiveColor
     // Size: 0x10
     // Offset: 0x30
@@ -178,41 +178,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::GameplayModifierParamsSO*, ::UnityEngine::UI::Toggle*>*& dyn__toggleForGameplayModifierParam();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x144FE1C
+    // Offset: 0x14570C0
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x144FCD4
+    // Offset: 0x1456F78
     void add_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x144FD78
+    // Offset: 0x145701C
     void remove_didChangeGameplayModifiersEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1450398
+    // Offset: 0x145763C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersPanelController*, creationType>()));
     }
     // public System.Void SetData(GameplayModifiers newGameplayModifiers)
-    // Offset: 0x144FE24
+    // Offset: 0x14570C8
     void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // protected System.Void Awake()
-    // Offset: 0x144FE2C
+    // Offset: 0x14570D0
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x144FF98
+    // Offset: 0x145723C
     void OnDestroy();
     // private System.Void SetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams, System.Boolean value)
-    // Offset: 0x144FFAC
+    // Offset: 0x1457250
     void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
     // private System.Boolean GetToggleValueWithGameplayModifierParams(GameplayModifierParamsSO gameplayModifierParams)
-    // Offset: 0x1450044
+    // Offset: 0x14572E8
     bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
     // private System.Void RefreshTotalMultiplierAndRankUI()
-    // Offset: 0x14500D8
+    // Offset: 0x145737C
     void RefreshTotalMultiplierAndRankUI();
     // private System.Void IRefreshable.Refresh()
-    // Offset: 0x1450290
+    // Offset: 0x1457534
     void IRefreshable_Refresh();
   }; // GameplayModifiersPanelController
   #pragma pack(pop)

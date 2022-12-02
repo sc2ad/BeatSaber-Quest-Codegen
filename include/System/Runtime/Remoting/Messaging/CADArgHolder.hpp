@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: public System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Void .ctor(System.Int32 i)
-    // Offset: 0x1D2DC44
+    // Offset: 0x1D37D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");

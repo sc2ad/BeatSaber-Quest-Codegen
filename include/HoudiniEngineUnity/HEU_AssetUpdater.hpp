@@ -41,35 +41,35 @@ namespace HoudiniEngineUnity {
   class HEU_AssetUpdater : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x1719D84
+    // Offset: 0x171EDCC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1719E00
+    // Offset: 0x171EE48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetUpdater* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetUpdater*, creationType>()));
     }
     // static private System.Void OnBeforeAssemblyReload()
-    // Offset: 0x1719D88
+    // Offset: 0x171EDD0
     static void OnBeforeAssemblyReload();
     // static private System.Void Update()
-    // Offset: 0x1719DE8
+    // Offset: 0x171EE30
     static void Update();
     // static public System.Void AddAssetForUpdate(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x1719DEC
+    // Offset: 0x171EE34
     static void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void RemoveAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x1719DF0
+    // Offset: 0x171EE38
     static void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void AddNodeSyncForUpdate(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x1719DF4
+    // Offset: 0x171EE3C
     static void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static public System.Void RemoveNodeSync(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x1719DF8
+    // Offset: 0x171EE40
     static void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static private System.Void OnPrefabInstanceUpdate(UnityEngine.GameObject instance)
-    // Offset: 0x1719DFC
+    // Offset: 0x171EE44
     static void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
   }; // HoudiniEngineUnity.HEU_AssetUpdater
   #pragma pack(pop)

@@ -72,50 +72,50 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32[] rk
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_rk();
     // public System.String get_AlgorithmName()
-    // Offset: 0x247D350
+    // Offset: 0x248C714
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x247D398
+    // Offset: 0x248C75C
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x247D65C
+    // Offset: 0x248CA20
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x247D748
+    // Offset: 0x248CB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SM4Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SM4Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SM4Engine*, creationType>()));
     }
     // static private System.UInt32 tau(System.UInt32 A)
-    // Offset: 0x247C930
+    // Offset: 0x248BCF4
     static uint tau(uint A);
     // static private System.UInt32 L_ap(System.UInt32 B)
-    // Offset: 0x247CA10
+    // Offset: 0x248BDD4
     static uint L_ap(uint B);
     // private System.UInt32 T_ap(System.UInt32 Z)
-    // Offset: 0x247CA54
+    // Offset: 0x248BE18
     uint T_ap(uint Z);
     // private System.Void ExpandKey(System.Boolean forEncryption, System.Byte[] key)
-    // Offset: 0x247CAE8
+    // Offset: 0x248BEAC
     void ExpandKey(bool forEncryption, ::ArrayW<uint8_t> key);
     // static private System.UInt32 L(System.UInt32 B)
-    // Offset: 0x247D0BC
+    // Offset: 0x248C480
     static uint L(uint B);
     // static private System.UInt32 T(System.UInt32 Z)
-    // Offset: 0x247D138
+    // Offset: 0x248C4FC
     static uint T(uint Z);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x247D1A0
+    // Offset: 0x248C564
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x247D3A0
+    // Offset: 0x248C764
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x247D3A8
+    // Offset: 0x248C76C
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x247D658
+    // Offset: 0x248CA1C
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.SM4Engine
   #pragma pack(pop)

@@ -75,35 +75,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _currentDataId
     [[deprecated("Use field access instead!")]] int& dyn__currentDataId();
     // public System.Boolean get_undoAvailable()
-    // Offset: 0x1536C40
+    // Offset: 0x1540B6C
     bool get_undoAvailable();
     // public System.Boolean get_redoAvailable()
-    // Offset: 0x1536C50
+    // Offset: 0x1540B7C
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
-    // Offset: 0x1536CB0
+    // Offset: 0x1540BDC
     ::Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
-    // Offset: 0x1536D20
+    // Offset: 0x1540C4C
     ::GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void .ctor()
-    // Offset: 0x1536F94
+    // Offset: 0x1540EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarEditHistory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarEditHistory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarEditHistory*, creationType>()));
     }
     // public System.Void Clear()
-    // Offset: 0x1536D40
+    // Offset: 0x1540C6C
     void Clear();
     // public System.Void Undo()
-    // Offset: 0x1536DA0
+    // Offset: 0x1540CCC
     void Undo();
     // public System.Void Redo()
-    // Offset: 0x1536DBC
+    // Offset: 0x1540CE8
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x1536E2C
+    // Offset: 0x1540D58
     void UpdateEditHistory(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
   }; // AvatarEditHistory
   #pragma pack(pop)

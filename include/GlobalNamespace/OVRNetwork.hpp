@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.UInt32 FrameHeaderMagicIdentifier
     static void _set_FrameHeaderMagicIdentifier(uint value);
     // public System.Void .ctor()
-    // Offset: 0x175AC30
+    // Offset: 0x175FC78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::.ctor");

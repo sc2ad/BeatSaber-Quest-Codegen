@@ -358,7 +358,7 @@ namespace Mono::Unity {
     // Get instance field reference: public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct/Mono.Unity.unitytls_random_generate_bytes_t unitytls_random_generate_bytes
     [[deprecated("Use field access instead!")]] ::Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*& dyn_unitytls_random_generate_bytes();
     // public System.Void .ctor()
-    // Offset: 0x1AF8690
+    // Offset: 0x1B03678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTls::unitytls_interface_struct* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Unity::UnityTls::unitytls_interface_struct::.ctor");

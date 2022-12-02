@@ -116,35 +116,35 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInjected
     [[deprecated("Use field access instead!")]] bool& dyn__hasInjected();
     // public Zenject.ZenAutoInjecter/Zenject.ContainerSources get_ContainerSource()
-    // Offset: 0x1DBCAE4
+    // Offset: 0x1DC7C30
     ::Zenject::ZenAutoInjecter::ContainerSources get_ContainerSource();
     // public System.Void set_ContainerSource(Zenject.ZenAutoInjecter/Zenject.ContainerSources value)
-    // Offset: 0x1DBCAEC
+    // Offset: 0x1DC7C38
     void set_ContainerSource(::Zenject::ZenAutoInjecter::ContainerSources value);
     // public System.Void .ctor()
-    // Offset: 0x1DBCD98
+    // Offset: 0x1DC7EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenAutoInjecter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenAutoInjecter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenAutoInjecter*, creationType>()));
     }
     // public System.Void Construct()
-    // Offset: 0x1DBCAF4
+    // Offset: 0x1DC7C40
     void Construct();
     // public System.Void Awake()
-    // Offset: 0x1DBCB60
+    // Offset: 0x1DC7CAC
     void Awake();
     // private Zenject.DiContainer LookupContainer()
-    // Offset: 0x1DBCBAC
+    // Offset: 0x1DC7CF8
     ::Zenject::DiContainer* LookupContainer();
     // private Zenject.DiContainer GetContainerForCurrentScene()
-    // Offset: 0x1DBCCFC
+    // Offset: 0x1DC7E48
     ::Zenject::DiContainer* GetContainerForCurrentScene();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x1DBCDA8
+    // Offset: 0x1DC7EF4
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DBCE30
+    // Offset: 0x1DC7F7C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenAutoInjecter
   #pragma pack(pop)

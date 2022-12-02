@@ -84,26 +84,26 @@ namespace System::Xml {
     // Get instance field reference: private System.Collections.Hashtable connections
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn_connections();
     // public System.Void .ctor()
-    // Offset: 0x1C323EC
+    // Offset: 0x1C3FB60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDownloadManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDownloadManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDownloadManager*, creationType>()));
     }
     // System.IO.Stream GetStream(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
-    // Offset: 0x1C31B10
+    // Offset: 0x1C3F284
     ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // private System.IO.Stream GetNonFileStream(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
-    // Offset: 0x1C31C0C
+    // Offset: 0x1C3F380
     ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // System.Void Remove(System.String host)
-    // Offset: 0x1C32034
+    // Offset: 0x1C3F7A8
     void Remove(::StringW host);
     // System.Threading.Tasks.Task`1<System.IO.Stream> GetStreamAsync(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
-    // Offset: 0x1C32170
+    // Offset: 0x1C3F8E4
     ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // private System.Threading.Tasks.Task`1<System.IO.Stream> GetNonFileStreamAsync(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
-    // Offset: 0x1C322B4
+    // Offset: 0x1C3FA28
     ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
   }; // System.Xml.XmlDownloadManager
   #pragma pack(pop)

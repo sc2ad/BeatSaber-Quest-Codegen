@@ -50,13 +50,13 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_start
     [[deprecated("Use field access instead!")]] int& dyn_m_start();
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0x2B07B84
+    // Offset: 0x2B15DBC
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0x2B06ABC
+    // Offset: 0x2B14CF4
     bool get_IsExpired();
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0x2B06664
+    // Offset: 0x2B1489C
     TimeoutTracker(int millisecondsTimeout);
   }; // System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker
   #pragma pack(pop)

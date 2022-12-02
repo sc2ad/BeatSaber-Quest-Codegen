@@ -64,28 +64,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: batteryLives and: initData
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x1119A8C
+    // [InjectAttribute] Offset: 0x111981C
     // private readonly GameEnergyCounter/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameEnergyCounter::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119A9C
+    // [InjectAttribute] Offset: 0x111982C
     // private readonly SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119AAC
+    // [InjectAttribute] Offset: 0x111983C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119ABC
+    // [InjectAttribute] Offset: 0x111984C
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x38
@@ -252,86 +252,86 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _nextFrameEnergyChange
     [[deprecated("Use field access instead!")]] float& dyn__nextFrameEnergyChange();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x143C17C
+    // Offset: 0x1443420
     bool get_isInitialized();
     // public System.Single get_energy()
-    // Offset: 0x143C184
+    // Offset: 0x1443428
     float get_energy();
     // private System.Void set_energy(System.Single value)
-    // Offset: 0x143C18C
+    // Offset: 0x1443430
     void set_energy(float value);
     // public System.Int32 get_batteryEnergy()
-    // Offset: 0x143C194
+    // Offset: 0x1443438
     int get_batteryEnergy();
     // public System.Int32 get_batteryLives()
-    // Offset: 0x143C218
+    // Offset: 0x14434BC
     int get_batteryLives();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x143C220
+    // Offset: 0x14434C4
     ::GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // private System.Void set_energyType(GameplayModifiers/EnergyType value)
-    // Offset: 0x143C228
+    // Offset: 0x14434CC
     void set_energyType(::GlobalNamespace::GameplayModifiers::EnergyType value);
     // public System.Boolean get_noFail()
-    // Offset: 0x143C230
+    // Offset: 0x14434D4
     bool get_noFail();
     // private System.Void set_noFail(System.Boolean value)
-    // Offset: 0x143C238
+    // Offset: 0x14434DC
     void set_noFail(bool value);
     // public System.Boolean get_instaFail()
-    // Offset: 0x143C244
+    // Offset: 0x14434E8
     bool get_instaFail();
     // private System.Void set_instaFail(System.Boolean value)
-    // Offset: 0x143C24C
+    // Offset: 0x14434F0
     void set_instaFail(bool value);
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x143C258
+    // Offset: 0x14434FC
     bool get_failOnSaberClash();
     // private System.Void set_failOnSaberClash(System.Boolean value)
-    // Offset: 0x143C260
+    // Offset: 0x1443504
     void set_failOnSaberClash(bool value);
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x143BDA4
+    // Offset: 0x1443048
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x143BE48
+    // Offset: 0x14430EC
     void remove_didInitEvent(::System::Action* value);
     // public System.Void add_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x143BEEC
+    // Offset: 0x1443190
     void add_gameEnergyDidReach0Event(::System::Action* value);
     // public System.Void remove_gameEnergyDidReach0Event(System.Action value)
-    // Offset: 0x143BF90
+    // Offset: 0x1443234
     void remove_gameEnergyDidReach0Event(::System::Action* value);
     // public System.Void add_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x143C034
+    // Offset: 0x14432D8
     void add_gameEnergyDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_gameEnergyDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x143C0D8
+    // Offset: 0x144337C
     void remove_gameEnergyDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x143C858
+    // Offset: 0x1443AFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameEnergyCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyCounter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x143C26C
+    // Offset: 0x1443510
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x143C3DC
+    // Offset: 0x1443680
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x143C4C4
+    // Offset: 0x1443768
     void LateUpdate();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x143C6FC
+    // Offset: 0x14439A0
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x143C7E8
+    // Offset: 0x1443A8C
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void ProcessEnergyChange(System.Single energyChange)
-    // Offset: 0x143C5C8
+    // Offset: 0x144386C
     void ProcessEnergyChange(float energyChange);
   }; // GameEnergyCounter
   #pragma pack(pop)

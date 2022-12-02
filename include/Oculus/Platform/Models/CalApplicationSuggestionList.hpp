@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class CalApplicationSuggestionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::CalApplicationSuggestion*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1A0499C
+    // Offset: 0x1A0D88C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalApplicationSuggestionList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CalApplicationSuggestionList::.ctor");

@@ -157,16 +157,16 @@ namespace System {
     // Get instance field reference: public System.Int32 Permilles
     [[deprecated("Use field access instead!")]] int& dyn_Permilles();
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x22D2630
+    // Offset: 0x22DF8FC
     static void GetActiveSection(::StringW format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x22D291C
+    // Offset: 0x22DFBE8
     static ::System::NumberFormatter::CustomInfo* Parse(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x22D3138
+    // Offset: 0x22E0404
     ::StringW Format(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi, bool positive, ::System::Text::StringBuilder* sb_int, ::System::Text::StringBuilder* sb_dec, ::System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x22D3AF4
+    // Offset: 0x22E0DC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

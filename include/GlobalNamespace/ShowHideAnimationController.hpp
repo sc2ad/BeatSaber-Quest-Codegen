@@ -94,23 +94,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _showAnimatorParam
     [[deprecated("Use field access instead!")]] int& dyn__showAnimatorParam();
     // public System.Boolean get_Show()
-    // Offset: 0x2AB3004
+    // Offset: 0x2AC323C
     bool get_Show();
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0x2AB2EA4
+    // Offset: 0x2AC30DC
     void set_Show(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AB3134
+    // Offset: 0x2AC336C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowHideAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowHideAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowHideAnimationController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2AB300C
+    // Offset: 0x2AC3244
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x2AB3088
+    // Offset: 0x2AC32C0
     ::System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
   }; // ShowHideAnimationController
   #pragma pack(pop)

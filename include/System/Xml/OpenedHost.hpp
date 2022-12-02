@@ -41,7 +41,7 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 nonCachedConnectionsCount
     [[deprecated("Use field access instead!")]] int& dyn_nonCachedConnectionsCount();
     // public System.Void .ctor()
-    // Offset: 0x1AE3848
+    // Offset: 0x1AEE830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenedHost* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::OpenedHost::.ctor");

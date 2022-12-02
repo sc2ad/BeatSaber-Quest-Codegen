@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusPlatformAchievementHandler <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusPlatformAchievementHandler*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x154EF14
+    // Offset: 0x1558E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformAchievementHandler::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformAchievementHandler::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
-    // Offset: 0x154EF70
+    // Offset: 0x1558E9C
     void $GetUnlockedAchievements$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
   }; // OculusPlatformAchievementHandler/<>c__DisplayClass3_0
   #pragma pack(pop)

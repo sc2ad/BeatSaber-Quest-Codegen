@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: beatLineManager
     char __padding0[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0x1115E44
+    // [InjectOptionalAttribute] Offset: 0x1115BD4
     // private readonly BeatLineManager _beatLineManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatLineManager* beatLineManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatLineManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1115E54
+    // [InjectOptionalAttribute] Offset: 0x1115BE4
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x28
@@ -86,20 +86,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _yAngle
     [[deprecated("Use field access instead!")]] float& dyn__yAngle();
     // public System.Void .ctor()
-    // Offset: 0x138E5D8
+    // Offset: 0x1395404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingGameHUDRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingGameHUDRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingGameHUDRotation*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x138E1C0
+    // Offset: 0x1394FEC
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x138E2F4
+    // Offset: 0x1395120
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x138E4C4
+    // Offset: 0x13952F0
     void LateUpdate();
   }; // FlyingGameHUDRotation
   #pragma pack(pop)

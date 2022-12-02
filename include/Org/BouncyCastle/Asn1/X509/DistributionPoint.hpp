@@ -79,25 +79,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames cRLIssuer
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_cRLIssuer();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F9D2C0
+    // Offset: 0x1F95018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::DistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPoint*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.DistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x1F9C63C
+    // Offset: 0x1F94394
     static ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1F9D764
+    // Offset: 0x1F954BC
     void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F9D514
+    // Offset: 0x1F9526C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1F9D5E4
+    // Offset: 0x1F9533C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

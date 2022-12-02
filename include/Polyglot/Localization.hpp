@@ -79,37 +79,37 @@ namespace Polyglot {
     ::Polyglot::LocalizationDocument* customDocument;
     // Field size check
     static_assert(sizeof(::Polyglot::LocalizationDocument*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10F037C
+    // [TooltipAttribute] Offset: 0x10F10FC
     // private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> inputFiles
     // Size: 0x8
     // Offset: 0x20
     ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* inputFiles;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10F03C8
-    // [TooltipAttribute] Offset: 0x10F03C8
+    // [HeaderAttribute] Offset: 0x10F1148
+    // [TooltipAttribute] Offset: 0x10F1148
     // private System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages
     // Size: 0x8
     // Offset: 0x28
     ::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::Polyglot::Language>*) == 0x8);
-    // [TooltipAttribute] Offset: 0x10F0438
+    // [TooltipAttribute] Offset: 0x10F11B8
     // private Polyglot.Language selectedLanguage
     // Size: 0x4
     // Offset: 0x30
     ::Polyglot::Language selectedLanguage;
     // Field size check
     static_assert(sizeof(::Polyglot::Language) == 0x4);
-    // [TooltipAttribute] Offset: 0x10F0484
+    // [TooltipAttribute] Offset: 0x10F1204
     // private Polyglot.Language fallbackLanguage
     // Size: 0x4
     // Offset: 0x34
     ::Polyglot::Language fallbackLanguage;
     // Field size check
     static_assert(sizeof(::Polyglot::Language) == 0x4);
-    // [HeaderAttribute] Offset: 0x10F04D0
-    // [TooltipAttribute] Offset: 0x10F04D0
+    // [HeaderAttribute] Offset: 0x10F1250
+    // [TooltipAttribute] Offset: 0x10F1250
     // public UnityEngine.Events.UnityEvent Localize
     // Size: 0x8
     // Offset: 0x38
@@ -150,98 +150,98 @@ namespace Polyglot {
     // Get instance field reference: private System.Globalization.CultureInfo selectedCultureInfo
     [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn_selectedCultureInfo();
     // public Polyglot.LocalizationDocument get_CustomDocument()
-    // Offset: 0x2ABB354
+    // Offset: 0x2ACB58C
     ::Polyglot::LocalizationDocument* get_CustomDocument();
     // public System.Collections.Generic.List`1<Polyglot.LocalizationAsset> get_InputFiles()
-    // Offset: 0x2ABB35C
+    // Offset: 0x2ACB594
     ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* get_InputFiles();
     // static public Polyglot.Localization get_Instance()
-    // Offset: 0x2ABA704
+    // Offset: 0x2ACA93C
     static ::Polyglot::Localization* get_Instance();
     // static public System.Void set_Instance(Polyglot.Localization value)
-    // Offset: 0x2ABB414
+    // Offset: 0x2ACB64C
     static void set_Instance(::Polyglot::Localization* value);
     // static private System.Boolean get_HasInstance()
-    // Offset: 0x2ABB364
+    // Offset: 0x2ACB59C
     static bool get_HasInstance();
     // public System.Collections.Generic.List`1<Polyglot.Language> get_SupportedLanguages()
-    // Offset: 0x2ABB468
+    // Offset: 0x2ACB6A0
     ::System::Collections::Generic::List_1<::Polyglot::Language>* get_SupportedLanguages();
     // public Polyglot.LanguageDirection get_SelectedLanguageDirection()
-    // Offset: 0x2ABB470
+    // Offset: 0x2ACB6A8
     ::Polyglot::LanguageDirection get_SelectedLanguageDirection();
     // public System.Int32 get_SelectedLanguageIndex()
-    // Offset: 0x2ABA9E4
+    // Offset: 0x2ACAC1C
     int get_SelectedLanguageIndex();
     // public System.Globalization.CultureInfo get_SelectedCultureInfo()
-    // Offset: 0x2ABB4A0
+    // Offset: 0x2ACB6D8
     ::System::Globalization::CultureInfo* get_SelectedCultureInfo();
     // public Polyglot.Language get_SelectedLanguage()
-    // Offset: 0x2ABB4A8
+    // Offset: 0x2ACB6E0
     ::Polyglot::Language get_SelectedLanguage();
     // public System.Void set_SelectedLanguage(Polyglot.Language value)
-    // Offset: 0x2ABB4B0
+    // Offset: 0x2ACB6E8
     void set_SelectedLanguage(::Polyglot::Language value);
     // public System.Collections.Generic.List`1<System.String> get_EnglishLanguageNames()
-    // Offset: 0x2ABA970
+    // Offset: 0x2ACABA8
     ::System::Collections::Generic::List_1<::StringW>* get_EnglishLanguageNames();
     // public System.Collections.Generic.List`1<System.String> get_LocalizedLanguageNames()
-    // Offset: 0x2ABB8FC
+    // Offset: 0x2ACBB34
     ::System::Collections::Generic::List_1<::StringW>* get_LocalizedLanguageNames();
     // public System.String get_EnglishLanguageName()
-    // Offset: 0x2ABB970
+    // Offset: 0x2ACBBA8
     ::StringW get_EnglishLanguageName();
     // public System.String get_LocalizedLanguageName()
-    // Offset: 0x2ABB9E8
+    // Offset: 0x2ACBC20
     ::StringW get_LocalizedLanguageName();
     // public System.Void .ctor()
-    // Offset: 0x2ABC374
+    // Offset: 0x2ACC5AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Localization* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::Localization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Localization*, creationType>()));
     }
     // private Polyglot.LanguageDirection GetLanguageDirection(Polyglot.Language language)
-    // Offset: 0x2ABB484
+    // Offset: 0x2ACB6BC
     ::Polyglot::LanguageDirection GetLanguageDirection(::Polyglot::Language language);
     // private System.Boolean IsLanguageSupported(Polyglot.Language language)
-    // Offset: 0x2ABB5CC
+    // Offset: 0x2ACB804
     bool IsLanguageSupported(::Polyglot::Language language);
     // public System.Void InvokeOnLocalize()
-    // Offset: 0x2ABB64C
+    // Offset: 0x2ACB884
     void InvokeOnLocalize();
     // public System.Void SelectLanguage(System.Int32 selected)
-    // Offset: 0x2ABBA30
+    // Offset: 0x2ACBC68
     void SelectLanguage(int selected);
     // public System.Void SelectLanguage(Polyglot.Language selected)
-    // Offset: 0x2ABBAB8
+    // Offset: 0x2ACBCF0
     void SelectLanguage(::Polyglot::Language selected);
     // public Polyglot.Language ConvertSystemLanguage(UnityEngine.SystemLanguage selected)
-    // Offset: 0x2ABBABC
+    // Offset: 0x2ACBCF4
     ::Polyglot::Language ConvertSystemLanguage(::UnityEngine::SystemLanguage selected);
     // public System.Void AddOnLocalizeEvent(Polyglot.ILocalize localize)
-    // Offset: 0x2ABA790
+    // Offset: 0x2ACA9C8
     void AddOnLocalizeEvent(::Polyglot::ILocalize* localize);
     // public System.Void RemoveOnLocalizeEvent(Polyglot.ILocalize localize)
-    // Offset: 0x2ABBAF8
+    // Offset: 0x2ACBD30
     void RemoveOnLocalizeEvent(::Polyglot::ILocalize* localize);
     // static public System.String Get(System.String key)
-    // Offset: 0x2ABB9B8
+    // Offset: 0x2ACBBF0
     static ::StringW Get(::StringW key);
     // static public System.String Get(System.String key, Polyglot.Language language)
-    // Offset: 0x2ABBBE4
+    // Offset: 0x2ACBE1C
     static ::StringW Get(::StringW key, ::Polyglot::Language language);
     // static public System.Boolean KeyExist(System.String key)
-    // Offset: 0x2ABBFF8
+    // Offset: 0x2ACC230
     static bool KeyExist(::StringW key);
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
-    // Offset: 0x2ABC0AC
+    // Offset: 0x2ACC2E4
     static ::System::Collections::Generic::List_1<::StringW>* GetKeys();
     // static public System.String GetFormat(System.String key, params System.Object[] arguments)
-    // Offset: 0x2ABC194
+    // Offset: 0x2ACC3CC
     static ::StringW GetFormat(::StringW key, ::ArrayW<::Il2CppObject*> arguments);
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
-    // Offset: 0x2ABC210
+    // Offset: 0x2ACC448
     bool InputFilesContains(::Polyglot::LocalizationDocument* doc);
   }; // Polyglot.Localization
   #pragma pack(pop)

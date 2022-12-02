@@ -117,13 +117,13 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
     // System.Void SetCompleted()
-    // Offset: 0x1DCA8A0
+    // Offset: 0x1DD59EC
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0x1DCA8D8
+    // Offset: 0x1DD5A24
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0x1DC7EB8
+    // Offset: 0x1DD3004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

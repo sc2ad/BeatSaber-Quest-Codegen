@@ -43,22 +43,22 @@ namespace System::Security::AccessControl {
   class CommonAce : public ::System::Security::AccessControl::QualifiedAce {
     public:
     // public System.Void .ctor(System.Security.AccessControl.AceFlags flags, System.Security.AccessControl.AceQualifier qualifier, System.Int32 accessMask, System.Security.Principal.SecurityIdentifier sid, System.Boolean isCallback, System.Byte[] opaque)
-    // Offset: 0x1B94798
+    // Offset: 0x1B9F7B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonAce* New_ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int accessMask, ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t> opaque) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::CommonAce::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommonAce*, creationType>(flags, qualifier, accessMask, sid, isCallback, opaque)));
     }
     // static private System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier qualifier, System.Boolean isCallback)
-    // Offset: 0x1B94804
+    // Offset: 0x1B9F824
     static ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
     // public override System.Int32 get_BinaryLength()
-    // Offset: 0x1B94CA0
+    // Offset: 0x1B9FCC0
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Int32 GenericAce::get_BinaryLength()
     int get_BinaryLength();
     // System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B94958
+    // Offset: 0x1B9F978
     // Implemented from: System.Security.AccessControl.QualifiedAce
     // Base method: System.Void QualifiedAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
     // Base method: System.Void KnownAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
@@ -69,7 +69,7 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<CommonAce*, creationType>(binaryForm, offset)));
     }
     // public override System.Void GetBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B94CFC
+    // Offset: 0x1B9FD1C
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Void GenericAce::GetBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
     void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int offset);

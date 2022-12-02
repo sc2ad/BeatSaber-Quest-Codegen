@@ -78,22 +78,22 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorBaseData> e
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData*>*& dyn_e();
     // public System.Single get_brightnessDistributionParam()
-    // Offset: 0x2745F60
+    // Offset: 0x2756198
     float get_brightnessDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_brightnessDistributionParamType()
-    // Offset: 0x2745F68
+    // Offset: 0x27561A0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_brightnessDistributionParamType();
     // public System.Boolean get_brightnessDistributionShouldAffectFirstBaseEvent()
-    // Offset: 0x2745F70
+    // Offset: 0x27561A8
     bool get_brightnessDistributionShouldAffectFirstBaseEvent();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType get_brightnessDistributionEaseType()
-    // Offset: 0x2745F80
+    // Offset: 0x27561B8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType get_brightnessDistributionEaseType();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorBaseData> get_lightColorBaseDataList()
-    // Offset: 0x2745F88
+    // Offset: 0x27561C0
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData*>* get_lightColorBaseDataList();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType, System.Single brightnessDistributionParam, System.Boolean brightnessDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType brightnessDistributionParamType, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType brightnessDistributionEaseType, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorBaseData> lightColorBaseDataList)
-    // Offset: 0x2745F90
+    // Offset: 0x27561C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightColorEventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType, float brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType brightnessDistributionParamType, ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData*>* lightColorBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorEventBox::.ctor");

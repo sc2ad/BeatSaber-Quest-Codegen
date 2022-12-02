@@ -118,38 +118,38 @@ namespace System::Text {
     // Get instance field reference: private System.Text.DecoderFallbackBuffer fallbackBuffer
     [[deprecated("Use field access instead!")]] ::System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
-    // Offset: 0x1F5204C
+    // Offset: 0x1F60198
     bool get_MoreData();
     // System.Int32 get_BytesUsed()
-    // Offset: 0x1F52080
+    // Offset: 0x1F601CC
     int get_BytesUsed();
     // System.Int32 get_Count()
-    // Offset: 0x1F52208
+    // Offset: 0x1F60354
     int get_Count();
     // System.Void .ctor(System.Text.Encoding enc, System.Text.DecoderNLS decoder, System.Char* charStart, System.Int32 charCount, System.Byte* byteStart, System.Int32 byteCount)
-    // Offset: 0x1F51F10
+    // Offset: 0x1F6005C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingCharBuffer* New_ctor(::System::Text::Encoding* enc, ::System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::EncodingCharBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingCharBuffer*, creationType>(enc, decoder, charStart, charCount, byteStart, byteCount)));
     }
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)
-    // Offset: 0x1F51FC0
+    // Offset: 0x1F6010C
     bool AddChar(::Il2CppChar ch, int numBytes);
     // System.Boolean AddChar(System.Char ch)
-    // Offset: 0x1F52034
+    // Offset: 0x1F60180
     bool AddChar(::Il2CppChar ch);
     // System.Void AdjustBytes(System.Int32 count)
-    // Offset: 0x1F5203C
+    // Offset: 0x1F60188
     void AdjustBytes(int count);
     // System.Byte GetNextByte()
-    // Offset: 0x1F5205C
+    // Offset: 0x1F601A8
     uint8_t GetNextByte();
     // System.Boolean Fallback(System.Byte fallbackByte)
-    // Offset: 0x1F52090
+    // Offset: 0x1F601DC
     bool Fallback(uint8_t fallbackByte);
     // System.Boolean Fallback(System.Byte[] byteBuffer)
-    // Offset: 0x1F52118
+    // Offset: 0x1F60264
     bool Fallback(::ArrayW<uint8_t> byteBuffer);
   }; // System.Text.Encoding/System.Text.EncodingCharBuffer
   #pragma pack(pop)

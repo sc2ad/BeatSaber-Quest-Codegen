@@ -63,17 +63,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelNoTransitionInstallerData _standardLevelNoTransitionInstallerData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelNoTransitionInstallerData*& dyn__standardLevelNoTransitionInstallerData();
     // public StandardLevelNoTransitionInstallerData get_standardLevelNoTransitionInstallerData()
-    // Offset: 0x1393FB8
+    // Offset: 0x13AF4E0
     ::GlobalNamespace::StandardLevelNoTransitionInstallerData* get_standardLevelNoTransitionInstallerData();
     // public System.Void .ctor()
-    // Offset: 0x13946D8
+    // Offset: 0x13AFC00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelNoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1393FC0
+    // Offset: 0x13AF4E8
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(::Zenject::DiContainer* container);

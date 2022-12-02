@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public System.Int32 get_renderingPriority()
-    // Offset: 0x1CC2330
+    // Offset: 0x1CCC47C
     int get_renderingPriority();
     // public UnityEngine.Material get_material()
-    // Offset: 0x1CC2338
+    // Offset: 0x1CCC484
     ::UnityEngine::Material* get_material();
     // public System.Void .ctor()
-    // Offset: 0x1CC2340
+    // Offset: 0x1CCC48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLightTypeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLightTypeSO::.ctor");

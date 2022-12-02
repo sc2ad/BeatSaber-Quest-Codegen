@@ -57,16 +57,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW TextForValue(int idx);
     // protected System.Void OnEnable()
-    // Offset: 0x15A1108
+    // Offset: 0x15AA02C
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x15A114C
+    // Offset: 0x15AA070
     void RefreshUI();
     // public System.Void Refresh(System.Boolean applyValue)
-    // Offset: 0x15A11B8
+    // Offset: 0x15AA0DC
     void Refresh(bool applyValue);
     // protected System.Void .ctor()
-    // Offset: 0x15A12A8
+    // Offset: 0x15AA1CC
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,12 +75,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ListSettingsController*, creationType>()));
     }
     // protected override System.Void IncButtonPressed()
-    // Offset: 0x15A1218
+    // Offset: 0x15AA13C
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::IncButtonPressed()
     void IncButtonPressed();
     // protected override System.Void DecButtonPressed()
-    // Offset: 0x15A1264
+    // Offset: 0x15AA188
     // Implemented from: IncDecSettingsController
     // Base method: System.Void IncDecSettingsController::DecButtonPressed()
     void DecButtonPressed();

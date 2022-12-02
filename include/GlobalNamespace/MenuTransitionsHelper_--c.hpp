@@ -40,17 +40,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action <>9__26_0
     static void _set_$$9__26_0(::System::Action* value);
     // static private System.Void .cctor()
-    // Offset: 0x133DD9C
+    // Offset: 0x1342D84
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x133DE00
+    // Offset: 0x1342DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c*, creationType>()));
     }
     // System.Void <StartBeatmapEditor>b__26_0()
-    // Offset: 0x133DE08
+    // Offset: 0x1342DF0
     void $StartBeatmapEditor$b__26_0();
   }; // MenuTransitionsHelper/<>c
   #pragma pack(pop)

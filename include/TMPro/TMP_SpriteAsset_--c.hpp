@@ -52,20 +52,20 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
     static void _set_$$9__33_0(::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14B78A4
+    // Offset: 0x14BF8B0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14B7908
+    // Offset: 0x14BF914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAsset::$$c*, creationType>()));
     }
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
-    // Offset: 0x14B7910
+    // Offset: 0x14BF91C
     uint $SortGlyphTable$b__32_0(::TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
-    // Offset: 0x14B792C
+    // Offset: 0x14BF938
     uint $SortCharacterTable$b__33_0(::TMPro::TMP_SpriteCharacter* c);
   }; // TMPro.TMP_SpriteAsset/TMPro.<>c
   #pragma pack(pop)

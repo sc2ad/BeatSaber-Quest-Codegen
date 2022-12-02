@@ -80,26 +80,26 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isSpawned
     [[deprecated("Use field access instead!")]] bool& dyn__isSpawned();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IPoolable> poolables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1CB0EE0
+    // Offset: 0x1CBB02C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager*, creationType>(poolables, priorities)));
     }
     // private Zenject.PoolableManager/Zenject.PoolableInfo CreatePoolableInfo(Zenject.IPoolable poolable, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1CB113C
+    // Offset: 0x1CBB288
     ::Zenject::PoolableManager::PoolableInfo CreatePoolableInfo(::Zenject::IPoolable* poolable, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities);
     // public System.Void TriggerOnSpawned()
-    // Offset: 0x1CB1310
+    // Offset: 0x1CBB45C
     void TriggerOnSpawned();
     // public System.Void TriggerOnDespawned()
-    // Offset: 0x1CB1428
+    // Offset: 0x1CBB574
     void TriggerOnDespawned();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CB1534
+    // Offset: 0x1CBB680
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CB164C
+    // Offset: 0x1CBB798
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PoolableManager
   #pragma pack(pop)

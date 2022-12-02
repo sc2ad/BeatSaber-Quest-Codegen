@@ -62,45 +62,45 @@ namespace NUnit::Framework::Internal {
     static ::ArrayW<::System::Type*> _get_EmptyTypes();
     // Set static field: static private readonly System.Type[] EmptyTypes
     static void _set_EmptyTypes(::ArrayW<::System::Type*> value);
-    // [DebuggerBrowsableAttribute] Offset: 0x1107184
+    // [DebuggerBrowsableAttribute] Offset: 0x1107F04
     // Get static field: static private System.Func`2<System.Func`1<System.Object>,System.Object> <MethodCallWrapper>k__BackingField
     static ::System::Func_2<::System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* _get_$MethodCallWrapper$k__BackingField();
     // Set static field: static private System.Func`2<System.Func`1<System.Object>,System.Object> <MethodCallWrapper>k__BackingField
     static void _set_$MethodCallWrapper$k__BackingField(::System::Func_2<::System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* value);
-    // [DebuggerBrowsableAttribute] Offset: 0x11071C0
+    // [DebuggerBrowsableAttribute] Offset: 0x1107F40
     // Get static field: static private System.Func`3<System.Type,System.Object[],System.Object> <ConstructorCallWrapper>k__BackingField
     static ::System::Func_3<::System::Type*, ::ArrayW<::Il2CppObject*>, ::Il2CppObject*>* _get_$ConstructorCallWrapper$k__BackingField();
     // Set static field: static private System.Func`3<System.Type,System.Object[],System.Object> <ConstructorCallWrapper>k__BackingField
     static void _set_$ConstructorCallWrapper$k__BackingField(::System::Func_3<::System::Type*, ::ArrayW<::Il2CppObject*>, ::Il2CppObject*>* value);
     // static public System.Func`2<System.Func`1<System.Object>,System.Object> get_MethodCallWrapper()
-    // Offset: 0x2A602D0
+    // Offset: 0x2A71508
     static ::System::Func_2<::System::Func_1<::Il2CppObject*>*, ::Il2CppObject*>* get_MethodCallWrapper();
     // static public System.Func`3<System.Type,System.Object[],System.Object> get_ConstructorCallWrapper()
-    // Offset: 0x2A60338
+    // Offset: 0x2A71570
     static ::System::Func_3<::System::Type*, ::ArrayW<::Il2CppObject*>, ::Il2CppObject*>* get_ConstructorCallWrapper();
     // static private System.Void .cctor()
-    // Offset: 0x2A603A0
+    // Offset: 0x2A715D8
     static void _cctor();
     // static public System.Reflection.MethodInfo[] GetMethodsWithAttribute(System.Type fixtureType, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x2A5F9E0
+    // Offset: 0x2A70C18
     static ::ArrayW<::System::Reflection::MethodInfo*> GetMethodsWithAttribute(::System::Type* fixtureType, ::System::Type* attributeType, bool inherit);
     // static public System.Boolean HasMethodWithAttribute(System.Type fixtureType, System.Type attributeType)
-    // Offset: 0x2A5FB94
+    // Offset: 0x2A70DCC
     static bool HasMethodWithAttribute(::System::Type* fixtureType, ::System::Type* attributeType);
     // static public System.Object Construct(System.Type type)
-    // Offset: 0x2A5FC9C
+    // Offset: 0x2A70ED4
     static ::Il2CppObject* Construct(::System::Type* type);
     // static public System.Object Construct(System.Type type, System.Object[] arguments)
-    // Offset: 0x2A5FE80
+    // Offset: 0x2A710B8
     static ::Il2CppObject* Construct(::System::Type* type, ::ArrayW<::Il2CppObject*> arguments);
     // static System.Type[] GetTypeArray(System.Object[] objects)
-    // Offset: 0x2A6010C
+    // Offset: 0x2A71344
     static ::ArrayW<::System::Type*> GetTypeArray(::ArrayW<::Il2CppObject*> objects);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture)
-    // Offset: 0x2A60250
+    // Offset: 0x2A71488
     static ::Il2CppObject* InvokeMethod(::System::Reflection::MethodInfo* method, ::Il2CppObject* fixture);
     // static public System.Object InvokeMethod(System.Reflection.MethodInfo method, System.Object fixture, params System.Object[] args)
-    // Offset: 0x2A5E0B8
+    // Offset: 0x2A6F2F0
     static ::Il2CppObject* InvokeMethod(::System::Reflection::MethodInfo* method, ::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
   }; // NUnit.Framework.Internal.Reflect
   #pragma pack(pop)

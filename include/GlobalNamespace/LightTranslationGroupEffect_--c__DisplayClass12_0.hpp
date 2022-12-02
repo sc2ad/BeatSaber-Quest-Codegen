@@ -83,14 +83,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public LightTranslationGroupEffect <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightTranslationGroupEffect*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x150F724
+    // Offset: 0x1518828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationGroupEffect::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationGroupEffect::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightTranslationGroupEffect::$$c__DisplayClass12_0*, creationType>()));
     }
     // System.Void <GetTranslationEventHandler>b__0(LightTranslationBeatmapEventData currentEventData)
-    // Offset: 0x150FA3C
+    // Offset: 0x1518B40
     void $GetTranslationEventHandler$b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
   }; // LightTranslationGroupEffect/<>c__DisplayClass12_0
   #pragma pack(pop)

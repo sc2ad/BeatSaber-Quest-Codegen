@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x1CCB654
+    // Offset: 0x1CD57A0
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

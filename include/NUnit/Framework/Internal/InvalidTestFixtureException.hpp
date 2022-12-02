@@ -37,21 +37,21 @@ namespace NUnit::Framework::Internal {
   class InvalidTestFixtureException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A5D5C8
+    // Offset: 0x2A6E800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2A5D630
+    // Offset: 0x2A6E868
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidTestFixtureException*, creationType>(message)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2A5D6A8
+    // Offset: 0x2A6E8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTestFixtureException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::InvalidTestFixtureException::.ctor");

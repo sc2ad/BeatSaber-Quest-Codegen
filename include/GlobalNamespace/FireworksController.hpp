@@ -66,8 +66,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0x1114210
-    // [NullAllowed] Offset: 0x1114210
+    // [HeaderAttribute] Offset: 0x1113FA0
+    // [NullAllowed] Offset: 0x1113FA0
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x111427C
+    // [InjectAttribute] Offset: 0x111400C
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -111,23 +111,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FireworkItemController/Pool _fireworkItemPool
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FireworkItemController::Pool*& dyn__fireworkItemPool();
     // public System.Void .ctor()
-    // Offset: 0x138C374
+    // Offset: 0x13931A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworksController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworksController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworksController*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x138C17C
+    // Offset: 0x1392FA8
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x138C1A8
+    // Offset: 0x1392FD4
     ::System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x138C244
+    // Offset: 0x1393070
     void HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x138C2F0
+    // Offset: 0x139311C
     void OnDrawGizmosSelected();
   }; // FireworksController
   #pragma pack(pop)

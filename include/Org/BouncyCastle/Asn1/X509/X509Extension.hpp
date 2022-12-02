@@ -56,28 +56,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString value
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_value();
     // public System.Boolean get_IsCritical()
-    // Offset: 0x1FA26C4
+    // Offset: 0x1F9A41C
     bool get_IsCritical();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_Value()
-    // Offset: 0x1FA26CC
+    // Offset: 0x1F9A424
     ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
     // public System.Void .ctor(System.Boolean critical, Org.BouncyCastle.Asn1.Asn1OctetString value)
-    // Offset: 0x1FA2684
+    // Offset: 0x1F9A3DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(critical, value)));
     }
     // static public Org.BouncyCastle.Asn1.Asn1Object ConvertValueToObject(Org.BouncyCastle.Asn1.X509.X509Extension ext)
-    // Offset: 0x1F9B83C
+    // Offset: 0x1F93594
     static ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1FA26D4
+    // Offset: 0x1F9A42C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1FA2710
+    // Offset: 0x1F9A468
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

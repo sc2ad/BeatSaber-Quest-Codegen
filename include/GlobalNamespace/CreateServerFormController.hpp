@@ -72,17 +72,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _netDiscoverable
     [[deprecated("Use field access instead!")]] bool& dyn__netDiscoverable();
     // public CreateServerFormData get_formData()
-    // Offset: 0x142CE74
+    // Offset: 0x1434118
     ::GlobalNamespace::CreateServerFormData get_formData();
     // public System.Void .ctor()
-    // Offset: 0x142CFC8
+    // Offset: 0x143426C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreateServerFormController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreateServerFormController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreateServerFormController*, creationType>()));
     }
     // public System.Void Setup(System.Int32 selectedNumberOfPlayers, System.Boolean netDiscoverable)
-    // Offset: 0x142CF84
+    // Offset: 0x1434228
     void Setup(int selectedNumberOfPlayers, bool netDiscoverable);
   }; // CreateServerFormController
   #pragma pack(pop)

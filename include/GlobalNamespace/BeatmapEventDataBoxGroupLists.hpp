@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatToTimeConvertor*) == 0x8);
-    // private readonly System.Boolean _updateBeatmapDataOnInsert
+    // private System.Boolean _updateBeatmapDataOnInsert
     // Size: 0x1
     // Offset: 0x28
     bool updateBeatmapDataOnInsert;
@@ -80,30 +80,27 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // Get instance field reference: private readonly IBeatToTimeConvertor _beatToTimeConvertor
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatToTimeConvertor*& dyn__beatToTimeConvertor();
-    // Get instance field reference: private readonly System.Boolean _updateBeatmapDataOnInsert
+    // Get instance field reference: private System.Boolean _updateBeatmapDataOnInsert
     [[deprecated("Use field access instead!")]] bool& dyn__updateBeatmapDataOnInsert();
     // public System.Void .ctor(BeatmapData beatmapData, IBeatToTimeConvertor beatToTimeConvertor, System.Boolean updateBeatmapDataOnInsert)
-    // Offset: 0x1559184
+    // Offset: 0x15620B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupLists* New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, bool updateBeatmapDataOnInsert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupLists::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupLists*, creationType>(beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert)));
     }
     // public System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> Insert(System.Int32 groupId, BeatmapEventDataBoxGroup beatmapEventDataBoxGroup)
-    // Offset: 0x1559220
+    // Offset: 0x156214C
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(int groupId, ::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
     // public System.Void Remove(System.Int32 groupId, System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x1559314
+    // Offset: 0x1562240
     void Remove(int groupId, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void ToggleUpdateBeatmapDataOnInsert(System.Boolean enableUpdateOnInsert)
-    // Offset: 0x15593D8
+    // Offset: 0x1562304
     void ToggleUpdateBeatmapDataOnInsert(bool enableUpdateOnInsert);
     // public System.Void SyncWithBeatmapData()
-    // Offset: 0x15594E0
+    // Offset: 0x1562410
     void SyncWithBeatmapData();
-    // public System.Void SyncWithBeatmapData(System.Int32 groupId)
-    // Offset: 0x15595DC
-    void SyncWithBeatmapData(int groupId);
   }; // BeatmapEventDataBoxGroupLists
   #pragma pack(pop)
   static check_size<sizeof(BeatmapEventDataBoxGroupLists), 40 + sizeof(bool)> __GlobalNamespace_BeatmapEventDataBoxGroupListsSizeCheck;
@@ -149,14 +146,5 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataBoxGroupLists::*)()>(&GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupLists*), "SyncWithBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData
-// Il2CppName: SyncWithBeatmapData
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(int)>(&GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData)> {
-  static const MethodInfo* get() {
-    static auto* groupId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupLists*), "SyncWithBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupId});
   }
 };

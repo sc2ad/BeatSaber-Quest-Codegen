@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class SliderController::Pool::Short : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1468428
+    // Offset: 0x146F4BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderController::Pool::Short* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderController::Pool::Short::.ctor");

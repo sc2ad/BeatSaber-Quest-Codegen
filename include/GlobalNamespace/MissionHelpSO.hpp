@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _missionHelpId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__missionHelpId();
     // public System.String get_missionHelpId()
-    // Offset: 0x1341BC8
+    // Offset: 0x1346BB0
     ::StringW get_missionHelpId();
     // public System.Void .ctor()
-    // Offset: 0x1341BD0
+    // Offset: 0x1346BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpSO::.ctor");

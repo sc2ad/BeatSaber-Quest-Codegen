@@ -38,8 +38,8 @@ namespace UnityEngine::Timeline {
   class Marker : public ::UnityEngine::ScriptableObject/*, public ::UnityEngine::Timeline::IMarker*/ {
     public:
     public:
-    // [TimeFieldAttribute] Offset: 0x10D06E4
-    // [TooltipAttribute] Offset: 0x10D06E4
+    // [TimeFieldAttribute] Offset: 0x10D1464
+    // [TooltipAttribute] Offset: 0x10D1464
     // private System.Double m_Time
     // Size: 0x8
     // Offset: 0x18
@@ -68,29 +68,29 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Timeline.TrackAsset <parent>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::TrackAsset*& dyn_$parent$k__BackingField();
     // public UnityEngine.Timeline.TrackAsset get_parent()
-    // Offset: 0x1E34CD4
+    // Offset: 0x1E41E20
     ::UnityEngine::Timeline::TrackAsset* get_parent();
     // private System.Void set_parent(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x1E34CDC
+    // Offset: 0x1E41E28
     void set_parent(::UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_time()
-    // Offset: 0x1E34CE4
+    // Offset: 0x1E41E30
     double get_time();
     // public System.Void set_time(System.Double value)
-    // Offset: 0x1E34CEC
+    // Offset: 0x1E41E38
     void set_time(double value);
     // protected System.Void .ctor()
-    // Offset: 0x1E34ED4
+    // Offset: 0x1E42020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Marker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::Marker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Marker*, creationType>()));
     }
     // private System.Void UnityEngine.Timeline.IMarker.Initialize(UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x1E34D6C
+    // Offset: 0x1E41EB8
     void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
     // public System.Void OnInitialize(UnityEngine.Timeline.TrackAsset aPent)
-    // Offset: 0x1E34ED0
+    // Offset: 0x1E4201C
     void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
   }; // UnityEngine.Timeline.Marker
   #pragma pack(pop)

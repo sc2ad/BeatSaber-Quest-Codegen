@@ -129,26 +129,26 @@ namespace System::IO {
     // Get instance field reference: private System.AsyncCallback realcb
     [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_realcb();
     // public System.Object get_AsyncState()
-    // Offset: 0x20750A4
+    // Offset: 0x20646CC
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x20750AC
+    // Offset: 0x20646D4
     bool get_CompletedSynchronously();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x20750B4
+    // Offset: 0x20646DC
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x20750BC
+    // Offset: 0x20646E4
     bool get_IsCompleted();
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x207392C
+    // Offset: 0x2062F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileStreamAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStreamAsyncResult*, creationType>(cb, state)));
     }
     // static private System.Void CBWrapper(System.IAsyncResult ares)
-    // Offset: 0x2075008
+    // Offset: 0x2064630
     static void CBWrapper(::System::IAsyncResult* ares);
   }; // System.IO.FileStreamAsyncResult
   #pragma pack(pop)

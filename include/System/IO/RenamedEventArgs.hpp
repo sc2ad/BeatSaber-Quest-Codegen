@@ -48,7 +48,7 @@ namespace System::IO {
     // Get instance field reference: private System.String oldFullPath
     [[deprecated("Use field access instead!")]] ::StringW& dyn_oldFullPath();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
-    // Offset: 0x1D85024
+    // Offset: 0x1D90170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RenamedEventArgs* New_ctor(::System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name, ::StringW oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::RenamedEventArgs::.ctor");

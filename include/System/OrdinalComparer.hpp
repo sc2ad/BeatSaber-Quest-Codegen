@@ -44,34 +44,34 @@ namespace System {
     // Get instance field reference: private System.Boolean _ignoreCase
     [[deprecated("Use field access instead!")]] bool& dyn__ignoreCase();
     // System.Void .ctor(System.Boolean ignoreCase)
-    // Offset: 0x22D47B8
+    // Offset: 0x22E1A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrdinalComparer* New_ctor(bool ignoreCase) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::OrdinalComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrdinalComparer*, creationType>(ignoreCase)));
     }
     // public override System.Int32 Compare(System.String x, System.String y)
-    // Offset: 0x22D4838
+    // Offset: 0x22E1B04
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
     int Compare(::StringW x, ::StringW y);
     // public override System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x22D4890
+    // Offset: 0x22E1B5C
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
     bool Equals(::StringW x, ::StringW y);
     // public override System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x22D4910
+    // Offset: 0x22E1BDC
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
     int GetHashCode(::StringW obj);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22D49C8
+    // Offset: 0x22E1C94
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22D4A60
+    // Offset: 0x22E1D2C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

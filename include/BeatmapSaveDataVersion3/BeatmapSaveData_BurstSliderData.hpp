@@ -44,13 +44,13 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Single s
     [[deprecated("Use field access instead!")]] float& dyn_s();
     // public System.Int32 get_sliceCount()
-    // Offset: 0x2745A6C
+    // Offset: 0x2755CA4
     int get_sliceCount();
     // public System.Single get_squishAmount()
-    // Offset: 0x2745A74
+    // Offset: 0x2755CAC
     float get_squishAmount();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType colorType, System.Single headBeat, System.Int32 headLine, System.Int32 headLayer, NoteCutDirection headCutDirection, System.Single tailBeat, System.Int32 tailLine, System.Int32 tailLayer, System.Int32 sliceCount, System.Single squishAmount)
-    // Offset: 0x2745A7C
+    // Offset: 0x2755CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BurstSliderData* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType colorType, float headBeat, int headLine, int headLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailBeat, int tailLine, int tailLayer, int sliceCount, float squishAmount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BurstSliderData::.ctor");

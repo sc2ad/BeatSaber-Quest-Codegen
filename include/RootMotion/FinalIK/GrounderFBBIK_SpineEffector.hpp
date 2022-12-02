@@ -26,21 +26,21 @@ namespace RootMotion::FinalIK {
   class GrounderFBBIK::SpineEffector : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113B3B4
+    // [TooltipAttribute] Offset: 0x113B1B4
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x113B3EC
+    // [TooltipAttribute] Offset: 0x113B1EC
     // public System.Single horizontalWeight
     // Size: 0x4
     // Offset: 0x14
     float horizontalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113B424
+    // [TooltipAttribute] Offset: 0x113B224
     // public System.Single verticalWeight
     // Size: 0x4
     // Offset: 0x18
@@ -55,14 +55,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single verticalWeight
     [[deprecated("Use field access instead!")]] float& dyn_verticalWeight();
     // public System.Void .ctor()
-    // Offset: 0x22E7DF8
+    // Offset: 0x22F50C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>()));
     }
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
-    // Offset: 0x22E7E08
+    // Offset: 0x22F50D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");

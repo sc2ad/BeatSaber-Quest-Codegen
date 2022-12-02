@@ -56,14 +56,14 @@ namespace OnlineServices::API {
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x136FEE4
+    // Offset: 0x1375D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, creationType>()));
     }
     // System.Void <SendWebRequestAsync>b__0(UnityEngine.AsyncOperation asyncOperation2)
-    // Offset: 0x136FEEC
+    // Offset: 0x1375D18
     void $SendWebRequestAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation2);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_1
   #pragma pack(pop)

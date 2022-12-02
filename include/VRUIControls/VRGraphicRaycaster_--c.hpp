@@ -41,17 +41,17 @@ namespace VRUIControls {
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
     static void _set_$$9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AE23F0
+    // Offset: 0x2AF0628
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2AE2454
+    // Offset: 0x2AF068C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRGraphicRaycaster::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRGraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRGraphicRaycaster::$$c*, creationType>()));
     }
     // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
-    // Offset: 0x2AE245C
+    // Offset: 0x2AF0694
     int $RaycastCanvas$b__12_0(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
   }; // VRUIControls.VRGraphicRaycaster/VRUIControls.<>c
   #pragma pack(pop)

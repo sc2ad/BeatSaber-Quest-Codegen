@@ -68,7 +68,7 @@ namespace System::Xml::Linq {
     // Get instance field reference: public System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration prev
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
     // public System.Void .ctor()
-    // Offset: 0x2B1C414
+    // Offset: 0x2B2864C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceResolver::NamespaceDeclaration* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration::.ctor");

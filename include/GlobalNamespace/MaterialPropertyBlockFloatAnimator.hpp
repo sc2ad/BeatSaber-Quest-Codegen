@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
     public:
-    // [SpaceAttribute] Offset: 0x10FBAF8
+    // [SpaceAttribute] Offset: 0x10FC878
     // private System.Single _value
     // Size: 0x4
     // Offset: 0x30
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _value
     [[deprecated("Use field access instead!")]] float& dyn__value();
     // public System.Void .ctor()
-    // Offset: 0x1CCAD30
+    // Offset: 0x1CD4E7C
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1CCACF4
+    // Offset: 0x1CD4E40
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

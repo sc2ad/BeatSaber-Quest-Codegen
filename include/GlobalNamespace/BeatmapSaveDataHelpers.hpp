@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveDataHelpers : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EB394
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EC114
     // Get static field: static private readonly System.Version version2_6_0
     static ::System::Version* _get_version2_6_0();
     // Set static field: static private readonly System.Version version2_6_0
@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kVersionSearchString
     static void _set_kVersionSearchString(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x27433D0
+    // Offset: 0x2753608
     static void _cctor();
     // static public System.Version GetVersion(System.String data)
-    // Offset: 0x27432C0
+    // Offset: 0x27534F8
     static ::System::Version* GetVersion(::StringW data);
   }; // BeatmapSaveDataHelpers
   #pragma pack(pop)

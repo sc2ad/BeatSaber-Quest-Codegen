@@ -49,14 +49,14 @@ namespace System::Net {
       return reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1A9E0F8
+    // Offset: 0x1AA90E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpRequestCreator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpRequestCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpRequestCreator*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x1A9DFC0
+    // Offset: 0x1AA8FA8
     ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.FtpRequestCreator
   #pragma pack(pop)

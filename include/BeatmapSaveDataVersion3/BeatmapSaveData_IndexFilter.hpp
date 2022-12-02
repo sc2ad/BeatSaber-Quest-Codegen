@@ -156,54 +156,54 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilterLimitAlsoAffectsType d
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilterLimitAlsoAffectsType& dyn_d();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType get_type()
-    // Offset: 0x2745BE4
+    // Offset: 0x2755E1C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType get_type();
     // public System.Int32 get_param0()
-    // Offset: 0x2745BEC
+    // Offset: 0x2755E24
     int get_param0();
     // public System.Int32 get_param1()
-    // Offset: 0x2745BF4
+    // Offset: 0x2755E2C
     int get_param1();
     // public System.Boolean get_reversed()
-    // Offset: 0x2745BFC
+    // Offset: 0x2755E34
     bool get_reversed();
     // public System.Int32 get_chunks()
-    // Offset: 0x2745C0C
+    // Offset: 0x2755E44
     int get_chunks();
     // public System.Single get_limit()
-    // Offset: 0x2745C14
+    // Offset: 0x2755E4C
     float get_limit();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilterLimitAlsoAffectsType get_limitAlsoAffectsType()
-    // Offset: 0x2745C1C
+    // Offset: 0x2755E54
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilterLimitAlsoAffectsType get_limitAlsoAffectsType();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilterRandomType get_random()
-    // Offset: 0x2745C24
+    // Offset: 0x2755E5C
     ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilterRandomType get_random();
     // public System.Int32 get_seed()
-    // Offset: 0x2745C2C
+    // Offset: 0x2755E64
     int get_seed();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter/BeatmapSaveDataVersion3.IndexFilterType type, System.Int32 param0, System.Int32 param1, System.Boolean reversed, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilterRandomType random, System.Int32 seed, System.Int32 chunks, System.Single limit, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilterLimitAlsoAffectsType limitAlsoAffectsType)
-    // Offset: 0x2745C34
+    // Offset: 0x2755E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::IndexFilterType type, int param0, int param1, bool reversed, ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilterRandomType random, int seed, int chunks, float limit, ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilterLimitAlsoAffectsType limitAlsoAffectsType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(type, param0, param1, reversed, random, seed, chunks, limit, limitAlsoAffectsType)));
     }
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter other)
-    // Offset: 0x2745CC0
+    // Offset: 0x2755EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::IndexFilter*, creationType>(other)));
     }
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateDivisionIndexFilter(System.Int32 numberOfSections, System.Int32 divisionIdx, System.Boolean reversed)
-    // Offset: 0x2745D38
+    // Offset: 0x2755F70
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateDivisionIndexFilter(int numberOfSections, int divisionIdx, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateStepFilter(System.Int32 offset, System.Int32 step, System.Boolean reversed)
-    // Offset: 0x2745DCC
+    // Offset: 0x2756004
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateStepFilter(int offset, int step, bool reversed);
     // static public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter CreateForExtension()
-    // Offset: 0x2745E60
+    // Offset: 0x2756098
     static ::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* CreateForExtension();
   }; // BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter
   #pragma pack(pop)

@@ -46,7 +46,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 expireIn
     [[deprecated("Use field access instead!")]] int& dyn_expireIn();
     // public System.Void .ctor()
-    // Offset: 0x13F2630
+    // Offset: 0x13F968C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenDTO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::TokenDTO::.ctor");

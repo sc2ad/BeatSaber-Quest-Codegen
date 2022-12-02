@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentLightGroups _lightGroups
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentLightGroups*& dyn__lightGroups();
     // public System.Void .ctor(EnvironmentLightGroups lightGroups)
-    // Offset: 0x13CCF44
+    // Offset: 0x13AA53C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader::EventBoxGroupConvertor* New_ctor(::GlobalNamespace::EnvironmentLightGroups* lightGroups) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::EventBoxGroupConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader::EventBoxGroupConvertor*, creationType>(lightGroups)));
     }
     // public BeatmapEventDataBoxGroup Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBoxGroup eventBoxGroupSaveData)
-    // Offset: 0x13CD05C
+    // Offset: 0x13AA654
     ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup* eventBoxGroupSaveData);
   }; // BeatmapDataLoader/EventBoxGroupConvertor
   #pragma pack(pop)

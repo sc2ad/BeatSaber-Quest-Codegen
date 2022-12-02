@@ -80,16 +80,16 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Byte[] x
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_x();
     // static private System.Void .cctor()
-    // Offset: 0x23A2E38
+    // Offset: 0x23B1104
     static void _cctor();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x23A28C4
+    // Offset: 0x23B0B90
     ::ArrayW<uint8_t> Padding(int nLength);
     // private System.Void MD2Transform(System.Byte[] state, System.Byte[] checksum, System.Byte[] block, System.Int32 index)
-    // Offset: 0x23A2AB0
+    // Offset: 0x23B0D7C
     void MD2Transform(::ArrayW<uint8_t> state, ::ArrayW<uint8_t> checksum, ::ArrayW<uint8_t> block, int index);
     // public System.Void .ctor()
-    // Offset: 0x23A2818
+    // Offset: 0x23B0AE4
     // Implemented from: Mono.Security.Cryptography.MD2
     // Base method: System.Void MD2::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,17 +98,17 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD2Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x23A2970
+    // Offset: 0x23B0C3C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x23A29DC
+    // Offset: 0x23B0CA8
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::ArrayW<uint8_t> array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x23A2D40
+    // Offset: 0x23B100C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::ArrayW<uint8_t> HashFinal();

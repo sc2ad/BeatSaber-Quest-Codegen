@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x111CEF8
+    // [SpaceAttribute] Offset: 0x111CC88
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x30
@@ -95,14 +95,14 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111CF40
+    // [SpaceAttribute] Offset: 0x111CCD0
     // private EnvironmentsListSO _allEnvironments
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::EnvironmentsListSO* allEnvironments;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentsListSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x111CF78
+    // [InjectAttribute] Offset: 0x111CD08
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x48
@@ -151,32 +151,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
-    // Offset: 0x1380FC0
+    // Offset: 0x1387DEC
     ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // public System.Void .ctor()
-    // Offset: 0x1381A90
+    // Offset: 0x13888BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentOverrideSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentOverrideSettingsPanelController*, creationType>()));
     }
     // public System.Void SetData(OverrideEnvironmentSettings overrideEnvironmentSettings)
-    // Offset: 0x1380FC8
+    // Offset: 0x1387DF4
     void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1381358
+    // Offset: 0x1388184
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x13814E0
+    // Offset: 0x138830C
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1381648
+    // Offset: 0x1388474
     void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideEnvironmentsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x13818AC
+    // Offset: 0x13886D8
     void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
     // private System.Void <HandleOverrideEnvironmentsToggleValueChanged>b__16_0()
-    // Offset: 0x1381A98
+    // Offset: 0x13888C4
     void $HandleOverrideEnvironmentsToggleValueChanged$b__16_0();
   }; // EnvironmentOverrideSettingsPanelController
   #pragma pack(pop)

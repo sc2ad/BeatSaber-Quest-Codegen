@@ -50,23 +50,23 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _caseInsensitive
     [[deprecated("Use field access instead!")]] bool& dyn__caseInsensitive();
     // System.String get_Prefix()
-    // Offset: 0x1E5E4C4
+    // Offset: 0x1E6C610
     ::StringW get_Prefix();
     // System.Boolean get_CaseInsensitive()
-    // Offset: 0x1E5E4CC
+    // Offset: 0x1E6C618
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
-    // Offset: 0x1E5E4D4
+    // Offset: 0x1E6C620
     static ::System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // System.Void .ctor(System.String prefix, System.Boolean ci)
-    // Offset: 0x1E53DFC
+    // Offset: 0x1E61F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::StringW prefix, bool ci) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E5E53C
+    // Offset: 0x1E6C688
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexPrefix
   #pragma pack(pop)

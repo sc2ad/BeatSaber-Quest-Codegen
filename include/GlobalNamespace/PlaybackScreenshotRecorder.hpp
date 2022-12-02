@@ -72,32 +72,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _frameNumber
     [[deprecated("Use field access instead!")]] int& dyn__frameNumber();
     // public System.String get_directory()
-    // Offset: 0x156DE74
+    // Offset: 0x1577E8C
     ::StringW get_directory();
     // public System.Void .ctor()
-    // Offset: 0x156E36C
+    // Offset: 0x1578384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaybackScreenshotRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlaybackScreenshotRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaybackScreenshotRecorder*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x156DE7C
+    // Offset: 0x1577E94
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x156DF04
+    // Offset: 0x1577F1C
     void OnDisable();
     // public System.Void Init(System.String directory, System.Int32 framerate, PlaybackRenderer playbackRenderer)
-    // Offset: 0x156DF8C
+    // Offset: 0x1577FA4
     void Init(::StringW directory, int framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
     // private System.Void HandleTexturesReady()
-    // Offset: 0x156E098
+    // Offset: 0x15780B0
     void HandleTexturesReady();
     // private System.Void SaveScreenshot(UnityEngine.RenderTexture renderTexture, System.String directory)
-    // Offset: 0x156E128
+    // Offset: 0x1578140
     void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
     // static private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x156E248
+    // Offset: 0x1578260
     static ::UnityEngine::Texture2D* ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
   }; // PlaybackScreenshotRecorder
   #pragma pack(pop)

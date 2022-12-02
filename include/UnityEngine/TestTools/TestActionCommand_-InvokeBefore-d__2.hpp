@@ -83,26 +83,26 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public NUnit.Framework.Internal.Test test
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Test*& dyn_test();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x19935D8
+    // Offset: 0x199B500
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1993640
+    // Offset: 0x199B568
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x199321C
+    // Offset: 0x199B144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestActionCommand::$InvokeBefore$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestActionCommand::$InvokeBefore$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionCommand::$InvokeBefore$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x19934DC
+    // Offset: 0x199B404
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x19934E0
+    // Offset: 0x199B408
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19935E0
+    // Offset: 0x199B508
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestActionCommand/UnityEngine.TestTools.<InvokeBefore>d__2
   #pragma pack(pop)

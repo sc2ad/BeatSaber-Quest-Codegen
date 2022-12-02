@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*> renderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10F97E4
+    // [SpaceAttribute] Offset: 0x10FA564
     // private BloomPrePassBackgroundNonLightInstancedGroupRenderer/SupportedProperty[] _supportedProperties
     // Size: 0x8
     // Offset: 0x28
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::UnityEngine::MaterialPropertyBlock*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F981C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FA59C
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();
     // Set static field: static private readonly System.Int32 _worldSpaceCameraPosID
@@ -158,25 +158,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _reusableGetMaterialPropertyBlock
     [[deprecated("Use field access instead!")]] ::UnityEngine::MaterialPropertyBlock*& dyn__reusableGetMaterialPropertyBlock();
     // protected System.Void Awake()
-    // Offset: 0x1CC0308
+    // Offset: 0x1CCA454
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1CC030C
+    // Offset: 0x1CCA458
     void InitIfNeeded();
     // private UnityEngine.Matrix4x4[] GetCachedMatrixArray(System.String propertyName)
-    // Offset: 0x1CC0BE4
+    // Offset: 0x1CCAD30
     ::ArrayW<::UnityEngine::Matrix4x4> GetCachedMatrixArray(::StringW propertyName);
     // private System.Single[] GetCachedFloatArray(System.String propertyName)
-    // Offset: 0x1CC0D7C
+    // Offset: 0x1CCAEC8
     ::ArrayW<float> GetCachedFloatArray(::StringW propertyName);
     // private UnityEngine.Vector4[] GetCachedVectorArray(System.String propertyName)
-    // Offset: 0x1CC0CB0
+    // Offset: 0x1CCADFC
     ::ArrayW<::UnityEngine::Vector4> GetCachedVectorArray(::StringW propertyName);
     // private System.Void AutoFillRenderers()
-    // Offset: 0x1CC0E48
+    // Offset: 0x1CCAF94
     void AutoFillRenderers();
     // public System.Void .ctor()
-    // Offset: 0x1CC0EA0
+    // Offset: 0x1CCAFEC
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -185,12 +185,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightInstancedGroupRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CC0F80
+    // Offset: 0x1CCB0CC
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::.cctor()
     static void _cctor();
     // public override System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
-    // Offset: 0x1CC0578
+    // Offset: 0x1CCA6C4
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);

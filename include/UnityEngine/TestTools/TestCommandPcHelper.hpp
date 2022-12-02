@@ -34,17 +34,17 @@ namespace UnityEngine::TestTools {
   class TestCommandPcHelper : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1993654
+    // Offset: 0x199B57C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandPcHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestCommandPcHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandPcHelper*, creationType>()));
     }
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
-    // Offset: 0x1993648
+    // Offset: 0x199B570
     void SetEnumeratorPC(::System::Collections::IEnumerator* enumerator, int pc);
     // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
-    // Offset: 0x199364C
+    // Offset: 0x199B574
     int GetEnumeratorPC(::System::Collections::IEnumerator* enumerator);
   }; // UnityEngine.TestTools.TestCommandPcHelper
   #pragma pack(pop)
