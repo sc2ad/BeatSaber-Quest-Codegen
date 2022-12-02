@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*> colorArrayLightWithIds;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FA718
+    // [SpaceAttribute] Offset: 0x10FB498
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -100,16 +100,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector4[] _colorsArray
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__colorsArray();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CC3FA0
+    // Offset: 0x1CCE0EC
     void OnDestroy();
     // private System.Void SetColorDataToShader()
-    // Offset: 0x1CC3F58
+    // Offset: 0x1CCE0A4
     void SetColorDataToShader();
     // private System.Void HandleColorLightWithIdDidSetColor(System.Int32 index, UnityEngine.Color color)
-    // Offset: 0x1CC4344
+    // Offset: 0x1CCE490
     void HandleColorLightWithIdDidSetColor(int index, ::UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1CC43A8
+    // Offset: 0x1CCE4F4
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,17 +118,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorArrayLightWithIds*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1CC3D00
+    // Offset: 0x1CCDE4C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::Awake()
     void Awake();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CC4128
+    // Offset: 0x1CCE274
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CC412C
+    // Offset: 0x1CCE278
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();

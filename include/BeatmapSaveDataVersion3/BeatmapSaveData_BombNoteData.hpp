@@ -46,13 +46,13 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Int32 y
     [[deprecated("Use field access instead!")]] int& dyn_y();
     // public System.Int32 get_line()
-    // Offset: 0x2745A54
+    // Offset: 0x2755C8C
     int get_line();
     // public System.Int32 get_layer()
-    // Offset: 0x2745A5C
+    // Offset: 0x2755C94
     int get_layer();
     // public System.Void .ctor(System.Single beat, System.Int32 line, System.Int32 layer)
-    // Offset: 0x27453C0
+    // Offset: 0x27555F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BombNoteData* New_ctor(float beat, int line, int layer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData::.ctor");

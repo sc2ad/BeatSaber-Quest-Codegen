@@ -86,96 +86,96 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.IO.StringWriter _sw
     [[deprecated("Use field access instead!")]] ::System::IO::StringWriter*& dyn__sw();
     // private System.Int32 Newtonsoft.Json.IJsonLineInfo.get_LineNumber()
-    // Offset: 0x210B4FC
+    // Offset: 0x2118408
     int Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
     // private System.Int32 Newtonsoft.Json.IJsonLineInfo.get_LinePosition()
-    // Offset: 0x210B5C4
+    // Offset: 0x21184D0
     int Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
     // public System.Void .ctor(Newtonsoft.Json.JsonReader innerReader)
-    // Offset: 0x210AE70
+    // Offset: 0x2117D7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceJsonReader* New_ctor(::Newtonsoft::Json::JsonReader* innerReader) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::TraceJsonReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceJsonReader*, creationType>(innerReader)));
     }
     // public System.String GetDeserializedJsonMessage()
-    // Offset: 0x210AF9C
+    // Offset: 0x2117EA8
     ::StringW GetDeserializedJsonMessage();
     // private System.Boolean Newtonsoft.Json.IJsonLineInfo.HasLineInfo()
-    // Offset: 0x210B438
+    // Offset: 0x2118344
     bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
     // public override System.Int32 get_Depth()
-    // Offset: 0x210B374
+    // Offset: 0x2118280
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Int32 JsonReader::get_Depth()
     int get_Depth();
     // public override System.String get_Path()
-    // Offset: 0x210B394
+    // Offset: 0x21182A0
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.String JsonReader::get_Path()
     ::StringW get_Path();
     // public override Newtonsoft.Json.JsonToken get_TokenType()
-    // Offset: 0x210B3B4
+    // Offset: 0x21182C0
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: Newtonsoft.Json.JsonToken JsonReader::get_TokenType()
     ::Newtonsoft::Json::JsonToken get_TokenType();
     // public override System.Object get_Value()
-    // Offset: 0x210B3D4
+    // Offset: 0x21182E0
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Object JsonReader::get_Value()
     ::Il2CppObject* get_Value();
     // public override System.Type get_ValueType()
-    // Offset: 0x210B3F4
+    // Offset: 0x2118300
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Type JsonReader::get_ValueType()
     ::System::Type* get_ValueType();
     // public override System.Boolean Read()
-    // Offset: 0x210AFBC
+    // Offset: 0x2117EC8
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Boolean JsonReader::Read()
     bool Read();
     // public override System.Nullable`1<System.Int32> ReadAsInt32()
-    // Offset: 0x210B024
+    // Offset: 0x2117F30
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Int32> JsonReader::ReadAsInt32()
     ::System::Nullable_1<int> ReadAsInt32();
     // public override System.String ReadAsString()
-    // Offset: 0x210B08C
+    // Offset: 0x2117F98
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.String JsonReader::ReadAsString()
     ::StringW ReadAsString();
     // public override System.Byte[] ReadAsBytes()
-    // Offset: 0x210B0F4
+    // Offset: 0x2118000
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Byte[] JsonReader::ReadAsBytes()
     ::ArrayW<uint8_t> ReadAsBytes();
     // public override System.Nullable`1<System.Decimal> ReadAsDecimal()
-    // Offset: 0x210B160
+    // Offset: 0x211806C
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Decimal> JsonReader::ReadAsDecimal()
     ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
     // public override System.Nullable`1<System.Double> ReadAsDouble()
-    // Offset: 0x210B1BC
+    // Offset: 0x21180C8
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Double> JsonReader::ReadAsDouble()
     ::System::Nullable_1<double> ReadAsDouble();
     // public override System.Nullable`1<System.Boolean> ReadAsBoolean()
-    // Offset: 0x210B234
+    // Offset: 0x2118140
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Boolean> JsonReader::ReadAsBoolean()
     ::System::Nullable_1<bool> ReadAsBoolean();
     // public override System.Nullable`1<System.DateTime> ReadAsDateTime()
-    // Offset: 0x210B2A0
+    // Offset: 0x21181AC
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.DateTime> JsonReader::ReadAsDateTime()
     ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
     // public override System.Nullable`1<System.DateTimeOffset> ReadAsDateTimeOffset()
-    // Offset: 0x210B318
+    // Offset: 0x2118224
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.DateTimeOffset> JsonReader::ReadAsDateTimeOffset()
     ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
     // public override System.Void Close()
-    // Offset: 0x210B414
+    // Offset: 0x2118320
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Void JsonReader::Close()
     void Close();

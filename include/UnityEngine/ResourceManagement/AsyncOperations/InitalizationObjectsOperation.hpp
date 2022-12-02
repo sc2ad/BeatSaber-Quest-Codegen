@@ -69,33 +69,33 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> m_DepOp
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>& dyn_m_DepOp();
     // public System.Void .ctor()
-    // Offset: 0x2B46114
+    // Offset: 0x2B524B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitalizationObjectsOperation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitalizationObjectsOperation*, creationType>()));
     }
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> rtdOp, UnityEngine.AddressableAssets.AddressablesImpl addressables)
-    // Offset: 0x2B45818
+    // Offset: 0x2B51BB8
     void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp, ::UnityEngine::AddressableAssets::AddressablesImpl* addressables);
     // System.Boolean LogRuntimeWarnings(System.String pathToBuildLogs)
-    // Offset: 0x2B4589C
+    // Offset: 0x2B51C3C
     bool LogRuntimeWarnings(::StringW pathToBuildLogs);
     // private System.Void <Execute>b__8_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> obj)
-    // Offset: 0x2B46164
+    // Offset: 0x2B52504
     void $Execute$b__8_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> obj);
     // protected override System.String get_DebugName()
-    // Offset: 0x2B45854
+    // Offset: 0x2B51BF4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x2B45A48
+    // Offset: 0x2B51DE8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x2B45BA8
+    // Offset: 0x2B51F48
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

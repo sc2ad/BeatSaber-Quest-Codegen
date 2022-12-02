@@ -44,17 +44,17 @@ namespace ModestTree {
     // Set static field: static public System.Func`2<System.Type,System.String> <>9__2_0
     static void _set_$$9__2_0(::System::Func_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17AA7B4
+    // Offset: 0x17AE6F0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17AA818
+    // Offset: 0x17AE754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeStringFormatter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::TypeStringFormatter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeStringFormatter::$$c*, creationType>()));
     }
     // System.String <PrettyNameInternal>b__2_0(System.Type t)
-    // Offset: 0x17AA820
+    // Offset: 0x17AE75C
     ::StringW $PrettyNameInternal$b__2_0(::System::Type* t);
   }; // ModestTree.TypeStringFormatter/ModestTree.<>c
   #pragma pack(pop)

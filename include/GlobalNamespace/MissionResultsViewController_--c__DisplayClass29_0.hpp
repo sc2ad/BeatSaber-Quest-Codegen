@@ -73,14 +73,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionObjectiveResult[] missionObjectiveResults
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // public System.Void .ctor()
-    // Offset: 0x148375C
+    // Offset: 0x14A796C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionResultsViewController::$$c__DisplayClass29_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$$c__DisplayClass29_0*, creationType>()));
     }
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
-    // Offset: 0x1483834
+    // Offset: 0x14A7A44
     void $SetDataToUI$b__0(int idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
   }; // MissionResultsViewController/<>c__DisplayClass29_0
   #pragma pack(pop)

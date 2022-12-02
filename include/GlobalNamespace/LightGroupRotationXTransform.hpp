@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class LightGroupRotationXTransform : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x150A3E0
+    // Offset: 0x15134E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupRotationXTransform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupRotationXTransform::.ctor");

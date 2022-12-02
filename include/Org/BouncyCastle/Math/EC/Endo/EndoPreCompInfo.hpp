@@ -67,19 +67,19 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_mappedPoint
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_mappedPoint();
     // public Org.BouncyCastle.Math.EC.Endo.ECEndomorphism get_Endomorphism()
-    // Offset: 0x27E061C
+    // Offset: 0x27F1854
     ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
     // public System.Void set_Endomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism value)
-    // Offset: 0x27E0624
+    // Offset: 0x27F185C
     void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_MappedPoint()
-    // Offset: 0x27E062C
+    // Offset: 0x27F1864
     ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
     // public System.Void set_MappedPoint(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x27E0634
+    // Offset: 0x27F186C
     void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Void .ctor()
-    // Offset: 0x27E063C
+    // Offset: 0x27F1874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndoPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::.ctor");

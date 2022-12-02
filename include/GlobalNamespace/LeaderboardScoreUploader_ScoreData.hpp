@@ -134,67 +134,67 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 currentUploadAttemptCount
     [[deprecated("Use field access instead!")]] int& dyn_currentUploadAttemptCount();
     // public System.String get_playerId()
-    // Offset: 0x13F1E88
+    // Offset: 0x13F8EE4
     ::StringW get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x13F1E90
+    // Offset: 0x13F8EEC
     void set_playerId(::StringW value);
     // public IDifficultyBeatmap get_beatmap()
-    // Offset: 0x13F1E98
+    // Offset: 0x13F8EF4
     ::GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
-    // Offset: 0x13F1EA0
+    // Offset: 0x13F8EFC
     void set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13F1EA8
+    // Offset: 0x13F8F04
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x13F1EB0
+    // Offset: 0x13F8F0C
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public System.Int32 get_multipliedScore()
-    // Offset: 0x13F1EB8
+    // Offset: 0x13F8F14
     int get_multipliedScore();
     // private System.Void set_multipliedScore(System.Int32 value)
-    // Offset: 0x13F1EC0
+    // Offset: 0x13F8F1C
     void set_multipliedScore(int value);
     // public System.Int32 get_modifiedScore()
-    // Offset: 0x13F1EC8
+    // Offset: 0x13F8F24
     int get_modifiedScore();
     // private System.Void set_modifiedScore(System.Int32 value)
-    // Offset: 0x13F1ED0
+    // Offset: 0x13F8F2C
     void set_modifiedScore(int value);
     // public System.Boolean get_fullCombo()
-    // Offset: 0x13F1ED8
+    // Offset: 0x13F8F34
     bool get_fullCombo();
     // private System.Void set_fullCombo(System.Boolean value)
-    // Offset: 0x13F1EE0
+    // Offset: 0x13F8F3C
     void set_fullCombo(bool value);
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0x13F1EEC
+    // Offset: 0x13F8F48
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0x13F1EF4
+    // Offset: 0x13F8F50
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0x13F1EFC
+    // Offset: 0x13F8F58
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0x13F1F04
+    // Offset: 0x13F8F60
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCount()
-    // Offset: 0x13F1F0C
+    // Offset: 0x13F8F68
     int get_missedCount();
     // private System.Void set_missedCount(System.Int32 value)
-    // Offset: 0x13F1F14
+    // Offset: 0x13F8F70
     void set_missedCount(int value);
     // public System.Int32 get_maxCombo()
-    // Offset: 0x13F1F1C
+    // Offset: 0x13F8F78
     int get_maxCombo();
     // private System.Void set_maxCombo(System.Int32 value)
-    // Offset: 0x13F1F24
+    // Offset: 0x13F8F80
     void set_maxCombo(int value);
     // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 multipliedScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
-    // Offset: 0x13F1F2C
+    // Offset: 0x13F8F88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int multipliedScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");

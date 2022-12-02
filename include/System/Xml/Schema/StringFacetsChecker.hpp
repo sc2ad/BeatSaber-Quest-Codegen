@@ -58,19 +58,19 @@ namespace System::Xml::Schema {
     // Set static field: static private System.Text.RegularExpressions.Regex languagePattern
     static void _set_languagePattern(::System::Text::RegularExpressions::Regex* value);
     // static private System.Text.RegularExpressions.Regex get_LanguagePattern()
-    // Offset: 0x1D12A70
+    // Offset: 0x1D1CBBC
     static ::System::Text::RegularExpressions::Regex* get_LanguagePattern();
     // System.Exception CheckValueFacets(System.String value, System.Xml.Schema.XmlSchemaDatatype datatype, System.Boolean verifyUri)
-    // Offset: 0x1D02C20
+    // Offset: 0x1D0CD6C
     ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype, bool verifyUri);
     // private System.Boolean MatchEnumeration(System.String value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D12DD8
+    // Offset: 0x1D1CF24
     bool MatchEnumeration(::StringW value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // private System.Exception CheckBuiltInFacets(System.String s, System.Xml.Schema.XmlTypeCode typeCode, System.Boolean verifyUri)
-    // Offset: 0x1D12B84
+    // Offset: 0x1D1CCD0
     ::System::Exception* CheckBuiltInFacets(::StringW s, ::System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri);
     // public System.Void .ctor()
-    // Offset: 0x1D13010
+    // Offset: 0x1D1D15C
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Void FacetsChecker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,17 +79,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<StringFacetsChecker*, creationType>()));
     }
     // override System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D12B10
+    // Offset: 0x1D1CC5C
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.String value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D12B7C
+    // Offset: 0x1D1CCC8
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.String value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D12FA8
+    // Offset: 0x1D1D0F4
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Boolean FacetsChecker::MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);

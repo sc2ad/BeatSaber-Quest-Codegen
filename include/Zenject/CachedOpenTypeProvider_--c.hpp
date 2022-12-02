@@ -49,23 +49,23 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.CachedProvider,System.Int32> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::Zenject::CachedProvider*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17B2AC0
+    // Offset: 0x17B69FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17B2B24
+    // Offset: 0x17B6A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedOpenTypeProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedOpenTypeProvider::$$c*, creationType>()));
     }
     // System.Int32 <get_NumInstances>b__8_0(Zenject.CachedProvider x)
-    // Offset: 0x17B2B2C
+    // Offset: 0x17B6A68
     int $get_NumInstances$b__8_0(::Zenject::CachedProvider* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17B2BDC
+    // Offset: 0x17B6B18
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17B2C38
+    // Offset: 0x17B6B74
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.CachedOpenTypeProvider/Zenject.<>c
   #pragma pack(pop)

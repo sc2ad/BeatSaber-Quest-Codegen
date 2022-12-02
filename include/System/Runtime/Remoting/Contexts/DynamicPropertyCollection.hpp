@@ -61,22 +61,22 @@ namespace System::Runtime::Remoting::Contexts {
     // Get instance field reference: private System.Collections.ArrayList _properties
     [[deprecated("Use field access instead!")]] ::System::Collections::ArrayList*& dyn__properties();
     // public System.Boolean get_HasProperties()
-    // Offset: 0x1D27A58
+    // Offset: 0x1D31BA4
     bool get_HasProperties();
     // public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop)
-    // Offset: 0x1D27D00
+    // Offset: 0x1D31E4C
     bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
     // public System.Boolean UnregisterDynamicProperty(System.String name)
-    // Offset: 0x1D28018
+    // Offset: 0x1D32164
     bool UnregisterDynamicProperty(::StringW name);
     // public System.Void NotifyMessage(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1D28358
+    // Offset: 0x1D324A4
     void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
     // private System.Int32 FindProperty(System.String name)
-    // Offset: 0x1D2ACF0
+    // Offset: 0x1D34E3C
     int FindProperty(::StringW name);
     // public System.Void .ctor()
-    // Offset: 0x1D281D0
+    // Offset: 0x1D3231C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -258,168 +258,168 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <squishAmount>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$squishAmount$k__BackingField();
     // public ColorType get_colorType()
-    // Offset: 0x27487D4
+    // Offset: 0x2758A0C
     ::GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x27487DC
+    // Offset: 0x2758A14
     void set_colorType(::GlobalNamespace::ColorType value);
     // public SliderData/Type get_sliderType()
-    // Offset: 0x27487E4
+    // Offset: 0x2758A1C
     ::GlobalNamespace::SliderData::Type get_sliderType();
     // private System.Void set_sliderType(SliderData/Type value)
-    // Offset: 0x27487EC
+    // Offset: 0x2758A24
     void set_sliderType(::GlobalNamespace::SliderData::Type value);
     // public System.Boolean get_hasHeadNote()
-    // Offset: 0x27487F4
+    // Offset: 0x2758A2C
     bool get_hasHeadNote();
     // private System.Void set_hasHeadNote(System.Boolean value)
-    // Offset: 0x27487FC
+    // Offset: 0x2758A34
     void set_hasHeadNote(bool value);
     // public System.Single get_headControlPointLengthMultiplier()
-    // Offset: 0x2748808
+    // Offset: 0x2758A40
     float get_headControlPointLengthMultiplier();
     // private System.Void set_headControlPointLengthMultiplier(System.Single value)
-    // Offset: 0x2748810
+    // Offset: 0x2758A48
     void set_headControlPointLengthMultiplier(float value);
     // public System.Int32 get_headLineIndex()
-    // Offset: 0x2748818
+    // Offset: 0x2758A50
     int get_headLineIndex();
     // private System.Void set_headLineIndex(System.Int32 value)
-    // Offset: 0x2748820
+    // Offset: 0x2758A58
     void set_headLineIndex(int value);
     // public NoteLineLayer get_headLineLayer()
-    // Offset: 0x2748828
+    // Offset: 0x2758A60
     ::GlobalNamespace::NoteLineLayer get_headLineLayer();
     // private System.Void set_headLineLayer(NoteLineLayer value)
-    // Offset: 0x2748830
+    // Offset: 0x2758A68
     void set_headLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public NoteLineLayer get_headBeforeJumpLineLayer()
-    // Offset: 0x2748838
+    // Offset: 0x2758A70
     ::GlobalNamespace::NoteLineLayer get_headBeforeJumpLineLayer();
     // private System.Void set_headBeforeJumpLineLayer(NoteLineLayer value)
-    // Offset: 0x2748840
+    // Offset: 0x2758A78
     void set_headBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public NoteCutDirection get_headCutDirection()
-    // Offset: 0x2748848
+    // Offset: 0x2758A80
     ::GlobalNamespace::NoteCutDirection get_headCutDirection();
     // private System.Void set_headCutDirection(NoteCutDirection value)
-    // Offset: 0x2748850
+    // Offset: 0x2758A88
     void set_headCutDirection(::GlobalNamespace::NoteCutDirection value);
     // public System.Single get_headCutDirectionAngleOffset()
-    // Offset: 0x2748858
+    // Offset: 0x2758A90
     float get_headCutDirectionAngleOffset();
     // private System.Void set_headCutDirectionAngleOffset(System.Single value)
-    // Offset: 0x2748860
+    // Offset: 0x2758A98
     void set_headCutDirectionAngleOffset(float value);
     // public System.Boolean get_hasTailNote()
-    // Offset: 0x2748868
+    // Offset: 0x2758AA0
     bool get_hasTailNote();
     // private System.Void set_hasTailNote(System.Boolean value)
-    // Offset: 0x2748870
+    // Offset: 0x2758AA8
     void set_hasTailNote(bool value);
     // public System.Single get_tailTime()
-    // Offset: 0x274887C
+    // Offset: 0x2758AB4
     float get_tailTime();
     // private System.Void set_tailTime(System.Single value)
-    // Offset: 0x2748884
+    // Offset: 0x2758ABC
     void set_tailTime(float value);
     // public System.Int32 get_tailLineIndex()
-    // Offset: 0x274888C
+    // Offset: 0x2758AC4
     int get_tailLineIndex();
     // private System.Void set_tailLineIndex(System.Int32 value)
-    // Offset: 0x2748894
+    // Offset: 0x2758ACC
     void set_tailLineIndex(int value);
     // public System.Single get_tailControlPointLengthMultiplier()
-    // Offset: 0x274889C
+    // Offset: 0x2758AD4
     float get_tailControlPointLengthMultiplier();
     // private System.Void set_tailControlPointLengthMultiplier(System.Single value)
-    // Offset: 0x27488A4
+    // Offset: 0x2758ADC
     void set_tailControlPointLengthMultiplier(float value);
     // public NoteLineLayer get_tailLineLayer()
-    // Offset: 0x27488AC
+    // Offset: 0x2758AE4
     ::GlobalNamespace::NoteLineLayer get_tailLineLayer();
     // private System.Void set_tailLineLayer(NoteLineLayer value)
-    // Offset: 0x27488B4
+    // Offset: 0x2758AEC
     void set_tailLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public NoteLineLayer get_tailBeforeJumpLineLayer()
-    // Offset: 0x27488BC
+    // Offset: 0x2758AF4
     ::GlobalNamespace::NoteLineLayer get_tailBeforeJumpLineLayer();
     // private System.Void set_tailBeforeJumpLineLayer(NoteLineLayer value)
-    // Offset: 0x27488C4
+    // Offset: 0x2758AFC
     void set_tailBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public NoteCutDirection get_tailCutDirection()
-    // Offset: 0x27488CC
+    // Offset: 0x2758B04
     ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
     // private System.Void set_tailCutDirection(NoteCutDirection value)
-    // Offset: 0x27488D4
+    // Offset: 0x2758B0C
     void set_tailCutDirection(::GlobalNamespace::NoteCutDirection value);
     // public System.Single get_tailCutDirectionAngleOffset()
-    // Offset: 0x27488DC
+    // Offset: 0x2758B14
     float get_tailCutDirectionAngleOffset();
     // private System.Void set_tailCutDirectionAngleOffset(System.Single value)
-    // Offset: 0x27488E4
+    // Offset: 0x2758B1C
     void set_tailCutDirectionAngleOffset(float value);
     // public SliderMidAnchorMode get_midAnchorMode()
-    // Offset: 0x27488EC
+    // Offset: 0x2758B24
     ::GlobalNamespace::SliderMidAnchorMode get_midAnchorMode();
     // private System.Void set_midAnchorMode(SliderMidAnchorMode value)
-    // Offset: 0x27488F4
+    // Offset: 0x2758B2C
     void set_midAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
     // public System.Int32 get_sliceCount()
-    // Offset: 0x27488FC
+    // Offset: 0x2758B34
     int get_sliceCount();
     // private System.Void set_sliceCount(System.Int32 value)
-    // Offset: 0x2748904
+    // Offset: 0x2758B3C
     void set_sliceCount(int value);
     // public System.Single get_squishAmount()
-    // Offset: 0x274890C
+    // Offset: 0x2758B44
     float get_squishAmount();
     // private System.Void set_squishAmount(System.Single value)
-    // Offset: 0x2748914
+    // Offset: 0x2758B4C
     void set_squishAmount(float value);
     // public System.Void .ctor(SliderData/Type sliderType, ColorType colorType, System.Boolean hasHeadNote, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single headCutDirectionAngleOffset, System.Boolean hasTailNote, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, System.Single tailCutDirectionAngleOffset, SliderMidAnchorMode midAnchorMode, System.Int32 sliceCount, System.Single squishAmount)
-    // Offset: 0x2748A64
+    // Offset: 0x2758C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderData* New_ctor(::GlobalNamespace::SliderData::Type sliderType, ::GlobalNamespace::ColorType colorType, bool hasHeadNote, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float headCutDirectionAngleOffset, bool hasTailNote, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, float tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int sliceCount, float squishAmount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderData*, creationType>(sliderType, colorType, hasHeadNote, headTime, headLineIndex, headLineLayer, headBeforeJumpLineLayer, headControlPointLengthMultiplier, headCutDirection, headCutDirectionAngleOffset, hasTailNote, tailTime, tailLineIndex, tailLineLayer, tailBeforeJumpLineLayer, tailControlPointLengthMultiplier, tailCutDirection, tailCutDirectionAngleOffset, midAnchorMode, sliceCount, squishAmount)));
     }
     // static public SliderData CreateSliderData(ColorType colorType, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, System.Single headControlPointLengthMultiplier, NoteCutDirection headCutDirection, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, System.Single tailControlPointLengthMultiplier, NoteCutDirection tailCutDirection, SliderMidAnchorMode midAnchorMode)
-    // Offset: 0x2748BB8
+    // Offset: 0x2758DF0
     static ::GlobalNamespace::SliderData* CreateSliderData(::GlobalNamespace::ColorType colorType, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode);
     // static public SliderData CreateBurstSliderData(ColorType colorType, System.Single headTime, System.Int32 headLineIndex, NoteLineLayer headLineLayer, NoteLineLayer headBeforeJumpLineLayer, NoteCutDirection headCutDirection, System.Single tailTime, System.Int32 tailLineIndex, NoteLineLayer tailLineLayer, NoteLineLayer tailBeforeJumpLineLayer, NoteCutDirection tailCutDirection, System.Int32 sliceCount, System.Single squishAmount)
-    // Offset: 0x2748CD4
+    // Offset: 0x2758F0C
     static ::GlobalNamespace::SliderData* CreateBurstSliderData(::GlobalNamespace::ColorType colorType, float headTime, int headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection, float tailTime, int tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int sliceCount, float squishAmount);
     // public System.Void SetHasHeadNote(System.Boolean hasHeadNote)
-    // Offset: 0x27425A0
+    // Offset: 0x27527D8
     void SetHasHeadNote(bool hasHeadNote);
     // public System.Void SetHasTailNote(System.Boolean hasTailNote)
-    // Offset: 0x2742780
+    // Offset: 0x27529B8
     void SetHasTailNote(bool hasTailNote);
     // public System.Void SetHeadBeforeJumpLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x27425AC
+    // Offset: 0x27527E4
     void SetHeadBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
     // public System.Void SetTailBeforeJumpLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x274278C
+    // Offset: 0x27529C4
     void SetTailBeforeJumpLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
     // public System.Void SetCutDirectionAngleOffset(System.Single headCutDirectionAngleOffset, System.Single tailCutDirectionAngleOffset)
-    // Offset: 0x2742724
+    // Offset: 0x275295C
     void SetCutDirectionAngleOffset(float headCutDirectionAngleOffset, float tailCutDirectionAngleOffset);
     // static public System.Int32 SubtypeIdentifier(ColorType colorType)
-    // Offset: 0x2748BB4
+    // Offset: 0x2758DEC
     static int SubtypeIdentifier(::GlobalNamespace::ColorType colorType);
     // public override System.Int32 get_subtypeGroupIdentifier()
-    // Offset: 0x27487CC
+    // Offset: 0x2758A04
     // Implemented from: BeatmapDataItem
     // Base method: System.Int32 BeatmapDataItem::get_subtypeGroupIdentifier()
     int get_subtypeGroupIdentifier();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x274891C
+    // Offset: 0x2758B54
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // public override System.Void Mirror(System.Int32 lineCount)
-    // Offset: 0x2748DEC
+    // Offset: 0x2759024
     // Implemented from: BeatmapObjectData
     // Base method: System.Void BeatmapObjectData::Mirror(System.Int32 lineCount)
     void Mirror(int lineCount);

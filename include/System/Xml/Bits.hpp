@@ -43,13 +43,13 @@ namespace System::Xml {
     // Set static field: static private readonly System.UInt32 MASK_1111111111111111
     static void _set_MASK_1111111111111111(uint value);
     // static private System.Void .cctor()
-    // Offset: 0x1AD4834
+    // Offset: 0x1ADF81C
     static void _cctor();
     // static public System.Int32 Count(System.UInt32 num)
-    // Offset: 0x1AD4708
+    // Offset: 0x1ADF6F0
     static int Count(uint num);
     // static public System.Int32 LeastPosition(System.UInt32 num)
-    // Offset: 0x1AD47B8
+    // Offset: 0x1ADF7A0
     static int LeastPosition(uint num);
   }; // System.Xml.Bits
   #pragma pack(pop)

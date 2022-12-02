@@ -29,17 +29,17 @@ namespace GlobalNamespace {
   class DisableGCWhileEnabled : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15EF548
+    // Offset: 0x15F8414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableGCWhileEnabled* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableGCWhileEnabled::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableGCWhileEnabled*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x15EF530
+    // Offset: 0x15F83FC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x15EF53C
+    // Offset: 0x15F8408
     void OnDisable();
   }; // DisableGCWhileEnabled
   #pragma pack(pop)

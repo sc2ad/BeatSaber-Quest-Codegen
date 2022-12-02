@@ -68,14 +68,14 @@ namespace HMUI {
     // Get instance field reference: public System.Single baseCanvasGroupAlpha
     [[deprecated("Use field access instead!")]] float& dyn_baseCanvasGroupAlpha();
     // public System.Void .ctor()
-    // Offset: 0x2AC1520
+    // Offset: 0x2AD1758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
-    // Offset: 0x2AC1528
+    // Offset: 0x2AD1760
     void $DoHorizontalTransition$b__0(float t);
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass5_0
   #pragma pack(pop)

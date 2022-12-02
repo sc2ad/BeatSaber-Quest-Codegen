@@ -78,50 +78,50 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
     [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::SignalReceiver::EventKeyValue*& dyn_m_Events();
     // public System.Void .ctor()
-    // Offset: 0x1E38FA0
+    // Offset: 0x1E460EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalReceiver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::SignalReceiver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalReceiver*, creationType>()));
     }
     // public System.Void OnNotify(UnityEngine.Playables.Playable origin, UnityEngine.Playables.INotification notification, System.Object context)
-    // Offset: 0x1E38398
+    // Offset: 0x1E454E4
     void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::Il2CppObject* context);
     // public System.Void AddReaction(UnityEngine.Timeline.SignalAsset asset, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1E38574
+    // Offset: 0x1E456C0
     void AddReaction(::UnityEngine::Timeline::SignalAsset* asset, ::UnityEngine::Events::UnityEvent* reaction);
     // public System.Int32 AddEmptyReaction(UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1E38724
+    // Offset: 0x1E45870
     int AddEmptyReaction(::UnityEngine::Events::UnityEvent* reaction);
     // public System.Void Remove(UnityEngine.Timeline.SignalAsset asset)
-    // Offset: 0x1E387A0
+    // Offset: 0x1E458EC
     void Remove(::UnityEngine::Timeline::SignalAsset* asset);
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.SignalAsset> GetRegisteredSignals()
-    // Offset: 0x1E3891C
+    // Offset: 0x1E45A68
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
     // public UnityEngine.Events.UnityEvent GetReaction(UnityEngine.Timeline.SignalAsset key)
-    // Offset: 0x1E38938
+    // Offset: 0x1E45A84
     ::UnityEngine::Events::UnityEvent* GetReaction(::UnityEngine::Timeline::SignalAsset* key);
     // public System.Int32 Count()
-    // Offset: 0x1E38974
+    // Offset: 0x1E45AC0
     int Count();
     // public System.Void ChangeSignalAtIndex(System.Int32 idx, UnityEngine.Timeline.SignalAsset newKey)
-    // Offset: 0x1E389CC
+    // Offset: 0x1E45B18
     void ChangeSignalAtIndex(int idx, ::UnityEngine::Timeline::SignalAsset* newKey);
     // public System.Void RemoveAtIndex(System.Int32 idx)
-    // Offset: 0x1E38C1C
+    // Offset: 0x1E45D68
     void RemoveAtIndex(int idx);
     // public System.Void ChangeReactionAtIndex(System.Int32 idx, UnityEngine.Events.UnityEvent reaction)
-    // Offset: 0x1E38D60
+    // Offset: 0x1E45EAC
     void ChangeReactionAtIndex(int idx, ::UnityEngine::Events::UnityEvent* reaction);
     // public UnityEngine.Events.UnityEvent GetReactionAtIndex(System.Int32 idx)
-    // Offset: 0x1E38E1C
+    // Offset: 0x1E45F68
     ::UnityEngine::Events::UnityEvent* GetReactionAtIndex(int idx);
     // public UnityEngine.Timeline.SignalAsset GetSignalAssetAtIndex(System.Int32 idx)
-    // Offset: 0x1E38EDC
+    // Offset: 0x1E46028
     ::UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int idx);
     // private System.Void OnEnable()
-    // Offset: 0x1E38F9C
+    // Offset: 0x1E460E8
     void OnEnable();
   }; // UnityEngine.Timeline.SignalReceiver
   #pragma pack(pop)

@@ -41,14 +41,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x19811A4
+    // Offset: 0x19890CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem::UnityWorkItemOrderComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem::UnityWorkItemOrderComparer*, creationType>()));
     }
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0x1983520
+    // Offset: 0x198B448
     int Compare(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemOrderComparer
   #pragma pack(pop)

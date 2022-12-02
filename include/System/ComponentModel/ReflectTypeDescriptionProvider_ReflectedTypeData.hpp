@@ -110,26 +110,26 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 _editorCount
     [[deprecated("Use field access instead!")]] int& dyn__editorCount();
     // System.Boolean get_IsPopulated()
-    // Offset: 0x1E1D154
+    // Offset: 0x1E2A2A0
     bool get_IsPopulated();
     // System.Void .ctor(System.Type type)
-    // Offset: 0x1E1D0EC
+    // Offset: 0x1E2A238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectTypeDescriptionProvider::ReflectedTypeData* New_ctor(::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider::ReflectedTypeData*, creationType>(type)));
     }
     // System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0x1E1C2E8
+    // Offset: 0x1E29434
     ::System::ComponentModel::AttributeCollection* GetAttributes();
     // System.ComponentModel.TypeConverter GetConverter(System.Object instance)
-    // Offset: 0x1E1CBB0
+    // Offset: 0x1E29CFC
     ::System::ComponentModel::TypeConverter* GetConverter(::Il2CppObject* instance);
     // private System.Type GetTypeFromName(System.String typeName)
-    // Offset: 0x1E1E360
+    // Offset: 0x1E2B4AC
     ::System::Type* GetTypeFromName(::StringW typeName);
     // System.Void Refresh()
-    // Offset: 0x1E1D5D8
+    // Offset: 0x1E2A724
     void Refresh();
   }; // System.ComponentModel.ReflectTypeDescriptionProvider/System.ComponentModel.ReflectedTypeData
   #pragma pack(pop)

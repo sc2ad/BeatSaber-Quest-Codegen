@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/Text text
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsData::Text*& dyn_text();
     // public System.Void .ctor()
-    // Offset: 0x142E050
+    // Offset: 0x14352F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::ChildCreditsItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::ChildCreditsItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::ChildCreditsItem*, creationType>()));
     }
     // public System.Boolean HasTitle()
-    // Offset: 0x142E030
+    // Offset: 0x14352D4
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x142E040
+    // Offset: 0x14352E4
     bool HasText();
   }; // CreditsData/ChildCreditsItem
   #pragma pack(pop)

@@ -24,7 +24,7 @@ namespace System::Reflection {
   class Assembly::ResolveEventHolder : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x22D7E64
+    // Offset: 0x22E5130
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

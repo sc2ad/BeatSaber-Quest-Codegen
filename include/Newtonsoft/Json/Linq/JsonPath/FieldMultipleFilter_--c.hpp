@@ -29,10 +29,10 @@ namespace Newtonsoft::Json::Linq::JsonPath {
     // Set static field: static public readonly Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter/Newtonsoft.Json.Linq.JsonPath.<>c <>9
     static void _set_$$9(::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x179F8B0
+    // Offset: 0x17A37EC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x179F914
+    // Offset: 0x17A3850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldMultipleFilter::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter::$$c::.ctor");

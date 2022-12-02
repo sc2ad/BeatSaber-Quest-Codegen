@@ -59,20 +59,20 @@ namespace Zenject {
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_namespaces();
     // public System.Void .ctor()
-    // Offset: 0x17B721C
+    // Offset: 0x17BB158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionFilterTypesBinder::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Boolean <InNamespaces>b__0(System.Type t)
-    // Offset: 0x17B75E0
+    // Offset: 0x17BB51C
     bool $InNamespaces$b__0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17B76A8
+    // Offset: 0x17BB5E4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17B7704
+    // Offset: 0x17BB640
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionFilterTypesBinder/Zenject.<>c__DisplayClass13_0
   #pragma pack(pop)

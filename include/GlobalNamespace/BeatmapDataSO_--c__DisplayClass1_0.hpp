@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData*& dyn_beatmapSaveData();
     // public System.Void .ctor()
-    // Offset: 0x1552E1C
+    // Offset: 0x155BD48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataSO::$$c__DisplayClass1_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataSO::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataSO::$$c__DisplayClass1_0*, creationType>()));
     }
     // System.Void <GetBeatmapDataBasicInfoAsync>b__0()
-    // Offset: 0x1552E24
+    // Offset: 0x155BD50
     void $GetBeatmapDataBasicInfoAsync$b__0();
   }; // BeatmapDataSO/<>c__DisplayClass1_0
   #pragma pack(pop)

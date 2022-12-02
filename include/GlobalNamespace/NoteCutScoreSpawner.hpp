@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingScoreSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x11139C0
+    // [InjectAttribute] Offset: 0x1113750
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x20
@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IScoreController _scoreController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IScoreController*& dyn__scoreController();
     // public System.Void .ctor()
-    // Offset: 0x14F8168
+    // Offset: 0x15010E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutScoreSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutScoreSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutScoreSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14F7E98
+    // Offset: 0x1500E10
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14F7F8C
+    // Offset: 0x1500F04
     void OnDestroy();
     // private System.Void HandleScoringForNoteStarted(ScoringElement scoringElement)
-    // Offset: 0x14F808C
+    // Offset: 0x1501004
     void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
   }; // NoteCutScoreSpawner
   #pragma pack(pop)

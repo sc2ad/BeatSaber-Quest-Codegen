@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 currentPlayerCount
     [[deprecated("Use field access instead!")]] int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
-    // Offset: 0x26BC5BC
+    // Offset: 0x26CB7FC
     // ABORTED: conflicts with another method.  PublicServerInfo(::StringW code, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x26BC5C8
+    // Offset: 0x26CB808
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26BC60C
+    // Offset: 0x26CB84C
     static ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)

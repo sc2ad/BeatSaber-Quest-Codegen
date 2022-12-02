@@ -58,23 +58,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private CutoutAnimateEffect _cutoutAnimateEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CutoutAnimateEffect*& dyn__cutoutAnimateEffect();
     // public System.Void .ctor()
-    // Offset: 0x1542720
+    // Offset: 0x154C64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleDissolve* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleDissolve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleDissolve*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15424E8
+    // Offset: 0x154C414
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x15425C0
+    // Offset: 0x154C4EC
     void OnDestroy();
     // private System.Void HandleObstacleDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x15426DC
+    // Offset: 0x154C608
     void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
     // private System.Void HandleObcstacleDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x15426F8
+    // Offset: 0x154C624
     void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
   }; // ObstacleDissolve
   #pragma pack(pop)

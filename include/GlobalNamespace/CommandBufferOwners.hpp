@@ -63,23 +63,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::CommandBuffer*& dyn_commandBuffer();
     // public System.Int32 get_NumberOfOwners()
-    // Offset: 0x2AC4BC4
+    // Offset: 0x2AD3DFC
     int get_NumberOfOwners();
     // public System.Void .ctor()
-    // Offset: 0x2AC4EB0
+    // Offset: 0x2AD40E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommandBufferOwners* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CommandBufferOwners::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommandBufferOwners*, creationType>()));
     }
     // public System.Void AddOwner(UnityEngine.Object owner)
-    // Offset: 0x2AC4E18
+    // Offset: 0x2AD4050
     void AddOwner(::UnityEngine::Object* owner);
     // public System.Void RemoveOwner(UnityEngine.Object owner)
-    // Offset: 0x2AC4B50
+    // Offset: 0x2AD3D88
     void RemoveOwner(::UnityEngine::Object* owner);
     // public System.Boolean ContainsOwner(UnityEngine.Object owner)
-    // Offset: 0x2AC4DB0
+    // Offset: 0x2AD3FE8
     bool ContainsOwner(::UnityEngine::Object* owner);
   }; // CommandBufferOwners
   #pragma pack(pop)

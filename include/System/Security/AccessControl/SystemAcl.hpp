@@ -42,10 +42,10 @@ namespace System::Security::AccessControl {
   class SystemAcl : public ::System::Security::AccessControl::CommonAcl {
     public:
     // static private System.Boolean IsValidAuditFlags(System.Security.AccessControl.AuditFlags auditFlags)
-    // Offset: 0x1B9ABB4
+    // Offset: 0x1BA5BD4
     static bool IsValidAuditFlags(::System::Security::AccessControl::AuditFlags auditFlags);
     // public System.Void .ctor(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.RawAcl rawAcl)
-    // Offset: 0x1B9790C
+    // Offset: 0x1BA292C
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Void CommonAcl::.ctor(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.RawAcl rawAcl)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,17 +54,17 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<SystemAcl*, creationType>(isContainer, isDS, rawAcl)));
     }
     // override System.Void ApplyCanonicalSortToExplicitAces()
-    // Offset: 0x1B9AA68
+    // Offset: 0x1BA5A88
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Void CommonAcl::ApplyCanonicalSortToExplicitAces()
     void ApplyCanonicalSortToExplicitAces();
     // override System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier aceQualifier)
-    // Offset: 0x1B9AA94
+    // Offset: 0x1BA5AB4
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Int32 CommonAcl::GetAceInsertPosition(System.Security.AccessControl.AceQualifier aceQualifier)
     int GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
     // override System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce ace)
-    // Offset: 0x1B9AA9C
+    // Offset: 0x1BA5ABC
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Boolean CommonAcl::IsAceMeaningless(System.Security.AccessControl.GenericAce ace)
     bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);

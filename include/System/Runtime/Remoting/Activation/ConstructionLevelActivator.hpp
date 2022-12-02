@@ -46,13 +46,13 @@ namespace System::Runtime::Remoting::Activation {
       return reinterpret_cast<::System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
-    // Offset: 0x1E056E4
+    // Offset: 0x1E11830
     ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
-    // Offset: 0x1E056EC
+    // Offset: 0x1E11838
     ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Void .ctor()
-    // Offset: 0x1E03EF0
+    // Offset: 0x1E1003C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

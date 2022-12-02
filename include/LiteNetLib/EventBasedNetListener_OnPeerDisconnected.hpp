@@ -42,20 +42,20 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnPeerDisconnected : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x21EFA58
+    // Offset: 0x21FC964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnPeerDisconnected* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::EventBasedNetListener::OnPeerDisconnected::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnPeerDisconnected*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x21EDA68
+    // Offset: 0x21FA974
     void Invoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x21EFA68
+    // Offset: 0x21FC974
     ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x21EFB04
+    // Offset: 0x21FCA10
     void EndInvoke(::System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerDisconnected
   #pragma pack(pop)

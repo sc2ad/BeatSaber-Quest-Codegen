@@ -36,22 +36,22 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
     static void _set_encoder(::Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
     // static private System.Void .cctor()
-    // Offset: 0x2677B6C
+    // Offset: 0x2686DAC
     static void _cctor();
     // static public System.String ToHexString(System.Byte[] data)
-    // Offset: 0x26771A8
+    // Offset: 0x26863E8
     static ::StringW ToHexString(::ArrayW<uint8_t> data);
     // static public System.String ToHexString(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x267721C
+    // Offset: 0x268645C
     static ::StringW ToHexString(::ArrayW<uint8_t> data, int off, int length);
     // static public System.Byte[] Encode(System.Byte[] data, System.Int32 off, System.Int32 length)
-    // Offset: 0x267729C
+    // Offset: 0x26864DC
     static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data, int off, int length);
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x26774CC
+    // Offset: 0x268670C
     static ::ArrayW<uint8_t> Decode(::StringW data);
     // static public System.Byte[] DecodeStrict(System.String str)
-    // Offset: 0x26778BC
+    // Offset: 0x2686AFC
     static ::ArrayW<uint8_t> DecodeStrict(::StringW str);
   }; // Org.BouncyCastle.Utilities.Encoders.Hex
   #pragma pack(pop)

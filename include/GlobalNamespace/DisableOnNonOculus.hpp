@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class DisableOnNonOculus : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1435A40
+    // Offset: 0x143CCE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableOnNonOculus* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableOnNonOculus::.ctor");

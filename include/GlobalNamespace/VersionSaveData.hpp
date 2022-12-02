@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String version
     [[deprecated("Use field access instead!")]] ::StringW& dyn_version();
     // public System.Void .ctor()
-    // Offset: 0x16307F0
+    // Offset: 0x166ABBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VersionSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VersionSaveData::.ctor");

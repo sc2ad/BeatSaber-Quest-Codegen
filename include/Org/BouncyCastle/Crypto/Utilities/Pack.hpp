@@ -24,67 +24,67 @@ namespace Org::BouncyCastle::Crypto::Utilities {
   class Pack : public ::Il2CppObject {
     public:
     // static System.Void UInt32_To_BE(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660840
+    // Offset: 0x1652708
     static void UInt32_To_BE(uint n, ::ArrayW<uint8_t> bs, int off);
     // static System.Void UInt32_To_BE(System.UInt32[] ns, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x16608CC
+    // Offset: 0x1652794
     static void UInt32_To_BE(::ArrayW<uint> ns, ::ArrayW<uint8_t> bs, int off);
     // static System.UInt32 BE_To_UInt32(System.Byte[] bs)
-    // Offset: 0x1660958
+    // Offset: 0x1652820
     static uint BE_To_UInt32(::ArrayW<uint8_t> bs);
     // static System.UInt32 BE_To_UInt32(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x16609BC
+    // Offset: 0x1652884
     static uint BE_To_UInt32(::ArrayW<uint8_t> bs, int off);
     // static System.Void BE_To_UInt32(System.Byte[] bs, System.Int32 off, System.UInt32[] ns)
-    // Offset: 0x1660A3C
+    // Offset: 0x1652904
     static void BE_To_UInt32(::ArrayW<uint8_t> bs, int off, ::ArrayW<uint> ns);
     // static public System.Void BE_To_UInt32(System.Byte[] bs, System.Int32 bsOff, System.UInt32[] ns, System.Int32 nsOff, System.Int32 nsLen)
-    // Offset: 0x1660AC4
+    // Offset: 0x165298C
     static void BE_To_UInt32(::ArrayW<uint8_t> bs, int bsOff, ::ArrayW<uint> ns, int nsOff, int nsLen);
     // static System.Void UInt64_To_BE(System.UInt64 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660B68
+    // Offset: 0x1652A30
     static void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t> bs, int off);
     // static System.UInt64 BE_To_UInt64(System.Byte[] bs)
-    // Offset: 0x1660BA8
+    // Offset: 0x1652A70
     static uint64_t BE_To_UInt64(::ArrayW<uint8_t> bs);
     // static System.UInt64 BE_To_UInt64(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660BE0
+    // Offset: 0x1652AA8
     static uint64_t BE_To_UInt64(::ArrayW<uint8_t> bs, int off);
     // static System.Byte[] UInt32_To_LE(System.UInt32 n)
-    // Offset: 0x1660C24
+    // Offset: 0x1652AEC
     static ::ArrayW<uint8_t> UInt32_To_LE(uint n);
     // static System.Void UInt32_To_LE(System.UInt32 n, System.Byte[] bs)
-    // Offset: 0x1660D1C
+    // Offset: 0x1652BE4
     static void UInt32_To_LE(uint n, ::ArrayW<uint8_t> bs);
     // static System.Void UInt32_To_LE(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660C90
+    // Offset: 0x1652B58
     static void UInt32_To_LE(uint n, ::ArrayW<uint8_t> bs, int off);
     // static System.Void UInt32_To_LE(System.UInt32[] ns, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660D7C
+    // Offset: 0x1652C44
     static void UInt32_To_LE(::ArrayW<uint> ns, ::ArrayW<uint8_t> bs, int off);
     // static System.UInt32 LE_To_UInt32(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1660E08
+    // Offset: 0x1652CD0
     static uint LE_To_UInt32(::ArrayW<uint8_t> bs, int off);
     // static System.Void LE_To_UInt32(System.Byte[] bs, System.Int32 bOff, System.UInt32[] ns, System.Int32 nOff, System.Int32 count)
-    // Offset: 0x1660E88
+    // Offset: 0x1652D50
     static void LE_To_UInt32(::ArrayW<uint8_t> bs, int bOff, ::ArrayW<uint> ns, int nOff, int count);
     // static System.UInt32[] LE_To_UInt32(System.Byte[] bs, System.Int32 off, System.Int32 count)
-    // Offset: 0x1660F2C
+    // Offset: 0x1652DF4
     static ::ArrayW<uint> LE_To_UInt32(::ArrayW<uint8_t> bs, int off, int count);
     // static System.Byte[] UInt64_To_LE(System.UInt64 n)
-    // Offset: 0x1660FF4
+    // Offset: 0x1652EBC
     static ::ArrayW<uint8_t> UInt64_To_LE(uint64_t n);
     // static System.Void UInt64_To_LE(System.UInt64 n, System.Byte[] bs)
-    // Offset: 0x1653EB4
+    // Offset: 0x1645D7C
     static void UInt64_To_LE(uint64_t n, ::ArrayW<uint8_t> bs);
     // static System.Void UInt64_To_LE(System.UInt64 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1661070
+    // Offset: 0x1652F38
     static void UInt64_To_LE(uint64_t n, ::ArrayW<uint8_t> bs, int off);
     // static System.Void UInt64_To_LE(System.UInt64[] ns, System.Int32 nsOff, System.Int32 nsLen, System.Byte[] bs, System.Int32 bsOff)
-    // Offset: 0x16610AC
+    // Offset: 0x1652F74
     static void UInt64_To_LE(::ArrayW<uint64_t> ns, int nsOff, int nsLen, ::ArrayW<uint8_t> bs, int bsOff);
     // static System.UInt64 LE_To_UInt64(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x1661168
+    // Offset: 0x1653030
     static uint64_t LE_To_UInt64(::ArrayW<uint8_t> bs, int off);
   }; // Org.BouncyCastle.Crypto.Utilities.Pack
   #pragma pack(pop)

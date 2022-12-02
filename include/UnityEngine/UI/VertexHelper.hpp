@@ -151,72 +151,72 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Boolean m_ListsInitalized
     [[deprecated("Use field access instead!")]] bool& dyn_m_ListsInitalized();
     // public System.Int32 get_currentVertCount()
-    // Offset: 0x2B1A9BC
+    // Offset: 0x2B26BF4
     int get_currentVertCount();
     // public System.Int32 get_currentIndexCount()
-    // Offset: 0x2B1AA10
+    // Offset: 0x2B26C48
     int get_currentIndexCount();
     // public System.Void .ctor()
-    // Offset: 0x2B1A498
+    // Offset: 0x2B266D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VertexHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::VertexHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VertexHelper*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Mesh m)
-    // Offset: 0x2B1A4A0
+    // Offset: 0x2B266D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VertexHelper* New_ctor(::UnityEngine::Mesh* m) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::VertexHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VertexHelper*, creationType>(m)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2B1B564
+    // Offset: 0x2B2779C
     static void _cctor();
     // private System.Void InitializeListIfRequired()
-    // Offset: 0x2B1A67C
+    // Offset: 0x2B268B4
     void InitializeListIfRequired();
     // public System.Void Dispose()
-    // Offset: 0x2B1A808
+    // Offset: 0x2B26A40
     void Dispose();
     // public System.Void Clear()
-    // Offset: 0x2B19014
+    // Offset: 0x2B2524C
     void Clear();
     // public System.Void PopulateUIVertex(ref UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x2B1AA64
+    // Offset: 0x2B26C9C
     void PopulateUIVertex(ByRef<::UnityEngine::UIVertex> vertex, int i);
     // public System.Void SetUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x2B1AC44
+    // Offset: 0x2B26E7C
     void SetUIVertex(::UnityEngine::UIVertex vertex, int i);
     // public System.Void FillMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x2B1AD90
+    // Offset: 0x2B26FC8
     void FillMesh(::UnityEngine::Mesh* mesh);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector2 uv2, UnityEngine.Vector2 uv3, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x2B1AEF4
+    // Offset: 0x2B2712C
     void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0, ::UnityEngine::Vector2 uv1, ::UnityEngine::Vector2 uv2, ::UnityEngine::Vector2 uv3, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x2B1B0B4
+    // Offset: 0x2B272EC
     void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0, ::UnityEngine::Vector2 uv1, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0)
-    // Offset: 0x2B1B1C0
+    // Offset: 0x2B273F8
     void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0);
     // public System.Void AddVert(UnityEngine.UIVertex v)
-    // Offset: 0x2B1B2F0
+    // Offset: 0x2B27528
     void AddVert(::UnityEngine::UIVertex v);
     // public System.Void AddTriangle(System.Int32 idx0, System.Int32 idx1, System.Int32 idx2)
-    // Offset: 0x2B1B360
+    // Offset: 0x2B27598
     void AddTriangle(int idx0, int idx1, int idx2);
     // public System.Void AddUIVertexQuad(UnityEngine.UIVertex[] verts)
-    // Offset: 0x2B1912C
+    // Offset: 0x2B25364
     void AddUIVertexQuad(::ArrayW<::UnityEngine::UIVertex> verts);
     // public System.Void AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x2B1B408
+    // Offset: 0x2B27640
     void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<int>* indices);
     // public System.Void AddUIVertexTriangleStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts)
-    // Offset: 0x2B1B4BC
+    // Offset: 0x2B276F4
     void AddUIVertexTriangleStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
     // public System.Void GetUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> stream)
-    // Offset: 0x2B1B510
+    // Offset: 0x2B27748
     void GetUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* stream);
   }; // UnityEngine.UI.VertexHelper
   #pragma pack(pop)

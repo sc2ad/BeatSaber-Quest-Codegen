@@ -99,29 +99,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     [[deprecated("Use field access instead!")]] bool& dyn__finished();
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0x15F2224
+    // Offset: 0x15FB0F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask* New_ctor(::System::Action* job, ::System::Action* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
-    // Offset: 0x15F2334
+    // Offset: 0x15FB200
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0x15F8CC8
+    // Offset: 0x1601B94
     ::System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0x15F8D64
+    // Offset: 0x1601C30
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0x15F8E38
+    // Offset: 0x1601D04
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0x15F8E44
+    // Offset: 0x1601D10
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0x15F8E4C
+    // Offset: 0x1601D18
     void $RunJob$b__9_0();
   }; // HMTask
   #pragma pack(pop)

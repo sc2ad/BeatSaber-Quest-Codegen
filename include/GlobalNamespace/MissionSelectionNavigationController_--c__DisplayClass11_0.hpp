@@ -61,17 +61,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action <>9__1
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1484D0C
+    // Offset: 0x14A8F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionNavigationController::$$c__DisplayClass11_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController::$$c__DisplayClass11_0*, creationType>()));
     }
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0x1484D1C
+    // Offset: 0x14A8F2C
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0x1484DD4
+    // Offset: 0x14A8FE4
     void $PresentMissionClearedIfNeeded$b__1();
   }; // MissionSelectionNavigationController/<>c__DisplayClass11_0
   #pragma pack(pop)

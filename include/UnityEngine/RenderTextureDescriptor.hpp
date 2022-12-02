@@ -45,35 +45,35 @@ namespace UnityEngine {
   struct RenderTextureDescriptor/*, public ::System::ValueType*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1086398
+    // [DebuggerBrowsableAttribute] Offset: 0x1088118
     // private System.Int32 <width>k__BackingField
     // Size: 0x4
     // Offset: 0x0
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x10863D4
+    // [DebuggerBrowsableAttribute] Offset: 0x1088154
     // private System.Int32 <height>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x1086410
+    // [DebuggerBrowsableAttribute] Offset: 0x1088190
     // private System.Int32 <msaaSamples>k__BackingField
     // Size: 0x4
     // Offset: 0x8
     int msaaSamples;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x108644C
+    // [DebuggerBrowsableAttribute] Offset: 0x10881CC
     // private System.Int32 <volumeDepth>k__BackingField
     // Size: 0x4
     // Offset: 0xC
     int volumeDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x1086488
+    // [DebuggerBrowsableAttribute] Offset: 0x1088208
     // private System.Int32 <mipCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -86,7 +86,7 @@ namespace UnityEngine {
     ::UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat;
     // Field size check
     static_assert(sizeof(::UnityEngine::Experimental::Rendering::GraphicsFormat) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x10864C4
+    // [DebuggerBrowsableAttribute] Offset: 0x1088244
     // private UnityEngine.Experimental.Rendering.GraphicsFormat <stencilFormat>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -99,21 +99,21 @@ namespace UnityEngine {
     int depthBufferBits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x1086500
+    // [DebuggerBrowsableAttribute] Offset: 0x1088280
     // private UnityEngine.Rendering.TextureDimension <dimension>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     ::UnityEngine::Rendering::TextureDimension dimension;
     // Field size check
     static_assert(sizeof(::UnityEngine::Rendering::TextureDimension) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x108653C
+    // [DebuggerBrowsableAttribute] Offset: 0x10882BC
     // private UnityEngine.Rendering.ShadowSamplingMode <shadowSamplingMode>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     ::UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode;
     // Field size check
     static_assert(sizeof(::UnityEngine::Rendering::ShadowSamplingMode) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x1086578
+    // [DebuggerBrowsableAttribute] Offset: 0x10882F8
     // private UnityEngine.VRTextureUsage <vrUsage>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -126,7 +126,7 @@ namespace UnityEngine {
     ::UnityEngine::RenderTextureCreationFlags flags;
     // Field size check
     static_assert(sizeof(::UnityEngine::RenderTextureCreationFlags) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0x10865B4
+    // [DebuggerBrowsableAttribute] Offset: 0x1088334
     // private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
     // Size: 0x4
     // Offset: 0x30
@@ -175,97 +175,97 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.RenderTextureMemoryless <memoryless>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTextureMemoryless& dyn_$memoryless$k__BackingField();
     // public System.Int32 get_width()
-    // Offset: 0x2150FC0
+    // Offset: 0x215DECC
     int get_width();
     // public System.Void set_width(System.Int32 value)
-    // Offset: 0x2150FC8
+    // Offset: 0x215DED4
     void set_width(int value);
     // public System.Int32 get_height()
-    // Offset: 0x2150FD0
+    // Offset: 0x215DEDC
     int get_height();
     // public System.Void set_height(System.Int32 value)
-    // Offset: 0x2150FD8
+    // Offset: 0x215DEE4
     void set_height(int value);
     // public System.Int32 get_msaaSamples()
-    // Offset: 0x2150FE0
+    // Offset: 0x215DEEC
     int get_msaaSamples();
     // public System.Void set_msaaSamples(System.Int32 value)
-    // Offset: 0x2150FE8
+    // Offset: 0x215DEF4
     void set_msaaSamples(int value);
     // public System.Int32 get_volumeDepth()
-    // Offset: 0x2150FF0
+    // Offset: 0x215DEFC
     int get_volumeDepth();
     // public System.Void set_volumeDepth(System.Int32 value)
-    // Offset: 0x2150FF8
+    // Offset: 0x215DF04
     void set_volumeDepth(int value);
     // public System.Void set_mipCount(System.Int32 value)
-    // Offset: 0x2151000
+    // Offset: 0x215DF0C
     void set_mipCount(int value);
     // public UnityEngine.Experimental.Rendering.GraphicsFormat get_graphicsFormat()
-    // Offset: 0x2150BF8
+    // Offset: 0x215DB04
     ::UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
     // public System.Void set_graphicsFormat(UnityEngine.Experimental.Rendering.GraphicsFormat value)
-    // Offset: 0x2151008
+    // Offset: 0x215DF14
     void set_graphicsFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
     // public UnityEngine.RenderTextureFormat get_colorFormat()
-    // Offset: 0x2151068
+    // Offset: 0x215DF74
     ::UnityEngine::RenderTextureFormat get_colorFormat();
     // public System.Void set_colorFormat(UnityEngine.RenderTextureFormat value)
-    // Offset: 0x2151074
+    // Offset: 0x215DF80
     void set_colorFormat(::UnityEngine::RenderTextureFormat value);
     // public System.Boolean get_sRGB()
-    // Offset: 0x21510E0
+    // Offset: 0x215DFEC
     bool get_sRGB();
     // public System.Void set_sRGB(System.Boolean value)
-    // Offset: 0x21510EC
+    // Offset: 0x215DFF8
     void set_sRGB(bool value);
     // public System.Int32 get_depthBufferBits()
-    // Offset: 0x2150C00
+    // Offset: 0x215DB0C
     int get_depthBufferBits();
     // public System.Void set_depthBufferBits(System.Int32 value)
-    // Offset: 0x2151148
+    // Offset: 0x215E054
     void set_depthBufferBits(int value);
     // public System.Void set_dimension(UnityEngine.Rendering.TextureDimension value)
-    // Offset: 0x2151174
+    // Offset: 0x215E080
     void set_dimension(::UnityEngine::Rendering::TextureDimension value);
     // public System.Void set_shadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode value)
-    // Offset: 0x215117C
+    // Offset: 0x215E088
     void set_shadowSamplingMode(::UnityEngine::Rendering::ShadowSamplingMode value);
     // public System.Void set_vrUsage(UnityEngine.VRTextureUsage value)
-    // Offset: 0x2151184
+    // Offset: 0x215E090
     void set_vrUsage(::UnityEngine::VRTextureUsage value);
     // public System.Void set_memoryless(UnityEngine.RenderTextureMemoryless value)
-    // Offset: 0x215118C
+    // Offset: 0x215E098
     void set_memoryless(::UnityEngine::RenderTextureMemoryless value);
     // public System.Void set_useMipMap(System.Boolean value)
-    // Offset: 0x21511F4
+    // Offset: 0x215E100
     void set_useMipMap(bool value);
     // public System.Void set_autoGenerateMips(System.Boolean value)
-    // Offset: 0x2151210
+    // Offset: 0x215E11C
     void set_autoGenerateMips(bool value);
     // public System.Void set_enableRandomWrite(System.Boolean value)
-    // Offset: 0x215122C
+    // Offset: 0x215E138
     void set_enableRandomWrite(bool value);
     // System.Void set_createdFromScript(System.Boolean value)
-    // Offset: 0x2150D24
+    // Offset: 0x215DC30
     void set_createdFromScript(bool value);
     // public System.Void set_useDynamicScale(System.Boolean value)
-    // Offset: 0x2150E80
+    // Offset: 0x215DD8C
     void set_useDynamicScale(bool value);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.RenderTextureFormat colorFormat, System.Int32 depthBufferBits)
-    // Offset: 0x2151194
+    // Offset: 0x215E0A0
     RenderTextureDescriptor(int width, int height, ::UnityEngine::RenderTextureFormat colorFormat, int depthBufferBits);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.Experimental.Rendering.GraphicsFormat colorFormat, System.Int32 depthBufferBits)
-    // Offset: 0x2150DE0
+    // Offset: 0x215DCEC
     RenderTextureDescriptor(int width, int height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits);
     // public System.Void .ctor(System.Int32 width, System.Int32 height, UnityEngine.Experimental.Rendering.GraphicsFormat colorFormat, System.Int32 depthBufferBits, System.Int32 mipCount)
-    // Offset: 0x2150828
+    // Offset: 0x215D734
     RenderTextureDescriptor(int width, int height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int depthBufferBits, int mipCount);
     // static private System.Void .cctor()
-    // Offset: 0x2151248
+    // Offset: 0x215E154
     static void _cctor();
     // private System.Void SetOrClearRenderTextureCreationFlag(System.Boolean value, UnityEngine.RenderTextureCreationFlags flag)
-    // Offset: 0x215104C
+    // Offset: 0x215DF58
     void SetOrClearRenderTextureCreationFlag(bool value, ::UnityEngine::RenderTextureCreationFlags flag);
   }; // UnityEngine.RenderTextureDescriptor
   #pragma pack(pop)

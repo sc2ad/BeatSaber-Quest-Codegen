@@ -49,20 +49,20 @@ namespace System::Net::Http {
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
     static void _set_$$9__64_0(::System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19C027C
+    // Offset: 0x19DD5E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19C02E0
+    // Offset: 0x19DD644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpClientHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpClientHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler::$$c*, creationType>()));
     }
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
-    // Offset: 0x19C02E8
+    // Offset: 0x19DD64C
     bool $CreateWebRequest$b__61_0(::StringW l);
     // System.Void <SendAsync>b__64_0(System.Object l)
-    // Offset: 0x19C033C
+    // Offset: 0x19DD6A0
     void $SendAsync$b__64_0(::Il2CppObject* l);
   }; // System.Net.Http.HttpClientHandler/System.Net.Http.<>c
   #pragma pack(pop)

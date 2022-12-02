@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Animator _animator
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animator*& dyn__animator();
     // public System.Void .ctor()
-    // Offset: 0x14FEC04
+    // Offset: 0x1507B7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFailedTextEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFailedTextEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFailedTextEffect*, creationType>()));
     }
     // public System.Void ShowEffect()
-    // Offset: 0x14FEBBC
+    // Offset: 0x1507B34
     void ShowEffect();
   }; // LevelFailedTextEffect
   #pragma pack(pop)

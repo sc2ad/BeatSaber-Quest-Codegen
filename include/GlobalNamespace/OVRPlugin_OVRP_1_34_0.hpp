@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B68A50
+    // Offset: 0x1B73A70
     static void _cctor();
     // static public OVRPlugin/Result ovrp_EnqueueSubmitLayer2(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.Int32 layerId, System.Int32 frameIndex, ref OVRPlugin/Posef pose, ref OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/Bool overrideTextureRectMatrix, ref OVRPlugin/TextureRectMatrixf textureRectMatrix, OVRPlugin/Bool overridePerLayerColorScaleAndOffset, ref UnityEngine.Vector4 colorScale, ref UnityEngine.Vector4 colorOffset)
-    // Offset: 0x1B68950
+    // Offset: 0x1B73970
     static ::GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSubmitLayer2(uint flags, ::System::IntPtr textureLeft, ::System::IntPtr textureRight, int layerId, int frameIndex, ByRef<::GlobalNamespace::OVRPlugin::Posef> pose, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> scale, int layerIndex, ::GlobalNamespace::OVRPlugin::Bool overrideTextureRectMatrix, ByRef<::GlobalNamespace::OVRPlugin::TextureRectMatrixf> textureRectMatrix, ::GlobalNamespace::OVRPlugin::Bool overridePerLayerColorScaleAndOffset, ByRef<::UnityEngine::Vector4> colorScale, ByRef<::UnityEngine::Vector4> colorOffset);
   }; // OVRPlugin/OVRP_1_34_0
   #pragma pack(pop)

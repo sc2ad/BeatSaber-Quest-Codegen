@@ -65,19 +65,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action comboBreakingEventHappenedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_comboBreakingEventHappenedEvent();
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14871D4
+    // Offset: 0x14AB3E4
     void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x1487278
+    // Offset: 0x14AB488
     void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x148731C
+    // Offset: 0x14AB52C
     void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
-    // Offset: 0x14873C0
+    // Offset: 0x14AB5D0
     void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1487464
+    // Offset: 0x14AB674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockComboController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockComboController::.ctor");

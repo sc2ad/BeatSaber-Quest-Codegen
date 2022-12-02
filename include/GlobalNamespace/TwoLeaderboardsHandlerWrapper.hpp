@@ -74,25 +74,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest _uploadScoreShadowAsyncRequest
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HMAsyncRequest*& dyn__uploadScoreShadowAsyncRequest();
     // public System.Void .ctor(PlatformLeaderboardsHandler mainHandler, PlatformLeaderboardsHandler shadowHandler)
-    // Offset: 0x162222C
+    // Offset: 0x165C5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwoLeaderboardsHandlerWrapper* New_ctor(::GlobalNamespace::PlatformLeaderboardsHandler* mainHandler, ::GlobalNamespace::PlatformLeaderboardsHandler* shadowHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TwoLeaderboardsHandlerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwoLeaderboardsHandlerWrapper*, creationType>(mainHandler, shadowHandler)));
     }
     // private System.Void <GetScores>b__5_0(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x162245C
+    // Offset: 0x165C828
     void $GetScores$b__5_0(::GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
     // private System.Void <UploadScore>b__6_0(PlatformLeaderboardsModel/UploadScoreResult result)
-    // Offset: 0x1622464
+    // Offset: 0x165C830
     void $UploadScore$b__6_0(::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x1622264
+    // Offset: 0x165C630
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, ::GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::StringW referencePlayerId, ::GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x1622384
+    // Offset: 0x165C750
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);

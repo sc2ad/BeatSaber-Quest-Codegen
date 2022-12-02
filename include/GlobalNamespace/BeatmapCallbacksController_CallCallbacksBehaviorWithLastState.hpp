@@ -70,17 +70,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.ValueTuple`2<System.Type,System.Int32>,BeatmapDataItem> _replayState
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int>, ::GlobalNamespace::BeatmapDataItem*>*& dyn__replayState();
     // public System.Void .ctor()
-    // Offset: 0x13C58B8
+    // Offset: 0x13A2FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksController::CallCallbacksBehaviorWithLastState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksController::CallCallbacksBehaviorWithLastState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbacksController::CallCallbacksBehaviorWithLastState*, creationType>()));
     }
     // public System.Void CallCallbacks(CallbacksInTime callbacksInTime, BeatmapDataItem beatmapDataItem)
-    // Offset: 0x13C6B8C
+    // Offset: 0x13A4284
     void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void Replay(System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> callbacksInTimes)
-    // Offset: 0x13C6C50
+    // Offset: 0x13A4348
     void Replay(::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
   }; // BeatmapCallbacksController/CallCallbacksBehaviorWithLastState
   #pragma pack(pop)

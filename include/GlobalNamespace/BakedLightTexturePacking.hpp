@@ -52,21 +52,21 @@ namespace GlobalNamespace {
     static ::StringW _get_kBakedLightTexturePackingShaderName();
     // Set static field: static private System.String kBakedLightTexturePackingShaderName
     static void _set_kBakedLightTexturePackingShaderName(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11232E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1123080
     // Get static field: static private readonly System.Int32[] _texPropertyIds
     static ::ArrayW<int> _get__texPropertyIds();
     // Set static field: static private readonly System.Int32[] _texPropertyIds
     static void _set__texPropertyIds(::ArrayW<int> value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11232F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1123090
     // Get static field: static private UnityEngine.Material _material
     static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(::UnityEngine::Material* value);
     // static private System.Void .cctor()
-    // Offset: 0x13BFE00
+    // Offset: 0x139D4E8
     static void _cctor();
     // static public UnityEngine.RenderTexture PackTextures(System.Collections.Generic.IReadOnlyList`1<UnityEngine.RenderTexture> textures, UnityEngine.RenderTextureDescriptor descriptor)
-    // Offset: 0x13BFA9C
+    // Offset: 0x139D184
     static ::UnityEngine::RenderTexture* PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>* textures, ::UnityEngine::RenderTextureDescriptor descriptor);
   }; // BakedLightTexturePacking
   #pragma pack(pop)

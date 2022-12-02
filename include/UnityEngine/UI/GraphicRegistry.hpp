@@ -79,26 +79,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*& dyn_m_Graphics();
     // static public UnityEngine.UI.GraphicRegistry get_instance()
-    // Offset: 0x1EBD008
+    // Offset: 0x1ECB154
     static ::UnityEngine::UI::GraphicRegistry* get_instance();
     // protected System.Void .ctor()
-    // Offset: 0x1EBCEE8
+    // Offset: 0x1ECB034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GraphicRegistry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::GraphicRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRegistry*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EBD0C8
+    // Offset: 0x1ECB214
     static void _cctor();
     // static public System.Void RegisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x1EB8FE8
+    // Offset: 0x1EC7134
     static void RegisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
     // static public System.Void UnregisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
-    // Offset: 0x1EB8C88
+    // Offset: 0x1EC6DD4
     static void UnregisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
     // static public System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> GetGraphicsForCanvas(UnityEngine.Canvas canvas)
-    // Offset: 0x1EBC700
+    // Offset: 0x1ECA84C
     static ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(::UnityEngine::Canvas* canvas);
   }; // UnityEngine.UI.GraphicRegistry
   #pragma pack(pop)

@@ -57,7 +57,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: public System.Object particle
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_particle();
     // public System.Void .ctor(System.Int32 symbol, System.Object particle)
-    // Offset: 0x1D10908
+    // Offset: 0x1D1AA54
     // ABORTED: conflicts with another method.  Position(int symbol, ::Il2CppObject* particle);
   }; // System.Xml.Schema.Position
   #pragma pack(pop)

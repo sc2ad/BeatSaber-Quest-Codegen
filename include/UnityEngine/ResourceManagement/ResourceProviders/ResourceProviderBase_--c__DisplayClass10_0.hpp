@@ -52,14 +52,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: public System.String data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1F6819C
+    // Offset: 0x1F762E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProviderBase::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::$$c__DisplayClass10_0*, creationType>()));
     }
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x1F681FC
+    // Offset: 0x1F76348
     bool $InitializeAsync$b__0();
   }; // UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/UnityEngine.ResourceManagement.ResourceProviders.<>c__DisplayClass10_0
   #pragma pack(pop)

@@ -52,29 +52,29 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2AF7448
+    // Offset: 0x2B05680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::UserOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserOptions*, creationType>()));
     }
     // public System.Void SetMaxUsers(System.UInt32 value)
-    // Offset: 0x2AFB5AC
+    // Offset: 0x2B097E4
     void SetMaxUsers(uint value);
     // public System.Void AddServiceProvider(Oculus.Platform.ServiceProvider value)
-    // Offset: 0x2AF74C0
+    // Offset: 0x2B056F8
     void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
     // public System.Void ClearServiceProviders()
-    // Offset: 0x2AFB628
+    // Offset: 0x2B09860
     void ClearServiceProviders();
     // public System.Void SetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x2AFB694
+    // Offset: 0x2B098CC
     void SetTimeWindow(::Oculus::Platform::TimeWindow value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.UserOptions options)
-    // Offset: 0x2AF753C
+    // Offset: 0x2B05774
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2AFB710
+    // Offset: 0x2B09948
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

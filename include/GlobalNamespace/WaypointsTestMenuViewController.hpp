@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* progressText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110CA94
+    // [SpaceAttribute] Offset: 0x110C804
     // private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -116,14 +116,14 @@ namespace GlobalNamespace {
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* characteristics;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [InjectAttribute] Offset: 0x110CAEC
+    // [InjectAttribute] Offset: 0x110C85C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x110CAFC
+    // [InjectAttribute] Offset: 0x110C86C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x50
@@ -174,32 +174,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _waitingForLevelFinish
     [[deprecated("Use field access instead!")]] bool& dyn__waitingForLevelFinish();
     // public System.Void .ctor()
-    // Offset: 0x1634BFC
+    // Offset: 0x166EE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointsTestMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointsTestMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointsTestMenuViewController*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x16348A8
+    // Offset: 0x166EB48
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x16349CC
+    // Offset: 0x166EC6C
     void OnDestroy();
     // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
-    // Offset: 0x1634AB8
+    // Offset: 0x166ED58
     ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels);
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
-    // Offset: 0x1634B60
+    // Offset: 0x166EE00
     void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
     // private System.Void <Start>b__11_0()
-    // Offset: 0x1634C04
+    // Offset: 0x166EEA4
     void $Start$b__11_0();
     // private System.Void <Start>b__11_1()
-    // Offset: 0x1634C98
+    // Offset: 0x166EF38
     void $Start$b__11_1();
     // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
-    // Offset: 0x1634CE8
+    // Offset: 0x166EF88
     void $HandleMainGameSceneDidFinish$b__14_0(::Zenject::DiContainer* container);
   }; // WaypointsTestMenuViewController
   #pragma pack(pop)

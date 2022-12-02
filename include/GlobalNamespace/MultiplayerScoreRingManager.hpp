@@ -81,49 +81,49 @@ namespace GlobalNamespace {
     float centerDistanceOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1119768
+    // [InjectAttribute] Offset: 0x11194F8
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119778
+    // [InjectAttribute] Offset: 0x1119508
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119788
+    // [InjectAttribute] Offset: 0x1119518
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119798
+    // [InjectAttribute] Offset: 0x1119528
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0x11197A8
+    // [InjectAttribute] Offset: 0x1119538
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x11197B8
+    // [InjectAttribute] Offset: 0x1119548
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x11197C8
+    // [InjectAttribute] Offset: 0x1119558
     // private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
     // Size: 0x8
     // Offset: 0x50
@@ -208,59 +208,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _playersSpawned
     [[deprecated("Use field access instead!")]] bool& dyn__playersSpawned();
     // public System.Void .ctor()
-    // Offset: 0x14EC5B0
+    // Offset: 0x14F5528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreRingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreRingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreRingManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14EAC10
+    // Offset: 0x14F3B88
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14EB2C4
+    // Offset: 0x14F423C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x14EB5E8
+    // Offset: 0x14F4560
     void Update();
     // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
-    // Offset: 0x14EB6CC
+    // Offset: 0x14F4644
     void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
     // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x14EB8B0
+    // Offset: 0x14F4828
     void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
-    // Offset: 0x14EBA1C
+    // Offset: 0x14F4994
     ::GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::StringW userId);
     // public UnityEngine.GameObject[] GetScoreRingItems()
-    // Offset: 0x14EBB0C
+    // Offset: 0x14F4A84
     ::ArrayW<::UnityEngine::GameObject*> GetScoreRingItems();
     // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, EaseType easeType)
-    // Offset: 0x14EBCAC
+    // Offset: 0x14F4C24
     void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float duration, ::GlobalNamespace::EaseType easeType);
     // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
-    // Offset: 0x14EBE24
+    // Offset: 0x14F4D9C
     void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void TrySpawnTexts()
-    // Offset: 0x14EBF34
+    // Offset: 0x14F4EAC
     void TrySpawnTexts();
     // private System.Void SpawnTexts()
-    // Offset: 0x14EBF4C
+    // Offset: 0x14F4EC4
     void SpawnTexts();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14EADD0
+    // Offset: 0x14F3D48
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x14EADA0
+    // Offset: 0x14F3D18
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x14EADB8
+    // Offset: 0x14F3D30
     void HandlePlayerSpawningDidFinish();
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x14EC568
+    // Offset: 0x14F54E0
     void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x14EC5AC
+    // Offset: 0x14F5524
     void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerScoreRingManager
   #pragma pack(pop)

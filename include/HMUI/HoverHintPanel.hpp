@@ -98,29 +98,29 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean <isShown>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isShown$k__BackingField();
     // public System.Boolean get_isShown()
-    // Offset: 0x174CFB8
+    // Offset: 0x1752000
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0x174CFC0
+    // Offset: 0x1752008
     void set_isShown(bool value);
     // public System.Void .ctor()
-    // Offset: 0x174D200
+    // Offset: 0x1752248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHintPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHintPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintPanel*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x174CFCC
+    // Offset: 0x1752014
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0x174CA6C
+    // Offset: 0x1751AB4
     void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0x174C5A4
+    // Offset: 0x17515EC
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0x174D0D4
+    // Offset: 0x175211C
     ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
   }; // HMUI.HoverHintPanel
   #pragma pack(pop)

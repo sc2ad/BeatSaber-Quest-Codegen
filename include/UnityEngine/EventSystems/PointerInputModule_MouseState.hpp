@@ -48,23 +48,23 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*& dyn_m_TrackedButtons();
     // public System.Void .ctor()
-    // Offset: 0x1951BE8
+    // Offset: 0x1959B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerInputModule::MouseState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PointerInputModule::MouseState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseState*, creationType>()));
     }
     // public System.Boolean AnyPressesThisFrame()
-    // Offset: 0x1951CB0
+    // Offset: 0x1959BD8
     bool AnyPressesThisFrame();
     // public System.Boolean AnyReleasesThisFrame()
-    // Offset: 0x1951D64
+    // Offset: 0x1959C8C
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
-    // Offset: 0x1951E18
+    // Offset: 0x1959D40
     ::UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x1951240
+    // Offset: 0x1959168
     void SetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button, ::UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data);
   }; // UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState
   #pragma pack(pop)

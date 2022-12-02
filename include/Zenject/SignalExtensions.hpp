@@ -47,7 +47,7 @@ namespace Zenject {
   class SignalExtensions : public ::Il2CppObject {
     public:
     // static public Zenject.SignalDeclarationBindInfo CreateDefaultSignalDeclarationBindInfo(Zenject.DiContainer container, System.Type signalType)
-    // Offset: 0x1DAD160
+    // Offset: 0x1DB82AC
     static ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
     // static public Zenject.DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder DeclareSignal(Zenject.DiContainer container)
     // Offset: 0xFFFFFFFFFFFFFFFF

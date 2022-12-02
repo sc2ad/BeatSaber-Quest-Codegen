@@ -55,26 +55,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1460084
+    // Offset: 0x1468518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$$c__DisplayClass25_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$$c__DisplayClass25_0*, creationType>()));
     }
     // System.Void <PhaseRoutine>b__0(System.Single val)
-    // Offset: 0x146008C
+    // Offset: 0x1468520
     void $PhaseRoutine$b__0(float val);
     // System.Void <PhaseRoutine>b__1(System.Single val)
-    // Offset: 0x1460120
+    // Offset: 0x14685B4
     void $PhaseRoutine$b__1(float val);
     // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x1460214
+    // Offset: 0x14686A8
     void $PhaseRoutine$b__2(::UnityEngine::Vector3 pos);
     // System.Void <PhaseRoutine>b__3(System.Single f)
-    // Offset: 0x1460268
+    // Offset: 0x14686FC
     void $PhaseRoutine$b__3(float f);
     // System.Void <PhaseRoutine>b__4(System.Single val)
-    // Offset: 0x146035C
+    // Offset: 0x14687F0
     void $PhaseRoutine$b__4(float val);
   }; // MultiplayerIntroCountdown/<>c__DisplayClass25_0
   #pragma pack(pop)

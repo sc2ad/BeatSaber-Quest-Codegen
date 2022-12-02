@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A60338
+    // Offset: 0x1A6A320
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A6039C
+    // Offset: 0x1A6A384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Gradient_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Gradient_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Gradient_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__1_0(UnityEngine.Gradient lod)
-    // Offset: 0x1A603A4
+    // Offset: 0x1A6A38C
     ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__1_0(::UnityEngine::Gradient* lod);
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__2_0(UnityEngine.Gradient lod)
-    // Offset: 0x1A60408
+    // Offset: 0x1A6A3F0
     ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__2_0(::UnityEngine::Gradient* lod);
   }; // HoudiniEngineUnity.Test_Gradient_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

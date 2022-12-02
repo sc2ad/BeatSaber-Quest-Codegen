@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean _dissolving
     [[deprecated("Use field access instead!")]] bool& dyn__dissolving();
     // public System.Void .ctor()
-    // Offset: 0x14684A0
+    // Offset: 0x146F534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderControllerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderControllerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderControllerBase*, creationType>()));
     }
     // protected System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1468478
+    // Offset: 0x146F50C
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // SliderControllerBase
   #pragma pack(pop)

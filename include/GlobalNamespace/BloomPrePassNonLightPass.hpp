@@ -133,38 +133,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassNonLightPass/ExecutionTimeType _registeredExecutionTimeType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType& dyn__registeredExecutionTimeType();
     // public BloomPrePassNonLightPass/ExecutionTimeType get_executionTimeType()
-    // Offset: 0x1CC25FC
+    // Offset: 0x1CCC748
     ::GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType get_executionTimeType();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassAfterBlurList()
-    // Offset: 0x1CC2604
+    // Offset: 0x1CCC750
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
     // static public System.Collections.Generic.List`1<BloomPrePassNonLightPass> get_bloomPrePassBeforeBlurList()
-    // Offset: 0x1CC266C
+    // Offset: 0x1CCC7B8
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
     // protected System.Void .ctor()
-    // Offset: 0x1CBFABC
+    // Offset: 0x1CC9C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassNonLightPass* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassNonLightPass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassNonLightPass*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CC26D8
+    // Offset: 0x1CCC824
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1CC1214
+    // Offset: 0x1CCB360
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CC26D4
+    // Offset: 0x1CCC820
     void OnDisable();
     // protected System.Void Register()
-    // Offset: 0x1CC10D4
+    // Offset: 0x1CCB220
     void Register();
     // protected System.Void Unregister()
-    // Offset: 0x1CC1004
+    // Offset: 0x1CCB150
     void Unregister();
     // protected System.Void OnValidate()
-    // Offset: 0x1CC1AF8
+    // Offset: 0x1CCBC44
     void OnValidate();
     // public System.Void Render(UnityEngine.RenderTexture dest, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix)
     // Offset: 0xFFFFFFFFFFFFFFFF

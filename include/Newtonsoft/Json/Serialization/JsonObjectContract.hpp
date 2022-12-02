@@ -159,61 +159,61 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Type _extensionDataValueType
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn__extensionDataValueType();
     // public Newtonsoft.Json.MemberSerialization get_MemberSerialization()
-    // Offset: 0x1DDEA88
+    // Offset: 0x1DE9BD4
     ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
     // public System.Void set_MemberSerialization(Newtonsoft.Json.MemberSerialization value)
-    // Offset: 0x1DDEA90
+    // Offset: 0x1DE9BDC
     void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
     // public System.Nullable`1<Newtonsoft.Json.Required> get_ItemRequired()
-    // Offset: 0x1DDEA98
+    // Offset: 0x1DE9BE4
     ::System::Nullable_1<::Newtonsoft::Json::Required> get_ItemRequired();
     // public System.Void set_ItemRequired(System.Nullable`1<Newtonsoft.Json.Required> value)
-    // Offset: 0x1DDEAA0
+    // Offset: 0x1DE9BEC
     void set_ItemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
     // public Newtonsoft.Json.Serialization.JsonPropertyCollection get_Properties()
-    // Offset: 0x1DDEAA8
+    // Offset: 0x1DE9BF4
     ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
     // private System.Void set_Properties(Newtonsoft.Json.Serialization.JsonPropertyCollection value)
-    // Offset: 0x1DDEAB0
+    // Offset: 0x1DE9BFC
     void set_Properties(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
     // public Newtonsoft.Json.Serialization.JsonPropertyCollection get_CreatorParameters()
-    // Offset: 0x1DDEAB8
+    // Offset: 0x1DE9C04
     ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_CreatorParameters();
     // public System.Void set_OverrideConstructor(System.Reflection.ConstructorInfo value)
-    // Offset: 0x1DDEC58
+    // Offset: 0x1DE9DA4
     void set_OverrideConstructor(::System::Reflection::ConstructorInfo* value);
     // public System.Void set_ParametrizedConstructor(System.Reflection.ConstructorInfo value)
-    // Offset: 0x1DDECF8
+    // Offset: 0x1DE9E44
     void set_ParametrizedConstructor(::System::Reflection::ConstructorInfo* value);
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_OverrideCreator()
-    // Offset: 0x1DDED98
+    // Offset: 0x1DE9EE4
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_OverrideCreator();
     // Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_ParameterizedCreator()
-    // Offset: 0x1DDEDA0
+    // Offset: 0x1DE9EEC
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_ParameterizedCreator();
     // public Newtonsoft.Json.Serialization.ExtensionDataSetter get_ExtensionDataSetter()
-    // Offset: 0x1DDEDA8
+    // Offset: 0x1DE9EF4
     ::Newtonsoft::Json::Serialization::ExtensionDataSetter* get_ExtensionDataSetter();
     // public System.Void set_ExtensionDataSetter(Newtonsoft.Json.Serialization.ExtensionDataSetter value)
-    // Offset: 0x1DDEDB0
+    // Offset: 0x1DE9EFC
     void set_ExtensionDataSetter(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
     // public Newtonsoft.Json.Serialization.ExtensionDataGetter get_ExtensionDataGetter()
-    // Offset: 0x1DDEDB8
+    // Offset: 0x1DE9F04
     ::Newtonsoft::Json::Serialization::ExtensionDataGetter* get_ExtensionDataGetter();
     // public System.Void set_ExtensionDataGetter(Newtonsoft.Json.Serialization.ExtensionDataGetter value)
-    // Offset: 0x1DDEDC0
+    // Offset: 0x1DE9F0C
     void set_ExtensionDataGetter(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
     // public System.Void set_ExtensionDataValueType(System.Type value)
-    // Offset: 0x1DDEDC8
+    // Offset: 0x1DE9F14
     void set_ExtensionDataValueType(::System::Type* value);
     // System.Boolean get_HasRequiredOrDefaultValueProperties()
-    // Offset: 0x1DDEE80
+    // Offset: 0x1DE9FCC
     bool get_HasRequiredOrDefaultValueProperties();
     // System.Object GetUninitializedObject()
-    // Offset: 0x1DDF2AC
+    // Offset: 0x1DEA3F8
     ::Il2CppObject* GetUninitializedObject();
     // public System.Void .ctor(System.Type underlyingType)
-    // Offset: 0x1DDF228
+    // Offset: 0x1DEA374
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)

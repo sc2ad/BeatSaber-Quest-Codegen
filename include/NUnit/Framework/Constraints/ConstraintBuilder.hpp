@@ -60,10 +60,10 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private System.Object lastPushed
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_lastPushed();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x1D42714
+    // Offset: 0x1D4C860
     bool get_IsResolvable();
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x1D42568
+    // Offset: 0x1D4C6B4
     ::NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)

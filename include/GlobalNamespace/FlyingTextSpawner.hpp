@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingTextEffectPool
     char __padding6[0x3] = {};
-    // [InjectAttribute] Offset: 0x11138A8
+    // [InjectAttribute] Offset: 0x1113638
     // private readonly FlyingTextEffect/Pool _flyingTextEffectPool
     // Size: 0x8
     // Offset: 0x40
@@ -126,17 +126,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly FlyingTextEffect/Pool _flyingTextEffectPool
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FlyingTextEffect::Pool*& dyn__flyingTextEffectPool();
     // public System.Void .ctor()
-    // Offset: 0x1390324
+    // Offset: 0x1397150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingTextSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingTextSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingTextSpawner*, creationType>()));
     }
     // public System.Void SpawnText(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation, System.String text)
-    // Offset: 0x138FFD0
+    // Offset: 0x1396DFC
     void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x1390208
+    // Offset: 0x1397034
     void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
   }; // FlyingTextSpawner
   #pragma pack(pop)

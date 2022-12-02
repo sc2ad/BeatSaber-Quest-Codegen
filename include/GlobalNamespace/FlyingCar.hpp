@@ -73,20 +73,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _pos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__pos();
     // public System.Void .ctor()
-    // Offset: 0x138E1A4
+    // Offset: 0x1394FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingCar* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingCar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingCar*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x138DF80
+    // Offset: 0x1394DAC
     void Start();
     // protected System.Void Update()
-    // Offset: 0x138E0E0
+    // Offset: 0x1394F0C
     void Update();
     // protected System.Void UpdatePos()
-    // Offset: 0x138E030
+    // Offset: 0x1394E5C
     void UpdatePos();
   }; // FlyingCar
   #pragma pack(pop)

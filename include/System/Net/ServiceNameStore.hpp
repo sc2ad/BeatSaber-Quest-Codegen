@@ -59,7 +59,7 @@ namespace System::Net {
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
     [[deprecated("Use field access instead!")]] ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& dyn_serviceNameCollection();
     // public System.Void .ctor()
-    // Offset: 0x1BB1C44
+    // Offset: 0x1BBCC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServiceNameStore* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServiceNameStore::.ctor");

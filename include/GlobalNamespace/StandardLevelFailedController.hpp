@@ -71,49 +71,49 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117478
+    // [InjectAttribute] Offset: 0x1117208
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117488
+    // [InjectAttribute] Offset: 0x1117218
     // private readonly StandardLevelFailedController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::StandardLevelFailedController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelFailedController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117498
+    // [InjectAttribute] Offset: 0x1117228
     // private readonly ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::ILevelEndActions* gameplayManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILevelEndActions*) == 0x8);
-    // [InjectAttribute] Offset: 0x11174A8
+    // [InjectAttribute] Offset: 0x1117238
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11174B8
+    // [InjectAttribute] Offset: 0x1117248
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11174C8
+    // [InjectAttribute] Offset: 0x1117258
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentSpawnRotation*) == 0x8);
-    // [InjectAttribute] Offset: 0x11174D8
+    // [InjectAttribute] Offset: 0x1117268
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x58
@@ -142,23 +142,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // public System.Void .ctor()
-    // Offset: 0x147B6F8
+    // Offset: 0x1482784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFailedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFailedController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x147B450
+    // Offset: 0x14824DC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x147B538
+    // Offset: 0x14825C4
     void OnDestroy();
     // private System.Void HandleLevelFailed()
-    // Offset: 0x147B630
+    // Offset: 0x14826BC
     void HandleLevelFailed();
     // private System.Collections.IEnumerator LevelFailedCoroutine()
-    // Offset: 0x147B65C
+    // Offset: 0x14826E8
     ::System::Collections::IEnumerator* LevelFailedCoroutine();
   }; // StandardLevelFailedController
   #pragma pack(pop)

@@ -81,34 +81,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <beforeScenesWillBeActivatedTaskIsComplete>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$beforeScenesWillBeActivatedTaskIsComplete$k__BackingField();
     // public SceneInfo[] get_scenes()
-    // Offset: 0x2AB201C
+    // Offset: 0x2AC2254
     ::ArrayW<::GlobalNamespace::SceneInfo*> get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
-    // Offset: 0x2AB2024
+    // Offset: 0x2AC225C
     void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*> value);
     // public System.Boolean get_beforeScenesWillBeActivatedTaskIsComplete()
-    // Offset: 0x2AB202C
+    // Offset: 0x2AC2264
     bool get_beforeScenesWillBeActivatedTaskIsComplete();
     // private System.Void set_beforeScenesWillBeActivatedTaskIsComplete(System.Boolean value)
-    // Offset: 0x2AB2034
+    // Offset: 0x2AC226C
     void set_beforeScenesWillBeActivatedTaskIsComplete(bool value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
-    // Offset: 0x2AB2040
+    // Offset: 0x2AC2278
     void Init(::ArrayW<::GlobalNamespace::SceneInfo*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
     // public System.Void BeforeScenesWillBeActivated(System.Boolean runAsync)
-    // Offset: 0x2AB204C
+    // Offset: 0x2AC2284
     void BeforeScenesWillBeActivated(bool runAsync);
     // protected System.Threading.Tasks.Task BeforeScenesWillBeActivatedAsync()
-    // Offset: 0x2AB2118
+    // Offset: 0x2AC2350
     ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x2AB2178
+    // Offset: 0x2AC23B0
     void InstallBindings(::Zenject::DiContainer* container);
     // private System.Threading.Tasks.Task <BeforeScenesWillBeActivated>b__10_0()
-    // Offset: 0x2AB22BC
+    // Offset: 0x2AC24F4
     ::System::Threading::Tasks::Task* $BeforeScenesWillBeActivated$b__10_0();
     // protected System.Void .ctor()
-    // Offset: 0x2AB22B4
+    // Offset: 0x2AC24EC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

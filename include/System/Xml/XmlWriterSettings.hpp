@@ -267,116 +267,116 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean isReadOnly
     [[deprecated("Use field access instead!")]] bool& dyn_isReadOnly();
     // public System.Boolean get_Async()
-    // Offset: 0x27A51C4
+    // Offset: 0x27B73FC
     bool get_Async();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x27A51CC
+    // Offset: 0x27B7404
     ::System::Text::Encoding* get_Encoding();
     // public System.Boolean get_OmitXmlDeclaration()
-    // Offset: 0x27A51D4
+    // Offset: 0x27B740C
     bool get_OmitXmlDeclaration();
     // public System.Void set_OmitXmlDeclaration(System.Boolean value)
-    // Offset: 0x27A51DC
+    // Offset: 0x27B7414
     void set_OmitXmlDeclaration(bool value);
     // public System.Xml.NewLineHandling get_NewLineHandling()
-    // Offset: 0x27A531C
+    // Offset: 0x27B7554
     ::System::Xml::NewLineHandling get_NewLineHandling();
     // public System.String get_NewLineChars()
-    // Offset: 0x27A5324
+    // Offset: 0x27B755C
     ::StringW get_NewLineChars();
     // public System.Boolean get_Indent()
-    // Offset: 0x27A532C
+    // Offset: 0x27B7564
     bool get_Indent();
     // public System.Void set_Indent(System.Boolean value)
-    // Offset: 0x27A533C
+    // Offset: 0x27B7574
     void set_Indent(bool value);
     // public System.String get_IndentChars()
-    // Offset: 0x27A53AC
+    // Offset: 0x27B75E4
     ::StringW get_IndentChars();
     // public System.Boolean get_NewLineOnAttributes()
-    // Offset: 0x27A53B4
+    // Offset: 0x27B75EC
     bool get_NewLineOnAttributes();
     // public System.Boolean get_CloseOutput()
-    // Offset: 0x27A53BC
+    // Offset: 0x27B75F4
     bool get_CloseOutput();
     // public System.Xml.ConformanceLevel get_ConformanceLevel()
-    // Offset: 0x27A53C4
+    // Offset: 0x27B75FC
     ::System::Xml::ConformanceLevel get_ConformanceLevel();
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x27A53CC
+    // Offset: 0x27B7604
     void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
     // public System.Boolean get_CheckCharacters()
-    // Offset: 0x27A5474
+    // Offset: 0x27B76AC
     bool get_CheckCharacters();
     // public System.Xml.NamespaceHandling get_NamespaceHandling()
-    // Offset: 0x27A547C
+    // Offset: 0x27B76B4
     ::System::Xml::NamespaceHandling get_NamespaceHandling();
     // public System.Void set_NamespaceHandling(System.Xml.NamespaceHandling value)
-    // Offset: 0x27A5484
+    // Offset: 0x27B76BC
     void set_NamespaceHandling(::System::Xml::NamespaceHandling value);
     // public System.Boolean get_WriteEndDocumentOnClose()
-    // Offset: 0x27A552C
+    // Offset: 0x27B7764
     bool get_WriteEndDocumentOnClose();
     // public System.Xml.XmlOutputMethod get_OutputMethod()
-    // Offset: 0x27A5534
+    // Offset: 0x27B776C
     ::System::Xml::XmlOutputMethod get_OutputMethod();
     // System.Void set_OutputMethod(System.Xml.XmlOutputMethod value)
-    // Offset: 0x27A553C
+    // Offset: 0x27B7774
     void set_OutputMethod(::System::Xml::XmlOutputMethod value);
     // System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> get_CDataSectionElements()
-    // Offset: 0x27A55FC
+    // Offset: 0x27B7834
     ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
     // public System.Boolean get_DoNotEscapeUriAttributes()
-    // Offset: 0x27A5604
+    // Offset: 0x27B783C
     bool get_DoNotEscapeUriAttributes();
     // System.Boolean get_MergeCDataSections()
-    // Offset: 0x27A560C
+    // Offset: 0x27B7844
     bool get_MergeCDataSections();
     // System.String get_MediaType()
-    // Offset: 0x27A5614
+    // Offset: 0x27B784C
     ::StringW get_MediaType();
     // System.String get_DocTypeSystem()
-    // Offset: 0x27A561C
+    // Offset: 0x27B7854
     ::StringW get_DocTypeSystem();
     // System.String get_DocTypePublic()
-    // Offset: 0x27A5624
+    // Offset: 0x27B785C
     ::StringW get_DocTypePublic();
     // System.Xml.XmlStandalone get_Standalone()
-    // Offset: 0x27A562C
+    // Offset: 0x27B7864
     ::System::Xml::XmlStandalone get_Standalone();
     // System.Boolean get_AutoXmlDeclaration()
-    // Offset: 0x27A5634
+    // Offset: 0x27B786C
     bool get_AutoXmlDeclaration();
     // System.Xml.TriState get_IndentInternal()
-    // Offset: 0x27A563C
+    // Offset: 0x27B7874
     ::System::Xml::TriState get_IndentInternal();
     // System.Boolean get_IsQuerySpecific()
-    // Offset: 0x27A5644
+    // Offset: 0x27B787C
     bool get_IsQuerySpecific();
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x27A56BC
+    // Offset: 0x27B78F4
     void set_ReadOnly(bool value);
     // public System.Void .ctor()
-    // Offset: 0x27A49C0
+    // Offset: 0x27B6BF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWriterSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWriterSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWriterSettings*, creationType>()));
     }
     // public System.Xml.XmlWriterSettings Clone()
-    // Offset: 0x27A5544
+    // Offset: 0x27B777C
     ::System::Xml::XmlWriterSettings* Clone();
     // System.Xml.XmlWriter CreateWriter(System.IO.Stream output)
-    // Offset: 0x27A4A38
+    // Offset: 0x27B6C70
     ::System::Xml::XmlWriter* CreateWriter(::System::IO::Stream* output);
     // System.Xml.XmlWriter CreateWriter(System.IO.TextWriter output)
-    // Offset: 0x27A4E70
+    // Offset: 0x27B70A8
     ::System::Xml::XmlWriter* CreateWriter(::System::IO::TextWriter* output);
     // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x27A5244
+    // Offset: 0x27B747C
     void CheckReadOnly(::StringW propertyName);
     // private System.Void Initialize()
-    // Offset: 0x27A50FC
+    // Offset: 0x27B7334
     void Initialize();
   }; // System.Xml.XmlWriterSettings
   #pragma pack(pop)

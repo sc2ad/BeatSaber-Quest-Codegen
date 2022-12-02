@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _worldToPlayerSpaceRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__worldToPlayerSpaceRotation();
     // public UnityEngine.Quaternion get_worldToPlayerSpaceRotation()
-    // Offset: 0x1576B0C
+    // Offset: 0x1580B24
     ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
     // public System.Void .ctor()
-    // Offset: 0x1576BD4
+    // Offset: 0x1580BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpaceConvertor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpaceConvertor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpaceConvertor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1576B18
+    // Offset: 0x1580B30
     void Start();
   }; // PlayerSpaceConvertor
   #pragma pack(pop)

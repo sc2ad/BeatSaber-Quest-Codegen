@@ -3,7 +3,6 @@
 // =========================================================================
 #pragma once
 // Begin includes
-#include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IBeatmapDataBasicInfo
 #include "GlobalNamespace/IBeatmapDataBasicInfo.hpp"
@@ -11,7 +10,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -106,16 +104,6 @@ namespace GlobalNamespace {
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method, subtypeGroupIdentifier);
     }
-    // public System.Collections.Generic.IEnumerable`1<T> GetBeatmapDataItemsMerged(params System.Int32[] subtypeGroupIdentifiers)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    template<class T>
-    ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItemsMerged(::ArrayW<int> subtypeGroupIdentifiers) {
-      static_assert(std::is_convertible_v<T, ::GlobalNamespace::BeatmapDataItem*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReadonlyBeatmapData::GetBeatmapDataItemsMerged");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBeatmapDataItemsMerged", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subtypeGroupIdentifiers)})));
-      auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method, subtypeGroupIdentifiers);
-    }
     // public BeatmapData GetCopy()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BeatmapData* GetCopy();
@@ -198,9 +186,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 };
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetBeatmapDataItems
 // Il2CppName: GetBeatmapDataItems
-// Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetBeatmapDataItemsMerged
-// Il2CppName: GetBeatmapDataItemsMerged
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopy
 // Il2CppName: GetCopy

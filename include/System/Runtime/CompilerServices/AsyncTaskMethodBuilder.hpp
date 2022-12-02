@@ -81,13 +81,13 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult>& dyn_m_builder();
     // public System.Threading.Tasks.Task get_Task()
-    // Offset: 0x1E00290
+    // Offset: 0x1E0C3DC
     ::System::Threading::Tasks::Task* get_Task();
     // static private System.Void .cctor()
-    // Offset: 0x1E003BC
+    // Offset: 0x1E0C508
     static void _cctor();
     // static public System.Runtime.CompilerServices.AsyncTaskMethodBuilder Create()
-    // Offset: 0x1E00224
+    // Offset: 0x1E0C370
     static ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -100,7 +100,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(stateMachine));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1E00230
+    // Offset: 0x1E0C37C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -125,10 +125,10 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
     }
     // public System.Void SetResult()
-    // Offset: 0x1E002E0
+    // Offset: 0x1E0C42C
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0x1E0035C
+    // Offset: 0x1E0C4A8
     void SetException(::System::Exception* exception);
   }; // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
   // WARNING Not writing size check since size may be invalid!

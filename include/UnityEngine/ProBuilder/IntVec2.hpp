@@ -62,35 +62,35 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector2 value
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x20835AC
+    // Offset: 0x20904B8
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x20835B4
+    // Offset: 0x20904C0
     float get_y();
     // public System.Void .ctor(UnityEngine.Vector2 vector)
-    // Offset: 0x20835BC
+    // Offset: 0x20904C8
     // ABORTED: conflicts with another method.  IntVec2(::UnityEngine::Vector2 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec2 p)
-    // Offset: 0x2083690
+    // Offset: 0x209059C
     bool Equals(::UnityEngine::ProBuilder::IntVec2 p);
     // public System.Boolean Equals(UnityEngine.Vector2 p)
-    // Offset: 0x20837AC
+    // Offset: 0x20906B8
     bool Equals(::UnityEngine::Vector2 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x2083734
+    // Offset: 0x2090640
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x20835C4
+    // Offset: 0x20904D0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x208381C
+    // Offset: 0x2090728
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x20838E0
+    // Offset: 0x20907EC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -99,10 +99,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec2), 0 + sizeof(::UnityEngine::Vector2)> __UnityEngine_ProBuilder_IntVec2SizeCheck;
   static_assert(sizeof(IntVec2) == 0x8);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x2083660
+  // Offset: 0x209056C
   bool operator ==(const ::UnityEngine::ProBuilder::IntVec2& a, const ::UnityEngine::ProBuilder::IntVec2& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec2 a, UnityEngine.ProBuilder.IntVec2 b)
-  // Offset: 0x2083700
+  // Offset: 0x209060C
   bool operator !=(const ::UnityEngine::ProBuilder::IntVec2& a, const ::UnityEngine::ProBuilder::IntVec2& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

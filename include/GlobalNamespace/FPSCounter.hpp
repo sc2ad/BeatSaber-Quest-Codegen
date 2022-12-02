@@ -89,41 +89,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minDeltaTime
     [[deprecated("Use field access instead!")]] float& dyn__minDeltaTime();
     // public System.Int32 get_currentFPS()
-    // Offset: 0x138754C
+    // Offset: 0x138E378
     int get_currentFPS();
     // private System.Void set_currentFPS(System.Int32 value)
-    // Offset: 0x1387554
+    // Offset: 0x138E380
     void set_currentFPS(int value);
     // public System.Int32 get_lowestFPS()
-    // Offset: 0x138755C
+    // Offset: 0x138E388
     int get_lowestFPS();
     // private System.Void set_lowestFPS(System.Int32 value)
-    // Offset: 0x1387564
+    // Offset: 0x138E390
     void set_lowestFPS(int value);
     // public System.Int32 get_highestFPS()
-    // Offset: 0x138756C
+    // Offset: 0x138E398
     int get_highestFPS();
     // private System.Void set_highestFPS(System.Int32 value)
-    // Offset: 0x1387574
+    // Offset: 0x138E3A0
     void set_highestFPS(int value);
     // public System.Int32 get_droppedFrames()
-    // Offset: 0x138757C
+    // Offset: 0x138E3A8
     int get_droppedFrames();
     // private System.Void set_droppedFrames(System.Int32 value)
-    // Offset: 0x1387584
+    // Offset: 0x138E3B0
     void set_droppedFrames(int value);
     // public System.Void .ctor()
-    // Offset: 0x13876FC
+    // Offset: 0x138E528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FPSCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FPSCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FPSCounter*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x138758C
+    // Offset: 0x138E3B8
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x138759C
+    // Offset: 0x138E3C8
     void Update();
   }; // FPSCounter
   #pragma pack(pop)

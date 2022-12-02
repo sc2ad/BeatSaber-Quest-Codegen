@@ -35,37 +35,37 @@ namespace NUnit::Framework::Constraints {
   class Numerics : public ::Il2CppObject {
     public:
     // static public System.Boolean IsNumericType(System.Object obj)
-    // Offset: 0x1D49454
+    // Offset: 0x1D535A0
     static bool IsNumericType(::Il2CppObject* obj);
     // static public System.Boolean IsFloatingPointNumeric(System.Object obj)
-    // Offset: 0x1D4A65C
+    // Offset: 0x1D547A8
     static bool IsFloatingPointNumeric(::Il2CppObject* obj);
     // static public System.Boolean IsFixedPointNumeric(System.Object obj)
-    // Offset: 0x1D4A6D4
+    // Offset: 0x1D54820
     static bool IsFixedPointNumeric(::Il2CppObject* obj);
     // static public System.Boolean AreEqual(System.Object expected, System.Object actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4948C
+    // Offset: 0x1D535D8
     static bool AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual, ByRef<::NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Double expected, System.Double actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4A7EC
+    // Offset: 0x1D54938
     static bool AreEqual(double expected, double actual, ByRef<::NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Single expected, System.Single actual, ref NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4AB4C
+    // Offset: 0x1D54C98
     static bool AreEqual(float expected, float actual, ByRef<::NUnit::Framework::Constraints::Tolerance*> tolerance);
     // static private System.Boolean AreEqual(System.Decimal expected, System.Decimal actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4AE40
+    // Offset: 0x1D54F8C
     static bool AreEqual(::System::Decimal expected, ::System::Decimal actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.UInt64 expected, System.UInt64 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4B148
+    // Offset: 0x1D55294
     static bool AreEqual(uint64_t expected, uint64_t actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.Int64 expected, System.Int64 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4B30C
+    // Offset: 0x1D55458
     static bool AreEqual(int64_t expected, int64_t actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.UInt32 expected, System.UInt32 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4B4D4
+    // Offset: 0x1D55620
     static bool AreEqual(uint expected, uint actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
     // static private System.Boolean AreEqual(System.Int32 expected, System.Int32 actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x1D4B698
+    // Offset: 0x1D557E4
     static bool AreEqual(int expected, int actual, ::NUnit::Framework::Constraints::Tolerance* tolerance);
   }; // NUnit.Framework.Constraints.Numerics
   #pragma pack(pop)

@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Rigidbody2D _rigidbody2D
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rigidbody2D*& dyn__rigidbody2D();
     // public System.Void .ctor()
-    // Offset: 0x2AB4080
+    // Offset: 0x2AC42B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SleepRigidbody2DWhenInvisible* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SleepRigidbody2DWhenInvisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SleepRigidbody2DWhenInvisible*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2AB4060
+    // Offset: 0x2AC4298
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x2AB4064
+    // Offset: 0x2AC429C
     void OnBecameInvisible();
   }; // SleepRigidbody2DWhenInvisible
   #pragma pack(pop)

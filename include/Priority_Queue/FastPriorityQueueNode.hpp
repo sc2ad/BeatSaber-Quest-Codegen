@@ -45,19 +45,19 @@ namespace Priority_Queue {
     // Get instance field reference: private System.Int32 <QueueIndex>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$QueueIndex$k__BackingField();
     // public System.Single get_Priority()
-    // Offset: 0x1415CDC
+    // Offset: 0x141CF80
     float get_Priority();
     // protected internal System.Void set_Priority(System.Single value)
-    // Offset: 0x1415CE4
+    // Offset: 0x141CF88
     void set_Priority(float value);
     // public System.Int32 get_QueueIndex()
-    // Offset: 0x1415CEC
+    // Offset: 0x141CF90
     int get_QueueIndex();
     // System.Void set_QueueIndex(System.Int32 value)
-    // Offset: 0x1415CF4
+    // Offset: 0x141CF98
     void set_QueueIndex(int value);
     // public System.Void .ctor()
-    // Offset: 0x1415CFC
+    // Offset: 0x141CFA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastPriorityQueueNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::FastPriorityQueueNode::.ctor");

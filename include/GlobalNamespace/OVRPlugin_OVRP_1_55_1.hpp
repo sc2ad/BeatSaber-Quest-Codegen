@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B6AC70
+    // Offset: 0x1B75C90
     static void _cctor();
     // static public OVRPlugin/Result ovrp_PollEvent2(ref OVRPlugin/EventType eventType, ref System.IntPtr eventData)
-    // Offset: 0x1B6ABE0
+    // Offset: 0x1B75C00
     static ::GlobalNamespace::OVRPlugin::Result ovrp_PollEvent2(ByRef<::GlobalNamespace::OVRPlugin::EventType> eventType, ByRef<::System::IntPtr> eventData);
   }; // OVRPlugin/OVRP_1_55_1
   #pragma pack(pop)

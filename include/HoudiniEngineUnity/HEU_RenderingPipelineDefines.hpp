@@ -41,32 +41,32 @@ namespace HoudiniEngineUnity {
   class HEU_RenderingPipelineDefines : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x1B31568
+    // Offset: 0x1B2811C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B3188C
+    // Offset: 0x1B28440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_RenderingPipelineDefines* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_RenderingPipelineDefines::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_RenderingPipelineDefines*, creationType>()));
     }
     // static private System.Void UpdateDefines()
-    // Offset: 0x1B3156C
+    // Offset: 0x1B28120
     static void UpdateDefines();
     // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
-    // Offset: 0x1B2E1C4
+    // Offset: 0x1B24D78
     static ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
     // static private System.Void AddDefine(System.String define)
-    // Offset: 0x1B3168C
+    // Offset: 0x1B28240
     static void AddDefine(::StringW define);
     // static public System.Void RemoveDefine(System.String define)
-    // Offset: 0x1B31758
+    // Offset: 0x1B2830C
     static void RemoveDefine(::StringW define);
     // static public System.Collections.Generic.List`1<System.String> GetDefines()
-    // Offset: 0x1B31824
+    // Offset: 0x1B283D8
     static ::System::Collections::Generic::List_1<::StringW>* GetDefines();
     // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
-    // Offset: 0x1B31888
+    // Offset: 0x1B2843C
     static void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
   }; // HoudiniEngineUnity.HEU_RenderingPipelineDefines
   #pragma pack(pop)

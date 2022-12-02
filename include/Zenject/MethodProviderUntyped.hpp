@@ -81,23 +81,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,System.Object> _method
     [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::Il2CppObject*>*& dyn__method();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1CAF128
+    // Offset: 0x1CB9274
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1CAF130
+    // Offset: 0x1CB927C
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,System.Object> method, Zenject.DiContainer container)
-    // Offset: 0x1CAF0F0
+    // Offset: 0x1CB923C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Il2CppObject*>* method, ::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MethodProviderUntyped::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodProviderUntyped*, creationType>(method, container)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1CAF138
+    // Offset: 0x1CB9284
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1CAF154
+    // Offset: 0x1CB92A0
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.MethodProviderUntyped
   #pragma pack(pop)

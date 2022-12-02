@@ -57,16 +57,16 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private readonly UnityEngine.EventSystems.EventSystem m_EventSystem
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventSystem*& dyn_m_EventSystem();
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0x194A1A4
+    // Offset: 0x19520CC
     ::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0x194A1C0
+    // Offset: 0x19520E8
     ::UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0x194A1DC
+    // Offset: 0x1952104
     void set_selectedObject(::UnityEngine::GameObject* value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x194A178
+    // Offset: 0x19520A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::BaseEventData::.ctor");

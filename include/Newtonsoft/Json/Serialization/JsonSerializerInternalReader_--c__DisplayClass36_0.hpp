@@ -46,14 +46,14 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty property
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_property();
     // public System.Void .ctor()
-    // Offset: 0x1DEA5A8
+    // Offset: 0x1DF56F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalReader::$$c__DisplayClass36_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::$$c__DisplayClass36_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerInternalReader::$$c__DisplayClass36_0*, creationType>()));
     }
     // System.Boolean <CreateObjectUsingCreatorWithParameters>b__1(Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.CreatorPropertyContext p)
-    // Offset: 0x1DEB0D4
+    // Offset: 0x1DF6220
     bool $CreateObjectUsingCreatorWithParameters$b__1(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext* p);
   }; // Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.<>c__DisplayClass36_0
   #pragma pack(pop)

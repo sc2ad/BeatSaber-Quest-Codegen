@@ -30,24 +30,24 @@ namespace System::Xml {
   class SafeAsciiDecoder : public ::System::Text::Decoder {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AE43C4
+    // Offset: 0x1AEF3AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeAsciiDecoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::SafeAsciiDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeAsciiDecoder*, creationType>()));
     }
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1AE43CC
+    // Offset: 0x1AEF3B4
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1AE43D4
+    // Offset: 0x1AEF3BC
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Void Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
-    // Offset: 0x1AE4454
+    // Offset: 0x1AEF43C
     // Implemented from: System.Text.Decoder
     // Base method: System.Void Decoder::Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
     void Convert(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, bool flush, ByRef<int> bytesUsed, ByRef<int> charsUsed, ByRef<bool> completed);

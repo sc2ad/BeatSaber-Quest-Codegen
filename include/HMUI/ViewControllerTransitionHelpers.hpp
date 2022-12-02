@@ -79,29 +79,29 @@ namespace HMUI {
     // Set static field: static private System.Single kVerticalTransitionMoveOffset
     static void _set_kVerticalTransitionMoveOffset(float value);
     // public System.Void .ctor()
-    // Offset: 0x2AC1518
+    // Offset: 0x2AD1750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers*, creationType>()));
     }
     // static public System.Collections.IEnumerator DoPresentTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
-    // Offset: 0x2AC0D28
+    // Offset: 0x2AD0F60
     static ::System::Collections::IEnumerator* DoPresentTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, ::HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static public System.Collections.IEnumerator DoDismissTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
-    // Offset: 0x2AC0904
+    // Offset: 0x2AD0B3C
     static ::System::Collections::IEnumerator* DoDismissTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, ::HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoHorizontalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
-    // Offset: 0x2AC130C
+    // Offset: 0x2AD1544
     static ::System::Collections::IEnumerator* DoHorizontalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoVerticalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
-    // Offset: 0x2AC13C4
+    // Offset: 0x2AD15FC
     static ::System::Collections::IEnumerator* DoVerticalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static public System.Void ImmediateTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController)
-    // Offset: 0x2AC0998
+    // Offset: 0x2AD0BD0
     static void ImmediateTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController);
     // static private System.Collections.IEnumerator AnimationCoroutine(System.Action`1<System.Single> transitionAnimation)
-    // Offset: 0x2AC147C
+    // Offset: 0x2AD16B4
     static ::System::Collections::IEnumerator* AnimationCoroutine(::System::Action_1<float>* transitionAnimation);
   }; // HMUI.ViewControllerTransitionHelpers
   #pragma pack(pop)

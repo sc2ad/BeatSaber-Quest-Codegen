@@ -74,19 +74,19 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     [[deprecated("Use field access instead!")]] ::Zenject::GameObjectCreationParameters*& dyn__gameObjectBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x17ADF04
+    // Offset: 0x17B1E40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToNewGameObjectComponentProvider* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToNewGameObjectComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToNewGameObjectComponentProvider*, creationType>(container, componentType, extraArguments, gameObjectBindInfo, concreteIdentifier, instantiateCallback)));
     }
     // protected override System.Boolean get_ShouldToggleActive()
-    // Offset: 0x17ADF34
+    // Offset: 0x17B1E70
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: System.Boolean AddToGameObjectComponentProviderBase::get_ShouldToggleActive()
     bool get_ShouldToggleActive();
     // protected override UnityEngine.GameObject GetGameObject(Zenject.InjectContext context)
-    // Offset: 0x17ADF3C
+    // Offset: 0x17B1E78
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     ::UnityEngine::GameObject* GetGameObject(::Zenject::InjectContext* context);

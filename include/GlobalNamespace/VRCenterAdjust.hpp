@@ -68,35 +68,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // public System.Void .ctor()
-    // Offset: 0x162A7D8
+    // Offset: 0x1664BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRCenterAdjust* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRCenterAdjust::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRCenterAdjust*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x162A294
+    // Offset: 0x1664660
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x162A2F8
+    // Offset: 0x16646C4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x162A4C8
+    // Offset: 0x1664894
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x162A5A0
+    // Offset: 0x166496C
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x162A678
+    // Offset: 0x1664A44
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x162A6F0
+    // Offset: 0x1664ABC
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x162A79C
+    // Offset: 0x1664B68
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x162A41C
+    // Offset: 0x16647E8
     void ResetRoom();
   }; // VRCenterAdjust
   #pragma pack(pop)

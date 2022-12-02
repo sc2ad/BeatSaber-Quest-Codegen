@@ -113,35 +113,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x13F05F8
+    // Offset: 0x13F7654
     ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13F04B0
+    // Offset: 0x13F750C
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x13F0554
+    // Offset: 0x13F75B0
     void remove_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x13F0878
+    // Offset: 0x13F78D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JoinQuickPlayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::JoinQuickPlayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoinQuickPlayViewController*, creationType>()));
     }
     // public System.Void Setup(QuickPlaySetupData quickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x13F0600
+    // Offset: 0x13F765C
     void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x13F07B8
+    // Offset: 0x13F7814
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__12_0()
-    // Offset: 0x13F0880
+    // Offset: 0x13F78DC
     void $DidActivate$b__12_0();
     // private System.Void <DidActivate>b__12_1()
-    // Offset: 0x13F0888
+    // Offset: 0x13F78E4
     void $DidActivate$b__12_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13F069C
+    // Offset: 0x13F76F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

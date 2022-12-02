@@ -40,22 +40,22 @@ namespace System::Xml {
   class XmlComment : public ::System::Xml::XmlCharacterData {
     public:
     // public override System.String get_Name()
-    // Offset: 0x1C28188
+    // Offset: 0x1C358FC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1C281B4
+    // Offset: 0x1C35928
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1C281E0
+    // Offset: 0x1C35954
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // protected internal System.Void .ctor(System.String comment, System.Xml.XmlDocument doc)
-    // Offset: 0x1C28158
+    // Offset: 0x1C358CC
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::.ctor(System.String comment, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,7 +64,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlComment*, creationType>(comment, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1C281E8
+    // Offset: 0x1C3595C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

@@ -104,59 +104,59 @@ namespace System::IO::Compression {
     // Get instance field reference: private System.Byte[] io_buffer
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_io_buffer();
     // private System.Void .ctor()
-    // Offset: 0x1D80204
+    // Offset: 0x1D8B350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeflateStreamNative* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Compression::DeflateStreamNative::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeflateStreamNative*, creationType>()));
     }
     // static public System.IO.Compression.DeflateStreamNative Create(System.IO.Stream compressedStream, System.IO.Compression.CompressionMode mode, System.Boolean gzip)
-    // Offset: 0x1D7E474
+    // Offset: 0x1D895C0
     static ::System::IO::Compression::DeflateStreamNative* Create(::System::IO::Stream* compressedStream, ::System::IO::Compression::CompressionMode mode, bool gzip);
     // public System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1D7E618
+    // Offset: 0x1D89764
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1D7ECE8
+    // Offset: 0x1D89E34
     void Flush();
     // public System.Int32 ReadZStream(System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D7E72C
+    // Offset: 0x1D89878
     int ReadZStream(::System::IntPtr buffer, int length);
     // public System.Void WriteZStream(System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D7E9C0
+    // Offset: 0x1D89B0C
     void WriteZStream(::System::IntPtr buffer, int length);
     // static private System.Int32 UnmanagedRead(System.IntPtr buffer, System.Int32 length, System.IntPtr data)
-    // Offset: 0x1D8006C
+    // Offset: 0x1D8B1B8
     static int UnmanagedRead(::System::IntPtr buffer, int length, ::System::IntPtr data);
     // private System.Int32 UnmanagedRead(System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D80564
+    // Offset: 0x1D8B6B0
     int UnmanagedRead(::System::IntPtr buffer, int length);
     // static private System.Int32 UnmanagedWrite(System.IntPtr buffer, System.Int32 length, System.IntPtr data)
-    // Offset: 0x1D80138
+    // Offset: 0x1D8B284
     static int UnmanagedWrite(::System::IntPtr buffer, int length, ::System::IntPtr data);
     // private System.Int32 UnmanagedWrite(System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D80684
+    // Offset: 0x1D8B7D0
     int UnmanagedWrite(::System::IntPtr buffer, int length);
     // static private System.Void CheckResult(System.Int32 result, System.String where)
-    // Offset: 0x1D80398
+    // Offset: 0x1D8B4E4
     static void CheckResult(int result, ::StringW where);
     // static private System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle CreateZStream(System.IO.Compression.CompressionMode compress, System.Boolean gzip, System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder, System.IntPtr data)
-    // Offset: 0x1D8021C
+    // Offset: 0x1D8B368
     static ::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* CreateZStream(::System::IO::Compression::CompressionMode compress, bool gzip, ::System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite* feeder, ::System::IntPtr data);
     // static private System.Int32 CloseZStream(System.IntPtr stream)
-    // Offset: 0x1D8082C
+    // Offset: 0x1D8B978
     static int CloseZStream(::System::IntPtr stream);
     // static private System.Int32 Flush(System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle stream)
-    // Offset: 0x1D80328
+    // Offset: 0x1D8B474
     static int Flush(::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* stream);
     // static private System.Int32 ReadZStream(System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle stream, System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D80464
+    // Offset: 0x1D8B5B0
     static int ReadZStream(::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int length);
     // static private System.Int32 WriteZStream(System.IO.Compression.DeflateStreamNative/System.IO.Compression.SafeDeflateStreamHandle stream, System.IntPtr buffer, System.Int32 length)
-    // Offset: 0x1D804E4
+    // Offset: 0x1D8B630
     static int WriteZStream(::System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int length);
     // protected override System.Void Finalize()
-    // Offset: 0x1D802BC
+    // Offset: 0x1D8B408
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

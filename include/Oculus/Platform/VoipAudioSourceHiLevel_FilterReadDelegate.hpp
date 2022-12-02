@@ -47,17 +47,17 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.Single[] scratchBuffer
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_scratchBuffer();
     // public System.Void .ctor()
-    // Offset: 0x2AFE384
+    // Offset: 0x2B0C5BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipAudioSourceHiLevel::FilterReadDelegate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipAudioSourceHiLevel::FilterReadDelegate*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x2AFDE04
+    // Offset: 0x2B0C03C
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x2AFDEBC
+    // Offset: 0x2B0C0F4
     void OnAudioFilterRead(::ArrayW<float> data, int channels);
   }; // Oculus.Platform.VoipAudioSourceHiLevel/Oculus.Platform.FilterReadDelegate
   #pragma pack(pop)

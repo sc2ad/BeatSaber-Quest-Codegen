@@ -57,26 +57,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _stackTrace
     [[deprecated("Use field access instead!")]] ::StringW& dyn__stackTrace();
     // public System.String get_logString()
-    // Offset: 0x142CCD0
+    // Offset: 0x1433F74
     ::StringW get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x142CCD8
+    // Offset: 0x1433F7C
     ::StringW get_stackTrace();
     // public System.Void .ctor()
-    // Offset: 0x142CE6C
+    // Offset: 0x1434110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrashManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CrashManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrashManagerSO*, creationType>()));
     }
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x142CCE0
+    // Offset: 0x1433F84
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x142CD54
+    // Offset: 0x1433FF8
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x142CDC8
+    // Offset: 0x143406C
     void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
   }; // CrashManagerSO
   #pragma pack(pop)

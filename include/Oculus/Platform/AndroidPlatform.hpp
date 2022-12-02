@@ -41,17 +41,17 @@ namespace Oculus::Platform {
   class AndroidPlatform : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2120310
+    // Offset: 0x212D21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidPlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::AndroidPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidPlatform*, creationType>()));
     }
     // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x2120044
+    // Offset: 0x212CF50
     bool Initialize(::StringW appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x2120190
+    // Offset: 0x212D09C
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
   }; // Oculus.Platform.AndroidPlatform
   #pragma pack(pop)

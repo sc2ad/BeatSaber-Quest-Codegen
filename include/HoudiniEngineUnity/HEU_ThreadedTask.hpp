@@ -107,74 +107,74 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: protected System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // public System.String get_TaskName()
-    // Offset: 0x1B3FB38
+    // Offset: 0x1B366EC
     ::StringW get_TaskName();
     // public System.Boolean get_IsComplete()
-    // Offset: 0x1B3F7D4
+    // Offset: 0x1B36388
     bool get_IsComplete();
     // public System.Void set_IsComplete(System.Boolean value)
-    // Offset: 0x1B3F6F4
+    // Offset: 0x1B362A8
     void set_IsComplete(bool value);
     // public System.Boolean get_IsActive()
-    // Offset: 0x1B3F270
+    // Offset: 0x1B35E24
     bool get_IsActive();
     // public System.Void set_IsActive(System.Boolean value)
-    // Offset: 0x1B3F660
+    // Offset: 0x1B36214
     void set_IsActive(bool value);
     // public System.Boolean get_StopRequested()
-    // Offset: 0x1B3FA64
+    // Offset: 0x1B36618
     bool get_StopRequested();
     // public System.Void set_StopRequested(System.Boolean value)
-    // Offset: 0x1B3F868
+    // Offset: 0x1B3641C
     void set_StopRequested(bool value);
     // public System.Threading.ThreadPriority get_Priority()
-    // Offset: 0x1B3FB40
+    // Offset: 0x1B366F4
     ::System::Threading::ThreadPriority get_Priority();
     // public System.Void set_Priority(System.Threading.ThreadPriority value)
-    // Offset: 0x1B3FB48
+    // Offset: 0x1B366FC
     void set_Priority(::System::Threading::ThreadPriority value);
     // public System.Boolean get_IsBackground()
-    // Offset: 0x1B3FB50
+    // Offset: 0x1B36704
     bool get_IsBackground();
     // public System.Void set_IsBackground(System.Boolean value)
-    // Offset: 0x1B3FB58
+    // Offset: 0x1B3670C
     void set_IsBackground(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1B3FB64
+    // Offset: 0x1B36718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTask* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadedTask*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x1B3F50C
+    // Offset: 0x1B360C0
     void Start();
     // public System.Void Stop()
-    // Offset: 0x1B3F788
+    // Offset: 0x1B3633C
     void Stop();
     // public System.Void Abort()
-    // Offset: 0x1B3F8FC
+    // Offset: 0x1B364B0
     void Abort();
     // public System.Void Reset()
-    // Offset: 0x1B3F940
+    // Offset: 0x1B364F4
     void Reset();
     // public System.Void Update()
-    // Offset: 0x1B3F9FC
+    // Offset: 0x1B365B0
     void Update();
     // protected System.Void DoWork()
-    // Offset: 0x1B3FAF8
+    // Offset: 0x1B366AC
     void DoWork();
     // protected System.Void OnComplete()
-    // Offset: 0x1B3FAFC
+    // Offset: 0x1B366B0
     void OnComplete();
     // protected System.Void OnStopped()
-    // Offset: 0x1B3FB00
+    // Offset: 0x1B366B4
     void OnStopped();
     // protected System.Void CleanUp()
-    // Offset: 0x1B3FB04
+    // Offset: 0x1B366B8
     void CleanUp();
     // private System.Void Run()
-    // Offset: 0x1B3FB08
+    // Offset: 0x1B366BC
     void Run();
   }; // HoudiniEngineUnity.HEU_ThreadedTask
   #pragma pack(pop)

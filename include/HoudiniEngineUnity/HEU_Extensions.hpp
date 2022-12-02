@@ -110,7 +110,7 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self, other);
     }
     // static public System.Boolean ApproximatelyEquals(UnityEngine.Quaternion quatA, UnityEngine.Quaternion value)
-    // Offset: 0x17C77D0
+    // Offset: 0x17CB70C
     static bool ApproximatelyEquals(::UnityEngine::Quaternion quatA, ::UnityEngine::Quaternion value);
     // static public System.Collections.Generic.List`1<U> ConvertList(System.Collections.Generic.List`1<T> self)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -140,31 +140,31 @@ namespace HoudiniEngineUnity {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, self);
     }
     // static public System.Boolean ApproximatelyEquals(System.Single self, System.Single other, System.Single epsilon)
-    // Offset: 0x17C78D4
+    // Offset: 0x17CB810
     static bool ApproximatelyEquals(float self, float other, float epsilon);
     // static public System.Byte[] AsByteArray(System.String self)
-    // Offset: 0x17C7958
+    // Offset: 0x17CB894
     static ::ArrayW<uint8_t> AsByteArray(::StringW self);
     // static public System.String AsString(System.Byte[] buffer)
-    // Offset: 0x17C79D8
+    // Offset: 0x17CB914
     static ::StringW AsString(::ArrayW<uint8_t> buffer);
     // static public UnityEngine.Vector3 SwapXAndY(UnityEngine.Vector3 self)
-    // Offset: 0x17C7A60
+    // Offset: 0x17CB99C
     static ::UnityEngine::Vector3 SwapXAndY(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 SwapXAndZ(UnityEngine.Vector3 self)
-    // Offset: 0x17C7A70
+    // Offset: 0x17CB9AC
     static ::UnityEngine::Vector3 SwapXAndZ(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 SwapYAndZ(UnityEngine.Vector3 self)
-    // Offset: 0x17C7A80
+    // Offset: 0x17CB9BC
     static ::UnityEngine::Vector3 SwapYAndZ(::UnityEngine::Vector3 self);
     // static public UnityEngine.Vector3 DecomposeToPosition(UnityEngine.Matrix4x4 self)
-    // Offset: 0x17C7A90
+    // Offset: 0x17CB9CC
     static ::UnityEngine::Vector3 DecomposeToPosition(::UnityEngine::Matrix4x4 self);
     // static public UnityEngine.Quaternion DecomposeToRotation(UnityEngine.Matrix4x4 self)
-    // Offset: 0x17C7B34
+    // Offset: 0x17CBA70
     static ::UnityEngine::Quaternion DecomposeToRotation(::UnityEngine::Matrix4x4 self);
     // static public UnityEngine.Vector3 DecomposeToScale(UnityEngine.Matrix4x4 self)
-    // Offset: 0x17C7C50
+    // Offset: 0x17CBB8C
     static ::UnityEngine::Vector3 DecomposeToScale(::UnityEngine::Matrix4x4 self);
   }; // HoudiniEngineUnity.HEU_Extensions
   #pragma pack(pop)

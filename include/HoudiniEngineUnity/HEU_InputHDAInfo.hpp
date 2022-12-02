@@ -70,17 +70,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _connectedInputNodeID
     [[deprecated("Use field access instead!")]] int& dyn__connectedInputNodeID();
     // public System.Void .ctor()
-    // Offset: 0x18955C0
+    // Offset: 0x189B4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputHDAInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputHDAInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputHDAInfo*, creationType>()));
     }
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputHDAInfo destInfo)
-    // Offset: 0x1895420
+    // Offset: 0x189B348
     void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputHDAInfo other)
-    // Offset: 0x189544C
+    // Offset: 0x189B374
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
   }; // HoudiniEngineUnity.HEU_InputHDAInfo
   #pragma pack(pop)

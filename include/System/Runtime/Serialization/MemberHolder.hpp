@@ -54,19 +54,19 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: System.Runtime.Serialization.StreamingContext context
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::StreamingContext& dyn_context();
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
-    // Offset: 0x16750EC
+    // Offset: 0x167BE8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::MemberHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberHolder*, creationType>(type, ctx)));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x167512C
+    // Offset: 0x167BECC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x167514C
+    // Offset: 0x167BEEC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

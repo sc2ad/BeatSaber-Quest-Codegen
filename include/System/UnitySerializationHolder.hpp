@@ -142,35 +142,35 @@ namespace System {
     // Get instance field reference: private System.Int32 m_unityType
     [[deprecated("Use field access instead!")]] int& dyn_m_unityType();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x222B290
+    // Offset: 0x223A19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::UnitySerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySerializationHolder*, creationType>(info, context)));
     }
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Reflection.Missing missing)
-    // Offset: 0x222AA40
+    // Offset: 0x223994C
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::Reflection::Missing* missing);
     // static System.RuntimeType AddElementTypes(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x222AAE4
+    // Offset: 0x22399F0
     static ::System::RuntimeType* AddElementTypes(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
     // System.Type MakeElementTypes(System.Type type)
-    // Offset: 0x222AD34
+    // Offset: 0x2239C40
     ::System::Type* MakeElementTypes(::System::Type* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x222AE34
+    // Offset: 0x2239D40
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Int32 unityType, System.String data, System.Reflection.RuntimeAssembly assembly)
-    // Offset: 0x222B144
+    // Offset: 0x223A050
     static void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int unityType, ::StringW data, ::System::Reflection::RuntimeAssembly* assembly);
     // private System.Void ThrowInsufficientInformation(System.String field)
-    // Offset: 0x222B594
+    // Offset: 0x223A4A0
     void ThrowInsufficientInformation(::StringW field);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x222B654
+    // Offset: 0x223A560
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x222B6D4
+    // Offset: 0x223A5E0
     ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
   }; // System.UnitySerializationHolder
   #pragma pack(pop)

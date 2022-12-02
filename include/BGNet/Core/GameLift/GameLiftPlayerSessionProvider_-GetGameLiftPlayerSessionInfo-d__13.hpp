@@ -199,10 +199,10 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__3
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x15B9D18
+    // Offset: 0x15C2C3C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15BA91C
+    // Offset: 0x15C3840
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<GetGameLiftPlayerSessionInfo>d__13
   // WARNING Not writing size check since size may be invalid!

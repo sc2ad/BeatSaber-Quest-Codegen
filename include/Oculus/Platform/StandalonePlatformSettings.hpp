@@ -28,25 +28,25 @@ namespace Oculus::Platform {
   class StandalonePlatformSettings : public ::Il2CppObject {
     public:
     // static public System.String get_OculusPlatformTestUserEmail()
-    // Offset: 0x2AFAB78
+    // Offset: 0x2B08DB0
     static ::StringW get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
-    // Offset: 0x2AFABC8
+    // Offset: 0x2B08E00
     static void set_OculusPlatformTestUserEmail(::StringW value);
     // static public System.String get_OculusPlatformTestUserPassword()
-    // Offset: 0x2AFABCC
+    // Offset: 0x2B08E04
     static ::StringW get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
-    // Offset: 0x2AFAC1C
+    // Offset: 0x2B08E54
     static void set_OculusPlatformTestUserPassword(::StringW value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
-    // Offset: 0x2AFAC20
+    // Offset: 0x2B08E58
     static ::StringW get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
-    // Offset: 0x2AFAC70
+    // Offset: 0x2B08EA8
     static void set_OculusPlatformTestUserAccessToken(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2AFAC74
+    // Offset: 0x2B08EAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandalonePlatformSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::StandalonePlatformSettings::.ctor");

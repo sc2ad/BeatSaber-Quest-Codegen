@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BoolSO* overrideAudioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111EAD4
+    // [SpaceAttribute] Offset: 0x111E864
     // private UnityEngine.CanvasGroup _setupCanvasGroup
     // Size: 0x8
     // Offset: 0x80
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::VisualMetronome* visualMetronome;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VisualMetronome*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111EB3C
+    // [SpaceAttribute] Offset: 0x111E8CC
     // private System.Single _disabledAlpha
     // Size: 0x4
     // Offset: 0xA0
@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledAlpha and: songPreviewPlayer
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x111EB74
+    // [InjectAttribute] Offset: 0x111E904
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0xA8
@@ -138,33 +138,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void .ctor()
-    // Offset: 0x153390C
+    // Offset: 0x153D838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioLatencyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioLatencyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioLatencyViewController*, creationType>()));
     }
     // private System.Void SliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1533818
+    // Offset: 0x153D744
     void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleOverrideAudioLatencyToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1533894
+    // Offset: 0x153D7C0
     void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
     // private System.Void RefreshVisuals(System.Boolean overrideAudioLatencyIsEnabled)
-    // Offset: 0x1533610
+    // Offset: 0x153D53C
     void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x153341C
+    // Offset: 0x153D348
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x153370C
+    // Offset: 0x153D638
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1533730
+    // Offset: 0x153D65C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

@@ -70,23 +70,23 @@ namespace System {
     // Get instance field reference: private System.Int32 _endIndex
     [[deprecated("Use field access instead!")]] int& dyn__endIndex();
     // public System.Object get_Current()
-    // Offset: 0x1F1600C
+    // Offset: 0x1F24158
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Array array)
-    // Offset: 0x1F155EC
+    // Offset: 0x1F23738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Array::ArrayEnumerator* New_ctor(::System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Array::ArrayEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Array::ArrayEnumerator*, creationType>(array)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1F15FD0
+    // Offset: 0x1F2411C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1F15FF8
+    // Offset: 0x1F24144
     void Reset();
     // public System.Object Clone()
-    // Offset: 0x1F16004
+    // Offset: 0x1F24150
     ::Il2CppObject* Clone();
   }; // System.Array/System.ArrayEnumerator
   #pragma pack(pop)

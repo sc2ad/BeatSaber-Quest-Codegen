@@ -47,20 +47,20 @@ namespace Mono::Security::Interface {
   class MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23A694C
+    // Offset: 0x23B4C18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoLocalCertificateSelectionCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoLocalCertificateSelectionCallback*, creationType>(object, method)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x23A695C
+    // Offset: 0x23B4C28
     ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23A6D9C
+    // Offset: 0x23B5068
     ::System::IAsyncResult* BeginInvoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Security.Cryptography.X509Certificates.X509Certificate EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23A6DD0
+    // Offset: 0x23B509C
     ::System::Security::Cryptography::X509Certificates::X509Certificate* EndInvoke(::System::IAsyncResult* result);
   }; // Mono.Security.Interface.MonoLocalCertificateSelectionCallback
   #pragma pack(pop)

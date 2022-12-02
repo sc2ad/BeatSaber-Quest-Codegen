@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
-    // Offset: 0x15712F8
+    // Offset: 0x157B310
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

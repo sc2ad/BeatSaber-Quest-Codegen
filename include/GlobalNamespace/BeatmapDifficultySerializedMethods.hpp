@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDifficultyUnknownSerializedName
     static void _set_kDifficultyUnknownSerializedName(::StringW value);
     // static public System.String SerializedName(BeatmapDifficulty difficulty)
-    // Offset: 0x27406C0
+    // Offset: 0x27508F8
     static ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
     // static public System.Boolean BeatmapDifficultyFromSerializedName(System.String name, out BeatmapDifficulty difficulty)
-    // Offset: 0x2740730
+    // Offset: 0x2750968
     static bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
   }; // BeatmapDifficultySerializedMethods
   #pragma pack(pop)

@@ -41,16 +41,16 @@ namespace Mono::Math::Prime::Generator {
   class PrimeGeneratorBase : public ::Il2CppObject {
     public:
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x239D754
+    // Offset: 0x23ABA20
     ::Mono::Math::Prime::ConfidenceFactor get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x239D75C
+    // Offset: 0x23ABA28
     ::Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x239D7D0
+    // Offset: 0x23ABA9C
     int get_TrialDivisionBounds();
     // protected System.Void .ctor()
-    // Offset: 0x239D7D8
+    // Offset: 0x23ABAA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrimeGeneratorBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::Prime::Generator::PrimeGeneratorBase::.ctor");

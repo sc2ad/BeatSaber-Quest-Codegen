@@ -71,13 +71,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly ByteArrayNetSerializable clientPublicKey
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_clientPublicKey();
     // static public PacketPool`1<BGNet.Core.Messages.ClientKeyExchangeRequest> get_pool()
-    // Offset: 0x15BC3AC
+    // Offset: 0x15C52D0
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ClientKeyExchangeRequest*>* get_pool();
     // public BGNet.Core.Messages.ClientKeyExchangeRequest Init(System.Byte[] clientPublicKey)
-    // Offset: 0x15BEB74
+    // Offset: 0x15C7A98
     ::BGNet::Core::Messages::ClientKeyExchangeRequest* Init(::ArrayW<uint8_t> clientPublicKey);
     // public System.Void .ctor()
-    // Offset: 0x15C47D4
+    // Offset: 0x15CD6F8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,17 +86,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ClientKeyExchangeRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C4704
+    // Offset: 0x15CD628
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C4738
+    // Offset: 0x15CD65C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x15C476C
+    // Offset: 0x15CD690
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

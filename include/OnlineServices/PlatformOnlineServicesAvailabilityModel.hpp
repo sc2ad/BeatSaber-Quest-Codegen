@@ -67,20 +67,20 @@ namespace OnlineServices {
     // Get instance field reference: private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>*& dyn_platformServicesAvailabilityInfoChangedEvent();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x13733AC
+    // Offset: 0x13791D8
     void add_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x1373450
+    // Offset: 0x137927C
     void remove_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13734F4
+    // Offset: 0x1379320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformOnlineServicesAvailabilityModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::PlatformOnlineServicesAvailabilityModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformOnlineServicesAvailabilityModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13732A0
+    // Offset: 0x13790CC
     ::System::Threading::Tasks::Task_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.PlatformOnlineServicesAvailabilityModel
   #pragma pack(pop)

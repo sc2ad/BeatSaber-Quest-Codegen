@@ -66,20 +66,20 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
     // public System.Void .ctor()
-    // Offset: 0x1D40228
+    // Offset: 0x1D4A374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestCaseBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestCaseBuilder*, creationType>()));
     }
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1D4095C
+    // Offset: 0x1D4AAA8
     ::NUnit::Framework::Internal::TestMethod* BuildTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite, ::NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
-    // Offset: 0x1D50614
+    // Offset: 0x1D5A760
     static bool CheckTestMethodSignature(::NUnit::Framework::Internal::TestMethod* testMethod, ::NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
-    // Offset: 0x1D50E20
+    // Offset: 0x1D5AF6C
     static bool MarkAsNotRunnable(::NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder
   #pragma pack(pop)

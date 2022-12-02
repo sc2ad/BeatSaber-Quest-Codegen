@@ -120,56 +120,56 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Comparison`1<UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32>> <>9__26_0
     static void _set_$$9__26_0(::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int, int>>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A72538
+    // Offset: 0x1A7C520
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A7259C
+    // Offset: 0x1A7C584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <GetPerimeterEdges>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A725A4
+    // Offset: 0x1A7C58C
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* $GetPerimeterEdges$b__4_0(::UnityEngine::ProBuilder::Face* x);
     // System.Boolean <GetPerimeterEdges>b__4_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> x)
-    // Offset: 0x1A725C0
+    // Offset: 0x1A7C5A8
     bool $GetPerimeterEdges$b__4_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
     // UnityEngine.ProBuilder.Edge <GetPerimeterEdges>b__4_2(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge>> x)
-    // Offset: 0x1A72614
+    // Offset: 0x1A7C5FC
     ::UnityEngine::ProBuilder::Edge $GetPerimeterEdges$b__4_2(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x);
     // System.Boolean <GetPerimeterFaces>b__6_0(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>> x)
-    // Offset: 0x1A72674
+    // Offset: 0x1A7C65C
     bool $GetPerimeterFaces$b__6_0(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
     // UnityEngine.ProBuilder.Face <GetPerimeterFaces>b__6_1(System.Collections.Generic.KeyValuePair`2<UnityEngine.ProBuilder.Edge,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face>> x)
-    // Offset: 0x1A726C8
+    // Offset: 0x1A7C6B0
     ::UnityEngine::ProBuilder::Face* $GetPerimeterFaces$b__6_1(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x);
     // UnityEngine.ProBuilder.Edge <GetEdgeRing>b__9_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A72728
+    // Offset: 0x1A7C710
     ::UnityEngine::ProBuilder::Edge $GetEdgeRing$b__9_0(::UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeRingIterative>b__10_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A72730
+    // Offset: 0x1A7C718
     ::UnityEngine::ProBuilder::Edge $GetEdgeRingIterative$b__10_0(::UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoop>b__11_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A72738
+    // Offset: 0x1A7C720
     ::UnityEngine::ProBuilder::Edge $GetEdgeLoop$b__11_0(::UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoopIterative>b__12_0(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A72740
+    // Offset: 0x1A7C728
     ::UnityEngine::ProBuilder::Edge $GetEdgeLoopIterative$b__12_0(::UnityEngine::ProBuilder::EdgeLookup x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoopInternal>b__13_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A72748
+    // Offset: 0x1A7C730
     ::UnityEngine::ProBuilder::Edge $GetEdgeLoopInternal$b__13_0(::UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoopInternalIterative>b__14_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A72760
+    // Offset: 0x1A7C748
     ::UnityEngine::ProBuilder::Edge $GetEdgeLoopInternalIterative$b__14_0(::UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <GetEdgeLoopInternalIterative>b__14_1(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A72778
+    // Offset: 0x1A7C760
     ::UnityEngine::ProBuilder::Edge $GetEdgeLoopInternalIterative$b__14_1(::UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <FindHoles>b__25_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A72790
+    // Offset: 0x1A7C778
     ::UnityEngine::ProBuilder::Edge $FindHoles$b__25_0(::UnityEngine::ProBuilder::WingedEdge* x);
     // System.Int32 <FindHoles>b__26_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32> x, UnityEngine.ProBuilder.SimpleTuple`2<System.Int32,System.Int32> y)
-    // Offset: 0x1A727A8
+    // Offset: 0x1A7C790
     int $FindHoles$b__26_0(::UnityEngine::ProBuilder::SimpleTuple_2<int, int> x, ::UnityEngine::ProBuilder::SimpleTuple_2<int, int> y);
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

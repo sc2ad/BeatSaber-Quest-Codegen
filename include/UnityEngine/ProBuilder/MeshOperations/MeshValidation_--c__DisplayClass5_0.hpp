@@ -55,14 +55,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0
     [[deprecated("Use field access instead!")]] ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*& dyn_$$9__0();
     // public System.Void .ctor()
-    // Offset: 0x1CEF4E8
+    // Offset: 0x1CF8634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshValidation::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Boolean <CollectFaceGroups>b__0(UnityEngine.ProBuilder.Triangle x)
-    // Offset: 0x1CF0754
+    // Offset: 0x1CF98A0
     bool $CollectFaceGroups$b__0(::UnityEngine::ProBuilder::Triangle x);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass5_0
   #pragma pack(pop)

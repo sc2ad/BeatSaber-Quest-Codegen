@@ -85,65 +85,65 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean isInstancer
     [[deprecated("Use field access instead!")]] bool& dyn_isInstancer();
     // public System.Boolean get_IsInstancer()
-    // Offset: 0x17D760C
+    // Offset: 0x17DB548
     bool get_IsInstancer();
     // public System.Void set_IsInstancer(System.Boolean value)
-    // Offset: 0x17D7614
+    // Offset: 0x17DB550
     void set_IsInstancer(bool value);
     // public System.Void .ctor()
-    // Offset: 0x17D83DC
+    // Offset: 0x17DC318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeneratedOutput* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneratedOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeneratedOutput*, creationType>()));
     }
     // static public System.Void ResetMaterialOverrides(HoudiniEngineUnity.HEU_GeneratedOutput output)
-    // Offset: 0x17D7620
+    // Offset: 0x17DB55C
     static void ResetMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutput* output);
     // static public System.Void ResetMaterialOverrides(HoudiniEngineUnity.HEU_GeneratedOutputData outputData)
-    // Offset: 0x17D7784
+    // Offset: 0x17DB6C0
     static void ResetMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
     // static public UnityEngine.Material[] GetGeneratedMaterialsForGameObject(HoudiniEngineUnity.HEU_GeneratedOutput output, UnityEngine.GameObject inGameObject)
-    // Offset: 0x17D7834
+    // Offset: 0x17DB770
     static ::ArrayW<::UnityEngine::Material*> GetGeneratedMaterialsForGameObject(::HoudiniEngineUnity::HEU_GeneratedOutput* output, ::UnityEngine::GameObject* inGameObject);
     // static public System.Boolean HasLODGroup(HoudiniEngineUnity.HEU_GeneratedOutput output)
-    // Offset: 0x17D7728
+    // Offset: 0x17DB664
     static bool HasLODGroup(::HoudiniEngineUnity::HEU_GeneratedOutput* output);
     // static public System.Boolean IsOutputUsingMaterial(UnityEngine.Material checkMaterial, HoudiniEngineUnity.HEU_GeneratedOutput output)
-    // Offset: 0x17D79CC
+    // Offset: 0x17DB908
     static bool IsOutputUsingMaterial(::UnityEngine::Material* checkMaterial, ::HoudiniEngineUnity::HEU_GeneratedOutput* output);
     // static public System.Boolean IsOutputDataUsingMaterial(UnityEngine.Material checkMaterial, HoudiniEngineUnity.HEU_GeneratedOutputData outputData)
-    // Offset: 0x17D7AF0
+    // Offset: 0x17DBA2C
     static bool IsOutputDataUsingMaterial(::UnityEngine::Material* checkMaterial, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
     // static public System.Void ClearGeneratedMaterialReferences(HoudiniEngineUnity.HEU_GeneratedOutputData generatedOutputData)
-    // Offset: 0x17D1E68
+    // Offset: 0x17D5DA4
     static void ClearGeneratedMaterialReferences(::HoudiniEngineUnity::HEU_GeneratedOutputData* generatedOutputData);
     // static public System.Void DestroyAllGeneratedColliders(HoudiniEngineUnity.HEU_GeneratedOutputData outputData)
-    // Offset: 0x17CFBC0
+    // Offset: 0x17D3AFC
     static void DestroyAllGeneratedColliders(::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
     // static public System.Void DestroyGeneratedOutput(HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput)
-    // Offset: 0x17D7CD8
+    // Offset: 0x17DBC14
     static void DestroyGeneratedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput);
     // static public System.Void DestroyGeneratedOutputChildren(HoudiniEngineUnity.HEU_GeneratedOutput generatedOutput)
-    // Offset: 0x17D1334
+    // Offset: 0x17D5270
     static void DestroyGeneratedOutputChildren(::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput);
     // static public System.Void DestroyGeneratedOutputData(HoudiniEngineUnity.HEU_GeneratedOutputData generatedOutputData, System.Boolean bDontDeletePersistantResources)
-    // Offset: 0x17D1E24
+    // Offset: 0x17D5D60
     static void DestroyGeneratedOutputData(::HoudiniEngineUnity::HEU_GeneratedOutputData* generatedOutputData, bool bDontDeletePersistantResources);
     // static public System.Void ClearMaterialsNoLongerUsed(UnityEngine.Material[] materialsToCheck, UnityEngine.Material[] materialsInUse)
-    // Offset: 0x17D1208
+    // Offset: 0x17D5144
     static void ClearMaterialsNoLongerUsed(::ArrayW<::UnityEngine::Material*> materialsToCheck, ::ArrayW<::UnityEngine::Material*> materialsInUse);
     // static public System.Void CopyMaterialOverrides(HoudiniEngineUnity.HEU_GeneratedOutputData sourceOutputData, HoudiniEngineUnity.HEU_GeneratedOutputData destOutputData)
-    // Offset: 0x17D7E58
+    // Offset: 0x17DBD94
     static void CopyMaterialOverrides(::HoudiniEngineUnity::HEU_GeneratedOutputData* sourceOutputData, ::HoudiniEngineUnity::HEU_GeneratedOutputData* destOutputData);
     // public System.Void WriteOutputToAssetCache(UnityEngine.GameObject parentObject, System.String outputPath, System.Boolean bIsInstancer)
-    // Offset: 0x17D811C
+    // Offset: 0x17DC058
     void WriteOutputToAssetCache(::UnityEngine::GameObject* parentObject, ::StringW outputPath, bool bIsInstancer);
     // static public System.Void BakeGameObjectComponents(UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.String outputPath, System.Boolean bIsInstancer)
-    // Offset: 0x17D817C
+    // Offset: 0x17DC0B8
     static void BakeGameObjectComponents(::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, ::StringW outputPath, bool bIsInstancer);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutput other)
-    // Offset: 0x17D8280
+    // Offset: 0x17DC1BC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutput* other);
   }; // HoudiniEngineUnity.HEU_GeneratedOutput
   #pragma pack(pop)

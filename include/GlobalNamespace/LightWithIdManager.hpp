@@ -105,32 +105,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     [[deprecated("Use field access instead!")]] bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1CC79AC
+    // Offset: 0x1CD1AF8
     void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void remove_didChangeSomeColorsThisFrameEvent(System.Action value)
-    // Offset: 0x1CC7A50
+    // Offset: 0x1CD1B9C
     void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1CC85A8
+    // Offset: 0x1CD26F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIdManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIdManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIdManager*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1CC7AF4
+    // Offset: 0x1CD1C40
     void LateUpdate();
     // public System.Void RegisterLight(ILightWithId lightWithId)
-    // Offset: 0x1CC7CFC
+    // Offset: 0x1CD1E48
     void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void UnregisterLight(ILightWithId lightWithId)
-    // Offset: 0x1CC80C0
+    // Offset: 0x1CD220C
     void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
     // public System.Void SetColorForId(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x1CC82A4
+    // Offset: 0x1CD23F0
     void SetColorForId(int lightId, ::UnityEngine::Color color);
     // public UnityEngine.Color GetColorForId(System.Int32 lightId, System.Boolean initializeIfNull)
-    // Offset: 0x1CC84DC
+    // Offset: 0x1CD2628
     ::UnityEngine::Color GetColorForId(int lightId, bool initializeIfNull);
   }; // LightWithIdManager
   #pragma pack(pop)

@@ -101,32 +101,32 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isFadingIn
     [[deprecated("Use field access instead!")]] bool& dyn__isFadingIn();
     // public System.Void .ctor()
-    // Offset: 0x174D50C
+    // Offset: 0x1752554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverTextController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverTextController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverTextController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x174D27C
+    // Offset: 0x17522C4
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x174D29C
+    // Offset: 0x17522E4
     void OnDisable();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x174D2C4
+    // Offset: 0x175230C
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowText(System.String text)
-    // Offset: 0x174D2EC
+    // Offset: 0x1752334
     void ShowText(::StringW text);
     // private System.Collections.IEnumerator ShowTextCoroutine()
-    // Offset: 0x174D354
+    // Offset: 0x175239C
     ::System::Collections::IEnumerator* ShowTextCoroutine();
     // public System.Void HideText()
-    // Offset: 0x174D3F0
+    // Offset: 0x1752438
     void HideText();
     // private System.Collections.IEnumerator HideTextCoroutine()
-    // Offset: 0x174D470
+    // Offset: 0x17524B8
     ::System::Collections::IEnumerator* HideTextCoroutine();
   }; // HMUI.HoverTextController
   #pragma pack(pop)

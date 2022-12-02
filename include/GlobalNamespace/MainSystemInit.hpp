@@ -255,14 +255,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D490
+    // [SpaceAttribute] Offset: 0x110D200
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D4C8
+    // [SpaceAttribute] Offset: 0x110D238
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x90
@@ -281,7 +281,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D520
+    // [SpaceAttribute] Offset: 0x110D290
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0xA8
@@ -384,21 +384,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EnvironmentAudioEffectsPlayer* environmentAudioEffectsPlayerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentAudioEffectsPlayer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D658
+    // [SpaceAttribute] Offset: 0x110D3C8
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D690
+    // [SpaceAttribute] Offset: 0x110D400
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D6C8
+    // [SpaceAttribute] Offset: 0x110D438
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x140
@@ -423,7 +423,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D730
+    // [SpaceAttribute] Offset: 0x110D4A0
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x160
@@ -448,7 +448,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D798
+    // [SpaceAttribute] Offset: 0x110D508
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x180
@@ -491,7 +491,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D830
+    // [SpaceAttribute] Offset: 0x110D5A0
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x1B8
@@ -516,14 +516,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D898
+    // [SpaceAttribute] Offset: 0x110D608
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1D8
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D8D0
+    // [SpaceAttribute] Offset: 0x110D640
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1E0
@@ -542,7 +542,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D928
+    // [SpaceAttribute] Offset: 0x110D698
     // private RecordingToolInstallerSO _recordingToolInstaller
     // Size: 0x8
     // Offset: 0x1F8
@@ -691,32 +691,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockPlayersModel _mockPlayersModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockPlayersModel*& dyn__mockPlayersModel();
     // public System.Void .ctor()
-    // Offset: 0x133A188
+    // Offset: 0x133F170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSystemInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSystemInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSystemInit*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x133891C
+    // Offset: 0x133D904
     void Init();
     // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
-    // Offset: 0x1338CD4
+    // Offset: 0x133DCBC
     void PreInstall(::GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1338CDC
+    // Offset: 0x133DCC4
     void InstallBindings(::Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x1339F84
+    // Offset: 0x133EF6C
     void InstallRichPresence(::Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x1339EA8
+    // Offset: 0x133EE90
     void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x133A044
+    // Offset: 0x133F02C
     void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container);
     // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x1339EA0
+    // Offset: 0x133EE88
     bool IsRunningFromNUnit();
   }; // MainSystemInit
   #pragma pack(pop)

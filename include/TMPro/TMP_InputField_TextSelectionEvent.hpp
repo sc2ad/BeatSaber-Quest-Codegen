@@ -26,7 +26,7 @@ namespace TMPro {
   class TMP_InputField::TextSelectionEvent : public ::UnityEngine::Events::UnityEvent_3<::StringW, int, int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14AEE78
+    // Offset: 0x14B6E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::TextSelectionEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputField::TextSelectionEvent::.ctor");

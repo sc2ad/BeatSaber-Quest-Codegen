@@ -92,23 +92,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _matchSingle
     [[deprecated("Use field access instead!")]] bool& dyn__matchSingle();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1E81D50
+    // Offset: 0x1E8FE9C
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1E81D58
+    // Offset: 0x1E8FEA4
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type componentType, System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter, System.Boolean matchSingle)
-    // Offset: 0x1E74E7C
+    // Offset: 0x1E82FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter, bool matchSingle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GetFromGameObjectGetterComponentProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GetFromGameObjectGetterComponentProvider*, creationType>(componentType, gameObjectGetter, matchSingle)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1E81D60
+    // Offset: 0x1E8FEAC
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1E81D68
+    // Offset: 0x1E8FEB4
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.GetFromGameObjectGetterComponentProvider
   #pragma pack(pop)

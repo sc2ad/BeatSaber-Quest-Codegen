@@ -92,44 +92,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RecordingConverter _recordingConverter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingConverter*& dyn__recordingConverter();
     // public System.Void .ctor(IBeatSaberLogger logger)
-    // Offset: 0x1411674
+    // Offset: 0x1418918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesSerializer*, creationType>(logger)));
     }
     // static private System.Void SaveInfoFile(System.String filePath, PosesRecordingData data)
-    // Offset: 0x1411720
+    // Offset: 0x14189C4
     static void SaveInfoFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
     // static private System.Void SaveDataFile(System.String filePath, PosesRecordingData data)
-    // Offset: 0x141180C
+    // Offset: 0x1418AB0
     static void SaveDataFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
     // private System.Void SaveRecordingIntoDirectory(System.String path, PosesRecordingData data)
-    // Offset: 0x1411B20
+    // Offset: 0x1418DC4
     void SaveRecordingIntoDirectory(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
     // private PosesRecordingInfoSaveData LoadInfoFile(System.String filePath)
-    // Offset: 0x1411D88
+    // Offset: 0x141902C
     ::GlobalNamespace::PosesRecordingInfoSaveData* LoadInfoFile(::StringW filePath);
     // private System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> LoadDataFile(System.String filePath)
-    // Offset: 0x1411F28
+    // Offset: 0x14191CC
     ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* LoadDataFile(::StringW filePath);
     // private PosesRecordingData LoadRecordingFromDirectory(System.String path)
-    // Offset: 0x14124A4
+    // Offset: 0x1419748
     ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
     // public System.Void SaveToOldFormat(System.String path, PosesRecordingData data)
-    // Offset: 0x1412764
+    // Offset: 0x1419A08
     void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
     // public System.Void SaveRecording(System.String path, PosesRecordingData data, System.Boolean saveToOldFormat)
-    // Offset: 0x141285C
+    // Offset: 0x1419B00
     void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
     // public PosesRecordingData LoadRecording(System.String path)
-    // Offset: 0x141289C
+    // Offset: 0x1419B40
     ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
     // public System.Boolean RecordingExists(System.String path)
-    // Offset: 0x14129B8
+    // Offset: 0x1419C5C
     bool RecordingExists(::StringW path);
     // public System.Boolean RecordingCanBeCreated(System.String path)
-    // Offset: 0x1412D14
+    // Offset: 0x1419FB8
     bool RecordingCanBeCreated(::StringW path);
   }; // PosesSerializer
   #pragma pack(pop)

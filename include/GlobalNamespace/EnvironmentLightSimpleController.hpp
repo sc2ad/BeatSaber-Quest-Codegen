@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: colorId and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x111454C
+    // [InjectAttribute] Offset: 0x11142DC
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x30
@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIdManager _lightManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightManager();
     // public System.Void .ctor()
-    // Offset: 0x1380FB8
+    // Offset: 0x1387DE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightSimpleController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightSimpleController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightSimpleController*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1380F8C
+    // Offset: 0x1387DB8
     void LateUpdate();
   }; // EnvironmentLightSimpleController
   #pragma pack(pop)

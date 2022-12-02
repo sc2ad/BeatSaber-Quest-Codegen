@@ -105,7 +105,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* editColorSchemeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111BB04
+    // [SpaceAttribute] Offset: 0x111B894
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
     // Offset: 0x48
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x111BB4C
+    // [InjectAttribute] Offset: 0x111B8DC
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x58
@@ -181,44 +181,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1428830
+    // Offset: 0x142FAD4
     ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void .ctor()
-    // Offset: 0x142920C
+    // Offset: 0x14304B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorsOverrideSettingsPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorsOverrideSettingsPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorsOverrideSettingsPanelController*, creationType>()));
     }
     // public System.Void SetData(ColorSchemesSettings colorSchemesSettings)
-    // Offset: 0x1428838
+    // Offset: 0x142FADC
     void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
     // protected System.Void OnDestroy()
-    // Offset: 0x1428A3C
+    // Offset: 0x142FCE0
     void OnDestroy();
     // protected System.Void OnDisable()
-    // Offset: 0x1428C34
+    // Offset: 0x142FED8
     void OnDisable();
     // public System.Void Refresh()
-    // Offset: 0x1428C58
+    // Offset: 0x142FEFC
     void Refresh();
     // private System.Void HandleDropDownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropDownWithTableView, System.Int32 idx)
-    // Offset: 0x1428DDC
+    // Offset: 0x1430080
     void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int idx);
     // private System.Void HandleOverrideColorsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x1428F38
+    // Offset: 0x14301DC
     void HandleOverrideColorsToggleValueChanged(bool isOn);
     // private System.Void HandleEditColorSchemeButtonWasPressed()
-    // Offset: 0x142911C
+    // Offset: 0x14303C0
     void HandleEditColorSchemeButtonWasPressed();
     // private System.Void HandleEditColorSchemeControllerDidFinish()
-    // Offset: 0x1429198
+    // Offset: 0x143043C
     void HandleEditColorSchemeControllerDidFinish();
     // private System.Void HandleEditColorSchemeControllerDidChangeColorScheme(ColorScheme colorScheme)
-    // Offset: 0x14291F4
+    // Offset: 0x1430498
     void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
     // private System.Void <HandleOverrideColorsToggleValueChanged>b__19_0()
-    // Offset: 0x1429214
+    // Offset: 0x14304B8
     void $HandleOverrideColorsToggleValueChanged$b__19_0();
   }; // ColorsOverrideSettingsPanelController
   #pragma pack(pop)

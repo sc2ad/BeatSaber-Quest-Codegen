@@ -131,19 +131,19 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
+    // public System.Void TouchLastUsedNode(System.Collections.Generic.LinkedListNode`1<TBase> node)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::TouchLastUsedNode");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TouchLastUsedNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
+    }
     // private System.Collections.Generic.LinkedListNode`1<TBase> InsertInternal(TBase newItem)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::LinkedListNode_1<TBase>* InsertInternal(TBase newItem) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::InsertInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(newItem)})));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*, false>(this, ___internal__method, newItem);
-    }
-    // public System.Collections.Generic.LinkedListNode`1<TBase> NodeForItem(TBase item)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    ::System::Collections::Generic::LinkedListNode_1<TBase>* NodeForItem(TBase item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortedList_2::NodeForItem");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "NodeForItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<TBase>*, false>(this, ___internal__method, item);
     }
   }; // SortedList`2
   // Could not write size check! Type: SortedList`2 is generic, or has no fields that are valid for size checks!

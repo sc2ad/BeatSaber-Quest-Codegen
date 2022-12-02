@@ -71,65 +71,65 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hash
     [[deprecated("Use field access instead!")]] int& dyn_hash();
     // public System.String get_Namespace()
-    // Offset: 0x160D2D0
+    // Offset: 0x161619C
     ::StringW get_Namespace();
     // public System.String get_Name()
-    // Offset: 0x160D2D8
+    // Offset: 0x16161A4
     ::StringW get_Name();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x1606E24
+    // Offset: 0x160FCF0
     bool get_IsEmpty();
     // public System.Void .ctor()
-    // Offset: 0x160D170
+    // Offset: 0x161603C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>()));
     }
     // public System.Void .ctor(System.String name)
-    // Offset: 0x160D268
+    // Offset: 0x1616134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String ns)
-    // Offset: 0x160D1CC
+    // Offset: 0x1616098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlQualifiedName* New_ctor(::StringW name, ::StringW ns) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlQualifiedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlQualifiedName*, creationType>(name, ns)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x160DD80
+    // Offset: 0x1616C4C
     static void _cctor();
     // static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x160D3C0
+    // Offset: 0x161628C
     static ::System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* GetHashCodeDelegate();
     // static private System.Boolean IsRandomizedHashingDisabled()
-    // Offset: 0x160DBA8
+    // Offset: 0x1616A74
     static bool IsRandomizedHashingDisabled();
     // static private System.Int32 GetHashCodeOfString(System.String s, System.Int32 length, System.Int64 additionalEntropy)
-    // Offset: 0x160DBC0
+    // Offset: 0x1616A8C
     static int GetHashCodeOfString(::StringW s, int length, int64_t additionalEntropy);
     // System.Void Init(System.String name, System.String ns)
-    // Offset: 0x160DBDC
+    // Offset: 0x1616AA8
     void Init(::StringW name, ::StringW ns);
     // static System.Xml.XmlQualifiedName Parse(System.String s, System.Xml.IXmlNamespaceResolver nsmgr, out System.String prefix)
-    // Offset: 0x160DBE8
+    // Offset: 0x1616AB4
     static ::System::Xml::XmlQualifiedName* Parse(::StringW s, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::StringW> prefix);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x160D2E0
+    // Offset: 0x16161AC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x160D948
+    // Offset: 0x1616814
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x160D9C0
+    // Offset: 0x161688C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
@@ -138,10 +138,10 @@ namespace System::Xml {
   static check_size<sizeof(XmlQualifiedName), 32 + sizeof(int)> __System_Xml_XmlQualifiedNameSizeCheck;
   static_assert(sizeof(XmlQualifiedName) == 0x24);
   // static public System.Boolean op_Equality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x160DB3C
+  // Offset: 0x1616A08
   bool operator ==(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName& b);
   // static public System.Boolean op_Inequality(System.Xml.XmlQualifiedName a, System.Xml.XmlQualifiedName b)
-  // Offset: 0x160DABC
+  // Offset: 0x1616988
   bool operator !=(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

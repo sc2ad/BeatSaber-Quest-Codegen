@@ -67,37 +67,37 @@ namespace Zenject::Internal {
     // Nested type: ::Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
     // static public System.Boolean IsNull(System.Object obj)
-    // Offset: 0x1CAC280
+    // Offset: 0x1CB63CC
     static bool IsNull(::Il2CppObject* obj);
     // static public System.Boolean AreFunctionsEqual(System.Delegate left, System.Delegate right)
-    // Offset: 0x1CAC29C
+    // Offset: 0x1CB63E8
     static bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
     // static public System.Int32 GetInheritanceDelta(System.Type derived, System.Type parent)
-    // Offset: 0x1CAC360
+    // Offset: 0x1CB64AC
     static int GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
     // static public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> GetAllSceneContexts()
-    // Offset: 0x1CAC4A0
+    // Offset: 0x1CB65EC
     static ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* GetAllSceneContexts();
     // static public System.Void AddStateMachineBehaviourAutoInjectersInScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CAC548
+    // Offset: 0x1CB6694
     static void AddStateMachineBehaviourAutoInjectersInScene(::UnityEngine::SceneManagement::Scene scene);
     // static public System.Void AddStateMachineBehaviourAutoInjectersUnderGameObject(UnityEngine.GameObject root)
-    // Offset: 0x1CAC98C
+    // Offset: 0x1CB6AD8
     static void AddStateMachineBehaviourAutoInjectersUnderGameObject(::UnityEngine::GameObject* root);
     // static public System.Void GetInjectableMonoBehavioursInScene(UnityEngine.SceneManagement.Scene scene, System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x1CACAC8
+    // Offset: 0x1CB6C14
     static void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
     // static public System.Void GetInjectableMonoBehavioursUnderGameObject(UnityEngine.GameObject gameObject, System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableComponents)
-    // Offset: 0x1CAD058
+    // Offset: 0x1CB71A4
     static void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents);
     // static private System.Void GetInjectableMonoBehavioursUnderGameObjectInternal(UnityEngine.GameObject gameObject, System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableComponents)
-    // Offset: 0x1CACD74
+    // Offset: 0x1CB6EC0
     static void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents);
     // static public System.Boolean IsInjectableMonoBehaviourType(System.Type type)
-    // Offset: 0x1CAD05C
+    // Offset: 0x1CB71A8
     static bool IsInjectableMonoBehaviourType(::System::Type* type);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CAC7EC
+    // Offset: 0x1CB6938
     static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);
   }; // Zenject.Internal.ZenUtilInternal
   #pragma pack(pop)

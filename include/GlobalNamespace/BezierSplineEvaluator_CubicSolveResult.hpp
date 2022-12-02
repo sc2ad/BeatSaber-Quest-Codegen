@@ -66,13 +66,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single solution3
     [[deprecated("Use field access instead!")]] float& dyn_solution3();
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0x13D78D4
+    // Offset: 0x13DF93C
     CubicSolveResult(float solution1);
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0x13D78E8
+    // Offset: 0x13DF950
     CubicSolveResult(float solution1, float solution2);
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0x13D78FC
+    // Offset: 0x13DF964
     CubicSolveResult(float solution1, float solution2, float solution3);
   }; // BezierSplineEvaluator/CubicSolveResult
   #pragma pack(pop)

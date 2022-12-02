@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 MaxMessageLength
     static void _set_MaxMessageLength(int value);
     // public System.Void .ctor()
-    // Offset: 0x2554804
+    // Offset: 0x2563A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSystemPerfMetrics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSystemPerfMetrics::.ctor");

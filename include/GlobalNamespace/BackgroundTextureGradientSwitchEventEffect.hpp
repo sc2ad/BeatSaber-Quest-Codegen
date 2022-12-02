@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* boostTextureGradient;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*) == 0x8);
-    // [InjectAttribute] Offset: 0x1114A50
+    // [InjectAttribute] Offset: 0x11147E0
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
@@ -79,20 +79,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x13BF280
+    // Offset: 0x139C968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BackgroundTextureGradientSwitchEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BackgroundTextureGradientSwitchEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13BF170
+    // Offset: 0x139C858
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x13BF214
+    // Offset: 0x139C8FC
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(ColorBoostBeatmapEventData eventData)
-    // Offset: 0x13BF22C
+    // Offset: 0x139C914
     void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
   }; // BackgroundTextureGradientSwitchEventEffect
   #pragma pack(pop)

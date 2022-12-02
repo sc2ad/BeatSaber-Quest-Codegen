@@ -43,17 +43,17 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
     static void _set_$$9__85_0(::System::Comparison_1<::UnityEngine::LOD>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B14B88
+    // Offset: 0x1B1FB70
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B14BEC
+    // Offset: 0x1B1FBD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PartData::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PartData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PartData::$$c*, creationType>()));
     }
     // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
-    // Offset: 0x1B14BF4
+    // Offset: 0x1B1FBDC
     int $CopyGameObjectComponents$b__85_0(::UnityEngine::LOD a, ::UnityEngine::LOD b);
   }; // HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c
   #pragma pack(pop)

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class PS4NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
     public:
     // public System.Void .ctor()
-    // Offset: 0x137711C
+    // Offset: 0x137CF48
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()

@@ -55,23 +55,23 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.String> <>9__123_1
     static void _set_$$9__123_1(::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D307C
+    // Offset: 0x18D8FA4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18D30E0
+    // Offset: 0x18D9008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c*, creationType>()));
     }
     // UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <get_ResourceLocators>b__51_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x18D30E8
+    // Offset: 0x18D9010
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* $get_ResourceLocators$b__51_0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // System.Boolean <get_CatalogsWithAvailableUpdates>b__123_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
-    // Offset: 0x18D3100
+    // Offset: 0x18D9028
     bool $get_CatalogsWithAvailableUpdates$b__123_0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
     // System.String <get_CatalogsWithAvailableUpdates>b__123_1(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
-    // Offset: 0x18D3118
+    // Offset: 0x18D9040
     ::StringW $get_CatalogsWithAvailableUpdates$b__123_1(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c
   #pragma pack(pop)

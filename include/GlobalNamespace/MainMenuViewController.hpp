@@ -21,8 +21,6 @@ namespace GlobalNamespace {
   class IBeatmapLevelPack;
   // Forward declaring type: MusicPackPromoBanner
   class MusicPackPromoBanner;
-  // Forward declaring type: DlcPromoPanelModel
-  class DlcPromoPanelModel;
   // Forward declaring type: AppStaticSettingsSO
   class AppStaticSettingsSO;
   // Forward declaring type: IAnalyticsModel
@@ -41,6 +39,8 @@ namespace System {
   // Forward declaring type: Action`2<T1, T2>
   template<typename T1, typename T2>
   class Action_2;
+  // Forward declaring type: Action
+  class Action;
 }
 // Completed forward declares
 // Type namespace: 
@@ -210,39 +210,38 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MusicPackPromoBanner* musicPackPromoBanner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MusicPackPromoBanner*) == 0x8);
-    // [InjectAttribute] Offset: 0x112022C
-    // private readonly DlcPromoPanelModel _dlcPromoPanelModel
-    // Size: 0x8
-    // Offset: 0xC0
-    ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
-    // Field size check
-    static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x112023C
+    // [InjectAttribute] Offset: 0x111FFCC
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
-    // Offset: 0xC8
+    // Offset: 0xC0
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x112024C
+    // [InjectAttribute] Offset: 0x111FFDC
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
-    // Offset: 0xD0
+    // Offset: 0xC8
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
     // private System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> didFinishEvent
     // Size: 0x8
-    // Offset: 0xD8
+    // Offset: 0xD0
     ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>*) == 0x8);
     // private System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> musicPackPromoButtonWasPressedEvent
     // Size: 0x8
-    // Offset: 0xE0
+    // Offset: 0xD8
     ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* musicPackPromoButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
+    // private System.Action songPromoButtonWasPressedEvent
+    // Size: 0x8
+    // Offset: 0xE0
+    ::System::Action* songPromoButtonWasPressedEvent;
+    // Field size check
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Button _soloButton
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__soloButton();
@@ -264,8 +263,6 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__musicPackPromoButton();
     // Get instance field reference: private MusicPackPromoBanner _musicPackPromoBanner
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MusicPackPromoBanner*& dyn__musicPackPromoBanner();
-    // Get instance field reference: private readonly DlcPromoPanelModel _dlcPromoPanelModel
-    [[deprecated("Use field access instead!")]] ::GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
@@ -274,63 +271,74 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> musicPackPromoButtonWasPressedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_musicPackPromoButtonWasPressedEvent();
+    // Get instance field reference: private System.Action songPromoButtonWasPressedEvent
+    [[deprecated("Use field access instead!")]] ::System::Action*& dyn_songPromoButtonWasPressedEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x1333A78
+    // Offset: 0x13388E0
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MainMenuViewController,MainMenuViewController/MenuButton> value)
-    // Offset: 0x13342B8
+    // Offset: 0x1339204
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController::MenuButton>* value);
     // public System.Void add_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
-    // Offset: 0x1333B1C
+    // Offset: 0x1338984
     void add_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
     // public System.Void remove_musicPackPromoButtonWasPressedEvent(System.Action`2<IBeatmapLevelPack,IPreviewBeatmapLevel> value)
-    // Offset: 0x133435C
+    // Offset: 0x13392A8
     void remove_musicPackPromoButtonWasPressedEvent(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+    // public System.Void add_songPromoButtonWasPressedEvent(System.Action value)
+    // Offset: 0x1338A28
+    void add_songPromoButtonWasPressedEvent(::System::Action* value);
+    // public System.Void remove_songPromoButtonWasPressedEvent(System.Action value)
+    // Offset: 0x133934C
+    void remove_songPromoButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1337238
+    // Offset: 0x133C20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainMenuViewController*, creationType>()));
     }
     // private System.Void PackPromoButtonWasPressed()
-    // Offset: 0x1337004
+    // Offset: 0x133C014
     void PackPromoButtonWasPressed();
     // private System.Void HandleMenuButton(MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x13370B0
+    // Offset: 0x133C084
     void HandleMenuButton(::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
-    // private System.Void <DidActivate>b__20_0()
-    // Offset: 0x1337240
-    void $DidActivate$b__20_0();
-    // private System.Void <DidActivate>b__20_1()
-    // Offset: 0x1337248
-    void $DidActivate$b__20_1();
-    // private System.Void <DidActivate>b__20_2()
-    // Offset: 0x1337250
-    void $DidActivate$b__20_2();
-    // private System.Void <DidActivate>b__20_3()
-    // Offset: 0x1337258
-    void $DidActivate$b__20_3();
-    // private System.Void <DidActivate>b__20_4()
-    // Offset: 0x1337260
-    void $DidActivate$b__20_4();
-    // private System.Void <DidActivate>b__20_5()
-    // Offset: 0x1337268
-    void $DidActivate$b__20_5();
-    // private System.Void <DidActivate>b__20_6()
-    // Offset: 0x1337270
-    void $DidActivate$b__20_6();
-    // private System.Void <DidActivate>b__20_7()
-    // Offset: 0x1337278
-    void $DidActivate$b__20_7();
+    // private System.Void <DidActivate>b__22_0()
+    // Offset: 0x133C214
+    void $DidActivate$b__22_0();
+    // private System.Void <DidActivate>b__22_1()
+    // Offset: 0x133C21C
+    void $DidActivate$b__22_1();
+    // private System.Void <DidActivate>b__22_2()
+    // Offset: 0x133C224
+    void $DidActivate$b__22_2();
+    // private System.Void <DidActivate>b__22_3()
+    // Offset: 0x133C22C
+    void $DidActivate$b__22_3();
+    // private System.Void <DidActivate>b__22_4()
+    // Offset: 0x133C234
+    void $DidActivate$b__22_4();
+    // private System.Void <DidActivate>b__22_5()
+    // Offset: 0x133C23C
+    void $DidActivate$b__22_5();
+    // private System.Void <DidActivate>b__22_6()
+    // Offset: 0x133C244
+    void $DidActivate$b__22_6();
+    // private System.Void <DidActivate>b__22_7()
+    // Offset: 0x133C24C
+    void $DidActivate$b__22_7();
+    // private System.Void <DidActivate>b__22_8()
+    // Offset: 0x133C254
+    void $DidActivate$b__22_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1336B98
+    // Offset: 0x133BC00
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // MainMenuViewController
   #pragma pack(pop)
-  static check_size<sizeof(MainMenuViewController), 224 + sizeof(::System::Action_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
+  static check_size<sizeof(MainMenuViewController), 224 + sizeof(::System::Action*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
   static_assert(sizeof(MainMenuViewController) == 0xE8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -372,6 +380,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "remove_musicPackPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::add_songPromoButtonWasPressedEvent
+// Il2CppName: add_songPromoButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(::System::Action*)>(&GlobalNamespace::MainMenuViewController::add_songPromoButtonWasPressedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "add_songPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::remove_songPromoButtonWasPressedEvent
+// Il2CppName: remove_songPromoButtonWasPressedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)(::System::Action*)>(&GlobalNamespace::MainMenuViewController::remove_songPromoButtonWasPressedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "remove_songPromoButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -393,68 +419,76 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "HandleMenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{menuButton});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_0
-// Il2CppName: <DidActivate>b__20_0
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_0
+// Il2CppName: <DidActivate>b__22_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_0)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_1
-// Il2CppName: <DidActivate>b__20_1
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_1
+// Il2CppName: <DidActivate>b__22_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_1)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_2
-// Il2CppName: <DidActivate>b__20_2
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_2
+// Il2CppName: <DidActivate>b__22_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_2)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_3
-// Il2CppName: <DidActivate>b__20_3
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_3
+// Il2CppName: <DidActivate>b__22_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_3)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_4
-// Il2CppName: <DidActivate>b__20_4
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_4
+// Il2CppName: <DidActivate>b__22_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_4)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_5
-// Il2CppName: <DidActivate>b__20_5
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_5
+// Il2CppName: <DidActivate>b__22_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_5)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_6
-// Il2CppName: <DidActivate>b__20_6
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_6
+// Il2CppName: <DidActivate>b__22_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_6)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__20_7
-// Il2CppName: <DidActivate>b__20_7
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_7
+// Il2CppName: <DidActivate>b__22_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__20_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_7)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__20_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::$DidActivate$b__22_8
+// Il2CppName: <DidActivate>b__22_8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainMenuViewController::*)()>(&GlobalNamespace::MainMenuViewController::$DidActivate$b__22_8)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainMenuViewController*), "<DidActivate>b__22_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::DidActivate

@@ -41,12 +41,12 @@ namespace NUnit::Framework {
   class IgnoreException : public ::NUnit::Framework::ResultStateException {
     public:
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x1D4C4AC
+    // Offset: 0x1D565F8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1D4C4A4
+    // Offset: 0x1D565F0
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

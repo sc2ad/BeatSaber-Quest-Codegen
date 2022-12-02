@@ -50,17 +50,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::ICertificateValidator*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x15C9F98
+    // Offset: 0x15D2EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientCertificateValidator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ClientCertificateValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientCertificateValidator*, creationType>()));
     }
     // public System.Void ValidateCertificateChain(DnsEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x15C9DE8
+    // Offset: 0x15D2D0C
     void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // private System.Void ValidateCertificateChainInternal(DnsEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
-    // Offset: 0x15C9DEC
+    // Offset: 0x15D2D10
     void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
   }; // ClientCertificateValidator
   #pragma pack(pop)

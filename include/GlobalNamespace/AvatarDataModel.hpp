@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AvatarDataFileManagerSO* avatarDataFileManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarDataFileManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1111C9C
+    // [InjectAttribute] Offset: 0x1111A2C
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
@@ -69,32 +69,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private AvatarData <avatarData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarData*& dyn_$avatarData$k__BackingField();
     // public AvatarData get_avatarData()
-    // Offset: 0x153669C
+    // Offset: 0x15405C8
     ::GlobalNamespace::AvatarData* get_avatarData();
     // public System.Void set_avatarData(AvatarData value)
-    // Offset: 0x15366A4
+    // Offset: 0x15405D0
     void set_avatarData(::GlobalNamespace::AvatarData* value);
     // public System.Void .ctor()
-    // Offset: 0x1536880
+    // Offset: 0x15407AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarDataModel*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x15366AC
+    // Offset: 0x15405D8
     void OnEnable();
     // public System.Void Randomize()
-    // Offset: 0x15366EC
+    // Offset: 0x1540618
     void Randomize();
     // public System.Void Save()
-    // Offset: 0x1536810
+    // Offset: 0x154073C
     void Save();
     // public System.Void Load()
-    // Offset: 0x15366B0
+    // Offset: 0x15405DC
     void Load();
     // private AvatarData CreateDefaultAvatarData()
-    // Offset: 0x1536710
+    // Offset: 0x154063C
     ::GlobalNamespace::AvatarData* CreateDefaultAvatarData();
   }; // AvatarDataModel
   #pragma pack(pop)

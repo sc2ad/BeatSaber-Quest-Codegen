@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PreviousColorPanelController* previousColorPanelController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PreviousColorPanelController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111BB7C
+    // [SpaceAttribute] Offset: 0x111B90C
     // private UnityEngine.UI.Button _cancelButton
     // Size: 0x8
     // Offset: 0x80
@@ -128,52 +128,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _colorChanged
     [[deprecated("Use field access instead!")]] bool& dyn__colorChanged();
     // public System.Void add_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x137D3C4
+    // Offset: 0x13841F0
     void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_didChangeColorEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x137D468
+    // Offset: 0x1384294
     void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x137D50C
+    // Offset: 0x1384338
     void add_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x137D5B0
+    // Offset: 0x13843DC
     void remove_didFinishEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x137DBF4
+    // Offset: 0x1384A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditColorController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditColorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditColorController*, creationType>()));
     }
     // public System.Void SetColorCallback(System.Action`1<UnityEngine.Color> colorCallback)
-    // Offset: 0x137D654
+    // Offset: 0x1384480
     void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x137D65C
+    // Offset: 0x1384488
     void SetColor(::UnityEngine::Color color);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x137D938
+    // Offset: 0x1384764
     void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x137DA7C
+    // Offset: 0x13848A8
     void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x137DB00
+    // Offset: 0x138492C
     void HandleCancelButtonWasPressed();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x137DB90
+    // Offset: 0x13849BC
     void HandleApplyButtonWasPressed();
     // private System.Void ChangeColor(UnityEngine.Color color)
-    // Offset: 0x137D9B4
+    // Offset: 0x13847E0
     void ChangeColor(::UnityEngine::Color color);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x137D6D0
+    // Offset: 0x13844FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x137D858
+    // Offset: 0x1384684
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

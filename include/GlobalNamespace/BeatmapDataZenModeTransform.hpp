@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapDataZenModeTransform::$$c
     class $$c;
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x15546B8
+    // Offset: 0x155D5E4
     static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataZenModeTransform
   #pragma pack(pop)

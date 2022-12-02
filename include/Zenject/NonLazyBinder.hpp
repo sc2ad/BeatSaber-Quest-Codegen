@@ -37,13 +37,13 @@ namespace Zenject {
   class NonLazyBinder : public ::Zenject::IfNotBoundBinder {
     public:
     // public Zenject.IfNotBoundBinder NonLazy()
-    // Offset: 0x1CB037C
+    // Offset: 0x1CBA4C8
     ::Zenject::IfNotBoundBinder* NonLazy();
     // public Zenject.IfNotBoundBinder Lazy()
-    // Offset: 0x1CB039C
+    // Offset: 0x1CBA4E8
     ::Zenject::IfNotBoundBinder* Lazy();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1CB0374
+    // Offset: 0x1CBA4C0
     // Implemented from: Zenject.IfNotBoundBinder
     // Base method: System.Void IfNotBoundBinder::.ctor(Zenject.BindInfo bindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

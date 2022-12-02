@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class NamedPreset : public ::Il2CppObject {
     public:
     public:
-    // [LocalizationKeyAttribute] Offset: 0x11107B4
+    // [LocalizationKeyAttribute] Offset: 0x1110544
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _presetNameLocalizationKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
-    // Offset: 0x14F0968
+    // Offset: 0x14F98E0
     ::StringW get_presetNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x14F0970
+    // Offset: 0x14F98E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedPreset::.ctor");

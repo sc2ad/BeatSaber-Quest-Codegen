@@ -72,23 +72,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single intensity
     [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x1CCD838
+    // Offset: 0x1CD7984
     static ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
     // public System.Void .ctor()
-    // Offset: 0x1CCD9A8
+    // Offset: 0x1CD7AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PointLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CCD9B0
+    // Offset: 0x1CD7AFC
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1CCD8A0
+    // Offset: 0x1CD79EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CCD924
+    // Offset: 0x1CD7A70
     void OnDisable();
   }; // PointLight
   #pragma pack(pop)

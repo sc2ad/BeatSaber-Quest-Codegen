@@ -45,17 +45,17 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     // Set static field: static public readonly UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.<>c <>9
     static void _set_$$9(::UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x2045228
+    // Offset: 0x2035850
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x204528C
+    // Offset: 0x20358B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lightmapping::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::$$c*, creationType>()));
     }
     // System.Void <.cctor>b__7_0(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x2045294
+    // Offset: 0x20358BC
     void $_cctor$b__7_0(::ArrayW<::UnityEngine::Light*> requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.<>c
   #pragma pack(pop)

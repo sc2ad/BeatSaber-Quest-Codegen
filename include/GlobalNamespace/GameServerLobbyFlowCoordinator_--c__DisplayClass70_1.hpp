@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass70_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1443E88
+    // Offset: 0x144B12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass70_1*, creationType>()));
     }
     // System.Void <Finish>b__0()
-    // Offset: 0x1446AFC
+    // Offset: 0x144DDA0
     void $Finish$b__0();
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass70_1
   #pragma pack(pop)

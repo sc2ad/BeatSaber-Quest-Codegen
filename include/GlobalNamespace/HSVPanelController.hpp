@@ -89,41 +89,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _hsvColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__hsvColor();
     // public UnityEngine.Color get_color()
-    // Offset: 0x13E8560
+    // Offset: 0x13EF5BC
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x13E8570
+    // Offset: 0x13EF5CC
     void set_color(::UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13E8418
+    // Offset: 0x13EF474
     void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x13E84BC
+    // Offset: 0x13EF518
     void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void .ctor()
-    // Offset: 0x13E8998
+    // Offset: 0x13EF9F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HSVPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVPanelController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13E8638
+    // Offset: 0x13EF694
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13E8718
+    // Offset: 0x13EF774
     void OnDestroy();
     // private System.Void HandleColorSaturationOrValueDidChange(ColorSaturationValueSlider slider, UnityEngine.Vector2 colorSaturationAndValue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x13E8870
+    // Offset: 0x13EF8CC
     void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleColorHueDidChange(ColorHueSlider slider, System.Single hue, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x13E8908
+    // Offset: 0x13EF964
     void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x13E85D0
+    // Offset: 0x13EF62C
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x13E85AC
+    // Offset: 0x13EF608
     void RefreshSlidersColors();
   }; // HSVPanelController
   #pragma pack(pop)

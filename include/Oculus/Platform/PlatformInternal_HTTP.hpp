@@ -29,7 +29,7 @@ namespace Oculus::Platform {
   class PlatformInternal::HTTP : public ::Il2CppObject {
     public:
     // static public System.Void SetHttpTransferUpdateCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.HttpTransferUpdate> callback)
-    // Offset: 0x2AF7214
+    // Offset: 0x2B0544C
     static void SetHttpTransferUpdateCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*>::Callback* callback);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.HTTP
   #pragma pack(pop)

@@ -62,20 +62,20 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Int32 _version
     [[deprecated("Use field access instead!")]] int& dyn__version();
     // public System.Object get_Current()
-    // Offset: 0x1E0BC48
+    // Offset: 0x1E18D94
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Specialized.NameObjectCollectionBase coll)
-    // Offset: 0x1E0B608
+    // Offset: 0x1E18754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameObjectCollectionBase::NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectKeysEnumerator*, creationType>(coll)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1E0BAB4
+    // Offset: 0x1E18C00
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1E0BBA4
+    // Offset: 0x1E18CF0
     void Reset();
   }; // System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectKeysEnumerator
   #pragma pack(pop)

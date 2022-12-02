@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BTSCharacterDataModel/AnimationClipWithId[] _animationClipsWithIds
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>& dyn__animationClipsWithIds();
     // public BTSCharacterDataModel/PrefabWithId[] get_prefabsWithIds()
-    // Offset: 0x153C790
+    // Offset: 0x15466BC
     ::ArrayW<::GlobalNamespace::BTSCharacterDataModel::PrefabWithId*> get_prefabsWithIds();
     // public BTSCharacterDataModel/AnimationClipWithId[] get_animationClipsWithIds()
-    // Offset: 0x153C798
+    // Offset: 0x15466C4
     ::ArrayW<::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*> get_animationClipsWithIds();
     // public System.Void .ctor()
-    // Offset: 0x153C7A0
+    // Offset: 0x15466CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterDataModel::.ctor");

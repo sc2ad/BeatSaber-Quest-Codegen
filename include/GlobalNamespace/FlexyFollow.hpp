@@ -116,17 +116,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x15F3750
+    // Offset: 0x15FC61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlexyFollow* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlexyFollow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlexyFollow*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x15F3460
+    // Offset: 0x15FC32C
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x15F35BC
+    // Offset: 0x15FC488
     void LateUpdate();
   }; // FlexyFollow
   #pragma pack(pop)

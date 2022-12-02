@@ -47,10 +47,10 @@ namespace MasterServer {
       return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.UserMasterServerMultipartMessage> get_pool()
-    // Offset: 0x17284A4
+    // Offset: 0x172D4EC
     static ::GlobalNamespace::PacketPool_1<::MasterServer::UserMasterServerMultipartMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x172AF8C
+    // Offset: 0x172FFD4
     // Implemented from: BGNet.Core.Messages.BaseMultipartMessage
     // Base method: System.Void BaseMultipartMessage::.ctor()
     // Base method: System.Void BaseReliableRequest::.ctor()
@@ -60,7 +60,7 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMultipartMessage*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x172AF30
+    // Offset: 0x172FF78
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

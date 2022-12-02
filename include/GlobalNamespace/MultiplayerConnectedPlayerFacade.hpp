@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [NullAllowed] Offset: 0x11179D4
+    // [NullAllowed] Offset: 0x1117764
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerBigAvatarAnimator* bigAvatarAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerBigAvatarAnimator*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1117A0C
+    // [HeaderAttribute] Offset: 0x111779C
     // private System.Single _bigAvatarDisappearDuration
     // Size: 0x4
     // Offset: 0x28
@@ -83,35 +83,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EaseType bigAvatarDisappearEasing;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0x1117A68
+    // [InjectAttribute] Offset: 0x11177F8
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController _songTimeSyncController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* songTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117A78
+    // [InjectAttribute] Offset: 0x1117808
     // private readonly MultiplayerConnectedPlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117A88
+    // [InjectAttribute] Offset: 0x1117818
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117A98
+    // [InjectAttribute] Offset: 0x1117828
     // private readonly MultiplayerScoreDiffText _scoreDiffText
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::MultiplayerScoreDiffText* scoreDiffText;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreDiffText*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117AA8
+    // [InjectAttribute] Offset: 0x1117838
     // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x50
@@ -140,38 +140,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // public MultiplayerConnectedPlayerIntroAnimator get_introAnimator()
-    // Offset: 0x1455AC8
+    // Offset: 0x145DF5C
     ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x1455AD0
+    // Offset: 0x145DF64
     ::UnityEngine::GameObject* get_outroAnimator();
     // public MultiplayerScoreDiffText get_scoreDiffText()
-    // Offset: 0x1455AD8
+    // Offset: 0x145DF6C
     ::GlobalNamespace::MultiplayerScoreDiffText* get_scoreDiffText();
     // public System.Void .ctor()
-    // Offset: 0x1455EC8
+    // Offset: 0x145E35C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerFacade*, creationType>()));
     }
     // public System.Void SetSongStartSyncTime(System.Single songStartSyncTime)
-    // Offset: 0x1455AE0
+    // Offset: 0x145DF74
     void SetSongStartSyncTime(float songStartSyncTime);
     // public System.Void PauseSpawning()
-    // Offset: 0x1455C20
+    // Offset: 0x145E0B4
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x1455CD4
+    // Offset: 0x145E168
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x1455D88
+    // Offset: 0x145E21C
     void __ForceStopSong();
     // public System.Void HideBigAvatar()
-    // Offset: 0x1455DD4
+    // Offset: 0x145E268
     void HideBigAvatar();
     // public AvatarPoseController __GetPlayerAvatar()
-    // Offset: 0x1455E74
+    // Offset: 0x145E308
     ::GlobalNamespace::AvatarPoseController* __GetPlayerAvatar();
   }; // MultiplayerConnectedPlayerFacade
   #pragma pack(pop)

@@ -43,32 +43,32 @@ namespace NUnit::Framework::Internal {
   class TestNameGenerator::NameFragment : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2A63DAC
+    // Offset: 0x2A74FE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::NameFragment* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::NameFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::NameFragment*, creationType>()));
     }
     // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x2A64C7C
+    // Offset: 0x2A75EB4
     ::StringW GetText(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
     // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
-    // Offset: 0x2A64AA0
+    // Offset: 0x2A75CD8
     static void AppendGenericTypeNames(::System::Text::StringBuilder* sb, ::System::Reflection::MethodInfo* method);
     // static protected System.String GetDisplayString(System.Object arg, System.Int32 stringMax)
-    // Offset: 0x2A63ED8
+    // Offset: 0x2A75110
     static ::StringW GetDisplayString(::Il2CppObject* arg, int stringMax);
     // static private System.String EscapeSingleChar(System.Char c)
-    // Offset: 0x2A64DC4
+    // Offset: 0x2A75FFC
     static ::StringW EscapeSingleChar(::Il2CppChar c);
     // static private System.String EscapeCharInString(System.Char c)
-    // Offset: 0x2A64D5C
+    // Offset: 0x2A75F94
     static ::StringW EscapeCharInString(::Il2CppChar c);
     // static private System.String EscapeControlChar(System.Char c)
-    // Offset: 0x2A64E2C
+    // Offset: 0x2A76064
     static ::StringW EscapeControlChar(::Il2CppChar c);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
   #pragma pack(pop)

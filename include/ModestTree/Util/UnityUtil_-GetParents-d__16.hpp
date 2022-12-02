@@ -106,35 +106,35 @@ namespace ModestTree::Util {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<UnityEngine.Transform> <>7__wrap1
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*& dyn_$$7__wrap1();
     // private UnityEngine.Transform System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current()
-    // Offset: 0x17AC368
+    // Offset: 0x17B02A4
     ::UnityEngine::Transform* System_Collections_Generic_IEnumerator$UnityEngine_Transform$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x17AC3D0
+    // Offset: 0x17B030C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x17AAE00
+    // Offset: 0x17AED3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$GetParents$d__16* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::Util::UnityUtil::$GetParents$d__16::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$GetParents$d__16*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x17ABFCC
+    // Offset: 0x17AFF08
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x17AC0A8
+    // Offset: 0x17AFFE4
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x17ABFE8
+    // Offset: 0x17AFF24
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x17AC370
+    // Offset: 0x17B02AC
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Transform> System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator()
-    // Offset: 0x17AC3D8
+    // Offset: 0x17B0314
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* System_Collections_Generic_IEnumerable$UnityEngine_Transform$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x17AC484
+    // Offset: 0x17B03C0
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<GetParents>d__16
   #pragma pack(pop)

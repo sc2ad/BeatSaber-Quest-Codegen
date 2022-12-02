@@ -74,12 +74,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public override System.String get_AlgorithmName()
-    // Offset: 0x23D449C
+    // Offset: 0x23E2768
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.String DesEngine::get_AlgorithmName()
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x23D4B1C
+    // Offset: 0x23E2DE8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,22 +88,22 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<DesEdeEngine*, creationType>()));
     }
     // public override System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23D3C84
+    // Offset: 0x23E1F50
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public override System.Int32 GetBlockSize()
-    // Offset: 0x23D44E4
+    // Offset: 0x23E27B0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::GetBlockSize()
     int GetBlockSize();
     // public override System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23D44EC
+    // Offset: 0x23E27B8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Void Reset()
-    // Offset: 0x23D4B18
+    // Offset: 0x23E2DE4
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Void DesEngine::Reset()
     void Reset();

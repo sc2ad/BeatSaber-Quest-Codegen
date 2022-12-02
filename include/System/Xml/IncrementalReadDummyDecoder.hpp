@@ -30,12 +30,12 @@ namespace System::Xml {
   class IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder {
     public:
     // override System.Boolean get_IsFull()
-    // Offset: 0x1AE2C18
+    // Offset: 0x1AEDC00
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Boolean IncrementalReadDecoder::get_IsFull()
     bool get_IsFull();
     // public System.Void .ctor()
-    // Offset: 0x1AE2C28
+    // Offset: 0x1AEDC10
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Void IncrementalReadDecoder::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -44,7 +44,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<IncrementalReadDummyDecoder*, creationType>()));
     }
     // override System.Int32 Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1AE2C20
+    // Offset: 0x1AEDC08
     // Implemented from: System.Xml.IncrementalReadDecoder
     // Base method: System.Int32 IncrementalReadDecoder::Decode(System.Char[] chars, System.Int32 startPos, System.Int32 len)
     int Decode(::ArrayW<::Il2CppChar> chars, int startPos, int len);

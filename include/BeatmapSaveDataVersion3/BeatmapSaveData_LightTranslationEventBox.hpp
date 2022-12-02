@@ -99,28 +99,28 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightTranslationBaseData> l
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightTranslationBaseData*>*& dyn_l();
     // public System.Single get_gapDistributionParam()
-    // Offset: 0x2746470
+    // Offset: 0x27566A8
     float get_gapDistributionParam();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType get_gapDistributionParamType()
-    // Offset: 0x2746478
+    // Offset: 0x27566B0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType get_gapDistributionParamType();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis get_axis()
-    // Offset: 0x2746480
+    // Offset: 0x27566B8
     ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis get_axis();
     // public System.Boolean get_flipTranslation()
-    // Offset: 0x2746488
+    // Offset: 0x27566C0
     bool get_flipTranslation();
     // public System.Boolean get_gapDistributionShouldAffectFirstBaseEvent()
-    // Offset: 0x2746498
+    // Offset: 0x27566D0
     bool get_gapDistributionShouldAffectFirstBaseEvent();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType get_gapDistributionEaseType()
-    // Offset: 0x27464A8
+    // Offset: 0x27566E0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType get_gapDistributionEaseType();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightTranslationBaseData> get_lightTranslationBaseDataList()
-    // Offset: 0x27464B0
+    // Offset: 0x27566E8
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightTranslationBaseData*>* get_lightTranslationBaseDataList();
     // public System.Void .ctor(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.IndexFilter indexFilter, System.Single beatDistributionPara, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType beatDistributionParamType, System.Single gapDistributionParam, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox/BeatmapSaveDataVersion3.DistributionParamType gapDistributionParamType, System.Boolean gapDistributionShouldAffectFirstBaseEvent, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType gapDistributionEaseType, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis axis, System.Boolean flipTranslation, System.Collections.Generic.List`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightTranslationBaseData> lightTranslationBaseDataList)
-    // Offset: 0x27464B8
+    // Offset: 0x27566F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightTranslationEventBox* New_ctor(::BeatmapSaveDataVersion3::BeatmapSaveData::IndexFilter* indexFilter, float beatDistributionPara, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType beatDistributionParamType, float gapDistributionParam, ::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType gapDistributionEaseType, ::BeatmapSaveDataVersion3::BeatmapSaveData::Axis axis, bool flipTranslation, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BeatmapSaveData::LightTranslationBaseData*>* lightTranslationBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightTranslationEventBox::.ctor");

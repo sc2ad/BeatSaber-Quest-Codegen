@@ -26,14 +26,14 @@ namespace RootMotion::FinalIK {
   class Inertia::Body::EffectorLink : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113E6A4
+    // [TooltipAttribute] Offset: 0x113E4A4
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E6DC
+    // [TooltipAttribute] Offset: 0x113E4DC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     [[deprecated("Use field access instead!")]] float& dyn_weight();
     // public System.Void .ctor()
-    // Offset: 0x2403B48
+    // Offset: 0x2412E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Inertia::Body::EffectorLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Inertia::Body::EffectorLink::.ctor");

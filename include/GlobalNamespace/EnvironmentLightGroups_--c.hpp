@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<LightGroupSO,System.Int32> <>9__6_0
     static void _set_$$9__6_0(::System::Func_2<::GlobalNamespace::LightGroupSO*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1380F08
+    // Offset: 0x1387D34
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1380F6C
+    // Offset: 0x1387D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightGroups::$$c*, creationType>()));
     }
     // System.Int32 <Sort>b__6_0(LightGroupSO s)
-    // Offset: 0x1380F74
+    // Offset: 0x1387DA0
     int $Sort$b__6_0(::GlobalNamespace::LightGroupSO* s);
   }; // EnvironmentLightGroups/<>c
   #pragma pack(pop)

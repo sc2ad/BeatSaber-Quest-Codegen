@@ -54,22 +54,22 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Type listValueType
     static void _set_listValueType(::System::Type* value);
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D02050
+    // Offset: 0x1D0C19C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.XmlTokenizedType Datatype_anySimpleType::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D022B4
+    // Offset: 0x1D0C400
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D0231C
+    // Offset: 0x1D0C468
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Type Datatype_anySimpleType::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public System.Void .ctor()
-    // Offset: 0x1D02384
+    // Offset: 0x1D0C4D0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
@@ -80,13 +80,13 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_QNameXdr*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D023E8
+    // Offset: 0x1D0C534
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // public override System.Object ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
-    // Offset: 0x1D02058
+    // Offset: 0x1D0C1A4
     // Implemented from: System.Xml.Schema.DatatypeImplementation
     // Base method: System.Object DatatypeImplementation::ParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr)
     ::Il2CppObject* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);

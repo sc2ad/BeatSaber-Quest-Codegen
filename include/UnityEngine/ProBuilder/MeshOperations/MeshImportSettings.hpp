@@ -56,32 +56,32 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: private System.Single m_SmoothingThreshold
     [[deprecated("Use field access instead!")]] float& dyn_m_SmoothingThreshold();
     // public System.Boolean get_quads()
-    // Offset: 0x1CEBBA0
+    // Offset: 0x1CF4CEC
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x1CEBBA8
+    // Offset: 0x1CF4CF4
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x1CEBBB4
+    // Offset: 0x1CF4D00
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x1CEBBBC
+    // Offset: 0x1CF4D08
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x1CEBBC8
+    // Offset: 0x1CF4D14
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x1CEBBD0
+    // Offset: 0x1CF4D1C
     void set_smoothingAngle(float value);
     // public System.Void .ctor()
-    // Offset: 0x1CEBCA0
+    // Offset: 0x1CF4DEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshImportSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImportSettings*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x1CEBBD8
+    // Offset: 0x1CF4D24
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -33,13 +33,13 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::RotationEventConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData*, ::GlobalNamespace::SpawnRotationBeatmapEventData*> {
     public:
     // protected SpawnRotationBeatmapEventData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.RotationEventData rotationEventSaveData)
-    // Offset: 0x13CF214
+    // Offset: 0x13AC80C
     ::GlobalNamespace::SpawnRotationBeatmapEventData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData* rotationEventSaveData);
     // static private SpawnRotationBeatmapEventData/SpawnRotationEventType SpawnRotationEventType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ExecutionTime executionTime)
-    // Offset: 0x13CF2CC
+    // Offset: 0x13AC8C4
     static ::GlobalNamespace::SpawnRotationBeatmapEventData::SpawnRotationEventType SpawnRotationEventType(::BeatmapSaveDataVersion3::BeatmapSaveData::ExecutionTime executionTime);
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0x13CCE18
+    // Offset: 0x13AA410
     // Implemented from: BeatmapDataLoader/BeatmapDataItemConvertor`3
     // Base method: System.Void BeatmapDataItemConvertor_3::.ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -72,43 +72,43 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String unit
     [[deprecated("Use field access instead!")]] ::StringW& dyn_unit();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.RangeItemHeaderValue> get_Ranges()
-    // Offset: 0x19BA8A8
+    // Offset: 0x19D7C0C
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
     // public System.String get_Unit()
-    // Offset: 0x19BA91C
+    // Offset: 0x19D7C80
     ::StringW get_Unit();
     // public System.Void .ctor()
-    // Offset: 0x19BA6BC
+    // Offset: 0x19D7A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::RangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeHeaderValue*, creationType>()));
     }
     // private System.Void .ctor(System.Net.Http.Headers.RangeHeaderValue source)
-    // Offset: 0x19BA718
+    // Offset: 0x19D7A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::RangeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RangeHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19BA924
+    // Offset: 0x19D7C88
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.RangeHeaderValue parsedValue)
-    // Offset: 0x19BAAD8
+    // Offset: 0x19D7E3C
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19BA984
+    // Offset: 0x19D7CE8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19BAA54
+    // Offset: 0x19D7DB8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19BB0F8
+    // Offset: 0x19D845C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

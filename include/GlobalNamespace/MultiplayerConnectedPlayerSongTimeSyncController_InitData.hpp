@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single timeScale
     [[deprecated("Use field access instead!")]] float& dyn_timeScale();
     // public System.Void .ctor(System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
-    // Offset: 0x14578C8
+    // Offset: 0x145FD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController::InitData* New_ctor(float startSongTime, float songTimeOffset, float timeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData::.ctor");

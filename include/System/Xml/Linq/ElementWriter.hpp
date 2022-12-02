@@ -69,28 +69,28 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.Linq.NamespaceResolver resolver
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::NamespaceResolver& dyn_resolver();
     // public System.Void .ctor(System.Xml.XmlWriter writer)
-    // Offset: 0x2B1B704
+    // Offset: 0x2B2793C
     ElementWriter(::System::Xml::XmlWriter* writer);
     // public System.Void WriteElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2B1B710
+    // Offset: 0x2B27948
     void WriteElement(::System::Xml::Linq::XElement* e);
     // private System.String GetPrefixOfNamespace(System.Xml.Linq.XNamespace ns, System.Boolean allowDefaultNamespace)
-    // Offset: 0x2B1BBA8
+    // Offset: 0x2B27DE0
     ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
     // private System.Void PushAncestors(System.Xml.Linq.XElement e)
-    // Offset: 0x2B1B8B0
+    // Offset: 0x2B27AE8
     void PushAncestors(::System::Xml::Linq::XElement* e);
     // private System.Void PushElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2B1BF50
+    // Offset: 0x2B28188
     void PushElement(::System::Xml::Linq::XElement* e);
     // private System.Void WriteEndElement()
-    // Offset: 0x2B1BB38
+    // Offset: 0x2B27D70
     void WriteEndElement();
     // private System.Void WriteFullEndElement()
-    // Offset: 0x2B1BB70
+    // Offset: 0x2B27DA8
     void WriteFullEndElement();
     // private System.Void WriteStartElement(System.Xml.Linq.XElement e)
-    // Offset: 0x2B1B9D4
+    // Offset: 0x2B27C0C
     void WriteStartElement(::System::Xml::Linq::XElement* e);
   }; // System.Xml.Linq.ElementWriter
   #pragma pack(pop)

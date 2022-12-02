@@ -70,47 +70,47 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     [[deprecated("Use field access instead!")]] uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_requestId()
-    // Offset: 0x15C02F4
+    // Offset: 0x15C9218
     uint get_requestId();
     // private System.Void set_requestId(System.UInt32 value)
-    // Offset: 0x15C02FC
+    // Offset: 0x15C9220
     void set_requestId(uint value);
     // public System.UInt32 get_responseId()
-    // Offset: 0x15C0304
+    // Offset: 0x15C9228
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x15C030C
+    // Offset: 0x15C9230
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x15C0314
+    // Offset: 0x15C9238
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x15C031C
+    // Offset: 0x15C9240
     ::StringW get_resultCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x15C0408
+    // Offset: 0x15C932C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseReliableResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseReliableResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseReliableResponse*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C0364
+    // Offset: 0x15C9288
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C03A8
+    // Offset: 0x15C92CC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedReliableRequest BGNet.Core.Messages.IUnconnectedReliableRequest.WithRequestId(System.UInt32 requestId)
-    // Offset: 0x15C03F0
+    // Offset: 0x15C9314
     ::BGNet::Core::Messages::IUnconnectedReliableRequest* BGNet_Core_Messages_IUnconnectedReliableRequest_WithRequestId(uint requestId);
     // private BGNet.Core.Messages.IUnconnectedResponse BGNet.Core.Messages.IUnconnectedResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x15C03F8
+    // Offset: 0x15C931C
     ::BGNet::Core::Messages::IUnconnectedResponse* BGNet_Core_Messages_IUnconnectedResponse_WithResponseId(uint responseId);
     // private BGNet.Core.Messages.IUnconnectedReliableResponse BGNet.Core.Messages.IUnconnectedReliableResponse.WithRequestAndResponseId(System.UInt32 requestId, System.UInt32 responseId)
-    // Offset: 0x15C0400
+    // Offset: 0x15C9324
     ::BGNet::Core::Messages::IUnconnectedReliableResponse* BGNet_Core_Messages_IUnconnectedReliableResponse_WithRequestAndResponseId(uint requestId, uint responseId);
   }; // BGNet.Core.Messages.BaseReliableResponse
   #pragma pack(pop)

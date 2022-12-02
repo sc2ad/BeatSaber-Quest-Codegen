@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class DisableOnNonQuest : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1435A48
+    // Offset: 0x143CCEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableOnNonQuest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableOnNonQuest::.ctor");

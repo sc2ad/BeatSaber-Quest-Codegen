@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithChallengeEntryList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ChallengeEntryList*> {
     public:
     // protected Oculus.Platform.Models.ChallengeEntryList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A04E94
+    // Offset: 0x1A0DD84
     ::Oculus::Platform::Models::ChallengeEntryList* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A01784
+    // Offset: 0x1A0A674
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithChallengeEntryList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.ChallengeEntryList GetChallengeEntryList()
-    // Offset: 0x1A04E50
+    // Offset: 0x1A0DD40
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.ChallengeEntryList Message::GetChallengeEntryList()
     ::Oculus::Platform::Models::ChallengeEntryList* GetChallengeEntryList();

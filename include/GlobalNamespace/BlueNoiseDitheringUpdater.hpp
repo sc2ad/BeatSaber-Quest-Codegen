@@ -64,20 +64,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomValueToShader _randomValueToShader
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomValueToShader*& dyn__randomValueToShader();
     // public System.Void .ctor()
-    // Offset: 0x1CC3CF8
+    // Offset: 0x1CCDE44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlueNoiseDitheringUpdater* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlueNoiseDitheringUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDitheringUpdater*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x1CC3A0C
+    // Offset: 0x1CCDB58
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CC3B24
+    // Offset: 0x1CCDC70
     void OnDisable();
     // public System.Void HandleCameraPreRender(UnityEngine.Camera camera)
-    // Offset: 0x1CC3BE8
+    // Offset: 0x1CCDD34
     void HandleCameraPreRender(::UnityEngine::Camera* camera);
   }; // BlueNoiseDitheringUpdater
   #pragma pack(pop)

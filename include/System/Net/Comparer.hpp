@@ -37,14 +37,14 @@ namespace System::Net {
       return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1A8A340
+    // Offset: 0x1A95328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Comparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Comparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Comparer*, creationType>()));
     }
     // private System.Int32 System.Collections.IComparer.Compare(System.Object ol, System.Object or)
-    // Offset: 0x1A8A25C
+    // Offset: 0x1A95244
     int System_Collections_IComparer_Compare(::Il2CppObject* ol, ::Il2CppObject* _or);
   }; // System.Net.Comparer
   #pragma pack(pop)

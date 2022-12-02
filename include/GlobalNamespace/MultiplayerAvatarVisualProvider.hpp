@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AvatarVisualController* avatarVisualController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AvatarVisualController*) == 0x8);
-    // [InjectAttribute] Offset: 0x110EB90
+    // [InjectAttribute] Offset: 0x110E900
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()
-    // Offset: 0x148DA18
+    // Offset: 0x14B1C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerAvatarVisualProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerAvatarVisualProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerAvatarVisualProvider*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x148D918
+    // Offset: 0x14B1B28
     void Start();
   }; // MultiplayerAvatarVisualProvider
   #pragma pack(pop)

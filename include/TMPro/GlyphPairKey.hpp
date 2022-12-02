@@ -68,10 +68,10 @@ namespace TMPro {
     // Get instance field reference: public System.Int64 key
     [[deprecated("Use field access instead!")]] int64_t& dyn_key();
     // public System.Void .ctor(System.UInt32 firstGlyphIndex, System.UInt32 secondGlyphIndex)
-    // Offset: 0x1492E38
+    // Offset: 0x1484FBC
     GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex);
     // System.Void .ctor(TMPro.TMP_GlyphPairAdjustmentRecord record)
-    // Offset: 0x1492E4C
+    // Offset: 0x1484FD0
     GlyphPairKey(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
   }; // TMPro.GlyphPairKey
   #pragma pack(pop)

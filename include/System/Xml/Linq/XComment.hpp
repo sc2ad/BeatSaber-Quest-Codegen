@@ -51,34 +51,34 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.String value
     [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // public System.String get_Value()
-    // Offset: 0x2B1DDF0
+    // Offset: 0x2B2A028
     ::StringW get_Value();
     // public System.Void .ctor(System.String value)
-    // Offset: 0x2B1DCA4
+    // Offset: 0x2B29EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XComment* New_ctor(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XComment*, creationType>(value)));
     }
     // public System.Void .ctor(System.Xml.Linq.XComment other)
-    // Offset: 0x2B1DD48
+    // Offset: 0x2B29F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XComment* New_ctor(::System::Xml::Linq::XComment* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XComment*, creationType>(other)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2B1DDE8
+    // Offset: 0x2B2A020
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2B1DDF8
+    // Offset: 0x2B2A030
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2B1DE98
+    // Offset: 0x2B2A0D0
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

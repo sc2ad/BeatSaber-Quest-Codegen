@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapEventDataLightsExtensions::LightSwitchEventEffectDataValues
     class LightSwitchEventEffectDataValues;
     // static public EnvironmentColorType LightColorTypeFromEventDataValue(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x27408E0
+    // Offset: 0x2750B18
     static ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // static public EnvironmentColorType GetLightColorTypeFromEventDataValue(System.Int32 beatmapEventValue)
-    // Offset: 0x27408F8
+    // Offset: 0x2750B30
     static ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int beatmapEventValue);
     // static public System.Boolean HasLightFadeEventDataValue(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x2740924
+    // Offset: 0x2750B5C
     static bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // static public System.Boolean HasFixedDurationLightSwitchEventDataValue(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x2740958
+    // Offset: 0x2750B90
     static bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // static private System.Boolean HasFixedDurationLightSwitchEventDataValue(System.Int32 beatmapEventValue)
-    // Offset: 0x27409A4
+    // Offset: 0x2750BDC
     static bool HasFixedDurationLightSwitchEventDataValue(int beatmapEventValue);
   }; // BeatmapEventDataLightsExtensions
   #pragma pack(pop)

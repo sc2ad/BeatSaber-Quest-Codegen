@@ -64,7 +64,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean Success
     [[deprecated("Use field access instead!")]] bool& dyn_Success();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A03FF0
+    // Offset: 0x1A0CEE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDeleteResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetFileDeleteResult::.ctor");

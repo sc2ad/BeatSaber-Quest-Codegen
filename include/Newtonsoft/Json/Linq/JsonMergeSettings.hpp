@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Linq {
   class JsonMergeSettings : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x179F7EC
+    // Offset: 0x17A3728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonMergeSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonMergeSettings::.ctor");

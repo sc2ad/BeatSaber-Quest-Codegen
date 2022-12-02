@@ -275,10 +275,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.Messages.IUnconnectedAuthenticateResponse> <>u__11
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedAuthenticateResponse*>& dyn_$$u__11();
     // private System.Void MoveNext()
-    // Offset: 0x15BD9DC
+    // Offset: 0x15C6900
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15BEC5C
+    // Offset: 0x15C7B80
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<AuthenticateWithServerAsyncInternal>d__32
   // WARNING Not writing size check since size may be invalid!

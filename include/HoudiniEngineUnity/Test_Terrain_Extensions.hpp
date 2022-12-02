@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Terrain_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Terrain ToTestObject(UnityEngine.Terrain self)
-    // Offset: 0x2B14494
+    // Offset: 0x2B206CC
     static ::HoudiniEngineUnity::Test_Terrain* ToTestObject(::UnityEngine::Terrain* self);
     // static public HoudiniEngineUnity.Test_Terrain[] ToTestObject(UnityEngine.Terrain[] self)
-    // Offset: 0x2B144F8
+    // Offset: 0x2B20730
     static ::ArrayW<::HoudiniEngineUnity::Test_Terrain*> ToTestObject(::ArrayW<::UnityEngine::Terrain*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Terrain> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Terrain> self)
-    // Offset: 0x2B145E4
+    // Offset: 0x2B2081C
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Terrain*>* self);
   }; // HoudiniEngineUnity.Test_Terrain_Extensions
   #pragma pack(pop)

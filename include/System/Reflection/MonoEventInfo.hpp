@@ -121,10 +121,10 @@ namespace System::Reflection {
     // Get instance field reference: public System.Reflection.MethodInfo[] other_methods
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Reflection::MethodInfo*>& dyn_other_methods();
     // static private System.Void get_event_info(System.Reflection.MonoEvent ev, out System.Reflection.MonoEventInfo info)
-    // Offset: 0x1DF1CE0
+    // Offset: 0x1DFDE2C
     static void get_event_info(::System::Reflection::MonoEvent* ev, ByRef<::System::Reflection::MonoEventInfo> info);
     // static System.Reflection.MonoEventInfo GetEventInfo(System.Reflection.MonoEvent ev)
-    // Offset: 0x1DF18F0
+    // Offset: 0x1DFDA3C
     static ::System::Reflection::MonoEventInfo GetEventInfo(::System::Reflection::MonoEvent* ev);
   }; // System.Reflection.MonoEventInfo
   #pragma pack(pop)

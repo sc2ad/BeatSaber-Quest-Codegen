@@ -55,25 +55,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x1F49284
+    // Offset: 0x1F573D0
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x1F47D54
+    // Offset: 0x1F55EA0
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x1F47A24
+    // Offset: 0x1F55B70
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x1F492B8
+    // Offset: 0x1F57404
     bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1F49464
+    // Offset: 0x1F575B0
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x1F495F8
+    // Offset: 0x1F57744
     void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x1F4906C
+    // Offset: 0x1F571B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

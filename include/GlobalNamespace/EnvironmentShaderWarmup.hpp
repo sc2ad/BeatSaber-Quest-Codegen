@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Material*> materials;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Material*>) == 0x8);
-    // [InjectAttribute] Offset: 0x110BE98
+    // [InjectAttribute] Offset: 0x110BC08
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0x110BEA8
+    // [InjectAttribute] Offset: 0x110BC18
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x28
@@ -105,14 +105,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _parentingTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__parentingTransform();
     // public System.Void .ctor()
-    // Offset: 0x1381DF0
+    // Offset: 0x1388C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentShaderWarmup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentShaderWarmup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentShaderWarmup*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1381D54
+    // Offset: 0x1388B80
     ::System::Collections::IEnumerator* Start();
   }; // EnvironmentShaderWarmup
   #pragma pack(pop)

@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x11173A8
+    // [InjectAttribute] Offset: 0x1117138
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x30
@@ -79,23 +79,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILevelEndActions _gameplayManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // public System.Void .ctor()
-    // Offset: 0x134305C
+    // Offset: 0x1348044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFinishedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelFinishedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFinishedController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1342DC0
+    // Offset: 0x1347DA8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1342EAC
+    // Offset: 0x1347E94
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x1342FA4
+    // Offset: 0x1347F8C
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0x1342FA8
+    // Offset: 0x1347F90
     void StartLevelFinished();
   }; // MissionLevelFinishedController
   #pragma pack(pop)

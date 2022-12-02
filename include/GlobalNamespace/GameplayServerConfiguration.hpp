@@ -49,14 +49,14 @@ namespace GlobalNamespace {
   struct GameplayServerConfiguration/*, public ::System::ValueType, public ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>, public ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayServerConfiguration>*/ {
     public:
     public:
-    // [JsonPropertyAttribute] Offset: 0x10F36E4
+    // [JsonPropertyAttribute] Offset: 0x10F4464
     // public readonly System.Int32 maxPlayerCount
     // Size: 0x4
     // Offset: 0x0
     int maxPlayerCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [JsonPropertyAttribute] Offset: 0x10F371C
+    // [JsonPropertyAttribute] Offset: 0x10F449C
     // public readonly DiscoveryPolicy discoveryPolicy
     // Size: 0x1
     // Offset: 0x4
@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::DiscoveryPolicy) == 0x1);
     // Padding between fields: discoveryPolicy and: invitePolicy
     char __padding1[0x3] = {};
-    // [JsonPropertyAttribute] Offset: 0x10F3754
+    // [JsonPropertyAttribute] Offset: 0x10F44D4
     // public readonly InvitePolicy invitePolicy
     // Size: 0x4
     // Offset: 0x8
     ::GlobalNamespace::InvitePolicy invitePolicy;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::InvitePolicy) == 0x4);
-    // [JsonPropertyAttribute] Offset: 0x10F378C
+    // [JsonPropertyAttribute] Offset: 0x10F450C
     // public readonly GameplayServerMode gameplayServerMode
     // Size: 0x4
     // Offset: 0xC
     ::GlobalNamespace::GameplayServerMode gameplayServerMode;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayServerMode) == 0x4);
-    // [JsonPropertyAttribute] Offset: 0x10F37C4
+    // [JsonPropertyAttribute] Offset: 0x10F4544
     // public readonly SongSelectionMode songSelectionMode
     // Size: 0x4
     // Offset: 0x10
     ::GlobalNamespace::SongSelectionMode songSelectionMode;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongSelectionMode) == 0x4);
-    // [JsonPropertyAttribute] Offset: 0x10F37FC
+    // [JsonPropertyAttribute] Offset: 0x10F457C
     // public readonly GameplayServerControlSettings gameplayServerControlSettings
     // Size: 0x4
     // Offset: 0x14
@@ -129,33 +129,33 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly GameplayServerControlSettings gameplayServerControlSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerControlSettings& dyn_gameplayServerControlSettings();
     // public System.Void .ctor(System.Int32 maxPlayerCount, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, GameplayServerMode gameplayServerMode, SongSelectionMode songSelectionMode, GameplayServerControlSettings gameplayServerControlSettings)
-    // Offset: 0x16C7910
+    // Offset: 0x16CD6D4
     // ABORTED: conflicts with another method.  GameplayServerConfiguration(int maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode, ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings);
     // public System.Boolean Equals(in GameplayServerConfiguration other)
-    // Offset: 0x16CA59C
+    // Offset: 0x16D0360
     bool Equals(ByRef<::GlobalNamespace::GameplayServerConfiguration> other);
     // public System.Boolean Equals(GameplayServerConfiguration other)
-    // Offset: 0x16CA608
+    // Offset: 0x16D03CC
     bool Equals_(::GlobalNamespace::GameplayServerConfiguration other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CA744
+    // Offset: 0x16D0508
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public GameplayServerConfiguration CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CA7C4
+    // Offset: 0x16D0588
     ::GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayServerConfiguration Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CA7CC
+    // Offset: 0x16D0590
     static ::GlobalNamespace::GameplayServerConfiguration Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public GameplayServerConfiguration WithMaxPlayerCount(System.Int32 maxPlayerCount)
-    // Offset: 0x16CA870
+    // Offset: 0x16D0634
     ::GlobalNamespace::GameplayServerConfiguration WithMaxPlayerCount(int maxPlayerCount);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x16CA60C
+    // Offset: 0x16D03D0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16CA6E4
+    // Offset: 0x16D04A8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -164,10 +164,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayServerConfiguration), 20 + sizeof(::GlobalNamespace::GameplayServerControlSettings)> __GlobalNamespace_GameplayServerConfigurationSizeCheck;
   static_assert(sizeof(GameplayServerConfiguration) == 0x18);
   // static public System.Boolean op_Equality(in GameplayServerConfiguration a, in GameplayServerConfiguration b)
-  // Offset: 0x16CA724
+  // Offset: 0x16D04E8
   bool operator ==(const ::GlobalNamespace::GameplayServerConfiguration&& a, const ::GlobalNamespace::GameplayServerConfiguration&& b);
   // static public System.Boolean op_Inequality(in GameplayServerConfiguration a, in GameplayServerConfiguration b)
-  // Offset: 0x16CA728
+  // Offset: 0x16D04EC
   bool operator !=(const ::GlobalNamespace::GameplayServerConfiguration&& a, const ::GlobalNamespace::GameplayServerConfiguration&& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

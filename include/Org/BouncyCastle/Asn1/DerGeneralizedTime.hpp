@@ -57,51 +57,51 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.String time
     [[deprecated("Use field access instead!")]] ::StringW& dyn_time();
     // private System.Boolean get_HasFractionalSeconds()
-    // Offset: 0x1CE3E60
+    // Offset: 0x1CECFAC
     bool get_HasFractionalSeconds();
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1CD651C
+    // Offset: 0x1CDF668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerGeneralizedTime* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerGeneralizedTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGeneralizedTime*, creationType>(bytes)));
     }
     // static public Org.BouncyCastle.Asn1.DerGeneralizedTime GetInstance(System.Object obj)
-    // Offset: 0x1CE34D8
+    // Offset: 0x1CEC624
     static ::Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x1CE35E4
+    // Offset: 0x1CEC730
     ::StringW GetTime();
     // private System.String CalculateGmtOffset()
-    // Offset: 0x1CE38EC
+    // Offset: 0x1CECA38
     ::StringW CalculateGmtOffset();
     // static private System.String Convert(System.Int32 time)
-    // Offset: 0x1CE3DC8
+    // Offset: 0x1CECF14
     static ::StringW Convert(int time);
     // public System.DateTime ToDateTime()
-    // Offset: 0x1CE3B80
+    // Offset: 0x1CECCCC
     ::System::DateTime ToDateTime();
     // private System.String FString(System.Int32 count)
-    // Offset: 0x1CE3E90
+    // Offset: 0x1CECFDC
     ::StringW FString(int count);
     // private System.DateTime ParseDateString(System.String s, System.String format, System.Boolean makeUniversal)
-    // Offset: 0x1CE3F2C
+    // Offset: 0x1CED078
     ::System::DateTime ParseDateString(::StringW s, ::StringW format, bool makeUniversal);
     // private System.Byte[] GetOctets()
-    // Offset: 0x1CE414C
+    // Offset: 0x1CED298
     ::ArrayW<uint8_t> GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1CE4158
+    // Offset: 0x1CED2A4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1CE4194
+    // Offset: 0x1CED2E0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1CE4248
+    // Offset: 0x1CED394
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();

@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EB014
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10EBD94
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<BasicBeatmapEventType,BasicBeatmapEventData> _defaultsForType
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* _get__defaultsForType();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<BasicBeatmapEventType,BasicBeatmapEventData> _defaultsForType
@@ -82,48 +82,43 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single floatValue
     [[deprecated("Use field access instead!")]] float& dyn_floatValue();
     // public BasicBeatmapEventData get_previousSameTypeEventData()
-    // Offset: 0x273FB10
+    // Offset: 0x274FD50
     ::GlobalNamespace::BasicBeatmapEventData* get_previousSameTypeEventData();
     // public BasicBeatmapEventData get_nextSameTypeEventData()
-    // Offset: 0x273FB90
+    // Offset: 0x274FDD0
     ::GlobalNamespace::BasicBeatmapEventData* get_nextSameTypeEventData();
     // public System.Int32 get_sameTypeIndex()
-    // Offset: 0x273FC18
+    // Offset: 0x274FE50
     int get_sameTypeIndex();
     // private System.Void set_sameTypeIndex(System.Int32 value)
-    // Offset: 0x273FC20
+    // Offset: 0x274FE58
     void set_sameTypeIndex(int value);
     // public System.Void .ctor(System.Single time, BasicBeatmapEventType basicBeatmapEventType, System.Int32 value, System.Single floatValue)
-    // Offset: 0x273FC28
+    // Offset: 0x274FE60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapEventData* New_ctor(float time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapEventData*, creationType>(time, basicBeatmapEventType, value, floatValue)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x273FE94
+    // Offset: 0x27500CC
     static void _cctor();
     // static public System.Int32 SubtypeIdentifier(BasicBeatmapEventType type)
-    // Offset: 0x273FCD0
+    // Offset: 0x274FF08
     static int SubtypeIdentifier(::GlobalNamespace::BasicBeatmapEventType type);
     // public System.Void SetFirstSameTypeIndex()
-    // Offset: 0x273FD5C
+    // Offset: 0x274FF94
     void SetFirstSameTypeIndex();
     // public System.Void RecalculateSameTypeIndexFromPreviousEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x273FD68
+    // Offset: 0x274FFA0
     void RecalculateSameTypeIndexFromPreviousEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-    // public override System.Int32 get_subtypeGroupIdentifier()
-    // Offset: 0x273FC10
-    // Implemented from: BeatmapDataItem
-    // Base method: System.Int32 BeatmapDataItem::get_subtypeGroupIdentifier()
-    int get_subtypeGroupIdentifier();
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x273FCD4
+    // Offset: 0x274FF0C
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x273FD88
+    // Offset: 0x274FFC0
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();
@@ -202,14 +197,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* basicBeatmapEventData = &::il2cpp_utils::GetClassFromName("", "BasicBeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapEventData*), "RecalculateSameTypeIndexFromPreviousEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{basicBeatmapEventData});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapEventData::get_subtypeGroupIdentifier
-// Il2CppName: get_subtypeGroupIdentifier
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BasicBeatmapEventData::*)()>(&GlobalNamespace::BasicBeatmapEventData::get_subtypeGroupIdentifier)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicBeatmapEventData*), "get_subtypeGroupIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BasicBeatmapEventData::GetCopy

@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal::Commands {
   class TestCommand : public ::Il2CppObject {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x11077D8
+    // [DebuggerBrowsableAttribute] Offset: 0x1108558
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -53,13 +53,13 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: private NUnit.Framework.Internal.Test <Test>k__BackingField
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
     // public NUnit.Framework.Internal.Test get_Test()
-    // Offset: 0x1D55148
+    // Offset: 0x1D5F294
     ::NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
-    // Offset: 0x1D55150
+    // Offset: 0x1D5F29C
     void set_Test(::NUnit::Framework::Internal::Test* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
-    // Offset: 0x1D539F4
+    // Offset: 0x1D5DB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommand* New_ctor(::NUnit::Framework::Internal::Test* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::TestCommand::.ctor");

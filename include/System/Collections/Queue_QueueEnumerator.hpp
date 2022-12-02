@@ -78,23 +78,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Object currentElement
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_currentElement();
     // public System.Object get_Current()
-    // Offset: 0x1D934A4
+    // Offset: 0x1D9E5F0
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Queue q)
-    // Offset: 0x1D93058
+    // Offset: 0x1D9E1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue::QueueEnumerator* New_ctor(::System::Collections::Queue* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::QueueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue::QueueEnumerator*, creationType>(q)));
     }
     // public System.Object Clone()
-    // Offset: 0x1D933A0
+    // Offset: 0x1D9E4EC
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1D933A8
+    // Offset: 0x1D9E4F4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D93564
+    // Offset: 0x1D9E6B0
     void Reset();
   }; // System.Collections.Queue/System.Collections.QueueEnumerator
   #pragma pack(pop)

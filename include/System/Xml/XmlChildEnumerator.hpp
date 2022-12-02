@@ -70,26 +70,26 @@ namespace System::Xml {
     // Get instance field reference: System.Boolean isFirst
     [[deprecated("Use field access instead!")]] bool& dyn_isFirst();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1C27F7C
+    // Offset: 0x1C356F0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Xml.XmlNode get_Current()
-    // Offset: 0x1C27F80
+    // Offset: 0x1C356F4
     ::System::Xml::XmlNode* get_Current();
     // System.Void .ctor(System.Xml.XmlNode container)
-    // Offset: 0x1C27E70
+    // Offset: 0x1C355E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlChildEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlChildEnumerator*, creationType>(container)));
     }
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x1C27EC4
+    // Offset: 0x1C35638
     bool System_Collections_IEnumerator_MoveNext();
     // System.Boolean MoveNext()
-    // Offset: 0x1C27EC8
+    // Offset: 0x1C3563C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1C27F38
+    // Offset: 0x1C356AC
     void System_Collections_IEnumerator_Reset();
   }; // System.Xml.XmlChildEnumerator
   #pragma pack(pop)

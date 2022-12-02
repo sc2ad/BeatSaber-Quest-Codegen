@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 lightGroupId
     [[deprecated("Use field access instead!")]] int& dyn_lightGroupId();
     // public System.Void .ctor()
-    // Offset: 0x1386368
+    // Offset: 0x138D194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestGameplayManager::$$c__DisplayClass20_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestGameplayManager::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestGameplayManager::$$c__DisplayClass20_0*, creationType>()));
     }
     // System.Boolean <AddToggleEventsForLightGroup>b__0(LightGroup x)
-    // Offset: 0x13869DC
+    // Offset: 0x138D808
     bool $AddToggleEventsForLightGroup$b__0(::GlobalNamespace::LightGroup* x);
   }; // EventsTestGameplayManager/<>c__DisplayClass20_0
   #pragma pack(pop)

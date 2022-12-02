@@ -116,90 +116,90 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private System.Boolean dirty
     [[deprecated("Use field access instead!")]] bool& dyn_dirty();
     // public System.Boolean get_IsMarkedForDeletion()
-    // Offset: 0x1FD2AB8
+    // Offset: 0x1FC40E0
     bool get_IsMarkedForDeletion();
     // static private System.String get_UserStore()
-    // Offset: 0x1FD1BCC
+    // Offset: 0x1FC31F4
     static ::StringW get_UserStore();
     // static private System.String get_MachineStore()
-    // Offset: 0x1FD1CD8
+    // Offset: 0x1FC3300
     static ::StringW get_MachineStore();
     // static private System.Void .cctor()
-    // Offset: 0x1FCF8D8
+    // Offset: 0x1FC0F00
     static void _cctor();
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir)
-    // Offset: 0x1FCFBF4
+    // Offset: 0x1FC121C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(::Microsoft::Win32::RegistryKey* rkey, ::StringW basedir) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir)));
     }
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir, System.Boolean is_volatile)
-    // Offset: 0x1FCFBFC
+    // Offset: 0x1FC1224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(::Microsoft::Win32::RegistryKey* rkey, ::StringW basedir, bool is_volatile) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir, is_volatile)));
     }
     // public System.Void Load()
-    // Offset: 0x1FCFE8C
+    // Offset: 0x1FC14B4
     void Load();
     // private System.Void LoadKey(System.Security.SecurityElement se)
-    // Offset: 0x1FD04C4
+    // Offset: 0x1FC1AEC
     void LoadKey(::System::Security::SecurityElement* se);
     // public Microsoft.Win32.RegistryKey Ensure(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable, System.Boolean is_volatile)
-    // Offset: 0x1FD0B3C
+    // Offset: 0x1FC2164
     ::Microsoft::Win32::RegistryKey* Ensure(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable, bool is_volatile);
     // public Microsoft.Win32.RegistryKey Probe(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable)
-    // Offset: 0x1FD0EDC
+    // Offset: 0x1FC2504
     ::Microsoft::Win32::RegistryKey* Probe(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable);
     // static private System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String extra)
-    // Offset: 0x1FD0DF4
+    // Offset: 0x1FC241C
     static ::StringW CombineName(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra);
     // static private System.Int64 GetSystemBootTime()
-    // Offset: 0x1FD1474
+    // Offset: 0x1FC2A9C
     static int64_t GetSystemBootTime();
     // static private System.Int64 GetRegisteredBootTime(System.String path)
-    // Offset: 0x1FD1760
+    // Offset: 0x1FC2D88
     static int64_t GetRegisteredBootTime(::StringW path);
     // static private System.Void SaveRegisteredBootTime(System.String path, System.Int64 btime)
-    // Offset: 0x1FD1A00
+    // Offset: 0x1FC3028
     static void SaveRegisteredBootTime(::StringW path, int64_t btime);
     // static private System.Void CleanVolatileKeys()
-    // Offset: 0x1FCF9D4
+    // Offset: 0x1FC0FFC
     static void CleanVolatileKeys();
     // static public System.Boolean VolatileKeyExists(System.String dir)
-    // Offset: 0x1FD1260
+    // Offset: 0x1FC2888
     static bool VolatileKeyExists(::StringW dir);
     // static public System.String GetVolatileDir(System.String dir)
-    // Offset: 0x1FCFDCC
+    // Offset: 0x1FC13F4
     static ::StringW GetVolatileDir(::StringW dir);
     // static public Microsoft.Win32.KeyHandler Lookup(Microsoft.Win32.RegistryKey rkey, System.Boolean createNonExisting)
-    // Offset: 0x1FD1FB4
+    // Offset: 0x1FC35DC
     static ::Microsoft::Win32::KeyHandler* Lookup(::Microsoft::Win32::RegistryKey* rkey, bool createNonExisting);
     // static private System.String GetRootFromDir(System.String dir)
-    // Offset: 0x1FD1E74
+    // Offset: 0x1FC349C
     static ::StringW GetRootFromDir(::StringW dir);
     // static public System.Void Drop(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FD24B4
+    // Offset: 0x1FC3ADC
     static void Drop(::Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(System.String name, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1FD2940
+    // Offset: 0x1FC3F68
     ::Il2CppObject* GetValue(::StringW name, ::Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames()
-    // Offset: 0x1FD2B48
+    // Offset: 0x1FC4170
     ::ArrayW<::StringW> GetSubKeyNames();
     // public System.Void Flush()
-    // Offset: 0x1FD2F74
+    // Offset: 0x1FC459C
     void Flush();
     // public System.Boolean ValueExists(System.String name)
-    // Offset: 0x1FD3A54
+    // Offset: 0x1FC507C
     bool ValueExists(::StringW name);
     // private System.Void Save()
-    // Offset: 0x1FD3070
+    // Offset: 0x1FC4698
     void Save();
     // protected override System.Void Finalize()
-    // Offset: 0x1FD3B4C
+    // Offset: 0x1FC5174
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

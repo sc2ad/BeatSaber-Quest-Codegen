@@ -47,14 +47,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Get instance field reference: private readonly System.Byte alertDescription
     [[deprecated("Use field access instead!")]] uint8_t& dyn_alertDescription();
     // public System.Void .ctor(System.Byte alertDescription)
-    // Offset: 0x165F798
+    // Offset: 0x1651660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsFatalAlert*, creationType>(alertDescription)));
     }
     // public System.Void .ctor(System.Byte alertDescription, System.Exception alertCause)
-    // Offset: 0x165F938
+    // Offset: 0x1651800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsFatalAlert* New_ctor(uint8_t alertDescription, ::System::Exception* alertCause) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::.ctor");

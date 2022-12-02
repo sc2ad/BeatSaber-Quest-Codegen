@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerScoreRingItem::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerScoreRingItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14EABC0
+    // Offset: 0x14F3B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreRingItem::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreRingItem::Pool::.ctor");

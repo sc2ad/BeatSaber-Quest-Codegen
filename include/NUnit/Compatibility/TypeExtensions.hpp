@@ -31,7 +31,7 @@ namespace NUnit::Compatibility {
   class TypeExtensions : public ::Il2CppObject {
     public:
     // static public System.Type GetTypeInfo(System.Type type)
-    // Offset: 0x1D3D6A4
+    // Offset: 0x1D477F0
     static ::System::Type* GetTypeInfo(::System::Type* type);
   }; // NUnit.Compatibility.TypeExtensions
   #pragma pack(pop)

@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithRoomInviteNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RoomInviteNotification*> {
     public:
     // protected Oculus.Platform.Models.RoomInviteNotification GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A0B8CC
+    // Offset: 0x1A147BC
     ::Oculus::Platform::Models::RoomInviteNotification* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A02564
+    // Offset: 0x1A0B454
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithRoomInviteNotification*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.RoomInviteNotification GetRoomInviteNotification()
-    // Offset: 0x1A0B888
+    // Offset: 0x1A14778
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.RoomInviteNotification Message::GetRoomInviteNotification()
     ::Oculus::Platform::Models::RoomInviteNotification* GetRoomInviteNotification();

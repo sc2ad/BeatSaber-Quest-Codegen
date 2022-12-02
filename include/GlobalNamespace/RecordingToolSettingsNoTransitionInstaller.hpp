@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private RecordingToolScenesTransitionSetupDataSO _scenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x141D024
+    // Offset: 0x14242C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSettingsNoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolSettingsNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x141CFDC
+    // Offset: 0x1424280
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(::Zenject::DiContainer* container);

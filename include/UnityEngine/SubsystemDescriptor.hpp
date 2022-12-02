@@ -30,7 +30,7 @@ namespace UnityEngine {
   class SubsystemDescriptor : public ::Il2CppObject/*, public ::UnityEngine::ISubsystemDescriptor*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1099940
+    // [DebuggerBrowsableAttribute] Offset: 0x109B6C0
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -53,10 +53,10 @@ namespace UnityEngine {
     // Get instance field reference: private System.String <id>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$id$k__BackingField();
     // public System.String get_id()
-    // Offset: 0x2B704A8
+    // Offset: 0x2B7C848
     ::StringW get_id();
     // protected System.Void .ctor()
-    // Offset: 0x2B704B0
+    // Offset: 0x2B7C850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubsystemDescriptor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SubsystemDescriptor::.ctor");

@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentInfoSO*) == 0x8);
-    // [TextAreaAttribute] Offset: 0x1125B58
+    // [TextAreaAttribute] Offset: 0x11258F8
     // private System.String _exceptionNotes
     // Size: 0x8
     // Offset: 0x18
@@ -60,13 +60,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String[] _sceneHierarchies
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__sceneHierarchies();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x143ED6C
+    // Offset: 0x1446010
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public System.String[] get_sceneHierarchies()
-    // Offset: 0x143ED74
+    // Offset: 0x1446018
     ::ArrayW<::StringW> get_sceneHierarchies();
     // public System.Void .ctor()
-    // Offset: 0x143ED7C
+    // Offset: 0x1446020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectTestExceptionsSO::GameObjectTestException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameObjectTestExceptionsSO::GameObjectTestException::.ctor");

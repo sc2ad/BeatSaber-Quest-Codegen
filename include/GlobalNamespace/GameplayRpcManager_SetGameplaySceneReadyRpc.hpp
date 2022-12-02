@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::SetGameplaySceneReadyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16CA404
+    // Offset: 0x16D01C8
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

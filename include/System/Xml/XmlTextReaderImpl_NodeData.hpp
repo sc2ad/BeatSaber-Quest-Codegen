@@ -218,86 +218,86 @@ namespace System::Xml {
     // Get instance field reference: System.Object typedValue
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_typedValue();
     // static System.Xml.XmlTextReaderImpl/System.Xml.NodeData get_None()
-    // Offset: 0x2797A00
+    // Offset: 0x27A9C38
     static ::System::Xml::XmlTextReaderImpl::NodeData* get_None();
     // System.Int32 get_LineNo()
-    // Offset: 0x2797B5C
+    // Offset: 0x27A9D94
     int get_LineNo();
     // System.Int32 get_LinePos()
-    // Offset: 0x2797B64
+    // Offset: 0x27A9D9C
     int get_LinePos();
     // System.Boolean get_IsEmptyElement()
-    // Offset: 0x2797B6C
+    // Offset: 0x27A9DA4
     bool get_IsEmptyElement();
     // System.Void set_IsEmptyElement(System.Boolean value)
-    // Offset: 0x2797B90
+    // Offset: 0x27A9DC8
     void set_IsEmptyElement(bool value);
     // System.Boolean get_IsDefaultAttribute()
-    // Offset: 0x2797B9C
+    // Offset: 0x27A9DD4
     bool get_IsDefaultAttribute();
     // System.Void set_IsDefaultAttribute(System.Boolean value)
-    // Offset: 0x2797BC0
+    // Offset: 0x27A9DF8
     void set_IsDefaultAttribute(bool value);
     // System.Boolean get_ValueBuffered()
-    // Offset: 0x2797BCC
+    // Offset: 0x27A9E04
     bool get_ValueBuffered();
     // System.String get_StringValue()
-    // Offset: 0x2797BDC
+    // Offset: 0x27A9E14
     ::StringW get_StringValue();
     // System.Void .ctor()
-    // Offset: 0x2797AA0
+    // Offset: 0x27A9CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::NodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::NodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::NodeData*, creationType>()));
     }
     // System.Void TrimSpacesInValue()
-    // Offset: 0x2797C14
+    // Offset: 0x27A9E4C
     void TrimSpacesInValue();
     // System.Void Clear(System.Xml.XmlNodeType type)
-    // Offset: 0x2797AD4
+    // Offset: 0x27A9D0C
     void Clear(::System::Xml::XmlNodeType type);
     // System.Void ClearName()
-    // Offset: 0x2797C60
+    // Offset: 0x27A9E98
     void ClearName();
     // System.Void SetLineInfo(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x2797CDC
+    // Offset: 0x27A9F14
     void SetLineInfo(int lineNo, int linePos);
     // System.Void SetLineInfo2(System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x2797CE8
+    // Offset: 0x27A9F20
     void SetLineInfo2(int lineNo, int linePos);
     // System.Void SetValueNode(System.Xml.XmlNodeType type, System.String value)
-    // Offset: 0x2797CF4
+    // Offset: 0x27A9F2C
     void SetValueNode(::System::Xml::XmlNodeType type, ::StringW value);
     // System.Void SetValueNode(System.Xml.XmlNodeType type, System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x2797D28
+    // Offset: 0x27A9F60
     void SetValueNode(::System::Xml::XmlNodeType type, ::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName)
-    // Offset: 0x2797D68
+    // Offset: 0x27A9FA0
     void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName);
     // System.Void SetNamedNode(System.Xml.XmlNodeType type, System.String localName, System.String prefix, System.String nameWPrefix)
-    // Offset: 0x2797DDC
+    // Offset: 0x27AA014
     void SetNamedNode(::System::Xml::XmlNodeType type, ::StringW localName, ::StringW prefix, ::StringW nameWPrefix);
     // System.Void SetValue(System.String value)
-    // Offset: 0x2797E74
+    // Offset: 0x27AA0AC
     void SetValue(::StringW value);
     // System.Void SetValue(System.Char[] chars, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x2797E84
+    // Offset: 0x27AA0BC
     void SetValue(::ArrayW<::Il2CppChar> chars, int startPos, int len);
     // System.Void OnBufferInvalidated()
-    // Offset: 0x2797E90
+    // Offset: 0x27AA0C8
     void OnBufferInvalidated();
     // System.Void CopyTo(System.Int32 valueOffset, System.Text.StringBuilder sb)
-    // Offset: 0x2797EE0
+    // Offset: 0x27AA118
     void CopyTo(int valueOffset, ::System::Text::StringBuilder* sb);
     // System.String GetNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x2797F64
+    // Offset: 0x27AA19C
     ::StringW GetNameWPrefix(::System::Xml::XmlNameTable* nt);
     // System.String CreateNameWPrefix(System.Xml.XmlNameTable nt)
-    // Offset: 0x2797F78
+    // Offset: 0x27AA1B0
     ::StringW CreateNameWPrefix(::System::Xml::XmlNameTable* nt);
     // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0x2798014
+    // Offset: 0x27AA24C
     int System_IComparable_CompareTo(::Il2CppObject* obj);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.NodeData
   #pragma pack(pop)

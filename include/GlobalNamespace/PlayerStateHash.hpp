@@ -105,59 +105,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BitMask128 _bloomFilter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BitMask128& dyn__bloomFilter();
     // private System.Void .ctor(BitMask128 bloomFilter)
-    // Offset: 0x26BA320
+    // Offset: 0x26C9560
     // ABORTED: conflicts with another method.  PlayerStateHash(::GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.String state)
-    // Offset: 0x26BA328
+    // Offset: 0x26C9568
     PlayerStateHash(::StringW state);
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
-    // Offset: 0x26BA394
+    // Offset: 0x26C95D4
     PlayerStateHash(::System::Collections::Generic::HashSet_1<::StringW>* stateHashSet);
     // public System.Boolean Contains(System.String state)
-    // Offset: 0x26BA400
+    // Offset: 0x26C9640
     bool Contains(::StringW state);
     // public PlayerStateHash AddState(System.String state)
-    // Offset: 0x26BA468
+    // Offset: 0x26C96A8
     ::GlobalNamespace::PlayerStateHash AddState(::StringW state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x26BA4D0
+    // Offset: 0x26C9710
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public PlayerStateHash CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26BA4D8
+    // Offset: 0x26C9718
     ::GlobalNamespace::PlayerStateHash CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public PlayerStateHash Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26BA4E4
+    // Offset: 0x26C9724
     static ::GlobalNamespace::PlayerStateHash Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
-    // Offset: 0x26BA578
+    // Offset: 0x26C97B8
     ::StringW ToShortString();
     // public System.Byte[] ToBytes()
-    // Offset: 0x26BA5C8
+    // Offset: 0x26C9808
     ::ArrayW<uint8_t> ToBytes();
     // public System.Boolean Equals(PlayerStateHash other)
-    // Offset: 0x26BA620
+    // Offset: 0x26C9860
     bool Equals(::GlobalNamespace::PlayerStateHash other);
     // static public System.Boolean TryParse(System.String stringSerializedMask, out PlayerStateHash playerStateHash)
-    // Offset: 0x26BA6E8
+    // Offset: 0x26C9928
     static bool TryParse(::StringW stringSerializedMask, ByRef<::GlobalNamespace::PlayerStateHash> playerStateHash);
     // static public PlayerStateHash Parse(System.String stringSerializedMask)
-    // Offset: 0x26BA7F4
+    // Offset: 0x26C9A34
     static ::GlobalNamespace::PlayerStateHash Parse(::StringW stringSerializedMask);
     // static public PlayerStateHash FromBytes(System.Byte[] bytes, System.Int32 offset)
-    // Offset: 0x26BA8A8
+    // Offset: 0x26C9AE8
     static ::GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t> bytes, int offset);
     // public override System.String ToString()
-    // Offset: 0x26BA4EC
+    // Offset: 0x26C972C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x26BA618
+    // Offset: 0x26C9858
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x26BA64C
+    // Offset: 0x26C988C
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

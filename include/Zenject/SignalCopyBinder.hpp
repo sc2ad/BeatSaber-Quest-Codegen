@@ -57,36 +57,36 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.BindInfo> _bindInfos
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& dyn__bindInfos();
     // public System.Void .ctor()
-    // Offset: 0x1DAEEB8
+    // Offset: 0x1DBA004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCopyBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>()));
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x1DAEF2C
+    // Offset: 0x1DBA078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalCopyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalCopyBinder*, creationType>(bindInfo)));
     }
     // public System.Void AddCopyBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x1DAEFCC
+    // Offset: 0x1DBA118
     void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
     // public System.Void CopyIntoAllSubContainers()
-    // Offset: 0x1DAF034
+    // Offset: 0x1DBA180
     void CopyIntoAllSubContainers();
     // public System.Void CopyIntoDirectSubContainers()
-    // Offset: 0x1DAF0D4
+    // Offset: 0x1DBA220
     void CopyIntoDirectSubContainers();
     // public System.Void MoveIntoAllSubContainers()
-    // Offset: 0x1DAF0DC
+    // Offset: 0x1DBA228
     void MoveIntoAllSubContainers();
     // public System.Void MoveIntoDirectSubContainers()
-    // Offset: 0x1DAF0E4
+    // Offset: 0x1DBA230
     void MoveIntoDirectSubContainers();
     // private System.Void SetInheritanceMethod(Zenject.BindingInheritanceMethods method)
-    // Offset: 0x1DAF03C
+    // Offset: 0x1DBA188
     void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
   }; // Zenject.SignalCopyBinder
   #pragma pack(pop)

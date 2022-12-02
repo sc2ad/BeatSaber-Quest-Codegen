@@ -50,7 +50,7 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     static void _set_values(::System::ComponentModel::TypeConverter::StandardValuesCollection* value);
     // public System.Void .ctor()
-    // Offset: 0x1E10F18
+    // Offset: 0x1E1E064
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,27 +59,27 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<BooleanConverter*, creationType>()));
     }
     // public override System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
-    // Offset: 0x1E10A34
+    // Offset: 0x1E1DB80
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public override System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
-    // Offset: 0x1E10AD4
+    // Offset: 0x1E1DC20
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public override System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1E10CF4
+    // Offset: 0x1E1DE40
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection TypeConverter::GetStandardValues(System.ComponentModel.ITypeDescriptorContext context)
     ::System::ComponentModel::TypeConverter::StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
     // public override System.Boolean GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1E10F08
+    // Offset: 0x1E1E054
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext context)
     bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
     // public override System.Boolean GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1E10F10
+    // Offset: 0x1E1E05C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext context)
     bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);

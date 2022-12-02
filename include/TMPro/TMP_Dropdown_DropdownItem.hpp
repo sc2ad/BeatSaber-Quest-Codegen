@@ -108,41 +108,41 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.UI.Toggle m_Toggle
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Toggle*& dyn_m_Toggle();
     // public TMPro.TMP_Text get_text()
-    // Offset: 0x149C14C
+    // Offset: 0x148E2D0
     ::TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0x149C154
+    // Offset: 0x148E2D8
     void set_text(::TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x149C15C
+    // Offset: 0x148E2E0
     ::UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x149C164
+    // Offset: 0x148E2E8
     void set_image(::UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x149C16C
+    // Offset: 0x148E2F0
     ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x149C174
+    // Offset: 0x148E2F8
     void set_rectTransform(::UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x149C17C
+    // Offset: 0x148E300
     ::UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x149C184
+    // Offset: 0x148E308
     void set_toggle(::UnityEngine::UI::Toggle* value);
     // public System.Void .ctor()
-    // Offset: 0x149C2BC
+    // Offset: 0x148E440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::DropdownItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::DropdownItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::DropdownItem*, creationType>()));
     }
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x149C18C
+    // Offset: 0x148E310
     void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x149C218
+    // Offset: 0x148E39C
     void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // TMPro.TMP_Dropdown/TMPro.DropdownItem
   #pragma pack(pop)

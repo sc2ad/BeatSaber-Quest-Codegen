@@ -92,17 +92,17 @@ namespace System::Threading {
     // Get instance field reference: readonly System.Threading.CancellationTokenSource CancellationTokenSource
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn_CancellationTokenSource();
     // System.Void .ctor(System.Action`1<System.Object> callback, System.Object stateForCallback, System.Threading.SynchronizationContext targetSyncContext, System.Threading.ExecutionContext targetExecutionContext, System.Threading.CancellationTokenSource cancellationTokenSource)
-    // Offset: 0x2274A28
+    // Offset: 0x229B110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CancellationCallbackInfo* New_ctor(::System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* stateForCallback, ::System::Threading::SynchronizationContext* targetSyncContext, ::System::Threading::ExecutionContext* targetExecutionContext, ::System::Threading::CancellationTokenSource* cancellationTokenSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::CancellationCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CancellationCallbackInfo*, creationType>(callback, stateForCallback, targetSyncContext, targetExecutionContext, cancellationTokenSource)));
     }
     // System.Void ExecuteCallback()
-    // Offset: 0x2274A7C
+    // Offset: 0x229B164
     void ExecuteCallback();
     // static private System.Void ExecutionContextCallback(System.Object obj)
-    // Offset: 0x2274C60
+    // Offset: 0x229B348
     static void ExecutionContextCallback(::Il2CppObject* obj);
   }; // System.Threading.CancellationCallbackInfo
   #pragma pack(pop)

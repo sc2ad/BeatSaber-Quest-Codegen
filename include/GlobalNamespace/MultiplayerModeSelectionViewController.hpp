@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1120D04
+    // [SpaceAttribute] Offset: 0x1120AA4
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Size: 0x8
     // Offset: 0x90
@@ -154,7 +154,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* customServerEndPointText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120D4C
+    // [InjectAttribute] Offset: 0x1120AEC
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -185,38 +185,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x13B1538
+    // Offset: 0x13CBE60
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x13B19E4
+    // Offset: 0x13CC30C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void .ctor()
-    // Offset: 0x13B521C
+    // Offset: 0x13CFB44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerModeSelectionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerModeSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionViewController*, creationType>()));
     }
     // public System.Void SetData(MultiplayerStatusData multiplayerStatusData)
-    // Offset: 0x13B4CBC
+    // Offset: 0x13CF5E4
     void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x13B51A4
+    // Offset: 0x13CFACC
     void HandleMenuButton(::GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x13B5224
+    // Offset: 0x13CFB4C
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x13B522C
+    // Offset: 0x13CFB54
     void $DidActivate$b__11_1();
     // private System.Void <DidActivate>b__11_2()
-    // Offset: 0x13B5234
+    // Offset: 0x13CFB5C
     void $DidActivate$b__11_2();
     // private System.Void <DidActivate>b__11_3()
-    // Offset: 0x13B523C
+    // Offset: 0x13CFB64
     void $DidActivate$b__11_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B4F0C
+    // Offset: 0x13CF834
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

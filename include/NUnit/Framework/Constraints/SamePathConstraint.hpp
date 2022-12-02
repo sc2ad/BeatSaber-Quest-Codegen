@@ -30,12 +30,12 @@ namespace NUnit::Framework::Constraints {
   class SamePathConstraint : public ::NUnit::Framework::Constraints::PathConstraint {
     public:
     // public override System.String get_Description()
-    // Offset: 0x1D4BE18
+    // Offset: 0x1D55F64
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
     ::StringW get_Description();
     // public System.Void .ctor(System.String expected)
-    // Offset: 0x1D4A534
+    // Offset: 0x1D54680
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
@@ -45,7 +45,7 @@ namespace NUnit::Framework::Constraints {
       return THROW_UNLESS((::il2cpp_utils::New<SamePathConstraint*, creationType>(expected)));
     }
     // protected override System.Boolean Matches(System.String actual)
-    // Offset: 0x1D4BE9C
+    // Offset: 0x1D55FE8
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
     bool Matches(::StringW actual);

@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public TMPro.TextMeshProUGUI get_text()
-    // Offset: 0x139CF24
+    // Offset: 0x13B844C
     ::TMPro::TextMeshProUGUI* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x139CF2C
+    // Offset: 0x13B8454
     ::UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x139CF34
+    // Offset: 0x13B845C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMeshProButton* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextMeshProButton::.ctor");

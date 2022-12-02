@@ -95,10 +95,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AuthenticationToken> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x172A294
+    // Offset: 0x172F2DC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x172A5E0
+    // Offset: 0x172F628
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<GetAuthenticationRequest>d__17
   // WARNING Not writing size check since size may be invalid!

@@ -51,7 +51,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x11398FC
+    // [RangeAttribute] Offset: 0x11396FC
     // public System.Single IKRotationWeight
     // Size: 0x4
     // Offset: 0x60
@@ -120,52 +120,52 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Boolean directHierarchy
     [[deprecated("Use field access instead!")]] bool& dyn_directHierarchy();
     // public System.Void SetBendGoalPosition(UnityEngine.Vector3 goalPosition, System.Single weight)
-    // Offset: 0x22AE474
+    // Offset: 0x22D3B5C
     void SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, float weight);
     // public System.Void SetBendPlaneToCurrent()
-    // Offset: 0x22AE664
+    // Offset: 0x22D3D4C
     void SetBendPlaneToCurrent();
     // public System.Void SetIKRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x22AE818
+    // Offset: 0x22D3F00
     void SetIKRotation(::UnityEngine::Quaternion rotation);
     // public System.Void SetIKRotationWeight(System.Single weight)
-    // Offset: 0x22AE824
+    // Offset: 0x22D3F0C
     void SetIKRotationWeight(float weight);
     // public UnityEngine.Quaternion GetIKRotation()
-    // Offset: 0x22AE8A8
+    // Offset: 0x22D3F90
     ::UnityEngine::Quaternion GetIKRotation();
     // public System.Single GetIKRotationWeight()
-    // Offset: 0x22AE8B4
+    // Offset: 0x22D3F9C
     float GetIKRotationWeight();
     // public System.Boolean SetChain(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform root)
-    // Offset: 0x22AEF68
+    // Offset: 0x22D4650
     bool SetChain(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* root);
     // static public System.Void Solve(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Vector3 targetPosition, UnityEngine.Vector3 bendNormal, System.Single weight)
-    // Offset: 0x22AEFC0
+    // Offset: 0x22D46A8
     static void Solve(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float weight);
     // static private UnityEngine.Vector3 GetDirectionToBendPoint(UnityEngine.Vector3 direction, System.Single directionMag, UnityEngine.Vector3 bendDirection, System.Single sqrMag1, System.Single sqrMag2)
-    // Offset: 0x22AF568
+    // Offset: 0x22D4C50
     static ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float directionMag, ::UnityEngine::Vector3 bendDirection, float sqrMag1, float sqrMag2);
     // private System.Boolean IsDirectHierarchy()
-    // Offset: 0x22AF93C
+    // Offset: 0x22D5024
     bool IsDirectHierarchy();
     // private System.Void InitiateBones()
-    // Offset: 0x22AF8B8
+    // Offset: 0x22D4FA0
     void InitiateBones();
     // protected System.Void OnInitiateVirtual()
-    // Offset: 0x22B06B8
+    // Offset: 0x22D5DA0
     void OnInitiateVirtual();
     // protected System.Void OnUpdateVirtual()
-    // Offset: 0x22B06BC
+    // Offset: 0x22D5DA4
     void OnUpdateVirtual();
     // protected System.Void OnPostSolveVirtual()
-    // Offset: 0x22B06C0
+    // Offset: 0x22D5DA8
     void OnPostSolveVirtual();
     // protected UnityEngine.Vector3 GetBendDirection(UnityEngine.Vector3 IKPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x22B02F0
+    // Offset: 0x22D59D8
     ::UnityEngine::Vector3 GetBendDirection(::UnityEngine::Vector3 IKPosition, ::UnityEngine::Vector3 bendNormal);
     // public System.Void .ctor()
-    // Offset: 0x22ABACC
+    // Offset: 0x22D11B4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -174,37 +174,37 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverTrigonometric*, creationType>()));
     }
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] GetPoints()
-    // Offset: 0x22AE8BC
+    // Offset: 0x22D3FA4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
     ::ArrayW<::RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x22AE9C0
+    // Offset: 0x22D40A8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point IKSolver::GetPoint(UnityEngine.Transform transform)
     ::RootMotion::FinalIK::IKSolver::Point* GetPoint(::UnityEngine::Transform* transform);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x22AEAE0
+    // Offset: 0x22D41C8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x22AEB2C
+    // Offset: 0x22D4214
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x22AEB8C
+    // Offset: 0x22D4274
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(ByRef<::StringW> message);
     // protected override System.Void OnInitiate()
-    // Offset: 0x22AF780
+    // Offset: 0x22D4E68
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x22AFBE4
+    // Offset: 0x22D52CC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BoolSO* onlineServicesEnabled;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BoolSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112108C
+    // [SpaceAttribute] Offset: 0x1120E2C
     // private UnityEngine.UI.Toggle _enableOnlineServicesToggle
     // Size: 0x8
     // Offset: 0x78
@@ -73,17 +73,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ToggleBinder*& dyn__toggleBinder();
     // public System.Void .ctor()
-    // Offset: 0x1374B34
+    // Offset: 0x137A960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesSettingsViewController*, creationType>()));
     }
     // private System.Void HandleEnableOnlineServicesToggleValueChanged(System.Boolean value)
-    // Offset: 0x1374B30
+    // Offset: 0x137A95C
     void HandleEnableOnlineServicesToggleValueChanged(bool value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1374A48
+    // Offset: 0x137A874
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -50,14 +50,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1987B3C
+    // Offset: 0x198FA64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogCheckDelegatingCommand::$$c__DisplayClass3_1*, creationType>()));
     }
     // System.Void <ExecuteEnumerable>b__0()
-    // Offset: 0x1987B44
+    // Offset: 0x198FA6C
     void $ExecuteEnumerable$b__0();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass3_1
   #pragma pack(pop)

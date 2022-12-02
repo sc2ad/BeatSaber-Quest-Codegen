@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.LODGroup,HoudiniEngineUnity.Test_LODGroup> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::LODGroup*, ::HoudiniEngineUnity::Test_LODGroup*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B11658
+    // Offset: 0x2B1D890
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2B116BC
+    // Offset: 0x2B1D8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LODGroup_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_LODGroup_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LODGroup_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_LODGroup <ToTestObject>b__1_0(UnityEngine.LODGroup lod)
-    // Offset: 0x2B116C4
+    // Offset: 0x2B1D8FC
     ::HoudiniEngineUnity::Test_LODGroup* $ToTestObject$b__1_0(::UnityEngine::LODGroup* lod);
     // HoudiniEngineUnity.Test_LODGroup <ToTestObject>b__2_0(UnityEngine.LODGroup lod)
-    // Offset: 0x2B11728
+    // Offset: 0x2B1D960
     ::HoudiniEngineUnity::Test_LODGroup* $ToTestObject$b__2_0(::UnityEngine::LODGroup* lod);
   }; // HoudiniEngineUnity.Test_LODGroup_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

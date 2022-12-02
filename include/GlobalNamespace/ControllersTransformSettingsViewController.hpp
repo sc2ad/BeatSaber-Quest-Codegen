@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* controllerRotation;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111ECFC
+    // [SpaceAttribute] Offset: 0x111EA8C
     // private HMUI.RangeValuesTextSlider _posXSlider
     // Size: 0x8
     // Offset: 0x80
@@ -126,25 +126,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.RangeValuesTextSlider _rotZSlider
     [[deprecated("Use field access instead!")]] ::HMUI::RangeValuesTextSlider*& dyn__rotZSlider();
     // public System.Void .ctor()
-    // Offset: 0x142C668
+    // Offset: 0x143390C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControllersTransformSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ControllersTransformSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControllersTransformSettingsViewController*, creationType>()));
     }
     // private System.Void HandlePositionSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x142C4BC
+    // Offset: 0x1433760
     void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleRotationSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x142C598
+    // Offset: 0x143383C
     void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x142BD20
+    // Offset: 0x1432FC4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x142C190
+    // Offset: 0x1433434
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

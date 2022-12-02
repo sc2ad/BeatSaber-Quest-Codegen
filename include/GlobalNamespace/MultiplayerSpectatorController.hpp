@@ -64,28 +64,28 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18
     class $SwitchToDefaultSpotCoroutine$d__18;
     public:
-    // [InjectAttribute] Offset: 0x1119A3C
+    // [InjectAttribute] Offset: 0x11197CC
     // private readonly MultiplayerSpectatingSpotManager _spotManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MultiplayerSpectatingSpotManager* spotManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerSpectatingSpotManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119A4C
+    // [InjectAttribute] Offset: 0x11197DC
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _songController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* songController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119A5C
+    // [InjectAttribute] Offset: 0x11197EC
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119A6C
+    // [InjectAttribute] Offset: 0x11197FC
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x30
@@ -128,50 +128,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private IMultiplayerSpectatingSpot _currentSpot
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSpectatingSpot*& dyn__currentSpot();
     // public IMultiplayerSpectatingSpot get_currentSpot()
-    // Offset: 0x14ED7E8
+    // Offset: 0x14F6760
     ::GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
     // public System.Void add_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x14ED444
+    // Offset: 0x14F63BC
     void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void remove_spectatingSpotDidChangeEvent(System.Action`1<IMultiplayerSpectatingSpot> value)
-    // Offset: 0x14ED670
+    // Offset: 0x14F65E8
     void remove_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14EDD98
+    // Offset: 0x14F6D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatorController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatorController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatorController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14ED7F0
+    // Offset: 0x14F6768
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x14ED818
+    // Offset: 0x14F6790
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14ED8AC
+    // Offset: 0x14F6824
     void OnDestroy();
     // public System.Void SwitchToDefaultSpot()
-    // Offset: 0x14ED988
+    // Offset: 0x14F6900
     void SwitchToDefaultSpot();
     // public System.Void SwitchToPrev()
-    // Offset: 0x14ED794
+    // Offset: 0x14F670C
     void SwitchToPrev();
     // public System.Void SwitchToNext()
-    // Offset: 0x14ED730
+    // Offset: 0x14F66A8
     void SwitchToNext();
     // private System.Collections.IEnumerator SwitchToDefaultSpotWithFadeCoroutine()
-    // Offset: 0x14EDC98
+    // Offset: 0x14F6C10
     ::System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
     // private System.Collections.IEnumerator SwitchToDefaultSpotCoroutine()
-    // Offset: 0x14ED9B4
+    // Offset: 0x14F692C
     ::System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
     // private System.Void SwitchToSpectatingSpot(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x14EDA24
+    // Offset: 0x14F699C
     void SwitchToSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14EDD60
+    // Offset: 0x14F6CD8
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
   }; // MultiplayerSpectatorController
   #pragma pack(pop)

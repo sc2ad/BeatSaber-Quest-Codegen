@@ -347,44 +347,44 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Get instance field reference: private BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventKeywordFiltersData _specialEventsKeywordFilters
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventKeywordFiltersData*& dyn__specialEventsKeywordFilters();
     // public System.String get_version()
-    // Offset: 0x2743448
+    // Offset: 0x2753680
     ::StringW get_version();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.EventData> get_events()
-    // Offset: 0x2743450
+    // Offset: 0x2753688
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::EventData*>* get_events();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteData> get_notes()
-    // Offset: 0x2743458
+    // Offset: 0x2753690
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteData*>* get_notes();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SliderData> get_sliders()
-    // Offset: 0x2743460
+    // Offset: 0x2753698
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderData*>* get_sliders();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.WaypointData> get_waypoints()
-    // Offset: 0x2743468
+    // Offset: 0x27536A0
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::WaypointData*>* get_waypoints();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleData> get_obstacles()
-    // Offset: 0x2743470
+    // Offset: 0x27536A8
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleData*>* get_obstacles();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventKeywordFiltersData get_specialEventsKeywordFilters()
-    // Offset: 0x2743478
+    // Offset: 0x27536B0
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.EventData> events, System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.NoteData> notes, System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SliderData> sliders, System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.WaypointData> waypoints, System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.ObstacleData> obstacles, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventKeywordFiltersData specialEventsKeywordFilters)
-    // Offset: 0x2743480
+    // Offset: 0x27536B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::EventData*>* events, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::NoteData*>* notes, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SliderData*>* sliders, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::WaypointData*>* waypoints, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ObstacleData*>* obstacles, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData*, creationType>(events, notes, sliders, waypoints, obstacles, specialEventsKeywordFilters)));
     }
     // public System.String SerializeToJSONString()
-    // Offset: 0x2743518
+    // Offset: 0x2753750
     ::StringW SerializeToJSONString();
     // static public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x2743520
+    // Offset: 0x2753758
     static ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* DeserializeFromJSONString(::StringW stringData);
     // static public System.Void ConvertBeatmapSaveDataPreV2_5_0(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData beatmapSaveData)
-    // Offset: 0x27436E0
+    // Offset: 0x2753918
     static void ConvertBeatmapSaveDataPreV2_5_0(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData);
     // static public System.Collections.Generic.HashSet`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType> GetSpecialEventTypes()
-    // Offset: 0x27439A8
+    // Offset: 0x2753BE0
     static ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType>* GetSpecialEventTypes();
   }; // BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData
   #pragma pack(pop)

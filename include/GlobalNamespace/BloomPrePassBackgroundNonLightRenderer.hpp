@@ -77,21 +77,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _cachedTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__cachedTransform();
     // public UnityEngine.MeshFilter get_meshFilter()
-    // Offset: 0x1CC0FF4
+    // Offset: 0x1CCB140
     ::UnityEngine::MeshFilter* get_meshFilter();
     // public UnityEngine.Transform get_cachedTransform()
-    // Offset: 0x1CC0FFC
+    // Offset: 0x1CCB148
     ::UnityEngine::Transform* get_cachedTransform();
     // public System.Void set_isPartOfInstancedRendering(System.Boolean value)
-    // Offset: 0x1CC0540
+    // Offset: 0x1CCA68C
     void set_isPartOfInstancedRendering(bool value);
     // public override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1CC0FEC
+    // Offset: 0x1CCB138
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     ::UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1CC13E4
+    // Offset: 0x1CCB530
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -101,22 +101,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundNonLightRenderer*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1CC11C0
+    // Offset: 0x1CCB30C
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::Awake()
     void Awake();
     // protected override System.Void OnEnable()
-    // Offset: 0x1CC1204
+    // Offset: 0x1CCB350
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::OnEnable()
     void OnEnable();
     // protected override System.Void OnValidate()
-    // Offset: 0x1CC1218
+    // Offset: 0x1CCB364
     // Implemented from: BloomPrePassNonLightPass
     // Base method: System.Void BloomPrePassNonLightPass::OnValidate()
     void OnValidate();
     // protected override System.Void InitIfNeeded()
-    // Offset: 0x1CC125C
+    // Offset: 0x1CCB3A8
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded()
     void InitIfNeeded();

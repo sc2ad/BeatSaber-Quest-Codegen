@@ -48,13 +48,13 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: public System.Single r
     [[deprecated("Use field access instead!")]] float& dyn_r();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ExecutionTime get_executionTime()
-    // Offset: 0x2746698
+    // Offset: 0x27568D0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::ExecutionTime get_executionTime();
     // public System.Single get_rotation()
-    // Offset: 0x27466A0
+    // Offset: 0x27568D8
     float get_rotation();
     // public System.Void .ctor(System.Single beat, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ExecutionTime executionTime, System.Single rotation)
-    // Offset: 0x274570C
+    // Offset: 0x2755944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::RotationEventData* New_ctor(float beat, ::BeatmapSaveDataVersion3::BeatmapSaveData::ExecutionTime executionTime, float rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::RotationEventData::.ctor");

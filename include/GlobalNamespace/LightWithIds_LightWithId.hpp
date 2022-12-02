@@ -72,39 +72,39 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIds _parentLightWithIds
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIds*& dyn__parentLightWithIds();
     // public System.Int32 get_lightId()
-    // Offset: 0x1CC8EB4
+    // Offset: 0x1CD3000
     int get_lightId();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CC8EBC
+    // Offset: 0x1CD3008
     ::UnityEngine::Color get_color();
     // public System.Boolean get_isRegistered()
-    // Offset: 0x1CC8EC8
+    // Offset: 0x1CD3014
     bool get_isRegistered();
     // protected System.Void .ctor()
-    // Offset: 0x1CC8EE4
+    // Offset: 0x1CD3030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds::LightWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::LightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightWithId*, creationType>()));
     }
     // protected System.Void .ctor(System.Int32 lightId)
-    // Offset: 0x1CC43F4
+    // Offset: 0x1CCE540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds::LightWithId* New_ctor(int lightId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::LightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds::LightWithId*, creationType>(lightId)));
     }
     // public System.Void __SetIsRegistered()
-    // Offset: 0x1CC8ED0
+    // Offset: 0x1CD301C
     void __SetIsRegistered();
     // public System.Void __SetIsUnRegistered()
-    // Offset: 0x1CC8EDC
+    // Offset: 0x1CD3028
     void __SetIsUnRegistered();
     // public System.Void __SetParentLightWithIds(LightWithIds parentLightWithIds)
-    // Offset: 0x1CC8EEC
+    // Offset: 0x1CD3038
     void __SetParentLightWithIds(::GlobalNamespace::LightWithIds* parentLightWithIds);
     // public System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CC44D8
+    // Offset: 0x1CCE624
     void ColorWasSet(::UnityEngine::Color newColor);
   }; // LightWithIds/LightWithId
   #pragma pack(pop)

@@ -50,19 +50,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class BinaryConverter : public ::Il2CppObject {
     public:
     // static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetBinaryTypeInfo(System.Type type, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.String typeName, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, out System.Object typeInformation, out System.Int32 assemId)
-    // Offset: 0x18EF018
+    // Offset: 0x18F4F40
     static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetBinaryTypeInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::StringW typeName, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ByRef<::Il2CppObject*> typeInformation, ByRef<int> assemId);
     // static System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum GetParserBinaryTypeInfo(System.Type type, out System.Object typeInformation)
-    // Offset: 0x18EF708
+    // Offset: 0x18F5630
     static ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type* type, ByRef<::Il2CppObject*> typeInformation);
     // static System.Void WriteTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Int32 assemId, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18EE6DC
+    // Offset: 0x18F4604
     static void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, int assemId, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static System.Object ReadTypeInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, out System.Int32 assemId)
-    // Offset: 0x18EEC18
+    // Offset: 0x18F4B40
     static ::Il2CppObject* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ByRef<int> assemId);
     // static System.Void TypeFromInfo(System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader, System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, out System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum, out System.String typeString, out System.Type type, out System.Boolean isVariant)
-    // Offset: 0x18EFA64
+    // Offset: 0x18F598C
     static void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ByRef<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ByRef<::StringW> typeString, ByRef<::System::Type*> type, ByRef<bool> isVariant);
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryConverter
   #pragma pack(pop)

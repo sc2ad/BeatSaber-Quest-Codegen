@@ -63,23 +63,23 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 hashCodeRandomizer
     [[deprecated("Use field access instead!")]] int& dyn_hashCodeRandomizer();
     // public System.Void .ctor()
-    // Offset: 0x21057E8
+    // Offset: 0x21126F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureStringHasher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::SecureStringHasher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureStringHasher*, creationType>()));
     }
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x2105818
+    // Offset: 0x2112724
     bool Equals(::StringW x, ::StringW y);
     // public System.Int32 GetHashCode(System.String key)
-    // Offset: 0x2105830
+    // Offset: 0x211273C
     int GetHashCode(::StringW key);
     // static private System.Int32 GetHashCodeOfString(System.String key, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x2105E30
+    // Offset: 0x2112D3C
     static int GetHashCodeOfString(::StringW key, int sLen, int64_t additionalEntropy);
     // static private System.Xml.SecureStringHasher/System.Xml.HashCodeOfStringDelegate GetHashCodeDelegate()
-    // Offset: 0x21058C8
+    // Offset: 0x21127D4
     static ::System::Xml::SecureStringHasher::HashCodeOfStringDelegate* GetHashCodeDelegate();
   }; // System.Xml.SecureStringHasher
   #pragma pack(pop)

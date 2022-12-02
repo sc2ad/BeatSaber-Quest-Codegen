@@ -41,17 +41,17 @@ namespace System::Net::Http {
   class FormUrlEncodedContent : public ::System::Net::Http::ByteArrayContent {
     public:
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>> nameValueCollection)
-    // Offset: 0x19AE334
+    // Offset: 0x19CB698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormUrlEncodedContent* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>* nameValueCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::FormUrlEncodedContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormUrlEncodedContent*, creationType>(nameValueCollection)));
     }
     // static private System.Byte[] EncodeContent(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>> nameValueCollection)
-    // Offset: 0x19AE3E8
+    // Offset: 0x19CB74C
     static ::ArrayW<uint8_t> EncodeContent(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>* nameValueCollection);
     // static private System.Byte[] SerializeValue(System.String value)
-    // Offset: 0x19AE858
+    // Offset: 0x19CBBBC
     static ::ArrayW<uint8_t> SerializeValue(::StringW value);
   }; // System.Net.Http.FormUrlEncodedContent
   #pragma pack(pop)

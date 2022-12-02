@@ -60,74 +60,74 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private Mono.Security.X509.X509Certificate x509
     [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509Certificate_*& dyn_x509();
     // public System.Void .ctor(Mono.Security.X509.X509Certificate x509)
-    // Offset: 0x1BDA028
+    // Offset: 0x1BFE8A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateImplMono* New_ctor(::Mono::Security::X509::X509Certificate_* x509) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509CertificateImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImplMono*, creationType>(x509)));
     }
     // public override System.Boolean get_IsValid()
-    // Offset: 0x1BDA054
+    // Offset: 0x1BFE8D4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Boolean X509CertificateImpl::get_IsValid()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
-    // Offset: 0x1BDA064
+    // Offset: 0x1BFE8E4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509CertificateImpl X509CertificateImpl::Clone()
     ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
     // public override System.String GetIssuerName(System.Boolean legacyV1Mode)
-    // Offset: 0x1BDA0D4
+    // Offset: 0x1BFE954
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::GetIssuerName(System.Boolean legacyV1Mode)
     ::StringW GetIssuerName(bool legacyV1Mode);
     // public override System.String GetSubjectName(System.Boolean legacyV1Mode)
-    // Offset: 0x1BDA194
+    // Offset: 0x1BFEA14
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::GetSubjectName(System.Boolean legacyV1Mode)
     ::StringW GetSubjectName(bool legacyV1Mode);
     // public override System.Byte[] GetRawCertData()
-    // Offset: 0x1BDA254
+    // Offset: 0x1BFEAD4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetRawCertData()
     ::ArrayW<uint8_t> GetRawCertData();
     // protected override System.Byte[] GetCertHash(System.Boolean lazy)
-    // Offset: 0x1BDA288
+    // Offset: 0x1BFEB08
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetCertHash(System.Boolean lazy)
     ::ArrayW<uint8_t> GetCertHash(bool lazy);
     // public override System.DateTime GetValidFrom()
-    // Offset: 0x1BDA2E0
+    // Offset: 0x1BFEB60
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.DateTime X509CertificateImpl::GetValidFrom()
     ::System::DateTime GetValidFrom();
     // public override System.DateTime GetValidUntil()
-    // Offset: 0x1BDA314
+    // Offset: 0x1BFEB94
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.DateTime X509CertificateImpl::GetValidUntil()
     ::System::DateTime GetValidUntil();
     // public override System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
-    // Offset: 0x1BDA348
+    // Offset: 0x1BFEBC8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Boolean X509CertificateImpl::Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl other, out System.Boolean result)
     bool Equals(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* other, ByRef<bool> result);
     // public override System.Byte[] GetSerialNumber()
-    // Offset: 0x1BDA354
+    // Offset: 0x1BFEBD4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetSerialNumber()
     ::ArrayW<uint8_t> GetSerialNumber();
     // public override System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType, System.Byte[] password)
-    // Offset: 0x1BDA388
+    // Offset: 0x1BFEC08
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType, System.Byte[] password)
     ::ArrayW<uint8_t> Export(::System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::ArrayW<uint8_t> password);
     // public override System.String ToString(System.Boolean full)
-    // Offset: 0x1BDA4DC
+    // Offset: 0x1BFED5C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.String X509CertificateImpl::ToString(System.Boolean full)
     ::StringW ToString(bool full);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1BDA6D0
+    // Offset: 0x1BFEF50
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Void X509CertificateImpl::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);

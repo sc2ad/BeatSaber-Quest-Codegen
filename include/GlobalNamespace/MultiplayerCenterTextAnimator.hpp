@@ -57,7 +57,7 @@ namespace GlobalNamespace {
   class MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x11186B8
+    // [SpaceAttribute] Offset: 0x1118448
     // private TMPro.TextMeshPro _text
     // Size: 0x8
     // Offset: 0x18
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* scalingTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118700
+    // [InjectAttribute] Offset: 0x1118490
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -127,50 +127,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Vector3> _offsetTween
     [[deprecated("Use field access instead!")]] ::Tweening::Tween_1<::UnityEngine::Vector3>*& dyn__offsetTween();
     // public System.Void .ctor()
-    // Offset: 0x1452798
+    // Offset: 0x145AC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerCenterTextAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerCenterTextAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCenterTextAnimator*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1452020
+    // Offset: 0x145A4B4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14523B0
+    // Offset: 0x145A844
     void OnDestroy();
     // public System.Void AnimateTextColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
-    // Offset: 0x1452448
+    // Offset: 0x145A8DC
     void AnimateTextColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void AnimateFontSize(System.Single fontSize, System.Single duration, EaseType easeType)
-    // Offset: 0x14524F8
+    // Offset: 0x145A98C
     void AnimateFontSize(float fontSize, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void AnimatePositionOffsetSize(UnityEngine.Vector3 offset, System.Single duration, EaseType easeType)
-    // Offset: 0x145255C
+    // Offset: 0x145A9F0
     void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void AnimateEnabled(System.Boolean isEnabled, System.Single duration, EaseType easeType)
-    // Offset: 0x1452600
+    // Offset: 0x145AA94
     void AnimateEnabled(bool isEnabled, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetText(System.String text)
-    // Offset: 0x145277C
+    // Offset: 0x145AC10
     void SetText(::StringW text);
     // private System.Void <Awake>b__8_0(System.Single val)
-    // Offset: 0x14527A0
+    // Offset: 0x145AC34
     void $Awake$b__8_0(float val);
     // private System.Void <Awake>b__8_1(System.Single val)
-    // Offset: 0x1452834
+    // Offset: 0x145ACC8
     void $Awake$b__8_1(float val);
     // private System.Void <Awake>b__8_5()
-    // Offset: 0x14528C8
+    // Offset: 0x145AD5C
     void $Awake$b__8_5();
     // private System.Void <Awake>b__8_2(System.Single val)
-    // Offset: 0x14528F8
+    // Offset: 0x145AD8C
     void $Awake$b__8_2(float val);
     // private System.Void <Awake>b__8_3(UnityEngine.Color val)
-    // Offset: 0x1452914
+    // Offset: 0x145ADA8
     void $Awake$b__8_3(::UnityEngine::Color val);
     // private System.Void <Awake>b__8_4(UnityEngine.Vector3 val)
-    // Offset: 0x1452938
+    // Offset: 0x145ADCC
     void $Awake$b__8_4(::UnityEngine::Vector3 val);
   }; // MultiplayerCenterTextAnimator
   #pragma pack(pop)

@@ -46,13 +46,13 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Int32 g
     [[deprecated("Use field access instead!")]] int& dyn_g();
     // public System.Int32 get_groupId()
-    // Offset: 0x2745BA0
+    // Offset: 0x2755DD8
     int get_groupId();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EventBox> get_baseEventBoxes()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BeatmapSaveData::EventBox*>* get_baseEventBoxes();
     // protected System.Void .ctor(System.Single beat, System.Int32 groupId)
-    // Offset: 0x2745BA8
+    // Offset: 0x2755DE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventBoxGroup* New_ctor(float beat, int groupId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::EventBoxGroup::.ctor");

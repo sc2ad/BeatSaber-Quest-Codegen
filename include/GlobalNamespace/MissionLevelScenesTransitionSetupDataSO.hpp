@@ -110,31 +110,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private IDifficultyBeatmap <difficultyBeatmap>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IDifficultyBeatmap*& dyn_$difficultyBeatmap$k__BackingField();
     // public System.String get_missionId()
-    // Offset: 0x147D940
+    // Offset: 0x14A2030
     ::StringW get_missionId();
     // private System.Void set_missionId(System.String value)
-    // Offset: 0x147D948
+    // Offset: 0x14A2038
     void set_missionId(::StringW value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x147D950
+    // Offset: 0x14A2040
     ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x147D958
+    // Offset: 0x14A2048
     void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public System.Void add_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x147D7F8
+    // Offset: 0x14A1EE8
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> value)
-    // Offset: 0x147D89C
+    // Offset: 0x14A1F8C
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
-    // Offset: 0x147D960
+    // Offset: 0x14A1690
     void Init(::StringW missionId, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
-    // Offset: 0x147D6C0
+    // Offset: 0x14A1DB0
     void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x147DE40
+    // Offset: 0x14A2050
     // Implemented from: LevelScenesTransitionSetupDataSO
     // Base method: System.Void LevelScenesTransitionSetupDataSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

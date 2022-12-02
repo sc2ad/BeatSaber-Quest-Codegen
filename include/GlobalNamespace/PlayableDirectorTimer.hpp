@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [InjectAttribute] Offset: 0x1123CC4
+    // [InjectAttribute] Offset: 0x1123A64
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // public System.Void .ctor()
-    // Offset: 0x156CEF4
+    // Offset: 0x1576F0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayableDirectorTimer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayableDirectorTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayableDirectorTimer*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x156CEA8
+    // Offset: 0x1576EC0
     void Update();
   }; // PlayableDirectorTimer
   #pragma pack(pop)

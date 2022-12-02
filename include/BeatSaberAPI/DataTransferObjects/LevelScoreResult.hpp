@@ -275,7 +275,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String extraDataBase64
     [[deprecated("Use field access instead!")]] ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
-    // Offset: 0x13C5418
+    // Offset: 0x13A2B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::LevelScoreResult::.ctor");

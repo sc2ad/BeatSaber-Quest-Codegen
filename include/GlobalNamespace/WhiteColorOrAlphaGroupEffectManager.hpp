@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [InjectAttribute] Offset: 0x1114B80
+    // [InjectAttribute] Offset: 0x1114910
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
@@ -89,17 +89,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<WhiteColorOrAlphaGroupEffect> _whiteColorOrAlphaEffects
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>*& dyn__whiteColorOrAlphaEffects();
     // public System.Void .ctor()
-    // Offset: 0x1635AA4
+    // Offset: 0x166FD44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WhiteColorOrAlphaGroupEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WhiteColorOrAlphaGroupEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1635798
+    // Offset: 0x166FA38
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x16359AC
+    // Offset: 0x166FC4C
     void OnDestroy();
   }; // WhiteColorOrAlphaGroupEffectManager
   #pragma pack(pop)

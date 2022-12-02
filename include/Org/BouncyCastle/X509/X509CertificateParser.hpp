@@ -91,38 +91,38 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private System.IO.Stream currentStream
     [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_currentStream();
     // static private System.Void .cctor()
-    // Offset: 0x267C5D4
+    // Offset: 0x268B814
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x267C648
+    // Offset: 0x268B888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateParser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CertificateParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateParser*, creationType>()));
     }
     // private Org.BouncyCastle.X509.X509Certificate ReadDerCertificate(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x267BD18
+    // Offset: 0x268AF58
     ::Org::BouncyCastle::X509::X509Certificate* ReadDerCertificate(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Certificate GetCertificate()
-    // Offset: 0x267BF1C
+    // Offset: 0x268B15C
     ::Org::BouncyCastle::X509::X509Certificate* GetCertificate();
     // private Org.BouncyCastle.X509.X509Certificate ReadPemCertificate(System.IO.Stream inStream)
-    // Offset: 0x267C014
+    // Offset: 0x268B254
     ::Org::BouncyCastle::X509::X509Certificate* ReadPemCertificate(::System::IO::Stream* inStream);
     // protected Org.BouncyCastle.X509.X509Certificate CreateX509Certificate(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x267C0C8
+    // Offset: 0x268B308
     ::Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.Byte[] input)
-    // Offset: 0x267C128
+    // Offset: 0x268B368
     ::Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::ArrayW<uint8_t> input);
     // public System.Collections.ICollection ReadCertificates(System.Byte[] input)
-    // Offset: 0x267C43C
+    // Offset: 0x268B67C
     ::System::Collections::ICollection* ReadCertificates(::ArrayW<uint8_t> input);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.IO.Stream inStream)
-    // Offset: 0x267C1A0
+    // Offset: 0x268B3E0
     ::Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::System::IO::Stream* inStream);
     // public System.Collections.ICollection ReadCertificates(System.IO.Stream inStream)
-    // Offset: 0x267C4B4
+    // Offset: 0x268B6F4
     ::System::Collections::ICollection* ReadCertificates(::System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.X509CertificateParser
   #pragma pack(pop)

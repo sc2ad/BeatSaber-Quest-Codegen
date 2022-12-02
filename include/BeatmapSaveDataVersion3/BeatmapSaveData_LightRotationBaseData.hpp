@@ -136,25 +136,25 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection o
     [[deprecated("Use field access instead!")]] ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection& dyn_o();
     // public System.Single get_beat()
-    // Offset: 0x2746138
+    // Offset: 0x2756370
     float get_beat();
     // public System.Boolean get_usePreviousEventRotationValue()
-    // Offset: 0x2746140
+    // Offset: 0x2756378
     bool get_usePreviousEventRotationValue();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType get_easeType()
-    // Offset: 0x2746150
+    // Offset: 0x2756388
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType get_easeType();
     // public System.Int32 get_loopsCount()
-    // Offset: 0x2746158
+    // Offset: 0x2756390
     int get_loopsCount();
     // public System.Single get_rotation()
-    // Offset: 0x2746160
+    // Offset: 0x2756398
     float get_rotation();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection get_rotationDirection()
-    // Offset: 0x2746168
+    // Offset: 0x27563A0
     ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection get_rotationDirection();
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventRotationValue, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType easeType, System.Int32 loopsCount, System.Single rotation, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection rotationDirection)
-    // Offset: 0x2746170
+    // Offset: 0x27563A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightRotationBaseData* New_ctor(float beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType easeType, int loopsCount, float rotation, ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection rotationDirection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::.ctor");

@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
     // public System.String get_keyword()
-    // Offset: 0x141E970
+    // Offset: 0x1425C14
     ::StringW get_keyword();
     // public BaseResultsEnvironmentController get_resultsEnvironmentController()
-    // Offset: 0x141E978
+    // Offset: 0x1425C1C
     ::GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
     // public System.Void .ctor()
-    // Offset: 0x141E980
+    // Offset: 0x1425C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::.ctor");

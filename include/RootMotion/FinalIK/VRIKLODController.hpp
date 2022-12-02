@@ -79,20 +79,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::VRIK*& dyn_ik();
     // public System.Void .ctor()
-    // Offset: 0x205B1F4
+    // Offset: 0x204A81C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKLODController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKLODController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKLODController*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x205AFE0
+    // Offset: 0x204A608
     void Start();
     // private System.Void Update()
-    // Offset: 0x205B038
+    // Offset: 0x204A660
     void Update();
     // private System.Int32 GetLODLevel()
-    // Offset: 0x205B06C
+    // Offset: 0x204A694
     int GetLODLevel();
   }; // RootMotion.FinalIK.VRIKLODController
   #pragma pack(pop)

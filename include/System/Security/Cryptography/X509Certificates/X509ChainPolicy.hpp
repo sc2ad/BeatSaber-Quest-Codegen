@@ -127,51 +127,51 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.DateTime vtime
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_vtime();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
-    // Offset: 0x1C92714
+    // Offset: 0x1C9D860
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
     // public System.Security.Cryptography.X509Certificates.X509RevocationFlag get_RevocationFlag()
-    // Offset: 0x1C948C8
+    // Offset: 0x1C9FA14
     ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
     // public System.Void set_RevocationFlag(System.Security.Cryptography.X509Certificates.X509RevocationFlag value)
-    // Offset: 0x1C948D0
+    // Offset: 0x1C9FA1C
     void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
     // public System.Security.Cryptography.X509Certificates.X509RevocationMode get_RevocationMode()
-    // Offset: 0x1C94964
+    // Offset: 0x1C9FAB0
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
     // public System.Void set_RevocationMode(System.Security.Cryptography.X509Certificates.X509RevocationMode value)
-    // Offset: 0x1C9496C
+    // Offset: 0x1C9FAB8
     void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
     // public System.Void set_UrlRetrievalTimeout(System.TimeSpan value)
-    // Offset: 0x1C94A00
+    // Offset: 0x1C9FB4C
     void set_UrlRetrievalTimeout(::System::TimeSpan value);
     // public System.Security.Cryptography.X509Certificates.X509VerificationFlags get_VerificationFlags()
-    // Offset: 0x1C94A08
+    // Offset: 0x1C9FB54
     ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
     // public System.Void set_VerificationFlags(System.Security.Cryptography.X509Certificates.X509VerificationFlags value)
-    // Offset: 0x1C94A10
+    // Offset: 0x1C9FB5C
     void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
     // public System.DateTime get_VerificationTime()
-    // Offset: 0x1C94AA4
+    // Offset: 0x1C9FBF0
     ::System::DateTime get_VerificationTime();
     // public System.Void set_VerificationTime(System.DateTime value)
-    // Offset: 0x1C94AAC
+    // Offset: 0x1C9FBF8
     void set_VerificationTime(::System::DateTime value);
     // public System.Void .ctor()
-    // Offset: 0x1C9126C
+    // Offset: 0x1C9C3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainPolicy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>()));
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection store)
-    // Offset: 0x1C94898
+    // Offset: 0x1C9F9E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainPolicy* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>(store)));
     }
     // public System.Void Reset()
-    // Offset: 0x1C947B0
+    // Offset: 0x1C9F8FC
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ChainPolicy
   #pragma pack(pop)

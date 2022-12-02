@@ -45,26 +45,26 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IPosesSerializer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x137F47C
+    // Offset: 0x13862A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyPosesSerializer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyPosesSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyPosesSerializer*, creationType>()));
     }
     // public System.Void SaveToOldFormat(System.String path, PosesRecordingData data)
-    // Offset: 0x137F45C
+    // Offset: 0x1386288
     void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
     // public System.Void SaveRecording(System.String path, PosesRecordingData data, System.Boolean saveToOldFormat)
-    // Offset: 0x137F460
+    // Offset: 0x138628C
     void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
     // public PosesRecordingData LoadRecording(System.String path)
-    // Offset: 0x137F464
+    // Offset: 0x1386290
     ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
     // public System.Boolean RecordingExists(System.String path)
-    // Offset: 0x137F46C
+    // Offset: 0x1386298
     bool RecordingExists(::StringW path);
     // public System.Boolean RecordingCanBeCreated(System.String path)
-    // Offset: 0x137F474
+    // Offset: 0x13862A0
     bool RecordingCanBeCreated(::StringW path);
   }; // EmptyPosesSerializer
   #pragma pack(pop)

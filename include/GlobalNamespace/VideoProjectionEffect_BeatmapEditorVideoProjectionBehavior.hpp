@@ -45,8 +45,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior : public ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior {
     public:
-    // Nested type: ::GlobalNamespace::VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior::$$c__DisplayClass2_0
-    class $$c__DisplayClass2_0;
     public:
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
@@ -66,17 +64,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _callbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__callbackWrapper();
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, VideoProjectionDataModelSO dataModel, SongTimeSyncedVideoPlayer videoPlayer, BasicBeatmapEventType videoEventType, BeatmapCallbacksController beatmapCallbacksController, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x1631970
+    // Offset: 0x166BCD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior*, creationType>(beatmapData, dataModel, videoPlayer, videoEventType, beatmapCallbacksController, previewBeatmapLevel)));
     }
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData data)
-    // Offset: 0x163201C
+    // Offset: 0x166C30C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* data);
     // public override System.Void Dispose()
-    // Offset: 0x1631F30
+    // Offset: 0x166C220
     // Implemented from: VideoProjectionEffect/VideoProjectionBehavior
     // Base method: System.Void VideoProjectionBehavior::Dispose()
     void Dispose();

@@ -35,20 +35,20 @@ namespace UnityEngine {
   class Canvas::WillRenderCanvases : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B61570
+    // Offset: 0x2B6E910
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Canvas::WillRenderCanvases* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Canvas::WillRenderCanvases::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Canvas::WillRenderCanvases*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x2B6135C
+    // Offset: 0x2B6E6FC
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B61580
+    // Offset: 0x2B6E920
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B615AC
+    // Offset: 0x2B6E94C
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Canvas/UnityEngine.WillRenderCanvases
   #pragma pack(pop)

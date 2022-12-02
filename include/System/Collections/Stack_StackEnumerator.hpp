@@ -78,23 +78,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Object currentElement
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_currentElement();
     // public System.Object get_Current()
-    // Offset: 0x1D97728
+    // Offset: 0x1DA2874
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.Stack stack)
-    // Offset: 0x1D97308
+    // Offset: 0x1DA2454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack::StackEnumerator* New_ctor(::System::Collections::Stack* stack) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Stack::StackEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack::StackEnumerator*, creationType>(stack)));
     }
     // public System.Object Clone()
-    // Offset: 0x1D97600
+    // Offset: 0x1DA274C
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x1D97608
+    // Offset: 0x1DA2754
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D977DC
+    // Offset: 0x1DA2928
     void Reset();
   }; // System.Collections.Stack/System.Collections.StackEnumerator
   #pragma pack(pop)

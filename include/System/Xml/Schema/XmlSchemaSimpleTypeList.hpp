@@ -67,16 +67,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType baseItemType
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_baseItemType();
     // public System.Void set_ItemType(System.Xml.Schema.XmlSchemaSimpleType value)
-    // Offset: 0x20F9D24
+    // Offset: 0x2106C30
     void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
     // public System.Xml.Schema.XmlSchemaSimpleType get_BaseItemType()
-    // Offset: 0x20F9D2C
+    // Offset: 0x2106C38
     ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
     // public System.Void set_BaseItemType(System.Xml.Schema.XmlSchemaSimpleType value)
-    // Offset: 0x20F9D34
+    // Offset: 0x2106C40
     void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
     // public System.Void .ctor()
-    // Offset: 0x20F9D3C
+    // Offset: 0x2106C48
     // Implemented from: System.Xml.Schema.XmlSchemaSimpleTypeContent
     // Base method: System.Void XmlSchemaSimpleTypeContent::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

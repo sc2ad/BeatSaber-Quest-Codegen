@@ -58,10 +58,10 @@ namespace ModestTree {
   class _Assert : public ::Il2CppObject {
     public:
     // static public System.Void That(System.Boolean condition)
-    // Offset: 0x17A61DC
+    // Offset: 0x17AA118
     static void That(bool condition);
     // static public System.Void IsNotEmpty(System.String str)
-    // Offset: 0x17A62A4
+    // Offset: 0x17AA1E0
     static void IsNotEmpty(::StringW str);
     // static public System.Void IsEmpty(System.Collections.Generic.IList`1<T> list)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -118,49 +118,49 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, type);
     }
     // static public System.Void DerivesFrom(System.Type childType, System.Type parentType)
-    // Offset: 0x17A6314
+    // Offset: 0x17AA250
     static void DerivesFrom(::System::Type* childType, ::System::Type* parentType);
     // static public System.Void DerivesFromOrEqual(System.Type childType, System.Type parentType)
-    // Offset: 0x17A658C
+    // Offset: 0x17AA4C8
     static void DerivesFromOrEqual(::System::Type* childType, ::System::Type* parentType);
     // static public System.Void IsEqual(System.Object left, System.Object right)
-    // Offset: 0x17A6774
+    // Offset: 0x17AA6B0
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right);
     // static public System.Void IsEqual(System.Object left, System.Object right, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x17A68F8
+    // Offset: 0x17AA834
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right, ::System::Func_1<::StringW>* messageGenerator);
     // static public System.Void IsApproximately(System.Single left, System.Single right, System.Single epsilon)
-    // Offset: 0x17A6A44
+    // Offset: 0x17AA980
     static void IsApproximately(float left, float right, float epsilon);
     // static public System.Void IsEqual(System.Object left, System.Object right, System.String message)
-    // Offset: 0x17A67D4
+    // Offset: 0x17AA710
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right, ::StringW message);
     // static public System.Void IsNotEqual(System.Object left, System.Object right)
-    // Offset: 0x17A6B8C
+    // Offset: 0x17AAAC8
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right);
     // static public System.Void IsNotEqual(System.Object left, System.Object right, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x17A6CE4
+    // Offset: 0x17AAC20
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right, ::System::Func_1<::StringW>* messageGenerator);
     // static public System.Void IsNull(System.Object val)
-    // Offset: 0x17A6E30
+    // Offset: 0x17AAD6C
     static void IsNull(::Il2CppObject* val);
     // static public System.Void IsNull(System.Object val, System.String message)
-    // Offset: 0x17A6ED0
+    // Offset: 0x17AAE0C
     static void IsNull(::Il2CppObject* val, ::StringW message);
     // static public System.Void IsNull(System.Object val, System.String message, System.Object p1)
-    // Offset: 0x17A6F7C
+    // Offset: 0x17AAEB8
     static void IsNull(::Il2CppObject* val, ::StringW message, ::Il2CppObject* p1);
     // static public System.Void IsNotNull(System.Object val)
-    // Offset: 0x17A7228
+    // Offset: 0x17AB164
     static void IsNotNull(::Il2CppObject* val);
     // static public System.Void IsNotNull(System.Object val, System.String message)
-    // Offset: 0x17A728C
+    // Offset: 0x17AB1C8
     static void IsNotNull(::Il2CppObject* val, ::StringW message);
     // static public System.Void IsNotNull(System.Object val, System.String message, System.Object p1)
-    // Offset: 0x17A7338
+    // Offset: 0x17AB274
     static void IsNotNull(::Il2CppObject* val, ::StringW message, ::Il2CppObject* p1);
     // static public System.Void IsNotNull(System.Object val, System.String message, System.Object p1, System.Object p2)
-    // Offset: 0x17A7430
+    // Offset: 0x17AB36C
     static void IsNotNull(::Il2CppObject* val, ::StringW message, ::Il2CppObject* p1, ::Il2CppObject* p2);
     // static public System.Void IsNotEmpty(System.Collections.Generic.IEnumerable`1<T> val, System.String message)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -172,31 +172,31 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, val, message);
     }
     // static public System.Void IsNotEqual(System.Object left, System.Object right, System.String message)
-    // Offset: 0x17A6BEC
+    // Offset: 0x17AAB28
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right, ::StringW message);
     // static public System.Void Warn(System.Boolean condition)
-    // Offset: 0x17A7558
+    // Offset: 0x17AB494
     static void Warn(bool condition);
     // static public System.Void Warn(System.Boolean condition, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x17A76C8
+    // Offset: 0x17AB604
     static void Warn(bool condition, ::System::Func_1<::StringW>* messageGenerator);
     // static public System.Void That(System.Boolean condition, System.String message)
-    // Offset: 0x17A77F4
+    // Offset: 0x17AB730
     static void That(bool condition, ::StringW message);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1)
-    // Offset: 0x17A7870
+    // Offset: 0x17AB7AC
     static void That(bool condition, ::StringW message, ::Il2CppObject* p1);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1, System.Object p2)
-    // Offset: 0x17A7938
+    // Offset: 0x17AB874
     static void That(bool condition, ::StringW message, ::Il2CppObject* p1, ::Il2CppObject* p2);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1, System.Object p2, System.Object p3)
-    // Offset: 0x17A7A30
+    // Offset: 0x17AB96C
     static void That(bool condition, ::StringW message, ::Il2CppObject* p1, ::Il2CppObject* p2, ::Il2CppObject* p3);
     // static public System.Void Warn(System.Boolean condition, System.String message)
-    // Offset: 0x17A7B50
+    // Offset: 0x17ABA8C
     static void Warn(bool condition, ::StringW message);
     // static public System.Void Throws(System.Action action)
-    // Offset: 0x17A7C5C
+    // Offset: 0x17ABB98
     static void Throws(::System::Action* action);
     // static public System.Void Throws(System.Action action)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -209,16 +209,16 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, action);
     }
     // static public Zenject.ZenjectException CreateException()
-    // Offset: 0x17A7CAC
+    // Offset: 0x17ABBE8
     static ::Zenject::ZenjectException* CreateException();
     // static public Zenject.ZenjectException CreateException(System.String message)
-    // Offset: 0x17A6240
+    // Offset: 0x17AA17C
     static ::Zenject::ZenjectException* CreateException(::StringW message);
     // static public Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
-    // Offset: 0x17A6508
+    // Offset: 0x17AA444
     static ::Zenject::ZenjectException* CreateException(::StringW message, ::ArrayW<::Il2CppObject*> parameters);
     // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
-    // Offset: 0x17A7D14
+    // Offset: 0x17ABC50
     static ::Zenject::ZenjectException* CreateException(::System::Exception* innerException, ::StringW message, ::ArrayW<::Il2CppObject*> parameters);
   }; // ModestTree.Assert
   #pragma pack(pop)

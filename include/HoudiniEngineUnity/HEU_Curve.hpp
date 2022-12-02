@@ -294,137 +294,137 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_HoudiniAsset _parentAsset
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn__parentAsset();
     // public System.Int32 get_GeoID()
-    // Offset: 0x1723174
+    // Offset: 0x17281BC
     int get_GeoID();
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> get_CurveNodeData()
-    // Offset: 0x172317C
+    // Offset: 0x17281C4
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* get_CurveNodeData();
     // public HoudiniEngineUnity.HEU_Parameters get_Parameters()
-    // Offset: 0x172318C
+    // Offset: 0x17281D4
     ::HoudiniEngineUnity::HEU_Parameters* get_Parameters();
     // public System.String get_CurveName()
-    // Offset: 0x17231A0
+    // Offset: 0x17281E8
     ::StringW get_CurveName();
     // public HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveEditState get_EditState()
-    // Offset: 0x17231B0
+    // Offset: 0x17281F8
     ::HoudiniEngineUnity::HEU_Curve::CurveEditState get_EditState();
     // public HoudiniEngineUnity.HEU_HoudiniAsset get_ParentAsset()
-    // Offset: 0x17231B8
+    // Offset: 0x1728200
     ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
     // public System.Void .ctor()
-    // Offset: 0x1726E9C
+    // Offset: 0x172BEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1726F0C
+    // Offset: 0x172BF54
     static void _cctor();
     // public System.Boolean IsEditable()
-    // Offset: 0x1723184
+    // Offset: 0x17281CC
     bool IsEditable();
     // public System.Void SetUploadParameterPreset(System.Boolean bValue)
-    // Offset: 0x1723194
+    // Offset: 0x17281DC
     void SetUploadParameterPreset(bool bValue);
     // public System.Boolean IsGeoCurve()
-    // Offset: 0x17231A8
+    // Offset: 0x17281F0
     bool IsGeoCurve();
     // static public HoudiniEngineUnity.HEU_Curve CreateSetupCurve(HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Boolean isEditable, System.String curveName, System.Int32 geoID, System.Boolean bGeoCurve)
-    // Offset: 0x17231C0
+    // Offset: 0x1728208
     static ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int geoID, bool bGeoCurve);
     // public System.Void DestroyAllData(System.Boolean bIsRebuild)
-    // Offset: 0x1723328
+    // Offset: 0x1728370
     void DestroyAllData(bool bIsRebuild);
     // public System.Void SetCurveName(System.String name)
-    // Offset: 0x1723488
+    // Offset: 0x17284D0
     void SetCurveName(::StringW name);
     // public System.Void UploadParameterPreset(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1723534
+    // Offset: 0x172857C
     void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void ResetCurveParameters(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1723634
+    // Offset: 0x172867C
     void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetCurveParameterPreset(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Byte[] parameterPreset)
-    // Offset: 0x1723714
+    // Offset: 0x172875C
     void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayW<uint8_t> parameterPreset);
     // public System.Void UpdateCurve(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 partID)
-    // Offset: 0x17237FC
+    // Offset: 0x1728844
     void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* session, int partID);
     // public System.Void GenerateMesh(UnityEngine.GameObject inGameObject)
-    // Offset: 0x1723A40
+    // Offset: 0x1728A88
     void GenerateMesh(::UnityEngine::GameObject* inGameObject);
     // public System.Boolean UpdateCurveInputForCustomAttributes(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1723DAC
+    // Offset: 0x1728DF4
     bool UpdateCurveInputForCustomAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SyncFromParameters(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1725450
+    // Offset: 0x172A498
     void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // private System.Void UpdatePoints(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 partID)
-    // Offset: 0x172569C
+    // Offset: 0x172A6E4
     void UpdatePoints(::HoudiniEngineUnity::HEU_SessionBase* session, int partID);
     // public System.Void ProjectToColliders(HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, UnityEngine.Vector3 rayDirection, System.Single rayDistance)
-    // Offset: 0x1725C0C
+    // Offset: 0x172AC54
     void ProjectToColliders(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::UnityEngine::Vector3 rayDirection, float rayDistance);
     // static public System.String GetPointsString(System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> points)
-    // Offset: 0x1726188
+    // Offset: 0x172B1D0
     static ::StringW GetPointsString(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* points);
     // static public System.String GetPointsString(System.Collections.Generic.List`1<UnityEngine.Vector3> points)
-    // Offset: 0x1725210
+    // Offset: 0x172A258
     static ::StringW GetPointsString(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points);
     // public System.Void SetEditState(HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveEditState editState)
-    // Offset: 0x17263D4
+    // Offset: 0x172B41C
     void SetEditState(::HoudiniEngineUnity::HEU_Curve::CurveEditState editState);
     // public System.Void SetCurvePoint(System.Int32 pointIndex, UnityEngine.Vector3 newPosition)
-    // Offset: 0x17263DC
+    // Offset: 0x172B424
     void SetCurvePoint(int pointIndex, ::UnityEngine::Vector3 newPosition);
     // public UnityEngine.Vector3 GetCurvePoint(System.Int32 pointIndex)
-    // Offset: 0x1726484
+    // Offset: 0x172B4CC
     ::UnityEngine::Vector3 GetCurvePoint(int pointIndex);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> GetAllPointTransforms()
-    // Offset: 0x172653C
+    // Offset: 0x172B584
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* GetAllPointTransforms();
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> GetAllPoints()
-    // Offset: 0x1726544
+    // Offset: 0x172B58C
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetAllPoints();
     // public System.Int32 GetNumPoints()
-    // Offset: 0x1726630
+    // Offset: 0x172B678
     int GetNumPoints();
     // public UnityEngine.Vector3 GetTransformedPoint(System.Int32 pointIndex)
-    // Offset: 0x1726680
+    // Offset: 0x172B6C8
     ::UnityEngine::Vector3 GetTransformedPoint(int pointIndex);
     // public UnityEngine.Vector3 GetTransformedPosition(UnityEngine.Vector3 inPosition)
-    // Offset: 0x1726744
+    // Offset: 0x172B78C
     ::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 inPosition);
     // public UnityEngine.Vector3 GetInvertedTransformedPosition(UnityEngine.Vector3 inPosition)
-    // Offset: 0x1726798
+    // Offset: 0x172B7E0
     ::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 inPosition);
     // public UnityEngine.Vector3 GetInvertedTransformedDirection(UnityEngine.Vector3 inPosition)
-    // Offset: 0x17267EC
+    // Offset: 0x172B834
     ::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 inPosition);
     // public UnityEngine.Vector3[] GetVertices()
-    // Offset: 0x1726840
+    // Offset: 0x172B888
     ::ArrayW<::UnityEngine::Vector3> GetVertices();
     // public System.Void SetCurveGeometryVisibility(System.Boolean bVisible)
-    // Offset: 0x1726848
+    // Offset: 0x172B890
     void SetCurveGeometryVisibility(bool bVisible);
     // public System.Void DownloadPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1725B64
+    // Offset: 0x172ABAC
     void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void UploadPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x172693C
+    // Offset: 0x172B984
     void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void DownloadAsDefaultPresetData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17269E4
+    // Offset: 0x172BA2C
     void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> DuplicateCurveNodeData()
-    // Offset: 0x1726A8C
+    // Offset: 0x172BAD4
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* DuplicateCurveNodeData();
     // public System.Void SetCurveNodeData(System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> curveNodeData)
-    // Offset: 0x1726BE8
+    // Offset: 0x172BC30
     void SetCurveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* curveNodeData);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_Curve other)
-    // Offset: 0x1726BF0
+    // Offset: 0x172BC38
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Curve* other);
   }; // HoudiniEngineUnity.HEU_Curve
   #pragma pack(pop)

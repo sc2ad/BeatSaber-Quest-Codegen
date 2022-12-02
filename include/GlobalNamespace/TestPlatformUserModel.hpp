@@ -67,23 +67,23 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x139C094
+    // Offset: 0x13B75BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestPlatformUserModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestPlatformUserModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformUserModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x139BC94
+    // Offset: 0x13B71BC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x139BD94
+    // Offset: 0x13B72BC
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x139BE94
+    // Offset: 0x13B73BC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x139BF94
+    // Offset: 0x13B74BC
     ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
   }; // TestPlatformUserModel
   #pragma pack(pop)

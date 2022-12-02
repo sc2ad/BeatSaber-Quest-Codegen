@@ -71,26 +71,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single duration
     [[deprecated("Use field access instead!")]] float& dyn_duration();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1542198
+    // Offset: 0x154C0C4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1542200
+    // Offset: 0x154C12C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1541F20
+    // Offset: 0x154BE4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleController::$DissolveCoroutine$d__65* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObstacleController::$DissolveCoroutine$d__65::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleController::$DissolveCoroutine$d__65*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1542034
+    // Offset: 0x154BF60
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1542038
+    // Offset: 0x154BF64
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15421A0
+    // Offset: 0x154C0CC
     void System_Collections_IEnumerator_Reset();
   }; // ObstacleController/<DissolveCoroutine>d__65
   #pragma pack(pop)

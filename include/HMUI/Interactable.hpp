@@ -59,19 +59,19 @@ namespace HMUI {
     // Get instance field reference: private System.Action`2<HMUI.Interactable,System.Boolean> interactableChangeEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::HMUI::Interactable*, bool>*& dyn_interactableChangeEvent();
     // public System.Boolean get_interactable()
-    // Offset: 0x16FF884
+    // Offset: 0x17058CC
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x16FF88C
+    // Offset: 0x17058D4
     void set_interactable(bool value);
     // public System.Void add_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x16FF73C
+    // Offset: 0x1705784
     void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void remove_interactableChangeEvent(System.Action`2<HMUI.Interactable,System.Boolean> value)
-    // Offset: 0x16FF7E0
+    // Offset: 0x1705828
     void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x16FF91C
+    // Offset: 0x1705964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Interactable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::Interactable::.ctor");

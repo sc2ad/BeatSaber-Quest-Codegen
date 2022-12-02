@@ -123,28 +123,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _referenceValue
     [[deprecated("Use field access instead!")]] int& dyn__referenceValue();
     // public MissionObjectiveTypeSO get_type()
-    // Offset: 0x148135C
+    // Offset: 0x14A556C
     ::GlobalNamespace::MissionObjectiveTypeSO* get_type();
     // public MissionObjective/ReferenceValueComparisonType get_referenceValueComparisonType()
-    // Offset: 0x1481364
+    // Offset: 0x14A5574
     ::GlobalNamespace::MissionObjective::ReferenceValueComparisonType get_referenceValueComparisonType();
     // public System.Int32 get_referenceValue()
-    // Offset: 0x148136C
+    // Offset: 0x14A557C
     int get_referenceValue();
     // public System.Void .ctor()
-    // Offset: 0x14815DC
+    // Offset: 0x14A57EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjective* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjective::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjective*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x148145C
+    // Offset: 0x14A566C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x148156C
+    // Offset: 0x14A577C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -153,10 +153,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjective), 28 + sizeof(int)> __GlobalNamespace_MissionObjectiveSizeCheck;
   static_assert(sizeof(MissionObjective) == 0x20);
   // static public System.Boolean op_Equality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x1481374
+  // Offset: 0x14A5584
   bool operator ==(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective& obj2);
   // static public System.Boolean op_Inequality(MissionObjective obj1, MissionObjective obj2)
-  // Offset: 0x1481440
+  // Offset: 0x14A5650
   bool operator !=(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective& obj2);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
