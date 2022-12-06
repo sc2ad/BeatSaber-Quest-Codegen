@@ -68,20 +68,20 @@ namespace OnlineServices::API {
       return reinterpret_cast<::OnlineServices::API::IApiLeaderboardsModel*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1377760
+    // Offset: 0x13785C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestApiLeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::TestApiLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestApiLeaderboardsModel*, creationType>()));
     }
     // public System.Void LogoutAsync()
-    // Offset: 0x13774BC
+    // Offset: 0x1378320
     void LogoutAsync();
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1377560
+    // Offset: 0x13783C4
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResult, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1377660
+    // Offset: 0x13784C4
     ::System::Threading::Tasks::Task_1<::OnlineServices::API::Response>* SendLevelScoreResultAsync(::BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResult, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.TestApiLeaderboardsModel
   #pragma pack(pop)

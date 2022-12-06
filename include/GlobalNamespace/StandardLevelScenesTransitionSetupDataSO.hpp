@@ -167,67 +167,67 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
     // public System.String get_gameMode()
-    // Offset: 0x13AFF14
+    // Offset: 0x13AFD78
     ::StringW get_gameMode();
     // private System.Void set_gameMode(System.String value)
-    // Offset: 0x13AFF1C
+    // Offset: 0x13AFD80
     void set_gameMode(::StringW value);
     // public IDifficultyBeatmap get_difficultyBeatmap()
-    // Offset: 0x13AFF24
+    // Offset: 0x13AFD88
     ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
     // private System.Void set_difficultyBeatmap(IDifficultyBeatmap value)
-    // Offset: 0x13AFF2C
+    // Offset: 0x13AFD90
     void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x13AFF34
+    // Offset: 0x13AFD98
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x13AFF3C
+    // Offset: 0x13AFDA0
     void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public System.Boolean get_usingOverrideColorScheme()
-    // Offset: 0x13AFF44
+    // Offset: 0x13AFDA8
     bool get_usingOverrideColorScheme();
     // private System.Void set_usingOverrideColorScheme(System.Boolean value)
-    // Offset: 0x13AFF4C
+    // Offset: 0x13AFDB0
     void set_usingOverrideColorScheme(bool value);
     // public ColorScheme get_colorScheme()
-    // Offset: 0x13AFF58
+    // Offset: 0x13AFDBC
     ::GlobalNamespace::ColorScheme* get_colorScheme();
     // private System.Void set_colorScheme(ColorScheme value)
-    // Offset: 0x13AFF60
+    // Offset: 0x13AFDC4
     void set_colorScheme(::GlobalNamespace::ColorScheme* value);
     // public System.Boolean get_usingOverrideEnvironment()
-    // Offset: 0x13AFF68
+    // Offset: 0x13AFDCC
     bool get_usingOverrideEnvironment();
     // private System.Void set_usingOverrideEnvironment(System.Boolean value)
-    // Offset: 0x13AFF70
+    // Offset: 0x13AFDD4
     void set_usingOverrideEnvironment(bool value);
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x13AFF7C
+    // Offset: 0x13AFDE0
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // private System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0x13AFF84
+    // Offset: 0x13AFDE8
     void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x13AFF8C
+    // Offset: 0x13AFDF0
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x13AFF94
+    // Offset: 0x13AFDF8
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public System.Void add_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x13AFDCC
+    // Offset: 0x13AFC30
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<StandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x13AFE70
+    // Offset: 0x13AFCD4
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void Init(System.String gameMode, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, OverrideEnvironmentSettings overrideEnvironmentSettings, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Boolean startPaused, BeatmapDataCache beatmapDataCache)
-    // Offset: 0x13AF628
+    // Offset: 0x13AF48C
     void Init(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x13AFCFC
+    // Offset: 0x13AFB60
     void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x13AFF9C
+    // Offset: 0x13AFE00
     // Implemented from: LevelScenesTransitionSetupDataSO
     // Base method: System.Void LevelScenesTransitionSetupDataSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

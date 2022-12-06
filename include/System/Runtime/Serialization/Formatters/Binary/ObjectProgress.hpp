@@ -213,19 +213,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
     // static private System.Void .cctor()
-    // Offset: 0x18FACE8
+    // Offset: 0x18FA858
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x18FAB64
+    // Offset: 0x18FA6D4
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0x18FABB4
+    // Offset: 0x18FA724
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
-    // Offset: 0x18FABC4
+    // Offset: 0x18FA734
     bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::Il2CppObject*> outTypeInformation);
     // System.Void .ctor()
-    // Offset: 0x18FAAF4
+    // Offset: 0x18FA664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

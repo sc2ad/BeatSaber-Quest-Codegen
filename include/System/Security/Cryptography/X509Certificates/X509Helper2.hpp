@@ -54,31 +54,31 @@ namespace System::Security::Cryptography::X509Certificates {
     // Nested type: ::System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper
     class MyNativeHelper;
     // static System.Void Initialize()
-    // Offset: 0x1CA0A14
+    // Offset: 0x1C9B584
     static void Initialize();
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x1C946E8
+    // Offset: 0x1C8F258
     static void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags, System.Boolean disableProvider)
-    // Offset: 0x1C94CD0
+    // Offset: 0x1C8F840
     static ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t> rawData, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, bool disableProvider);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert, System.Boolean disableProvider)
-    // Offset: 0x1C948EC
+    // Offset: 0x1C8F45C
     static ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, bool disableProvider);
     // static Mono.Security.X509.X509Certificate GetMonoCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1C9541C
+    // Offset: 0x1C8FF8C
     static ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static System.Security.Cryptography.X509Certificates.X509ChainImpl CreateChainImpl(System.Boolean useMachineContext)
-    // Offset: 0x1C9B268
+    // Offset: 0x1C95DD8
     static ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
     // static public System.Boolean IsValid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x1CA0A7C
+    // Offset: 0x1C9B5EC
     static bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x1C9B198
+    // Offset: 0x1C95D08
     static void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Exception GetInvalidChainContextException()
-    // Offset: 0x1CA0A90
+    // Offset: 0x1C9B600
     static ::System::Exception* GetInvalidChainContextException();
   }; // System.Security.Cryptography.X509Certificates.X509Helper2
   #pragma pack(pop)

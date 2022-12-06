@@ -85,34 +85,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO _selectedBeatmapCharacteristic
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__selectedBeatmapCharacteristic();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x13A55D4
+    // Offset: 0x13A6438
     ::GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x13A548C
+    // Offset: 0x13A62F0
     void add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`2<BeatmapCharacteristicSelectionViewController,BeatmapCharacteristicSO> value)
-    // Offset: 0x13A5530
+    // Offset: 0x13A6394
     void remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13A599C
+    // Offset: 0x13A6800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicSelectionViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicSelectionViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSelectionViewController*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x13A55DC
+    // Offset: 0x13A6440
     void Init();
     // private System.Void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
-    // Offset: 0x13A58E0
+    // Offset: 0x13A6744
     void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellNumber);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13A5644
+    // Offset: 0x13A64A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13A5834
+    // Offset: 0x13A6698
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

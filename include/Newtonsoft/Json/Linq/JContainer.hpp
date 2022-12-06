@@ -109,182 +109,182 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
     // private Newtonsoft.Json.Linq.JToken System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item(System.Int32 index)
-    // Offset: 0x1794D58
+    // Offset: 0x17958C8
     ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IList$Newtonsoft_Json_Linq_JToken$_get_Item(int index);
     // private System.Void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item(System.Int32 index, Newtonsoft.Json.Linq.JToken value)
-    // Offset: 0x1794D68
+    // Offset: 0x17958D8
     void System_Collections_Generic_IList$Newtonsoft_Json_Linq_JToken$_set_Item(int index, ::Newtonsoft::Json::Linq::JToken* value);
     // private System.Boolean System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly()
-    // Offset: 0x1794DB8
+    // Offset: 0x1795928
     bool System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_get_IsReadOnly();
     // private System.Boolean System.Collections.IList.get_IsFixedSize()
-    // Offset: 0x1794F88
+    // Offset: 0x1795AF8
     bool System_Collections_IList_get_IsFixedSize();
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
-    // Offset: 0x1794F90
+    // Offset: 0x1795B00
     bool System_Collections_IList_get_IsReadOnly();
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
-    // Offset: 0x1794FDC
+    // Offset: 0x1795B4C
     ::Il2CppObject* System_Collections_IList_get_Item(int index);
     // private System.Void System.Collections.IList.set_Item(System.Int32 index, System.Object value)
-    // Offset: 0x1794FEC
+    // Offset: 0x1795B5C
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value);
     // public System.Int32 get_Count()
-    // Offset: 0x17940D8
+    // Offset: 0x1794C48
     int get_Count();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
-    // Offset: 0x179503C
+    // Offset: 0x1795BAC
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // System.Void .ctor(Newtonsoft.Json.Linq.JContainer other)
-    // Offset: 0x1790830
+    // Offset: 0x17913A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JContainer* New_ctor(::Newtonsoft::Json::Linq::JContainer* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JContainer*, creationType>(other)));
     }
     // System.Void CheckReentrancy()
-    // Offset: 0x1792474
+    // Offset: 0x1792FE4
     void CheckReentrancy();
     // protected System.Void OnListChanged(System.ComponentModel.ListChangedEventArgs e)
-    // Offset: 0x1792550
+    // Offset: 0x17930C0
     void OnListChanged(::System::ComponentModel::ListChangedEventArgs* e);
     // System.Boolean ContentsEqual(Newtonsoft.Json.Linq.JContainer container)
-    // Offset: 0x1790BF0
+    // Offset: 0x1791760
     bool ContentsEqual(::Newtonsoft::Json::Linq::JContainer* container);
     // System.Boolean IsMultiContent(System.Object content)
-    // Offset: 0x1792998
+    // Offset: 0x1793508
     bool IsMultiContent(::Il2CppObject* content);
     // Newtonsoft.Json.Linq.JToken EnsureParentToken(Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
-    // Offset: 0x1792A60
+    // Offset: 0x17935D0
     ::Newtonsoft::Json::Linq::JToken* EnsureParentToken(::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck);
     // System.Int32 IndexOfItem(Newtonsoft.Json.Linq.JToken item)
     // Offset: 0xFFFFFFFFFFFFFFFF
     int IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
     // System.Void InsertItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
-    // Offset: 0x1792B6C
+    // Offset: 0x17936DC
     void InsertItem(int index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck);
     // System.Void RemoveItemAt(System.Int32 index)
-    // Offset: 0x1792F1C
+    // Offset: 0x1793A8C
     void RemoveItemAt(int index);
     // System.Boolean RemoveItem(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1793324
+    // Offset: 0x1793E94
     bool RemoveItem(::Newtonsoft::Json::Linq::JToken* item);
     // Newtonsoft.Json.Linq.JToken GetItem(System.Int32 index)
-    // Offset: 0x1793378
+    // Offset: 0x1793EE8
     ::Newtonsoft::Json::Linq::JToken* GetItem(int index);
     // System.Void SetItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x179344C
+    // Offset: 0x1793FBC
     void SetItem(int index, ::Newtonsoft::Json::Linq::JToken* item);
     // System.Void ClearItems()
-    // Offset: 0x179397C
+    // Offset: 0x17944EC
     void ClearItems();
     // System.Void ReplaceItem(Newtonsoft.Json.Linq.JToken existing, Newtonsoft.Json.Linq.JToken replacement)
-    // Offset: 0x1793CBC
+    // Offset: 0x179482C
     void ReplaceItem(::Newtonsoft::Json::Linq::JToken* existing, ::Newtonsoft::Json::Linq::JToken* replacement);
     // System.Boolean ContainsItem(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1793D24
+    // Offset: 0x1794894
     bool ContainsItem(::Newtonsoft::Json::Linq::JToken* item);
     // System.Void CopyItemsTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1793D4C
+    // Offset: 0x17948BC
     void CopyItemsTo(::System::Array* array, int arrayIndex);
     // static System.Boolean IsTokenUnchanged(Newtonsoft.Json.Linq.JToken currentValue, Newtonsoft.Json.Linq.JToken newValue)
-    // Offset: 0x17938A4
+    // Offset: 0x1794414
     static bool IsTokenUnchanged(::Newtonsoft::Json::Linq::JToken* currentValue, ::Newtonsoft::Json::Linq::JToken* newValue);
     // System.Void ValidateToken(Newtonsoft.Json.Linq.JToken o, Newtonsoft.Json.Linq.JToken existing)
-    // Offset: 0x179419C
+    // Offset: 0x1794D0C
     void ValidateToken(::Newtonsoft::Json::Linq::JToken* o, ::Newtonsoft::Json::Linq::JToken* existing);
     // public System.Void Add(System.Object content)
-    // Offset: 0x17942D0
+    // Offset: 0x1794E40
     void Add(::Il2CppObject* content);
     // System.Void AddAndSkipParentCheck(Newtonsoft.Json.Linq.JToken token)
-    // Offset: 0x17943B4
+    // Offset: 0x1794F24
     void AddAndSkipParentCheck(::Newtonsoft::Json::Linq::JToken* token);
     // System.Void AddInternal(System.Int32 index, System.Object content, System.Boolean skipParentCheck)
-    // Offset: 0x1792150
+    // Offset: 0x1792CC0
     void AddInternal(int index, ::Il2CppObject* content, bool skipParentCheck);
     // static Newtonsoft.Json.Linq.JToken CreateFromContent(System.Object content)
-    // Offset: 0x1794498
+    // Offset: 0x1795008
     static ::Newtonsoft::Json::Linq::JToken* CreateFromContent(::Il2CppObject* content);
     // public System.Void RemoveAll()
-    // Offset: 0x179457C
+    // Offset: 0x17950EC
     void RemoveAll();
     // System.Void ReadTokenFrom(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings options)
-    // Offset: 0x1791298
+    // Offset: 0x1791E08
     void ReadTokenFrom(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* options);
     // System.Void ReadContentFrom(Newtonsoft.Json.JsonReader r, Newtonsoft.Json.Linq.JsonLoadSettings settings)
-    // Offset: 0x179458C
+    // Offset: 0x17950FC
     void ReadContentFrom(::Newtonsoft::Json::JsonReader* r, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
     // System.Int32 ContentsHashCode()
-    // Offset: 0x179168C
+    // Offset: 0x17921FC
     int ContentsHashCode();
     // private System.Int32 System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1794D24
+    // Offset: 0x1795894
     int System_Collections_Generic_IList$Newtonsoft_Json_Linq_JToken$_IndexOf(::Newtonsoft::Json::Linq::JToken* item);
     // private System.Void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert(System.Int32 index, Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1794D34
+    // Offset: 0x17958A4
     void System_Collections_Generic_IList$Newtonsoft_Json_Linq_JToken$_Insert(int index, ::Newtonsoft::Json::Linq::JToken* item);
     // private System.Void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt(System.Int32 index)
-    // Offset: 0x1794D48
+    // Offset: 0x17958B8
     void System_Collections_Generic_IList$Newtonsoft_Json_Linq_JToken$_RemoveAt(int index);
     // private System.Void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1794D78
+    // Offset: 0x17958E8
     void System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_Add(::Newtonsoft::Json::Linq::JToken* item);
     // private System.Void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear()
-    // Offset: 0x1794D88
+    // Offset: 0x17958F8
     void System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_Clear();
     // private System.Boolean System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1794D98
+    // Offset: 0x1795908
     bool System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_Contains(::Newtonsoft::Json::Linq::JToken* item);
     // private System.Void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo(Newtonsoft.Json.Linq.JToken[] array, System.Int32 arrayIndex)
-    // Offset: 0x1794DA8
+    // Offset: 0x1795918
     void System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_CopyTo(::ArrayW<::Newtonsoft::Json::Linq::JToken*> array, int arrayIndex);
     // private System.Boolean System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x1794DC0
+    // Offset: 0x1795930
     bool System_Collections_Generic_ICollection$Newtonsoft_Json_Linq_JToken$_Remove(::Newtonsoft::Json::Linq::JToken* item);
     // private Newtonsoft.Json.Linq.JToken EnsureValue(System.Object value)
-    // Offset: 0x1794DD0
+    // Offset: 0x1795940
     ::Newtonsoft::Json::Linq::JToken* EnsureValue(::Il2CppObject* value);
     // private System.Int32 System.Collections.IList.Add(System.Object value)
-    // Offset: 0x1794E88
+    // Offset: 0x17959F8
     int System_Collections_IList_Add(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Clear()
-    // Offset: 0x1794ECC
+    // Offset: 0x1795A3C
     void System_Collections_IList_Clear();
     // private System.Boolean System.Collections.IList.Contains(System.Object value)
-    // Offset: 0x1794EDC
+    // Offset: 0x1795A4C
     bool System_Collections_IList_Contains(::Il2CppObject* value);
     // private System.Int32 System.Collections.IList.IndexOf(System.Object value)
-    // Offset: 0x1794F10
+    // Offset: 0x1795A80
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
-    // Offset: 0x1794F44
+    // Offset: 0x1795AB4
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
     // private System.Void System.Collections.IList.Remove(System.Object value)
-    // Offset: 0x1794F98
+    // Offset: 0x1795B08
     void System_Collections_IList_Remove(::Il2CppObject* value);
     // private System.Void System.Collections.IList.RemoveAt(System.Int32 index)
-    // Offset: 0x1794FCC
+    // Offset: 0x1795B3C
     void System_Collections_IList_RemoveAt(int index);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x179502C
+    // Offset: 0x1795B9C
     void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // public override System.Boolean get_HasValues()
-    // Offset: 0x17925BC
+    // Offset: 0x179312C
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Boolean JToken::get_HasValues()
     bool get_HasValues();
     // public override Newtonsoft.Json.Linq.JToken get_First()
-    // Offset: 0x179268C
+    // Offset: 0x17931FC
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::get_First()
     ::Newtonsoft::Json::Linq::JToken* get_First();
     // public override Newtonsoft.Json.Linq.JToken get_Last()
-    // Offset: 0x17927D4
+    // Offset: 0x1793344
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::get_Last()
     ::Newtonsoft::Json::Linq::JToken* get_Last();
     // System.Void .ctor()
-    // Offset: 0x179074C
+    // Offset: 0x17912BC
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Void JToken::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -293,7 +293,7 @@ namespace Newtonsoft::Json::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<JContainer*, creationType>()));
     }
     // public override Newtonsoft.Json.Linq.JEnumerable`1<Newtonsoft.Json.Linq.JToken> Children()
-    // Offset: 0x179291C
+    // Offset: 0x179348C
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JEnumerable`1<Newtonsoft.Json.Linq.JToken> JToken::Children()
     ::Newtonsoft::Json::Linq::JEnumerable_1<::Newtonsoft::Json::Linq::JToken*> Children();

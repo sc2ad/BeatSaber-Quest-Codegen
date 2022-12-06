@@ -47,20 +47,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__lines();
     // public System.Void .ctor()
-    // Offset: 0x2AC3E68
+    // Offset: 0x2ABC9D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleFileLogger::MonoLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleFileLogger::MonoLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleFileLogger::MonoLogger*, creationType>()));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0x2AC3E14
+    // Offset: 0x2ABC984
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0x2AC3B18
+    // Offset: 0x2ABC688
     void Log(::StringW text);
     // public System.Void Clear()
-    // Offset: 0x2AC3A80
+    // Offset: 0x2ABC5F0
     void Clear();
   }; // SimpleFileLogger/MonoLogger
   #pragma pack(pop)

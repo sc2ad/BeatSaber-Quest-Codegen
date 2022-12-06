@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <propertyId>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$propertyId$k__BackingField();
     // public System.Int32 get_propertyId()
-    // Offset: 0x1CD58A4
+    // Offset: 0x1CD1414
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1CD58AC
+    // Offset: 0x1CD141C
     void set_propertyId(int value);
     // public System.Void .ctor()
-    // Offset: 0x1CD57D4
+    // Offset: 0x1CD1344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyValuesSetter::PropertyValuePairBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter::PropertyValuePairBase*, creationType>()));
     }
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1CD576C
+    // Offset: 0x1CD12DC
     void RefreshPropertyId();
   }; // MaterialPropertyValuesSetter/PropertyValuePairBase
   #pragma pack(pop)

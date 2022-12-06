@@ -37,16 +37,16 @@ namespace System::Net {
   class ExceptionHelper : public ::Il2CppObject {
     public:
     // static System.NotImplementedException get_MethodNotImplementedException()
-    // Offset: 0x1AA09FC
+    // Offset: 0x1A9E56C
     static ::System::NotImplementedException* get_MethodNotImplementedException();
     // static System.NotImplementedException get_PropertyNotImplementedException()
-    // Offset: 0x1AA093C
+    // Offset: 0x1A9E4AC
     static ::System::NotImplementedException* get_PropertyNotImplementedException();
     // static System.NotSupportedException get_PropertyNotSupportedException()
-    // Offset: 0x1AA3A54
+    // Offset: 0x1AA15C4
     static ::System::NotSupportedException* get_PropertyNotSupportedException();
     // static System.Net.WebException get_RequestAbortedException()
-    // Offset: 0x1AA3AD0
+    // Offset: 0x1AA1640
     static ::System::Net::WebException* get_RequestAbortedException();
   }; // System.Net.ExceptionHelper
   #pragma pack(pop)

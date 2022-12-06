@@ -49,12 +49,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // public override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1CCB964
+    // Offset: 0x1CC74D4
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     ::UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1CCB96C
+    // Offset: 0x1CC74DC
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()

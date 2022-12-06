@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single b
     [[deprecated("Use field access instead!")]] float& dyn_b();
     // public System.Void .ctor()
-    // Offset: 0x1422D4C
+    // Offset: 0x14237F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolConfigurationProcessor::ColorSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolConfigurationProcessor::ColorSaveData::.ctor");

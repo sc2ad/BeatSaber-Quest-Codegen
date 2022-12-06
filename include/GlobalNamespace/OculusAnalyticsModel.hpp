@@ -46,32 +46,32 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0x154E364
+    // Offset: 0x154AED4
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void .ctor()
-    // Offset: 0x154E6A8
+    // Offset: 0x154B218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusAnalyticsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusAnalyticsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusAnalyticsModel*, creationType>()));
     }
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0x154E36C
+    // Offset: 0x154AEDC
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x154E370
+    // Offset: 0x154AEE0
     void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
     // public System.Void LogEditAvatarEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x154E440
+    // Offset: 0x154AFB0
     void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
     // public System.Void LogClick(System.String clickType, System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x154E510
+    // Offset: 0x154B080
     void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
     // public System.Void LogImpression(System.String impressionType, System.Collections.Generic.Dictionary`2<System.String,System.String> impressionData)
-    // Offset: 0x154E598
+    // Offset: 0x154B108
     void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
     // public System.Void LogExposure(System.String exposureType, System.Collections.Generic.Dictionary`2<System.String,System.String> exposureData)
-    // Offset: 0x154E620
+    // Offset: 0x154B190
     void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
   }; // OculusAnalyticsModel
   #pragma pack(pop)

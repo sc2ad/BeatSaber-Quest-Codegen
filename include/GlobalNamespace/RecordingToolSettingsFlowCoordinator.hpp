@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::RecordingToolLoggingViewController* recordingToolLoggingViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::RecordingToolLoggingViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D720
+    // [InjectAttribute] Offset: 0x1120620
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xC0
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D730
+    // [InjectAttribute] Offset: 0x1120630
     // private readonly RecordingToolSettingsFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0xC8
@@ -88,28 +88,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RecordingToolSettingsFlowCoordinator/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolSettingsFlowCoordinator::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x1424278
+    // Offset: 0x1424D20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSettingsFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSettingsFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolSettingsFlowCoordinator*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x14241F8
+    // Offset: 0x1424CA0
     void Update();
     // private System.Void HandleRecordingToolSettingsViewControllerDidFinish()
-    // Offset: 0x1424234
+    // Offset: 0x1424CDC
     void HandleRecordingToolSettingsViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0x1424238
+    // Offset: 0x1424CE0
     void GoToNextScene();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1423F34
+    // Offset: 0x14249DC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14240B4
+    // Offset: 0x1424B5C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

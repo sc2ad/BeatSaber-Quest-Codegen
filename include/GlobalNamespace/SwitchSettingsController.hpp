@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _on
     [[deprecated("Use field access instead!")]] bool& dyn__on();
     // protected System.Void .ctor()
-    // Offset: 0x13B3BDC
+    // Offset: 0x13B3A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SwitchSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SwitchSettingsController::.ctor");
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ApplyValue(bool value);
     // protected System.Void Awake()
-    // Offset: 0x13B3A18
+    // Offset: 0x13B387C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B3ABC
+    // Offset: 0x13B3920
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x13B3B60
+    // Offset: 0x13B39C4
     void OnEnable();
     // private System.Void RefreshUI()
-    // Offset: 0x13B3BA8
+    // Offset: 0x13B3A0C
     void RefreshUI();
     // private System.Void HandleToggleValueDidChange(System.Boolean value)
-    // Offset: 0x13B3BCC
+    // Offset: 0x13B3A30
     void HandleToggleValueDidChange(bool value);
   }; // SwitchSettingsController
   #pragma pack(pop)

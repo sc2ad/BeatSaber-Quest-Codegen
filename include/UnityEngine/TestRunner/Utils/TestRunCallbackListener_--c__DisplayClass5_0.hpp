@@ -51,14 +51,14 @@ namespace UnityEngine::TestRunner::Utils {
     // Get instance field reference: public NUnit.Framework.Interfaces.ITest test
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITest*& dyn_test();
     // public System.Void .ctor()
-    // Offset: 0x1995CD0
+    // Offset: 0x1993840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Void <TestStarted>b__0(UnityEngine.TestRunner.ITestRunCallback callback)
-    // Offset: 0x19961B8
+    // Offset: 0x1993D28
     void $TestStarted$b__0(::UnityEngine::TestRunner::ITestRunCallback* callback);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c__DisplayClass5_0
   #pragma pack(pop)

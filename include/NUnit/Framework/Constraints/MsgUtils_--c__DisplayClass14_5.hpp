@@ -47,14 +47,14 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: public NUnit.Framework.Constraints.ValueFormatter next
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1D51874
+    // Offset: 0x1D4D3E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MsgUtils::$$c__DisplayClass14_5* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c__DisplayClass14_5*, creationType>()));
     }
     // System.String <.cctor>b__16(System.Object val)
-    // Offset: 0x1D51F2C
+    // Offset: 0x1D4DA9C
     ::StringW $_cctor$b__16(::Il2CppObject* val);
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c__DisplayClass14_5
   #pragma pack(pop)

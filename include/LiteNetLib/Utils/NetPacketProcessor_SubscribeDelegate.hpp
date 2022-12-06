@@ -40,20 +40,20 @@ namespace LiteNetLib::Utils {
   class NetPacketProcessor::SubscribeDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B71248
+    // Offset: 0x2B67DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor::SubscribeDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::SubscribeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2B70E60
+    // Offset: 0x2B679D0
     void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B71258
+    // Offset: 0x2B67DC8
     ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B71288
+    // Offset: 0x2B67DF8
     void EndInvoke(::System::IAsyncResult* result);
   }; // LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate
   #pragma pack(pop)

@@ -43,26 +43,26 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1125194
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1128094
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,EaseType,System.Single,Tweening.ColorTween> Pool
     static ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::ColorTween*>* _get_Pool();
     // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Color,UnityEngine.Color,System.Action`1<UnityEngine.Color>,System.Single,EaseType,System.Single,Tweening.ColorTween> Pool
     static void _set_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::ColorTween*>* value);
     // public System.Void .ctor(UnityEngine.Color fromValue, UnityEngine.Color toValue, System.Action`1<UnityEngine.Color> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
-    // Offset: 0x13BF3C0
+    // Offset: 0x13BF224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::ColorTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13BF564
+    // Offset: 0x13BF3C8
     static void _cctor();
     // public UnityEngine.Color GetValue(System.Single t)
-    // Offset: 0x13BF498
+    // Offset: 0x13BF2FC
     ::UnityEngine::Color GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x13BF370
+    // Offset: 0x13BF1D4
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()

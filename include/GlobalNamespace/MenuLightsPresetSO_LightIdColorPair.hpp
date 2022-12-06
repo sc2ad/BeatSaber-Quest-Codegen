@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSO* baseColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0x1125BE8
+    // [RangeAttribute] Offset: 0x1128AE8
     // public System.Single intensity
     // Size: 0x4
     // Offset: 0x20
@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single intensity
     [[deprecated("Use field access instead!")]] float& dyn_intensity();
     // public UnityEngine.Color get_lightColor()
-    // Offset: 0x134141C
+    // Offset: 0x1343110
     ::UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
-    // Offset: 0x134175C
+    // Offset: 0x1343450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsPresetSO::LightIdColorPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::.ctor");

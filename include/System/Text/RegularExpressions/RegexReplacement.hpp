@@ -83,26 +83,26 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Generic.List`1<System.Int32> _rules
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn__rules();
     // System.String get_Pattern()
-    // Offset: 0x1E6CA3C
+    // Offset: 0x1E695AC
     ::StringW get_Pattern();
     // System.Void .ctor(System.String rep, System.Text.RegularExpressions.RegexNode concat, System.Collections.Hashtable _caps)
-    // Offset: 0x1E67738
+    // Offset: 0x1E642A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexReplacement* New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexReplacement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexReplacement*, creationType>(rep, concat, _caps)));
     }
     // private System.Void ReplacementImpl(System.Text.StringBuilder sb, System.Text.RegularExpressions.Match match)
-    // Offset: 0x1E6C710
+    // Offset: 0x1E69280
     void ReplacementImpl(::System::Text::StringBuilder* sb, ::System::Text::RegularExpressions::Match* match);
     // private System.Void ReplacementImplRTL(System.Collections.Generic.List`1<System.String> al, System.Text.RegularExpressions.Match match)
-    // Offset: 0x1E6C89C
+    // Offset: 0x1E6940C
     void ReplacementImplRTL(::System::Collections::Generic::List_1<::StringW>* al, ::System::Text::RegularExpressions::Match* match);
     // System.String Replace(System.Text.RegularExpressions.Regex regex, System.String input, System.Int32 count, System.Int32 startat)
-    // Offset: 0x1E6CA44
+    // Offset: 0x1E695B4
     ::StringW Replace(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
     // static System.String Replace(System.Text.RegularExpressions.MatchEvaluator evaluator, System.Text.RegularExpressions.Regex regex, System.String input, System.Int32 count, System.Int32 startat)
-    // Offset: 0x1E6CDBC
+    // Offset: 0x1E6992C
     static ::StringW Replace(::System::Text::RegularExpressions::MatchEvaluator* evaluator, ::System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
   }; // System.Text.RegularExpressions.RegexReplacement
   #pragma pack(pop)

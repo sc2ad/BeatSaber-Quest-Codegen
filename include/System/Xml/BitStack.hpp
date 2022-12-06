@@ -54,26 +54,26 @@ namespace System::Xml {
     // Get instance field reference: private System.UInt32 curr
     [[deprecated("Use field access instead!")]] uint& dyn_curr();
     // public System.Void .ctor()
-    // Offset: 0x1ADF504
+    // Offset: 0x1ADD074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitStack* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::BitStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitStack*, creationType>()));
     }
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1ADF530
+    // Offset: 0x1ADD0A0
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1ADF660
+    // Offset: 0x1ADD1D0
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x1ADF6E4
+    // Offset: 0x1ADD254
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1ADF56C
+    // Offset: 0x1ADD0DC
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x1ADF694
+    // Offset: 0x1ADD204
     void PopCurr();
   }; // System.Xml.BitStack
   #pragma pack(pop)

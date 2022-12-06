@@ -45,7 +45,7 @@ namespace Ice {
   class FloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1140C08
+    // [InjectAttribute] Offset: 0x1144AD8
     // private readonly Ice.FloorLightTile/Ice.Pool _floorLightTileMemoryPool
     // Size: 0x8
     // Offset: 0x18
@@ -106,29 +106,29 @@ namespace Ice {
     // Get instance field reference: private System.Int32 _ySize
     [[deprecated("Use field access instead!")]] int& dyn__ySize();
     // public System.Int32 get_ySize()
-    // Offset: 0x2B58FA4
+    // Offset: 0x2B51B14
     int get_ySize();
     // public System.Void .ctor()
-    // Offset: 0x2B590E0
+    // Offset: 0x2B51C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTilesGrid* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTilesGrid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTilesGrid*, creationType>()));
     }
     // public System.Void Init(UnityEngine.Vector3 anchorPoint, System.Int32 xSize, System.Int32 ySize, System.Single tileWidth, System.Single tileHeight)
-    // Offset: 0x2B57FC8
+    // Offset: 0x2B50B38
     void Init(::UnityEngine::Vector3 anchorPoint, int xSize, int ySize, float tileWidth, float tileHeight);
     // public System.Void HighlightTile(System.Int32 x, System.Int32 y, System.Single fadeInDuration, System.Single fadeOutDuration, UnityEngine.Color color)
-    // Offset: 0x2B58520
+    // Offset: 0x2B51090
     void HighlightTile(int x, int y, float fadeInDuration, float fadeOutDuration, ::UnityEngine::Color color);
     // public System.Void DespawnAllTiles()
-    // Offset: 0x2B58FAC
+    // Offset: 0x2B51B1C
     void DespawnAllTiles();
     // private System.Void HandleFloorLightTileDidFinish(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2B590DC
+    // Offset: 0x2B51C4C
     void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
     // private System.Void DespawnTile(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x2B5906C
+    // Offset: 0x2B51BDC
     void DespawnTile(::Ice::FloorLightTile* floorLightTile);
   }; // Ice.FloorLightTilesGrid
   #pragma pack(pop)

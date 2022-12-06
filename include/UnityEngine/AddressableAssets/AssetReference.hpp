@@ -61,7 +61,7 @@ namespace UnityEngine::AddressableAssets {
   class AssetReference : public ::Il2CppObject/*, public ::UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x110641C
+    // [FormerlySerializedAsAttribute] Offset: 0x110831C
     // private System.String m_AssetGUID
     // Size: 0x8
     // Offset: 0x10
@@ -104,45 +104,45 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_m_Operation();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
-    // Offset: 0x18DA058
+    // Offset: 0x18D9BC8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
     // public System.Object get_RuntimeKey()
-    // Offset: 0x18DA06C
+    // Offset: 0x18D9BDC
     ::Il2CppObject* get_RuntimeKey();
     // public System.String get_AssetGUID()
-    // Offset: 0x18DA104
+    // Offset: 0x18D9C74
     ::StringW get_AssetGUID();
     // public System.String get_SubObjectName()
-    // Offset: 0x18DA10C
+    // Offset: 0x18D9C7C
     ::StringW get_SubObjectName();
     // public System.Void set_SubObjectName(System.String value)
-    // Offset: 0x18DA114
+    // Offset: 0x18D9C84
     void set_SubObjectName(::StringW value);
     // System.Type get_SubOjbectType()
-    // Offset: 0x18DA11C
+    // Offset: 0x18D9C8C
     ::System::Type* get_SubOjbectType();
     // public System.Boolean get_IsDone()
-    // Offset: 0x18DA1DC
+    // Offset: 0x18D9D4C
     bool get_IsDone();
     // public UnityEngine.Object get_Asset()
-    // Offset: 0x18DA2AC
+    // Offset: 0x18D9E1C
     ::UnityEngine::Object* get_Asset();
     // public System.Void .ctor()
-    // Offset: 0x18DA1E8
+    // Offset: 0x18D9D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetReference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AssetReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReference*, creationType>()));
     }
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x18DA240
+    // Offset: 0x18D9DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetReference* New_ctor(::StringW guid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AssetReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReference*, creationType>(guid)));
     }
     // public System.Boolean IsValid()
-    // Offset: 0x18DA1D0
+    // Offset: 0x18D9D40
     bool IsValid();
     // static private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<T> CreateFailedOperation()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -163,13 +163,13 @@ namespace UnityEngine::AddressableAssets {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadScene()
-    // Offset: 0x18DA3B4
+    // Offset: 0x18D9F24
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x18DA3D0
+    // Offset: 0x18D9F40
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> Instantiate(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x18DA3E0
+    // Offset: 0x18D9F50
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> Instantiate(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAssetAsync()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -181,34 +181,34 @@ namespace UnityEngine::AddressableAssets {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___generic__method);
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> LoadSceneAsync(UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Boolean activateOnLoad, System.Int32 priority)
-    // Offset: 0x18DA3F4
+    // Offset: 0x18D9F64
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnLoadScene()
-    // Offset: 0x18DA558
+    // Offset: 0x18DA0C8
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x18DA5FC
+    // Offset: 0x18DA16C
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> InstantiateAsync(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x18DA6EC
+    // Offset: 0x18DA25C
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // public System.Boolean RuntimeKeyIsValid()
-    // Offset: 0x18DA794
+    // Offset: 0x18DA304
     bool RuntimeKeyIsValid();
     // public System.Void ReleaseAsset()
-    // Offset: 0x18DA874
+    // Offset: 0x18DA3E4
     void ReleaseAsset();
     // public System.Void ReleaseInstance(UnityEngine.GameObject obj)
-    // Offset: 0x18DA960
+    // Offset: 0x18DA4D0
     void ReleaseInstance(::UnityEngine::GameObject* obj);
     // public System.Boolean ValidateAsset(UnityEngine.Object obj)
-    // Offset: 0x18DA9C4
+    // Offset: 0x18DA534
     bool ValidateAsset(::UnityEngine::Object* obj);
     // public System.Boolean ValidateAsset(System.String path)
-    // Offset: 0x18DA9CC
+    // Offset: 0x18DA53C
     bool ValidateAsset(::StringW path);
     // public override System.String ToString()
-    // Offset: 0x18DA354
+    // Offset: 0x18D9EC4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -95,41 +95,41 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Object,System.Nullable`1<System.Boolean>> s_AttributeCache
     static void _set_s_AttributeCache(::System::Collections::Generic::Dictionary_2<::Il2CppObject*, ::System::Nullable_1<bool>>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x198D8E4
+    // Offset: 0x198B454
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogCheckDelegatingCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogCheckDelegatingCommand*, creationType>(innerCommand)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x198F9B4
+    // Offset: 0x198D524
     static void _cctor();
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x198F304
+    // Offset: 0x198CE74
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // static private System.Boolean CaptureException(NUnit.Framework.Internal.TestResult result, System.Action action)
-    // Offset: 0x198F3C8
+    // Offset: 0x198CF38
     static bool CaptureException(::NUnit::Framework::Internal::TestResult* result, ::System::Action* action);
     // static private System.Boolean ExecuteAndCheckLog(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result, System.Action action)
-    // Offset: 0x198F0E4
+    // Offset: 0x198CC54
     static bool ExecuteAndCheckLog(::UnityEngine::TestTools::Logging::LogScope* logScope, ::NUnit::Framework::Internal::TestResult* result, ::System::Action* action);
     // static private System.Void PostTestValidation(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.Commands.TestCommand command, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x198F198
+    // Offset: 0x198CD08
     static void PostTestValidation(::UnityEngine::TestTools::Logging::LogScope* logScope, ::NUnit::Framework::Internal::Commands::TestCommand* command, ::NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean CheckLogs(NUnit.Framework.Internal.TestResult result, UnityEngine.TestTools.Logging.LogScope logScope)
-    // Offset: 0x198F4B8
+    // Offset: 0x198D028
     static bool CheckLogs(::NUnit::Framework::Internal::TestResult* result, ::UnityEngine::TestTools::Logging::LogScope* logScope);
     // static private System.Boolean CheckFailingLogs(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x198F82C
+    // Offset: 0x198D39C
     static bool CheckFailingLogs(::UnityEngine::TestTools::Logging::LogScope* logScope, ::NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean CheckExpectedLogs(UnityEngine.TestTools.Logging.LogScope logScope, NUnit.Framework.Internal.TestResult result)
-    // Offset: 0x198F8E8
+    // Offset: 0x198D458
     static bool CheckExpectedLogs(::UnityEngine::TestTools::Logging::LogScope* logScope, ::NUnit::Framework::Internal::TestResult* result);
     // static private System.Boolean MustExpect(System.Reflection.MemberInfo method)
-    // Offset: 0x198F568
+    // Offset: 0x198D0D8
     static bool MustExpect(::System::Reflection::MemberInfo* method);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x198EDAC
+    // Offset: 0x198C91C
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

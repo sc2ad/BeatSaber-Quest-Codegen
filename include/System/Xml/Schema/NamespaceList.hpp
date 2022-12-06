@@ -130,36 +130,36 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String targetNamespace
     [[deprecated("Use field access instead!")]] ::StringW& dyn_targetNamespace();
     // public System.Xml.Schema.NamespaceList/System.Xml.Schema.ListType get_Type()
-    // Offset: 0x1D16470
+    // Offset: 0x1D11FE0
     ::System::Xml::Schema::NamespaceList::ListType get_Type();
     // public System.String get_Excluded()
-    // Offset: 0x1D16478
+    // Offset: 0x1D11FE8
     ::StringW get_Excluded();
     // public System.Collections.ICollection get_Enumerate()
-    // Offset: 0x1D16480
+    // Offset: 0x1D11FF0
     ::System::Collections::ICollection* get_Enumerate();
     // public System.Void .ctor()
-    // Offset: 0x1D161F4
+    // Offset: 0x1D11D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>()));
     }
     // public System.Void .ctor(System.String namespaces, System.String targetNamespace)
-    // Offset: 0x1D161FC
+    // Offset: 0x1D11D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NamespaceList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceList*, creationType>(namespaces, targetNamespace)));
     }
     // public System.Boolean Allows(System.String ns)
-    // Offset: 0x1D16514
+    // Offset: 0x1D12084
     bool Allows(::StringW ns);
     // public System.Boolean Allows(System.Xml.XmlQualifiedName qname)
-    // Offset: 0x1D165A4
+    // Offset: 0x1D12114
     bool Allows(::System::Xml::XmlQualifiedName* qname);
     // public override System.String ToString()
-    // Offset: 0x1D165C4
+    // Offset: 0x1D12134
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

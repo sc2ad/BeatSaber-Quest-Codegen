@@ -48,61 +48,61 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static private readonly System.UInt32[] PExtInv
     static void _set_PExtInv(::ArrayW<uint> value);
     // static private System.Void .cctor()
-    // Offset: 0x23D11D4
+    // Offset: 0x23CDD44
     static void _cctor();
     // static public System.Void Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x23D0038
+    // Offset: 0x23CCBA8
     static void Add(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.Void AddOne(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x23D01E8
+    // Offset: 0x23CCD58
     static void AddOne(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x23D02E8
+    // Offset: 0x23CCE58
     static ::ArrayW<uint> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void Inv(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x23D03D4
+    // Offset: 0x23CCF44
     static void Inv(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.Int32 IsZero(System.UInt32[] x)
-    // Offset: 0x23D0638
+    // Offset: 0x23CD1A8
     static int IsZero(::ArrayW<uint> x);
     // static public System.Void Multiply(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x23D0728
+    // Offset: 0x23CD298
     static void Multiply(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.Void MultiplyAddToExt(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
-    // Offset: 0x23D0B00
+    // Offset: 0x23CD670
     static void MultiplyAddToExt(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.Void Negate(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x23D0C60
+    // Offset: 0x23CD7D0
     static void Negate(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.Void Random(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x23D0D34
+    // Offset: 0x23CD8A4
     static void Random(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
     // static public System.Void RandomMult(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
-    // Offset: 0x23CFB5C
+    // Offset: 0x23CC6CC
     static void RandomMult(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
     // static public System.Void Reduce(System.UInt32[] xx, System.UInt32[] z)
-    // Offset: 0x23D08A4
+    // Offset: 0x23CD414
     static void Reduce(::ArrayW<uint> xx, ::ArrayW<uint> z);
     // static public System.Void Reduce32(System.UInt32 x, System.UInt32[] z)
-    // Offset: 0x23D0E10
+    // Offset: 0x23CD980
     static void Reduce32(uint x, ::ArrayW<uint> z);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x23D0698
+    // Offset: 0x23CD208
     static void Square(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.Void SquareN(System.UInt32[] x, System.Int32 n, System.UInt32[] z)
-    // Offset: 0x23D07C0
+    // Offset: 0x23CD330
     static void SquareN(::ArrayW<uint> x, int n, ::ArrayW<uint> z);
     // static public System.Void Subtract(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
-    // Offset: 0x23D0F88
+    // Offset: 0x23CDAF8
     static void Subtract(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.Void Twice(System.UInt32[] x, System.UInt32[] z)
-    // Offset: 0x23D10D0
+    // Offset: 0x23CDC40
     static void Twice(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static private System.Void AddPInvTo(System.UInt32[] z)
-    // Offset: 0x23D013C
+    // Offset: 0x23CCCAC
     static void AddPInvTo(::ArrayW<uint> z);
     // static private System.Void SubPInvFrom(System.UInt32[] z)
-    // Offset: 0x23D1024
+    // Offset: 0x23CDB94
     static void SubPInvFrom(::ArrayW<uint> z);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1Field
   #pragma pack(pop)

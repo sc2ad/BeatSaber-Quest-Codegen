@@ -70,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSpecificSettings playerSpecificSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x1436E40
+    // Offset: 0x14368E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomDifficultyBeatmap::$$c__DisplayClass28_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomDifficultyBeatmap::$$c__DisplayClass28_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomDifficultyBeatmap::$$c__DisplayClass28_0*, creationType>()));
     }
     // System.Void <GetBeatmapDataAsync>b__0()
-    // Offset: 0x1436E48
+    // Offset: 0x14368F0
     void $GetBeatmapDataAsync$b__0();
   }; // CustomDifficultyBeatmap/<>c__DisplayClass28_0
   #pragma pack(pop)

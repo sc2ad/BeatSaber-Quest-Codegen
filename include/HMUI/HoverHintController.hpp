@@ -92,38 +92,38 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isHiding
     [[deprecated("Use field access instead!")]] bool& dyn__isHiding();
     // public System.Void .ctor()
-    // Offset: 0x1751D44
+    // Offset: 0x17528B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HoverHintController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HoverHintController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HoverHintController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1751548
+    // Offset: 0x17520B8
     void Awake();
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x1751618
+    // Offset: 0x1752188
     void OnApplicationFocus(bool hasFocus);
     // public System.Void ShowHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x1751258
+    // Offset: 0x1751DC8
     void ShowHint(::HMUI::HoverHint* hoverHint);
     // public System.Void HideHint()
-    // Offset: 0x175140C
+    // Offset: 0x1751F7C
     void HideHint();
     // public System.Void HideHintInstant()
-    // Offset: 0x17513C8
+    // Offset: 0x1751F38
     void HideHintInstant();
     // private System.Collections.IEnumerator ShowHintAfterDelay(HMUI.HoverHint hoverHint, System.Single delay)
-    // Offset: 0x17517F4
+    // Offset: 0x1752364
     ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float delay);
     // private System.Collections.IEnumerator HideHintAfterDelay(System.Single delay)
-    // Offset: 0x1751880
+    // Offset: 0x17523F0
     ::System::Collections::IEnumerator* HideHintAfterDelay(float delay);
     // private System.Void SetupAndShowHintPanel(HMUI.HoverHint hoverHint)
-    // Offset: 0x1751640
+    // Offset: 0x17521B0
     void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
     // static private UnityEngine.Transform GetScreenTransformForHoverHint(HMUI.HoverHint hoverHint)
-    // Offset: 0x1751958
+    // Offset: 0x17524C8
     static ::UnityEngine::Transform* GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
   }; // HMUI.HoverHintController
   #pragma pack(pop)

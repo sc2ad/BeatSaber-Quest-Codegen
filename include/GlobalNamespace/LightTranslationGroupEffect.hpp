@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x1114E00
+    // [TupleElementNamesAttribute] Offset: 0x1116D00
     // private readonly System.Collections.Generic.List`1<System.ValueTuple`2<UnityEngine.Transform,UnityEngine.Vector3>> _transformMask
     // Size: 0x8
     // Offset: 0x20
@@ -146,26 +146,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _lightTranslationZBeatmapEventCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__lightTranslationZBeatmapEventCallbackWrapper();
     // public System.Void .ctor(LightTranslationGroupEffect/InitData initData, Tweening.SongTimeTweeningManager tweeningManager, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x1517CBC
+    // Offset: 0x151682C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationGroupEffect* New_ctor(::GlobalNamespace::LightTranslationGroupEffect::InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightTranslationGroupEffect*, creationType>(initData, tweeningManager, beatmapCallbacksController)));
     }
     // public System.Void Cleanup()
-    // Offset: 0x15187B0
+    // Offset: 0x1517320
     void Cleanup();
     // private BeatmapDataCallback`1<LightTranslationBeatmapEventData> GetTranslationEventHandler(Tweening.FloatTween translationTween, UnityEngine.Vector2 translationLimits, UnityEngine.Vector2 distributionLimits, System.Boolean mirrored)
-    // Offset: 0x15186CC
+    // Offset: 0x151723C
     ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>* GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
     // private System.Void SetTranslation(System.Single _)
-    // Offset: 0x1518830
+    // Offset: 0x15173A0
     void SetTranslation(float _);
     // static private System.Void SetTweenData(Tweening.FloatTween tween, System.Single from, System.Single to, System.Single startTime, System.Single endTime, EaseType easeType)
-    // Offset: 0x1518A14
+    // Offset: 0x1517584
     static void SetTweenData(::Tweening::FloatTween* tween, float from, float to, float startTime, float endTime, ::GlobalNamespace::EaseType easeType);
     // static private System.Single ComputeTranslation(System.Single translation, UnityEngine.Vector2 translationLimits, System.Single distribution, UnityEngine.Vector2 distributionLimits, System.Boolean mirrored)
-    // Offset: 0x1518A54
+    // Offset: 0x15175C4
     static float ComputeTranslation(float translation, ::UnityEngine::Vector2 translationLimits, float distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
   }; // LightTranslationGroupEffect
   #pragma pack(pop)

@@ -44,14 +44,14 @@ namespace GlobalNamespace {
   class LobbyPlayerPermissionsModel : public ::Il2CppObject {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1110BAC
+    // [InjectAttribute] Offset: 0x1112AAC
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1110BBC
+    // [InjectAttribute] Offset: 0x1112ABC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
@@ -114,59 +114,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action permissionsChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_permissionsChangedEvent();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x15B02B8
+    // Offset: 0x15ADE28
     bool get_isPartyOwner();
     // private System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x15B02C0
+    // Offset: 0x15ADE30
     void set_isPartyOwner(bool value);
     // public System.Boolean get_hasRecommendBeatmapPermission()
-    // Offset: 0x15B02CC
+    // Offset: 0x15ADE3C
     bool get_hasRecommendBeatmapPermission();
     // private System.Void set_hasRecommendBeatmapPermission(System.Boolean value)
-    // Offset: 0x15B02D4
+    // Offset: 0x15ADE44
     void set_hasRecommendBeatmapPermission(bool value);
     // public System.Boolean get_hasRecommendModifiersPermission()
-    // Offset: 0x15B02E0
+    // Offset: 0x15ADE50
     bool get_hasRecommendModifiersPermission();
     // private System.Void set_hasRecommendModifiersPermission(System.Boolean value)
-    // Offset: 0x15B02E8
+    // Offset: 0x15ADE58
     void set_hasRecommendModifiersPermission(bool value);
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x15B02F4
+    // Offset: 0x15ADE64
     bool get_hasKickVotePermission();
     // private System.Void set_hasKickVotePermission(System.Boolean value)
-    // Offset: 0x15B02FC
+    // Offset: 0x15ADE6C
     void set_hasKickVotePermission(bool value);
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x15B0308
+    // Offset: 0x15ADE78
     bool get_hasInvitePermission();
     // private System.Void set_hasInvitePermission(System.Boolean value)
-    // Offset: 0x15B0310
+    // Offset: 0x15ADE80
     void set_hasInvitePermission(bool value);
     // public System.Void add_permissionsChangedEvent(System.Action value)
-    // Offset: 0x15B031C
+    // Offset: 0x15ADE8C
     void add_permissionsChangedEvent(::System::Action* value);
     // public System.Void remove_permissionsChangedEvent(System.Action value)
-    // Offset: 0x15B03C0
+    // Offset: 0x15ADF30
     void remove_permissionsChangedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x15B06BC
+    // Offset: 0x15AE22C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayerPermissionsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayerPermissionsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayerPermissionsModel*, creationType>()));
     }
     // public System.Void Activate()
-    // Offset: 0x15AACA4
+    // Offset: 0x15A8814
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x15AAF40
+    // Offset: 0x15A8AB0
     void Deactivate();
     // public System.Void SetPlayerPermissions(System.Boolean isPartyOwner, System.Boolean hasRecommendBeatmapPermission, System.Boolean hasRecommendModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x15AFDF8
+    // Offset: 0x15AD968
     void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // private System.Void HandleMenuRpcManagerSetPlayersPermissionConfiguration(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x15B0464
+    // Offset: 0x15ADFD4
     void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
   }; // LobbyPlayerPermissionsModel
   #pragma pack(pop)

@@ -43,17 +43,17 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static public System.Text.RegularExpressions.MatchEvaluator <>9__38_0
     static void _set_$$9__38_0(::System::Text::RegularExpressions::MatchEvaluator* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D5799C
+    // Offset: 0x1D5350C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D57A00
+    // Offset: 0x1D53570
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TNode::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode::$$c*, creationType>()));
     }
     // System.String <EscapeInvalidXmlCharacters>b__38_0(System.Text.RegularExpressions.Match match)
-    // Offset: 0x1D57A08
+    // Offset: 0x1D53578
     ::StringW $EscapeInvalidXmlCharacters$b__38_0(::System::Text::RegularExpressions::Match* match);
   }; // NUnit.Framework.Interfaces.TNode/NUnit.Framework.Interfaces.<>c
   #pragma pack(pop)

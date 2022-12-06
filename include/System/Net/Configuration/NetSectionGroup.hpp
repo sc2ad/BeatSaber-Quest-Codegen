@@ -29,7 +29,7 @@ namespace System::Net::Configuration {
   class NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A95784
+    // Offset: 0x1A932F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSectionGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::NetSectionGroup::.ctor");

@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapDifficulty lastSelectedBeatmapDifficulty
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
     // public System.Void .ctor()
-    // Offset: 0x157FA10
+    // Offset: 0x157C580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::.ctor");

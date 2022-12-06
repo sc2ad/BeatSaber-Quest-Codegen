@@ -82,26 +82,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1554E84
+    // Offset: 0x15519F4
     ::ArrayW<::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public System.Void .ctor()
-    // Offset: 0x1555124
+    // Offset: 0x1551C94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x15500C0
+    // Offset: 0x154CC30
     ::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1555024
+    // Offset: 0x1551B94
     ::GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x15550A4
+    // Offset: 0x1551C14
     ::StringW GetLevelSku(::StringW assetFile);
     // protected override System.Void OnEnable()
-    // Offset: 0x1554E8C
+    // Offset: 0x15519FC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

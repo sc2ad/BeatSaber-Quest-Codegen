@@ -70,14 +70,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Type[] memberTypes
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.Int32 objectId, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x18FA854
+    // Offset: 0x18FA3C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectMapInfo* New_ctor(int objectId, int numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectMapInfo*, creationType>(objectId, numMembers, memberNames, memberTypes)));
     }
     // System.Boolean isCompatible(System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x18FA8A0
+    // Offset: 0x18FA410
     bool isCompatible(int numMembers, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
   #pragma pack(pop)

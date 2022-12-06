@@ -58,7 +58,7 @@ namespace GlobalNamespace {
   class SinglePositionTween : public ::UnityEngine::Playables::PlayableAsset/*, public ::UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
     public:
-    // [NullAllowed] Offset: 0x11245F8
+    // [NullAllowed] Offset: 0x11274F8
     // public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -85,17 +85,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public CustomTweenBehaviour template
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CustomTweenBehaviour*& dyn_template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x141479C
+    // Offset: 0x1415244
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1414948
+    // Offset: 0x14153F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SinglePositionTween* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SinglePositionTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinglePositionTween*, creationType>()));
     }
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x14147A4
+    // Offset: 0x141524C
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);

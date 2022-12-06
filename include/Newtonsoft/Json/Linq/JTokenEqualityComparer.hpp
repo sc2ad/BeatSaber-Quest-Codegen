@@ -45,17 +45,17 @@ namespace Newtonsoft::Json::Linq {
       return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x179F7A4
+    // Offset: 0x17A0314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JTokenEqualityComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JTokenEqualityComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JTokenEqualityComparer*, creationType>()));
     }
     // public System.Boolean Equals(Newtonsoft.Json.Linq.JToken x, Newtonsoft.Json.Linq.JToken y)
-    // Offset: 0x179F6DC
+    // Offset: 0x17A024C
     bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
     // public System.Int32 GetHashCode(Newtonsoft.Json.Linq.JToken obj)
-    // Offset: 0x179F780
+    // Offset: 0x17A02F0
     int GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
   }; // Newtonsoft.Json.Linq.JTokenEqualityComparer
   #pragma pack(pop)

@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Gradient self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Gradient*& dyn_self();
     // public System.Void .ctor(UnityEngine.Gradient self)
-    // Offset: 0x1A69FBC
+    // Offset: 0x1A67B2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Gradient* New_ctor(::UnityEngine::Gradient* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Gradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Gradient*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x1A69FE8
+    // Offset: 0x1A67B58
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Gradient other)
-    // Offset: 0x1A69FF8
+    // Offset: 0x1A67B68
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
   }; // HoudiniEngineUnity.Test_Gradient
   #pragma pack(pop)

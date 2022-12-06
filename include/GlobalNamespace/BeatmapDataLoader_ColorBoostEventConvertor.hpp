@@ -34,10 +34,10 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::ColorBoostEventConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapEventData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData*, ::GlobalNamespace::ColorBoostBeatmapEventData*> {
     public:
     // protected ColorBoostBeatmapEventData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.ColorBoostEventData colorBoostEventSaveData)
-    // Offset: 0x13AB3F4
+    // Offset: 0x13AC258
     ::GlobalNamespace::ColorBoostBeatmapEventData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::ColorBoostEventData* colorBoostEventSaveData);
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0x13AA4DC
+    // Offset: 0x13AB340
     // Implemented from: BeatmapDataLoader/BeatmapDataItemConvertor`3
     // Base method: System.Void BeatmapDataItemConvertor_3::.ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

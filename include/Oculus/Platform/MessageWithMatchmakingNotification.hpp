@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithMatchmakingNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*> {
     public:
     // protected Oculus.Platform.Models.Room GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A11C7C
+    // Offset: 0x1A107EC
     ::Oculus::Platform::Models::Room* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A0B934
+    // Offset: 0x1A0A4A4
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithMatchmakingNotification*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.Room GetRoom()
-    // Offset: 0x1A11C38
+    // Offset: 0x1A107A8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Room Message::GetRoom()
     ::Oculus::Platform::Models::Room* GetRoom();

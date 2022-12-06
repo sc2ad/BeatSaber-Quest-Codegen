@@ -80,37 +80,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedBeatmapCharacteristicNum
     [[deprecated("Use field access instead!")]] int& dyn__selectedBeatmapCharacteristicNum();
     // public BeatmapCharacteristicCollectionSO get_beatmapCharacteristicCollection()
-    // Offset: 0x13A6978
+    // Offset: 0x13A77DC
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO* get_beatmapCharacteristicCollection();
     // public BeatmapCharacteristicSO get_selectedBeatmapCharacteristic()
-    // Offset: 0x13A6980
+    // Offset: 0x13A77E4
     ::GlobalNamespace::BeatmapCharacteristicSO* get_selectedBeatmapCharacteristic();
     // public System.Void add_didSelectBeatmapCharacteristicEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x13A6830
+    // Offset: 0x13A7694
     void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectBeatmapCharacteristicEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x13A68D4
+    // Offset: 0x13A7738
     void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13A6D44
+    // Offset: 0x13A7BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsViewController*, creationType>()));
     }
     // public System.Void SetData(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.Int32 selectedCharacteristicNum)
-    // Offset: 0x13A6BB4
+    // Offset: 0x13A7A18
     void SetData(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, int selectedCharacteristicNum);
     // private System.Void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x13A6C14
+    // Offset: 0x13A7A78
     void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13A6A54
+    // Offset: 0x13A78B8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13A6B0C
+    // Offset: 0x13A7970
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

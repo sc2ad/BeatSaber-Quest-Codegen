@@ -45,24 +45,24 @@ namespace GlobalNamespace {
   class SongPackMaskConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2A00138
+    // Offset: 0x29FACA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskConverter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMaskConverter*, creationType>()));
     }
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x29FFF68
+    // Offset: 0x29FAAD8
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x29FFFEC
+    // Offset: 0x29FAB5C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x2A00080
+    // Offset: 0x29FABF0
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);

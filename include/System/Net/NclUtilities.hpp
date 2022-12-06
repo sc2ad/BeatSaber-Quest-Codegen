@@ -46,16 +46,16 @@ namespace System::Net {
     // Set static field: static System.String _LocalDomainName
     static void _set__LocalDomainName(::StringW value);
     // static System.Net.IPAddress[] get_LocalAddresses()
-    // Offset: 0x1ADA294
+    // Offset: 0x1AD7E04
     static ::ArrayW<::System::Net::IPAddress*> get_LocalAddresses();
     // static private System.Object get_LocalAddressesLock()
-    // Offset: 0x1ADA6F4
+    // Offset: 0x1AD8264
     static ::Il2CppObject* get_LocalAddressesLock();
     // static System.Boolean IsAddressLocal(System.Net.IPAddress ipAddress)
-    // Offset: 0x1ADA200
+    // Offset: 0x1AD7D70
     static bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
     // static private System.Net.IPHostEntry GetLocalHost()
-    // Offset: 0x1ADA6D8
+    // Offset: 0x1AD8248
     static ::System::Net::IPHostEntry* GetLocalHost();
   }; // System.Net.NclUtilities
   #pragma pack(pop)

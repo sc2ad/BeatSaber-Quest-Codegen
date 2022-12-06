@@ -105,35 +105,35 @@ namespace RootMotion::FinalIK {
     static check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
     static_assert(sizeof(FBIKChain::Smoothing) == 0x4);
     public:
-    // [RangeAttribute] Offset: 0x1139308
+    // [RangeAttribute] Offset: 0x113D1D8
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x10
     float pin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1139320
+    // [RangeAttribute] Offset: 0x113D1F0
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x14
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1139338
+    // [RangeAttribute] Offset: 0x113D208
     // public System.Single push
     // Size: 0x4
     // Offset: 0x18
     float push;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1139350
+    // [RangeAttribute] Offset: 0x113D220
     // public System.Single pushParent
     // Size: 0x4
     // Offset: 0x1C
     float pushParent;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1139368
+    // [RangeAttribute] Offset: 0x113D238
     // public System.Single reach
     // Size: 0x4
     // Offset: 0x20
@@ -298,72 +298,72 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single sqrMagDif
     [[deprecated("Use field access instead!")]] float& dyn_sqrMagDif();
     // public System.Void .ctor()
-    // Offset: 0x231C2B4
+    // Offset: 0x2319E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>()));
     }
     // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
-    // Offset: 0x231C380
+    // Offset: 0x2319EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBIKChain* New_ctor(float pin, float pull, ::ArrayW<::UnityEngine::Transform*> nodeTransforms) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>(pin, pull, nodeTransforms)));
     }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
-    // Offset: 0x231C48C
+    // Offset: 0x2319FFC
     void SetNodes(::ArrayW<::UnityEngine::Transform*> boneTransforms);
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
-    // Offset: 0x231C5B0
+    // Offset: 0x231A120
     int GetNodeIndex(::UnityEngine::Transform* boneTransform);
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x231C68C
+    // Offset: 0x231A1FC
     bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231C790
+    // Offset: 0x231A300
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ReadPose(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean fullBody)
-    // Offset: 0x231CEB0
+    // Offset: 0x231AA20
     void ReadPose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
     // private System.Void CalculateBoneLengths(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231C920
+    // Offset: 0x231A490
     void CalculateBoneLengths(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Reach(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231D59C
+    // Offset: 0x231B10C
     void Reach(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public UnityEngine.Vector3 Push(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231D940
+    // Offset: 0x231B4B0
     ::UnityEngine::Vector3 Push(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SolveTrigonometric(RootMotion.FinalIK.IKSolverFullBody solver, System.Boolean calculateBendDirection)
-    // Offset: 0x231DD24
+    // Offset: 0x231B894
     void SolveTrigonometric(::RootMotion::FinalIK::IKSolverFullBody* solver, bool calculateBendDirection);
     // public System.Void Stage1(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231E2A8
+    // Offset: 0x231BE18
     void Stage1(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Stage2(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 position)
-    // Offset: 0x231E878
+    // Offset: 0x231C3E8
     void Stage2(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 position);
     // public System.Void SolveConstraintSystems(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231EB10
+    // Offset: 0x231C680
     void SolveConstraintSystems(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x231E770
+    // Offset: 0x231C2E0
     ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // protected UnityEngine.Vector3 GetDirToBendPoint(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendDirection, System.Single directionMagnitude)
-    // Offset: 0x231E090
+    // Offset: 0x231BC00
     ::UnityEngine::Vector3 GetDirToBendPoint(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendDirection, float directionMagnitude);
     // private System.Void SolveChildConstraints(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x231E6F8
+    // Offset: 0x231C268
     void SolveChildConstraints(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private System.Void SolveLinearConstraint(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node node1, RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node node2, System.Single crossFade, System.Single distance)
-    // Offset: 0x231EBF8
+    // Offset: 0x231C768
     void SolveLinearConstraint(::RootMotion::FinalIK::IKSolver::Node* node1, ::RootMotion::FinalIK::IKSolver::Node* node2, float crossFade, float distance);
     // public System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x231E618
+    // Offset: 0x231C188
     void ForwardReach(::UnityEngine::Vector3 position);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x231E9F8
+    // Offset: 0x231C568
     void BackwardReach(::UnityEngine::Vector3 position);
   }; // RootMotion.FinalIK.FBIKChain
   #pragma pack(pop)

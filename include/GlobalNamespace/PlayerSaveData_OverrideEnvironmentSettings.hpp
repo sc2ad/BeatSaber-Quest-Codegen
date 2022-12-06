@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String override360EnvironmentName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_override360EnvironmentName();
     // public System.Void .ctor()
-    // Offset: 0x157B5F8
+    // Offset: 0x1578168
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::OverrideEnvironmentSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings::.ctor");

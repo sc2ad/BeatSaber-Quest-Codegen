@@ -56,19 +56,19 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector2 m_Direction
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_Direction();
     // public UnityEngine.Vector2 get_origin()
-    // Offset: 0x2159700
+    // Offset: 0x2158270
     ::UnityEngine::Vector2 get_origin();
     // public UnityEngine.Vector2 get_direction()
-    // Offset: 0x2159708
+    // Offset: 0x2158278
     ::UnityEngine::Vector2 get_direction();
     // public System.Void .ctor(UnityEngine.Vector2 origin, UnityEngine.Vector2 direction)
-    // Offset: 0x21596CC
+    // Offset: 0x215823C
     // ABORTED: conflicts with another method.  Ray2D(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
     // public UnityEngine.Vector2 GetPoint(System.Single distance)
-    // Offset: 0x2159710
+    // Offset: 0x2158280
     ::UnityEngine::Vector2 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0x21597BC
+    // Offset: 0x215832C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

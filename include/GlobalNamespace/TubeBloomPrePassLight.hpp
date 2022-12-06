@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     float length;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10FAB0C
+    // [RangeAttribute] Offset: 0x10FCA0C
     // private System.Single _center
     // Size: 0x4
     // Offset: 0x44
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     float boostToWhite;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x10FAB9C
+    // [MinAttribute] Offset: 0x10FCA9C
     // private System.Single _lightWidthMultiplier
     // Size: 0x4
     // Offset: 0x68
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: addWidthToLength and: bakedGlowWidthScale
     char __padding11[0x3] = {};
-    // [SpaceAttribute] Offset: 0x10FABE8
+    // [SpaceAttribute] Offset: 0x10FCAE8
     // private System.Single _bakedGlowWidthScale
     // Size: 0x4
     // Offset: 0x70
@@ -150,15 +150,15 @@ namespace GlobalNamespace {
     bool forceUseBakedGlow;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0x10FAC30
-    // [TooltipAttribute] Offset: 0x10FAC30
+    // [SpaceAttribute] Offset: 0x10FCB30
+    // [TooltipAttribute] Offset: 0x10FCB30
     // private System.Boolean _updateAlways
     // Size: 0x1
     // Offset: 0x75
     bool updateAlways;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0x10FAC8C
+    // [SpaceAttribute] Offset: 0x10FCB8C
     // private System.Boolean _limitAlpha
     // Size: 0x1
     // Offset: 0x76
@@ -167,21 +167,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitAlpha and: minAlpha
     char __padding15[0x1] = {};
-    // [DrawIfAttribute] Offset: 0x10FACC4
+    // [DrawIfAttribute] Offset: 0x10FCBC4
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x78
     float minAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x10FAD6C
+    // [DrawIfAttribute] Offset: 0x10FCC6C
     // private System.Single _maxAlpha
     // Size: 0x4
     // Offset: 0x7C
     float maxAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10FAE14
+    // [SpaceAttribute] Offset: 0x10FCD14
     // private System.Boolean _overrideChildrenAlpha
     // Size: 0x1
     // Offset: 0x80
@@ -190,21 +190,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideChildrenAlpha and: startAlpha
     char __padding18[0x3] = {};
-    // [MinAttribute] Offset: 0x10FAE4C
+    // [MinAttribute] Offset: 0x10FCD4C
     // private System.Single _startAlpha
     // Size: 0x4
     // Offset: 0x84
     float startAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x10FAE88
+    // [MinAttribute] Offset: 0x10FCD88
     // private System.Single _endAlpha
     // Size: 0x4
     // Offset: 0x88
     float endAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10FAEC4
+    // [SpaceAttribute] Offset: 0x10FCDC4
     // private System.Boolean _overrideChildrenWidth
     // Size: 0x1
     // Offset: 0x8C
@@ -213,29 +213,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideChildrenWidth and: startWidth
     char __padding21[0x3] = {};
-    // [MinAttribute] Offset: 0x10FAEFC
+    // [MinAttribute] Offset: 0x10FCDFC
     // private System.Single _startWidth
     // Size: 0x4
     // Offset: 0x90
     float startWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x10FAF38
+    // [MinAttribute] Offset: 0x10FCE38
     // private System.Single _endWidth
     // Size: 0x4
     // Offset: 0x94
     float endWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x10FAF74
-    // [NullAllowed] Offset: 0x10FAF74
+    // [SpaceAttribute] Offset: 0x10FCE74
+    // [NullAllowed] Offset: 0x10FCE74
     // private ParametricBoxController _parametricBoxController
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::ParametricBoxController* parametricBoxController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ParametricBoxController*) == 0x8);
-    // [NullAllowed] Offset: 0x10FAFBC
+    // [NullAllowed] Offset: 0x10FCEBC
     // private Parametric3SliceSpriteController _dynamic3SliceSprite
     // Size: 0x8
     // Offset: 0xA0
@@ -322,63 +322,63 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Single get_colorAlphaMultiplier()
-    // Offset: 0x1CD9600
+    // Offset: 0x1CD5170
     float get_colorAlphaMultiplier();
     // public System.Single get_center()
-    // Offset: 0x1CD9608
+    // Offset: 0x1CD5178
     float get_center();
     // public System.Single get_length()
-    // Offset: 0x1CD963C
+    // Offset: 0x1CD51AC
     float get_length();
     // public System.Void set_length(System.Single value)
-    // Offset: 0x1CD9644
+    // Offset: 0x1CD51B4
     void set_length(float value);
     // public System.Single get_width()
-    // Offset: 0x1CD9654
+    // Offset: 0x1CD51C4
     float get_width();
     // public System.Void set_width(System.Single value)
-    // Offset: 0x1CD965C
+    // Offset: 0x1CD51CC
     void set_width(float value);
     // public System.Single get_lightWidthMultiplier()
-    // Offset: 0x1CD966C
+    // Offset: 0x1CD51DC
     float get_lightWidthMultiplier();
     // public System.Void set_lightWidthMultiplier(System.Single value)
-    // Offset: 0x1CD9674
+    // Offset: 0x1CD51E4
     void set_lightWidthMultiplier(float value);
     // public System.Single get_bloomFogIntensityMultiplier()
-    // Offset: 0x1CD967C
+    // Offset: 0x1CD51EC
     float get_bloomFogIntensityMultiplier();
     // public System.Void set_bloomFogIntensityMultiplier(System.Single value)
-    // Offset: 0x1CD9684
+    // Offset: 0x1CD51F4
     void set_bloomFogIntensityMultiplier(float value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CD97B8
+    // Offset: 0x1CD5328
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1CD968C
+    // Offset: 0x1CD51FC
     void set_color(::UnityEngine::Color value);
     // public System.Void add_didRefreshEvent(System.Action value)
-    // Offset: 0x1CD94B8
+    // Offset: 0x1CD5028
     void add_didRefreshEvent(::System::Action* value);
     // public System.Void remove_didRefreshEvent(System.Action value)
-    // Offset: 0x1CD955C
+    // Offset: 0x1CD50CC
     void remove_didRefreshEvent(::System::Action* value);
     // private System.Void MarkDirty()
-    // Offset: 0x1CD9630
+    // Offset: 0x1CD51A0
     void MarkDirty();
     // static private System.Void ClipPoints(ref UnityEngine.Vector4 fromPointClipPos, ref UnityEngine.Vector4 toPointClipPos, ref UnityEngine.Vector3 fromPointViewPos, ref UnityEngine.Vector3 toPointViewPos, System.Boolean fromPointInside, System.Single t)
-    // Offset: 0x1CDA384
+    // Offset: 0x1CD5EF4
     static void ClipPoints(ByRef<::UnityEngine::Vector4> fromPointClipPos, ByRef<::UnityEngine::Vector4> toPointClipPos, ByRef<::UnityEngine::Vector3> fromPointViewPos, ByRef<::UnityEngine::Vector3> toPointViewPos, bool fromPointInside, float t);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1CDA54C
+    // Offset: 0x1CD60BC
     void OnDrawGizmos();
     // public override System.Boolean get_isDirty()
-    // Offset: 0x1CD9610
+    // Offset: 0x1CD5180
     // Implemented from: BloomPrePassLight
     // Base method: System.Boolean BloomPrePassLight::get_isDirty()
     bool get_isDirty();
     // public System.Void .ctor()
-    // Offset: 0x1CDA724
+    // Offset: 0x1CD6294
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -387,22 +387,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TubeBloomPrePassLight*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1CD97C4
+    // Offset: 0x1CD5334
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::OnEnable()
     void OnEnable();
     // protected override System.Void DidRegisterLight()
-    // Offset: 0x1CD97F0
+    // Offset: 0x1CD5360
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::DidRegisterLight()
     void DidRegisterLight();
     // public override System.Void Refresh()
-    // Offset: 0x1CD9818
+    // Offset: 0x1CD5388
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::Refresh()
     void Refresh();
     // public override System.Void FillMeshData(ref System.Int32 lightNum, BloomPrePassLight/QuadData[] lightQuads, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    // Offset: 0x1CD9B94
+    // Offset: 0x1CD5704
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::FillMeshData(ref System.Int32 lightNum, BloomPrePassLight/QuadData[] lightQuads, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     void FillMeshData(ByRef<int> lightNum, ::ArrayW<::GlobalNamespace::BloomPrePassLight::QuadData> lightQuads, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);

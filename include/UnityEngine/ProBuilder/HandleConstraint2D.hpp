@@ -57,36 +57,36 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 y
     [[deprecated("Use field access instead!")]] int& dyn_y();
     // public System.Void .ctor(System.Int32 x, System.Int32 y)
-    // Offset: 0x208C1A0
+    // Offset: 0x2089D10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandleConstraint2D* New_ctor(int x, int y) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::HandleConstraint2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandleConstraint2D*, creationType>(x, y)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x208C56C
+    // Offset: 0x208A0DC
     static void _cctor();
     // public UnityEngine.ProBuilder.HandleConstraint2D Inverse()
-    // Offset: 0x208C1D8
+    // Offset: 0x2089D48
     ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
     // public UnityEngine.Vector2 Mask(UnityEngine.Vector2 v)
-    // Offset: 0x208C258
+    // Offset: 0x2089DC8
     ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
     // public UnityEngine.Vector2 InverseMask(UnityEngine.Vector2 v)
-    // Offset: 0x208C270
+    // Offset: 0x2089DE0
     ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x208C320
+    // Offset: 0x2089E90
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x208C328
+    // Offset: 0x2089E98
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.String ToString()
-    // Offset: 0x208C3B8
+    // Offset: 0x2089F28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -95,10 +95,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(HandleConstraint2D), 20 + sizeof(int)> __UnityEngine_ProBuilder_HandleConstraint2DSizeCheck;
   static_assert(sizeof(HandleConstraint2D) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0x208C298
+  // Offset: 0x2089E08
   bool operator ==(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
-  // Offset: 0x208C2DC
+  // Offset: 0x2089E4C
   bool operator !=(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

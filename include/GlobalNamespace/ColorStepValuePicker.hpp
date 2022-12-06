@@ -95,47 +95,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action incButtonWasPressedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_incButtonWasPressedEvent();
     // public UnityEngine.Color get_color()
-    // Offset: 0x142F1F0
+    // Offset: 0x142EC98
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x142F214
+    // Offset: 0x142ECBC
     void set_color(::UnityEngine::Color value);
     // public System.Void set_decButtonInteractable(System.Boolean value)
-    // Offset: 0x142F238
+    // Offset: 0x142ECE0
     void set_decButtonInteractable(bool value);
     // public System.Void set_incButtonInteractable(System.Boolean value)
-    // Offset: 0x142F258
+    // Offset: 0x142ED00
     void set_incButtonInteractable(bool value);
     // public System.Void add_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x142EF60
+    // Offset: 0x142EA08
     void add_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_decButtonWasPressedEvent(System.Action value)
-    // Offset: 0x142F004
+    // Offset: 0x142EAAC
     void remove_decButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x142F0A8
+    // Offset: 0x142EB50
     void add_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_incButtonWasPressedEvent(System.Action value)
-    // Offset: 0x142F14C
+    // Offset: 0x142EBF4
     void remove_incButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x142F450
+    // Offset: 0x142EEF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorStepValuePicker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorStepValuePicker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorStepValuePicker*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x142F278
+    // Offset: 0x142ED20
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x142F350
+    // Offset: 0x142EDF8
     void OnDisable();
     // private System.Void IncButtonPressed()
-    // Offset: 0x142F428
+    // Offset: 0x142EED0
     void IncButtonPressed();
     // private System.Void DecButtonPressed()
-    // Offset: 0x142F43C
+    // Offset: 0x142EEE4
     void DecButtonPressed();
   }; // ColorStepValuePicker
   #pragma pack(pop)

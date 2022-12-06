@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class MatchmakingAdminSnapshotCandidateList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidate*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1A169BC
+    // Offset: 0x1A1552C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshotCandidateList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList::.ctor");

@@ -131,40 +131,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ServiceEnvironment <serviceEnvironment>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ServiceEnvironment& dyn_$serviceEnvironment$k__BackingField();
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x16C6350
+    // Offset: 0x16C4EC0
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x16C6358
+    // Offset: 0x16C4EC8
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x16C6360
+    // Offset: 0x16C4ED0
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x16C6368
+    // Offset: 0x16C4ED8
     int get_multiplayerPort();
     // public DnsEndPoint get_masterServerEndPoint()
-    // Offset: 0x16C6370
+    // Offset: 0x16C4EE0
     ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
     // public System.String get_multiplayerStatusUrl()
-    // Offset: 0x16C6378
+    // Offset: 0x16C4EE8
     ::StringW get_multiplayerStatusUrl();
     // public System.String get_quickPlaySetupUrl()
-    // Offset: 0x16C6380
+    // Offset: 0x16C4EF0
     ::StringW get_quickPlaySetupUrl();
     // public System.String get_graphUrl()
-    // Offset: 0x16C63D0
+    // Offset: 0x16C4F40
     ::StringW get_graphUrl();
     // public System.String get_graphAccessToken()
-    // Offset: 0x16C63D8
+    // Offset: 0x16C4F48
     ::StringW get_graphAccessToken();
     // public System.Boolean get_forceGameLift()
-    // Offset: 0x16C63E0
+    // Offset: 0x16C4F50
     bool get_forceGameLift();
     // public ServiceEnvironment get_serviceEnvironment()
-    // Offset: 0x16C63E8
+    // Offset: 0x16C4F58
     ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port, System.Boolean forceGameLift)
-    // Offset: 0x16C63F0
+    // Offset: 0x16C4F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomNetworkConfig* New_ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int port, bool forceGameLift) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomNetworkConfig::.ctor");

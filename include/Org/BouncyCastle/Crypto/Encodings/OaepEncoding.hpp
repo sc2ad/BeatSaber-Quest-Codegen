@@ -94,56 +94,56 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Get instance field reference: private System.Boolean forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
-    // Offset: 0x1EBFEE8
+    // Offset: 0x1EBCA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash)
-    // Offset: 0x1EBFF6C
+    // Offset: 0x1EBCADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, System.Byte[] encodingParams)
-    // Offset: 0x1EBFF60
+    // Offset: 0x1EBCAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::ArrayW<uint8_t> encodingParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash, encodingParams)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest hash, Org.BouncyCastle.Crypto.IDigest mgf1Hash, System.Byte[] encodingParams)
-    // Offset: 0x1EBFF78
+    // Offset: 0x1EBCAE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::ArrayW<uint8_t> encodingParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Encodings::OaepEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OaepEncoding*, creationType>(cipher, hash, mgf1Hash, encodingParams)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x1EC01C0
+    // Offset: 0x1EBCD30
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x1EC02F8
+    // Offset: 0x1EBCE68
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x1EC03D0
+    // Offset: 0x1EBCF40
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1EC04A8
+    // Offset: 0x1EBD018
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBytes, int inOff, int inLen);
     // private System.Byte[] EncodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1EC04B8
+    // Offset: 0x1EBD028
     ::ArrayW<uint8_t> EncodeBlock(::ArrayW<uint8_t> inBytes, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x1EC07D8
+    // Offset: 0x1EBD348
     ::ArrayW<uint8_t> DecodeBlock(::ArrayW<uint8_t> inBytes, int inOff, int inLen);
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
-    // Offset: 0x1EC114C
+    // Offset: 0x1EBDCBC
     void ItoOSP(int i, ::ArrayW<uint8_t> sp);
     // private System.Byte[] maskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
-    // Offset: 0x1EC0C3C
+    // Offset: 0x1EBD7AC
     ::ArrayW<uint8_t> maskGeneratorFunction1(::ArrayW<uint8_t> Z, int zOff, int zLen, int length);
   }; // Org.BouncyCastle.Crypto.Encodings.OaepEncoding
   #pragma pack(pop)

@@ -60,20 +60,20 @@ namespace Zenject {
     // Get instance field reference: public System.IDisposable disposable
     [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn_disposable();
     // public System.Void .ctor()
-    // Offset: 0x1E7EF90
+    // Offset: 0x1E7BB00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Boolean <.ctor>b__0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1E801C4
+    // Offset: 0x1E7CD34
     bool $_ctor$b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E8025C
+    // Offset: 0x1E7CDCC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E802B8
+    // Offset: 0x1E7CE28
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.<>c__DisplayClass4_0
   #pragma pack(pop)

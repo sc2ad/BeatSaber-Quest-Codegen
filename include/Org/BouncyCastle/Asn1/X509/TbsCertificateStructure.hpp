@@ -153,41 +153,41 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Extensions extensions
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_extensions();
     // public System.Int32 get_Version()
-    // Offset: 0x1F99830
+    // Offset: 0x1F983A0
     int get_Version();
     // public Org.BouncyCastle.Asn1.DerInteger get_SerialNumber()
-    // Offset: 0x1F99858
+    // Offset: 0x1F983C8
     ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x1F99860
+    // Offset: 0x1F983D0
     ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_StartDate()
-    // Offset: 0x1F99868
+    // Offset: 0x1F983D8
     ::Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
     // public Org.BouncyCastle.Asn1.X509.Time get_EndDate()
-    // Offset: 0x1F99870
+    // Offset: 0x1F983E0
     ::Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Subject()
-    // Offset: 0x1F99878
+    // Offset: 0x1F983E8
     ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
     // public Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo get_SubjectPublicKeyInfo()
-    // Offset: 0x1F99880
+    // Offset: 0x1F983F0
     ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1F99888
+    // Offset: 0x1F983F8
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F99244
+    // Offset: 0x1F97DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateStructure*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.TbsCertificateStructure GetInstance(System.Object obj)
-    // Offset: 0x1F991A0
+    // Offset: 0x1F97D10
     static ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F99890
+    // Offset: 0x1F98400
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

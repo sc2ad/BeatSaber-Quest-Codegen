@@ -62,56 +62,56 @@ namespace GlobalNamespace {
   class MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1117CD0
+    // [InjectAttribute] Offset: 0x1119BD0
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117CE0
+    // [InjectAttribute] Offset: 0x1119BE0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117CF0
+    // [InjectAttribute] Offset: 0x1119BF0
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IScoreSyncStateManager* scoreSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117D00
+    // [InjectAttribute] Offset: 0x1119C00
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117D10
+    // [InjectAttribute] Offset: 0x1119C10
     // private readonly IGameplayRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IGameplayRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117D20
+    // [InjectAttribute] Offset: 0x1119C20
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117D30
+    // [InjectAttribute] Offset: 0x1119C30
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117D40
+    // [InjectAttribute] Offset: 0x1119C40
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x50
@@ -138,44 +138,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // public System.Void .ctor()
-    // Offset: 0x13C4C94
+    // Offset: 0x13C56F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActiveClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveClient*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C3308
+    // Offset: 0x13C3D6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C3988
+    // Offset: 0x13C43EC
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x13C3D28
+    // Offset: 0x13C478C
     void LateUpdate();
     // private System.Void HandleNoteWasAdded(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x13C40B0
+    // Offset: 0x13C4B14
     void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // private System.Void HandleObstacleWasAdded(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x13C4220
+    // Offset: 0x13C4C84
     void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // private System.Void HandleSliderWasAdded(SliderData sliderData, BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x13C4370
+    // Offset: 0x13C4DD4
     void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData sliderSpawnData, float rotation);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x13C4554
+    // Offset: 0x13C4FB8
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x13C4668
+    // Offset: 0x13C50CC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x13C4848
+    // Offset: 0x13C52AC
     void HandleComboDidChange(int combo);
     // private System.Void HandleMultiplierDidChange(System.Int32 multiplier, System.Single multiplierProgress)
-    // Offset: 0x13C4930
+    // Offset: 0x13C5394
     void HandleMultiplierDidChange(int multiplier, float multiplierProgress);
     // private System.Void HandleScoreDidChange(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x13C4A18
+    // Offset: 0x13C547C
     void HandleScoreDidChange(int multipliedScore, int modifiedScore);
   }; // MultiplayerLocalActiveClient
   #pragma pack(pop)

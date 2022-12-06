@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _multiplierColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__multiplierColor();
     // public override UnityEngine.Color get_color()
-    // Offset: 0x2B80E6C
+    // Offset: 0x2B789DC
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2B80ED4
+    // Offset: 0x2B78A44
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

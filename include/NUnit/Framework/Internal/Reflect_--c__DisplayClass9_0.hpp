@@ -59,14 +59,14 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: public System.Object[] args
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_args();
     // public System.Void .ctor()
-    // Offset: 0x2A71500
+    // Offset: 0x2A6B070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::$$c__DisplayClass9_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::$$c__DisplayClass9_0*, creationType>()));
     }
     // System.Object <InvokeMethod>b__0()
-    // Offset: 0x2A7164C
+    // Offset: 0x2A6B1BC
     ::Il2CppObject* $InvokeMethod$b__0();
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.<>c__DisplayClass9_0
   #pragma pack(pop)

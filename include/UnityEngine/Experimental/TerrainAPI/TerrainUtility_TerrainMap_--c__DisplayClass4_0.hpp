@@ -46,14 +46,14 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Int32 groupID
     [[deprecated("Use field access instead!")]] int& dyn_groupID();
     // public System.Void .ctor()
-    // Offset: 0x2B43BE8
+    // Offset: 0x2B3A758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainMap::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Boolean <CreateFromPlacement>b__0(UnityEngine.Terrain x)
-    // Offset: 0x2B44D08
+    // Offset: 0x2B3B878
     bool $CreateFromPlacement$b__0(::UnityEngine::Terrain* x);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0
   #pragma pack(pop)

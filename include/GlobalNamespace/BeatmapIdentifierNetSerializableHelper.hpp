@@ -39,16 +39,16 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializableHelper : public ::Il2CppObject {
     public:
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1562D1C
+    // Offset: 0x156088C
     static ::GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // static public System.Boolean HasIdentifier(IDifficultyBeatmap difficultyBeatmap, BeatmapIdentifierNetSerializable beatmapId)
-    // Offset: 0x1562FBC
+    // Offset: 0x1560B2C
     static bool HasIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
     // static public PreviewDifficultyBeatmap ToPreviewDifficultyBeatmap(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelsModel beatmapLevelsModel, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
-    // Offset: 0x1563264
+    // Offset: 0x1560DD4
     static ::GlobalNamespace::PreviewDifficultyBeatmap* ToPreviewDifficultyBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // static public BeatmapIdentifierNetSerializable ToIdentifier(PreviewDifficultyBeatmap previewDifficultyBeatmapLevel)
-    // Offset: 0x156352C
+    // Offset: 0x156109C
     static ::GlobalNamespace::BeatmapIdentifierNetSerializable* ToIdentifier(::GlobalNamespace::PreviewDifficultyBeatmap* previewDifficultyBeatmapLevel);
   }; // BeatmapIdentifierNetSerializableHelper
   #pragma pack(pop)

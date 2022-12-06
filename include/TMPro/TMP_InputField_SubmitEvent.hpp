@@ -26,7 +26,7 @@ namespace TMPro {
   class TMP_InputField::SubmitEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14B6E34
+    // Offset: 0x14B6B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::SubmitEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputField::SubmitEvent::.ctor");

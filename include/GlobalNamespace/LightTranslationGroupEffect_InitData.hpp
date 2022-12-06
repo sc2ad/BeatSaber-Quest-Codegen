@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Vector2 zDistributionLimits
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_zDistributionLimits();
     // public System.Void .ctor(System.Int32 groupId, System.Int32 elementId, System.Boolean xMirrored, System.Boolean yMirrored, System.Boolean zMirrored, UnityEngine.Transform xTransform, UnityEngine.Transform yTransform, UnityEngine.Transform zTransform, UnityEngine.Vector2 xTranslationLimits, UnityEngine.Vector2 xDistributionLimits, UnityEngine.Vector2 yTranslationLimits, UnityEngine.Vector2 yDistributionLimits, UnityEngine.Vector2 zTranslationLimits, UnityEngine.Vector2 zDistributionLimits)
-    // Offset: 0x1518CC4
+    // Offset: 0x1517834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationGroupEffect::InitData* New_ctor(int groupId, int elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationGroupEffect::InitData::.ctor");

@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlatformAchievementsHandler _platformAchievementsHandler
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlatformAchievementsHandler*& dyn__platformAchievementsHandler();
     // private PlatformAchievementsHandler get_platformAchievementsHandler()
-    // Offset: 0x1573C18
+    // Offset: 0x1570788
     ::GlobalNamespace::PlatformAchievementsHandler* get_platformAchievementsHandler();
     // public System.Void .ctor()
-    // Offset: 0x15742A4
+    // Offset: 0x1570E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAchievementsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAchievementsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAchievementsModelSO*, creationType>()));
     }
     // public System.Void Initialize()
-    // Offset: 0x1573CC0
+    // Offset: 0x1570830
     void Initialize();
     // private System.Void CreatePlatformAchievementsHandler()
-    // Offset: 0x1573C48
+    // Offset: 0x15707B8
     void CreatePlatformAchievementsHandler();
     // public HMAsyncRequest UnlockAchievement(System.String achievementId, PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler)
-    // Offset: 0x1573CC4
+    // Offset: 0x1570834
     ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler);
     // public HMAsyncRequest GetUnlockedAchievements(PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler)
-    // Offset: 0x1573FAC
+    // Offset: 0x1570B1C
     ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* completionHandler);
   }; // PlatformAchievementsModelSO
   #pragma pack(pop)

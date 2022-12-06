@@ -43,17 +43,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     [[deprecated("Use field access instead!")]] ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()
-    // Offset: 0x13FA334
+    // Offset: 0x13FAE4C
     ::System::Threading::CancellationTokenSource* get_cancellationTokenSource();
     // public System.Void .ctor()
-    // Offset: 0x13F97D8
+    // Offset: 0x13FA2F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, creationType>()));
     }
     // public override System.Void Cancel()
-    // Offset: 0x13FA33C
+    // Offset: 0x13FAE54
     // Implemented from: HMAsyncRequest
     // Base method: System.Void HMAsyncRequest::Cancel()
     void Cancel();

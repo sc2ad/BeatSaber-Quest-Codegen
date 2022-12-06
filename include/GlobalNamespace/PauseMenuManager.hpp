@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0x1116F80
+    // [NullAllowed] Offset: 0x1118E80
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -112,21 +112,21 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117008
+    // [InjectAttribute] Offset: 0x1118F08
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117018
+    // [InjectAttribute] Offset: 0x1118F18
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117028
+    // [InjectAttribute] Offset: 0x1118F28
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
@@ -211,65 +211,65 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _disabledInteractionRemainingTime
     [[deprecated("Use field access instead!")]] float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x1572378
+    // Offset: 0x156EEE8
     void add_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x157241C
+    // Offset: 0x156EF8C
     void remove_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x15724C0
+    // Offset: 0x156F030
     void add_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x1572564
+    // Offset: 0x156F0D4
     void remove_didPressMenuButtonEvent(::System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x1572608
+    // Offset: 0x156F178
     void add_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x15726AC
+    // Offset: 0x156F21C
     void remove_didPressRestartButtonEvent(::System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x1572750
+    // Offset: 0x156F2C0
     void add_didFinishResumeAnimationEvent(::System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x15727F4
+    // Offset: 0x156F364
     void remove_didFinishResumeAnimationEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1572EB4
+    // Offset: 0x156FA24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseMenuManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseMenuManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseMenuManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1572898
+    // Offset: 0x156F408
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1572A24
+    // Offset: 0x156F594
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1572B64
+    // Offset: 0x156F6D4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1572C48
+    // Offset: 0x156F7B8
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x1572DD4
+    // Offset: 0x156F944
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0x1572E68
+    // Offset: 0x156F9D8
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0x1572EA0
+    // Offset: 0x156FA10
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0x1572D94
+    // Offset: 0x156F904
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0x1572D40
+    // Offset: 0x156F8B0
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x1572D00
+    // Offset: 0x156F870
     void ContinueButtonPressed();
   }; // PauseMenuManager
   #pragma pack(pop)

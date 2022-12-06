@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DefaultScenesTransitionsFromInit*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110D818
+    // [SpaceAttribute] Offset: 0x110F718
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x58
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // public System.Void .ctor()
-    // Offset: 0x141E0CC
+    // Offset: 0x141EB74
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,22 +86,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<QuestAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x141DDFC
+    // Offset: 0x141E8A4
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x141DE18
+    // Offset: 0x141E8C0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x141DEAC
+    // Offset: 0x141E954
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x141DEF0
+    // Offset: 0x141E998
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

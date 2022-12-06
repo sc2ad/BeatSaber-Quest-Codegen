@@ -51,13 +51,13 @@ namespace System::Runtime::Remoting::Contexts {
       return reinterpret_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1D2BEB4
+    // Offset: 0x1D27A24
     ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1D344BC
+    // Offset: 0x1D3002C
     ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // public System.Void .ctor()
-    // Offset: 0x1D2C9FC
+    // Offset: 0x1D2856C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

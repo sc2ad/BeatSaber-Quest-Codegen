@@ -47,20 +47,20 @@ namespace LiteNetLib {
   class EventBasedNetListener::OnNetworkReceiveUnconnected : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x21FC868
+    // Offset: 0x21FB3D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventBasedNetListener::OnNetworkReceiveUnconnected* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventBasedNetListener::OnNetworkReceiveUnconnected*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x21FB5E0
+    // Offset: 0x21FA150
     void Invoke(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::UnconnectedMessageType messageType);
     // public System.IAsyncResult BeginInvoke(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x21FC878
+    // Offset: 0x21FB3E8
     ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::UnconnectedMessageType messageType, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x21FC918
+    // Offset: 0x21FB488
     void EndInvoke(::System::IAsyncResult* result);
   }; // LiteNetLib.EventBasedNetListener/LiteNetLib.OnNetworkReceiveUnconnected
   #pragma pack(pop)

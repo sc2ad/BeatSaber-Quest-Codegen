@@ -58,29 +58,29 @@ namespace System::Net {
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(::System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x1A9D5DC
+    // Offset: 0x1A9B14C
     static ::System::Collections::Hashtable* get_Cache();
     // public System.String get_AuthenticationType()
-    // Offset: 0x1A9E930
+    // Offset: 0x1A9C4A0
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1A9E978
+    // Offset: 0x1A9C4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestClient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A9E980
+    // Offset: 0x1A9C4F0
     static void _cctor();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x1A9D72C
+    // Offset: 0x1A9B29C
     static void CheckExpired(int count);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A9DEE4
+    // Offset: 0x1A9BA54
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A9E7B0
+    // Offset: 0x1A9C320
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.DigestClient
   #pragma pack(pop)

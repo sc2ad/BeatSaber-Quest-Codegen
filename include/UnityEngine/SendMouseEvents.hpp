@@ -73,10 +73,10 @@ namespace UnityEngine {
       // Get instance field reference: public UnityEngine.Camera camera
       [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn_camera();
       // public System.Void SendMessage(System.String name)
-      // Offset: 0x2B7ACC8
+      // Offset: 0x2B72838
       void SendMessage(::StringW name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/UnityEngine.HitInfo lhs, UnityEngine.SendMouseEvents/UnityEngine.HitInfo rhs)
-      // Offset: 0x2B7ACEC
+      // Offset: 0x2B7285C
       static bool Compare(::UnityEngine::SendMouseEvents::HitInfo lhs, ::UnityEngine::SendMouseEvents::HitInfo rhs);
     }; // UnityEngine.SendMouseEvents/UnityEngine.HitInfo
     #pragma pack(pop)
@@ -103,16 +103,16 @@ namespace UnityEngine {
     // Set static field: static private UnityEngine.Camera[] m_Cameras
     static void _set_m_Cameras(::ArrayW<::UnityEngine::Camera*> value);
     // static private System.Void .cctor()
-    // Offset: 0x2B7ADB8
+    // Offset: 0x2B72928
     static void _cctor();
     // static private System.Void SetMouseMoved()
-    // Offset: 0x2B79CE0
+    // Offset: 0x2B71850
     static void SetMouseMoved();
     // static private System.Void DoSendMouseEvents(System.Int32 skipRTCameras)
-    // Offset: 0x2B79D4C
+    // Offset: 0x2B718BC
     static void DoSendMouseEvents(int skipRTCameras);
     // static private System.Void SendEvents(System.Int32 i, UnityEngine.SendMouseEvents/UnityEngine.HitInfo hit)
-    // Offset: 0x2B7A75C
+    // Offset: 0x2B722CC
     static void SendEvents(int i, ::UnityEngine::SendMouseEvents::HitInfo hit);
   }; // UnityEngine.SendMouseEvents
   #pragma pack(pop)

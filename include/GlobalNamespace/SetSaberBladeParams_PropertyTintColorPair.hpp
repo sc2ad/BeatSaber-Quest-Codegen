@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String property
     [[deprecated("Use field access instead!")]] ::StringW& dyn_property();
     // public System.Void .ctor()
-    // Offset: 0x140FF68
+    // Offset: 0x1410A10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberBladeParams::PropertyTintColorPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair::.ctor");

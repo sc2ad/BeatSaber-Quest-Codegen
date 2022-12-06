@@ -70,17 +70,17 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private System.Int32 repeatCount
     [[deprecated("Use field access instead!")]] int& dyn_repeatCount();
     // public System.Void .ctor(NUnit.Framework.RepeatAttribute/NUnit.Framework.RepeatedTestCommand commandToReplace)
-    // Offset: 0x198EAA8
+    // Offset: 0x198C618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRepeatedTestCommand* New_ctor(::NUnit::Framework::RepeatAttribute::RepeatedTestCommand* commandToReplace) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableRepeatedTestCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRepeatedTestCommand*, creationType>(commandToReplace)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1996BE4
+    // Offset: 0x1994754
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x1996B78
+    // Offset: 0x19946E8
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     ::NUnit::Framework::Internal::TestResult* Execute(::NUnit::Framework::Internal::ITestExecutionContext* context);

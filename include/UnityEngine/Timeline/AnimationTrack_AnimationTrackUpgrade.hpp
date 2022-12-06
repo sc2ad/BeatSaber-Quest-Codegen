@@ -20,13 +20,13 @@ namespace UnityEngine::Timeline {
   class AnimationTrack::AnimationTrackUpgrade : public ::Il2CppObject {
     public:
     // static public System.Void ConvertRotationsToEuler(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x1E3A218
+    // Offset: 0x1E35D88
     static void ConvertRotationsToEuler(::UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertRootMotion(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x1E3A264
+    // Offset: 0x1E35DD4
     static void ConvertRootMotion(::UnityEngine::Timeline::AnimationTrack* track);
     // static public System.Void ConvertInfiniteTrack(UnityEngine.Timeline.AnimationTrack track)
-    // Offset: 0x1E3A2FC
+    // Offset: 0x1E35E6C
     static void ConvertInfiniteTrack(::UnityEngine::Timeline::AnimationTrack* track);
   }; // UnityEngine.Timeline.AnimationTrack/UnityEngine.Timeline.AnimationTrackUpgrade
   #pragma pack(pop)

@@ -79,25 +79,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _selectedAndHighlightedState
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__selectedAndHighlightedState();
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x166AB6C
+    // Offset: 0x16696DC
     ::UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x166AB78
+    // Offset: 0x16696E8
     ::UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x166AB84
+    // Offset: 0x16696F4
     ::UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x166AB90
+    // Offset: 0x1669700
     ::UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x166AB9C
+    // Offset: 0x166970C
     ::UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x166ABA8
+    // Offset: 0x1669718
     ::UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x166ABB4
+    // Offset: 0x1669724
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

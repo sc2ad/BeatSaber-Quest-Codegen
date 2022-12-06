@@ -72,40 +72,40 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x19CE7C8
+    // Offset: 0x19CC338
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // private System.Void .ctor()
-    // Offset: 0x19CE5C8
+    // Offset: 0x19CC138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentDispositionHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::ContentDispositionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentDispositionHeaderValue*, creationType>()));
     }
     // protected System.Void .ctor(System.Net.Http.Headers.ContentDispositionHeaderValue source)
-    // Offset: 0x19CE5D0
+    // Offset: 0x19CC140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::ContentDispositionHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentDispositionHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19CE87C
+    // Offset: 0x19CC3EC
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentDispositionHeaderValue parsedValue)
-    // Offset: 0x19CEA90
+    // Offset: 0x19CC600
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19CE8DC
+    // Offset: 0x19CC44C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19CE9AC
+    // Offset: 0x19CC51C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19CEA30
+    // Offset: 0x19CC5A0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

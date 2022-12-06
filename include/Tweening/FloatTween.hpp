@@ -41,26 +41,26 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatTween : public ::Tweening::Tween_1<float> {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1125164
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1128064
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<System.Single,System.Single,System.Action`1<System.Single>,System.Single,EaseType,System.Single,Tweening.FloatTween> Pool
     static ::Zenject::StaticMemoryPool_7<float, float, ::System::Action_1<float>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::FloatTween*>* _get_Pool();
     // Set static field: static public readonly Zenject.StaticMemoryPool`7<System.Single,System.Single,System.Action`1<System.Single>,System.Single,EaseType,System.Single,Tweening.FloatTween> Pool
     static void _set_Pool(::Zenject::StaticMemoryPool_7<float, float, ::System::Action_1<float>*, float, ::GlobalNamespace::EaseType, float, ::Tweening::FloatTween*>* value);
     // public System.Void .ctor(System.Single fromValue, System.Single toValue, System.Action`1<System.Single> onUpdate, System.Single duration, EaseType easeType, System.Single delay)
-    // Offset: 0x13BF6A0
+    // Offset: 0x13BF504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatTween* New_ctor(float fromValue, float toValue, ::System::Action_1<float>* onUpdate, float duration, ::GlobalNamespace::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::FloatTween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatTween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13BF76C
+    // Offset: 0x13BF5D0
     static void _cctor();
     // public System.Single GetValue(System.Single t)
-    // Offset: 0x13BF738
+    // Offset: 0x13BF59C
     float GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x13BF650
+    // Offset: 0x13BF4B4
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()

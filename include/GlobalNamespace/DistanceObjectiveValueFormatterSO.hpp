@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class DistanceObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x143D4B4
+    // Offset: 0x143CF5C
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.Void ObjectiveValueFormatterSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DistanceObjectiveValueFormatterSO*, creationType>()));
     }
     // public override System.String FormatValue(System.Int32 value)
-    // Offset: 0x143D438
+    // Offset: 0x143CEE0
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
     ::StringW FormatValue(int value);

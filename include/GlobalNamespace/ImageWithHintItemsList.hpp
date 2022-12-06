@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::HMUI::ImageWithHint*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F466C
+    // Offset: 0x13F5184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageWithHintItemsList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ImageWithHintItemsList::.ctor");

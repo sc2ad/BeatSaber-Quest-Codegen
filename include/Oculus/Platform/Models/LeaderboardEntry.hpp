@@ -74,7 +74,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x1104B5C
+    // [ObsoleteAttribute] Offset: 0x1106A5C
     // public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetric
     // Size: 0x8
     // Offset: 0x38
@@ -111,7 +111,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A16708
+    // Offset: 0x1A15278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntry* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LeaderboardEntry::.ctor");

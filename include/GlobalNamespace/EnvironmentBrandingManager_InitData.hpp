@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean hideBranding
     [[deprecated("Use field access instead!")]] bool& dyn_hideBranding();
     // public System.Void .ctor(System.Boolean hideBranding)
-    // Offset: 0x13874F4
+    // Offset: 0x1388358
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager::InitData* New_ctor(bool hideBranding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentBrandingManager::InitData::.ctor");

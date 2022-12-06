@@ -80,7 +80,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: public System.Xml.Schema.BitSet firstposRight
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::BitSet*& dyn_firstposRight();
     // public System.Void .ctor(System.Xml.Schema.SequenceNode node, System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos)
-    // Offset: 0x1D1C994
+    // Offset: 0x1D18504
     SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
   }; // System.Xml.Schema.SequenceNode/System.Xml.Schema.SequenceConstructPosContext
   #pragma pack(pop)

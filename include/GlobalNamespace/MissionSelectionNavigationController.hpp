@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
     public:
-    // [InjectAttribute] Offset: 0x112037C
+    // [InjectAttribute] Offset: 0x112327C
     // private MissionSelectionMapViewController _missionSelectionMapViewController
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::MissionSelectionMapViewController* missionSelectionMapViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionSelectionMapViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112038C
+    // [InjectAttribute] Offset: 0x112328C
     // private MissionLevelDetailViewController _missionLevelDetailViewController
     // Size: 0x8
     // Offset: 0xA0
@@ -78,37 +78,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MissionSelectionNavigationController> didPressPlayButtonEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*& dyn_didPressPlayButtonEvent();
     // public MissionNode get_selectedMissionNode()
-    // Offset: 0x14A8AE0
+    // Offset: 0x148B61C
     ::GlobalNamespace::MissionNode* get_selectedMissionNode();
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0x14A8998
+    // Offset: 0x148B4D4
     void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionSelectionNavigationController> value)
-    // Offset: 0x14A8A3C
+    // Offset: 0x148B578
     void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14A8F24
+    // Offset: 0x148BA60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionNavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController*, creationType>()));
     }
     // private System.Void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(MissionSelectionMapViewController viewController, MissionNode _missionNode)
-    // Offset: 0x14A8D50
+    // Offset: 0x148B88C
     void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* _missionNode);
     // private System.Void HandleMissionLevelDetailViewControllerDidPressPlayButton(MissionLevelDetailViewController viewController)
-    // Offset: 0x14A8DB8
+    // Offset: 0x148B8F4
     void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
     // public System.Void PresentMissionClearedIfNeeded(System.Action`1<System.Boolean> finishedCallback)
-    // Offset: 0x14A8E1C
+    // Offset: 0x148B958
     void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14A8AFC
+    // Offset: 0x148B638
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x14A8C5C
+    // Offset: 0x148B798
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

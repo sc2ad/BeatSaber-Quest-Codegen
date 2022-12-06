@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(PrivacyPolicyViewController::ButtonType), 0 + sizeof(int)> __GlobalNamespace_PrivacyPolicyViewController_ButtonTypeSizeCheck;
     static_assert(sizeof(PrivacyPolicyViewController::ButtonType) == 0x4);
     public:
-    // [HeaderAttribute] Offset: 0x11211A8
+    // [HeaderAttribute] Offset: 0x11240A8
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x70
@@ -110,7 +110,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* iAcceptButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1121204
+    // [HeaderAttribute] Offset: 0x1124104
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x80
@@ -123,15 +123,15 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LocalizedTextAsset* privacyPolicyLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1121260
-    // [LocalizationKeyAttribute] Offset: 0x1121260
+    // [HeaderAttribute] Offset: 0x1124160
+    // [LocalizationKeyAttribute] Offset: 0x1124160
     // private System.String _defaultPrivacyPolicyHeaderLocalizationKey
     // Size: 0x8
     // Offset: 0x90
     ::StringW defaultPrivacyPolicyHeaderLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x11212BC
+    // [LocalizationKeyAttribute] Offset: 0x11241BC
     // private System.String _updateNoticeLocalizationKey
     // Size: 0x8
     // Offset: 0x98
@@ -176,29 +176,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showIAcceptPrompt
     [[deprecated("Use field access instead!")]] bool& dyn__showIAcceptPrompt();
     // public System.Void add_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x141D01C
+    // Offset: 0x141DAC4
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<PrivacyPolicyViewController/ButtonType> value)
-    // Offset: 0x141D0C0
+    // Offset: 0x141DB68
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::PrivacyPolicyViewController::ButtonType>* value);
     // public System.Void .ctor()
-    // Offset: 0x141D324
+    // Offset: 0x141DDCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivacyPolicyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PrivacyPolicyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivacyPolicyViewController*, creationType>()));
     }
     // public System.Void Init(System.Boolean showUpdate, System.Boolean showIAcceptPrompt)
-    // Offset: 0x141D310
+    // Offset: 0x141DDB8
     void Init(bool showUpdate, bool showIAcceptPrompt);
     // private System.Void <DidActivate>b__12_0()
-    // Offset: 0x141D32C
+    // Offset: 0x141DDD4
     void $DidActivate$b__12_0();
     // private System.Void <DidActivate>b__12_1()
-    // Offset: 0x141D390
+    // Offset: 0x141DE38
     void $DidActivate$b__12_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x141D164
+    // Offset: 0x141DC0C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

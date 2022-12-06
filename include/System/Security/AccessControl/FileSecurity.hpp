@@ -30,7 +30,7 @@ namespace System::Security::AccessControl {
   class FileSecurity : public ::System::Security::AccessControl::FileSystemSecurity {
     public:
     // public System.Void .ctor(System.String fileName, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BA2E80
+    // Offset: 0x1B9D9F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSecurity* New_ctor(::StringW fileName, ::System::Security::AccessControl::AccessControlSections includeSections) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::FileSecurity::.ctor");

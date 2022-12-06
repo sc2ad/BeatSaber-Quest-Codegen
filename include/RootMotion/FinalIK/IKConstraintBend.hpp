@@ -81,7 +81,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Quaternion rotationOffset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
-    // [RangeAttribute] Offset: 0x1139380
+    // [RangeAttribute] Offset: 0x113D250
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x4C
@@ -192,48 +192,48 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean limbOrientationsSet
     [[deprecated("Use field access instead!")]] bool& dyn_limbOrientationsSet();
     // public System.Boolean get_initiated()
-    // Offset: 0x22FF508
+    // Offset: 0x22FE078
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x22FF510
+    // Offset: 0x22FE080
     void set_initiated(bool value);
     // public System.Void .ctor()
-    // Offset: 0x22FF51C
+    // Offset: 0x22FE08C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKConstraintBend* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKConstraintBend::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x22FF5A0
+    // Offset: 0x22FE110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKConstraintBend* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKConstraintBend::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKConstraintBend*, creationType>(bone1, bone2, bone3)));
     }
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolverFullBody solver, RootMotion.Warning/RootMotion.Logger logger)
-    // Offset: 0x22FF340
+    // Offset: 0x22FDEB0
     bool IsValid(::RootMotion::FinalIK::IKSolverFullBody* solver, ::RootMotion::Warning::Logger* logger);
     // public System.Void SetBones(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3)
-    // Offset: 0x22FF64C
+    // Offset: 0x22FE1BC
     void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22FF658
+    // Offset: 0x22FE1C8
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetLimbOrientation(UnityEngine.Vector3 upper, UnityEngine.Vector3 lower, UnityEngine.Vector3 last)
-    // Offset: 0x22FFB48
+    // Offset: 0x22FE6B8
     void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower, ::UnityEngine::Vector3 last);
     // public System.Void LimitBend(System.Single solverWeight, System.Single positionWeight)
-    // Offset: 0x22FFD80
+    // Offset: 0x22FE8F0
     void LimitBend(float solverWeight, float positionWeight);
     // public UnityEngine.Vector3 GetDir(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x230021C
+    // Offset: 0x22FED8C
     ::UnityEngine::Vector3 GetDir(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 OrthoToLimb(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x22FF908
+    // Offset: 0x22FE478
     ::UnityEngine::Vector3 OrthoToLimb(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
     // private UnityEngine.Vector3 OrthoToBone1(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Vector3 tangent)
-    // Offset: 0x22FFA28
+    // Offset: 0x22FE598
     ::UnityEngine::Vector3 OrthoToBone1(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Vector3 tangent);
   }; // RootMotion.FinalIK.IKConstraintBend
   #pragma pack(pop)

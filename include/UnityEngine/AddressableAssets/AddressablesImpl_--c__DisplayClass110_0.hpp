@@ -83,14 +83,14 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Int32 priority
     [[deprecated("Use field access instead!")]] int& dyn_priority();
     // public System.Void .ctor()
-    // Offset: 0x18D75C0
+    // Offset: 0x18D7130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass110_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass110_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass110_0*, creationType>()));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> <LoadSceneWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x18D91C8
+    // Offset: 0x18D8D38
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> $LoadSceneWithChain$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass110_0
   #pragma pack(pop)

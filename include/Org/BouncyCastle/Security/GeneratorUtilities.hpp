@@ -50,31 +50,31 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary defaultKeySizes
     static void _set_defaultKeySizes(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x183FC30
+    // Offset: 0x183F7A0
     static void _cctor();
     // static private System.Void AddDefaultKeySizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x1843130
+    // Offset: 0x1842CA0
     static void AddDefaultKeySizeEntries(int size, ::ArrayW<::StringW> algorithms);
     // static private System.Void AddKgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x184291C
+    // Offset: 0x184248C
     static void AddKgAlgorithm(::StringW canonicalName, ::ArrayW<::Il2CppObject*> aliases);
     // static private System.Void AddKpgAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x1842EE0
+    // Offset: 0x1842A50
     static void AddKpgAlgorithm(::StringW canonicalName, ::ArrayW<::Il2CppObject*> aliases);
     // static private System.Void AddHMacKeyGenerator(System.String algorithm, params System.Object[] aliases)
-    // Offset: 0x1842B6C
+    // Offset: 0x18426DC
     static void AddHMacKeyGenerator(::StringW algorithm, ::ArrayW<::Il2CppObject*> aliases);
     // static System.String GetCanonicalKeyGeneratorAlgorithm(System.String algorithm)
-    // Offset: 0x184329C
+    // Offset: 0x1842E0C
     static ::StringW GetCanonicalKeyGeneratorAlgorithm(::StringW algorithm);
     // static System.Int32 GetDefaultKeySize(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x18433D0
+    // Offset: 0x1842F40
     static int GetDefaultKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static System.Int32 GetDefaultKeySize(System.String algorithm)
-    // Offset: 0x1843440
+    // Offset: 0x1842FB0
     static int GetDefaultKeySize(::StringW algorithm);
     // static private System.Int32 FindDefaultKeySize(System.String canonicalName)
-    // Offset: 0x184362C
+    // Offset: 0x184319C
     static int FindDefaultKeySize(::StringW canonicalName);
   }; // Org.BouncyCastle.Security.GeneratorUtilities
   #pragma pack(pop)

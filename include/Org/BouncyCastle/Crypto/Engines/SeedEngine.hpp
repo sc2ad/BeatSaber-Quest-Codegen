@@ -84,65 +84,65 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Boolean forEncryption
     [[deprecated("Use field access instead!")]] bool& dyn_forEncryption();
     // public System.String get_AlgorithmName()
-    // Offset: 0x248E260
+    // Offset: 0x2487DD0
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x248E2A8
+    // Offset: 0x2487E18
     bool get_IsPartialBlockOkay();
     // static private System.Void .cctor()
-    // Offset: 0x248E798
+    // Offset: 0x2488308
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x248E8DC
+    // Offset: 0x248844C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SeedEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::SeedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SeedEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x248DFE4
+    // Offset: 0x2487B54
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x248E2B0
+    // Offset: 0x2487E20
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x248E2B8
+    // Offset: 0x2487E28
     int ProcessBlock(::ArrayW<uint8_t> inBuf, int inOff, ::ArrayW<uint8_t> outBuf, int outOff);
     // public System.Void Reset()
-    // Offset: 0x248E600
+    // Offset: 0x2488170
     void Reset();
     // private System.Int32[] createWorkingKey(System.Byte[] inKey)
-    // Offset: 0x248E09C
+    // Offset: 0x2487C0C
     ::ArrayW<int> createWorkingKey(::ArrayW<uint8_t> inKey);
     // private System.Int32 extractW1(System.Int64 lVal)
-    // Offset: 0x248E60C
+    // Offset: 0x248817C
     int extractW1(int64_t lVal);
     // private System.Int32 extractW0(System.Int64 lVal)
-    // Offset: 0x248E604
+    // Offset: 0x2488174
     int extractW0(int64_t lVal);
     // private System.Int64 rotateLeft8(System.Int64 x)
-    // Offset: 0x248E720
+    // Offset: 0x2488290
     int64_t rotateLeft8(int64_t x);
     // private System.Int64 rotateRight8(System.Int64 x)
-    // Offset: 0x248E718
+    // Offset: 0x2488288
     int64_t rotateRight8(int64_t x);
     // private System.Int64 bytesToLong(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x248E4B4
+    // Offset: 0x2488024
     int64_t bytesToLong(::ArrayW<uint8_t> src, int srcOff);
     // private System.Void longToBytes(System.Byte[] dest, System.Int32 destOff, System.Int64 value)
-    // Offset: 0x248E590
+    // Offset: 0x2488100
     void longToBytes(::ArrayW<uint8_t> dest, int destOff, int64_t value);
     // private System.Int32 G(System.Int32 x)
-    // Offset: 0x248E614
+    // Offset: 0x2488184
     int G(int x);
     // private System.Int64 F(System.Int32 ki0, System.Int32 ki1, System.Int64 r)
-    // Offset: 0x248E520
+    // Offset: 0x2488090
     int64_t F(int ki0, int ki1, int64_t r);
     // private System.Int32 phaseCalc1(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x248E76C
+    // Offset: 0x24882DC
     int phaseCalc1(int r0, int ki0, int r1, int ki1);
     // private System.Int32 phaseCalc2(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x248E728
+    // Offset: 0x2488298
     int phaseCalc2(int r0, int ki0, int r1, int ki1);
   }; // Org.BouncyCastle.Crypto.Engines.SeedEngine
   #pragma pack(pop)

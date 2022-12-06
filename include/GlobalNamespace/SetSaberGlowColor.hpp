@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair
     class PropertyTintColorPair;
     public:
-    // [NullAllowed] Offset: 0x1119FC0
+    // [NullAllowed] Offset: 0x111BEC0
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x18
@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0x111A008
+    // [NullAllowed] Offset: 0x111BF08
     // private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>) == 0x8);
-    // [InjectAttribute] Offset: 0x111A040
+    // [InjectAttribute] Offset: 0x111BF40
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -105,20 +105,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberType& dyn__saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x1402288
+    // Offset: 0x1402D30
     void set_saberType(::GlobalNamespace::SaberType value);
     // public System.Void .ctor()
-    // Offset: 0x141023C
+    // Offset: 0x1410CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberGlowColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberGlowColor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14101AC
+    // Offset: 0x1410C54
     void Start();
     // private System.Void SetColors()
-    // Offset: 0x1410068
+    // Offset: 0x1410B10
     void SetColors();
   }; // SetSaberGlowColor
   #pragma pack(pop)

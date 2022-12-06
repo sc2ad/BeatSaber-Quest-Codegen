@@ -85,23 +85,23 @@ namespace System::Net {
     // Get instance field reference: private System.Text.Encoding _encoding
     [[deprecated("Use field access instead!")]] ::System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x1B9B740
+    // Offset: 0x1B962B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, ::System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // private System.Void FlushBytes()
-    // Offset: 0x1B9BAF8
+    // Offset: 0x1B96668
     void FlushBytes();
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x1B9B8BC
+    // Offset: 0x1B9642C
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x1B9B80C
+    // Offset: 0x1B9637C
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x1B9B928
+    // Offset: 0x1B96498
     ::StringW GetString();
   }; // System.Net.WebUtility/System.Net.UrlDecoder
   #pragma pack(pop)

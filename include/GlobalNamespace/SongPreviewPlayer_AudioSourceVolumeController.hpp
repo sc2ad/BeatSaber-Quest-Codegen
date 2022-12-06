@@ -57,19 +57,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _volume
     [[deprecated("Use field access instead!")]] float& dyn__volume();
     // public System.Single get_volume()
-    // Offset: 0x1478C20
+    // Offset: 0x14788D8
     float get_volume();
     // public System.Void set_volume(System.Single value)
-    // Offset: 0x1478288
+    // Offset: 0x1477F40
     void set_volume(float value);
     // public System.Single get_maxVolume()
-    // Offset: 0x1478C28
+    // Offset: 0x14788E0
     float get_maxVolume();
     // public System.Void set_maxVolume(System.Single value)
-    // Offset: 0x1478C30
+    // Offset: 0x14788E8
     void set_maxVolume(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
-    // Offset: 0x1477DA8
+    // Offset: 0x1477A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(::UnityEngine::AudioSource* audioSource) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");

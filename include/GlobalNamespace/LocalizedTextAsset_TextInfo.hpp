@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.TextAsset localizedText
     [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x13381D4
+    // Offset: 0x133A088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::TextInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::TextInfo::.ctor");

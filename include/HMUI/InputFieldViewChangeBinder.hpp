@@ -73,29 +73,29 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     [[deprecated("Use field access instead!")]] bool& dyn__enabled();
     // public System.Void .ctor()
-    // Offset: 0x1704DB0
+    // Offset: 0x1704920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldViewChangeBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldViewChangeBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldViewChangeBinder*, creationType>()));
     }
     // private System.Void Init()
-    // Offset: 0x1704DE0
+    // Offset: 0x1704950
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x1704E48
+    // Offset: 0x17049B8
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x1704F50
+    // Offset: 0x1704AC0
     void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1705010
+    // Offset: 0x1704B80
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x17051A8
+    // Offset: 0x1704D18
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x1705330
+    // Offset: 0x1704EA0
     void Enable();
   }; // HMUI.InputFieldViewChangeBinder
   #pragma pack(pop)

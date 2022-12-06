@@ -46,13 +46,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Nested type: ::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c
     class $$c;
     // static public NUnit.Framework.Internal.Commands.TestCommand BuildTestCommand(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x198B980
+    // Offset: 0x19894F0
     static ::NUnit::Framework::Internal::Commands::TestCommand* BuildTestCommand(::NUnit::Framework::Internal::TestMethod* test, ::NUnit::Framework::Interfaces::ITestFilter* filter);
     // static private System.String GetTestBuilderName(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x198DA44
+    // Offset: 0x198B5B4
     static ::StringW GetTestBuilderName(::NUnit::Framework::Internal::TestMethod* testMethod);
     // static private NUnit.Framework.Internal.Commands.TestCommand TryReplaceWithEnumerableCommand(NUnit.Framework.Internal.Commands.TestCommand command)
-    // Offset: 0x198D8EC
+    // Offset: 0x198B45C
     static ::NUnit::Framework::Internal::Commands::TestCommand* TryReplaceWithEnumerableCommand(::NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder
   #pragma pack(pop)

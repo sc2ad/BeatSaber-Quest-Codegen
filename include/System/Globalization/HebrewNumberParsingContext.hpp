@@ -55,7 +55,7 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 result
     [[deprecated("Use field access instead!")]] int& dyn_result();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x21BC8DC
+    // Offset: 0x21BB44C
     HebrewNumberParsingContext(int result);
   }; // System.Globalization.HebrewNumberParsingContext
   #pragma pack(pop)

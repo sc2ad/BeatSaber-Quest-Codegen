@@ -94,43 +94,43 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString publicKey
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerBitString*& dyn_publicKey();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_PrivateKeyAlgorithm()
-    // Offset: 0x1D6C7FC
+    // Offset: 0x1D6836C
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PrivateKeyAlgorithm();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_PrivateKeyData()
-    // Offset: 0x1D6C804
+    // Offset: 0x1D68374
     ::Org::BouncyCastle::Asn1::Asn1OctetString* get_PrivateKeyData();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey)
-    // Offset: 0x1D6C6A8
+    // Offset: 0x1D68218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey, Org.BouncyCastle.Asn1.Asn1Set attributes, System.Byte[] publicKey)
-    // Offset: 0x1D6C6B4
+    // Offset: 0x1D68224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* privateKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::ArrayW<uint8_t> publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey, attributes, publicKey)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D6C27C
+    // Offset: 0x1D67DEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo GetInstance(System.Object obj)
-    // Offset: 0x1D6C1D8
+    // Offset: 0x1D67D48
     static ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* GetInstance(::Il2CppObject* obj);
     // static private System.Int32 GetVersionValue(Org.BouncyCastle.Asn1.DerInteger version)
-    // Offset: 0x1D6C584
+    // Offset: 0x1D680F4
     static int GetVersionValue(::Org::BouncyCastle::Asn1::DerInteger* version);
     // public Org.BouncyCastle.Asn1.Asn1Object ParsePrivateKey()
-    // Offset: 0x1D6C80C
+    // Offset: 0x1D6837C
     ::Org::BouncyCastle::Asn1::Asn1Object* ParsePrivateKey();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D6C838
+    // Offset: 0x1D683A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

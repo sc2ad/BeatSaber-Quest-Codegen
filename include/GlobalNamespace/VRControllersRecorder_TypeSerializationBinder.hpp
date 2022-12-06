@@ -34,14 +34,14 @@ namespace GlobalNamespace {
   class VRControllersRecorder::TypeSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1666658
+    // Offset: 0x16651C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder::TypeSerializationBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::TypeSerializationBinder*, creationType>()));
     }
     // public override System.Type BindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x1667218
+    // Offset: 0x1665D88
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
     ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);

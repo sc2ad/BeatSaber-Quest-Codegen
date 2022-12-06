@@ -45,8 +45,8 @@ namespace RootMotion::FinalIK {
     // Writing base type padding for base size: 0x33 to desired offset: 0x34
     char ___base_padding[0x1] = {};
     public:
-    // [TooltipAttribute] Offset: 0x1137FE4
-    // [RangeAttribute] Offset: 0x1137FE4
+    // [TooltipAttribute] Offset: 0x113BEB4
+    // [RangeAttribute] Offset: 0x113BEB4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x34
@@ -73,37 +73,37 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$initiated$k__BackingField();
     // public System.Boolean get_initiated()
-    // Offset: 0x22F0C40
+    // Offset: 0x22EF7B0
     bool get_initiated();
     // private System.Void set_initiated(System.Boolean value)
-    // Offset: 0x22F0C48
+    // Offset: 0x22EF7B8
     void set_initiated(bool value);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x22F0C54
+    // Offset: 0x22EF7C4
     bool IsValid(ByRef<::StringW> errorMessage);
     // public System.Void AutoDetect()
-    // Offset: 0x22F0CE0
+    // Offset: 0x22EF850
     void AutoDetect();
     // public System.Void AddFinger(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform tip, UnityEngine.Transform target)
-    // Offset: 0x22F0FFC
+    // Offset: 0x22EFB6C
     void AddFinger(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* tip, ::UnityEngine::Transform* target);
     // public System.Void RemoveFinger(System.Int32 index)
-    // Offset: 0x22F1170
+    // Offset: 0x22EFCE0
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
-    // Offset: 0x22F0EF4
+    // Offset: 0x22EFA64
     void AddChildrenRecursive(::UnityEngine::Transform* parent, ByRef<::ArrayW<::UnityEngine::Transform*>> array);
     // public System.Void UpdateFingerSolvers()
-    // Offset: 0x22F13A0
+    // Offset: 0x22EFF10
     void UpdateFingerSolvers();
     // public System.Void FixFingerTransforms()
-    // Offset: 0x22F141C
+    // Offset: 0x22EFF8C
     void FixFingerTransforms();
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x22F1494
+    // Offset: 0x22F0004
     void StoreDefaultLocalState();
     // public System.Void .ctor()
-    // Offset: 0x22F1518
+    // Offset: 0x22F0088
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,17 +112,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<FingerRig*, creationType>()));
     }
     // protected override System.Void InitiateSolver()
-    // Offset: 0x22F12D8
+    // Offset: 0x22EFE48
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::InitiateSolver()
     void InitiateSolver();
     // protected override System.Void UpdateSolver()
-    // Offset: 0x22F1500
+    // Offset: 0x22F0070
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::UpdateSolver()
     void UpdateSolver();
     // protected override System.Void FixTransforms()
-    // Offset: 0x22F1504
+    // Offset: 0x22F0074
     // Implemented from: RootMotion.SolverManager
     // Base method: System.Void SolverManager::FixTransforms()
     void FixTransforms();

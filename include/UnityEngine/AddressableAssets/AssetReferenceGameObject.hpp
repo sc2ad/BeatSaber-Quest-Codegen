@@ -36,7 +36,7 @@ namespace UnityEngine::AddressableAssets {
   class AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject*> {
     public:
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x18DAABC
+    // Offset: 0x18DA62C
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)

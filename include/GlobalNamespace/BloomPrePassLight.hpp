@@ -280,38 +280,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isBeingDestroyed
     [[deprecated("Use field access instead!")]] bool& dyn__isBeingDestroyed();
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x1CCBF74
+    // Offset: 0x1CC7AE4
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1CCBFDC
+    // Offset: 0x1CC7B4C
     static ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_isDirty();
     // protected System.Void .ctor()
-    // Offset: 0x1CCC3D0
+    // Offset: 0x1CC7F40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CCC3D8
+    // Offset: 0x1CC7F48
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1CCC044
+    // Offset: 0x1CC7BB4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CCC2C4
+    // Offset: 0x1CC7E34
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CCC38C
+    // Offset: 0x1CC7EFC
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x1CCC048
+    // Offset: 0x1CC7BB8
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1CCC2C8
+    // Offset: 0x1CC7E38
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFFFFFFFFFF

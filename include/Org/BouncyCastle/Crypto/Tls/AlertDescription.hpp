@@ -24,10 +24,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class AlertDescription : public ::Il2CppObject {
     public:
     // static public System.String GetName(System.Byte alertDescription)
-    // Offset: 0x16506A8
+    // Offset: 0x164F218
     static ::StringW GetName(uint8_t alertDescription);
     // static public System.String GetText(System.Byte alertDescription)
-    // Offset: 0x1650928
+    // Offset: 0x164F498
     static ::StringW GetText(uint8_t alertDescription);
   }; // Org.BouncyCastle.Crypto.Tls.AlertDescription
   #pragma pack(pop)

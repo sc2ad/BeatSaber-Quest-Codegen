@@ -62,17 +62,17 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 size
     [[deprecated("Use field access instead!")]] int& dyn_size();
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x1ADF8A8
+    // Offset: 0x1ADD418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x1ADF920
+    // Offset: 0x1ADD490
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x1ADFA08
+    // Offset: 0x1ADD578
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)

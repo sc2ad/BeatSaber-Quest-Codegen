@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x11128D8
+    // [InjectAttribute] Offset: 0x11147D8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x11128E8
+    // [InjectAttribute] Offset: 0x11147E8
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
@@ -142,50 +142,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localPosition();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x1504A60
+    // Offset: 0x15036EC
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0x1504B4C
+    // Offset: 0x15037D8
     ::UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0x1504B58
+    // Offset: 0x15037E4
     ::UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0x1504B64
+    // Offset: 0x15037F0
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x1504B6C
+    // Offset: 0x15037F8
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x1504B74
+    // Offset: 0x1503800
     ::UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x1504B80
+    // Offset: 0x150380C
     ::UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x1504B8C
+    // Offset: 0x1503818
     ::UnityEngine::Vector3 get_localPosition();
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x1504918
+    // Offset: 0x15035A4
     void add_floorMovementDidFinishEvent(::System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x15049BC
+    // Offset: 0x1503648
     void remove_floorMovementDidFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1504FA4
+    // Offset: 0x1503C30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteFloorMovement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteFloorMovement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteFloorMovement*, creationType>()));
     }
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0x1504B98
+    // Offset: 0x1503824
     void Init(float worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0x1504C90
+    // Offset: 0x150391C
     ::UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x1504DC0
+    // Offset: 0x1503A4C
     ::UnityEngine::Vector3 ManualUpdate();
   }; // NoteFloorMovement
   #pragma pack(pop)

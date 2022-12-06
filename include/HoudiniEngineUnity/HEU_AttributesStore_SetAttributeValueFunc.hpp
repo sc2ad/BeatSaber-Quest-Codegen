@@ -42,20 +42,20 @@ namespace HoudiniEngineUnity {
   class HEU_AttributesStore::SetAttributeValueFunc : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1723128
+    // Offset: 0x1723C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AttributesStore::SetAttributeValueFunc* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AttributesStore::SetAttributeValueFunc*, creationType>(object, method)));
     }
     // public System.Void Invoke(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
-    // Offset: 0x1721CFC
+    // Offset: 0x172286C
     void Invoke(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
     // public System.IAsyncResult BeginInvoke(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1723830
+    // Offset: 0x17243A0
     ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1723908
+    // Offset: 0x1724478
     void EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_AttributesStore/HoudiniEngineUnity.SetAttributeValueFunc
   #pragma pack(pop)

@@ -84,43 +84,43 @@ namespace LIV::SDK::Unity {
   class SDKUtils : public ::Il2CppObject {
     public:
     // static public LIV.SDK.Unity.TEXTURE_COLOR_SPACE get_GetDefaultColorSpace()
-    // Offset: 0x2AEE2C4
+    // Offset: 0x2AE5E34
     static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE get_GetDefaultColorSpace();
     // static public System.Void CreateClipPlane(UnityEngine.Mesh mesh, System.Int32 resX, System.Int32 resY, System.Boolean useQuads, System.Single skirtLength)
-    // Offset: 0x2AEC3B0
+    // Offset: 0x2AE3F20
     static void CreateClipPlane(::UnityEngine::Mesh* mesh, int resX, int resY, bool useQuads, float skirtLength);
     // static public UnityEngine.RenderTextureReadWrite GetReadWriteFromColorSpace(LIV.SDK.Unity.TEXTURE_COLOR_SPACE colorSpace)
-    // Offset: 0x2AEE2AC
+    // Offset: 0x2AE5E1C
     static ::UnityEngine::RenderTextureReadWrite GetReadWriteFromColorSpace(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace);
     // static public LIV.SDK.Unity.TEXTURE_COLOR_SPACE GetColorSpace(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2AEDA70
+    // Offset: 0x2AE55E0
     static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE GetColorSpace(::UnityEngine::RenderTexture* renderTexture);
     // static public LIV.SDK.Unity.RENDERING_PIPELINE GetRenderingPipeline(UnityEngine.RenderingPath renderingPath)
-    // Offset: 0x2AEE2F4
+    // Offset: 0x2AE5E64
     static ::LIV::SDK::Unity::RENDERING_PIPELINE GetRenderingPipeline(::UnityEngine::RenderingPath renderingPath);
     // static public LIV.SDK.Unity.TEXTURE_DEVICE GetDevice()
-    // Offset: 0x2AEDA0C
+    // Offset: 0x2AE557C
     static ::LIV::SDK::Unity::TEXTURE_DEVICE GetDevice();
     // static public System.Boolean ContainsFlag(System.UInt64 flags, System.UInt64 flag)
-    // Offset: 0x2AE6320
+    // Offset: 0x2ADDE90
     static bool ContainsFlag(uint64_t flags, uint64_t flag);
     // static public System.UInt64 SetFlag(System.UInt64 flags, System.UInt64 flag, System.Boolean enabled)
-    // Offset: 0x2AE53A4
+    // Offset: 0x2ADCF14
     static uint64_t SetFlag(uint64_t flags, uint64_t flag, bool enabled);
     // static public System.Void GetCameraPositionAndRotation(LIV.SDK.Unity.SDKPose pose, UnityEngine.Matrix4x4 originLocalToWorldMatrix, out UnityEngine.Vector3 position, out UnityEngine.Quaternion rotation)
-    // Offset: 0x2AEE314
+    // Offset: 0x2AE5E84
     static void GetCameraPositionAndRotation(::LIV::SDK::Unity::SDKPose pose, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Quaternion> rotation);
     // static public System.Void CleanCameraBehaviours(UnityEngine.Camera camera, System.String[] excludeBehaviours)
-    // Offset: 0x2AEC09C
+    // Offset: 0x2AE3C0C
     static void CleanCameraBehaviours(::UnityEngine::Camera* camera, ::ArrayW<::StringW> excludeBehaviours);
     // static public System.Void SetCamera(UnityEngine.Camera camera, UnityEngine.Transform cameraTransform, LIV.SDK.Unity.SDKInputFrame inputFrame, UnityEngine.Matrix4x4 originLocalToWorldMatrix, System.Int32 layerMask)
-    // Offset: 0x2AEA428
+    // Offset: 0x2AE1F98
     static void SetCamera(::UnityEngine::Camera* camera, ::UnityEngine::Transform* cameraTransform, ::LIV::SDK::Unity::SDKInputFrame inputFrame, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix, int layerMask);
     // static public UnityEngine.Quaternion RotateQuaternionByMatrix(UnityEngine.Matrix4x4 matrix, UnityEngine.Quaternion rotation)
-    // Offset: 0x2AED0D4
+    // Offset: 0x2AE4C44
     static ::UnityEngine::Quaternion RotateQuaternionByMatrix(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Quaternion rotation);
     // static public LIV.SDK.Unity.SDKTrackedSpace GetTrackedSpace(UnityEngine.Transform transform)
-    // Offset: 0x2AEE3F4
+    // Offset: 0x2AE5F64
     static ::LIV::SDK::Unity::SDKTrackedSpace GetTrackedSpace(::UnityEngine::Transform* transform);
     // static public System.Boolean DestroyObject(ref T reference)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -143,28 +143,28 @@ namespace LIV::SDK::Unity {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(reference));
     }
     // static public System.Boolean CreateTexture(ref UnityEngine.RenderTexture renderTexture, System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format)
-    // Offset: 0x2AED6D8
+    // Offset: 0x2AE5248
     static bool CreateTexture(ByRef<::UnityEngine::RenderTexture*> renderTexture, int width, int height, int depth, ::UnityEngine::RenderTextureFormat format);
     // static public System.Void DestroyTexture(ref UnityEngine.RenderTexture _renderTexture)
-    // Offset: 0x2AECB34
+    // Offset: 0x2AE46A4
     static void DestroyTexture(ByRef<::UnityEngine::RenderTexture*> _renderTexture);
     // static public System.Void ApplyUserSpaceTransform(LIV.SDK.Unity.SDKRender render)
-    // Offset: 0x2AEA6EC
+    // Offset: 0x2AE225C
     static void ApplyUserSpaceTransform(::LIV::SDK::Unity::SDKRender* render);
     // static public System.Void CreateBridgeOutputFrame(LIV.SDK.Unity.SDKRender render)
-    // Offset: 0x2AEB7B8
+    // Offset: 0x2AE3328
     static void CreateBridgeOutputFrame(::LIV::SDK::Unity::SDKRender* render);
     // static public System.Boolean FeatureEnabled(LIV.SDK.Unity.FEATURES features, LIV.SDK.Unity.FEATURES feature)
-    // Offset: 0x2AE9958
+    // Offset: 0x2AE14C8
     static bool FeatureEnabled(::LIV::SDK::Unity::FEATURES features, ::LIV::SDK::Unity::FEATURES feature);
     // static public System.Void DisableStandardAssets(UnityEngine.Camera cameraInstance, ref UnityEngine.MonoBehaviour[] behaviours, ref System.Boolean[] wasBehaviourEnabled)
-    // Offset: 0x2AEBC84
+    // Offset: 0x2AE37F4
     static void DisableStandardAssets(::UnityEngine::Camera* cameraInstance, ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
     // static public System.Void RestoreStandardAssets(ref UnityEngine.MonoBehaviour[] behaviours, ref System.Boolean[] wasBehaviourEnabled)
-    // Offset: 0x2AEBF64
+    // Offset: 0x2AE3AD4
     static void RestoreStandardAssets(ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
     // static public System.Void ForceForwardRendering(UnityEngine.Camera cameraInstance, UnityEngine.Mesh clipPlaneMesh, UnityEngine.Material forceForwardRenderingMaterial)
-    // Offset: 0x2AEE680
+    // Offset: 0x2AE61F0
     static void ForceForwardRendering(::UnityEngine::Camera* cameraInstance, ::UnityEngine::Mesh* clipPlaneMesh, ::UnityEngine::Material* forceForwardRenderingMaterial);
   }; // LIV.SDK.Unity.SDKUtils
   #pragma pack(pop)

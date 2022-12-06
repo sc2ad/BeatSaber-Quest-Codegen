@@ -107,7 +107,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Int64 version
       [[deprecated("Use field access instead!")]] int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0x1B7C0E4
+      // Offset: 0x1B76C54
       // ABORTED: conflicts with another method.  SceneInfo(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
@@ -242,41 +242,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRSceneLoader/SceneInfo currentSceneInfo
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRSceneLoader::SceneInfo& dyn_currentSceneInfo();
     // public System.Void .ctor()
-    // Offset: 0x1B7BC14
+    // Offset: 0x1B76784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSceneLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSceneLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSceneLoader*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x1B7A804
+    // Offset: 0x1B75374
     void Awake();
     // private System.Void Start()
-    // Offset: 0x1B7A880
+    // Offset: 0x1B753F0
     void Start();
     // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0x1B7AC30
+    // Offset: 0x1B757A0
     void LoadScene(::GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
     // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1B7B498
+    // Offset: 0x1B76008
     void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
     // public System.Void Update()
-    // Offset: 0x1B7B5EC
+    // Offset: 0x1B7615C
     void Update();
     // private System.Void UpdateCanvasPosition()
-    // Offset: 0x1B7B83C
+    // Offset: 0x1B763AC
     void UpdateCanvasPosition();
     // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0x1B7AA18
+    // Offset: 0x1B75588
     ::GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
     // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0x1B7A9A8
+    // Offset: 0x1B75518
     ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
     // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0x1B7B57C
+    // Offset: 0x1B760EC
     ::System::Collections::IEnumerator* onCheckSceneCoroutine();
     // private System.Void DestroyAllGameObjects()
-    // Offset: 0x1B7BB00
+    // Offset: 0x1B76670
     void DestroyAllGameObjects();
   }; // OVRSceneLoader
   #pragma pack(pop)

@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* selectionImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111BB8C
+    // [SpaceAttribute] Offset: 0x111DA8C
     // private UnityEngine.Color _bgNormalColor
     // Size: 0x10
     // Offset: 0x78
@@ -99,25 +99,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _bgHighlightColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__bgHighlightColor();
     // public System.Void .ctor()
-    // Offset: 0x13A5A98
+    // Offset: 0x13A68FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicTableCell*, creationType>()));
     }
     // public System.Void SetData(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x13A59A4
+    // Offset: 0x13A6808
     void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void RefreshVisuals()
-    // Offset: 0x13A5A0C
+    // Offset: 0x13A6870
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13A5A08
+    // Offset: 0x13A686C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13A5A94
+    // Offset: 0x13A68F8
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

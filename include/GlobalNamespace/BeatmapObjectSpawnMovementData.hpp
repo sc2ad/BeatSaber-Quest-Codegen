@@ -57,15 +57,15 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType
     struct NoteJumpValueType;
     public:
-    // [HeaderAttribute] Offset: 0x1112274
+    // [HeaderAttribute] Offset: 0x1114174
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
     // Offset: 0x10
     ::UnityEngine::Vector3 centerPos;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x11122C0
-    // [TooltipAttribute] Offset: 0x11122C0
+    // [HeaderAttribute] Offset: 0x11141C0
+    // [TooltipAttribute] Offset: 0x11141C0
     // private System.Single _maxHalfJumpDistance
     // Size: 0x4
     // Offset: 0x1C
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     float topLinesHighestJumpPosY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x1112370
+    // [HeaderAttribute] Offset: 0x1114270
     // private System.Single _moveSpeed
     // Size: 0x4
     // Offset: 0x30
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     float moveDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x11123CC
+    // [HeaderAttribute] Offset: 0x11142CC
     // private System.Single _verticalObstaclePosY
     // Size: 0x4
     // Offset: 0x38
@@ -260,77 +260,77 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _forwardVec
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__forwardVec();
     // public System.Single get_spawnAheadTime()
-    // Offset: 0x13D9DB4
+    // Offset: 0x13DA8CC
     float get_spawnAheadTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x13D9DBC
+    // Offset: 0x13DA8D4
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x13D9DC4
+    // Offset: 0x13DA8DC
     float get_jumpDuration();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x13D8A0C
+    // Offset: 0x13D9524
     float get_noteLinesDistance();
     // public System.Single get_verticalLayersDistance()
-    // Offset: 0x13D89C4
+    // Offset: 0x13D94DC
     float get_verticalLayersDistance();
     // public System.Single get_jumpDistance()
-    // Offset: 0x13D9DCC
+    // Offset: 0x13DA8E4
     float get_jumpDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x13D9DD4
+    // Offset: 0x13DA8EC
     float get_noteJumpMovementSpeed();
     // public System.Int32 get_noteLinesCount()
-    // Offset: 0x13D9DDC
+    // Offset: 0x13DA8F4
     int get_noteLinesCount();
     // public UnityEngine.Vector3 get_centerPos()
-    // Offset: 0x13D9DE4
+    // Offset: 0x13DA8FC
     ::UnityEngine::Vector3 get_centerPos();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x13D88A0
+    // Offset: 0x13D93B8
     float get_jumpOffsetY();
     // public System.Void .ctor()
-    // Offset: 0x13D9C88
+    // Offset: 0x13DA7A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnMovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnMovementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnMovementData*, creationType>()));
     }
     // public System.Void Init(System.Int32 noteLinesCount, System.Single startNoteJumpMovementSpeed, System.Single startBpm, BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, System.Single noteJumpValue, IJumpOffsetYProvider jumpOffsetYProvider, UnityEngine.Vector3 rightVec, UnityEngine.Vector3 forwardVec)
-    // Offset: 0x13D8E5C
+    // Offset: 0x13D9974
     void Init(int noteLinesCount, float startNoteJumpMovementSpeed, float startBpm, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::UnityEngine::Vector3 rightVec, ::UnityEngine::Vector3 forwardVec);
     // public BeatmapObjectSpawnMovementData/ObstacleSpawnData GetObstacleSpawnData(ObstacleData obstacleData)
-    // Offset: 0x13D9254
+    // Offset: 0x13D9D6C
     ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData GetObstacleSpawnData(::GlobalNamespace::ObstacleData* obstacleData);
     // public BeatmapObjectSpawnMovementData/NoteSpawnData GetJumpingNoteSpawnData(NoteData noteData)
-    // Offset: 0x13D95A4
+    // Offset: 0x13DA0BC
     ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData GetJumpingNoteSpawnData(::GlobalNamespace::NoteData* noteData);
     // public BeatmapObjectSpawnMovementData/SliderSpawnData GetSliderSpawnData(SliderData sliderData)
-    // Offset: 0x13D98A8
+    // Offset: 0x13DA3C0
     ::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData GetSliderSpawnData(::GlobalNamespace::SliderData* sliderData);
     // public UnityEngine.Vector3 GetNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x13D9F58
+    // Offset: 0x13DAA70
     ::UnityEngine::Vector3 GetNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector3 GetObstacleOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x13D9DF0
+    // Offset: 0x13DA908
     ::UnityEngine::Vector3 GetObstacleOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x13D9B7C
+    // Offset: 0x13DA694
     ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x13D9BA8
+    // Offset: 0x13DA6C0
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
     // private System.Single HighestJumpPosYForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x13DA1D4
+    // Offset: 0x13DACEC
     float HighestJumpPosYForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single HighestJumpPosYForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer)
-    // Offset: 0x13DA350
+    // Offset: 0x13DAE68
     float HighestJumpPosYForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer);
     // private System.Single NoteJumpGravityForLineLayer(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x13DA080
+    // Offset: 0x13DAB98
     float NoteJumpGravityForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
     // private System.Single NoteJumpGravityForLineLayerWithoutJumpOffset(NoteLineLayer lineLayer, NoteLineLayer beforeJumpLineLayer)
-    // Offset: 0x13DA16C
+    // Offset: 0x13DAC84
     float NoteJumpGravityForLineLayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpLineLayer);
   }; // BeatmapObjectSpawnMovementData
   #pragma pack(pop)

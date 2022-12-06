@@ -62,38 +62,38 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.Vector3 value
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_value();
     // public System.Single get_x()
-    // Offset: 0x2090800
+    // Offset: 0x208E370
     float get_x();
     // public System.Single get_y()
-    // Offset: 0x2090808
+    // Offset: 0x208E378
     float get_y();
     // public System.Single get_z()
-    // Offset: 0x2090810
+    // Offset: 0x208E380
     float get_z();
     // public System.Void .ctor(UnityEngine.Vector3 vector)
-    // Offset: 0x2090818
+    // Offset: 0x208E388
     // ABORTED: conflicts with another method.  IntVec3(::UnityEngine::Vector3 vector);
     // public System.Boolean Equals(UnityEngine.ProBuilder.IntVec3 p)
-    // Offset: 0x209091C
+    // Offset: 0x208E48C
     bool Equals(::UnityEngine::ProBuilder::IntVec3 p);
     // public System.Boolean Equals(UnityEngine.Vector3 p)
-    // Offset: 0x2090A68
+    // Offset: 0x208E5D8
     bool Equals(::UnityEngine::Vector3 p);
     // static private System.Int32 round(System.Single v)
-    // Offset: 0x20909F0
+    // Offset: 0x208E560
     static int round(float v);
     // public override System.String ToString()
-    // Offset: 0x2090824
+    // Offset: 0x208E394
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object b)
-    // Offset: 0x2090B00
+    // Offset: 0x208E670
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object b)
     bool Equals(::Il2CppObject* b);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2090BCC
+    // Offset: 0x208E73C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -102,10 +102,10 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(IntVec3), 0 + sizeof(::UnityEngine::Vector3)> __UnityEngine_ProBuilder_IntVec3SizeCheck;
   static_assert(sizeof(IntVec3) == 0xC);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0x20908E4
+  // Offset: 0x208E454
   bool operator ==(const ::UnityEngine::ProBuilder::IntVec3& a, const ::UnityEngine::ProBuilder::IntVec3& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.IntVec3 a, UnityEngine.ProBuilder.IntVec3 b)
-  // Offset: 0x20909B4
+  // Offset: 0x208E524
   bool operator !=(const ::UnityEngine::ProBuilder::IntVec3& a, const ::UnityEngine::ProBuilder::IntVec3& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

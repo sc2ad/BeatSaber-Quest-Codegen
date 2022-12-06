@@ -87,65 +87,65 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapLevelData <beatmapLevelData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
     // public System.String get_levelID()
-    // Offset: 0x1385970
+    // Offset: 0x13867D4
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x1385978
+    // Offset: 0x13867DC
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x1385980
+    // Offset: 0x13867E4
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x1385988
+    // Offset: 0x13867EC
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1385990
+    // Offset: 0x13867F4
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x1385998
+    // Offset: 0x13867FC
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x13859A0
+    // Offset: 0x1386804
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x13859A8
+    // Offset: 0x138680C
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x13859B0
+    // Offset: 0x1386814
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x13859B8
+    // Offset: 0x138681C
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x13859C0
+    // Offset: 0x1386824
     float get_previewDuration();
     // public System.Single get_songDuration()
-    // Offset: 0x13859C8
+    // Offset: 0x138682C
     float get_songDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x13859D0
+    // Offset: 0x1386834
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x13859D8
+    // Offset: 0x138683C
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x13859E0
+    // Offset: 0x1386844
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x1385AA8
+    // Offset: 0x138690C
     ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void .ctor()
-    // Offset: 0x1385AB0
+    // Offset: 0x1386914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyBeatmapLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyBeatmapLevel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13859E8
+    // Offset: 0x138684C
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1385A48
+    // Offset: 0x13868AC
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
   }; // EmptyBeatmapLevel
   #pragma pack(pop)

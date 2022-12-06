@@ -71,17 +71,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GridView _gridView
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GridView*& dyn__gridView();
     // public System.Void .ctor(GridView gridView)
-    // Offset: 0x13EE6E4
+    // Offset: 0x13EF1FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GridView::GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::GridViewCellsEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GridView::GridViewCellsEnumerator*, creationType>(gridView)));
     }
     // public System.Collections.Generic.IEnumerator`1<UnityEngine.MonoBehaviour> GetEnumerator()
-    // Offset: 0x13EEED4
+    // Offset: 0x13EF9EC
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x13EEF70
+    // Offset: 0x13EFA88
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // GridView/GridViewCellsEnumerator
   #pragma pack(pop)

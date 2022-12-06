@@ -217,7 +217,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x110EDE0
+    // [InjectAttribute] Offset: 0x1110CE0
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x18
@@ -238,29 +238,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didInvalidateDataEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didInvalidateDataEvent();
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x15345C4
+    // Offset: 0x1531134
     void add_didInvalidateDataEvent(::System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x1534668
+    // Offset: 0x15311D8
     void remove_didInvalidateDataEvent(::System::Action* value);
     // protected System.Void .ctor()
-    // Offset: 0x15349B0
+    // Offset: 0x1531520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdditionalContentModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AdditionalContentModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdditionalContentModel*, creationType>()));
     }
     // protected System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x153470C
+    // Offset: 0x153127C
     void OnApplicationFocus(bool hasFocus);
     // protected System.Void InvalidateData()
-    // Offset: 0x1534748
+    // Offset: 0x15312B8
     void InvalidateData();
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetLevelEntitlementStatusAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x1534788
+    // Offset: 0x15312F8
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<AdditionalContentModel/EntitlementStatus> GetPackEntitlementStatusAsync(System.String levelPackId, System.Threading.CancellationToken token)
-    // Offset: 0x153489C
+    // Offset: 0x153140C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
     // protected System.Void InvalidateDataInternal()
     // Offset: 0xFFFFFFFFFFFFFFFF

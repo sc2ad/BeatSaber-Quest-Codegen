@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x11198FC
+    // [InjectAttribute] Offset: 0x111B7FC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x28
@@ -100,17 +100,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _material
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__material();
     // public System.Void .ctor()
-    // Offset: 0x14B03CC
+    // Offset: 0x1492F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MoveBackWall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MoveBackWall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MoveBackWall*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14B023C
+    // Offset: 0x1492D78
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14B029C
+    // Offset: 0x1492DD8
     void Update();
   }; // MoveBackWall
   #pragma pack(pop)

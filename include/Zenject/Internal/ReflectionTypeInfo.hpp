@@ -104,7 +104,7 @@ namespace Zenject::Internal {
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> InjectMethods
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*& dyn_InjectMethods();
     // public System.Void .ctor(System.Type type, System.Type baseType, Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo injectConstructor, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> injectMethods, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> injectFields, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> injectProperties)
-    // Offset: 0x1CB388C
+    // Offset: 0x1CAF3FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeInfo* New_ctor(::System::Type* type, ::System::Type* baseType, ::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* injectConstructor, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* injectMethods, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* injectFields, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* injectProperties) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeInfo::.ctor");

@@ -43,7 +43,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 ID
     [[deprecated("Use field access instead!")]] uint64_t& dyn_ID();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A13118
+    // Offset: 0x1A11C88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrgScopedID* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::OrgScopedID::.ctor");

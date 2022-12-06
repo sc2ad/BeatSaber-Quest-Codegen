@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
   class InteractionTrigger::CharacterPosition : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113CE48
+    // [TooltipAttribute] Offset: 0x1140D18
     // public System.Boolean use
     // Size: 0x1
     // Offset: 0x10
@@ -44,44 +44,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x113CE80
+    // [TooltipAttribute] Offset: 0x1140D50
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
     ::UnityEngine::Vector2 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [TooltipAttribute] Offset: 0x113CEB8
-    // [RangeAttribute] Offset: 0x113CEB8
+    // [TooltipAttribute] Offset: 0x1140D88
+    // [RangeAttribute] Offset: 0x1140D88
     // public System.Single angleOffset
     // Size: 0x4
     // Offset: 0x1C
     float angleOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113CF14
-    // [RangeAttribute] Offset: 0x113CF14
+    // [TooltipAttribute] Offset: 0x1140DE4
+    // [RangeAttribute] Offset: 0x1140DE4
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x20
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113CF6C
+    // [TooltipAttribute] Offset: 0x1140E3C
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113CFA4
+    // [TooltipAttribute] Offset: 0x1140E74
     // public System.Boolean orbit
     // Size: 0x1
     // Offset: 0x28
     bool orbit;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x113CFDC
+    // [TooltipAttribute] Offset: 0x1140EAC
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x29
@@ -104,20 +104,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean fixYAxis
     [[deprecated("Use field access instead!")]] bool& dyn_fixYAxis();
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x203B0F0
+    // Offset: 0x2039C60
     ::UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x203B12C
+    // Offset: 0x2039C9C
     ::UnityEngine::Vector3 get_direction3D();
     // public System.Void .ctor()
-    // Offset: 0x203B8A0
+    // Offset: 0x203A410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::CharacterPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::CharacterPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CharacterPosition*, creationType>()));
     }
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x203B224
+    // Offset: 0x2039D94
     bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float> error);
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition
   #pragma pack(pop)

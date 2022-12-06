@@ -120,17 +120,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
     // public System.Void .ctor()
-    // Offset: 0x26CE3E8
+    // Offset: 0x26C5F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallBufferPool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmallBufferPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallBufferPool*, creationType>()));
     }
     // public System.Byte[] GetBuffer(System.Int32 length)
-    // Offset: 0x26CE0D8
+    // Offset: 0x26C5C48
     ::ArrayW<uint8_t> GetBuffer(int length);
     // public System.Void ReleaseBuffer(System.Byte[] buffer)
-    // Offset: 0x26CE2A8
+    // Offset: 0x26C5E18
     void ReleaseBuffer(::ArrayW<uint8_t> buffer);
   }; // SmallBufferPool
   #pragma pack(pop)

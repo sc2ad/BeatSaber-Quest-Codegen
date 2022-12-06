@@ -75,29 +75,29 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean start
     [[deprecated("Use field access instead!")]] bool& dyn_start();
     // public System.Object get_Current()
-    // Offset: 0x1D9CB70
+    // Offset: 0x1D986E0
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1D9CBDC
+    // Offset: 0x1D9874C
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1D9CC94
+    // Offset: 0x1D98804
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1D9CD30
+    // Offset: 0x1D988A0
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list)
-    // Offset: 0x1D9C99C
+    // Offset: 0x1D9850C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeEnumerator* New_ctor(::System::Collections::ListDictionaryInternal* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ListDictionaryInternal::NodeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeEnumerator*, creationType>(list)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1D9CDCC
+    // Offset: 0x1D9893C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D9CEA4
+    // Offset: 0x1D98A14
     void Reset();
   }; // System.Collections.ListDictionaryInternal/System.Collections.NodeEnumerator
   #pragma pack(pop)

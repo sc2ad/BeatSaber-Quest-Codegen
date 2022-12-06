@@ -146,35 +146,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
-    // Offset: 0x1532E74
+    // Offset: 0x152F9E4
     float get_test1GroupSize();
     // public System.Single get_test2GroupSize()
-    // Offset: 0x1532E7C
+    // Offset: 0x152F9EC
     float get_test2GroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x1532E84
+    // Offset: 0x152F9F4
     ::StringW get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x1532E8C
+    // Offset: 0x152F9FC
     ::GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // public System.Void .ctor()
-    // Offset: 0x1533188
+    // Offset: 0x152FCF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbTestExperimentDefinitionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AbTestExperimentDefinitionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbTestExperimentDefinitionSO*, creationType>()));
     }
     // private System.Void OnValidate()
-    // Offset: 0x1532E94
+    // Offset: 0x152FA04
     void OnValidate();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x1532F50
+    // Offset: 0x152FAC0
     void ComputeCurrentUserTreatment(::StringW userId);
     // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
-    // Offset: 0x1533180
+    // Offset: 0x152FCF0
     void ForceSetTreatmentGroup(::GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
     // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x1532F74
+    // Offset: 0x152FAE4
     ::GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::StringW userId);
   }; // AbTestExperimentDefinitionSO
   #pragma pack(pop)

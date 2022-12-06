@@ -29,7 +29,7 @@ namespace System::Xml::Schema {
   class XmlSchemaSimpleTypeContent : public ::System::Xml::Schema::XmlSchemaAnnotated {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x2106C28
+    // Offset: 0x2105798
     // Implemented from: System.Xml.Schema.XmlSchemaAnnotated
     // Base method: System.Void XmlSchemaAnnotated::.ctor()
     // Base method: System.Void XmlSchemaObject::.ctor()

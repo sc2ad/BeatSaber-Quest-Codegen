@@ -52,14 +52,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion rotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_rotation();
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x2317B3C
+    // Offset: 0x23156AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintRotation* New_ctor(::UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::ConstraintRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotation*, creationType>(transform)));
     }
     // public System.Void .ctor()
-    // Offset: 0x2317B34
+    // Offset: 0x23156A4
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintRotation*, creationType>()));
     }
     // public override System.Void UpdateConstraint()
-    // Offset: 0x2317A0C
+    // Offset: 0x231557C
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();

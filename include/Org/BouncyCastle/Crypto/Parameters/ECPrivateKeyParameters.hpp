@@ -57,39 +57,39 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger d
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_d();
     // public Org.BouncyCastle.Math.BigInteger get_D()
-    // Offset: 0x1641B84
+    // Offset: 0x16406F4
     ::Org::BouncyCastle::Math::BigInteger* get_D();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0x16419CC
+    // Offset: 0x164053C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyParameters*, creationType>(d, parameters)));
     }
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
-    // Offset: 0x1641A34
+    // Offset: 0x16405A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyParameters*, creationType>(algorithm, d, parameters)));
     }
     // public System.Void .ctor(System.String algorithm, Org.BouncyCastle.Math.BigInteger d, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
-    // Offset: 0x1641ADC
+    // Offset: 0x164064C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPrivateKeyParameters*, creationType>(algorithm, d, publicKeyParamSet)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters other)
-    // Offset: 0x1641C3C
+    // Offset: 0x16407AC
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1641B8C
+    // Offset: 0x16406FC
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ECKeyParameters
     // Base method: System.Boolean ECKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1641C98
+    // Offset: 0x1640808
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ECKeyParameters
     // Base method: System.Int32 ECKeyParameters::GetHashCode()
     int GetHashCode();

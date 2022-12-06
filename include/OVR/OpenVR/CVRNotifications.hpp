@@ -59,17 +59,17 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRNotifications FnTable
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRNotifications& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1ABCFB0
+    // Offset: 0x1ABBB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRNotifications* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRNotifications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRNotifications*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, OVR.OpenVR.EVRNotificationType type, System.String pchText, OVR.OpenVR.EVRNotificationStyle style, ref OVR.OpenVR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
-    // Offset: 0x1ABD0B0
+    // Offset: 0x1ABBC20
     ::OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText, ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public OVR.OpenVR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
-    // Offset: 0x1ABD0D4
+    // Offset: 0x1ABBC44
     ::OVR::OpenVR::EVRNotificationError RemoveNotification(uint notificationId);
   }; // OVR.OpenVR.CVRNotifications
   #pragma pack(pop)

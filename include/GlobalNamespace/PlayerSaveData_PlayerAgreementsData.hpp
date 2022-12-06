@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 healthAndSafetyVersion
     [[deprecated("Use field access instead!")]] int& dyn_healthAndSafetyVersion();
     // public System.Void .ctor()
-    // Offset: 0x157B67C
+    // Offset: 0x15781EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerAgreementsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAgreementsData::.ctor");

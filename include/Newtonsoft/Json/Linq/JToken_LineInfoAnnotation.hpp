@@ -42,7 +42,7 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: readonly System.Int32 LinePosition
     [[deprecated("Use field access instead!")]] int& dyn_LinePosition();
     // public System.Void .ctor(System.Int32 lineNumber, System.Int32 linePosition)
-    // Offset: 0x179EEE8
+    // Offset: 0x179FA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JToken::LineInfoAnnotation* New_ctor(int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JToken::LineInfoAnnotation::.ctor");

@@ -46,20 +46,20 @@ namespace Polyglot {
   class LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour/*, public ::Polyglot::ILocalize*/ {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x10F1320
+    // [TooltipAttribute] Offset: 0x10F3220
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0x10F136C
+    // [TooltipAttribute] Offset: 0x10F326C
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10F13B8
-    // [LocalizationKeyAttribute] Offset: 0x10F13B8
+    // [TooltipAttribute] Offset: 0x10F32B8
+    // [LocalizationKeyAttribute] Offset: 0x10F32B8
     // private System.String key
     // Size: 0x8
     // Offset: 0x0

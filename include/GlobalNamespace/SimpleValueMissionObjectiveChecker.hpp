@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
     public:
     // protected System.Void CheckAndUpdateStatus()
-    // Offset: 0x1409A0C
+    // Offset: 0x140A4B4
     void CheckAndUpdateStatus();
     // protected System.Void .ctor()
-    // Offset: 0x1409C80
+    // Offset: 0x140A728
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

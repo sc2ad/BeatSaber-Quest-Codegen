@@ -63,22 +63,22 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedEnhancedKeyUsages, System.Boolean critical)
-    // Offset: 0x1C9FC18
+    // Offset: 0x1C9A788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509EnhancedKeyUsageExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedEnhancedKeyUsages, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509EnhancedKeyUsageExtension*, creationType>(encodedEnhancedKeyUsages, critical)));
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1C9FCDC
+    // Offset: 0x1C9A84C
     ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1C9FF44
+    // Offset: 0x1C9AAB4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1CA00E8
+    // Offset: 0x1C9AC58
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::StringW ToString(bool multiLine);

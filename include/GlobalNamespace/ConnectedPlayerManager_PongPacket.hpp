@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single pingTime
     [[deprecated("Use field access instead!")]] float& dyn_pingTime();
     // static public PacketPool`1<ConnectedPlayerManager/PongPacket> get_pool()
-    // Offset: 0x16C5F14
+    // Offset: 0x16C4A84
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PongPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16C6014
+    // Offset: 0x16C4B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PongPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PongPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PongPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16C5F5C
+    // Offset: 0x16C4ACC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16C5F7C
+    // Offset: 0x16C4AEC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/PongPacket Init(System.Single pingTime)
-    // Offset: 0x16C5FB0
+    // Offset: 0x16C4B20
     ::GlobalNamespace::ConnectedPlayerManager::PongPacket* Init(float pingTime);
     // public System.Void Release()
-    // Offset: 0x16C5FB8
+    // Offset: 0x16C4B28
     void Release();
   }; // ConnectedPlayerManager/PongPacket
   #pragma pack(pop)

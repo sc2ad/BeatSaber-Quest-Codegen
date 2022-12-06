@@ -39,14 +39,14 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::Inertia::Body
     class Body;
     public:
-    // [TooltipAttribute] Offset: 0x113AA78
+    // [TooltipAttribute] Offset: 0x113E948
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
     ::ArrayW<::RootMotion::FinalIK::Inertia::Body*> bodies;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Inertia::Body*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x113AAB0
+    // [TooltipAttribute] Offset: 0x113E980
     // public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
     // Size: 0x8
     // Offset: 0x38
@@ -59,10 +59,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::OffsetModifier::OffsetLimits*>& dyn_limits();
     // public System.Void ResetBodies()
-    // Offset: 0x2412868
+    // Offset: 0x240E3D8
     void ResetBodies();
     // public System.Void .ctor()
-    // Offset: 0x2412DF0
+    // Offset: 0x240E960
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<Inertia*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x24129BC
+    // Offset: 0x240E52C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

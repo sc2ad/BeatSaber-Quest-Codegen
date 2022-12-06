@@ -71,14 +71,14 @@ namespace UnityEngine::TestTools {
       return reinterpret_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);
     }
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)
-    // Offset: 0x198EAA0
+    // Offset: 0x198C610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableApplyChangesToContextCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::IApplyToContext*>* changes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableApplyChangesToContextCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableApplyChangesToContextCommand*, creationType>(innerCommand, changes)));
     }
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x199649C
+    // Offset: 0x199400C
     ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.EnumerableApplyChangesToContextCommand
   #pragma pack(pop)

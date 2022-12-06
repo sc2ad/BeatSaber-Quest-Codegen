@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // protected System.Void .ctor()
-    // Offset: 0x1731E5C
+    // Offset: 0x17329CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MasterServerConnectionManager::MasterServerConnectionManagerParamsBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::.ctor");

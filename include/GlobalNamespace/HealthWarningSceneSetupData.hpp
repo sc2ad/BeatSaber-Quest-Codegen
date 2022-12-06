@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ScenesTransitionSetupDataSO _nextScenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn__nextScenesTransitionSetupData();
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0x13F2138
+    // Offset: 0x13F2C50
     ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x13F2140
+    // Offset: 0x13F2C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningSceneSetupData::.ctor");

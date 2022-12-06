@@ -45,14 +45,14 @@ namespace UnityEngine {
   class Logger : public ::Il2CppObject/*, public ::UnityEngine::ILogger*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1088370
+    // [DebuggerBrowsableAttribute] Offset: 0x1088270
     // private UnityEngine.ILogHandler <logHandler>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::ILogHandler* logHandler;
     // Field size check
     static_assert(sizeof(::UnityEngine::ILogHandler*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x10883AC
+    // [DebuggerBrowsableAttribute] Offset: 0x10882AC
     // private System.Boolean <logEnabled>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -61,7 +61,7 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: logEnabled and: filterLogType
     char __padding1[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x10883E8
+    // [DebuggerBrowsableAttribute] Offset: 0x10882E8
     // private UnityEngine.LogType <filterLogType>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -84,53 +84,53 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.LogType <filterLogType>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::LogType& dyn_$filterLogType$k__BackingField();
     // public UnityEngine.ILogHandler get_logHandler()
-    // Offset: 0x20DF544
+    // Offset: 0x20DE0B4
     ::UnityEngine::ILogHandler* get_logHandler();
     // public System.Void set_logHandler(UnityEngine.ILogHandler value)
-    // Offset: 0x20DF54C
+    // Offset: 0x20DE0BC
     void set_logHandler(::UnityEngine::ILogHandler* value);
     // public System.Boolean get_logEnabled()
-    // Offset: 0x20DF554
+    // Offset: 0x20DE0C4
     bool get_logEnabled();
     // public System.Void set_logEnabled(System.Boolean value)
-    // Offset: 0x20DF55C
+    // Offset: 0x20DE0CC
     void set_logEnabled(bool value);
     // public UnityEngine.LogType get_filterLogType()
-    // Offset: 0x20DF568
+    // Offset: 0x20DE0D8
     ::UnityEngine::LogType get_filterLogType();
     // public System.Void set_filterLogType(UnityEngine.LogType value)
-    // Offset: 0x20DF570
+    // Offset: 0x20DE0E0
     void set_filterLogType(::UnityEngine::LogType value);
     // public System.Void .ctor(UnityEngine.ILogHandler logHandler)
-    // Offset: 0x20DF508
+    // Offset: 0x20DE078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(::UnityEngine::ILogHandler* logHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(logHandler)));
     }
     // public System.Boolean IsLogTypeAllowed(UnityEngine.LogType logType)
-    // Offset: 0x20DF578
+    // Offset: 0x20DE0E8
     bool IsLogTypeAllowed(::UnityEngine::LogType logType);
     // static private System.String GetString(System.Object message)
-    // Offset: 0x20DF5B4
+    // Offset: 0x20DE124
     static ::StringW GetString(::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message)
-    // Offset: 0x20DF6E4
+    // Offset: 0x20DE254
     void Log(::UnityEngine::LogType logType, ::Il2CppObject* message);
     // public System.Void Log(UnityEngine.LogType logType, System.Object message, UnityEngine.Object context)
-    // Offset: 0x20DF858
+    // Offset: 0x20DE3C8
     void Log(::UnityEngine::LogType logType, ::Il2CppObject* message, ::UnityEngine::Object* context);
     // public System.Void LogError(System.String tag, System.Object message)
-    // Offset: 0x20DF9DC
+    // Offset: 0x20DE54C
     void LogError(::StringW tag, ::Il2CppObject* message);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
-    // Offset: 0x20DFB6C
+    // Offset: 0x20DE6DC
     void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
-    // Offset: 0x20DFC50
+    // Offset: 0x20DE7C0
     void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
-    // Offset: 0x20DFD64
+    // Offset: 0x20DE8D4
     void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
   }; // UnityEngine.Logger
   #pragma pack(pop)

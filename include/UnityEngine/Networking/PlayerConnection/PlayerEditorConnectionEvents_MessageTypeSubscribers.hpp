@@ -60,13 +60,13 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback
     [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*& dyn_messageCallback();
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x20F1E70
+    // Offset: 0x20F09E0
     ::System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x20F1FD8
+    // Offset: 0x20F0B48
     void set_MessageTypeId(::System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x20F1F70
+    // Offset: 0x20F0AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerEditorConnectionEvents::MessageTypeSubscribers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers::.ctor");

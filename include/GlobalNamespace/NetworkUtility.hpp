@@ -35,25 +35,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _nameEncryptionIv
     static void _set__nameEncryptionIv(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x173E20C
+    // Offset: 0x173ED7C
     static void _cctor();
     // static private System.Void Init()
-    // Offset: 0x173E210
+    // Offset: 0x173ED80
     static void Init();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
-    // Offset: 0x173E2DC
+    // Offset: 0x173EE4C
     static ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
-    // Offset: 0x173E528
+    // Offset: 0x173F098
     static ::StringW EncryptName(::StringW text);
     // static public System.String DecryptName(System.String text)
-    // Offset: 0x173E844
+    // Offset: 0x173F3B4
     static ::StringW DecryptName(::StringW text);
     // static public System.String GenerateId()
-    // Offset: 0x173EB64
+    // Offset: 0x173F6D4
     static ::StringW GenerateId();
     // static public System.String GetHashBase64(System.String input)
-    // Offset: 0x173E394
+    // Offset: 0x173EF04
     static ::StringW GetHashBase64(::StringW input);
   }; // NetworkUtility
   #pragma pack(pop)

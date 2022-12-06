@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   class Vector2Extensions : public ::Il2CppObject {
     public:
     // static public System.Single SignedAngleToLine(UnityEngine.Vector2 vec, UnityEngine.Vector2 line)
-    // Offset: 0x2AC8068
+    // Offset: 0x2AC0BD8
     static float SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
   }; // Vector2Extensions
   #pragma pack(pop)

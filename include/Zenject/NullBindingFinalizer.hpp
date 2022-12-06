@@ -47,17 +47,17 @@ namespace Zenject {
       return reinterpret_cast<::Zenject::IBindingFinalizer*>(this);
     }
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x1CBA504
+    // Offset: 0x1CB6074
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Void .ctor()
-    // Offset: 0x1CBA510
+    // Offset: 0x1CB6080
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullBindingFinalizer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NullBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullBindingFinalizer*, creationType>()));
     }
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1CBA50C
+    // Offset: 0x1CB607C
     void FinalizeBinding(::Zenject::DiContainer* container);
   }; // Zenject.NullBindingFinalizer
   #pragma pack(pop)

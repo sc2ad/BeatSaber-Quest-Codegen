@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0x1111CBC
+    // [LocalizationKeyAttribute] Offset: 0x1113BBC
     // static field const value: static private System.String kBrowsingMenusRichPresenceLocalizationKey
     static constexpr const char* kBrowsingMenusRichPresenceLocalizationKey = "BROWSING_MENUS_PRESENCE";
     // Get static field: static private System.String kBrowsingMenusRichPresenceLocalizationKey
@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x13E2BB8
+    // Offset: 0x13E36D0
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x13E2C00
+    // Offset: 0x13E3718
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x13E2C08
+    // Offset: 0x13E3720
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x13E2C10
+    // Offset: 0x13E3728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BrowsingMenusRichPresenceData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BrowsingMenusRichPresenceData::.ctor");

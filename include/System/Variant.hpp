@@ -204,7 +204,7 @@ namespace System {
     // Get instance field reference: public System.BRECORD bRecord
     [[deprecated("Use field access instead!")]] ::System::BRECORD& dyn_bRecord();
     // public System.Void Clear()
-    // Offset: 0x2B48030
+    // Offset: 0x2B3FBA0
     void Clear();
   }; // System.Variant
   #pragma pack(pop)

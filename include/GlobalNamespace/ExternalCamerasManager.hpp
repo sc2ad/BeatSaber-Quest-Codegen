@@ -71,20 +71,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Camera _mrcForegroundCameraPrefab
     [[deprecated("Use field access instead!")]] ::UnityEngine::Camera*& dyn__mrcForegroundCameraPrefab();
     // public System.Void .ctor()
-    // Offset: 0x2AD45E4
+    // Offset: 0x2ACC154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExternalCamerasManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ExternalCamerasManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExternalCamerasManager*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2AD4418
+    // Offset: 0x2ACBF88
     void OnEnable();
     // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x2AD44DC
+    // Offset: 0x2ACC04C
     ::UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
     // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x2AD4560
+    // Offset: 0x2ACC0D0
     ::UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
   }; // ExternalCamerasManager
   #pragma pack(pop)

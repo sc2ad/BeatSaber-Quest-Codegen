@@ -61,10 +61,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single offset
     [[deprecated("Use field access instead!")]] float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x171B028
+    // Offset: 0x171BB98
     HAPI_Viewport(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x171B0B8
+    // Offset: 0x171BC28
     void Init();
   }; // HoudiniEngineUnity.HAPI_Viewport
   #pragma pack(pop)

@@ -130,10 +130,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15D02BC
+    // Offset: 0x15CDE2C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15D0568
+    // Offset: 0x15CE0D8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<SendMessageWithRetry>d__71
   #pragma pack(pop)

@@ -74,13 +74,13 @@ namespace Mono::Net {
     // Get instance field reference: private Mono.Net.CFDictionary settings
     [[deprecated("Use field access instead!")]] ::Mono::Net::CFDictionary*& dyn_settings();
     // public Mono.Net.CFDictionary get_Dictionary()
-    // Offset: 0x1AFA2E0
+    // Offset: 0x1AF7E50
     ::Mono::Net::CFDictionary* get_Dictionary();
     // static private System.Void .cctor()
-    // Offset: 0x1AFA1C4
+    // Offset: 0x1AF7D34
     static void _cctor();
     // public System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x1AF84FC
+    // Offset: 0x1AF606C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxySettings* New_ctor(::Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::CFProxySettings::.ctor");

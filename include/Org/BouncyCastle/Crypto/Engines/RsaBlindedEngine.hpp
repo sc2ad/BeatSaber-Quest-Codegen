@@ -83,30 +83,30 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Void .ctor()
-    // Offset: 0x248AF10
+    // Offset: 0x2484A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IRsa rsa)
-    // Offset: 0x248AF84
+    // Offset: 0x2484AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaBlindedEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaBlindedEngine*, creationType>(rsa)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters param)
-    // Offset: 0x248AFB0
+    // Offset: 0x2484B20
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x248B1D8
+    // Offset: 0x2484D48
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x248B28C
+    // Offset: 0x2484DFC
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
-    // Offset: 0x248B340
+    // Offset: 0x2484EB0
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.RsaBlindedEngine
   #pragma pack(pop)

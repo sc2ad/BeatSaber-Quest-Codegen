@@ -34,16 +34,16 @@ namespace UnityEngine::Sprites {
   class DataUtility : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector4 GetInnerUV(UnityEngine.Sprite sprite)
-    // Offset: 0x28CFA34
+    // Offset: 0x28C75A4
     static ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetOuterUV(UnityEngine.Sprite sprite)
-    // Offset: 0x28CFA48
+    // Offset: 0x28C75B8
     static ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetPadding(UnityEngine.Sprite sprite)
-    // Offset: 0x28CFA5C
+    // Offset: 0x28C75CC
     static ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector2 GetMinSize(UnityEngine.Sprite sprite)
-    // Offset: 0x28CFA70
+    // Offset: 0x28C75E0
     static ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
   }; // UnityEngine.Sprites.DataUtility
   #pragma pack(pop)

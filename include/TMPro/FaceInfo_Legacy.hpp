@@ -198,7 +198,7 @@ namespace TMPro {
     // Get instance field reference: public System.Single AtlasHeight
     [[deprecated("Use field access instead!")]] float& dyn_AtlasHeight();
     // public System.Void .ctor()
-    // Offset: 0x1484A48
+    // Offset: 0x1499610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceInfo_Legacy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FaceInfo_Legacy::.ctor");

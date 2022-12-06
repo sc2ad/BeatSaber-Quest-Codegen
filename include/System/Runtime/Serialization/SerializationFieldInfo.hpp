@@ -76,83 +76,83 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.String m_serializationName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_serializationName();
     // System.Reflection.RuntimeFieldInfo get_FieldInfo()
-    // Offset: 0x1683170
+    // Offset: 0x1681CE0
     ::System::Reflection::RuntimeFieldInfo* get_FieldInfo();
     // System.Void .ctor(System.Reflection.RuntimeFieldInfo field, System.String namePrefix)
-    // Offset: 0x1682D8C
+    // Offset: 0x16818FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationFieldInfo* New_ctor(::System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SerializationFieldInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationFieldInfo*, creationType>(field, namePrefix)));
     }
     // System.Object InternalGetValue(System.Object obj)
-    // Offset: 0x1682F24
+    // Offset: 0x1681A94
     ::Il2CppObject* InternalGetValue(::Il2CppObject* obj);
     // System.Void InternalSetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x1683038
+    // Offset: 0x1681BA8
     void InternalSetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x1682D44
+    // Offset: 0x16818B4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     ::System::Reflection::Module* get_Module();
     // public override System.Int32 get_MetadataToken()
-    // Offset: 0x1682D68
+    // Offset: 0x16818D8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Int32 MemberInfo::get_MetadataToken()
     int get_MetadataToken();
     // public override System.String get_Name()
-    // Offset: 0x1682E24
+    // Offset: 0x1681994
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::StringW get_Name();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1682E2C
+    // Offset: 0x168199C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     ::System::Type* get_DeclaringType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1682E4C
+    // Offset: 0x16819BC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     ::System::Type* get_ReflectedType();
     // public override System.Type get_FieldType()
-    // Offset: 0x1682EDC
+    // Offset: 0x1681A4C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Type FieldInfo::get_FieldType()
     ::System::Type* get_FieldType();
     // public override System.RuntimeFieldHandle get_FieldHandle()
-    // Offset: 0x1683178
+    // Offset: 0x1681CE8
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.RuntimeFieldHandle FieldInfo::get_FieldHandle()
     ::System::RuntimeFieldHandle get_FieldHandle();
     // public override System.Reflection.FieldAttributes get_Attributes()
-    // Offset: 0x168319C
+    // Offset: 0x1681D0C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Reflection.FieldAttributes FieldInfo::get_Attributes()
     ::System::Reflection::FieldAttributes get_Attributes();
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1682E6C
+    // Offset: 0x16819DC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1682E90
+    // Offset: 0x1681A00
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1682EB4
+    // Offset: 0x1681A24
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(::System::Type* attributeType, bool inherit);
     // public override System.Object GetValue(System.Object obj)
-    // Offset: 0x1682F00
+    // Offset: 0x1681A70
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Object FieldInfo::GetValue(System.Object obj)
     ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public override System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x1683014
+    // Offset: 0x1681B84
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture);

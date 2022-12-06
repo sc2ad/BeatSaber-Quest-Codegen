@@ -78,7 +78,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier ElGamalAlgorithm
     static void _set_ElGamalAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D67928
+    // Offset: 0x1D63498
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Oiw.OiwObjectIdentifiers
   #pragma pack(pop)

@@ -78,14 +78,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void .ctor()
-    // Offset: 0x150268C
+    // Offset: 0x1501318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter*, creationType>()));
     }
     // public System.Void Cut(Saber saber)
-    // Offset: 0x15027C4
+    // Offset: 0x1501450
     void Cut(::GlobalNamespace::Saber* saber);
   }; // NoteCutter
   #pragma pack(pop)

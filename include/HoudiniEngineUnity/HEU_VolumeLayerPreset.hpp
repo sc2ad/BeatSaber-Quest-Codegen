@@ -48,7 +48,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: uiExpanded and: tile
     char __padding2[0x3] = {};
-    // [OptionalFieldAttribute] Offset: 0x11412CC
+    // [OptionalFieldAttribute] Offset: 0x114519C
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x20
@@ -65,7 +65,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     [[deprecated("Use field access instead!")]] int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x1A60298
+    // Offset: 0x1A5DE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayerPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayerPreset::.ctor");

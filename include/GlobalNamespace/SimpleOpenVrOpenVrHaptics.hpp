@@ -44,17 +44,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IOpenVRHaptics*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x2AC3FE4
+    // Offset: 0x2ABCB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleOpenVrOpenVrHaptics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleOpenVrOpenVrHaptics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleOpenVrOpenVrHaptics*, creationType>()));
     }
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
-    // Offset: 0x2AC3ED8
+    // Offset: 0x2ABCA48
     void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void Destroy()
-    // Offset: 0x2AC3FE0
+    // Offset: 0x2ABCB50
     void Destroy();
   }; // SimpleOpenVrOpenVrHaptics
   #pragma pack(pop)

@@ -111,12 +111,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static ::ArrayW<uint> _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
     static void _set_TAU_SIGMA(::ArrayW<uint> value);
-    // [ObsoleteAttribute] Offset: 0x10F1948
+    // [ObsoleteAttribute] Offset: 0x10F3848
     // Get static field: static protected readonly System.Byte[] sigma
     static ::ArrayW<uint8_t> _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
     static void _set_sigma(::ArrayW<uint8_t> value);
-    // [ObsoleteAttribute] Offset: 0x10F1958
+    // [ObsoleteAttribute] Offset: 0x10F3858
     // Get static field: static protected readonly System.Byte[] tau
     static ::ArrayW<uint8_t> _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
@@ -140,60 +140,60 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.UInt32 cW2
     [[deprecated("Use field access instead!")]] uint& dyn_cW2();
     // protected System.Int32 get_NonceSize()
-    // Offset: 0x248D164
+    // Offset: 0x2486CD4
     int get_NonceSize();
     // public System.String get_AlgorithmName()
-    // Offset: 0x248D16C
+    // Offset: 0x2486CDC
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x248CCA8
+    // Offset: 0x2486818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 rounds)
-    // Offset: 0x248CD18
+    // Offset: 0x2486888
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Salsa20Engine* New_ctor(int rounds) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Salsa20Engine*, creationType>(rounds)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x248DF20
+    // Offset: 0x2487A90
     static void _cctor();
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
-    // Offset: 0x248CB14
+    // Offset: 0x2486684
     void PackTauOrSigma(int keyLength, ::ArrayW<uint> state, int stateOffset);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x248CE04
+    // Offset: 0x2486974
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void AdvanceCounter()
-    // Offset: 0x248D240
+    // Offset: 0x2486DB0
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x248D2A4
+    // Offset: 0x2486E14
     void ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x248D544
+    // Offset: 0x24870B4
     void Reset();
     // protected System.Void ResetCounter()
-    // Offset: 0x248D56C
+    // Offset: 0x24870DC
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x248D5A4
+    // Offset: 0x2487114
     void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
-    // Offset: 0x248D80C
+    // Offset: 0x248737C
     void GenerateKeyStream(::ArrayW<uint8_t> output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
-    // Offset: 0x248D8A8
+    // Offset: 0x2487418
     static void SalsaCore(int rounds, ::ArrayW<uint> input, ::ArrayW<uint> x);
     // private System.Void ResetLimitCounter()
-    // Offset: 0x248D560
+    // Offset: 0x24870D0
     void ResetLimitCounter();
     // private System.Boolean LimitExceeded(System.UInt32 len)
-    // Offset: 0x248D508
+    // Offset: 0x2487078
     bool LimitExceeded(uint len);
   }; // Org.BouncyCastle.Crypto.Engines.Salsa20Engine
   #pragma pack(pop)

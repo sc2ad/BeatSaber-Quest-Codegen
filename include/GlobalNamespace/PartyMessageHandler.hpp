@@ -126,26 +126,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private PartyMessageHandler/ConnectToMasterServerDelegate connectToMasterServerEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*& dyn_connectToMasterServerEvent();
     // public System.Void add_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x26C7A28
+    // Offset: 0x26BF598
     void add_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void remove_connectToMasterServerEvent(PartyMessageHandler/ConnectToMasterServerDelegate value)
-    // Offset: 0x26C7ACC
+    // Offset: 0x26BF63C
     void remove_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate* value);
     // public System.Void .ctor(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x26C7878
+    // Offset: 0x26BF3E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PartyMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyMessageHandler*, creationType>(connectedPlayerManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x26C7A00
+    // Offset: 0x26BF570
     void Dispose();
     // public System.Void ConnectToMasterServer(System.String secret)
-    // Offset: 0x26C7B70
+    // Offset: 0x26BF6E0
     void ConnectToMasterServer(::StringW secret);
     // private System.Void HandleConnectToMasterServer(PartyMessageHandler/ConnectToMasterServerMessage packet)
-    // Offset: 0x26C7C04
+    // Offset: 0x26BF774
     void HandleConnectToMasterServer(::GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* packet);
   }; // PartyMessageHandler
   #pragma pack(pop)

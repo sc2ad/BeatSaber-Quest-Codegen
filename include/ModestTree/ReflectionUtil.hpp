@@ -86,16 +86,16 @@ namespace ModestTree {
   class ReflectionUtil : public ::Il2CppObject {
     public:
     // static public System.Array CreateArray(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x17AC0B8
+    // Offset: 0x17ACC28
     static ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.Collections.IList CreateGenericList(System.Type elementType, System.Collections.Generic.List`1<System.Object> instances)
-    // Offset: 0x17AC328
+    // Offset: 0x17ACE98
     static ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::Il2CppObject*>* instances);
     // static public System.String ToDebugString(System.Reflection.MethodInfo method)
-    // Offset: 0x17AC6C8
+    // Offset: 0x17AD238
     static ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
     // static public System.String ToDebugString(System.Action action)
-    // Offset: 0x17AC800
+    // Offset: 0x17AD370
     static ::StringW ToDebugString(::System::Action* action);
     // static public System.String ToDebugString(System.Action`1<TParam1> action)
     // Offset: 0xFFFFFFFFFFFFFFFF

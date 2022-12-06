@@ -64,17 +64,17 @@ namespace System::Net {
     // Get instance field reference: public System.Net.SimpleAsyncCallback callback
     [[deprecated("Use field access instead!")]] ::System::Net::SimpleAsyncCallback*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1BBFB94
+    // Offset: 0x1BBA704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult::$$c__DisplayClass11_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult::$$c__DisplayClass11_0*, creationType>()));
     }
     // System.Boolean <RunWithLock>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1BC0054
+    // Offset: 0x1BBABC4
     bool $RunWithLock$b__0(::System::Net::SimpleAsyncResult* inner);
     // System.Void <RunWithLock>b__1(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1BC00DC
+    // Offset: 0x1BBAC4C
     void $RunWithLock$b__1(::System::Net::SimpleAsyncResult* inner);
   }; // System.Net.SimpleAsyncResult/System.Net.<>c__DisplayClass11_0
   #pragma pack(pop)

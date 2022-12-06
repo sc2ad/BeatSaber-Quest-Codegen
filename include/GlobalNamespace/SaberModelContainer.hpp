@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SaberModelController* saberModelControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberModelController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119D1C
+    // [InjectAttribute] Offset: 0x111BC1C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
@@ -72,14 +72,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // public System.Void .ctor()
-    // Offset: 0x1402260
+    // Offset: 0x1402D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelContainer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelContainer*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1401F04
+    // Offset: 0x14029AC
     void Start();
   }; // SaberModelContainer
   #pragma pack(pop)

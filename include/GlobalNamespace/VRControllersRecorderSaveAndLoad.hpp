@@ -38,16 +38,16 @@ namespace GlobalNamespace {
   class VRControllersRecorderSaveAndLoad : public ::Il2CppObject {
     public:
     // static private VRControllersRecorderSaveData LoadSaveDataFromFile(System.String filePath)
-    // Offset: 0x1667848
+    // Offset: 0x16663B8
     static ::GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromFile(::StringW filePath);
     // static private VRControllersRecorderSaveData LoadSaveDataFromTextAsset(UnityEngine.TextAsset textAsset)
-    // Offset: 0x1667A0C
+    // Offset: 0x166657C
     static ::GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromTextAsset(::UnityEngine::TextAsset* textAsset);
     // static public System.Void LoadFromFile(System.String filePath, VRControllersRecorderData data)
-    // Offset: 0x1667B00
+    // Offset: 0x1666670
     static void LoadFromFile(::StringW filePath, ::GlobalNamespace::VRControllersRecorderData* data);
     // static public System.Void SaveToFile(System.String filePath, VRControllersRecorderData data)
-    // Offset: 0x1667D88
+    // Offset: 0x16668F8
     static void SaveToFile(::StringW filePath, ::GlobalNamespace::VRControllersRecorderData* data);
   }; // VRControllersRecorderSaveAndLoad
   #pragma pack(pop)

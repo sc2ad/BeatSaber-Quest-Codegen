@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _positionOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__positionOffset();
     // public System.Void .ctor()
-    // Offset: 0x1535BFC
+    // Offset: 0x153276C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnchorIntoParent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnchorIntoParent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnchorIntoParent*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1535AE8
+    // Offset: 0x1532658
     void Start();
   }; // AnchorIntoParent
   #pragma pack(pop)

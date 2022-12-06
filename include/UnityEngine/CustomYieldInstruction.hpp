@@ -40,20 +40,20 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_keepWaiting();
     // public System.Object get_Current()
-    // Offset: 0x202FFEC
+    // Offset: 0x202DB5C
     ::Il2CppObject* get_Current();
     // protected System.Void .ctor()
-    // Offset: 0x2030004
+    // Offset: 0x202DB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomYieldInstruction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::CustomYieldInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomYieldInstruction*, creationType>()));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x202FFF4
+    // Offset: 0x202DB64
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x2030000
+    // Offset: 0x202DB70
     void Reset();
   }; // UnityEngine.CustomYieldInstruction
   #pragma pack(pop)

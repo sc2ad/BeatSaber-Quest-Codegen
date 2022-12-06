@@ -343,116 +343,116 @@ namespace System::Net {
     // Get instance field reference: private Mono.Net.Security.MonoTlsStream tlsStream
     [[deprecated("Use field access instead!")]] ::Mono::Net::Security::MonoTlsStream*& dyn_tlsStream();
     // System.Void set_PriorityRequest(System.Net.HttpWebRequest value)
-    // Offset: 0x1B90878
+    // Offset: 0x1B8B3E8
     void set_PriorityRequest(::System::Net::HttpWebRequest* value);
     // System.Boolean get_NtlmAuthenticated()
-    // Offset: 0x1B90880
+    // Offset: 0x1B8B3F0
     bool get_NtlmAuthenticated();
     // System.Void set_NtlmAuthenticated(System.Boolean value)
-    // Offset: 0x1B90888
+    // Offset: 0x1B8B3F8
     void set_NtlmAuthenticated(bool value);
     // System.Net.NetworkCredential get_NtlmCredential()
-    // Offset: 0x1B90894
+    // Offset: 0x1B8B404
     ::System::Net::NetworkCredential* get_NtlmCredential();
     // System.Void set_NtlmCredential(System.Net.NetworkCredential value)
-    // Offset: 0x1B9089C
+    // Offset: 0x1B8B40C
     void set_NtlmCredential(::System::Net::NetworkCredential* value);
     // System.Boolean get_UnsafeAuthenticatedConnectionSharing()
-    // Offset: 0x1B908A4
+    // Offset: 0x1B8B414
     bool get_UnsafeAuthenticatedConnectionSharing();
     // System.Void set_UnsafeAuthenticatedConnectionSharing(System.Boolean value)
-    // Offset: 0x1B908AC
+    // Offset: 0x1B8B41C
     void set_UnsafeAuthenticatedConnectionSharing(bool value);
     // public System.Void .ctor(System.Net.IWebConnectionState wcs, System.Net.ServicePoint sPoint)
-    // Offset: 0x1B8A458
+    // Offset: 0x1B84FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnection* New_ctor(::System::Net::IWebConnectionState* wcs, ::System::Net::ServicePoint* sPoint) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection*, creationType>(wcs, sPoint)));
     }
     // private System.Boolean CanReuse()
-    // Offset: 0x1B8A620
+    // Offset: 0x1B85190
     bool CanReuse();
     // private System.Void Connect(System.Net.HttpWebRequest request)
-    // Offset: 0x1B8A654
+    // Offset: 0x1B851C4
     void Connect(::System::Net::HttpWebRequest* request);
     // private System.Boolean CreateTunnel(System.Net.HttpWebRequest request, System.Uri connectUri, System.IO.Stream stream, out System.Byte[] buffer)
-    // Offset: 0x1B8ACD4
+    // Offset: 0x1B85844
     bool CreateTunnel(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri, ::System::IO::Stream* stream, ByRef<::ArrayW<uint8_t>> buffer);
     // private System.Net.WebHeaderCollection ReadHeaders(System.IO.Stream stream, out System.Byte[] retBuffer, out System.Int32 status)
-    // Offset: 0x1B8B5D4
+    // Offset: 0x1B86144
     ::System::Net::WebHeaderCollection* ReadHeaders(::System::IO::Stream* stream, ByRef<::ArrayW<uint8_t>> retBuffer, ByRef<int> status);
     // private System.Void FlushContents(System.IO.Stream stream, System.Int32 contentLength)
-    // Offset: 0x1B8BD20
+    // Offset: 0x1B86890
     void FlushContents(::System::IO::Stream* stream, int contentLength);
     // private System.Boolean CreateStream(System.Net.HttpWebRequest request)
-    // Offset: 0x1B8C28C
+    // Offset: 0x1B86DFC
     bool CreateStream(::System::Net::HttpWebRequest* request);
     // private System.Void HandleError(System.Net.WebExceptionStatus st, System.Exception e, System.String where)
-    // Offset: 0x1B8BA78
+    // Offset: 0x1B865E8
     void HandleError(::System::Net::WebExceptionStatus st, ::System::Exception* e, ::StringW where);
     // private System.Void ReadDone(System.IAsyncResult result)
-    // Offset: 0x1B8C884
+    // Offset: 0x1B873F4
     void ReadDone(::System::IAsyncResult* result);
     // static private System.Boolean ExpectContent(System.Int32 statusCode, System.String method)
-    // Offset: 0x1B8DBDC
+    // Offset: 0x1B8874C
     static bool ExpectContent(int statusCode, ::StringW method);
     // System.Void InitRead()
-    // Offset: 0x1B8D788
+    // Offset: 0x1B882F8
     void InitRead();
     // static private System.Int32 GetResponse(System.Net.WebConnectionData data, System.Net.ServicePoint sPoint, System.Byte[] buffer, System.Int32 max)
-    // Offset: 0x1B8CE90
+    // Offset: 0x1B87A00
     static int GetResponse(::System::Net::WebConnectionData* data, ::System::Net::ServicePoint* sPoint, ::ArrayW<uint8_t> buffer, int max);
     // private System.Void InitConnection(System.Net.HttpWebRequest request)
-    // Offset: 0x1B8E024
+    // Offset: 0x1B88B94
     void InitConnection(::System::Net::HttpWebRequest* request);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request)
-    // Offset: 0x1B8E42C
+    // Offset: 0x1B88F9C
     ::System::EventHandler* SendRequest(::System::Net::HttpWebRequest* request);
     // private System.Void SendNext()
-    // Offset: 0x1B8E654
+    // Offset: 0x1B891C4
     void SendNext();
     // System.Void NextRead()
-    // Offset: 0x1B8E794
+    // Offset: 0x1B89304
     void NextRead();
     // static private System.Boolean ReadLine(System.Byte[] buffer, ref System.Int32 start, System.Int32 max, ref System.String output)
-    // Offset: 0x1B8C084
+    // Offset: 0x1B86BF4
     static bool ReadLine(::ArrayW<uint8_t> buffer, ByRef<int> start, int max, ByRef<::StringW> output);
     // System.IAsyncResult BeginRead(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B8EB78
+    // Offset: 0x1B896E8
     ::System::IAsyncResult* BeginRead(::System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Int32 EndRead(System.Net.HttpWebRequest request, System.IAsyncResult result)
-    // Offset: 0x1B8EED0
+    // Offset: 0x1B89A40
     int EndRead(::System::Net::HttpWebRequest* request, ::System::IAsyncResult* result);
     // private System.Int32 EnsureRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B8F4B4
+    // Offset: 0x1B8A024
     int EnsureRead(::ArrayW<uint8_t> buffer, int offset, int size);
     // private System.Boolean CompleteChunkedRead()
-    // Offset: 0x1B8AC38
+    // Offset: 0x1B857A8
     bool CompleteChunkedRead();
     // System.IAsyncResult BeginWrite(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    // Offset: 0x1B8F5FC
+    // Offset: 0x1B8A16C
     ::System::IAsyncResult* BeginWrite(::System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Boolean EndWrite(System.Net.HttpWebRequest request, System.Boolean throwOnError, System.IAsyncResult result)
-    // Offset: 0x1B8F9EC
+    // Offset: 0x1B8A55C
     bool EndWrite(::System::Net::HttpWebRequest* request, bool throwOnError, ::System::IAsyncResult* result);
     // System.Int32 Read(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B8FD3C
+    // Offset: 0x1B8A8AC
     int Read(::System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size);
     // System.Boolean Write(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.String err_msg)
-    // Offset: 0x1B901AC
+    // Offset: 0x1B8AD1C
     bool Write(::System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ByRef<::StringW> err_msg);
     // System.Void Close(System.Boolean sendNext)
-    // Offset: 0x1B8C4D8
+    // Offset: 0x1B87048
     void Close(bool sendNext);
     // private System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x1B90478
+    // Offset: 0x1B8AFE8
     void Abort(::Il2CppObject* sender, ::System::EventArgs* args);
     // System.Void ResetNtlm()
-    // Offset: 0x1B9046C
+    // Offset: 0x1B8AFDC
     void ResetNtlm();
     // private System.Void <SendRequest>b__41_0(System.Object o)
-    // Offset: 0x1B908B8
+    // Offset: 0x1B8B428
     void $SendRequest$b__41_0(::Il2CppObject* o);
   }; // System.Net.WebConnection
   #pragma pack(pop)

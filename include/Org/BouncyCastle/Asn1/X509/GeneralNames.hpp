@@ -61,31 +61,31 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.GeneralName[] names
     [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*>& dyn_names();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F96608
+    // Offset: 0x1F95178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::GeneralNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralNames*, creationType>(seq)));
     }
     // static private Org.BouncyCastle.Asn1.X509.GeneralName[] Copy(Org.BouncyCastle.Asn1.X509.GeneralName[] names)
-    // Offset: 0x1F96588
+    // Offset: 0x1F950F8
     static ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*> Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*> names);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(System.Object obj)
-    // Offset: 0x1F9219C
+    // Offset: 0x1F90D0C
     static ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.GeneralNames GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1F95250
+    // Offset: 0x1F93DC0
     static ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // public Org.BouncyCastle.Asn1.X509.GeneralName[] GetNames()
-    // Offset: 0x1F96738
+    // Offset: 0x1F952A8
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*> GetNames();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F96740
+    // Offset: 0x1F952B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1F967A8
+    // Offset: 0x1F95318
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -32,7 +32,7 @@ namespace Zenject {
   class SubContainerCreatorUtil : public ::Il2CppObject {
     public:
     // static public System.Void ApplyBindSettings(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.DiContainer subContainer)
-    // Offset: 0x1DC0160
+    // Offset: 0x1DBBCD0
     static void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
   }; // Zenject.SubContainerCreatorUtil
   #pragma pack(pop)

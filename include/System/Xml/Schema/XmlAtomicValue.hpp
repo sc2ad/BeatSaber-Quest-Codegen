@@ -164,126 +164,126 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlAtomicValue/System.Xml.Schema.NamespacePrefixForQName nsPrefix
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlAtomicValue::NamespacePrefixForQName*& dyn_nsPrefix();
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Boolean value)
-    // Offset: 0x1D1EB48
+    // Offset: 0x1D1A6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.DateTime value)
-    // Offset: 0x1D1EF54
+    // Offset: 0x1D1AAC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::DateTime value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Double value)
-    // Offset: 0x1D1F4D0
+    // Offset: 0x1D1B040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, double value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Int32 value)
-    // Offset: 0x1D1F774
+    // Offset: 0x1D1B2E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Int64 value)
-    // Offset: 0x1D1FA10
+    // Offset: 0x1D1B580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.String value)
-    // Offset: 0x1D1FCC4
+    // Offset: 0x1D1B834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.String value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1D21C58
+    // Offset: 0x1D1D7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value, nsResolver)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Object value)
-    // Offset: 0x1D1F218
+    // Offset: 0x1D1AD88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value)));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaType xmlType, System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1D0B564
+    // Offset: 0x1D070D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlAtomicValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAtomicValue*, creationType>(xmlType, value, nsResolver)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1D21F04
+    // Offset: 0x1D1DA74
     ::Il2CppObject* System_ICloneable_Clone();
     // private System.String GetPrefixFromQName(System.String value)
-    // Offset: 0x1D21DFC
+    // Offset: 0x1D1D96C
     ::StringW GetPrefixFromQName(::StringW value);
     // public override System.Xml.Schema.XmlSchemaType get_XmlType()
-    // Offset: 0x1D21F08
+    // Offset: 0x1D1DA78
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Xml.Schema.XmlSchemaType XPathItem::get_XmlType()
     ::System::Xml::Schema::XmlSchemaType* get_XmlType();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D21F10
+    // Offset: 0x1D1DA80
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Type XPathItem::get_ValueType()
     ::System::Type* get_ValueType();
     // public override System.Object get_TypedValue()
-    // Offset: 0x1D21F3C
+    // Offset: 0x1D1DAAC
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Object XPathItem::get_TypedValue()
     ::Il2CppObject* get_TypedValue();
     // public override System.Boolean get_ValueAsBoolean()
-    // Offset: 0x1D2211C
+    // Offset: 0x1D1DC8C
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Boolean XPathItem::get_ValueAsBoolean()
     bool get_ValueAsBoolean();
     // public override System.DateTime get_ValueAsDateTime()
-    // Offset: 0x1D22204
+    // Offset: 0x1D1DD74
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.DateTime XPathItem::get_ValueAsDateTime()
     ::System::DateTime get_ValueAsDateTime();
     // public override System.Double get_ValueAsDouble()
-    // Offset: 0x1D22300
+    // Offset: 0x1D1DE70
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Double XPathItem::get_ValueAsDouble()
     double get_ValueAsDouble();
     // public override System.Int32 get_ValueAsInt()
-    // Offset: 0x1D223F4
+    // Offset: 0x1D1DF64
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Int32 XPathItem::get_ValueAsInt()
     int get_ValueAsInt();
     // public override System.Int64 get_ValueAsLong()
-    // Offset: 0x1D224E4
+    // Offset: 0x1D1E054
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Int64 XPathItem::get_ValueAsLong()
     int64_t get_ValueAsLong();
     // public override System.String get_Value()
-    // Offset: 0x1D22814
+    // Offset: 0x1D1E384
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.String XPathItem::get_Value()
     ::StringW get_Value();
     // public override System.Object ValueAs(System.Type type, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x1D225E0
+    // Offset: 0x1D1E150
     // Implemented from: System.Xml.XPath.XPathItem
     // Base method: System.Object XPathItem::ValueAs(System.Type type, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ValueAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.String ToString()
-    // Offset: 0x1D22924
+    // Offset: 0x1D1E494
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

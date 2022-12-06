@@ -52,23 +52,23 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2B0C5C4
+    // Offset: 0x2B04134
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VoipOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::VoipOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VoipOptions*, creationType>()));
     }
     // public System.Void SetBitrateForNewConnections(Oculus.Platform.VoipBitrate value)
-    // Offset: 0x2B0C63C
+    // Offset: 0x2B041AC
     void SetBitrateForNewConnections(::Oculus::Platform::VoipBitrate value);
     // public System.Void SetCreateNewConnectionUseDtx(Oculus.Platform.VoipDtxState value)
-    // Offset: 0x2B0C6B8
+    // Offset: 0x2B04228
     void SetCreateNewConnectionUseDtx(::Oculus::Platform::VoipDtxState value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.VoipOptions options)
-    // Offset: 0x2B0B448
+    // Offset: 0x2B02FB8
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2B0C734
+    // Offset: 0x2B042A4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

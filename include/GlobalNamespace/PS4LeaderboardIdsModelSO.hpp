@@ -66,20 +66,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, uint>*& dyn__leaderboardIdToPs4Id();
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0x137C8E4
+    // Offset: 0x137D748
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Void .ctor()
-    // Offset: 0x137CAA4
+    // Offset: 0x137D908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LeaderboardIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
     // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0x137CA30
+    // Offset: 0x137D894
     bool GetPS4LeaderboardId(::StringW leaderboardId, ByRef<uint> ps4LeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0x137C8EC
+    // Offset: 0x137D750
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

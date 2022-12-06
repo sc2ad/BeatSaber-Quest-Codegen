@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kAlternativeMaterialOffset
     static void _set_kAlternativeMaterialOffset(int value);
     // static public System.Int32 GetPrefabId(System.Int32 value)
-    // Offset: 0x139B65C
+    // Offset: 0x139C4C0
     static int GetPrefabId(int value);
     // static public System.Int32 GetAnimationId(System.Int32 value)
-    // Offset: 0x139B664
+    // Offset: 0x139C4C8
     static int GetAnimationId(int value);
     // static public System.Boolean GetIsAlternativeMaterial(System.Int32 value)
-    // Offset: 0x139BB94
+    // Offset: 0x139C9F8
     static bool GetIsAlternativeMaterial(int value);
     // static public System.Int32 MergeValuesIntoOneInt(System.Int32 prefabId, System.Int32 animationId, System.Boolean isAlternativeMaterial)
-    // Offset: 0x139BC84
+    // Offset: 0x139CAE8
     static int MergeValuesIntoOneInt(int prefabId, int animationId, bool isAlternativeMaterial);
   }; // BTSCharacterSpawnEventValueParser
   #pragma pack(pop)

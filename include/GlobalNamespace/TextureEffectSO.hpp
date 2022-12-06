@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CCBF6C
+    // Offset: 0x1CC7ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextureEffectSO*, creationType>()));
     }
     // public System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1CD9354
+    // Offset: 0x1CD4EC4
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
   }; // TextureEffectSO
   #pragma pack(pop)

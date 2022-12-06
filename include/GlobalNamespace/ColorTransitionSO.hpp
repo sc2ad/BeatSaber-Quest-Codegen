@@ -91,25 +91,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSO _selectedAndHighlightedColor
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSO*& dyn__selectedAndHighlightedColor();
     // public UnityEngine.Color get_normalColor()
-    // Offset: 0x142F498
+    // Offset: 0x142EF40
     ::UnityEngine::Color get_normalColor();
     // public UnityEngine.Color get_highlightedColor()
-    // Offset: 0x142F700
+    // Offset: 0x142F1A8
     ::UnityEngine::Color get_highlightedColor();
     // public UnityEngine.Color get_pressedColor()
-    // Offset: 0x142F744
+    // Offset: 0x142F1EC
     ::UnityEngine::Color get_pressedColor();
     // public UnityEngine.Color get_disabledColor()
-    // Offset: 0x142F788
+    // Offset: 0x142F230
     ::UnityEngine::Color get_disabledColor();
     // public UnityEngine.Color get_selectedColor()
-    // Offset: 0x142F7CC
+    // Offset: 0x142F274
     ::UnityEngine::Color get_selectedColor();
     // public UnityEngine.Color get_selectedAndHighlightedColor()
-    // Offset: 0x142F810
+    // Offset: 0x142F2B8
     ::UnityEngine::Color get_selectedAndHighlightedColor();
     // public System.Void .ctor()
-    // Offset: 0x142FACC
+    // Offset: 0x142F574
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

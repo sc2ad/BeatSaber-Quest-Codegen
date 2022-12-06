@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private ScenesTransitionSetupDataSO <nextScenesTransitionSetupData>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_$nextScenesTransitionSetupData$k__BackingField();
     // public ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData()
-    // Offset: 0x1410E10
+    // Offset: 0x14118B8
     ::GlobalNamespace::ScenesTransitionSetupDataSO* get_nextScenesTransitionSetupData();
     // private System.Void set_nextScenesTransitionSetupData(ScenesTransitionSetupDataSO value)
-    // Offset: 0x1410E18
+    // Offset: 0x14118C0
     void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x1410E20
+    // Offset: 0x14118C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderWarmupSceneSetupData::.ctor");

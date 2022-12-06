@@ -98,10 +98,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15528FC
+    // Offset: 0x154F46C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1552D38
+    // Offset: 0x154F8A8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusConnectionManager/<HandlePeerConnectionRequest>d__60
   // WARNING Not writing size check since size may be invalid!

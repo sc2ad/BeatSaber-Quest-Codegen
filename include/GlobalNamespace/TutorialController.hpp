@@ -87,22 +87,22 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111A494
-    // [SignalSenderAttribute] Offset: 0x111A494
+    // [SpaceAttribute] Offset: 0x111C394
+    // [SignalSenderAttribute] Offset: 0x111C394
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0x111A4DC
+    // [SignalSenderAttribute] Offset: 0x111C3DC
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0x111A514
+    // [InjectAttribute] Offset: 0x111C414
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -167,47 +167,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _doingOutroTransition
     [[deprecated("Use field access instead!")]] bool& dyn__doingOutroTransition();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x13BB9F8
+    // Offset: 0x13BB85C
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x13BBA9C
+    // Offset: 0x13BB900
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x13BBB40
+    // Offset: 0x13BB9A4
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x13BBBE4
+    // Offset: 0x13BBA48
     void remove_levelDidStartEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13BC2C0
+    // Offset: 0x13BC124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13BBC88
+    // Offset: 0x13BBAEC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13BBE70
+    // Offset: 0x13BBCD4
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x13BC0B4
+    // Offset: 0x13BBF18
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x13BC138
+    // Offset: 0x13BBF9C
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x13BC184
+    // Offset: 0x13BBFE8
     ::System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x13BC220
+    // Offset: 0x13BC084
     void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x13BC2AC
+    // Offset: 0x13BC110
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x13BC2B8
+    // Offset: 0x13BC11C
     void HandlePauseControllerDidResume();
   }; // TutorialController
   #pragma pack(pop)

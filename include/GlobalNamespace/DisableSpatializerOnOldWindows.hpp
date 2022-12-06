@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     [[deprecated("Use field access instead!")]] ::UnityEngine::AudioSource*& dyn__audioSource();
     // public System.Void .ctor()
-    // Offset: 0x143CD24
+    // Offset: 0x143C7CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableSpatializerOnOldWindows* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableSpatializerOnOldWindows::.ctor");

@@ -38,20 +38,20 @@ namespace Zenject {
   class NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CBA384
+    // Offset: 0x1CB5EF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::NoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionInstaller*, creationType>()));
     }
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x1CBA37C
+    // Offset: 0x1CB5EEC
     void InstallBindings(::Zenject::DiContainer* container);
     // public System.Void PostInstall(Zenject.DiContainer container)
-    // Offset: 0x1CBA380
+    // Offset: 0x1CB5EF0
     void PostInstall(::Zenject::DiContainer* container);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CBA38C
+    // Offset: 0x1CB5EFC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.NoTransitionInstaller
   #pragma pack(pop)

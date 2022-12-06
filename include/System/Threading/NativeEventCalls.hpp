@@ -36,22 +36,22 @@ namespace System::Threading {
   class NativeEventCalls : public ::Il2CppObject {
     public:
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
-    // Offset: 0x229E224
+    // Offset: 0x229BD94
     static ::System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int> errorCode);
     // static public System.Boolean SetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x229E35C
+    // Offset: 0x229BECC
     static bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean SetEvent_internal(System.IntPtr handle)
-    // Offset: 0x22A140C
+    // Offset: 0x229EF7C
     static bool SetEvent_internal(::System::IntPtr handle);
     // static public System.Boolean ResetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
-    // Offset: 0x229E2B8
+    // Offset: 0x229BE28
     static bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
     // static private System.Boolean ResetEvent_internal(System.IntPtr handle)
-    // Offset: 0x22A1410
+    // Offset: 0x229EF80
     static bool ResetEvent_internal(::System::IntPtr handle);
     // static public System.Void CloseEvent_internal(System.IntPtr handle)
-    // Offset: 0x22A1414
+    // Offset: 0x229EF84
     static void CloseEvent_internal(::System::IntPtr handle);
   }; // System.Threading.NativeEventCalls
   #pragma pack(pop)

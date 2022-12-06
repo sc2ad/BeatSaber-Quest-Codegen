@@ -140,26 +140,26 @@ namespace System::Net {
     // Get instance field reference: private System.Net.TimerThread/System.Net.TimerNode prev
     [[deprecated("Use field access instead!")]] ::System::Net::TimerThread::TimerNode*& dyn_prev();
     // System.Net.TimerThread/System.Net.TimerNode get_Next()
-    // Offset: 0x1B88EF0
+    // Offset: 0x1B83A60
     ::System::Net::TimerThread::TimerNode* get_Next();
     // System.Void set_Next(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B88EF8
+    // Offset: 0x1B83A68
     void set_Next(::System::Net::TimerThread::TimerNode* value);
     // System.Net.TimerThread/System.Net.TimerNode get_Prev()
-    // Offset: 0x1B88F00
+    // Offset: 0x1B83A70
     ::System::Net::TimerThread::TimerNode* get_Prev();
     // System.Void set_Prev(System.Net.TimerThread/System.Net.TimerNode value)
-    // Offset: 0x1B88F08
+    // Offset: 0x1B83A78
     void set_Prev(::System::Net::TimerThread::TimerNode* value);
     // System.Void .ctor()
-    // Offset: 0x1B88EB4
+    // Offset: 0x1B83A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::TimerNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::TimerNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::TimerNode*, creationType>()));
     }
     // override System.Boolean Cancel()
-    // Offset: 0x1B88F10
+    // Offset: 0x1B83A80
     // Implemented from: System.Net.TimerThread/System.Net.Timer
     // Base method: System.Boolean Timer::Cancel()
     bool Cancel();

@@ -62,29 +62,29 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Byte[] _data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__data();
     // public System.String get_Algorithm()
-    // Offset: 0x1FF6788
+    // Offset: 0x1FF52F8
     ::StringW get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x1FF6790
+    // Offset: 0x1FF5300
     ::ArrayW<uint8_t> get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x1FF680C
+    // Offset: 0x1FF537C
     ::ArrayW<uint8_t> get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1FF68D0
+    // Offset: 0x1FF5440
     int get_IterationCount();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1FF64D0
+    // Offset: 0x1FF5040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8_::EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8_::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8_::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1FF6500
+    // Offset: 0x1FF5070
     void Decode(::ArrayW<uint8_t> data);
     // public System.Void .ctor()
-    // Offset: 0x1FF64C8
+    // Offset: 0x1FF5038
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

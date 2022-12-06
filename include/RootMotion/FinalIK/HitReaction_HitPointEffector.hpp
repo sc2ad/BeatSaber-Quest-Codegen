@@ -41,21 +41,21 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink
     class EffectorLink;
     public:
-    // [TooltipAttribute] Offset: 0x113D4B0
+    // [TooltipAttribute] Offset: 0x1141380
     // public UnityEngine.AnimationCurve offsetInForceDirection
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::AnimationCurve* offsetInForceDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113D4E8
+    // [TooltipAttribute] Offset: 0x11413B8
     // public UnityEngine.AnimationCurve offsetInUpDirection
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::AnimationCurve* offsetInUpDirection;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113D520
+    // [TooltipAttribute] Offset: 0x11413F0
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x60
@@ -70,7 +70,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink[] effectorLinks
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*>& dyn_effectorLinks();
     // public System.Void .ctor()
-    // Offset: 0x22FDE08
+    // Offset: 0x22FC978
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,17 +79,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector*, creationType>()));
     }
     // protected override System.Single GetLength()
-    // Offset: 0x22FD8F0
+    // Offset: 0x22FC460
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x22FDA68
+    // Offset: 0x22FC5D8
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x22FDAE8
+    // Offset: 0x22FC658
     // Implemented from: RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);

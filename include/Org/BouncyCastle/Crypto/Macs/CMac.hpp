@@ -125,42 +125,42 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private System.Byte[] Lu2
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_Lu2();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1E9B5A4
+    // Offset: 0x1E98114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::CMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CMac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 macSizeInBits)
-    // Offset: 0x1E9B670
+    // Offset: 0x1E981E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CMac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int macSizeInBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::CMac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CMac*, creationType>(cipher, macSizeInBits)));
     }
     // static private System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x1E9BBB8
+    // Offset: 0x1E98728
     static int ShiftLeft(::ArrayW<uint8_t> block, ::ArrayW<uint8_t> output);
     // static private System.Byte[] DoubleLu(System.Byte[] input)
-    // Offset: 0x1E9BC4C
+    // Offset: 0x1E987BC
     static ::ArrayW<uint8_t> DoubleLu(::ArrayW<uint8_t> input);
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E9BD14
+    // Offset: 0x1E98884
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1E9BFF4
+    // Offset: 0x1E98B64
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E9BFFC
+    // Offset: 0x1E98B6C
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1E9C134
+    // Offset: 0x1E98CA4
     void BlockUpdate(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1E9C3D8
+    // Offset: 0x1E98F48
     int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E9BF24
+    // Offset: 0x1E98A94
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.CMac
   #pragma pack(pop)

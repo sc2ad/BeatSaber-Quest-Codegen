@@ -34,14 +34,14 @@ namespace RootMotion::FinalIK {
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113E1CC
+    // [TooltipAttribute] Offset: 0x114209C
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject* interactionObject;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113E204
+    // [TooltipAttribute] Offset: 0x11420D4
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
     // public System.Void .ctor()
-    // Offset: 0x203B8C4
+    // Offset: 0x203A434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::Range::Interaction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::Range::Interaction::.ctor");

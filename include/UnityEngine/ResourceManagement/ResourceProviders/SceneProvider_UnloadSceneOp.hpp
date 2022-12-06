@@ -50,21 +50,21 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_m_sceneLoadHandle();
     // public System.Void Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> sceneLoadHandle)
-    // Offset: 0x1F76BBC
+    // Offset: 0x1F7472C
     void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
     // private System.Void UnloadSceneCompleted(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1F77944
+    // Offset: 0x1F754B4
     void UnloadSceneCompleted(::UnityEngine::AsyncOperation* obj);
     // private System.Void UnloadSceneCompletedNoRelease(UnityEngine.AsyncOperation obj)
-    // Offset: 0x1F778E0
+    // Offset: 0x1F75450
     void UnloadSceneCompletedNoRelease(::UnityEngine::AsyncOperation* obj);
     // protected override System.Single get_Progress()
-    // Offset: 0x1F77A5C
+    // Offset: 0x1F755CC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // public System.Void .ctor()
-    // Offset: 0x1F76B6C
+    // Offset: 0x1F746DC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,12 +73,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<SceneProvider::UnloadSceneOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x1F777C8
+    // Offset: 0x1F75338
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x1F779E4
+    // Offset: 0x1F75554
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

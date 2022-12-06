@@ -47,20 +47,20 @@ namespace System::Net::Security {
   class LocalCertSelectionCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BBAFAC
+    // Offset: 0x1BB5B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalCertSelectionCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Security::LocalCertSelectionCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalCertSelectionCallback*, creationType>(object, method)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x1BBAFBC
+    // Offset: 0x1BB5B2C
     ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BBB3FC
+    // Offset: 0x1BB5F6C
     ::System::IAsyncResult* BeginInvoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Security.Cryptography.X509Certificates.X509Certificate EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BBB430
+    // Offset: 0x1BB5FA0
     ::System::Security::Cryptography::X509Certificates::X509Certificate* EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.Security.LocalCertSelectionCallback
   #pragma pack(pop)

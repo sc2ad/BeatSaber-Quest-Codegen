@@ -55,55 +55,55 @@ namespace Oculus::Platform {
   class Voip : public ::Il2CppObject {
     public:
     // static public System.Void Start(System.UInt64 userID)
-    // Offset: 0x2B0A9D4
+    // Offset: 0x2B02544
     static void Start(uint64_t userID);
     // static public System.Void Accept(System.UInt64 userID)
-    // Offset: 0x2B0AAC0
+    // Offset: 0x2B02630
     static void Accept(uint64_t userID);
     // static public System.Void Stop(System.UInt64 userID)
-    // Offset: 0x2B0ABAC
+    // Offset: 0x2B0271C
     static void Stop(uint64_t userID);
     // static public System.Void SetMicrophoneFilterCallback(Oculus.Platform.CAPI/Oculus.Platform.FilterCallback callback)
-    // Offset: 0x2B0AC98
+    // Offset: 0x2B02808
     static void SetMicrophoneFilterCallback(::Oculus::Platform::CAPI::FilterCallback* callback);
     // static public System.Void SetMicrophoneMuted(Oculus.Platform.VoipMuteState state)
-    // Offset: 0x2B0ADBC
+    // Offset: 0x2B0292C
     static void SetMicrophoneMuted(::Oculus::Platform::VoipMuteState state);
     // static public Oculus.Platform.VoipMuteState GetSystemVoipMicrophoneMuted()
-    // Offset: 0x2B0AEA8
+    // Offset: 0x2B02A18
     static ::Oculus::Platform::VoipMuteState GetSystemVoipMicrophoneMuted();
     // static public Oculus.Platform.SystemVoipStatus GetSystemVoipStatus()
-    // Offset: 0x2B0AF84
+    // Offset: 0x2B02AF4
     static ::Oculus::Platform::SystemVoipStatus GetSystemVoipStatus();
     // static public Oculus.Platform.VoipDtxState GetIsConnectionUsingDtx(System.UInt64 peerID)
-    // Offset: 0x2B0B060
+    // Offset: 0x2B02BD0
     static ::Oculus::Platform::VoipDtxState GetIsConnectionUsingDtx(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate GetLocalBitrate(System.UInt64 peerID)
-    // Offset: 0x2B0B150
+    // Offset: 0x2B02CC0
     static ::Oculus::Platform::VoipBitrate GetLocalBitrate(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate GetRemoteBitrate(System.UInt64 peerID)
-    // Offset: 0x2B0B240
+    // Offset: 0x2B02DB0
     static ::Oculus::Platform::VoipBitrate GetRemoteBitrate(uint64_t peerID);
     // static public System.Void SetNewConnectionOptions(Oculus.Platform.VoipOptions voipOptions)
-    // Offset: 0x2B0B330
+    // Offset: 0x2B02EA0
     static void SetNewConnectionOptions(::Oculus::Platform::VoipOptions* voipOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MicrophoneAvailabilityState> GetMicrophoneAvailability()
-    // Offset: 0x2B0B498
+    // Offset: 0x2B03008
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MicrophoneAvailabilityState*>* GetMicrophoneAvailability();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.SystemVoipState> SetSystemVoipSuppressed(System.Boolean suppressed)
-    // Offset: 0x2B0B5A4
+    // Offset: 0x2B03114
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SystemVoipState*>* SetSystemVoipSuppressed(bool suppressed);
     // static public System.Void SetVoipConnectRequestCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x2B0B6C0
+    // Offset: 0x2B03230
     static void SetVoipConnectRequestCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetMicrophoneAvailabilityStateUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x2B0B738
+    // Offset: 0x2B032A8
     static void SetMicrophoneAvailabilityStateUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
     // static public System.Void SetVoipStateChangeCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetworkingPeer> callback)
-    // Offset: 0x2B0B7B0
+    // Offset: 0x2B03320
     static void SetVoipStateChangeCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetworkingPeer*>::Callback* callback);
     // static public System.Void SetSystemVoipStateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.SystemVoipState> callback)
-    // Offset: 0x2B0B828
+    // Offset: 0x2B03398
     static void SetSystemVoipStateNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*>::Callback* callback);
   }; // Oculus.Platform.Voip
   #pragma pack(pop)

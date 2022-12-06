@@ -112,50 +112,50 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.Headers.HttpContentHeaders headers
     [[deprecated("Use field access instead!")]] ::System::Net::Http::Headers::HttpContentHeaders*& dyn_headers();
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x19CBAB0
+    // Offset: 0x19C9620
     ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x19D0108
+    // Offset: 0x19CDC78
     ::System::Nullable_1<int64_t> get_LoadedBufferLength();
     // protected System.Void .ctor()
-    // Offset: 0x19CB658
+    // Offset: 0x19C91C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpContent*, creationType>()));
     }
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x19DE9FC
+    // Offset: 0x19DC56C
     void CopyTo(::System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x19DE914
+    // Offset: 0x19DC484
     ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x19DEA20
+    // Offset: 0x19DC590
     ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x19DEAE4
+    // Offset: 0x19DC654
     static ::System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x19DEB74
+    // Offset: 0x19DC6E4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19DEB84
+    // Offset: 0x19DC6F4
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x19DEBB0
+    // Offset: 0x19DC720
     ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x19DC7B4
+    // Offset: 0x19DA324
     ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x19DC144
+    // Offset: 0x19D9CB4
     ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x19DEBB8
+    // Offset: 0x19DC728
     static ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t> buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x19DED48
+    // Offset: 0x19DC8B8
     static int StartsWith(::ArrayW<uint8_t> array, int length, ::ArrayW<uint8_t> value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFFFFFFFFFF

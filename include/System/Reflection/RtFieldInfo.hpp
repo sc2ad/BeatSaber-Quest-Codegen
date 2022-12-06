@@ -48,16 +48,16 @@ namespace System::Reflection {
   class RtFieldInfo : public ::System::Reflection::RuntimeFieldInfo {
     public:
     // System.Object UnsafeGetValue(System.Object obj)
-    // Offset: 0x1E02508
+    // Offset: 0x1DFE078
     ::Il2CppObject* UnsafeGetValue(::Il2CppObject* obj);
     // System.Void CheckConsistency(System.Object target)
-    // Offset: 0x1E0250C
+    // Offset: 0x1DFE07C
     void CheckConsistency(::Il2CppObject* target);
     // System.Void UnsafeSetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
-    // Offset: 0x1E026C4
+    // Offset: 0x1DFE234
     void UnsafeSetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture);
     // protected System.Void .ctor()
-    // Offset: 0x1DFE5DC
+    // Offset: 0x1DFA14C
     // Implemented from: System.Reflection.RuntimeFieldInfo
     // Base method: System.Void RuntimeFieldInfo::.ctor()
     // Base method: System.Void FieldInfo::.ctor()
@@ -69,7 +69,7 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RtFieldInfo*, creationType>()));
     }
     // public override System.Void SetValueDirect(System.TypedReference obj, System.Object value)
-    // Offset: 0x1E0272C
+    // Offset: 0x1DFE29C
     // Implemented from: System.Reflection.FieldInfo
     // Base method: System.Void FieldInfo::SetValueDirect(System.TypedReference obj, System.Object value)
     void SetValueDirect(::System::TypedReference obj, ::Il2CppObject* value);

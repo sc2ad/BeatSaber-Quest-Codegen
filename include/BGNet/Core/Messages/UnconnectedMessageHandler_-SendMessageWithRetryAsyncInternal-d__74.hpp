@@ -198,10 +198,10 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x15D0574
+    // Offset: 0x15CE0E4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15D1124
+    // Offset: 0x15CEC94
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<SendMessageWithRetryAsyncInternal>d__74
   // WARNING Not writing size check since size may be invalid!

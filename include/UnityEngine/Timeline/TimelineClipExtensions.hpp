@@ -43,16 +43,16 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.String k_UndoSetParentTrackText
     static void _set_k_UndoSetParentTrackText(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x2AB5FDC
+    // Offset: 0x2AAEB4C
     static void _cctor();
     // static public System.Void MoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x2AB53F4
+    // Offset: 0x2AADF64
     static void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static public System.Boolean TryMoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x2AB5B08
+    // Offset: 0x2AAE678
     static bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static private System.Void MoveToTrack_Impl(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack, UnityEngine.Object asset, UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x2AB59DC
+    // Offset: 0x2AAE54C
     static void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset, ::UnityEngine::Timeline::TrackAsset* parentTrack);
   }; // UnityEngine.Timeline.TimelineClipExtensions
   #pragma pack(pop)

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   class EulaDisplayViewController : public ::HMUI::ViewController {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x111EE3C
+    // [HeaderAttribute] Offset: 0x1121D3C
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private LocalizedTextAsset _localizedTextAsset
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset*& dyn__localizedTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x138A470
+    // Offset: 0x138B2D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaDisplayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaDisplayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EulaDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x138A41C
+    // Offset: 0x138B280
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -29,17 +29,17 @@ namespace GlobalNamespace {
   class OVRAutoDestroyInMRC : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1695CD0
+    // Offset: 0x1694840
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRAutoDestroyInMRC* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRAutoDestroyInMRC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRAutoDestroyInMRC*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1695BA8
+    // Offset: 0x1694718
     void Start();
     // private System.Void Update()
-    // Offset: 0x1695CCC
+    // Offset: 0x169483C
     void Update();
   }; // OVRAutoDestroyInMRC
   #pragma pack(pop)

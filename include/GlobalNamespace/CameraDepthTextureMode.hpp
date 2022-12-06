@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.DepthTextureMode _depthTextureMode
     [[deprecated("Use field access instead!")]] ::UnityEngine::DepthTextureMode& dyn__depthTextureMode();
     // public System.Void .ctor()
-    // Offset: 0x15F456C
+    // Offset: 0x15F20DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CameraDepthTextureMode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CameraDepthTextureMode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CameraDepthTextureMode*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15F4508
+    // Offset: 0x15F2078
     void Awake();
   }; // CameraDepthTextureMode
   #pragma pack(pop)

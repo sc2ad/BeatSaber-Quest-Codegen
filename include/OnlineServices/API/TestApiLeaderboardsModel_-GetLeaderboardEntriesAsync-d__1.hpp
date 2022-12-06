@@ -76,10 +76,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1377768
+    // Offset: 0x13785CC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1377AE8
+    // Offset: 0x137894C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<GetLeaderboardEntriesAsync>d__1
   // WARNING Not writing size check since size may be invalid!

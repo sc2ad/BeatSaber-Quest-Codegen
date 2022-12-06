@@ -47,19 +47,19 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
     // public System.UInt64 get_ID()
-    // Offset: 0x1A17074
+    // Offset: 0x1A15BE4
     uint64_t get_ID();
     // private System.Void set_ID(System.UInt64 value)
-    // Offset: 0x1A1707C
+    // Offset: 0x1A15BEC
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
-    // Offset: 0x1A17084
+    // Offset: 0x1A15BF4
     ::Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
-    // Offset: 0x1A1708C
+    // Offset: 0x1A15BFC
     void set_State(::Oculus::Platform::PeerConnectionState value);
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
-    // Offset: 0x1A12FFC
+    // Offset: 0x1A11B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkingPeer* New_ctor(uint64_t id, ::Oculus::Platform::PeerConnectionState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetworkingPeer::.ctor");

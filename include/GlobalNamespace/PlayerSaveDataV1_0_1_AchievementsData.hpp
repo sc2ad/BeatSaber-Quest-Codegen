@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
-    // Offset: 0x157FA20
+    // Offset: 0x157C590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::AchievementsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData::.ctor");

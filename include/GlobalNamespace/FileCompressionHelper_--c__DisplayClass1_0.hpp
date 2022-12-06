@@ -70,17 +70,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
     [[deprecated("Use field access instead!")]] ::System::Action_1<bool>*& dyn_finishCallback();
     // public System.Void .ctor()
-    // Offset: 0x15FB3C0
+    // Offset: 0x15F8F30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileCompressionHelper::$$c__DisplayClass1_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper::$$c__DisplayClass1_0*, creationType>()));
     }
     // System.Void <ExtractZipToDirectoryAsync>b__0()
-    // Offset: 0x15FB580
+    // Offset: 0x15F90F0
     void $ExtractZipToDirectoryAsync$b__0();
     // System.Void <ExtractZipToDirectoryAsync>b__1()
-    // Offset: 0x15FB58C
+    // Offset: 0x15F90FC
     void $ExtractZipToDirectoryAsync$b__1();
   }; // FileCompressionHelper/<>c__DisplayClass1_0
   #pragma pack(pop)

@@ -78,23 +78,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _editIcon
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__editIcon();
     // public System.String get_text()
-    // Offset: 0x142E968
+    // Offset: 0x142E410
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x142E480
+    // Offset: 0x142DF28
     void set_text(::StringW value);
     // public System.Void set_showEditIcon(System.Boolean value)
-    // Offset: 0x142E460
+    // Offset: 0x142DF08
     void set_showEditIcon(bool value);
     // public System.Void .ctor()
-    // Offset: 0x142E984
+    // Offset: 0x142E42C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeTableCell*, creationType>()));
     }
     // public System.Void SetColors(UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environment0Color, UnityEngine.Color environment1Color, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstacleColor)
-    // Offset: 0x142E49C
+    // Offset: 0x142DF44
     void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
   }; // ColorSchemeTableCell
   #pragma pack(pop)

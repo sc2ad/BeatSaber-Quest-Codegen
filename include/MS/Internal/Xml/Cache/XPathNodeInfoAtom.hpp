@@ -97,25 +97,25 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNodePageInfo pageInfo
     [[deprecated("Use field access instead!")]] ::MS::Internal::Xml::Cache::XPathNodePageInfo*& dyn_pageInfo();
     // public MS.Internal.Xml.Cache.XPathNodePageInfo get_PageInfo()
-    // Offset: 0x1ADE2A0
+    // Offset: 0x1ADBE10
     ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
     // public System.String get_LocalName()
-    // Offset: 0x1ADE2A8
+    // Offset: 0x1ADBE18
     ::StringW get_LocalName();
     // public System.String get_NamespaceUri()
-    // Offset: 0x1ADE2B0
+    // Offset: 0x1ADBE20
     ::StringW get_NamespaceUri();
     // public System.String get_Prefix()
-    // Offset: 0x1ADE2B8
+    // Offset: 0x1ADBE28
     ::StringW get_Prefix();
     // public MS.Internal.Xml.Cache.XPathNode[] get_SiblingPage()
-    // Offset: 0x1ADE2C0
+    // Offset: 0x1ADBE30
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_SiblingPage();
     // public MS.Internal.Xml.Cache.XPathNode[] get_ParentPage()
-    // Offset: 0x1ADE2C8
+    // Offset: 0x1ADBE38
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_ParentPage();
     // public System.Xml.XPath.XPathDocument get_Document()
-    // Offset: 0x1ADE2D0
+    // Offset: 0x1ADBE40
     ::System::Xml::XPath::XPathDocument* get_Document();
   }; // MS.Internal.Xml.Cache.XPathNodeInfoAtom
   #pragma pack(pop)

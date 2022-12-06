@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class Interpolation : public ::Il2CppObject {
     public:
     // static public System.Single Interpolate(System.Single t, EaseType easeType)
-    // Offset: 0x1602A1C
+    // Offset: 0x160058C
     static float Interpolate(float t, ::GlobalNamespace::EaseType easeType);
   }; // Interpolation
   #pragma pack(pop)

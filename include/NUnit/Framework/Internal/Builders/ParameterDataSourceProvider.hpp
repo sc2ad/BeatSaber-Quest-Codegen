@@ -49,14 +49,14 @@ namespace NUnit::Framework::Internal::Builders {
       return reinterpret_cast<::NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1D4A2F0
+    // Offset: 0x1D45E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterDataSourceProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterDataSourceProvider*, creationType>()));
     }
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x1D5D16C
+    // Offset: 0x1D58CDC
     ::System::Collections::IEnumerable* GetDataFor(::NUnit::Framework::Interfaces::IParameterInfo* parameter);
   }; // NUnit.Framework.Internal.Builders.ParameterDataSourceProvider
   #pragma pack(pop)

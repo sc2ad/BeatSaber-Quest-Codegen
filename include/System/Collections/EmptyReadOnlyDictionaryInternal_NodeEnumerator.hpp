@@ -41,25 +41,25 @@ namespace System::Collections {
       return reinterpret_cast<::System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Object get_Current()
-    // Offset: 0x1D96F9C
+    // Offset: 0x1D92B0C
     ::Il2CppObject* get_Current();
     // public System.Object get_Key()
-    // Offset: 0x1D97020
+    // Offset: 0x1D92B90
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1D970A0
+    // Offset: 0x1D92C10
     ::Il2CppObject* get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1D97120
+    // Offset: 0x1D92C90
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Boolean MoveNext()
-    // Offset: 0x1D96F94
+    // Offset: 0x1D92B04
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1D9701C
+    // Offset: 0x1D92B8C
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1D96F8C
+    // Offset: 0x1D92AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

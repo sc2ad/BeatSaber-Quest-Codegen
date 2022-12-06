@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class Ipv6Element : public ::System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A95704
+    // Offset: 0x1A93274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ipv6Element* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::Ipv6Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ipv6Element*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A95744
+    // Offset: 0x1A932B4
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

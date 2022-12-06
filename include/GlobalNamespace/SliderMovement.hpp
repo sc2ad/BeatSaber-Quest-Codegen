@@ -51,14 +51,14 @@ namespace GlobalNamespace {
   class SliderMovement : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x11132C8
+    // [InjectAttribute] Offset: 0x11151C8
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x11132D8
+    // [InjectAttribute] Offset: 0x11151D8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -227,56 +227,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeSinceHeadNoteJump
     [[deprecated("Use field access instead!")]] float& dyn__timeSinceHeadNoteJump();
     // public System.Single get_jumpDuration()
-    // Offset: 0x1472AD8
+    // Offset: 0x1472790
     float get_jumpDuration();
     // public System.Single get_headNoteGravity()
-    // Offset: 0x1472AE0
+    // Offset: 0x1472798
     float get_headNoteGravity();
     // public System.Single get_tailNoteGravity()
-    // Offset: 0x1472AE8
+    // Offset: 0x14727A0
     float get_tailNoteGravity();
     // public System.Single get_timeSinceHeadNoteJump()
-    // Offset: 0x1472AF0
+    // Offset: 0x14727A8
     float get_timeSinceHeadNoteJump();
     // public System.Void add_movementDidFinishEvent(System.Action value)
-    // Offset: 0x14725B8
+    // Offset: 0x1472270
     void add_movementDidFinishEvent(::System::Action* value);
     // public System.Void remove_movementDidFinishEvent(System.Action value)
-    // Offset: 0x147265C
+    // Offset: 0x1472314
     void remove_movementDidFinishEvent(::System::Action* value);
     // public System.Void add_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1472700
+    // Offset: 0x14723B8
     void add_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void remove_movementDidMoveEvent(System.Action`1<System.Single> value)
-    // Offset: 0x14727A4
+    // Offset: 0x147245C
     void remove_movementDidMoveEvent(::System::Action_1<float>* value);
     // public System.Void add_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x1472848
+    // Offset: 0x1472500
     void add_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_headDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x14728EC
+    // Offset: 0x14725A4
     void remove_headDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void add_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x1472990
+    // Offset: 0x1472648
     void add_tailDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void remove_tailDidMovePastCutMarkEvent(System.Action value)
-    // Offset: 0x1472A34
+    // Offset: 0x14726EC
     void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1472EBC
+    // Offset: 0x1472B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMovement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMovement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMovement*, creationType>()));
     }
     // public System.Void Init(System.Single headNoteTime, System.Single tailNoteTime, System.Single worldRotation, UnityEngine.Vector3 headNoteJumpStartPos, UnityEngine.Vector3 headNoteJumpEndPos, System.Single jumpDuration, System.Single headNoteGravity, System.Single tailNoteGravity)
-    // Offset: 0x1472AF8
+    // Offset: 0x14727B0
     void Init(float headNoteTime, float tailNoteTime, float worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float jumpDuration, float headNoteGravity, float tailNoteGravity);
     // public System.Void StartMovement()
-    // Offset: 0x1472C2C
+    // Offset: 0x14728E4
     void StartMovement();
     // public System.Void ManualUpdate()
-    // Offset: 0x1472C54
+    // Offset: 0x147290C
     void ManualUpdate();
   }; // SliderMovement
   #pragma pack(pop)

@@ -85,7 +85,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 endMarkerPos
     [[deprecated("Use field access instead!")]] int& dyn_endMarkerPos();
     // System.Void .ctor(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet[] followpos, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions, System.Int32 endMarkerPos, System.Xml.Schema.XmlSchemaContentType contentType, System.Boolean isOpen, System.Boolean isEmptiable)
-    // Offset: 0x1D17654
+    // Offset: 0x1D131C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NfaContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::NfaContentValidator::.ctor");

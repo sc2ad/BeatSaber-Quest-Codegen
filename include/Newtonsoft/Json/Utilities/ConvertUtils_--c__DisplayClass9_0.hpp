@@ -47,14 +47,14 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> call
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_call();
     // public System.Void .ctor()
-    // Offset: 0x211B2FC
+    // Offset: 0x2119E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConvertUtils::$$c__DisplayClass9_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ConvertUtils::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConvertUtils::$$c__DisplayClass9_0*, creationType>()));
     }
     // System.Object <CreateCastConverter>b__0(System.Object o)
-    // Offset: 0x211D778
+    // Offset: 0x211C2E8
     ::Il2CppObject* $CreateCastConverter$b__0(::Il2CppObject* o);
   }; // Newtonsoft.Json.Utilities.ConvertUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass9_0
   #pragma pack(pop)

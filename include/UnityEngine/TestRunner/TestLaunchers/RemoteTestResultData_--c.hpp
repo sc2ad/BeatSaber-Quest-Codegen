@@ -47,17 +47,17 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__19_0
     static void _set_$$9__19_0(::System::Func_2<::NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1994E1C
+    // Offset: 0x199298C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1994E80
+    // Offset: 0x19929F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData::$$c*, creationType>()));
     }
     // System.String <.ctor>b__19_0(NUnit.Framework.Interfaces.ITestResult child)
-    // Offset: 0x1994E88
+    // Offset: 0x19929F8
     ::StringW $_ctor$b__19_0(::NUnit::Framework::Interfaces::ITestResult* child);
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c
   #pragma pack(pop)

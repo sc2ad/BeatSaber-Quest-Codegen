@@ -80,36 +80,36 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_AlgorithmName();
     // System.Void .ctor()
-    // Offset: 0x2357D64
+    // Offset: 0x23558D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::GeneralDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralDigest*, creationType>()));
     }
     // System.Void .ctor(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x2357DC8
+    // Offset: 0x2355938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::GeneralDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralDigest*, creationType>(t)));
     }
     // protected System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.GeneralDigest t)
-    // Offset: 0x2357E50
+    // Offset: 0x23559C0
     void CopyIn(::Org::BouncyCastle::Crypto::Digests::GeneralDigest* t);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x2357EA8
+    // Offset: 0x2355A18
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x2357F3C
+    // Offset: 0x2355AAC
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Finish()
-    // Offset: 0x2358120
+    // Offset: 0x2355C90
     void Finish();
     // public System.Void Reset()
-    // Offset: 0x2358188
+    // Offset: 0x2355CF8
     void Reset();
     // public System.Int32 GetByteLength()
-    // Offset: 0x23581B8
+    // Offset: 0x2355D28
     int GetByteLength();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFFFFFFFFFF

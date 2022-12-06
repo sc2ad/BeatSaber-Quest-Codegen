@@ -52,82 +52,82 @@ namespace System::Reflection::Emit {
   class PropertyBuilder : public ::System::Reflection::PropertyInfo {
     public:
     // public override System.Reflection.PropertyAttributes get_Attributes()
-    // Offset: 0x22EB20C
+    // Offset: 0x22E9D7C
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Reflection.PropertyAttributes PropertyInfo::get_Attributes()
     ::System::Reflection::PropertyAttributes get_Attributes();
     // public override System.Boolean get_CanRead()
-    // Offset: 0x22EB268
+    // Offset: 0x22E9DD8
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Boolean PropertyInfo::get_CanRead()
     bool get_CanRead();
     // public override System.Boolean get_CanWrite()
-    // Offset: 0x22EB2C4
+    // Offset: 0x22E9E34
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Boolean PropertyInfo::get_CanWrite()
     bool get_CanWrite();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x22EB320
+    // Offset: 0x22E9E90
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     ::System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x22EB37C
+    // Offset: 0x22E9EEC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::StringW get_Name();
     // public override System.Type get_PropertyType()
-    // Offset: 0x22EB3D8
+    // Offset: 0x22E9F48
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Type PropertyInfo::get_PropertyType()
     ::System::Type* get_PropertyType();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x22EB490
+    // Offset: 0x22EA000
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     ::System::Type* get_ReflectedType();
     // public override System.Reflection.ParameterInfo[] GetIndexParameters()
-    // Offset: 0x22EB434
+    // Offset: 0x22E9FA4
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Reflection.ParameterInfo[] PropertyInfo::GetIndexParameters()
     ::ArrayW<::System::Reflection::ParameterInfo*> GetIndexParameters();
     // public override System.Reflection.MethodInfo[] GetAccessors(System.Boolean nonPublic)
-    // Offset: 0x22EB4D0
+    // Offset: 0x22EA040
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Reflection.MethodInfo[] PropertyInfo::GetAccessors(System.Boolean nonPublic)
     ::ArrayW<::System::Reflection::MethodInfo*> GetAccessors(bool nonPublic);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x22EB510
+    // Offset: 0x22EA080
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x22EB550
+    // Offset: 0x22EA0C0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodInfo GetGetMethod(System.Boolean nonPublic)
-    // Offset: 0x22EB590
+    // Offset: 0x22EA100
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Reflection.MethodInfo PropertyInfo::GetGetMethod(System.Boolean nonPublic)
     ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
     // public override System.Reflection.MethodInfo GetSetMethod(System.Boolean nonPublic)
-    // Offset: 0x22EB5D0
+    // Offset: 0x22EA140
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Reflection.MethodInfo PropertyInfo::GetSetMethod(System.Boolean nonPublic)
     ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
     // public override System.Object GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
-    // Offset: 0x22EB610
+    // Offset: 0x22EA180
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Object PropertyInfo::GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     ::Il2CppObject* GetValue(::Il2CppObject* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> index, ::System::Globalization::CultureInfo* culture);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x22EB650
+    // Offset: 0x22EA1C0
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(::System::Type* attributeType, bool inherit);
     // public override System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
-    // Offset: 0x22EB690
+    // Offset: 0x22EA200
     // Implemented from: System.Reflection.PropertyInfo
     // Base method: System.Void PropertyInfo::SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> index, ::System::Globalization::CultureInfo* culture);

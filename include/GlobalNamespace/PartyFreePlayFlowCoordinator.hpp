@@ -77,28 +77,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MenuLightsPresetSO* resultsFailedLightsPreset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D6B0
+    // [InjectAttribute] Offset: 0x11205B0
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x128
     ::GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D6C0
+    // [InjectAttribute] Offset: 0x11205C0
     // private readonly ResultsViewController _resultsViewController
     // Size: 0x8
     // Offset: 0x130
     ::GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D6D0
+    // [InjectAttribute] Offset: 0x11205D0
     // private readonly LocalLeaderboardViewController _localLeaderboardViewController
     // Size: 0x8
     // Offset: 0x138
     ::GlobalNamespace::LocalLeaderboardViewController* localLeaderboardViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalLeaderboardViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D6E0
+    // [InjectAttribute] Offset: 0x11205E0
     // private readonly EnterPlayerGuestNameViewController _enterNameViewController
     // Size: 0x8
     // Offset: 0x140
@@ -121,42 +121,42 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnterPlayerGuestNameViewController _enterNameViewController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnterPlayerGuestNameViewController*& dyn__enterNameViewController();
     // private System.Boolean WillScoreGoToLeaderboard(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.Boolean practice)
-    // Offset: 0x137FE7C
+    // Offset: 0x1380CE0
     bool WillScoreGoToLeaderboard(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, bool practice);
     // private System.Boolean IsNewHighScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId)
-    // Offset: 0x137FED0
+    // Offset: 0x1380D34
     bool IsNewHighScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId);
     // private System.Void ProcessScore(LevelCompletionResults levelCompletionResults, System.String leaderboardId, System.String playerName)
-    // Offset: 0x137FF20
+    // Offset: 0x1380D84
     void ProcessScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, ::StringW playerName);
     // private System.Void HandleResultsViewControllerContinueButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0x137FFB4
+    // Offset: 0x1380E18
     void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
     // private System.Void HandleResultsViewControllerRestartButtonPressed(ResultsViewController resultsViewController)
-    // Offset: 0x137FFFC
+    // Offset: 0x1380E60
     void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
     // protected override System.String get_gameMode()
-    // Offset: 0x137F8E0
+    // Offset: 0x1380744
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.String SinglePlayerLevelSelectionFlowCoordinator::get_gameMode()
     ::StringW get_gameMode();
     // protected override LeaderboardViewController get_leaderboardViewController()
-    // Offset: 0x137F928
+    // Offset: 0x138078C
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: LeaderboardViewController SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController()
     ::GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
     // protected override System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x137F930
+    // Offset: 0x1380794
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.Boolean LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController()
     bool get_showBackButtonForMainViewController();
     // protected override System.String get_mainTitle()
-    // Offset: 0x137F938
+    // Offset: 0x138079C
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.String LevelSelectionFlowCoordinator::get_mainTitle()
     ::StringW get_mainTitle();
     // public System.Void .ctor()
-    // Offset: 0x13800BC
+    // Offset: 0x1380F20
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::.ctor()
     // Base method: System.Void LevelSelectionFlowCoordinator::.ctor()
@@ -166,17 +166,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PartyFreePlayFlowCoordinator*, creationType>()));
     }
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x137F984
+    // Offset: 0x13807E8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x137FB10
+    // Offset: 0x1380974
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
     void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected override System.Void ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
-    // Offset: 0x137FC54
+    // Offset: 0x1380AB8
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.Void SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish(LevelCompletionResults levelCompletionResults, IReadonlyBeatmapData transformedBeatmapData, IDifficultyBeatmap difficultyBeatmap, GameplayModifiers gameplayModifiers, System.Boolean practice)
     void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);

@@ -35,67 +35,67 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static private readonly System.UInt64[] ROOT_Z
     static void _set_ROOT_Z(::ArrayW<uint64_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x250425C
+    // Offset: 0x24FDDCC
     static void _cctor();
     // static public System.Void Add(System.UInt64[] x, System.UInt64[] y, System.UInt64[] z)
-    // Offset: 0x2502A10
+    // Offset: 0x24FC580
     static void Add(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> z);
     // static public System.Void AddExt(System.UInt64[] xx, System.UInt64[] yy, System.UInt64[] zz)
-    // Offset: 0x2502B24
+    // Offset: 0x24FC694
     static void AddExt(::ArrayW<uint64_t> xx, ::ArrayW<uint64_t> yy, ::ArrayW<uint64_t> zz);
     // static public System.Void AddOne(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2502CF8
+    // Offset: 0x24FC868
     static void AddOne(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static private System.Void AddTo(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2502DAC
+    // Offset: 0x24FC91C
     static void AddTo(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.UInt64[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x2502E84
+    // Offset: 0x24FC9F4
     static ::ArrayW<uint64_t> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void HalfTrace(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2502E94
+    // Offset: 0x24FCA04
     static void HalfTrace(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Invert(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x25031A4
+    // Offset: 0x24FCD14
     static void Invert(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Multiply(System.UInt64[] x, System.UInt64[] y, System.UInt64[] z)
-    // Offset: 0x2503458
+    // Offset: 0x24FCFC8
     static void Multiply(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> z);
     // static public System.Void MultiplyAddToExt(System.UInt64[] x, System.UInt64[] y, System.UInt64[] zz)
-    // Offset: 0x2503BA8
+    // Offset: 0x24FD718
     static void MultiplyAddToExt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> zz);
     // static public System.Void Reduce(System.UInt64[] xx, System.UInt64[] z)
-    // Offset: 0x250304C
+    // Offset: 0x24FCBBC
     static void Reduce(::ArrayW<uint64_t> xx, ::ArrayW<uint64_t> z);
     // static public System.Void Sqrt(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2503C44
+    // Offset: 0x24FD7B4
     static void Sqrt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Square(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x25033C4
+    // Offset: 0x24FCF34
     static void Square(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void SquareAddToExt(System.UInt64[] x, System.UInt64[] zz)
-    // Offset: 0x2503E10
+    // Offset: 0x24FD980
     static void SquareAddToExt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> zz);
     // static public System.Void SquareN(System.UInt64[] x, System.Int32 n, System.UInt64[] z)
-    // Offset: 0x25034F0
+    // Offset: 0x24FD060
     static void SquareN(::ArrayW<uint64_t> x, int n, ::ArrayW<uint64_t> z);
     // static public System.UInt32 Trace(System.UInt64[] x)
-    // Offset: 0x2503EA8
+    // Offset: 0x24FDA18
     static uint Trace(::ArrayW<uint64_t> x);
     // static protected System.Void ImplCompactExt(System.UInt64[] zz)
-    // Offset: 0x2503EEC
+    // Offset: 0x24FDA5C
     static void ImplCompactExt(::ArrayW<uint64_t> zz);
     // static protected System.Void ImplExpand(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2503FD4
+    // Offset: 0x24FDB44
     static void ImplExpand(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static protected System.Void ImplMultiply(System.UInt64[] x, System.UInt64[] y, System.UInt64[] zz)
-    // Offset: 0x25035DC
+    // Offset: 0x24FD14C
     static void ImplMultiply(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> zz);
     // static protected System.Void ImplMulw(System.UInt64 x, System.UInt64 y, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x250408C
+    // Offset: 0x24FDBFC
     static void ImplMulw(uint64_t x, uint64_t y, ::ArrayW<uint64_t> z, int zOff);
     // static protected System.Void ImplSquare(System.UInt64[] x, System.UInt64[] zz)
-    // Offset: 0x2502F74
+    // Offset: 0x24FCAE4
     static void ImplSquare(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> zz);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT283Field
   #pragma pack(pop)

@@ -93,20 +93,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> _creatorFactory
     [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*& dyn__creatorFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Object subIdentifier, System.Boolean resolveAll, System.Func`2<Zenject.DiContainer,Zenject.ISubContainerCreator> creatorFactory)
-    // Offset: 0x1DBC0A0
+    // Offset: 0x1DB7C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Il2CppObject* subIdentifier, bool resolveAll, ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>* creatorFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBindingFinalizer*, creationType>(bindInfo, subIdentifier, resolveAll, creatorFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x1DBF2D0
+    // Offset: 0x1DBAE40
     void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x1DBF128
+    // Offset: 0x1DBAC98
     void FinalizeBindingSelf(::Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1DBF090
+    // Offset: 0x1DBAC00
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(::Zenject::DiContainer* container);

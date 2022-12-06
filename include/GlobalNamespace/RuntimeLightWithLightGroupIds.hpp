@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::LightGroup*> lightGroupList;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightGroup*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FC270
+    // [SpaceAttribute] Offset: 0x10FE170
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x38
@@ -100,10 +100,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ColorWasSet(::UnityEngine::Color color);
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1CD9068
+    // Offset: 0x1CD4BD8
     ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float intensity);
     // protected System.Void .ctor()
-    // Offset: 0x1CCEA58
+    // Offset: 0x1CCA5C8
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,17 +112,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithLightGroupIds*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1CD8C6C
+    // Offset: 0x1CD47DC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::Awake()
     void Awake();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CD8E7C
+    // Offset: 0x1CD49EC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CD9134
+    // Offset: 0x1CD4CA4
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();

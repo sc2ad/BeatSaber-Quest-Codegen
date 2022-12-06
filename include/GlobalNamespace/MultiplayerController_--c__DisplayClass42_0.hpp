@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single introAnimationStartSyncTime
     [[deprecated("Use field access instead!")]] float& dyn_introAnimationStartSyncTime();
     // public System.Void .ctor()
-    // Offset: 0x1462DEC
+    // Offset: 0x14616A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$$c__DisplayClass42_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$$c__DisplayClass42_0*, creationType>()));
     }
     // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
-    // Offset: 0x14643D4
+    // Offset: 0x1462C8C
     void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
   }; // MultiplayerController/<>c__DisplayClass42_0
   #pragma pack(pop)

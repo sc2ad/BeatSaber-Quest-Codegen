@@ -45,19 +45,19 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Int32 get_subEmittersCount()
-    // Offset: 0x2B75F1C
+    // Offset: 0x2B6DA8C
     int get_subEmittersCount();
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2B75538
+    // Offset: 0x2B6D0A8
     // ABORTED: conflicts with another method.  SubEmittersModule(::UnityEngine::ParticleSystem* particleSystem);
     // public UnityEngine.ParticleSystem GetSubEmitterSystem(System.Int32 index)
-    // Offset: 0x2B75F9C
+    // Offset: 0x2B6DB0C
     ::UnityEngine::ParticleSystem* GetSubEmitterSystem(int index);
     // static private System.Int32 get_subEmittersCount_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self)
-    // Offset: 0x2B75F5C
+    // Offset: 0x2B6DACC
     static int get_subEmittersCount_Injected(ByRef<::UnityEngine::ParticleSystem::SubEmittersModule> _unity_self);
     // static private UnityEngine.ParticleSystem GetSubEmitterSystem_Injected(ref UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule _unity_self, System.Int32 index)
-    // Offset: 0x2B75FEC
+    // Offset: 0x2B6DB5C
     static ::UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(ByRef<::UnityEngine::ParticleSystem::SubEmittersModule> _unity_self, int index);
   }; // UnityEngine.ParticleSystem/UnityEngine.SubEmittersModule
   #pragma pack(pop)

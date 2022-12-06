@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _groupIntensity
     [[deprecated("Use field access instead!")]] float& dyn__groupIntensity();
     // public LightGroupSO get_lightGroup()
-    // Offset: 0x1CCE9BC
+    // Offset: 0x1CCA52C
     ::GlobalNamespace::LightGroupSO* get_lightGroup();
     // public System.Single get_groupIntensity()
-    // Offset: 0x1CCE9C4
+    // Offset: 0x1CCA534
     float get_groupIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1CCE9CC
+    // Offset: 0x1CCA53C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIdsGroupEntry::GroupLightData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightData::.ctor");

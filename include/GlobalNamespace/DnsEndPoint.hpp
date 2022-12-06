@@ -79,46 +79,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& dyn__getEndPointTask();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x16C7824
+    // Offset: 0x16C6394
     ::System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x16C68BC
+    // Offset: 0x16C542C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DnsEndPoint* New_ctor(::StringW hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DnsEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DnsEndPoint*, creationType>(hostName, port)));
     }
     // public System.Void .ctor(System.Net.IPEndPoint endPoint)
-    // Offset: 0x16C789C
+    // Offset: 0x16C640C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DnsEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DnsEndPoint*, creationType>(endPoint)));
     }
     // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x16C7954
+    // Offset: 0x16C64C4
     ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync();
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x16C7A00
+    // Offset: 0x16C6570
     ::System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x16C7A98
+    // Offset: 0x16C6608
     ::System::Net::IPEndPoint* GetEndPointInternal();
     // public System.Boolean Equals(DnsEndPoint other)
-    // Offset: 0x16C7C94
+    // Offset: 0x16C6804
     bool Equals(::GlobalNamespace::DnsEndPoint* other);
     // public override System.String ToString()
-    // Offset: 0x16C7B5C
+    // Offset: 0x16C66CC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x16C7BE4
+    // Offset: 0x16C6754
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16C7CE4
+    // Offset: 0x16C6854
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

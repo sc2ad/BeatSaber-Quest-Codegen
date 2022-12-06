@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action`1<UnityEngine.AudioClip> <>9__19_0
     static void _set_$$9__19_0(::System::Action_1<::UnityEngine::AudioClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x153C418
+    // Offset: 0x1538F88
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x153C47C
+    // Offset: 0x1538FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipAsyncLoader::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipAsyncLoader::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader::$$c*, creationType>()));
     }
     // System.Void <Unload>b__19_0(UnityEngine.AudioClip loadedAudioClip)
-    // Offset: 0x153C484
+    // Offset: 0x1538FF4
     void $Unload$b__19_0(::UnityEngine::AudioClip* loadedAudioClip);
   }; // AudioClipAsyncLoader/<>c
   #pragma pack(pop)

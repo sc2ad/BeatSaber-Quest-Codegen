@@ -54,7 +54,7 @@ namespace GlobalNamespace {
   class GameServersFilterViewController : public ::HMUI::ViewController {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x112069C
+    // [HeaderAttribute] Offset: 0x112359C
     // private UnityEngine.UI.Toggle _filterByDifficultyToggle
     // Size: 0x8
     // Offset: 0x70
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapDifficultyDropdown* beatmapDifficultyDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapDifficultyDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1120708
+    // [HeaderAttribute] Offset: 0x1123608
     // private UnityEngine.UI.Toggle _filterByModifiersToggle
     // Size: 0x8
     // Offset: 0x88
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersDropdown* gameplayModifiersDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1120774
+    // [HeaderAttribute] Offset: 0x1123674
     // private UnityEngine.UI.Toggle _filterBySongsToggle
     // Size: 0x8
     // Offset: 0xA0
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SongPacksDropdown* songPacksDropdown;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPacksDropdown*) == 0x8);
-    // [HeaderAttribute] Offset: 0x11207E0
+    // [HeaderAttribute] Offset: 0x11236E0
     // private UnityEngine.UI.Toggle _showFullToggle
     // Size: 0x8
     // Offset: 0xB8
@@ -164,37 +164,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showInternetGames
     [[deprecated("Use field access instead!")]] bool& dyn__showInternetGames();
     // public GameServersFilter get_gameServersFilter()
-    // Offset: 0x1451144
+    // Offset: 0x144FBEC
     ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
     // public System.Void .ctor()
-    // Offset: 0x14515FC
+    // Offset: 0x14500A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServersFilterViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServersFilterViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServersFilterViewController*, creationType>()));
     }
     // public System.Void SetupGameServersFilter(GameServersFilter gameServersFilter)
-    // Offset: 0x1451338
+    // Offset: 0x144FDE0
     void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
     // private System.Void Refresh(GameServersFilter currentFilter)
-    // Offset: 0x145133C
+    // Offset: 0x144FDE4
     void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
     // private System.Void <DidActivate>b__16_0(System.Boolean isOn)
-    // Offset: 0x1451664
+    // Offset: 0x145010C
     void $DidActivate$b__16_0(bool isOn);
     // private System.Void <DidActivate>b__16_1(System.Boolean isOn)
-    // Offset: 0x1451684
+    // Offset: 0x145012C
     void $DidActivate$b__16_1(bool isOn);
     // private System.Void <DidActivate>b__16_2(System.Boolean isOn)
-    // Offset: 0x14516A4
+    // Offset: 0x145014C
     void $DidActivate$b__16_2(bool isOn);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1451444
+    // Offset: 0x144FEEC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x145158C
+    // Offset: 0x1450034
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

@@ -92,86 +92,86 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean preserveWhitespace
     [[deprecated("Use field access instead!")]] bool& dyn_preserveWhitespace();
     // public System.Void .ctor()
-    // Offset: 0x1609ABC
+    // Offset: 0x160662C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlLoader*, creationType>()));
     }
     // System.Void Load(System.Xml.XmlDocument doc, System.Xml.XmlReader reader, System.Boolean preserveWhitespace)
-    // Offset: 0x160CBC4
+    // Offset: 0x1609734
     void Load(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader, bool preserveWhitespace);
     // private System.Void LoadDocSequence(System.Xml.XmlDocument parentDoc)
-    // Offset: 0x160CE58
+    // Offset: 0x16099C8
     void LoadDocSequence(::System::Xml::XmlDocument* parentDoc);
     // private System.Xml.XmlNode LoadNode(System.Boolean skipOverWhitespace)
-    // Offset: 0x160CEC8
+    // Offset: 0x1609A38
     ::System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
     // private System.Xml.XmlAttribute LoadAttributeNode()
-    // Offset: 0x160D450
+    // Offset: 0x1609FC0
     ::System::Xml::XmlAttribute* LoadAttributeNode();
     // private System.Xml.XmlAttribute LoadDefaultAttribute()
-    // Offset: 0x160DDE8
+    // Offset: 0x160A958
     ::System::Xml::XmlAttribute* LoadDefaultAttribute();
     // private System.Void LoadAttributeValue(System.Xml.XmlNode parent, System.Boolean direct)
-    // Offset: 0x160DF8C
+    // Offset: 0x160AAFC
     void LoadAttributeValue(::System::Xml::XmlNode* parent, bool direct);
     // private System.Xml.XmlEntityReference LoadEntityReferenceNode(System.Boolean direct)
-    // Offset: 0x160D788
+    // Offset: 0x160A2F8
     ::System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
     // private System.Xml.XmlDeclaration LoadDeclarationNode()
-    // Offset: 0x160D978
+    // Offset: 0x160A4E8
     ::System::Xml::XmlDeclaration* LoadDeclarationNode();
     // private System.Xml.XmlDocumentType LoadDocumentTypeNode()
-    // Offset: 0x160DB24
+    // Offset: 0x160A694
     ::System::Xml::XmlDocumentType* LoadDocumentTypeNode();
     // private System.Xml.XmlNode LoadNodeDirect()
-    // Offset: 0x160E294
+    // Offset: 0x160AE04
     ::System::Xml::XmlNode* LoadNodeDirect();
     // private System.Xml.XmlAttribute LoadAttributeNodeDirect()
-    // Offset: 0x160F2A4
+    // Offset: 0x160BE14
     ::System::Xml::XmlAttribute* LoadAttributeNodeDirect();
     // System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x160F238
+    // Offset: 0x160BDA8
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode);
     // private System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode, System.Boolean bUseResolver, System.Xml.XmlResolver resolver)
-    // Offset: 0x160F500
+    // Offset: 0x160C070
     void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode, bool bUseResolver, ::System::Xml::XmlResolver* resolver);
     // private System.Void LoadDocumentType(System.Xml.IDtdInfo dtdInfo, System.Xml.XmlDocumentType dtNode)
-    // Offset: 0x160E844
+    // Offset: 0x160B3B4
     void LoadDocumentType(::System::Xml::IDtdInfo* dtdInfo, ::System::Xml::XmlDocumentType* dtNode);
     // private System.Xml.XmlParserContext GetContext(System.Xml.XmlNode node)
-    // Offset: 0x160FD30
+    // Offset: 0x160C8A0
     ::System::Xml::XmlParserContext* GetContext(::System::Xml::XmlNode* node);
     // System.Xml.XmlNamespaceManager ParsePartialContent(System.Xml.XmlNode parentNode, System.String innerxmltext, System.Xml.XmlNodeType nt)
-    // Offset: 0x1610564
+    // Offset: 0x160D0D4
     ::System::Xml::XmlNamespaceManager* ParsePartialContent(::System::Xml::XmlNode* parentNode, ::StringW innerxmltext, ::System::Xml::XmlNodeType nt);
     // System.Void LoadInnerXmlElement(System.Xml.XmlElement node, System.String innerxmltext)
-    // Offset: 0x161097C
+    // Offset: 0x160D4EC
     void LoadInnerXmlElement(::System::Xml::XmlElement* node, ::StringW innerxmltext);
     // System.Void LoadInnerXmlAttribute(System.Xml.XmlAttribute node, System.String innerxmltext)
-    // Offset: 0x1610CA0
+    // Offset: 0x160D810
     void LoadInnerXmlAttribute(::System::Xml::XmlAttribute* node, ::StringW innerxmltext);
     // private System.Void RemoveDuplicateNamespace(System.Xml.XmlElement elem, System.Xml.XmlNamespaceManager mgr, System.Boolean fCheckElemAttrs)
-    // Offset: 0x1610A00
+    // Offset: 0x160D570
     void RemoveDuplicateNamespace(::System::Xml::XmlElement* elem, ::System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
     // private System.String EntitizeName(System.String name)
-    // Offset: 0x1610CA8
+    // Offset: 0x160D818
     ::StringW EntitizeName(::StringW name);
     // System.Void ExpandEntity(System.Xml.XmlEntity ent)
-    // Offset: 0x1609AC4
+    // Offset: 0x1606634
     void ExpandEntity(::System::Xml::XmlEntity* ent);
     // System.Void ExpandEntityReference(System.Xml.XmlEntityReference eref)
-    // Offset: 0x1609F48
+    // Offset: 0x1606AB8
     void ExpandEntityReference(::System::Xml::XmlEntityReference* eref);
     // private System.Xml.XmlReader CreateInnerXmlReader(System.String xmlFragment, System.Xml.XmlNodeType nt, System.Xml.XmlParserContext context, System.Xml.XmlDocument doc)
-    // Offset: 0x1610728
+    // Offset: 0x160D298
     ::System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, ::System::Xml::XmlNodeType nt, ::System::Xml::XmlParserContext* context, ::System::Xml::XmlDocument* doc);
     // static System.Void ParseXmlDeclarationValue(System.String strValue, out System.String version, out System.String encoding, out System.String standalone)
-    // Offset: 0x160E690
+    // Offset: 0x160B200
     static void ParseXmlDeclarationValue(::StringW strValue, ByRef<::StringW> version, ByRef<::StringW> encoding, ByRef<::StringW> standalone);
     // static System.Exception UnexpectedNodeType(System.Xml.XmlNodeType nodetype)
-    // Offset: 0x160DCCC
+    // Offset: 0x160A83C
     static ::System::Exception* UnexpectedNodeType(::System::Xml::XmlNodeType nodetype);
   }; // System.Xml.XmlLoader
   #pragma pack(pop)

@@ -34,12 +34,12 @@ namespace System::Xml {
   class XmlTextReaderImpl::NoNamespaceManager : public ::System::Xml::XmlNamespaceManager {
     public:
     // public override System.String get_DefaultNamespace()
-    // Offset: 0x27A9B74
+    // Offset: 0x27A06E4
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::get_DefaultNamespace()
     ::StringW get_DefaultNamespace();
     // public System.Void .ctor()
-    // Offset: 0x27A9B6C
+    // Offset: 0x27A06DC
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,37 +48,37 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::NoNamespaceManager*, creationType>()));
     }
     // public override System.Void PushScope()
-    // Offset: 0x27A9BC4
+    // Offset: 0x27A0734
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::PushScope()
     void PushScope();
     // public override System.Boolean PopScope()
-    // Offset: 0x27A9BC8
+    // Offset: 0x27A0738
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Boolean XmlNamespaceManager::PopScope()
     bool PopScope();
     // public override System.Void AddNamespace(System.String prefix, System.String uri)
-    // Offset: 0x27A9BD0
+    // Offset: 0x27A0740
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::AddNamespace(System.String prefix, System.String uri)
     void AddNamespace(::StringW prefix, ::StringW uri);
     // public override System.Void RemoveNamespace(System.String prefix, System.String uri)
-    // Offset: 0x27A9BD4
+    // Offset: 0x27A0744
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Void XmlNamespaceManager::RemoveNamespace(System.String prefix, System.String uri)
     void RemoveNamespace(::StringW prefix, ::StringW uri);
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x27A9BD8
+    // Offset: 0x27A0748
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.Collections.IEnumerator XmlNamespaceManager::GetEnumerator()
     ::System::Collections::IEnumerator* GetEnumerator();
     // public override System.String LookupNamespace(System.String prefix)
-    // Offset: 0x27A9BE0
+    // Offset: 0x27A0750
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::LookupNamespace(System.String prefix)
     ::StringW LookupNamespace(::StringW prefix);
     // public override System.String LookupPrefix(System.String uri)
-    // Offset: 0x27A9C30
+    // Offset: 0x27A07A0
     // Implemented from: System.Xml.XmlNamespaceManager
     // Base method: System.String XmlNamespaceManager::LookupPrefix(System.String uri)
     ::StringW LookupPrefix(::StringW uri);

@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _particleSystemEventControllerInitialSize
     [[deprecated("Use field access instead!")]] int& dyn__particleSystemEventControllerInitialSize();
     // public System.Void .ctor()
-    // Offset: 0x137F204
+    // Offset: 0x1380068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitEventEffectInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitEventEffectInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x137F16C
+    // Offset: 0x137FFD0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

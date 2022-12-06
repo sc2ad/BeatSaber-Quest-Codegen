@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     ::HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(::HMUI::ViewController*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x112002C
+    // [LocalizationKeyAttribute] Offset: 0x1122F2C
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
@@ -54,13 +54,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _menuName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__menuName();
     // public HMUI.ViewController get_viewController()
-    // Offset: 0x1410D44
+    // Offset: 0x14117EC
     ::HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0x1410D4C
+    // Offset: 0x14117F4
     ::StringW get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0x1410D58
+    // Offset: 0x1411800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSubMenuInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SettingsSubMenuInfo::.ctor");

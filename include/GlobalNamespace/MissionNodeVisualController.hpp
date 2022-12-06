@@ -112,77 +112,77 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _interactable
     [[deprecated("Use field access instead!")]] bool& dyn__interactable();
     // public MissionNode get_missionNode()
-    // Offset: 0x14A42A8
+    // Offset: 0x1486DE4
     ::GlobalNamespace::MissionNode* get_missionNode();
     // public System.Boolean get_selected()
-    // Offset: 0x14A42B0
+    // Offset: 0x1486DEC
     bool get_selected();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x14A42B8
+    // Offset: 0x1486DF4
     bool get_isInitialized();
     // public System.Boolean get_cleared()
-    // Offset: 0x14A42C0
+    // Offset: 0x1486DFC
     bool get_cleared();
     // public System.Boolean get_interactable()
-    // Offset: 0x14A42C8
+    // Offset: 0x1486E04
     bool get_interactable();
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x14A3D50
+    // Offset: 0x148688C
     void add_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x14A3FFC
+    // Offset: 0x1486B38
     void remove_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void add_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x14A3DF4
+    // Offset: 0x1486930
     void add_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x14A40A0
+    // Offset: 0x1486BDC
     void remove_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x14A4848
+    // Offset: 0x1487384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeVisualController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeVisualController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeVisualController*, creationType>()));
     }
     // public System.Void SetSelected(System.Boolean value)
-    // Offset: 0x14A3BEC
+    // Offset: 0x1486728
     void SetSelected(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x14A42E0
+    // Offset: 0x1486E1C
     void OnEnable();
     // protected System.Void Awake()
-    // Offset: 0x14A4344
+    // Offset: 0x1486E80
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x14A4498
+    // Offset: 0x1486FD4
     void Start();
     // public System.Void Reset()
-    // Offset: 0x14A44F4
+    // Offset: 0x1487030
     void Reset();
     // protected System.Void OnDestroy()
-    // Offset: 0x14A44FC
+    // Offset: 0x1487038
     void OnDestroy();
     // public System.Void Init()
-    // Offset: 0x14A449C
+    // Offset: 0x1486FD8
     void Init();
     // public System.Void Setup(System.Boolean cleared, System.Boolean interactable)
-    // Offset: 0x14A46EC
+    // Offset: 0x1487228
     void Setup(bool cleared, bool interactable);
     // private System.Void SetupToggle()
-    // Offset: 0x14A4690
+    // Offset: 0x14871CC
     void SetupToggle();
     // public System.Void SetMissionCleared()
-    // Offset: 0x14A2A28
+    // Offset: 0x1485564
     void SetMissionCleared();
     // public System.Void SetInteractable()
-    // Offset: 0x14A3220
+    // Offset: 0x1485D5C
     void SetInteractable();
     // public System.Void ChangeNodeSelection(System.Boolean selected)
-    // Offset: 0x14A46C8
+    // Offset: 0x1487204
     void ChangeNodeSelection(bool selected);
     // private System.Void HandleMissionToggleSelectionDidChange(MissionToggle toggle)
-    // Offset: 0x14A47C4
+    // Offset: 0x1487300
     void HandleMissionToggleSelectionDidChange(::GlobalNamespace::MissionToggle* toggle);
   }; // MissionNodeVisualController
   #pragma pack(pop)

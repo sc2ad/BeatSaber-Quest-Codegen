@@ -49,7 +49,7 @@ namespace System {
   class TypeNameParser : public ::Il2CppObject {
     public:
     // static System.Type GetType(System.String typeName, System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x22303F8
+    // Offset: 0x222DF68
     static ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver, ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase, ByRef<::System::Threading::StackCrawlMark> stackMark);
   }; // System.TypeNameParser
   #pragma pack(pop)

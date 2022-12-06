@@ -52,19 +52,19 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _logicalCallID
     [[deprecated("Use field access instead!")]] ::StringW& dyn__logicalCallID();
     // System.String get_LogicalCallID()
-    // Offset: 0x1D3AED8
+    // Offset: 0x1D36A48
     ::StringW get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
-    // Offset: 0x1D3AEE0
+    // Offset: 0x1D36A50
     void set_LogicalCallID(::StringW value);
     // System.Boolean get_HasInfo()
-    // Offset: 0x1D3AEE8
+    // Offset: 0x1D36A58
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1D3AEF8
+    // Offset: 0x1D36A68
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1D3AF68
+    // Offset: 0x1D36AD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

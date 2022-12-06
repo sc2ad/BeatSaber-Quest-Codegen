@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [InjectAttribute] Offset: 0x111E7B4
+    // [InjectAttribute] Offset: 0x11216B4
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x30
@@ -120,32 +120,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _value
     [[deprecated("Use field access instead!")]] float& dyn__value();
     // public System.Single get_value()
-    // Offset: 0x157EAF0
+    // Offset: 0x157B660
     float get_value();
     // public System.Void add_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x157E9A8
+    // Offset: 0x157B518
     void add_valueDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x157EA4C
+    // Offset: 0x157B5BC
     void remove_valueDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void .ctor()
-    // Offset: 0x157ED70
+    // Offset: 0x157B8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightSettingsController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x157EAF8
+    // Offset: 0x157B668
     void Awake();
     // public System.Void Init(System.Single playerHeight)
-    // Offset: 0x157EBA8
+    // Offset: 0x157B718
     void Init(float playerHeight);
     // private System.Void AutoSetHeight()
-    // Offset: 0x157EC4C
+    // Offset: 0x157B7BC
     void AutoSetHeight();
     // private System.Void RefreshUI()
-    // Offset: 0x157EBB0
+    // Offset: 0x157B720
     void RefreshUI();
   }; // PlayerHeightSettingsController
   #pragma pack(pop)

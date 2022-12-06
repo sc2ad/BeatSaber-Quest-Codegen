@@ -30,14 +30,14 @@ namespace GlobalNamespace {
   class LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
     public:
     public:
-    // [MinAttribute] Offset: 0x1114AA8
+    // [MinAttribute] Offset: 0x11169A8
     // private System.Int32 _columns
     // Size: 0x4
     // Offset: 0x20
     int columns;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [HeaderAttribute] Offset: 0x1114AE4
+    // [HeaderAttribute] Offset: 0x11169E4
     // private UnityEngine.Vector3 _columnStep
     // Size: 0xC
     // Offset: 0x24
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: columnsFromCenter and: rowStep
     char __padding2[0x3] = {};
-    // [HeaderAttribute] Offset: 0x1114B40
+    // [HeaderAttribute] Offset: 0x1116A40
     // private UnityEngine.Vector3 _rowStep
     // Size: 0xC
     // Offset: 0x34
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     bool rowsFromCenter;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HeaderAttribute] Offset: 0x1114B9C
+    // [HeaderAttribute] Offset: 0x1116A9C
     // private System.Boolean _transposeOrder
     // Size: 0x1
     // Offset: 0x41
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _defaultRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__defaultRotation();
     // public System.Void .ctor()
-    // Offset: 0x1513338
+    // Offset: 0x1511EA8
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

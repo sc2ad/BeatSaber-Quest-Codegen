@@ -35,20 +35,20 @@ namespace Oculus::Platform {
   class Message::ExtraMessageTypesHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1A0BB38
+    // Offset: 0x1A0A6A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Message::ExtraMessageTypesHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Message::ExtraMessageTypesHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Message::ExtraMessageTypesHandler*, creationType>(object, method)));
     }
     // public Oculus.Platform.Message Invoke(System.IntPtr messageHandle, Oculus.Platform.Message/Oculus.Platform.MessageType message_type)
-    // Offset: 0x1A0BB48
+    // Offset: 0x1A0A6B8
     ::Oculus::Platform::Message* Invoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message::MessageType message_type);
     // public System.IAsyncResult BeginInvoke(System.IntPtr messageHandle, Oculus.Platform.Message/Oculus.Platform.MessageType message_type, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1A0BDCC
+    // Offset: 0x1A0A93C
     ::System::IAsyncResult* BeginInvoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message::MessageType message_type, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Oculus.Platform.Message EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1A0BE78
+    // Offset: 0x1A0A9E8
     ::Oculus::Platform::Message* EndInvoke(::System::IAsyncResult* result);
   }; // Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler
   #pragma pack(pop)

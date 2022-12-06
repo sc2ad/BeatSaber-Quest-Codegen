@@ -65,7 +65,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public readonly System.Byte[] SortKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_SortKey();
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x1FC80DC
+    // Offset: 0x1FC5C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::ArrayW<::Il2CppChar> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Contraction::.ctor");

@@ -206,13 +206,13 @@ namespace UnityEngine {
     // Get instance field reference: public System.Boolean generateOutOfBounds
     [[deprecated("Use field access instead!")]] bool& dyn_generateOutOfBounds();
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0x2B72EFC
+    // Offset: 0x2B6AA6C
     bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0x2B73048
+    // Offset: 0x2B6ABB8
     bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0x2B73114
+    // Offset: 0x2B6AC84
     bool Equals(::UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
   #pragma pack(pop)

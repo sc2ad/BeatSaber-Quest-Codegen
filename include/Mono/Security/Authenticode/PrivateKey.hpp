@@ -74,26 +74,26 @@ namespace Mono::Security::Authenticode {
     // Get instance field reference: private System.Int32 keyType
     [[deprecated("Use field access instead!")]] int& dyn_keyType();
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x23AEB74
+    // Offset: 0x23AB6E4
     ::System::Security::Cryptography::RSA* get_RSA();
     // public System.Void .ctor(System.Byte[] data, System.String password)
-    // Offset: 0x23AE604
+    // Offset: 0x23AB174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::ArrayW<uint8_t> data, ::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
-    // Offset: 0x23AEB7C
+    // Offset: 0x23AB6EC
     ::ArrayW<uint8_t> DeriveKey(::ArrayW<uint8_t> salt, ::StringW password);
     // private System.Boolean Decode(System.Byte[] pvk, System.String password)
-    // Offset: 0x23AE6F4
+    // Offset: 0x23AB264
     bool Decode(::ArrayW<uint8_t> pvk, ::StringW password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
-    // Offset: 0x23AED64
+    // Offset: 0x23AB8D4
     static ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
-    // Offset: 0x23AED6C
+    // Offset: 0x23AB8DC
     static ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
   }; // Mono.Security.Authenticode.PrivateKey
   #pragma pack(pop)

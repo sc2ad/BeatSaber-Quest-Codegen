@@ -66,13 +66,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_DomainParameters()
-    // Offset: 0x1641240
+    // Offset: 0x163FDB0
     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x1641248
+    // Offset: 0x163FDB8
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParameters, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x16411E8
+    // Offset: 0x163FD58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, ::Org::BouncyCastle::Security::SecureRandom* random) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::.ctor");

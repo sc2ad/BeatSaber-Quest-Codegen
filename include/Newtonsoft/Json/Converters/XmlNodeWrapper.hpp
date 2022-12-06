@@ -79,44 +79,44 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
     // public System.Object get_WrappedNode()
-    // Offset: 0x1817D98
+    // Offset: 0x1817908
     ::Il2CppObject* get_WrappedNode();
     // public System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1817DA0
+    // Offset: 0x1817910
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.String get_LocalName()
-    // Offset: 0x1817DC0
+    // Offset: 0x1817930
     ::StringW get_LocalName();
     // public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_ChildNodes()
-    // Offset: 0x1817DE4
+    // Offset: 0x1817954
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
     // public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_Attributes()
-    // Offset: 0x18180C4
+    // Offset: 0x1817C34
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
     // public Newtonsoft.Json.Converters.IXmlNode get_ParentNode()
-    // Offset: 0x18183C8
+    // Offset: 0x1817F38
     ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
     // public System.String get_Value()
-    // Offset: 0x181846C
+    // Offset: 0x1817FDC
     ::StringW get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1810BE0
+    // Offset: 0x1810750
     void set_Value(::StringW value);
     // public System.String get_NamespaceUri()
-    // Offset: 0x1818540
+    // Offset: 0x18180B0
     ::StringW get_NamespaceUri();
     // public System.Void .ctor(System.Xml.XmlNode node)
-    // Offset: 0x1810330
+    // Offset: 0x180FEA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNodeWrapper* New_ctor(::System::Xml::XmlNode* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlNodeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNodeWrapper*, creationType>(node)));
     }
     // static Newtonsoft.Json.Converters.IXmlNode WrapNode(System.Xml.XmlNode node)
-    // Offset: 0x1812DC0
+    // Offset: 0x1812930
     static ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::XmlNode* node);
     // public Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
-    // Offset: 0x181848C
+    // Offset: 0x1817FFC
     ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
   }; // Newtonsoft.Json.Converters.XmlNodeWrapper
   #pragma pack(pop)

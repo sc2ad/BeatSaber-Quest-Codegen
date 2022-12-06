@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   class SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [SignalSenderAttribute] Offset: 0x10E91F8
+    // [SignalSenderAttribute] Offset: 0x10EB0F8
     // private Signal _buttonClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -62,20 +62,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _button
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__button();
     // public System.Void .ctor()
-    // Offset: 0x2AC397C
+    // Offset: 0x2ABC4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalOnUIButtonClick* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SignalOnUIButtonClick::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnUIButtonClick*, creationType>()));
     }
     // private System.Void OnReset()
-    // Offset: 0x2AC37B0
+    // Offset: 0x2ABC320
     void OnReset();
     // protected System.Void Start()
-    // Offset: 0x2AC3808
+    // Offset: 0x2ABC378
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AC38A0
+    // Offset: 0x2ABC410
     void OnDestroy();
   }; // SignalOnUIButtonClick
   #pragma pack(pop)

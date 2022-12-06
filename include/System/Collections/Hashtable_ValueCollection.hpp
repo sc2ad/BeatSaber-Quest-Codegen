@@ -60,23 +60,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Collections.Hashtable _hashtable
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__hashtable();
     // public System.Object get_SyncRoot()
-    // Offset: 0x1D9BEE8
+    // Offset: 0x1D97A58
     ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Count()
-    // Offset: 0x1D9BF0C
+    // Offset: 0x1D97A7C
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1D99A88
+    // Offset: 0x1D955F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Hashtable::ValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::ValueCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1D9BCFC
+    // Offset: 0x1D9786C
     void CopyTo(::System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1D9BE80
+    // Offset: 0x1D979F0
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.ValueCollection
   #pragma pack(pop)

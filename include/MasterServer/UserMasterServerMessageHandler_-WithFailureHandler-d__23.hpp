@@ -108,10 +108,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x172F9CC
+    // Offset: 0x173053C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x172FDA8
+    // Offset: 0x1730918
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<WithFailureHandler>d__23
   #pragma pack(pop)

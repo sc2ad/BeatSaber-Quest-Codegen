@@ -55,7 +55,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
     // public System.Void .ctor()
-    // Offset: 0x199529C
+    // Offset: 0x1992E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultDataWithTestData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData::.ctor");

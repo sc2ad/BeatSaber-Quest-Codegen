@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorSO* playersPlaceNeonsColor;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
-    // [RangeAttribute] Offset: 0x111058C
+    // [RangeAttribute] Offset: 0x111248C
     // private System.Single _playersPlaceNeonsIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuLightsPresetSO/LightIdColorPair[] _lightIdColorPairs
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>& dyn__lightIdColorPairs();
     // public ColorSO get_playersPlaceNeonsColor()
-    // Offset: 0x1341734
+    // Offset: 0x1343428
     ::GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
     // public System.Single get_playersPlaceNeonsIntensity()
-    // Offset: 0x134173C
+    // Offset: 0x1343430
     float get_playersPlaceNeonsIntensity();
     // public MenuLightsPresetSO/LightIdColorPair[] get_lightIdColorPairs()
-    // Offset: 0x1341744
+    // Offset: 0x1343438
     ::ArrayW<::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*> get_lightIdColorPairs();
     // public System.Void .ctor()
-    // Offset: 0x134174C
+    // Offset: 0x1343440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsPresetSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsPresetSO::.ctor");

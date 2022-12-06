@@ -55,13 +55,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::GenericPoser::Map*>& dyn_maps();
     // private System.Void StoreDefaultState()
-    // Offset: 0x22F2134
+    // Offset: 0x22F0CA4
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x22F2058
+    // Offset: 0x22F0BC8
     ::UnityEngine::Transform* GetTargetNamed(::StringW tName, ::ArrayW<::UnityEngine::Transform*> array);
     // public System.Void .ctor()
-    // Offset: 0x22F254C
+    // Offset: 0x22F10BC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -71,22 +71,22 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser*, creationType>()));
     }
     // public override System.Void AutoMapping()
-    // Offset: 0x22F1E10
+    // Offset: 0x22F0980
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x22F219C
+    // Offset: 0x22F0D0C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x22F21A0
+    // Offset: 0x22F0D10
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x22F2448
+    // Offset: 0x22F0FB8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();

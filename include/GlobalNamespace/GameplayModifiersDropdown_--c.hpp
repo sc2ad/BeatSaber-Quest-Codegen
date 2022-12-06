@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<GameplayModifierMask,System.String>,System.String> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x145533C
+    // Offset: 0x1453DE4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14553A0
+    // Offset: 0x1453E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersDropdown::$$c*, creationType>()));
     }
     // System.String <Start>b__8_0(System.Tuple`2<GameplayModifierMask,System.String> x)
-    // Offset: 0x14553A8
+    // Offset: 0x1453E50
     ::StringW $Start$b__8_0(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* x);
   }; // GameplayModifiersDropdown/<>c
   #pragma pack(pop)

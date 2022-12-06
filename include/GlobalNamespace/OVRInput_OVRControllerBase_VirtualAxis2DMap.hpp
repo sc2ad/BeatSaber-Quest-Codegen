@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawAxis2D SecondaryTouchpad
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis2D& dyn_SecondaryTouchpad();
     // public System.Void .ctor()
-    // Offset: 0x1A24C94
+    // Offset: 0x1A23804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualAxis2DMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualAxis2DMap*, creationType>()));
     }
     // public OVRInput/RawAxis2D ToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x1A25AC8
+    // Offset: 0x1A24638
     ::GlobalNamespace::OVRInput::RawAxis2D ToRawMask(::GlobalNamespace::OVRInput::Axis2D virtualMask);
   }; // OVRInput/OVRControllerBase/VirtualAxis2DMap
   #pragma pack(pop)

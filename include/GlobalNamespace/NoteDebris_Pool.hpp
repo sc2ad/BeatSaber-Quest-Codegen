@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class NoteDebris::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteDebris*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1503D18
+    // Offset: 0x15029A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebris::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebris::Pool::.ctor");

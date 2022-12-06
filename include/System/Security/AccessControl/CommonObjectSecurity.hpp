@@ -41,14 +41,14 @@ namespace System::Security::AccessControl {
   class CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
     public:
     // protected System.Void .ctor(System.Boolean isContainer)
-    // Offset: 0x1BA1FFC
+    // Offset: 0x1B9CB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonObjectSecurity* New_ctor(bool isContainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::CommonObjectSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommonObjectSecurity*, creationType>(isContainer)));
     }
     // public System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(System.Boolean includeExplicit, System.Boolean includeInherited, System.Type targetType)
-    // Offset: 0x1BA20F4
+    // Offset: 0x1B9CC64
     ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
   }; // System.Security.AccessControl.CommonObjectSecurity
   #pragma pack(pop)

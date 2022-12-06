@@ -30,16 +30,16 @@ namespace System::Collections::Generic {
   class InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::StringW> {
     public:
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x1D975E0
+    // Offset: 0x1D93150
     int GetHashCode(::StringW obj);
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x1D97600
+    // Offset: 0x1D93170
     bool Equals(::StringW x, ::StringW y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
-    // Offset: 0x1D97630
+    // Offset: 0x1D931A0
     int IndexOf(::ArrayW<::StringW> array, ::StringW value, int startIndex, int count);
     // public System.Void .ctor()
-    // Offset: 0x1D97698
+    // Offset: 0x1D93208
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()

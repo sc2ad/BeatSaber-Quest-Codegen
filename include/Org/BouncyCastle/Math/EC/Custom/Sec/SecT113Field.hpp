@@ -31,58 +31,58 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   class SecT113Field : public ::Il2CppObject {
     public:
     // static public System.Void Add(System.UInt64[] x, System.UInt64[] y, System.UInt64[] z)
-    // Offset: 0x24640B8
+    // Offset: 0x245EC28
     static void Add(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> z);
     // static public System.Void AddExt(System.UInt64[] xx, System.UInt64[] yy, System.UInt64[] zz)
-    // Offset: 0x246413C
+    // Offset: 0x245ECAC
     static void AddExt(::ArrayW<uint64_t> xx, ::ArrayW<uint64_t> yy, ::ArrayW<uint64_t> zz);
     // static public System.Void AddOne(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2464220
+    // Offset: 0x245ED90
     static void AddOne(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static private System.Void AddTo(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2464280
+    // Offset: 0x245EDF0
     static void AddTo(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.UInt64[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x24642EC
+    // Offset: 0x245EE5C
     static ::ArrayW<uint64_t> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void HalfTrace(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x24642FC
+    // Offset: 0x245EE6C
     static void HalfTrace(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Invert(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2464494
+    // Offset: 0x245F004
     static void Invert(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Multiply(System.UInt64[] x, System.UInt64[] y, System.UInt64[] z)
-    // Offset: 0x246467C
+    // Offset: 0x245F1EC
     static void Multiply(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> z);
     // static public System.Void MultiplyAddToExt(System.UInt64[] x, System.UInt64[] y, System.UInt64[] zz)
-    // Offset: 0x24648EC
+    // Offset: 0x245F45C
     static void MultiplyAddToExt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> zz);
     // static public System.Void Reduce(System.UInt64[] xx, System.UInt64[] z)
-    // Offset: 0x24643F4
+    // Offset: 0x245EF64
     static void Reduce(::ArrayW<uint64_t> xx, ::ArrayW<uint64_t> z);
     // static public System.Void Sqrt(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2464940
+    // Offset: 0x245F4B0
     static void Sqrt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Square(System.UInt64[] x, System.UInt64[] z)
-    // Offset: 0x2464634
+    // Offset: 0x245F1A4
     static void Square(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void SquareAddToExt(System.UInt64[] x, System.UInt64[] zz)
-    // Offset: 0x24649E8
+    // Offset: 0x245F558
     static void SquareAddToExt(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> zz);
     // static public System.Void SquareN(System.UInt64[] x, System.Int32 n, System.UInt64[] z)
-    // Offset: 0x24646CC
+    // Offset: 0x245F23C
     static void SquareN(::ArrayW<uint64_t> x, int n, ::ArrayW<uint64_t> z);
     // static public System.UInt32 Trace(System.UInt64[] x)
-    // Offset: 0x2464A34
+    // Offset: 0x245F5A4
     static uint Trace(::ArrayW<uint64_t> x);
     // static protected System.Void ImplMultiply(System.UInt64[] x, System.UInt64[] y, System.UInt64[] zz)
-    // Offset: 0x246474C
+    // Offset: 0x245F2BC
     static void ImplMultiply(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y, ::ArrayW<uint64_t> zz);
     // static protected System.Void ImplMulw(System.UInt64 x, System.UInt64 y, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x2464A68
+    // Offset: 0x245F5D8
     static void ImplMulw(uint64_t x, uint64_t y, ::ArrayW<uint64_t> z, int zOff);
     // static protected System.Void ImplSquare(System.UInt64[] x, System.UInt64[] zz)
-    // Offset: 0x246438C
+    // Offset: 0x245EEFC
     static void ImplSquare(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> zz);
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecT113Field
   #pragma pack(pop)

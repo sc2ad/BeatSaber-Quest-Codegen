@@ -119,44 +119,44 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kDefaultNumberOfLines
     static void _set_kDefaultNumberOfLines(int value);
     // public System.Void .ctor()
-    // Offset: 0x13AAE3C
+    // Offset: 0x13ABCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataLoader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataLoader*, creationType>()));
     }
     // static private BeatmapData GetBeatmapDataFromBeatmapSaveData(BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData, BeatmapDifficulty beatmapDifficulty, System.Single startBpm, System.Boolean loadingForDesignatedEnvironment, EnvironmentKeywords environmentKeywords, EnvironmentLightGroups environmentLightGroups, DefaultEnvironmentEvents defaultEnvironmentEvents, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13A8E38
+    // Offset: 0x13A9C9C
     static ::GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords, ::GlobalNamespace::EnvironmentLightGroups* environmentLightGroups, ::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // static public BeatmapDataBasicInfo GetBeatmapDataBasicInfoFromSaveData(BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData)
-    // Offset: 0x13AAA5C
+    // Offset: 0x13AB8C0
     static ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData);
     // static public BeatmapData GetBeatmapDataFromSaveData(BeatmapSaveDataVersion3.BeatmapSaveData beatmapSaveData, BeatmapDifficulty beatmapDifficulty, System.Single startBpm, System.Boolean loadingForDesignatedEnvironment, EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13AAC04
+    // Offset: 0x13ABA68
     static ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // static private ColorType ConvertColorType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.NoteColorType noteType)
-    // Offset: 0x13AAD98
+    // Offset: 0x13ABBFC
     static ::GlobalNamespace::ColorType ConvertColorType(::BeatmapSaveDataVersion3::BeatmapSaveData::NoteColorType noteType);
     // static private EnvironmentColorType ConvertColorType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EnvironmentColorType environmentColorType)
-    // Offset: 0x13AADA8
+    // Offset: 0x13ABC0C
     static ::GlobalNamespace::EnvironmentColorType ConvertColorType(::BeatmapSaveDataVersion3::BeatmapSaveData::EnvironmentColorType environmentColorType);
     // static private BeatmapEventTransitionType ConvertBeatmapEventTransitionType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.TransitionType transitionType)
-    // Offset: 0x13AADBC
+    // Offset: 0x13ABC20
     static ::GlobalNamespace::BeatmapEventTransitionType ConvertBeatmapEventTransitionType(::BeatmapSaveDataVersion3::BeatmapSaveData::TransitionType transitionType);
     // static private LightAxis ConvertAxis(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.Axis axis)
-    // Offset: 0x13AADD0
+    // Offset: 0x13ABC34
     static ::GlobalNamespace::LightAxis ConvertAxis(::BeatmapSaveDataVersion3::BeatmapSaveData::Axis axis);
     // static private EaseType ConvertEaseType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType easeType)
-    // Offset: 0x13AADE4
+    // Offset: 0x13ABC48
     static ::GlobalNamespace::EaseType ConvertEaseType(::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType easeType);
     // static private NoteLineLayer ConvertNoteLineLayer(System.Int32 layer)
-    // Offset: 0x13AAE04
+    // Offset: 0x13ABC68
     static ::GlobalNamespace::NoteLineLayer ConvertNoteLineLayer(int layer);
     // static private SliderData/Type ConvertSliderType(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.SliderType sliderType)
-    // Offset: 0x13AAE18
+    // Offset: 0x13ABC7C
     static ::GlobalNamespace::SliderData::Type ConvertSliderType(::BeatmapSaveDataVersion3::BeatmapSaveData::SliderType sliderType);
     // static private LightRotationDirection ConvertRotationOrientation(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationBaseData/BeatmapSaveDataVersion3.RotationDirection rotationDirection)
-    // Offset: 0x13AAE28
+    // Offset: 0x13ABC8C
     static ::GlobalNamespace::LightRotationDirection ConvertRotationOrientation(::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationBaseData::RotationDirection rotationDirection);
   }; // BeatmapDataLoader
   #pragma pack(pop)

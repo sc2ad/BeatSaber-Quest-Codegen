@@ -120,7 +120,7 @@ namespace System {
     // Get instance field reference: System.DateTimeParse/System.MatchNumberDelegate parseNumberDelegate
     [[deprecated("Use field access instead!")]] ::System::DateTimeParse::MatchNumberDelegate*& dyn_parseNumberDelegate();
     // System.Void Init()
-    // Offset: 0x22E46CC
+    // Offset: 0x22E323C
     void Init();
   }; // System.ParsingInfo
   #pragma pack(pop)

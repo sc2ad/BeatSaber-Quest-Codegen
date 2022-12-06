@@ -30,17 +30,17 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
     static void _set_$$9(::System::Net::Http::Headers::Parser::MD5::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x19D6864
+    // Offset: 0x19D43D4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19D68C8
+    // Offset: 0x19D4438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser::MD5::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::Parser::MD5::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser::MD5::$$c*, creationType>()));
     }
     // System.String <.cctor>b__2_0(System.Object l)
-    // Offset: 0x19D68D0
+    // Offset: 0x19D4440
     ::StringW $_cctor$b__2_0(::Il2CppObject* l);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c
   #pragma pack(pop)

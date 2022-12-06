@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class DifficultyBeatmapSerializedMethods : public ::Il2CppObject {
     public:
     // static public System.String SerializedName(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x143C0CC
+    // Offset: 0x143BB74
     static ::StringW SerializedName(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // DifficultyBeatmapSerializedMethods
   #pragma pack(pop)

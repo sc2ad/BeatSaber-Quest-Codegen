@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class HierarchyIgnorePrefabOverrides : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F326C
+    // Offset: 0x13F3D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HierarchyIgnorePrefabOverrides* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HierarchyIgnorePrefabOverrides::.ctor");

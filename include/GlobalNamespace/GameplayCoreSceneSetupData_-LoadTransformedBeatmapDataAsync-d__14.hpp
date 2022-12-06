@@ -81,10 +81,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IReadonlyBeatmapData> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1453F64
+    // Offset: 0x1452A0C
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1454114
+    // Offset: 0x1452BBC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__14
   // WARNING Not writing size check since size may be invalid!

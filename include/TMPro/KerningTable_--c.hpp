@@ -50,20 +50,20 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.KerningPair,System.UInt32> <>9__7_1
     static void _set_$$9__7_1(::System::Func_2<::TMPro::KerningPair*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14859F0
+    // Offset: 0x149A5B8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1485A54
+    // Offset: 0x149A61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable::$$c*, creationType>()));
     }
     // System.UInt32 <SortKerningPairs>b__7_0(TMPro.KerningPair s)
-    // Offset: 0x1485A5C
+    // Offset: 0x149A624
     uint $SortKerningPairs$b__7_0(::TMPro::KerningPair* s);
     // System.UInt32 <SortKerningPairs>b__7_1(TMPro.KerningPair s)
-    // Offset: 0x1485A74
+    // Offset: 0x149A63C
     uint $SortKerningPairs$b__7_1(::TMPro::KerningPair* s);
   }; // TMPro.KerningTable/TMPro.<>c
   #pragma pack(pop)

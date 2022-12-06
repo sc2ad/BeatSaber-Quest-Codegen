@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Models.AssetDetails assetDetails
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
     // public System.Void .ctor()
-    // Offset: 0x154F72C
+    // Offset: 0x154C29C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, creationType>()));
     }
     // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
-    // Offset: 0x154F734
+    // Offset: 0x154C2A4
     void $GetDownloadAssetBundleFileAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
   }; // OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0
   #pragma pack(pop)

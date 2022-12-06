@@ -46,22 +46,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::JSONNode::Enumerator& dyn_m_Enumerator();
     // public HoudiniEngineUnity.JSONNode get_Current()
-    // Offset: 0x1A67C6C
+    // Offset: 0x1A657DC
     ::HoudiniEngineUnity::JSONNode* get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
-    // Offset: 0x1A67BC0
+    // Offset: 0x1A65730
     ValueEnumerator(typename ::System::Collections::Generic::List_1<::HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
-    // Offset: 0x1A67C08
+    // Offset: 0x1A65778
     ValueEnumerator(typename ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator aEnumerator)
-    // Offset: 0x1A67C54
+    // Offset: 0x1A657C4
     // ABORTED: conflicts with another method.  ValueEnumerator(::HoudiniEngineUnity::JSONNode::Enumerator aEnumerator);
     // public System.Boolean MoveNext()
-    // Offset: 0x1A67CB8
+    // Offset: 0x1A65828
     bool MoveNext();
     // public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.ValueEnumerator GetEnumerator()
-    // Offset: 0x1A67CBC
+    // Offset: 0x1A6582C
     ::HoudiniEngineUnity::JSONNode::ValueEnumerator GetEnumerator();
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.ValueEnumerator
   // WARNING Not writing size check since size may be invalid!

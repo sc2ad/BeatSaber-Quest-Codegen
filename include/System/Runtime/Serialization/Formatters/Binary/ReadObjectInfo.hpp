@@ -217,67 +217,67 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.IFormatterConverter formatterConverter
     [[deprecated("Use field access instead!")]] ::System::Runtime::Serialization::IFormatterConverter*& dyn_formatterConverter();
     // System.Void ObjectEnd()
-    // Offset: 0x16719B8
+    // Offset: 0x1670528
     void ObjectEnd();
     // System.Void PrepareForReuse()
-    // Offset: 0x16719BC
+    // Offset: 0x167052C
     void PrepareForReuse();
     // static System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo Create(System.Type objectType, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ObjectManager objectManager, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean bSimpleAssembly)
-    // Offset: 0x16719C4
+    // Offset: 0x1670534
     static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
     // System.Void Init(System.Type objectType, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ObjectManager objectManager, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean bSimpleAssembly)
-    // Offset: 0x1671AD0
+    // Offset: 0x1670640
     void Init(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
     // static System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo Create(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ObjectManager objectManager, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean bSimpleAssembly)
-    // Offset: 0x1671CA4
+    // Offset: 0x1670814
     static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* objectType, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
     // System.Void Init(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ObjectManager objectManager, System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit, System.Runtime.Serialization.IFormatterConverter converter, System.Boolean bSimpleAssembly)
-    // Offset: 0x1671D4C
+    // Offset: 0x16708BC
     void Init(::System::Type* objectType, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Type*> memberTypes, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
     // private System.Void InitReadConstructor(System.Type objectType, System.Runtime.Serialization.ISurrogateSelector surrogateSelector, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1671AEC
+    // Offset: 0x167065C
     void InitReadConstructor(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void InitSiRead()
-    // Offset: 0x1671E08
+    // Offset: 0x1670978
     void InitSiRead();
     // private System.Void InitNoMembers()
-    // Offset: 0x1671D9C
+    // Offset: 0x167090C
     void InitNoMembers();
     // private System.Void InitMemberInfo()
-    // Offset: 0x1671E7C
+    // Offset: 0x16709EC
     void InitMemberInfo();
     // System.Reflection.MemberInfo GetMemberInfo(System.String name)
-    // Offset: 0x167228C
+    // Offset: 0x1670DFC
     ::System::Reflection::MemberInfo* GetMemberInfo(::StringW name);
     // System.Type GetType(System.String name)
-    // Offset: 0x16725D4
+    // Offset: 0x1671144
     ::System::Type* GetType(::StringW name);
     // System.Void AddValue(System.String name, System.Object value, ref System.Runtime.Serialization.SerializationInfo si, ref System.Object[] memberData)
-    // Offset: 0x1672754
+    // Offset: 0x16712C4
     void AddValue(::StringW name, ::Il2CppObject* value, ByRef<::System::Runtime::Serialization::SerializationInfo*> si, ByRef<::ArrayW<::Il2CppObject*>> memberData);
     // System.Void InitDataStore(ref System.Runtime.Serialization.SerializationInfo si, ref System.Object[] memberData)
-    // Offset: 0x16728BC
+    // Offset: 0x167142C
     void InitDataStore(ByRef<::System::Runtime::Serialization::SerializationInfo*> si, ByRef<::ArrayW<::Il2CppObject*>> memberData);
     // System.Void RecordFixup(System.Int64 objectId, System.String name, System.Int64 idRef)
-    // Offset: 0x167298C
+    // Offset: 0x16714FC
     void RecordFixup(int64_t objectId, ::StringW name, int64_t idRef);
     // System.Void PopulateObjectMembers(System.Object obj, System.Object[] memberData)
-    // Offset: 0x1672A48
+    // Offset: 0x16715B8
     void PopulateObjectMembers(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> memberData);
     // private System.Int32 Position(System.String name)
-    // Offset: 0x167249C
+    // Offset: 0x167100C
     int Position(::StringW name);
     // System.Type[] GetMemberTypes(System.String[] inMemberNames, System.Type objectType)
-    // Offset: 0x1672AF4
+    // Offset: 0x1671664
     ::ArrayW<::System::Type*> GetMemberTypes(::ArrayW<::StringW> inMemberNames, ::System::Type* objectType);
     // System.Type GetMemberType(System.Reflection.MemberInfo objMember)
-    // Offset: 0x167212C
+    // Offset: 0x1670C9C
     ::System::Type* GetMemberType(::System::Reflection::MemberInfo* objMember);
     // static private System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit)
-    // Offset: 0x1671A58
+    // Offset: 0x16705C8
     static ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
     // System.Void .ctor()
-    // Offset: 0x16719B0
+    // Offset: 0x1670520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

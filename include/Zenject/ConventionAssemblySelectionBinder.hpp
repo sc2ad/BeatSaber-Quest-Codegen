@@ -74,20 +74,20 @@ namespace Zenject {
     // Get instance field reference: private Zenject.ConventionBindInfo <BindInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::ConventionBindInfo*& dyn_$BindInfo$k__BackingField();
     // protected Zenject.ConventionBindInfo get_BindInfo()
-    // Offset: 0x17B9BCC
+    // Offset: 0x17BA73C
     ::Zenject::ConventionBindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.ConventionBindInfo value)
-    // Offset: 0x17B9BD4
+    // Offset: 0x17BA744
     void set_BindInfo(::Zenject::ConventionBindInfo* value);
     // public System.Void .ctor(Zenject.ConventionBindInfo bindInfo)
-    // Offset: 0x17B9BA0
+    // Offset: 0x17BA710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionAssemblySelectionBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionAssemblySelectionBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionAssemblySelectionBinder*, creationType>(bindInfo)));
     }
     // public System.Void FromAllAssemblies()
-    // Offset: 0x17B9BDC
+    // Offset: 0x17BA74C
     void FromAllAssemblies();
     // public System.Void FromAssemblyContaining()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -99,25 +99,25 @@ namespace Zenject {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
     }
     // public System.Void FromAssembliesContaining(params System.Type[] types)
-    // Offset: 0x17B9BE0
+    // Offset: 0x17BA750
     void FromAssembliesContaining(::ArrayW<::System::Type*> types);
     // public System.Void FromAssembliesContaining(System.Collections.Generic.IEnumerable`1<System.Type> types)
-    // Offset: 0x17B9BE4
+    // Offset: 0x17BA754
     void FromAssembliesContaining(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // public System.Void FromThisAssembly()
-    // Offset: 0x17B9DB8
+    // Offset: 0x17BA928
     void FromThisAssembly();
     // public System.Void FromAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x17B9E74
+    // Offset: 0x17BA9E4
     void FromAssembly(::System::Reflection::Assembly* assembly);
     // public System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
-    // Offset: 0x17B9E70
+    // Offset: 0x17BA9E0
     void FromAssemblies(::ArrayW<::System::Reflection::Assembly*> assemblies);
     // public System.Void FromAssemblies(System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies)
-    // Offset: 0x17B9D00
+    // Offset: 0x17BA870
     void FromAssemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* assemblies);
     // public System.Void FromAssembliesWhere(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x17B9F94
+    // Offset: 0x17BAB04
     void FromAssembliesWhere(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
   }; // Zenject.ConventionAssemblySelectionBinder
   #pragma pack(pop)

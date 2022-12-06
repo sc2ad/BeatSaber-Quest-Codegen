@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: limitNumberOfElements and: numberOfElementsLimit
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x111E69C
+    // [DrawIfAttribute] Offset: 0x112159C
     // private System.Int32 _numberOfElementsLimit
     // Size: 0x4
     // Offset: 0x3C
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfElementsLimit
     [[deprecated("Use field access instead!")]] int& dyn__numberOfElementsLimit();
     // public System.Void .ctor()
-    // Offset: 0x141BDF4
+    // Offset: 0x141C89C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -86,17 +86,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PresetsSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x141BBFC
+    // Offset: 0x141C6A4
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x141BD28
+    // Offset: 0x141C7D0
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x141BD90
+    // Offset: 0x141C838
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

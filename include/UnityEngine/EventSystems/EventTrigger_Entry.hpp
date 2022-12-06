@@ -46,7 +46,7 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
     [[deprecated("Use field access instead!")]] ::UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
     // public System.Void .ctor()
-    // Offset: 0x1954D0C
+    // Offset: 0x195287C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventTrigger::Entry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::EventTrigger::Entry::.ctor");

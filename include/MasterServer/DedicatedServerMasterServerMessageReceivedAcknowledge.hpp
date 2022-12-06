@@ -47,10 +47,10 @@ namespace MasterServer {
       return reinterpret_cast<::MasterServer::IDedicatedServerMasterServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.DedicatedServerMasterServerMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x16D60BC
+    // Offset: 0x16D4C2C
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerMasterServerMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16D6160
+    // Offset: 0x16D4CD0
     // Implemented from: BGNet.Core.Messages.BaseAcknowledgeMessage
     // Base method: System.Void BaseAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseResponse::.ctor()
@@ -60,7 +60,7 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerMasterServerMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x16D6104
+    // Offset: 0x16D4C74
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Release()
     void Release();

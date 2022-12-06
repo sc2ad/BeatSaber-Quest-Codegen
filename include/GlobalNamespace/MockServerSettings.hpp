@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MockServerSettings : public ::GlobalNamespace::MockPlayerSettings {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14AF92C
+    // Offset: 0x1492468
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

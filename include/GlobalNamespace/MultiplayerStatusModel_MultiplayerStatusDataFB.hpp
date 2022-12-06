@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerStatusData[] data
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x14F7AD8
+    // Offset: 0x14F6764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusModel::MultiplayerStatusDataFB* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB::.ctor");

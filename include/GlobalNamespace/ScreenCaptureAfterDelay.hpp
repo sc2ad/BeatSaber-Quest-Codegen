@@ -54,21 +54,21 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6
     class $Start$d__6;
     public:
-    // [InjectAttribute] Offset: 0x1105BC0
+    // [InjectAttribute] Offset: 0x1107AC0
     // private MainEffectController _mainEffectController
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::MainEffectController* mainEffectController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainEffectController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1105BD0
+    // [InjectAttribute] Offset: 0x1107AD0
     // private ScreenCaptureCache _screenCaptureCache
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScreenCaptureCache* screenCaptureCache;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScreenCaptureCache*) == 0x8);
-    // [InjectAttribute] Offset: 0x1105BE0
+    // [InjectAttribute] Offset: 0x1107AE0
     // private ScreenCaptureAfterDelay/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -101,20 +101,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _captureRenderTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__captureRenderTexture();
     // public System.Void .ctor()
-    // Offset: 0x2AD8DC4
+    // Offset: 0x2AD0934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScreenCaptureAfterDelay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureAfterDelay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureAfterDelay*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x2AD894C
+    // Offset: 0x2AD04BC
     ::System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x2AD89E8
+    // Offset: 0x2AD0558
     void OnDestroy();
     // private System.Void HandleMainEffectControllerAfterImageEffectEvent(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2AD8ACC
+    // Offset: 0x2AD063C
     void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
   }; // ScreenCaptureAfterDelay
   #pragma pack(pop)

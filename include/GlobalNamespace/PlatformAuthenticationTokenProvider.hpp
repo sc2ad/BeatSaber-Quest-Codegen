@@ -97,20 +97,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AuthenticationToken/Platform _platform
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
     // public System.String get_hashedUserId()
-    // Offset: 0x1574408
+    // Offset: 0x1570F78
     ::StringW get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0x1574410
+    // Offset: 0x1570F80
     ::StringW get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x1574418
+    // Offset: 0x1570F88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x15744DC
+    // Offset: 0x157104C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

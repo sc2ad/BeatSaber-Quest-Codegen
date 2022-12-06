@@ -333,44 +333,44 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean autoTriggerOnEnable
     [[deprecated("Use field access instead!")]] bool& dyn_autoTriggerOnEnable();
     // static public System.Boolean get_loading()
-    // Offset: 0x18BCB78
+    // Offset: 0x18BC6E8
     static bool get_loading();
     // static public System.Single get_progress()
-    // Offset: 0x18BCC10
+    // Offset: 0x18BC780
     static float get_progress();
     // static public UnityEngine.Texture get_progressTexture()
-    // Offset: 0x18BCD24
+    // Offset: 0x18BC894
     static ::UnityEngine::Texture* get_progressTexture();
     // public System.Void .ctor()
-    // Offset: 0x18BDA7C
+    // Offset: 0x18BD5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_LoadLevel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_LoadLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_LoadLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18BDAE0
+    // Offset: 0x18BD650
     static void _cctor();
     // private System.Void OnEnable()
-    // Offset: 0x18BCDFC
+    // Offset: 0x18BC96C
     void OnEnable();
     // public System.Void Trigger()
-    // Offset: 0x18BCE0C
+    // Offset: 0x18BC97C
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0x18BCF14
+    // Offset: 0x18BCA84
     static void Begin(::StringW levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
-    // Offset: 0x18BD020
+    // Offset: 0x18BCB90
     void OnGUI();
     // private System.Void Update()
-    // Offset: 0x18BD800
+    // Offset: 0x18BD370
     void Update();
     // private System.Collections.IEnumerator LoadLevel()
-    // Offset: 0x18BCEA4
+    // Offset: 0x18BCA14
     ::System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
-    // Offset: 0x18BD464
+    // Offset: 0x18BCFD4
     uint64_t GetOverlayHandle(::StringW overlayName, ::UnityEngine::Transform* transform, float widthInMeters);
   }; // SteamVR_LoadLevel
   #pragma pack(pop)

@@ -131,10 +131,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x26C87A8
+    // Offset: 0x26C0318
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x26C8C70
+    // Offset: 0x26C07E0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PingUtility/<PingAsync>d__0
   // WARNING Not writing size check since size may be invalid!

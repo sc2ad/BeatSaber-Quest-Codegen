@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<LightColorGroupParent> _lightColorGroupParents
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupParent*>*& dyn__lightColorGroupParents();
     // public System.Void .ctor()
-    // Offset: 0x151219C
+    // Offset: 0x1510D0C
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

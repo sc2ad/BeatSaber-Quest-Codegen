@@ -409,74 +409,74 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 position
     [[deprecated("Use field access instead!")]] int& dyn_position();
     // public System.Int32 get_Reuses()
-    // Offset: 0x1AC5054
+    // Offset: 0x1AC2BC4
     int get_Reuses();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1AC505C
+    // Offset: 0x1AC2BCC
     ::System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Boolean get_IsSecure()
-    // Offset: 0x1AC50F8
+    // Offset: 0x1AC2C68
     bool get_IsSecure();
     // public System.Void set_Prefix(System.Net.ListenerPrefix value)
-    // Offset: 0x1AC5100
+    // Offset: 0x1AC2C70
     void set_Prefix(::System::Net::ListenerPrefix* value);
     // public System.Void .ctor(System.Net.Sockets.Socket sock, System.Net.EndPointListener epl, System.Boolean secure, System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1AC4B94
+    // Offset: 0x1AC2704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpConnection*, creationType>(sock, epl, secure, cert)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1AC83C8
+    // Offset: 0x1AC5F38
     static void _cctor();
     // private System.Void Init()
-    // Offset: 0x1AC4F18
+    // Offset: 0x1AC2A88
     void Init();
     // private System.Void OnTimeout(System.Object unused)
-    // Offset: 0x1AC5108
+    // Offset: 0x1AC2C78
     void OnTimeout(::Il2CppObject* unused);
     // public System.Void BeginReadRequest()
-    // Offset: 0x1AC528C
+    // Offset: 0x1AC2DFC
     void BeginReadRequest();
     // public System.Net.RequestStream GetRequestStream(System.Boolean chunked, System.Int64 contentlength)
-    // Offset: 0x1AC5430
+    // Offset: 0x1AC2FA0
     ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
     // public System.Net.ResponseStream GetResponseStream()
-    // Offset: 0x1AC567C
+    // Offset: 0x1AC31EC
     ::System::Net::ResponseStream* GetResponseStream();
     // static private System.Void OnRead(System.IAsyncResult ares)
-    // Offset: 0x1AC5750
+    // Offset: 0x1AC32C0
     static void OnRead(::System::IAsyncResult* ares);
     // private System.Void OnReadInternal(System.IAsyncResult ares)
-    // Offset: 0x1AC5828
+    // Offset: 0x1AC3398
     void OnReadInternal(::System::IAsyncResult* ares);
     // private System.Void RemoveConnection()
-    // Offset: 0x1AC6850
+    // Offset: 0x1AC43C0
     void RemoveConnection();
     // private System.Boolean ProcessInput(System.IO.MemoryStream ms)
-    // Offset: 0x1AC5F7C
+    // Offset: 0x1AC3AEC
     bool ProcessInput(::System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
-    // Offset: 0x1AC6BF4
+    // Offset: 0x1AC4764
     ::StringW ReadLine(::ArrayW<uint8_t> buffer, int offset, int len, ByRef<int> used);
     // public System.Void SendError(System.String msg, System.Int32 status)
-    // Offset: 0x1AC5B58
+    // Offset: 0x1AC36C8
     void SendError(::StringW msg, int status);
     // public System.Void SendError()
-    // Offset: 0x1AC5F5C
+    // Offset: 0x1AC3ACC
     void SendError();
     // private System.Void Unbind()
-    // Offset: 0x1AC524C
+    // Offset: 0x1AC2DBC
     void Unbind();
     // private System.Void CloseSocket()
-    // Offset: 0x1AC512C
+    // Offset: 0x1AC2C9C
     void CloseSocket();
     // System.Void Close(System.Boolean force_close)
-    // Offset: 0x1AC5D1C
+    // Offset: 0x1AC388C
     void Close(bool force_close);
     // private System.Boolean <.ctor>b__24_0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1AC8444
+    // Offset: 0x1AC5FB4
     bool $_ctor$b__24_0(::Il2CppObject* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
   #pragma pack(pop)

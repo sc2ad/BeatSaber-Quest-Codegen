@@ -109,25 +109,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool MovePrevious();
     // public System.Void Reset()
-    // Offset: 0x1F5A1D8
+    // Offset: 0x1F57D48
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x1F5A20C
+    // Offset: 0x1F57D7C
     void InternalReset();
     // System.Void InternalInitialize(System.Char* charStart, System.Char* charEnd, System.Text.EncoderNLS encoder, System.Boolean setEncoder)
-    // Offset: 0x1F55478
+    // Offset: 0x1F52FE8
     void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
     // System.Char InternalGetNextChar()
-    // Offset: 0x1F55494
+    // Offset: 0x1F53004
     ::Il2CppChar InternalGetNextChar();
     // System.Boolean InternalFallback(System.Char ch, ref System.Char* chars)
-    // Offset: 0x1F5A224
+    // Offset: 0x1F57D94
     bool InternalFallback(::Il2CppChar ch, ByRef<::Il2CppChar*> chars);
     // System.Void ThrowLastCharRecursive(System.Int32 charRecursive)
-    // Offset: 0x1F5A3F4
+    // Offset: 0x1F57F64
     void ThrowLastCharRecursive(int charRecursive);
     // protected System.Void .ctor()
-    // Offset: 0x1F59810
+    // Offset: 0x1F57380
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

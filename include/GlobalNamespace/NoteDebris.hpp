@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11127C8
+    // [SpaceAttribute] Offset: 0x11146C8
     // private UnityEngine.AnimationCurve _cutoutCurve
     // Size: 0x8
     // Offset: 0x30
@@ -96,14 +96,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxCutPointCenterDistance and: centroidComputationMesh
     char __padding4[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1112810
+    // [SpaceAttribute] Offset: 0x1114710
     // private UnityEngine.Mesh _centroidComputationMesh
     // Size: 0x8
     // Offset: 0x40
     ::UnityEngine::Mesh* centroidComputationMesh;
     // Field size check
     static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
-    // [InjectAttribute] Offset: 0x1112848
+    // [InjectAttribute] Offset: 0x1114748
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
@@ -131,27 +131,27 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112858
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1114758
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID
     static void _set__cutoutPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112868
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1114768
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
     // Set static field: static private readonly System.Int32 _colorID
     static void _set__colorID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112878
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1114778
     // Get static field: static private readonly System.Int32 _cutPlaneID
     static int _get__cutPlaneID();
     // Set static field: static private readonly System.Int32 _cutPlaneID
     static void _set__cutPlaneID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112888
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1114788
     // Get static field: static private readonly System.Int32 _cutoutTexOffsetID
     static int _get__cutoutTexOffsetID();
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetID
     static void _set__cutoutTexOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112898
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1114798
     // Get static field: static private UnityEngine.Vector3[] _meshVertices
     static ::ArrayW<::UnityEngine::Vector3> _get__meshVertices();
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
@@ -177,26 +177,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<INoteDebrisDidFinishEvent> _didFinishEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteDebrisDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x1503004
+    // Offset: 0x1501C90
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
     // public System.Void .ctor()
-    // Offset: 0x1503BBC
+    // Offset: 0x1502848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebris* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebris::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebris*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1503C54
+    // Offset: 0x15028E0
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x150300C
+    // Offset: 0x1501C98
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x15030BC
+    // Offset: 0x1501D48
     void Update();
     // public System.Void Init(ColorType colorType, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRot, UnityEngine.Vector3 noteMoveVec, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 positionOffset, UnityEngine.Quaternion rotationOffset, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 force, UnityEngine.Vector3 torque, System.Single lifeTime)
-    // Offset: 0x15032E0
+    // Offset: 0x1501F6C
     void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque, float lifeTime);
   }; // NoteDebris
   #pragma pack(pop)
