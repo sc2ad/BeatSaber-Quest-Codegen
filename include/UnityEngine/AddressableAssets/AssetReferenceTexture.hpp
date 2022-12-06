@@ -36,7 +36,7 @@ namespace UnityEngine::AddressableAssets {
   class AssetReferenceTexture : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture*> {
     public:
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x18DAB84
+    // Offset: 0x18DA6F4
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)

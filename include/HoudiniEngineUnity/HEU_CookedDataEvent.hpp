@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   class HEU_CookedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x172811C
+    // Offset: 0x1728C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_CookedDataEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_CookedDataEvent::.ctor");

@@ -68,14 +68,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawAxis1D SecondaryHandTrigger
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawAxis1D& dyn_SecondaryHandTrigger();
     // public System.Void .ctor()
-    // Offset: 0x1A24C8C
+    // Offset: 0x1A237FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualAxis1DMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualAxis1DMap*, creationType>()));
     }
     // public OVRInput/RawAxis1D ToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x1A25A74
+    // Offset: 0x1A245E4
     ::GlobalNamespace::OVRInput::RawAxis1D ToRawMask(::GlobalNamespace::OVRInput::Axis1D virtualMask);
   }; // OVRInput/OVRControllerBase/VirtualAxis1DMap
   #pragma pack(pop)

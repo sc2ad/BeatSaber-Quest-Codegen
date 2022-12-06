@@ -48,20 +48,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x26D27A4
+    // Offset: 0x26CA314
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x26D2808
+    // Offset: 0x26CA378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::$$c*, creationType>()));
     }
     // System.String <ValidateCertificateChainUnity>b__10_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x26D2810
+    // Offset: 0x26CA380
     ::StringW $ValidateCertificateChainUnity$b__10_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // System.String <ValidateCertificateChainDotNet>b__11_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
-    // Offset: 0x26D2898
+    // Offset: 0x26CA408
     ::StringW $ValidateCertificateChainDotNet$b__11_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
   }; // X509CertificateUtility/<>c
   #pragma pack(pop)

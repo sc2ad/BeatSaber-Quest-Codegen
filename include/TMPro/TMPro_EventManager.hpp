@@ -110,46 +110,46 @@ namespace TMPro {
     // Set static field: static public readonly TMPro.FastAction`1<UnityEngine.Object> TEXT_CHANGED_EVENT
     static void _set_TEXT_CHANGED_EVENT(::TMPro::FastAction_1<::UnityEngine::Object*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19072A0
+    // Offset: 0x1906E10
     static void _cctor();
     // static public System.Void ON_PRE_RENDER_OBJECT_CHANGED()
-    // Offset: 0x1906BA4
+    // Offset: 0x1906714
     static void ON_PRE_RENDER_OBJECT_CHANGED();
     // static public System.Void ON_MATERIAL_PROPERTY_CHANGED(System.Boolean isChanged, UnityEngine.Material mat)
-    // Offset: 0x1906C18
+    // Offset: 0x1906788
     static void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Material* mat);
     // static public System.Void ON_FONT_PROPERTY_CHANGED(System.Boolean isChanged, TMPro.TMP_FontAsset font)
-    // Offset: 0x1906CAC
+    // Offset: 0x190681C
     static void ON_FONT_PROPERTY_CHANGED(bool isChanged, ::TMPro::TMP_FontAsset* font);
     // static public System.Void ON_SPRITE_ASSET_PROPERTY_CHANGED(System.Boolean isChanged, UnityEngine.Object obj)
-    // Offset: 0x1906D40
+    // Offset: 0x19068B0
     static void ON_SPRITE_ASSET_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
     // static public System.Void ON_TEXTMESHPRO_PROPERTY_CHANGED(System.Boolean isChanged, TMPro.TextMeshPro obj)
-    // Offset: 0x1906DD4
+    // Offset: 0x1906944
     static void ON_TEXTMESHPRO_PROPERTY_CHANGED(bool isChanged, ::TMPro::TextMeshPro* obj);
     // static public System.Void ON_DRAG_AND_DROP_MATERIAL_CHANGED(UnityEngine.GameObject sender, UnityEngine.Material currentMaterial, UnityEngine.Material newMaterial)
-    // Offset: 0x1906E68
+    // Offset: 0x19069D8
     static void ON_DRAG_AND_DROP_MATERIAL_CHANGED(::UnityEngine::GameObject* sender, ::UnityEngine::Material* currentMaterial, ::UnityEngine::Material* newMaterial);
     // static public System.Void ON_TEXT_STYLE_PROPERTY_CHANGED(System.Boolean isChanged)
-    // Offset: 0x1906F04
+    // Offset: 0x1906A74
     static void ON_TEXT_STYLE_PROPERTY_CHANGED(bool isChanged);
     // static public System.Void ON_COLOR_GRAIDENT_PROPERTY_CHANGED(TMPro.TMP_ColorGradient gradient)
-    // Offset: 0x1906F88
+    // Offset: 0x1906AF8
     static void ON_COLOR_GRAIDENT_PROPERTY_CHANGED(::TMPro::TMP_ColorGradient* gradient);
     // static public System.Void ON_TEXT_CHANGED(UnityEngine.Object obj)
-    // Offset: 0x190700C
+    // Offset: 0x1906B7C
     static void ON_TEXT_CHANGED(::UnityEngine::Object* obj);
     // static public System.Void ON_TMP_SETTINGS_CHANGED()
-    // Offset: 0x1907090
+    // Offset: 0x1906C00
     static void ON_TMP_SETTINGS_CHANGED();
     // static public System.Void ON_RESOURCES_LOADED()
-    // Offset: 0x1907104
+    // Offset: 0x1906C74
     static void ON_RESOURCES_LOADED();
     // static public System.Void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(System.Boolean isChanged, TMPro.TextMeshProUGUI obj)
-    // Offset: 0x1907178
+    // Offset: 0x1906CE8
     static void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool isChanged, ::TMPro::TextMeshProUGUI* obj);
     // static public System.Void ON_COMPUTE_DT_EVENT(System.Object Sender, TMPro.Compute_DT_EventArgs e)
-    // Offset: 0x190720C
+    // Offset: 0x1906D7C
     static void ON_COMPUTE_DT_EVENT(::Il2CppObject* Sender, ::TMPro::Compute_DT_EventArgs* e);
   }; // TMPro.TMPro_EventManager
   #pragma pack(pop)

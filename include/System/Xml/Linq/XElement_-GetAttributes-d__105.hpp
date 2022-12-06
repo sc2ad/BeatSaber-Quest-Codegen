@@ -116,32 +116,32 @@ namespace System::Xml::Linq {
     // Get instance field reference: public System.Xml.Linq.XName <>3__name
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XName*& dyn_$$3__name();
     // private System.Xml.Linq.XAttribute System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current()
-    // Offset: 0x2B2D560
+    // Offset: 0x2B240D0
     ::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator$System_Xml_Linq_XAttribute$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2B2D5C8
+    // Offset: 0x2B24138
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2B2D2E4
+    // Offset: 0x2B23E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XElement::$GetAttributes$d__105* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XElement::$GetAttributes$d__105::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElement::$GetAttributes$d__105*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2B2D4A8
+    // Offset: 0x2B24018
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2B2D4AC
+    // Offset: 0x2B2401C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2B2D568
+    // Offset: 0x2B240D8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XAttribute> System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator()
-    // Offset: 0x2B2D5D0
+    // Offset: 0x2B24140
     ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* System_Collections_Generic_IEnumerable$System_Xml_Linq_XAttribute$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2B2D684
+    // Offset: 0x2B241F4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Xml.Linq.XElement/System.Xml.Linq.<GetAttributes>d__105
   #pragma pack(pop)

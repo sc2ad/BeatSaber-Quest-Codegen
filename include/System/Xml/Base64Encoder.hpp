@@ -56,7 +56,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Char[] charsLine
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppChar>& dyn_charsLine();
     // System.Void .ctor()
-    // Offset: 0x1ADE478
+    // Offset: 0x1ADBFE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Base64Encoder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Base64Encoder::.ctor");
@@ -66,10 +66,10 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteChars(::ArrayW<::Il2CppChar> chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1ADE4DC
+    // Offset: 0x1ADC04C
     void Encode(::ArrayW<uint8_t> buffer, int index, int count);
     // System.Void Flush()
-    // Offset: 0x1ADE810
+    // Offset: 0x1ADC380
     void Flush();
   }; // System.Xml.Base64Encoder
   #pragma pack(pop)

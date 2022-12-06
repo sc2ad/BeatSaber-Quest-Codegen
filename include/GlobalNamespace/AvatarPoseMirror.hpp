@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   class AvatarPoseMirror : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x110E1AC
+    // [InjectAttribute] Offset: 0x11100AC
     // private readonly AvatarPoseController _avatarPoseController
     // Size: 0x8
     // Offset: 0x18
@@ -54,26 +54,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPoseController _avatarPoseController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AvatarPoseController*& dyn__avatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x1542B6C
+    // Offset: 0x153F6DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPoseMirror* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPoseMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPoseMirror*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1542914
+    // Offset: 0x153F484
     void Start();
     // static private System.Void HandleAvatarPoseControllerPositionsWillBeSet(UnityEngine.Vector3 headPosition, UnityEngine.Vector3 leftHandPosition, UnityEngine.Vector3 rightHandPosition, out UnityEngine.Vector3 newHeadPosition, out UnityEngine.Vector3 newLeftHandPosition, out UnityEngine.Vector3 newRightHandPosition)
-    // Offset: 0x15429C0
+    // Offset: 0x153F530
     static void HandleAvatarPoseControllerPositionsWillBeSet(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
     // static private System.Void HandleAvatarPoseControllerRotationsWillBeSet(UnityEngine.Quaternion headRotation, UnityEngine.Quaternion leftHandRotation, UnityEngine.Quaternion rightHandRotation, out UnityEngine.Quaternion newHeadRotation, out UnityEngine.Quaternion newLeftHandRotation, out UnityEngine.Quaternion newRightHandRotation)
-    // Offset: 0x1542A8C
+    // Offset: 0x153F5FC
     static void HandleAvatarPoseControllerRotationsWillBeSet(::UnityEngine::Quaternion headRotation, ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation, ByRef<::UnityEngine::Quaternion> newHeadRotation, ByRef<::UnityEngine::Quaternion> newLeftHandRotation, ByRef<::UnityEngine::Quaternion> newRightHandRotation);
     // static private UnityEngine.Quaternion MirrorRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x1542B34
+    // Offset: 0x153F6A4
     static ::UnityEngine::Quaternion MirrorRotation(::UnityEngine::Quaternion rotation);
     // static private UnityEngine.Vector3 MirrorPosition(UnityEngine.Vector3 position)
-    // Offset: 0x1542A54
+    // Offset: 0x153F5C4
     static ::UnityEngine::Vector3 MirrorPosition(::UnityEngine::Vector3 position);
   }; // AvatarPoseMirror
   #pragma pack(pop)

@@ -30,7 +30,7 @@ namespace TMPro {
   class TMP_InputValidator : public ::UnityEngine::ScriptableObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x14B6F24
+    // Offset: 0x14B6C64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputValidator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputValidator::.ctor");

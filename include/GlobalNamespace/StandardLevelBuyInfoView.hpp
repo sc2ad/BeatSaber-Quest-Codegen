@@ -78,23 +78,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _buyPackButton
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__buyPackButton();
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0x147D540
+    // Offset: 0x147D1F8
     ::UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0x147D548
+    // Offset: 0x147D200
     ::UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0x147D550
+    // Offset: 0x147D208
     ::UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void .ctor()
-    // Offset: 0x147D5CC
+    // Offset: 0x147D284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelBuyInfoView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelBuyInfoView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelBuyInfoView*, creationType>()));
     }
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0x147D558
+    // Offset: 0x147D210
     void RefreshView(::StringW infoText, bool canBuyPack);
   }; // StandardLevelBuyInfoView
   #pragma pack(pop)

@@ -65,27 +65,27 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D11730
+    // Offset: 0x1D0D2A0
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.FacetsChecker Datatype_decimal::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D11798
+    // Offset: 0x1D0D308
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_integer::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Type get_ValueType()
-    // Offset: 0x1D1183C
+    // Offset: 0x1D0D3AC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ValueType()
     ::System::Type* get_ValueType();
     // override System.Type get_ListValueType()
-    // Offset: 0x1D118A4
+    // Offset: 0x1D0D414
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Type Datatype_decimal::get_ListValueType()
     ::System::Type* get_ListValueType();
     // public System.Void .ctor()
-    // Offset: 0x1D11470
+    // Offset: 0x1D0CFE0
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Void Datatype_integer::.ctor()
     // Base method: System.Void Datatype_decimal::.ctor()
@@ -98,19 +98,19 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_long*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D11A58
+    // Offset: 0x1D0D5C8
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.cctor()
     // Base method: System.Void Datatype_anySimpleType::.cctor()
     // Base method: System.Void DatatypeImplementation::.cctor()
     static void _cctor();
     // override System.Int32 Compare(System.Object value1, System.Object value2)
-    // Offset: 0x1D117A0
+    // Offset: 0x1D0D310
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Int32 Datatype_decimal::Compare(System.Object value1, System.Object value2)
     int Compare(::Il2CppObject* value1, ::Il2CppObject* value2);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D1190C
+    // Offset: 0x1D0D47C
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Exception Datatype_integer::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

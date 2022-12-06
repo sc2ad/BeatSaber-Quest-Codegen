@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class SOVariableAttribute : public ::UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AC1EE4
+    // Offset: 0x2ABAA54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SOVariableAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SOVariableAttribute::.ctor");

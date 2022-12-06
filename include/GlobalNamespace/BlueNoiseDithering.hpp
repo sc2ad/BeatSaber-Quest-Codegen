@@ -45,12 +45,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FB014
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FCF14
     // Get static field: static private readonly System.Int32 _noiseParamsID
     static int _get__noiseParamsID();
     // Set static field: static private readonly System.Int32 _noiseParamsID
     static void _set__noiseParamsID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FB024
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FCF24
     // Get static field: static private readonly System.Int32 _globalNoiseTextureID
     static int _get__globalNoiseTextureID();
     // Set static field: static private readonly System.Int32 _globalNoiseTextureID
@@ -58,17 +58,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _noiseTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__noiseTexture();
     // public System.Void .ctor()
-    // Offset: 0x1CCDACC
+    // Offset: 0x1CC963C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlueNoiseDithering* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BlueNoiseDithering::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlueNoiseDithering*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CCDAD4
+    // Offset: 0x1CC9644
     static void _cctor();
     // public System.Void SetBlueNoiseShaderParams(System.Int32 cameraPixelWidth, System.Int32 cameraPixelHeight)
-    // Offset: 0x1CCD9AC
+    // Offset: 0x1CC951C
     void SetBlueNoiseShaderParams(int cameraPixelWidth, int cameraPixelHeight);
   }; // BlueNoiseDithering
   #pragma pack(pop)

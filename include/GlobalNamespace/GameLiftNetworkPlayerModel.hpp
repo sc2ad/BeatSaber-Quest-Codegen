@@ -58,7 +58,7 @@ namespace GlobalNamespace {
   class GameLiftNetworkPlayerModel : public ::GlobalNamespace::NetworkPlayerModel_1<::GlobalNamespace::GameLiftConnectionManager*> {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1110EBC
+    // [InjectAttribute] Offset: 0x1112DBC
     // private readonly BGNet.Core.GameLift.IGameLiftPlayerSessionProvider _gameLiftPlayerSessionProvider
     // Size: 0x8
     // Offset: 0xF0
@@ -85,38 +85,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameLiftConnectionManager/StartClientParams _cachedStartClientParams
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameLiftConnectionManager::StartClientParams*& dyn__cachedStartClientParams();
     // protected IConnectionInitParams`1<GameLiftConnectionManager> GetConnectToServerParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
-    // Offset: 0x1444BAC
+    // Offset: 0x1443654
     ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
     // protected IConnectionInitParams`1<GameLiftConnectionManager> GetStartClientParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
-    // Offset: 0x1444C54
+    // Offset: 0x14436FC
     ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // public override System.String get_secret()
-    // Offset: 0x1444868
+    // Offset: 0x1443310
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.String NetworkPlayerModel_1::get_secret()
     ::StringW get_secret();
     // public override System.String get_code()
-    // Offset: 0x14448C4
+    // Offset: 0x144336C
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.String NetworkPlayerModel_1::get_code()
     ::StringW get_code();
     // public override System.String get_partyOwnerId()
-    // Offset: 0x1444920
+    // Offset: 0x14433C8
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.String NetworkPlayerModel_1::get_partyOwnerId()
     ::StringW get_partyOwnerId();
     // public override GameplayServerConfiguration get_configuration()
-    // Offset: 0x1444928
+    // Offset: 0x14433D0
     // Implemented from: BaseNetworkPlayerModel
     // Base method: GameplayServerConfiguration BaseNetworkPlayerModel::get_configuration()
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public override BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x14449A8
+    // Offset: 0x1443450
     // Implemented from: BaseNetworkPlayerModel
     // Base method: BeatmapLevelSelectionMask BaseNetworkPlayerModel::get_selectionMask()
     ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public System.Void .ctor()
-    // Offset: 0x1444CE4
+    // Offset: 0x144378C
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.Void NetworkPlayerModel_1::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
@@ -126,12 +126,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftNetworkPlayerModel*, creationType>()));
     }
     // protected override System.Void Update()
-    // Offset: 0x1444A28
+    // Offset: 0x14434D0
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.Void NetworkPlayerModel_1::Update()
     void Update();
     // protected override System.Void RefreshPublicServers(BeatmapLevelSelectionMask localSelectionMask, GameplayServerConfiguration localConfiguration, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure)
-    // Offset: 0x1444AEC
+    // Offset: 0x1443594
     // Implemented from: NetworkPlayerModel`1
     // Base method: System.Void NetworkPlayerModel_1::RefreshPublicServers(BeatmapLevelSelectionMask localSelectionMask, GameplayServerConfiguration localConfiguration, System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure)
     void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);

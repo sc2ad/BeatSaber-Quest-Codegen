@@ -36,20 +36,20 @@ namespace System::Reflection {
   class EventInfo::AddEventAdapter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x22EC294
+    // Offset: 0x22EAE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventInfo::AddEventAdapter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::EventInfo::AddEventAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventInfo::AddEventAdapter*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object _this, System.Delegate dele)
-    // Offset: 0x22EC2A4
+    // Offset: 0x22EAE14
     void Invoke(::Il2CppObject* _this, ::System::Delegate* dele);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.Delegate dele, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x22EC68C
+    // Offset: 0x22EB1FC
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, ::System::Delegate* dele, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x22EC6BC
+    // Offset: 0x22EB22C
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Reflection.EventInfo/System.Reflection.AddEventAdapter
   #pragma pack(pop)

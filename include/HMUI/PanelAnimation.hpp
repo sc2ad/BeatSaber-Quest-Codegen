@@ -53,17 +53,17 @@ namespace HMUI {
     // Nested type: ::HMUI::PanelAnimation::$AnimationCoroutine$d__1
     class $AnimationCoroutine$d__1;
     // public System.Void .ctor()
-    // Offset: 0x1708F3C
+    // Offset: 0x1708AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::PanelAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimation*, creationType>()));
     }
     // public System.Void StartAnimation(UnityEngine.CanvasGroup canvasGroup, UnityEngine.CanvasGroup parentCanvasGroup, System.Single duration, UnityEngine.AnimationCurve scaleXAnimationCurve, UnityEngine.AnimationCurve scaleYAnimationCurve, UnityEngine.AnimationCurve alphaAnimationCurve, UnityEngine.AnimationCurve parentAlphaAnimationCurve, System.Action finishedCallback)
-    // Offset: 0x1708CD4
+    // Offset: 0x1708844
     void StartAnimation(::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, float duration, ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve, ::System::Action* finishedCallback);
     // public System.Collections.IEnumerator AnimationCoroutine(System.Single duration, UnityEngine.CanvasGroup canvasGroup, UnityEngine.CanvasGroup parentCanvasGroup, UnityEngine.AnimationCurve scaleXAnimationCurve, UnityEngine.AnimationCurve scaleYAnimationCurve, UnityEngine.AnimationCurve alphaAnimationCurve, UnityEngine.AnimationCurve parentAlphaAnimationCurve, System.Action finishedCallback)
-    // Offset: 0x1708E44
+    // Offset: 0x17089B4
     ::System::Collections::IEnumerator* AnimationCoroutine(float duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve, ::System::Action* finishedCallback);
   }; // HMUI.PanelAnimation
   #pragma pack(pop)

@@ -57,17 +57,17 @@ namespace System::Net::Http {
       return reinterpret_cast<::System::IDisposable*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x19DC910
+    // Offset: 0x19DA480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpMessageHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpMessageHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMessageHandler*, creationType>()));
     }
     // public System.Void Dispose()
-    // Offset: 0x19DF5B4
+    // Offset: 0x19DD124
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19DCA2C
+    // Offset: 0x19DA59C
     void Dispose(bool disposing);
     // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -127,44 +127,44 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.Type m_Type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_m_Type();
     // public System.String get_InternalId()
-    // Offset: 0x18E134C
+    // Offset: 0x18E0EBC
     ::StringW get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x18E1354
+    // Offset: 0x18E0EC4
     ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x18E135C
+    // Offset: 0x18E0ECC
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x18E1414
+    // Offset: 0x18E0F84
     bool get_HasDependencies();
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x18E1424
+    // Offset: 0x18E0F94
     int get_DependencyHashCode();
     // public System.Object get_Data()
-    // Offset: 0x18E142C
+    // Offset: 0x18E0F9C
     ::Il2CppObject* get_Data();
     // public System.String get_PrimaryKey()
-    // Offset: 0x18E1434
+    // Offset: 0x18E0FA4
     ::StringW get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x18E143C
+    // Offset: 0x18E0FAC
     void set_PrimaryKey(::StringW value);
     // public System.Type get_ResourceType()
-    // Offset: 0x18E1444
+    // Offset: 0x18E0FB4
     ::System::Type* get_ResourceType();
     // public System.Void .ctor(UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locator, System.String internalId, System.String providerId, System.Object dependencyKey, System.Object data, System.Int32 depHash, System.String primaryKey, System.Type type)
-    // Offset: 0x18E1124
+    // Offset: 0x18E0C94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogData::CompactLocation* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator, ::StringW internalId, ::StringW providerId, ::Il2CppObject* dependencyKey, ::Il2CppObject* data, int depHash, ::StringW primaryKey, ::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogData::CompactLocation*, creationType>(locator, internalId, providerId, dependencyKey, data, depHash, primaryKey, type)));
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x18E1454
+    // Offset: 0x18E0FC4
     int Hash(::System::Type* t);
     // public override System.String ToString()
-    // Offset: 0x18E144C
+    // Offset: 0x18E0FBC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

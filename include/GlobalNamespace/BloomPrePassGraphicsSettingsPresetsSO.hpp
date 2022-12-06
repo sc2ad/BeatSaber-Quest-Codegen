@@ -51,15 +51,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassGraphicsSettingsPresetsSO/Preset[] _presets
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x13E09EC
+    // Offset: 0x13E1504
     ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x13E09F4
+    // Offset: 0x13E150C
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x13E09FC
+    // Offset: 0x13E1514
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

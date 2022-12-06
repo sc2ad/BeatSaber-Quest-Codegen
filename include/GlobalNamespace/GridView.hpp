@@ -115,35 +115,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.MonoBehaviour,System.Collections.Generic.List`1<UnityEngine.MonoBehaviour>> _spawnedCellsPerPrefabDictionary
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>*& dyn__spawnedCellsPerPrefabDictionary();
     // public GridView/IDataSource get_dataSource()
-    // Offset: 0x13EE624
+    // Offset: 0x13EF13C
     ::GlobalNamespace::GridView::IDataSource* get_dataSource();
     // public GridView/GridViewCellsEnumerator get_cellsEnumerator()
-    // Offset: 0x13EE62C
+    // Offset: 0x13EF144
     ::GlobalNamespace::GridView::GridViewCellsEnumerator* get_cellsEnumerator();
     // private System.Void set_cellsEnumerator(GridView/GridViewCellsEnumerator value)
-    // Offset: 0x13EE634
+    // Offset: 0x13EF14C
     void set_cellsEnumerator(::GlobalNamespace::GridView::GridViewCellsEnumerator* value);
     // public System.Int32 get_rowCount()
-    // Offset: 0x13EE63C
+    // Offset: 0x13EF154
     int get_rowCount();
     // public System.Int32 get_columnCount()
-    // Offset: 0x13EE644
+    // Offset: 0x13EF15C
     int get_columnCount();
     // public System.Void .ctor()
-    // Offset: 0x13EEE3C
+    // Offset: 0x13EF954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GridView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GridView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GridView*, creationType>()));
     }
     // public System.Void SetDataSource(GridView/IDataSource newDataSource, System.Boolean reloadData)
-    // Offset: 0x13EE64C
+    // Offset: 0x13EF164
     void SetDataSource(::GlobalNamespace::GridView::IDataSource* newDataSource, bool reloadData);
     // public System.Void ReloadData()
-    // Offset: 0x13EE710
+    // Offset: 0x13EF228
     void ReloadData();
     // public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetActiveCellsForIdentifier(UnityEngine.MonoBehaviour prefab)
-    // Offset: 0x13EED74
+    // Offset: 0x13EF88C
     ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
     // public T GetReusableCellView(UnityEngine.MonoBehaviour prefab)
     // Offset: 0xFFFFFFFFFFFFFFFF

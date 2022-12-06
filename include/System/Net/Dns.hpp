@@ -49,46 +49,46 @@ namespace System::Net {
     // Nested type: ::System::Net::Dns::GetHostAddressesCallback
     class GetHostAddressesCallback;
     // static public System.IAsyncResult BeginGetHostAddresses(System.String hostNameOrAddress, System.AsyncCallback requestCallback, System.Object state)
-    // Offset: 0x1A9F848
+    // Offset: 0x1A9D3B8
     static ::System::IAsyncResult* BeginGetHostAddresses(::StringW hostNameOrAddress, ::System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // static public System.Net.IPAddress[] EndGetHostAddresses(System.IAsyncResult asyncResult)
-    // Offset: 0x1A9F9C8
+    // Offset: 0x1A9D538
     static ::ArrayW<::System::Net::IPAddress*> EndGetHostAddresses(::System::IAsyncResult* asyncResult);
     // static private System.Boolean GetHostByName_internal(System.String host, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x1A9FACC
+    // Offset: 0x1A9D63C
     static bool GetHostByName_internal(::StringW host, ByRef<::StringW> h_name, ByRef<::ArrayW<::StringW>> h_aliases, ByRef<::ArrayW<::StringW>> h_addr_list, int hint);
     // static private System.Boolean GetHostByAddr_internal(System.String addr, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x1A9FAD0
+    // Offset: 0x1A9D640
     static bool GetHostByAddr_internal(::StringW addr, ByRef<::StringW> h_name, ByRef<::ArrayW<::StringW>> h_aliases, ByRef<::ArrayW<::StringW>> h_addr_list, int hint);
     // static private System.Boolean GetHostName_internal(out System.String h_name)
-    // Offset: 0x1A9FAD4
+    // Offset: 0x1A9D644
     static bool GetHostName_internal(ByRef<::StringW> h_name);
     // static private System.Void Error_11001(System.String hostName)
-    // Offset: 0x1A9FAD8
+    // Offset: 0x1A9D648
     static void Error_11001(::StringW hostName);
     // static private System.Net.IPHostEntry hostent_to_IPHostEntry(System.String originalHostName, System.String h_name, System.String[] h_aliases, System.String[] h_addrlist)
-    // Offset: 0x1A9FB64
+    // Offset: 0x1A9D6D4
     static ::System::Net::IPHostEntry* hostent_to_IPHostEntry(::StringW originalHostName, ::StringW h_name, ::ArrayW<::StringW> h_aliases, ::ArrayW<::StringW> h_addrlist);
     // static private System.Net.IPHostEntry GetHostByAddressFromString(System.String address, System.Boolean parse)
-    // Offset: 0x1A9FE50
+    // Offset: 0x1A9D9C0
     static ::System::Net::IPHostEntry* GetHostByAddressFromString(::StringW address, bool parse);
     // static public System.Net.IPHostEntry GetHostEntry(System.String hostNameOrAddress)
-    // Offset: 0x1A9FF70
+    // Offset: 0x1A9DAE0
     static ::System::Net::IPHostEntry* GetHostEntry(::StringW hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostEntry(System.Net.IPAddress address)
-    // Offset: 0x1AA00C0
+    // Offset: 0x1A9DC30
     static ::System::Net::IPHostEntry* GetHostEntry(::System::Net::IPAddress* address);
     // static public System.Net.IPAddress[] GetHostAddresses(System.String hostNameOrAddress)
-    // Offset: 0x1AA0240
+    // Offset: 0x1A9DDB0
     static ::ArrayW<::System::Net::IPAddress*> GetHostAddresses(::StringW hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostByName(System.String hostName)
-    // Offset: 0x1AA0154
+    // Offset: 0x1A9DCC4
     static ::System::Net::IPHostEntry* GetHostByName(::StringW hostName);
     // static public System.String GetHostName()
-    // Offset: 0x1AA03F4
+    // Offset: 0x1A9DF64
     static ::StringW GetHostName();
     // static public System.Threading.Tasks.Task`1<System.Net.IPAddress[]> GetHostAddressesAsync(System.String hostNameOrAddress)
-    // Offset: 0x1AA042C
+    // Offset: 0x1A9DF9C
     static ::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*>>* GetHostAddressesAsync(::StringW hostNameOrAddress);
   }; // System.Net.Dns
   #pragma pack(pop)

@@ -41,7 +41,7 @@ namespace Zenject {
   class ScriptableObjectInstallerBase : public ::UnityEngine::ScriptableObject/*, public ::Zenject::IInstaller*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10E3668
+    // [InjectAttribute] Offset: 0x10E5568
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -62,29 +62,29 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DiContainer _container
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn__container();
     // protected Zenject.DiContainer get_Container()
-    // Offset: 0x1DB61EC
+    // Offset: 0x1DB1D5C
     ::Zenject::DiContainer* get_Container();
     // private System.Boolean Zenject.IInstaller.get_IsEnabled()
-    // Offset: 0x1DB61F4
+    // Offset: 0x1DB1D64
     bool Zenject_IInstaller_get_IsEnabled();
     // public System.Void .ctor()
-    // Offset: 0x1DB6028
+    // Offset: 0x1DB1B98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstallerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstallerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstallerBase*, creationType>()));
     }
     // public System.Void InstallBindings()
-    // Offset: 0x1DB61FC
+    // Offset: 0x1DB1D6C
     void InstallBindings();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DB625C
+    // Offset: 0x1DB1DCC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1DB62B8
+    // Offset: 0x1DB1E28
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DB638C
+    // Offset: 0x1DB1EFC
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ScriptableObjectInstallerBase
   #pragma pack(pop)

@@ -24,21 +24,21 @@ namespace RootMotion::FinalIK {
   class InteractionObject::Multiplier : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113CD30
+    // [TooltipAttribute] Offset: 0x1140C00
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0x113CD68
+    // [TooltipAttribute] Offset: 0x1140C38
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
     float multiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113CDA0
+    // [TooltipAttribute] Offset: 0x1140C70
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
     // Size: 0x4
     // Offset: 0x18
@@ -53,14 +53,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type result
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_result();
     // public System.Void .ctor()
-    // Offset: 0x24178B0
+    // Offset: 0x2413420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Multiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::Multiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Multiplier*, creationType>()));
     }
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve weightCurve, System.Single timer)
-    // Offset: 0x2417408
+    // Offset: 0x2412F78
     float GetValue(::RootMotion::FinalIK::InteractionObject::WeightCurve* weightCurve, float timer);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Multiplier
   #pragma pack(pop)

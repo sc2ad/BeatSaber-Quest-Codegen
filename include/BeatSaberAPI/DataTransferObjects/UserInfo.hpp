@@ -46,7 +46,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String publicPlatformDisplayName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_publicPlatformDisplayName();
     // public System.Void .ctor()
-    // Offset: 0x13A2B30
+    // Offset: 0x13A3994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserInfo::.ctor");

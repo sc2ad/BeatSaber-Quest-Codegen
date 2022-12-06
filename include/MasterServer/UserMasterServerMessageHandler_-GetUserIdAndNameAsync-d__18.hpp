@@ -42,7 +42,7 @@ namespace MasterServer {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0x10F568C
+    // [TupleElementNamesAttribute] Offset: 0x10F758C
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.ValueTuple`2<System.String,System.String>> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
@@ -85,10 +85,10 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<IAuthenticationTokenProvider> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x172F688
+    // Offset: 0x17301F8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x172F96C
+    // Offset: 0x17304DC
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<GetUserIdAndNameAsync>d__18
   // WARNING Not writing size check since size may be invalid!

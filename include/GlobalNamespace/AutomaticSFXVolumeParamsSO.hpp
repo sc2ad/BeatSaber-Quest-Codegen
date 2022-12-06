@@ -97,31 +97,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _volumeSmooth
     [[deprecated("Use field access instead!")]] float& dyn__volumeSmooth();
     // public System.Single get_musicVolumeMultiplier()
-    // Offset: 0x153F810
+    // Offset: 0x153C380
     float get_musicVolumeMultiplier();
     // public System.Single get_threshold()
-    // Offset: 0x153F818
+    // Offset: 0x153C388
     float get_threshold();
     // public System.Single get_impact()
-    // Offset: 0x153F820
+    // Offset: 0x153C390
     float get_impact();
     // public System.Single get_attackTime()
-    // Offset: 0x153F828
+    // Offset: 0x153C398
     float get_attackTime();
     // public System.Single get_releaseTime()
-    // Offset: 0x153F830
+    // Offset: 0x153C3A0
     float get_releaseTime();
     // public System.Single get_minVolume()
-    // Offset: 0x153F838
+    // Offset: 0x153C3A8
     float get_minVolume();
     // public System.Single get_maxVolume()
-    // Offset: 0x153F840
+    // Offset: 0x153C3B0
     float get_maxVolume();
     // public System.Single get_volumeSmooth()
-    // Offset: 0x153F848
+    // Offset: 0x153C3B8
     float get_volumeSmooth();
     // public System.Void .ctor()
-    // Offset: 0x153F850
+    // Offset: 0x153C3C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolumeParamsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutomaticSFXVolumeParamsSO::.ctor");

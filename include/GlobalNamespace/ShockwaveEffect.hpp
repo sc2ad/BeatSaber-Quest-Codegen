@@ -81,17 +81,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _prevShockwaveParticleSpawnTime
     [[deprecated("Use field access instead!")]] float& dyn__prevShockwaveParticleSpawnTime();
     // public System.Void .ctor()
-    // Offset: 0x14113A8
+    // Offset: 0x1411E50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShockwaveEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShockwaveEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShockwaveEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14111BC
+    // Offset: 0x1411C64
     void Start();
     // public System.Void SpawnShockwave(UnityEngine.Vector3 pos)
-    // Offset: 0x14112D0
+    // Offset: 0x1411D78
     void SpawnShockwave(::UnityEngine::Vector3 pos);
   }; // ShockwaveEffect
   #pragma pack(pop)

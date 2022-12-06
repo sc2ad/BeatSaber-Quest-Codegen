@@ -85,43 +85,43 @@ namespace System::Xml::Linq {
     // Get instance field reference: private System.Xml.IDtdInfo dtdInfo
     [[deprecated("Use field access instead!")]] ::System::Xml::IDtdInfo*& dyn_dtdInfo();
     // public System.String get_InternalSubset()
-    // Offset: 0x2B2C940
+    // Offset: 0x2B234B0
     ::StringW get_InternalSubset();
     // public System.String get_Name()
-    // Offset: 0x2B2C948
+    // Offset: 0x2B234B8
     ::StringW get_Name();
     // public System.String get_PublicId()
-    // Offset: 0x2B2C958
+    // Offset: 0x2B234C8
     ::StringW get_PublicId();
     // public System.String get_SystemId()
-    // Offset: 0x2B2C960
+    // Offset: 0x2B234D0
     ::StringW get_SystemId();
     // public System.Void .ctor(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x2B2C7E0
+    // Offset: 0x2B23350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(name, publicId, systemId, internalSubset)));
     }
     // public System.Void .ctor(System.Xml.Linq.XDocumentType other)
-    // Offset: 0x2B2C880
+    // Offset: 0x2B233F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDocumentType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentType*, creationType>(other)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2B2C950
+    // Offset: 0x2B234C0
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2B2C968
+    // Offset: 0x2B234D8
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2B2CA08
+    // Offset: 0x2B23578
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

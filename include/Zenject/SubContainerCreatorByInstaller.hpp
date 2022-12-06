@@ -97,21 +97,21 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
     [[deprecated("Use field access instead!")]] ::Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x1DBFF04
+    // Offset: 0x1DBBA74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType, extraArgs)));
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType)
-    // Offset: 0x1DBD1D4
+    // Offset: 0x1DB8D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x1DBFFD8
+    // Offset: 0x1DBBB48
     ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstaller
   #pragma pack(pop)

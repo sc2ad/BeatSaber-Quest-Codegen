@@ -37,29 +37,29 @@ namespace GlobalNamespace {
   class FileHelpers : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15FBD98
+    // Offset: 0x15F9908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileHelpers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileHelpers*, creationType>()));
     }
     // static public System.String GetEscapedURLForFilePath(System.String filePath)
-    // Offset: 0x15FB5F0
+    // Offset: 0x15F9160
     static ::StringW GetEscapedURLForFilePath(::StringW filePath);
     // static public System.String GetUniqueDirectoryNameByAppendingNumber(System.String dirName)
-    // Offset: 0x15FB654
+    // Offset: 0x15F91C4
     static ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
     // static public System.String[] GetFilePaths(System.String directoryPath, System.Collections.Generic.HashSet`1<System.String> extensions)
-    // Offset: 0x15FB708
+    // Offset: 0x15F9278
     static ::ArrayW<::StringW> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
     // static public System.String[] GetFileNamesFromFilePaths(System.String[] filePaths)
-    // Offset: 0x15FB8A8
+    // Offset: 0x15F9418
     static ::ArrayW<::StringW> GetFileNamesFromFilePaths(::ArrayW<::StringW> filePaths);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.Boolean prettyPrint)
-    // Offset: 0x15FB9C8
+    // Offset: 0x15F9538
     static void SaveToJSONFile(::Il2CppObject* obj, ::StringW filePath, bool prettyPrint);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.String tempFilePath, System.String backupFilePath)
-    // Offset: 0x15FBAB4
+    // Offset: 0x15F9624
     static void SaveToJSONFile(::Il2CppObject* obj, ::StringW filePath, ::StringW tempFilePath, ::StringW backupFilePath);
     // static public T LoadFromJSONFile(System.String filePath, System.String backupFilePath)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath, backupFilePath);
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0x15FBC20
+    // Offset: 0x15F9790
     static ::StringW LoadJSONFile(::StringW filePath, ::StringW backupFilePath);
   }; // FileHelpers
   #pragma pack(pop)

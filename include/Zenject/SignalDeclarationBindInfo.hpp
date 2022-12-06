@@ -81,37 +81,37 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SignalMissingHandlerResponses <MissingHandlerResponse>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::SignalMissingHandlerResponses& dyn_$MissingHandlerResponse$k__BackingField();
     // public System.Object get_Identifier()
-    // Offset: 0x1DBB430
+    // Offset: 0x1DB6FA0
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0x1DBB438
+    // Offset: 0x1DB6FA8
     void set_Identifier(::Il2CppObject* value);
     // public System.Type get_SignalType()
-    // Offset: 0x1DBB440
+    // Offset: 0x1DB6FB0
     ::System::Type* get_SignalType();
     // private System.Void set_SignalType(System.Type value)
-    // Offset: 0x1DBB448
+    // Offset: 0x1DB6FB8
     void set_SignalType(::System::Type* value);
     // public System.Boolean get_RunAsync()
-    // Offset: 0x1DBB450
+    // Offset: 0x1DB6FC0
     bool get_RunAsync();
     // public System.Void set_RunAsync(System.Boolean value)
-    // Offset: 0x1DBB458
+    // Offset: 0x1DB6FC8
     void set_RunAsync(bool value);
     // public System.Int32 get_TickPriority()
-    // Offset: 0x1DBB464
+    // Offset: 0x1DB6FD4
     int get_TickPriority();
     // public System.Void set_TickPriority(System.Int32 value)
-    // Offset: 0x1DBB46C
+    // Offset: 0x1DB6FDC
     void set_TickPriority(int value);
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerResponse()
-    // Offset: 0x1DBB474
+    // Offset: 0x1DB6FE4
     ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
     // public System.Void set_MissingHandlerResponse(Zenject.SignalMissingHandlerResponses value)
-    // Offset: 0x1DBB47C
+    // Offset: 0x1DB6FEC
     void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
     // public System.Void .ctor(System.Type signalType)
-    // Offset: 0x1DBB404
+    // Offset: 0x1DB6F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalDeclarationBindInfo* New_ctor(::System::Type* signalType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDeclarationBindInfo::.ctor");

@@ -52,8 +52,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 rotationMultiplier;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x111405C
-    // [NullAllowed] Offset: 0x111405C
+    // [HeaderAttribute] Offset: 0x1115F5C
+    // [NullAllowed] Offset: 0x1115F5C
     // private UnityEngine.Transform _rotationTransform
     // Size: 0x8
     // Offset: 0x30
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     float maxRotationDegrees;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x11140C8
+    // [HeaderAttribute] Offset: 0x1115FC8
     // private UnityEngine.Vector2 _xAmplitude
     // Size: 0x8
     // Offset: 0x3C
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector2 xFrequency;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [HeaderAttribute] Offset: 0x1114124
+    // [HeaderAttribute] Offset: 0x1116024
     // private UnityEngine.Vector2 _yAmplitude
     // Size: 0x8
     // Offset: 0x4C
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector2 yFrequency;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [HeaderAttribute] Offset: 0x1114180
+    // [HeaderAttribute] Offset: 0x1116080
     // private UnityEngine.Vector2 _zAmplitude
     // Size: 0x8
     // Offset: 0x5C
@@ -235,23 +235,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _targetRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__targetRotation();
     // public System.Void .ctor()
-    // Offset: 0x1394834
+    // Offset: 0x1395698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatingTransformEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloatingTransformEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatingTransformEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1394408
+    // Offset: 0x139526C
     void Start();
     // public System.Void Tick()
-    // Offset: 0x1394530
+    // Offset: 0x1395394
     void Tick();
     // private System.Void Refresh()
-    // Offset: 0x139444C
+    // Offset: 0x13952B0
     void Refresh();
     // private UnityEngine.Vector3 GetPoint(System.Single time)
-    // Offset: 0x1394734
+    // Offset: 0x1395598
     ::UnityEngine::Vector3 GetPoint(float time);
   }; // FloatingTransformEffect
   #pragma pack(pop)

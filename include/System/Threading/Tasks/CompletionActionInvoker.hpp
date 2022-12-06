@@ -69,17 +69,17 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_completingTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_completingTask();
     // System.Void .ctor(System.Threading.Tasks.ITaskCompletionAction action, System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1DD1A2C
+    // Offset: 0x1DCD59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::CompletionActionInvoker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompletionActionInvoker*, creationType>(action, completingTask)));
     }
     // public System.Void ExecuteWorkItem()
-    // Offset: 0x1DD1A64
+    // Offset: 0x1DCD5D4
     void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
-    // Offset: 0x1DD1B1C
+    // Offset: 0x1DCD68C
     void MarkAborted(::System::Threading::ThreadAbortException* tae);
   }; // System.Threading.Tasks.CompletionActionInvoker
   #pragma pack(pop)

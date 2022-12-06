@@ -43,13 +43,13 @@ namespace System {
     // Set static field: static private readonly System.ConsoleKeyInfo EmptyConsoleKeyInfo
     static void _set_EmptyConsoleKeyInfo(::System::ConsoleKeyInfo value);
     // static private System.Void .cctor()
-    // Offset: 0x1C297AC
+    // Offset: 0x1C2331C
     static void _cctor();
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x1C29738
+    // Offset: 0x1C232A8
     ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.Void .ctor()
-    // Offset: 0x1C297A4
+    // Offset: 0x1C23314
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

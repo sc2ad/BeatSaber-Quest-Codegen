@@ -42,20 +42,20 @@ namespace GlobalNamespace {
   class BeatmapObjectManager::NoteWasCutDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13D80A0
+    // Offset: 0x13D8BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectManager::NoteWasCutDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectManager::NoteWasCutDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x13D80B0
+    // Offset: 0x13D8BC8
     void Invoke(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.IAsyncResult BeginInvoke(NoteController noteController, in NoteCutInfo noteCutInfo, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13D8498
+    // Offset: 0x13D8FB0
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(in NoteCutInfo noteCutInfo, System.IAsyncResult result)
-    // Offset: 0x13D8534
+    // Offset: 0x13D904C
     void EndInvoke(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::System::IAsyncResult* result);
   }; // BeatmapObjectManager/NoteWasCutDelegate
   #pragma pack(pop)

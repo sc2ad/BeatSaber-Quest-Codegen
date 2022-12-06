@@ -43,20 +43,20 @@ namespace System::ComponentModel {
   class RefreshEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E2B6FC
+    // Offset: 0x1E2726C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RefreshEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::RefreshEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RefreshEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.ComponentModel.RefreshEventArgs e)
-    // Offset: 0x1E2B70C
+    // Offset: 0x1E2727C
     void Invoke(::System::ComponentModel::RefreshEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.ComponentModel.RefreshEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E2BAA0
+    // Offset: 0x1E27610
     ::System::IAsyncResult* BeginInvoke(::System::ComponentModel::RefreshEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E2BAC4
+    // Offset: 0x1E27634
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.ComponentModel.RefreshEventHandler
   #pragma pack(pop)

@@ -43,23 +43,23 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
     // public System.Void .ctor()
-    // Offset: 0x15FB508
+    // Offset: 0x15F9078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileCompressionHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileCompressionHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper*, creationType>()));
     }
     // static public System.Void CreateZipFromDirectoryAsync(System.String sourceDirectoryName, System.String destinationArchiveFileName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x15FAFF0
+    // Offset: 0x15F8B60
     static void CreateZipFromDirectoryAsync(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName, ::System::Action_1<bool>* finishCallback);
     // static public System.Void ExtractZipToDirectoryAsync(System.String sourceArchiveFileName, System.String destinationDirectoryName, System.Action`1<System.Boolean> finishCallback)
-    // Offset: 0x15FB2C8
+    // Offset: 0x15F8E38
     static void ExtractZipToDirectoryAsync(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName, ::System::Action_1<bool>* finishCallback);
     // static public System.Boolean CreateZipFromDirectory(System.String sourceDirectoryName, System.String destinationArchiveFileName)
-    // Offset: 0x15FB3C8
+    // Offset: 0x15F8F38
     static bool CreateZipFromDirectory(::StringW sourceDirectoryName, ::StringW destinationArchiveFileName);
     // static public System.Boolean ExtractZipToDirectory(System.String sourceArchiveFileName, System.String destinationDirectoryName)
-    // Offset: 0x15FB468
+    // Offset: 0x15F8FD8
     static bool ExtractZipToDirectory(::StringW sourceArchiveFileName, ::StringW destinationDirectoryName);
   }; // FileCompressionHelper
   #pragma pack(pop)

@@ -391,22 +391,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 disabledConditionSH
     [[deprecated("Use field access instead!")]] int& dyn_disabledConditionSH();
     // public System.Boolean isInt()
-    // Offset: 0x171AA04
+    // Offset: 0x171B574
     bool isInt();
     // public System.Boolean isFloat()
-    // Offset: 0x171AA24
+    // Offset: 0x171B594
     bool isFloat();
     // public System.Boolean isString()
-    // Offset: 0x171AA38
+    // Offset: 0x171B5A8
     bool isString();
     // public System.Boolean isPath()
-    // Offset: 0x171AA68
+    // Offset: 0x171B5D8
     bool isPath();
     // public System.Boolean isNode()
-    // Offset: 0x171AA88
+    // Offset: 0x171B5F8
     bool isNode();
     // public System.Boolean isNonValue()
-    // Offset: 0x171AA98
+    // Offset: 0x171B608
     bool isNonValue();
   }; // HoudiniEngineUnity.HAPI_ParmInfo
   #pragma pack(pop)

@@ -45,20 +45,20 @@ namespace UnityEngine::Rendering {
   class BatchRendererGroup::OnPerformCulling : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x215F568
+    // Offset: 0x215E0D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BatchRendererGroup::OnPerformCulling* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BatchRendererGroup::OnPerformCulling*, creationType>(object, method)));
     }
     // public Unity.Jobs.JobHandle Invoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext)
-    // Offset: 0x215EFE0
+    // Offset: 0x215DB50
     ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Rendering.BatchRendererGroup rendererGroup, UnityEngine.Rendering.BatchCullingContext cullingContext, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x215F578
+    // Offset: 0x215E0E8
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Unity.Jobs.JobHandle EndInvoke(System.IAsyncResult result)
-    // Offset: 0x215F614
+    // Offset: 0x215E184
     ::Unity::Jobs::JobHandle EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling
   #pragma pack(pop)

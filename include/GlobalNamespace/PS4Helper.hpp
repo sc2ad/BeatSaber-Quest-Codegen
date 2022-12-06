@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _backgroundExecution
     [[deprecated("Use field access instead!")]] bool& dyn__backgroundExecution();
     // public System.Void add_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0x137C5C0
+    // Offset: 0x137D424
     void add_didGoToBackgroundExecutionEvent(::System::Action* value);
     // public System.Void remove_didGoToBackgroundExecutionEvent(System.Action value)
-    // Offset: 0x137C664
+    // Offset: 0x137D4C8
     void remove_didGoToBackgroundExecutionEvent(::System::Action* value);
     // public System.Void add_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0x137C708
+    // Offset: 0x137D56C
     void add_didGoToForegroundExecutionEvent(::System::Action* value);
     // public System.Void remove_didGoToForegroundExecutionEvent(System.Action value)
-    // Offset: 0x137C7AC
+    // Offset: 0x137D610
     void remove_didGoToForegroundExecutionEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x137C874
+    // Offset: 0x137D6D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4Helper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4Helper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4Helper*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x137C850
+    // Offset: 0x137D6B4
     void Update();
   }; // PS4Helper
   // WARNING Not writing size check since size may be invalid!

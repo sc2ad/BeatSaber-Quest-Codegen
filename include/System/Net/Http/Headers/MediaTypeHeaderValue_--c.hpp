@@ -46,17 +46,17 @@ namespace System::Net::Http::Headers {
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.NameValueHeaderValue> <>9__6_0
     static void _set_$$9__6_0(::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19D5340
+    // Offset: 0x19D2EB0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19D53A4
+    // Offset: 0x19D2F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::MediaTypeHeaderValue::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue::$$c*, creationType>()));
     }
     // System.Boolean <get_CharSet>b__6_0(System.Net.Http.Headers.NameValueHeaderValue l)
-    // Offset: 0x19D53AC
+    // Offset: 0x19D2F1C
     bool $get_CharSet$b__6_0(::System::Net::Http::Headers::NameValueHeaderValue* l);
   }; // System.Net.Http.Headers.MediaTypeHeaderValue/System.Net.Http.Headers.<>c
   #pragma pack(pop)

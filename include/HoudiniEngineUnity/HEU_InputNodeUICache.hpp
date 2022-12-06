@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*& dyn__inputAssetCache();
     // public System.Void .ctor()
-    // Offset: 0x18A8150
+    // Offset: 0x18A7CC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputNodeUICache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputNodeUICache::.ctor");

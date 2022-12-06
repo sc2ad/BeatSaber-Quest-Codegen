@@ -57,20 +57,20 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.FieldInfo x
     [[deprecated("Use field access instead!")]] ::System::Reflection::FieldInfo*& dyn_x();
     // public System.Void .ctor()
-    // Offset: 0x1CB438C
+    // Offset: 0x1CAFEFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeAnalyzer::$$c__DisplayClass6_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeAnalyzer::$$c__DisplayClass6_1*, creationType>()));
     }
     // System.Boolean <GetFieldInfos>b__2(System.Type a)
-    // Offset: 0x1CB520C
+    // Offset: 0x1CB0D7C
     bool $GetFieldInfos$b__2(::System::Type* a);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CB52E4
+    // Offset: 0x1CB0E54
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CB5340
+    // Offset: 0x1CB0EB0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c__DisplayClass6_1
   #pragma pack(pop)

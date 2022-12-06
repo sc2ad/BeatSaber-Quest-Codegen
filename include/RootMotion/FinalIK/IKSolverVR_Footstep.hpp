@@ -156,35 +156,35 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single supportLegWV
     [[deprecated("Use field access instead!")]] float& dyn_supportLegWV();
     // public System.Boolean get_isStepping()
-    // Offset: 0x2408AFC
+    // Offset: 0x240466C
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x2408B10
+    // Offset: 0x2404680
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x2408B18
+    // Offset: 0x2404688
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x2408B20
+    // Offset: 0x2404690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x2408CB0
+    // Offset: 0x2404820
     void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x2408CF8
+    // Offset: 0x2404868
     void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x2408EB8
+    // Offset: 0x2404A28
     void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x2409090
+    // Offset: 0x2404C00
     void UpdateStanding(::UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x240927C
+    // Offset: 0x2404DEC
     void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep
   #pragma pack(pop)

@@ -71,10 +71,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int16 w
     [[deprecated("Use field access instead!")]] int16_t& dyn_w();
     // static private System.Void .cctor()
-    // Offset: 0x1B780B0
+    // Offset: 0x1B72C20
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1B77ED0
+    // Offset: 0x1B72A40
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

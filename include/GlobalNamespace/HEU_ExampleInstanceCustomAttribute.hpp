@@ -39,14 +39,14 @@ namespace GlobalNamespace {
   class HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1719648
+    // Offset: 0x171A1B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ExampleInstanceCustomAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ExampleInstanceCustomAttribute*, creationType>()));
     }
     // private System.Void InstancerCallback()
-    // Offset: 0x17191BC
+    // Offset: 0x1719D2C
     void InstancerCallback();
     // static private System.Void LogArray(System.String name, T[] arr, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, arr, tupleSize);
     }
     // static private System.Void LogAttr(HoudiniEngineUnity.HEU_OutputAttribute outAttr)
-    // Offset: 0x1719500
+    // Offset: 0x171A070
     static void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
   }; // HEU_ExampleInstanceCustomAttribute
   #pragma pack(pop)

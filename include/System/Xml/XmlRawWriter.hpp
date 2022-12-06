@@ -64,51 +64,51 @@ namespace System::Xml {
     // Get instance field reference: protected System.Xml.IXmlNamespaceResolver resolver
     [[deprecated("Use field access instead!")]] ::System::Xml::IXmlNamespaceResolver*& dyn_resolver();
     // System.Void set_NamespaceResolver(System.Xml.IXmlNamespaceResolver value)
-    // Offset: 0x161737C
+    // Offset: 0x1613EEC
     void set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
     // System.Boolean get_SupportsNamespaceDeclarationInChunks()
-    // Offset: 0x16173A0
+    // Offset: 0x1613F10
     bool get_SupportsNamespaceDeclarationInChunks();
     // System.Void WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
-    // Offset: 0x1617384
+    // Offset: 0x1613EF4
     void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone);
     // System.Void WriteXmlDeclaration(System.String xmldecl)
-    // Offset: 0x1617388
+    // Offset: 0x1613EF8
     void WriteXmlDeclaration(::StringW xmldecl);
     // System.Void StartElementContent()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void StartElementContent();
     // System.Void OnRootElement(System.Xml.ConformanceLevel conformanceLevel)
-    // Offset: 0x161738C
+    // Offset: 0x1613EFC
     void OnRootElement(::System::Xml::ConformanceLevel conformanceLevel);
     // System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // System.Void WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1617390
+    // Offset: 0x1613F00
     void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // System.Void WriteNamespaceDeclaration(System.String prefix, System.String ns)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteNamespaceDeclaration(::StringW prefix, ::StringW ns);
     // System.Void WriteStartNamespaceDeclaration(System.String prefix)
-    // Offset: 0x16173A8
+    // Offset: 0x1613F18
     void WriteStartNamespaceDeclaration(::StringW prefix);
     // System.Void WriteEndNamespaceDeclaration()
-    // Offset: 0x1617408
+    // Offset: 0x1613F78
     void WriteEndNamespaceDeclaration();
     // System.Void WriteEndBase64()
-    // Offset: 0x1617468
+    // Offset: 0x1613FD8
     void WriteEndBase64();
     // System.Void Close(System.Xml.WriteState currentState)
-    // Offset: 0x1617484
+    // Offset: 0x1613FF4
     void Close(::System::Xml::WriteState currentState);
     // public override System.Xml.WriteState get_WriteState()
-    // Offset: 0x16170EC
+    // Offset: 0x1613C5C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Xml.WriteState XmlWriter::get_WriteState()
     ::System::Xml::WriteState get_WriteState();
     // protected System.Void .ctor()
-    // Offset: 0x160A6F4
+    // Offset: 0x1607264
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,82 +117,82 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlRawWriter*, creationType>()));
     }
     // public override System.Void WriteStartDocument()
-    // Offset: 0x1616DBC
+    // Offset: 0x161392C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartDocument()
     void WriteStartDocument();
     // public override System.Void WriteStartDocument(System.Boolean standalone)
-    // Offset: 0x1616E3C
+    // Offset: 0x16139AC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartDocument(System.Boolean standalone)
     void WriteStartDocument(bool standalone);
     // public override System.Void WriteEndDocument()
-    // Offset: 0x1616EBC
+    // Offset: 0x1613A2C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndDocument()
     void WriteEndDocument();
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1616F3C
+    // Offset: 0x1613AAC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
     // public override System.Void WriteEndElement()
-    // Offset: 0x1616F40
+    // Offset: 0x1613AB0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndElement()
     void WriteEndElement();
     // public override System.Void WriteFullEndElement()
-    // Offset: 0x1616FC0
+    // Offset: 0x1613B30
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteFullEndElement()
     void WriteFullEndElement();
     // public override System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1609620
+    // Offset: 0x1606190
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     void WriteBase64(::ArrayW<uint8_t> buffer, int index, int count);
     // public override System.String LookupPrefix(System.String ns)
-    // Offset: 0x161706C
+    // Offset: 0x1613BDC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.String XmlWriter::LookupPrefix(System.String ns)
     ::StringW LookupPrefix(::StringW ns);
     // public override System.Void WriteCData(System.String text)
-    // Offset: 0x161716C
+    // Offset: 0x1613CDC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCData(System.String text)
     void WriteCData(::StringW text);
     // public override System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x161717C
+    // Offset: 0x1613CEC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCharEntity(System.Char ch)
     void WriteCharEntity(::Il2CppChar ch);
     // public override System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x1617220
+    // Offset: 0x1613D90
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public override System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x16172D4
+    // Offset: 0x1613E44
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteWhitespace(System.String ws)
     void WriteWhitespace(::StringW ws);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x16172E4
+    // Offset: 0x1613E54
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1617320
+    // Offset: 0x1613E90
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
-    // Offset: 0x161735C
+    // Offset: 0x1613ECC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.String data)
     void WriteRaw(::StringW data);
     // public override System.Void WriteValue(System.String value)
-    // Offset: 0x161736C
+    // Offset: 0x1613EDC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteValue(System.String value)
     void WriteValue(::StringW value);

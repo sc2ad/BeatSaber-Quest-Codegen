@@ -59,20 +59,20 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Get instance field reference: private System.Collections.IList lookupPowX2
     [[deprecated("Use field access instead!")]] ::System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void .ctor()
-    // Offset: 0x1EAACB4
+    // Offset: 0x1EA7824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tables1kGcmExponentiator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tables1kGcmExponentiator*, creationType>()));
     }
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x1EAA678
+    // Offset: 0x1EA71E8
     void Init(::ArrayW<uint8_t> x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x1EAA88C
+    // Offset: 0x1EA73FC
     void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x1EAAA4C
+    // Offset: 0x1EA75BC
     void EnsureAvailable(int bit);
   }; // Org.BouncyCastle.Crypto.Modes.Gcm.Tables1kGcmExponentiator
   #pragma pack(pop)

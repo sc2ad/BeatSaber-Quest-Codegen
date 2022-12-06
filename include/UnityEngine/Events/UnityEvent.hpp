@@ -61,19 +61,19 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Object[] m_InvokeArray
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_m_InvokeArray();
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x2033C50
+    // Offset: 0x20317C0
     void AddListener(::UnityEngine::Events::UnityAction* call);
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction call)
-    // Offset: 0x2033D0C
+    // Offset: 0x203187C
     void RemoveListener(::UnityEngine::Events::UnityAction* call);
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction action)
-    // Offset: 0x2033C88
+    // Offset: 0x20317F8
     static ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction* action);
     // public System.Void Invoke()
-    // Offset: 0x203400C
+    // Offset: 0x2031B7C
     void Invoke();
     // public System.Void .ctor()
-    // Offset: 0x2033BBC
+    // Offset: 0x203172C
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Void UnityEventBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,12 +82,12 @@ namespace UnityEngine::Events {
       return THROW_UNLESS((::il2cpp_utils::New<UnityEvent*, creationType>()));
     }
     // protected override System.Reflection.MethodInfo FindMethod_Impl(System.String name, System.Object targetObj)
-    // Offset: 0x2033D6C
+    // Offset: 0x20318DC
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
     ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::Il2CppObject* targetObj);
     // override UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
-    // Offset: 0x2033F9C
+    // Offset: 0x2031B0C
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: UnityEngine.Events.BaseInvokableCall UnityEventBase::GetDelegate(System.Object target, System.Reflection.MethodInfo theFunction)
     ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, ::System::Reflection::MethodInfo* theFunction);

@@ -127,14 +127,14 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _rightToLeft
     [[deprecated("Use field access instead!")]] bool& dyn__rightToLeft();
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
-    // Offset: 0x1E617FC
+    // Offset: 0x1E5E36C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCode* New_ctor(::ArrayW<int> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int trackcount, ::System::Collections::Hashtable* caps, int capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCode*, creationType>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft)));
     }
     // static System.Boolean OpcodeBacktracks(System.Int32 Op)
-    // Offset: 0x1E618F8
+    // Offset: 0x1E5E468
     static bool OpcodeBacktracks(int Op);
   }; // System.Text.RegularExpressions.RegexCode
   #pragma pack(pop)

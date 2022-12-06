@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::HMUI::TextPageScrollView* textPageScrollView;
     // Field size check
     static_assert(sizeof(::HMUI::TextPageScrollView*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1121334
+    // [InjectOptionalAttribute] Offset: 0x1124234
     // private readonly RecordingToolManager _recordingToolManager
     // Size: 0x8
     // Offset: 0x78
@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RecordingToolManager _recordingToolManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolManager*& dyn__recordingToolManager();
     // public System.Void .ctor()
-    // Offset: 0x1420448
+    // Offset: 0x1420EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolConfigViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolConfigViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolConfigViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14203C0
+    // Offset: 0x1420E68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

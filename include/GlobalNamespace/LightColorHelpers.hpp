@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class LightColorHelpers : public ::Il2CppObject {
     public:
     // static public UnityEngine.Color AdjustColorWithStrobe(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color offColor, System.Single t, System.Single fromStrobeFrequency, System.Single toStrobeFrequency, System.Single tweenDuration)
-    // Offset: 0x15131C0
+    // Offset: 0x1511D30
     static ::UnityEngine::Color AdjustColorWithStrobe(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color offColor, float t, float fromStrobeFrequency, float toStrobeFrequency, float tweenDuration);
   }; // LightColorHelpers
   #pragma pack(pop)

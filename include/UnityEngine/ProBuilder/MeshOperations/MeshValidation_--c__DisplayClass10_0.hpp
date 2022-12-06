@@ -48,14 +48,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // public System.Void .ctor()
-    // Offset: 0x1CF9618
+    // Offset: 0x1CF5188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MeshValidation::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshValidation::$$c__DisplayClass10_0*, creationType>()));
     }
     // System.Boolean <RebuildSelectionIndexes>b__0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1CF9834
+    // Offset: 0x1CF53A4
     bool $RebuildSelectionIndexes$b__0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshValidation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass10_0
   #pragma pack(pop)

@@ -169,10 +169,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_beatStep();
     // public IndexFilter get_indexFilter()
-    // Offset: 0x155F9B4
+    // Offset: 0x155D524
     ::GlobalNamespace::IndexFilter* get_indexFilter();
     // protected System.Void .ctor(IndexFilter indexFilter, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, System.Single beatDistributionParam, BeatmapEventDataBox/DistributionParamType eventDistributionParamType, System.Single eventDistributionParam, System.Boolean eventDistributionShouldAffectFirstBaseEvent, EaseType eventDistributionEaseType)
-    // Offset: 0x155F9BC
+    // Offset: 0x155D52C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, float beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType eventDistributionParamType, float eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType eventDistributionEaseType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBox::.ctor");
@@ -182,16 +182,16 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Unpack(float groupBoxBeat, int groupId, int elementId, int durationOrderIndex, int distributionOrderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
     // protected System.Single GetBeatStep(System.Single lastBaseEventRelativeBeat)
-    // Offset: 0x155FAC8
+    // Offset: 0x155D638
     float GetBeatStep(float lastBaseEventRelativeBeat);
     // protected System.Single GetDistribution(System.Boolean isFirstBaseDataEvent, System.Int32 distributionOrderIndex)
-    // Offset: 0x155FC7C
+    // Offset: 0x155D7EC
     float GetDistribution(bool isFirstBaseDataEvent, int distributionOrderIndex);
     // static private System.Single BeatDistributionParamToStep(System.Single distributionParam, BeatmapEventDataBox/DistributionParamType distributionParamType, System.Int32 count)
-    // Offset: 0x155FBE0
+    // Offset: 0x155D750
     static float BeatDistributionParamToStep(float distributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType distributionParamType, int count);
     // static private System.Single EventDistributionParamToStep(System.Int32 index, System.Single distributionParam, BeatmapEventDataBox/DistributionParamType distributionParamType, System.Int32 count, EaseType easeType)
-    // Offset: 0x155FCA8
+    // Offset: 0x155D818
     static float EventDistributionParamToStep(int index, float distributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType distributionParamType, int count, ::GlobalNamespace::EaseType easeType);
   }; // BeatmapEventDataBox
   #pragma pack(pop)

@@ -44,17 +44,17 @@ namespace GlobalNamespace {
   class HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.Collider get_BoundingCollider()
-    // Offset: 0x1717638
+    // Offset: 0x17181A8
     ::UnityEngine::Collider* get_BoundingCollider();
     // public System.Void .ctor()
-    // Offset: 0x17178E8
+    // Offset: 0x1718458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_BoundingVolume* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_BoundingVolume::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_BoundingVolume*, creationType>()));
     }
     // public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllIntersectingObjects()
-    // Offset: 0x1717688
+    // Offset: 0x17181F8
     ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllIntersectingObjects();
   }; // HEU_BoundingVolume
   #pragma pack(pop)

@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
     // Padding between fields: beatmapEvent and: particleSystemParentTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1115394
+    // [SpaceAttribute] Offset: 0x1117294
     // private UnityEngine.Transform _particleSystemParentTransform
     // Size: 0x8
     // Offset: 0x20
@@ -75,14 +75,14 @@ namespace GlobalNamespace {
     int particleSystemMaxSpawnedSystems;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x11153DC
+    // [InjectAttribute] Offset: 0x11172DC
     // private readonly EnvironmentContext _environmentContext
     // Size: 0x4
     // Offset: 0x2C
     ::GlobalNamespace::EnvironmentContext environmentContext;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentContext) == 0x4);
-    // [InjectAttribute] Offset: 0x11153EC
+    // [InjectAttribute] Offset: 0x11172EC
     // private readonly Zenject.DiContainer _diContainer
     // Size: 0x8
     // Offset: 0x30
@@ -111,17 +111,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private ParticleSystemEmitEventEffect/ParticleSystemEmitBehavior _particleSystemEmitBehavior
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ParticleSystemEmitEventEffect::ParticleSystemEmitBehavior*& dyn__particleSystemEmitBehavior();
     // public System.Void .ctor()
-    // Offset: 0x137DF30
+    // Offset: 0x137ED94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x137DCBC
+    // Offset: 0x137EB20
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x137DF18
+    // Offset: 0x137ED7C
     void OnDestroy();
   }; // ParticleSystemEmitEventEffect
   #pragma pack(pop)

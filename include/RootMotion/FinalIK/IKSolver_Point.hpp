@@ -41,7 +41,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x113B678
+    // [RangeAttribute] Offset: 0x113F548
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -86,29 +86,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor()
-    // Offset: 0x2307848
+    // Offset: 0x23063B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Point* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Point::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Point*, creationType>()));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x2307D74
+    // Offset: 0x23068E4
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x2307DC4
+    // Offset: 0x2306934
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x2307F4C
+    // Offset: 0x2306ABC
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x2307F84
+    // Offset: 0x2306AF4
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x2307FBC
+    // Offset: 0x2306B2C
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x230800C
+    // Offset: 0x2306B7C
     void UpdateSolverLocalState();
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
   #pragma pack(pop)

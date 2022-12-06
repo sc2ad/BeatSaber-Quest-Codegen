@@ -62,31 +62,31 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.Boolean ovrUseStandalonePlatform
     [[deprecated("Use field access instead!")]] bool& dyn_ovrUseStandalonePlatform();
     // static public System.String get_AppID()
-    // Offset: 0x2B057C4
+    // Offset: 0x2AFD334
     static ::StringW get_AppID();
     // static public System.Void set_AppID(System.String value)
-    // Offset: 0x2B058F8
+    // Offset: 0x2AFD468
     static void set_AppID(::StringW value);
     // static public System.String get_MobileAppID()
-    // Offset: 0x2B05924
+    // Offset: 0x2AFD494
     static ::StringW get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
-    // Offset: 0x2B05944
+    // Offset: 0x2AFD4B4
     static void set_MobileAppID(::StringW value);
     // static public System.Boolean get_UseStandalonePlatform()
-    // Offset: 0x2B05970
+    // Offset: 0x2AFD4E0
     static bool get_UseStandalonePlatform();
     // static public System.Void set_UseStandalonePlatform(System.Boolean value)
-    // Offset: 0x2B05990
+    // Offset: 0x2AFD500
     static void set_UseStandalonePlatform(bool value);
     // static public Oculus.Platform.PlatformSettings get_Instance()
-    // Offset: 0x2B057E4
+    // Offset: 0x2AFD354
     static ::Oculus::Platform::PlatformSettings* get_Instance();
     // static public System.Void set_Instance(Oculus.Platform.PlatformSettings value)
-    // Offset: 0x2B059C0
+    // Offset: 0x2AFD530
     static void set_Instance(::Oculus::Platform::PlatformSettings* value);
     // public System.Void .ctor()
-    // Offset: 0x2B05A14
+    // Offset: 0x2AFD584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::PlatformSettings::.ctor");

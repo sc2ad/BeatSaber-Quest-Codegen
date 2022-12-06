@@ -37,13 +37,13 @@ namespace Microsoft::Win32 {
       return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
     // public System.Boolean Equals(System.Object x, System.Object y)
-    // Offset: 0x1FC6238
+    // Offset: 0x1FC3DA8
     bool Equals(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1FC62EC
+    // Offset: 0x1FC3E5C
     int GetHashCode(::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x1FC0FF4
+    // Offset: 0x1FBEB64
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

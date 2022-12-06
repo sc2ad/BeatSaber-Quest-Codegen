@@ -26,10 +26,10 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x1B89784
+    // Offset: 0x1B842F4
     static void _cctor();
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x1B896F0
+    // Offset: 0x1B84260
     static ::StringW ToString(int position);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.HttpApi/System.Net.HTTP_REQUEST_HEADER_ID
   #pragma pack(pop)

@@ -52,13 +52,13 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] pageNext
     [[deprecated("Use field access instead!")]] ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageNext();
     // public System.Int32 get_PageNumber()
-    // Offset: 0x1ADE2D8
+    // Offset: 0x1ADBE48
     int get_PageNumber();
     // public System.Int32 get_NodeCount()
-    // Offset: 0x1ADE2E0
+    // Offset: 0x1ADBE50
     int get_NodeCount();
     // public MS.Internal.Xml.Cache.XPathNode[] get_NextPage()
-    // Offset: 0x1ADE2E8
+    // Offset: 0x1ADBE58
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_NextPage();
   }; // MS.Internal.Xml.Cache.XPathNodePageInfo
   #pragma pack(pop)

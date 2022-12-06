@@ -29,10 +29,10 @@ namespace Oculus::Platform {
   class MessageWithString : public ::Oculus::Platform::Message_1<::StringW> {
     public:
     // protected System.String GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A154EC
+    // Offset: 0x1A1405C
     ::StringW GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A0B5D4
+    // Offset: 0x1A0A144
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -42,7 +42,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithString*, creationType>(c_message)));
     }
     // public override System.String GetString()
-    // Offset: 0x1A154A8
+    // Offset: 0x1A14018
     // Implemented from: Oculus.Platform.Message
     // Base method: System.String Message::GetString()
     ::StringW GetString();

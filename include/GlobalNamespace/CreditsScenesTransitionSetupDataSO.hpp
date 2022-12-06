@@ -47,20 +47,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x1435418
+    // Offset: 0x1434EC0
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)
-    // Offset: 0x14354BC
+    // Offset: 0x1434F64
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1435560
+    // Offset: 0x1435008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Finish()
-    // Offset: 0x1434DC4
+    // Offset: 0x143486C
     void Finish();
   }; // CreditsScenesTransitionSetupDataSO
   #pragma pack(pop)

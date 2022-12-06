@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32[] _triangleMap
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__triangleMap();
     // public System.Void .ctor()
-    // Offset: 0x14718E4
+    // Offset: 0x147159C
     // Implemented from: SliderMeshConstructor
     // Base method: System.Void SliderMeshConstructor::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,17 +56,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshConstructorCrossedStrips*, creationType>()));
     }
     // protected override System.Void CreateSliderMeshInternal(VertexPath path)
-    // Offset: 0x1471404
+    // Offset: 0x14710BC
     // Implemented from: SliderMeshConstructor
     // Base method: System.Void SliderMeshConstructor::CreateSliderMeshInternal(VertexPath path)
     void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
     // protected override System.Int32 GetVertexCount(VertexPath path)
-    // Offset: 0x14718A4
+    // Offset: 0x147155C
     // Implemented from: SliderMeshConstructor
     // Base method: System.Int32 SliderMeshConstructor::GetVertexCount(VertexPath path)
     int GetVertexCount(::GlobalNamespace::VertexPath* path);
     // protected override System.Int32 GetTrianglesCount(VertexPath path)
-    // Offset: 0x14718C0
+    // Offset: 0x1471578
     // Implemented from: SliderMeshConstructor
     // Base method: System.Int32 SliderMeshConstructor::GetTrianglesCount(VertexPath path)
     int GetTrianglesCount(::GlobalNamespace::VertexPath* path);

@@ -105,38 +105,38 @@ namespace MasterServer {
     // Get instance field reference: public System.Int32 unoccupiedServerSlots
     [[deprecated("Use field access instead!")]] int& dyn_unoccupiedServerSlots();
     // static public PacketPool`1<MasterServer.DedicatedServerHeartbeatRequest> get_pool()
-    // Offset: 0x16D5AF4
+    // Offset: 0x16D4664
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerHeartbeatRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x16D5B3C
+    // Offset: 0x16D46AC
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x16D5B44
+    // Offset: 0x16D46B4
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x16D5B4C
+    // Offset: 0x16D46BC
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x16D5B54
+    // Offset: 0x16D46C4
     void set_dedicatedServerCreationTime(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x16D5CB4
+    // Offset: 0x16D4824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DedicatedServerHeartbeatRequest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::DedicatedServerHeartbeatRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerHeartbeatRequest*, creationType>()));
     }
     // public MasterServer.DedicatedServerHeartbeatRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Int32 cpuUtilization, System.Int32 occupiedServerSlots, System.Int32 unoccupiedServerSlots)
-    // Offset: 0x16D5B5C
+    // Offset: 0x16D46CC
     ::MasterServer::DedicatedServerHeartbeatRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, int cpuUtilization, int occupiedServerSlots, int unoccupiedServerSlots);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16D5B6C
+    // Offset: 0x16D46DC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16D5BE0
+    // Offset: 0x16D4750
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16D5C58
+    // Offset: 0x16D47C8
     void Release();
   }; // MasterServer.DedicatedServerHeartbeatRequest
   #pragma pack(pop)

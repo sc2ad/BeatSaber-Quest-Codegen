@@ -75,38 +75,38 @@ namespace Zenject {
     // Get instance field reference: private Zenject.IBindingFinalizer _bindingFinalizer
     [[deprecated("Use field access instead!")]] ::Zenject::IBindingFinalizer*& dyn__bindingFinalizer();
     // public Zenject.BindingInheritanceMethods get_BindingInheritanceMethod()
-    // Offset: 0x17B3530
+    // Offset: 0x17B40A0
     ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
     // public System.Boolean get_HasFinalizer()
-    // Offset: 0x17B3650
+    // Offset: 0x17B41C0
     bool get_HasFinalizer();
     // public System.Void .ctor()
-    // Offset: 0x17B33AC
+    // Offset: 0x17B3F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindStatement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindStatement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindStatement*, creationType>()));
     }
     // public System.Void SetFinalizer(Zenject.IBindingFinalizer bindingFinalizer)
-    // Offset: 0x17B3660
+    // Offset: 0x17B41D0
     void SetFinalizer(::Zenject::IBindingFinalizer* bindingFinalizer);
     // private System.Void AssertHasFinalizer()
-    // Offset: 0x17B35E8
+    // Offset: 0x17B4158
     void AssertHasFinalizer();
     // public System.Void AddDisposable(System.IDisposable disposable)
-    // Offset: 0x17B3668
+    // Offset: 0x17B41D8
     void AddDisposable(::System::IDisposable* disposable);
     // public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x17B36D0
+    // Offset: 0x17B4240
     ::Zenject::BindInfo* SpawnBindInfo();
     // public System.Void FinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x17B374C
+    // Offset: 0x17B42BC
     void FinalizeBinding(::Zenject::DiContainer* container);
     // public System.Void Reset()
-    // Offset: 0x17B3424
+    // Offset: 0x17B3F94
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x17B3818
+    // Offset: 0x17B4388
     void Dispose();
   }; // Zenject.BindStatement
   #pragma pack(pop)

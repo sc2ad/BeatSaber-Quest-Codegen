@@ -44,10 +44,10 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsNullable();
     // public System.Boolean get_IsRangeNode()
-    // Offset: 0x1D1D2E4
+    // Offset: 0x1D18E54
     bool get_IsRangeNode();
     // protected System.Void .ctor()
-    // Offset: 0x1D15E54
+    // Offset: 0x1D119C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SyntaxTreeNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SyntaxTreeNode::.ctor");

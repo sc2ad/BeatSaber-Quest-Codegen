@@ -78,23 +78,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetFrequency
     [[deprecated("Use field access instead!")]] float& dyn__targetFrequency();
     // public System.Void .ctor()
-    // Offset: 0x13383A4
+    // Offset: 0x133A258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainAudioEffects* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainAudioEffects::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainAudioEffects*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13381DC
+    // Offset: 0x133A090
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x133821C
+    // Offset: 0x133A0D0
     void LateUpdate();
     // public System.Void ResumeNormalSound()
-    // Offset: 0x1338328
+    // Offset: 0x133A1DC
     void ResumeNormalSound();
     // public System.Void TriggerLowPass()
-    // Offset: 0x133835C
+    // Offset: 0x133A210
     void TriggerLowPass();
   }; // MainAudioEffects
   #pragma pack(pop)

@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> getPlayerPermissionAsyncTcs
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_getPlayerPermissionAsyncTcs();
     // public System.Void .ctor()
-    // Offset: 0x15ADF48
+    // Offset: 0x15ABAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c__DisplayClass98_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c__DisplayClass98_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c__DisplayClass98_0*, creationType>()));
     }
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
-    // Offset: 0x15AF9EC
+    // Offset: 0x15AD55C
     void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x15AFC44
+    // Offset: 0x15AD7B4
     void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
-    // Offset: 0x15AFE38
+    // Offset: 0x15AD9A8
     bool $GetGameStateAndConfigurationAsync$b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
   }; // LobbyGameStateController/<>c__DisplayClass98_0
   #pragma pack(pop)

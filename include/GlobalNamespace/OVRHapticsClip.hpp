@@ -61,66 +61,66 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Byte[] <Samples>k__BackingField
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_$Samples$k__BackingField();
     // public System.Int32 get_Count()
-    // Offset: 0x1A1F5F8
+    // Offset: 0x1A1E168
     int get_Count();
     // private System.Void set_Count(System.Int32 value)
-    // Offset: 0x1A1F600
+    // Offset: 0x1A1E170
     void set_Count(int value);
     // public System.Int32 get_Capacity()
-    // Offset: 0x1A1F608
+    // Offset: 0x1A1E178
     int get_Capacity();
     // private System.Void set_Capacity(System.Int32 value)
-    // Offset: 0x1A1F610
+    // Offset: 0x1A1E180
     void set_Capacity(int value);
     // public System.Byte[] get_Samples()
-    // Offset: 0x1A1F618
+    // Offset: 0x1A1E188
     ::ArrayW<uint8_t> get_Samples();
     // private System.Void set_Samples(System.Byte[] value)
-    // Offset: 0x1A1F620
+    // Offset: 0x1A1E190
     void set_Samples(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x1A1F23C
+    // Offset: 0x1A1DDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 capacity)
-    // Offset: 0x1A1F388
+    // Offset: 0x1A1DEF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Byte[] samples, System.Int32 samplesCount)
-    // Offset: 0x1A1F628
+    // Offset: 0x1A1E198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(::ArrayW<uint8_t> samples, int samplesCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(samples, samplesCount)));
     }
     // public System.Void .ctor(OVRHapticsClip a, OVRHapticsClip b)
-    // Offset: 0x1A1F710
+    // Offset: 0x1A1E280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(::GlobalNamespace::OVRHapticsClip* a, ::GlobalNamespace::OVRHapticsClip* b) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(a, b)));
     }
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Int32 channel)
-    // Offset: 0x1A1F980
+    // Offset: 0x1A1E4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(::UnityEngine::AudioClip* audioClip, int channel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(audioClip, channel)));
     }
     // public System.Void WriteSample(System.Byte sample)
-    // Offset: 0x1A1F470
+    // Offset: 0x1A1DFE0
     void WriteSample(uint8_t sample);
     // public System.Void Reset()
-    // Offset: 0x1A1FD48
+    // Offset: 0x1A1E8B8
     void Reset();
     // private System.Void InitializeFromAudioFloatTrack(System.Single[] sourceData, System.Double sourceFrequency, System.Int32 sourceChannelCount, System.Int32 sourceChannel)
-    // Offset: 0x1A1FA68
+    // Offset: 0x1A1E5D8
     void InitializeFromAudioFloatTrack(::ArrayW<float> sourceData, double sourceFrequency, int sourceChannelCount, int sourceChannel);
   }; // OVRHapticsClip
   #pragma pack(pop)

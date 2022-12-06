@@ -163,88 +163,88 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.SchemaAttDef/System.Xml.Schema.Reserve reserved
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SchemaAttDef::Reserve& dyn_reserved();
     // private System.String System.Xml.IDtdAttributeInfo.get_Prefix()
-    // Offset: 0x1D1B0A8
+    // Offset: 0x1D16C18
     ::StringW System_Xml_IDtdAttributeInfo_get_Prefix();
     // private System.String System.Xml.IDtdAttributeInfo.get_LocalName()
-    // Offset: 0x1D1B160
+    // Offset: 0x1D16CD0
     ::StringW System_Xml_IDtdAttributeInfo_get_LocalName();
     // private System.Int32 System.Xml.IDtdAttributeInfo.get_LineNumber()
-    // Offset: 0x1D1B17C
+    // Offset: 0x1D16CEC
     int System_Xml_IDtdAttributeInfo_get_LineNumber();
     // private System.Int32 System.Xml.IDtdAttributeInfo.get_LinePosition()
-    // Offset: 0x1D1B184
+    // Offset: 0x1D16CF4
     int System_Xml_IDtdAttributeInfo_get_LinePosition();
     // private System.Boolean System.Xml.IDtdAttributeInfo.get_IsNonCDataType()
-    // Offset: 0x1D1B18C
+    // Offset: 0x1D16CFC
     bool System_Xml_IDtdAttributeInfo_get_IsNonCDataType();
     // private System.Boolean System.Xml.IDtdAttributeInfo.get_IsDeclaredInExternal()
-    // Offset: 0x1D1B1DC
+    // Offset: 0x1D16D4C
     bool System_Xml_IDtdAttributeInfo_get_IsDeclaredInExternal();
     // private System.Boolean System.Xml.IDtdAttributeInfo.get_IsXmlAttribute()
-    // Offset: 0x1D1B1E4
+    // Offset: 0x1D16D54
     bool System_Xml_IDtdAttributeInfo_get_IsXmlAttribute();
     // private System.String System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueExpanded()
-    // Offset: 0x1D1B1F4
+    // Offset: 0x1D16D64
     ::StringW System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueExpanded();
     // private System.Object System.Xml.IDtdDefaultAttributeInfo.get_DefaultValueTyped()
-    // Offset: 0x1D1B250
+    // Offset: 0x1D16DC0
     ::Il2CppObject* System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueTyped();
     // private System.Int32 System.Xml.IDtdDefaultAttributeInfo.get_ValueLineNumber()
-    // Offset: 0x1D1B258
+    // Offset: 0x1D16DC8
     int System_Xml_IDtdDefaultAttributeInfo_get_ValueLineNumber();
     // private System.Int32 System.Xml.IDtdDefaultAttributeInfo.get_ValueLinePosition()
-    // Offset: 0x1D1B260
+    // Offset: 0x1D16DD0
     int System_Xml_IDtdDefaultAttributeInfo_get_ValueLinePosition();
     // System.Int32 get_LinePosition()
-    // Offset: 0x1D1B268
+    // Offset: 0x1D16DD8
     int get_LinePosition();
     // System.Void set_LinePosition(System.Int32 value)
-    // Offset: 0x1D1B270
+    // Offset: 0x1D16DE0
     void set_LinePosition(int value);
     // System.Int32 get_LineNumber()
-    // Offset: 0x1D1B278
+    // Offset: 0x1D16DE8
     int get_LineNumber();
     // System.Void set_LineNumber(System.Int32 value)
-    // Offset: 0x1D1B280
+    // Offset: 0x1D16DF0
     void set_LineNumber(int value);
     // System.Int32 get_ValueLinePosition()
-    // Offset: 0x1D1B288
+    // Offset: 0x1D16DF8
     int get_ValueLinePosition();
     // System.Void set_ValueLinePosition(System.Int32 value)
-    // Offset: 0x1D1B290
+    // Offset: 0x1D16E00
     void set_ValueLinePosition(int value);
     // System.Int32 get_ValueLineNumber()
-    // Offset: 0x1D1B298
+    // Offset: 0x1D16E08
     int get_ValueLineNumber();
     // System.Void set_ValueLineNumber(System.Int32 value)
-    // Offset: 0x1D1B2A0
+    // Offset: 0x1D16E10
     void set_ValueLineNumber(int value);
     // System.String get_DefaultValueExpanded()
-    // Offset: 0x1D15144
+    // Offset: 0x1D10CB4
     ::StringW get_DefaultValueExpanded();
     // System.Void set_DefaultValueExpanded(System.String value)
-    // Offset: 0x1D1B2A8
+    // Offset: 0x1D16E18
     void set_DefaultValueExpanded(::StringW value);
     // System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D1B1BC
+    // Offset: 0x1D16D2C
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // System.Void set_TokenizedType(System.Xml.XmlTokenizedType value)
-    // Offset: 0x1D1B2B0
+    // Offset: 0x1D16E20
     void set_TokenizedType(::System::Xml::XmlTokenizedType value);
     // System.Xml.Schema.SchemaAttDef/System.Xml.Schema.Reserve get_Reserved()
-    // Offset: 0x1D1B2DC
+    // Offset: 0x1D16E4C
     ::System::Xml::Schema::SchemaAttDef::Reserve get_Reserved();
     // System.Void set_Reserved(System.Xml.Schema.SchemaAttDef/System.Xml.Schema.Reserve value)
-    // Offset: 0x1D1B2E4
+    // Offset: 0x1D16E54
     void set_Reserved(::System::Xml::Schema::SchemaAttDef::Reserve value);
     // static private System.Void .cctor()
-    // Offset: 0x1D1B514
+    // Offset: 0x1D17084
     static void _cctor();
     // System.Void CheckXmlSpace(System.Xml.IValidationEventHandling validationEventHandling)
-    // Offset: 0x1D1B2EC
+    // Offset: 0x1D16E5C
     void CheckXmlSpace(::System::Xml::IValidationEventHandling* validationEventHandling);
     // public System.Void .ctor(System.Xml.XmlQualifiedName name, System.String prefix)
-    // Offset: 0x1D1AF90
+    // Offset: 0x1D16B00
     // Implemented from: System.Xml.Schema.SchemaDeclBase
     // Base method: System.Void SchemaDeclBase::.ctor(System.Xml.XmlQualifiedName name, System.String prefix)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -253,7 +253,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<SchemaAttDef*, creationType>(name, prefix)));
     }
     // private System.Void .ctor()
-    // Offset: 0x1D1B02C
+    // Offset: 0x1D16B9C
     // Implemented from: System.Xml.Schema.SchemaDeclBase
     // Base method: System.Void SchemaDeclBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

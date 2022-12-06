@@ -67,46 +67,46 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
     // private System.Xml.Linq.XElement get_Element()
-    // Offset: 0x180F6B4
+    // Offset: 0x180F224
     ::System::Xml::Linq::XElement* get_Element();
     // public System.Boolean get_IsEmpty()
-    // Offset: 0x180FFA0
+    // Offset: 0x180FB10
     bool get_IsEmpty();
     // public System.Void .ctor(System.Xml.Linq.XElement element)
-    // Offset: 0x180E898
+    // Offset: 0x180E408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XElementWrapper* New_ctor(::System::Xml::Linq::XElement* element) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XElementWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElementWrapper*, creationType>(element)));
     }
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
-    // Offset: 0x180F734
+    // Offset: 0x180F2A4
     void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
-    // Offset: 0x180FEC8
+    // Offset: 0x180FA38
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
     // public override System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_Attributes()
-    // Offset: 0x180F7EC
+    // Offset: 0x180F35C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> XObjectWrapper::get_Attributes()
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
     // public override System.String get_Value()
-    // Offset: 0x180FF30
+    // Offset: 0x180FAA0
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_Value()
     ::StringW get_Value();
     // public override System.String get_LocalName()
-    // Offset: 0x180FF50
+    // Offset: 0x180FAC0
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_NamespaceUri()
-    // Offset: 0x180FF78
+    // Offset: 0x180FAE8
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.String XObjectWrapper::get_NamespaceUri()
     ::StringW get_NamespaceUri();
     // public override Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
-    // Offset: 0x180FF0C
+    // Offset: 0x180FA7C
     // Implemented from: Newtonsoft.Json.Converters.XContainerWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XContainerWrapper::AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
     ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);

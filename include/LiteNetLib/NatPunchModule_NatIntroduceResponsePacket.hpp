@@ -58,25 +58,25 @@ namespace LiteNetLib {
     // Get instance field reference: private System.String <Token>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
-    // Offset: 0x21FE6E4
+    // Offset: 0x21FD254
     ::System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
-    // Offset: 0x21FE6EC
+    // Offset: 0x21FD25C
     void set_Internal(::System::Net::IPEndPoint* value);
     // public System.Net.IPEndPoint get_External()
-    // Offset: 0x21FE6F4
+    // Offset: 0x21FD264
     ::System::Net::IPEndPoint* get_External();
     // public System.Void set_External(System.Net.IPEndPoint value)
-    // Offset: 0x21FE6FC
+    // Offset: 0x21FD26C
     void set_External(::System::Net::IPEndPoint* value);
     // public System.String get_Token()
-    // Offset: 0x21FE704
+    // Offset: 0x21FD274
     ::StringW get_Token();
     // public System.Void set_Token(System.String value)
-    // Offset: 0x21FE70C
+    // Offset: 0x21FD27C
     void set_Token(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x21FD830
+    // Offset: 0x21FC3A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatIntroduceResponsePacket::.ctor");

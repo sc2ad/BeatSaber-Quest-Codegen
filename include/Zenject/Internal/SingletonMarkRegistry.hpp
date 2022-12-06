@@ -59,17 +59,17 @@ namespace Zenject::Internal {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::System::Type*>*& dyn__boundNonSingletons();
     // public System.Void .ctor()
-    // Offset: 0x1CB5CA0
+    // Offset: 0x1CB1810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingletonMarkRegistry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::SingletonMarkRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingletonMarkRegistry*, creationType>()));
     }
     // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0x1CB5B3C
+    // Offset: 0x1CB16AC
     void MarkNonSingleton(::System::Type* type);
     // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0x1CB5BE0
+    // Offset: 0x1CB1750
     void MarkSingleton(::System::Type* type);
   }; // Zenject.Internal.SingletonMarkRegistry
   #pragma pack(pop)

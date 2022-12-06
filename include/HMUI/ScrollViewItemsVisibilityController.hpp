@@ -144,23 +144,23 @@ namespace HMUI {
     // Get instance field reference: private System.Single _contentMinY
     [[deprecated("Use field access instead!")]] float& dyn__contentMinY();
     // public System.Void .ctor()
-    // Offset: 0x170DB0C
+    // Offset: 0x170D67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewItemsVisibilityController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollViewItemsVisibilityController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x170D1E8
+    // Offset: 0x170CD58
     void Start();
     // protected System.Void Update()
-    // Offset: 0x170D878
+    // Offset: 0x170D3E8
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x170D6C0
+    // Offset: 0x170D230
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x170D968
+    // Offset: 0x170D4D8
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
   }; // HMUI.ScrollViewItemsVisibilityController
   #pragma pack(pop)

@@ -41,17 +41,17 @@ namespace System::Xml::Schema {
   class Datatype_NMTOKEN : public ::System::Xml::Schema::Datatype_token {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D0B860
+    // Offset: 0x1D073D0
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_token::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D0B868
+    // Offset: 0x1D073D8
     // Implemented from: System.Xml.Schema.Datatype_string
     // Base method: System.Xml.XmlTokenizedType Datatype_string::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1D0A9D8
+    // Offset: 0x1D06548
     // Implemented from: System.Xml.Schema.Datatype_token
     // Base method: System.Void Datatype_token::.ctor()
     // Base method: System.Void Datatype_normalizedString::.ctor()

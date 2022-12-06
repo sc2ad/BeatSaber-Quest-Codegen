@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [InjectAttribute] Offset: 0x11161C8
+    // [InjectAttribute] Offset: 0x11180C8
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -96,17 +96,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x1433914
+    // Offset: 0x14333BC
     void set_alpha(float value);
     // public System.Void .ctor()
-    // Offset: 0x14339DC
+    // Offset: 0x1433484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoreGameHUDController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoreGameHUDController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1433930
+    // Offset: 0x14333D8
     void Start();
   }; // CoreGameHUDController
   #pragma pack(pop)

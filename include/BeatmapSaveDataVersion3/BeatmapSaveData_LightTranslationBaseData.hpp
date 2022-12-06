@@ -60,19 +60,19 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Single t
     [[deprecated("Use field access instead!")]] float& dyn_t();
     // public System.Single get_beat()
-    // Offset: 0x2756624
+    // Offset: 0x274D194
     float get_beat();
     // public System.Boolean get_usePreviousEventTranslationValue()
-    // Offset: 0x275662C
+    // Offset: 0x274D19C
     bool get_usePreviousEventTranslationValue();
     // public BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType get_easeType()
-    // Offset: 0x275663C
+    // Offset: 0x274D1AC
     ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType get_easeType();
     // public System.Single get_translation()
-    // Offset: 0x2756644
+    // Offset: 0x274D1B4
     float get_translation();
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventTranslationValue, BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.EaseType easeType, System.Single translation)
-    // Offset: 0x275664C
+    // Offset: 0x274D1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::LightTranslationBaseData* New_ctor(float beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataVersion3::BeatmapSaveData::EaseType easeType, float translation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::LightTranslationBaseData::.ctor");

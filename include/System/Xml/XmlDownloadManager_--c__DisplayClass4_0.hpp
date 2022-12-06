@@ -51,14 +51,14 @@ namespace System::Xml {
     // Get instance field reference: public System.Uri uri
     [[deprecated("Use field access instead!")]] ::System::Uri*& dyn_uri();
     // public System.Void .ctor()
-    // Offset: 0x1C3FA20
+    // Offset: 0x1C39590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDownloadManager::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDownloadManager::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.IO.Stream <GetStreamAsync>b__0()
-    // Offset: 0x1C3FB68
+    // Offset: 0x1C396D8
     ::System::IO::Stream* $GetStreamAsync$b__0();
   }; // System.Xml.XmlDownloadManager/System.Xml.<>c__DisplayClass4_0
   #pragma pack(pop)

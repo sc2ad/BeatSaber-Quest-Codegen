@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Q();
     // public System.Void .ctor()
-    // Offset: 0x2B1ABDC
+    // Offset: 0x2B1174C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationConstraint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::.ctor");

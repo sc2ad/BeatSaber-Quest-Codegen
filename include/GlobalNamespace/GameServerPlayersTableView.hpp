@@ -117,14 +117,14 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* tableHeaderModifiersGo;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121C78
+    // [InjectAttribute] Offset: 0x1124B78
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x48
     ::Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121C88
+    // [InjectAttribute] Offset: 0x1124B88
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x50
@@ -267,62 +267,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILobbyPlayersDataModel _lobbyPlayersDataModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // private System.String get_currentCellId()
-    // Offset: 0x144FEA0
+    // Offset: 0x144E948
     ::StringW get_currentCellId();
     // public System.Void add_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x144FA6C
+    // Offset: 0x144E514
     void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`1<PreviewDifficultyBeatmap> value)
-    // Offset: 0x144FB10
+    // Offset: 0x144E5B8
     void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x144FBB4
+    // Offset: 0x144E65C
     void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x144FC58
+    // Offset: 0x144E700
     void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x144FCFC
+    // Offset: 0x144E7A4
     void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x144FDA0
+    // Offset: 0x144E848
     void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x1450CAC
+    // Offset: 0x144F754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayersTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayersTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayersTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x144FE44
+    // Offset: 0x144E8EC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x144FE50
+    // Offset: 0x144E8F8
     int NumberOfCells();
     // private GameServerPlayerTableCell GetCurrentPrefab()
-    // Offset: 0x144FF14
+    // Offset: 0x144E9BC
     ::GlobalNamespace::GameServerPlayerTableCell* GetCurrentPrefab();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x144FFAC
+    // Offset: 0x144EA54
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerData playerData)
-    // Offset: 0x1450440
+    // Offset: 0x144EEE8
     bool TryGetLobbyPlayerData(int idx, ByRef<::GlobalNamespace::IConnectedPlayer*> player, ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0x14505B4
+    // Offset: 0x144F05C
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0x1450830
+    // Offset: 0x144F2D8
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0x1450A9C
+    // Offset: 0x144F544
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean hasKickPermissions, System.Boolean allowSelection, System.Boolean showSongSelection, System.Boolean showModifierSelection, System.Boolean clearSelection)
-    // Offset: 0x1450BB0
+    // Offset: 0x144F658
     void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0x1450C74
+    // Offset: 0x144F71C
     void Init();
   }; // GameServerPlayersTableView
   #pragma pack(pop)

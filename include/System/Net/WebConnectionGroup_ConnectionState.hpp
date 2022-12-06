@@ -81,38 +81,38 @@ namespace System::Net {
     // Get instance field reference: private System.DateTime idleSince
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_idleSince();
     // public System.Net.WebConnection get_Connection()
-    // Offset: 0x1B91B58
+    // Offset: 0x1B8C6C8
     ::System::Net::WebConnection* get_Connection();
     // private System.Void set_Connection(System.Net.WebConnection value)
-    // Offset: 0x1B91B60
+    // Offset: 0x1B8C6D0
     void set_Connection(::System::Net::WebConnection* value);
     // public System.Net.WebConnectionGroup get_Group()
-    // Offset: 0x1B91B68
+    // Offset: 0x1B8C6D8
     ::System::Net::WebConnectionGroup* get_Group();
     // private System.Void set_Group(System.Net.WebConnectionGroup value)
-    // Offset: 0x1B91B70
+    // Offset: 0x1B8C6E0
     void set_Group(::System::Net::WebConnectionGroup* value);
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x1B91B78
+    // Offset: 0x1B8C6E8
     ::System::Net::ServicePoint* get_ServicePoint();
     // public System.Boolean get_Busy()
-    // Offset: 0x1B91B94
+    // Offset: 0x1B8C704
     bool get_Busy();
     // public System.DateTime get_IdleSince()
-    // Offset: 0x1B91B9C
+    // Offset: 0x1B8C70C
     ::System::DateTime get_IdleSince();
     // public System.Void .ctor(System.Net.WebConnectionGroup group)
-    // Offset: 0x1B915A8
+    // Offset: 0x1B8C118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup::ConnectionState* New_ctor(::System::Net::WebConnectionGroup* group) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionGroup::ConnectionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup::ConnectionState*, creationType>(group)));
     }
     // public System.Boolean TrySetBusy()
-    // Offset: 0x1B91BA4
+    // Offset: 0x1B8C714
     bool TrySetBusy();
     // public System.Void SetIdle()
-    // Offset: 0x1B91CFC
+    // Offset: 0x1B8C86C
     void SetIdle();
   }; // System.Net.WebConnectionGroup/System.Net.ConnectionState
   #pragma pack(pop)

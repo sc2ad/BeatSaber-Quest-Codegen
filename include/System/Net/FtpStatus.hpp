@@ -50,13 +50,13 @@ namespace System::Net {
     // Get instance field reference: private readonly System.String statusDescription
     [[deprecated("Use field access instead!")]] ::StringW& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
-    // Offset: 0x1AA9124
+    // Offset: 0x1AA6C94
     ::System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
-    // Offset: 0x1AA912C
+    // Offset: 0x1AA6C9C
     ::StringW get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
-    // Offset: 0x1AA90E8
+    // Offset: 0x1AA6C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpStatus* New_ctor(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpStatus::.ctor");

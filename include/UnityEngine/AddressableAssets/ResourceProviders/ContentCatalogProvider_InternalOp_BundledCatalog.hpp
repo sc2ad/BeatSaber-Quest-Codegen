@@ -109,41 +109,41 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Get instance field reference: private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
     [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*& dyn_OnLoaded();
     // public System.Boolean get_OpInProgress()
-    // Offset: 0x18E3374
+    // Offset: 0x18E2EE4
     bool get_OpInProgress();
     // public System.Boolean get_OpIsSuccess()
-    // Offset: 0x18E337C
+    // Offset: 0x18E2EEC
     bool get_OpIsSuccess();
     // public System.Void add_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
-    // Offset: 0x18E2EA0
+    // Offset: 0x18E2A10
     void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void remove_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
-    // Offset: 0x18E32D0
+    // Offset: 0x18E2E40
     void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void .ctor(System.String bundlePath)
-    // Offset: 0x18E2D9C
+    // Offset: 0x18E290C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogProvider::InternalOp::BundledCatalog* New_ctor(::StringW bundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp::BundledCatalog*, creationType>(bundlePath)));
     }
     // private System.Void Unload()
-    // Offset: 0x18E3418
+    // Offset: 0x18E2F88
     void Unload();
     // public System.Void LoadCatalogFromBundleAsync()
-    // Offset: 0x18E2F44
+    // Offset: 0x18E2AB4
     void LoadCatalogFromBundleAsync();
     // private System.Void LoadTextAssetRequestComplete(UnityEngine.AsyncOperation op)
-    // Offset: 0x18E344C
+    // Offset: 0x18E2FBC
     void LoadTextAssetRequestComplete(::UnityEngine::AsyncOperation* op);
     // public System.Boolean WaitForCompletion()
-    // Offset: 0x18E2C98
+    // Offset: 0x18E2808
     bool WaitForCompletion();
     // private System.Void <LoadCatalogFromBundleAsync>b__16_0(UnityEngine.AsyncOperation loadOp)
-    // Offset: 0x18E35D0
+    // Offset: 0x18E3140
     void $LoadCatalogFromBundleAsync$b__16_0(::UnityEngine::AsyncOperation* loadOp);
     // protected override System.Void Finalize()
-    // Offset: 0x18E339C
+    // Offset: 0x18E2F0C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

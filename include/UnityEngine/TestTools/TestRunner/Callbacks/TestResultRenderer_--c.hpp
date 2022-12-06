@@ -47,17 +47,17 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x199D4FC
+    // Offset: 0x199B06C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x199D560
+    // Offset: 0x199B0D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer::$$c*, creationType>()));
     }
     // System.String <Draw>b__8_0(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x199D568
+    // Offset: 0x199B0D8
     ::StringW $Draw$b__8_0(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/UnityEngine.TestTools.TestRunner.Callbacks.<>c
   #pragma pack(pop)

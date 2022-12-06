@@ -138,47 +138,47 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] workingKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x23D7E7C
+    // Offset: 0x23D49EC
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x23D7EC4
+    // Offset: 0x23D4A34
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x23D78F8
+    // Offset: 0x23D4468
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlowfishEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::BlowfishEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlowfishEngine*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x23D85F4
+    // Offset: 0x23D5164
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x23D79EC
+    // Offset: 0x23D455C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23D7ECC
+    // Offset: 0x23D4A3C
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x23D835C
+    // Offset: 0x23D4ECC
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x23D8360
+    // Offset: 0x23D4ED0
     int GetBlockSize();
     // private System.UInt32 F(System.UInt32 x)
-    // Offset: 0x23D8368
+    // Offset: 0x23D4ED8
     uint F(uint x);
     // private System.Void ProcessTable(System.UInt32 xl, System.UInt32 xr, System.UInt32[] table)
-    // Offset: 0x23D8414
+    // Offset: 0x23D4F84
     void ProcessTable(uint xl, uint xr, ::ArrayW<uint> table);
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x23D7B48
+    // Offset: 0x23D46B8
     void SetKey(::ArrayW<uint8_t> key);
     // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x23D7FF0
+    // Offset: 0x23D4B60
     void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x23D81B4
+    // Offset: 0x23D4D24
     void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
   }; // Org.BouncyCastle.Crypto.Engines.BlowfishEngine
   #pragma pack(pop)

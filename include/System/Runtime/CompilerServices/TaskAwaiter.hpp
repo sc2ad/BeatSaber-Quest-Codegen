@@ -70,31 +70,31 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task*& dyn_m_task();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1E0D068
+    // Offset: 0x1E08BD8
     bool get_IsCompleted();
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x1E0D060
+    // Offset: 0x1E08BD0
     // ABORTED: conflicts with another method.  TaskAwaiter(::System::Threading::Tasks::Task* task);
     // public System.Void OnCompleted(System.Action continuation)
-    // Offset: 0x1E0D084
+    // Offset: 0x1E08BF4
     void OnCompleted(::System::Action* continuation);
     // public System.Void UnsafeOnCompleted(System.Action continuation)
-    // Offset: 0x1E0D094
+    // Offset: 0x1E08C04
     void UnsafeOnCompleted(::System::Action* continuation);
     // public System.Void GetResult()
-    // Offset: 0x1E0D0A4
+    // Offset: 0x1E08C14
     void GetResult();
     // static System.Void ValidateEnd(System.Threading.Tasks.Task task)
-    // Offset: 0x1E0CA48
+    // Offset: 0x1E085B8
     static void ValidateEnd(::System::Threading::Tasks::Task* task);
     // static private System.Void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task task)
-    // Offset: 0x1E0D0AC
+    // Offset: 0x1E08C1C
     static void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task* task);
     // static private System.Void ThrowForNonSuccess(System.Threading.Tasks.Task task)
-    // Offset: 0x1E0D11C
+    // Offset: 0x1E08C8C
     static void ThrowForNonSuccess(::System::Threading::Tasks::Task* task);
     // static System.Void OnCompletedInternal(System.Threading.Tasks.Task task, System.Action continuation, System.Boolean continueOnCapturedContext, System.Boolean flowExecutionContext)
-    // Offset: 0x1E0C960
+    // Offset: 0x1E084D0
     static void OnCompletedInternal(::System::Threading::Tasks::Task* task, ::System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
   }; // System.Runtime.CompilerServices.TaskAwaiter
   #pragma pack(pop)

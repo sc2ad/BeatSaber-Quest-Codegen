@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* loadingText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111C1F8
+    // [SpaceAttribute] Offset: 0x111E0F8
     // private TMPro.TextMeshProUGUI _refreshText
     // Size: 0x8
     // Offset: 0x28
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* refreshContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111C250
+    // [SpaceAttribute] Offset: 0x111E150
     // private UnityEngine.GameObject _downloadingContainer
     // Size: 0x8
     // Offset: 0x40
@@ -145,41 +145,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Boolean get_isLoading()
-    // Offset: 0x15AA31C
+    // Offset: 0x15A7E8C
     bool get_isLoading();
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x15AA1D4
+    // Offset: 0x15A7D44
     void add_didPressRefreshButtonEvent(::System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x15AA278
+    // Offset: 0x15A7DE8
     void remove_didPressRefreshButtonEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x15AA610
+    // Offset: 0x15A8180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LoadingControl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LoadingControl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LoadingControl*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15AA338
+    // Offset: 0x15A7EA8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x15AA3E8
+    // Offset: 0x15A7F58
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
-    // Offset: 0x15AA404
+    // Offset: 0x15A7F74
     void ShowLoading(::StringW text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0x15AA48C
+    // Offset: 0x15A7FFC
     void ShowText(::StringW text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0x15AA540
+    // Offset: 0x15A80B0
     void ShowDownloadingProgress(::StringW text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0x15AA5E8
+    // Offset: 0x15A8158
     void Hide();
     // private System.Void <Awake>b__14_0()
-    // Offset: 0x15AA618
+    // Offset: 0x15A8188
     void $Awake$b__14_0();
   }; // LoadingControl
   #pragma pack(pop)

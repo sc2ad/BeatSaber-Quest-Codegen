@@ -32,14 +32,14 @@ namespace Zenject {
   class ZenjectException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1DC837C
+    // Offset: 0x1DC3EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1DC83F4
+    // Offset: 0x1DC3F64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectException::.ctor");

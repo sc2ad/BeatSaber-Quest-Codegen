@@ -52,21 +52,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingSpriteSpawner* failFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x1113478
+    // [InjectAttribute] Offset: 0x1115378
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1113488
+    // [InjectAttribute] Offset: 0x1115388
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1113498
+    // [InjectAttribute] Offset: 0x1115398
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -85,20 +85,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly CoreGameHUDController/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CoreGameHUDController::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x139CEC0
+    // Offset: 0x139DD24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BadNoteCutEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BadNoteCutEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BadNoteCutEffectSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x139CC48
+    // Offset: 0x139DAAC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139CD00
+    // Offset: 0x139DB64
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x139CD98
+    // Offset: 0x139DBFC
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // BadNoteCutEffectSpawner
   #pragma pack(pop)

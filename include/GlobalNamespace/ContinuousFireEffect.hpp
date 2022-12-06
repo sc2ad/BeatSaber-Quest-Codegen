@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x110CACC
+    // [SpaceAttribute] Offset: 0x110E9CC
     // private System.Single _fadeInDuration
     // Size: 0x4
     // Offset: 0x80
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     float fadeOutDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x110CB14
+    // [SpaceAttribute] Offset: 0x110EA14
     // private System.Single _sustainDuration
     // Size: 0x4
     // Offset: 0x88
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* bloomSustainCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x110CB6C
+    // [InjectAttribute] Offset: 0x110EA6C
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0xA0
@@ -146,25 +146,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastFadeOutProgress
     [[deprecated("Use field access instead!")]] float& dyn__lastFadeOutProgress();
     // protected System.Void Update()
-    // Offset: 0x14328F4
+    // Offset: 0x143239C
     void Update();
     // private System.Void SetInitialValues()
-    // Offset: 0x1432830
+    // Offset: 0x14322D8
     void SetInitialValues();
     // private System.Void StartEffect(System.Single startTime, System.Single endTime)
-    // Offset: 0x1432C4C
+    // Offset: 0x14326F4
     void StartEffect(float startTime, float endTime);
     // private System.Void EndEffect()
-    // Offset: 0x1432C18
+    // Offset: 0x14326C0
     void EndEffect();
     // private System.Void UpdateEffect()
-    // Offset: 0x14328F8
+    // Offset: 0x14323A0
     void UpdateEffect();
     // private System.Void UpdateRenderers(System.Single flipBookAlpha, System.Single bloomAlpha)
-    // Offset: 0x1432D80
+    // Offset: 0x1432828
     void UpdateRenderers(float flipBookAlpha, float bloomAlpha);
     // public System.Void .ctor()
-    // Offset: 0x1432F4C
+    // Offset: 0x14329F4
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,12 +173,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ContinuousFireEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x14327F8
+    // Offset: 0x14322A0
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::Start()
     void Start();
     // protected override System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
-    // Offset: 0x1432ABC
+    // Offset: 0x1432564
     // Implemented from: FireEffect
     // Base method: System.Void FireEffect::HandleColorChangeBeatmapEvent(LightColorBeatmapEventData e)
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);

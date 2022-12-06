@@ -47,8 +47,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestColor and: testColor
     char __padding0[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x10FC768
-    // [ColorUsageAttribute] Offset: 0x10FC768
+    // [DrawIfAttribute] Offset: 0x10FE668
+    // [ColorUsageAttribute] Offset: 0x10FE668
     // private UnityEngine.Color _testColor
     // Size: 0x10
     // Offset: 0x1C
@@ -115,32 +115,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CD4C2C
+    // Offset: 0x1CD079C
     ::UnityEngine::Color get_color();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1CD4C64
+    // Offset: 0x1CD07D4
     ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1CD4C6C
+    // Offset: 0x1CD07DC
     void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
     // public System.Void .ctor()
-    // Offset: 0x1CD4DFC
+    // Offset: 0x1CD096C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockColorSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockColorSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorSetter*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1CD4C74
+    // Offset: 0x1CD07E4
     void Awake();
     // private System.Void InitIfNeeded()
-    // Offset: 0x1CD4CB4
+    // Offset: 0x1CD0824
     void InitIfNeeded();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1CD4CF4
+    // Offset: 0x1CD0864
     void SetColor(::UnityEngine::Color color);
     // protected System.Void OnValidate()
-    // Offset: 0x1CD4DAC
+    // Offset: 0x1CD091C
     void OnValidate();
   }; // MaterialPropertyBlockColorSetter
   #pragma pack(pop)

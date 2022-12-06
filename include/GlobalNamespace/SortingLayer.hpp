@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::Renderer*& dyn__renderer();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x2AC4630
+    // Offset: 0x2ABD1A0
     ::UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x2AC4690
+    // Offset: 0x2ABD200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortingLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SortingLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortingLayer*, creationType>()));
     }
     // private System.Void Reset()
-    // Offset: 0x2AC4638
+    // Offset: 0x2ABD1A8
     void Reset();
   }; // SortingLayer
   #pragma pack(pop)

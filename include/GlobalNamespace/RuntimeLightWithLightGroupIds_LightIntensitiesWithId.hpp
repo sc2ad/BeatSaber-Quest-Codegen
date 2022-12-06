@@ -40,13 +40,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _intensity
     [[deprecated("Use field access instead!")]] float& dyn__intensity();
     // public System.Single get_intensity()
-    // Offset: 0x1CD913C
+    // Offset: 0x1CD4CAC
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1CD9144
+    // Offset: 0x1CD4CB4
     void set_intensity(float value);
     // public System.Void .ctor(System.Int32 lightId, System.Single intensity)
-    // Offset: 0x1CD8E40
+    // Offset: 0x1CD49B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeLightWithLightGroupIds::LightIntensitiesWithId* New_ctor(int lightId, float intensity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RuntimeLightWithLightGroupIds::LightIntensitiesWithId::.ctor");

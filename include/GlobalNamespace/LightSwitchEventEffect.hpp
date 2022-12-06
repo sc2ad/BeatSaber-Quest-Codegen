@@ -133,28 +133,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType event;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [InjectAttribute] Offset: 0x1115204
+    // [InjectAttribute] Offset: 0x1117104
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightWithIdManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1115214
+    // [InjectAttribute] Offset: 0x1117114
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1115224
+    // [InjectAttribute] Offset: 0x1117124
     // private readonly Tweening.SongTimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     ::Tweening::SongTimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::SongTimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1115234
+    // [InjectAttribute] Offset: 0x1117134
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x80
@@ -259,44 +259,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _colorBoostBeatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__colorBoostBeatmapDataCallbackWrapper();
     // public System.Int32 get_lightsId()
-    // Offset: 0x1516660
+    // Offset: 0x15151D0
     int get_lightsId();
     // public System.Void .ctor()
-    // Offset: 0x15172A0
+    // Offset: 0x1515E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightSwitchEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightSwitchEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightSwitchEventEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1516668
+    // Offset: 0x15151D8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1516868
+    // Offset: 0x15153D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x15169F0
+    // Offset: 0x1515560
     void OnDestroy();
     // private System.Void HandleColorChangeBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1516AB0
+    // Offset: 0x1515620
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private System.Void HandleColorBoostBeatmapEvent(ColorBoostBeatmapEventData eventData)
-    // Offset: 0x15171B0
+    // Offset: 0x1515D20
     void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
     // private System.Void SetupTweenAndSaveOtherColors(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor)
-    // Offset: 0x151682C
+    // Offset: 0x151539C
     void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
     // private System.Void CheckNextEventForFade(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x1516E44
+    // Offset: 0x15159B4
     void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue, System.Boolean colorBoost)
-    // Offset: 0x1517070
+    // Offset: 0x1515BE0
     ::UnityEngine::Color GetNormalColor(int beatmapEventValue, bool colorBoost);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue, System.Boolean colorBoost)
-    // Offset: 0x1517110
+    // Offset: 0x1515C80
     ::UnityEngine::Color GetHighlightColor(int beatmapEventValue, bool colorBoost);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1516E20
+    // Offset: 0x1515990
     void SetColor(::UnityEngine::Color color);
   }; // LightSwitchEventEffect
   #pragma pack(pop)

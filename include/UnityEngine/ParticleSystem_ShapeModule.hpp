@@ -52,13 +52,13 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.ParticleSystem m_ParticleSystem
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn_m_ParticleSystem();
     // public System.Void set_rotation(UnityEngine.Vector3 value)
-    // Offset: 0x2B75E74
+    // Offset: 0x2B6D9E4
     void set_rotation(::UnityEngine::Vector3 value);
     // System.Void .ctor(UnityEngine.ParticleSystem particleSystem)
-    // Offset: 0x2B7552C
+    // Offset: 0x2B6D09C
     // ABORTED: conflicts with another method.  ShapeModule(::UnityEngine::ParticleSystem* particleSystem);
     // static private System.Void set_rotation_Injected(ref UnityEngine.ParticleSystem/UnityEngine.ShapeModule _unity_self, ref UnityEngine.Vector3 value)
-    // Offset: 0x2B75ECC
+    // Offset: 0x2B6DA3C
     static void set_rotation_Injected(ByRef<::UnityEngine::ParticleSystem::ShapeModule> _unity_self, ByRef<::UnityEngine::Vector3> value);
   }; // UnityEngine.ParticleSystem/UnityEngine.ShapeModule
   #pragma pack(pop)

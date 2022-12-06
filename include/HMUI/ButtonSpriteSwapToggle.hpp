@@ -55,13 +55,13 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isToggled
     [[deprecated("Use field access instead!")]] bool& dyn__isToggled();
     // public System.Boolean get_isToggled()
-    // Offset: 0x1744C30
+    // Offset: 0x17457A0
     bool get_isToggled();
     // public System.Void set_isToggled(System.Boolean value)
-    // Offset: 0x1744C38
+    // Offset: 0x17457A8
     void set_isToggled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1744E00
+    // Offset: 0x1745970
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,12 +70,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<ButtonSpriteSwapToggle*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1744C7C
+    // Offset: 0x17457EC
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::OnEnable()
     void OnEnable();
     // protected override System.Void HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
-    // Offset: 0x1744CAC
+    // Offset: 0x174581C
     // Implemented from: HMUI.ButtonSpriteSwap
     // Base method: System.Void ButtonSpriteSwap::HandleButtonSelectionStateDidChange(HMUI.NoTransitionsButton/HMUI.SelectionState state)
     void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton::SelectionState state);

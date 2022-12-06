@@ -71,20 +71,20 @@ namespace Mono::Net::Security {
     // Get instance field reference: public System.Boolean Complete
     [[deprecated("Use field access instead!")]] bool& dyn_Complete();
     // public System.Int32 get_EndOffset()
-    // Offset: 0x1AFC498
+    // Offset: 0x1AFA008
     int get_EndOffset();
     // public System.Int32 get_Remaining()
-    // Offset: 0x1AFC4A4
+    // Offset: 0x1AFA014
     int get_Remaining();
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AFC024
+    // Offset: 0x1AF9B94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize* New_ctor(::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }
     // public override System.String ToString()
-    // Offset: 0x1AFC4CC
+    // Offset: 0x1AFA03C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

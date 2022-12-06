@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& dyn__leaderboardsData();
     // public System.Void .ctor()
-    // Offset: 0x15B7FA0
+    // Offset: 0x15B5B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::SavedLeaderboardsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::SavedLeaderboardsData::.ctor");

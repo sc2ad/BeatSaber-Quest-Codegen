@@ -36,10 +36,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class ECNamedCurveTable : public ::Il2CppObject {
     public:
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1F9F4C4
+    // Offset: 0x1F9E034
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1F9F6EC
+    // Offset: 0x1F9E25C
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.X9.ECNamedCurveTable
   #pragma pack(pop)

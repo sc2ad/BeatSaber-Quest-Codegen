@@ -51,22 +51,22 @@ namespace Zenject {
     // Get instance field reference: private readonly System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x17BD49C
+    // Offset: 0x17BE00C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller*, creationType>(name)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17BD634
+    // Offset: 0x17BE1A4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x17BD500
+    // Offset: 0x17BE070
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17BD6DC
+    // Offset: 0x17BE24C
     // Implemented from: Zenject.Installer`2
     // Base method: Zenject.InjectTypeInfo Installer_2::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

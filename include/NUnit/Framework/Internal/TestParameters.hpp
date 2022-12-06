@@ -47,7 +47,7 @@ namespace NUnit::Framework::Internal {
   class TestParameters : public ::Il2CppObject/*, public ::NUnit::Framework::Interfaces::IApplyToTest, public ::NUnit::Framework::Interfaces::ITestData*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1107D9C
+    // [DebuggerBrowsableAttribute] Offset: 0x1109C9C
     // private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -56,28 +56,28 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::NUnit::Framework::Interfaces::RunState) == 0x4);
     // Padding between fields: RunState and: Arguments
     char __padding0[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x1107DD8
+    // [DebuggerBrowsableAttribute] Offset: 0x1109CD8
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1107E14
+    // [DebuggerBrowsableAttribute] Offset: 0x1109D14
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::StringW TestName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1107E50
+    // [DebuggerBrowsableAttribute] Offset: 0x1109D50
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     ::NUnit::Framework::Interfaces::IPropertyBag* Properties;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Interfaces::IPropertyBag*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1107E8C
+    // [DebuggerBrowsableAttribute] Offset: 0x1109D8C
     // private System.Object[] <OriginalArguments>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -112,51 +112,51 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Object[] <OriginalArguments>k__BackingField
     [[deprecated("Use field access instead!")]] ::ArrayW<::Il2CppObject*>& dyn_$OriginalArguments$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
-    // Offset: 0x2A762D0
+    // Offset: 0x2A6FE40
     ::NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Void set_RunState(NUnit.Framework.Interfaces.RunState value)
-    // Offset: 0x2A762D8
+    // Offset: 0x2A6FE48
     void set_RunState(::NUnit::Framework::Interfaces::RunState value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x2A762E0
+    // Offset: 0x2A6FE50
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x2A762E8
+    // Offset: 0x2A6FE58
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public System.String get_TestName()
-    // Offset: 0x2A762F0
+    // Offset: 0x2A6FE60
     ::StringW get_TestName();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
-    // Offset: 0x2A762F8
+    // Offset: 0x2A6FE68
     ::NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // private System.Void set_Properties(NUnit.Framework.Interfaces.IPropertyBag value)
-    // Offset: 0x2A76300
+    // Offset: 0x2A6FE70
     void set_Properties(::NUnit::Framework::Interfaces::IPropertyBag* value);
     // public System.Object[] get_OriginalArguments()
-    // Offset: 0x2A769A4
+    // Offset: 0x2A70514
     ::ArrayW<::Il2CppObject*> get_OriginalArguments();
     // private System.Void set_OriginalArguments(System.Object[] value)
-    // Offset: 0x2A769AC
+    // Offset: 0x2A7051C
     void set_OriginalArguments(::ArrayW<::Il2CppObject*> value);
     // public System.Void .ctor()
-    // Offset: 0x2A72CBC
+    // Offset: 0x2A6C82C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestParameters* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>()));
     }
     // public System.Void .ctor(System.Object[] args)
-    // Offset: 0x2A72D30
+    // Offset: 0x2A6C8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestParameters* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>(args)));
     }
     // private System.Void InitializeAguments(System.Object[] args)
-    // Offset: 0x2A7624C
+    // Offset: 0x2A6FDBC
     void InitializeAguments(::ArrayW<::Il2CppObject*> args);
     // public System.Void ApplyToTest(NUnit.Framework.Internal.Test test)
-    // Offset: 0x2A76308
+    // Offset: 0x2A6FE78
     void ApplyToTest(::NUnit::Framework::Internal::Test* test);
   }; // NUnit.Framework.Internal.TestParameters
   #pragma pack(pop)

@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::QuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
     public:
-    // [InjectAttribute] Offset: 0x111077C
+    // [InjectAttribute] Offset: 0x111267C
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -116,29 +116,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.DateTime _lastRequestTime
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn__lastRequestTime();
     // public System.Void .ctor()
-    // Offset: 0x141E604
+    // Offset: 0x141F0AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x141E27C
+    // Offset: 0x141ED24
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x141E474
+    // Offset: 0x141EF1C
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x141E3FC
+    // Offset: 0x141EEA4
     void StartRequest();
     // private System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x141E478
+    // Offset: 0x141EF20
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x141E2F0
+    // Offset: 0x141ED98
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x141E598
+    // Offset: 0x141F040
     bool IsUrlValid(::StringW url);
   }; // QuickPlaySetupModel
   #pragma pack(pop)

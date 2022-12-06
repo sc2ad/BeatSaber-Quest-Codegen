@@ -36,21 +36,21 @@ namespace LiteNetLib {
   class InvalidPacketException : public ::System::ArgumentException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x21FCA1C
+    // Offset: 0x21FB58C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidPacketException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::InvalidPacketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidPacketException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x21FCA24
+    // Offset: 0x21FB594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidPacketException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::InvalidPacketException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidPacketException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x21FCA2C
+    // Offset: 0x21FB59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidPacketException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::InvalidPacketException::.ctor");

@@ -70,45 +70,45 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <Value>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$Value$k__BackingField();
     // public System.Nullable`1<System.Double> get_Quality()
-    // Offset: 0x19D8FB4
+    // Offset: 0x19D6B24
     ::System::Nullable_1<double> get_Quality();
     // private System.Void set_Quality(System.Nullable`1<System.Double> value)
-    // Offset: 0x19D8FC0
+    // Offset: 0x19D6B30
     void set_Quality(::System::Nullable_1<double> value);
     // public System.String get_Value()
-    // Offset: 0x19D8FC8
+    // Offset: 0x19D6B38
     ::StringW get_Value();
     // private System.Void set_Value(System.String value)
-    // Offset: 0x19D8FD0
+    // Offset: 0x19D6B40
     void set_Value(::StringW value);
     // private System.Void .ctor()
-    // Offset: 0x19D8FAC
+    // Offset: 0x19D6B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringWithQualityHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::StringWithQualityHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringWithQualityHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19D8FD8
+    // Offset: 0x19D6B48
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.StringWithQualityHeaderValue> result)
-    // Offset: 0x19D9150
+    // Offset: 0x19D6CC0
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.StringWithQualityHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x19D91F0
+    // Offset: 0x19D6D60
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::StringWithQualityHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19D8FE0
+    // Offset: 0x19D6B50
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19D90BC
+    // Offset: 0x19D6C2C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19D9450
+    // Offset: 0x19D6FC0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

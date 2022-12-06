@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)
-    // Offset: 0x1716930
+    // Offset: 0x17164A0
     void SetText(::StringW text);
     // public System.Void .ctor()
-    // Offset: 0x171694C
+    // Offset: 0x17164BC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

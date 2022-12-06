@@ -100,19 +100,19 @@ namespace BeatmapEditor3D {
     // Get instance field reference: private System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x155ED68
+    // Offset: 0x155C8D8
     void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> value)
-    // Offset: 0x155EE0C
+    // Offset: 0x155C97C
     void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.Boolean useFirstPersonFlyingController, System.Action beforeSceneSwitchCallback, System.Action`2<BeatmapEditor3D.BeatmapEditorStandardLevelScenesTransitionSetupDataSO,LevelCompletionResults> levelFinishedCallback)
-    // Offset: 0x155EEB0
+    // Offset: 0x155CA20
     void Init(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useFirstPersonFlyingController, ::System::Action* beforeSceneSwitchCallback, ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void Finish(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x155F6A4
+    // Offset: 0x155D214
     void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x155F71C
+    // Offset: 0x155D28C
     // Implemented from: LevelScenesTransitionSetupDataSO
     // Base method: System.Void LevelScenesTransitionSetupDataSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

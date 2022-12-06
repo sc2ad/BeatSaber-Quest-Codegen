@@ -46,14 +46,14 @@ namespace UnityEngine::ProBuilder {
       return reinterpret_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x19F1880
+    // Offset: 0x19F03F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::SelectionPickerRendererHDRP* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::SelectionPickerRendererHDRP*, creationType>()));
     }
     // public UnityEngine.Texture2D RenderLookupTexture(UnityEngine.Camera camera, UnityEngine.Shader shader, System.String tag, System.Int32 width, System.Int32 height)
-    // Offset: 0x19F3F7C
+    // Offset: 0x19F2AEC
     ::UnityEngine::Texture2D* RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int width, int height);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.SelectionPickerRendererHDRP
   #pragma pack(pop)

@@ -110,32 +110,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
     [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x175FEB0
+    // Offset: 0x1760A20
     ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x175FEDC
+    // Offset: 0x1760A4C
     bool get_Connected();
     // public System.Void .ctor()
-    // Offset: 0x1760C80
+    // Offset: 0x17617F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpClient*, creationType>()));
     }
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x175FEF0
+    // Offset: 0x1760A60
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x1760044
+    // Offset: 0x1760BB4
     void ConnectCallback(::System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x1760344
+    // Offset: 0x1760EB4
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x1760598
+    // Offset: 0x1761108
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x176079C
+    // Offset: 0x176130C
     void OnReadDataCallback(::System::IAsyncResult* ar);
   }; // OVRNetwork/OVRNetworkTcpClient
   #pragma pack(pop)

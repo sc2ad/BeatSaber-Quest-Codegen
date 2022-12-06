@@ -96,35 +96,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty _selectedDifficulty
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__selectedDifficulty();
     // public BeatmapDifficulty get_selectedDifficulty()
-    // Offset: 0x155E53C
+    // Offset: 0x155C0AC
     ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
     // public System.Void add_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x155E3F4
+    // Offset: 0x155BF64
     void add_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_didSelectDifficultyEvent(System.Action`2<BeatmapDifficultySegmentedControlController,BeatmapDifficulty> value)
-    // Offset: 0x155E498
+    // Offset: 0x155C008
     void remove_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void .ctor()
-    // Offset: 0x155ECF4
+    // Offset: 0x155C864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDifficultySegmentedControlController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDifficultySegmentedControlController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDifficultySegmentedControlController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x155E544
+    // Offset: 0x155C0B4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x155E5D8
+    // Offset: 0x155C148
     void OnDestroy();
     // private System.Int32 GetClosestDifficultyIndex(BeatmapDifficulty searchDifficulty)
-    // Offset: 0x155E6B4
+    // Offset: 0x155C224
     int GetClosestDifficultyIndex(::GlobalNamespace::BeatmapDifficulty searchDifficulty);
     // private System.Void HandleDifficultySegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x155E7BC
+    // Offset: 0x155C32C
     void HandleDifficultySegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmap> difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
-    // Offset: 0x155E860
+    // Offset: 0x155C3D0
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps, ::GlobalNamespace::BeatmapDifficulty selectedDifficulty);
   }; // BeatmapDifficultySegmentedControlController
   #pragma pack(pop)

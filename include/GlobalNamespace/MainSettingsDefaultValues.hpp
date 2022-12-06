@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     static int _get_kDefaultWindowResolutionHeight();
     // Set static field: static public System.Int32 kDefaultWindowResolutionHeight
     static void _set_kDefaultWindowResolutionHeight(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1110284
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1112184
     // Get static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
     static int _get_kDefaultMirrorGraphicsSettings();
     // Set static field: static public readonly System.Int32 kDefaultMirrorGraphicsSettings
@@ -207,17 +207,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // public System.Void .ctor()
-    // Offset: 0x133C4F8
+    // Offset: 0x133E1EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsDefaultValues* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsDefaultValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsDefaultValues*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x133C500
+    // Offset: 0x133E1F4
     static void _cctor();
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x133C3B4
+    // Offset: 0x133E0A8
     static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
   }; // MainSettingsDefaultValues
   #pragma pack(pop)

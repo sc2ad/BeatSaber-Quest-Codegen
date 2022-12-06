@@ -121,10 +121,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKQuaternion rightrotation
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKQuaternion& dyn_rightrotation();
     // static public LIV.SDK.Unity.SDKControllerState get_empty()
-    // Offset: 0x2AE7B28
+    // Offset: 0x2ADF698
     static ::LIV::SDK::Unity::SDKControllerState get_empty();
     // public override System.String ToString()
-    // Offset: 0x2AE7B98
+    // Offset: 0x2ADF708
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

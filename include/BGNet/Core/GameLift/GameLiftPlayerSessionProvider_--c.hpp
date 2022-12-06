@@ -57,23 +57,23 @@ namespace BGNet::Core::GameLift {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Int64> <>9__17_2
     static void _set_$$9__17_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15C2AD4
+    // Offset: 0x15C0644
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x15C2B38
+    // Offset: 0x15C06A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftPlayerSessionProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftPlayerSessionProvider::$$c*, creationType>()));
     }
     // System.Boolean <GetAverageLatencies>b__17_0(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x15C2B40
+    // Offset: 0x15C06B0
     bool $GetAverageLatencies$b__17_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.String <GetAverageLatencies>b__17_1(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x15C2B90
+    // Offset: 0x15C0700
     ::StringW $GetAverageLatencies$b__17_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.Int64 <GetAverageLatencies>b__17_2(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
-    // Offset: 0x15C2BD4
+    // Offset: 0x15C0744
     int64_t $GetAverageLatencies$b__17_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<>c
   #pragma pack(pop)

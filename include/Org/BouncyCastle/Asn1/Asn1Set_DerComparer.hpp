@@ -34,14 +34,14 @@ namespace Org::BouncyCastle::Asn1 {
       return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1CE20B8
+    // Offset: 0x1CDDC28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1Set::DerComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Asn1Set::DerComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Set::DerComparer*, creationType>()));
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x1CE20CC
+    // Offset: 0x1CDDC3C
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // Org.BouncyCastle.Asn1.Asn1Set/Org.BouncyCastle.Asn1.DerComparer
   #pragma pack(pop)

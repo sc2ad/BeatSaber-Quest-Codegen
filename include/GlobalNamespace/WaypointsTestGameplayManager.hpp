@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     float outerCapsuleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x11168C8
+    // [SpaceAttribute] Offset: 0x11187C8
     // private UnityEngine.Vector3 _innerSphereOffset
     // Size: 0xC
     // Offset: 0x34
@@ -81,35 +81,35 @@ namespace GlobalNamespace {
     float innerSphereRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1116910
+    // [SpaceAttribute] Offset: 0x1118810
     // private UnityEngine.LayerMask _layersToColliderWith
     // Size: 0x4
     // Offset: 0x44
     ::UnityEngine::LayerMask layersToColliderWith;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [InjectAttribute] Offset: 0x1116948
+    // [InjectAttribute] Offset: 0x1118848
     // private readonly BTSCharacterSpawnController _characterSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BTSCharacterSpawnController* characterSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116958
+    // [InjectAttribute] Offset: 0x1118858
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116968
+    // [InjectAttribute] Offset: 0x1118868
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116978
+    // [InjectAttribute] Offset: 0x1118878
     // private readonly GameplayCoreSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -214,26 +214,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _biggestAccelerationSongTime
     [[deprecated("Use field access instead!")]] float& dyn__biggestAccelerationSongTime();
     // public System.Void .ctor()
-    // Offset: 0x166EB28
+    // Offset: 0x166D698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaypointsTestGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WaypointsTestGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaypointsTestGameplayManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x166CD60
+    // Offset: 0x166B8D0
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x166CDA0
+    // Offset: 0x166B910
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0x166E2F8
+    // Offset: 0x166CE68
     void OnDestroy();
     // private System.String GetBar(System.Single songTime)
-    // Offset: 0x166E0F0
+    // Offset: 0x166CC60
     ::StringW GetBar(float songTime);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x166E83C
+    // Offset: 0x166D3AC
     void OnDrawGizmos();
   }; // WaypointsTestGameplayManager
   #pragma pack(pop)

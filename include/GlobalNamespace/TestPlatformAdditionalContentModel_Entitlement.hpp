@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public AdditionalContentModel/EntitlementStatus status
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel::EntitlementStatus& dyn_status();
     // public System.Void .ctor()
-    // Offset: 0x13B6300
+    // Offset: 0x13B6164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement::.ctor");

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GameplayModifierInfoListItem*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x145459C
+    // Offset: 0x1453044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifierInfoListItemsList* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifierInfoListItemsList::.ctor");

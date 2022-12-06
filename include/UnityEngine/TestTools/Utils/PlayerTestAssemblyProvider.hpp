@@ -65,17 +65,17 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn_m_AssembliesToLoad();
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
-    // Offset: 0x2B579AC
+    // Offset: 0x2B5051C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTestAssemblyProvider* New_ctor(::UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, ::System::Collections::Generic::List_1<::StringW>* assembliesToLoad) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTestAssemblyProvider*, creationType>(assemblyLoadProxy, assembliesToLoad)));
     }
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> GetUserAssemblies()
-    // Offset: 0x2B57C74
+    // Offset: 0x2B507E4
     ::System::Collections::Generic::List_1<::UnityEngine::TestTools::Utils::IAssemblyWrapper*>* GetUserAssemblies();
     // private System.Void LoadAssemblies()
-    // Offset: 0x2B579E8
+    // Offset: 0x2B50558
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
   #pragma pack(pop)

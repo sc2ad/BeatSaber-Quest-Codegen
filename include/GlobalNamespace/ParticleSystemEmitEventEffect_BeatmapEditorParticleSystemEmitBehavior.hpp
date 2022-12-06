@@ -69,17 +69,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Zenject.TickableManager _tickableManager
     [[deprecated("Use field access instead!")]] ::Zenject::TickableManager*& dyn__tickableManager();
     // public System.Void .ctor(BasicBeatmapEventType beatmapEvent, UnityEngine.Transform particleSystemParentTransform, System.Int32 particleSystemMaxSpawnedSystems, IAudioTimeSource audioTimeSource, BeatmapCallbacksController beatmapCallbacksController, ParticleSystemEventController/Pool particleSystemEventControllerPool, Zenject.TickableManager tickableManager)
-    // Offset: 0x137DF40
+    // Offset: 0x137EDA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitEventEffect::BeatmapEditorParticleSystemEmitBehavior* New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent, ::UnityEngine::Transform* particleSystemParentTransform, int particleSystemMaxSpawnedSystems, ::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::ParticleSystemEventController::Pool* particleSystemEventControllerPool, ::Zenject::TickableManager* tickableManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitEventEffect::BeatmapEditorParticleSystemEmitBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitEventEffect::BeatmapEditorParticleSystemEmitBehavior*, creationType>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, tickableManager)));
     }
     // public System.Void Tick()
-    // Offset: 0x137E0F4
+    // Offset: 0x137EF58
     void Tick();
     // public override System.Void Dispose()
-    // Offset: 0x137E4AC
+    // Offset: 0x137F310
     // Implemented from: ParticleSystemEmitEventEffect/ParticleSystemEmitBehavior
     // Base method: System.Void ParticleSystemEmitBehavior::Dispose()
     void Dispose();

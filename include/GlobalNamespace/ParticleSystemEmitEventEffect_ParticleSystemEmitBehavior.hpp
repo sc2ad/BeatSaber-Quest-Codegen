@@ -111,20 +111,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // protected System.Void .ctor(BasicBeatmapEventType beatmapEvent, UnityEngine.Transform particleSystemParentTransform, System.Int32 particleSystemMaxSpawnedSystems, IAudioTimeSource audioTimeSource, BeatmapCallbacksController beatmapCallbacksController, ParticleSystemEventController/Pool particleSystemEventControllerPool)
-    // Offset: 0x137DF7C
+    // Offset: 0x137EDE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitEventEffect::ParticleSystemEmitBehavior* New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent, ::UnityEngine::Transform* particleSystemParentTransform, int particleSystemMaxSpawnedSystems, ::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::ParticleSystemEventController::Pool* particleSystemEventControllerPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitEventEffect::ParticleSystemEmitBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitEventEffect::ParticleSystemEmitBehavior*, creationType>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool)));
     }
     // public System.Void Dispose()
-    // Offset: 0x137E4E0
+    // Offset: 0x137F344
     void Dispose();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x137EF9C
+    // Offset: 0x137FE00
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
     // protected ParticleSystemEventController EmitParticles(System.Single startTime)
-    // Offset: 0x137EDF0
+    // Offset: 0x137FC54
     ::GlobalNamespace::ParticleSystemEventController* EmitParticles(float startTime);
   }; // ParticleSystemEmitEventEffect/ParticleSystemEmitBehavior
   #pragma pack(pop)

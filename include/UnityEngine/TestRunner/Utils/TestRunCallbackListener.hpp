@@ -75,29 +75,29 @@ namespace UnityEngine::TestRunner::Utils {
     // Get instance field reference: private UnityEngine.TestRunner.ITestRunCallback[] m_Callbacks
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*>& dyn_m_Callbacks();
     // public System.Void .ctor()
-    // Offset: 0x1995D90
+    // Offset: 0x1993900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener*, creationType>()));
     }
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x19956A0
+    // Offset: 0x1993210
     void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
     // static private UnityEngine.TestRunner.ITestRunCallback[] GetAllCallbacks()
-    // Offset: 0x19958D4
+    // Offset: 0x1993444
     static ::ArrayW<::UnityEngine::TestRunner::ITestRunCallback*> GetAllCallbacks();
     // private System.Void InvokeAllCallbacks(System.Action`1<UnityEngine.TestRunner.ITestRunCallback> invoker)
-    // Offset: 0x1995758
+    // Offset: 0x19932C8
     void InvokeAllCallbacks(::System::Action_1<::UnityEngine::TestRunner::ITestRunCallback*>* invoker);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1995B68
+    // Offset: 0x19936D8
     void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1995C20
+    // Offset: 0x1993790
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1995CD8
+    // Offset: 0x1993848
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener
   #pragma pack(pop)

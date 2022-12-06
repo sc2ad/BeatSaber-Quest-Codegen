@@ -82,42 +82,42 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* outroAnimator;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117DD0
+    // [InjectAttribute] Offset: 0x1119CD0
     // private readonly IStartSeekSongController _songController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IStartSeekSongController* songController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IStartSeekSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117DE0
+    // [InjectAttribute] Offset: 0x1119CE0
     // private readonly MultiplayerLocalActivePlayerIntroAnimator _introAnimator
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* introAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117DF0
+    // [InjectAttribute] Offset: 0x1119CF0
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E00
+    // [InjectAttribute] Offset: 0x1119D00
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E10
+    // [InjectAttribute] Offset: 0x1119D10
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117E20
+    // [InjectAttribute] Offset: 0x1119D20
     // private readonly BeatmapCallbacksUpdater _beatmapCallbacksUpdater
     // Size: 0x8
     // Offset: 0x50
@@ -184,56 +184,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MultiplayerLevelCompletionResults> playerNetworkDidFailedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& dyn_playerNetworkDidFailedEvent();
     // public MultiplayerLocalActivePlayerIntroAnimator get_introAnimator()
-    // Offset: 0x13C5128
+    // Offset: 0x13C5B8C
     ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();
     // public UnityEngine.GameObject get_outroAnimator()
-    // Offset: 0x13C5130
+    // Offset: 0x13C5B94
     ::UnityEngine::GameObject* get_outroAnimator();
     // public IStartSeekSongController get_songController()
-    // Offset: 0x13C5138
+    // Offset: 0x13C5B9C
     ::GlobalNamespace::IStartSeekSongController* get_songController();
     // public LevelCompletionResults get_currentLocalPlayerLevelCompletionResult()
-    // Offset: 0x13C5140
+    // Offset: 0x13C5BA4
     ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13C5164
+    // Offset: 0x13C5BC8
     void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13C5208
+    // Offset: 0x13C5C6C
     void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13C52AC
+    // Offset: 0x13C5D10
     void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x13C5350
+    // Offset: 0x13C5DB4
     void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13C55CC
+    // Offset: 0x13C6030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerFacade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerFacade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerFacade*, creationType>()));
     }
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13C53F4
+    // Offset: 0x13C5E58
     void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(MultiplayerLevelCompletionResults results)
-    // Offset: 0x13C5468
+    // Offset: 0x13C5ECC
     void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void DisablePlayer()
-    // Offset: 0x13C54DC
+    // Offset: 0x13C5F40
     void DisablePlayer();
     // public System.Void PauseSpawning()
-    // Offset: 0x13C554C
+    // Offset: 0x13C5FB0
     void PauseSpawning();
     // public System.Void ResumeSpawning()
-    // Offset: 0x13C5568
+    // Offset: 0x13C5FCC
     void ResumeSpawning();
     // public System.Void __ForceStopSong()
-    // Offset: 0x13C5584
+    // Offset: 0x13C5FE8
     void __ForceStopSong();
     // public UnityEngine.GameObject[] __GetActiveOnlyGameObjects()
-    // Offset: 0x13C55C4
+    // Offset: 0x13C6028
     ::ArrayW<::UnityEngine::GameObject*> __GetActiveOnlyGameObjects();
   }; // MultiplayerLocalActivePlayerFacade
   #pragma pack(pop)

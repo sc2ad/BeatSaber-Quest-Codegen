@@ -55,13 +55,13 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken <Value>k__BackingField
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Bson::BsonToken*& dyn_$Value$k__BackingField();
     // public System.Void set_Name(Newtonsoft.Json.Bson.BsonString value)
-    // Offset: 0x1807658
+    // Offset: 0x18071C8
     void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
     // public System.Void set_Value(Newtonsoft.Json.Bson.BsonToken value)
-    // Offset: 0x1807660
+    // Offset: 0x18071D0
     void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
     // public System.Void .ctor()
-    // Offset: 0x1807428
+    // Offset: 0x1806F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonProperty* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonProperty::.ctor");

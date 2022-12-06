@@ -29,7 +29,7 @@ namespace TMPro {
   class KerningPair : public ::Il2CppObject {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x10CEB10
+    // [FormerlySerializedAsAttribute] Offset: 0x10D0A10
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
     // Offset: 0x10
@@ -42,7 +42,7 @@ namespace TMPro {
     ::TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments;
     // Field size check
     static_assert(sizeof(::TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0x10CEB6C
+    // [FormerlySerializedAsAttribute] Offset: 0x10D0A6C
     // private System.UInt32 m_SecondGlyph
     // Size: 0x4
     // Offset: 0x24
@@ -55,7 +55,7 @@ namespace TMPro {
     ::TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments;
     // Field size check
     static_assert(sizeof(::TMPro::GlyphValueRecord_Legacy) == 0x10);
-    // [FormerlySerializedAsAttribute] Offset: 0x10CEBC8
+    // [FormerlySerializedAsAttribute] Offset: 0x10D0AC8
     // public System.Single xOffset
     // Size: 0x4
     // Offset: 0x38
@@ -86,52 +86,52 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreSpacingAdjustments
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreSpacingAdjustments();
     // public System.UInt32 get_firstGlyph()
-    // Offset: 0x148507C
+    // Offset: 0x1499C44
     uint get_firstGlyph();
     // public System.Void set_firstGlyph(System.UInt32 value)
-    // Offset: 0x1485084
+    // Offset: 0x1499C4C
     void set_firstGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_firstGlyphAdjustments()
-    // Offset: 0x148508C
+    // Offset: 0x1499C54
     ::TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
     // public System.UInt32 get_secondGlyph()
-    // Offset: 0x1485098
+    // Offset: 0x1499C60
     uint get_secondGlyph();
     // public System.Void set_secondGlyph(System.UInt32 value)
-    // Offset: 0x14850A0
+    // Offset: 0x1499C68
     void set_secondGlyph(uint value);
     // public TMPro.GlyphValueRecord_Legacy get_secondGlyphAdjustments()
-    // Offset: 0x14850A8
+    // Offset: 0x1499C70
     ::TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
     // public System.Boolean get_ignoreSpacingAdjustments()
-    // Offset: 0x14850B4
+    // Offset: 0x1499C7C
     bool get_ignoreSpacingAdjustments();
     // public System.Void .ctor()
-    // Offset: 0x14850BC
+    // Offset: 0x1499C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>()));
     }
     // public System.Void .ctor(System.UInt32 left, System.UInt32 right, System.Single offset)
-    // Offset: 0x14850EC
+    // Offset: 0x1499CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint left, uint right, float offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(left, right, offset)));
     }
     // public System.Void .ctor(System.UInt32 firstGlyph, TMPro.GlyphValueRecord_Legacy firstGlyphAdjustments, System.UInt32 secondGlyph, TMPro.GlyphValueRecord_Legacy secondGlyphAdjustments)
-    // Offset: 0x1485138
+    // Offset: 0x1499D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningPair* New_ctor(uint firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningPair*, creationType>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14851D0
+    // Offset: 0x1499D98
     static void _cctor();
     // System.Void ConvertLegacyKerningData()
-    // Offset: 0x14851C4
+    // Offset: 0x1499D8C
     void ConvertLegacyKerningData();
   }; // TMPro.KerningPair
   #pragma pack(pop)

@@ -55,29 +55,29 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 top
     [[deprecated("Use field access instead!")]] int& dyn_top();
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x16730AC
+    // Offset: 0x1671C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::StringW stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x1673128
+    // Offset: 0x1671C98
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x1673270
+    // Offset: 0x1671DE0
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x16731E0
+    // Offset: 0x1671D50
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x16732D8
+    // Offset: 0x1671E48
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x1673324
+    // Offset: 0x1671E94
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x1673374
+    // Offset: 0x1671EE4
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)

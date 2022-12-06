@@ -53,14 +53,14 @@ namespace HMUI {
     // Get instance field reference: public System.Int32 numberOfViewControllersToPop
     [[deprecated("Use field access instead!")]] int& dyn_numberOfViewControllersToPop();
     // public System.Void .ctor()
-    // Offset: 0x1712924
+    // Offset: 0x1712494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackedController::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackedController::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
-    // Offset: 0x1712A80
+    // Offset: 0x17125F0
     void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
   }; // HMUI.StackedController/HMUI.<>c__DisplayClass5_0
   #pragma pack(pop)

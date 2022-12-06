@@ -56,14 +56,14 @@ namespace System {
     // Get instance field reference: public System.String Name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_Name();
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
-    // Offset: 0x2225F34
+    // Offset: 0x2223AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeType* New_ctor(int offset, bool is_dst, ::StringW abbrev) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
     // public override System.String ToString()
-    // Offset: 0x2225F7C
+    // Offset: 0x2223AEC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

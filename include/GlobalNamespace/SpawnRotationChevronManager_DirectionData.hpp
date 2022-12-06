@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single fadeInEndTime
     [[deprecated("Use field access instead!")]] float& dyn_fadeInEndTime();
     // public System.Void .ctor()
-    // Offset: 0x147C1B0
+    // Offset: 0x147BE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevronManager::DirectionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevronManager::DirectionData::.ctor");

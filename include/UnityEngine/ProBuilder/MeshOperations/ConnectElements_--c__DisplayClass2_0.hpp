@@ -56,17 +56,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // public System.Void .ctor()
-    // Offset: 0x1A74858
+    // Offset: 0x1A723C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Int32 <Connect>b__0(System.Int32 x)
-    // Offset: 0x1A76BB0
+    // Offset: 0x1A74720
     int $Connect$b__0(int x);
     // System.Int32 <Connect>b__3(System.Int32 x)
-    // Offset: 0x1A76C18
+    // Offset: 0x1A74788
     int $Connect$b__3(int x);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass2_0
   #pragma pack(pop)

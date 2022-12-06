@@ -60,34 +60,34 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh
     class HEU_InputDataMesh;
     // private System.Void .ctor()
-    // Offset: 0x189B7DC
+    // Offset: 0x189B34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceMesh* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceMesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterfaceMesh*, creationType>()));
     }
     // static public System.Void GetUVsFromMesh(UnityEngine.Mesh mesh, UnityEngine.Vector2[] srcUVs, System.Collections.Generic.List`1<UnityEngine.Vector3> destUVs, System.Int32 index)
-    // Offset: 0x189DF0C
+    // Offset: 0x189DA7C
     static void GetUVsFromMesh(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Vector2> srcUVs, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* destUVs, int index);
     // public System.Boolean UploadData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 inputNodeID, HoudiniEngineUnity.HEU_InputData inputData)
-    // Offset: 0x189BBEC
+    // Offset: 0x189B75C
     bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
     // public HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMeshes GenerateMeshDatasFromGameObject(UnityEngine.GameObject inputObject)
-    // Offset: 0x189B964
+    // Offset: 0x189B4D4
     ::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* inputObject);
     // static public HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh CreateSingleMeshData(UnityEngine.GameObject meshGameObject)
-    // Offset: 0x189E72C
+    // Offset: 0x189E29C
     static ::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
     // static private UnityEngine.Mesh GetMeshFromObject(UnityEngine.GameObject meshGameObject)
-    // Offset: 0x189E910
+    // Offset: 0x189E480
     static ::UnityEngine::Mesh* GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
     // public override System.Boolean CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
-    // Offset: 0x189B808
+    // Offset: 0x189B378
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
     bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
     // public override System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
-    // Offset: 0x189DD9C
+    // Offset: 0x189D90C
     // Implemented from: HoudiniEngineUnity.HEU_InputInterface
     // Base method: System.Boolean HEU_InputInterface::IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);

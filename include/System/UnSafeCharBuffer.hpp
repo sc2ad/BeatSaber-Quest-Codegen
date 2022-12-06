@@ -62,10 +62,10 @@ namespace System {
     // Get instance field reference: private System.Int32 m_length
     [[deprecated("Use field access instead!")]] int& dyn_m_length();
     // public System.Void .ctor(System.Char* buffer, System.Int32 bufferSize)
-    // Offset: 0x22392E4
+    // Offset: 0x2236E54
     UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
-    // Offset: 0x22392F0
+    // Offset: 0x2236E60
     void AppendString(::StringW stringToAppend);
   }; // System.UnSafeCharBuffer
   #pragma pack(pop)

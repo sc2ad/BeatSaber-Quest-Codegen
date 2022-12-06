@@ -44,7 +44,7 @@ namespace HMUI {
     ::HMUI::SelectableCell* selectableCell;
     // Field size check
     static_assert(sizeof(::HMUI::SelectableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FF320
+    // [SpaceAttribute] Offset: 0x1101220
     // private UnityEngine.AnimationClip _normalAnimationClip
     // Size: 0x8
     // Offset: 0x20
@@ -83,29 +83,29 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.AnimationClip _selectedAndHighlightedAnimationClip
     [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationClip*& dyn__selectedAndHighlightedAnimationClip();
     // public System.Void .ctor()
-    // Offset: 0x1710860
+    // Offset: 0x17103D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectableCellStaticAnimations* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SelectableCellStaticAnimations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectableCellStaticAnimations*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1710634
+    // Offset: 0x17101A4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x171070C
+    // Offset: 0x171027C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1710780
+    // Offset: 0x17102F0
     void OnDestroy();
     // private System.Void HandleSelectionDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object changeOwner)
-    // Offset: 0x1710858
+    // Offset: 0x17103C8
     void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* changeOwner);
     // private System.Void HandleHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x171085C
+    // Offset: 0x17103CC
     void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1710710
+    // Offset: 0x1710280
     void RefreshVisuals();
   }; // HMUI.SelectableCellStaticAnimations
   #pragma pack(pop)

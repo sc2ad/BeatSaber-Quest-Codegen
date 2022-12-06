@@ -39,23 +39,23 @@ namespace GlobalNamespace {
   class PosePrediction : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x26CAC10
+    // Offset: 0x26C2780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosePrediction* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosePrediction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosePrediction*, creationType>()));
     }
     // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
-    // Offset: 0x26CA43C
+    // Offset: 0x26C1FAC
     static ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float prevTime, ::UnityEngine::Pose curr, float currTime, float time);
     // static public UnityEngine.Pose InterpolatePose(UnityEngine.Pose prev, UnityEngine.Pose curr, System.Single t)
-    // Offset: 0x26CA544
+    // Offset: 0x26C20B4
     static ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float t);
     // static public PoseSerializable PredictPoseSerializable(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x26CAA50
+    // Offset: 0x26C25C0
     static ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float prevTime, ::GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // static public PoseSerializable InterpolatePoseSerializable(PoseSerializable a, PoseSerializable b, System.Single t)
-    // Offset: 0x26CAB3C
+    // Offset: 0x26C26AC
     static ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float t);
   }; // PosePrediction
   #pragma pack(pop)

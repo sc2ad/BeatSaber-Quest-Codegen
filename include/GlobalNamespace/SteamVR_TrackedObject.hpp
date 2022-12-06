@@ -185,7 +185,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // Padding between fields: index and: origin
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x10CD7D0
+    // [TooltipAttribute] Offset: 0x10CF6D0
     // public UnityEngine.Transform origin
     // Size: 0x8
     // Offset: 0x20
@@ -218,29 +218,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Events/Action newPosesAction
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SteamVR_Events::Action*& dyn_newPosesAction();
     // public System.Boolean get_isValid()
-    // Offset: 0x1C669BC
+    // Offset: 0x1C6052C
     bool get_isValid();
     // private System.Void set_isValid(System.Boolean value)
-    // Offset: 0x1C669C4
+    // Offset: 0x1C60534
     void set_isValid(bool value);
     // private System.Void .ctor()
-    // Offset: 0x1C66C2C
+    // Offset: 0x1C6079C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TrackedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedObject*, creationType>()));
     }
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x1C669D0
+    // Offset: 0x1C60540
     void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
     // private System.Void OnEnable()
-    // Offset: 0x1C66CDC
+    // Offset: 0x1C6084C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1C66D8C
+    // Offset: 0x1C608FC
     void OnDisable();
     // public System.Void SetDeviceIndex(System.Int32 index)
-    // Offset: 0x1C66DC4
+    // Offset: 0x1C60934
     void SetDeviceIndex(int index);
   }; // SteamVR_TrackedObject
   #pragma pack(pop)

@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   class MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x11236F4
+    // [InjectAttribute] Offset: 0x11265F4
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x18
@@ -80,17 +80,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x14B0234
+    // Offset: 0x1492D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MoveAndRotateWithMainCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MoveAndRotateWithMainCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MoveAndRotateWithMainCamera*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14B0060
+    // Offset: 0x1492B9C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x14B00B8
+    // Offset: 0x1492BF4
     void LateUpdate();
   }; // MoveAndRotateWithMainCamera
   #pragma pack(pop)

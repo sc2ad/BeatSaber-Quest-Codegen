@@ -68,7 +68,7 @@ namespace UnityEngine {
     // Get instance field reference: public System.Single[] muscles
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_muscles();
     // System.Void Init()
-    // Offset: 0x2AE4B80
+    // Offset: 0x2ADC6F0
     void Init();
   }; // UnityEngine.HumanPose
   #pragma pack(pop)

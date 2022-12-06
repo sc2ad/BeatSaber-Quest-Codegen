@@ -63,14 +63,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Quaternion localRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_localRotation();
     // public System.Void .ctor(UnityEngine.Transform t)
-    // Offset: 0x20495BC
+    // Offset: 0x204812C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData::Target* New_ctor(::UnityEngine::Transform* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData::Target*, creationType>(t)));
     }
     // public System.Void SetTo(UnityEngine.Transform t)
-    // Offset: 0x204A110
+    // Offset: 0x2048C80
     void SetTo(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target
   #pragma pack(pop)

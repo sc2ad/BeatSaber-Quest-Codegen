@@ -231,23 +231,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CursorLockMode previousCursorLockMode
     [[deprecated("Use field access instead!")]] ::UnityEngine::CursorLockMode& dyn_previousCursorLockMode();
     // public System.Void .ctor()
-    // Offset: 0x1A204E8
+    // Offset: 0x1A1F058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHeadsetEmulator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHeadsetEmulator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHeadsetEmulator*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1A1FD50
+    // Offset: 0x1A1E8C0
     void Start();
     // private System.Void Update()
-    // Offset: 0x1A1FD54
+    // Offset: 0x1A1E8C4
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x1A2013C
+    // Offset: 0x1A1ECAC
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x1A20458
+    // Offset: 0x1A1EFC8
     bool IsTweakingPitch();
   }; // OVRHeadsetEmulator
   #pragma pack(pop)

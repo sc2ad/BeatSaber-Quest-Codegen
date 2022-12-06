@@ -187,46 +187,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<SearchFilterParamsViewController,LevelFilterParams> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x140BA04
+    // Offset: 0x140C4AC
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<SearchFilterParamsViewController,LevelFilterParams> value)
-    // Offset: 0x140BAA8
+    // Offset: 0x140C550
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
     // public System.Void .ctor()
-    // Offset: 0x140C470
+    // Offset: 0x140CF18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchFilterParamsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SearchFilterParamsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchFilterParamsViewController*, creationType>()));
     }
     // public System.Void Setup(LevelFilterParams levelFilterParams)
-    // Offset: 0x140BB4C
+    // Offset: 0x140C5F4
     void Setup(::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void OkButtonPressed()
-    // Offset: 0x140C0B0
+    // Offset: 0x140CB58
     void OkButtonPressed();
     // private System.Void MinBpmControllerValueDidChange(FormattedFloatListSettingsController minBpmController, System.Single value)
-    // Offset: 0x140C2F0
+    // Offset: 0x140CD98
     void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float value);
     // private System.Void MaxBpmControllerValueDidChange(FormattedFloatListSettingsController maxBpmController, System.Single value)
-    // Offset: 0x140C388
+    // Offset: 0x140CE30
     void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float value);
     // private System.Void HandleFilterByOwnedValueValueChanged(System.Boolean isOn)
-    // Offset: 0x140C420
+    // Offset: 0x140CEC8
     void HandleFilterByOwnedValueValueChanged(bool isOn);
     // private System.Void HandleFilterByNotOwnedValueValueChanged(System.Boolean isOn)
-    // Offset: 0x140C448
+    // Offset: 0x140CEF0
     void HandleFilterByNotOwnedValueValueChanged(bool isOn);
     // private System.Void Refresh(LevelFilterParams levelFilterParams)
-    // Offset: 0x140BB54
+    // Offset: 0x140C5FC
     void Refresh(::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x140BD0C
+    // Offset: 0x140C7B4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x140BF1C
+    // Offset: 0x140C9C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

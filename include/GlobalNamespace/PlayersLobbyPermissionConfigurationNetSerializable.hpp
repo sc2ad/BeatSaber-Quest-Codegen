@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> _playersPermission
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*& dyn__playersPermission();
     // public System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> get_playersPermission()
-    // Offset: 0x29FD184
+    // Offset: 0x29F7CF4
     ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* get_playersPermission();
     // static public PlayersLobbyPermissionConfigurationNetSerializable Obtain()
-    // Offset: 0x29FD18C
+    // Offset: 0x29F7CFC
     static ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* Obtain();
     // public PlayersLobbyPermissionConfigurationNetSerializable Init(System.Collections.Generic.IEnumerable`1<PlayerLobbyPermissionConfigurationNetSerializable> playersPermission)
-    // Offset: 0x29FD1D4
+    // Offset: 0x29F7D44
     ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission);
     // public System.Void .ctor()
-    // Offset: 0x29FD244
+    // Offset: 0x29F7DB4
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,22 +84,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayersLobbyPermissionConfigurationNetSerializable*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29FD2B4
+    // Offset: 0x29F7E24
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29FD3DC
+    // Offset: 0x29F7F4C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x29FD4C8
+    // Offset: 0x29F8038
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Release()
     void Release();
     // public override System.Void Retain()
-    // Offset: 0x29FD5B4
+    // Offset: 0x29F8124
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Retain()
     void Retain();

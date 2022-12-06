@@ -92,48 +92,48 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Object externalContent
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_externalContent();
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()
-    // Offset: 0x1CEC3E4
+    // Offset: 0x1CE7F54
     ::Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DirectReference()
-    // Offset: 0x1CEC3EC
+    // Offset: 0x1CE7F5C
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DirectReference();
     // public System.Int32 get_Encoding()
-    // Offset: 0x1CEC3F4
+    // Offset: 0x1CE7F64
     int get_Encoding();
     // public System.Void set_Encoding(System.Int32 value)
-    // Offset: 0x1CEC050
+    // Offset: 0x1CE7BC0
     void set_Encoding(int value);
     // public Org.BouncyCastle.Asn1.Asn1Object get_ExternalContent()
-    // Offset: 0x1CEC3FC
+    // Offset: 0x1CE7F6C
     ::Org::BouncyCastle::Asn1::Asn1Object* get_ExternalContent();
     // public Org.BouncyCastle.Asn1.DerInteger get_IndirectReference()
-    // Offset: 0x1CEC404
+    // Offset: 0x1CE7F74
     ::Org::BouncyCastle::Asn1::DerInteger* get_IndirectReference();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector vector)
-    // Offset: 0x1CDCF50
+    // Offset: 0x1CD8AC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternal* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* vector) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerExternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternal*, creationType>(vector)));
     }
     // static private Org.BouncyCastle.Asn1.Asn1Object GetObjFromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector v, System.Int32 index)
-    // Offset: 0x1CEBF90
+    // Offset: 0x1CE7B00
     static ::Org::BouncyCastle::Asn1::Asn1Object* GetObjFromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int index);
     // static private System.Void WriteEncodable(System.IO.MemoryStream ms, Org.BouncyCastle.Asn1.Asn1Encodable e)
-    // Offset: 0x1CEC224
+    // Offset: 0x1CE7D94
     static void WriteEncodable(::System::IO::MemoryStream* ms, ::Org::BouncyCastle::Asn1::Asn1Encodable* e);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1CEC11C
+    // Offset: 0x1CE7C8C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1CEC280
+    // Offset: 0x1CE7DF0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1CEC2E8
+    // Offset: 0x1CE7E58
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

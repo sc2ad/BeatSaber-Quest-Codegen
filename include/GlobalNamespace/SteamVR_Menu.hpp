@@ -194,44 +194,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean savedCursorVisible
     [[deprecated("Use field access instead!")]] bool& dyn_savedCursorVisible();
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x18BEDB4
+    // Offset: 0x18BE924
     ::UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x18BEE80
+    // Offset: 0x18BE9F0
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x18BEE88
+    // Offset: 0x18BE9F8
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x18C113C
+    // Offset: 0x18C0CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Menu* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Menu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Menu*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x18BEE90
+    // Offset: 0x18BEA00
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0x18BEFF8
+    // Offset: 0x18BEB68
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0x18C0BB4
+    // Offset: 0x18C0724
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x18C0AB0
+    // Offset: 0x18C0620
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0x18C0F6C
+    // Offset: 0x18C0ADC
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0x18C09C4
+    // Offset: 0x18C0534
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0x18C0F04
+    // Offset: 0x18C0A74
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0x18C0F3C
+    // Offset: 0x18C0AAC
     void RestoreCursorState();
   }; // SteamVR_Menu
   #pragma pack(pop)

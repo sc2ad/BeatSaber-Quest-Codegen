@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private AchievementSO _achievement
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__achievement();
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0x137BB58
+    // Offset: 0x137C9BC
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0x137B988
+    // Offset: 0x137C7EC
     ::StringW get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x137BB60
+    // Offset: 0x137C9C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::.ctor");

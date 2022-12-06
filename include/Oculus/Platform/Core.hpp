@@ -49,32 +49,32 @@ namespace Oculus::Platform {
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1A0346C
+    // Offset: 0x1A01FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Core* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Core::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Core*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A03474
+    // Offset: 0x1A01FE4
     static void _cctor();
     // static public System.Boolean IsInitialized()
-    // Offset: 0x1A02C5C
+    // Offset: 0x1A017CC
     static bool IsInitialized();
     // static System.Void ForceInitialized()
-    // Offset: 0x1A02CC4
+    // Offset: 0x1A01834
     static void ForceInitialized();
     // static private System.String getAppID(System.String appId)
-    // Offset: 0x1A02D30
+    // Offset: 0x1A018A0
     static ::StringW getAppID(::StringW appId);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x1A02EF8
+    // Offset: 0x1A01A68
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // static public System.Void Initialize(System.String appId)
-    // Offset: 0x1A03190
+    // Offset: 0x1A01D00
     static void Initialize(::StringW appId);
     // static private System.String GetAppIDFromConfig()
-    // Offset: 0x1A02EC8
+    // Offset: 0x1A01A38
     static ::StringW GetAppIDFromConfig();
   }; // Oculus.Platform.Core
   #pragma pack(pop)

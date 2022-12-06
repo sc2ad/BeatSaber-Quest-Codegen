@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.LODGroup self
     [[deprecated("Use field access instead!")]] ::UnityEngine::LODGroup*& dyn_self();
     // public System.Void .ctor(UnityEngine.LODGroup self)
-    // Offset: 0x2B1D360
+    // Offset: 0x2B13ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_LODGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_LODGroup*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x2B1D38C
+    // Offset: 0x2B13EFC
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_LODGroup other)
-    // Offset: 0x2B1D3FC
+    // Offset: 0x2B13F6C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
   }; // HoudiniEngineUnity.Test_LODGroup
   #pragma pack(pop)

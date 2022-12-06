@@ -81,28 +81,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private FillIndicator _fillIndicator
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FillIndicator*& dyn__fillIndicator();
     // public System.String get_difficultyText()
-    // Offset: 0x143C3B4
+    // Offset: 0x143BE5C
     ::StringW get_difficultyText();
     // public System.Void set_difficultyText(System.String value)
-    // Offset: 0x143C398
+    // Offset: 0x143BE40
     void set_difficultyText(::StringW value);
     // public System.Void set_difficultyValue(System.Int32 value)
-    // Offset: 0x143C3D0
+    // Offset: 0x143BE78
     void set_difficultyValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x143C540
+    // Offset: 0x143BFE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DifficultyTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x143C46C
+    // Offset: 0x143BF14
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x143C504
+    // Offset: 0x143BFAC
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

@@ -243,59 +243,59 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509ExtensionCollection_*& dyn_extensions();
     // public System.Security.Cryptography.DSA get_DSA()
-    // Offset: 0x1FFDFB4
+    // Offset: 0x1FFCB24
     ::System::Security::Cryptography::DSA* get_DSA();
     // public System.String get_IssuerName()
-    // Offset: 0x2003994
+    // Offset: 0x2002504
     ::StringW get_IssuerName();
     // public System.Byte[] get_KeyAlgorithmParameters()
-    // Offset: 0x200399C
+    // Offset: 0x200250C
     ::ArrayW<uint8_t> get_KeyAlgorithmParameters();
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x2003A18
+    // Offset: 0x2002588
     ::System::Security::Cryptography::RSA* get_RSA();
     // public System.Byte[] get_RawData()
-    // Offset: 0x2003BC4
+    // Offset: 0x2002734
     ::ArrayW<uint8_t> get_RawData();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x2003C40
+    // Offset: 0x20027B0
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.String get_SubjectName()
-    // Offset: 0x2003CBC
+    // Offset: 0x200282C
     ::StringW get_SubjectName();
     // public System.DateTime get_ValidFrom()
-    // Offset: 0x2003CC4
+    // Offset: 0x2002834
     ::System::DateTime get_ValidFrom();
     // public System.DateTime get_ValidUntil()
-    // Offset: 0x2003CCC
+    // Offset: 0x200283C
     ::System::DateTime get_ValidUntil();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1FFCFC0
+    // Offset: 0x1FFBB30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate_* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Certificate_::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate_*, creationType>(data)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2003D50
+    // Offset: 0x20028C0
     static void _cctor();
     // private System.Void Parse(System.Byte[] data)
-    // Offset: 0x2002D94
+    // Offset: 0x2001904
     void Parse(::ArrayW<uint8_t> data);
     // private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x20038E8
+    // Offset: 0x2002458
     ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // public Mono.Security.ASN1 GetIssuerName()
-    // Offset: 0x2003CD4
+    // Offset: 0x2002844
     ::Mono::Security::ASN1_* GetIssuerName();
     // public Mono.Security.ASN1 GetSubjectName()
-    // Offset: 0x2003CDC
+    // Offset: 0x200284C
     ::Mono::Security::ASN1_* GetSubjectName();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2003CE4
+    // Offset: 0x2002854
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
-    // Offset: 0x20037BC
+    // Offset: 0x200232C
     static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
   }; // Mono.Security.X509.X509Certificate
   #pragma pack(pop)

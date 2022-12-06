@@ -79,8 +79,8 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111063C
-    // [NullAllowed] Offset: 0x111063C
+    // [SpaceAttribute] Offset: 0x111253C
+    // [NullAllowed] Offset: 0x111253C
     // private MissionHelpSO _missionHelp
     // Size: 0x8
     // Offset: 0x40
@@ -103,32 +103,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionHelpSO _missionHelp
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
-    // Offset: 0x1346670
+    // Offset: 0x1348364
     ::ArrayW<::GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
-    // Offset: 0x1346678
+    // Offset: 0x134836C
     ::GlobalNamespace::BeatmapLevelSO* get_level();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1346680
+    // Offset: 0x1348374
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1346688
+    // Offset: 0x134837C
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1346690
+    // Offset: 0x1348384
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public MissionHelpSO get_missionHelp()
-    // Offset: 0x1346698
+    // Offset: 0x134838C
     ::GlobalNamespace::MissionHelpSO* get_missionHelp();
     // public System.Void .ctor()
-    // Offset: 0x1346744
+    // Offset: 0x1348438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionDataSO*, creationType>()));
     }
     // private System.Void OnValidate()
-    // Offset: 0x13466A0
+    // Offset: 0x1348394
     void OnValidate();
   }; // MissionDataSO
   #pragma pack(pop)

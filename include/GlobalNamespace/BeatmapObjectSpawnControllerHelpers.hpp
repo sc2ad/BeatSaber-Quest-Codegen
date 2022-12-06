@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class BeatmapObjectSpawnControllerHelpers : public ::Il2CppObject {
     public:
     // static public System.Void GetNoteJumpValues(PlayerSpecificSettings playerSpecificSettings, System.Single defaultNoteJumpStartBeatOffset, out BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, out System.Single noteJumpValue)
-    // Offset: 0x13D9D7C
+    // Offset: 0x13DA894
     static void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float defaultNoteJumpStartBeatOffset, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType> noteJumpValueType, ByRef<float> noteJumpValue);
   }; // BeatmapObjectSpawnControllerHelpers
   #pragma pack(pop)

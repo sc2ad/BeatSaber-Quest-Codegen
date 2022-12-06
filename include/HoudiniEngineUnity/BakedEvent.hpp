@@ -46,7 +46,7 @@ namespace HoudiniEngineUnity {
   class BakedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x171A298
+    // Offset: 0x171AE08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::BakedEvent::.ctor");

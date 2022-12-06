@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     ::System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(::System::Action*) == 0x8);
-    // [InjectAttribute] Offset: 0x1116A38
+    // [InjectAttribute] Offset: 0x1118938
     // private System.Single _pressDuration
     // Size: 0x4
     // Offset: 0x18
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: waitingForButtonRelease and: vrControllersInputManager
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0x1116A48
+    // [InjectAttribute] Offset: 0x1118948
     // private VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x28
@@ -105,20 +105,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRControllersInputManager _vrControllersInputManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersInputManager*& dyn__vrControllersInputManager();
     // public System.Void add_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x143BE7C
+    // Offset: 0x143B924
     void add_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void remove_menuButtonTriggeredEvent(System.Action value)
-    // Offset: 0x143BF20
+    // Offset: 0x143B9C8
     void remove_menuButtonTriggeredEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x143C054
+    // Offset: 0x143BAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelayedMenuButtonTrigger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DelayedMenuButtonTrigger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelayedMenuButtonTrigger*, creationType>()));
     }
     // public System.Void Tick()
-    // Offset: 0x143BFC4
+    // Offset: 0x143BA6C
     void Tick();
   }; // DelayedMenuButtonTrigger
   #pragma pack(pop)

@@ -56,35 +56,35 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRChaperone FnTable
     [[deprecated("Use field access instead!")]] ::OVR::OpenVR::IVRChaperone& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1AB7498
+    // Offset: 0x1AB6008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperone* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRChaperone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperone*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0x1AB75A0
+    // Offset: 0x1AB6110
     ::OVR::OpenVR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x1AB77CC
+    // Offset: 0x1AB633C
     bool GetPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetPlayAreaRect(ref OVR.OpenVR.HmdQuad_t rect)
-    // Offset: 0x1AB7A64
+    // Offset: 0x1AB65D4
     bool GetPlayAreaRect(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
     // public System.Void ReloadInfo()
-    // Offset: 0x1AB7CDC
+    // Offset: 0x1AB684C
     void ReloadInfo();
     // public System.Void SetSceneColor(OVR.OpenVR.HmdColor_t color)
-    // Offset: 0x1AB7F00
+    // Offset: 0x1AB6A70
     void SetSceneColor(::OVR::OpenVR::HmdColor_t color);
     // public System.Void GetBoundsColor(ref OVR.OpenVR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref OVR.OpenVR.HmdColor_t pOutputCameraColor)
-    // Offset: 0x1AB81C8
+    // Offset: 0x1AB6D38
     void GetBoundsColor(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0x1AB8490
+    // Offset: 0x1AB7000
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0x1AB86C0
+    // Offset: 0x1AB7230
     void ForceBoundsVisible(bool bForce);
   }; // OVR.OpenVR.CVRChaperone
   #pragma pack(pop)

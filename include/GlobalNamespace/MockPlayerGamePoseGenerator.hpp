@@ -110,26 +110,26 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
-    // Offset: 0x2B3162C
+    // Offset: 0x2B2719C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGenerator*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2B31844
+    // Offset: 0x2B273B4
     void Dispose();
     // public System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);
     // public System.Void SimulateFail()
-    // Offset: 0x2B3194C
+    // Offset: 0x2B274BC
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x2B31B50
+    // Offset: 0x2B276C0
     void SimulateGiveUp();
     // static private LevelCompletionResults CreateEmptyLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType)
-    // Offset: 0x2B31A44
+    // Offset: 0x2B275B4
     static ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType);
   }; // MockPlayerGamePoseGenerator
   #pragma pack(pop)

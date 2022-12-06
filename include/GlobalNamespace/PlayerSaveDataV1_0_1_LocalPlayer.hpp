@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
     // public System.Void .ctor()
-    // Offset: 0x157FA38
+    // Offset: 0x157C5A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::LocalPlayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveDataV1_0_1::LocalPlayer::.ctor");

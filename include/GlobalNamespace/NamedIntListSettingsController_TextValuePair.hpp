@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 value
     [[deprecated("Use field access instead!")]] int& dyn_value();
     // public System.String get_localizedText()
-    // Offset: 0x14F98C4
+    // Offset: 0x14F8550
     ::StringW get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x14F98D8
+    // Offset: 0x14F8564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedIntListSettingsController::TextValuePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedIntListSettingsController::TextValuePair::.ctor");

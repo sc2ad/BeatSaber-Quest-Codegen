@@ -239,76 +239,76 @@ namespace Newtonsoft::Json::Bson {
     // Get instance field reference: private System.DateTimeKind _dateTimeKindHandling
     [[deprecated("Use field access instead!")]] ::System::DateTimeKind& dyn__dateTimeKindHandling();
     // public System.DateTimeKind get_DateTimeKindHandling()
-    // Offset: 0x1807668
+    // Offset: 0x18071D8
     ::System::DateTimeKind get_DateTimeKindHandling();
     // static private System.Void .cctor()
-    // Offset: 0x1808EB0
+    // Offset: 0x1808A20
     static void _cctor();
     // private System.String ReadElement()
-    // Offset: 0x1807670
+    // Offset: 0x18071E0
     ::StringW ReadElement();
     // private System.Boolean ReadCodeWScope()
-    // Offset: 0x1807ED4
+    // Offset: 0x1807A44
     bool ReadCodeWScope();
     // private System.Boolean ReadReference()
-    // Offset: 0x1807D30
+    // Offset: 0x18078A0
     bool ReadReference();
     // private System.Boolean ReadNormal()
-    // Offset: 0x1807B38
+    // Offset: 0x18076A8
     bool ReadNormal();
     // private System.Void PopContext()
-    // Offset: 0x180876C
+    // Offset: 0x18082DC
     void PopContext();
     // private System.Void PushContext(Newtonsoft.Json.Bson.BsonReader/Newtonsoft.Json.Bson.ContainerContext newContext)
-    // Offset: 0x180819C
+    // Offset: 0x1807D0C
     void PushContext(::Newtonsoft::Json::Bson::BsonReader::ContainerContext* newContext);
     // private System.Byte ReadByte()
-    // Offset: 0x1808734
+    // Offset: 0x18082A4
     uint8_t ReadByte();
     // private System.Void ReadType(Newtonsoft.Json.Bson.BsonType type)
-    // Offset: 0x1808248
+    // Offset: 0x1807DB8
     void ReadType(::Newtonsoft::Json::Bson::BsonType type);
     // private System.Byte[] ReadBinary(out Newtonsoft.Json.Bson.BsonBinaryType binaryType)
-    // Offset: 0x180885C
+    // Offset: 0x18083CC
     ::ArrayW<uint8_t> ReadBinary(ByRef<::Newtonsoft::Json::Bson::BsonBinaryType> binaryType);
     // private System.String ReadString()
-    // Offset: 0x18076D0
+    // Offset: 0x1807240
     ::StringW ReadString();
     // private System.String ReadLengthString()
-    // Offset: 0x180810C
+    // Offset: 0x1807C7C
     ::StringW ReadLengthString();
     // private System.String GetString(System.Int32 length)
-    // Offset: 0x1808A3C
+    // Offset: 0x18085AC
     ::StringW GetString(int length);
     // private System.Int32 GetLastFullCharStop(System.Int32 start)
-    // Offset: 0x18089A4
+    // Offset: 0x1808514
     int GetLastFullCharStop(int start);
     // private System.Int32 BytesInSequence(System.Byte b)
-    // Offset: 0x1808C98
+    // Offset: 0x1808808
     int BytesInSequence(uint8_t b);
     // private System.Void EnsureBuffers()
-    // Offset: 0x18088FC
+    // Offset: 0x180846C
     void EnsureBuffers();
     // private System.Double ReadDouble()
-    // Offset: 0x1808820
+    // Offset: 0x1808390
     double ReadDouble();
     // private System.Int32 ReadInt32()
-    // Offset: 0x18080D0
+    // Offset: 0x1807C40
     int ReadInt32();
     // private System.Int64 ReadInt64()
-    // Offset: 0x18088C0
+    // Offset: 0x1808430
     int64_t ReadInt64();
     // private Newtonsoft.Json.Bson.BsonType ReadType()
-    // Offset: 0x1807698
+    // Offset: 0x1807208
     ::Newtonsoft::Json::Bson::BsonType ReadType();
     // private System.Void MovePosition(System.Int32 count)
-    // Offset: 0x18087FC
+    // Offset: 0x180836C
     void MovePosition(int count);
     // private System.Byte[] ReadBytes(System.Int32 count)
-    // Offset: 0x180820C
+    // Offset: 0x1807D7C
     ::ArrayW<uint8_t> ReadBytes(int count);
     // public override System.Boolean Read()
-    // Offset: 0x180794C
+    // Offset: 0x18074BC
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Boolean JsonReader::Read()
     bool Read();

@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _smooth
     [[deprecated("Use field access instead!")]] float& dyn__smooth();
     // public System.Void .ctor()
-    // Offset: 0x15FC808
+    // Offset: 0x15FA378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlexyFollowAndRotate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlexyFollowAndRotate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlexyFollowAndRotate*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x15FC62C
+    // Offset: 0x15FA19C
     void Update();
   }; // FlexyFollowAndRotate
   #pragma pack(pop)

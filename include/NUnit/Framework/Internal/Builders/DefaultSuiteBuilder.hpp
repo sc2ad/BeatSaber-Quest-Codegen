@@ -77,26 +77,26 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _defaultBuilder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*& dyn__defaultBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1D483B8
+    // Offset: 0x1D43F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultSuiteBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultSuiteBuilder*, creationType>()));
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1D588D0
+    // Offset: 0x1D54440
     bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1D58BA4
+    // Offset: 0x1D54714
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private NUnit.Framework.Internal.TestSuite BuildMultipleFixtures(NUnit.Framework.Interfaces.ITypeInfo typeInfo, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> fixtures)
-    // Offset: 0x1D595C0
+    // Offset: 0x1D55130
     ::NUnit::Framework::Internal::TestSuite* BuildMultipleFixtures(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* fixtures);
     // private NUnit.Framework.Interfaces.IFixtureBuilder[] GetFixtureBuilderAttributes(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1D5923C
+    // Offset: 0x1D54DAC
     ::ArrayW<::NUnit::Framework::Interfaces::IFixtureBuilder*> GetFixtureBuilderAttributes(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // private System.Boolean HasArguments(NUnit.Framework.Interfaces.IFixtureBuilder attr)
-    // Offset: 0x1D5997C
+    // Offset: 0x1D554EC
     bool HasArguments(::NUnit::Framework::Interfaces::IFixtureBuilder* attr);
   }; // NUnit.Framework.Internal.Builders.DefaultSuiteBuilder
   #pragma pack(pop)

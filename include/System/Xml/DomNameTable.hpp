@@ -87,20 +87,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlNameTable*& dyn_nameTable();
     // public System.Void .ctor(System.Xml.XmlDocument document)
-    // Offset: 0x1AE00E8
+    // Offset: 0x1ADDC58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DomNameTable* New_ctor(::System::Xml::XmlDocument* document) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DomNameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DomNameTable*, creationType>(document)));
     }
     // public System.Xml.XmlName GetName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1AE017C
+    // Offset: 0x1ADDCEC
     ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // public System.Xml.XmlName AddName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1AE02F4
+    // Offset: 0x1ADDE64
     ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // private System.Void Grow()
-    // Offset: 0x1AE0574
+    // Offset: 0x1ADE0E4
     void Grow();
   }; // System.Xml.DomNameTable
   #pragma pack(pop)

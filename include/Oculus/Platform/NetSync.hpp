@@ -34,10 +34,10 @@ namespace Oculus::Platform {
   class NetSync : public ::Il2CppObject {
     public:
     // static public System.Void SetConnectionStatusChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncConnection> callback)
-    // Offset: 0x2B03BD8
+    // Offset: 0x2AFB748
     static void SetConnectionStatusChangedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);
     // static public System.Void SetSessionsChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncSessionsChangedNotification> callback)
-    // Offset: 0x2B03C50
+    // Offset: 0x2AFB7C0
     static void SetSessionsChangedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback* callback);
   }; // Oculus.Platform.NetSync
   #pragma pack(pop)

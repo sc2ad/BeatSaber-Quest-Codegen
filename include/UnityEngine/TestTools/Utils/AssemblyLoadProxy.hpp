@@ -45,14 +45,14 @@ namespace UnityEngine::TestTools::Utils {
       return reinterpret_cast<::UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x2B571FC
+    // Offset: 0x2B4FD6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyLoadProxy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::AssemblyLoadProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyLoadProxy*, creationType>()));
     }
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
-    // Offset: 0x2B5713C
+    // Offset: 0x2B4FCAC
     ::UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
   }; // UnityEngine.TestTools.Utils.AssemblyLoadProxy
   #pragma pack(pop)

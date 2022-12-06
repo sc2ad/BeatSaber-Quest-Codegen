@@ -44,8 +44,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(::UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1105830
-    // [RangeAttribute] Offset: 0x1105830
+    // [SpaceAttribute] Offset: 0x1107730
+    // [RangeAttribute] Offset: 0x1107730
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -76,18 +76,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _fadeMaterial
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn__fadeMaterial();
     // protected System.Void OnDisable()
-    // Offset: 0x2AD7A8C
+    // Offset: 0x2ACF5FC
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x2AD7B18
+    // Offset: 0x2ACF688
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x2AD79F4
+    // Offset: 0x2ACF564
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // public System.Void .ctor()
-    // Offset: 0x2AD7C2C
+    // Offset: 0x2ACF79C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -96,17 +96,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoPostProcessMainEffectSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x2AD79FC
+    // Offset: 0x2ACF56C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x2AD7A98
+    // Offset: 0x2ACF608
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x2AD7B0C
+    // Offset: 0x2ACF67C
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);

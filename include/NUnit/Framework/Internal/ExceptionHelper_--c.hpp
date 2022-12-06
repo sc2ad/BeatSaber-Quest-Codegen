@@ -36,17 +36,17 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
     static void _set_$$9(::NUnit::Framework::Internal::ExceptionHelper::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D603C4
+    // Offset: 0x1D5BF34
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D60428
+    // Offset: 0x1D5BF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionHelper::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ExceptionHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionHelper::$$c*, creationType>()));
     }
     // System.Void <.cctor>b__1_0(System.Exception _)
-    // Offset: 0x1D60430
+    // Offset: 0x1D5BFA0
     void $_cctor$b__1_0(::System::Exception* _);
   }; // NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c
   #pragma pack(pop)

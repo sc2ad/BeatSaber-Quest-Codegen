@@ -54,7 +54,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Double MyCurrentThreshold
     [[deprecated("Use field access instead!")]] double& dyn_MyCurrentThreshold();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A11570
+    // Offset: 0x1A100E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshot* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");

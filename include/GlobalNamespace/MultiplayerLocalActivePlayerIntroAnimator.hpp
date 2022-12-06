@@ -48,17 +48,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
     // public System.Void .ctor()
-    // Offset: 0x13C892C
+    // Offset: 0x13C9390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerIntroAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerIntroAnimator*, creationType>()));
     }
     // public System.Void SetBeforeIntroValues()
-    // Offset: 0x13C88C4
+    // Offset: 0x13C9328
     void SetBeforeIntroValues();
     // public System.Void SetAfterIntroValues()
-    // Offset: 0x13C88E0
+    // Offset: 0x13C9344
     void SetAfterIntroValues();
   }; // MultiplayerLocalActivePlayerIntroAnimator
   #pragma pack(pop)

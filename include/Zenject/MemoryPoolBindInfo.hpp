@@ -66,31 +66,31 @@ namespace Zenject {
     // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$MaxSize$k__BackingField();
     // public System.Boolean get_ShowExpandWarning()
-    // Offset: 0x1CB8A78
+    // Offset: 0x1CB45E8
     bool get_ShowExpandWarning();
     // public System.Void set_ShowExpandWarning(System.Boolean value)
-    // Offset: 0x1CB8A80
+    // Offset: 0x1CB45F0
     void set_ShowExpandWarning(bool value);
     // public Zenject.PoolExpandMethods get_ExpandMethod()
-    // Offset: 0x1CB8A8C
+    // Offset: 0x1CB45FC
     ::Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
-    // Offset: 0x1CB8A94
+    // Offset: 0x1CB4604
     void set_ExpandMethod(::Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
-    // Offset: 0x1CB8A9C
+    // Offset: 0x1CB460C
     int get_InitialSize();
     // public System.Void set_InitialSize(System.Int32 value)
-    // Offset: 0x1CB8AA4
+    // Offset: 0x1CB4614
     void set_InitialSize(int value);
     // public System.Int32 get_MaxSize()
-    // Offset: 0x1CB8AAC
+    // Offset: 0x1CB461C
     int get_MaxSize();
     // public System.Void set_MaxSize(System.Int32 value)
-    // Offset: 0x1CB8AB4
+    // Offset: 0x1CB4624
     void set_MaxSize(int value);
     // public System.Void .ctor()
-    // Offset: 0x1CB8A40
+    // Offset: 0x1CB45B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolBindInfo::.ctor");

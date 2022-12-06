@@ -35,20 +35,20 @@ namespace GlobalNamespace {
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
     static void _set_$$9__14_0(::GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A1D00C
+    // Offset: 0x1A1BB7C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A1D070
+    // Offset: 0x1A1BBE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::$$c*, creationType>()));
     }
     // System.Boolean <Start>b__14_0()
-    // Offset: 0x1A1D078
+    // Offset: 0x1A1BBE8
     bool $Start$b__14_0();
     // System.Boolean <.cctor>b__19_0()
-    // Offset: 0x1A1D154
+    // Offset: 0x1A1BCC4
     bool $_cctor$b__19_0();
   }; // OVRHandTest/<>c
   #pragma pack(pop)

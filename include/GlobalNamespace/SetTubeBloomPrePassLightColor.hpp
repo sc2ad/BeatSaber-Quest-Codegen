@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // public System.Void .ctor()
-    // Offset: 0x14102D0
+    // Offset: 0x1410D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetTubeBloomPrePassLightColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetTubeBloomPrePassLightColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetTubeBloomPrePassLightColor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x141024C
+    // Offset: 0x1410CF4
     void Start();
   }; // SetTubeBloomPrePassLightColor
   #pragma pack(pop)

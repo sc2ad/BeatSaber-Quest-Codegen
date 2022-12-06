@@ -69,17 +69,17 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.IDisposable _disposable
     [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn__disposable();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessageSink next, System.IDisposable disposable)
-    // Offset: 0x1D34FAC
+    // Offset: 0x1D30B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposerReplySink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::DisposerReplySink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposerReplySink*, creationType>(next, disposable)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1D34FE4
+    // Offset: 0x1D30B54
     ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1D35114
+    // Offset: 0x1D30C84
     ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
   }; // System.Runtime.Remoting.DisposerReplySink
   #pragma pack(pop)

@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _hideAlphaRangeMax
     [[deprecated("Use field access instead!")]] float& dyn__hideAlphaRangeMax();
     // public System.Void .ctor()
-    // Offset: 0x1CCEAB4
+    // Offset: 0x1CCA624
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnableRendererWithLightId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1CCEA70
+    // Offset: 0x1CCA5E0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

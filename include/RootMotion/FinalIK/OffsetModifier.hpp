@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
     public:
-    // [TooltipAttribute] Offset: 0x113ADC4
+    // [TooltipAttribute] Offset: 0x113EC94
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -55,7 +55,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x113ADFC
+    // [TooltipAttribute] Offset: 0x113ECCC
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -78,10 +78,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Single lastTime
     [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x203CC00
+    // Offset: 0x203B770
     float get_deltaTime();
     // protected System.Void .ctor()
-    // Offset: 0x203D214
+    // Offset: 0x203BD84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::.ctor");
@@ -91,19 +91,19 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x203CC2C
+    // Offset: 0x203B79C
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x203CC58
+    // Offset: 0x203B7C8
     ::System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x203CCF4
+    // Offset: 0x203B864
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
-    // Offset: 0x203CE00
+    // Offset: 0x203B970
     void ApplyLimits(::ArrayW<::RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
     // protected System.Void OnDestroy()
-    // Offset: 0x203D11C
+    // Offset: 0x203BC8C
     void OnDestroy();
   }; // RootMotion.FinalIK.OffsetModifier
   #pragma pack(pop)

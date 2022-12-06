@@ -84,25 +84,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initializedPropertyIds
     [[deprecated("Use field access instead!")]] bool& dyn__initializedPropertyIds();
     // public LightConstants/BakeId get_bakeId()
-    // Offset: 0x1CD3BF0
+    // Offset: 0x1CCF760
     ::GlobalNamespace::LightConstants::BakeId get_bakeId();
     // public System.Single get_intensity()
-    // Offset: 0x1CD3BF8
+    // Offset: 0x1CCF768
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1CD3C00
+    // Offset: 0x1CCF770
     void set_intensity(float value);
     // public System.Single get_weight()
-    // Offset: 0x1CD3C08
+    // Offset: 0x1CCF778
     float get_weight();
     // public System.Void set_weight(System.Single value)
-    // Offset: 0x1CD3C10
+    // Offset: 0x1CCF780
     void set_weight(float value);
     // public System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1CD3A74
+    // Offset: 0x1CCF5E4
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // public System.Void .ctor()
-    // Offset: 0x1CD3C18
+    // Offset: 0x1CCF788
     // Implemented from: LightWithIds/LightWithId
     // Base method: System.Void LightWithId::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EA90
+    // [SpaceAttribute] Offset: 0x1110990
     // private AchievementSO _clearedLevel100Achievement
     // Size: 0x8
     // Offset: 0x20
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* kilometersTravelled100Achievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EAF8
+    // [SpaceAttribute] Offset: 0x11109F8
     // private AchievementSO _15ExpertLevelsRankSAchievement
     // Size: 0x8
     // Offset: 0x40
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* _15HardLevelsFullComboAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EB60
+    // [SpaceAttribute] Offset: 0x1110A60
     // private AchievementSO _expertLevelClearedWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x60
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* goodCuts10000Achievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EBB8
+    // [SpaceAttribute] Offset: 0x1110AB8
     // private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x78
@@ -144,7 +144,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* resultMinRankSSExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EC10
+    // [SpaceAttribute] Offset: 0x1110B10
     // private AchievementSO _combo50NormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x90
@@ -163,7 +163,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* combo500ExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110EC68
+    // [SpaceAttribute] Offset: 0x1110B68
     // private AchievementSO _clearedLevelWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0xA8
@@ -194,7 +194,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* clearedLevelWithBatteryEnergyModifierAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110ECE0
+    // [SpaceAttribute] Offset: 0x1110BE0
     // private AchievementSO _cleared30MissionsAchievement
     // Size: 0x8
     // Offset: 0xD0
@@ -213,14 +213,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementSO* allMissionClearedAchievement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x110ED38
+    // [InjectAttribute] Offset: 0x1110C38
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x110ED48
+    // [InjectAttribute] Offset: 0x1110C48
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0xF0
@@ -287,35 +287,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodesManager _missionNodesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodesManager*& dyn__missionNodesManager();
     // public System.Void .ctor()
-    // Offset: 0x1534404
+    // Offset: 0x1530F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementsEvaluationHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementsEvaluationHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsEvaluationHandler*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1533228
+    // Offset: 0x152FD98
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1533444
+    // Offset: 0x152FFB4
     void OnDestroy();
     // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15335E4
+    // Offset: 0x1530154
     void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15340B4
+    // Offset: 0x1530C24
     void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x15340C4
+    // Offset: 0x1530C34
     void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
     // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1534144
+    // Offset: 0x1530CB4
     void ProcessMissionFinishData(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1533CD0
+    // Offset: 0x1530840
     void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1533628
+    // Offset: 0x1530198
     void ProcessLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
   }; // AchievementsEvaluationHandler
   #pragma pack(pop)

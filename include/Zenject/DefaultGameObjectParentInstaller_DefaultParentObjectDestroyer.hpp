@@ -61,20 +61,20 @@ namespace Zenject {
     // Get instance field reference: private readonly UnityEngine.GameObject _gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__gameObject();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x17BD8D8
+    // Offset: 0x17BE448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x17BD904
+    // Offset: 0x17BE474
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17BD970
+    // Offset: 0x17BE4E0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17BDA1C
+    // Offset: 0x17BE58C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer
   #pragma pack(pop)

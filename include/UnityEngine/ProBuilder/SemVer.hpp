@@ -125,86 +125,86 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.String m_Date
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_Date();
     // public System.Int32 get_major()
-    // Offset: 0x19F4328
+    // Offset: 0x19F2E98
     int get_major();
     // public System.Int32 get_minor()
-    // Offset: 0x19F4330
+    // Offset: 0x19F2EA0
     int get_minor();
     // public System.Int32 get_patch()
-    // Offset: 0x19F4338
+    // Offset: 0x19F2EA8
     int get_patch();
     // public System.Int32 get_build()
-    // Offset: 0x19F4340
+    // Offset: 0x19F2EB0
     int get_build();
     // public System.String get_type()
-    // Offset: 0x19F4348
+    // Offset: 0x19F2EB8
     ::StringW get_type();
     // public System.String get_metadata()
-    // Offset: 0x19F43A0
+    // Offset: 0x19F2F10
     ::StringW get_metadata();
     // public System.String get_date()
-    // Offset: 0x19F43F8
+    // Offset: 0x19F2F68
     ::StringW get_date();
     // public UnityEngine.ProBuilder.SemVer get_MajorMinorPatch()
-    // Offset: 0x19F4450
+    // Offset: 0x19F2FC0
     ::UnityEngine::ProBuilder::SemVer* get_MajorMinorPatch();
     // public System.Void .ctor()
-    // Offset: 0x19F454C
+    // Offset: 0x19F30BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemVer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>()));
     }
     // public System.Void .ctor(System.String formatted, System.String date)
-    // Offset: 0x19F458C
+    // Offset: 0x19F30FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemVer* New_ctor(::StringW formatted, ::StringW date) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>(formatted, date)));
     }
     // public System.Void .ctor(System.Int32 major, System.Int32 minor, System.Int32 patch, System.Int32 build, System.String type, System.String date, System.String metadata)
-    // Offset: 0x19F44DC
+    // Offset: 0x19F304C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemVer* New_ctor(int major, int minor, int patch, int build, ::StringW type, ::StringW date, ::StringW metadata) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SemVer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemVer*, creationType>(major, minor, patch, build, type, date, metadata)));
     }
     // public System.Boolean IsValid()
-    // Offset: 0x19F4A80
+    // Offset: 0x19F35F0
     bool IsValid();
     // public System.Boolean Equals(UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x19F4B34
+    // Offset: 0x19F36A4
     bool Equals(::UnityEngine::ProBuilder::SemVer* version);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x19F4F30
+    // Offset: 0x19F3AA0
     int CompareTo(::Il2CppObject* obj);
     // static private System.Int32 WrapNoValue(System.Int32 value)
-    // Offset: 0x19F5164
+    // Offset: 0x19F3CD4
     static int WrapNoValue(int value);
     // public System.Int32 CompareTo(UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x19F4FA4
+    // Offset: 0x19F3B14
     int CompareTo(::UnityEngine::ProBuilder::SemVer* version);
     // public System.String ToString(System.String format)
-    // Offset: 0x19F5298
+    // Offset: 0x19F3E08
     ::StringW ToString(::StringW format);
     // static public System.Boolean TryGetVersionInfo(System.String input, out UnityEngine.ProBuilder.SemVer version)
-    // Offset: 0x19F4654
+    // Offset: 0x19F31C4
     static bool TryGetVersionInfo(::StringW input, ByRef<::UnityEngine::ProBuilder::SemVer*> version);
     // static private System.Int32 GetBuildNumber(System.String input)
-    // Offset: 0x19F5730
+    // Offset: 0x19F42A0
     static int GetBuildNumber(::StringW input);
     // public override System.Boolean Equals(System.Object o)
-    // Offset: 0x19F4AB0
+    // Offset: 0x19F3620
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object o)
     bool Equals(::Il2CppObject* o);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19F4D54
+    // Offset: 0x19F38C4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19F5510
+    // Offset: 0x19F4080
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -213,22 +213,22 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(SemVer), 48 + sizeof(::StringW)> __UnityEngine_ProBuilder_SemVerSizeCheck;
   static_assert(sizeof(SemVer) == 0x38);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F5174
+  // Offset: 0x19F3CE4
   bool operator ==(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F5188
+  // Offset: 0x19F3CF8
   bool operator !=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_LessThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F51B4
+  // Offset: 0x19F3D24
   bool operator <(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_GreaterThan(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F51DC
+  // Offset: 0x19F3D4C
   bool operator >(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_LessThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F51FC
+  // Offset: 0x19F3D6C
   bool operator <=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
   // static public System.Boolean op_GreaterThanOrEqual(UnityEngine.ProBuilder.SemVer left, UnityEngine.ProBuilder.SemVer right)
-  // Offset: 0x19F5240
+  // Offset: 0x19F3DB0
   bool operator >=(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
