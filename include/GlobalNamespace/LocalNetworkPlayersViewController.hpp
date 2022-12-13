@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Toggle* enableOpenPartyToggle;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Toggle*) == 0x8);
-    // [InjectAttribute] Offset: 0x1122E0C
+    // [InjectAttribute] Offset: 0x112AF64
     // private readonly LocalNetworkPlayerModel _localNetworkPlayerModel
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1122E1C
+    // [InjectAttribute] Offset: 0x112AF74
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA8
@@ -111,31 +111,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _allowAnyoneToJoin
     [[deprecated("Use field access instead!")]] bool& dyn__allowAnyoneToJoin();
     // private System.Void HandleNetworkingToggleChanged(System.Boolean enabled)
-    // Offset: 0x15BE174
+    // Offset: 0x15C9F10
     void HandleNetworkingToggleChanged(bool enabled);
     // private System.Void HandleOpenPartyToggleChanged(System.Boolean openParty)
-    // Offset: 0x15BE184
+    // Offset: 0x15C9F20
     void HandleOpenPartyToggleChanged(bool openParty);
     // private System.Void RefreshParty(System.Boolean overrideHide)
-    // Offset: 0x15BDF90
+    // Offset: 0x15C9D2C
     void RefreshParty(bool overrideHide);
     // public override System.String get_myPartyTitle()
-    // Offset: 0x15BDDB8
+    // Offset: 0x15C9B54
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
     ::StringW get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
-    // Offset: 0x15BDE00
+    // Offset: 0x15C9B9C
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
     ::StringW get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
-    // Offset: 0x15BDE48
+    // Offset: 0x15C9BE4
     // Implemented from: NetworkPlayersViewController
     // Base method: INetworkPlayerModel NetworkPlayersViewController::get_networkPlayerModel()
     ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void .ctor()
-    // Offset: 0x15BE194
+    // Offset: 0x15C9F30
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,17 +144,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkPlayersViewController*, creationType>()));
     }
     // protected override System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x15BDE50
+    // Offset: 0x15C9BEC
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x15BE130
+    // Offset: 0x15C9ECC
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x15BE140
+    // Offset: 0x15C9EDC
     // Implemented from: NetworkPlayersViewController
     // Base method: System.Void NetworkPlayersViewController::OnDestroy()
     void OnDestroy();

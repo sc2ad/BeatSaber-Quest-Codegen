@@ -61,25 +61,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger pathLenConstraint
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_pathLenConstraint();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F92224
+    // Offset: 0x1F9BC44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::BasicConstraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConstraints*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.BasicConstraints GetInstance(System.Object obj)
-    // Offset: 0x1F9200C
+    // Offset: 0x1F9BA2C
     static ::Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Il2CppObject* obj);
     // public System.Boolean IsCA()
-    // Offset: 0x1F923D8
+    // Offset: 0x1F9BDF8
     bool IsCA();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F923EC
+    // Offset: 0x1F9BE0C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1F92518
+    // Offset: 0x1F9BF38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

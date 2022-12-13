@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class GameLiftConnectionManager::StartClientParams : public ::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManagerParamsBase {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16CC258
+    // Offset: 0x16C3A34
     // Implemented from: GameLiftConnectionManager/GameLiftConnectionManagerParamsBase
     // Base method: System.Void GameLiftConnectionManagerParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

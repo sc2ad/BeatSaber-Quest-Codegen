@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11191D8
+    // [InjectAttribute] Offset: 0x1122330
     // private PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private PrepareLevelCompletionResults _prepareLevelCompletionResults
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PrepareLevelCompletionResults*& dyn__prepareLevelCompletionResults();
     // public System.Void .ctor()
-    // Offset: 0x13AFC28
+    // Offset: 0x13BB0E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelReturnToMenuController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelReturnToMenuController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelReturnToMenuController*, creationType>()));
     }
     // public System.Void ReturnToMenu()
-    // Offset: 0x13AFBE0
+    // Offset: 0x13BB09C
     void ReturnToMenu();
   }; // StandardLevelReturnToMenuController
   #pragma pack(pop)

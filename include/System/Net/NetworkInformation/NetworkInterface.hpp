@@ -40,26 +40,26 @@ namespace System::Net::NetworkInformation {
   class NetworkInterface : public ::Il2CppObject {
     public:
     // public System.String get_Name()
-    // Offset: 0x1BAFF30
+    // Offset: 0x1BE96A0
     ::StringW get_Name();
     // public System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1BAFFF0
+    // Offset: 0x1BE9760
     ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1BB0050
+    // Offset: 0x1BE97C0
     ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // protected System.Void .ctor()
-    // Offset: 0x1BB00B0
+    // Offset: 0x1BE9820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterface* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::NetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterface*, creationType>()));
     }
     // static public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1BAFDCC
+    // Offset: 0x1BE953C
     static ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // public System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1BAFF90
+    // Offset: 0x1BE9700
     ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
   }; // System.Net.NetworkInformation.NetworkInterface
   #pragma pack(pop)

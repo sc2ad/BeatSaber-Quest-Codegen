@@ -62,16 +62,16 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Get instance field reference: private System.Byte[] content
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_content();
     // public System.String get_Type()
-    // Offset: 0x2680A30
+    // Offset: 0x2678260
     ::StringW get_Type();
     // public System.Collections.IList get_Headers()
-    // Offset: 0x2680A38
+    // Offset: 0x2678268
     ::System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
-    // Offset: 0x2680A40
+    // Offset: 0x2678270
     ::ArrayW<uint8_t> get_Content();
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
-    // Offset: 0x2680934
+    // Offset: 0x2678164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemObject* New_ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t> content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");

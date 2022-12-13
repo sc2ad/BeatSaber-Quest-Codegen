@@ -99,43 +99,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _onSongFinished
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn__onSongFinished();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x148F908
+    // Offset: 0x149C174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorMirror*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded, nodePoseSyncStateManager)));
     }
     // private System.Void FindPlayerToMirror()
-    // Offset: 0x14907C8
+    // Offset: 0x149D034
     void FindPlayerToMirror();
     // private System.Void HandleNoteWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable)
-    // Offset: 0x1490AE0
+    // Offset: 0x149D34C
     void HandleNoteWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
     // private System.Void HandleObstacleWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable)
-    // Offset: 0x1490C70
+    // Offset: 0x149D4DC
     void HandleObstacleWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
     // private System.Void HandleSliderWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable)
-    // Offset: 0x1490E00
+    // Offset: 0x149D66C
     void HandleSliderWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
     // private System.Void HandleNoteWasMissed(System.String userId, System.Single syncTime, System.Single songTime, NoteMissInfoNetSerializable noteMissInfo)
-    // Offset: 0x1490F90
+    // Offset: 0x149D7FC
     void HandleNoteWasMissed(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     // private System.Void HandleNoteWasCut(System.String userId, System.Single syncTime, System.Single songTime, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x1491120
+    // Offset: 0x149D98C
     void HandleNoteWasCut(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer player)
-    // Offset: 0x14912B0
+    // Offset: 0x149DB1C
     void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleLevelFinished(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x14914AC
+    // Offset: 0x149DD18
     void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public override System.Void Dispose()
-    // Offset: 0x14902D0
+    // Offset: 0x149CB3C
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::Dispose()
     void Dispose();
     // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x14906FC
+    // Offset: 0x149CF68
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);

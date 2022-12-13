@@ -91,23 +91,23 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.AnimationCurve _parentAlphaAnimationCurve
     [[deprecated("Use field access instead!")]] ::UnityEngine::AnimationCurve*& dyn__parentAlphaAnimationCurve();
     // public System.Void .ctor()
-    // Offset: 0x1708E48
+    // Offset: 0x16F6850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PanelAnimationSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::PanelAnimationSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PanelAnimationSO*, creationType>()));
     }
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go)
-    // Offset: 0x1708E1C
+    // Offset: 0x16F6824
     void ExecuteAnimation(::UnityEngine::GameObject* go);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, System.Action finishedCallback)
-    // Offset: 0x1708E2C
+    // Offset: 0x16F6834
     void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Action finishedCallback)
-    // Offset: 0x1708E3C
+    // Offset: 0x16F6844
     void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
     // public System.Void ExecuteAnimation(UnityEngine.GameObject go, UnityEngine.CanvasGroup parentCanvasGroup, System.Boolean instant, System.Action finishedCallback)
-    // Offset: 0x17061F4
+    // Offset: 0x16F3B54
     void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
   }; // HMUI.PanelAnimationSO
   #pragma pack(pop)

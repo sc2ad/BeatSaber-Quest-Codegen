@@ -94,13 +94,13 @@ namespace Zenject {
     // Set static field: static private Zenject.ReflectionBakingCoverageModes <ReflectionBakingCoverageMode>k__BackingField
     static void _set_$ReflectionBakingCoverageMode$k__BackingField(::Zenject::ReflectionBakingCoverageModes value);
     // static public Zenject.ReflectionBakingCoverageModes get_ReflectionBakingCoverageMode()
-    // Offset: 0x1DC2250
+    // Offset: 0x1DE17A0
     static ::Zenject::ReflectionBakingCoverageModes get_ReflectionBakingCoverageMode();
     // static public System.Void set_ReflectionBakingCoverageMode(Zenject.ReflectionBakingCoverageModes value)
-    // Offset: 0x1DC22B8
+    // Offset: 0x1DE1808
     static void set_ReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value);
     // static private System.Void .cctor()
-    // Offset: 0x1DC3084
+    // Offset: 0x1DE25D4
     static void _cctor();
     // static public System.Boolean ShouldAllowDuringValidation()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -112,10 +112,10 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Boolean ShouldAllowDuringValidation(System.Type type)
-    // Offset: 0x1DC2324
+    // Offset: 0x1DE1874
     static bool ShouldAllowDuringValidation(::System::Type* type);
     // static private System.Boolean ShouldAllowDuringValidationInternal(System.Type type)
-    // Offset: 0x1DC2410
+    // Offset: 0x1DE1960
     static bool ShouldAllowDuringValidationInternal(::System::Type* type);
     // static public System.Boolean HasInfo()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -127,7 +127,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Boolean HasInfo(System.Type type)
-    // Offset: 0x1DC2520
+    // Offset: 0x1DE1A70
     static bool HasInfo(::System::Type* type);
     // static public Zenject.InjectTypeInfo GetInfo()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -139,7 +139,7 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.InjectTypeInfo GetInfo(System.Type type)
-    // Offset: 0x1DBD370
+    // Offset: 0x1DDC8C0
     static ::Zenject::InjectTypeInfo* GetInfo(::System::Type* type);
     // static public Zenject.InjectTypeInfo TryGetInfo()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -151,19 +151,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.InjectTypeInfo TryGetInfo(System.Type type)
-    // Offset: 0x1DC2590
+    // Offset: 0x1DE1AE0
     static ::Zenject::InjectTypeInfo* TryGetInfo(::System::Type* type);
     // static private Zenject.InjectTypeInfo GetInfoInternal(System.Type type)
-    // Offset: 0x1DC277C
+    // Offset: 0x1DE1CCC
     static ::Zenject::InjectTypeInfo* GetInfoInternal(::System::Type* type);
     // static public System.Boolean ShouldSkipTypeAnalysis(System.Type type)
-    // Offset: 0x1DC2A00
+    // Offset: 0x1DE1F50
     static bool ShouldSkipTypeAnalysis(::System::Type* type);
     // static private System.Boolean IsStaticType(System.Type type)
-    // Offset: 0x1DC2FDC
+    // Offset: 0x1DE252C
     static bool IsStaticType(::System::Type* type);
     // static private Zenject.InjectTypeInfo CreateTypeInfoFromReflection(System.Type type)
-    // Offset: 0x1DC2DA4
+    // Offset: 0x1DE22F4
     static ::Zenject::InjectTypeInfo* CreateTypeInfoFromReflection(::System::Type* type);
   }; // Zenject.TypeAnalyzer
   #pragma pack(pop)

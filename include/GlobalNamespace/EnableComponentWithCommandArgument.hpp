@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Behaviour _component
     [[deprecated("Use field access instead!")]] ::UnityEngine::Behaviour*& dyn__component();
     // public System.Void .ctor()
-    // Offset: 0x15F7658
+    // Offset: 0x161F53C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableComponentWithCommandArgument* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableComponentWithCommandArgument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableComponentWithCommandArgument*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x15F75BC
+    // Offset: 0x161F4A0
     void Awake();
   }; // EnableComponentWithCommandArgument
   #pragma pack(pop)

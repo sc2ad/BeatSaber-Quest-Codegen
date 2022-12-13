@@ -25,10 +25,10 @@ namespace System::IO {
   class FileSystemEnumerableHelpers : public ::Il2CppObject {
     public:
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x206225C
+    // Offset: 0x20852A8
     static bool IsDir(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
-    // Offset: 0x20622F8
+    // Offset: 0x2085344
     static bool IsFile(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)

@@ -115,28 +115,28 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* requireInternetContainer;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1122904
+    // [SpaceAttribute] Offset: 0x112AA5C
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x112293C
+    // [InjectAttribute] Offset: 0x112AA94
     // private AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x112294C
+    // [InjectAttribute] Offset: 0x112AAA4
     // private DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x112295C
+    // [InjectAttribute] Offset: 0x112AAB4
     // private IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0xB8
@@ -197,45 +197,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _blurredPackArtwork
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__blurredPackArtwork();
     // public System.Void .ctor()
-    // Offset: 0x150BDE0
+    // Offset: 0x1517738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelPackDetailViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelPackDetailViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController*, creationType>()));
     }
     // public System.Void SetData(IBeatmapLevelPack pack)
-    // Offset: 0x150B148
+    // Offset: 0x1516AA0
     void SetData(::GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void RefreshAvailabilityAsync()
-    // Offset: 0x150B53C
+    // Offset: 0x1516E94
     void RefreshAvailabilityAsync();
     // private System.Void BuyPackButtonWasPressed()
-    // Offset: 0x150B95C
+    // Offset: 0x15172B4
     void BuyPackButtonWasPressed();
     // private System.Void OpenLevelPackProductStoreAsync()
-    // Offset: 0x150BA60
+    // Offset: 0x15173B8
     void OpenLevelPackProductStoreAsync();
     // private System.Void ShowContent(LevelPackDetailViewController/ContentType contentType, System.String errorText)
-    // Offset: 0x150BB20
+    // Offset: 0x1517478
     void ShowContent(::GlobalNamespace::LevelPackDetailViewController::ContentType contentType, ::StringW errorText);
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x150BDDC
+    // Offset: 0x1517734
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void <DidActivate>b__16_0()
-    // Offset: 0x150BE48
+    // Offset: 0x15177A0
     void $DidActivate$b__16_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x150B5FC
+    // Offset: 0x1516F54
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x150B7A4
+    // Offset: 0x15170FC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x150B850
+    // Offset: 0x15171A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

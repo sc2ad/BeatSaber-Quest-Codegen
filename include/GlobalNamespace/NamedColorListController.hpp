@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14F7DD4
+    // Offset: 0x150471C
     void add_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x14F7E78
+    // Offset: 0x15047C0
     void remove_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void Init(NamedColorListController/ColorValuePair[] values, System.Int32 value)
-    // Offset: 0x14F7F1C
+    // Offset: 0x1504864
     void Init(::ArrayW<::GlobalNamespace::NamedColorListController::ColorValuePair*> values, int value);
     // public System.Void SetValue(System.Int32 value)
-    // Offset: 0x14F7F30
+    // Offset: 0x1504878
     void SetValue(int value);
     // public System.Void .ctor()
-    // Offset: 0x14F809C
+    // Offset: 0x15049E4
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::.ctor()
     // Base method: System.Void IncDecColorController::.ctor()
@@ -108,17 +108,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NamedColorListController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x14F7F40
+    // Offset: 0x1504888
     // Implemented from: ListColorController
     // Base method: System.Boolean ListColorController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x14F7FDC
+    // Offset: 0x1504924
     // Implemented from: ListColorController
     // Base method: System.Void ListColorController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override UnityEngine.Color ColorForValue(System.Int32 idx)
-    // Offset: 0x14F8054
+    // Offset: 0x150499C
     // Implemented from: ListColorController
     // Base method: UnityEngine.Color ListColorController::ColorForValue(System.Int32 idx)
     ::UnityEngine::Color ColorForValue(int idx);

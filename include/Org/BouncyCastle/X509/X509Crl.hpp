@@ -109,56 +109,56 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private System.Int32 hashValue
     [[deprecated("Use field access instead!")]] int& dyn_hashValue();
     // public System.Int32 get_Version()
-    // Offset: 0x268460C
+    // Offset: 0x267BE3C
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_IssuerDN()
-    // Offset: 0x2684628
+    // Offset: 0x267BE58
     ::Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
     // public System.DateTime get_ThisUpdate()
-    // Offset: 0x2684644
+    // Offset: 0x267BE74
     ::System::DateTime get_ThisUpdate();
     // public Org.BouncyCastle.Utilities.Date.DateTimeObject get_NextUpdate()
-    // Offset: 0x2684670
+    // Offset: 0x267BEA0
     ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
     // public System.String get_SigAlgName()
-    // Offset: 0x2684C08
+    // Offset: 0x267C438
     ::StringW get_SigAlgName();
     // protected System.Boolean get_IsIndirectCrl()
-    // Offset: 0x2685BEC
+    // Offset: 0x267D41C
     bool get_IsIndirectCrl();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x2684400
+    // Offset: 0x267BC30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl* New_ctor(::Org::BouncyCastle::Asn1::X509::CertificateList* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(c)));
     }
     // private Org.BouncyCastle.Utilities.Collections.ISet LoadCrlEntries()
-    // Offset: 0x2684718
+    // Offset: 0x267BF48
     ::Org::BouncyCastle::Utilities::Collections::ISet* LoadCrlEntries();
     // public Org.BouncyCastle.Utilities.Collections.ISet GetRevokedCertificates()
-    // Offset: 0x2684B24
+    // Offset: 0x267C354
     ::Org::BouncyCastle::Utilities::Collections::ISet* GetRevokedCertificates();
     // public System.Byte[] GetSignature()
-    // Offset: 0x2684BEC
+    // Offset: 0x267C41C
     ::ArrayW<uint8_t> GetSignature();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x26845BC
+    // Offset: 0x267BDEC
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x2684C10
+    // Offset: 0x267C440
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2684D38
+    // Offset: 0x267C568
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2684DA0
+    // Offset: 0x267C5D0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

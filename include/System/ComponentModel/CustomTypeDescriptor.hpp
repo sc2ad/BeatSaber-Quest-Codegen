@@ -60,17 +60,17 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.ComponentModel.ICustomTypeDescriptor _parent
     [[deprecated("Use field access instead!")]] ::System::ComponentModel::ICustomTypeDescriptor*& dyn__parent();
     // protected System.Void .ctor()
-    // Offset: 0x1E1A7E8
+    // Offset: 0x1E4F320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTypeDescriptor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::CustomTypeDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTypeDescriptor*, creationType>()));
     }
     // public System.ComponentModel.AttributeCollection GetAttributes()
-    // Offset: 0x1E1A7F0
+    // Offset: 0x1E4F328
     ::System::ComponentModel::AttributeCollection* GetAttributes();
     // public System.ComponentModel.TypeConverter GetConverter()
-    // Offset: 0x1E1A8D4
+    // Offset: 0x1E4F40C
     ::System::ComponentModel::TypeConverter* GetConverter();
   }; // System.ComponentModel.CustomTypeDescriptor
   #pragma pack(pop)

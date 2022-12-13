@@ -100,62 +100,62 @@ namespace GlobalNamespace {
     // Set static field: static public GameplayModifiersModelSO/GameplayModifierBoolGetter <>9__18_15
     static void _set_$$9__18_15(::GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter* value);
     // static private System.Void .cctor()
-    // Offset: 0x14557BC
+    // Offset: 0x1461EC8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1455820
+    // Offset: 0x1461F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersModelSO::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersModelSO::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersModelSO::$$c*, creationType>()));
     }
     // System.Boolean <OnEnable>b__18_0(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455828
+    // Offset: 0x1461F34
     bool $OnEnable$b__18_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_1(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455848
+    // Offset: 0x1461F54
     bool $OnEnable$b__18_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_2(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455860
+    // Offset: 0x1461F6C
     bool $OnEnable$b__18_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_3(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455878
+    // Offset: 0x1461F84
     bool $OnEnable$b__18_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_4(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455898
+    // Offset: 0x1461FA4
     bool $OnEnable$b__18_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_5(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14558B0
+    // Offset: 0x1461FBC
     bool $OnEnable$b__18_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_6(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14558C8
+    // Offset: 0x1461FD4
     bool $OnEnable$b__18_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_7(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14558E0
+    // Offset: 0x1461FEC
     bool $OnEnable$b__18_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_8(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14558F8
+    // Offset: 0x1462004
     bool $OnEnable$b__18_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_9(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455918
+    // Offset: 0x1462024
     bool $OnEnable$b__18_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_10(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455938
+    // Offset: 0x1462044
     bool $OnEnable$b__18_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_11(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455958
+    // Offset: 0x1462064
     bool $OnEnable$b__18_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_12(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455970
+    // Offset: 0x146207C
     bool $OnEnable$b__18_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_13(GameplayModifiers gameplayModifiers)
-    // Offset: 0x1455988
+    // Offset: 0x1462094
     bool $OnEnable$b__18_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_14(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14559A0
+    // Offset: 0x14620AC
     bool $OnEnable$b__18_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // System.Boolean <OnEnable>b__18_15(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14559B8
+    // Offset: 0x14620C4
     bool $OnEnable$b__18_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // GameplayModifiersModelSO/<>c
   #pragma pack(pop)

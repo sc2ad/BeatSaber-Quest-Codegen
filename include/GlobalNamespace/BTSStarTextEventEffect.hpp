@@ -80,14 +80,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
-    // [InjectAttribute] Offset: 0x110DE8C
+    // [InjectAttribute] Offset: 0x1116E68
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DE9C
+    // [InjectAttribute] Offset: 0x1116E78
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
@@ -144,26 +144,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Transform> _idsToStarTextPositionDictionary
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::UnityEngine::Transform*>*& dyn__idsToStarTextPositionDictionary();
     // public System.Void add_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x139CD30
+    // Offset: 0x13A81EC
     void add_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>* value);
     // public System.Void remove_startStarTextAnimationEvent(System.Action`3<UnityEngine.Sprite,UnityEngine.Transform,System.Single> value)
-    // Offset: 0x139CE64
+    // Offset: 0x13A8320
     void remove_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float>* value);
     // public System.Void .ctor()
-    // Offset: 0x139D564
+    // Offset: 0x13A8A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x139D198
+    // Offset: 0x13A8654
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139D358
+    // Offset: 0x13A8814
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x139D370
+    // Offset: 0x13A882C
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // BTSStarTextEventEffect
   #pragma pack(pop)

@@ -68,20 +68,20 @@ namespace LiteNetLib {
     // Get instance field reference: private readonly LiteNetLib.NetEvent _evt
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetEvent*& dyn__evt();
     // System.Void .ctor(LiteNetLib.NetManager manager, LiteNetLib.NetEvent evt)
-    // Offset: 0x21FDF74
+    // Offset: 0x221AD6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacketReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketReader*, creationType>(manager, evt)));
     }
     // System.Void SetSource(LiteNetLib.NetPacket packet)
-    // Offset: 0x21FF63C
+    // Offset: 0x221C434
     void SetSource(::LiteNetLib::NetPacket* packet);
     // System.Void RecycleInternal()
-    // Offset: 0x21FFCD8
+    // Offset: 0x221CAD0
     void RecycleInternal();
     // public System.Void Recycle()
-    // Offset: 0x22045CC
+    // Offset: 0x22213C4
     void Recycle();
   }; // LiteNetLib.NetPacketReader
   #pragma pack(pop)

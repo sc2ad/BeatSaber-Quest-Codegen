@@ -53,14 +53,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_TransformEuler self
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_TransformEuler& dyn_self();
     // public System.Void .ctor(HoudiniEngineUnity.HAPI_TransformEuler self)
-    // Offset: 0x2B13BB4
+    // Offset: 0x2B31404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_HAPI_TransformEuler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_HAPI_TransformEuler*, creationType>(self)));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_HAPI_TransformEuler other)
-    // Offset: 0x2B13BEC
+    // Offset: 0x2B3143C
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
   }; // HoudiniEngineUnity.Test_HAPI_TransformEuler
   #pragma pack(pop)

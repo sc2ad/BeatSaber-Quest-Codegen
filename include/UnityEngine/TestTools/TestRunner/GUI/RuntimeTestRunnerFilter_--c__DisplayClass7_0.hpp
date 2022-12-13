@@ -58,17 +58,17 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     [[deprecated("Use field access instead!")]] ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // public System.Void .ctor()
-    // Offset: 0x199BF60
+    // Offset: 0x19BFBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, creationType>()));
     }
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
-    // Offset: 0x199C1DC
+    // Offset: 0x19BFE54
     ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
-    // Offset: 0x199C244
+    // Offset: 0x19BFEBC
     ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c__DisplayClass7_0
   #pragma pack(pop)

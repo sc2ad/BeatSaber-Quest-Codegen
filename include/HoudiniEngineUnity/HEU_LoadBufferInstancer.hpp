@@ -75,7 +75,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String[] _collisionAssetPaths
     [[deprecated("Use field access instead!")]] ::ArrayW<::StringW>& dyn__collisionAssetPaths();
     // public System.Void .ctor()
-    // Offset: 0x18A8960
+    // Offset: 0x18CB38C
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public IConnectedPlayer player
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn_player();
     // public System.Void .ctor()
-    // Offset: 0x26C1E68
+    // Offset: 0x26A00B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Boolean <SaveFromNetSerializable>b__0(IConnectedPlayer p)
-    // Offset: 0x26C1E70
+    // Offset: 0x26A00C0
     bool $SaveFromNetSerializable$b__0(::GlobalNamespace::IConnectedPlayer* p);
   }; // PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0
   #pragma pack(pop)

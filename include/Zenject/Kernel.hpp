@@ -54,21 +54,21 @@ namespace Zenject {
   class Kernel : public ::Il2CppObject/*, public ::System::IDisposable, public ::Zenject::ITickable, public ::Zenject::ILateDisposable, public ::Zenject::IInitializable, public ::Zenject::ILateTickable, public ::Zenject::IFixedTickable*/ {
     public:
     public:
-    // [InjectLocalAttribute] Offset: 0x10E5858
+    // [InjectLocalAttribute] Offset: 0x10ED6C8
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     ::Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(::Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x10E5868
+    // [InjectLocalAttribute] Offset: 0x10ED6D8
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     ::Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(::Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0x10E5878
+    // [InjectLocalAttribute] Offset: 0x10ED6E8
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -131,44 +131,44 @@ namespace Zenject {
     // Get instance field reference: private Zenject.DisposableManager _disposablesManager
     [[deprecated("Use field access instead!")]] ::Zenject::DisposableManager*& dyn__disposablesManager();
     // public System.Void .ctor()
-    // Offset: 0x1CB38B4
+    // Offset: 0x1CBE430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Kernel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Kernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Kernel*, creationType>()));
     }
     // public System.Void Initialize()
-    // Offset: 0x1CB380C
+    // Offset: 0x1CBE388
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x1CB3828
+    // Offset: 0x1CBE3A4
     void Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x1CB3844
+    // Offset: 0x1CBE3C0
     void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x1CB3860
+    // Offset: 0x1CBE3DC
     void Tick();
     // public System.Void LateTick()
-    // Offset: 0x1CB387C
+    // Offset: 0x1CBE3F8
     void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x1CB3898
+    // Offset: 0x1CBE414
     void FixedTick();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CB38BC
+    // Offset: 0x1CBE438
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x1CB3918
+    // Offset: 0x1CBE494
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x1CB39EC
+    // Offset: 0x1CBE568
     static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
-    // Offset: 0x1CB3AC0
+    // Offset: 0x1CBE63C
     static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CB3B94
+    // Offset: 0x1CBE710
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Kernel
   #pragma pack(pop)

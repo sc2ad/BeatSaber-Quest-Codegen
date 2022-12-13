@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* rectTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126C6C
+    // [SpaceAttribute] Offset: 0x112EDC4
     // private System.Single _textExtraSpace
     // Size: 0x4
     // Offset: 0x28
@@ -71,23 +71,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _textExtraSpace
     [[deprecated("Use field access instead!")]] float& dyn__textExtraSpace();
     // public System.Void .ctor()
-    // Offset: 0x14262CC
+    // Offset: 0x14319D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResizableTextMeshPro* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResizableTextMeshPro::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResizableTextMeshPro*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1426018
+    // Offset: 0x1431724
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14260DC
+    // Offset: 0x14317E8
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x1426168
+    // Offset: 0x1431874
     void OnDestroy();
     // private System.Void HandleTextDidChange(UnityEngine.Object textMeshPro)
-    // Offset: 0x142622C
+    // Offset: 0x1431938
     void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
   }; // ResizableTextMeshPro
   #pragma pack(pop)

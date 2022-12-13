@@ -59,50 +59,50 @@ namespace GlobalNamespace {
       return reinterpret_cast<::System::IDisposable*>(this);
     }
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x2B27150
+    // Offset: 0x2B459A0
     ::UnityEngine::Color get_saberAColor();
     // public System.Void set_saberAColor(UnityEngine.Color value)
-    // Offset: 0x2B27158
+    // Offset: 0x2B459A8
     void set_saberAColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x2B2715C
+    // Offset: 0x2B459AC
     ::UnityEngine::Color get_saberBColor();
     // public System.Void set_saberBColor(UnityEngine.Color value)
-    // Offset: 0x2B27164
+    // Offset: 0x2B459B4
     void set_saberBColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x2B27168
+    // Offset: 0x2B459B8
     ::UnityEngine::Color get_obstaclesColor();
     // public System.Void set_obstaclesColor(UnityEngine.Color value)
-    // Offset: 0x2B27170
+    // Offset: 0x2B459C0
     void set_obstaclesColor(::UnityEngine::Color value);
     // public System.Boolean get_leftHanded()
-    // Offset: 0x2B27174
+    // Offset: 0x2B459C4
     bool get_leftHanded();
     // public System.Void set_leftHanded(System.Boolean value)
-    // Offset: 0x2B2717C
+    // Offset: 0x2B459CC
     void set_leftHanded(bool value);
     // public System.Boolean get_inactiveByDefault()
-    // Offset: 0x2B27180
+    // Offset: 0x2B459D0
     bool get_inactiveByDefault();
     // public System.Void set_inactiveByDefault(System.Boolean value)
-    // Offset: 0x2B27188
+    // Offset: 0x2B459D8
     void set_inactiveByDefault(bool value);
     // public MockPlayerGamePoseGenerator get_gamePoseGenerator()
-    // Offset: 0x2B2718C
+    // Offset: 0x2B459DC
     ::GlobalNamespace::MockPlayerGamePoseGenerator* get_gamePoseGenerator();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMenuRpcManager menuRpcManager, IMockBeatmapDataProvider beatmapDataProvider, MockPlayerLobbyPoseGenerator lobbyPoseGenerator, MockPlayerGamePoseGenerator gamePoseGenerator)
-    // Offset: 0x2B27148
+    // Offset: 0x2B45998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerFiniteStateMachine* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator, ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerFiniteStateMachine*, creationType>(multiplayerSessionManager, gameplayRpcManager, menuRpcManager, beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2B27194
+    // Offset: 0x2B459E4
     void Dispose();
     // public System.Void SetIsReady(System.Boolean isReady)
-    // Offset: 0x2B27198
+    // Offset: 0x2B459E8
     void SetIsReady(bool isReady);
   }; // MockPlayerFiniteStateMachine
   #pragma pack(pop)

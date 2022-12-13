@@ -52,21 +52,21 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
     public:
-    // [InjectAttribute] Offset: 0x1119468
+    // [InjectAttribute] Offset: 0x11225C0
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119478
+    // [InjectAttribute] Offset: 0x11225D0
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119488
+    // [InjectAttribute] Offset: 0x11225E0
     // private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     // Size: 0x8
     // Offset: 0x20
@@ -105,14 +105,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
     // public System.Void .ctor()
-    // Offset: 0x1497768
+    // Offset: 0x14A3FD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider*, creationType>()));
     }
     // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
-    // Offset: 0x14965D4
+    // Offset: 0x14A2E40
     void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
   }; // MultiplayerBadgesProvider
   #pragma pack(pop)

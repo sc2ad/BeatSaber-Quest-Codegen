@@ -135,62 +135,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _stopBlinkingCursor
     [[deprecated("Use field access instead!")]] bool& dyn__stopBlinkingCursor();
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x166715C
+    // Offset: 0x165BB40
     void set_hideCancelButton(bool value);
     // public System.String get_text()
-    // Offset: 0x1667178
+    // Offset: 0x165BB5C
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x1667194
+    // Offset: 0x165BB78
     void set_text(::StringW value);
     // public System.Void add_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x1666D84
+    // Offset: 0x165B768
     void add_textDidChangeEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_textDidChangeEvent(System.Action`1<System.String> value)
-    // Offset: 0x1666E28
+    // Offset: 0x165B80C
     void remove_textDidChangeEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1666ECC
+    // Offset: 0x165B8B0
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1666F70
+    // Offset: 0x165B954
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1667014
+    // Offset: 0x165B9F8
     void add_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16670B8
+    // Offset: 0x165BA9C
     void remove_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1667630
+    // Offset: 0x165C014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTextEntryController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1667258
+    // Offset: 0x165BC3C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x16673A8
+    // Offset: 0x165BD8C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1667448
+    // Offset: 0x165BE2C
     void OnDisable();
     // private System.Collections.IEnumerator BlinkCursor()
-    // Offset: 0x16673D8
+    // Offset: 0x165BDBC
     ::System::Collections::IEnumerator* BlinkCursor();
     // private System.Void HandleUIKeyboardTextKeyWasPressed(System.Char key)
-    // Offset: 0x1667480
+    // Offset: 0x165BE64
     void HandleUIKeyboardTextKeyWasPressed(::Il2CppChar key);
     // private System.Void HandleUIKeyboardDeleteButtonWasPressed()
-    // Offset: 0x166755C
+    // Offset: 0x165BF40
     void HandleUIKeyboardDeleteButtonWasPressed();
     // private System.Void <Awake>b__20_0()
-    // Offset: 0x1667640
+    // Offset: 0x165C024
     void $Awake$b__20_0();
     // private System.Void <Awake>b__20_1()
-    // Offset: 0x1667654
+    // Offset: 0x165C038
     void $Awake$b__20_1();
   }; // VRTextEntryController
   #pragma pack(pop)

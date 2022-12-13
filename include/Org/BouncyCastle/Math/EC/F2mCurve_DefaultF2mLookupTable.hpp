@@ -60,27 +60,27 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: private readonly System.Int32 m_size
     [[deprecated("Use field access instead!")]] int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.F2mCurve outer, System.Int64[] table, System.Int32 size)
-    // Offset: 0x27EA8B8
+    // Offset: 0x2844AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static F2mCurve::DefaultF2mLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<F2mCurve::DefaultF2mLookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.Int64[] x, System.Int64[] y)
-    // Offset: 0x27EAA98
+    // Offset: 0x2844C8C
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<int64_t> x, ::ArrayW<int64_t> y);
     // public override System.Int32 get_Size()
-    // Offset: 0x27EA8F8
+    // Offset: 0x2844AEC
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x27EA900
+    // Offset: 0x2844AF4
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x27EAC58
+    // Offset: 0x2844E4C
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);

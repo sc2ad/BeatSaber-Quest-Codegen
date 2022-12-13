@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1110224
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1119230
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -124,29 +124,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _highlighted
     [[deprecated("Use field access instead!")]] bool& dyn__highlighted();
     // public System.Void .ctor()
-    // Offset: 0x1540114
+    // Offset: 0x154CDA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPropertyBlockColorSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPropertyBlockColorSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarPropertyBlockColorSetter*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x153FDE8
+    // Offset: 0x154CA78
     void Awake();
     // protected System.Void OnValidate()
-    // Offset: 0x153FE20
+    // Offset: 0x154CAB0
     void OnValidate();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x153FEF0
+    // Offset: 0x154CB80
     void SetColor(::UnityEngine::Color color);
     // private System.Void SetColors(UnityEngine.Color mainColor, UnityEngine.Color rimLightColor)
-    // Offset: 0x153FF90
+    // Offset: 0x154CC20
     void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x1540108
+    // Offset: 0x154CD98
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x153FFA4
+    // Offset: 0x154CC34
     void UpdateRenderer();
   }; // AvatarPropertyBlockColorSetter
   #pragma pack(pop)

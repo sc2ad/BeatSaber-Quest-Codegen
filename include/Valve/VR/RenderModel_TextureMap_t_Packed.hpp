@@ -70,10 +70,10 @@ namespace Valve::VR {
     // Get instance field reference: public System.IntPtr rubTextureMapData
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x2B26880
+    // Offset: 0x2B450D0
     RenderModel_TextureMap_t_Packed(::Valve::VR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x2B26894
+    // Offset: 0x2B450E4
     void Unpack(ByRef<::Valve::VR::RenderModel_TextureMap_t> unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)

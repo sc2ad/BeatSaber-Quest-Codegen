@@ -121,7 +121,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshTopology& dyn__meshTopology();
     // public System.Void .ctor()
-    // Offset: 0x18AC9D4
+    // Offset: 0x18CF400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MeshData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MeshData::.ctor");

@@ -51,16 +51,16 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 end
     [[deprecated("Use field access instead!")]] int& dyn_end();
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0x25D9C94
+    // Offset: 0x25CDDF4
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end);
     // public System.Boolean Valid()
-    // Offset: 0x25D9C9C
+    // Offset: 0x25CDDFC
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0x25D9CB0
+    // Offset: 0x25CDE10
     int Center();
     // public override System.String ToString()
-    // Offset: 0x25D9CC8
+    // Offset: 0x25CDE28
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

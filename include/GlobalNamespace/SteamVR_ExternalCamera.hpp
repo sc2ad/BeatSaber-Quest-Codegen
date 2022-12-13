@@ -337,38 +337,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single sceneResolutionScale
     [[deprecated("Use field access instead!")]] float& dyn_sceneResolutionScale();
     // public System.Void .ctor()
-    // Offset: 0x18BA330
+    // Offset: 0x18DCD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_ExternalCamera* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_ExternalCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_ExternalCamera*, creationType>()));
     }
     // public System.Void ReadConfig()
-    // Offset: 0x18B85C0
+    // Offset: 0x18DAFEC
     void ReadConfig();
     // private System.Void OnChanged(System.Object source, System.IO.FileSystemEventArgs e)
-    // Offset: 0x18B8EC8
+    // Offset: 0x18DB8F4
     void OnChanged(::Il2CppObject* source, ::System::IO::FileSystemEventArgs* e);
     // public System.Void AttachToCamera(SteamVR_Camera vrcam)
-    // Offset: 0x18B8ECC
+    // Offset: 0x18DB8F8
     void AttachToCamera(::GlobalNamespace::SteamVR_Camera* vrcam);
     // public System.Single GetTargetDistance()
-    // Offset: 0x18B947C
+    // Offset: 0x18DBEA8
     float GetTargetDistance();
     // public System.Void RenderNear()
-    // Offset: 0x18B9728
+    // Offset: 0x18DC154
     void RenderNear();
     // public System.Void RenderFar()
-    // Offset: 0x18B9E80
+    // Offset: 0x18DC8AC
     void RenderFar();
     // private System.Void OnGUI()
-    // Offset: 0x18B9FA0
+    // Offset: 0x18DC9CC
     void OnGUI();
     // private System.Void OnEnable()
-    // Offset: 0x18B9FA4
+    // Offset: 0x18DC9D0
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18BA1F4
+    // Offset: 0x18DCC20
     void OnDisable();
   }; // SteamVR_ExternalCamera
   #pragma pack(pop)

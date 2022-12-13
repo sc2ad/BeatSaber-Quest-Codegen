@@ -116,44 +116,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private FileBrowserItem[] _items
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn__items();
     // public System.Void add_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x13908EC
+    // Offset: 0x139BDA8
     void add_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void remove_didSelectRow(System.Action`2<FileBrowserTableView,FileBrowserItem> value)
-    // Offset: 0x1390990
+    // Offset: 0x139BE4C
     void remove_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1390F20
+    // Offset: 0x139C3DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableView*, creationType>()));
     }
     // public System.Void Init(FileBrowserItem[] items)
-    // Offset: 0x1390A34
+    // Offset: 0x139BEF0
     void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
     // public System.Void SetItems(FileBrowserItem[] items)
-    // Offset: 0x1390B40
+    // Offset: 0x139BFFC
     void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
-    // Offset: 0x1390B90
+    // Offset: 0x139C04C
     bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
     // public System.Single CellSize()
-    // Offset: 0x1390C80
+    // Offset: 0x139C13C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1390C88
+    // Offset: 0x139C144
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1390CA0
+    // Offset: 0x139C15C
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // private System.Void HandleDidSelectRowEvent(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x1390E14
+    // Offset: 0x139C2D0
     void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int row);
     // public System.Void SelectAndScrollRow(System.Int32 row)
-    // Offset: 0x1390C30
+    // Offset: 0x139C0EC
     void SelectAndScrollRow(int row);
     // public System.Void ClearSelection(System.Boolean animated, System.Boolean scrollToRow0)
-    // Offset: 0x1390EB4
+    // Offset: 0x139C370
     void ClearSelection(bool animated, bool scrollToRow0);
   }; // FileBrowserTableView
   #pragma pack(pop)

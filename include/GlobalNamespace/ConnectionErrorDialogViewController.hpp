@@ -43,10 +43,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // public System.Void Init(DisconnectedReason reason, System.Action buttonAction)
-    // Offset: 0x1431F68
+    // Offset: 0x143D674
     void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
     // public System.Void .ctor()
-    // Offset: 0x14321A0
+    // Offset: 0x143D8AC
     // Implemented from: SimpleDialogPromptViewController
     // Base method: System.Void SimpleDialogPromptViewController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean randomSongIfNoneSuggested
     [[deprecated("Use field access instead!")]] bool& dyn_randomSongIfNoneSuggested();
     // public System.Void .ctor()
-    // Offset: 0x153BE28
+    // Offset: 0x1548AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoSetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutoSetupData::.ctor");

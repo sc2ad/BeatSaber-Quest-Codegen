@@ -93,7 +93,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     // Get instance field reference: public System.Boolean autoUdpateAPI
     [[deprecated("Use field access instead!")]] bool& dyn_autoUdpateAPI();
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0x2165548
+    // Offset: 0x215F71C
     void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)

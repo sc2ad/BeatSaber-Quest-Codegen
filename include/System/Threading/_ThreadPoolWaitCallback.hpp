@@ -23,7 +23,7 @@ namespace System::Threading {
   class _ThreadPoolWaitCallback : public ::Il2CppObject {
     public:
     // static System.Boolean PerformWaitCallback()
-    // Offset: 0x2222338
+    // Offset: 0x2229CF0
     static bool PerformWaitCallback();
   }; // System.Threading._ThreadPoolWaitCallback
   #pragma pack(pop)

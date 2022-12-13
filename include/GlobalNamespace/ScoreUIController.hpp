@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* scoreText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1118508
+    // [InjectOptionalAttribute] Offset: 0x1121660
     // private readonly ScoreUIController/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::ScoreUIController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ScoreUIController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118518
+    // [InjectAttribute] Offset: 0x1121670
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -96,35 +96,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
     [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__stringBuilder();
     // public System.Void .ctor()
-    // Offset: 0x140C32C
+    // Offset: 0x1417A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreUIController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x140BD4C
+    // Offset: 0x1417444
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x140C170
+    // Offset: 0x1417868
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x140C174
+    // Offset: 0x141786C
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x140BDC4
+    // Offset: 0x14174BC
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x140C178
+    // Offset: 0x1417870
     void UnregisterFromEvents();
     // private System.Void HandleScoreDidChangeRealtime(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x140C278
+    // Offset: 0x1417970
     void HandleScoreDidChangeRealtime(int multipliedScore, int modifiedScore);
     // private System.Void UpdateScore(System.Int32 multipliedScore, System.Int32 modifiedScore)
-    // Offset: 0x140BF68
+    // Offset: 0x1417660
     void UpdateScore(int multipliedScore, int modifiedScore);
     // static private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0x140C27C
+    // Offset: 0x1417974
     static void Append000Number(::System::Text::StringBuilder* stringBuilder, int number);
   }; // ScoreUIController
   #pragma pack(pop)

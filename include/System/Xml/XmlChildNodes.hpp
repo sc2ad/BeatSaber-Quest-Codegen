@@ -55,19 +55,19 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlNode container
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlNode*& dyn_container();
     // public System.Void .ctor(System.Xml.XmlNode container)
-    // Offset: 0x1C2F304
+    // Offset: 0x1C5BAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlChildNodes* New_ctor(::System::Xml::XmlNode* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlChildNodes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlChildNodes*, creationType>(container)));
     }
     // public override System.Int32 get_Count()
-    // Offset: 0x1C2F330
+    // Offset: 0x1C5BAFC
     // Implemented from: System.Xml.XmlNodeList
     // Base method: System.Int32 XmlNodeList::get_Count()
     int get_Count();
     // public override System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1C2F388
+    // Offset: 0x1C5BB54
     // Implemented from: System.Xml.XmlNodeList
     // Base method: System.Collections.IEnumerator XmlNodeList::GetEnumerator()
     ::System::Collections::IEnumerator* GetEnumerator();

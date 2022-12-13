@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: evenCountOffset and: avatarsFactory
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x111B014
+    // [InjectAttribute] Offset: 0x112416C
     // private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     // Size: 0x8
     // Offset: 0x38
@@ -139,23 +139,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
-    // Offset: 0x13D7524
+    // Offset: 0x13F73A4
     ::ArrayW<::UnityEngine::GameObject*> get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
-    // Offset: 0x13D752C
+    // Offset: 0x13F73AC
     ::ArrayW<::UnityEngine::GameObject*> get_badgeTimelines();
     // public System.Void .ctor()
-    // Offset: 0x13D7A10
+    // Offset: 0x13F7890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsPyramidView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsPyramidView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsPyramidView*, creationType>()));
     }
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
-    // Offset: 0x13D4390
+    // Offset: 0x13F4210
     void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
     // public System.Void SetupResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, UnityEngine.Transform badgeStartTransform, UnityEngine.Transform badgeMidTransform)
-    // Offset: 0x13D358C
+    // Offset: 0x13F340C
     void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform, ::UnityEngine::Transform* badgeMidTransform);
   }; // MultiplayerResultsPyramidView
   #pragma pack(pop)

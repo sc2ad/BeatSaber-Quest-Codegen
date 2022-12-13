@@ -46,10 +46,10 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventsForKeyword> _keywords
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventsForKeyword*>*& dyn__keywords();
     // public System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventsForKeyword> get_keywords()
-    // Offset: 0x274AA38
+    // Offset: 0x26EDA98
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventsForKeyword*>* get_keywords();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventsForKeyword> keywords)
-    // Offset: 0x274AA40
+    // Offset: 0x26EDAA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventKeywordFiltersData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventsForKeyword*>* keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::SpecialEventKeywordFiltersData::.ctor");

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class HelpNavigationController : public ::HMUI::NavigationController {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F3D7C
+    // Offset: 0x13D3234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpNavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HelpNavigationController::.ctor");

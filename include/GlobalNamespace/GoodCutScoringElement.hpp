@@ -82,36 +82,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private ScoreMultiplierCounter/MultiplierEventType _wouldBeCorrectCutBestPossibleMultiplierEventType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType& dyn__wouldBeCorrectCutBestPossibleMultiplierEventType();
     // public IReadonlyCutScoreBuffer get_cutScoreBuffer()
-    // Offset: 0x13EE098
+    // Offset: 0x13CD56C
     ::GlobalNamespace::IReadonlyCutScoreBuffer* get_cutScoreBuffer();
     // public System.Void Init(NoteCutInfo noteCutInfo)
-    // Offset: 0x13EE0D8
+    // Offset: 0x13CD5AC
     void Init(::GlobalNamespace::NoteCutInfo noteCutInfo);
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x13EE15C
+    // Offset: 0x13CD630
     void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // public override System.Int32 get_cutScore()
-    // Offset: 0x13EE074
+    // Offset: 0x13CD548
     // Implemented from: ScoringElement
     // Base method: System.Int32 ScoringElement::get_cutScore()
     int get_cutScore();
     // public override ScoreMultiplierCounter/MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType()
-    // Offset: 0x13EE088
+    // Offset: 0x13CD55C
     // Implemented from: ScoringElement
     // Base method: ScoreMultiplierCounter/MultiplierEventType ScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType()
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
     // public override ScoreMultiplierCounter/MultiplierEventType get_multiplierEventType()
-    // Offset: 0x13EE090
+    // Offset: 0x13CD564
     // Implemented from: ScoringElement
     // Base method: ScoreMultiplierCounter/MultiplierEventType ScoringElement::get_multiplierEventType()
     ::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType get_multiplierEventType();
     // protected override System.Int32 get_executionOrder()
-    // Offset: 0x13EE0A0
+    // Offset: 0x13CD574
     // Implemented from: ScoringElement
     // Base method: System.Int32 ScoringElement::get_executionOrder()
     int get_executionOrder();
     // public System.Void .ctor()
-    // Offset: 0x13EE184
+    // Offset: 0x13CD658
     // Implemented from: ScoringElement
     // Base method: System.Void ScoringElement::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GoodCutScoringElement*, creationType>()));
     }
     // protected override System.Void Reinitialize()
-    // Offset: 0x13EE0BC
+    // Offset: 0x13CD590
     // Implemented from: ScoringElement
     // Base method: System.Void ScoringElement::Reinitialize()
     void Reinitialize();

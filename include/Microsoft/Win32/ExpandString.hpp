@@ -42,17 +42,17 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private System.String value
     [[deprecated("Use field access instead!")]] ::StringW& dyn_value();
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1FBE89C
+    // Offset: 0x1FC8F14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::StringW s) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x1FBE8D0
+    // Offset: 0x1FC8F48
     ::StringW Expand();
     // public override System.String ToString()
-    // Offset: 0x1FBE8C8
+    // Offset: 0x1FC8F40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

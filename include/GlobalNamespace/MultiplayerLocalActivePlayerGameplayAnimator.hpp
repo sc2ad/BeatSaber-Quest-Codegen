@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   class MultiplayerLocalActivePlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x1119D50
+    // [SpaceAttribute] Offset: 0x1122EA8
     // private CoreGameHUDController _coreGameHUDController
     // Size: 0x8
     // Offset: 0x68
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerPositionHUDController* multiplayerPositionHUDController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPositionHUDController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119D98
+    // [InjectAttribute] Offset: 0x1122EF0
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
     // Offset: 0x78
@@ -91,19 +91,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // private System.Void InitializeIfNeeded()
-    // Offset: 0x13C6194
+    // Offset: 0x13E6014
     void InitializeIfNeeded();
     // private System.Void TransitionIntoFailedState()
-    // Offset: 0x13C6420
+    // Offset: 0x13E62A0
     void TransitionIntoFailedState();
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x13C6640
+    // Offset: 0x13E64C0
     void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void <InitializeIfNeeded>b__6_0(System.Single f)
-    // Offset: 0x13C668C
+    // Offset: 0x13E650C
     void $InitializeIfNeeded$b__6_0(float f);
     // public System.Void .ctor()
-    // Offset: 0x13C6684
+    // Offset: 0x13E6504
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,17 +112,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayAnimator*, creationType>()));
     }
     // protected override System.Void OnDestroy()
-    // Offset: 0x13C6088
+    // Offset: 0x13E5F08
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::OnDestroy()
     void OnDestroy();
     // protected override System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x13C6258
+    // Offset: 0x13E60D8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::HandleStateChanged(MultiplayerController/State state)
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // protected override System.Void AnimateNewLeaderSelected(System.Boolean isLeading)
-    // Offset: 0x13C6548
+    // Offset: 0x13E63C8
     // Implemented from: MultiplayerGameplayAnimator
     // Base method: System.Void MultiplayerGameplayAnimator::AnimateNewLeaderSelected(System.Boolean isLeading)
     void AnimateNewLeaderSelected(bool isLeading);

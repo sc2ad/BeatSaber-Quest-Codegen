@@ -57,26 +57,26 @@ namespace System::Net {
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x1D91A58
+    // Offset: 0x1DB0FA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveAscii* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::CaseInsensitiveAscii::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveAscii*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D91A60
+    // Offset: 0x1DB0FB0
     static void _cctor();
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x1D9151C
+    // Offset: 0x1DB0A6C
     int GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1D91640
+    // Offset: 0x1DB0B90
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x1D917C4
+    // Offset: 0x1DB0D14
     int FastGetHashCode(::StringW myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1D918CC
+    // Offset: 0x1DB0E1C
     bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
   }; // System.Net.CaseInsensitiveAscii
   #pragma pack(pop)

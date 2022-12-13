@@ -79,17 +79,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x1566F60
+    // Offset: 0x1573C44
     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // public System.Void .ctor()
-    // Offset: 0x15670E4
+    // Offset: 0x1573DC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackCollectionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelPackCollectionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollectionSO*, creationType>()));
     }
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x1566F90
+    // Offset: 0x1573C74
     void LoadAllBeatmapLevelPacks();
   }; // BeatmapLevelPackCollectionSO
   #pragma pack(pop)

@@ -129,22 +129,22 @@ namespace GlobalNamespace {
     float prevTimeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x10CA730
-    // [TooltipAttribute] Offset: 0x10CA730
+    // [HeaderAttribute] Offset: 0x10D05A0
+    // [TooltipAttribute] Offset: 0x10D05A0
     // public System.Boolean useRecommendedMSAALevel
     // Size: 0x1
     // Offset: 0x24
     bool useRecommendedMSAALevel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CA790
+    // [TooltipAttribute] Offset: 0x10D0600
     // private System.Boolean _monoscopic
     // Size: 0x1
     // Offset: 0x25
     bool monoscopic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CA7DC
+    // [TooltipAttribute] Offset: 0x10D064C
     // public System.Boolean enableAdaptiveResolution
     // Size: 0x1
     // Offset: 0x26
@@ -159,30 +159,30 @@ namespace GlobalNamespace {
     ::GlobalNamespace::OVRManager_ColorSpace colorGamut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_ColorSpace) == 0x4);
-    // [RangeAttribute] Offset: 0x10CA84C
-    // [TooltipAttribute] Offset: 0x10CA84C
+    // [RangeAttribute] Offset: 0x10D06BC
+    // [TooltipAttribute] Offset: 0x10D06BC
     // public System.Single minRenderScale
     // Size: 0x4
     // Offset: 0x2C
     float minRenderScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x10CA8A0
-    // [TooltipAttribute] Offset: 0x10CA8A0
+    // [RangeAttribute] Offset: 0x10D0710
+    // [TooltipAttribute] Offset: 0x10D0710
     // public System.Single maxRenderScale
     // Size: 0x4
     // Offset: 0x30
     float maxRenderScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CA8F4
+    // [TooltipAttribute] Offset: 0x10D0764
     // private UnityEngine.Vector3 _headPoseRelativeOffsetRotation
     // Size: 0xC
     // Offset: 0x34
     ::UnityEngine::Vector3 headPoseRelativeOffsetRotation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x10CA940
+    // [TooltipAttribute] Offset: 0x10D07B0
     // private UnityEngine.Vector3 _headPoseRelativeOffsetTranslation
     // Size: 0xC
     // Offset: 0x40
@@ -201,7 +201,7 @@ namespace GlobalNamespace {
     bool expandMixedRealityCapturePropertySheet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CA99C
+    // [TooltipAttribute] Offset: 0x10D080C
     // public System.Boolean enableMixedReality
     // Size: 0x1
     // Offset: 0x51
@@ -216,21 +216,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::OVRManager_CompositionMethod compositionMethod;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_CompositionMethod) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CA9F8
+    // [TooltipAttribute] Offset: 0x10D0868
     // public UnityEngine.LayerMask extraHiddenLayers
     // Size: 0x4
     // Offset: 0x58
     ::UnityEngine::LayerMask extraHiddenLayers;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAA44
+    // [TooltipAttribute] Offset: 0x10D08B4
     // public UnityEngine.LayerMask extraVisibleLayers
     // Size: 0x4
     // Offset: 0x5C
     ::UnityEngine::LayerMask extraVisibleLayers;
     // Field size check
     static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAA90
+    // [TooltipAttribute] Offset: 0x10D0900
     // public System.Boolean dynamicCullingMask
     // Size: 0x1
     // Offset: 0x60
@@ -239,35 +239,35 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dynamicCullingMask and: externalCompositionBackdropColorRift
     char __padding16[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10CAADC
+    // [TooltipAttribute] Offset: 0x10D094C
     // public UnityEngine.Color externalCompositionBackdropColorRift
     // Size: 0x10
     // Offset: 0x64
     ::UnityEngine::Color externalCompositionBackdropColorRift;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [TooltipAttribute] Offset: 0x10CAB28
+    // [TooltipAttribute] Offset: 0x10D0998
     // public UnityEngine.Color externalCompositionBackdropColorQuest
     // Size: 0x10
     // Offset: 0x74
     ::UnityEngine::Color externalCompositionBackdropColorQuest;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [TooltipAttribute] Offset: 0x10CAB74
+    // [TooltipAttribute] Offset: 0x10D09E4
     // public OVRManager/CameraDevice capturingCameraDevice
     // Size: 0x4
     // Offset: 0x84
     ::GlobalNamespace::OVRManager_CameraDevice capturingCameraDevice;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_CameraDevice) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CABC0
+    // [TooltipAttribute] Offset: 0x10D0A30
     // public System.Boolean flipCameraFrameHorizontally
     // Size: 0x1
     // Offset: 0x88
     bool flipCameraFrameHorizontally;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CAC0C
+    // [TooltipAttribute] Offset: 0x10D0A7C
     // public System.Boolean flipCameraFrameVertically
     // Size: 0x1
     // Offset: 0x89
@@ -276,56 +276,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipCameraFrameVertically and: handPoseStateLatency
     char __padding21[0x2] = {};
-    // [TooltipAttribute] Offset: 0x10CAC58
+    // [TooltipAttribute] Offset: 0x10D0AC8
     // public System.Single handPoseStateLatency
     // Size: 0x4
     // Offset: 0x8C
     float handPoseStateLatency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CACA4
+    // [TooltipAttribute] Offset: 0x10D0B14
     // public System.Single sandwichCompositionRenderLatency
     // Size: 0x4
     // Offset: 0x90
     float sandwichCompositionRenderLatency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CACF0
+    // [TooltipAttribute] Offset: 0x10D0B60
     // public System.Int32 sandwichCompositionBufferedFrames
     // Size: 0x4
     // Offset: 0x94
     int sandwichCompositionBufferedFrames;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAD3C
+    // [TooltipAttribute] Offset: 0x10D0BAC
     // public UnityEngine.Color chromaKeyColor
     // Size: 0x10
     // Offset: 0x98
     ::UnityEngine::Color chromaKeyColor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Color) == 0x10);
-    // [TooltipAttribute] Offset: 0x10CAD88
+    // [TooltipAttribute] Offset: 0x10D0BF8
     // public System.Single chromaKeySimilarity
     // Size: 0x4
     // Offset: 0xA8
     float chromaKeySimilarity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CADD4
+    // [TooltipAttribute] Offset: 0x10D0C44
     // public System.Single chromaKeySmoothRange
     // Size: 0x4
     // Offset: 0xAC
     float chromaKeySmoothRange;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAE20
+    // [TooltipAttribute] Offset: 0x10D0C90
     // public System.Single chromaKeySpillRange
     // Size: 0x4
     // Offset: 0xB0
     float chromaKeySpillRange;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAE6C
+    // [TooltipAttribute] Offset: 0x10D0CDC
     // public System.Boolean useDynamicLighting
     // Size: 0x1
     // Offset: 0xB4
@@ -334,49 +334,49 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useDynamicLighting and: depthQuality
     char __padding29[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10CAEB8
+    // [TooltipAttribute] Offset: 0x10D0D28
     // public OVRManager/DepthQuality depthQuality
     // Size: 0x4
     // Offset: 0xB8
     ::GlobalNamespace::OVRManager_DepthQuality depthQuality;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_DepthQuality) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAF04
+    // [TooltipAttribute] Offset: 0x10D0D74
     // public System.Single dynamicLightingSmoothFactor
     // Size: 0x4
     // Offset: 0xBC
     float dynamicLightingSmoothFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAF50
+    // [TooltipAttribute] Offset: 0x10D0DC0
     // public System.Single dynamicLightingDepthVariationClampingValue
     // Size: 0x4
     // Offset: 0xC0
     float dynamicLightingDepthVariationClampingValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAF9C
+    // [TooltipAttribute] Offset: 0x10D0E0C
     // public OVRManager/VirtualGreenScreenType virtualGreenScreenType
     // Size: 0x4
     // Offset: 0xC4
     ::GlobalNamespace::OVRManager_VirtualGreenScreenType virtualGreenScreenType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_VirtualGreenScreenType) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CAFE8
+    // [TooltipAttribute] Offset: 0x10D0E58
     // public System.Single virtualGreenScreenTopY
     // Size: 0x4
     // Offset: 0xC8
     float virtualGreenScreenTopY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CB034
+    // [TooltipAttribute] Offset: 0x10D0EA4
     // public System.Single virtualGreenScreenBottomY
     // Size: 0x4
     // Offset: 0xCC
     float virtualGreenScreenBottomY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CB080
+    // [TooltipAttribute] Offset: 0x10D0EF0
     // public System.Boolean virtualGreenScreenApplyDepthCulling
     // Size: 0x1
     // Offset: 0xD0
@@ -385,14 +385,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: virtualGreenScreenApplyDepthCulling and: virtualGreenScreenDepthTolerance
     char __padding36[0x3] = {};
-    // [TooltipAttribute] Offset: 0x10CB0CC
+    // [TooltipAttribute] Offset: 0x10D0F3C
     // public System.Single virtualGreenScreenDepthTolerance
     // Size: 0x4
     // Offset: 0xD4
     float virtualGreenScreenDepthTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CB118
+    // [TooltipAttribute] Offset: 0x10D0F88
     // public OVRManager/MrcActivationMode mrcActivationMode
     // Size: 0x4
     // Offset: 0xD8
@@ -407,15 +407,15 @@ namespace GlobalNamespace {
     ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*) == 0x8);
-    // [HeaderAttribute] Offset: 0x10CB164
-    // [TooltipAttribute] Offset: 0x10CB164
+    // [HeaderAttribute] Offset: 0x10D0FD4
+    // [TooltipAttribute] Offset: 0x10D0FD4
     // private OVRManager/TrackingOrigin _trackingOriginType
     // Size: 0x4
     // Offset: 0xE8
     ::GlobalNamespace::OVRManager_TrackingOrigin trackingOriginType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::OVRManager_TrackingOrigin) == 0x4);
-    // [TooltipAttribute] Offset: 0x10CB1D4
+    // [TooltipAttribute] Offset: 0x10D1044
     // public System.Boolean usePositionTracking
     // Size: 0x1
     // Offset: 0xEC
@@ -428,28 +428,28 @@ namespace GlobalNamespace {
     bool useRotationTracking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CB21C
+    // [TooltipAttribute] Offset: 0x10D108C
     // public System.Boolean useIPDInPositionTracking
     // Size: 0x1
     // Offset: 0xEE
     bool useIPDInPositionTracking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CB254
+    // [TooltipAttribute] Offset: 0x10D10C4
     // public System.Boolean resetTrackerOnLoad
     // Size: 0x1
     // Offset: 0xEF
     bool resetTrackerOnLoad;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CB28C
+    // [TooltipAttribute] Offset: 0x10D10FC
     // public System.Boolean AllowRecenter
     // Size: 0x1
     // Offset: 0xF0
     bool AllowRecenter;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x10CB2C4
+    // [TooltipAttribute] Offset: 0x10D1134
     // public System.Boolean LateControllerUpdate
     // Size: 0x1
     // Offset: 0xF1
@@ -774,548 +774,548 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isSupportedPlatform>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$isSupportedPlatform$k__BackingField();
     // static public OVRManager get_instance()
-    // Offset: 0x1A27498
+    // Offset: 0x1A4B230
     static ::GlobalNamespace::OVRManager* get_instance();
     // static private System.Void set_instance(OVRManager value)
-    // Offset: 0x1A27500
+    // Offset: 0x1A4B298
     static void set_instance(::GlobalNamespace::OVRManager* value);
     // static public OVRDisplay get_display()
-    // Offset: 0x1A2756C
+    // Offset: 0x1A4B304
     static ::GlobalNamespace::OVRDisplay* get_display();
     // static private System.Void set_display(OVRDisplay value)
-    // Offset: 0x1A275D4
+    // Offset: 0x1A4B36C
     static void set_display(::GlobalNamespace::OVRDisplay* value);
     // static public OVRTracker get_tracker()
-    // Offset: 0x1A27640
+    // Offset: 0x1A4B3D8
     static ::GlobalNamespace::OVRTracker* get_tracker();
     // static private System.Void set_tracker(OVRTracker value)
-    // Offset: 0x1A276A8
+    // Offset: 0x1A4B440
     static void set_tracker(::GlobalNamespace::OVRTracker* value);
     // static public OVRBoundary get_boundary()
-    // Offset: 0x1A27714
+    // Offset: 0x1A4B4AC
     static ::GlobalNamespace::OVRBoundary* get_boundary();
     // static private System.Void set_boundary(OVRBoundary value)
-    // Offset: 0x1A2777C
+    // Offset: 0x1A4B514
     static void set_boundary(::GlobalNamespace::OVRBoundary* value);
     // static public OVRProfile get_profile()
-    // Offset: 0x1A277E8
+    // Offset: 0x1A4B580
     static ::GlobalNamespace::OVRProfile* get_profile();
     // static public System.Boolean get_isHmdPresent()
-    // Offset: 0x1A29330
+    // Offset: 0x1A4D0C8
     static bool get_isHmdPresent();
     // static private System.Void set_isHmdPresent(System.Boolean value)
-    // Offset: 0x1A29428
+    // Offset: 0x1A4D1C0
     static void set_isHmdPresent(bool value);
     // static public System.String get_audioOutId()
-    // Offset: 0x1A294A4
+    // Offset: 0x1A4D23C
     static ::StringW get_audioOutId();
     // static public System.String get_audioInId()
-    // Offset: 0x1A29504
+    // Offset: 0x1A4D29C
     static ::StringW get_audioInId();
     // static public System.Boolean get_hasVrFocus()
-    // Offset: 0x1A29564
+    // Offset: 0x1A4D2FC
     static bool get_hasVrFocus();
     // static private System.Void set_hasVrFocus(System.Boolean value)
-    // Offset: 0x1A2965C
+    // Offset: 0x1A4D3F4
     static void set_hasVrFocus(bool value);
     // static public System.Boolean get_hasInputFocus()
-    // Offset: 0x1A296D8
+    // Offset: 0x1A4D470
     static bool get_hasInputFocus();
     // public System.Boolean get_chromatic()
-    // Offset: 0x1A29738
+    // Offset: 0x1A4D4D0
     bool get_chromatic();
     // public System.Void set_chromatic(System.Boolean value)
-    // Offset: 0x1A297D0
+    // Offset: 0x1A4D568
     void set_chromatic(bool value);
     // public System.Boolean get_monoscopic()
-    // Offset: 0x1A2986C
+    // Offset: 0x1A4D604
     bool get_monoscopic();
     // public System.Void set_monoscopic(System.Boolean value)
-    // Offset: 0x1A29908
+    // Offset: 0x1A4D6A0
     void set_monoscopic(bool value);
     // public OVRManager/ColorSpace get_colorGamut()
-    // Offset: 0x1A299B0
+    // Offset: 0x1A4D748
     ::GlobalNamespace::OVRManager_ColorSpace get_colorGamut();
     // public System.Void set_colorGamut(OVRManager/ColorSpace value)
-    // Offset: 0x1A299B8
+    // Offset: 0x1A4D750
     void set_colorGamut(::GlobalNamespace::OVRManager_ColorSpace value);
     // public OVRManager/ColorSpace get_nativeColorGamut()
-    // Offset: 0x1A29A30
+    // Offset: 0x1A4D7C8
     ::GlobalNamespace::OVRManager_ColorSpace get_nativeColorGamut();
     // public UnityEngine.Vector3 get_headPoseRelativeOffsetRotation()
-    // Offset: 0x1A29A98
+    // Offset: 0x1A4D830
     ::UnityEngine::Vector3 get_headPoseRelativeOffsetRotation();
     // public System.Void set_headPoseRelativeOffsetRotation(UnityEngine.Vector3 value)
-    // Offset: 0x1A1EEAC
+    // Offset: 0x1A42C44
     void set_headPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_headPoseRelativeOffsetTranslation()
-    // Offset: 0x1A29AA4
+    // Offset: 0x1A4D83C
     ::UnityEngine::Vector3 get_headPoseRelativeOffsetTranslation();
     // public System.Void set_headPoseRelativeOffsetTranslation(UnityEngine.Vector3 value)
-    // Offset: 0x1A1ED50
+    // Offset: 0x1A42AE8
     void set_headPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
     // static public System.Boolean get_eyeFovPremultipliedAlphaModeEnabled()
-    // Offset: 0x1A29AB0
+    // Offset: 0x1A4D848
     static bool get_eyeFovPremultipliedAlphaModeEnabled();
     // static public System.Void set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean value)
-    // Offset: 0x1A29B10
+    // Offset: 0x1A4D8A8
     static void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
-    // Offset: 0x1A29B78
+    // Offset: 0x1A4D910
     bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_enableMixedReality(System.Boolean value)
-    // Offset: 0x1A29B80
+    // Offset: 0x1A4D918
     void OVRMixedRealityCaptureConfiguration_set_enableMixedReality(bool value);
     // private UnityEngine.LayerMask OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers()
-    // Offset: 0x1A29B8C
+    // Offset: 0x1A4D924
     ::UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers(UnityEngine.LayerMask value)
-    // Offset: 0x1A29B94
+    // Offset: 0x1A4D92C
     void OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers(::UnityEngine::LayerMask value);
     // private UnityEngine.LayerMask OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers()
-    // Offset: 0x1A29B9C
+    // Offset: 0x1A4D934
     ::UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers(UnityEngine.LayerMask value)
-    // Offset: 0x1A29BA4
+    // Offset: 0x1A4D93C
     void OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers(::UnityEngine::LayerMask value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask()
-    // Offset: 0x1A29BAC
+    // Offset: 0x1A4D944
     bool OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask(System.Boolean value)
-    // Offset: 0x1A29BB4
+    // Offset: 0x1A4D94C
     void OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask(bool value);
     // private OVRManager/CompositionMethod OVRMixedRealityCaptureConfiguration.get_compositionMethod()
-    // Offset: 0x1A29BC0
+    // Offset: 0x1A4D958
     ::GlobalNamespace::OVRManager_CompositionMethod OVRMixedRealityCaptureConfiguration_get_compositionMethod();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_compositionMethod(OVRManager/CompositionMethod value)
-    // Offset: 0x1A29BC8
+    // Offset: 0x1A4D960
     void OVRMixedRealityCaptureConfiguration_set_compositionMethod(::GlobalNamespace::OVRManager_CompositionMethod value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift()
-    // Offset: 0x1A29BD0
+    // Offset: 0x1A4D968
     ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift(UnityEngine.Color value)
-    // Offset: 0x1A29BDC
+    // Offset: 0x1A4D974
     void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest()
-    // Offset: 0x1A29BE8
+    // Offset: 0x1A4D980
     ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest(UnityEngine.Color value)
-    // Offset: 0x1A29BF4
+    // Offset: 0x1A4D98C
     void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
     // private OVRManager/CameraDevice OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice()
-    // Offset: 0x1A29C00
+    // Offset: 0x1A4D998
     ::GlobalNamespace::OVRManager_CameraDevice OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice(OVRManager/CameraDevice value)
-    // Offset: 0x1A29C08
+    // Offset: 0x1A4D9A0
     void OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice(::GlobalNamespace::OVRManager_CameraDevice value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally()
-    // Offset: 0x1A29C10
+    // Offset: 0x1A4D9A8
     bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally(System.Boolean value)
-    // Offset: 0x1A29C18
+    // Offset: 0x1A4D9B0
     void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally(bool value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically()
-    // Offset: 0x1A29C24
+    // Offset: 0x1A4D9BC
     bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically(System.Boolean value)
-    // Offset: 0x1A29C2C
+    // Offset: 0x1A4D9C4
     void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically(bool value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency()
-    // Offset: 0x1A29C38
+    // Offset: 0x1A4D9D0
     float OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency(System.Single value)
-    // Offset: 0x1A29C40
+    // Offset: 0x1A4D9D8
     void OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency()
-    // Offset: 0x1A29C48
+    // Offset: 0x1A4D9E0
     float OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(System.Single value)
-    // Offset: 0x1A29C50
+    // Offset: 0x1A4D9E8
     void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency(float value);
     // private System.Int32 OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames()
-    // Offset: 0x1A29C58
+    // Offset: 0x1A4D9F0
     int OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames(System.Int32 value)
-    // Offset: 0x1A29C60
+    // Offset: 0x1A4D9F8
     void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames(int value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_chromaKeyColor()
-    // Offset: 0x1A29C68
+    // Offset: 0x1A4DA00
     ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_chromaKeyColor();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeyColor(UnityEngine.Color value)
-    // Offset: 0x1A29C74
+    // Offset: 0x1A4DA0C
     void OVRMixedRealityCaptureConfiguration_set_chromaKeyColor(::UnityEngine::Color value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity()
-    // Offset: 0x1A29C80
+    // Offset: 0x1A4DA18
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity(System.Single value)
-    // Offset: 0x1A29C88
+    // Offset: 0x1A4DA20
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange()
-    // Offset: 0x1A29C90
+    // Offset: 0x1A4DA28
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange(System.Single value)
-    // Offset: 0x1A29C98
+    // Offset: 0x1A4DA30
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange()
-    // Offset: 0x1A29CA0
+    // Offset: 0x1A4DA38
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange(System.Single value)
-    // Offset: 0x1A29CA8
+    // Offset: 0x1A4DA40
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange(float value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_useDynamicLighting()
-    // Offset: 0x1A29CB0
+    // Offset: 0x1A4DA48
     bool OVRMixedRealityCaptureConfiguration_get_useDynamicLighting();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_useDynamicLighting(System.Boolean value)
-    // Offset: 0x1A29CB8
+    // Offset: 0x1A4DA50
     void OVRMixedRealityCaptureConfiguration_set_useDynamicLighting(bool value);
     // private OVRManager/DepthQuality OVRMixedRealityCaptureConfiguration.get_depthQuality()
-    // Offset: 0x1A29CC4
+    // Offset: 0x1A4DA5C
     ::GlobalNamespace::OVRManager_DepthQuality OVRMixedRealityCaptureConfiguration_get_depthQuality();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_depthQuality(OVRManager/DepthQuality value)
-    // Offset: 0x1A29CCC
+    // Offset: 0x1A4DA64
     void OVRMixedRealityCaptureConfiguration_set_depthQuality(::GlobalNamespace::OVRManager_DepthQuality value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor()
-    // Offset: 0x1A29CD4
+    // Offset: 0x1A4DA6C
     float OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor(System.Single value)
-    // Offset: 0x1A29CDC
+    // Offset: 0x1A4DA74
     void OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue()
-    // Offset: 0x1A29CE4
+    // Offset: 0x1A4DA7C
     float OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue(System.Single value)
-    // Offset: 0x1A29CEC
+    // Offset: 0x1A4DA84
     void OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue(float value);
     // private OVRManager/VirtualGreenScreenType OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType()
-    // Offset: 0x1A29CF4
+    // Offset: 0x1A4DA8C
     ::GlobalNamespace::OVRManager_VirtualGreenScreenType OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType(OVRManager/VirtualGreenScreenType value)
-    // Offset: 0x1A29CFC
+    // Offset: 0x1A4DA94
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY()
-    // Offset: 0x1A29D04
+    // Offset: 0x1A4DA9C
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY(System.Single value)
-    // Offset: 0x1A29D0C
+    // Offset: 0x1A4DAA4
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY()
-    // Offset: 0x1A29D14
+    // Offset: 0x1A4DAAC
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY(System.Single value)
-    // Offset: 0x1A29D1C
+    // Offset: 0x1A4DAB4
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY(float value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling()
-    // Offset: 0x1A29D24
+    // Offset: 0x1A4DABC
     bool OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling(System.Boolean value)
-    // Offset: 0x1A29D2C
+    // Offset: 0x1A4DAC4
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling(bool value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance()
-    // Offset: 0x1A29D38
+    // Offset: 0x1A4DAD0
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance(System.Single value)
-    // Offset: 0x1A29D40
+    // Offset: 0x1A4DAD8
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance(float value);
     // private OVRManager/MrcActivationMode OVRMixedRealityCaptureConfiguration.get_mrcActivationMode()
-    // Offset: 0x1A29D48
+    // Offset: 0x1A4DAE0
     ::GlobalNamespace::OVRManager_MrcActivationMode OVRMixedRealityCaptureConfiguration_get_mrcActivationMode();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_mrcActivationMode(OVRManager/MrcActivationMode value)
-    // Offset: 0x1A29D50
+    // Offset: 0x1A4DAE8
     void OVRMixedRealityCaptureConfiguration_set_mrcActivationMode(::GlobalNamespace::OVRManager_MrcActivationMode value);
     // private OVRManager/InstantiateMrcCameraDelegate OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject()
-    // Offset: 0x1A29D58
+    // Offset: 0x1A4DAF0
     ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject(OVRManager/InstantiateMrcCameraDelegate value)
-    // Offset: 0x1A29D60
+    // Offset: 0x1A4DAF8
     void OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
     // public OVRManager/XrApi get_xrApi()
-    // Offset: 0x1A29D68
+    // Offset: 0x1A4DB00
     ::GlobalNamespace::OVRManager_XrApi get_xrApi();
     // public System.UInt64 get_xrInstance()
-    // Offset: 0x1A29DC8
+    // Offset: 0x1A4DB60
     uint64_t get_xrInstance();
     // public System.UInt64 get_xrSession()
-    // Offset: 0x1A29E28
+    // Offset: 0x1A4DBC0
     uint64_t get_xrSession();
     // public System.Int32 get_vsyncCount()
-    // Offset: 0x1A29E88
+    // Offset: 0x1A4DC20
     int get_vsyncCount();
     // public System.Void set_vsyncCount(System.Int32 value)
-    // Offset: 0x1A29F20
+    // Offset: 0x1A4DCB8
     void set_vsyncCount(int value);
     // static public System.Single get_batteryLevel()
-    // Offset: 0x1A29FBC
+    // Offset: 0x1A4DD54
     static float get_batteryLevel();
     // static public System.Single get_batteryTemperature()
-    // Offset: 0x1A2A054
+    // Offset: 0x1A4DDEC
     static float get_batteryTemperature();
     // static public System.Int32 get_batteryStatus()
-    // Offset: 0x1A2A0EC
+    // Offset: 0x1A4DE84
     static int get_batteryStatus();
     // static public System.Single get_volumeLevel()
-    // Offset: 0x1A2A184
+    // Offset: 0x1A4DF1C
     static float get_volumeLevel();
     // static public System.Int32 get_cpuLevel()
-    // Offset: 0x1A2A21C
+    // Offset: 0x1A4DFB4
     static int get_cpuLevel();
     // static public System.Void set_cpuLevel(System.Int32 value)
-    // Offset: 0x1A2A2B4
+    // Offset: 0x1A4E04C
     static void set_cpuLevel(int value);
     // static public System.Int32 get_gpuLevel()
-    // Offset: 0x1A2A350
+    // Offset: 0x1A4E0E8
     static int get_gpuLevel();
     // static public System.Void set_gpuLevel(System.Int32 value)
-    // Offset: 0x1A2A3E8
+    // Offset: 0x1A4E180
     static void set_gpuLevel(int value);
     // static public System.Boolean get_isPowerSavingActive()
-    // Offset: 0x1A2A484
+    // Offset: 0x1A4E21C
     static bool get_isPowerSavingActive();
     // static public OVRManager/EyeTextureFormat get_eyeTextureFormat()
-    // Offset: 0x1A2A51C
+    // Offset: 0x1A4E2B4
     static ::GlobalNamespace::OVRManager_EyeTextureFormat get_eyeTextureFormat();
     // static public System.Void set_eyeTextureFormat(OVRManager/EyeTextureFormat value)
-    // Offset: 0x1A2A57C
+    // Offset: 0x1A4E314
     static void set_eyeTextureFormat(::GlobalNamespace::OVRManager_EyeTextureFormat value);
     // static public System.Boolean get_fixedFoveatedRenderingSupported()
-    // Offset: 0x1A2A5E4
+    // Offset: 0x1A4E37C
     static bool get_fixedFoveatedRenderingSupported();
     // static public OVRManager/FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel()
-    // Offset: 0x1A2A644
+    // Offset: 0x1A4E3DC
     static ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
     // static public System.Void set_fixedFoveatedRenderingLevel(OVRManager/FixedFoveatedRenderingLevel value)
-    // Offset: 0x1A2A6FC
+    // Offset: 0x1A4E494
     static void set_fixedFoveatedRenderingLevel(::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel value);
     // static public System.Boolean get_useDynamicFixedFoveatedRendering()
-    // Offset: 0x1A2A7BC
+    // Offset: 0x1A4E554
     static bool get_useDynamicFixedFoveatedRendering();
     // static public System.Void set_useDynamicFixedFoveatedRendering(System.Boolean value)
-    // Offset: 0x1A2A874
+    // Offset: 0x1A4E60C
     static void set_useDynamicFixedFoveatedRendering(bool value);
     // static public System.Boolean get_tiledMultiResSupported()
-    // Offset: 0x1A2A934
+    // Offset: 0x1A4E6CC
     static bool get_tiledMultiResSupported();
     // static public OVRManager/TiledMultiResLevel get_tiledMultiResLevel()
-    // Offset: 0x1A2A994
+    // Offset: 0x1A4E72C
     static ::GlobalNamespace::OVRManager_TiledMultiResLevel get_tiledMultiResLevel();
     // static public System.Void set_tiledMultiResLevel(OVRManager/TiledMultiResLevel value)
-    // Offset: 0x1A2AA4C
+    // Offset: 0x1A4E7E4
     static void set_tiledMultiResLevel(::GlobalNamespace::OVRManager_TiledMultiResLevel value);
     // static public System.Boolean get_gpuUtilSupported()
-    // Offset: 0x1A2AB0C
+    // Offset: 0x1A4E8A4
     static bool get_gpuUtilSupported();
     // static public System.Single get_gpuUtilLevel()
-    // Offset: 0x1A2AB6C
+    // Offset: 0x1A4E904
     static float get_gpuUtilLevel();
     // static public OVRManager/SystemHeadsetType get_systemHeadsetType()
-    // Offset: 0x1A2AC24
+    // Offset: 0x1A4E9BC
     static ::GlobalNamespace::OVRManager_SystemHeadsetType get_systemHeadsetType();
     // public OVRManager/TrackingOrigin get_trackingOriginType()
-    // Offset: 0x1A2B0D8
+    // Offset: 0x1A4EE70
     ::GlobalNamespace::OVRManager_TrackingOrigin get_trackingOriginType();
     // public System.Void set_trackingOriginType(OVRManager/TrackingOrigin value)
-    // Offset: 0x1A2B174
+    // Offset: 0x1A4EF0C
     void set_trackingOriginType(::GlobalNamespace::OVRManager_TrackingOrigin value);
     // public System.Boolean get_isSupportedPlatform()
-    // Offset: 0x1A2B21C
+    // Offset: 0x1A4EFB4
     bool get_isSupportedPlatform();
     // private System.Void set_isSupportedPlatform(System.Boolean value)
-    // Offset: 0x1A2B224
+    // Offset: 0x1A4EFBC
     void set_isSupportedPlatform(bool value);
     // public System.Boolean get_isUserPresent()
-    // Offset: 0x1A2B230
+    // Offset: 0x1A4EFC8
     bool get_isUserPresent();
     // private System.Void set_isUserPresent(System.Boolean value)
-    // Offset: 0x1A2B328
+    // Offset: 0x1A4F0C0
     void set_isUserPresent(bool value);
     // static public System.Version get_utilitiesVersion()
-    // Offset: 0x1A2B3A4
+    // Offset: 0x1A4F13C
     static ::System::Version* get_utilitiesVersion();
     // static public System.Version get_pluginVersion()
-    // Offset: 0x1A2B40C
+    // Offset: 0x1A4F1A4
     static ::System::Version* get_pluginVersion();
     // static public System.Version get_sdkVersion()
-    // Offset: 0x1A2B46C
+    // Offset: 0x1A4F204
     static ::System::Version* get_sdkVersion();
     // static public System.Void add_HMDAcquired(System.Action value)
-    // Offset: 0x1A278F0
+    // Offset: 0x1A4B688
     static void add_HMDAcquired(::System::Action* value);
     // static public System.Void remove_HMDAcquired(System.Action value)
-    // Offset: 0x1A279E0
+    // Offset: 0x1A4B778
     static void remove_HMDAcquired(::System::Action* value);
     // static public System.Void add_HMDLost(System.Action value)
-    // Offset: 0x1A27AD0
+    // Offset: 0x1A4B868
     static void add_HMDLost(::System::Action* value);
     // static public System.Void remove_HMDLost(System.Action value)
-    // Offset: 0x1A27BC0
+    // Offset: 0x1A4B958
     static void remove_HMDLost(::System::Action* value);
     // static public System.Void add_HMDMounted(System.Action value)
-    // Offset: 0x1A27CB0
+    // Offset: 0x1A4BA48
     static void add_HMDMounted(::System::Action* value);
     // static public System.Void remove_HMDMounted(System.Action value)
-    // Offset: 0x1A27DA0
+    // Offset: 0x1A4BB38
     static void remove_HMDMounted(::System::Action* value);
     // static public System.Void add_HMDUnmounted(System.Action value)
-    // Offset: 0x1A27E90
+    // Offset: 0x1A4BC28
     static void add_HMDUnmounted(::System::Action* value);
     // static public System.Void remove_HMDUnmounted(System.Action value)
-    // Offset: 0x1A27F80
+    // Offset: 0x1A4BD18
     static void remove_HMDUnmounted(::System::Action* value);
     // static public System.Void add_VrFocusAcquired(System.Action value)
-    // Offset: 0x1A28070
+    // Offset: 0x1A4BE08
     static void add_VrFocusAcquired(::System::Action* value);
     // static public System.Void remove_VrFocusAcquired(System.Action value)
-    // Offset: 0x1A28160
+    // Offset: 0x1A4BEF8
     static void remove_VrFocusAcquired(::System::Action* value);
     // static public System.Void add_VrFocusLost(System.Action value)
-    // Offset: 0x1A28250
+    // Offset: 0x1A4BFE8
     static void add_VrFocusLost(::System::Action* value);
     // static public System.Void remove_VrFocusLost(System.Action value)
-    // Offset: 0x1A28340
+    // Offset: 0x1A4C0D8
     static void remove_VrFocusLost(::System::Action* value);
     // static public System.Void add_InputFocusAcquired(System.Action value)
-    // Offset: 0x1A28430
+    // Offset: 0x1A4C1C8
     static void add_InputFocusAcquired(::System::Action* value);
     // static public System.Void remove_InputFocusAcquired(System.Action value)
-    // Offset: 0x1A28520
+    // Offset: 0x1A4C2B8
     static void remove_InputFocusAcquired(::System::Action* value);
     // static public System.Void add_InputFocusLost(System.Action value)
-    // Offset: 0x1A28610
+    // Offset: 0x1A4C3A8
     static void add_InputFocusLost(::System::Action* value);
     // static public System.Void remove_InputFocusLost(System.Action value)
-    // Offset: 0x1A28700
+    // Offset: 0x1A4C498
     static void remove_InputFocusLost(::System::Action* value);
     // static public System.Void add_AudioOutChanged(System.Action value)
-    // Offset: 0x1A287F0
+    // Offset: 0x1A4C588
     static void add_AudioOutChanged(::System::Action* value);
     // static public System.Void remove_AudioOutChanged(System.Action value)
-    // Offset: 0x1A288E0
+    // Offset: 0x1A4C678
     static void remove_AudioOutChanged(::System::Action* value);
     // static public System.Void add_AudioInChanged(System.Action value)
-    // Offset: 0x1A289D0
+    // Offset: 0x1A4C768
     static void add_AudioInChanged(::System::Action* value);
     // static public System.Void remove_AudioInChanged(System.Action value)
-    // Offset: 0x1A28AC0
+    // Offset: 0x1A4C858
     static void remove_AudioInChanged(::System::Action* value);
     // static public System.Void add_TrackingAcquired(System.Action value)
-    // Offset: 0x1A28BB0
+    // Offset: 0x1A4C948
     static void add_TrackingAcquired(::System::Action* value);
     // static public System.Void remove_TrackingAcquired(System.Action value)
-    // Offset: 0x1A28CA0
+    // Offset: 0x1A4CA38
     static void remove_TrackingAcquired(::System::Action* value);
     // static public System.Void add_TrackingLost(System.Action value)
-    // Offset: 0x1A28D90
+    // Offset: 0x1A4CB28
     static void add_TrackingLost(::System::Action* value);
     // static public System.Void remove_TrackingLost(System.Action value)
-    // Offset: 0x1A28E80
+    // Offset: 0x1A4CC18
     static void remove_TrackingLost(::System::Action* value);
     // static public System.Void add_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single> value)
-    // Offset: 0x1A28F70
+    // Offset: 0x1A4CD08
     static void add_DisplayRefreshRateChanged(::System::Action_2<float, float>* value);
     // static public System.Void remove_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single> value)
-    // Offset: 0x1A29060
+    // Offset: 0x1A4CDF8
     static void remove_DisplayRefreshRateChanged(::System::Action_2<float, float>* value);
     // static public System.Void add_HSWDismissed(System.Action value)
-    // Offset: 0x1A29150
+    // Offset: 0x1A4CEE8
     static void add_HSWDismissed(::System::Action* value);
     // static public System.Void remove_HSWDismissed(System.Action value)
-    // Offset: 0x1A29240
+    // Offset: 0x1A4CFD8
     static void remove_HSWDismissed(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1A2FE40
+    // Offset: 0x1A53BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A2FF14
+    // Offset: 0x1A53CAC
     static void _cctor();
     // static public System.Boolean IsAdaptiveResSupportedByEngine()
-    // Offset: 0x1A29A90
+    // Offset: 0x1A4D828
     static bool IsAdaptiveResSupportedByEngine();
     // static public System.Void SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean applyToAllLayers)
-    // Offset: 0x1A2AC84
+    // Offset: 0x1A4EA1C
     static void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Void SetOpenVRLocalPose(UnityEngine.Vector3 leftPos, UnityEngine.Vector3 rightPos, UnityEngine.Quaternion leftRot, UnityEngine.Quaternion rightRot)
-    // Offset: 0x1A2AD4C
+    // Offset: 0x1A4EAE4
     static void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
     // static public OVRPose GetOpenVRControllerOffset(UnityEngine.XR.XRNode hand)
-    // Offset: 0x1A2AE78
+    // Offset: 0x1A4EC10
     static ::GlobalNamespace::OVRPose GetOpenVRControllerOffset(::UnityEngine::XR::XRNode hand);
     // static private System.Boolean MixedRealityEnabledFromCmd()
-    // Offset: 0x1A2B4CC
+    // Offset: 0x1A4F264
     static bool MixedRealityEnabledFromCmd();
     // static private System.Boolean UseDirectCompositionFromCmd()
-    // Offset: 0x1A2B590
+    // Offset: 0x1A4F328
     static bool UseDirectCompositionFromCmd();
     // static private System.Boolean UseExternalCompositionFromCmd()
-    // Offset: 0x1A2B654
+    // Offset: 0x1A4F3EC
     static bool UseExternalCompositionFromCmd();
     // static private System.Boolean CreateMixedRealityCaptureConfigurationFileFromCmd()
-    // Offset: 0x1A2B718
+    // Offset: 0x1A4F4B0
     static bool CreateMixedRealityCaptureConfigurationFileFromCmd();
     // static private System.Boolean LoadMixedRealityCaptureConfigurationFileFromCmd()
-    // Offset: 0x1A2B7DC
+    // Offset: 0x1A4F574
     static bool LoadMixedRealityCaptureConfigurationFileFromCmd();
     // static public System.Boolean IsUnityAlphaOrBetaVersion()
-    // Offset: 0x1A2B8A0
+    // Offset: 0x1A4F638
     static bool IsUnityAlphaOrBetaVersion();
     // private System.Void InitOVRManager()
-    // Offset: 0x1A2B95C
+    // Offset: 0x1A4F6F4
     void InitOVRManager();
     // private System.Void Awake()
-    // Offset: 0x1A2CD5C
+    // Offset: 0x1A50AF4
     void Awake();
     // private System.Void SetCurrentXRDevice()
-    // Offset: 0x1A2CD60
+    // Offset: 0x1A50AF8
     void SetCurrentXRDevice();
     // private System.Void Initialize()
-    // Offset: 0x1A2CA78
+    // Offset: 0x1A50810
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x1A2CEC8
+    // Offset: 0x1A50C60
     void Update();
     // private System.Void UpdateHMDEvents()
-    // Offset: 0x1A2ECB0
+    // Offset: 0x1A52A48
     void UpdateHMDEvents();
     // static private UnityEngine.Camera FindMainCamera()
-    // Offset: 0x1A2F3B4
+    // Offset: 0x1A5314C
     static ::UnityEngine::Camera* FindMainCamera();
     // private System.Void OnDisable()
-    // Offset: 0x1A2F9BC
+    // Offset: 0x1A53754
     void OnDisable();
     // private System.Void LateUpdate()
-    // Offset: 0x1A2FA6C
+    // Offset: 0x1A53804
     void LateUpdate();
     // private System.Void FixedUpdate()
-    // Offset: 0x1A2FAC8
+    // Offset: 0x1A53860
     void FixedUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1A2FB24
+    // Offset: 0x1A538BC
     void OnDestroy();
     // private System.Void OnApplicationPause(System.Boolean pause)
-    // Offset: 0x1A2FBC0
+    // Offset: 0x1A53958
     void OnApplicationPause(bool pause);
     // private System.Void OnApplicationFocus(System.Boolean focus)
-    // Offset: 0x1A2FC50
+    // Offset: 0x1A539E8
     void OnApplicationFocus(bool focus);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1A2FCE0
+    // Offset: 0x1A53A78
     void OnApplicationQuit();
     // public System.Void ReturnToLauncher()
-    // Offset: 0x1A2FD4C
+    // Offset: 0x1A53AE4
     void ReturnToLauncher();
     // static public System.Void PlatformUIConfirmQuit()
-    // Offset: 0x1A2FDA8
+    // Offset: 0x1A53B40
     static void PlatformUIConfirmQuit();
     // static public System.Void StaticInitializeMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x1A2C444
+    // Offset: 0x1A501DC
     static void StaticInitializeMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // static public System.Void StaticUpdateMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration, UnityEngine.GameObject gameObject, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x1A2EE38
+    // Offset: 0x1A52BD0
     static void StaticUpdateMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, ::UnityEngine::GameObject* gameObject, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void StaticShutdownMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x1A2EB54
+    // Offset: 0x1A528EC
     static void StaticShutdownMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
   }; // OVRManager
   #pragma pack(pop)

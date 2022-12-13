@@ -72,19 +72,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _bombsCountText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__bombsCountText();
     // public System.Void set_notesPerSecond(System.Single value)
-    // Offset: 0x150C6B8
+    // Offset: 0x1518010
     void set_notesPerSecond(float value);
     // public System.Void set_notesCount(System.Int32 value)
-    // Offset: 0x150C738
+    // Offset: 0x1518090
     void set_notesCount(int value);
     // public System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x150C77C
+    // Offset: 0x15180D4
     void set_obstaclesCount(int value);
     // public System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x150C7C0
+    // Offset: 0x1518118
     void set_bombsCount(int value);
     // public System.Void .ctor()
-    // Offset: 0x150C804
+    // Offset: 0x151815C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelParamsPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelParamsPanel::.ctor");

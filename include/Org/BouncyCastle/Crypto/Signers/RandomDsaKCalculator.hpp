@@ -68,23 +68,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public System.Boolean get_IsDeterministic()
-    // Offset: 0x164C11C
+    // Offset: 0x16761CC
     bool get_IsDeterministic();
     // public System.Void .ctor()
-    // Offset: 0x1645280
+    // Offset: 0x166F330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomDsaKCalculator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomDsaKCalculator*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x164C124
+    // Offset: 0x16761D4
     void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
-    // Offset: 0x164C12C
+    // Offset: 0x16761DC
     void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
-    // Offset: 0x164C198
+    // Offset: 0x1676248
     ::Org::BouncyCastle::Math::BigInteger* NextK();
   }; // Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator
   #pragma pack(pop)

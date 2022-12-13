@@ -30,7 +30,7 @@ namespace System::Net {
   class CredentialCache : public ::Il2CppObject {
     public:
     // static public System.Net.ICredentials get_DefaultCredentials()
-    // Offset: 0x1A9B0E4
+    // Offset: 0x1AACC64
     static ::System::Net::ICredentials* get_DefaultCredentials();
   }; // System.Net.CredentialCache
   #pragma pack(pop)

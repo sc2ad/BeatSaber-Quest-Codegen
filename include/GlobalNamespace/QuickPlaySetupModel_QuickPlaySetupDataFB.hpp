@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public QuickPlaySetupData[] data
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::QuickPlaySetupData*>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x141F8DC
+    // Offset: 0x142AFE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupModel::QuickPlaySetupDataFB* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupModel::QuickPlaySetupDataFB::.ctor");

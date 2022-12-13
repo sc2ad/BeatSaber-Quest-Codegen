@@ -31,10 +31,10 @@ namespace System::Security::Cryptography {
   class CAPI : public ::Il2CppObject {
     public:
     // static public System.String CryptFindOIDInfoNameFromKey(System.String key, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x1C8B744
+    // Offset: 0x1C800E8
     static ::StringW CryptFindOIDInfoNameFromKey(::StringW key, ::System::Security::Cryptography::OidGroup oidGroup);
     // static public System.String CryptFindOIDInfoKeyFromName(System.String name, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x1C8BF9C
+    // Offset: 0x1C80940
     static ::StringW CryptFindOIDInfoKeyFromName(::StringW name, ::System::Security::Cryptography::OidGroup oidGroup);
   }; // System.Security.Cryptography.CAPI
   #pragma pack(pop)

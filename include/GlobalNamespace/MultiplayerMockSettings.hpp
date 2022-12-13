@@ -102,41 +102,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private QuickPlaySetupData _quickPlaySetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public MockServerSettings get_quickplayServer()
-    // Offset: 0x13CC220
+    // Offset: 0x13EC0A0
     ::GlobalNamespace::MockServerSettings* get_quickplayServer();
     // public MockPlayerSettings get_localPlayer()
-    // Offset: 0x13CC228
+    // Offset: 0x13EC0A8
     ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
     // public QuickPlaySetupData get_quickPlaySetupData()
-    // Offset: 0x13CC2F4
+    // Offset: 0x13EC174
     ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
     // public System.Void set_quickPlaySetupData(QuickPlaySetupData value)
-    // Offset: 0x13CC2FC
+    // Offset: 0x13EC17C
     void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
     // public MultiplayerStatusData get_multiplayerStatusData()
-    // Offset: 0x13CC304
+    // Offset: 0x13EC184
     ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
     // public System.Void set_multiplayerStatusData(MultiplayerStatusData value)
-    // Offset: 0x13CC30C
+    // Offset: 0x13EC18C
     void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
     // public System.Collections.Generic.List`1<MockPlayerSettings> get_otherPlayers()
-    // Offset: 0x13CC314
+    // Offset: 0x13EC194
     ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x13CC31C
+    // Offset: 0x13EC19C
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x13CC324
+    // Offset: 0x13EC1A4
     void set_isEnabled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x13CC338
+    // Offset: 0x13EC1B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerMockSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerMockSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerMockSettings*, creationType>()));
     }
     // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0x13CC330
+    // Offset: 0x13EC1B0
     static ::GlobalNamespace::MultiplayerMockSettings* SharedSettings();
   }; // MultiplayerMockSettings
   #pragma pack(pop)

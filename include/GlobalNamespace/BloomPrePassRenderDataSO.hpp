@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly BloomPrePassRenderDataSO/Data data
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassRenderDataSO::Data*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1CC8430
+    // Offset: 0x1CD2FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRenderDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRenderDataSO::.ctor");

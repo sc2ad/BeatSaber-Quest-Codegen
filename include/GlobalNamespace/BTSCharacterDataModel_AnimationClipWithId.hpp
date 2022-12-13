@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AssetReference*& dyn__animationClipAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x1543244
+    // Offset: 0x154FED4
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_animationClipAssetReference()
-    // Offset: 0x154324C
+    // Offset: 0x154FEDC
     ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1543254
+    // Offset: 0x154FEE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::AnimationClipWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::.ctor");

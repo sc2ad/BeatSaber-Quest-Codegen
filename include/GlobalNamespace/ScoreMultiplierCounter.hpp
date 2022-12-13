@@ -60,23 +60,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _multiplierIncreaseMaxProgress
     [[deprecated("Use field access instead!")]] int& dyn__multiplierIncreaseMaxProgress();
     // public System.Int32 get_multiplier()
-    // Offset: 0x140B594
+    // Offset: 0x1416C8C
     int get_multiplier();
     // public System.Single get_normalizedProgress()
-    // Offset: 0x1409988
+    // Offset: 0x1415080
     float get_normalizedProgress();
     // public System.Void .ctor()
-    // Offset: 0x140A20C
+    // Offset: 0x1415904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreMultiplierCounter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreMultiplierCounter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreMultiplierCounter*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x140B18C
+    // Offset: 0x1416884
     void Reset();
     // public System.Boolean ProcessMultiplierEvent(ScoreMultiplierCounter/MultiplierEventType multiplierEventType)
-    // Offset: 0x14098E4
+    // Offset: 0x1414FDC
     bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter::MultiplierEventType multiplierEventType);
   }; // ScoreMultiplierCounter
   #pragma pack(pop)

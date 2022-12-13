@@ -43,7 +43,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Boolean MicrophoneAvailable
     [[deprecated("Use field access instead!")]] bool& dyn_MicrophoneAvailable();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A10E8C
+    // Offset: 0x1A34C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MicrophoneAvailabilityState* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MicrophoneAvailabilityState::.ctor");

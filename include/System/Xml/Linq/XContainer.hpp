@@ -72,71 +72,71 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.Object content
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_content();
     // public System.Xml.Linq.XNode get_LastNode()
-    // Offset: 0x2B20E9C
+    // Offset: 0x2B3E6EC
     ::System::Xml::Linq::XNode* get_LastNode();
     // System.Void .ctor(System.Xml.Linq.XContainer other)
-    // Offset: 0x2B20CA8
+    // Offset: 0x2B3E4F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XContainer* New_ctor(::System::Xml::Linq::XContainer* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XContainer*, creationType>(other)));
     }
     // public System.Void Add(System.Object content)
-    // Offset: 0x2B20FD0
+    // Offset: 0x2B3E820
     void Add(::Il2CppObject* content);
     // public System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode> Nodes()
-    // Offset: 0x2B21BE8
+    // Offset: 0x2B3F438
     ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* Nodes();
     // System.Void AddAttribute(System.Xml.Linq.XAttribute a)
-    // Offset: 0x2B21CA0
+    // Offset: 0x2B3F4F0
     void AddAttribute(::System::Xml::Linq::XAttribute* a);
     // System.Void AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
-    // Offset: 0x2B21CA4
+    // Offset: 0x2B3F4F4
     void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
     // System.Void AddContentSkipNotify(System.Object content)
-    // Offset: 0x2B21470
+    // Offset: 0x2B3ECC0
     void AddContentSkipNotify(::Il2CppObject* content);
     // System.Void AddNode(System.Xml.Linq.XNode n)
-    // Offset: 0x2B21874
+    // Offset: 0x2B3F0C4
     void AddNode(::System::Xml::Linq::XNode* n);
     // System.Void AddNodeSkipNotify(System.Xml.Linq.XNode n)
-    // Offset: 0x2B21CA8
+    // Offset: 0x2B3F4F8
     void AddNodeSkipNotify(::System::Xml::Linq::XNode* n);
     // System.Void AddString(System.String s)
-    // Offset: 0x2B218F4
+    // Offset: 0x2B3F144
     void AddString(::StringW s);
     // System.Void AddStringSkipNotify(System.String s)
-    // Offset: 0x2B21D28
+    // Offset: 0x2B3F578
     void AddStringSkipNotify(::StringW s);
     // System.Void AppendNode(System.Xml.Linq.XNode n)
-    // Offset: 0x2B21F1C
+    // Offset: 0x2B3F76C
     void AppendNode(::System::Xml::Linq::XNode* n);
     // System.Void AppendNodeSkipNotify(System.Xml.Linq.XNode n)
-    // Offset: 0x2B20DD8
+    // Offset: 0x2B3E628
     void AppendNodeSkipNotify(::System::Xml::Linq::XNode* n);
     // System.Void ConvertTextToNode()
-    // Offset: 0x2B21E70
+    // Offset: 0x2B3F6C0
     void ConvertTextToNode();
     // static System.String GetDateTimeString(System.DateTime value)
-    // Offset: 0x2B223B8
+    // Offset: 0x2B3FC08
     static ::StringW GetDateTimeString(::System::DateTime value);
     // static System.String GetStringValue(System.Object value)
-    // Offset: 0x2B1FB30
+    // Offset: 0x2B3D380
     static ::StringW GetStringValue(::Il2CppObject* value);
     // System.Void RemoveNode(System.Xml.Linq.XNode n)
-    // Offset: 0x2B22424
+    // Offset: 0x2B3FC74
     void RemoveNode(::System::Xml::Linq::XNode* n);
     // System.Void ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
-    // Offset: 0x2B225D0
+    // Offset: 0x2B3FE20
     void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
     // System.Void ValidateString(System.String s)
-    // Offset: 0x2B225D4
+    // Offset: 0x2B3FE24
     void ValidateString(::StringW s);
     // System.Void WriteContentTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2B225D8
+    // Offset: 0x2B3FE28
     void WriteContentTo(::System::Xml::XmlWriter* writer);
     // System.Void .ctor()
-    // Offset: 0x2B20CA0
+    // Offset: 0x2B3E4F0
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::.ctor()
     // Base method: System.Void XObject::.ctor()
@@ -146,7 +146,7 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XContainer*, creationType>()));
     }
     // override System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x2B222C4
+    // Offset: 0x2B3FB14
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::AppendText(System.Text.StringBuilder sb)
     void AppendText(::System::Text::StringBuilder* sb);

@@ -229,45 +229,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LevelCompletionResults _levelCompletionResults
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn__levelCompletionResults();
     // public MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState get_playerLevelEndState()
-    // Offset: 0x173B7F4
+    // Offset: 0x17553AC
     ::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState get_playerLevelEndState();
     // public MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndReason get_playerLevelEndReason()
-    // Offset: 0x173B7FC
+    // Offset: 0x17553B4
     ::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
     // public LevelCompletionResults get_levelCompletionResults()
-    // Offset: 0x173B804
+    // Offset: 0x17553BC
     ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
     // public System.Boolean get_hasAnyResults()
-    // Offset: 0x173B80C
+    // Offset: 0x17553C4
     bool get_hasAnyResults();
     // public System.Boolean get_failedOrGivenUp()
-    // Offset: 0x173B828
+    // Offset: 0x17553E0
     bool get_failedOrGivenUp();
     // public System.Void .ctor()
-    // Offset: 0x173B83C
+    // Offset: 0x17553F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelCompletionResults* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelCompletionResults*, creationType>()));
     }
     // public System.Void .ctor(MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState playerLevelEndState, MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndReason playerLevelEndReason, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x173B844
+    // Offset: 0x17553FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelCompletionResults* New_ctor(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason playerLevelEndReason, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLevelCompletionResults*, creationType>(playerLevelEndState, playerLevelEndReason, levelCompletionResults)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x173B884
+    // Offset: 0x175543C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public MultiplayerLevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x173B8F4
+    // Offset: 0x17554AC
     ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x173B9A0
+    // Offset: 0x1755558
     int CompareTo(::Il2CppObject* obj);
     // static public System.Boolean HasAnyResult(MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState playerLevelEndState)
-    // Offset: 0x173B81C
+    // Offset: 0x17553D4
     static bool HasAnyResult(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState);
   }; // MultiplayerLevelCompletionResults
   #pragma pack(pop)

@@ -113,44 +113,44 @@ namespace System::Net {
     // Get instance field reference: private System.EventHandler ConnectionClosed
     [[deprecated("Use field access instead!")]] ::System::EventHandler*& dyn_ConnectionClosed();
     // public System.String get_Name()
-    // Offset: 0x1B8C1D0
+    // Offset: 0x1BABDF4
     ::StringW get_Name();
     // System.Collections.Queue get_Queue()
-    // Offset: 0x1B8C1D8
+    // Offset: 0x1BABDFC
     ::System::Collections::Queue* get_Queue();
     // public System.Void add_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x1B8B69C
+    // Offset: 0x1BAB2C0
     void add_ConnectionClosed(::System::EventHandler* value);
     // public System.Void remove_ConnectionClosed(System.EventHandler value)
-    // Offset: 0x1B8B740
+    // Offset: 0x1BAB364
     void remove_ConnectionClosed(::System::EventHandler* value);
     // public System.Void .ctor(System.Net.ServicePoint sPoint, System.String name)
-    // Offset: 0x1B8B5F4
+    // Offset: 0x1BAB218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionGroup* New_ctor(::System::Net::ServicePoint* sPoint, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup*, creationType>(sPoint, name)));
     }
     // private System.Void OnConnectionClosed()
-    // Offset: 0x1B8B7E4
+    // Offset: 0x1BAB408
     void OnConnectionClosed();
     // public System.Void Close()
-    // Offset: 0x1B8B800
+    // Offset: 0x1BAB424
     void Close();
     // public System.Net.WebConnection GetConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x1B8BAAC
+    // Offset: 0x1BAB6D0
     ::System::Net::WebConnection* GetConnection(::System::Net::HttpWebRequest* request, ByRef<bool> created);
     // static private System.Void PrepareSharingNtlm(System.Net.WebConnection cnc, System.Net.HttpWebRequest request)
-    // Offset: 0x1B8BC8C
+    // Offset: 0x1BAB8B0
     static void PrepareSharingNtlm(::System::Net::WebConnection* cnc, ::System::Net::HttpWebRequest* request);
     // private System.Net.WebConnectionGroup/System.Net.ConnectionState FindIdleConnection()
-    // Offset: 0x1B8BFBC
+    // Offset: 0x1BABBE0
     ::System::Net::WebConnectionGroup::ConnectionState* FindIdleConnection();
     // private System.Net.WebConnection CreateOrReuseConnection(System.Net.HttpWebRequest request, out System.Boolean created)
-    // Offset: 0x1B8BB5C
+    // Offset: 0x1BAB780
     ::System::Net::WebConnection* CreateOrReuseConnection(::System::Net::HttpWebRequest* request, ByRef<bool> created);
     // System.Boolean TryRecycle(System.TimeSpan maxIdleTime, ref System.DateTime idleSince)
-    // Offset: 0x1B8C1E0
+    // Offset: 0x1BABE04
     bool TryRecycle(::System::TimeSpan maxIdleTime, ByRef<::System::DateTime> idleSince);
   }; // System.Net.WebConnectionGroup
   #pragma pack(pop)

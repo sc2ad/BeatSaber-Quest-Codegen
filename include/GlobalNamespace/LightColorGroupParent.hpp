@@ -39,7 +39,7 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IEditTimeValidated*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1511D28
+    // Offset: 0x151D680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupParent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupParent::.ctor");

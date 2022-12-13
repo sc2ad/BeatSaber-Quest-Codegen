@@ -31,22 +31,22 @@ namespace GlobalNamespace {
   class ConnectedPlayerHelpers : public ::Il2CppObject {
     public:
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D0CC8
+    // Offset: 0x15F5F70
     static bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean WasActiveAtLevelStart(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D0D88
+    // Offset: 0x15F6030
     static bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActive(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D0E48
+    // Offset: 0x15F60F0
     static bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean HasFinishedLevel(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D0F08
+    // Offset: 0x15F61B0
     static bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActiveOrFinished(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D0FC8
+    // Offset: 0x15F6270
     static bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsFailed(IConnectedPlayer connectedPlayer)
-    // Offset: 0x15D1000
+    // Offset: 0x15F62A8
     static bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // ConnectedPlayerHelpers
   #pragma pack(pop)

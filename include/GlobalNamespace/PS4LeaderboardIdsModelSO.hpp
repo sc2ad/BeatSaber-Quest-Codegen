@@ -16,6 +16,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: IDifficultyBeatmap
+  class IDifficultyBeatmap;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
@@ -66,20 +68,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, uint>*& dyn__leaderboardIdToPs4Id();
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0x137D748
+    // Offset: 0x1388BF4
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Void .ctor()
-    // Offset: 0x137D908
+    // Offset: 0x1388DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LeaderboardIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
-    // public System.Boolean GetPS4LeaderboardId(System.String leaderboardId, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0x137D894
-    bool GetPS4LeaderboardId(::StringW leaderboardId, ByRef<uint> ps4LeaderboardId);
+    // public System.Boolean GetPS4LeaderboardId(IDifficultyBeatmap difficultyBeatmap, out System.UInt32 ps4LeaderboardId)
+    // Offset: 0x1388D40
+    bool GetPS4LeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ByRef<uint> ps4LeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0x137D750
+    // Offset: 0x1388BFC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -104,11 +106,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::C
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId
 // Il2CppName: GetPS4LeaderboardId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4LeaderboardIdsModelSO::*)(::StringW, ByRef<uint>)>(&GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4LeaderboardIdsModelSO::*)(::GlobalNamespace::IDifficultyBeatmap*, ByRef<uint>)>(&GlobalNamespace::PS4LeaderboardIdsModelSO::GetPS4LeaderboardId)> {
   static const MethodInfo* get() {
-    static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* ps4LeaderboardId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO*), "GetPS4LeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, ps4LeaderboardId});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO*), "GetPS4LeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, ps4LeaderboardId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::OnEnable

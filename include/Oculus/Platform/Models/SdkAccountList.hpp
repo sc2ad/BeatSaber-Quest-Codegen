@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class SdkAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::SdkAccount*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1A13CE0
+    // Offset: 0x1A37A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SdkAccountList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::SdkAccountList::.ctor");

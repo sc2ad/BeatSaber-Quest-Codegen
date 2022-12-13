@@ -48,17 +48,17 @@ namespace HoudiniEngineUnity {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1A5A888
+    // Offset: 0x1A5A49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Vector3SerializationSurrogate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Vector3SerializationSurrogate*, creationType>()));
     }
     // private System.Void System.Runtime.Serialization.ISerializationSurrogate.GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1A5A5E8
+    // Offset: 0x1A5A1FC
     void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.ISerializationSurrogate.SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector selector)
-    // Offset: 0x1A5A6C8
+    // Offset: 0x1A5A2DC
     ::Il2CppObject* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISurrogateSelector* selector);
   }; // HoudiniEngineUnity.HEU_Vector3SerializationSurrogate
   #pragma pack(pop)

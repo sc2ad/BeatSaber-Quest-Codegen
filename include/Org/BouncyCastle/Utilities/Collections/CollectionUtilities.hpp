@@ -35,13 +35,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
   class CollectionUtilities : public ::Il2CppObject {
     public:
     // static public System.Collections.IDictionary ReadOnly(System.Collections.IDictionary d)
-    // Offset: 0x185EF38
+    // Offset: 0x185B614
     static ::System::Collections::IDictionary* ReadOnly(::System::Collections::IDictionary* d);
     // static public System.Object RequireNext(System.Collections.IEnumerator e)
-    // Offset: 0x185EF9C
+    // Offset: 0x185B678
     static ::Il2CppObject* RequireNext(::System::Collections::IEnumerator* e);
     // static public System.String ToString(System.Collections.IEnumerable c)
-    // Offset: 0x185F0E0
+    // Offset: 0x185B7BC
     static ::StringW ToString(::System::Collections::IEnumerable* c);
   }; // Org.BouncyCastle.Utilities.Collections.CollectionUtilities
   #pragma pack(pop)

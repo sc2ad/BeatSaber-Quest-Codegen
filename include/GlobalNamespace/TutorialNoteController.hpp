@@ -105,25 +105,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cutAngleTolerance
     [[deprecated("Use field access instead!")]] float& dyn__cutAngleTolerance();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x13BD028
+    // Offset: 0x13C84E4
     ::GlobalNamespace::NoteMovement* get_noteMovement();
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0x13BD030
+    // Offset: 0x13C84EC
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
     // public NoteData/GameplayType get_gameplayType()
-    // Offset: 0x13BD038
+    // Offset: 0x13C84F4
     ::GlobalNamespace::NoteData::GameplayType get_gameplayType();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutAngleTolerance, System.Single uniformScale)
-    // Offset: 0x13BB46C
+    // Offset: 0x13C6928
     void Init(::GlobalNamespace::NoteData* noteData, float worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float cutAngleTolerance, float uniformScale);
     // private System.Void HandleBeforeNoteWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x13BD2C0
+    // Offset: 0x13C877C
     void HandleBeforeNoteWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCoreWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x13BD3D0
+    // Offset: 0x13C888C
     void HandleCoreWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // public System.Void .ctor()
-    // Offset: 0x13BD840
+    // Offset: 0x13C8CFC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -133,27 +133,27 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoteController*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x13BD040
+    // Offset: 0x13C84FC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x13BD114
+    // Offset: 0x13C85D0
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x13BD268
+    // Offset: 0x13C8724
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // protected override System.Void HiddenStateDidChange(System.Boolean hide)
-    // Offset: 0x13BD80C
+    // Offset: 0x13C8CC8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::HiddenStateDidChange(System.Boolean hide)
     void HiddenStateDidChange(bool hide);
     // public override System.Void Pause(System.Boolean pause)
-    // Offset: 0x13BD830
+    // Offset: 0x13C8CEC
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Pause(System.Boolean pause)
     void Pause(bool pause);

@@ -47,20 +47,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__12_2
     static void _set_$$9__12_2(::System::Func_2<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // static private System.Void .cctor()
-    // Offset: 0x140DB64
+    // Offset: 0x141925C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x140DBC8
+    // Offset: 0x14192C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::$$c*, creationType>()));
     }
     // HMUI.IconSegmentedControl/HMUI.DataItem <Setup>b__12_1(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x140DBD0
+    // Offset: 0x14192C8
     ::HMUI::IconSegmentedControl::DataItem* $Setup$b__12_1(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // SelectLevelCategoryViewController/LevelCategory <Setup>b__12_2(SelectLevelCategoryViewController/LevelCategoryInfo x)
-    // Offset: 0x140DC5C
+    // Offset: 0x1419354
     ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__12_2(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
   }; // SelectLevelCategoryViewController/<>c
   #pragma pack(pop)

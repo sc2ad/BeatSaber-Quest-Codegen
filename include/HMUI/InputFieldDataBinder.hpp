@@ -92,7 +92,7 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*& dyn__bindings();
     // public System.Void .ctor()
-    // Offset: 0x170386C
+    // Offset: 0x16F11CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldDataBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::.ctor");
@@ -119,7 +119,7 @@ namespace HMUI {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
     }
     // public System.Void ClearBindings()
-    // Offset: 0x17038E0
+    // Offset: 0x16F1240
     void ClearBindings();
   }; // HMUI.InputFieldDataBinder
   #pragma pack(pop)

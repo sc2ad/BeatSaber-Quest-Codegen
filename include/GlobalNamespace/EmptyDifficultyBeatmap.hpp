@@ -126,38 +126,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapData _beatmapData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // public IBeatmapLevel get_level()
-    // Offset: 0x1386998
+    // Offset: 0x1391E54
     ::GlobalNamespace::IBeatmapLevel* get_level();
     // public IDifficultyBeatmapSet get_parentDifficultyBeatmapSet()
-    // Offset: 0x13869A0
+    // Offset: 0x1391E5C
     ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x13869A8
+    // Offset: 0x1391E64
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x13869B0
+    // Offset: 0x1391E6C
     int get_difficultyRank();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x13869B8
+    // Offset: 0x1391E74
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x13869C0
+    // Offset: 0x1391E7C
     float get_noteJumpStartBeatOffset();
     // public IBeatmapDataBasicInfo get_beatmapDataBasicInfo()
-    // Offset: 0x13869C8
+    // Offset: 0x1391E84
     ::GlobalNamespace::IBeatmapDataBasicInfo* get_beatmapDataBasicInfo();
     // public System.Void .ctor()
-    // Offset: 0x1386BD0
+    // Offset: 0x139208C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmptyDifficultyBeatmap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmptyDifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmptyDifficultyBeatmap*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<IBeatmapDataBasicInfo> GetBeatmapDataBasicInfoAsync()
-    // Offset: 0x13869D0
+    // Offset: 0x1391E8C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
     // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapDataAsync(EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1386AD0
+    // Offset: 0x1391F8C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // EmptyDifficultyBeatmap
   #pragma pack(pop)

@@ -63,32 +63,32 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_algorithmOid();
     // public Org.BouncyCastle.Crypto.Parameters.DHParameters get_Parameters()
-    // Offset: 0x163C688
+    // Offset: 0x1666738
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters)
-    // Offset: 0x163C5BC
+    // Offset: 0x166666C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters)));
     }
     // protected System.Void .ctor(System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.DHParameters parameters, Org.BouncyCastle.Asn1.DerObjectIdentifier algorithmOid)
-    // Offset: 0x163C64C
+    // Offset: 0x16666FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyParameters*, creationType>(isPrivate, parameters, algorithmOid)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHKeyParameters other)
-    // Offset: 0x163C740
+    // Offset: 0x16667F0
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x163C690
+    // Offset: 0x1666740
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Boolean AsymmetricKeyParameter::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x163C798
+    // Offset: 0x1666848
     // Implemented from: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
     // Base method: System.Int32 AsymmetricKeyParameter::GetHashCode()
     int GetHashCode();

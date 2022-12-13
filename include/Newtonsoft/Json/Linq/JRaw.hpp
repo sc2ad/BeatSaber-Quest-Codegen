@@ -41,17 +41,17 @@ namespace Newtonsoft::Json::Linq {
   class JRaw : public ::Newtonsoft::Json::Linq::JValue {
     public:
     // public System.Void .ctor(Newtonsoft.Json.Linq.JRaw other)
-    // Offset: 0x1798FE4
+    // Offset: 0x17A171C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JRaw*, creationType>(other)));
     }
     // static public Newtonsoft.Json.Linq.JRaw Create(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x1799108
+    // Offset: 0x17A1840
     static ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
     // public System.Void .ctor(System.Object rawJson)
-    // Offset: 0x179907C
+    // Offset: 0x17A17B4
     // Implemented from: Newtonsoft.Json.Linq.JValue
     // Base method: System.Void JValue::.ctor(System.Object rawJson)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace Newtonsoft::Json::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<JRaw*, creationType>(rawJson)));
     }
     // override Newtonsoft.Json.Linq.JToken CloneToken()
-    // Offset: 0x179936C
+    // Offset: 0x17A1AA4
     // Implemented from: Newtonsoft.Json.Linq.JValue
     // Base method: Newtonsoft.Json.Linq.JToken JValue::CloneToken()
     ::Newtonsoft::Json::Linq::JToken* CloneToken();

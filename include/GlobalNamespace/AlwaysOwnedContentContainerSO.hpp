@@ -71,23 +71,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::StringW>*& dyn__alwaysOwnedPacksIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
-    // Offset: 0x1531744
+    // Offset: 0x153E3A0
     ::System::Collections::Generic::HashSet_1<::StringW>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
-    // Offset: 0x15319F0
+    // Offset: 0x153E64C
     ::System::Collections::Generic::HashSet_1<::StringW>* get_alwaysOwnedPacksIds();
     // public System.Void .ctor()
-    // Offset: 0x1532638
+    // Offset: 0x153F294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlwaysOwnedContentContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlwaysOwnedContentContainerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysOwnedContentContainerSO*, creationType>()));
     }
     // private System.Void InitAlwaysOwnedItems()
-    // Offset: 0x153215C
+    // Offset: 0x153EDB8
     void InitAlwaysOwnedItems();
     // protected override System.Void OnEnable()
-    // Offset: 0x1532610
+    // Offset: 0x153F26C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

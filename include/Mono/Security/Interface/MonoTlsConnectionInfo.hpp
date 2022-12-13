@@ -60,29 +60,29 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.String <PeerDomainName>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
-    // Offset: 0x23B2148
+    // Offset: 0x23BF584
     ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
-    // Offset: 0x23B2150
+    // Offset: 0x23BF58C
     void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
-    // Offset: 0x23B2158
+    // Offset: 0x23BF594
     ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
-    // Offset: 0x23B2160
+    // Offset: 0x23BF59C
     void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
-    // Offset: 0x23B2168
+    // Offset: 0x23BF5A4
     void set_PeerDomainName(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x23B2214
+    // Offset: 0x23BF650
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsConnectionInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsConnectionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsConnectionInfo*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x23B2170
+    // Offset: 0x23BF5AC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

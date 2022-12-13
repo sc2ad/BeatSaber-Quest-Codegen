@@ -65,17 +65,17 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Boolean autoReleaseHandle
     [[deprecated("Use field access instead!")]] bool& dyn_autoReleaseHandle();
     // public System.Void .ctor()
-    // Offset: 0x18D7C04
+    // Offset: 0x18FA630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass124_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass124_0*, creationType>()));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>> <UpdateCatalogs>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> depOp)
-    // Offset: 0x18D8E5C
+    // Offset: 0x18FB888
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> $UpdateCatalogs$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> depOp);
     // System.Void <UpdateCatalogs>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle o)
-    // Offset: 0x18D8EA8
+    // Offset: 0x18FB8D4
     void $UpdateCatalogs$b__1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass124_0
   #pragma pack(pop)

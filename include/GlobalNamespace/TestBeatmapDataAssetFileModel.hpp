@@ -88,23 +88,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& dyn_levelDataAssetDownloadUpdateEvent();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x13B446C
+    // Offset: 0x13BF928
     void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x13B4510
+    // Offset: 0x13BF9CC
     void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void .ctor()
-    // Offset: 0x13B47D4
+    // Offset: 0x13BFC90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestBeatmapDataAssetFileModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestBeatmapDataAssetFileModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestBeatmapDataAssetFileModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13B45B4
+    // Offset: 0x13BFA70
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13B46D4
+    // Offset: 0x13BFB90
     ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::System::Threading::CancellationToken cancellationToken);
   }; // TestBeatmapDataAssetFileModel
   #pragma pack(pop)

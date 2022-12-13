@@ -57,20 +57,20 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<UnityEngine.Camera> <>9__346_0
     static void _set_$$9__346_0(::System::Comparison_1<::UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x175A7FC
+    // Offset: 0x17733B4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x175A860
+    // Offset: 0x1773418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRManager_$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRManager_$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager_$$c*, creationType>()));
     }
     // System.String <InitOVRManager>b__337_0(System.Single f)
-    // Offset: 0x175A868
+    // Offset: 0x1773420
     ::StringW $InitOVRManager$b__337_0(float f);
     // System.Int32 <FindMainCamera>b__346_0(UnityEngine.Camera c0, UnityEngine.Camera c1)
-    // Offset: 0x175A890
+    // Offset: 0x1773448
     int $FindMainCamera$b__346_0(::UnityEngine::Camera* c0, ::UnityEngine::Camera* c1);
   }; // OVRManager/<>c
   #pragma pack(pop)

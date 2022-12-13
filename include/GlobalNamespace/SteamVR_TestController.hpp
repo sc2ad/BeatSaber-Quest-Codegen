@@ -89,26 +89,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Transform pointer
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_pointer();
     // public System.Void .ctor()
-    // Offset: 0x18C9004
+    // Offset: 0x18EBA30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TestController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TestController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TestController*, creationType>()));
     }
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x18C7F28
+    // Offset: 0x18EA954
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0x18C852C
+    // Offset: 0x18EAF58
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18C85F0
+    // Offset: 0x18EB01C
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x18C80DC
+    // Offset: 0x18EAB08
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0x18C86B4
+    // Offset: 0x18EB0E0
     void Update();
   }; // SteamVR_TestController
   #pragma pack(pop)

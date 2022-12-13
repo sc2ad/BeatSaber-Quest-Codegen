@@ -61,17 +61,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ISigner _signer
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::ISigner*& dyn__signer();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters privateKey)
-    // Offset: 0x26C93C0
+    // Offset: 0x26A7610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateUtility::RSACertificateEncryptionProvider* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateUtility::RSACertificateEncryptionProvider*, creationType>(privateKey)));
     }
     // public System.Void Dispose()
-    // Offset: 0x26CAC10
+    // Offset: 0x26A8E60
     void Dispose();
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x26CAC14
+    // Offset: 0x26A8E64
     ::ArrayW<uint8_t> SignData(::ArrayW<uint8_t> data, int offset, int length);
   }; // X509CertificateUtility/RSACertificateEncryptionProvider
   #pragma pack(pop)

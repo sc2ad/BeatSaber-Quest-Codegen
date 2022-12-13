@@ -73,7 +73,7 @@ namespace OnlineServices {
     // Nested type: ::OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14
     struct $GetLeaderboardEntriesAsync$d__14;
     public:
-    // [InjectAttribute] Offset: 0x1128174
+    // [InjectAttribute] Offset: 0x11302CC
     // private readonly HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x18
@@ -128,44 +128,44 @@ namespace OnlineServices {
     // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
     [[deprecated("Use field access instead!")]] ::OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Boolean get_initialized()
-    // Offset: 0x137A77C
+    // Offset: 0x1385C28
     bool get_initialized();
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x137A4EC
+    // Offset: 0x1385998
     void add_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x137A590
+    // Offset: 0x1385A3C
     void remove_platformServicesAvailabilityInfoChangedEvent(::System::Action_1<::OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x137A634
+    // Offset: 0x1385AE0
     void add_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x137A6D8
+    // Offset: 0x1385B84
     void remove_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x137AA58
+    // Offset: 0x1385F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::ServerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerManager*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x137A784
+    // Offset: 0x1385C30
     void Init();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x137A8AC
+    // Offset: 0x1385D58
     ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.LeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137A8D8
+    // Offset: 0x1385D84
     ::System::Threading::Tasks::Task_1<::OnlineServices::LeaderboardEntriesResult*>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0x137AA04
+    // Offset: 0x1385EB0
     void SendLevelScoreResult(::OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // private System.Void <Init>b__12_0(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x137AA60
+    // Offset: 0x1385F0C
     void $Init$b__12_0(::OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void <Init>b__12_1(System.String leaderboardId)
-    // Offset: 0x137AAD4
+    // Offset: 0x1385F80
     void $Init$b__12_1(::StringW leaderboardId);
   }; // OnlineServices.ServerManager
   #pragma pack(pop)

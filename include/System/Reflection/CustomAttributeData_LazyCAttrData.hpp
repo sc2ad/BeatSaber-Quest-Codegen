@@ -59,7 +59,7 @@ namespace System::Reflection {
     // Get instance field reference: System.UInt32 data_length
     [[deprecated("Use field access instead!")]] uint& dyn_data_length();
     // public System.Void .ctor()
-    // Offset: 0x22E5FC0
+    // Offset: 0x22CB080
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

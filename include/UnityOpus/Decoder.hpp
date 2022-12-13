@@ -88,23 +88,23 @@ namespace UnityOpus {
     // Get instance field reference: private System.Boolean disposedValue
     [[deprecated("Use field access instead!")]] bool& dyn_disposedValue();
     // public System.Void .ctor(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels)
-    // Offset: 0x16613D4
+    // Offset: 0x1655DB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Decoder*, creationType>(samplingFrequency, channels)));
     }
     // public System.Int32 Decode(System.Byte[] data, System.Int32 dataLength, System.Single[] pcm, System.Int32 decodeFec)
-    // Offset: 0x166159C
+    // Offset: 0x1655F80
     int Decode(::ArrayW<uint8_t> data, int dataLength, ::ArrayW<float> pcm, int decodeFec);
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x16617E8
+    // Offset: 0x16561CC
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x166194C
+    // Offset: 0x1656330
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x16618D8
+    // Offset: 0x16562BC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

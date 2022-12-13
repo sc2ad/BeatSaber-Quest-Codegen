@@ -70,28 +70,28 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::LevelSelectionFlowCoordinator::State
     class State;
     public:
-    // [InjectAttribute] Offset: 0x1120050
+    // [InjectAttribute] Offset: 0x11281A8
     // protected readonly PlayerDataModel playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120060
+    // [InjectAttribute] Offset: 0x11281B8
     // protected readonly LevelSelectionNavigationController levelSelectionNavigationController
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelSelectionNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120070
+    // [InjectAttribute] Offset: 0x11281C8
     // private readonly SearchFilterParamsViewController _searchFilterParamsViewController
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::SearchFilterParamsViewController* searchFilterParamsViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SearchFilterParamsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120080
+    // [InjectAttribute] Offset: 0x11281D8
     // private readonly LevelSearchViewController _levelSearchViewController
     // Size: 0x8
     // Offset: 0xC0
@@ -116,126 +116,126 @@ namespace GlobalNamespace {
     // Get instance field reference: private LevelSelectionFlowCoordinator/State _startState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelSelectionFlowCoordinator::State*& dyn__startState();
     // protected System.Boolean get_isInRootViewController()
-    // Offset: 0x150D9B0
+    // Offset: 0x1519308
     bool get_isInRootViewController();
     // protected SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x150DA34
+    // Offset: 0x151938C
     ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // protected IBeatmapLevelPack get_selectedBeatmapLevelPack()
-    // Offset: 0x150DA74
+    // Offset: 0x15193CC
     ::GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
     // protected IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x150DAB0
+    // Offset: 0x1519408
     ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
     // protected IPreviewBeatmapLevel get_selectedBeatmapLevel()
-    // Offset: 0x150DAF4
+    // Offset: 0x151944C
     ::GlobalNamespace::IPreviewBeatmapLevel* get_selectedBeatmapLevel();
     // protected HMUI.ViewController get_initialTopScreenViewController()
-    // Offset: 0x150DB38
+    // Offset: 0x1519490
     ::HMUI::ViewController* get_initialTopScreenViewController();
     // protected HMUI.ViewController get_initialLeftScreenViewController()
-    // Offset: 0x150DB40
+    // Offset: 0x1519498
     ::HMUI::ViewController* get_initialLeftScreenViewController();
     // protected HMUI.ViewController get_initialRightScreenViewController()
-    // Offset: 0x150DB48
+    // Offset: 0x15194A0
     ::HMUI::ViewController* get_initialRightScreenViewController();
     // protected System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x150DB50
+    // Offset: 0x15194A8
     bool get_showBackButtonForMainViewController();
     // protected System.Boolean get_hidePacksIfOneOrNone()
-    // Offset: 0x150DB58
+    // Offset: 0x15194B0
     bool get_hidePacksIfOneOrNone();
     // protected System.Boolean get_hidePracticeButton()
-    // Offset: 0x150DB60
+    // Offset: 0x15194B8
     bool get_hidePracticeButton();
     // protected System.String get_actionButtonText()
-    // Offset: 0x150DB68
+    // Offset: 0x15194C0
     ::StringW get_actionButtonText();
     // protected System.String get_mainTitle()
-    // Offset: 0x150DBB4
+    // Offset: 0x151950C
     ::StringW get_mainTitle();
     // protected System.Boolean get_enableCustomLevels()
-    // Offset: 0x150DBBC
+    // Offset: 0x1519514
     bool get_enableCustomLevels();
     // protected SongPackMask get_songPackMask()
-    // Offset: 0x150DBC4
+    // Offset: 0x151951C
     ::GlobalNamespace::SongPackMask get_songPackMask();
     // protected BeatmapDifficultyMask get_allowedBeatmapDifficultyMask()
-    // Offset: 0x150DBCC
+    // Offset: 0x1519524
     ::GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
     // protected BeatmapCharacteristicSO[] get_notAllowedCharacteristics()
-    // Offset: 0x150DBD4
+    // Offset: 0x151952C
     ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> get_notAllowedCharacteristics();
     // protected System.Void .ctor()
-    // Offset: 0x150ECD8
+    // Offset: 0x151A630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSelectionFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelSelectionFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelSelectionFlowCoordinator*, creationType>()));
     }
     // protected System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x150DC20
+    // Offset: 0x1519578
     void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x150DC24
+    // Offset: 0x151957C
     void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected System.Void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x150DC28
+    // Offset: 0x1519580
     void LevelSelectionFlowCoordinatorTopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);
     // protected System.Void ActionButtonWasPressed()
-    // Offset: 0x150DD28
+    // Offset: 0x1519680
     void ActionButtonWasPressed();
     // protected System.Void PracticeButtonWasPressed()
-    // Offset: 0x150DD2C
+    // Offset: 0x1519684
     void PracticeButtonWasPressed();
     // protected System.Void SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
-    // Offset: 0x150DD30
+    // Offset: 0x1519688
     void SelectionDidChange(::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
     // public System.Void Setup(LevelSelectionFlowCoordinator/State state)
-    // Offset: 0x150DD34
+    // Offset: 0x151968C
     void Setup(::GlobalNamespace::LevelSelectionFlowCoordinator::State* state);
     // private System.Void HandleLevelSelectionNavigationControllerDidSelectPack(LevelSelectionNavigationController viewController, IBeatmapLevelPack pack)
-    // Offset: 0x150EAC4
+    // Offset: 0x151A41C
     void HandleLevelSelectionNavigationControllerDidSelectPack(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void HandleSearchFilterParamsViewControllerDidFinish(SearchFilterParamsViewController viewController, LevelFilterParams levelFilterParams)
-    // Offset: 0x150EADC
+    // Offset: 0x151A434
     void HandleSearchFilterParamsViewControllerDidFinish(::GlobalNamespace::SearchFilterParamsViewController* viewController, ::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void HandleLevelSearchViewControllerDidPressSearchButton(LevelSearchViewController viewController, LevelFilterParams levelFilterParams)
-    // Offset: 0x150EB24
+    // Offset: 0x151A47C
     void HandleLevelSearchViewControllerDidPressSearchButton(::GlobalNamespace::LevelSearchViewController* viewController, ::GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void HandleLevelSelectionNavigationControllerDidPressActionButton(LevelSelectionNavigationController viewController)
-    // Offset: 0x150EB70
+    // Offset: 0x151A4C8
     void HandleLevelSelectionNavigationControllerDidPressActionButton(::GlobalNamespace::LevelSelectionNavigationController* viewController);
     // protected System.Void HandleLevelSelectionNavigationControllerDidPressPracticeButton(LevelSelectionNavigationController viewController, IBeatmapLevel level)
-    // Offset: 0x150EB80
+    // Offset: 0x151A4D8
     void HandleLevelSelectionNavigationControllerDidPressPracticeButton(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IBeatmapLevel* level);
     // protected System.Void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(LevelSelectionNavigationController viewController, IDifficultyBeatmap beatmap)
-    // Offset: 0x150EB90
+    // Offset: 0x151A4E8
     void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
     // protected System.Void HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent(LevelSelectionNavigationController viewController, StandardLevelDetailViewController/ContentType contentType)
-    // Offset: 0x150EBA4
+    // Offset: 0x151A4FC
     void HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent(::GlobalNamespace::LevelSelectionNavigationController* viewController, ::GlobalNamespace::StandardLevelDetailViewController::ContentType contentType);
     // protected System.Void Refresh()
-    // Offset: 0x150EBFC
+    // Offset: 0x151A554
     void Refresh();
     // protected System.Boolean IsMainViewController(HMUI.ViewController viewController)
-    // Offset: 0x150EC40
+    // Offset: 0x151A598
     bool IsMainViewController(::HMUI::ViewController* viewController);
     // protected System.Void PresentMainViewController(System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x150ECBC
+    // Offset: 0x151A614
     void PresentMainViewController(::System::Action* finishedCallback, ::HMUI::ViewController::AnimationType animationType);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x150DD3C
+    // Offset: 0x1519694
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x150E524
+    // Offset: 0x1519E7C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x150EAB4
+    // Offset: 0x151A40C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);

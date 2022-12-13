@@ -73,7 +73,7 @@ namespace Ice {
     ::GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectAttribute] Offset: 0x1144AB8
+    // [InjectAttribute] Offset: 0x114DC20
     // private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -114,29 +114,29 @@ namespace Ice {
     // Get instance field reference: private Tweening.ColorTween _fadeOutTween
     [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__fadeOutTween();
     // public System.Void .ctor()
-    // Offset: 0x2B51A34
+    // Offset: 0x2B76B5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTile* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTile*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2B5154C
+    // Offset: 0x2B76674
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x2B51780
+    // Offset: 0x2B768A8
     void OnDestroy();
     // public System.Void HighlightWithColor(UnityEngine.Color color, System.Single fadeInDuration, System.Single fadeOutDuration)
-    // Offset: 0x2B51830
+    // Offset: 0x2B76958
     void HighlightWithColor(::UnityEngine::Color color, float fadeInDuration, float fadeOutDuration);
     // private System.Void HandleFadeInTweenOnCompleted()
-    // Offset: 0x2B5193C
+    // Offset: 0x2B76A64
     void HandleFadeInTweenOnCompleted();
     // private System.Void HandleFadeOutTweenOnCompleted()
-    // Offset: 0x2B51960
+    // Offset: 0x2B76A88
     void HandleFadeOutTweenOnCompleted();
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x2B519C4
+    // Offset: 0x2B76AEC
     void SetColor(::UnityEngine::Color color);
   }; // Ice.FloorLightTile
   #pragma pack(pop)

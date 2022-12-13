@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::ClearRecommendedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x173926C
+    // Offset: 0x1752E24
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

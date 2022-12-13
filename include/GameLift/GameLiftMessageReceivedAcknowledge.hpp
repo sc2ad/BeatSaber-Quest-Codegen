@@ -47,10 +47,10 @@ namespace GameLift {
       return reinterpret_cast<::GameLift::IGameLiftMessage*>(this);
     }
     // static public PacketPool`1<GameLift.GameLiftMessageReceivedAcknowledge> get_pool()
-    // Offset: 0x16C8FAC
+    // Offset: 0x16C0788
     static ::GlobalNamespace::PacketPool_1<::GameLift::GameLiftMessageReceivedAcknowledge*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16C9050
+    // Offset: 0x16C082C
     // Implemented from: BGNet.Core.Messages.BaseAcknowledgeMessage
     // Base method: System.Void BaseAcknowledgeMessage::.ctor()
     // Base method: System.Void BaseResponse::.ctor()
@@ -60,7 +60,7 @@ namespace GameLift {
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftMessageReceivedAcknowledge*, creationType>()));
     }
     // public override System.Void Release()
-    // Offset: 0x16C8FF4
+    // Offset: 0x16C07D0
     // Implemented from: BGNet.Core.Messages.BaseResponse
     // Base method: System.Void BaseResponse::Release()
     void Release();

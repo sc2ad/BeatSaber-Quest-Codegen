@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1118300
+    // [InjectAttribute] Offset: 0x1121458
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x20
@@ -60,17 +60,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // public System.Void .ctor()
-    // Offset: 0x146881C
+    // Offset: 0x1474F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLeaderboardPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLeaderboardPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLeaderboardPanelController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14681E4
+    // Offset: 0x14748F0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1468288
+    // Offset: 0x1474994
     void Update();
   }; // MultiplayerLeaderboardPanelController
   #pragma pack(pop)

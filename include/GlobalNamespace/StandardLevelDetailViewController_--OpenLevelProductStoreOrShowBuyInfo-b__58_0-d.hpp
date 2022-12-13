@@ -77,10 +77,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/IsPackBetterBuyThanLevelResult> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1481378
+    // Offset: 0x148DBE4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14816B4
+    // Offset: 0x148DF20
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // StandardLevelDetailViewController/<<OpenLevelProductStoreOrShowBuyInfo>b__58_0>d
   // WARNING Not writing size check since size may be invalid!

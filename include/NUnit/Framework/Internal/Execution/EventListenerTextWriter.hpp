@@ -55,32 +55,32 @@ namespace NUnit::Framework::Internal::Execution {
     // Get instance field reference: private System.String _streamName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__streamName();
     // public System.Void .ctor(System.String streamName, System.IO.TextWriter defaultWriter)
-    // Offset: 0x1D5C904
+    // Offset: 0x1D664A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventListenerTextWriter* New_ctor(::StringW streamName, ::System::IO::TextWriter* defaultWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Execution::EventListenerTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventListenerTextWriter*, creationType>(streamName, defaultWriter)));
     }
     // private System.Boolean TrySendToListener(System.String text)
-    // Offset: 0x1D5C9DC
+    // Offset: 0x1D66580
     bool TrySendToListener(::StringW text);
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x1D5CBF8
+    // Offset: 0x1D6679C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     ::System::Text::Encoding* get_Encoding();
     // public override System.Void Write(System.Char aChar)
-    // Offset: 0x1D5C984
+    // Offset: 0x1D66528
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char aChar)
     void Write(::Il2CppChar aChar);
     // public override System.Void Write(System.String aString)
-    // Offset: 0x1D5CB38
+    // Offset: 0x1D666DC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String aString)
     void Write(::StringW aString);
     // public override System.Void WriteLine(System.String aString)
-    // Offset: 0x1D5CB88
+    // Offset: 0x1D6672C
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String aString)
     void WriteLine(::StringW aString);

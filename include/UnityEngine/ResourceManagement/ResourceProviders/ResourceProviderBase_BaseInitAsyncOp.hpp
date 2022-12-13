@@ -47,10 +47,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Func`1<System.Boolean> m_CallBack
     [[deprecated("Use field access instead!")]] ::System::Func_1<bool>*& dyn_m_CallBack();
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x1F73EE4
+    // Offset: 0x1F7D914
     void Init(::System::Func_1<bool>* callback);
     // public System.Void .ctor()
-    // Offset: 0x1F73E60
+    // Offset: 0x1F7D890
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,12 +59,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::BaseInitAsyncOp*, creationType>()));
     }
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x1F73EEC
+    // Offset: 0x1F7D91C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x1F73F64
+    // Offset: 0x1F7D994
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

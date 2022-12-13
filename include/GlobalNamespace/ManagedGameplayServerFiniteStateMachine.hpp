@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   class ManagedGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {
     public:
     // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x16CF4B4
+    // Offset: 0x16C6C90
     // Implemented from: GameplayServerFiniteStateMachine
     // Base method: System.Void GameplayServerFiniteStateMachine::.ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

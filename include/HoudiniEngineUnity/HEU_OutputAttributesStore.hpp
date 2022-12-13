@@ -51,20 +51,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& dyn__attributes();
     // public System.Void .ctor()
-    // Offset: 0x1B0A12C
+    // Offset: 0x1B29BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_OutputAttributesStore* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_OutputAttributesStore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_OutputAttributesStore*, creationType>()));
     }
     // public System.Void SetAttribute(HoudiniEngineUnity.HEU_OutputAttribute attribute)
-    // Offset: 0x1B09F5C
+    // Offset: 0x1B299F4
     void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
     // public HoudiniEngineUnity.HEU_OutputAttribute GetAttribute(System.String name)
-    // Offset: 0x1B0A05C
+    // Offset: 0x1B29AF4
     ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
     // public System.Void Clear()
-    // Offset: 0x1B0A0D4
+    // Offset: 0x1B29B6C
     void Clear();
   }; // HoudiniEngineUnity.HEU_OutputAttributesStore
   #pragma pack(pop)

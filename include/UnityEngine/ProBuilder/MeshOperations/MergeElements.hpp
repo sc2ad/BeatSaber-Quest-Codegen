@@ -50,13 +50,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: ::UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> MergePairs(UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face>> pairs, System.Boolean collapseCoincidentVertices)
-    // Offset: 0x1CEF81C
+    // Offset: 0x1CFA3C0
     static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs, bool collapseCoincidentVertices);
     // static public UnityEngine.ProBuilder.Face Merge(UnityEngine.ProBuilder.ProBuilderMesh target, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1CF0180
+    // Offset: 0x1CFAD24
     static ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static System.Void CollapseCoincidentVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x1CEFD50
+    // Offset: 0x1CFA8F4
     static void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements
   #pragma pack(pop)

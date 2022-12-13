@@ -39,36 +39,36 @@ namespace RootMotion::FinalIK {
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1140EE4
+    // [TooltipAttribute] Offset: 0x114A04C
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1140F1C
+    // [TooltipAttribute] Offset: 0x114A084
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     ::UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x1140F54
+    // [TooltipAttribute] Offset: 0x114A0BC
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1140F8C
-    // [RangeAttribute] Offset: 0x1140F8C
+    // [TooltipAttribute] Offset: 0x114A0F4
+    // [RangeAttribute] Offset: 0x114A0F4
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1140FE4
+    // [TooltipAttribute] Offset: 0x114A14C
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -87,17 +87,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean fixYAxis
     [[deprecated("Use field access instead!")]] bool& dyn_fixYAxis();
     // public System.Void .ctor()
-    // Offset: 0x2039BD4
+    // Offset: 0x205BC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::CameraPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::CameraPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CameraPosition*, creationType>()));
     }
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x203974C
+    // Offset: 0x205B798
     ::UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x20398F4
+    // Offset: 0x205B940
     bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float> error);
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition
   #pragma pack(pop)

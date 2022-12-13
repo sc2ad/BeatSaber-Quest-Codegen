@@ -88,20 +88,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _referenceCount
     [[deprecated("Use field access instead!")]] int& dyn__referenceCount();
     // protected System.Void .ctor()
-    // Offset: 0x29F6C88
+    // Offset: 0x2A103B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PoolableSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableSerializable*, creationType>()));
     }
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x29F8508
+    // Offset: 0x2A11C30
     static void NoDomainReloadInit();
     // public System.Void Retain()
-    // Offset: 0x29F81CC
+    // Offset: 0x2A118F4
     void Retain();
     // public System.Void Release()
-    // Offset: 0x29F810C
+    // Offset: 0x2A11834
     void Release();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -119,7 +119,7 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static private System.Void Release(IPoolableSerializable t)
-    // Offset: 0x29F8558
+    // Offset: 0x2A11C80
     static void Release(::GlobalNamespace::IPoolableSerializable* t);
   }; // PoolableSerializable
   #pragma pack(pop)

@@ -51,25 +51,25 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger x
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_x();
     // public Org.BouncyCastle.Math.BigInteger get_X()
-    // Offset: 0x1641D70
+    // Offset: 0x166BE20
     ::Org::BouncyCastle::Math::BigInteger* get_X();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters)
-    // Offset: 0x1641CC8
+    // Offset: 0x166BD78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalPrivateKeyParameters*, creationType>(x, parameters)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ElGamalPrivateKeyParameters other)
-    // Offset: 0x1641E28
+    // Offset: 0x166BED8
     bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1641D78
+    // Offset: 0x166BE28
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Boolean ElGamalKeyParameters::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1641E84
+    // Offset: 0x166BF34
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.ElGamalKeyParameters
     // Base method: System.Int32 ElGamalKeyParameters::GetHashCode()
     int GetHashCode();

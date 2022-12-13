@@ -80,37 +80,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didPressContinueButtonEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didPressContinueButtonEvent();
     // public System.Void add_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x140CF20
+    // Offset: 0x1418618
     void add_didChangeLanguageEvent(::System::Action* value);
     // public System.Void remove_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x140CFC4
+    // Offset: 0x14186BC
     void remove_didChangeLanguageEvent(::System::Action* value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x140D068
+    // Offset: 0x1418760
     void add_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x140D10C
+    // Offset: 0x1418804
     void remove_didPressContinueButtonEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x140D38C
+    // Offset: 0x1418A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLanguageViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLanguageViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLanguageViewController*, creationType>()));
     }
     // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
-    // Offset: 0x140D378
+    // Offset: 0x1418A70
     void HandleLanguageSettingsControllerOndropDownValueDidChange();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x140D394
+    // Offset: 0x1418A8C
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x140D1B0
+    // Offset: 0x14188A8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x140D298
+    // Offset: 0x1418990
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

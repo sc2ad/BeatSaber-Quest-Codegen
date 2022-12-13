@@ -52,12 +52,12 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection items
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_items();
     // public override System.Xml.Schema.XmlSchemaObjectCollection get_Items()
-    // Offset: 0x2105490
+    // Offset: 0x20FF664
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Xml.Schema.XmlSchemaObjectCollection XmlSchemaGroupBase::get_Items()
     ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
     // public System.Void .ctor()
-    // Offset: 0x2104254
+    // Offset: 0x20FE428
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Void XmlSchemaGroupBase::.ctor()
     // Base method: System.Void XmlSchemaParticle::.ctor()

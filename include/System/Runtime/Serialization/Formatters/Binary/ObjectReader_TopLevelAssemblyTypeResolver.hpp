@@ -51,14 +51,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Reflection.Assembly m_topLevelAssembly
     [[deprecated("Use field access instead!")]] ::System::Reflection::Assembly*& dyn_m_topLevelAssembly();
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0x18FD49C
+    // Offset: 0x193127C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(::System::Reflection::Assembly* topLevelAssembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TopLevelAssemblyTypeResolver*, creationType>(topLevelAssembly)));
     }
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0x18FD4C8
+    // Offset: 0x19312A8
     ::System::Type* ResolveType(::System::Reflection::Assembly* assembly, ::StringW simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/System.Runtime.Serialization.Formatters.Binary.TopLevelAssemblyTypeResolver
   #pragma pack(pop)

@@ -38,13 +38,13 @@ namespace Zenject {
   class DeclareSignalAsyncTickPriorityCopyBinder : public ::Zenject::SignalTickPriorityCopyBinder {
     public:
     // public Zenject.SignalTickPriorityCopyBinder RunAsync()
-    // Offset: 0x17BDE0C
+    // Offset: 0x17C6544
     ::Zenject::SignalTickPriorityCopyBinder* RunAsync();
     // public Zenject.SignalCopyBinder RunSync()
-    // Offset: 0x17BDE2C
+    // Offset: 0x17C6564
     ::Zenject::SignalCopyBinder* RunSync();
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
-    // Offset: 0x17BDE04
+    // Offset: 0x17C653C
     // Implemented from: Zenject.SignalTickPriorityCopyBinder
     // Base method: System.Void SignalTickPriorityCopyBinder::.ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

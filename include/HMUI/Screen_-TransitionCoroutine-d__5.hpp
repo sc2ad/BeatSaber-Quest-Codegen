@@ -113,26 +113,26 @@ namespace HMUI {
     // Get instance field reference: private System.Single <elapsedTime>5__4
     [[deprecated("Use field access instead!")]] float& dyn_$elapsedTime$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x170A3F8
+    // Offset: 0x16F7E00
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x170A460
+    // Offset: 0x16F7E68
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1709E14
+    // Offset: 0x16F781C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Screen::$TransitionCoroutine$d__5* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::Screen::$TransitionCoroutine$d__5::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Screen::$TransitionCoroutine$d__5*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1709E54
+    // Offset: 0x16F785C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1709E58
+    // Offset: 0x16F7860
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x170A400
+    // Offset: 0x16F7E08
     void System_Collections_IEnumerator_Reset();
   }; // HMUI.Screen/HMUI.<TransitionCoroutine>d__5
   #pragma pack(pop)

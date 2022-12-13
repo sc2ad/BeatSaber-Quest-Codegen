@@ -33,15 +33,15 @@ namespace RootMotion::FinalIK {
   class FBBIKHeadEffector::BendBone : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113F47C
+    // [TooltipAttribute] Offset: 0x11485E4
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113F4B4
-    // [RangeAttribute] Offset: 0x113F4B4
+    // [TooltipAttribute] Offset: 0x114861C
+    // [RangeAttribute] Offset: 0x114861C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -62,24 +62,24 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor()
-    // Offset: 0x2319D00
+    // Offset: 0x22FDDC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
-    // Offset: 0x2319D80
+    // Offset: 0x22FDE40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor(::UnityEngine::Transform* transform, float weight) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>(transform, weight)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x2317490
+    // Offset: 0x22FB550
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x2317894
+    // Offset: 0x22FB954
     void FixTransforms();
   }; // RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone
   #pragma pack(pop)

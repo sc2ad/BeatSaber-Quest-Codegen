@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithLaunchInvitePanelFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*> {
     public:
     // protected Oculus.Platform.Models.LaunchInvitePanelFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A0EA18
+    // Offset: 0x1A327B0
     ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A096C4
+    // Offset: 0x1A2D45C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchInvitePanelFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchInvitePanelFlowResult GetLaunchInvitePanelFlowResult()
-    // Offset: 0x1A0E9D4
+    // Offset: 0x1A3276C
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchInvitePanelFlowResult Message::GetLaunchInvitePanelFlowResult()
     ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();

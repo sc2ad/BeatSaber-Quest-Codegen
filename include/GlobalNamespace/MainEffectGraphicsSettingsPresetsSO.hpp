@@ -51,15 +51,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x133A34C
+    // Offset: 0x1344710
     ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x133A354
+    // Offset: 0x1344718
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x133A35C
+    // Offset: 0x1344720
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     int lightsId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0x11162DC
+    // [InjectAttribute] Offset: 0x111F2F8
     // private LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x28
@@ -75,14 +75,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIdManager _lightWithIdManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIdManager*& dyn__lightWithIdManager();
     // public System.Void .ctor()
-    // Offset: 0x1374134
+    // Offset: 0x137F5E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeLightColorEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OneTimeLightColorEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeLightColorEffect*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x13740CC
+    // Offset: 0x137F578
     void Update();
   }; // OneTimeLightColorEffect
   #pragma pack(pop)

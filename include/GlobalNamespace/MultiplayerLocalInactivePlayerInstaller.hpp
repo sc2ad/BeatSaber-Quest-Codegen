@@ -48,21 +48,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119EF8
+    // [InjectAttribute] Offset: 0x1123050
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119F08
+    // [InjectAttribute] Offset: 0x1123060
     // private readonly PerceivedLoudnessPerLevelModel _beatmapLoudnessModel
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119F18
+    // [InjectAttribute] Offset: 0x1123070
     // private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     // Size: 0x8
     // Offset: 0x38
@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly RelativeSfxVolumePerLevelModel _relativeSfxVolumePerLevelModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& dyn__relativeSfxVolumePerLevelModel();
     // public System.Void .ctor()
-    // Offset: 0x13CA8D0
+    // Offset: 0x13EA750
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13CA324
+    // Offset: 0x13EA1A4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

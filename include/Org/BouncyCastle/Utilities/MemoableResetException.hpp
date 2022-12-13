@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Utilities {
   class MemoableResetException : public ::System::InvalidCastException {
     public:
     // public System.Void .ctor(System.String msg)
-    // Offset: 0x26816D0
+    // Offset: 0x2678F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoableResetException* New_ctor(::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::MemoableResetException::.ctor");

@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
     static void _set_$$9__21_0(::System::Func_2<int, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1437F54
+    // Offset: 0x1443660
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1437FB8
+    // Offset: 0x14436C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTweenBehaviour::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomTweenBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour::$$c*, creationType>()));
     }
     // System.Single <OnBehaviourPlay>b__21_0(System.Int32 i)
-    // Offset: 0x1437FC0
+    // Offset: 0x14436CC
     float $OnBehaviourPlay$b__21_0(int i);
   }; // CustomTweenBehaviour/<>c
   #pragma pack(pop)

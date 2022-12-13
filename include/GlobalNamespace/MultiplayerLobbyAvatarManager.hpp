@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13
     class $RemovePlayerAndDestroy$d__13;
     public:
-    // [InjectAttribute] Offset: 0x1110870
+    // [InjectAttribute] Offset: 0x111987C
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1110880
+    // [InjectAttribute] Offset: 0x111988C
     // private readonly MultiplayerLobbyAvatarController/Factory _avatarControllerFactory
     // Size: 0x8
     // Offset: 0x20
@@ -111,35 +111,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__inProgressDespawnAnimations();
     // public System.Void .ctor()
-    // Offset: 0x146CEC0
+    // Offset: 0x14795CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarManager*, creationType>()));
     }
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x146C224
+    // Offset: 0x1478930
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x146C22C
+    // Offset: 0x1478938
     void ActivateMultiplayerLobbyAvatarManager();
     // public System.Void DeactivateMultiplayerLobbyAvatarManager()
-    // Offset: 0x146C960
+    // Offset: 0x147906C
     void DeactivateMultiplayerLobbyAvatarManager();
     // private System.Void HandleLobbyStateDataModelPlayerConnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x146CC90
+    // Offset: 0x147939C
     void HandleLobbyStateDataModelPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void HandleLobbyStateDataModelPlayerDisconnected(IConnectedPlayer connectedPlayer)
-    // Offset: 0x146CC94
+    // Offset: 0x14793A0
     void HandleLobbyStateDataModelPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void AddPlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x146C4CC
+    // Offset: 0x1478BD8
     void AddPlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Void RemovePlayer(IConnectedPlayer connectedPlayer)
-    // Offset: 0x146CC98
+    // Offset: 0x14793A4
     void RemovePlayer(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
-    // Offset: 0x146CE10
+    // Offset: 0x147951C
     ::System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, ::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
   }; // MultiplayerLobbyAvatarManager
   #pragma pack(pop)

@@ -70,10 +70,10 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Color bottomRight
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_bottomRight();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x2248B00
+    // Offset: 0x22504B8
     VertexGradient(::UnityEngine::Color color);
     // public System.Void .ctor(UnityEngine.Color color0, UnityEngine.Color color1, UnityEngine.Color color2, UnityEngine.Color color3)
-    // Offset: 0x2248B24
+    // Offset: 0x22504DC
     // ABORTED: conflicts with another method.  VertexGradient(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
   }; // TMPro.VertexGradient
   #pragma pack(pop)

@@ -41,14 +41,14 @@ namespace System::Net {
       return reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1B94E3C
+    // Offset: 0x1BB4A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequest::DesignerWebRequestCreate* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequest::DesignerWebRequestCreate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequest::DesignerWebRequestCreate*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x1B955BC
+    // Offset: 0x1BB51E0
     ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.WebRequest/System.Net.DesignerWebRequestCreate
   #pragma pack(pop)

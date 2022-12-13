@@ -102,26 +102,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _targetPos
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__targetPos();
     // public UnityEngine.Vector3 get_TargetPos()
-    // Offset: 0x2ABEC50
+    // Offset: 0x2AD9258
     ::UnityEngine::Vector3 get_TargetPos();
     // public System.Void set_TargetPos(UnityEngine.Vector3 value)
-    // Offset: 0x2ABEAC0
+    // Offset: 0x2AD90C8
     void set_TargetPos(::UnityEngine::Vector3 value);
     // public System.Void .ctor()
-    // Offset: 0x2ABED20
+    // Offset: 0x2AD9328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TweenPosition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TweenPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TweenPosition*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2ABEC5C
+    // Offset: 0x2AD9264
     void Awake();
     // private System.Void AnimateToNewPos(UnityEngine.Vector3 pos)
-    // Offset: 0x2ABEBA0
+    // Offset: 0x2AD91A8
     void AnimateToNewPos(::UnityEngine::Vector3 pos);
     // private System.Collections.IEnumerator AnimateToNewPosCoroutine(UnityEngine.Vector3 pos)
-    // Offset: 0x2ABEC84
+    // Offset: 0x2AD928C
     ::System::Collections::IEnumerator* AnimateToNewPosCoroutine(::UnityEngine::Vector3 pos);
   }; // TweenPosition
   #pragma pack(pop)

@@ -48,15 +48,15 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::AimController::$TurnToTarget$d__33
     class $TurnToTarget$d__33;
     public:
-    // [TooltipAttribute] Offset: 0x113E2C0
+    // [TooltipAttribute] Offset: 0x1147428
     // public RootMotion.FinalIK.AimIK ik
     // Size: 0x8
     // Offset: 0x18
     ::RootMotion::FinalIK::AimIK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::AimIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113E2F8
-    // [RangeAttribute] Offset: 0x113E2F8
+    // [TooltipAttribute] Offset: 0x1147460
+    // [RangeAttribute] Offset: 0x1147460
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x20
@@ -65,30 +65,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: target
     char __padding1[0x4] = {};
-    // [HeaderAttribute] Offset: 0x113E34C
-    // [TooltipAttribute] Offset: 0x113E34C
+    // [HeaderAttribute] Offset: 0x11474B4
+    // [TooltipAttribute] Offset: 0x11474B4
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113E3AC
+    // [TooltipAttribute] Offset: 0x1147514
     // public System.Single targetSwitchSmoothTime
     // Size: 0x4
     // Offset: 0x30
     float targetSwitchSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E3E4
+    // [TooltipAttribute] Offset: 0x114754C
     // public System.Single weightSmoothTime
     // Size: 0x4
     // Offset: 0x34
     float weightSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x113E41C
-    // [TooltipAttribute] Offset: 0x113E41C
+    // [HeaderAttribute] Offset: 0x1147584
+    // [TooltipAttribute] Offset: 0x1147584
     // public System.Boolean smoothTurnTowardsTarget
     // Size: 0x1
     // Offset: 0x38
@@ -97,58 +97,58 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
     char __padding5[0x3] = {};
-    // [TooltipAttribute] Offset: 0x113E47C
+    // [TooltipAttribute] Offset: 0x11475E4
     // public System.Single maxRadiansDelta
     // Size: 0x4
     // Offset: 0x3C
     float maxRadiansDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E4B4
+    // [TooltipAttribute] Offset: 0x114761C
     // public System.Single maxMagnitudeDelta
     // Size: 0x4
     // Offset: 0x40
     float maxMagnitudeDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E4EC
+    // [TooltipAttribute] Offset: 0x1147654
     // public System.Single slerpSpeed
     // Size: 0x4
     // Offset: 0x44
     float slerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E524
+    // [TooltipAttribute] Offset: 0x114768C
     // public UnityEngine.Vector3 pivotOffsetFromRoot
     // Size: 0xC
     // Offset: 0x48
     ::UnityEngine::Vector3 pivotOffsetFromRoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0x113E55C
+    // [TooltipAttribute] Offset: 0x11476C4
     // public System.Single minDistance
     // Size: 0x4
     // Offset: 0x54
     float minDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E594
+    // [TooltipAttribute] Offset: 0x11476FC
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x58
     ::UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x113E5CC
-    // [TooltipAttribute] Offset: 0x113E5CC
-    // [RangeAttribute] Offset: 0x113E5CC
+    // [HeaderAttribute] Offset: 0x1147734
+    // [TooltipAttribute] Offset: 0x1147734
+    // [RangeAttribute] Offset: 0x1147734
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x64
     float maxRootAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E648
+    // [TooltipAttribute] Offset: 0x11477B0
     // public System.Boolean turnToTarget
     // Size: 0x1
     // Offset: 0x68
@@ -157,15 +157,15 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turnToTarget and: turnToTargetTime
     char __padding13[0x3] = {};
-    // [TooltipAttribute] Offset: 0x113E680
+    // [TooltipAttribute] Offset: 0x11477E8
     // public System.Single turnToTargetTime
     // Size: 0x4
     // Offset: 0x6C
     float turnToTargetTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x113E6B8
-    // [TooltipAttribute] Offset: 0x113E6B8
+    // [HeaderAttribute] Offset: 0x1147820
+    // [TooltipAttribute] Offset: 0x1147820
     // public System.Boolean useAnimatedAimDirection
     // Size: 0x1
     // Offset: 0x70
@@ -174,7 +174,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAnimatedAimDirection and: animatedAimDirection
     char __padding15[0x3] = {};
-    // [TooltipAttribute] Offset: 0x113E718
+    // [TooltipAttribute] Offset: 0x1147880
     // public UnityEngine.Vector3 animatedAimDirection
     // Size: 0xC
     // Offset: 0x74
@@ -301,29 +301,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single turnToTargetMlpV
     [[deprecated("Use field access instead!")]] float& dyn_turnToTargetMlpV();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x2311B40
+    // Offset: 0x22F5C00
     ::UnityEngine::Vector3 get_pivot();
     // public System.Void .ctor()
-    // Offset: 0x231296C
+    // Offset: 0x22F6A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimController*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x2311A44
+    // Offset: 0x22F5B04
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x2311C8C
+    // Offset: 0x22F5D4C
     void LateUpdate();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x23123C4
+    // Offset: 0x22F6484
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x2312560
+    // Offset: 0x22F6620
     void RootRotation();
     // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x23128D0
+    // Offset: 0x22F6990
     ::System::Collections::IEnumerator* TurnToTarget();
   }; // RootMotion.FinalIK.AimController
   #pragma pack(pop)

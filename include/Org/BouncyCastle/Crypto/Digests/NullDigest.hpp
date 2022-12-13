@@ -60,32 +60,32 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private readonly System.IO.MemoryStream bOut
     [[deprecated("Use field access instead!")]] ::System::IO::MemoryStream*& dyn_bOut();
     // public System.String get_AlgorithmName()
-    // Offset: 0x235E2A8
+    // Offset: 0x2357C64
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x235E41C
+    // Offset: 0x2357DD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::NullDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullDigest*, creationType>()));
     }
     // public System.Int32 GetByteLength()
-    // Offset: 0x235E2F0
+    // Offset: 0x2357CAC
     int GetByteLength();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x235E2F8
+    // Offset: 0x2357CB4
     int GetDigestSize();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x235E320
+    // Offset: 0x2357CDC
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x235E344
+    // Offset: 0x2357D00
     void BlockUpdate(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x235E368
+    // Offset: 0x2357D24
     int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x235E3F4
+    // Offset: 0x2357DB0
     void Reset();
   }; // Org.BouncyCastle.Crypto.Digests.NullDigest
   #pragma pack(pop)

@@ -106,75 +106,75 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MissionCompletionResults,MissionNode> didUpdateCampaignOverallStatsDataEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>*& dyn_didUpdateCampaignOverallStatsDataEvent();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_allOverallStatsData()
-    // Offset: 0x1575060
+    // Offset: 0x1582D44
     ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_allOverallStatsData();
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_campaignOverallStatsData()
-    // Offset: 0x15751C0
+    // Offset: 0x1582EA4
     ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_campaignOverallStatsData();
     // private System.Void set_campaignOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x15751C8
+    // Offset: 0x1582EAC
     void set_campaignOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_soloFreePlayOverallStatsData()
-    // Offset: 0x15751D0
+    // Offset: 0x1582EB4
     ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
     // private System.Void set_soloFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x15751D8
+    // Offset: 0x1582EBC
     void set_soloFreePlayOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_partyFreePlayOverallStatsData()
-    // Offset: 0x15751E0
+    // Offset: 0x1582EC4
     ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
     // private System.Void set_partyFreePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x15751E8
+    // Offset: 0x1582ECC
     void set_partyFreePlayOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public PlayerAllOverallStatsData/PlayerOverallStatsData get_onlinePlayOverallStatsData()
-    // Offset: 0x15751F0
+    // Offset: 0x1582ED4
     ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* get_onlinePlayOverallStatsData();
     // private System.Void set_onlinePlayOverallStatsData(PlayerAllOverallStatsData/PlayerOverallStatsData value)
-    // Offset: 0x15751F8
+    // Offset: 0x1582EDC
     void set_onlinePlayOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* value);
     // public System.Void add_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x1575200
+    // Offset: 0x1582EE4
     void add_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdateSoloFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x15752A4
+    // Offset: 0x1582F88
     void remove_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x1575348
+    // Offset: 0x158302C
     void add_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didUpdatePartyFreePlayOverallStatsDataEvent(System.Action`2<LevelCompletionResults,IDifficultyBeatmap> value)
-    // Offset: 0x15753EC
+    // Offset: 0x15830D0
     void remove_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void add_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0x1575490
+    // Offset: 0x1583174
     void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didUpdateCampaignOverallStatsDataEvent(System.Action`2<MissionCompletionResults,MissionNode> value)
-    // Offset: 0x1575534
+    // Offset: 0x1583218
     void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*>* value);
     // public System.Void .ctor()
-    // Offset: 0x15755D8
+    // Offset: 0x15832BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData*, creationType>()));
     }
     // public System.Void .ctor(PlayerAllOverallStatsData/PlayerOverallStatsData campaignOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerAllOverallStatsData/PlayerOverallStatsData onlinePlayOverallStatsData)
-    // Offset: 0x157569C
+    // Offset: 0x1583380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* soloFreePlayOverallStatsData, ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* partyFreePlayOverallStatsData, ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
     }
     // public System.Void UpdateSoloFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15756E8
+    // Offset: 0x15833CC
     void UpdateSoloFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdatePartyFreePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1575898
+    // Offset: 0x158357C
     void UpdatePartyFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void UpdateCampaignOverallStatsData(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x1575928
+    // Offset: 0x158360C
     void UpdateCampaignOverallStatsData(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
     // public System.Void UpdateOnlinePlayOverallStatsData(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15759BC
+    // Offset: 0x15836A0
     void UpdateOnlinePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // PlayerAllOverallStatsData
   #pragma pack(pop)

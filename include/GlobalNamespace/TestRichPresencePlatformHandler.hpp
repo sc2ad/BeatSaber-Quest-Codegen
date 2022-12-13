@@ -44,17 +44,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x13B7F1C
+    // Offset: 0x13C33D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRichPresencePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRichPresencePlatformHandler*, creationType>()));
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x13B7DCC
+    // Offset: 0x13C3288
     void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x13B7EB0
+    // Offset: 0x13C336C
     void Clear();
   }; // TestRichPresencePlatformHandler
   #pragma pack(pop)

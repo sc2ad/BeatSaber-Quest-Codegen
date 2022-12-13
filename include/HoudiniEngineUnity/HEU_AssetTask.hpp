@@ -170,19 +170,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int64 _forceSessionID
     [[deprecated("Use field access instead!")]] int64_t& dyn__forceSessionID();
     // public HoudiniEngineUnity.HEU_SessionBase GetTaskSession()
-    // Offset: 0x171ED98
+    // Offset: 0x1737950
     ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean bSuccess, System.Collections.Generic.List`1<UnityEngine.GameObject> outputs)
-    // Offset: 0x171F7D4
+    // Offset: 0x173838C
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_CookedEventData cookedEventData)
-    // Offset: 0x171F874
+    // Offset: 0x173842C
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
     // private System.Void CookCompletedCallback(HoudiniEngineUnity.HEU_ReloadEventData reloadEventData)
-    // Offset: 0x171F884
+    // Offset: 0x173843C
     void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
     // public System.Void .ctor()
-    // Offset: 0x171F894
+    // Offset: 0x173844C
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -191,17 +191,17 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetTask*, creationType>()));
     }
     // public override System.Void DoTask()
-    // Offset: 0x171EE7C
+    // Offset: 0x1737A34
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::DoTask()
     void DoTask();
     // public override System.Void KillTask()
-    // Offset: 0x171F3E4
+    // Offset: 0x1737F9C
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::KillTask()
     void KillTask();
     // public override System.Void CompleteTask(HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
-    // Offset: 0x171F5DC
+    // Offset: 0x1738194
     // Implemented from: HoudiniEngineUnity.HEU_Task
     // Base method: System.Void HEU_Task::CompleteTask(HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
     void CompleteTask(::HoudiniEngineUnity::HEU_Task::TaskResult result);

@@ -215,73 +215,73 @@ namespace UnityEngine {
     // Get instance field reference: protected System.Int32 m_MarginBottom
     [[deprecated("Use field access instead!")]] int& dyn_m_MarginBottom();
     // public System.Void .ctor()
-    // Offset: 0x20AF3B0
+    // Offset: 0x20B4B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutGroup*, creationType>()));
     }
     // public System.Void ResetCursor()
-    // Offset: 0x20AF650
+    // Offset: 0x20B4DB8
     void ResetCursor();
     // public UnityEngine.GUILayoutEntry GetNext()
-    // Offset: 0x20AF658
+    // Offset: 0x20B4DC0
     ::UnityEngine::GUILayoutEntry* GetNext();
     // public System.Void Add(UnityEngine.GUILayoutEntry e)
-    // Offset: 0x20AF8E4
+    // Offset: 0x20B504C
     void Add(::UnityEngine::GUILayoutEntry* e);
     // public override System.Int32 get_marginLeft()
-    // Offset: 0x20AF390
+    // Offset: 0x20B4AF8
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginLeft()
     int get_marginLeft();
     // public override System.Int32 get_marginRight()
-    // Offset: 0x20AF398
+    // Offset: 0x20B4B00
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginRight()
     int get_marginRight();
     // public override System.Int32 get_marginTop()
-    // Offset: 0x20AF3A0
+    // Offset: 0x20B4B08
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginTop()
     int get_marginTop();
     // public override System.Int32 get_marginBottom()
-    // Offset: 0x20AF3A8
+    // Offset: 0x20B4B10
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Int32 GUILayoutEntry::get_marginBottom()
     int get_marginBottom();
     // public override System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x20AF4A8
+    // Offset: 0x20B4C10
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
     void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*> options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x20AF5D8
+    // Offset: 0x20B4D40
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyStyleSettings(UnityEngine.GUIStyle style)
     void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
     // public override System.Void CalcWidth()
-    // Offset: 0x20AF94C
+    // Offset: 0x20B50B4
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcWidth()
     void CalcWidth();
     // public override System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x20B0110
+    // Offset: 0x20B5878
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetHorizontal(System.Single x, System.Single width)
     void SetHorizontal(float x, float width);
     // public override System.Void CalcHeight()
-    // Offset: 0x20B0A18
+    // Offset: 0x20B6180
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::CalcHeight()
     void CalcHeight();
     // public override System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x20B10C0
+    // Offset: 0x20B6828
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::SetVertical(System.Single y, System.Single height)
     void SetVertical(float y, float height);
     // public override System.String ToString()
-    // Offset: 0x20B19C4
+    // Offset: 0x20B712C
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.String GUILayoutEntry::ToString()
     ::StringW ToString();

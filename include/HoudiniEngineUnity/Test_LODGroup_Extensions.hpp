@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_LODGroup_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_LODGroup ToTestObject(UnityEngine.LODGroup self)
-    // Offset: 0x2B141BC
+    // Offset: 0x2B31A0C
     static ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
     // static public HoudiniEngineUnity.Test_LODGroup[] ToTestObject(UnityEngine.LODGroup[] self)
-    // Offset: 0x2B14220
+    // Offset: 0x2B31A70
     static ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*> ToTestObject(::ArrayW<::UnityEngine::LODGroup*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_LODGroup> ToTestObject(System.Collections.Generic.List`1<UnityEngine.LODGroup> self)
-    // Offset: 0x2B1430C
+    // Offset: 0x2B31B5C
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>* self);
   }; // HoudiniEngineUnity.Test_LODGroup_Extensions
   #pragma pack(pop)

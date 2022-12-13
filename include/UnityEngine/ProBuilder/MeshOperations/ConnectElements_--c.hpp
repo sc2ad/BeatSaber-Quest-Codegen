@@ -122,56 +122,56 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_2
     static void _set_$$9__8_2(::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A743E0
+    // Offset: 0x1A72FF4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A74444
+    // Offset: 0x1A73058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__0_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A7444C
+    // Offset: 0x1A73060
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* $Connect$b__0_0(::UnityEngine::ProBuilder::Face* x);
     // System.Int32 <Connect>b__2_1(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A74468
+    // Offset: 0x1A7307C
     int $Connect$b__2_1(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__2_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x1A74480
+    // Offset: 0x1A73094
     ::UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__2_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Int32 <Connect>b__3_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A74498
+    // Offset: 0x1A730AC
     int $Connect$b__3_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__3_1(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x1A744B0
+    // Offset: 0x1A730C4
     ::UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__3_1(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__3_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
-    // Offset: 0x1A744C8
+    // Offset: 0x1A730DC
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* $Connect$b__3_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // UnityEngine.ProBuilder.Edge <Connect>b__3_4(UnityEngine.ProBuilder.EdgeLookup x)
-    // Offset: 0x1A744F4
+    // Offset: 0x1A73108
     ::UnityEngine::ProBuilder::Edge $Connect$b__3_4(::UnityEngine::ProBuilder::EdgeLookup x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectEdgesInFace>b__5_0(System.Int32 x)
-    // Offset: 0x1A744FC
+    // Offset: 0x1A73110
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* $ConnectEdgesInFace$b__5_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectEdgesInFace>b__5_1(System.Int32 x)
-    // Offset: 0x1A74560
+    // Offset: 0x1A73174
     ::System::Collections::Generic::List_1<int>* $ConnectEdgesInFace$b__5_1(int x);
     // UnityEngine.ProBuilder.Edge <ConnectEdgesInFace>b__5_2(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A745C4
+    // Offset: 0x1A731D8
     ::UnityEngine::ProBuilder::Edge $ConnectEdgesInFace$b__5_2(::UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <InsertVertices>b__6_0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x1A745DC
+    // Offset: 0x1A731F0
     ::UnityEngine::ProBuilder::Edge $InsertVertices$b__6_0(::UnityEngine::ProBuilder::WingedEdge* x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectIndexesPerFace>b__8_0(System.Int32 x)
-    // Offset: 0x1A745F4
+    // Offset: 0x1A73208
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* $ConnectIndexesPerFace$b__8_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_1(System.Int32 x)
-    // Offset: 0x1A74658
+    // Offset: 0x1A7326C
     ::System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_1(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_2(System.Int32 x)
-    // Offset: 0x1A746BC
+    // Offset: 0x1A732D0
     ::System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_2(int x);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

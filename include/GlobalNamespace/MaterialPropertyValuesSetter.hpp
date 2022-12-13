@@ -91,23 +91,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>& dyn__ints();
     // public System.Void .ctor()
-    // Offset: 0x1CD1308
+    // Offset: 0x1CDC044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyValuesSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyValuesSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyValuesSetter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1CD0EFC
+    // Offset: 0x1CDBC18
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1CD10D4
+    // Offset: 0x1CDBF7C
     void OnValidate();
     // private System.Void RefreshPropertyIds()
-    // Offset: 0x1CD1170
+    // Offset: 0x1CDBC3C
     void RefreshPropertyIds();
     // private System.Void ApplyParams()
-    // Offset: 0x1CD0F00
+    // Offset: 0x1CDBDA8
     void ApplyParams();
   }; // MaterialPropertyValuesSetter
   #pragma pack(pop)

@@ -118,15 +118,15 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Boolean stereoEnabled
       [[deprecated("Use field access instead!")]] bool& dyn_stereoEnabled();
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
-      // Offset: 0x2ACE684
+      // Offset: 0x2AEAED4
       // ABORTED: conflicts with another method.  CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float fov, bool stereoEnabled);
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0x2ACF340
+      // Offset: 0x2AEBB90
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
       // public override System.Int32 GetHashCode()
-      // Offset: 0x2ACF4C8
+      // Offset: 0x2AEBD18
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -185,7 +185,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBloomPrePass and: bloomPrePassRenderer
     char __padding7[0x6] = {};
-    // [SpaceAttribute] Offset: 0x1107A58
+    // [SpaceAttribute] Offset: 0x11109C0
     // private BloomPrePassRendererSO _bloomPrePassRenderer
     // Size: 0x8
     // Offset: 0x38
@@ -294,47 +294,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Rect kFullRect
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rect& dyn_kFullRect();
     // public System.Void .ctor()
-    // Offset: 0x2ACF210
+    // Offset: 0x2AEBA60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirrorRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MirrorRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirrorRendererSO*, creationType>()));
     }
     // private System.Void OnValidate()
-    // Offset: 0x2ACE588
+    // Offset: 0x2AEADD8
     void OnValidate();
     // protected System.Void Awake()
-    // Offset: 0x2ACE668
+    // Offset: 0x2AEAEB8
     void Awake();
     // private System.Void ValidateParams()
-    // Offset: 0x2ACE58C
+    // Offset: 0x2AEADDC
     void ValidateParams();
     // public System.Void Init(UnityEngine.LayerMask reflectLayers, System.Int32 stereoTextureWidth, System.Int32 stereoTextureHeight, System.Int32 monoTextureWidth, System.Int32 monoTextureHeight, System.Int32 maxAntiAliasing, System.Boolean enableBloomPrePass)
-    // Offset: 0x2ACE66C
+    // Offset: 0x2AEAEBC
     void Init(::UnityEngine::LayerMask reflectLayers, int stereoTextureWidth, int stereoTextureHeight, int monoTextureWidth, int monoTextureHeight, int maxAntiAliasing, bool enableBloomPrePass);
     // public System.Void PrepareForNextFrame()
-    // Offset: 0x2ACD858
+    // Offset: 0x2AEA0A8
     void PrepareForNextFrame();
     // public UnityEngine.Texture GetMirrorTexture(UnityEngine.Vector3 reflectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x2ACDC74
+    // Offset: 0x2AEA4C4
     ::UnityEngine::Texture* GetMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
     // private System.Void RenderMirror(UnityEngine.Vector3 camPosition, UnityEngine.Quaternion camRotation, UnityEngine.Matrix4x4 camProjectionMatrix, UnityEngine.Rect screenRect, UnityEngine.Vector3 reclectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x2ACED2C
+    // Offset: 0x2AEB57C
     void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
     // protected System.Void OnDisable()
-    // Offset: 0x2ACF054
+    // Offset: 0x2AEB8A4
     void OnDisable();
     // private System.Void CreateOrUpdateMirrorCamera(UnityEngine.Camera currentCamera, UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2ACE6A0
+    // Offset: 0x2AEAEF0
     void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
     // static private UnityEngine.Vector4 Plane(UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2ACE934
+    // Offset: 0x2AEB184
     static ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
     // static private UnityEngine.Vector4 CameraSpacePlane(UnityEngine.Matrix4x4 worldToCameraMatrix, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2ACEFB0
+    // Offset: 0x2AEB800
     static ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
     // static private UnityEngine.Matrix4x4 CalculateReflectionMatrix(UnityEngine.Vector4 plane)
-    // Offset: 0x2ACEA10
+    // Offset: 0x2AEB260
     static ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
   }; // MirrorRendererSO
   #pragma pack(pop)

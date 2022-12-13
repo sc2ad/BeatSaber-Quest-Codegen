@@ -42,21 +42,21 @@ namespace RootMotion::FinalIK {
   class HitReactionVRIK::Offset : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1141498
+    // [TooltipAttribute] Offset: 0x114A600
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::StringW name;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x11414D0
+    // [TooltipAttribute] Offset: 0x114A638
     // public UnityEngine.Collider collider
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Collider* collider;
     // Field size check
     static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1141508
+    // [TooltipAttribute] Offset: 0x114A670
     // private System.Single crossFadeTime
     // Size: 0x4
     // Offset: 0x20
@@ -127,41 +127,41 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // protected System.Single get_crossFader()
-    // Offset: 0x22FCF44
+    // Offset: 0x22E1004
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x22FCF4C
+    // Offset: 0x22E100C
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x22FCF54
+    // Offset: 0x22E1014
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x22FCF5C
+    // Offset: 0x22E101C
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x22FCF64
+    // Offset: 0x22E1024
     ::UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x22FCF70
+    // Offset: 0x22E1030
     void set_force(::UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x22FCF7C
+    // Offset: 0x22E103C
     ::UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x22FCF88
+    // Offset: 0x22E1048
     void set_point(::UnityEngine::Vector3 value);
     // protected System.Void .ctor()
-    // Offset: 0x22FCF94
+    // Offset: 0x22E1054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReactionVRIK::Offset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReactionVRIK::Offset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::Offset*, creationType>()));
     }
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.AnimationCurve[] curves, UnityEngine.Vector3 point)
-    // Offset: 0x22FCDFC
+    // Offset: 0x22E0EBC
     void Hit(::UnityEngine::Vector3 force, ::ArrayW<::UnityEngine::AnimationCurve*> curves, ::UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.AnimationCurve[] curves, System.Single weight)
-    // Offset: 0x22FCA60
+    // Offset: 0x22E0B20
     void Apply(::RootMotion::FinalIK::VRIK* ik, ::ArrayW<::UnityEngine::AnimationCurve*> curves, float weight);
     // protected System.Single GetLength(UnityEngine.AnimationCurve[] curves)
     // Offset: 0xFFFFFFFFFFFFFFFF

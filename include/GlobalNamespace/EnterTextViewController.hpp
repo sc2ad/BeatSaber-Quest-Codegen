@@ -87,26 +87,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1387F18
+    // Offset: 0x13933D4
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
-    // Offset: 0x1387FBC
+    // Offset: 0x1393478
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
     // public System.Void .ctor()
-    // Offset: 0x13881F8
+    // Offset: 0x13936B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterTextViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnterTextViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterTextViewController*, creationType>()));
     }
     // public System.Void Init(System.String titleText)
-    // Offset: 0x1388060
+    // Offset: 0x139351C
     void Init(::StringW titleText);
     // public System.Void OkButtonPressed()
-    // Offset: 0x1388158
+    // Offset: 0x1393614
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x138807C
+    // Offset: 0x1393538
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

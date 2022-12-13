@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0x1113BDC
+    // [LocalizationKeyAttribute] Offset: 0x111CBF8
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_CAMPAIGN_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x14179CC
+    // Offset: 0x14230D8
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x1417A14
+    // Offset: 0x1423120
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1417A1C
+    // Offset: 0x1423128
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1417A24
+    // Offset: 0x1423130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingCampaignRichPresenceData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayingCampaignRichPresenceData::.ctor");

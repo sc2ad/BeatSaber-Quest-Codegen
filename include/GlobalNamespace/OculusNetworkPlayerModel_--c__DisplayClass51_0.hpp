@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x15539DC
+    // Offset: 0x15606C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusNetworkPlayerModel::$$c__DisplayClass51_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::$$c__DisplayClass51_0*, creationType>()));
     }
     // System.Void <HandleRoomInviteReceived>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> result)
-    // Offset: 0x15539E4
+    // Offset: 0x15606C8
     void $HandleRoomInviteReceived$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>* result);
   }; // OculusNetworkPlayerModel/<>c__DisplayClass51_0
   #pragma pack(pop)

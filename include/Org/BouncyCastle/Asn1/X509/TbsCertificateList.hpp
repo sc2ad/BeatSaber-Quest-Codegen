@@ -124,35 +124,35 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Extensions crlExtensions
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::X509::X509Extensions*& dyn_crlExtensions();
     // public System.Int32 get_Version()
-    // Offset: 0x1F92B78
+    // Offset: 0x1F9C598
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x1F97964
+    // Offset: 0x1FA1384
     ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_ThisUpdate()
-    // Offset: 0x1F9796C
+    // Offset: 0x1FA138C
     ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
     // public Org.BouncyCastle.Asn1.X509.Time get_NextUpdate()
-    // Offset: 0x1F97974
+    // Offset: 0x1FA1394
     ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
     // public Org.BouncyCastle.Asn1.X509.X509Extensions get_Extensions()
-    // Offset: 0x1F979A8
+    // Offset: 0x1FA13C8
     ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F974C4
+    // Offset: 0x1FA0EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::TbsCertificateList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.TbsCertificateList GetInstance(System.Object obj)
-    // Offset: 0x1F928F4
+    // Offset: 0x1F9C314
     static ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Il2CppObject* obj);
     // public System.Collections.IEnumerable GetRevokedCertificateEnumeration()
-    // Offset: 0x1F92A94
+    // Offset: 0x1F9C4B4
     ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F979B0
+    // Offset: 0x1FA13D0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatSaberLogger _logger
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatSaberLogger*& dyn__logger();
     // public System.Void .ctor(IBeatSaberLogger logger)
-    // Offset: 0x1419440
+    // Offset: 0x1424B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingConverter*, creationType>(logger)));
     }
     // public System.Void SaveToOldFormat(System.String path, PosesRecordingData data)
-    // Offset: 0x141A4C8
+    // Offset: 0x1425BD4
     void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
   }; // RecordingConverter
   #pragma pack(pop)

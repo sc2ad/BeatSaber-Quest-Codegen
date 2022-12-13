@@ -27,7 +27,7 @@ namespace System::Net::NetworkInformation {
   class IPv4InterfaceStatistics : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1AD91D8
+    // Offset: 0x1AF7C70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPv4InterfaceStatistics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPv4InterfaceStatistics::.ctor");

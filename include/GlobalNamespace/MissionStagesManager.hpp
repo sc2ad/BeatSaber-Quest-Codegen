@@ -69,29 +69,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionStage _firstLockedMissionStage
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()
-    // Offset: 0x148BDB0
+    // Offset: 0x149861C
     ::GlobalNamespace::MissionStage* get_firstLockedMissionStage();
     // public System.Void .ctor()
-    // Offset: 0x148BEE0
+    // Offset: 0x149874C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionStagesManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionStagesManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionStagesManager*, creationType>()));
     }
     // public System.Void UpdateFirtsLockedMissionStage(System.Int32 numberOfClearedMissions)
-    // Offset: 0x1487D48
+    // Offset: 0x14945B4
     void UpdateFirtsLockedMissionStage(int numberOfClearedMissions);
     // public System.Void InitStages()
-    // Offset: 0x148BDB8
+    // Offset: 0x1498624
     void InitStages();
     // public System.Void UpdateStageLockPosition()
-    // Offset: 0x1487FF4
+    // Offset: 0x1494860
     void UpdateStageLockPosition();
     // public System.Void UpdateStageLockPositionAnimated(System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x1485F68
+    // Offset: 0x14927D4
     void UpdateStageLockPositionAnimated(bool animated, float animationDuration);
     // public System.Void UpdateStageLockText(System.Int32 numberOfClearedMissions)
-    // Offset: 0x1487DE0
+    // Offset: 0x149464C
     void UpdateStageLockText(int numberOfClearedMissions);
   }; // MissionStagesManager
   #pragma pack(pop)

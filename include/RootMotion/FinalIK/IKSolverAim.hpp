@@ -65,7 +65,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 polePosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x113D3F4
+    // [RangeAttribute] Offset: 0x114655C
     // public System.Single poleWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -78,14 +78,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* poleTarget;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x113D40C
+    // [RangeAttribute] Offset: 0x1146574
     // public System.Single clampWeight
     // Size: 0x4
     // Offset: 0xC0
     float clampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x113D424
+    // [RangeAttribute] Offset: 0x114658C
     // public System.Int32 clampSmoothing
     // Size: 0x4
     // Offset: 0xC4
@@ -150,35 +150,35 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Transform lastTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_lastTransform();
     // public UnityEngine.Vector3 get_transformAxis()
-    // Offset: 0x22C12C0
+    // Offset: 0x22A7380
     ::UnityEngine::Vector3 get_transformAxis();
     // public UnityEngine.Vector3 get_transformPoleAxis()
-    // Offset: 0x22C138C
+    // Offset: 0x22A744C
     ::UnityEngine::Vector3 get_transformPoleAxis();
     // public System.Single GetAngle()
-    // Offset: 0x22C11C0
+    // Offset: 0x22A7280
     float GetAngle();
     // private System.Void Solve()
-    // Offset: 0x22C2050
+    // Offset: 0x22A8110
     void Solve();
     // private UnityEngine.Vector3 GetClampedIKPosition()
-    // Offset: 0x22C1C78
+    // Offset: 0x22A7D38
     ::UnityEngine::Vector3 GetClampedIKPosition();
     // private System.Void RotateToTarget(UnityEngine.Vector3 targetPosition, RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone bone, System.Single weight)
-    // Offset: 0x22C210C
+    // Offset: 0x22A81CC
     void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::IKSolver::Bone* bone, float weight);
     // protected override System.Int32 get_minBones()
-    // Offset: 0x22C2104
+    // Offset: 0x22A81C4
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Int32 IKSolverHeuristic::get_minBones()
     int get_minBones();
     // protected override UnityEngine.Vector3 get_localDirection()
-    // Offset: 0x22C26B0
+    // Offset: 0x22A8770
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: UnityEngine.Vector3 IKSolverHeuristic::get_localDirection()
     ::UnityEngine::Vector3 get_localDirection();
     // public System.Void .ctor()
-    // Offset: 0x22C2724
+    // Offset: 0x22A87E4
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -188,12 +188,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverAim*, creationType>()));
     }
     // protected override System.Void OnInitiate()
-    // Offset: 0x22C1458
+    // Offset: 0x22A7518
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x22C16E0
+    // Offset: 0x22A77A0
     // Implemented from: RootMotion.FinalIK.IKSolverHeuristic
     // Base method: System.Void IKSolverHeuristic::OnUpdate()
     void OnUpdate();

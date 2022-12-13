@@ -119,29 +119,29 @@ namespace UnityEngine::Rendering {
     // Get instance field reference: private System.Int32 m_DepthSlice
     [[deprecated("Use field access instead!")]] int& dyn_m_DepthSlice();
     // public System.Void .ctor(UnityEngine.Rendering.BuiltinRenderTextureType type)
-    // Offset: 0x21616C0
+    // Offset: 0x215B894
     RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
     // public System.Void .ctor(System.Int32 nameID)
-    // Offset: 0x2161728
+    // Offset: 0x215B8FC
     RenderTargetIdentifier(int nameID);
     // public System.Void .ctor(UnityEngine.Texture tex)
-    // Offset: 0x2161790
+    // Offset: 0x215B964
     RenderTargetIdentifier(::UnityEngine::Texture* tex);
     // public System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier rhs)
-    // Offset: 0x2161BB8
+    // Offset: 0x215BD8C
     bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
     // public override System.String ToString()
-    // Offset: 0x21619F4
+    // Offset: 0x215BBC8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2161B60
+    // Offset: 0x215BD34
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2161C54
+    // Offset: 0x215BE28
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);

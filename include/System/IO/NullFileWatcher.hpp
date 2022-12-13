@@ -48,20 +48,20 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(::System::IO::IFileWatcher* value);
     // public System.Void .ctor()
-    // Offset: 0x1D8BFC8
+    // Offset: 0x1DAB518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullFileWatcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::NullFileWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullFileWatcher*, creationType>()));
     }
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1D8BFC0
+    // Offset: 0x1DAB510
     void StartDispatching(::System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1D8BFC4
+    // Offset: 0x1DAB514
     void StopDispatching(::System::IO::FileSystemWatcher* fsw);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1D8B5C4
+    // Offset: 0x1DAAB14
     static bool GetInstance(ByRef<::System::IO::IFileWatcher*> watcher);
   }; // System.IO.NullFileWatcher
   #pragma pack(pop)

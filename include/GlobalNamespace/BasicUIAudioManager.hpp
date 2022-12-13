@@ -99,23 +99,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // public System.Void .ctor()
-    // Offset: 0x13A2158
+    // Offset: 0x13AD614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicUIAudioManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicUIAudioManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicUIAudioManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13A1E38
+    // Offset: 0x13AD2F4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x13A1ED0
+    // Offset: 0x13AD38C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13A1FA4
+    // Offset: 0x13AD460
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x13A2078
+    // Offset: 0x13AD534
     void HandleButtonClickEvent();
   }; // BasicUIAudioManager
   #pragma pack(pop)

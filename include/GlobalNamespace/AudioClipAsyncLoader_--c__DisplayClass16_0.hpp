@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.AudioClip audioClip
     [[deprecated("Use field access instead!")]] ::UnityEngine::AudioClip*& dyn_audioClip();
     // public System.Void .ctor()
-    // Offset: 0x1538A00
+    // Offset: 0x154565C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipAsyncLoader::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader::$$c__DisplayClass16_0*, creationType>()));
     }
     // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
-    // Offset: 0x1539010
+    // Offset: 0x1545C6C
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* $Load$b__0();
   }; // AudioClipAsyncLoader/<>c__DisplayClass16_0
   #pragma pack(pop)

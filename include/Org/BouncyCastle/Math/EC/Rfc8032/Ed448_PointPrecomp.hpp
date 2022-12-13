@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Get instance field reference: System.UInt32[] y
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_y();
     // public System.Void .ctor()
-    // Offset: 0x23A21D0
+    // Offset: 0x239BB8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed448::PointPrecomp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::.ctor");

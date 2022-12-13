@@ -93,72 +93,72 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Int32 m_CachedHashFromTransform
     [[deprecated("Use field access instead!")]] int& dyn_m_CachedHashFromTransform();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x1F36E28
+    // Offset: 0x1F41858
     ::UnityEngine::Transform* get_transform();
     // static private System.Void .cctor()
-    // Offset: 0x1F36CB4
+    // Offset: 0x1F416E4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1F37D94
+    // Offset: 0x1F427C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutRebuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutRebuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder*, creationType>()));
     }
     // private System.Void Initialize(UnityEngine.RectTransform controller)
-    // Offset: 0x1F36C68
+    // Offset: 0x1F41698
     void Initialize(::UnityEngine::RectTransform* controller);
     // private System.Void Clear()
-    // Offset: 0x1F36CA8
+    // Offset: 0x1F416D8
     void Clear();
     // static private System.Void ReapplyDrivenProperties(UnityEngine.RectTransform driven)
-    // Offset: 0x1F36DC4
+    // Offset: 0x1F417F4
     static void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
     // public System.Boolean IsDestroyed()
-    // Offset: 0x1F36E30
+    // Offset: 0x1F41860
     bool IsDestroyed();
     // static private System.Void StripDisabledBehavioursFromList(System.Collections.Generic.List`1<UnityEngine.Component> components)
-    // Offset: 0x1F36EA0
+    // Offset: 0x1F418D0
     static void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
     // static public System.Void ForceRebuildLayoutImmediate(UnityEngine.RectTransform layoutRoot)
-    // Offset: 0x1F36F94
+    // Offset: 0x1F419C4
     static void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
-    // Offset: 0x1F37070
+    // Offset: 0x1F41AA0
     void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
     // private System.Void PerformLayoutControl(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x1F37620
+    // Offset: 0x1F42050
     void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
     // private System.Void PerformLayoutCalculation(UnityEngine.RectTransform rect, UnityEngine.Events.UnityAction`1<UnityEngine.Component> action)
-    // Offset: 0x1F37354
+    // Offset: 0x1F41D84
     void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
     // static public System.Void MarkLayoutForRebuild(UnityEngine.RectTransform rect)
-    // Offset: 0x1F356B8
+    // Offset: 0x1F400E8
     static void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
     // static private System.Boolean ValidController(UnityEngine.RectTransform layoutRoot, System.Collections.Generic.List`1<UnityEngine.Component> comps)
-    // Offset: 0x1F37924
+    // Offset: 0x1F42354
     static bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
     // static private System.Void MarkLayoutRootForRebuild(UnityEngine.RectTransform controller)
-    // Offset: 0x1F37B00
+    // Offset: 0x1F42530
     static void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
     // public System.Void LayoutComplete()
-    // Offset: 0x1F37C5C
+    // Offset: 0x1F4268C
     void LayoutComplete();
     // public System.Void GraphicUpdateComplete()
-    // Offset: 0x1F37CE0
+    // Offset: 0x1F42710
     void GraphicUpdateComplete();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F37CE4
+    // Offset: 0x1F42714
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1F37CEC
+    // Offset: 0x1F4271C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x1F37D40
+    // Offset: 0x1F42770
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // public System.Void .ctor()
-    // Offset: 0x138F1D4
+    // Offset: 0x139A690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventsTestScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EventsTestScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventsTestScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x138F004
+    // Offset: 0x139A4C0
     void Init();
   }; // EventsTestScenesTransitionSetupDataSO
   #pragma pack(pop)

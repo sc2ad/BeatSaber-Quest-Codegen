@@ -43,13 +43,13 @@ namespace Priority_Queue {
     // Get instance field reference: private System.Int64 <InsertionIndex>k__BackingField
     [[deprecated("Use field access instead!")]] int64_t& dyn_$InsertionIndex$k__BackingField();
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0x141DA50
+    // Offset: 0x142915C
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0x141DA58
+    // Offset: 0x1429164
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x141DA60
+    // Offset: 0x142916C
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

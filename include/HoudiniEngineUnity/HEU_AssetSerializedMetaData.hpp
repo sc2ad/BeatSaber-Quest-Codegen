@@ -78,23 +78,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
     // public System.Boolean get_SoftDeleted()
-    // Offset: 0x171E430
+    // Offset: 0x1736FE8
     bool get_SoftDeleted();
     // public System.Void set_SoftDeleted(System.Boolean value)
-    // Offset: 0x171E438
+    // Offset: 0x1736FF0
     void set_SoftDeleted(bool value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> get_SavedCurveNodeData()
-    // Offset: 0x171E444
+    // Offset: 0x1736FFC
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
     // public System.Void .ctor()
-    // Offset: 0x171E4F8
+    // Offset: 0x17370B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetSerializedMetaData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetSerializedMetaData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetSerializedMetaData*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AssetSerializedMetaData other)
-    // Offset: 0x171E44C
+    // Offset: 0x1737004
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
   }; // HoudiniEngineUnity.HEU_AssetSerializedMetaData
   #pragma pack(pop)

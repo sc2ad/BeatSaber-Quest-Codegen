@@ -62,16 +62,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
-    // Offset: 0x29F81DC
+    // Offset: 0x2A11904
     ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
     // static public PlayersMissingEntitlementsNetSerializable Obtain()
-    // Offset: 0x29F81E4
+    // Offset: 0x2A1190C
     static ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Obtain();
     // public PlayersMissingEntitlementsNetSerializable Init(System.Collections.Generic.IEnumerable`1<System.String> playersWithoutEntitlements)
-    // Offset: 0x29F829C
+    // Offset: 0x2A119C4
     ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements);
     // public System.Void .ctor()
-    // Offset: 0x29F822C
+    // Offset: 0x2A11954
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,12 +80,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29F8324
+    // Offset: 0x2A11A4C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F843C
+    // Offset: 0x2A11B64
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

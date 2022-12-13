@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean showInternetGames
     [[deprecated("Use field access instead!")]] bool& dyn_showInternetGames();
     // public System.Void .ctor()
-    // Offset: 0x144F76C
+    // Offset: 0x145BE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServersFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServersFilter::.ctor");

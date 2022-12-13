@@ -56,16 +56,16 @@ namespace BeatmapSaveDataVersion3 {
     // Get instance field reference: private System.Single f
     [[deprecated("Use field access instead!")]] float& dyn_f();
     // public BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType get_eventType()
-    // Offset: 0x274C78C
+    // Offset: 0x26EF7EC
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType get_eventType();
     // public System.Int32 get_value()
-    // Offset: 0x274C794
+    // Offset: 0x26EF7F4
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x274C79C
+    // Offset: 0x26EF7FC
     float get_floatValue();
     // public System.Void .ctor(System.Single beat, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData/BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapEventType eventType, System.Int32 value, System.Single floatValue)
-    // Offset: 0x274C538
+    // Offset: 0x26EF598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::BasicEventData* New_ctor(float beat, ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapEventType eventType, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion3::BeatmapSaveData::BasicEventData::.ctor");

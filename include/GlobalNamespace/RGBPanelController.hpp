@@ -90,38 +90,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1420654
+    // Offset: 0x142BD60
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1420660
+    // Offset: 0x142BD6C
     void set_color(::UnityEngine::Color value);
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x142050C
+    // Offset: 0x142BC18
     void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x14205B0
+    // Offset: 0x142BCBC
     void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void .ctor()
-    // Offset: 0x1420BDC
+    // Offset: 0x142C2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RGBPanelController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RGBPanelController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RGBPanelController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1420860
+    // Offset: 0x142BF6C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1420964
+    // Offset: 0x142C070
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x1420B38
+    // Offset: 0x142C244
     void HandleSliderColorDidChange(::HMUI::ColorGradientSlider* slider, ::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x1420808
+    // Offset: 0x142BF14
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x142068C
+    // Offset: 0x142BD98
     void RefreshSlidersColors();
   }; // RGBPanelController
   #pragma pack(pop)

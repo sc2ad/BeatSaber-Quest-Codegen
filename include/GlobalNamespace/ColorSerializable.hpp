@@ -83,29 +83,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void .ctor(UnityEngine.Color color)
-    // Offset: 0x29F415C
+    // Offset: 0x2A0D884
     // ABORTED: conflicts with another method.  ColorSerializable(::UnityEngine::Color color);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x29F4168
+    // Offset: 0x2A0D890
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x29F41CC
+    // Offset: 0x2A0D8F4
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(ColorSerializable other)
-    // Offset: 0x29F423C
+    // Offset: 0x2A0D964
     bool Equals(::GlobalNamespace::ColorSerializable other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x29F4380
+    // Offset: 0x2A0DAA8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x29F4410
+    // Offset: 0x2A0DB38
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x29F4418
+    // Offset: 0x2A0DB40
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -37,22 +37,22 @@ namespace Org::BouncyCastle::Crypto::Digests {
   class Sha3Digest : public ::Org::BouncyCastle::Crypto::Digests::KeccakDigest {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Sha3Digest source)
-    // Offset: 0x1EB2674
+    // Offset: 0x1ED0C94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Sha3Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Sha3Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Sha3Digest*, creationType>(source)));
     }
     // static private System.Int32 CheckBitLength(System.Int32 bitLength)
-    // Offset: 0x1EB2500
+    // Offset: 0x1ED0B20
     static int CheckBitLength(int bitLength);
     // public override System.String get_AlgorithmName()
-    // Offset: 0x1EB26EC
+    // Offset: 0x1ED0D0C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.String KeccakDigest::get_AlgorithmName()
     ::StringW get_AlgorithmName();
     // public System.Void .ctor(System.Int32 bitLength)
-    // Offset: 0x1EB25EC
+    // Offset: 0x1ED0C0C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Void KeccakDigest::.ctor(System.Int32 bitLength)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,12 +61,12 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return THROW_UNLESS((::il2cpp_utils::New<Sha3Digest*, creationType>(bitLength)));
     }
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EB276C
+    // Offset: 0x1ED0D8C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1EB27B8
+    // Offset: 0x1ED0DD8
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: Org.BouncyCastle.Utilities.IMemoable KeccakDigest::Copy()
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();

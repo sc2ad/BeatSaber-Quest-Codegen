@@ -45,7 +45,7 @@ namespace UnityEngine::UI {
     ::UnityEngine::Sprite* m_PressedSprite;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10C252C
+    // [FormerlySerializedAsAttribute] Offset: 0x10C839C
     // private UnityEngine.Sprite m_SelectedSprite
     // Size: 0x8
     // Offset: 0x10
@@ -86,31 +86,31 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.Sprite m_DisabledSprite
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn_m_DisabledSprite();
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0x2B196F0
+    // Offset: 0x2B35F40
     ::UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0x2B196F8
+    // Offset: 0x2B35F48
     void set_highlightedSprite(::UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0x2B19700
+    // Offset: 0x2B35F50
     ::UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0x2B19708
+    // Offset: 0x2B35F58
     void set_pressedSprite(::UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0x2B19710
+    // Offset: 0x2B35F60
     ::UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0x2B19718
+    // Offset: 0x2B35F68
     void set_selectedSprite(::UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0x2B19720
+    // Offset: 0x2B35F70
     ::UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0x2B19728
+    // Offset: 0x2B35F78
     void set_disabledSprite(::UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0x2B19730
+    // Offset: 0x2B35F80
     bool Equals(::UnityEngine::UI::SpriteState other);
   }; // UnityEngine.UI.SpriteState
   #pragma pack(pop)

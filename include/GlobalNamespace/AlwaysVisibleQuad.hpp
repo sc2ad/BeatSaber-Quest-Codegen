@@ -49,17 +49,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__mesh();
     // public System.Void .ctor()
-    // Offset: 0x2ACAEDC
+    // Offset: 0x2AE772C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlwaysVisibleQuad* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlwaysVisibleQuad::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlwaysVisibleQuad*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2ACAC04
+    // Offset: 0x2AE7454
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x2ACAED0
+    // Offset: 0x2AE7720
     void OnDisable();
   }; // AlwaysVisibleQuad
   #pragma pack(pop)

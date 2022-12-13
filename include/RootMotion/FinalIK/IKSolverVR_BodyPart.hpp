@@ -104,19 +104,19 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: protected System.Int32 LOD
     [[deprecated("Use field access instead!")]] int& dyn_LOD();
     // public System.Single get_sqrMag()
-    // Offset: 0x2403AE0
+    // Offset: 0x244F06C
     float get_sqrMag();
     // private System.Void set_sqrMag(System.Single value)
-    // Offset: 0x2403AE8
+    // Offset: 0x244F074
     void set_sqrMag(float value);
     // public System.Single get_mag()
-    // Offset: 0x2403AF0
+    // Offset: 0x244F07C
     float get_mag();
     // private System.Void set_mag(System.Single value)
-    // Offset: 0x2403AF8
+    // Offset: 0x244F084
     void set_mag(float value);
     // protected System.Void .ctor()
-    // Offset: 0x2403A48
+    // Offset: 0x244EFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::BodyPart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::BodyPart::.ctor");
@@ -138,31 +138,31 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ResetOffsets();
     // public System.Void SetLOD(System.Int32 LOD)
-    // Offset: 0x2403B00
+    // Offset: 0x244F08C
     void SetLOD(int LOD);
     // public System.Void Read(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasChest, System.Boolean hasNeck, System.Boolean hasShoulders, System.Boolean hasToes, System.Boolean hasLegs, System.Int32 rootIndex, System.Int32 index)
-    // Offset: 0x2403B08
+    // Offset: 0x244F094
     void Read(::ArrayW<::UnityEngine::Vector3> positions, ::ArrayW<::UnityEngine::Quaternion> rotations, bool hasChest, bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int rootIndex, int index);
     // public System.Void MovePosition(UnityEngine.Vector3 position)
-    // Offset: 0x2403EC4
+    // Offset: 0x244F450
     void MovePosition(::UnityEngine::Vector3 position);
     // public System.Void MoveRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x2404030
+    // Offset: 0x244F5BC
     void MoveRotation(::UnityEngine::Quaternion rotation);
     // public System.Void Translate(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x24042C0
+    // Offset: 0x244F84C
     void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void TranslateRoot(UnityEngine.Vector3 newRootPos, UnityEngine.Quaternion newRootRot)
-    // Offset: 0x2404314
+    // Offset: 0x244F8A0
     void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
     // public System.Void RotateTo(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone bone, UnityEngine.Quaternion rotation, System.Single weight)
-    // Offset: 0x24033C8
+    // Offset: 0x244E954
     void RotateTo(::RootMotion::FinalIK::IKSolverVR::VirtualBone* bone, ::UnityEngine::Quaternion rotation, float weight);
     // public System.Void Visualize(UnityEngine.Color color)
-    // Offset: 0x2404500
+    // Offset: 0x244FA8C
     void Visualize(::UnityEngine::Color color);
     // public System.Void Visualize()
-    // Offset: 0x2404644
+    // Offset: 0x244FBD0
     void Visualize();
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.BodyPart
   #pragma pack(pop)

@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::VRPlatformSDK) == 0x4);
     // Padding between fields: vrPlatformSdk and: vrPlatformHelper
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0x10EA890
+    // [InjectAttribute] Offset: 0x10F2710
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x15F154C
+    // Offset: 0x1619430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActivateOnPlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ActivateOnPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivateOnPlatform*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x15F1464
+    // Offset: 0x1619348
     void Awake();
   }; // ActivateOnPlatform
   #pragma pack(pop)

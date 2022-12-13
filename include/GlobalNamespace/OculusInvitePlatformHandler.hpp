@@ -37,17 +37,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IInvitePlatformHandler*>(this);
     }
     // public System.Boolean get_isSupported()
-    // Offset: 0x1551984
+    // Offset: 0x155E658
     bool get_isSupported();
     // public System.Void .ctor()
-    // Offset: 0x15519EC
+    // Offset: 0x155E6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusInvitePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInvitePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInvitePlatformHandler*, creationType>()));
     }
     // public System.Void OpenInvitePanel()
-    // Offset: 0x155198C
+    // Offset: 0x155E660
     void OpenInvitePanel();
   }; // OculusInvitePlatformHandler
   #pragma pack(pop)

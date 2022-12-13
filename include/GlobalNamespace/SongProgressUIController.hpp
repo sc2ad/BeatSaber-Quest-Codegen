@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* progressSecondsText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118598
+    // [InjectAttribute] Offset: 0x11216F0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x48
@@ -151,17 +151,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _progressImageRectTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__progressImageRectTransform();
     // public System.Void .ctor()
-    // Offset: 0x1479208
+    // Offset: 0x148591C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongProgressUIController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongProgressUIController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongProgressUIController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1478D80
+    // Offset: 0x1485494
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1478EFC
+    // Offset: 0x1485610
     void Update();
   }; // SongProgressUIController
   #pragma pack(pop)

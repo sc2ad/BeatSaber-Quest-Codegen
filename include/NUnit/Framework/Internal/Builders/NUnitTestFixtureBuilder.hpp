@@ -68,29 +68,29 @@ namespace NUnit::Framework::Internal::Builders {
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
     // public System.Void .ctor()
-    // Offset: 0x1D5559C
+    // Offset: 0x1D5F140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestFixtureBuilder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestFixtureBuilder*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D58434
+    // Offset: 0x1D61FD8
     static void _cctor();
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x1D553BC
+    // Offset: 0x1D5EF60
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo, NUnit.Framework.Interfaces.ITestFixtureData testFixtureData)
-    // Offset: 0x1D57414
+    // Offset: 0x1D60FB8
     ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo, ::NUnit::Framework::Interfaces::ITestFixtureData* testFixtureData);
     // private System.Void AddTestCasesToFixture(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1D571A0
+    // Offset: 0x1D60D44
     void AddTestCasesToFixture(::NUnit::Framework::Internal::TestFixture* fixture);
     // private NUnit.Framework.Internal.Test BuildTestCase(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.TestSuite suite)
-    // Offset: 0x1D582D4
+    // Offset: 0x1D61E78
     ::NUnit::Framework::Internal::Test* BuildTestCase(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::TestSuite* suite);
     // static private System.Void CheckTestFixtureIsValid(NUnit.Framework.Internal.TestFixture fixture)
-    // Offset: 0x1D56E64
+    // Offset: 0x1D60A08
     static void CheckTestFixtureIsValid(::NUnit::Framework::Internal::TestFixture* fixture);
   }; // NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder
   #pragma pack(pop)

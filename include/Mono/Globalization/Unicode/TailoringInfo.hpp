@@ -61,7 +61,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public readonly System.Boolean FrenchSort
     [[deprecated("Use field access instead!")]] bool& dyn_FrenchSort();
     // public System.Void .ctor(System.Int32 lcid, System.Int32 tailoringIndex, System.Int32 tailoringCount, System.Boolean frenchSort)
-    // Offset: 0x1FC747C
+    // Offset: 0x1FD1AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::TailoringInfo::.ctor");

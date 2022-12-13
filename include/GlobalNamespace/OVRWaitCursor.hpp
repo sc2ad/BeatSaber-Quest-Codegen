@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 rotateSpeeds
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_rotateSpeeds();
     // public System.Void .ctor()
-    // Offset: 0x2560B14
+    // Offset: 0x253641C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRWaitCursor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRWaitCursor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRWaitCursor*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x2560A58
+    // Offset: 0x2536360
     void Update();
   }; // OVRWaitCursor
   #pragma pack(pop)

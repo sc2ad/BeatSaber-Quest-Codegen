@@ -52,10 +52,10 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.AccessControlType type
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::AccessControlType& dyn_type();
     // public System.Security.AccessControl.AccessControlType get_AccessControlType()
-    // Offset: 0x1B9A1FC
+    // Offset: 0x1BD496C
     ::System::Security::AccessControl::AccessControlType get_AccessControlType();
     // protected System.Void .ctor(System.Security.Principal.IdentityReference identity, System.Int32 accessMask, System.Boolean isInherited, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags, System.Security.AccessControl.AccessControlType type)
-    // Offset: 0x1B99F94
+    // Offset: 0x1BD4704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AccessRule* New_ctor(::System::Security::Principal::IdentityReference* identity, int accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::AccessRule::.ctor");

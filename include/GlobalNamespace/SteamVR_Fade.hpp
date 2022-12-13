@@ -82,32 +82,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean fadeOverlay
     [[deprecated("Use field access instead!")]] bool& dyn_fadeOverlay();
     // public System.Void .ctor()
-    // Offset: 0x18BAAD8
+    // Offset: 0x18DD504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Fade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Fade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Fade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x18BAB80
+    // Offset: 0x18DD5AC
     static void _cctor();
     // static public System.Void Start(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x18BA338
+    // Offset: 0x18DCD64
     static void Start(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // static public System.Void View(UnityEngine.Color newColor, System.Single duration)
-    // Offset: 0x18BA3FC
+    // Offset: 0x18DCE28
     static void View(::UnityEngine::Color newColor, float duration);
     // public System.Void OnStartFade(UnityEngine.Color newColor, System.Single duration, System.Boolean fadeOverlay)
-    // Offset: 0x18BA4C4
+    // Offset: 0x18DCEF0
     void OnStartFade(::UnityEngine::Color newColor, float duration, bool fadeOverlay);
     // private System.Void OnEnable()
-    // Offset: 0x18BA52C
+    // Offset: 0x18DCF58
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18BA6EC
+    // Offset: 0x18DD118
     void OnDisable();
     // private System.Void OnPostRender()
-    // Offset: 0x18BA7B0
+    // Offset: 0x18DD1DC
     void OnPostRender();
   }; // SteamVR_Fade
   #pragma pack(pop)

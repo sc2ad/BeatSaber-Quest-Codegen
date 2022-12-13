@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private PoseObjectIdSO _poseObjectId
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PoseObjectIdSO*& dyn__poseObjectId();
     // public UnityEngine.Transform get_objectTransform()
-    // Offset: 0x14180BC
+    // Offset: 0x14237C8
     ::UnityEngine::Transform* get_objectTransform();
     // public System.String get_id()
-    // Offset: 0x14180C4
+    // Offset: 0x14237D0
     ::StringW get_id();
     // public System.Void .ctor(UnityEngine.Transform transform, PoseObjectIdSO poseObjectId)
-    // Offset: 0x14180E0
+    // Offset: 0x14237EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoseObject* New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PoseObject::.ctor");

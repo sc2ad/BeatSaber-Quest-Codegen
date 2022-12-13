@@ -36,10 +36,10 @@ namespace Zenject {
   class SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {
     public:
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DB4994
+    // Offset: 0x1DD3EE4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public System.Void .ctor()
-    // Offset: 0x1DB4944
+    // Offset: 0x1DD3E94
     // Implemented from: Zenject.Installer`1
     // Base method: System.Void Installer_1::.ctor()
     // Base method: System.Void InstallerBase::.ctor()
@@ -49,12 +49,12 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<SignalBusInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1DB4814
+    // Offset: 0x1DD3D64
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DB49EC
+    // Offset: 0x1DD3F3C
     // Implemented from: Zenject.Installer`1
     // Base method: Zenject.InjectTypeInfo Installer_1::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

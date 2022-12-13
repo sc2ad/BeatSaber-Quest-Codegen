@@ -58,47 +58,47 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x19FF268
+    // Offset: 0x1A23000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChallengeOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::ChallengeOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeOptions*, creationType>()));
     }
     // public System.Void SetDescription(System.String value)
-    // Offset: 0x19FF2E0
+    // Offset: 0x1A23078
     void SetDescription(::StringW value);
     // public System.Void SetEndDate(System.DateTime value)
-    // Offset: 0x19FF35C
+    // Offset: 0x1A230F4
     void SetEndDate(::System::DateTime value);
     // public System.Void SetIncludeActiveChallenges(System.Boolean value)
-    // Offset: 0x19FF3D8
+    // Offset: 0x1A23170
     void SetIncludeActiveChallenges(bool value);
     // public System.Void SetIncludeFutureChallenges(System.Boolean value)
-    // Offset: 0x19FF454
+    // Offset: 0x1A231EC
     void SetIncludeFutureChallenges(bool value);
     // public System.Void SetIncludePastChallenges(System.Boolean value)
-    // Offset: 0x19FF4D0
+    // Offset: 0x1A23268
     void SetIncludePastChallenges(bool value);
     // public System.Void SetLeaderboardName(System.String value)
-    // Offset: 0x19FF54C
+    // Offset: 0x1A232E4
     void SetLeaderboardName(::StringW value);
     // public System.Void SetStartDate(System.DateTime value)
-    // Offset: 0x19FF5C8
+    // Offset: 0x1A23360
     void SetStartDate(::System::DateTime value);
     // public System.Void SetTitle(System.String value)
-    // Offset: 0x19FF644
+    // Offset: 0x1A233DC
     void SetTitle(::StringW value);
     // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x19FF6C0
+    // Offset: 0x1A23458
     void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
     // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x19FF73C
+    // Offset: 0x1A234D4
     void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
-    // Offset: 0x19FF7B8
+    // Offset: 0x1A23550
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x19FF808
+    // Offset: 0x1A235A0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

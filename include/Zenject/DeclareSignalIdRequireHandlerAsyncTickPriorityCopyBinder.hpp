@@ -37,10 +37,10 @@ namespace Zenject {
   class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder : public ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder {
     public:
     // public Zenject.DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder WithId(System.Object identifier)
-    // Offset: 0x17BDE58
+    // Offset: 0x17C6590
     ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* WithId(::Il2CppObject* identifier);
     // public System.Void .ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
-    // Offset: 0x17BDE48
+    // Offset: 0x17C6580
     // Implemented from: Zenject.DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder
     // Base method: System.Void DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder::.ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)
     // Base method: System.Void DeclareSignalAsyncTickPriorityCopyBinder::.ctor(Zenject.SignalDeclarationBindInfo signalBindInfo)

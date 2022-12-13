@@ -86,36 +86,36 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 m_C
     [[deprecated("Use field access instead!")]] int& dyn_m_C();
     // public System.Int32 get_a()
-    // Offset: 0x2A01CFC
+    // Offset: 0x2A1B424
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0x2A01D04
+    // Offset: 0x2A1B42C
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0x2A01D0C
+    // Offset: 0x2A1B434
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0x2A01D14
+    // Offset: 0x2A1B43C
     ::System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0x2A01DAC
+    // Offset: 0x2A1B4D4
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c);
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x2A01DB8
+    // Offset: 0x2A1B4E0
     bool Equals(::UnityEngine::ProBuilder::Triangle other);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0x2A01EB4
+    // Offset: 0x2A1B5DC
     bool IsAdjacent(::UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0x2A01F58
+    // Offset: 0x2A1B680
     bool ContainsEdge(::UnityEngine::ProBuilder::Edge edge);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2A01DEC
+    // Offset: 0x2A1B514
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A01E94
+    // Offset: 0x2A1B5BC
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

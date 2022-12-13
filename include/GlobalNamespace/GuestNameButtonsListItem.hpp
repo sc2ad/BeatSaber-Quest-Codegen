@@ -75,23 +75,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _buttonPressed
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn__buttonPressed();
     // public System.Void set_nameText(System.String value)
-    // Offset: 0x13EFE68
+    // Offset: 0x13CF33C
     void set_nameText(::StringW value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0x13EFE84
+    // Offset: 0x13CF358
     void set_buttonPressed(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13EFF20
+    // Offset: 0x13CF3F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuestNameButtonsListItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GuestNameButtonsListItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuestNameButtonsListItem*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x13EFE8C
+    // Offset: 0x13CF360
     void Awake();
     // private System.Void <Awake>b__7_0()
-    // Offset: 0x13EFF28
+    // Offset: 0x13CF3FC
     void $Awake$b__7_0();
   }; // GuestNameButtonsListItem
   #pragma pack(pop)

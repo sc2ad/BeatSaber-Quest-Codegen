@@ -86,35 +86,35 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // public UnityEngine.Vector3 get_IKOffset()
-    // Offset: 0x22FB088
+    // Offset: 0x22DF148
     ::UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
-    // Offset: 0x22FB094
+    // Offset: 0x22DF154
     void set_IKOffset(::UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
-    // Offset: 0x22FB0A0
+    // Offset: 0x22DF160
     float get_heightOffset();
     // private System.Void set_heightOffset(System.Single value)
-    // Offset: 0x22FB0A8
+    // Offset: 0x22DF168
     void set_heightOffset(float value);
     // public System.Void .ctor()
-    // Offset: 0x22F8B00
+    // Offset: 0x22DCBC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounding::Pelvis* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounding::Pelvis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Pelvis*, creationType>()));
     }
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
-    // Offset: 0x22F8BEC
+    // Offset: 0x22DCCAC
     void Initiate(::RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
-    // Offset: 0x22F9754
+    // Offset: 0x22DD814
     void Reset();
     // public System.Void OnEnable()
-    // Offset: 0x22FB0B0
+    // Offset: 0x22DF170
     void OnEnable();
     // public System.Void Process(System.Single lowestOffset, System.Single highestOffset, System.Boolean isGrounded)
-    // Offset: 0x22F94E8
+    // Offset: 0x22DD5A8
     void Process(float lowestOffset, float highestOffset, bool isGrounded);
   }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis
   #pragma pack(pop)

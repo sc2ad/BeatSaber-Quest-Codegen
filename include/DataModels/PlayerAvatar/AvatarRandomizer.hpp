@@ -37,22 +37,22 @@ namespace DataModels::PlayerAvatar {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarRandomizer : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1128124
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x113027C
     // Get static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
     static ::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();
     // Set static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
     static void _set__randomizeColorsParamsCollection(::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1439C60
+    // Offset: 0x144536C
     static void _cctor();
     // static public System.Void RandomizeAll(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
-    // Offset: 0x143A22C
+    // Offset: 0x1445938
     static void RandomizeAll(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeModels(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
-    // Offset: 0x143A2A8
+    // Offset: 0x14459B4
     static void RandomizeModels(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeColors(AvatarData avatarData)
-    // Offset: 0x143A3DC
+    // Offset: 0x1445AE8
     static void RandomizeColors(::GlobalNamespace::AvatarData* avatarData);
   }; // DataModels.PlayerAvatar.AvatarRandomizer
   #pragma pack(pop)

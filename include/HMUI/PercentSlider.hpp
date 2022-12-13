@@ -29,7 +29,7 @@ namespace HMUI {
   class PercentSlider : public ::HMUI::RangeValuesTextSlider {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1708F78
+    // Offset: 0x16F6980
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -39,7 +39,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<PercentSlider*, creationType>()));
     }
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x1708EE8
+    // Offset: 0x16F68F0
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::StringW TextForValue(float value);

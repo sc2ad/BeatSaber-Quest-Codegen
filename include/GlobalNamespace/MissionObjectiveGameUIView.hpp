@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
     char __padding9[0x4] = {};
-    // [SpaceAttribute] Offset: 0x1118258
+    // [SpaceAttribute] Offset: 0x11213B0
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x80
@@ -174,26 +174,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveChecker _missionObjectiveChecker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveChecker*& dyn__missionObjectiveChecker();
     // public System.Void .ctor()
-    // Offset: 0x1489834
+    // Offset: 0x14960A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionObjectiveGameUIView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveGameUIView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveGameUIView*, creationType>()));
     }
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1489470
+    // Offset: 0x1495CDC
     void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x148982C
+    // Offset: 0x1496098
     void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1489830
+    // Offset: 0x149609C
     void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0x14896BC
+    // Offset: 0x1495F28
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0x14897D0
+    // Offset: 0x149603C
     void RefreshValue();
   }; // MissionObjectiveGameUIView
   #pragma pack(pop)

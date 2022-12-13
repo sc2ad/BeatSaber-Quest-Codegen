@@ -127,14 +127,14 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
     [[deprecated("Use field access instead!")]] ::LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
     // public System.Void .ctor()
-    // Offset: 0x2B675A0
+    // Offset: 0x2B8C6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2B6765C
+    // Offset: 0x2B8C784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
@@ -150,7 +150,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<uint64_t, false>(this, ___generic__method);
     }
     // protected LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B677A0
+    // Offset: 0x2B8C8C8
     ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -191,13 +191,13 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, constructor);
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B678E0
+    // Offset: 0x2B8CA08
     void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2B67938
+    // Offset: 0x2B8CA60
     void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2B67930
+    // Offset: 0x2B8CA58
     void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -276,7 +276,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x2B67994
+    // Offset: 0x2B8CABC
     void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFFFFFFFFFF

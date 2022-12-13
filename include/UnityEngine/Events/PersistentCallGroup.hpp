@@ -44,7 +44,7 @@ namespace UnityEngine::Events {
   class PersistentCallGroup : public ::Il2CppObject {
     public:
     public:
-    // [FormerlySerializedAsAttribute] Offset: 0x1089108
+    // [FormerlySerializedAsAttribute] Offset: 0x1090F78
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -59,17 +59,17 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Int32 get_Count()
-    // Offset: 0x2031558
+    // Offset: 0x20097A0
     int get_Count();
     // public System.Void .ctor()
-    // Offset: 0x20314E4
+    // Offset: 0x200972C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentCallGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::PersistentCallGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCallGroup*, creationType>()));
     }
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x20315A8
+    // Offset: 0x20097F0
     void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
   }; // UnityEngine.Events.PersistentCallGroup
   #pragma pack(pop)

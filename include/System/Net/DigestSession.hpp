@@ -100,53 +100,53 @@ namespace System::Net {
     // Get instance field reference: private System.String _cnonce
     [[deprecated("Use field access instead!")]] ::StringW& dyn__cnonce();
     // public System.String get_Algorithm()
-    // Offset: 0x1A9CDB8
+    // Offset: 0x1AAE938
     ::StringW get_Algorithm();
     // public System.String get_Realm()
-    // Offset: 0x1A9CDD0
+    // Offset: 0x1AAE950
     ::StringW get_Realm();
     // public System.String get_Nonce()
-    // Offset: 0x1A9BE40
+    // Offset: 0x1AAD9C0
     ::StringW get_Nonce();
     // public System.String get_Opaque()
-    // Offset: 0x1A9CDE8
+    // Offset: 0x1AAE968
     ::StringW get_Opaque();
     // public System.String get_QOP()
-    // Offset: 0x1A9CE00
+    // Offset: 0x1AAE980
     ::StringW get_QOP();
     // public System.String get_CNonce()
-    // Offset: 0x1A9CE18
+    // Offset: 0x1AAE998
     ::StringW get_CNonce();
     // public System.DateTime get_LastUse()
-    // Offset: 0x1A9D3B0
+    // Offset: 0x1AAEF30
     ::System::DateTime get_LastUse();
     // static private System.Void .cctor()
-    // Offset: 0x1A9CD60
+    // Offset: 0x1AAE8E0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A9BCE4
+    // Offset: 0x1AAD864
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestSession* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestSession*, creationType>()));
     }
     // public System.Boolean Parse(System.String challenge)
-    // Offset: 0x1A9BD64
+    // Offset: 0x1AAD8E4
     bool Parse(::StringW challenge);
     // private System.String HashToHexString(System.String toBeHashed)
-    // Offset: 0x1A9CF14
+    // Offset: 0x1AAEA94
     ::StringW HashToHexString(::StringW toBeHashed);
     // private System.String HA1(System.String username, System.String password)
-    // Offset: 0x1A9D06C
+    // Offset: 0x1AAEBEC
     ::StringW HA1(::StringW username, ::StringW password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A9D18C
+    // Offset: 0x1AAED0C
     ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
-    // Offset: 0x1A9D260
+    // Offset: 0x1AAEDE0
     ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1A9BE58
+    // Offset: 0x1AAD9D8
     ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.DigestSession
   #pragma pack(pop)

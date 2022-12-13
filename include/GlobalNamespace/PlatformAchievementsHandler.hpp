@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   class PlatformAchievementsHandler : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x1570780
+    // Offset: 0x157E464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAchievementsHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformAchievementsHandler::.ctor");

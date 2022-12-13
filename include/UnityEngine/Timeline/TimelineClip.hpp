@@ -204,7 +204,7 @@ namespace UnityEngine::Timeline {
     ::UnityEngine::Object* m_Asset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0x10D2C5C
+    // [FormerlySerializedAsAttribute] Offset: 0x10DAACC
     // private System.Double m_Duration
     // Size: 0x8
     // Offset: 0x30
@@ -421,275 +421,275 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.String m_DisplayName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_DisplayName();
     // public System.Boolean get_hasPreExtrapolation()
-    // Offset: 0x2AABA0C
+    // Offset: 0x2AC6014
     bool get_hasPreExtrapolation();
     // public System.Boolean get_hasPostExtrapolation()
-    // Offset: 0x2AABA2C
+    // Offset: 0x2AC6034
     bool get_hasPostExtrapolation();
     // public System.Double get_timeScale()
-    // Offset: 0x2AABA4C
+    // Offset: 0x2AC6054
     double get_timeScale();
     // public System.Void set_timeScale(System.Double value)
-    // Offset: 0x2AABC2C
+    // Offset: 0x2AC6234
     void set_timeScale(double value);
     // public System.Double get_start()
-    // Offset: 0x2AABD18
+    // Offset: 0x2AC6320
     double get_start();
     // public System.Void set_start(System.Double value)
-    // Offset: 0x2AABD20
+    // Offset: 0x2AC6328
     void set_start(double value);
     // public System.Double get_duration()
-    // Offset: 0x2AABF94
+    // Offset: 0x2AC659C
     double get_duration();
     // public System.Void set_duration(System.Double value)
-    // Offset: 0x2AABF9C
+    // Offset: 0x2AC65A4
     void set_duration(double value);
     // public System.Double get_end()
-    // Offset: 0x2AAC054
+    // Offset: 0x2AC665C
     double get_end();
     // public System.Double get_clipIn()
-    // Offset: 0x2AAC064
+    // Offset: 0x2AC666C
     double get_clipIn();
     // public System.Void set_clipIn(System.Double value)
-    // Offset: 0x2AAC090
+    // Offset: 0x2AC6698
     void set_clipIn(double value);
     // public System.String get_displayName()
-    // Offset: 0x2AAC174
+    // Offset: 0x2AC677C
     ::StringW get_displayName();
     // public System.Void set_displayName(System.String value)
-    // Offset: 0x2AAC17C
+    // Offset: 0x2AC6784
     void set_displayName(::StringW value);
     // public System.Double get_clipAssetDuration()
-    // Offset: 0x2AAC184
+    // Offset: 0x2AC678C
     double get_clipAssetDuration();
     // public UnityEngine.AnimationClip get_curves()
-    // Offset: 0x2AAC254
+    // Offset: 0x2AC685C
     ::UnityEngine::AnimationClip* get_curves();
     // System.Void set_curves(UnityEngine.AnimationClip value)
-    // Offset: 0x2AAC25C
+    // Offset: 0x2AC6864
     void set_curves(::UnityEngine::AnimationClip* value);
     // private System.String UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName()
-    // Offset: 0x2AAC264
+    // Offset: 0x2AC686C
     ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // public System.Boolean get_hasCurves()
-    // Offset: 0x2AAC2CC
+    // Offset: 0x2AC68D4
     bool get_hasCurves();
     // public UnityEngine.Object get_asset()
-    // Offset: 0x2AAC368
+    // Offset: 0x2AC6970
     ::UnityEngine::Object* get_asset();
     // public System.Void set_asset(UnityEngine.Object value)
-    // Offset: 0x2AAC370
+    // Offset: 0x2AC6978
     void set_asset(::UnityEngine::Object* value);
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_assetOwner()
-    // Offset: 0x2AAC378
+    // Offset: 0x2AC6980
     ::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
     // private UnityEngine.Timeline.TrackAsset UnityEngine.Timeline.ICurvesOwner.get_targetTrack()
-    // Offset: 0x2AAC380
+    // Offset: 0x2AC6988
     ::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
     // public UnityEngine.Object get_underlyingAsset()
-    // Offset: 0x2AAC388
+    // Offset: 0x2AC6990
     ::UnityEngine::Object* get_underlyingAsset();
     // public System.Void set_underlyingAsset(UnityEngine.Object value)
-    // Offset: 0x2AAC390
+    // Offset: 0x2AC6998
     void set_underlyingAsset(::UnityEngine::Object* value);
     // public UnityEngine.Timeline.TrackAsset get_parentTrack()
-    // Offset: 0x2AAC394
+    // Offset: 0x2AC699C
     ::UnityEngine::Timeline::TrackAsset* get_parentTrack();
     // public System.Void set_parentTrack(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x2AAC39C
+    // Offset: 0x2AC69A4
     void set_parentTrack(::UnityEngine::Timeline::TrackAsset* value);
     // public System.Double get_easeInDuration()
-    // Offset: 0x2AAC4A8
+    // Offset: 0x2AC6AB0
     double get_easeInDuration();
     // public System.Void set_easeInDuration(System.Double value)
-    // Offset: 0x2AAC5AC
+    // Offset: 0x2AC6BB4
     void set_easeInDuration(double value);
     // public System.Double get_easeOutDuration()
-    // Offset: 0x2AAC6B0
+    // Offset: 0x2AC6CB8
     double get_easeOutDuration();
     // public System.Void set_easeOutDuration(System.Double value)
-    // Offset: 0x2AAC7B4
+    // Offset: 0x2AC6DBC
     void set_easeOutDuration(double value);
     // public System.Double get_eastOutTime()
-    // Offset: 0x2AAC8B8
+    // Offset: 0x2AC6EC0
     double get_eastOutTime();
     // public System.Double get_easeOutTime()
-    // Offset: 0x2AAC8F0
+    // Offset: 0x2AC6EF8
     double get_easeOutTime();
     // public System.Double get_blendInDuration()
-    // Offset: 0x2AAC928
+    // Offset: 0x2AC6F30
     double get_blendInDuration();
     // public System.Void set_blendInDuration(System.Double value)
-    // Offset: 0x2AAC954
+    // Offset: 0x2AC6F5C
     void set_blendInDuration(double value);
     // public System.Double get_blendOutDuration()
-    // Offset: 0x2AAC9EC
+    // Offset: 0x2AC6FF4
     double get_blendOutDuration();
     // public System.Void set_blendOutDuration(System.Double value)
-    // Offset: 0x2AACA18
+    // Offset: 0x2AC7020
     void set_blendOutDuration(double value);
     // public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode get_blendInCurveMode()
-    // Offset: 0x2AACAB0
+    // Offset: 0x2AC70B8
     ::UnityEngine::Timeline::TimelineClip::BlendCurveMode get_blendInCurveMode();
     // public System.Void set_blendInCurveMode(UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode value)
-    // Offset: 0x2AACAB8
+    // Offset: 0x2AC70C0
     void set_blendInCurveMode(::UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
     // public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode get_blendOutCurveMode()
-    // Offset: 0x2AACAC0
+    // Offset: 0x2AC70C8
     ::UnityEngine::Timeline::TimelineClip::BlendCurveMode get_blendOutCurveMode();
     // public System.Void set_blendOutCurveMode(UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode value)
-    // Offset: 0x2AACAC8
+    // Offset: 0x2AC70D0
     void set_blendOutCurveMode(::UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
     // public System.Boolean get_hasBlendIn()
-    // Offset: 0x2AAC77C
+    // Offset: 0x2AC6D84
     bool get_hasBlendIn();
     // public System.Boolean get_hasBlendOut()
-    // Offset: 0x2AAC574
+    // Offset: 0x2AC6B7C
     bool get_hasBlendOut();
     // public UnityEngine.AnimationCurve get_mixInCurve()
-    // Offset: 0x2AACAD0
+    // Offset: 0x2AC70D8
     ::UnityEngine::AnimationCurve* get_mixInCurve();
     // public System.Void set_mixInCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0x2AACB84
+    // Offset: 0x2AC718C
     void set_mixInCurve(::UnityEngine::AnimationCurve* value);
     // public System.Single get_mixInPercentage()
-    // Offset: 0x2AACB8C
+    // Offset: 0x2AC7194
     float get_mixInPercentage();
     // public System.Double get_mixInDuration()
-    // Offset: 0x2AACBB8
+    // Offset: 0x2AC71C0
     double get_mixInDuration();
     // public UnityEngine.AnimationCurve get_mixOutCurve()
-    // Offset: 0x2AACC0C
+    // Offset: 0x2AC7214
     ::UnityEngine::AnimationCurve* get_mixOutCurve();
     // public System.Void set_mixOutCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0x2AACCC0
+    // Offset: 0x2AC72C8
     void set_mixOutCurve(::UnityEngine::AnimationCurve* value);
     // public System.Double get_mixOutTime()
-    // Offset: 0x2AACCC8
+    // Offset: 0x2AC72D0
     double get_mixOutTime();
     // public System.Double get_mixOutDuration()
-    // Offset: 0x2AACD00
+    // Offset: 0x2AC7308
     double get_mixOutDuration();
     // public System.Single get_mixOutPercentage()
-    // Offset: 0x2AACD54
+    // Offset: 0x2AC735C
     float get_mixOutPercentage();
     // public System.Boolean get_recordable()
-    // Offset: 0x2AACD80
+    // Offset: 0x2AC7388
     bool get_recordable();
     // System.Void set_recordable(System.Boolean value)
-    // Offset: 0x2AACD88
+    // Offset: 0x2AC7390
     void set_recordable(bool value);
     // public System.Collections.Generic.List`1<System.String> get_exposedParameters()
-    // Offset: 0x2AACD94
+    // Offset: 0x2AC739C
     ::System::Collections::Generic::List_1<::StringW>* get_exposedParameters();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x2AABB30
+    // Offset: 0x2AC6138
     ::UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public UnityEngine.AnimationClip get_animationClip()
-    // Offset: 0x2AAD4B4
+    // Offset: 0x2AC7ABC
     ::UnityEngine::AnimationClip* get_animationClip();
     // public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation get_postExtrapolationMode()
-    // Offset: 0x2AAD5C0
+    // Offset: 0x2AC7BC8
     ::UnityEngine::Timeline::TimelineClip::ClipExtrapolation get_postExtrapolationMode();
     // System.Void set_postExtrapolationMode(UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation value)
-    // Offset: 0x2AAD5F0
+    // Offset: 0x2AC7BF8
     void set_postExtrapolationMode(::UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
     // public UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation get_preExtrapolationMode()
-    // Offset: 0x2AAD628
+    // Offset: 0x2AC7C30
     ::UnityEngine::Timeline::TimelineClip::ClipExtrapolation get_preExtrapolationMode();
     // System.Void set_preExtrapolationMode(UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation value)
-    // Offset: 0x2AAD658
+    // Offset: 0x2AC7C60
     void set_preExtrapolationMode(::UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
     // public System.Double get_extrapolatedStart()
-    // Offset: 0x2AAD6EC
+    // Offset: 0x2AC7CF4
     double get_extrapolatedStart();
     // public System.Double get_extrapolatedDuration()
-    // Offset: 0x2AAD704
+    // Offset: 0x2AC7D0C
     double get_extrapolatedDuration();
     // System.Void .ctor(UnityEngine.Timeline.TrackAsset parent)
-    // Offset: 0x2AAB8B8
+    // Offset: 0x2AC5EC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineClip* New_ctor(::UnityEngine::Timeline::TrackAsset* parent) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineClip*, creationType>(parent)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AADE08
+    // Offset: 0x2AC8410
     static void _cctor();
     // private System.Void UpgradeToLatestVersion()
-    // Offset: 0x2AAB844
+    // Offset: 0x2AC5E4C
     void UpgradeToLatestVersion();
     // public UnityEngine.Timeline.TrackAsset GetParentTrack()
-    // Offset: 0x2AAC3A0
+    // Offset: 0x2AC69A8
     ::UnityEngine::Timeline::TrackAsset* GetParentTrack();
     // System.Void SetParentTrack_Internal(UnityEngine.Timeline.TrackAsset newParentTrack)
-    // Offset: 0x2AAB8F8
+    // Offset: 0x2AC5F00
     void SetParentTrack_Internal(::UnityEngine::Timeline::TrackAsset* newParentTrack);
     // System.Int32 Hash()
-    // Offset: 0x2AACE08
+    // Offset: 0x2AC7410
     int Hash();
     // public System.Single EvaluateMixOut(System.Double time)
-    // Offset: 0x2AACEC8
+    // Offset: 0x2AC74D0
     float EvaluateMixOut(double time);
     // public System.Single EvaluateMixIn(System.Double time)
-    // Offset: 0x2AAD004
+    // Offset: 0x2AC760C
     float EvaluateMixIn(double time);
     // static private UnityEngine.AnimationCurve GetDefaultMixInCurve()
-    // Offset: 0x2AACB6C
+    // Offset: 0x2AC7174
     static ::UnityEngine::AnimationCurve* GetDefaultMixInCurve();
     // static private UnityEngine.AnimationCurve GetDefaultMixOutCurve()
-    // Offset: 0x2AACCA8
+    // Offset: 0x2AC72B0
     static ::UnityEngine::AnimationCurve* GetDefaultMixOutCurve();
     // public System.Double ToLocalTime(System.Double time)
-    // Offset: 0x2AAD11C
+    // Offset: 0x2AC7724
     double ToLocalTime(double time);
     // public System.Double ToLocalTimeUnbound(System.Double time)
-    // Offset: 0x2AAD408
+    // Offset: 0x2AC7A10
     double ToLocalTimeUnbound(double time);
     // System.Double FromLocalTimeUnbound(System.Double time)
-    // Offset: 0x2AAD464
+    // Offset: 0x2AC7A6C
     double FromLocalTimeUnbound(double time);
     // static private System.Double SanitizeTimeValue(System.Double value, System.Double defaultValue)
-    // Offset: 0x2AABE2C
+    // Offset: 0x2AC6434
     static double SanitizeTimeValue(double value, double defaultValue);
     // System.Void SetPostExtrapolationTime(System.Double time)
-    // Offset: 0x2AAD690
+    // Offset: 0x2AC7C98
     void SetPostExtrapolationTime(double time);
     // System.Void SetPreExtrapolationTime(System.Double time)
-    // Offset: 0x2AAD698
+    // Offset: 0x2AC7CA0
     void SetPreExtrapolationTime(double time);
     // public System.Boolean IsExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x2AAD6A0
+    // Offset: 0x2AC7CA8
     bool IsExtrapolatedTime(double sequenceTime);
     // public System.Boolean IsPreExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x2AAD21C
+    // Offset: 0x2AC7824
     bool IsPreExtrapolatedTime(double sequenceTime);
     // public System.Boolean IsPostExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x2AAD3A4
+    // Offset: 0x2AC79AC
     bool IsPostExtrapolatedTime(double sequenceTime);
     // static private System.Double GetExtrapolatedTime(System.Double time, UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation mode, System.Double duration)
-    // Offset: 0x2AAD278
+    // Offset: 0x2AC7880
     static double GetExtrapolatedTime(double time, ::UnityEngine::Timeline::TimelineClip::ClipExtrapolation mode, double duration);
     // public System.Void CreateCurves(System.String curvesClipName)
-    // Offset: 0x2AAD7DC
+    // Offset: 0x2AC7DE4
     void CreateCurves(::StringW curvesClipName);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x2AADA78
+    // Offset: 0x2AC8080
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x2AADA84
+    // Offset: 0x2AC808C
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void ConformEaseValues()
-    // Offset: 0x2AADC90
+    // Offset: 0x2AC8298
     void ConformEaseValues();
     // static private System.Double CalculateEasingRatio(System.Double easeIn, System.Double easeOut)
-    // Offset: 0x2AADD30
+    // Offset: 0x2AC8338
     static double CalculateEasingRatio(double easeIn, double easeOut);
     // private System.Void UpdateDirty(System.Double oldValue, System.Double newValue)
-    // Offset: 0x2AABD14
+    // Offset: 0x2AC631C
     void UpdateDirty(double oldValue, double newValue);
     // public override System.String ToString()
-    // Offset: 0x2AADABC
+    // Offset: 0x2AC80C4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

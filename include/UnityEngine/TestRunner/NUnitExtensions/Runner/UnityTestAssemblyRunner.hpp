@@ -127,50 +127,50 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <TopLevelWorkItem>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*& dyn_$TopLevelWorkItem$k__BackingField();
     // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
-    // Offset: 0x198E0FC
+    // Offset: 0x19B1D74
     ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
     // protected System.Void set_Context(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x198E104
+    // Offset: 0x19B1D7C
     void set_Context(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // protected System.Void set_Settings(System.Collections.Generic.IDictionary`2<System.String,System.Object> value)
-    // Offset: 0x198E10C
+    // Offset: 0x19B1D84
     void set_Settings(::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* value);
     // public NUnit.Framework.Interfaces.ITest get_LoadedTest()
-    // Offset: 0x198E114
+    // Offset: 0x19B1D8C
     ::NUnit::Framework::Interfaces::ITest* get_LoadedTest();
     // protected System.Void set_LoadedTest(NUnit.Framework.Interfaces.ITest value)
-    // Offset: 0x198E11C
+    // Offset: 0x19B1D94
     void set_LoadedTest(::NUnit::Framework::Interfaces::ITest* value);
     // public NUnit.Framework.Interfaces.ITestResult get_Result()
-    // Offset: 0x198E124
+    // Offset: 0x19B1D9C
     ::NUnit::Framework::Interfaces::ITestResult* get_Result();
     // public System.Boolean get_IsTestRunning()
-    // Offset: 0x198E13C
+    // Offset: 0x19B1DB4
     bool get_IsTestRunning();
     // public System.Boolean get_IsTestComplete()
-    // Offset: 0x198E15C
+    // Offset: 0x19B1DD4
     bool get_IsTestComplete();
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem get_TopLevelWorkItem()
-    // Offset: 0x198E69C
+    // Offset: 0x19B2314
     ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* get_TopLevelWorkItem();
     // public System.Void set_TopLevelWorkItem(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem value)
-    // Offset: 0x198E6A4
+    // Offset: 0x19B231C
     void set_TopLevelWorkItem(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* value);
     // public System.Void .ctor(UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder builder, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x198E17C
+    // Offset: 0x19B1DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestAssemblyRunner* New_ctor(::UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder* builder, ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestAssemblyRunner*, creationType>(builder, factory)));
     }
     // public NUnit.Framework.Interfaces.ITest Load(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform testPlatform, System.Collections.Generic.IDictionary`2<System.String,System.Object> settings)
-    // Offset: 0x198E2A4
+    // Offset: 0x19B1F1C
     ::NUnit::Framework::Interfaces::ITest* Load(::ArrayW<::System::Reflection::Assembly*> assemblies, ::UnityEngine::TestTools::TestPlatform testPlatform, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* settings);
     // public System.Collections.IEnumerable Run(NUnit.Framework.Interfaces.ITestListener listener, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x198E5F8
+    // Offset: 0x19B2270
     ::System::Collections::IEnumerable* Run(::NUnit::Framework::Interfaces::ITestListener* listener, ::NUnit::Framework::Interfaces::ITestFilter* filter);
     // public System.Void StopRun()
-    // Offset: 0x198E6AC
+    // Offset: 0x19B2324
     void StopRun();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestAssemblyRunner
   #pragma pack(pop)

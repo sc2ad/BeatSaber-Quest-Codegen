@@ -43,29 +43,29 @@ namespace GlobalNamespace {
   class MissionNodesHelper : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1487830
+    // Offset: 0x149409C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodesHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodesHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodesHelper*, creationType>()));
     }
     // static public System.Collections.Generic.HashSet`1<MissionNode> GetAllNodesFromRoot(MissionNode root)
-    // Offset: 0x148738C
+    // Offset: 0x1493BF8
     static ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* GetAllNodesFromRoot(::GlobalNamespace::MissionNode* root);
     // static private System.Void VisitAllTree(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0x1487400
+    // Offset: 0x1493C6C
     static void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visitedNodes);
     // static public System.Boolean CycleDetection(MissionNode node)
-    // Offset: 0x14874DC
+    // Offset: 0x1493D48
     static bool CycleDetection(::GlobalNamespace::MissionNode* node);
     // static private System.Boolean CycleDetection(MissionNode node, System.Int32 layer, System.Collections.Generic.Dictionary`2<MissionNode,System.Int32> layers)
-    // Offset: 0x148754C
+    // Offset: 0x1493DB8
     static bool CycleDetection(::GlobalNamespace::MissionNode* node, int layer, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MissionNode*, int>* layers);
     // static public System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode rootNode)
-    // Offset: 0x148768C
+    // Offset: 0x1493EF8
     static bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* rootNode);
     // static private System.Boolean FinalNodeIsFinal(MissionNode finalNode, MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visitedNodes)
-    // Offset: 0x1487708
+    // Offset: 0x1493F74
     static bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visitedNodes);
   }; // MissionNodesHelper
   #pragma pack(pop)

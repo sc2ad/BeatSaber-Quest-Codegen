@@ -46,17 +46,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapDataItem,System.Boolean> <>9__17_0
     static void _set_$$9__17_0(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2749EAC
+    // Offset: 0x26ECF0C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2749F10
+    // Offset: 0x26ECF70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::$$c*, creationType>()));
     }
     // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__17_0(BeatmapDataItem item)
-    // Offset: 0x2749F18
+    // Offset: 0x26ECF78
     bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__17_0(::GlobalNamespace::BeatmapDataItem* item);
   }; // BeatmapObjectsInTimeRowProcessor/<>c
   #pragma pack(pop)

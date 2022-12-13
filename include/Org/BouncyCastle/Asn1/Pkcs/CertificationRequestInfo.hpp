@@ -83,20 +83,20 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Set attributes
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Set*& dyn_attributes();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D63D8C
+    // Offset: 0x1D832DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificationRequestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificationRequestInfo*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo GetInstance(System.Object obj)
-    // Offset: 0x1D63BC4
+    // Offset: 0x1D83114
     static ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetInstance(::Il2CppObject* obj);
     // static private System.Void ValidateAttributes(Org.BouncyCastle.Asn1.Asn1Set attributes)
-    // Offset: 0x1D63F9C
+    // Offset: 0x1D834EC
     static void ValidateAttributes(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D642B8
+    // Offset: 0x1D83808
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

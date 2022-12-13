@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
   class XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
     public:
     // static public System.Xml.Schema.XmlValueConverter Create(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x2105C14
+    // Offset: 0x20FFDE8
     static ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x2105B9C
+    // Offset: 0x20FFD70
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlSchemaType schemaType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,17 +60,17 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlStringConverter*, creationType>(schemaType)));
     }
     // public override System.String ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x2105C74
+    // Offset: 0x20FFE48
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.String XmlBaseConverter::ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
     ::StringW ToString(::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x2105E80
+    // Offset: 0x2100054
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x2106134
+    // Offset: 0x2100308
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);

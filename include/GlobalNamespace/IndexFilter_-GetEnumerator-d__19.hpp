@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0x11288E0
+    // [TupleElementNamesAttribute] Offset: 0x1130A58
     // private System.ValueTuple`3<System.Int32,System.Int32,System.Int32> <>2__current
     // Size: 0xFFFFFFFF
     // Offset: 0x14
@@ -119,29 +119,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <localChunkIndex>5__8
     [[deprecated("Use field access instead!")]] int& dyn_$localChunkIndex$5__8();
     // private System.ValueTuple`3<System.Int32,System.Int32,System.Int32> System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current()
-    // Offset: 0x13F63D0
+    // Offset: 0x13D5888
     ::System::ValueTuple_3<int, int, int> System_Collections_Generic_IEnumerator$_System_Int32element_System_Int32durationOrder_System_Int32distributionOrder_$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13F6440
+    // Offset: 0x13D58F8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13F5C34
+    // Offset: 0x13D50EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IndexFilter::$GetEnumerator$d__19* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IndexFilter::$GetEnumerator$d__19::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IndexFilter::$GetEnumerator$d__19*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13F5D1C
+    // Offset: 0x13D51D4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13F5DF8
+    // Offset: 0x13D52B0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x13F5D38
+    // Offset: 0x13D51F0
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13F63E0
+    // Offset: 0x13D5898
     void System_Collections_IEnumerator_Reset();
   }; // IndexFilter/<GetEnumerator>d__19
   // WARNING Not writing size check since size may be invalid!

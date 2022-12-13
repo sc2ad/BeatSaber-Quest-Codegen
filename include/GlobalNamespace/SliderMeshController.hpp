@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     float middleControlPointXDistanceModifier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1115190
+    // [SpaceAttribute] Offset: 0x111E1AC
     // private SliderMeshConstructor _sliderMeshConstructor
     // Size: 0x8
     // Offset: 0x30
@@ -153,23 +153,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Vector3[] _reusableControlPointsArray2
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector3>& dyn__reusableControlPointsArray2();
     // public System.Single get_pathLength()
-    // Offset: 0x1471614
+    // Offset: 0x147DD20
     float get_pathLength();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x147163C
+    // Offset: 0x147DD48
     ::UnityEngine::Mesh* get_mesh();
+    // public PathsHolder get_pathsHolder()
+    // Offset: 0x147DD64
+    ::GlobalNamespace::PathsHolder* get_pathsHolder();
     // public System.Void .ctor()
-    // Offset: 0x14721B8
+    // Offset: 0x147E8CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMeshController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshController*, creationType>()));
     }
     // public System.Void CreateBezierPathAndMesh(SliderData sliderData, UnityEngine.Vector3 headNotePos, UnityEngine.Vector3 tailNotePos, System.Single jumpSpeed, System.Single noteUniformScale)
-    // Offset: 0x1471658
+    // Offset: 0x147DD6C
     void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float jumpSpeed, float noteUniformScale);
     // static private UnityEngine.Vector3 CutDirectionToControlPointPosition(NoteCutDirection noteCutDirection)
-    // Offset: 0x147201C
+    // Offset: 0x147E730
     static ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
   }; // SliderMeshController
   #pragma pack(pop)
@@ -191,6 +194,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (GlobalNamespace::SliderMeshController::*)()>(&GlobalNamespace::SliderMeshController::get_mesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshController*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SliderMeshController::get_pathsHolder
+// Il2CppName: get_pathsHolder
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PathsHolder* (GlobalNamespace::SliderMeshController::*)()>(&GlobalNamespace::SliderMeshController::get_pathsHolder)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SliderMeshController*), "get_pathsHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SliderMeshController::New_ctor

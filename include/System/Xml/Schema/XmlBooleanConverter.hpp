@@ -48,10 +48,10 @@ namespace System::Xml::Schema {
   class XmlBooleanConverter : public ::System::Xml::Schema::XmlBaseConverter {
     public:
     // static public System.Xml.Schema.XmlValueConverter Create(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x20F6684
+    // Offset: 0x20F0858
     static ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
     // protected System.Void .ctor(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x20F660C
+    // Offset: 0x20F07E0
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Void XmlBaseConverter::.ctor(System.Xml.Schema.XmlSchemaType schemaType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,37 +60,37 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<XmlBooleanConverter*, creationType>(schemaType)));
     }
     // public override System.Boolean ToBoolean(System.String value)
-    // Offset: 0x20F66E4
+    // Offset: 0x20F08B8
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Boolean XmlBaseConverter::ToBoolean(System.String value)
     bool ToBoolean(::StringW value);
     // public override System.Boolean ToBoolean(System.Object value)
-    // Offset: 0x20F678C
+    // Offset: 0x20F0960
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Boolean XmlBaseConverter::ToBoolean(System.Object value)
     bool ToBoolean(::Il2CppObject* value);
     // public override System.String ToString(System.Boolean value)
-    // Offset: 0x20F6A6C
+    // Offset: 0x20F0C40
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.String XmlBaseConverter::ToString(System.Boolean value)
     ::StringW ToString(bool value);
     // public override System.String ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x20F6AD4
+    // Offset: 0x20F0CA8
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.String XmlBaseConverter::ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
     ::StringW ToString(::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.Boolean value, System.Type destinationType)
-    // Offset: 0x20F6D9C
+    // Offset: 0x20F0F70
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.Boolean value, System.Type destinationType)
     ::Il2CppObject* ChangeType(bool value, ::System::Type* destinationType);
     // public override System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x20F70D8
+    // Offset: 0x20F12AC
     // Implemented from: System.Xml.Schema.XmlBaseConverter
     // Base method: System.Object XmlBaseConverter::ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public override System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
-    // Offset: 0x20F7434
+    // Offset: 0x20F1608
     // Implemented from: System.Xml.Schema.XmlValueConverter
     // Base method: System.Object XmlValueConverter::ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);

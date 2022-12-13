@@ -51,7 +51,7 @@ namespace System::ComponentModel {
   class CollectionConverter : public ::System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1E17BE8
+    // Offset: 0x1E4C720
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,17 +60,17 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<CollectionConverter*, creationType>()));
     }
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1E1777C
+    // Offset: 0x1E4C2B4
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public override System.ComponentModel.PropertyDescriptorCollection GetProperties(System.ComponentModel.ITypeDescriptorContext context, System.Object value, System.Attribute[] attributes)
-    // Offset: 0x1E1A080
+    // Offset: 0x1E4EBB8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.ComponentModel.PropertyDescriptorCollection TypeConverter::GetProperties(System.ComponentModel.ITypeDescriptorContext context, System.Object value, System.Attribute[] attributes)
     ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value, ::ArrayW<::System::Attribute*> attributes);
     // public override System.Boolean GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext context)
-    // Offset: 0x1E1A088
+    // Offset: 0x1E4EBC0
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext context)
     bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);

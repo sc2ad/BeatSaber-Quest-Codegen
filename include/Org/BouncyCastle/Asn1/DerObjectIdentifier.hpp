@@ -74,82 +74,82 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private System.Byte[] body
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_body();
     // public System.String get_Id()
-    // Offset: 0x1CEA4E0
+    // Offset: 0x1CF5084
     ::StringW get_Id();
     // public System.Void .ctor(System.String identifier)
-    // Offset: 0x1CD6F14
+    // Offset: 0x1CE1AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(::StringW identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(identifier)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String branchID)
-    // Offset: 0x1CEA2C0
+    // Offset: 0x1CF4E64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW branchID) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(oid, branchID)));
     }
     // System.Void .ctor(System.Byte[] bytes)
-    // Offset: 0x1CEA558
+    // Offset: 0x1CF50FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerObjectIdentifier* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerObjectIdentifier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerObjectIdentifier*, creationType>(bytes)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CEAEE4
+    // Offset: 0x1CF5A88
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(System.Object obj)
-    // Offset: 0x1CE9EF8
+    // Offset: 0x1CF4A9C
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1CEA0D8
+    // Offset: 0x1CF4C7C
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier Branch(System.String branchID)
-    // Offset: 0x1CEA4E8
+    // Offset: 0x1CF508C
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Branch(::StringW branchID);
     // private System.Void WriteField(System.IO.Stream outputStream, System.Int64 fieldValue)
-    // Offset: 0x1CEA8A8
+    // Offset: 0x1CF544C
     void WriteField(::System::IO::Stream* outputStream, int64_t fieldValue);
     // private System.Void WriteField(System.IO.Stream outputStream, Org.BouncyCastle.Math.BigInteger fieldValue)
-    // Offset: 0x1CEA998
+    // Offset: 0x1CF553C
     void WriteField(::System::IO::Stream* outputStream, ::Org::BouncyCastle::Math::BigInteger* fieldValue);
     // private System.Void DoOutput(System.IO.MemoryStream bOut)
-    // Offset: 0x1CEAB24
+    // Offset: 0x1CF56C8
     void DoOutput(::System::IO::MemoryStream* bOut);
     // System.Byte[] GetBody()
-    // Offset: 0x1CEACEC
+    // Offset: 0x1CF5890
     ::ArrayW<uint8_t> GetBody();
     // static private System.Boolean IsValidBranchID(System.String branchID, System.Int32 start)
-    // Offset: 0x1CEA3E4
+    // Offset: 0x1CF4F88
     static bool IsValidBranchID(::StringW branchID, int start);
     // static private System.Boolean IsValidIdentifier(System.String identifier)
-    // Offset: 0x1CEA1F8
+    // Offset: 0x1CF4D9C
     static bool IsValidIdentifier(::StringW identifier);
     // static private System.String MakeOidStringFromBytes(System.Byte[] bytes)
-    // Offset: 0x1CEA610
+    // Offset: 0x1CF51B4
     static ::StringW MakeOidStringFromBytes(::ArrayW<uint8_t> bytes);
     // static Org.BouncyCastle.Asn1.DerObjectIdentifier FromOctetString(System.Byte[] enc)
-    // Offset: 0x1CDAE44
+    // Offset: 0x1CE59E8
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FromOctetString(::ArrayW<uint8_t> enc);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1CEADD8
+    // Offset: 0x1CF597C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1CEAE0C
+    // Offset: 0x1CF59B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1CEAE28
+    // Offset: 0x1CF59CC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x1CEAEDC
+    // Offset: 0x1CF5A80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

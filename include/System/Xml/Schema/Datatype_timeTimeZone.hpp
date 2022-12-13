@@ -29,7 +29,7 @@ namespace System::Xml::Schema {
   class Datatype_timeTimeZone : public ::System::Xml::Schema::Datatype_dateTimeBase {
     public:
     // System.Void .ctor()
-    // Offset: 0x1D0E4F4
+    // Offset: 0x1D18098
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()

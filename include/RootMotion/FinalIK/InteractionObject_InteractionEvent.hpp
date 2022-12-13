@@ -37,21 +37,21 @@ namespace RootMotion::FinalIK {
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1140880
+    // [TooltipAttribute] Offset: 0x11499E8
     // public System.Single time
     // Size: 0x4
     // Offset: 0x10
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x11408B8
+    // [TooltipAttribute] Offset: 0x1149A20
     // public System.Boolean pause
     // Size: 0x1
     // Offset: 0x14
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0x11408F0
+    // [TooltipAttribute] Offset: 0x1149A58
     // public System.Boolean pickUp
     // Size: 0x1
     // Offset: 0x15
@@ -60,21 +60,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: pickUp and: animations
     char __padding2[0x2] = {};
-    // [TooltipAttribute] Offset: 0x1140928
+    // [TooltipAttribute] Offset: 0x1149A90
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::AnimatorEvent*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1140960
+    // [TooltipAttribute] Offset: 0x1149AC8
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*> messages;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionObject::Message*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1140998
+    // [TooltipAttribute] Offset: 0x1149B00
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
     // Offset: 0x28
@@ -95,14 +95,14 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Events.UnityEvent unityEvent
     [[deprecated("Use field access instead!")]] ::UnityEngine::Events::UnityEvent*& dyn_unityEvent();
     // public System.Void .ctor()
-    // Offset: 0x2413410
+    // Offset: 0x245E99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::InteractionEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::InteractionEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::InteractionEvent*, creationType>()));
     }
     // public System.Void Activate(UnityEngine.Transform t)
-    // Offset: 0x24113BC
+    // Offset: 0x245C948
     void Activate(::UnityEngine::Transform* t);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.InteractionEvent
   #pragma pack(pop)

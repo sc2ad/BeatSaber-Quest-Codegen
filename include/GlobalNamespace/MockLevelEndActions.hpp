@@ -62,19 +62,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action levelFinishedEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_levelFinishedEvent();
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x148E1B8
+    // Offset: 0x149AA24
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x148E25C
+    // Offset: 0x149AAC8
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x148E300
+    // Offset: 0x149AB6C
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x148E3A4
+    // Offset: 0x149AC10
     void remove_levelFinishedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x148E448
+    // Offset: 0x149ACB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockLevelEndActions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockLevelEndActions::.ctor");

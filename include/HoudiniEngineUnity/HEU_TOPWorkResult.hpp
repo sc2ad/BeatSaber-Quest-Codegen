@@ -66,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _generatedGOs
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__generatedGOs();
     // public System.Void .ctor()
-    // Offset: 0x1B2C89C
+    // Offset: 0x1B5E930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPWorkResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPWorkResult::.ctor");

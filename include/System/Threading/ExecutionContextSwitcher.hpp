@@ -80,10 +80,10 @@ namespace System::Threading {
     // Get instance field reference: System.Threading.Thread thread
     [[deprecated("Use field access instead!")]] ::System::Threading::Thread*& dyn_thread();
     // System.Boolean UndoNoThrow()
-    // Offset: 0x229CE90
+    // Offset: 0x229233C
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0x229CD30
+    // Offset: 0x22921DC
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)

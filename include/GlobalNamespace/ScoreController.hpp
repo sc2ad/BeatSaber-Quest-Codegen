@@ -83,56 +83,56 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x111BFF0
+    // [InjectAttribute] Offset: 0x1125148
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C000
+    // [InjectAttribute] Offset: 0x1125158
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C010
+    // [InjectAttribute] Offset: 0x1125168
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IGameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C020
+    // [InjectAttribute] Offset: 0x1125178
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C030
+    // [InjectAttribute] Offset: 0x1125188
     // private readonly GoodCutScoringElement/Pool _goodCutScoringElementPool
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::GoodCutScoringElement::Pool* goodCutScoringElementPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GoodCutScoringElement::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C040
+    // [InjectAttribute] Offset: 0x1125198
     // private readonly BadCutScoringElement/Pool _badCutScoringElementPool
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BadCutScoringElement::Pool* badCutScoringElementPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BadCutScoringElement::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C050
+    // [InjectAttribute] Offset: 0x11251A8
     // private readonly MissScoringElement/Pool _missScoringElementPool
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::MissScoringElement::Pool* missScoringElementPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissScoringElement::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C060
+    // [InjectAttribute] Offset: 0x11251B8
     // private readonly PlayerHeadAndObstacleInteraction _playerHeadAndObstacleInteraction
     // Size: 0x8
     // Offset: 0x58
@@ -299,74 +299,74 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ScoringElement> _scoringElementsToRemove
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& dyn__scoringElementsToRemove();
     // public System.Int32 get_multipliedScore()
-    // Offset: 0x1408EE0
+    // Offset: 0x14145D8
     int get_multipliedScore();
     // public System.Int32 get_modifiedScore()
-    // Offset: 0x1408EE8
+    // Offset: 0x14145E0
     int get_modifiedScore();
     // public System.Int32 get_immediateMaxPossibleMultipliedScore()
-    // Offset: 0x1408EF0
+    // Offset: 0x14145E8
     int get_immediateMaxPossibleMultipliedScore();
     // public System.Int32 get_immediateMaxPossibleModifiedScore()
-    // Offset: 0x1408EF8
+    // Offset: 0x14145F0
     int get_immediateMaxPossibleModifiedScore();
     // public System.Void add_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0x14089C0
+    // Offset: 0x14140B8
     void add_scoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void remove_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
-    // Offset: 0x1408A64
+    // Offset: 0x141415C
     void remove_scoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void add_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
-    // Offset: 0x1408B08
+    // Offset: 0x1414200
     void add_multiplierDidChangeEvent(::System::Action_2<int, float>* value);
     // public System.Void remove_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
-    // Offset: 0x1408BAC
+    // Offset: 0x14142A4
     void remove_multiplierDidChangeEvent(::System::Action_2<int, float>* value);
     // public System.Void add_scoringForNoteStartedEvent(System.Action`1<ScoringElement> value)
-    // Offset: 0x1408C50
+    // Offset: 0x1414348
     void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
     // public System.Void remove_scoringForNoteStartedEvent(System.Action`1<ScoringElement> value)
-    // Offset: 0x1408CF4
+    // Offset: 0x14143EC
     void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
     // public System.Void add_scoringForNoteFinishedEvent(System.Action`1<ScoringElement> value)
-    // Offset: 0x1408D98
+    // Offset: 0x1414490
     void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
     // public System.Void remove_scoringForNoteFinishedEvent(System.Action`1<ScoringElement> value)
-    // Offset: 0x1408E3C
+    // Offset: 0x1414534
     void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
     // public System.Void .ctor()
-    // Offset: 0x140A0D4
+    // Offset: 0x14157CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreController*, creationType>()));
     }
     // public System.Void SetEnabled(System.Boolean enabled)
-    // Offset: 0x1408F00
+    // Offset: 0x14145F8
     void SetEnabled(bool enabled);
     // protected System.Void Start()
-    // Offset: 0x1408F0C
+    // Offset: 0x1414604
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1409118
+    // Offset: 0x1414810
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x14092C4
+    // Offset: 0x14149BC
     void LateUpdate();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x1409BF8
+    // Offset: 0x14152F0
     void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1409CDC
+    // Offset: 0x14153D4
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1409EE8
+    // Offset: 0x14155E0
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandlePlayerHeadDidEnterObstacles()
-    // Offset: 0x140A00C
+    // Offset: 0x1415704
     void HandlePlayerHeadDidEnterObstacles();
     // private System.Void DespawnScoringElement(ScoringElement scoringElement)
-    // Offset: 0x1409A30
+    // Offset: 0x1415128
     void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
   }; // ScoreController
   #pragma pack(pop)

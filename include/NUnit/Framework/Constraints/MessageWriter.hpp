@@ -49,14 +49,14 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int get_MaxLineLength();
     // protected System.Void .ctor()
-    // Offset: 0x1D4AEC0
+    // Offset: 0x1D54A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageWriter*, creationType>()));
     }
     // public System.Void WriteMessageLine(System.String message, params System.Object[] args)
-    // Offset: 0x1D49D2C
+    // Offset: 0x1D538D0
     void WriteMessageLine(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFFFFFFFFFF

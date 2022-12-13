@@ -48,20 +48,20 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Set static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
     static void _set_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value);
     // private System.Void .ctor()
-    // Offset: 0x1E95218
+    // Offset: 0x1EB3838
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyGeneratorHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyGeneratorHelper*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E95220
+    // Offset: 0x1EB3840
     static void _cctor();
     // Org.BouncyCastle.Math.BigInteger CalculatePrivate(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x1E94FE0
+    // Offset: 0x1EB3600
     ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
     // Org.BouncyCastle.Math.BigInteger CalculatePublic(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1E951E0
+    // Offset: 0x1EB3800
     ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
   }; // Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper
   #pragma pack(pop)

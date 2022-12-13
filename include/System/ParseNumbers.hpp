@@ -32,34 +32,34 @@ namespace System {
   class ParseNumbers : public ::Il2CppObject {
     public:
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x22E20E0
+    // Offset: 0x22C71A0
     static int StringToInt(::StringW value, int fromBase, int flags);
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x22E20E8
+    // Offset: 0x22C71A8
     static int StringToInt(::StringW value, int fromBase, int flags, int* parsePos);
     // static public System.String LongToString(System.Int64 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x22E2504
+    // Offset: 0x22C75C4
     static ::StringW LongToString(int64_t value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x22E2B00
+    // Offset: 0x22C7BC0
     static int64_t StringToLong(::StringW value, int fromBase, int flags);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x22E2B08
+    // Offset: 0x22C7BC8
     static int64_t StringToLong(::StringW value, int fromBase, int flags, int* parsePos);
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x22E2F50
+    // Offset: 0x22C8010
     static ::StringW IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(ref System.Byte[] value)
-    // Offset: 0x22E3178
+    // Offset: 0x22C8238
     static void EndianSwap(ByRef<::ArrayW<uint8_t>> value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
-    // Offset: 0x22E2628
+    // Offset: 0x22C76E8
     static ::System::Text::StringBuilder* ConvertToBase2(::ArrayW<uint8_t> value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
-    // Offset: 0x22E276C
+    // Offset: 0x22C782C
     static ::System::Text::StringBuilder* ConvertToBase8(::ArrayW<uint8_t> value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
-    // Offset: 0x22E2944
+    // Offset: 0x22C7A04
     static ::System::Text::StringBuilder* ConvertToBase16(::ArrayW<uint8_t> value);
   }; // System.ParseNumbers
   #pragma pack(pop)

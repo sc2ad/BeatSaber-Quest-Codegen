@@ -55,28 +55,28 @@ namespace System::Runtime::Remoting::Activation {
     // Set static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator
     static void _set__constructionActivator(::System::Runtime::Remoting::Activation::IActivator* value);
     // static private System.Runtime.Remoting.Activation.IActivator get_ConstructionActivator()
-    // Offset: 0x1E0BB24
+    // Offset: 0x1E4065C
     static ::System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
     // static public System.Runtime.Remoting.Messaging.IMessage Activate(System.Runtime.Remoting.Proxies.RemotingProxy proxy, System.Runtime.Remoting.Messaging.ConstructionCall ctorCall)
-    // Offset: 0x1E0BBB4
+    // Offset: 0x1E406EC
     static ::System::Runtime::Remoting::Messaging::IMessage* Activate(::System::Runtime::Remoting::Proxies::RemotingProxy* proxy, ::System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
     // static public System.Runtime.Remoting.Messaging.IMessage RemoteActivate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1E0BDE4
+    // Offset: 0x1E4091C
     static ::System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Runtime.Remoting.Messaging.ConstructionCall CreateConstructionCall(System.Type type, System.String activationUrl, System.Object[] activationAttributes)
-    // Offset: 0x1E0BFC4
+    // Offset: 0x1E40AFC
     static ::System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(::System::Type* type, ::StringW activationUrl, ::ArrayW<::Il2CppObject*> activationAttributes);
     // static public System.Runtime.Remoting.Messaging.IMessage CreateInstanceFromMessage(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1E0C940
+    // Offset: 0x1E41478
     static ::System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Object CreateProxyForType(System.Type type)
-    // Offset: 0x1E0CD40
+    // Offset: 0x1E41878
     static ::Il2CppObject* CreateProxyForType(::System::Type* type);
     // static public System.Object AllocateUninitializedClassInstance(System.Type type)
-    // Offset: 0x1E0CD3C
+    // Offset: 0x1E41874
     static ::Il2CppObject* AllocateUninitializedClassInstance(::System::Type* type);
     // static public System.Void EnableProxyActivation(System.Type type, System.Boolean enable)
-    // Offset: 0x1E0CEB4
+    // Offset: 0x1E419EC
     static void EnableProxyActivation(::System::Type* type, bool enable);
   }; // System.Runtime.Remoting.Activation.ActivationServices
   #pragma pack(pop)

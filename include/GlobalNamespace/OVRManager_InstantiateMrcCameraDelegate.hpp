@@ -48,20 +48,20 @@ namespace GlobalNamespace {
   class OVRManager_InstantiateMrcCameraDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x175A914
+    // Offset: 0x17734CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRManager_InstantiateMrcCameraDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager_InstantiateMrcCameraDelegate*, creationType>(object, method)));
     }
     // public UnityEngine.GameObject Invoke(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType)
-    // Offset: 0x175A924
+    // Offset: 0x17734DC
     ::UnityEngine::GameObject* Invoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType);
     // public System.IAsyncResult BeginInvoke(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x175AD38
+    // Offset: 0x17738F0
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public UnityEngine.GameObject EndInvoke(System.IAsyncResult result)
-    // Offset: 0x175ADD4
+    // Offset: 0x177398C
     ::UnityEngine::GameObject* EndInvoke(::System::IAsyncResult* result);
   }; // OVRManager/InstantiateMrcCameraDelegate
   #pragma pack(pop)

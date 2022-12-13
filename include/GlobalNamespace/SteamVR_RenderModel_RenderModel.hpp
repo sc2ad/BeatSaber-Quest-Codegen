@@ -51,19 +51,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material <material>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_$material$k__BackingField();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x18C78D8
+    // Offset: 0x18EA304
     ::UnityEngine::Mesh* get_mesh();
     // private System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x18C78E0
+    // Offset: 0x18EA30C
     void set_mesh(::UnityEngine::Mesh* value);
     // public UnityEngine.Material get_material()
-    // Offset: 0x18C78E8
+    // Offset: 0x18EA314
     ::UnityEngine::Material* get_material();
     // private System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x18C78F0
+    // Offset: 0x18EA31C
     void set_material(::UnityEngine::Material* value);
     // public System.Void .ctor(UnityEngine.Mesh mesh, UnityEngine.Material material)
-    // Offset: 0x18C6794
+    // Offset: 0x18E91C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_RenderModel::RenderModel* New_ctor(::UnityEngine::Mesh* mesh, ::UnityEngine::Material* material) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_RenderModel::RenderModel::.ctor");

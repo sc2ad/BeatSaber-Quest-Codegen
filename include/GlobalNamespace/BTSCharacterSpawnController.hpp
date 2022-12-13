@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BTSCharacterSpawnAnimationController* characterSpawnAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnAnimationController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x110DD18
+    // [SpaceAttribute] Offset: 0x1116CF4
     // private BTSCharacterSpawnEventEffect _btsCharacterSpawnEventEffect
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BTSCharacterSpawnEventEffect* btsCharacterSpawnEventEffect;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnEventEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DD50
+    // [InjectAttribute] Offset: 0x1116D2C
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGamePause*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DD60
+    // [InjectAttribute] Offset: 0x1116D3C
     // private readonly ILevelEndActions _levelEndActions
     // Size: 0x8
     // Offset: 0x30
@@ -131,41 +131,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _despawnCharacterCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__despawnCharacterCoroutine();
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x139AD98
+    // Offset: 0x13A6254
     bool get_isCharacterVisible();
     // public System.Boolean get_isSpawned()
-    // Offset: 0x139ADB4
+    // Offset: 0x13A6270
     bool get_isSpawned();
     // public System.Void .ctor()
-    // Offset: 0x139B7E0
+    // Offset: 0x13A6C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterSpawnController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterSpawnController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterSpawnController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x139ADBC
+    // Offset: 0x13A6278
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139B15C
+    // Offset: 0x13A6618
     void OnDestroy();
     // private System.Void HandleStartCharacterAnimation(BTSCharacter btsCharacter)
-    // Offset: 0x139B56C
+    // Offset: 0x13A6A28
     void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter* btsCharacter);
     // private System.Void HandleGamePauseDidPause()
-    // Offset: 0x139B6BC
+    // Offset: 0x13A6B78
     void HandleGamePauseDidPause();
     // private System.Void HandleGamePauseWillResume()
-    // Offset: 0x139B70C
+    // Offset: 0x13A6BC8
     void HandleGamePauseWillResume();
     // private System.Void HandleGamePauseDidResume()
-    // Offset: 0x139B764
+    // Offset: 0x13A6C20
     void HandleGamePauseDidResume();
     // private System.Void HandleLevelEndActionsLevelFailed()
-    // Offset: 0x139B78C
+    // Offset: 0x13A6C48
     void HandleLevelEndActionsLevelFailed();
     // private System.Collections.IEnumerator TimelineStoppedDelayed()
-    // Offset: 0x139B64C
+    // Offset: 0x13A6B08
     ::System::Collections::IEnumerator* TimelineStoppedDelayed();
   }; // BTSCharacterSpawnController
   #pragma pack(pop)

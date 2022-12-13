@@ -47,13 +47,13 @@ namespace Mono::Net::Security {
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509KeyUsageFlags s_flags
     static void _set_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
     // static private System.Void .cctor()
-    // Offset: 0x1B000A0
+    // Offset: 0x1B1EB38
     static void _cctor();
     // static public System.Security.Cryptography.X509Certificates.X509Chain CreateX509Chain(System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
-    // Offset: 0x1B0013C
+    // Offset: 0x1B1EBD4
     static ::System::Security::Cryptography::X509Certificates::X509Chain* CreateX509Chain(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs);
     // static System.Boolean NeedsChain(Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1AFB508
+    // Offset: 0x1B19FA0
     static bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
   }; // Mono.Net.Security.SystemCertificateValidator
   #pragma pack(pop)

@@ -30,21 +30,21 @@ namespace System::Net::Http {
   class HttpRequestException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x19DD518
+    // Offset: 0x1A012B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19DD02C
+    // Offset: 0x1A00DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception inner)
-    // Offset: 0x19DC48C
+    // Offset: 0x1A00224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestException::.ctor");

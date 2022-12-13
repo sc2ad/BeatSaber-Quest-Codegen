@@ -49,14 +49,14 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.String _text
     [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // public System.Void .ctor(System.String text)
-    // Offset: 0x2A6EA38
+    // Offset: 0x2AAD9E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::FixedTextFragment* New_ctor(::StringW text) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::FixedTextFragment*, creationType>(text)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x2A6F744
+    // Offset: 0x2AAE6F4
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);

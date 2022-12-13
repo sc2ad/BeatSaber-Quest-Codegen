@@ -58,20 +58,20 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return reinterpret_cast<::UnityEngine::ResourceManagement::Util::IInitializableObject*>(this);
     }
     // static public System.String get_RootPath()
-    // Offset: 0x18DCD60
+    // Offset: 0x18FF78C
     static ::StringW get_RootPath();
     // public System.Void .ctor()
-    // Offset: 0x18DCDE8
+    // Offset: 0x18FF814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitialization* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitialization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization*, creationType>()));
     }
     // public System.Boolean Initialize(System.String id, System.String dataStr)
-    // Offset: 0x18DCA88
+    // Offset: 0x18FF4B4
     bool Initialize(::StringW id, ::StringW dataStr);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
-    // Offset: 0x18DCBDC
+    // Offset: 0x18FF608
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization
   #pragma pack(pop)

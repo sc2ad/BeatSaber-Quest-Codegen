@@ -139,35 +139,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118618
+    // [InjectAttribute] Offset: 0x1121770
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118628
+    // [InjectAttribute] Offset: 0x1121780
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118638
+    // [InjectAttribute] Offset: 0x1121790
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118648
+    // [InjectAttribute] Offset: 0x11217A0
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118658
+    // [InjectAttribute] Offset: 0x11217B0
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
@@ -254,62 +254,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionLevelGameplayManager/GameState _prePauseGameState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionLevelGameplayManager::GameState& dyn__prePauseGameState();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1349D40
+    // Offset: 0x135410C
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1349DE4
+    // Offset: 0x13541B0
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x1349E88
+    // Offset: 0x1354254
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x1349F2C
+    // Offset: 0x13542F8
     void remove_levelDidStartEvent(::System::Action* value);
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1349FD0
+    // Offset: 0x135439C
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x134A074
+    // Offset: 0x1354440
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x134A118
+    // Offset: 0x13544E4
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x134A1BC
+    // Offset: 0x1354588
     void remove_levelFinishedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x134A714
+    // Offset: 0x1354AE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelGameplayManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x134A260
+    // Offset: 0x135462C
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x134A268
+    // Offset: 0x1354634
     ::System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x134A304
+    // Offset: 0x13546D0
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x134A5BC
+    // Offset: 0x1354988
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x134A608
+    // Offset: 0x13549D4
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x134A638
+    // Offset: 0x1354A04
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x134A668
+    // Offset: 0x1354A34
     void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x134A6E4
+    // Offset: 0x1354AB0
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x134A6FC
+    // Offset: 0x1354AC8
     void HandlePauseControllerDidResume();
   }; // MissionLevelGameplayManager
   #pragma pack(pop)

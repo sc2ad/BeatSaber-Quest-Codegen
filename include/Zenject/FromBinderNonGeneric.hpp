@@ -164,19 +164,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___generic__method, identifier, method, source);
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromInstance(System.Object instance)
-    // Offset: 0x1E8B360
+    // Offset: 0x1EA9980
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstance(::Il2CppObject* instance);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsInChildren(System.Func`2<UnityEngine.Component,System.Boolean> predicate, System.Boolean includeInactive)
-    // Offset: 0x1E8B364
+    // Offset: 0x1EA9984
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsInChildren(System.Boolean excludeSelf, System.Func`2<UnityEngine.Component,System.Boolean> predicate, System.Boolean includeInactive)
-    // Offset: 0x1E8B378
+    // Offset: 0x1EA9998
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsInHierarchy(System.Func`2<UnityEngine.Component,System.Boolean> predicate, System.Boolean includeInactive)
-    // Offset: 0x1E8B384
+    // Offset: 0x1EA99A4
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0x1E8B324
+    // Offset: 0x1EA9944
     // Implemented from: Zenject.FromBinder
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

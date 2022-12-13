@@ -141,31 +141,31 @@ namespace Org::BouncyCastle::Asn1::Sec {
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D6B118
+    // Offset: 0x1D8A668
     static void _cctor();
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
-    // Offset: 0x1D6ACAC
+    // Offset: 0x1D8A1FC
     static ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x1D6AD9C
+    // Offset: 0x1D8A2EC
     static ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurveGlv(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters p)
-    // Offset: 0x1D6ADA0
+    // Offset: 0x1D8A2F0
     static ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x1D6AE4C
+    // Offset: 0x1D8A39C
     static ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x1D6AEE8
+    // Offset: 0x1D8A438
     static void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1D6BBAC
+    // Offset: 0x1D8B0FC
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1D61FD4
+    // Offset: 0x1D81524
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x1D6BC44
+    // Offset: 0x1D8B194
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
   }; // Org.BouncyCastle.Asn1.Sec.SecNamedCurves
   #pragma pack(pop)

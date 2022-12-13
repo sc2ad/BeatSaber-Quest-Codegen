@@ -84,29 +84,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.IO.FileStream _fileStream
     [[deprecated("Use field access instead!")]] ::System::IO::FileStream*& dyn__fileStream();
     // public System.Void .ctor()
-    // Offset: 0x15F2838
+    // Offset: 0x161A71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaptureAudioToWav* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CaptureAudioToWav::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaptureAudioToWav*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15F20E4
+    // Offset: 0x1619FC8
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x15F211C
+    // Offset: 0x161A000
     void Update();
     // private System.Void StartWriting(System.String name)
-    // Offset: 0x15F21CC
+    // Offset: 0x161A0B0
     void StartWriting(::StringW name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x15F266C
+    // Offset: 0x161A550
     void OnAudioFilterRead(::ArrayW<float> data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
-    // Offset: 0x15F267C
+    // Offset: 0x161A560
     void ConvertAndWrite(::ArrayW<float> dataSource);
     // private System.Void WriteHeader()
-    // Offset: 0x15F2288
+    // Offset: 0x161A16C
     void WriteHeader();
   }; // CaptureAudioToWav
   #pragma pack(pop)

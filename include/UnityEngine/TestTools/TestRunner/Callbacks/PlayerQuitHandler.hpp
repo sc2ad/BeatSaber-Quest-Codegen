@@ -43,29 +43,29 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   class PlayerQuitHandler : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1999F30
+    // Offset: 0x19BDBA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerQuitHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerQuitHandler*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x1999E24
+    // Offset: 0x19BDA9C
     void Start();
     // private System.Void ProcessPlayerQuiteMessage(UnityEngine.Networking.PlayerConnection.MessageEventArgs arg0)
-    // Offset: 0x1999EDC
+    // Offset: 0x19BDB54
     void ProcessPlayerQuiteMessage(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* arg0);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x1999F20
+    // Offset: 0x19BDB98
     void RunStarted(::NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x1999F24
+    // Offset: 0x19BDB9C
     void RunFinished(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x1999F28
+    // Offset: 0x19BDBA0
     void TestStarted(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1999F2C
+    // Offset: 0x19BDBA4
     void TestFinished(::NUnit::Framework::Interfaces::ITestResult* result);
   }; // UnityEngine.TestTools.TestRunner.Callbacks.PlayerQuitHandler
   #pragma pack(pop)

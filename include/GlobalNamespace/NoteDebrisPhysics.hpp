@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Vector3 get_position();
     // protected System.Void .ctor()
-    // Offset: 0x15029F4
+    // Offset: 0x150F33C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebrisPhysics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisPhysics::.ctor");

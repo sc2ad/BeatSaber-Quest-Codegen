@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::PlatformNetworkPlayerModel::CreatePartyConfig
     class CreatePartyConfig;
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_friends()
-    // Offset: 0x157366C
+    // Offset: 0x1581350
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_friends();
     // protected System.Void .ctor()
-    // Offset: 0x15736A8
+    // Offset: 0x158138C
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlatformNetworkPlayerModel*, creationType>()));
     }
     // public override System.Void DestroyPartyConnection()
-    // Offset: 0x157367C
+    // Offset: 0x1581360
     // Implemented from: BaseNetworkPlayerModel
     // Base method: System.Void BaseNetworkPlayerModel::DestroyPartyConnection()
     void DestroyPartyConnection();

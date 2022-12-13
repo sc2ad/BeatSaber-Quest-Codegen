@@ -62,23 +62,23 @@ namespace MasterServer {
       return reinterpret_cast<::MasterServer::IUserMasterServerMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.SessionKeepaliveMessage> get_pool()
-    // Offset: 0x172D3F8
+    // Offset: 0x1746FB0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::SessionKeepaliveMessage*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x172D4A4
+    // Offset: 0x174705C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SessionKeepaliveMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::SessionKeepaliveMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SessionKeepaliveMessage*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x172D440
+    // Offset: 0x1746FF8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x172D444
+    // Offset: 0x1746FFC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x172D448
+    // Offset: 0x1747000
     void Release();
   }; // MasterServer.SessionKeepaliveMessage
   #pragma pack(pop)

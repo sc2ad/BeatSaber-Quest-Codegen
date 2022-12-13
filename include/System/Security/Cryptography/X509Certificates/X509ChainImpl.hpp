@@ -66,7 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // protected System.Void .ctor()
-    // Offset: 0x1C96E6C
+    // Offset: 0x1C8B810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImpl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509ChainImpl::.ctor");
@@ -79,13 +79,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Reset();
     // public System.Void Dispose()
-    // Offset: 0x1C95FC8
+    // Offset: 0x1C8A96C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1C96DF4
+    // Offset: 0x1C8B798
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x1C96DF8
+    // Offset: 0x1C8B79C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

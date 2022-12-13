@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode
     struct OutputMode;
     // public System.Void .ctor()
-    // Offset: 0x171AA9C
+    // Offset: 0x1733654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ScriptMeshInputUVLayoutExample* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ScriptMeshInputUVLayoutExample*, creationType>()));
     }
     // static public System.Void ApplyUVLayoutTo(UnityEngine.GameObject[] gameObjects, HEU_ScriptMeshInputUVLayoutExample/OutputMode outputMode, System.String output_name_suffix)
-    // Offset: 0x171A2D0
+    // Offset: 0x1732E88
     static void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*> gameObjects, ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::StringW output_name_suffix);
   }; // HEU_ScriptMeshInputUVLayoutExample
   #pragma pack(pop)

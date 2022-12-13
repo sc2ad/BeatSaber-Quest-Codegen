@@ -132,29 +132,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _newUpdates
     [[deprecated("Use field access instead!")]] bool& dyn__newUpdates();
     // public System.Collections.Generic.Dictionary`2<LightConstants/BakeId,LightmapLightWithIds> get_lightmapLightDict()
-    // Offset: 0x1CC2FA8
+    // Offset: 0x1CCDB24
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants::BakeId, ::GlobalNamespace::LightmapLightWithIds*>* get_lightmapLightDict();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1CC2FB0
+    // Offset: 0x1CCDB2C
     float get_maxTotalIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1CC334C
+    // Offset: 0x1CCDEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedLightsNormalizer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedLightsNormalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedLightsNormalizer*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1CC2FB8
+    // Offset: 0x1CCDB34
     void LateUpdate();
     // private System.Void GetLightmapLights()
-    // Offset: 0x1CC31A0
+    // Offset: 0x1CCDD1C
     void GetLightmapLights();
     // private System.Void UpdateGrayscaleTotal()
-    // Offset: 0x1CC3000
+    // Offset: 0x1CCDB7C
     void UpdateGrayscaleTotal();
     // public System.Single GetNormalizationMultiplier()
-    // Offset: 0x1CC32A0
+    // Offset: 0x1CCDE1C
     float GetNormalizationMultiplier();
   }; // BakedLightsNormalizer
   #pragma pack(pop)

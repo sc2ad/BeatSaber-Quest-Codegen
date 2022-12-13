@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* shadowTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0x11108C0
+    // [NullAllowed] Offset: 0x11198CC
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::UnityEngine::SpriteRenderer* shadowSpriteRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1110908
+    // [SpaceAttribute] Offset: 0x1119914
     // private UnityEngine.Vector2 _shadowHeightRange
     // Size: 0x8
     // Offset: 0x30
@@ -94,17 +94,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector2 _shadowAlphaRange
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn__shadowAlphaRange();
     // public System.Void .ctor()
-    // Offset: 0x1411C5C
+    // Offset: 0x141D368
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShadowFollowController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShadowFollowController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShadowFollowController*, creationType>()));
     }
     // public System.Void SetTargetTransform(UnityEngine.Transform target)
-    // Offset: 0x1411AB8
+    // Offset: 0x141D1C4
     void SetTargetTransform(::UnityEngine::Transform* target);
     // protected System.Void Update()
-    // Offset: 0x1411AC0
+    // Offset: 0x141D1CC
     void Update();
   }; // ShadowFollowController
   #pragma pack(pop)

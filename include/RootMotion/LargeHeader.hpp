@@ -48,14 +48,14 @@ namespace RootMotion {
     // Get instance field reference: public System.String color
     [[deprecated("Use field access instead!")]] ::StringW& dyn_color();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x204CB04
+    // Offset: 0x206EB50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::LargeHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LargeHeader*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x204CB74
+    // Offset: 0x206EBC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LargeHeader* New_ctor(::StringW name, ::StringW color) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::LargeHeader::.ctor");

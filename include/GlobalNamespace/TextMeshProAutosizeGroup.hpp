@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TMP_Text[] _texts
     [[deprecated("Use field access instead!")]] ::ArrayW<::TMPro::TMP_Text*>& dyn__texts();
     // public System.Void .ctor()
-    // Offset: 0x2ACAA5C
+    // Offset: 0x2AE72AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMeshProAutosizeGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextMeshProAutosizeGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMeshProAutosizeGroup*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2ACA8F8
+    // Offset: 0x2AE7148
     void Start();
   }; // TextMeshProAutosizeGroup
   #pragma pack(pop)

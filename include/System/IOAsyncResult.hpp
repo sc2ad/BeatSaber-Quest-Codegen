@@ -94,42 +94,42 @@ namespace System {
     // Get instance field reference: private System.Boolean completed
     [[deprecated("Use field access instead!")]] bool& dyn_completed();
     // public System.AsyncCallback get_AsyncCallback()
-    // Offset: 0x1D8CC98
+    // Offset: 0x1DAC1E8
     ::System::AsyncCallback* get_AsyncCallback();
     // public System.Object get_AsyncState()
-    // Offset: 0x1D8CCA0
+    // Offset: 0x1DAC1F0
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1D8CCA8
+    // Offset: 0x1DAC1F8
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1D8CD90
+    // Offset: 0x1DAC2E0
     bool get_CompletedSynchronously();
     // protected System.Void set_CompletedSynchronously(System.Boolean value)
-    // Offset: 0x1D8CD98
+    // Offset: 0x1DAC2E8
     void set_CompletedSynchronously(bool value);
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1D8CDA4
+    // Offset: 0x1DAC2F4
     bool get_IsCompleted();
     // protected System.Void set_IsCompleted(System.Boolean value)
-    // Offset: 0x1D8CDAC
+    // Offset: 0x1DAC2FC
     void set_IsCompleted(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x1D8CC38
+    // Offset: 0x1DAC188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>()));
     }
     // protected System.Void .ctor(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1D8CC60
+    // Offset: 0x1DAC1B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IOAsyncResult* New_ctor(::System::AsyncCallback* async_callback, ::Il2CppObject* async_state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IOAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOAsyncResult*, creationType>(async_callback, async_state)));
     }
     // protected System.Void Init(System.AsyncCallback async_callback, System.Object async_state)
-    // Offset: 0x1D8CC40
+    // Offset: 0x1DAC190
     void Init(::System::AsyncCallback* async_callback, ::Il2CppObject* async_state);
     // System.Void CompleteDisposed()
     // Offset: 0xFFFFFFFFFFFFFFFF

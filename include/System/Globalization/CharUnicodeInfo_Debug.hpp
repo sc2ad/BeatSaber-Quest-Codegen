@@ -21,7 +21,7 @@ namespace System::Globalization {
   class CharUnicodeInfo::Debug : public ::Il2CppObject {
     public:
     // static System.Void Assert(System.Boolean condition, System.String message)
-    // Offset: 0x197699C
+    // Offset: 0x199A614
     static void Assert_(bool condition, ::StringW message);
   }; // System.Globalization.CharUnicodeInfo/System.Globalization.Debug
   #pragma pack(pop)

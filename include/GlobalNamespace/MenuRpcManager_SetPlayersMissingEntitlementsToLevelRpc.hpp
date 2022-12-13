@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1739754
+    // Offset: 0x175330C
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

@@ -100,13 +100,13 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*, false>(this, ___generic__method, param1, param2, param3, param4, param5, param6);
     }
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArguments(System.Object[] args)
-    // Offset: 0x17B394C
+    // Offset: 0x17BC084
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayW<::Il2CppObject*> args);
     // public Zenject.InstantiateCallbackConditionCopyNonLazyBinder WithArgumentsExplicit(System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x17B3A7C
+    // Offset: 0x17BC1B4
     ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
-    // Offset: 0x17B3944
+    // Offset: 0x17BC07C
     // Implemented from: Zenject.InstantiateCallbackConditionCopyNonLazyBinder
     // Base method: System.Void InstantiateCallbackConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)
     // Base method: System.Void ConditionCopyNonLazyBinder::.ctor(Zenject.BindInfo bindInfo)

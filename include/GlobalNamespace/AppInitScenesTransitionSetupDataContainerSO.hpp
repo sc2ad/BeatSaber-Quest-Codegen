@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public AppInitScenesTransitionSetupDataSO appInitScenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AppInitScenesTransitionSetupDataSO*& dyn_appInitScenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1537614
+    // Offset: 0x1544270
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInitScenesTransitionSetupDataContainerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::.ctor");

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IPAPluginsDirDeleter : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F5174
+    // Offset: 0x13D462C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAPluginsDirDeleter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IPAPluginsDirDeleter::.ctor");

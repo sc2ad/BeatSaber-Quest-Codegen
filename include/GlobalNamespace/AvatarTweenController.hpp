@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58
     class $DisappearAnimation$d__58;
     public:
-    // [HeaderAttribute] Offset: 0x1110234
+    // [HeaderAttribute] Offset: 0x1119240
     // private UnityEngine.Transform _avatarTransform
     // Size: 0x8
     // Offset: 0x18
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* bodyTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0x11102C0
+    // [HeaderAttribute] Offset: 0x11192CC
     // private UnityEngine.Transform _headInnerTransform
     // Size: 0x8
     // Offset: 0x40
@@ -116,8 +116,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* bodyInnerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0x111033C
-    // [RangeAttribute] Offset: 0x111033C
+    // [HeaderAttribute] Offset: 0x1119348
+    // [RangeAttribute] Offset: 0x1119348
     // private System.Single _popDuration
     // Size: 0x4
     // Offset: 0x60
@@ -154,15 +154,15 @@ namespace GlobalNamespace {
     float allPopAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x11103F0
-    // [RangeAttribute] Offset: 0x11103F0
+    // [HeaderAttribute] Offset: 0x11193FC
+    // [RangeAttribute] Offset: 0x11193FC
     // private System.Single _appearDuration
     // Size: 0x4
     // Offset: 0x78
     float appearDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x1110454
+    // [RangeAttribute] Offset: 0x1119460
     // private System.Single _appearSpacing
     // Size: 0x4
     // Offset: 0x7C
@@ -175,15 +175,15 @@ namespace GlobalNamespace {
     float appearHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x11104A4
+    // [MinAttribute] Offset: 0x11194B0
     // private UnityEngine.Vector3 _squashFactor
     // Size: 0xC
     // Offset: 0x84
     ::UnityEngine::Vector3 squashFactor;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x11104E0
-    // [RangeAttribute] Offset: 0x11104E0
+    // [HeaderAttribute] Offset: 0x11194EC
+    // [RangeAttribute] Offset: 0x11194EC
     // private System.Single _disappearDuration
     // Size: 0x4
     // Offset: 0x90
@@ -216,7 +216,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::EaseType) == 0x4);
     // Padding between fields: disappearPositionEase and: tweeningManager
     char __padding23[0x4] = {};
-    // [InjectAttribute] Offset: 0x1110588
+    // [InjectAttribute] Offset: 0x1119594
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0xB0
@@ -405,98 +405,98 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _avatarLocalScale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__avatarLocalScale();
     // public System.Void .ctor()
-    // Offset: 0x1541318
+    // Offset: 0x154DFA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarTweenController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarTweenController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x15401E8
+    // Offset: 0x154CE78
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x1540240
+    // Offset: 0x154CED0
     void OnDisable();
     // public System.Void PresentAvatar()
-    // Offset: 0x15402E8
+    // Offset: 0x154CF78
     void PresentAvatar();
     // public System.Void HideAvatar()
-    // Offset: 0x154038C
+    // Offset: 0x154D01C
     void HideAvatar();
     // public System.Void PopAll()
-    // Offset: 0x1540430
+    // Offset: 0x154D0C0
     void PopAll();
     // public System.Void PopHead()
-    // Offset: 0x15405F4
+    // Offset: 0x154D284
     void PopHead();
     // public System.Void PopHands()
-    // Offset: 0x15405FC
+    // Offset: 0x154D28C
     void PopHands();
     // public System.Void PopClothes()
-    // Offset: 0x1540604
+    // Offset: 0x154D294
     void PopClothes();
     // private System.Void PopHead(System.Single popAmount)
-    // Offset: 0x1540468
+    // Offset: 0x154D0F8
     void PopHead(float popAmount);
     // private System.Void PopHands(System.Single popAmount)
-    // Offset: 0x1540540
+    // Offset: 0x154D1D0
     void PopHands(float popAmount);
     // private System.Void PopClothes(System.Single popAmount)
-    // Offset: 0x15404D4
+    // Offset: 0x154D164
     void PopClothes(float popAmount);
     // private Tweening.Tween`1<System.Single> CreatePopTween(UnityEngine.Transform partTransform, System.Single popAmount)
-    // Offset: 0x154060C
+    // Offset: 0x154D29C
     ::Tweening::Tween_1<float>* CreatePopTween(::UnityEngine::Transform* partTransform, float popAmount);
     // private System.Collections.IEnumerator AppearAnimation()
-    // Offset: 0x154031C
+    // Offset: 0x154CFAC
     ::System::Collections::IEnumerator* AppearAnimation();
     // private System.Void AppearBody()
-    // Offset: 0x154074C
+    // Offset: 0x154D3DC
     void AppearBody();
     // private System.Void AppearHead()
-    // Offset: 0x1540A30
+    // Offset: 0x154D6C0
     void AppearHead();
     // private System.Void AppearLeftHand()
-    // Offset: 0x1540D14
+    // Offset: 0x154D9A4
     void AppearLeftHand();
     // private System.Void AppearRightHand()
-    // Offset: 0x1541000
+    // Offset: 0x154DC90
     void AppearRightHand();
     // private System.Collections.IEnumerator DisappearAnimation()
-    // Offset: 0x15403C0
+    // Offset: 0x154D050
     ::System::Collections::IEnumerator* DisappearAnimation();
     // private System.Void StopAll()
-    // Offset: 0x1540244
+    // Offset: 0x154CED4
     void StopAll();
     // private System.Void <AppearBody>b__54_0(UnityEngine.Vector3 val)
-    // Offset: 0x15413FC
+    // Offset: 0x154E08C
     void $AppearBody$b__54_0(::UnityEngine::Vector3 val);
     // private System.Void <AppearBody>b__54_1(UnityEngine.Vector3 val)
-    // Offset: 0x1541418
+    // Offset: 0x154E0A8
     void $AppearBody$b__54_1(::UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_0(UnityEngine.Vector3 val)
-    // Offset: 0x1541434
+    // Offset: 0x154E0C4
     void $AppearHead$b__55_0(::UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_1(UnityEngine.Vector3 val)
-    // Offset: 0x1541450
+    // Offset: 0x154E0E0
     void $AppearHead$b__55_1(::UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_0(UnityEngine.Vector3 val)
-    // Offset: 0x154146C
+    // Offset: 0x154E0FC
     void $AppearLeftHand$b__56_0(::UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_1(UnityEngine.Vector3 val)
-    // Offset: 0x1541488
+    // Offset: 0x154E118
     void $AppearLeftHand$b__56_1(::UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_0(UnityEngine.Vector3 val)
-    // Offset: 0x15414A4
+    // Offset: 0x154E134
     void $AppearRightHand$b__57_0(::UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_1(UnityEngine.Vector3 val)
-    // Offset: 0x15414C0
+    // Offset: 0x154E150
     void $AppearRightHand$b__57_1(::UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_0(UnityEngine.Vector3 val)
-    // Offset: 0x15414DC
+    // Offset: 0x154E16C
     void $DisappearAnimation$b__58_0(::UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_1(UnityEngine.Vector3 val)
-    // Offset: 0x15414F8
+    // Offset: 0x154E188
     void $DisappearAnimation$b__58_1(::UnityEngine::Vector3 val);
   }; // AvatarTweenController
   #pragma pack(pop)

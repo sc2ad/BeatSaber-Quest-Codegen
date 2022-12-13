@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.KeyCode _keyCode
     [[deprecated("Use field access instead!")]] ::UnityEngine::KeyCode& dyn__keyCode();
     // public System.Void .ctor()
-    // Offset: 0x1425E6C
+    // Offset: 0x1431578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetLocalLeaderboardOnKey* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResetLocalLeaderboardOnKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetLocalLeaderboardOnKey*, creationType>()));
     }
     // private System.Void Update()
-    // Offset: 0x1425E20
+    // Offset: 0x143152C
     void Update();
   }; // ResetLocalLeaderboardOnKey
   #pragma pack(pop)

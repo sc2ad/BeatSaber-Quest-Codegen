@@ -55,19 +55,19 @@ namespace UnityEngine::Timeline {
     // Nested type: ::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1
     class $$c__DisplayClass0_1;
     // static public System.String GenerateUniqueActorName(System.Collections.Generic.List`1<UnityEngine.ScriptableObject> tracks, System.String name)
-    // Offset: 0x2AAEBA8
+    // Offset: 0x2AC91B0
     static ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* tracks, ::StringW name);
     // static public System.Void SaveAssetIntoObject(UnityEngine.Object childAsset, UnityEngine.Object masterAsset)
-    // Offset: 0x2AAE824
+    // Offset: 0x2AC8E2C
     static void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
     // static public System.Void RemoveAssetFromObject(UnityEngine.Object childAsset, UnityEngine.Object masterAsset)
-    // Offset: 0x2AAEA98
+    // Offset: 0x2AC90A0
     static void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
     // static public UnityEngine.AnimationClip CreateAnimationClipForTrack(System.String name, UnityEngine.Timeline.TrackAsset track, System.Boolean isLegacy)
-    // Offset: 0x2AAD8B0
+    // Offset: 0x2AC7EB8
     static ::UnityEngine::AnimationClip* CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
     // static public System.Boolean ValidateParentTrack(UnityEngine.Timeline.TrackAsset parent, System.Type childType)
-    // Offset: 0x2AAEEFC
+    // Offset: 0x2AC9504
     static bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);
   }; // UnityEngine.Timeline.TimelineCreateUtilities
   #pragma pack(pop)

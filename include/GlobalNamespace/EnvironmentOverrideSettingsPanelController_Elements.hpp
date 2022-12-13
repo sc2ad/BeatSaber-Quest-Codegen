@@ -83,13 +83,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<EnvironmentInfoSO> <environmentInfos>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*& dyn_$environmentInfos$k__BackingField();
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> get_environmentInfos()
-    // Offset: 0x13897CC
+    // Offset: 0x1394C88
     ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
     // public System.Void set_environmentInfos(System.Collections.Generic.List`1<EnvironmentInfoSO> value)
-    // Offset: 0x13897D4
+    // Offset: 0x1394C90
     void set_environmentInfos(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13897DC
+    // Offset: 0x1394C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentOverrideSettingsPanelController::Elements* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::.ctor");
