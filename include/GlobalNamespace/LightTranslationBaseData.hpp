@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single translation
     [[deprecated("Use field access instead!")]] float& dyn_translation();
     // public System.Void .ctor(System.Single beat, System.Boolean usePreviousEventTranslationValue, EaseType easeType, System.Single translation)
-    // Offset: 0x1515E18
+    // Offset: 0x15217D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationBaseData* New_ctor(float beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float translation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationBaseData::.ctor");

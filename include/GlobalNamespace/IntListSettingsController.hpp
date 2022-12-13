@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<int>*& dyn_valueChangedEvent();
     // public System.Void add_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13F6A5C
+    // Offset: 0x13D5F14
     void add_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void remove_valueChangedEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x13F6B00
+    // Offset: 0x13D5FB8
     void remove_valueChangedEvent(::System::Action_1<int>* value);
     // public System.Void InitValues(System.Int32 numberOfElements, System.Int32 index)
-    // Offset: 0x13F6BA4
+    // Offset: 0x13D605C
     void InitValues(int numberOfElements, int index);
     // public System.Void .ctor()
-    // Offset: 0x13F6CF4
+    // Offset: 0x13D61AC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -83,17 +83,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<IntListSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x13F6C3C
+    // Offset: 0x13D60F4
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x13F6C54
+    // Offset: 0x13D610C
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x13F6CCC
+    // Offset: 0x13D6184
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

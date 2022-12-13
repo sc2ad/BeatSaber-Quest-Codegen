@@ -50,26 +50,26 @@ namespace System::Net {
       return reinterpret_cast<::System::Net::IAuthenticationModule*>(this);
     }
     // public System.String get_AuthenticationType()
-    // Offset: 0x1D90E80
+    // Offset: 0x1DB03D0
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1D8F9FC
+    // Offset: 0x1DAEF4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::BasicClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicClient*, creationType>()));
     }
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1D909A8
+    // Offset: 0x1DAFEF8
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // static private System.Byte[] GetBytes(System.String str)
-    // Offset: 0x1D90DBC
+    // Offset: 0x1DB030C
     static ::ArrayW<uint8_t> GetBytes(::StringW str);
     // static private System.Net.Authorization InternalAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1D90A5C
+    // Offset: 0x1DAFFAC
     static ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1D90E74
+    // Offset: 0x1DB03C4
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // System.Net.BasicClient
   #pragma pack(pop)

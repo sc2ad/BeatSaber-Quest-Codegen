@@ -86,16 +86,16 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.Int32 _certificateCount
     [[deprecated("Use field access instead!")]] int& dyn__certificateCount();
     // static public PacketPool`1<BGNet.Core.Messages.ServerCertificateRequest> get_pool()
-    // Offset: 0x15C2DF8
+    // Offset: 0x15E80A0
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
-    // Offset: 0x15C5588
+    // Offset: 0x15EA830
     ::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* get_certificateList();
     // public BGNet.Core.Messages.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
-    // Offset: 0x15CA198
+    // Offset: 0x15EF440
     ::BGNet::Core::Messages::ServerCertificateRequest* Init(::System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* certificateList);
     // public System.Void .ctor()
-    // Offset: 0x15CB850
+    // Offset: 0x15F0AF8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -104,17 +104,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertificateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15CB5A4
+    // Offset: 0x15F084C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15CB638
+    // Offset: 0x15F08E0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x15CB7A4
+    // Offset: 0x15F0A4C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

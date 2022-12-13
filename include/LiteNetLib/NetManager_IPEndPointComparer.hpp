@@ -41,17 +41,17 @@ namespace LiteNetLib {
       return reinterpret_cast<::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x21FE94C
+    // Offset: 0x221B744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetManager::IPEndPointComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetManager::IPEndPointComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetManager::IPEndPointComparer*, creationType>()));
     }
     // public System.Boolean Equals(System.Net.IPEndPoint x, System.Net.IPEndPoint y)
-    // Offset: 0x2203FCC
+    // Offset: 0x2220DC4
     bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
     // public System.Int32 GetHashCode(System.Net.IPEndPoint obj)
-    // Offset: 0x220402C
+    // Offset: 0x2220E24
     int GetHashCode(::System::Net::IPEndPoint* obj);
   }; // LiteNetLib.NetManager/LiteNetLib.IPEndPointComparer
   #pragma pack(pop)

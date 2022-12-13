@@ -58,10 +58,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.SDKTrackedSpace trackedSpace
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::SDKTrackedSpace& dyn_trackedSpace();
     // static public LIV.SDK.Unity.SDKOutputFrame get_empty()
-    // Offset: 0x2AE073C
+    // Offset: 0x2AFCF8C
     static ::LIV::SDK::Unity::SDKOutputFrame get_empty();
     // public override System.String ToString()
-    // Offset: 0x2AE07F8
+    // Offset: 0x2AFD048
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

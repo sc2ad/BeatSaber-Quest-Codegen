@@ -45,7 +45,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW info
     [[deprecated("Use field access instead!")]] ::System::Net::NetworkInformation::Win32_MIB_IFROW& dyn_info();
     // public System.Void .ctor(System.Net.NetworkInformation.Win32_MIB_IFROW info)
-    // Offset: 0x1BB2E50
+    // Offset: 0x1BEC5C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32IPv4InterfaceStatistics* New_ctor(::System::Net::NetworkInformation::Win32_MIB_IFROW info) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::.ctor");

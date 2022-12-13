@@ -104,20 +104,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _frameCountInInterval
     [[deprecated("Use field access instead!")]] int& dyn__frameCountInInterval();
     // public System.Void .ctor()
-    // Offset: 0x15F64AC
+    // Offset: 0x161E390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroppedFramesLabel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroppedFramesLabel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DroppedFramesLabel*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x15F6228
+    // Offset: 0x161E10C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x15F629C
+    // Offset: 0x161E180
     void Update();
     // private System.Void RefreshText()
-    // Offset: 0x15F6388
+    // Offset: 0x161E26C
     void RefreshText();
   }; // DroppedFramesLabel
   #pragma pack(pop)

@@ -85,38 +85,38 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // public System.Void .ctor()
-    // Offset: 0x17B7CAC
+    // Offset: 0x17C03E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionBindInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionBindInfo*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17BB2A0
+    // Offset: 0x17C39D8
     static void _cctor();
     // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x17BAA9C
+    // Offset: 0x17C31D4
     void AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
     // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x17BAF84
+    // Offset: 0x17C36BC
     void AddTypeFilter(::System::Func_2<::System::Type*, bool>* predicate);
     // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x17BAFEC
+    // Offset: 0x17C3724
     ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAllAssemblies();
     // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x17BB010
+    // Offset: 0x17C3748
     bool ShouldIncludeAssembly(::System::Reflection::Assembly* assembly);
     // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x17BB0D8
+    // Offset: 0x17C3810
     bool ShouldIncludeType(::System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x17BB1A0
+    // Offset: 0x17C38D8
     ::ArrayW<::System::Type*> GetTypes(::System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x17B7D70
+    // Offset: 0x17C04A8
     ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypes();
     // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x17BB314
+    // Offset: 0x17C3A4C
     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* $ResolveTypes$b__9_0(::System::Reflection::Assembly* assembly);
   }; // Zenject.ConventionBindInfo
   #pragma pack(pop)

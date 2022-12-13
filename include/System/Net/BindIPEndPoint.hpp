@@ -45,20 +45,20 @@ namespace System::Net {
   class BindIPEndPoint : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D90EC8
+    // Offset: 0x1DB0418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindIPEndPoint* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::BindIPEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindIPEndPoint*, creationType>(object, method)));
     }
     // public System.Net.IPEndPoint Invoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount)
-    // Offset: 0x1D90ED8
+    // Offset: 0x1DB0428
     ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int retryCount);
     // public System.IAsyncResult BeginInvoke(System.Net.ServicePoint servicePoint, System.Net.IPEndPoint remoteEndPoint, System.Int32 retryCount, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D912F0
+    // Offset: 0x1DB0840
     ::System::IAsyncResult* BeginInvoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int retryCount, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Net.IPEndPoint EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D91390
+    // Offset: 0x1DB08E0
     ::System::Net::IPEndPoint* EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.BindIPEndPoint
   #pragma pack(pop)

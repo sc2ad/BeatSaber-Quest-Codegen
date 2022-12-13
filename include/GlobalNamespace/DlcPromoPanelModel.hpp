@@ -59,28 +59,28 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::DlcPromoPanelModel::$UpdateNotOwnedPacksAsync$d__17
     struct $UpdateNotOwnedPacksAsync$d__17;
     public:
-    // [InjectAttribute] Offset: 0x1110E80
+    // [InjectAttribute] Offset: 0x1119E8C
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1110E90
+    // [InjectAttribute] Offset: 0x1119E9C
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1110EA0
+    // [InjectAttribute] Offset: 0x1119EAC
     // private readonly DlcPromoPanelDataSO _dlcPromoPanelData
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1110EB0
+    // [InjectAttribute] Offset: 0x1119EBC
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -131,44 +131,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Random _random
     [[deprecated("Use field access instead!")]] ::System::Random*& dyn__random();
     // public System.Void .ctor()
-    // Offset: 0x143DD44
+    // Offset: 0x1449450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DlcPromoPanelModel*, creationType>()));
     }
     // public System.Void InitAfterPlatformWasInitialized(System.Boolean force)
-    // Offset: 0x143CFEC
+    // Offset: 0x14486F8
     void InitAfterPlatformWasInitialized(bool force);
     // public DlcPromoPanelDataSO/MusicPackPromoInfo GetPackDataForMainMenuPromoBanner(out System.Boolean owned)
-    // Offset: 0x143D18C
+    // Offset: 0x1448898
     ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> owned);
     // public System.Void MainMenuDlcPromoBannerWasShown(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x143D3F4
+    // Offset: 0x1448B00
     void MainMenuDlcPromoBannerWasShown(::GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void MainMenuDlcPromoBannerWasPressed(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x143D650
+    // Offset: 0x1448D5C
     void MainMenuDlcPromoBannerWasPressed(::GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void BuyLevelButtonWasPressed(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x143D7B0
+    // Offset: 0x1448EBC
     void BuyLevelButtonWasPressed(::GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyLevelButtonWasShown(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x143D914
+    // Offset: 0x1449020
     void BuyLevelButtonWasShown(::GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasPressed(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x143DA78
+    // Offset: 0x1449184
     void BuyPackButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasShown(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x143DBDC
+    // Offset: 0x14492E8
     void BuyPackButtonWasShown(::GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> GetExperimentEventData(System.String itemId, System.String page, System.String customText)
-    // Offset: 0x143D56C
+    // Offset: 0x1448C78
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
     // private System.Void UpdateNotOwnedPacksAsync()
-    // Offset: 0x143D0D4
+    // Offset: 0x14487E0
     void UpdateNotOwnedPacksAsync();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x143DD40
+    // Offset: 0x144944C
     void HandleAdditionalContentModelDidInvalidateData();
   }; // DlcPromoPanelModel
   #pragma pack(pop)

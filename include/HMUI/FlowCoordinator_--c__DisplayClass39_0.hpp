@@ -73,14 +73,14 @@ namespace HMUI {
     // Get instance field reference: public HMUI.ViewController newTopViewController
     [[deprecated("Use field access instead!")]] ::HMUI::ViewController*& dyn_newTopViewController();
     // public System.Void .ctor()
-    // Offset: 0x174C2FC
+    // Offset: 0x1765EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass39_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass39_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass39_0*, creationType>()));
     }
     // System.Void <DismissViewController>b__0()
-    // Offset: 0x174D0C8
+    // Offset: 0x1766C80
     void $DismissViewController$b__0();
   }; // HMUI.FlowCoordinator/HMUI.<>c__DisplayClass39_0
   #pragma pack(pop)

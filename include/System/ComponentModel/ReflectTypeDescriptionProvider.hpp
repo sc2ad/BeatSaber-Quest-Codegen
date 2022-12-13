@@ -117,43 +117,43 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Collections.Hashtable _typeData
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__typeData();
     // static private System.Collections.Hashtable get_IntrinsicTypeConverters()
-    // Offset: 0x1E24398
+    // Offset: 0x1E58ED0
     static ::System::Collections::Hashtable* get_IntrinsicTypeConverters();
     // static private System.Void .cctor()
-    // Offset: 0x1E26BB0
+    // Offset: 0x1E5B6E8
     static void _cctor();
     // static private System.Object CreateInstance(System.Type objectType, System.Type callingType)
-    // Offset: 0x1E24C40
+    // Offset: 0x1E59778
     static ::Il2CppObject* CreateInstance(::System::Type* objectType, ::System::Type* callingType);
     // System.ComponentModel.AttributeCollection GetAttributes(System.Type type)
-    // Offset: 0x1E24D48
+    // Offset: 0x1E59880
     ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* type);
     // System.ComponentModel.TypeConverter GetConverter(System.Type type, System.Object instance)
-    // Offset: 0x1E2583C
+    // Offset: 0x1E5A374
     ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type, ::Il2CppObject* instance);
     // System.ComponentModel.AttributeCollection GetExtendedAttributes(System.Object instance)
-    // Offset: 0x1E25CF0
+    // Offset: 0x1E5A828
     ::System::ComponentModel::AttributeCollection* GetExtendedAttributes(::Il2CppObject* instance);
     // System.ComponentModel.TypeConverter GetExtendedConverter(System.Object instance)
-    // Offset: 0x1E25D58
+    // Offset: 0x1E5A890
     ::System::ComponentModel::TypeConverter* GetExtendedConverter(::Il2CppObject* instance);
     // private System.ComponentModel.ReflectTypeDescriptionProvider/System.ComponentModel.ReflectedTypeData GetTypeData(System.Type type, System.Boolean createIfNeeded)
-    // Offset: 0x1E24D68
+    // Offset: 0x1E598A0
     ::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData* GetTypeData(::System::Type* type, bool createIfNeeded);
     // System.Boolean IsPopulated(System.Type type)
-    // Offset: 0x1E25DDC
+    // Offset: 0x1E5A914
     bool IsPopulated(::System::Type* type);
     // static private System.Attribute[] ReflectGetAttributes(System.Type type)
-    // Offset: 0x1E25E2C
+    // Offset: 0x1E5A964
     static ::ArrayW<::System::Attribute*> ReflectGetAttributes(::System::Type* type);
     // System.Void Refresh(System.Type type)
-    // Offset: 0x1E26264
+    // Offset: 0x1E5AD9C
     void Refresh(::System::Type* type);
     // static private System.Object SearchIntrinsicTable(System.Collections.Hashtable table, System.Type callingType)
-    // Offset: 0x1E262AC
+    // Offset: 0x1E5ADE4
     static ::Il2CppObject* SearchIntrinsicTable(::System::Collections::Hashtable* table, ::System::Type* callingType);
     // System.Void .ctor()
-    // Offset: 0x1E24390
+    // Offset: 0x1E58EC8
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Void TypeDescriptionProvider::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -162,22 +162,22 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider*, creationType>()));
     }
     // public override System.Collections.IDictionary GetCache(System.Object instance)
-    // Offset: 0x1E254E4
+    // Offset: 0x1E5A01C
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Collections.IDictionary TypeDescriptionProvider::GetCache(System.Object instance)
     ::System::Collections::IDictionary* GetCache(::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetExtendedTypeDescriptor(System.Object instance)
-    // Offset: 0x1E25D98
+    // Offset: 0x1E5A8D0
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetExtendedTypeDescriptor(System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::Il2CppObject* instance);
     // public override System.Type GetReflectionType(System.Type objectType, System.Object instance)
-    // Offset: 0x1E25DA0
+    // Offset: 0x1E5A8D8
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.Type TypeDescriptionProvider::GetReflectionType(System.Type objectType, System.Object instance)
     ::System::Type* GetReflectionType(::System::Type* objectType, ::Il2CppObject* instance);
     // public override System.ComponentModel.ICustomTypeDescriptor GetTypeDescriptor(System.Type objectType, System.Object instance)
-    // Offset: 0x1E25DD4
+    // Offset: 0x1E5A90C
     // Implemented from: System.ComponentModel.TypeDescriptionProvider
     // Base method: System.ComponentModel.ICustomTypeDescriptor TypeDescriptionProvider::GetTypeDescriptor(System.Type objectType, System.Object instance)
     ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::Il2CppObject* instance);

@@ -72,14 +72,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11199A0
+    // [InjectAttribute] Offset: 0x1122AF8
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x11199B0
+    // [InjectAttribute] Offset: 0x1122B08
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
@@ -160,47 +160,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isReady
     [[deprecated("Use field access instead!")]] bool& dyn__isReady();
     // public System.Single get_songTime()
-    // Offset: 0x145F1CC
+    // Offset: 0x146B8D8
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x145F1D4
+    // Offset: 0x146B8E0
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x145F1DC
+    // Offset: 0x146B8E8
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x145F1E4
+    // Offset: 0x146B8F0
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x145F1EC
+    // Offset: 0x146B8F8
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0x145F1F8
+    // Offset: 0x146B904
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x145F204
+    // Offset: 0x146B910
     bool get_isReady();
     // public System.Void .ctor()
-    // Offset: 0x145F3C0
+    // Offset: 0x146BACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerSongTimeSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x145F20C
+    // Offset: 0x146B918
     void Start();
     // protected System.Void Update()
-    // Offset: 0x145F218
+    // Offset: 0x146B924
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x145C844
+    // Offset: 0x1468F50
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x145F3AC
+    // Offset: 0x146BAB8
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x145CB14
+    // Offset: 0x1469220
     void StopSong();
   }; // MultiplayerConnectedPlayerSongTimeSyncController
   #pragma pack(pop)

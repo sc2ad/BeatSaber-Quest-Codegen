@@ -48,12 +48,12 @@ namespace VRUIControls {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110936C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11122D4
     // Get static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static int _get__fadeStartNormalizedDistanceId();
     // Set static field: static private readonly System.Int32 _fadeStartNormalizedDistanceId
     static void _set__fadeStartNormalizedDistanceId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110937C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11122E4
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -61,23 +61,23 @@ namespace VRUIControls {
     // Get instance field reference: private UnityEngine.MeshRenderer _renderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::MeshRenderer*& dyn__renderer();
     // public System.Void .ctor()
-    // Offset: 0x2AEACC4
+    // Offset: 0x2B07514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRLaserPointer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRLaserPointer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRLaserPointer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AEACCC
+    // Offset: 0x2B0751C
     static void _cctor();
     // public System.Void SetLocalPosition(UnityEngine.Vector3 position)
-    // Offset: 0x2AEAB18
+    // Offset: 0x2B07368
     void SetLocalPosition(::UnityEngine::Vector3 position);
     // public System.Void SetLocalScale(UnityEngine.Vector3 scale)
-    // Offset: 0x2AEAB64
+    // Offset: 0x2B073B4
     void SetLocalScale(::UnityEngine::Vector3 scale);
     // public System.Void SetFadeDistance(System.Single distance)
-    // Offset: 0x2AEABB0
+    // Offset: 0x2B07400
     void SetFadeDistance(float distance);
   }; // VRUIControls.VRLaserPointer
   #pragma pack(pop)

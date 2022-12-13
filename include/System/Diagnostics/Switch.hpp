@@ -83,24 +83,24 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String defaultValue
     [[deprecated("Use field access instead!")]] ::StringW& dyn_defaultValue();
     // protected System.Void .ctor(System.String displayName, System.String description)
-    // Offset: 0x1D7BE3C
+    // Offset: 0x1D9B38C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description)));
     }
     // protected System.Void .ctor(System.String displayName, System.String description, System.String defaultSwitchValue)
-    // Offset: 0x1D81264
+    // Offset: 0x1DA07B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description, defaultSwitchValue)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D8185C
+    // Offset: 0x1DA0DAC
     static void _cctor();
     // static private System.Void _pruneCachedSwitches()
-    // Offset: 0x1D813FC
+    // Offset: 0x1DA094C
     static void _pruneCachedSwitches();
   }; // System.Diagnostics.Switch
   #pragma pack(pop)

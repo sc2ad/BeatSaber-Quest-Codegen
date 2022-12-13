@@ -29,20 +29,20 @@ namespace GlobalNamespace {
   class MonobehaviourCallbacksOrderDebuger : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x160174C
+    // Offset: 0x1629630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonobehaviourCallbacksOrderDebuger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MonobehaviourCallbacksOrderDebuger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonobehaviourCallbacksOrderDebuger*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1601554
+    // Offset: 0x1629438
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x16015FC
+    // Offset: 0x16294E0
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x16016A4
+    // Offset: 0x1629588
     void Start();
   }; // MonobehaviourCallbacksOrderDebuger
   #pragma pack(pop)

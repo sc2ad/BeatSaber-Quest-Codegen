@@ -71,20 +71,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x1420DEC
+    // Offset: 0x142C4F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomNoteRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RandomNoteRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomNoteRotation*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1420BE4
+    // Offset: 0x142C2F0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1420CAC
+    // Offset: 0x142C3B8
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x1420DB8
+    // Offset: 0x142C4C4
     void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
   }; // RandomNoteRotation
   #pragma pack(pop)

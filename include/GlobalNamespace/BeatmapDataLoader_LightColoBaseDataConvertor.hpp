@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::LightColoBaseDataConvertor : public ::Il2CppObject {
     public:
     // static public LightColorBaseData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightColorBaseData saveData)
-    // Offset: 0x13AC8D4
+    // Offset: 0x13B7D90
     static ::GlobalNamespace::LightColorBaseData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::LightColorBaseData* saveData);
   }; // BeatmapDataLoader/LightColoBaseDataConvertor
   #pragma pack(pop)

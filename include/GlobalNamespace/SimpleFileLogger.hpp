@@ -55,23 +55,23 @@ namespace GlobalNamespace {
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
     static void _set__monoLogger(::GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
-    // Offset: 0x2ABC4FC
+    // Offset: 0x2AD6B04
     static ::GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
     // public System.Void .ctor()
-    // Offset: 0x2ABC97C
+    // Offset: 0x2AD6F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleFileLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleFileLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleFileLogger*, creationType>()));
     }
     // static public System.Void Log(System.String text)
-    // Offset: 0x2ABC65C
+    // Offset: 0x2AD6C64
     static void Log(::StringW text);
     // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
-    // Offset: 0x2ABC6F0
+    // Offset: 0x2AD6CF8
     static void LogVector(::StringW description, ::UnityEngine::Vector3 vec);
     // static public System.Void Clear()
-    // Offset: 0x2ABC960
+    // Offset: 0x2AD6F68
     static void Clear();
   }; // SimpleFileLogger
   #pragma pack(pop)

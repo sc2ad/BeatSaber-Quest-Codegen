@@ -80,17 +80,17 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.IPAddress> addresses
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& dyn_addresses();
     // public System.Void .ctor(System.Net.NetworkInformation.UnixNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1BB226C
+    // Offset: 0x1BEB9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::UnixIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BB24AC
+    // Offset: 0x1BEBC1C
     static void _cctor();
     // public override System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
-    // Offset: 0x1BB22A4
+    // Offset: 0x1BEBA14
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.UnicastIPAddressInformationCollection IPInterfaceProperties::get_UnicastAddresses()
     ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();

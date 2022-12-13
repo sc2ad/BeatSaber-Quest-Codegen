@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*> colorArrayLightWithIds;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FD398
+    // [SpaceAttribute] Offset: 0x1106238
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -100,16 +100,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector4[] _colorsArray
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__colorsArray();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CC9C5C
+    // Offset: 0x1CD46D0
     void OnDestroy();
-    // private System.Void SetColorDataToShader()
-    // Offset: 0x1CC9C14
-    void SetColorDataToShader();
     // private System.Void HandleColorLightWithIdDidSetColor(System.Int32 index, UnityEngine.Color color)
-    // Offset: 0x1CCA000
+    // Offset: 0x1CD480C
     void HandleColorLightWithIdDidSetColor(int index, ::UnityEngine::Color color);
+    // private System.Void SetColorDataToShader()
+    // Offset: 0x1CD47BC
+    void SetColorDataToShader();
+    // private System.Void RegisterArrayForColorChanges()
+    // Offset: 0x1CD4560
+    void RegisterArrayForColorChanges();
+    // private System.Void UnregisterArrayFromColorChanges()
+    // Offset: 0x1CD46D4
+    void UnregisterArrayFromColorChanges();
     // public System.Void .ctor()
-    // Offset: 0x1CCA064
+    // Offset: 0x1CD4BE8
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,18 +123,18 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorArrayLightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorArrayLightWithIds*, creationType>()));
     }
-    // protected override System.Void Awake()
-    // Offset: 0x1CC99BC
+    // protected override System.Void OnEnable()
+    // Offset: 0x1CD4538
     // Implemented from: LightWithIds
-    // Base method: System.Void LightWithIds::Awake()
-    void Awake();
+    // Base method: System.Void LightWithIds::OnEnable()
+    void OnEnable();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CC9DE4
+    // Offset: 0x1CD47B8
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CC9DE8
+    // Offset: 0x1CD4804
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();
@@ -146,14 +152,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::SetColorDataToShader
-// Il2CppName: SetColorDataToShader
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::SetColorDataToShader)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "SetColorDataToShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
 // Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::HandleColorLightWithIdDidSetColor
 // Il2CppName: HandleColorLightWithIdDidSetColor
 template<>
@@ -164,16 +162,40 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "HandleColorLightWithIdDidSetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, color});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::SetColorDataToShader
+// Il2CppName: SetColorDataToShader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::SetColorDataToShader)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "SetColorDataToShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::RegisterArrayForColorChanges
+// Il2CppName: RegisterArrayForColorChanges
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::RegisterArrayForColorChanges)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "RegisterArrayForColorChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::UnregisterArrayFromColorChanges
+// Il2CppName: UnregisterArrayFromColorChanges
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::UnregisterArrayFromColorChanges)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "UnregisterArrayFromColorChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::Awake
-// Il2CppName: Awake
+// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::OnEnable
+// Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorArrayLightWithIds::*)()>(&GlobalNamespace::ColorArrayLightWithIds::OnEnable)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIds*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIds::ProcessNewColorData

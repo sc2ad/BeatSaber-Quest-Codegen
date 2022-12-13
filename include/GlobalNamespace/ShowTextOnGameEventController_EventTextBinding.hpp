@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Signal* signal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
-    // [TextAreaAttribute] Offset: 0x112904C
+    // [TextAreaAttribute] Offset: 0x11311B4
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -61,20 +61,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // public System.Void .ctor()
-    // Offset: 0x141209C
+    // Offset: 0x141D7A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowTextOnGameEventController::EventTextBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController::EventTextBinding*, creationType>()));
     }
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0x1411ED0
+    // Offset: 0x141D5DC
     void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0x1411FCC
+    // Offset: 0x141D6D8
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x1412060
+    // Offset: 0x141D76C
     void HandleGameEvent();
   }; // ShowTextOnGameEventController/EventTextBinding
   #pragma pack(pop)

@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Double Time
     [[deprecated("Use field access instead!")]] double& dyn_Time();
     // static private System.Void .cctor()
-    // Offset: 0x1B71E48
+    // Offset: 0x1B91A6C
     static void _cctor();
   }; // OVRPlugin/PoseStatef
   #pragma pack(pop)

@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionHelpViewController viewController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpViewController*& dyn_viewController();
     // public System.Void .ctor()
-    // Offset: 0x13E7ED4
+    // Offset: 0x1406D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CampaignFlowCoordinator::$$c__DisplayClass20_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CampaignFlowCoordinator::$$c__DisplayClass20_0*, creationType>()));
     }
     // System.Void <HandleMissionHelpViewControllerDidFinish>b__0()
-    // Offset: 0x13E83F4
+    // Offset: 0x1407274
     void $HandleMissionHelpViewControllerDidFinish$b__0();
   }; // CampaignFlowCoordinator/<>c__DisplayClass20_0
   #pragma pack(pop)

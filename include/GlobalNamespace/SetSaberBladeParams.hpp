@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0x111BE00
+    // [NullAllowed] Offset: 0x1124F58
     // private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>) == 0x8);
-    // [InjectAttribute] Offset: 0x111BE38
+    // [InjectAttribute] Offset: 0x1124F90
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -84,14 +84,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorManager _colorManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorManager*& dyn__colorManager();
     // public System.Void .ctor()
-    // Offset: 0x1410A08
+    // Offset: 0x141C114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberBladeParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberBladeParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberBladeParams*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14108FC
+    // Offset: 0x141C008
     void Start();
   }; // SetSaberBladeParams
   #pragma pack(pop)

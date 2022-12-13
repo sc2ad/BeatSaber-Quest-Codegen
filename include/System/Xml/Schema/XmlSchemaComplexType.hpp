@@ -88,33 +88,33 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Byte pvFlags
     [[deprecated("Use field access instead!")]] uint8_t& dyn_pvFlags();
     // static System.Xml.Schema.XmlSchemaComplexType get_AnyType()
-    // Offset: 0x210440C
+    // Offset: 0x20FE5E0
     static ::System::Xml::Schema::XmlSchemaComplexType* get_AnyType();
     // static System.Xml.Schema.ContentValidator get_AnyTypeContentValidator()
-    // Offset: 0x2103F2C
+    // Offset: 0x20FE100
     static ::System::Xml::Schema::ContentValidator* get_AnyTypeContentValidator();
     // public System.Xml.Schema.XmlSchemaParticle get_ContentTypeParticle()
-    // Offset: 0x2104490
+    // Offset: 0x20FE664
     ::System::Xml::Schema::XmlSchemaParticle* get_ContentTypeParticle();
     // static private System.Void .cctor()
-    // Offset: 0x21039F4
+    // Offset: 0x20FDBC8
     static void _cctor();
     // static private System.Xml.Schema.XmlSchemaComplexType CreateAnyType(System.Xml.Schema.XmlSchemaContentProcessing processContents)
-    // Offset: 0x2103BB0
+    // Offset: 0x20FDD84
     static ::System::Xml::Schema::XmlSchemaComplexType* CreateAnyType(::System::Xml::Schema::XmlSchemaContentProcessing processContents);
     // System.Void SetContentTypeParticle(System.Xml.Schema.XmlSchemaParticle value)
-    // Offset: 0x2104498
+    // Offset: 0x20FE66C
     void SetContentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
     // System.Void SetAttributeWildcard(System.Xml.Schema.XmlSchemaAnyAttribute value)
-    // Offset: 0x21044A0
+    // Offset: 0x20FE674
     void SetAttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
     // public override System.Void set_IsMixed(System.Boolean value)
-    // Offset: 0x2104474
+    // Offset: 0x20FE648
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::set_IsMixed(System.Boolean value)
     void set_IsMixed(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2103E3C
+    // Offset: 0x20FE010
     // Implemented from: System.Xml.Schema.XmlSchemaType
     // Base method: System.Void XmlSchemaType::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

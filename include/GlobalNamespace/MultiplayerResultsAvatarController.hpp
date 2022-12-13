@@ -60,17 +60,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerAvatarPoseController*& dyn__multiplayerAvatarPoseController();
     // public System.Void .ctor()
-    // Offset: 0x13D7124
+    // Offset: 0x13F6FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsAvatarController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsAvatarController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsAvatarController*, creationType>()));
     }
     // public System.Void SetScale(System.Single scale)
-    // Offset: 0x13D6F68
+    // Offset: 0x13F6DE8
     void SetScale(float scale);
     // public System.Void Setup(IConnectedPlayer connectedPlayer)
-    // Offset: 0x13D6FDC
+    // Offset: 0x13F6E5C
     void Setup(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // MultiplayerResultsAvatarController
   #pragma pack(pop)

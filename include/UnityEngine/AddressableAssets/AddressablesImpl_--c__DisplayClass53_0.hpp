@@ -46,14 +46,14 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
     // public System.Void .ctor()
-    // Offset: 0x18D2F3C
+    // Offset: 0x18F5968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass53_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass53_0*, creationType>()));
     }
     // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
-    // Offset: 0x18D8F90
+    // Offset: 0x18FB9BC
     bool $RemoveResourceLocator$b__0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass53_0
   #pragma pack(pop)

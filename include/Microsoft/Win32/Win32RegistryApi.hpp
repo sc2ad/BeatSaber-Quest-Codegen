@@ -74,70 +74,70 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private readonly System.Int32 NativeBytesPerCharacter
     [[deprecated("Use field access instead!")]] int& dyn_NativeBytesPerCharacter();
     // static private System.Int32 RegCloseKey(System.IntPtr keyHandle)
-    // Offset: 0x1FC4808
+    // Offset: 0x1FCEE80
     static int RegCloseKey(::System::IntPtr keyHandle);
     // static private System.Int32 RegFlushKey(System.IntPtr keyHandle)
-    // Offset: 0x1FC4888
+    // Offset: 0x1FCEF00
     static int RegFlushKey(::System::IntPtr keyHandle);
     // static private System.Int32 RegOpenKeyEx(System.IntPtr keyBase, System.String keyName, System.IntPtr reserved, System.Int32 access, out System.IntPtr keyHandle)
-    // Offset: 0x1FC4908
+    // Offset: 0x1FCEF80
     static int RegOpenKeyEx(::System::IntPtr keyBase, ::StringW keyName, ::System::IntPtr reserved, int access, ByRef<::System::IntPtr> keyHandle);
     // static System.Int32 RegEnumKeyEx(System.IntPtr keyHandle, System.Int32 dwIndex, System.Char* lpName, ref System.Int32 lpcbName, System.Int32[] lpReserved, out System.Text.StringBuilder lpClass, System.Int32[] lpcbClass, System.Int64[] lpftLastWriteTime)
-    // Offset: 0x1FC49BC
+    // Offset: 0x1FCF034
     static int RegEnumKeyEx(::System::IntPtr keyHandle, int dwIndex, ::Il2CppChar* lpName, ByRef<int> lpcbName, ::ArrayW<int> lpReserved, ByRef<::System::Text::StringBuilder*> lpClass, ::ArrayW<int> lpcbClass, ::ArrayW<int64_t> lpftLastWriteTime);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, System.IntPtr zero, ref System.Int32 dataSize)
-    // Offset: 0x1FC4AD8
+    // Offset: 0x1FCF150
     static int RegQueryValueEx(::System::IntPtr keyBase, ::StringW valueName, ::System::IntPtr reserved, ByRef<::Microsoft::Win32::RegistryValueKind> type, ::System::IntPtr zero, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, out System.Byte[] data, ref System.Int32 dataSize)
-    // Offset: 0x1FC4BA0
+    // Offset: 0x1FCF218
     static int RegQueryValueEx(::System::IntPtr keyBase, ::StringW valueName, ::System::IntPtr reserved, ByRef<::Microsoft::Win32::RegistryValueKind> type, ByRef<::ArrayW<uint8_t>> data, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, ref System.Int32 data, ref System.Int32 dataSize)
-    // Offset: 0x1FC4D00
+    // Offset: 0x1FCF378
     static int RegQueryValueEx(::System::IntPtr keyBase, ::StringW valueName, ::System::IntPtr reserved, ByRef<::Microsoft::Win32::RegistryValueKind> type, ByRef<int> data, ByRef<int> dataSize);
     // static private System.Int32 RegQueryValueEx(System.IntPtr keyBase, System.String valueName, System.IntPtr reserved, ref Microsoft.Win32.RegistryValueKind type, ref System.Int64 data, ref System.Int32 dataSize)
-    // Offset: 0x1FC4DC8
+    // Offset: 0x1FCF440
     static int RegQueryValueEx(::System::IntPtr keyBase, ::StringW valueName, ::System::IntPtr reserved, ByRef<::Microsoft::Win32::RegistryValueKind> type, ByRef<int64_t> data, ByRef<int> dataSize);
     // static System.Int32 RegQueryInfoKey(System.IntPtr hKey, out System.Text.StringBuilder lpClass, System.Int32[] lpcbClass, System.IntPtr lpReserved_MustBeZero, ref System.Int32 lpcSubKeys, System.Int32[] lpcbMaxSubKeyLen, System.Int32[] lpcbMaxClassLen, ref System.Int32 lpcValues, System.Int32[] lpcbMaxValueNameLen, System.Int32[] lpcbMaxValueLen, System.Int32[] lpcbSecurityDescriptor, System.Int32[] lpftLastWriteTime)
-    // Offset: 0x1FC4E90
+    // Offset: 0x1FCF508
     static int RegQueryInfoKey(::System::IntPtr hKey, ByRef<::System::Text::StringBuilder*> lpClass, ::ArrayW<int> lpcbClass, ::System::IntPtr lpReserved_MustBeZero, ByRef<int> lpcSubKeys, ::ArrayW<int> lpcbMaxSubKeyLen, ::ArrayW<int> lpcbMaxClassLen, ByRef<int> lpcValues, ::ArrayW<int> lpcbMaxValueNameLen, ::ArrayW<int> lpcbMaxValueLen, ::ArrayW<int> lpcbSecurityDescriptor, ::ArrayW<int> lpftLastWriteTime);
     // public System.IntPtr GetHandle(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x1FC4FE4
+    // Offset: 0x1FCF65C
     ::System::IntPtr GetHandle(::Microsoft::Win32::RegistryKey* key);
     // static private System.Boolean IsHandleValid(Microsoft.Win32.RegistryKey key)
-    // Offset: 0x1FC5060
+    // Offset: 0x1FCF6D8
     static bool IsHandleValid(::Microsoft::Win32::RegistryKey* key);
     // public System.Object GetValue(Microsoft.Win32.RegistryKey rkey, System.String name, System.Object defaultValue, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1FC5080
+    // Offset: 0x1FCF6F8
     ::Il2CppObject* GetValue(::Microsoft::Win32::RegistryKey* rkey, ::StringW name, ::Il2CppObject* defaultValue, ::Microsoft::Win32::RegistryValueOptions options);
     // private System.Int32 GetBinaryValue(Microsoft.Win32.RegistryKey rkey, System.String name, Microsoft.Win32.RegistryValueKind type, out System.Byte[] data, System.Int32 size)
-    // Offset: 0x1FC5530
+    // Offset: 0x1FCFBA8
     int GetBinaryValue(::Microsoft::Win32::RegistryKey* rkey, ::StringW name, ::Microsoft::Win32::RegistryValueKind type, ByRef<::ArrayW<uint8_t>> data, int size);
     // public System.Int32 SubKeyCount(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FC55CC
+    // Offset: 0x1FCFC44
     int SubKeyCount(::Microsoft::Win32::RegistryKey* rkey);
     // public Microsoft.Win32.RegistryKey OpenSubKey(Microsoft.Win32.RegistryKey rkey, System.String keyName, System.Boolean writable)
-    // Offset: 0x1FC5658
+    // Offset: 0x1FCFCD0
     ::Microsoft::Win32::RegistryKey* OpenSubKey(::Microsoft::Win32::RegistryKey* rkey, ::StringW keyName, bool writable);
     // public System.Void Flush(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FC57DC
+    // Offset: 0x1FCFE54
     void Flush(::Microsoft::Win32::RegistryKey* rkey);
     // public System.Void Close(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FC5808
+    // Offset: 0x1FCFE80
     void Close(::Microsoft::Win32::RegistryKey* rkey);
     // public System.String[] GetSubKeyNames(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FC5864
+    // Offset: 0x1FCFEDC
     ::ArrayW<::StringW> GetSubKeyNames(::Microsoft::Win32::RegistryKey* rkey);
     // private System.Void GenerateException(System.Int32 errorCode)
-    // Offset: 0x1FC53BC
+    // Offset: 0x1FCFA34
     void GenerateException(int errorCode);
     // public System.String ToString(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1FC5A18
+    // Offset: 0x1FD0090
     ::StringW ToString(::Microsoft::Win32::RegistryKey* rkey);
     // static System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String localName)
-    // Offset: 0x1FC5770
+    // Offset: 0x1FCFDE8
     static ::StringW CombineName(::Microsoft::Win32::RegistryKey* rkey, ::StringW localName);
     // public System.Void .ctor()
-    // Offset: 0x1FC308C
+    // Offset: 0x1FCD704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

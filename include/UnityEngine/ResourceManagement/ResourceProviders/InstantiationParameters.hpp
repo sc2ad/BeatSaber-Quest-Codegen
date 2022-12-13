@@ -96,25 +96,25 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_SetPositionRotation
     [[deprecated("Use field access instead!")]] bool& dyn_m_SetPositionRotation();
     // public UnityEngine.Vector3 get_Position()
-    // Offset: 0x1F73048
+    // Offset: 0x1F7CA78
     ::UnityEngine::Vector3 get_Position();
     // public UnityEngine.Quaternion get_Rotation()
-    // Offset: 0x1F73054
+    // Offset: 0x1F7CA84
     ::UnityEngine::Quaternion get_Rotation();
     // public UnityEngine.Transform get_Parent()
-    // Offset: 0x1F73060
+    // Offset: 0x1F7CA90
     ::UnityEngine::Transform* get_Parent();
     // public System.Boolean get_InstantiateInWorldPosition()
-    // Offset: 0x1F73068
+    // Offset: 0x1F7CA98
     bool get_InstantiateInWorldPosition();
     // public System.Boolean get_SetPositionRotation()
-    // Offset: 0x1F73070
+    // Offset: 0x1F7CAA0
     bool get_SetPositionRotation();
     // public System.Void .ctor(UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
-    // Offset: 0x1F73078
+    // Offset: 0x1F7CAA8
     InstantiationParameters(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
-    // Offset: 0x1F73138
+    // Offset: 0x1F7CB68
     InstantiationParameters(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
     // public TObject Instantiate(TObject source)
     // Offset: 0xFFFFFFFFFFFFFFFF

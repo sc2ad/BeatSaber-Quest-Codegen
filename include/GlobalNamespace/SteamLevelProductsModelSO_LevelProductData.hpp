@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // public System.UInt32 get_appId()
-    // Offset: 0x13B0428
+    // Offset: 0x13BB8E4
     uint get_appId();
     // public System.String get_levelId()
-    // Offset: 0x13B0430
+    // Offset: 0x13BB8EC
     ::StringW get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x13B0438
+    // Offset: 0x13BB8F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamLevelProductsModelSO::LevelProductData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::.ctor");

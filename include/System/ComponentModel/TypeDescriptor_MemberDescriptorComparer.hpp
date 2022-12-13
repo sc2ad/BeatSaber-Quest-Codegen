@@ -38,17 +38,17 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer Instance
     static void _set_Instance(::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer* value);
     // public System.Void .ctor()
-    // Offset: 0x1D78D50
+    // Offset: 0x1D982A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::MemberDescriptorComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::MemberDescriptorComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::MemberDescriptorComparer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D78D58
+    // Offset: 0x1D982A8
     static void _cctor();
     // public System.Int32 Compare(System.Object left, System.Object right)
-    // Offset: 0x1D78BD8
+    // Offset: 0x1D98128
     int Compare(::Il2CppObject* left, ::Il2CppObject* right);
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.MemberDescriptorComparer
   #pragma pack(pop)

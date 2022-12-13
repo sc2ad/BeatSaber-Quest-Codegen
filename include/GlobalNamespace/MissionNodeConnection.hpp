@@ -74,14 +74,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Image* image;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [NullAllowed] Offset: 0x1120B60
+    // [NullAllowed] Offset: 0x1128CB8
     // private MissionNodeVisualController _parentMissionNode
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MissionNodeVisualController* parentMissionNode;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [NullAllowed] Offset: 0x1120B9C
+    // [NullAllowed] Offset: 0x1128CF4
     // private MissionNodeVisualController _childMissionNode
     // Size: 0x8
     // Offset: 0x38
@@ -136,32 +136,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isActive
     [[deprecated("Use field access instead!")]] bool& dyn__isActive();
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0x14861FC
+    // Offset: 0x1492A68
     ::GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0x1486204
+    // Offset: 0x1492A70
     ::GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0x148620C
+    // Offset: 0x1492A78
     bool get_isActive();
     // public System.Void .ctor()
-    // Offset: 0x148652C
+    // Offset: 0x1492D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeConnection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeConnection*, creationType>()));
     }
     // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0x1486214
+    // Offset: 0x1492A80
     void Setup(::GlobalNamespace::MissionNodeVisualController* parentMissionNode, ::GlobalNamespace::MissionNodeVisualController* childMissionNode);
     // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0x148621C
+    // Offset: 0x1492A88
     void UpdateConnectionRectTransform();
     // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0x1485C7C
+    // Offset: 0x14924E8
     void SetActive(bool animated);
     // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0x148650C
+    // Offset: 0x1492D78
     void MissionConnectionEnabledDidFinish();
   }; // MissionNodeConnection
   #pragma pack(pop)

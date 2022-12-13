@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public StandardLevelGameplayManager <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelGameplayManager*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x13AE7C8
+    // Offset: 0x13B9C84
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x13AE830
+    // Offset: 0x13B9CEC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x13AE494
+    // Offset: 0x13B9950
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager::$Start$d__22* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelGameplayManager::$Start$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager::$Start$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x13AE4C0
+    // Offset: 0x13B997C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x13AE4C4
+    // Offset: 0x13B9980
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x13AE7D0
+    // Offset: 0x13B9C8C
     void System_Collections_IEnumerator_Reset();
   }; // StandardLevelGameplayManager/<Start>d__22
   #pragma pack(pop)

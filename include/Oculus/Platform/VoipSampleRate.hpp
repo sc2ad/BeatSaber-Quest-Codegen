@@ -45,28 +45,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1106864
+    // [DescriptionAttribute] Offset: 0x110F7CC
     // static field const value: static public Oculus.Platform.VoipSampleRate Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.VoipSampleRate Unknown
     static ::Oculus::Platform::VoipSampleRate _get_Unknown();
     // Set static field: static public Oculus.Platform.VoipSampleRate Unknown
     static void _set_Unknown(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x110689C
+    // [DescriptionAttribute] Offset: 0x110F804
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ24000
     static constexpr const int HZ24000 = 1;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static ::Oculus::Platform::VoipSampleRate _get_HZ24000();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ24000
     static void _set_HZ24000(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x11068D4
+    // [DescriptionAttribute] Offset: 0x110F83C
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ44100
     static constexpr const int HZ44100 = 2;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static ::Oculus::Platform::VoipSampleRate _get_HZ44100();
     // Set static field: static public Oculus.Platform.VoipSampleRate HZ44100
     static void _set_HZ44100(::Oculus::Platform::VoipSampleRate value);
-    // [DescriptionAttribute] Offset: 0x110690C
+    // [DescriptionAttribute] Offset: 0x110F874
     // static field const value: static public Oculus.Platform.VoipSampleRate HZ48000
     static constexpr const int HZ48000 = 3;
     // Get static field: static public Oculus.Platform.VoipSampleRate HZ48000

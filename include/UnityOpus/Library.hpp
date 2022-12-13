@@ -65,47 +65,47 @@ namespace UnityOpus {
     // Set static field: static private System.String dllName
     static void _set_dllName(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x16622B4
+    // Offset: 0x1656C98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Library* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Library::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Library*, creationType>()));
     }
     // static public System.IntPtr OpusEncoderCreate(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, UnityOpus.OpusApplication application, out UnityOpus.ErrorCode error)
-    // Offset: 0x1661D34
+    // Offset: 0x1656718
     static ::System::IntPtr OpusEncoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application, ByRef<::UnityOpus::ErrorCode> error);
     // static public System.Int32 OpusEncode(System.IntPtr encoder, System.Int16[] pcm, System.Int32 frameSize, System.Byte[] data, System.Int32 maxDataBytes)
-    // Offset: 0x1662124
+    // Offset: 0x1656B08
     static int OpusEncode(::System::IntPtr encoder, ::ArrayW<int16_t> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
     // static public System.Int32 OpusEncodeFloat(System.IntPtr encoder, System.Single[] pcm, System.Int32 frameSize, System.Byte[] data, System.Int32 maxDataBytes)
-    // Offset: 0x1661E84
+    // Offset: 0x1656868
     static int OpusEncodeFloat(::System::IntPtr encoder, ::ArrayW<float> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
     // static public System.Void OpusEncoderDestroy(System.IntPtr encoder)
-    // Offset: 0x1661FB4
+    // Offset: 0x1656998
     static void OpusEncoderDestroy(::System::IntPtr encoder);
     // static public System.Int32 OpusEncoderSetBitrate(System.IntPtr encoder, System.Int32 bitrate)
-    // Offset: 0x16619FC
+    // Offset: 0x16563E0
     static int OpusEncoderSetBitrate(::System::IntPtr encoder, int bitrate);
     // static public System.Int32 OpusEncoderSetComplexity(System.IntPtr encoder, System.Int32 complexity)
-    // Offset: 0x1661AC0
+    // Offset: 0x16564A4
     static int OpusEncoderSetComplexity(::System::IntPtr encoder, int complexity);
     // static public System.Int32 OpusEncoderSetSignal(System.IntPtr encoder, UnityOpus.OpusSignal signal)
-    // Offset: 0x1661B84
+    // Offset: 0x1656568
     static int OpusEncoderSetSignal(::System::IntPtr encoder, ::UnityOpus::OpusSignal signal);
     // static public System.IntPtr OpusDecoderCreate(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, out UnityOpus.ErrorCode error)
-    // Offset: 0x1661504
+    // Offset: 0x1655EE8
     static ::System::IntPtr OpusDecoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ByRef<::UnityOpus::ErrorCode> error);
     // static public System.Int32 OpusDecode(System.IntPtr decoder, System.Byte[] data, System.Int32 len, System.Int16[] pcm, System.Int32 frameSize, System.Int32 decodeFec)
-    // Offset: 0x16621E4
+    // Offset: 0x1656BC8
     static int OpusDecode(::System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<int16_t> pcm, int frameSize, int decodeFec);
     // static public System.Int32 OpusDecodeFloat(System.IntPtr decoder, System.Byte[] data, System.Int32 len, System.Single[] pcm, System.Int32 frameSize, System.Int32 decodeFec)
-    // Offset: 0x1661660
+    // Offset: 0x1656044
     static int OpusDecodeFloat(::System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<float> pcm, int frameSize, int decodeFec);
     // static public System.Void OpusDecoderDestroy(System.IntPtr decoder)
-    // Offset: 0x1661858
+    // Offset: 0x165623C
     static void OpusDecoderDestroy(::System::IntPtr decoder);
     // static public System.Void OpusPcmSoftClip(System.Single[] pcm, System.Int32 frameSize, UnityOpus.NumChannels channels, System.Single[] softclipMem)
-    // Offset: 0x1661730
+    // Offset: 0x1656114
     static void OpusPcmSoftClip(::ArrayW<float> pcm, int frameSize, ::UnityOpus::NumChannels channels, ::ArrayW<float> softclipMem);
   }; // UnityOpus.Library
   #pragma pack(pop)

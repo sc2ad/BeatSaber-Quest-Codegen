@@ -56,13 +56,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _bpmText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__bpmText();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x13A1990
+    // Offset: 0x13ACE4C
     void set_duration(float value);
     // public System.Void set_bpm(System.Single value)
-    // Offset: 0x13A19C8
+    // Offset: 0x13ACE84
     void set_bpm(float value);
     // public System.Void .ctor()
-    // Offset: 0x13A1A0C
+    // Offset: 0x13ACEC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicLevelParamsPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicLevelParamsPanel::.ctor");

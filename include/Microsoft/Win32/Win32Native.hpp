@@ -31,10 +31,10 @@ namespace Microsoft::Win32 {
     // Nested type: ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA
     class WIN32_FIND_DATA;
     // static public System.String GetMessage(System.Int32 hr)
-    // Offset: 0x1FC4778
+    // Offset: 0x1FCEDF0
     static ::StringW GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
-    // Offset: 0x1FC47F4
+    // Offset: 0x1FCEE6C
     static int MakeHRFromErrorCode(int errorCode);
   }; // Microsoft.Win32.Win32Native
   #pragma pack(pop)

@@ -139,38 +139,38 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint> failurePoints
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*& dyn_failurePoints();
     // public System.Void .ctor(NUnit.Framework.Constraints.EqualConstraint constraint, System.Object actual, System.Boolean hasSucceeded)
-    // Offset: 0x1D48A68
+    // Offset: 0x1D5260C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EqualConstraintResult* New_ctor(::NUnit::Framework::Constraints::EqualConstraint* constraint, ::Il2CppObject* actual, bool hasSucceeded) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::EqualConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EqualConstraintResult*, creationType>(constraint, actual, hasSucceeded)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D4A9C0
+    // Offset: 0x1D54564
     static void _cctor();
     // private System.Void DisplayDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Object expected, System.Object actual, System.Int32 depth)
-    // Offset: 0x1D48EC0
+    // Offset: 0x1D52A64
     void DisplayDifferences(::NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppObject* expected, ::Il2CppObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
-    // Offset: 0x1D491A4
+    // Offset: 0x1D52D48
     void DisplayStringDifferences(::NUnit::Framework::Constraints::MessageWriter* writer, ::StringW expected, ::StringW actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
-    // Offset: 0x1D498AC
+    // Offset: 0x1D53450
     void DisplayStreamDifferences(::NUnit::Framework::Constraints::MessageWriter* writer, ::System::IO::Stream* expected, ::System::IO::Stream* actual, int depth);
     // private System.Void DisplayCollectionDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.ICollection expected, System.Collections.ICollection actual, System.Int32 depth)
-    // Offset: 0x1D494A0
+    // Offset: 0x1D53044
     void DisplayCollectionDifferences(::NUnit::Framework::Constraints::MessageWriter* writer, ::System::Collections::ICollection* expected, ::System::Collections::ICollection* actual, int depth);
     // private System.Void DisplayTypesAndSizes(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 indent)
-    // Offset: 0x1D49D48
+    // Offset: 0x1D538EC
     void DisplayTypesAndSizes(::NUnit::Framework::Constraints::MessageWriter* writer, ::System::Collections::IEnumerable* expected, ::System::Collections::IEnumerable* actual, int indent);
     // private System.Void DisplayFailurePoint(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint failurePoint, System.Int32 indent)
-    // Offset: 0x1D4A1F4
+    // Offset: 0x1D53D98
     void DisplayFailurePoint(::NUnit::Framework::Constraints::MessageWriter* writer, ::System::Collections::IEnumerable* expected, ::System::Collections::IEnumerable* actual, ::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint* failurePoint, int indent);
     // private System.Void DisplayEnumerableDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.Collections.IEnumerable expected, System.Collections.IEnumerable actual, System.Int32 depth)
-    // Offset: 0x1D496F4
+    // Offset: 0x1D53298
     void DisplayEnumerableDifferences(::NUnit::Framework::Constraints::MessageWriter* writer, ::System::Collections::IEnumerable* expected, ::System::Collections::IEnumerable* actual, int depth);
     // public override System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1D48EB0
+    // Offset: 0x1D52A54
     // Implemented from: NUnit.Framework.Constraints.ConstraintResult
     // Base method: System.Void ConstraintResult::WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
     void WriteMessageTo(::NUnit::Framework::Constraints::MessageWriter* writer);

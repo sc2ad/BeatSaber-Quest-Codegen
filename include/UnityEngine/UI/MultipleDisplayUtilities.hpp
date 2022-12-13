@@ -35,10 +35,10 @@ namespace UnityEngine::UI {
   class MultipleDisplayUtilities : public ::Il2CppObject {
     public:
     // static public System.Boolean GetRelativeMousePositionForDrag(UnityEngine.EventSystems.PointerEventData eventData, ref UnityEngine.Vector2 position)
-    // Offset: 0x1F349BC
+    // Offset: 0x1F3F3EC
     static bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
     // static public UnityEngine.Vector2 GetMousePositionRelativeToMainDisplayResolution()
-    // Offset: 0x1F3BCC8
+    // Offset: 0x1F466F8
     static ::UnityEngine::Vector2 GetMousePositionRelativeToMainDisplayResolution();
   }; // UnityEngine.UI.MultipleDisplayUtilities
   #pragma pack(pop)

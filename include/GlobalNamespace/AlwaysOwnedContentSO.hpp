@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapLevelSO[] _alwaysOwnedBeatmapLevels
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapLevelSO*>& dyn__alwaysOwnedBeatmapLevels();
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x1532640
+    // Offset: 0x153F29C
     ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*> get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x1532648
+    // Offset: 0x153F2A4
     ::ArrayW<::GlobalNamespace::BeatmapLevelSO*> get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x1532650
+    // Offset: 0x153F2AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlwaysOwnedContentSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlwaysOwnedContentSO::.ctor");

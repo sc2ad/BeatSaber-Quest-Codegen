@@ -55,17 +55,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/TextStyle style
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::CreditsData::TextStyle& dyn_style();
     // public System.Void .ctor()
-    // Offset: 0x1434EB8
+    // Offset: 0x14405C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::Text* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::Text::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::Text*, creationType>()));
     }
     // public System.Boolean IsEmpty()
-    // Offset: 0x1434DEC
+    // Offset: 0x14404F8
     bool IsEmpty();
     // public override System.String ToString()
-    // Offset: 0x1434E0C
+    // Offset: 0x1440518
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

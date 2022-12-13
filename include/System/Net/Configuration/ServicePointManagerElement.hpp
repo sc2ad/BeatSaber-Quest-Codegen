@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class ServicePointManagerElement : public ::System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A93434
+    // Offset: 0x1AA4FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManagerElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::ServicePointManagerElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManagerElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1A93474
+    // Offset: 0x1AA4FF4
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

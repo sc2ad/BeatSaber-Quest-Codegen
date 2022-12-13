@@ -38,14 +38,14 @@ namespace GlobalNamespace {
   class MultiplayerLocalInactiveClient : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1119E68
+    // [InjectAttribute] Offset: 0x1122FC0
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119E78
+    // [InjectAttribute] Offset: 0x1122FD0
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // public System.Void .ctor()
-    // Offset: 0x13C9720
+    // Offset: 0x13E95A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactiveClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactiveClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactiveClient*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x13C9398
+    // Offset: 0x13E9218
     void LateUpdate();
   }; // MultiplayerLocalInactiveClient
   #pragma pack(pop)

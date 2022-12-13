@@ -63,7 +63,7 @@ namespace UnityEngine {
     // Get instance field reference: UnityEngine.GUILayoutGroup windows
     [[deprecated("Use field access instead!")]] ::UnityEngine::GUILayoutGroup*& dyn_windows();
     // System.Void .ctor()
-    // Offset: 0x20B1F14
+    // Offset: 0x20B767C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutUtility::LayoutCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutUtility::LayoutCache::.ctor");

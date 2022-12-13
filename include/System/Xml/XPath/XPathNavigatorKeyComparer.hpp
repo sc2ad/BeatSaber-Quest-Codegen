@@ -37,17 +37,17 @@ namespace System::Xml::XPath {
       return reinterpret_cast<::System::Collections::IEqualityComparer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1C2AA6C
+    // Offset: 0x1C57238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XPathNavigatorKeyComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XPath::XPathNavigatorKeyComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathNavigatorKeyComparer*, creationType>()));
     }
     // private System.Boolean System.Collections.IEqualityComparer.Equals(System.Object obj1, System.Object obj2)
-    // Offset: 0x1C2AA74
+    // Offset: 0x1C57240
     bool System_Collections_IEqualityComparer_Equals(::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // private System.Int32 System.Collections.IEqualityComparer.GetHashCode(System.Object obj)
-    // Offset: 0x1C2AB58
+    // Offset: 0x1C57324
     int System_Collections_IEqualityComparer_GetHashCode(::Il2CppObject* obj);
   }; // System.Xml.XPath.XPathNavigatorKeyComparer
   #pragma pack(pop)

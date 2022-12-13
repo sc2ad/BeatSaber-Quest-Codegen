@@ -85,21 +85,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MissionMapAnimationController* missionMapAnimationController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112323C
+    // [InjectAttribute] Offset: 0x112B394
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x88
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x112324C
+    // [InjectAttribute] Offset: 0x112B3A4
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessPerLevelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x112325C
+    // [InjectAttribute] Offset: 0x112B3B4
     // private readonly AudioClipAsyncLoader _audioClipAsyncLoader
     // Size: 0x8
     // Offset: 0x98
@@ -136,40 +136,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNode _selectedMissionNode
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNode*& dyn__selectedMissionNode();
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x148ABF0
+    // Offset: 0x149745C
     bool get_animatedUpdateIsRequired();
     // public System.Void add_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x148AAA8
+    // Offset: 0x1497314
     void add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
     // public System.Void remove_didSelectMissionLevelEvent(System.Action`2<MissionSelectionMapViewController,MissionNode> value)
-    // Offset: 0x148AB4C
+    // Offset: 0x14973B8
     void remove_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
     // public System.Void .ctor()
-    // Offset: 0x148B00C
+    // Offset: 0x1497878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionMapViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionMapViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionMapViewController*, creationType>()));
     }
     // private System.Void HandleMissionNodeSelectionManagerDidSelectMissionNode(MissionNodeVisualController missionNodeVisualController)
-    // Offset: 0x148AE6C
+    // Offset: 0x14976D8
     void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
     // private System.Void SongPlayerCrossfadeToLevelAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x148AF0C
+    // Offset: 0x1497778
     void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void ShowMissionClearedAnimation(System.Action finishCallback)
-    // Offset: 0x148AFD4
+    // Offset: 0x1497840
     void ShowMissionClearedAnimation(::System::Action* finishCallback);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x148AFF4
+    // Offset: 0x1497860
     void DeselectSelectedNode();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x148AC08
+    // Offset: 0x1497474
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x148AD40
+    // Offset: 0x14975AC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

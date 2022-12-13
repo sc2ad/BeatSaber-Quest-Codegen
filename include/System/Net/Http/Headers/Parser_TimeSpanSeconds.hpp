@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers {
   class Parser::TimeSpanSeconds : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.TimeSpan result)
-    // Offset: 0x19D44D8
+    // Offset: 0x19F8270
     static bool TryParse(::StringW input, ByRef<::System::TimeSpan> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.TimeSpanSeconds
   #pragma pack(pop)

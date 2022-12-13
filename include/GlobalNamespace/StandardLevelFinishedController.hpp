@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119188
+    // [InjectAttribute] Offset: 0x11222E0
     // private readonly PrepareLevelCompletionResults _prepareLevelCompletionResults
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
-    // [InjectAttribute] Offset: 0x1119198
+    // [InjectAttribute] Offset: 0x11222F0
     // private ILevelEndActions _gameplayManager
     // Size: 0x8
     // Offset: 0x28
@@ -70,23 +70,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private ILevelEndActions _gameplayManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ILevelEndActions*& dyn__gameplayManager();
     // public System.Void .ctor()
-    // Offset: 0x148287C
+    // Offset: 0x148F0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFinishedController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFinishedController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFinishedController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1482648
+    // Offset: 0x148EEB4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1482734
+    // Offset: 0x148EFA0
     void OnDestroy();
     // private System.Void HandleLevelFinished()
-    // Offset: 0x148282C
+    // Offset: 0x148F098
     void HandleLevelFinished();
     // private System.Void StartLevelFinished()
-    // Offset: 0x1482830
+    // Offset: 0x148F09C
     void StartLevelFinished();
   }; // StandardLevelFinishedController
   #pragma pack(pop)

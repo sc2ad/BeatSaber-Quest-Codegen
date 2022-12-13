@@ -78,14 +78,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // public System.Void .ctor()
-    // Offset: 0x1484484
+    // Offset: 0x1490CF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelRestartController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelRestartController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelRestartController*, creationType>()));
     }
     // public System.Void RestartLevel()
-    // Offset: 0x14841D4
+    // Offset: 0x1490A40
     void RestartLevel();
   }; // MissionLevelRestartController
   #pragma pack(pop)

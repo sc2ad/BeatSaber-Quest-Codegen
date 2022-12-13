@@ -37,17 +37,17 @@ namespace HMUI {
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
     static void _set_$$9(::HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x17124A4
+    // Offset: 0x16FFEAC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1712508
+    // Offset: 0x16FFF10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackedController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackedController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c*, creationType>()));
     }
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x1712510
+    // Offset: 0x16FFF18
     void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers);
   }; // HMUI.StackedController/HMUI.<>c
   #pragma pack(pop)

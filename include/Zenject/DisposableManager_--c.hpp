@@ -69,32 +69,32 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.DisposableManager/Zenject.DisposableInfo,System.Int32> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::Zenject::DisposableManager::DisposableInfo, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E7CA0C
+    // Offset: 0x1E9B02C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E7CA70
+    // Offset: 0x1E9B090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c*, creationType>()));
     }
     // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1E7CA78
+    // Offset: 0x1E9B098
     ::System::Nullable_1<int> $_ctor$b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1E7CAE8
+    // Offset: 0x1E9B108
     ::System::Nullable_1<int> $_ctor$b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/Zenject.LateDisposableInfo x)
-    // Offset: 0x1E7CB58
+    // Offset: 0x1E9B178
     int $LateDispose$b__10_0(::Zenject::DisposableManager::LateDisposableInfo* x);
     // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x1E7CB70
+    // Offset: 0x1E9B190
     int $Dispose$b__11_0(::Zenject::DisposableManager::DisposableInfo x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E7CB78
+    // Offset: 0x1E9B198
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E7CBD4
+    // Offset: 0x1E9B1F4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.<>c
   #pragma pack(pop)

@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean playVRMovement
     [[deprecated("Use field access instead!")]] bool& dyn_playVRMovement();
     // public System.Void .ctor(System.Boolean useFirstPersonFlyingController, System.Boolean recordVRMovement, System.Boolean playVRMovement)
-    // Offset: 0x155D1C4
+    // Offset: 0x1569EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEditorGameplaySceneSetupData* New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::.ctor");

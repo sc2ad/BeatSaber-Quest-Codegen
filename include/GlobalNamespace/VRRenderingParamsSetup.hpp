@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::VRRenderingParamsSetup::SceneType) == 0x4);
     // Padding between fields: sceneType and: vrPlatformHelper
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x1107D58
+    // [InjectAttribute] Offset: 0x1110CC0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x38
@@ -143,14 +143,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Void .ctor()
-    // Offset: 0x2AD154C
+    // Offset: 0x2AEDD9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRRenderingParamsSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRRenderingParamsSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRRenderingParamsSetup*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2AD124C
+    // Offset: 0x2AEDA9C
     void OnEnable();
   }; // VRRenderingParamsSetup
   #pragma pack(pop)

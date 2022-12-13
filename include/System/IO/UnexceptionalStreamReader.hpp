@@ -51,16 +51,16 @@ namespace System::IO {
     // Set static field: static private System.Char newlineChar
     static void _set_newlineChar(::Il2CppChar value);
     // private System.Boolean CheckEOL(System.Char current)
-    // Offset: 0x1C18728
+    // Offset: 0x1C44EF4
     bool CheckEOL(::Il2CppChar current);
     // static private System.Void .cctor()
-    // Offset: 0x1C18218
+    // Offset: 0x1C449E4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.cctor()
     // Base method: System.Void TextReader::.cctor()
     static void _cctor();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x1C182BC
+    // Offset: 0x1C44A88
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,27 +69,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<UnexceptionalStreamReader*, creationType>(stream, encoding)));
     }
     // public override System.Int32 Peek()
-    // Offset: 0x1C18338
+    // Offset: 0x1C44B04
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x1C183F4
+    // Offset: 0x1C44BC0
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(in System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1C184B0
+    // Offset: 0x1C44C7C
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
     int Read(ByRef<::ArrayW<::Il2CppChar>> dest_buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1C18918
+    // Offset: 0x1C450E4
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::StringW ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1C189D4
+    // Offset: 0x1C451A0
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::StringW ReadToEnd();

@@ -88,10 +88,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EntitlementsStatus> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x14F8F74
+    // Offset: 0x15058BC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x14F91B8
+    // Offset: 0x1505B00
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // NetworkPlayerEntitlementChecker/<HandleGetIsEntitledToLevel>d__5
   // WARNING Not writing size check since size may be invalid!

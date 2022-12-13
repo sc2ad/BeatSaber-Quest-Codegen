@@ -83,192 +83,192 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private readonly System.IO.StringWriter _sw
     [[deprecated("Use field access instead!")]] ::System::IO::StringWriter*& dyn__sw();
     // public System.Void .ctor(Newtonsoft.Json.JsonWriter innerWriter)
-    // Offset: 0x2117108
+    // Offset: 0x21112DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceJsonWriter* New_ctor(::Newtonsoft::Json::JsonWriter* innerWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::TraceJsonWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceJsonWriter*, creationType>(innerWriter)));
     }
     // public System.String GetSerializedJsonMessage()
-    // Offset: 0x21172BC
+    // Offset: 0x2111490
     ::StringW GetSerializedJsonMessage();
     // public override System.Void WriteValue(System.Decimal value)
-    // Offset: 0x21172DC
+    // Offset: 0x21114B0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Decimal value)
     void WriteValue(::System::Decimal value);
     // public override System.Void WriteValue(System.Boolean value)
-    // Offset: 0x2117354
+    // Offset: 0x2111528
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Boolean value)
     void WriteValue(bool value);
     // public override System.Void WriteValue(System.Byte value)
-    // Offset: 0x21173BC
+    // Offset: 0x2111590
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Byte value)
     void WriteValue(uint8_t value);
     // public override System.Void WriteValue(System.Nullable`1<System.Byte> value)
-    // Offset: 0x2117420
+    // Offset: 0x21115F4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Byte> value)
     void WriteValue(::System::Nullable_1<uint8_t> value);
     // public override System.Void WriteValue(System.Char value)
-    // Offset: 0x2117488
+    // Offset: 0x211165C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Char value)
     void WriteValue(::Il2CppChar value);
     // public override System.Void WriteValue(System.Byte[] value)
-    // Offset: 0x21174EC
+    // Offset: 0x21116C0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Byte[] value)
     void WriteValue(::ArrayW<uint8_t> value);
     // public override System.Void WriteValue(System.DateTime value)
-    // Offset: 0x2117550
+    // Offset: 0x2111724
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTime value)
     void WriteValue(::System::DateTime value);
     // public override System.Void WriteValue(System.DateTimeOffset value)
-    // Offset: 0x21175B4
+    // Offset: 0x2111788
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTimeOffset value)
     void WriteValue(::System::DateTimeOffset value);
     // public override System.Void WriteValue(System.Double value)
-    // Offset: 0x211762C
+    // Offset: 0x2111800
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Double value)
     void WriteValue(double value);
     // public override System.Void WriteUndefined()
-    // Offset: 0x2117698
+    // Offset: 0x211186C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteUndefined()
     void WriteUndefined();
     // public override System.Void WriteNull()
-    // Offset: 0x21176F0
+    // Offset: 0x21118C4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteNull()
     void WriteNull();
     // public override System.Void WriteValue(System.Single value)
-    // Offset: 0x2117748
+    // Offset: 0x211191C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Single value)
     void WriteValue(float value);
     // public override System.Void WriteValue(System.Guid value)
-    // Offset: 0x21177B4
+    // Offset: 0x2111988
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Guid value)
     void WriteValue(::System::Guid value);
     // public override System.Void WriteValue(System.Int32 value)
-    // Offset: 0x211782C
+    // Offset: 0x2111A00
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Int32 value)
     void WriteValue(int value);
     // public override System.Void WriteValue(System.Int64 value)
-    // Offset: 0x2117890
+    // Offset: 0x2111A64
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Int64 value)
     void WriteValue(int64_t value);
     // public override System.Void WriteValue(System.Object value)
-    // Offset: 0x21178F4
+    // Offset: 0x2111AC8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Object value)
     void WriteValue(::Il2CppObject* value);
     // public override System.Void WriteValue(System.SByte value)
-    // Offset: 0x2117958
+    // Offset: 0x2111B2C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.SByte value)
     void WriteValue(int8_t value);
     // public override System.Void WriteValue(System.Int16 value)
-    // Offset: 0x21179BC
+    // Offset: 0x2111B90
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Int16 value)
     void WriteValue(int16_t value);
     // public override System.Void WriteValue(System.String value)
-    // Offset: 0x2117A20
+    // Offset: 0x2111BF4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.String value)
     void WriteValue(::StringW value);
     // public override System.Void WriteValue(System.TimeSpan value)
-    // Offset: 0x2117A84
+    // Offset: 0x2111C58
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.TimeSpan value)
     void WriteValue(::System::TimeSpan value);
     // public override System.Void WriteValue(System.UInt32 value)
-    // Offset: 0x2117AE8
+    // Offset: 0x2111CBC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.UInt32 value)
     void WriteValue(uint value);
     // public override System.Void WriteValue(System.UInt64 value)
-    // Offset: 0x2117B4C
+    // Offset: 0x2111D20
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.UInt64 value)
     void WriteValue(uint64_t value);
     // public override System.Void WriteValue(System.Uri value)
-    // Offset: 0x2117BB0
+    // Offset: 0x2111D84
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Uri value)
     void WriteValue(::System::Uri* value);
     // public override System.Void WriteValue(System.UInt16 value)
-    // Offset: 0x2117C14
+    // Offset: 0x2111DE8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.UInt16 value)
     void WriteValue(uint16_t value);
     // public override System.Void WriteComment(System.String text)
-    // Offset: 0x2117C78
+    // Offset: 0x2111E4C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteComment(System.String text)
     void WriteComment(::StringW text);
     // public override System.Void WriteStartArray()
-    // Offset: 0x2117CDC
+    // Offset: 0x2111EB0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteStartArray()
     void WriteStartArray();
     // public override System.Void WriteEndArray()
-    // Offset: 0x2117D2C
+    // Offset: 0x2111F00
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteEndArray()
     void WriteEndArray();
     // public override System.Void WriteStartConstructor(System.String name)
-    // Offset: 0x2117D7C
+    // Offset: 0x2111F50
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteStartConstructor(System.String name)
     void WriteStartConstructor(::StringW name);
     // public override System.Void WriteEndConstructor()
-    // Offset: 0x2117DD8
+    // Offset: 0x2111FAC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteEndConstructor()
     void WriteEndConstructor();
     // public override System.Void WritePropertyName(System.String name)
-    // Offset: 0x2117E28
+    // Offset: 0x2111FFC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WritePropertyName(System.String name)
     void WritePropertyName(::StringW name);
     // public override System.Void WritePropertyName(System.String name, System.Boolean escape)
-    // Offset: 0x2117E8C
+    // Offset: 0x2112060
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WritePropertyName(System.String name, System.Boolean escape)
     void WritePropertyName(::StringW name, bool escape);
     // public override System.Void WriteStartObject()
-    // Offset: 0x2117F04
+    // Offset: 0x21120D8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteStartObject()
     void WriteStartObject();
     // public override System.Void WriteEndObject()
-    // Offset: 0x2117F54
+    // Offset: 0x2112128
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteEndObject()
     void WriteEndObject();
     // public override System.Void WriteRawValue(System.String json)
-    // Offset: 0x2117FA4
+    // Offset: 0x2112178
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteRawValue(System.String json)
     void WriteRawValue(::StringW json);
     // public override System.Void WriteRaw(System.String json)
-    // Offset: 0x2118008
+    // Offset: 0x21121DC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteRaw(System.String json)
     void WriteRaw(::StringW json);
     // public override System.Void Close()
-    // Offset: 0x211806C
+    // Offset: 0x2112240
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::Close()
     void Close();

@@ -163,614 +163,614 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HAPI_Result <LastCallResultCode>k__BackingField
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HAPI_Result& dyn_$LastCallResultCode$k__BackingField();
     // public System.Boolean get_UserNotifiedSessionInvalid()
-    // Offset: 0x1B24FB8
+    // Offset: 0x1B5704C
     bool get_UserNotifiedSessionInvalid();
     // public System.Void set_UserNotifiedSessionInvalid(System.Boolean value)
-    // Offset: 0x1B24FC0
+    // Offset: 0x1B57054
     void set_UserNotifiedSessionInvalid(bool value);
     // public HoudiniEngineUnity.SessionConnectionState get_ConnectionState()
-    // Offset: 0x1B24FCC
+    // Offset: 0x1B57060
     ::HoudiniEngineUnity::SessionConnectionState get_ConnectionState();
     // public System.Void set_ConnectionState(HoudiniEngineUnity.SessionConnectionState value)
-    // Offset: 0x1B24FE4
+    // Offset: 0x1B57078
     void set_ConnectionState(::HoudiniEngineUnity::SessionConnectionState value);
     // public HoudiniEngineUnity.SessionMode get_ThisSessionMode()
-    // Offset: 0x1B24FF4
+    // Offset: 0x1B57088
     ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
     // public System.Void set_ThisSessionMode(HoudiniEngineUnity.SessionMode value)
-    // Offset: 0x1B2500C
+    // Offset: 0x1B570A0
     void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
     // public System.Boolean get_LogErrorOverride()
-    // Offset: 0x1B25024
+    // Offset: 0x1B570B8
     bool get_LogErrorOverride();
     // public System.Void set_LogErrorOverride(System.Boolean value)
-    // Offset: 0x1B2502C
+    // Offset: 0x1B570C0
     void set_LogErrorOverride(bool value);
     // public System.Boolean get_ThrowErrorOverride()
-    // Offset: 0x1B25038
+    // Offset: 0x1B570CC
     bool get_ThrowErrorOverride();
     // public System.Void set_ThrowErrorOverride(System.Boolean value)
-    // Offset: 0x1B25040
+    // Offset: 0x1B570D4
     void set_ThrowErrorOverride(bool value);
     // public HoudiniEngineUnity.HAPI_Result get_LastCallResultCode()
-    // Offset: 0x1B2507C
+    // Offset: 0x1B57110
     ::HoudiniEngineUnity::HAPI_Result get_LastCallResultCode();
     // public System.Void set_LastCallResultCode(HoudiniEngineUnity.HAPI_Result value)
-    // Offset: 0x1B25084
+    // Offset: 0x1B57118
     void set_LastCallResultCode(::HoudiniEngineUnity::HAPI_Result value);
     // public System.Void .ctor()
-    // Offset: 0x1B250A8
+    // Offset: 0x1B5713C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionBase*, creationType>()));
     }
     // public System.String GetSessionErrorMsg()
-    // Offset: 0x1B2501C
+    // Offset: 0x1B570B0
     ::StringW GetSessionErrorMsg();
     // public System.Boolean IsSessionSync()
-    // Offset: 0x1B2504C
+    // Offset: 0x1B570E0
     bool IsSessionSync();
     // public HoudiniEngineUnity.HEU_HoudiniAsset GetRegisteredAssetFromID(System.Int32 id)
-    // Offset: 0x1B2508C
+    // Offset: 0x1B57120
     ::HoudiniEngineUnity::HEU_HoudiniAsset* GetRegisteredAssetFromID(int id);
     // public System.Boolean IsAssetRegistered(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x1B25094
+    // Offset: 0x1B57128
     bool IsAssetRegistered(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // public System.Void RegisterAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x1B2509C
+    // Offset: 0x1B57130
     void RegisterAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // public System.Void UnregisterAsset(System.Int32 id)
-    // Offset: 0x1B250A0
+    // Offset: 0x1B57134
     void UnregisterAsset(int id);
     // public System.Void ReregisterOnAwake(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x1B250A4
+    // Offset: 0x1B57138
     void ReregisterOnAwake(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // public System.Void SetSessionErrorMsg(System.String msg, System.Boolean bLogError)
-    // Offset: 0x1B250D4
+    // Offset: 0x1B57168
     void SetSessionErrorMsg(::StringW msg, bool bLogError);
     // public System.Void SetSessionConnectionErrorMsg(System.String introMsg, HoudiniEngineUnity.HAPI_Result result, System.Boolean bIsHARSRunning, System.Boolean bLogError)
-    // Offset: 0x1B250F4
+    // Offset: 0x1B57188
     void SetSessionConnectionErrorMsg(::StringW introMsg, ::HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError);
     // public System.Void SetLibraryErrorMsg(System.Boolean bLogError)
-    // Offset: 0x1B25388
+    // Offset: 0x1B5741C
     void SetLibraryErrorMsg(bool bLogError);
     // protected System.Boolean CreateSessionData(System.Boolean bOverwriteExisting, System.Boolean bIsDefaultSession)
-    // Offset: 0x1B25438
+    // Offset: 0x1B574CC
     bool CreateSessionData(bool bOverwriteExisting, bool bIsDefaultSession);
     // public System.Boolean CreateInProcessSession(System.Boolean bIsDefaultSession)
-    // Offset: 0x1B25440
+    // Offset: 0x1B574D4
     bool CreateInProcessSession(bool bIsDefaultSession);
     // public System.Boolean CreateThriftSocketSession(System.Boolean bIsDefaultSession, System.String hostName, System.Int32 serverPort, System.Boolean autoClose, System.Single timeout, System.Boolean bLogError)
-    // Offset: 0x1B25448
+    // Offset: 0x1B574DC
     bool CreateThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int serverPort, bool autoClose, float timeout, bool bLogError);
     // public System.Boolean CreateThriftPipeSession(System.Boolean bIsDefaultSession, System.String pipeName, System.Boolean autoClose, System.Single timeout, System.Boolean bLogError)
-    // Offset: 0x1B25450
+    // Offset: 0x1B574E4
     bool CreateThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float timeout, bool bLogError);
     // public System.Boolean CreateCustomSession(System.Boolean bIsDefaultSession)
-    // Offset: 0x1B25458
+    // Offset: 0x1B574EC
     bool CreateCustomSession(bool bIsDefaultSession);
     // public System.Boolean ConnectThriftSocketSession(System.Boolean bIsDefaultSession, System.String hostName, System.Int32 serverPort, System.Boolean autoClose, System.Single timeout, System.Boolean logError, System.Boolean autoInitialize)
-    // Offset: 0x1B25460
+    // Offset: 0x1B574F4
     bool ConnectThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int serverPort, bool autoClose, float timeout, bool logError, bool autoInitialize);
     // public System.Boolean ConnectThriftPipeSession(System.Boolean bIsDefaultSession, System.String pipeName, System.Boolean autoClose, System.Single timeout, System.Boolean logError, System.Boolean autoInitialize)
-    // Offset: 0x1B25468
+    // Offset: 0x1B574FC
     bool ConnectThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float timeout, bool logError, bool autoInitialize);
     // public System.Boolean CloseSession()
-    // Offset: 0x1B25470
+    // Offset: 0x1B57504
     bool CloseSession();
     // protected System.Boolean CheckAndCloseExistingSession()
-    // Offset: 0x1B25478
+    // Offset: 0x1B5750C
     bool CheckAndCloseExistingSession();
     // protected System.Void ClearSessionInfo()
-    // Offset: 0x1B25480
+    // Offset: 0x1B57514
     void ClearSessionInfo();
     // public System.Void SetSessionData(HoudiniEngineUnity.HEU_SessionData sessionData)
-    // Offset: 0x1B254BC
+    // Offset: 0x1B57550
     void SetSessionData(::HoudiniEngineUnity::HEU_SessionData* sessionData);
     // public HoudiniEngineUnity.HEU_SessionData GetSessionData()
-    // Offset: 0x1B254C4
+    // Offset: 0x1B57558
     ::HoudiniEngineUnity::HEU_SessionData* GetSessionData();
     // public System.String GetSessionInfo()
-    // Offset: 0x1B254CC
+    // Offset: 0x1B57560
     ::StringW GetSessionInfo();
     // public System.Boolean IsSessionValid()
-    // Offset: 0x1B25514
+    // Offset: 0x1B575A8
     bool IsSessionValid();
     // public System.Boolean RestartSession()
-    // Offset: 0x1B2551C
+    // Offset: 0x1B575B0
     bool RestartSession();
     // public System.String GetLastSessionError()
-    // Offset: 0x1B25524
+    // Offset: 0x1B575B8
     ::StringW GetLastSessionError();
     // public System.Boolean CheckVersionMatch()
-    // Offset: 0x1B2552C
+    // Offset: 0x1B575C0
     bool CheckVersionMatch();
     // public System.Boolean InitializeSession(HoudiniEngineUnity.HEU_SessionData sessionData)
-    // Offset: 0x1B25534
+    // Offset: 0x1B575C8
     bool InitializeSession(::HoudiniEngineUnity::HEU_SessionData* sessionData);
     // public System.Boolean HandleStatusResult(HoudiniEngineUnity.HAPI_Result result, System.String prependMsg, System.Boolean bThrowError, System.Boolean bLogError)
-    // Offset: 0x1B2553C
+    // Offset: 0x1B575D0
     bool HandleStatusResult(::HoudiniEngineUnity::HAPI_Result result, ::StringW prependMsg, bool bThrowError, bool bLogError);
     // public System.Void SetServerEnvString(System.String name, System.String value)
-    // Offset: 0x1B25544
+    // Offset: 0x1B575D8
     void SetServerEnvString(::StringW name, ::StringW value);
     // public System.Boolean GetServerEnvString(System.String name, out System.String value)
-    // Offset: 0x1B25548
+    // Offset: 0x1B575DC
     bool GetServerEnvString(::StringW name, ByRef<::StringW> value);
     // public System.Boolean GetServerEnvVarCount(out System.Int32 env_count)
-    // Offset: 0x1B25554
+    // Offset: 0x1B575E8
     bool GetServerEnvVarCount(ByRef<int> env_count);
     // public System.Boolean GetCallResult(out HoudiniEngineUnity.HAPI_Result result)
-    // Offset: 0x1B25560
+    // Offset: 0x1B575F4
     bool GetCallResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result);
     // public System.Boolean GetCookResult(out HoudiniEngineUnity.HAPI_Result result)
-    // Offset: 0x1B2556C
+    // Offset: 0x1B57600
     bool GetCookResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result);
     // public System.Boolean GetCookState(out HoudiniEngineUnity.HAPI_State state)
-    // Offset: 0x1B25578
+    // Offset: 0x1B5760C
     bool GetCookState(ByRef<::HoudiniEngineUnity::HAPI_State> state);
     // public System.String GetStatusString(HoudiniEngineUnity.HAPI_StatusType statusType, HoudiniEngineUnity.HAPI_StatusVerbosity verbosity)
-    // Offset: 0x1B25584
+    // Offset: 0x1B57618
     ::StringW GetStatusString(::HoudiniEngineUnity::HAPI_StatusType statusType, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity);
     // public System.String ComposeNodeCookResult(System.Int32 nodeId, HoudiniEngineUnity.HAPI_StatusVerbosity verbosity)
-    // Offset: 0x1B255CC
+    // Offset: 0x1B57660
     ::StringW ComposeNodeCookResult(int nodeId, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity);
     // public System.Int32 GetEnvInt(HoudiniEngineUnity.HAPI_EnvIntType intType)
-    // Offset: 0x1B25614
+    // Offset: 0x1B576A8
     int GetEnvInt(::HoudiniEngineUnity::HAPI_EnvIntType intType);
     // public System.Int32 GetSessionEnvInt(HoudiniEngineUnity.HAPI_SessionEnvIntType intType, System.Boolean bLogError)
-    // Offset: 0x1B2561C
+    // Offset: 0x1B576B0
     int GetSessionEnvInt(::HoudiniEngineUnity::HAPI_SessionEnvIntType intType, bool bLogError);
     // public System.Boolean GetString(System.Int32 stringHandle, ref System.String resultString, System.Int32 bufferLength)
-    // Offset: 0x1B25624
+    // Offset: 0x1B576B8
     bool GetString(int stringHandle, ByRef<::StringW> resultString, int bufferLength);
     // public System.Int32 GetStringBufferLength(System.Int32 stringHandle)
-    // Offset: 0x1B2562C
+    // Offset: 0x1B576C0
     int GetStringBufferLength(int stringHandle);
     // public System.Int32 CheckForSpecificErrors(System.Int32 nodeID, System.Int32 errorsToCheck)
-    // Offset: 0x1B25634
+    // Offset: 0x1B576C8
     int CheckForSpecificErrors(int nodeID, int errorsToCheck);
     // public System.Single GetTime()
-    // Offset: 0x1B2563C
+    // Offset: 0x1B576D0
     float GetTime();
     // public System.Boolean SetTime(System.Single time)
-    // Offset: 0x1B25644
+    // Offset: 0x1B576D8
     bool SetTime(float time);
     // public System.Boolean GetUseHoudiniTime()
-    // Offset: 0x1B2564C
+    // Offset: 0x1B576E0
     bool GetUseHoudiniTime();
     // public System.Boolean SetUseHoudiniTime(System.Boolean enable)
-    // Offset: 0x1B25654
+    // Offset: 0x1B576E8
     bool SetUseHoudiniTime(bool enable);
     // public System.Boolean LoadAssetLibraryFromFile(System.String assetPath, System.Boolean bAllowOverwrite, out System.Int32 libraryID)
-    // Offset: 0x1B2565C
+    // Offset: 0x1B576F0
     bool LoadAssetLibraryFromFile(::StringW assetPath, bool bAllowOverwrite, ByRef<int> libraryID);
     // public System.Boolean LoadAssetLibraryFromMemory(System.Byte[] buffer, System.Boolean bAllowOverwrite, out System.Int32 libraryID)
-    // Offset: 0x1B25668
+    // Offset: 0x1B576FC
     bool LoadAssetLibraryFromMemory(::ArrayW<uint8_t> buffer, bool bAllowOverwrite, ByRef<int> libraryID);
     // public System.Boolean CreateNode(System.Int32 parentNodeID, System.String operatorName, System.String nodeLabel, System.Boolean bCookOnCreation, out System.Int32 newNodeID)
-    // Offset: 0x1B25674
+    // Offset: 0x1B57708
     bool CreateNode(int parentNodeID, ::StringW operatorName, ::StringW nodeLabel, bool bCookOnCreation, ByRef<int> newNodeID);
     // public System.Void DeleteNode(System.Int32 nodeID)
-    // Offset: 0x1B25684
+    // Offset: 0x1B57718
     void DeleteNode(int nodeID);
     // public System.Boolean CookNode(System.Int32 nodeID, System.Boolean bCookTemplatedGeos, System.Boolean bSplitGeosByGroup)
-    // Offset: 0x1B25688
+    // Offset: 0x1B5771C
     bool CookNode(int nodeID, bool bCookTemplatedGeos, bool bSplitGeosByGroup);
     // public System.Boolean CookNodeWithOptions(System.Int32 nodeID, HoudiniEngineUnity.HAPI_CookOptions cookOptions)
-    // Offset: 0x1B25690
+    // Offset: 0x1B57724
     bool CookNodeWithOptions(int nodeID, ::HoudiniEngineUnity::HAPI_CookOptions cookOptions);
     // public System.Boolean RenameNode(System.Int32 nodeID, System.String newName)
-    // Offset: 0x1B25698
+    // Offset: 0x1B5772C
     bool RenameNode(int nodeID, ::StringW newName);
     // public System.Boolean ConnectNodeInput(System.Int32 nodeID, System.Int32 inputIndex, System.Int32 nodeIDToConnect, System.Int32 outputIndex)
-    // Offset: 0x1B256A0
+    // Offset: 0x1B57734
     bool ConnectNodeInput(int nodeID, int inputIndex, int nodeIDToConnect, int outputIndex);
     // public System.Boolean DisconnectNodeInput(System.Int32 nodeID, System.Int32 inputIndex, System.Boolean bLogError)
-    // Offset: 0x1B256A8
+    // Offset: 0x1B5773C
     bool DisconnectNodeInput(int nodeID, int inputIndex, bool bLogError);
     // public System.Boolean QueryNodeInput(System.Int32 nodeID, System.Int32 inputIndex, out System.Int32 connectedNodeID, System.Boolean bLogError)
-    // Offset: 0x1B256B0
+    // Offset: 0x1B57744
     bool QueryNodeInput(int nodeID, int inputIndex, ByRef<int> connectedNodeID, bool bLogError);
     // public System.Boolean GetNodeInputName(System.Int32 nodeID, System.Int32 inputIndex, out System.Int32 nodeNameIndex)
-    // Offset: 0x1B256C0
+    // Offset: 0x1B57754
     bool GetNodeInputName(int nodeID, int inputIndex, ByRef<int> nodeNameIndex);
     // public System.Boolean GetAvailableAssetCount(System.Int32 libraryID, out System.Int32 assetCount)
-    // Offset: 0x1B256CC
+    // Offset: 0x1B57760
     bool GetAvailableAssetCount(int libraryID, ByRef<int> assetCount);
     // public System.Boolean GetAvailableAssets(System.Int32 libraryID, ref System.Int32[] assetNames, System.Int32 assetCount)
-    // Offset: 0x1B256D8
+    // Offset: 0x1B5776C
     bool GetAvailableAssets(int libraryID, ByRef<::ArrayW<int>> assetNames, int assetCount);
     // public System.Boolean GetAssetInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_AssetInfo assetInfo)
-    // Offset: 0x1B256E0
+    // Offset: 0x1B57774
     bool GetAssetInfo(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo);
     // public System.Boolean GetNodeInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, System.Boolean bLogError)
-    // Offset: 0x1B256E8
+    // Offset: 0x1B5777C
     bool GetNodeInfo(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError);
     // public System.Boolean GetNodePath(System.Int32 nodeID, System.Int32 relativeNodeID, out System.String path)
-    // Offset: 0x1B256F0
+    // Offset: 0x1B57784
     bool GetNodePath(int nodeID, int relativeNodeID, ByRef<::StringW> path);
     // public System.Boolean IsNodeValid(System.Int32 nodeID, System.Int32 uniqueNodeID)
-    // Offset: 0x1B256FC
+    // Offset: 0x1B57790
     bool IsNodeValid(int nodeID, int uniqueNodeID);
     // public System.Boolean ComposeChildNodeList(System.Int32 parentNodeID, System.Int32 nodeTypeFilter, System.Int32 nodeFlagFilter, System.Boolean bRecursive, ref System.Int32 count)
-    // Offset: 0x1B25704
+    // Offset: 0x1B57798
     bool ComposeChildNodeList(int parentNodeID, int nodeTypeFilter, int nodeFlagFilter, bool bRecursive, ByRef<int> count);
     // public System.Boolean GetComposedChildNodeList(System.Int32 parentNodeID, System.Int32[] childNodeIDs, System.Int32 count)
-    // Offset: 0x1B2570C
+    // Offset: 0x1B577A0
     bool GetComposedChildNodeList(int parentNodeID, ::ArrayW<int> childNodeIDs, int count);
     // public System.Boolean LoadHIPFile(System.String fileName, System.Boolean bCookOnLoad)
-    // Offset: 0x1B25714
+    // Offset: 0x1B577A8
     bool LoadHIPFile(::StringW fileName, bool bCookOnLoad);
     // public System.Boolean SaveHIPFile(System.String fileName, System.Boolean bLockNodes)
-    // Offset: 0x1B2571C
+    // Offset: 0x1B577B0
     bool SaveHIPFile(::StringW fileName, bool bLockNodes);
     // public System.Boolean GetObjectInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_ObjectInfo objectInfo)
-    // Offset: 0x1B25724
+    // Offset: 0x1B577B8
     bool GetObjectInfo(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo);
     // public System.Boolean GetObjectTransform(System.Int32 nodeID, System.Int32 relativeToNodeID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, ref HoudiniEngineUnity.HAPI_Transform hapiTransform)
-    // Offset: 0x1B2572C
+    // Offset: 0x1B577C0
     bool GetObjectTransform(int nodeID, int relativeToNodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
     // public System.Boolean SetObjectTransform(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_TransformEuler hapiTransform)
-    // Offset: 0x1B25734
+    // Offset: 0x1B577C8
     bool SetObjectTransform(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> hapiTransform);
     // public System.Boolean ComposeObjectList(System.Int32 nodeID, out System.Int32 objectCount)
-    // Offset: 0x1B2573C
+    // Offset: 0x1B577D0
     bool ComposeObjectList(int nodeID, ByRef<int> objectCount);
     // public System.Boolean GetComposedObjectList(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25748
+    // Offset: 0x1B577DC
     bool GetComposedObjectList(int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
     // public System.Boolean GetComposedObjectTransforms(System.Int32 nodeID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transforms, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25750
+    // Offset: 0x1B577E4
     bool GetComposedObjectTransforms(int nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
     // public System.Boolean GetDisplayGeoInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo, System.Boolean bLogError)
-    // Offset: 0x1B25758
+    // Offset: 0x1B577EC
     bool GetDisplayGeoInfo(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
     // public System.Boolean GetGeoInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo, System.Boolean bLogError)
-    // Offset: 0x1B25760
+    // Offset: 0x1B577F4
     bool GetGeoInfo(int nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
     // public System.Boolean GetPartInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1B25768
+    // Offset: 0x1B577FC
     bool GetPartInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // public System.Boolean GetAttributeInfo(System.Int32 nodeID, System.Int32 partID, System.String name, HoudiniEngineUnity.HAPI_AttributeOwner owner, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
-    // Offset: 0x1B25770
+    // Offset: 0x1B57804
     bool GetAttributeInfo(int nodeID, int partID, ::StringW name, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // public System.Boolean GetAttributeNames(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner owner, ref System.String[] attributeNames, System.Int32 count)
-    // Offset: 0x1B25778
+    // Offset: 0x1B5780C
     bool GetAttributeNames(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayW<::StringW>> attributeNames, int count);
     // public System.Boolean GetAttributeStringData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int32[] dataArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25780
+    // Offset: 0x1B57814
     bool GetAttributeStringData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int>> dataArray, int start, int length);
     // public System.Boolean GetAttributeFloatData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Single[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25788
+    // Offset: 0x1B5781C
     bool GetAttributeFloatData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<float>> data, int start, int length);
     // public System.Boolean GetAttributeFloat64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Double[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25790
+    // Offset: 0x1B57824
     bool GetAttributeFloat64Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<double>> data, int start, int length);
     // public System.Boolean GetAttributeIntData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int32[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25798
+    // Offset: 0x1B5782C
     bool GetAttributeIntData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int>> data, int start, int length);
     // public System.Boolean GetAttributeUInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Byte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257A0
+    // Offset: 0x1B57834
     bool GetAttributeUInt8Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<uint8_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.SByte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257A8
+    // Offset: 0x1B5783C
     bool GetAttributeInt8Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int8_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt16Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int16[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257B0
+    // Offset: 0x1B57844
     bool GetAttributeInt16Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int16_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int64[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257B8
+    // Offset: 0x1B5784C
     bool GetAttributeInt64Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int64_t>> data, int start, int length);
     // public System.Boolean GetGroupNames(System.Int32 nodeID, HoudiniEngineUnity.HAPI_GroupType groupType, ref System.Int32[] names, System.Int32 count)
-    // Offset: 0x1B257C0
+    // Offset: 0x1B57854
     bool GetGroupNames(int nodeID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int>> names, int count);
     // public System.Boolean GetGroupMembership(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Boolean membershipArrayAllEqual, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257C8
+    // Offset: 0x1B5785C
     bool GetGroupMembership(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean GetGroupCountOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, out System.Int32 pointGroupCount, out System.Int32 primitiveGroupCount)
-    // Offset: 0x1B257D0
+    // Offset: 0x1B57864
     bool GetGroupCountOnPackedInstancePart(int nodeID, int partID, ByRef<int> pointGroupCount, ByRef<int> primitiveGroupCount);
     // public System.Boolean GetGroupNamesOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, ref System.Int32[] groupNamesArray, System.Int32 groupCount)
-    // Offset: 0x1B257E0
+    // Offset: 0x1B57874
     bool GetGroupNamesOnPackedInstancePart(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int>> groupNamesArray, int groupCount);
     // public System.Boolean GetGroupMembershipOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Boolean membershipArrayAllEqual, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257E8
+    // Offset: 0x1B5787C
     bool GetGroupMembershipOnPackedInstancePart(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean GetInstancedPartIds(System.Int32 nodeID, System.Int32 partID, out System.Int32[] instancedPartsArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257F0
+    // Offset: 0x1B57884
     bool GetInstancedPartIds(int nodeID, int partID, ByRef<::ArrayW<int>> instancedPartsArray, int start, int length);
     // public System.Boolean GetInstancerPartTransforms(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transformsArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B257F8
+    // Offset: 0x1B5788C
     bool GetInstancerPartTransforms(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
     // public System.Boolean GetInstanceTransformsOnPart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transformsArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25800
+    // Offset: 0x1B57894
     bool GetInstanceTransformsOnPart(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
     // public System.Boolean GetInstancedObjectIds(System.Int32 nodeID, out System.Int32[] instanced_node_id_array, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25808
+    // Offset: 0x1B5789C
     bool GetInstancedObjectIds(int nodeID, ByRef<::ArrayW<int>> instanced_node_id_array, int start, int length);
     // public System.Boolean GetFaceCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] faceCounts, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25810
+    // Offset: 0x1B578A4
     bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayW<int>> faceCounts, int start, int length);
     // public System.Boolean GetFaceCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] faceCounts, System.Int32 start, System.Int32 length, System.Boolean bLogError)
-    // Offset: 0x1B25818
+    // Offset: 0x1B578AC
     bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayW<int>> faceCounts, int start, int length, bool bLogError);
     // public System.Boolean GetVertexList(System.Int32 nodeID, System.Int32 partID, out System.Int32[] vertexList, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25820
+    // Offset: 0x1B578B4
     bool GetVertexList(int nodeID, int partID, ByRef<::ArrayW<int>> vertexList, int start, int length);
     // public System.Boolean GetBoxInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_BoxInfo boxInfo)
-    // Offset: 0x1B25828
+    // Offset: 0x1B578BC
     bool GetBoxInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_BoxInfo> boxInfo);
     // public System.Boolean GetSphereInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_SphereInfo sphereInfo)
-    // Offset: 0x1B25830
+    // Offset: 0x1B578C4
     bool GetSphereInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_SphereInfo> sphereInfo);
     // public System.Boolean GetCurveInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_CurveInfo curveInfo)
-    // Offset: 0x1B25838
+    // Offset: 0x1B578CC
     bool GetCurveInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
     // public System.Boolean GetCurveCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] counts, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25840
+    // Offset: 0x1B578D4
     bool GetCurveCounts(int nodeID, int partID, ByRef<::ArrayW<int>> counts, int start, int length);
     // public System.Boolean GetCurveOrders(System.Int32 nodeID, System.Int32 partID, out System.Int32[] orders, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25848
+    // Offset: 0x1B578DC
     bool GetCurveOrders(int nodeID, int partID, ByRef<::ArrayW<int>> orders, int start, int length);
     // public System.Boolean GetCurveKnots(System.Int32 nodeID, System.Int32 partID, out System.Single[] knots, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25850
+    // Offset: 0x1B578E4
     bool GetCurveKnots(int nodeID, int partID, ByRef<::ArrayW<float>> knots, int start, int length);
     // public System.Boolean SetPartInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
-    // Offset: 0x1B25858
+    // Offset: 0x1B578EC
     bool SetPartInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // public System.Boolean SetFaceCount(System.Int32 nodeID, System.Int32 partID, System.Int32[] faceCounts, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25860
+    // Offset: 0x1B578F4
     bool SetFaceCount(int nodeID, int partID, ::ArrayW<int> faceCounts, int start, int length);
     // public System.Boolean SetVertexList(System.Int32 nodeID, System.Int32 partID, System.Int32[] vertexList, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25868
+    // Offset: 0x1B578FC
     bool SetVertexList(int nodeID, int partID, ::ArrayW<int> vertexList, int start, int length);
     // public System.Boolean SetAttributeIntData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int32[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25870
+    // Offset: 0x1B57904
     bool SetAttributeIntData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int> data, int start, int length);
     // public System.Boolean SetAttributeInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.SByte[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25878
+    // Offset: 0x1B5790C
     bool SetAttributeInt8Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int8_t> data, int start, int length);
     // public System.Boolean SetAttributeInt16Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int16[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25880
+    // Offset: 0x1B57914
     bool SetAttributeInt16Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int16_t> data, int start, int length);
     // public System.Boolean SetAttributeInt64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int64[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25888
+    // Offset: 0x1B5791C
     bool SetAttributeInt64Data(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int64_t> data, int start, int length);
     // public System.Boolean SetAttributeFloatData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Single[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25890
+    // Offset: 0x1B57924
     bool SetAttributeFloatData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<float> data, int start, int length);
     // public System.Boolean SetAttributeStringData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.String[] data, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25898
+    // Offset: 0x1B5792C
     bool SetAttributeStringData(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<::StringW> data, int start, int length);
     // public System.Boolean AddAttribute(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
-    // Offset: 0x1B258A0
+    // Offset: 0x1B57934
     bool AddAttribute(int nodeID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // public System.Boolean AddGroup(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName)
-    // Offset: 0x1B258A8
+    // Offset: 0x1B5793C
     bool AddGroup(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName);
     // public System.Boolean DeleteGroup(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName)
-    // Offset: 0x1B258B0
+    // Offset: 0x1B57944
     bool DeleteGroup(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName);
     // public System.Boolean SetGroupMembership(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B258B8
+    // Offset: 0x1B5794C
     bool SetGroupMembership(int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean CommitGeo(System.Int32 nodeID)
-    // Offset: 0x1B258C0
+    // Offset: 0x1B57954
     bool CommitGeo(int nodeID);
     // public System.Boolean RevertGeo(System.Int32 nodeID)
-    // Offset: 0x1B258C8
+    // Offset: 0x1B5795C
     bool RevertGeo(int nodeID);
     // public System.Boolean SetCurveInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_CurveInfo curveInfo)
-    // Offset: 0x1B258D0
+    // Offset: 0x1B57964
     bool SetCurveInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
     // public System.Boolean SetCurveCounts(System.Int32 nodeID, System.Int32 partID, System.Int32[] counts, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B258D8
+    // Offset: 0x1B5796C
     bool SetCurveCounts(int nodeID, int partID, ::ArrayW<int> counts, int start, int length);
     // public System.Boolean SetCurveOrders(System.Int32 nodeID, System.Int32 partID, System.Int32[] orders, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B258E0
+    // Offset: 0x1B57974
     bool SetCurveOrders(int nodeID, int partID, ::ArrayW<int> orders, int start, int length);
     // public System.Boolean SetCurveKnots(System.Int32 nodeID, System.Int32 partID, System.Single[] knots, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B258E8
+    // Offset: 0x1B5797C
     bool SetCurveKnots(int nodeID, int partID, ::ArrayW<float> knots, int start, int length);
     // public System.Boolean GetMaterialOnPart(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_MaterialInfo materialInfo)
-    // Offset: 0x1B258F0
+    // Offset: 0x1B57984
     bool GetMaterialOnPart(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo);
     // public System.Boolean GetMaterialNodeIDsOnFaces(System.Int32 nodeID, System.Int32 partID, ref System.Boolean bSingleFaceMaterial, out System.Int32[] materialNodeIDs, System.Int32 faceCount)
-    // Offset: 0x1B258F8
+    // Offset: 0x1B5798C
     bool GetMaterialNodeIDsOnFaces(int nodeID, int partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayW<int>> materialNodeIDs, int faceCount);
     // public System.Boolean GetMaterialInfo(System.Int32 materialNodeID, ref HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.Boolean bLogError)
-    // Offset: 0x1B25900
+    // Offset: 0x1B57994
     bool GetMaterialInfo(int materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError);
     // public System.Boolean GetImageInfo(System.Int32 materialNodeID, ref HoudiniEngineUnity.HAPI_ImageInfo imageInfo)
-    // Offset: 0x1B25908
+    // Offset: 0x1B5799C
     bool GetImageInfo(int materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
     // public System.Boolean SetImageInfo(System.Int32 materialNodeID, ref HoudiniEngineUnity.HAPI_ImageInfo imageInfo)
-    // Offset: 0x1B25910
+    // Offset: 0x1B579A4
     bool SetImageInfo(int materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
     // public System.Boolean RenderTextureToImage(System.Int32 materialNodeID, System.Int32 parmID, System.Boolean bLogError)
-    // Offset: 0x1B25918
+    // Offset: 0x1B579AC
     bool RenderTextureToImage(int materialNodeID, int parmID, bool bLogError);
     // public System.Boolean RenderCOPToImage(System.Int32 copNodeID)
-    // Offset: 0x1B25920
+    // Offset: 0x1B579B4
     bool RenderCOPToImage(int copNodeID);
     // public System.Boolean ExtractImageToMemory(System.Int32 nodeID, System.String fileFormat, System.String imagePlanes, out System.Byte[] buffer)
-    // Offset: 0x1B25928
+    // Offset: 0x1B579BC
     bool ExtractImageToMemory(int nodeID, ::StringW fileFormat, ::StringW imagePlanes, ByRef<::ArrayW<uint8_t>> buffer);
     // public System.Boolean GetImagePlanes(System.Int32 nodeID, out System.Int32[] imagePlanes, System.Int32 numImagePlanes)
-    // Offset: 0x1B25984
+    // Offset: 0x1B57A18
     bool GetImagePlanes(int nodeID, ByRef<::ArrayW<int>> imagePlanes, int numImagePlanes);
     // public System.Boolean ExtractImageToFile(System.Int32 nodeID, System.String fileFormat, System.String imagePlanes, System.String destinationFolderPath, out System.String destinationFilePath)
-    // Offset: 0x1B259D8
+    // Offset: 0x1B57A6C
     bool ExtractImageToFile(int nodeID, ::StringW fileFormat, ::StringW imagePlanes, ::StringW destinationFolderPath, ByRef<::StringW> destinationFilePath);
     // public System.Boolean GetParams(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ParmInfo[] parmInfos, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B259E4
+    // Offset: 0x1B57A78
     bool GetParams(int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo>> parmInfos, int start, int length);
     // public System.Boolean GetParmTagName(System.Int32 nodeID, System.Int32 parmID, System.Int32 tagIndex, out System.Int32 tagName)
-    // Offset: 0x1B259EC
+    // Offset: 0x1B57A80
     bool GetParmTagName(int nodeID, int parmID, int tagIndex, ByRef<int> tagName);
     // public System.Boolean GetParmTagValue(System.Int32 nodeID, System.Int32 parmID, System.String tagName, out System.Int32 tagValue)
-    // Offset: 0x1B259F8
+    // Offset: 0x1B57A8C
     bool GetParmTagValue(int nodeID, int parmID, ::StringW tagName, ByRef<int> tagValue);
     // public System.Boolean ParmHasTag(System.Int32 nodeID, System.Int32 parmID, System.String tagName, ref System.Boolean hasTag)
-    // Offset: 0x1B25A04
+    // Offset: 0x1B57A98
     bool ParmHasTag(int nodeID, int parmID, ::StringW tagName, ByRef<bool> hasTag);
     // public System.Boolean GetParamIntValues(System.Int32 nodeID, out System.Int32[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A0C
+    // Offset: 0x1B57AA0
     bool GetParamIntValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean GetParamIntValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Int32 value)
-    // Offset: 0x1B25A14
+    // Offset: 0x1B57AA8
     bool GetParamIntValue(int nodeID, ::StringW parmName, int index, ByRef<int> value);
     // public System.Boolean GetParamFloatValues(System.Int32 nodeID, out System.Single[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A20
+    // Offset: 0x1B57AB4
     bool GetParamFloatValues(int nodeID, ByRef<::ArrayW<float>> values, int start, int length);
     // public System.Boolean GetParamFloatValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Single value)
-    // Offset: 0x1B25A28
+    // Offset: 0x1B57ABC
     bool GetParamFloatValue(int nodeID, ::StringW parmName, int index, ByRef<float> value);
     // public System.Boolean GetParamStringValues(System.Int32 nodeID, out System.Int32[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A34
+    // Offset: 0x1B57AC8
     bool GetParamStringValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean GetParamStringValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Int32 value)
-    // Offset: 0x1B25A3C
+    // Offset: 0x1B57AD0
     bool GetParamStringValue(int nodeID, ::StringW parmName, int index, ByRef<int> value);
     // public System.Boolean GetParamNodeValue(System.Int32 nodeID, System.String paramName, out System.Int32 nodeValue)
-    // Offset: 0x1B25A48
+    // Offset: 0x1B57ADC
     bool GetParamNodeValue(int nodeID, ::StringW paramName, ByRef<int> nodeValue);
     // public System.Boolean GetParamChoiceValues(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ParmChoiceInfo[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A58
+    // Offset: 0x1B57AEC
     bool GetParamChoiceValues(int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>> values, int start, int length);
     // public System.Boolean SetParamIntValues(System.Int32 nodeID, ref System.Int32[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A60
+    // Offset: 0x1B57AF4
     bool SetParamIntValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean SetParamIntValue(System.Int32 nodeID, System.String paramName, System.Int32 index, System.Int32 value)
-    // Offset: 0x1B25A68
+    // Offset: 0x1B57AFC
     bool SetParamIntValue(int nodeID, ::StringW paramName, int index, int value);
     // public System.Boolean SetParamFloatValues(System.Int32 nodeID, ref System.Single[] values, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25A70
+    // Offset: 0x1B57B04
     bool SetParamFloatValues(int nodeID, ByRef<::ArrayW<float>> values, int start, int length);
     // public System.Boolean SetParamFloatValue(System.Int32 nodeID, System.String paramName, System.Int32 index, System.Single value)
-    // Offset: 0x1B25A78
+    // Offset: 0x1B57B0C
     bool SetParamFloatValue(int nodeID, ::StringW paramName, int index, float value);
     // public System.Boolean SetParamStringValue(System.Int32 nodeID, System.String strValue, System.Int32 parmID, System.Int32 index)
-    // Offset: 0x1B25A80
+    // Offset: 0x1B57B14
     bool SetParamStringValue(int nodeID, ::StringW strValue, int parmID, int index);
     // public System.Boolean SetParamStringValue(System.Int32 nodeID, System.String parmName, System.String parmValue, System.Int32 index)
-    // Offset: 0x1B25A88
+    // Offset: 0x1B57B1C
     bool SetParamStringValue(int nodeID, ::StringW parmName, ::StringW parmValue, int index);
     // public System.Boolean SetParamNodeValue(System.Int32 nodeID, System.String paramName, System.Int32 nodeValueID)
-    // Offset: 0x1B25A90
+    // Offset: 0x1B57B24
     bool SetParamNodeValue(int nodeID, ::StringW paramName, int nodeValueID);
     // public System.Boolean InsertMultiparmInstance(System.Int32 nodeID, System.Int32 parmID, System.Int32 instancePosition)
-    // Offset: 0x1B25A98
+    // Offset: 0x1B57B2C
     bool InsertMultiparmInstance(int nodeID, int parmID, int instancePosition);
     // public System.Boolean RemoveMultiParmInstance(System.Int32 nodeID, System.Int32 parmID, System.Int32 instancePosition)
-    // Offset: 0x1B25AA0
+    // Offset: 0x1B57B34
     bool RemoveMultiParmInstance(int nodeID, int parmID, int instancePosition);
     // public System.Boolean GetParmWithTag(System.Int32 nodeID, System.String tagName, ref System.Int32 parmID)
-    // Offset: 0x1B25AA8
+    // Offset: 0x1B57B3C
     bool GetParmWithTag(int nodeID, ::StringW tagName, ByRef<int> parmID);
     // public System.Boolean RevertParmToDefault(System.Int32 nodeID, System.String parm_name, System.Int32 index)
-    // Offset: 0x1B25AB0
+    // Offset: 0x1B57B44
     bool RevertParmToDefault(int nodeID, ::StringW parm_name, int index);
     // public System.Boolean RevertParmToDefaults(System.Int32 nodeID, System.String parm_name)
-    // Offset: 0x1B25AB8
+    // Offset: 0x1B57B4C
     bool RevertParmToDefaults(int nodeID, ::StringW parm_name);
     // public System.Boolean GetParmIDFromName(System.Int32 nodeID, System.String parmName, out System.Int32 parmID)
-    // Offset: 0x1B25AC0
+    // Offset: 0x1B57B54
     bool GetParmIDFromName(int nodeID, ::StringW parmName, ByRef<int> parmID);
     // public System.Boolean GetParmStringValue(System.Int32 nodeID, System.String parmName, System.Int32 index, System.Boolean evaluate, out System.Int32 value)
-    // Offset: 0x1B25AD0
+    // Offset: 0x1B57B64
     bool GetParmStringValue(int nodeID, ::StringW parmName, int index, bool evaluate, ByRef<int> value);
     // public System.Boolean CreateInputNode(out System.Int32 nodeID, System.String name)
-    // Offset: 0x1B25ADC
+    // Offset: 0x1B57B70
     bool CreateInputNode(ByRef<int> nodeID, ::StringW name);
     // public System.Boolean CreateHeightFieldInput(System.Int32 parentNodeID, System.String name, System.Int32 xSize, System.Int32 ySize, System.Single voxelSize, HoudiniEngineUnity.HAPI_HeightFieldSampling sampling, out System.Int32 heightfieldNodeID, out System.Int32 heightNodeID, out System.Int32 maskNodeID, out System.Int32 mergeNodeID)
-    // Offset: 0x1B25AEC
+    // Offset: 0x1B57B80
     bool CreateHeightFieldInput(int parentNodeID, ::StringW name, int xSize, int ySize, float voxelSize, ::HoudiniEngineUnity::HAPI_HeightFieldSampling sampling, ByRef<int> heightfieldNodeID, ByRef<int> heightNodeID, ByRef<int> maskNodeID, ByRef<int> mergeNodeID);
     // public System.Boolean CreateHeightfieldInputVolumeNode(System.Int32 parentNodeID, out System.Int32 newNodeID, System.String name, System.Int32 xSize, System.Int32 ySize, System.Single voxelSize)
-    // Offset: 0x1B25B0C
+    // Offset: 0x1B57BA0
     bool CreateHeightfieldInputVolumeNode(int parentNodeID, ByRef<int> newNodeID, ::StringW name, int xSize, int ySize, float voxelSize);
     // public System.Boolean GetPreset(System.Int32 nodeID, out System.Byte[] presetData)
-    // Offset: 0x1B25B1C
+    // Offset: 0x1B57BB0
     bool GetPreset(int nodeID, ByRef<::ArrayW<uint8_t>> presetData);
     // public System.Boolean SetPreset(System.Int32 nodeID, System.Byte[] presetData)
-    // Offset: 0x1B25B78
+    // Offset: 0x1B57C0C
     bool SetPreset(int nodeID, ::ArrayW<uint8_t> presetData);
     // public System.Boolean GetVolumeInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo)
-    // Offset: 0x1B25B80
+    // Offset: 0x1B57C14
     bool GetVolumeInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
     // public System.Boolean GetHeightFieldData(System.Int32 nodeID, System.Int32 partID, System.Single[] valuesArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25B88
+    // Offset: 0x1B57C1C
     bool GetHeightFieldData(int nodeID, int partID, ::ArrayW<float> valuesArray, int start, int length);
     // public System.Boolean SetVolumeInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo)
-    // Offset: 0x1B25B90
+    // Offset: 0x1B57C24
     bool SetVolumeInfo(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
     // public System.Boolean SetVolumeTileFloatData(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeTileInfo tileInfo, System.Single[] valuesArray, System.Int32 length)
-    // Offset: 0x1B25B98
+    // Offset: 0x1B57C2C
     bool SetVolumeTileFloatData(int nodeID, int partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayW<float> valuesArray, int length);
     // public System.Boolean GetVolumeBounds(System.Int32 nodeID, System.Int32 partID, out System.Single x_min, out System.Single y_min, out System.Single z_min, out System.Single x_max, out System.Single y_max, out System.Single z_max, out System.Single x_center, out System.Single y_center, out System.Single z_center)
-    // Offset: 0x1B25BEC
+    // Offset: 0x1B57C80
     bool GetVolumeBounds(int nodeID, int partID, ByRef<float> x_min, ByRef<float> y_min, ByRef<float> z_min, ByRef<float> x_max, ByRef<float> y_max, ByRef<float> z_max, ByRef<float> x_center, ByRef<float> y_center, ByRef<float> z_center);
     // public System.Boolean SetHeightFieldData(System.Int32 nodeID, System.Int32 partID, System.String name, System.Single[] valuesArray, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25C20
+    // Offset: 0x1B57CB4
     bool SetHeightFieldData(int nodeID, int partID, ::StringW name, ::ArrayW<float> valuesArray, int start, int length);
     // public System.Boolean GetActiveCacheCount(out System.Int32 activeCacheCount)
-    // Offset: 0x1B25C28
+    // Offset: 0x1B57CBC
     bool GetActiveCacheCount(ByRef<int> activeCacheCount);
     // public System.Boolean GetActiveCacheNames(out System.Int32[] cacheNamesArray, System.Int32 activeCacheCount)
-    // Offset: 0x1B25C34
+    // Offset: 0x1B57CC8
     bool GetActiveCacheNames(ByRef<::ArrayW<int>> cacheNamesArray, int activeCacheCount);
     // public System.Boolean GetCacheProperty(System.String cacheName, HoudiniEngineUnity.HAPI_CacheProperty cacheProperty, out System.Int32 propertyValue)
-    // Offset: 0x1B25C3C
+    // Offset: 0x1B57CD0
     bool GetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, ByRef<int> propertyValue);
     // public System.Boolean SetCacheProperty(System.String cacheName, HoudiniEngineUnity.HAPI_CacheProperty cacheProperty, System.Int32 propertyValue)
-    // Offset: 0x1B25C48
+    // Offset: 0x1B57CDC
     bool SetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, int propertyValue);
     // public System.Boolean SaveGeoToFile(System.Int32 nodeID, System.String fileName)
-    // Offset: 0x1B25C50
+    // Offset: 0x1B57CE4
     bool SaveGeoToFile(int nodeID, ::StringW fileName);
     // public System.Boolean LoadGeoFromFile(System.Int32 nodeID, System.String file_name)
-    // Offset: 0x1B25C58
+    // Offset: 0x1B57CEC
     bool LoadGeoFromFile(int nodeID, ::StringW file_name);
     // public System.Boolean SaveNodeToFile(System.Int32 nodeID, System.String fileName)
-    // Offset: 0x1B25C60
+    // Offset: 0x1B57CF4
     bool SaveNodeToFile(int nodeID, ::StringW fileName);
     // public System.Boolean LoadNodeFromFile(System.String file_name, System.Int32 parentNodeID, System.String nodeLabel, System.Boolean cook_on_load, out System.Int32 newNodeID)
-    // Offset: 0x1B25C68
+    // Offset: 0x1B57CFC
     bool LoadNodeFromFile(::StringW file_name, int parentNodeID, ::StringW nodeLabel, bool cook_on_load, ByRef<int> newNodeID);
     // public System.Boolean GetGeoSize(System.Int32 nodeID, System.String format, out System.Int32 size)
-    // Offset: 0x1B25C78
+    // Offset: 0x1B57D0C
     bool GetGeoSize(int nodeID, ::StringW format, ByRef<int> size);
     // public System.Boolean GetHandleInfo(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_HandleInfo[] handleInfos, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25C84
+    // Offset: 0x1B57D18
     bool GetHandleInfo(int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleInfo>> handleInfos, int start, int length);
     // public System.Boolean GetHandleBindingInfo(System.Int32 nodeID, System.Int32 handleIndex, out HoudiniEngineUnity.HAPI_HandleBindingInfo[] handleBindingInfos, System.Int32 start, System.Int32 length)
-    // Offset: 0x1B25C8C
+    // Offset: 0x1B57D20
     bool GetHandleBindingInfo(int nodeID, int handleIndex, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleBindingInfo>> handleBindingInfos, int start, int length);
     // public System.Boolean ConvertTransform(ref HoudiniEngineUnity.HAPI_TransformEuler inTransform, HoudiniEngineUnity.HAPI_RSTOrder RSTOrder, HoudiniEngineUnity.HAPI_XYZOrder ROTOrder, out HoudiniEngineUnity.HAPI_TransformEuler outTransform)
-    // Offset: 0x1B25C94
+    // Offset: 0x1B57D28
     bool ConvertTransform(ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> inTransform, ::HoudiniEngineUnity::HAPI_RSTOrder RSTOrder, ::HoudiniEngineUnity::HAPI_XYZOrder ROTOrder, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> outTransform);
     // public System.Boolean GetTotalCookCount(System.Int32 nodeID, System.Int32 nodeTypeFilter, System.Int32 nodeFlagFilter, System.Boolean includeChildren, out System.Int32 count)
-    // Offset: 0x1B25CA8
+    // Offset: 0x1B57D3C
     bool GetTotalCookCount(int nodeID, int nodeTypeFilter, int nodeFlagFilter, bool includeChildren, ByRef<int> count);
     // public System.Boolean SetSessionSync(System.Boolean enable)
-    // Offset: 0x1B25CB4
+    // Offset: 0x1B57D48
     bool SetSessionSync(bool enable);
     // public System.Boolean GetViewport(ref HoudiniEngineUnity.HAPI_Viewport viewport)
-    // Offset: 0x1B25CBC
+    // Offset: 0x1B57D50
     bool GetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport);
     // public System.Boolean SetViewport(ref HoudiniEngineUnity.HAPI_Viewport viewport)
-    // Offset: 0x1B25CC4
+    // Offset: 0x1B57D58
     bool SetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport);
     // public System.Boolean GetSessionSyncInfo(ref HoudiniEngineUnity.HAPI_SessionSyncInfo syncInfo)
-    // Offset: 0x1B25CCC
+    // Offset: 0x1B57D60
     bool GetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo);
     // public System.Boolean SetSessionSyncInfo(ref HoudiniEngineUnity.HAPI_SessionSyncInfo syncInfo)
-    // Offset: 0x1B25CD4
+    // Offset: 0x1B57D68
     bool SetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo);
     // public System.Boolean SetNodeDisplay(System.Int32 node_id, System.Int32 onOff)
-    // Offset: 0x1B25CDC
+    // Offset: 0x1B57D70
     bool SetNodeDisplay(int node_id, int onOff);
   }; // HoudiniEngineUnity.HEU_SessionBase
   #pragma pack(pop)

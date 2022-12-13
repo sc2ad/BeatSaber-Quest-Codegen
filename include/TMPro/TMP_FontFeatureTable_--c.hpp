@@ -50,20 +50,20 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(::System::Func_2<::TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14A9424
+    // Offset: 0x14B4C90
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14A9488
+    // Offset: 0x14B4CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontFeatureTable::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontFeatureTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontFeatureTable::$$c*, creationType>()));
     }
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x14A9490
+    // Offset: 0x14B4CFC
     uint $SortGlyphPairAdjustmentRecords$b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x14A94A8
+    // Offset: 0x14B4D14
     uint $SortGlyphPairAdjustmentRecords$b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
   }; // TMPro.TMP_FontFeatureTable/TMPro.<>c
   #pragma pack(pop)

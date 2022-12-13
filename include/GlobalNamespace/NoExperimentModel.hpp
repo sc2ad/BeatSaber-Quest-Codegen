@@ -50,17 +50,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IExperimentModel*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x14FC1C0
+    // Offset: 0x1508B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoExperimentModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoExperimentModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoExperimentModel*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x14FC0E8
+    // Offset: 0x1508A30
     ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x14FC154
+    // Offset: 0x1508A9C
     ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
   }; // NoExperimentModel
   #pragma pack(pop)

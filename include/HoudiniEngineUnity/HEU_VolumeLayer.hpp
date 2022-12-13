@@ -150,14 +150,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailPrototype _detailPrototype
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_DetailPrototype*& dyn__detailPrototype();
     // public System.Void .ctor()
-    // Offset: 0x1A5B5AC
+    // Offset: 0x1A5B1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeLayer*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeLayer other)
-    // Offset: 0x1A5E3D8
+    // Offset: 0x1A5DFEC
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
   }; // HoudiniEngineUnity.HEU_VolumeLayer
   #pragma pack(pop)

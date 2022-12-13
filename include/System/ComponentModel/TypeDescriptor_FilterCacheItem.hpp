@@ -54,14 +54,14 @@ namespace System::ComponentModel {
     // Get instance field reference: System.Collections.ICollection FilteredMembers
     [[deprecated("Use field access instead!")]] ::System::Collections::ICollection*& dyn_FilteredMembers();
     // System.Void .ctor(System.ComponentModel.Design.ITypeDescriptorFilterService filterService, System.Collections.ICollection filteredMembers)
-    // Offset: 0x1D78B90
+    // Offset: 0x1D980E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeDescriptor::FilterCacheItem* New_ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService, ::System::Collections::ICollection* filteredMembers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeDescriptor::FilterCacheItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDescriptor::FilterCacheItem*, creationType>(filterService, filteredMembers)));
     }
     // System.Boolean IsValid(System.ComponentModel.Design.ITypeDescriptorFilterService filterService)
-    // Offset: 0x1D78BC8
+    // Offset: 0x1D98118
     bool IsValid(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService);
   }; // System.ComponentModel.TypeDescriptor/System.ComponentModel.FilterCacheItem
   #pragma pack(pop)

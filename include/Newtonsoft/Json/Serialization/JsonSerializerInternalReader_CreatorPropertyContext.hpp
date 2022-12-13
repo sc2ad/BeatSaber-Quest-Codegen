@@ -81,7 +81,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Boolean Used
     [[deprecated("Use field access instead!")]] bool& dyn_Used();
     // public System.Void .ctor()
-    // Offset: 0x1DF126C
+    // Offset: 0x1E107BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalReader::CreatorPropertyContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext::.ctor");

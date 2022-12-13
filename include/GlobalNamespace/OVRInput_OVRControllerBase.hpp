@@ -117,23 +117,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean shouldApplyDeadzone
     [[deprecated("Use field access instead!")]] bool& dyn_shouldApplyDeadzone();
     // public System.Void .ctor()
-    // Offset: 0x1A236A4
+    // Offset: 0x1A4743C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase*, creationType>()));
     }
     // public OVRInput/Controller Update()
-    // Offset: 0x1A2380C
+    // Offset: 0x1A475A4
     ::GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
-    // Offset: 0x1A23CE0
+    // Offset: 0x1A47A78
     ::GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(::GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
-    // Offset: 0x1A2421C
+    // Offset: 0x1A47FB4
     void SetControllerVibration(float frequency, float amplitude);
     // public System.Byte GetBatteryPercentRemaining()
-    // Offset: 0x1A242A0
+    // Offset: 0x1A48038
     uint8_t GetBatteryPercentRemaining();
     // public System.Void ConfigureButtonMap()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -151,19 +151,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
-    // Offset: 0x1A20D64
+    // Offset: 0x1A44AFC
     ::GlobalNamespace::OVRInput::RawButton ResolveToRawMask(::GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x1A21420
+    // Offset: 0x1A451B8
     ::GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(::GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
-    // Offset: 0x1A21B54
+    // Offset: 0x1A458EC
     ::GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(::GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
-    // Offset: 0x1A2252C
+    // Offset: 0x1A462C4
     ::GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(::GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
-    // Offset: 0x1A22A74
+    // Offset: 0x1A4680C
     ::GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(::GlobalNamespace::OVRInput::Axis2D virtualMask);
   }; // OVRInput/OVRControllerBase
   #pragma pack(pop)

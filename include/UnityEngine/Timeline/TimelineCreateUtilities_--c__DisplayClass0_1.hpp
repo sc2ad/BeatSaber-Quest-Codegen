@@ -47,14 +47,14 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: public System.String result
     [[deprecated("Use field access instead!")]] ::StringW& dyn_result();
     // public System.Void .ctor()
-    // Offset: 0x2AAEEF4
+    // Offset: 0x2AC94FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineCreateUtilities::$$c__DisplayClass0_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineCreateUtilities::$$c__DisplayClass0_1*, creationType>()));
     }
     // System.Boolean <GenerateUniqueActorName>b__1(UnityEngine.ScriptableObject x)
-    // Offset: 0x2AAF370
+    // Offset: 0x2AC9978
     bool $GenerateUniqueActorName$b__1(::UnityEngine::ScriptableObject* x);
   }; // UnityEngine.Timeline.TimelineCreateUtilities/UnityEngine.Timeline.<>c__DisplayClass0_1
   #pragma pack(pop)

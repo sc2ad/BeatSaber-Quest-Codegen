@@ -5,6 +5,8 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+// Including type: System.ValueTuple`3
+#include "System/ValueTuple_3.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -23,9 +25,6 @@ namespace UnityEngine::Events {
 }
 // Forward declaring namespace: System
 namespace System {
-  // Forward declaring type: Action`1<T>
-  template<typename T>
-  class Action_1;
   // Forward declaring type: Tuple`3<T1, T2, T3>
   template<typename T1, typename T2, typename T3>
   class Tuple_3;
@@ -181,56 +180,63 @@ namespace HMUI {
     ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>* scrollBindings;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>*) == 0x8);
-    // private System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
+    // [TupleElementNamesAttribute] Offset: 0x11088B8
+    // private System.Collections.Generic.List`1<System.ValueTuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
     // Size: 0x8
     // Offset: 0x20
-    ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>* buttonBindings;
+    ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>>* buttonBindings;
     // Field size check
-    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>>*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean <enabled>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$enabled$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.UnityAction`1<System.Single>> _scrollBindings
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>*& dyn__scrollBindings();
-    // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
-    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>*& dyn__buttonBindings();
+    // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
+    [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>>*& dyn__buttonBindings();
     // public System.Boolean get_enabled()
-    // Offset: 0x1706D20
+    // Offset: 0x16F4680
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x1706D28
+    // Offset: 0x16F4688
     void set_enabled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1706D34
+    // Offset: 0x16F4694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::MouseBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseBinder*, creationType>()));
     }
     // private System.Void Init()
-    // Offset: 0x1706D5C
+    // Offset: 0x16F46BC
     void Init();
-    // public System.Void AddScrollBindings(System.Collections.Generic.List`1<System.Action`1<System.Single>> bindingData)
-    // Offset: 0x1706DF4
-    void AddScrollBindings(::System::Collections::Generic::List_1<::System::Action_1<float>*>* bindingData);
-    // public System.Void AddScrollBinding(System.Action`1<System.Single> action)
-    // Offset: 0x1706EEC
-    void AddScrollBinding(::System::Action_1<float>* action);
+    // public System.Void AddScrollBindings(System.Collections.Generic.List`1<UnityEngine.Events.UnityAction`1<System.Single>> bindingData)
+    // Offset: 0x16F4754
+    void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>* bindingData);
+    // public System.Void AddScrollBinding(UnityEngine.Events.UnityAction`1<System.Single> action)
+    // Offset: 0x16F484C
+    void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float>* action);
+    // public System.Void RemoveScrollBinding(UnityEngine.Events.UnityAction`1<System.Single> action)
+    // Offset: 0x16F48B4
+    void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float>* action);
     // public System.Void AddButtonBindings(System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> bindingData)
-    // Offset: 0x1706F8C
+    // Offset: 0x16F491C
     void AddButtonBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
     // public System.Void AddButtonBinding(HMUI.MouseBinder/HMUI.ButtonType buttonType, HMUI.MouseBinder/HMUI.MouseEventType keyBindingType, UnityEngine.Events.UnityAction action)
-    // Offset: 0x1707098
+    // Offset: 0x16F4A28
     void AddButtonBinding(::HMUI::MouseBinder::ButtonType buttonType, ::HMUI::MouseBinder::MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
+    // public System.Void RemoveButtonBinding(HMUI.MouseBinder/HMUI.ButtonType buttonType, HMUI.MouseBinder/HMUI.MouseEventType keyBindingType, UnityEngine.Events.UnityAction action)
+    // Offset: 0x16F4AD4
+    void RemoveButtonBinding(::HMUI::MouseBinder::ButtonType buttonType, ::HMUI::MouseBinder::MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1707170
+    // Offset: 0x16F4B80
     void ClearBindings();
     // public System.Void ManualUpdate()
-    // Offset: 0x17071D0
+    // Offset: 0x16F4BF8
     void ManualUpdate();
   }; // HMUI.MouseBinder
   #pragma pack(pop)
-  static check_size<sizeof(MouseBinder), 32 + sizeof(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>*)> __HMUI_MouseBinderSizeCheck;
+  static check_size<sizeof(MouseBinder), 32 + sizeof(::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>>*)> __HMUI_MouseBinderSizeCheck;
   static_assert(sizeof(MouseBinder) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -270,19 +276,28 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::MouseBinder::AddScrollBindings
 // Il2CppName: AddScrollBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::System::Collections::Generic::List_1<::System::Action_1<float>*>*)>(&HMUI::MouseBinder::AddScrollBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>*)>(&HMUI::MouseBinder::AddScrollBindings)> {
   static const MethodInfo* get() {
-    static auto* bindingData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})})->byval_arg;
+    static auto* bindingData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::MouseBinder*), "AddScrollBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingData});
   }
 };
 // Writing MetadataGetter for method: HMUI::MouseBinder::AddScrollBinding
 // Il2CppName: AddScrollBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::System::Action_1<float>*)>(&HMUI::MouseBinder::AddScrollBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float>*)>(&HMUI::MouseBinder::AddScrollBinding)> {
   static const MethodInfo* get() {
-    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::MouseBinder*), "AddScrollBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
+  }
+};
+// Writing MetadataGetter for method: HMUI::MouseBinder::RemoveScrollBinding
+// Il2CppName: RemoveScrollBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float>*)>(&HMUI::MouseBinder::RemoveScrollBinding)> {
+  static const MethodInfo* get() {
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::MouseBinder*), "RemoveScrollBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
 };
 // Writing MetadataGetter for method: HMUI::MouseBinder::AddButtonBindings
@@ -303,6 +318,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     static auto* keyBindingType = &::il2cpp_utils::GetClassFromName("HMUI", "MouseBinder/MouseEventType")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::MouseBinder*), "AddButtonBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonType, keyBindingType, action});
+  }
+};
+// Writing MetadataGetter for method: HMUI::MouseBinder::RemoveButtonBinding
+// Il2CppName: RemoveButtonBinding
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::MouseBinder::*)(::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*)>(&HMUI::MouseBinder::RemoveButtonBinding)> {
+  static const MethodInfo* get() {
+    static auto* buttonType = &::il2cpp_utils::GetClassFromName("HMUI", "MouseBinder/ButtonType")->byval_arg;
+    static auto* keyBindingType = &::il2cpp_utils::GetClassFromName("HMUI", "MouseBinder/MouseEventType")->byval_arg;
+    static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::MouseBinder*), "RemoveButtonBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonType, keyBindingType, action});
   }
 };
 // Writing MetadataGetter for method: HMUI::MouseBinder::ClearBindings

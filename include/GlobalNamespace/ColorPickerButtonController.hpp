@@ -63,17 +63,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _colorImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__colorImage();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x13EC5F4
+    // Offset: 0x140B464
     ::UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x13EC624
+    // Offset: 0x140B494
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorPickerButtonController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorPickerButtonController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorPickerButtonController*, creationType>()));
     }
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x13EC5FC
+    // Offset: 0x140B46C
     void SetColor(::UnityEngine::Color color);
   }; // ColorPickerButtonController
   #pragma pack(pop)

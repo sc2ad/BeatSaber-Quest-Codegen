@@ -51,14 +51,14 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Reflection.MethodInfo callbackMethodInfo
     [[deprecated("Use field access instead!")]] ::System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
     // public System.Void .ctor()
-    // Offset: 0x1DE43D4
+    // Offset: 0x1E03924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonContract::$$c__DisplayClass73_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass73_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonContract::$$c__DisplayClass73_0*, creationType>()));
     }
     // System.Void <CreateSerializationCallback>b__0(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1DE447C
+    // Offset: 0x1E039CC
     void $CreateSerializationCallback$b__0(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
   }; // Newtonsoft.Json.Serialization.JsonContract/Newtonsoft.Json.Serialization.<>c__DisplayClass73_0
   #pragma pack(pop)

@@ -32,25 +32,25 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B6E158
+    // Offset: 0x1B8DD7C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetCurrentTrackingTransformPose(out OVRPlugin/Posef trackingTransformPose)
-    // Offset: 0x1B6DDCC
+    // Offset: 0x1B8D9F0
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetCurrentTrackingTransformPose(ByRef<::GlobalNamespace::OVRPlugin::Posef> trackingTransformPose);
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRawPose(out OVRPlugin/Posef trackingTransformRawPose)
-    // Offset: 0x1B6DE4C
+    // Offset: 0x1B8DA70
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRawPose(ByRef<::GlobalNamespace::OVRPlugin::Posef> trackingTransformRawPose);
     // static public OVRPlugin/Result ovrp_SendEvent2(System.String name, System.String param, System.String source)
-    // Offset: 0x1B6DECC
+    // Offset: 0x1B8DAF0
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SendEvent2(::StringW name, ::StringW param, ::StringW source);
     // static public OVRPlugin/Result ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics, out OVRPlugin/Bool isSupported)
-    // Offset: 0x1B6DFA8
+    // Offset: 0x1B8DBCC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_IsPerfMetricsSupported(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<::GlobalNamespace::OVRPlugin::Bool> isSupported);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics, out System.Single value)
-    // Offset: 0x1B6E038
+    // Offset: 0x1B8DC5C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsFloat(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<float> value);
     // static public OVRPlugin/Result ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics, out System.Int32 value)
-    // Offset: 0x1B6E0C8
+    // Offset: 0x1B8DCEC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetPerfMetricsInt(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics, ByRef<int> value);
   }; // OVRPlugin/OVRP_1_30_0
   #pragma pack(pop)

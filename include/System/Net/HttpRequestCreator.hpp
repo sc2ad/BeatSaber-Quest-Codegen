@@ -49,14 +49,14 @@ namespace System::Net {
       return reinterpret_cast<::System::Net::IWebRequestCreate*>(this);
     }
     // System.Void .ctor()
-    // Offset: 0x1ACCCE8
+    // Offset: 0x1AEB780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestCreator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpRequestCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestCreator*, creationType>()));
     }
     // public System.Net.WebRequest Create(System.Uri uri)
-    // Offset: 0x1ACCCF0
+    // Offset: 0x1AEB788
     ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.HttpRequestCreator
   #pragma pack(pop)

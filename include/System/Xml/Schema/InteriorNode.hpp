@@ -56,22 +56,22 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.SyntaxTreeNode rightChild
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::SyntaxTreeNode*& dyn_rightChild();
     // public System.Xml.Schema.SyntaxTreeNode get_LeftChild()
-    // Offset: 0x1D1178C
+    // Offset: 0x1D1B330
     ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();
     // public System.Void set_LeftChild(System.Xml.Schema.SyntaxTreeNode value)
-    // Offset: 0x1D11794
+    // Offset: 0x1D1B338
     void set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value);
     // public System.Xml.Schema.SyntaxTreeNode get_RightChild()
-    // Offset: 0x1D1179C
+    // Offset: 0x1D1B340
     ::System::Xml::Schema::SyntaxTreeNode* get_RightChild();
     // public System.Void set_RightChild(System.Xml.Schema.SyntaxTreeNode value)
-    // Offset: 0x1D117A4
+    // Offset: 0x1D1B348
     void set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value);
     // protected System.Void ExpandTreeNoRecursive(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1D117AC
+    // Offset: 0x1D1B350
     void ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // protected System.Void .ctor()
-    // Offset: 0x1D119BC
+    // Offset: 0x1D1B560
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,7 +80,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<InteriorNode*, creationType>()));
     }
     // public override System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
-    // Offset: 0x1D11948
+    // Offset: 0x1D1B4EC
     // Implemented from: System.Xml.Schema.SyntaxTreeNode
     // Base method: System.Void SyntaxTreeNode::ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);

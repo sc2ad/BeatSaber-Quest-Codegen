@@ -34,13 +34,13 @@ namespace NUnit::Framework {
   class Is : public ::Il2CppObject {
     public:
     // static public NUnit.Framework.Constraints.TrueConstraint get_True()
-    // Offset: 0x2A75658
+    // Offset: 0x2AB4608
     static ::NUnit::Framework::Constraints::TrueConstraint* get_True();
     // static public NUnit.Framework.Constraints.FalseConstraint get_False()
-    // Offset: 0x2A756B4
+    // Offset: 0x2AB4664
     static ::NUnit::Framework::Constraints::FalseConstraint* get_False();
     // static public NUnit.Framework.Constraints.EqualConstraint EqualTo(System.Object expected)
-    // Offset: 0x2A75710
+    // Offset: 0x2AB46C0
     static ::NUnit::Framework::Constraints::EqualConstraint* EqualTo(::Il2CppObject* expected);
   }; // NUnit.Framework.Is
   #pragma pack(pop)

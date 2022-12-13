@@ -99,60 +99,60 @@ namespace System::Resources {
     // Get instance field reference: private System.Boolean _haveReadFromReader
     [[deprecated("Use field access instead!")]] bool& dyn__haveReadFromReader();
     // System.Void .ctor(System.String fileName)
-    // Offset: 0x1E05E28
+    // Offset: 0x1E3A960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeResourceSet* New_ctor(::StringW fileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::RuntimeResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeResourceSet*, creationType>(fileName)));
     }
     // System.Void .ctor(System.IO.Stream stream)
-    // Offset: 0x1E05F30
+    // Offset: 0x1E3AA68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeResourceSet* New_ctor(::System::IO::Stream* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::RuntimeResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeResourceSet*, creationType>(stream)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1E06230
+    // Offset: 0x1E3AD68
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)
-    // Offset: 0x1E062B4
+    // Offset: 0x1E3ADEC
     ::Il2CppObject* GetObject(::StringW key, bool ignoreCase, bool isString);
     // private System.Object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, System.String key, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> copyOfCache, System.Boolean keyInWrongCase)
-    // Offset: 0x1E06C20
+    // Offset: 0x1E3B758
     ::Il2CppObject* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1E06008
+    // Offset: 0x1E3AB40
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Void ResourceSet::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Collections.IDictionaryEnumerator GetEnumerator()
-    // Offset: 0x1E06118
+    // Offset: 0x1E3AC50
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumerator()
     ::System::Collections::IDictionaryEnumerator* GetEnumerator();
     // private System.Collections.IDictionaryEnumerator GetEnumeratorHelper()
-    // Offset: 0x1E0611C
+    // Offset: 0x1E3AC54
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Collections.IDictionaryEnumerator ResourceSet::GetEnumeratorHelper()
     ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
     // public override System.String GetString(System.String key)
-    // Offset: 0x1E06234
+    // Offset: 0x1E3AD6C
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key)
     ::StringW GetString(::StringW key);
     // public override System.String GetString(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x1E06B84
+    // Offset: 0x1E3B6BC
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key, System.Boolean ignoreCase)
     ::StringW GetString(::StringW key, bool ignoreCase);
     // public override System.Object GetObject(System.String key)
-    // Offset: 0x1E06C08
+    // Offset: 0x1E3B740
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key)
     ::Il2CppObject* GetObject(::StringW key);
     // public override System.Object GetObject(System.String key, System.Boolean ignoreCase)
-    // Offset: 0x1E06C14
+    // Offset: 0x1E3B74C
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
     ::Il2CppObject* GetObject(::StringW key, bool ignoreCase);

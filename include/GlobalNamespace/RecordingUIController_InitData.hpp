@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean recordingEnabled
     [[deprecated("Use field access instead!")]] bool& dyn_recordingEnabled();
     // public System.Void .ctor(System.Boolean recordingEnabled)
-    // Offset: 0x1423CFC
+    // Offset: 0x142F408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingUIController::InitData* New_ctor(bool recordingEnabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingUIController::InitData::.ctor");

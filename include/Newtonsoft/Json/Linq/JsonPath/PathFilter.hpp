@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Linq::JsonPath {
   class PathFilter : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x17A42A8
+    // Offset: 0x17AC9E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonPath::PathFilter::.ctor");

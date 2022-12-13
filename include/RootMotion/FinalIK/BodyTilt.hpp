@@ -36,14 +36,14 @@ namespace RootMotion::FinalIK {
   class BodyTilt : public ::RootMotion::FinalIK::OffsetModifier {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x113E788
+    // [TooltipAttribute] Offset: 0x11478F0
     // public System.Single tiltSpeed
     // Size: 0x4
     // Offset: 0x2C
     float tiltSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x113E7C0
+    // [TooltipAttribute] Offset: 0x1147928
     // public System.Single tiltSensitivity
     // Size: 0x4
     // Offset: 0x30
@@ -52,14 +52,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: tiltSensitivity and: poseLeft
     char __padding1[0x4] = {};
-    // [TooltipAttribute] Offset: 0x113E7F8
+    // [TooltipAttribute] Offset: 0x1147960
     // public RootMotion.FinalIK.OffsetPose poseLeft
     // Size: 0x8
     // Offset: 0x38
     ::RootMotion::FinalIK::OffsetPose* poseLeft;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::OffsetPose*) == 0x8);
-    // [TooltipAttribute] Offset: 0x113E830
+    // [TooltipAttribute] Offset: 0x1147998
     // public RootMotion.FinalIK.OffsetPose poseRight
     // Size: 0x8
     // Offset: 0x40
@@ -92,7 +92,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 lastForward
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_lastForward();
     // public System.Void .ctor()
-    // Offset: 0x2314F84
+    // Offset: 0x22F9044
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,12 +101,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<BodyTilt*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x2314D0C
+    // Offset: 0x22F8DCC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::Start()
     void Start();
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x2314D54
+    // Offset: 0x22F8E14
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();

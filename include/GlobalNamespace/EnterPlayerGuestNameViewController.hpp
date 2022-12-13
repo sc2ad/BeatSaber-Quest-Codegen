@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1
     class $$c__DisplayClass10_1;
     public:
-    // [SignalSenderAttribute] Offset: 0x1121C5C
+    // [SignalSenderAttribute] Offset: 0x1129DB4
     // private StringSignal _playerNameWasEnteredSignal
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::StringSignal* playerNameWasEnteredSignal;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StringSignal*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1121C94
+    // [SpaceAttribute] Offset: 0x1129DEC
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x78
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GuestNameButtonsListItemsList* guestNameButtonsListItemsList;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GuestNameButtonsListItemsList*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121CEC
+    // [InjectAttribute] Offset: 0x1129E44
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
@@ -120,25 +120,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnterPlayerGuestNameViewController/FinishDelegate _didFinishCallback
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*& dyn__didFinishCallback();
     // public System.Void .ctor()
-    // Offset: 0x1387D8C
+    // Offset: 0x1393248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterPlayerGuestNameViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnterPlayerGuestNameViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController*, creationType>()));
     }
     // public System.Void Init(EnterPlayerGuestNameViewController/FinishDelegate didFinishCallback)
-    // Offset: 0x13875C8
+    // Offset: 0x1392A84
     void Init(::GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback);
     // private System.Void OkButtonPressed()
-    // Offset: 0x13878D4
+    // Offset: 0x1392D90
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13875D0
+    // Offset: 0x1392A8C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1387824
+    // Offset: 0x1392CE0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

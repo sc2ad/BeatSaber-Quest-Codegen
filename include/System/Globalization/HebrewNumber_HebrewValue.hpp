@@ -44,7 +44,7 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 value
     [[deprecated("Use field access instead!")]] int& dyn_value();
     // System.Void .ctor(System.Globalization.HebrewNumber/System.Globalization.HebrewToken token, System.Int32 value)
-    // Offset: 0x21BB414
+    // Offset: 0x21C3820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HebrewNumber::HebrewValue* New_ctor(::System::Globalization::HebrewNumber::HebrewToken token, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::HebrewNumber::HebrewValue::.ctor");

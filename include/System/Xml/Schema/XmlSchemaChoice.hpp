@@ -48,7 +48,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObjectCollection items
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaObjectCollection*& dyn_items();
     // public override System.Xml.Schema.XmlSchemaObjectCollection get_Items()
-    // Offset: 0x21039C0
+    // Offset: 0x20FDB94
     // Implemented from: System.Xml.Schema.XmlSchemaGroupBase
     // Base method: System.Xml.Schema.XmlSchemaObjectCollection XmlSchemaGroupBase::get_Items()
     ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();

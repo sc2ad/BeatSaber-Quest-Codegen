@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DirectionalLightWithIds* directionalLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DirectionalLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FD540
+    // [SpaceAttribute] Offset: 0x11063E0
     // private DirectionalLightWithIdsGroupEntry/GroupLightData[] _groupLightData
     // Size: 0x8
     // Offset: 0x20
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> excludedLightIds;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FD598
+    // [SpaceAttribute] Offset: 0x1106438
     // private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     // Size: 0x4
     // Offset: 0x38
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private DirectionalLightWithIdsGroupEntry/GroupLightsWeighting _groupLightsWeighting
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::GroupLightsWeighting& dyn__groupLightsWeighting();
     // public System.Void .ctor()
-    // Offset: 0x1CCA524
+    // Offset: 0x1CD50B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DirectionalLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DirectionalLightWithIdsGroupEntry::.ctor");

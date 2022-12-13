@@ -103,25 +103,25 @@ namespace MasterServer {
     // Get instance field reference: public GameStateType gameState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameStateType& dyn_gameState();
     // static public PacketPool`1<MasterServer.DedicatedServerInstanceStatusUpdateRequest> get_pool()
-    // Offset: 0x16D4A54
+    // Offset: 0x16CC230
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerInstanceStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x16D4A9C
+    // Offset: 0x16CC278
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x16D4AA4
+    // Offset: 0x16CC280
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x16D4AAC
+    // Offset: 0x16CC288
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x16D4AB4
+    // Offset: 0x16CC290
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerInstanceStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
-    // Offset: 0x16D4C14
+    // Offset: 0x16CC3F0
     ::MasterServer::DedicatedServerInstanceStatusUpdateRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::StringW id, ::GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void .ctor()
-    // Offset: 0x16D4C24
+    // Offset: 0x16CC400
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -130,17 +130,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerInstanceStatusUpdateRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16D4ABC
+    // Offset: 0x16CC298
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16D4B38
+    // Offset: 0x16CC314
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16D4BB8
+    // Offset: 0x16CC394
     // Implemented from: BGNet.Core.Messages.BaseReliableRequest
     // Base method: System.Void BaseReliableRequest::Release()
     void Release();

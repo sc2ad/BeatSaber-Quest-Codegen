@@ -49,19 +49,19 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
     static void _set_PreserveStackTrace(::System::Action_1<::System::Exception*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D5B538
+    // Offset: 0x1D650DC
     static void _cctor();
     // static public System.String BuildMessage(System.Exception exception)
-    // Offset: 0x1D5B730
+    // Offset: 0x1D652D4
     static ::StringW BuildMessage(::System::Exception* exception);
     // static public System.String BuildStackTrace(System.Exception exception)
-    // Offset: 0x1D5BBF0
+    // Offset: 0x1D65794
     static ::StringW BuildStackTrace(::System::Exception* exception);
     // static public System.String GetStackTrace(System.Exception exception)
-    // Offset: 0x1D5BE5C
+    // Offset: 0x1D65A00
     static ::StringW GetStackTrace(::System::Exception* exception);
     // static private System.Collections.Generic.List`1<System.Exception> FlattenExceptionHierarchy(System.Exception exception)
-    // Offset: 0x1D5BB1C
+    // Offset: 0x1D656C0
     static ::System::Collections::Generic::List_1<::System::Exception*>* FlattenExceptionHierarchy(::System::Exception* exception);
   }; // NUnit.Framework.Internal.ExceptionHelper
   #pragma pack(pop)

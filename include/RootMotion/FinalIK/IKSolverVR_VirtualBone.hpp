@@ -87,47 +87,47 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 axis
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axis();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x24008B0
+    // Offset: 0x244BE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::VirtualBone* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::VirtualBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::VirtualBone*, creationType>(position, rotation)));
     }
     // public System.Void Read(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x240092C
+    // Offset: 0x244BEB8
     void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // static public System.Void SwingRotation(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
-    // Offset: 0x240D8C4
+    // Offset: 0x2458E50
     static void SwingRotation(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int index, ::UnityEngine::Vector3 swingTarget, float weight);
     // static public System.Single PreSolve(ref RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones)
-    // Offset: 0x2403BD8
+    // Offset: 0x244F164
     static float PreSolve(ByRef<::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*>> bones);
     // static public System.Void RotateAroundPoint(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 index, UnityEngine.Vector3 point, UnityEngine.Quaternion rotation)
-    // Offset: 0x24040D8
+    // Offset: 0x244F664
     static void RotateAroundPoint(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int index, ::UnityEngine::Vector3 point, ::UnityEngine::Quaternion rotation);
     // static public System.Void RotateBy(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x240DB54
+    // Offset: 0x24590E0
     static void RotateBy(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int index, ::UnityEngine::Quaternion rotation);
     // static public System.Void RotateBy(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, UnityEngine.Quaternion rotation)
-    // Offset: 0x2402630
+    // Offset: 0x244DBBC
     static void RotateBy(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, ::UnityEngine::Quaternion rotation);
     // static public System.Void RotateTo(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 index, UnityEngine.Quaternion rotation)
-    // Offset: 0x240DD8C
+    // Offset: 0x2459318
     static void RotateTo(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int index, ::UnityEngine::Quaternion rotation);
     // static public System.Void SolveTrigonometric(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, System.Int32 first, System.Int32 second, System.Int32 third, UnityEngine.Vector3 targetPosition, UnityEngine.Vector3 bendNormal, System.Single weight)
-    // Offset: 0x2402E1C
+    // Offset: 0x244E3A8
     static void SolveTrigonometric(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, int first, int second, int third, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float weight);
     // static private UnityEngine.Vector3 GetDirectionToBendPoint(UnityEngine.Vector3 direction, System.Single directionMag, UnityEngine.Vector3 bendDirection, System.Single sqrMag1, System.Single sqrMag2)
-    // Offset: 0x240DE44
+    // Offset: 0x24593D0
     static ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float directionMag, ::UnityEngine::Vector3 bendDirection, float sqrMag1, float sqrMag2);
     // static public System.Void SolveFABRIK(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, UnityEngine.Vector3 startPosition, UnityEngine.Vector3 targetPosition, System.Single weight, System.Single minNormalizedTargetDistance, System.Int32 iterations, System.Single length, UnityEngine.Vector3 startOffset)
-    // Offset: 0x240CCB0
+    // Offset: 0x245823C
     static void SolveFABRIK(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, ::UnityEngine::Vector3 startPosition, ::UnityEngine::Vector3 targetPosition, float weight, float minNormalizedTargetDistance, int iterations, float length, ::UnityEngine::Vector3 startOffset);
     // static private UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
-    // Offset: 0x240E05C
+    // Offset: 0x24595E8
     static ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // static public System.Void SolveCCD(RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone[] bones, UnityEngine.Vector3 targetPosition, System.Single weight, System.Int32 iterations)
-    // Offset: 0x240E164
+    // Offset: 0x24596F0
     static void SolveCCD(::ArrayW<::RootMotion::FinalIK::IKSolverVR::VirtualBone*> bones, ::UnityEngine::Vector3 targetPosition, float weight, int iterations);
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.VirtualBone
   #pragma pack(pop)

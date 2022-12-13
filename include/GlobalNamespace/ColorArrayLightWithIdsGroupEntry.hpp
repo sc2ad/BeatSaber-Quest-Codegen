@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorArrayLightWithIds* colorArrayLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorArrayLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x10FD3F0
+    // [SpaceAttribute] Offset: 0x1106290
     // private LightGroupSO[] _lightGroups
     // Size: 0x8
     // Offset: 0x20
@@ -67,8 +67,11 @@ namespace GlobalNamespace {
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightGroupSO*>& dyn__lightGroups();
     // Get instance field reference: private System.Int32[] _excludedLightIds
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__excludedLightIds();
+    // public LightGroupSO[] get_lightGroups()
+    // Offset: 0x1CD4D40
+    ::ArrayW<::GlobalNamespace::LightGroupSO*> get_lightGroups();
     // public System.Void .ctor()
-    // Offset: 0x1CCA1BC
+    // Offset: 0x1CD4D48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorArrayLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorArrayLightWithIdsGroupEntry::.ctor");
@@ -80,6 +83,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorArrayLightWithIdsGroupEntry) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIdsGroupEntry::get_lightGroups
+// Il2CppName: get_lightGroups
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::LightGroupSO*> (GlobalNamespace::ColorArrayLightWithIdsGroupEntry::*)()>(&GlobalNamespace::ColorArrayLightWithIdsGroupEntry::get_lightGroups)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorArrayLightWithIdsGroupEntry*), "get_lightGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ColorArrayLightWithIdsGroupEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

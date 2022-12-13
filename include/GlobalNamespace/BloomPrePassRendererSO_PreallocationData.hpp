@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 preallocateCount
     [[deprecated("Use field access instead!")]] int& dyn_preallocateCount();
     // public System.Void .ctor()
-    // Offset: 0x1CC950C
+    // Offset: 0x1CD4088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::PreallocationData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::PreallocationData::.ctor");

@@ -67,57 +67,57 @@ namespace System::Net {
     // Get instance field reference: private System.Net.FileWebRequest m_request
     [[deprecated("Use field access instead!")]] ::System::Net::FileWebRequest*& dyn_m_request();
     // public System.Void .ctor(System.Net.FileWebRequest request, System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare sharing)
-    // Offset: 0x1AA302C
+    // Offset: 0x1AB4BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FileWebStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebStream*, creationType>(request, path, mode, access, sharing)));
     }
     // public System.Void .ctor(System.Net.FileWebRequest request, System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare sharing, System.Int32 length, System.Boolean async)
-    // Offset: 0x1AA3BD8
+    // Offset: 0x1AB5758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing, int length, bool async) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FileWebStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileWebStream*, creationType>(request, path, mode, access, sharing, length, async)));
     }
     // private System.Void System.Net.ICloseEx.CloseEx(System.Net.CloseExState closeState)
-    // Offset: 0x1AA43A8
+    // Offset: 0x1AB5F28
     void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
     // private System.Void CheckError()
-    // Offset: 0x1AA44EC
+    // Offset: 0x1AB606C
     void CheckError();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1AA4328
+    // Offset: 0x1AB5EA8
     // Implemented from: System.IO.FileStream
     // Base method: System.Void FileStream::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AA43E8
+    // Offset: 0x1AB5F68
     // Implemented from: System.IO.FileStream
     // Base method: System.Int32 FileStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     int Read(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1AA4598
+    // Offset: 0x1AB6118
     // Implemented from: System.IO.FileStream
     // Base method: System.Void FileStream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     void Write(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1AA469C
+    // Offset: 0x1AB621C
     // Implemented from: System.IO.FileStream
     // Base method: System.IAsyncResult FileStream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
     ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult ar)
-    // Offset: 0x1AA47B8
+    // Offset: 0x1AB6338
     // Implemented from: System.IO.FileStream
     // Base method: System.Int32 FileStream::EndRead(System.IAsyncResult ar)
     int EndRead(::System::IAsyncResult* ar);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
-    // Offset: 0x1AA489C
+    // Offset: 0x1AB641C
     // Implemented from: System.IO.FileStream
     // Base method: System.IAsyncResult FileStream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object state)
     ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int size, ::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult ar)
-    // Offset: 0x1AA49B8
+    // Offset: 0x1AB6538
     // Implemented from: System.IO.FileStream
     // Base method: System.Void FileStream::EndWrite(System.IAsyncResult ar)
     void EndWrite(::System::IAsyncResult* ar);

@@ -57,47 +57,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _accumulator
     [[deprecated("Use field access instead!")]] float& dyn__accumulator();
     // static public System.Single get_time()
-    // Offset: 0x2ABE16C
+    // Offset: 0x2AD8774
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x2ABE1BC
+    // Offset: 0x2AD87C4
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x2ABE218
+    // Offset: 0x2AD8820
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x2ABE268
+    // Offset: 0x2AD8870
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x2ABE2C4
+    // Offset: 0x2AD88CC
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x2ABE314
+    // Offset: 0x2AD891C
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x2ABE370
+    // Offset: 0x2AD8978
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x2ABE3C0
+    // Offset: 0x2AD89C8
     static void set_interpolationFactor(float value);
     // public System.Void .ctor()
-    // Offset: 0x2ABE78C
+    // Offset: 0x2AD8D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TimeHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeHelper*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2ABE41C
+    // Offset: 0x2AD8A24
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x2ABE4CC
+    // Offset: 0x2AD8AD4
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x2ABE57C
+    // Offset: 0x2AD8B84
     void Update();
     // static public System.Void __SetTime(System.Single time)
-    // Offset: 0x2ABE730
+    // Offset: 0x2AD8D38
     static void __SetTime(float time);
   }; // TimeHelper
   #pragma pack(pop)

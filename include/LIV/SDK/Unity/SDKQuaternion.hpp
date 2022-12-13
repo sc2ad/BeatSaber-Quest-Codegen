@@ -81,13 +81,13 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.Single w
     [[deprecated("Use field access instead!")]] float& dyn_w();
     // static public LIV.SDK.Unity.SDKQuaternion get_identity()
-    // Offset: 0x2ADF6F4
+    // Offset: 0x2AFBF44
     static ::LIV::SDK::Unity::SDKQuaternion get_identity();
     // static public LIV.SDK.Unity.SDKQuaternion Euler(System.Single pitch, System.Single yaw, System.Single roll)
-    // Offset: 0x2AE0EBC
+    // Offset: 0x2AFD70C
     static ::LIV::SDK::Unity::SDKQuaternion Euler(float pitch, float yaw, float roll);
     // public override System.String ToString()
-    // Offset: 0x2AE10E8
+    // Offset: 0x2AFD938
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -96,10 +96,10 @@ namespace LIV::SDK::Unity {
   static check_size<sizeof(SDKQuaternion), 12 + sizeof(float)> __LIV_SDK_Unity_SDKQuaternionSizeCheck;
   static_assert(sizeof(SDKQuaternion) == 0x10);
   // static public LIV.SDK.Unity.SDKQuaternion op_Multiply(LIV.SDK.Unity.SDKQuaternion lhs, LIV.SDK.Unity.SDKQuaternion rhs)
-  // Offset: 0x2AE0FD0
+  // Offset: 0x2AFD820
   ::LIV::SDK::Unity::SDKQuaternion operator*(const ::LIV::SDK::Unity::SDKQuaternion& lhs, const ::LIV::SDK::Unity::SDKQuaternion& rhs);
   // static public LIV.SDK.Unity.SDKVector3 op_Multiply(LIV.SDK.Unity.SDKQuaternion lhs, LIV.SDK.Unity.SDKVector3 rhs)
-  // Offset: 0x2AE1044
+  // Offset: 0x2AFD894
   ::LIV::SDK::Unity::SDKVector3 operator*(const ::LIV::SDK::Unity::SDKQuaternion& lhs, const ::LIV::SDK::Unity::SDKVector3& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

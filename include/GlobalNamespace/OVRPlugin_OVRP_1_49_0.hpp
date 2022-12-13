@@ -42,55 +42,55 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 OVRP_ANCHOR_NAME_SIZE
     static void _set_OVRP_ANCHOR_NAME_SIZE(int value);
     // static private System.Void .cctor()
-    // Offset: 0x1B701C4
+    // Offset: 0x1B8FDE8
     static void _cctor();
     // static public OVRPlugin/Result ovrp_SetClientColorDesc(OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x1B6FA0C
+    // Offset: 0x1B8F630
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetClientColorDesc(::GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
     // static public OVRPlugin/Result ovrp_GetHmdColorDesc(ref OVRPlugin/ColorSpace colorSpace)
-    // Offset: 0x1B6FA8C
+    // Offset: 0x1B8F6B0
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHmdColorDesc(ByRef<::GlobalNamespace::OVRPlugin::ColorSpace> colorSpace);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameWithPoseTime(System.IntPtr rawBuffer, System.IntPtr audioDataPtr, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1B68C3C
+    // Offset: 0x1B88860
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameWithPoseTime(::System::IntPtr rawBuffer, ::System::IntPtr audioDataPtr, int audioDataLen, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(System.IntPtr backgroundTextureHandle, System.IntPtr foregroundTextureHandle, System.IntPtr audioData, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
-    // Offset: 0x1B68DC4
+    // Offset: 0x1B889E8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(::System::IntPtr backgroundTextureHandle, ::System::IntPtr foregroundTextureHandle, ::System::IntPtr audioData, int audioDataLen, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_SetHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
-    // Offset: 0x1B699EC
+    // Offset: 0x1B89610
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetHeadsetControllerPose(::GlobalNamespace::OVRPlugin::Posef headsetPose, ::GlobalNamespace::OVRPlugin::Posef leftControllerPose, ::GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // static public OVRPlugin/Result ovrp_Media_EnumerateCameraAnchorHandles(ref System.Int32 anchorCount, ref System.IntPtr CameraAnchorHandle)
-    // Offset: 0x1B6FB0C
+    // Offset: 0x1B8F730
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_EnumerateCameraAnchorHandles(ByRef<int> anchorCount, ByRef<::System::IntPtr> CameraAnchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCurrentCameraAnchorHandle(ref System.IntPtr anchorHandle)
-    // Offset: 0x1B6FB9C
+    // Offset: 0x1B8F7C0
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCurrentCameraAnchorHandle(ByRef<::System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorName(System.IntPtr anchorHandle, System.Char[] cameraName)
-    // Offset: 0x1B6FC1C
+    // Offset: 0x1B8F840
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorName(::System::IntPtr anchorHandle, ::ArrayW<::Il2CppChar> cameraName);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorHandle(System.IntPtr anchorName, ref System.IntPtr anchorHandle)
-    // Offset: 0x1B6FD38
+    // Offset: 0x1B8F95C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorHandle(::System::IntPtr anchorName, ByRef<::System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorType(System.IntPtr anchorHandle, ref OVRPlugin/CameraAnchorType anchorType)
-    // Offset: 0x1B6FDC8
+    // Offset: 0x1B8F9EC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorType(::System::IntPtr anchorHandle, ByRef<::GlobalNamespace::OVRPlugin::CameraAnchorType> anchorType);
     // static public OVRPlugin/Result ovrp_Media_CreateCustomCameraAnchor(System.IntPtr anchorName, ref System.IntPtr anchorHandle)
-    // Offset: 0x1B6FE58
+    // Offset: 0x1B8FA7C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_CreateCustomCameraAnchor(::System::IntPtr anchorName, ByRef<::System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_DestroyCustomCameraAnchor(System.IntPtr anchorHandle)
-    // Offset: 0x1B6FEE8
+    // Offset: 0x1B8FB0C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_DestroyCustomCameraAnchor(::System::IntPtr anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCustomCameraAnchorPose(System.IntPtr anchorHandle, ref OVRPlugin/Posef pose)
-    // Offset: 0x1B6FF68
+    // Offset: 0x1B8FB8C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCustomCameraAnchorPose(::System::IntPtr anchorHandle, ByRef<::GlobalNamespace::OVRPlugin::Posef> pose);
     // static public OVRPlugin/Result ovrp_Media_SetCustomCameraAnchorPose(System.IntPtr anchorHandle, OVRPlugin/Posef pose)
-    // Offset: 0x1B6FFF8
+    // Offset: 0x1B8FC1C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetCustomCameraAnchorPose(::System::IntPtr anchorHandle, ::GlobalNamespace::OVRPlugin::Posef pose);
     // static public OVRPlugin/Result ovrp_Media_GetCameraMinMaxDistance(System.IntPtr anchorHandle, ref System.Double minDistance, ref System.Double maxDistance)
-    // Offset: 0x1B70094
+    // Offset: 0x1B8FCB8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraMinMaxDistance(::System::IntPtr anchorHandle, ByRef<double> minDistance, ByRef<double> maxDistance);
     // static public OVRPlugin/Result ovrp_Media_SetCameraMinMaxDistance(System.IntPtr anchorHandle, System.Double minDistance, System.Double maxDistance)
-    // Offset: 0x1B7012C
+    // Offset: 0x1B8FD50
     static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetCameraMinMaxDistance(::System::IntPtr anchorHandle, double minDistance, double maxDistance);
   }; // OVRPlugin/OVRP_1_49_0
   #pragma pack(pop)

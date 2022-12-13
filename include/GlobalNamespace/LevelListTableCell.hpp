@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111DF70
+    // [SpaceAttribute] Offset: 0x11270C8
     // private UnityEngine.UI.Image _coverImage
     // Size: 0x8
     // Offset: 0x68
@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* songBpmText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111DFF8
+    // [SpaceAttribute] Offset: 0x1127150
     // private UnityEngine.Color _highlightBackgroundColor
     // Size: 0x10
     // Offset: 0x98
@@ -209,36 +209,36 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _settingDataFromLevelId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__settingDataFromLevelId();
     // public System.Void .ctor()
-    // Offset: 0x15098F0
+    // Offset: 0x1515248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelListTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelListTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelListTableCell*, creationType>()));
     }
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
-    // Offset: 0x150962C
+    // Offset: 0x1514F84
     void SetDataFromLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1509704
+    // Offset: 0x151505C
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
-    // Offset: 0x1509820
+    // Offset: 0x1515178
     void RefreshAvailabilityAsync(::GlobalNamespace::AdditionalContentModel* contentModel, ::StringW levelID);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x15097DC
+    // Offset: 0x1515134
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x1509700
+    // Offset: 0x1515058
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x15097D4
+    // Offset: 0x151512C
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x15097D8
+    // Offset: 0x1515130
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();

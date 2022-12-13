@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.IEnumerator action
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_action();
     // public System.Void .ctor()
-    // Offset: 0x15FF458
+    // Offset: 0x162733C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Void <Enqueue>b__0()
-    // Offset: 0x15FF608
+    // Offset: 0x16274EC
     void $Enqueue$b__0();
   }; // HMMainThreadDispatcher/<>c__DisplayClass2_0
   #pragma pack(pop)

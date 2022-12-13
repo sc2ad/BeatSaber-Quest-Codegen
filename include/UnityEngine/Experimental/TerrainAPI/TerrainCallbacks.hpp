@@ -39,21 +39,21 @@ namespace UnityEngine::Experimental::TerrainAPI {
     class HeightmapChangedCallback;
     // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback
     class TextureChangedCallback;
-    // [DebuggerBrowsableAttribute] Offset: 0x10BAA58
+    // [DebuggerBrowsableAttribute] Offset: 0x10C18C8
     // Get static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback heightmapChanged
     static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* _get_heightmapChanged();
     // Set static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback heightmapChanged
     static void _set_heightmapChanged(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* value);
-    // [DebuggerBrowsableAttribute] Offset: 0x10BAA94
+    // [DebuggerBrowsableAttribute] Offset: 0x10C1904
     // Get static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback textureChanged
     static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* _get_textureChanged();
     // Set static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback textureChanged
     static void _set_textureChanged(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* value);
     // static System.Void InvokeHeightmapChangedCallback(UnityEngine.TerrainData terrainData, UnityEngine.RectInt heightRegion, System.Boolean synched)
-    // Offset: 0x2B38DB8
+    // Offset: 0x2B5EEE0
     static void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
     // static System.Void InvokeTextureChangedCallback(UnityEngine.TerrainData terrainData, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched)
-    // Offset: 0x2B39364
+    // Offset: 0x2B5F48C
     static void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks
   #pragma pack(pop)

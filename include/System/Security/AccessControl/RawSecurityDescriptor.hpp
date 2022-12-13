@@ -96,46 +96,46 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Byte resourcemgr_control
     [[deprecated("Use field access instead!")]] uint8_t& dyn_resourcemgr_control();
     // public System.Security.AccessControl.RawAcl get_DiscretionaryAcl()
-    // Offset: 0x1BA05C8
+    // Offset: 0x1BDAD38
     ::System::Security::AccessControl::RawAcl* get_DiscretionaryAcl();
     // public System.Security.AccessControl.RawAcl get_SystemAcl()
-    // Offset: 0x1BA05F0
+    // Offset: 0x1BDAD60
     ::System::Security::AccessControl::RawAcl* get_SystemAcl();
     // public System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1B9CF90
+    // Offset: 0x1BD7700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RawSecurityDescriptor* New_ctor(::ArrayW<uint8_t> binaryForm, int offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::RawSecurityDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RawSecurityDescriptor*, creationType>(binaryForm, offset)));
     }
     // private System.UInt16 ReadUShort(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BA04F8
+    // Offset: 0x1BDAC68
     uint16_t ReadUShort(::ArrayW<uint8_t> buffer, int offset);
     // private System.Int32 ReadInt(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BA0544
+    // Offset: 0x1BDACB4
     int ReadInt(::ArrayW<uint8_t> buffer, int offset);
     // public override System.Security.AccessControl.ControlFlags get_ControlFlags()
-    // Offset: 0x1BA05C0
+    // Offset: 0x1BDAD30
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.AccessControl.ControlFlags GenericSecurityDescriptor::get_ControlFlags()
     ::System::Security::AccessControl::ControlFlags get_ControlFlags();
     // public override System.Security.Principal.SecurityIdentifier get_Group()
-    // Offset: 0x1BA05D0
+    // Offset: 0x1BDAD40
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.Principal.SecurityIdentifier GenericSecurityDescriptor::get_Group()
     ::System::Security::Principal::SecurityIdentifier* get_Group();
     // public override System.Void set_Group(System.Security.Principal.SecurityIdentifier value)
-    // Offset: 0x1BA05D8
+    // Offset: 0x1BDAD48
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Void GenericSecurityDescriptor::set_Group(System.Security.Principal.SecurityIdentifier value)
     void set_Group(::System::Security::Principal::SecurityIdentifier* value);
     // public override System.Security.Principal.SecurityIdentifier get_Owner()
-    // Offset: 0x1BA05E0
+    // Offset: 0x1BDAD50
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.Principal.SecurityIdentifier GenericSecurityDescriptor::get_Owner()
     ::System::Security::Principal::SecurityIdentifier* get_Owner();
     // public override System.Void set_Owner(System.Security.Principal.SecurityIdentifier value)
-    // Offset: 0x1BA05E8
+    // Offset: 0x1BDAD58
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Void GenericSecurityDescriptor::set_Owner(System.Security.Principal.SecurityIdentifier value)
     void set_Owner(::System::Security::Principal::SecurityIdentifier* value);

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::GameObject*> replacementBrandingObjects;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::GameObject*>) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x1113D6C
+    // [InjectOptionalAttribute] Offset: 0x111CD88
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentBrandingManager/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
     // public System.Void .ctor()
-    // Offset: 0x1388350
+    // Offset: 0x139380C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentBrandingManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentBrandingManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1388278
+    // Offset: 0x1393734
     void Start();
   }; // EnvironmentBrandingManager
   #pragma pack(pop)

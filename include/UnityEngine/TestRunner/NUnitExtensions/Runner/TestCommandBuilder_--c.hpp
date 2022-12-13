@@ -63,23 +63,23 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
     static void _set_$$9__1_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::StringW>*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x198C848
+    // Offset: 0x19B04C0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x198C8AC
+    // Offset: 0x19B0524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandBuilder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandBuilder::$$c*, creationType>()));
     }
     // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
-    // Offset: 0x198C8B4
+    // Offset: 0x19B052C
     ::StringW $GetTestBuilderName$b__1_0(::NUnit::Framework::Interfaces::ITestBuilder* attribute);
     // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
-    // Offset: 0x198C8E4
+    // Offset: 0x19B055C
     ::StringW $GetTestBuilderName$b__1_1(::NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
     // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
-    // Offset: 0x198C914
+    // Offset: 0x19B058C
     ::System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(::System::Collections::Generic::IEnumerable_1<::StringW>* v);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c
   #pragma pack(pop)

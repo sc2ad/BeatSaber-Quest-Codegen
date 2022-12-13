@@ -53,7 +53,7 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.NameTable/System.Xml.Entry next
     [[deprecated("Use field access instead!")]] ::System::Xml::NameTable::Entry*& dyn_next();
     // System.Void .ctor(System.String str, System.Int32 hashCode, System.Xml.NameTable/System.Xml.Entry next)
-    // Offset: 0x1AEBE4C
+    // Offset: 0x1B0A8E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameTable::Entry* New_ctor(::StringW str, int hashCode, ::System::Xml::NameTable::Entry* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::NameTable::Entry::.ctor");

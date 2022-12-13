@@ -20,7 +20,7 @@ namespace UnityEngine::Timeline {
   class TimelineClip::TimelineClipUpgrade : public ::Il2CppObject {
     public:
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x2AAB87C
+    // Offset: 0x2AC5E84
     static void UpgradeClipInFromGlobalToLocal(::UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.TimelineClipUpgrade
   #pragma pack(pop)

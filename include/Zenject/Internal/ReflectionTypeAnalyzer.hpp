@@ -86,7 +86,7 @@ namespace Zenject::Internal {
     // Set static field: static private readonly System.Collections.Generic.HashSet`1<System.Type> _injectAttributeTypes
     static void _set__injectAttributeTypes(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CAE850
+    // Offset: 0x1CB93CC
     static void _cctor();
     // static public System.Void AddCustomInjectAttribute()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -99,31 +99,31 @@ namespace Zenject::Internal {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AddCustomInjectAttribute(System.Type type)
-    // Offset: 0x1CAE924
+    // Offset: 0x1CB94A0
     static void AddCustomInjectAttribute(::System::Type* type);
     // static public Zenject.Internal.ReflectionTypeInfo GetReflectionInfo(System.Type type)
-    // Offset: 0x1CAE9E8
+    // Offset: 0x1CB9564
     static ::Zenject::Internal::ReflectionTypeInfo* GetReflectionInfo(::System::Type* type);
     // static private System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo> GetPropertyInfos(System.Type type)
-    // Offset: 0x1CAF244
+    // Offset: 0x1CB9DC0
     static ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* GetPropertyInfos(::System::Type* type);
     // static private System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo> GetFieldInfos(System.Type type)
-    // Offset: 0x1CAF08C
+    // Offset: 0x1CB9C08
     static ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* GetFieldInfos(::System::Type* type);
     // static private System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectMethodInfo> GetMethodInfos(System.Type type)
-    // Offset: 0x1CAED58
+    // Offset: 0x1CB98D4
     static ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* GetMethodInfos(::System::Type* type);
     // static private Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo GetConstructorInfo(System.Type type)
-    // Offset: 0x1CAEBA8
+    // Offset: 0x1CB9724
     static ::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* GetConstructorInfo(::System::Type* type);
     // static private Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo CreateInjectableInfoForParam(System.Type parentType, System.Reflection.ParameterInfo paramInfo)
-    // Offset: 0x1CAF8B0
+    // Offset: 0x1CBA42C
     static ::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* CreateInjectableInfoForParam(::System::Type* parentType, ::System::Reflection::ParameterInfo* paramInfo);
     // static private Zenject.InjectableInfo GetInjectableInfoForMember(System.Type parentType, System.Reflection.MemberInfo memInfo)
-    // Offset: 0x1CAFACC
+    // Offset: 0x1CBA648
     static ::Zenject::InjectableInfo* GetInjectableInfoForMember(::System::Type* parentType, ::System::Reflection::MemberInfo* memInfo);
     // static private System.Reflection.ConstructorInfo TryGetInjectConstructor(System.Type type)
-    // Offset: 0x1CAF4B4
+    // Offset: 0x1CBA030
     static ::System::Reflection::ConstructorInfo* TryGetInjectConstructor(::System::Type* type);
   }; // Zenject.Internal.ReflectionTypeAnalyzer
   #pragma pack(pop)

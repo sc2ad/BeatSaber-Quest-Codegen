@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class DisableOnNonSteam : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x143C7C4
+    // Offset: 0x1447ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisableOnNonSteam* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisableOnNonSteam::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisableOnNonSteam*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x143C79C
+    // Offset: 0x1447EA8
     void Awake();
   }; // DisableOnNonSteam
   #pragma pack(pop)

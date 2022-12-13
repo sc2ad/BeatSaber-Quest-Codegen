@@ -38,13 +38,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class IOUtil : public ::Il2CppObject {
     public:
     // static System.Boolean FlagTest(System.Runtime.Serialization.Formatters.Binary.MessageEnum flag, System.Runtime.Serialization.Formatters.Binary.MessageEnum target)
-    // Offset: 0x18F6F44
+    // Offset: 0x192AD24
     static bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
     // static System.Void WriteStringWithCode(System.String value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18F6EE4
+    // Offset: 0x192ACC4
     static void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static System.Void WriteWithCode(System.Type type, System.Object value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x18F6F50
+    // Offset: 0x192AD30
     static void WriteWithCode(::System::Type* type, ::Il2CppObject* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
   }; // System.Runtime.Serialization.Formatters.Binary.IOUtil
   #pragma pack(pop)

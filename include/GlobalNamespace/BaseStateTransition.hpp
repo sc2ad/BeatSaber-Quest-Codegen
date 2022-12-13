@@ -55,68 +55,68 @@ namespace GlobalNamespace {
     // Get instance field reference: protected SelectableStateController _selectableStateController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
     // protected Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x13A06BC
+    // Offset: 0x13ABB78
     ::Tweening::TimeTweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::BaseTransitionSO* get_transition();
     // protected System.Void .ctor()
-    // Offset: 0x13A09D4
+    // Offset: 0x13ABE90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseStateTransition* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseStateTransition*, creationType>()));
     }
     // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x13A06D8
+    // Offset: 0x13ABB94
     void SetState(::GlobalNamespace::SelectableStateController::ViewState viewState);
     // protected System.Void OnEnable()
-    // Offset: 0x13A0750
+    // Offset: 0x13ABC0C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x13A0800
+    // Offset: 0x13ABCBC
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A0894
+    // Offset: 0x13ABD50
     void OnDestroy();
     // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x13A093C
+    // Offset: 0x13ABDF8
     void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController::ViewState state, bool animated);
     // protected System.Void TransitionToNormalState()
-    // Offset: 0x13A09A4
+    // Offset: 0x13ABE60
     void TransitionToNormalState();
     // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x13A09A8
+    // Offset: 0x13ABE64
     void TransitionToHighlightedState();
     // protected System.Void TransitionToPressedState()
-    // Offset: 0x13A09AC
+    // Offset: 0x13ABE68
     void TransitionToPressedState();
     // protected System.Void TransitionToDisabledState()
-    // Offset: 0x13A09B0
+    // Offset: 0x13ABE6C
     void TransitionToDisabledState();
     // protected System.Void TransitionToSelectedState()
-    // Offset: 0x13A09B4
+    // Offset: 0x13ABE70
     void TransitionToSelectedState();
     // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x13A09B8
+    // Offset: 0x13ABE74
     void TransitionToSelectedAndHighlightedState();
     // protected System.Void SetNormalState()
-    // Offset: 0x13A09BC
+    // Offset: 0x13ABE78
     void SetNormalState();
     // protected System.Void SetHighlightedState()
-    // Offset: 0x13A09C0
+    // Offset: 0x13ABE7C
     void SetHighlightedState();
     // protected System.Void SetPressedState()
-    // Offset: 0x13A09C4
+    // Offset: 0x13ABE80
     void SetPressedState();
     // protected System.Void SetDisabledState()
-    // Offset: 0x13A09C8
+    // Offset: 0x13ABE84
     void SetDisabledState();
     // protected System.Void SetSelectedState()
-    // Offset: 0x13A09CC
+    // Offset: 0x13ABE88
     void SetSelectedState();
     // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x13A09D0
+    // Offset: 0x13ABE8C
     void SetSelectedAndHighlightedState();
   }; // BaseStateTransition
   #pragma pack(pop)

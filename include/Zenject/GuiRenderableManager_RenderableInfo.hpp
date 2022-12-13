@@ -52,17 +52,17 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     [[deprecated("Use field access instead!")]] int& dyn_Priority();
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
-    // Offset: 0x1E8D2C0
+    // Offset: 0x1EAB8E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::RenderableInfo* New_ctor(::Zenject::IGuiRenderable* renderable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::RenderableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager::RenderableInfo*, creationType>(renderable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E8DE18
+    // Offset: 0x1EAC438
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E8DF24
+    // Offset: 0x1EAC544
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderableManager/Zenject.RenderableInfo
   #pragma pack(pop)

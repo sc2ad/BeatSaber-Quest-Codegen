@@ -45,20 +45,20 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return reinterpret_cast<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x163C470
+    // Offset: 0x1666520
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZeroBytePadding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZeroBytePadding*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x163C3B0
+    // Offset: 0x1666460
     void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x163C3B4
+    // Offset: 0x1666464
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x163C410
+    // Offset: 0x16664C0
     int PadCount(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.Paddings.ZeroBytePadding
   #pragma pack(pop)

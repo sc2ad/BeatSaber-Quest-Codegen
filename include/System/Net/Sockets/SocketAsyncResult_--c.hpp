@@ -40,17 +40,17 @@ namespace System::Net::Sockets {
     // Set static field: static public System.Threading.WaitCallback <>9__27_0
     static void _set_$$9__27_0(::System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B81DF4
+    // Offset: 0x1BA1A18
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B81E58
+    // Offset: 0x1BA1A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncResult::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult::$$c*, creationType>()));
     }
     // System.Void <Complete>b__27_0(System.Object state)
-    // Offset: 0x1B81E60
+    // Offset: 0x1BA1A84
     void $Complete$b__27_0(::Il2CppObject* state);
   }; // System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c
   #pragma pack(pop)

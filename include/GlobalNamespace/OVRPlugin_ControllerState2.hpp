@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRPlugin/Vector2f RTouchpad
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRPlugin::Vector2f& dyn_RTouchpad();
     // public System.Void .ctor(OVRPlugin/ControllerState cs)
-    // Offset: 0x1B66474
+    // Offset: 0x1B86098
     ControllerState2(::GlobalNamespace::OVRPlugin::ControllerState cs);
   }; // OVRPlugin/ControllerState2
   #pragma pack(pop)

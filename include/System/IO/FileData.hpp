@@ -76,7 +76,7 @@ namespace System::IO {
     // Get instance field reference: public System.DateTime LastWriteTime
     [[deprecated("Use field access instead!")]] ::System::DateTime& dyn_LastWriteTime();
     // public System.Void .ctor()
-    // Offset: 0x1D8A8C0
+    // Offset: 0x1DA9E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileData::.ctor");

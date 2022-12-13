@@ -124,49 +124,49 @@ namespace System::Security::Claims {
     // Get instance field reference: private System.Security.Claims.ClaimsIdentity m_subject
     [[deprecated("Use field access instead!")]] ::System::Security::Claims::ClaimsIdentity*& dyn_m_subject();
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
-    // Offset: 0x1BA09A0
+    // Offset: 0x1BDB110
     ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
-    // Offset: 0x1BA0D4C
+    // Offset: 0x1BDB4BC
     ::System::Security::Claims::ClaimsIdentity* get_Subject();
     // System.Void set_Subject(System.Security.Claims.ClaimsIdentity value)
-    // Offset: 0x1BA0D54
+    // Offset: 0x1BDB4C4
     void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
-    // Offset: 0x1BA0D5C
+    // Offset: 0x1BDB4CC
     ::StringW get_Type();
     // public System.String get_Value()
-    // Offset: 0x1BA0D64
+    // Offset: 0x1BDB4D4
     ::StringW get_Value();
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1BA0754
+    // Offset: 0x1BDAEC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
-    // Offset: 0x1BA0778
+    // Offset: 0x1BDAEE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
     // protected System.Void .ctor(System.Security.Claims.Claim other, System.Security.Claims.ClaimsIdentity subject)
-    // Offset: 0x1BA0A98
+    // Offset: 0x1BDB208
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(other, subject)));
     }
     // private System.Void OnDeserializedMethod(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1BA0CEC
+    // Offset: 0x1BDB45C
     void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
     // public System.Security.Claims.Claim Clone(System.Security.Claims.ClaimsIdentity identity)
-    // Offset: 0x1BA0D6C
+    // Offset: 0x1BDB4DC
     ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
     // public override System.String ToString()
-    // Offset: 0x1BA0DDC
+    // Offset: 0x1BDB54C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

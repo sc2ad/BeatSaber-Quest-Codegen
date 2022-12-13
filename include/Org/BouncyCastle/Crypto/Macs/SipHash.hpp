@@ -135,48 +135,48 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: protected System.Int32 wordCount
     [[deprecated("Use field access instead!")]] int& dyn_wordCount();
     // public System.Void .ctor()
-    // Offset: 0x1E9DFDC
+    // Offset: 0x1EBC5FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 c, System.Int32 d)
-    // Offset: 0x1E9E010
+    // Offset: 0x1EBC630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SipHash* New_ctor(int c, int d) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::SipHash::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SipHash*, creationType>(c, d)));
     }
     // public System.Int32 GetMacSize()
-    // Offset: 0x1E9E04C
+    // Offset: 0x1EBC66C
     int GetMacSize();
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E9E054
+    // Offset: 0x1EBC674
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1E9E198
+    // Offset: 0x1EBC7B8
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1E9E1E8
+    // Offset: 0x1EBC808
     void BlockUpdate(::ArrayW<uint8_t> input, int offset, int length);
     // public System.Int64 DoFinal()
-    // Offset: 0x1E9E3B8
+    // Offset: 0x1EBC9D8
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1E9E458
+    // Offset: 0x1EBCA78
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E9E4A0
+    // Offset: 0x1EBCAC0
     void Reset();
     // protected System.Void ProcessMessageWord()
-    // Offset: 0x1E9E504
+    // Offset: 0x1EBCB24
     void ProcessMessageWord();
     // protected System.Void ApplySipRounds(System.Int32 n)
-    // Offset: 0x1E9E55C
+    // Offset: 0x1EBCB7C
     void ApplySipRounds(int n);
     // static protected System.Int64 RotateLeft(System.Int64 x, System.Int32 n)
-    // Offset: 0x1E9E5A8
+    // Offset: 0x1EBCBC8
     static int64_t RotateLeft(int64_t x, int n);
   }; // Org.BouncyCastle.Crypto.Macs.SipHash
   #pragma pack(pop)

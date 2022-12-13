@@ -146,21 +146,21 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaCompilationSettings*& dyn_compilationSettings();
     // public System.Void .ctor()
-    // Offset: 0x2105498
+    // Offset: 0x20FF66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaSet*, creationType>()));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable)
-    // Offset: 0x21054FC
+    // Offset: 0x20FF6D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaSet*, creationType>(nameTable)));
     }
     // private System.Void InternalValidationCallback(System.Object sender, System.Xml.Schema.ValidationEventArgs e)
-    // Offset: 0x2105718
+    // Offset: 0x20FF8EC
     void InternalValidationCallback(::Il2CppObject* sender, ::System::Xml::Schema::ValidationEventArgs* e);
   }; // System.Xml.Schema.XmlSchemaSet
   #pragma pack(pop)

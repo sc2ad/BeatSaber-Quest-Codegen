@@ -38,17 +38,17 @@ namespace System::Xml::Schema {
   class Datatype_token : public ::System::Xml::Schema::Datatype_normalizedString {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D0E55C
+    // Offset: 0x1D18100
     // Implemented from: System.Xml.Schema.Datatype_normalizedString
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_normalizedString::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D0E564
+    // Offset: 0x1D18108
     // Implemented from: System.Xml.Schema.Datatype_normalizedString
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_normalizedString::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // public System.Void .ctor()
-    // Offset: 0x1D073E0
+    // Offset: 0x1D10F84
     // Implemented from: System.Xml.Schema.Datatype_normalizedString
     // Base method: System.Void Datatype_normalizedString::.ctor()
     // Base method: System.Void Datatype_string::.ctor()

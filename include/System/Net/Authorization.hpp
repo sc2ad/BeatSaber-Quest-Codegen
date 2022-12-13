@@ -56,20 +56,20 @@ namespace System::Net {
     // Get instance field reference: System.String ModuleAuthenticationType
     [[deprecated("Use field access instead!")]] ::StringW& dyn_ModuleAuthenticationType();
     // public System.String get_Message()
-    // Offset: 0x1D90980
+    // Offset: 0x1DAFED0
     ::StringW get_Message();
     // public System.Boolean get_Complete()
-    // Offset: 0x1D90988
+    // Offset: 0x1DAFED8
     bool get_Complete();
     // public System.Void .ctor(System.String token)
-    // Offset: 0x1D9085C
+    // Offset: 0x1DAFDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::StringW token) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
-    // Offset: 0x1D908EC
+    // Offset: 0x1DAFE3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::StringW token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Authorization::.ctor");

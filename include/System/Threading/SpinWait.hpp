@@ -48,13 +48,13 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_count
     [[deprecated("Use field access instead!")]] int& dyn_m_count();
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0x1DC9E90
+    // Offset: 0x1DE93E0
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0x1DC9DB4
+    // Offset: 0x1DE9304
     void SpinOnce();
     // public System.Void Reset()
-    // Offset: 0x1DCC384
+    // Offset: 0x1DEB8D4
     void Reset();
   }; // System.Threading.SpinWait
   #pragma pack(pop)

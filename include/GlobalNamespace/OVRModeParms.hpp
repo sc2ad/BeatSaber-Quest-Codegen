@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawButton resetButton
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawButton& dyn_resetButton();
     // public System.Void .ctor()
-    // Offset: 0x1760358
+    // Offset: 0x1778F10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRModeParms* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRModeParms::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRModeParms*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x175FFFC
+    // Offset: 0x1778BB4
     void Start();
     // private System.Void Update()
-    // Offset: 0x176009C
+    // Offset: 0x1778C54
     void Update();
     // private System.Void TestPowerStateMode()
-    // Offset: 0x176021C
+    // Offset: 0x1778DD4
     void TestPowerStateMode();
   }; // OVRModeParms
   #pragma pack(pop)

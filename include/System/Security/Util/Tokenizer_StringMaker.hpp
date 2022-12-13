@@ -83,19 +83,19 @@ namespace System::Security::Util {
     // Get instance field reference: public System.Int32 _outIndex
     [[deprecated("Use field access instead!")]] int& dyn__outIndex();
     // static private System.UInt32 HashString(System.String str)
-    // Offset: 0x1C066A4
+    // Offset: 0x1C31E70
     static uint HashString(::StringW str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
-    // Offset: 0x1C06710
+    // Offset: 0x1C31EDC
     static uint HashCharArray(::ArrayW<::Il2CppChar> a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
-    // Offset: 0x1C06800
+    // Offset: 0x1C31FCC
     bool CompareStringAndChars(::StringW str, ::ArrayW<::Il2CppChar> a, int l);
     // public System.String MakeString()
-    // Offset: 0x1C01978
+    // Offset: 0x1C2D144
     ::StringW MakeString();
     // public System.Void .ctor()
-    // Offset: 0x1C06778
+    // Offset: 0x1C31F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

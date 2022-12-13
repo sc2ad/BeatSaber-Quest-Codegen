@@ -71,13 +71,13 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public readonly ByteArrayNetSerializable cookie
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_cookie();
     // static public PacketPool`1<BGNet.Core.Messages.HelloVerifyRequest> get_pool()
-    // Offset: 0x15C2D20
+    // Offset: 0x15E7FC8
     static ::GlobalNamespace::PacketPool_1<::BGNet::Core::Messages::HelloVerifyRequest*>* get_pool();
     // public BGNet.Core.Messages.HelloVerifyRequest Init(System.Byte[] cookie)
-    // Offset: 0x15C8014
+    // Offset: 0x15ED2BC
     ::BGNet::Core::Messages::HelloVerifyRequest* Init(::ArrayW<uint8_t> cookie);
     // public System.Void .ctor()
-    // Offset: 0x15CB4E0
+    // Offset: 0x15F0788
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,17 +86,17 @@ namespace BGNet::Core::Messages {
       return THROW_UNLESS((::il2cpp_utils::New<HelloVerifyRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15CB410
+    // Offset: 0x15F06B8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15CB444
+    // Offset: 0x15F06EC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x15CB478
+    // Offset: 0x15F0720
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

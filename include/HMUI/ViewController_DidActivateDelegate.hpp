@@ -35,20 +35,20 @@ namespace HMUI {
   class ViewController::DidActivateDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2AC8EB0
+    // Offset: 0x2AE5700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController::DidActivateDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewController::DidActivateDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController::DidActivateDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2AC7CAC
+    // Offset: 0x2AE44FC
     void Invoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.IAsyncResult BeginInvoke(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2AC8EC0
+    // Offset: 0x2AE5710
     ::System::IAsyncResult* BeginInvoke(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2AC8F88
+    // Offset: 0x2AE57D8
     void EndInvoke(::System::IAsyncResult* result);
   }; // HMUI.ViewController/HMUI.DidActivateDelegate
   #pragma pack(pop)

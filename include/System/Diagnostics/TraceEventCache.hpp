@@ -71,38 +71,38 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String stackTrace
     [[deprecated("Use field access instead!")]] ::StringW& dyn_stackTrace();
     // public System.String get_Callstack()
-    // Offset: 0x1D81DA8
+    // Offset: 0x1DA12F8
     ::StringW get_Callstack();
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1D81DD4
+    // Offset: 0x1DA1324
     ::System::Collections::Stack* get_LogicalOperationStack();
     // public System.DateTime get_DateTime()
-    // Offset: 0x1D81DF0
+    // Offset: 0x1DA1340
     ::System::DateTime get_DateTime();
     // public System.Int32 get_ProcessId()
-    // Offset: 0x1D81EA4
+    // Offset: 0x1DA13F4
     int get_ProcessId();
     // public System.String get_ThreadId()
-    // Offset: 0x1D81F04
+    // Offset: 0x1DA1454
     ::StringW get_ThreadId();
     // public System.Int64 get_Timestamp()
-    // Offset: 0x1D81FA8
+    // Offset: 0x1DA14F8
     int64_t get_Timestamp();
     // public System.Void .ctor()
-    // Offset: 0x1D82124
+    // Offset: 0x1DA1674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceEventCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::TraceEventCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceEventCache*, creationType>()));
     }
     // static private System.Void InitProcessInfo()
-    // Offset: 0x1D8201C
+    // Offset: 0x1DA156C
     static void InitProcessInfo();
     // static System.Int32 GetProcessId()
-    // Offset: 0x1D81EA8
+    // Offset: 0x1DA13F8
     static int GetProcessId();
     // static System.Int32 GetThreadId()
-    // Offset: 0x1D81F84
+    // Offset: 0x1DA14D4
     static int GetThreadId();
   }; // System.Diagnostics.TraceEventCache
   #pragma pack(pop)

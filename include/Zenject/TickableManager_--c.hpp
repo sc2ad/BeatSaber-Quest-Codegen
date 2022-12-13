@@ -75,38 +75,38 @@ namespace Zenject {
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
     static void _set_$$9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1DC0EAC
+    // Offset: 0x1DE03FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1DC0F10
+    // Offset: 0x1DE0460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TickableManager::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c*, creationType>()));
     }
     // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F18
+    // Offset: 0x1DE0468
     ::System::Type* $InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F30
+    // Offset: 0x1DE0480
     int $InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F48
+    // Offset: 0x1DE0498
     ::System::Type* $InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F60
+    // Offset: 0x1DE04B0
     int $InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F78
+    // Offset: 0x1DE04C8
     ::System::Type* $InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1DC0F90
+    // Offset: 0x1DE04E0
     int $InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DC0FA8
+    // Offset: 0x1DE04F8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DC1004
+    // Offset: 0x1DE0554
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TickableManager/Zenject.<>c
   #pragma pack(pop)

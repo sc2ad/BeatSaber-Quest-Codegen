@@ -98,20 +98,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::Mesh*& dyn__mesh();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x1470E6C
+    // Offset: 0x147D578
     ::UnityEngine::Mesh* get_mesh();
     // protected System.Void .ctor()
-    // Offset: 0x14710B4
+    // Offset: 0x147D7C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderMeshConstructor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderMeshConstructor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderMeshConstructor*, creationType>()));
     }
     // public System.Void CreateMeshIfNonExisting()
-    // Offset: 0x1470E74
+    // Offset: 0x147D580
     void CreateMeshIfNonExisting();
     // public System.Void CreateSliderMesh(VertexPath path)
-    // Offset: 0x1470F2C
+    // Offset: 0x147D638
     void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
     // protected System.Void CreateSliderMeshInternal(VertexPath path)
     // Offset: 0xFFFFFFFFFFFFFFFF

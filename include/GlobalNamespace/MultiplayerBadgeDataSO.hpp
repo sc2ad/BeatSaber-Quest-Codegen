@@ -54,14 +54,14 @@ namespace GlobalNamespace {
   class MultiplayerBadgeDataSO : public ::UnityEngine::ScriptableObject {
     public:
     public:
-    // [LocalizationKeyAttribute] Offset: 0x11193C8
+    // [LocalizationKeyAttribute] Offset: 0x1122520
     // private System.String _titleLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW titleLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x1119400
+    // [LocalizationKeyAttribute] Offset: 0x1122558
     // private System.String _subtitleLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -84,16 +84,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     [[deprecated("Use field access instead!")]] ::UnityEngine::Sprite*& dyn__icon();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x1496564
+    // Offset: 0x14A2DD0
     ::UnityEngine::Sprite* get_icon();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x149656C
+    // Offset: 0x14A2DD8
     ::StringW get_titleLocalizationKey();
     // public System.String get_subtitleLocalizationKey()
-    // Offset: 0x1496574
+    // Offset: 0x14A2DE0
     ::StringW get_subtitleLocalizationKey();
     // protected System.Void .ctor()
-    // Offset: 0x1494D44
+    // Offset: 0x14A15B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgeDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgeDataSO::.ctor");

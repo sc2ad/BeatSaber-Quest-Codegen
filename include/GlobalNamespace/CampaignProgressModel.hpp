@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class CampaignProgressModel : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x11124DC
+    // [InjectAttribute] Offset: 0x111B4F8
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x18
@@ -90,44 +90,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _numberOfClearedMissions
     [[deprecated("Use field access instead!")]] int& dyn__numberOfClearedMissions();
     // public System.Int32 get_numberOfClearedMissions()
-    // Offset: 0x13E84AC
+    // Offset: 0x140732C
     int get_numberOfClearedMissions();
     // public System.Void .ctor()
-    // Offset: 0x13E87F0
+    // Offset: 0x1407670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CampaignProgressModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CampaignProgressModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CampaignProgressModel*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13E8614
+    // Offset: 0x1407494
     void Awake();
     // public System.Boolean IsMissionRegistered(System.String missionId)
-    // Offset: 0x13E867C
+    // Offset: 0x14074FC
     bool IsMissionRegistered(::StringW missionId);
     // public System.Void RegisterMissionId(System.String missionId)
-    // Offset: 0x13E86E4
+    // Offset: 0x1407564
     void RegisterMissionId(::StringW missionId);
     // public System.Boolean IsMissionCleared(System.String missionId)
-    // Offset: 0x13E8758
+    // Offset: 0x14075D8
     bool IsMissionCleared(::StringW missionId);
     // public System.Boolean IsMissionFinal(System.String missionId)
-    // Offset: 0x13E878C
+    // Offset: 0x140760C
     bool IsMissionFinal(::StringW missionId);
     // public System.Void SetFinalMissionId(System.String missionId)
-    // Offset: 0x13E8798
+    // Offset: 0x1407618
     void SetFinalMissionId(::StringW missionId);
     // public System.Boolean WillFinishGameAfterThisMission(System.String missionId)
-    // Offset: 0x13E8224
+    // Offset: 0x14070A4
     bool WillFinishGameAfterThisMission(::StringW missionId);
     // public System.Void SetMissionCleared(System.String missionId)
-    // Offset: 0x13E8270
+    // Offset: 0x14070F0
     void SetMissionCleared(::StringW missionId);
     // public System.Void __SetMissionCleared(System.String missionId, System.Boolean cleared)
-    // Offset: 0x13E87A0
+    // Offset: 0x1407620
     void __SetMissionCleared(::StringW missionId, bool cleared);
     // private System.Int32 UpdateNumberOfClearedMissions()
-    // Offset: 0x13E84E0
+    // Offset: 0x1407360
     int UpdateNumberOfClearedMissions();
   }; // CampaignProgressModel
   #pragma pack(pop)

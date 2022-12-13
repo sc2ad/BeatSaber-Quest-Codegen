@@ -60,19 +60,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _icon
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__icon();
     // public UnityEngine.UI.Image get_icon()
-    // Offset: 0x2AC9F9C
+    // Offset: 0x2AE67EC
     ::UnityEngine::UI::Image* get_icon();
     // public System.Void set_icon(UnityEngine.UI.Image value)
-    // Offset: 0x2AC9F94
+    // Offset: 0x2AE67E4
     void set_icon(::UnityEngine::UI::Image* value);
     // public System.String get_text()
-    // Offset: 0x2AC9FC0
+    // Offset: 0x2AE6810
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x2AC9FA4
+    // Offset: 0x2AE67F4
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x2AC9FDC
+    // Offset: 0x2AE682C
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -61,23 +61,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger publicExponent
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Math::BigInteger*& dyn_publicExponent();
     // public Org.BouncyCastle.Math.BigInteger get_Modulus()
-    // Offset: 0x1F96FB4
+    // Offset: 0x1FA09D4
     ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
     // public Org.BouncyCastle.Math.BigInteger get_PublicExponent()
-    // Offset: 0x1F96FBC
+    // Offset: 0x1FA09DC
     ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1F96E64
+    // Offset: 0x1FA0884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsaPublicKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsaPublicKeyStructure*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.RsaPublicKeyStructure GetInstance(System.Object obj)
-    // Offset: 0x1F96CF0
+    // Offset: 0x1FA0710
     static ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F96FC4
+    // Offset: 0x1FA09E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

@@ -119,20 +119,20 @@ namespace System::IO {
     // Get instance field reference: private System.Threading.ExecutionContext _context
     [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext*& dyn__context();
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
-    // Offset: 0x1C10300
+    // Offset: 0x1C3CACC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::ReadWriteTask* New_ctor(bool isRead, ::System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, ::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int offset, int count, ::System::AsyncCallback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Stream::ReadWriteTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::ReadWriteTask*, creationType>(isRead, function, state, stream, buffer, offset, count, callback)));
     }
     // System.Void ClearBeginState()
-    // Offset: 0x1C119EC
+    // Offset: 0x1C3E1B8
     void ClearBeginState();
     // static private System.Void InvokeAsyncCallback(System.Object completedTask)
-    // Offset: 0x1C12318
+    // Offset: 0x1C3EAE4
     static void InvokeAsyncCallback(::Il2CppObject* completedTask);
     // private System.Void System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1C12394
+    // Offset: 0x1C3EB60
     void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* completingTask);
   }; // System.IO.Stream/System.IO.ReadWriteTask
   // WARNING Not writing size check since size may be invalid!

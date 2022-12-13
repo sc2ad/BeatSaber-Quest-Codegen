@@ -59,29 +59,29 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Int32 index
     [[deprecated("Use field access instead!")]] int& dyn_index();
     // public System.Object get_Current()
-    // Offset: 0x1E24188
+    // Offset: 0x1E58CC0
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1E241F4
+    // Offset: 0x1E58D2C
     ::System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1E24268
+    // Offset: 0x1E58DA0
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1E242A8
+    // Offset: 0x1E58DE0
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.ComponentModel.PropertyDescriptorCollection owner)
-    // Offset: 0x1E23598
+    // Offset: 0x1E580D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyDescriptorCollection::PropertyDescriptorEnumerator* New_ctor(::System::ComponentModel::PropertyDescriptorCollection* owner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::PropertyDescriptorCollection::PropertyDescriptorEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PropertyDescriptorCollection::PropertyDescriptorEnumerator*, creationType>(owner)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1E242E8
+    // Offset: 0x1E58E20
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1E24328
+    // Offset: 0x1E58E60
     void Reset();
   }; // System.ComponentModel.PropertyDescriptorCollection/System.ComponentModel.PropertyDescriptorEnumerator
   #pragma pack(pop)

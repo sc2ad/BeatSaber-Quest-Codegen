@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x11106D0
+    // [InjectAttribute] Offset: 0x11196DC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()
-    // Offset: 0x1431F60
+    // Offset: 0x143D66C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerName* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerName*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1431E94
+    // Offset: 0x143D5A0
     void Start();
   }; // ConnectedPlayerName
   #pragma pack(pop)

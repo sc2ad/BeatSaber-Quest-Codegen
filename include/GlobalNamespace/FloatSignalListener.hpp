@@ -58,20 +58,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private FloatUnityEvent _unityEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FloatUnityEvent*& dyn__unityEvent();
     // public System.Void .ctor()
-    // Offset: 0x15FA5C8
+    // Offset: 0x16224AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatSignalListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloatSignalListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloatSignalListener*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x15FA428
+    // Offset: 0x162230C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x15FA4C4
+    // Offset: 0x16223A8
     void OnDisable();
     // private System.Void HandleEvent(System.Single f)
-    // Offset: 0x15FA560
+    // Offset: 0x1622444
     void HandleEvent(float f);
   }; // FloatSignalListener
   #pragma pack(pop)

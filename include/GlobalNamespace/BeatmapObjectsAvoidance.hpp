@@ -59,7 +59,7 @@ namespace GlobalNamespace {
   class BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x110DECC
+    // [HeaderAttribute] Offset: 0x1116EA8
     // private System.Single _zOffset
     // Size: 0x4
     // Offset: 0x18
@@ -72,42 +72,42 @@ namespace GlobalNamespace {
     float yOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x110DF28
+    // [HeaderAttribute] Offset: 0x1116F04
     // private UnityEngine.Vector2 _gravity
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Vector2 gravity;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
-    // [HeaderAttribute] Offset: 0x110DF74
+    // [HeaderAttribute] Offset: 0x1116F50
     // private UnityEngine.Transform _towardsPlayerWrapperTransform
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* towardsPlayerWrapperTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DFC0
+    // [InjectAttribute] Offset: 0x1116F9C
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DFD0
+    // [InjectAttribute] Offset: 0x1116FAC
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DFE0
+    // [InjectAttribute] Offset: 0x1116FBC
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x110DFF0
+    // [InjectAttribute] Offset: 0x1116FCC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x48
@@ -182,35 +182,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x13DC730
+    // Offset: 0x13FB5B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsAvoidance* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsAvoidance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsAvoidance*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13DAE90
+    // Offset: 0x13F9D10
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13DAEB8
+    // Offset: 0x13F9D38
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13DB3D0
+    // Offset: 0x13FA250
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x13DB4C8
+    // Offset: 0x13FA348
     void Update();
     // private System.Void SetupAndRun()
-    // Offset: 0x13DB038
+    // Offset: 0x13F9EB8
     void SetupAndRun();
     // private System.Boolean BuildAnimationCurvePath()
-    // Offset: 0x13DB6AC
+    // Offset: 0x13FA52C
     bool BuildAnimationCurvePath();
     // private System.Void AdjustPositionWithOffsetDirection(ref UnityEngine.Vector2 position, System.Int32 lineIndex, OffsetDirection offsetDirection)
-    // Offset: 0x13DBC30
+    // Offset: 0x13FAAB0
     void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
     // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x13DC72C
+    // Offset: 0x13FB5AC
     void HandleBeatmapObjectSpawnControllerDidInit();
   }; // BeatmapObjectsAvoidance
   #pragma pack(pop)

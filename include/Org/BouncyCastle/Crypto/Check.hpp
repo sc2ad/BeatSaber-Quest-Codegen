@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto {
   class Check : public ::Il2CppObject {
     public:
     // static System.Void DataLength(System.Boolean condition, System.String msg)
-    // Offset: 0x2351AC4
+    // Offset: 0x234B480
     static void DataLength(bool condition, ::StringW msg);
     // static System.Void DataLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x2351B44
+    // Offset: 0x234B500
     static void DataLength(::ArrayW<uint8_t> buf, int off, int len, ::StringW msg);
     // static System.Void OutputLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
-    // Offset: 0x2351BE8
+    // Offset: 0x234B5A4
     static void OutputLength(::ArrayW<uint8_t> buf, int off, int len, ::StringW msg);
   }; // Org.BouncyCastle.Crypto.Check
   #pragma pack(pop)

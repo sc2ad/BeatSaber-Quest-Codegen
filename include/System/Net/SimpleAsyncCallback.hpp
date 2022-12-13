@@ -43,20 +43,20 @@ namespace System::Net {
   class SimpleAsyncCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BB9F20
+    // Offset: 0x1BF3690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SimpleAsyncCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.SimpleAsyncResult result)
-    // Offset: 0x1BB9F30
+    // Offset: 0x1BF36A0
     void Invoke(::System::Net::SimpleAsyncResult* result);
     // public System.IAsyncResult BeginInvoke(System.Net.SimpleAsyncResult result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BBA2C4
+    // Offset: 0x1BF3A34
     ::System::IAsyncResult* BeginInvoke(::System::Net::SimpleAsyncResult* result, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BBA2E8
+    // Offset: 0x1BF3A58
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Net.SimpleAsyncCallback
   #pragma pack(pop)

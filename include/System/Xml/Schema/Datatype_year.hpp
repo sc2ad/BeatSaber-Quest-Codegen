@@ -36,12 +36,12 @@ namespace System::Xml::Schema {
   class Datatype_year : public ::System::Xml::Schema::Datatype_dateTimeBase {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D0FF70
+    // Offset: 0x1D19B14
     // Implemented from: System.Xml.Schema.Datatype_dateTimeBase
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_dateTimeBase::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // System.Void .ctor()
-    // Offset: 0x1D0FF78
+    // Offset: 0x1D19B1C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()

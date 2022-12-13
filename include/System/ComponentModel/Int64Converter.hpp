@@ -42,12 +42,12 @@ namespace System::ComponentModel {
   class Int64Converter : public ::System::ComponentModel::BaseNumberConverter {
     public:
     // override System.Type get_TargetType()
-    // Offset: 0x1E20384
+    // Offset: 0x1E54EBC
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Type BaseNumberConverter::get_TargetType()
     ::System::Type* get_TargetType();
     // public System.Void .ctor()
-    // Offset: 0x1E205B0
+    // Offset: 0x1E550E8
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -57,17 +57,17 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<Int64Converter*, creationType>()));
     }
     // override System.Object FromString(System.String value, System.Int32 radix)
-    // Offset: 0x1E203F4
+    // Offset: 0x1E54F2C
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Int32 radix)
     ::Il2CppObject* FromString(::StringW value, int radix);
     // override System.Object FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E2048C
+    // Offset: 0x1E54FC4
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // override System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E20508
+    // Offset: 0x1E55040
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.String BaseNumberConverter::ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);

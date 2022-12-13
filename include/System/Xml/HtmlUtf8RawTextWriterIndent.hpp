@@ -80,10 +80,10 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean newLineOnAttributes
     [[deprecated("Use field access instead!")]] bool& dyn_newLineOnAttributes();
     // private System.Void WriteIndent()
-    // Offset: 0x1AEB548
+    // Offset: 0x1B09FE0
     void WriteIndent();
     // public System.Void .ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1AEB2E8
+    // Offset: 0x1B09D80
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::.ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
     // Base method: System.Void XmlUtf8RawTextWriter::.ctor(System.IO.Stream stream, System.Xml.XmlWriterSettings settings)
@@ -93,37 +93,37 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<HtmlUtf8RawTextWriterIndent*, creationType>(stream, settings)));
     }
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1AEB360
+    // Offset: 0x1B09DF8
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1AEB388
+    // Offset: 0x1B09E20
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
     void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // override System.Void StartElementContent()
-    // Offset: 0x1AEB59C
+    // Offset: 0x1B0A034
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::StartElementContent()
     void StartElementContent();
     // override System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1AEB624
+    // Offset: 0x1B0A0BC
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::WriteEndElement(System.String prefix, System.String localName, System.String ns)
     void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // public override System.Void WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1AEB6C4
+    // Offset: 0x1B0A15C
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String ns)
     void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
     // protected override System.Void FlushBuffer()
-    // Offset: 0x1AEB73C
+    // Offset: 0x1B0A1D4
     // Implemented from: System.Xml.XmlUtf8RawTextWriter
     // Base method: System.Void XmlUtf8RawTextWriter::FlushBuffer()
     void FlushBuffer();
     // private System.Void Init(System.Xml.XmlWriterSettings settings)
-    // Offset: 0x1AEB338
+    // Offset: 0x1B09DD0
     // Implemented from: System.Xml.HtmlUtf8RawTextWriter
     // Base method: System.Void HtmlUtf8RawTextWriter::Init(System.Xml.XmlWriterSettings settings)
     void Init(::System::Xml::XmlWriterSettings* settings);

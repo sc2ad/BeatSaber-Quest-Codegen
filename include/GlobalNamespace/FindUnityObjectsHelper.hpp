@@ -5,6 +5,8 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+// Including type: UnityEngine.SceneManagement.Scene
+#include "UnityEngine/SceneManagement/Scene.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -48,16 +50,16 @@ namespace GlobalNamespace {
   class FindUnityObjectsHelper : public ::Il2CppObject {
     public:
     // static public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetMonoBehavioursInLoadedScenes()
-    // Offset: 0x15F9910
+    // Offset: 0x16217F4
     static ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GetMonoBehavioursInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjectsInLoadedScenes()
-    // Offset: 0x15F9B34
+    // Offset: 0x1621A18
     static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllRootGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInGameObject(UnityEngine.GameObject go)
-    // Offset: 0x15F9C3C
+    // Offset: 0x1621B20
     static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllGameObjectsInGameObject(::UnityEngine::GameObject* go);
     // static public UnityEngine.GameObject[] GetAllGameObjectsInLoadedScenes()
-    // Offset: 0x15F996C
+    // Offset: 0x1621850
     static ::ArrayW<::UnityEngine::GameObject*> GetAllGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<T> GetComponentsInGameObjects(System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -68,6 +70,24 @@ namespace GlobalNamespace {
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FindUnityObjectsHelper", "GetComponentsInGameObjects", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObjects)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObjects);
+    }
+    // static public System.Collections.Generic.List`1<T> GetComponentsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean includeInactive)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<class T>
+    static ::System::Collections::Generic::List_1<T>* GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, bool includeInactive) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FindUnityObjectsHelper::GetComponentsInScene");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FindUnityObjectsHelper", "GetComponentsInScene", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene), ::il2cpp_utils::ExtractType(includeInactive)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, scene, includeInactive);
+    }
+    // static public T GetComponentInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean includeInactive)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    template<class T>
+    static T GetComponentInScene(::UnityEngine::SceneManagement::Scene scene, bool includeInactive) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FindUnityObjectsHelper::GetComponentInScene");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FindUnityObjectsHelper", "GetComponentInScene", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene), ::il2cpp_utils::ExtractType(includeInactive)})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, scene, includeInactive);
     }
   }; // FindUnityObjectsHelper
   #pragma pack(pop)
@@ -108,4 +128,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 };
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetComponentsInGameObjects
 // Il2CppName: GetComponentsInGameObjects
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetComponentsInScene
+// Il2CppName: GetComponentsInScene
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetComponentInScene
+// Il2CppName: GetComponentInScene
 // Cannot write MetadataGetter for generic methods!

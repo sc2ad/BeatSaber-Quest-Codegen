@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class FadeOutInstantly : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1107194
+    // [InjectAttribute] Offset: 0x11100FC
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private FadeInOutController _fadeInOut
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FadeInOutController*& dyn__fadeInOut();
     // public System.Void .ctor()
-    // Offset: 0x2ACC380
+    // Offset: 0x2AE8BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeOutInstantly* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeOutInstantly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutInstantly*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2ACC364
+    // Offset: 0x2AE8BB4
     void Start();
   }; // FadeOutInstantly
   #pragma pack(pop)

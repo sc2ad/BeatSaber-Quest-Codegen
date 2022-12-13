@@ -63,26 +63,26 @@ namespace Zenject {
     // Get instance field reference: private Zenject.GameObjectCreationParameters <GameObjectInfo>k__BackingField
     [[deprecated("Use field access instead!")]] ::Zenject::GameObjectCreationParameters*& dyn_$GameObjectInfo$k__BackingField();
     // protected Zenject.GameObjectCreationParameters get_GameObjectInfo()
-    // Offset: 0x1DC1AF0
+    // Offset: 0x1DE1040
     ::Zenject::GameObjectCreationParameters* get_GameObjectInfo();
     // private System.Void set_GameObjectInfo(Zenject.GameObjectCreationParameters value)
-    // Offset: 0x1DC1AF8
+    // Offset: 0x1DE1048
     void set_GameObjectInfo(::Zenject::GameObjectCreationParameters* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectInfo)
-    // Offset: 0x1DC1AC4
+    // Offset: 0x1DE1014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, creationType>(bindInfo, gameObjectInfo)));
     }
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransform(UnityEngine.Transform parent)
-    // Offset: 0x1DC1B00
+    // Offset: 0x1DE1050
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::UnityEngine::Transform* parent);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransform(System.Func`2<Zenject.InjectContext,UnityEngine.Transform> parentGetter)
-    // Offset: 0x1DC1B1C
+    // Offset: 0x1DE106C
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* parentGetter);
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder UnderTransformGroup(System.String transformGroupname)
-    // Offset: 0x1DC1B38
+    // Offset: 0x1DE1088
     ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::StringW transformGroupname);
   }; // Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder
   #pragma pack(pop)

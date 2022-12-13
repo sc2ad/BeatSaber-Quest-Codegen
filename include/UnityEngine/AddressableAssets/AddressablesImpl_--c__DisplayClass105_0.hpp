@@ -68,14 +68,14 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& dyn_instantiateParameters();
     // public System.Void .ctor()
-    // Offset: 0x18D6E68
+    // Offset: 0x18F9894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass105_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass105_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass105_0*, creationType>()));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x18D8C88
+    // Offset: 0x18FB6B4
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> $InstantiateWithChain$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass105_0
   #pragma pack(pop)

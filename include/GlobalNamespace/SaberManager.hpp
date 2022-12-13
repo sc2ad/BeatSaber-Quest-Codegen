@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Saber* rightSaber;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Saber*) == 0x8);
-    // [InjectAttribute] Offset: 0x111BBDC
+    // [InjectAttribute] Offset: 0x1124D34
     // private readonly SaberManager/InitData _initData
     // Size: 0x8
     // Offset: 0x28
@@ -93,44 +93,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<Saber,Saber> didUpdateSaberPositionsEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*& dyn_didUpdateSaberPositionsEvent();
     // public Saber get_leftSaber()
-    // Offset: 0x140252C
+    // Offset: 0x140DC24
     ::GlobalNamespace::Saber* get_leftSaber();
     // public Saber get_rightSaber()
-    // Offset: 0x1402534
+    // Offset: 0x140DC2C
     ::GlobalNamespace::Saber* get_rightSaber();
     // public System.Void set_disableSabers(System.Boolean value)
-    // Offset: 0x1402684
+    // Offset: 0x140DD7C
     void set_disableSabers(bool value);
     // public System.Void add_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x140253C
+    // Offset: 0x140DC34
     void add_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
     // public System.Void remove_didUpdateSaberPositionsEvent(System.Action`2<Saber,Saber> value)
-    // Offset: 0x14025E0
+    // Offset: 0x140DCD8
     void remove_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1402964
+    // Offset: 0x140E05C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1402694
+    // Offset: 0x140DD8C
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x14027F8
+    // Offset: 0x140DEF0
     void OnDisable();
     // protected System.Void OnEnable()
-    // Offset: 0x14027FC
+    // Offset: 0x140DEF4
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x140280C
+    // Offset: 0x140DF04
     void Update();
     // public Saber SaberForType(SaberType saberType)
-    // Offset: 0x14028F4
+    // Offset: 0x140DFEC
     ::GlobalNamespace::Saber* SaberForType(::GlobalNamespace::SaberType saberType);
     // private System.Void RefreshSabers()
-    // Offset: 0x14026BC
+    // Offset: 0x140DDB4
     void RefreshSabers();
   }; // SaberManager
   #pragma pack(pop)

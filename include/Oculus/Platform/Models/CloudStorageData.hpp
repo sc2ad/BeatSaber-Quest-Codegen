@@ -67,7 +67,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Key
     [[deprecated("Use field access instead!")]] ::StringW& dyn_Key();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A0D150
+    // Offset: 0x1A30EE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageData* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageData::.ctor");

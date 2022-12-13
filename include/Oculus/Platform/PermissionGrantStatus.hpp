@@ -45,28 +45,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x11054E4
+    // [DescriptionAttribute] Offset: 0x110E44C
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static ::Oculus::Platform::PermissionGrantStatus _get_Unknown();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Unknown
     static void _set_Unknown(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x110551C
+    // [DescriptionAttribute] Offset: 0x110E484
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Granted
     static constexpr const int Granted = 1;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static ::Oculus::Platform::PermissionGrantStatus _get_Granted();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Granted
     static void _set_Granted(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x1105554
+    // [DescriptionAttribute] Offset: 0x110E4BC
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Denied
     static constexpr const int Denied = 2;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static ::Oculus::Platform::PermissionGrantStatus _get_Denied();
     // Set static field: static public Oculus.Platform.PermissionGrantStatus Denied
     static void _set_Denied(::Oculus::Platform::PermissionGrantStatus value);
-    // [DescriptionAttribute] Offset: 0x110558C
+    // [DescriptionAttribute] Offset: 0x110E4F4
     // static field const value: static public Oculus.Platform.PermissionGrantStatus Blocked
     static constexpr const int Blocked = 3;
     // Get static field: static public Oculus.Platform.PermissionGrantStatus Blocked

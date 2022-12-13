@@ -40,14 +40,14 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.String valid
     [[deprecated("Use field access instead!")]] ::StringW& dyn_valid();
     // public System.Void .ctor()
-    // Offset: 0x208F0B8
+    // Offset: 0x2094820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalUtility::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalUtility::$$c__DisplayClass6_0*, creationType>()));
     }
     // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0x208F3A0
+    // Offset: 0x2094B08
     bool $TryParseColor$b__0(::Il2CppChar c);
   }; // UnityEngine.ProBuilder.InternalUtility/UnityEngine.ProBuilder.<>c__DisplayClass6_0
   #pragma pack(pop)

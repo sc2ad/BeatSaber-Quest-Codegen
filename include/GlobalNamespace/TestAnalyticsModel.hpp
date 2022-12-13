@@ -51,32 +51,32 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IAnalyticsModel*>(this);
     }
     // public System.Boolean get_supportsOpenDataPrivacyPage()
-    // Offset: 0x13B3F58
+    // Offset: 0x13BF414
     bool get_supportsOpenDataPrivacyPage();
     // public System.Void .ctor()
-    // Offset: 0x13B4388
+    // Offset: 0x13BF844
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAnalyticsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestAnalyticsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAnalyticsModel*, creationType>()));
     }
     // public System.Void OpenDataPrivacyPage()
-    // Offset: 0x13B3F60
+    // Offset: 0x13BF41C
     void OpenDataPrivacyPage();
     // public System.Void LogEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x13B3F64
+    // Offset: 0x13BF420
     void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
     // public System.Void LogEditAvatarEvent(System.String eventType, System.Collections.Generic.Dictionary`2<System.String,System.String> avatarEventData)
-    // Offset: 0x13B40C8
+    // Offset: 0x13BF584
     void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* avatarEventData);
     // public System.Void LogClick(System.String clickType, System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x13B4178
+    // Offset: 0x13BF634
     void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
     // public System.Void LogImpression(System.String impressionType, System.Collections.Generic.Dictionary`2<System.String,System.String> impressionData)
-    // Offset: 0x13B4228
+    // Offset: 0x13BF6E4
     void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
     // public System.Void LogExposure(System.String exposureType, System.Collections.Generic.Dictionary`2<System.String,System.String> exposureData)
-    // Offset: 0x13B42D8
+    // Offset: 0x13BF794
     void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
   }; // TestAnalyticsModel
   #pragma pack(pop)

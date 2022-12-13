@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IgnoreForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F517C
+    // Offset: 0x13D4634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IgnoreForReflectionProbeBaking* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IgnoreForReflectionProbeBaking::.ctor");

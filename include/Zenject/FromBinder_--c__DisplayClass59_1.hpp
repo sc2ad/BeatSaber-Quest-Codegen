@@ -64,20 +64,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass59_0 CS$<>8__locals1
     [[deprecated("Use field access instead!")]] ::Zenject::FromBinder::$$c__DisplayClass59_0*& dyn_CS$$$8__locals1();
     // public System.Void .ctor()
-    // Offset: 0x1E86FE0
+    // Offset: 0x1EA5600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass59_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass59_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass59_1*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentInChildren>b__1(Zenject.InjectContext ctx)
-    // Offset: 0x1E871A4
+    // Offset: 0x1EA57C4
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentInChildren$b__1(::Zenject::InjectContext* ctx);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E873F8
+    // Offset: 0x1EA5A18
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E87454
+    // Offset: 0x1EA5A74
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass59_1
   #pragma pack(pop)

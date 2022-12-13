@@ -97,22 +97,22 @@ namespace GlobalNamespace {
     static ::StringW _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
     static void _set_kBloomFogEnabledKeyword(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FC2D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105160
     // Get static field: static private readonly System.Int32 _customFogAttenuationID
     static int _get__customFogAttenuationID();
     // Set static field: static private readonly System.Int32 _customFogAttenuationID
     static void _set__customFogAttenuationID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FC2E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105170
     // Get static field: static private readonly System.Int32 _customFogOffsetID
     static int _get__customFogOffsetID();
     // Set static field: static private readonly System.Int32 _customFogOffsetID
     static void _set__customFogOffsetID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FC2F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105180
     // Get static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static int _get__customFogHeightFogStartYID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogStartYID
     static void _set__customFogHeightFogStartYID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FC300
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1105190
     // Get static field: static private readonly System.Int32 _customFogHeightFogHeightID
     static int _get__customFogHeightFogHeightID();
     // Set static field: static private readonly System.Int32 _customFogHeightFogHeightID
@@ -132,59 +132,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomFogEnvironmentParams _transitionFogParams
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogEnvironmentParams*& dyn__transitionFogParams();
     // public System.Single get_transition()
-    // Offset: 0x1CC3C88
+    // Offset: 0x1CCE804
     float get_transition();
     // public System.Void set_transition(System.Single value)
-    // Offset: 0x1CC3420
+    // Offset: 0x1CCDF9C
     void set_transition(float value);
     // public BloomFogEnvironmentParams get_defaultForParams()
-    // Offset: 0x1CC3C90
+    // Offset: 0x1CCE80C
     ::GlobalNamespace::BloomFogEnvironmentParams* get_defaultForParams();
     // public System.Void set_defaultForParams(BloomFogEnvironmentParams value)
-    // Offset: 0x1CC3A7C
+    // Offset: 0x1CCE5F8
     void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
     // public BloomFogEnvironmentParams get_transitionFogParams()
-    // Offset: 0x1CC3C98
+    // Offset: 0x1CCE814
     ::GlobalNamespace::BloomFogEnvironmentParams* get_transitionFogParams();
     // public System.Void set_transitionFogParams(BloomFogEnvironmentParams value)
-    // Offset: 0x1CC389C
+    // Offset: 0x1CCE418
     void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
     // public System.Boolean get_bloomFogEnabled()
-    // Offset: 0x1CC3CA0
+    // Offset: 0x1CCE81C
     bool get_bloomFogEnabled();
     // public System.Void set_bloomFogEnabled(System.Boolean value)
-    // Offset: 0x1CC34A0
+    // Offset: 0x1CCE01C
     void set_bloomFogEnabled(bool value);
     // public System.Single get_brightness()
-    // Offset: 0x1CC3CA8
+    // Offset: 0x1CCE824
     float get_brightness();
     // public System.Single get_autoExposureIntensity()
-    // Offset: 0x1CC3CB0
+    // Offset: 0x1CCE82C
     float get_autoExposureIntensity();
     // public System.Single get_noteSpawnIntensity()
-    // Offset: 0x1CC3CB8
+    // Offset: 0x1CCE834
     float get_noteSpawnIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1CC3DEC
+    // Offset: 0x1CCE968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CC3DFC
+    // Offset: 0x1CCE978
     static void _cctor();
     // public System.Void Setup(BloomFogEnvironmentParams defaultFogParams)
-    // Offset: 0x1CC3438
+    // Offset: 0x1CCDFB4
     void Setup(::GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
     // public System.Void UpdateShaderParams()
-    // Offset: 0x1CC3528
+    // Offset: 0x1CCE0A4
     void UpdateShaderParams();
     // private System.Void SetParams(System.Single attenuation, System.Single offset, System.Single heightFogStartY, System.Single heightFogHeight, System.Single brightness, System.Single autoExposureIntensity, System.Single noteSpawnIntensity)
-    // Offset: 0x1CC3CE8
+    // Offset: 0x1CCE864
     void SetParams(float attenuation, float offset, float heightFogStartY, float heightFogHeight, float brightness, float autoExposureIntensity, float noteSpawnIntensity);
     // protected override System.Void OnEnable()
-    // Offset: 0x1CC3CC0
+    // Offset: 0x1CCE83C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

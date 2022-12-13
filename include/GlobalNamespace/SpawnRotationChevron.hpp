@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lightAmount
     [[deprecated("Use field access instead!")]] float& dyn__lightAmount();
     // public System.Void .ctor()
-    // Offset: 0x147AE3C
+    // Offset: 0x1487550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevron* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevron::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevron*, creationType>()));
     }
     // public System.Void SetLightAmount(System.Single amount)
-    // Offset: 0x147AE34
+    // Offset: 0x1487548
     void SetLightAmount(float amount);
     // private System.Void UpdateLights()
-    // Offset: 0x147ADB0
+    // Offset: 0x14874C4
     void UpdateLights();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x147ADA4
+    // Offset: 0x14874B8
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(::UnityEngine::Color color);

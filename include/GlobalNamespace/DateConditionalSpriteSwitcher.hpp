@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     int month;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0x111CCD4
+    // [SpaceAttribute] Offset: 0x1125E2C
     // private UnityEngine.Sprite _falseSprite
     // Size: 0x8
     // Offset: 0x20
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* trueSprite;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111CD1C
+    // [SpaceAttribute] Offset: 0x1125E74
     // private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     // Size: 0x8
     // Offset: 0x30
@@ -87,14 +87,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ConditionalSpriteSwitcher*& dyn__conditionalSpriteSwitcher();
     // public System.Void .ctor()
-    // Offset: 0x143A774
+    // Offset: 0x1445E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateConditionalSpriteSwitcher* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DateConditionalSpriteSwitcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateConditionalSpriteSwitcher*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x143A69C
+    // Offset: 0x1445DA8
     void Awake();
   }; // DateConditionalSpriteSwitcher
   #pragma pack(pop)

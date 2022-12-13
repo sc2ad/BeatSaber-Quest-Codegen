@@ -86,43 +86,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <succeeded>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$succeeded$k__BackingField();
     // public System.String get_playerId()
-    // Offset: 0x13F8AA0
+    // Offset: 0x13D822C
     ::StringW get_playerId();
     // private System.Void set_playerId(System.String value)
-    // Offset: 0x13F8AA8
+    // Offset: 0x13D8234
     void set_playerId(::StringW value);
     // public System.String get_playerName()
-    // Offset: 0x13F8AB0
+    // Offset: 0x13D823C
     ::StringW get_playerName();
     // private System.Void set_playerName(System.String value)
-    // Offset: 0x13F8AB8
+    // Offset: 0x13D8244
     void set_playerName(::StringW value);
     // public System.String get_playerKey()
-    // Offset: 0x13F8AC0
+    // Offset: 0x13D824C
     ::StringW get_playerKey();
     // private System.Void set_playerKey(System.String value)
-    // Offset: 0x13F8AC8
+    // Offset: 0x13D8254
     void set_playerKey(::StringW value);
     // public System.String get_authType()
-    // Offset: 0x13F8AD0
+    // Offset: 0x13D825C
     ::StringW get_authType();
     // private System.Void set_authType(System.String value)
-    // Offset: 0x13F8AD8
+    // Offset: 0x13D8264
     void set_authType(::StringW value);
     // public System.String get_playerFriends()
-    // Offset: 0x13F8AE0
+    // Offset: 0x13D826C
     ::StringW get_playerFriends();
     // private System.Void set_playerFriends(System.String value)
-    // Offset: 0x13F8AE8
+    // Offset: 0x13D8274
     void set_playerFriends(::StringW value);
     // public System.Boolean get_succeeded()
-    // Offset: 0x13F8AF0
+    // Offset: 0x13D827C
     bool get_succeeded();
     // private System.Void set_succeeded(System.Boolean value)
-    // Offset: 0x13F8AF8
+    // Offset: 0x13D8284
     void set_succeeded(bool value);
     // public System.Void .ctor(System.Boolean succeeded, System.String playerId, System.String playerName, System.String playerKey, System.String authType, System.String playerFriends)
-    // Offset: 0x13F8B04
+    // Offset: 0x13D8290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardPlayerInfo::.ctor");

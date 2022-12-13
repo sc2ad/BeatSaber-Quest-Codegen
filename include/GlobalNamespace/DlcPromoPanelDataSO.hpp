@@ -75,19 +75,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _minNumberOfNotOwnedPacks
     [[deprecated("Use field access instead!")]] int& dyn__minNumberOfNotOwnedPacks();
     // public System.Int32 get_cutOffTest()
-    // Offset: 0x143CF64
+    // Offset: 0x1448670
     int get_cutOffTest();
     // public System.Int32 get_minNumberOfNotOwnedPacks()
-    // Offset: 0x143CF6C
+    // Offset: 0x1448678
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x143CF74
+    // Offset: 0x1448680
     ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoPanelDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
-    // Offset: 0x143CF7C
+    // Offset: 0x1448688
     ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
     // public System.Void .ctor()
-    // Offset: 0x143CFBC
+    // Offset: 0x14486C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelDataSO::.ctor");

@@ -136,62 +136,62 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] s
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_s();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1EC0008
+    // Offset: 0x1EDE628
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1EC0050
+    // Offset: 0x1EDE670
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x1EBFE4C
+    // Offset: 0x1EDE46C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AesEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::AesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AesEngine*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EC14DC
+    // Offset: 0x1EDFAFC
     static void _cctor();
     // static private System.UInt32 Shift(System.UInt32 r, System.Int32 shift)
-    // Offset: 0x1EBEE00
+    // Offset: 0x1EDD420
     static uint Shift(uint r, int shift);
     // static private System.UInt32 FFmulX(System.UInt32 x)
-    // Offset: 0x1EBEE08
+    // Offset: 0x1EDD428
     static uint FFmulX(uint x);
     // static private System.UInt32 FFmulX2(System.UInt32 x)
-    // Offset: 0x1EBEE28
+    // Offset: 0x1EDD448
     static uint FFmulX2(uint x);
     // static private System.UInt32 Inv_Mcol(System.UInt32 x)
-    // Offset: 0x1EBEE44
+    // Offset: 0x1EDD464
     static uint Inv_Mcol(uint x);
     // static private System.UInt32 SubWord(System.UInt32 x)
-    // Offset: 0x1EBEEEC
+    // Offset: 0x1EDD50C
     static uint SubWord(uint x);
     // private System.UInt32[][] GenerateWorkingKey(System.Byte[] key, System.Boolean forEncryption)
-    // Offset: 0x1EBEFC8
+    // Offset: 0x1EDD5E8
     ::ArrayW<::ArrayW<uint>> GenerateWorkingKey(::ArrayW<uint8_t> key, bool forEncryption);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1EBFE54
+    // Offset: 0x1EDE474
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1EC0058
+    // Offset: 0x1EDE678
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EC0060
+    // Offset: 0x1EDE680
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EC14D8
+    // Offset: 0x1EDFAF8
     void Reset();
     // private System.Void UnPackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x1EC0184
+    // Offset: 0x1EDE7A4
     void UnPackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void PackBlock(System.Byte[] bytes, System.Int32 off)
-    // Offset: 0x1EC1468
+    // Offset: 0x1EDFA88
     void PackBlock(::ArrayW<uint8_t> bytes, int off);
     // private System.Void EncryptBlock(System.UInt32[][] KW)
-    // Offset: 0x1EC0200
+    // Offset: 0x1EDE820
     void EncryptBlock(::ArrayW<::ArrayW<uint>> KW);
     // private System.Void DecryptBlock(System.UInt32[][] KW)
-    // Offset: 0x1EC0B28
+    // Offset: 0x1EDF148
     void DecryptBlock(::ArrayW<::ArrayW<uint>> KW);
   }; // Org.BouncyCastle.Crypto.Engines.AesEngine
   #pragma pack(pop)

@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private IReadonlyBeatmapData cachedMap
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyBeatmapData*& dyn_cachedMap();
     // public System.Void .ctor()
-    // Offset: 0x13A97B8
+    // Offset: 0x13B4C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataCache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataCache*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<IReadonlyBeatmapData> GetBeatmapData(IDifficultyBeatmap difficultyBeatmap, EnvironmentInfoSO environmentInfo, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13A9690
+    // Offset: 0x13B4B4C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
   }; // BeatmapDataCache
   #pragma pack(pop)

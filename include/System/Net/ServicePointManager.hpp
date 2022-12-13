@@ -107,28 +107,28 @@ namespace System::Net {
     // Set static field: static private System.Int32 tcp_keepalive_interval
     static void _set_tcp_keepalive_interval(int value);
     // static public System.Boolean get_CheckCertificateRevocationList()
-    // Offset: 0x1BB914C
+    // Offset: 0x1BF28BC
     static bool get_CheckCertificateRevocationList();
     // static public System.Int32 get_DnsRefreshTimeout()
-    // Offset: 0x1BB91B4
+    // Offset: 0x1BF2924
     static int get_DnsRefreshTimeout();
     // static public System.Net.SecurityProtocolType get_SecurityProtocol()
-    // Offset: 0x1BB921C
+    // Offset: 0x1BF298C
     static ::System::Net::SecurityProtocolType get_SecurityProtocol();
     // static System.Net.ServerCertValidationCallback get_ServerCertValidationCallback()
-    // Offset: 0x1BB9284
+    // Offset: 0x1BF29F4
     static ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
     // static private System.Void .cctor()
-    // Offset: 0x1BB9020
+    // Offset: 0x1BF2790
     static void _cctor();
     // static System.Net.ICertificatePolicy GetLegacyCertificatePolicy()
-    // Offset: 0x1BB90E4
+    // Offset: 0x1BF2854
     static ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
     // static public System.Net.ServicePoint FindServicePoint(System.Uri address, System.Net.IWebProxy proxy)
-    // Offset: 0x1BB92EC
+    // Offset: 0x1BF2A5C
     static ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy);
     // static System.Void CloseConnectionGroup(System.String connectionGroupName)
-    // Offset: 0x1BB9940
+    // Offset: 0x1BF30B0
     static void CloseConnectionGroup(::StringW connectionGroupName);
   }; // System.Net.ServicePointManager
   #pragma pack(pop)

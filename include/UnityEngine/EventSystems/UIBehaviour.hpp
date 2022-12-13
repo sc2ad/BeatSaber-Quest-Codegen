@@ -29,50 +29,50 @@ namespace UnityEngine::EventSystems {
   class UIBehaviour : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x194FF28
+    // Offset: 0x1973BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIBehaviour* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::UIBehaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIBehaviour*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x195AB38
+    // Offset: 0x197E7B0
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x19501C8
+    // Offset: 0x1973E40
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x195AB3C
+    // Offset: 0x197E7B4
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x1950330
+    // Offset: 0x1973FA8
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x195AB40
+    // Offset: 0x197E7B8
     void OnDestroy();
     // public System.Boolean IsActive()
-    // Offset: 0x195AB44
+    // Offset: 0x197E7BC
     bool IsActive();
     // protected System.Void OnRectTransformDimensionsChange()
-    // Offset: 0x195AB4C
+    // Offset: 0x197E7C4
     void OnRectTransformDimensionsChange();
     // protected System.Void OnBeforeTransformParentChanged()
-    // Offset: 0x195AB50
+    // Offset: 0x197E7C8
     void OnBeforeTransformParentChanged();
     // protected System.Void OnTransformParentChanged()
-    // Offset: 0x19514E0
+    // Offset: 0x1975158
     void OnTransformParentChanged();
     // protected System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x195AB54
+    // Offset: 0x197E7CC
     void OnDidApplyAnimationProperties();
     // protected System.Void OnCanvasGroupChanged()
-    // Offset: 0x195AB58
+    // Offset: 0x197E7D0
     void OnCanvasGroupChanged();
     // protected System.Void OnCanvasHierarchyChanged()
-    // Offset: 0x19514D4
+    // Offset: 0x197514C
     void OnCanvasHierarchyChanged();
     // public System.Boolean IsDestroyed()
-    // Offset: 0x195AB5C
+    // Offset: 0x197E7D4
     bool IsDestroyed();
   }; // UnityEngine.EventSystems.UIBehaviour
   #pragma pack(pop)

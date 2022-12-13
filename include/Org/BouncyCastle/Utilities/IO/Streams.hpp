@@ -33,19 +33,19 @@ namespace Org::BouncyCastle::Utilities::IO {
   class Streams : public ::Il2CppObject {
     public:
     // static public System.Byte[] ReadAll(System.IO.Stream inStr)
-    // Offset: 0x2681328
+    // Offset: 0x2678B58
     static ::ArrayW<uint8_t> ReadAll(::System::IO::Stream* inStr);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf)
-    // Offset: 0x2681490
+    // Offset: 0x2678CC0
     static int ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t> buf);
     // static public System.Int32 ReadFully(System.IO.Stream inStr, System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x26814AC
+    // Offset: 0x2678CDC
     static int ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t> buf, int off, int len);
     // static public System.Void PipeAll(System.IO.Stream inStr, System.IO.Stream outStr)
-    // Offset: 0x26813A8
+    // Offset: 0x2678BD8
     static void PipeAll(::System::IO::Stream* inStr, ::System::IO::Stream* outStr);
     // static public System.Int32 WriteBufTo(System.IO.MemoryStream buf, System.Byte[] output, System.Int32 offset)
-    // Offset: 0x2681538
+    // Offset: 0x2678D68
     static int WriteBufTo(::System::IO::MemoryStream* buf, ::ArrayW<uint8_t> output, int offset);
   }; // Org.BouncyCastle.Utilities.IO.Streams
   #pragma pack(pop)

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class EnvironmentSceneSetup : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1127774
+    // [InjectAttribute] Offset: 0x112F8CC
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EnvironmentSceneSetupData*) == 0x8);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1127784
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112F8DC
     // Get static field: static private readonly System.Int32 trackLaneYPositionPropertyId
     static int _get_trackLaneYPositionPropertyId();
     // Set static field: static private readonly System.Int32 trackLaneYPositionPropertyId
@@ -52,17 +52,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x1389934
+    // Offset: 0x1394DF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentSceneSetup*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x138993C
+    // Offset: 0x1394DF8
     static void _cctor();
     // public override System.Void InstallBindings()
-    // Offset: 0x13897E4
+    // Offset: 0x1394CA0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

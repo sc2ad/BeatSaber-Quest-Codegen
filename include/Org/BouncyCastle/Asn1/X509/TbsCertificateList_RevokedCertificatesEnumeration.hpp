@@ -60,14 +60,14 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly System.Collections.IEnumerable en
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerable*& dyn_en();
     // System.Void .ctor(System.Collections.IEnumerable en)
-    // Offset: 0x1F9797C
+    // Offset: 0x1FA139C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration* New_ctor(::System::Collections::IEnumerable* en) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration*, creationType>(en)));
     }
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1F979B8
+    // Offset: 0x1FA13D8
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumeration
   #pragma pack(pop)

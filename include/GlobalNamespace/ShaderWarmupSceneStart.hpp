@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2
     class $Start$d__2;
     public:
-    // [InjectAttribute] Offset: 0x1127F1C
+    // [InjectAttribute] Offset: 0x1130074
     // private readonly ShaderWarmupSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ShaderWarmupSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ShaderWarmupSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1127F2C
+    // [InjectAttribute] Offset: 0x1130084
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -67,14 +67,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x1411990
+    // Offset: 0x141D09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderWarmupSceneStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneStart*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x14118F4
+    // Offset: 0x141D000
     ::System::Collections::IEnumerator* Start();
   }; // ShaderWarmupSceneStart
   #pragma pack(pop)

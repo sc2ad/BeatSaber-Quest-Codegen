@@ -195,7 +195,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String ParentFullName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_ParentFullName();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x19914F4
+    // Offset: 0x19B516C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData* New_ctor(::NUnit::Framework::Interfaces::ITest* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");

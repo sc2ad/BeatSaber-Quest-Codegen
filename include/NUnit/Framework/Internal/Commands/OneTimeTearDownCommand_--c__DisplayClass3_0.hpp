@@ -46,14 +46,14 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: public System.IDisposable disposable
     [[deprecated("Use field access instead!")]] ::System::IDisposable*& dyn_disposable();
     // public System.Void .ctor()
-    // Offset: 0x1D5A358
+    // Offset: 0x1D63EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeTearDownCommand::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Object <Execute>b__0()
-    // Offset: 0x1D5A6A8
+    // Offset: 0x1D6424C
     ::Il2CppObject* $Execute$b__0();
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/NUnit.Framework.Internal.Commands.<>c__DisplayClass3_0
   #pragma pack(pop)

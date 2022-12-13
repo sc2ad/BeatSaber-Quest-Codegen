@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Terrain,HoudiniEngineUnity.Test_Terrain> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B17480
+    // Offset: 0x2B34CD0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2B174E4
+    // Offset: 0x2B34D34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Terrain_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Terrain_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Terrain_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_Terrain <ToTestObject>b__1_0(UnityEngine.Terrain lod)
-    // Offset: 0x2B174EC
+    // Offset: 0x2B34D3C
     ::HoudiniEngineUnity::Test_Terrain* $ToTestObject$b__1_0(::UnityEngine::Terrain* lod);
     // HoudiniEngineUnity.Test_Terrain <ToTestObject>b__2_0(UnityEngine.Terrain lod)
-    // Offset: 0x2B17550
+    // Offset: 0x2B34DA0
     ::HoudiniEngineUnity::Test_Terrain* $ToTestObject$b__2_0(::UnityEngine::Terrain* lod);
   }; // HoudiniEngineUnity.Test_Terrain_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::SetGameplaySongReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16CEDD8
+    // Offset: 0x16C65B4
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

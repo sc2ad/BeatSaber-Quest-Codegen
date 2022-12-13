@@ -81,7 +81,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly System.Single yOffset
       [[deprecated("Use field access instead!")]] float& dyn_yOffset();
       // public System.Void .ctor(System.Single songTime, System.Single yOffset)
-      // Offset: 0x156B568
+      // Offset: 0x157824C
       // ABORTED: conflicts with another method.  BufferData(float songTime, float yOffset);
     }; // BeatmapObjectAvoidanceYOffsetEvaluator/BufferData
     #pragma pack(pop)
@@ -142,17 +142,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapObjectSpawnController*& dyn__beatmapObjectSpawnController();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, IBeatmapObjectSpawnController beatmapObjectSpawnController, System.Single moveToPlayerHeadTParam, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData)
-    // Offset: 0x156B408
+    // Offset: 0x15780EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float moveToPlayerHeadTParam, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceYOffsetEvaluator*, creationType>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData)));
     }
     // public System.Void ManualUpdate()
-    // Offset: 0x156B570
+    // Offset: 0x1578254
     void ManualUpdate();
     // public System.Single GetJumpOffsetYAtJumpStartSongTime(System.Single lastDeltaTime)
-    // Offset: 0x156B6FC
+    // Offset: 0x15783E0
     float GetJumpOffsetYAtJumpStartSongTime(float lastDeltaTime);
   }; // BeatmapObjectAvoidanceYOffsetEvaluator
   #pragma pack(pop)

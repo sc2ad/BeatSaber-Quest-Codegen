@@ -104,20 +104,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean initiated
     [[deprecated("Use field access instead!")]] bool& dyn_initiated();
     // public System.Void .ctor()
-    // Offset: 0x2316CD0
+    // Offset: 0x22FAD90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKArmBending* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKArmBending::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKArmBending*, creationType>()));
     }
     // private System.Void LateUpdate()
-    // Offset: 0x23164B0
+    // Offset: 0x22FA570
     void LateUpdate();
     // private System.Void OnPostFBBIK()
-    // Offset: 0x2316A18
+    // Offset: 0x22FAAD8
     void OnPostFBBIK();
     // private System.Void OnDestroy()
-    // Offset: 0x2316BD8
+    // Offset: 0x22FAC98
     void OnDestroy();
   }; // RootMotion.FinalIK.FBBIKArmBending
   #pragma pack(pop)

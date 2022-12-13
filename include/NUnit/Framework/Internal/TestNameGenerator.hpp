@@ -84,27 +84,27 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> _fragments
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*& dyn__fragments();
     // public System.Void .ctor()
-    // Offset: 0x2A6E0D8
+    // Offset: 0x2AAD088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>()));
     }
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x2A6E154
+    // Offset: 0x2AAD104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator* New_ctor(::StringW pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator*, creationType>(pattern)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A6EAF8
+    // Offset: 0x2AADAA8
     static void _cctor();
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
-    // Offset: 0x2A6E180
+    // Offset: 0x2AAD130
     ::StringW GetDisplayName(::NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> BuildFragmentList(System.String pattern)
-    // Offset: 0x2A6E318
+    // Offset: 0x2AAD2C8
     static ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::StringW pattern);
   }; // NUnit.Framework.Internal.TestNameGenerator
   #pragma pack(pop)

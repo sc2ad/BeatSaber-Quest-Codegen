@@ -48,20 +48,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action songDidFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_songDidFinishEvent();
     // public System.Void add_songDidFinishEvent(System.Action value)
-    // Offset: 0x1475DA4
+    // Offset: 0x14824B8
     void add_songDidFinishEvent(::System::Action* value);
     // public System.Void remove_songDidFinishEvent(System.Action value)
-    // Offset: 0x1475E48
+    // Offset: 0x148255C
     void remove_songDidFinishEvent(::System::Action* value);
     // protected System.Void .ctor()
-    // Offset: 0x1475F00
+    // Offset: 0x1482614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongController*, creationType>()));
     }
     // public System.Void SendSongDidFinishEvent()
-    // Offset: 0x1475EEC
+    // Offset: 0x1482600
     void SendSongDidFinishEvent();
     // public System.Void StopSong()
     // Offset: 0xFFFFFFFFFFFFFFFF

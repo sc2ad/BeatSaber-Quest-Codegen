@@ -58,13 +58,13 @@ namespace System::Net {
     // Get instance field reference: protected readonly System.Net.WebProxy webProxy
     [[deprecated("Use field access instead!")]] ::System::Net::WebProxy*& dyn_webProxy();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x1B95658
+    // Offset: 0x1BB527C
     ::System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x1B95628
+    // Offset: 0x1BB524C
     ::System::Uri* GetProxy(::System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x1B95640
+    // Offset: 0x1BB5264
     bool IsBypassed(::System::Uri* host);
   }; // System.Net.WebRequest/System.Net.WebProxyWrapperOpaque
   #pragma pack(pop)
