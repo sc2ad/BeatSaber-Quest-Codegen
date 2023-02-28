@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single frequency
     [[deprecated("Use field access instead!")]] float& dyn_frequency();
     // public System.Void .ctor()
-    // Offset: 0x1627FBC
+    // Offset: 0x162C760
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticFeedbackController::RumbleData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HapticFeedbackController::RumbleData::.ctor");

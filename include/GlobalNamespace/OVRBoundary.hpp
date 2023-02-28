@@ -75,35 +75,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_cachedGeometryList();
     // public System.Void .ctor()
-    // Offset: 0x16AA40C
+    // Offset: 0x16B842C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoundary* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoundary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoundary*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x16AA47C
+    // Offset: 0x16B849C
     static void _cctor();
     // public System.Boolean GetConfigured()
-    // Offset: 0x16A9B14
+    // Offset: 0x16B7B34
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x16A9BB8
+    // Offset: 0x16B7BD8
     ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary::Node node, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x16A9C94
+    // Offset: 0x16B7CB4
     ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x16A9D94
+    // Offset: 0x16B7DB4
     ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x16AA1B4
+    // Offset: 0x16B81D4
     ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0x16AA2B8
+    // Offset: 0x16B82D8
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0x16AA35C
+    // Offset: 0x16B837C
     void SetVisible(bool value);
   }; // OVRBoundary
   #pragma pack(pop)

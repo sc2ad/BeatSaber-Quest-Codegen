@@ -38,20 +38,20 @@ namespace System::Xml {
     // Set static field: static private System.Collections.Generic.IComparer`1<System.Object> s_instance
     static void _set_s_instance(::System::Collections::Generic::IComparer_1<::Il2CppObject*>* value);
     // static System.Collections.Generic.IComparer`1<System.Object> get_Instance()
-    // Offset: 0x27DB1EC
+    // Offset: 0x27ED9D0
     static ::System::Collections::Generic::IComparer_1<::Il2CppObject*>* get_Instance();
     // public System.Void .ctor()
-    // Offset: 0x27DB598
+    // Offset: 0x27EDD7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x27DB5A0
+    // Offset: 0x27EDD84
     static void _cctor();
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x27DB254
+    // Offset: 0x27EDA38
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.DtdDefaultAttributeInfoToNodeDataComparer
   #pragma pack(pop)

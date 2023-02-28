@@ -207,34 +207,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _calculatedColorPreNormalization
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__calculatedColorPreNormalization();
     // public System.Single get_intensity()
-    // Offset: 0x1CD98CC
+    // Offset: 0x1CEB048
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1CD98D4
+    // Offset: 0x1CEB050
     void set_intensity(float value);
     // public System.Single get_normalizerWeight()
-    // Offset: 0x1CD98DC
+    // Offset: 0x1CEB058
     float get_normalizerWeight();
     // public System.Void set_normalizerWeight(System.Single value)
-    // Offset: 0x1CD98E4
+    // Offset: 0x1CEB060
     void set_normalizerWeight(float value);
     // public UnityEngine.Color get_calculatedColorPreNormalization()
-    // Offset: 0x1CD98EC
+    // Offset: 0x1CEB068
     ::UnityEngine::Color get_calculatedColorPreNormalization();
     // public LightConstants/BakeId get_bakeId()
-    // Offset: 0x1CD98F8
+    // Offset: 0x1CEB074
     ::GlobalNamespace::LightConstants::BakeId get_bakeId();
     // private System.Void SetDataToShaders(UnityEngine.Color lightmapColor, UnityEngine.Color probeColor)
-    // Offset: 0x1CD9B14
+    // Offset: 0x1CEB290
     void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
     // private System.Void SetShaderProperties()
-    // Offset: 0x1CD9A44
+    // Offset: 0x1CEB1C0
     void SetShaderProperties();
     // private System.Void GetBakedLightsNormalizer()
-    // Offset: 0x1CD99B4
+    // Offset: 0x1CEB130
     void GetBakedLightsNormalizer();
     // public System.Void .ctor()
-    // Offset: 0x1CD9F84
+    // Offset: 0x1CEB700
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -243,17 +243,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightWithIds*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1CD9900
+    // Offset: 0x1CEB07C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::Awake()
     void Awake();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CD9B74
+    // Offset: 0x1CEB2F0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CD9F7C
+    // Offset: 0x1CEB6F8
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();

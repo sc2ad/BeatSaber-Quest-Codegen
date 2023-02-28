@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MultiplayerPsPlusFeatureNotifier : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13F6DE0
+    // Offset: 0x1428F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPsPlusFeatureNotifier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPsPlusFeatureNotifier::.ctor");

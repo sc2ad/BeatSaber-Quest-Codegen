@@ -202,23 +202,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_WorkItemTally _workItemTally
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
     // public System.Void .ctor()
-    // Offset: 0x1B5E878
+    // Offset: 0x1B6B944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNodeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TOPNodeData*, creationType>()));
     }
     // public System.Void Reset()
-    // Offset: 0x1B5E800
+    // Offset: 0x1B6B8CC
     void Reset();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x1B5E824
+    // Offset: 0x1B6B8F0
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x1B5E840
+    // Offset: 0x1B6B90C
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x1B5E85C
+    // Offset: 0x1B6B928
     bool AnyWorkItemsPending();
   }; // HoudiniEngineUnity.HEU_TOPNodeData
   #pragma pack(pop)

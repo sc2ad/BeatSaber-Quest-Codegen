@@ -37,28 +37,28 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   class ResourceManagerException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F747E0
+    // Offset: 0x1F85F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1F74848
+    // Offset: 0x1F85FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1F748C0
+    // Offset: 0x1F86060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F74940
+    // Offset: 0x1F860E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException::.ctor");

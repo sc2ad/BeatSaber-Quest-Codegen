@@ -39,7 +39,7 @@ namespace System::Net::Cache {
     // Get instance field reference: private System.Net.Cache.RequestCacheLevel m_Level
     [[deprecated("Use field access instead!")]] ::System::Net::Cache::RequestCacheLevel& dyn_m_Level();
     // public System.Net.Cache.RequestCacheLevel get_Level()
-    // Offset: 0x1DB0994
+    // Offset: 0x1DC3134
     ::System::Net::Cache::RequestCacheLevel get_Level();
   }; // System.Net.Cache.RequestCachePolicy
   #pragma pack(pop)

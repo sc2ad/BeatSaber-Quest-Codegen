@@ -142,14 +142,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: playbackFloorOffset and: controllers
     char __padding5[0x4] = {};
-    // [SpaceAttribute] Offset: 0x112EA14
+    // [SpaceAttribute] Offset: 0x1133884
     // private VRController[] _controllers
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<::GlobalNamespace::VRController*> controllers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::VRController*>) == 0x8);
-    // [InjectAttribute] Offset: 0x112EA4C
+    // [InjectAttribute] Offset: 0x11338BC
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
@@ -202,35 +202,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRControllersRecorderData _data
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::VRControllersRecorderData*& dyn__data();
     // public System.Void add_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x13A422C
+    // Offset: 0x13D05F0
     void add_didSetControllerTransformEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
     // public System.Void remove_didSetControllerTransformEvent(System.Action`1<VRController> value)
-    // Offset: 0x13A42D0
+    // Offset: 0x13D0694
     void remove_didSetControllerTransformEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13A4DFC
+    // Offset: 0x13D11C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FullVRControllersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FullVRControllersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FullVRControllersRecorder*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13A4374
+    // Offset: 0x13D0738
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13A4768
+    // Offset: 0x13D0B2C
     void OnDestroy();
     // private System.Void PlaybackTick()
-    // Offset: 0x13A4814
+    // Offset: 0x13D0BD8
     void PlaybackTick();
     // private System.Void RecordTick()
-    // Offset: 0x13A4BF4
+    // Offset: 0x13D0FB8
     void RecordTick();
     // protected System.Void Update()
-    // Offset: 0x13A4D9C
+    // Offset: 0x13D1160
     void Update();
     // protected System.Void LateUpdate()
-    // Offset: 0x13A4DEC
+    // Offset: 0x13D11B0
     void LateUpdate();
   }; // FullVRControllersRecorder
   #pragma pack(pop)

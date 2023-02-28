@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 value
     [[deprecated("Use field access instead!")]] int& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x15049EC
+    // Offset: 0x143401C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedColorListController::ColorValuePair* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedColorListController::ColorValuePair::.ctor");

@@ -45,26 +45,26 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static private UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector s_Collector
     static void _set_s_Collector(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* value);
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x1F738F8
+    // Offset: 0x1F85098
     static ::System::Guid get_PlayerConnectionGuid();
     // public System.Void .ctor()
-    // Offset: 0x1F73F84
+    // Offset: 0x1F85724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticEventCollector* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollector*, creationType>()));
     }
     // static public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector FindOrCreateGlobalInstance()
-    // Offset: 0x1F73A04
+    // Offset: 0x1F851A4
     static ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* FindOrCreateGlobalInstance();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x1F73B98
+    // Offset: 0x1F85338
     static bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1F73C6C
+    // Offset: 0x1F8540C
     void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1F73D70
+    // Offset: 0x1F85510
     void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector
   #pragma pack(pop)

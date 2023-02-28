@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::DeactivateAfterFirstFrame::$Start$d__0
     class $Start$d__0;
     // public System.Void .ctor()
-    // Offset: 0x1445F24
+    // Offset: 0x144D7F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeactivateAfterFirstFrame* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DeactivateAfterFirstFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeactivateAfterFirstFrame*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x1445E88
+    // Offset: 0x144D75C
     ::System::Collections::IEnumerator* Start();
   }; // DeactivateAfterFirstFrame
   #pragma pack(pop)

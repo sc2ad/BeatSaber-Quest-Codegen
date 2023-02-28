@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x111FC18
+    // [SpaceAttribute] Offset: 0x11249D0
     // private UnityEngine.Vector3 _movementStep
     // Size: 0xC
     // Offset: 0x20
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _startFromCenter
     [[deprecated("Use field access instead!")]] bool& dyn__startFromCenter();
     // public System.Void .ctor()
-    // Offset: 0x151D960
+    // Offset: 0x1553BB8
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

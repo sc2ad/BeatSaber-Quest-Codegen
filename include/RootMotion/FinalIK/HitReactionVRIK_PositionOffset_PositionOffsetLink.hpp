@@ -35,14 +35,14 @@ namespace RootMotion::FinalIK {
   class HitReactionVRIK::PositionOffset::PositionOffsetLink : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x114B3E0
+    // [TooltipAttribute] Offset: 0x114E354
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.PositionOffset positionOffset
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::IKSolverVR::PositionOffset positionOffset;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::PositionOffset) == 0x4);
-    // [TooltipAttribute] Offset: 0x114B418
+    // [TooltipAttribute] Offset: 0x114E38C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -71,17 +71,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 current
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_current();
     // public System.Void .ctor()
-    // Offset: 0x22E162C
+    // Offset: 0x22F3E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReactionVRIK::PositionOffset::PositionOffsetLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::PositionOffset::PositionOffsetLink*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Vector3 offset, System.Single crossFader)
-    // Offset: 0x22E1510
+    // Offset: 0x22F3CE4
     void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x22E12CC
+    // Offset: 0x22F3AA0
     void CrossFadeStart();
   }; // RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset/RootMotion.FinalIK.PositionOffsetLink
   #pragma pack(pop)

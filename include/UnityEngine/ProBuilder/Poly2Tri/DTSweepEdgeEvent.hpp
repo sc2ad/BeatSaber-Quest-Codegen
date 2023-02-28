@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: public System.Boolean Right
     [[deprecated("Use field access instead!")]] bool& dyn_Right();
     // public System.Void .ctor()
-    // Offset: 0x2B2E11C
+    // Offset: 0x2B3FBF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepEdgeEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::.ctor");

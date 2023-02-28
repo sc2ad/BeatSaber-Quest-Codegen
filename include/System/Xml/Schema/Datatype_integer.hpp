@@ -49,12 +49,12 @@ namespace System::Xml::Schema {
   class Datatype_integer : public ::System::Xml::Schema::Datatype_decimal {
     public:
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D16CA8
+    // Offset: 0x1D293DC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_decimal::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1D16DD4
+    // Offset: 0x1D29508
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.ctor()
     // Base method: System.Void Datatype_anySimpleType::.ctor()
@@ -66,7 +66,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_integer*, creationType>()));
     }
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D16CB0
+    // Offset: 0x1D293E4
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Exception Datatype_decimal::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

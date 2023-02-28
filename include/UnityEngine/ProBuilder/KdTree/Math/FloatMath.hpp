@@ -29,37 +29,37 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   class FloatMath : public ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float> {
     public:
     // public System.Single get_MinValue()
-    // Offset: 0x2BA2FDC
+    // Offset: 0x2BB5DC0
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x2BA2FE8
+    // Offset: 0x2BB5DCC
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x2BA2FF0
+    // Offset: 0x2BB5DD4
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x2BA2FFC
+    // Offset: 0x2BB5DE0
     float get_PositiveInfinity();
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x2BA2FA4
+    // Offset: 0x2BB5D88
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x2BA2FD0
+    // Offset: 0x2BB5DB4
     bool AreEqual(float a, float b);
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x2BA3008
+    // Offset: 0x2BB5DEC
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x2BA3010
+    // Offset: 0x2BB5DF4
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x2BA3018
+    // Offset: 0x2BB5DFC
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x2BA3020
+    // Offset: 0x2BB5E04
     float DistanceSquaredBetweenPoints(::ArrayW<float> a, ::ArrayW<float> b);
     // public System.Void .ctor()
-    // Offset: 0x2BA3134
+    // Offset: 0x2BB5F18
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
     // Base method: System.Void TypeMath_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

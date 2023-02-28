@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _platformLeaderboardId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__platformLeaderboardId();
     // public System.String get_platformLeaderboardId()
-    // Offset: 0x13D81E4
+    // Offset: 0x13B44E8
     ::StringW get_platformLeaderboardId();
     // public System.String get_difficultyBeatmapId()
-    // Offset: 0x13D81EC
+    // Offset: 0x13B44F0
     ::StringW get_difficultyBeatmapId();
     // public System.Void .ctor(System.String difficultyBeatmapId, System.String platformLeaderboardId)
-    // Offset: 0x13D81F4
+    // Offset: 0x13B44F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardIdsModelSO::LeaderboardIdData::.ctor");

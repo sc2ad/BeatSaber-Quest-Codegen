@@ -30,14 +30,14 @@ namespace Org::BouncyCastle::Asn1::Misc {
   class VerisignCzagExtension : public ::Org::BouncyCastle::Asn1::DerIA5String {
     public:
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
-    // Offset: 0x1D80E38
+    // Offset: 0x1D9356C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VerisignCzagExtension* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VerisignCzagExtension*, creationType>(str)));
     }
     // public override System.String ToString()
-    // Offset: 0x1D80E7C
+    // Offset: 0x1D935B0
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::StringW ToString();

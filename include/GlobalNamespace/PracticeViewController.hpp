@@ -87,28 +87,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112C12C
+    // [SpaceAttribute] Offset: 0x1130F6C
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x88
     ::UnityEngine::UI::Button* playButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x112C164
+    // [InjectAttribute] Offset: 0x1130FA4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x90
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x112C174
+    // [InjectAttribute] Offset: 0x1130FB4
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x112C184
+    // [InjectAttribute] Offset: 0x1130FC4
     // private readonly PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0xA0
@@ -199,46 +199,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1427180
+    // Offset: 0x145B0E8
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void add_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0x1427038
+    // Offset: 0x145AFA0
     void add_didPressPlayButtonEvent(::System::Action* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action value)
-    // Offset: 0x14270DC
+    // Offset: 0x145B044
     void remove_didPressPlayButtonEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x14279AC
+    // Offset: 0x145B914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PracticeViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PracticeViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PracticeViewController*, creationType>()));
     }
     // public System.Void Init(IBeatmapLevel level, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x1427188
+    // Offset: 0x145B0F0
     void Init(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void PlayPreview()
-    // Offset: 0x1427640
+    // Offset: 0x145B5A8
     void PlayPreview();
     // private System.Void RefreshUI()
-    // Offset: 0x14274F8
+    // Offset: 0x145B460
     void RefreshUI();
     // private System.Void HandleSpeedSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x1427840
+    // Offset: 0x145B7A8
     void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void HandleSongStartSliderValueDidChange(HMUI.RangeValuesTextSlider slider, System.Single value)
-    // Offset: 0x142785C
+    // Offset: 0x145B7C4
     void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float value);
     // private System.Void PlayButtonPressed()
-    // Offset: 0x1427900
+    // Offset: 0x145B868
     void PlayButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1427390
+    // Offset: 0x145B2F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x142754C
+    // Offset: 0x145B4B4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

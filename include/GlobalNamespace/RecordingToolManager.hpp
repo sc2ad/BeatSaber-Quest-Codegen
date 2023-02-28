@@ -128,34 +128,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPosesSerializer _posesSerializer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPosesSerializer*& dyn__posesSerializer();
     // public System.Boolean get_recordingToolEnabled()
-    // Offset: 0x142F4DC
+    // Offset: 0x1463408
     bool get_recordingToolEnabled();
     // public System.Boolean get_showRecordingToolScene()
-    // Offset: 0x142F4E4
+    // Offset: 0x1463410
     bool get_showRecordingToolScene();
     // public System.String get_configJsonData()
-    // Offset: 0x142F4EC
+    // Offset: 0x1463418
     ::StringW get_configJsonData();
     // public RecordingToolSettings get_recordingToolSettings()
-    // Offset: 0x142F4F4
+    // Offset: 0x1463420
     ::GlobalNamespace::RecordingToolSettings* get_recordingToolSettings();
     // public ObjectsMovementRecorder/InitData get_objectsMovementRecorderInitData()
-    // Offset: 0x142F4FC
+    // Offset: 0x1463428
     ::GlobalNamespace::ObjectsMovementRecorder::InitData* get_objectsMovementRecorderInitData();
     // public MenuDestination get_menuDestination()
-    // Offset: 0x142F504
+    // Offset: 0x1463430
     ::GlobalNamespace::MenuDestination* get_menuDestination();
     // public ListLogger get_listLogger()
-    // Offset: 0x142F50C
+    // Offset: 0x1463438
     ::GlobalNamespace::ListLogger* get_listLogger();
     // public IBeatSaberLogger get_logger()
-    // Offset: 0x142F514
+    // Offset: 0x1463440
     ::GlobalNamespace::IBeatSaberLogger* get_logger();
     // public IPosesSerializer get_posesSerializer()
-    // Offset: 0x142F51C
+    // Offset: 0x1463448
     ::GlobalNamespace::IPosesSerializer* get_posesSerializer();
     // public System.Void .ctor(ProgramArguments programArguments, RecordingToolResourceContainerSO resourceContainer)
-    // Offset: 0x142F240
+    // Offset: 0x146316C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolManager* New_ctor(::GlobalNamespace::ProgramArguments* programArguments, ::GlobalNamespace::RecordingToolResourceContainerSO* resourceContainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolManager::.ctor");

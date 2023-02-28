@@ -43,7 +43,7 @@ namespace UnityEngine::Events {
   class InvokableCall_3 : public ::UnityEngine::Events::BaseInvokableCall {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x1090D60
+    // [DebuggerBrowsableAttribute] Offset: 0x1097904
     // private UnityEngine.Events.UnityAction`3<T1,T2,T3> Delegate
     // Size: 0x8
     // Offset: 0x0

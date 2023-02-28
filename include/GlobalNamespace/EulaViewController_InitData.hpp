@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean showDoNotAgreeButton
     [[deprecated("Use field access instead!")]] bool& dyn_showDoNotAgreeButton();
     // public System.Void .ctor(System.Boolean showDoNotAgreeButton)
-    // Offset: 0x1397064
+    // Offset: 0x13C3428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController::InitData* New_ctor(bool showDoNotAgreeButton) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaViewController::InitData::.ctor");

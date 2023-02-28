@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1144DAC
+    // [RangeAttribute] Offset: 0x1147D20
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -79,7 +79,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0x1144DC4
+    // [RangeAttribute] Offset: 0x1147D38
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -104,20 +104,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single rotationWeight
     [[deprecated("Use field access instead!")]] float& dyn_rotationWeight();
     // public System.Void .ctor()
-    // Offset: 0x22F8DC4
+    // Offset: 0x230B598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraints* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Constraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraints*, creationType>()));
     }
     // public System.Boolean IsValid()
-    // Offset: 0x22F9A3C
+    // Offset: 0x230C210
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x22F84C0
+    // Offset: 0x230AC94
     void Initiate(::UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x22F869C
+    // Offset: 0x230AE70
     void Update();
   }; // RootMotion.FinalIK.Constraints
   #pragma pack(pop)

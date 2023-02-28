@@ -141,7 +141,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Quaternion m_InitLocalRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_m_InitLocalRotation();
     // public System.Void .ctor()
-    // Offset: 0x2B7C2DC
+    // Offset: 0x2B8EF64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBone::Particle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBone::Particle::.ctor");

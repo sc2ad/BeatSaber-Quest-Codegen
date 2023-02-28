@@ -130,43 +130,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x1439ABC
+    // Offset: 0x1441390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeDropdown*, creationType>()));
     }
     // private System.Void LazyInit()
-    // Offset: 0x1438EE0
+    // Offset: 0x14407B4
     void LazyInit();
     // public System.Void Init(HMUI.TableView/HMUI.IDataSource initTableViewDataSource)
-    // Offset: 0x1439018
+    // Offset: 0x14408EC
     void Init(::HMUI::TableView::IDataSource* initTableViewDataSource);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<ColorScheme> colorSchemes)
-    // Offset: 0x1439078
+    // Offset: 0x144094C
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
     // public System.Single CellSize()
-    // Offset: 0x14392D8
+    // Offset: 0x1440BAC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x14392E0
+    // Offset: 0x1440BB4
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x143939C
+    // Offset: 0x1440C70
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // private System.Void HandleDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x14397A8
+    // Offset: 0x144107C
     void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void RefreshUI(ColorScheme colorScheme)
-    // Offset: 0x14391E4
+    // Offset: 0x1440AB8
     void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1438F8C
+    // Offset: 0x1440860
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::OnDestroy()
     void OnDestroy();
     // public override System.Void SelectCellWithIdx(System.Int32 idx)
-    // Offset: 0x14396CC
+    // Offset: 0x1440FA0
     // Implemented from: HMUI.DropdownWithTableView
     // Base method: System.Void DropdownWithTableView::SelectCellWithIdx(System.Int32 idx)
     void SelectCellWithIdx(int idx);

@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.AnimationCurve,HoudiniEngineUnity.Test_AnimationCurve> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::AnimationCurve*, ::HoudiniEngineUnity::Test_AnimationCurve*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A671F0
+    // Offset: 0x1A74138
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A67254
+    // Offset: 0x1A7419C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_AnimationCurve_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_AnimationCurve_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_AnimationCurve <ToTestObject>b__1_0(UnityEngine.AnimationCurve lod)
-    // Offset: 0x1A6725C
+    // Offset: 0x1A741A4
     ::HoudiniEngineUnity::Test_AnimationCurve* $ToTestObject$b__1_0(::UnityEngine::AnimationCurve* lod);
     // HoudiniEngineUnity.Test_AnimationCurve <ToTestObject>b__2_0(UnityEngine.AnimationCurve lod)
-    // Offset: 0x1A672C0
+    // Offset: 0x1A74208
     ::HoudiniEngineUnity::Test_AnimationCurve* $ToTestObject$b__2_0(::UnityEngine::AnimationCurve* lod);
   }; // HoudiniEngineUnity.Test_AnimationCurve_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

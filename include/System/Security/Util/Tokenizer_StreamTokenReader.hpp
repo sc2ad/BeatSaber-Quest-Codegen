@@ -59,17 +59,17 @@ namespace System::Security::Util {
     // Get instance field reference: System.Int32 _numCharRead
     [[deprecated("Use field access instead!")]] int& dyn__numCharRead();
     // System.Int32 get_NumCharEncountered()
-    // Offset: 0x1C31E68
+    // Offset: 0x1C41634
     int get_NumCharEncountered();
     // System.Void .ctor(System.IO.StreamReader input)
-    // Offset: 0x1C317D0
+    // Offset: 0x1C40F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StreamTokenReader* New_ctor(::System::IO::StreamReader* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Tokenizer::StreamTokenReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StreamTokenReader*, creationType>(input)));
     }
     // public System.Int32 Read()
-    // Offset: 0x1C31E20
+    // Offset: 0x1C415EC
     int Read();
   }; // System.Security.Util.Tokenizer/System.Security.Util.StreamTokenReader
   #pragma pack(pop)

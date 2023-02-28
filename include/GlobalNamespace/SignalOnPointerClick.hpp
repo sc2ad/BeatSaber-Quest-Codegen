@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class SignalOnPointerClick : public ::UnityEngine::MonoBehaviour/*, public ::UnityEngine::EventSystems::IPointerClickHandler*/ {
     public:
     public:
-    // [SignalSenderAttribute] Offset: 0x10F2F40
+    // [SignalSenderAttribute] Offset: 0x10F8B30
     // private Signal _inputFieldClickedSignal
     // Size: 0x8
     // Offset: 0x18
@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private Signal _inputFieldClickedSignal
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Signal*& dyn__inputFieldClickedSignal();
     // public System.Void .ctor()
-    // Offset: 0x2AD6920
+    // Offset: 0x2AE7104
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalOnPointerClick* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SignalOnPointerClick::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalOnPointerClick*, creationType>()));
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x2AD6900
+    // Offset: 0x2AE70E4
     void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
   }; // SignalOnPointerClick
   #pragma pack(pop)

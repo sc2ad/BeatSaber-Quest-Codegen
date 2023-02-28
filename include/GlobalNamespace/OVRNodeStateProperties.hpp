@@ -53,25 +53,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStateList
     static void _set_nodeStateList(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* value);
     // static private System.Void .cctor()
-    // Offset: 0x177CE48
+    // Offset: 0x178CE68
     static void _cctor();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x177B838
+    // Offset: 0x178B858
     static bool IsHmdPresent();
     // static public System.Boolean GetNodeStatePropertyVector3(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, OVRPlugin/Node ovrpNodeType, OVRPlugin/Step stepType, out UnityEngine.Vector3 retVec)
-    // Offset: 0x177B9BC
+    // Offset: 0x178B9DC
     static bool GetNodeStatePropertyVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::OVRPlugin::Node ovrpNodeType, ::GlobalNamespace::OVRPlugin::Step stepType, ByRef<::UnityEngine::Vector3> retVec);
     // static public System.Boolean GetNodeStatePropertyQuaternion(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, OVRPlugin/Node ovrpNodeType, OVRPlugin/Step stepType, out UnityEngine.Quaternion retQuat)
-    // Offset: 0x177C9A8
+    // Offset: 0x178C9C8
     static bool GetNodeStatePropertyQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ::GlobalNamespace::OVRPlugin::Node ovrpNodeType, ::GlobalNamespace::OVRPlugin::Step stepType, ByRef<::UnityEngine::Quaternion> retQuat);
     // static private System.Boolean ValidateProperty(UnityEngine.XR.XRNode nodeType, ref UnityEngine.XR.XRNodeState requestedNodeState)
-    // Offset: 0x177CC18
+    // Offset: 0x178CC38
     static bool ValidateProperty(::UnityEngine::XR::XRNode nodeType, ByRef<::UnityEngine::XR::XRNodeState> requestedNodeState);
     // static private System.Boolean GetUnityXRNodeStateVector3(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, out UnityEngine.Vector3 retVec)
-    // Offset: 0x177C018
+    // Offset: 0x178C038
     static bool GetUnityXRNodeStateVector3(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ByRef<::UnityEngine::Vector3> retVec);
     // static private System.Boolean GetUnityXRNodeStateQuaternion(UnityEngine.XR.XRNode nodeType, NodeStatePropertyType propertyType, out UnityEngine.Quaternion retQuat)
-    // Offset: 0x177CB18
+    // Offset: 0x178CB38
     static bool GetUnityXRNodeStateQuaternion(::UnityEngine::XR::XRNode nodeType, ::GlobalNamespace::NodeStatePropertyType propertyType, ByRef<::UnityEngine::Quaternion> retQuat);
   }; // OVRNodeStateProperties
   #pragma pack(pop)

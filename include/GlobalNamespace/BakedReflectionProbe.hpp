@@ -66,8 +66,8 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x112E178
-    // [NullAllowed] Offset: 0x112E178
+    // [SpaceAttribute] Offset: 0x1132FE8
+    // [NullAllowed] Offset: 0x1132FE8
     // private ReflectionProbeDataSO _reflectionProbeData
     // Size: 0x8
     // Offset: 0x38
@@ -83,27 +83,27 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112E1C4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133034
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static int _get__reflectionProbeBoundsMinPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMinPropertyId
     static void _set__reflectionProbeBoundsMinPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112E1D4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133044
     // Get static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static int _get__reflectionProbeBoundsMaxPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeBoundsMaxPropertyId
     static void _set__reflectionProbeBoundsMaxPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112E1E4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133054
     // Get static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static int _get__reflectionProbePositionPropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbePositionPropertyId
     static void _set__reflectionProbePositionPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112E1F4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133064
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static int _get__reflectionProbeTexture1PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture1PropertyId
     static void _set__reflectionProbeTexture1PropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112E204
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133074
     // Get static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
     static int _get__reflectionProbeTexture2PropertyId();
     // Set static field: static private readonly System.Int32 _reflectionProbeTexture2PropertyId
@@ -121,35 +121,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Cubemap _blackCubemap
     [[deprecated("Use field access instead!")]] ::UnityEngine::Cubemap*& dyn__blackCubemap();
     // public ReflectionProbeDataSO get_reflectionProbeData()
-    // Offset: 0x13AA0E4
+    // Offset: 0x13D64A8
     ::GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();
     // public System.Void set_reflectionProbeData(ReflectionProbeDataSO value)
-    // Offset: 0x13AA0EC
+    // Offset: 0x13D64B0
     void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x13AA0F4
+    // Offset: 0x13D64B8
     ::UnityEngine::Vector3 get_position();
     // public System.Int32 get_resolutionBeforeDownsample()
-    // Offset: 0x13AA118
+    // Offset: 0x13D64DC
     int get_resolutionBeforeDownsample();
     // public System.Int32 get_downsampleByHalfCount()
-    // Offset: 0x13AA120
+    // Offset: 0x13D64E4
     int get_downsampleByHalfCount();
     // public System.Void .ctor()
-    // Offset: 0x13AA4D8
+    // Offset: 0x13D689C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakedReflectionProbe* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakedReflectionProbe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedReflectionProbe*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13AA4EC
+    // Offset: 0x13D68B0
     static void _cctor();
     // protected System.Void Start()
-    // Offset: 0x13AA128
+    // Offset: 0x13D64EC
     void Start();
     // private System.Void SendDataToShaders()
-    // Offset: 0x13AA1E0
+    // Offset: 0x13D65A4
     void SendDataToShaders();
   }; // BakedReflectionProbe
   #pragma pack(pop)

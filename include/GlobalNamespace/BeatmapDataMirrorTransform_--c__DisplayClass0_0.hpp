@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 numberOfLines
     [[deprecated("Use field access instead!")]] int& dyn_numberOfLines();
     // public System.Void .ctor()
-    // Offset: 0x13B8F48
+    // Offset: 0x13E530C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataMirrorTransform::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataMirrorTransform::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataMirrorTransform::$$c__DisplayClass0_0*, creationType>()));
     }
     // BeatmapDataItem <CreateTransformedData>g__ProcessData|0(BeatmapDataItem beatmapDataItem)
-    // Offset: 0x13B8F50
+    // Offset: 0x13E5314
     ::GlobalNamespace::BeatmapDataItem* $CreateTransformedData$g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
   }; // BeatmapDataMirrorTransform/<>c__DisplayClass0_0
   #pragma pack(pop)

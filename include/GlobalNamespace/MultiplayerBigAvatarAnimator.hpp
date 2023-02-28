@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* avatarTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x1123410
+    // [InjectAttribute] Offset: 0x11281C8
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
@@ -116,35 +116,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x14A45F0
+    // Offset: 0x14CAC80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBigAvatarAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBigAvatarAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBigAvatarAnimator*, creationType>()));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0x14A4098
+    // Offset: 0x14CA728
     void OnDestroy();
     // private System.Void InitIfNeeded()
-    // Offset: 0x14A4130
+    // Offset: 0x14CA7C0
     void InitIfNeeded();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x14A42C4
+    // Offset: 0x14CA954
     void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void HideInstant()
-    // Offset: 0x14A4340
+    // Offset: 0x14CA9D0
     void HideInstant();
     // public System.Void Animate(System.Boolean show, System.Single duration, EaseType easeType)
-    // Offset: 0x14A4404
+    // Offset: 0x14CAA94
     void Animate(bool show, float duration, ::GlobalNamespace::EaseType easeType);
     // private System.Void <InitIfNeeded>b__8_0(System.Single val)
-    // Offset: 0x14A4600
+    // Offset: 0x14CAC90
     void $InitIfNeeded$b__8_0(float val);
     // private System.Void <InitIfNeeded>b__8_1(System.Single val)
-    // Offset: 0x14A4694
+    // Offset: 0x14CAD24
     void $InitIfNeeded$b__8_1(float val);
     // private System.Void <InitIfNeeded>b__8_2()
-    // Offset: 0x14A4728
+    // Offset: 0x14CADB8
     void $InitIfNeeded$b__8_2();
   }; // MultiplayerBigAvatarAnimator
   #pragma pack(pop)

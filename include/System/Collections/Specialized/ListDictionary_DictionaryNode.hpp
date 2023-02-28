@@ -50,7 +50,7 @@ namespace System::Collections::Specialized {
     // Get instance field reference: public System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode next
     [[deprecated("Use field access instead!")]] ::System::Collections::Specialized::ListDictionary::DictionaryNode*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1E46E68
+    // Offset: 0x1E57608
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::DictionaryNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::ListDictionary::DictionaryNode::.ctor");

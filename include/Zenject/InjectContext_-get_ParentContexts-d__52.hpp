@@ -99,41 +99,41 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> <>7__wrap1
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>*& dyn_$$7__wrap1();
     // private Zenject.InjectContext System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current()
-    // Offset: 0x1CB60DC
+    // Offset: 0x1CC78A8
     ::Zenject::InjectContext* System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1CB6144
+    // Offset: 0x1CC7910
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1CB5D04
+    // Offset: 0x1CC74D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InjectContext::$get_ParentContexts$d__52* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectContext::$get_ParentContexts$d__52::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectContext::$get_ParentContexts$d__52*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1CB5D3C
+    // Offset: 0x1CC7508
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1CB5E18
+    // Offset: 0x1CC75E4
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1CB5D58
+    // Offset: 0x1CC7524
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1CB60E4
+    // Offset: 0x1CC78B0
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<Zenject.InjectContext> System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator()
-    // Offset: 0x1CB614C
+    // Offset: 0x1CC7918
     ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1CB61F8
+    // Offset: 0x1CC79C4
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CB61FC
+    // Offset: 0x1CC79C8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CB62C8
+    // Offset: 0x1CC7A94
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InjectContext/Zenject.<get_ParentContexts>d__52
   #pragma pack(pop)

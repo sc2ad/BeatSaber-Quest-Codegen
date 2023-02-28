@@ -89,7 +89,7 @@ namespace Mono::Security::Interface {
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_SupportsCleanShutdown();
     // System.Void .ctor()
-    // Offset: 0x23BF658
+    // Offset: 0x23D1E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsProvider::.ctor");

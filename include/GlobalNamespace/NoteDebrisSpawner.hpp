@@ -77,21 +77,21 @@ namespace GlobalNamespace {
     float moveSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x111E6BC
+    // [InjectAttribute] Offset: 0x1123474
     // private readonly NoteDebris/Pool _normalNotesDebrisPool
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::NoteDebris::Pool* normalNotesDebrisPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteDebris::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111E734
+    // [InjectAttribute] Offset: 0x11234EC
     // private readonly NoteDebris/Pool _burstSliderHeadNotesDebrisPool
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::NoteDebris::Pool* burstSliderHeadNotesDebrisPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::NoteDebris::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x111E7B0
+    // [InjectAttribute] Offset: 0x1123568
     // private readonly NoteDebris/Pool _burstSliderElementNotesDebrisPool
     // Size: 0x8
     // Offset: 0x38
@@ -158,26 +158,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<NoteDebris,NoteDebris/Pool> _poolForNoteDebris
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteDebris*, ::GlobalNamespace::NoteDebris::Pool*>*& dyn__poolForNoteDebris();
     // public System.Void .ctor()
-    // Offset: 0x150FE10
+    // Offset: 0x143F5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDebrisSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDebrisSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteDebrisSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x150FAE8
+    // Offset: 0x143F2A0
     void Start();
     // public System.Void SpawnDebris(NoteData/GameplayType noteGameplayType, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single saberSpeed, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 notePos, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, ColorType colorType, System.Single timeToNextColorNote, UnityEngine.Vector3 moveVec)
-    // Offset: 0x150B95C
+    // Offset: 0x143B114
     void SpawnDebris(::GlobalNamespace::NoteData::GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float saberSpeed, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::GlobalNamespace::ColorType colorType, float timeToNextColorNote, ::UnityEngine::Vector3 moveVec);
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
-    // Offset: 0x150FCA0
+    // Offset: 0x143F458
     void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
     // private System.Void SpawnNoteDebris(NoteData/GameplayType noteGameplayType, out NoteDebris debris0, out NoteDebris debris1)
-    // Offset: 0x150FBA4
+    // Offset: 0x143F35C
     void SpawnNoteDebris(::GlobalNamespace::NoteData::GameplayType noteGameplayType, ByRef<::GlobalNamespace::NoteDebris*> debris0, ByRef<::GlobalNamespace::NoteDebris*> debris1);
     // private System.Void DespawnNoteDebris(NoteDebris noteDebris)
-    // Offset: 0x150FD74
+    // Offset: 0x143F52C
     void DespawnNoteDebris(::GlobalNamespace::NoteDebris* noteDebris);
   }; // NoteDebrisSpawner
   #pragma pack(pop)

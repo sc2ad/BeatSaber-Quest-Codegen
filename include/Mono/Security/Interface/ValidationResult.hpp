@@ -62,13 +62,13 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
     // public System.Boolean get_Trusted()
-    // Offset: 0x23BFBDC
+    // Offset: 0x23D23B0
     bool get_Trusted();
     // public System.Boolean get_UserDenied()
-    // Offset: 0x23BFBE4
+    // Offset: 0x23D23B8
     bool get_UserDenied();
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
-    // Offset: 0x23BFB80
+    // Offset: 0x23D2354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::ValidationResult::.ctor");

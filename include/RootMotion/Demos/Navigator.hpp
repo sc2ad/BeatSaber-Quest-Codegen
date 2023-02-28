@@ -102,7 +102,7 @@ namespace RootMotion::Demos {
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
     public:
-    // [TooltipAttribute] Offset: 0x1144C74
+    // [TooltipAttribute] Offset: 0x1147BE8
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
     // Offset: 0x10
@@ -111,28 +111,28 @@ namespace RootMotion::Demos {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1144CAC
+    // [TooltipAttribute] Offset: 0x1147C20
     // public System.Single cornerRadius
     // Size: 0x4
     // Offset: 0x14
     float cornerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1144CE4
+    // [TooltipAttribute] Offset: 0x1147C58
     // public System.Single recalculateOnPathDistance
     // Size: 0x4
     // Offset: 0x18
     float recalculateOnPathDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1144D1C
+    // [TooltipAttribute] Offset: 0x1147C90
     // public System.Single maxSampleDistance
     // Size: 0x4
     // Offset: 0x1C
     float maxSampleDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1144D54
+    // [TooltipAttribute] Offset: 0x1147CC8
     // public System.Single nextPathInterval
     // Size: 0x4
     // Offset: 0x20
@@ -229,44 +229,44 @@ namespace RootMotion::Demos {
     // Get instance field reference: private System.Single nextPathTime
     [[deprecated("Use field access instead!")]] float& dyn_nextPathTime();
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x22F50F0
+    // Offset: 0x23078C4
     ::UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x22F50FC
+    // Offset: 0x23078D0
     void set_normalizedDeltaPosition(::UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/RootMotion.Demos.State get_state()
-    // Offset: 0x22F5108
+    // Offset: 0x23078DC
     ::RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/RootMotion.Demos.State value)
-    // Offset: 0x22F5110
+    // Offset: 0x23078E4
     void set_state(::RootMotion::Demos::Navigator::State value);
     // public System.Void .ctor()
-    // Offset: 0x22F5A98
+    // Offset: 0x230826C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Navigator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Demos::Navigator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Navigator*, creationType>()));
     }
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x22F5118
+    // Offset: 0x23078EC
     void Initiate(::UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x22F51EC
+    // Offset: 0x23079C0
     void Update(::UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x22F5730
+    // Offset: 0x2307F04
     void CalculatePath(::UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x22F57A0
+    // Offset: 0x2307F74
     bool Find(::UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x22F55F8
+    // Offset: 0x2307DCC
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x22F566C
+    // Offset: 0x2307E40
     float HorDistance(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x22F58E8
+    // Offset: 0x23080BC
     void Visualize();
   }; // RootMotion.Demos.Navigator
   #pragma pack(pop)

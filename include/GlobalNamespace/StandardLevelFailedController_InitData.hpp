@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean autoRestart
     [[deprecated("Use field access instead!")]] bool& dyn_autoRestart();
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0x14892C0
+    // Offset: 0x1395E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController::InitData* New_ctor(bool autoRestart) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFailedController::InitData::.ctor");

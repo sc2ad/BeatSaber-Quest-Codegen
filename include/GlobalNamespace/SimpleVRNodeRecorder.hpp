@@ -78,7 +78,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
       [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
       // public System.Void .ctor()
-      // Offset: 0x141F6EC
+      // Offset: 0x1412CE4
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       static SimpleVRNodeRecorder::SavedData* New_ctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::SavedData::.ctor");
@@ -183,7 +183,7 @@ namespace GlobalNamespace {
     float forwardOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x112EB3C
+    // [InjectAttribute] Offset: 0x11339AC
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x40
@@ -242,29 +242,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _prevRot
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__prevRot();
     // public System.Void .ctor()
-    // Offset: 0x141F6F4
+    // Offset: 0x1496CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x141EABC
+    // Offset: 0x1496180
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x141EE5C
+    // Offset: 0x1496520
     void OnDestroy();
     // private System.Void RecordNewKeyFrame()
-    // Offset: 0x141EFA0
+    // Offset: 0x1496664
     void RecordNewKeyFrame();
     // protected System.Void Update()
-    // Offset: 0x141F16C
+    // Offset: 0x14967E0
     void Update();
     // private System.Void Save()
-    // Offset: 0x141EE6C
+    // Offset: 0x1496530
     void Save();
     // private System.Void Load()
-    // Offset: 0x141EBAC
+    // Offset: 0x1496270
     void Load();
   }; // SimpleVRNodeRecorder
   #pragma pack(pop)

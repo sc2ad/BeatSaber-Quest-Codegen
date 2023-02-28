@@ -34,17 +34,17 @@ namespace System::Diagnostics {
   class CorrelationManager : public ::Il2CppObject {
     public:
     // public System.Collections.Stack get_LogicalOperationStack()
-    // Offset: 0x1D9B3FC
+    // Offset: 0x1DADB30
     ::System::Collections::Stack* get_LogicalOperationStack();
     // System.Void .ctor()
-    // Offset: 0x1D9B3F4
+    // Offset: 0x1DADB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CorrelationManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::CorrelationManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CorrelationManager*, creationType>()));
     }
     // private System.Collections.Stack GetLogicalOperationStack()
-    // Offset: 0x1D9B400
+    // Offset: 0x1DADB34
     ::System::Collections::Stack* GetLogicalOperationStack();
   }; // System.Diagnostics.CorrelationManager
   #pragma pack(pop)

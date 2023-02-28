@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1116BDC
+    // [SpaceAttribute] Offset: 0x111B924
     // private UnityEngine.GameObject _collidersGameObject
     // Size: 0x8
     // Offset: 0x30
@@ -82,17 +82,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _collidersGameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__collidersGameObject();
     // public System.Void .ctor()
-    // Offset: 0x1550038
+    // Offset: 0x1584FE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterResultAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterResultAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterResultAnimationController*, creationType>()));
     }
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x154FFA8
+    // Offset: 0x1584F54
     void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void StopAnimation()
-    // Offset: 0x1550018
+    // Offset: 0x1584FC4
     void StopAnimation();
   }; // BTSCharacterResultAnimationController
   #pragma pack(pop)

@@ -31,22 +31,22 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class StringBuilderExtension : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F2CF0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F88E0
     // Get static field: static private System.Char[] charToInt
     static ::ArrayW<::Il2CppChar> _get_charToInt();
     // Set static field: static private System.Char[] charToInt
     static void _set_charToInt(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x2AD7B3C
+    // Offset: 0x2AE8320
     static void _cctor();
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
-    // Offset: 0x2AD7810
+    // Offset: 0x2AE7FF4
     static void Swap(::System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
-    // Offset: 0x2AD78C8
+    // Offset: 0x2AE80AC
     static void AppendNumber(::System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
-    // Offset: 0x2AD7A10
+    // Offset: 0x2AE81F4
     static void AppendNumber(::System::Text::StringBuilder* sb, uint unumber);
   }; // StringBuilderExtension
   #pragma pack(pop)

@@ -139,26 +139,26 @@ namespace MasterServer {
     // Get instance field reference: public MasterServer.AuthenticateDedicatedServerMasterServerServerResponse/MasterServer.Result result
     [[deprecated("Use field access instead!")]] ::MasterServer::AuthenticateDedicatedServerMasterServerServerResponse::Result& dyn_result();
     // static public PacketPool`1<MasterServer.AuthenticateDedicatedServerMasterServerServerResponse> get_pool()
-    // Offset: 0x16CA5A8
+    // Offset: 0x16D95C8
     static ::GlobalNamespace::PacketPool_1<::MasterServer::AuthenticateDedicatedServerMasterServerServerResponse*>* get_pool();
     // public System.Boolean get_isAuthenticated()
-    // Offset: 0x16CA688
+    // Offset: 0x16D96A8
     bool get_isAuthenticated();
     // public MasterServer.AuthenticateDedicatedServerMasterServerServerResponse Init(MasterServer.AuthenticateDedicatedServerMasterServerServerResponse/MasterServer.Result result)
-    // Offset: 0x16CA698
+    // Offset: 0x16D96B8
     ::MasterServer::AuthenticateDedicatedServerMasterServerServerResponse* Init(::MasterServer::AuthenticateDedicatedServerMasterServerServerResponse::Result result);
     // public override System.Byte get_resultCode()
-    // Offset: 0x16CA5F0
+    // Offset: 0x16D9610
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x16CA5F8
+    // Offset: 0x16D9618
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x16CA77C
+    // Offset: 0x16D979C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -167,17 +167,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateDedicatedServerMasterServerServerResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CA6A0
+    // Offset: 0x16D96C0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CA6DC
+    // Offset: 0x16D96FC
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16CA720
+    // Offset: 0x16D9740
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

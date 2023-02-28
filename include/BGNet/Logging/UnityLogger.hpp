@@ -45,23 +45,23 @@ namespace BGNet::Logging {
       return reinterpret_cast<::BGNet::Logging::Debug::ILogger*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x2B9D7F0
+    // Offset: 0x2BB1478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Logging::UnityLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogger*, creationType>()));
     }
     // public System.Void LogInfo(System.String message)
-    // Offset: 0x2B9E040
+    // Offset: 0x2BB1CC8
     void LogInfo(::StringW message);
     // public System.Void LogError(System.String message)
-    // Offset: 0x2B9E044
+    // Offset: 0x2BB1CCC
     void LogError(::StringW message);
     // public System.Void LogException(System.Exception exception, System.String message)
-    // Offset: 0x2B9E0AC
+    // Offset: 0x2BB1D34
     void LogException(::System::Exception* exception, ::StringW message);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x2B9E15C
+    // Offset: 0x2BB1DE4
     void LogWarning(::StringW message);
   }; // BGNet.Logging.UnityLogger
   #pragma pack(pop)

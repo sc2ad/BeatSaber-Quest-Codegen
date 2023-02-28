@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1451890
+    // Offset: 0x146E330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerBrowserFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerBrowserFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerBrowserFlowCoordinator*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x145188C
+    // Offset: 0x146E32C
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

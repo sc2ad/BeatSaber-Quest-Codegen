@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RenderTexture _bloomPrepassRenderTexture
     [[deprecated("Use field access instead!")]] ::UnityEngine::RenderTexture*& dyn__bloomPrepassRenderTexture();
     // public System.Void .ctor()
-    // Offset: 0x1CDF9F8
+    // Offset: 0x1CF112C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneCameraBloomPrePass* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneCameraBloomPrePass::.ctor");

@@ -77,35 +77,35 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<bool, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CFA2A0
+    // Offset: 0x1D0B9D4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CFA304
+    // Offset: 0x1D0BA38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalMeshUtility::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalMeshUtility::$$c*, creationType>()));
     }
     // UnityEngine.Vector3[] <CreateMeshWithTransform>b__1_0(UnityEngine.Mesh x)
-    // Offset: 0x1CFA30C
+    // Offset: 0x1D0BA40
     ::ArrayW<::UnityEngine::Vector3> $CreateMeshWithTransform$b__1_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <CreateMeshWithTransform>b__1_1(UnityEngine.Mesh x)
-    // Offset: 0x1CFA328
+    // Offset: 0x1D0BA5C
     ::ArrayW<::UnityEngine::Color> $CreateMeshWithTransform$b__1_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <CreateMeshWithTransform>b__1_2(UnityEngine.Mesh x)
-    // Offset: 0x1CFA344
+    // Offset: 0x1D0BA78
     ::ArrayW<::UnityEngine::Vector2> $CreateMeshWithTransform$b__1_2(::UnityEngine::Mesh* x);
     // UnityEngine.Vector3[] <ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh x)
-    // Offset: 0x1CFA360
+    // Offset: 0x1D0BA94
     ::ArrayW<::UnityEngine::Vector3> $ResetPbObjectWithMeshFilter$b__2_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh x)
-    // Offset: 0x1CFA37C
+    // Offset: 0x1D0BAB0
     ::ArrayW<::UnityEngine::Color> $ResetPbObjectWithMeshFilter$b__2_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh x)
-    // Offset: 0x1CFA398
+    // Offset: 0x1D0BACC
     ::ArrayW<::UnityEngine::Vector2> $ResetPbObjectWithMeshFilter$b__2_2(::UnityEngine::Mesh* x);
     // System.Boolean <FilterUnusedSubmeshIndexes>b__3_0(System.Boolean x)
-    // Offset: 0x1CFA3B4
+    // Offset: 0x1D0BAE8
     bool $FilterUnusedSubmeshIndexes$b__3_0(bool x);
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::UI::Image*> ringGLowImages;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::UI::Image*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1125430
+    // [InjectAttribute] Offset: 0x112A1E8
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x48
@@ -168,44 +168,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sabersInsideAfterOnEnable
     [[deprecated("Use field access instead!")]] bool& dyn__sabersInsideAfterOnEnable();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x13D6C94
+    // Offset: 0x13B194C
     void set_alpha(float value);
     // public System.Boolean get_fullyActivated()
-    // Offset: 0x13D6A10
+    // Offset: 0x13B16C8
     bool get_fullyActivated();
     // public SaberType get_saberType()
-    // Offset: 0x13D6E5C
+    // Offset: 0x13B1B14
     ::GlobalNamespace::SaberType get_saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x13D6E64
+    // Offset: 0x13B1B1C
     void set_saberType(::GlobalNamespace::SaberType value);
     // public System.Void .ctor()
-    // Offset: 0x13D7460
+    // Offset: 0x13B2118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntroTutorialRing* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IntroTutorialRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntroTutorialRing*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13D6E6C
+    // Offset: 0x13B1B24
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x13D6F04
+    // Offset: 0x13B1BBC
     void OnEnable();
     // protected System.Void Update()
-    // Offset: 0x13D6F5C
+    // Offset: 0x13B1C14
     void Update();
     // private System.Void SetProgressImagesfillAmount(System.Single fillAmount)
-    // Offset: 0x13D70CC
+    // Offset: 0x13B1D84
     void SetProgressImagesfillAmount(float fillAmount);
     // private System.Void OnTriggerEnter(UnityEngine.Collider other)
-    // Offset: 0x13D7148
+    // Offset: 0x13B1E00
     void OnTriggerEnter(::UnityEngine::Collider* other);
     // private System.Void OnTriggerExit(UnityEngine.Collider other)
-    // Offset: 0x13D724C
+    // Offset: 0x13B1F04
     void OnTriggerExit(::UnityEngine::Collider* other);
     // private System.Void OnTriggerStay(UnityEngine.Collider other)
-    // Offset: 0x13D7350
+    // Offset: 0x13B2008
     void OnTriggerStay(::UnityEngine::Collider* other);
   }; // IntroTutorialRing
   #pragma pack(pop)

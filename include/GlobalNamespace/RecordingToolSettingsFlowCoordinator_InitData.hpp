@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
-    // Offset: 0x142F6C0
+    // Offset: 0x14635EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSettingsFlowCoordinator::InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSettingsFlowCoordinator::InitData::.ctor");

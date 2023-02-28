@@ -67,24 +67,24 @@ namespace System {
     // Get instance field reference: private System.ConsoleModifiers _mods
     [[deprecated("Use field access instead!")]] ::System::ConsoleModifiers& dyn__mods();
     // public System.Char get_KeyChar()
-    // Offset: 0x1DBFB58
+    // Offset: 0x1DD22F8
     ::Il2CppChar get_KeyChar();
     // public System.ConsoleKey get_Key()
-    // Offset: 0x1DBFB60
+    // Offset: 0x1DD2300
     ::System::ConsoleKey get_Key();
     // public System.Void .ctor(System.Char keyChar, System.ConsoleKey key, System.Boolean shift, System.Boolean alt, System.Boolean control)
-    // Offset: 0x1DBFA5C
+    // Offset: 0x1DD21FC
     ConsoleKeyInfo(::Il2CppChar keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control);
     // public System.Boolean Equals(System.ConsoleKeyInfo obj)
-    // Offset: 0x1DBFC10
+    // Offset: 0x1DD23B0
     bool Equals(::System::ConsoleKeyInfo obj);
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1DBFB68
+    // Offset: 0x1DD2308
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DBFC44
+    // Offset: 0x1DD23E4
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

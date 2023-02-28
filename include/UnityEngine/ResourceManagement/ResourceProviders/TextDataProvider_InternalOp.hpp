@@ -94,29 +94,29 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Boolean m_Complete
     [[deprecated("Use field access instead!")]] bool& dyn_m_Complete();
     // public System.Void .ctor()
-    // Offset: 0x1F7F114
+    // Offset: 0x1F908B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextDataProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextDataProvider::InternalOp*, creationType>()));
     }
     // private System.Single GetPercentComplete()
-    // Offset: 0x1F7F6B4
+    // Offset: 0x1F90E54
     float GetPercentComplete();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle, UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider rawProvider, System.Boolean ignoreFailures)
-    // Offset: 0x1F7F11C
+    // Offset: 0x1F908BC
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider, bool ignoreFailures);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x1F7F99C
+    // Offset: 0x1F9113C
     bool WaitForCompletionHandler();
     // private System.Void RequestOperation_completed(UnityEngine.AsyncOperation op)
-    // Offset: 0x1F7F7F8
+    // Offset: 0x1F90F98
     void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
     // private System.Object ConvertText(System.String text)
-    // Offset: 0x1F7F6CC
+    // Offset: 0x1F90E6C
     ::Il2CppObject* ConvertText(::StringW text);
     // private System.Void <Start>b__7_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation)
-    // Offset: 0x1F7FA1C
+    // Offset: 0x1F911BC
     void $Start$b__7_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
   }; // UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
   #pragma pack(pop)

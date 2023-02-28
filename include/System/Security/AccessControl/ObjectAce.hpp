@@ -75,52 +75,52 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.ObjectAceFlags object_ace_flags
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::ObjectAceFlags& dyn_object_ace_flags();
     // public System.Guid get_InheritedObjectAceType()
-    // Offset: 0x1BDA02C
+    // Offset: 0x1BE87F8
     ::System::Guid get_InheritedObjectAceType();
     // public System.Void set_InheritedObjectAceType(System.Guid value)
-    // Offset: 0x1BDA038
+    // Offset: 0x1BE8804
     void set_InheritedObjectAceType(::System::Guid value);
     // private System.Boolean get_InheritedObjectAceTypePresent()
-    // Offset: 0x1BD9F20
+    // Offset: 0x1BE86EC
     bool get_InheritedObjectAceTypePresent();
     // public System.Security.AccessControl.ObjectAceFlags get_ObjectAceFlags()
-    // Offset: 0x1BDA040
+    // Offset: 0x1BE880C
     ::System::Security::AccessControl::ObjectAceFlags get_ObjectAceFlags();
     // public System.Void set_ObjectAceFlags(System.Security.AccessControl.ObjectAceFlags value)
-    // Offset: 0x1BDA048
+    // Offset: 0x1BE8814
     void set_ObjectAceFlags(::System::Security::AccessControl::ObjectAceFlags value);
     // public System.Guid get_ObjectAceType()
-    // Offset: 0x1BDA050
+    // Offset: 0x1BE881C
     ::System::Guid get_ObjectAceType();
     // public System.Void set_ObjectAceType(System.Guid value)
-    // Offset: 0x1BDA05C
+    // Offset: 0x1BE8828
     void set_ObjectAceType(::System::Guid value);
     // private System.Boolean get_ObjectAceTypePresent()
-    // Offset: 0x1BD9F14
+    // Offset: 0x1BE86E0
     bool get_ObjectAceTypePresent();
     // public System.Void .ctor(System.Security.AccessControl.AceFlags aceFlags, System.Security.AccessControl.AceQualifier qualifier, System.Int32 accessMask, System.Security.Principal.SecurityIdentifier sid, System.Security.AccessControl.ObjectAceFlags flags, System.Guid type, System.Guid inheritedType, System.Boolean isCallback, System.Byte[] opaque)
-    // Offset: 0x1BD6BB0
+    // Offset: 0x1BE537C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectAce* New_ctor(::System::Security::AccessControl::AceFlags aceFlags, ::System::Security::AccessControl::AceQualifier qualifier, int accessMask, ::System::Security::Principal::SecurityIdentifier* sid, ::System::Security::AccessControl::ObjectAceFlags flags, ::System::Guid type, ::System::Guid inheritedType, bool isCallback, ::ArrayW<uint8_t> opaque) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::ObjectAce::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectAce*, creationType>(aceFlags, qualifier, accessMask, sid, flags, type, inheritedType, isCallback, opaque)));
     }
     // static private System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier qualifier, System.Boolean isCallback)
-    // Offset: 0x1BD9DEC
+    // Offset: 0x1BE85B8
     static ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
     // private System.Void WriteGuid(System.Guid val, System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BDA1E0
+    // Offset: 0x1BE89AC
     void WriteGuid(::System::Guid val, ::ArrayW<uint8_t> buffer, int offset);
     // private System.Guid ReadGuid(System.Byte[] buffer, System.Int32 offset)
-    // Offset: 0x1BD9F2C
+    // Offset: 0x1BE86F8
     ::System::Guid ReadGuid(::ArrayW<uint8_t> buffer, int offset);
     // public override System.Int32 get_BinaryLength()
-    // Offset: 0x1BD9FCC
+    // Offset: 0x1BE8798
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Int32 GenericAce::get_BinaryLength()
     int get_BinaryLength();
     // System.Void .ctor(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1BD84B4
+    // Offset: 0x1BE6C80
     // Implemented from: System.Security.AccessControl.QualifiedAce
     // Base method: System.Void QualifiedAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
     // Base method: System.Void KnownAce::.ctor(System.Byte[] binaryForm, System.Int32 offset)
@@ -131,7 +131,7 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<ObjectAce*, creationType>(binaryForm, offset)));
     }
     // public override System.Void GetBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1BDA064
+    // Offset: 0x1BE8830
     // Implemented from: System.Security.AccessControl.GenericAce
     // Base method: System.Void GenericAce::GetBinaryForm(System.Byte[] binaryForm, System.Int32 offset)
     void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int offset);

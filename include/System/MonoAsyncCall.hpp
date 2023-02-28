@@ -80,7 +80,7 @@ namespace System {
     // Get instance field reference: private System.Object out_args
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_out_args();
     // public System.Void .ctor()
-    // Offset: 0x1C4CD1C
+    // Offset: 0x1C5C4E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

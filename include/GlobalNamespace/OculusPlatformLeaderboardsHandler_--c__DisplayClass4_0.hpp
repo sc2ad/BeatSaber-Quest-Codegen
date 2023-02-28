@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Request oculusRequest
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Request*& dyn_oculusRequest();
     // public System.Void .ctor()
-    // Offset: 0x137C964
+    // Offset: 0x1382F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Void <AddOculusRequest>b__0(HMAsyncRequest request)
-    // Offset: 0x137CE6C
+    // Offset: 0x1383470
     void $AddOculusRequest$b__0(::GlobalNamespace::HMAsyncRequest* request);
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass4_0
   #pragma pack(pop)

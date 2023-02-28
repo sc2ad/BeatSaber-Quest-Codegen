@@ -75,37 +75,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<UnityEngine.GameObject> didRefreshContentEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::UnityEngine::GameObject*>*& dyn_didRefreshContentEvent();
     // public LightGroupSO get_lightGroupSO()
-    // Offset: 0x1CD72A0
+    // Offset: 0x1CE8A1C
     ::GlobalNamespace::LightGroupSO* get_lightGroupSO();
     // public System.Int32 get_numberOfElements()
-    // Offset: 0x1CD72A8
+    // Offset: 0x1CE8A24
     int get_numberOfElements();
     // public System.Int32 get_startLightId()
-    // Offset: 0x1CD7334
+    // Offset: 0x1CE8AB0
     int get_startLightId();
     // public System.Int32 get_groupId()
-    // Offset: 0x1CD73C0
+    // Offset: 0x1CE8B3C
     int get_groupId();
     // public System.Int32 get_sameIdElements()
-    // Offset: 0x1CD744C
+    // Offset: 0x1CE8BC8
     int get_sameIdElements();
     // public System.Boolean get_ignoreLightGroupEffectManager()
-    // Offset: 0x1CD74D8
+    // Offset: 0x1CE8C54
     bool get_ignoreLightGroupEffectManager();
     // public System.Void add_respawnEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1CD756C
+    // Offset: 0x1CE8CE8
     void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void remove_respawnEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1CD7610
+    // Offset: 0x1CE8D8C
     void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void add_didRefreshContentEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1CD76B4
+    // Offset: 0x1CE8E30
     void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void remove_didRefreshContentEvent(System.Action`1<UnityEngine.GameObject> value)
-    // Offset: 0x1CD7758
+    // Offset: 0x1CE8ED4
     void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1CD77FC
+    // Offset: 0x1CE8F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroup::.ctor");

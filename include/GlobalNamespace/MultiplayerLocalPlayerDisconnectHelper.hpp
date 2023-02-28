@@ -48,21 +48,21 @@ namespace GlobalNamespace {
   class MultiplayerLocalPlayerDisconnectHelper : public ::Il2CppObject {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1123118
+    // [InjectAttribute] Offset: 0x1127ED0
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1123128
+    // [InjectAttribute] Offset: 0x1127EE0
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
-    // [InjectAttribute] Offset: 0x1123138
+    // [InjectAttribute] Offset: 0x1127EF0
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
@@ -89,17 +89,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void .ctor()
-    // Offset: 0x13EB500
+    // Offset: 0x14087A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalPlayerDisconnectHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerDisconnectHelper*, creationType>()));
     }
     // public System.Void Disconnect(MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState playerLevelEndState, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x13E7574
+    // Offset: 0x140481C
     void Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.String ResolveDisconnectButtonString()
-    // Offset: 0x13E8D6C
+    // Offset: 0x1406014
     ::StringW ResolveDisconnectButtonString();
   }; // MultiplayerLocalPlayerDisconnectHelper
   #pragma pack(pop)

@@ -54,7 +54,7 @@ namespace Mono::Net {
     // Get instance field reference: public System.IntPtr Length
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Length();
     // public System.Void .ctor(System.Int32 loc, System.Int32 len)
-    // Offset: 0x1B168F0
+    // Offset: 0x1B249BC
     CFRange(int loc, int len);
   }; // Mono.Net.CFRange
   #pragma pack(pop)

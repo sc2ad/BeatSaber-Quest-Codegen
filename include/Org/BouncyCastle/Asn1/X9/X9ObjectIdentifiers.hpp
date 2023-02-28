@@ -282,7 +282,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier Mqv1
     static void _set_Mqv1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FADD80
+    // Offset: 0x1FBF520
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.X9.X9ObjectIdentifiers
   #pragma pack(pop)

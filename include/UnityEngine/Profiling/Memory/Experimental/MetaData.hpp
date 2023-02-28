@@ -46,7 +46,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Get instance field reference: public System.String platform
     [[deprecated("Use field access instead!")]] ::StringW& dyn_platform();
     // public System.Void .ctor()
-    // Offset: 0x214FBB0
+    // Offset: 0x2161384
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetaData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Profiling::Memory::Experimental::MetaData::.ctor");

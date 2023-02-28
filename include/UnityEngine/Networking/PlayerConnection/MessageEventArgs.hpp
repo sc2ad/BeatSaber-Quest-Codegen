@@ -48,7 +48,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Get instance field reference: public System.Byte[] data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x20E9178
+    // Offset: 0x20FC94C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageEventArgs* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::MessageEventArgs::.ctor");

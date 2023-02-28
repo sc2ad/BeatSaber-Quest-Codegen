@@ -78,22 +78,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kForegroundPlaybackScreenshotType
     static void _set_kForegroundPlaybackScreenshotType(::StringW value);
     // static public System.String SerializedName(ObjectsMovementRecorder/Mode mode)
-    // Offset: 0x1554440
+    // Offset: 0x15B41E4
     static ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder::Mode mode);
     // static public System.Boolean ModeFromSerializedName(System.String name, out ObjectsMovementRecorder/Mode mode)
-    // Offset: 0x15544A4
+    // Offset: 0x15B4248
     static bool ModeFromSerializedName(::StringW name, ByRef<::GlobalNamespace::ObjectsMovementRecorder::Mode> mode);
     // static public System.String SerializedName(ObjectsMovementRecorder/CameraView cameraView)
-    // Offset: 0x1554560
+    // Offset: 0x15B4304
     static ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView);
     // static public System.Boolean CameraViewFromSerializedName(System.String name, out ObjectsMovementRecorder/CameraView cameraView)
-    // Offset: 0x15545C4
+    // Offset: 0x15B4368
     static bool CameraViewFromSerializedName(::StringW name, ByRef<::GlobalNamespace::ObjectsMovementRecorder::CameraView> cameraView);
     // static public System.String SerializedName(PlaybackRenderer/PlaybackScreenshot/Type type)
-    // Offset: 0x155465C
+    // Offset: 0x15B4400
     static ::StringW SerializedName(::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type type);
     // static public System.Boolean PlaybackScreenshotTypeFromSerializedName(System.String name, out PlaybackRenderer/PlaybackScreenshot/Type type)
-    // Offset: 0x15546B8
+    // Offset: 0x15B445C
     static bool PlaybackScreenshotTypeFromSerializedName(::StringW name, ByRef<::GlobalNamespace::PlaybackRenderer::PlaybackScreenshot::Type> type);
   }; // ObjectsMovementRecorderSerializedMethods
   #pragma pack(pop)

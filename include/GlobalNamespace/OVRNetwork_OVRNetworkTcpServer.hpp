@@ -71,29 +71,29 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Net.Sockets.TcpClient> clients
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& dyn_clients();
     // public System.Void .ctor()
-    // Offset: 0x177B7A8
+    // Offset: 0x178B7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpServer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpServer*, creationType>()));
     }
     // public System.Void StartListening(System.Int32 listeningPort)
-    // Offset: 0x177A4D0
+    // Offset: 0x178A4F0
     void StartListening(int listeningPort);
     // public System.Void StopListening()
-    // Offset: 0x177A9B8
+    // Offset: 0x178A9D8
     void StopListening();
     // private System.Void DoAcceptTcpClientCallback(System.IAsyncResult ar)
-    // Offset: 0x177AB0C
+    // Offset: 0x178AB2C
     void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
     // public System.Boolean HasConnectedClient()
-    // Offset: 0x177AFC0
+    // Offset: 0x178AFE0
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
-    // Offset: 0x177B1AC
+    // Offset: 0x178B1CC
     void Broadcast(int payloadType, ::ArrayW<uint8_t> payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
-    // Offset: 0x177B6B0
+    // Offset: 0x178B6D0
     void DoWriteDataCallback(::System::IAsyncResult* ar);
   }; // OVRNetwork/OVRNetworkTcpServer
   #pragma pack(pop)

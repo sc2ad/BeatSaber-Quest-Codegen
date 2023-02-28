@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::Vector3SO* roomCenter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::Vector3SO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112A09C
+    // [SpaceAttribute] Offset: 0x112EEDC
     // private UnityEngine.UI.Button _yIncButton
     // Size: 0x8
     // Offset: 0x78
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* playerHeightText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0x112A0F4
+    // [InjectAttribute] Offset: 0x112EF34
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x90
@@ -118,23 +118,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _playerHeight
     [[deprecated("Use field access instead!")]] float& dyn__playerHeight();
     // public System.Void .ctor()
-    // Offset: 0x13A0FD4
+    // Offset: 0x13CD398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorAdjustViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloorAdjustViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorAdjustViewController*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x13A0DBC
+    // Offset: 0x13CD180
     void Update();
     // private System.Void <DidActivate>b__9_0()
-    // Offset: 0x13A0FDC
+    // Offset: 0x13CD3A0
     void $DidActivate$b__9_0();
     // private System.Void <DidActivate>b__9_1()
-    // Offset: 0x13A1054
+    // Offset: 0x13CD418
     void $DidActivate$b__9_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13A0CC0
+    // Offset: 0x13CD084
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

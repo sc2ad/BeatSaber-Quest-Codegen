@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     ::UnityEngine::MeshFilter* meshFilter;
     // Field size check
     static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D654
+    // [InjectAttribute] Offset: 0x112240C
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x38
@@ -102,34 +102,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _followedTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x13509AC
+    // Offset: 0x137D05C
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1351384
+    // Offset: 0x137DA34
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x13513AC
+    // Offset: 0x137DA5C
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x135158C
+    // Offset: 0x137DC3C
     void OnDestroy();
     // public System.Void Mirror(SliderController sliderController)
-    // Offset: 0x1350014
+    // Offset: 0x137C6C4
     void Mirror(::GlobalNamespace::SliderController* sliderController);
     // private System.Void UpdateMaterialPropertyBlock(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x1351460
+    // Offset: 0x137DB10
     void UpdateMaterialPropertyBlock(float timeSinceHeadNoteJump);
     // private System.Void RemoveListeners()
-    // Offset: 0x1351590
+    // Offset: 0x137DC40
     void RemoveListeners();
     // public System.Void HandleSliderDidStartDissolving(SliderController sliderController, System.Single duration)
-    // Offset: 0x1351690
+    // Offset: 0x137DD40
     void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float duration);
     // private System.Void Dissolve(System.Single duration)
-    // Offset: 0x13516B8
+    // Offset: 0x137DD68
     void Dissolve(float duration);
     // public System.Void .ctor()
-    // Offset: 0x13516E0
+    // Offset: 0x137DD90
     // Implemented from: SliderControllerBase
     // Base method: System.Void SliderControllerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

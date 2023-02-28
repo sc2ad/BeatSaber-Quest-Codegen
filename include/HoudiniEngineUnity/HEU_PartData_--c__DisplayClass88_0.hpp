@@ -54,14 +54,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& dyn_previousTransformValues();
     // public System.Void .ctor()
-    // Offset: 0x1B3AFDC
+    // Offset: 0x1B490A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PartData::$$c__DisplayClass88_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PartData::$$c__DisplayClass88_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PartData::$$c__DisplayClass88_0*, creationType>()));
     }
     // System.Void <BakePartToGameObject>b__0(UnityEngine.Transform trans)
-    // Offset: 0x1B3C2A8
+    // Offset: 0x1B4A374
     void $BakePartToGameObject$b__0(::UnityEngine::Transform* trans);
   }; // HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c__DisplayClass88_0
   #pragma pack(pop)

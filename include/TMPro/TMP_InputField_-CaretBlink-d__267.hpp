@@ -63,26 +63,26 @@ namespace TMPro {
     // Get instance field reference: public TMPro.TMP_InputField <>4__this
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_InputField*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x14C1AA4
+    // Offset: 0x14DF644
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14C1B0C
+    // Offset: 0x14DF6AC
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14C195C
+    // Offset: 0x14DF4FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_InputField::$CaretBlink$d__267* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_InputField::$CaretBlink$d__267::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_InputField::$CaretBlink$d__267*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14C1988
+    // Offset: 0x14DF528
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14C198C
+    // Offset: 0x14DF52C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14C1AAC
+    // Offset: 0x14DF64C
     void System_Collections_IEnumerator_Reset();
   }; // TMPro.TMP_InputField/TMPro.<CaretBlink>d__267
   #pragma pack(pop)

@@ -59,76 +59,76 @@ namespace Oculus::Platform {
   class Rooms : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdateDataStore(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.String> data)
-    // Offset: 0x2B1B064
+    // Offset: 0x2B2BB40
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* UpdateDataStore(uint64_t roomID, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* data);
     // static public System.Void SetRoomInviteNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x2B1B2E4
+    // Offset: 0x2B2BDC0
     static void SetRoomInviteNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateAndJoinPrivate(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x2B1B360
+    // Offset: 0x2B2BE3C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* CreateAndJoinPrivate(::Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateAndJoinPrivate2(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2B1B494
+    // Offset: 0x2B2BF70
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* CreateAndJoinPrivate2(::Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, ::Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Get(System.UInt64 roomID)
-    // Offset: 0x2B1B5F4
+    // Offset: 0x2B2C0D0
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* Get(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> GetCurrent()
-    // Offset: 0x2B1B710
+    // Offset: 0x2B2C1EC
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x2B1B81C
+    // Offset: 0x2B2C2F8
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* GetCurrentForUser(uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetInvitableUsers()
-    // Offset: 0x2B1B938
+    // Offset: 0x2B2C414
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetInvitableUsers();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetInvitableUsers2(Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2B1BA44
+    // Offset: 0x2B2C520
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetInvitableUsers2(::Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomList> GetModeratedRooms()
-    // Offset: 0x2B1BB8C
+    // Offset: 0x2B2C668
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomList*>* GetModeratedRooms();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> InviteUser(System.UInt64 roomID, System.String inviteToken)
-    // Offset: 0x2B1BC98
+    // Offset: 0x2B2C774
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* InviteUser(uint64_t roomID, ::StringW inviteToken);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Join(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x2B1BDBC
+    // Offset: 0x2B2C898
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* Join(uint64_t roomID, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Join2(System.UInt64 roomID, Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2B1BEE0
+    // Offset: 0x2B2C9BC
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* Join2(uint64_t roomID, ::Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> KickUser(System.UInt64 roomID, System.UInt64 userID, System.Int32 kickDurationSeconds)
-    // Offset: 0x2B1C030
+    // Offset: 0x2B2CB0C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* KickUser(uint64_t roomID, uint64_t userID, int kickDurationSeconds);
     // static public Oculus.Platform.Request LaunchInvitableUserFlow(System.UInt64 roomID)
-    // Offset: 0x2B1C164
+    // Offset: 0x2B2CC40
     static ::Oculus::Platform::Request* LaunchInvitableUserFlow(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Leave(System.UInt64 roomID)
-    // Offset: 0x2B1C278
+    // Offset: 0x2B2CD54
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* Leave(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> SetDescription(System.UInt64 roomID, System.String description)
-    // Offset: 0x2B1C394
+    // Offset: 0x2B2CE70
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* SetDescription(uint64_t roomID, ::StringW description);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdateMembershipLockStatus(System.UInt64 roomID, Oculus.Platform.RoomMembershipLockStatus membershipLockStatus)
-    // Offset: 0x2B1C4B8
+    // Offset: 0x2B2CF94
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* UpdateMembershipLockStatus(uint64_t roomID, ::Oculus::Platform::RoomMembershipLockStatus membershipLockStatus);
     // static public Oculus.Platform.Request UpdateOwner(System.UInt64 roomID, System.UInt64 userID)
-    // Offset: 0x2B1C5DC
+    // Offset: 0x2B2D0B8
     static ::Oculus::Platform::Request* UpdateOwner(uint64_t roomID, uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdatePrivateRoomJoinPolicy(System.UInt64 roomID, Oculus.Platform.RoomJoinPolicy newJoinPolicy)
-    // Offset: 0x2B1C6F8
+    // Offset: 0x2B2D1D4
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* UpdatePrivateRoomJoinPolicy(uint64_t roomID, ::Oculus::Platform::RoomJoinPolicy newJoinPolicy);
     // static public System.Void SetRoomInviteAcceptedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
-    // Offset: 0x2B1B2E8
+    // Offset: 0x2B2BDC4
     static void SetRoomInviteAcceptedNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
     // static public System.Void SetRoomInviteReceivedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.RoomInviteNotification> callback)
-    // Offset: 0x2B1C81C
+    // Offset: 0x2B2D2F8
     static void SetRoomInviteReceivedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RoomInviteNotification*>::Callback* callback);
     // static public System.Void SetUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.Room> callback)
-    // Offset: 0x2B1C894
+    // Offset: 0x2B2D370
     static void SetUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>::Callback* callback);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomList> GetNextRoomListPage(Oculus.Platform.Models.RoomList list)
-    // Offset: 0x2B1C90C
+    // Offset: 0x2B2D3E8
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomList*>* GetNextRoomListPage(::Oculus::Platform::Models::RoomList* list);
   }; // Oculus.Platform.Rooms
   #pragma pack(pop)

@@ -118,59 +118,59 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.XmlName next
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlName*& dyn_next();
     // public System.String get_LocalName()
-    // Offset: 0x1636FE8
+    // Offset: 0x1657EE0
     ::StringW get_LocalName();
     // public System.String get_NamespaceURI()
-    // Offset: 0x1636FF0
+    // Offset: 0x1657EE8
     ::StringW get_NamespaceURI();
     // public System.String get_Prefix()
-    // Offset: 0x1636FF8
+    // Offset: 0x1657EF0
     ::StringW get_Prefix();
     // public System.Int32 get_HashCode()
-    // Offset: 0x1637000
+    // Offset: 0x1657EF8
     int get_HashCode();
     // public System.Xml.XmlDocument get_OwnerDocument()
-    // Offset: 0x1637008
+    // Offset: 0x1657F00
     ::System::Xml::XmlDocument* get_OwnerDocument();
     // public System.String get_Name()
-    // Offset: 0x1637010
+    // Offset: 0x1657F08
     ::StringW get_Name();
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0x163719C
+    // Offset: 0x1658094
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public System.Boolean get_IsDefault()
-    // Offset: 0x16371A4
+    // Offset: 0x165809C
     bool get_IsDefault();
     // public System.Boolean get_IsNil()
-    // Offset: 0x16371AC
+    // Offset: 0x16580A4
     bool get_IsNil();
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0x16371B4
+    // Offset: 0x16580AC
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x16371BC
+    // Offset: 0x16580B4
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0x16371C4
+    // Offset: 0x16580BC
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0x16371CC
+    // Offset: 0x16580C4
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
     // System.Void .ctor(System.String prefix, System.String localName, System.String ns, System.Int32 hashCode, System.Xml.XmlDocument ownerDoc, System.Xml.XmlName next)
-    // Offset: 0x1636B68
+    // Offset: 0x1657A60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlName* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlName*, creationType>(prefix, localName, ns, hashCode, ownerDoc, next)));
     }
     // static public System.Xml.XmlName Create(System.String prefix, System.String localName, System.String ns, System.Int32 hashCode, System.Xml.XmlDocument ownerDoc, System.Xml.XmlName next, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x1636A84
+    // Offset: 0x165797C
     static ::System::Xml::XmlName* Create(::StringW prefix, ::StringW localName, ::StringW ns, int hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // public System.Boolean Equals(System.Xml.Schema.IXmlSchemaInfo schemaInfo)
-    // Offset: 0x16371D4
+    // Offset: 0x16580CC
     bool Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // static public System.Int32 GetHashCode(System.String name)
-    // Offset: 0x16371E0
+    // Offset: 0x16580D8
     static int GetHashCode(::StringW name);
   }; // System.Xml.XmlName
   #pragma pack(pop)

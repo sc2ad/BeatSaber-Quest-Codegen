@@ -50,17 +50,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _arguments
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__arguments();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_arguments()
-    // Offset: 0x14298C8
+    // Offset: 0x145D7F4
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_arguments();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> arguments)
-    // Offset: 0x14298D0
+    // Offset: 0x145D7FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProgramArguments* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* arguments) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProgramArguments::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProgramArguments*, creationType>(arguments)));
     }
     // static public ProgramArguments Empty()
-    // Offset: 0x14298FC
+    // Offset: 0x145D828
     static ::GlobalNamespace::ProgramArguments* Empty();
   }; // ProgramArguments
   #pragma pack(pop)

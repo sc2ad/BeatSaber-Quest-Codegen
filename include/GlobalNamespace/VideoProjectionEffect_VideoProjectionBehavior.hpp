@@ -85,20 +85,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPreviewBeatmapLevel _previewBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__previewBeatmapLevel();
     // protected System.Void .ctor(VideoProjectionDataModelSO dataModel, SongTimeSyncedVideoPlayer videoPlayer, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x165F448
+    // Offset: 0x1541B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::VideoProjectionBehavior* New_ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionEffect::VideoProjectionBehavior*, creationType>(dataModel, videoPlayer, previewBeatmapLevel)));
     }
     // public System.Void Dispose()
-    // Offset: 0x165F7A8
+    // Offset: 0x1541EB4
     void Dispose();
     // protected System.Void LoadVideoFromModel(System.Int32 eventValue)
-    // Offset: 0x165F488
+    // Offset: 0x1541B94
     void LoadVideoFromModel(int eventValue);
     // protected System.Void LoadPreviewCoverAsset()
-    // Offset: 0x165F6B4
+    // Offset: 0x1541DC0
     void LoadPreviewCoverAsset();
   }; // VideoProjectionEffect/VideoProjectionBehavior
   // WARNING Not writing size check since size may be invalid!

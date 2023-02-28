@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action finishedCallback
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
-    // Offset: 0x14562D8
+    // Offset: 0x1472D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass70_0::.ctor");

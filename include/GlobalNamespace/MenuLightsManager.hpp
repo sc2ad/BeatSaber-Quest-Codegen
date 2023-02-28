@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0x111F228
+    // [InjectAttribute] Offset: 0x1123FE0
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x28
@@ -89,38 +89,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private MenuLightsPresetSO _preset
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MenuLightsPresetSO*& dyn__preset();
     // public System.Void .ctor()
-    // Offset: 0x134D694
+    // Offset: 0x1379D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsManager*, creationType>()));
     }
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x134D124
+    // Offset: 0x13797D4
     ::System::Collections::IEnumerator* Start();
     // protected System.Void Update()
-    // Offset: 0x134D1C0
+    // Offset: 0x1379870
     void Update();
     // private System.Boolean IsColorVeryCloseToColor(UnityEngine.Color color0, UnityEngine.Color color1)
-    // Offset: 0x134D378
+    // Offset: 0x1379A28
     bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1);
     // private System.Void SetColor(System.Int32 lightId, UnityEngine.Color color)
-    // Offset: 0x134D4A0
+    // Offset: 0x1379B50
     void SetColor(int lightId, ::UnityEngine::Color color);
     // private UnityEngine.Color CurrentColorForID(System.Int32 lightId)
-    // Offset: 0x134D4BC
+    // Offset: 0x1379B6C
     ::UnityEngine::Color CurrentColorForID(int lightId);
     // private System.Boolean SetColorsFromPreset(MenuLightsPresetSO preset, System.Single interpolationFactor)
-    // Offset: 0x134D210
+    // Offset: 0x13798C0
     bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float interpolationFactor);
     // private System.Void RefreshLightsDictForPreset(MenuLightsPresetSO preset)
-    // Offset: 0x134D514
+    // Offset: 0x1379BC4
     void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);
     // public System.Void SetColorPreset(MenuLightsPresetSO preset, System.Boolean animated)
-    // Offset: 0x1344C60
+    // Offset: 0x13712D4
     void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
     // public System.Void RefreshColors()
-    // Offset: 0x134D5EC
+    // Offset: 0x1379C9C
     void RefreshColors();
   }; // MenuLightsManager
   #pragma pack(pop)

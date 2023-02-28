@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean value
     [[deprecated("Use field access instead!")]] bool& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x157CB7C
+    // Offset: 0x159F6AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseController::$$c__DisplayClass25_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseController::$$c__DisplayClass25_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseController::$$c__DisplayClass25_0*, creationType>()));
     }
     // System.Void <get_canPause>b__0(System.Boolean newValue)
-    // Offset: 0x157CB84
+    // Offset: 0x15A0B2C
     void $get_canPause$b__0(bool newValue);
   }; // PauseController/<>c__DisplayClass25_0
   #pragma pack(pop)

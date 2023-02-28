@@ -74,28 +74,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnMovementData*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D140
+    // [InjectAttribute] Offset: 0x1121EF8
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D150
+    // [InjectAttribute] Offset: 0x1121F08
     // private readonly IBeatmapObjectSpawner _beatmapObjectSpawner
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IBeatmapObjectSpawner* beatmapObjectSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapObjectSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D160
+    // [InjectAttribute] Offset: 0x1121F18
     // private readonly IJumpOffsetYProvider _jumpOffsetYProvider
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IJumpOffsetYProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D170
+    // [InjectAttribute] Offset: 0x1121F28
     // private readonly BeatmapObjectSpawnController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -190,74 +190,74 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnRotation
     [[deprecated("Use field access instead!")]] float& dyn__spawnRotation();
     // public System.Int32 get_noteLinesCount()
-    // Offset: 0x13F8204
+    // Offset: 0x13E74E0
     int get_noteLinesCount();
     // public System.Single get_jumpOffsetY()
-    // Offset: 0x13F8220
+    // Offset: 0x13E74FC
     float get_jumpOffsetY();
     // public System.Single get_moveDuration()
-    // Offset: 0x13F82E8
+    // Offset: 0x13E75C4
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x13F8304
+    // Offset: 0x13E75E0
     float get_jumpDuration();
     // public System.Single get_jumpDistance()
-    // Offset: 0x13F8320
+    // Offset: 0x13E75FC
     float get_jumpDistance();
     // public System.Single get_verticalLayerDistance()
-    // Offset: 0x13F833C
+    // Offset: 0x13E7618
     float get_verticalLayerDistance();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x13F8368
+    // Offset: 0x13E7644
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteLinesDistance()
-    // Offset: 0x13F8384
+    // Offset: 0x13E7660
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
-    // Offset: 0x13F83B0
+    // Offset: 0x13E768C
     ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x13F83B8
+    // Offset: 0x13E7694
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x13F83C0
+    // Offset: 0x13E769C
     void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x13F8464
+    // Offset: 0x13E7740
     void remove_didInitEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13F95BC
+    // Offset: 0x13E8898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13F8508
+    // Offset: 0x13E77E4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13F8A4C
+    // Offset: 0x13E7D28
     void OnDestroy();
     // private System.Void HandleObstacleDataCallback(ObstacleData obstacleData)
-    // Offset: 0x13F8AC4
+    // Offset: 0x13E7DA0
     void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
     // private System.Void HandleNoteDataCallback(NoteData noteData)
-    // Offset: 0x13F8E1C
+    // Offset: 0x13E80F8
     void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
     // private System.Void HandleSliderDataCallback(SliderData sliderNoteData)
-    // Offset: 0x13F9120
+    // Offset: 0x13E83FC
     void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
     // private System.Void HandleSpawnRotationCallback(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x13F94C8
+    // Offset: 0x13E87A4
     void HandleSpawnRotationCallback(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // public System.Void StopSpawning()
-    // Offset: 0x13F94E4
+    // Offset: 0x13E87C0
     void StopSpawning();
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
-    // Offset: 0x13F94F0
+    // Offset: 0x13E87CC
     ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
-    // Offset: 0x13F9528
+    // Offset: 0x13E8804
     float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
   }; // BeatmapObjectSpawnController
   #pragma pack(pop)

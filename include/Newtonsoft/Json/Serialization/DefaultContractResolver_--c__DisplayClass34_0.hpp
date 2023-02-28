@@ -56,7 +56,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public System.Reflection.MemberInfo member
     [[deprecated("Use field access instead!")]] ::System::Reflection::MemberInfo*& dyn_member();
     // public System.Void .ctor()
-    // Offset: 0x1DFFADC
+    // Offset: 0x1E1127C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass34_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass34_0::.ctor");

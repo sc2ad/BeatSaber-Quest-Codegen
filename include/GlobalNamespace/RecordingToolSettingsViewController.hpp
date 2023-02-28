@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::HMUI::TextPageScrollView* textPageScrollView;
     // Field size check
     static_assert(sizeof(::HMUI::TextPageScrollView*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x112C3DC
+    // [InjectOptionalAttribute] Offset: 0x113121C
     // private readonly RecordingToolManager _recordingToolManager
     // Size: 0x8
     // Offset: 0x80
@@ -86,23 +86,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x14301C4
+    // Offset: 0x14640F0
     void add_didFinishEvent(::System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x1430308
+    // Offset: 0x1464234
     void remove_didFinishEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1430584
+    // Offset: 0x14644B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolSettingsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolSettingsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolSettingsViewController*, creationType>()));
     }
     // private System.Void <DidActivate>b__6_0()
-    // Offset: 0x143058C
+    // Offset: 0x14644B8
     void $DidActivate$b__6_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1430484
+    // Offset: 0x14643B0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -81,19 +81,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _dataFileName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__dataFileName();
     // public System.String get_version()
-    // Offset: 0x1424864
+    // Offset: 0x14587CC
     ::StringW get_version();
     // public System.String[] get_objectIds()
-    // Offset: 0x142486C
+    // Offset: 0x14587D4
     ::ArrayW<::StringW> get_objectIds();
     // public PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData get_externalCameraCalibration()
-    // Offset: 0x1424874
+    // Offset: 0x14587DC
     ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
     // public System.String get_dataFileName()
-    // Offset: 0x142487C
+    // Offset: 0x14587E4
     ::StringW get_dataFileName();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration, System.String dataFileName)
-    // Offset: 0x1424884
+    // Offset: 0x14587EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingInfoSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingInfoSaveData::.ctor");

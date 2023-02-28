@@ -52,7 +52,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public System.Byte* SortKey
     [[deprecated("Use field access instead!")]] uint8_t*& dyn_SortKey();
     // public System.Void .ctor(System.Boolean dummy)
-    // Offset: 0x1FD5EE4
+    // Offset: 0x1FE7684
     PreviousInfo(bool dummy);
   }; // Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.PreviousInfo
   #pragma pack(pop)

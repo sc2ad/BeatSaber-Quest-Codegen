@@ -70,26 +70,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_productLabel()
-    // Offset: 0x13891B8
+    // Offset: 0x138F7C4
     ::StringW get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0x13891C0
+    // Offset: 0x138F7CC
     ::StringW get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0x13891C8
+    // Offset: 0x138F7D4
     ::StringW get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0x13891D0
+    // Offset: 0x138F7DC
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x13891D8
+    // Offset: 0x138F7E4
     ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> get_levelProductsData();
-    // public System.Void .ctor()
-    // Offset: 0x13891E0
+    // public System.Void .ctor(System.String productLabel, System.String categoryLabel, System.String levelPackId, System.Single packLevelPriceDiscountMul, PS4LevelProductsModelSO/LevelProductData[] levelProductsData)
+    // Offset: 0x138F7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PS4LevelProductsModelSO::LevelPackProductData* New_ctor() {
+    static PS4LevelProductsModelSO::LevelPackProductData* New_ctor(::StringW productLabel, ::StringW categoryLabel, ::StringW levelPackId, float packLevelPriceDiscountMul, ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> levelProductsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelPackProductData*, creationType>()));
+      return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelPackProductData*, creationType>(productLabel, categoryLabel, levelPackId, packLevelPriceDiscountMul, levelProductsData)));
     }
   }; // PS4LevelProductsModelSO/LevelPackProductData
   #pragma pack(pop)

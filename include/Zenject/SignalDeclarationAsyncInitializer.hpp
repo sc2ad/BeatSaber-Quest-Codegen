@@ -76,20 +76,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.SignalDeclaration> _declarations
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*& dyn__declarations();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.SignalDeclaration> declarations, Zenject.LazyInject`1<Zenject.TickableManager> tickManager)
-    // Offset: 0x1DD5FA4
+    // Offset: 0x1DE8744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SignalDeclarationAsyncInitializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalDeclarationAsyncInitializer*, creationType>(declarations, tickManager)));
     }
     // public System.Void Initialize()
-    // Offset: 0x1DD5FDC
+    // Offset: 0x1DE877C
     void Initialize();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DD6138
+    // Offset: 0x1DE88D8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DD6250
+    // Offset: 0x1DE89F0
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SignalDeclarationAsyncInitializer
   #pragma pack(pop)

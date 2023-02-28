@@ -172,29 +172,29 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single StereoIpdMm
     [[deprecated("Use field access instead!")]] float& dyn_StereoIpdMm();
     // public System.Void .ctor()
-    // Offset: 0x18EA464
+    // Offset: 0x18F93C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Skybox* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Skybox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Skybox*, creationType>()));
     }
     // public System.Void SetTextureByIndex(System.Int32 i, UnityEngine.Texture t)
-    // Offset: 0x18EA39C
+    // Offset: 0x18F92FC
     void SetTextureByIndex(int i, ::UnityEngine::Texture* t);
     // public UnityEngine.Texture GetTextureByIndex(System.Int32 i)
-    // Offset: 0x18EA3F0
+    // Offset: 0x18F9350
     ::UnityEngine::Texture* GetTextureByIndex(int i);
     // static public System.Void SetOverride(UnityEngine.Texture front, UnityEngine.Texture back, UnityEngine.Texture left, UnityEngine.Texture right, UnityEngine.Texture top, UnityEngine.Texture bottom)
-    // Offset: 0x18E0E3C
+    // Offset: 0x18EFD9C
     static void SetOverride(::UnityEngine::Texture* front, ::UnityEngine::Texture* back, ::UnityEngine::Texture* left, ::UnityEngine::Texture* right, ::UnityEngine::Texture* top, ::UnityEngine::Texture* bottom);
     // static public System.Void ClearOverride()
-    // Offset: 0x18E1268
+    // Offset: 0x18F01C8
     static void ClearOverride();
     // private System.Void OnEnable()
-    // Offset: 0x18EA44C
+    // Offset: 0x18F93AC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18EA460
+    // Offset: 0x18F93C0
     void OnDisable();
   }; // SteamVR_Skybox
   #pragma pack(pop)

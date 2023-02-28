@@ -38,26 +38,26 @@ namespace GlobalNamespace {
   class SceneLoadedCallbacksOrderDebug : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AD53BC
+    // Offset: 0x2AE5BA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneLoadedCallbacksOrderDebug* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneLoadedCallbacksOrderDebug::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneLoadedCallbacksOrderDebug*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x2AD507C
+    // Offset: 0x2AE5860
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x2AD50E8
+    // Offset: 0x2AE58CC
     void OnEnable();
     // protected System.Void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
-    // Offset: 0x2AD51B8
+    // Offset: 0x2AE599C
     void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void Start()
-    // Offset: 0x2AD5280
+    // Offset: 0x2AE5A64
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x2AD52EC
+    // Offset: 0x2AE5AD0
     void OnDisable();
   }; // SceneLoadedCallbacksOrderDebug
   #pragma pack(pop)

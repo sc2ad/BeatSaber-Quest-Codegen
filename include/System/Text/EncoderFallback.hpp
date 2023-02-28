@@ -60,13 +60,13 @@ namespace System::Text {
     // Get instance field reference: System.Boolean bIsMicrosoftBestFitFallback
     [[deprecated("Use field access instead!")]] bool& dyn_bIsMicrosoftBestFitFallback();
     // static private System.Object get_InternalSyncObject()
-    // Offset: 0x1F61568
+    // Offset: 0x1F72D08
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.EncoderFallback get_ReplacementFallback()
-    // Offset: 0x1F5B148
+    // Offset: 0x1F6C8E8
     static ::System::Text::EncoderFallback* get_ReplacementFallback();
     // static public System.Text.EncoderFallback get_ExceptionFallback()
-    // Offset: 0x1F6164C
+    // Offset: 0x1F72DEC
     static ::System::Text::EncoderFallback* get_ExceptionFallback();
     // public System.Int32 get_MaxCharCount()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -75,7 +75,7 @@ namespace System::Text {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // protected System.Void .ctor()
-    // Offset: 0x1F60CD0
+    // Offset: 0x1F72470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -70,14 +70,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private NUnit.Framework.Internal.Commands.TestCommand _command
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::Commands::TestCommand*& dyn__command();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x19AE07C
+    // Offset: 0x19BBFDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestWorkItem* New_ctor(::NUnit::Framework::Internal::TestMethod* test, ::NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x19AE0C0
+    // Offset: 0x19BC020
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     ::System::Collections::IEnumerable* PerformWork();

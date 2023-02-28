@@ -68,41 +68,44 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean is_running
     [[deprecated("Use field access instead!")]] bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x1DA030C
+    // Offset: 0x1DB2B24
     ::System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x1DA04A8
+    // Offset: 0x1DB2CC0
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x1DA0428
+    // Offset: 0x1DB2C40
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1DA05C8
+    // Offset: 0x1DB2DE0
     bool get_IsRunning();
     // public System.Void .ctor()
-    // Offset: 0x1DA0304
+    // Offset: 0x1DB2AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stopwatch* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Stopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DA074C
+    // Offset: 0x1DB2EEC
     static void _cctor();
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x1DA0300
+    // Offset: 0x1DB2A34
     static int64_t GetTimestamp();
+    // static public System.Diagnostics.Stopwatch StartNew()
+    // Offset: 0x1DB2A38
+    static ::System::Diagnostics::Stopwatch* StartNew();
     // public System.Void Reset()
-    // Offset: 0x1DA05D0
+    // Offset: 0x1DB2DE8
     void Reset();
     // public System.Void Start()
-    // Offset: 0x1DA05DC
+    // Offset: 0x1DB2AAC
     void Start();
     // public System.Void Stop()
-    // Offset: 0x1DA0654
+    // Offset: 0x1DB2DF4
     void Stop();
     // public System.Void Restart()
-    // Offset: 0x1DA06DC
+    // Offset: 0x1DB2E7C
     void Restart();
   }; // System.Diagnostics.Stopwatch
   #pragma pack(pop)
@@ -160,6 +163,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&System::Diagnostics::Stopwatch::GetTimestamp)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Stopwatch*), "GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Diagnostics::Stopwatch::StartNew
+// Il2CppName: StartNew
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::Stopwatch* (*)()>(&System::Diagnostics::Stopwatch::StartNew)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Stopwatch*), "StartNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Stopwatch::Reset

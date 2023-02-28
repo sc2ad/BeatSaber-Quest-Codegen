@@ -66,16 +66,16 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.UI.Graphic m_Graphic
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Graphic*& dyn_m_Graphic();
     // protected UnityEngine.UI.Graphic get_graphic()
-    // Offset: 0x197EFF0
+    // Offset: 0x198CF50
     ::UnityEngine::UI::Graphic* get_graphic();
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x197F28C
+    // Offset: 0x198D1EC
     void ModifyMesh(::UnityEngine::Mesh* mesh);
     // public System.Void ModifyMesh(UnityEngine.UI.VertexHelper vh)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
     // protected System.Void .ctor()
-    // Offset: 0x197F3C8
+    // Offset: 0x198D328
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,17 +84,17 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<BaseMeshEffect*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x197F088
+    // Offset: 0x198CFE8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x197F134
+    // Offset: 0x198D094
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDisable()
     void OnDisable();
     // protected override System.Void OnDidApplyAnimationProperties()
-    // Offset: 0x197F1E0
+    // Offset: 0x198D140
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDidApplyAnimationProperties()
     void OnDidApplyAnimationProperties();

@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 offset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x2AD7718
+    // Offset: 0x2AE7EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Snap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Snap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Snap*, creationType>()));
     }
     // public System.Void SnapPosition()
-    // Offset: 0x2AD7438
+    // Offset: 0x2AE7C1C
     void SnapPosition();
   }; // Snap
   #pragma pack(pop)

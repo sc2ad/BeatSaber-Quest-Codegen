@@ -26,22 +26,22 @@ namespace MS::Internal::Xml::Cache {
   class XPathNodeHelper : public ::Il2CppObject {
     public:
     // static public System.Int32 GetLocalNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
-    // Offset: 0x1AFA320
+    // Offset: 0x1B083EC
     static int GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
     // static public System.Int32 GetInScopeNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
-    // Offset: 0x1AFA390
+    // Offset: 0x1B0845C
     static int GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
     // static public System.Boolean GetParent(ref MS.Internal.Xml.Cache.XPathNode[] pageNode, ref System.Int32 idxNode)
-    // Offset: 0x1AFA66C
+    // Offset: 0x1B08738
     static bool GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
     // static public System.Int32 GetLocation(MS.Internal.Xml.Cache.XPathNode[] pageNode, System.Int32 idxNode)
-    // Offset: 0x1AFA864
+    // Offset: 0x1B08930
     static int GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageNode, int idxNode);
     // static public System.Boolean GetTextFollowing(ref MS.Internal.Xml.Cache.XPathNode[] pageCurrent, ref System.Int32 idxCurrent, MS.Internal.Xml.Cache.XPathNode[] pageEnd, System.Int32 idxEnd)
-    // Offset: 0x1AF9E48
+    // Offset: 0x1B07F14
     static bool GetTextFollowing(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageCurrent, ByRef<int> idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageEnd, int idxEnd);
     // static public System.Boolean GetNonDescendant(ref MS.Internal.Xml.Cache.XPathNode[] pageNode, ref System.Int32 idxNode)
-    // Offset: 0x1AF9DAC
+    // Offset: 0x1B07E78
     static bool GetNonDescendant(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
   }; // MS.Internal.Xml.Cache.XPathNodeHelper
   #pragma pack(pop)

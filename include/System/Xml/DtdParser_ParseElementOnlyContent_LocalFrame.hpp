@@ -44,7 +44,7 @@ namespace System::Xml {
     // Get instance field reference: public System.Xml.DtdParser/System.Xml.Token parsingSchema
     [[deprecated("Use field access instead!")]] ::System::Xml::DtdParser::Token& dyn_parsingSchema();
     // public System.Void .ctor(System.Int32 startParentEntityIdParam)
-    // Offset: 0x1B01CB0
+    // Offset: 0x1B0FD7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::ParseElementOnlyContent_LocalFrame* New_ctor(int startParentEntityIdParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame::.ctor");

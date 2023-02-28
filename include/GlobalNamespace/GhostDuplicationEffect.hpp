@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0x111F1B8
+    // [InjectAttribute] Offset: 0x1123F70
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -88,44 +88,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
     [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1463DEC
+    // Offset: 0x148088C
     void set_hide(bool value);
     // private System.Single get_size()
-    // Offset: 0x1463EE8
+    // Offset: 0x1480988
     float get_size();
     // private System.Void set_size(System.Single value)
-    // Offset: 0x1463E24
+    // Offset: 0x14808C4
     void set_size(float value);
     // private System.Single get_alpha()
-    // Offset: 0x1463F3C
+    // Offset: 0x14809DC
     float get_alpha();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x1463790
+    // Offset: 0x1480230
     void set_alpha(float value);
     // public System.Void .ctor()
-    // Offset: 0x1463F88
+    // Offset: 0x1480A28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostDuplicationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostDuplicationEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostDuplicationEffect*, creationType>()));
     }
     // protected System.Void OnDestroy()
-    // Offset: 0x146364C
+    // Offset: 0x14800EC
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x14636E4
+    // Offset: 0x1480184
     void Awake();
     // private System.Void Init()
-    // Offset: 0x14636F4
+    // Offset: 0x1480194
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x146386C
+    // Offset: 0x148030C
     void Animate(::GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x1463C04
+    // Offset: 0x14806A4
     ::System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x1463C84
+    // Offset: 0x1480724
     void SetDistances(float distance, ::UnityEngine::Vector3 direction);
   }; // GhostDuplicationEffect
   #pragma pack(pop)

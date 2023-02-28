@@ -59,31 +59,31 @@ namespace HMUI {
     // Get instance field reference: private HMUI.UISelectionState _selectionState
     [[deprecated("Use field access instead!")]] ::HMUI::UISelectionState& dyn__selectionState();
     // public HMUI.UISelectionState get_selectionState()
-    // Offset: 0x16F5F5C
+    // Offset: 0x1704F7C
     ::HMUI::UISelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16F5F64
+    // Offset: 0x1704F84
     void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.UISelectionState> value)
-    // Offset: 0x16F600C
+    // Offset: 0x170502C
     void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x16F6208
+    // Offset: 0x1705228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoTransitionsToggle* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NoTransitionsToggle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsToggle*, creationType>()));
     }
     // private System.Void <Start>b__6_0(System.Boolean isOn)
-    // Offset: 0x16F6210
+    // Offset: 0x1705230
     void $Start$b__6_0(bool isOn);
     // protected override System.Void Start()
-    // Offset: 0x16F60B4
+    // Offset: 0x17050D4
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::Start()
     void Start();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x16F615C
+    // Offset: 0x170517C
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(::UnityEngine::UI::Selectable::SelectionState state, bool instant);

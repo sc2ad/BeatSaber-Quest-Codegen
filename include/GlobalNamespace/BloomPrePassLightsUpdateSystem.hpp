@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1CD2E2C
+    // Offset: 0x1CE45A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassLightsUpdateSystem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLightsUpdateSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLightsUpdateSystem*, creationType>()));
     }
     // protected System.Void LateUpdate()
-    // Offset: 0x1CD2B80
+    // Offset: 0x1CE42FC
     void LateUpdate();
   }; // BloomPrePassLightsUpdateSystem
   #pragma pack(pop)

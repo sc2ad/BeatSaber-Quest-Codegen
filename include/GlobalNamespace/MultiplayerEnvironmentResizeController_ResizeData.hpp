@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     float offset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [NullAllowed] Offset: 0x1131134
+    // [NullAllowed] Offset: 0x1135FA4
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
-    // [NullAllowed] Offset: 0x113116C
+    // [NullAllowed] Offset: 0x1135FDC
     // private UnityEngine.Transform[] _otherTransforms
     // Size: 0x8
     // Offset: 0x20
@@ -75,19 +75,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform[] _otherTransforms
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Transform*>& dyn__otherTransforms();
     // public MultiplayerEnvironmentResizeController/ResizeType get_resizeType()
-    // Offset: 0x1471004
+    // Offset: 0x14D703C
     ::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType get_resizeType();
     // public System.Single get_offset()
-    // Offset: 0x147100C
+    // Offset: 0x14D7044
     float get_offset();
     // public TubeBloomPrePassLight[] get_lights()
-    // Offset: 0x1471014
+    // Offset: 0x14D704C
     ::ArrayW<::GlobalNamespace::TubeBloomPrePassLight*> get_lights();
     // public UnityEngine.Transform[] get_otherTransforms()
-    // Offset: 0x147101C
+    // Offset: 0x14D7054
     ::ArrayW<::UnityEngine::Transform*> get_otherTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1471024
+    // Offset: 0x14D705C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerEnvironmentResizeController::ResizeData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::.ctor");

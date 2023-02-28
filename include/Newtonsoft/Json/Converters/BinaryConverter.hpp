@@ -66,16 +66,16 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private Newtonsoft.Json.Utilities.ReflectionObject _reflectionObject
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Utilities::ReflectionObject*& dyn__reflectionObject();
     // private System.Byte[] GetByteArray(System.Object value)
-    // Offset: 0x1804D6C
+    // Offset: 0x1814D8C
     ::ArrayW<uint8_t> GetByteArray(::Il2CppObject* value);
     // private System.Void EnsureReflectionObject(System.Type t)
-    // Offset: 0x1804EE0
+    // Offset: 0x1814F00
     void EnsureReflectionObject(::System::Type* t);
     // private System.Byte[] ReadByteArray(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x18053B0
+    // Offset: 0x18153D0
     ::ArrayW<uint8_t> ReadByteArray(::Newtonsoft::Json::JsonReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1805624
+    // Offset: 0x1815644
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,17 +84,17 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<BinaryConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1804D08
+    // Offset: 0x1814D28
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x180505C
+    // Offset: 0x181507C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x18055D0
+    // Offset: 0x18155F0
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);

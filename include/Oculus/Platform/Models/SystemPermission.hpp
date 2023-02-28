@@ -51,7 +51,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.PermissionGrantStatus PermissionGrantStatus
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::PermissionGrantStatus& dyn_PermissionGrantStatus();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A37F9C
+    // Offset: 0x1A45EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemPermission* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::SystemPermission::.ctor");

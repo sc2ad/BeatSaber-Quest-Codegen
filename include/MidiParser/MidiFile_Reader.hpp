@@ -29,22 +29,22 @@ namespace MidiParser {
   class MidiFile::Reader : public ::Il2CppObject {
     public:
     // static public System.Int32 Read16(System.Byte[] data, ref System.Int32 i)
-    // Offset: 0x2B9B4F0
+    // Offset: 0x2BAF178
     static int Read16(::ArrayW<uint8_t> data, ByRef<int> i);
     // static public System.Int32 Read32(System.Byte[] data, ref System.Int32 i)
-    // Offset: 0x2B9B448
+    // Offset: 0x2BAF0D0
     static int Read32(::ArrayW<uint8_t> data, ByRef<int> i);
     // static public System.Byte Read8(System.Byte[] data, ref System.Int32 i)
-    // Offset: 0x2B9B9F8
+    // Offset: 0x2BAF680
     static uint8_t Read8(::ArrayW<uint8_t> data, ByRef<int> i);
     // static public System.Byte[] ReadAllBytesFromStream(System.IO.Stream input)
-    // Offset: 0x2B9BA3C
+    // Offset: 0x2BAF6C4
     static ::ArrayW<uint8_t> ReadAllBytesFromStream(::System::IO::Stream* input);
     // static public System.String ReadString(System.Byte[] data, ref System.Int32 i, System.Int32 length)
-    // Offset: 0x2B9B3E4
+    // Offset: 0x2BAF06C
     static ::StringW ReadString(::ArrayW<uint8_t> data, ByRef<int> i, int length);
     // static public System.Int32 ReadVarInt(System.Byte[] data, ref System.Int32 i)
-    // Offset: 0x2B9B8F4
+    // Offset: 0x2BAF57C
     static int ReadVarInt(::ArrayW<uint8_t> data, ByRef<int> i);
   }; // MidiParser.MidiFile/MidiParser.Reader
   #pragma pack(pop)

@@ -92,26 +92,26 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Threading.ReaderWriterLock rw_lock
     [[deprecated("Use field access instead!")]] ::System::Threading::ReaderWriterLock*& dyn_rw_lock();
     // System.Security.AccessControl.AccessControlSections get_AccessControlSectionsModified()
-    // Offset: 0x1BDA2EC
+    // Offset: 0x1BE8AB8
     ::System::Security::AccessControl::AccessControlSections get_AccessControlSectionsModified();
     // System.Void set_AccessControlSectionsModified(System.Security.AccessControl.AccessControlSections value)
-    // Offset: 0x1BD8D6C
+    // Offset: 0x1BE7538
     void set_AccessControlSectionsModified(::System::Security::AccessControl::AccessControlSections value);
     // protected System.Boolean get_IsContainer()
-    // Offset: 0x1BDA44C
+    // Offset: 0x1BE8C18
     bool get_IsContainer();
     // protected System.Boolean get_IsDS()
-    // Offset: 0x1BDA468
+    // Offset: 0x1BE8C34
     bool get_IsDS();
     // protected System.Void .ctor(System.Security.AccessControl.CommonSecurityDescriptor securityDescriptor)
-    // Offset: 0x1BDA230
+    // Offset: 0x1BE89FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::ObjectSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectSecurity*, creationType>(securityDescriptor)));
     }
     // protected System.Void .ctor(System.Boolean isContainer, System.Boolean isDS)
-    // Offset: 0x1BD72E8
+    // Offset: 0x1BE5AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectSecurity* New_ctor(bool isContainer, bool isDS) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::ObjectSecurity::.ctor");
@@ -121,34 +121,34 @@ namespace System::Security::AccessControl {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);
     // public System.Void SetSecurityDescriptorBinaryForm(System.Byte[] binaryForm, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BD986C
+    // Offset: 0x1BE8038
     void SetSecurityDescriptorBinaryForm(::ArrayW<uint8_t> binaryForm, ::System::Security::AccessControl::AccessControlSections includeSections);
     // private System.Void CopySddlForm(System.Security.AccessControl.CommonSecurityDescriptor sourceDescriptor, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BDA484
+    // Offset: 0x1BE8C50
     void CopySddlForm(::System::Security::AccessControl::CommonSecurityDescriptor* sourceDescriptor, ::System::Security::AccessControl::AccessControlSections includeSections);
     // private System.Void Reading()
-    // Offset: 0x1BDA310
+    // Offset: 0x1BE8ADC
     void Reading();
     // protected System.Void ReadLock()
-    // Offset: 0x1BDA608
+    // Offset: 0x1BE8DD4
     void ReadLock();
     // protected System.Void ReadUnlock()
-    // Offset: 0x1BDA628
+    // Offset: 0x1BE8DF4
     void ReadUnlock();
     // private System.Void Writing()
-    // Offset: 0x1BDA3B8
+    // Offset: 0x1BE8B84
     void Writing();
     // protected System.Void WriteLock()
-    // Offset: 0x1BD8D4C
+    // Offset: 0x1BE7518
     void WriteLock();
     // protected System.Void WriteUnlock()
-    // Offset: 0x1BD8D94
+    // Offset: 0x1BE7560
     void WriteUnlock();
     // System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(System.Boolean includeExplicit, System.Boolean includeInherited, System.Type targetType)
-    // Offset: 0x1BD73E0
+    // Offset: 0x1BE5BAC
     ::System::Security::AccessControl::AuthorizationRuleCollection* InternalGetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
     // System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce ace, System.Type targetType, System.Security.AccessControl.AccessControlType type)
-    // Offset: 0x1BDA644
+    // Offset: 0x1BE8E10
     ::System::Security::AccessControl::AccessRule* InternalAccessRuleFactory(::System::Security::AccessControl::QualifiedAce* ace, ::System::Type* targetType, ::System::Security::AccessControl::AccessControlType type);
   }; // System.Security.AccessControl.ObjectSecurity
   #pragma pack(pop)

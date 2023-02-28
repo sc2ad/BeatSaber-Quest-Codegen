@@ -102,41 +102,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$timeOffsetMs$k__BackingField();
     // static public IPacketPool`1<StandardScoreSyncStateDeltaNetSerializable> get_pool()
-    // Offset: 0x26A678C
+    // Offset: 0x26B8F60
     static ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();
     // public SyncStateId get_baseId()
-    // Offset: 0x26A67D4
+    // Offset: 0x26B8FA8
     ::GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x26A67DC
+    // Offset: 0x26B8FB0
     void set_baseId(::GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x26A67E4
+    // Offset: 0x26B8FB8
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x26A67EC
+    // Offset: 0x26B8FC0
     void set_timeOffsetMs(int value);
     // public StandardScoreSyncState get_delta()
-    // Offset: 0x26A67F4
+    // Offset: 0x26B8FC8
     ::GlobalNamespace::StandardScoreSyncState get_delta();
     // public System.Void set_delta(StandardScoreSyncState value)
-    // Offset: 0x26A6808
+    // Offset: 0x26B8FDC
     void set_delta(::GlobalNamespace::StandardScoreSyncState value);
     // public System.Void .ctor()
-    // Offset: 0x26A6A64
+    // Offset: 0x26B9238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardScoreSyncStateDeltaNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardScoreSyncStateDeltaNetSerializable*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x26A681C
+    // Offset: 0x26B8FF0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26A6904
+    // Offset: 0x26B90D8
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x26A69A8
+    // Offset: 0x26B917C
     void Release();
   }; // StandardScoreSyncStateDeltaNetSerializable
   #pragma pack(pop)

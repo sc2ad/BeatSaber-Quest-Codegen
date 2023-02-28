@@ -58,66 +58,66 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean m_Data
     [[deprecated("Use field access instead!")]] bool& dyn_m_Data();
     // public System.Void .ctor(System.Boolean aData)
-    // Offset: 0x1A5FCC8
+    // Offset: 0x1A6CC10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONBool* New_ctor(bool aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONBool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONBool*, creationType>(aData)));
     }
     // public System.Void .ctor(System.String aData)
-    // Offset: 0x1A5FD48
+    // Offset: 0x1A6CC90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONBool* New_ctor(::StringW aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONBool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONBool*, creationType>(aData)));
     }
     // public override HoudiniEngineUnity.JSONNodeType get_Tag()
-    // Offset: 0x1A5FBEC
+    // Offset: 0x1A6CB34
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNodeType JSONNode::get_Tag()
     ::HoudiniEngineUnity::JSONNodeType get_Tag();
     // public override System.Boolean get_IsBoolean()
-    // Offset: 0x1A5FBF4
+    // Offset: 0x1A6CB3C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::get_IsBoolean()
     bool get_IsBoolean();
     // public override System.String get_Value()
-    // Offset: 0x1A5FC1C
+    // Offset: 0x1A6CB64
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.String JSONNode::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x1A5FC28
+    // Offset: 0x1A6CB70
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
     void set_Value(::StringW value);
     // public override System.Boolean get_AsBool()
-    // Offset: 0x1A5FCB4
+    // Offset: 0x1A6CBFC
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::get_AsBool()
     bool get_AsBool();
     // public override System.Void set_AsBool(System.Boolean value)
-    // Offset: 0x1A5FCBC
+    // Offset: 0x1A6CC04
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_AsBool(System.Boolean value)
     void set_AsBool(bool value);
     // public override HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator GetEnumerator()
-    // Offset: 0x1A5FBFC
+    // Offset: 0x1A6CB44
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator JSONNode::GetEnumerator()
     ::HoudiniEngineUnity::JSONNode::Enumerator GetEnumerator();
     // override System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
-    // Offset: 0x1A5FDD0
+    // Offset: 0x1A6CD18
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
     void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A5FE4C
+    // Offset: 0x1A6CD94
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Boolean JSONNode::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A5FED4
+    // Offset: 0x1A6CE1C
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Int32 JSONNode::GetHashCode()
     int GetHashCode();

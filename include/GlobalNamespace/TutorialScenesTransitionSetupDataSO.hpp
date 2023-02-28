@@ -147,29 +147,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x13C9778
+    // Offset: 0x13A6590
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x13C9780
+    // Offset: 0x13A6598
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public System.Void add_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x13C9630
+    // Offset: 0x13A6448
     void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<TutorialScenesTransitionSetupDataSO,TutorialScenesTransitionSetupDataSO/TutorialEndStateType> value)
-    // Offset: 0x13C96D4
+    // Offset: 0x13A64EC
     void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>* value);
     // public System.Void .ctor()
-    // Offset: 0x13C9788
+    // Offset: 0x13A65A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialScenesTransitionSetupDataSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialScenesTransitionSetupDataSO*, creationType>()));
     }
     // public System.Void Init(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13C8284
+    // Offset: 0x13A509C
     void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void Finish(TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState)
-    // Offset: 0x13C76FC
+    // Offset: 0x13A4550
     void Finish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType endState);
   }; // TutorialScenesTransitionSetupDataSO
   #pragma pack(pop)

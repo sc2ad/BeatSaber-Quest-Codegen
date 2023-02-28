@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(::UnityEngine::Cloth*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1117C88
+    // [HeaderAttribute] Offset: 0x111C9D0
     // private System.Boolean _useLocalExternalFluctuations
     // Size: 0x1
     // Offset: 0x20
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 externalFluctuations;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0x1117CE4
+    // [HeaderAttribute] Offset: 0x111CA2C
     // private System.Boolean _useLocalRandomFluctuations
     // Size: 0x1
     // Offset: 0x30
@@ -123,20 +123,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _speed
     [[deprecated("Use field access instead!")]] float& dyn__speed();
     // public System.Void .ctor()
-    // Offset: 0x1409D18
+    // Offset: 0x13F8FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClothRandomFluctuation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ClothRandomFluctuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClothRandomFluctuation*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x14099A8
+    // Offset: 0x13F8C84
     void Update();
     // private System.Void FluctuateCloth(UnityEngine.Cloth cloth)
-    // Offset: 0x14099B0
+    // Offset: 0x13F8C8C
     void FluctuateCloth(::UnityEngine::Cloth* cloth);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x1409BCC
+    // Offset: 0x13F8EA8
     float GetNoise(float time, float offset);
   }; // ClothRandomFluctuation
   #pragma pack(pop)

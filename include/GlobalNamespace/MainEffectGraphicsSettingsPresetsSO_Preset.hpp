@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MainEffectSO mainEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainEffectSO*& dyn_mainEffect();
     // public System.Void .ctor()
-    // Offset: 0x1344728
+    // Offset: 0x1370D9C
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

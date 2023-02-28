@@ -100,26 +100,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicEncryptionKey
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ByteArrayNetSerializable*& dyn_publicEncryptionKey();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerIdentityPacket> get_pool()
-    // Offset: 0x16BB2A8
+    // Offset: 0x16CA2C8
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16BC020
+    // Offset: 0x16CB040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerIdentityPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerIdentityPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16BBEBC
+    // Offset: 0x16CAEDC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16BBF20
+    // Offset: 0x16CAF40
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16BBFA4
+    // Offset: 0x16CAFC4
     void Release();
     // public ConnectedPlayerManager/PlayerIdentityPacket Init(PlayerStateHash states, MultiplayerAvatarData avatar, System.Byte[] random, System.Byte[] publicEncryptionKey)
-    // Offset: 0x16BB2F0
+    // Offset: 0x16CA310
     ::GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* Init(::GlobalNamespace::PlayerStateHash states, ::GlobalNamespace::MultiplayerAvatarData avatar, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicEncryptionKey);
   }; // ConnectedPlayerManager/PlayerIdentityPacket
   #pragma pack(pop)

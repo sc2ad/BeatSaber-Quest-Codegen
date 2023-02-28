@@ -76,14 +76,14 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Byte[] signature
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_signature();
     // public System.Void .ctor()
-    // Offset: 0x15E8E0C
+    // Offset: 0x1609D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0*, creationType>()));
     }
     // System.Boolean <VerifySignature>b__0()
-    // Offset: 0x15E903C
+    // Offset: 0x1609F44
     bool $VerifySignature$b__0();
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass35_0
   #pragma pack(pop)

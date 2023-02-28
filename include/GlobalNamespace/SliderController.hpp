@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::SliderMovement* sliderMovement;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SliderMovement*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111DF24
+    // [SpaceAttribute] Offset: 0x1122CDC
     // private System.Single _closeInteractionSaberPosSmoothParam
     // Size: 0x4
     // Offset: 0x48
@@ -179,28 +179,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: closeInteractionSaberPosSmoothParam and: beatmapObjectSpawnController
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x111DF5C
+    // [InjectAttribute] Offset: 0x1122D14
     // private readonly IBeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111DF6C
+    // [InjectAttribute] Offset: 0x1122D24
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111DF7C
+    // [InjectAttribute] Offset: 0x1122D34
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111DF8C
+    // [InjectAttribute] Offset: 0x1122D44
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x68
@@ -371,124 +371,124 @@ namespace GlobalNamespace {
     // Get instance field reference: private FixedUpdateVector3SmoothValue _closeSmoothedSaberInteractionPos
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::FixedUpdateVector3SmoothValue*& dyn__closeSmoothedSaberInteractionPos();
     // public ILazyCopyHashSet`1<ISliderDidFinishJumpEvent> get_sliderDidFinishJumpEvent()
-    // Offset: 0x1420B30
+    // Offset: 0x141425C
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* get_sliderDidFinishJumpEvent();
     // public ILazyCopyHashSet`1<ISliderDidStartDissolvingEvent> get_sliderDidStartDissolvingEvent()
-    // Offset: 0x1420B38
+    // Offset: 0x1414264
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* get_sliderDidStartDissolvingEvent();
     // public ILazyCopyHashSet`1<ISliderDidDissolveEvent> get_sliderDidDissolveEvent()
-    // Offset: 0x1420B40
+    // Offset: 0x141426C
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* get_sliderDidDissolveEvent();
     // public ILazyCopyHashSet`1<ISliderHeadDidMovePastCutMarkEvent> get_sliderHeadDidMovePastCutMark()
-    // Offset: 0x1420B48
+    // Offset: 0x1414274
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* get_sliderHeadDidMovePastCutMark();
     // public ILazyCopyHashSet`1<ISliderTailDidMovePastCutMarkEvent> get_sliderTailDidMovePastCutMark()
-    // Offset: 0x1420B50
+    // Offset: 0x141427C
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* get_sliderTailDidMovePastCutMark();
     // public SliderController/LengthType get_lengthType()
-    // Offset: 0x1420B58
+    // Offset: 0x1414284
     ::GlobalNamespace::SliderController::LengthType get_lengthType();
     // public SliderData get_sliderData()
-    // Offset: 0x1420B60
+    // Offset: 0x141428C
     ::GlobalNamespace::SliderData* get_sliderData();
     // public System.Single get_saberInteractionParam()
-    // Offset: 0x1420B68
+    // Offset: 0x1414294
     float get_saberInteractionParam();
     // public SliderMeshController get_sliderMeshController()
-    // Offset: 0x1420B94
+    // Offset: 0x14142D0
     ::GlobalNamespace::SliderMeshController* get_sliderMeshController();
     // public SliderMovement get_sliderMovement()
-    // Offset: 0x1420B9C
+    // Offset: 0x14142D8
     ::GlobalNamespace::SliderMovement* get_sliderMovement();
     // public UnityEngine.Color get_initColor()
-    // Offset: 0x1420BA4
+    // Offset: 0x14142E0
     ::UnityEngine::Color get_initColor();
     // public System.Single get_randomValue()
-    // Offset: 0x1420BB0
+    // Offset: 0x14142EC
     float get_randomValue();
     // public System.Single get_zDistanceBetweenNotes()
-    // Offset: 0x1420BB8
+    // Offset: 0x14142F4
     float get_zDistanceBetweenNotes();
     // public System.Single get_jumpDistance()
-    // Offset: 0x1420BC0
+    // Offset: 0x14142FC
     float get_jumpDistance();
     // public System.Single get_headJumpOffsetY()
-    // Offset: 0x1420BC8
+    // Offset: 0x1414304
     float get_headJumpOffsetY();
     // public System.Single get_sliderDuration()
-    // Offset: 0x1420BD0
+    // Offset: 0x141430C
     float get_sliderDuration();
     // public FixedUpdateVector3SmoothValue get_closeSmoothedSaberInteractionPos()
-    // Offset: 0x1420BD8
+    // Offset: 0x1414314
     ::GlobalNamespace::FixedUpdateVector3SmoothValue* get_closeSmoothedSaberInteractionPos();
     // public SliderIntensityEffect get_sliderIntensityEffect()
-    // Offset: 0x1420BE0
+    // Offset: 0x141431C
     ::GlobalNamespace::SliderIntensityEffect* get_sliderIntensityEffect();
     // public System.Void Init(SliderController/LengthType lengthType, SliderData sliderData, System.Single worldRotation, UnityEngine.Vector3 headNoteJumpStartPos, UnityEngine.Vector3 tailNoteJumpStartPos, UnityEngine.Vector3 headNoteJumpEndPos, UnityEngine.Vector3 tailNoteJumpEndPos, System.Single jumpDuration, System.Single startNoteJumpGravity, System.Single endNoteJumpGravity, System.Single noteUniformScale)
-    // Offset: 0x1420BE8
+    // Offset: 0x1414324
     void Init(::GlobalNamespace::SliderController::LengthType lengthType, ::GlobalNamespace::SliderData* sliderData, float worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 tailNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, ::UnityEngine::Vector3 tailNoteJumpEndPos, float jumpDuration, float startNoteJumpGravity, float endNoteJumpGravity, float noteUniformScale);
     // protected System.Void Awake()
-    // Offset: 0x142129C
+    // Offset: 0x141579C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x14213D0
+    // Offset: 0x1415AB0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14214EC
+    // Offset: 0x1415C6C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1421748
+    // Offset: 0x1416148
     void Update();
     // protected System.Void FixedUpdate()
-    // Offset: 0x14217A4
+    // Offset: 0x141619C
     void FixedUpdate();
     // public System.Void ManualUpdate()
-    // Offset: 0x142174C
+    // Offset: 0x141614C
     void ManualUpdate();
     // private System.Void UpdateMaterialPropertyBlock(System.Single timeSinceHeadNoteJump)
-    // Offset: 0x1421174
+    // Offset: 0x1415650
     void UpdateMaterialPropertyBlock(float timeSinceHeadNoteJump);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0x1421804
+    // Offset: 0x141666C
     ::System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0x1421884
+    // Offset: 0x1416718
     void Dissolve(float duration);
     // public System.Void Hide(System.Boolean hide)
-    // Offset: 0x14218EC
+    // Offset: 0x14167A4
     void Hide(bool hide);
     // public System.Void Pause(System.Boolean pause)
-    // Offset: 0x1421924
+    // Offset: 0x14167DC
     void Pause(bool pause);
     // private System.Boolean IsNoteStartOfThisSlider(NoteData noteData)
-    // Offset: 0x1421934
+    // Offset: 0x14167EC
     bool IsNoteStartOfThisSlider(::GlobalNamespace::NoteData* noteData);
     // private System.Void HandleMovementDidFinish()
-    // Offset: 0x1421A18
+    // Offset: 0x14168D0
     void HandleMovementDidFinish();
     // private System.Void HandleHeadDidMovePastCutMark()
-    // Offset: 0x1421B88
+    // Offset: 0x1416A40
     void HandleHeadDidMovePastCutMark();
     // private System.Void HandleTailDidMovePastCutMark()
-    // Offset: 0x1421CF8
+    // Offset: 0x1416BB0
     void HandleTailDidMovePastCutMark();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x1421E74
+    // Offset: 0x1416D2C
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1421ED4
+    // Offset: 0x1416DC4
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void HandleFadeInDidStart()
-    // Offset: 0x1421F5C
+    // Offset: 0x1416E48
     void HandleFadeInDidStart();
     // private System.Void SetSaberAttraction(System.Boolean saberAttraction)
-    // Offset: 0x1421000
+    // Offset: 0x14154E0
     void SetSaberAttraction(bool saberAttraction);
     // static public UnityEngine.Vector3 GetSaberInteractionPoint(Saber saber)
-    // Offset: 0x142109C
+    // Offset: 0x1415578
     static ::UnityEngine::Vector3 GetSaberInteractionPoint(::GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
-    // Offset: 0x1421F64
+    // Offset: 0x1416EE8
     // Implemented from: SliderControllerBase
     // Base method: System.Void SliderControllerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

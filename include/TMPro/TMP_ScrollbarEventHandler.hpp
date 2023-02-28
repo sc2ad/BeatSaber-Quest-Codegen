@@ -80,20 +80,20 @@ namespace TMPro {
     // Get instance field reference: public System.Boolean isSelected
     [[deprecated("Use field access instead!")]] bool& dyn_isSelected();
     // public System.Void .ctor()
-    // Offset: 0x14C7F68
+    // Offset: 0x14E5B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_ScrollbarEventHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_ScrollbarEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_ScrollbarEventHandler*, creationType>()));
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x14C7E08
+    // Offset: 0x14E59A8
     void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSelect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x14C7E74
+    // Offset: 0x14E5A14
     void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnDeselect(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x14C7EF0
+    // Offset: 0x14E5A90
     void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
   }; // TMPro.TMP_ScrollbarEventHandler
   #pragma pack(pop)

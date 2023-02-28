@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0
     class $ExecuteAfterDelayCoroutine$d__0;
     // public System.Void .ctor()
-    // Offset: 0x161B624
+    // Offset: 0x161FB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineHelpers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoroutineHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineHelpers*, creationType>()));
     }
     // static public System.Collections.IEnumerator ExecuteAfterDelayCoroutine(System.Action action, System.Single time)
-    // Offset: 0x161B578
+    // Offset: 0x161FA7C
     static ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float time);
   }; // CoroutineHelpers
   #pragma pack(pop)

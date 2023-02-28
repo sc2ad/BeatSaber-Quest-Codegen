@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean value
     [[deprecated("Use field access instead!")]] bool& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x13E7C78
+    // Offset: 0x1404F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass19_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass19_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerInGameMenuController::$$c__DisplayClass19_0*, creationType>()));
     }
     // System.Void <get_canShowInGameMenu>b__0(System.Boolean newValue)
-    // Offset: 0x13E8B38
+    // Offset: 0x1405DE0
     void $get_canShowInGameMenu$b__0(bool newValue);
   }; // MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass19_0
   #pragma pack(pop)

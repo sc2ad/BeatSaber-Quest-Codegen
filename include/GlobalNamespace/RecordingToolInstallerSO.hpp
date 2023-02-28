@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private RecordingToolResourceContainerSO _recordingToolResourceContainer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RecordingToolResourceContainerSO*& dyn__recordingToolResourceContainer();
     // public System.Void .ctor()
-    // Offset: 0x142F438
+    // Offset: 0x1463364
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RecordingToolInstallerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RecordingToolInstallerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordingToolInstallerSO*, creationType>()));
     }
     // public System.Void InstallDependencies(Zenject.DiContainer container, ProgramArguments programArguments)
-    // Offset: 0x142EFA4
+    // Offset: 0x1462ED0
     void InstallDependencies(::Zenject::DiContainer* container, ::GlobalNamespace::ProgramArguments* programArguments);
   }; // RecordingToolInstallerSO
   #pragma pack(pop)

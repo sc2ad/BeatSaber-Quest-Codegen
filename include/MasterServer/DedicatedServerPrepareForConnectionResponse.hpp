@@ -143,38 +143,38 @@ namespace MasterServer {
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     [[deprecated("Use field access instead!")]] int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionResponse> get_pool()
-    // Offset: 0x16CC890
+    // Offset: 0x16DB8B0
     static ::GlobalNamespace::PacketPool_1<::MasterServer::DedicatedServerPrepareForConnectionResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
-    // Offset: 0x16CC970
+    // Offset: 0x16DB990
     ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
-    // Offset: 0x16CC978
+    // Offset: 0x16DB998
     void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
-    // Offset: 0x16CC980
+    // Offset: 0x16DB9A0
     int64_t get_dedicatedServerCreationTime();
     // private System.Void set_dedicatedServerCreationTime(System.Int64 value)
-    // Offset: 0x16CC988
+    // Offset: 0x16DB9A8
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result)
-    // Offset: 0x16CCAAC
+    // Offset: 0x16DBACC
     ::MasterServer::DedicatedServerPrepareForConnectionResponse* InitForFailure(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::MasterServer::DedicatedServerPrepareForConnectionResponse::Result result);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
-    // Offset: 0x16CCAB8
+    // Offset: 0x16DBAD8
     ::MasterServer::DedicatedServerPrepareForConnectionResponse* InitForSuccess(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public override System.Byte get_resultCode()
-    // Offset: 0x16CC8D8
+    // Offset: 0x16DB8F8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Byte BaseReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x16CC8E0
+    // Offset: 0x16DB900
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.String BaseReliableResponse::get_resultCodeString()
     ::StringW get_resultCodeString();
     // public System.Void .ctor()
-    // Offset: 0x16CCAC4
+    // Offset: 0x16DBAE4
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -183,17 +183,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<DedicatedServerPrepareForConnectionResponse*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CC990
+    // Offset: 0x16DB9B0
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CC9EC
+    // Offset: 0x16DBA0C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16CCA50
+    // Offset: 0x16DBA70
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServerLobbyFlowCoordinator* gameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x1117F2C
+    // [InjectAttribute] Offset: 0x111CC74
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
@@ -66,35 +66,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // public System.Void .ctor()
-    // Offset: 0x1478198
+    // Offset: 0x14DE1D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAnalytics*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14779EC
+    // Offset: 0x14DDA24
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1477B2C
+    // Offset: 0x14DDB64
     void OnDestroy();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidSetupEvent()
-    // Offset: 0x1477CB4
+    // Offset: 0x14DDCEC
     void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x1477E50
+    // Offset: 0x14DDE88
     void HandleGameServerLobbyFlowCoordinatorDidFinish();
     // private System.Void HandleGameServerLobbyFlowCoordinatorStartGameOrReady()
-    // Offset: 0x1478000
+    // Offset: 0x14DE038
     void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
     // private System.Void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel()
-    // Offset: 0x14780CC
+    // Offset: 0x14DE104
     void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
     // private System.Void LogClick(System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
-    // Offset: 0x1477F1C
+    // Offset: 0x14DDF54
     void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
     // private System.String GetEventTypeFromLobbyType(GameServerLobbyFlowCoordinator/LobbyType lobbyType)
-    // Offset: 0x1477DEC
+    // Offset: 0x14DDE24
     ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
   }; // MultiplayerLobbyAnalytics
   #pragma pack(pop)

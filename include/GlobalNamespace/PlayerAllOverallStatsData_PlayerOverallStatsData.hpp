@@ -123,94 +123,94 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int64 <totalCutScore>k__BackingField
     [[deprecated("Use field access instead!")]] int64_t& dyn_$totalCutScore$k__BackingField();
     // public System.Int32 get_goodCutsCount()
-    // Offset: 0x15836B8
+    // Offset: 0x15A706C
     int get_goodCutsCount();
     // private System.Void set_goodCutsCount(System.Int32 value)
-    // Offset: 0x15836C0
+    // Offset: 0x15A7074
     void set_goodCutsCount(int value);
     // public System.Int32 get_badCutsCount()
-    // Offset: 0x15836C8
+    // Offset: 0x15A707C
     int get_badCutsCount();
     // private System.Void set_badCutsCount(System.Int32 value)
-    // Offset: 0x15836D0
+    // Offset: 0x15A7084
     void set_badCutsCount(int value);
     // public System.Int32 get_missedCutsCount()
-    // Offset: 0x15836D8
+    // Offset: 0x15A708C
     int get_missedCutsCount();
     // private System.Void set_missedCutsCount(System.Int32 value)
-    // Offset: 0x15836E0
+    // Offset: 0x15A7094
     void set_missedCutsCount(int value);
     // public System.Int64 get_totalScore()
-    // Offset: 0x15836E8
+    // Offset: 0x15A709C
     int64_t get_totalScore();
     // private System.Void set_totalScore(System.Int64 value)
-    // Offset: 0x15836F0
+    // Offset: 0x15A70A4
     void set_totalScore(int64_t value);
     // public System.Int32 get_playedLevelsCount()
-    // Offset: 0x15836F8
+    // Offset: 0x15A70AC
     int get_playedLevelsCount();
     // private System.Void set_playedLevelsCount(System.Int32 value)
-    // Offset: 0x1583700
+    // Offset: 0x15A70B4
     void set_playedLevelsCount(int value);
     // public System.Int32 get_clearedLevelsCount()
-    // Offset: 0x1583708
+    // Offset: 0x15A70BC
     int get_clearedLevelsCount();
     // private System.Void set_clearedLevelsCount(System.Int32 value)
-    // Offset: 0x1583710
+    // Offset: 0x15A70C4
     void set_clearedLevelsCount(int value);
     // public System.Int32 get_failedLevelsCount()
-    // Offset: 0x1583718
+    // Offset: 0x15A70CC
     int get_failedLevelsCount();
     // private System.Void set_failedLevelsCount(System.Int32 value)
-    // Offset: 0x1583720
+    // Offset: 0x15A70D4
     void set_failedLevelsCount(int value);
     // public System.Int32 get_fullComboCount()
-    // Offset: 0x1583728
+    // Offset: 0x15A70DC
     int get_fullComboCount();
     // private System.Void set_fullComboCount(System.Int32 value)
-    // Offset: 0x1583730
+    // Offset: 0x15A70E4
     void set_fullComboCount(int value);
     // public System.Single get_timePlayed()
-    // Offset: 0x1583738
+    // Offset: 0x15A70EC
     float get_timePlayed();
     // private System.Void set_timePlayed(System.Single value)
-    // Offset: 0x1583740
+    // Offset: 0x15A70F4
     void set_timePlayed(float value);
     // public System.Int32 get_handDistanceTravelled()
-    // Offset: 0x1583748
+    // Offset: 0x15A70FC
     int get_handDistanceTravelled();
     // private System.Void set_handDistanceTravelled(System.Int32 value)
-    // Offset: 0x1583750
+    // Offset: 0x15A7104
     void set_handDistanceTravelled(int value);
     // public System.Int64 get_totalCutScore()
-    // Offset: 0x1583758
+    // Offset: 0x15A710C
     int64_t get_totalCutScore();
     // private System.Void set_totalCutScore(System.Int64 value)
-    // Offset: 0x1583760
+    // Offset: 0x15A7114
     void set_totalCutScore(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x1583378
+    // Offset: 0x15A6D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData::PlayerOverallStatsData*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCutsCount, System.Int64 totalScore, System.Int32 playedLevelsCount, System.Int32 clearedLevelsCount, System.Int32 failedLevelsCount, System.Int32 fullComboCount, System.Single timePlayed, System.Int32 handDistanceTravelled, System.Int64 totalCutScore)
-    // Offset: 0x1583768
+    // Offset: 0x15A711C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int clearedLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t totalCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, clearedLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, totalCutScore)));
     }
     // public System.Void UpdateWithLevelCompletionResults(LevelCompletionResults levelCompletionResults)
-    // Offset: 0x158345C
+    // Offset: 0x15A6E10
     void UpdateWithLevelCompletionResults(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
   }; // PlayerAllOverallStatsData/PlayerOverallStatsData
   #pragma pack(pop)
   static check_size<sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData), 64 + sizeof(int64_t)> __GlobalNamespace_PlayerAllOverallStatsData_PlayerOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData) == 0x48);
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
-  // Offset: 0x1582D78
+  // Offset: 0x15A672C
   ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

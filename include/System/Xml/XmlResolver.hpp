@@ -43,7 +43,7 @@ namespace System::Xml {
   class XmlResolver : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x163E2F0
+    // Offset: 0x165F1E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlResolver* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlResolver::.ctor");
@@ -53,13 +53,13 @@ namespace System::Xml {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
-    // Offset: 0x163DF74
+    // Offset: 0x165EE6C
     ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
-    // Offset: 0x163E150
+    // Offset: 0x165F048
     bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
     // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
-    // Offset: 0x163E290
+    // Offset: 0x165F188
     ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
   }; // System.Xml.XmlResolver
   #pragma pack(pop)

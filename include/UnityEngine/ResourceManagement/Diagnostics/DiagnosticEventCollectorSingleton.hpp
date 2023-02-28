@@ -117,25 +117,25 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Get instance field reference: private System.Single fpsAvg
     [[deprecated("Use field access instead!")]] float& dyn_fpsAvg();
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x1F738FC
+    // Offset: 0x1F8509C
     static ::System::Guid get_PlayerConnectionGuid();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x1F73BA4
+    // Offset: 0x1F85344
     static bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // System.Void RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1F73FD4
+    // Offset: 0x1F85774
     void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1F73CC8
+    // Offset: 0x1F85468
     void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1F73DF8
+    // Offset: 0x1F85598
     void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // private System.Void Update()
-    // Offset: 0x1F744AC
+    // Offset: 0x1F85C4C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1F74650
+    // Offset: 0x1F85DF0
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,12 +144,12 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollectorSingleton*, creationType>()));
     }
     // protected override System.String GetGameObjectName()
-    // Offset: 0x1F73F8C
+    // Offset: 0x1F8572C
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::StringW GetGameObjectName();
     // private System.Void Awake()
-    // Offset: 0x1F743C4
+    // Offset: 0x1F85B64
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::Awake()
     void Awake();

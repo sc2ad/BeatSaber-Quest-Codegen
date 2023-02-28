@@ -52,17 +52,17 @@ namespace Polyglot {
     // Get instance field reference: private System.String preferenceKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn_preferenceKey();
     // public System.Void .ctor()
-    // Offset: 0x2AE1810
+    // Offset: 0x2AF6ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaveLanguagePreference* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::SaveLanguagePreference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaveLanguagePreference*, creationType>()));
     }
     // public System.Void Start()
-    // Offset: 0x2AE1788
+    // Offset: 0x2AF6E50
     void Start();
     // public System.Void OnLocalize()
-    // Offset: 0x2AE17DC
+    // Offset: 0x2AF6EA4
     void OnLocalize();
   }; // Polyglot.SaveLanguagePreference
   #pragma pack(pop)

@@ -48,14 +48,14 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
     [[deprecated("Use field access instead!")]] ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // public System.Void .ctor()
-    // Offset: 0x208C6EC
+    // Offset: 0x209FEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EdgeUtility::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EdgeUtility::$$c__DisplayClass0_0*, creationType>()));
     }
     // UnityEngine.ProBuilder.Edge <GetSharedVertexHandleEdges>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x208CFC0
+    // Offset: 0x20A0794
     ::UnityEngine::ProBuilder::Edge $GetSharedVertexHandleEdges$b__0(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.EdgeUtility/UnityEngine.ProBuilder.<>c__DisplayClass0_0
   #pragma pack(pop)

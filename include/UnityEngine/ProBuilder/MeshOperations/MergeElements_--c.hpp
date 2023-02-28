@@ -52,17 +52,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__1_0
     static void _set_$$9__1_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CFB308
+    // Offset: 0x1D0CA3C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CFB36C
+    // Offset: 0x1D0CAA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MergeElements::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MergeElements::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<System.Int32> <Merge>b__1_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1CFB374
+    // Offset: 0x1D0CAA8
     ::System::Collections::Generic::IEnumerable_1<int>* $Merge$b__1_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.MergeElements/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

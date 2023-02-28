@@ -162,14 +162,14 @@ namespace Zenject {
     }; // Zenject.KeyedFactoryBase`2/Zenject.<>c
     // Could not write size check! Type: Zenject.KeyedFactoryBase`2/Zenject.<>c is generic, or has no fields that are valid for size checks!
     public:
-    // [InjectAttribute] Offset: 0x10ECE88
+    // [InjectAttribute] Offset: 0x10F1A78
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
     ::Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10ECE98
+    // [InjectOptionalAttribute] Offset: 0x10F1A88
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<TKey,System.Type>> _typePairs
     // Size: 0x8
     // Offset: 0x0
@@ -182,7 +182,7 @@ namespace Zenject {
     ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* typeMap;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0x10ECEA8
+    // [InjectOptionalAttribute] Offset: 0x10F1A98
     // private readonly System.Type _fallbackType
     // Size: 0x8
     // Offset: 0x0

@@ -91,32 +91,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Char <>3__c
     [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_$$3__c();
     // private System.Char System.Collections.Generic.IEnumerator<System.Char>.get_Current()
-    // Offset: 0x26A1440
+    // Offset: 0x26B3C14
     ::Il2CppChar System_Collections_Generic_IEnumerator$System_Char$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x26A14A8
+    // Offset: 0x26B3C7C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x26A12FC
+    // Offset: 0x26B3AD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::$GetLookalikeLetters$d__4* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::$GetLookalikeLetters$d__4*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x26A139C
+    // Offset: 0x26B3B70
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x26A13A0
+    // Offset: 0x26B3B74
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x26A1448
+    // Offset: 0x26B3C1C
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
-    // Offset: 0x26A150C
+    // Offset: 0x26B3CE0
     ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x26A15B8
+    // Offset: 0x26B3D8C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ProfanityFilter/<GetLookalikeLetters>d__4
   #pragma pack(pop)

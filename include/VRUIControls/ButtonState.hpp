@@ -64,25 +64,25 @@ namespace VRUIControls {
     // Get instance field reference: private System.Single _pressedValue
     [[deprecated("Use field access instead!")]] float& dyn__pressedValue();
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x2B02DC4
+    // Offset: 0x2B138A0
     ::VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x2B02DCC
+    // Offset: 0x2B138A8
     void set_eventData(::VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton get_button()
-    // Offset: 0x2B02DD4
+    // Offset: 0x2B138B0
     ::UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton value)
-    // Offset: 0x2B02DDC
+    // Offset: 0x2B138B8
     void set_button(::UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x2B02DE4
+    // Offset: 0x2B138C0
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x2B02DEC
+    // Offset: 0x2B138C8
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x2B02DF4
+    // Offset: 0x2B138D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ButtonState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::ButtonState::.ctor");

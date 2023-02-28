@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1120D7C
+    // [InjectAttribute] Offset: 0x1125B34
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x20
@@ -101,26 +101,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetRotation
     [[deprecated("Use field access instead!")]] float& dyn__targetRotation();
     // public System.Void .ctor()
-    // Offset: 0x1435230
+    // Offset: 0x146915C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotateBySpawnRotation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RotateBySpawnRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotateBySpawnRotation*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1434DF0
+    // Offset: 0x1468D1C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1434F1C
+    // Offset: 0x1468E48
     void OnDestroy();
     // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x1434F38
+    // Offset: 0x1468E64
     void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x1435030
+    // Offset: 0x1468F5C
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x1435100
+    // Offset: 0x146902C
     void LateUpdate();
   }; // RotateBySpawnRotation
   #pragma pack(pop)

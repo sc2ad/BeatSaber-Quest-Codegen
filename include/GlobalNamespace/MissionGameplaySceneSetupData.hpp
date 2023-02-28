@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String backButtonText
     [[deprecated("Use field access instead!")]] ::StringW& dyn_backButtonText();
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, GameplayModifiers gameplayModifiers, System.String backButtonText)
-    // Offset: 0x1352BFC
+    // Offset: 0x137F250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionGameplaySceneSetupData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionGameplaySceneSetupData::.ctor");

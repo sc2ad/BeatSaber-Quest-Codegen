@@ -248,71 +248,71 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> _no360MovementPreviewDifficultyBeatmapSets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*& dyn__no360MovementPreviewDifficultyBeatmapSets();
     // public System.String get_levelID()
-    // Offset: 0x1428000
+    // Offset: 0x145BF2C
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x1428008
+    // Offset: 0x145BF34
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x1428010
+    // Offset: 0x145BF3C
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x1428018
+    // Offset: 0x145BF44
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x1428020
+    // Offset: 0x145BF4C
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x1428028
+    // Offset: 0x145BF54
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1428030
+    // Offset: 0x145BF5C
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x1428038
+    // Offset: 0x145BF64
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x1428040
+    // Offset: 0x145BF6C
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x1428048
+    // Offset: 0x145BF74
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x1428050
+    // Offset: 0x145BF7C
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x1428058
+    // Offset: 0x145BF84
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1428060
+    // Offset: 0x145BF8C
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x1428068
+    // Offset: 0x145BF94
     ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public UnityEngine.AudioClip get_songPreviewAudioClip()
-    // Offset: 0x1428070
+    // Offset: 0x145BF9C
     ::UnityEngine::AudioClip* get_songPreviewAudioClip();
     // public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> get_previewDifficultyBeatmapSets()
-    // Offset: 0x1428078
+    // Offset: 0x145BFA4
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
     // public System.Void .ctor()
-    // Offset: 0x1428444
+    // Offset: 0x145C370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewBeatmapLevelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewBeatmapLevelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviewBeatmapLevelSO*, creationType>()));
     }
     // private System.Void InitData()
-    // Offset: 0x14280C0
+    // Offset: 0x145BFEC
     void InitData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14281FC
+    // Offset: 0x145C128
     ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1428320
+    // Offset: 0x145C24C
     ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
     // protected override System.Void OnEnable()
-    // Offset: 0x1428090
+    // Offset: 0x145BFBC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

@@ -61,35 +61,35 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: private System.UInt32 <responseId>k__BackingField
     [[deprecated("Use field access instead!")]] uint& dyn_$responseId$k__BackingField();
     // public System.UInt32 get_responseId()
-    // Offset: 0x15EC14C
+    // Offset: 0x160D054
     uint get_responseId();
     // private System.Void set_responseId(System.UInt32 value)
-    // Offset: 0x15EC154
+    // Offset: 0x160D05C
     void set_responseId(uint value);
     // public System.Byte get_resultCode()
-    // Offset: 0x15EC15C
+    // Offset: 0x160D064
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
-    // Offset: 0x15EC164
+    // Offset: 0x160D06C
     ::StringW get_resultCodeString();
     // protected System.Void .ctor()
-    // Offset: 0x15E6E68
+    // Offset: 0x1607D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseResponse* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseResponse*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15E6DBC
+    // Offset: 0x1607CC4
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15E6E2C
+    // Offset: 0x1607D34
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Release();
     // private BGNet.Core.Messages.IUnconnectedResponse BGNet.Core.Messages.IUnconnectedResponse.WithResponseId(System.UInt32 responseId)
-    // Offset: 0x15EC1AC
+    // Offset: 0x160D0B4
     ::BGNet::Core::Messages::IUnconnectedResponse* BGNet_Core_Messages_IUnconnectedResponse_WithResponseId(uint responseId);
   }; // BGNet.Core.Messages.BaseResponse
   #pragma pack(pop)

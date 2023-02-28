@@ -45,17 +45,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState>,EncryptionUtility/IEncryptionState> <>9__4_1
     static void _set_$$9__4_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x269D4B8
+    // Offset: 0x26AFC8C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x269D51C
+    // Offset: 0x26AFCF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::PendingEncryptionStateList::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::PendingEncryptionStateList::$$c*, creationType>()));
     }
     // EncryptionUtility/IEncryptionState <GetSortedEncryptionStates>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x269D524
+    // Offset: 0x26AFCF8
     ::GlobalNamespace::EncryptionUtility::IEncryptionState* $GetSortedEncryptionStates$b__4_1(::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
   }; // PacketEncryptionLayer/PendingEncryptionStateList/<>c
   #pragma pack(pop)

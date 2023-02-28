@@ -43,22 +43,22 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink
     class EffectorLink;
     public:
-    // [TooltipAttribute] Offset: 0x114ABE8
+    // [TooltipAttribute] Offset: 0x114DB5C
     // public UnityEngine.Transform[] raycastFrom
     // Size: 0x8
     // Offset: 0x10
     ::ArrayW<::UnityEngine::Transform*> raycastFrom;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x114AC20
+    // [TooltipAttribute] Offset: 0x114DB94
     // public UnityEngine.Transform raycastTo
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Transform* raycastTo;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x114AC58
-    // [RangeAttribute] Offset: 0x114AC58
+    // [TooltipAttribute] Offset: 0x114DBCC
+    // [RangeAttribute] Offset: 0x114DBCC
     // public System.Single raycastRadius
     // Size: 0x4
     // Offset: 0x20
@@ -67,28 +67,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: raycastRadius and: effectors
     char __padding2[0x4] = {};
-    // [TooltipAttribute] Offset: 0x114ACAC
+    // [TooltipAttribute] Offset: 0x114DC20
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x114ACE4
+    // [TooltipAttribute] Offset: 0x114DC58
     // public System.Single smoothTimeIn
     // Size: 0x4
     // Offset: 0x30
     float smoothTimeIn;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x114AD1C
+    // [TooltipAttribute] Offset: 0x114DC90
     // public System.Single smoothTimeOut
     // Size: 0x4
     // Offset: 0x34
     float smoothTimeOut;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x114AD54
+    // [TooltipAttribute] Offset: 0x114DCC8
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x38
@@ -135,20 +135,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 offsetV
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_offsetV();
     // public System.Void .ctor()
-    // Offset: 0x205F10C
+    // Offset: 0x20738E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PenetrationAvoidance::Avoider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::PenetrationAvoidance::Avoider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PenetrationAvoidance::Avoider*, creationType>()));
     }
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x205EAF4
+    // Offset: 0x20732C8
     void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // private UnityEngine.Vector3 GetOffsetTarget(RootMotion.FinalIK.IKSolverFullBodyBiped solver)
-    // Offset: 0x205ED00
+    // Offset: 0x20734D4
     ::UnityEngine::Vector3 GetOffsetTarget(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver);
     // private UnityEngine.Vector3 Raycast(UnityEngine.Vector3 from, UnityEngine.Vector3 to)
-    // Offset: 0x205EE98
+    // Offset: 0x207366C
     ::UnityEngine::Vector3 Raycast(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
   }; // RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider
   #pragma pack(pop)

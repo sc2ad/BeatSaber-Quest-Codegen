@@ -145,35 +145,35 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private System.Collections.IEnumerator <>7__wrap4
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_$$7__wrap4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x19B8B98
+    // Offset: 0x19C6AF8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19B8C00
+    // Offset: 0x19C6B60
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x19B8458
+    // Offset: 0x19C63B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x19B8490
+    // Offset: 0x19C63F0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x19B8578
+    // Offset: 0x19C64D8
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x19B84AC
+    // Offset: 0x19C640C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19B8BA0
+    // Offset: 0x19C6B00
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-    // Offset: 0x19B8C08
+    // Offset: 0x19C6B68
     ::System::Collections::Generic::IEnumerator_1<::Il2CppObject*>* System_Collections_Generic_IEnumerable$System_Object$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x19B8CBC
+    // Offset: 0x19C6C1C
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.TestTools.EnumerableRepeatedTestCommand/UnityEngine.TestTools.<ExecuteEnumerable>d__3
   #pragma pack(pop)

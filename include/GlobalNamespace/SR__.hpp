@@ -33,13 +33,13 @@ namespace GlobalNamespace {
   class SR__ : public ::Il2CppObject {
     public:
     // static System.String GetString(System.String name, params System.Object[] args)
-    // Offset: 0x1E44DD4
+    // Offset: 0x1E55574
     static ::StringW GetString(::StringW name, ::ArrayW<::Il2CppObject*> args);
     // static System.String GetString(System.Globalization.CultureInfo culture, System.String name, params System.Object[] args)
-    // Offset: 0x1E44E54
+    // Offset: 0x1E555F4
     static ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::Il2CppObject*> args);
     // static System.String GetString(System.String name)
-    // Offset: 0x1E44E5C
+    // Offset: 0x1E555FC
     static ::StringW GetString(::StringW name);
   }; // SR
   #pragma pack(pop)

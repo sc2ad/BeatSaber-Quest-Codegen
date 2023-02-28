@@ -52,10 +52,10 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSeverityType severity
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSeverityType& dyn_severity();
     // public System.Xml.Schema.XmlSeverityType get_Severity()
-    // Offset: 0x1D22BA4
+    // Offset: 0x1D352D8
     ::System::Xml::Schema::XmlSeverityType get_Severity();
     // public System.Xml.Schema.XmlSchemaException get_Exception()
-    // Offset: 0x1D22BAC
+    // Offset: 0x1D352E0
     ::System::Xml::Schema::XmlSchemaException* get_Exception();
   }; // System.Xml.Schema.ValidationEventArgs
   #pragma pack(pop)

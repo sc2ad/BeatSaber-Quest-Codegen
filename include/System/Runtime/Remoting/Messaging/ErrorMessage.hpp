@@ -70,37 +70,37 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _uri
     [[deprecated("Use field access instead!")]] ::StringW& dyn__uri();
     // public System.Int32 get_ArgCount()
-    // Offset: 0x1D43108
+    // Offset: 0x1D5583C
     int get_ArgCount();
     // public System.Object[] get_Args()
-    // Offset: 0x1D43110
+    // Offset: 0x1D55844
     ::ArrayW<::Il2CppObject*> get_Args();
     // public System.Reflection.MethodBase get_MethodBase()
-    // Offset: 0x1D43118
+    // Offset: 0x1D5584C
     ::System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
-    // Offset: 0x1D43120
+    // Offset: 0x1D55854
     ::StringW get_MethodName();
     // public System.Object get_MethodSignature()
-    // Offset: 0x1D43168
+    // Offset: 0x1D5589C
     ::Il2CppObject* get_MethodSignature();
     // public System.Collections.IDictionary get_Properties()
-    // Offset: 0x1D43170
+    // Offset: 0x1D558A4
     ::System::Collections::IDictionary* get_Properties();
     // public System.String get_TypeName()
-    // Offset: 0x1D43178
+    // Offset: 0x1D558AC
     ::StringW get_TypeName();
     // public System.String get_Uri()
-    // Offset: 0x1D431C0
+    // Offset: 0x1D558F4
     ::StringW get_Uri();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
-    // Offset: 0x1D431D0
+    // Offset: 0x1D55904
     ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // public System.Object GetArg(System.Int32 arg_num)
-    // Offset: 0x1D431C8
+    // Offset: 0x1D558FC
     ::Il2CppObject* GetArg(int arg_num);
     // public System.Void .ctor()
-    // Offset: 0x1D32990
+    // Offset: 0x1D450C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

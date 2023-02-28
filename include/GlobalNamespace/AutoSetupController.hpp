@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1128FF0
+    // [HeaderAttribute] Offset: 0x112DE30
     // private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
     // Size: 0x8
     // Offset: 0x20
@@ -133,41 +133,41 @@ namespace GlobalNamespace {
     // Get instance field reference: private AutoSetupData _autoSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AutoSetupData*& dyn__autoSetupData();
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x15486E8
+    // Offset: 0x157D694
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x154878C
+    // Offset: 0x157D738
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1548A10
+    // Offset: 0x157D9BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoSetupController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutoSetupController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutoSetupController*, creationType>()));
     }
     // public System.Void Setup(AutoSetupData autoSetupData)
-    // Offset: 0x1548830
+    // Offset: 0x157D7DC
     void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
     // protected System.Void OnEnable()
-    // Offset: 0x1548838
+    // Offset: 0x157D7E4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x15489F4
+    // Offset: 0x157D9A0
     void OnDisable();
     // private System.Void <OnEnable>b__12_0()
-    // Offset: 0x1548AC0
+    // Offset: 0x157DA6C
     void $OnEnable$b__12_0();
     // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
-    // Offset: 0x1548B24
+    // Offset: 0x157DAD0
     void $OnEnable$b__12_1(bool isOn);
     // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
-    // Offset: 0x1548B44
+    // Offset: 0x157DAF0
     void $OnEnable$b__12_2(bool isOn);
     // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
-    // Offset: 0x1548B64
+    // Offset: 0x157DB10
     void $OnEnable$b__12_3(bool isOn);
     // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
-    // Offset: 0x1548B84
+    // Offset: 0x157DB30
     void $OnEnable$b__12_4(bool isOn);
   }; // AutoSetupController
   #pragma pack(pop)

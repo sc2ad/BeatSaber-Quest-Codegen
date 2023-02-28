@@ -52,14 +52,14 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.String data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x18FF72C
+    // Offset: 0x190E68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitialization::$$c__DisplayClass1_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization::$$c__DisplayClass1_0*, creationType>()));
     }
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x18FF81C
+    // Offset: 0x190E77C
     bool $InitializeAsync$b__0();
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization/UnityEngine.AddressableAssets.Initialization.<>c__DisplayClass1_0
   #pragma pack(pop)

@@ -181,10 +181,10 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__4
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$u__4();
     // private System.Void MoveNext()
-    // Offset: 0x19FF060
+    // Offset: 0x1A0D054
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1A002A4
+    // Offset: 0x1A0E298
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Net.Http.HttpClientHandler/System.Net.Http.<SendAsync>d__64
   // WARNING Not writing size check since size may be invalid!

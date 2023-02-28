@@ -54,26 +54,26 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_ScenePreview
     [[deprecated("Use field access instead!")]] bool& dyn_m_ScenePreview();
     // public System.Single get_fps()
-    // Offset: 0x2AC5CE8
+    // Offset: 0x2AD64CC
     float get_fps();
     // public System.Void set_fps(System.Single value)
-    // Offset: 0x2AC5CF0
+    // Offset: 0x2AD64D4
     void set_fps(float value);
     // public System.Boolean get_scenePreview()
-    // Offset: 0x2AC5D18
+    // Offset: 0x2AD64FC
     bool get_scenePreview();
     // public System.Void set_scenePreview(System.Boolean value)
-    // Offset: 0x2AC5D20
+    // Offset: 0x2AD6504
     void set_scenePreview(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AC5D2C
+    // Offset: 0x2AD6510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset::EditorSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineAsset::EditorSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset::EditorSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AC5DAC
+    // Offset: 0x2AD6590
     static void _cctor();
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.EditorSettings
   #pragma pack(pop)

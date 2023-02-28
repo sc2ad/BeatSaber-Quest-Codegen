@@ -35,20 +35,20 @@ namespace HoudiniEngineUnity {
   class HEU_PDGAssetLink::UpdateUIDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1B2CCE8
+    // Offset: 0x1B3ADB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PDGAssetLink::UpdateUIDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PDGAssetLink::UpdateUIDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PDGAssetLink::UpdateUIDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1B2C59C
+    // Offset: 0x1B3A668
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1B2CCF8
+    // Offset: 0x1B3ADC4
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1B2CD24
+    // Offset: 0x1B3ADF0
     void EndInvoke(::System::IAsyncResult* result);
   }; // HoudiniEngineUnity.HEU_PDGAssetLink/HoudiniEngineUnity.UpdateUIDelegate
   #pragma pack(pop)

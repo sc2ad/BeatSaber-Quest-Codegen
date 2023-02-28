@@ -83,32 +83,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodeVisualController _selectedNode
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionNodeVisualController*& dyn__selectedNode();
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1492DBC
+    // Offset: 0x14B85A4
     void add_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1492E60
+    // Offset: 0x14B8648
     void remove_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1493640
+    // Offset: 0x14B8E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodeSelectionManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodeSelectionManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodeSelectionManager*, creationType>()));
     }
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1492F04
+    // Offset: 0x14B86EC
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0x1492FC0
+    // Offset: 0x14B87A8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1493240
+    // Offset: 0x14B8A28
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0x14934EC
+    // Offset: 0x14B8CD4
     void HandleNodeWasSelect(::GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0x14935B0
+    // Offset: 0x14B8D98
     void HandleNodeWasDisplayed(::GlobalNamespace::MissionNodeVisualController* missionNode);
   }; // MissionNodeSelectionManager
   #pragma pack(pop)

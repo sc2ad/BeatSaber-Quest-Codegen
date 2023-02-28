@@ -388,7 +388,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte Reserved_00
     [[deprecated("Use field access instead!")]] uint8_t& dyn_Reserved_00();
     // public System.Void .ctor(OVRPlugin/ControllerState2 cs)
-    // Offset: 0x1B860F0
+    // Offset: 0x1B931BC
     ControllerState4(::GlobalNamespace::OVRPlugin::ControllerState2 cs);
   }; // OVRPlugin/ControllerState4
   #pragma pack(pop)

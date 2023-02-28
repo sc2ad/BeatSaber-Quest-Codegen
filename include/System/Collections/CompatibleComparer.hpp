@@ -64,26 +64,26 @@ namespace System::Collections {
     // Get instance field reference: private System.Collections.IHashCodeProvider _hcp
     [[deprecated("Use field access instead!")]] ::System::Collections::IHashCodeProvider*& dyn__hcp();
     // System.Collections.IComparer get_Comparer()
-    // Offset: 0x1F29F50
+    // Offset: 0x1F3B6F0
     ::System::Collections::IComparer* get_Comparer();
     // System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x1F29F58
+    // Offset: 0x1F3B6F8
     ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x1F29C18
+    // Offset: 0x1F3B3B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(::System::Collections::IComparer* comparer, ::System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x1F29C50
+    // Offset: 0x1F3B3F0
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1F29E20
+    // Offset: 0x1F3B5C0
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1F29E3C
+    // Offset: 0x1F3B5DC
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.CompatibleComparer
   #pragma pack(pop)

@@ -74,35 +74,35 @@ namespace Zenject {
     // Get instance field reference: private System.Object _identifier
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn__identifier();
     // public System.Type get_Type()
-    // Offset: 0x17BCF30
+    // Offset: 0x17CCF50
     ::System::Type* get_Type();
     // public System.Void set_Type(System.Type value)
-    // Offset: 0x17BCF38
+    // Offset: 0x17CCF58
     void set_Type(::System::Type* value);
     // public System.Object get_Identifier()
-    // Offset: 0x17BCF40
+    // Offset: 0x17CCF60
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0x17BCF48
+    // Offset: 0x17CCF68
     void set_Identifier(::Il2CppObject* value);
     // public System.Void .ctor(System.Type type, System.Object identifier)
-    // Offset: 0x17BCF28
+    // Offset: 0x17CCF48
     // ABORTED: conflicts with another method.  BindingId(::System::Type* type, ::Il2CppObject* identifier);
     // public System.Boolean Equals(Zenject.BindingId that)
-    // Offset: 0x17BD21C
+    // Offset: 0x17CD23C
     bool Equals(::Zenject::BindingId that);
     // public override System.String ToString()
-    // Offset: 0x17BCF50
+    // Offset: 0x17CCF70
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17BD074
+    // Offset: 0x17CD094
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x17BD0D0
+    // Offset: 0x17CD0F0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
@@ -111,10 +111,10 @@ namespace Zenject {
   static check_size<sizeof(BindingId), 8 + sizeof(::Il2CppObject*)> __Zenject_BindingIdSizeCheck;
   static_assert(sizeof(BindingId) == 0x10);
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0x17BD168
+  // Offset: 0x17CD188
   bool operator ==(const ::Zenject::BindingId& left, const ::Zenject::BindingId& right);
   // static public System.Boolean op_Inequality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0x17BD234
+  // Offset: 0x17CD254
   bool operator !=(const ::Zenject::BindingId& left, const ::Zenject::BindingId& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

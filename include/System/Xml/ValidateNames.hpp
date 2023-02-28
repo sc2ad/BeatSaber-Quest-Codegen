@@ -37,34 +37,34 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(::System::Xml::XmlCharType value);
     // static private System.Void .cctor()
-    // Offset: 0x1C552A8
+    // Offset: 0x1C64A74
     static void _cctor();
     // static System.Int32 ParseNmtoken(System.String s, System.Int32 offset)
-    // Offset: 0x1C54720
+    // Offset: 0x1C63EEC
     static int ParseNmtoken(::StringW s, int offset);
     // static System.Int32 ParseNmtokenNoNamespaces(System.String s, System.Int32 offset)
-    // Offset: 0x1C5480C
+    // Offset: 0x1C63FD8
     static int ParseNmtokenNoNamespaces(::StringW s, int offset);
     // static System.Int32 ParseNameNoNamespaces(System.String s, System.Int32 offset)
-    // Offset: 0x1C54914
+    // Offset: 0x1C640E0
     static int ParseNameNoNamespaces(::StringW s, int offset);
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x1C54A9C
+    // Offset: 0x1C64268
     static int ParseNCName(::StringW s, int offset);
     // static System.Int32 ParseNCName(System.String s)
-    // Offset: 0x1C54BE8
+    // Offset: 0x1C643B4
     static int ParseNCName(::StringW s);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x1C54C50
+    // Offset: 0x1C6441C
     static int ParseQName(::StringW s, int offset, ByRef<int> colonOffset);
     // static System.Void ParseQNameThrow(System.String s, out System.String prefix, out System.String localName)
-    // Offset: 0x1C54D4C
+    // Offset: 0x1C64518
     static void ParseQNameThrow(::StringW s, ByRef<::StringW> prefix, ByRef<::StringW> localName);
     // static System.Void ThrowInvalidName(System.String s, System.Int32 offsetStartChar, System.Int32 offsetBadChar)
-    // Offset: 0x1C54E68
+    // Offset: 0x1C64634
     static void ThrowInvalidName(::StringW s, int offsetStartChar, int offsetBadChar);
     // static System.Exception GetInvalidNameException(System.String s, System.Int32 offsetStartChar, System.Int32 offsetBadChar)
-    // Offset: 0x1C550FC
+    // Offset: 0x1C648C8
     static ::System::Exception* GetInvalidNameException(::StringW s, int offsetStartChar, int offsetBadChar);
   }; // System.Xml.ValidateNames
   #pragma pack(pop)

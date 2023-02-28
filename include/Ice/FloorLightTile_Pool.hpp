@@ -25,7 +25,7 @@ namespace Ice {
   class FloorLightTile::Pool : public ::Zenject::MonoMemoryPool_1<::Ice::FloorLightTile*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B76B64
+    // Offset: 0x2B897EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightTile::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightTile::Pool::.ctor");

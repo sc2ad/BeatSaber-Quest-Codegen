@@ -105,20 +105,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Net.HttpListener _listener
     [[deprecated("Use field access instead!")]] ::System::Net::HttpListener*& dyn__listener();
     // public System.Void .ctor(System.Int32 port)
-    // Offset: 0x16C6CD4
+    // Offset: 0x16D5CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthCheckService* New_ctor(int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthCheckService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthCheckService*, creationType>(port)));
     }
     // public System.Void Dispose()
-    // Offset: 0x16C6DB4
+    // Offset: 0x16D5DD4
     void Dispose();
     // public System.Void PollUpdate()
-    // Offset: 0x16C6E8C
+    // Offset: 0x16D5EAC
     void PollUpdate();
     // private System.Void Run()
-    // Offset: 0x16C6F54
+    // Offset: 0x16D5F74
     void Run();
   }; // HealthCheckService
   #pragma pack(pop)

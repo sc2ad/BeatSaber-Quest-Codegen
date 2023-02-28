@@ -38,13 +38,13 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::Win32NetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
     // static private System.Int32 GetAdaptersAddresses(System.UInt32 family, System.UInt32 flags, System.IntPtr reserved, System.IntPtr info, ref System.Int32 size)
-    // Offset: 0x1BEACF4
+    // Offset: 0x1BFA4C0
     static int GetAdaptersAddresses(uint family, uint flags, ::System::IntPtr reserved, ::System::IntPtr info, ByRef<int> size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
-    // Offset: 0x1BEADB0
+    // Offset: 0x1BFA57C
     static ::ArrayW<::System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> GetAdaptersAddresses();
     // public System.Void .ctor()
-    // Offset: 0x1BE9950
+    // Offset: 0x1BF911C
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,7 +53,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::Win32NetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1BEB034
+    // Offset: 0x1BFA800
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();

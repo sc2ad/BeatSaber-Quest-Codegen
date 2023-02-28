@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class BakeIdMapper : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13A91E8
+    // Offset: 0x13D55AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakeIdMapper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BakeIdMapper::.ctor");

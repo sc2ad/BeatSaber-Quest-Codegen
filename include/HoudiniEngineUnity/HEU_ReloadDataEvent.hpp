@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   class HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B56CA0
+    // Offset: 0x1B63D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ReloadDataEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ReloadDataEvent::.ctor");

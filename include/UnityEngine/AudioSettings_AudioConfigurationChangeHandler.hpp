@@ -35,20 +35,20 @@ namespace UnityEngine {
   class AudioSettings::AudioConfigurationChangeHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B80654
+    // Offset: 0x2B942DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AudioSettings::AudioConfigurationChangeHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSettings::AudioConfigurationChangeHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean deviceWasChanged)
-    // Offset: 0x2B8037C
+    // Offset: 0x2B94004
     void Invoke(bool deviceWasChanged);
     // public System.IAsyncResult BeginInvoke(System.Boolean deviceWasChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B80664
+    // Offset: 0x2B942EC
     ::System::IAsyncResult* BeginInvoke(bool deviceWasChanged, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B806F4
+    // Offset: 0x2B9437C
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.AudioSettings/UnityEngine.AudioConfigurationChangeHandler
   #pragma pack(pop)

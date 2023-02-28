@@ -37,20 +37,31 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringContent : public ::System::Net::Http::ByteArrayContent {
     public:
+    // public System.Void .ctor(System.String content)
+    // Offset: 0x2BB5BB8
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static StringContent* New_ctor(::StringW content) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StringContent::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<StringContent*, creationType>(content)));
+    }
     // public System.Void .ctor(System.String content, System.Text.Encoding encoding, System.String mediaType)
-    // Offset: 0x1A01E1C
+    // Offset: 0x2BB5BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringContent* New_ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StringContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringContent*, creationType>(content, encoding, mediaType)));
     }
     // static private System.Byte[] GetByteArray(System.String content, System.Text.Encoding encoding)
-    // Offset: 0x1A01F1C
+    // Offset: 0x2BB5CCC
     static ::ArrayW<uint8_t> GetByteArray(::StringW content, ::System::Text::Encoding* encoding);
   }; // System.Net.Http.StringContent
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Http::StringContent::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::StringContent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

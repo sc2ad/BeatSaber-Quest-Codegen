@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1119C84
+    // [SpaceAttribute] Offset: 0x111E9DC
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private AchievementSO _finishTutorialAchievement
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AchievementSO*& dyn__finishTutorialAchievement();
     // public System.Void .ctor()
-    // Offset: 0x139E440
+    // Offset: 0x13CA804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FinishTutorialAchievementHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FinishTutorialAchievementHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FinishTutorialAchievementHandler*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x139E304
+    // Offset: 0x13CA6C8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x139E390
+    // Offset: 0x13CA754
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0x139E41C
+    // Offset: 0x13CA7E0
     void HandleTutorialFinished();
   }; // FinishTutorialAchievementHandler
   #pragma pack(pop)

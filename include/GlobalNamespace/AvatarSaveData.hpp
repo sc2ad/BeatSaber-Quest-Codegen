@@ -160,7 +160,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color clothesDetailColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_clothesDetailColor();
     // public System.Void .ctor()
-    // Offset: 0x1549B58
+    // Offset: 0x157EB04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarSaveData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarSaveData::.ctor");

@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean enableBloomPrePassFog
     [[deprecated("Use field access instead!")]] bool& dyn_enableBloomPrePassFog();
     // public System.Void .ctor()
-    // Offset: 0x134F388
+    // Offset: 0x137BA38
     // Implemented from: NamedPreset
     // Base method: System.Void NamedPreset::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

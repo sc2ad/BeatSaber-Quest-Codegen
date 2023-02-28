@@ -119,50 +119,57 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x1A013C8
+    // Offset: 0x1A0F458
     ::System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x1A013D0
+    // Offset: 0x1A0F460
     void set_Content(::System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpRequestHeaders get_Headers()
-    // Offset: 0x19FD238
+    // Offset: 0x1A0B22C
     ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
     // public System.Net.Http.HttpMethod get_Method()
-    // Offset: 0x1A013D8
+    // Offset: 0x1A0F468
     ::System::Net::Http::HttpMethod* get_Method();
     // public System.Void set_Method(System.Net.Http.HttpMethod value)
-    // Offset: 0x1A01318
+    // Offset: 0x1A0F3A8
     void set_Method(::System::Net::Http::HttpMethod* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x1A013E0
+    // Offset: 0x1A0F470
     ::System::Uri* get_RequestUri();
     // public System.Void set_RequestUri(System.Uri value)
-    // Offset: 0x19FD154
+    // Offset: 0x1A0B148
     void set_RequestUri(::System::Uri* value);
     // public System.Version get_Version()
-    // Offset: 0x19FE988
+    // Offset: 0x1A0C97C
     ::System::Version* get_Version();
+    // public System.Void .ctor(System.Net.Http.HttpMethod method, System.String requestUri)
+    // Offset: 0x1A0F30C
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::StringW requestUri) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestMessage::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
+    }
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.Uri requestUri)
-    // Offset: 0x19FCC5C
+    // Offset: 0x1A0AC50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
     }
     // static private System.Boolean IsAllowedAbsoluteUri(System.Uri uri)
-    // Offset: 0x1A013E8
+    // Offset: 0x1A0F478
     static bool IsAllowedAbsoluteUri(::System::Uri* uri);
     // public System.Void Dispose()
-    // Offset: 0x1A01550
+    // Offset: 0x1A0F5E0
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A01560
+    // Offset: 0x1A0F5F0
     void Dispose(bool disposing);
     // System.Boolean SetIsUsed()
-    // Offset: 0x19FD134
+    // Offset: 0x1A0B128
     bool SetIsUsed();
     // public override System.String ToString()
-    // Offset: 0x1A01594
+    // Offset: 0x1A0F624
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -239,6 +246,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::V
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpRequestMessage*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

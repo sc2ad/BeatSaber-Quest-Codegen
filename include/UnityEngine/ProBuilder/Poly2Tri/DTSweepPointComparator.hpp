@@ -44,14 +44,14 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       return reinterpret_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x2B2E124
+    // Offset: 0x2B3FC00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepPointComparator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepPointComparator*, creationType>()));
     }
     // public System.Int32 Compare(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p1, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint p2)
-    // Offset: 0x2B2E878
+    // Offset: 0x2B40354
     int Compare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepPointComparator
   #pragma pack(pop)

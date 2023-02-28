@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean shouldKeepReplayState
     [[deprecated("Use field access instead!")]] bool& dyn_shouldKeepReplayState();
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single startFilterTime, System.Boolean shouldKeepReplayState)
-    // Offset: 0x13B089C
+    // Offset: 0x13DCC60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksController::InitData* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float startFilterTime, bool shouldKeepReplayState) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksController::InitData::.ctor");

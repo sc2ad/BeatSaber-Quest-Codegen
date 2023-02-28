@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   class HEU_InputNodeUICache::HEU_InputObjectUICache : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18CA78C
+    // Offset: 0x18D96EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputNodeUICache::HEU_InputObjectUICache* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache::.ctor");

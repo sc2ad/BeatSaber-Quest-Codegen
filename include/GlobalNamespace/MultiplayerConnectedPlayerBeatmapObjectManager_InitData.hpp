@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single notesUniformScale
     [[deprecated("Use field access instead!")]] float& dyn_notesUniformScale();
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single notesUniformScale)
-    // Offset: 0x14689EC
+    // Offset: 0x14CEA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float notesUniformScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData::.ctor");

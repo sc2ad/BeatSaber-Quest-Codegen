@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single kObstacleVerticalOffset
     static void _set_kObstacleVerticalOffset(float value);
     // static public System.Single get_layerHeight()
-    // Offset: 0x26F34EC
+    // Offset: 0x2705CD0
     static float get_layerHeight();
     // static public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, System.Int32 noteLinesCount, NoteLineLayer noteLineLayer)
-    // Offset: 0x26EC3CC
+    // Offset: 0x26FEBA0
     static ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, int noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // static public System.Single LineYPosForLineLayer(NoteLineLayer lineLayer)
-    // Offset: 0x26F34C8
+    // Offset: 0x2705CAC
     static float LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
   }; // StaticBeatmapObjectSpawnMovementData
   #pragma pack(pop)

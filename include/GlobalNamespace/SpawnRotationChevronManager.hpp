@@ -103,28 +103,28 @@ namespace GlobalNamespace {
     ::UnityEngine::AnimationCurve* fadeOutLightAmountCurve;
     // Field size check
     static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120E0C
+    // [InjectAttribute] Offset: 0x1125BC4
     // private readonly SpawnRotationChevron/Pool _chevronPool
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::SpawnRotationChevron::Pool* chevronPool;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SpawnRotationChevron::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120E1C
+    // [InjectAttribute] Offset: 0x1125BD4
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120E2C
+    // [InjectAttribute] Offset: 0x1125BE4
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::BeatmapObjectSpawnController* beatmapObjectSpawnController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120E3C
+    // [InjectAttribute] Offset: 0x1125BF4
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -219,32 +219,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentSpawnRotation
     [[deprecated("Use field access instead!")]] float& dyn__currentSpawnRotation();
     // public System.Void .ctor()
-    // Offset: 0x1488608
+    // Offset: 0x1422A88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevronManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevronManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevronManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14875A8
+    // Offset: 0x1421A28
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14877E0
+    // Offset: 0x1421C60
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x14881C0
+    // Offset: 0x1422640
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallback(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x14882BC
+    // Offset: 0x142273C
     void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // private System.Void HandleSpawnRotationBeatmapEvent(SpawnRotationBeatmapEventData beatmapEventData)
-    // Offset: 0x1488584
+    // Offset: 0x1422A04
     void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
     // private System.Void HandleBeatmapObjectSpawnControllerDidInit()
-    // Offset: 0x14876C8
+    // Offset: 0x1421B48
     void HandleBeatmapObjectSpawnControllerDidInit();
     // private System.Single ComputeAheadTime()
-    // Offset: 0x14885A0
+    // Offset: 0x1422A20
     float ComputeAheadTime();
   }; // SpawnRotationChevronManager
   #pragma pack(pop)

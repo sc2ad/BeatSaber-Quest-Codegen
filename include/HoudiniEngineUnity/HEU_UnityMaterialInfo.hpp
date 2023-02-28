@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _substanceIndex
     [[deprecated("Use field access instead!")]] int& dyn__substanceIndex();
     // public System.Void .ctor(System.String unityMaterialPath, System.String substancePath, System.Int32 substanceIndex)
-    // Offset: 0x1A59F8C
+    // Offset: 0x1A66ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int substanceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_UnityMaterialInfo::.ctor");

@@ -27,7 +27,7 @@ namespace System {
     // Set static field: static readonly System.Object PUBLICATION_ONLY_SENTINEL
     static void _set_PUBLICATION_ONLY_SENTINEL(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C4A73C
+    // Offset: 0x1C59F08
     static void _cctor();
   }; // System.LazyHelpers
   #pragma pack(pop)

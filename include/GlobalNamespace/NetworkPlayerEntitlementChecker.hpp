@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6
     struct $GetEntitlementStatus$d__6;
     public:
-    // [InjectAttribute] Offset: 0x111BFE8
+    // [InjectAttribute] Offset: 0x1120D40
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x111BFF8
+    // [InjectAttribute] Offset: 0x1120D50
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x20
@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // public System.Void .ctor()
-    // Offset: 0x1505678
+    // Offset: 0x1434CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayerEntitlementChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayerEntitlementChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayerEntitlementChecker*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1505168
+    // Offset: 0x1434798
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x150525C
+    // Offset: 0x143488C
     void OnDestroy();
     // private System.Void HandleDataInvalidated()
-    // Offset: 0x15053DC
+    // Offset: 0x1434A0C
     void HandleDataInvalidated();
     // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x1505490
+    // Offset: 0x1434AC0
     void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0x1505554
+    // Offset: 0x1434B84
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
   }; // NetworkPlayerEntitlementChecker
   #pragma pack(pop)

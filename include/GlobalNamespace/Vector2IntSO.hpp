@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class Vector2IntSO : public ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2ADB2DC
+    // Offset: 0x2AEBAC0
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

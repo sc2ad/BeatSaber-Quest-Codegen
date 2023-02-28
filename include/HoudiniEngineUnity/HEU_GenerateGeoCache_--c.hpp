@@ -53,20 +53,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<System.Single> <>9__65_0
     static void _set_$$9__65_0(::System::Comparison_1<float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17E46F0
+    // Offset: 0x17F4710
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17E4754
+    // Offset: 0x17F4774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GenerateGeoCache::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GenerateGeoCache::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GenerateGeoCache::$$c*, creationType>()));
     }
     // System.Boolean <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0(UnityEngine.Material material)
-    // Offset: 0x17E475C
+    // Offset: 0x17F477C
     bool $GetFinalMaterialsFromComparingNewWithPrevious$b__63_0(::UnityEngine::Material* material);
     // System.Int32 <GenerateLODMeshesFromGeoGroups>b__65_0(System.Single a, System.Single b)
-    // Offset: 0x17E47C8
+    // Offset: 0x17F47E8
     int $GenerateLODMeshesFromGeoGroups$b__65_0(float a, float b);
   }; // HoudiniEngineUnity.HEU_GenerateGeoCache/HoudiniEngineUnity.<>c
   #pragma pack(pop)

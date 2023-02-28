@@ -58,7 +58,7 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Cjk
     static void _set_Cjk(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // static private System.Void .cctor()
-    // Offset: 0x1FD220C
+    // Offset: 0x1FE39AC
     static void _cctor();
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTableUtil
   #pragma pack(pop)

@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x1146438
+    // [RangeAttribute] Offset: 0x11493AC
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0x18
@@ -73,26 +73,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap boneMap
     [[deprecated("Use field access instead!")]] ::RootMotion::FinalIK::IKMapping::BoneMap*& dyn_boneMap();
     // public System.Void .ctor(UnityEngine.Transform bone)
-    // Offset: 0x22E6CCC
+    // Offset: 0x22F94A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingBone* New_ctor(::UnityEngine::Transform* bone) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMappingBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>(bone)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x22E6D64
+    // Offset: 0x22F9538
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x22E6D7C
+    // Offset: 0x22F9550
     void FixTransforms();
     // public System.Void ReadPose()
-    // Offset: 0x22E6E34
+    // Offset: 0x22F9608
     void ReadPose();
     // public System.Void WritePose(System.Single solverWeight)
-    // Offset: 0x22E6E4C
+    // Offset: 0x22F9620
     void WritePose(float solverWeight);
     // public System.Void .ctor()
-    // Offset: 0x22E6C48
+    // Offset: 0x22F941C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,12 +101,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>()));
     }
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x22E6BA8
+    // Offset: 0x22F937C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22E6D98
+    // Offset: 0x22F956C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);

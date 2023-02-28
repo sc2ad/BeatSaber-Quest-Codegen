@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   class ColorManager : public ::Il2CppObject {
     public:
     public:
-    // [InjectAttribute] Offset: 0x112DD6C
+    // [InjectAttribute] Offset: 0x1132BDC
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
@@ -60,29 +60,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ColorScheme _colorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x140A880
+    // Offset: 0x13F9B5C
     ::UnityEngine::Color get_obstaclesColor();
     // public System.Void .ctor()
-    // Offset: 0x140AB00
+    // Offset: 0x13F9DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorManager*, creationType>()));
     }
     // public UnityEngine.Color ColorForType(EnvironmentColorType type, System.Boolean boost)
-    // Offset: 0x140A8A0
+    // Offset: 0x13F9B7C
     ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
     // public UnityEngine.Color ColorForType(ColorType type)
-    // Offset: 0x140A960
+    // Offset: 0x13F9C3C
     ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
-    // Offset: 0x140A9B0
+    // Offset: 0x13F9C8C
     ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
-    // Offset: 0x140AA04
+    // Offset: 0x13F9CE0
     ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
-    // Offset: 0x140AA9C
+    // Offset: 0x13F9D78
     ::UnityEngine::Color GetObstacleEffectColor();
   }; // ColorManager
   #pragma pack(pop)

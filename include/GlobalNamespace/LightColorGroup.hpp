@@ -97,14 +97,14 @@ namespace GlobalNamespace {
     static check_size<sizeof(LightColorGroup::LightColorGroupControlType), 0 + sizeof(int)> __GlobalNamespace_LightColorGroup_LightColorGroupControlTypeSizeCheck;
     static_assert(sizeof(LightColorGroup::LightColorGroupControlType) == 0x4);
     public:
-    // [TooltipAttribute] Offset: 0x111F7AC
+    // [TooltipAttribute] Offset: 0x1124564
     // private LightColorGroup/LightColorGroupControlType _lightColorGroupControlType
     // Size: 0x4
     // Offset: 0x20
     ::GlobalNamespace::LightColorGroup::LightColorGroupControlType lightColorGroupControlType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightColorGroup::LightColorGroupControlType) == 0x4);
-    // [HeaderAttribute] Offset: 0x111F7F8
+    // [HeaderAttribute] Offset: 0x11245B0
     // private System.Boolean _disableAutomaticIdAssignment
     // Size: 0x1
     // Offset: 0x24
@@ -119,8 +119,8 @@ namespace GlobalNamespace {
     ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupParent*>* lightColorGroupParents;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupParent*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0x111F854
-    // [NullAllowed] Offset: 0x111F854
+    // [HeaderAttribute] Offset: 0x112460C
+    // [NullAllowed] Offset: 0x112460C
     // private LightWithIds _lightWithIds
     // Size: 0x8
     // Offset: 0x30
@@ -145,7 +145,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightWithIds _lightWithIds
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LightWithIds*& dyn__lightWithIds();
     // public System.Void .ctor()
-    // Offset: 0x151C664
+    // Offset: 0x15528BC
     // Implemented from: LightGroupSubsystem
     // Base method: System.Void LightGroupSubsystem::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

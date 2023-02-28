@@ -58,17 +58,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Collider self
     [[deprecated("Use field access instead!")]] ::UnityEngine::Collider*& dyn_self();
     // public System.Void .ctor(UnityEngine.Collider self)
-    // Offset: 0x1A67324
+    // Offset: 0x1A7426C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Collider* New_ctor(::UnityEngine::Collider* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Collider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Collider*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x1A67350
+    // Offset: 0x1A74298
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Collider other)
-    // Offset: 0x1A673C0
+    // Offset: 0x1A74308
     bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
   }; // HoudiniEngineUnity.Test_Collider
   #pragma pack(pop)

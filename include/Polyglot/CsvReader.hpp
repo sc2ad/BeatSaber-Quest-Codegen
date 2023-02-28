@@ -41,14 +41,14 @@ namespace Polyglot {
     // Nested type: ::Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
     // public System.Void .ctor()
-    // Offset: 0x2ADD290
+    // Offset: 0x2AF2958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvReader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvReader*, creationType>()));
     }
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x2ADCD54
+    // Offset: 0x2AF241C
     static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
   }; // Polyglot.CsvReader
   #pragma pack(pop)

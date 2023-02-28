@@ -52,19 +52,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 nullCount
     [[deprecated("Use field access instead!")]] int& dyn_nullCount();
     // System.Void SetNullCount(System.Int32 nullCount)
-    // Offset: 0x192E340
+    // Offset: 0x193C2A0
     void SetNullCount(int nullCount);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x192E348
+    // Offset: 0x193C2A8
     void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
-    // Offset: 0x192E3D4
+    // Offset: 0x193C334
     void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
     // public System.Void Dump()
-    // Offset: 0x192E440
+    // Offset: 0x193C3A0
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x192E338
+    // Offset: 0x193C298
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

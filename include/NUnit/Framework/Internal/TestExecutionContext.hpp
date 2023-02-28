@@ -123,28 +123,28 @@ namespace NUnit::Framework::Internal {
     ::System::Security::Principal::IPrincipal* currentPrincipal;
     // Field size check
     static_assert(sizeof(::System::Security::Principal::IPrincipal*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1112ED4
+    // [DebuggerBrowsableAttribute] Offset: 0x1117BEC
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     ::NUnit::Framework::Internal::Test* CurrentTest;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Internal::Test*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1112F10
+    // [DebuggerBrowsableAttribute] Offset: 0x1117C28
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     ::System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(::System::IO::TextWriter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1112F4C
+    // [DebuggerBrowsableAttribute] Offset: 0x1117C64
     // private System.Object <TestObject>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     ::Il2CppObject* TestObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1112F88
+    // [DebuggerBrowsableAttribute] Offset: 0x1117CA0
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -153,21 +153,21 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: UpstreamActions
     char __padding10[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0x1112FC4
+    // [DebuggerBrowsableAttribute] Offset: 0x1117CDC
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* UpstreamActions;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1113000
+    // [DebuggerBrowsableAttribute] Offset: 0x1117D18
     // private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
     // Size: 0x8
     // Offset: 0x78
     ::NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x111303C
+    // [DebuggerBrowsableAttribute] Offset: 0x1117D54
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Size: 0x1
     // Offset: 0x80
@@ -218,61 +218,61 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Boolean <IsSingleThreaded>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsSingleThreaded$k__BackingField();
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
-    // Offset: 0x2AABD04
+    // Offset: 0x2ABD4E8
     static ::NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x2AABE58
+    // Offset: 0x2ABD63C
     ::NUnit::Framework::Internal::Test* get_CurrentTest();
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x2AABE60
+    // Offset: 0x2ABD644
     ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x2AABE68
+    // Offset: 0x2ABD64C
     void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x2AABE7C
+    // Offset: 0x2ABD660
     ::System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x2AABE84
+    // Offset: 0x2ABD668
     void set_OutWriter(::System::IO::TextWriter* value);
     // public System.Object get_TestObject()
-    // Offset: 0x2AABE8C
+    // Offset: 0x2ABD670
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x2AABE94
+    // Offset: 0x2ABD678
     void set_TestObject(::Il2CppObject* value);
     // NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x2AABE9C
+    // Offset: 0x2ABD680
     ::NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0x2AABEA4
+    // Offset: 0x2ABD688
     int get_TestCaseTimeout();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x2AABEAC
+    // Offset: 0x2ABD690
     void set_TestCaseTimeout(int value);
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x2AABEB4
+    // Offset: 0x2ABD698
     void set_UpstreamActions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x2AABEBC
+    // Offset: 0x2ABD6A0
     ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // private System.Void set_CurrentValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x2AABEC4
+    // Offset: 0x2ABD6A8
     void set_CurrentValueFormatter(::NUnit::Framework::Constraints::ValueFormatter* value);
     // public System.Void set_IsSingleThreaded(System.Boolean value)
-    // Offset: 0x2AABECC
+    // Offset: 0x2ABD6B0
     void set_IsSingleThreaded(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x2AABEEC
+    // Offset: 0x2ABD6D0
     static void _cctor();
     // static public NUnit.Framework.Internal.TestExecutionContext GetTestExecutionContext()
-    // Offset: 0x2AABDB0
+    // Offset: 0x2ABD594
     static ::NUnit::Framework::Internal::TestExecutionContext* GetTestExecutionContext();
     // public System.Void IncrementAssertCount()
-    // Offset: 0x2AABED8
+    // Offset: 0x2ABD6BC
     void IncrementAssertCount();
     // public System.Void .ctor()
-    // Offset: 0x2AABB48
+    // Offset: 0x2ABD32C
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Void LongLivedMarshalByRefObject::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -281,7 +281,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x2AABEE4
+    // Offset: 0x2ABD6C8
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();

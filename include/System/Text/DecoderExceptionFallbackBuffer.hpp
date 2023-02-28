@@ -30,15 +30,15 @@ namespace System::Text {
   class DecoderExceptionFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
     public:
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1F5E378
+    // Offset: 0x1F6FB18
     void Throw(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1F5E59C
+    // Offset: 0x1F6FD3C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public System.Void .ctor()
-    // Offset: 0x1F5E2F0
+    // Offset: 0x1F6FA90
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,12 +48,12 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1F5E36C
+    // Offset: 0x1F6FB0C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1F5E594
+    // Offset: 0x1F6FD34
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();

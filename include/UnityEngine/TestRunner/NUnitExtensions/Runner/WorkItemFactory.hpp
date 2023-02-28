@@ -46,14 +46,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class WorkItemFactory : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x19AF098
+    // Offset: 0x19BCFF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WorkItemFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WorkItemFactory*, creationType>()));
     }
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Interfaces.ITest loadedTest, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x19AA590
+    // Offset: 0x19B84F0
     ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* Create(::NUnit::Framework::Interfaces::ITest* loadedTest, ::NUnit::Framework::Interfaces::ITestFilter* filter);
     // protected UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem Create(NUnit.Framework.Internal.TestMethod method, NUnit.Framework.Interfaces.ITestFilter filter, NUnit.Framework.Interfaces.ITest loadedTest)
     // Offset: 0xFFFFFFFFFFFFFFFF
