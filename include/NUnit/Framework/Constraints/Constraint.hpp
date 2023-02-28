@@ -53,21 +53,21 @@ namespace NUnit::Framework::Constraints {
     ::System::Lazy_1_<::StringW>* displayName;
     // Field size check
     static_assert(sizeof(::System::Lazy_1_<::StringW>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1113780
+    // [DebuggerBrowsableAttribute] Offset: 0x1118498
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::StringW Description;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x11137BC
+    // [DebuggerBrowsableAttribute] Offset: 0x11184D4
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x11137F8
+    // [DebuggerBrowsableAttribute] Offset: 0x1118510
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -92,28 +92,28 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ConstraintBuilder*& dyn_$Builder$k__BackingField();
     // public System.String get_DisplayName()
-    // Offset: 0x1D51A28
+    // Offset: 0x1D6415C
     ::StringW get_DisplayName();
     // public System.String get_Description()
-    // Offset: 0x1D51A80
+    // Offset: 0x1D641B4
     ::StringW get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x1D51A88
+    // Offset: 0x1D641BC
     void set_Description(::StringW value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x1D51A90
+    // Offset: 0x1D641C4
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x1D51A98
+    // Offset: 0x1D641CC
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x1D51AA0
+    // Offset: 0x1D641D4
     ::NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x1D51AA8
+    // Offset: 0x1D641DC
     void set_Builder(::NUnit::Framework::Constraints::ConstraintBuilder* value);
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x1D5196C
+    // Offset: 0x1D640A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::Constraint::.ctor");
@@ -123,19 +123,19 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x1D51B30
+    // Offset: 0x1D64264
     ::StringW GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x1D51C84
+    // Offset: 0x1D643B8
     static ::StringW _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x1D51DB0
+    // Offset: 0x1D644E4
     ::NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x1D51E8C
+    // Offset: 0x1D645C0
     ::StringW $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x1D51AB0
+    // Offset: 0x1D641E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

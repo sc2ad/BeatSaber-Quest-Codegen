@@ -47,14 +47,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 b
     [[deprecated("Use field access instead!")]] int& dyn_b();
     // public System.Void .ctor()
-    // Offset: 0x1D062D0
+    // Offset: 0x1D17A04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x1D07CE0
+    // Offset: 0x1D19414
     bool $SewUVs$b__0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass13_0
   #pragma pack(pop)

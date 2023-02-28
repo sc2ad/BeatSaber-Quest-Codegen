@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly NoteData/ScoringType scoringType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteData::ScoringType& dyn_scoringType();
     // public System.Void .ctor(System.Single time, NoteData/ScoringType scoringType, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 beforeCutScore, System.Int32 centerDistanceCutScore, System.Int32 afterCutScore)
-    // Offset: 0x150FE8C
+    // Offset: 0x15AF8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, ::GlobalNamespace::NoteData::ScoringType scoringType, ::GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int beforeCutScore, int centerDistanceCutScore, int afterCutScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteExecutionRating::.ctor");

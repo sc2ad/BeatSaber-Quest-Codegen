@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingTextSpawner* failFlyingTextSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingTextSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x11255AC
+    // [InjectAttribute] Offset: 0x112A364
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
@@ -63,20 +63,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // public System.Void .ctor()
-    // Offset: 0x13C90B0
+    // Offset: 0x13A5EC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialNoteCutEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialNoteCutEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialNoteCutEffectSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C8D54
+    // Offset: 0x13A5B6C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C8DE0
+    // Offset: 0x13A5BF8
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x13C8E78
+    // Offset: 0x13A5C90
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // TutorialNoteCutEffectSpawner
   #pragma pack(pop)

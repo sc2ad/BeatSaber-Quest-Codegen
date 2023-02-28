@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single value
     [[deprecated("Use field access instead!")]] float& dyn_value();
     // public System.Void .ctor()
-    // Offset: 0x1CDC0B4
+    // Offset: 0x1CED830
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

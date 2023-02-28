@@ -46,17 +46,17 @@ namespace UnityEngine::TestTools::Logging {
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Logging.LogEvent,System.Boolean> <>9__53_0
     static void _set_$$9__53_0(::System::Func_2<::UnityEngine::TestTools::Logging::LogEvent*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19BBB7C
+    // Offset: 0x19C9ADC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x19BBBE0
+    // Offset: 0x19C9B40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogScope::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogScope::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogScope::$$c*, creationType>()));
     }
     // System.Boolean <NoUnexpectedReceived>b__53_0(UnityEngine.TestTools.Logging.LogEvent x)
-    // Offset: 0x19BBBE8
+    // Offset: 0x19C9B48
     bool $NoUnexpectedReceived$b__53_0(::UnityEngine::TestTools::Logging::LogEvent* x);
   }; // UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c
   #pragma pack(pop)

@@ -72,38 +72,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ListLogger/LogMessage> _messages
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::ListLogger::LogMessage*>*& dyn__messages();
     // public System.Collections.Generic.List`1<ListLogger/LogMessage> get_messages()
-    // Offset: 0x15B3550
+    // Offset: 0x158746C
     ::System::Collections::Generic::List_1<::GlobalNamespace::ListLogger::LogMessage*>* get_messages();
     // public System.Void .ctor()
-    // Offset: 0x15B3558
+    // Offset: 0x1587474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ListLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListLogger*, creationType>()));
     }
     // public System.Void Log(System.String message)
-    // Offset: 0x15B35CC
+    // Offset: 0x15874E8
     void Log(::StringW message);
     // public System.Void Log(System.String message, System.Object context)
-    // Offset: 0x15B35D4
+    // Offset: 0x15874F0
     void Log(::StringW message, ::Il2CppObject* context);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x15B36A8
+    // Offset: 0x15875C4
     void LogWarning(::StringW message);
     // public System.Void LogWarning(System.String message, System.Object context)
-    // Offset: 0x15B36B0
+    // Offset: 0x15875CC
     void LogWarning(::StringW message, ::Il2CppObject* context);
     // public System.Void LogError(System.String message)
-    // Offset: 0x15B3748
+    // Offset: 0x1587664
     void LogError(::StringW message);
     // public System.Void LogError(System.String message, System.Object context)
-    // Offset: 0x15B3750
+    // Offset: 0x158766C
     void LogError(::StringW message, ::Il2CppObject* context);
     // public System.Void LogException(System.Exception exception)
-    // Offset: 0x15B37E8
+    // Offset: 0x1587704
     void LogException(::System::Exception* exception);
     // public System.Void LogException(System.Exception exception, System.Object context)
-    // Offset: 0x15B37F0
+    // Offset: 0x158770C
     void LogException(::System::Exception* exception, ::Il2CppObject* context);
   }; // ListLogger
   #pragma pack(pop)

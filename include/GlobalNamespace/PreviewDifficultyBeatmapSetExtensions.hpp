@@ -40,10 +40,10 @@ namespace GlobalNamespace {
   class PreviewDifficultyBeatmapSetExtensions : public ::Il2CppObject {
     public:
     // static public BeatmapCharacteristicSO[] GetBeatmapCharacteristics(PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSet)
-    // Offset: 0x1428CB4
+    // Offset: 0x145CBE0
     static ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> GetBeatmapCharacteristics(::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSet);
     // static public System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> GetPreviewDifficultyBeatmapSetWithout360Movement(System.Collections.Generic.IReadOnlyList`1<PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSet)
-    // Offset: 0x14280E8
+    // Offset: 0x145C014
     static ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* GetPreviewDifficultyBeatmapSetWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSet);
   }; // PreviewDifficultyBeatmapSetExtensions
   #pragma pack(pop)

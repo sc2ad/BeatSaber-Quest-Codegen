@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x134DA58
+    // Offset: 0x137A108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuScenesTransitionSetupDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuScenesTransitionSetupDataSO::.ctor");

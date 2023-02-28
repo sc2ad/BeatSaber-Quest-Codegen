@@ -122,42 +122,42 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentType contentType
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::XmlSchemaContentType& dyn_contentType();
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
-    // Offset: 0x20FF498
+    // Offset: 0x2112C6C
     ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public System.Boolean get_IsDefault()
-    // Offset: 0x20FF4A0
+    // Offset: 0x2112C74
     bool get_IsDefault();
     // public System.Boolean get_IsNil()
-    // Offset: 0x20FF4A8
+    // Offset: 0x2112C7C
     bool get_IsNil();
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
-    // Offset: 0x20FF4B0
+    // Offset: 0x2112C84
     ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
-    // Offset: 0x20FF4B8
+    // Offset: 0x2112C8C
     ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
-    // Offset: 0x20FF4C0
+    // Offset: 0x2112C94
     ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
-    // Offset: 0x20FF4C8
+    // Offset: 0x2112C9C
     ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
     // public System.Void .ctor()
-    // Offset: 0x20FF40C
+    // Offset: 0x2112BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaInfo*, creationType>()));
     }
     // System.Void .ctor(System.Xml.Schema.XmlSchemaValidity validity)
-    // Offset: 0x20FF45C
+    // Offset: 0x2112C30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaInfo*, creationType>(validity)));
     }
     // System.Void Clear()
-    // Offset: 0x20FF444
+    // Offset: 0x2112C18
     void Clear();
   }; // System.Xml.Schema.XmlSchemaInfo
   #pragma pack(pop)

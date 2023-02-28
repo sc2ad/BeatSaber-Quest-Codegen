@@ -36,20 +36,20 @@ namespace RootMotion {
   class Warning::Logger : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2071DB0
+    // Offset: 0x2086584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Warning::Logger* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Warning::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Warning::Logger*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.String message)
-    // Offset: 0x2071A1C
+    // Offset: 0x20861F0
     void Invoke(::StringW message);
     // public System.IAsyncResult BeginInvoke(System.String message, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2071DC0
+    // Offset: 0x2086594
     ::System::IAsyncResult* BeginInvoke(::StringW message, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2071DE4
+    // Offset: 0x20865B8
     void EndInvoke(::System::IAsyncResult* result);
   }; // RootMotion.Warning/RootMotion.Logger
   #pragma pack(pop)

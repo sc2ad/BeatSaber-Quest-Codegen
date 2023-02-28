@@ -79,23 +79,23 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger a
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_a();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1CEFF08
+    // Offset: 0x1D0163C
     ::Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_Q()
-    // Offset: 0x1CEFF8C
+    // Offset: 0x1D016C0
     ::Org::BouncyCastle::Math::BigInteger* get_Q();
     // public Org.BouncyCastle.Math.BigInteger get_A()
-    // Offset: 0x1CEFFA4
+    // Offset: 0x1D016D8
     ::Org::BouncyCastle::Math::BigInteger* get_A();
     // public System.Void .ctor(System.Int32 keySize, Org.BouncyCastle.Math.BigInteger p, Org.BouncyCastle.Math.BigInteger q, Org.BouncyCastle.Math.BigInteger a)
-    // Offset: 0x1CEFC80
+    // Offset: 0x1D013B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410ParamSetParameters* New_ctor(int keySize, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410ParamSetParameters*, creationType>(keySize, p, q, a)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1CEFFBC
+    // Offset: 0x1D016F0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

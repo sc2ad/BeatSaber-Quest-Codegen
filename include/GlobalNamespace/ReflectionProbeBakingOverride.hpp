@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setPosition and: localPosition
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x112E4D4
+    // [DrawIfAttribute] Offset: 0x1133344
     // private UnityEngine.Vector3 _localPosition
     // Size: 0xC
     // Offset: 0x20
@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setRotation and: localRotation
     char __padding3[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x112E58C
+    // [DrawIfAttribute] Offset: 0x11333FC
     // private UnityEngine.Vector3 _localRotation
     // Size: 0xC
     // Offset: 0x30
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: setScale and: localScale
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x112E644
+    // [DrawIfAttribute] Offset: 0x11334B4
     // private UnityEngine.Vector3 _localScale
     // Size: 0xC
     // Offset: 0x40
@@ -154,14 +154,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localScale
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__localScale();
     // public System.Void .ctor()
-    // Offset: 0x1430CB8
+    // Offset: 0x1464BE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionProbeBakingOverride* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReflectionProbeBakingOverride::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionProbeBakingOverride*, creationType>()));
     }
     // public System.Void UpdateForProbeBaking()
-    // Offset: 0x1430BCC
+    // Offset: 0x1464AF8
     void UpdateForProbeBaking();
   }; // ReflectionProbeBakingOverride
   #pragma pack(pop)

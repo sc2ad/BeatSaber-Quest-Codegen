@@ -105,26 +105,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> _processedSamples
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<float>*& dyn__processedSamples();
     // public System.Single[] get_Samples()
-    // Offset: 0x13ACED0
+    // Offset: 0x13D9294
     ::ArrayW<float> get_Samples();
     // public System.Collections.Generic.List`1<System.Single> get_ProcessedSamples()
-    // Offset: 0x13ACF78
+    // Offset: 0x13D933C
     ::System::Collections::Generic::List_1<float>* get_ProcessedSamples();
     // public System.Void .ctor()
-    // Offset: 0x13AD25C
+    // Offset: 0x13D9620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicSpectrogramData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicSpectrogramData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicSpectrogramData*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13AD1D8
+    // Offset: 0x13D959C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x13AD254
+    // Offset: 0x13D9618
     void LateUpdate();
     // private System.Void ProcessSamples(System.Single[] sourceSamples, System.Collections.Generic.List`1<System.Single> processedSamples)
-    // Offset: 0x13ACFCC
+    // Offset: 0x13D9390
     void ProcessSamples(::ArrayW<float> sourceSamples, ::System::Collections::Generic::List_1<float>* processedSamples);
   }; // BasicSpectrogramData
   #pragma pack(pop)

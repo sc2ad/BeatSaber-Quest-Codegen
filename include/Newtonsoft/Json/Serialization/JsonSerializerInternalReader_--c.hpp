@@ -59,26 +59,26 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence> <>9__41_1
     static void _set_$$9__41_1(::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E11234
+    // Offset: 0x1E229D4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E11298
+    // Offset: 0x1E22A38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalReader::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerInternalReader::$$c*, creationType>()));
     }
     // System.String <CreateObjectUsingCreatorWithParameters>b__36_0(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1E112A0
+    // Offset: 0x1E22A40
     ::StringW $CreateObjectUsingCreatorWithParameters$b__36_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
     // System.String <CreateObjectUsingCreatorWithParameters>b__36_2(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1E112B8
+    // Offset: 0x1E22A58
     ::StringW $CreateObjectUsingCreatorWithParameters$b__36_2(::Newtonsoft::Json::Serialization::JsonProperty* p);
     // Newtonsoft.Json.Serialization.JsonProperty <PopulateObject>b__41_0(Newtonsoft.Json.Serialization.JsonProperty m)
-    // Offset: 0x1E112D0
+    // Offset: 0x1E22A70
     ::Newtonsoft::Json::Serialization::JsonProperty* $PopulateObject$b__41_0(::Newtonsoft::Json::Serialization::JsonProperty* m);
     // Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence <PopulateObject>b__41_1(Newtonsoft.Json.Serialization.JsonProperty m)
-    // Offset: 0x1E112D8
+    // Offset: 0x1E22A78
     ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence $PopulateObject$b__41_1(::Newtonsoft::Json::Serialization::JsonProperty* m);
   }; // Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.<>c
   #pragma pack(pop)

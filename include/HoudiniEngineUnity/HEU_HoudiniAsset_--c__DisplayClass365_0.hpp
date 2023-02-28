@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset newAsset
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_newAsset();
     // public System.Void .ctor()
-    // Offset: 0x18BD02C
+    // Offset: 0x18CBF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c__DisplayClass365_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0::.ctor");

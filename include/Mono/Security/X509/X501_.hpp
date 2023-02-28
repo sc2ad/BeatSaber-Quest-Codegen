@@ -97,16 +97,16 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] initial
     static void _set_initial(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1FF3608
+    // Offset: 0x2005DA8
     static void _cctor();
     // static public System.String ToString(Mono.Security.ASN1 seq)
-    // Offset: 0x1FF2BEC
+    // Offset: 0x200538C
     static ::StringW ToString(::Mono::Security::ASN1_* seq);
     // static public System.String ToString(Mono.Security.ASN1 seq, System.Boolean reversed, System.String separator, System.Boolean quotes)
-    // Offset: 0x1FF3440
+    // Offset: 0x2005BE0
     static ::StringW ToString(::Mono::Security::ASN1_* seq, bool reversed, ::StringW separator, bool quotes);
     // static private System.Void AppendEntry(System.Text.StringBuilder sb, Mono.Security.ASN1 entry, System.Boolean quotes)
-    // Offset: 0x1FF2D1C
+    // Offset: 0x20054BC
     static void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1_* entry, bool quotes);
   }; // Mono.Security.X509.X501
   #pragma pack(pop)

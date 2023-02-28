@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Sprite* smallCoverImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111AD34
+    // [SpaceAttribute] Offset: 0x111FA8C
     // private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
     // Size: 0x8
     // Offset: 0x40
@@ -107,28 +107,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private PreviewBeatmapLevelCollectionSO _previewBeatmapLevelCollection
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& dyn__previewBeatmapLevelCollection();
     // public System.String get_packID()
-    // Offset: 0x1427FC0
+    // Offset: 0x145BEEC
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0x1427FC8
+    // Offset: 0x145BEF4
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x1427FD0
+    // Offset: 0x145BEFC
     ::StringW get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x1427FD8
+    // Offset: 0x145BF04
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x1427FE0
+    // Offset: 0x145BF0C
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x1427FE8
+    // Offset: 0x145BF14
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x1427FF0
+    // Offset: 0x145BF1C
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x1427FF8
+    // Offset: 0x145BF24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewBeatmapLevelPackSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewBeatmapLevelPackSO::.ctor");

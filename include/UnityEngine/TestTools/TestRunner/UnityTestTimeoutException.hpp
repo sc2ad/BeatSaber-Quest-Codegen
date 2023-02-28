@@ -37,22 +37,22 @@ namespace UnityEngine::TestTools::TestRunner {
   class UnityTestTimeoutException : public ::NUnit::Framework::ResultStateException {
     public:
     // public System.Void .ctor(System.Int32 timeout)
-    // Offset: 0x2B74BC4
+    // Offset: 0x2B8784C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestTimeoutException* New_ctor(int timeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestTimeoutException*, creationType>(timeout)));
     }
     // static private System.String BuildMessage(System.Int32 timeout)
-    // Offset: 0x2B74BF4
+    // Offset: 0x2B8787C
     static ::StringW BuildMessage(int timeout);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x2B74C70
+    // Offset: 0x2B878F8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     ::NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x2B74CD8
+    // Offset: 0x2B87960
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::StringW get_StackTrace();

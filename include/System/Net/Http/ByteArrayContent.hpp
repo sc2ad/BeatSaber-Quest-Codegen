@@ -73,19 +73,19 @@ namespace System::Net::Http {
     // Get instance field reference: private readonly System.Int32 count
     [[deprecated("Use field access instead!")]] int& dyn_count();
     // public System.Void .ctor(System.Byte[] content)
-    // Offset: 0x19ECEBC
+    // Offset: 0x19FAE1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayContent* New_ctor(::ArrayW<uint8_t> content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::ByteArrayContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayContent*, creationType>(content)));
     }
     // protected internal override System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x19ECF68
+    // Offset: 0x19FAEC8
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
     // protected internal override System.Boolean TryComputeLength(out System.Int64 length)
-    // Offset: 0x19ECF90
+    // Offset: 0x19FAEF0
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(ByRef<int64_t> length);

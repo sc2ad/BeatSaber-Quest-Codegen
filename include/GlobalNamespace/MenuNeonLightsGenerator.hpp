@@ -150,7 +150,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _afterSpawnRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__afterSpawnRotation();
     // public System.Void .ctor()
-    // Offset: 0x134D824
+    // Offset: 0x1379ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuNeonLightsGenerator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuNeonLightsGenerator::.ctor");

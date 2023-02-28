@@ -43,7 +43,7 @@ namespace System::IO {
   class UnexceptionalStreamWriter : public ::System::IO::StreamWriter {
     public:
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x1C4525C
+    // Offset: 0x1C54A28
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,27 +52,27 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<UnexceptionalStreamWriter*, creationType>(stream, encoding)));
     }
     // public override System.Void Flush()
-    // Offset: 0x1C452E0
+    // Offset: 0x1C54AAC
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Flush()
     void Flush();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1C453AC
+    // Offset: 0x1C54B78
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.Char value)
-    // Offset: 0x1C45498
+    // Offset: 0x1C54C64
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] value)
-    // Offset: 0x1C45568
+    // Offset: 0x1C54D34
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] value)
     void Write(::ArrayW<::Il2CppChar> value);
     // public override System.Void Write(System.String value)
-    // Offset: 0x1C45638
+    // Offset: 0x1C54E04
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String value)
     void Write(::StringW value);

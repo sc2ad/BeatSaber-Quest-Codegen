@@ -34,10 +34,10 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::WaypointConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData*, ::GlobalNamespace::WaypointData*> {
     public:
     // protected WaypointData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.WaypointData waypointSaveData)
-    // Offset: 0x13B8D0C
+    // Offset: 0x13E50D0
     ::GlobalNamespace::WaypointData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::WaypointData* waypointSaveData);
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0x13B6668
+    // Offset: 0x13E2A2C
     // Implemented from: BeatmapDataLoader/BeatmapDataItemConvertor`3
     // Base method: System.Void BeatmapDataItemConvertor_3::.ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

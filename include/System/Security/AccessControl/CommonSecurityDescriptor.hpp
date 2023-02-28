@@ -110,68 +110,68 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.DiscretionaryAcl discretionary_acl
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::DiscretionaryAcl*& dyn_discretionary_acl();
     // public System.Security.AccessControl.DiscretionaryAcl get_DiscretionaryAcl()
-    // Offset: 0x1BD7D6C
+    // Offset: 0x1BE6538
     ::System::Security::AccessControl::DiscretionaryAcl* get_DiscretionaryAcl();
     // public System.Void set_DiscretionaryAcl(System.Security.AccessControl.DiscretionaryAcl value)
-    // Offset: 0x1BD7C58
+    // Offset: 0x1BE6424
     void set_DiscretionaryAcl(::System::Security::AccessControl::DiscretionaryAcl* value);
     // public System.Boolean get_IsContainer()
-    // Offset: 0x1BD7EE8
+    // Offset: 0x1BE66B4
     bool get_IsContainer();
     // public System.Boolean get_IsDS()
-    // Offset: 0x1BD7EF0
+    // Offset: 0x1BE66BC
     bool get_IsDS();
     // public System.Security.AccessControl.SystemAcl get_SystemAcl()
-    // Offset: 0x1BD7F08
+    // Offset: 0x1BE66D4
     ::System::Security::AccessControl::SystemAcl* get_SystemAcl();
     // public System.Void set_SystemAcl(System.Security.AccessControl.SystemAcl value)
-    // Offset: 0x1BD7C24
+    // Offset: 0x1BE63F0
     void set_SystemAcl(::System::Security::AccessControl::SystemAcl* value);
     // public System.Void .ctor(System.Boolean isContainer, System.Boolean isDS, System.Byte[] binaryForm, System.Int32 offset)
-    // Offset: 0x1BD765C
+    // Offset: 0x1BE5E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonSecurityDescriptor* New_ctor(bool isContainer, bool isDS, ::ArrayW<uint8_t> binaryForm, int offset) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::CommonSecurityDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommonSecurityDescriptor*, creationType>(isContainer, isDS, binaryForm, offset)));
     }
     // public System.Void .ctor(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.ControlFlags flags, System.Security.Principal.SecurityIdentifier owner, System.Security.Principal.SecurityIdentifier group, System.Security.AccessControl.SystemAcl systemAcl, System.Security.AccessControl.DiscretionaryAcl discretionaryAcl)
-    // Offset: 0x1BD7B0C
+    // Offset: 0x1BE62D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CommonSecurityDescriptor* New_ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner, ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl, ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::CommonSecurityDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CommonSecurityDescriptor*, creationType>(isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl)));
     }
     // private System.Void Init(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.RawSecurityDescriptor rawSecurityDescriptor)
-    // Offset: 0x1BD799C
+    // Offset: 0x1BE6168
     void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::RawSecurityDescriptor* rawSecurityDescriptor);
     // private System.Void Init(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.ControlFlags flags, System.Security.Principal.SecurityIdentifier owner, System.Security.Principal.SecurityIdentifier group, System.Security.AccessControl.SystemAcl systemAcl, System.Security.AccessControl.DiscretionaryAcl discretionaryAcl)
-    // Offset: 0x1BD7B84
+    // Offset: 0x1BE6350
     void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner, ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl, ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
     // private System.Void CheckAclConsistency(System.Security.AccessControl.CommonAcl acl)
-    // Offset: 0x1BD7DEC
+    // Offset: 0x1BE65B8
     void CheckAclConsistency(::System::Security::AccessControl::CommonAcl* acl);
     // public override System.Security.AccessControl.ControlFlags get_ControlFlags()
-    // Offset: 0x1BD7D4C
+    // Offset: 0x1BE6518
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.AccessControl.ControlFlags GenericSecurityDescriptor::get_ControlFlags()
     ::System::Security::AccessControl::ControlFlags get_ControlFlags();
     // public override System.Security.Principal.SecurityIdentifier get_Group()
-    // Offset: 0x1BD7ED8
+    // Offset: 0x1BE66A4
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.Principal.SecurityIdentifier GenericSecurityDescriptor::get_Group()
     ::System::Security::Principal::SecurityIdentifier* get_Group();
     // public override System.Void set_Group(System.Security.Principal.SecurityIdentifier value)
-    // Offset: 0x1BD7EE0
+    // Offset: 0x1BE66AC
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Void GenericSecurityDescriptor::set_Group(System.Security.Principal.SecurityIdentifier value)
     void set_Group(::System::Security::Principal::SecurityIdentifier* value);
     // public override System.Security.Principal.SecurityIdentifier get_Owner()
-    // Offset: 0x1BD7EF8
+    // Offset: 0x1BE66C4
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Security.Principal.SecurityIdentifier GenericSecurityDescriptor::get_Owner()
     ::System::Security::Principal::SecurityIdentifier* get_Owner();
     // public override System.Void set_Owner(System.Security.Principal.SecurityIdentifier value)
-    // Offset: 0x1BD7F00
+    // Offset: 0x1BE66CC
     // Implemented from: System.Security.AccessControl.GenericSecurityDescriptor
     // Base method: System.Void GenericSecurityDescriptor::set_Owner(System.Security.Principal.SecurityIdentifier value)
     void set_Owner(::System::Security::Principal::SecurityIdentifier* value);

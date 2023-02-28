@@ -60,30 +60,30 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__childNodes();
     // private System.Xml.Linq.XContainer get_Container()
-    // Offset: 0x1809CB8
+    // Offset: 0x1819CD8
     ::System::Xml::Linq::XContainer* get_Container();
     // public System.Void .ctor(System.Xml.Linq.XContainer container)
-    // Offset: 0x1809D38
+    // Offset: 0x1819D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XContainerWrapper* New_ctor(::System::Xml::Linq::XContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XContainerWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XContainerWrapper*, creationType>(container)));
     }
     // static Newtonsoft.Json.Converters.IXmlNode WrapNode(System.Xml.Linq.XObject node)
-    // Offset: 0x1809790
+    // Offset: 0x18197B0
     static ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::Linq::XObject* node);
     // public override System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_ChildNodes()
-    // Offset: 0x1809DB4
+    // Offset: 0x1819DD4
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> XObjectWrapper::get_ChildNodes()
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
     // public override Newtonsoft.Json.Converters.IXmlNode get_ParentNode()
-    // Offset: 0x180A07C
+    // Offset: 0x181A09C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XObjectWrapper::get_ParentNode()
     ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
     // public override Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
-    // Offset: 0x180A24C
+    // Offset: 0x181A26C
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XObjectWrapper::AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
     ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);

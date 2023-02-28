@@ -110,24 +110,24 @@ namespace GlobalNamespace {
     // Get instance field reference: public ColorSchemeNetSerializable colorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeNetSerializable& dyn_colorScheme();
     // public System.Void .ctor()
-    // Offset: 0x269F144
+    // Offset: 0x26B1918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettingsNetSerializable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettingsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettingsNetSerializable*, creationType>()));
     }
     // public System.Void .ctor(System.String userId, System.String userName, System.Boolean leftHanded, System.Boolean automaticPlayerHeight, System.Single playerHeight, System.Single headPosToPlayerHeightOffset, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color obstaclesColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost)
-    // Offset: 0x269F1E8
+    // Offset: 0x26B19BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettingsNetSerializable* New_ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float playerHeight, float headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettingsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettingsNetSerializable*, creationType>(userId, userName, leftHanded, automaticPlayerHeight, playerHeight, headPosToPlayerHeightOffset, saberAColor, saberBColor, obstaclesColor, environmentColor0, environmentColor1, environmentColor0Boost, environmentColor1Boost)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x269EFAC
+    // Offset: 0x26B1780
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x269F14C
+    // Offset: 0x26B1920
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // PlayerSpecificSettingsNetSerializable
   #pragma pack(pop)

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class OffsetByBeatmapObjectSpawnCenter : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x111CE68
+    // [InjectAttribute] Offset: 0x1121C20
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x18
@@ -49,17 +49,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapObjectSpawnCenter*& dyn__spawnCenter();
     // public System.Void .ctor()
-    // Offset: 0x137F570
+    // Offset: 0x1385B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetByBeatmapObjectSpawnCenter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetByBeatmapObjectSpawnCenter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x137F3BC
+    // Offset: 0x13859C0
     void Start();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single distance)
-    // Offset: 0x137F470
+    // Offset: 0x1385A74
     void HandleSpawnCenterDistanceWasFound(float distance);
   }; // OffsetByBeatmapObjectSpawnCenter
   #pragma pack(pop)

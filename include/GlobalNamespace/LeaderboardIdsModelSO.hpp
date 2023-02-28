@@ -68,20 +68,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _leaderboardIdMap
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__leaderboardIdMap();
     // public System.Void .ctor()
-    // Offset: 0x13D814C
+    // Offset: 0x13B4450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardIdsModelSO*, creationType>()));
     }
     // private System.Void RebuildMap()
-    // Offset: 0x13D7F58
+    // Offset: 0x13B42F4
     void RebuildMap();
     // public System.Boolean TryGetPlatformLeaderboardId(IDifficultyBeatmap difficultyBeatmap, out System.String platformLeaderboardId)
-    // Offset: 0x13D80B4
+    // Offset: 0x13B3918
     bool TryGetPlatformLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ByRef<::StringW> platformLeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0x13D808C
+    // Offset: 0x13B4428
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

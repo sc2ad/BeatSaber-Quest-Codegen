@@ -82,10 +82,10 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Globalization.CultureInfo _culture
     [[deprecated("Use field access instead!")]] ::System::Globalization::CultureInfo*& dyn__culture();
     // public System.Globalization.CultureInfo get_Culture()
-    // Offset: 0x1805D74
+    // Offset: 0x1815D94
     ::System::Globalization::CultureInfo* get_Culture();
     // public System.Void .ctor()
-    // Offset: 0x180654C
+    // Offset: 0x181656C
     // Implemented from: Newtonsoft.Json.Converters.DateTimeConverterBase
     // Base method: System.Void DateTimeConverterBase::.ctor()
     // Base method: System.Void JsonConverter::.ctor()
@@ -95,12 +95,12 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<IsoDateTimeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1805DEC
+    // Offset: 0x1815E0C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x180601C
+    // Offset: 0x181603C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);

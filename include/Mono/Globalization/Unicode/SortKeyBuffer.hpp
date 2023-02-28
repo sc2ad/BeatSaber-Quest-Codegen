@@ -216,41 +216,41 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private System.Boolean frenchSorted
     [[deprecated("Use field access instead!")]] bool& dyn_frenchSorted();
     // public System.Void .ctor(System.Int32 lcid)
-    // Offset: 0x1FD3CBC
+    // Offset: 0x1FE545C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKeyBuffer* New_ctor(int lcid) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::SortKeyBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKeyBuffer*, creationType>(lcid)));
     }
     // public System.Void Reset()
-    // Offset: 0x1FD8340
+    // Offset: 0x1FE9AE0
     void Reset();
     // System.Void Initialize(System.Globalization.CompareOptions options, System.Int32 lcid, System.String s, System.Boolean frenchSort)
-    // Offset: 0x1FD3CC4
+    // Offset: 0x1FE5464
     void Initialize(::System::Globalization::CompareOptions options, int lcid, ::StringW s, bool frenchSort);
     // System.Void AppendCJKExtension(System.Byte lv1msb, System.Byte lv1lsb)
-    // Offset: 0x1FD4790
+    // Offset: 0x1FE5F30
     void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
     // System.Void AppendKana(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3, System.Boolean isSmallKana, System.Byte markType, System.Boolean isKatakana, System.Boolean isHalfWidth)
-    // Offset: 0x1FD48E8
+    // Offset: 0x1FE6088
     void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
     // System.Void AppendNormal(System.Byte category, System.Byte lv1, System.Byte lv2, System.Byte lv3)
-    // Offset: 0x1FD4640
+    // Offset: 0x1FE5DE0
     void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
     // private System.Void AppendLevel5(System.Byte category, System.Byte lv1)
-    // Offset: 0x1FD8428
+    // Offset: 0x1FE9BC8
     void AppendLevel5(uint8_t category, uint8_t lv1);
     // private System.Void AppendBufferPrimitive(System.Byte value, ref System.Byte[] buf, ref System.Int32 bidx)
-    // Offset: 0x1FD8350
+    // Offset: 0x1FE9AF0
     void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t>> buf, ByRef<int> bidx);
     // public System.Globalization.SortKey GetResultAndReset()
-    // Offset: 0x1FD4218
+    // Offset: 0x1FE59B8
     ::System::Globalization::SortKey* GetResultAndReset();
     // private System.Int32 GetOptimizedLength(System.Byte[] data, System.Int32 len, System.Byte defaultValue)
-    // Offset: 0x1FD89AC
+    // Offset: 0x1FEA14C
     int GetOptimizedLength(::ArrayW<uint8_t> data, int len, uint8_t defaultValue);
     // public System.Globalization.SortKey GetResult()
-    // Offset: 0x1FD84CC
+    // Offset: 0x1FE9C6C
     ::System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
   #pragma pack(pop)

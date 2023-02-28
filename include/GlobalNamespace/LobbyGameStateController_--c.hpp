@@ -49,17 +49,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__99_0
     static void _set_$$9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15B9158
+    // Offset: 0x158D074
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x15B91BC
+    // Offset: 0x158D0D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyGameStateController::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyGameStateController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyGameStateController::$$c*, creationType>()));
     }
     // System.Boolean <PredictCountdownEndTime>b__99_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
-    // Offset: 0x15B91C4
+    // Offset: 0x158D0E0
     bool $PredictCountdownEndTime$b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
   }; // LobbyGameStateController/<>c
   #pragma pack(pop)

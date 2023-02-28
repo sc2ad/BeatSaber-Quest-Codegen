@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // public System.Void .ctor()
-    // Offset: 0x141C000
+    // Offset: 0x14936C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetPSSaberGlowColor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetPSSaberGlowColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetPSSaberGlowColor*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x141BF6C
+    // Offset: 0x1493630
     void Start();
   }; // SetPSSaberGlowColor
   #pragma pack(pop)

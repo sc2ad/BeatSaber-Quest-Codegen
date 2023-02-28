@@ -50,34 +50,34 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Byte[] emptySHA512
     static void _set_emptySHA512(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1FE6F4C
+    // Offset: 0x1FF96EC
     static void _cctor();
     // static private System.Boolean Compare(System.Byte[] array1, System.Byte[] array2)
-    // Offset: 0x1FE62DC
+    // Offset: 0x1FF8A7C
     static bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
     // static public System.Byte[] I2OSP(System.Byte[] x, System.Int32 size)
-    // Offset: 0x1FE6358
+    // Offset: 0x1FF8AF8
     static ::ArrayW<uint8_t> I2OSP(::ArrayW<uint8_t> x, int size);
     // static public System.Byte[] OS2IP(System.Byte[] x)
-    // Offset: 0x1FE63EC
+    // Offset: 0x1FF8B8C
     static ::ArrayW<uint8_t> OS2IP(::ArrayW<uint8_t> x);
     // static public System.Byte[] RSAVP1(System.Security.Cryptography.RSA rsa, System.Byte[] s)
-    // Offset: 0x1FE64C0
+    // Offset: 0x1FF8C60
     static ::ArrayW<uint8_t> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t> s);
     // static public System.Boolean Verify_v15(System.Security.Cryptography.RSA rsa, System.Security.Cryptography.HashAlgorithm hash, System.Byte[] hashValue, System.Byte[] signature)
-    // Offset: 0x1FE64E0
+    // Offset: 0x1FF8C80
     static bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature);
     // static System.Boolean Verify_v15(System.Security.Cryptography.RSA rsa, System.String hashName, System.Byte[] hashValue, System.Byte[] signature)
-    // Offset: 0x1FE6760
+    // Offset: 0x1FF8F00
     static bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature);
     // static public System.Boolean Verify_v15(System.Security.Cryptography.RSA rsa, System.Security.Cryptography.HashAlgorithm hash, System.Byte[] hashValue, System.Byte[] signature, System.Boolean tryNonStandardEncoding)
-    // Offset: 0x1FE6570
+    // Offset: 0x1FF8D10
     static bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature, bool tryNonStandardEncoding);
     // static public System.Byte[] Encode_v15(System.Security.Cryptography.HashAlgorithm hash, System.Byte[] hashValue, System.Int32 emLength)
-    // Offset: 0x1FE6C48
+    // Offset: 0x1FF93E8
     static ::ArrayW<uint8_t> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, int emLength);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1FE68CC
+    // Offset: 0x1FF906C
     static ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)

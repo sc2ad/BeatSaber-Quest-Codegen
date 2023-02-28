@@ -57,7 +57,7 @@ namespace MidiParser {
     // Get instance field reference: public readonly System.Collections.Generic.List`1<MidiParser.MidiEvent> MidiEvents
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& dyn_MidiEvents();
     // public System.Void .ctor()
-    // Offset: 0x2B9B988
+    // Offset: 0x2BAF610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MidiTrack* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::MidiParser::MidiTrack::.ctor");

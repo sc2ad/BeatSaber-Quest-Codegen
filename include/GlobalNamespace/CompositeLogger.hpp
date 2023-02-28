@@ -65,45 +65,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<IBeatSaberLogger> _loggers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*& dyn__loggers();
     // public System.Void .ctor()
-    // Offset: 0x143C554
+    // Offset: 0x1443E28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CompositeLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeLogger*, creationType>()));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<IBeatSaberLogger> loggers)
-    // Offset: 0x143C5C8
+    // Offset: 0x1443E9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CompositeLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeLogger*, creationType>(loggers)));
     }
     // public System.Void AddLogger(IBeatSaberLogger logger)
-    // Offset: 0x143C5F4
+    // Offset: 0x1443EC8
     void AddLogger(::GlobalNamespace::IBeatSaberLogger* logger);
     // public System.Void Log(System.String message)
-    // Offset: 0x143C65C
+    // Offset: 0x1443F30
     void Log(::StringW message);
     // public System.Void Log(System.String message, System.Object context)
-    // Offset: 0x143C7C4
+    // Offset: 0x1444098
     void Log(::StringW message, ::Il2CppObject* context);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x143C940
+    // Offset: 0x1444214
     void LogWarning(::StringW message);
     // public System.Void LogWarning(System.String message, System.Object context)
-    // Offset: 0x143CAAC
+    // Offset: 0x1444380
     void LogWarning(::StringW message, ::Il2CppObject* context);
     // public System.Void LogError(System.String message)
-    // Offset: 0x143CC28
+    // Offset: 0x14444FC
     void LogError(::StringW message);
     // public System.Void LogError(System.String message, System.Object context)
-    // Offset: 0x143CD94
+    // Offset: 0x1444668
     void LogError(::StringW message, ::Il2CppObject* context);
     // public System.Void LogException(System.Exception exception)
-    // Offset: 0x143CF10
+    // Offset: 0x14447E4
     void LogException(::System::Exception* exception);
     // public System.Void LogException(System.Exception exception, System.Object context)
-    // Offset: 0x143D07C
+    // Offset: 0x1444950
     void LogException(::System::Exception* exception, ::Il2CppObject* context);
   }; // CompositeLogger
   #pragma pack(pop)

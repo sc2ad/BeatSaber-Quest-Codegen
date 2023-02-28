@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _verticalOffset
     [[deprecated("Use field access instead!")]] float& dyn__verticalOffset();
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x13D1138
+    // Offset: 0x13ABDF0
     ::UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x13D1144
+    // Offset: 0x13ABDFC
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x13D114C
+    // Offset: 0x13ABE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeadBodyOffsetSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HeadBodyOffsetSO::.ctor");

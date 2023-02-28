@@ -159,20 +159,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> _didFinishEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<IFlyingObjectEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x13A1734
+    // Offset: 0x13CDAF8
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
     // protected System.Void .ctor()
-    // Offset: 0x13A1BBC
+    // Offset: 0x13CDF80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingObjectEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingObjectEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingObjectEffect*, creationType>()));
     }
     // public System.Void InitAndPresent(System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, System.Boolean shake)
-    // Offset: 0x13A173C
+    // Offset: 0x13CDB00
     void InitAndPresent(float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
     // protected System.Void Update()
-    // Offset: 0x13A1828
+    // Offset: 0x13CDBEC
     void Update();
     // protected System.Void ManualUpdate(System.Single t)
     // Offset: 0xFFFFFFFFFFFFFFFF

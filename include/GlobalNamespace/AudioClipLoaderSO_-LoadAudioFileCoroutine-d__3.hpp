@@ -106,29 +106,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1546614
+    // Offset: 0x157B5C0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x154667C
+    // Offset: 0x157B628
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15462D8
+    // Offset: 0x157B284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x154630C
+    // Offset: 0x157B2B8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15463E8
+    // Offset: 0x157B394
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1546328
+    // Offset: 0x157B2D4
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x154661C
+    // Offset: 0x157B5C8
     void System_Collections_IEnumerator_Reset();
   }; // AudioClipLoaderSO/<LoadAudioFileCoroutine>d__3
   #pragma pack(pop)

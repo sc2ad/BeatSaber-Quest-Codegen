@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OculusTestExperiment::$Init$d__3
     struct $Init$d__3;
     public:
-    // [InjectAttribute] Offset: 0x111A0EC
+    // [InjectAttribute] Offset: 0x111EE44
     // private readonly IExperimentModel _experimentModel
     // Size: 0x8
     // Offset: 0x10
@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IExperimentModel _experimentModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IExperimentModel*& dyn__experimentModel();
     // public System.Void .ctor()
-    // Offset: 0x137EF2C
+    // Offset: 0x1385530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusTestExperiment* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusTestExperiment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusTestExperiment*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x137EE6C
+    // Offset: 0x1385470
     void Init();
   }; // OculusTestExperiment
   #pragma pack(pop)

@@ -25,7 +25,7 @@ namespace TMPro {
   class FloatTween::FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14A52A8
+    // Offset: 0x14986A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatTween::FloatTweenCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FloatTween::FloatTweenCallback::.ctor");

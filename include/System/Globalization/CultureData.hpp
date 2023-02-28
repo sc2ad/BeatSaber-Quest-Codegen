@@ -209,143 +209,143 @@ namespace System::Globalization {
     // Get instance field reference: private System.String sListSeparator
     [[deprecated("Use field access instead!")]] ::StringW& dyn_sListSeparator();
     // static public System.Globalization.CultureData get_Invariant()
-    // Offset: 0x199CCBC
+    // Offset: 0x19AAC1C
     static ::System::Globalization::CultureData* get_Invariant();
     // System.String[] get_LongTimes()
-    // Offset: 0x199D1F8
+    // Offset: 0x19AB158
     ::ArrayW<::StringW> get_LongTimes();
     // System.String[] get_ShortTimes()
-    // Offset: 0x199D21C
+    // Offset: 0x19AB17C
     ::ArrayW<::StringW> get_ShortTimes();
     // System.String get_SISO639LANGNAME()
-    // Offset: 0x199D240
+    // Offset: 0x19AB1A0
     ::StringW get_SISO639LANGNAME();
     // System.Int32 get_IFIRSTDAYOFWEEK()
-    // Offset: 0x199D248
+    // Offset: 0x19AB1A8
     int get_IFIRSTDAYOFWEEK();
     // System.Int32 get_IFIRSTWEEKOFYEAR()
-    // Offset: 0x199D250
+    // Offset: 0x19AB1B0
     int get_IFIRSTWEEKOFYEAR();
     // System.String get_SAM1159()
-    // Offset: 0x199D258
+    // Offset: 0x19AB1B8
     ::StringW get_SAM1159();
     // System.String get_SPM2359()
-    // Offset: 0x199D260
+    // Offset: 0x19AB1C0
     ::StringW get_SPM2359();
     // System.String get_TimeSeparator()
-    // Offset: 0x199D268
+    // Offset: 0x19AB1C8
     ::StringW get_TimeSeparator();
     // System.Int32[] get_CalendarIds()
-    // Offset: 0x199D270
+    // Offset: 0x19AB1D0
     ::ArrayW<int> get_CalendarIds();
     // System.Boolean get_IsInvariantCulture()
-    // Offset: 0x199D3C4
+    // Offset: 0x19AB324
     bool get_IsInvariantCulture();
     // System.String get_CultureName()
-    // Offset: 0x199D3D0
+    // Offset: 0x19AB330
     ::StringW get_CultureName();
     // System.String get_SCOMPAREINFO()
-    // Offset: 0x199D3D8
+    // Offset: 0x19AB338
     ::StringW get_SCOMPAREINFO();
     // System.String get_STEXTINFO()
-    // Offset: 0x199D420
+    // Offset: 0x19AB380
     ::StringW get_STEXTINFO();
     // System.Int32 get_ILANGUAGE()
-    // Offset: 0x199D428
+    // Offset: 0x19AB388
     int get_ILANGUAGE();
     // System.Boolean get_UseUserOverride()
-    // Offset: 0x199D430
+    // Offset: 0x19AB390
     bool get_UseUserOverride();
     // private System.Void .ctor(System.String name)
-    // Offset: 0x199CC90
+    // Offset: 0x19AABF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureData* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CultureData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureData*, creationType>(name)));
     }
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride)
-    // Offset: 0x199CFC0
+    // Offset: 0x19AAF20
     static ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride);
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride, System.Int32 datetimeIndex, System.Int32 calendarId, System.Int32 numberIndex, System.String iso2lang, System.Int32 ansiCodePage, System.Int32 oemCodePage, System.Int32 macCodePage, System.Int32 ebcdicCodePage, System.Boolean rightToLeft, System.String listSeparator)
-    // Offset: 0x199D0BC
+    // Offset: 0x19AB01C
     static ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, ::StringW iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, ::StringW listSeparator);
     // static System.Globalization.CultureData GetCultureData(System.Int32 culture, System.Boolean bUseUserOverride)
-    // Offset: 0x199D1F0
+    // Offset: 0x19AB150
     static ::System::Globalization::CultureData* GetCultureData(int culture, bool bUseUserOverride);
     // private System.Void fill_culture_data(System.Int32 datetimeIndex)
-    // Offset: 0x199D1EC
+    // Offset: 0x19AB14C
     void fill_culture_data(int datetimeIndex);
     // public System.Globalization.CalendarData GetCalendar(System.Int32 calendarId)
-    // Offset: 0x199A420
+    // Offset: 0x19A8380
     ::System::Globalization::CalendarData* GetCalendar(int calendarId);
     // System.String[] EraNames(System.Int32 calendarId)
-    // Offset: 0x199D438
+    // Offset: 0x19AB398
     ::ArrayW<::StringW> EraNames(int calendarId);
     // System.String[] AbbrevEraNames(System.Int32 calendarId)
-    // Offset: 0x199D458
+    // Offset: 0x19AB3B8
     ::ArrayW<::StringW> AbbrevEraNames(int calendarId);
     // System.String[] AbbreviatedEnglishEraNames(System.Int32 calendarId)
-    // Offset: 0x199D478
+    // Offset: 0x19AB3D8
     ::ArrayW<::StringW> AbbreviatedEnglishEraNames(int calendarId);
     // System.String[] ShortDates(System.Int32 calendarId)
-    // Offset: 0x199D498
+    // Offset: 0x19AB3F8
     ::ArrayW<::StringW> ShortDates(int calendarId);
     // System.String[] LongDates(System.Int32 calendarId)
-    // Offset: 0x199D4B8
+    // Offset: 0x19AB418
     ::ArrayW<::StringW> LongDates(int calendarId);
     // System.String[] YearMonths(System.Int32 calendarId)
-    // Offset: 0x199D4D8
+    // Offset: 0x19AB438
     ::ArrayW<::StringW> YearMonths(int calendarId);
     // System.String[] DayNames(System.Int32 calendarId)
-    // Offset: 0x199D4F8
+    // Offset: 0x19AB458
     ::ArrayW<::StringW> DayNames(int calendarId);
     // System.String[] AbbreviatedDayNames(System.Int32 calendarId)
-    // Offset: 0x199D518
+    // Offset: 0x19AB478
     ::ArrayW<::StringW> AbbreviatedDayNames(int calendarId);
     // System.String[] MonthNames(System.Int32 calendarId)
-    // Offset: 0x199D538
+    // Offset: 0x19AB498
     ::ArrayW<::StringW> MonthNames(int calendarId);
     // System.String[] GenitiveMonthNames(System.Int32 calendarId)
-    // Offset: 0x199D558
+    // Offset: 0x19AB4B8
     ::ArrayW<::StringW> GenitiveMonthNames(int calendarId);
     // System.String[] AbbreviatedMonthNames(System.Int32 calendarId)
-    // Offset: 0x199D578
+    // Offset: 0x19AB4D8
     ::ArrayW<::StringW> AbbreviatedMonthNames(int calendarId);
     // System.String[] AbbreviatedGenitiveMonthNames(System.Int32 calendarId)
-    // Offset: 0x199D598
+    // Offset: 0x19AB4F8
     ::ArrayW<::StringW> AbbreviatedGenitiveMonthNames(int calendarId);
     // System.String[] LeapYearMonthNames(System.Int32 calendarId)
-    // Offset: 0x199D5B8
+    // Offset: 0x19AB518
     ::ArrayW<::StringW> LeapYearMonthNames(int calendarId);
     // System.String MonthDay(System.Int32 calendarId)
-    // Offset: 0x199D5D8
+    // Offset: 0x19AB538
     ::StringW MonthDay(int calendarId);
     // System.String DateSeparator(System.Int32 calendarId)
-    // Offset: 0x199D5F8
+    // Offset: 0x19AB558
     ::StringW DateSeparator(int calendarId);
     // static private System.String GetDateSeparator(System.String format)
-    // Offset: 0x199D634
+    // Offset: 0x19AB594
     static ::StringW GetDateSeparator(::StringW format);
     // static private System.String GetSeparator(System.String format, System.String timeParts)
-    // Offset: 0x199D684
+    // Offset: 0x19AB5E4
     static ::StringW GetSeparator(::StringW format, ::StringW timeParts);
     // static private System.Int32 IndexOfTimePart(System.String format, System.Int32 startIndex, System.String timeParts)
-    // Offset: 0x199D790
+    // Offset: 0x19AB6F0
     static int IndexOfTimePart(::StringW format, int startIndex, ::StringW timeParts);
     // static private System.String UnescapeNlsString(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0x199D888
+    // Offset: 0x19AB7E8
     static ::StringW UnescapeNlsString(::StringW str, int start, int end);
     // static System.String[] ReescapeWin32Strings(System.String[] array)
-    // Offset: 0x1999BF0
+    // Offset: 0x19A7B50
     static ::ArrayW<::StringW> ReescapeWin32Strings(::ArrayW<::StringW> array);
     // static System.String ReescapeWin32String(System.String str)
-    // Offset: 0x1999BF4
+    // Offset: 0x19A7B54
     static ::StringW ReescapeWin32String(::StringW str);
     // System.Void GetNFIValues(System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x199DA3C
+    // Offset: 0x19AB99C
     void GetNFIValues(::System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void fill_number_data(System.Globalization.NumberFormatInfo nfi, System.Int32 numberIndex)
-    // Offset: 0x199DA98
+    // Offset: 0x19AB9F8
     static void fill_number_data(::System::Globalization::NumberFormatInfo* nfi, int numberIndex);
   }; // System.Globalization.CultureData
   #pragma pack(pop)

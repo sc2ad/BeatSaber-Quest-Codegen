@@ -67,22 +67,22 @@ namespace System::Runtime::Remoting::Lifetime {
     // Get instance field reference: private System.Threading.Timer _timer
     [[deprecated("Use field access instead!")]] ::System::Threading::Timer*& dyn__timer();
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
-    // Offset: 0x1D3BCCC
+    // Offset: 0x1D4E400
     void SetPollTime(::System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
-    // Offset: 0x1D3BD90
+    // Offset: 0x1D4E4C4
     void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
-    // Offset: 0x1D3BE8C
+    // Offset: 0x1D4E5C0
     void StartManager();
     // public System.Void StopManager()
-    // Offset: 0x1D3BFF0
+    // Offset: 0x1D4E724
     void StopManager();
     // public System.Void ManageLeases(System.Object state)
-    // Offset: 0x1D3C00C
+    // Offset: 0x1D4E740
     void ManageLeases(::Il2CppObject* state);
     // public System.Void .ctor()
-    // Offset: 0x1D3C240
+    // Offset: 0x1D4E974
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

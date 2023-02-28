@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class MultiplayerBadgeDataPrecisionSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14A2DC0
+    // Offset: 0x14C9458
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Void MultiplayerBadgeDataMinMaxFloatSO::.ctor()
     // Base method: System.Void MultiplayerBadgeDataSO::.ctor()
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeDataPrecisionSO*, creationType>()));
     }
     // protected override System.Single GetValue(MultiplayerPlayerResultsData result)
-    // Offset: 0x14A2D80
+    // Offset: 0x14C9418
     // Implemented from: MultiplayerBadgeDataMinMaxFloatSO
     // Base method: System.Single MultiplayerBadgeDataMinMaxFloatSO::GetValue(MultiplayerPlayerResultsData result)
     float GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);

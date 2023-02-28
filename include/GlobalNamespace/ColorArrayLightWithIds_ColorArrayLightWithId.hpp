@@ -54,20 +54,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<System.Int32,UnityEngine.Color> didSetColorEvent
     [[deprecated("Use field access instead!")]] ::System::Action_2<int, ::UnityEngine::Color>*& dyn_didSetColorEvent();
     // public System.Void add_didSetColorEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1CD4AA0
+    // Offset: 0x1CE621C
     void add_didSetColorEvent(::System::Action_2<int, ::UnityEngine::Color>* value);
     // public System.Void remove_didSetColorEvent(System.Action`2<System.Int32,UnityEngine.Color> value)
-    // Offset: 0x1CD4B44
+    // Offset: 0x1CE62C0
     void remove_didSetColorEvent(::System::Action_2<int, ::UnityEngine::Color>* value);
     // public System.Void .ctor(System.Int32 index, System.Int32 lightId)
-    // Offset: 0x1CD4BF8
+    // Offset: 0x1CE6374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorArrayLightWithIds::ColorArrayLightWithId* New_ctor(int index, int lightId) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorArrayLightWithIds::ColorArrayLightWithId*, creationType>(index, lightId)));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CD4C60
+    // Offset: 0x1CE63DC
     // Implemented from: LightWithIds/LightWithId
     // Base method: System.Void LightWithId::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(::UnityEngine::Color newColor);

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class FloatUnityEvent : public ::UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16224B4
+    // Offset: 0x16269B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloatUnityEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FloatUnityEvent::.ctor");

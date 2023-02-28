@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
     public:
-    // [SpaceAttribute] Offset: 0x1107650
+    // [SpaceAttribute] Offset: 0x110C23C
     // private UnityEngine.AnimationCurve _curve
     // Size: 0x8
     // Offset: 0x30
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _speedMultiplier
     [[deprecated("Use field access instead!")]] float& dyn__speedMultiplier();
     // public System.Void .ctor()
-    // Offset: 0x1CDB7AC
+    // Offset: 0x1CECF28
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatCurve*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1CDB710
+    // Offset: 0x1CECE8C
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

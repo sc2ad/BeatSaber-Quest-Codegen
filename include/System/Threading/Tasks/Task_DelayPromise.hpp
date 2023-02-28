@@ -62,14 +62,14 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Threading.Timer Timer
     [[deprecated("Use field access instead!")]] ::System::Threading::Timer*& dyn_Timer();
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x1DF3BDC
+    // Offset: 0x1E0637C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::DelayPromise* New_ctor(::System::Threading::CancellationToken token) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::DelayPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::DelayPromise*, creationType>(token)));
     }
     // System.Void Complete()
-    // Offset: 0x1DF4D88
+    // Offset: 0x1E07528
     void Complete();
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.DelayPromise
   // WARNING Not writing size check since size may be invalid!

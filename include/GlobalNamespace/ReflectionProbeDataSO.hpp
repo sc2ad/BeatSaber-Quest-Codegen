@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Cubemap _reflectionProbeCubemap2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Cubemap*& dyn__reflectionProbeCubemap2();
     // public UnityEngine.Cubemap get_reflectionProbeCubemap1()
-    // Offset: 0x1430D50
+    // Offset: 0x1464C7C
     ::UnityEngine::Cubemap* get_reflectionProbeCubemap1();
     // public System.Void set_reflectionProbeCubemap1(UnityEngine.Cubemap value)
-    // Offset: 0x1430D58
+    // Offset: 0x1464C84
     void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
     // public UnityEngine.Cubemap get_reflectionProbeCubemap2()
-    // Offset: 0x1430D60
+    // Offset: 0x1464C8C
     ::UnityEngine::Cubemap* get_reflectionProbeCubemap2();
     // public System.Void set_reflectionProbeCubemap2(UnityEngine.Cubemap value)
-    // Offset: 0x1430D68
+    // Offset: 0x1464C94
     void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
     // public System.Void .ctor()
-    // Offset: 0x1430D70
+    // Offset: 0x1464C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionProbeDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReflectionProbeDataSO::.ctor");

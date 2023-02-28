@@ -61,29 +61,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Vector3 B
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_B();
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x2065360
+    // Offset: 0x2079B34
     ::UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x2065398
+    // Offset: 0x2079B6C
     ::UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x20653D4
+    // Offset: 0x2079BA8
     ::UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x2065410
+    // Offset: 0x2079BE4
     ::UnityEngine::Vector3 get_c();
     // public System.Boolean get_isValid()
-    // Offset: 0x20644C4
+    // Offset: 0x2078C98
     bool get_isValid();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x2064B10
+    // Offset: 0x20792E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(::UnityEngine::Vector3 _o, ::UnityEngine::Vector3 _a, ::UnityEngine::Vector3 _b, ::UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Void Calculate()
-    // Offset: 0x2064C70
+    // Offset: 0x2079444
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone
   #pragma pack(pop)

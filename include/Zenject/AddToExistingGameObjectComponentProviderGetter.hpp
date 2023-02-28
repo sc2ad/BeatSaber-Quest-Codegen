@@ -75,19 +75,19 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
     [[deprecated("Use field access instead!")]] ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*& dyn__gameObjectGetter();
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter, Zenject.DiContainer container, System.Type componentType, System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArguments, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
-    // Offset: 0x17BAA4C
+    // Offset: 0x17CAA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddToExistingGameObjectComponentProviderGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter, ::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArguments, ::Il2CppObject* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AddToExistingGameObjectComponentProviderGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddToExistingGameObjectComponentProviderGetter*, creationType>(gameObjectGetter, container, componentType, extraArguments, concreteIdentifier, instantiateCallback)));
     }
     // protected override System.Boolean get_ShouldToggleActive()
-    // Offset: 0x17BAA88
+    // Offset: 0x17CAAA8
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: System.Boolean AddToGameObjectComponentProviderBase::get_ShouldToggleActive()
     bool get_ShouldToggleActive();
     // protected override UnityEngine.GameObject GetGameObject(Zenject.InjectContext context)
-    // Offset: 0x17BAA90
+    // Offset: 0x17CAAB0
     // Implemented from: Zenject.AddToGameObjectComponentProviderBase
     // Base method: UnityEngine.GameObject AddToGameObjectComponentProviderBase::GetGameObject(Zenject.InjectContext context)
     ::UnityEngine::GameObject* GetGameObject(::Zenject::InjectContext* context);

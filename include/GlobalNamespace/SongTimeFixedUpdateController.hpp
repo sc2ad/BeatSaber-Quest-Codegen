@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   class SongTimeFixedUpdateController : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1118F78
+    // [InjectAttribute] Offset: 0x111DCD0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x18
@@ -95,32 +95,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _interpolationFactor
     [[deprecated("Use field access instead!")]] float& dyn__interpolationFactor();
     // public System.Single get_fixedDeltaTime()
-    // Offset: 0x148632C
+    // Offset: 0x14207AC
     float get_fixedDeltaTime();
     // public System.Single get_interpolationFactor()
-    // Offset: 0x1486338
+    // Offset: 0x14207B8
     float get_interpolationFactor();
     // public System.Void add_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x148609C
+    // Offset: 0x142051C
     void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float>* value);
     // public System.Void remove_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1486140
+    // Offset: 0x14205C0
     void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float>* value);
     // public System.Void add_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x14861E4
+    // Offset: 0x1420664
     void add_songControllerTimeDidUpdateEvent(::System::Action* value);
     // public System.Void remove_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x1486288
+    // Offset: 0x1420708
     void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1486498
+    // Offset: 0x1420918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeFixedUpdateController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeFixedUpdateController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeFixedUpdateController*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x1486340
+    // Offset: 0x14207C0
     void Update();
   }; // SongTimeFixedUpdateController
   #pragma pack(pop)

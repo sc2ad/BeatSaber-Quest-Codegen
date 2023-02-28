@@ -52,26 +52,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 listeningPort
     [[deprecated("Use field access instead!")]] int& dyn_listeningPort();
     // public System.Void .ctor()
-    // Offset: 0x25337A8
+    // Offset: 0x2543F7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2533818
+    // Offset: 0x2543FEC
     static void _cctor();
     // private System.Void OnEnable()
-    // Offset: 0x2532EC4
+    // Offset: 0x2543698
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x2533000
+    // Offset: 0x25437D4
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x25330B0
+    // Offset: 0x2543884
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x2533138
+    // Offset: 0x254390C
     ::GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
   }; // OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer
   #pragma pack(pop)

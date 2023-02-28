@@ -68,20 +68,20 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Get instance field reference: protected internal Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& dyn_privKey();
     // public System.Void .ctor()
-    // Offset: 0x1FAF634
+    // Offset: 0x1FC0DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECDHBasicAgreement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDHBasicAgreement*, creationType>()));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FAF2C8
+    // Offset: 0x1FC0A68
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetFieldSize()
-    // Offset: 0x1FAF394
+    // Offset: 0x1FC0B34
     int GetFieldSize();
     // public Org.BouncyCastle.Math.BigInteger CalculateAgreement(Org.BouncyCastle.Crypto.ICipherParameters pubKey)
-    // Offset: 0x1FAF3E0
+    // Offset: 0x1FC0B80
     ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement
   #pragma pack(pop)

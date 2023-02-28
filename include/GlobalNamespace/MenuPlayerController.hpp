@@ -71,19 +71,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _headTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__headTransform();
     // public VRController get_leftController()
-    // Offset: 0x134D850
+    // Offset: 0x1379F00
     ::GlobalNamespace::VRController* get_leftController();
     // public VRController get_rightController()
-    // Offset: 0x134D858
+    // Offset: 0x1379F08
     ::GlobalNamespace::VRController* get_rightController();
     // public UnityEngine.Vector3 get_headPos()
-    // Offset: 0x134D860
+    // Offset: 0x1379F10
     ::UnityEngine::Vector3 get_headPos();
     // public UnityEngine.Quaternion get_headRot()
-    // Offset: 0x134D87C
+    // Offset: 0x1379F2C
     ::UnityEngine::Quaternion get_headRot();
     // public System.Void .ctor()
-    // Offset: 0x134D898
+    // Offset: 0x1379F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuPlayerController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuPlayerController::.ctor");

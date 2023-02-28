@@ -68,65 +68,65 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRRenderModels FnTable
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRRenderModels& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1C7B97C
+    // Offset: 0x1C8B148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRRenderModels* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRRenderModels::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRRenderModels*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRRenderModelError LoadRenderModel_Async(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
-    // Offset: 0x1C7BA84
+    // Offset: 0x1C8B250
     ::Valve::VR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<::System::IntPtr> ppRenderModel);
     // public System.Void FreeRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x1C7BAA0
+    // Offset: 0x1C8B26C
     void FreeRenderModel(::System::IntPtr pRenderModel);
     // public Valve.VR.EVRRenderModelError LoadTexture_Async(System.Int32 textureId, ref System.IntPtr ppTexture)
-    // Offset: 0x1C7BABC
+    // Offset: 0x1C8B288
     ::Valve::VR::EVRRenderModelError LoadTexture_Async(int textureId, ByRef<::System::IntPtr> ppTexture);
     // public System.Void FreeTexture(System.IntPtr pTexture)
-    // Offset: 0x1C7BAD8
+    // Offset: 0x1C8B2A4
     void FreeTexture(::System::IntPtr pTexture);
     // public Valve.VR.EVRRenderModelError LoadTextureD3D11_Async(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)
-    // Offset: 0x1C7BAF4
+    // Offset: 0x1C8B2C0
     ::Valve::VR::EVRRenderModelError LoadTextureD3D11_Async(int textureId, ::System::IntPtr pD3D11Device, ByRef<::System::IntPtr> ppD3D11Texture2D);
     // public Valve.VR.EVRRenderModelError LoadIntoTextureD3D11_Async(System.Int32 textureId, System.IntPtr pDstTexture)
-    // Offset: 0x1C7BB10
+    // Offset: 0x1C8B2DC
     ::Valve::VR::EVRRenderModelError LoadIntoTextureD3D11_Async(int textureId, ::System::IntPtr pDstTexture);
     // public System.Void FreeTextureD3D11(System.IntPtr pD3D11Texture2D)
-    // Offset: 0x1C7BB2C
+    // Offset: 0x1C8B2F8
     void FreeTextureD3D11(::System::IntPtr pD3D11Texture2D);
     // public System.UInt32 GetRenderModelName(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen)
-    // Offset: 0x1C7BB48
+    // Offset: 0x1C8B314
     uint GetRenderModelName(uint unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
     // public System.UInt32 GetRenderModelCount()
-    // Offset: 0x1C7BB64
+    // Offset: 0x1C8B330
     uint GetRenderModelCount();
     // public System.UInt32 GetComponentCount(System.String pchRenderModelName)
-    // Offset: 0x1C7BB80
+    // Offset: 0x1C8B34C
     uint GetComponentCount(::StringW pchRenderModelName);
     // public System.UInt32 GetComponentName(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
-    // Offset: 0x1C7BB9C
+    // Offset: 0x1C8B368
     uint GetComponentName(::StringW pchRenderModelName, uint unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.UInt64 GetComponentButtonMask(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x1C7BBB8
+    // Offset: 0x1C8B384
     uint64_t GetComponentButtonMask(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetComponentRenderModelName(System.String pchRenderModelName, System.String pchComponentName, System.Text.StringBuilder pchComponentRenderModelName, System.UInt32 unComponentRenderModelNameLen)
-    // Offset: 0x1C7BBD4
+    // Offset: 0x1C8B3A0
     uint GetComponentRenderModelName(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
     // public System.Boolean GetComponentState(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x1C7BBF0
+    // Offset: 0x1C8B3BC
     bool GetComponentState(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::Valve::VR::VRControllerState_t> pControllerState, ByRef<::Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<::Valve::VR::RenderModel_ComponentState_t> pComponentState);
     // public System.Boolean RenderModelHasComponent(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x1C7C17C
+    // Offset: 0x1C8B948
     bool RenderModelHasComponent(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetRenderModelThumbnailURL(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError)
-    // Offset: 0x1C7C198
+    // Offset: 0x1C8B964
     uint GetRenderModelThumbnailURL(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<::Valve::VR::EVRRenderModelError> peError);
     // public System.UInt32 GetRenderModelOriginalPath(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref Valve.VR.EVRRenderModelError peError)
-    // Offset: 0x1C7C1B4
+    // Offset: 0x1C8B980
     uint GetRenderModelOriginalPath(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<::Valve::VR::EVRRenderModelError> peError);
     // public System.String GetRenderModelErrorNameFromEnum(Valve.VR.EVRRenderModelError error)
-    // Offset: 0x1C7C1D0
+    // Offset: 0x1C8B99C
     ::StringW GetRenderModelErrorNameFromEnum(::Valve::VR::EVRRenderModelError error);
   }; // Valve.VR.CVRRenderModels
   #pragma pack(pop)

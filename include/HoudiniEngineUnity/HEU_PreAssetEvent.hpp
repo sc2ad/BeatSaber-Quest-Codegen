@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   class HEU_PreAssetEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1B56B7C
+    // Offset: 0x1B63C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PreAssetEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PreAssetEvent::.ctor");

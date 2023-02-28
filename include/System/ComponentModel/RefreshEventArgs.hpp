@@ -50,7 +50,7 @@ namespace System::ComponentModel {
     // Get instance field reference: private System.Type typeChanged
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_typeChanged();
     // public System.Void .ctor(System.Type typeChanged)
-    // Offset: 0x1E5BD28
+    // Offset: 0x1E6C4C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RefreshEventArgs* New_ctor(::System::Type* typeChanged) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::RefreshEventArgs::.ctor");

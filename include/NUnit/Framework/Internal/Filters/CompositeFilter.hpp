@@ -48,7 +48,7 @@ namespace NUnit::Framework::Internal::Filters {
   class CompositeFilter : public ::NUnit::Framework::Internal::TestFilter {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0x11133FC
+    // [DebuggerBrowsableAttribute] Offset: 0x1118114
     // private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -63,23 +63,23 @@ namespace NUnit::Framework::Internal::Filters {
     // Get instance field reference: private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IList_1<::NUnit::Framework::Interfaces::ITestFilter*>*& dyn_$Filters$k__BackingField();
     // public System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> get_Filters()
-    // Offset: 0x1D67790
+    // Offset: 0x1D79EC4
     ::System::Collections::Generic::IList_1<::NUnit::Framework::Interfaces::ITestFilter*>* get_Filters();
     // private System.Void set_Filters(System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> value)
-    // Offset: 0x1D67798
+    // Offset: 0x1D79ECC
     void set_Filters(::System::Collections::Generic::IList_1<::NUnit::Framework::Interfaces::ITestFilter*>* value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_ElementName();
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
-    // Offset: 0x1D66840
+    // Offset: 0x1D78F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeFilter* New_ctor(::ArrayW<::NUnit::Framework::Interfaces::ITestFilter*> filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeFilter*, creationType>(filters)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1D667A8
+    // Offset: 0x1D78EDC
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -103,7 +103,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(::NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x1D677A0
+    // Offset: 0x1D79ED4
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     ::NUnit::Framework::Interfaces::TNode* AddToXml(::NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

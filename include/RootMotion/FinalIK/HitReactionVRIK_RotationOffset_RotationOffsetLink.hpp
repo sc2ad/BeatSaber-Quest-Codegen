@@ -35,15 +35,15 @@ namespace RootMotion::FinalIK {
   class HitReactionVRIK::RotationOffset::RotationOffsetLink : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x114B450
+    // [TooltipAttribute] Offset: 0x114E3C4
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::RotationOffset) == 0x4);
-    // [TooltipAttribute] Offset: 0x114B488
-    // [RangeAttribute] Offset: 0x114B488
+    // [TooltipAttribute] Offset: 0x114E3FC
+    // [RangeAttribute] Offset: 0x114E3FC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -72,17 +72,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Quaternion current
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn_current();
     // public System.Void .ctor()
-    // Offset: 0x22E1BD0
+    // Offset: 0x22F43A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReactionVRIK::RotationOffset::RotationOffsetLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::RotationOffset::RotationOffsetLink*, creationType>()));
     }
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
-    // Offset: 0x22E1A94
+    // Offset: 0x22F4268
     void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
-    // Offset: 0x22E177C
+    // Offset: 0x22F3F50
     void CrossFadeStart();
   }; // RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink
   #pragma pack(pop)

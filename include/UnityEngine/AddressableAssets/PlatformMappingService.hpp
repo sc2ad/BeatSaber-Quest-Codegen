@@ -44,26 +44,26 @@ namespace UnityEngine::AddressableAssets {
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
     static void _set_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* value);
     // public System.Void .ctor()
-    // Offset: 0x1902B1C
+    // Offset: 0x1911A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformMappingService* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::PlatformMappingService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformMappingService*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1902B24
+    // Offset: 0x1911A84
     static void _cctor();
     // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x1902878
+    // Offset: 0x19117D8
     static ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
     // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
-    // Offset: 0x190294C
+    // Offset: 0x19118AC
     static ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
     // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
-    // Offset: 0x1902AAC
+    // Offset: 0x1911A0C
     static ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
     // static public System.String GetPlatformPathSubFolder()
-    // Offset: 0x18F5814
+    // Offset: 0x1904774
     static ::StringW GetPlatformPathSubFolder();
   }; // UnityEngine.AddressableAssets.PlatformMappingService
   #pragma pack(pop)

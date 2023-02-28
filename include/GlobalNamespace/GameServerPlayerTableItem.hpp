@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean isReady
     [[deprecated("Use field access instead!")]] bool& dyn_isReady();
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
-    // Offset: 0x145ABCC
+    // Offset: 0x147766C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableItem::.ctor");

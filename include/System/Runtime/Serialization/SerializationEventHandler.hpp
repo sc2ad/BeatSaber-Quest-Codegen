@@ -43,20 +43,20 @@ namespace System::Runtime::Serialization {
   class SerializationEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x169613C
+    // Offset: 0x16A415C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SerializationEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1694258
+    // Offset: 0x16A2278
     void Invoke(::System::Runtime::Serialization::StreamingContext context);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Serialization.StreamingContext context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x169614C
+    // Offset: 0x16A416C
     ::System::IAsyncResult* BeginInvoke(::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x16961D8
+    // Offset: 0x16A41F8
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Runtime.Serialization.SerializationEventHandler
   #pragma pack(pop)

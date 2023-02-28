@@ -38,10 +38,10 @@ namespace System {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW get_DisplayName();
     // public System.Boolean Equals(System.TypeName other)
-    // Offset: 0x223A964
+    // Offset: 0x224B138
     bool Equals(::System::TypeName* other);
     // protected System.Void .ctor()
-    // Offset: 0x223977C
+    // Offset: 0x2249F50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,12 +50,12 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<TypeNames::ATypeName*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x223AA50
+    // Offset: 0x224B224
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x223AA7C
+    // Offset: 0x224B250
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);

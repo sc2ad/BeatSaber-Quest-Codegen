@@ -173,10 +173,10 @@ namespace System::Globalization {
       // Get instance field reference: System.String sep
       [[deprecated("Use field access instead!")]] ::StringW& dyn_sep();
       // public System.Void .ctor(System.Int32 number)
-      // Offset: 0x2072DF0
+      // Offset: 0x20865C4
       TimeSpanToken(int number);
       // public System.Boolean IsInvalidNumber(System.Int32 maxValue, System.Int32 maxPrecision)
-      // Offset: 0x2072E04
+      // Offset: 0x20865D8
       bool IsInvalidNumber(int maxValue, int maxPrecision);
     }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken
     #pragma pack(pop)
@@ -187,34 +187,34 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken zero
     static void _set_zero(::System::Globalization::TimeSpanParse::TimeSpanToken value);
     // static private System.Void .cctor()
-    // Offset: 0x21CF7B0
+    // Offset: 0x21E0F84
     static void _cctor();
     // static private System.Boolean TryTimeToTicks(System.Boolean positive, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken days, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken hours, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken minutes, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken seconds, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken fraction, out System.Int64 result)
-    // Offset: 0x21CB1B4
+    // Offset: 0x21DC988
     static bool TryTimeToTicks(bool positive, ::System::Globalization::TimeSpanParse::TimeSpanToken days, ::System::Globalization::TimeSpanParse::TimeSpanToken hours, ::System::Globalization::TimeSpanParse::TimeSpanToken minutes, ::System::Globalization::TimeSpanParse::TimeSpanToken seconds, ::System::Globalization::TimeSpanParse::TimeSpanToken fraction, ByRef<int64_t> result);
     // static System.TimeSpan Parse(System.String input, System.IFormatProvider formatProvider)
-    // Offset: 0x21CB3C4
+    // Offset: 0x21DCB98
     static ::System::TimeSpan Parse(::StringW input, ::System::IFormatProvider* formatProvider);
     // static private System.Boolean TryParseTimeSpan(System.String input, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, System.IFormatProvider formatProvider, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CB490
+    // Offset: 0x21DCC64
     static bool TryParseTimeSpan(::StringW input, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ::System::IFormatProvider* formatProvider, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminalState(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CBA84
+    // Offset: 0x21DD258
     static bool ProcessTerminalState(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminal_DHMSF(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CEA08
+    // Offset: 0x21E01DC
     static bool ProcessTerminal_DHMSF(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminal_HMS_F_D(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CD694
+    // Offset: 0x21DEE68
     static bool ProcessTerminal_HMS_F_D(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminal_HM_S_D(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CC3C0
+    // Offset: 0x21DDB94
     static bool ProcessTerminal_HM_S_D(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminal_HM(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CC018
+    // Offset: 0x21DD7EC
     static bool ProcessTerminal_HM(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // static private System.Boolean ProcessTerminal_D(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo raw, System.Globalization.TimeSpanParse/System.Globalization.TimeSpanStandardStyles style, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CBC78
+    // Offset: 0x21DD44C
     static bool ProcessTerminal_D(ByRef<::System::Globalization::TimeSpanParse::TimeSpanRawInfo> raw, ::System::Globalization::TimeSpanParse::TimeSpanStandardStyles style, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
   }; // System.Globalization.TimeSpanParse
   #pragma pack(pop)

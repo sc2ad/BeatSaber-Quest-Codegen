@@ -44,14 +44,14 @@ namespace GlobalNamespace {
   class MultiplayerLobbyAvatarPlaceManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x111989C
+    // [InjectAttribute] Offset: 0x111E5F4
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x11198AC
+    // [InjectAttribute] Offset: 0x111E604
     // private readonly MultiplayerLobbyAvatarPlace/Pool _avatarPlacesPool
     // Size: 0x8
     // Offset: 0x20
@@ -90,26 +90,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minOuterCircleRadius
     [[deprecated("Use field access instead!")]] float& dyn__minOuterCircleRadius();
     // public System.Void .ctor()
-    // Offset: 0x1479E90
+    // Offset: 0x13FE1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarPlaceManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarPlaceManager*, creationType>()));
     }
     // public System.Void Activate(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x14798C8
+    // Offset: 0x13FDC20
     void Activate(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void Deactivate()
-    // Offset: 0x1479D60
+    // Offset: 0x13FE0B4
     void Deactivate();
     // private System.Void OnDestroy()
-    // Offset: 0x1479E8C
+    // Offset: 0x13FE1E0
     void OnDestroy();
     // private System.Void SpawnAllPlaces()
-    // Offset: 0x14798D0
+    // Offset: 0x13FDC28
     void SpawnAllPlaces();
     // private System.Void DespawnAllPlaces()
-    // Offset: 0x1479D64
+    // Offset: 0x13FE0B8
     void DespawnAllPlaces();
   }; // MultiplayerLobbyAvatarPlaceManager
   #pragma pack(pop)

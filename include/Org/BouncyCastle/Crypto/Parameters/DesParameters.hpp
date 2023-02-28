@@ -34,22 +34,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static private readonly System.Byte[] DES_weak_keys
     static void _set_DES_weak_keys(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1668AE0
+    // Offset: 0x1676B00
     static void _cctor();
     // static public System.Boolean IsWeakKey(System.Byte[] key, System.Int32 offset)
-    // Offset: 0x166852C
+    // Offset: 0x167654C
     static bool IsWeakKey(::ArrayW<uint8_t> key, int offset);
     // static public System.Boolean IsWeakKey(System.Byte[] key)
-    // Offset: 0x1668764
+    // Offset: 0x1676784
     static bool IsWeakKey(::ArrayW<uint8_t> key);
     // static public System.Byte SetOddParity(System.Byte b)
-    // Offset: 0x16689E4
+    // Offset: 0x1676A04
     static uint8_t SetOddParity(uint8_t b);
     // static public System.Void SetOddParity(System.Byte[] bytes)
-    // Offset: 0x1668A04
+    // Offset: 0x1676A24
     static void SetOddParity(::ArrayW<uint8_t> bytes);
     // public System.Void .ctor(System.Byte[] key)
-    // Offset: 0x16683CC
+    // Offset: 0x16763EC
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,7 +58,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key)));
     }
     // public System.Void .ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
-    // Offset: 0x16687CC
+    // Offset: 0x16767EC
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

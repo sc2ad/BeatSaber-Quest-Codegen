@@ -72,29 +72,29 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Collections.IHashCodeProvider _hcp
     [[deprecated("Use field access instead!")]] ::System::Collections::IHashCodeProvider*& dyn__hcp();
     // public System.Collections.IComparer get_Comparer()
-    // Offset: 0x1E45498
+    // Offset: 0x1E55C38
     ::System::Collections::IComparer* get_Comparer();
     // public System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x1E454A0
+    // Offset: 0x1E55C40
     ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
     // static public System.Collections.IComparer get_DefaultComparer()
-    // Offset: 0x1E454A8
+    // Offset: 0x1E55C48
     static ::System::Collections::IComparer* get_DefaultComparer();
     // static public System.Collections.IHashCodeProvider get_DefaultHashCodeProvider()
-    // Offset: 0x1E4557C
+    // Offset: 0x1E55D1C
     static ::System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x1E4513C
+    // Offset: 0x1E558DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(::System::Collections::IComparer* comparer, ::System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x1E45174
+    // Offset: 0x1E55914
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x1E45380
+    // Offset: 0x1E55B20
     int GetHashCode(::Il2CppObject* obj);
   }; // System.Collections.Specialized.CompatibleComparer
   #pragma pack(pop)

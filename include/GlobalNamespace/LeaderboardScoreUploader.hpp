@@ -121,38 +121,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _uploading
     [[deprecated("Use field access instead!")]] bool& dyn__uploading();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x13D82F8
+    // Offset: 0x13B45FC
     void add_allScoresDidUploadEvent(::System::Action* value);
     // public System.Void remove_allScoresDidUploadEvent(System.Action value)
-    // Offset: 0x13D839C
+    // Offset: 0x13B46A0
     void remove_allScoresDidUploadEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13D898C
+    // Offset: 0x13B4C90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader*, creationType>()));
     }
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
-    // Offset: 0x13D8440
+    // Offset: 0x13B4744
     void Init(::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x13D84EC
+    // Offset: 0x13B47F0
     void OnApplicationQuit();
     // private System.Collections.IEnumerator UploadScoresCoroutine()
-    // Offset: 0x13D847C
+    // Offset: 0x13B4780
     ::System::Collections::IEnumerator* UploadScoresCoroutine();
     // private System.Void LoadScoresToUploadFromFile()
-    // Offset: 0x13D851C
+    // Offset: 0x13B4820
     void LoadScoresToUploadFromFile();
     // private System.Void SaveScoresToUploadToFile()
-    // Offset: 0x13D87AC
+    // Offset: 0x13B4AB0
     void SaveScoresToUploadToFile();
     // public System.Void AddScore(LeaderboardScoreUploader/ScoreData scoreData)
-    // Offset: 0x13D88B8
+    // Offset: 0x13B4BBC
     void AddScore(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData);
     // private System.Boolean <UploadScoresCoroutine>b__14_1()
-    // Offset: 0x13D8A1C
+    // Offset: 0x13B4D20
     bool $UploadScoresCoroutine$b__14_1();
   }; // LeaderboardScoreUploader
   #pragma pack(pop)

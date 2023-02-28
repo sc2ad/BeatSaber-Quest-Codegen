@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     static check_size<sizeof(EulaViewController::ButtonType), 0 + sizeof(int)> __GlobalNamespace_EulaViewController_ButtonTypeSizeCheck;
     static_assert(sizeof(EulaViewController::ButtonType) == 0x4);
     public:
-    // [HeaderAttribute] Offset: 0x1129EF0
+    // [HeaderAttribute] Offset: 0x112ED30
     // private UnityEngine.UI.Button _agreeButton
     // Size: 0x8
     // Offset: 0x70
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: disabledButtonDelay and: textPageScrollView
     char __padding4[0x4] = {};
-    // [HeaderAttribute] Offset: 0x1129F7C
+    // [HeaderAttribute] Offset: 0x112EDBC
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x98
@@ -165,22 +165,22 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LocalizedTextAsset* eulaLocalizedTextAsset;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalizedTextAsset*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1129FD8
-    // [LocalizationKeyAttribute] Offset: 0x1129FD8
+    // [HeaderAttribute] Offset: 0x112EE18
+    // [LocalizationKeyAttribute] Offset: 0x112EE18
     // private System.String _defaultEulaHeaderLocalizationKey
     // Size: 0x8
     // Offset: 0xA8
     ::StringW defaultEulaHeaderLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x112A034
+    // [LocalizationKeyAttribute] Offset: 0x112EE74
     // private System.String _updateNoticeLocalizationKey
     // Size: 0x8
     // Offset: 0xB0
     ::StringW updateNoticeLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [InjectAttribute] Offset: 0x112A06C
+    // [InjectAttribute] Offset: 0x112EEAC
     // private readonly EulaViewController/InitData _initData
     // Size: 0x8
     // Offset: 0xB8
@@ -243,40 +243,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Coroutine _buttonsCoroutine
     [[deprecated("Use field access instead!")]] ::UnityEngine::Coroutine*& dyn__buttonsCoroutine();
     // public System.Void add_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x1396798
+    // Offset: 0x13C2B5C
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<EulaViewController/ButtonType> value)
-    // Offset: 0x139683C
+    // Offset: 0x13C2C00
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::EulaViewController::ButtonType>* value);
     // public System.Void .ctor()
-    // Offset: 0x1396D2C
+    // Offset: 0x13C30F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EulaViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EulaViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EulaViewController*, creationType>()));
     }
     // public System.Void Init(System.Boolean showUpdate, System.Boolean showOnlyContinueButton)
-    // Offset: 0x1396CEC
+    // Offset: 0x13C30B0
     void Init(bool showUpdate, bool showOnlyContinueButton);
     // private System.Collections.IEnumerator EnableButtonsCoroutine(System.Single delay)
-    // Offset: 0x1396BA0
+    // Offset: 0x13C2F64
     ::System::Collections::IEnumerator* EnableButtonsCoroutine(float delay);
     // private System.Void <DidActivate>b__18_0()
-    // Offset: 0x1396D3C
+    // Offset: 0x13C3100
     void $DidActivate$b__18_0();
     // private System.Void <DidActivate>b__18_1()
-    // Offset: 0x1396DA0
+    // Offset: 0x13C3164
     void $DidActivate$b__18_1();
     // private System.Void <DidActivate>b__18_2()
-    // Offset: 0x1396E04
+    // Offset: 0x13C31C8
     void $DidActivate$b__18_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13968E0
+    // Offset: 0x13C2CA4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1396C20
+    // Offset: 0x13C2FE4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

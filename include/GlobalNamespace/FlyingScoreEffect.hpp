@@ -135,22 +135,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private IReadonlyCutScoreBuffer _cutScoreBuffer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IReadonlyCutScoreBuffer*& dyn__cutScoreBuffer();
     // public System.Void InitAndPresent(IReadonlyCutScoreBuffer cutScoreBuffer, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Color color)
-    // Offset: 0x13A1C7C
+    // Offset: 0x13CE040
     void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
     // public System.Void HandleCutScoreBufferDidChange(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x13A22D8
+    // Offset: 0x13CE69C
     void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void RefreshScore(System.Int32 score, System.Int32 maxPossibleCutScore)
-    // Offset: 0x13A21C0
+    // Offset: 0x13CE584
     void RefreshScore(int score, int maxPossibleCutScore);
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
-    // Offset: 0x13A2330
+    // Offset: 0x13CE6F4
     void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
     // private System.Void UnregisterCallbacksIfNeeded()
-    // Offset: 0x13A2334
+    // Offset: 0x13CE6F8
     void UnregisterCallbacksIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x13A2480
+    // Offset: 0x13CE844
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect*, creationType>()));
     }
     // protected override System.Void ManualUpdate(System.Single t)
-    // Offset: 0x13A2244
+    // Offset: 0x13CE608
     // Implemented from: FlyingObjectEffect
     // Base method: System.Void FlyingObjectEffect::ManualUpdate(System.Single t)
     void ManualUpdate(float t);

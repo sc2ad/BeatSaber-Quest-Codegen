@@ -85,20 +85,20 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Get instance field reference: private UnityEngine.Vector2 m_ScrollPosition
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector2& dyn_m_ScrollPosition();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x19BD364
+    // Offset: 0x19CB2C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestResultRenderer* New_ctor(::NUnit::Framework::Interfaces::ITestResult* testResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x19BE8E4
+    // Offset: 0x19CC844
     void GetFailedTests(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
-    // Offset: 0x19BD3EC
+    // Offset: 0x19CB34C
     void ShowResults();
     // public System.Void Draw()
-    // Offset: 0x19BD418
+    // Offset: 0x19CB378
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
   #pragma pack(pop)

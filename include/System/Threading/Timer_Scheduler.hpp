@@ -64,37 +64,37 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ManualResetEvent changed
     [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_changed();
     // static public System.Threading.Timer/System.Threading.Scheduler get_Instance()
-    // Offset: 0x1DFC570
+    // Offset: 0x1E0ED10
     static ::System::Threading::Timer::Scheduler* get_Instance();
     // static private System.Void .cctor()
-    // Offset: 0x1DFC3F4
+    // Offset: 0x1E0EB94
     static void _cctor();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0x1DFC104
+    // Offset: 0x1E0E8A4
     void Remove(::System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0x1DFC1B4
+    // Offset: 0x1E0E954
     void Change(::System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0x1DFC770
+    // Offset: 0x1E0EF10
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0x1DFC640
+    // Offset: 0x1E0EDE0
     void Add(::System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0x1DFC5E0
+    // Offset: 0x1E0ED80
     int InternalRemove(::System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0x1DFC8CC
+    // Offset: 0x1E0F06C
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0x1DFCCD4
+    // Offset: 0x1E0F474
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0x1DFD23C
+    // Offset: 0x1E0F9DC
     void ShrinkIfNeeded(::System::Collections::Generic::List_1<::System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0x1DFC454
+    // Offset: 0x1E0EBF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

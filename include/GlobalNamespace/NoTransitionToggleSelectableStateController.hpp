@@ -37,19 +37,19 @@ namespace GlobalNamespace {
   class NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x1509184
+    // Offset: 0x143893C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x15092A4
+    // Offset: 0x1438A5C
     void OnDisable();
     // private System.Void HandleNoTransitionToggleSelectionStateDidChange(HMUI.UISelectionState state)
-    // Offset: 0x1509338
+    // Offset: 0x1438AF0
     void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
     // private System.Void ResolveSelectionState(HMUI.UISelectionState state, System.Boolean animated)
-    // Offset: 0x1509230
+    // Offset: 0x14389E8
     void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
     // public System.Void .ctor()
-    // Offset: 0x1509340
+    // Offset: 0x1438AF8
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()

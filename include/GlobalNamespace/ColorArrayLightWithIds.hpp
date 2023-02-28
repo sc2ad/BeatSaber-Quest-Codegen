@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*> colorArrayLightWithIds;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithId*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1106238
+    // [SpaceAttribute] Offset: 0x110AE24
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x38
@@ -100,22 +100,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector4[] _colorsArray
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::Vector4>& dyn__colorsArray();
     // protected System.Void OnDestroy()
-    // Offset: 0x1CD46D0
+    // Offset: 0x1CE5E4C
     void OnDestroy();
     // private System.Void HandleColorLightWithIdDidSetColor(System.Int32 index, UnityEngine.Color color)
-    // Offset: 0x1CD480C
+    // Offset: 0x1CE5F88
     void HandleColorLightWithIdDidSetColor(int index, ::UnityEngine::Color color);
     // private System.Void SetColorDataToShader()
-    // Offset: 0x1CD47BC
+    // Offset: 0x1CE5F38
     void SetColorDataToShader();
     // private System.Void RegisterArrayForColorChanges()
-    // Offset: 0x1CD4560
+    // Offset: 0x1CE5CDC
     void RegisterArrayForColorChanges();
     // private System.Void UnregisterArrayFromColorChanges()
-    // Offset: 0x1CD46D4
+    // Offset: 0x1CE5E50
     void UnregisterArrayFromColorChanges();
     // public System.Void .ctor()
-    // Offset: 0x1CD4BE8
+    // Offset: 0x1CE6364
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -124,17 +124,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorArrayLightWithIds*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1CD4538
+    // Offset: 0x1CE5CB4
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::OnEnable()
     void OnEnable();
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CD47B8
+    // Offset: 0x1CE5F34
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CD4804
+    // Offset: 0x1CE5F80
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();

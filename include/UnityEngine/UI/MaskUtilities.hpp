@@ -49,32 +49,32 @@ namespace UnityEngine::UI {
   class MaskUtilities : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1F456D0
+    // Offset: 0x1F56E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaskUtilities* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::MaskUtilities::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaskUtilities*, creationType>()));
     }
     // static public System.Void Notify2DMaskStateChanged(UnityEngine.Component mask)
-    // Offset: 0x1F44C24
+    // Offset: 0x1F563C4
     static void Notify2DMaskStateChanged(::UnityEngine::Component* mask);
     // static public System.Void NotifyStencilStateChanged(UnityEngine.Component mask)
-    // Offset: 0x1F44094
+    // Offset: 0x1F55834
     static void NotifyStencilStateChanged(::UnityEngine::Component* mask);
     // static public UnityEngine.Transform FindRootSortOverrideCanvas(UnityEngine.Transform start)
-    // Offset: 0x1F44818
+    // Offset: 0x1F55FB8
     static ::UnityEngine::Transform* FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
     // static public System.Int32 GetStencilDepth(UnityEngine.Transform transform, UnityEngine.Transform stopAfter)
-    // Offset: 0x1F44994
+    // Offset: 0x1F56134
     static int GetStencilDepth(::UnityEngine::Transform* transform, ::UnityEngine::Transform* stopAfter);
     // static public System.Boolean IsDescendantOrSelf(UnityEngine.Transform father, UnityEngine.Transform child)
-    // Offset: 0x1F44E78
+    // Offset: 0x1F56618
     static bool IsDescendantOrSelf(::UnityEngine::Transform* father, ::UnityEngine::Transform* child);
     // static public UnityEngine.UI.RectMask2D GetRectMaskForClippable(UnityEngine.UI.IClippable clippable)
-    // Offset: 0x1F44FF8
+    // Offset: 0x1F56798
     static ::UnityEngine::UI::RectMask2D* GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
     // static public System.Void GetRectMasksForClip(UnityEngine.UI.RectMask2D clipper, System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> masks)
-    // Offset: 0x1F453DC
+    // Offset: 0x1F56B7C
     static void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* masks);
   }; // UnityEngine.UI.MaskUtilities
   #pragma pack(pop)

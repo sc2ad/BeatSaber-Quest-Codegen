@@ -31,10 +31,10 @@ namespace System::Net {
   class NetRes : public ::Il2CppObject {
     public:
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
-    // Offset: 0x1AF6D94
+    // Offset: 0x1B04E60
     static ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
     // static public System.String GetWebStatusString(System.Net.WebExceptionStatus Status)
-    // Offset: 0x1AF6E60
+    // Offset: 0x1B04F2C
     static ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
   #pragma pack(pop)

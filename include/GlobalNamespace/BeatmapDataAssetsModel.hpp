@@ -24,10 +24,10 @@ namespace GlobalNamespace {
   class BeatmapDataAssetsModel : public ::Il2CppObject {
     public:
     // static public System.String BeatmapLevelDataAssetNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x13B4A64
+    // Offset: 0x13E0E28
     static ::StringW BeatmapLevelDataAssetNameForBeatmapLevel(::StringW levelID);
     // static public System.String AssetBundleNameForBeatmapLevel(System.String levelID)
-    // Offset: 0x13B4AB8
+    // Offset: 0x13E0E7C
     static ::StringW AssetBundleNameForBeatmapLevel(::StringW levelID);
   }; // BeatmapDataAssetsModel
   #pragma pack(pop)

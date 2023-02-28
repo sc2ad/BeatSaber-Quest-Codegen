@@ -39,7 +39,7 @@ namespace System::Xml::Schema {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
     // protected System.Void .ctor()
-    // Offset: 0x20FF3A8
+    // Offset: 0x2112B7C
     // Implemented from: System.Xml.Schema.XmlSchemaParticle
     // Base method: System.Void XmlSchemaParticle::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

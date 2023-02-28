@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
     static void _set_$$9__10_0(::System::Func_2<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13D01C0
+    // Offset: 0x13AAE78
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13D0224
+    // Offset: 0x13AAEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HTTPLeaderboardsModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsModel::$$c*, creationType>()));
     }
     // System.String <GetLeaderboardEntriesAsync>b__10_0(BeatSaberAPI.DataTransferObjects.LeaderboardEntry x)
-    // Offset: 0x13D022C
+    // Offset: 0x13AAEE4
     ::StringW $GetLeaderboardEntriesAsync$b__10_0(::BeatSaberAPI::DataTransferObjects::LeaderboardEntry* x);
   }; // HTTPLeaderboardsModel/<>c
   #pragma pack(pop)

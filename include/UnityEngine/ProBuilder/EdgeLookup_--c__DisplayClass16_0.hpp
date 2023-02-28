@@ -52,14 +52,14 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // public System.Void .ctor()
-    // Offset: 0x208C26C
+    // Offset: 0x209FA40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EdgeLookup::$$c__DisplayClass16_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EdgeLookup::$$c__DisplayClass16_0*, creationType>()));
     }
     // UnityEngine.ProBuilder.EdgeLookup <GetEdgeLookup>b__0(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x208C588
+    // Offset: 0x209FD5C
     ::UnityEngine::ProBuilder::EdgeLookup $GetEdgeLookup$b__0(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.EdgeLookup/UnityEngine.ProBuilder.<>c__DisplayClass16_0
   #pragma pack(pop)

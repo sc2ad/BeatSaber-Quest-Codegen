@@ -143,59 +143,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_color()
-    // Offset: 0x140BB90
+    // Offset: 0x13FAE6C
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x140BBA8
+    // Offset: 0x13FAE84
     void set_color(::UnityEngine::Color value);
     // public System.Void add_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x140BA48
+    // Offset: 0x13FAD24
     void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void remove_selectedColorDidChangeEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x140BAEC
+    // Offset: 0x13FADC8
     void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
     // public System.Void .ctor()
-    // Offset: 0x140C214
+    // Offset: 0x13FB4F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSchemeColorsToggleGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSchemeColorsToggleGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemeColorsToggleGroup*, creationType>()));
     }
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x140BBC0
+    // Offset: 0x13FAE9C
     void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Awake()
-    // Offset: 0x140BCD8
+    // Offset: 0x13FAFB4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x140BF88
+    // Offset: 0x13FB264
     void OnDestroy();
     // private System.Void HandleToggleWasSelected(ColorSchemeColorToggleController toggleController, System.Boolean isOn)
-    // Offset: 0x140BFA4
+    // Offset: 0x13FB280
     void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
     // public ColorScheme CreateColorSchemeFromEditedColors()
-    // Offset: 0x140C034
+    // Offset: 0x13FB310
     ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
     // private System.Void <Awake>b__17_0(System.Boolean isOn)
-    // Offset: 0x140C21C
+    // Offset: 0x13FB4F8
     void $Awake$b__17_0(bool isOn);
     // private System.Void <Awake>b__17_1(System.Boolean isOn)
-    // Offset: 0x140C22C
+    // Offset: 0x13FB508
     void $Awake$b__17_1(bool isOn);
     // private System.Void <Awake>b__17_2(System.Boolean isOn)
-    // Offset: 0x140C23C
+    // Offset: 0x13FB518
     void $Awake$b__17_2(bool isOn);
     // private System.Void <Awake>b__17_3(System.Boolean isOn)
-    // Offset: 0x140C24C
+    // Offset: 0x13FB528
     void $Awake$b__17_3(bool isOn);
     // private System.Void <Awake>b__17_4(System.Boolean isOn)
-    // Offset: 0x140C25C
+    // Offset: 0x13FB538
     void $Awake$b__17_4(bool isOn);
     // private System.Void <Awake>b__17_5(System.Boolean isOn)
-    // Offset: 0x140C26C
+    // Offset: 0x13FB548
     void $Awake$b__17_5(bool isOn);
     // private System.Void <Awake>b__17_6(System.Boolean isOn)
-    // Offset: 0x140C27C
+    // Offset: 0x13FB558
     void $Awake$b__17_6(bool isOn);
   }; // ColorSchemeColorsToggleGroup
   #pragma pack(pop)

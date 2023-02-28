@@ -50,7 +50,7 @@ namespace TMPro {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_followingCharacters();
     // public System.Void .ctor()
-    // Offset: 0x14C8894
+    // Offset: 0x14E6434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Settings::LineBreakingTable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Settings::LineBreakingTable::.ctor");

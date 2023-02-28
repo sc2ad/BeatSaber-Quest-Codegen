@@ -108,21 +108,21 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Object ifNotValue
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_ifNotValue();
     // public System.Void .ctor()
-    // Offset: 0x2BA3B00
+    // Offset: 0x2BB68E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>()));
     }
     // public System.Void .ctor(NullAllowed/Context context)
-    // Offset: 0x2BA3B28
+    // Offset: 0x2BB690C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::GlobalNamespace::NullAllowed::Context context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(context)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
-    // Offset: 0x2BA3B54
+    // Offset: 0x2BB6938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullAllowed* New_ctor(::StringW propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NullAllowed::.ctor");

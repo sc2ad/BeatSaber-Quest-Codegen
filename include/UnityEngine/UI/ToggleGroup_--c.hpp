@@ -53,20 +53,20 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.Toggle,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(::System::Func_2<::UnityEngine::UI::Toggle*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B399F4
+    // Offset: 0x2B4A4D0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2B39A58
+    // Offset: 0x2B4A534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleGroup::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ToggleGroup::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleGroup::$$c*, creationType>()));
     }
     // System.Boolean <AnyTogglesOn>b__12_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x2B39A60
+    // Offset: 0x2B4A53C
     bool $AnyTogglesOn$b__12_0(::UnityEngine::UI::Toggle* x);
     // System.Boolean <ActiveToggles>b__13_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x2B39A78
+    // Offset: 0x2B4A554
     bool $ActiveToggles$b__13_0(::UnityEngine::UI::Toggle* x);
   }; // UnityEngine.UI.ToggleGroup/UnityEngine.UI.<>c
   #pragma pack(pop)

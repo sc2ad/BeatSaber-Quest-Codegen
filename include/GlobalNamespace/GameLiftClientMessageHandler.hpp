@@ -89,13 +89,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _playerSessionId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__playerSessionId();
     // private System.Void RegisterGameLiftMessages()
-    // Offset: 0x16C09A8
+    // Offset: 0x16CF9C8
     void RegisterGameLiftMessages();
     // public System.Threading.Tasks.Task AuthenticateWithGameLiftServer(System.String userId, System.String userName, System.String playerSessionId)
-    // Offset: 0x16C0EEC
+    // Offset: 0x16CFF0C
     ::System::Threading::Tasks::Task* AuthenticateWithGameLiftServer(::StringW userId, ::StringW userName, ::StringW playerSessionId);
     // public System.Void .ctor(IUnconnectedMessageSender sender, DnsEndPoint endPoint, BGNet.Core.ITimeProvider timeProvider, ICertificateValidator certificateValidator, BGNet.Core.IAnalyticsManager analytics)
-    // Offset: 0x16C0980
+    // Offset: 0x16CF9A0
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Void BaseClientUnconnectedMessageHandler::.ctor(IUnconnectedMessageSender sender, DnsEndPoint endPoint, BGNet.Core.ITimeProvider timeProvider, ICertificateValidator certificateValidator, BGNet.Core.IAnalyticsManager analytics)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -104,17 +104,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftClientMessageHandler*, creationType>(sender, endPoint, timeProvider, certificateValidator, analytics)));
     }
     // protected override System.Boolean ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
-    // Offset: 0x16C0D04
+    // Offset: 0x16CFD24
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Boolean BaseClientUnconnectedMessageHandler::ShouldHandleMessage(BGNet.Core.Messages.IUnconnectedMessage packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     bool ShouldHandleMessage(::BGNet::Core::Messages::IUnconnectedMessage* packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin);
     // protected override System.UInt32 GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
-    // Offset: 0x16C0DC4
+    // Offset: 0x16CFDE4
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.UInt32 BaseClientUnconnectedMessageHandler::GetMessageType(BGNet.Core.Messages.IUnconnectedMessage message)
     uint GetMessageType(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // protected override System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> GetAuthenticationRequest()
-    // Offset: 0x16C0E48
+    // Offset: 0x16CFE68
     // Implemented from: BGNet.Core.Messages.BaseClientUnconnectedMessageHandler
     // Base method: System.Threading.Tasks.Task`1<BGNet.Core.Messages.IUnconnectedAuthenticateRequest> BaseClientUnconnectedMessageHandler::GetAuthenticationRequest()
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::IUnconnectedAuthenticateRequest*>* GetAuthenticationRequest();

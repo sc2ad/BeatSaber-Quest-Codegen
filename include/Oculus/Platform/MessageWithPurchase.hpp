@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithPurchase : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*> {
     public:
     // protected Oculus.Platform.Models.Purchase GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A36B6C
+    // Offset: 0x1A44AB4
     ::Oculus::Platform::Models::Purchase* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A2DB1C
+    // Offset: 0x1A3BA64
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPurchase*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.Purchase GetPurchase()
-    // Offset: 0x1A36B28
+    // Offset: 0x1A44A70
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.Purchase Message::GetPurchase()
     ::Oculus::Platform::Models::Purchase* GetPurchase();

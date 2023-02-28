@@ -50,7 +50,7 @@ namespace System::Collections {
     // Get instance field reference: public System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode next
     [[deprecated("Use field access instead!")]] ::System::Collections::ListDictionaryInternal::DictionaryNode*& dyn_next();
     // public System.Void .ctor()
-    // Offset: 0x1DB72F4
+    // Offset: 0x1DC9A94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

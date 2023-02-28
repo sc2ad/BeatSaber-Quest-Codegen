@@ -50,14 +50,14 @@ namespace GlobalNamespace {
   class LightTranslationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x111FE98
+    // [InjectAttribute] Offset: 0x1124C50
     // private readonly LightTranslationGroup[] _lightTranslationGroups
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::GlobalNamespace::LightTranslationGroup*> lightTranslationGroups;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::LightTranslationGroup*>) == 0x8);
-    // [InjectAttribute] Offset: 0x111FEA8
+    // [InjectAttribute] Offset: 0x1124C60
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x20
@@ -80,17 +80,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<LightTranslationGroupEffect> _lightTranslationGroupEffects
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightTranslationGroupEffect*>*& dyn__lightTranslationGroupEffects();
     // public System.Void .ctor()
-    // Offset: 0x152372C
+    // Offset: 0x1585B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationGroupEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationGroupEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightTranslationGroupEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1523304
+    // Offset: 0x1585744
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1523638
+    // Offset: 0x1585A74
     void OnDestroy();
   }; // LightTranslationGroupEffectManager
   #pragma pack(pop)

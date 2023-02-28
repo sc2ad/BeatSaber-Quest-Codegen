@@ -91,53 +91,53 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String kMeshSubDirectory
     [[deprecated("Use field access instead!")]] ::StringW& dyn_kMeshSubDirectory();
     // public UnityEngine.SceneManagement.Scene get_selectedScene()
-    // Offset: 0x2B93830
+    // Offset: 0x2BA74B8
     ::UnityEngine::SceneManagement::Scene get_selectedScene();
     // private System.Void set_selectedScene(UnityEngine.SceneManagement.Scene value)
-    // Offset: 0x2B93838
+    // Offset: 0x2BA74C0
     void set_selectedScene(::UnityEngine::SceneManagement::Scene value);
     // public StaticBatchedMeshContainer get_componentContainer()
-    // Offset: 0x2B93840
+    // Offset: 0x2BA74C8
     ::GlobalNamespace::StaticBatchedMeshContainer* get_componentContainer();
     // private System.Void set_componentContainer(StaticBatchedMeshContainer value)
-    // Offset: 0x2B93848
+    // Offset: 0x2BA74D0
     void set_componentContainer(::GlobalNamespace::StaticBatchedMeshContainer* value);
     // public System.Collections.Generic.Dictionary`2<UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.GameObject>> get_batchMap()
-    // Offset: 0x2B93850
+    // Offset: 0x2BA74D8
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* get_batchMap();
     // private System.Void set_batchMap(System.Collections.Generic.Dictionary`2<UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.GameObject>> value)
-    // Offset: 0x2B93858
+    // Offset: 0x2BA74E0
     void set_batchMap(::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* value);
     // public System.Void .ctor(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x2B93860
+    // Offset: 0x2BA74E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticMeshBatchingUtility* New_ctor(::UnityEngine::SceneManagement::Scene scene) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticMeshBatchingUtility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticMeshBatchingUtility*, creationType>(scene)));
     }
     // public System.Void Batch()
-    // Offset: 0x2B93D9C
+    // Offset: 0x2BA7A24
     void Batch();
     // public System.Void Unbatch()
-    // Offset: 0x2B94224
+    // Offset: 0x2BA7EAC
     void Unbatch();
     // public System.Void Reload()
-    // Offset: 0x2B94538
+    // Offset: 0x2BA81C0
     void Reload();
     // public System.Void SetScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x2B9453C
+    // Offset: 0x2BA81C4
     void SetScene(::UnityEngine::SceneManagement::Scene scene);
     // private System.Void Initialize()
-    // Offset: 0x2B938D0
+    // Offset: 0x2BA7558
     void Initialize();
     // private System.Void SaveMeshToDisk(UnityEngine.Mesh meshToSave, System.String fileName)
-    // Offset: 0x2B94530
+    // Offset: 0x2BA81B8
     void SaveMeshToDisk(::UnityEngine::Mesh* meshToSave, ::StringW fileName);
     // private System.Void DestroyMeshesOnDisk()
-    // Offset: 0x2B94534
+    // Offset: 0x2BA81BC
     void DestroyMeshesOnDisk();
     // private System.String GetMeshDirectory()
-    // Offset: 0x2B94544
+    // Offset: 0x2BA81CC
     ::StringW GetMeshDirectory();
   }; // StaticMeshBatchingUtility
   #pragma pack(pop)

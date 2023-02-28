@@ -75,16 +75,16 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 macSize
     [[deprecated("Use field access instead!")]] int& dyn_macSize();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x1666528
+    // Offset: 0x1674548
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Int32 get_MacSize()
-    // Offset: 0x1666530
+    // Offset: 0x1674550
     int get_MacSize();
     // public System.Byte[] GetAssociatedText()
-    // Offset: 0x1666538
+    // Offset: 0x1674558
     ::ArrayW<uint8_t> GetAssociatedText();
     // public System.Byte[] GetNonce()
-    // Offset: 0x1666540
+    // Offset: 0x1674560
     ::ArrayW<uint8_t> GetNonce();
   }; // Org.BouncyCastle.Crypto.Parameters.AeadParameters
   #pragma pack(pop)

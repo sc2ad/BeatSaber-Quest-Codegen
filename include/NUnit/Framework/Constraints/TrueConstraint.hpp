@@ -36,14 +36,14 @@ namespace NUnit::Framework::Constraints {
   class TrueConstraint : public ::NUnit::Framework::Constraints::Constraint {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1D5B960
+    // Offset: 0x1D6E094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrueConstraint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::TrueConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrueConstraint*, creationType>()));
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x1D5B9D8
+    // Offset: 0x1D6E10C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     ::NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);

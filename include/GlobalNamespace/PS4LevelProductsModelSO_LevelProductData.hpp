@@ -51,20 +51,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelId
     [[deprecated("Use field access instead!")]] ::StringW& dyn__levelId();
     // public System.String get_entitlementLabel()
-    // Offset: 0x1389240
+    // Offset: 0x138F88C
     ::StringW get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x1389248
+    // Offset: 0x138F894
     ::StringW get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x1389250
+    // Offset: 0x138F89C
     ::StringW get_levelId();
-    // public System.Void .ctor()
-    // Offset: 0x1389258
+    // public System.Void .ctor(System.String levelId, System.String productLabel, System.String entitlementLabel)
+    // Offset: 0x138F8A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PS4LevelProductsModelSO::LevelProductData* New_ctor() {
+    static PS4LevelProductsModelSO::LevelProductData* New_ctor(::StringW levelId, ::StringW productLabel, ::StringW entitlementLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelProductData*, creationType>()));
+      return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO::LevelProductData*, creationType>(levelId, productLabel, entitlementLabel)));
     }
   }; // PS4LevelProductsModelSO/LevelProductData
   #pragma pack(pop)

@@ -42,22 +42,22 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalKeys
     static void _set_InternalKeys(::ArrayW<::StringW> value);
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage message)
-    // Offset: 0x1D40E6C
+    // Offset: 0x1D535A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionCallDictionary*, creationType>(message)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D42A24
+    // Offset: 0x1D55158
     static void _cctor();
     // protected override System.Object GetMethodProperty(System.String key)
-    // Offset: 0x1D41BC8
+    // Offset: 0x1D542FC
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Object MessageDictionary::GetMethodProperty(System.String key)
     ::Il2CppObject* GetMethodProperty(::StringW key);
     // protected override System.Void SetMethodProperty(System.String key, System.Object value)
-    // Offset: 0x1D42570
+    // Offset: 0x1D54CA4
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
     void SetMethodProperty(::StringW key, ::Il2CppObject* value);

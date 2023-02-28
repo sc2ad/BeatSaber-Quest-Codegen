@@ -55,20 +55,20 @@ namespace Zenject {
     // Get instance field reference: public System.Type type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x17C38D0
+    // Offset: 0x17D38F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionBindInfo::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionBindInfo::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionBindInfo::$$c__DisplayClass7_0*, creationType>()));
     }
     // System.Boolean <ShouldIncludeType>b__0(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x17C3C74
+    // Offset: 0x17D3C94
     bool $ShouldIncludeType$b__0(::System::Func_2<::System::Type*, bool>* predicate);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17C3CDC
+    // Offset: 0x17D3CFC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17C3D38
+    // Offset: 0x17D3D58
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionBindInfo/Zenject.<>c__DisplayClass7_0
   #pragma pack(pop)

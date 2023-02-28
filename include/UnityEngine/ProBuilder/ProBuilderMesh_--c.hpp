@@ -66,29 +66,29 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
     static void _set_$$9__147_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A0B0D8
+    // Offset: 0x1A19020
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A0B13C
+    // Offset: 0x1A19084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c*, creationType>()));
     }
     // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
-    // Offset: 0x1A0B144
+    // Offset: 0x1A1908C
     ::UnityEngine::Vector2 $SetUVs$b__102_0(::UnityEngine::Vector4 x);
     // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
-    // Offset: 0x1A0B1D4
+    // Offset: 0x1A1911C
     ::UnityEngine::Vector2 $SetUVs$b__102_1(::UnityEngine::Vector4 x);
     // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A0B264
+    // Offset: 0x1A191AC
     int $get_indexCount$b__110_0(::UnityEngine::ProBuilder::Face* x);
     // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A0B288
+    // Offset: 0x1A191D0
     int $get_triangleCount$b__112_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A0B2AC
+    // Offset: 0x1A191F4
     ::UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c
   #pragma pack(pop)

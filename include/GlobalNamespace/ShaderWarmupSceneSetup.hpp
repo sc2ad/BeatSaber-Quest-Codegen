@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _sharedWarmupColorScheme
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ColorSchemeSO*& dyn__sharedWarmupColorScheme();
     // public System.Void .ctor()
-    // Offset: 0x141CFBC
+    // Offset: 0x1494680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderWarmupSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x141CF14
+    // Offset: 0x14945D8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

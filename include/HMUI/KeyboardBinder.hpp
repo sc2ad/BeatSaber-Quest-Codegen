@@ -130,46 +130,46 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`3<UnityEngine.KeyCode,HMUI.KeyboardBinder/HMUI.KeyBindingType,UnityEngine.Events.UnityAction`1<System.Boolean>>> _bindings
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder::KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>*>*& dyn__bindings();
     // public System.Boolean get_enabled()
-    // Offset: 0x16F3060
+    // Offset: 0x1702080
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x16F3068
+    // Offset: 0x1702088
     void set_enabled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16F3074
+    // Offset: 0x1702094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::KeyboardBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardBinder*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.KeyCode keycode, HMUI.KeyboardBinder/HMUI.KeyBindingType keyBindingType, System.Action`1<System.Boolean> action)
-    // Offset: 0x16F310C
+    // Offset: 0x170212C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardBinder* New_ctor(::UnityEngine::KeyCode keycode, ::HMUI::KeyboardBinder::KeyBindingType keyBindingType, ::System::Action_1<bool>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::KeyboardBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardBinder*, creationType>(keycode, keyBindingType, action)));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`3<UnityEngine.KeyCode,HMUI.KeyboardBinder/HMUI.KeyBindingType,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x16F323C
+    // Offset: 0x170225C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder::KeyBindingType, ::System::Action_1<bool>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::KeyboardBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x16F309C
+    // Offset: 0x17020BC
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`3<UnityEngine.KeyCode,HMUI.KeyboardBinder/HMUI.KeyBindingType,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x16F3274
+    // Offset: 0x1702294
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder::KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.KeyCode keyCode, HMUI.KeyboardBinder/HMUI.KeyBindingType keyBindingType, System.Action`1<System.Boolean> action)
-    // Offset: 0x16F315C
+    // Offset: 0x170217C
     void AddBinding(::UnityEngine::KeyCode keyCode, ::HMUI::KeyboardBinder::KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x16F3380
+    // Offset: 0x17023A0
     void ClearBindings();
     // public System.Void ManualUpdate()
-    // Offset: 0x16F33E0
+    // Offset: 0x1702400
     void ManualUpdate();
   }; // HMUI.KeyboardBinder
   #pragma pack(pop)

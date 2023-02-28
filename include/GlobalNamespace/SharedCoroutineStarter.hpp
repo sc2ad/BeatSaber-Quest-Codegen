@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   class SharedCoroutineStarter : public ::GlobalNamespace::PersistentSingleton_1<::GlobalNamespace::SharedCoroutineStarter*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AD61E4
+    // Offset: 0x2AE69C8
     // Implemented from: PersistentSingleton`1
     // Base method: System.Void PersistentSingleton_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

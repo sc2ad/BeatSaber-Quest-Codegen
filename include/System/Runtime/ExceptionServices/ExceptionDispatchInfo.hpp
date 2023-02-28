@@ -52,23 +52,23 @@ namespace System::Runtime::ExceptionServices {
     // Get instance field reference: private System.Object m_stackTrace
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_stackTrace();
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1E3E138
+    // Offset: 0x1E4E8D8
     ::Il2CppObject* get_BinaryStackTraceArray();
     // public System.Exception get_SourceException()
-    // Offset: 0x1E3E140
+    // Offset: 0x1E4E8E0
     ::System::Exception* get_SourceException();
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x1E3E00C
+    // Offset: 0x1E4E7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1E3C1D0
+    // Offset: 0x1E4C970
     static ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
     // public System.Void Throw()
-    // Offset: 0x1E3C444
+    // Offset: 0x1E4CBE4
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)

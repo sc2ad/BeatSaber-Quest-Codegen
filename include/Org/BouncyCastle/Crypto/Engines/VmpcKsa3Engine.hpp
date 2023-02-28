@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class VmpcKsa3Engine : public ::Org::BouncyCastle::Crypto::Engines::VmpcEngine {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1EB26C4
+    // Offset: 0x1EC2E64
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -39,7 +39,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<VmpcKsa3Engine*, creationType>()));
     }
     // protected override System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1EB23E0
+    // Offset: 0x1EC2B80
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);

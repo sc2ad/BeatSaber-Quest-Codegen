@@ -30,7 +30,7 @@ namespace LiteNetLib {
   class NetConstants : public ::Il2CppObject {
     public:
     // static field const value: static public System.Int32 DefaultWindowSize
-    static constexpr const int DefaultWindowSize = 64;
+    static constexpr const int DefaultWindowSize = 256;
     // Get static field: static public System.Int32 DefaultWindowSize
     static int _get_DefaultWindowSize();
     // Set static field: static public System.Int32 DefaultWindowSize
@@ -116,7 +116,7 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 PacketPoolSize
     static void _set_PacketPoolSize(int value);
     // static private System.Void .cctor()
-    // Offset: 0x221A7D8
+    // Offset: 0x2229FAC
     static void _cctor();
   }; // LiteNetLib.NetConstants
   #pragma pack(pop)

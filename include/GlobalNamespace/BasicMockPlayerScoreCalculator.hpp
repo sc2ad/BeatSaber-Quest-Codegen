@@ -85,14 +85,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Random _random
     [[deprecated("Use field access instead!")]] ::System::Random*& dyn__random();
     // public System.Void .ctor(System.Single hitFrequency, System.Int32 minScore, System.Int32 maxScore)
-    // Offset: 0x2B45248
+    // Offset: 0x2B55D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicMockPlayerScoreCalculator* New_ctor(float hitFrequency, int minScore, int maxScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicMockPlayerScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicMockPlayerScoreCalculator*, creationType>(hitFrequency, minScore, maxScore)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x2B45330
+    // Offset: 0x2B55E0C
     int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // BasicMockPlayerScoreCalculator
   #pragma pack(pop)

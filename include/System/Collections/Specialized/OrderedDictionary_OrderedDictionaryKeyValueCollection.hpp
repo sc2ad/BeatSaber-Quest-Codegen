@@ -66,23 +66,23 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Boolean isKeys
     [[deprecated("Use field access instead!")]] bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1E4B8A8
+    // Offset: 0x1E5C048
     int System_Collections_ICollection_get_Count();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
-    // Offset: 0x1E4B8CC
+    // Offset: 0x1E5C06C
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Void .ctor(System.Collections.ArrayList array, System.Boolean isKeys)
-    // Offset: 0x1E4A074
+    // Offset: 0x1E5A814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OrderedDictionary::OrderedDictionaryKeyValueCollection* New_ctor(::System::Collections::ArrayList* array, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::OrderedDictionary::OrderedDictionaryKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrderedDictionary::OrderedDictionaryKeyValueCollection*, creationType>(array, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1E4B5A0
+    // Offset: 0x1E5BD40
     void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1E4B8F0
+    // Offset: 0x1E5C090
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.Specialized.OrderedDictionary/System.Collections.Specialized.OrderedDictionaryKeyValueCollection
   #pragma pack(pop)

@@ -52,20 +52,20 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRExtendedDisplay FnTable
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRExtendedDisplay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1C7A694
+    // Offset: 0x1C89E60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1C7A79C
+    // Offset: 0x1C89F68
     void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
-    // Offset: 0x1C7A7C8
+    // Offset: 0x1C89F94
     void GetEyeOutputViewport(::Valve::VR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
-    // Offset: 0x1C7A7F4
+    // Offset: 0x1C89FC0
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
   #pragma pack(pop)

@@ -42,20 +42,20 @@ namespace GlobalNamespace {
   class LeaderboardScoreUploader::UploadScoreCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x13D92C4
+    // Offset: 0x13B55C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardScoreUploader::UploadScoreCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::UploadScoreCallback*, creationType>(object, method)));
     }
     // public HMAsyncRequest Invoke(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x13D8D28
+    // Offset: 0x13B502C
     ::GlobalNamespace::HMAsyncRequest* Invoke(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
     // public System.IAsyncResult BeginInvoke(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x13D92D4
+    // Offset: 0x13B55D8
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, ::GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public HMAsyncRequest EndInvoke(System.IAsyncResult result)
-    // Offset: 0x13D9304
+    // Offset: 0x13B5608
     ::GlobalNamespace::HMAsyncRequest* EndInvoke(::System::IAsyncResult* result);
   }; // LeaderboardScoreUploader/UploadScoreCallback
   #pragma pack(pop)

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MultiplayerConnectedPlayerObstacleController::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x146B888
+    // Offset: 0x14D18C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerObstacleController::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool::.ctor");

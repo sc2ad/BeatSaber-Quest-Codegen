@@ -38,16 +38,16 @@ namespace GlobalNamespace {
   class SaberTypeExtensions : public ::Il2CppObject {
     public:
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
-    // Offset: 0x2A0FD3C
+    // Offset: 0x2A1F520
     static bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
     // static public UnityEngine.XR.XRNode Node(SaberType saberType)
-    // Offset: 0x2A132F0
+    // Offset: 0x2A22AD4
     static ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
     // static public SaberType MainSaber(System.Boolean leftHanded)
-    // Offset: 0x2A13300
+    // Offset: 0x2A22AE4
     static ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
     // static public SaberType ToSaberType(ColorType colorType)
-    // Offset: 0x2A1330C
+    // Offset: 0x2A22AF0
     static ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
   }; // SaberTypeExtensions
   #pragma pack(pop)

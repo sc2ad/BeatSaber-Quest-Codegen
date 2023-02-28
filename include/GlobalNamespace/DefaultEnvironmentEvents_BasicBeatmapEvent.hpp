@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::BasicBeatmapEventType eventType;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BasicBeatmapEventType) == 0x4);
-    // [TooltipAttribute] Offset: 0x1130680
+    // [TooltipAttribute] Offset: 0x11354F0
     // private System.Int32 _value
     // Size: 0x4
     // Offset: 0x14
@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _floatValue
     [[deprecated("Use field access instead!")]] float& dyn__floatValue();
     // public BasicBeatmapEventType get_eventType()
-    // Offset: 0x1446928
+    // Offset: 0x144E1FC
     ::GlobalNamespace::BasicBeatmapEventType get_eventType();
     // public System.Int32 get_value()
-    // Offset: 0x1446930
+    // Offset: 0x144E204
     int get_value();
     // public System.Single get_floatValue()
-    // Offset: 0x1446938
+    // Offset: 0x144E20C
     float get_floatValue();
     // public System.Void .ctor()
-    // Offset: 0x1446940
+    // Offset: 0x144E214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::BasicBeatmapEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::BasicBeatmapEvent::.ctor");

@@ -43,20 +43,20 @@ namespace System::ComponentModel {
   class PropertyChangedEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1E566A4
+    // Offset: 0x1E66E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyChangedEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::PropertyChangedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PropertyChangedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.ComponentModel.PropertyChangedEventArgs e)
-    // Offset: 0x1E566B4
+    // Offset: 0x1E66E54
     void Invoke(::Il2CppObject* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.ComponentModel.PropertyChangedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1E56A9C
+    // Offset: 0x1E6723C
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, ::System::ComponentModel::PropertyChangedEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1E56ACC
+    // Offset: 0x1E6726C
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.ComponentModel.PropertyChangedEventHandler
   #pragma pack(pop)

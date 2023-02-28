@@ -34,10 +34,10 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::BombNoteConvertor : public ::GlobalNamespace::BeatmapDataLoader::BeatmapDataItemConvertor_3<::GlobalNamespace::BeatmapObjectData*, ::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData*, ::GlobalNamespace::NoteData*> {
     public:
     // protected NoteData Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.BombNoteData bombNoteSaveData)
-    // Offset: 0x13B7368
+    // Offset: 0x13E372C
     ::GlobalNamespace::NoteData* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::BombNoteData* bombNoteSaveData);
     // public System.Void .ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
-    // Offset: 0x13B64E8
+    // Offset: 0x13E28AC
     // Implemented from: BeatmapDataLoader/BeatmapDataItemConvertor`3
     // Base method: System.Void BeatmapDataItemConvertor_3::.ctor(BeatmapDataLoader/BpmTimeProcessor bpmTimeProcessor)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -69,10 +69,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x138843C
+    // Offset: 0x138EA40
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x138863C
+    // Offset: 0x138EC40
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // PS4BeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3
   // WARNING Not writing size check since size may be invalid!

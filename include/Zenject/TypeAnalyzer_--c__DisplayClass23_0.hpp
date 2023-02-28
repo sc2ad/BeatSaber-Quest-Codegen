@@ -51,23 +51,23 @@ namespace Zenject {
     // Get instance field reference: public System.Type type
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_type();
     // public System.Void .ctor()
-    // Offset: 0x1DE25CC
+    // Offset: 0x1DF4D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeAnalyzer::$$c__DisplayClass23_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TypeAnalyzer::$$c__DisplayClass23_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeAnalyzer::$$c__DisplayClass23_0*, creationType>()));
     }
     // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectFieldInfo x)
-    // Offset: 0x1DE2678
+    // Offset: 0x1DF4E18
     ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__0(::Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* x);
     // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo <CreateTypeInfoFromReflection>b__1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectPropertyInfo x)
-    // Offset: 0x1DE2684
+    // Offset: 0x1DF4E24
     ::Zenject::InjectTypeInfo::InjectMemberInfo* $CreateTypeInfoFromReflection$b__1(::Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DE2690
+    // Offset: 0x1DF4E30
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DE26EC
+    // Offset: 0x1DF4E8C
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.TypeAnalyzer/Zenject.<>c__DisplayClass23_0
   #pragma pack(pop)

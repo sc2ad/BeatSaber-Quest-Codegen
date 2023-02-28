@@ -108,53 +108,53 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private System.Boolean m_isHandled
     [[deprecated("Use field access instead!")]] bool& dyn_m_isHandled();
     // System.Boolean get_ContainsFaultList()
-    // Offset: 0x1DEF89C
+    // Offset: 0x1E0203C
     bool get_ContainsFaultList();
     // System.Void .ctor(System.Threading.Tasks.Task task)
-    // Offset: 0x1DF00B4
+    // Offset: 0x1E02854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskExceptionHolder* New_ctor(::System::Threading::Tasks::Task* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskExceptionHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskExceptionHolder*, creationType>(task)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DF6748
+    // Offset: 0x1E08EE8
     static void _cctor();
     // static private System.Boolean ShouldFailFastOnUnobservedException()
-    // Offset: 0x1DF58B0
+    // Offset: 0x1E08050
     static bool ShouldFailFastOnUnobservedException();
     // static private System.Void EnsureADUnloadCallbackRegistered()
-    // Offset: 0x1DF578C
+    // Offset: 0x1E07F2C
     static void EnsureADUnloadCallbackRegistered();
     // static private System.Void AppDomainUnloadCallback(System.Object sender, System.EventArgs e)
-    // Offset: 0x1DF58B8
+    // Offset: 0x1E08058
     static void AppDomainUnloadCallback(::Il2CppObject* sender, ::System::EventArgs* e);
     // System.Void Add(System.Object exceptionObject, System.Boolean representsCancellation)
-    // Offset: 0x1DF0130
+    // Offset: 0x1E028D0
     void Add(::Il2CppObject* exceptionObject, bool representsCancellation);
     // private System.Void SetCancellationException(System.Object exceptionObject)
-    // Offset: 0x1DF60D4
+    // Offset: 0x1E08874
     void SetCancellationException(::Il2CppObject* exceptionObject);
     // private System.Void AddFaultException(System.Object exceptionObject)
-    // Offset: 0x1DF6190
+    // Offset: 0x1E08930
     void AddFaultException(::Il2CppObject* exceptionObject);
     // private System.Void MarkAsUnhandled()
-    // Offset: 0x1DF66C0
+    // Offset: 0x1E08E60
     void MarkAsUnhandled();
     // System.Void MarkAsHandled(System.Boolean calledFromFinalizer)
-    // Offset: 0x1DEFEB4
+    // Offset: 0x1E02654
     void MarkAsHandled(bool calledFromFinalizer);
     // System.AggregateException CreateExceptionObject(System.Boolean calledFromFinalizer, System.Exception includeThisException)
-    // Offset: 0x1DF01DC
+    // Offset: 0x1E0297C
     ::System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, ::System::Exception* includeThisException);
     // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> GetExceptionDispatchInfos()
-    // Offset: 0x1DF044C
+    // Offset: 0x1E02BEC
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
     // System.Runtime.ExceptionServices.ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
-    // Offset: 0x1DF6740
+    // Offset: 0x1E08EE0
     ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
     // protected override System.Void Finalize()
-    // Offset: 0x1DF5928
+    // Offset: 0x1E080C8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

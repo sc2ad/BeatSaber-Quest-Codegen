@@ -116,35 +116,35 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 idx
     [[deprecated("Use field access instead!")]] int& dyn_idx();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2406808
+    // Offset: 0x2416FDC
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x2406C44
+    // Offset: 0x2417418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HC256Engine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::HC256Engine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HC256Engine*, creationType>()));
     }
     // private System.UInt32 Step()
-    // Offset: 0x2406218
+    // Offset: 0x24169EC
     uint Step();
     // private System.Void Init()
-    // Offset: 0x2406488
+    // Offset: 0x2416C5C
     void Init();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2406850
+    // Offset: 0x2417024
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x2406A20
+    // Offset: 0x24171F4
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x2406AA0
+    // Offset: 0x2417274
     void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x2406C40
+    // Offset: 0x2417414
     void Reset();
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x2406480
+    // Offset: 0x2416C54
     static uint RotateRight(uint x, int bits);
   }; // Org.BouncyCastle.Crypto.Engines.HC256Engine
   #pragma pack(pop)

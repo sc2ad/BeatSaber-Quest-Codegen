@@ -84,244 +84,244 @@ namespace System::Xml {
     // Set static field: static readonly System.Char[] WhitespaceChars
     static void _set_WhitespaceChars(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
-    // Offset: 0x1C61618
+    // Offset: 0x1C70DE4
     static void _cctor();
     // static public System.String EncodeName(System.String name)
-    // Offset: 0x1C5C144
+    // Offset: 0x1C6B910
     static ::StringW EncodeName(::StringW name);
     // static public System.String DecodeName(System.String name)
-    // Offset: 0x1C5CBA4
+    // Offset: 0x1C6C370
     static ::StringW DecodeName(::StringW name);
     // static private System.String EncodeName(System.String name, System.Boolean first, System.Boolean local)
-    // Offset: 0x1C5C1B0
+    // Offset: 0x1C6B97C
     static ::StringW EncodeName(::StringW name, bool first, bool local);
     // static private System.Int32 FromHex(System.Char digit)
-    // Offset: 0x1C5D524
+    // Offset: 0x1C6CCF0
     static int FromHex(::Il2CppChar digit);
     // static System.Byte[] FromBinHexString(System.String s, System.Boolean allowOddCount)
-    // Offset: 0x1C5D554
+    // Offset: 0x1C6CD20
     static ::ArrayW<uint8_t> FromBinHexString(::StringW s, bool allowOddCount);
     // static System.String ToBinHexString(System.Byte[] inArray)
-    // Offset: 0x1C5D5F4
+    // Offset: 0x1C6CDC0
     static ::StringW ToBinHexString(::ArrayW<uint8_t> inArray);
     // static public System.String VerifyName(System.String name)
-    // Offset: 0x1C5D684
+    // Offset: 0x1C6CE50
     static ::StringW VerifyName(::StringW name);
     // static System.Exception TryVerifyName(System.String name)
-    // Offset: 0x1C5D8A8
+    // Offset: 0x1C6D074
     static ::System::Exception* TryVerifyName(::StringW name);
     // static System.String VerifyQName(System.String name, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C5D9DC
+    // Offset: 0x1C6D1A8
     static ::StringW VerifyQName(::StringW name, ::System::Xml::ExceptionType exceptionType);
     // static public System.String VerifyNCName(System.String name)
-    // Offset: 0x1C5DC00
+    // Offset: 0x1C6D3CC
     static ::StringW VerifyNCName(::StringW name);
     // static System.String VerifyNCName(System.String name, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C5DC68
+    // Offset: 0x1C6D434
     static ::StringW VerifyNCName(::StringW name, ::System::Xml::ExceptionType exceptionType);
     // static System.Exception TryVerifyNCName(System.String name)
-    // Offset: 0x1C5DDD8
+    // Offset: 0x1C6D5A4
     static ::System::Exception* TryVerifyNCName(::StringW name);
     // static System.Exception TryVerifyTOKEN(System.String token)
-    // Offset: 0x1C5DE9C
+    // Offset: 0x1C6D668
     static ::System::Exception* TryVerifyTOKEN(::StringW token);
     // static System.Exception TryVerifyNMTOKEN(System.String name)
-    // Offset: 0x1C5DFC0
+    // Offset: 0x1C6D78C
     static ::System::Exception* TryVerifyNMTOKEN(::StringW name);
     // static System.Exception TryVerifyNormalizedString(System.String str)
-    // Offset: 0x1C5E0D8
+    // Offset: 0x1C6D8A4
     static ::System::Exception* TryVerifyNormalizedString(::StringW str);
     // static public System.String ToString(System.Boolean value)
-    // Offset: 0x1C5E198
+    // Offset: 0x1C6D964
     static ::StringW ToString(bool value);
     // static public System.String ToString(System.Decimal value)
-    // Offset: 0x1C5E1F4
+    // Offset: 0x1C6D9C0
     static ::StringW ToString(::System::Decimal value);
     // static public System.String ToString(System.SByte value)
-    // Offset: 0x1C5E22C
+    // Offset: 0x1C6D9F8
     static ::StringW ToString(int8_t value);
     // static public System.String ToString(System.Int16 value)
-    // Offset: 0x1C5E264
+    // Offset: 0x1C6DA30
     static ::StringW ToString(int16_t value);
     // static public System.String ToString(System.Int32 value)
-    // Offset: 0x1C5E29C
+    // Offset: 0x1C6DA68
     static ::StringW ToString(int value);
     // static public System.String ToString(System.Int64 value)
-    // Offset: 0x1C5E2D4
+    // Offset: 0x1C6DAA0
     static ::StringW ToString(int64_t value);
     // static public System.String ToString(System.Byte value)
-    // Offset: 0x1C5E30C
+    // Offset: 0x1C6DAD8
     static ::StringW ToString(uint8_t value);
     // static public System.String ToString(System.UInt16 value)
-    // Offset: 0x1C5E344
+    // Offset: 0x1C6DB10
     static ::StringW ToString(uint16_t value);
     // static public System.String ToString(System.UInt32 value)
-    // Offset: 0x1C5E37C
+    // Offset: 0x1C6DB48
     static ::StringW ToString(uint value);
     // static public System.String ToString(System.UInt64 value)
-    // Offset: 0x1C5E3B4
+    // Offset: 0x1C6DB80
     static ::StringW ToString(uint64_t value);
     // static public System.String ToString(System.Single value)
-    // Offset: 0x1C5E3EC
+    // Offset: 0x1C6DBB8
     static ::StringW ToString(float value);
     // static public System.String ToString(System.Double value)
-    // Offset: 0x1C5E55C
+    // Offset: 0x1C6DD28
     static ::StringW ToString(double value);
     // static public System.String ToString(System.TimeSpan value)
-    // Offset: 0x1C5E67C
+    // Offset: 0x1C6DE48
     static ::StringW ToString(::System::TimeSpan value);
     // static public System.String ToString(System.DateTime value, System.Xml.XmlDateTimeSerializationMode dateTimeOption)
-    // Offset: 0x1C5E6D8
+    // Offset: 0x1C6DEA4
     static ::StringW ToString(::System::DateTime value, ::System::Xml::XmlDateTimeSerializationMode dateTimeOption);
     // static public System.String ToString(System.DateTimeOffset value)
-    // Offset: 0x1C5E9C8
+    // Offset: 0x1C6E194
     static ::StringW ToString(::System::DateTimeOffset value);
     // static public System.Boolean ToBoolean(System.String s)
-    // Offset: 0x1C5EA04
+    // Offset: 0x1C6E1D0
     static bool ToBoolean(::StringW s);
     // static System.Exception TryToBoolean(System.String s, out System.Boolean result)
-    // Offset: 0x1C5EC1C
+    // Offset: 0x1C6E3E8
     static ::System::Exception* TryToBoolean(::StringW s, ByRef<bool> result);
     // static public System.Char ToChar(System.String s)
-    // Offset: 0x1C5EDF4
+    // Offset: 0x1C6E5C0
     static ::Il2CppChar ToChar(::StringW s);
     // static System.Exception TryToChar(System.String s, out System.Char result)
-    // Offset: 0x1C5EEDC
+    // Offset: 0x1C6E6A8
     static ::System::Exception* TryToChar(::StringW s, ByRef<::Il2CppChar> result);
     // static public System.Decimal ToDecimal(System.String s)
-    // Offset: 0x1C5F034
+    // Offset: 0x1C6E800
     static ::System::Decimal ToDecimal(::StringW s);
     // static System.Exception TryToDecimal(System.String s, out System.Decimal result)
-    // Offset: 0x1C5F0B4
+    // Offset: 0x1C6E880
     static ::System::Exception* TryToDecimal(::StringW s, ByRef<::System::Decimal> result);
     // static System.Decimal ToInteger(System.String s)
-    // Offset: 0x1C5F224
+    // Offset: 0x1C6E9F0
     static ::System::Decimal ToInteger(::StringW s);
     // static System.Exception TryToInteger(System.String s, out System.Decimal result)
-    // Offset: 0x1C5F2A4
+    // Offset: 0x1C6EA70
     static ::System::Exception* TryToInteger(::StringW s, ByRef<::System::Decimal> result);
     // static System.Exception TryToSByte(System.String s, out System.SByte result)
-    // Offset: 0x1C5F414
+    // Offset: 0x1C6EBE0
     static ::System::Exception* TryToSByte(::StringW s, ByRef<int8_t> result);
     // static System.Exception TryToInt16(System.String s, out System.Int16 result)
-    // Offset: 0x1C5F55C
+    // Offset: 0x1C6ED28
     static ::System::Exception* TryToInt16(::StringW s, ByRef<int16_t> result);
     // static public System.Int32 ToInt32(System.String s)
-    // Offset: 0x1C5F6A4
+    // Offset: 0x1C6EE70
     static int ToInt32(::StringW s);
     // static System.Exception TryToInt32(System.String s, out System.Int32 result)
-    // Offset: 0x1C5F6D8
+    // Offset: 0x1C6EEA4
     static ::System::Exception* TryToInt32(::StringW s, ByRef<int> result);
     // static public System.Int64 ToInt64(System.String s)
-    // Offset: 0x1C5F820
+    // Offset: 0x1C6EFEC
     static int64_t ToInt64(::StringW s);
     // static System.Exception TryToInt64(System.String s, out System.Int64 result)
-    // Offset: 0x1C5F854
+    // Offset: 0x1C6F020
     static ::System::Exception* TryToInt64(::StringW s, ByRef<int64_t> result);
     // static System.Exception TryToByte(System.String s, out System.Byte result)
-    // Offset: 0x1C5F99C
+    // Offset: 0x1C6F168
     static ::System::Exception* TryToByte(::StringW s, ByRef<uint8_t> result);
     // static System.Exception TryToUInt16(System.String s, out System.UInt16 result)
-    // Offset: 0x1C5FAE4
+    // Offset: 0x1C6F2B0
     static ::System::Exception* TryToUInt16(::StringW s, ByRef<uint16_t> result);
     // static System.Exception TryToUInt32(System.String s, out System.UInt32 result)
-    // Offset: 0x1C5FC2C
+    // Offset: 0x1C6F3F8
     static ::System::Exception* TryToUInt32(::StringW s, ByRef<uint> result);
     // static System.Exception TryToUInt64(System.String s, out System.UInt64 result)
-    // Offset: 0x1C5FD74
+    // Offset: 0x1C6F540
     static ::System::Exception* TryToUInt64(::StringW s, ByRef<uint64_t> result);
     // static public System.Single ToSingle(System.String s)
-    // Offset: 0x1C5FEBC
+    // Offset: 0x1C6F688
     static float ToSingle(::StringW s);
     // static System.Exception TryToSingle(System.String s, out System.Single result)
-    // Offset: 0x1C5FFD0
+    // Offset: 0x1C6F79C
     static ::System::Exception* TryToSingle(::StringW s, ByRef<float> result);
     // static public System.Double ToDouble(System.String s)
-    // Offset: 0x1C601D0
+    // Offset: 0x1C6F99C
     static double ToDouble(::StringW s);
     // static System.Exception TryToDouble(System.String s, out System.Double result)
-    // Offset: 0x1C6030C
+    // Offset: 0x1C6FAD8
     static ::System::Exception* TryToDouble(::StringW s, ByRef<double> result);
     // static System.Exception TryToTimeSpan(System.String s, out System.TimeSpan result)
-    // Offset: 0x1C60534
+    // Offset: 0x1C6FD00
     static ::System::Exception* TryToTimeSpan(::StringW s, ByRef<::System::TimeSpan> result);
     // static public System.Guid ToGuid(System.String s)
-    // Offset: 0x1C605F8
+    // Offset: 0x1C6FDC4
     static ::System::Guid ToGuid(::StringW s);
     // static System.Exception TryToGuid(System.String s, out System.Guid result)
-    // Offset: 0x1C60628
+    // Offset: 0x1C6FDF4
     static ::System::Exception* TryToGuid(::StringW s, ByRef<::System::Guid> result);
     // static private System.DateTime SwitchToLocalTime(System.DateTime value)
-    // Offset: 0x1C5E8D0
+    // Offset: 0x1C6E09C
     static ::System::DateTime SwitchToLocalTime(::System::DateTime value);
     // static private System.DateTime SwitchToUtcTime(System.DateTime value)
-    // Offset: 0x1C5E94C
+    // Offset: 0x1C6E118
     static ::System::DateTime SwitchToUtcTime(::System::DateTime value);
     // static System.Uri ToUri(System.String s)
-    // Offset: 0x1C6082C
+    // Offset: 0x1C6FFF8
     static ::System::Uri* ToUri(::StringW s);
     // static System.Exception TryToUri(System.String s, out System.Uri result)
-    // Offset: 0x1C609DC
+    // Offset: 0x1C701A8
     static ::System::Exception* TryToUri(::StringW s, ByRef<::System::Uri*> result);
     // static System.Boolean StrEqual(System.Char[] chars, System.Int32 strPos1, System.Int32 strLen1, System.String str2)
-    // Offset: 0x1C60BC8
+    // Offset: 0x1C70394
     static bool StrEqual(::ArrayW<::Il2CppChar> chars, int strPos1, int strLen1, ::StringW str2);
     // static System.String TrimString(System.String value)
-    // Offset: 0x1C5EBA0
+    // Offset: 0x1C6E36C
     static ::StringW TrimString(::StringW value);
     // static System.String TrimStringStart(System.String value)
-    // Offset: 0x1C60CA4
+    // Offset: 0x1C70470
     static ::StringW TrimStringStart(::StringW value);
     // static System.String TrimStringEnd(System.String value)
-    // Offset: 0x1C60D20
+    // Offset: 0x1C704EC
     static ::StringW TrimStringEnd(::StringW value);
     // static System.String[] SplitString(System.String value)
-    // Offset: 0x1C60D9C
+    // Offset: 0x1C70568
     static ::ArrayW<::StringW> SplitString(::StringW value);
     // static System.Boolean IsNegativeZero(System.Double value)
-    // Offset: 0x1C5E4D8
+    // Offset: 0x1C6DCA4
     static bool IsNegativeZero(double value);
     // static private System.Int64 DoubleToInt64Bits(System.Double value)
-    // Offset: 0x1C60E1C
+    // Offset: 0x1C705E8
     static int64_t DoubleToInt64Bits(double value);
     // static System.Exception CreateException(System.String res, System.String arg, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1C60E24
+    // Offset: 0x1C705F0
     static ::System::Exception* CreateException(::StringW res, ::StringW arg, ::System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C60F50
+    // Offset: 0x1C7071C
     static ::System::Exception* CreateException(::StringW res, ::ArrayW<::StringW> args, ::System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1C5DB30
+    // Offset: 0x1C6D2FC
     static ::System::Exception* CreateException(::StringW res, ::ArrayW<::StringW> args, ::System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi)
-    // Offset: 0x1C60FD4
+    // Offset: 0x1C707A0
     static ::System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C6104C
+    // Offset: 0x1C70818
     static ::System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, ::System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1C610D0
+    // Offset: 0x1C7089C
     static ::System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, ::System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi)
-    // Offset: 0x1C61278
+    // Offset: 0x1C70A44
     static ::System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C612E0
+    // Offset: 0x1C70AAC
     static ::System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, ::System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1C6135C
+    // Offset: 0x1C70B28
     static ::System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, ::System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar)
-    // Offset: 0x1C6144C
+    // Offset: 0x1C70C18
     static ::System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C614C4
+    // Offset: 0x1C70C90
     static ::System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar, ::System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidNameCharException(System.String name, System.Int32 index, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1C5D7F0
+    // Offset: 0x1C6CFBC
     static ::System::Exception* CreateInvalidNameCharException(::StringW name, int index, ::System::Xml::ExceptionType exceptionType);
     // static System.ArgumentException CreateInvalidNameArgumentException(System.String name, System.String argumentName)
-    // Offset: 0x1C61560
+    // Offset: 0x1C70D2C
     static ::System::ArgumentException* CreateInvalidNameArgumentException(::StringW name, ::StringW argumentName);
   }; // System.Xml.XmlConvert
   #pragma pack(pop)

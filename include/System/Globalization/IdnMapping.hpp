@@ -63,40 +63,40 @@ namespace System::Globalization {
     // Get instance field reference: private System.Globalization.Punycode puny
     [[deprecated("Use field access instead!")]] ::System::Globalization::Punycode*& dyn_puny();
     // public System.String GetAscii(System.String unicode)
-    // Offset: 0x21C3A0C
+    // Offset: 0x21D51E0
     ::StringW GetAscii(::StringW unicode);
     // public System.String GetAscii(System.String unicode, System.Int32 index, System.Int32 count)
-    // Offset: 0x21C3AA8
+    // Offset: 0x21D527C
     ::StringW GetAscii(::StringW unicode, int index, int count);
     // private System.String Convert(System.String input, System.Int32 index, System.Int32 count, System.Boolean toAscii)
-    // Offset: 0x21C3BB8
+    // Offset: 0x21D538C
     ::StringW Convert(::StringW input, int index, int count, bool toAscii);
     // private System.String ToAscii(System.String s, System.Int32 offset)
-    // Offset: 0x21C3DDC
+    // Offset: 0x21D55B0
     ::StringW ToAscii(::StringW s, int offset);
     // private System.Void VerifyLength(System.String s, System.Int32 offset)
-    // Offset: 0x21C4548
+    // Offset: 0x21D5D1C
     void VerifyLength(::StringW s, int offset);
     // private System.String NamePrep(System.String s, System.Int32 offset)
-    // Offset: 0x21C41FC
+    // Offset: 0x21D59D0
     ::StringW NamePrep(::StringW s, int offset);
     // private System.Void VerifyProhibitedCharacters(System.String s, System.Int32 offset)
-    // Offset: 0x21C4640
+    // Offset: 0x21D5E14
     void VerifyProhibitedCharacters(::StringW s, int offset);
     // private System.Void VerifyStd3AsciiRules(System.String s, System.Int32 offset)
-    // Offset: 0x21C4358
+    // Offset: 0x21D5B2C
     void VerifyStd3AsciiRules(::StringW s, int offset);
     // public System.String GetUnicode(System.String ascii)
-    // Offset: 0x21C488C
+    // Offset: 0x21D6060
     ::StringW GetUnicode(::StringW ascii);
     // public System.String GetUnicode(System.String ascii, System.Int32 index, System.Int32 count)
-    // Offset: 0x21C4928
+    // Offset: 0x21D60FC
     ::StringW GetUnicode(::StringW ascii, int index, int count);
     // private System.String ToUnicode(System.String s, System.Int32 offset)
-    // Offset: 0x21C401C
+    // Offset: 0x21D57F0
     ::StringW ToUnicode(::StringW s, int offset);
     // public System.Void .ctor()
-    // Offset: 0x21C3860
+    // Offset: 0x21D5034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,12 +105,12 @@ namespace System::Globalization {
       return THROW_UNLESS((::il2cpp_utils::New<IdnMapping*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x21C3938
+    // Offset: 0x21D510C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x21C39F0
+    // Offset: 0x21D51C4
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

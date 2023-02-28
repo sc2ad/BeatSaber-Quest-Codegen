@@ -30,7 +30,7 @@ namespace LiteNetLib::Utils {
   class InvalidTypeException : public ::System::ArgumentException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x2226658
+    // Offset: 0x2235E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidTypeException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::InvalidTypeException::.ctor");

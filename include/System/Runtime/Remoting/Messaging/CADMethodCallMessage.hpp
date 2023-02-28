@@ -59,26 +59,26 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _uri
     [[deprecated("Use field access instead!")]] ::StringW& dyn__uri();
     // System.String get_Uri()
-    // Offset: 0x1D3F75C
+    // Offset: 0x1D51E90
     ::StringW get_Uri();
     // System.Int32 get_PropertiesCount()
-    // Offset: 0x1D3FA54
+    // Offset: 0x1D52188
     int get_PropertiesCount();
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodCallMessage callMsg)
-    // Offset: 0x1D3F764
+    // Offset: 0x1D51E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADMethodCallMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADMethodCallMessage*, creationType>(callMsg)));
     }
     // static System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage callMsg)
-    // Offset: 0x1D32DB0
+    // Offset: 0x1D454E4
     static ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
     // System.Collections.ArrayList GetArguments()
-    // Offset: 0x1D3F968
+    // Offset: 0x1D5209C
     ::System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
-    // Offset: 0x1D3FA44
+    // Offset: 0x1D52178
     ::ArrayW<::Il2CppObject*> GetArgs(::System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
   #pragma pack(pop)

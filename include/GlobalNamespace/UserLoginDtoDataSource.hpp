@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4
     struct $GetUserFriendsUserIds$d__4;
     public:
-    // [InjectAttribute] Offset: 0x111C278
+    // [InjectAttribute] Offset: 0x1120FD0
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -94,20 +94,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // public System.Void .ctor()
-    // Offset: 0x16570B4
+    // Offset: 0x15397C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserLoginDtoDataSource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UserLoginDtoDataSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserLoginDtoDataSource*, creationType>()));
     }
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1656DB0
+    // Offset: 0x15394BC
     ::System::Threading::Tasks::Task_1<::StringW>* GetPlatformUserIdAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1656EB0
+    // Offset: 0x15395BC
     ::System::Threading::Tasks::Task_1<::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1656FB4
+    // Offset: 0x15396C0
     ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetUserFriendsUserIds(::System::Threading::CancellationToken cancellationToken);
   }; // UserLoginDtoDataSource
   #pragma pack(pop)

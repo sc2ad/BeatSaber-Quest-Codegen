@@ -107,20 +107,20 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Get instance field reference: public System.Boolean synchronousOnly
     [[deprecated("Use field access instead!")]] bool& dyn_synchronousOnly();
     // public System.Void .ctor()
-    // Offset: 0x19BFBE0
+    // Offset: 0x19CDB40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter*, creationType>()));
     }
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x19BF2F4
+    // Offset: 0x19CD254
     ::NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private UnityEngine.TestRunner.NUnitExtensions.Filters.FullNameFilter OptimizedGroupFilter(System.String s)
-    // Offset: 0x19BFA84
+    // Offset: 0x19CD9E4
     static ::UnityEngine::TestRunner::NUnitExtensions::Filters::FullNameFilter* OptimizedGroupFilter(::StringW s);
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x19BF638
+    // Offset: 0x19CD598
     static void AddFilters(::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestFilter*>* filters, ::ArrayW<::StringW> values, ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>* builder);
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter
   #pragma pack(pop)

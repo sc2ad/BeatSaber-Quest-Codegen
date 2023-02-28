@@ -645,293 +645,293 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 oldSelectPos
     [[deprecated("Use field access instead!")]] int& dyn_oldSelectPos();
     // public System.String get_text()
-    // Offset: 0x20AC30C
+    // Offset: 0x20BFAE0
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x20AAE50
+    // Offset: 0x20BE624
     void set_text(::StringW value);
     // public UnityEngine.Rect get_position()
-    // Offset: 0x20BEF9C
+    // Offset: 0x20D2770
     ::UnityEngine::Rect get_position();
     // public System.Void set_position(UnityEngine.Rect value)
-    // Offset: 0x20AAEFC
+    // Offset: 0x20BE6D0
     void set_position(::UnityEngine::Rect value);
     // UnityEngine.Rect get_localPosition()
-    // Offset: 0x20BF380
+    // Offset: 0x20D2B54
     ::UnityEngine::Rect get_localPosition();
     // public System.Int32 get_cursorIndex()
-    // Offset: 0x20BF38C
+    // Offset: 0x20D2B60
     int get_cursorIndex();
     // public System.Void set_cursorIndex(System.Int32 value)
-    // Offset: 0x20BF394
+    // Offset: 0x20D2B68
     void set_cursorIndex(int value);
     // public System.Int32 get_selectIndex()
-    // Offset: 0x20BF3FC
+    // Offset: 0x20D2BD0
     int get_selectIndex();
     // public System.Void set_selectIndex(System.Int32 value)
-    // Offset: 0x20BF404
+    // Offset: 0x20D2BD8
     void set_selectIndex(int value);
     // public System.Boolean get_hasSelection()
-    // Offset: 0x20C0370
+    // Offset: 0x20D3B44
     bool get_hasSelection();
     // public System.Void .ctor()
-    // Offset: 0x20BF474
+    // Offset: 0x20D2C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextEditor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextEditor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextEditor*, creationType>()));
     }
     // private System.Void ClearCursorPos()
-    // Offset: 0x20BF464
+    // Offset: 0x20D2C38
     void ClearCursorPos();
     // public System.Void OnFocus()
-    // Offset: 0x20BF558
+    // Offset: 0x20D2D2C
     void OnFocus();
     // public System.Void OnLostFocus()
-    // Offset: 0x20BF5F8
+    // Offset: 0x20D2DCC
     void OnLostFocus();
     // private System.Void GrabGraphicalCursorPos()
-    // Offset: 0x20BF668
+    // Offset: 0x20D2E3C
     void GrabGraphicalCursorPos();
     // public System.Boolean HandleKeyEvent(UnityEngine.Event e)
-    // Offset: 0x20AC304
+    // Offset: 0x20BFAD8
     bool HandleKeyEvent(::UnityEngine::Event* e);
     // System.Boolean HandleKeyEvent(UnityEngine.Event e, System.Boolean textIsReadOnly)
-    // Offset: 0x20BF6E8
+    // Offset: 0x20D2EBC
     bool HandleKeyEvent(::UnityEngine::Event* e, bool textIsReadOnly);
     // public System.Boolean DeleteLineBack()
-    // Offset: 0x20C02AC
+    // Offset: 0x20D3A80
     bool DeleteLineBack();
     // public System.Boolean DeleteWordBack()
-    // Offset: 0x20C0498
+    // Offset: 0x20D3C6C
     bool DeleteWordBack();
     // public System.Boolean DeleteWordForward()
-    // Offset: 0x20C0608
+    // Offset: 0x20D3DDC
     bool DeleteWordForward();
     // public System.Boolean Delete()
-    // Offset: 0x20C083C
+    // Offset: 0x20D4010
     bool Delete();
     // public System.Boolean Backspace()
-    // Offset: 0x20C09A0
+    // Offset: 0x20D4174
     bool Backspace();
     // public System.Void SelectAll()
-    // Offset: 0x20BF5A8
+    // Offset: 0x20D2D7C
     void SelectAll();
     // public System.Void SelectNone()
-    // Offset: 0x20C0B1C
+    // Offset: 0x20D42F0
     void SelectNone();
     // public System.Boolean DeleteSelection()
-    // Offset: 0x20C0380
+    // Offset: 0x20D3B54
     bool DeleteSelection();
     // public System.Void ReplaceSelection(System.String replace)
-    // Offset: 0x20AC3DC
+    // Offset: 0x20BFBB0
     void ReplaceSelection(::StringW replace);
     // public System.Void Insert(System.Char c)
-    // Offset: 0x20AC370
+    // Offset: 0x20BFB44
     void Insert(::Il2CppChar c);
     // public System.Void MoveRight()
-    // Offset: 0x20C0B4C
+    // Offset: 0x20D4320
     void MoveRight();
     // public System.Void MoveLeft()
-    // Offset: 0x20C0BC8
+    // Offset: 0x20D439C
     void MoveLeft();
     // public System.Void MoveUp()
-    // Offset: 0x20C0C2C
+    // Offset: 0x20D4400
     void MoveUp();
     // public System.Void MoveDown()
-    // Offset: 0x20C0CDC
+    // Offset: 0x20D44B0
     void MoveDown();
     // public System.Void MoveLineStart()
-    // Offset: 0x20C0DB8
+    // Offset: 0x20D458C
     void MoveLineStart();
     // public System.Void MoveLineEnd()
-    // Offset: 0x20C0E48
+    // Offset: 0x20D461C
     void MoveLineEnd();
     // public System.Void MoveGraphicalLineStart()
-    // Offset: 0x20C0EF8
+    // Offset: 0x20D46CC
     void MoveGraphicalLineStart();
     // public System.Void MoveGraphicalLineEnd()
-    // Offset: 0x20C1038
+    // Offset: 0x20D480C
     void MoveGraphicalLineEnd();
     // public System.Void MoveTextStart()
-    // Offset: 0x20C114C
+    // Offset: 0x20D4920
     void MoveTextStart();
     // public System.Void MoveTextEnd()
-    // Offset: 0x20C1178
+    // Offset: 0x20D494C
     void MoveTextEnd();
     // private System.Int32 IndexOfEndOfLine(System.Int32 startIndex)
-    // Offset: 0x20C11BC
+    // Offset: 0x20D4990
     int IndexOfEndOfLine(int startIndex);
     // public System.Void MoveParagraphForward()
-    // Offset: 0x20C1218
+    // Offset: 0x20D49EC
     void MoveParagraphForward();
     // public System.Void MoveParagraphBackward()
-    // Offset: 0x20C129C
+    // Offset: 0x20D4A70
     void MoveParagraphBackward();
     // public System.Void MoveCursorToPosition(UnityEngine.Vector2 cursorPosition)
-    // Offset: 0x20ABD6C
+    // Offset: 0x20BF540
     void MoveCursorToPosition(::UnityEngine::Vector2 cursorPosition);
     // protected internal System.Void MoveCursorToPosition_Internal(UnityEngine.Vector2 cursorPosition, System.Boolean shift)
-    // Offset: 0x20C1328
+    // Offset: 0x20D4AFC
     void MoveCursorToPosition_Internal(::UnityEngine::Vector2 cursorPosition, bool shift);
     // public System.Void SelectToPosition(UnityEngine.Vector2 cursorPosition)
-    // Offset: 0x20ABF88
+    // Offset: 0x20BF75C
     void SelectToPosition(::UnityEngine::Vector2 cursorPosition);
     // public System.Void SelectLeft()
-    // Offset: 0x20C156C
+    // Offset: 0x20D4D40
     void SelectLeft();
     // public System.Void SelectRight()
-    // Offset: 0x20C15C8
+    // Offset: 0x20D4D9C
     void SelectRight();
     // public System.Void SelectUp()
-    // Offset: 0x20C1624
+    // Offset: 0x20D4DF8
     void SelectUp();
     // public System.Void SelectDown()
-    // Offset: 0x20C1688
+    // Offset: 0x20D4E5C
     void SelectDown();
     // public System.Void SelectTextEnd()
-    // Offset: 0x20C1704
+    // Offset: 0x20D4ED8
     void SelectTextEnd();
     // public System.Void SelectTextStart()
-    // Offset: 0x20C172C
+    // Offset: 0x20D4F00
     void SelectTextStart();
     // public System.Void MouseDragSelectsWholeWords(System.Boolean on)
-    // Offset: 0x20ABED0
+    // Offset: 0x20BF6A4
     void MouseDragSelectsWholeWords(bool on);
     // public System.Void DblClickSnap(UnityEngine.TextEditor/UnityEngine.DblClickSnapping snapping)
-    // Offset: 0x20ABEC8
+    // Offset: 0x20BF69C
     void DblClickSnap(::UnityEngine::TextEditor::DblClickSnapping snapping);
     // private System.Int32 GetGraphicalLineStart(System.Int32 p)
-    // Offset: 0x20C0F44
+    // Offset: 0x20D4718
     int GetGraphicalLineStart(int p);
     // private System.Int32 GetGraphicalLineEnd(System.Int32 p)
-    // Offset: 0x20C1084
+    // Offset: 0x20D4858
     int GetGraphicalLineEnd(int p);
     // private System.Int32 FindNextSeperator(System.Int32 startPos)
-    // Offset: 0x20C1734
+    // Offset: 0x20D4F08
     int FindNextSeperator(int startPos);
     // private System.Int32 FindPrevSeperator(System.Int32 startPos)
-    // Offset: 0x20C18D8
+    // Offset: 0x20D50AC
     int FindPrevSeperator(int startPos);
     // public System.Void MoveWordRight()
-    // Offset: 0x20C1978
+    // Offset: 0x20D514C
     void MoveWordRight();
     // public System.Void MoveToStartOfNextWord()
-    // Offset: 0x20C19E0
+    // Offset: 0x20D51B4
     void MoveToStartOfNextWord();
     // public System.Void MoveToEndOfPreviousWord()
-    // Offset: 0x20C1A44
+    // Offset: 0x20D5218
     void MoveToEndOfPreviousWord();
     // public System.Void SelectToStartOfNextWord()
-    // Offset: 0x20C1AA8
+    // Offset: 0x20D527C
     void SelectToStartOfNextWord();
     // public System.Void SelectToEndOfPreviousWord()
-    // Offset: 0x20C1AE0
+    // Offset: 0x20D52B4
     void SelectToEndOfPreviousWord();
     // private UnityEngine.TextEditor/UnityEngine.CharacterType ClassifyChar(System.Int32 index)
-    // Offset: 0x20C17D8
+    // Offset: 0x20D4FAC
     ::UnityEngine::TextEditor::CharacterType ClassifyChar(int index);
     // public System.Int32 FindStartOfNextWord(System.Int32 p)
-    // Offset: 0x20C0688
+    // Offset: 0x20D3E5C
     int FindStartOfNextWord(int p);
     // private System.Int32 FindEndOfPreviousWord(System.Int32 p)
-    // Offset: 0x20C0534
+    // Offset: 0x20D3D08
     int FindEndOfPreviousWord(int p);
     // public System.Void MoveWordLeft()
-    // Offset: 0x20C1B18
+    // Offset: 0x20D52EC
     void MoveWordLeft();
     // public System.Void SelectWordRight()
-    // Offset: 0x20C1B6C
+    // Offset: 0x20D5340
     void SelectWordRight();
     // public System.Void SelectWordLeft()
-    // Offset: 0x20C1BE4
+    // Offset: 0x20D53B8
     void SelectWordLeft();
     // public System.Void ExpandSelectGraphicalLineStart()
-    // Offset: 0x20C1C5C
+    // Offset: 0x20D5430
     void ExpandSelectGraphicalLineStart();
     // public System.Void ExpandSelectGraphicalLineEnd()
-    // Offset: 0x20C1CC4
+    // Offset: 0x20D5498
     void ExpandSelectGraphicalLineEnd();
     // public System.Void SelectGraphicalLineStart()
-    // Offset: 0x20C1D2C
+    // Offset: 0x20D5500
     void SelectGraphicalLineStart();
     // public System.Void SelectGraphicalLineEnd()
-    // Offset: 0x20C1D64
+    // Offset: 0x20D5538
     void SelectGraphicalLineEnd();
     // public System.Void SelectParagraphForward()
-    // Offset: 0x20C1D9C
+    // Offset: 0x20D5570
     void SelectParagraphForward();
     // public System.Void SelectParagraphBackward()
-    // Offset: 0x20C1E34
+    // Offset: 0x20D5608
     void SelectParagraphBackward();
     // public System.Void SelectCurrentWord()
-    // Offset: 0x20ABE28
+    // Offset: 0x20BF5FC
     void SelectCurrentWord();
     // private System.Int32 FindEndOfClassification(System.Int32 p, UnityEngine.TextEditor/UnityEngine.Direction dir)
-    // Offset: 0x20C1454
+    // Offset: 0x20D4C28
     int FindEndOfClassification(int p, ::UnityEngine::TextEditor::Direction dir);
     // public System.Void SelectCurrentParagraph()
-    // Offset: 0x20ABEEC
+    // Offset: 0x20BF6C0
     void SelectCurrentParagraph();
     // public System.Void UpdateScrollOffsetIfNeeded(UnityEngine.Event evt)
-    // Offset: 0x20ABC44
+    // Offset: 0x20BF418
     void UpdateScrollOffsetIfNeeded(::UnityEngine::Event* evt);
     // System.Void UpdateScrollOffset()
-    // Offset: 0x20BEFA8
+    // Offset: 0x20D277C
     void UpdateScrollOffset();
     // public System.Void DrawCursor(System.String newText)
-    // Offset: 0x20AC464
+    // Offset: 0x20BFC38
     void DrawCursor(::StringW newText);
     // private System.Boolean PerformOperation(UnityEngine.TextEditor/UnityEngine.TextEditOp operation, System.Boolean textIsReadOnly)
-    // Offset: 0x20BFEEC
+    // Offset: 0x20D36C0
     bool PerformOperation(::UnityEngine::TextEditor::TextEditOp operation, bool textIsReadOnly);
     // public System.Void SaveBackup()
-    // Offset: 0x20AAED8
+    // Offset: 0x20BE6AC
     void SaveBackup();
     // public System.Boolean Cut()
-    // Offset: 0x20C1EEC
+    // Offset: 0x20D56C0
     bool Cut();
     // public System.Void Copy()
-    // Offset: 0x20C1F20
+    // Offset: 0x20D56F4
     void Copy();
     // static private System.String ReplaceNewlinesWithSpaces(System.String value)
-    // Offset: 0x20C205C
+    // Offset: 0x20D5830
     static ::StringW ReplaceNewlinesWithSpaces(::StringW value);
     // public System.Boolean Paste()
-    // Offset: 0x20C1FB0
+    // Offset: 0x20D5784
     bool Paste();
     // static private System.Void MapKey(System.String key, UnityEngine.TextEditor/UnityEngine.TextEditOp action)
-    // Offset: 0x20C20EC
+    // Offset: 0x20D58C0
     static void MapKey(::StringW key, ::UnityEngine::TextEditor::TextEditOp action);
     // private System.Void InitKeyActions()
-    // Offset: 0x20BF88C
+    // Offset: 0x20D3060
     void InitKeyActions();
     // public System.Void DetectFocusChange()
-    // Offset: 0x20AAFCC
+    // Offset: 0x20BE7A0
     void DetectFocusChange();
     // System.Void OnDetectFocusChange()
-    // Offset: 0x20C2174
+    // Offset: 0x20D5948
     void OnDetectFocusChange();
     // System.Void OnCursorIndexChange()
-    // Offset: 0x20C2224
+    // Offset: 0x20D59F8
     void OnCursorIndexChange();
     // System.Void OnSelectIndexChange()
-    // Offset: 0x20C2228
+    // Offset: 0x20D59FC
     void OnSelectIndexChange();
     // private System.Void ClampTextIndex(ref System.Int32 index)
-    // Offset: 0x20C222C
+    // Offset: 0x20D5A00
     void ClampTextIndex(ByRef<int> index);
     // private System.Void EnsureValidCodePointIndex(ref System.Int32 index)
-    // Offset: 0x20BEF58
+    // Offset: 0x20D272C
     void EnsureValidCodePointIndex(ByRef<int> index);
     // private System.Boolean IsValidCodePointIndex(System.Int32 index)
-    // Offset: 0x20C22CC
+    // Offset: 0x20D5AA0
     bool IsValidCodePointIndex(int index);
     // private System.Int32 PreviousCodePointIndex(System.Int32 index)
-    // Offset: 0x20C0A4C
+    // Offset: 0x20D4220
     int PreviousCodePointIndex(int index);
     // private System.Int32 NextCodePointIndex(System.Int32 index)
-    // Offset: 0x20C08CC
+    // Offset: 0x20D40A0
     int NextCodePointIndex(int index);
   }; // UnityEngine.TextEditor
   #pragma pack(pop)

@@ -68,25 +68,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__highlightImage();
     // public System.String get_text()
-    // Offset: 0x139BCB0
+    // Offset: 0x13C8074
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x139BC94
+    // Offset: 0x13C8058
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x139BDA0
+    // Offset: 0x13C8164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserTableCell*, creationType>()));
     }
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x139BCCC
+    // Offset: 0x13C8090
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x139BD64
+    // Offset: 0x13C8128
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

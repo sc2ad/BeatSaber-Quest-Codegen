@@ -108,17 +108,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameplayServerConfiguration configuration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // public System.Void .ctor()
-    // Offset: 0x15C3150
+    // Offset: 0x15975B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::JoinResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::JoinResponsePacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x15C6048
+    // Offset: 0x159A4B0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15C60E0
+    // Offset: 0x159A548
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LocalNetworkDiscoveryManager/JoinResponsePacket
   #pragma pack(pop)

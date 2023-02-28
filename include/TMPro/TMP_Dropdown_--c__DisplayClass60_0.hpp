@@ -43,14 +43,14 @@ namespace TMPro {
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this
     [[deprecated("Use field access instead!")]] ::TMPro::TMP_Dropdown*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x14ADA18
+    // Offset: 0x14A0E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::$$c__DisplayClass60_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::$$c__DisplayClass60_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::$$c__DisplayClass60_0*, creationType>()));
     }
     // System.Void <Show>b__0(System.Boolean x)
-    // Offset: 0x14AE5B8
+    // Offset: 0x14A19B0
     void $Show$b__0(bool x);
   }; // TMPro.TMP_Dropdown/TMPro.<>c__DisplayClass60_0
   #pragma pack(pop)

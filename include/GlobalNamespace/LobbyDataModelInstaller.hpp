@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class LobbyDataModelInstaller : public ::Zenject::MonoInstaller {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15B437C
+    // Offset: 0x1588298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyDataModelInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyDataModelInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x15B3F8C
+    // Offset: 0x1587EA8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

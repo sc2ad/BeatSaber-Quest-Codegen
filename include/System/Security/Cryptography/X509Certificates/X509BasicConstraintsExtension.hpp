@@ -94,36 +94,36 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
     [[deprecated("Use field access instead!")]] ::System::Security::Cryptography::AsnDecodeStatus& dyn__status();
     // public System.Boolean get_CertificateAuthority()
-    // Offset: 0x1C834E0
+    // Offset: 0x1C93CAC
     bool get_CertificateAuthority();
     // public System.Boolean get_HasPathLengthConstraint()
-    // Offset: 0x1C83570
+    // Offset: 0x1C93D3C
     bool get_HasPathLengthConstraint();
     // public System.Int32 get_PathLengthConstraint()
-    // Offset: 0x1C83600
+    // Offset: 0x1C93DCC
     int get_PathLengthConstraint();
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedBasicConstraints, System.Boolean critical)
-    // Offset: 0x1C82FB0
+    // Offset: 0x1C9377C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509BasicConstraintsExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>(encodedBasicConstraints, critical)));
     }
     // public System.Void .ctor(System.Boolean certificateAuthority, System.Boolean hasPathLengthConstraint, System.Int32 pathLengthConstraint, System.Boolean critical)
-    // Offset: 0x1C83258
+    // Offset: 0x1C93A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509BasicConstraintsExtension* New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>(certificateAuthority, hasPathLengthConstraint, pathLengthConstraint, critical)));
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x1C83074
+    // Offset: 0x1C93840
     ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // System.Byte[] Encode()
-    // Offset: 0x1C83374
+    // Offset: 0x1C93B40
     ::ArrayW<uint8_t> Encode();
     // public System.Void .ctor()
-    // Offset: 0x1C82F18
+    // Offset: 0x1C936E4
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
@@ -133,12 +133,12 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x1C83690
+    // Offset: 0x1C93E5C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x1C83834
+    // Offset: 0x1C94000
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::StringW ToString(bool multiLine);

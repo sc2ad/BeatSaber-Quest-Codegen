@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118A74
+    // [InjectAttribute] Offset: 0x111D7CC
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -154,62 +154,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private AudioPitchGainEffect _inactivePitchGainEffect
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::AudioPitchGainEffect*& dyn__inactivePitchGainEffect();
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x144071C
+    // Offset: 0x1447FF0
     ::UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1440738
+    // Offset: 0x144800C
     void set_clip(::UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x144077C
+    // Offset: 0x1448050
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0x14407C8
+    // Offset: 0x144809C
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0x1440814
+    // Offset: 0x14480E8
     bool get_isPlaying();
     // public System.Void .ctor()
-    // Offset: 0x1440CA4
+    // Offset: 0x1448578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossFadeAudioSource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CrossFadeAudioSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossFadeAudioSource*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1440830
+    // Offset: 0x1448104
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1440988
+    // Offset: 0x144825C
     void OnDestroy();
     // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0x1440A20
+    // Offset: 0x14482F4
     void PlayPitchGainEffect(float volumeScale);
     // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0x1440A40
+    // Offset: 0x1448314
     void InterruptLastPitchGainEffect();
     // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0x1440A5C
+    // Offset: 0x1448330
     void CrossFade(float toSongTime, float toVolume);
     // public System.Void Play()
-    // Offset: 0x1440C2C
+    // Offset: 0x1448500
     void Play();
     // public System.Void Stop()
-    // Offset: 0x1440C48
+    // Offset: 0x144851C
     void Stop();
     // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0x1440CB8
+    // Offset: 0x144858C
     void $Awake$b__21_0(float val);
     // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0x1440CD4
+    // Offset: 0x14485A8
     void $Awake$b__21_1(float val);
     // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0x1440CF0
+    // Offset: 0x14485C4
     void $CrossFade$b__25_0(float val);
     // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0x1440D0C
+    // Offset: 0x14485E0
     void $CrossFade$b__25_1(float val);
     // private System.Void <CrossFade>b__25_2()
-    // Offset: 0x1440D28
+    // Offset: 0x14485FC
     void $CrossFade$b__25_2();
   }; // CrossFadeAudioSource
   #pragma pack(pop)

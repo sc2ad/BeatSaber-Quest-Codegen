@@ -47,14 +47,14 @@ namespace Polyglot {
     // Get instance field reference: public Polyglot.Localization settings
     [[deprecated("Use field access instead!")]] ::Polyglot::Localization*& dyn_settings();
     // public System.Void .ctor()
-    // Offset: 0x2AE047C
+    // Offset: 0x2AF5B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationImporter::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationImporter::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationImporter::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Void <DownloadCustomSheet>b__0(System.String s)
-    // Offset: 0x2AE0E48
+    // Offset: 0x2AF6510
     void $DownloadCustomSheet$b__0(::StringW s);
   }; // Polyglot.LocalizationImporter/Polyglot.<>c__DisplayClass8_0
   #pragma pack(pop)

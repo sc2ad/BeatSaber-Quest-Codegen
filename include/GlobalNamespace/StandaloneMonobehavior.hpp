@@ -115,47 +115,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _lastFrameTimeCount
     [[deprecated("Use field access instead!")]] int& dyn__lastFrameTimeCount();
     // public System.Single get_objectLifeTime()
-    // Offset: 0x26A58DC
+    // Offset: 0x26B80B0
     float get_objectLifeTime();
     // public System.Single get_deltaTime()
-    // Offset: 0x26A5908
+    // Offset: 0x26B80DC
     float get_deltaTime();
     // public System.Single get_lastFrameTime()
-    // Offset: 0x26A5910
+    // Offset: 0x26B80E4
     float get_lastFrameTime();
     // public System.Int32 get_frameCount()
-    // Offset: 0x26A5998
+    // Offset: 0x26B816C
     int get_frameCount();
     // public System.Boolean get_isReady()
-    // Offset: 0x26A59A0
+    // Offset: 0x26B8174
     bool get_isReady();
     // public System.Void .ctor()
-    // Offset: 0x26A5DC4
+    // Offset: 0x26B8598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneMonobehavior* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandaloneMonobehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneMonobehavior*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x26A59F8
+    // Offset: 0x26B81CC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x26A5A20
+    // Offset: 0x26B81F4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x26A5A24
+    // Offset: 0x26B81F8
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x26A5A28
+    // Offset: 0x26B81FC
     void OnDestroy();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x26A5A2C
+    // Offset: 0x26B8200
     void OnApplicationPause(bool pauseStatus);
     // public System.Void WhenReady(System.Action action)
-    // Offset: 0x26A5A30
+    // Offset: 0x26B8204
     void WhenReady(::System::Action* action);
     // public System.Threading.Tasks.Task WhenReadyAsync(System.Func`1<System.Threading.Tasks.Task> action)
-    // Offset: 0x26A5AF4
+    // Offset: 0x26B82C8
     ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
     // static public T Create()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -168,16 +168,16 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // public System.Threading.Tasks.Task RunAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x26A5BF0
+    // Offset: 0x26B83C4
     ::System::Threading::Tasks::Task* RunAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void Stop()
-    // Offset: 0x26A5D90
+    // Offset: 0x26B8564
     void Stop();
     // private System.Collections.IEnumerator RunAsyncCoroutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x26A5D0C
+    // Offset: 0x26B84E0
     ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
     // private System.Single GetLastFrameTime()
-    // Offset: 0x26A5914
+    // Offset: 0x26B80E8
     float GetLastFrameTime();
   }; // StandaloneMonobehavior
   #pragma pack(pop)

@@ -32,7 +32,7 @@ namespace System::Xml {
     // Set static field: static System.Byte[] htmlAttributes
     static void _set_htmlAttributes(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1B0889C
+    // Offset: 0x1B16968
     static void _cctor();
   }; // System.Xml.HtmlTernaryTree
   #pragma pack(pop)

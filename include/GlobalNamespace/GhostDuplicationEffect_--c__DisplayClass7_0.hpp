@@ -55,23 +55,23 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector3 direction
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_direction();
     // public System.Void .ctor()
-    // Offset: 0x13CC8F0
+    // Offset: 0x13A75A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostDuplicationEffect::$$c__DisplayClass7_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostDuplicationEffect::$$c__DisplayClass7_0*, creationType>()));
     }
     // System.Void <Animate>b__0(System.Single val)
-    // Offset: 0x13CC8F8
+    // Offset: 0x13A75B0
     void $Animate$b__0(float val);
     // System.Void <Animate>b__1(System.Single val)
-    // Offset: 0x13CC914
+    // Offset: 0x13A75CC
     void $Animate$b__1(float val);
     // System.Void <Animate>b__2(UnityEngine.Vector3 pos)
-    // Offset: 0x13CC9A0
+    // Offset: 0x13A7658
     void $Animate$b__2(::UnityEngine::Vector3 pos);
     // System.Void <Animate>b__3(System.Single val)
-    // Offset: 0x13CC9F4
+    // Offset: 0x13A76AC
     void $Animate$b__3(float val);
   }; // GhostDuplicationEffect/<>c__DisplayClass7_0
   #pragma pack(pop)

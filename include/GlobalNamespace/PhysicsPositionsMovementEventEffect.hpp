@@ -97,14 +97,14 @@ namespace GlobalNamespace {
     float maxAcceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x11205AC
+    // [InjectAttribute] Offset: 0x1125364
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11205BC
+    // [InjectAttribute] Offset: 0x1125374
     // private readonly SongTimeFixedUpdateController _songTimeFixedUpdateController
     // Size: 0x8
     // Offset: 0x48
@@ -209,26 +209,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x157E3D0
+    // Offset: 0x15A1D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PhysicsPositionsMovementEventEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PhysicsPositionsMovementEventEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PhysicsPositionsMovementEventEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x157DBCC
+    // Offset: 0x15A1580
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x157DDCC
+    // Offset: 0x15A1780
     void OnDestroy();
     // private System.Void HandleSongTimeFixedUpdate(System.Single fixedDeltaTime)
-    // Offset: 0x157DF00
+    // Offset: 0x15A18B4
     void HandleSongTimeFixedUpdate(float fixedDeltaTime);
     // private System.Void HandleSongTimeUpdate()
-    // Offset: 0x157E1C0
+    // Offset: 0x15A1B74
     void HandleSongTimeUpdate();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x157E29C
+    // Offset: 0x15A1C50
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // PhysicsPositionsMovementEventEffect
   #pragma pack(pop)

@@ -67,21 +67,21 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::AudioClip*> bombExplosionAudioClips;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::AudioClip*>) == 0x8);
-    // [InjectAttribute] Offset: 0x11189F4
+    // [InjectAttribute] Offset: 0x111D74C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118A04
+    // [InjectAttribute] Offset: 0x111D75C
     // private readonly SaberManager saberManager
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1118A14
+    // [InjectAttribute] Offset: 0x111D76C
     // private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x38
@@ -110,23 +110,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // public System.Void .ctor()
-    // Offset: 0x1401490
+    // Offset: 0x13F076C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombCutSoundEffectManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombCutSoundEffectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffectManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1401094
+    // Offset: 0x13F0370
     void Start();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1401150
+    // Offset: 0x13F042C
     void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0x140135C
+    // Offset: 0x13F0638
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0x14013E4
+    // Offset: 0x13F06C0
     void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
   }; // BombCutSoundEffectManager
   #pragma pack(pop)

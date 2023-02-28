@@ -40,20 +40,20 @@ namespace System::Security::AccessControl {
   class NativeObjectSecurity::GetSecurityInfoNativeCall : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BD92B4
+    // Offset: 0x1BE7A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeObjectSecurity::GetSecurityInfoNativeCall* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::NativeObjectSecurity::GetSecurityInfoNativeCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeObjectSecurity::GetSecurityInfoNativeCall*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Security.AccessControl.SecurityInfos securityInfos, out System.IntPtr owner, out System.IntPtr group, out System.IntPtr dacl, out System.IntPtr sacl, out System.IntPtr descriptor)
-    // Offset: 0x1BD9444
+    // Offset: 0x1BE7C10
     int Invoke(::System::Security::AccessControl::SecurityInfos securityInfos, ByRef<::System::IntPtr> owner, ByRef<::System::IntPtr> group, ByRef<::System::IntPtr> dacl, ByRef<::System::IntPtr> sacl, ByRef<::System::IntPtr> descriptor);
     // public System.IAsyncResult BeginInvoke(System.Security.AccessControl.SecurityInfos securityInfos, out System.IntPtr owner, out System.IntPtr group, out System.IntPtr dacl, out System.IntPtr sacl, out System.IntPtr descriptor, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BD9C88
+    // Offset: 0x1BE8454
     ::System::IAsyncResult* BeginInvoke(::System::Security::AccessControl::SecurityInfos securityInfos, ByRef<::System::IntPtr> owner, ByRef<::System::IntPtr> group, ByRef<::System::IntPtr> dacl, ByRef<::System::IntPtr> sacl, ByRef<::System::IntPtr> descriptor, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(out System.IntPtr owner, out System.IntPtr group, out System.IntPtr dacl, out System.IntPtr sacl, out System.IntPtr descriptor, System.IAsyncResult result)
-    // Offset: 0x1BD9DAC
+    // Offset: 0x1BE8578
     int EndInvoke(ByRef<::System::IntPtr> owner, ByRef<::System::IntPtr> group, ByRef<::System::IntPtr> dacl, ByRef<::System::IntPtr> sacl, ByRef<::System::IntPtr> descriptor, ::System::IAsyncResult* result);
   }; // System.Security.AccessControl.NativeObjectSecurity/System.Security.AccessControl.GetSecurityInfoNativeCall
   #pragma pack(pop)

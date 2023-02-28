@@ -267,17 +267,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 deviceGpuClockLevel
     [[deprecated("Use field access instead!")]] int& dyn_deviceGpuClockLevel();
     // public System.Void .ctor()
-    // Offset: 0x25337A0
+    // Offset: 0x2543F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSystemPerfMetrics::PerfMetrics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics::PerfMetrics*, creationType>()));
     }
     // public System.String ToJSON()
-    // Offset: 0x2533330
+    // Offset: 0x2543B04
     ::StringW ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x253381C
+    // Offset: 0x2543FF0
     bool LoadFromJSON(::StringW json);
   }; // OVRSystemPerfMetrics/PerfMetrics
   #pragma pack(pop)

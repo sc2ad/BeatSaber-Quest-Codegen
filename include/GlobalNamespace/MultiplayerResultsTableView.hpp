@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112D818
+    // [SpaceAttribute] Offset: 0x1132668
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0x112D8C0
+    // [HeaderAttribute] Offset: 0x1132710
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -189,21 +189,21 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0x112D92C
+    // [InjectAttribute] Offset: 0x113277C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     ::Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(::Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x112D93C
+    // [InjectAttribute] Offset: 0x113278C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x112D94C
+    // [InjectAttribute] Offset: 0x113279C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -304,47 +304,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Void .ctor()
-    // Offset: 0x14FCA44
+    // Offset: 0x142C138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x14FB7E8
+    // Offset: 0x142AEDC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x14FB7F0
+    // Offset: 0x142AEE4
     int NumberOfCells();
     // protected System.Void Awake()
-    // Offset: 0x14FB860
+    // Offset: 0x142AF54
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14FB8C0
+    // Offset: 0x142AFB4
     void OnDestroy();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x14FB958
+    // Offset: 0x142B04C
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x14FBDB8
+    // Offset: 0x142B4AC
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0x14FC068
+    // Offset: 0x142B75C
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0x14FC8EC
+    // Offset: 0x142BFE0
     ::System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0x14FC998
+    // Offset: 0x142C08C
     ::System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
     // private System.Void <StartAnimation>b__30_1()
-    // Offset: 0x14FCA60
+    // Offset: 0x142C154
     void $StartAnimation$b__30_1();
     // private System.Void <StartAnimation>b__30_4()
-    // Offset: 0x14FCA94
+    // Offset: 0x142C188
     void $StartAnimation$b__30_4();
     // private System.Void <StartAnimation>b__30_5(System.Single val)
-    // Offset: 0x14FCAC8
+    // Offset: 0x142C1BC
     void $StartAnimation$b__30_5(float val);
   }; // MultiplayerResultsTableView
   #pragma pack(pop)

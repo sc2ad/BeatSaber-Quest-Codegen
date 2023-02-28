@@ -59,22 +59,22 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Type> _typeOrder
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Type*>*& dyn__typeOrder();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Type> typeOrder)
-    // Offset: 0x1E9C4CC
+    // Offset: 0x1EACC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ExecutionOrderInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionOrderInstaller*, creationType>(typeOrder)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1E9C644
+    // Offset: 0x1EACDE4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // public override System.Void InstallBindings()
-    // Offset: 0x1E9C530
+    // Offset: 0x1EACCD0
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1E9C708
+    // Offset: 0x1EACEA8
     // Implemented from: Zenject.Installer`2
     // Base method: Zenject.InjectTypeInfo Installer_2::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo InstallerBase::__zenCreateInjectTypeInfo()

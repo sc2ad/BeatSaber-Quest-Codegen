@@ -104,29 +104,29 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private Mono.Security.X509.X509Store store
     [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509Store*& dyn_store();
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x1C8C510
+    // Offset: 0x1C9CCDC
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x1C90B18
+    // Offset: 0x1CA12E4
     ::Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x1C90B34
+    // Offset: 0x1CA1300
     ::Mono::Security::X509::X509Store* get_Store();
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x1C8C84C
+    // Offset: 0x1C9D018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Void Close()
-    // Offset: 0x1C8C240
+    // Offset: 0x1C9CA0C
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1C90B3C
+    // Offset: 0x1CA1308
     void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x1C8C988
+    // Offset: 0x1C9D154
     void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)

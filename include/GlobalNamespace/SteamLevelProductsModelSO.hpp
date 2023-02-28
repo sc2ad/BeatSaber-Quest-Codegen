@@ -74,23 +74,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,SteamLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public SteamLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x13BB55C
+    // Offset: 0x139857C
     ::ArrayW<::GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public System.Void .ctor()
-    // Offset: 0x13BB7BC
+    // Offset: 0x13987DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamLevelProductsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamLevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamLevelProductsModelSO*, creationType>()));
     }
     // public SteamLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x13BB6BC
+    // Offset: 0x13986DC
     ::GlobalNamespace::SteamLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public SteamLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x13BB73C
+    // Offset: 0x139875C
     ::GlobalNamespace::SteamLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0x13BB564
+    // Offset: 0x1398584
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

@@ -68,39 +68,39 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger[] si
     [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>& dyn_si();
     // public System.Boolean get_IsKoblitz()
-    // Offset: 0x235FB04
+    // Offset: 0x23712D8
     bool get_IsKoblitz();
     // protected System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x235F278
+    // Offset: 0x2370A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractF2mCurve* New_ctor(int m, int k1, int k2, int k3) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::AbstractF2mCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractF2mCurve*, creationType>(m, k1, k2, k3)));
     }
     // static private Org.BouncyCastle.Math.Field.IFiniteField BuildField(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x235F0AC
+    // Offset: 0x2370880
     static ::Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int m, int k1, int k2, int k3);
     // Org.BouncyCastle.Math.EC.ECFieldElement SolveQuadraticEquation(Org.BouncyCastle.Math.EC.ECFieldElement beta)
-    // Offset: 0x235F744
+    // Offset: 0x2370F18
     ::Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(::Org::BouncyCastle::Math::EC::ECFieldElement* beta);
     // Org.BouncyCastle.Math.BigInteger[] GetSi()
-    // Offset: 0x235FA34
+    // Offset: 0x2371208
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GetSi();
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, System.Int32 m)
-    // Offset: 0x235F4D8
+    // Offset: 0x2370CAC
     static ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, int m);
     // public override Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
-    // Offset: 0x235F2B8
+    // Offset: 0x2370A8C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
     ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x235F440
+    // Offset: 0x2370C14
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
     // protected override Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0x235F51C
+    // Offset: 0x2370CF0
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);

@@ -72,28 +72,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: readonly System.Int32 type
     [[deprecated("Use field access instead!")]] int& dyn_type();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1TaggedObject obj)
-    // Offset: 0x1F9DCC0
+    // Offset: 0x1FAF460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::DistributionPointName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DistributionPointName*, creationType>(obj)));
     }
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x1F9D718
+    // Offset: 0x1FAEEB8
     static ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // static public Org.BouncyCastle.Asn1.X509.DistributionPointName GetInstance(System.Object obj)
-    // Offset: 0x1F9DB40
+    // Offset: 0x1FAF2E0
     static ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Il2CppObject* obj);
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x1F9DECC
+    // Offset: 0x1FAF66C
     void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1F9DD1C
+    // Offset: 0x1FAF4BC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1F9DD98
+    // Offset: 0x1FAF538
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

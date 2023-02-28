@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Collider,HoudiniEngineUnity.Test_Collider> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Collider*, ::HoudiniEngineUnity::Test_Collider*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A6760C
+    // Offset: 0x1A74554
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A67670
+    // Offset: 0x1A745B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Collider_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Collider_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Collider_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_Collider <ToTestObject>b__1_0(UnityEngine.Collider lod)
-    // Offset: 0x1A67678
+    // Offset: 0x1A745C0
     ::HoudiniEngineUnity::Test_Collider* $ToTestObject$b__1_0(::UnityEngine::Collider* lod);
     // HoudiniEngineUnity.Test_Collider <ToTestObject>b__2_0(UnityEngine.Collider lod)
-    // Offset: 0x1A676DC
+    // Offset: 0x1A74624
     ::HoudiniEngineUnity::Test_Collider* $ToTestObject$b__2_0(::UnityEngine::Collider* lod);
   }; // HoudiniEngineUnity.Test_Collider_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

@@ -35,17 +35,17 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Oculus.Platform.Callback <>9__6_0
     static void _set_$$9__6_0(::Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x155E510
+    // Offset: 0x15BE2B4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x155E574
+    // Offset: 0x15BE318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusInit::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusInit::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusInit::$$c*, creationType>()));
     }
     // System.Void <InitCallback>b__6_0(Oculus.Platform.Message message)
-    // Offset: 0x155E57C
+    // Offset: 0x15BE320
     void $InitCallback$b__6_0(::Oculus::Platform::Message* message);
   }; // OculusInit/<>c
   #pragma pack(pop)

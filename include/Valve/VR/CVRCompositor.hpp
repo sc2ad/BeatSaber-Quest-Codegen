@@ -78,140 +78,140 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRCompositor FnTable
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRCompositor& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1C79F4C
+    // Offset: 0x1C89718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRCompositor* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRCompositor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRCompositor*, creationType>(pInterface)));
     }
     // public System.Void SetTrackingSpace(Valve.VR.ETrackingUniverseOrigin eOrigin)
-    // Offset: 0x1C7A054
+    // Offset: 0x1C89820
     void SetTrackingSpace(::Valve::VR::ETrackingUniverseOrigin eOrigin);
     // public Valve.VR.ETrackingUniverseOrigin GetTrackingSpace()
-    // Offset: 0x1C7A070
+    // Offset: 0x1C8983C
     ::Valve::VR::ETrackingUniverseOrigin GetTrackingSpace();
     // public Valve.VR.EVRCompositorError WaitGetPoses(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, Valve.VR.TrackedDevicePose_t[] pGamePoseArray)
-    // Offset: 0x1C7A08C
+    // Offset: 0x1C89858
     ::Valve::VR::EVRCompositorError WaitGetPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::Valve::VR::TrackedDevicePose_t> pGamePoseArray);
     // public Valve.VR.EVRCompositorError GetLastPoses(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, Valve.VR.TrackedDevicePose_t[] pGamePoseArray)
-    // Offset: 0x1C7A0C0
+    // Offset: 0x1C8988C
     ::Valve::VR::EVRCompositorError GetLastPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::Valve::VR::TrackedDevicePose_t> pGamePoseArray);
     // public Valve.VR.EVRCompositorError GetLastPoseForTrackedDeviceIndex(System.UInt32 unDeviceIndex, ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pOutputGamePose)
-    // Offset: 0x1C7A0F4
+    // Offset: 0x1C898C0
     ::Valve::VR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, ByRef<::Valve::VR::TrackedDevicePose_t> pOutputPose, ByRef<::Valve::VR::TrackedDevicePose_t> pOutputGamePose);
     // public Valve.VR.EVRCompositorError Submit(Valve.VR.EVREye eEye, ref Valve.VR.Texture_t pTexture, ref Valve.VR.VRTextureBounds_t pBounds, Valve.VR.EVRSubmitFlags nSubmitFlags)
-    // Offset: 0x1C7A110
+    // Offset: 0x1C898DC
     ::Valve::VR::EVRCompositorError Submit(::Valve::VR::EVREye eEye, ByRef<::Valve::VR::Texture_t> pTexture, ByRef<::Valve::VR::VRTextureBounds_t> pBounds, ::Valve::VR::EVRSubmitFlags nSubmitFlags);
     // public System.Void ClearLastSubmittedFrame()
-    // Offset: 0x1C7A12C
+    // Offset: 0x1C898F8
     void ClearLastSubmittedFrame();
     // public System.Void PostPresentHandoff()
-    // Offset: 0x1C7A148
+    // Offset: 0x1C89914
     void PostPresentHandoff();
     // public System.Boolean GetFrameTiming(ref Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
-    // Offset: 0x1C7A164
+    // Offset: 0x1C89930
     bool GetFrameTiming(ByRef<::Valve::VR::Compositor_FrameTiming> pTiming, uint unFramesAgo);
     // public System.UInt32 GetFrameTimings(ref Valve.VR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
-    // Offset: 0x1C7A180
+    // Offset: 0x1C8994C
     uint GetFrameTimings(ByRef<::Valve::VR::Compositor_FrameTiming> pTiming, uint nFrames);
     // public System.Single GetFrameTimeRemaining()
-    // Offset: 0x1C7A19C
+    // Offset: 0x1C89968
     float GetFrameTimeRemaining();
     // public System.Void GetCumulativeStats(ref Valve.VR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)
-    // Offset: 0x1C7A1B8
+    // Offset: 0x1C89984
     void GetCumulativeStats(ByRef<::Valve::VR::Compositor_CumulativeStats> pStats, uint nStatsSizeInBytes);
     // public System.Void FadeToColor(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)
-    // Offset: 0x1C7A1D4
+    // Offset: 0x1C899A0
     void FadeToColor(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground);
     // public Valve.VR.HmdColor_t GetCurrentFadeColor(System.Boolean bBackground)
-    // Offset: 0x1C7A1F4
+    // Offset: 0x1C899C0
     ::Valve::VR::HmdColor_t GetCurrentFadeColor(bool bBackground);
     // public System.Void FadeGrid(System.Single fSeconds, System.Boolean bFadeIn)
-    // Offset: 0x1C7A214
+    // Offset: 0x1C899E0
     void FadeGrid(float fSeconds, bool bFadeIn);
     // public System.Single GetCurrentGridAlpha()
-    // Offset: 0x1C7A234
+    // Offset: 0x1C89A00
     float GetCurrentGridAlpha();
     // public Valve.VR.EVRCompositorError SetSkyboxOverride(Valve.VR.Texture_t[] pTextures)
-    // Offset: 0x1C7A250
+    // Offset: 0x1C89A1C
     ::Valve::VR::EVRCompositorError SetSkyboxOverride(::ArrayW<::Valve::VR::Texture_t> pTextures);
     // public System.Void ClearSkyboxOverride()
-    // Offset: 0x1C7A278
+    // Offset: 0x1C89A44
     void ClearSkyboxOverride();
     // public System.Void CompositorBringToFront()
-    // Offset: 0x1C7A294
+    // Offset: 0x1C89A60
     void CompositorBringToFront();
     // public System.Void CompositorGoToBack()
-    // Offset: 0x1C7A2B0
+    // Offset: 0x1C89A7C
     void CompositorGoToBack();
     // public System.Void CompositorQuit()
-    // Offset: 0x1C7A2CC
+    // Offset: 0x1C89A98
     void CompositorQuit();
     // public System.Boolean IsFullscreen()
-    // Offset: 0x1C7A2E8
+    // Offset: 0x1C89AB4
     bool IsFullscreen();
     // public System.UInt32 GetCurrentSceneFocusProcess()
-    // Offset: 0x1C7A304
+    // Offset: 0x1C89AD0
     uint GetCurrentSceneFocusProcess();
     // public System.UInt32 GetLastFrameRenderer()
-    // Offset: 0x1C7A320
+    // Offset: 0x1C89AEC
     uint GetLastFrameRenderer();
     // public System.Boolean CanRenderScene()
-    // Offset: 0x1C7A33C
+    // Offset: 0x1C89B08
     bool CanRenderScene();
     // public System.Void ShowMirrorWindow()
-    // Offset: 0x1C7A358
+    // Offset: 0x1C89B24
     void ShowMirrorWindow();
     // public System.Void HideMirrorWindow()
-    // Offset: 0x1C7A374
+    // Offset: 0x1C89B40
     void HideMirrorWindow();
     // public System.Boolean IsMirrorWindowVisible()
-    // Offset: 0x1C7A390
+    // Offset: 0x1C89B5C
     bool IsMirrorWindowVisible();
     // public System.Void CompositorDumpImages()
-    // Offset: 0x1C7A3AC
+    // Offset: 0x1C89B78
     void CompositorDumpImages();
     // public System.Boolean ShouldAppRenderWithLowResources()
-    // Offset: 0x1C7A3C8
+    // Offset: 0x1C89B94
     bool ShouldAppRenderWithLowResources();
     // public System.Void ForceInterleavedReprojectionOn(System.Boolean bOverride)
-    // Offset: 0x1C7A3E4
+    // Offset: 0x1C89BB0
     void ForceInterleavedReprojectionOn(bool bOverride);
     // public System.Void ForceReconnectProcess()
-    // Offset: 0x1C7A404
+    // Offset: 0x1C89BD0
     void ForceReconnectProcess();
     // public System.Void SuspendRendering(System.Boolean bSuspend)
-    // Offset: 0x1C7A420
+    // Offset: 0x1C89BEC
     void SuspendRendering(bool bSuspend);
     // public Valve.VR.EVRCompositorError GetMirrorTextureD3D11(Valve.VR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView)
-    // Offset: 0x1C7A440
+    // Offset: 0x1C89C0C
     ::Valve::VR::EVRCompositorError GetMirrorTextureD3D11(::Valve::VR::EVREye eEye, ::System::IntPtr pD3D11DeviceOrResource, ByRef<::System::IntPtr> ppD3D11ShaderResourceView);
     // public System.Void ReleaseMirrorTextureD3D11(System.IntPtr pD3D11ShaderResourceView)
-    // Offset: 0x1C7A45C
+    // Offset: 0x1C89C28
     void ReleaseMirrorTextureD3D11(::System::IntPtr pD3D11ShaderResourceView);
     // public Valve.VR.EVRCompositorError GetMirrorTextureGL(Valve.VR.EVREye eEye, ref System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle)
-    // Offset: 0x1C7A478
+    // Offset: 0x1C89C44
     ::Valve::VR::EVRCompositorError GetMirrorTextureGL(::Valve::VR::EVREye eEye, ByRef<uint> pglTextureId, ::System::IntPtr pglSharedTextureHandle);
     // public System.Boolean ReleaseSharedGLTexture(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle)
-    // Offset: 0x1C7A498
+    // Offset: 0x1C89C64
     bool ReleaseSharedGLTexture(uint glTextureId, ::System::IntPtr glSharedTextureHandle);
     // public System.Void LockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
-    // Offset: 0x1C7A4B4
+    // Offset: 0x1C89C80
     void LockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
     // public System.Void UnlockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
-    // Offset: 0x1C7A4D0
+    // Offset: 0x1C89C9C
     void UnlockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
     // public System.UInt32 GetVulkanInstanceExtensionsRequired(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1C7A4EC
+    // Offset: 0x1C89CB8
     uint GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt32 GetVulkanDeviceExtensionsRequired(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
-    // Offset: 0x1C7A508
+    // Offset: 0x1C89CD4
     uint GetVulkanDeviceExtensionsRequired(::System::IntPtr pPhysicalDevice, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.Void SetExplicitTimingMode(Valve.VR.EVRCompositorTimingMode eTimingMode)
-    // Offset: 0x1C7A524
+    // Offset: 0x1C89CF0
     void SetExplicitTimingMode(::Valve::VR::EVRCompositorTimingMode eTimingMode);
     // public Valve.VR.EVRCompositorError SubmitExplicitTimingData()
-    // Offset: 0x1C7A540
+    // Offset: 0x1C89D0C
     ::Valve::VR::EVRCompositorError SubmitExplicitTimingData();
   }; // Valve.VR.CVRCompositor
   #pragma pack(pop)

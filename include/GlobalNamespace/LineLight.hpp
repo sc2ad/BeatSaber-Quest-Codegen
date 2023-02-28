@@ -72,35 +72,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x1CDA4AC
+    // Offset: 0x1CEBC28
     ::UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x1CDA4B8
+    // Offset: 0x1CEBC34
     ::UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CDA4C4
+    // Offset: 0x1CEBC40
     ::UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x1CDA4D0
+    // Offset: 0x1CEBC4C
     static ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* get_lineLights();
     // public System.Void .ctor()
-    // Offset: 0x1CDA6D4
+    // Offset: 0x1CEBE50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LineLight* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LineLight::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LineLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CDA6DC
+    // Offset: 0x1CEBE58
     static void _cctor();
     // protected System.Void OnEnable()
-    // Offset: 0x1CDA538
+    // Offset: 0x1CEBCB4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1CDA5BC
+    // Offset: 0x1CEBD38
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1CDA640
+    // Offset: 0x1CEBDBC
     void OnDrawGizmos();
   }; // LineLight
   #pragma pack(pop)

@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<LightGroupSO> lightGroups
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& dyn_lightGroups();
     // public System.Void .ctor()
-    // Offset: 0x1CD7804
+    // Offset: 0x1CE8F80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightGroupEditorPrefabContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightGroupEditorPrefabContext::.ctor");

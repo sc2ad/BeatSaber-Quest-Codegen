@@ -77,32 +77,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <animating>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$animating$k__BackingField();
     // public System.Boolean get_animating()
-    // Offset: 0x144427C
+    // Offset: 0x144BB50
     bool get_animating();
     // private System.Void set_animating(System.Boolean value)
-    // Offset: 0x1444284
+    // Offset: 0x144BB58
     void set_animating(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1444528
+    // Offset: 0x144BDFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutAnimateEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutoutAnimateEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutAnimateEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1444290
+    // Offset: 0x144BB64
     void Start();
     // private System.Collections.IEnumerator AnimateToCutoutCoroutine(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x1444310
+    // Offset: 0x144BBE4
     ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float cutoutStart, float cutoutEnd, float duration);
     // private System.Void SetCutout(System.Single cutout)
-    // Offset: 0x1444298
+    // Offset: 0x144BB6C
     void SetCutout(float cutout);
     // public System.Void ResetEffect()
-    // Offset: 0x1444498
+    // Offset: 0x144BD6C
     void ResetEffect();
     // public System.Void AnimateCutout(System.Single cutoutStart, System.Single cutoutEnd, System.Single duration)
-    // Offset: 0x14444C8
+    // Offset: 0x144BD9C
     void AnimateCutout(float cutoutStart, float cutoutEnd, float duration);
   }; // CutoutAnimateEffect
   #pragma pack(pop)

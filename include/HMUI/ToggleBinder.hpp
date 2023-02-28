@@ -80,39 +80,39 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     [[deprecated("Use field access instead!")]] bool& dyn__enabled();
     // public System.Void .ctor()
-    // Offset: 0x1703ECC
+    // Offset: 0x1712EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder*, creationType>()));
     }
     // public System.Void .ctor(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x1703F64
+    // Offset: 0x1712F84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ToggleBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleBinder*, creationType>(bindingData)));
     }
     // private System.Void Init()
-    // Offset: 0x1703EFC
+    // Offset: 0x1712F1C
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,System.Action`1<System.Boolean>>> bindingData)
-    // Offset: 0x1703FA4
+    // Offset: 0x1712FC4
     void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Action`1<System.Boolean> action)
-    // Offset: 0x17040AC
+    // Offset: 0x17130CC
     void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
     // public System.Void AddBinding(UnityEngine.UI.Toggle toggle, System.Boolean enabled, System.Action action)
-    // Offset: 0x170416C
+    // Offset: 0x171318C
     void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1704264
+    // Offset: 0x1713284
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x17043FC
+    // Offset: 0x171341C
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x1704584
+    // Offset: 0x17135A4
     void Enable();
   }; // HMUI.ToggleBinder
   #pragma pack(pop)

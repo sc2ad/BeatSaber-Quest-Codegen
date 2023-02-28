@@ -72,14 +72,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1127F40
+    // [SpaceAttribute] Offset: 0x112CD80
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1127F78
+    // [SpaceAttribute] Offset: 0x112CDB8
     // private SelectLanguageViewController _selectLanguageViewController
     // Size: 0x8
     // Offset: 0xB8
@@ -110,35 +110,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::HealthWarningViewController* healthWarningViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HealthWarningViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1127FF0
+    // [InjectAttribute] Offset: 0x112CE30
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xE0
     ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128000
+    // [InjectAttribute] Offset: 0x112CE40
     // private readonly DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0xE8
     ::GlobalNamespace::DlcPromoPanelModel* dlcPromoPanelModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128010
+    // [InjectAttribute] Offset: 0x112CE50
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xF0
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128020
+    // [InjectAttribute] Offset: 0x112CE60
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xF8
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128030
+    // [InjectAttribute] Offset: 0x112CE70
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0x100
@@ -187,54 +187,54 @@ namespace GlobalNamespace {
     // Get instance field reference: private SelectRegionViewController/Region _selectedRegion
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SelectRegionViewController::Region& dyn__selectedRegion();
     // public System.Void .ctor()
-    // Offset: 0x13D1EEC
+    // Offset: 0x13ACBA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningFlowCoordinator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningFlowCoordinator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningFlowCoordinator*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x13D1A2C
+    // Offset: 0x13AC6E4
     void Update();
     // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
-    // Offset: 0x13D1B08
+    // Offset: 0x13AC7C0
     void HandleSelectLanguageViewControllerDidChangeLanguage();
     // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
-    // Offset: 0x13D1B90
+    // Offset: 0x13AC848
     void HandleSelectLanguageViewControllerDidPressContinueButton();
     // private System.Void HandleSelectRegionViewControllerDidPressContinueButton(SelectRegionViewController/Region region)
-    // Offset: 0x13D1BE8
+    // Offset: 0x13AC8A0
     void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::SelectRegionViewController::Region region);
     // private System.Void HandleEulaViewControllerDidFinish(EulaViewController/ButtonType buttonType)
-    // Offset: 0x13D1D9C
+    // Offset: 0x13ACA54
     void HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController::ButtonType buttonType);
     // private System.Void HandlePrivacyPolicyViewControllerDidFinish(PrivacyPolicyViewController/ButtonType buttonType)
-    // Offset: 0x13D1E28
+    // Offset: 0x13ACAE0
     void HandlePrivacyPolicyViewControllerDidFinish(::GlobalNamespace::PrivacyPolicyViewController::ButtonType buttonType);
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0x13D1A68
+    // Offset: 0x13AC720
     void HandleHealthWarningViewControllerDidFinish();
     // private HMUI.ViewController ResolveMainViewController()
-    // Offset: 0x13D1698
+    // Offset: 0x13AC350
     ::HMUI::ViewController* ResolveMainViewController();
     // private HMUI.ViewController ResolvePlayerAgreementsViewController()
-    // Offset: 0x13D1C24
+    // Offset: 0x13AC8DC
     ::HMUI::ViewController* ResolvePlayerAgreementsViewController();
     // private System.Void GoToNextScene()
-    // Offset: 0x13D1E8C
+    // Offset: 0x13ACB44
     void GoToNextScene();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13D1280
+    // Offset: 0x13ABF38
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13D16F8
+    // Offset: 0x13AC3B0
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
-    // Offset: 0x13D1998
+    // Offset: 0x13AC650
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/HMUI.AnimationType animationType)
     void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController::AnimationType animationType);

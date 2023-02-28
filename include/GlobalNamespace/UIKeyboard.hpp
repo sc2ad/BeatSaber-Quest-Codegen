@@ -127,56 +127,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hideCancelButton
     [[deprecated("Use field access instead!")]] bool& dyn__hideCancelButton();
     // public System.Void set_enableOkButtonInteractivity(System.Boolean value)
-    // Offset: 0x16502AC
+    // Offset: 0x15329B8
     void set_enableOkButtonInteractivity(bool value);
     // public System.Void set_hideCancelButton(System.Boolean value)
-    // Offset: 0x165035C
+    // Offset: 0x1532A68
     void set_hideCancelButton(bool value);
     // public System.Void add_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x164FD8C
+    // Offset: 0x1532498
     void add_textKeyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_textKeyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x164FE30
+    // Offset: 0x153253C
     void remove_textKeyWasPressedEvent(::System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x164FED4
+    // Offset: 0x15325E0
     void add_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x164FF78
+    // Offset: 0x1532684
     void remove_deleteButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x165001C
+    // Offset: 0x1532728
     void add_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x16500C0
+    // Offset: 0x15327CC
     void remove_okButtonWasPressedEvent(::System::Action* value);
     // public System.Void add_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1650164
+    // Offset: 0x1532870
     void add_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void remove_cancelButtonWasPressedEvent(System.Action value)
-    // Offset: 0x1650208
+    // Offset: 0x1532914
     void remove_cancelButtonWasPressedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1650EE4
+    // Offset: 0x15335F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x165041C
+    // Offset: 0x1532B28
     void Awake();
     // private System.Void <Awake>b__21_0()
-    // Offset: 0x1650EEC
+    // Offset: 0x15335F8
     void $Awake$b__21_0();
     // private System.Void <Awake>b__21_1()
-    // Offset: 0x1650F00
+    // Offset: 0x153360C
     void $Awake$b__21_1();
     // private System.Void <Awake>b__21_2()
-    // Offset: 0x1650F1C
+    // Offset: 0x1533628
     void $Awake$b__21_2();
     // private System.Void <Awake>b__21_3()
-    // Offset: 0x1650F38
+    // Offset: 0x1533644
     void $Awake$b__21_3();
   }; // UIKeyboard
   #pragma pack(pop)

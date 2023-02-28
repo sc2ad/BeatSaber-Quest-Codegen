@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public PromoViewController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PromoViewController*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x1429C5C
+    // Offset: 0x145DB88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PromoViewController::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PromoViewController::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController::$$c__DisplayClass5_0*, creationType>()));
     }
     // System.Void <DidActivate>b__0()
-    // Offset: 0x1429C6C
+    // Offset: 0x145DB98
     void $DidActivate$b__0();
   }; // PromoViewController/<>c__DisplayClass5_0
   #pragma pack(pop)

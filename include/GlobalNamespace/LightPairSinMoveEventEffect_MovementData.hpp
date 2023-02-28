@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single side
     [[deprecated("Use field access instead!")]] float& dyn_side();
     // public System.Void .ctor()
-    // Offset: 0x151EB58
+    // Offset: 0x1554DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairSinMoveEventEffect::MovementData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairSinMoveEventEffect::MovementData::.ctor");

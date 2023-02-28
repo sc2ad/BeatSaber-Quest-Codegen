@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetPlayersPermissionConfigurationRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x175335C
+    // Offset: 0x176237C
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

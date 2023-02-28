@@ -138,7 +138,7 @@ namespace GlobalNamespace {
     static ::StringW _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x111C678
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1121420
     // Get static field: static private readonly System.Version lastVersionWithoutSavedCustomColorSchemeBoostColors
     static ::System::Version* _get_lastVersionWithoutSavedCustomColorSchemeBoostColors();
     // Set static field: static private readonly System.Version lastVersionWithoutSavedCustomColorSchemeBoostColors
@@ -162,47 +162,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Version _eulaUpdateVersion
     [[deprecated("Use field access instead!")]] ::System::Version*& dyn__eulaUpdateVersion();
     // public System.Void .ctor()
-    // Offset: 0x1588004
+    // Offset: 0x15AB528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerDataFileManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerDataFileManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerDataFileManagerSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1588098
+    // Offset: 0x15AB5BC
     static void _cctor();
     // public System.Void Save(PlayerData playerData)
-    // Offset: 0x1584E38
+    // Offset: 0x15A8728
     void Save(::GlobalNamespace::PlayerData* playerData);
     // public PlayerData Load()
-    // Offset: 0x1585ED8
+    // Offset: 0x15A97C8
     ::GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
-    // Offset: 0x1585FB4
+    // Offset: 0x15A98A4
     ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
-    // Offset: 0x1586AB8
+    // Offset: 0x15AA358
     ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
     // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
-    // Offset: 0x158621C
+    // Offset: 0x15A9B0C
     ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
     // public PlayerData CreateDefaultPlayerData()
-    // Offset: 0x1586150
+    // Offset: 0x15A9A40
     ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1587F7C
+    // Offset: 0x15AB4A0
     static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
-    // Offset: 0x1587E48
+    // Offset: 0x15AB36C
     static ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
-    // Offset: 0x15879A4
+    // Offset: 0x15AB140
     ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentName)
-    // Offset: 0x1587FE8
+    // Offset: 0x15AB50C
     ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
     // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
-    // Offset: 0x1587A70
+    // Offset: 0x15AB20C
     ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
   }; // PlayerDataFileManagerSO
   #pragma pack(pop)

@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomPrePassBackgroundColor*& dyn__bloomPrePassBackgroundColor();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CD0AF0
+    // Offset: 0x1CE226C
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x1CD0B30
+    // Offset: 0x1CE22AC
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color newColor)
-    // Offset: 0x1CD0B10
+    // Offset: 0x1CE228C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color newColor)
     void ColorWasSet(::UnityEngine::Color newColor);

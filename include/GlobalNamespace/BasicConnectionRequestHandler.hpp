@@ -61,23 +61,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <secret>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$secret$k__BackingField();
     // public System.String get_secret()
-    // Offset: 0x15F54C4
+    // Offset: 0x16163CC
     ::StringW get_secret();
     // public System.Void set_secret(System.String value)
-    // Offset: 0x15F54CC
+    // Offset: 0x16163D4
     void set_secret(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x15F5608
+    // Offset: 0x1616510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicConnectionRequestHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicConnectionRequestHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicConnectionRequestHandler*, creationType>()));
     }
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x15F54D4
+    // Offset: 0x16163DC
     void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
-    // Offset: 0x15F5548
+    // Offset: 0x1616450
     bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // BasicConnectionRequestHandler
   #pragma pack(pop)

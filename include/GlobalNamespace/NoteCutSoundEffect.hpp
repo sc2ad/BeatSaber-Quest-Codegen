@@ -287,44 +287,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> _didFinishEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& dyn__didFinishEvent();
     // public ILazyCopyHashSet`1<INoteCutSoundEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x150C6BC
+    // Offset: 0x143BE74
     ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Single get_volumeMultiplier()
-    // Offset: 0x150C6CC
+    // Offset: 0x143BE84
     float get_volumeMultiplier();
     // public System.Void set_volumeMultiplier(System.Single value)
-    // Offset: 0x150C6C4
+    // Offset: 0x143BE7C
     void set_volumeMultiplier(float value);
     // public System.Single get_time()
-    // Offset: 0x150C6D4
+    // Offset: 0x143BE8C
     float get_time();
     // public System.Void .ctor()
-    // Offset: 0x150D044
+    // Offset: 0x143C7FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x150C704
+    // Offset: 0x143BEBC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x150C784
+    // Offset: 0x143BF3C
     void Start();
     // public System.Void Init(UnityEngine.AudioClip audioClip, NoteController noteController, System.Double noteDSPTime, System.Single aheadTime, System.Single missedTimeOffset, System.Single timeToPrevNote, System.Single timeToNextNote, Saber saber, System.Boolean handleWrongSaberTypeAsGood, System.Single volumeMultiplier, System.Boolean ignoreSaberSpeed, System.Boolean ignoreBadCuts)
-    // Offset: 0x150C7A4
+    // Offset: 0x143BF5C
     void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double noteDSPTime, float aheadTime, float missedTimeOffset, float timeToPrevNote, float timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
     // private System.Void ComputeDSPTimes(System.Double noteDSPTime, System.Single aheadTime, System.Single timeToPrevNote, System.Single timeToNextNote)
-    // Offset: 0x150C964
+    // Offset: 0x143C11C
     void ComputeDSPTimes(double noteDSPTime, float aheadTime, float timeToPrevNote, float timeToNextNote);
     // protected System.Void LateUpdate()
-    // Offset: 0x150CA64
+    // Offset: 0x143C21C
     void LateUpdate();
     // public System.Void StopPlayingAndFinish()
-    // Offset: 0x150CC98
+    // Offset: 0x143C450
     void StopPlayingAndFinish();
     // public System.Void NoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x150CE34
+    // Offset: 0x143C5EC
     void NoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
   }; // NoteCutSoundEffect
   #pragma pack(pop)

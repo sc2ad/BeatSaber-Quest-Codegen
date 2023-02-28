@@ -51,20 +51,20 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // public System.Void .ctor()
-    // Offset: 0x1F7CF88
+    // Offset: 0x1F8E728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LegacyResourcesProvider::InternalOp* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LegacyResourcesProvider::InternalOp*, creationType>()));
     }
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x1F7CF90
+    // Offset: 0x1F8E730
     void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Void AsyncOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x1F7D1E8
+    // Offset: 0x1F8E988
     void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
     // public System.Single PercentComplete()
-    // Offset: 0x1F7D34C
+    // Offset: 0x1F8EAEC
     float PercentComplete();
   }; // UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
   #pragma pack(pop)

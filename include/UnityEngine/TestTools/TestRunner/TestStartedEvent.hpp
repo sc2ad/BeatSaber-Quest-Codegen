@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::TestRunner {
   class TestStartedEvent : public ::UnityEngine::Events::UnityEvent_1<::NUnit::Framework::Interfaces::ITest*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B746A0
+    // Offset: 0x2B87328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestStartedEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::TestStartedEvent::.ctor");

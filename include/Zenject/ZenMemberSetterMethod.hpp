@@ -38,20 +38,20 @@ namespace Zenject {
   class ZenMemberSetterMethod : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B87E74
+    // Offset: 0x2B9BAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenMemberSetterMethod* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenMemberSetterMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenMemberSetterMethod*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object obj, System.Object value)
-    // Offset: 0x2B87E84
+    // Offset: 0x2B9BB0C
     void Invoke(::Il2CppObject* obj, ::Il2CppObject* value);
     // public System.IAsyncResult BeginInvoke(System.Object obj, System.Object value, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B8826C
+    // Offset: 0x2B9BEF4
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* obj, ::Il2CppObject* value, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B8829C
+    // Offset: 0x2B9BF24
     void EndInvoke(::System::IAsyncResult* result);
   }; // Zenject.ZenMemberSetterMethod
   #pragma pack(pop)

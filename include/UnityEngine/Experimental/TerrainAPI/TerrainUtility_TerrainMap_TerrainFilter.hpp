@@ -40,20 +40,20 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainUtility::TerrainMap::TerrainFilter : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B6011C
+    // Offset: 0x2B71DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainMap::TerrainFilter* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::TerrainMap::TerrainFilter*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(UnityEngine.Terrain terrain)
-    // Offset: 0x2B60C58
+    // Offset: 0x2B728E0
     bool Invoke(::UnityEngine::Terrain* terrain);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Terrain terrain, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B61A04
+    // Offset: 0x2B7368C
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::Terrain* terrain, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B61A28
+    // Offset: 0x2B736B0
     bool EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter
   #pragma pack(pop)

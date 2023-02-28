@@ -56,13 +56,13 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HMUI::TableCell*>*& dyn__cells();
     // public System.String get_reuseIdentifier()
-    // Offset: 0x170250C
+    // Offset: 0x171152C
     ::StringW get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
-    // Offset: 0x1702514
+    // Offset: 0x1711534
     ::System::Collections::Generic::List_1<::HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
-    // Offset: 0x170251C
+    // Offset: 0x171153C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableView::CellsGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TableView::CellsGroup::.ctor");

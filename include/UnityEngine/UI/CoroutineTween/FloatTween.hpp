@@ -99,43 +99,43 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x19828C4
+    // Offset: 0x1990824
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x19828CC
+    // Offset: 0x199082C
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x19828D4
+    // Offset: 0x1990834
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x19828DC
+    // Offset: 0x199083C
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x19828E4
+    // Offset: 0x1990844
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x19828EC
+    // Offset: 0x199084C
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x19828F4
+    // Offset: 0x1990854
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x19828FC
+    // Offset: 0x199085C
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1982908
+    // Offset: 0x1990868
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x19829D8
+    // Offset: 0x1990938
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x1982AB4
+    // Offset: 0x1990A14
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x1982ABC
+    // Offset: 0x1990A1C
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x19829C8
+    // Offset: 0x1990928
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)

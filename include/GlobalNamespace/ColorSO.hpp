@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Color get_color();
     // protected System.Void .ctor()
-    // Offset: 0x2B9E25C
+    // Offset: 0x2BB1EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorSO::.ctor");

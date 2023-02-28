@@ -42,17 +42,17 @@ namespace System::Xml::Schema {
     // Set static field: static private readonly System.Xml.Schema.FacetsChecker numeric10FacetsChecker
     static void _set_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D17524
+    // Offset: 0x1D29C58
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Xml.Schema.FacetsChecker Datatype_decimal::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D1758C
+    // Offset: 0x1D29CC0
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_integer::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public System.Void .ctor()
-    // Offset: 0x1D17594
+    // Offset: 0x1D29CC8
     // Implemented from: System.Xml.Schema.Datatype_integer
     // Base method: System.Void Datatype_integer::.ctor()
     // Base method: System.Void Datatype_decimal::.ctor()
@@ -65,7 +65,7 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_nonNegativeInteger*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D17598
+    // Offset: 0x1D29CCC
     // Implemented from: System.Xml.Schema.Datatype_decimal
     // Base method: System.Void Datatype_decimal::.cctor()
     // Base method: System.Void Datatype_anySimpleType::.cctor()

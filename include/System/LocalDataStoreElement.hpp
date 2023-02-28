@@ -45,16 +45,16 @@ namespace System {
     // Get instance field reference: private System.Int64 m_cookie
     [[deprecated("Use field access instead!")]] int64_t& dyn_m_cookie();
     // public System.Object get_Value()
-    // Offset: 0x1C4AEFC
+    // Offset: 0x1C5A6C8
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x1C4AF04
+    // Offset: 0x1C5A6D0
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x1C4AF0C
+    // Offset: 0x1C5A6D8
     int64_t get_Cookie();
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x1C4AED0
+    // Offset: 0x1C5A69C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreElement::.ctor");

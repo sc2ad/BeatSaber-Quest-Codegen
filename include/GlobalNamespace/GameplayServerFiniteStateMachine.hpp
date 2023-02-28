@@ -134,55 +134,55 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean enteringState
     [[deprecated("Use field access instead!")]] bool& dyn_enteringState();
     // public BGNet.Core.ITimeProvider get_timeProvider()
-    // Offset: 0x16C699C
+    // Offset: 0x16D59BC
     ::BGNet::Core::ITimeProvider* get_timeProvider();
     // private System.Void set_timeProvider(BGNet.Core.ITimeProvider value)
-    // Offset: 0x16C69A4
+    // Offset: 0x16D59C4
     void set_timeProvider(::BGNet::Core::ITimeProvider* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x16C69AC
+    // Offset: 0x16D59CC
     ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // private System.Void set_multiplayerSessionManager(IMultiplayerSessionManager value)
-    // Offset: 0x16C69B4
+    // Offset: 0x16D59D4
     void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
-    // Offset: 0x16C69BC
+    // Offset: 0x16D59DC
     ::StringW get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
-    // Offset: 0x16C69C4
+    // Offset: 0x16D59E4
     void set_ownerUserId(::StringW value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x16C69CC
+    // Offset: 0x16D59EC
     ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // private System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x16C69E0
+    // Offset: 0x16D5A00
     void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x16C69F4
+    // Offset: 0x16D5A14
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // private System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x16C6A08
+    // Offset: 0x16D5A28
     void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
     // public IServerBeatmapProvider get_beatmapProvider()
-    // Offset: 0x16C6A1C
+    // Offset: 0x16D5A3C
     ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
     // private System.Void set_beatmapProvider(IServerBeatmapProvider value)
-    // Offset: 0x16C6A24
+    // Offset: 0x16D5A44
     void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
     // public MenuRpcManager get_menuRpcManager()
-    // Offset: 0x16C6A2C
+    // Offset: 0x16D5A4C
     ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
     // private System.Void set_menuRpcManager(MenuRpcManager value)
-    // Offset: 0x16C6A34
+    // Offset: 0x16D5A54
     void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
     // public GameplayRpcManager get_gameplayRpcManager()
-    // Offset: 0x16C6A3C
+    // Offset: 0x16D5A5C
     ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
     // private System.Void set_gameplayRpcManager(GameplayRpcManager value)
-    // Offset: 0x16C6A44
+    // Offset: 0x16D5A64
     void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
     // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x16BC5B4
+    // Offset: 0x16CB5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");

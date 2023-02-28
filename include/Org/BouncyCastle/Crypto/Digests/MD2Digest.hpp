@@ -107,57 +107,57 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int32 COff
     [[deprecated("Use field access instead!")]] int& dyn_COff();
     // public System.String get_AlgorithmName()
-    // Offset: 0x2355658
+    // Offset: 0x2366E2C
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x23553D4
+    // Offset: 0x2366BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2Digest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x2355520
+    // Offset: 0x2366CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MD2Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD2Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::MD2Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MD2Digest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2355D30
+    // Offset: 0x2367504
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.MD2Digest t)
-    // Offset: 0x23555B8
+    // Offset: 0x2366D8C
     void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD2Digest* t);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x23556A0
+    // Offset: 0x2366E74
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x23556A8
+    // Offset: 0x2366E7C
     int GetByteLength();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23556B0
+    // Offset: 0x2366E84
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x235545C
+    // Offset: 0x2366C30
     void Reset();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x2355A7C
+    // Offset: 0x2367250
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x2355AF8
+    // Offset: 0x23672CC
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // System.Void ProcessChecksum(System.Byte[] m)
-    // Offset: 0x2355780
+    // Offset: 0x2366F54
     void ProcessChecksum(::ArrayW<uint8_t> m);
     // System.Void ProcessBlock(System.Byte[] m)
-    // Offset: 0x23558CC
+    // Offset: 0x23670A0
     void ProcessBlock(::ArrayW<uint8_t> m);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x2355C3C
+    // Offset: 0x2367410
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x2355C9C
+    // Offset: 0x2367470
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.MD2Digest
   #pragma pack(pop)

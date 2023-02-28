@@ -143,55 +143,55 @@ namespace System::Globalization {
     // Get instance field reference: private System.String m_fullNegPattern
     [[deprecated("Use field access instead!")]] ::StringW& dyn_m_fullNegPattern();
     // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals get_PositiveInvariant()
-    // Offset: 0x21CF828
+    // Offset: 0x21E0FFC
     ::System::Globalization::TimeSpanFormat::FormatLiterals get_PositiveInvariant();
     // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals get_NegativeInvariant()
-    // Offset: 0x21CF8A0
+    // Offset: 0x21E1074
     ::System::Globalization::TimeSpanFormat::FormatLiterals get_NegativeInvariant();
     // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals get_PositiveLocalized()
-    // Offset: 0x21CEF08
+    // Offset: 0x21E06DC
     ::System::Globalization::TimeSpanFormat::FormatLiterals get_PositiveLocalized();
     // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals get_NegativeLocalized()
-    // Offset: 0x21CEF70
+    // Offset: 0x21E0744
     ::System::Globalization::TimeSpanFormat::FormatLiterals get_NegativeLocalized();
     // System.Boolean FullAppCompatMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF228
+    // Offset: 0x21E09FC
     bool FullAppCompatMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean PartialAppCompatMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF544
+    // Offset: 0x21E0D18
     bool PartialAppCompatMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CEDB4
+    // Offset: 0x21E0588
     bool FullMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullDMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF70C
+    // Offset: 0x21E0EE0
     bool FullDMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullHMMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF63C
+    // Offset: 0x21E0E10
     bool FullHMMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullDHMMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF448
+    // Offset: 0x21E0C1C
     bool FullDHMMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullHMSMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF34C
+    // Offset: 0x21E0B20
     bool FullHMSMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullDHMSMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CF100
+    // Offset: 0x21E08D4
     bool FullDHMSMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Boolean FullHMSFMatch(System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals pattern)
-    // Offset: 0x21CEFD8
+    // Offset: 0x21E07AC
     bool FullHMSFMatch(::System::Globalization::TimeSpanFormat::FormatLiterals pattern);
     // System.Void Init(System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x21CB8B8
+    // Offset: 0x21DD08C
     void Init(::System::Globalization::DateTimeFormatInfo* dtfi);
     // System.Boolean ProcessToken(ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken tok, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CB964
+    // Offset: 0x21DD138
     bool ProcessToken(ByRef<::System::Globalization::TimeSpanParse::TimeSpanToken> tok, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // private System.Boolean AddSep(System.String sep, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CF924
+    // Offset: 0x21E10F8
     bool AddSep(::StringW sep, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
     // private System.Boolean AddNum(System.Globalization.TimeSpanParse/System.Globalization.TimeSpanToken num, ref System.Globalization.TimeSpanParse/System.Globalization.TimeSpanResult result)
-    // Offset: 0x21CFA1C
+    // Offset: 0x21E11F0
     bool AddNum(::System::Globalization::TimeSpanParse::TimeSpanToken num, ByRef<::System::Globalization::TimeSpanParse::TimeSpanResult> result);
   }; // System.Globalization.TimeSpanParse/System.Globalization.TimeSpanRawInfo
   #pragma pack(pop)

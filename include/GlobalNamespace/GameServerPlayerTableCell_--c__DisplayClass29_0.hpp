@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifiersList();
     // public System.Void .ctor()
-    // Offset: 0x145A008
+    // Offset: 0x1476AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableCell::$$c__DisplayClass29_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableCell::$$c__DisplayClass29_0*, creationType>()));
     }
     // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
-    // Offset: 0x145A538
+    // Offset: 0x1476FD8
     void $SetData$b__0(int id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
   }; // GameServerPlayerTableCell/<>c__DisplayClass29_0
   #pragma pack(pop)

@@ -63,19 +63,19 @@ namespace UnityEngine::ResourceManagement {
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> s_ActiveRequests
     static void _set_s_ActiveRequests(::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
     // static public System.Boolean get_ShouldQueueNextRequest()
-    // Offset: 0x1F7A970
+    // Offset: 0x1F8C110
     static bool get_ShouldQueueNextRequest();
     // static private System.Void .cctor()
-    // Offset: 0x1F818D8
+    // Offset: 0x1F93078
     static void _cctor();
     // static public System.Void SetMaxConcurrentRequests(System.Int32 maxRequests)
-    // Offset: 0x1F815B4
+    // Offset: 0x1F92D54
     static void SetMaxConcurrentRequests(int maxRequests);
     // static public UnityEngine.ResourceManagement.WebRequestQueueOperation QueueRequest(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x1F7AFF4
+    // Offset: 0x1F8C794
     static ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
     // static private System.Void OnWebAsyncOpComplete(UnityEngine.AsyncOperation operation)
-    // Offset: 0x1F8169C
+    // Offset: 0x1F92E3C
     static void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
   }; // UnityEngine.ResourceManagement.WebRequestQueue
   #pragma pack(pop)

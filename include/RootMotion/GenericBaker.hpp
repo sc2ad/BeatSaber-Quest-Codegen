@@ -44,7 +44,7 @@ namespace RootMotion {
   class GenericBaker : public ::RootMotion::Baker {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1144A30
+    // [TooltipAttribute] Offset: 0x11479A4
     // public System.Boolean markAsLegacy
     // Size: 0x1
     // Offset: 0x74
@@ -53,28 +53,28 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: markAsLegacy and: root
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0x1144A68
+    // [TooltipAttribute] Offset: 0x11479DC
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x78
     ::UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1144AA0
+    // [TooltipAttribute] Offset: 0x1147A14
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0x80
     ::UnityEngine::Transform* rootNode;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x1144AD8
+    // [TooltipAttribute] Offset: 0x1147A4C
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
     ::ArrayW<::UnityEngine::Transform*> ignoreList;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1144B10
+    // [TooltipAttribute] Offset: 0x1147A84
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
@@ -117,16 +117,16 @@ namespace RootMotion {
     // Get instance field reference: private System.Int32 rootChildIndex
     [[deprecated("Use field access instead!")]] int& dyn_rootChildIndex();
     // private System.Void Awake()
-    // Offset: 0x206BA84
+    // Offset: 0x2080258
     void Awake();
     // private System.Boolean IsIgnored(UnityEngine.Transform t)
-    // Offset: 0x206BCA0
+    // Offset: 0x2080474
     bool IsIgnored(::UnityEngine::Transform* t);
     // private System.Boolean BakePosition(UnityEngine.Transform t)
-    // Offset: 0x206BD78
+    // Offset: 0x208054C
     bool BakePosition(::UnityEngine::Transform* t);
     // public System.Void .ctor()
-    // Offset: 0x206C0DC
+    // Offset: 0x20808B0
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -135,27 +135,27 @@ namespace RootMotion {
       return THROW_UNLESS((::il2cpp_utils::New<GenericBaker*, creationType>()));
     }
     // protected override UnityEngine.Transform GetCharacterRoot()
-    // Offset: 0x206BE50
+    // Offset: 0x2080624
     // Implemented from: RootMotion.Baker
     // Base method: UnityEngine.Transform Baker::GetCharacterRoot()
     ::UnityEngine::Transform* GetCharacterRoot();
     // protected override System.Void OnStartBaking()
-    // Offset: 0x206BE58
+    // Offset: 0x208062C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnStartBaking()
     void OnStartBaking();
     // protected override System.Void OnSetLoopFrame(System.Single time)
-    // Offset: 0x206BF68
+    // Offset: 0x208073C
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetLoopFrame(System.Single time)
     void OnSetLoopFrame(float time);
     // protected override System.Void OnSetCurves(ref UnityEngine.AnimationClip clip)
-    // Offset: 0x206BFE4
+    // Offset: 0x20807B8
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetCurves(ref UnityEngine.AnimationClip clip)
     void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // protected override System.Void OnSetKeyframes(System.Single time, System.Boolean lastFrame)
-    // Offset: 0x206C060
+    // Offset: 0x2080834
     // Implemented from: RootMotion.Baker
     // Base method: System.Void Baker::OnSetKeyframes(System.Single time, System.Boolean lastFrame)
     void OnSetKeyframes(float time, bool lastFrame);

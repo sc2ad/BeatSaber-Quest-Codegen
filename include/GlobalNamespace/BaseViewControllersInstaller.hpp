@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x13ABF4C
+    // Offset: 0x13D8310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseViewControllersInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseViewControllersInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseViewControllersInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13ABED8
+    // Offset: 0x13D829C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

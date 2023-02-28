@@ -86,19 +86,19 @@ namespace MidiParser {
     // Get instance field reference: public System.Int32 Arg3
     [[deprecated("Use field access instead!")]] int& dyn_Arg3();
     // public MidiParser.MetaEventType get_MetaEventType()
-    // Offset: 0x2B9B0DC
+    // Offset: 0x2BAED64
     ::MidiParser::MetaEventType get_MetaEventType();
     // public System.Int32 get_Channel()
-    // Offset: 0x2B9B0E4
+    // Offset: 0x2BAED6C
     int get_Channel();
     // public System.Int32 get_Note()
-    // Offset: 0x2B9B0EC
+    // Offset: 0x2BAED74
     int get_Note();
     // public System.Int32 get_Velocity()
-    // Offset: 0x2B9B0F4
+    // Offset: 0x2BAED7C
     int get_Velocity();
     // public System.Int32 get_Value()
-    // Offset: 0x2B9B0FC
+    // Offset: 0x2BAED84
     int get_Value();
   }; // MidiParser.MidiEvent
   #pragma pack(pop)

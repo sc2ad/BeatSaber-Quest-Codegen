@@ -133,21 +133,21 @@ namespace GlobalNamespace {
     float stopSyncDeltaTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x111884C
+    // [SpaceAttribute] Offset: 0x111D5A4
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1118884
+    // [SpaceAttribute] Offset: 0x111D5DC
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11188BC
+    // [InjectAttribute] Offset: 0x111D614
     // private readonly AudioTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -326,89 +326,89 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _forceNoAudioSyncOrAudioSyncErrorFixing
     [[deprecated("Use field access instead!")]] bool& dyn__forceNoAudioSyncOrAudioSyncErrorFixing();
     // public AudioTimeSyncController/State get_state()
-    // Offset: 0x154786C
+    // Offset: 0x157C818
     ::GlobalNamespace::AudioTimeSyncController::State get_state();
     // public System.Single get_songTime()
-    // Offset: 0x1547874
+    // Offset: 0x157C820
     float get_songTime();
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x154787C
+    // Offset: 0x157C828
     float get_lastFrameDeltaSongTime();
     // public System.Single get_songLength()
-    // Offset: 0x1547884
+    // Offset: 0x157C830
     float get_songLength();
     // public System.Boolean get_isAudioLoaded()
-    // Offset: 0x154792C
+    // Offset: 0x157C8D8
     bool get_isAudioLoaded();
     // public System.Single get_songEndTime()
-    // Offset: 0x1547960
+    // Offset: 0x157C90C
     float get_songEndTime();
     // public System.Single get_timeScale()
-    // Offset: 0x15479D4
+    // Offset: 0x157C980
     float get_timeScale();
     // public System.Double get_dspTimeOffset()
-    // Offset: 0x15479DC
+    // Offset: 0x157C988
     double get_dspTimeOffset();
     // public UnityEngine.WaitUntil get_waitUntilAudioIsLoaded()
-    // Offset: 0x15479E4
+    // Offset: 0x157C990
     ::UnityEngine::WaitUntil* get_waitUntilAudioIsLoaded();
     // public System.Boolean get_isReady()
-    // Offset: 0x1547A7C
+    // Offset: 0x157CA28
     bool get_isReady();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x1547A84
+    // Offset: 0x157CA30
     float get_songTimeOffset();
     // public System.Boolean get_forceNoAudioSyncOrAudioSyncErrorFixing()
-    // Offset: 0x1547A8C
+    // Offset: 0x157CA38
     bool get_forceNoAudioSyncOrAudioSyncErrorFixing();
     // public System.Void set_forceNoAudioSyncOrAudioSyncErrorFixing(System.Boolean value)
-    // Offset: 0x1547A94
+    // Offset: 0x157CA40
     void set_forceNoAudioSyncOrAudioSyncErrorFixing(bool value);
     // private System.Single get_timeSinceStart()
-    // Offset: 0x1547BE8
+    // Offset: 0x157CB94
     float get_timeSinceStart();
     // public System.Void add_stateChangedEvent(System.Action value)
-    // Offset: 0x1547AA0
+    // Offset: 0x157CA4C
     void add_stateChangedEvent(::System::Action* value);
     // public System.Void remove_stateChangedEvent(System.Action value)
-    // Offset: 0x1547B44
+    // Offset: 0x157CAF0
     void remove_stateChangedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1548588
+    // Offset: 0x157D534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTimeSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioTimeSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTimeSyncController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1547C14
+    // Offset: 0x157CBC0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1547C68
+    // Offset: 0x157CC14
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1547D58
+    // Offset: 0x157CD04
     void Update();
     // public System.Void StartSong(System.Single startTimeOffset)
-    // Offset: 0x154813C
+    // Offset: 0x157D0E8
     void StartSong(float startTimeOffset);
     // public System.Void SeekTo(System.Single startTimeOffset)
-    // Offset: 0x1548184
+    // Offset: 0x157D130
     void SeekTo(float startTimeOffset);
     // public System.Void StopSong()
-    // Offset: 0x154834C
+    // Offset: 0x157D2F8
     void StopSong();
     // public System.Void Pause()
-    // Offset: 0x154839C
+    // Offset: 0x157D348
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x15483FC
+    // Offset: 0x157D3A8
     void Resume();
     // public System.Void SetSongTimeIntoAudioTime()
-    // Offset: 0x1548454
+    // Offset: 0x157D400
     void SetSongTimeIntoAudioTime();
     // private System.Boolean <get_waitUntilAudioIsLoaded>b__27_0()
-    // Offset: 0x154859C
+    // Offset: 0x157D548
     bool $get_waitUntilAudioIsLoaded$b__27_0();
   }; // AudioTimeSyncController
   #pragma pack(pop)

@@ -112,10 +112,10 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public System.String sdkVersion
     [[deprecated("Use field access instead!")]] ::StringW& dyn_sdkVersion();
     // static public LIV.SDK.Unity.SDKApplicationOutput get_empty()
-    // Offset: 0x2AFA4DC
+    // Offset: 0x2B0AFB8
     static ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
     // public override System.String ToString()
-    // Offset: 0x2AFAAA4
+    // Offset: 0x2B0B580
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

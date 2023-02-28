@@ -128,86 +128,86 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Byte[] workingKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1EB0EDC
+    // Offset: 0x1EC167C
     ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1EB0F24
+    // Offset: 0x1EC16C4
     bool get_IsPartialBlockOkay();
     // public System.Void .ctor()
-    // Offset: 0x1EAFFC4
+    // Offset: 0x1EC0764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwofishEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::TwofishEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwofishEngine*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EB1DA0
+    // Offset: 0x1EC2540
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1EB03B4
+    // Offset: 0x1EC0B54
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EB0F2C
+    // Offset: 0x1EC16CC
     int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EB1560
+    // Offset: 0x1EC1D00
     void Reset();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1EB1570
+    // Offset: 0x1EC1D10
     int GetBlockSize();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1EB0530
+    // Offset: 0x1EC0CD0
     void SetKey(::ArrayW<uint8_t> key);
     // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1EB1050
+    // Offset: 0x1EC17F0
     void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
-    // Offset: 0x1EB12D8
+    // Offset: 0x1EC1A78
     void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Int32 F32(System.Int32 x, System.Int32[] k32)
-    // Offset: 0x1EB1694
+    // Offset: 0x1EC1E34
     int F32(int x, ::ArrayW<int> k32);
     // private System.Int32 RS_MDS_Encode(System.Int32 k0, System.Int32 k1)
-    // Offset: 0x1EB15F4
+    // Offset: 0x1EC1D94
     int RS_MDS_Encode(int k0, int k1);
     // private System.Int32 RS_rem(System.Int32 x)
-    // Offset: 0x1EB1D28
+    // Offset: 0x1EC24C8
     int RS_rem(int x);
     // private System.Int32 LFSR1(System.Int32 x)
-    // Offset: 0x1EB1D68
+    // Offset: 0x1EC2508
     int LFSR1(int x);
     // private System.Int32 LFSR2(System.Int32 x)
-    // Offset: 0x1EB1D7C
+    // Offset: 0x1EC251C
     int LFSR2(int x);
     // private System.Int32 Mx_X(System.Int32 x)
-    // Offset: 0x1EB0358
+    // Offset: 0x1EC0AF8
     int Mx_X(int x);
     // private System.Int32 Mx_Y(System.Int32 x)
-    // Offset: 0x1EB0380
+    // Offset: 0x1EC0B20
     int Mx_Y(int x);
     // private System.Int32 M_b0(System.Int32 x)
-    // Offset: 0x1EB1B44
+    // Offset: 0x1EC22E4
     int M_b0(int x);
     // private System.Int32 M_b1(System.Int32 x)
-    // Offset: 0x1EB1B4C
+    // Offset: 0x1EC22EC
     int M_b1(int x);
     // private System.Int32 M_b2(System.Int32 x)
-    // Offset: 0x1EB1B54
+    // Offset: 0x1EC22F4
     int M_b2(int x);
     // private System.Int32 M_b3(System.Int32 x)
-    // Offset: 0x1EB1B5C
+    // Offset: 0x1EC22FC
     int M_b3(int x);
     // private System.Int32 Fe32_0(System.Int32 x)
-    // Offset: 0x1EB1B64
+    // Offset: 0x1EC2304
     int Fe32_0(int x);
     // private System.Int32 Fe32_3(System.Int32 x)
-    // Offset: 0x1EB1BFC
+    // Offset: 0x1EC239C
     int Fe32_3(int x);
     // private System.Int32 BytesTo32Bits(System.Byte[] b, System.Int32 p)
-    // Offset: 0x1EB1578
+    // Offset: 0x1EC1D18
     int BytesTo32Bits(::ArrayW<uint8_t> b, int p);
     // private System.Void Bits32ToBytes(System.Int32 inData, System.Byte[] b, System.Int32 offset)
-    // Offset: 0x1EB1C9C
+    // Offset: 0x1EC243C
     void Bits32ToBytes(int inData, ::ArrayW<uint8_t> b, int offset);
   }; // Org.BouncyCastle.Crypto.Engines.TwofishEngine
   #pragma pack(pop)

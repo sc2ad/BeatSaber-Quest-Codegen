@@ -44,20 +44,20 @@ namespace Newtonsoft::Json::Serialization {
   class SerializationCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x21100E0
+    // Offset: 0x21238B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::SerializationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object o, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x21100F0
+    // Offset: 0x21238C4
     void Invoke(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // public System.IAsyncResult BeginInvoke(System.Object o, System.Runtime.Serialization.StreamingContext context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2110510
+    // Offset: 0x2123CE4
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x21105AC
+    // Offset: 0x2123D80
     void EndInvoke(::System::IAsyncResult* result);
   }; // Newtonsoft.Json.Serialization.SerializationCallback
   #pragma pack(pop)

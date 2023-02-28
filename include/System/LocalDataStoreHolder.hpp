@@ -48,17 +48,17 @@ namespace System {
     // Get instance field reference: private System.LocalDataStore m_Store
     [[deprecated("Use field access instead!")]] ::System::LocalDataStore*& dyn_m_Store();
     // public System.LocalDataStore get_Store()
-    // Offset: 0x1C4AFB0
+    // Offset: 0x1C5A77C
     ::System::LocalDataStore* get_Store();
     // public System.Void .ctor(System.LocalDataStore store)
-    // Offset: 0x1C4AF14
+    // Offset: 0x1C5A6E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreHolder*, creationType>(store)));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1C4AF40
+    // Offset: 0x1C5A70C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

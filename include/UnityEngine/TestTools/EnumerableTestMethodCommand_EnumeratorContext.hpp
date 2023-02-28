@@ -54,20 +54,20 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: private System.Boolean <ExceptionWasRecorded>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ExceptionWasRecorded$k__BackingField();
     // public System.Boolean get_ExceptionWasRecorded()
-    // Offset: 0x19BA6C0
+    // Offset: 0x19C8620
     bool get_ExceptionWasRecorded();
     // private System.Void set_ExceptionWasRecorded(System.Boolean value)
-    // Offset: 0x19BA6C8
+    // Offset: 0x19C8628
     void set_ExceptionWasRecorded(bool value);
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x19BA18C
+    // Offset: 0x19C80EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableTestMethodCommand::EnumeratorContext* New_ctor(::NUnit::Framework::Internal::ITestExecutionContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableTestMethodCommand::EnumeratorContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableTestMethodCommand::EnumeratorContext*, creationType>(context)));
     }
     // public System.Void RecordExceptionWithHint(System.Exception ex)
-    // Offset: 0x19BA570
+    // Offset: 0x19C84D0
     void RecordExceptionWithHint(::System::Exception* ex);
   }; // UnityEngine.TestTools.EnumerableTestMethodCommand/UnityEngine.TestTools.EnumeratorContext
   #pragma pack(pop)

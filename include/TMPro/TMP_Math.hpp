@@ -73,10 +73,10 @@ namespace TMPro {
     // Set static field: static public UnityEngine.Vector2 MIN_16BIT
     static void _set_MIN_16BIT(::UnityEngine::Vector2 value);
     // static private System.Void .cctor()
-    // Offset: 0x14C5388
+    // Offset: 0x14E2F28
     static void _cctor();
     // static public System.Boolean Approximately(System.Single a, System.Single b)
-    // Offset: 0x14C5358
+    // Offset: 0x14E2EF8
     static bool Approximately(float a, float b);
   }; // TMPro.TMP_Math
   #pragma pack(pop)

@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F6BE4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FB7D4
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightTranslationBeatmapEventData> _defaults
     static ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::LightTranslationBeatmapEventData*>* _get__defaults();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightTranslationBeatmapEventData> _defaults
@@ -110,40 +110,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <distribution>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$distribution$k__BackingField();
     // public System.Single get_translation()
-    // Offset: 0x26F1474
+    // Offset: 0x2703C58
     float get_translation();
     // private System.Void set_translation(System.Single value)
-    // Offset: 0x26F147C
+    // Offset: 0x2703C60
     void set_translation(float value);
     // public System.Single get_distribution()
-    // Offset: 0x26F1484
+    // Offset: 0x2703C68
     float get_distribution();
     // private System.Void set_distribution(System.Single value)
-    // Offset: 0x26F148C
+    // Offset: 0x2703C70
     void set_distribution(float value);
     // public System.Void .ctor(System.Single time, System.Int32 groupId, System.Int32 elementId, System.Boolean usePreviousEventValue, EaseType easeType, LightAxis axis, System.Single translation, System.Single distribution)
-    // Offset: 0x26F1494
+    // Offset: 0x2703C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightTranslationBeatmapEventData* New_ctor(float time, int groupId, int elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightAxis axis, float translation, float distribution) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightTranslationBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightTranslationBeatmapEventData*, creationType>(time, groupId, elementId, usePreviousEventValue, easeType, axis, translation, distribution)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x26F17A8
+    // Offset: 0x2703F8C
     static void _cctor();
     // public System.Void ChangeTranslation(System.Single translation, System.Single distribution)
-    // Offset: 0x26F159C
+    // Offset: 0x2703D80
     void ChangeTranslation(float translation, float distribution);
     // static public System.Int32 SubtypeIdentifier(System.Int32 groupId, System.Int32 elementId, LightAxis axis)
-    // Offset: 0x26F1584
+    // Offset: 0x2703D68
     static int SubtypeIdentifier(int groupId, int elementId, ::GlobalNamespace::LightAxis axis);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x26F15A4
+    // Offset: 0x2703D88
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x26F1654
+    // Offset: 0x2703E38
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

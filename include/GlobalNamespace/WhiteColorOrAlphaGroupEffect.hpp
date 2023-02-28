@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly UnityEngine.Color _defaultColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__defaultColor();
     // public System.Void .ctor(LightColorGroupEffect/InitData initData, UnityEngine.Color defaultColor, LightWithIdManager lightManager, Tweening.SongTimeTweeningManager tweeningManager, ColorManager colorManager, BeatmapCallbacksController beatmapCallbacksController, IBpmController bpmController)
-    // Offset: 0x1662E60
+    // Offset: 0x154556C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect::InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::WhiteColorOrAlphaGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WhiteColorOrAlphaGroupEffect*, creationType>(initData, defaultColor, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController)));
     }
     // protected override UnityEngine.Color GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
-    // Offset: 0x1662F3C
+    // Offset: 0x1545648
     // Implemented from: LightColorGroupEffect
     // Base method: UnityEngine.Color LightColorGroupEffect::GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
     ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float brightness);

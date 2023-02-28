@@ -83,29 +83,29 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.CachedProvider> _providerMap
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::CachedProvider*>*& dyn__providerMap();
     // public System.Boolean get_IsCached()
-    // Offset: 0x17BF6A0
+    // Offset: 0x17CF6C0
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x17BF6A8
+    // Offset: 0x17CF6C8
     bool get_TypeVariesBasedOnMemberType();
     // public System.Int32 get_NumInstances()
-    // Offset: 0x17BF6EC
+    // Offset: 0x17CF70C
     int get_NumInstances();
     // public System.Void .ctor(Zenject.IProvider creator)
-    // Offset: 0x17BF578
+    // Offset: 0x17CF598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CachedOpenTypeProvider* New_ctor(::Zenject::IProvider* creator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::CachedOpenTypeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedOpenTypeProvider*, creationType>(creator)));
     }
     // public System.Void ClearCache()
-    // Offset: 0x17BF808
+    // Offset: 0x17CF828
     void ClearCache();
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x17BF860
+    // Offset: 0x17CF880
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x17BF924
+    // Offset: 0x17CF944
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.CachedOpenTypeProvider
   #pragma pack(pop)

@@ -136,32 +136,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<SettingsNavigationController/FinishAction> didFinishEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x141C86C
+    // Offset: 0x1493F30
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<SettingsNavigationController/FinishAction> value)
-    // Offset: 0x141CA04
+    // Offset: 0x14940C8
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController::FinishAction>* value);
     // public System.Void .ctor()
-    // Offset: 0x141CED8
+    // Offset: 0x149459C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsNavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SettingsNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsNavigationController*, creationType>()));
     }
     // private System.Void HandleFinishButton(SettingsNavigationController/FinishAction finishAction)
-    // Offset: 0x141CE64
+    // Offset: 0x1494528
     void HandleFinishButton(::GlobalNamespace::SettingsNavigationController::FinishAction finishAction);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x141CEE0
+    // Offset: 0x14945A4
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x141CEE8
+    // Offset: 0x14945AC
     void $DidActivate$b__7_1();
     // private System.Void <DidActivate>b__7_2()
-    // Offset: 0x141CEF0
+    // Offset: 0x14945B4
     void $DidActivate$b__7_2();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x141CD24
+    // Offset: 0x14943E8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

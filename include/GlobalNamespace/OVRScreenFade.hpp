@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::OVRScreenFade::$Fade$d__25
     class $Fade$d__25;
     public:
-    // [TooltipAttribute] Offset: 0x10D190C
+    // [TooltipAttribute] Offset: 0x10D84FC
     // public System.Single fadeTime
     // Size: 0x4
     // Offset: 0x18
     float fadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x10D1944
+    // [TooltipAttribute] Offset: 0x10D8534
     // public UnityEngine.Color fadeColor
     // Size: 0x10
     // Offset: 0x1C
@@ -152,50 +152,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean isFading
     [[deprecated("Use field access instead!")]] bool& dyn_isFading();
     // static public OVRScreenFade get_instance()
-    // Offset: 0x1B96F04
+    // Offset: 0x1BA3FD0
     static ::GlobalNamespace::OVRScreenFade* get_instance();
     // static private System.Void set_instance(OVRScreenFade value)
-    // Offset: 0x1B96F54
+    // Offset: 0x1BA4020
     static void set_instance(::GlobalNamespace::OVRScreenFade* value);
     // public System.Single get_currentAlpha()
-    // Offset: 0x1B96FA8
+    // Offset: 0x1BA4074
     float get_currentAlpha();
     // public System.Void .ctor()
-    // Offset: 0x1B97A48
+    // Offset: 0x1BA4B14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRScreenFade* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRScreenFade::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRScreenFade*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x1B9706C
+    // Offset: 0x1BA4138
     void Start();
     // public System.Void FadeIn()
-    // Offset: 0x1B975A8
+    // Offset: 0x1BA4674
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x1B97660
+    // Offset: 0x1BA472C
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x1B97694
+    // Offset: 0x1BA4760
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0x1B976C8
+    // Offset: 0x1BA4794
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0x1B976E0
+    // Offset: 0x1BA47AC
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x1B9787C
+    // Offset: 0x1BA4948
     void SetUIFade(float level);
     // public System.Void SetExplicitFade(System.Single level)
-    // Offset: 0x1B97A14
+    // Offset: 0x1BA4AE0
     void SetExplicitFade(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x1B975DC
+    // Offset: 0x1BA46A8
     ::System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0x1B978FC
+    // Offset: 0x1BA49C8
     void SetMaterialAlpha();
   }; // OVRScreenFade
   #pragma pack(pop)

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
     public:
     // public System.Void .ctor()
-    // Offset: 0x177CEBC
+    // Offset: 0x178CEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVROnCompleteListener* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVROnCompleteListener::.ctor");

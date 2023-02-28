@@ -81,29 +81,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didCancelEvent
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_didCancelEvent();
     // public System.Void add_didCancelEvent(System.Action value)
-    // Offset: 0x13D78BC
+    // Offset: 0x13B2574
     void add_didCancelEvent(::System::Action* value);
     // public System.Void remove_didCancelEvent(System.Action value)
-    // Offset: 0x13D7960
+    // Offset: 0x13B2618
     void remove_didCancelEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x13D7B48
+    // Offset: 0x13B2800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JoiningLobbyViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::JoiningLobbyViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JoiningLobbyViewController*, creationType>()));
     }
     // public System.Void Init(System.String text)
-    // Offset: 0x13D7A04
+    // Offset: 0x13B26BC
     void Init(::StringW text);
     // public System.Void HideLoading()
-    // Offset: 0x13D7A3C
+    // Offset: 0x13B26F4
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x13D7B50
+    // Offset: 0x13B2808
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13D7A88
+    // Offset: 0x13B2740
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

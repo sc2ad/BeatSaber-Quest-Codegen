@@ -61,22 +61,22 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.Xml.Linq.XNode next
     [[deprecated("Use field access instead!")]] ::System::Xml::Linq::XNode*& dyn_next();
     // public System.Void Remove()
-    // Offset: 0x2B42500
+    // Offset: 0x2B52FDC
     void Remove();
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteTo(::System::Xml::XmlWriter* writer);
     // System.Void AppendText(System.Text.StringBuilder sb)
-    // Offset: 0x2B42A2C
+    // Offset: 0x2B53508
     void AppendText(::System::Text::StringBuilder* sb);
     // System.Xml.Linq.XNode CloneNode()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::Linq::XNode* CloneNode();
     // private System.String GetXmlString(System.Xml.Linq.SaveOptions o)
-    // Offset: 0x2B42698
+    // Offset: 0x2B53174
     ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
     // System.Void .ctor()
-    // Offset: 0x2B3E338
+    // Offset: 0x2B4EE14
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Void XObject::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,7 +85,7 @@ namespace System::Xml::Linq {
       return THROW_UNLESS((::il2cpp_utils::New<XNode*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x2B42598
+    // Offset: 0x2B53074
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

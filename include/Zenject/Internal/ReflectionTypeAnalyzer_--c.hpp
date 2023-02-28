@@ -78,38 +78,38 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.ConstructorInfo,System.Int32> <>9__11_2
     static void _set_$$9__11_2(::System::Func_2<::System::Reflection::ConstructorInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CBA83C
+    // Offset: 0x1CCC008
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CBA8A0
+    // Offset: 0x1CCC06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionTypeAnalyzer::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeAnalyzer::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeAnalyzer::$$c*, creationType>()));
     }
     // System.Boolean <GetPropertyInfos>b__5_0(System.Reflection.PropertyInfo x)
-    // Offset: 0x1CBA8A8
+    // Offset: 0x1CCC074
     bool $GetPropertyInfos$b__5_0(::System::Reflection::PropertyInfo* x);
     // System.Boolean <GetFieldInfos>b__6_0(System.Reflection.FieldInfo x)
-    // Offset: 0x1CBA994
+    // Offset: 0x1CCC160
     bool $GetFieldInfos$b__6_0(::System::Reflection::FieldInfo* x);
     // System.Boolean <GetMethodInfos>b__7_0(System.Reflection.MethodInfo x)
-    // Offset: 0x1CBAA80
+    // Offset: 0x1CCC24C
     bool $GetMethodInfos$b__7_0(::System::Reflection::MethodInfo* x);
     // System.Boolean <TryGetInjectConstructor>b__11_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x1CBAB6C
+    // Offset: 0x1CCC338
     bool $TryGetInjectConstructor$b__11_0(::System::Reflection::ConstructorInfo* c);
     // System.Boolean <TryGetInjectConstructor>b__11_1(System.Reflection.ConstructorInfo x)
-    // Offset: 0x1CBAC58
+    // Offset: 0x1CCC424
     bool $TryGetInjectConstructor$b__11_1(::System::Reflection::ConstructorInfo* x);
     // System.Int32 <TryGetInjectConstructor>b__11_2(System.Reflection.ConstructorInfo x)
-    // Offset: 0x1CBAC74
+    // Offset: 0x1CCC440
     int $TryGetInjectConstructor$b__11_2(::System::Reflection::ConstructorInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CBACDC
+    // Offset: 0x1CCC4A8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CBAD38
+    // Offset: 0x1CCC504
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.Internal.ReflectionTypeAnalyzer/Zenject.Internal.<>c
   #pragma pack(pop)

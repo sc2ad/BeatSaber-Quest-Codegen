@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameServerListDetailTableCell* gameServerDetailCellPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameServerListDetailTableCell*) == 0x8);
-    // [InjectAttribute] Offset: 0x112CD70
+    // [InjectAttribute] Offset: 0x1131BB0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
@@ -162,47 +162,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private INetworkPlayer _selectedServer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayer*& dyn__selectedServer();
     // public System.Void add_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x145C878
+    // Offset: 0x1479318
     void add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x145C91C
+    // Offset: 0x14793BC
     void remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x145D07C
+    // Offset: 0x1479B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServersListTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServersListTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServersListTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x145C9C0
+    // Offset: 0x1479460
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x145C9CC
+    // Offset: 0x147946C
     int NumberOfCells();
     // private System.Void Init()
-    // Offset: 0x145C9E4
+    // Offset: 0x1479484
     void Init();
     // public HMUI.TableCell CellForContent(TableViewWithDetailCell tableView, System.Int32 idx, System.Boolean detailOpened)
-    // Offset: 0x145CAF4
+    // Offset: 0x1479594
     ::HMUI::TableCell* CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int idx, bool detailOpened);
     // public HMUI.TableCell CellForDetail(TableViewWithDetailCell tableView, System.Int32 contentIdx)
-    // Offset: 0x145CC48
+    // Offset: 0x14796E8
     ::HMUI::TableCell* CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int contentIdx);
     // public System.Void SetData(System.Collections.Generic.IEnumerable`1<INetworkPlayer> servers, System.Boolean clearSelection)
-    // Offset: 0x145CDD8
+    // Offset: 0x1479878
     void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
     // private System.Void HandleGameServerListDetailTableCellJoinServerButtonWasPressed()
-    // Offset: 0x145CEEC
+    // Offset: 0x147998C
     void HandleGameServerListDetailTableCellJoinServerButtonWasPressed();
     // private System.Void HandleTableViewDidSelectCellWithIdx(HMUI.TableView tableView, System.Int32 id)
-    // Offset: 0x145CF54
+    // Offset: 0x14799F4
     void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int id);
     // private System.Void HandleTableViewDidDeselectCellWithIdx(TableViewWithDetailCell arg1, System.Int32 arg2)
-    // Offset: 0x145CF94
+    // Offset: 0x1479A34
     void HandleTableViewDidDeselectCellWithIdx(::GlobalNamespace::TableViewWithDetailCell* arg1, int arg2);
     // protected System.Void OnDestroy()
-    // Offset: 0x145CF9C
+    // Offset: 0x1479A3C
     void OnDestroy();
   }; // GameServersListTableView
   #pragma pack(pop)

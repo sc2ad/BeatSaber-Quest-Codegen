@@ -7,6 +7,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+}
+// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: GenericLogger
@@ -24,9 +29,14 @@ namespace GlobalNamespace {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class GenericLogger : public ::Il2CppObject {
     public:
+    // Nested type: ::GlobalNamespace::GenericLogger::ScopedStopwatch
+    class ScopedStopwatch;
     // static public System.Void VerboseLog(System.String message)
-    // Offset: 0x16265F4
+    // Offset: 0x162AAF8
     static void VerboseLog(::StringW message);
+    // static public System.Void Log(System.String message)
+    // Offset: 0x162AB60
+    static void Log(::StringW message);
   }; // GenericLogger
   #pragma pack(pop)
 }
@@ -38,5 +48,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GenericLogger*), "VerboseLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::GenericLogger::Log
+// Il2CppName: Log
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&GlobalNamespace::GenericLogger::Log)> {
+  static const MethodInfo* get() {
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GenericLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };

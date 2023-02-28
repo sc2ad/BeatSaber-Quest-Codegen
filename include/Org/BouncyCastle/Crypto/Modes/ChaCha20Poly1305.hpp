@@ -242,69 +242,69 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Int32 mBufPos
     [[deprecated("Use field access instead!")]] int& dyn_mBufPos();
     // public System.Void .ctor()
-    // Offset: 0x1EC0634
+    // Offset: 0x1ED0DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChaCha20Poly1305* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IMac poly1305)
-    // Offset: 0x1EC0694
+    // Offset: 0x1ED0E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChaCha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChaCha20Poly1305*, creationType>(poly1305)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EC21E8
+    // Offset: 0x1ED2988
     static void _cctor();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1EC0844
+    // Offset: 0x1ED0FE4
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1EC0DC4
+    // Offset: 0x1ED1564
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1EC0EC8
+    // Offset: 0x1ED1668
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1EC0FD0
+    // Offset: 0x1ED1770
     void ProcessAadBytes(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1EC1314
+    // Offset: 0x1ED1AB4
     int ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1EC19BC
+    // Offset: 0x1ED215C
     int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EC1F04
+    // Offset: 0x1ED26A4
     void Reset();
     // private System.Void CheckAad()
-    // Offset: 0x1EC11A4
+    // Offset: 0x1ED1944
     void CheckAad();
     // private System.Void CheckData()
-    // Offset: 0x1EC1808
+    // Offset: 0x1ED1FA8
     void CheckData();
     // private System.Void FinishAad(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State nextState)
-    // Offset: 0x1EC1F10
+    // Offset: 0x1ED26B0
     void FinishAad(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.Void FinishData(Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305/Org.BouncyCastle.Crypto.Modes.State nextState)
-    // Offset: 0x1EC1D60
+    // Offset: 0x1ED2500
     void FinishData(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::State nextState);
     // private System.UInt64 IncrementCount(System.UInt64 count, System.UInt32 increment, System.UInt64 limit)
-    // Offset: 0x1EC1274
+    // Offset: 0x1ED1A14
     uint64_t IncrementCount(uint64_t count, uint increment, uint64_t limit);
     // private System.Void InitMac()
-    // Offset: 0x1EC2058
+    // Offset: 0x1ED27F8
     void InitMac();
     // private System.Void PadMac(System.UInt64 count)
-    // Offset: 0x1EC1F40
+    // Offset: 0x1ED26E0
     void PadMac(uint64_t count);
     // private System.Void ProcessData(System.Byte[] inBytes, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1EC18F0
+    // Offset: 0x1ED2090
     void ProcessData(::ArrayW<uint8_t> inBytes, int inOff, int inLen, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Void Reset(System.Boolean clearMac, System.Boolean resetCipher)
-    // Offset: 0x1EC0C60
+    // Offset: 0x1ED1400
     void Reset(bool clearMac, bool resetCipher);
   }; // Org.BouncyCastle.Crypto.Modes.ChaCha20Poly1305
   #pragma pack(pop)

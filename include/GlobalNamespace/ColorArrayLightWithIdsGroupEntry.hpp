@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::ColorArrayLightWithIds* colorArrayLightWithIds;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorArrayLightWithIds*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1106290
+    // [SpaceAttribute] Offset: 0x110AE7C
     // private LightGroupSO[] _lightGroups
     // Size: 0x8
     // Offset: 0x20
@@ -68,10 +68,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32[] _excludedLightIds
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn__excludedLightIds();
     // public LightGroupSO[] get_lightGroups()
-    // Offset: 0x1CD4D40
+    // Offset: 0x1CE64BC
     ::ArrayW<::GlobalNamespace::LightGroupSO*> get_lightGroups();
     // public System.Void .ctor()
-    // Offset: 0x1CD4D48
+    // Offset: 0x1CE64C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorArrayLightWithIdsGroupEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorArrayLightWithIdsGroupEntry::.ctor");

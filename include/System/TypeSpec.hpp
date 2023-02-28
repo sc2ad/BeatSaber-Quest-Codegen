@@ -125,46 +125,46 @@ namespace System {
     // Get instance field reference: private System.String display_fullname
     [[deprecated("Use field access instead!")]] ::StringW& dyn_display_fullname();
     // System.Boolean get_HasModifiers()
-    // Offset: 0x223AAE4
+    // Offset: 0x224B2B8
     bool get_HasModifiers();
     // System.String get_DisplayFullName()
-    // Offset: 0x223AEE4
+    // Offset: 0x224B6B8
     ::StringW get_DisplayFullName();
     // private System.String GetDisplayFullName(System.TypeSpec/System.DisplayNameFormat flags)
-    // Offset: 0x223AAF4
+    // Offset: 0x224B2C8
     ::StringW GetDisplayFullName(::System::TypeSpec::DisplayNameFormat flags);
     // private System.Text.StringBuilder GetModifierString(System.Text.StringBuilder sb)
-    // Offset: 0x223AF18
+    // Offset: 0x224B6EC
     ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder* sb);
     // static System.TypeSpec Parse(System.String typeName)
-    // Offset: 0x223A0DC
+    // Offset: 0x224A8B0
     static ::System::TypeSpec* Parse(::StringW typeName);
     // static System.String UnescapeInternalName(System.String displayName)
-    // Offset: 0x22397C4
+    // Offset: 0x2249F98
     static ::StringW UnescapeInternalName(::StringW displayName);
     // System.Type Resolve(System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase)
-    // Offset: 0x223A1C4
+    // Offset: 0x224A998
     ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver, ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase);
     // private System.Void AddName(System.String type_name)
-    // Offset: 0x223BBAC
+    // Offset: 0x224C380
     void AddName(::StringW type_name);
     // private System.Void AddModifier(System.ModifierSpec md)
-    // Offset: 0x223BC80
+    // Offset: 0x224C454
     void AddModifier(::System::ModifierSpec* md);
     // static private System.Void SkipSpace(System.String name, ref System.Int32 pos)
-    // Offset: 0x223BD18
+    // Offset: 0x224C4EC
     static void SkipSpace(::StringW name, ByRef<int> pos);
     // static private System.Void BoundCheck(System.Int32 idx, System.String s)
-    // Offset: 0x223BDE0
+    // Offset: 0x224C5B4
     static void BoundCheck(int idx, ::StringW s);
     // static private System.TypeIdentifier ParsedTypeIdentifier(System.String displayName)
-    // Offset: 0x223BC7C
+    // Offset: 0x224C450
     static ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW displayName);
     // static private System.TypeSpec Parse(System.String name, ref System.Int32 p, System.Boolean is_recurse, System.Boolean allow_aqn)
-    // Offset: 0x223B0AC
+    // Offset: 0x224B880
     static ::System::TypeSpec* Parse(::StringW name, ByRef<int> p, bool is_recurse, bool allow_aqn);
     // public System.Void .ctor()
-    // Offset: 0x223BE88
+    // Offset: 0x224C65C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

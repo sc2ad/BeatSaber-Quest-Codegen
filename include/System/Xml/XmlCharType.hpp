@@ -59,88 +59,88 @@ namespace System::Xml {
     // Get instance field reference: System.Byte[] charProperties
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_charProperties();
     // static private System.Object get_StaticLock()
-    // Offset: 0x1C5AF1C
+    // Offset: 0x1C6A6E8
     static ::Il2CppObject* get_StaticLock();
     // static public System.Xml.XmlCharType get_Instance()
-    // Offset: 0x1C55048
+    // Offset: 0x1C64814
     static ::System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
-    // Offset: 0x1C5B23C
+    // Offset: 0x1C6AA08
     // ABORTED: conflicts with another method.  XmlCharType(::ArrayW<uint8_t> charProperties);
     // static private System.Void InitInstance()
-    // Offset: 0x1C5AFAC
+    // Offset: 0x1C6A778
     static void InitInstance();
     // static private System.Void SetProperties(System.String ranges, System.Byte value)
-    // Offset: 0x1C5B130
+    // Offset: 0x1C6A8FC
     static void SetProperties(::StringW ranges, uint8_t value);
     // public System.Boolean IsWhiteSpace(System.Char ch)
-    // Offset: 0x1C5B244
+    // Offset: 0x1C6AA10
     bool IsWhiteSpace(::Il2CppChar ch);
     // public System.Boolean IsNCNameSingleChar(System.Char ch)
-    // Offset: 0x1C55004
+    // Offset: 0x1C647D0
     bool IsNCNameSingleChar(::Il2CppChar ch);
     // public System.Boolean IsStartNCNameSingleChar(System.Char ch)
-    // Offset: 0x1C550B8
+    // Offset: 0x1C64884
     bool IsStartNCNameSingleChar(::Il2CppChar ch);
     // public System.Boolean IsNameSingleChar(System.Char ch)
-    // Offset: 0x1C5B288
+    // Offset: 0x1C6AA54
     bool IsNameSingleChar(::Il2CppChar ch);
     // public System.Boolean IsCharData(System.Char ch)
-    // Offset: 0x1C5B2B8
+    // Offset: 0x1C6AA84
     bool IsCharData(::Il2CppChar ch);
     // public System.Boolean IsPubidChar(System.Char ch)
-    // Offset: 0x1C5B2FC
+    // Offset: 0x1C6AAC8
     bool IsPubidChar(::Il2CppChar ch);
     // System.Boolean IsTextChar(System.Char ch)
-    // Offset: 0x1C5B388
+    // Offset: 0x1C6AB54
     bool IsTextChar(::Il2CppChar ch);
     // public System.Boolean IsLetter(System.Char ch)
-    // Offset: 0x1C5B3CC
+    // Offset: 0x1C6AB98
     bool IsLetter(::Il2CppChar ch);
     // public System.Boolean IsNCNameCharXml4e(System.Char ch)
-    // Offset: 0x1C5B410
+    // Offset: 0x1C6ABDC
     bool IsNCNameCharXml4e(::Il2CppChar ch);
     // public System.Boolean IsStartNCNameCharXml4e(System.Char ch)
-    // Offset: 0x1C5B454
+    // Offset: 0x1C6AC20
     bool IsStartNCNameCharXml4e(::Il2CppChar ch);
     // public System.Boolean IsNameCharXml4e(System.Char ch)
-    // Offset: 0x1C5B484
+    // Offset: 0x1C6AC50
     bool IsNameCharXml4e(::Il2CppChar ch);
     // static public System.Boolean IsDigit(System.Char ch)
-    // Offset: 0x1C5B4B4
+    // Offset: 0x1C6AC80
     static bool IsDigit(::Il2CppChar ch);
     // static System.Boolean IsHighSurrogate(System.Int32 ch)
-    // Offset: 0x1C5B4DC
+    // Offset: 0x1C6ACA8
     static bool IsHighSurrogate(int ch);
     // static System.Boolean IsLowSurrogate(System.Int32 ch)
-    // Offset: 0x1C5B4EC
+    // Offset: 0x1C6ACB8
     static bool IsLowSurrogate(int ch);
     // static System.Boolean IsSurrogate(System.Int32 ch)
-    // Offset: 0x1C538F8
+    // Offset: 0x1C630C4
     static bool IsSurrogate(int ch);
     // static System.Int32 CombineSurrogateChar(System.Int32 lowChar, System.Int32 highChar)
-    // Offset: 0x1C5B4FC
+    // Offset: 0x1C6ACC8
     static int CombineSurrogateChar(int lowChar, int highChar);
     // static System.Void SplitSurrogateChar(System.Int32 combinedChar, out System.Char lowChar, out System.Char highChar)
-    // Offset: 0x1C5B514
+    // Offset: 0x1C6ACE0
     static void SplitSurrogateChar(int combinedChar, ByRef<::Il2CppChar> lowChar, ByRef<::Il2CppChar> highChar);
     // System.Boolean IsOnlyWhitespace(System.String str)
-    // Offset: 0x1C5AC14
+    // Offset: 0x1C6A3E0
     bool IsOnlyWhitespace(::StringW str);
     // System.Int32 IsOnlyWhitespaceWithPos(System.String str)
-    // Offset: 0x1C5B54C
+    // Offset: 0x1C6AD18
     int IsOnlyWhitespaceWithPos(::StringW str);
     // System.Int32 IsOnlyCharData(System.String str)
-    // Offset: 0x1C5B5E4
+    // Offset: 0x1C6ADB0
     int IsOnlyCharData(::StringW str);
     // static System.Boolean IsOnlyDigits(System.String str, System.Int32 startPos, System.Int32 len)
-    // Offset: 0x1C5B6CC
+    // Offset: 0x1C6AE98
     static bool IsOnlyDigits(::StringW str, int startPos, int len);
     // System.Int32 IsPublicId(System.String str)
-    // Offset: 0x1C5B740
+    // Offset: 0x1C6AF0C
     int IsPublicId(::StringW str);
     // static private System.Boolean InRange(System.Int32 value, System.Int32 start, System.Int32 end)
-    // Offset: 0x1C5B4C8
+    // Offset: 0x1C6AC94
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
   #pragma pack(pop)

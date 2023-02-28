@@ -53,29 +53,29 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Byte[] mString
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_mString();
     // public System.Void .ctor(System.Byte[] encoding)
-    // Offset: 0x1CE6164
+    // Offset: 0x1CF7898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerVideotexString* New_ctor(::ArrayW<uint8_t> encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::DerVideotexString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVideotexString*, creationType>(encoding)));
     }
     // public override System.String GetString()
-    // Offset: 0x1CF7044
+    // Offset: 0x1D08778
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::StringW GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x1CF7050
+    // Offset: 0x1D08784
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x1CF7074
+    // Offset: 0x1D087A8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.Int32 DerStringBase::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x1CF70E0
+    // Offset: 0x1D08814
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);

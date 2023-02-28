@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111700C
+    // [SpaceAttribute] Offset: 0x111BD54
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -118,16 +118,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x1402A1C
+    // Offset: 0x13F1CF8
     void SpawnBtsCharacters(::GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x1402FC8
+    // Offset: 0x13F22A4
     ::System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x1402F38
+    // Offset: 0x13F2214
     void DestroyCharactersAndStopAnimations();
     // public System.Void .ctor()
-    // Offset: 0x140316C
+    // Offset: 0x13F2448
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -136,17 +136,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController*, creationType>()));
     }
     // public override System.Void Setup(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x140260C
+    // Offset: 0x13F18E8
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Setup(IReadonlyBeatmapData beatmapData)
     void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x1402CE0
+    // Offset: 0x13F1FBC
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1402D88
+    // Offset: 0x13F2064
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);

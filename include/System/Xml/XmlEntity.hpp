@@ -109,80 +109,80 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean childrenFoliating
     [[deprecated("Use field access instead!")]] bool& dyn_childrenFoliating();
     // public System.String get_SystemId()
-    // Offset: 0x162F5B4
+    // Offset: 0x16504AC
     ::StringW get_SystemId();
     // System.Void .ctor(System.String name, System.String strdata, System.String publicId, System.String systemId, System.String notationName, System.Xml.XmlDocument doc)
-    // Offset: 0x162F118
+    // Offset: 0x1650010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlEntity* New_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument* doc) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlEntity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlEntity*, creationType>(name, strdata, publicId, systemId, notationName, doc)));
     }
     // System.Void SetBaseURI(System.String inBaseURI)
-    // Offset: 0x162F644
+    // Offset: 0x165053C
     void SetBaseURI(::StringW inBaseURI);
     // public override System.Boolean get_IsReadOnly()
-    // Offset: 0x162F2D4
+    // Offset: 0x16501CC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsReadOnly()
     bool get_IsReadOnly();
     // public override System.String get_Name()
-    // Offset: 0x162F2DC
+    // Offset: 0x16501D4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x162F2E4
+    // Offset: 0x16501DC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.String get_InnerText()
-    // Offset: 0x162F2EC
+    // Offset: 0x16501E4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_InnerText()
     ::StringW get_InnerText();
     // public override System.Void set_InnerText(System.String value)
-    // Offset: 0x162F3F4
+    // Offset: 0x16502EC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerText(System.String value)
     void set_InnerText(::StringW value);
     // override System.Boolean get_IsContainer()
-    // Offset: 0x162F474
+    // Offset: 0x165036C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x162F47C
+    // Offset: 0x1650374
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x162F568
+    // Offset: 0x1650460
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x162F5AC
+    // Offset: 0x16504A4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void set_InnerXml(System.String value)
-    // Offset: 0x162F5BC
+    // Offset: 0x16504B4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerXml(System.String value)
     void set_InnerXml(::StringW value);
     // public override System.String get_BaseURI()
-    // Offset: 0x162F63C
+    // Offset: 0x1650534
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_BaseURI()
     ::StringW get_BaseURI();
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x162F254
+    // Offset: 0x165014C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x162F570
+    // Offset: 0x1650468
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);

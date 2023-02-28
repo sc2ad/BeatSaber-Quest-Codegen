@@ -110,23 +110,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _dataList
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__dataList();
     // public System.Void .ctor()
-    // Offset: 0x14323B4
+    // Offset: 0x14662E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x1432108
+    // Offset: 0x1466034
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1432110
+    // Offset: 0x146603C
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x14321C0
+    // Offset: 0x14660EC
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x1432388
+    // Offset: 0x14662B4
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
   }; // ResultsTableView
   #pragma pack(pop)

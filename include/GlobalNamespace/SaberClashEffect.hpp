@@ -69,21 +69,21 @@ namespace GlobalNamespace {
     ::Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(::Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11205FC
+    // [InjectAttribute] Offset: 0x11253B4
     // private SaberClashChecker _saberClashChecker
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::SaberClashChecker* saberClashChecker;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberClashChecker*) == 0x8);
-    // [InjectAttribute] Offset: 0x112060C
+    // [InjectAttribute] Offset: 0x11253C4
     // private HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::HapticFeedbackController* hapticFeedbackController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::HapticFeedbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112061C
+    // [InjectAttribute] Offset: 0x11253D4
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x40
@@ -130,20 +130,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sabersAreClashing
     [[deprecated("Use field access instead!")]] bool& dyn__sabersAreClashing();
     // public System.Void .ctor()
-    // Offset: 0x140DC1C
+    // Offset: 0x148594C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberClashEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberClashEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x140D944
+    // Offset: 0x1485674
     void Start();
     // protected System.Void OnDisable()
-    // Offset: 0x140DB08
+    // Offset: 0x1485838
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x140DB18
+    // Offset: 0x1485848
     void LateUpdate();
   }; // SaberClashEffect
   #pragma pack(pop)

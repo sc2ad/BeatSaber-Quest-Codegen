@@ -78,28 +78,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ImageView _highlightImage
     [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__highlightImage();
     // public System.String get_text()
-    // Offset: 0x13C3784
+    // Offset: 0x13A063C
     ::StringW get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x13C37A0
+    // Offset: 0x13A0658
     void set_text(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x13C388C
+    // Offset: 0x13A0744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextOnlyTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TextOnlyTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextOnlyTableCell*, creationType>()));
     }
     // private System.Void RefreshVisuals()
-    // Offset: 0x13C37C0
+    // Offset: 0x13A0678
     void RefreshVisuals();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13C37BC
+    // Offset: 0x13A0674
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void SelectionDidChange(::HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x13C3888
+    // Offset: 0x13A0740
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/HMUI.TransitionType transitionType)
     void HighlightDidChange(::HMUI::SelectableCell::TransitionType transitionType);

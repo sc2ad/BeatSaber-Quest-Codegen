@@ -51,7 +51,7 @@ namespace System::Xml {
     static ::System::Xml::ValidationType _get_None();
     // Set static field: static public System.Xml.ValidationType None
     static void _set_None(::System::Xml::ValidationType value);
-    // [ObsoleteAttribute] Offset: 0x1080D00
+    // [ObsoleteAttribute] Offset: 0x10878A0
     // static field const value: static public System.Xml.ValidationType Auto
     static constexpr const int Auto = 1;
     // Get static field: static public System.Xml.ValidationType Auto
@@ -64,7 +64,7 @@ namespace System::Xml {
     static ::System::Xml::ValidationType _get_DTD();
     // Set static field: static public System.Xml.ValidationType DTD
     static void _set_DTD(::System::Xml::ValidationType value);
-    // [ObsoleteAttribute] Offset: 0x1080D38
+    // [ObsoleteAttribute] Offset: 0x10878D8
     // static field const value: static public System.Xml.ValidationType XDR
     static constexpr const int XDR = 3;
     // Get static field: static public System.Xml.ValidationType XDR

@@ -87,32 +87,32 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: public UnityEngine.Timeline.TrackAsset <>4__this
     [[deprecated("Use field access instead!")]] ::UnityEngine::Timeline::TrackAsset*& dyn_$$4__this();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x2AD19CC
+    // Offset: 0x2AE21B0
     ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AD1A3C
+    // Offset: 0x2AE2220
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2ACCA7C
+    // Offset: 0x2ADD260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackAsset::$get_outputs$d__65* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TrackAsset::$get_outputs$d__65::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackAsset::$get_outputs$d__65*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AD179C
+    // Offset: 0x2AE1F80
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AD17A0
+    // Offset: 0x2AE1F84
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AD19DC
+    // Offset: 0x2AE21C0
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x2AD1AA4
+    // Offset: 0x2AE2288
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2AD1B50
+    // Offset: 0x2AE2334
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<get_outputs>d__65
   #pragma pack(pop)

@@ -37,7 +37,7 @@ namespace Oculus::Platform::Models {
   class InstalledApplicationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::InstalledApplication*> {
     public:
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x1A320D0
+    // Offset: 0x1A40018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstalledApplicationList* New_ctor(::System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::InstalledApplicationList::.ctor");

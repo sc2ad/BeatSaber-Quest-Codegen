@@ -93,31 +93,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasInvitePermission
     [[deprecated("Use field access instead!")]] bool& dyn__hasInvitePermission();
     // public System.String get_userId()
-    // Offset: 0x2A11268
+    // Offset: 0x2A20A4C
     ::StringW get_userId();
     // public System.Boolean get_isServerOwner()
-    // Offset: 0x2A11270
+    // Offset: 0x2A20A54
     bool get_isServerOwner();
     // public System.Boolean get_hasRecommendBeatmapsPermission()
-    // Offset: 0x2A11278
+    // Offset: 0x2A20A5C
     bool get_hasRecommendBeatmapsPermission();
     // public System.Boolean get_hasRecommendGameplayModifiersPermission()
-    // Offset: 0x2A11280
+    // Offset: 0x2A20A64
     bool get_hasRecommendGameplayModifiersPermission();
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x2A11288
+    // Offset: 0x2A20A6C
     bool get_hasKickVotePermission();
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x2A11290
+    // Offset: 0x2A20A74
     bool get_hasInvitePermission();
     // static public PlayerLobbyPermissionConfigurationNetSerializable Obtain()
-    // Offset: 0x2A11298
+    // Offset: 0x2A20A7C
     static ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Obtain();
     // public PlayerLobbyPermissionConfigurationNetSerializable Init(System.String userId, System.Boolean isServerOwner, System.Boolean hasRecommendBeatmapsPermission, System.Boolean hasRecommendGameplayModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x2A112E0
+    // Offset: 0x2A20AC4
     ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // public System.Void .ctor()
-    // Offset: 0x2A11310
+    // Offset: 0x2A20AF4
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,12 +126,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A11318
+    // Offset: 0x2A20AFC
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A113AC
+    // Offset: 0x2A20B90
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

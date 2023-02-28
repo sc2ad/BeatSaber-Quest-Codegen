@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::CountdownElementController*>) == 0x8);
-    // [InjectAttribute] Offset: 0x112909C
+    // [InjectAttribute] Offset: 0x112DEDC
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -127,26 +127,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
     // public System.Void .ctor()
-    // Offset: 0x143F028
+    // Offset: 0x14468FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CountdownController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x143EBE8
+    // Offset: 0x14464BC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x143EC00
+    // Offset: 0x14464D4
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x143EDF8
+    // Offset: 0x14466CC
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x143EF20
+    // Offset: 0x14467F4
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x143EF9C
+    // Offset: 0x1446870
     void StopCountdown();
   }; // CountdownController
   #pragma pack(pop)

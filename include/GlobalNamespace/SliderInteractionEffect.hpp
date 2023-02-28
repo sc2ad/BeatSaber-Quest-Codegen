@@ -50,23 +50,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private SliderInteractionManager _sliderInteractionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SliderInteractionManager*& dyn__sliderInteractionManager();
     // protected System.Single get_saberInteractionParam()
-    // Offset: 0x147BB1C
+    // Offset: 0x14177C8
     float get_saberInteractionParam();
     // protected ColorType get_colorType()
-    // Offset: 0x147BA1C
+    // Offset: 0x14176C8
     ::GlobalNamespace::ColorType get_colorType();
     // protected System.Void .ctor()
-    // Offset: 0x147BBE8
+    // Offset: 0x1417894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderInteractionEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderInteractionEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderInteractionEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x147B94C
+    // Offset: 0x14175F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x147CD00
+    // Offset: 0x1418604
     void OnDestroy();
     // protected System.Void StartEffect(System.Single saberInteractionParam)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void EndEffect();
     // private System.Void HandleSliderWasAddedToActiveSliders(System.Single saberInteractionParam)
-    // Offset: 0x147CF18
+    // Offset: 0x141881C
     void HandleSliderWasAddedToActiveSliders(float saberInteractionParam);
     // private System.Void HandleAllSliderWereRemovedFromActiveSliders()
-    // Offset: 0x147CF24
+    // Offset: 0x1418828
     void HandleAllSliderWereRemovedFromActiveSliders();
   }; // SliderInteractionEffect
   #pragma pack(pop)

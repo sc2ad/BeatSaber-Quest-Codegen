@@ -63,26 +63,26 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: public LIV.SDK.Unity.LIV <>4__this
     [[deprecated("Use field access instead!")]] ::LIV::SDK::Unity::LIV*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2AFAA34
+    // Offset: 0x2B0B510
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AFAA9C
+    // Offset: 0x2B0B578
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AF9F10
+    // Offset: 0x2B0A9EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LIV::$WaitForUnityEndOfFrame$d__68* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::LIV::$WaitForUnityEndOfFrame$d__68::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LIV::$WaitForUnityEndOfFrame$d__68*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AFA888
+    // Offset: 0x2B0B364
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AFA88C
+    // Offset: 0x2B0B368
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AFAA3C
+    // Offset: 0x2B0B518
     void System_Collections_IEnumerator_Reset();
   }; // LIV.SDK.Unity.LIV/LIV.SDK.Unity.<WaitForUnityEndOfFrame>d__68
   #pragma pack(pop)

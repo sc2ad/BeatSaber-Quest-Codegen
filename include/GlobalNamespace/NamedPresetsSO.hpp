@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
     // protected System.Void .ctor()
-    // Offset: 0x1504EC4
+    // Offset: 0x14344F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedPresetsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedPresetsSO::.ctor");

@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* activePublisherSKUSettingsSO;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11186E4
+    // [InjectAttribute] Offset: 0x111D43C
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x68
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x13880E4
+    // Offset: 0x138E6E8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -106,22 +106,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PS4AppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1387E80
+    // Offset: 0x138E484
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1387EEC
+    // Offset: 0x138E4F0
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1387F80
+    // Offset: 0x138E584
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1387FC4
+    // Offset: 0x138E5C8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

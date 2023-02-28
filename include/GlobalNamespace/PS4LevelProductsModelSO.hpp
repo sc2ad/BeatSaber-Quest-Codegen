@@ -74,23 +74,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1388EA8
+    // Offset: 0x138F4AC
     ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public System.Void .ctor()
-    // Offset: 0x1389108
+    // Offset: 0x138F714
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO*, creationType>()));
     }
+    // public System.Void SetLevelPackProductsData(PS4LevelProductsModelSO/LevelPackProductData[] levelPackProductsData)
+    // Offset: 0x138F60C
+    void SetLevelPackProductsData(::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> levelPackProductsData);
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x1389008
+    // Offset: 0x138F614
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x1389088
+    // Offset: 0x138F694
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0x1388EB0
+    // Offset: 0x138F4B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
@@ -112,6 +115,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::SetLevelPackProductsData
+// Il2CppName: SetLevelPackProductsData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4LevelProductsModelSO::*)(::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>)>(&GlobalNamespace::PS4LevelProductsModelSO::SetLevelPackProductsData)> {
+  static const MethodInfo* get() {
+    static auto* levelPackProductsData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PS4LevelProductsModelSO/LevelPackProductData"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO*), "SetLevelPackProductsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelPackProductsData});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::GetLevelProductData
 // Il2CppName: GetLevelProductData
 template<>

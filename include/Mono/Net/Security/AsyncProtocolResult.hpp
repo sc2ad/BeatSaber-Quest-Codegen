@@ -54,20 +54,20 @@ namespace Mono::Net::Security {
     // Get instance field reference: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_$Error$k__BackingField();
     // public System.Int32 get_UserResult()
-    // Offset: 0x1B18560
+    // Offset: 0x1B2662C
     int get_UserResult();
     // public System.Runtime.ExceptionServices.ExceptionDispatchInfo get_Error()
-    // Offset: 0x1B18568
+    // Offset: 0x1B26634
     ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
     // public System.Void .ctor(System.Int32 result)
-    // Offset: 0x1B18330
+    // Offset: 0x1B263FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(int result) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(result)));
     }
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
-    // Offset: 0x1B184D4
+    // Offset: 0x1B265A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::AsyncProtocolResult::.ctor");

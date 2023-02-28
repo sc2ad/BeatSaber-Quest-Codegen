@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _cleared
     [[deprecated("Use field access instead!")]] bool& dyn__cleared();
     // public System.String get_missionId()
-    // Offset: 0x1589950
+    // Offset: 0x15ACE74
     ::StringW get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x1589958
+    // Offset: 0x15ACE7C
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1589960
+    // Offset: 0x15ACE84
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1584744
+    // Offset: 0x15A8034
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::StringW missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerMissionStatsData::.ctor");

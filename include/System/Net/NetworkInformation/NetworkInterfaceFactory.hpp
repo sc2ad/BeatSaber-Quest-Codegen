@@ -43,7 +43,7 @@ namespace System::Net::NetworkInformation {
     // Nested type: ::System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI
     class Win32NetworkInterfaceAPI;
     // protected System.Void .ctor()
-    // Offset: 0x1BE9958
+    // Offset: 0x1BF9124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterfaceFactory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::NetworkInterfaceFactory::.ctor");
@@ -53,7 +53,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // static public System.Net.NetworkInformation.NetworkInterfaceFactory Create()
-    // Offset: 0x1BE9828
+    // Offset: 0x1BF8FF4
     static ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory
   #pragma pack(pop)

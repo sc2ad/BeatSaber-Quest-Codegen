@@ -68,20 +68,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.UInt32> _leaderboardIdToPs4Id
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, uint>*& dyn__leaderboardIdToPs4Id();
     // public System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> get_leaderboardIds()
-    // Offset: 0x1388BF4
+    // Offset: 0x138F1F8
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*>* get_leaderboardIds();
     // public System.Void .ctor()
-    // Offset: 0x1388DC4
+    // Offset: 0x138F3C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LeaderboardIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO*, creationType>()));
     }
     // public System.Boolean GetPS4LeaderboardId(IDifficultyBeatmap difficultyBeatmap, out System.UInt32 ps4LeaderboardId)
-    // Offset: 0x1388D40
+    // Offset: 0x138F344
     bool GetPS4LeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ByRef<uint> ps4LeaderboardId);
     // protected override System.Void OnEnable()
-    // Offset: 0x1388BFC
+    // Offset: 0x138F200
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

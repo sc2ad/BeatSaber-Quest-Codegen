@@ -318,7 +318,7 @@ namespace GlobalNamespace {
     inline ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>* i_GameplayModifiers() noexcept {
       return reinterpret_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FD17C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1101D6C
     // Get static field: static public readonly GameplayModifiers noModifiers
     static ::GlobalNamespace::GameplayModifiers* _get_noModifiers();
     // Set static field: static public readonly GameplayModifiers noModifiers
@@ -354,90 +354,90 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _smallCubes
     [[deprecated("Use field access instead!")]] bool& dyn__smallCubes();
     // public GameplayModifiers/EnergyType get_energyType()
-    // Offset: 0x2A0DF1C
+    // Offset: 0x2A1D700
     ::GlobalNamespace::GameplayModifiers::EnergyType get_energyType();
     // public System.Boolean get_noFailOn0Energy()
-    // Offset: 0x2A0DF24
+    // Offset: 0x2A1D708
     bool get_noFailOn0Energy();
     // public System.Boolean get_instaFail()
-    // Offset: 0x2A0DF2C
+    // Offset: 0x2A1D710
     bool get_instaFail();
     // public System.Boolean get_failOnSaberClash()
-    // Offset: 0x2A0DF34
+    // Offset: 0x2A1D718
     bool get_failOnSaberClash();
     // public GameplayModifiers/EnabledObstacleType get_enabledObstacleType()
-    // Offset: 0x2A0DF3C
+    // Offset: 0x2A1D720
     ::GlobalNamespace::GameplayModifiers::EnabledObstacleType get_enabledObstacleType();
     // public System.Boolean get_fastNotes()
-    // Offset: 0x2A0DF44
+    // Offset: 0x2A1D728
     bool get_fastNotes();
     // public System.Boolean get_strictAngles()
-    // Offset: 0x2A0DF4C
+    // Offset: 0x2A1D730
     bool get_strictAngles();
     // public System.Boolean get_disappearingArrows()
-    // Offset: 0x2A0DF54
+    // Offset: 0x2A1D738
     bool get_disappearingArrows();
     // public System.Boolean get_ghostNotes()
-    // Offset: 0x2A0DF5C
+    // Offset: 0x2A1D740
     bool get_ghostNotes();
     // public System.Boolean get_noBombs()
-    // Offset: 0x2A0DF64
+    // Offset: 0x2A1D748
     bool get_noBombs();
     // public GameplayModifiers/SongSpeed get_songSpeed()
-    // Offset: 0x2A0DF6C
+    // Offset: 0x2A1D750
     ::GlobalNamespace::GameplayModifiers::SongSpeed get_songSpeed();
     // public System.Boolean get_noArrows()
-    // Offset: 0x2A0DF74
+    // Offset: 0x2A1D758
     bool get_noArrows();
     // public System.Boolean get_proMode()
-    // Offset: 0x2A0DF7C
+    // Offset: 0x2A1D760
     bool get_proMode();
     // public System.Boolean get_zenMode()
-    // Offset: 0x2A0DF84
+    // Offset: 0x2A1D768
     bool get_zenMode();
     // public System.Boolean get_smallCubes()
-    // Offset: 0x2A0DF8C
+    // Offset: 0x2A1D770
     bool get_smallCubes();
     // public System.Single get_songSpeedMul()
-    // Offset: 0x2A0DF94
+    // Offset: 0x2A1D778
     float get_songSpeedMul();
     // public System.Single get_cutAngleTolerance()
-    // Offset: 0x2A0DFB8
+    // Offset: 0x2A1D79C
     float get_cutAngleTolerance();
     // public System.Single get_notesUniformScale()
-    // Offset: 0x2A0DFD4
+    // Offset: 0x2A1D7B8
     float get_notesUniformScale();
     // public System.Void .ctor()
-    // Offset: 0x2A0DFEC
+    // Offset: 0x2A1D7D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiers* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>()));
     }
     // public System.Void .ctor(GameplayModifiers/EnergyType energyType, System.Boolean noFailOn0Energy, System.Boolean instaFail, System.Boolean failOnSaberClash, GameplayModifiers/EnabledObstacleType enabledObstacleType, System.Boolean noBombs, System.Boolean fastNotes, System.Boolean strictAngles, System.Boolean disappearingArrows, GameplayModifiers/SongSpeed songSpeed, System.Boolean noArrows, System.Boolean ghostNotes, System.Boolean proMode, System.Boolean zenMode, System.Boolean smallCubes)
-    // Offset: 0x2A0DCD8
+    // Offset: 0x2A1D4BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiers* New_ctor(::GlobalNamespace::GameplayModifiers::EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows, ::GlobalNamespace::GameplayModifiers::SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiers*, creationType>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2A0E57C
+    // Offset: 0x2A1DD60
     static void _cctor();
     // public GameplayModifiers CopyWith(System.Nullable`1<GameplayModifiers/EnergyType> energyType, System.Nullable`1<System.Boolean> noFailOn0Energy, System.Nullable`1<System.Boolean> instaFail, System.Nullable`1<System.Boolean> failOnSaberClash, System.Nullable`1<GameplayModifiers/EnabledObstacleType> enabledObstacleType, System.Nullable`1<System.Boolean> noBombs, System.Nullable`1<System.Boolean> fastNotes, System.Nullable`1<System.Boolean> strictAngles, System.Nullable`1<System.Boolean> disappearingArrows, System.Nullable`1<GameplayModifiers/SongSpeed> songSpeed, System.Nullable`1<System.Boolean> noArrows, System.Nullable`1<System.Boolean> ghostNotes, System.Nullable`1<System.Boolean> proMode, System.Nullable`1<System.Boolean> zenMode, System.Nullable`1<System.Boolean> smallCubes)
-    // Offset: 0x2A0E028
+    // Offset: 0x2A1D80C
     ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy, ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs, ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers::SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows, ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes);
     // public System.Boolean IsWithoutModifiers()
-    // Offset: 0x2A0E264
+    // Offset: 0x2A1DA48
     bool IsWithoutModifiers();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A0E2EC
+    // Offset: 0x2A1DAD0
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private GameplayModifiers LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A0E414
+    // Offset: 0x2A1DBF8
     ::GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable$GameplayModifiers$_CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public GameplayModifiers CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A0E478
+    // Offset: 0x2A1DC5C
     static ::GlobalNamespace::GameplayModifiers* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
   }; // GameplayModifiers
   #pragma pack(pop)
