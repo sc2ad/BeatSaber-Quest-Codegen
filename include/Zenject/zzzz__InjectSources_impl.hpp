@@ -1,0 +1,18 @@
+#pragma once
+#include "System/zzzz__Enum_impl.hpp"
+namespace {
+#include "Zenject/zzzz__InjectSources_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::Zenject::InjectSources::InjectSources(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
+}
+constexpr void ::Zenject::InjectSources::__set_value__(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t ::Zenject::InjectSources::__get_value__() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr ::Zenject::InjectSources  ::Zenject::InjectSources::Any{0};
+constexpr ::Zenject::InjectSources  ::Zenject::InjectSources::Local{1};
+constexpr ::Zenject::InjectSources  ::Zenject::InjectSources::Parent{2};
+constexpr ::Zenject::InjectSources  ::Zenject::InjectSources::AnyParent{3};
+} // end anonymous namespace

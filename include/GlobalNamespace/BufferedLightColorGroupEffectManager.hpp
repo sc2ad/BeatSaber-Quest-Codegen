@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__BufferedLightColorGroupEffectManager_def.hpp"
+#include "GlobalNamespace/zzzz__BufferedLightColorGroupEffectManager_impl.hpp"

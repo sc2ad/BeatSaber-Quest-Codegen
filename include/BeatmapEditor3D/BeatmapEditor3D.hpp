@@ -1,0 +1,2 @@
+#pragma once
+#include "BeatmapEditor3D/BeatmapEditorStandardLevelScenesTransitionSetupDataSO.hpp"

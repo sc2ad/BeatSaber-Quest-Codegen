@@ -1,0 +1,19 @@
+#pragma once
+#include "System/zzzz__Enum_impl.hpp"
+namespace {
+#include "UnityEngine/InputSystem/zzzz__InputActionPhase_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::InputActionPhase::InputActionPhase(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
+}
+constexpr void ::UnityEngine::InputSystem::InputActionPhase::__set_value__(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t ::UnityEngine::InputSystem::InputActionPhase::__get_value__() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr ::UnityEngine::InputSystem::InputActionPhase  ::UnityEngine::InputSystem::InputActionPhase::Disabled{0};
+constexpr ::UnityEngine::InputSystem::InputActionPhase  ::UnityEngine::InputSystem::InputActionPhase::Waiting{1};
+constexpr ::UnityEngine::InputSystem::InputActionPhase  ::UnityEngine::InputSystem::InputActionPhase::Started{2};
+constexpr ::UnityEngine::InputSystem::InputActionPhase  ::UnityEngine::InputSystem::InputActionPhase::Performed{3};
+constexpr ::UnityEngine::InputSystem::InputActionPhase  ::UnityEngine::InputSystem::InputActionPhase::Canceled{4};
+} // end anonymous namespace

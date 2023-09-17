@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_def.hpp"
+#include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_1_impl.hpp"

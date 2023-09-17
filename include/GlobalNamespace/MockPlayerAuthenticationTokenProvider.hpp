@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MockPlayerAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlayerAuthenticationTokenProvider_impl.hpp"

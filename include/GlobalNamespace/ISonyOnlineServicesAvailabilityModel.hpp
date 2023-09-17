@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__ISonyOnlineServicesAvailabilityModel_def.hpp"
+#include "GlobalNamespace/zzzz__ISonyOnlineServicesAvailabilityModel_impl.hpp"

@@ -1,0 +1,3 @@
+#pragma once
+#include "UnityEngine/Android/zzzz__AndroidAssetPackUseMobileDataRequestResult_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPackUseMobileDataRequestResult_impl.hpp"

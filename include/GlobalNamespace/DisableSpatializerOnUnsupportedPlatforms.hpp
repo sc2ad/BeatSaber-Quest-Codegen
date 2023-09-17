@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__DisableSpatializerOnUnsupportedPlatforms_def.hpp"
+#include "GlobalNamespace/zzzz__DisableSpatializerOnUnsupportedPlatforms_impl.hpp"

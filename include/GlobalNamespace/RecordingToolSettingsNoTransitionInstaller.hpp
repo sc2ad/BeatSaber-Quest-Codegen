@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__RecordingToolSettingsNoTransitionInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSettingsNoTransitionInstaller_impl.hpp"
