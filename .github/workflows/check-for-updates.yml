@@ -1,0 +1,155 @@
+name: Check for Game updates
+
+on:
+  schedule:
+    # every day at 5:45 PM UTC (should be decently after beatgames usually releases their game)
+    - cron: '45 17 * * *'
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'scripts/deno/*'
+      - 'bump.ts'
+      - 'lastversion.txt'
+
+env:
+  CORDL_GIT: "https://github.com/Fernthedev/cordl"
+  CORDL_BRANCHl: "dev/generic_methods_redo"
+
+jobs:
+  update-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Get QPM
+        if: steps.cache-qpm.outputs.cache-hit != 'true'
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          workflow: cargo-build.yml
+          name: linux-qpm
+          path: QPM
+          repo: QuestPackageManager/QPM.CLI
+
+      - name: Put QPM on path
+        run: |
+          chmod +x ./QPM/qpm
+          echo "${GITHUB_WORKSPACE}/QPM" >> $GITHUB_PATH
+
+      - name: Read old version
+        id: old_ver
+        run:
+          echo "VERSION=${{ cat ./lastversion.txt' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Hash version pre-edit
+        id: last_hash_pre
+        run: echo ::set-output name=HASH::"${{hashFiles('./lastversion.txt')}}"
+
+      - name: Download app data
+        env:
+          OCULUS_TOKEN: ${{ secrets.OCULUS_TOKEN }}
+        run: deno run --allow-read --allow-write --allow-net ./scripts/deno/appdownload.ts
+
+      - name: Read new version
+        id: new_ver
+        run:
+          echo "VERSION=${{ cat ./lastversion.txt' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Hash version post-edit
+        id: last_hash_post
+        run: echo ::set-output name=HASH::"${{hashFiles('./lastversion.txt')}}"
+
+      - name: Restore cordl cache
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ${{GITHUB_WORKSPACE}}/cordl
+          key: cordl
+
+      # cargo install into ./cordl, which should also put cordl on path according to cargo install documentation
+      - name: Install cordl
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }} && steps.cache.outputs.cache-hit != 'true'
+        env:
+          CARGO_TARGET_DIR: "./cordl"
+        run: |
+          cargo install --locked --git ${{env.CORDL_GIT}} --branch ${{env.CORDL_BRANCH}}
+
+      - name: Run cordl
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        env:
+          METADATA_PATH: "${GITHUB_WORKSPACE}/output/global-metadata.dat"
+          LIBIL2CPP_PATH: "${GITHUB_WORKSPACE}/output/libil2cpp.so"
+        run: |
+          cordl --libil2cpp $LIBIL2CPP_PATH --metadata $METADATA_PATH --format
+
+      - name: Move files
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        run: |
+          rm -rf ${GITHUB_WORKSPACE}/include
+          mv ./codegen/include ./include
+
+      - name: Configure commit
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        run: |
+          git config user.name "Github Actions"
+          git config user.email "<>"
+
+      # last version file is pushed before anything else, and to the main branch of the repo
+      - name: Commit and push new lastversion file
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        env:
+          OLD_VERSION: ${{ steps.old_ver.outputs.VERSION }}
+          NEW_VERSION: ${{ steps.new_ver.outputs.VERSION }}
+        run: |
+          git add lastversion.txt
+          git commit -m "Last version $OLD_VERSION -> $NEW_VERSION" --allow-empty
+          git push
+
+      - name: Bump package minor version
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        run: deno run --allow-run --allow-read ./scripts/deno/bump.ts
+
+      # updated qpm info also needs to go to the main branch to work correctly
+      - name: Update QPM info
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        run: |
+          qpm package edit-extra --branchName "$TARGET_BRANCH"
+          qpm restore
+          git add qpm.json qpm.shared.json
+          git commit -m "Update Package version and info" --allow-empty
+          git push
+
+      # header files go to a seperate branch unrelated to the main one
+      - name: Commit and push new header files to seperate branch
+        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        env:
+          OLD_VERSION: ${{ steps.old_ver.outputs.VERSION }}
+          NEW_VERSION: ${{ steps.new_ver.outputs.VERSION }}
+          TARGET_BRANCH: "update/bs-${{ steps.new_ver.outputs.VERSION }}"
+        run: |
+          git add ./include
+          git commit -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
+          git push -u origin $TARGET_BRANCH
+
+      - name: Get Commit ID
+        id: commit-id
+        run: |
+          echo `git rev-parse HEAD`
+          echo ::set-output name=ID::`git rev-parse HEAD`
+
+      - name: Get QPM info
+        id: qpm-info
+        uses: RedBrumbler/qpm-info@v1
+
+      - name: Create release
+        uses: ncipollo/release-action
+        with:
+          commit: ${{ steps.commit-id.outputs.ID }}
+          tag: "v${{ steps.qpm-info.outputs.version}}"
+          name: "Update for ${{ steps.new_ver.outputs.VERSION }}"
+          body: "Update from game version ${{ steps.old_ver.outputs.VERSION }} -> ${{ steps.new_ver.outputs.VERSION }}"
