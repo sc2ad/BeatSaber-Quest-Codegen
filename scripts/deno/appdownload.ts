@@ -29,7 +29,7 @@ const latest = packageversions[0];
 const binaryId = latest["id"];
 
 // get the old and new versions to compare
-const old_version_text = await Deno.readTextFile("./last.txt");
+const old_version_text = await Deno.readTextFile("./lastversion.txt");
 const old_version = semver.parse(sanitize_version(old_version_text));
 const new_version = semver.parse(sanitize_version(latest["version"]));
 
@@ -80,7 +80,7 @@ await Promise.all([
 ]);
 
 // we haven't errored, write out the new version into the text file
-await Deno.writeTextFile("last.txt", semver.format(new_version))
+await Deno.writeTextFile("lastversion.txt", semver.format(new_version))
 
 // version helper functions
 function char(c: string) : number { return c.charCodeAt(0); }
