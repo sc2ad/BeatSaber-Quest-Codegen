@@ -1,0 +1,64 @@
+{
+  "config": {
+    "sharedDir": "include",
+    "dependenciesDir": "extern",
+    "info": {
+      "name": "codegen",
+      "id": "codegen",
+      "version": "0.33.1",
+      "url": "https://github.com/sc2ad/BeatSaber-Quest-Codegen",
+      "additionalData": {
+        "overrideSoName": "libcodegen.so"
+      }
+    },
+    "dependencies": [
+      {
+        "id": "libil2cpp",
+        "versionRange": "^0.2.3",
+        "additionalData": {}
+      },
+      {
+        "id": "beatsaber-hook",
+        "versionRange": "^3.14.0",
+        "additionalData": {}
+      }
+    ],
+    "workspace": null
+  },
+  "restoredDependencies": [
+    {
+      "dependency": {
+        "id": "libil2cpp",
+        "versionRange": "=0.2.3",
+        "additionalData": {
+          "headersOnly": true
+        }
+      },
+      "version": "0.2.3"
+    },
+    {
+      "dependency": {
+        "id": "modloader",
+        "versionRange": "=1.2.3",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/QuestLoader/releases/download/v1.2.3/libmodloader64.so",
+          "overrideSoName": "libmodloader.so",
+          "branchName": "version-v1.2.3"
+        }
+      },
+      "version": "1.2.3"
+    },
+    {
+      "dependency": {
+        "id": "beatsaber-hook",
+        "versionRange": "=3.14.0",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v3.14.0/libbeatsaber-hook_3_14_0.so",
+          "debugSoLink": "https://github.com/sc2ad/beatsaber-hook/releases/download/v3.14.0/debug_libbeatsaber-hook_3_14_0.so",
+          "branchName": "version-v3.14.0"
+        }
+      },
+      "version": "3.14.0"
+    }
+  ]
+}

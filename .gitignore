@@ -1,15 +1,11 @@
-
 extern/
-qpm.lock.json
 *.backup
 *.so
 ndkpath.txt
 obj/
 libs/
-qpm.shared.json
 
 *.zip
-qpm.shared.json
 mod.json
 extern.cmake
 qpm_defines.cmake
