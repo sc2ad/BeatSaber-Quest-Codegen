@@ -176,10 +176,11 @@ jobs:
         with:
           ref: ${{ needs.generate-headers.outputs.target-branch }}
 
+      - name: Install clang format
+        run: sudo apt-get -y install clang-format
+
       - name: Format headers
-        uses: purduesigbots/clang-format-action@1.0.2
-        with:
-          style: file
+        run: deno run --allow-write --allow-run ./scripts/deno/format.ts
 
       - name: Configure commit
         run: |
