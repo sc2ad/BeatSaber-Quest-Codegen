@@ -5,6 +5,7 @@ import {
     Entry,
 } from "https://deno.land/x/zipjs@v2.7.29/index.js";
 import * as semver from "https://deno.land/std@0.202.0/semver/mod.ts";
+import * as fs from "https://deno.land/std@0.202.0/fs/mod.ts";
 
 // Which package to get
 const PACKAGE = "com.beatgames.beatsaber";
@@ -69,7 +70,9 @@ try {
 const blobReader = new BlobReader(blob);
 const apk = new ZipReader(blobReader);
 
-await Deno.remove("output", { recursive: true });
+if (fs.existsSync("output")) {
+    await Deno.remove("output", { recursive: true });
+}
 await Deno.mkdir("output", { recursive: true });
 const il2cpp_file = await Deno.open("output/libil2cpp.so", { write: true, createNew: true });
 const metadata_file = await Deno.open("output/global-metadata.dat", { write: true, createNew: true });
