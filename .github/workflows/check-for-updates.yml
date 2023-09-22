@@ -42,6 +42,10 @@ jobs:
         run: |
           echo "Latest version: ${{ steps.latest-version.outputs.version }}"
           echo "Package found: ${{ steps.latest-version.outputs.found }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found == 'true' }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found == 'false' }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found == true }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found == false }}"
 
       - name: Exit if package not found
         if: ${{ steps.latest-version.outputs.found == 'false' }}
