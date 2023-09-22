@@ -30,6 +30,7 @@ runs:
     # TODO: cache cordl install?
     - uses: actions/cache@v3
       with:
+        key: cordl-cache
         path: ${HOME}/cordl
 
     - if: ${{ inputs.cordl-ref }}
@@ -58,6 +59,6 @@ runs:
       run: cordl --libil2cpp ${{ inputs.libil2cpp-path }} --metadata ${{ inputs.metadata-path }}
       shell: bash
 
-    - run: echo "value=${CWD}/codegen/include" >> "$GITHUB_OUTPUT"
+    - run: echo "value=${CWD}/codegen/include" >> ${GITHUB_OUTPUT}
       id: include-path
       shell: bash
