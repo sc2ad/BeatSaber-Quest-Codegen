@@ -35,19 +35,19 @@ runs:
     - if: ${{ inputs.cordl-ref }}
       env:
         CARGO_TARGET_DIR: "${HOME}/cordl"
-      run: cargo install --git $ {{ inputs.cordl-git }} --rev ${{ inputs.cordl-ref}} --locked
+      run: cargo install --git ${{ inputs.cordl-git }} --rev ${{ inputs.cordl-ref }} --locked
       shell: bash
 
     - if: ${{ !inputs.cordl-ref && inputs.cordl-branch }}
       env:
         CARGO_TARGET_DIR: "${HOME}/cordl"
-      run: cargo install --git $ {{ inputs.cordl-git }} --rev ${{ inputs.cordl-branch }} --locked
+      run: cargo install --git ${{ inputs.cordl-git }} --rev ${{ inputs.cordl-branch }} --locked
       shell: bash
 
     - if: ${{ !inputs.cordl-ref && !inputs.cordl-branch }}
       env:
         CARGO_TARGET_DIR: "${HOME}/cordl"
-      run: cargo install --git $ {{ inputs.cordl-git }} --locked
+      run: cargo install --git ${{ inputs.cordl-git }} --locked
       shell: bash
 
     - if: ${{ inputs.format }}
