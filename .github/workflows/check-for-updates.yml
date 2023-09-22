@@ -133,11 +133,11 @@ jobs:
         id: qpm-info
         uses: RedBrumbler/qpm-info@main
 
-      - name: Create release
-        if: ${{ steps.version-check.outputs.update-available == 'true' }}
-        uses: ncipollo/release-action@v1
-        with:
-          commit: ${{ steps.commit-id.outputs.ID }}
-          tag: "v${{ steps.qpm-info.outputs.version}}"
-          name: "Update for ${{ steps.version-check.outputs.new-version }}"
-          body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"
+      # - name: Create release
+      #   if: ${{ steps.version-check.outputs.update-available == 'true' }}
+      #   uses: ncipollo/release-action@v1
+      #   with:
+      #     commit: ${{ steps.commit-id.outputs.ID }}
+      #     tag: "v${{ steps.qpm-info.outputs.version}}"
+      #     name: "Update for ${{ steps.version-check.outputs.new-version }}"
+      #     body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"
