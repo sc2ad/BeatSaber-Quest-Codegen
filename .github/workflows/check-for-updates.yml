@@ -44,7 +44,7 @@ jobs:
           echo "Package found: ${{ steps.latest-version.outputs.found }}"
 
       - name: Exit if package not found
-        if: ${{ steps.latest-version.outputs.found }}
+        if: ${{ !steps.latest-version.outputs.found }}
         uses: actions/github-script@v6
         with:
           script: core.setFailed('package was not found!')
