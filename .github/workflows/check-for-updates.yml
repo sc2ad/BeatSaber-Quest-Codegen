@@ -58,7 +58,7 @@ jobs:
             const tags = await github.rest.repos.listTags({
               owner: context.repo.owner,
               repo: context.repo.repo,
-            }).then(response => response.json());
+            });
             const tag = tags.find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
             return tag === undefined;
 
