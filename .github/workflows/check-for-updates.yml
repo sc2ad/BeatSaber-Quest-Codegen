@@ -42,19 +42,15 @@ jobs:
         run: |
           echo "Latest version: ${{ steps.latest-version.outputs.version }}"
           echo "Package found: ${{ steps.latest-version.outputs.found }}"
-          echo "Package found: ${{ steps.latest-version.outputs.found == 'true' }}"
-          echo "Package found: ${{ steps.latest-version.outputs.found == 'false' }}"
-          echo "Package found: ${{ steps.latest-version.outputs.found == true }}"
-          echo "Package found: ${{ steps.latest-version.outputs.found == false }}"
 
       - name: Exit if package not found
-        if: ${{ steps.latest-version.outputs.found == 'false' }}
+        if: ${{ steps.latest-version.outputs.found }}
         uses: actions/github-script@v6
         with:
           script: core.setFailed('package was not found!')
 
       - name: Check if tag exists for latest version
-        if: ${{ steps.latest-version.outputs.found == 'true' }}
+        if: ${{ steps.latest-version.outputs.found }}
         id: version-check
         uses: actions/github-script@v6
         with:
