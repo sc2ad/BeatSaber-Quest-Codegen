@@ -147,7 +147,7 @@ jobs:
         uses: RedBrumbler/qpm-info@v1
 
       - name: Create release
-        uses: ncipollo/release-action
+        uses: ncipollo/release-action@v1
         with:
           commit: ${{ steps.commit-id.outputs.ID }}
           tag: "v${{ steps.qpm-info.outputs.version}}"
