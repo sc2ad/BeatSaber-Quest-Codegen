@@ -67,7 +67,7 @@ jobs:
           cordl-branch: ${{env.CORDL_BRANCH}}
           libil2cpp-path: "${GITHUB_WORKSPACE}/output/libil2cpp.so"
           metadata-path: "${GITHUB_WORKSPACE}/output/global-metadata.dat"
-          format: true
+          format: false
 
       - name: Move files
         if: ${{ steps.version-check.outputs.update-available }}
