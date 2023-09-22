@@ -7,7 +7,7 @@ inputs:
     description: "Name of the package to check for"
 outputs:
   version:
-    value: "${{ steps.version.outputs.version }}"
+    value: ${{ steps.version.outputs.version }}
     description: "Latest version found"
   found:
     value: "${{ steps.version.outputs.found }}"
