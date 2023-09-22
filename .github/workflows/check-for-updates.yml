@@ -10,7 +10,7 @@ on:
       - 'master'
       - 'feat/auto-generation'
     paths:
-      - '.github/actions/app-download/*'
+      - '.github/actions/download-app/*'
       - '.github/actions/get-latest-version/*'
       - '.github/actions/cordl-run/*'
       - '.github/workflows/check-for-updates.yml'
