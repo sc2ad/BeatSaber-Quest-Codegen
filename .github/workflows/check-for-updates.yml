@@ -143,7 +143,7 @@ jobs:
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
-          git tag ${{ steps.latest-version.outputs.version }}
+          git tag ${{ needs.update-check.outputs.version }}
           git commit -q -m "Update headers -> $NEW_VERSION" --allow-empty
           git push --set-upstream origin $TARGET_BRANCH
 
@@ -157,13 +157,14 @@ jobs:
         id: qpm-info
         uses: RedBrumbler/qpm-info@main
 
-      - name: Create release
-        uses: ncipollo/release-action@v1
-        with:
-          commit: ${{ steps.commit-id.outputs.ID }}
-          tag: "v${{ steps.qpm-info.outputs.version}}"
-          name: "Update for ${{ steps.version-check.outputs.new-version }}"
-          body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"
+      # don't create a release while testing
+      # - name: Create release
+      #   uses: ncipollo/release-action@v1
+      #   with:
+      #     commit: ${{ steps.commit-id.outputs.ID }}
+      #     tag: "v${{ steps.qpm-info.outputs.version}}"
+      #     name: "Update for ${{ needs.update-check.outputs.version }}"
+      #     body: "Update for game version ${{ needs.update-check.outputs.version }}"
 
   format-headers:
     runs-on: ubuntu-latest
@@ -176,4 +177,17 @@ jobs:
           ref: ${{ needs.generate-headers.outputs.target-branch }}
 
       - name: Format headers
-        run: echo "TODO"
+        uses: purduesigbots/clang-format-action@1
+        with:
+          style: file
+
+      - name: Configure commit
+        run: |
+          git config user.name "Github Actions"
+          git config user.email "<>"
+
+      - name: Commit formatted files
+        run: |
+          git add ./include
+          git commit -q -m "Format files"
+          git push -u origin ${{ needs.generate-headers.outputs.target-branch }}
