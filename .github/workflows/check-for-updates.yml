@@ -117,16 +117,17 @@ jobs:
           NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
           TARGET_BRANCH: "update/bs-${{ steps.version-check.outputs.new-version }}"
         run: |
+          git checkout -b $TARGET_BRANCH
           git add ./include
           git commit -q -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
-          git push -u origin $TARGET_BRANCH
+          git push --set-upstream origin $TARGET_BRANCH
 
       - name: Get Commit ID
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: commit-id
         run: |
-          echo `git rev-parse HEAD`
-          echo ::set-output name=ID::`git rev-parse HEAD`
+          echo $(git rev-parse HEAD)
+          echo "ID=$(git rev-parse HEAD)" >> ${GITHUB_OUTPUT}
 
       - name: Get QPM info
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
