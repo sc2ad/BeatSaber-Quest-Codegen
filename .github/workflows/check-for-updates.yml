@@ -143,8 +143,8 @@ jobs:
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
-          git tag ${{ needs.update-check.outputs.version }}
           git commit -q -m "Update headers -> $NEW_VERSION" --allow-empty
+          git tag ${{ needs.update-check.outputs.version }}
           git push --set-upstream origin $TARGET_BRANCH
 
       - name: Get Commit ID
