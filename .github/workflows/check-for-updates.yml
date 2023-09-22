@@ -10,7 +10,8 @@ on:
       - 'master'
       - 'feat/auto-generation'
     paths:
-      - '.github/actions/app-update.yml'
+      - '.github/actions/app-update/*'
+      - '.github/actions/cordl-run/*'
       - '.github/workflows/check-for-updates.yml'
       - 'scripts/deno/*'
       - 'lastversion.txt'

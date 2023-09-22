@@ -21,7 +21,7 @@ runs:
       with:
         deno-version: v1.x
 
-    - run: echo "old-version=${{ cat ${ inputs.last-version-file } }}" >> "$GITHUB_OUTPUT"
+    - run: echo "old-version=${{ `cat ${ inputs.last-version-file }` }}" >> "$GITHUB_OUTPUT"
       shell: bash
 
     - run: deno run --allow-read --allow-write --allow-net ./scripts/deno/appdownload.ts
@@ -29,7 +29,7 @@ runs:
         OCULUS_TOKEN: $ {{ inputs.oculus-token }}
       shell: bash
 
-    - run: echo "new-version=${{ cat ${ inputs.last-version-file } }}" >> "$GITHUB_OUTPUT"
+    - run: echo "new-version=${{ `cat ${ inputs.last-version-file }` }}" >> "$GITHUB_OUTPUT"
       shell: bash
 
     - run: echo "update-available=${{ outputs.new-version != outputs.old-version }}" >> "$GITHUB_OUTPUT"
