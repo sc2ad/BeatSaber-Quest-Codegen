@@ -22,7 +22,7 @@ runs:
     - id: version
       env:
         PACKAGE: ${{ inputs.package }}
-      run: deno --allow-write --allow-net --allow-env ./scripts/deno/latestversion.ts
+      run: deno run --allow-write --allow-net --allow-env ./scripts/deno/latestversion.ts
       shell: bash
 
     - run: |
