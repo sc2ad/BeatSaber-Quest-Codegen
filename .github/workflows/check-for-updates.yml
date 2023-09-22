@@ -18,7 +18,7 @@ on:
 
 env:
   CORDL_GIT: "https://github.com/Fernthedev/cordl"
-  CORDL_BRANCHl: "dev/generic_methods_redo"
+  CORDL_BRANCH: "dev/generic_methods_redo"
 
 jobs:
   update-check:
