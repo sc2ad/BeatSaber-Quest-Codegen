@@ -28,7 +28,7 @@ runs:
       id: old-ver
       shell: bash
 
-    - run: deno run --allow-read --allow-write --allow-net ./scripts/deno/appdownload.ts
+    - run: deno run --allow-read --allow-write --allow-net --allow-env ./scripts/deno/appdownload.ts
       env:
         OCULUS_TOKEN: $ {{ inputs.oculus-token }}
       shell: bash
