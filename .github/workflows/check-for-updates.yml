@@ -108,6 +108,21 @@ jobs:
       # we checkout a new branch so that we can test multiple times instead of having to delete commits from a used branch
       # this preemptive push will eventually be removed
 
+      - name: Get QPM
+        if: steps.cache-qpm.outputs.cache-hit != 'true'
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          workflow: cargo-build.yml
+          name: linux-qpm
+          path: QPM
+          repo: QuestPackageManager/QPM.CLI
+
+      - name: Put QPM on path
+        run: |
+          chmod +x ./QPM/qpm
+          echo "${GITHUB_WORKSPACE}/QPM" >> $GITHUB_PATH
+
       - name: Bump package minor version
         run: deno run --allow-run --allow-read ./scripts/deno/bump.ts
 
