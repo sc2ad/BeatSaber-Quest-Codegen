@@ -55,10 +55,11 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const tag = github.rest.repos.listTags({
+            const tags = await github.rest.repos.listTags({
               owner: context.repo.owner,
               repo: context.repo.repo,
-            }).find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
+            }).then(response => response.json());
+            const tag = tags.find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
             return tag === undefined;
 
   generate-headers:
