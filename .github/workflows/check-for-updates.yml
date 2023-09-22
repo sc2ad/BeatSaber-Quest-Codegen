@@ -177,7 +177,7 @@ jobs:
           ref: ${{ needs.generate-headers.outputs.target-branch }}
 
       - name: Format headers
-        uses: purduesigbots/clang-format-action@1
+        uses: purduesigbots/clang-format-action@1.0.2
         with:
           style: file
 
