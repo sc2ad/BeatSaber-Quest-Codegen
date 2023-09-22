@@ -74,7 +74,7 @@ jobs:
 
       - name: Output header branch name
         id: target-branch
-        run: echo "value='update/$BRANCH_PREFIX-${{ needs.update-check.outputs.version }}"
+        run: echo "value='update/$BRANCH_PREFIX-${{ needs.update-check.outputs.version }}'"
 
       - name: Download app
         id: download
