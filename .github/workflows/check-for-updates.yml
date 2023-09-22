@@ -59,6 +59,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
+            console.debug(tags);
             const tag = tags.find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
             return tag === undefined;
 
