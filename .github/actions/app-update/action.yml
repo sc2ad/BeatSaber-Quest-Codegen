@@ -9,10 +9,13 @@ inputs:
     description: "Token to access the oculus api"
 outputs:
   update-available:
+    value: ${{ steps.update-available.outputs.value }}
     description: "Whether an update was available"
   old-version:
+    value: ${{ steps.old-ver.outputs.version }}
     description: "The old version that was stored"
   new-version:
+    value: ${{ steps.new-ver.outputs.version }}
     description: "The new version that was downloaded"
 runs:
   using: 'composite'
@@ -25,9 +28,6 @@ runs:
       id: old-ver
       shell: bash
 
-    - run: echo "old-version='${{ steps.old-ver.outputs.version }}'" >> ${GITHUB_OUTPUT}
-      shell: bash
-
     - run: deno run --allow-read --allow-write --allow-net --allow-env ./scripts/deno/appdownload.ts
       env:
         OCULUS_TOKEN: ${{ inputs.oculus-token }}
@@ -37,8 +37,6 @@ runs:
       id: new-ver
       shell: bash
 
-    - run: echo "new-version='${{ steps.new-ver.outputs.version }}'" >> "$GITHUB_OUTPUT"
-      shell: bash
-
-    - run: echo "update-available=${{ steps.new-ver.outputs.version != steps.old-ver.outputs.version }}" >> "$GITHUB_OUTPUT"
+    - run: echo "value=${{ steps.new-ver.outputs.version != steps.old-ver.outputs.version }}" >> "$GITHUB_OUTPUT"
+      id: update-available
       shell: bash
