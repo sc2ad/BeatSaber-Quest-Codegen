@@ -122,7 +122,7 @@ jobs:
       - name: Get QPM info
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: qpm-info
-        uses: RedBrumbler/qpm-info@v1
+        uses: RedBrumbler/read-qpm-info@v1
 
       - name: Create release
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
