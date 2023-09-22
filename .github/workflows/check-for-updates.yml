@@ -55,7 +55,10 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const tag = github.rest.tags.find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
+            const tag = github.rest.repos.listTags({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            }).find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
             return tag === undefined;
 
   generate-headers:
@@ -129,7 +132,7 @@ jobs:
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
-          git tag bs-${{ steps.latest-version.outputs.version }}
+          git tag ${{ steps.latest-version.outputs.version }}
           git commit -q -m "Update headers -> $NEW_VERSION" --allow-empty
           git push --set-upstream origin $TARGET_BRANCH
 
