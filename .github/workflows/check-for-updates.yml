@@ -38,6 +38,11 @@ jobs:
         with:
           package: ${{ env.ANDROID_PACKAGE }}
 
+      - name: Print version results
+        run: |
+          echo "Latest version: ${{ steps.latest-version.outputs.version }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found }}"
+
       - name: Exit if package not found
         if: ${{ steps.latest-version.outputs.found == 'false' }}
         uses: actions/github-script@v6
