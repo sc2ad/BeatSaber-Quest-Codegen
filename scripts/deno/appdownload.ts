@@ -11,6 +11,10 @@ const PACKAGE = "com.beatgames.beatsaber";
 
 // Token file, only get the data up until the first newline if there is a newline at all
 const OCULUS_TOKEN = Deno.env.get("OCULUS_TOKEN");
+if (OCULUS_TOKEN === undefined) {
+    console.error("Oculus token was undefined")
+    Deno.exit(1);
+}
 
 // get the package info for our specific package
 const packageinfo = await fetch(`https://oculusdb.rui2015.me/api/v1/packagename/${PACKAGE}`).then(response => { return response.json(); });
@@ -27,6 +31,7 @@ const latest = packageversions[0];
 
 // binary Id for latest version
 const binaryId = latest["id"];
+console.log(`Getting binary: ${binaryId}`)
 
 // get the old and new versions to compare
 const old_version_text = await Deno.readTextFile("./lastversion.txt");
