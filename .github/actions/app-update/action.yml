@@ -24,7 +24,7 @@ runs:
     - run: echo "old-version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
       shell: bash
 
-    - run: echo "old-version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
+    - run: echo "version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
       id: old-ver
       shell: bash
 
@@ -36,9 +36,12 @@ runs:
     - run: echo "new-version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
       shell: bash
 
-    - run: echo "new-version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
+    - run: echo "version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"
       id: new-ver
       shell: bash
 
-    - run: echo "update-available=${{ steps.new-ver.outputs.new-version != steps.old-ver.outputs.old-version }}" >> "$GITHUB_OUTPUT"
+    - run: |
+        echo "Old version: ${{ steps.old-ver.outputs.version}}"
+        echo "New version: ${{ steps.new-ver.outputs.version}}"
+        echo "update-available=${{ steps.new-ver.outputs.version != steps.old-ver.outputs.version }}" >> "$GITHUB_OUTPUT"
       shell: bash
