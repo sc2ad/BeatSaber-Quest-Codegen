@@ -27,11 +27,20 @@ outputs:
 runs:
   using: "composite"
   steps:
-    # TODO: cache cordl install?
     - uses: actions/cache@v3
       with:
         key: cordl-cache
         path: ${HOME}/cordl
+
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly-2023-07-16
+
+    - if: ${{ !inputs.cordl-ref && !inputs.cordl-branch }}
+      env:
+        CARGO_TARGET_DIR: "${HOME}/cordl"
+      run: cargo install --git ${{ inputs.cordl-git }} --locked
+      shell: bash
 
     - if: ${{ inputs.cordl-ref }}
       env:
@@ -43,12 +52,6 @@ runs:
       env:
         CARGO_TARGET_DIR: "${HOME}/cordl"
       run: cargo install --git ${{ inputs.cordl-git }} --branch ${{ inputs.cordl-branch }} --locked
-      shell: bash
-
-    - if: ${{ !inputs.cordl-ref && !inputs.cordl-branch }}
-      env:
-        CARGO_TARGET_DIR: "${HOME}/cordl"
-      run: cargo install --git ${{ inputs.cordl-git }} --locked
       shell: bash
 
     - if: ${{ inputs.format }}
