@@ -13,7 +13,7 @@ inputs:
   libil2cpp-path:
     required: true
     description: "Path to libil2cpp.so"
-  globalmetadata-path:
+  metadata-path:
     required: true
     description: "Path to global-metadata.dat"
   format:
