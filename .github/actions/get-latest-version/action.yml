@@ -1,0 +1,31 @@
+name: "Get latest version"
+description: "Gets the latest version number of a package from oculusdb"
+
+inputs:
+  package:
+    required: true
+    description: "Name of the package to check for"
+outputs:
+  version:
+    value: "${{ steps.version.outputs.version }}"
+    description: "Latest version found"
+  found:
+    value: "${{ steps.version.outputs.found }}"
+    description: "Whether the package was even found"
+runs:
+  using: "composite"
+  steps:
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
+
+    - id: version
+      with:
+        PACKAGE: ${{ inputs.package }}
+      run: deno --allow-write --allow-net --allow-env ./scripts/deno/latestversion.ts
+      shell: bash
+
+    - run: |
+        echo "Latest version: ${{ steps.version.outputs.version }}"
+        echo "Package found: ${{ steps.version.outputs.found }}"
+      shell: bash

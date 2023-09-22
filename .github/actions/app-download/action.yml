@@ -1,0 +1,36 @@
+name: "Download oculus app"
+description: "Downloads an app from the oculus cdn, and extracts the libil2cpp and global metadata files into output"
+inputs:
+  oculus-token:
+    required: true
+    description: "Oculus token used for downloading the app"
+  package:
+    required: true
+    description: "Name of the package to download"
+  version:
+    required: true
+    description: "Version of the package to download"
+outputs:
+  found:
+    value: '${{ steps.download.outputs.found }}'
+    description: "Whether the app was found"
+  libil2cpp-path:
+    value: '${{ steps.download.outputs.libil2cpp-path }}'
+    description: "The path to the libil2cpp.so file"
+  metadata-path:
+    value: '${{ steps.download.outputs.metadata-path }}'
+    description: "The path to the global-metadata.dat file"
+runs:
+  using: "composite"
+  steps:
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
+
+    - id: download
+      env:
+        OCULUS_TOKEN: ${{ inputs.oculus-token }}
+        PACKAGE: ${{ inputs.package }}
+        VERSION: ${{ inputs.version }}
+      run: deno --allow-read --allow-write --allow-env --allow-net ./scripts/deno/download.ts
+      shell: bash

@@ -10,63 +10,79 @@ on:
       - 'master'
       - 'feat/auto-generation'
     paths:
-      - '.github/actions/app-update/*'
+      - '.github/actions/app-download/*'
+      - '.github/actions/get-latest-version/*'
       - '.github/actions/cordl-run/*'
       - '.github/workflows/check-for-updates.yml'
       - 'scripts/deno/*'
       - 'lastversion.txt'
 
 env:
+  ANDROID_PACKAGE: "com.beatgames.beatsaber"
+  BRANCH_PREFIX: "bs"
   CORDL_GIT: "https://github.com/Fernthedev/cordl"
   CORDL_BRANCH: "dev/generic_methods_redo"
 
 jobs:
   update-check:
     runs-on: ubuntu-latest
+    outputs:
+      update-happened: ${{ steps.version-check.outputs.result }}
+      version: ${{ steps.latest-version.outputs.version }}
     steps:
       - uses: actions/checkout@v2
-      - uses: denoland/setup-deno@v1
+
+      - name: Get latest version number
+        id: latest-version
+        uses: ./.github/actions/get-latest-version
         with:
-          deno-version: v1.x
+          package: ${{ env.ANDROID_PACKAGE }}
 
-      - name: Get QPM
-        if: steps.cache-qpm.outputs.cache-hit != 'true'
-        uses: dawidd6/action-download-artifact@v2
+      - name: Exit if package not found
+        if: ${{ steps.latest-version.outputs.found == 'false' }}
+        uses: actions/github-script@v6
         with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-          workflow: cargo-build.yml
-          name: linux-qpm
-          path: QPM
-          repo: QuestPackageManager/QPM.CLI
+          script: core.setFailed('package was not found!')
 
-      - name: Put QPM on path
-        run: |
-          chmod +x ./QPM/qpm
-          echo "${GITHUB_WORKSPACE}/QPM" >> $GITHUB_PATH
-
-      - name: Check for app updates
-        uses: ./.github/actions/app-update
+      - name: Check if tag exists for latest version
+        if: ${{ steps.latest-version.outputs.found == 'true' }}
         id: version-check
+        uses: actions/github-script@v6
         with:
-          oculus-token: ${{ secrets.OCULUS_TOKEN }}
-          last-version-file: "${GITHUB_WORKSPACE}/lastversion.txt"
+          script: |
+            const tag = github.rest.tags.find(tag => { return tag == ${{ steps.latest-version.outputs.version }}; });
+            return tag === undefined;
 
-      - name: Print app update results
-        run: |
-          echo "Old version: ${{ steps.version-check.outputs.old-version}}"
-          echo "New version: ${{ steps.version-check.outputs.new-version}}"
-          echo "Update available: ${{ steps.version-check.outputs.update-available}}"
-          ls -la ./output/
+  generate-headers:
+    runs-on: ubuntu-latest
+    needs: update-check
+    outputs:
+      target-branch: ${{ steps.target-branch.outputs.value }}
+    if: ${{ needs.update-check.outputs.update-happened == 'true' }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Output header branch name
+        id: target-branch
+        run: echo "value='update/$BRANCH_PREFIX-${{ needs.update-check.outputs.version }}"
+
+      - name: Download app
+        id: download
+        uses: ./.github/actions/download-app
+        with:
+          package:  ${{ env.ANDROID_PACKAGE }}
+          version: ${{ needs.update-check.outputs.version }}
+          oculus-token: ${{ secrets.OCULUS_TOKEN }}
 
       - name: Run cordl
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: cordl-run
         uses: ./.github/actions/cordl-run
         with:
-          cordl-git: ${{env.CORDL_GIT}}
-          cordl-branch: ${{env.CORDL_BRANCH}}
-          libil2cpp-path: "${GITHUB_WORKSPACE}/output/libil2cpp.so"
-          metadata-path: "${GITHUB_WORKSPACE}/output/global-metadata.dat"
+          cordl-git: ${{ env.CORDL_GIT }}
+          cordl-branch: ${{ env.CORDL_BRANCH }}
+          libil2cpp-path: ${{ steps.download.outputs.libil2cpp-path }}
+          metadata-path: ${{ steps.download.outputs.metadata-path }}
           format: false
 
       - name: Move files
@@ -80,20 +96,10 @@ jobs:
         run: |
           git config user.name "Github Actions"
           git config user.email "<>"
-          git checkout -b test-${{ steps.version-check.outputs.new-version }}
-          git push --set-upstream origin test-${{ steps.version-check.outputs.new-version }}
+          git checkout -b test-${{ steps.target-branch.outputs.value }}
+          git push --set-upstream origin test-${{ steps.target-branch.outputs.value }}
       # we checkout a new branch so that we can test multiple times instead of having to delete commits from a used branch
-
-      # last version file is pushed before anything else, and to the main branch of the repo
-      - name: Commit and push new lastversion file
-        if: ${{ steps.version-check.outputs.update-available == 'true' }}
-        env:
-          OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
-          NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
-        run: |
-          git add lastversion.txt
-          git commit -m "Last version $OLD_VERSION -> $NEW_VERSION" --allow-empty
-          git push
+      # this preemptive push will eventually be removed
 
       - name: Bump package minor version
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
@@ -103,7 +109,7 @@ jobs:
       - name: Update QPM info
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
-          qpm package edit-extra --branchName "$TARGET_BRANCH"
+          qpm package edit-extra --branchName ${{ steps.target-branch.outputs.value }}
           qpm restore
           git add qpm.json qpm.shared.json
           git commit -m "Update Package version and info" --allow-empty
@@ -113,13 +119,13 @@ jobs:
       - name: Commit and push new header files to seperate branch
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
-          OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
           NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
-          TARGET_BRANCH: "update/bs-${{ steps.version-check.outputs.new-version }}"
+          TARGET_BRANCH: ${{ steps.target-branch.outputs.value }}
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
-          git commit -q -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
+          git tag bs-${{ steps.latest-version.outputs.version }}
+          git commit -q -m "Update headers -> $NEW_VERSION" --allow-empty
           git push --set-upstream origin $TARGET_BRANCH
 
       - name: Get Commit ID
@@ -134,11 +140,24 @@ jobs:
         id: qpm-info
         uses: RedBrumbler/qpm-info@main
 
-      # - name: Create release
-      #   if: ${{ steps.version-check.outputs.update-available == 'true' }}
-      #   uses: ncipollo/release-action@v1
-      #   with:
-      #     commit: ${{ steps.commit-id.outputs.ID }}
-      #     tag: "v${{ steps.qpm-info.outputs.version}}"
-      #     name: "Update for ${{ steps.version-check.outputs.new-version }}"
-      #     body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"
+      - name: Create release
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
+        uses: ncipollo/release-action@v1
+        with:
+          commit: ${{ steps.commit-id.outputs.ID }}
+          tag: "v${{ steps.qpm-info.outputs.version}}"
+          name: "Update for ${{ steps.version-check.outputs.new-version }}"
+          body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"
+
+  format-headers:
+    runs-on: ubuntu-latest
+    needs: [ update-check, generate-headers ]
+    if: ${{ needs.update-check.outputs.update-happened == 'true' }}
+    steps:
+      - name: Checkout updated branch
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ needs.generate-headers.outputs.target-branch }}
+
+      - name: Format headers
+        run: echo "TODO"
