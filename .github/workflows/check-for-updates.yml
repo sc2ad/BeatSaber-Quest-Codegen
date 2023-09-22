@@ -49,7 +49,7 @@ jobs:
         id: version-check
         with:
           oculus-token: ${{ secrets.OCULUS_TOKEN }}
-          last-version-file: "${GITHUB_WORKSPACE}/lastversion.text"
+          last-version-file: "${GITHUB_WORKSPACE}/lastversion.txt"
 
       - name: Run cordl
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
