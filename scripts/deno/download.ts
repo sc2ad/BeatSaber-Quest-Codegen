@@ -11,7 +11,7 @@ import { sanitize_version } from "./versionhelpers.ts";
 const GITHUB_OUTPUT = Deno.env.get('GITHUB_OUTPUT');
 
 async function setOutput(name: string, value: string) {
-    await Deno.writeFile(GITHUB_OUTPUT, `${name}='${value}'`, { append: true });
+    await Deno.writeTextFile(GITHUB_OUTPUT, `${name}="${value}"\n`, { append: true });
 }
 
 const PACKAGE = Deno.env.get('PACKAGE');

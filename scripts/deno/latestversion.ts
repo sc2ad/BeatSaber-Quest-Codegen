@@ -15,7 +15,7 @@ try {
     });
 } catch (error) {
     if (error instanceof Error) {
-        await Deno.writeFile(GITHUB_OUTPUT, `found="false"\n`, { append: true });
+        await Deno.writeTextFile(GITHUB_OUTPUT, `found="false"\n`, { append: true });
     }
 }
 
@@ -28,5 +28,5 @@ const packageversions = await fetch(`https://oculusdb.rui2015.me/api/v1/versions
 // TODO: sort instead of assuming first is latest
 const latest = packageversions[0];
 
-await Deno.writeFile(GITHUB_OUTPUT, `version="${sanitize_version(latest["version"])}\n"`, { append: true });
-await Deno.writeFile(GITHUB_OUTPUT, `found="true"\n`, { append: true });
+await Deno.writeTextFile(GITHUB_OUTPUT, `version="${sanitize_version(latest["version"])}"\n`, { append: true });
+await Deno.writeTextFile(GITHUB_OUTPUT, `found="true"\n`, { append: true });
