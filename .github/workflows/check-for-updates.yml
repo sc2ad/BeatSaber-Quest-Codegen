@@ -59,7 +59,8 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
-            const tag = tags.data.find(tag => { return tag.name == 'bs-${{ steps.latest-version.outputs.version }}'; });
+            const version = `bs-${ ${{ steps.latest-version.outputs.version }} }`;
+            const tag = tags.data.find(tag => { return tag.name == ; });
             return tag === undefined;
 
   generate-headers:
