@@ -9,13 +9,13 @@ inputs:
     description: "Token to access the oculus api"
 outputs:
   update-available:
-    value: ${{ steps.update-available.outputs.value }}
+    value: "${{ steps.update-available.outputs.value }}"
     description: "Whether an update was available"
   old-version:
-    value: ${{ steps.old-ver.outputs.version }}
+    value: "${{ steps.old-ver.outputs.version }}"
     description: "The old version that was stored"
   new-version:
-    value: ${{ steps.new-ver.outputs.version }}
+    value: "${{ steps.new-ver.outputs.version }}"
     description: "The new version that was downloaded"
 runs:
   using: 'composite'

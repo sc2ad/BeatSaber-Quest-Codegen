@@ -59,7 +59,7 @@ jobs:
           ls -la ./output/
 
       - name: Run cordl
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: cordl-run
         uses: ./.github/actions/cordl-run
         with:
@@ -70,13 +70,13 @@ jobs:
           format: false
 
       - name: Move files
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           rm -rf ${GITHUB_WORKSPACE}/include
           mv ${{ steps.cordl-run.outputs.include-path }} ${GITHUB_WORKSPACE}/include
 
       - name: Configure commit
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           git config user.name "Github Actions"
           git config user.email "<>"
@@ -85,7 +85,7 @@ jobs:
 
       # last version file is pushed before anything else, and to the main branch of the repo
       - name: Commit and push new lastversion file
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
           OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
           NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
@@ -95,12 +95,12 @@ jobs:
           git push
 
       - name: Bump package minor version
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: deno run --allow-run --allow-read ./scripts/deno/bump.ts
 
       # updated qpm info also needs to go to the main branch to work correctly
       - name: Update QPM info
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           qpm package edit-extra --branchName "$TARGET_BRANCH"
           qpm restore
@@ -110,7 +110,7 @@ jobs:
 
       # header files go to a seperate branch unrelated to the main one
       - name: Commit and push new header files to seperate branch
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
           OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
           NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
@@ -121,19 +121,19 @@ jobs:
           git push -u origin $TARGET_BRANCH
 
       - name: Get Commit ID
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: commit-id
         run: |
           echo `git rev-parse HEAD`
           echo ::set-output name=ID::`git rev-parse HEAD`
 
       - name: Get QPM info
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: qpm-info
         uses: RedBrumbler/qpm-info@main
 
       - name: Create release
-        if: ${{ steps.version-check.outputs.update-available }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         uses: ncipollo/release-action@v1
         with:
           commit: ${{ steps.commit-id.outputs.ID }}

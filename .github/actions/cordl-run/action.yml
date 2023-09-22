@@ -54,13 +54,13 @@ runs:
       run: cargo +nightly-2023-07-16 install --git ${{ inputs.cordl-git }} --branch ${{ inputs.cordl-branch }} --locked
       shell: bash
 
-    - if: ${{ inputs.format }}
+    - if: ${{ inputs.format == 'true' }}
       env:
         RUST_LOG: error
       run: cordl --libil2cpp ${{ inputs.libil2cpp-path }} --metadata ${{ inputs.metadata-path }} --format
       shell: bash
 
-    - if: ${{ !inputs.format }}
+    - if: ${{ inputs.format == 'false' }}
       env:
         RUST_LOG: error
       run: cordl --libil2cpp ${{ inputs.libil2cpp-path }} --metadata ${{ inputs.metadata-path }}
