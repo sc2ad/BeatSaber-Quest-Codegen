@@ -118,7 +118,7 @@ jobs:
           TARGET_BRANCH: "update/bs-${{ steps.version-check.outputs.new-version }}"
         run: |
           git add ./include
-          git commit -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
+          git commit -q -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
           git push -u origin $TARGET_BRANCH
 
       - name: Get Commit ID
