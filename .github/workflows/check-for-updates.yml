@@ -8,8 +8,9 @@ on:
     branches:
       - 'master'
     paths:
+      - '.github/actions/app-update.yml'
+      - '.github/workflows/check-for-updates.yml'
       - 'scripts/deno/*'
-      - 'bump.ts'
       - 'lastversion.txt'
 
 env:
@@ -40,31 +41,15 @@ jobs:
           chmod +x ./QPM/qpm
           echo "${GITHUB_WORKSPACE}/QPM" >> $GITHUB_PATH
 
-      - name: Read old version
-        id: old_ver
-        run:
-          echo "VERSION=${{ cat ./lastversion.txt' }}" >> "$GITHUB_OUTPUT"
-
-      - name: Hash version pre-edit
-        id: last_hash_pre
-        run: echo ::set-output name=HASH::"${{hashFiles('./lastversion.txt')}}"
-
-      - name: Download app data
-        env:
-          OCULUS_TOKEN: ${{ secrets.OCULUS_TOKEN }}
-        run: deno run --allow-read --allow-write --allow-net ./scripts/deno/appdownload.ts
-
-      - name: Read new version
-        id: new_ver
-        run:
-          echo "VERSION=${{ cat ./lastversion.txt' }}" >> "$GITHUB_OUTPUT"
-
-      - name: Hash version post-edit
-        id: last_hash_post
-        run: echo ::set-output name=HASH::"${{hashFiles('./lastversion.txt')}}"
+      - name: Check for app updates
+        uses: ./app-update
+        id: version-check
+        with:
+          oculus_token: ${{ secrets.OCULUS_TOKEN }}
+          last-version-file: "${GITHUB_WORKSPACE}/lastversion.text"
 
       - name: Restore cordl cache
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         id: cache
         uses: actions/cache@v3
         with:
@@ -73,14 +58,14 @@ jobs:
 
       # cargo install into ./cordl, which should also put cordl on path according to cargo install documentation
       - name: Install cordl
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }} && steps.cache.outputs.cache-hit != 'true'
+        if: ${{ steps.version-check.outputs.update-available == 'true' && steps.cache.outputs.cache-hit != 'true' }}
         env:
           CARGO_TARGET_DIR: "./cordl"
         run: |
           cargo install --locked --git ${{env.CORDL_GIT}} --branch ${{env.CORDL_BRANCH}}
 
       - name: Run cordl
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
           METADATA_PATH: "${GITHUB_WORKSPACE}/output/global-metadata.dat"
           LIBIL2CPP_PATH: "${GITHUB_WORKSPACE}/output/libil2cpp.so"
@@ -88,35 +73,35 @@ jobs:
           cordl --libil2cpp $LIBIL2CPP_PATH --metadata $METADATA_PATH --format
 
       - name: Move files
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           rm -rf ${GITHUB_WORKSPACE}/include
           mv ./codegen/include ./include
 
       - name: Configure commit
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           git config user.name "Github Actions"
           git config user.email "<>"
 
       # last version file is pushed before anything else, and to the main branch of the repo
       - name: Commit and push new lastversion file
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
-          OLD_VERSION: ${{ steps.old_ver.outputs.VERSION }}
-          NEW_VERSION: ${{ steps.new_ver.outputs.VERSION }}
+          OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
+          NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
         run: |
           git add lastversion.txt
           git commit -m "Last version $OLD_VERSION -> $NEW_VERSION" --allow-empty
           git push
 
       - name: Bump package minor version
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: deno run --allow-run --allow-read ./scripts/deno/bump.ts
 
       # updated qpm info also needs to go to the main branch to work correctly
       - name: Update QPM info
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           qpm package edit-extra --branchName "$TARGET_BRANCH"
           qpm restore
@@ -126,11 +111,11 @@ jobs:
 
       # header files go to a seperate branch unrelated to the main one
       - name: Commit and push new header files to seperate branch
-        if: ${{ steps.last_hash_pre.outputs.HASH != steps.last_hash_post.outputs.HASH }}
+        if: ${{ steps.version-check.outputs.update-available == 'true' }}
         env:
-          OLD_VERSION: ${{ steps.old_ver.outputs.VERSION }}
-          NEW_VERSION: ${{ steps.new_ver.outputs.VERSION }}
-          TARGET_BRANCH: "update/bs-${{ steps.new_ver.outputs.VERSION }}"
+          OLD_VERSION: ${{ steps.version-check.outputs.old-version }}
+          NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
+          TARGET_BRANCH: "update/bs-${{ steps.version-check.outputs.new-version }}"
         run: |
           git add ./include
           git commit -m "Update headers from $OLD_VERSION -> $NEW_VERSION" --allow-empty
@@ -151,5 +136,5 @@ jobs:
         with:
           commit: ${{ steps.commit-id.outputs.ID }}
           tag: "v${{ steps.qpm-info.outputs.version}}"
-          name: "Update for ${{ steps.new_ver.outputs.VERSION }}"
-          body: "Update from game version ${{ steps.old_ver.outputs.VERSION }} -> ${{ steps.new_ver.outputs.VERSION }}"
+          name: "Update for ${{ steps.version-check.outputs.new-version }}"
+          body: "Update from game version ${{ steps.version-check.outputs.old-version }} -> ${{ steps.version-check.outputs.new-version }}"

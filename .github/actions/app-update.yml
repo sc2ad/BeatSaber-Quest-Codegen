@@ -1,0 +1,36 @@
+name: "App Update Check"
+description: "Checks for app updates"
+inputs:
+  last-version-file:
+    required: true
+    description: "Filepath to the last version file that stores the app versions checked"
+  oculus_token:
+    required: true
+    description: "Token to access the oculus api"
+outputs:
+  update-available:
+    description: "Whether an update was available"
+  old-version:
+    description: "The old version that was stored"
+  new-version:
+    description: "The new version that was downloaded"
+runs:
+  using: 'composite'
+  steps:
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
+
+    - run: echo "old-version=${{ cat ${ inputs.last-version-file } }}" >> "$GITHUB_OUTPUT"
+      shell: bash
+
+    - run: deno run --allow-read --allow-write --allow-net ./scripts/deno/appdownload.ts
+      env:
+        OCULUS_TOKEN: $ {{ inputs.oculus-token }}
+      shell: bash
+
+    - run: echo "new-version=${{ cat ${ inputs.last-version-file } }}" >> "$GITHUB_OUTPUT"
+      shell: bash
+
+    - run: echo "update-available=${{ outputs.new-version != outputs.old-version }}" >> "$GITHUB_OUTPUT"
+      shell: bash
