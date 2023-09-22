@@ -60,7 +60,7 @@ jobs:
               repo: context.repo.repo,
             });
             const version = `bs-${ ${{ steps.latest-version.outputs.version }} }`;
-            const tag = tags.data.find(tag => { return tag.name == ; });
+            const tag = tags.data.find(tag => { return tag.name == version; });
             return tag === undefined;
 
   generate-headers:
