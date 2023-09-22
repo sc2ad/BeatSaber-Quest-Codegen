@@ -2,6 +2,7 @@ set(ANDROID_LD lld)
 # include some defines automatically made by qpm
 include(qpm_defines.cmake)
 
+
 cmake_minimum_required(VERSION 3.22)
 project(${COMPILE_ID})
 
@@ -10,6 +11,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED 20)
 set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
+
 
 # define that stores the actual source directory
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
@@ -24,6 +26,7 @@ add_compile_options(-Os -O3)
 add_compile_options(-fdeclspec)
 # compile definitions used
 add_compile_definitions(VERSION=\"${MOD_VERSION}\")
+add_compile_definitions(UNITY_2021)
 add_compile_definitions(ID=\"${MOD_ID}\")
 add_compile_definitions(MOD_ID=\"${MOD_ID}\")
 add_compile_definitions(NEED_UNSAFE_CSHARP)
