@@ -42,7 +42,7 @@ jobs:
           echo "${GITHUB_WORKSPACE}/QPM" >> $GITHUB_PATH
 
       - name: Check for app updates
-        uses: ./app-update
+        uses: ./.github/actions/app-update
         id: version-check
         with:
           oculus_token: ${{ secrets.OCULUS_TOKEN }}
