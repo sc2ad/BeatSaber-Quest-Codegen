@@ -55,7 +55,7 @@ jobs:
         id: cache
         uses: actions/cache@v3
         with:
-          path: ${{GITHUB_WORKSPACE}}/cordl
+          path: ${GITHUB_WORKSPACE}/cordl
           key: cordl
 
       # cargo install into ./cordl, which should also put cordl on path according to cargo install documentation
