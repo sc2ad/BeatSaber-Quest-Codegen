@@ -7,12 +7,7 @@ import * as semver from "https://deno.land/std@0.202.0/semver/mod.ts";
 import * as fs from "https://deno.land/std@0.202.0/fs/mod.ts";
 
 import { sanitize_version } from "./versionhelpers.ts";
-
-const GITHUB_OUTPUT = Deno.env.get('GITHUB_OUTPUT');
-
-async function setOutput(name: string, value: string) {
-    await Deno.writeTextFile(GITHUB_OUTPUT, `${name}="${value}"\n`, { append: true });
-}
+import { setOutput } from "./actionshelpers.ts";
 
 const PACKAGE = Deno.env.get('PACKAGE');
 const OCULUS_TOKEN = Deno.env.get('OCULUS_TOKEN');

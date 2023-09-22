@@ -1,7 +1,7 @@
+import { setOutput } from "./actionshelpers.ts";
 import { sanitize_version } from "./versionhelpers.ts";
 
 const PACKAGE = Deno.env.get("PACKAGE");
-const GITHUB_OUTPUT = Deno.env.get("GITHUB_OUTPUT");
 
 // get the package info for our specific package
 let packageinfo;
@@ -15,7 +15,7 @@ try {
     });
 } catch (error) {
     if (error instanceof Error) {
-        await Deno.writeTextFile(GITHUB_OUTPUT, `found="false"\n`, { append: true });
+        await setOutput('found', 'false');
     }
 }
 
@@ -28,5 +28,5 @@ const packageversions = await fetch(`https://oculusdb.rui2015.me/api/v1/versions
 // TODO: sort instead of assuming first is latest
 const latest = packageversions[0];
 
-await Deno.writeTextFile(GITHUB_OUTPUT, `version="${sanitize_version(latest["version"])}"\n`, { append: true });
-await Deno.writeTextFile(GITHUB_OUTPUT, `found="true"\n`, { append: true });
+await setOutput('version', sanitize_version(latest["version"]));
+await setOutput('found', 'true');
