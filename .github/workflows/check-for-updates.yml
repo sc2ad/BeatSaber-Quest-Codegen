@@ -4,6 +4,7 @@ on:
   schedule:
     # every day at 5:45 PM UTC (should be decently after beatgames usually releases their game)
     - cron: '45 17 * * *'
+  workflow_dispatch:
   push:
     branches:
       - 'master'
