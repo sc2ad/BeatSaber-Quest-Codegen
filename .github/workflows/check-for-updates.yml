@@ -185,7 +185,7 @@ jobs:
         run: sudo apt-get -y install clang-format
 
       - name: Format headers
-        run: deno run --allow-write --allow-run ./scripts/deno/format.ts
+        run: deno run --allow-write --allow-run --allow-env ./scripts/deno/format.ts
 
       - name: Configure commit
         run: |
