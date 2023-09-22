@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - 'master'
+      - 'feat/auto-generation'
     paths:
       - '.github/actions/app-update.yml'
       - '.github/workflows/check-for-updates.yml'
@@ -78,12 +79,15 @@ jobs:
         run: |
           rm -rf ${GITHUB_WORKSPACE}/include
           mv ./codegen/include ./include
+          rm -rf ./codegen
 
       - name: Configure commit
         if: ${{ steps.version-check.outputs.update-available == 'true' }}
         run: |
           git config user.name "Github Actions"
           git config user.email "<>"
+          git checkout -b test-${{ steps.version-check.outputs.new-version }}
+      # we checkout a new branch so that we can test multiple times instead of having to delete commits from a used branch
 
       # last version file is pushed before anything else, and to the main branch of the repo
       - name: Commit and push new lastversion file
