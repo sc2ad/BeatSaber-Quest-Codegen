@@ -81,6 +81,7 @@ jobs:
           git config user.name "Github Actions"
           git config user.email "<>"
           git checkout -b test-${{ steps.version-check.outputs.new-version }}
+          git push --set-upstream origin test-${{ steps.version-check.outputs.new-version }}
       # we checkout a new branch so that we can test multiple times instead of having to delete commits from a used branch
 
       # last version file is pushed before anything else, and to the main branch of the repo
