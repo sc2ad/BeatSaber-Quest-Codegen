@@ -4,7 +4,7 @@ inputs:
   last-version-file:
     required: true
     description: "Filepath to the last version file that stores the app versions checked"
-  oculus_token:
+  oculus-token:
     required: true
     description: "Token to access the oculus api"
 outputs:
@@ -30,7 +30,7 @@ runs:
 
     - run: deno run --allow-read --allow-write --allow-net --allow-env ./scripts/deno/appdownload.ts
       env:
-        OCULUS_TOKEN: $ {{ inputs.oculus-token }}
+        OCULUS_TOKEN: ${{ inputs.oculus-token }}
       shell: bash
 
     - run: echo "new-version=$(cat ${{ inputs.last-version-file }})" >> "$GITHUB_OUTPUT"

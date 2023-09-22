@@ -48,7 +48,7 @@ jobs:
         uses: ./.github/actions/app-update
         id: version-check
         with:
-          oculus_token: ${{ secrets.OCULUS_TOKEN }}
+          oculus-token: ${{ secrets.OCULUS_TOKEN }}
           last-version-file: "${GITHUB_WORKSPACE}/lastversion.text"
 
       - name: Run cordl
