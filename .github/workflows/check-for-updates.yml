@@ -138,13 +138,13 @@ jobs:
       # header files go to a seperate branch unrelated to the main one
       - name: Commit and push new header files to seperate branch
         env:
-          NEW_VERSION: ${{ steps.version-check.outputs.new-version }}
+          VERSION: ${{ needs.update-check.outputs.version }}
           TARGET_BRANCH: ${{ steps.target-branch.outputs.value }}
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
-          git commit -q -m "Update headers -> $NEW_VERSION" --allow-empty
-          git tag ${{ needs.update-check.outputs.version }}
+          git commit -q -m "Update headers -> $VERSION" --allow-empty
+          git tag $VERSION
           git push --set-upstream origin $TARGET_BRANCH
 
       - name: Get Commit ID
