@@ -49,7 +49,7 @@ jobs:
         id: version-check
         uses: actions/github-script@v6
         with:
-          result-encoding: boolean
+          result-encoding: string
           script: |
             const tags = await github.rest.repos.listTags({
               owner: context.repo.owner,
