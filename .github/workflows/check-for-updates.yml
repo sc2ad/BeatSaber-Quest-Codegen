@@ -38,11 +38,6 @@ jobs:
         with:
           package: ${{ env.ANDROID_PACKAGE }}
 
-      - name: Print version results
-        run: |
-          echo "Latest version: ${{ steps.latest-version.outputs.version }}"
-          echo "Package found: ${{ steps.latest-version.outputs.found }}"
-
       - name: Exit if package not found
         if: ${{ !steps.latest-version.outputs.found }}
         uses: actions/github-script@v6
@@ -54,6 +49,7 @@ jobs:
         id: version-check
         uses: actions/github-script@v6
         with:
+          result-encoding: boolean
           script: |
             const tags = await github.rest.repos.listTags({
               owner: context.repo.owner,
@@ -62,6 +58,12 @@ jobs:
             const version = `bs-${{ steps.latest-version.outputs.version }}`;
             const tag = tags.data.find(tag => { return tag.name == version; });
             return tag === undefined;
+
+      - name: Print results
+        run: |
+          echo "Latest version: ${{ steps.latest-version.outputs.version }}"
+          echo "Package found: ${{ steps.latest-version.outputs.found }}"
+          echo "Update happened: ${{ steps.version-check.outputs.result }}"
 
   generate-headers:
     runs-on: ubuntu-latest
