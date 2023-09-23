@@ -45,22 +45,18 @@ jobs:
           script: core.setFailed('package was not found!')
 
       - name: Check if tag exists for latest version
+        continue-on-error: true
         if: ${{ steps.latest-version.outputs.found }}
         id: version-check
-        uses: actions/github-script@v6
-        with:
-          result-encoding: string
-          script: |
-            const tags = await github.rest.repos.listTags({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-            });
-            const version = "bs-${{ steps.latest-version.outputs.version }}";
-            const tag = tags.data.find(tag => {
-              const match = tag.name == version;
-              return match;
-            });
-            return tag === undefined;
+        env:
+          GIT_TAG: bs-${{ needs.update-check.outputs.version }}
+        run: |
+          git rev-parse refs/tags/$GIT_TAG --
+          if (( $? == 0)); then
+            echo "result=false" >> ${GITHUB_OUTPUT}
+          else
+            echo "result=true" >> ${GITHUB_OUTPUT}
+          fi
 
       - name: Print results
         run: |
