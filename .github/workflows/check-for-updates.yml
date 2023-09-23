@@ -68,7 +68,7 @@ jobs:
     needs: update-check
     outputs:
       target-branch: ${{ steps.target-branch.outputs.value }}
-    if: ${{ needs.update-check.outputs.update-happened == 'true' }}
+    if: ${{ needs.update-check.outputs.update-happened }}
     steps:
       - uses: actions/checkout@v2
 
@@ -170,7 +170,7 @@ jobs:
   format-headers:
     runs-on: ubuntu-latest
     needs: [ update-check, generate-headers ]
-    if: ${{ needs.update-check.outputs.update-happened == 'true' }}
+    if: ${{ needs.update-check.outputs.update-happened }}
     steps:
       - name: Checkout updated branch
         uses: actions/checkout@v2
