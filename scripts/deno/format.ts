@@ -5,9 +5,12 @@ const FORMAT_PATH = Deno.env.get("FORMAT_PATH");
 
 const files = [];
 for await (const entry of fs.walk(FORMAT_PATH)) {
-    if (entry.isFile) {
+    if (!entry.isFile) continue;
+
+    if (entry.path.includes("cordl_internals") || entry.name.startsWith("zzzz__")) {
         files.push(entry.path);
     }
+
 }
 
 const fileCount = files.length;
