@@ -32,10 +32,12 @@ for (let i = 0; i < chunks.length; i++) {
 await Promise.all(format_processes);
 
 async function format_chunk(formatfile: string, chunk: string[]) {
+    console.log(`formatting ${chunk.length} files in file ${formatfile}`);
     for await (const filepath of chunk) {
+        console.log(filepath);
         await Deno.writeTextFile(formatfile, `${filepath}${fs.EOL}`, { append: true });
     }
 
-    const edit_version_cmd = new Deno.Command("clang-format", {args: ["-i", "--files", formatfile], stdout: "piped", stderr: "piped"});
-    await edit_version_cmd.spawn();
+    const format_cmd = new Deno.Command("clang-format", {args: ["-i",  "--verbose", "--files", formatfile], stdout: "piped", stderr: "piped"});
+    await format_cmd.spawn();
 }
